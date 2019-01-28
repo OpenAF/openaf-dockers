@@ -1,0 +1,46 @@
+ojob:
+   daemon      : true
+   logToConsole: false
+
+jobs:
+   # INIT job
+   #
+   - name    : Init
+     exec    : >-
+        log("Init logging...");
+
+   # SHUTDOWN job
+   #
+   - name    : Done
+     type    : shutdown
+     exec    : >-
+        log("Done.");
+
+   # TELL THE TIME job
+   #
+   - name    : Tell the time
+     deps    :
+        - Init
+     type    : periodic
+     typeArgs:
+        timeInterval: 10000
+     exec    : >-
+        log(getVersion() + " (" + getDistribution() +") | The current time is " + new Date());
+
+   # WARNING job
+   #
+   - name    : Warning
+     deps    :
+        - Init
+     type    : periodic
+     typeArgs:
+        timeInterval: 30000
+        cron        : "0-30 */1 * * * *"
+     exec     : >-
+        logWarn("Please change this ojob file (/openaf/main.yaml) OR define the OJOB environment variable.");
+
+todo:
+   - Done
+   - Init
+   - Tell the time
+   - Warning
