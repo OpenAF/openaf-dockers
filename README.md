@@ -48,9 +48,7 @@ Invoking the console with a private opack:
 docker run -ti -e OPACKS=https://user:pass@my.server/myOPack.opack openaf/openaf --console
 ````
 
-[Building openaf](openaf/README.md)
-
-_tbc_
+[Building openaf](openaf)
 
 ## OpenAF Console
 
@@ -75,9 +73,7 @@ There are two tags available:
 docker run -ti openaf/openaf-console
 ````
 
-[Building openaf-console](openaf-console/README.md)
-
-_tbc_
+[Building openaf-console](openaf-console)
 
 ## oJob
 
@@ -96,7 +92,7 @@ There are two tags available:
 | latest  | The lastest stable build |
 | nightly | The nightly build        |
 
-[Building oJob](oJob/README.md)
+[Building oJob](oJob)
 
 ## oJobC
 
@@ -115,4 +111,4 @@ There are two tags available:
 | latest  | The lastest stable build |
 | nightly | The nightly build        |
 
-[Building oJobC](oJobC/README.md)
+[Building oJobC](oJobC)
