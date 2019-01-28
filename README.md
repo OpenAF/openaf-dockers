@@ -8,7 +8,7 @@ The main base container for OpenAF.
 
 ### Running
 
-````bash
+````sh
 docker pull openaf/openaf
 ````
 
@@ -31,19 +31,34 @@ The environment variables available:
 
 #### Examples
 
-````bash
+Running commands directly:
+````sh
 docker run -ti -e OPACKS=APIs openaf/openaf -e 'load("apis.js");print(apis.ChuckNorrisJokes.get())'
 ````
+Running a script:
+````sh
+docker run -ti -e OPACKS=APIs -e OPENAF=/scripts/myScript.js -v /myscripts:/scripts openaf/openaf
+````
+Running an oJob:
+````sh
+docker run -ti -e OPACKS=APIs -e OJOB=/ojobs/myJob.yaml -v /myojobs:/ojobs openaf/openaf
+````
+Invoking the console with a private opack:
+````sh
+docker run -ti -e OPACKS=https://user:pass@my.server/myOPack.opack openaf/openaf --console
+````
 
-### Building
+[Building openaf](openaf/README.md)
 
 _tbc_
 
 ## OpenAF Console
 
+Based on the main openaf container facilitates the use of the openaf-console.
+
 ### Running
 
-````bash
+````sh
 docker pull openaf/openaf-console
 ````
 
@@ -54,17 +69,23 @@ There are two tags available:
 | latest  | The lastest stable build |
 | nightly | The nightly build        |
 
-_tbc_
+#### Example
 
-### Building
+````sh
+docker run -ti openaf/openaf-console
+````
+
+[Building openaf-console](openaf-console/README.md)
 
 _tbc_
 
 ## oJob
 
+Based on the main openaf container facilitates the execution of an oJob executing /openaf/main.yaml be default.
+
 ### Running
 
-````bash
+````sh
 docker pull openaf/openaf-ojob
 ````
 
@@ -75,17 +96,15 @@ There are two tags available:
 | latest  | The lastest stable build |
 | nightly | The nightly build        |
 
-_tbc_
-
-### Building
-
-_tbc_
+[Building oJob](oJob/README.md)
 
 ## oJobC
 
+Based on the main openaf container facilitates the execution of an oJob, with ojob-common opack pre-installed, executing /openaf/main.yaml be default.
+
 ### Running
 
-````bash
+````sh
 docker pull openaf/openaf-ojobc
 ````
 
@@ -96,8 +115,4 @@ There are two tags available:
 | latest  | The lastest stable build |
 | nightly | The nightly build        |
 
-_tbc_
-
-### Building
-
-_tbc_
+[Building oJobC](oJobC/README.md)
