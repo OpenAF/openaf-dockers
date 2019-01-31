@@ -15,8 +15,12 @@ if [ ! -z "$OJOB" ]; then
    /openaf/ojob "$OJOB" "$@"
 fi 
 
+if [ ! -z "$OPACK_EXEC" ]; then
+   /openaf/opack exec "$OPACK_EXEC" "$@"
+fi
+
 if [ -z "$OPENAF" ] && [ -z "$OJOB" ]; then
-   if [ -z $1 ]; then
+   if [ -z $1 ] && [ -z "$OPACK_EXEC" ]; then
       /bin/sh
    else
       /openaf/openaf "$@"
