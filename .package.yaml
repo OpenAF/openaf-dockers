@@ -1,0 +1,61 @@
+author: Nuno Aguiar
+scripts:
+  preerase: ''
+  posterase: ''
+  preinstall: ''
+  postinstall: ''
+keywords:
+  - openaf
+  - ojob
+  - ojobc
+  - openaf-console
+  - docker
+bugs:
+  url: https://github.com/OpenAF/openaf-dockers/issues
+repository:
+  type: http
+  url: https://openaf.io/opacks/openaf-dockers.opack
+description: Main OpenAF docker builds source
+name: openaf-dockers
+main: ''
+mainJob: ''
+license: https://github.com/OpenAF/openaf-dockers/blob/master/LICENSE
+version: '20190201'
+dependencies:
+files:
+  - LICENSE
+  - oJob/Dockerfile
+  - oJob/entrypoint.sh
+  - oJob/main.yaml
+  - oJob/README.md
+  - oJobC/Dockerfile
+  - oJobC/entrypoint.sh
+  - oJobC/main.yaml
+  - oJobC/README.md
+  - openaf/Dockerfile
+  - openaf/entrypoint.sh
+  - openaf/installOPacks.js
+  - openaf/README.md
+  - openaf-console/Dockerfile
+  - openaf-console/entrypoint.sh
+  - openaf-console/README.md
+  - README.md
+  - .package.yaml
+filesHash:
+  LICENSE: 7df059597099bb7dcf25d2a9aedfaf4465f72d8d
+  oJob/Dockerfile: 06c9df19ab26eb744977a5468672049eb8ec4206
+  oJob/entrypoint.sh: 7a535ba7b97f27a497d5052856bd63666a295052
+  oJob/main.yaml: 8603425f1cacdc847bff1c7c474b9db3548be81e
+  oJob/README.md: ea76b2e5b449aa26f20e5d9b9e65fd561ce2bce3
+  oJobC/Dockerfile: 527831946d47e45690785c34d146b56edfa2f585
+  oJobC/entrypoint.sh: 7a535ba7b97f27a497d5052856bd63666a295052
+  oJobC/main.yaml: 8603425f1cacdc847bff1c7c474b9db3548be81e
+  oJobC/README.md: 34ef1c4872425f38f33e8cdc631aeeeffe0fd465
+  openaf/Dockerfile: 33ee43212153599be87e16a0b959f6508a67c62d
+  openaf/entrypoint.sh: e8c1ede53563d852152f6b95d4733dc618afa7a3
+  openaf/installOPacks.js: 97b4fe2b41d9c94db2a51609bab3871115fe463e
+  openaf/README.md: 07368ea69b6a24d4bbda4046606d56e913f113cf
+  openaf-console/Dockerfile: 853e6beeb6ed7b948c4f0e9617beaf01ed30eaee
+  openaf-console/entrypoint.sh: 55533eac9e7b2492031615cde5bf9f87aed66f4a
+  openaf-console/README.md: 4e62401469fa378e04e39e0b802c1406ae4db976
+  README.md: 08d0e96349bbfc3760107949e271e27cb5d9ca25
