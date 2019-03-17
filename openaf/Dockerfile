@@ -9,6 +9,10 @@ ARG OPENAFDIST
 COPY installOPacks.js /openaf/.docker/installOPacks.js
 COPY entrypoint.sh /openaf/.docker/entrypoint.sh
 
+# Auxiliary settings
+RUN echo 'PATH=$PATH:/openaf' > /etc/profile.d/openaf.sh \
+ && mv /etc/profile.d/color_prompt /etc/profile.d/color_prompt.sh
+
 # Update SSL certificates
 RUN apk update\
  && apk add ca-certificates wget\

@@ -1,5 +1,8 @@
 #!/bin/sh
 
+PATH=$PATH:/openaf
+export PATH
+
 if [ ! -f /openaf/.installed ]; then
    if [ ! -z "$OPACKS" ] || [ ! -z "$OPACKS_DIR" ]; then
       /openaf/openaf -f /openaf/.docker/installOPacks.js
