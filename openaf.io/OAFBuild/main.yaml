@@ -1,0 +1,147 @@
+# Author     : Nuno Aguiar
+# How to run : ojob main.yaml \
+#    OAFCOMPILE_TARGET=/some/output/dir\
+#    OAFCOMPILE_GITURL=https://github.com/openaf/openaf.git\
+#    OAFCOMPILE_BRANCH=master\
+#    OAFCOMPILE_VERSION=20010101\
+#    OAFCOMPILE_DIST=nightly\
+#    OAFCOMPILE_JSON=nightly.json\
+#    OAFCOMPILE_TEST=yes
+
+init:
+  folder: /openaf/tmp
+  branch: master
+  giturl: https://github.com/openaf/openaf
+  target: /output
+  dist  : nightly
+  test  : yes
+
+include:
+  - oJobBasics.yaml
+
+ojob:
+  async       : true
+  argsFromEnvs: true
+
+todo: 
+
+  - oJob Jobs Final Report
+
+  - Clone from GitHub
+  - Compile OpenAF
+  - Copy OpenAF to target
+
+  - Test build
+  - Copy test results to target
+
+
+jobs:
+
+  #########################
+  - name: Clone from GitHub
+    exec: |
+      global.OAFCOMPILE_FOLDER = _$(args.OAFCOMPILE_FOLDER).default(args.init.folder);
+      args.OAFCOMPILE_BRANCH   = _$(args.OAFCOMPILE_BRANCH).default(args.init.branch);
+      args.OAFCOMPILE_GITURL   = _$(args.OAFCOMPILE_GITURL).default(args.init.giturl);
+
+      plugin("GIT");
+      var git = new GIT();
+
+      log("Preparing temporary folder...");
+      io.rm(global.OAFCOMPILE_FOLDER);
+      io.mkdir(global.OAFCOMPILE_FOLDER);
+
+      log("Cloning " + args.OAFCOMPILE_GITURL + " (branch: " + args.OAFCOMPILE_BRANCH + ")...");
+      git.clone(args.OAFCOMPILE_GITURL, global.OAFCOMPILE_FOLDER, false, args.OAFCOMPILE_BRANCH, args.OAFCOMPILE_USER, args.OAFCOMPILE_PASS);
+
+  ######################
+  - name: Compile OpenAF 
+    deps:
+      - Clone from GitHub
+    exec: |
+      global.OAFCOMPILE_VERSION = _$(args.OAFCOMPILE_VERSION).default(ow.format.fromDate(new Date(), "yyyyMMdd"));
+      args.OAFCOMPILE_DIST = _$(args.OAFCOMPILE_DIST).default(args.init.dist);
+      args.OAFCOMPILE_JSON = _$(args.OAFCOMPILE_JSON).default("/openaf/" + args.OAFCOMPILE_DIST + ".json");
+
+      if (!io.fileExists(args.OAFCOMPILE_JSON)) args.OAFCOMPILE_JSON="/openaf/nightly.json";
+
+      global.OAFCOMPILE_VERSION_OPTION = "openafVERSION=" + global.OAFCOMPILE_VERSION;
+      args.OAFCOMPILE_DIST_OPTION = "openafDIST=" + args.OAFCOMPILE_DIST;
+      args.OAFCOMPILE_JSON_OPTION = "openafJSON=" + args.OAFCOMPILE_JSON;
+
+      log("Compiling from " + global.OAFCOMPILE_FOLDER + " (" + global.OAFCOMPILE_VERSION_OPTION + " " + args.OAFCOMPILE_DIST_OPTION + " " + args.OAFCOMPILE_JSON_OPTION + ")...");
+      var res = sh("ojob build.yaml " + global.OAFCOMPILE_VERSION_OPTION + " " + args.OAFCOMPILE_DIST_OPTION + " " + args.OAFCOMPILE_JSON_OPTION + " 2>&1 > build.log", void 0, void 0, false, global.OAFCOMPILE_FOLDER, true);
+      if (res.exitcode != 0) throw "Compile operation failed.";
+
+  #############################
+  - name: Copy OpenAF to target
+    deps:
+      - Compile OpenAF
+    exec: |
+      args.OAFCOMPILE_TARGET = _$(args.OAFCOMPILE_TARGET).default(args.init.target);
+
+      log("Preparing target folder..."); 
+      io.mkdir(args.OAFCOMPILE_TARGET);
+      io.rm(args.OAFCOMPILE_TARGET + "/openaf.jar");
+      io.rm(args.OAFCOMPILE_TARGET + "/openaf.jar.repacked");
+      io.rm(args.OAFCOMPILE_TARGET + "/build.log");
+      io.rm(args.OAFCOMPILE_TARGET + "/odoc");
+
+      log("Copying openaf-" + global.OAFCOMPILE_VERSION + ".jar...");
+      io.cp(global.OAFCOMPILE_FOLDER + "/openaf.jar.orig", args.OAFCOMPILE_TARGET + "/openaf-" + global.OAFCOMPILE_VERSION + ".jar");
+      io.cp(global.OAFCOMPILE_FOLDER + "/openaf.jar", args.OAFCOMPILE_TARGET + "/openaf-" + global.OAFCOMPILE_VERSION + ".jar.repacked");
+      sh("ln -s openaf-" + global.OAFCOMPILE_VERSION + ".jar openaf.jar", void 0, void 0, true, args.OAFCOMPILE_TARGET);
+      sh("ln -s openaf-" + global.OAFCOMPILE_VERSION + ".jar.repacked openaf.jar.repacked", void 0, void 0, true, args.OAFCOMPILE_TARGET);
+
+      log("Copying release and build...");
+      io.writeFileString(args.OAFCOMPILE_TARGET + "/release", global.OAFCOMPILE_VERSION); 
+      io.writeFileString(args.OAFCOMPILE_TARGET + "/build", global.OAFCOMPILE_VERSION); 
+
+      log("Copying build.log...");
+      io.cp(global.OAFCOMPILE_FOLDER + "/build.log", args.OAFCOMPILE_TARGET + "/build-" + global.OAFCOMPILE_VERSION + ".log");
+
+      log("Copying odoc folder...");
+      io.mkdir(args.OAFCOMPILE_TARGET + "/odoc");
+      $from(io.listFiles(global.OAFCOMPILE_FOLDER + "/odocweb").files)
+      .pselect((r) => {
+         try { 
+            io.cp(r.canonicalPath, args.OAFCOMPILE_TARGET + "/odoc/" + r.filename);
+         } catch(e) {
+            logErr("Error copying odoc: " + String(e));
+         }
+      });
+      log("Newly compiled openaf copied to " + args.OAFCOMPILE_TARGET + ".");
+
+  ##################
+  - name: Test build
+    deps:
+      - Compile OpenAF
+    exec: |
+      args.OAFCOMPILE_TEST = _$(args.OAFCOMPILE_TEST).isString().default(args.init.test);
+
+      if (args.OAFCOMPILE_TEST.toLowerCase() == "yes") {
+        log("Testing build in " + global.OAFCOMPILE_FOLDER + "...");
+        log("Adding ojob-common functionality...");
+        sh(["java", "-jar", "../openaf.jar", "--opack", "-e", "install /openaf/oJob-common"], void 0, void 0, true, global.OAFCOMPILE_FOLDER + "/tests");
+        var res = sh("java -jar ../openaf.jar --ojob -e autoTestAll.yaml 2>&1 > autoTestAll.log", void 0, void 0, false, global.OAFCOMPILE_FOLDER + "/tests", true);
+      } else {
+        logWarn("Ignoring testing.");
+      }
+
+  ###################################
+  - name: Copy test results to target
+    deps:
+      - Test build
+    exec: |
+      args.OAFCOMPILE_TARGET = _$(args.OAFCOMPILE_TARGET).default(args.init.target);
+      args.OAFCOMPILE_TEST = _$(args.OAFCOMPILE_TEST).isString().default(args.init.test);
+
+      if (args.OAFCOMPILE_TEST.toLowerCase() == "yes") {
+        log("Copying test results...");
+
+        io.mkdir(args.OAFCOMPILE_TARGET + "/tests");
+        io.cp(global.OAFCOMPILE_FOLDER + "/tests/autoTestAll.log", args.OAFCOMPILE_TARGET + "/tests/autoTestAll-" + global.OAFCOMPILE_VERSION + ".log");
+        io.cp(global.OAFCOMPILE_FOLDER + "/tests/autoTestAll.md", args.OAFCOMPILE_TARGET + "/tests/autoTestAll-" + global.OAFCOMPILE_VERSION + ".md");
+        io.cp(global.OAFCOMPILE_FOLDER + "/tests/autoTestAll.results.json", args.OAFCOMPILE_TARGET + "/tests/autoTestAll-" + global.OAFCOMPILE_VERSION + ".results.json");
+        log("Copied test results to " + args.OAFCOMPILE_TARGET);
+      }

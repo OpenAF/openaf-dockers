@@ -1,0 +1,61 @@
+version: '3'
+services:
+  ############
+  opackserver:
+    build: https://github.com/OpenAF/openaf-opacks.git#:oPackServer
+    ports:
+      - "8090:8090"
+      - "8100:8100"
+    volumes:
+      - opacks:/data
+    networks:
+      - openafio
+    environment:
+      OPACKSERVER_INITRELOAD    : "true"
+      OPACKSERVER_URL           : "http://127.0.0.1:8090"
+      OPACKSERVER_PATH          : "/data"
+      OPACKSERVER_FOLDER2OPACK  : "true"
+      OPACKSERVER_OPACKNOVERSION: "true"
+
+  #################
+  copy-main-opacks:
+    build      : https://github.com/OpenAF/openaf-opacks.git#:copy4GIT
+    volumes    :
+      - opacks:/data
+    networks   :
+      - openafio
+    environment:
+      CLONEGIT_GITURL: https://github.com/OpenAF/openaf-opacks.git
+      CLONEGIT_TARGET: /data/opacks
+      CLONEGIT_MERGE : "true"
+
+  #########
+  oafbuild:
+    build      : https://github.com/OpenAF/openaf-opacks.git#:OAFBuild
+    volumes    :
+      - oaf:/output
+    networks   :
+      - openafio
+    environment:
+      OAFCOMPILE_TARGET: /output
+      OAFCOMPILE_GITURL: https://github.com/openaf/openaf.git
+      OAFCOMPILE_BRANCH: master
+      OAFCOMPILE_DIST  : nightly
+      OAFCOMPILE_TEST  : "no"
+  
+volumes:
+  opacks:
+    driver_opts:
+      type  : none
+      device: /tmp/data/opacks
+      o     : bind 
+
+  oaf:
+    driver_opts:
+      type  : none
+      device: /tmp/data/oaf
+      o     : bind
+
+networks:
+  openafio:
+

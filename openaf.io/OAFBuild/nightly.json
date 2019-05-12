@@ -1,0 +1,8 @@
+{
+   "noHomeComms"   : false,
+   "opackCentral"  : [ "https://openaf.io/opack.db", "http://openaf.io/opack.db" ],
+   "openafBuild"   : [ "https://openaf.io/nightly/build", "http://openaf.io/nightly/build" ],
+   "openafRelease" : [ "https://openaf.io/nightly/release", "http://openaf.io/nightly/release" ],
+   "openafDownload": [ "https://openaf.io/nightly", "http://openaf.io/nightly" ],
+   "odoc"          : [ "https://openaf.io/nightly/odoc", "http://openaf.io/nightly/odoc" ]
+}

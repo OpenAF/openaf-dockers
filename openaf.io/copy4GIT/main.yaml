@@ -1,0 +1,52 @@
+# Author     : Nuno Aguiar
+# How to run : ojob main.yaml CLONEGIT_TARGET=/some/dir/data CLONEGIT_URL=https://github.com/openaf/openaf.git
+
+ojob:
+  argsFromEnvs: true
+  logToConsole: false
+
+todo:
+  - name: Init
+  - name: Copy repository
+
+###########################################################
+# The code
+
+jobs:
+  # Initialize global variables
+  - name: Init
+    exec: |
+      global.target = _$(args.CLONEGIT_TARGET).default("/data");
+      global.giturl = _$(args.CLONEGIT_GITURL).$_("You need to provide a CLONEGIT_GITURL.");
+      global.temp   = _$(args.CLONEGIT_TEMP).default(global.target + ".tmp");
+
+      log("Checking temp and target folders...");
+      io.mkdir(global.target);
+      io.mkdir(global.temp);
+      if (io.fileExists(global.temp + "/.git")) {
+        logErr("The temp folder can't have an active GIT repository.");
+        throw "The temp folder can't have an active GIT repository.";
+      }
+  
+  # Copy repository
+  - name: Copy repository
+    deps:
+      - Init
+    exec: |
+      plugin("GIT");
+      try {
+        var git = new GIT();
+
+        log("Retriving '" + global.giturl + "' to '" + global.temp + "' temporary folder...");
+        git.clone(global.giturl, global.temp, false, void 0, global.CLONEGIT_BRANCH, global.CLONEGIT_USER, global.CLONEGIT_PASS);
+
+        log("Preparing target folder '" + global.target + "'...");
+        io.rm(global.target);
+        io.rm(global.temp + "/.git");
+        io.mv(global.temp, global.target);
+
+        log("Repository copy done.");
+      } catch(e) {
+        logErr("Problem copying repository: " + String(e));
+      }
+
