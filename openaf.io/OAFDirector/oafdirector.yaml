@@ -1,0 +1,79 @@
+init:
+  PORT         : &PORT          8099
+  IMAGE_BUILD  : &IMAGE_BUILD   openafio_oafbuild:latest
+  OPACKS_FOLDER: &OPACKS_FOLDER /tmp/data/opacks
+  OAF_FOLDER   : &OAF_FOLDER    /tmp/data/oaf
+  OAF_NETWORK  : &OAF_NETWORK   openafio_openafio
+
+include:
+  - docker.yaml
+  - oJobRest.yaml
+
+ojob:
+  daemon: true
+
+todo:
+  - name: REST Start Server
+    args:
+      port: *PORT
+
+  - name: REST Stop Server
+    args:
+      port: *PORT
+
+  - Prepare Build OAF
+  
+jobs:
+  #########################
+  - name: Prepare Build OAF
+    to  : REST Service
+    args:
+      port      : *PORT
+      uri       : /build
+      execGET   : "return { result: 0 }"
+      execPOST  : "oJobRunJobAsync('Build OAF', request.params); return { result: 1 }"
+      execPUT   : "return { result: 0 }"
+      execDELETE: "return { result: 0 }"
+
+  #######################
+  - name: Prepare default
+    to  : REST Service
+    args: 
+      uri       : /
+      port      : *PORT
+      execGET   : "return { result: 0 }"
+      execPOST  : "return { result: 0 }"
+      execPUT   : "return { result: 0 }"
+      execDELETE: "return { result: 0 }"
+
+
+  #################
+  - name: Build OAF
+    to  : Docker Execute
+    args:
+      image      : *IMAGE_BUILD
+      OAF_FOLDER : *OAF_FOLDER
+      OAF_NETWORK: *OAF_NETWORK
+    exec: |
+      args.branch  = _$(args.branch).isString().default("master");
+      args.dist    = _$(args.dist).isString().default("nightly");
+
+      args.envs = {
+        OAFCOMPILE_TARGET : "/output",
+        OAFCOMPILE_TEST   : "no",
+        OAFCOMPILE_BRANCH : args.branch,
+        OAFCOMPILE_VERSION: args.version,
+        OAFCOMPILE_DIST   : args.dist
+      };
+
+      args.extra = {
+        NetworkingConfig: {
+          EndpointsConfig: { }
+        }
+      };
+      args.extra.Binds = [];
+      args.extra.Binds.push(args.OAF_FOLDER + ":" + args.envs.OAFCOMPILE_TARGET + ":rw");
+
+      args.extra.NetworkingConfig.EndpointsConfig[args.OAF_NETWORK] = {};
+
+      sprint(args);

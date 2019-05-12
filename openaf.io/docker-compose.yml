@@ -30,18 +30,18 @@ services:
       CLONEGIT_MERGE : "true"
 
   #########
-  oafbuild:
-    build      : https://github.com/OpenAF/openaf-opacks.git#:OAFBuild
-    volumes    :
-      - oaf:/output
-    networks   :
-      - openafio
-    environment:
-      OAFCOMPILE_TARGET: /output
-      OAFCOMPILE_GITURL: https://github.com/openaf/openaf.git
-      OAFCOMPILE_BRANCH: master
-      OAFCOMPILE_DIST  : nightly
-      OAFCOMPILE_TEST  : "no"
+  #oafbuild:
+  #  build      : https://github.com/OpenAF/openaf-opacks.git#:OAFBuild
+  #  volumes    :
+  #    - oaf:/output
+  #  networks   :
+  #    - openafio
+  #  environment:
+  #    OAFCOMPILE_TARGET: /output
+  #    OAFCOMPILE_GITURL: https://github.com/openaf/openaf.git
+  #    OAFCOMPILE_BRANCH: master
+  #    OAFCOMPILE_DIST  : nightly
+  #    OAFCOMPILE_TEST  : "no"
   
 volumes:
   opacks:
