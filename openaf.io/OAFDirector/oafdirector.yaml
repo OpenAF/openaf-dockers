@@ -1,9 +1,11 @@
 init:
-  PORT         : &PORT          8099
-  IMAGE_BUILD  : &IMAGE_BUILD   openafio_oafbuild:latest
-  OPACKS_FOLDER: &OPACKS_FOLDER /tmp/data/opacks
-  OAF_FOLDER   : &OAF_FOLDER    /tmp/data/oaf
-  OAF_NETWORK  : &OAF_NETWORK   openafio_openafio
+  PORT            : &PORT             8099
+  IMAGE_BUILD     : &IMAGE_BUILD      openafio_oafbuild:latest
+  IMAGE_COPYOPACKS: &IMAGE_COPYOPACKS openafio_copy-main-opacks:latest
+  OPACKS_FOLDER   : &OPACKS_FOLDER    /tmp/data/opacks
+  OAF_FOLDER      : &OAF_FOLDER       /tmp/data/oaf
+  OAF_NETWORK     : &OAF_NETWORK      openafio_openafio
+  OPACKS_NETWORK  : &OPACKS_NETWORK   openafio_openafio
 
 include:
   - docker.yaml
@@ -22,6 +24,7 @@ todo:
       port: *PORT
 
   - Prepare Build OAF
+  - Prepare Rebuild oPacks
   
 jobs:
   #########################
@@ -32,6 +35,17 @@ jobs:
       uri       : /build
       execGET   : "return { result: 0 }"
       execPOST  : "oJobRunJobAsync('Build OAF', request.params); return { result: 1 }"
+      execPUT   : "return { result: 0 }"
+      execDELETE: "return { result: 0 }"
+
+  ##############################
+  - name: Prepare Rebuild oPacks
+    to  : REST Service
+    args:
+      port      : *PORT
+      uri       : /opacks/rebuild
+      execGET   : "return { result: 0 }"
+      execPOST  : "oJobRunJobAsync('Copy Main oPacks', request.params); return { result: 1 }"
       execPUT   : "return { result: 0 }"
       execDELETE: "return { result: 0 }"
 
@@ -66,14 +80,26 @@ jobs:
         OAFCOMPILE_DIST   : args.dist
       };
 
-      args.extra = {
-        NetworkingConfig: {
-          EndpointsConfig: { }
-        }
-      };
-      args.extra.Binds = [];
+      args.extra = { NetworkingConfig: { EndpointsConfig: {} }, Binds: [] };
       args.extra.Binds.push(args.OAF_FOLDER + ":" + args.envs.OAFCOMPILE_TARGET + ":rw");
 
       args.extra.NetworkingConfig.EndpointsConfig[args.OAF_NETWORK] = {};
 
-      sprint(args);
+  ########################
+  - name: Copy Main oPacks
+    to  : Docker Execute
+    args:
+      image         : *IMAGE_COPYOPACKS
+      OPACKS_FOLDER : *OPACKS_FOLDER
+      OPACKS_NETWORK: *OPACKS_NETWORK
+    exec: |
+      args.envs = {
+        CLONEGIT_GITURL: "https://github.com/OpenAF/openaf-opacks.git",
+        CLONEGIT_TARGET: "/data/opacks",
+        CLONEGIT_MERGE : "true"
+      };
+
+      args.extra = { NetworkingConfig: { EndpointsConfig: {} }, Binds: [] };
+      args.extra.Binds.push(args.OPACKS_FOLDER + ":/data" + ":rw");
+
+      args.extra.NetworkingConfig.EndpointsConfig[args.OPACKS_NETWORK] = {};
