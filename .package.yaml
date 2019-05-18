@@ -20,42 +20,80 @@ name: openaf-dockers
 main: ''
 mainJob: ''
 license: 'https://github.com/OpenAF/openaf-dockers/blob/master/LICENSE'
-version: '20190316'
+version: '20190517'
 dependencies: null
 files:
-  - openaf-console/Dockerfile
-  - openaf-console/README.md
-  - openaf-console/entrypoint.sh
-  - oJob/Dockerfile
-  - oJob/README.md
-  - oJob/entrypoint.sh
-  - oJob/main.yaml
-  - oJobC/Dockerfile
-  - oJobC/README.md
-  - oJobC/entrypoint.sh
-  - oJobC/main.yaml
   - .package.yaml
   - LICENSE
-  - README.md
+  - oJob/Dockerfile
+  - oJob/entrypoint.sh
+  - oJob/main.yaml
+  - oJob/README.md
+  - oJobC/Dockerfile
+  - oJobC/entrypoint.sh
+  - oJobC/main.yaml
+  - oJobC/README.md
   - openaf/Dockerfile
-  - openaf/README.md
   - openaf/entrypoint.sh
   - openaf/installOPacks.js
+  - openaf/README.md
+  - openaf-11/Dockerfile
+  - openaf-11/entrypoint.sh
+  - openaf-11/installOPacks.js
+  - openaf-11/README.md
+  - openaf-console/Dockerfile
+  - openaf-console/entrypoint.sh
+  - openaf-console/README.md
+  - openaf-j9/Dockerfile
+  - openaf-j9/entrypoint.sh
+  - openaf-j9/installOPacks.js
+  - openaf-j9/README.md
+  - openaf.io/copy4GIT/Dockerfile
+  - openaf.io/copy4GIT/main.yaml
+  - openaf.io/docker-compose.yml
+  - openaf.io/OAFBuild/Dockerfile
+  - openaf.io/OAFBuild/main.yaml
+  - openaf.io/OAFBuild/nightly.json
+  - openaf.io/OAFBuild/stable.json
+  - openaf.io/OAFDirector/oafdirector.yaml
+  - openaf.io/opackServer/Dockerfile
+  - openaf.io/opackServer/main.yaml
+  - openaf.io/opackServer/README.md
+  - README.md
 filesHash:
-  openaf-console/Dockerfile: 853e6beeb6ed7b948c4f0e9617beaf01ed30eaee
-  openaf-console/README.md: 4e62401469fa378e04e39e0b802c1406ae4db976
-  openaf-console/entrypoint.sh: c1f52eebe07efbb7329048c66208c9b7aa9bc13a
+  LICENSE: 7df059597099bb7dcf25d2a9aedfaf4465f72d8d
   oJob/Dockerfile: 06c9df19ab26eb744977a5468672049eb8ec4206
-  oJob/README.md: ea76b2e5b449aa26f20e5d9b9e65fd561ce2bce3
   oJob/entrypoint.sh: e5e3097047fcf035bdbe1e07405a4f2244457e49
   oJob/main.yaml: 8603425f1cacdc847bff1c7c474b9db3548be81e
+  oJob/README.md: ea76b2e5b449aa26f20e5d9b9e65fd561ce2bce3
   oJobC/Dockerfile: 527831946d47e45690785c34d146b56edfa2f585
-  oJobC/README.md: 34ef1c4872425f38f33e8cdc631aeeeffe0fd465
   oJobC/entrypoint.sh: e5e3097047fcf035bdbe1e07405a4f2244457e49
   oJobC/main.yaml: 8603425f1cacdc847bff1c7c474b9db3548be81e
-  LICENSE: 7df059597099bb7dcf25d2a9aedfaf4465f72d8d
-  README.md: 08d0e96349bbfc3760107949e271e27cb5d9ca25
-  openaf/Dockerfile: 8bbd9e74361fe124f5358185d6ddf4effbe53b4d
-  openaf/README.md: 07368ea69b6a24d4bbda4046606d56e913f113cf
+  oJobC/README.md: 34ef1c4872425f38f33e8cdc631aeeeffe0fd465
+  openaf/Dockerfile: 96f57550a3a9d950e1617ac64397b7682f987ada
   openaf/entrypoint.sh: fab2355fe7f7d8b20adfcfa924c07320437ba09c
   openaf/installOPacks.js: 97b4fe2b41d9c94db2a51609bab3871115fe463e
+  openaf/README.md: 07368ea69b6a24d4bbda4046606d56e913f113cf
+  openaf-11/Dockerfile: a23111a4f85bbaeb0f5160f668422d8c484f51a9
+  openaf-11/entrypoint.sh: e8c1ede53563d852152f6b95d4733dc618afa7a3
+  openaf-11/installOPacks.js: 97b4fe2b41d9c94db2a51609bab3871115fe463e
+  openaf-11/README.md: 2db7438f44794c795556b70f41879cbe43467941
+  openaf-console/Dockerfile: 853e6beeb6ed7b948c4f0e9617beaf01ed30eaee
+  openaf-console/entrypoint.sh: c1f52eebe07efbb7329048c66208c9b7aa9bc13a
+  openaf-console/README.md: 4e62401469fa378e04e39e0b802c1406ae4db976
+  openaf-j9/Dockerfile: 62c591e7697b59ef7d6b8da7bdccb5f25d996b3d
+  openaf-j9/entrypoint.sh: e8c1ede53563d852152f6b95d4733dc618afa7a3
+  openaf-j9/installOPacks.js: 6b0fe91ce815fd53784128f2a5767362ee0785d8
+  openaf-j9/README.md: d2cfc4d074fac0c34dd4175eaa69dc5939dd2a8e
+  openaf.io/copy4GIT/Dockerfile: a3edbc6333c0878eaeebfd6c54aa6add9441efc2
+  openaf.io/copy4GIT/main.yaml: 339e550788f66b5a0f51870545e9a1fbe6eb8b76
+  openaf.io/docker-compose.yml: 4b64743871cf45029f3a4b2b665c568c099fef34
+  openaf.io/OAFBuild/Dockerfile: 0d47c6cb9a0835b1bf120887c704984bfe82ded6
+  openaf.io/OAFBuild/main.yaml: aa40eb7f30e4b60ebf0451a365144bd3eeb0c044
+  openaf.io/OAFBuild/nightly.json: 2befd254602d07cc20cd444987e1bb57e9d79c9f
+  openaf.io/OAFBuild/stable.json: 5d2c20079ef1973a6fa4d1e443ed9f28f2495742
+  openaf.io/OAFDirector/oafdirector.yaml: c5b058ae8da8758e9edf0a0f27e7459ca0f74717
+  openaf.io/opackServer/Dockerfile: a3edbc6333c0878eaeebfd6c54aa6add9441efc2
+  openaf.io/opackServer/main.yaml: 3ad7f54656a12b1d94058db38d71b0da7913d407
+  openaf.io/opackServer/README.md: a322409f9f814ab409c484173662f3a1ebb3ca1d
+  README.md: 08d0e96349bbfc3760107949e271e27cb5d9ca25
