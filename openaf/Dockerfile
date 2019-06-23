@@ -23,6 +23,7 @@ RUN apk update\
 RUN cd /openaf\
  && wget https://openaf.io/$OPENAFDIST/openaf.jar -q\
  && java -jar openaf.jar --repack\
+ && sleep 2\
  && java -jar openaf.jar --install\
  && chmod u+x /openaf/.docker/entrypoint.sh
 

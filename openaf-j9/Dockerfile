@@ -21,6 +21,7 @@ RUN echo 'PATH=$PATH:/openaf' > /etc/profile.d/openaf.sh \
 RUN cd /openaf\
  && wget https://openaf.io/$OPENAFDIST/openaf.jar -q\
  && java -Xtune:virtualized -Xshareclasses:persistent -Xshareclasses:name=openaf -Xshareclasses:cacheDir=/openaf -jar openaf.jar --repack\
+ && sleep 2\
  && java -Xtune:virtualized -Xshareclasses:persistent -Xshareclasses:name=openaf -Xshareclasses:cacheDir=/openaf -jar openaf.jar --install args="-Xquickstart -Xtune:virtualized -Xshareclasses:persistent -Xshareclasses:name=openaf -Xshareclasses:cacheDir=/openaf"\
  && chmod u+x /openaf/.docker/entrypoint.sh
 
