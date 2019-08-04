@@ -7,13 +7,13 @@ Quick, simple, temporary file browser for a quick hack.
 1. Build the container
 
 ````bash
-docker build -t fbrowser https://github.com/OpenAF/openaf-dockers.git#openaf.io:fbrowser
+docker build -t fbrowser https://github.com/OpenAF/openaf-dockers.git#:openaf.io/fbrowser
 ````
 
 2. Run the container
 
 ````bash
-docker run --rm -ti -v [the folder you want to expose]:/output -p 8888:80 fbrowser
+docker run --rm -ti -v [the folder or volume you want to expose]:/output -p 8888:80 fbrowser
 ````
 
 3. Point your browser to the docker host address on port 8888 (e.g. http://127.0.0.1:8888)
