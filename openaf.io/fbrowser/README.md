@@ -7,7 +7,7 @@ Quick, simple, temporary file browser for a quick hack.
 1. Build the container
 
 ````bash
-docker build -t fbrowser https://github.com/OpenAF/openaf-dockers.git#:openaf-fbrowser
+docker build -t fbrowser https://github.com/OpenAF/openaf-dockers.git#openaf.io:fbrowser
 ````
 
 2. Run the container
