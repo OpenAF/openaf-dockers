@@ -1,0 +1,33 @@
+# Author: Nuno Aguiar
+# File browser
+
+init:
+  port  : &PORT   80
+  folder: &FOLDER /output
+
+ojob:
+  daemon: true
+  opacks:
+    - oJob-common
+
+include:
+  - oJobHTTPd.yaml
+
+
+todo:
+  # -----------------------
+  - name: HTTP Start Server
+    args:
+      port   : *PORT
+      mapLibs: true
+  # ------------------
+  - name: Browse files
+
+jobs:
+  # -----------------
+  - name: Browse files
+    to  : HTTP File Browse
+    args:
+      uri : /
+      port: *PORT
+      path: *FOLDER
