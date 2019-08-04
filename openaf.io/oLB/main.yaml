@@ -1,0 +1,83 @@
+ojob:
+  argsFromEnvs: true
+  logToConsole: false
+  sequential  : true
+  opacks      :
+     - oJob-common
+
+include:
+  - oJobBasics.yaml
+
+jobs:
+  #---------------------
+  - name: Launch HAProxy
+    deps:
+      - Rewrite configuration
+    to  : oJob Process Launch
+    args:
+      cmd: "haproxy -db -p /openaf/haproxy.pid -f /openaf/haproxy.cfg"
+
+  #----------------------------
+  - name: Rewrite configuration
+    exec: |
+      args.FILTER_PATH  = _$(args.FILTER_PATH).isString().default(void 0);
+      args.FILTER_VALUE = _$(args.FILTER_VALUE).isString().default(void 0);
+      args.BACKEND_PORT = _$(args.BACKEND_PORT).isString().default("80");
+      args.PORT = _$(args.PORT).isString().default("80");
+      args.HOST = _$(args.HOST).isString().default("*");
+      args.BALANCE = _$(args.BALANCE).isString().default("roundrobin");
+
+      var filter = "";
+      var backends = $from(global.containers);
+      if (isDef(args.FILTER_PATH)) {
+         backends = backends.match(args.FILTER_PATH, args.FILTER_VALUE);
+      }
+      backends = backends.select((r) => { return {
+         name: r.Names[0],
+         port: args.BACKEND_PORT
+      }});
+
+      $from(backends).select((r) => { r.name = r.name.replace(/^\//, ""); r.host = r.name;});
+      if(!(io.fileExists("/etc/haproxy/haproxy.cfg"))) {
+         io.mv("/etc/haproxy/haproxy.cfg", "/etc/haproxy/haproxy.old.cfg");h
+      }
+      io.writeFileString("/openaf/haproxy.cfg", templify(io.readFileString("/openaf/haproxy.cfg.hbs"), {
+        host: args.HOST,
+        port: args.PORT,
+        balance: args.BALANCE,
+        backends: backends
+      }));
+      
+      if(io.fileExists("/openaf/haproxy.pid")) {
+        log("Reloading for " + stringify(backends));
+        sh("haproxy -f /openaf/haproxy.cfg -p /openaf/haproxy.pid -sf $(cat /openaf/haproxy.pid)");
+      }
+      log(io.readFileString("/openaf/haproxy.cfg"));
+
+  #-----------
+  - name: Init
+    exec: |
+      load("docker.js");
+      global.dck = new Docker();
+      global.containers = global.dck.getContainers(); 
+      oJobRunJob("Rewrite configuration", args);
+
+  #-------------------------------------
+  - name    : Check for other containers
+    type    : periodic
+    typeArgs:
+       cron: "*/5 * * * * *"
+    exec    : |
+       var old = $path(global.containers, "[].Names[0]");
+       global.containers = global.dck.getContainers(); 
+       if (!compare($path(global.containers, "[].Names[0]"), old)) {
+          // found differences
+          oJobRunJob("Rewrite configuration", args);
+       }
+
+todo:
+  - Init
+  - Rewrite configuration
+  - Launch HAProxy
+  - Check for other containers
+  - oJob Process Wait
