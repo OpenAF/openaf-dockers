@@ -1,7 +1,7 @@
 ARG DIST
 ARG OPENAFDIST
 
-FROM openjdk:8-jdk-alpine
+FROM openjdk:8-jre-alpine
 ARG DIST
 ARG OPENAFDIST
 
@@ -21,9 +21,8 @@ RUN apk update\
 
 # Install openaf and prepare everthing
 RUN cd /openaf\
- && wget https://openaf.io/$OPENAFDIST/openaf.jar -q\
- && java -jar openaf.jar --repack\
- && sleep 2\
+ && wget -O openaf.jar.orig https://openaf.io/$OPENAFDIST/openaf.jar -q\
+ && wget -O openaf.jar https://openaf.io/$OPENAFDIST/openaf.jar.repacked -q\
  && java -jar openaf.jar --install\
  && chmod u+x /openaf/.docker/entrypoint.sh
 
