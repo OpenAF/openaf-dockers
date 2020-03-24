@@ -1,7 +1,7 @@
 ARG DIST
 ARG OPENAFDIST
 
-FROM adoptopenjdk/openjdk11:alpine-slim
+FROM openjdk:15-alpine
 ARG DIST
 ARG OPENAFDIST
 
