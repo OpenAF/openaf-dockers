@@ -5,6 +5,9 @@ FROM openjdk:8-jre-alpine
 ARG DIST
 ARG OPENAFDIST
 
+# Upgrade alpine
+RUN apk upgrade
+
 # Copy auxiliary scripts
 COPY installOPacks.js /openaf/.docker/installOPacks.js
 COPY entrypoint.sh /openaf/.docker/entrypoint.sh
