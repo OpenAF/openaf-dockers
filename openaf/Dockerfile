@@ -7,6 +7,7 @@ ARG OPENAFDIST
 
 # Upgrade alpine
 RUN apk upgrade
+RUN apk upgrade openjdk8-jre
 
 # Copy auxiliary scripts
 COPY installOPacks.js /openaf/.docker/installOPacks.js
