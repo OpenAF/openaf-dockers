@@ -1,6 +1,7 @@
 var OPACKS     = getEnv("OPACKS");
 var OPACKS_DIR = getEnv("OPACKS_DIR");
 var OPACKS_DB  = getEnv("OPACKS_DB");
+var OAF_ORIG   = getEnv("OAF_ORIG");
 
 if (isDef(OPACKS_DB) && OPACKS_DB != null) {
   var packsdb = String(OPACKS_DB).split(/,/);
@@ -20,4 +21,8 @@ if (isDef(OPACKS_DIR) && OPACKS_DIR != null) {
         if (v.isFolder) oPack("install " + v.canonicalPath);
      });
   }
+}
+
+if (isDef(OAF_ORIG)) {
+  $rest().get2File("/openaf/openaf.jar.orig", "https://openaf.io/" + getDistribution() + "/openaf-" + getVersion() + ".jar");
 }
