@@ -33,7 +33,7 @@ RUN apk update\
 RUN cd /openaf\
  # && wget -O openaf.jar.orig https://openaf.io/$OPENAFDIST/openaf.jar -q\
  && wget -O openaf.jar https://openaf.io/$OPENAFDIST/openaf.jar.repacked -q\
- && java -jar openaf.jar --install\
+ && java -jar openaf.jar --install -e "args=-XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap"\
  && chmod u+x /openaf/.docker/entrypoint.sh\
  && chmod u+x /openaf/getOpenAFOrigJar.js
 
