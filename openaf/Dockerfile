@@ -17,7 +17,7 @@ COPY entrypoint.sh /openaf/.docker/entrypoint.sh
 
 # Auxiliary settings
 RUN echo 'PATH=$PATH:/openaf' > /etc/profile.d/openaf.sh \
- && mv /etc/profile.d/color_prompt /etc/profile.d/color_prompt.sh
+ && mv /etc/profile.d/color_prompt.sh.disabled /etc/profile.d/color_prompt.sh
 
 # Install java, Update SSL certificates and clean up
 RUN apk update\
@@ -31,7 +31,6 @@ RUN apk update\
 
 # Install openaf and prepare everthing
 RUN cd /openaf\
- # && wget -O openaf.jar.orig https://openaf.io/$OPENAFDIST/openaf.jar -q\
  && wget -O openaf.jar https://openaf.io/$OPENAFDIST/openaf.jar.repacked -q\
  && java -jar openaf.jar --install -e "args=-XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap"\
  && chmod u+x /openaf/.docker/entrypoint.sh\
