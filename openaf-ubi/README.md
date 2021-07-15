@@ -3,7 +3,7 @@
 ## Building
 
 ````sh
-docker build -t openaf/openaf --build-arg DIST="latest" --build-arg OPENAFDIST="" https://github.com/OpenAF/openaf-dockers.git#:openaf
+docker build -t openaf/openaf --build-arg DIST="latest" --build-arg OPENAFDIST="" https://github.com/OpenAF/openaf-dockers.git#:openaf-ubi
 ````
 
 | Build argument | Description |
