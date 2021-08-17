@@ -3,8 +3,8 @@ ARG OPENAFDIST
 
 FROM openaf/openaf:${DIST}
 
-RUN /openaf/opack install ojob-common
+COPY --chown=openaf main.yaml /openaf/main.yaml
+COPY --chown=openaf entrypoint.sh /openaf/.docker/entrypoint.sh
 
-COPY main.yaml /openaf/main.yaml
-COPY entrypoint.sh /openaf/.docker/entrypoint.sh
-RUN chmod u+x /openaf/.docker/entrypoint.sh
+RUN chmod u+x /openaf/.docker/entrypoint.sh\
+ && /openaf/opack install ojob-common

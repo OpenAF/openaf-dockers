@@ -11,30 +11,31 @@ ARG OPENAFDIST
 # && apk upgrade openjdk8-jre
 
 # Copy auxiliary scripts
-COPY installOPacks.js /openaf/.docker/installOPacks.js
-COPY getOpenAFOrigJar.js /openaf/getOpenAFOrigJar.js
-COPY entrypoint.sh /openaf/.docker/entrypoint.sh
+COPY entrypoint.sh installOPacks.js /openaf/.docker/
+COPY getOpenAFOrigJar.js /openaf/
 
-# Auxiliary settings
-RUN echo 'PATH=$PATH:/openaf' > /etc/profile.d/openaf.sh \
- && mv /etc/profile.d/color_prompt.sh.disabled /etc/profile.d/color_prompt.sh
-
-# Install java, Update SSL certificates and clean up
-RUN apk update\
- && apk add openjdk8-jre\
- && apk add ca-certificates wget\
+# Install java, Update SSL certificates and clean up + Auxiliary settings
+RUN echo 'PATH=$PATH:/openaf' > /etc/profile.d/openaf.sh\
+ && mv /etc/profile.d/color_prompt.sh.disabled /etc/profile.d/color_prompt.sh\
+ && apk update\
+ && apk --no-cache add openjdk8-jre ca-certificates curl openssl sudo\
  && update-ca-certificates\
- && apk --no-cache add openssl wget\
  && rm -rf /usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/nashorn.jar\
  && rm -rf /usr/lib/jvm/java-1.8-openjdk/jre/man\
- && rm -rf /usr/lib/jvm/java-1.8-openjdk/jre/lib/images
+ && rm -rf /usr/lib/jvm/java-1.8-openjdk/jre/lib/images\
+ && adduser -Ds /bin/sh openaf\
+ && chown -R openaf: /openaf\
+ && chown -R openaf: /openaf/.docker\
+ && echo "openaf ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/openaf
+
+USER openaf
 
 # Install openaf and prepare everthing
 RUN cd /openaf\
- && wget -O openaf.jar https://openaf.io/$OPENAFDIST/openaf.jar.repacked -q\
- && java -jar openaf.jar --install -e "args=-XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap"\
+ && curl -o openaf.jar https://openaf.io/$OPENAFDIST/openaf.jar.repacked -s\
+ && java -jar openaf.jar --install\
  && chmod u+x /openaf/.docker/entrypoint.sh\
- && chmod u+x /openaf/getOpenAFOrigJar.js
+ && chmod u+x,g-rw,o-rw /openaf/getOpenAFOrigJar.js
 
 WORKDIR /openaf
 ENTRYPOINT ["/openaf/.docker/entrypoint.sh"]
