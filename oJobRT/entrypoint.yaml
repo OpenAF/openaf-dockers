@@ -1,0 +1,145 @@
+init:
+  tmpFile : /tmp/ojob.zip
+  ojobPath: /ojob
+
+help:
+  text   : oJobRT entrypoint
+  expects:
+  - name     : OJOB_ZIP
+    desc     : ZIP file with the oJob main.yaml, among other files, to run
+    example  : myojob.zip
+    mandatory: true
+  - name     : OJOB_METHOD
+    desc     : Method to retrieve OJOB_ZIP (e.g. S3, HTTP, LOCAL)
+    example  : S3
+    mandatory: false
+
+include:
+- s3.yaml
+- ojob.yaml
+
+ojob:
+  opacks      :
+  - S3
+  - oJob-common
+  catch       : "logErr(exception);"
+  argsFromEnvs: true
+  log         :
+    async: false
+
+todo:
+- name: Initial checks
+- name: Copy oJob from S3
+  when: s3
+- name: Copy oJob from HTTP
+  when: http
+- name: Copy oJob
+  when: local
+- name: oJob execution
+
+jobs:
+# --------------------
+- name: Initial checks
+  exec: |
+    var isOk = true;
+    var isLocal = false;
+    var hasSecrets = false;
+
+    // Check arguments
+    if (isUnDef(args.OJOB_ZIP)) {
+      logWarn("No OJOB_ZIP defined. Not retriving any ojob.");
+      isOk = false;
+    }
+
+    args.OJOB_METHOD = _$(args.OJOB_METHOD, "OJOB_METHOD").default("LOCAL");
+    args.OJOB_METHOD = args.OJOB_METHOD.toUpperCase();
+
+    $sh("sudo mkdir /ojob && sudo chown openaf:openaf /ojob").prefix("sh").get();
+
+    // Is local?
+    if (args.OJOB_METHOD == "LOCAL") {
+      if (io.fileExists(args.OJOB_ZIP)) {
+        log("Identified local ojob in: " + args.OJOB_ZIP);
+        isLocal = true;
+
+        // Checking for secrets.yaml
+        plugin("ZIP");
+        var zip = new ZIP();
+        try {
+          $from(zip.list(args.OJOB_ZIP))
+          .equals("name", "secrets.yaml")
+          .select(f => {
+             $sh("sudo mkdir /secrets && sudo chown openaf:openaf /secrets").prefix("sh").get();
+             var os = io.writeFileStream("/secrets/secrets.yaml");
+             ioStreamCopy(os, zip.streamGetFileStream(args.OJOB_ZIP, f.name));
+             os.close();
+          });
+          isOk = true;
+        } catch(e) {
+          logErr("Error while trying to open " + args.OJOB_ZIP + ": " + String(e));
+          isOk = false;
+        }
+
+        ow.oJob.setState("local");
+      } else {
+        logWarn("File '" + args.OJOB_ZIP + "' not found.");
+      }
+    } else {
+      if (args.OJOB_METHOD == "S3")   ow.oJob.setState("s3");
+      if (args.OJOB_METHOD == "HTTP") ow.oJob.setState("http");
+    }
+
+    // Check if secrets is available
+    if (!io.fileExists("/secrets/secrets.yaml") || isDef(args.SECKEY)) {
+      hasSecrets = true;
+    } 
+
+    $set("ready", isOk);
+    $set("local", isLocal);
+    $set("secrets", hasSecrets);
+
+# -----------------------
+- name: Check if is ready
+  exec: |
+    if (!$get("ready")) {
+      logWarn("Failed initial checks. Not executing.");
+      return {};
+    }
+
+- name: Copy oJob from S3
+- name: Copy oJob from HTTP
+
+# ---------------------
+- name: Copy oJob
+  deps: Initial checks
+  from: Check if is ready
+  exec: |
+    plugin("ZIP");
+    var zip = new ZIP();
+
+    var isLocal = $get("local");
+    var ffile    = (isLocal ? args.OJOB_ZIP : args.init.tmpFile);
+    log("oJob ZIP SHA-1: " + sha1(ffile));
+
+    var fileList = zip.list(ffile);
+    tlog("Unzipping #{{count}} files with a total of {{size}} bytes...", {
+      count: $from(fileList).greater("size", 0).count(),
+      size : $from(fileList).sum("size")
+    });
+    $from(fileList).greater("size", 0).select(file => {
+      try {
+        var os = io.writeFileStream(args.init.ojobPath + "/" + file.name);
+        ioStreamCopy(os, zip.streamGetFileStream(ffile, file.name));
+        os.close();
+      } catch(e) {
+        logErr("Error unzipping " + file.name + ": " + e);
+      }
+    });
+    zip.close();
+
+# --------------------
+- name: oJob execution  
+  deps: Initial checks
+  from: Check if is ready
+  exec: |
+    oJobRunFile("/ojob/main.yaml", __, genUUID(), __, true);

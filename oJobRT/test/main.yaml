@@ -1,0 +1,7 @@
+todo:
+- a
+
+jobs:
+- name: a
+  exec: |
+    print(12345);
