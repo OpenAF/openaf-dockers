@@ -1,7 +1,12 @@
 todo:
 - a
 
+ojob:
+  logToConsole: false
+  log         :
+    format: json
+
 jobs:
 - name: a
   exec: |
-    print(12345);
+    log(12345);
