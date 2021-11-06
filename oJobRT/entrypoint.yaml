@@ -70,24 +70,6 @@ jobs:
         log("Identified local ojob in: " + args.OJOB_CONFIG)
         isLocal = true
 
-        // Checking for secrets.yaml
-        plugin("ZIP")
-        var zip = new ZIP()
-        try {
-          $from(zip.list(args.OJOB_CONFIG))
-          .equals("name", "secrets.yaml")
-          .select(f => {
-             $sh("sudo mkdir /secrets && sudo chown openaf:openaf /secrets").prefix("sh").get()
-             var os = io.writeFileStream("/secrets/secrets.yaml")
-             ioStreamCopy(os, zip.streamGetFileStream(args.OJOB_CONFIG, f.name))
-             os.close()
-          });
-          isOk = true
-        } catch(e) {
-          logErr("Error while trying to open " + args.OJOB_CONFIG + ": " + String(e))
-          isOk = false
-        }
-
         ow.oJob.setState("local")
       } else {
         logWarn("File '" + args.OJOB_CONFIG + "' not found.")
@@ -166,6 +148,22 @@ jobs:
       var zip = new ZIP();
       log("oJob ZIP SHA-1: " + sha1(ffile));
 
+      // Checking for secrets.yaml inside the zip file
+      try {
+        $from(zip.list(args.OJOB_CONFIG))
+        .equals("name", "secrets.yaml")
+        .select(f => {
+          $sh("sudo mkdir /secrets && sudo chown openaf:openaf /secrets").prefix("sh").get()
+          var os = io.writeFileStream("/secrets/secrets.yaml")
+          ioStreamCopy(os, zip.streamGetFileStream(args.OJOB_CONFIG, f.name))
+          os.close()
+        });
+        isOk = true
+      } catch(e) {
+        logErr("Error while trying to open " + args.OJOB_CONFIG + ": " + String(e))
+        isOk = false
+      }
+      
       var fileList = zip.list(ffile);
       tlog("Unzipping #{{count}} file(s) with a total of {{size}} bytes...", {
         count: $from(fileList).greater("size", 0).count(),
