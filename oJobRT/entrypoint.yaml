@@ -150,7 +150,7 @@ jobs:
     var isLocal = $get("local");
     var ffile    = (isLocal ? args.OJOB_CONFIG : args.init.tmpFile);
 
-    if (ffile.endsWith(".zip")) {
+    if (args.OJOB_CONFIG.endsWith(".zip")) {
       // It's a zip file
 
       plugin("ZIP");
@@ -159,17 +159,17 @@ jobs:
 
       // Checking for secrets.yaml inside the zip file
       try {
-        $from(zip.list(args.OJOB_CONFIG))
+        $from(zip.list(ffile))
         .equals("name", "secrets.yaml")
         .select(f => {
           $sh("sudo mkdir /secrets && sudo chown openaf:openaf /secrets").prefix("sh").get()
           var os = io.writeFileStream("/secrets/secrets.yaml")
-          ioStreamCopy(os, zip.streamGetFileStream(args.OJOB_CONFIG, f.name))
+          ioStreamCopy(os, zip.streamGetFileStream(ffile, f.name))
           os.close()
         });
         isOk = true
       } catch(e) {
-        logErr(global.uuid + " | Error while trying to open " + args.OJOB_CONFIG + ": " + String(e))
+        logErr(global.uuid + " | Error while trying to open " + ffile + ": " + String(e))
         isOk = false
       }
       
