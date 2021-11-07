@@ -38,7 +38,7 @@ To run a local provided oJob file or zip package use the following environment v
 **Example:**
 
 ````bash
-$ docker run --rm -ti -v `pwd`/test:/test -e OJOB_METHOD=local -e OJOB_CONFIG=/test/main.yaml openaf/ojobrt 
+$ docker run --rm -ti -v "$(pwd)"/examples:/test -e OJOB_METHOD=local -e OJOB_CONFIG=/test/main.yaml openaf/ojobrt 
 ````
 
 ### S3 based oJob
@@ -57,13 +57,13 @@ If no secBucket environment variable is provided it will default for searching t
 If no secKey environment variable is provided it will default for searching the key *"s3_config"* in the OpenAF secBucket.
 
 ````bash
-docker run --rm -ti -e OJOB_METHOD=s3 -e OJOB_CONFIG=test.zip -v `pwd`/secrets:/secrets --net test openaf/ojobrt
+docker run --rm -ti -e OJOB_METHOD=s3 -e OJOB_CONFIG=test.zip -v "$(pwd)"/secrets:/secrets --net test openaf/ojobrt
 ````
 
 **Example using a different secBucket and/or secKey:**
 
 ````bash
-$ docker run --rm -ti -e OJOB_METHOD=s3 -e OJOB_CONFIG=test/test.zip -e secBucket=mySBucket -e secKey=myS3 -v `pwd`/secrets:/secrets --net test openaf/ojobrt 
+$ docker run --rm -ti -e OJOB_METHOD=s3 -e OJOB_CONFIG=test/test.zip -e secBucket=mySBucket -e secKey=myS3 -v "$(pwd)"/secrets:/secrets --net test openaf/ojobrt 
 ````
 
 > To use a different secrets file the environment variable **secFile** can be provided
@@ -95,7 +95,7 @@ To retrieve a oJob ZIP package from a HTTP url set the following environment var
 **Example:**
 
 ````bash
-docker run --rm -ti -v `pwd`/test:/test -e OJOB_METHOD=http -e OJOB_CONFIG=http://minio:9000/test/test.zip -v `pwd`/secrets:/secrets --net test openaf/ojobrt
+docker run --rm -ti -v "$(pwd)"/examples:/test -e OJOB_METHOD=http -e OJOB_CONFIG=http://minio:9000/test/test.zip -v "$(pwd)"/secrets:/secrets --net test openaf/ojobrt
 ````
 
 > It's possible also to provide a "login" and a "pass" enviroment variable for HTTP(s) basic authentication.

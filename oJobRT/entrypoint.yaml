@@ -215,6 +215,9 @@ jobs:
       logWarn(global.uuid + " | No " + args.init.ojobFile + " file found.");
     }
 
+    // End code
+    exit(0)
+
 # ----------------------
 - name: Prepare shutdown
   type: shutdown
