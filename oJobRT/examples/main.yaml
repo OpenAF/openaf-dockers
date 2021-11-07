@@ -9,4 +9,5 @@ ojob:
 jobs:
 - name: a
   exec: |
-    log(12345);
+    log(12345)
+    log("abc")

@@ -17,7 +17,7 @@ help:
     mandatory: false
   - name     : OJOB_JSONLOG
     desc     : Turns the log output to json
-    example  : true
+    example  : "true"
     mandatory: false
 
 include:
@@ -28,13 +28,14 @@ ojob:
   opacks      :
   - S3
   - oJob-common
-  catch       : "logErr(exception);"
+  catch       : "logErr((isDef(global.uuid) ? global.uuid + \" | \" : \"\") + String(exception));exit(-1)"
   argsFromEnvs: true
   logToConsole: false
   log         :
     async: false
 
 todo:
+- name: Prepare shutdown
 - name: Initial checks
 - name: Copy oJob from S3
   when: s3
@@ -52,10 +53,18 @@ jobs:
     var hasSecrets = false
 
     if (toBoolean(args.OJOB_JSONLOG)) setLog({ format: "json" })
-    
+    global.origLogFormat = clone(__logFormat)
+    global.uuid          = genUUID()
+
+    var packs = $from( getOPackLocalDB() )
+                .sort("name")
+                .notEquals("name", "OpenAF")
+                .select(r=> ({ name: r.name, version: r.version }))
+    log(global.uuid + " | oJobRT start (OpenAF version " + getVersion() + " (" + getDistribution() + "), oPacks: " + af.toSLON( packs ) + ")" )
+
     // Check arguments
     if (isUnDef(args.OJOB_CONFIG)) {
-      logWarn("No OJOB_CONFIG defined. Not retriving any ojob.")
+      logWarn(global.uuid + " | No OJOB_CONFIG defined. Not retriving any ojob.")
       isOk = false
     }
 
@@ -67,12 +76,12 @@ jobs:
     // Is local?
     if (args.OJOB_METHOD == "LOCAL") {
       if (io.fileExists(args.OJOB_CONFIG)) {
-        log("Identified local ojob in: " + args.OJOB_CONFIG)
+        log(global.uuid + " | Identified local ojob in: " + args.OJOB_CONFIG)
         isLocal = true
 
         ow.oJob.setState("local")
       } else {
-        logWarn("File '" + args.OJOB_CONFIG + "' not found.")
+        logWarn(global.uuid + " | File '" + args.OJOB_CONFIG + "' not found.")
       }
     } else {
       if (args.OJOB_METHOD == "S3")   ow.oJob.setState("s3")
@@ -92,7 +101,7 @@ jobs:
 - name: Check if is ready
   exec: |
     if (!$get("ready")) {
-      logWarn("Failed initial checks. Not executing.")
+      logWarn(global.uuid + " | Failed initial checks. Not executing.")
       return {};
     }
 
@@ -114,7 +123,7 @@ jobs:
 
     args.objectName = args.OJOB_CONFIG
     args.localPath  = args.init.tmpFile
-    tlog("Copying ojob config zip from S3 ({{url}} ({{bucket}})/{{objectName}})...", args)
+    tlog(global.uuid + " | Copying ojob config zip from S3 ({{url}} ({{bucket}})/{{objectName}})...", args)
 
 # -------------------------
 - name: Copy oJob from HTTP
@@ -122,15 +131,15 @@ jobs:
   from: Check if is ready
   exec: |
     ow.loadFormat()
-    tlog("Trying to download '{{{OJOB_CONFIG}}}'...", args)
+    tlog(global.uuid + " | Trying to download '{{{OJOB_CONFIG}}}'...", args)
     var res = $rest({ login: args.login, pass: args.pass }).head(args.OJOB_CONFIG)
 
     if (isDef(res) && isUnDef(res.error)) {
       if (isDef(res.response) && isDef(res.response["Content-Length"]))
-        log(" downloading " + ow.format.toBytesAbbreviation(res.response["Content-Length"]) + "...")
+        log(global.uuid + " |  downloading " + ow.format.toBytesAbbreviation(res.response["Content-Length"]) + "...")
       $rest({ login: args.login, pass: args.pass }).get2File(args.init.tmpFile, args.OJOB_CONFIG)
     } else {
-      tlogErr("Can't access '{{{OJOB_CONFIG}}}': " + af.toSLON(res.error), args)
+      tlogErr(global.uuid + " | Can't access '{{{OJOB_CONFIG}}}': " + af.toSLON(res.error), args)
     }
 
 # ---------------
@@ -146,7 +155,7 @@ jobs:
 
       plugin("ZIP");
       var zip = new ZIP();
-      log("oJob ZIP SHA-1: " + sha1(ffile));
+      log(global.uuid + " | oJob ZIP SHA-1: " + sha1(ffile));
 
       // Checking for secrets.yaml inside the zip file
       try {
@@ -160,12 +169,12 @@ jobs:
         });
         isOk = true
       } catch(e) {
-        logErr("Error while trying to open " + args.OJOB_CONFIG + ": " + String(e))
+        logErr(global.uuid + " | Error while trying to open " + args.OJOB_CONFIG + ": " + String(e))
         isOk = false
       }
       
       var fileList = zip.list(ffile);
-      tlog("Unzipping #{{count}} file(s) with a total of {{size}} bytes...", {
+      tlog(global.uuid + " | Unzipping #{{count}} file(s) with a total of {{size}} bytes...", {
         count: $from(fileList).greater("size", 0).count(),
         size : $from(fileList).sum("size")
       });
@@ -175,13 +184,13 @@ jobs:
           ioStreamCopy(os, zip.streamGetFileStream(ffile, file.name));
           os.close();
         } catch(e) {
-          logErr("Error unzipping " + file.name + ": " + e);
+          logErr(global.uuid + " | Error unzipping " + file.name + ": " + e);
         }
       });
       zip.close();
     } else {
       // It's a local file
-      log("oJob SHA-1: " + sha1(ffile));
+      log(global.uuid + " | oJob SHA-1: " + sha1(ffile));
 
       if (ffile.endsWith(".json")) {
         io.cp(ffile, args.init.ojobPath + "/main.json");
@@ -196,8 +205,19 @@ jobs:
   from: Check if is ready
   exec: |
     if (io.fileExists(args.init.ojobFile)) {
-      log("Starting " + args.init.ojobFile + "...")
+      log(global.uuid + " | Starting " + args.init.ojobFile + "...")
+
       oJobRunFile(args.init.ojobFile, __, genUUID(), __, true);
+      
+      __logFormat = global.origLogFormat
+      log(global.uuid + " | Ending " + args.init.ojobFile)
     } else {
-      logWarn("No " + args.init.ojobFile + " file found.");
+      logWarn(global.uuid + " | No " + args.init.ojobFile + " file found.");
     }
+
+# ----------------------
+- name: Prepare shutdown
+  type: shutdown
+  exec: |
+    __logFormat = global.origLogFormat
+    log((isDef(global.uuid) ? global.uuid + " | " : "") + "oJobRT end")
