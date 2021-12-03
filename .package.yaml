@@ -20,7 +20,7 @@ name: openaf-dockers
 main: ''
 mainJob: ''
 license: https://github.com/OpenAF/openaf-dockers/blob/master/LICENSE
-version: '20211202'
+version: '20211203'
 dependencies:
   openaf: '>=20210501'
 files:
@@ -126,7 +126,7 @@ filesHash:
   openaf-console/README.md: 4e62401469fa378e04e39e0b802c1406ae4db976
   oJobRT/examples/main.yaml: a9be6050dd9a06056677e1cb61bfee8399b8bd33
   oJobRT/examples/secrets.yaml: ae36194e6661aa23f20d9c388a0445e32b379b8b
-  oJobRT/Dockerfile: 06c93e632df4f6fd7fcba2ae997d9427a8ca1daf
+  oJobRT/Dockerfile: 735c07114184b39ec068a920d3a99d4d0de6384b
   oJobRT/entrypoint.yaml: 82a884bfefe78ef2470ad484ff60daf61e64e514
   oJobRT/README.md: 735e28ab9f7d1354efe917350b16ec491444559d
   LICENSE: 7df059597099bb7dcf25d2a9aedfaf4465f72d8d
