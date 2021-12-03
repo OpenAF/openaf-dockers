@@ -20,11 +20,20 @@ When running the following are the main environment variables considered:
 
 | Env variable | Mandatory? | Description |
 |--------------|------------|-------------|
-| OJOB_METHOD  | No         | Selects the method to retrive the corresponding oJob definition (defaults to 'LOCAL') |
+| OJOB_METHOD  | No         | Selects the method to retrive the corresponding oJob definition (defaults to 'NONE') |
 | OJOB_CONFIG  | Yes        | Depending on the OJOB_METHOD choosen points to the source object or filepath where the oJob definition (individual file or zip package) can be found |
 | OJOB_JSONLOG | No         | If OJOB_JSONLOG=true the entrypoint log will be output in JSON format |
 
 > OJOB_JSONLOG doesn't set how logs from the corresponding oJob are output. This should be defined on the oJob itself.
+
+### None oJob
+
+To run a directly mapped file(s) (to the folder /ojob) you don't need to provide any environment variables (optionally you can use OJOB_CONFIG for a different value than the default /ojob/main.yaml)
+
+**Example:**
+````bash
+$ docker run --rm -ti -v "$(pwd)"/examples:/test -e OJOB_CONFIG=/ojob/main.yaml openaf/ojobrt
+````
 
 ### Local oJob
 

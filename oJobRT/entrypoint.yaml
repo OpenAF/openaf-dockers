@@ -10,10 +10,14 @@ help:
   - name     : OJOB_CONFIG
     desc     : ZIP file or URL to a zip file (if OJOB_METHOD=HTTP) with the oJob main.yaml, among other files, to run
     example  : myojob.zip
-    mandatory: true
+    mandatory: false
   - name     : OJOB_METHOD
-    desc     : Method to retrieve OJOB_CONFIG (e.g. S3, HTTP, LOCAL)
+    desc     : Method to retrieve OJOB_CONFIG (e.g. S3, HTTP, LOCAL, NONE)
     example  : S3
+    mandatory: false
+  - name     : OJOB_HASH
+    desc     : Ensure the OJOB_CONFIG zip file or main.yaml as the provided hash (SHA-1)
+    example  : 202cb962ac59075b964b07152d234b70
     mandatory: false
   - name     : OJOB_JSONLOG
     desc     : Turns the log output to json
@@ -50,6 +54,7 @@ jobs:
   exec: |
     var isOk       = true
     var isLocal    = false
+    var isNone     = false
     var hasSecrets = false
 
     if (toBoolean(args.OJOB_JSONLOG)) setLog({ format: "json" })
@@ -64,14 +69,15 @@ jobs:
 
     // Check arguments
     if (isUnDef(args.OJOB_CONFIG)) {
-      logWarn(global.uuid + " | No OJOB_CONFIG defined. Not retriving any ojob.")
-      isOk = false
+      logWarn(global.uuid + " | No OJOB_CONFIG defined. Default is /ojob/main.yaml.")
+      args.OJOB_CONFIG = "/ojob/main.yaml"
     }
 
-    args.OJOB_METHOD = _$(args.OJOB_METHOD, "OJOB_METHOD").default("LOCAL")
+    args.OJOB_METHOD = _$(args.OJOB_METHOD, "OJOB_METHOD").default("NONE")
     args.OJOB_METHOD = args.OJOB_METHOD.toUpperCase()
 
-    $sh("sudo mkdir /ojob && sudo chown openaf:openaf /ojob").prefix("sh").get()
+    if (!io.fileExists("/ojob"))
+      $sh("sudo mkdir /ojob && sudo chown openaf:openaf /ojob").prefix("sh").get()
 
     // Is local?
     if (args.OJOB_METHOD == "LOCAL") {
@@ -86,6 +92,7 @@ jobs:
     } else {
       if (args.OJOB_METHOD == "S3")   ow.oJob.setState("s3")
       if (args.OJOB_METHOD == "HTTP") ow.oJob.setState("http")
+      if (args.OJOB_METHOD == "NONE") isNone = true
     }
 
     // Check if secrets is available
@@ -93,9 +100,10 @@ jobs:
       hasSecrets = true;
     } 
 
-    $set("ready", isOk);
-    $set("local", isLocal);
-    $set("secrets", hasSecrets);
+    $set("ready", isOk)
+    $set("local", isLocal)
+    $set("secrets", hasSecrets)
+    $set("none", isNone)
 
 # -----------------------
 - name: Check if is ready
@@ -147,22 +155,25 @@ jobs:
   deps: Initial checks
   from: Check if is ready
   exec: |
-    var isLocal = $get("local");
-    var ffile    = (isLocal ? args.OJOB_CONFIG : args.init.tmpFile);
+    var isLocal = $get("local")
+    var isNone  = $get("none")
+    var ffile    = (isNone ? args.OJOB_CONFIG : (isLocal ? args.OJOB_CONFIG : args.init.tmpFile))
+    var hash     = sha1(io.readFileStream(ffile))
 
     if (args.OJOB_CONFIG.endsWith(".zip")) {
       // It's a zip file
 
       plugin("ZIP");
       var zip = new ZIP();
-      log(global.uuid + " | oJob ZIP SHA-1: " + sha1(ffile));
+      log(global.uuid + " | oJob ZIP SHA-1: " + hash);
 
       // Checking for secrets.yaml inside the zip file
       try {
         $from(zip.list(ffile))
         .equals("name", "secrets.yaml")
         .select(f => {
-          $sh("sudo mkdir /secrets && sudo chown openaf:openaf /secrets").prefix("sh").get()
+          if (!io.fileExists("/secrets"))
+            $sh("sudo mkdir /secrets && sudo chown openaf:openaf /secrets").prefix("sh").get()
           var os = io.writeFileStream("/secrets/secrets.yaml")
           ioStreamCopy(os, zip.streamGetFileStream(ffile, f.name))
           os.close()
@@ -189,13 +200,21 @@ jobs:
       });
       zip.close();
     } else {
-      // It's a local file
-      log(global.uuid + " | oJob SHA-1: " + sha1(ffile));
+      log(global.uuid + " | oJob SHA-1: " + hash);
 
-      if (ffile.endsWith(".json")) {
-        io.cp(ffile, args.init.ojobPath + "/main.json");
-      } else {
-        io.cp(ffile, args.init.ojobPath + "/main.yaml");
+      // It's a local file
+      if (isLocal) {
+        if (ffile.endsWith(".json")) {
+          io.cp(ffile, args.init.ojobPath + "/main.json");
+        } else {
+          io.cp(ffile, args.init.ojobPath + "/main.yaml");
+        }
+      }
+    }
+
+    if (isDef(args.OJOB_HASH)) {
+      if (args.OJOB_HASH != hash) {
+        throw("Provided hash '" + args.OJOB_HASH + "' doesn't match '" + hash + "' (" + ffile + ")")
       }
     }
 
