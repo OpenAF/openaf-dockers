@@ -1,28 +1,33 @@
-FROM openaf/openaf:nightly
+FROM openaf/openaf:ubi-nightly
 
-RUN /openaf/opack install nAttrMon\
- && mkdir /config\
- && mkdir /snapshots\
- && apk update\
- && apk add curl\
- && ln -s /openaf/nAttrMon/config/inputs /config/inputs\
- && ln -s /openaf/nAttrMon/config/outputs /config/outputs\
- && ln -s /openaf/nAttrMon/config/validations /config/validations\
- && ln -s /openaf/nAttrMon/config/objects.assets /config/objects.assets\
- && ln -s /openaf/nAttrMon/config/outputs.disabled/yaml/00.httphealthz.yaml /config/outputs/01.httphealthz.yaml\
- && ln -s /openaf/nAttrMon/config/outputs.disabled/yaml/02.httpjson.yaml /config/outputs/02.httpjson.yaml\
- && ln -s /openaf/nAttrMon/config/outputs.disabled/yaml/03.http.yaml /config/outputs/03.http.yaml\
- && ln -s /openaf/nAttrMon/config/outputs.disabled/yaml/04.httpmetrics.yaml /config/outputs/04.httpmetrics.yaml\
- && ln -s /openaf/nAttrMon/config/outputs.disabled/yaml/09.channels.yaml /config/outputs/09.channels.yaml
+USER root
+RUN mkdir /config\
+ && chown -R openaf: /config
 
-COPY main.js /openaf/nAttrMon/main.js
-VOLUME [ "/snapshots", "/config" ]
+USER openaf
+RUN /openaf/opack install oJob-common\
+ && /openaf/opack install nAttrMon\
+ && /openaf/opack install Kube\
+ && /openaf/opack install S3\
+ && /openaf/opack install Notifications\
+ && /openaf/opack install Docker\
+ && /openaf/opack install ElasticSearch
+
+COPY --chown=openaf:openaf main.yaml /openaf/main.yaml
+
+ENV CONFIG=/config\
+    COREOBJECTS=/openaf/nAttrMon/config/objects,/config/objects\
+    BUFFERCHANNELS=true\
+    BUFFERBYNUMBER=100\
+    BUFFERBYTIME=1000\
+    COREOBJECTS_LAZYLOADING=true\
+    MAXPLUGEXECUTE_TIME=10\
+    NEED_CH_PERSISTENCE=false\
+    LOGCONSOLE=true
+
+HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3\
+    CMD [ "curl", "http://127.0.0.1:8090/healthz" ]
 
 EXPOSE 8090
-WORKDIR /openaf/nAttrMon
-ENTRYPOINT [ "/openaf/oaf", "-f", "main.js" ]
-HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 CMD [ "curl", "http://127.0.0.1:8090/healthz" ]
 
-ENV CH_PERSISTENCE_PATH=/snapshots
-ENV CONFIG=/config
-ENV LOGCONSOLE=true
+ENTRYPOINT [ "/openaf/ojob", "/openaf/main.yaml" ]

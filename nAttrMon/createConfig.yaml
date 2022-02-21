@@ -1,0 +1,65 @@
+# Author: Nuno Aguiar
+help:
+  text   : Creates an empty nAttrMon configuration folder
+  expects: 
+  - name     : path
+    desc     : The path where to create the empty configuration folder (e.g. config)
+    example  : config
+    mandatory: true
+  - name     : nohttp
+    desc     : If nohttp=true the httpAll output won't be copied automatically to the output folder
+    example  : true
+    mandatory: false
+
+todo:
+- Create or fill a config folder
+
+ojob:
+  opacks      :
+  - openaf  : 20211229
+  - nAttrMon: 20220213
+  catch       : logErr(exception)
+  logToConsole: true   # to change when finished
+        
+
+jobs:
+# -------------------------------------
+- name : Create or fill a config folder
+  to   :
+  - Create config folder
+  - Copy objects.assets
+  - Copy output httpAll
+  check:
+    in:
+      path: isString.default("config")
+
+# --------------------------
+- name: Create config folder
+  exec: |
+    // Make sure it exists
+    tprint("{{pat}}", args)
+    if (io.fileExists(args.path)) tlogWarn("Folder '{{./path}}' already exists. Overwriting.", args)
+    io.mkdir(args.path)
+    io.mkdir(args.path + "/inputs")
+    io.mkdir(args.path + "/outputs")
+    io.mkdir(args.path + "/validations")
+
+# -------------------------
+- name: Copy objects.assets
+  exec: |
+    listFilesRecursive(getOPackPath("nAttrMon") + "/config/objects.assets")
+    .forEach(file => {
+      var target = args.path + "/" + file.filepath.replace(getOPackPath("nAttrMon") + "/config", "")
+      if (file.isDirectory) 
+        io.mkdir(target)
+      else
+        io.cp(file.filepath, target)
+    })
+
+# --------------------------
+- name : Copy output httpAll
+  check:
+    in:
+      nohttp: toBoolean.isBoolean.default(false)
+  exec : |
+    if (!args.nohttp) io.cp(getOPackPath("nAttrMon") + "/config/outputs.disabled/yaml/00.httpAll.yaml", args.path + "/outputs/00.httpAll.yaml")

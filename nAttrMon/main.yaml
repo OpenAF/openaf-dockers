@@ -1,0 +1,231 @@
+init:
+  tmpConfigFile: &TMP_CONFIG_FILE /tmp/config.zip
+  secrets      : /secrets/secrets.yaml
+  configPath   : /config
+  
+help:
+  text   : nAttrMon entrypoint
+  expects:
+  - name     : NAM_CONFIG
+    desc     : ZIP file or URL to a zip file (if NAM_METHOD=HTTP) with the nAttrMon configuration
+    example  : myconfig.zip
+    mandatory: false
+  - name     : NAM_METHOD
+    desc     : Method to retrieve NAM_CONFIG (e.g. S3, HTTP, LOCAL, NONE)
+    example  : S3
+    mandatory: false
+  - name     : NAM_HASH
+    desc     : Ensure the NAM_CONFIG zip file or main.yaml as the provided hash (SHA-1)
+    example  : 202cb962ac59075b964b07152d234b70
+    mandatory: false
+  - name     : NAM_JSONLOG
+    desc     : Turns the log output to json
+    example  : "true"
+    mandatory: false
+
+include:
+- s3.yaml
+- ojob.yaml
+
+ojob:
+  opacks      :
+  - S3
+  - oJob-common
+  catch       : logErr(exception)
+  argsFromEnvs: true
+  logToConsole: false
+  log         :
+    async: false
+
+todo:
+- name: Prepare shutdown
+- name: Initial checks
+- name: Copy config from S3
+  when: s3
+- name: Copy config from HTTP
+  when: http
+- name: Copy config
+- name: Executing init code
+- name: Start nAttrMon
+
+jobs:
+# ----------------------
+- name: Prepare shutdown
+  type: shutdown
+  exec: |
+    __logFormat = global.origLogFormat
+    log("nAttrMon end")
+
+# -------------------------
+- name: Executing init code
+  deps: Initial checks
+  exec: |
+    if (io.fileExists("/config/init")) {
+      listFilesRecursive("/config/init").forEach(file => {
+        if (file.filename.endsWith(".yaml")) {
+          log("Executing " + file.filepath + "...");
+          oJobRunFile(file.filepath, args, genUUID(), __, true);
+        }
+        if (file.filename.endsWith(".js")) {
+          log("Executing " + file.filepath + "...");
+          load(file.filepath);
+        }
+      });
+    }
+
+# --------------------
+- name: Initial checks
+  exec: |
+    var isOk       = true
+    var isLocal    = false
+    var isNone     = false
+    var hasSecrets = false
+
+    if (toBoolean(args.ONAM_JSONLOG)) setLog({ format: "json" })
+    global.origLogFormat = clone(__logFormat)
+
+    var packs = $from( getOPackLocalDB() )
+                .sort("name")
+                .notEquals("name", "OpenAF")
+                .select(r=> ({ name: r.name, version: r.version }))
+    log("nAttrMon (OpenAF version " + getVersion() + " (" + getDistribution() + "), oPacks: " + af.toSLON( packs ) + ")" )
+
+    // Check arguments
+    if (isUnDef(args.NAM_CONFIG)) {
+      logWarn("No NAM_CONFIG defined. Not retriving any configuration.")
+      isOk = false
+    } 
+
+    args.NAM_METHOD = _$(args.NAM_METHOD, "NAM_METHOD").default("NONE")
+    args.NAM_METHOD = args.NAM_METHOD.toUpperCase()
+
+    if (!io.fileExists("/config"))
+      $sh("sudo mkdir /config && sudo chown openaf:openaf /config").prefix("sh").get()
+
+    // Is local?
+    if (args.NAM_METHOD == "LOCAL") {
+      if (io.fileExists(args.NAM_CONFIG)) {
+        log("Identified local config in: " + args.NAM_CONFIG)
+        isLocal = true
+        ow.oJob.setState("local")
+      } else {
+        logWarn("File '" + args.NAM_CONFIG + "' not found.")
+      }
+    } else {
+      if (args.NAM_METHOD == "S3")   ow.oJob.setState("s3")
+      if (args.NAM_METHOD == "HTTP") ow.oJob.setState("http")
+      if (args.NAM_METHOD == "NONE") isNone = true
+    }
+
+    // Check if secrets is available
+    if (!io.fileExists("/secrets/secrets.yaml") || isDef(args.SECKEY)) {
+      hasSecrets = true;
+    } 
+    $set("ready", isOk)
+    $set("local", isLocal)
+    $set("secrets", hasSecrets)
+    $set("none", isNone)
+
+# -----------------------
+- name: Check if is ready
+  exec: |
+    if (!$get("ready")) {
+      logWarn("Not retriving configuration.");
+      return {};
+    }
+
+# -------------------------
+- name: Copy config from S3
+  deps: Initial checks
+  from: Check if is ready
+  to  : S3 Get object
+  exec: |
+    args.secFile   = _$(args.secFile).default(args.init.secrets)
+    if (io.fileExists(args.secFile)) {
+      args.secBucket = _$(args.secBucket).default("nattrmon")
+      args.secKey    = _$(args.secKey).default("s3_config")
+      args = $job("ojob sec get", args)
+    } else {
+      args.secFile = __
+    }
+    args.objectName = args.NAM_CONFIG
+    args.localPath  = args.init.tmpConfigFile
+    tlog("Copying nAttrMon config zip from S3 ({{url}} ({{bucket}})/{{objectName}})...", args)
+
+# ---------------------------
+- name: Copy config from HTTP
+  deps: Initial checks
+  from: Check if is ready
+  exec: |
+    ow.loadFormat()
+    tlog("Trying to download '{{{NAM_CONFIG}}}'...", args)
+    var res = $rest({ login: args.login, pass: args.pass }).head(args.NAM_CONFIG)
+    if (isDef(res) && isUnDef(res.error)) {
+      if (isDef(res.response) && isDef(res.response["Content-Length"]))
+        log(" downloading " + ow.format.toBytesAbbreviation(res.response["Content-Length"]) + "...")
+      $rest({ login: args.login, pass: args.pass }).get2File(args.init.tmpConfigFile, args.NAM_CONFIG)
+    } else {
+      tlogErr("Can't access '{{{NAM_CONFIG}}}': " + af.toSLON(res.error), args)
+    }
+
+# -----------------
+- name: Copy config
+  deps: Initial checks
+  from: Check if is ready
+  exec: |
+    var isLocal = $get("local")
+    var isNone  = $get("none")
+    var ffile    = (isNone ? args.NAM_CONFIG : (isLocal ? args.NAM_CONFIG : args.init.tmpConfigFile))
+    var hash     = sha1(io.readFileStream(ffile))
+    if (args.NAM_CONFIG.endsWith(".zip")) {
+      // It's a zip file
+      plugin("ZIP");
+      var zip = new ZIP();
+      log("nAttrMon ZIP SHA-1: " + hash);
+      // Checking for secrets.yaml inside the zip file
+      try {
+        $from(zip.list(ffile))
+        .equals("name", "secrets.yaml")
+        .select(f => {
+          if (!io.fileExists("/secrets"))
+            $sh("sudo mkdir /secrets && sudo chown openaf:openaf /secrets").prefix("sh").get()
+          var os = io.writeFileStream("/secrets/secrets.yaml")
+          ioStreamCopy(os, zip.streamGetFileStream(ffile, f.name))
+          os.close()
+        });
+        isOk = true
+      } catch(e) {
+        logErr("Error while trying to open " + ffile + ": " + String(e))
+        isOk = false
+      }
+      
+      var fileList = zip.list(ffile);
+      tlog("Unzipping #{{count}} file(s) with a total of {{size}} bytes...", {
+        count: $from(fileList).greater("size", 0).count(),
+        size : $from(fileList).sum("size")
+      });
+      $from(fileList).greater("size", 0).select(file => {
+        try {
+          var os = io.writeFileStream(args.init.configPath + "/" + file.name);
+          ioStreamCopy(os, zip.streamGetFileStream(ffile, file.name));
+          os.close();
+        } catch(e) {
+          logErr("Error unzipping " + file.name + ": " + e);
+        }
+      });
+      zip.close();
+    } 
+
+    if (isDef(args.NAM_HASH)) {
+      if (args.NAM_HASH != hash) {
+        throw("Provided hash '" + args.NAM_HASH + "' doesn't match '" + hash + "' (" + ffile + ")")
+      }
+    }
+
+# --------------------
+- name: Start nAttrMon
+  exec: |
+    load("/openaf/nAttrMon/nattrmon.js")
+
+    // End code
+    exit(0)
