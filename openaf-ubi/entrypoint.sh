@@ -3,6 +3,16 @@
 PATH=$PATH:/openaf
 export PATH
 
+if [ -z "$OPENAF_MINRAMPERC" ]; then
+   OPENAF_MINRAMPERC=50.0
+   export OPENAF_MINRAMPERC
+fi
+
+if [ -z "$OPENAF_MAXRAMPERC" ]; then
+   OPENAF_MAXRAMPERC=25.0
+   export OPENAF_MAXRAMPERC
+fi
+
 if [ ! -f /openaf/.installed ]; then
    if [ ! -z "$OPACKS" ] || [ ! -z "$OPACKS_DIR" ]; then
       /openaf/openaf -f /openaf/.docker/installOPacks.js
