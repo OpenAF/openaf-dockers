@@ -28,7 +28,7 @@ USER openaf
 # Install openaf and prepare everthing
 RUN cd /openaf\
  && curl -o openaf.jar https://openaf.io/$OPENAFDIST/openaf.jar.repacked -s\
- && java -jar openaf.jar --install\
+ && java -jar openaf.jar --install -e 'args=-XX:MinRAMPercentage=$OPENAF_MINRAMPERC -XX:MaxRAMPercentage=$OPENAF_MAXRAMPERC'\
  && chmod u+x /openaf/.docker/entrypoint.sh\
  && chmod u+x /openaf/getOpenAFOrigJar.js
 
