@@ -3,15 +3,15 @@
 PATH=$PATH:/openaf
 export PATH
 
-if [ -z "$OPENAF_MINRAMPERC" ]; then
-   OPENAF_MINRAMPERC=50.0
-   export OPENAF_MINRAMPERC
+JAVA_ARGS=""
+if [ ! -z "$JVM_MEMMXPERC" ]; then
+   JAVA_ARGS="$JAVA_ARGS -XX:MinRAMPercentage=$JVM_MEMMXPERC -XX:MaxRAMPercentage=$JVM_MEMMXPERC"
 fi
 
-if [ -z "$OPENAF_MAXRAMPERC" ]; then
-   OPENAF_MAXRAMPERC=25.0
-   export OPENAF_MAXRAMPERC
+if [ ! -z "$JVM_MEMMSPERC" ]; then
+   JAVA_ARGS="$JAVA_ARGS -XX:InitialRAMPercentage=$JVM_MEMMSPERC"
 fi
+export JAVA_ARGS
 
 if [ ! -f /openaf/.installed ]; then
    if [ ! -z "$OPACKS" ] || [ ! -z "$OPACKS_DIR" ]; then
