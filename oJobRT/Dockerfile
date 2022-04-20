@@ -13,4 +13,4 @@ RUN /openaf/opack install ojob-common\
  && /openaf/opack install S3
 
 WORKDIR /ojob
-ENTRYPOINT [ "/openaf/ojob", "/openaf/entrypoint.yaml" ]
+ENV OJOB=/openaf/entrypoint.yaml
