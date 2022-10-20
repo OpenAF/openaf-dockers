@@ -81,7 +81,7 @@ jobs:
     var isNone     = false
     var hasSecrets = false
 
-    if (toBoolean(args.ONAM_JSONLOG)) setLog({ format: "json" })
+    if (toBoolean(args.NAM_JSONLOG)) setLog({ format: "json" })
     global.origLogFormat = clone(__logFormat)
 
     var packs = $from( getOPackLocalDB() )

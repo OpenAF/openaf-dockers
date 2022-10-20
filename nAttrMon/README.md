@@ -26,7 +26,7 @@ To run a local provided nAttrMon ZIP file use the following environment variable
 | Env variable | Example value |
 |--------------|---------------|
 | NAM_METHOD  | local         |
-| ONAM_CONFIG  | /local/path/config.zip |
+| NAM_CONFIG  | /local/path/config.zip |
 
 **Example:**
 
