@@ -1,7 +1,7 @@
 ARG DIST
 ARG OPENAFDIST
 
-FROM registry.access.redhat.com/ubi8/ubi-minimal 
+FROM registry.access.redhat.com/ubi9/ubi-minimal 
 ARG DIST
 ARG OPENAFDIST
 
@@ -20,12 +20,12 @@ RUN microdnf upgrade -y\
  && adduser openaf\
  && chown -R openaf: /openaf\
  && echo "openaf ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/openaf\
- && microdnf remove shadow-utils\
+ && microdnf remove -y shadow-utils\
  && microdnf clean all
 
 USER openaf
 
-# Install openaf and prepare everthing
+# Install openaf and prepare everything
 RUN cd /openaf\
  && curl -o openaf.jar https://openaf.io/$OPENAFDIST/openaf.jar.repacked -s\
  && java -jar openaf.jar --install -e 'args=$JAVA_ARGS'\
