@@ -2,7 +2,7 @@ ARG DIST
 ARG OPENAFDIST
 
 #FROM openjdk:8-jre-alpine
-FROM alpine
+FROM alpine as main
 ARG DIST
 ARG OPENAFDIST
 
@@ -24,18 +24,22 @@ RUN echo 'PATH=$PATH:/openaf' > /etc/profile.d/openaf.sh\
  && rm -rf /usr/lib/jvm/java-1.8-openjdk/jre/man\
  && rm -rf /usr/lib/jvm/java-1.8-openjdk/jre/lib/images\
  && adduser -Ds /bin/sh openaf\
- && chown -R openaf: /openaf\
- && chown -R openaf: /openaf/.docker\
  && echo "openaf ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/openaf
-
-USER openaf
 
 # Install openaf and prepare everthing
 RUN cd /openaf\
  && curl -o openaf.jar https://openaf.io/$OPENAFDIST/openaf.jar.repacked -s\
  && java -jar openaf.jar --install\
- && chmod u+x /openaf/.docker/entrypoint.sh\
- && chmod u+x,g-rw,o-rw /openaf/getOpenAFOrigJar.js
+ && chown -R openaf:0 /openaf\
+ && chmod -R g+rwx /openaf
+
+# -------------------
+FROM scratch as final
+
+COPY --from=main / /
+
+ENV OAF_HOME=/openaf
+USER openaf
 
 WORKDIR /openaf
-ENTRYPOINT ["/openaf/.docker/entrypoint.sh"]
+ENTRYPOINT ["/bin/sh", "/openaf/.docker/entrypoint.sh"]

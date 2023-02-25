@@ -2,7 +2,8 @@ FROM openaf/openaf:ubi-nightly
 
 USER root
 RUN mkdir /config\
- && chown -R openaf: /config
+ && chown -R openaf: /config\
+ && chmod -R g+rwx /config
 
 USER openaf
 RUN /openaf/opack install oJob-common\
@@ -13,7 +14,7 @@ RUN /openaf/opack install oJob-common\
  && /openaf/opack install Docker\
  && /openaf/opack install ElasticSearch
 
-COPY --chown=openaf:openaf main.yaml /openaf/main.yaml
+COPY --chown=openaf: main.yaml /openaf/main.yaml
 
 ENV CONFIG=/config\
     COREOBJECTS=/openaf/nAttrMon/config/objects,/config/objects\
