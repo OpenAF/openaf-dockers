@@ -1,8 +1,6 @@
 name: Scan Images
 
 on:
-  push:
-    branches: [ "master" ]
   schedule:
     - cron: '00 1 * * 6'
 
@@ -12,22 +10,27 @@ jobs:
     name: Scan images
     steps:
     - uses: actions/checkout@v3
+      name: Checkout
     - uses: openaf/ojob-action@v1
+      name: Scan latest
       with:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=openaf/oaf:latest file=.github/sec-latest.svg'
         dist: 't8'
     - uses: openaf/ojob-action@v1
+      name: Scan nightly
       with:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=openaf/oaf:nightly file=.github/sec-nightly.svg'
         dist: 't8'
     - uses: openaf/ojob-action@v1
+      name: Scan UBI nightly
       with:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=openaf/oaf:ubi-nightly file=.github/sec-ubi-nightly.svg'
         dist: 't8'
     - uses: openaf/ojob-action@v1
+      name: Scan UBI latest
       with:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=openaf/oaf:ubi file=.github/sec-ubi-latest.svg'
