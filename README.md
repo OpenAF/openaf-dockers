@@ -2,6 +2,13 @@
 
 Main OpenAF docker builds.
 
+Security scans:
+
+![sec-latest](.github/sec-latest.svg)<br>
+![sec-nightly](.github/sec-nightly.svg)<br>
+![sec-ubi-latest](.github/sec-ubi-latest.svg)<br>
+![sec-ubi-nightly](.github/sec-ubi-nightly.svg)
+
 ## OpenAF
 
 The main base container for OpenAF.
