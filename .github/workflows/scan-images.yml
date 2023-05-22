@@ -16,25 +16,25 @@ jobs:
         path: /tmp/oaf
     - uses: actions/checkout@v3
       name: Checkout
-    - uses: openaf/ojob-action@v1
+    - uses: openaf/ojob-action@v2
       name: Scan latest
       with:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=openaf/oaf:latest file=.github/sec-latest.svg'
         dist: 't8'
-    - uses: openaf/ojob-action@v1
+    - uses: openaf/ojob-action@v2
       name: Scan nightly
       with:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=openaf/oaf:nightly file=.github/sec-nightly.svg'
         dist: 't8'
-    - uses: openaf/ojob-action@v1
+    - uses: openaf/ojob-action@v2
       name: Scan UBI nightly
       with:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=openaf/oaf:ubi-nightly file=.github/sec-ubi-nightly.svg'
         dist: 't8'
-    - uses: openaf/ojob-action@v1
+    - uses: openaf/ojob-action@v2
       name: Scan UBI latest
       with:
         ojob: 'ojob.io/sec/genSecBadge'
