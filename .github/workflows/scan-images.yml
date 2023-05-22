@@ -9,6 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     name: Scan images
     steps:
+    - name: Cache OpenAF runtime
+      uses: actions/cache@v3
+      with:
+        key : oaf-t8
+        path: /tmp/oaf
     - uses: actions/checkout@v3
       name: Checkout
     - uses: openaf/ojob-action@v1
