@@ -1,6 +1,7 @@
 name: Scan Images
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '00 7 * * *'
 
@@ -43,7 +44,7 @@ jobs:
     - run: |
         git config --global user.email "openaf@users.noreply.github.com"
         git config --global user.name "OpenAF"
-        if [[ $(git status --porcelain) ]]; then
+        if [[ $(git diff --quiet && git diff --staged --quiet) ]]; then
           git add .github/sec-latest.svg
           git add .github/sec-nightly.svg
           git add .github/sec-ubi-latest.svg
