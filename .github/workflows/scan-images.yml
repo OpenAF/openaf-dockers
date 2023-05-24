@@ -7,6 +7,8 @@ on:
 
 jobs:
   Scan-Images:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     name: Scan images
     steps:
@@ -44,7 +46,7 @@ jobs:
     - run: |
         git config --global user.email "openaf@users.noreply.github.com"
         git config --global user.name "OpenAF"
-        if [[ $(git diff --quiet && git diff --staged --quiet) ]]; then
+        if [[ -n "$(git status --porcelain)" ]]; then
           git add .github/sec-latest.svg
           git add .github/sec-nightly.svg
           git add .github/sec-ubi-latest.svg
