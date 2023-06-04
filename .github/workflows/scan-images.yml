@@ -27,28 +27,28 @@ jobs:
       name: Scan latest
       with:
         ojob: 'ojob.io/sec/genSecBadge'
-        args: 'image=openaf/oaf:latest file=.github/sec-latest.svg'
+        args: 'image=openaf/oaf:latest file=.github/sec-latest.svg reportFile=.github/sec-latest.yaml'
         dist: 't8'
         
     - uses: openaf/ojob-action@v3
       name: Scan nightly
       with:
         ojob: 'ojob.io/sec/genSecBadge'
-        args: 'image=openaf/oaf:nightly file=.github/sec-nightly.svg'
+        args: 'image=openaf/oaf:nightly file=.github/sec-nightly.svg reportFile=.github/sec-nightly.yaml'
         dist: 't8'
         
     - uses: openaf/ojob-action@v3
       name: Scan UBI nightly
       with:
         ojob: 'ojob.io/sec/genSecBadge'
-        args: 'image=openaf/oaf:ubi-nightly file=.github/sec-ubi-nightly.svg'
+        args: 'image=openaf/oaf:ubi-nightly file=.github/sec-ubi-nightly.svg reportFile=.github/sec-ubi-nightly.yaml'
         dist: 't8'
         
     - uses: openaf/ojob-action@v3
       name: Scan UBI latest
       with:
         ojob: 'ojob.io/sec/genSecBadge'
-        args: 'image=openaf/oaf:ubi file=.github/sec-ubi-latest.svg'
+        args: 'image=openaf/oaf:ubi file=.github/sec-ubi-latest.svg reportFile=.github/sec-ubi-latest.yaml'
         dist: 't8'
         
     - uses: openaf/ojob-action@v3
@@ -57,6 +57,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         ojob: 'ojob.io/git/hub/contentIn'
-        args: 'message="update\ badge" paths=.github/sec-ubi-latest.svg,.github/sec-ubi-nightly.svg,.github/sec-nightly.svg,.github/sec-latest.svg'
+        args: 'message="update\ badge" paths=.github/sec-ubi-latest.svg,.github/sec-ubi-nightly.svg,.github/sec-nightly.svg,.github/sec-latest.svg,.github/sec-ubi-latest.yaml,.github/sec-ubi-nightly.yaml,.github/sec-nightly.yaml,.github/sec-latest.yaml'
         dist: t8
         
