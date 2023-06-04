@@ -4,10 +4,10 @@ Main OpenAF docker builds.
 
 Security scans:
 
-![sec-latest](.github/sec-latest.svg)<br>
-![sec-nightly](.github/sec-nightly.svg)<br>
-![sec-ubi-latest](.github/sec-ubi-latest.svg)<br>
-![sec-ubi-nightly](.github/sec-ubi-nightly.svg)
+[![sec-latest](.github/sec-latest.svg)](.github/sec-latest.yaml)<br>
+[![sec-nightly](.github/sec-nightly.svg)](.github/sec-nightly.yaml)<br>
+[![sec-ubi-latest](.github/sec-ubi-latest.svg)](.github/sec-ubi-latest.yaml)<br>
+[![sec-ubi-nightly](.github/sec-ubi-nightly.svg)](.github/sec-ubi-nightly.yaml)
 
 ## OpenAF
 
