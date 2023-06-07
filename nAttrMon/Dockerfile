@@ -1,4 +1,5 @@
-FROM openaf/openaf:ubi-nightly
+ARG url=openaf/oaf
+FROM $url
 
 USER root
 RUN mkdir /config\
