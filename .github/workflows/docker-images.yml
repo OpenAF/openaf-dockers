@@ -1,0 +1,37 @@
+name: Docker Images CI
+
+on:
+  #push:
+  #  branches: [ "main" ]
+  #pull_request:
+  #  branches: [ "main" ]
+  #schedule:
+  #  - cron: '30 6 * * *'
+  workflow_dispatch:
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Set up QEMU
+      uses: docker/setup-qemu-action@v2
+      
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v2
+      
+    - name: Login to DockerHub
+      uses: docker/login-action@v2
+      with:
+        username: ${{ secrets.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_TOKEN }}
+        
+    - uses: docker/build-push-action@v4
+      name: Build and push
+      with:
+        platforms: linux/amd64,linux/arm64
+        context: "{{defaultContext}}:nAttrMon"
+        push: true
+        tags: openaf/nattrmon:build
