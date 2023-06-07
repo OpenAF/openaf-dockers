@@ -5,14 +5,15 @@ on:
   #  branches: [ "master" ]
   #pull_request:
   #  branches: [ "main" ]
-  #schedule:
-  #  - cron: '30 6 * * *'
+  schedule:
+  - cron: '30 6 * * *'
+        
   workflow_dispatch:
     inputs:
       baseImage:
         description: 'The base image to use'
         required   : true
-        default    : openaf/oaf
+        default    : openaf/oaf:nightly
 
 jobs:
 
