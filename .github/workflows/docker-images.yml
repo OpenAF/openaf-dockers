@@ -8,6 +8,11 @@ on:
   #schedule:
   #  - cron: '30 6 * * *'
   workflow_dispatch:
+    inputs:
+      baseImage:
+        description: 'The base image to use'
+        required   : true
+        default    : openaf/oaf
 
 jobs:
 
@@ -35,3 +40,4 @@ jobs:
         context: "{{defaultContext}}:nAttrMon"
         push: true
         tags: openaf/nattrmon:build
+        build-args: url=${{ github.event.inputs.baseImage }}
