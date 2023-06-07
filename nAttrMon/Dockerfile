@@ -7,13 +7,13 @@ RUN mkdir /config\
  && chmod -R g+rwx /config
 
 USER openaf
-RUN /openaf/opack install oJob-common\
- && /openaf/opack install nAttrMon\
- && /openaf/opack install Kube\
- && /openaf/opack install S3\
- && /openaf/opack install Notifications\
- && /openaf/opack install Docker\
- && /openaf/opack install ElasticSearch
+RUN /openaf/opack install oJob-common -deps\
+ && /openaf/opack install nAttrMon -deps\
+ && /openaf/opack install Kube -deps\
+ && /openaf/opack install S3 -deps\
+ && /openaf/opack install Notifications -deps\
+ && /openaf/opack install DockerRegistry -deps\
+ && /openaf/opack install ElasticSearch -deps
 
 COPY --chown=openaf: main.yaml /openaf/main.yaml
 
