@@ -37,6 +37,7 @@
     - https://github.com/eclipse/jetty.project/issues/9076
     - https://github.com/eclipse/jetty.project/pull/9344
     - https://github.com/eclipse/jetty.project/pull/9345
+    - https://github.com/eclipse/jetty.project/releases/tag/jetty-9.4.51.v20230217
     - https://github.com/eclipse/jetty.project/security/advisories/GHSA-qw69-rqj8-6qw8
     - https://github.com/jakartaee/servlet/blob/6.0.0/spec/src/main/asciidoc/servlet-spec-body.adoc#32-file-upload
     - https://nvd.nist.gov/vuln/detail/CVE-2023-26048
@@ -111,6 +112,7 @@
     - https://github.com/eclipse/jetty.project/issues/9076
     - https://github.com/eclipse/jetty.project/pull/9344
     - https://github.com/eclipse/jetty.project/pull/9345
+    - https://github.com/eclipse/jetty.project/releases/tag/jetty-9.4.51.v20230217
     - https://github.com/eclipse/jetty.project/security/advisories/GHSA-qw69-rqj8-6qw8
     - https://github.com/jakartaee/servlet/blob/6.0.0/spec/src/main/asciidoc/servlet-spec-body.adoc#32-file-upload
     - https://nvd.nist.gov/vuln/detail/CVE-2023-26048
@@ -185,6 +187,7 @@
     - https://github.com/eclipse/jetty.project/issues/9076
     - https://github.com/eclipse/jetty.project/pull/9344
     - https://github.com/eclipse/jetty.project/pull/9345
+    - https://github.com/eclipse/jetty.project/releases/tag/jetty-9.4.51.v20230217
     - https://github.com/eclipse/jetty.project/security/advisories/GHSA-qw69-rqj8-6qw8
     - https://github.com/jakartaee/servlet/blob/6.0.0/spec/src/main/asciidoc/servlet-spec-body.adoc#32-file-upload
     - https://nvd.nist.gov/vuln/detail/CVE-2023-26048
@@ -259,6 +262,7 @@
     - https://github.com/eclipse/jetty.project/issues/9076
     - https://github.com/eclipse/jetty.project/pull/9344
     - https://github.com/eclipse/jetty.project/pull/9345
+    - https://github.com/eclipse/jetty.project/releases/tag/jetty-9.4.51.v20230217
     - https://github.com/eclipse/jetty.project/security/advisories/GHSA-qw69-rqj8-6qw8
     - https://github.com/jakartaee/servlet/blob/6.0.0/spec/src/main/asciidoc/servlet-spec-body.adoc#32-file-upload
     - https://nvd.nist.gov/vuln/detail/CVE-2023-26048
