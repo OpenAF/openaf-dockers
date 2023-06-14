@@ -2153,8 +2153,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.9
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
     References:
     - http://www.openwall.com/lists/oss-security/2023/05/30/1
     - https://access.redhat.com/security/cve/CVE-2023-2650
@@ -2440,8 +2440,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.9
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
     References:
     - http://www.openwall.com/lists/oss-security/2023/05/30/1
     - https://access.redhat.com/security/cve/CVE-2023-2650
@@ -3583,6 +3583,7 @@
     - https://github.com/advisories/GHSA-p26g-97m4-6q7c
     - https://github.com/eclipse/jetty.project/pull/9339
     - https://github.com/eclipse/jetty.project/pull/9352
+    - https://github.com/eclipse/jetty.project/releases/tag/jetty-9.4.51.v20230217
     - https://github.com/eclipse/jetty.project/security/advisories/GHSA-p26g-97m4-6q7c
     - https://nvd.nist.gov/vuln/detail/CVE-2023-26049
     - https://security.netapp.com/advisory/ntap-20230526-0001/
@@ -3658,6 +3659,7 @@
     - https://github.com/advisories/GHSA-p26g-97m4-6q7c
     - https://github.com/eclipse/jetty.project/pull/9339
     - https://github.com/eclipse/jetty.project/pull/9352
+    - https://github.com/eclipse/jetty.project/releases/tag/jetty-9.4.51.v20230217
     - https://github.com/eclipse/jetty.project/security/advisories/GHSA-p26g-97m4-6q7c
     - https://nvd.nist.gov/vuln/detail/CVE-2023-26049
     - https://security.netapp.com/advisory/ntap-20230526-0001/
@@ -3733,6 +3735,7 @@
     - https://github.com/advisories/GHSA-p26g-97m4-6q7c
     - https://github.com/eclipse/jetty.project/pull/9339
     - https://github.com/eclipse/jetty.project/pull/9352
+    - https://github.com/eclipse/jetty.project/releases/tag/jetty-9.4.51.v20230217
     - https://github.com/eclipse/jetty.project/security/advisories/GHSA-p26g-97m4-6q7c
     - https://nvd.nist.gov/vuln/detail/CVE-2023-26049
     - https://security.netapp.com/advisory/ntap-20230526-0001/
@@ -3808,6 +3811,7 @@
     - https://github.com/advisories/GHSA-p26g-97m4-6q7c
     - https://github.com/eclipse/jetty.project/pull/9339
     - https://github.com/eclipse/jetty.project/pull/9352
+    - https://github.com/eclipse/jetty.project/releases/tag/jetty-9.4.51.v20230217
     - https://github.com/eclipse/jetty.project/security/advisories/GHSA-p26g-97m4-6q7c
     - https://nvd.nist.gov/vuln/detail/CVE-2023-26049
     - https://security.netapp.com/advisory/ntap-20230526-0001/
