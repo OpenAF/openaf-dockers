@@ -1,0 +1,5 @@
+````yaml
+─ [0] ╭ Target: openaf/oaf:nightly (alpine 3.18.0) 
+      ├ Class : os-pkgs 
+      ╰ Type  : alpine 
+````
