@@ -715,7 +715,10 @@
 │                       │      │                   actor to use cause __real_pthread_create() to return an error, which can exhaust the process memory.[
 │                       │      │                   m 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L 
+│                       │      ├ CweIDs           ─ [0]: CWE-401 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L 
+│                       │      │                  │        ╰ V3Score : 3.3 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L 
 │                       │      │                           ╰ V3Score : 3.3 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-2602 
 │                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2209114 
@@ -727,7 +730,7 @@
 │                       │      │                  ├ [7]: https://www.openwall.com/lists/oss-security/2023/05/15/4 
 │                       │      │                  ╰ [8]: https://www.x41-dsec.de/static/reports/X41-libcap-Code-Review-2023-OSTIF-Final-Report.pdf 
 │                       │      ├ PublishedDate   : 2023-06-06T20:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-07T02:45:00Z 
+│                       │      ╰ LastModifiedDate: 2023-06-14T18:07:00Z 
 │                       ├ [25] ╭ VulnerabilityID : CVE-2023-27536 
 │                       │      ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.1.x86_64 
 │                       │      ├ PkgName         : libcurl-minimal 

@@ -1,7 +1,41 @@
 ````yaml
-╭ [0] ╭ Target: openaf/oaf:latest (alpine 3.18.0) 
-│     ├ Class : os-pkgs 
-│     ╰ Type  : alpine 
+╭ [0] ╭ Target         : openaf/oaf:latest (alpine 3.18.0) 
+│     ├ Class          : os-pkgs 
+│     ├ Type           : alpine 
+│     ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2023-2804 
+│                             ├ PkgID           : libjpeg-turbo@2.1.5.1-r2 
+│                             ├ PkgName         : libjpeg-turbo 
+│                             ├ InstalledVersion: 2.1.5.1-r2 
+│                             ├ FixedVersion    : 2.1.5.1-r3 
+│                             ├ Layer            ╭ Digest: sha256:4bd636f0a6b69e68e5cc9810353492fbc0c73895fa1a31f6def8d4817c4aeff1 
+│                             │                  ╰ DiffID: sha256:616f28a7f8dbd7550739728498d1bc7cceff76b35a95e43a39fb4001f92968d4 
+│                             ├ SeveritySource  : nvd 
+│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-2804 
+│                             ├ DataSource       ╭ ID  : alpine 
+│                             │                  ├ Name: Alpine Secdb 
+│                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                             ├ Title           : heap-buffer-overflow in h2v2_merged_upsample_internal() at /libjpeg-turbo/jdmrgext.c 
+│                             ├ Description     : A heap-based buffer overflow issue was discovered in libjpeg-turbo in h2v2_merged_upsample_internal()
+│                             │                   function of jdmrgext.c file. The vulnerability can only be exploited with 12-bit data precision for which the
+│                             │                    range of the sample data type exceeds the valid sample range, hence, an attacker could craft a 12-bit
+│                             │                   lossless JPEG image that contains out-of-range 12-bit samples. An application attempting to decompress such
+│                             │                   image using merged upsampling would lead to segmentation fault or buffer overflows, causing an application to
+│                             │                    crash. 
+│                             ├ Severity        : MEDIUM 
+│                             ├ CweIDs           ─ [0]: CWE-787 
+│                             ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+│                             │                  │        ╰ V3Score : 6.5 
+│                             │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+│                             │                           ╰ V3Score : 6.5 
+│                             ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-2804 
+│                             │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2208447 
+│                             │                  ├ [2]: https://github.com/libjpeg-turbo/libjpeg-turbo/commit/9f756bc67a84d4566bf74a0c2432aa55da404021 
+│                             │                  ├ [3]: https://github.com/libjpeg-turbo/libjpeg-turbo/issues/668#issuecomment-1492586118 
+│                             │                  ├ [4]: https://github.com/libjpeg-turbo/libjpeg-turbo/issues/675 
+│                             │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-2804 
+│                             │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-2804 
+│                             ├ PublishedDate   : 2023-05-25T22:15:00Z 
+│                             ╰ LastModifiedDate: 2023-06-06T13:40:00Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
