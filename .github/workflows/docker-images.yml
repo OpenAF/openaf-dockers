@@ -35,10 +35,21 @@ jobs:
         password: ${{ secrets.DOCKERHUB_TOKEN }}
         
     - uses: docker/build-push-action@v4
-      name: Build and push
+      name: Build and push based on input
+      if  : ${{ github.event.inputs.baseImage }}
       with:
         platforms: linux/amd64,linux/arm64
         context: "{{defaultContext}}:nAttrMon"
         push: true
         tags: openaf/nattrmon:build
         build-args: url=${{ github.event.inputs.baseImage }}
+
+    - uses: docker/build-push-action@v4
+      name: Build and push
+      if  : ${{ ! github.event.inputs.baseImage }}
+      with:
+        platforms: linux/amd64,linux/arm64
+        context: "{{defaultContext}}:nAttrMon"
+        push: true
+        tags: openaf/nattrmon:build
+        build-args: url=openaf/oaf:nightly
