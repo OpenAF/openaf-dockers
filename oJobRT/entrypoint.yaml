@@ -126,7 +126,7 @@ jobs:
     } else {
       delete args.secFile
 
-      if (Object.keys(args)).filter(r => r.startsWith("sec")).length < 0) args.secIgnore = true
+      if (Object.keys(args).filter(r => r.startsWith("sec")).length < 0) args.secIgnore = true
     }
     args.secDontAsk = true
     args = $job("ojob sec get", args)
