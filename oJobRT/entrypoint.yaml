@@ -128,9 +128,11 @@ jobs:
 
       if (Object.keys(args).filter(r => r.startsWith("sec")).length < 0) args.secIgnore = true
     }
-    args.secDontAsk = true
-    args = $job("ojob sec get", args)
-
+    if (isDef(args.secKey)) {
+      args.secDontAsk = true
+      args = $job("ojob sec get", args)
+    }
+    
     args.objectName = args.OJOB_CONFIG
     args.localPath  = args.init.tmpFile
     tlog(global.uuid + " | Copying ojob config zip from S3 ({{url}} ({{bucket}})/{{objectName}})...", args)
