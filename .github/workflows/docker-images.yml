@@ -11,9 +11,9 @@ on:
   workflow_dispatch:
     inputs:
       baseImage:
-        description: 'The base image to use'
+        description: 'The base image tag to use'
         required   : true
-        default    : openaf/oaf:nightly
+        default    : nightly
 
 jobs:
 
@@ -38,7 +38,7 @@ jobs:
         context: "{{defaultContext}}:nAttrMon"
         push: true
         tags: openaf/nattrmon:build
-        build-args: url=${{ github.event.inputs.baseImage }}
+        build-args: url=openaf/oaf:${{ github.event.inputs.baseTag }}
     - uses: docker/build-push-action@v4
       name: Build and push
       if  : ${{ ! github.event.inputs.baseImage }}
@@ -70,13 +70,13 @@ jobs:
         context: "{{defaultContext}}:oJobRT"
         push: true
         tags: openaf/ojobrt:build
-        build-args: url=${{ github.event.inputs.baseImage }}
+        build-args: url=openaf/oaf:${{ github.event.inputs.baseTag }}
     - uses: docker/build-push-action@v4
       name: Build and push
       if  : ${{ ! github.event.inputs.baseImage }}
       with:
         platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:nAttrMon"
+        context: "{{defaultContext}}:oJobRT"
         push: true
         tags: openaf/ojobrt:build
         build-args: url=openaf/oaf:nightly
