@@ -70,7 +70,7 @@ jobs:
         context: "{{defaultContext}}:oJobRT"
         push: true
         tags: openaf/ojobrt:build
-        build-args: url=openaf/oaf:${{ github.event.inputs.baseTag }}
+        build-args: DIST=${{ github.event.inputs.baseTag }}
     - uses: docker/build-push-action@v4
       name: Build and push
       if  : ${{ ! github.event.inputs.baseImage }}
@@ -79,4 +79,4 @@ jobs:
         context: "{{defaultContext}}:oJobRT"
         push: true
         tags: openaf/ojobrt:build
-        build-args: url=openaf/oaf:nightly
+        build-args: DIST=nightly
