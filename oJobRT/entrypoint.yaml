@@ -124,8 +124,11 @@ jobs:
       args.secBucket = _$(args.secBucket).default("ojob")
       args.secKey    = _$(args.secKey).default("s3_config")
     } else {
-      args.secFile = __
+      delete args.secFile
+
+      if (Object.keys(args)).filter(r => r.startsWith("sec")).length < 0) args.secIgnore = true
     }
+    args.secDontAsk = true
     args = $job("ojob sec get", args)
 
     args.objectName = args.OJOB_CONFIG
