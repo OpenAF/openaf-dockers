@@ -10,7 +10,7 @@ on:
         
   workflow_dispatch:
     inputs:
-      baseImage:
+      baseTag:
         description: 'The base image tag to use'
         required   : true
         default    : nightly
