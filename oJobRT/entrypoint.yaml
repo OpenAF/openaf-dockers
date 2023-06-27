@@ -123,11 +123,10 @@ jobs:
     if (io.fileExists(args.secFile)) {
       args.secBucket = _$(args.secBucket).default("ojob")
       args.secKey    = _$(args.secKey).default("s3_config")
-
-      args = $job("ojob sec get", args)
     } else {
       args.secFile = __
     }
+    args = $job("ojob sec get", args)
 
     args.objectName = args.OJOB_CONFIG
     args.localPath  = args.init.tmpFile
