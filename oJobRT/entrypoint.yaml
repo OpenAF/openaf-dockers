@@ -76,9 +76,9 @@ jobs:
 
       // Starting server
       ow.loadServer()
-      var hs = ow.server.httpd.start(params.port, params.host, params.key, params.pass, __, __, params.timeout)
+      global.hs = ow.server.httpd.start(params.port, params.host, params.key, params.pass, __, __, params.timeout)
       $ch("ojobhttp").create("file", { file: params.file, compact: true })
-      ow.server.httpd.route(hs, {
+      ow.server.httpd.route(global.hs, {
         "/": function(req, aHs) {
           var id = {
             id: nowNano(),
@@ -281,6 +281,8 @@ jobs:
   from: Check if is ready
   exec: |
     if (io.fileExists(args.init.ojobFile)) {
+      if (isDef(global.hs)) ow.server.httpd.stop(global.hs)
+      
       log(global.uuid + " | Starting " + args.init.ojobFile + "...")
 
       oJobRunFile(args.init.ojobFile, __, genUUID(), __, true);
