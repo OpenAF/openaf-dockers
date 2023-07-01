@@ -281,8 +281,11 @@ jobs:
   from: Check if is ready
   exec: |
     if (io.fileExists(args.init.ojobFile)) {
-      // stop the web server if it was started by OJOB_HTTP
-      if (isDef(global.hs)) ow.server.httpd.stop(global.hs)
+      // stop the web server & ch if it was started by OJOB_HTTP
+      if (isDef(global.hs)) {
+        ow.server.httpd.stop(global.hs)
+        $ch("ojobhttp").destroy()
+      }
 
       log(global.uuid + " | Starting " + args.init.ojobFile + "...")
 
