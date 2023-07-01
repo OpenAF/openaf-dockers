@@ -87,7 +87,7 @@ jobs:
           }
           var _data = merge(id, req)
           $ch("ojobhttp").set(id, _data)      
-          tlog("AUDIT HTTP | {{id}} | {{method}} {{uri}} {{reply.status}} {{{reply.mimetype}}} ({{header.remote-addr}}; {{header.user-agent}})", _data)                                                                                       │
+          tlog("AUDIT HTTP | {{id}} | {{method}} {{uri}} {{reply.status}} {{{reply.mimetype}}} ({{header.remote-addr}}; {{header.user-agent}})", _data)
           return aHs.replyOKText("ack")
         }
       })
