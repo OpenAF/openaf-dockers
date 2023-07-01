@@ -77,7 +77,7 @@ jobs:
       // Starting server
       ow.loadServer()
       var hs = ow.server.httpd.start(params.port, params.host, params.key, params.pass, __, __, params.timeout)
-      $ch("ojobhttp").create("file", { file: params, compact: true })
+      $ch("ojobhttp").create("file", { file: params.file, compact: true })
       ow.server.httpd.route(hs, {
         "/": function(req, aHs) {
           var id = {
