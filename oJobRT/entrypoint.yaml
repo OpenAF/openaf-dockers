@@ -23,6 +23,10 @@ help:
     desc     : Turns the log output to json
     example  : "true"
     mandatory: false
+  - name     : OJOB_HTTP
+    desc     : Capture events sent through HTTP during startup for later processing (e.g. Knative event trigger)
+    example  : '{ port: 8080, key: "/some/path/key", pass: "somepass", timeout: 60000, file: "/tmp/_ojob_http.json" }'
+    mandatory: false
 
 include:
 - s3.yaml
@@ -49,14 +53,52 @@ todo:
 - name: oJob execution
 
 jobs:
-# --------------------
-- name: Initial checks
-  exec: |
-    var isOk       = true
-    var isLocal    = false
-    var isNone     = false
-    var hasSecrets = false
+# ----------------------
+- name : Start oJob HTTP
+  check:
+    in:
+      OJOB_HTTP: isString.default(__)
+  exec : |
+    if (isDef(args.OJOB_HTTP)) {
+      // Parse json in OJOB_HTTP
+      var params = jsonParse(args.OJOB_HTTP)
+      if (!isMap(params)) params = {}
 
+      // Use defined port or PORT env variable or 8080 by default
+      params.port = _$(params.port, "http.port").isNumber().default( _$(getEnv("PORT")).default(8080) )
+      // Use /tmp/_ojob_http.json or the defined file
+      params.file = _$(params.file, "http.file").isString().default("/tmp/_ojob_http.json")
+
+      // Log parameters
+      var data = clone(params)
+      delete data.pass
+      log("Starting temporary HTTP(s) server: " + af.toSLON(data))
+
+      // Starting server
+      ow.loadServer()
+      var hs = ow.server.httpd.start(params.port, params.host, params.key, params.pass, __, __, params.timeout)
+      $ch("ojobhttp").create("file", { file: params, compact: true })
+      ow.server.httpd.route(hs, {
+        "/": function(req, aHs) {
+          var id = {
+            id: nowNano(),
+            uri: req.uri,
+            method: req.method
+          }
+          var _data = merge(id, req)
+          $ch("ojobhttp").set(id, _data)      
+          tlog("AUDIT HTTP | {{id}} | {{method}} {{uri}} {{reply.status}} {{{reply.mimetype}}} ({{header.remote-addr}}; {{header.user-agent}})", _data)                                                                                       │
+          return aHs.replyOKText("ack")
+        }
+      })
+    }
+
+# -------------------
+- name : Start oJobRT
+  check:
+    in:
+      OJOB_JSONLOG: toBoolean.isBoolean.default(false)
+  exec : |
     if (toBoolean(args.OJOB_JSONLOG)) setLog({ format: "json" })
     global.origLogFormat = clone(__logFormat)
     global.uuid          = genUUID()
@@ -66,6 +108,17 @@ jobs:
                 .notEquals("name", "OpenAF")
                 .select(r=> ({ name: r.name, version: r.version }))
     log(global.uuid + " | oJobRT start (OpenAF version " + getVersion() + " (" + getDistribution() + "), oPacks: " + af.toSLON( packs ) + ")" )
+
+# --------------------
+- name: Initial checks
+  from: 
+  - Start oJobRT
+  - Start oJob HTTP
+  exec: |
+    var isOk       = true
+    var isLocal    = false
+    var isNone     = false
+    var hasSecrets = false
 
     // Check arguments
     if (isUnDef(args.OJOB_CONFIG)) {
