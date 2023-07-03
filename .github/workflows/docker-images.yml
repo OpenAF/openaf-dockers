@@ -13,11 +13,12 @@ on:
       baseTag:
         description: 'The base image tag to use'
         required   : true
-        default    : nightly
+        default    : build
 
 jobs:
 
   build-nattrmon:
+    needs: build-oaf
     runs-on: ubuntu-latest
     steps:
     - name: Set up QEMU
@@ -47,7 +48,7 @@ jobs:
         context: "{{defaultContext}}:nAttrMon"
         push: true
         tags: openaf/nattrmon:build
-        build-args: url=openaf/oaf:nightly
+        build-args: url=openaf/oaf:build
         
   build-oaf:
     runs-on: ubuntu-latest
@@ -79,10 +80,11 @@ jobs:
         context: "{{defaultContext}}:openaf"
         push: true
         tags: openaf/oaf:build
-        build-args: DIST=nightly
+        build-args: DIST=build
         
         
   build-ojobrt:
+    needs: build-oaf
     runs-on: ubuntu-latest
     steps:
     - name: Set up QEMU
@@ -112,4 +114,4 @@ jobs:
         context: "{{defaultContext}}:oJobRT"
         push: true
         tags: openaf/ojobrt:build
-        build-args: DIST=nightly
+        build-args: DIST=build
