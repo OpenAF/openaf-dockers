@@ -16,7 +16,7 @@ on:
         default    : build
       oafDist:
         description: 'The openaf dist to use'
-        required   : true
+        required   : false
         default    : ''
 
 jobs:
