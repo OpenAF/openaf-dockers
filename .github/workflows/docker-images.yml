@@ -18,6 +18,10 @@ on:
         description: 'The openaf dist to use'
         required   : false
         default    : ''
+      ubi:
+        description: 'If defined will build using an ubi base image instead of alpine'
+        required   : false
+        default    : ''
 
 jobs:
 
@@ -75,6 +79,15 @@ jobs:
         tags: openaf/oaf:${{ github.event.inputs.baseTag }}
         build-args: DIST=${{ github.event.inputs.baseTag }} OPENAFDIST=${{ github.event.inputs.oafDist }}
     - uses: docker/build-push-action@v4
+      name: Build and push based on input
+      if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi == 'yes' }}
+      with:
+        platforms: linux/amd64,linux/arm64
+        context: "{{defaultContext}}:openaf-ubi"
+        push: true
+        tags: openaf/oaf:${{ github.event.inputs.baseTag }}
+        build-args: DIST=${{ github.event.inputs.baseTag }} OPENAFDIST=${{ github.event.inputs.oafDist }}
+    - uses: docker/build-push-action@v4
       name: Build and push
       if  : ${{ ! github.event.inputs.baseTag }}
       with:
@@ -102,6 +115,15 @@ jobs:
       with:
         platforms: linux/amd64,linux/arm64
         context: "{{defaultContext}}:openaf"
+        push: true
+        tags: openaf/openaf:${{ github.event.inputs.baseTag }}
+        build-args: DIST=${{ github.event.inputs.baseTag }} OPENAFDIST=${{ github.event.inputs.oafDist }}
+    - uses: docker/build-push-action@v4
+      name: Build and push based on input
+      if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi == 'yes' }}
+      with:
+        platforms: linux/amd64,linux/arm64
+        context: "{{defaultContext}}:openaf-ubi"
         push: true
         tags: openaf/openaf:${{ github.event.inputs.baseTag }}
         build-args: DIST=${{ github.event.inputs.baseTag }} OPENAFDIST=${{ github.event.inputs.oafDist }}
