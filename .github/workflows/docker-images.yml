@@ -14,6 +14,10 @@ on:
         description: 'The base image tag to use'
         required   : true
         default    : build
+      oafDist:
+        description: 'The openaf dist to use'
+        required   : true
+        default    : ''
 
 jobs:
 
@@ -69,7 +73,7 @@ jobs:
         context: "{{defaultContext}}:openaf"
         push: true
         tags: openaf/oaf:${{ github.event.inputs.baseTag }}
-        build-args: DIST=${{ github.event.inputs.baseTag }}
+        build-args: DIST=${{ github.event.inputs.baseTag }} OPENAFDIST=${{ github.event.inputs.oafDist }}
     - uses: docker/build-push-action@v4
       name: Build and push
       if  : ${{ ! github.event.inputs.baseTag }}
@@ -100,7 +104,7 @@ jobs:
         context: "{{defaultContext}}:openaf"
         push: true
         tags: openaf/openaf:${{ github.event.inputs.baseTag }}
-        build-args: DIST=${{ github.event.inputs.baseTag }}
+        build-args: DIST=${{ github.event.inputs.baseTag }} OPENAFDIST=${{ github.event.inputs.oafDist }}
     - uses: docker/build-push-action@v4
       name: Build and push
       if  : ${{ ! github.event.inputs.baseTag }}
@@ -132,7 +136,7 @@ jobs:
         context: "{{defaultContext}}:oJobC"
         push: true
         tags: openaf/openaf-ojobc:${{ github.event.inputs.baseTag }}
-        build-args: DIST=${{ github.event.inputs.baseTag }}
+        build-args: DIST=${{ github.event.inputs.baseTag }} OPENAFDIST=${{ github.event.inputs.oafDist }}
     - uses: docker/build-push-action@v4
       name: Build and push
       if  : ${{ ! github.event.inputs.baseTag }}
@@ -164,7 +168,7 @@ jobs:
         context: "{{defaultContext}}:oJobC"
         push: true
         tags: openaf/ojobc:${{ github.event.inputs.baseTag }}
-        build-args: DIST=${{ github.event.inputs.baseTag }}
+        build-args: DIST=${{ github.event.inputs.baseTag }} OPENAFDIST=${{ github.event.inputs.oafDist }}
     - uses: docker/build-push-action@v4
       name: Build and push
       if  : ${{ ! github.event.inputs.baseTag }}
@@ -196,7 +200,7 @@ jobs:
         context: "{{defaultContext}}:oJob"
         push: true
         tags: openaf/openaf-ojob:${{ github.event.inputs.baseTag }}
-        build-args: DIST=${{ github.event.inputs.baseTag }}
+        build-args: DIST=${{ github.event.inputs.baseTag }} OPENAFDIST=${{ github.event.inputs.oafDist }}
     - uses: docker/build-push-action@v4
       name: Build and push
       if  : ${{ ! github.event.inputs.baseTag }}
@@ -228,7 +232,7 @@ jobs:
         context: "{{defaultContext}}:oJob"
         push: true
         tags: openaf/ojob:${{ github.event.inputs.baseTag }}
-        build-args: DIST=${{ github.event.inputs.baseTag }}
+        build-args: DIST=${{ github.event.inputs.baseTag }} OPENAFDIST=${{ github.event.inputs.oafDist }}
     - uses: docker/build-push-action@v4
       name: Build and push
       if  : ${{ ! github.event.inputs.baseTag }}
@@ -260,7 +264,7 @@ jobs:
         context: "{{defaultContext}}:openaf-console"
         push: true
         tags: openaf/openaf-console:${{ github.event.inputs.baseTag }}
-        build-args: DIST=${{ github.event.inputs.baseTag }}
+        build-args: DIST=${{ github.event.inputs.baseTag }} OPENAFDIST=${{ github.event.inputs.oafDist }}
     - uses: docker/build-push-action@v4
       name: Build and push
       if  : ${{ ! github.event.inputs.baseTag }}
@@ -292,7 +296,7 @@ jobs:
         context: "{{defaultContext}}:openaf-console"
         push: true
         tags: openaf/oafc:${{ github.event.inputs.baseTag }}
-        build-args: DIST=${{ github.event.inputs.baseTag }}
+        build-args: DIST=${{ github.event.inputs.baseTag }} OPENAFDIST=${{ github.event.inputs.oafDist }}
     - uses: docker/build-push-action@v4
       name: Build and push
       if  : ${{ ! github.event.inputs.baseTag }}
@@ -325,7 +329,7 @@ jobs:
         context: "{{defaultContext}}:oJobRT"
         push: true
         tags: openaf/ojobrt:${{ github.event.inputs.baseTag }}
-        build-args: DIST=${{ github.event.inputs.baseTag }}
+        build-args: DIST=${{ github.event.inputs.baseTag }} OPENAFDIST=${{ github.event.inputs.oafDist }}
     - uses: docker/build-push-action@v4
       name: Build and push
       if  : ${{ ! github.event.inputs.baseTag }}
