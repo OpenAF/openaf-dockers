@@ -83,7 +83,7 @@ jobs:
         args: 'inputFile=.github/sec-ubi-latest.yaml file=.github/sec-ubi-latest.md'
         dist: 't8'
         
-    - uses: openaf/ojob-action@v3
+    - uses: openaf/ojob-action@v4
       name: Push
       env :
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
