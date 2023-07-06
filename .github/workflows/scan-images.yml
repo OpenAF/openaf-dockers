@@ -84,6 +84,34 @@ jobs:
         dist: 't8'
         
     - uses: openaf/ojob-action@v4
+      name: Scan oJobRT latest
+      with:
+        ojob: 'ojob.io/sec/genSecBadge'
+        args: 'image=openaf/oaf:ubi file=.github/sec-oJobRT-latest.svg reportFile=.github/sec-oJobRT-latest.yaml'
+        dist: 't8'
+        
+    - uses: openaf/ojob-action@v4
+      name: Generate sec-oJobRT-latest.md
+      with:
+        ojob: 'ojob.io/util/toMDTree'
+        args: 'inputFile=.github/sec-oJobRT-latest.yaml file=.github/sec-oJobRT-latest.md'
+        dist: 't8'
+        
+    - uses: openaf/ojob-action@v4
+      name: Scan nAttrMon latest
+      with:
+        ojob: 'ojob.io/sec/genSecBadge'
+        args: 'image=openaf/oaf:ubi file=.github/sec-nAttrMon-latest.svg reportFile=.github/sec-nAttrMon-latest.yaml'
+        dist: 't8'
+        
+    - uses: openaf/ojob-action@v4
+      name: Generate sec-nAttrMon-latest.md
+      with:
+        ojob: 'ojob.io/util/toMDTree'
+        args: 'inputFile=.github/sec-nAttrMon-latest.yaml file=.github/sec-nAttrMon-latest.md'
+        dist: 't8'
+        
+    - uses: openaf/ojob-action@v4
       name: Push
       env :
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
