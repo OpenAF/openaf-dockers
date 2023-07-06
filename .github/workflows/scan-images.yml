@@ -98,6 +98,20 @@ jobs:
         dist: 't8'
         
     - uses: openaf/ojob-action@v4
+      name: Scan oJobRT nightly
+      with:
+        ojob: 'ojob.io/sec/genSecBadge'
+        args: 'image=openaf/ojobrt:nightly file=.github/sec-oJobRT-nightly.svg reportFile=.github/sec-oJobRT-nightly.yaml'
+        dist: 't8'
+        
+    - uses: openaf/ojob-action@v4
+      name: Generate sec-oJobRT-nightly.md
+      with:
+        ojob: 'ojob.io/util/toMDTree'
+        args: 'inputFile=.github/sec-oJobRT-nightly.yaml file=.github/sec-oJobRT-nightly.md'
+        dist: 't8'
+        
+    - uses: openaf/ojob-action@v4
       name: Push
       env :
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
