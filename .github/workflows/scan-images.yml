@@ -87,7 +87,7 @@ jobs:
       name: Scan oJobRT latest
       with:
         ojob: 'ojob.io/sec/genSecBadge'
-        args: 'image=openaf/ojobrt file=.github/sec-oJobRT-latest.svg reportFile=.github/sec-oJobRT-latest.yaml'
+        args: 'image=openaf/ojobrt:latest file=.github/sec-oJobRT-latest.svg reportFile=.github/sec-oJobRT-latest.yaml'
         dist: 't8'
         
     - uses: openaf/ojob-action@v4
@@ -101,7 +101,7 @@ jobs:
       name: Scan nAttrMon latest
       with:
         ojob: 'ojob.io/sec/genSecBadge'
-        args: 'image=openaf/nattrmon file=.github/sec-nAttrMon-latest.svg reportFile=.github/sec-nAttrMon-latest.yaml'
+        args: 'image=openaf/nattrmon:latest file=.github/sec-nAttrMon-latest.svg reportFile=.github/sec-nAttrMon-latest.yaml'
         dist: 't8'
         
     - uses: openaf/ojob-action@v4
