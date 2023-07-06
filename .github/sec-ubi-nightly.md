@@ -2650,8 +2650,8 @@
                         │      │                            06014dbf001f3e0ad375e7123 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-0391 
-                        │      ├ Title           : python: urllib.parse does not sanitize URLs containing
-                        │      │                   ASCII newline and tabs 
+                        │      ├ Title           : urllib.parse does not sanitize URLs containing ASCII
+                        │      │                   newline and tabs 
                         │      ├ Description     : A flaw was found in Python, specifically within the
                         │      │                   urllib.parse module. This module helps break Uniform
                         │      │                   Resource Locator (URL) strings into components. The issue
@@ -2971,8 +2971,8 @@
                         │      │                            06014dbf001f3e0ad375e7123 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-0391 
-                        │      ├ Title           : python: urllib.parse does not sanitize URLs containing
-                        │      │                   ASCII newline and tabs 
+                        │      ├ Title           : urllib.parse does not sanitize URLs containing ASCII
+                        │      │                   newline and tabs 
                         │      ├ Description     : A flaw was found in Python, specifically within the
                         │      │                   urllib.parse module. This module helps break Uniform
                         │      │                   Resource Locator (URL) strings into components. The issue
@@ -3292,8 +3292,8 @@
                         │      │                            06014dbf001f3e0ad375e7123 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-0391 
-                        │      ├ Title           : python: urllib.parse does not sanitize URLs containing
-                        │      │                   ASCII newline and tabs 
+                        │      ├ Title           : urllib.parse does not sanitize URLs containing ASCII
+                        │      │                   newline and tabs 
                         │      ├ Description     : A flaw was found in Python, specifically within the
                         │      │                   urllib.parse module. This module helps break Uniform
                         │      │                   Resource Locator (URL) strings into components. The issue
