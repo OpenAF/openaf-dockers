@@ -2100,7 +2100,7 @@
       DiffID: sha256:c043cf9e05cc3cb5a8265c7343e1305241f330106014dbf001f3e0ad375e7123
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-0391
-    Title: 'python: urllib.parse does not sanitize URLs containing ASCII newline and tabs'
+    Title: urllib.parse does not sanitize URLs containing ASCII newline and tabs
     Description: A flaw was found in Python, specifically within the urllib.parse module. This module helps break Uniform Resource Locator (URL) strings into components. The issue involves how the urlparse method does not sanitize input and allows characters like '\r' and '\n' in the URL path. This flaw allows an attacker to input a crafted URL, leading to injection attacks. This flaw affects Python versions prior to 3.10.0b1, 3.9.5, 3.8.11, 3.7.11 and 3.6.14.
     Severity: MEDIUM
     CweIDs:
@@ -2308,7 +2308,7 @@
       DiffID: sha256:c043cf9e05cc3cb5a8265c7343e1305241f330106014dbf001f3e0ad375e7123
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-0391
-    Title: 'python: urllib.parse does not sanitize URLs containing ASCII newline and tabs'
+    Title: urllib.parse does not sanitize URLs containing ASCII newline and tabs
     Description: A flaw was found in Python, specifically within the urllib.parse module. This module helps break Uniform Resource Locator (URL) strings into components. The issue involves how the urlparse method does not sanitize input and allows characters like '\r' and '\n' in the URL path. This flaw allows an attacker to input a crafted URL, leading to injection attacks. This flaw affects Python versions prior to 3.10.0b1, 3.9.5, 3.8.11, 3.7.11 and 3.6.14.
     Severity: MEDIUM
     CweIDs:
@@ -2516,7 +2516,7 @@
       DiffID: sha256:c043cf9e05cc3cb5a8265c7343e1305241f330106014dbf001f3e0ad375e7123
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-0391
-    Title: 'python: urllib.parse does not sanitize URLs containing ASCII newline and tabs'
+    Title: urllib.parse does not sanitize URLs containing ASCII newline and tabs
     Description: A flaw was found in Python, specifically within the urllib.parse module. This module helps break Uniform Resource Locator (URL) strings into components. The issue involves how the urlparse method does not sanitize input and allows characters like '\r' and '\n' in the URL path. This flaw allows an attacker to input a crafted URL, leading to injection attacks. This flaw affects Python versions prior to 3.10.0b1, 3.9.5, 3.8.11, 3.7.11 and 3.6.14.
     Severity: MEDIUM
     CweIDs:
