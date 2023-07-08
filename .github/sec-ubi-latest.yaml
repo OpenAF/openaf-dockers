@@ -2181,7 +2181,12 @@
     Title: maximum recursion depth exceeded while calling a Python object
     Description: '** DISPUTED ** The legacy email.utils.parseaddr function in Python through 3.11.4 allows attackers to trigger "RecursionError: maximum recursion depth exceeded while calling a Python object" via a crafted argument. This argument is plausibly an untrusted value from an application''s input data that was supposed to contain a name and an e-mail address. NOTE: email.utils.parseaddr is categorized as a Legacy API in the documentation of the Python email package. Applications should instead use the email.parser.BytesParser or email.parser.Parser class. NOTE: the vendor''s perspective is that this is neither a vulnerability nor a bug. The email package is intended to have size limits and to throw an exception when limits are exceeded; they were exceeded by the example demonstration code.'
     Severity: MEDIUM
+    CweIDs:
+    - CWE-674
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
@@ -2194,7 +2199,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36632
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:00Z'
-    LastModifiedDate: '2023-06-29T13:15:00Z'
+    LastModifiedDate: '2023-07-06T16:00:00Z'
   - VulnerabilityID: CVE-2007-4559
     PkgID: python3@3.9.16-1.el9_2.1.x86_64
     PkgName: python3
@@ -2389,7 +2394,12 @@
     Title: maximum recursion depth exceeded while calling a Python object
     Description: '** DISPUTED ** The legacy email.utils.parseaddr function in Python through 3.11.4 allows attackers to trigger "RecursionError: maximum recursion depth exceeded while calling a Python object" via a crafted argument. This argument is plausibly an untrusted value from an application''s input data that was supposed to contain a name and an e-mail address. NOTE: email.utils.parseaddr is categorized as a Legacy API in the documentation of the Python email package. Applications should instead use the email.parser.BytesParser or email.parser.Parser class. NOTE: the vendor''s perspective is that this is neither a vulnerability nor a bug. The email package is intended to have size limits and to throw an exception when limits are exceeded; they were exceeded by the example demonstration code.'
     Severity: MEDIUM
+    CweIDs:
+    - CWE-674
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
@@ -2402,7 +2412,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36632
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:00Z'
-    LastModifiedDate: '2023-06-29T13:15:00Z'
+    LastModifiedDate: '2023-07-06T16:00:00Z'
   - VulnerabilityID: CVE-2007-4559
     PkgID: python3-libs@3.9.16-1.el9_2.1.x86_64
     PkgName: python3-libs
@@ -2597,7 +2607,12 @@
     Title: maximum recursion depth exceeded while calling a Python object
     Description: '** DISPUTED ** The legacy email.utils.parseaddr function in Python through 3.11.4 allows attackers to trigger "RecursionError: maximum recursion depth exceeded while calling a Python object" via a crafted argument. This argument is plausibly an untrusted value from an application''s input data that was supposed to contain a name and an e-mail address. NOTE: email.utils.parseaddr is categorized as a Legacy API in the documentation of the Python email package. Applications should instead use the email.parser.BytesParser or email.parser.Parser class. NOTE: the vendor''s perspective is that this is neither a vulnerability nor a bug. The email package is intended to have size limits and to throw an exception when limits are exceeded; they were exceeded by the example demonstration code.'
     Severity: MEDIUM
+    CweIDs:
+    - CWE-674
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
@@ -2610,7 +2625,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36632
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:00Z'
-    LastModifiedDate: '2023-06-29T13:15:00Z'
+    LastModifiedDate: '2023-07-06T16:00:00Z'
   - VulnerabilityID: CVE-2021-3572
     PkgID: python3-pip-wheel@21.2.3-6.el9.noarch
     PkgName: python3-pip-wheel
