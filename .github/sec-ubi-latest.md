@@ -2769,7 +2769,11 @@
                         │      │                   exceeded; they were exceeded by the example demonstration
                         │      │                   code. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+                        │      ├ CweIDs           ─ [0]: CWE-674 
+                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+                        │      │                  │        │           N/I:N/A:H 
+                        │      │                  │        ╰ V3Score : 7.5 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:L 
                         │      │                           ╰ V3Score : 5.3 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-36632 
@@ -2782,7 +2786,7 @@
                         │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36632 
                         │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
                         │      ├ PublishedDate   : 2023-06-25T18:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-06-29T13:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-07-06T16:00:00Z 
                         ├ [62] ╭ VulnerabilityID : CVE-2007-4559 
                         │      ├ PkgID           : python3@3.9.16-1.el9_2.1.x86_64 
                         │      ├ PkgName         : python3 
@@ -3090,7 +3094,11 @@
                         │      │                   exceeded; they were exceeded by the example demonstration
                         │      │                   code. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+                        │      ├ CweIDs           ─ [0]: CWE-674 
+                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+                        │      │                  │        │           N/I:N/A:H 
+                        │      │                  │        ╰ V3Score : 7.5 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:L 
                         │      │                           ╰ V3Score : 5.3 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-36632 
@@ -3103,7 +3111,7 @@
                         │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36632 
                         │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
                         │      ├ PublishedDate   : 2023-06-25T18:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-06-29T13:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-07-06T16:00:00Z 
                         ├ [67] ╭ VulnerabilityID : CVE-2007-4559 
                         │      ├ PkgID           : python3-libs@3.9.16-1.el9_2.1.x86_64 
                         │      ├ PkgName         : python3-libs 
@@ -3411,7 +3419,11 @@
                         │      │                   exceeded; they were exceeded by the example demonstration
                         │      │                   code. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+                        │      ├ CweIDs           ─ [0]: CWE-674 
+                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+                        │      │                  │        │           N/I:N/A:H 
+                        │      │                  │        ╰ V3Score : 7.5 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:L 
                         │      │                           ╰ V3Score : 5.3 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-36632 
@@ -3424,7 +3436,7 @@
                         │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36632 
                         │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
                         │      ├ PublishedDate   : 2023-06-25T18:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-06-29T13:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-07-06T16:00:00Z 
                         ├ [72] ╭ VulnerabilityID : CVE-2021-3572 
                         │      ├ PkgID           : python3-pip-wheel@21.2.3-6.el9.noarch 
                         │      ├ PkgName         : python3-pip-wheel 
