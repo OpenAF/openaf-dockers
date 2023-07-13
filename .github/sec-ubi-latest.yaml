@@ -737,38 +737,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-30571
     PublishedDate: '2023-05-29T20:15:00Z'
     LastModifiedDate: '2023-06-05T16:40:00Z'
-  - VulnerabilityID: CVE-2023-29383
-    PkgID: libblkid@2.37.4-11.el9_2.x86_64
-    PkgName: libblkid
-    InstalledVersion: 2.37.4-11.el9_2
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29383
-    Title: Improper input validation in shadow-utils package utility chfn
-    Description: 'In Shadow 4.13, it is possible to inject control characters into fields provided to the SUID program chfn (change finger). Although it is not possible to exploit this directly (e.g., adding a new user fails because \n is in the block list), it is possible to misrepresent the /etc/passwd file when viewed. Use of \r manipulations and Unicode characters to work around blocking of the : character make it possible to give the impression that a new user has been added. In other words, an adversary may be able to convince a system administrator to take the system offline (an indirect, social-engineered denial of service) by demonstrating that "cat /etc/passwd" shows a rogue user account.'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-74
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 3.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-29383
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29383
-    - https://github.com/shadow-maint/shadow/commit/e5905c4b84d4fb90aefcd96ee618411ebfac663d
-    - https://github.com/shadow-maint/shadow/pull/687
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-29383
-    - https://www.cve.org/CVERecord?id=CVE-2023-29383
-    - https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/cve-2023-29383-abusing-linux-chfn-to-misrepresent-etc-passwd/
-    - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
-    PublishedDate: '2023-04-14T22:15:00Z'
-    LastModifiedDate: '2023-04-24T18:05:00Z'
   - VulnerabilityID: CVE-2023-2603
     PkgID: libcap@2.48-8.el9.x86_64
     PkgName: libcap
@@ -1104,38 +1072,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:00Z'
     LastModifiedDate: '2022-12-22T20:29:00Z'
-  - VulnerabilityID: CVE-2023-29383
-    PkgID: libmount@2.37.4-11.el9_2.x86_64
-    PkgName: libmount
-    InstalledVersion: 2.37.4-11.el9_2
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29383
-    Title: Improper input validation in shadow-utils package utility chfn
-    Description: 'In Shadow 4.13, it is possible to inject control characters into fields provided to the SUID program chfn (change finger). Although it is not possible to exploit this directly (e.g., adding a new user fails because \n is in the block list), it is possible to misrepresent the /etc/passwd file when viewed. Use of \r manipulations and Unicode characters to work around blocking of the : character make it possible to give the impression that a new user has been added. In other words, an adversary may be able to convince a system administrator to take the system offline (an indirect, social-engineered denial of service) by demonstrating that "cat /etc/passwd" shows a rogue user account.'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-74
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 3.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-29383
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29383
-    - https://github.com/shadow-maint/shadow/commit/e5905c4b84d4fb90aefcd96ee618411ebfac663d
-    - https://github.com/shadow-maint/shadow/pull/687
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-29383
-    - https://www.cve.org/CVERecord?id=CVE-2023-29383
-    - https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/cve-2023-29383-abusing-linux-chfn-to-misrepresent-etc-passwd/
-    - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
-    PublishedDate: '2023-04-14T22:15:00Z'
-    LastModifiedDate: '2023-04-24T18:05:00Z'
   - VulnerabilityID: CVE-2018-14048
     PkgID: libpng@1.6.37-12.el9.x86_64
     PkgName: libpng
@@ -1202,38 +1138,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3857
     PublishedDate: '2023-03-06T23:15:00Z'
     LastModifiedDate: '2023-04-06T13:15:00Z'
-  - VulnerabilityID: CVE-2023-29383
-    PkgID: libsmartcols@2.37.4-11.el9_2.x86_64
-    PkgName: libsmartcols
-    InstalledVersion: 2.37.4-11.el9_2
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29383
-    Title: Improper input validation in shadow-utils package utility chfn
-    Description: 'In Shadow 4.13, it is possible to inject control characters into fields provided to the SUID program chfn (change finger). Although it is not possible to exploit this directly (e.g., adding a new user fails because \n is in the block list), it is possible to misrepresent the /etc/passwd file when viewed. Use of \r manipulations and Unicode characters to work around blocking of the : character make it possible to give the impression that a new user has been added. In other words, an adversary may be able to convince a system administrator to take the system offline (an indirect, social-engineered denial of service) by demonstrating that "cat /etc/passwd" shows a rogue user account.'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-74
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 3.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-29383
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29383
-    - https://github.com/shadow-maint/shadow/commit/e5905c4b84d4fb90aefcd96ee618411ebfac663d
-    - https://github.com/shadow-maint/shadow/pull/687
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-29383
-    - https://www.cve.org/CVERecord?id=CVE-2023-29383
-    - https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/cve-2023-29383-abusing-linux-chfn-to-misrepresent-etc-passwd/
-    - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
-    PublishedDate: '2023-04-14T22:15:00Z'
-    LastModifiedDate: '2023-04-24T18:05:00Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++@11.3.1-4.3.el9.x86_64
     PkgName: libstdc++
@@ -1269,38 +1173,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:00Z'
     LastModifiedDate: '2022-12-22T20:29:00Z'
-  - VulnerabilityID: CVE-2023-29383
-    PkgID: libuuid@2.37.4-11.el9_2.x86_64
-    PkgName: libuuid
-    InstalledVersion: 2.37.4-11.el9_2
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29383
-    Title: Improper input validation in shadow-utils package utility chfn
-    Description: 'In Shadow 4.13, it is possible to inject control characters into fields provided to the SUID program chfn (change finger). Although it is not possible to exploit this directly (e.g., adding a new user fails because \n is in the block list), it is possible to misrepresent the /etc/passwd file when viewed. Use of \r manipulations and Unicode characters to work around blocking of the : character make it possible to give the impression that a new user has been added. In other words, an adversary may be able to convince a system administrator to take the system offline (an indirect, social-engineered denial of service) by demonstrating that "cat /etc/passwd" shows a rogue user account.'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-74
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 3.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-29383
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29383
-    - https://github.com/shadow-maint/shadow/commit/e5905c4b84d4fb90aefcd96ee618411ebfac663d
-    - https://github.com/shadow-maint/shadow/pull/687
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-29383
-    - https://www.cve.org/CVERecord?id=CVE-2023-29383
-    - https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/cve-2023-29383-abusing-linux-chfn-to-misrepresent-etc-passwd/
-    - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
-    PublishedDate: '2023-04-14T22:15:00Z'
-    LastModifiedDate: '2023-04-24T18:05:00Z'
   - VulnerabilityID: CVE-2023-28484
     PkgID: libxml2@2.9.13-3.el9_1.x86_64
     PkgName: libxml2
