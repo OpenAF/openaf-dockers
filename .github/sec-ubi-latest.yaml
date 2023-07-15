@@ -213,12 +213,13 @@
     - https://github.com/OpenPrinting/cups/releases/tag/v2.4.6
     - https://github.com/OpenPrinting/cups/security/advisories/GHSA-qjgh-5hcq-5f25
     - https://lists.debian.org/debian-lts-announce/2023/06/msg00038.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/7I7DWGYGEMBNLZF5UQBMF3SONR37YUBN/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TBIYKDS3UG3W4Z7YOHTR2AWFNBRYPNYY/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-34241
     - https://ubuntu.com/security/notices/USN-6184-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34241
     PublishedDate: '2023-06-22T23:15:00Z'
-    LastModifiedDate: '2023-06-30T21:15:00Z'
+    LastModifiedDate: '2023-07-14T03:15:00Z'
   - VulnerabilityID: CVE-2021-25317
     PkgID: cups-libs@2.3.3op2-16.el9.x86_64
     PkgName: cups-libs
@@ -1428,7 +1429,7 @@
       DiffID: sha256:af72febdb58263c46c94c8c6e38d82d4e0055a9d41ceccb86348e1c67c5ac5d7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
-    Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
+    Title: Information exposure when DH secret are reused across multiple TLS connections
     Description: The Raccoon attack is a timing attack on DHE ciphersuites inherit in the TLS specification. To mitigate this vulnerability, Firefox disabled support for DHE ciphersuites.
     Severity: LOW
     CweIDs:
@@ -1441,32 +1442,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
     References:
-    - 'Attack:'
-    - Brinkmann,
-    - Explanation
-    - Exploiting
-    - Finding
-    - Marcus
-    - Merget,
-    - Most-Significant-Bit-Oracles
-    - Raccoon
-    - Robert
-    - TLS-DH(E)
-    - Thorough
-    - al.
-    - and
-    - be
-    - by
-    - can
-    - et
-    - 'found:'
     - https://access.redhat.com/security/cve/CVE-2020-12413
     - https://bugzilla.mozilla.org/show_bug.cgi?id=CVE-2020-12413
     - https://nvd.nist.gov/vuln/detail/CVE-2020-12413
     - https://raccoon-attack.com/
     - https://raccoon-attack.com/RacoonAttack.pdf
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
-    - in
     PublishedDate: '2023-02-16T22:15:00Z'
     LastModifiedDate: '2023-02-28T19:49:00Z'
   - VulnerabilityID: CVE-2020-12413
@@ -1478,7 +1459,7 @@
       DiffID: sha256:af72febdb58263c46c94c8c6e38d82d4e0055a9d41ceccb86348e1c67c5ac5d7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
-    Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
+    Title: Information exposure when DH secret are reused across multiple TLS connections
     Description: The Raccoon attack is a timing attack on DHE ciphersuites inherit in the TLS specification. To mitigate this vulnerability, Firefox disabled support for DHE ciphersuites.
     Severity: LOW
     CweIDs:
@@ -1491,32 +1472,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
     References:
-    - 'Attack:'
-    - Brinkmann,
-    - Explanation
-    - Exploiting
-    - Finding
-    - Marcus
-    - Merget,
-    - Most-Significant-Bit-Oracles
-    - Raccoon
-    - Robert
-    - TLS-DH(E)
-    - Thorough
-    - al.
-    - and
-    - be
-    - by
-    - can
-    - et
-    - 'found:'
     - https://access.redhat.com/security/cve/CVE-2020-12413
     - https://bugzilla.mozilla.org/show_bug.cgi?id=CVE-2020-12413
     - https://nvd.nist.gov/vuln/detail/CVE-2020-12413
     - https://raccoon-attack.com/
     - https://raccoon-attack.com/RacoonAttack.pdf
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
-    - in
     PublishedDate: '2023-02-16T22:15:00Z'
     LastModifiedDate: '2023-02-28T19:49:00Z'
   - VulnerabilityID: CVE-2020-12413
@@ -1528,7 +1489,7 @@
       DiffID: sha256:af72febdb58263c46c94c8c6e38d82d4e0055a9d41ceccb86348e1c67c5ac5d7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
-    Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
+    Title: Information exposure when DH secret are reused across multiple TLS connections
     Description: The Raccoon attack is a timing attack on DHE ciphersuites inherit in the TLS specification. To mitigate this vulnerability, Firefox disabled support for DHE ciphersuites.
     Severity: LOW
     CweIDs:
@@ -1541,32 +1502,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
     References:
-    - 'Attack:'
-    - Brinkmann,
-    - Explanation
-    - Exploiting
-    - Finding
-    - Marcus
-    - Merget,
-    - Most-Significant-Bit-Oracles
-    - Raccoon
-    - Robert
-    - TLS-DH(E)
-    - Thorough
-    - al.
-    - and
-    - be
-    - by
-    - can
-    - et
-    - 'found:'
     - https://access.redhat.com/security/cve/CVE-2020-12413
     - https://bugzilla.mozilla.org/show_bug.cgi?id=CVE-2020-12413
     - https://nvd.nist.gov/vuln/detail/CVE-2020-12413
     - https://raccoon-attack.com/
     - https://raccoon-attack.com/RacoonAttack.pdf
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
-    - in
     PublishedDate: '2023-02-16T22:15:00Z'
     LastModifiedDate: '2023-02-28T19:49:00Z'
   - VulnerabilityID: CVE-2020-12413
@@ -1578,7 +1519,7 @@
       DiffID: sha256:af72febdb58263c46c94c8c6e38d82d4e0055a9d41ceccb86348e1c67c5ac5d7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
-    Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
+    Title: Information exposure when DH secret are reused across multiple TLS connections
     Description: The Raccoon attack is a timing attack on DHE ciphersuites inherit in the TLS specification. To mitigate this vulnerability, Firefox disabled support for DHE ciphersuites.
     Severity: LOW
     CweIDs:
@@ -1591,32 +1532,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
     References:
-    - 'Attack:'
-    - Brinkmann,
-    - Explanation
-    - Exploiting
-    - Finding
-    - Marcus
-    - Merget,
-    - Most-Significant-Bit-Oracles
-    - Raccoon
-    - Robert
-    - TLS-DH(E)
-    - Thorough
-    - al.
-    - and
-    - be
-    - by
-    - can
-    - et
-    - 'found:'
     - https://access.redhat.com/security/cve/CVE-2020-12413
     - https://bugzilla.mozilla.org/show_bug.cgi?id=CVE-2020-12413
     - https://nvd.nist.gov/vuln/detail/CVE-2020-12413
     - https://raccoon-attack.com/
     - https://raccoon-attack.com/RacoonAttack.pdf
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
-    - in
     PublishedDate: '2023-02-16T22:15:00Z'
     LastModifiedDate: '2023-02-28T19:49:00Z'
   - VulnerabilityID: CVE-2020-12413
@@ -1628,7 +1549,7 @@
       DiffID: sha256:af72febdb58263c46c94c8c6e38d82d4e0055a9d41ceccb86348e1c67c5ac5d7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
-    Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
+    Title: Information exposure when DH secret are reused across multiple TLS connections
     Description: The Raccoon attack is a timing attack on DHE ciphersuites inherit in the TLS specification. To mitigate this vulnerability, Firefox disabled support for DHE ciphersuites.
     Severity: LOW
     CweIDs:
@@ -1641,32 +1562,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
     References:
-    - 'Attack:'
-    - Brinkmann,
-    - Explanation
-    - Exploiting
-    - Finding
-    - Marcus
-    - Merget,
-    - Most-Significant-Bit-Oracles
-    - Raccoon
-    - Robert
-    - TLS-DH(E)
-    - Thorough
-    - al.
-    - and
-    - be
-    - by
-    - can
-    - et
-    - 'found:'
     - https://access.redhat.com/security/cve/CVE-2020-12413
     - https://bugzilla.mozilla.org/show_bug.cgi?id=CVE-2020-12413
     - https://nvd.nist.gov/vuln/detail/CVE-2020-12413
     - https://raccoon-attack.com/
     - https://raccoon-attack.com/RacoonAttack.pdf
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
-    - in
     PublishedDate: '2023-02-16T22:15:00Z'
     LastModifiedDate: '2023-02-28T19:49:00Z'
   - VulnerabilityID: CVE-2020-12413
@@ -1678,7 +1579,7 @@
       DiffID: sha256:af72febdb58263c46c94c8c6e38d82d4e0055a9d41ceccb86348e1c67c5ac5d7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
-    Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
+    Title: Information exposure when DH secret are reused across multiple TLS connections
     Description: The Raccoon attack is a timing attack on DHE ciphersuites inherit in the TLS specification. To mitigate this vulnerability, Firefox disabled support for DHE ciphersuites.
     Severity: LOW
     CweIDs:
@@ -1691,32 +1592,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
     References:
-    - 'Attack:'
-    - Brinkmann,
-    - Explanation
-    - Exploiting
-    - Finding
-    - Marcus
-    - Merget,
-    - Most-Significant-Bit-Oracles
-    - Raccoon
-    - Robert
-    - TLS-DH(E)
-    - Thorough
-    - al.
-    - and
-    - be
-    - by
-    - can
-    - et
-    - 'found:'
     - https://access.redhat.com/security/cve/CVE-2020-12413
     - https://bugzilla.mozilla.org/show_bug.cgi?id=CVE-2020-12413
     - https://nvd.nist.gov/vuln/detail/CVE-2020-12413
     - https://raccoon-attack.com/
     - https://raccoon-attack.com/RacoonAttack.pdf
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
-    - in
     PublishedDate: '2023-02-16T22:15:00Z'
     LastModifiedDate: '2023-02-28T19:49:00Z'
   - VulnerabilityID: CVE-2021-27212

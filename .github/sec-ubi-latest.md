@@ -270,13 +270,16 @@
                         │      │                  ├ [7] : https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       3/06/msg00038.html 
                         │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce@lists.fedoraproject.org/message/7I7DWG
+                        │      │                  │       YGEMBNLZF5UQBMF3SONR37YUBN/ 
+                        │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/TBIYKD
                         │      │                  │       S3UG3W4Z7YOHTR2AWFNBRYPNYY/ 
-                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-34241 
-                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6184-1 
-                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-34241 
+                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-34241 
+                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6184-1 
+                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-34241 
                         │      ├ PublishedDate   : 2023-06-22T23:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-06-30T21:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-07-14T03:15:00Z 
                         ├ [6]  ╭ VulnerabilityID : CVE-2021-25317 
                         │      ├ PkgID           : cups-libs@2.3.3op2-16.el9.x86_64 
                         │      ├ PkgName         : cups-libs 
@@ -1792,8 +1795,8 @@
                         │      │                            d41ceccb86348e1c67c5ac5d7 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-                        │      ├ Title           : nss: Information exposure when DH secret are reused
-                        │      │                   across multiple TLS connections 
+                        │      ├ Title           : Information exposure when DH secret are reused across
+                        │      │                   multiple TLS connections 
                         │      ├ Description     : The Raccoon attack is a timing attack on DHE
                         │      │                   ciphersuites inherit in the TLS specification. To mitigate
                         │      │                   this vulnerability, Firefox disabled support for DHE
@@ -1806,33 +1809,13 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 5.9 
-                        │      ├ References       ╭ [0] : Attack: 
-                        │      │                  ├ [1] : Brinkmann, 
-                        │      │                  ├ [2] : Explanation 
-                        │      │                  ├ [3] : Exploiting 
-                        │      │                  ├ [4] : Finding 
-                        │      │                  ├ [5] : Marcus 
-                        │      │                  ├ [6] : Merget, 
-                        │      │                  ├ [7] : Most-Significant-Bit-Oracles 
-                        │      │                  ├ [8] : Raccoon 
-                        │      │                  ├ [9] : Robert 
-                        │      │                  ├ [10]: TLS-DH(E) 
-                        │      │                  ├ [11]: Thorough 
-                        │      │                  ├ [12]: al. 
-                        │      │                  ├ [13]: and 
-                        │      │                  ├ [14]: be 
-                        │      │                  ├ [15]: by 
-                        │      │                  ├ [16]: can 
-                        │      │                  ├ [17]: et 
-                        │      │                  ├ [18]: found: 
-                        │      │                  ├ [19]: https://access.redhat.com/security/cve/CVE-2020-12413 
-                        │      │                  ├ [20]: https://bugzilla.mozilla.org/show_bug.cgi?id=CVE
-                        │      │                  │       -2020-12413 
-                        │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2020-12413 
-                        │      │                  ├ [22]: https://raccoon-attack.com/ 
-                        │      │                  ├ [23]: https://raccoon-attack.com/RacoonAttack.pdf 
-                        │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
-                        │      │                  ╰ [25]: in 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2020-12413 
+                        │      │                  ├ [1]: https://bugzilla.mozilla.org/show_bug.cgi?id=CVE-
+                        │      │                  │      2020-12413 
+                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2020-12413 
+                        │      │                  ├ [3]: https://raccoon-attack.com/ 
+                        │      │                  ├ [4]: https://raccoon-attack.com/RacoonAttack.pdf 
+                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │      ├ PublishedDate   : 2023-02-16T22:15:00Z 
                         │      ╰ LastModifiedDate: 2023-02-28T19:49:00Z 
                         ├ [44] ╭ VulnerabilityID : CVE-2020-12413 
@@ -1845,8 +1828,8 @@
                         │      │                            d41ceccb86348e1c67c5ac5d7 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-                        │      ├ Title           : nss: Information exposure when DH secret are reused
-                        │      │                   across multiple TLS connections 
+                        │      ├ Title           : Information exposure when DH secret are reused across
+                        │      │                   multiple TLS connections 
                         │      ├ Description     : The Raccoon attack is a timing attack on DHE
                         │      │                   ciphersuites inherit in the TLS specification. To mitigate
                         │      │                   this vulnerability, Firefox disabled support for DHE
@@ -1859,33 +1842,13 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 5.9 
-                        │      ├ References       ╭ [0] : Attack: 
-                        │      │                  ├ [1] : Brinkmann, 
-                        │      │                  ├ [2] : Explanation 
-                        │      │                  ├ [3] : Exploiting 
-                        │      │                  ├ [4] : Finding 
-                        │      │                  ├ [5] : Marcus 
-                        │      │                  ├ [6] : Merget, 
-                        │      │                  ├ [7] : Most-Significant-Bit-Oracles 
-                        │      │                  ├ [8] : Raccoon 
-                        │      │                  ├ [9] : Robert 
-                        │      │                  ├ [10]: TLS-DH(E) 
-                        │      │                  ├ [11]: Thorough 
-                        │      │                  ├ [12]: al. 
-                        │      │                  ├ [13]: and 
-                        │      │                  ├ [14]: be 
-                        │      │                  ├ [15]: by 
-                        │      │                  ├ [16]: can 
-                        │      │                  ├ [17]: et 
-                        │      │                  ├ [18]: found: 
-                        │      │                  ├ [19]: https://access.redhat.com/security/cve/CVE-2020-12413 
-                        │      │                  ├ [20]: https://bugzilla.mozilla.org/show_bug.cgi?id=CVE
-                        │      │                  │       -2020-12413 
-                        │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2020-12413 
-                        │      │                  ├ [22]: https://raccoon-attack.com/ 
-                        │      │                  ├ [23]: https://raccoon-attack.com/RacoonAttack.pdf 
-                        │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
-                        │      │                  ╰ [25]: in 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2020-12413 
+                        │      │                  ├ [1]: https://bugzilla.mozilla.org/show_bug.cgi?id=CVE-
+                        │      │                  │      2020-12413 
+                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2020-12413 
+                        │      │                  ├ [3]: https://raccoon-attack.com/ 
+                        │      │                  ├ [4]: https://raccoon-attack.com/RacoonAttack.pdf 
+                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │      ├ PublishedDate   : 2023-02-16T22:15:00Z 
                         │      ╰ LastModifiedDate: 2023-02-28T19:49:00Z 
                         ├ [45] ╭ VulnerabilityID : CVE-2020-12413 
@@ -1898,8 +1861,8 @@
                         │      │                            d41ceccb86348e1c67c5ac5d7 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-                        │      ├ Title           : nss: Information exposure when DH secret are reused
-                        │      │                   across multiple TLS connections 
+                        │      ├ Title           : Information exposure when DH secret are reused across
+                        │      │                   multiple TLS connections 
                         │      ├ Description     : The Raccoon attack is a timing attack on DHE
                         │      │                   ciphersuites inherit in the TLS specification. To mitigate
                         │      │                   this vulnerability, Firefox disabled support for DHE
@@ -1912,33 +1875,13 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 5.9 
-                        │      ├ References       ╭ [0] : Attack: 
-                        │      │                  ├ [1] : Brinkmann, 
-                        │      │                  ├ [2] : Explanation 
-                        │      │                  ├ [3] : Exploiting 
-                        │      │                  ├ [4] : Finding 
-                        │      │                  ├ [5] : Marcus 
-                        │      │                  ├ [6] : Merget, 
-                        │      │                  ├ [7] : Most-Significant-Bit-Oracles 
-                        │      │                  ├ [8] : Raccoon 
-                        │      │                  ├ [9] : Robert 
-                        │      │                  ├ [10]: TLS-DH(E) 
-                        │      │                  ├ [11]: Thorough 
-                        │      │                  ├ [12]: al. 
-                        │      │                  ├ [13]: and 
-                        │      │                  ├ [14]: be 
-                        │      │                  ├ [15]: by 
-                        │      │                  ├ [16]: can 
-                        │      │                  ├ [17]: et 
-                        │      │                  ├ [18]: found: 
-                        │      │                  ├ [19]: https://access.redhat.com/security/cve/CVE-2020-12413 
-                        │      │                  ├ [20]: https://bugzilla.mozilla.org/show_bug.cgi?id=CVE
-                        │      │                  │       -2020-12413 
-                        │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2020-12413 
-                        │      │                  ├ [22]: https://raccoon-attack.com/ 
-                        │      │                  ├ [23]: https://raccoon-attack.com/RacoonAttack.pdf 
-                        │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
-                        │      │                  ╰ [25]: in 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2020-12413 
+                        │      │                  ├ [1]: https://bugzilla.mozilla.org/show_bug.cgi?id=CVE-
+                        │      │                  │      2020-12413 
+                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2020-12413 
+                        │      │                  ├ [3]: https://raccoon-attack.com/ 
+                        │      │                  ├ [4]: https://raccoon-attack.com/RacoonAttack.pdf 
+                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │      ├ PublishedDate   : 2023-02-16T22:15:00Z 
                         │      ╰ LastModifiedDate: 2023-02-28T19:49:00Z 
                         ├ [46] ╭ VulnerabilityID : CVE-2020-12413 
@@ -1951,8 +1894,8 @@
                         │      │                            d41ceccb86348e1c67c5ac5d7 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-                        │      ├ Title           : nss: Information exposure when DH secret are reused
-                        │      │                   across multiple TLS connections 
+                        │      ├ Title           : Information exposure when DH secret are reused across
+                        │      │                   multiple TLS connections 
                         │      ├ Description     : The Raccoon attack is a timing attack on DHE
                         │      │                   ciphersuites inherit in the TLS specification. To mitigate
                         │      │                   this vulnerability, Firefox disabled support for DHE
@@ -1965,33 +1908,13 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 5.9 
-                        │      ├ References       ╭ [0] : Attack: 
-                        │      │                  ├ [1] : Brinkmann, 
-                        │      │                  ├ [2] : Explanation 
-                        │      │                  ├ [3] : Exploiting 
-                        │      │                  ├ [4] : Finding 
-                        │      │                  ├ [5] : Marcus 
-                        │      │                  ├ [6] : Merget, 
-                        │      │                  ├ [7] : Most-Significant-Bit-Oracles 
-                        │      │                  ├ [8] : Raccoon 
-                        │      │                  ├ [9] : Robert 
-                        │      │                  ├ [10]: TLS-DH(E) 
-                        │      │                  ├ [11]: Thorough 
-                        │      │                  ├ [12]: al. 
-                        │      │                  ├ [13]: and 
-                        │      │                  ├ [14]: be 
-                        │      │                  ├ [15]: by 
-                        │      │                  ├ [16]: can 
-                        │      │                  ├ [17]: et 
-                        │      │                  ├ [18]: found: 
-                        │      │                  ├ [19]: https://access.redhat.com/security/cve/CVE-2020-12413 
-                        │      │                  ├ [20]: https://bugzilla.mozilla.org/show_bug.cgi?id=CVE
-                        │      │                  │       -2020-12413 
-                        │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2020-12413 
-                        │      │                  ├ [22]: https://raccoon-attack.com/ 
-                        │      │                  ├ [23]: https://raccoon-attack.com/RacoonAttack.pdf 
-                        │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
-                        │      │                  ╰ [25]: in 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2020-12413 
+                        │      │                  ├ [1]: https://bugzilla.mozilla.org/show_bug.cgi?id=CVE-
+                        │      │                  │      2020-12413 
+                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2020-12413 
+                        │      │                  ├ [3]: https://raccoon-attack.com/ 
+                        │      │                  ├ [4]: https://raccoon-attack.com/RacoonAttack.pdf 
+                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │      ├ PublishedDate   : 2023-02-16T22:15:00Z 
                         │      ╰ LastModifiedDate: 2023-02-28T19:49:00Z 
                         ├ [47] ╭ VulnerabilityID : CVE-2020-12413 
@@ -2004,8 +1927,8 @@
                         │      │                            d41ceccb86348e1c67c5ac5d7 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-                        │      ├ Title           : nss: Information exposure when DH secret are reused
-                        │      │                   across multiple TLS connections 
+                        │      ├ Title           : Information exposure when DH secret are reused across
+                        │      │                   multiple TLS connections 
                         │      ├ Description     : The Raccoon attack is a timing attack on DHE
                         │      │                   ciphersuites inherit in the TLS specification. To mitigate
                         │      │                   this vulnerability, Firefox disabled support for DHE
@@ -2018,33 +1941,13 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 5.9 
-                        │      ├ References       ╭ [0] : Attack: 
-                        │      │                  ├ [1] : Brinkmann, 
-                        │      │                  ├ [2] : Explanation 
-                        │      │                  ├ [3] : Exploiting 
-                        │      │                  ├ [4] : Finding 
-                        │      │                  ├ [5] : Marcus 
-                        │      │                  ├ [6] : Merget, 
-                        │      │                  ├ [7] : Most-Significant-Bit-Oracles 
-                        │      │                  ├ [8] : Raccoon 
-                        │      │                  ├ [9] : Robert 
-                        │      │                  ├ [10]: TLS-DH(E) 
-                        │      │                  ├ [11]: Thorough 
-                        │      │                  ├ [12]: al. 
-                        │      │                  ├ [13]: and 
-                        │      │                  ├ [14]: be 
-                        │      │                  ├ [15]: by 
-                        │      │                  ├ [16]: can 
-                        │      │                  ├ [17]: et 
-                        │      │                  ├ [18]: found: 
-                        │      │                  ├ [19]: https://access.redhat.com/security/cve/CVE-2020-12413 
-                        │      │                  ├ [20]: https://bugzilla.mozilla.org/show_bug.cgi?id=CVE
-                        │      │                  │       -2020-12413 
-                        │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2020-12413 
-                        │      │                  ├ [22]: https://raccoon-attack.com/ 
-                        │      │                  ├ [23]: https://raccoon-attack.com/RacoonAttack.pdf 
-                        │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
-                        │      │                  ╰ [25]: in 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2020-12413 
+                        │      │                  ├ [1]: https://bugzilla.mozilla.org/show_bug.cgi?id=CVE-
+                        │      │                  │      2020-12413 
+                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2020-12413 
+                        │      │                  ├ [3]: https://raccoon-attack.com/ 
+                        │      │                  ├ [4]: https://raccoon-attack.com/RacoonAttack.pdf 
+                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │      ├ PublishedDate   : 2023-02-16T22:15:00Z 
                         │      ╰ LastModifiedDate: 2023-02-28T19:49:00Z 
                         ├ [48] ╭ VulnerabilityID : CVE-2020-12413 
@@ -2057,8 +1960,8 @@
                         │      │                            d41ceccb86348e1c67c5ac5d7 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-                        │      ├ Title           : nss: Information exposure when DH secret are reused
-                        │      │                   across multiple TLS connections 
+                        │      ├ Title           : Information exposure when DH secret are reused across
+                        │      │                   multiple TLS connections 
                         │      ├ Description     : The Raccoon attack is a timing attack on DHE
                         │      │                   ciphersuites inherit in the TLS specification. To mitigate
                         │      │                   this vulnerability, Firefox disabled support for DHE
@@ -2071,33 +1974,13 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 5.9 
-                        │      ├ References       ╭ [0] : Attack: 
-                        │      │                  ├ [1] : Brinkmann, 
-                        │      │                  ├ [2] : Explanation 
-                        │      │                  ├ [3] : Exploiting 
-                        │      │                  ├ [4] : Finding 
-                        │      │                  ├ [5] : Marcus 
-                        │      │                  ├ [6] : Merget, 
-                        │      │                  ├ [7] : Most-Significant-Bit-Oracles 
-                        │      │                  ├ [8] : Raccoon 
-                        │      │                  ├ [9] : Robert 
-                        │      │                  ├ [10]: TLS-DH(E) 
-                        │      │                  ├ [11]: Thorough 
-                        │      │                  ├ [12]: al. 
-                        │      │                  ├ [13]: and 
-                        │      │                  ├ [14]: be 
-                        │      │                  ├ [15]: by 
-                        │      │                  ├ [16]: can 
-                        │      │                  ├ [17]: et 
-                        │      │                  ├ [18]: found: 
-                        │      │                  ├ [19]: https://access.redhat.com/security/cve/CVE-2020-12413 
-                        │      │                  ├ [20]: https://bugzilla.mozilla.org/show_bug.cgi?id=CVE
-                        │      │                  │       -2020-12413 
-                        │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2020-12413 
-                        │      │                  ├ [22]: https://raccoon-attack.com/ 
-                        │      │                  ├ [23]: https://raccoon-attack.com/RacoonAttack.pdf 
-                        │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
-                        │      │                  ╰ [25]: in 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2020-12413 
+                        │      │                  ├ [1]: https://bugzilla.mozilla.org/show_bug.cgi?id=CVE-
+                        │      │                  │      2020-12413 
+                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2020-12413 
+                        │      │                  ├ [3]: https://raccoon-attack.com/ 
+                        │      │                  ├ [4]: https://raccoon-attack.com/RacoonAttack.pdf 
+                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │      ├ PublishedDate   : 2023-02-16T22:15:00Z 
                         │      ╰ LastModifiedDate: 2023-02-28T19:49:00Z 
                         ├ [49] ╭ VulnerabilityID : CVE-2021-27212 
