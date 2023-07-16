@@ -1,4 +1,51 @@
-stdout: {}
-stderr: "latest: Pulling from aquasec/trivy\nDigest: sha256:944a044451791617cc0ed2ee4d1942a4f66b790d527fcd0575a6b399ccbc05a1\nStatus: Image is up to date for aquasec/trivy:latest\n2023-07-16T07:05:25.890Z\t\e[34mINFO\e[0m\tNeed to update DB\n2023-07-16T07:05:25.890Z\t\e[34mINFO\e[0m\tDB Repository: ghcr.io/aquasecurity/trivy-db\n2023-07-16T07:05:25.890Z\t\e[34mINFO\e[0m\tDownloading DB...\n31.43 MiB / 38.44 MiB [------------------------------------------------->___________] 81.77% ? p/s ?38.44 MiB / 38.44 MiB [----------------------------------------------------------->] 100.00% ? p/s ?38.44 MiB / 38.44 MiB [----------------------------------------------------------->] 100.00% ? p/s ?38.44 MiB / 38.44 MiB [---------------------------------------------->] 100.00% 11.67 MiB p/s ETA 0s38.44 MiB / 38.44 MiB [---------------------------------------------->] 100.00% 11.67 MiB p/s ETA 0s38.44 MiB / 38.44 MiB [---------------------------------------------->] 100.00% 11.67 MiB p/s ETA 0s38.44 MiB / 38.44 MiB [---------------------------------------------->] 100.00% 10.92 MiB p/s ETA 0s38.44 MiB / 38.44 MiB [---------------------------------------------->] 100.00% 10.92 MiB p/s ETA 0s38.44 MiB / 38.44 MiB [---------------------------------------------->] 100.00% 10.92 MiB p/s ETA 0s38.44 MiB / 38.44 MiB [-------------------------------------------------] 100.00% 23.58 MiB p/s 1.8s2023-07-16T07:05:28.251Z\t\e[34mINFO\e[0m\tVulnerability scanning is enabled\n2023-07-16T07:05:28.251Z\t\e[34mINFO\e[0m\tSecret scanning is enabled\n2023-07-16T07:05:28.251Z\t\e[34mINFO\e[0m\tIf your scanning is slow, please try '--scanners vuln' to disable secret scanning\n2023-07-16T07:05:28.251Z\t\e[34mINFO\e[0m\tPlease see also https://aquasecurity.github.io/trivy/v0.43/docs/scanner/secret/#recommendation for faster secret detection\n2023-07-16T07:05:30.964Z\t\e[34mINFO\e[0m\tJAR files found\n2023-07-16T07:05:30.964Z\t\e[34mINFO\e[0m\tJava DB Repository: ghcr.io/aquasecurity/trivy-java-db:1\n2023-07-16T07:05:30.964Z\t\e[34mINFO\e[0m\tDownloading the Java DB...\n13.92 MiB / 442.94 MiB [->___________________________________________________________] 3.14% ? p/s ?27.53 MiB / 442.94 MiB [--->_________________________________________________________] 6.21% ? p/s ?42.14 MiB / 442.94 MiB [----->_______________________________________________________] 9.51% ? p/s ?56.27 MiB / 442.94 MiB [----->_________________________________________] 12.70% 71.18 MiB p/s ETA 5s69.32 MiB / 442.94 MiB [------->_______________________________________] 15.65% 71.18 MiB p/s ETA 5s85.00 MiB / 442.94 MiB [--------->_____________________________________] 19.19% 71.18 MiB p/s ETA 5s99.09 MiB / 442.94 MiB [---------->____________________________________] 22.37% 71.19 MiB p/s ETA 4s113.69 MiB / 442.94 MiB [----------->__________________________________] 25.67% 71.19 MiB p/s ETA 4s127.15 MiB / 442.94 MiB [------------->________________________________] 28.71% 71.19 MiB p/s ETA 4s137.56 MiB / 442.94 MiB [-------------->_______________________________] 31.06% 70.74 MiB p/s ETA 4s137.56 MiB / 442.94 MiB [-------------->_______________________________] 31.06% 70.74 MiB p/s ETA 4s137.56 MiB / 442.94 MiB [-------------->_________________________________] 31.06% 66.76 MiB p/s 2.3s2023-07-16T07:05:33.814Z\t\e[31mERROR\e[0m\tUnable to initialize the Java DB: Java DB update failed: Java DB update error: DB download error: oci download error: copy error: read tcp 172.17.0.2:52202->185.199.109.154:443: read: connection reset by peer\n2023-07-16T07:05:33.835Z\t\e[31mFATAL\e[0m\timage scan error: scan error: scan failed: failed analysis: analyze error: pipeline error: failed to analyze layer (sha256:4ef884542b51d715d7d9128e7fe8d12b6b799fd87e344f6fed1f552cd3c487e5): post analysis error: post analysis error: Java DB update failed: Java DB update error: DB download error: oci download error: copy error: read tcp 172.17.0.2:52202->185.199.109.154:443: read: connection reset by peer\n"
-exitcode: 1
-cmd: docker run --pull always --rm  aquasec/trivy -f json  image openaf/ojobrt:nightly
+- Target: openaf/ojobrt:nightly (alpine 3.18.2)
+  Class: os-pkgs
+  Type: alpine
+- Target: Java
+  Class: lang-pkgs
+  Type: jar
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2023-2976
+    PkgName: com.google.guava:guava
+    PkgPath: openaf/S3/minio-8.5.4-all.jar
+    InstalledVersion: 32.0.0-jre
+    FixedVersion: 32.0.1-android
+    Layer:
+      Digest: sha256:750efa978f9ec6f51f84650cde61f9b394cd7938bcf9f38464741ca29a47dd3f
+      DiffID: sha256:4ef884542b51d715d7d9128e7fe8d12b6b799fd87e344f6fed1f552cd3c487e5
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-2976
+    DataSource:
+      ID: glad
+      Name: GitLab Advisory Database Community
+      URL: https://gitlab.com/gitlab-org/advisories-community
+    Title: insecure temporary directory creation
+    Description: |+
+      Use of Java's default temporary directory for file creation in `FileBackedOutputStream` in Google Guava versions 1.0 to 31.1 on Unix systems and Android Ice Cream Sandwich allows other users and apps on the machine with access to the default Java temporary directory to be able to access the files created by the class.
+
+      Even though the security vulnerability is fixed in version 32.0.0, we recommend using version 32.0.1 as version 32.0.0 breaks some functionality under Windows.
+
+    Severity: HIGH
+    CweIDs:
+    - CWE-552
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-2976
+    - https://github.com/advisories/GHSA-7g45-4rm6-3mm3
+    - https://github.com/google/guava/commit/feb83a1c8fd2e7670b244d5afd23cba5aca43284
+    - https://github.com/google/guava/issues/2575
+    - https://github.com/google/guava/issues/6532
+    - https://github.com/google/guava/releases/tag/v32.0.0
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-2976
+    - https://www.cve.org/CVERecord?id=CVE-2023-2976
+    PublishedDate: '2023-06-14T18:15:00Z'
+    LastModifiedDate: '2023-06-29T18:22:00Z'
