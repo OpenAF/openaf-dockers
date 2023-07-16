@@ -71,7 +71,7 @@ jobs:
         password: ${{ secrets.DOCKERHUB_TOKEN }}
     - uses: docker/build-push-action@v4
       name: Build and push based on input
-      if  : ${{ github.event.inputs.baseTag }}
+      if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi != 'yes' }}
       with:
         platforms: linux/amd64,linux/arm64
         context: "{{defaultContext}}:openaf"
@@ -81,7 +81,7 @@ jobs:
           DIST=${{ github.event.inputs.baseTag }}
           OPENAFDIST=${{ github.event.inputs.oafDist }}
     - uses: docker/build-push-action@v4
-      name: Build and push based on input
+      name: Build and push based on input ubi
       if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi == 'yes' }}
       with:
         platforms: linux/amd64,linux/arm64
@@ -115,7 +115,7 @@ jobs:
         password: ${{ secrets.DOCKERHUB_TOKEN }}
     - uses: docker/build-push-action@v4
       name: Build and push based on input
-      if  : ${{ github.event.inputs.baseTag }}
+      if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi != 'yes' }}
       with:
         platforms: linux/amd64,linux/arm64
         context: "{{defaultContext}}:openaf"
@@ -125,7 +125,7 @@ jobs:
           DIST=${{ github.event.inputs.baseTag }}
           OPENAFDIST=${{ github.event.inputs.oafDist }}
     - uses: docker/build-push-action@v4
-      name: Build and push based on input
+      name: Build and push based on input ubi
       if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi == 'yes' }}
       with:
         platforms: linux/amd64,linux/arm64
