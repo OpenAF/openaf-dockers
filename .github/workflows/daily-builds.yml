@@ -1,0 +1,44 @@
+name: Docker Images Build
+
+on:
+  #push:
+  #  branches: [ "master" ]
+  #pull_request:
+  #  branches: [ "main" ]
+  schedule:
+  - cron: '35 7 * * *'
+        
+  workflow_dispatch:
+
+jobs:
+  trigger-t8:
+    permissions:
+        actions: write
+        contents: write
+        pull-requests: write
+    runs-on: ubuntu-latest
+    steps:
+    # --------------------------
+    - name: Cache OpenAF runtime
+      uses: actions/cache@v3
+      with:
+        key : oaf-t8
+        path: /tmp/oaf
+    # ----------------------
+    - name: Trigger build t8
+      uses: openaf/ojob-action@v4
+      env :
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        ojob: ojob.io/git/hub/workflows
+        args: 'op="trigger" workflow="docker-images.yml" inputs="{baseTag:\"t8\",oafDist:\"t8\",ubi:\"no\"}"'
+        dist: t8
+    # --------------------------
+    - name: Trigger build t8 ubi
+      uses: openaf/ojob-action@v4
+      env :
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        ojob: ojob.io/git/hub/workflows
+        args: 'op="trigger" workflow="docker-images.yml" inputs="{baseTag:\"t8\",oafDist:\"t8\",ubi:\"yes\"}"'
+        dist: t8
