@@ -43,5 +43,5 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         ojob: ojob.io/git/hub/workflows
-        args: 'op="trigger" workflow="docker-images.yml" inputs="{baseTag:\"t8\",oafDist:\"t8\",ubi:\"yes\"}"'
+        args: 'op="trigger" workflow="docker-images.yml" inputs="{baseTag:\"ubi-t8\",oafDist:\"t8\",ubi:\"yes\"}"'
         dist: t8
