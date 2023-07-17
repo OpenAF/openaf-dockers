@@ -45,3 +45,21 @@ jobs:
         ojob: ojob.io/git/hub/workflows
         args: 'op="trigger" workflow="docker-images.yml" inputs="{baseTag:\"ubi-t8\",oafDist:\"t8\",ubi:\"yes\"}"'
         dist: t8
+    # ---------------------------
+    - name: Trigger build nightly
+      uses: openaf/ojob-action@v4
+      env :
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        ojob: ojob.io/git/hub/workflows
+        args: 'op="trigger" workflow="docker-images.yml" inputs="{baseTag:\"nightly\",oafDist:\"nightly\",ubi:\"no\"}"'
+        dist: t8
+    # -------------------------------
+    - name: Trigger build nightly ubi
+      uses: openaf/ojob-action@v4
+      env :
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        ojob: ojob.io/git/hub/workflows
+        args: 'op="trigger" workflow="docker-images.yml" inputs="{baseTag:\"ubi-nightly\",oafDist:\"nightly\",ubi:\"yes\"}"'
+        dist: t8
