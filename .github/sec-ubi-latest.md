@@ -277,7 +277,8 @@
                         │      │                  │       S3UG3W4Z7YOHTR2AWFNBRYPNYY/ 
                         │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-34241 
                         │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6184-1 
-                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-34241 
+                        │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6184-2 
+                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-34241 
                         │      ├ PublishedDate   : 2023-06-22T23:15:00Z 
                         │      ╰ LastModifiedDate: 2023-07-14T03:15:00Z 
                         ├ [6]  ╭ VulnerabilityID : CVE-2021-25317 
@@ -834,8 +835,7 @@
                         │      │                            09d3cd5d1208c1c286751fce9 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-25193 
-                        │      ├ Title           : allows attackers to trigger O(n^2) growth via
-                        │      │                   consecutive marks 
+                        │      ├ Title           : O(n^2) growth via consecutive marks 
                         │      ├ Description     : hb-ot-layout-gsubgpos.hh in HarfBuzz through 6.0.0
                         │      │                   allows attackers to trigger O(n^2) growth via consecutive
                         │      │                   marks during the process of looking back for base glyphs
@@ -2465,8 +2465,8 @@
                         │      │                  │        │           N/I:N/A:H 
                         │      │                  │        ╰ V3Score : 7.5 
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-                        │      │                           │           N/I:N/A:L 
-                        │      │                           ╰ V3Score : 5.3 
+                        │      │                           │           N/I:N/A:H 
+                        │      │                           ╰ V3Score : 7.5 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-36632 
                         │      │                  ├ [1]: https://docs.python.org/3/library/email.html 
                         │      │                  ├ [2]: https://docs.python.org/3/library/email.utils.html 
@@ -2790,8 +2790,8 @@
                         │      │                  │        │           N/I:N/A:H 
                         │      │                  │        ╰ V3Score : 7.5 
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-                        │      │                           │           N/I:N/A:L 
-                        │      │                           ╰ V3Score : 5.3 
+                        │      │                           │           N/I:N/A:H 
+                        │      │                           ╰ V3Score : 7.5 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-36632 
                         │      │                  ├ [1]: https://docs.python.org/3/library/email.html 
                         │      │                  ├ [2]: https://docs.python.org/3/library/email.utils.html 
@@ -3115,8 +3115,8 @@
                         │      │                  │        │           N/I:N/A:H 
                         │      │                  │        ╰ V3Score : 7.5 
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-                        │      │                           │           N/I:N/A:L 
-                        │      │                           ╰ V3Score : 5.3 
+                        │      │                           │           N/I:N/A:H 
+                        │      │                           ╰ V3Score : 7.5 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-36632 
                         │      │                  ├ [1]: https://docs.python.org/3/library/email.html 
                         │      │                  ├ [2]: https://docs.python.org/3/library/email.utils.html 
