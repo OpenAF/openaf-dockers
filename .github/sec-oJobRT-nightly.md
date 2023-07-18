@@ -10,10 +10,10 @@
                               ├ PkgPath         : openaf/S3/minio-8.5.4-all.jar 
                               ├ InstalledVersion: 32.0.0-jre 
                               ├ FixedVersion    : 32.0.1-android 
-                              ├ Layer            ╭ Digest: sha256:750efa978f9ec6f51f84650cde61f9b394cd7938
-                              │                  │         bcf9f38464741ca29a47dd3f 
-                              │                  ╰ DiffID: sha256:4ef884542b51d715d7d9128e7fe8d12b6b799fd8
-                              │                            7e344f6fed1f552cd3c487e5 
+                              ├ Layer            ╭ Digest: sha256:68f61fe63971f9a1a6fde473c5304c35b98880e0
+                              │                  │         78c01121422282dc5f39334c 
+                              │                  ╰ DiffID: sha256:f569e07351ecb6f1747ae0311ac0bc5b444cea5b
+                              │                            7db2c8b30a8a5986b1a9f33b 
                               ├ SeveritySource  : nvd 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-2976 
                               ├ DataSource       ╭ ID  : glad 
