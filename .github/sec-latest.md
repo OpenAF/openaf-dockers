@@ -1,5 +1,65 @@
 ````yaml
-─ [0] ╭ Target: openaf/oaf:latest (alpine 3.18.2) 
-      ├ Class : os-pkgs 
-      ╰ Type  : alpine 
+─ [0] ╭ Target         : openaf/oaf:latest (alpine 3.18.2) 
+      ├ Class          : os-pkgs 
+      ├ Type           : alpine 
+      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2023-3446 
+                        │     ├ PkgID           : libcrypto3@3.1.1-r2 
+                        │     ├ PkgName         : libcrypto3 
+                        │     ├ InstalledVersion: 3.1.1-r2 
+                        │     ├ FixedVersion    : 3.1.1-r3 
+                        │     ├ Layer            ╭ Digest: sha256:28e1a88b04660107ff3c56ea5eeaf5da23646e4b
+                        │     │                  │         913cfda654539ce093bb7eb0 
+                        │     │                  ╰ DiffID: sha256:268328d77756c839177fc725c057832321bc67ee
+                        │     │                            6866c22e780225e85fd1f97d 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-3446 
+                        │     ├ DataSource       ╭ ID  : alpine 
+                        │     │                  ├ Name: Alpine Secdb 
+                        │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+                        │     ├ Title           : Issue summary: Checking excessively long DH keys or
+                        │     │                   parameters may be  ... 
+                        │     ├ Description     : Excessive time spent checking DH keys and parameters 
+                        │     ├ Severity        : LOW 
+                        │     ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                        │                        │      -2023-3446 
+                        │                        ╰ [1]: https://www.openssl.org/news/secadv/20230719.txt 
+                        ├ [1] ╭ VulnerabilityID : CVE-2023-3446 
+                        │     ├ PkgID           : libssl3@3.1.1-r2 
+                        │     ├ PkgName         : libssl3 
+                        │     ├ InstalledVersion: 3.1.1-r2 
+                        │     ├ FixedVersion    : 3.1.1-r3 
+                        │     ├ Layer            ╭ Digest: sha256:28e1a88b04660107ff3c56ea5eeaf5da23646e4b
+                        │     │                  │         913cfda654539ce093bb7eb0 
+                        │     │                  ╰ DiffID: sha256:268328d77756c839177fc725c057832321bc67ee
+                        │     │                            6866c22e780225e85fd1f97d 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-3446 
+                        │     ├ DataSource       ╭ ID  : alpine 
+                        │     │                  ├ Name: Alpine Secdb 
+                        │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+                        │     ├ Title           : Issue summary: Checking excessively long DH keys or
+                        │     │                   parameters may be  ... 
+                        │     ├ Description     : Excessive time spent checking DH keys and parameters 
+                        │     ├ Severity        : LOW 
+                        │     ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                        │                        │      -2023-3446 
+                        │                        ╰ [1]: https://www.openssl.org/news/secadv/20230719.txt 
+                        ╰ [2] ╭ VulnerabilityID : CVE-2023-3446 
+                              ├ PkgID           : openssl@3.1.1-r2 
+                              ├ PkgName         : openssl 
+                              ├ InstalledVersion: 3.1.1-r2 
+                              ├ FixedVersion    : 3.1.1-r3 
+                              ├ Layer            ╭ Digest: sha256:28e1a88b04660107ff3c56ea5eeaf5da23646e4b
+                              │                  │         913cfda654539ce093bb7eb0 
+                              │                  ╰ DiffID: sha256:268328d77756c839177fc725c057832321bc67ee
+                              │                            6866c22e780225e85fd1f97d 
+                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-3446 
+                              ├ DataSource       ╭ ID  : alpine 
+                              │                  ├ Name: Alpine Secdb 
+                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
+                              ├ Title           : Issue summary: Checking excessively long DH keys or
+                              │                   parameters may be  ... 
+                              ├ Description     : Excessive time spent checking DH keys and parameters 
+                              ├ Severity        : LOW 
+                              ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                                                 │      -2023-3446 
+                                                 ╰ [1]: https://www.openssl.org/news/secadv/20230719.txt 
 ````
