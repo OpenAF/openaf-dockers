@@ -136,8 +136,10 @@
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 6.2 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-38469 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-38469 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-38469 
+                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │                         │      E-2023-38469 
+                        │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-38469 
+                        │                         ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-38469 
                         ├ [4]  ╭ VulnerabilityID : CVE-2023-38470 
                         │      ├ PkgID           : avahi-libs@0.8-12.el9_2.1.x86_64 
                         │      ├ PkgName         : avahi-libs 
@@ -155,8 +157,10 @@
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 6.2 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-38470 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-38470 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-38470 
+                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │                         │      E-2023-38470 
+                        │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-38470 
+                        │                         ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-38470 
                         ├ [5]  ╭ VulnerabilityID : CVE-2023-38471 
                         │      ├ PkgID           : avahi-libs@0.8-12.el9_2.1.x86_64 
                         │      ├ PkgName         : avahi-libs 
@@ -174,8 +178,10 @@
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 6.2 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-38471 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-38471 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-38471 
+                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │                         │      E-2023-38471 
+                        │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-38471 
+                        │                         ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-38471 
                         ├ [6]  ╭ VulnerabilityID : CVE-2023-38472 
                         │      ├ PkgID           : avahi-libs@0.8-12.el9_2.1.x86_64 
                         │      ├ PkgName         : avahi-libs 
@@ -193,8 +199,10 @@
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 6.2 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-38472 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-38472 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-38472 
+                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │                         │      E-2023-38472 
+                        │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-38472 
+                        │                         ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-38472 
                         ├ [7]  ╭ VulnerabilityID : CVE-2023-38473 
                         │      ├ PkgID           : avahi-libs@0.8-12.el9_2.1.x86_64 
                         │      ├ PkgName         : avahi-libs 
@@ -212,8 +220,10 @@
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 6.2 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-38473 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-38473 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-38473 
+                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │                         │      E-2023-38473 
+                        │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-38473 
+                        │                         ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-38473 
                         ├ [8]  ╭ VulnerabilityID : CVE-2017-6519 
                         │      ├ PkgID           : avahi-libs@0.8-12.el9_2.1.x86_64 
                         │      ├ PkgName         : avahi-libs 
@@ -507,27 +517,30 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:H/A:N 
                         │      │                           ╰ V3Score : 5.9 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-28321 
-                        │      │                  ├ [1] : https://curl.se/docs/CVE-2023-28321.html 
-                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/47 
+                        │      │                  ├ [1] : http://seclists.org/fulldisclosure/2023/Jul/48 
+                        │      │                  ├ [2] : http://seclists.org/fulldisclosure/2023/Jul/52 
+                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-28321 
+                        │      │                  ├ [4] : https://curl.se/docs/CVE-2023-28321.html 
+                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2023-28321 
-                        │      │                  ├ [3] : https://hackerone.com/reports/1950627 
-                        │      │                  ├ [4] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [6] : https://hackerone.com/reports/1950627 
+                        │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/F4I75R
                         │      │                  │       DGX5ULSSCBE5BF3P5I5SFO7ULQ/ 
-                        │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/Z2LIWH
                         │      │                  │       WKOVH24COGGBCVOWDXXIUPKOMK/ 
-                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-28321 
-                        │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-202306
+                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-28321 
+                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-202306
                         │      │                  │       09-0009/ 
-                        │      │                  ├ [8] : https://support.apple.com/kb/HT213843 
-                        │      │                  ├ [9] : https://support.apple.com/kb/HT213844 
-                        │      │                  ├ [10]: https://support.apple.com/kb/HT213845 
-                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6237-1 
-                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-28321 
+                        │      │                  ├ [11]: https://support.apple.com/kb/HT213843 
+                        │      │                  ├ [12]: https://support.apple.com/kb/HT213844 
+                        │      │                  ├ [13]: https://support.apple.com/kb/HT213845 
+                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6237-1 
+                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-28321 
                         │      ├ PublishedDate   : 2023-05-26T21:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-07-24T19:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-07-25T16:15:00Z 
                         ├ [14] ╭ VulnerabilityID : CVE-2023-27533 
                         │      ├ PkgID           : curl-minimal@7.76.1-23.el9_2.1.x86_64 
                         │      ├ PkgName         : curl-minimal 
@@ -692,27 +705,30 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           L/I:N/A:N 
                         │      │                           ╰ V3Score : 3.7 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-28322 
-                        │      │                  ├ [1] : https://curl.se/docs/CVE-2023-28322.html 
-                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/47 
+                        │      │                  ├ [1] : http://seclists.org/fulldisclosure/2023/Jul/48 
+                        │      │                  ├ [2] : http://seclists.org/fulldisclosure/2023/Jul/52 
+                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-28322 
+                        │      │                  ├ [4] : https://curl.se/docs/CVE-2023-28322.html 
+                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2023-28322 
-                        │      │                  ├ [3] : https://hackerone.com/reports/1954658 
-                        │      │                  ├ [4] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [6] : https://hackerone.com/reports/1954658 
+                        │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/F4I75R
                         │      │                  │       DGX5ULSSCBE5BF3P5I5SFO7ULQ/ 
-                        │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/Z2LIWH
                         │      │                  │       WKOVH24COGGBCVOWDXXIUPKOMK/ 
-                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-28322 
-                        │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-202306
+                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-28322 
+                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-202306
                         │      │                  │       09-0009/ 
-                        │      │                  ├ [8] : https://support.apple.com/kb/HT213843 
-                        │      │                  ├ [9] : https://support.apple.com/kb/HT213844 
-                        │      │                  ├ [10]: https://support.apple.com/kb/HT213845 
-                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6237-1 
-                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-28322 
+                        │      │                  ├ [11]: https://support.apple.com/kb/HT213843 
+                        │      │                  ├ [12]: https://support.apple.com/kb/HT213844 
+                        │      │                  ├ [13]: https://support.apple.com/kb/HT213845 
+                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6237-1 
+                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-28322 
                         │      ├ PublishedDate   : 2023-05-26T21:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-07-24T19:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-07-25T16:15:00Z 
                         ├ [18] ╭ VulnerabilityID : CVE-2023-34969 
                         │      ├ PkgID           : dbus-libs@1.12.20-7.el9_1.x86_64 
                         │      ├ PkgName         : dbus-libs 
@@ -996,9 +1012,11 @@
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/YZ5M2G
                         │      │                  │       SAIHFPLHYJXUPQ2QDJCLWXUGO3/ 
                         │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-25193 
-                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-25193 
+                        │      │                  ├ [20]: https://security.netapp.com/advisory/ntap-202307
+                        │      │                  │       25-0006/ 
+                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2023-25193 
                         │      ├ PublishedDate   : 2023-02-04T20:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-03-14T05:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
                         ├ [26] ╭ VulnerabilityID : CVE-2023-22049 
                         │      ├ VendorIDs        ─ [0]: RHSA-2023:4178 
                         │      ├ PkgID           : java-1.8.0-openjdk-headless@1.8.0.372.b07-2.el9.x86_64 
@@ -1042,18 +1060,22 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:L/A:N 
                         │      │                           ╰ V3Score : 3.7 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2023:4178 
-                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-22049 
-                        │      │                  ├ [2]: https://bugzilla.redhat.com/2221645 
-                        │      │                  ├ [3]: https://bugzilla.redhat.com/2221647 
-                        │      │                  ├ [4]: https://errata.almalinux.org/9/ALSA-2023-4178.html 
-                        │      │                  ├ [5]: https://linux.oracle.com/cve/CVE-2023-22049.html 
-                        │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2023-4233.html 
-                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-22049 
-                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-22049 
-                        │      │                  ╰ [9]: https://www.oracle.com/security-alerts/cpujul2023.html 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4178 
+                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-22049 
+                        │      │                  ├ [2] : https://bugzilla.redhat.com/2221645 
+                        │      │                  ├ [3] : https://bugzilla.redhat.com/2221647 
+                        │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2023-4178.html 
+                        │      │                  ├ [5] : https://linux.oracle.com/cve/CVE-2023-22049.html 
+                        │      │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2023-4233.html 
+                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2023-22049 
+                        │      │                  ├ [8] : https://security.netapp.com/advisory/ntap-202307
+                        │      │                  │       25-0006/ 
+                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-22049 
+                        │      │                  ├ [10]: https://www.debian.org/security/2023/dsa-5458 
+                        │      │                  ╰ [11]: https://www.oracle.com/security-alerts/cpujul202
+                        │      │                          3.html 
                         │      ├ PublishedDate   : 2023-07-18T21:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-07-18T22:17:00Z 
+                        │      ╰ LastModifiedDate: 2023-07-26T04:15:00Z 
                         ├ [27] ╭ VulnerabilityID : CVE-2022-3857 
                         │      ├ PkgID           : java-1.8.0-openjdk-headless@1.8.0.372.b07-2.el9.x86_64 
                         │      ├ PkgName         : java-1.8.0-openjdk-headless 
@@ -1128,18 +1150,22 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           L/I:N/A:N 
                         │      │                           ╰ V3Score : 3.7 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2023:4178 
-                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-22045 
-                        │      │                  ├ [2]: https://bugzilla.redhat.com/2221645 
-                        │      │                  ├ [3]: https://bugzilla.redhat.com/2221647 
-                        │      │                  ├ [4]: https://errata.almalinux.org/9/ALSA-2023-4178.html 
-                        │      │                  ├ [5]: https://linux.oracle.com/cve/CVE-2023-22045.html 
-                        │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2023-4233.html 
-                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-22045 
-                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-22045 
-                        │      │                  ╰ [9]: https://www.oracle.com/security-alerts/cpujul2023.html 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4178 
+                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-22045 
+                        │      │                  ├ [2] : https://bugzilla.redhat.com/2221645 
+                        │      │                  ├ [3] : https://bugzilla.redhat.com/2221647 
+                        │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2023-4178.html 
+                        │      │                  ├ [5] : https://linux.oracle.com/cve/CVE-2023-22045.html 
+                        │      │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2023-4233.html 
+                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2023-22045 
+                        │      │                  ├ [8] : https://security.netapp.com/advisory/ntap-202307
+                        │      │                  │       25-0006/ 
+                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-22045 
+                        │      │                  ├ [10]: https://www.debian.org/security/2023/dsa-5458 
+                        │      │                  ╰ [11]: https://www.oracle.com/security-alerts/cpujul202
+                        │      │                          3.html 
                         │      ├ PublishedDate   : 2023-07-18T21:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-07-18T22:17:00Z 
+                        │      ╰ LastModifiedDate: 2023-07-26T04:15:00Z 
                         ├ [29] ╭ VulnerabilityID : CVE-2023-30571 
                         │      ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
                         │      ├ PkgName         : libarchive 
@@ -1335,27 +1361,30 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:H/A:N 
                         │      │                           ╰ V3Score : 5.9 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-28321 
-                        │      │                  ├ [1] : https://curl.se/docs/CVE-2023-28321.html 
-                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/47 
+                        │      │                  ├ [1] : http://seclists.org/fulldisclosure/2023/Jul/48 
+                        │      │                  ├ [2] : http://seclists.org/fulldisclosure/2023/Jul/52 
+                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-28321 
+                        │      │                  ├ [4] : https://curl.se/docs/CVE-2023-28321.html 
+                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2023-28321 
-                        │      │                  ├ [3] : https://hackerone.com/reports/1950627 
-                        │      │                  ├ [4] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [6] : https://hackerone.com/reports/1950627 
+                        │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/F4I75R
                         │      │                  │       DGX5ULSSCBE5BF3P5I5SFO7ULQ/ 
-                        │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/Z2LIWH
                         │      │                  │       WKOVH24COGGBCVOWDXXIUPKOMK/ 
-                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-28321 
-                        │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-202306
+                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-28321 
+                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-202306
                         │      │                  │       09-0009/ 
-                        │      │                  ├ [8] : https://support.apple.com/kb/HT213843 
-                        │      │                  ├ [9] : https://support.apple.com/kb/HT213844 
-                        │      │                  ├ [10]: https://support.apple.com/kb/HT213845 
-                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6237-1 
-                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-28321 
+                        │      │                  ├ [11]: https://support.apple.com/kb/HT213843 
+                        │      │                  ├ [12]: https://support.apple.com/kb/HT213844 
+                        │      │                  ├ [13]: https://support.apple.com/kb/HT213845 
+                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6237-1 
+                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-28321 
                         │      ├ PublishedDate   : 2023-05-26T21:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-07-24T19:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-07-25T16:15:00Z 
                         ├ [34] ╭ VulnerabilityID : CVE-2023-27533 
                         │      ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.1.x86_64 
                         │      ├ PkgName         : libcurl-minimal 
@@ -1520,27 +1549,30 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           L/I:N/A:N 
                         │      │                           ╰ V3Score : 3.7 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-28322 
-                        │      │                  ├ [1] : https://curl.se/docs/CVE-2023-28322.html 
-                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/47 
+                        │      │                  ├ [1] : http://seclists.org/fulldisclosure/2023/Jul/48 
+                        │      │                  ├ [2] : http://seclists.org/fulldisclosure/2023/Jul/52 
+                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-28322 
+                        │      │                  ├ [4] : https://curl.se/docs/CVE-2023-28322.html 
+                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2023-28322 
-                        │      │                  ├ [3] : https://hackerone.com/reports/1954658 
-                        │      │                  ├ [4] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [6] : https://hackerone.com/reports/1954658 
+                        │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/F4I75R
                         │      │                  │       DGX5ULSSCBE5BF3P5I5SFO7ULQ/ 
-                        │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/Z2LIWH
                         │      │                  │       WKOVH24COGGBCVOWDXXIUPKOMK/ 
-                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-28322 
-                        │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-202306
+                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-28322 
+                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-202306
                         │      │                  │       09-0009/ 
-                        │      │                  ├ [8] : https://support.apple.com/kb/HT213843 
-                        │      │                  ├ [9] : https://support.apple.com/kb/HT213844 
-                        │      │                  ├ [10]: https://support.apple.com/kb/HT213845 
-                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6237-1 
-                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-28322 
+                        │      │                  ├ [11]: https://support.apple.com/kb/HT213843 
+                        │      │                  ├ [12]: https://support.apple.com/kb/HT213844 
+                        │      │                  ├ [13]: https://support.apple.com/kb/HT213845 
+                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6237-1 
+                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-28322 
                         │      ├ PublishedDate   : 2023-05-26T21:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-07-24T19:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-07-25T16:15:00Z 
                         ├ [38] ╭ VulnerabilityID : CVE-2023-22652 
                         │      ├ PkgID           : libeconf@0.4.1-2.el9.x86_64 
                         │      ├ PkgName         : libeconf 
@@ -1817,7 +1849,7 @@
                         │      │                  │      5-0005/ 
                         │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
                         │      ├ PublishedDate   : 2023-03-31T20:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-04-07T01:19:00Z 
+                        │      ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
                         ├ [45] ╭ VulnerabilityID : CVE-2023-29491 
                         │      ├ PkgID           : ncurses-base@6.2-8.20210508.el9.noarch 
                         │      ├ PkgName         : ncurses-base 
@@ -2272,20 +2304,23 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
                         │      │                           │           N/I:L/A:H 
                         │      │                           ╰ V3Score : 7.1 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-2953 
-                        │      │                  ├ [1]: https://bugs.openldap.org/show_bug.cgi?id=9904 
-                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-                        │      │                  │      E-2023-2953 
-                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-2953 
-                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-2023070
-                        │      │                  │      3-0005/ 
-                        │      │                  ├ [5]: https://support.apple.com/kb/HT213843 
-                        │      │                  ├ [6]: https://support.apple.com/kb/HT213844 
-                        │      │                  ├ [7]: https://support.apple.com/kb/HT213845 
-                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6197-1 
-                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
+                        │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/47 
+                        │      │                  ├ [1] : http://seclists.org/fulldisclosure/2023/Jul/48 
+                        │      │                  ├ [2] : http://seclists.org/fulldisclosure/2023/Jul/52 
+                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-2953 
+                        │      │                  ├ [4] : https://bugs.openldap.org/show_bug.cgi?id=9904 
+                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2023-2953 
+                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-2953 
+                        │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-202307
+                        │      │                  │       03-0005/ 
+                        │      │                  ├ [8] : https://support.apple.com/kb/HT213843 
+                        │      │                  ├ [9] : https://support.apple.com/kb/HT213844 
+                        │      │                  ├ [10]: https://support.apple.com/kb/HT213845 
+                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6197-1 
+                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
                         │      ├ PublishedDate   : 2023-05-30T22:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-07-24T19:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-07-25T16:15:00Z 
                         ├ [57] ╭ VulnerabilityID : CVE-2021-27212 
                         │      ├ PkgID           : openldap-compat@2.6.2-3.el9.x86_64 
                         │      ├ PkgName         : openldap-compat 
@@ -2360,20 +2395,23 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
                         │      │                           │           N/I:L/A:H 
                         │      │                           ╰ V3Score : 7.1 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-2953 
-                        │      │                  ├ [1]: https://bugs.openldap.org/show_bug.cgi?id=9904 
-                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-                        │      │                  │      E-2023-2953 
-                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-2953 
-                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-2023070
-                        │      │                  │      3-0005/ 
-                        │      │                  ├ [5]: https://support.apple.com/kb/HT213843 
-                        │      │                  ├ [6]: https://support.apple.com/kb/HT213844 
-                        │      │                  ├ [7]: https://support.apple.com/kb/HT213845 
-                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6197-1 
-                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
+                        │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/47 
+                        │      │                  ├ [1] : http://seclists.org/fulldisclosure/2023/Jul/48 
+                        │      │                  ├ [2] : http://seclists.org/fulldisclosure/2023/Jul/52 
+                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-2953 
+                        │      │                  ├ [4] : https://bugs.openldap.org/show_bug.cgi?id=9904 
+                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2023-2953 
+                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-2953 
+                        │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-202307
+                        │      │                  │       03-0005/ 
+                        │      │                  ├ [8] : https://support.apple.com/kb/HT213843 
+                        │      │                  ├ [9] : https://support.apple.com/kb/HT213844 
+                        │      │                  ├ [10]: https://support.apple.com/kb/HT213845 
+                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6197-1 
+                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
                         │      ├ PublishedDate   : 2023-05-30T22:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-07-24T19:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-07-25T16:15:00Z 
                         ├ [59] ╭ VulnerabilityID : CVE-2023-2975 
                         │      ├ PkgID           : openssl@3.0.7-16.el9_2.x86_64 
                         │      ├ PkgName         : openssl 
@@ -2438,10 +2476,12 @@
                         │      │                  │      ommitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc[
                         │      │                  │      m 
                         │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-2975 
-                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
-                        │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20230714.txt 
+                        │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2023072
+                        │      │                  │      5-0004/ 
+                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
+                        │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
                         │      ├ PublishedDate   : 2023-07-14T12:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-07-19T15:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
                         ├ [60] ╭ VulnerabilityID : CVE-2023-3446 
                         │      ├ PkgID           : openssl@3.0.7-16.el9_2.x86_64 
                         │      ├ PkgName         : openssl 
@@ -2593,10 +2633,12 @@
                         │      │                  │      ommitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc[
                         │      │                  │      m 
                         │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-2975 
-                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
-                        │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20230714.txt 
+                        │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2023072
+                        │      │                  │      5-0004/ 
+                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
+                        │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
                         │      ├ PublishedDate   : 2023-07-14T12:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-07-19T15:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
                         ├ [62] ╭ VulnerabilityID : CVE-2023-3446 
                         │      ├ PkgID           : openssl-libs@3.0.7-16.el9_2.x86_64 
                         │      ├ PkgName         : openssl-libs 
