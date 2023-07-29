@@ -1075,7 +1075,7 @@
                         │      │                  ╰ [11]: https://www.oracle.com/security-alerts/cpujul202
                         │      │                          3.html 
                         │      ├ PublishedDate   : 2023-07-18T21:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-07-26T04:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-07-27T17:34:00Z 
                         ├ [27] ╭ VulnerabilityID : CVE-2022-3857 
                         │      ├ PkgID           : java-1.8.0-openjdk-headless@1.8.0.372.b07-2.el9.x86_64 
                         │      ├ PkgName         : java-1.8.0-openjdk-headless 
@@ -1165,7 +1165,7 @@
                         │      │                  ╰ [11]: https://www.oracle.com/security-alerts/cpujul202
                         │      │                          3.html 
                         │      ├ PublishedDate   : 2023-07-18T21:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-07-26T04:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-07-27T17:34:00Z 
                         ├ [29] ╭ VulnerabilityID : CVE-2023-30571 
                         │      ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
                         │      ├ PkgName         : libarchive 
@@ -2459,7 +2459,11 @@
                         │      │                   associated data
                         │      │                   entries this is qualified as Low severity issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+                        │      ├ CweIDs           ─ [0]: CWE-287 
+                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+                        │      │                  │        │           N/I:L/A:N 
+                        │      │                  │        ╰ V3Score : 5.3 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:H/A:N 
                         │      │                           ╰ V3Score : 5.9 
                         │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/0
@@ -2481,7 +2485,7 @@
                         │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
                         │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
                         │      ├ PublishedDate   : 2023-07-14T12:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-07-27T13:02:00Z 
                         ├ [60] ╭ VulnerabilityID : CVE-2023-3446 
                         │      ├ PkgID           : openssl@3.0.7-16.el9_2.x86_64 
                         │      ├ PkgName         : openssl 
@@ -2616,7 +2620,11 @@
                         │      │                   associated data
                         │      │                   entries this is qualified as Low severity issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+                        │      ├ CweIDs           ─ [0]: CWE-287 
+                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+                        │      │                  │        │           N/I:L/A:N 
+                        │      │                  │        ╰ V3Score : 5.3 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:H/A:N 
                         │      │                           ╰ V3Score : 5.9 
                         │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/0
@@ -2638,7 +2646,7 @@
                         │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
                         │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
                         │      ├ PublishedDate   : 2023-07-14T12:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-07-27T13:02:00Z 
                         ├ [62] ╭ VulnerabilityID : CVE-2023-3446 
                         │      ├ PkgID           : openssl-libs@3.0.7-16.el9_2.x86_64 
                         │      ├ PkgName         : openssl-libs 
