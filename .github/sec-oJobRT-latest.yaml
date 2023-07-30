@@ -10,6 +10,7 @@
     Layer:
       Digest: sha256:28e1a88b04660107ff3c56ea5eeaf5da23646e4b913cfda654539ce093bb7eb0
       DiffID: sha256:268328d77756c839177fc725c057832321bc67ee6866c22e780225e85fd1f97d
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3446
     DataSource:
       ID: alpine
@@ -47,7 +48,12 @@
       The OpenSSL SSL/TLS implementation is not affected by this issue.
       The OpenSSL 3.0 and 3.1 FIPS providers are not affected by this issue.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
@@ -65,7 +71,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3446
     - https://www.openssl.org/news/secadv/20230719.txt
     PublishedDate: '2023-07-19T12:15:00Z'
-    LastModifiedDate: '2023-07-19T18:15:00Z'
+    LastModifiedDate: '2023-07-28T19:02:00Z'
   - VulnerabilityID: CVE-2023-3446
     PkgID: libssl3@3.1.1-r2
     PkgName: libssl3
@@ -74,6 +80,7 @@
     Layer:
       Digest: sha256:28e1a88b04660107ff3c56ea5eeaf5da23646e4b913cfda654539ce093bb7eb0
       DiffID: sha256:268328d77756c839177fc725c057832321bc67ee6866c22e780225e85fd1f97d
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3446
     DataSource:
       ID: alpine
@@ -111,7 +118,12 @@
       The OpenSSL SSL/TLS implementation is not affected by this issue.
       The OpenSSL 3.0 and 3.1 FIPS providers are not affected by this issue.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
@@ -129,7 +141,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3446
     - https://www.openssl.org/news/secadv/20230719.txt
     PublishedDate: '2023-07-19T12:15:00Z'
-    LastModifiedDate: '2023-07-19T18:15:00Z'
+    LastModifiedDate: '2023-07-28T19:02:00Z'
   - VulnerabilityID: CVE-2023-3446
     PkgID: openssl@3.1.1-r2
     PkgName: openssl
@@ -138,6 +150,7 @@
     Layer:
       Digest: sha256:28e1a88b04660107ff3c56ea5eeaf5da23646e4b913cfda654539ce093bb7eb0
       DiffID: sha256:268328d77756c839177fc725c057832321bc67ee6866c22e780225e85fd1f97d
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3446
     DataSource:
       ID: alpine
@@ -175,7 +188,12 @@
       The OpenSSL SSL/TLS implementation is not affected by this issue.
       The OpenSSL 3.0 and 3.1 FIPS providers are not affected by this issue.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-1333
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
@@ -193,4 +211,4 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3446
     - https://www.openssl.org/news/secadv/20230719.txt
     PublishedDate: '2023-07-19T12:15:00Z'
-    LastModifiedDate: '2023-07-19T18:15:00Z'
+    LastModifiedDate: '2023-07-28T19:02:00Z'
