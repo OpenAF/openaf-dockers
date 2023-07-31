@@ -11,6 +11,7 @@
                         │     │                  │         913cfda654539ce093bb7eb0 
                         │     │                  ╰ DiffID: sha256:268328d77756c839177fc725c057832321bc67ee
                         │     │                            6866c22e780225e85fd1f97d 
+                        │     ├ SeveritySource  : nvd 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-3446 
                         │     ├ DataSource       ╭ ID  : alpine 
                         │     │                  ├ Name: Alpine Secdb 
@@ -63,7 +64,11 @@
                         │     │                   The OpenSSL 3.0 and 3.1 FIPS providers are not affected by
                         │     │                   this issue. 
                         │     ├ Severity        : MEDIUM 
-                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                        │     ├ CweIDs           ─ [0]: CWE-1333 
+                        │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                        │     │                  │        │           /I:N/A:L 
+                        │     │                  │        ╰ V3Score : 5.3 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
                         │     │                           │           /I:N/A:L 
                         │     │                           ╰ V3Score : 5.3 
                         │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023/0
@@ -91,7 +96,7 @@
                         │     │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
                         │     │                  ╰ [11]: https://www.openssl.org/news/secadv/20230719.txt 
                         │     ├ PublishedDate   : 2023-07-19T12:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-07-19T18:15:00Z 
+                        │     ╰ LastModifiedDate: 2023-07-28T19:02:00Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2023-3446 
                         │     ├ PkgID           : libssl3@3.1.1-r2 
                         │     ├ PkgName         : libssl3 
@@ -101,6 +106,7 @@
                         │     │                  │         913cfda654539ce093bb7eb0 
                         │     │                  ╰ DiffID: sha256:268328d77756c839177fc725c057832321bc67ee
                         │     │                            6866c22e780225e85fd1f97d 
+                        │     ├ SeveritySource  : nvd 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-3446 
                         │     ├ DataSource       ╭ ID  : alpine 
                         │     │                  ├ Name: Alpine Secdb 
@@ -153,7 +159,11 @@
                         │     │                   The OpenSSL 3.0 and 3.1 FIPS providers are not affected by
                         │     │                   this issue. 
                         │     ├ Severity        : MEDIUM 
-                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                        │     ├ CweIDs           ─ [0]: CWE-1333 
+                        │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                        │     │                  │        │           /I:N/A:L 
+                        │     │                  │        ╰ V3Score : 5.3 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
                         │     │                           │           /I:N/A:L 
                         │     │                           ╰ V3Score : 5.3 
                         │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023/0
@@ -181,7 +191,7 @@
                         │     │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
                         │     │                  ╰ [11]: https://www.openssl.org/news/secadv/20230719.txt 
                         │     ├ PublishedDate   : 2023-07-19T12:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-07-19T18:15:00Z 
+                        │     ╰ LastModifiedDate: 2023-07-28T19:02:00Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2023-3446 
                               ├ PkgID           : openssl@3.1.1-r2 
                               ├ PkgName         : openssl 
@@ -191,6 +201,7 @@
                               │                  │         913cfda654539ce093bb7eb0 
                               │                  ╰ DiffID: sha256:268328d77756c839177fc725c057832321bc67ee
                               │                            6866c22e780225e85fd1f97d 
+                              ├ SeveritySource  : nvd 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-3446 
                               ├ DataSource       ╭ ID  : alpine 
                               │                  ├ Name: Alpine Secdb 
@@ -243,7 +254,11 @@
                               │                   The OpenSSL 3.0 and 3.1 FIPS providers are not affected by
                               │                   this issue. 
                               ├ Severity        : MEDIUM 
-                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                              ├ CweIDs           ─ [0]: CWE-1333 
+                              ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                              │                  │        │           /I:N/A:L 
+                              │                  │        ╰ V3Score : 5.3 
+                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
                               │                           │           /I:N/A:L 
                               │                           ╰ V3Score : 5.3 
                               ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023/0
@@ -271,5 +286,5 @@
                               │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
                               │                  ╰ [11]: https://www.openssl.org/news/secadv/20230719.txt 
                               ├ PublishedDate   : 2023-07-19T12:15:00Z 
-                              ╰ LastModifiedDate: 2023-07-19T18:15:00Z 
+                              ╰ LastModifiedDate: 2023-07-28T19:02:00Z 
 ````
