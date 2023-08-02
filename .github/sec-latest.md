@@ -7,6 +7,7 @@
                         │     ├ PkgName         : libcrypto3 
                         │     ├ InstalledVersion: 3.1.1-r2 
                         │     ├ FixedVersion    : 3.1.1-r3 
+                        │     ├ Status          : fixed 
                         │     ├ Layer            ╭ Digest: sha256:28e1a88b04660107ff3c56ea5eeaf5da23646e4b
                         │     │                  │         913cfda654539ce093bb7eb0 
                         │     │                  ╰ DiffID: sha256:268328d77756c839177fc725c057832321bc67ee
@@ -77,31 +78,34 @@
                         │     │                  │       7/19/5 
                         │     │                  ├ [2] : http://www.openwall.com/lists/oss-security/2023/0
                         │     │                  │       7/19/6 
-                        │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-3446 
-                        │     │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │     │                  ├ [3] : http://www.openwall.com/lists/oss-security/2023/0
+                        │     │                  │       7/31/1 
+                        │     │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2023-3446 
+                        │     │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
                         │     │                  │       E-2023-3446 
-                        │     │                  ├ [5] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
+                        │     │                  ├ [6] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
                         │     │                  │       ommitdiff;h=1fa20cf2f506113c761777127a38bce5068740eb[
                         │     │                  │       m 
-                        │     │                  ├ [6] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
+                        │     │                  ├ [7] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
                         │     │                  │       ommitdiff;h=8780a896543a654e757db1b9396383f9d8095528[
                         │     │                  │       m 
-                        │     │                  ├ [7] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
+                        │     │                  ├ [8] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
                         │     │                  │       ommitdiff;h=9a0a4d3c1e7138915563c0df4fe6a3f9377b839c[
                         │     │                  │       m 
-                        │     │                  ├ [8] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
+                        │     │                  ├ [9] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
                         │     │                  │       ommitdiff;h=fc9867c1e03c22ebf56943be205202e576aabf23[
                         │     │                  │       m 
-                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-3446 
-                        │     │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
-                        │     │                  ╰ [11]: https://www.openssl.org/news/secadv/20230719.txt 
+                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-3446 
+                        │     │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
+                        │     │                  ╰ [12]: https://www.openssl.org/news/secadv/20230719.txt 
                         │     ├ PublishedDate   : 2023-07-19T12:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-07-28T19:02:00Z 
+                        │     ╰ LastModifiedDate: 2023-07-31T18:15:00Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2023-3446 
                         │     ├ PkgID           : libssl3@3.1.1-r2 
                         │     ├ PkgName         : libssl3 
                         │     ├ InstalledVersion: 3.1.1-r2 
                         │     ├ FixedVersion    : 3.1.1-r3 
+                        │     ├ Status          : fixed 
                         │     ├ Layer            ╭ Digest: sha256:28e1a88b04660107ff3c56ea5eeaf5da23646e4b
                         │     │                  │         913cfda654539ce093bb7eb0 
                         │     │                  ╰ DiffID: sha256:268328d77756c839177fc725c057832321bc67ee
@@ -172,31 +176,34 @@
                         │     │                  │       7/19/5 
                         │     │                  ├ [2] : http://www.openwall.com/lists/oss-security/2023/0
                         │     │                  │       7/19/6 
-                        │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-3446 
-                        │     │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │     │                  ├ [3] : http://www.openwall.com/lists/oss-security/2023/0
+                        │     │                  │       7/31/1 
+                        │     │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2023-3446 
+                        │     │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
                         │     │                  │       E-2023-3446 
-                        │     │                  ├ [5] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
+                        │     │                  ├ [6] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
                         │     │                  │       ommitdiff;h=1fa20cf2f506113c761777127a38bce5068740eb[
                         │     │                  │       m 
-                        │     │                  ├ [6] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
+                        │     │                  ├ [7] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
                         │     │                  │       ommitdiff;h=8780a896543a654e757db1b9396383f9d8095528[
                         │     │                  │       m 
-                        │     │                  ├ [7] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
+                        │     │                  ├ [8] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
                         │     │                  │       ommitdiff;h=9a0a4d3c1e7138915563c0df4fe6a3f9377b839c[
                         │     │                  │       m 
-                        │     │                  ├ [8] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
+                        │     │                  ├ [9] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
                         │     │                  │       ommitdiff;h=fc9867c1e03c22ebf56943be205202e576aabf23[
                         │     │                  │       m 
-                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-3446 
-                        │     │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
-                        │     │                  ╰ [11]: https://www.openssl.org/news/secadv/20230719.txt 
+                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-3446 
+                        │     │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
+                        │     │                  ╰ [12]: https://www.openssl.org/news/secadv/20230719.txt 
                         │     ├ PublishedDate   : 2023-07-19T12:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-07-28T19:02:00Z 
+                        │     ╰ LastModifiedDate: 2023-07-31T18:15:00Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2023-3446 
                               ├ PkgID           : openssl@3.1.1-r2 
                               ├ PkgName         : openssl 
                               ├ InstalledVersion: 3.1.1-r2 
                               ├ FixedVersion    : 3.1.1-r3 
+                              ├ Status          : fixed 
                               ├ Layer            ╭ Digest: sha256:28e1a88b04660107ff3c56ea5eeaf5da23646e4b
                               │                  │         913cfda654539ce093bb7eb0 
                               │                  ╰ DiffID: sha256:268328d77756c839177fc725c057832321bc67ee
@@ -267,24 +274,26 @@
                               │                  │       7/19/5 
                               │                  ├ [2] : http://www.openwall.com/lists/oss-security/2023/0
                               │                  │       7/19/6 
-                              │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-3446 
-                              │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                              │                  ├ [3] : http://www.openwall.com/lists/oss-security/2023/0
+                              │                  │       7/31/1 
+                              │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2023-3446 
+                              │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
                               │                  │       E-2023-3446 
-                              │                  ├ [5] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
+                              │                  ├ [6] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
                               │                  │       ommitdiff;h=1fa20cf2f506113c761777127a38bce5068740eb[
                               │                  │       m 
-                              │                  ├ [6] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
+                              │                  ├ [7] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
                               │                  │       ommitdiff;h=8780a896543a654e757db1b9396383f9d8095528[
                               │                  │       m 
-                              │                  ├ [7] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
+                              │                  ├ [8] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
                               │                  │       ommitdiff;h=9a0a4d3c1e7138915563c0df4fe6a3f9377b839c[
                               │                  │       m 
-                              │                  ├ [8] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
+                              │                  ├ [9] : https://git.openssl.org/gitweb/?p=openssl.git;a=c
                               │                  │       ommitdiff;h=fc9867c1e03c22ebf56943be205202e576aabf23[
                               │                  │       m 
-                              │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-3446 
-                              │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
-                              │                  ╰ [11]: https://www.openssl.org/news/secadv/20230719.txt 
+                              │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-3446 
+                              │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
+                              │                  ╰ [12]: https://www.openssl.org/news/secadv/20230719.txt 
                               ├ PublishedDate   : 2023-07-19T12:15:00Z 
-                              ╰ LastModifiedDate: 2023-07-28T19:02:00Z 
+                              ╰ LastModifiedDate: 2023-07-31T18:15:00Z 
 ````
