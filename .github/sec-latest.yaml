@@ -7,6 +7,7 @@
     PkgName: libcrypto3
     InstalledVersion: 3.1.1-r2
     FixedVersion: 3.1.1-r3
+    Status: fixed
     Layer:
       Digest: sha256:28e1a88b04660107ff3c56ea5eeaf5da23646e4b913cfda654539ce093bb7eb0
       DiffID: sha256:268328d77756c839177fc725c057832321bc67ee6866c22e780225e85fd1f97d
@@ -61,6 +62,7 @@
     - http://www.openwall.com/lists/oss-security/2023/07/19/4
     - http://www.openwall.com/lists/oss-security/2023/07/19/5
     - http://www.openwall.com/lists/oss-security/2023/07/19/6
+    - http://www.openwall.com/lists/oss-security/2023/07/31/1
     - https://access.redhat.com/security/cve/CVE-2023-3446
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3446
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=1fa20cf2f506113c761777127a38bce5068740eb
@@ -71,12 +73,13 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3446
     - https://www.openssl.org/news/secadv/20230719.txt
     PublishedDate: '2023-07-19T12:15:00Z'
-    LastModifiedDate: '2023-07-28T19:02:00Z'
+    LastModifiedDate: '2023-07-31T18:15:00Z'
   - VulnerabilityID: CVE-2023-3446
     PkgID: libssl3@3.1.1-r2
     PkgName: libssl3
     InstalledVersion: 3.1.1-r2
     FixedVersion: 3.1.1-r3
+    Status: fixed
     Layer:
       Digest: sha256:28e1a88b04660107ff3c56ea5eeaf5da23646e4b913cfda654539ce093bb7eb0
       DiffID: sha256:268328d77756c839177fc725c057832321bc67ee6866c22e780225e85fd1f97d
@@ -131,6 +134,7 @@
     - http://www.openwall.com/lists/oss-security/2023/07/19/4
     - http://www.openwall.com/lists/oss-security/2023/07/19/5
     - http://www.openwall.com/lists/oss-security/2023/07/19/6
+    - http://www.openwall.com/lists/oss-security/2023/07/31/1
     - https://access.redhat.com/security/cve/CVE-2023-3446
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3446
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=1fa20cf2f506113c761777127a38bce5068740eb
@@ -141,12 +145,13 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3446
     - https://www.openssl.org/news/secadv/20230719.txt
     PublishedDate: '2023-07-19T12:15:00Z'
-    LastModifiedDate: '2023-07-28T19:02:00Z'
+    LastModifiedDate: '2023-07-31T18:15:00Z'
   - VulnerabilityID: CVE-2023-3446
     PkgID: openssl@3.1.1-r2
     PkgName: openssl
     InstalledVersion: 3.1.1-r2
     FixedVersion: 3.1.1-r3
+    Status: fixed
     Layer:
       Digest: sha256:28e1a88b04660107ff3c56ea5eeaf5da23646e4b913cfda654539ce093bb7eb0
       DiffID: sha256:268328d77756c839177fc725c057832321bc67ee6866c22e780225e85fd1f97d
@@ -201,6 +206,7 @@
     - http://www.openwall.com/lists/oss-security/2023/07/19/4
     - http://www.openwall.com/lists/oss-security/2023/07/19/5
     - http://www.openwall.com/lists/oss-security/2023/07/19/6
+    - http://www.openwall.com/lists/oss-security/2023/07/31/1
     - https://access.redhat.com/security/cve/CVE-2023-3446
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3446
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=1fa20cf2f506113c761777127a38bce5068740eb
@@ -211,4 +217,4 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3446
     - https://www.openssl.org/news/secadv/20230719.txt
     PublishedDate: '2023-07-19T12:15:00Z'
-    LastModifiedDate: '2023-07-28T19:02:00Z'
+    LastModifiedDate: '2023-07-31T18:15:00Z'
