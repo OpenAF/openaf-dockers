@@ -21,7 +21,9 @@ RUN microdnf upgrade -y\
  && chown -R openaf: /openaf\
  && echo "openaf ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/openaf\
  && microdnf remove -y shadow-utils\
- && microdnf clean all
+ && microdnf clean all\
+ && echo 'if [ ! -e ~/.openaf-ojobio-complete ] || [ $(find ~/.openaf-ojobio-complete -mtime +1) ]; then curl --max-time 2 -s https://ojob.io/autoComplete.sh > ~/.openaf-ojobio-complete; fi' >> /etc/bashrc\
+ && echo "source ~/.openaf-ojobio-complete" >> /etc/bashrc
 
 USER openaf
 
@@ -30,7 +32,8 @@ RUN cd /openaf\
  && curl -o openaf.jar https://openaf.io/$OPENAFDIST/openaf.jar.repacked -s\
  && java -jar openaf.jar --install -e 'args=$JAVA_ARGS'\
  && chmod u+x /openaf/.docker/entrypoint.sh\
- && chmod u+x /openaf/getOpenAFOrigJar.js
+ && chmod u+x /openaf/getOpenAFOrigJar.js\
+ && curl -s https://ojob.io/autoComplete.sh > ~/.openaf-ojobio-complete
 
 WORKDIR /openaf
 ENTRYPOINT ["/openaf/.docker/entrypoint.sh"]
