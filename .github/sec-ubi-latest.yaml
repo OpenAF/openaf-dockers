@@ -460,7 +460,7 @@
     - https://ubuntu.com/security/notices/USN-6237-1
     - https://www.cve.org/CVERecord?id=CVE-2023-28321
     PublishedDate: '2023-05-26T21:15:00Z'
-    LastModifiedDate: '2023-07-25T16:15:00Z'
+    LastModifiedDate: '2023-08-02T16:46:00Z'
   - VulnerabilityID: CVE-2023-27533
     PkgID: curl-minimal@7.76.1-23.el9_2.1.x86_64
     PkgName: curl-minimal
@@ -603,7 +603,7 @@
     - https://support.apple.com/kb/HT213845
     - https://www.cve.org/CVERecord?id=CVE-2023-28320
     PublishedDate: '2023-05-26T21:15:00Z'
-    LastModifiedDate: '2023-07-25T16:15:00Z'
+    LastModifiedDate: '2023-08-02T16:46:00Z'
   - VulnerabilityID: CVE-2023-28322
     VendorIDs:
     - RHSA-2023:4354
@@ -651,7 +651,7 @@
     - https://ubuntu.com/security/notices/USN-6237-1
     - https://www.cve.org/CVERecord?id=CVE-2023-28322
     PublishedDate: '2023-05-26T21:15:00Z'
-    LastModifiedDate: '2023-07-25T16:15:00Z'
+    LastModifiedDate: '2023-08-02T16:46:00Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: dbus-libs@1.12.20-7.el9_1.x86_64
     PkgName: dbus-libs
@@ -897,6 +897,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-25193
     - https://security.netapp.com/advisory/ntap-20230725-0006/
     - https://ubuntu.com/security/notices/USN-6263-1
+    - https://ubuntu.com/security/notices/USN-6272-1
     - https://www.cve.org/CVERecord?id=CVE-2023-25193
     PublishedDate: '2023-02-04T20:15:00Z'
     LastModifiedDate: '2023-07-25T15:15:00Z'
@@ -935,6 +936,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-22049
     - https://security.netapp.com/advisory/ntap-20230725-0006/
     - https://ubuntu.com/security/notices/USN-6263-1
+    - https://ubuntu.com/security/notices/USN-6272-1
     - https://www.cve.org/CVERecord?id=CVE-2023-22049
     - https://www.debian.org/security/2023/dsa-5458
     - https://www.oracle.com/security-alerts/cpujul2023.html
@@ -1006,6 +1008,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-22045
     - https://security.netapp.com/advisory/ntap-20230725-0006/
     - https://ubuntu.com/security/notices/USN-6263-1
+    - https://ubuntu.com/security/notices/USN-6272-1
     - https://www.cve.org/CVERecord?id=CVE-2023-22045
     - https://www.debian.org/security/2023/dsa-5458
     - https://www.oracle.com/security-alerts/cpujul2023.html
@@ -1196,7 +1199,7 @@
     - https://ubuntu.com/security/notices/USN-6237-1
     - https://www.cve.org/CVERecord?id=CVE-2023-28321
     PublishedDate: '2023-05-26T21:15:00Z'
-    LastModifiedDate: '2023-07-25T16:15:00Z'
+    LastModifiedDate: '2023-08-02T16:46:00Z'
   - VulnerabilityID: CVE-2023-27533
     PkgID: libcurl-minimal@7.76.1-23.el9_2.1.x86_64
     PkgName: libcurl-minimal
@@ -1339,7 +1342,7 @@
     - https://support.apple.com/kb/HT213845
     - https://www.cve.org/CVERecord?id=CVE-2023-28320
     PublishedDate: '2023-05-26T21:15:00Z'
-    LastModifiedDate: '2023-07-25T16:15:00Z'
+    LastModifiedDate: '2023-08-02T16:46:00Z'
   - VulnerabilityID: CVE-2023-28322
     VendorIDs:
     - RHSA-2023:4354
@@ -1387,7 +1390,7 @@
     - https://ubuntu.com/security/notices/USN-6237-1
     - https://www.cve.org/CVERecord?id=CVE-2023-28322
     PublishedDate: '2023-05-26T21:15:00Z'
-    LastModifiedDate: '2023-07-25T16:15:00Z'
+    LastModifiedDate: '2023-08-02T16:46:00Z'
   - VulnerabilityID: CVE-2023-22652
     VendorIDs:
     - RHSA-2023:4347
@@ -2074,7 +2077,7 @@
     - https://ubuntu.com/security/notices/USN-6197-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2953
     PublishedDate: '2023-05-30T22:15:00Z'
-    LastModifiedDate: '2023-07-25T16:15:00Z'
+    LastModifiedDate: '2023-08-02T16:46:00Z'
   - VulnerabilityID: CVE-2021-27212
     PkgID: openldap-compat@2.6.2-3.el9.x86_64
     PkgName: openldap-compat
@@ -2152,7 +2155,7 @@
     - https://ubuntu.com/security/notices/USN-6197-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2953
     PublishedDate: '2023-05-30T22:15:00Z'
-    LastModifiedDate: '2023-07-25T16:15:00Z'
+    LastModifiedDate: '2023-08-02T16:46:00Z'
   - VulnerabilityID: CVE-2023-2975
     PkgID: openssl@3.0.7-16.el9_2.x86_64
     PkgName: openssl
@@ -2545,7 +2548,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2007-4559
     - https://www.cve.org/CVERecord?id=CVE-2007-4559
     PublishedDate: '2007-08-28T01:17:00Z'
-    LastModifiedDate: '2011-03-08T02:58:00Z'
+    LastModifiedDate: '2023-08-02T17:28:00Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python-unversioned-command@3.9.16-1.el9_2.1.noarch
     PkgName: python-unversioned-command
@@ -2763,7 +2766,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2007-4559
     - https://www.cve.org/CVERecord?id=CVE-2007-4559
     PublishedDate: '2007-08-28T01:17:00Z'
-    LastModifiedDate: '2011-03-08T02:58:00Z'
+    LastModifiedDate: '2023-08-02T17:28:00Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python3@3.9.16-1.el9_2.1.x86_64
     PkgName: python3
@@ -2981,7 +2984,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2007-4559
     - https://www.cve.org/CVERecord?id=CVE-2007-4559
     PublishedDate: '2007-08-28T01:17:00Z'
-    LastModifiedDate: '2011-03-08T02:58:00Z'
+    LastModifiedDate: '2023-08-02T17:28:00Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python3-libs@3.9.16-1.el9_2.1.x86_64
     PkgName: python3-libs
