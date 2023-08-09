@@ -812,10 +812,12 @@
                         │      ├ PublishedDate   : 2023-05-26T21:15:00Z 
                         │      ╰ LastModifiedDate: 2023-08-02T16:46:00Z 
                         ├ [19] ╭ VulnerabilityID : CVE-2023-34969 
+                        │      ├ VendorIDs        ─ [0]: RHSA-2023:4569 
                         │      ├ PkgID           : dbus-libs@1.12.20-7.el9_1.x86_64 
                         │      ├ PkgName         : dbus-libs 
                         │      ├ InstalledVersion: 1:1.12.20-7.el9_1 
-                        │      ├ Status          : affected 
+                        │      ├ FixedVersion    : 1:1.12.20-7.el9_2.1 
+                        │      ├ Status          : fixed 
                         │      ├ Layer            ╭ Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f1
                         │      │                  │         6d7d03765489b31e3b215f5e5 
                         │      │                  ╰ DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee
@@ -842,15 +844,20 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 6.2 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-34969 
-                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-                        │      │                  │      E-2023-34969 
-                        │      │                  ├ [2]: https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
-                        │      │                  ├ [3]: https://lists.fedoraproject.org/archives/list/pac
-                        │      │                  │      kage-announce@lists.fedoraproject.org/message/BZYCDRMD
-                        │      │                  │      7B4XO4HF6C6YTLH4YUD7TANP/ 
-                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-34969 
-                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
+                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-34969 
+                        │      │                  ├ [2] : https://bugzilla.redhat.com/2213166 
+                        │      │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2023-34969 
+                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
+                        │      │                  ├ [5] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
+                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-34969.html 
+                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-4498.html 
+                        │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce@lists.fedoraproject.org/message/BZYCDR
+                        │      │                  │       MD7B4XO4HF6C6YTLH4YUD7TANP/ 
+                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-34969 
+                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
                         │      ├ PublishedDate   : 2023-06-08T03:15:00Z 
                         │      ╰ LastModifiedDate: 2023-06-24T03:15:00Z 
                         ├ [20] ╭ VulnerabilityID : CVE-2023-4156 
