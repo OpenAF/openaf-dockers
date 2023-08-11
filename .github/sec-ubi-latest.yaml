@@ -398,10 +398,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2023:4523
     - https://access.redhat.com/security/cve/CVE-2023-27536
+    - https://bugzilla.redhat.com/2179092
+    - https://bugzilla.redhat.com/2196786
     - https://curl.se/docs/CVE-2023-27536.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27536
+    - https://errata.almalinux.org/8/ALSA-2023-4523.html
     - https://hackerone.com/reports/1895135
+    - https://linux.oracle.com/cve/CVE-2023-27536.html
+    - https://linux.oracle.com/errata/ELSA-2023-4523.html
     - https://lists.debian.org/debian-lts-announce/2023/04/msg00025.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/36NBD5YLJXXEDZLDGNFCERWRYJQ6LAQW/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27536
@@ -449,7 +455,7 @@
     - https://errata.almalinux.org/9/ALSA-2023-4354.html
     - https://hackerone.com/reports/1950627
     - https://linux.oracle.com/cve/CVE-2023-28321.html
-    - https://linux.oracle.com/errata/ELSA-2023-4354.html
+    - https://linux.oracle.com/errata/ELSA-2023-4523.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/F4I75RDGX5ULSSCBE5BF3P5I5SFO7ULQ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z2LIWHWKOVH24COGGBCVOWDXXIUPKOMK/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28321
@@ -678,14 +684,14 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4498
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/8/ALSA-2023-4498.html
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
-    - https://linux.oracle.com/errata/ELSA-2023-4498.html
+    - https://linux.oracle.com/errata/ELSA-2023-4569.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BZYCDRMD7B4XO4HF6C6YTLH4YUD7TANP/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-34969
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
@@ -710,6 +716,10 @@
         V3Score: 3.3
     References:
     - https://access.redhat.com/security/cve/CVE-2023-4156
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4156
+    - https://git.savannah.gnu.org/gitweb/?p=gawk.git;a=commitdiff;h=e709eb829448ce040087a3fc5481db6bfcaae212 (gawk-5.2.0)
+    - https://mail.gnu.org/archive/html/bug-gawk/2022-08/msg00000.html
+    - https://mail.gnu.org/archive/html/bug-gawk/2022-08/msg00023.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4156
     - https://www.cve.org/CVERecord?id=CVE-2023-4156
   - VulnerabilityID: CVE-2023-29499
@@ -958,8 +968,13 @@
     - https://access.redhat.com/security/cve/CVE-2023-22049
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2219727
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2221645
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2221647
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049
     - https://errata.almalinux.org/9/ALSA-2023-4178.html
+    - https://errata.rockylinux.org/RLSA-2023:4176
     - https://linux.oracle.com/cve/CVE-2023-22049.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-22049
@@ -1030,8 +1045,13 @@
     - https://access.redhat.com/security/cve/CVE-2023-22045
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2219727
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2221645
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2221647
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049
     - https://errata.almalinux.org/9/ALSA-2023-4178.html
+    - https://errata.rockylinux.org/RLSA-2023:4176
     - https://linux.oracle.com/cve/CVE-2023-22045.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-22045
@@ -1097,9 +1117,15 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L
         V3Score: 4.4
     References:
+    - https://access.redhat.com/errata/RHSA-2023:4524
     - https://access.redhat.com/security/cve/CVE-2023-2603
+    - https://bugzilla.redhat.com/2209113
+    - https://bugzilla.redhat.com/2209114
     - https://bugzilla.redhat.com/show_bug.cgi?id=2209113
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2603
+    - https://errata.almalinux.org/8/ALSA-2023-4524.html
+    - https://linux.oracle.com/cve/CVE-2023-2603.html
+    - https://linux.oracle.com/errata/ELSA-2023-4524.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2603
     - https://sites.google.com/site/fullycapable/release-notes-for-libcap#h.iuvg7sbjg8pe
     - https://ubuntu.com/security/notices/USN-6166-1
@@ -1132,9 +1158,15 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.3
     References:
+    - https://access.redhat.com/errata/RHSA-2023:4524
     - https://access.redhat.com/security/cve/CVE-2023-2602
+    - https://bugzilla.redhat.com/2209113
+    - https://bugzilla.redhat.com/2209114
     - https://bugzilla.redhat.com/show_bug.cgi?id=2209114
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2602
+    - https://errata.almalinux.org/8/ALSA-2023-4524.html
+    - https://linux.oracle.com/cve/CVE-2023-2602.html
+    - https://linux.oracle.com/errata/ELSA-2023-4524.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2602
     - https://sites.google.com/site/fullycapable/release-notes-for-libcap#h.iuvg7sbjg8pe
     - https://ubuntu.com/security/notices/USN-6166-1
@@ -1166,10 +1198,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2023:4523
     - https://access.redhat.com/security/cve/CVE-2023-27536
+    - https://bugzilla.redhat.com/2179092
+    - https://bugzilla.redhat.com/2196786
     - https://curl.se/docs/CVE-2023-27536.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27536
+    - https://errata.almalinux.org/8/ALSA-2023-4523.html
     - https://hackerone.com/reports/1895135
+    - https://linux.oracle.com/cve/CVE-2023-27536.html
+    - https://linux.oracle.com/errata/ELSA-2023-4523.html
     - https://lists.debian.org/debian-lts-announce/2023/04/msg00025.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/36NBD5YLJXXEDZLDGNFCERWRYJQ6LAQW/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27536
@@ -1217,7 +1255,7 @@
     - https://errata.almalinux.org/9/ALSA-2023-4354.html
     - https://hackerone.com/reports/1950627
     - https://linux.oracle.com/cve/CVE-2023-28321.html
-    - https://linux.oracle.com/errata/ELSA-2023-4354.html
+    - https://linux.oracle.com/errata/ELSA-2023-4523.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/F4I75RDGX5ULSSCBE5BF3P5I5SFO7ULQ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z2LIWHWKOVH24COGGBCVOWDXXIUPKOMK/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28321
@@ -1475,7 +1513,7 @@
     Description: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack consumption in demangle_const, as demonstrated by nm-new.
     Severity: LOW
     CweIDs:
-    - CWE-400
+    - CWE-674
     CVSS:
       nvd:
         V2Vector: AV:N/AC:M/Au:N/C:N/I:N/A:P
@@ -1496,7 +1534,7 @@
     - https://sourceware.org/bugzilla/show_bug.cgi?id=28995
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:00Z'
-    LastModifiedDate: '2022-12-22T20:29:00Z'
+    LastModifiedDate: '2023-08-08T14:22:00Z'
   - VulnerabilityID: CVE-2022-3857
     PkgID: libpng@1.6.37-12.el9.x86_64
     PkgName: libpng
@@ -1542,7 +1580,7 @@
     Description: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack consumption in demangle_const, as demonstrated by nm-new.
     Severity: LOW
     CweIDs:
-    - CWE-400
+    - CWE-674
     CVSS:
       nvd:
         V2Vector: AV:N/AC:M/Au:N/C:N/I:N/A:P
@@ -1563,7 +1601,7 @@
     - https://sourceware.org/bugzilla/show_bug.cgi?id=28995
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:00Z'
-    LastModifiedDate: '2022-12-22T20:29:00Z'
+    LastModifiedDate: '2023-08-08T14:22:00Z'
   - VulnerabilityID: CVE-2023-28484
     VendorIDs:
     - RHSA-2023:4349
@@ -1601,7 +1639,7 @@
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/491
     - https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2.10.4
     - https://linux.oracle.com/cve/CVE-2023-28484.html
-    - https://linux.oracle.com/errata/ELSA-2023-4349.html
+    - https://linux.oracle.com/errata/ELSA-2023-4529.html
     - https://lists.debian.org/debian-lts-announce/2023/04/msg00031.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28484
     - https://security.netapp.com/advisory/ntap-20230601-0006/
@@ -1645,7 +1683,7 @@
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/510
     - https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2.10.4
     - https://linux.oracle.com/cve/CVE-2023-29469.html
-    - https://linux.oracle.com/errata/ELSA-2023-4349.html
+    - https://linux.oracle.com/errata/ELSA-2023-4529.html
     - https://lists.debian.org/debian-lts-announce/2023/04/msg00031.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-29469
     - https://security.netapp.com/advisory/ntap-20230601-0006/
@@ -2029,46 +2067,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:00Z'
     LastModifiedDate: '2023-02-28T19:49:00Z'
-  - VulnerabilityID: CVE-2021-27212
-    PkgID: openldap@2.6.2-3.el9.x86_64
-    PkgName: openldap
-    InstalledVersion: 2.6.2-3.el9
-    Status: affected
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-27212
-    Title: Assertion failure in slapd in the issuerAndThisUpdateCheck function
-    Description: In OpenLDAP through 2.4.57 and 2.5.x through 2.5.1alpha, an assertion failure in slapd can occur in the issuerAndThisUpdateCheck function via a crafted packet, resulting in a denial of service (daemon exit) via a short timestamp. This is related to schema_init.c and checkTime.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-617
-    CVSS:
-      nvd:
-        V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V2Score: 5
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2021-27212
-    - https://bugs.openldap.org/show_bug.cgi?id=9454
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-27212
-    - https://git.openldap.org/openldap/openldap/-/commit/3539fc33212b528c56b716584f2c2994af7c30b0
-    - https://git.openldap.org/openldap/openldap/-/commit/9badb73425a67768c09bcaed1a9c26c684af6c30
-    - https://lists.apache.org/thread.html/r58af02e294bd07f487e2c64ffc0a29b837db5600e33b6e698b9d696b@%3Cissues.bookkeeper.apache.org%3E
-    - https://lists.apache.org/thread.html/rf4c02775860db415b4955778a131c2795223f61cb8c6a450893651e4@%3Cissues.bookkeeper.apache.org%3E
-    - https://lists.debian.org/debian-lts-announce/2021/02/msg00035.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2021-27212
-    - https://security.netapp.com/advisory/ntap-20210319-0005/
-    - https://ubuntu.com/security/notices/USN-4744-1
-    - https://www.cve.org/CVERecord?id=CVE-2021-27212
-    - https://www.debian.org/security/2021/dsa-4860
-    PublishedDate: '2021-02-14T03:15:00Z'
-    LastModifiedDate: '2021-09-13T19:46:00Z'
   - VulnerabilityID: CVE-2023-2953
     PkgID: openldap@2.6.2-3.el9.x86_64
     PkgName: openldap
@@ -2107,46 +2105,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-2953
     PublishedDate: '2023-05-30T22:15:00Z'
     LastModifiedDate: '2023-08-02T16:46:00Z'
-  - VulnerabilityID: CVE-2021-27212
-    PkgID: openldap-compat@2.6.2-3.el9.x86_64
-    PkgName: openldap-compat
-    InstalledVersion: 2.6.2-3.el9
-    Status: affected
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-27212
-    Title: Assertion failure in slapd in the issuerAndThisUpdateCheck function
-    Description: In OpenLDAP through 2.4.57 and 2.5.x through 2.5.1alpha, an assertion failure in slapd can occur in the issuerAndThisUpdateCheck function via a crafted packet, resulting in a denial of service (daemon exit) via a short timestamp. This is related to schema_init.c and checkTime.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-617
-    CVSS:
-      nvd:
-        V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V2Score: 5
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2021-27212
-    - https://bugs.openldap.org/show_bug.cgi?id=9454
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-27212
-    - https://git.openldap.org/openldap/openldap/-/commit/3539fc33212b528c56b716584f2c2994af7c30b0
-    - https://git.openldap.org/openldap/openldap/-/commit/9badb73425a67768c09bcaed1a9c26c684af6c30
-    - https://lists.apache.org/thread.html/r58af02e294bd07f487e2c64ffc0a29b837db5600e33b6e698b9d696b@%3Cissues.bookkeeper.apache.org%3E
-    - https://lists.apache.org/thread.html/rf4c02775860db415b4955778a131c2795223f61cb8c6a450893651e4@%3Cissues.bookkeeper.apache.org%3E
-    - https://lists.debian.org/debian-lts-announce/2021/02/msg00035.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2021-27212
-    - https://security.netapp.com/advisory/ntap-20210319-0005/
-    - https://ubuntu.com/security/notices/USN-4744-1
-    - https://www.cve.org/CVERecord?id=CVE-2021-27212
-    - https://www.debian.org/security/2021/dsa-4860
-    PublishedDate: '2021-02-14T03:15:00Z'
-    LastModifiedDate: '2021-09-13T19:46:00Z'
   - VulnerabilityID: CVE-2023-2953
     PkgID: openldap-compat@2.6.2-3.el9.x86_64
     PkgName: openldap-compat
@@ -2348,7 +2306,12 @@
 
       The OpenSSL 3.0 and 3.1 FIPS providers are not affected by this issue.
     Severity: LOW
+    CweIDs:
+    - CWE-834
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
@@ -2365,7 +2328,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:00Z'
-    LastModifiedDate: '2023-08-01T11:15:00Z'
+    LastModifiedDate: '2023-08-08T19:04:00Z'
   - VulnerabilityID: CVE-2023-2975
     PkgID: openssl-libs@3.0.7-16.el9_2.x86_64
     PkgName: openssl-libs
@@ -2529,7 +2492,12 @@
 
       The OpenSSL 3.0 and 3.1 FIPS providers are not affected by this issue.
     Severity: LOW
+    CweIDs:
+    - CWE-834
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
@@ -2546,7 +2514,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:00Z'
-    LastModifiedDate: '2023-08-01T11:15:00Z'
+    LastModifiedDate: '2023-08-08T19:04:00Z'
   - VulnerabilityID: CVE-2007-4559
     PkgID: python-unversioned-command@3.9.16-1.el9_2.1.noarch
     PkgName: python-unversioned-command
@@ -2702,7 +2670,7 @@
     PkgID: python-unversioned-command@3.9.16-1.el9_2.1.noarch
     PkgName: python-unversioned-command
     InstalledVersion: 3.9.16-1.el9_2.1
-    Status: affected
+    Status: will_not_fix
     Layer:
       Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
       DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
@@ -2920,7 +2888,7 @@
     PkgID: python3@3.9.16-1.el9_2.1.x86_64
     PkgName: python3
     InstalledVersion: 3.9.16-1.el9_2.1
-    Status: affected
+    Status: will_not_fix
     Layer:
       Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
       DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
@@ -3138,7 +3106,7 @@
     PkgID: python3-libs@3.9.16-1.el9_2.1.x86_64
     PkgName: python3-libs
     InstalledVersion: 3.9.16-1.el9_2.1
-    Status: affected
+    Status: will_not_fix
     Layer:
       Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
       DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
