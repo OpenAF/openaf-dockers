@@ -260,6 +260,35 @@
     - https://www.secfu.net/advisories
     PublishedDate: '2017-05-01T01:59:00Z'
     LastModifiedDate: '2020-07-29T12:15:00Z'
+  - VulnerabilityID: CVE-2023-32360
+    PkgID: cups-libs@2.3.3op2-16.el9.x86_64
+    PkgName: cups-libs
+    InstalledVersion: 1:2.3.3op2-16.el9
+    Status: affected
+    Layer:
+      Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
+      DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-32360
+    Title: Information leak through Cups-Get-Document operation
+    Description: An authentication issue was addressed with improved state management. This issue is fixed in macOS Big Sur 11.7.7, macOS Monterey 12.6.6, macOS Ventura 13.4. An unauthenticated user may be able to access recently printed documents.
+    Severity: HIGH
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-32360
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-32360
+    - https://support.apple.com/en-us/HT213758
+    - https://support.apple.com/en-us/HT213759
+    - https://support.apple.com/en-us/HT213760
+    - https://www.cve.org/CVERecord?id=CVE-2023-32360
+    PublishedDate: '2023-06-23T18:15:00Z'
+    LastModifiedDate: '2023-07-27T04:15:00Z'
   - VulnerabilityID: CVE-2023-32324
     PkgID: cups-libs@2.3.3op2-16.el9.x86_64
     PkgName: cups-libs
