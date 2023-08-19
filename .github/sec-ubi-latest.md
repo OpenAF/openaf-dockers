@@ -1251,10 +1251,11 @@
                         │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6272-1 
                         │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2023-22049 
                         │      │                  ├ [18]: https://www.debian.org/security/2023/dsa-5458 
-                        │      │                  ╰ [19]: https://www.oracle.com/security-alerts/cpujul202
+                        │      │                  ├ [19]: https://www.debian.org/security/2023/dsa-5478 
+                        │      │                  ╰ [20]: https://www.oracle.com/security-alerts/cpujul202
                         │      │                          3.html 
                         │      ├ PublishedDate   : 2023-07-18T21:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-07-27T17:34:00Z 
+                        │      ╰ LastModifiedDate: 2023-08-17T19:15:00Z 
                         ├ [30] ╭ VulnerabilityID : CVE-2022-3857 
                         │      ├ PkgID           : java-1.8.0-openjdk-headless@1.8.0.372.b07-2.el9.x86_64 
                         │      ├ PkgName         : java-1.8.0-openjdk-headless 
@@ -1353,10 +1354,11 @@
                         │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6272-1 
                         │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2023-22045 
                         │      │                  ├ [18]: https://www.debian.org/security/2023/dsa-5458 
-                        │      │                  ╰ [19]: https://www.oracle.com/security-alerts/cpujul202
+                        │      │                  ├ [19]: https://www.debian.org/security/2023/dsa-5478 
+                        │      │                  ╰ [20]: https://www.oracle.com/security-alerts/cpujul202
                         │      │                          3.html 
                         │      ├ PublishedDate   : 2023-07-18T21:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-07-27T17:34:00Z 
+                        │      ╰ LastModifiedDate: 2023-08-17T19:15:00Z 
                         ├ [32] ╭ VulnerabilityID : CVE-2023-30571 
                         │      ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
                         │      ├ PkgName         : libarchive 
