@@ -1419,8 +1419,8 @@
                         │      │                  │        │           H/I:H/A:H 
                         │      │                  │        ╰ V3Score : 7.8 
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-                        │      │                           │           N/I:L/A:L 
-                        │      │                           ╰ V3Score : 4.4 
+                        │      │                           │           L/I:H/A:H 
+                        │      │                           ╰ V3Score : 7.3 
                         │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4524 
                         │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-2603 
                         │      │                  ├ [2] : https://bugzilla.redhat.com/2209113 
