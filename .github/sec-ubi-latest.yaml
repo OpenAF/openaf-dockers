@@ -601,44 +601,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-27538
     PublishedDate: '2023-03-30T20:15:00Z'
     LastModifiedDate: '2023-04-21T23:15:00Z'
-  - VulnerabilityID: CVE-2023-28320
-    PkgID: curl-minimal@7.76.1-23.el9_2.1.x86_64
-    PkgName: curl-minimal
-    InstalledVersion: 7.76.1-23.el9_2.1
-    Status: affected
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-28320
-    Title: siglongjmp race condition may lead to crash
-    Description: A denial of service vulnerability exists in curl <v8.1.0 in the way libcurl provides several different backends for resolving host names, selected at build time. If it is built to use the synchronous resolver, it allows name resolves to time-out slow operations using `alarm()` and `siglongjmp()`. When doing this, libcurl used a global buffer that was not mutex protected and a multi-threaded application might therefore crash or otherwise misbehave.
-    Severity: LOW
-    CweIDs:
-    - CWE-362
-    - CWE-400
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.9
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 3.7
-    References:
-    - http://seclists.org/fulldisclosure/2023/Jul/47
-    - http://seclists.org/fulldisclosure/2023/Jul/48
-    - http://seclists.org/fulldisclosure/2023/Jul/52
-    - https://access.redhat.com/security/cve/CVE-2023-28320
-    - https://curl.se/docs/CVE-2023-28320.html
-    - https://hackerone.com/reports/1929597
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-28320
-    - https://security.netapp.com/advisory/ntap-20230609-0009/
-    - https://support.apple.com/kb/HT213843
-    - https://support.apple.com/kb/HT213844
-    - https://support.apple.com/kb/HT213845
-    - https://www.cve.org/CVERecord?id=CVE-2023-28320
-    PublishedDate: '2023-05-26T21:15:00Z'
-    LastModifiedDate: '2023-08-02T16:46:00Z'
   - VulnerabilityID: CVE-2023-28322
     VendorIDs:
     - RHSA-2023:4354
@@ -1012,9 +974,10 @@
     - https://ubuntu.com/security/notices/USN-6272-1
     - https://www.cve.org/CVERecord?id=CVE-2023-22049
     - https://www.debian.org/security/2023/dsa-5458
+    - https://www.debian.org/security/2023/dsa-5478
     - https://www.oracle.com/security-alerts/cpujul2023.html
     PublishedDate: '2023-07-18T21:15:00Z'
-    LastModifiedDate: '2023-07-27T17:34:00Z'
+    LastModifiedDate: '2023-08-17T19:15:00Z'
   - VulnerabilityID: CVE-2022-3857
     PkgID: java-1.8.0-openjdk-headless@1.8.0.372.b07-2.el9.x86_64
     PkgName: java-1.8.0-openjdk-headless
@@ -1089,9 +1052,65 @@
     - https://ubuntu.com/security/notices/USN-6272-1
     - https://www.cve.org/CVERecord?id=CVE-2023-22045
     - https://www.debian.org/security/2023/dsa-5458
+    - https://www.debian.org/security/2023/dsa-5478
     - https://www.oracle.com/security-alerts/cpujul2023.html
     PublishedDate: '2023-07-18T21:15:00Z'
-    LastModifiedDate: '2023-07-27T17:34:00Z'
+    LastModifiedDate: '2023-08-17T19:15:00Z'
+  - VulnerabilityID: CVE-2023-36054
+    PkgID: krb5-libs@1.20.1-9.el9_2.x86_64
+    PkgName: krb5-libs
+    InstalledVersion: 1.20.1-9.el9_2
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36054
+    Title: Denial of service through freeing uninitialized pointer
+    Description: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 and 1.21.x before 1.21.1 frees an uninitialized pointer. A remote authenticated user can trigger a kadmind crash. This occurs because _xdr_kadm5_principal_ent_rec does not validate the relationship between n_key_data and the key_data array count.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-824
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-36054
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-36054
+    - https://github.com/krb5/krb5/commit/ef08b09c9459551aabbe7924fb176f1583053cdd
+    - https://github.com/krb5/krb5/compare/krb5-1.20.1-final...krb5-1.20.2-final
+    - https://github.com/krb5/krb5/compare/krb5-1.21-final...krb5-1.21.1-final
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-36054
+    - https://web.mit.edu/kerberos/www/advisories/
+    - https://www.cve.org/CVERecord?id=CVE-2023-36054
+    PublishedDate: '2023-08-07T19:15:00Z'
+    LastModifiedDate: '2023-08-15T17:57:00Z'
+  - VulnerabilityID: CVE-2023-39975
+    PkgID: krb5-libs@1.20.1-9.el9_2.x86_64
+    PkgName: krb5-libs
+    InstalledVersion: 1.20.1-9.el9_2
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39975
+    Title: double-free in KDC TGS processing
+    Description: kdc/do_tgs_req.c in MIT Kerberos 5 (aka krb5) 1.21 before 1.21.2 has a double free that is reachable if an authenticated user can trigger an authorization-data handling failure. Incorrect data is copied from one ticket to another.
+    Severity: MEDIUM
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-39975
+    - https://github.com/krb5/krb5/commit/88a1701b423c13991a8064feeb26952d3641d840
+    - https://github.com/krb5/krb5/compare/krb5-1.21.1-final...krb5-1.21.2-final
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-39975
+    - https://web.mit.edu/kerberos/www/advisories/
+    - https://www.cve.org/CVERecord?id=CVE-2023-39975
+    PublishedDate: '2023-08-16T15:15:00Z'
+    LastModifiedDate: '2023-08-16T15:16:00Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -1116,7 +1135,6 @@
         V3Score: 5.3
     References:
     - https://access.redhat.com/security/cve/CVE-2023-30571
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-30571
     - https://github.com/libarchive/libarchive/issues/1876
     - https://groups.google.com/g/libarchive-announce
     - https://nvd.nist.gov/vuln/detail/CVE-2023-30571
@@ -1143,8 +1161,8 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L
-        V3Score: 4.4
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:H
+        V3Score: 7.3
     References:
     - https://access.redhat.com/errata/RHSA-2023:4524
     - https://access.redhat.com/security/cve/CVE-2023-2603
@@ -1401,44 +1419,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-27538
     PublishedDate: '2023-03-30T20:15:00Z'
     LastModifiedDate: '2023-04-21T23:15:00Z'
-  - VulnerabilityID: CVE-2023-28320
-    PkgID: libcurl-minimal@7.76.1-23.el9_2.1.x86_64
-    PkgName: libcurl-minimal
-    InstalledVersion: 7.76.1-23.el9_2.1
-    Status: affected
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-28320
-    Title: siglongjmp race condition may lead to crash
-    Description: A denial of service vulnerability exists in curl <v8.1.0 in the way libcurl provides several different backends for resolving host names, selected at build time. If it is built to use the synchronous resolver, it allows name resolves to time-out slow operations using `alarm()` and `siglongjmp()`. When doing this, libcurl used a global buffer that was not mutex protected and a multi-threaded application might therefore crash or otherwise misbehave.
-    Severity: LOW
-    CweIDs:
-    - CWE-362
-    - CWE-400
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.9
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 3.7
-    References:
-    - http://seclists.org/fulldisclosure/2023/Jul/47
-    - http://seclists.org/fulldisclosure/2023/Jul/48
-    - http://seclists.org/fulldisclosure/2023/Jul/52
-    - https://access.redhat.com/security/cve/CVE-2023-28320
-    - https://curl.se/docs/CVE-2023-28320.html
-    - https://hackerone.com/reports/1929597
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-28320
-    - https://security.netapp.com/advisory/ntap-20230609-0009/
-    - https://support.apple.com/kb/HT213843
-    - https://support.apple.com/kb/HT213844
-    - https://support.apple.com/kb/HT213845
-    - https://www.cve.org/CVERecord?id=CVE-2023-28320
-    PublishedDate: '2023-05-26T21:15:00Z'
-    LastModifiedDate: '2023-08-02T16:46:00Z'
   - VulnerabilityID: CVE-2023-28322
     VendorIDs:
     - RHSA-2023:4354
@@ -1673,6 +1653,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28484
     - https://security.netapp.com/advisory/ntap-20230601-0006/
     - https://ubuntu.com/security/notices/USN-6028-1
+    - https://ubuntu.com/security/notices/USN-6028-2
     - https://www.cve.org/CVERecord?id=CVE-2023-28484
     PublishedDate: '2023-04-24T21:15:00Z'
     LastModifiedDate: '2023-06-01T14:15:00Z'
@@ -1717,6 +1698,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-29469
     - https://security.netapp.com/advisory/ntap-20230601-0006/
     - https://ubuntu.com/security/notices/USN-6028-1
+    - https://ubuntu.com/security/notices/USN-6028-2
     - https://www.cve.org/CVERecord?id=CVE-2023-29469
     PublishedDate: '2023-04-24T21:15:00Z'
     LastModifiedDate: '2023-06-01T14:15:00Z'
@@ -2289,12 +2271,13 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=8780a896543a654e757db1b9396383f9d8095528
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9a0a4d3c1e7138915563c0df4fe6a3f9377b839c
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=fc9867c1e03c22ebf56943be205202e576aabf23
+    - https://lists.debian.org/debian-lts-announce/2023/08/msg00019.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3446
     - https://security.netapp.com/advisory/ntap-20230803-0011/
     - https://www.cve.org/CVERecord?id=CVE-2023-3446
     - https://www.openssl.org/news/secadv/20230719.txt
     PublishedDate: '2023-07-19T12:15:00Z'
-    LastModifiedDate: '2023-08-03T15:15:00Z'
+    LastModifiedDate: '2023-08-16T08:15:00Z'
   - VulnerabilityID: CVE-2023-3817
     PkgID: openssl@3.0.7-16.el9_2.x86_64
     PkgName: openssl
@@ -2353,11 +2336,13 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=869ad69aadd985c7b8ca6f4e5dd0eb274c9f3644
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9002fd07327a91f35ba6c1307e71fa6fd4409b7f
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=91ddeba0f2269b017dc06c46c993a788974b1aa5
+    - https://lists.debian.org/debian-lts-announce/2023/08/msg00019.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3817
+    - https://security.netapp.com/advisory/ntap-20230818-0014/
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:00Z'
-    LastModifiedDate: '2023-08-08T19:04:00Z'
+    LastModifiedDate: '2023-08-18T14:15:00Z'
   - VulnerabilityID: CVE-2023-2975
     PkgID: openssl-libs@3.0.7-16.el9_2.x86_64
     PkgName: openssl-libs
@@ -2475,12 +2460,13 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=8780a896543a654e757db1b9396383f9d8095528
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9a0a4d3c1e7138915563c0df4fe6a3f9377b839c
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=fc9867c1e03c22ebf56943be205202e576aabf23
+    - https://lists.debian.org/debian-lts-announce/2023/08/msg00019.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3446
     - https://security.netapp.com/advisory/ntap-20230803-0011/
     - https://www.cve.org/CVERecord?id=CVE-2023-3446
     - https://www.openssl.org/news/secadv/20230719.txt
     PublishedDate: '2023-07-19T12:15:00Z'
-    LastModifiedDate: '2023-08-03T15:15:00Z'
+    LastModifiedDate: '2023-08-16T08:15:00Z'
   - VulnerabilityID: CVE-2023-3817
     PkgID: openssl-libs@3.0.7-16.el9_2.x86_64
     PkgName: openssl-libs
@@ -2539,11 +2525,13 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=869ad69aadd985c7b8ca6f4e5dd0eb274c9f3644
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9002fd07327a91f35ba6c1307e71fa6fd4409b7f
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=91ddeba0f2269b017dc06c46c993a788974b1aa5
+    - https://lists.debian.org/debian-lts-announce/2023/08/msg00019.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3817
+    - https://security.netapp.com/advisory/ntap-20230818-0014/
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:00Z'
-    LastModifiedDate: '2023-08-08T19:04:00Z'
+    LastModifiedDate: '2023-08-18T14:15:00Z'
   - VulnerabilityID: CVE-2007-4559
     PkgID: python-unversioned-command@3.9.16-1.el9_2.1.noarch
     PkgName: python-unversioned-command
