@@ -742,52 +742,7 @@
                         │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27538 
                         │      ├ PublishedDate   : 2023-03-30T20:15:00Z 
                         │      ╰ LastModifiedDate: 2023-04-21T23:15:00Z 
-                        ├ [18] ╭ VulnerabilityID : CVE-2023-28320 
-                        │      ├ PkgID           : curl-minimal@7.76.1-23.el9_2.1.x86_64 
-                        │      ├ PkgName         : curl-minimal 
-                        │      ├ InstalledVersion: 7.76.1-23.el9_2.1 
-                        │      ├ Status          : affected 
-                        │      ├ Layer            ╭ Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc5
-                        │      │                  │         34cc313627f8113246276bf0f 
-                        │      │                  ╰ DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7
-                        │      │                            e8e7055ef62d24ba202202e19 
-                        │      ├ SeveritySource  : redhat 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-28320 
-                        │      ├ Title           : siglongjmp race condition may lead to crash 
-                        │      ├ Description     : A denial of service vulnerability exists in curl
-                        │      │                   <v8.1.0 in the way libcurl provides several different
-                        │      │                   backends for resolving host names, selected at build time.
-                        │      │                   If it is built to use the synchronous resolver, it allows
-                        │      │                   name resolves to time-out slow operations using `alarm()`
-                        │      │                   and `siglongjmp()`. When doing this, libcurl used a global
-                        │      │                   buffer that was not mutex protected and a multi-threaded
-                        │      │                   application might therefore crash or otherwise
-                        │      │                   misbehave. 
-                        │      ├ Severity        : LOW 
-                        │      ├ CweIDs           ╭ [0]: CWE-362 
-                        │      │                  ╰ [1]: CWE-400 
-                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
-                        │      │                  │        │           N/I:N/A:H 
-                        │      │                  │        ╰ V3Score : 5.9 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
-                        │      │                           │           N/I:N/A:L 
-                        │      │                           ╰ V3Score : 3.7 
-                        │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/47 
-                        │      │                  ├ [1] : http://seclists.org/fulldisclosure/2023/Jul/48 
-                        │      │                  ├ [2] : http://seclists.org/fulldisclosure/2023/Jul/52 
-                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-28320 
-                        │      │                  ├ [4] : https://curl.se/docs/CVE-2023-28320.html 
-                        │      │                  ├ [5] : https://hackerone.com/reports/1929597 
-                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-28320 
-                        │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-202306
-                        │      │                  │       09-0009/ 
-                        │      │                  ├ [8] : https://support.apple.com/kb/HT213843 
-                        │      │                  ├ [9] : https://support.apple.com/kb/HT213844 
-                        │      │                  ├ [10]: https://support.apple.com/kb/HT213845 
-                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-28320 
-                        │      ├ PublishedDate   : 2023-05-26T21:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-08-02T16:46:00Z 
-                        ├ [19] ╭ VulnerabilityID : CVE-2023-28322 
+                        ├ [18] ╭ VulnerabilityID : CVE-2023-28322 
                         │      ├ VendorIDs        ─ [0]: RHSA-2023:4354 
                         │      ├ PkgID           : curl-minimal@7.76.1-23.el9_2.1.x86_64 
                         │      ├ PkgName         : curl-minimal 
@@ -849,7 +804,7 @@
                         │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2023-28322 
                         │      ├ PublishedDate   : 2023-05-26T21:15:00Z 
                         │      ╰ LastModifiedDate: 2023-08-02T16:46:00Z 
-                        ├ [20] ╭ VulnerabilityID : CVE-2023-34969 
+                        ├ [19] ╭ VulnerabilityID : CVE-2023-34969 
                         │      ├ VendorIDs        ─ [0]: RHSA-2023:4569 
                         │      ├ PkgID           : dbus-libs@1.12.20-7.el9_1.x86_64 
                         │      ├ PkgName         : dbus-libs 
@@ -898,7 +853,7 @@
                         │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
                         │      ├ PublishedDate   : 2023-06-08T03:15:00Z 
                         │      ╰ LastModifiedDate: 2023-06-24T03:15:00Z 
-                        ├ [21] ╭ VulnerabilityID : CVE-2023-4156 
+                        ├ [20] ╭ VulnerabilityID : CVE-2023-4156 
                         │      ├ PkgID           : gawk@5.1.0-6.el9.x86_64 
                         │      ├ PkgName         : gawk 
                         │      ├ InstalledVersion: 5.1.0-6.el9 
@@ -929,7 +884,7 @@
                         │                         │      8/msg00023.html 
                         │                         ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-4156 
                         │                         ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4156 
-                        ├ [22] ╭ VulnerabilityID : CVE-2023-29499 
+                        ├ [21] ╭ VulnerabilityID : CVE-2023-29499 
                         │      ├ PkgID           : glib2@2.68.4-6.el9.x86_64 
                         │      ├ PkgName         : glib2 
                         │      ├ InstalledVersion: 2.68.4-6.el9 
@@ -956,7 +911,7 @@
                         │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-29499 
                         │                         ├ [4]: https://ubuntu.com/security/notices/USN-6165-1 
                         │                         ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-29499 
-                        ├ [23] ╭ VulnerabilityID : CVE-2023-32611 
+                        ├ [22] ╭ VulnerabilityID : CVE-2023-32611 
                         │      ├ PkgID           : glib2@2.68.4-6.el9.x86_64 
                         │      ├ PkgName         : glib2 
                         │      ├ InstalledVersion: 2.68.4-6.el9 
@@ -984,7 +939,7 @@
                         │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-32611 
                         │                         ├ [4]: https://ubuntu.com/security/notices/USN-6165-1 
                         │                         ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-32611 
-                        ├ [24] ╭ VulnerabilityID : CVE-2023-32636 
+                        ├ [23] ╭ VulnerabilityID : CVE-2023-32636 
                         │      ├ PkgID           : glib2@2.68.4-6.el9.x86_64 
                         │      ├ PkgName         : glib2 
                         │      ├ InstalledVersion: 2.68.4-6.el9 
@@ -1007,7 +962,7 @@
                         │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-32636 
                         │                         ├ [3]: https://ubuntu.com/security/notices/USN-6165-1 
                         │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-32636 
-                        ├ [25] ╭ VulnerabilityID : CVE-2023-32665 
+                        ├ [24] ╭ VulnerabilityID : CVE-2023-32665 
                         │      ├ PkgID           : glib2@2.68.4-6.el9.x86_64 
                         │      ├ PkgName         : glib2 
                         │      ├ InstalledVersion: 2.68.4-6.el9 
@@ -1035,7 +990,7 @@
                         │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-32665 
                         │                         ├ [4]: https://ubuntu.com/security/notices/USN-6165-1 
                         │                         ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-32665 
-                        ├ [26] ╭ VulnerabilityID : CVE-2021-43618 
+                        ├ [25] ╭ VulnerabilityID : CVE-2021-43618 
                         │      ├ PkgID           : gmp@6.2.0-10.el9.x86_64 
                         │      ├ PkgName         : gmp 
                         │      ├ InstalledVersion: 1:6.2.0-10.el9 
@@ -1082,7 +1037,7 @@
                         │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2021-43618 
                         │      ├ PublishedDate   : 2021-11-15T04:15:00Z 
                         │      ╰ LastModifiedDate: 2022-12-08T22:15:00Z 
-                        ├ [27] ╭ VulnerabilityID : CVE-2022-3219 
+                        ├ [26] ╭ VulnerabilityID : CVE-2022-3219 
                         │      ├ PkgID           : gnupg2@2.3.3-2.el9_0.x86_64 
                         │      ├ PkgName         : gnupg2 
                         │      ├ InstalledVersion: 2.3.3-2.el9_0 
@@ -1121,7 +1076,7 @@
                         │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
                         │      ├ PublishedDate   : 2023-02-23T20:15:00Z 
                         │      ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
-                        ├ [28] ╭ VulnerabilityID : CVE-2023-25193 
+                        ├ [27] ╭ VulnerabilityID : CVE-2023-25193 
                         │      ├ PkgID           : harfbuzz@2.7.4-8.el9.x86_64 
                         │      ├ PkgName         : harfbuzz 
                         │      ├ InstalledVersion: 2.7.4-8.el9 
@@ -1185,7 +1140,7 @@
                         │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2023-25193 
                         │      ├ PublishedDate   : 2023-02-04T20:15:00Z 
                         │      ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
-                        ├ [29] ╭ VulnerabilityID : CVE-2023-22049 
+                        ├ [28] ╭ VulnerabilityID : CVE-2023-22049 
                         │      ├ VendorIDs        ─ [0]: RHSA-2023:4178 
                         │      ├ PkgID           : java-1.8.0-openjdk-headless@1.8.0.372.b07-2.el9.x86_64 
                         │      ├ PkgName         : java-1.8.0-openjdk-headless 
@@ -1256,7 +1211,7 @@
                         │      │                          3.html 
                         │      ├ PublishedDate   : 2023-07-18T21:15:00Z 
                         │      ╰ LastModifiedDate: 2023-08-17T19:15:00Z 
-                        ├ [30] ╭ VulnerabilityID : CVE-2022-3857 
+                        ├ [29] ╭ VulnerabilityID : CVE-2022-3857 
                         │      ├ PkgID           : java-1.8.0-openjdk-headless@1.8.0.372.b07-2.el9.x86_64 
                         │      ├ PkgName         : java-1.8.0-openjdk-headless 
                         │      ├ InstalledVersion: 1:1.8.0.372.b07-2.el9 
@@ -1289,7 +1244,7 @@
                         │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-3857 
                         │      ├ PublishedDate   : 2023-03-06T23:15:00Z 
                         │      ╰ LastModifiedDate: 2023-04-06T13:15:00Z 
-                        ├ [31] ╭ VulnerabilityID : CVE-2023-22045 
+                        ├ [30] ╭ VulnerabilityID : CVE-2023-22045 
                         │      ├ VendorIDs        ─ [0]: RHSA-2023:4178 
                         │      ├ PkgID           : java-1.8.0-openjdk-headless@1.8.0.372.b07-2.el9.x86_64 
                         │      ├ PkgName         : java-1.8.0-openjdk-headless 
@@ -1359,7 +1314,76 @@
                         │      │                          3.html 
                         │      ├ PublishedDate   : 2023-07-18T21:15:00Z 
                         │      ╰ LastModifiedDate: 2023-08-17T19:15:00Z 
-                        ├ [32] ╭ VulnerabilityID : CVE-2023-30571 
+                        ├ [31] ╭ VulnerabilityID : CVE-2023-36054 
+                        │      ├ PkgID           : krb5-libs@1.20.1-9.el9_2.x86_64 
+                        │      ├ PkgName         : krb5-libs 
+                        │      ├ InstalledVersion: 1.20.1-9.el9_2 
+                        │      ├ Status          : affected 
+                        │      ├ Layer            ╭ Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc5
+                        │      │                  │         34cc313627f8113246276bf0f 
+                        │      │                  ╰ DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7
+                        │      │                            e8e7055ef62d24ba202202e19 
+                        │      ├ SeveritySource  : redhat 
+                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-36054 
+                        │      ├ Title           : Denial of service through freeing uninitialized pointer 
+                        │      ├ Description     : lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5)
+                        │      │                   before 1.20.2 and 1.21.x before 1.21.1 frees an
+                        │      │                   uninitialized pointer. A remote authenticated user can
+                        │      │                   trigger a kadmind crash. This occurs because
+                        │      │                   _xdr_kadm5_principal_ent_rec does not validate the
+                        │      │                   relationship between n_key_data and the key_data array
+                        │      │                   count. 
+                        │      ├ Severity        : MEDIUM 
+                        │      ├ CweIDs           ─ [0]: CWE-824 
+                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
+                        │      │                  │        │           N/I:N/A:H 
+                        │      │                  │        ╰ V3Score : 6.5 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:
+                        │      │                           │           N/I:N/A:H 
+                        │      │                           ╰ V3Score : 5.7 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-36054 
+                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │      │                  │      E-2023-36054 
+                        │      │                  ├ [2]: https://github.com/krb5/krb5/commit/ef08b09c94595
+                        │      │                  │      51aabbe7924fb176f1583053cdd 
+                        │      │                  ├ [3]: https://github.com/krb5/krb5/compare/krb5-1.20.1-
+                        │      │                  │      final...krb5-1.20.2-final 
+                        │      │                  ├ [4]: https://github.com/krb5/krb5/compare/krb5-1.21-fi
+                        │      │                  │      nal...krb5-1.21.1-final 
+                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
+                        │      │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
+                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
+                        │      ├ PublishedDate   : 2023-08-07T19:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
+                        ├ [32] ╭ VulnerabilityID : CVE-2023-39975 
+                        │      ├ PkgID           : krb5-libs@1.20.1-9.el9_2.x86_64 
+                        │      ├ PkgName         : krb5-libs 
+                        │      ├ InstalledVersion: 1.20.1-9.el9_2 
+                        │      ├ Status          : affected 
+                        │      ├ Layer            ╭ Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc5
+                        │      │                  │         34cc313627f8113246276bf0f 
+                        │      │                  ╰ DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7
+                        │      │                            e8e7055ef62d24ba202202e19 
+                        │      ├ SeveritySource  : redhat 
+                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-39975 
+                        │      ├ Title           : double-free in KDC TGS processing 
+                        │      ├ Description     : kdc/do_tgs_req.c in MIT Kerberos 5 (aka krb5) 1.21
+                        │      │                   before 1.21.2 has a double free that is reachable if an
+                        │      │                   authenticated user can trigger an authorization-data
+                        │      │                   handling failure. Incorrect data is copied from one ticket
+                        │      │                   to another. 
+                        │      ├ Severity        : MEDIUM 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-39975 
+                        │      │                  ├ [1]: https://github.com/krb5/krb5/commit/88a1701b423c1
+                        │      │                  │      3991a8064feeb26952d3641d840 
+                        │      │                  ├ [2]: https://github.com/krb5/krb5/compare/krb5-1.21.1-
+                        │      │                  │      final...krb5-1.21.2-final 
+                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-39975 
+                        │      │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
+                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-39975 
+                        │      ├ PublishedDate   : 2023-08-16T15:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-08-16T15:16:00Z 
+                        ├ [33] ╭ VulnerabilityID : CVE-2023-30571 
                         │      ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
                         │      ├ PkgName         : libarchive 
                         │      ├ InstalledVersion: 3.5.3-4.el9 
@@ -1390,15 +1414,13 @@
                         │      │                           │           N/I:L/A:H 
                         │      │                           ╰ V3Score : 5.3 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-30571 
-                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-                        │      │                  │      E-2023-30571 
-                        │      │                  ├ [2]: https://github.com/libarchive/libarchive/issues/1876 
-                        │      │                  ├ [3]: https://groups.google.com/g/libarchive-announce 
-                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-30571 
-                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-30571 
+                        │      │                  ├ [1]: https://github.com/libarchive/libarchive/issues/1876 
+                        │      │                  ├ [2]: https://groups.google.com/g/libarchive-announce 
+                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-30571 
+                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-30571 
                         │      ├ PublishedDate   : 2023-05-29T20:15:00Z 
                         │      ╰ LastModifiedDate: 2023-06-05T16:40:00Z 
-                        ├ [33] ╭ VulnerabilityID : CVE-2023-2603 
+                        ├ [34] ╭ VulnerabilityID : CVE-2023-2603 
                         │      ├ PkgID           : libcap@2.48-8.el9.x86_64 
                         │      ├ PkgName         : libcap 
                         │      ├ InstalledVersion: 2.48-8.el9 
@@ -1443,7 +1465,7 @@
                         │      │                          p-Code-Review-2023-OSTIF-Final-Report.pdf 
                         │      ├ PublishedDate   : 2023-06-06T20:15:00Z 
                         │      ╰ LastModifiedDate: 2023-06-21T19:02:00Z 
-                        ├ [34] ╭ VulnerabilityID : CVE-2023-2602 
+                        ├ [35] ╭ VulnerabilityID : CVE-2023-2602 
                         │      ├ PkgID           : libcap@2.48-8.el9.x86_64 
                         │      ├ PkgName         : libcap 
                         │      ├ InstalledVersion: 2.48-8.el9 
@@ -1488,7 +1510,7 @@
                         │      │                          p-Code-Review-2023-OSTIF-Final-Report.pdf 
                         │      ├ PublishedDate   : 2023-06-06T20:15:00Z 
                         │      ╰ LastModifiedDate: 2023-06-14T18:07:00Z 
-                        ├ [35] ╭ VulnerabilityID : CVE-2023-27536 
+                        ├ [36] ╭ VulnerabilityID : CVE-2023-27536 
                         │      ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.1.x86_64 
                         │      ├ PkgName         : libcurl-minimal 
                         │      ├ InstalledVersion: 7.76.1-23.el9_2.1 
@@ -1542,7 +1564,7 @@
                         │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-27536 
                         │      ├ PublishedDate   : 2023-03-30T20:15:00Z 
                         │      ╰ LastModifiedDate: 2023-06-06T20:34:00Z 
-                        ├ [36] ╭ VulnerabilityID : CVE-2023-28321 
+                        ├ [37] ╭ VulnerabilityID : CVE-2023-28321 
                         │      ├ VendorIDs        ─ [0]: RHSA-2023:4354 
                         │      ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.1.x86_64 
                         │      ├ PkgName         : libcurl-minimal 
@@ -1609,7 +1631,7 @@
                         │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2023-28321 
                         │      ├ PublishedDate   : 2023-05-26T21:15:00Z 
                         │      ╰ LastModifiedDate: 2023-08-02T16:46:00Z 
-                        ├ [37] ╭ VulnerabilityID : CVE-2023-27533 
+                        ├ [38] ╭ VulnerabilityID : CVE-2023-27533 
                         │      ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.1.x86_64 
                         │      ├ PkgName         : libcurl-minimal 
                         │      ├ InstalledVersion: 7.76.1-23.el9_2.1 
@@ -1656,7 +1678,7 @@
                         │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-27533 
                         │      ├ PublishedDate   : 2023-03-30T20:15:00Z 
                         │      ╰ LastModifiedDate: 2023-04-21T23:15:00Z 
-                        ├ [38] ╭ VulnerabilityID : CVE-2023-27534 
+                        ├ [39] ╭ VulnerabilityID : CVE-2023-27534 
                         │      ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.1.x86_64 
                         │      ├ PkgName         : libcurl-minimal 
                         │      ├ InstalledVersion: 7.76.1-23.el9_2.1 
@@ -1700,7 +1722,7 @@
                         │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-27534 
                         │      ├ PublishedDate   : 2023-03-30T20:15:00Z 
                         │      ╰ LastModifiedDate: 2023-04-20T09:15:00Z 
-                        ├ [39] ╭ VulnerabilityID : CVE-2023-27538 
+                        ├ [40] ╭ VulnerabilityID : CVE-2023-27538 
                         │      ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.1.x86_64 
                         │      ├ PkgName         : libcurl-minimal 
                         │      ├ InstalledVersion: 7.76.1-23.el9_2.1 
@@ -1747,51 +1769,6 @@
                         │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27538 
                         │      ├ PublishedDate   : 2023-03-30T20:15:00Z 
                         │      ╰ LastModifiedDate: 2023-04-21T23:15:00Z 
-                        ├ [40] ╭ VulnerabilityID : CVE-2023-28320 
-                        │      ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.1.x86_64 
-                        │      ├ PkgName         : libcurl-minimal 
-                        │      ├ InstalledVersion: 7.76.1-23.el9_2.1 
-                        │      ├ Status          : affected 
-                        │      ├ Layer            ╭ Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc5
-                        │      │                  │         34cc313627f8113246276bf0f 
-                        │      │                  ╰ DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7
-                        │      │                            e8e7055ef62d24ba202202e19 
-                        │      ├ SeveritySource  : redhat 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-28320 
-                        │      ├ Title           : siglongjmp race condition may lead to crash 
-                        │      ├ Description     : A denial of service vulnerability exists in curl
-                        │      │                   <v8.1.0 in the way libcurl provides several different
-                        │      │                   backends for resolving host names, selected at build time.
-                        │      │                   If it is built to use the synchronous resolver, it allows
-                        │      │                   name resolves to time-out slow operations using `alarm()`
-                        │      │                   and `siglongjmp()`. When doing this, libcurl used a global
-                        │      │                   buffer that was not mutex protected and a multi-threaded
-                        │      │                   application might therefore crash or otherwise
-                        │      │                   misbehave. 
-                        │      ├ Severity        : LOW 
-                        │      ├ CweIDs           ╭ [0]: CWE-362 
-                        │      │                  ╰ [1]: CWE-400 
-                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
-                        │      │                  │        │           N/I:N/A:H 
-                        │      │                  │        ╰ V3Score : 5.9 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
-                        │      │                           │           N/I:N/A:L 
-                        │      │                           ╰ V3Score : 3.7 
-                        │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/47 
-                        │      │                  ├ [1] : http://seclists.org/fulldisclosure/2023/Jul/48 
-                        │      │                  ├ [2] : http://seclists.org/fulldisclosure/2023/Jul/52 
-                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-28320 
-                        │      │                  ├ [4] : https://curl.se/docs/CVE-2023-28320.html 
-                        │      │                  ├ [5] : https://hackerone.com/reports/1929597 
-                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-28320 
-                        │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-202306
-                        │      │                  │       09-0009/ 
-                        │      │                  ├ [8] : https://support.apple.com/kb/HT213843 
-                        │      │                  ├ [9] : https://support.apple.com/kb/HT213844 
-                        │      │                  ├ [10]: https://support.apple.com/kb/HT213845 
-                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-28320 
-                        │      ├ PublishedDate   : 2023-05-26T21:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-08-02T16:46:00Z 
                         ├ [41] ╭ VulnerabilityID : CVE-2023-28322 
                         │      ├ VendorIDs        ─ [0]: RHSA-2023:4354 
                         │      ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.1.x86_64 
@@ -2062,7 +2039,8 @@
                         │      │                  ├ [14]: https://security.netapp.com/advisory/ntap-202306
                         │      │                  │       01-0006/ 
                         │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6028-1 
-                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-28484 
+                        │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6028-2 
+                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-28484 
                         │      ├ PublishedDate   : 2023-04-24T21:15:00Z 
                         │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
                         ├ [47] ╭ VulnerabilityID : CVE-2023-29469 
@@ -2115,7 +2093,8 @@
                         │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-202306
                         │      │                  │       01-0006/ 
                         │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6028-1 
-                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-29469 
+                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6028-2 
+                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-29469 
                         │      ├ PublishedDate   : 2023-04-24T21:15:00Z 
                         │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
                         ├ [48] ╭ VulnerabilityID : CVE-2022-4899 
