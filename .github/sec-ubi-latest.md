@@ -1373,6 +1373,10 @@
                         │      │                   handling failure. Incorrect data is copied from one ticket
                         │      │                   to another. 
                         │      ├ Severity        : MEDIUM 
+                        │      ├ CweIDs           ─ [0]: CWE-415 
+                        │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I
+                        │      │                        │           :H/A:H 
+                        │      │                        ╰ V3Score : 8.8 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-39975 
                         │      │                  ├ [1]: https://github.com/krb5/krb5/commit/88a1701b423c1
                         │      │                  │      3991a8064feeb26952d3641d840 
@@ -1382,7 +1386,7 @@
                         │      │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
                         │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-39975 
                         │      ├ PublishedDate   : 2023-08-16T15:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-08-16T15:16:00Z 
+                        │      ╰ LastModifiedDate: 2023-08-22T23:17:00Z 
                         ├ [33] ╭ VulnerabilityID : CVE-2023-30571 
                         │      ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
                         │      ├ PkgName         : libarchive 
