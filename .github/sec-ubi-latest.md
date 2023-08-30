@@ -288,10 +288,12 @@
                         │       ├ PublishedDate   : 2017-05-01T01:59:00Z 
                         │       ╰ LastModifiedDate: 2020-07-29T12:15:00Z 
                         ├ [9]   ╭ VulnerabilityID : CVE-2023-32360 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2023:4838 
                         │       ├ PkgID           : cups-libs@2.3.3op2-16.el9.x86_64 
                         │       ├ PkgName         : cups-libs 
                         │       ├ InstalledVersion: 1:2.3.3op2-16.el9 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 1:2.3.3op2-16.el9_2.1 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f
                         │       │                  │         16d7d03765489b31e3b215f5e5 
                         │       │                  ╰ DiffID: sha256:1f3978e72111e44ebf85001b385520335f432e
@@ -312,11 +314,13 @@
                         │       │                           │           :H/I:N/A:N 
                         │       │                           ╰ V3Score : 6.5 
                         │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-32360 
-                        │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-32360 
-                        │       │                  ├ [2]: https://support.apple.com/en-us/HT213758 
-                        │       │                  ├ [3]: https://support.apple.com/en-us/HT213759 
-                        │       │                  ├ [4]: https://support.apple.com/en-us/HT213760 
-                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-32360 
+                        │       │                  ├ [1]: https://linux.oracle.com/cve/CVE-2023-32360.html 
+                        │       │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2023-4838.html 
+                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-32360 
+                        │       │                  ├ [4]: https://support.apple.com/en-us/HT213758 
+                        │       │                  ├ [5]: https://support.apple.com/en-us/HT213759 
+                        │       │                  ├ [6]: https://support.apple.com/en-us/HT213760 
+                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-32360 
                         │       ├ PublishedDate   : 2023-06-23T18:15:00Z 
                         │       ╰ LastModifiedDate: 2023-07-27T04:15:00Z 
                         ├ [10]  ╭ VulnerabilityID : CVE-2023-32324 
@@ -866,7 +870,38 @@
                         │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
                         │       ├ PublishedDate   : 2023-06-08T03:15:00Z 
                         │       ╰ LastModifiedDate: 2023-06-24T03:15:00Z 
-                        ├ [20]  ╭ VulnerabilityID : CVE-2023-4156 
+                        ├ [20]  ╭ VulnerabilityID : CVE-2022-48554 
+                        │       ├ PkgID           : file-libs@5.39-12.el9.x86_64 
+                        │       ├ PkgName         : file-libs 
+                        │       ├ InstalledVersion: 5.39-12.el9 
+                        │       ├ Status          : under_investigation 
+                        │       ├ Layer            ╭ Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc
+                        │       │                  │         534cc313627f8113246276bf0f 
+                        │       │                  ╰ DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e
+                        │       │                            7e8e7055ef62d24ba202202e19 
+                        │       ├ SeveritySource  : redhat 
+                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-48554 
+                        │       ├ Title           : stack-based buffer over-read in file_copystr in funcs.c 
+                        │       ├ Description     : File before 5.43 has an stack-based buffer over-read
+                        │       │                   in file_copystr in funcs.c. NOTE: "File" is the name of an
+                        │       │                   Open Source project. 
+                        │       ├ Severity        : MEDIUM 
+                        │       ├ CweIDs           ─ [0]: CWE-125 
+                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+                        │       │                  │        │           :N/I:N/A:H 
+                        │       │                  │        ╰ V3Score : 5.5 
+                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+                        │       │                           │           :N/I:N/A:H 
+                        │       │                           ╰ V3Score : 5.5 
+                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-48554 
+                        │       │                  ├ [1]: https://bugs.astron.com/view.php?id=310 
+                        │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │       │                  │      VE-2022-48554 
+                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2022-48554 
+                        │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2022-48554 
+                        │       ├ PublishedDate   : 2023-08-22T19:16:00Z 
+                        │       ╰ LastModifiedDate: 2023-08-26T02:16:00Z 
+                        ├ [21]  ╭ VulnerabilityID : CVE-2023-4156 
                         │       ├ PkgID           : gawk@5.1.0-6.el9.x86_64 
                         │       ├ PkgName         : gawk 
                         │       ├ InstalledVersion: 5.1.0-6.el9 
@@ -897,7 +932,7 @@
                         │                          │      08/msg00023.html 
                         │                          ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-4156 
                         │                          ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4156 
-                        ├ [21]  ╭ VulnerabilityID : CVE-2023-29499 
+                        ├ [22]  ╭ VulnerabilityID : CVE-2023-29499 
                         │       ├ PkgID           : glib2@2.68.4-6.el9.x86_64 
                         │       ├ PkgName         : glib2 
                         │       ├ InstalledVersion: 2.68.4-6.el9 
@@ -924,7 +959,7 @@
                         │                          ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-29499 
                         │                          ├ [4]: https://ubuntu.com/security/notices/USN-6165-1 
                         │                          ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-29499 
-                        ├ [22]  ╭ VulnerabilityID : CVE-2023-32611 
+                        ├ [23]  ╭ VulnerabilityID : CVE-2023-32611 
                         │       ├ PkgID           : glib2@2.68.4-6.el9.x86_64 
                         │       ├ PkgName         : glib2 
                         │       ├ InstalledVersion: 2.68.4-6.el9 
@@ -952,7 +987,7 @@
                         │                          ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-32611 
                         │                          ├ [4]: https://ubuntu.com/security/notices/USN-6165-1 
                         │                          ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-32611 
-                        ├ [23]  ╭ VulnerabilityID : CVE-2023-32636 
+                        ├ [24]  ╭ VulnerabilityID : CVE-2023-32636 
                         │       ├ PkgID           : glib2@2.68.4-6.el9.x86_64 
                         │       ├ PkgName         : glib2 
                         │       ├ InstalledVersion: 2.68.4-6.el9 
@@ -975,7 +1010,7 @@
                         │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-32636 
                         │                          ├ [3]: https://ubuntu.com/security/notices/USN-6165-1 
                         │                          ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-32636 
-                        ├ [24]  ╭ VulnerabilityID : CVE-2023-32665 
+                        ├ [25]  ╭ VulnerabilityID : CVE-2023-32665 
                         │       ├ PkgID           : glib2@2.68.4-6.el9.x86_64 
                         │       ├ PkgName         : glib2 
                         │       ├ InstalledVersion: 2.68.4-6.el9 
@@ -1003,7 +1038,7 @@
                         │                          ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-32665 
                         │                          ├ [4]: https://ubuntu.com/security/notices/USN-6165-1 
                         │                          ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-32665 
-                        ├ [25]  ╭ VulnerabilityID : CVE-2021-43618 
+                        ├ [26]  ╭ VulnerabilityID : CVE-2021-43618 
                         │       ├ PkgID           : gmp@6.2.0-10.el9.x86_64 
                         │       ├ PkgName         : gmp 
                         │       ├ InstalledVersion: 1:6.2.0-10.el9 
@@ -1051,7 +1086,7 @@
                         │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2021-43618 
                         │       ├ PublishedDate   : 2021-11-15T04:15:00Z 
                         │       ╰ LastModifiedDate: 2022-12-08T22:15:00Z 
-                        ├ [26]  ╭ VulnerabilityID : CVE-2022-3219 
+                        ├ [27]  ╭ VulnerabilityID : CVE-2022-3219 
                         │       ├ PkgID           : gnupg2@2.3.3-2.el9_0.x86_64 
                         │       ├ PkgName         : gnupg2 
                         │       ├ InstalledVersion: 2.3.3-2.el9_0 
@@ -1090,7 +1125,7 @@
                         │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
                         │       ├ PublishedDate   : 2023-02-23T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
-                        ├ [27]  ╭ VulnerabilityID : CVE-2023-25193 
+                        ├ [28]  ╭ VulnerabilityID : CVE-2023-25193 
                         │       ├ PkgID           : harfbuzz@2.7.4-8.el9.x86_64 
                         │       ├ PkgName         : harfbuzz 
                         │       ├ InstalledVersion: 2.7.4-8.el9 
@@ -1155,7 +1190,7 @@
                         │       │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2023-25193 
                         │       ├ PublishedDate   : 2023-02-04T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
-                        ├ [28]  ╭ VulnerabilityID : CVE-2023-22049 
+                        ├ [29]  ╭ VulnerabilityID : CVE-2023-22049 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:4178 
                         │       ├ PkgID           : java-1.8.0-openjdk-headless@1.8.0.372.b07-2.el9.x86_64 
                         │       ├ PkgName         : java-1.8.0-openjdk-headless 
@@ -1228,7 +1263,7 @@
                         │       │                          23.html 
                         │       ├ PublishedDate   : 2023-07-18T21:15:00Z 
                         │       ╰ LastModifiedDate: 2023-08-17T19:15:00Z 
-                        ├ [29]  ╭ VulnerabilityID : CVE-2022-3857 
+                        ├ [30]  ╭ VulnerabilityID : CVE-2022-3857 
                         │       ├ PkgID           : java-1.8.0-openjdk-headless@1.8.0.372.b07-2.el9.x86_64 
                         │       ├ PkgName         : java-1.8.0-openjdk-headless 
                         │       ├ InstalledVersion: 1:1.8.0.372.b07-2.el9 
@@ -1261,7 +1296,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-3857 
                         │       ├ PublishedDate   : 2023-03-06T23:15:00Z 
                         │       ╰ LastModifiedDate: 2023-04-06T13:15:00Z 
-                        ├ [30]  ╭ VulnerabilityID : CVE-2023-22045 
+                        ├ [31]  ╭ VulnerabilityID : CVE-2023-22045 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:4178 
                         │       ├ PkgID           : java-1.8.0-openjdk-headless@1.8.0.372.b07-2.el9.x86_64 
                         │       ├ PkgName         : java-1.8.0-openjdk-headless 
@@ -1333,7 +1368,7 @@
                         │       │                          23.html 
                         │       ├ PublishedDate   : 2023-07-18T21:15:00Z 
                         │       ╰ LastModifiedDate: 2023-08-17T19:15:00Z 
-                        ├ [31]  ╭ VulnerabilityID : CVE-2023-36054 
+                        ├ [32]  ╭ VulnerabilityID : CVE-2023-36054 
                         │       ├ PkgID           : krb5-libs@1.20.1-9.el9_2.x86_64 
                         │       ├ PkgName         : krb5-libs 
                         │       ├ InstalledVersion: 1.20.1-9.el9_2 
@@ -1374,7 +1409,7 @@
                         │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
                         │       ├ PublishedDate   : 2023-08-07T19:15:00Z 
                         │       ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
-                        ├ [32]  ╭ VulnerabilityID : CVE-2023-39975 
+                        ├ [33]  ╭ VulnerabilityID : CVE-2023-39975 
                         │       ├ PkgID           : krb5-libs@1.20.1-9.el9_2.x86_64 
                         │       ├ PkgName         : krb5-libs 
                         │       ├ InstalledVersion: 1.20.1-9.el9_2 
@@ -1406,7 +1441,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-39975 
                         │       ├ PublishedDate   : 2023-08-16T15:15:00Z 
                         │       ╰ LastModifiedDate: 2023-08-22T23:17:00Z 
-                        ├ [33]  ╭ VulnerabilityID : CVE-2023-30571 
+                        ├ [34]  ╭ VulnerabilityID : CVE-2023-30571 
                         │       ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
                         │       ├ PkgName         : libarchive 
                         │       ├ InstalledVersion: 3.5.3-4.el9 
@@ -1444,7 +1479,7 @@
                         │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-30571 
                         │       ├ PublishedDate   : 2023-05-29T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-06-05T16:40:00Z 
-                        ├ [34]  ╭ VulnerabilityID : CVE-2023-2603 
+                        ├ [35]  ╭ VulnerabilityID : CVE-2023-2603 
                         │       ├ PkgID           : libcap@2.48-8.el9.x86_64 
                         │       ├ PkgName         : libcap 
                         │       ├ InstalledVersion: 2.48-8.el9 
@@ -1466,8 +1501,8 @@
                         │       │                  │        │           :H/I:H/A:H 
                         │       │                  │        ╰ V3Score : 7.8 
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
-                        │       │                           │           :L/I:H/A:H 
-                        │       │                           ╰ V3Score : 7.3 
+                        │       │                           │           :H/I:H/A:H 
+                        │       │                           ╰ V3Score : 7.8 
                         │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4524 
                         │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-2603 
                         │       │                  ├ [2] : https://bugzilla.redhat.com/2209113 
@@ -1494,7 +1529,7 @@
                         │       │                          ap-Code-Review-2023-OSTIF-Final-Report.pdf 
                         │       ├ PublishedDate   : 2023-06-06T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-06-21T19:02:00Z 
-                        ├ [35]  ╭ VulnerabilityID : CVE-2023-2602 
+                        ├ [36]  ╭ VulnerabilityID : CVE-2023-2602 
                         │       ├ PkgID           : libcap@2.48-8.el9.x86_64 
                         │       ├ PkgName         : libcap 
                         │       ├ InstalledVersion: 2.48-8.el9 
@@ -1543,7 +1578,7 @@
                         │       │                          ap-Code-Review-2023-OSTIF-Final-Report.pdf 
                         │       ├ PublishedDate   : 2023-06-06T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-06-14T18:07:00Z 
-                        ├ [36]  ╭ VulnerabilityID : CVE-2023-27536 
+                        ├ [37]  ╭ VulnerabilityID : CVE-2023-27536 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.1.x86_64 
                         │       ├ PkgName         : libcurl-minimal 
                         │       ├ InstalledVersion: 7.76.1-23.el9_2.1 
@@ -1598,7 +1633,7 @@
                         │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-27536 
                         │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-06-06T20:34:00Z 
-                        ├ [37]  ╭ VulnerabilityID : CVE-2023-28321 
+                        ├ [38]  ╭ VulnerabilityID : CVE-2023-28321 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:4354 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.1.x86_64 
                         │       ├ PkgName         : libcurl-minimal 
@@ -1667,7 +1702,7 @@
                         │       │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2023-28321 
                         │       ├ PublishedDate   : 2023-05-26T21:15:00Z 
                         │       ╰ LastModifiedDate: 2023-08-02T16:46:00Z 
-                        ├ [38]  ╭ VulnerabilityID : CVE-2023-27533 
+                        ├ [39]  ╭ VulnerabilityID : CVE-2023-27533 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.1.x86_64 
                         │       ├ PkgName         : libcurl-minimal 
                         │       ├ InstalledVersion: 7.76.1-23.el9_2.1 
@@ -1715,7 +1750,7 @@
                         │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-27533 
                         │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-04-21T23:15:00Z 
-                        ├ [39]  ╭ VulnerabilityID : CVE-2023-27534 
+                        ├ [40]  ╭ VulnerabilityID : CVE-2023-27534 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.1.x86_64 
                         │       ├ PkgName         : libcurl-minimal 
                         │       ├ InstalledVersion: 7.76.1-23.el9_2.1 
@@ -1759,7 +1794,7 @@
                         │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-27534 
                         │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-04-20T09:15:00Z 
-                        ├ [40]  ╭ VulnerabilityID : CVE-2023-27538 
+                        ├ [41]  ╭ VulnerabilityID : CVE-2023-27538 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.1.x86_64 
                         │       ├ PkgName         : libcurl-minimal 
                         │       ├ InstalledVersion: 7.76.1-23.el9_2.1 
@@ -1806,7 +1841,7 @@
                         │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27538 
                         │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-04-21T23:15:00Z 
-                        ├ [41]  ╭ VulnerabilityID : CVE-2023-28322 
+                        ├ [42]  ╭ VulnerabilityID : CVE-2023-28322 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:4354 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.1.x86_64 
                         │       ├ PkgName         : libcurl-minimal 
@@ -1869,7 +1904,42 @@
                         │       │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2023-28322 
                         │       ├ PublishedDate   : 2023-05-26T21:15:00Z 
                         │       ╰ LastModifiedDate: 2023-08-02T16:46:00Z 
-                        ├ [42]  ╭ VulnerabilityID : CVE-2023-22652 
+                        ├ [43]  ╭ VulnerabilityID : CVE-2023-30079 
+                        │       ├ PkgID           : libeconf@0.4.1-2.el9.x86_64 
+                        │       ├ PkgName         : libeconf 
+                        │       ├ InstalledVersion: 0.4.1-2.el9 
+                        │       ├ Status          : affected 
+                        │       ├ Layer            ╭ Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f
+                        │       │                  │         16d7d03765489b31e3b215f5e5 
+                        │       │                  ╰ DiffID: sha256:1f3978e72111e44ebf85001b385520335f432e
+                        │       │                            e09d3cd5d1208c1c286751fce9 
+                        │       ├ SeveritySource  : redhat 
+                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-30079 
+                        │       ├ Title           : Stack overflow in function read_file at
+                        │       │                   atlibeconf/lib/getfilecontents.c 
+                        │       ├ Description     : A stack overflow vulnerability exists in function
+                        │       │                   read_file in atlibeconf/lib/getfilecontents.c in libeconf
+                        │       │                   0.5.1 allows attackers to cause a Denial of service or
+                        │       │                   execute arbitrary code. 
+                        │       ├ Severity        : HIGH 
+                        │       ├ CweIDs           ─ [0]: CWE-787 
+                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+                        │       │                  │        │           :H/I:H/A:H 
+                        │       │                  │        ╰ V3Score : 8.8 
+                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+                        │       │                           │           :H/I:H/A:H 
+                        │       │                           ╰ V3Score : 8.8 
+                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-30079 
+                        │       │                  ├ [1]: https://github.com/openSUSE/libeconf/issues/177 
+                        │       │                  ├ [2]: https://github.com/yangjiageng/PoC/blob/master/l
+                        │       │                  │      ibeconf-PoC/read_file_503 
+                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-30079 
+                        │       │                  ├ [4]: https://raw.githubusercontent.com/yangjiageng/Po
+                        │       │                  │      C/master/libeconf-PoC/tst-logindefs1.c 
+                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-30079 
+                        │       ├ PublishedDate   : 2023-08-22T19:16:00Z 
+                        │       ╰ LastModifiedDate: 2023-08-26T02:24:00Z 
+                        ├ [44]  ╭ VulnerabilityID : CVE-2023-22652 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:4347 
                         │       ├ PkgID           : libeconf@0.4.1-2.el9.x86_64 
                         │       ├ PkgName         : libeconf 
@@ -1912,77 +1982,6 @@
                         │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-22652 
                         │       ├ PublishedDate   : 2023-06-01T12:15:00Z 
                         │       ╰ LastModifiedDate: 2023-06-08T18:29:00Z 
-                        ├ [43]  ╭ VulnerabilityID : CVE-2023-30078 
-                        │       ├ PkgID           : libeconf@0.4.1-2.el9.x86_64 
-                        │       ├ PkgName         : libeconf 
-                        │       ├ InstalledVersion: 0.4.1-2.el9 
-                        │       ├ Status          : under_investigation 
-                        │       ├ Layer            ╭ Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f
-                        │       │                  │         16d7d03765489b31e3b215f5e5 
-                        │       │                  ╰ DiffID: sha256:1f3978e72111e44ebf85001b385520335f432e
-                        │       │                            e09d3cd5d1208c1c286751fce9 
-                        │       ├ SeveritySource  : redhat 
-                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-30078 
-                        │       ├ Title           : Stack overflow in function econf_writeFile at
-                        │       │                   atlibeconf/lib/libeconf.c 
-                        │       ├ Description     : A stack overflow vulnerability exists in function
-                        │       │                   econf_writeFile in file atlibeconf/lib/libeconf.c in
-                        │       │                   libeconf 0.5.1 allows attackers to cause a Denial of
-                        │       │                   service or execute arbitrary code. 
-                        │       ├ Severity        : MEDIUM 
-                        │       ├ CweIDs           ─ [0]: CWE-787 
-                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
-                        │       │                  │        │           :H/I:H/A:H 
-                        │       │                  │        ╰ V3Score : 8.8 
-                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
-                        │       │                           │           :H/I:H/A:H 
-                        │       │                           ╰ V3Score : 7.8 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-30078 
-                        │       │                  ├ [1]: https://github.com/openSUSE/libeconf/issues/178 
-                        │       │                  ├ [2]: https://github.com/yangjiageng/PoC/blob/master/l
-                        │       │                  │      ibeconf-PoC/econf_writeFile_546 
-                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-30078 
-                        │       │                  ├ [4]: https://raw.githubusercontent.com/yangjiageng/Po
-                        │       │                  │      C/master/libeconf-PoC/tst-write-string-data.c[
-                        │       │                  │      m 
-                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-30078 
-                        │       ├ PublishedDate   : 2023-08-22T19:16:00Z 
-                        │       ╰ LastModifiedDate: 2023-08-26T02:24:00Z 
-                        ├ [44]  ╭ VulnerabilityID : CVE-2023-30079 
-                        │       ├ PkgID           : libeconf@0.4.1-2.el9.x86_64 
-                        │       ├ PkgName         : libeconf 
-                        │       ├ InstalledVersion: 0.4.1-2.el9 
-                        │       ├ Status          : under_investigation 
-                        │       ├ Layer            ╭ Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f
-                        │       │                  │         16d7d03765489b31e3b215f5e5 
-                        │       │                  ╰ DiffID: sha256:1f3978e72111e44ebf85001b385520335f432e
-                        │       │                            e09d3cd5d1208c1c286751fce9 
-                        │       ├ SeveritySource  : redhat 
-                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-30079 
-                        │       ├ Title           : Stack overflow in function read_file at
-                        │       │                   atlibeconf/lib/getfilecontents.c 
-                        │       ├ Description     : A stack overflow vulnerability exists in function
-                        │       │                   read_file in atlibeconf/lib/getfilecontents.c in libeconf
-                        │       │                   0.5.1 allows attackers to cause a Denial of service or
-                        │       │                   execute arbitrary code. 
-                        │       ├ Severity        : MEDIUM 
-                        │       ├ CweIDs           ─ [0]: CWE-787 
-                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
-                        │       │                  │        │           :H/I:H/A:H 
-                        │       │                  │        ╰ V3Score : 8.8 
-                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C
-                        │       │                           │           :H/I:H/A:H 
-                        │       │                           ╰ V3Score : 7.4 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-30079 
-                        │       │                  ├ [1]: https://github.com/openSUSE/libeconf/issues/177 
-                        │       │                  ├ [2]: https://github.com/yangjiageng/PoC/blob/master/l
-                        │       │                  │      ibeconf-PoC/read_file_503 
-                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-30079 
-                        │       │                  ├ [4]: https://raw.githubusercontent.com/yangjiageng/Po
-                        │       │                  │      C/master/libeconf-PoC/tst-logindefs1.c 
-                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-30079 
-                        │       ├ PublishedDate   : 2023-08-22T19:16:00Z 
-                        │       ╰ LastModifiedDate: 2023-08-26T02:24:00Z 
                         ├ [45]  ╭ VulnerabilityID : CVE-2022-27943 
                         │       ├ PkgID           : libgcc@11.3.1-4.3.el9.x86_64 
                         │       ├ PkgName         : libgcc 
@@ -2237,7 +2236,7 @@
                         │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-4899 
                         │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │       │                  │      VE-2022-4899 
-                        │       │                  ├ [2]: https://github.com/advisories/GHSA-5c9c-6x87-f9vm 
+                        │       │                  ├ [2]: https://github.com/facebook/zstd 
                         │       │                  ├ [3]: https://github.com/facebook/zstd/issues/3200 
                         │       │                  ├ [4]: https://github.com/facebook/zstd/pull/3220 
                         │       │                  ├ [5]: https://github.com/pypa/advisory-database/tree/m
@@ -4655,7 +4654,7 @@
                         │       │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=1962856 
                         │       │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
                         │       │                  │       CVE-2021-3572 
-                        │       │                  ├ [4] : https://github.com/advisories/GHSA-5xp3-jfq3-5q8x 
+                        │       │                  ├ [4] : https://github.com/pypa/pip 
                         │       │                  ├ [5] : https://github.com/pypa/pip/commit/e46bdda97113
                         │       │                  │       92fec0c45c1175bae6db847cb30b 
                         │       │                  ├ [6] : https://github.com/pypa/pip/issues/10042 
@@ -5029,43 +5028,73 @@
                         │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-28487 
                         │       ├ PublishedDate   : 2023-03-16T01:15:00Z 
                         │       ╰ LastModifiedDate: 2023-04-20T09:15:00Z 
-                        ╰ [106] ╭ VulnerabilityID : CVE-2021-3997 
-                                ├ PkgID           : systemd-libs@252-14.el9_2.1.x86_64 
-                                ├ PkgName         : systemd-libs 
-                                ├ InstalledVersion: 252-14.el9_2.1 
-                                ├ Status          : affected 
+                        ├ [106] ╭ VulnerabilityID : CVE-2021-3997 
+                        │       ├ PkgID           : systemd-libs@252-14.el9_2.1.x86_64 
+                        │       ├ PkgName         : systemd-libs 
+                        │       ├ InstalledVersion: 252-14.el9_2.1 
+                        │       ├ Status          : affected 
+                        │       ├ Layer            ╭ Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc
+                        │       │                  │         534cc313627f8113246276bf0f 
+                        │       │                  ╰ DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e
+                        │       │                            7e8e7055ef62d24ba202202e19 
+                        │       ├ SeveritySource  : redhat 
+                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-3997 
+                        │       ├ Title           : Uncontrolled recursion in systemd-tmpfiles when
+                        │       │                   removing files 
+                        │       ├ Description     : A flaw was found in systemd. An uncontrolled recursion
+                        │       │                    in systemd-tmpfiles may lead to a denial of service at
+                        │       │                   boot time when too many nested directories are created in
+                        │       │                   /tmp. 
+                        │       ├ Severity        : MEDIUM 
+                        │       ├ CweIDs           ─ [0]: CWE-674 
+                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+                        │       │                  │        │           :N/I:N/A:H 
+                        │       │                  │        ╰ V3Score : 5.5 
+                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+                        │       │                           │           :N/I:N/A:H 
+                        │       │                           ╰ V3Score : 5.5 
+                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-3997 
+                        │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2024639 
+                        │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │       │                  │      VE-2021-3997 
+                        │       │                  ├ [3]: https://github.com/systemd/systemd/commit/5b1cf7
+                        │       │                  │      a9be37e20133c0208005274ce4a5b5c6a1 
+                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2021-3997 
+                        │       │                  ├ [5]: https://security.gentoo.org/glsa/202305-15 
+                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-5226-1 
+                        │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2021-3997 
+                        │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2022
+                        │       │                         /01/10/2 
+                        │       ├ PublishedDate   : 2022-08-23T20:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
+                        ╰ [107] ╭ VulnerabilityID : CVE-2020-22916 
+                                ├ PkgID           : xz-libs@5.2.5-8.el9_0.x86_64 
+                                ├ PkgName         : xz-libs 
+                                ├ InstalledVersion: 5.2.5-8.el9_0 
+                                ├ Status          : under_investigation 
                                 ├ Layer            ╭ Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc
                                 │                  │         534cc313627f8113246276bf0f 
                                 │                  ╰ DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e
                                 │                            7e8e7055ef62d24ba202202e19 
                                 ├ SeveritySource  : redhat 
-                                ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-3997 
-                                ├ Title           : Uncontrolled recursion in systemd-tmpfiles when
-                                │                   removing files 
-                                ├ Description     : A flaw was found in systemd. An uncontrolled recursion
-                                │                    in systemd-tmpfiles may lead to a denial of service at
-                                │                   boot time when too many nested directories are created in
-                                │                   /tmp. 
-                                ├ Severity        : MEDIUM 
-                                ├ CweIDs           ─ [0]: CWE-674 
-                                ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+                                ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-22916 
+                                ├ Title           : Denial of service via decompression of crafted file 
+                                ├ Description     : An issue discovered in XZ 5.2.5 allows attackers to
+                                │                   cause a denial of service via decompression of crafted
+                                │                   file. 
+                                ├ Severity        : LOW 
+                                ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
                                 │                  │        │           :N/I:N/A:H 
                                 │                  │        ╰ V3Score : 5.5 
-                                │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+                                │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
                                 │                           │           :N/I:N/A:H 
                                 │                           ╰ V3Score : 5.5 
-                                ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-3997 
-                                │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2024639 
-                                │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-                                │                  │      VE-2021-3997 
-                                │                  ├ [3]: https://github.com/systemd/systemd/commit/5b1cf7
-                                │                  │      a9be37e20133c0208005274ce4a5b5c6a1 
-                                │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2021-3997 
-                                │                  ├ [5]: https://security.gentoo.org/glsa/202305-15 
-                                │                  ├ [6]: https://ubuntu.com/security/notices/USN-5226-1 
-                                │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2021-3997 
-                                │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2022
-                                │                         /01/10/2 
-                                ├ PublishedDate   : 2022-08-23T20:15:00Z 
-                                ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
+                                ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2020-22916 
+                                │                  ├ [1]: https://github.com/snappyJack/CVE-request-XZ-5.2
+                                │                  │      .5-has-denial-of-service-vulnerability 
+                                │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2020-22916 
+                                │                  ├ [3]: https://tukaani.org/xz/ 
+                                │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2020-22916 
+                                ├ PublishedDate   : 2023-08-22T19:16:00Z 
+                                ╰ LastModifiedDate: 2023-08-25T17:53:00Z 
 ````
