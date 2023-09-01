@@ -12,7 +12,7 @@
       DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-3468
-    Title: 'avahi: Local DoS by event-busy-loop from writing long lines to /run/avahi-daemon/socket'
+    Title: Local DoS by event-busy-loop from writing long lines to /run/avahi-daemon/socket
     Description: A flaw was found in avahi in versions 0.6 up to 0.8. The event used to signal the termination of the client connection on the avahi Unix socket is not correctly handled in the client_work function, allowing a local attacker to trigger an infinite loop. The highest threat from this vulnerability is to the availability of the avahi service, which becomes unresponsive after this flaw is triggered.
     Severity: MEDIUM
     CweIDs:
@@ -284,12 +284,15 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4864
+    - https://access.redhat.com/errata/RHSA-2023:4838
     - https://access.redhat.com/security/cve/CVE-2023-32360
     - https://bugzilla.redhat.com/2230495
-    - https://errata.almalinux.org/8/ALSA-2023-4864.html
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2230495
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32360
+    - https://errata.almalinux.org/9/ALSA-2023-4838.html
+    - https://errata.rockylinux.org/RLSA-2023:4864
     - https://linux.oracle.com/cve/CVE-2023-32360.html
-    - https://linux.oracle.com/errata/ELSA-2023-4838.html
+    - https://linux.oracle.com/errata/ELSA-2023-4864.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-32360
     - https://support.apple.com/en-us/HT213758
     - https://support.apple.com/en-us/HT213759
@@ -483,13 +486,13 @@
     - http://seclists.org/fulldisclosure/2023/Jul/47
     - http://seclists.org/fulldisclosure/2023/Jul/48
     - http://seclists.org/fulldisclosure/2023/Jul/52
-    - https://access.redhat.com/errata/RHSA-2023:4523
+    - https://access.redhat.com/errata/RHSA-2023:4354
     - https://access.redhat.com/security/cve/CVE-2023-28321
-    - https://bugzilla.redhat.com/2179092
     - https://bugzilla.redhat.com/2196786
+    - https://bugzilla.redhat.com/2196793
     - https://curl.se/docs/CVE-2023-28321.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28321
-    - https://errata.almalinux.org/8/ALSA-2023-4523.html
+    - https://errata.almalinux.org/9/ALSA-2023-4354.html
     - https://hackerone.com/reports/1950627
     - https://linux.oracle.com/cve/CVE-2023-28321.html
     - https://linux.oracle.com/errata/ELSA-2023-4523.html
@@ -683,12 +686,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4498
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/8/ALSA-2023-4498.html
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
     - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -702,7 +705,7 @@
     PkgID: file-libs@5.39-12.el9.x86_64
     PkgName: file-libs
     InstalledVersion: 5.39-12.el9
-    Status: under_investigation
+    Status: affected
     Layer:
       Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
       DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
@@ -710,7 +713,7 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48554
     Title: stack-based buffer over-read in file_copystr in funcs.c
     Description: 'File before 5.43 has an stack-based buffer over-read in file_copystr in funcs.c. NOTE: "File" is the name of an Open Source project.'
-    Severity: MEDIUM
+    Severity: LOW
     CweIDs:
     - CWE-125
     CVSS:
@@ -945,17 +948,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4175
+    - https://access.redhat.com/errata/RHSA-2023:4177
     - https://access.redhat.com/security/cve/CVE-2023-25193
     - https://bugzilla.redhat.com/2167254
     - https://bugzilla.redhat.com/2221626
     - https://bugzilla.redhat.com/2221634
+    - https://bugzilla.redhat.com/2221642
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
     - https://bugzilla.redhat.com/2223207
     - https://chromium.googlesource.com/chromium/src/+/e1f324aa681af54101c1f2d173d92adb80e37088/DEPS#361
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25193
-    - https://errata.almalinux.org/8/ALSA-2023-4175.html
+    - https://errata.almalinux.org/9/ALSA-2023-4177.html
     - https://github.com/harfbuzz/harfbuzz/blob/2822b589bc837fae6f66233e2cf2eef0f6ce8470/src/hb-ot-layout-gsubgpos.hh
     - https://github.com/harfbuzz/harfbuzz/commit/85be877925ddbf34f74a1229f3ca1716bb6170dc
     - https://github.com/harfbuzz/harfbuzz/commit/85be877925ddbf34f74a1229f3ca1716bb6170dc (reverted)
@@ -994,7 +998,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4176
+    - https://access.redhat.com/errata/RHSA-2023:4178
     - https://access.redhat.com/security/cve/CVE-2023-22049
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
@@ -1003,7 +1007,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221647
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049
-    - https://errata.almalinux.org/8/ALSA-2023-4176.html
+    - https://errata.almalinux.org/9/ALSA-2023-4178.html
     - https://errata.rockylinux.org/RLSA-2023:4176
     - https://linux.oracle.com/cve/CVE-2023-22049.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
@@ -1072,7 +1076,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4176
+    - https://access.redhat.com/errata/RHSA-2023:4178
     - https://access.redhat.com/security/cve/CVE-2023-22045
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
@@ -1081,7 +1085,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221647
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049
-    - https://errata.almalinux.org/8/ALSA-2023-4176.html
+    - https://errata.almalinux.org/9/ALSA-2023-4178.html
     - https://errata.rockylinux.org/RLSA-2023:4176
     - https://linux.oracle.com/cve/CVE-2023-22045.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
@@ -1344,13 +1348,13 @@
     - http://seclists.org/fulldisclosure/2023/Jul/47
     - http://seclists.org/fulldisclosure/2023/Jul/48
     - http://seclists.org/fulldisclosure/2023/Jul/52
-    - https://access.redhat.com/errata/RHSA-2023:4523
+    - https://access.redhat.com/errata/RHSA-2023:4354
     - https://access.redhat.com/security/cve/CVE-2023-28321
-    - https://bugzilla.redhat.com/2179092
     - https://bugzilla.redhat.com/2196786
+    - https://bugzilla.redhat.com/2196793
     - https://curl.se/docs/CVE-2023-28321.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28321
-    - https://errata.almalinux.org/8/ALSA-2023-4523.html
+    - https://errata.almalinux.org/9/ALSA-2023-4354.html
     - https://hackerone.com/reports/1950627
     - https://linux.oracle.com/cve/CVE-2023-28321.html
     - https://linux.oracle.com/errata/ELSA-2023-4523.html
@@ -1519,10 +1523,13 @@
     PublishedDate: '2023-05-26T21:15:00Z'
     LastModifiedDate: '2023-08-02T16:46:00Z'
   - VulnerabilityID: CVE-2023-30079
+    VendorIDs:
+    - RHSA-2023:4347
     PkgID: libeconf@0.4.1-2.el9.x86_64
     PkgName: libeconf
     InstalledVersion: 0.4.1-2.el9
-    Status: affected
+    FixedVersion: 0.4.1-3.el9_2
+    Status: fixed
     Layer:
       Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
       DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
@@ -1719,12 +1726,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4529
+    - https://access.redhat.com/errata/RHSA-2023:4349
     - https://access.redhat.com/security/cve/CVE-2023-28484
     - https://bugzilla.redhat.com/2185984
     - https://bugzilla.redhat.com/2185994
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28484
-    - https://errata.almalinux.org/8/ALSA-2023-4529.html
+    - https://errata.almalinux.org/9/ALSA-2023-4349.html
     - https://gitlab.gnome.org/GNOME/libxml2/-/commit/4c6922f763ad958c48ff66f82823ae21f2e92ee6
     - https://gitlab.gnome.org/GNOME/libxml2/-/commit/647e072ea0a2f12687fa05c172f4c4713fdb0c4f
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/491
@@ -1765,12 +1772,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4529
+    - https://access.redhat.com/errata/RHSA-2023:4349
     - https://access.redhat.com/security/cve/CVE-2023-29469
     - https://bugzilla.redhat.com/2185984
     - https://bugzilla.redhat.com/2185994
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29469
-    - https://errata.almalinux.org/8/ALSA-2023-4529.html
+    - https://errata.almalinux.org/9/ALSA-2023-4349.html
     - https://gitlab.gnome.org/GNOME/libxml2/-/commit/09a2dd453007f9c7205274623acdd73747c22d64
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/510
     - https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2.10.4
@@ -1784,6 +1791,30 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-29469
     PublishedDate: '2023-04-24T21:15:00Z'
     LastModifiedDate: '2023-06-01T14:15:00Z'
+  - VulnerabilityID: CVE-2023-39615
+    PkgID: libxml2@2.9.13-3.el9_1.x86_64
+    PkgName: libxml2
+    InstalledVersion: 2.9.13-3.el9_1
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39615
+    Title: crafted xml can cause global buffer overflow
+    Description: Xmlsoft Libxml2 v2.11.0 was discovered to contain a global buffer overflow via the xmlSAX2StartElement() function at /libxml2/SAX2.c. This vulnerability allows attackers to cause a Denial of Service (DoS) via supplying a crafted XML file.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-39615
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/535
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-39615
+    - https://www.cve.org/CVERecord?id=CVE-2023-39615
+    PublishedDate: '2023-08-29T17:15:00Z'
+    LastModifiedDate: '2023-08-29T18:14:00Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd@1.5.1-2.el9.x86_64
     PkgName: libzstd
@@ -2524,6 +2555,9 @@
     CweIDs:
     - CWE-476
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -2562,6 +2596,9 @@
     CweIDs:
     - CWE-476
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -2962,6 +2999,31 @@
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:00Z'
     LastModifiedDate: '2023-08-18T14:15:00Z'
+  - VulnerabilityID: CVE-2023-40217
+    PkgID: python-unversioned-command@3.9.16-1.el9_2.1.noarch
+    PkgName: python-unversioned-command
+    InstalledVersion: 3.9.16-1.el9_2.1
+    Status: affected
+    Layer:
+      Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
+      DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-40217
+    Title: TLS handshake bypass
+    Description: An issue was discovered in Python before 3.8.18, 3.9.x before 3.9.18, 3.10.x before 3.10.13, and 3.11.x before 3.11.5. It primarily affects servers (such as HTTP servers) that use TLS client authentication. If a TLS server-side socket is created, receives data into the socket buffer, and then is closed quickly, there is a brief window where the SSLSocket instance will detect the socket as "not connected" and won't initiate a handshake, but buffered data will still be readable from the socket buffer. This data will not be authenticated if the server-side TLS peer is expecting client certificate authentication, and is indistinguishable from valid TLS stream data. Data is limited in size to the amount that will fit in the buffer. (The TLS connection cannot directly be used for data exfiltration because the vulnerable code path requires that the connection be closed on initialization of the SSLSocket.)
+    Severity: HIGH
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 8.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-40217
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
+    - https://www.cve.org/CVERecord?id=CVE-2023-40217
+    - https://www.python.org/dev/security/
+    PublishedDate: '2023-08-25T01:15:00Z'
+    LastModifiedDate: '2023-08-25T03:55:00Z'
   - VulnerabilityID: CVE-2007-4559
     PkgID: python-unversioned-command@3.9.16-1.el9_2.1.noarch
     PkgName: python-unversioned-command
@@ -3011,6 +3073,9 @@
     CweIDs:
     - CWE-444
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:H
+        V3Score: 5.9
       nvd:
         V2Vector: AV:N/AC:H/Au:N/C:N/I:P/A:P
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:H
@@ -3084,6 +3149,9 @@
     CweIDs:
     - CWE-74
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
       nvd:
         V2Vector: AV:N/AC:L/Au:N/C:N/I:P/A:N
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
@@ -3129,6 +3197,9 @@
     CweIDs:
     - CWE-20
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
@@ -3164,6 +3235,9 @@
     CweIDs:
     - CWE-674
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -3180,6 +3254,31 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:00Z'
     LastModifiedDate: '2023-07-06T16:00:00Z'
+  - VulnerabilityID: CVE-2023-40217
+    PkgID: python3@3.9.16-1.el9_2.1.x86_64
+    PkgName: python3
+    InstalledVersion: 3.9.16-1.el9_2.1
+    Status: affected
+    Layer:
+      Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
+      DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-40217
+    Title: TLS handshake bypass
+    Description: An issue was discovered in Python before 3.8.18, 3.9.x before 3.9.18, 3.10.x before 3.10.13, and 3.11.x before 3.11.5. It primarily affects servers (such as HTTP servers) that use TLS client authentication. If a TLS server-side socket is created, receives data into the socket buffer, and then is closed quickly, there is a brief window where the SSLSocket instance will detect the socket as "not connected" and won't initiate a handshake, but buffered data will still be readable from the socket buffer. This data will not be authenticated if the server-side TLS peer is expecting client certificate authentication, and is indistinguishable from valid TLS stream data. Data is limited in size to the amount that will fit in the buffer. (The TLS connection cannot directly be used for data exfiltration because the vulnerable code path requires that the connection be closed on initialization of the SSLSocket.)
+    Severity: HIGH
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 8.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-40217
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
+    - https://www.cve.org/CVERecord?id=CVE-2023-40217
+    - https://www.python.org/dev/security/
+    PublishedDate: '2023-08-25T01:15:00Z'
+    LastModifiedDate: '2023-08-25T03:55:00Z'
   - VulnerabilityID: CVE-2007-4559
     PkgID: python3@3.9.16-1.el9_2.1.x86_64
     PkgName: python3
@@ -3229,6 +3328,9 @@
     CweIDs:
     - CWE-444
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:H
+        V3Score: 5.9
       nvd:
         V2Vector: AV:N/AC:H/Au:N/C:N/I:P/A:P
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:H
@@ -3302,6 +3404,9 @@
     CweIDs:
     - CWE-74
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
       nvd:
         V2Vector: AV:N/AC:L/Au:N/C:N/I:P/A:N
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
@@ -3347,6 +3452,9 @@
     CweIDs:
     - CWE-20
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
@@ -3382,6 +3490,9 @@
     CweIDs:
     - CWE-674
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -3398,6 +3509,31 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:00Z'
     LastModifiedDate: '2023-07-06T16:00:00Z'
+  - VulnerabilityID: CVE-2023-40217
+    PkgID: python3-libs@3.9.16-1.el9_2.1.x86_64
+    PkgName: python3-libs
+    InstalledVersion: 3.9.16-1.el9_2.1
+    Status: affected
+    Layer:
+      Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
+      DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-40217
+    Title: TLS handshake bypass
+    Description: An issue was discovered in Python before 3.8.18, 3.9.x before 3.9.18, 3.10.x before 3.10.13, and 3.11.x before 3.11.5. It primarily affects servers (such as HTTP servers) that use TLS client authentication. If a TLS server-side socket is created, receives data into the socket buffer, and then is closed quickly, there is a brief window where the SSLSocket instance will detect the socket as "not connected" and won't initiate a handshake, but buffered data will still be readable from the socket buffer. This data will not be authenticated if the server-side TLS peer is expecting client certificate authentication, and is indistinguishable from valid TLS stream data. Data is limited in size to the amount that will fit in the buffer. (The TLS connection cannot directly be used for data exfiltration because the vulnerable code path requires that the connection be closed on initialization of the SSLSocket.)
+    Severity: HIGH
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 8.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-40217
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
+    - https://www.cve.org/CVERecord?id=CVE-2023-40217
+    - https://www.python.org/dev/security/
+    PublishedDate: '2023-08-25T01:15:00Z'
+    LastModifiedDate: '2023-08-25T03:55:00Z'
   - VulnerabilityID: CVE-2007-4559
     PkgID: python3-libs@3.9.16-1.el9_2.1.x86_64
     PkgName: python3-libs
@@ -3447,6 +3583,9 @@
     CweIDs:
     - CWE-444
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:H
+        V3Score: 5.9
       nvd:
         V2Vector: AV:N/AC:H/Au:N/C:N/I:P/A:P
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:H
@@ -3520,6 +3659,9 @@
     CweIDs:
     - CWE-74
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
       nvd:
         V2Vector: AV:N/AC:L/Au:N/C:N/I:P/A:N
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
@@ -3565,6 +3707,9 @@
     CweIDs:
     - CWE-20
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
@@ -3600,6 +3745,9 @@
     CweIDs:
     - CWE-674
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -3630,6 +3778,9 @@
     Description: A flaw was found in python-pip in the way it handled Unicode separators in git references. A remote attacker could possibly use this issue to install a different revision on a repository. The highest threat from this vulnerability is to data integrity. This is fixed in python-pip version 21.1.
     Severity: LOW
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:N
+        V3Score: 5.7
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 5.7
@@ -3874,6 +4025,9 @@
     Description: sqlite3 v3.40.1 was discovered to contain a segmentation violation at /sqlite3_aflpp/shell.c.
     Severity: LOW
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
