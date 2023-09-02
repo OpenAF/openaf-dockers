@@ -1943,12 +1943,15 @@
                         │       │                  ├ [1]: https://github.com/openSUSE/libeconf/issues/177 
                         │       │                  ├ [2]: https://github.com/yangjiageng/PoC/blob/master/l
                         │       │                  │      ibeconf-PoC/read_file_503 
-                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-30079 
-                        │       │                  ├ [4]: https://raw.githubusercontent.com/yangjiageng/Po
+                        │       │                  ├ [3]: https://lists.fedoraproject.org/archives/list/pa
+                        │       │                  │      ckage-announce@lists.fedoraproject.org/message/SMG525
+                        │       │                  │      6D5I3GFA3RBAJQ2WYPJDYAIL74/ 
+                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-30079 
+                        │       │                  ├ [5]: https://raw.githubusercontent.com/yangjiageng/Po
                         │       │                  │      C/master/libeconf-PoC/tst-logindefs1.c 
-                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-30079 
+                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-30079 
                         │       ├ PublishedDate   : 2023-08-22T19:16:00Z 
-                        │       ╰ LastModifiedDate: 2023-08-26T02:24:00Z 
+                        │       ╰ LastModifiedDate: 2023-09-01T06:15:00Z 
                         ├ [44]  ╭ VulnerabilityID : CVE-2023-22652 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:4347 
                         │       ├ PkgID           : libeconf@0.4.1-2.el9.x86_64 
@@ -1978,20 +1981,24 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
                         │       │                           │           :N/I:N/A:H 
                         │       │                           ╰ V3Score : 6.5 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2023:4347 
-                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-22652 
-                        │       │                  ├ [2]: https://bugzilla.redhat.com/2212463 
-                        │       │                  ├ [3]: https://bugzilla.suse.com/show_bug.cgi?id=CVE-20
-                        │       │                  │      23-22652 
-                        │       │                  ├ [4]: https://errata.almalinux.org/9/ALSA-2023-4347.html 
-                        │       │                  ├ [5]: https://https://github.com/openSUSE/libeconf/iss
-                        │       │                  │      ues/177 
-                        │       │                  ├ [6]: https://linux.oracle.com/cve/CVE-2023-22652.html 
-                        │       │                  ├ [7]: https://linux.oracle.com/errata/ELSA-2023-4347.html 
-                        │       │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2023-22652 
-                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-22652 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4347 
+                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+                        │       │                  │       -22652 
+                        │       │                  ├ [2] : https://bugzilla.redhat.com/2212463 
+                        │       │                  ├ [3] : https://bugzilla.suse.com/show_bug.cgi?id=CVE-2
+                        │       │                  │       023-22652 
+                        │       │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2023-4347.html 
+                        │       │                  ├ [5] : https://https://github.com/openSUSE/libeconf/is
+                        │       │                  │       sues/177 
+                        │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-22652.html 
+                        │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-4347.html 
+                        │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+                        │       │                  │       ackage-announce@lists.fedoraproject.org/message/SMG5
+                        │       │                  │       256D5I3GFA3RBAJQ2WYPJDYAIL74/ 
+                        │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-22652 
+                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-22652 
                         │       ├ PublishedDate   : 2023-06-01T12:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-06-08T18:29:00Z 
+                        │       ╰ LastModifiedDate: 2023-09-01T06:15:00Z 
                         ├ [45]  ╭ VulnerabilityID : CVE-2022-27943 
                         │       ├ PkgID           : libgcc@11.3.1-4.3.el9.x86_64 
                         │       ├ PkgName         : libgcc 
@@ -2235,7 +2242,11 @@
                         │       │                   attackers to cause a Denial of Service (DoS) via supplying
                         │       │                   a crafted XML file. 
                         │       ├ Severity        : MEDIUM 
-                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+                        │       ├ CweIDs           ─ [0]: CWE-119 
+                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+                        │       │                  │        │           :N/I:N/A:H 
+                        │       │                  │        ╰ V3Score : 6.5 
+                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
                         │       │                           │           :N/I:N/A:H 
                         │       │                           ╰ V3Score : 5.5 
                         │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-39615 
@@ -2243,7 +2254,7 @@
                         │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-39615 
                         │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-39615 
                         │       ├ PublishedDate   : 2023-08-29T17:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-08-29T18:14:00Z 
+                        │       ╰ LastModifiedDate: 2023-08-31T20:15:00Z 
                         ├ [51]  ╭ VulnerabilityID : CVE-2022-4899 
                         │       ├ PkgID           : libzstd@1.5.1-2.el9.x86_64 
                         │       ├ PkgName         : libzstd 
@@ -3695,9 +3706,15 @@
                         │       │                    the connection be closed on initialization of the
                         │       │                   SSLSocket.) 
                         │       ├ Severity        : HIGH 
-                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C
-                        │       │                           │           :N/I:H/A:N 
-                        │       │                           ╰ V3Score : 8.6 
+                        │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+                        │       │                  │         │           C:L/I:N/A:N 
+                        │       │                  │         ╰ V3Score : 5.3 
+                        │       │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+                        │       │                  │         │           C:L/I:N/A:N 
+                        │       │                  │         ╰ V3Score : 5.3 
+                        │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/
+                        │       │                            │           C:N/I:H/A:N 
+                        │       │                            ╰ V3Score : 8.6 
                         │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-40217 
                         │       │                  ├ [1]: https://mail.python.org/archives/list/security-a
                         │       │                  │      nnounce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRER
@@ -3706,7 +3723,7 @@
                         │       │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2023-40217 
                         │       │                  ╰ [4]: https://www.python.org/dev/security/ 
                         │       ├ PublishedDate   : 2023-08-25T01:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-08-25T03:55:00Z 
+                        │       ╰ LastModifiedDate: 2023-08-31T14:35:00Z 
                         ├ [83]  ╭ VulnerabilityID : CVE-2007-4559 
                         │       ├ PkgID           : python-unversioned-command@3.9.16-1.el9_2.1.noarch 
                         │       ├ PkgName         : python-unversioned-command 
@@ -4081,9 +4098,15 @@
                         │       │                    the connection be closed on initialization of the
                         │       │                   SSLSocket.) 
                         │       ├ Severity        : HIGH 
-                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C
-                        │       │                           │           :N/I:H/A:N 
-                        │       │                           ╰ V3Score : 8.6 
+                        │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+                        │       │                  │         │           C:L/I:N/A:N 
+                        │       │                  │         ╰ V3Score : 5.3 
+                        │       │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+                        │       │                  │         │           C:L/I:N/A:N 
+                        │       │                  │         ╰ V3Score : 5.3 
+                        │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/
+                        │       │                            │           C:N/I:H/A:N 
+                        │       │                            ╰ V3Score : 8.6 
                         │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-40217 
                         │       │                  ├ [1]: https://mail.python.org/archives/list/security-a
                         │       │                  │      nnounce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRER
@@ -4092,7 +4115,7 @@
                         │       │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2023-40217 
                         │       │                  ╰ [4]: https://www.python.org/dev/security/ 
                         │       ├ PublishedDate   : 2023-08-25T01:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-08-25T03:55:00Z 
+                        │       ╰ LastModifiedDate: 2023-08-31T14:35:00Z 
                         ├ [89]  ╭ VulnerabilityID : CVE-2007-4559 
                         │       ├ PkgID           : python3@3.9.16-1.el9_2.1.x86_64 
                         │       ├ PkgName         : python3 
@@ -4467,9 +4490,15 @@
                         │       │                    the connection be closed on initialization of the
                         │       │                   SSLSocket.) 
                         │       ├ Severity        : HIGH 
-                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C
-                        │       │                           │           :N/I:H/A:N 
-                        │       │                           ╰ V3Score : 8.6 
+                        │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+                        │       │                  │         │           C:L/I:N/A:N 
+                        │       │                  │         ╰ V3Score : 5.3 
+                        │       │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+                        │       │                  │         │           C:L/I:N/A:N 
+                        │       │                  │         ╰ V3Score : 5.3 
+                        │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/
+                        │       │                            │           C:N/I:H/A:N 
+                        │       │                            ╰ V3Score : 8.6 
                         │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-40217 
                         │       │                  ├ [1]: https://mail.python.org/archives/list/security-a
                         │       │                  │      nnounce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRER
@@ -4478,7 +4507,7 @@
                         │       │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2023-40217 
                         │       │                  ╰ [4]: https://www.python.org/dev/security/ 
                         │       ├ PublishedDate   : 2023-08-25T01:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-08-25T03:55:00Z 
+                        │       ╰ LastModifiedDate: 2023-08-31T14:35:00Z 
                         ├ [95]  ╭ VulnerabilityID : CVE-2007-4559 
                         │       ├ PkgID           : python3-libs@3.9.16-1.el9_2.1.x86_64 
                         │       ├ PkgName         : python3-libs 
