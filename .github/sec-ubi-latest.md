@@ -313,14 +313,14 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
                         │       │                           │           :H/I:N/A:N 
                         │       │                           ╰ V3Score : 6.5 
-                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4838 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4864 
                         │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
                         │       │                  │       -32360 
                         │       │                  ├ [2] : https://bugzilla.redhat.com/2230495 
                         │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2230495 
                         │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
                         │       │                  │       CVE-2023-32360 
-                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4838.html 
+                        │       │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4864.html 
                         │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4864 
                         │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2023-32360.html 
                         │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2023-4864.html 
@@ -595,15 +595,15 @@
                         │       ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/47 
                         │       │                  ├ [1] : http://seclists.org/fulldisclosure/2023/Jul/48 
                         │       │                  ├ [2] : http://seclists.org/fulldisclosure/2023/Jul/52 
-                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4354 
+                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4523 
                         │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2023
                         │       │                  │       -28321 
-                        │       │                  ├ [5] : https://bugzilla.redhat.com/2196786 
-                        │       │                  ├ [6] : https://bugzilla.redhat.com/2196793 
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/2179092 
+                        │       │                  ├ [6] : https://bugzilla.redhat.com/2196786 
                         │       │                  ├ [7] : https://curl.se/docs/CVE-2023-28321.html 
                         │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
                         │       │                  │       CVE-2023-28321 
-                        │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-4354.html 
+                        │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2023-4523.html 
                         │       │                  ├ [10]: https://hackerone.com/reports/1950627 
                         │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-28321.html 
                         │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2023-4523.html 
@@ -858,14 +858,14 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:H 
                         │       │                           ╰ V3Score : 6.2 
-                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
                         │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
                         │       │                  │       -34969 
                         │       │                  ├ [2] : https://bugzilla.redhat.com/2213166 
                         │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2213166 
                         │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
                         │       │                  │       CVE-2023-34969 
-                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+                        │       │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
                         │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
                         │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
                         │       │                  │       es/457 
@@ -1158,44 +1158,43 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:H 
                         │       │                           ╰ V3Score : 7.5 
-                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4177 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4175 
                         │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
                         │       │                  │       -25193 
                         │       │                  ├ [2] : https://bugzilla.redhat.com/2167254 
                         │       │                  ├ [3] : https://bugzilla.redhat.com/2221626 
                         │       │                  ├ [4] : https://bugzilla.redhat.com/2221634 
-                        │       │                  ├ [5] : https://bugzilla.redhat.com/2221642 
-                        │       │                  ├ [6] : https://bugzilla.redhat.com/2221645 
-                        │       │                  ├ [7] : https://bugzilla.redhat.com/2221647 
-                        │       │                  ├ [8] : https://bugzilla.redhat.com/2223207 
-                        │       │                  ├ [9] : https://chromium.googlesource.com/chromium/src/
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/2221645 
+                        │       │                  ├ [6] : https://bugzilla.redhat.com/2221647 
+                        │       │                  ├ [7] : https://bugzilla.redhat.com/2223207 
+                        │       │                  ├ [8] : https://chromium.googlesource.com/chromium/src/
                         │       │                  │       +/e1f324aa681af54101c1f2d173d92adb80e37088/DEPS#361
                         │       │                  │       [m 
-                        │       │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                        │       │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
                         │       │                  │       CVE-2023-25193 
-                        │       │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-4177.html 
-                        │       │                  ├ [12]: https://github.com/harfbuzz/harfbuzz/blob/2822b
+                        │       │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2023-4175.html 
+                        │       │                  ├ [11]: https://github.com/harfbuzz/harfbuzz/blob/2822b
                         │       │                  │       589bc837fae6f66233e2cf2eef0f6ce8470/src/hb-ot-layout
                         │       │                  │       -gsubgpos.hh 
-                        │       │                  ├ [13]: https://github.com/harfbuzz/harfbuzz/commit/85b
+                        │       │                  ├ [12]: https://github.com/harfbuzz/harfbuzz/commit/85b
                         │       │                  │       e877925ddbf34f74a1229f3ca1716bb6170dc 
-                        │       │                  ├ [14]: https://github.com/harfbuzz/harfbuzz/commit/85b
+                        │       │                  ├ [13]: https://github.com/harfbuzz/harfbuzz/commit/85b
                         │       │                  │       e877925ddbf34f74a1229f3ca1716bb6170dc
                         │       │                  │       (reverted) 
-                        │       │                  ├ [15]: https://linux.oracle.com/cve/CVE-2023-25193.html 
-                        │       │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2023-4233.html 
-                        │       │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [14]: https://linux.oracle.com/cve/CVE-2023-25193.html 
+                        │       │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2023-4233.html 
+                        │       │                  ├ [16]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/KWCH
                         │       │                  │       WSICWVZSAXP2YAXM65JC2GR53547/ 
-                        │       │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/YZ5M
                         │       │                  │       2GSAIHFPLHYJXUPQ2QDJCLWXUGO3/ 
-                        │       │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-25193 
-                        │       │                  ├ [20]: https://security.netapp.com/advisory/ntap-20230
+                        │       │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2023-25193 
+                        │       │                  ├ [19]: https://security.netapp.com/advisory/ntap-20230
                         │       │                  │       725-0006/ 
-                        │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-6263-1 
-                        │       │                  ├ [22]: https://ubuntu.com/security/notices/USN-6272-1 
-                        │       │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2023-25193 
+                        │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-6263-1 
+                        │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-6272-1 
+                        │       │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-25193 
                         │       ├ PublishedDate   : 2023-02-04T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
                         ├ [29]  ╭ VulnerabilityID : CVE-2023-22049 
@@ -1243,7 +1242,7 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:L/A:N 
                         │       │                           ╰ V3Score : 3.7 
-                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4178 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4176 
                         │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
                         │       │                  │       -22049 
                         │       │                  ├ [2] : https://bugzilla.redhat.com/2221645 
@@ -1255,7 +1254,7 @@
                         │       │                  │       CVE-2023-22045 
                         │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
                         │       │                  │       CVE-2023-22049 
-                        │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-4178.html 
+                        │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2023-4176.html 
                         │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2023:4176 
                         │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-22049.html 
                         │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2023-4233.html 
@@ -1348,7 +1347,7 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
                         │       │                           │           :L/I:N/A:N 
                         │       │                           ╰ V3Score : 3.7 
-                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4178 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4176 
                         │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
                         │       │                  │       -22045 
                         │       │                  ├ [2] : https://bugzilla.redhat.com/2221645 
@@ -1360,7 +1359,7 @@
                         │       │                  │       CVE-2023-22045 
                         │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
                         │       │                  │       CVE-2023-22049 
-                        │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-4178.html 
+                        │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2023-4176.html 
                         │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2023:4176 
                         │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-22045.html 
                         │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2023-4233.html 
@@ -1682,15 +1681,15 @@
                         │       ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/47 
                         │       │                  ├ [1] : http://seclists.org/fulldisclosure/2023/Jul/48 
                         │       │                  ├ [2] : http://seclists.org/fulldisclosure/2023/Jul/52 
-                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4354 
+                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4523 
                         │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2023
                         │       │                  │       -28321 
-                        │       │                  ├ [5] : https://bugzilla.redhat.com/2196786 
-                        │       │                  ├ [6] : https://bugzilla.redhat.com/2196793 
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/2179092 
+                        │       │                  ├ [6] : https://bugzilla.redhat.com/2196786 
                         │       │                  ├ [7] : https://curl.se/docs/CVE-2023-28321.html 
                         │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
                         │       │                  │       CVE-2023-28321 
-                        │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-4354.html 
+                        │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2023-4523.html 
                         │       │                  ├ [10]: https://hackerone.com/reports/1950627 
                         │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-28321.html 
                         │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2023-4523.html 
@@ -2142,14 +2141,14 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:H 
                         │       │                           ╰ V3Score : 5.9 
-                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4349 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4529 
                         │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
                         │       │                  │       -28484 
                         │       │                  ├ [2] : https://bugzilla.redhat.com/2185984 
                         │       │                  ├ [3] : https://bugzilla.redhat.com/2185994 
                         │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
                         │       │                  │       CVE-2023-28484 
-                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4349.html 
+                        │       │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4529.html 
                         │       │                  ├ [6] : https://gitlab.gnome.org/GNOME/libxml2/-/commit
                         │       │                  │       /4c6922f763ad958c48ff66f82823ae21f2e92ee6 
                         │       │                  ├ [7] : https://gitlab.gnome.org/GNOME/libxml2/-/commit
@@ -2199,14 +2198,14 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:H 
                         │       │                           ╰ V3Score : 5.9 
-                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4349 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4529 
                         │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
                         │       │                  │       -29469 
                         │       │                  ├ [2] : https://bugzilla.redhat.com/2185984 
                         │       │                  ├ [3] : https://bugzilla.redhat.com/2185994 
                         │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
                         │       │                  │       CVE-2023-29469 
-                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4349.html 
+                        │       │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4529.html 
                         │       │                  ├ [6] : https://gitlab.gnome.org/GNOME/libxml2/-/commit
                         │       │                  │       /09a2dd453007f9c7205274623acdd73747c22d64 
                         │       │                  ├ [7] : https://gitlab.gnome.org/GNOME/libxml2/-/issues/510 
