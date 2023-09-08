@@ -1977,14 +1977,17 @@
                         │       │                  ├ [2]: https://github.com/yangjiageng/PoC/blob/master/l
                         │       │                  │      ibeconf-PoC/read_file_503 
                         │       │                  ├ [3]: https://lists.fedoraproject.org/archives/list/pa
+                        │       │                  │      ckage-announce@lists.fedoraproject.org/message/SDD5GL
+                        │       │                  │      5T3V5XZ3VFA4HPE6YGJ2K4HHPC/ 
+                        │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pa
                         │       │                  │      ckage-announce@lists.fedoraproject.org/message/SMG525
                         │       │                  │      6D5I3GFA3RBAJQ2WYPJDYAIL74/ 
-                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-30079 
-                        │       │                  ├ [5]: https://raw.githubusercontent.com/yangjiageng/Po
+                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-30079 
+                        │       │                  ├ [6]: https://raw.githubusercontent.com/yangjiageng/Po
                         │       │                  │      C/master/libeconf-PoC/tst-logindefs1.c 
-                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-30079 
+                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-30079 
                         │       ├ PublishedDate   : 2023-08-22T19:16:00Z 
-                        │       ╰ LastModifiedDate: 2023-09-01T06:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-09-07T02:15:00Z 
                         ├ [45]  ╭ VulnerabilityID : CVE-2023-22652 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:4347 
                         │       ├ PkgID           : libeconf@0.4.1-2.el9.x86_64 
@@ -2026,12 +2029,15 @@
                         │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-22652.html 
                         │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-4347.html 
                         │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+                        │       │                  │       ackage-announce@lists.fedoraproject.org/message/SDD5
+                        │       │                  │       GL5T3V5XZ3VFA4HPE6YGJ2K4HHPC/ 
+                        │       │                  ├ [9] : https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/SMG5
                         │       │                  │       256D5I3GFA3RBAJQ2WYPJDYAIL74/ 
-                        │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-22652 
-                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-22652 
+                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-22652 
+                        │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-22652 
                         │       ├ PublishedDate   : 2023-06-01T12:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-09-01T06:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-09-07T02:15:00Z 
                         ├ [46]  ╭ VulnerabilityID : CVE-2022-27943 
                         │       ├ PkgID           : libgcc@11.3.1-4.3.el9.x86_64 
                         │       ├ PkgName         : libgcc 
@@ -2269,11 +2275,14 @@
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-39615 
                         │       ├ Title           : crafted xml can cause global buffer overflow 
-                        │       ├ Description     : Xmlsoft Libxml2 v2.11.0 was discovered to contain a
-                        │       │                   global buffer overflow via the xmlSAX2StartElement()
-                        │       │                   function at /libxml2/SAX2.c. This vulnerability allows
-                        │       │                   attackers to cause a Denial of Service (DoS) via supplying
-                        │       │                   a crafted XML file. 
+                        │       ├ Description     : ** DISPUTED ** Xmlsoft Libxml2 v2.11.0 was discovered
+                        │       │                   to contain an out-of-bounds read via the
+                        │       │                   xmlSAX2StartElement() function at /libxml2/SAX2.c. This
+                        │       │                   vulnerability allows attackers to cause a Denial of Service
+                        │       │                    (DoS) via supplying a crafted XML file. NOTE: the vendor's
+                        │       │                    position is that the product does not support the legacy
+                        │       │                   SAX1 interface with custom callbacks; there is a crash even
+                        │       │                    without crafted input. 
                         │       ├ Severity        : MEDIUM 
                         │       ├ CweIDs           ─ [0]: CWE-119 
                         │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
@@ -2287,7 +2296,7 @@
                         │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-39615 
                         │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-39615 
                         │       ├ PublishedDate   : 2023-08-29T17:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-08-31T20:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-09-06T17:15:00Z 
                         ├ [52]  ╭ VulnerabilityID : CVE-2022-4899 
                         │       ├ PkgID           : libzstd@1.5.1-2.el9.x86_64 
                         │       ├ PkgName         : libzstd 
@@ -2559,14 +2568,15 @@
                         │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-29491 
                         │       │                  ├ [7] : https://security.netapp.com/advisory/ntap-20230
                         │       │                  │       517-0009/ 
-                        │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-6099-1 
-                        │       │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-29491 
-                        │       │                  ├ [10]: https://www.openwall.com/lists/oss-security/202
+                        │       │                  ├ [8] : https://support.apple.com/kb/HT213843 
+                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6099-1 
+                        │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-29491 
+                        │       │                  ├ [11]: https://www.openwall.com/lists/oss-security/202
                         │       │                  │       3/04/12/5 
-                        │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/202
+                        │       │                  ╰ [12]: https://www.openwall.com/lists/oss-security/202
                         │       │                          3/04/13/4 
                         │       ├ PublishedDate   : 2023-04-14T01:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-05-17T20:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-09-06T21:15:00Z 
                         ├ [60]  ╭ VulnerabilityID : CVE-2022-29458 
                         │       ├ PkgID           : ncurses-base@6.2-8.20210508.el9.noarch 
                         │       ├ PkgName         : ncurses-base 
@@ -2840,14 +2850,15 @@
                         │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-29491 
                         │       │                  ├ [7] : https://security.netapp.com/advisory/ntap-20230
                         │       │                  │       517-0009/ 
-                        │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-6099-1 
-                        │       │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-29491 
-                        │       │                  ├ [10]: https://www.openwall.com/lists/oss-security/202
+                        │       │                  ├ [8] : https://support.apple.com/kb/HT213843 
+                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6099-1 
+                        │       │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-29491 
+                        │       │                  ├ [11]: https://www.openwall.com/lists/oss-security/202
                         │       │                  │       3/04/12/5 
-                        │       │                  ╰ [11]: https://www.openwall.com/lists/oss-security/202
+                        │       │                  ╰ [12]: https://www.openwall.com/lists/oss-security/202
                         │       │                          3/04/13/4 
                         │       ├ PublishedDate   : 2023-04-14T01:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-05-17T20:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-09-06T21:15:00Z 
                         ├ [68]  ╭ VulnerabilityID : CVE-2022-29458 
                         │       ├ PkgID           : ncurses-libs@6.2-8.20210508.el9.x86_64 
                         │       ├ PkgName         : ncurses-libs 
