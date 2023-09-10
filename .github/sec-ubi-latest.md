@@ -1446,10 +1446,12 @@
                         │       │                  ├ [4]: https://github.com/krb5/krb5/compare/krb5-1.21-f
                         │       │                  │      inal...krb5-1.21.1-final 
                         │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
-                        │       │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
-                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
+                        │       │                  ├ [6]: https://security.netapp.com/advisory/ntap-202309
+                        │       │                  │      08-0004/ 
+                        │       │                  ├ [7]: https://web.mit.edu/kerberos/www/advisories/ 
+                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
                         │       ├ PublishedDate   : 2023-08-07T19:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
+                        │       ╰ LastModifiedDate: 2023-09-08T17:15:00Z 
                         ├ [34]  ╭ VulnerabilityID : CVE-2023-39975 
                         │       ├ PkgID           : krb5-libs@1.20.1-9.el9_2.x86_64 
                         │       ├ PkgName         : krb5-libs 
