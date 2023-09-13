@@ -297,6 +297,7 @@
     - https://support.apple.com/en-us/HT213758
     - https://support.apple.com/en-us/HT213759
     - https://support.apple.com/en-us/HT213760
+    - https://ubuntu.com/security/notices/USN-6361-1
     - https://www.cve.org/CVERecord?id=CVE-2023-32360
     PublishedDate: '2023-06-23T18:15:00Z'
     LastModifiedDate: '2023-07-27T04:15:00Z'
@@ -730,6 +731,7 @@
     - https://bugs.astron.com/view.php?id=310
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48554
     - https://nvd.nist.gov/vuln/detail/CVE-2022-48554
+    - https://ubuntu.com/security/notices/USN-6359-1
     - https://www.cve.org/CVERecord?id=CVE-2022-48554
     - https://www.debian.org/security/2023/dsa-5489
     PublishedDate: '2023-08-22T19:16:00Z'
@@ -854,6 +856,195 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-32665
     - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-32665
+  - VulnerabilityID: CVE-2023-4527
+    PkgID: glibc@2.34-60.el9.x86_64
+    PkgName: glibc
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4527
+    Title: Stack read overflow in getaddrinfo in no-aaaa mode
+    Description: A flaw was found in glibc. When the getaddrinfo function is called with the AF_UNSPEC address family and the system is configured with no-aaaa mode via /etc/resolv.conf, a DNS response via TCP larger than 2048 bytes can potentially disclose stack contents through the function returned address data, and may cause a crash.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4527
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4527
+    - https://www.cve.org/CVERecord?id=CVE-2023-4527
+  - VulnerabilityID: CVE-2023-4806
+    PkgID: glibc@2.34-60.el9.x86_64
+    PkgName: glibc
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4806
+    Title: potential use-after-free in getaddrinfo()
+    Description: A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r hook without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4806
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4806
+    - https://www.cve.org/CVERecord?id=CVE-2023-4806
+  - VulnerabilityID: CVE-2023-4813
+    PkgID: glibc@2.34-60.el9.x86_64
+    PkgName: glibc
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4813
+    Title: potential use-after-free in gaih_inet()
+    Description: A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4813
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
+    - https://www.cve.org/CVERecord?id=CVE-2023-4813
+  - VulnerabilityID: CVE-2023-4527
+    PkgID: glibc-common@2.34-60.el9.x86_64
+    PkgName: glibc-common
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4527
+    Title: Stack read overflow in getaddrinfo in no-aaaa mode
+    Description: A flaw was found in glibc. When the getaddrinfo function is called with the AF_UNSPEC address family and the system is configured with no-aaaa mode via /etc/resolv.conf, a DNS response via TCP larger than 2048 bytes can potentially disclose stack contents through the function returned address data, and may cause a crash.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4527
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4527
+    - https://www.cve.org/CVERecord?id=CVE-2023-4527
+  - VulnerabilityID: CVE-2023-4806
+    PkgID: glibc-common@2.34-60.el9.x86_64
+    PkgName: glibc-common
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4806
+    Title: potential use-after-free in getaddrinfo()
+    Description: A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r hook without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4806
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4806
+    - https://www.cve.org/CVERecord?id=CVE-2023-4806
+  - VulnerabilityID: CVE-2023-4813
+    PkgID: glibc-common@2.34-60.el9.x86_64
+    PkgName: glibc-common
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4813
+    Title: potential use-after-free in gaih_inet()
+    Description: A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4813
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
+    - https://www.cve.org/CVERecord?id=CVE-2023-4813
+  - VulnerabilityID: CVE-2023-4527
+    PkgID: glibc-minimal-langpack@2.34-60.el9.x86_64
+    PkgName: glibc-minimal-langpack
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4527
+    Title: Stack read overflow in getaddrinfo in no-aaaa mode
+    Description: A flaw was found in glibc. When the getaddrinfo function is called with the AF_UNSPEC address family and the system is configured with no-aaaa mode via /etc/resolv.conf, a DNS response via TCP larger than 2048 bytes can potentially disclose stack contents through the function returned address data, and may cause a crash.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4527
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4527
+    - https://www.cve.org/CVERecord?id=CVE-2023-4527
+  - VulnerabilityID: CVE-2023-4806
+    PkgID: glibc-minimal-langpack@2.34-60.el9.x86_64
+    PkgName: glibc-minimal-langpack
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4806
+    Title: potential use-after-free in getaddrinfo()
+    Description: A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r hook without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4806
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4806
+    - https://www.cve.org/CVERecord?id=CVE-2023-4806
+  - VulnerabilityID: CVE-2023-4813
+    PkgID: glibc-minimal-langpack@2.34-60.el9.x86_64
+    PkgName: glibc-minimal-langpack
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4813
+    Title: potential use-after-free in gaih_inet()
+    Description: A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4813
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
+    - https://www.cve.org/CVERecord?id=CVE-2023-4813
   - VulnerabilityID: CVE-2021-43618
     PkgID: gmp@6.2.0-10.el9.x86_64
     PkgName: gmp
@@ -1225,10 +1416,13 @@
     PublishedDate: '2023-05-29T20:15:00Z'
     LastModifiedDate: '2023-06-05T16:40:00Z'
   - VulnerabilityID: CVE-2023-2603
+    VendorIDs:
+    - RHSA-2023:5071
     PkgID: libcap@2.48-8.el9.x86_64
     PkgName: libcap
     InstalledVersion: 2.48-8.el9
-    Status: affected
+    FixedVersion: 2.48-9.el9_2
+    Status: fixed
     Layer:
       Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
       DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
@@ -1269,10 +1463,13 @@
     PublishedDate: '2023-06-06T20:15:00Z'
     LastModifiedDate: '2023-06-21T19:02:00Z'
   - VulnerabilityID: CVE-2023-2602
+    VendorIDs:
+    - RHSA-2023:5071
     PkgID: libcap@2.48-8.el9.x86_64
     PkgName: libcap
     InstalledVersion: 2.48-8.el9
-    Status: affected
+    FixedVersion: 2.48-9.el9_2
+    Status: fixed
     Layer:
       Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
       DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
@@ -4080,38 +4277,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-35939
     PublishedDate: '2022-08-26T16:15:00Z'
     LastModifiedDate: '2023-02-04T01:16:00Z'
-  - VulnerabilityID: CVE-2023-36191
-    PkgID: sqlite-libs@3.34.1-6.el9_1.x86_64
-    PkgName: sqlite-libs
-    InstalledVersion: 3.34.1-6.el9_1
-    Status: affected
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36191
-    Title: CLI fault on missing -nonce
-    Description: sqlite3 v3.40.1 was discovered to contain a segmentation violation at /sqlite3_aflpp/shell.c.
-    Severity: LOW
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-36191
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KREKCQTJDVI2AEBG5ECZPSOQXIC2L5XL/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UBAHED5YFJPRGSEKNZIYHZBGSVHGEHOH/
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-36191
-    - https://www.cve.org/CVERecord?id=CVE-2023-36191
-    - https://www.sqlite.org/forum/forumpost/19f55ef73b
-    PublishedDate: '2023-06-23T02:15:00Z'
-    LastModifiedDate: '2023-07-04T04:15:00Z'
   - VulnerabilityID: CVE-2023-28486
     PkgID: sudo@1.9.5p2-9.el9.x86_64
     PkgName: sudo
