@@ -284,12 +284,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4864
+    - https://access.redhat.com/errata/RHSA-2023:4838
     - https://access.redhat.com/security/cve/CVE-2023-32360
     - https://bugzilla.redhat.com/2230495
     - https://bugzilla.redhat.com/show_bug.cgi?id=2230495
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32360
-    - https://errata.almalinux.org/8/ALSA-2023-4864.html
+    - https://errata.almalinux.org/9/ALSA-2023-4838.html
     - https://errata.rockylinux.org/RLSA-2023:4864
     - https://linux.oracle.com/cve/CVE-2023-32360.html
     - https://linux.oracle.com/errata/ELSA-2023-4864.html
@@ -487,13 +487,13 @@
     - http://seclists.org/fulldisclosure/2023/Jul/47
     - http://seclists.org/fulldisclosure/2023/Jul/48
     - http://seclists.org/fulldisclosure/2023/Jul/52
-    - https://access.redhat.com/errata/RHSA-2023:4523
+    - https://access.redhat.com/errata/RHSA-2023:4354
     - https://access.redhat.com/security/cve/CVE-2023-28321
-    - https://bugzilla.redhat.com/2179092
     - https://bugzilla.redhat.com/2196786
+    - https://bugzilla.redhat.com/2196793
     - https://curl.se/docs/CVE-2023-28321.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28321
-    - https://errata.almalinux.org/8/ALSA-2023-4523.html
+    - https://errata.almalinux.org/9/ALSA-2023-4354.html
     - https://hackerone.com/reports/1950627
     - https://linux.oracle.com/cve/CVE-2023-28321.html
     - https://linux.oracle.com/errata/ELSA-2023-4523.html
@@ -689,18 +689,19 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4498
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/8/ALSA-2023-4498.html
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
     - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BZYCDRMD7B4XO4HF6C6YTLH4YUD7TANP/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-34969
+    - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:00Z'
     LastModifiedDate: '2023-06-24T03:15:00Z'
@@ -760,6 +761,7 @@
     - https://mail.gnu.org/archive/html/bug-gawk/2022-08/msg00000.html
     - https://mail.gnu.org/archive/html/bug-gawk/2022-08/msg00023.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4156
+    - https://ubuntu.com/security/notices/USN-6373-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4156
   - VulnerabilityID: CVE-2023-29499
     PkgID: glib2@2.68.4-6.el9.x86_64
@@ -772,7 +774,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29499
     Title: GVariant offset table entry size is not checked in is_normal()
-    Description: A flaw was found in GLib. GVariant deserialization fails to validate that the input conforms to the expected format, leading to denial of service.
+    Description: A flaw was found in GLib. GVariant deserialization fails to validate that the input conforms to the expected format, leading to denial of service.A flaw was found in GLib. GVariant deserialization fails to validate that the input conforms to the expected format, leading to denial of service.
     Severity: LOW
     CVSS:
       redhat:
@@ -796,7 +798,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-32611
     Title: g_variant_byteswap() can take a long time with some non-normal inputs
-    Description: A flaw was found in GLib. GVariant deserialization is vulnerable to a slowdown issue where a crafted GVariant can cause excessive processing, leading to denial of service.
+    Description: A flaw was found in GLib. GVariant deserialization is vulnerable to a slowdown issue where a crafted GVariant can cause excessive processing, leading to denial of service.A flaw was found in GLib. GVariant deserialization is vulnerable to a slowdown issue where a crafted GVariant can cause excessive processing, leading to denial of service.
     Severity: LOW
     CVSS:
       redhat:
@@ -820,7 +822,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-32636
     Title: Timeout in fuzz_variant_text
-    Description: No description is available for this CVE.
+    Description: A flaw was found in glib, where the gvariant deserialization code is vulnerable to a denial of service introduced by additional input validation added to resolve CVE-2023-29499. The offset table validation may be very slow. This bug does not affect any released version of glib but does affect glib distributors who followed the guidance of glib developers to backport the initial fix for CVE-2023-29499.
     Severity: LOW
     CVSS:
       redhat:
@@ -843,7 +845,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-32665
     Title: GVariant deserialisation does not match spec for non-normal data
-    Description: A flaw was found in GLib. GVariant deserialization is vulnerable to an exponential blowup issue where a crafted GVariant can cause excessive processing, leading to denial of service.
+    Description: A flaw was found in GLib. GVariant deserialization is vulnerable to an exponential blowup issue where a crafted GVariant can cause excessive processing, leading to denial of service.A flaw was found in GLib. GVariant deserialization is vulnerable to an exponential blowup issue where a crafted GVariant can cause excessive processing, leading to denial of service.
     Severity: LOW
     CVSS:
       redhat:
@@ -888,7 +890,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4806
     Title: potential use-after-free in getaddrinfo()
-    Description: A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r hook without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.
+    Description: A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -909,7 +911,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4813
     Title: potential use-after-free in gaih_inet()
-    Description: A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.
+    Description: A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -917,8 +919,11 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2023-4813
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237798
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
     - https://www.cve.org/CVERecord?id=CVE-2023-4813
+    PublishedDate: '2023-09-12T22:15:00Z'
+    LastModifiedDate: '2023-09-12T22:15:00Z'
   - VulnerabilityID: CVE-2023-4527
     PkgID: glibc-common@2.34-60.el9.x86_64
     PkgName: glibc-common
@@ -951,7 +956,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4806
     Title: potential use-after-free in getaddrinfo()
-    Description: A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r hook without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.
+    Description: A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -972,7 +977,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4813
     Title: potential use-after-free in gaih_inet()
-    Description: A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.
+    Description: A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -980,8 +985,11 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2023-4813
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237798
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
     - https://www.cve.org/CVERecord?id=CVE-2023-4813
+    PublishedDate: '2023-09-12T22:15:00Z'
+    LastModifiedDate: '2023-09-12T22:15:00Z'
   - VulnerabilityID: CVE-2023-4527
     PkgID: glibc-minimal-langpack@2.34-60.el9.x86_64
     PkgName: glibc-minimal-langpack
@@ -1014,7 +1022,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4806
     Title: potential use-after-free in getaddrinfo()
-    Description: A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r hook without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.
+    Description: A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -1035,7 +1043,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4813
     Title: potential use-after-free in gaih_inet()
-    Description: A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.
+    Description: A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -1043,8 +1051,11 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2023-4813
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237798
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
     - https://www.cve.org/CVERecord?id=CVE-2023-4813
+    PublishedDate: '2023-09-12T22:15:00Z'
+    LastModifiedDate: '2023-09-12T22:15:00Z'
   - VulnerabilityID: CVE-2021-43618
     PkgID: gmp@6.2.0-10.el9.x86_64
     PkgName: gmp
@@ -1142,17 +1153,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4175
+    - https://access.redhat.com/errata/RHSA-2023:4177
     - https://access.redhat.com/security/cve/CVE-2023-25193
     - https://bugzilla.redhat.com/2167254
     - https://bugzilla.redhat.com/2221626
     - https://bugzilla.redhat.com/2221634
+    - https://bugzilla.redhat.com/2221642
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
     - https://bugzilla.redhat.com/2223207
     - https://chromium.googlesource.com/chromium/src/+/e1f324aa681af54101c1f2d173d92adb80e37088/DEPS#361
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25193
-    - https://errata.almalinux.org/8/ALSA-2023-4175.html
+    - https://errata.almalinux.org/9/ALSA-2023-4177.html
     - https://github.com/harfbuzz/harfbuzz/blob/2822b589bc837fae6f66233e2cf2eef0f6ce8470/src/hb-ot-layout-gsubgpos.hh
     - https://github.com/harfbuzz/harfbuzz/commit/85be877925ddbf34f74a1229f3ca1716bb6170dc
     - https://github.com/harfbuzz/harfbuzz/commit/85be877925ddbf34f74a1229f3ca1716bb6170dc (reverted)
@@ -1221,7 +1233,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4176
+    - https://access.redhat.com/errata/RHSA-2023:4178
     - https://access.redhat.com/security/cve/CVE-2023-22049
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
@@ -1230,7 +1242,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221647
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049
-    - https://errata.almalinux.org/8/ALSA-2023-4176.html
+    - https://errata.almalinux.org/9/ALSA-2023-4178.html
     - https://errata.rockylinux.org/RLSA-2023:4176
     - https://linux.oracle.com/cve/CVE-2023-22049.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
@@ -1299,7 +1311,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4176
+    - https://access.redhat.com/errata/RHSA-2023:4178
     - https://access.redhat.com/security/cve/CVE-2023-22045
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
@@ -1308,7 +1320,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221647
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049
-    - https://errata.almalinux.org/8/ALSA-2023-4176.html
+    - https://errata.almalinux.org/9/ALSA-2023-4178.html
     - https://errata.rockylinux.org/RLSA-2023:4176
     - https://linux.oracle.com/cve/CVE-2023-22045.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
@@ -1440,7 +1452,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4524
+    - https://access.redhat.com/errata/RHSA-2023:5071
     - https://access.redhat.com/security/cve/CVE-2023-2603
     - https://bugzilla.redhat.com/2209113
     - https://bugzilla.redhat.com/2209114
@@ -1448,7 +1460,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2209114
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2602
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2603
-    - https://errata.almalinux.org/8/ALSA-2023-4524.html
+    - https://errata.almalinux.org/9/ALSA-2023-5071.html
     - https://errata.rockylinux.org/RLSA-2023:4524
     - https://linux.oracle.com/cve/CVE-2023-2603.html
     - https://linux.oracle.com/errata/ELSA-2023-5071.html
@@ -1487,7 +1499,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.3
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4524
+    - https://access.redhat.com/errata/RHSA-2023:5071
     - https://access.redhat.com/security/cve/CVE-2023-2602
     - https://bugzilla.redhat.com/2209113
     - https://bugzilla.redhat.com/2209114
@@ -1495,7 +1507,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2209114
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2602
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2603
-    - https://errata.almalinux.org/8/ALSA-2023-4524.html
+    - https://errata.almalinux.org/9/ALSA-2023-5071.html
     - https://errata.rockylinux.org/RLSA-2023:4524
     - https://linux.oracle.com/cve/CVE-2023-2602.html
     - https://linux.oracle.com/errata/ELSA-2023-5071.html
@@ -1578,13 +1590,13 @@
     - http://seclists.org/fulldisclosure/2023/Jul/47
     - http://seclists.org/fulldisclosure/2023/Jul/48
     - http://seclists.org/fulldisclosure/2023/Jul/52
-    - https://access.redhat.com/errata/RHSA-2023:4523
+    - https://access.redhat.com/errata/RHSA-2023:4354
     - https://access.redhat.com/security/cve/CVE-2023-28321
-    - https://bugzilla.redhat.com/2179092
     - https://bugzilla.redhat.com/2196786
+    - https://bugzilla.redhat.com/2196793
     - https://curl.se/docs/CVE-2023-28321.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28321
-    - https://errata.almalinux.org/8/ALSA-2023-4523.html
+    - https://errata.almalinux.org/9/ALSA-2023-4354.html
     - https://hackerone.com/reports/1950627
     - https://linux.oracle.com/cve/CVE-2023-28321.html
     - https://linux.oracle.com/errata/ELSA-2023-4523.html
@@ -1785,11 +1797,12 @@
     - https://github.com/yangjiageng/PoC/blob/master/libeconf-PoC/read_file_503
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SDD5GL5T3V5XZ3VFA4HPE6YGJ2K4HHPC/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SMG5256D5I3GFA3RBAJQ2WYPJDYAIL74/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAYW7X753Z6GOJKVLQPXBDHISN6ZT233/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-30079
     - https://raw.githubusercontent.com/yangjiageng/PoC/master/libeconf-PoC/tst-logindefs1.c
     - https://www.cve.org/CVERecord?id=CVE-2023-30079
     PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-09-07T02:15:00Z'
+    LastModifiedDate: '2023-09-13T03:15:00Z'
   - VulnerabilityID: CVE-2023-22652
     VendorIDs:
     - RHSA-2023:4347
@@ -1829,10 +1842,11 @@
     - https://linux.oracle.com/errata/ELSA-2023-4347.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SDD5GL5T3V5XZ3VFA4HPE6YGJ2K4HHPC/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SMG5256D5I3GFA3RBAJQ2WYPJDYAIL74/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAYW7X753Z6GOJKVLQPXBDHISN6ZT233/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-22652
     - https://www.cve.org/CVERecord?id=CVE-2023-22652
     PublishedDate: '2023-06-01T12:15:00Z'
-    LastModifiedDate: '2023-09-07T02:15:00Z'
+    LastModifiedDate: '2023-09-13T03:15:00Z'
   - VulnerabilityID: CVE-2023-4039
     PkgID: libgcc@11.3.1-4.3.el9.x86_64
     PkgName: libgcc
@@ -1844,9 +1858,28 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4039
     Title: '-fstack-protector fails to guard dynamic stack allocations on ARM64'
-    Description: |-
-      A failure in the -fstack-protector feature in GCC-based toolchains that target AArch64 allows an attacker to exploit an existing buffer overflow in dynamically-sized local variables in your application without this being detected. This stack-protector failure only applies to C99-style dynamically-sized local variables or those created using alloca(). The stack-protector operates as intended for statically-sized local variables. The default behavior when the stack-protector detects an overflow is to terminate your application, resulting in controlled loss of availability. An attacker who can exploit a buffer overflow without triggering the stack-protector might be able to change program flow control to cause an uncontrolled loss of availability or to go further and affect confidentiality or integrity.A vulnerability was found in GCC. The GCC's stack protection feature, enabled with the flag -fstack-protector, aims to detect buffer overflows in C/C++ function local variables that might allow an attacker to overwrite saved registers on the stack. If an attacker can modify saved register values, it may be possible for them to subvert program flow control. The feature operates by placing a canary value between local variables and saved registers on the stack on function entry and triggers an error handler on function exit if the canary value has been unexpectedly modified. 
-      When targeting AArch64, this feature did not protect the saved registers from overflows in C99-style dynamically-sized local variables and alloca() objects. Other local variables, including statically-sized local arrays, are not affected because of their different placement on the stack relative to saved registers.
+    Description: |+
+
+
+      A failure in the -fstack-protector feature in GCC-based toolchains 
+      that target AArch64 allows an attacker to exploit an existing buffer 
+      overflow in dynamically-sized local variables in your application 
+      without this being detected. This stack-protector failure only applies 
+      to C99-style dynamically-sized local variables or those created using 
+      alloca(). The stack-protector operates as intended for statically-sized 
+      local variables.
+
+      The default behavior when the stack-protector 
+      detects an overflow is to terminate your application, resulting in 
+      controlled loss of availability. An attacker who can exploit a buffer 
+      overflow without triggering the stack-protector might be able to change 
+      program flow control to cause an uncontrolled loss of availability or to
+       go further and affect confidentiality or integrity.
+
+
+
+
+
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -1860,6 +1893,8 @@
     - https://linux.oracle.com/errata/ELSA-2023-28766.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
     - https://www.cve.org/CVERecord?id=CVE-2023-4039
+    PublishedDate: '2023-09-13T09:15:00Z'
+    LastModifiedDate: '2023-09-13T09:15:00Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc@11.3.1-4.3.el9.x86_64
     PkgName: libgcc
@@ -1938,9 +1973,28 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4039
     Title: '-fstack-protector fails to guard dynamic stack allocations on ARM64'
-    Description: |-
-      A failure in the -fstack-protector feature in GCC-based toolchains that target AArch64 allows an attacker to exploit an existing buffer overflow in dynamically-sized local variables in your application without this being detected. This stack-protector failure only applies to C99-style dynamically-sized local variables or those created using alloca(). The stack-protector operates as intended for statically-sized local variables. The default behavior when the stack-protector detects an overflow is to terminate your application, resulting in controlled loss of availability. An attacker who can exploit a buffer overflow without triggering the stack-protector might be able to change program flow control to cause an uncontrolled loss of availability or to go further and affect confidentiality or integrity.A vulnerability was found in GCC. The GCC's stack protection feature, enabled with the flag -fstack-protector, aims to detect buffer overflows in C/C++ function local variables that might allow an attacker to overwrite saved registers on the stack. If an attacker can modify saved register values, it may be possible for them to subvert program flow control. The feature operates by placing a canary value between local variables and saved registers on the stack on function entry and triggers an error handler on function exit if the canary value has been unexpectedly modified. 
-      When targeting AArch64, this feature did not protect the saved registers from overflows in C99-style dynamically-sized local variables and alloca() objects. Other local variables, including statically-sized local arrays, are not affected because of their different placement on the stack relative to saved registers.
+    Description: |+
+
+
+      A failure in the -fstack-protector feature in GCC-based toolchains 
+      that target AArch64 allows an attacker to exploit an existing buffer 
+      overflow in dynamically-sized local variables in your application 
+      without this being detected. This stack-protector failure only applies 
+      to C99-style dynamically-sized local variables or those created using 
+      alloca(). The stack-protector operates as intended for statically-sized 
+      local variables.
+
+      The default behavior when the stack-protector 
+      detects an overflow is to terminate your application, resulting in 
+      controlled loss of availability. An attacker who can exploit a buffer 
+      overflow without triggering the stack-protector might be able to change 
+      program flow control to cause an uncontrolled loss of availability or to
+       go further and affect confidentiality or integrity.
+
+
+
+
+
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -1954,6 +2008,8 @@
     - https://linux.oracle.com/errata/ELSA-2023-28766.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
     - https://www.cve.org/CVERecord?id=CVE-2023-4039
+    PublishedDate: '2023-09-13T09:15:00Z'
+    LastModifiedDate: '2023-09-13T09:15:00Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++@11.3.1-4.3.el9.x86_64
     PkgName: libstdc++
@@ -2016,12 +2072,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4529
+    - https://access.redhat.com/errata/RHSA-2023:4349
     - https://access.redhat.com/security/cve/CVE-2023-28484
     - https://bugzilla.redhat.com/2185984
     - https://bugzilla.redhat.com/2185994
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28484
-    - https://errata.almalinux.org/8/ALSA-2023-4529.html
+    - https://errata.almalinux.org/9/ALSA-2023-4349.html
     - https://gitlab.gnome.org/GNOME/libxml2/-/commit/4c6922f763ad958c48ff66f82823ae21f2e92ee6
     - https://gitlab.gnome.org/GNOME/libxml2/-/commit/647e072ea0a2f12687fa05c172f4c4713fdb0c4f
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/491
@@ -2062,12 +2118,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4529
+    - https://access.redhat.com/errata/RHSA-2023:4349
     - https://access.redhat.com/security/cve/CVE-2023-29469
     - https://bugzilla.redhat.com/2185984
     - https://bugzilla.redhat.com/2185994
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29469
-    - https://errata.almalinux.org/8/ALSA-2023-4529.html
+    - https://errata.almalinux.org/9/ALSA-2023-4349.html
     - https://gitlab.gnome.org/GNOME/libxml2/-/commit/09a2dd453007f9c7205274623acdd73747c22d64
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/510
     - https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2.10.4
@@ -4665,7 +4721,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-22916
     Title: Denial of service via decompression of crafted file
-    Description: An issue discovered in XZ 5.2.5 allows attackers to cause a denial of service via decompression of crafted file.
+    Description: 'An issue discovered in XZ 5.2.5 allows attackers to cause a denial of service via decompression of a crafted file. NOTE: the software maintainers are unable to reproduce this as of 2023-09-12 because the example crafted file is temporarily offline.'
     Severity: LOW
     CVSS:
       nvd:
@@ -4676,9 +4732,94 @@
         V3Score: 5.5
     References:
     - https://access.redhat.com/security/cve/CVE-2020-22916
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2234987
+    - https://bugzilla.suse.com/show_bug.cgi?id=1214590
     - https://github.com/snappyJack/CVE-request-XZ-5.2.5-has-denial-of-service-vulnerability
+    - https://github.com/tukaani-project/xz/issues/61
     - https://nvd.nist.gov/vuln/detail/CVE-2020-22916
+    - https://security-tracker.debian.org/tracker/CVE-2020-22916
     - https://tukaani.org/xz/
     - https://www.cve.org/CVERecord?id=CVE-2020-22916
     PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-08-25T17:53:00Z'
+    LastModifiedDate: '2023-09-12T16:15:00Z'
+- Target: Java
+  Class: lang-pkgs
+  Type: jar
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2023-42503
+    PkgName: org.apache.commons:commons-compress
+    PkgPath: openaf/openaf.jar
+    InstalledVersion: 1.23.0
+    FixedVersion: 1.24.0
+    Status: fixed
+    Layer:
+      Digest: sha256:5645a13ba8a08be86c63ee6b3165db3f398e967511358e87a6e8b2a8e4dae045
+      DiffID: sha256:f58e415565014664ecefaed580e14eb561469db1174fae520e4c213cf32c53d7
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42503
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Title: Apache Commons Compress denial of service vulnerability
+    Description: "Improper Input Validation, Uncontrolled Resource Consumption vulnerability in Apache Commons Compress in TAR parsing.This issue affects Apache Commons Compress:\_from 1.22 before 1.24.0.\n\nUsers are recommended to upgrade to version 1.24.0, which fixes the issue.\n\nA third party can create a malformed TAR file by manipulating file modification times headers, which when parsed with Apache Commons Compress, will cause a denial of service issue via CPU consumption.\n\nIn version 1.22 of Apache Commons Compress, support was added for file modification times with higher precision (issue # COMPRESS-612 [1]). The format for the PAX extended headers carrying this data consists of two numbers separated by a period [2], indicating seconds and subsecond precision (for example “1647221103.5998539”). The impacted fields are “atime”, “ctime”, “mtime” and “LIBARCHIVE.creationtime”. No input validation is performed prior to the parsing of header values.\n\nParsing of these numbers uses the BigDecimal [3] class from the JDK which has a publicly known algorithmic complexity issue when doing operations on large numbers, causing denial of service (see issue # JDK-6560193 [4]). A third party can manipulate file time headers in a TAR file by placing a number with a very long fraction (300,000 digits) or a number with exponent notation (such as “9e9999999”) within a file modification time header, and the parsing of files with these headers will take hours instead of seconds, leading to a denial of service via exhaustion of CPU resources. This issue is similar to CVE-2012-2098 [5].\n\n[1]:  https://issues.apache.org/jira/browse/COMPRESS-612 \n[2]:  https://pubs.opengroup.org/onlinepubs/9699919799/utilities/pax.html#tag_20_92_13_05 \n[3]:  https://docs.oracle.com/javase/8/docs/api/java/math/BigDecimal.html \n[4]:  https://bugs.openjdk.org/browse/JDK-6560193 \n[5]:  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2098 \n\nOnly applications using CompressorStreamFactory class (with auto-detection of file types), TarArchiveInputStream and TarFile classes to parse TAR files are impacted. Since this code was introduced in v1.22, only that version and later versions are impacted.\n\n"
+    Severity: MEDIUM
+    References:
+    - https://github.com/apache/commons-compress
+    - https://github.com/apache/commons-compress/commit/aae38bfb820159ae7a0b792e779571f6a46b3889
+    - https://lists.apache.org/thread/5xwcyr600mn074vgxq92tjssrchmc93c
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-42503
+  - VulnerabilityID: CVE-2023-40167
+    PkgName: org.eclipse.jetty:jetty-http
+    PkgPath: openaf/openaf.jar
+    InstalledVersion: 9.4.51.v20230217
+    FixedVersion: 9.4.52, 10.0.16, 11.0.16, 12.0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:5645a13ba8a08be86c63ee6b3165db3f398e967511358e87a6e8b2a8e4dae045
+      DiffID: sha256:f58e415565014664ecefaed580e14eb561469db1174fae520e4c213cf32c53d7
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-40167
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Title: Jetty accepts "+" prefixed value in Content-Length
+    Description: |-
+      ### Impact
+
+      Jetty accepts the '+' character proceeding the content-length value in a HTTP/1 header field.  This is more permissive than allowed by the RFC and other servers routinely reject such requests with 400 responses.  There is no known exploit scenario, but it is conceivable that request smuggling could result if jetty is used in combination with a server that does not close the connection after sending such a 400 response.
+
+      ### Workarounds
+
+      There is no workaround as there is no known exploit scenario.   
+
+      ### Original Report 
+
+      [RFC 9110 Secion 8.6](https://www.rfc-editor.org/rfc/rfc9110#section-8.6) defined the value of Content-Length header should be a string of 0-9 digits. However we found that Jetty accepts "+" prefixed Content-Length, which could lead to potential HTTP request smuggling.
+
+      Payload:
+
+      ```
+       POST / HTTP/1.1
+       Host: a.com
+       Content-Length: +16
+       Connection: close
+       ​
+       0123456789abcdef
+      ```
+
+      When sending this payload to Jetty, it can successfully parse and identify the length.
+
+      When sending this payload to NGINX, Apache HTTPd or other HTTP servers/parsers, they will return 400 bad request.
+
+      This behavior can lead to HTTP request smuggling and can be leveraged to bypass WAF or IDS.
+    Severity: MEDIUM
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://github.com/eclipse/jetty.project
+    - https://github.com/eclipse/jetty.project/security/advisories/GHSA-hmr7-m48g-48f6
+    - https://www.rfc-editor.org/rfc/rfc9110#section-8.6
