@@ -923,7 +923,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
     - https://www.cve.org/CVERecord?id=CVE-2023-4813
     PublishedDate: '2023-09-12T22:15:00Z'
-    LastModifiedDate: '2023-09-12T22:15:00Z'
+    LastModifiedDate: '2023-09-13T12:55:00Z'
   - VulnerabilityID: CVE-2023-4527
     PkgID: glibc-common@2.34-60.el9.x86_64
     PkgName: glibc-common
@@ -989,7 +989,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
     - https://www.cve.org/CVERecord?id=CVE-2023-4813
     PublishedDate: '2023-09-12T22:15:00Z'
-    LastModifiedDate: '2023-09-12T22:15:00Z'
+    LastModifiedDate: '2023-09-13T12:55:00Z'
   - VulnerabilityID: CVE-2023-4527
     PkgID: glibc-minimal-langpack@2.34-60.el9.x86_64
     PkgName: glibc-minimal-langpack
@@ -1055,7 +1055,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
     - https://www.cve.org/CVERecord?id=CVE-2023-4813
     PublishedDate: '2023-09-12T22:15:00Z'
-    LastModifiedDate: '2023-09-12T22:15:00Z'
+    LastModifiedDate: '2023-09-13T12:55:00Z'
   - VulnerabilityID: CVE-2021-43618
     PkgID: gmp@6.2.0-10.el9.x86_64
     PkgName: gmp
@@ -1385,6 +1385,9 @@
     - CWE-415
     CVSS:
       nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.8
+      redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.8
     References:
@@ -1894,7 +1897,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
     - https://www.cve.org/CVERecord?id=CVE-2023-4039
     PublishedDate: '2023-09-13T09:15:00Z'
-    LastModifiedDate: '2023-09-13T09:15:00Z'
+    LastModifiedDate: '2023-09-13T12:55:00Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc@11.3.1-4.3.el9.x86_64
     PkgName: libgcc
@@ -2009,7 +2012,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
     - https://www.cve.org/CVERecord?id=CVE-2023-4039
     PublishedDate: '2023-09-13T09:15:00Z'
-    LastModifiedDate: '2023-09-13T09:15:00Z'
+    LastModifiedDate: '2023-09-13T12:55:00Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++@11.3.1-4.3.el9.x86_64
     PkgName: libstdc++
@@ -4714,7 +4717,7 @@
     PkgID: xz-libs@5.2.5-8.el9_0.x86_64
     PkgName: xz-libs
     InstalledVersion: 5.2.5-8.el9_0
-    Status: under_investigation
+    Status: affected
     Layer:
       Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
       DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
@@ -4734,6 +4737,7 @@
     - https://access.redhat.com/security/cve/CVE-2020-22916
     - https://bugzilla.redhat.com/show_bug.cgi?id=2234987
     - https://bugzilla.suse.com/show_bug.cgi?id=1214590
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-22916
     - https://github.com/snappyJack/CVE-request-XZ-5.2.5-has-denial-of-service-vulnerability
     - https://github.com/tukaani-project/xz/issues/61
     - https://nvd.nist.gov/vuln/detail/CVE-2020-22916
@@ -4761,14 +4765,19 @@
       ID: ghsa
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
-    Title: Apache Commons Compress denial of service vulnerability
+    Title: Improper Input Validation, Uncontrolled Resource Consumption vulnerabi ...
     Description: "Improper Input Validation, Uncontrolled Resource Consumption vulnerability in Apache Commons Compress in TAR parsing.This issue affects Apache Commons Compress:\_from 1.22 before 1.24.0.\n\nUsers are recommended to upgrade to version 1.24.0, which fixes the issue.\n\nA third party can create a malformed TAR file by manipulating file modification times headers, which when parsed with Apache Commons Compress, will cause a denial of service issue via CPU consumption.\n\nIn version 1.22 of Apache Commons Compress, support was added for file modification times with higher precision (issue # COMPRESS-612 [1]). The format for the PAX extended headers carrying this data consists of two numbers separated by a period [2], indicating seconds and subsecond precision (for example “1647221103.5998539”). The impacted fields are “atime”, “ctime”, “mtime” and “LIBARCHIVE.creationtime”. No input validation is performed prior to the parsing of header values.\n\nParsing of these numbers uses the BigDecimal [3] class from the JDK which has a publicly known algorithmic complexity issue when doing operations on large numbers, causing denial of service (see issue # JDK-6560193 [4]). A third party can manipulate file time headers in a TAR file by placing a number with a very long fraction (300,000 digits) or a number with exponent notation (such as “9e9999999”) within a file modification time header, and the parsing of files with these headers will take hours instead of seconds, leading to a denial of service via exhaustion of CPU resources. This issue is similar to CVE-2012-2098 [5].\n\n[1]:  https://issues.apache.org/jira/browse/COMPRESS-612 \n[2]:  https://pubs.opengroup.org/onlinepubs/9699919799/utilities/pax.html#tag_20_92_13_05 \n[3]:  https://docs.oracle.com/javase/8/docs/api/java/math/BigDecimal.html \n[4]:  https://bugs.openjdk.org/browse/JDK-6560193 \n[5]:  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2098 \n\nOnly applications using CompressorStreamFactory class (with auto-detection of file types), TarArchiveInputStream and TarFile classes to parse TAR files are impacted. Since this code was introduced in v1.22, only that version and later versions are impacted.\n\n"
     Severity: MEDIUM
+    CweIDs:
+    - CWE-20
+    - CWE-400
     References:
     - https://github.com/apache/commons-compress
     - https://github.com/apache/commons-compress/commit/aae38bfb820159ae7a0b792e779571f6a46b3889
     - https://lists.apache.org/thread/5xwcyr600mn074vgxq92tjssrchmc93c
     - https://nvd.nist.gov/vuln/detail/CVE-2023-42503
+    PublishedDate: '2023-09-14T08:15:00Z'
+    LastModifiedDate: '2023-09-14T13:01:00Z'
   - VulnerabilityID: CVE-2023-40167
     PkgName: org.eclipse.jetty:jetty-http
     PkgPath: openaf/openaf.jar
