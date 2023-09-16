@@ -1151,7 +1151,7 @@
 │                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
 │                       │       ├ PublishedDate   : 2023-09-12T22:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-12T22:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-13T12:55:00Z 
 │                       ├ [29]  ╭ VulnerabilityID : CVE-2023-4527 
 │                       │       ├ PkgID           : glibc-common@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-common 
@@ -1234,7 +1234,7 @@
 │                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
 │                       │       ├ PublishedDate   : 2023-09-12T22:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-12T22:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-13T12:55:00Z 
 │                       ├ [32]  ╭ VulnerabilityID : CVE-2023-4527 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
@@ -1317,7 +1317,7 @@
 │                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
 │                       │       ├ PublishedDate   : 2023-09-12T22:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-12T22:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-13T12:55:00Z 
 │                       ├ [35]  ╭ VulnerabilityID : CVE-2021-43618 
 │                       │       ├ PkgID           : gmp@6.2.0-10.el9.x86_64 
 │                       │       ├ PkgName         : gmp 
@@ -1742,9 +1742,12 @@
 │                       │       │                   to another. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-415 
-│                       │       ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/
-│                       │       │                        │           I:H/A:H 
-│                       │       │                        ╰ V3Score : 8.8 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 8.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 8.8 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-39975 
 │                       │       │                  ├ [1]: https://github.com/krb5/krb5/commit/88a1701b423c
 │                       │       │                  │      13991a8064feeb26952d3641d840 
@@ -2383,7 +2386,7 @@
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-4039 
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4039 
 │                       │       ├ PublishedDate   : 2023-09-13T09:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-13T09:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-13T12:55:00Z 
 │                       ├ [56]  ╭ VulnerabilityID : CVE-2022-27943 
 │                       │       ├ PkgID           : libgcc@11.3.1-4.3.el9.x86_64 
 │                       │       ├ PkgName         : libgcc 
@@ -2519,7 +2522,7 @@
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-4039 
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4039 
 │                       │       ├ PublishedDate   : 2023-09-13T09:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-13T09:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-13T12:55:00Z 
 │                       ├ [59]  ╭ VulnerabilityID : CVE-2022-27943 
 │                       │       ├ PkgID           : libstdc++@11.3.1-4.3.el9.x86_64 
 │                       │       ├ PkgName         : libstdc++ 
@@ -5958,7 +5961,7 @@
 │                               ├ PkgID           : xz-libs@5.2.5-8.el9_0.x86_64 
 │                               ├ PkgName         : xz-libs 
 │                               ├ InstalledVersion: 5.2.5-8.el9_0 
-│                               ├ Status          : under_investigation 
+│                               ├ Status          : affected 
 │                               ├ Layer            ╭ Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc
 │                               │                  │         534cc313627f8113246276bf0f 
 │                               │                  ╰ DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e
@@ -5981,14 +5984,16 @@
 │                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2020-22916 
 │                               │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2234987 
 │                               │                  ├ [2]: https://bugzilla.suse.com/show_bug.cgi?id=1214590 
-│                               │                  ├ [3]: https://github.com/snappyJack/CVE-request-XZ-5.2
+│                               │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                               │                  │      VE-2020-22916 
+│                               │                  ├ [4]: https://github.com/snappyJack/CVE-request-XZ-5.2
 │                               │                  │      .5-has-denial-of-service-vulnerability 
-│                               │                  ├ [4]: https://github.com/tukaani-project/xz/issues/61 
-│                               │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2020-22916 
-│                               │                  ├ [6]: https://security-tracker.debian.org/tracker/CVE-
+│                               │                  ├ [5]: https://github.com/tukaani-project/xz/issues/61 
+│                               │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2020-22916 
+│                               │                  ├ [7]: https://security-tracker.debian.org/tracker/CVE-
 │                               │                  │      2020-22916 
-│                               │                  ├ [7]: https://tukaani.org/xz/ 
-│                               │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2020-22916 
+│                               │                  ├ [8]: https://tukaani.org/xz/ 
+│                               │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2020-22916 
 │                               ├ PublishedDate   : 2023-08-22T19:16:00Z 
 │                               ╰ LastModifiedDate: 2023-09-12T16:15:00Z 
 ╰ [1] ╭ Target         : Java 
@@ -6010,7 +6015,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areview
                         │     │                          ed+ecosystem%3Amaven 
-                        │     ├ Title           : Apache Commons Compress denial of service vulnerability 
+                        │     ├ Title           : Improper Input Validation, Uncontrolled Resource
+                        │     │                   Consumption vulnerabi ... 
                         │     ├ Description     : Improper Input Validation, Uncontrolled Resource
                         │     │                   Consumption vulnerability in Apache Commons Compress in TAR
                         │     │                   parsing.This issue affects Apache Commons Compress: from 1.22
@@ -6066,12 +6072,16 @@
                         │     │                   
                         │     │                    
                         │     ├ Severity        : MEDIUM 
-                        │     ╰ References       ╭ [0]: https://github.com/apache/commons-compress 
-                        │                        ├ [1]: https://github.com/apache/commons-compress/commit/
-                        │                        │      aae38bfb820159ae7a0b792e779571f6a46b3889 
-                        │                        ├ [2]: https://lists.apache.org/thread/5xwcyr600mn074vgxq
-                        │                        │      92tjssrchmc93c 
-                        │                        ╰ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-42503 
+                        │     ├ CweIDs           ╭ [0]: CWE-20 
+                        │     │                  ╰ [1]: CWE-400 
+                        │     ├ References       ╭ [0]: https://github.com/apache/commons-compress 
+                        │     │                  ├ [1]: https://github.com/apache/commons-compress/commit/
+                        │     │                  │      aae38bfb820159ae7a0b792e779571f6a46b3889 
+                        │     │                  ├ [2]: https://lists.apache.org/thread/5xwcyr600mn074vgxq
+                        │     │                  │      92tjssrchmc93c 
+                        │     │                  ╰ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-42503 
+                        │     ├ PublishedDate   : 2023-09-14T08:15:00Z 
+                        │     ╰ LastModifiedDate: 2023-09-14T13:01:00Z 
                         ╰ [1] ╭ VulnerabilityID : CVE-2023-40167 
                               ├ PkgName         : org.eclipse.jetty:jetty-http 
                               ├ PkgPath         : openaf/openaf.jar 
