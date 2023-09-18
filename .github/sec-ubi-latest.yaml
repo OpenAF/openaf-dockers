@@ -297,6 +297,7 @@
     - https://support.apple.com/en-us/HT213758
     - https://support.apple.com/en-us/HT213759
     - https://support.apple.com/en-us/HT213760
+    - https://ubuntu.com/security/notices/USN-6361-1
     - https://www.cve.org/CVERecord?id=CVE-2023-32360
     PublishedDate: '2023-06-23T18:15:00Z'
     LastModifiedDate: '2023-07-27T04:15:00Z'
@@ -504,6 +505,7 @@
     - https://support.apple.com/kb/HT213844
     - https://support.apple.com/kb/HT213845
     - https://ubuntu.com/security/notices/USN-6237-1
+    - https://ubuntu.com/security/notices/USN-6237-3
     - https://www.cve.org/CVERecord?id=CVE-2023-28321
     PublishedDate: '2023-05-26T21:15:00Z'
     LastModifiedDate: '2023-08-02T16:46:00Z'
@@ -657,6 +659,7 @@
     - https://support.apple.com/kb/HT213844
     - https://support.apple.com/kb/HT213845
     - https://ubuntu.com/security/notices/USN-6237-1
+    - https://ubuntu.com/security/notices/USN-6237-3
     - https://www.cve.org/CVERecord?id=CVE-2023-28322
     PublishedDate: '2023-05-26T21:15:00Z'
     LastModifiedDate: '2023-08-02T16:46:00Z'
@@ -698,6 +701,7 @@
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BZYCDRMD7B4XO4HF6C6YTLH4YUD7TANP/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-34969
+    - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:00Z'
     LastModifiedDate: '2023-06-24T03:15:00Z'
@@ -728,6 +732,7 @@
     - https://bugs.astron.com/view.php?id=310
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48554
     - https://nvd.nist.gov/vuln/detail/CVE-2022-48554
+    - https://ubuntu.com/security/notices/USN-6359-1
     - https://www.cve.org/CVERecord?id=CVE-2022-48554
     - https://www.debian.org/security/2023/dsa-5489
     PublishedDate: '2023-08-22T19:16:00Z'
@@ -756,6 +761,7 @@
     - https://mail.gnu.org/archive/html/bug-gawk/2022-08/msg00000.html
     - https://mail.gnu.org/archive/html/bug-gawk/2022-08/msg00023.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4156
+    - https://ubuntu.com/security/notices/USN-6373-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4156
   - VulnerabilityID: CVE-2023-29499
     PkgID: glib2@2.68.4-6.el9.x86_64
@@ -768,7 +774,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29499
     Title: GVariant offset table entry size is not checked in is_normal()
-    Description: A flaw was found in GLib. GVariant deserialization fails to validate that the input conforms to the expected format, leading to denial of service.
+    Description: A flaw was found in GLib. GVariant deserialization fails to validate that the input conforms to the expected format, leading to denial of service.A flaw was found in GLib. GVariant deserialization fails to validate that the input conforms to the expected format, leading to denial of service.
     Severity: LOW
     CVSS:
       redhat:
@@ -792,7 +798,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-32611
     Title: g_variant_byteswap() can take a long time with some non-normal inputs
-    Description: A flaw was found in GLib. GVariant deserialization is vulnerable to a slowdown issue where a crafted GVariant can cause excessive processing, leading to denial of service.
+    Description: A flaw was found in GLib. GVariant deserialization is vulnerable to a slowdown issue where a crafted GVariant can cause excessive processing, leading to denial of service.A flaw was found in GLib. GVariant deserialization is vulnerable to a slowdown issue where a crafted GVariant can cause excessive processing, leading to denial of service.
     Severity: LOW
     CVSS:
       redhat:
@@ -816,7 +822,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-32636
     Title: Timeout in fuzz_variant_text
-    Description: No description is available for this CVE.
+    Description: A flaw was found in glib, where the gvariant deserialization code is vulnerable to a denial of service introduced by additional input validation added to resolve CVE-2023-29499. The offset table validation may be very slow. This bug does not affect any released version of glib but does affect glib distributors who followed the guidance of glib developers to backport the initial fix for CVE-2023-29499.
     Severity: LOW
     CVSS:
       redhat:
@@ -839,7 +845,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-32665
     Title: GVariant deserialisation does not match spec for non-normal data
-    Description: A flaw was found in GLib. GVariant deserialization is vulnerable to an exponential blowup issue where a crafted GVariant can cause excessive processing, leading to denial of service.
+    Description: A flaw was found in GLib. GVariant deserialization is vulnerable to an exponential blowup issue where a crafted GVariant can cause excessive processing, leading to denial of service.A flaw was found in GLib. GVariant deserialization is vulnerable to an exponential blowup issue where a crafted GVariant can cause excessive processing, leading to denial of service.
     Severity: LOW
     CVSS:
       redhat:
@@ -852,6 +858,204 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-32665
     - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-32665
+  - VulnerabilityID: CVE-2023-4527
+    PkgID: glibc@2.34-60.el9.x86_64
+    PkgName: glibc
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4527
+    Title: Stack read overflow in getaddrinfo in no-aaaa mode
+    Description: A flaw was found in glibc. When the getaddrinfo function is called with the AF_UNSPEC address family and the system is configured with no-aaaa mode via /etc/resolv.conf, a DNS response via TCP larger than 2048 bytes can potentially disclose stack contents through the function returned address data, and may cause a crash.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4527
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4527
+    - https://www.cve.org/CVERecord?id=CVE-2023-4527
+  - VulnerabilityID: CVE-2023-4806
+    PkgID: glibc@2.34-60.el9.x86_64
+    PkgName: glibc
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4806
+    Title: potential use-after-free in getaddrinfo()
+    Description: A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4806
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4806
+    - https://www.cve.org/CVERecord?id=CVE-2023-4806
+  - VulnerabilityID: CVE-2023-4813
+    PkgID: glibc@2.34-60.el9.x86_64
+    PkgName: glibc
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4813
+    Title: potential use-after-free in gaih_inet()
+    Description: A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4813
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237798
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
+    - https://www.cve.org/CVERecord?id=CVE-2023-4813
+    PublishedDate: '2023-09-12T22:15:00Z'
+    LastModifiedDate: '2023-09-13T12:55:00Z'
+  - VulnerabilityID: CVE-2023-4527
+    PkgID: glibc-common@2.34-60.el9.x86_64
+    PkgName: glibc-common
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4527
+    Title: Stack read overflow in getaddrinfo in no-aaaa mode
+    Description: A flaw was found in glibc. When the getaddrinfo function is called with the AF_UNSPEC address family and the system is configured with no-aaaa mode via /etc/resolv.conf, a DNS response via TCP larger than 2048 bytes can potentially disclose stack contents through the function returned address data, and may cause a crash.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4527
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4527
+    - https://www.cve.org/CVERecord?id=CVE-2023-4527
+  - VulnerabilityID: CVE-2023-4806
+    PkgID: glibc-common@2.34-60.el9.x86_64
+    PkgName: glibc-common
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4806
+    Title: potential use-after-free in getaddrinfo()
+    Description: A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4806
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4806
+    - https://www.cve.org/CVERecord?id=CVE-2023-4806
+  - VulnerabilityID: CVE-2023-4813
+    PkgID: glibc-common@2.34-60.el9.x86_64
+    PkgName: glibc-common
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4813
+    Title: potential use-after-free in gaih_inet()
+    Description: A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4813
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237798
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
+    - https://www.cve.org/CVERecord?id=CVE-2023-4813
+    PublishedDate: '2023-09-12T22:15:00Z'
+    LastModifiedDate: '2023-09-13T12:55:00Z'
+  - VulnerabilityID: CVE-2023-4527
+    PkgID: glibc-minimal-langpack@2.34-60.el9.x86_64
+    PkgName: glibc-minimal-langpack
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4527
+    Title: Stack read overflow in getaddrinfo in no-aaaa mode
+    Description: A flaw was found in glibc. When the getaddrinfo function is called with the AF_UNSPEC address family and the system is configured with no-aaaa mode via /etc/resolv.conf, a DNS response via TCP larger than 2048 bytes can potentially disclose stack contents through the function returned address data, and may cause a crash.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4527
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4527
+    - https://www.cve.org/CVERecord?id=CVE-2023-4527
+  - VulnerabilityID: CVE-2023-4806
+    PkgID: glibc-minimal-langpack@2.34-60.el9.x86_64
+    PkgName: glibc-minimal-langpack
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4806
+    Title: potential use-after-free in getaddrinfo()
+    Description: A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4806
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4806
+    - https://www.cve.org/CVERecord?id=CVE-2023-4806
+  - VulnerabilityID: CVE-2023-4813
+    PkgID: glibc-minimal-langpack@2.34-60.el9.x86_64
+    PkgName: glibc-minimal-langpack
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4813
+    Title: potential use-after-free in gaih_inet()
+    Description: A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4813
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237798
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
+    - https://www.cve.org/CVERecord?id=CVE-2023-4813
+    PublishedDate: '2023-09-12T22:15:00Z'
+    LastModifiedDate: '2023-09-13T12:55:00Z'
   - VulnerabilityID: CVE-2021-43618
     PkgID: gmp@6.2.0-10.el9.x86_64
     PkgName: gmp
@@ -1183,6 +1387,9 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.8
     References:
     - https://access.redhat.com/security/cve/CVE-2023-39975
     - https://github.com/krb5/krb5/commit/88a1701b423c13991a8064feeb26952d3641d840
@@ -1223,10 +1430,13 @@
     PublishedDate: '2023-05-29T20:15:00Z'
     LastModifiedDate: '2023-06-05T16:40:00Z'
   - VulnerabilityID: CVE-2023-2603
+    VendorIDs:
+    - RHSA-2023:5071
     PkgID: libcap@2.48-8.el9.x86_64
     PkgName: libcap
     InstalledVersion: 2.48-8.el9
-    Status: affected
+    FixedVersion: 2.48-9.el9_2
+    Status: fixed
     Layer:
       Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
       DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
@@ -1245,7 +1455,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4524
+    - https://access.redhat.com/errata/RHSA-2023:5071
     - https://access.redhat.com/security/cve/CVE-2023-2603
     - https://bugzilla.redhat.com/2209113
     - https://bugzilla.redhat.com/2209114
@@ -1253,10 +1463,10 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2209114
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2602
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2603
-    - https://errata.almalinux.org/8/ALSA-2023-4524.html
+    - https://errata.almalinux.org/9/ALSA-2023-5071.html
     - https://errata.rockylinux.org/RLSA-2023:4524
     - https://linux.oracle.com/cve/CVE-2023-2603.html
-    - https://linux.oracle.com/errata/ELSA-2023-4524.html
+    - https://linux.oracle.com/errata/ELSA-2023-5071.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2603
     - https://sites.google.com/site/fullycapable/release-notes-for-libcap#h.iuvg7sbjg8pe
     - https://ubuntu.com/security/notices/USN-6166-1
@@ -1267,10 +1477,13 @@
     PublishedDate: '2023-06-06T20:15:00Z'
     LastModifiedDate: '2023-06-21T19:02:00Z'
   - VulnerabilityID: CVE-2023-2602
+    VendorIDs:
+    - RHSA-2023:5071
     PkgID: libcap@2.48-8.el9.x86_64
     PkgName: libcap
     InstalledVersion: 2.48-8.el9
-    Status: affected
+    FixedVersion: 2.48-9.el9_2
+    Status: fixed
     Layer:
       Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
       DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
@@ -1289,7 +1502,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.3
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4524
+    - https://access.redhat.com/errata/RHSA-2023:5071
     - https://access.redhat.com/security/cve/CVE-2023-2602
     - https://bugzilla.redhat.com/2209113
     - https://bugzilla.redhat.com/2209114
@@ -1297,10 +1510,10 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2209114
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2602
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2603
-    - https://errata.almalinux.org/8/ALSA-2023-4524.html
+    - https://errata.almalinux.org/9/ALSA-2023-5071.html
     - https://errata.rockylinux.org/RLSA-2023:4524
     - https://linux.oracle.com/cve/CVE-2023-2602.html
-    - https://linux.oracle.com/errata/ELSA-2023-4524.html
+    - https://linux.oracle.com/errata/ELSA-2023-5071.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2602
     - https://sites.google.com/site/fullycapable/release-notes-for-libcap#h.iuvg7sbjg8pe
     - https://ubuntu.com/security/notices/USN-6166-1
@@ -1398,6 +1611,7 @@
     - https://support.apple.com/kb/HT213844
     - https://support.apple.com/kb/HT213845
     - https://ubuntu.com/security/notices/USN-6237-1
+    - https://ubuntu.com/security/notices/USN-6237-3
     - https://www.cve.org/CVERecord?id=CVE-2023-28321
     PublishedDate: '2023-05-26T21:15:00Z'
     LastModifiedDate: '2023-08-02T16:46:00Z'
@@ -1551,6 +1765,7 @@
     - https://support.apple.com/kb/HT213844
     - https://support.apple.com/kb/HT213845
     - https://ubuntu.com/security/notices/USN-6237-1
+    - https://ubuntu.com/security/notices/USN-6237-3
     - https://www.cve.org/CVERecord?id=CVE-2023-28322
     PublishedDate: '2023-05-26T21:15:00Z'
     LastModifiedDate: '2023-08-02T16:46:00Z'
@@ -1585,11 +1800,12 @@
     - https://github.com/yangjiageng/PoC/blob/master/libeconf-PoC/read_file_503
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SDD5GL5T3V5XZ3VFA4HPE6YGJ2K4HHPC/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SMG5256D5I3GFA3RBAJQ2WYPJDYAIL74/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAYW7X753Z6GOJKVLQPXBDHISN6ZT233/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-30079
     - https://raw.githubusercontent.com/yangjiageng/PoC/master/libeconf-PoC/tst-logindefs1.c
     - https://www.cve.org/CVERecord?id=CVE-2023-30079
     PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-09-07T02:15:00Z'
+    LastModifiedDate: '2023-09-13T03:15:00Z'
   - VulnerabilityID: CVE-2023-22652
     VendorIDs:
     - RHSA-2023:4347
@@ -1629,10 +1845,59 @@
     - https://linux.oracle.com/errata/ELSA-2023-4347.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SDD5GL5T3V5XZ3VFA4HPE6YGJ2K4HHPC/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SMG5256D5I3GFA3RBAJQ2WYPJDYAIL74/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAYW7X753Z6GOJKVLQPXBDHISN6ZT233/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-22652
     - https://www.cve.org/CVERecord?id=CVE-2023-22652
     PublishedDate: '2023-06-01T12:15:00Z'
-    LastModifiedDate: '2023-09-07T02:15:00Z'
+    LastModifiedDate: '2023-09-13T03:15:00Z'
+  - VulnerabilityID: CVE-2023-4039
+    PkgID: libgcc@11.3.1-4.3.el9.x86_64
+    PkgName: libgcc
+    InstalledVersion: 11.3.1-4.3.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4039
+    Title: '-fstack-protector fails to guard dynamic stack allocations on ARM64'
+    Description: |+
+
+
+      A failure in the -fstack-protector feature in GCC-based toolchains 
+      that target AArch64 allows an attacker to exploit an existing buffer 
+      overflow in dynamically-sized local variables in your application 
+      without this being detected. This stack-protector failure only applies 
+      to C99-style dynamically-sized local variables or those created using 
+      alloca(). The stack-protector operates as intended for statically-sized 
+      local variables.
+
+      The default behavior when the stack-protector 
+      detects an overflow is to terminate your application, resulting in 
+      controlled loss of availability. An attacker who can exploit a buffer 
+      overflow without triggering the stack-protector might be able to change 
+      program flow control to cause an uncontrolled loss of availability or to
+       go further and affect confidentiality or integrity.
+
+
+
+
+
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4039
+    - https://developer.arm.com/Arm%20Security%20Center/GCC%20Stack%20Protector%20Vulnerability%20AArch64
+    - https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-x7ch-h5rf-w2mf
+    - https://linux.oracle.com/cve/CVE-2023-4039.html
+    - https://linux.oracle.com/errata/ELSA-2023-28766.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
+    - https://www.cve.org/CVERecord?id=CVE-2023-4039
+    PublishedDate: '2023-09-13T09:15:00Z'
+    LastModifiedDate: '2023-09-13T12:55:00Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc@11.3.1-4.3.el9.x86_64
     PkgName: libgcc
@@ -1700,6 +1965,54 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3857
     PublishedDate: '2023-03-06T23:15:00Z'
     LastModifiedDate: '2023-04-06T13:15:00Z'
+  - VulnerabilityID: CVE-2023-4039
+    PkgID: libstdc++@11.3.1-4.3.el9.x86_64
+    PkgName: libstdc++
+    InstalledVersion: 11.3.1-4.3.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4039
+    Title: '-fstack-protector fails to guard dynamic stack allocations on ARM64'
+    Description: |+
+
+
+      A failure in the -fstack-protector feature in GCC-based toolchains 
+      that target AArch64 allows an attacker to exploit an existing buffer 
+      overflow in dynamically-sized local variables in your application 
+      without this being detected. This stack-protector failure only applies 
+      to C99-style dynamically-sized local variables or those created using 
+      alloca(). The stack-protector operates as intended for statically-sized 
+      local variables.
+
+      The default behavior when the stack-protector 
+      detects an overflow is to terminate your application, resulting in 
+      controlled loss of availability. An attacker who can exploit a buffer 
+      overflow without triggering the stack-protector might be able to change 
+      program flow control to cause an uncontrolled loss of availability or to
+       go further and affect confidentiality or integrity.
+
+
+
+
+
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4039
+    - https://developer.arm.com/Arm%20Security%20Center/GCC%20Stack%20Protector%20Vulnerability%20AArch64
+    - https://github.com/metaredteam/external-disclosures/security/advisories/GHSA-x7ch-h5rf-w2mf
+    - https://linux.oracle.com/cve/CVE-2023-4039.html
+    - https://linux.oracle.com/errata/ELSA-2023-28766.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4039
+    - https://www.cve.org/CVERecord?id=CVE-2023-4039
+    PublishedDate: '2023-09-13T09:15:00Z'
+    LastModifiedDate: '2023-09-13T12:55:00Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++@11.3.1-4.3.el9.x86_64
     PkgName: libstdc++
@@ -2100,12 +2413,14 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-29491
     - https://security.netapp.com/advisory/ntap-20230517-0009/
     - https://support.apple.com/kb/HT213843
+    - https://support.apple.com/kb/HT213844
+    - https://support.apple.com/kb/HT213845
     - https://ubuntu.com/security/notices/USN-6099-1
     - https://www.cve.org/CVERecord?id=CVE-2023-29491
     - https://www.openwall.com/lists/oss-security/2023/04/12/5
     - https://www.openwall.com/lists/oss-security/2023/04/13/4
     PublishedDate: '2023-04-14T01:15:00Z'
-    LastModifiedDate: '2023-09-06T21:15:00Z'
+    LastModifiedDate: '2023-09-09T22:15:00Z'
   - VulnerabilityID: CVE-2022-29458
     PkgID: ncurses-base@6.2-8.20210508.el9.noarch
     PkgName: ncurses-base
@@ -2351,12 +2666,14 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-29491
     - https://security.netapp.com/advisory/ntap-20230517-0009/
     - https://support.apple.com/kb/HT213843
+    - https://support.apple.com/kb/HT213844
+    - https://support.apple.com/kb/HT213845
     - https://ubuntu.com/security/notices/USN-6099-1
     - https://www.cve.org/CVERecord?id=CVE-2023-29491
     - https://www.openwall.com/lists/oss-security/2023/04/12/5
     - https://www.openwall.com/lists/oss-security/2023/04/13/4
     PublishedDate: '2023-04-14T01:15:00Z'
-    LastModifiedDate: '2023-09-06T21:15:00Z'
+    LastModifiedDate: '2023-09-09T22:15:00Z'
   - VulnerabilityID: CVE-2022-29458
     PkgID: ncurses-libs@6.2-8.20210508.el9.x86_64
     PkgName: ncurses-libs
@@ -2396,6 +2713,27 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-29458
     PublishedDate: '2022-04-18T21:15:00Z'
     LastModifiedDate: '2022-11-08T19:46:00Z'
+  - VulnerabilityID: CVE-2023-4421
+    PkgID: nspr@4.34.0-18.el9_1.x86_64
+    PkgName: nspr
+    InstalledVersion: 4.34.0-18.el9_1
+    Status: affected
+    Layer:
+      Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
+      DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4421
+    Title: new tlsfuzzer code can still detect timing issues in RSA operations
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4421
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4421
+    - https://www.cve.org/CVERecord?id=CVE-2023-4421
   - VulnerabilityID: CVE-2020-12413
     PkgID: nspr@4.34.0-18.el9_1.x86_64
     PkgName: nspr
@@ -2427,6 +2765,27 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:00Z'
     LastModifiedDate: '2023-02-28T19:49:00Z'
+  - VulnerabilityID: CVE-2023-4421
+    PkgID: nss@3.79.0-18.el9_1.x86_64
+    PkgName: nss
+    InstalledVersion: 3.79.0-18.el9_1
+    Status: affected
+    Layer:
+      Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
+      DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4421
+    Title: new tlsfuzzer code can still detect timing issues in RSA operations
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4421
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4421
+    - https://www.cve.org/CVERecord?id=CVE-2023-4421
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss@3.79.0-18.el9_1.x86_64
     PkgName: nss
@@ -2458,6 +2817,27 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:00Z'
     LastModifiedDate: '2023-02-28T19:49:00Z'
+  - VulnerabilityID: CVE-2023-4421
+    PkgID: nss-softokn@3.79.0-18.el9_1.x86_64
+    PkgName: nss-softokn
+    InstalledVersion: 3.79.0-18.el9_1
+    Status: affected
+    Layer:
+      Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
+      DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4421
+    Title: new tlsfuzzer code can still detect timing issues in RSA operations
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4421
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4421
+    - https://www.cve.org/CVERecord?id=CVE-2023-4421
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-softokn@3.79.0-18.el9_1.x86_64
     PkgName: nss-softokn
@@ -2489,6 +2869,27 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:00Z'
     LastModifiedDate: '2023-02-28T19:49:00Z'
+  - VulnerabilityID: CVE-2023-4421
+    PkgID: nss-softokn-freebl@3.79.0-18.el9_1.x86_64
+    PkgName: nss-softokn-freebl
+    InstalledVersion: 3.79.0-18.el9_1
+    Status: affected
+    Layer:
+      Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
+      DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4421
+    Title: new tlsfuzzer code can still detect timing issues in RSA operations
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4421
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4421
+    - https://www.cve.org/CVERecord?id=CVE-2023-4421
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-softokn-freebl@3.79.0-18.el9_1.x86_64
     PkgName: nss-softokn-freebl
@@ -2520,6 +2921,27 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:00Z'
     LastModifiedDate: '2023-02-28T19:49:00Z'
+  - VulnerabilityID: CVE-2023-4421
+    PkgID: nss-sysinit@3.79.0-18.el9_1.x86_64
+    PkgName: nss-sysinit
+    InstalledVersion: 3.79.0-18.el9_1
+    Status: affected
+    Layer:
+      Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
+      DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4421
+    Title: new tlsfuzzer code can still detect timing issues in RSA operations
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4421
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4421
+    - https://www.cve.org/CVERecord?id=CVE-2023-4421
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-sysinit@3.79.0-18.el9_1.x86_64
     PkgName: nss-sysinit
@@ -2551,6 +2973,27 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:00Z'
     LastModifiedDate: '2023-02-28T19:49:00Z'
+  - VulnerabilityID: CVE-2023-4421
+    PkgID: nss-util@3.79.0-18.el9_1.x86_64
+    PkgName: nss-util
+    InstalledVersion: 3.79.0-18.el9_1
+    Status: affected
+    Layer:
+      Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
+      DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4421
+    Title: new tlsfuzzer code can still detect timing issues in RSA operations
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4421
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4421
+    - https://www.cve.org/CVERecord?id=CVE-2023-4421
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-util@3.79.0-18.el9_1.x86_64
     PkgName: nss-util
@@ -3230,6 +3673,38 @@
     - https://www.oracle.com/security-alerts/cpuapr2022.html
     PublishedDate: '2022-02-09T23:15:00Z'
     LastModifiedDate: '2023-05-03T11:15:00Z'
+  - VulnerabilityID: CVE-2022-48566
+    PkgID: python-unversioned-command@3.9.16-1.el9_2.1.noarch
+    PkgName: python-unversioned-command
+    InstalledVersion: 3.9.16-1.el9_2.1
+    Status: affected
+    Layer:
+      Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
+      DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48566
+    Title: constant-time-defeating optimisations issue in the compare_digest function in Lib/hmac.p
+    Description: An issue was discovered in compare_digest in Lib/hmac.py in Python through 3.9.1. Constant-time-defeating optimisations were possible in the accumulator variable in hmac.compare_digest.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-362
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-48566
+    - https://bugs.python.org/issue40791
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-48566
+    - https://www.cve.org/CVERecord?id=CVE-2022-48566
+    PublishedDate: '2023-08-22T19:16:00Z'
+    LastModifiedDate: '2023-09-01T13:24:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python-unversioned-command@3.9.16-1.el9_2.1.noarch
     PkgName: python-unversioned-command
@@ -3491,6 +3966,38 @@
     - https://www.oracle.com/security-alerts/cpuapr2022.html
     PublishedDate: '2022-02-09T23:15:00Z'
     LastModifiedDate: '2023-05-03T11:15:00Z'
+  - VulnerabilityID: CVE-2022-48566
+    PkgID: python3@3.9.16-1.el9_2.1.x86_64
+    PkgName: python3
+    InstalledVersion: 3.9.16-1.el9_2.1
+    Status: affected
+    Layer:
+      Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
+      DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48566
+    Title: constant-time-defeating optimisations issue in the compare_digest function in Lib/hmac.p
+    Description: An issue was discovered in compare_digest in Lib/hmac.py in Python through 3.9.1. Constant-time-defeating optimisations were possible in the accumulator variable in hmac.compare_digest.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-362
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-48566
+    - https://bugs.python.org/issue40791
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-48566
+    - https://www.cve.org/CVERecord?id=CVE-2022-48566
+    PublishedDate: '2023-08-22T19:16:00Z'
+    LastModifiedDate: '2023-09-01T13:24:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3@3.9.16-1.el9_2.1.x86_64
     PkgName: python3
@@ -3752,6 +4259,38 @@
     - https://www.oracle.com/security-alerts/cpuapr2022.html
     PublishedDate: '2022-02-09T23:15:00Z'
     LastModifiedDate: '2023-05-03T11:15:00Z'
+  - VulnerabilityID: CVE-2022-48566
+    PkgID: python3-libs@3.9.16-1.el9_2.1.x86_64
+    PkgName: python3-libs
+    InstalledVersion: 3.9.16-1.el9_2.1
+    Status: affected
+    Layer:
+      Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
+      DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48566
+    Title: constant-time-defeating optimisations issue in the compare_digest function in Lib/hmac.p
+    Description: An issue was discovered in compare_digest in Lib/hmac.py in Python through 3.9.1. Constant-time-defeating optimisations were possible in the accumulator variable in hmac.compare_digest.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-362
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-48566
+    - https://bugs.python.org/issue40791
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-48566
+    - https://www.cve.org/CVERecord?id=CVE-2022-48566
+    PublishedDate: '2023-08-22T19:16:00Z'
+    LastModifiedDate: '2023-09-01T13:24:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3-libs@3.9.16-1.el9_2.1.x86_64
     PkgName: python3-libs
@@ -4072,38 +4611,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-35939
     PublishedDate: '2022-08-26T16:15:00Z'
     LastModifiedDate: '2023-02-04T01:16:00Z'
-  - VulnerabilityID: CVE-2023-36191
-    PkgID: sqlite-libs@3.34.1-6.el9_1.x86_64
-    PkgName: sqlite-libs
-    InstalledVersion: 3.34.1-6.el9_1
-    Status: affected
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36191
-    Title: CLI fault on missing -nonce
-    Description: sqlite3 v3.40.1 was discovered to contain a segmentation violation at /sqlite3_aflpp/shell.c.
-    Severity: LOW
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-36191
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KREKCQTJDVI2AEBG5ECZPSOQXIC2L5XL/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UBAHED5YFJPRGSEKNZIYHZBGSVHGEHOH/
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-36191
-    - https://www.cve.org/CVERecord?id=CVE-2023-36191
-    - https://www.sqlite.org/forum/forumpost/19f55ef73b
-    PublishedDate: '2023-06-23T02:15:00Z'
-    LastModifiedDate: '2023-07-04T04:15:00Z'
   - VulnerabilityID: CVE-2023-28486
     PkgID: sudo@1.9.5p2-9.el9.x86_64
     PkgName: sudo
@@ -4210,14 +4717,14 @@
     PkgID: xz-libs@5.2.5-8.el9_0.x86_64
     PkgName: xz-libs
     InstalledVersion: 5.2.5-8.el9_0
-    Status: under_investigation
+    Status: affected
     Layer:
       Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
       DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-22916
     Title: Denial of service via decompression of crafted file
-    Description: An issue discovered in XZ 5.2.5 allows attackers to cause a denial of service via decompression of crafted file.
+    Description: 'An issue discovered in XZ 5.2.5 allows attackers to cause a denial of service via decompression of a crafted file. NOTE: the software maintainers are unable to reproduce this as of 2023-09-12 because the example crafted file is temporarily offline.'
     Severity: LOW
     CVSS:
       nvd:
@@ -4228,9 +4735,100 @@
         V3Score: 5.5
     References:
     - https://access.redhat.com/security/cve/CVE-2020-22916
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2234987
+    - https://bugzilla.suse.com/show_bug.cgi?id=1214590
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-22916
     - https://github.com/snappyJack/CVE-request-XZ-5.2.5-has-denial-of-service-vulnerability
+    - https://github.com/tukaani-project/xz/issues/61
     - https://nvd.nist.gov/vuln/detail/CVE-2020-22916
+    - https://security-tracker.debian.org/tracker/CVE-2020-22916
     - https://tukaani.org/xz/
     - https://www.cve.org/CVERecord?id=CVE-2020-22916
     PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-08-25T17:53:00Z'
+    LastModifiedDate: '2023-09-12T16:15:00Z'
+- Target: Java
+  Class: lang-pkgs
+  Type: jar
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2023-42503
+    PkgName: org.apache.commons:commons-compress
+    PkgPath: openaf/openaf.jar
+    InstalledVersion: 1.23.0
+    FixedVersion: 1.24.0
+    Status: fixed
+    Layer:
+      Digest: sha256:5645a13ba8a08be86c63ee6b3165db3f398e967511358e87a6e8b2a8e4dae045
+      DiffID: sha256:f58e415565014664ecefaed580e14eb561469db1174fae520e4c213cf32c53d7
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42503
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Title: Improper Input Validation, Uncontrolled Resource Consumption vulnerabi ...
+    Description: "Improper Input Validation, Uncontrolled Resource Consumption vulnerability in Apache Commons Compress in TAR parsing.This issue affects Apache Commons Compress:\_from 1.22 before 1.24.0.\n\nUsers are recommended to upgrade to version 1.24.0, which fixes the issue.\n\nA third party can create a malformed TAR file by manipulating file modification times headers, which when parsed with Apache Commons Compress, will cause a denial of service issue via CPU consumption.\n\nIn version 1.22 of Apache Commons Compress, support was added for file modification times with higher precision (issue # COMPRESS-612 [1]). The format for the PAX extended headers carrying this data consists of two numbers separated by a period [2], indicating seconds and subsecond precision (for example “1647221103.5998539”). The impacted fields are “atime”, “ctime”, “mtime” and “LIBARCHIVE.creationtime”. No input validation is performed prior to the parsing of header values.\n\nParsing of these numbers uses the BigDecimal [3] class from the JDK which has a publicly known algorithmic complexity issue when doing operations on large numbers, causing denial of service (see issue # JDK-6560193 [4]). A third party can manipulate file time headers in a TAR file by placing a number with a very long fraction (300,000 digits) or a number with exponent notation (such as “9e9999999”) within a file modification time header, and the parsing of files with these headers will take hours instead of seconds, leading to a denial of service via exhaustion of CPU resources. This issue is similar to CVE-2012-2098 [5].\n\n[1]:  https://issues.apache.org/jira/browse/COMPRESS-612 \n[2]:  https://pubs.opengroup.org/onlinepubs/9699919799/utilities/pax.html#tag_20_92_13_05 \n[3]:  https://docs.oracle.com/javase/8/docs/api/java/math/BigDecimal.html \n[4]:  https://bugs.openjdk.org/browse/JDK-6560193 \n[5]:  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2098 \n\nOnly applications using CompressorStreamFactory class (with auto-detection of file types), TarArchiveInputStream and TarFile classes to parse TAR files are impacted. Since this code was introduced in v1.22, only that version and later versions are impacted.\n\n"
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-20
+    - CWE-400
+    References:
+    - https://github.com/apache/commons-compress
+    - https://github.com/apache/commons-compress/commit/aae38bfb820159ae7a0b792e779571f6a46b3889
+    - https://lists.apache.org/thread/5xwcyr600mn074vgxq92tjssrchmc93c
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-42503
+    PublishedDate: '2023-09-14T08:15:00Z'
+    LastModifiedDate: '2023-09-14T13:01:00Z'
+  - VulnerabilityID: CVE-2023-40167
+    PkgName: org.eclipse.jetty:jetty-http
+    PkgPath: openaf/openaf.jar
+    InstalledVersion: 9.4.51.v20230217
+    FixedVersion: 9.4.52, 10.0.16, 11.0.16, 12.0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:5645a13ba8a08be86c63ee6b3165db3f398e967511358e87a6e8b2a8e4dae045
+      DiffID: sha256:f58e415565014664ecefaed580e14eb561469db1174fae520e4c213cf32c53d7
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-40167
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Title: Jetty accepts "+" prefixed value in Content-Length
+    Description: |-
+      ### Impact
+
+      Jetty accepts the '+' character proceeding the content-length value in a HTTP/1 header field.  This is more permissive than allowed by the RFC and other servers routinely reject such requests with 400 responses.  There is no known exploit scenario, but it is conceivable that request smuggling could result if jetty is used in combination with a server that does not close the connection after sending such a 400 response.
+
+      ### Workarounds
+
+      There is no workaround as there is no known exploit scenario.   
+
+      ### Original Report 
+
+      [RFC 9110 Secion 8.6](https://www.rfc-editor.org/rfc/rfc9110#section-8.6) defined the value of Content-Length header should be a string of 0-9 digits. However we found that Jetty accepts "+" prefixed Content-Length, which could lead to potential HTTP request smuggling.
+
+      Payload:
+
+      ```
+       POST / HTTP/1.1
+       Host: a.com
+       Content-Length: +16
+       Connection: close
+       ​
+       0123456789abcdef
+      ```
+
+      When sending this payload to Jetty, it can successfully parse and identify the length.
+
+      When sending this payload to NGINX, Apache HTTPd or other HTTP servers/parsers, they will return 400 bad request.
+
+      This behavior can lead to HTTP request smuggling and can be leveraged to bypass WAF or IDS.
+    Severity: MEDIUM
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://github.com/eclipse/jetty.project
+    - https://github.com/eclipse/jetty.project/security/advisories/GHSA-hmr7-m48g-48f6
+    - https://www.rfc-editor.org/rfc/rfc9110#section-8.6
