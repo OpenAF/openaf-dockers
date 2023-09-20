@@ -962,21 +962,21 @@
 │                       │       │                   is_normal() 
 │                       │       ├ Description     : A flaw was found in GLib. GVariant deserialization
 │                       │       │                   fails to validate that the input conforms to the expected
-│                       │       │                   format, leading to denial of service.A flaw was found in
-│                       │       │                   GLib. GVariant deserialization fails to validate that the
-│                       │       │                   input conforms to the expected format, leading to denial of
-│                       │       │                    service. 
+│                       │       │                   format, leading to denial of service. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.5 
-│                       │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-29499 
-│                       │                          ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │                          │      VE-2023-29499 
-│                       │                          ├ [2]: https://gitlab.gnome.org/GNOME/glib/-/issues/2794 
-│                       │                          ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-29499 
-│                       │                          ├ [4]: https://ubuntu.com/security/notices/USN-6165-1 
-│                       │                          ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-29499 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-29499 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2211828 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-29499 
+│                       │       │                  ├ [3]: https://gitlab.gnome.org/GNOME/glib/-/issues/2794 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-29499 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6165-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-29499 
+│                       │       ├ PublishedDate   : 2023-09-14T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-15T00:31:00Z 
 │                       ├ [23]  ╭ VulnerabilityID : CVE-2023-32611 
 │                       │       ├ PkgID           : glib2@2.68.4-6.el9.x86_64 
 │                       │       ├ PkgName         : glib2 
@@ -992,22 +992,22 @@
 │                       │       │                   non-normal inputs 
 │                       │       ├ Description     : A flaw was found in GLib. GVariant deserialization is
 │                       │       │                   vulnerable to a slowdown issue where a crafted GVariant can
-│                       │       │                    cause excessive processing, leading to denial of service.A
-│                       │       │                    flaw was found in GLib. GVariant deserialization is
-│                       │       │                   vulnerable to a slowdown issue where a crafted GVariant can
 │                       │       │                    cause excessive processing, leading to denial of
 │                       │       │                   service. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.5 
-│                       │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-32611 
-│                       │                          ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │                          │      VE-2023-32611 
-│                       │                          ├ [2]: https://gitlab.gnome.org/GNOME/glib/-/issues/2797 
-│                       │                          ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-32611 
-│                       │                          ├ [4]: https://ubuntu.com/security/notices/USN-6165-1 
-│                       │                          ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-32611 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-32611 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2211829 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-32611 
+│                       │       │                  ├ [3]: https://gitlab.gnome.org/GNOME/glib/-/issues/2797 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-32611 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6165-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-32611 
+│                       │       ├ PublishedDate   : 2023-09-14T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-15T00:31:00Z 
 │                       ├ [24]  ╭ VulnerabilityID : CVE-2023-32636 
 │                       │       ├ PkgID           : glib2@2.68.4-6.el9.x86_64 
 │                       │       ├ PkgName         : glib2 
@@ -1032,12 +1032,18 @@
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 4.7 
-│                       │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-32636 
-│                       │                          ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │                          │      VE-2023-32636 
-│                       │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-32636 
-│                       │                          ├ [3]: https://ubuntu.com/security/notices/USN-6165-1 
-│                       │                          ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-32636 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-32636 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-32636 
+│                       │       │                  ├ [2]: https://gitlab.gnome.org/GNOME/glib/-/issues/2841 
+│                       │       │                  ├ [3]: https://https://discourse.gnome.org/t/multiple-f
+│                       │       │                  │      ixes-for-gvariant-normalisation-issues-in-glib/12835
+│                       │       │                  │      [m 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-32636 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6165-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-32636 
+│                       │       ├ PublishedDate   : 2023-09-14T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-15T00:31:00Z 
 │                       ├ [25]  ╭ VulnerabilityID : CVE-2023-32665 
 │                       │       ├ PkgID           : glib2@2.68.4-6.el9.x86_64 
 │                       │       ├ PkgName         : glib2 
@@ -1054,21 +1060,21 @@
 │                       │       ├ Description     : A flaw was found in GLib. GVariant deserialization is
 │                       │       │                   vulnerable to an exponential blowup issue where a crafted
 │                       │       │                   GVariant can cause excessive processing, leading to denial
-│                       │       │                   of service.A flaw was found in GLib. GVariant
-│                       │       │                   deserialization is vulnerable to an exponential blowup
-│                       │       │                   issue where a crafted GVariant can cause excessive
-│                       │       │                   processing, leading to denial of service. 
+│                       │       │                   of service. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.5 
-│                       │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-32665 
-│                       │                          ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │                          │      VE-2023-32665 
-│                       │                          ├ [2]: https://gitlab.gnome.org/GNOME/glib/-/issues/2121 
-│                       │                          ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-32665 
-│                       │                          ├ [4]: https://ubuntu.com/security/notices/USN-6165-1 
-│                       │                          ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-32665 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-32665 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2211827 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-32665 
+│                       │       │                  ├ [3]: https://gitlab.gnome.org/GNOME/glib/-/issues/2121 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-32665 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6165-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-32665 
+│                       │       ├ PublishedDate   : 2023-09-14T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-15T00:31:00Z 
 │                       ├ [26]  ╭ VulnerabilityID : CVE-2023-4527 
 │                       │       ├ PkgID           : glibc@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc 
@@ -1086,20 +1092,18 @@
 │                       │       │                   the system is configured with no-aaaa mode via
 │                       │       │                   /etc/resolv.conf, a DNS response via TCP larger than 2048
 │                       │       │                   bytes can potentially disclose stack contents through the
-│                       │       │                   function returned address data, and may cause a crash.A
-│                       │       │                   flaw was found in glibc. When the getaddrinfo function is
-│                       │       │                   called with the AF_UNSPEC address family and the system is
-│                       │       │                   configured with no-aaaa mode via /etc/resolv.conf, a DNS
-│                       │       │                   response via TCP larger than 2048 bytes can potentially
-│                       │       │                   disclose stack contents through the function returned
-│                       │       │                   address data, and may cause a crash. 
+│                       │       │                   function returned address data, and may cause a
+│                       │       │                   crash. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :L/I:N/A:H 
 │                       │       │                           ╰ V3Score : 6.5 
-│                       │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4527 
-│                       │                          ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
-│                       │                          ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4527 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
+│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
+│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
+│                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-18T18:23:00Z 
 │                       ├ [27]  ╭ VulnerabilityID : CVE-2023-4806 
 │                       │       ├ PkgID           : glibc@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc 
@@ -1121,24 +1125,17 @@
 │                       │       │                   hook. The resolved name should return a large number of
 │                       │       │                   IPv6 and IPv4, and the call to the getaddrinfo function
 │                       │       │                   should have the AF_INET6 address family with AI_CANONNAME,
-│                       │       │                   AI_ALL and AI_V4MAPPED as flags.A flaw was found in glibc.
-│                       │       │                   In an extremely rare situation, the getaddrinfo function
-│                       │       │                   may access memory that has been freed, resulting in an
-│                       │       │                   application crash. This issue is only exploitable when a
-│                       │       │                   NSS module implements only the _nss_*_gethostbyname2_r and
-│                       │       │                   _nss_*_getcanonname_r hooks without implementing the
-│                       │       │                   _nss_*_gethostbyname3_r hook. The resolved name should
-│                       │       │                   return a large number of IPv6 and IPv4, and the call to the
-│                       │       │                    getaddrinfo function should have the AF_INET6 address
-│                       │       │                   family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as
-│                       │       │                   flags. 
+│                       │       │                   AI_ALL and AI_V4MAPPED as flags. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4806 
-│                       │                          ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
-│                       │                          ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4806 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
+│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
+│                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-18T18:23:00Z 
 │                       ├ [28]  ╭ VulnerabilityID : CVE-2023-4813 
 │                       │       ├ PkgID           : glibc@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc 
@@ -1158,7 +1155,11 @@
 │                       │       │                    hosts database in /etc/nsswitch.conf is configured with
 │                       │       │                   SUCCESS=continue or SUCCESS=merge. 
 │                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 7.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4813 
@@ -1166,7 +1167,7 @@
 │                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
 │                       │       ├ PublishedDate   : 2023-09-12T22:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-13T12:55:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-18T14:07:00Z 
 │                       ├ [29]  ╭ VulnerabilityID : CVE-2023-4527 
 │                       │       ├ PkgID           : glibc-common@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-common 
@@ -1184,20 +1185,18 @@
 │                       │       │                   the system is configured with no-aaaa mode via
 │                       │       │                   /etc/resolv.conf, a DNS response via TCP larger than 2048
 │                       │       │                   bytes can potentially disclose stack contents through the
-│                       │       │                   function returned address data, and may cause a crash.A
-│                       │       │                   flaw was found in glibc. When the getaddrinfo function is
-│                       │       │                   called with the AF_UNSPEC address family and the system is
-│                       │       │                   configured with no-aaaa mode via /etc/resolv.conf, a DNS
-│                       │       │                   response via TCP larger than 2048 bytes can potentially
-│                       │       │                   disclose stack contents through the function returned
-│                       │       │                   address data, and may cause a crash. 
+│                       │       │                   function returned address data, and may cause a
+│                       │       │                   crash. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :L/I:N/A:H 
 │                       │       │                           ╰ V3Score : 6.5 
-│                       │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4527 
-│                       │                          ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
-│                       │                          ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4527 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
+│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
+│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
+│                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-18T18:23:00Z 
 │                       ├ [30]  ╭ VulnerabilityID : CVE-2023-4806 
 │                       │       ├ PkgID           : glibc-common@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-common 
@@ -1219,24 +1218,17 @@
 │                       │       │                   hook. The resolved name should return a large number of
 │                       │       │                   IPv6 and IPv4, and the call to the getaddrinfo function
 │                       │       │                   should have the AF_INET6 address family with AI_CANONNAME,
-│                       │       │                   AI_ALL and AI_V4MAPPED as flags.A flaw was found in glibc.
-│                       │       │                   In an extremely rare situation, the getaddrinfo function
-│                       │       │                   may access memory that has been freed, resulting in an
-│                       │       │                   application crash. This issue is only exploitable when a
-│                       │       │                   NSS module implements only the _nss_*_gethostbyname2_r and
-│                       │       │                   _nss_*_getcanonname_r hooks without implementing the
-│                       │       │                   _nss_*_gethostbyname3_r hook. The resolved name should
-│                       │       │                   return a large number of IPv6 and IPv4, and the call to the
-│                       │       │                    getaddrinfo function should have the AF_INET6 address
-│                       │       │                   family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as
-│                       │       │                   flags. 
+│                       │       │                   AI_ALL and AI_V4MAPPED as flags. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4806 
-│                       │                          ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
-│                       │                          ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4806 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
+│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
+│                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-18T18:23:00Z 
 │                       ├ [31]  ╭ VulnerabilityID : CVE-2023-4813 
 │                       │       ├ PkgID           : glibc-common@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-common 
@@ -1256,7 +1248,11 @@
 │                       │       │                    hosts database in /etc/nsswitch.conf is configured with
 │                       │       │                   SUCCESS=continue or SUCCESS=merge. 
 │                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 7.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4813 
@@ -1264,7 +1260,7 @@
 │                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
 │                       │       ├ PublishedDate   : 2023-09-12T22:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-13T12:55:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-18T14:07:00Z 
 │                       ├ [32]  ╭ VulnerabilityID : CVE-2023-4527 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
@@ -1282,20 +1278,18 @@
 │                       │       │                   the system is configured with no-aaaa mode via
 │                       │       │                   /etc/resolv.conf, a DNS response via TCP larger than 2048
 │                       │       │                   bytes can potentially disclose stack contents through the
-│                       │       │                   function returned address data, and may cause a crash.A
-│                       │       │                   flaw was found in glibc. When the getaddrinfo function is
-│                       │       │                   called with the AF_UNSPEC address family and the system is
-│                       │       │                   configured with no-aaaa mode via /etc/resolv.conf, a DNS
-│                       │       │                   response via TCP larger than 2048 bytes can potentially
-│                       │       │                   disclose stack contents through the function returned
-│                       │       │                   address data, and may cause a crash. 
+│                       │       │                   function returned address data, and may cause a
+│                       │       │                   crash. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :L/I:N/A:H 
 │                       │       │                           ╰ V3Score : 6.5 
-│                       │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4527 
-│                       │                          ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
-│                       │                          ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4527 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
+│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
+│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
+│                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-18T18:23:00Z 
 │                       ├ [33]  ╭ VulnerabilityID : CVE-2023-4806 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
@@ -1317,24 +1311,17 @@
 │                       │       │                   hook. The resolved name should return a large number of
 │                       │       │                   IPv6 and IPv4, and the call to the getaddrinfo function
 │                       │       │                   should have the AF_INET6 address family with AI_CANONNAME,
-│                       │       │                   AI_ALL and AI_V4MAPPED as flags.A flaw was found in glibc.
-│                       │       │                   In an extremely rare situation, the getaddrinfo function
-│                       │       │                   may access memory that has been freed, resulting in an
-│                       │       │                   application crash. This issue is only exploitable when a
-│                       │       │                   NSS module implements only the _nss_*_gethostbyname2_r and
-│                       │       │                   _nss_*_getcanonname_r hooks without implementing the
-│                       │       │                   _nss_*_gethostbyname3_r hook. The resolved name should
-│                       │       │                   return a large number of IPv6 and IPv4, and the call to the
-│                       │       │                    getaddrinfo function should have the AF_INET6 address
-│                       │       │                   family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as
-│                       │       │                   flags. 
+│                       │       │                   AI_ALL and AI_V4MAPPED as flags. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4806 
-│                       │                          ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
-│                       │                          ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4806 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
+│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
+│                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-18T18:23:00Z 
 │                       ├ [34]  ╭ VulnerabilityID : CVE-2023-4813 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
@@ -1354,7 +1341,11 @@
 │                       │       │                    hosts database in /etc/nsswitch.conf is configured with
 │                       │       │                   SUCCESS=continue or SUCCESS=merge. 
 │                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 7.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4813 
@@ -1362,7 +1353,7 @@
 │                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
 │                       │       ├ PublishedDate   : 2023-09-12T22:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-13T12:55:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-18T14:07:00Z 
 │                       ├ [35]  ╭ VulnerabilityID : CVE-2021-43618 
 │                       │       ├ PkgID           : gmp@6.2.0-10.el9.x86_64 
 │                       │       ├ PkgName         : gmp 
@@ -1799,10 +1790,12 @@
 │                       │       │                  ├ [2]: https://github.com/krb5/krb5/compare/krb5-1.21.1
 │                       │       │                  │      -final...krb5-1.21.2-final 
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-39975 
-│                       │       │                  ├ [4]: https://web.mit.edu/kerberos/www/advisories/ 
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-39975 
+│                       │       │                  ├ [4]: https://security.netapp.com/advisory/ntap-202309
+│                       │       │                  │      15-0014/ 
+│                       │       │                  ├ [5]: https://web.mit.edu/kerberos/www/advisories/ 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-39975 
 │                       │       ├ PublishedDate   : 2023-08-16T15:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-08-22T23:17:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-15T14:15:00Z 
 │                       ├ [44]  ╭ VulnerabilityID : CVE-2023-30571 
 │                       │       ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
 │                       │       ├ PkgName         : libarchive 
@@ -2417,7 +2410,10 @@
 │                       │       │                   
 │                       │       │                    
 │                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :L/I:L/A:N 
+│                       │       │                  │        ╰ V3Score : 4.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :L/I:L/A:N 
 │                       │       │                           ╰ V3Score : 4.8 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4039 
@@ -2431,7 +2427,7 @@
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-4039 
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4039 
 │                       │       ├ PublishedDate   : 2023-09-13T09:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-13T12:55:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-14T20:01:00Z 
 │                       ├ [56]  ╭ VulnerabilityID : CVE-2022-27943 
 │                       │       ├ PkgID           : libgcc@11.3.1-4.3.el9.x86_64 
 │                       │       ├ PkgName         : libgcc 
@@ -2553,7 +2549,10 @@
 │                       │       │                   
 │                       │       │                    
 │                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :L/I:L/A:N 
+│                       │       │                  │        ╰ V3Score : 4.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :L/I:L/A:N 
 │                       │       │                           ╰ V3Score : 4.8 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4039 
@@ -2567,7 +2566,7 @@
 │                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-4039 
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4039 
 │                       │       ├ PublishedDate   : 2023-09-13T09:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-13T12:55:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-14T20:01:00Z 
 │                       ├ [59]  ╭ VulnerabilityID : CVE-2022-27943 
 │                       │       ├ PkgID           : libstdc++@11.3.1-4.3.el9.x86_64 
 │                       │       ├ PkgName         : libstdc++ 
@@ -2778,23 +2777,32 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 7.5 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-4899 
-│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │       │                  │      VE-2022-4899 
-│                       │       │                  ├ [2]: https://github.com/facebook/zstd 
-│                       │       │                  ├ [3]: https://github.com/facebook/zstd/issues/3200 
-│                       │       │                  ├ [4]: https://github.com/facebook/zstd/pull/3220 
-│                       │       │                  ├ [5]: https://github.com/pypa/advisory-database/tree/m
-│                       │       │                  │      ain/vulns/zstd/PYSEC-2023-121.yaml 
-│                       │       │                  ├ [6]: https://github.com/sergey-dryabzhinsky/python-zs
-│                       │       │                  │      td/commit/c8a619aebdbd6b838fbfef6e19325a70f631a4c6
-│                       │       │                  │       
-│                       │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2022-4899 
-│                       │       │                  ├ [8]: https://security.netapp.com/advisory/ntap-202307
-│                       │       │                  │      25-0005/ 
-│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2022-4899 
+│                       │       │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2022-4899 
+│                       │       │                  ├ [2] : https://github.com/facebook/zstd 
+│                       │       │                  ├ [3] : https://github.com/facebook/zstd/issues/3200 
+│                       │       │                  ├ [4] : https://github.com/facebook/zstd/pull/3220 
+│                       │       │                  ├ [5] : https://github.com/pypa/advisory-database/tree/
+│                       │       │                  │       main/vulns/zstd/PYSEC-2023-121.yaml 
+│                       │       │                  ├ [6] : https://github.com/sergey-dryabzhinsky/python-z
+│                       │       │                  │       std/commit/c8a619aebdbd6b838fbfef6e19325a70f631a4c6
+│                       │       │                  │       [m 
+│                       │       │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/C63H
+│                       │       │                  │       AGVLQA6FJNDCHR7CNZZL6VSLILB2/ 
+│                       │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/JEHR
+│                       │       │                  │       BBYYTPA4DETOM5XAKGCP37NUTLOA/ 
+│                       │       │                  ├ [9] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/QYLD
+│                       │       │                  │       K6ODVC4LJSDULLX6Q2YHTFOWABCN/ 
+│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2022-4899 
+│                       │       │                  ├ [11]: https://security.netapp.com/advisory/ntap-20230
+│                       │       │                  │       725-0005/ 
+│                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                       │       ├ PublishedDate   : 2023-03-31T20:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-16T04:15:00Z 
 │                       ├ [64]  ╭ VulnerabilityID : CVE-2020-19185 
 │                       │       ├ PkgID           : ncurses-base@6.2-8.20210508.el9.noarch 
 │                       │       ├ PkgName         : ncurses-base 
@@ -5963,84 +5971,45 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-28487 
 │                       │       ├ PublishedDate   : 2023-03-16T01:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-04-20T09:15:00Z 
-│                       ├ [130] ╭ VulnerabilityID : CVE-2021-3997 
-│                       │       ├ PkgID           : systemd-libs@252-14.el9_2.1.x86_64 
-│                       │       ├ PkgName         : systemd-libs 
-│                       │       ├ InstalledVersion: 252-14.el9_2.1 
-│                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc
-│                       │       │                  │         534cc313627f8113246276bf0f 
-│                       │       │                  ╰ DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e
-│                       │       │                            7e8e7055ef62d24ba202202e19 
-│                       │       ├ SeveritySource  : redhat 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-3997 
-│                       │       ├ Title           : Uncontrolled recursion in systemd-tmpfiles when
-│                       │       │                   removing files 
-│                       │       ├ Description     : A flaw was found in systemd. An uncontrolled recursion
-│                       │       │                    in systemd-tmpfiles may lead to a denial of service at
-│                       │       │                   boot time when too many nested directories are created in
-│                       │       │                   /tmp. 
-│                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CweIDs           ─ [0]: CWE-674 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
-│                       │       │                  │        │           :N/I:N/A:H 
-│                       │       │                  │        ╰ V3Score : 5.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
-│                       │       │                           │           :N/I:N/A:H 
-│                       │       │                           ╰ V3Score : 5.5 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-3997 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2024639 
-│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │       │                  │      VE-2021-3997 
-│                       │       │                  ├ [3]: https://github.com/systemd/systemd/commit/5b1cf7
-│                       │       │                  │      a9be37e20133c0208005274ce4a5b5c6a1 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2021-3997 
-│                       │       │                  ├ [5]: https://security.gentoo.org/glsa/202305-15 
-│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-5226-1 
-│                       │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2021-3997 
-│                       │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2022
-│                       │       │                         /01/10/2 
-│                       │       ├ PublishedDate   : 2022-08-23T20:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ╰ [131] ╭ VulnerabilityID : CVE-2020-22916 
-│                               ├ PkgID           : xz-libs@5.2.5-8.el9_0.x86_64 
-│                               ├ PkgName         : xz-libs 
-│                               ├ InstalledVersion: 5.2.5-8.el9_0 
+│                       ╰ [130] ╭ VulnerabilityID : CVE-2021-3997 
+│                               ├ PkgID           : systemd-libs@252-14.el9_2.1.x86_64 
+│                               ├ PkgName         : systemd-libs 
+│                               ├ InstalledVersion: 252-14.el9_2.1 
 │                               ├ Status          : affected 
 │                               ├ Layer            ╭ Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc
 │                               │                  │         534cc313627f8113246276bf0f 
 │                               │                  ╰ DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e
 │                               │                            7e8e7055ef62d24ba202202e19 
 │                               ├ SeveritySource  : redhat 
-│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-22916 
-│                               ├ Title           : Denial of service via decompression of crafted file 
-│                               ├ Description     : An issue discovered in XZ 5.2.5 allows attackers to
-│                               │                   cause a denial of service via decompression of a crafted
-│                               │                   file. NOTE: the software maintainers are unable to
-│                               │                   reproduce this as of 2023-09-12 because the example crafted
-│                               │                    file is temporarily offline. 
-│                               ├ Severity        : LOW 
-│                               ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-3997 
+│                               ├ Title           : Uncontrolled recursion in systemd-tmpfiles when
+│                               │                   removing files 
+│                               ├ Description     : A flaw was found in systemd. An uncontrolled recursion
+│                               │                    in systemd-tmpfiles may lead to a denial of service at
+│                               │                   boot time when too many nested directories are created in
+│                               │                   /tmp. 
+│                               ├ Severity        : MEDIUM 
+│                               ├ CweIDs           ─ [0]: CWE-674 
+│                               ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
 │                               │                  │        │           :N/I:N/A:H 
 │                               │                  │        ╰ V3Score : 5.5 
-│                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
 │                               │                           │           :N/I:N/A:H 
 │                               │                           ╰ V3Score : 5.5 
-│                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2020-22916 
-│                               │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2234987 
-│                               │                  ├ [2]: https://bugzilla.suse.com/show_bug.cgi?id=1214590 
-│                               │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                               │                  │      VE-2020-22916 
-│                               │                  ├ [4]: https://github.com/snappyJack/CVE-request-XZ-5.2
-│                               │                  │      .5-has-denial-of-service-vulnerability 
-│                               │                  ├ [5]: https://github.com/tukaani-project/xz/issues/61 
-│                               │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2020-22916 
-│                               │                  ├ [7]: https://security-tracker.debian.org/tracker/CVE-
-│                               │                  │      2020-22916 
-│                               │                  ├ [8]: https://tukaani.org/xz/ 
-│                               │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2020-22916 
-│                               ├ PublishedDate   : 2023-08-22T19:16:00Z 
-│                               ╰ LastModifiedDate: 2023-09-12T16:15:00Z 
+│                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-3997 
+│                               │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2024639 
+│                               │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                               │                  │      VE-2021-3997 
+│                               │                  ├ [3]: https://github.com/systemd/systemd/commit/5b1cf7
+│                               │                  │      a9be37e20133c0208005274ce4a5b5c6a1 
+│                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2021-3997 
+│                               │                  ├ [5]: https://security.gentoo.org/glsa/202305-15 
+│                               │                  ├ [6]: https://ubuntu.com/security/notices/USN-5226-1 
+│                               │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2021-3997 
+│                               │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2022
+│                               │                         /01/10/2 
+│                               ├ PublishedDate   : 2022-08-23T20:15:00Z 
+│                               ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
@@ -6145,58 +6114,29 @@
                         │     │                          ed+ecosystem%3Amaven 
                         │     ├ Title           : Jetty is a Java based web server and servlet engine.
                         │     │                   Prior to versions ... 
-                        │     ├ Description     : ### Impact
-                        │     │                   
-                        │     │                   Jetty accepts the '+' character proceeding the content-length
-                        │     │                    value in a HTTP/1 header field.  This is more permissive
-                        │     │                   than allowed by the RFC and other servers routinely reject
-                        │     │                   such requests with 400 responses.  There is no known exploit
+                        │     ├ Description     : Jetty is a Java based web server and servlet engine.
+                        │     │                   Prior to versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1, Jetty
+                        │     │                    accepts the `+` character proceeding the content-length
+                        │     │                   value in a HTTP/1 header field.  This is more permissive than
+                        │     │                    allowed by the RFC and other servers routinely reject such
+                        │     │                   requests with 400 responses.  There is no known exploit
                         │     │                   scenario, but it is conceivable that request smuggling could
                         │     │                   result if jetty is used in combination with a server that
                         │     │                   does not close the connection after sending such a 400
-                        │     │                   response.
-                        │     │                   
-                        │     │                   ### Workarounds
-                        │     │                   
-                        │     │                   There is no workaround as there is no known exploit scenario.
-                        │     │                      
-                        │     │                   
-                        │     │                   ### Original Report 
-                        │     │                   
-                        │     │                   [RFC 9110 Secion
-                        │     │                   8.6](https://www.rfc-editor.org/rfc/rfc9110#section-8.6)
-                        │     │                   defined the value of Content-Length header should be a string
-                        │     │                    of 0-9 digits. However we found that Jetty accepts "+"
-                        │     │                   prefixed Content-Length, which could lead to potential HTTP
-                        │     │                   request smuggling.
-                        │     │                   
-                        │     │                   Payload:
-                        │     │                   
-                        │     │                   ```
-                        │     │                    POST / HTTP/1.1
-                        │     │                    Host: a.com
-                        │     │                    Content-Length: +16
-                        │     │                    Connection: close
-                        │     │                    ​
-                        │     │                    0123456789abcdef
-                        │     │                   ```
-                        │     │                   
-                        │     │                   When sending this payload to Jetty, it can successfully parse
-                        │     │                    and identify the length.
-                        │     │                   
-                        │     │                   When sending this payload to NGINX, Apache HTTPd or other
-                        │     │                   HTTP servers/parsers, they will return 400 bad request.
-                        │     │                   
-                        │     │                   This behavior can lead to HTTP request smuggling and can be
-                        │     │                   leveraged to bypass WAF or IDS. 
+                        │     │                   response. Versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1
+                        │     │                   contain a patch for this issue. There is no workaround as
+                        │     │                   there is no known exploit scenario. 
                         │     ├ Severity        : MEDIUM 
+                        │     ├ CweIDs           ─ [0]: CWE-130 
                         │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
                         │     │                         │           :L/A:N 
                         │     │                         ╰ V3Score : 5.3 
-                        │     ╰ References       ╭ [0]: https://github.com/eclipse/jetty.project 
-                        │                        ├ [1]: https://github.com/eclipse/jetty.project/security/
-                        │                        │      advisories/GHSA-hmr7-m48g-48f6 
-                        │                        ╰ [2]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
+                        │     ├ References       ╭ [0]: https://github.com/eclipse/jetty.project 
+                        │     │                  ├ [1]: https://github.com/eclipse/jetty.project/security/
+                        │     │                  │      advisories/GHSA-hmr7-m48g-48f6 
+                        │     │                  ╰ [2]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
+                        │     ├ PublishedDate   : 2023-09-15T20:15:00Z 
+                        │     ╰ LastModifiedDate: 2023-09-17T12:01:00Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2023-4759 
                               ├ PkgName         : org.eclipse.jgit:org.eclipse.jgit 
                               ├ PkgPath         : openaf/openaf.jar 
@@ -6256,7 +6196,12 @@
                               │                   
                               │                    
                               ├ Severity        : HIGH 
-                              ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I
+                              ├ CweIDs           ╭ [0]: CWE-59 
+                              │                  ╰ [1]: CWE-178 
+                              ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I
+                              │                  │      │           :H/A:H 
+                              │                  │      ╰ V3Score : 8.8 
+                              │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I
                               │                         │           :H/A:H 
                               │                         ╰ V3Score : 8.8 
                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4759 
@@ -6270,5 +6215,5 @@
                               │                  │      git/releases/6.6.1 
                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4759 
                               ├ PublishedDate   : 2023-09-12T10:15:00Z 
-                              ╰ LastModifiedDate: 2023-09-12T11:51:00Z 
+                              ╰ LastModifiedDate: 2023-09-18T13:54:00Z 
 ````
