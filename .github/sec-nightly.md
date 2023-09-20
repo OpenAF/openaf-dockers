@@ -8,13 +8,13 @@
       ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2023-4759 
                               ├ PkgName         : org.eclipse.jgit:org.eclipse.jgit 
                               ├ PkgPath         : openaf/openaf.jar 
-                              ├ InstalledVersion: 5.8.1.202007141445-r 
+                              ├ InstalledVersion: 5.13.2.202306221912-r 
                               ├ FixedVersion    : 6.6.1.202309021850-r 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:32afb86270f4e36207a1899f1336ef4baceceb10
-                              │                  │         63c15af7ea996c8308ccddac 
-                              │                  ╰ DiffID: sha256:f6fe375bf9eb25b4ad7cab29b8b1b1dc2f886b92
-                              │                            90a4225dc7cf43724e5641a6 
+                              ├ Layer            ╭ Digest: sha256:5c4652b98e9fc54844b99bb8236940c3fe01ba17
+                              │                  │         100f60047f1ecc66de0552fd 
+                              │                  ╰ DiffID: sha256:e72e263748264633b605e4f8906fb190f1f07780
+                              │                            151344f77566ea3506ee47a2 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4759 
                               ├ DataSource       ╭ ID  : ghsa 
@@ -64,7 +64,12 @@
                               │                   
                               │                    
                               ├ Severity        : HIGH 
-                              ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I
+                              ├ CweIDs           ╭ [0]: CWE-59 
+                              │                  ╰ [1]: CWE-178 
+                              ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I
+                              │                  │      │           :H/A:H 
+                              │                  │      ╰ V3Score : 8.8 
+                              │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I
                               │                         │           :H/A:H 
                               │                         ╰ V3Score : 8.8 
                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4759 
@@ -78,5 +83,5 @@
                               │                  │      git/releases/6.6.1 
                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4759 
                               ├ PublishedDate   : 2023-09-12T10:15:00Z 
-                              ╰ LastModifiedDate: 2023-09-12T11:51:00Z 
+                              ╰ LastModifiedDate: 2023-09-18T13:54:00Z 
 ````
