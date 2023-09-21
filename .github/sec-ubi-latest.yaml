@@ -382,6 +382,31 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-34241
     PublishedDate: '2023-06-22T23:15:00Z'
     LastModifiedDate: '2023-07-28T21:15:00Z'
+  - VulnerabilityID: CVE-2023-4504
+    PkgID: cups-libs@2.3.3op2-16.el9.x86_64
+    PkgName: cups-libs
+    InstalledVersion: 1:2.3.3op2-16.el9
+    Status: affected
+    Layer:
+      Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
+      DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4504
+    Title: Postscript Parsing Heap Overflow
+    Description: A vulnerability was found in OpenPrinting CUPS. The security flaw occurs due to failure in validating the length provided by an attacker-crafted CUPS document, possibly leading to a heap-based buffer overflow and code execution.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 4.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4504
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4504
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4504
+    - https://takeonme.org/cves/CVE-2023-4504.html
+    - https://ubuntu.com/security/notices/USN-6391-1
+    - https://ubuntu.com/security/notices/USN-6392-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-4504
   - VulnerabilityID: CVE-2021-25317
     PkgID: cups-libs@2.3.3op2-16.el9.x86_64
     PkgName: cups-libs
@@ -776,7 +801,12 @@
     Title: GVariant offset table entry size is not checked in is_normal()
     Description: A flaw was found in GLib. GVariant deserialization fails to validate that the input conforms to the expected format, leading to denial of service.
     Severity: LOW
+    CweIDs:
+    - CWE-400
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
@@ -789,7 +819,7 @@
     - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-29499
     PublishedDate: '2023-09-14T20:15:00Z'
-    LastModifiedDate: '2023-09-15T00:31:00Z'
+    LastModifiedDate: '2023-09-19T18:53:00Z'
   - VulnerabilityID: CVE-2023-32611
     PkgID: glib2@2.68.4-6.el9.x86_64
     PkgName: glib2
@@ -830,7 +860,12 @@
     Title: Timeout in fuzz_variant_text
     Description: A flaw was found in glib, where the gvariant deserialization code is vulnerable to a denial of service introduced by additional input validation added to resolve CVE-2023-29499. The offset table validation may be very slow. This bug does not affect any released version of glib but does affect glib distributors who followed the guidance of glib developers to backport the initial fix for CVE-2023-29499.
     Severity: LOW
+    CweIDs:
+    - CWE-400
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 4.7
@@ -843,7 +878,7 @@
     - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-32636
     PublishedDate: '2023-09-14T20:15:00Z'
-    LastModifiedDate: '2023-09-15T00:31:00Z'
+    LastModifiedDate: '2023-09-19T18:59:00Z'
   - VulnerabilityID: CVE-2023-32665
     PkgID: glib2@2.68.4-6.el9.x86_64
     PkgName: glib2
@@ -857,7 +892,12 @@
     Title: GVariant deserialisation does not match spec for non-normal data
     Description: A flaw was found in GLib. GVariant deserialization is vulnerable to an exponential blowup issue where a crafted GVariant can cause excessive processing, leading to denial of service.
     Severity: LOW
+    CweIDs:
+    - CWE-502
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
@@ -870,7 +910,7 @@
     - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-32665
     PublishedDate: '2023-09-14T20:15:00Z'
-    LastModifiedDate: '2023-09-15T00:31:00Z'
+    LastModifiedDate: '2023-09-19T20:06:00Z'
   - VulnerabilityID: CVE-2023-4527
     PkgID: glibc@2.34-60.el9.x86_64
     PkgName: glibc
@@ -1292,6 +1332,7 @@
     - https://errata.rockylinux.org/RLSA-2023:4176
     - https://linux.oracle.com/cve/CVE-2023-22049.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00018.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-22049
     - https://security.netapp.com/advisory/ntap-20230725-0006/
     - https://ubuntu.com/security/notices/USN-6263-1
@@ -1301,7 +1342,7 @@
     - https://www.debian.org/security/2023/dsa-5478
     - https://www.oracle.com/security-alerts/cpujul2023.html
     PublishedDate: '2023-07-18T21:15:00Z'
-    LastModifiedDate: '2023-08-17T19:15:00Z'
+    LastModifiedDate: '2023-09-19T11:16:00Z'
   - VulnerabilityID: CVE-2022-3857
     PkgID: java-1.8.0-openjdk-headless@1.8.0.372.b07-2.el9.x86_64
     PkgName: java-1.8.0-openjdk-headless
@@ -1370,6 +1411,7 @@
     - https://errata.rockylinux.org/RLSA-2023:4176
     - https://linux.oracle.com/cve/CVE-2023-22045.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00018.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-22045
     - https://security.netapp.com/advisory/ntap-20230725-0006/
     - https://ubuntu.com/security/notices/USN-6263-1
@@ -1379,7 +1421,7 @@
     - https://www.debian.org/security/2023/dsa-5478
     - https://www.oracle.com/security-alerts/cpujul2023.html
     PublishedDate: '2023-07-18T21:15:00Z'
-    LastModifiedDate: '2023-08-17T19:15:00Z'
+    LastModifiedDate: '2023-09-19T11:16:00Z'
   - VulnerabilityID: CVE-2023-36054
     PkgID: krb5-libs@1.20.1-9.el9_2.x86_64
     PkgName: krb5-libs
@@ -2213,8 +2255,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 6.5
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-39615
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/535
@@ -2290,35 +2332,6 @@
     - https://github.com/zjuchenyuan/fuzzpoc/blob/master/infotocap_poc1.md
     - https://nvd.nist.gov/vuln/detail/CVE-2020-19185
     - https://www.cve.org/CVERecord?id=CVE-2020-19185
-    PublishedDate: '2023-08-22T19:15:00Z'
-    LastModifiedDate: '2023-08-25T02:44:00Z'
-  - VulnerabilityID: CVE-2020-19186
-    PkgID: ncurses-base@6.2-8.20210508.el9.noarch
-    PkgName: ncurses-base
-    InstalledVersion: 6.2-8.20210508.el9
-    Status: affected
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-19186
-    Title: '66'
-    Description: Buffer Overflow vulnerability in _nc_find_entry function in tinfo/comp_hash.c:66 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2020-19186
-    - https://github.com/zjuchenyuan/fuzzpoc/blob/master/infotocap_poc2.md
-    - https://nvd.nist.gov/vuln/detail/CVE-2020-19186
-    - https://www.cve.org/CVERecord?id=CVE-2020-19186
     PublishedDate: '2023-08-22T19:15:00Z'
     LastModifiedDate: '2023-08-25T02:44:00Z'
   - VulnerabilityID: CVE-2020-19187
@@ -2466,6 +2479,8 @@
     - https://access.redhat.com/security/cve/CVE-2023-29491
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29491
     - https://invisible-island.net/ncurses/NEWS.html#index-t20230408
+    - https://linux.oracle.com/cve/CVE-2023-29491.html
+    - https://linux.oracle.com/errata/ELSA-2023-5249.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-29491
     - https://security.netapp.com/advisory/ntap-20230517-0009/
     - https://support.apple.com/kb/HT213843
@@ -2545,35 +2560,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-19185
     PublishedDate: '2023-08-22T19:15:00Z'
     LastModifiedDate: '2023-08-25T02:44:00Z'
-  - VulnerabilityID: CVE-2020-19186
-    PkgID: ncurses-libs@6.2-8.20210508.el9.x86_64
-    PkgName: ncurses-libs
-    InstalledVersion: 6.2-8.20210508.el9
-    Status: affected
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-19186
-    Title: '66'
-    Description: Buffer Overflow vulnerability in _nc_find_entry function in tinfo/comp_hash.c:66 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2020-19186
-    - https://github.com/zjuchenyuan/fuzzpoc/blob/master/infotocap_poc2.md
-    - https://nvd.nist.gov/vuln/detail/CVE-2020-19186
-    - https://www.cve.org/CVERecord?id=CVE-2020-19186
-    PublishedDate: '2023-08-22T19:15:00Z'
-    LastModifiedDate: '2023-08-25T02:44:00Z'
   - VulnerabilityID: CVE-2020-19187
     PkgID: ncurses-libs@6.2-8.20210508.el9.x86_64
     PkgName: ncurses-libs
@@ -2719,6 +2705,8 @@
     - https://access.redhat.com/security/cve/CVE-2023-29491
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29491
     - https://invisible-island.net/ncurses/NEWS.html#index-t20230408
+    - https://linux.oracle.com/cve/CVE-2023-29491.html
+    - https://linux.oracle.com/errata/ELSA-2023-5249.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-29491
     - https://security.netapp.com/advisory/ntap-20230517-0009/
     - https://support.apple.com/kb/HT213843
@@ -3615,7 +3603,7 @@
       DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-23336
-    Title: 'python: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters'
+    Title: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters
     Description: The package python/cpython from 0 and before 3.6.13, from 3.7.0 and before 3.7.10, from 3.8.0 and before 3.8.8, from 3.9.0 and before 3.9.2 are vulnerable to Web Cache Poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a vector called parameter cloaking. When the attacker can separate query parameters using a semicolon (;), they can cause a difference in the interpretation of the request between the proxy (running with default configuration) and the server. This can result in malicious requests being cached as completely safe ones, as the proxy would usually not see the semicolon as a separator, and therefore would not include it in a cache key of an unkeyed parameter.
     Severity: MEDIUM
     CweIDs:
@@ -3729,38 +3717,6 @@
     - https://www.oracle.com/security-alerts/cpuapr2022.html
     PublishedDate: '2022-02-09T23:15:00Z'
     LastModifiedDate: '2023-05-03T11:15:00Z'
-  - VulnerabilityID: CVE-2022-48566
-    PkgID: python-unversioned-command@3.9.16-1.el9_2.1.noarch
-    PkgName: python-unversioned-command
-    InstalledVersion: 3.9.16-1.el9_2.1
-    Status: affected
-    Layer:
-      Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
-      DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48566
-    Title: constant-time-defeating optimisations issue in the compare_digest function in Lib/hmac.p
-    Description: An issue was discovered in compare_digest in Lib/hmac.py in Python through 3.9.1. Constant-time-defeating optimisations were possible in the accumulator variable in hmac.compare_digest.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-362
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.1
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.1
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-48566
-    - https://bugs.python.org/issue40791
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-48566
-    - https://www.cve.org/CVERecord?id=CVE-2022-48566
-    PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-09-01T13:24:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python-unversioned-command@3.9.16-1.el9_2.1.noarch
     PkgName: python-unversioned-command
@@ -3908,7 +3864,7 @@
       DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-23336
-    Title: 'python: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters'
+    Title: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters
     Description: The package python/cpython from 0 and before 3.6.13, from 3.7.0 and before 3.7.10, from 3.8.0 and before 3.8.8, from 3.9.0 and before 3.9.2 are vulnerable to Web Cache Poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a vector called parameter cloaking. When the attacker can separate query parameters using a semicolon (;), they can cause a difference in the interpretation of the request between the proxy (running with default configuration) and the server. This can result in malicious requests being cached as completely safe ones, as the proxy would usually not see the semicolon as a separator, and therefore would not include it in a cache key of an unkeyed parameter.
     Severity: MEDIUM
     CweIDs:
@@ -4022,38 +3978,6 @@
     - https://www.oracle.com/security-alerts/cpuapr2022.html
     PublishedDate: '2022-02-09T23:15:00Z'
     LastModifiedDate: '2023-05-03T11:15:00Z'
-  - VulnerabilityID: CVE-2022-48566
-    PkgID: python3@3.9.16-1.el9_2.1.x86_64
-    PkgName: python3
-    InstalledVersion: 3.9.16-1.el9_2.1
-    Status: affected
-    Layer:
-      Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
-      DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48566
-    Title: constant-time-defeating optimisations issue in the compare_digest function in Lib/hmac.p
-    Description: An issue was discovered in compare_digest in Lib/hmac.py in Python through 3.9.1. Constant-time-defeating optimisations were possible in the accumulator variable in hmac.compare_digest.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-362
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.1
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.1
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-48566
-    - https://bugs.python.org/issue40791
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-48566
-    - https://www.cve.org/CVERecord?id=CVE-2022-48566
-    PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-09-01T13:24:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3@3.9.16-1.el9_2.1.x86_64
     PkgName: python3
@@ -4201,7 +4125,7 @@
       DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-23336
-    Title: 'python: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters'
+    Title: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters
     Description: The package python/cpython from 0 and before 3.6.13, from 3.7.0 and before 3.7.10, from 3.8.0 and before 3.8.8, from 3.9.0 and before 3.9.2 are vulnerable to Web Cache Poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a vector called parameter cloaking. When the attacker can separate query parameters using a semicolon (;), they can cause a difference in the interpretation of the request between the proxy (running with default configuration) and the server. This can result in malicious requests being cached as completely safe ones, as the proxy would usually not see the semicolon as a separator, and therefore would not include it in a cache key of an unkeyed parameter.
     Severity: MEDIUM
     CweIDs:
@@ -4315,38 +4239,6 @@
     - https://www.oracle.com/security-alerts/cpuapr2022.html
     PublishedDate: '2022-02-09T23:15:00Z'
     LastModifiedDate: '2023-05-03T11:15:00Z'
-  - VulnerabilityID: CVE-2022-48566
-    PkgID: python3-libs@3.9.16-1.el9_2.1.x86_64
-    PkgName: python3-libs
-    InstalledVersion: 3.9.16-1.el9_2.1
-    Status: affected
-    Layer:
-      Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
-      DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48566
-    Title: constant-time-defeating optimisations issue in the compare_digest function in Lib/hmac.p
-    Description: An issue was discovered in compare_digest in Lib/hmac.py in Python through 3.9.1. Constant-time-defeating optimisations were possible in the accumulator variable in hmac.compare_digest.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-362
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.1
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.1
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-48566
-    - https://bugs.python.org/issue40791
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-48566
-    - https://www.cve.org/CVERecord?id=CVE-2022-48566
-    PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-09-01T13:24:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3-libs@3.9.16-1.el9_2.1.x86_64
     PkgName: python3-libs
@@ -4794,13 +4686,20 @@
     CweIDs:
     - CWE-20
     - CWE-400
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
     - https://github.com/apache/commons-compress
     - https://github.com/apache/commons-compress/commit/aae38bfb820159ae7a0b792e779571f6a46b3889
     - https://lists.apache.org/thread/5xwcyr600mn074vgxq92tjssrchmc93c
     - https://nvd.nist.gov/vuln/detail/CVE-2023-42503
     PublishedDate: '2023-09-14T08:15:00Z'
-    LastModifiedDate: '2023-09-14T13:01:00Z'
+    LastModifiedDate: '2023-09-19T13:43:00Z'
   - VulnerabilityID: CVE-2023-40167
     PkgName: org.eclipse.jetty:jetty-http
     PkgPath: openaf/openaf.jar
@@ -4828,6 +4727,7 @@
     References:
     - https://github.com/eclipse/jetty.project
     - https://github.com/eclipse/jetty.project/security/advisories/GHSA-hmr7-m48g-48f6
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-40167
     - https://www.rfc-editor.org/rfc/rfc9110#section-8.6
     PublishedDate: '2023-09-15T20:15:00Z'
     LastModifiedDate: '2023-09-17T12:01:00Z'
