@@ -290,7 +290,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2230495
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32360
     - https://errata.almalinux.org/9/ALSA-2023-4838.html
-    - https://errata.rockylinux.org/RLSA-2023:4864
+    - https://errata.rockylinux.org/RLSA-2023:4838
     - https://linux.oracle.com/cve/CVE-2023-32360.html
     - https://linux.oracle.com/errata/ELSA-2023-4864.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-32360
@@ -405,6 +405,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4504
     - https://takeonme.org/cves/CVE-2023-4504.html
     - https://ubuntu.com/security/notices/USN-6391-1
+    - https://ubuntu.com/security/notices/USN-6391-2
     - https://ubuntu.com/security/notices/USN-6392-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4504
   - VulnerabilityID: CVE-2021-25317
@@ -720,7 +721,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -833,7 +834,12 @@
     Title: g_variant_byteswap() can take a long time with some non-normal inputs
     Description: A flaw was found in GLib. GVariant deserialization is vulnerable to a slowdown issue where a crafted GVariant can cause excessive processing, leading to denial of service.
     Severity: LOW
+    CweIDs:
+    - CWE-400
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
@@ -846,7 +852,7 @@
     - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-32611
     PublishedDate: '2023-09-14T20:15:00Z'
-    LastModifiedDate: '2023-09-15T00:31:00Z'
+    LastModifiedDate: '2023-09-20T13:46:00Z'
   - VulnerabilityID: CVE-2023-32636
     PkgID: glib2@2.68.4-6.el9.x86_64
     PkgName: glib2
@@ -976,8 +982,8 @@
     - CWE-416
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
@@ -987,7 +993,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
     - https://www.cve.org/CVERecord?id=CVE-2023-4813
     PublishedDate: '2023-09-12T22:15:00Z'
-    LastModifiedDate: '2023-09-18T14:07:00Z'
+    LastModifiedDate: '2023-09-20T19:01:00Z'
   - VulnerabilityID: CVE-2023-4527
     PkgID: glibc-common@2.34-60.el9.x86_64
     PkgName: glibc-common
@@ -1053,8 +1059,8 @@
     - CWE-416
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
@@ -1064,7 +1070,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
     - https://www.cve.org/CVERecord?id=CVE-2023-4813
     PublishedDate: '2023-09-12T22:15:00Z'
-    LastModifiedDate: '2023-09-18T14:07:00Z'
+    LastModifiedDate: '2023-09-20T19:01:00Z'
   - VulnerabilityID: CVE-2023-4527
     PkgID: glibc-minimal-langpack@2.34-60.el9.x86_64
     PkgName: glibc-minimal-langpack
@@ -1130,8 +1136,8 @@
     - CWE-416
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
@@ -1141,7 +1147,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
     - https://www.cve.org/CVERecord?id=CVE-2023-4813
     PublishedDate: '2023-09-12T22:15:00Z'
-    LastModifiedDate: '2023-09-18T14:07:00Z'
+    LastModifiedDate: '2023-09-20T19:01:00Z'
   - VulnerabilityID: CVE-2021-43618
     PkgID: gmp@6.2.0-10.el9.x86_64
     PkgName: gmp
@@ -1288,6 +1294,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2022-40433
     - https://bugs.openjdk.org/browse/JDK-8283441
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40433
     - https://github.com/openjdk/jdk11u-dev/pull/1183
     - https://github.com/openjdk/jdk13u-dev/pull/394
     - https://github.com/openjdk/jdk15u-dev/pull/261
@@ -1323,13 +1330,13 @@
     - https://access.redhat.com/security/cve/CVE-2023-22049
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2219727
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2220662
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221645
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221647
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049
     - https://errata.almalinux.org/9/ALSA-2023-4178.html
-    - https://errata.rockylinux.org/RLSA-2023:4176
+    - https://errata.rockylinux.org/RLSA-2023:4178
     - https://linux.oracle.com/cve/CVE-2023-22049.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00018.html
@@ -1402,13 +1409,13 @@
     - https://access.redhat.com/security/cve/CVE-2023-22045
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2219727
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2220662
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221645
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221647
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049
     - https://errata.almalinux.org/9/ALSA-2023-4178.html
-    - https://errata.rockylinux.org/RLSA-2023:4176
+    - https://errata.rockylinux.org/RLSA-2023:4178
     - https://linux.oracle.com/cve/CVE-2023-22045.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00018.html
@@ -2305,151 +2312,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-4899
     PublishedDate: '2023-03-31T20:15:00Z'
     LastModifiedDate: '2023-09-16T04:15:00Z'
-  - VulnerabilityID: CVE-2020-19185
-    PkgID: ncurses-base@6.2-8.20210508.el9.noarch
-    PkgName: ncurses-base
-    InstalledVersion: 6.2-8.20210508.el9
-    Status: affected
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-19185
-    Title: '1373'
-    Description: Buffer Overflow vulnerability in one_one_mapping function in progs/dump_entry.c:1373 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2020-19185
-    - https://github.com/zjuchenyuan/fuzzpoc/blob/master/infotocap_poc1.md
-    - https://nvd.nist.gov/vuln/detail/CVE-2020-19185
-    - https://www.cve.org/CVERecord?id=CVE-2020-19185
-    PublishedDate: '2023-08-22T19:15:00Z'
-    LastModifiedDate: '2023-08-25T02:44:00Z'
-  - VulnerabilityID: CVE-2020-19187
-    PkgID: ncurses-base@6.2-8.20210508.el9.noarch
-    PkgName: ncurses-base
-    InstalledVersion: 6.2-8.20210508.el9
-    Status: affected
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-19187
-    Title: '1100'
-    Description: Buffer Overflow vulnerability in fmt_entry function in progs/dump_entry.c:1100 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2020-19187
-    - https://github.com/zjuchenyuan/fuzzpoc/blob/master/infotocap_poc3.md
-    - https://nvd.nist.gov/vuln/detail/CVE-2020-19187
-    - https://www.cve.org/CVERecord?id=CVE-2020-19187
-    PublishedDate: '2023-08-22T19:15:00Z'
-    LastModifiedDate: '2023-08-25T02:44:00Z'
-  - VulnerabilityID: CVE-2020-19188
-    PkgID: ncurses-base@6.2-8.20210508.el9.noarch
-    PkgName: ncurses-base
-    InstalledVersion: 6.2-8.20210508.el9
-    Status: affected
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-19188
-    Title: '1116'
-    Description: Buffer Overflow vulnerability in fmt_entry function in progs/dump_entry.c:1116 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2020-19188
-    - https://github.com/zjuchenyuan/fuzzpoc/blob/master/infotocap_poc4.md
-    - https://nvd.nist.gov/vuln/detail/CVE-2020-19188
-    - https://www.cve.org/CVERecord?id=CVE-2020-19188
-    PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-08-25T02:44:00Z'
-  - VulnerabilityID: CVE-2020-19189
-    PkgID: ncurses-base@6.2-8.20210508.el9.noarch
-    PkgName: ncurses-base
-    InstalledVersion: 6.2-8.20210508.el9
-    Status: affected
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-19189
-    Title: '997'
-    Description: Buffer Overflow vulnerability in postprocess_terminfo function in tinfo/parse_entry.c:997 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2020-19189
-    - https://github.com/zjuchenyuan/fuzzpoc/blob/master/infotocap_poc5.md
-    - https://nvd.nist.gov/vuln/detail/CVE-2020-19189
-    - https://www.cve.org/CVERecord?id=CVE-2020-19189
-    PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-08-25T02:44:00Z'
-  - VulnerabilityID: CVE-2020-19190
-    PkgID: ncurses-base@6.2-8.20210508.el9.noarch
-    PkgName: ncurses-base
-    InstalledVersion: 6.2-8.20210508.el9
-    Status: affected
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-19190
-    Title: '70'
-    Description: Buffer Overflow vulnerability in _nc_find_entry in tinfo/comp_hash.c:70 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2020-19190
-    - https://github.com/zjuchenyuan/fuzzpoc/blob/master/infotocap_poc6.md
-    - https://nvd.nist.gov/vuln/detail/CVE-2020-19190
-    - https://www.cve.org/CVERecord?id=CVE-2020-19190
-    PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-08-25T02:44:00Z'
   - VulnerabilityID: CVE-2023-29491
     PkgID: ncurses-base@6.2-8.20210508.el9.noarch
     PkgName: ncurses-base
@@ -2531,151 +2393,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-29458
     PublishedDate: '2022-04-18T21:15:00Z'
     LastModifiedDate: '2022-11-08T19:46:00Z'
-  - VulnerabilityID: CVE-2020-19185
-    PkgID: ncurses-libs@6.2-8.20210508.el9.x86_64
-    PkgName: ncurses-libs
-    InstalledVersion: 6.2-8.20210508.el9
-    Status: affected
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-19185
-    Title: '1373'
-    Description: Buffer Overflow vulnerability in one_one_mapping function in progs/dump_entry.c:1373 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2020-19185
-    - https://github.com/zjuchenyuan/fuzzpoc/blob/master/infotocap_poc1.md
-    - https://nvd.nist.gov/vuln/detail/CVE-2020-19185
-    - https://www.cve.org/CVERecord?id=CVE-2020-19185
-    PublishedDate: '2023-08-22T19:15:00Z'
-    LastModifiedDate: '2023-08-25T02:44:00Z'
-  - VulnerabilityID: CVE-2020-19187
-    PkgID: ncurses-libs@6.2-8.20210508.el9.x86_64
-    PkgName: ncurses-libs
-    InstalledVersion: 6.2-8.20210508.el9
-    Status: affected
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-19187
-    Title: '1100'
-    Description: Buffer Overflow vulnerability in fmt_entry function in progs/dump_entry.c:1100 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2020-19187
-    - https://github.com/zjuchenyuan/fuzzpoc/blob/master/infotocap_poc3.md
-    - https://nvd.nist.gov/vuln/detail/CVE-2020-19187
-    - https://www.cve.org/CVERecord?id=CVE-2020-19187
-    PublishedDate: '2023-08-22T19:15:00Z'
-    LastModifiedDate: '2023-08-25T02:44:00Z'
-  - VulnerabilityID: CVE-2020-19188
-    PkgID: ncurses-libs@6.2-8.20210508.el9.x86_64
-    PkgName: ncurses-libs
-    InstalledVersion: 6.2-8.20210508.el9
-    Status: affected
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-19188
-    Title: '1116'
-    Description: Buffer Overflow vulnerability in fmt_entry function in progs/dump_entry.c:1116 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2020-19188
-    - https://github.com/zjuchenyuan/fuzzpoc/blob/master/infotocap_poc4.md
-    - https://nvd.nist.gov/vuln/detail/CVE-2020-19188
-    - https://www.cve.org/CVERecord?id=CVE-2020-19188
-    PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-08-25T02:44:00Z'
-  - VulnerabilityID: CVE-2020-19189
-    PkgID: ncurses-libs@6.2-8.20210508.el9.x86_64
-    PkgName: ncurses-libs
-    InstalledVersion: 6.2-8.20210508.el9
-    Status: affected
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-19189
-    Title: '997'
-    Description: Buffer Overflow vulnerability in postprocess_terminfo function in tinfo/parse_entry.c:997 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2020-19189
-    - https://github.com/zjuchenyuan/fuzzpoc/blob/master/infotocap_poc5.md
-    - https://nvd.nist.gov/vuln/detail/CVE-2020-19189
-    - https://www.cve.org/CVERecord?id=CVE-2020-19189
-    PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-08-25T02:44:00Z'
-  - VulnerabilityID: CVE-2020-19190
-    PkgID: ncurses-libs@6.2-8.20210508.el9.x86_64
-    PkgName: ncurses-libs
-    InstalledVersion: 6.2-8.20210508.el9
-    Status: affected
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-19190
-    Title: '70'
-    Description: Buffer Overflow vulnerability in _nc_find_entry in tinfo/comp_hash.c:70 in ncurses 6.1 allows remote attackers to cause a denial of service via crafted command.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2020-19190
-    - https://github.com/zjuchenyuan/fuzzpoc/blob/master/infotocap_poc6.md
-    - https://nvd.nist.gov/vuln/detail/CVE-2020-19190
-    - https://www.cve.org/CVERecord?id=CVE-2020-19190
-    PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-08-25T02:44:00Z'
   - VulnerabilityID: CVE-2023-29491
     PkgID: ncurses-libs@6.2-8.20210508.el9.x86_64
     PkgName: ncurses-libs
@@ -3554,12 +3271,13 @@
         V3Score: 8.6
     References:
     - https://access.redhat.com/security/cve/CVE-2023-40217
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
     - https://www.cve.org/CVERecord?id=CVE-2023-40217
     - https://www.python.org/dev/security/
     PublishedDate: '2023-08-25T01:15:00Z'
-    LastModifiedDate: '2023-08-31T14:35:00Z'
+    LastModifiedDate: '2023-09-20T22:15:00Z'
   - VulnerabilityID: CVE-2007-4559
     PkgID: python-unversioned-command@3.9.16-1.el9_2.1.noarch
     PkgName: python-unversioned-command
@@ -3636,6 +3354,7 @@
     - https://lists.debian.org/debian-lts-announce/2021/02/msg00030.html
     - https://lists.debian.org/debian-lts-announce/2021/04/msg00005.html
     - https://lists.debian.org/debian-lts-announce/2021/04/msg00015.html
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3EPYWWFDV22CJ5AOH5VCE72DOASZZ255/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3YKKDLXL3UEZ3J426C2XTBS63AHE46SM/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/46N6A52EGSXHJYCZWVMBJJIH4NWIV2B5/
@@ -3668,7 +3387,7 @@
     - https://www.oracle.com/security-alerts/cpujan2022.html
     - https://www.oracle.com/security-alerts/cpuoct2021.html
     PublishedDate: '2021-02-15T13:15:00Z'
-    LastModifiedDate: '2022-03-04T19:13:00Z'
+    LastModifiedDate: '2023-09-20T22:15:00Z'
   - VulnerabilityID: CVE-2022-0391
     PkgID: python-unversioned-command@3.9.16-1.el9_2.1.noarch
     PkgName: python-unversioned-command
@@ -3706,6 +3425,7 @@
     - https://errata.almalinux.org/8/ALSA-2022-6457.html
     - https://linux.oracle.com/cve/CVE-2022-0391.html
     - https://linux.oracle.com/errata/ELSA-2023-3550.html
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CSD2YBXP3ZF44E44QMIIAR5VTO35KTRB/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UDBDBAU6HUPZHISBOARTXZ5GKHF2VH5U/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-0391
@@ -3716,7 +3436,46 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-0391
     - https://www.oracle.com/security-alerts/cpuapr2022.html
     PublishedDate: '2022-02-09T23:15:00Z'
-    LastModifiedDate: '2023-05-03T11:15:00Z'
+    LastModifiedDate: '2023-09-20T22:15:00Z'
+  - VulnerabilityID: CVE-2022-48565
+    PkgID: python-unversioned-command@3.9.16-1.el9_2.1.noarch
+    PkgName: python-unversioned-command
+    InstalledVersion: 3.9.16-1.el9_2.1
+    Status: affected
+    Layer:
+      Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
+      DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48565
+    Title: XML External Entity in XML processing plistlib module
+    Description: An XML External Entity (XXE) issue was discovered in Python through 3.9.1. The plistlib module no longer accepts entity declarations in XML plist files to avoid XML vulnerabilities.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-611
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 7.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-48565
+    - https://bugs.python.org/issue42051
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48565
+    - https://github.com/python/cpython/commit/05ee790f4d1cd8725a90b54268fc1dfe5b4d1fa2 (v3.10.0a2)
+    - https://github.com/python/cpython/commit/479553c7c11306a09ce34edb6ef208133b7b95fe (3.9)
+    - https://github.com/python/cpython/commit/e512bc799e3864fe3b1351757261762d63471efc (v3.7.10)
+    - https://github.com/python/cpython/issues/86217
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-48565
+    - https://ubuntu.com/security/notices/USN-6354-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-48565
+    PublishedDate: '2023-08-22T19:16:00Z'
+    LastModifiedDate: '2023-09-20T22:15:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python-unversioned-command@3.9.16-1.el9_2.1.noarch
     PkgName: python-unversioned-command
@@ -3815,12 +3574,13 @@
         V3Score: 8.6
     References:
     - https://access.redhat.com/security/cve/CVE-2023-40217
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
     - https://www.cve.org/CVERecord?id=CVE-2023-40217
     - https://www.python.org/dev/security/
     PublishedDate: '2023-08-25T01:15:00Z'
-    LastModifiedDate: '2023-08-31T14:35:00Z'
+    LastModifiedDate: '2023-09-20T22:15:00Z'
   - VulnerabilityID: CVE-2007-4559
     PkgID: python3@3.9.16-1.el9_2.1.x86_64
     PkgName: python3
@@ -3897,6 +3657,7 @@
     - https://lists.debian.org/debian-lts-announce/2021/02/msg00030.html
     - https://lists.debian.org/debian-lts-announce/2021/04/msg00005.html
     - https://lists.debian.org/debian-lts-announce/2021/04/msg00015.html
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3EPYWWFDV22CJ5AOH5VCE72DOASZZ255/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3YKKDLXL3UEZ3J426C2XTBS63AHE46SM/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/46N6A52EGSXHJYCZWVMBJJIH4NWIV2B5/
@@ -3929,7 +3690,7 @@
     - https://www.oracle.com/security-alerts/cpujan2022.html
     - https://www.oracle.com/security-alerts/cpuoct2021.html
     PublishedDate: '2021-02-15T13:15:00Z'
-    LastModifiedDate: '2022-03-04T19:13:00Z'
+    LastModifiedDate: '2023-09-20T22:15:00Z'
   - VulnerabilityID: CVE-2022-0391
     PkgID: python3@3.9.16-1.el9_2.1.x86_64
     PkgName: python3
@@ -3967,6 +3728,7 @@
     - https://errata.almalinux.org/8/ALSA-2022-6457.html
     - https://linux.oracle.com/cve/CVE-2022-0391.html
     - https://linux.oracle.com/errata/ELSA-2023-3550.html
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CSD2YBXP3ZF44E44QMIIAR5VTO35KTRB/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UDBDBAU6HUPZHISBOARTXZ5GKHF2VH5U/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-0391
@@ -3977,7 +3739,46 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-0391
     - https://www.oracle.com/security-alerts/cpuapr2022.html
     PublishedDate: '2022-02-09T23:15:00Z'
-    LastModifiedDate: '2023-05-03T11:15:00Z'
+    LastModifiedDate: '2023-09-20T22:15:00Z'
+  - VulnerabilityID: CVE-2022-48565
+    PkgID: python3@3.9.16-1.el9_2.1.x86_64
+    PkgName: python3
+    InstalledVersion: 3.9.16-1.el9_2.1
+    Status: affected
+    Layer:
+      Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
+      DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48565
+    Title: XML External Entity in XML processing plistlib module
+    Description: An XML External Entity (XXE) issue was discovered in Python through 3.9.1. The plistlib module no longer accepts entity declarations in XML plist files to avoid XML vulnerabilities.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-611
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 7.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-48565
+    - https://bugs.python.org/issue42051
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48565
+    - https://github.com/python/cpython/commit/05ee790f4d1cd8725a90b54268fc1dfe5b4d1fa2 (v3.10.0a2)
+    - https://github.com/python/cpython/commit/479553c7c11306a09ce34edb6ef208133b7b95fe (3.9)
+    - https://github.com/python/cpython/commit/e512bc799e3864fe3b1351757261762d63471efc (v3.7.10)
+    - https://github.com/python/cpython/issues/86217
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-48565
+    - https://ubuntu.com/security/notices/USN-6354-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-48565
+    PublishedDate: '2023-08-22T19:16:00Z'
+    LastModifiedDate: '2023-09-20T22:15:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3@3.9.16-1.el9_2.1.x86_64
     PkgName: python3
@@ -4076,12 +3877,13 @@
         V3Score: 8.6
     References:
     - https://access.redhat.com/security/cve/CVE-2023-40217
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
     - https://www.cve.org/CVERecord?id=CVE-2023-40217
     - https://www.python.org/dev/security/
     PublishedDate: '2023-08-25T01:15:00Z'
-    LastModifiedDate: '2023-08-31T14:35:00Z'
+    LastModifiedDate: '2023-09-20T22:15:00Z'
   - VulnerabilityID: CVE-2007-4559
     PkgID: python3-libs@3.9.16-1.el9_2.1.x86_64
     PkgName: python3-libs
@@ -4158,6 +3960,7 @@
     - https://lists.debian.org/debian-lts-announce/2021/02/msg00030.html
     - https://lists.debian.org/debian-lts-announce/2021/04/msg00005.html
     - https://lists.debian.org/debian-lts-announce/2021/04/msg00015.html
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3EPYWWFDV22CJ5AOH5VCE72DOASZZ255/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3YKKDLXL3UEZ3J426C2XTBS63AHE46SM/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/46N6A52EGSXHJYCZWVMBJJIH4NWIV2B5/
@@ -4190,7 +3993,7 @@
     - https://www.oracle.com/security-alerts/cpujan2022.html
     - https://www.oracle.com/security-alerts/cpuoct2021.html
     PublishedDate: '2021-02-15T13:15:00Z'
-    LastModifiedDate: '2022-03-04T19:13:00Z'
+    LastModifiedDate: '2023-09-20T22:15:00Z'
   - VulnerabilityID: CVE-2022-0391
     PkgID: python3-libs@3.9.16-1.el9_2.1.x86_64
     PkgName: python3-libs
@@ -4228,6 +4031,7 @@
     - https://errata.almalinux.org/8/ALSA-2022-6457.html
     - https://linux.oracle.com/cve/CVE-2022-0391.html
     - https://linux.oracle.com/errata/ELSA-2023-3550.html
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CSD2YBXP3ZF44E44QMIIAR5VTO35KTRB/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UDBDBAU6HUPZHISBOARTXZ5GKHF2VH5U/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-0391
@@ -4238,7 +4042,46 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-0391
     - https://www.oracle.com/security-alerts/cpuapr2022.html
     PublishedDate: '2022-02-09T23:15:00Z'
-    LastModifiedDate: '2023-05-03T11:15:00Z'
+    LastModifiedDate: '2023-09-20T22:15:00Z'
+  - VulnerabilityID: CVE-2022-48565
+    PkgID: python3-libs@3.9.16-1.el9_2.1.x86_64
+    PkgName: python3-libs
+    InstalledVersion: 3.9.16-1.el9_2.1
+    Status: affected
+    Layer:
+      Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
+      DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48565
+    Title: XML External Entity in XML processing plistlib module
+    Description: An XML External Entity (XXE) issue was discovered in Python through 3.9.1. The plistlib module no longer accepts entity declarations in XML plist files to avoid XML vulnerabilities.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-611
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 7.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-48565
+    - https://bugs.python.org/issue42051
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48565
+    - https://github.com/python/cpython/commit/05ee790f4d1cd8725a90b54268fc1dfe5b4d1fa2 (v3.10.0a2)
+    - https://github.com/python/cpython/commit/479553c7c11306a09ce34edb6ef208133b7b95fe (3.9)
+    - https://github.com/python/cpython/commit/e512bc799e3864fe3b1351757261762d63471efc (v3.7.10)
+    - https://github.com/python/cpython/issues/86217
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-48565
+    - https://ubuntu.com/security/notices/USN-6354-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-48565
+    PublishedDate: '2023-08-22T19:16:00Z'
+    LastModifiedDate: '2023-09-20T22:15:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3-libs@3.9.16-1.el9_2.1.x86_64
     PkgName: python3-libs
@@ -4718,10 +4561,11 @@
     Title: Jetty is a Java based web server and servlet engine. Prior to versions ...
     Description: Jetty is a Java based web server and servlet engine. Prior to versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1, Jetty accepts the `+` character proceeding the content-length value in a HTTP/1 header field.  This is more permissive than allowed by the RFC and other servers routinely reject such requests with 400 responses.  There is no known exploit scenario, but it is conceivable that request smuggling could result if jetty is used in combination with a server that does not close the connection after sending such a 400 response. Versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1 contain a patch for this issue. There is no workaround as there is no known exploit scenario.
     Severity: MEDIUM
-    CweIDs:
-    - CWE-130
     CVSS:
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
@@ -4730,7 +4574,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-40167
     - https://www.rfc-editor.org/rfc/rfc9110#section-8.6
     PublishedDate: '2023-09-15T20:15:00Z'
-    LastModifiedDate: '2023-09-17T12:01:00Z'
+    LastModifiedDate: '2023-09-20T20:20:00Z'
   - VulnerabilityID: CVE-2023-4759
     PkgName: org.eclipse.jgit:org.eclipse.jgit
     PkgPath: openaf/openaf.jar
