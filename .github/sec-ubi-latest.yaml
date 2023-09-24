@@ -940,8 +940,8 @@
     - CWE-125
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
-        V3Score: 8.2
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
         V3Score: 6.5
@@ -952,7 +952,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4527
     - https://www.cve.org/CVERecord?id=CVE-2023-4527
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-09-21T17:55:00Z'
+    LastModifiedDate: '2023-09-22T17:52:00Z'
   - VulnerabilityID: CVE-2023-4806
     PkgID: glibc@2.34-60.el9.x86_64
     PkgName: glibc
@@ -966,7 +966,12 @@
     Title: potential use-after-free in getaddrinfo()
     Description: A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-416
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
@@ -976,7 +981,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4806
     - https://www.cve.org/CVERecord?id=CVE-2023-4806
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-09-18T18:23:00Z'
+    LastModifiedDate: '2023-09-22T13:44:00Z'
   - VulnerabilityID: CVE-2023-4813
     PkgID: glibc@2.34-60.el9.x86_64
     PkgName: glibc
@@ -1023,8 +1028,8 @@
     - CWE-125
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
-        V3Score: 8.2
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
         V3Score: 6.5
@@ -1035,7 +1040,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4527
     - https://www.cve.org/CVERecord?id=CVE-2023-4527
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-09-21T17:55:00Z'
+    LastModifiedDate: '2023-09-22T17:52:00Z'
   - VulnerabilityID: CVE-2023-4806
     PkgID: glibc-common@2.34-60.el9.x86_64
     PkgName: glibc-common
@@ -1049,7 +1054,12 @@
     Title: potential use-after-free in getaddrinfo()
     Description: A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-416
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
@@ -1059,7 +1069,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4806
     - https://www.cve.org/CVERecord?id=CVE-2023-4806
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-09-18T18:23:00Z'
+    LastModifiedDate: '2023-09-22T13:44:00Z'
   - VulnerabilityID: CVE-2023-4813
     PkgID: glibc-common@2.34-60.el9.x86_64
     PkgName: glibc-common
@@ -1106,8 +1116,8 @@
     - CWE-125
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
-        V3Score: 8.2
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
         V3Score: 6.5
@@ -1118,7 +1128,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4527
     - https://www.cve.org/CVERecord?id=CVE-2023-4527
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-09-21T17:55:00Z'
+    LastModifiedDate: '2023-09-22T17:52:00Z'
   - VulnerabilityID: CVE-2023-4806
     PkgID: glibc-minimal-langpack@2.34-60.el9.x86_64
     PkgName: glibc-minimal-langpack
@@ -1132,7 +1142,12 @@
     Title: potential use-after-free in getaddrinfo()
     Description: A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-416
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
@@ -1142,7 +1157,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4806
     - https://www.cve.org/CVERecord?id=CVE-2023-4806
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-09-18T18:23:00Z'
+    LastModifiedDate: '2023-09-22T13:44:00Z'
   - VulnerabilityID: CVE-2023-4813
     PkgID: glibc-minimal-langpack@2.34-60.el9.x86_64
     PkgName: glibc-minimal-langpack
@@ -3074,6 +3089,8 @@
     References:
     - http://seclists.org/fulldisclosure/2023/Jul/43
     - http://www.openwall.com/lists/oss-security/2023/07/31/1
+    - http://www.openwall.com/lists/oss-security/2023/09/22/11
+    - http://www.openwall.com/lists/oss-security/2023/09/22/9
     - https://access.redhat.com/security/cve/CVE-2023-3817
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3817
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a1eb62c29db6cb5eec707f9338aee00f44e26f5
@@ -3086,7 +3103,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:00Z'
-    LastModifiedDate: '2023-08-18T14:15:00Z'
+    LastModifiedDate: '2023-09-23T00:15:00Z'
   - VulnerabilityID: CVE-2023-2975
     PkgID: openssl-libs@3.0.7-16.el9_2.x86_64
     PkgName: openssl-libs
@@ -3263,6 +3280,8 @@
     References:
     - http://seclists.org/fulldisclosure/2023/Jul/43
     - http://www.openwall.com/lists/oss-security/2023/07/31/1
+    - http://www.openwall.com/lists/oss-security/2023/09/22/11
+    - http://www.openwall.com/lists/oss-security/2023/09/22/9
     - https://access.redhat.com/security/cve/CVE-2023-3817
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3817
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a1eb62c29db6cb5eec707f9338aee00f44e26f5
@@ -3275,7 +3294,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:00Z'
-    LastModifiedDate: '2023-08-18T14:15:00Z'
+    LastModifiedDate: '2023-09-23T00:15:00Z'
   - VulnerabilityID: CVE-2023-40217
     PkgID: python-unversioned-command@3.9.16-1.el9_2.1.noarch
     PkgName: python-unversioned-command
