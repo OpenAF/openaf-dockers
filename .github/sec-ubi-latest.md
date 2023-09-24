@@ -1151,9 +1151,9 @@
 │                       │       │                   crash. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                  │        │           :L/I:N/A:H 
-│                       │       │                  │        ╰ V3Score : 8.2 
+│                       │       │                  │        ╰ V3Score : 6.5 
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :L/I:N/A:H 
 │                       │       │                           ╰ V3Score : 6.5 
@@ -1164,7 +1164,7 @@
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-21T17:55:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-22T17:52:00Z 
 │                       ├ [28]  ╭ VulnerabilityID : CVE-2023-4806 
 │                       │       ├ PkgID           : glibc@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc 
@@ -1188,7 +1188,11 @@
 │                       │       │                   should have the AF_INET6 address family with AI_CANONNAME,
 │                       │       │                   AI_ALL and AI_V4MAPPED as flags. 
 │                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 7.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4806 
@@ -1196,7 +1200,7 @@
 │                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-18T18:23:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-22T13:44:00Z 
 │                       ├ [29]  ╭ VulnerabilityID : CVE-2023-4813 
 │                       │       ├ PkgID           : glibc@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc 
@@ -1250,9 +1254,9 @@
 │                       │       │                   crash. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                  │        │           :L/I:N/A:H 
-│                       │       │                  │        ╰ V3Score : 8.2 
+│                       │       │                  │        ╰ V3Score : 6.5 
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :L/I:N/A:H 
 │                       │       │                           ╰ V3Score : 6.5 
@@ -1263,7 +1267,7 @@
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-21T17:55:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-22T17:52:00Z 
 │                       ├ [31]  ╭ VulnerabilityID : CVE-2023-4806 
 │                       │       ├ PkgID           : glibc-common@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-common 
@@ -1287,7 +1291,11 @@
 │                       │       │                   should have the AF_INET6 address family with AI_CANONNAME,
 │                       │       │                   AI_ALL and AI_V4MAPPED as flags. 
 │                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 7.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4806 
@@ -1295,7 +1303,7 @@
 │                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-18T18:23:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-22T13:44:00Z 
 │                       ├ [32]  ╭ VulnerabilityID : CVE-2023-4813 
 │                       │       ├ PkgID           : glibc-common@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-common 
@@ -1349,9 +1357,9 @@
 │                       │       │                   crash. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-125 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                  │        │           :L/I:N/A:H 
-│                       │       │                  │        ╰ V3Score : 8.2 
+│                       │       │                  │        ╰ V3Score : 6.5 
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :L/I:N/A:H 
 │                       │       │                           ╰ V3Score : 6.5 
@@ -1362,7 +1370,7 @@
 │                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
 │                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-21T17:55:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-22T17:52:00Z 
 │                       ├ [34]  ╭ VulnerabilityID : CVE-2023-4806 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
@@ -1386,7 +1394,11 @@
 │                       │       │                   should have the AF_INET6 address family with AI_CANONNAME,
 │                       │       │                   AI_ALL and AI_V4MAPPED as flags. 
 │                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 7.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4806 
@@ -1394,7 +1406,7 @@
 │                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-18T18:23:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-22T13:44:00Z 
 │                       ├ [35]  ╭ VulnerabilityID : CVE-2023-4813 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
@@ -3745,30 +3757,34 @@
 │                       │       ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/43 
 │                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023
 │                       │       │                  │       /07/31/1 
-│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-3817 
-│                       │       │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /09/22/11 
+│                       │       │                  ├ [3] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /09/22/9 
+│                       │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2023-3817 
+│                       │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2023-3817 
-│                       │       │                  ├ [4] : https://git.openssl.org/gitweb/?p=openssl.git;a
+│                       │       │                  ├ [6] : https://git.openssl.org/gitweb/?p=openssl.git;a
 │                       │       │                  │       =commitdiff;h=6a1eb62c29db6cb5eec707f9338aee00f44e26
 │                       │       │                  │       f5 
-│                       │       │                  ├ [5] : https://git.openssl.org/gitweb/?p=openssl.git;a
+│                       │       │                  ├ [7] : https://git.openssl.org/gitweb/?p=openssl.git;a
 │                       │       │                  │       =commitdiff;h=869ad69aadd985c7b8ca6f4e5dd0eb274c9f36
 │                       │       │                  │       44 
-│                       │       │                  ├ [6] : https://git.openssl.org/gitweb/?p=openssl.git;a
+│                       │       │                  ├ [8] : https://git.openssl.org/gitweb/?p=openssl.git;a
 │                       │       │                  │       =commitdiff;h=9002fd07327a91f35ba6c1307e71fa6fd4409b
 │                       │       │                  │       7f 
-│                       │       │                  ├ [7] : https://git.openssl.org/gitweb/?p=openssl.git;a
+│                       │       │                  ├ [9] : https://git.openssl.org/gitweb/?p=openssl.git;a
 │                       │       │                  │       =commitdiff;h=91ddeba0f2269b017dc06c46c993a788974b1a
 │                       │       │                  │       a5 
-│                       │       │                  ├ [8] : https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  ├ [10]: https://lists.debian.org/debian-lts-announce/20
 │                       │       │                  │       23/08/msg00019.html 
-│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-3817 
-│                       │       │                  ├ [10]: https://security.netapp.com/advisory/ntap-20230
+│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2023-3817 
+│                       │       │                  ├ [12]: https://security.netapp.com/advisory/ntap-20230
 │                       │       │                  │       818-0014/ 
-│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
-│                       │       │                  ╰ [12]: https://www.openssl.org/news/secadv/20230731.txt 
+│                       │       │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
+│                       │       │                  ╰ [14]: https://www.openssl.org/news/secadv/20230731.txt 
 │                       │       ├ PublishedDate   : 2023-07-31T16:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-08-18T14:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-23T00:15:00Z 
 │                       ├ [86]  ╭ VulnerabilityID : CVE-2023-2975 
 │                       │       ├ PkgID           : openssl-libs@3.0.7-16.el9_2.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
@@ -4008,30 +4024,34 @@
 │                       │       ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/43 
 │                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023
 │                       │       │                  │       /07/31/1 
-│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-3817 
-│                       │       │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /09/22/11 
+│                       │       │                  ├ [3] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /09/22/9 
+│                       │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2023-3817 
+│                       │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2023-3817 
-│                       │       │                  ├ [4] : https://git.openssl.org/gitweb/?p=openssl.git;a
+│                       │       │                  ├ [6] : https://git.openssl.org/gitweb/?p=openssl.git;a
 │                       │       │                  │       =commitdiff;h=6a1eb62c29db6cb5eec707f9338aee00f44e26
 │                       │       │                  │       f5 
-│                       │       │                  ├ [5] : https://git.openssl.org/gitweb/?p=openssl.git;a
+│                       │       │                  ├ [7] : https://git.openssl.org/gitweb/?p=openssl.git;a
 │                       │       │                  │       =commitdiff;h=869ad69aadd985c7b8ca6f4e5dd0eb274c9f36
 │                       │       │                  │       44 
-│                       │       │                  ├ [6] : https://git.openssl.org/gitweb/?p=openssl.git;a
+│                       │       │                  ├ [8] : https://git.openssl.org/gitweb/?p=openssl.git;a
 │                       │       │                  │       =commitdiff;h=9002fd07327a91f35ba6c1307e71fa6fd4409b
 │                       │       │                  │       7f 
-│                       │       │                  ├ [7] : https://git.openssl.org/gitweb/?p=openssl.git;a
+│                       │       │                  ├ [9] : https://git.openssl.org/gitweb/?p=openssl.git;a
 │                       │       │                  │       =commitdiff;h=91ddeba0f2269b017dc06c46c993a788974b1a
 │                       │       │                  │       a5 
-│                       │       │                  ├ [8] : https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  ├ [10]: https://lists.debian.org/debian-lts-announce/20
 │                       │       │                  │       23/08/msg00019.html 
-│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-3817 
-│                       │       │                  ├ [10]: https://security.netapp.com/advisory/ntap-20230
+│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2023-3817 
+│                       │       │                  ├ [12]: https://security.netapp.com/advisory/ntap-20230
 │                       │       │                  │       818-0014/ 
-│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
-│                       │       │                  ╰ [12]: https://www.openssl.org/news/secadv/20230731.txt 
+│                       │       │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
+│                       │       │                  ╰ [14]: https://www.openssl.org/news/secadv/20230731.txt 
 │                       │       ├ PublishedDate   : 2023-07-31T16:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-08-18T14:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-23T00:15:00Z 
 │                       ├ [89]  ╭ VulnerabilityID : CVE-2023-40217 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.16-1.el9_2.1.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
