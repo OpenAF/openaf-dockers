@@ -463,10 +463,10 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4504 
 │                       │       ├ Title           : Postscript Parsing Heap Overflow 
 │                       │       ├ Description     : Due to failure in validating the length provided by an
-│                       │       │                    attacker-crafted PostScript document, CUPS and libppd are
-│                       │       │                   susceptible to a heap-based buffer overflow and possibly
-│                       │       │                   code execution. This issue has been fixed in CUPS version
-│                       │       │                   2.4.7, released in September of 2023.
+│                       │       │                    attacker-crafted PPD PostScript document, CUPS and libppd
+│                       │       │                   are susceptible to a heap-based buffer overflow and
+│                       │       │                   possibly code execution. This issue has been fixed in CUPS
+│                       │       │                   version 2.4.7, released in September of 2023.
 │                       │       │                    
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C
@@ -488,7 +488,7 @@
 │                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6392-1 
 │                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4504 
 │                       │       ├ PublishedDate   : 2023-09-21T23:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-22T01:25:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-23T16:15:00Z 
 │                       ├ [13]  ╭ VulnerabilityID : CVE-2021-25317 
 │                       │       ├ PkgID           : cups-libs@2.3.3op2-16.el9.x86_64 
 │                       │       ├ PkgName         : cups-libs 
