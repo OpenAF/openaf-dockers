@@ -394,7 +394,7 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4504
     Title: Postscript Parsing Heap Overflow
     Description: |
-      Due to failure in validating the length provided by an attacker-crafted PostScript document, CUPS and libppd are susceptible to a heap-based buffer overflow and possibly code execution. This issue has been fixed in CUPS version 2.4.7, released in September of 2023.
+      Due to failure in validating the length provided by an attacker-crafted PPD PostScript document, CUPS and libppd are susceptible to a heap-based buffer overflow and possibly code execution. This issue has been fixed in CUPS version 2.4.7, released in September of 2023.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -413,7 +413,7 @@
     - https://ubuntu.com/security/notices/USN-6392-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4504
     PublishedDate: '2023-09-21T23:15:00Z'
-    LastModifiedDate: '2023-09-22T01:25:00Z'
+    LastModifiedDate: '2023-09-23T16:15:00Z'
   - VulnerabilityID: CVE-2021-25317
     PkgID: cups-libs@2.3.3op2-16.el9.x86_64
     PkgName: cups-libs
@@ -780,7 +780,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4156
     Title: heap out of bound read in builtin.c
-    Description: A heap out-of-bounds read flaw was found in builtin.c in the gawk package. This issue may lead to a crash and could be used to read sensitive information.
+    Description: A heap out-of-bounds read flaw was found in builtin.c in the gawk package. This issue may lead to a crash and could be used to read sensitive information.A heap out-of-bounds read flaw was found in builtin.c in the gawk package. This issue may lead to a crash and could be used to read sensitive information.
     Severity: LOW
     CVSS:
       redhat:
@@ -940,8 +940,8 @@
     - CWE-125
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
-        V3Score: 8.2
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
         V3Score: 6.5
@@ -952,7 +952,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4527
     - https://www.cve.org/CVERecord?id=CVE-2023-4527
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-09-21T17:55:00Z'
+    LastModifiedDate: '2023-09-22T17:52:00Z'
   - VulnerabilityID: CVE-2023-4806
     PkgID: glibc@2.34-60.el9.x86_64
     PkgName: glibc
@@ -966,7 +966,12 @@
     Title: potential use-after-free in getaddrinfo()
     Description: A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-416
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
@@ -976,7 +981,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4806
     - https://www.cve.org/CVERecord?id=CVE-2023-4806
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-09-18T18:23:00Z'
+    LastModifiedDate: '2023-09-22T13:44:00Z'
   - VulnerabilityID: CVE-2023-4813
     PkgID: glibc@2.34-60.el9.x86_64
     PkgName: glibc
@@ -1006,6 +1011,29 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-4813
     PublishedDate: '2023-09-12T22:15:00Z'
     LastModifiedDate: '2023-09-20T19:01:00Z'
+  - VulnerabilityID: CVE-2023-5156
+    PkgID: glibc@2.34-60.el9.x86_64
+    PkgName: glibc
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5156
+    Title: DoS due to memory leak in getaddrinfo.c
+    Description: A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5156
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5156
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=30884
+    - https://sourceware.org/git/?p=glibc.git;a=commitdiff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
+    - https://www.cve.org/CVERecord?id=CVE-2023-5156
   - VulnerabilityID: CVE-2023-4527
     PkgID: glibc-common@2.34-60.el9.x86_64
     PkgName: glibc-common
@@ -1023,8 +1051,8 @@
     - CWE-125
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
-        V3Score: 8.2
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
         V3Score: 6.5
@@ -1035,7 +1063,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4527
     - https://www.cve.org/CVERecord?id=CVE-2023-4527
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-09-21T17:55:00Z'
+    LastModifiedDate: '2023-09-22T17:52:00Z'
   - VulnerabilityID: CVE-2023-4806
     PkgID: glibc-common@2.34-60.el9.x86_64
     PkgName: glibc-common
@@ -1049,7 +1077,12 @@
     Title: potential use-after-free in getaddrinfo()
     Description: A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-416
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
@@ -1059,7 +1092,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4806
     - https://www.cve.org/CVERecord?id=CVE-2023-4806
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-09-18T18:23:00Z'
+    LastModifiedDate: '2023-09-22T13:44:00Z'
   - VulnerabilityID: CVE-2023-4813
     PkgID: glibc-common@2.34-60.el9.x86_64
     PkgName: glibc-common
@@ -1089,6 +1122,29 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-4813
     PublishedDate: '2023-09-12T22:15:00Z'
     LastModifiedDate: '2023-09-20T19:01:00Z'
+  - VulnerabilityID: CVE-2023-5156
+    PkgID: glibc-common@2.34-60.el9.x86_64
+    PkgName: glibc-common
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5156
+    Title: DoS due to memory leak in getaddrinfo.c
+    Description: A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5156
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5156
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=30884
+    - https://sourceware.org/git/?p=glibc.git;a=commitdiff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
+    - https://www.cve.org/CVERecord?id=CVE-2023-5156
   - VulnerabilityID: CVE-2023-4527
     PkgID: glibc-minimal-langpack@2.34-60.el9.x86_64
     PkgName: glibc-minimal-langpack
@@ -1106,8 +1162,8 @@
     - CWE-125
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
-        V3Score: 8.2
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
         V3Score: 6.5
@@ -1118,7 +1174,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4527
     - https://www.cve.org/CVERecord?id=CVE-2023-4527
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-09-21T17:55:00Z'
+    LastModifiedDate: '2023-09-22T17:52:00Z'
   - VulnerabilityID: CVE-2023-4806
     PkgID: glibc-minimal-langpack@2.34-60.el9.x86_64
     PkgName: glibc-minimal-langpack
@@ -1132,7 +1188,12 @@
     Title: potential use-after-free in getaddrinfo()
     Description: A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-416
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
@@ -1142,7 +1203,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4806
     - https://www.cve.org/CVERecord?id=CVE-2023-4806
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-09-18T18:23:00Z'
+    LastModifiedDate: '2023-09-22T13:44:00Z'
   - VulnerabilityID: CVE-2023-4813
     PkgID: glibc-minimal-langpack@2.34-60.el9.x86_64
     PkgName: glibc-minimal-langpack
@@ -1172,6 +1233,29 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-4813
     PublishedDate: '2023-09-12T22:15:00Z'
     LastModifiedDate: '2023-09-20T19:01:00Z'
+  - VulnerabilityID: CVE-2023-5156
+    PkgID: glibc-minimal-langpack@2.34-60.el9.x86_64
+    PkgName: glibc-minimal-langpack
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5156
+    Title: DoS due to memory leak in getaddrinfo.c
+    Description: A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5156
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5156
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=30884
+    - https://sourceware.org/git/?p=glibc.git;a=commitdiff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
+    - https://www.cve.org/CVERecord?id=CVE-2023-5156
   - VulnerabilityID: CVE-2021-43618
     PkgID: gmp@6.2.0-10.el9.x86_64
     PkgName: gmp
@@ -1307,14 +1391,14 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-40433
     Title: segmentation fault in ciMethodBlocks
     Description: An issue was discovered in function ciMethodBlocks::make_block_at in Oracle JDK (HotSpot VM) 11, 17 and OpenJDK (HotSpot VM) 8, 11, 17, allows attackers to cause a denial of service.
-    Severity: HIGH
+    Severity: MEDIUM
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.9
     References:
     - https://access.redhat.com/security/cve/CVE-2022-40433
     - https://bugs.openjdk.org/browse/JDK-8283441
@@ -3074,6 +3158,8 @@
     References:
     - http://seclists.org/fulldisclosure/2023/Jul/43
     - http://www.openwall.com/lists/oss-security/2023/07/31/1
+    - http://www.openwall.com/lists/oss-security/2023/09/22/11
+    - http://www.openwall.com/lists/oss-security/2023/09/22/9
     - https://access.redhat.com/security/cve/CVE-2023-3817
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3817
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a1eb62c29db6cb5eec707f9338aee00f44e26f5
@@ -3086,7 +3172,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:00Z'
-    LastModifiedDate: '2023-08-18T14:15:00Z'
+    LastModifiedDate: '2023-09-23T00:15:00Z'
   - VulnerabilityID: CVE-2023-2975
     PkgID: openssl-libs@3.0.7-16.el9_2.x86_64
     PkgName: openssl-libs
@@ -3263,6 +3349,8 @@
     References:
     - http://seclists.org/fulldisclosure/2023/Jul/43
     - http://www.openwall.com/lists/oss-security/2023/07/31/1
+    - http://www.openwall.com/lists/oss-security/2023/09/22/11
+    - http://www.openwall.com/lists/oss-security/2023/09/22/9
     - https://access.redhat.com/security/cve/CVE-2023-3817
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3817
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a1eb62c29db6cb5eec707f9338aee00f44e26f5
@@ -3275,7 +3363,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:00Z'
-    LastModifiedDate: '2023-08-18T14:15:00Z'
+    LastModifiedDate: '2023-09-23T00:15:00Z'
   - VulnerabilityID: CVE-2023-40217
     PkgID: python-unversioned-command@3.9.16-1.el9_2.1.noarch
     PkgName: python-unversioned-command
@@ -3338,9 +3426,10 @@
     - https://access.redhat.com/security/cve/CVE-2007-4559
     - https://bugzilla.redhat.com/show_bug.cgi?id=263261
     - https://nvd.nist.gov/vuln/detail/CVE-2007-4559
+    - https://security.gentoo.org/glsa/202309-06
     - https://www.cve.org/CVERecord?id=CVE-2007-4559
     PublishedDate: '2007-08-28T01:17:00Z'
-    LastModifiedDate: '2023-08-02T17:28:00Z'
+    LastModifiedDate: '2023-09-17T09:15:00Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python-unversioned-command@3.9.16-1.el9_2.1.noarch
     PkgName: python-unversioned-command
@@ -3509,7 +3598,7 @@
     PkgID: python-unversioned-command@3.9.16-1.el9_2.1.noarch
     PkgName: python-unversioned-command
     InstalledVersion: 3.9.16-1.el9_2.1
-    Status: affected
+    Status: will_not_fix
     Layer:
       Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
       DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
@@ -3602,9 +3691,10 @@
     - https://access.redhat.com/security/cve/CVE-2007-4559
     - https://bugzilla.redhat.com/show_bug.cgi?id=263261
     - https://nvd.nist.gov/vuln/detail/CVE-2007-4559
+    - https://security.gentoo.org/glsa/202309-06
     - https://www.cve.org/CVERecord?id=CVE-2007-4559
     PublishedDate: '2007-08-28T01:17:00Z'
-    LastModifiedDate: '2023-08-02T17:28:00Z'
+    LastModifiedDate: '2023-09-17T09:15:00Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python3@3.9.16-1.el9_2.1.x86_64
     PkgName: python3
@@ -3773,7 +3863,7 @@
     PkgID: python3@3.9.16-1.el9_2.1.x86_64
     PkgName: python3
     InstalledVersion: 3.9.16-1.el9_2.1
-    Status: affected
+    Status: will_not_fix
     Layer:
       Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
       DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
@@ -3866,9 +3956,10 @@
     - https://access.redhat.com/security/cve/CVE-2007-4559
     - https://bugzilla.redhat.com/show_bug.cgi?id=263261
     - https://nvd.nist.gov/vuln/detail/CVE-2007-4559
+    - https://security.gentoo.org/glsa/202309-06
     - https://www.cve.org/CVERecord?id=CVE-2007-4559
     PublishedDate: '2007-08-28T01:17:00Z'
-    LastModifiedDate: '2023-08-02T17:28:00Z'
+    LastModifiedDate: '2023-09-17T09:15:00Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python3-libs@3.9.16-1.el9_2.1.x86_64
     PkgName: python3-libs
@@ -4037,7 +4128,7 @@
     PkgID: python3-libs@3.9.16-1.el9_2.1.x86_64
     PkgName: python3-libs
     InstalledVersion: 3.9.16-1.el9_2.1
-    Status: affected
+    Status: will_not_fix
     Layer:
       Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
       DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
