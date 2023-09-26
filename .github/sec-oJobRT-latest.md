@@ -238,83 +238,192 @@
                         │     │                  ╰ [5]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
                         │     ├ PublishedDate   : 2023-09-15T20:15:00Z 
                         │     ╰ LastModifiedDate: 2023-09-20T20:20:00Z 
-                        ╰ [2] ╭ VulnerabilityID : CVE-2023-4759 
-                              ├ PkgName         : org.eclipse.jgit:org.eclipse.jgit 
-                              ├ PkgPath         : openaf/openaf.jar 
-                              ├ InstalledVersion: 5.8.1.202007141445-r 
-                              ├ FixedVersion    : 6.6.1.202309021850-r 
+                        ├ [2] ╭ VulnerabilityID : CVE-2023-4759 
+                        │     ├ PkgName         : org.eclipse.jgit:org.eclipse.jgit 
+                        │     ├ PkgPath         : openaf/openaf.jar 
+                        │     ├ InstalledVersion: 5.8.1.202007141445-r 
+                        │     ├ FixedVersion    : 6.6.1.202309021850-r 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:01946b3456703b9ad0aa8d38f4dc7ea88231a98b
+                        │     │                  │         0ae8992fc113f9b93e365bc8 
+                        │     │                  ╰ DiffID: sha256:a0322bd04f02373f7900fd2cdf7c678b1c61d212
+                        │     │                            d2b0fae3f9a80ca0018ab676 
+                        │     ├ SeveritySource  : ghsa 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4759 
+                        │     ├ DataSource       ╭ ID  : ghsa 
+                        │     │                  ├ Name: GitHub Security Advisory Maven 
+                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areview
+                        │     │                          ed+ecosystem%3Amaven 
+                        │     ├ Title           : arbitrary file overwrite 
+                        │     ├ Description     : Arbitrary File Overwrite in Eclipse JGit <= 6.6.0
+                        │     │                   
+                        │     │                   In Eclipse JGit, all versions <= 6.6.0.202305301015-r, a
+                        │     │                   symbolic link present in a specially crafted git repository
+                        │     │                   can be used to write a file to locations outside the working
+                        │     │                   tree when this repository is cloned with JGit to a
+                        │     │                   case-insensitive filesystem, or when a checkout from a clone
+                        │     │                   of such a repository is performed on a case-insensitive
+                        │     │                   filesystem.
+                        │     │                   
+                        │     │                   This can happen on checkout (DirCacheCheckout), merge
+                        │     │                   (ResolveMerger via its WorkingTreeUpdater), pull (PullCommand
+                        │     │                    using merge), and when applying a patch (PatchApplier). This
+                        │     │                    can be exploited for remote code execution (RCE), for
+                        │     │                   instance if the file written outside the working tree is a
+                        │     │                   git filter that gets executed on a subsequent git command.
+                        │     │                   
+                        │     │                   The issue occurs only on case-insensitive filesystems, like
+                        │     │                   the default filesystems on Windows and macOS. The user
+                        │     │                   performing the clone or checkout must have the rights to
+                        │     │                   create symbolic links for the problem to occur, and symbolic
+                        │     │                   links must be enabled in the git configuration.
+                        │     │                   
+                        │     │                   Setting git configuration option core.symlinks = false before
+                        │     │                    checking out avoids the problem.
+                        │     │                   
+                        │     │                   The issue was fixed in Eclipse JGit version
+                        │     │                   6.6.1.202309021850-r and 6.7.0.202309050840-r, available via 
+                        │     │                    Maven Central
+                        │     │                   https://repo1.maven.org/maven2/org/eclipse/jgit/  and 
+                        │     │                   repo.eclipse.org
+                        │     │                   https://repo.eclipse.org/content/repositories/jgit-releases/
+                        │     │                   .
+                        │     │                   
+                        │     │                   
+                        │     │                   The JGit maintainers would like to thank RyotaK for finding
+                        │     │                   and reporting this issue.
+                        │     │                   
+                        │     │                   
+                        │     │                   
+                        │     │                    
+                        │     ├ Severity        : HIGH 
+                        │     ├ CweIDs           ╭ [0]: CWE-59 
+                        │     │                  ╰ [1]: CWE-178 
+                        │     ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I
+                        │     │                  │      │           :H/A:H 
+                        │     │                  │      ╰ V3Score : 8.8 
+                        │     │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I
+                        │     │                         │           :H/A:H 
+                        │     │                         ╰ V3Score : 8.8 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4759 
+                        │     │                  ├ [1]: https://git.eclipse.org/c/jgit/jgit.git 
+                        │     │                  ├ [2]: https://git.eclipse.org/c/jgit/jgit.git/commit/?id
+                        │     │                  │      =9072103f3b3cf64dd12ad2949836ab98f62dabf1 
+                        │     │                  ├ [3]: https://gitlab.eclipse.org/security/vulnerability-
+                        │     │                  │      reports/-/issues/11 
+                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-4759 
+                        │     │                  ├ [5]: https://projects.eclipse.org/projects/technology.j
+                        │     │                  │      git/releases/6.6.1 
+                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4759 
+                        │     ├ PublishedDate   : 2023-09-12T10:15:00Z 
+                        │     ╰ LastModifiedDate: 2023-09-18T13:54:00Z 
+                        ╰ [3] ╭ VulnerabilityID : CVE-2023-43642 
+                              ├ PkgName         : org.xerial.snappy:snappy-java 
+                              ├ PkgPath         : openaf/S3/snappy-java-1.1.10.1.jar 
+                              ├ InstalledVersion: 1.1.10.1 
+                              ├ FixedVersion    : 1.1.10.4 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:01946b3456703b9ad0aa8d38f4dc7ea88231a98b
-                              │                  │         0ae8992fc113f9b93e365bc8 
-                              │                  ╰ DiffID: sha256:a0322bd04f02373f7900fd2cdf7c678b1c61d212
-                              │                            d2b0fae3f9a80ca0018ab676 
+                              ├ Layer            ╭ Digest: sha256:f6aae561ecabd0e2c64c187c81e05ff9a180608d
+                              │                  │         8f29aaaaf74d7b5b135a3eff 
+                              │                  ╰ DiffID: sha256:2a7e70e4cc26ba10c395896027c83d000f6eccd1
+                              │                            13d8acff97372840686b80ea 
                               ├ SeveritySource  : ghsa 
-                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4759 
+                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-43642 
                               ├ DataSource       ╭ ID  : ghsa 
                               │                  ├ Name: GitHub Security Advisory Maven 
                               │                  ╰ URL : https://github.com/advisories?query=type%3Areview
                               │                          ed+ecosystem%3Amaven 
-                              ├ Title           : arbitrary file overwrite 
-                              ├ Description     : Arbitrary File Overwrite in Eclipse JGit <= 6.6.0
+                              ├ Title           : snappy-java's missing upper bound check on chunk length
+                              │                   can lead to Denial of Service (DoS) impact 
+                              ├ Description     : ### Summary
                               │                   
-                              │                   In Eclipse JGit, all versions <= 6.6.0.202305301015-r, a
-                              │                   symbolic link present in a specially crafted git repository
-                              │                   can be used to write a file to locations outside the working
-                              │                   tree when this repository is cloned with JGit to a
-                              │                   case-insensitive filesystem, or when a checkout from a clone
-                              │                   of such a repository is performed on a case-insensitive
-                              │                   filesystem.
+                              │                   snappy-java is a data compression library in Java. Its
+                              │                   SnappyInputStream was found to be vulnerable to Denial of
+                              │                   Service (DoS) attacks when decompressing data with a
+                              │                   too-large chunk size. Due to missing upper bound check on
+                              │                   chunk length, an unrecoverable fatal error can occur. 
                               │                   
-                              │                   This can happen on checkout (DirCacheCheckout), merge
-                              │                   (ResolveMerger via its WorkingTreeUpdater), pull (PullCommand
-                              │                    using merge), and when applying a patch (PatchApplier). This
-                              │                    can be exploited for remote code execution (RCE), for
-                              │                   instance if the file written outside the working tree is a
-                              │                   git filter that gets executed on a subsequent git command.
+                              │                   ### Scope
                               │                   
-                              │                   The issue occurs only on case-insensitive filesystems, like
-                              │                   the default filesystems on Windows and macOS. The user
-                              │                   performing the clone or checkout must have the rights to
-                              │                   create symbolic links for the problem to occur, and symbolic
-                              │                   links must be enabled in the git configuration.
+                              │                   All versions of snappy-java including the latest released
+                              │                   version 1.1.10.3.  A fix is applied in 1.1.10.4
                               │                   
-                              │                   Setting git configuration option core.symlinks = false before
-                              │                    checking out avoids the problem.
+                              │                   ### Details
+                              │                   While performing mitigation efforts related to
+                              │                   [CVE-2023-34455](https://nvd.nist.gov/vuln/detail/CVE-2023-34
+                              │                   455) in Confluent products, our Application Security team
+                              │                   closely analyzed the fix that was accepted and merged into
+                              │                   snappy-java version 1.1.10.1 in
+                              │                   [this](https://github.com/xerial/snappy-java/commit/3bf67857f
+                              │                   cf70d9eea56eed4af7c925671e8eaea) commit. The check on [line
+                              │                   421](https://github.com/xerial/snappy-java/commit/3bf67857fcf
+                              │                   70d9eea56eed4af7c925671e8eaea#diff-c3e53610267092989965e8c7dd
+                              │                   2d4417d355ff7f560f9e8075b365f32569079fR421) only attempts to
+                              │                   check if chunkSize is not a negative value. We believe that
+                              │                   this is an inadequate fix as it misses an upper-bounds check
+                              │                   for overly positive values such as 0x7FFFFFFF (or
+                              │                   (2,147,483,647 in decimal) before actually [attempting to
+                              │                   allocate](https://github.com/xerial/snappy-java/commit/3bf678
+                              │                   57fcf70d9eea56eed4af7c925671e8eaea#diff-c3e53610267092989965e
+                              │                   8c7dd2d4417d355ff7f560f9e8075b365f32569079fR429) the provided
+                              │                    unverified number of bytes via the “chunkSize” variable.
+                              │                   This missing upper-bounds check can lead to the applications
+                              │                   depending upon snappy-java to allocate an inappropriate
+                              │                   number of bytes on the heap which can then cause an 
+                              │                   java.lang.OutOfMemoryError exception. Under some specific
+                              │                   conditions and contexts, this can lead to a Denial-of-Service
+                              │                    (DoS) attack with a direct impact on the availability of the
+                              │                    dependent implementations based on the usage of the
+                              │                   snappy-java library for compression/decompression needs.
                               │                   
-                              │                   The issue was fixed in Eclipse JGit version
-                              │                   6.6.1.202309021850-r and 6.7.0.202309050840-r, available via 
-                              │                    Maven Central
-                              │                   https://repo1.maven.org/maven2/org/eclipse/jgit/  and 
-                              │                   repo.eclipse.org
-                              │                   https://repo.eclipse.org/content/repositories/jgit-releases/
-                              │                   .
+                              │                   ### PoC
+                              │                   Compile and run the following code:
+                              │                   ```
+                              │                   package org.example;
+                              │                   import org.xerial.snappy.SnappyInputStream;
                               │                   
+                              │                   import java.io.*;
                               │                   
-                              │                   The JGit maintainers would like to thank RyotaK for finding
-                              │                   and reporting this issue.
+                              │                   public class Main {
                               │                   
+                              │                       public static void main(String[] args) throws IOException
+                              │                    {
+                              │                           byte[] data = {-126, 'S', 'N', 'A', 'P', 'P', 'Y', 0,
+                              │                    0, 0, 0, 0, 0, 0, 0, 0,(byte) 0x7f, (byte) 0xff, (byte)
+                              │                   0xff, (byte) 0xff};
+                              │                           SnappyInputStream in = new SnappyInputStream(new
+                              │                   ByteArrayInputStream(data));
+                              │                           byte[] out = new byte[50];
+                              │                           try {
+                              │                               in.read(out);
+                              │                           }
+                              │                           catch (Exception ignored) {
+                              │                           }
+                              │                       }
+                              │                   }
+                              │                   ```
                               │                   
+                              │                   ### Impact
+                              │                   Denial of Service of applications dependent on snappy-java
+                              │                   especially if `ExitOnOutOfMemoryError` or
+                              │                   `CrashOnOutOfMemoryError` is configured on the JVM.
                               │                   
-                              │                    
+                              │                   ### Credits
+                              │                   Jan Werner, Mukul Khullar and Bharadwaj Machiraju from
+                              │                   Confluent's Application Security team. 
+                              │                   
+                              │                   We kindly request for a new CVE ID to be assigned once you
+                              │                   acknowledge this vulnerability. 
                               ├ Severity        : HIGH 
-                              ├ CweIDs           ╭ [0]: CWE-59 
-                              │                  ╰ [1]: CWE-178 
-                              ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I
-                              │                  │      │           :H/A:H 
-                              │                  │      ╰ V3Score : 8.8 
-                              │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I
-                              │                         │           :H/A:H 
-                              │                         ╰ V3Score : 8.8 
-                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4759 
-                              │                  ├ [1]: https://git.eclipse.org/c/jgit/jgit.git 
-                              │                  ├ [2]: https://git.eclipse.org/c/jgit/jgit.git/commit/?id
-                              │                  │      =9072103f3b3cf64dd12ad2949836ab98f62dabf1 
-                              │                  ├ [3]: https://gitlab.eclipse.org/security/vulnerability-
-                              │                  │      reports/-/issues/11 
-                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-4759 
-                              │                  ├ [5]: https://projects.eclipse.org/projects/technology.j
-                              │                  │      git/releases/6.6.1 
-                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4759 
-                              ├ PublishedDate   : 2023-09-12T10:15:00Z 
-                              ╰ LastModifiedDate: 2023-09-18T13:54:00Z 
+                              ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+                              │                         │           :N/A:H 
+                              │                         ╰ V3Score : 7.5 
+                              ╰ References       ╭ [0]: https://github.com/xerial/snappy-java 
+                                                 ├ [1]: https://github.com/xerial/snappy-java/commit/9f8c3
+                                                 │      cf74223ed0a8a834134be9c917b9f10ceb5 
+                                                 ├ [2]: https://github.com/xerial/snappy-java/releases/tag
+                                                 │      /v1.1.10.4 
+                                                 ├ [3]: https://github.com/xerial/snappy-java/security/adv
+                                                 │      isories/GHSA-55g7-9cwv-5qfv 
+                                                 ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-43642 
 ````
