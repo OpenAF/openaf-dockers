@@ -329,7 +329,8 @@
 │                       │       │                  ├ [11]: https://support.apple.com/en-us/HT213759 
 │                       │       │                  ├ [12]: https://support.apple.com/en-us/HT213760 
 │                       │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-6361-1 
-│                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2023-32360 
+│                       │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-6361-2 
+│                       │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-32360 
 │                       │       ├ PublishedDate   : 2023-06-23T18:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-07-27T04:15:00Z 
 │                       ├ [10]  ╭ VulnerabilityID : CVE-2023-32324 
@@ -469,7 +470,11 @@
 │                       │       │                   version 2.4.7, released in September of 2023.
 │                       │       │                    
 │                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C
 │                       │       │                           │           :L/I:L/A:L 
 │                       │       │                           ╰ V3Score : 4.2 
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-4504 
@@ -488,7 +493,7 @@
 │                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6392-1 
 │                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4504 
 │                       │       ├ PublishedDate   : 2023-09-21T23:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-23T16:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-26T14:16:00Z 
 │                       ├ [13]  ╭ VulnerabilityID : CVE-2021-25317 
 │                       │       ├ PkgID           : cups-libs@2.3.3op2-16.el9.x86_64 
 │                       │       ├ PkgName         : cups-libs 
@@ -968,27 +973,31 @@
 │                       │       ├ Title           : heap out of bound read in builtin.c 
 │                       │       ├ Description     : A heap out-of-bounds read flaw was found in builtin.c
 │                       │       │                   in the gawk package. This issue may lead to a crash and
-│                       │       │                   could be used to read sensitive information.A heap
-│                       │       │                   out-of-bounds read flaw was found in builtin.c in the gawk
-│                       │       │                   package. This issue may lead to a crash and could be used
-│                       │       │                   to read sensitive information. 
+│                       │       │                   could be used to read sensitive information. 
 │                       │       ├ Severity        : LOW 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       ├ CweIDs           ─ [0]: CWE-125 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 7.1 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
 │                       │       │                           │           :L/I:N/A:L 
 │                       │       │                           ╰ V3Score : 4.4 
-│                       │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4156 
-│                       │                          ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │                          │      VE-2023-4156 
-│                       │                          ├ [2]: https://git.savannah.gnu.org/gitweb/?p=gawk.git;
-│                       │                          │      a=commitdiff;h=e709eb829448ce040087a3fc5481db6bfcaae2
-│                       │                          │      12 (gawk-5.2.0) 
-│                       │                          ├ [3]: https://mail.gnu.org/archive/html/bug-gawk/2022-
-│                       │                          │      08/msg00000.html 
-│                       │                          ├ [4]: https://mail.gnu.org/archive/html/bug-gawk/2022-
-│                       │                          │      08/msg00023.html 
-│                       │                          ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-4156 
-│                       │                          ├ [6]: https://ubuntu.com/security/notices/USN-6373-1 
-│                       │                          ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-4156 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4156 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2215930 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-4156 
+│                       │       │                  ├ [3]: https://git.savannah.gnu.org/gitweb/?p=gawk.git;
+│                       │       │                  │      a=commitdiff;h=e709eb829448ce040087a3fc5481db6bfcaae2
+│                       │       │                  │      12 (gawk-5.2.0) 
+│                       │       │                  ├ [4]: https://mail.gnu.org/archive/html/bug-gawk/2022-
+│                       │       │                  │      08/msg00000.html 
+│                       │       │                  ├ [5]: https://mail.gnu.org/archive/html/bug-gawk/2022-
+│                       │       │                  │      08/msg00023.html 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-4156 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6373-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-4156 
+│                       │       ├ PublishedDate   : 2023-09-25T18:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-26T19:39:00Z 
 │                       ├ [23]  ╭ VulnerabilityID : CVE-2023-29499 
 │                       │       ├ PkgID           : glib2@2.68.4-6.el9.x86_64 
 │                       │       ├ PkgName         : glib2 
@@ -1018,11 +1027,13 @@
 │                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │       │                  │      VE-2023-29499 
 │                       │       │                  ├ [3]: https://gitlab.gnome.org/GNOME/glib/-/issues/2794 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-29499 
-│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6165-1 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-29499 
+│                       │       │                  ├ [4]: https://lists.debian.org/debian-lts-announce/202
+│                       │       │                  │      3/09/msg00030.html 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-29499 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6165-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-29499 
 │                       │       ├ PublishedDate   : 2023-09-14T20:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-19T18:53:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-25T20:15:00Z 
 │                       ├ [24]  ╭ VulnerabilityID : CVE-2023-32611 
 │                       │       ├ PkgID           : glib2@2.68.4-6.el9.x86_64 
 │                       │       ├ PkgName         : glib2 
@@ -1053,11 +1064,13 @@
 │                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │       │                  │      VE-2023-32611 
 │                       │       │                  ├ [3]: https://gitlab.gnome.org/GNOME/glib/-/issues/2797 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-32611 
-│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6165-1 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-32611 
+│                       │       │                  ├ [4]: https://lists.debian.org/debian-lts-announce/202
+│                       │       │                  │      3/09/msg00030.html 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-32611 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6165-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-32611 
 │                       │       ├ PublishedDate   : 2023-09-14T20:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-20T13:46:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-25T20:15:00Z 
 │                       ├ [25]  ╭ VulnerabilityID : CVE-2023-32636 
 │                       │       ├ PkgID           : glib2@2.68.4-6.el9.x86_64 
 │                       │       ├ PkgName         : glib2 
@@ -1128,11 +1141,13 @@
 │                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │       │                  │      VE-2023-32665 
 │                       │       │                  ├ [3]: https://gitlab.gnome.org/GNOME/glib/-/issues/2121 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-32665 
-│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6165-1 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-32665 
+│                       │       │                  ├ [4]: https://lists.debian.org/debian-lts-announce/202
+│                       │       │                  │      3/09/msg00030.html 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-32665 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6165-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-32665 
 │                       │       ├ PublishedDate   : 2023-09-14T20:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-19T20:06:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-25T20:15:00Z 
 │                       ├ [27]  ╭ VulnerabilityID : CVE-2023-4527 
 │                       │       ├ PkgID           : glibc@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc 
@@ -1160,14 +1175,16 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :L/I:N/A:H 
 │                       │       │                           ╰ V3Score : 6.5 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4527 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
-│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      09/25/1 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-4527 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
+│                       │       │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │       │                  │      VE-2023-4527 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-22T17:52:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-25T12:15:00Z 
 │                       ├ [28]  ╭ VulnerabilityID : CVE-2023-4806 
 │                       │       ├ PkgID           : glibc@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc 
@@ -1192,9 +1209,9 @@
 │                       │       │                   AI_ALL and AI_V4MAPPED as flags. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-416 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                  │        │           :N/I:N/A:H 
-│                       │       │                  │        ╰ V3Score : 7.5 
+│                       │       │                  │        ╰ V3Score : 5.9 
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
@@ -1203,7 +1220,7 @@
 │                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-22T13:44:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-26T19:54:00Z 
 │                       ├ [29]  ╭ VulnerabilityID : CVE-2023-4813 
 │                       │       ├ PkgID           : glibc@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc 
@@ -1250,21 +1267,25 @@
 │                       │       ├ Title           : DoS due to memory leak in getaddrinfo.c 
 │                       │       ├ Description     : A flaw was found in the GNU C Library. A recent fix
 │                       │       │                   for CVE-2023-4806 introduced the potential for a memory
-│                       │       │                   leak, which may result in an application crash.A flaw was
-│                       │       │                   found in the GNU C Library. A recent fix for CVE-2023-4806
-│                       │       │                   introduced the potential for a memory leak, which may
-│                       │       │                   result in an application crash. 
+│                       │       │                   leak, which may result in an application crash. 
 │                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                       │       ├ CweIDs           ─ [0]: CWE-401 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 7.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:L 
 │                       │       │                           ╰ V3Score : 3.7 
-│                       │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5156 
-│                       │                          ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-5156 
-│                       │                          ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=30884 
-│                       │                          ├ [3]: https://sourceware.org/git/?p=glibc.git;a=commit
-│                       │                          │      diff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
-│                       │                          │       
-│                       │                          ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5156 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5156 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2240541 
+│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5156 
+│                       │       │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=30884 
+│                       │       │                  ├ [4]: https://sourceware.org/git/?p=glibc.git;a=commit
+│                       │       │                  │      diff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
+│                       │       │                  │       
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-5156 
+│                       │       ├ PublishedDate   : 2023-09-25T16:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-26T15:02:00Z 
 │                       ├ [31]  ╭ VulnerabilityID : CVE-2023-4527 
 │                       │       ├ PkgID           : glibc-common@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-common 
@@ -1292,14 +1313,16 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :L/I:N/A:H 
 │                       │       │                           ╰ V3Score : 6.5 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4527 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
-│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      09/25/1 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-4527 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
+│                       │       │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │       │                  │      VE-2023-4527 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-22T17:52:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-25T12:15:00Z 
 │                       ├ [32]  ╭ VulnerabilityID : CVE-2023-4806 
 │                       │       ├ PkgID           : glibc-common@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-common 
@@ -1324,9 +1347,9 @@
 │                       │       │                   AI_ALL and AI_V4MAPPED as flags. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-416 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                  │        │           :N/I:N/A:H 
-│                       │       │                  │        ╰ V3Score : 7.5 
+│                       │       │                  │        ╰ V3Score : 5.9 
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
@@ -1335,7 +1358,7 @@
 │                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-22T13:44:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-26T19:54:00Z 
 │                       ├ [33]  ╭ VulnerabilityID : CVE-2023-4813 
 │                       │       ├ PkgID           : glibc-common@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-common 
@@ -1382,21 +1405,25 @@
 │                       │       ├ Title           : DoS due to memory leak in getaddrinfo.c 
 │                       │       ├ Description     : A flaw was found in the GNU C Library. A recent fix
 │                       │       │                   for CVE-2023-4806 introduced the potential for a memory
-│                       │       │                   leak, which may result in an application crash.A flaw was
-│                       │       │                   found in the GNU C Library. A recent fix for CVE-2023-4806
-│                       │       │                   introduced the potential for a memory leak, which may
-│                       │       │                   result in an application crash. 
+│                       │       │                   leak, which may result in an application crash. 
 │                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                       │       ├ CweIDs           ─ [0]: CWE-401 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 7.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:L 
 │                       │       │                           ╰ V3Score : 3.7 
-│                       │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5156 
-│                       │                          ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-5156 
-│                       │                          ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=30884 
-│                       │                          ├ [3]: https://sourceware.org/git/?p=glibc.git;a=commit
-│                       │                          │      diff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
-│                       │                          │       
-│                       │                          ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5156 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5156 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2240541 
+│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5156 
+│                       │       │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=30884 
+│                       │       │                  ├ [4]: https://sourceware.org/git/?p=glibc.git;a=commit
+│                       │       │                  │      diff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
+│                       │       │                  │       
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-5156 
+│                       │       ├ PublishedDate   : 2023-09-25T16:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-26T15:02:00Z 
 │                       ├ [35]  ╭ VulnerabilityID : CVE-2023-4527 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
@@ -1424,14 +1451,16 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :L/I:N/A:H 
 │                       │       │                           ╰ V3Score : 6.5 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4527 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
-│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      09/25/1 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-4527 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
+│                       │       │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │       │                  │      VE-2023-4527 
-│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
-│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-22T17:52:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-25T12:15:00Z 
 │                       ├ [36]  ╭ VulnerabilityID : CVE-2023-4806 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
@@ -1456,9 +1485,9 @@
 │                       │       │                   AI_ALL and AI_V4MAPPED as flags. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-416 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                  │        │           :N/I:N/A:H 
-│                       │       │                  │        ╰ V3Score : 7.5 
+│                       │       │                  │        ╰ V3Score : 5.9 
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
@@ -1467,7 +1496,7 @@
 │                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
 │                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-22T13:44:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-26T19:54:00Z 
 │                       ├ [37]  ╭ VulnerabilityID : CVE-2023-4813 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
@@ -1514,21 +1543,25 @@
 │                       │       ├ Title           : DoS due to memory leak in getaddrinfo.c 
 │                       │       ├ Description     : A flaw was found in the GNU C Library. A recent fix
 │                       │       │                   for CVE-2023-4806 introduced the potential for a memory
-│                       │       │                   leak, which may result in an application crash.A flaw was
-│                       │       │                   found in the GNU C Library. A recent fix for CVE-2023-4806
-│                       │       │                   introduced the potential for a memory leak, which may
-│                       │       │                   result in an application crash. 
+│                       │       │                   leak, which may result in an application crash. 
 │                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                       │       ├ CweIDs           ─ [0]: CWE-401 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 7.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:L 
 │                       │       │                           ╰ V3Score : 3.7 
-│                       │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5156 
-│                       │                          ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-5156 
-│                       │                          ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=30884 
-│                       │                          ├ [3]: https://sourceware.org/git/?p=glibc.git;a=commit
-│                       │                          │      diff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
-│                       │                          │       
-│                       │                          ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5156 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5156 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2240541 
+│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5156 
+│                       │       │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=30884 
+│                       │       │                  ├ [4]: https://sourceware.org/git/?p=glibc.git;a=commit
+│                       │       │                  │      diff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
+│                       │       │                  │       
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-5156 
+│                       │       ├ PublishedDate   : 2023-09-25T16:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-26T15:02:00Z 
 │                       ├ [39]  ╭ VulnerabilityID : CVE-2021-43618 
 │                       │       ├ PkgID           : gmp@6.2.0-10.el9.x86_64 
 │                       │       ├ PkgName         : gmp 
@@ -1698,9 +1731,9 @@
 │                       │       │                   11, 17 and OpenJDK (HotSpot VM) 8, 11, 17, allows attackers
 │                       │       │                    to cause a denial of service. 
 │                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C
 │                       │       │                  │        │           :N/I:N/A:H 
-│                       │       │                  │        ╰ V3Score : 7.5 
+│                       │       │                  │        ╰ V3Score : 4.9 
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 4.9 
@@ -1714,7 +1747,7 @@
 │                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-40433 
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-40433 
 │                       │       ├ PublishedDate   : 2023-08-22T19:16:00Z 
-│                       │       ╰ LastModifiedDate: 2023-08-31T00:37:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-25T17:23:00Z 
 │                       ├ [43]  ╭ VulnerabilityID : CVE-2023-22049 
 │                       │       ├ VendorIDs        ─ [0]: RHSA-2023:4178 
 │                       │       ├ PkgID           : java-1.8.0-openjdk-headless@1.8.0.372.b07-2.el9.x86_64 

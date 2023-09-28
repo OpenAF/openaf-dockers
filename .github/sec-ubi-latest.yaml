@@ -298,6 +298,7 @@
     - https://support.apple.com/en-us/HT213759
     - https://support.apple.com/en-us/HT213760
     - https://ubuntu.com/security/notices/USN-6361-1
+    - https://ubuntu.com/security/notices/USN-6361-2
     - https://www.cve.org/CVERecord?id=CVE-2023-32360
     PublishedDate: '2023-06-23T18:15:00Z'
     LastModifiedDate: '2023-07-27T04:15:00Z'
@@ -396,7 +397,12 @@
     Description: |
       Due to failure in validating the length provided by an attacker-crafted PPD PostScript document, CUPS and libppd are susceptible to a heap-based buffer overflow and possibly code execution. This issue has been fixed in CUPS version 2.4.7, released in September of 2023.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-787
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L
         V3Score: 4.2
@@ -413,7 +419,7 @@
     - https://ubuntu.com/security/notices/USN-6392-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4504
     PublishedDate: '2023-09-21T23:15:00Z'
-    LastModifiedDate: '2023-09-23T16:15:00Z'
+    LastModifiedDate: '2023-09-26T14:16:00Z'
   - VulnerabilityID: CVE-2021-25317
     PkgID: cups-libs@2.3.3op2-16.el9.x86_64
     PkgName: cups-libs
@@ -780,14 +786,20 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4156
     Title: heap out of bound read in builtin.c
-    Description: A heap out-of-bounds read flaw was found in builtin.c in the gawk package. This issue may lead to a crash and could be used to read sensitive information.A heap out-of-bounds read flaw was found in builtin.c in the gawk package. This issue may lead to a crash and could be used to read sensitive information.
+    Description: A heap out-of-bounds read flaw was found in builtin.c in the gawk package. This issue may lead to a crash and could be used to read sensitive information.
     Severity: LOW
+    CweIDs:
+    - CWE-125
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H
+        V3Score: 7.1
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L
         V3Score: 4.4
     References:
     - https://access.redhat.com/security/cve/CVE-2023-4156
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2215930
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4156
     - https://git.savannah.gnu.org/gitweb/?p=gawk.git;a=commitdiff;h=e709eb829448ce040087a3fc5481db6bfcaae212 (gawk-5.2.0)
     - https://mail.gnu.org/archive/html/bug-gawk/2022-08/msg00000.html
@@ -795,6 +807,8 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4156
     - https://ubuntu.com/security/notices/USN-6373-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4156
+    PublishedDate: '2023-09-25T18:15:00Z'
+    LastModifiedDate: '2023-09-26T19:39:00Z'
   - VulnerabilityID: CVE-2023-29499
     PkgID: glib2@2.68.4-6.el9.x86_64
     PkgName: glib2
@@ -822,11 +836,12 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2211828
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29499
     - https://gitlab.gnome.org/GNOME/glib/-/issues/2794
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00030.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-29499
     - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-29499
     PublishedDate: '2023-09-14T20:15:00Z'
-    LastModifiedDate: '2023-09-19T18:53:00Z'
+    LastModifiedDate: '2023-09-25T20:15:00Z'
   - VulnerabilityID: CVE-2023-32611
     PkgID: glib2@2.68.4-6.el9.x86_64
     PkgName: glib2
@@ -854,11 +869,12 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2211829
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32611
     - https://gitlab.gnome.org/GNOME/glib/-/issues/2797
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00030.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-32611
     - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-32611
     PublishedDate: '2023-09-14T20:15:00Z'
-    LastModifiedDate: '2023-09-20T13:46:00Z'
+    LastModifiedDate: '2023-09-25T20:15:00Z'
   - VulnerabilityID: CVE-2023-32636
     PkgID: glib2@2.68.4-6.el9.x86_64
     PkgName: glib2
@@ -918,11 +934,12 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2211827
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32665
     - https://gitlab.gnome.org/GNOME/glib/-/issues/2121
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00030.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-32665
     - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-32665
     PublishedDate: '2023-09-14T20:15:00Z'
-    LastModifiedDate: '2023-09-19T20:06:00Z'
+    LastModifiedDate: '2023-09-25T20:15:00Z'
   - VulnerabilityID: CVE-2023-4527
     PkgID: glibc@2.34-60.el9.x86_64
     PkgName: glibc
@@ -946,13 +963,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
         V3Score: 6.5
     References:
+    - http://www.openwall.com/lists/oss-security/2023/09/25/1
     - https://access.redhat.com/security/cve/CVE-2023-4527
     - https://bugzilla.redhat.com/show_bug.cgi?id=2234712
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4527
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4527
     - https://www.cve.org/CVERecord?id=CVE-2023-4527
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-09-22T17:52:00Z'
+    LastModifiedDate: '2023-09-25T12:15:00Z'
   - VulnerabilityID: CVE-2023-4806
     PkgID: glibc@2.34-60.el9.x86_64
     PkgName: glibc
@@ -970,8 +988,8 @@
     - CWE-416
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
@@ -981,7 +999,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4806
     - https://www.cve.org/CVERecord?id=CVE-2023-4806
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-09-22T13:44:00Z'
+    LastModifiedDate: '2023-09-26T19:54:00Z'
   - VulnerabilityID: CVE-2023-4813
     PkgID: glibc@2.34-60.el9.x86_64
     PkgName: glibc
@@ -1022,18 +1040,26 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5156
     Title: DoS due to memory leak in getaddrinfo.c
-    Description: A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.
+    Description: A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-401
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
     References:
     - https://access.redhat.com/security/cve/CVE-2023-5156
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2240541
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5156
     - https://sourceware.org/bugzilla/show_bug.cgi?id=30884
     - https://sourceware.org/git/?p=glibc.git;a=commitdiff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
     - https://www.cve.org/CVERecord?id=CVE-2023-5156
+    PublishedDate: '2023-09-25T16:15:00Z'
+    LastModifiedDate: '2023-09-26T15:02:00Z'
   - VulnerabilityID: CVE-2023-4527
     PkgID: glibc-common@2.34-60.el9.x86_64
     PkgName: glibc-common
@@ -1057,13 +1083,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
         V3Score: 6.5
     References:
+    - http://www.openwall.com/lists/oss-security/2023/09/25/1
     - https://access.redhat.com/security/cve/CVE-2023-4527
     - https://bugzilla.redhat.com/show_bug.cgi?id=2234712
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4527
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4527
     - https://www.cve.org/CVERecord?id=CVE-2023-4527
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-09-22T17:52:00Z'
+    LastModifiedDate: '2023-09-25T12:15:00Z'
   - VulnerabilityID: CVE-2023-4806
     PkgID: glibc-common@2.34-60.el9.x86_64
     PkgName: glibc-common
@@ -1081,8 +1108,8 @@
     - CWE-416
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
@@ -1092,7 +1119,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4806
     - https://www.cve.org/CVERecord?id=CVE-2023-4806
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-09-22T13:44:00Z'
+    LastModifiedDate: '2023-09-26T19:54:00Z'
   - VulnerabilityID: CVE-2023-4813
     PkgID: glibc-common@2.34-60.el9.x86_64
     PkgName: glibc-common
@@ -1133,18 +1160,26 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5156
     Title: DoS due to memory leak in getaddrinfo.c
-    Description: A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.
+    Description: A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-401
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
     References:
     - https://access.redhat.com/security/cve/CVE-2023-5156
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2240541
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5156
     - https://sourceware.org/bugzilla/show_bug.cgi?id=30884
     - https://sourceware.org/git/?p=glibc.git;a=commitdiff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
     - https://www.cve.org/CVERecord?id=CVE-2023-5156
+    PublishedDate: '2023-09-25T16:15:00Z'
+    LastModifiedDate: '2023-09-26T15:02:00Z'
   - VulnerabilityID: CVE-2023-4527
     PkgID: glibc-minimal-langpack@2.34-60.el9.x86_64
     PkgName: glibc-minimal-langpack
@@ -1168,13 +1203,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
         V3Score: 6.5
     References:
+    - http://www.openwall.com/lists/oss-security/2023/09/25/1
     - https://access.redhat.com/security/cve/CVE-2023-4527
     - https://bugzilla.redhat.com/show_bug.cgi?id=2234712
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4527
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4527
     - https://www.cve.org/CVERecord?id=CVE-2023-4527
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-09-22T17:52:00Z'
+    LastModifiedDate: '2023-09-25T12:15:00Z'
   - VulnerabilityID: CVE-2023-4806
     PkgID: glibc-minimal-langpack@2.34-60.el9.x86_64
     PkgName: glibc-minimal-langpack
@@ -1192,8 +1228,8 @@
     - CWE-416
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
@@ -1203,7 +1239,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4806
     - https://www.cve.org/CVERecord?id=CVE-2023-4806
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-09-22T13:44:00Z'
+    LastModifiedDate: '2023-09-26T19:54:00Z'
   - VulnerabilityID: CVE-2023-4813
     PkgID: glibc-minimal-langpack@2.34-60.el9.x86_64
     PkgName: glibc-minimal-langpack
@@ -1244,18 +1280,26 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5156
     Title: DoS due to memory leak in getaddrinfo.c
-    Description: A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.
+    Description: A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-401
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
     References:
     - https://access.redhat.com/security/cve/CVE-2023-5156
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2240541
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5156
     - https://sourceware.org/bugzilla/show_bug.cgi?id=30884
     - https://sourceware.org/git/?p=glibc.git;a=commitdiff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
     - https://www.cve.org/CVERecord?id=CVE-2023-5156
+    PublishedDate: '2023-09-25T16:15:00Z'
+    LastModifiedDate: '2023-09-26T15:02:00Z'
   - VulnerabilityID: CVE-2021-43618
     PkgID: gmp@6.2.0-10.el9.x86_64
     PkgName: gmp
@@ -1394,8 +1438,8 @@
     Severity: MEDIUM
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.9
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H
         V3Score: 4.9
@@ -1409,7 +1453,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2022-40433
     - https://www.cve.org/CVERecord?id=CVE-2022-40433
     PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-08-31T00:37:00Z'
+    LastModifiedDate: '2023-09-25T17:23:00Z'
   - VulnerabilityID: CVE-2023-22049
     VendorIDs:
     - RHSA-2023:4178
