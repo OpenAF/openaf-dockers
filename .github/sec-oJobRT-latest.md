@@ -18,7 +18,7 @@
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │     ├ Title           : out of heap memory issue due to missing limit on header
-│                       │     │                   quntity 
+│                       │     │                   quantity 
 │                       │     ├ Description     : When curl retrieves an HTTP response, it stores the
 │                       │     │                   incoming headers so that
 │                       │     │                   they can be accessed later via the libcurl headers API.
@@ -66,7 +66,7 @@
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                             ├ Title           : out of heap memory issue due to missing limit on header
-│                             │                   quntity 
+│                             │                   quantity 
 │                             ├ Description     : When curl retrieves an HTTP response, it stores the
 │                             │                   incoming headers so that
 │                             │                   they can be accessed later via the libcurl headers API.
@@ -349,7 +349,10 @@
                               │                   sources. 
                               ├ Severity        : HIGH 
                               ├ CweIDs           ─ [0]: CWE-770 
-                              ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+                              ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+                              │                  │      │           :N/A:H 
+                              │                  │      ╰ V3Score : 7.5 
+                              │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
                               │                         │           :N/A:H 
                               │                         ╰ V3Score : 7.5 
                               ├ References       ╭ [0]: https://github.com/xerial/snappy-java 
@@ -361,5 +364,5 @@
                               │                  │      isories/GHSA-55g7-9cwv-5qfv 
                               │                  ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-43642 
                               ├ PublishedDate   : 2023-09-25T20:15:00Z 
-                              ╰ LastModifiedDate: 2023-09-25T20:15:00Z 
+                              ╰ LastModifiedDate: 2023-09-26T15:46:00Z 
 ````
