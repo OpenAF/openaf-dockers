@@ -486,14 +486,23 @@
 │                       │       │                  │       dvisories/GHSA-pf5r-86w9-678h 
 │                       │       │                  ├ [4] : https://github.com/OpenPrinting/libppd/security
 │                       │       │                  │       /advisories/GHSA-4f65-6ph5-qwh6 
-│                       │       │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-4504 
-│                       │       │                  ├ [6] : https://takeonme.org/cves/CVE-2023-4504.html 
-│                       │       │                  ├ [7] : https://ubuntu.com/security/notices/USN-6391-1 
-│                       │       │                  ├ [8] : https://ubuntu.com/security/notices/USN-6391-2 
-│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6392-1 
-│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4504 
+│                       │       │                  ├ [5] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/5WHE
+│                       │       │                  │       JIYMMAIXU2EC35MGTB5LGGO2FFJE/ 
+│                       │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/5WVS
+│                       │       │                  │       4I7JG3LISFPKTM6ADKJXXEPEEWBQ/ 
+│                       │       │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/AMYD
+│                       │       │                  │       KIE4PSJDEMC5OWNFCDMHFGLJ57XG/ 
+│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-4504 
+│                       │       │                  ├ [9] : https://takeonme.org/cves/CVE-2023-4504.html 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-6391-1 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-6391-2 
+│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6392-1 
+│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-4504 
 │                       │       ├ PublishedDate   : 2023-09-21T23:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-26T14:16:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-27T15:19:00Z 
 │                       ├ [13]  ╭ VulnerabilityID : CVE-2021-25317 
 │                       │       ├ PkgID           : cups-libs@2.3.3op2-16.el9.x86_64 
 │                       │       ├ PkgName         : cups-libs 
