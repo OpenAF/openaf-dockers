@@ -495,14 +495,17 @@
 │                       │       │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/AMYD
 │                       │       │                  │       KIE4PSJDEMC5OWNFCDMHFGLJ57XG/ 
-│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-4504 
-│                       │       │                  ├ [9] : https://takeonme.org/cves/CVE-2023-4504.html 
-│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-6391-1 
-│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-6391-2 
-│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6392-1 
-│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-4504 
+│                       │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/T2GS
+│                       │       │                  │       PQAFK2Z6L57TRXEKZDF42K2EVBH7/ 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-4504 
+│                       │       │                  ├ [10]: https://takeonme.org/cves/CVE-2023-4504.html 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-6391-1 
+│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6391-2 
+│                       │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-6392-1 
+│                       │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2023-4504 
 │                       │       ├ PublishedDate   : 2023-09-21T23:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-27T15:19:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-29T02:15:00Z 
 │                       ├ [13]  ╭ VulnerabilityID : CVE-2021-25317 
 │                       │       ├ PkgID           : cups-libs@2.3.3op2-16.el9.x86_64 
 │                       │       ├ PkgName         : cups-libs 
@@ -5937,7 +5940,8 @@
                         │     │                  │      advisories/GHSA-hmr7-m48g-48f6 
                         │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-40167 
                         │     │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-40167 
-                        │     │                  ╰ [5]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
+                        │     │                  ├ [5]: https://www.debian.org/security/2023/dsa-5507 
+                        │     │                  ╰ [6]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
                         │     ├ PublishedDate   : 2023-09-15T20:15:00Z 
                         │     ╰ LastModifiedDate: 2023-09-20T20:20:00Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2023-4759 
