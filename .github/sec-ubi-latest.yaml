@@ -415,6 +415,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5WHEJIYMMAIXU2EC35MGTB5LGGO2FFJE/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5WVS4I7JG3LISFPKTM6ADKJXXEPEEWBQ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AMYDKIE4PSJDEMC5OWNFCDMHFGLJ57XG/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/T2GSPQAFK2Z6L57TRXEKZDF42K2EVBH7/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4504
     - https://takeonme.org/cves/CVE-2023-4504.html
     - https://ubuntu.com/security/notices/USN-6391-1
@@ -422,7 +423,7 @@
     - https://ubuntu.com/security/notices/USN-6392-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4504
     PublishedDate: '2023-09-21T23:15:00Z'
-    LastModifiedDate: '2023-09-27T15:19:00Z'
+    LastModifiedDate: '2023-09-29T02:15:00Z'
   - VulnerabilityID: CVE-2021-25317
     PkgID: cups-libs@2.3.3op2-16.el9.x86_64
     PkgName: cups-libs
@@ -4628,6 +4629,7 @@
     - https://github.com/eclipse/jetty.project/security/advisories/GHSA-hmr7-m48g-48f6
     - https://nvd.nist.gov/vuln/detail/CVE-2023-40167
     - https://www.cve.org/CVERecord?id=CVE-2023-40167
+    - https://www.debian.org/security/2023/dsa-5507
     - https://www.rfc-editor.org/rfc/rfc9110#section-8.6
     PublishedDate: '2023-09-15T20:15:00Z'
     LastModifiedDate: '2023-09-20T20:20:00Z'
