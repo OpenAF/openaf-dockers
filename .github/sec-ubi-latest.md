@@ -1615,13 +1615,14 @@
 │                       │       │                  ├ [7] : https://lists.debian.org/debian-lts-announce/20
 │                       │       │                  │       21/12/msg00001.html 
 │                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2021-43618 
-│                       │       │                  ├ [9] : https://security.netapp.com/advisory/ntap-20221
+│                       │       │                  ├ [9] : https://security.gentoo.org/glsa/202309-13 
+│                       │       │                  ├ [10]: https://security.netapp.com/advisory/ntap-20221
 │                       │       │                  │       111-0001/ 
-│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-5672-1 
-│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-5672-2 
-│                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2021-43618 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-5672-1 
+│                       │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-5672-2 
+│                       │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2021-43618 
 │                       │       ├ PublishedDate   : 2021-11-15T04:15:00Z 
-│                       │       ╰ LastModifiedDate: 2022-12-08T22:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-29T15:15:00Z 
 │                       ├ [40]  ╭ VulnerabilityID : CVE-2022-3219 
 │                       │       ├ PkgID           : gnupg2@2.3.3-2.el9_0.x86_64 
 │                       │       ├ PkgName         : gnupg2 
@@ -5719,13 +5720,14 @@
 │                       │       │                  ├ [3]: https://github.com/sudo-project/sudo/releases/ta
 │                       │       │                  │      g/SUDO_1_9_13 
 │                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-28486 
-│                       │       │                  ├ [5]: https://security.netapp.com/advisory/ntap-202304
+│                       │       │                  ├ [5]: https://security.gentoo.org/glsa/202309-12 
+│                       │       │                  ├ [6]: https://security.netapp.com/advisory/ntap-202304
 │                       │       │                  │      20-0002/ 
-│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6005-1 
-│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6005-2 
-│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-28486 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6005-1 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6005-2 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28486 
 │                       │       ├ PublishedDate   : 2023-03-16T01:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-04-20T09:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-29T14:15:00Z 
 │                       ├ [118] ╭ VulnerabilityID : CVE-2023-28487 
 │                       │       ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
 │                       │       ├ PkgName         : sudo 
@@ -5757,13 +5759,14 @@
 │                       │       │                  ├ [3]: https://github.com/sudo-project/sudo/releases/ta
 │                       │       │                  │      g/SUDO_1_9_13 
 │                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-28487 
-│                       │       │                  ├ [5]: https://security.netapp.com/advisory/ntap-202304
+│                       │       │                  ├ [5]: https://security.gentoo.org/glsa/202309-12 
+│                       │       │                  ├ [6]: https://security.netapp.com/advisory/ntap-202304
 │                       │       │                  │      20-0002/ 
-│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6005-1 
-│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6005-2 
-│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-28487 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6005-1 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6005-2 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28487 
 │                       │       ├ PublishedDate   : 2023-03-16T01:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-04-20T09:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-09-29T14:15:00Z 
 │                       ╰ [119] ╭ VulnerabilityID : CVE-2021-3997 
 │                               ├ PkgID           : systemd-libs@252-14.el9_2.1.x86_64 
 │                               ├ PkgName         : systemd-libs 
@@ -5925,6 +5928,7 @@
                         │     │                   contain a patch for this issue. There is no workaround as
                         │     │                   there is no known exploit scenario. 
                         │     ├ Severity        : MEDIUM 
+                        │     ├ CweIDs           ─ [0]: CWE-130 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
                         │     │                  │        │           /I:L/A:N 
                         │     │                  │        ╰ V3Score : 5.3 
@@ -5943,7 +5947,7 @@
                         │     │                  ├ [5]: https://www.debian.org/security/2023/dsa-5507 
                         │     │                  ╰ [6]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
                         │     ├ PublishedDate   : 2023-09-15T20:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-09-20T20:20:00Z 
+                        │     ╰ LastModifiedDate: 2023-09-29T12:15:00Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2023-4759 
                               ├ PkgName         : org.eclipse.jgit:org.eclipse.jgit 
                               ├ PkgPath         : openaf/openaf.jar 
