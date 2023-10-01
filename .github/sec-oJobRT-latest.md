@@ -232,6 +232,7 @@
                         │     │                   contain a patch for this issue. There is no workaround as
                         │     │                   there is no known exploit scenario. 
                         │     ├ Severity        : MEDIUM 
+                        │     ├ CweIDs           ─ [0]: CWE-130 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
                         │     │                  │        │           /I:L/A:N 
                         │     │                  │        ╰ V3Score : 5.3 
@@ -250,7 +251,7 @@
                         │     │                  ├ [5]: https://www.debian.org/security/2023/dsa-5507 
                         │     │                  ╰ [6]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
                         │     ├ PublishedDate   : 2023-09-15T20:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-09-20T20:20:00Z 
+                        │     ╰ LastModifiedDate: 2023-09-29T12:15:00Z 
                         ├ [2] ╭ VulnerabilityID : CVE-2023-4759 
                         │     ├ PkgName         : org.eclipse.jgit:org.eclipse.jgit 
                         │     ├ PkgPath         : openaf/openaf.jar 
@@ -346,8 +347,8 @@
                               │                  ├ Name: GitHub Security Advisory Maven 
                               │                  ╰ URL : https://github.com/advisories?query=type%3Areview
                               │                          ed+ecosystem%3Amaven 
-                              ├ Title           : snappy-java's missing upper bound check on chunk length
-                              │                   can lead to Denial of Service (DoS) impact 
+                              ├ Title           : snappy-java is a Java port of the snappy, a fast C++
+                              │                   compresser/decomp ... 
                               ├ Description     : snappy-java is a Java port of the snappy, a fast C++
                               │                   compresser/decompresser developed by Google. The
                               │                   SnappyInputStream was found to be vulnerable to Denial of
