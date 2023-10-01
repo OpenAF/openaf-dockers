@@ -151,6 +151,8 @@
     Title: Improper validation of HTTP/1 content-length
     Description: Jetty is a Java based web server and servlet engine. Prior to versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1, Jetty accepts the `+` character proceeding the content-length value in a HTTP/1 header field.  This is more permissive than allowed by the RFC and other servers routinely reject such requests with 400 responses.  There is no known exploit scenario, but it is conceivable that request smuggling could result if jetty is used in combination with a server that does not close the connection after sending such a 400 response. Versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1 contain a patch for this issue. There is no workaround as there is no known exploit scenario.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-130
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
@@ -170,7 +172,7 @@
     - https://www.debian.org/security/2023/dsa-5507
     - https://www.rfc-editor.org/rfc/rfc9110#section-8.6
     PublishedDate: '2023-09-15T20:15:00Z'
-    LastModifiedDate: '2023-09-20T20:20:00Z'
+    LastModifiedDate: '2023-09-29T12:15:00Z'
   - VulnerabilityID: CVE-2023-4759
     PkgName: org.eclipse.jgit:org.eclipse.jgit
     PkgPath: openaf/openaf.jar
@@ -224,7 +226,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
-    Title: snappy-java's missing upper bound check on chunk length can lead to Denial of Service (DoS) impact
+    Title: snappy-java is a Java port of the snappy, a fast C++ compresser/decomp ...
     Description: snappy-java is a Java port of the snappy, a fast C++ compresser/decompresser developed by Google. The SnappyInputStream was found to be vulnerable to Denial of Service (DoS) attacks when decompressing data with a too large chunk size. Due to missing upper bound check on chunk length, an unrecoverable fatal error can occur. All versions of snappy-java including the latest released version 1.1.10.3 are vulnerable to this issue. A fix has been introduced in commit `9f8c3cf74` which will be included in the 1.1.10.4 release. Users are advised to upgrade. Users unable to upgrade should only accept compressed data from trusted sources.
     Severity: HIGH
     CweIDs:
