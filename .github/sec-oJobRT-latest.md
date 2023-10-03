@@ -349,8 +349,8 @@
                               │                  ├ Name: GitHub Security Advisory Maven 
                               │                  ╰ URL : https://github.com/advisories?query=type%3Areview
                               │                          ed+ecosystem%3Amaven 
-                              ├ Title           : snappy-java is a Java port of the snappy, a fast C++
-                              │                   compresser/decomp ... 
+                              ├ Title           : Missing upper bound check on chunk length in snappy-java
+                              │                    can lead to Denial of Service (DoS) impact 
                               ├ Description     : snappy-java is a Java port of the snappy, a fast C++
                               │                   compresser/decompresser developed by Google. The
                               │                   SnappyInputStream was found to be vulnerable to Denial of
@@ -365,20 +365,25 @@
                               │                   sources. 
                               ├ Severity        : HIGH 
                               ├ CweIDs           ─ [0]: CWE-770 
-                              ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-                              │                  │      │           :N/A:H 
-                              │                  │      ╰ V3Score : 7.5 
-                              │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-                              │                         │           :N/A:H 
-                              │                         ╰ V3Score : 7.5 
-                              ├ References       ╭ [0]: https://github.com/xerial/snappy-java 
-                              │                  ├ [1]: https://github.com/xerial/snappy-java/commit/9f8c3
+                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                              │                  │        │           /I:N/A:H 
+                              │                  │        ╰ V3Score : 7.5 
+                              │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                              │                  │        │           /I:N/A:H 
+                              │                  │        ╰ V3Score : 7.5 
+                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                              │                           │           /I:N/A:H 
+                              │                           ╰ V3Score : 7.5 
+                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-43642 
+                              │                  ├ [1]: https://github.com/xerial/snappy-java 
+                              │                  ├ [2]: https://github.com/xerial/snappy-java/commit/9f8c3
                               │                  │      cf74223ed0a8a834134be9c917b9f10ceb5 
-                              │                  ├ [2]: https://github.com/xerial/snappy-java/releases/tag
+                              │                  ├ [3]: https://github.com/xerial/snappy-java/releases/tag
                               │                  │      /v1.1.10.4 
-                              │                  ├ [3]: https://github.com/xerial/snappy-java/security/adv
+                              │                  ├ [4]: https://github.com/xerial/snappy-java/security/adv
                               │                  │      isories/GHSA-55g7-9cwv-5qfv 
-                              │                  ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-43642 
+                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-43642 
+                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-43642 
                               ├ PublishedDate   : 2023-09-25T20:15:00Z 
                               ╰ LastModifiedDate: 2023-09-26T15:46:00Z 
 ````
