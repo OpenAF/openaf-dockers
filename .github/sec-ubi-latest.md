@@ -1289,9 +1289,9 @@
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                       │       │                  │        │           :N/I:N/A:H 
 │                       │       │                  │        ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:L 
-│                       │       │                           ╰ V3Score : 3.7 
+│                       │       │                           ╰ V3Score : 5.3 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5156 
 │                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2240541 
 │                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5156 
@@ -1427,9 +1427,9 @@
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                       │       │                  │        │           :N/I:N/A:H 
 │                       │       │                  │        ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:L 
-│                       │       │                           ╰ V3Score : 3.7 
+│                       │       │                           ╰ V3Score : 5.3 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5156 
 │                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2240541 
 │                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5156 
@@ -1565,9 +1565,9 @@
 │                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                       │       │                  │        │           :N/I:N/A:H 
 │                       │       │                  │        ╰ V3Score : 7.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:L 
-│                       │       │                           ╰ V3Score : 3.7 
+│                       │       │                           ╰ V3Score : 5.3 
 │                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5156 
 │                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2240541 
 │                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5156 
