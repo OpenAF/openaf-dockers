@@ -946,6 +946,31 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-32665
     PublishedDate: '2023-09-14T20:15:00Z'
     LastModifiedDate: '2023-09-25T20:15:00Z'
+  - VulnerabilityID: CVE-2023-4911
+    PkgID: glibc@2.34-60.el9.x86_64
+    PkgName: glibc
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4911
+    Title: buffer overflow in ld.so leading to privilege escalation
+    Description: A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.
+    Severity: HIGH
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4911
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4911
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4911
+    - https://ubuntu.com/security/notices/USN-6409-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-4911
+    - https://www.qualys.com/2023/10/03/cve-2023-4911/looney-tunables-local-privilege-escalation-glibc-ld-so.txt
+    - https://www.qualys.com/cve-2023-4911/
   - VulnerabilityID: CVE-2023-4527
     PkgID: glibc@2.34-60.el9.x86_64
     PkgName: glibc
@@ -974,6 +999,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2234712
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4527
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4527
+    - https://ubuntu.com/security/notices/USN-6409-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4527
     PublishedDate: '2023-09-18T17:15:00Z'
     LastModifiedDate: '2023-09-25T12:15:00Z'
@@ -1065,7 +1091,32 @@
     - https://sourceware.org/git/?p=glibc.git;a=commitdiff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
     - https://www.cve.org/CVERecord?id=CVE-2023-5156
     PublishedDate: '2023-09-25T16:15:00Z'
-    LastModifiedDate: '2023-09-26T15:02:00Z'
+    LastModifiedDate: '2023-10-02T16:15:00Z'
+  - VulnerabilityID: CVE-2023-4911
+    PkgID: glibc-common@2.34-60.el9.x86_64
+    PkgName: glibc-common
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4911
+    Title: buffer overflow in ld.so leading to privilege escalation
+    Description: A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.
+    Severity: HIGH
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4911
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4911
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4911
+    - https://ubuntu.com/security/notices/USN-6409-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-4911
+    - https://www.qualys.com/2023/10/03/cve-2023-4911/looney-tunables-local-privilege-escalation-glibc-ld-so.txt
+    - https://www.qualys.com/cve-2023-4911/
   - VulnerabilityID: CVE-2023-4527
     PkgID: glibc-common@2.34-60.el9.x86_64
     PkgName: glibc-common
@@ -1094,6 +1145,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2234712
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4527
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4527
+    - https://ubuntu.com/security/notices/USN-6409-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4527
     PublishedDate: '2023-09-18T17:15:00Z'
     LastModifiedDate: '2023-09-25T12:15:00Z'
@@ -1185,7 +1237,32 @@
     - https://sourceware.org/git/?p=glibc.git;a=commitdiff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
     - https://www.cve.org/CVERecord?id=CVE-2023-5156
     PublishedDate: '2023-09-25T16:15:00Z'
-    LastModifiedDate: '2023-09-26T15:02:00Z'
+    LastModifiedDate: '2023-10-02T16:15:00Z'
+  - VulnerabilityID: CVE-2023-4911
+    PkgID: glibc-minimal-langpack@2.34-60.el9.x86_64
+    PkgName: glibc-minimal-langpack
+    InstalledVersion: 2.34-60.el9
+    Status: affected
+    Layer:
+      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
+      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4911
+    Title: buffer overflow in ld.so leading to privilege escalation
+    Description: A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.
+    Severity: HIGH
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4911
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4911
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4911
+    - https://ubuntu.com/security/notices/USN-6409-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-4911
+    - https://www.qualys.com/2023/10/03/cve-2023-4911/looney-tunables-local-privilege-escalation-glibc-ld-so.txt
+    - https://www.qualys.com/cve-2023-4911/
   - VulnerabilityID: CVE-2023-4527
     PkgID: glibc-minimal-langpack@2.34-60.el9.x86_64
     PkgName: glibc-minimal-langpack
@@ -1214,6 +1291,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2234712
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4527
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4527
+    - https://ubuntu.com/security/notices/USN-6409-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4527
     PublishedDate: '2023-09-18T17:15:00Z'
     LastModifiedDate: '2023-09-25T12:15:00Z'
@@ -1305,7 +1383,7 @@
     - https://sourceware.org/git/?p=glibc.git;a=commitdiff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
     - https://www.cve.org/CVERecord?id=CVE-2023-5156
     PublishedDate: '2023-09-25T16:15:00Z'
-    LastModifiedDate: '2023-09-26T15:02:00Z'
+    LastModifiedDate: '2023-10-02T16:15:00Z'
   - VulnerabilityID: CVE-2021-43618
     PkgID: gmp@6.2.0-10.el9.x86_64
     PkgName: gmp
