@@ -43,13 +43,19 @@
 │                       │     │                  │      -2023-38039 
 │                       │     │                  ├ [3]: https://hackerone.com/reports/2072338 
 │                       │     │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pack
+│                       │     │                  │      age-announce@lists.fedoraproject.org/message/5DCZMYODAL
+│                       │     │                  │      BLVOXVJEN2LF2MLANEYL4F/ 
+│                       │     │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pack
+│                       │     │                  │      age-announce@lists.fedoraproject.org/message/M6KGKB2JNZ
+│                       │     │                  │      VT276JYSKI6FV2VFJUGDOJ/ 
+│                       │     │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pack
 │                       │     │                  │      age-announce@lists.fedoraproject.org/message/TEAWTYHC3R
 │                       │     │                  │      T6ZRS5OZRHLAIENVN6CCIS/ 
-│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-38039 
-│                       │     │                  ├ [6]: https://ubuntu.com/security/notices/USN-6363-1 
-│                       │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-38039 
+│                       │     │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-38039 
+│                       │     │                  ├ [8]: https://ubuntu.com/security/notices/USN-6363-1 
+│                       │     │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-38039 
 │                       │     ├ PublishedDate   : 2023-09-15T04:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-09-20T15:08:00Z 
+│                       │     ╰ LastModifiedDate: 2023-09-27T15:18:00Z 
 │                       ╰ [1] ╭ VulnerabilityID : CVE-2023-38039 
 │                             ├ PkgID           : libcurl@8.2.1-r0 
 │                             ├ PkgName         : libcurl 
@@ -91,13 +97,19 @@
 │                             │                  │      -2023-38039 
 │                             │                  ├ [3]: https://hackerone.com/reports/2072338 
 │                             │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pack
+│                             │                  │      age-announce@lists.fedoraproject.org/message/5DCZMYODAL
+│                             │                  │      BLVOXVJEN2LF2MLANEYL4F/ 
+│                             │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pack
+│                             │                  │      age-announce@lists.fedoraproject.org/message/M6KGKB2JNZ
+│                             │                  │      VT276JYSKI6FV2VFJUGDOJ/ 
+│                             │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pack
 │                             │                  │      age-announce@lists.fedoraproject.org/message/TEAWTYHC3R
 │                             │                  │      T6ZRS5OZRHLAIENVN6CCIS/ 
-│                             │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-38039 
-│                             │                  ├ [6]: https://ubuntu.com/security/notices/USN-6363-1 
-│                             │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-38039 
+│                             │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-38039 
+│                             │                  ├ [8]: https://ubuntu.com/security/notices/USN-6363-1 
+│                             │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-38039 
 │                             ├ PublishedDate   : 2023-09-15T04:15:00Z 
-│                             ╰ LastModifiedDate: 2023-09-20T15:08:00Z 
+│                             ╰ LastModifiedDate: 2023-09-27T15:18:00Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
@@ -220,6 +232,7 @@
                         │     │                   contain a patch for this issue. There is no workaround as
                         │     │                   there is no known exploit scenario. 
                         │     ├ Severity        : MEDIUM 
+                        │     ├ CweIDs           ─ [0]: CWE-130 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
                         │     │                  │        │           /I:L/A:N 
                         │     │                  │        ╰ V3Score : 5.3 
@@ -233,11 +246,14 @@
                         │     │                  ├ [1]: https://github.com/eclipse/jetty.project 
                         │     │                  ├ [2]: https://github.com/eclipse/jetty.project/security/
                         │     │                  │      advisories/GHSA-hmr7-m48g-48f6 
-                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-40167 
-                        │     │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-40167 
-                        │     │                  ╰ [5]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
+                        │     │                  ├ [3]: https://lists.debian.org/debian-lts-announce/2023/
+                        │     │                  │      09/msg00039.html 
+                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-40167 
+                        │     │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-40167 
+                        │     │                  ├ [6]: https://www.debian.org/security/2023/dsa-5507 
+                        │     │                  ╰ [7]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
                         │     ├ PublishedDate   : 2023-09-15T20:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-09-20T20:20:00Z 
+                        │     ╰ LastModifiedDate: 2023-09-30T15:15:00Z 
                         ╰ [2] ╭ VulnerabilityID : CVE-2023-4759 
                               ├ PkgName         : org.eclipse.jgit:org.eclipse.jgit 
                               ├ PkgPath         : openaf/openaf.jar 
