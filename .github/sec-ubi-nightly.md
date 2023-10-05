@@ -7,10 +7,10 @@
                         │       ├ PkgName         : avahi-libs 
                         │       ├ InstalledVersion: 0.8-12.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-3468 
                         │       ├ Title           : Local DoS by event-busy-loop from writing long lines
@@ -52,10 +52,10 @@
                         │       ├ PkgName         : avahi-libs 
                         │       ├ InstalledVersion: 0.8-12.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-3502 
                         │       ├ Title           : reachable assertion in
@@ -95,10 +95,10 @@
                         │       ├ PkgName         : avahi-libs 
                         │       ├ InstalledVersion: 0.8-12.el9_2.1 
                         │       ├ Status          : will_not_fix 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-1981 
                         │       ├ Title           : avahi-daemon can be crashed via DBus 
@@ -129,14 +129,16 @@
                         │       ├ PkgName         : avahi-libs 
                         │       ├ InstalledVersion: 0.8-12.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38469 
                         │       ├ Title           : Reachable assertion in avahi_dns_packet_append_record 
-                        │       ├ Description     : No description is available for this CVE. 
+                        │       ├ Description     : A vulnerability was found in Avahi, where a reachable
+                        │       │                   assertion exists in avahi_dns_packet_append_record.[
+                        │       │                   m 
                         │       ├ Severity        : MEDIUM 
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:H 
@@ -151,14 +153,16 @@
                         │       ├ PkgName         : avahi-libs 
                         │       ├ InstalledVersion: 0.8-12.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38470 
                         │       ├ Title           : Reachable assertion in avahi_escape_label 
-                        │       ├ Description     : No description is available for this CVE. 
+                        │       ├ Description     : A vulnerability was found in Avahi. A reachable
+                        │       │                   assertion exists in the avahi_escape_label()
+                        │       │                   function. 
                         │       ├ Severity        : MEDIUM 
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:H 
@@ -173,14 +177,16 @@
                         │       ├ PkgName         : avahi-libs 
                         │       ├ InstalledVersion: 0.8-12.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38471 
                         │       ├ Title           : Reachable assertion in dbus_set_host_name 
-                        │       ├ Description     : No description is available for this CVE. 
+                        │       ├ Description     : A vulnerability was found in Avahi. A reachable
+                        │       │                   assertion exists in the dbus_set_host_name
+                        │       │                   function. 
                         │       ├ Severity        : MEDIUM 
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:H 
@@ -195,14 +201,16 @@
                         │       ├ PkgName         : avahi-libs 
                         │       ├ InstalledVersion: 0.8-12.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38472 
                         │       ├ Title           : Reachable assertion in avahi_rdata_parse 
-                        │       ├ Description     : No description is available for this CVE. 
+                        │       ├ Description     : A vulnerability was found in Avahi. A reachable
+                        │       │                   assertion exists in the avahi_rdata_parse()
+                        │       │                   function. 
                         │       ├ Severity        : MEDIUM 
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:H 
@@ -217,14 +225,16 @@
                         │       ├ PkgName         : avahi-libs 
                         │       ├ InstalledVersion: 0.8-12.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38473 
                         │       ├ Title           : Reachable assertion in avahi_alternative_host_name 
-                        │       ├ Description     : No description is available for this CVE. 
+                        │       ├ Description     : A vulnerability was found in Avahi. A reachable
+                        │       │                   assertion exists in the avahi_alternative_host_name()
+                        │       │                   function. 
                         │       ├ Severity        : MEDIUM 
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:H 
@@ -239,10 +249,10 @@
                         │       ├ PkgName         : avahi-libs 
                         │       ├ InstalledVersion: 0.8-12.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2017-6519 
                         │       ├ Title           : Multicast DNS responds to unicast queries outside of
@@ -292,10 +302,10 @@
                         │       ├ PkgName         : cups-libs 
                         │       ├ InstalledVersion: 1:2.3.3op2-16.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-32324 
                         │       ├ Title           : heap buffer overflow may lead to DoS 
@@ -337,10 +347,10 @@
                         │       ├ PkgName         : cups-libs 
                         │       ├ InstalledVersion: 1:2.3.3op2-16.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-34241 
                         │       ├ Title           : use-after-free in cupsdAcceptClient() in scheduler/client.c 
@@ -410,10 +420,10 @@
                         │       ├ PkgName         : cups-libs 
                         │       ├ InstalledVersion: 1:2.3.3op2-16.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4504 
                         │       ├ Title           : Postscript Parsing Heap Overflow 
@@ -467,10 +477,10 @@
                         │       ├ PkgName         : cups-libs 
                         │       ├ InstalledVersion: 1:2.3.3op2-16.el9_2.1 
                         │       ├ Status          : will_not_fix 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-25317 
                         │       ├ Title           : cups: insecure permissions of /var/log/cups allows for
@@ -945,28 +955,30 @@
                         │       │                   GLIBC_TUNABLES environment variable. This issue could allow
                         │       │                    a local attacker to use maliciously crafted GLIBC_TUNABLES
                         │       │                    environment variables when launching binaries with SUID
-                        │       │                   permission to execute code with elevated privileges.A
-                        │       │                   buffer overflow was discovered in the GNU C Library's
-                        │       │                   dynamic loader ld.so while processing the GLIBC_TUNABLES
-                        │       │                   environment variable. This issue could allow a local
-                        │       │                   attacker to use maliciously crafted GLIBC_TUNABLES
-                        │       │                   environment variables when launching binaries with SUID
                         │       │                   permission to execute code with elevated
                         │       │                   privileges. 
                         │       ├ Severity        : HIGH 
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
                         │       │                           │           :H/I:H/A:H 
                         │       │                           ╰ V3Score : 7.8 
-                        │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4911 
-                        │                          ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-                        │                          │      VE-2023-4911 
-                        │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
-                        │                          ├ [3]: https://ubuntu.com/security/notices/USN-6409-1 
-                        │                          ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
-                        │                          ├ [5]: https://www.qualys.com/2023/10/03/cve-2023-4911/
-                        │                          │      looney-tunables-local-privilege-escalation-glibc-ld-s
-                        │                          │      o.txt 
-                        │                          ╰ [6]: https://www.qualys.com/cve-2023-4911/ 
+                        │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023
+                        │       │                  │       /10/03/2 
+                        │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023
+                        │       │                  │       /10/03/3 
+                        │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-4911 
+                        │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                        │       │                  │       CVE-2023-4911 
+                        │       │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
+                        │       │                  ├ [6] : https://ubuntu.com/security/notices/USN-6409-1 
+                        │       │                  ├ [7] : https://www.cve.org/CVERecord?id=CVE-2023-4911 
+                        │       │                  ├ [8] : https://www.debian.org/security/2023/dsa-5514 
+                        │       │                  ├ [9] : https://www.qualys.com/2023/10/03/cve-2023-4911
+                        │       │                  │       /looney-tunables-local-privilege-escalation-glibc-ld
+                        │       │                  │       -so.txt 
+                        │       │                  ╰ [10]: https://www.qualys.com/cve-2023-4911/ 
+                        │       ├ PublishedDate   : 2023-10-03T18:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-03T23:55:00Z 
                         ├ [24]  ╭ VulnerabilityID : CVE-2023-4527 
                         │       ├ PkgID           : glibc@2.34-60.el9.x86_64 
                         │       ├ PkgName         : glibc 
@@ -1035,12 +1047,20 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:H 
                         │       │                           ╰ V3Score : 5.9 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4806 
-                        │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
-                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
-                        │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
+                        │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/4 
+                        │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/5 
+                        │       │                  ├ [2]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/6 
+                        │       │                  ├ [3]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/8 
+                        │       │                  ├ [4]: https://access.redhat.com/security/cve/CVE-2023-4806 
+                        │       │                  ├ [5]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
+                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
                         │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-09-26T19:54:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
                         ├ [26]  ╭ VulnerabilityID : CVE-2023-4813 
                         │       ├ PkgID           : glibc@2.34-60.el9.x86_64 
                         │       ├ PkgName         : glibc 
@@ -1067,12 +1087,14 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:H 
                         │       │                           ╰ V3Score : 5.9 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4813 
-                        │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
-                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
-                        │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
+                        │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/8 
+                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-4813 
+                        │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
+                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
+                        │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
                         │       ├ PublishedDate   : 2023-09-12T22:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-09-20T19:01:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
                         ├ [27]  ╭ VulnerabilityID : CVE-2023-5156 
                         │       ├ PkgID           : glibc@2.34-60.el9.x86_64 
                         │       ├ PkgName         : glibc 
@@ -1096,16 +1118,24 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:L 
                         │       │                           ╰ V3Score : 5.3 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5156 
-                        │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2240541 
-                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5156 
-                        │       │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=30884 
-                        │       │                  ├ [4]: https://sourceware.org/git/?p=glibc.git;a=commit
+                        │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/4 
+                        │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/5 
+                        │       │                  ├ [2]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/6 
+                        │       │                  ├ [3]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/8 
+                        │       │                  ├ [4]: https://access.redhat.com/security/cve/CVE-2023-5156 
+                        │       │                  ├ [5]: https://bugzilla.redhat.com/show_bug.cgi?id=2240541 
+                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-5156 
+                        │       │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=30884 
+                        │       │                  ├ [8]: https://sourceware.org/git/?p=glibc.git;a=commit
                         │       │                  │      diff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
                         │       │                  │       
-                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-5156 
+                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-5156 
                         │       ├ PublishedDate   : 2023-09-25T16:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-02T16:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
                         ├ [28]  ╭ VulnerabilityID : CVE-2023-4911 
                         │       ├ PkgID           : glibc-common@2.34-60.el9.x86_64 
                         │       ├ PkgName         : glibc-common 
@@ -1123,28 +1153,30 @@
                         │       │                   GLIBC_TUNABLES environment variable. This issue could allow
                         │       │                    a local attacker to use maliciously crafted GLIBC_TUNABLES
                         │       │                    environment variables when launching binaries with SUID
-                        │       │                   permission to execute code with elevated privileges.A
-                        │       │                   buffer overflow was discovered in the GNU C Library's
-                        │       │                   dynamic loader ld.so while processing the GLIBC_TUNABLES
-                        │       │                   environment variable. This issue could allow a local
-                        │       │                   attacker to use maliciously crafted GLIBC_TUNABLES
-                        │       │                   environment variables when launching binaries with SUID
                         │       │                   permission to execute code with elevated
                         │       │                   privileges. 
                         │       ├ Severity        : HIGH 
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
                         │       │                           │           :H/I:H/A:H 
                         │       │                           ╰ V3Score : 7.8 
-                        │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4911 
-                        │                          ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-                        │                          │      VE-2023-4911 
-                        │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
-                        │                          ├ [3]: https://ubuntu.com/security/notices/USN-6409-1 
-                        │                          ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
-                        │                          ├ [5]: https://www.qualys.com/2023/10/03/cve-2023-4911/
-                        │                          │      looney-tunables-local-privilege-escalation-glibc-ld-s
-                        │                          │      o.txt 
-                        │                          ╰ [6]: https://www.qualys.com/cve-2023-4911/ 
+                        │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023
+                        │       │                  │       /10/03/2 
+                        │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023
+                        │       │                  │       /10/03/3 
+                        │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-4911 
+                        │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                        │       │                  │       CVE-2023-4911 
+                        │       │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
+                        │       │                  ├ [6] : https://ubuntu.com/security/notices/USN-6409-1 
+                        │       │                  ├ [7] : https://www.cve.org/CVERecord?id=CVE-2023-4911 
+                        │       │                  ├ [8] : https://www.debian.org/security/2023/dsa-5514 
+                        │       │                  ├ [9] : https://www.qualys.com/2023/10/03/cve-2023-4911
+                        │       │                  │       /looney-tunables-local-privilege-escalation-glibc-ld
+                        │       │                  │       -so.txt 
+                        │       │                  ╰ [10]: https://www.qualys.com/cve-2023-4911/ 
+                        │       ├ PublishedDate   : 2023-10-03T18:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-03T23:55:00Z 
                         ├ [29]  ╭ VulnerabilityID : CVE-2023-4527 
                         │       ├ PkgID           : glibc-common@2.34-60.el9.x86_64 
                         │       ├ PkgName         : glibc-common 
@@ -1213,12 +1245,20 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:H 
                         │       │                           ╰ V3Score : 5.9 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4806 
-                        │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
-                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
-                        │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
+                        │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/4 
+                        │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/5 
+                        │       │                  ├ [2]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/6 
+                        │       │                  ├ [3]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/8 
+                        │       │                  ├ [4]: https://access.redhat.com/security/cve/CVE-2023-4806 
+                        │       │                  ├ [5]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
+                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
                         │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-09-26T19:54:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
                         ├ [31]  ╭ VulnerabilityID : CVE-2023-4813 
                         │       ├ PkgID           : glibc-common@2.34-60.el9.x86_64 
                         │       ├ PkgName         : glibc-common 
@@ -1245,12 +1285,14 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:H 
                         │       │                           ╰ V3Score : 5.9 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4813 
-                        │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
-                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
-                        │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
+                        │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/8 
+                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-4813 
+                        │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
+                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
+                        │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
                         │       ├ PublishedDate   : 2023-09-12T22:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-09-20T19:01:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
                         ├ [32]  ╭ VulnerabilityID : CVE-2023-5156 
                         │       ├ PkgID           : glibc-common@2.34-60.el9.x86_64 
                         │       ├ PkgName         : glibc-common 
@@ -1274,16 +1316,24 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:L 
                         │       │                           ╰ V3Score : 5.3 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5156 
-                        │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2240541 
-                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5156 
-                        │       │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=30884 
-                        │       │                  ├ [4]: https://sourceware.org/git/?p=glibc.git;a=commit
+                        │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/4 
+                        │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/5 
+                        │       │                  ├ [2]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/6 
+                        │       │                  ├ [3]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/8 
+                        │       │                  ├ [4]: https://access.redhat.com/security/cve/CVE-2023-5156 
+                        │       │                  ├ [5]: https://bugzilla.redhat.com/show_bug.cgi?id=2240541 
+                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-5156 
+                        │       │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=30884 
+                        │       │                  ├ [8]: https://sourceware.org/git/?p=glibc.git;a=commit
                         │       │                  │      diff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
                         │       │                  │       
-                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-5156 
+                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-5156 
                         │       ├ PublishedDate   : 2023-09-25T16:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-02T16:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
                         ├ [33]  ╭ VulnerabilityID : CVE-2023-4911 
                         │       ├ PkgID           : glibc-minimal-langpack@2.34-60.el9.x86_64 
                         │       ├ PkgName         : glibc-minimal-langpack 
@@ -1301,28 +1351,30 @@
                         │       │                   GLIBC_TUNABLES environment variable. This issue could allow
                         │       │                    a local attacker to use maliciously crafted GLIBC_TUNABLES
                         │       │                    environment variables when launching binaries with SUID
-                        │       │                   permission to execute code with elevated privileges.A
-                        │       │                   buffer overflow was discovered in the GNU C Library's
-                        │       │                   dynamic loader ld.so while processing the GLIBC_TUNABLES
-                        │       │                   environment variable. This issue could allow a local
-                        │       │                   attacker to use maliciously crafted GLIBC_TUNABLES
-                        │       │                   environment variables when launching binaries with SUID
                         │       │                   permission to execute code with elevated
                         │       │                   privileges. 
                         │       ├ Severity        : HIGH 
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
                         │       │                           │           :H/I:H/A:H 
                         │       │                           ╰ V3Score : 7.8 
-                        │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4911 
-                        │                          ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-                        │                          │      VE-2023-4911 
-                        │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
-                        │                          ├ [3]: https://ubuntu.com/security/notices/USN-6409-1 
-                        │                          ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
-                        │                          ├ [5]: https://www.qualys.com/2023/10/03/cve-2023-4911/
-                        │                          │      looney-tunables-local-privilege-escalation-glibc-ld-s
-                        │                          │      o.txt 
-                        │                          ╰ [6]: https://www.qualys.com/cve-2023-4911/ 
+                        │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023
+                        │       │                  │       /10/03/2 
+                        │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023
+                        │       │                  │       /10/03/3 
+                        │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-4911 
+                        │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                        │       │                  │       CVE-2023-4911 
+                        │       │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
+                        │       │                  ├ [6] : https://ubuntu.com/security/notices/USN-6409-1 
+                        │       │                  ├ [7] : https://www.cve.org/CVERecord?id=CVE-2023-4911 
+                        │       │                  ├ [8] : https://www.debian.org/security/2023/dsa-5514 
+                        │       │                  ├ [9] : https://www.qualys.com/2023/10/03/cve-2023-4911
+                        │       │                  │       /looney-tunables-local-privilege-escalation-glibc-ld
+                        │       │                  │       -so.txt 
+                        │       │                  ╰ [10]: https://www.qualys.com/cve-2023-4911/ 
+                        │       ├ PublishedDate   : 2023-10-03T18:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-03T23:55:00Z 
                         ├ [34]  ╭ VulnerabilityID : CVE-2023-4527 
                         │       ├ PkgID           : glibc-minimal-langpack@2.34-60.el9.x86_64 
                         │       ├ PkgName         : glibc-minimal-langpack 
@@ -1391,12 +1443,20 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:H 
                         │       │                           ╰ V3Score : 5.9 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4806 
-                        │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
-                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
-                        │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
+                        │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/4 
+                        │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/5 
+                        │       │                  ├ [2]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/6 
+                        │       │                  ├ [3]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/8 
+                        │       │                  ├ [4]: https://access.redhat.com/security/cve/CVE-2023-4806 
+                        │       │                  ├ [5]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
+                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
                         │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-09-26T19:54:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
                         ├ [36]  ╭ VulnerabilityID : CVE-2023-4813 
                         │       ├ PkgID           : glibc-minimal-langpack@2.34-60.el9.x86_64 
                         │       ├ PkgName         : glibc-minimal-langpack 
@@ -1423,12 +1483,14 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:H 
                         │       │                           ╰ V3Score : 5.9 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4813 
-                        │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
-                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
-                        │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
+                        │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/8 
+                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-4813 
+                        │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
+                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
+                        │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
                         │       ├ PublishedDate   : 2023-09-12T22:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-09-20T19:01:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
                         ├ [37]  ╭ VulnerabilityID : CVE-2023-5156 
                         │       ├ PkgID           : glibc-minimal-langpack@2.34-60.el9.x86_64 
                         │       ├ PkgName         : glibc-minimal-langpack 
@@ -1452,16 +1514,24 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:L 
                         │       │                           ╰ V3Score : 5.3 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5156 
-                        │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2240541 
-                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5156 
-                        │       │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=30884 
-                        │       │                  ├ [4]: https://sourceware.org/git/?p=glibc.git;a=commit
+                        │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/4 
+                        │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/5 
+                        │       │                  ├ [2]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/6 
+                        │       │                  ├ [3]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/03/8 
+                        │       │                  ├ [4]: https://access.redhat.com/security/cve/CVE-2023-5156 
+                        │       │                  ├ [5]: https://bugzilla.redhat.com/show_bug.cgi?id=2240541 
+                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-5156 
+                        │       │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=30884 
+                        │       │                  ├ [8]: https://sourceware.org/git/?p=glibc.git;a=commit
                         │       │                  │      diff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
                         │       │                  │       
-                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-5156 
+                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-5156 
                         │       ├ PublishedDate   : 2023-09-25T16:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-02T16:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
                         ├ [38]  ╭ VulnerabilityID : CVE-2021-43618 
                         │       ├ PkgID           : gmp@6.2.0-10.el9.x86_64 
                         │       ├ PkgName         : gmp 
@@ -1555,10 +1625,10 @@
                         │       ├ PkgName         : harfbuzz 
                         │       ├ InstalledVersion: 2.7.4-8.el9 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-25193 
                         │       ├ Title           : allows attackers to trigger O(n^2) growth via
@@ -1620,10 +1690,10 @@
                         │       ├ PkgName         : java-1.8.0-openjdk-headless 
                         │       ├ InstalledVersion: 1:1.8.0.382.b05-2.el9 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-40433 
                         │       ├ Title           : segmentation fault in ciMethodBlocks 
@@ -1654,10 +1724,10 @@
                         │       ├ PkgName         : java-1.8.0-openjdk-headless 
                         │       ├ InstalledVersion: 1:1.8.0.382.b05-2.el9 
                         │       ├ Status          : will_not_fix 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3857 
                         │       ├ Title           : Null pointer dereference leads to segmentation fault 
@@ -2105,10 +2175,10 @@
                         │       ├ PkgName         : libpng 
                         │       ├ InstalledVersion: 2:1.6.37-12.el9 
                         │       ├ Status          : will_not_fix 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3857 
                         │       ├ Title           : Null pointer dereference leads to segmentation fault 
@@ -2538,10 +2608,10 @@
                         │       ├ PkgName         : nspr 
                         │       ├ InstalledVersion: 4.35.0-3.el9_2 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4421 
                         │       ├ Title           : new tlsfuzzer code can still detect timing issues in
@@ -2559,10 +2629,10 @@
                         │       ├ PkgName         : nspr 
                         │       ├ InstalledVersion: 4.35.0-3.el9_2 
                         │       ├ Status          : will_not_fix 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
                         │       ├ Title           : Information exposure when DH secret are reused across
@@ -2593,10 +2663,10 @@
                         │       ├ PkgName         : nss 
                         │       ├ InstalledVersion: 3.90.0-3.el9_2 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4421 
                         │       ├ Title           : new tlsfuzzer code can still detect timing issues in
@@ -2614,10 +2684,10 @@
                         │       ├ PkgName         : nss 
                         │       ├ InstalledVersion: 3.90.0-3.el9_2 
                         │       ├ Status          : will_not_fix 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
                         │       ├ Title           : Information exposure when DH secret are reused across
@@ -2648,10 +2718,10 @@
                         │       ├ PkgName         : nss-softokn 
                         │       ├ InstalledVersion: 3.90.0-3.el9_2 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4421 
                         │       ├ Title           : new tlsfuzzer code can still detect timing issues in
@@ -2669,10 +2739,10 @@
                         │       ├ PkgName         : nss-softokn 
                         │       ├ InstalledVersion: 3.90.0-3.el9_2 
                         │       ├ Status          : will_not_fix 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
                         │       ├ Title           : Information exposure when DH secret are reused across
@@ -2703,10 +2773,10 @@
                         │       ├ PkgName         : nss-softokn-freebl 
                         │       ├ InstalledVersion: 3.90.0-3.el9_2 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4421 
                         │       ├ Title           : new tlsfuzzer code can still detect timing issues in
@@ -2724,10 +2794,10 @@
                         │       ├ PkgName         : nss-softokn-freebl 
                         │       ├ InstalledVersion: 3.90.0-3.el9_2 
                         │       ├ Status          : will_not_fix 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
                         │       ├ Title           : Information exposure when DH secret are reused across
@@ -2758,10 +2828,10 @@
                         │       ├ PkgName         : nss-sysinit 
                         │       ├ InstalledVersion: 3.90.0-3.el9_2 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4421 
                         │       ├ Title           : new tlsfuzzer code can still detect timing issues in
@@ -2779,10 +2849,10 @@
                         │       ├ PkgName         : nss-sysinit 
                         │       ├ InstalledVersion: 3.90.0-3.el9_2 
                         │       ├ Status          : will_not_fix 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
                         │       ├ Title           : Information exposure when DH secret are reused across
@@ -2813,10 +2883,10 @@
                         │       ├ PkgName         : nss-util 
                         │       ├ InstalledVersion: 3.90.0-3.el9_2 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4421 
                         │       ├ Title           : new tlsfuzzer code can still detect timing issues in
@@ -2834,10 +2904,10 @@
                         │       ├ PkgName         : nss-util 
                         │       ├ InstalledVersion: 3.90.0-3.el9_2 
                         │       ├ Status          : will_not_fix 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
                         │       ├ Title           : Information exposure when DH secret are reused across
@@ -2954,10 +3024,10 @@
                         │       ├ PkgName         : openssl 
                         │       ├ InstalledVersion: 1:3.0.7-17.el9_2 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-2975 
                         │       ├ Title           : AES-SIV cipher implementation contains a bug that
@@ -3029,10 +3099,10 @@
                         │       ├ PkgName         : openssl 
                         │       ├ InstalledVersion: 1:3.0.7-17.el9_2 
                         │       ├ Status          : will_not_fix 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-3446 
                         │       ├ Title           : Excessive time spent checking DH keys and parameters 
@@ -3121,16 +3191,16 @@
                         │       │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
                         │       │                  ╰ [14]: https://www.openssl.org/news/secadv/20230719.txt 
                         │       ├ PublishedDate   : 2023-07-19T12:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-08-16T08:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-03T15:48:00Z 
                         ├ [77]  ╭ VulnerabilityID : CVE-2023-3817 
                         │       ├ PkgID           : openssl@3.0.7-17.el9_2.x86_64 
                         │       ├ PkgName         : openssl 
                         │       ├ InstalledVersion: 1:3.0.7-17.el9_2 
                         │       ├ Status          : will_not_fix 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-3817 
                         │       ├ Title           : Excessive time spent checking DH q parameter value 
@@ -3388,7 +3458,7 @@
                         │       │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
                         │       │                  ╰ [14]: https://www.openssl.org/news/secadv/20230719.txt 
                         │       ├ PublishedDate   : 2023-07-19T12:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-08-16T08:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-03T15:48:00Z 
                         ├ [80]  ╭ VulnerabilityID : CVE-2023-3817 
                         │       ├ PkgID           : openssl-libs@3.0.7-17.el9_2.x86_64 
                         │       ├ PkgName         : openssl-libs 
@@ -3488,10 +3558,10 @@
                         │       ├ PkgName         : python-unversioned-command 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-40217 
                         │       ├ Title           : TLS handshake bypass 
@@ -3538,10 +3608,10 @@
                         │       ├ PkgName         : python-unversioned-command 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2007-4559 
                         │       ├ Title           : tarfile module directory traversal 
@@ -3575,10 +3645,10 @@
                         │       ├ PkgName         : python-unversioned-command 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-23336 
                         │       ├ Title           : Web cache poisoning via urllib.parse.parse_qsl and
@@ -3725,10 +3795,10 @@
                         │       ├ PkgName         : python-unversioned-command 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-0391 
                         │       ├ Title           : urllib.parse does not sanitize URLs containing ASCII
@@ -3789,10 +3859,10 @@
                         │       ├ PkgName         : python-unversioned-command 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.1 
                         │       ├ Status          : will_not_fix 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
                         │       ├ Title           : Parsing errors in email/_parseaddr.py lead to
@@ -3837,10 +3907,10 @@
                         │       ├ PkgName         : python-unversioned-command 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.1 
                         │       ├ Status          : will_not_fix 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-36632 
                         │       ├ Title           : maximum recursion depth exceeded while calling a
@@ -3887,10 +3957,10 @@
                         │       ├ PkgName         : python3 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-40217 
                         │       ├ Title           : TLS handshake bypass 
@@ -3937,10 +4007,10 @@
                         │       ├ PkgName         : python3 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2007-4559 
                         │       ├ Title           : tarfile module directory traversal 
@@ -3974,10 +4044,10 @@
                         │       ├ PkgName         : python3 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-23336 
                         │       ├ Title           : Web cache poisoning via urllib.parse.parse_qsl and
@@ -4124,10 +4194,10 @@
                         │       ├ PkgName         : python3 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-0391 
                         │       ├ Title           : urllib.parse does not sanitize URLs containing ASCII
@@ -4188,10 +4258,10 @@
                         │       ├ PkgName         : python3 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.1 
                         │       ├ Status          : will_not_fix 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
                         │       ├ Title           : Parsing errors in email/_parseaddr.py lead to
@@ -4236,10 +4306,10 @@
                         │       ├ PkgName         : python3 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.1 
                         │       ├ Status          : will_not_fix 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-36632 
                         │       ├ Title           : maximum recursion depth exceeded while calling a
@@ -4286,10 +4356,10 @@
                         │       ├ PkgName         : python3-libs 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-40217 
                         │       ├ Title           : TLS handshake bypass 
@@ -4336,10 +4406,10 @@
                         │       ├ PkgName         : python3-libs 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2007-4559 
                         │       ├ Title           : tarfile module directory traversal 
@@ -4373,10 +4443,10 @@
                         │       ├ PkgName         : python3-libs 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-23336 
                         │       ├ Title           : Web cache poisoning via urllib.parse.parse_qsl and
@@ -4523,10 +4593,10 @@
                         │       ├ PkgName         : python3-libs 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.1 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-0391 
                         │       ├ Title           : urllib.parse does not sanitize URLs containing ASCII
@@ -4587,10 +4657,10 @@
                         │       ├ PkgName         : python3-libs 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.1 
                         │       ├ Status          : will_not_fix 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
                         │       ├ Title           : Parsing errors in email/_parseaddr.py lead to
@@ -4635,10 +4705,10 @@
                         │       ├ PkgName         : python3-libs 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.1 
                         │       ├ Status          : will_not_fix 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-36632 
                         │       ├ Title           : maximum recursion depth exceeded while calling a
@@ -4685,10 +4755,10 @@
                         │       ├ PkgName         : python3-pip-wheel 
                         │       ├ InstalledVersion: 21.2.3-6.el9 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-3572 
                         │       ├ Title           : python-pip: Incorrect handling of unicode separators
@@ -4990,10 +5060,10 @@
                         │       ├ PkgName         : sudo 
                         │       ├ InstalledVersion: 1.9.5p2-9.el9 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-28486 
                         │       ├ Title           : Sudo does not escape control characters in log messages 
@@ -5028,10 +5098,10 @@
                         │       ├ PkgName         : sudo 
                         │       ├ InstalledVersion: 1.9.5p2-9.el9 
                         │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:50a0f10341568334cef1c12ff7b954bce90db0
-                        │       │                  │         950ebd1c1d8234e7f7441df2c3 
-                        │       │                  ╰ DiffID: sha256:8e3dd311daa6ebc32a4784765a85b0fcf249ca
-                        │       │                            599a426127c953a4b56e97c752 
+                        │       ├ Layer            ╭ Digest: sha256:b26018185b7d6c7cd369427b512707d0c40d8a
+                        │       │                  │         fbae4c2eda48d3cdd9a4e8d396 
+                        │       │                  ╰ DiffID: sha256:2f9dbe6c16aa2f33e91a6b42157f3ee959f689
+                        │       │                            b5498d4e16d858a3adec4b0df4 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-28487 
                         │       ├ Title           : Sudo does not escape control characters in sudoreplay
