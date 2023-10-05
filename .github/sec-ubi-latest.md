@@ -136,7 +136,9 @@
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38469 
 │                       │       ├ Title           : Reachable assertion in avahi_dns_packet_append_record 
-│                       │       ├ Description     : No description is available for this CVE. 
+│                       │       ├ Description     : A vulnerability was found in Avahi, where a reachable
+│                       │       │                   assertion exists in avahi_dns_packet_append_record.[
+│                       │       │                   m 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
@@ -158,7 +160,9 @@
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38470 
 │                       │       ├ Title           : Reachable assertion in avahi_escape_label 
-│                       │       ├ Description     : No description is available for this CVE. 
+│                       │       ├ Description     : A vulnerability was found in Avahi. A reachable
+│                       │       │                   assertion exists in the avahi_escape_label()
+│                       │       │                   function. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
@@ -180,7 +184,9 @@
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38471 
 │                       │       ├ Title           : Reachable assertion in dbus_set_host_name 
-│                       │       ├ Description     : No description is available for this CVE. 
+│                       │       ├ Description     : A vulnerability was found in Avahi. A reachable
+│                       │       │                   assertion exists in the dbus_set_host_name
+│                       │       │                   function. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
@@ -202,7 +208,9 @@
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38472 
 │                       │       ├ Title           : Reachable assertion in avahi_rdata_parse 
-│                       │       ├ Description     : No description is available for this CVE. 
+│                       │       ├ Description     : A vulnerability was found in Avahi. A reachable
+│                       │       │                   assertion exists in the avahi_rdata_parse()
+│                       │       │                   function. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
@@ -224,7 +232,9 @@
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38473 
 │                       │       ├ Title           : Reachable assertion in avahi_alternative_host_name 
-│                       │       ├ Description     : No description is available for this CVE. 
+│                       │       ├ Description     : A vulnerability was found in Avahi. A reachable
+│                       │       │                   assertion exists in the avahi_alternative_host_name()
+│                       │       │                   function. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
@@ -1181,28 +1191,30 @@
 │                       │       │                   GLIBC_TUNABLES environment variable. This issue could allow
 │                       │       │                    a local attacker to use maliciously crafted GLIBC_TUNABLES
 │                       │       │                    environment variables when launching binaries with SUID
-│                       │       │                   permission to execute code with elevated privileges.A
-│                       │       │                   buffer overflow was discovered in the GNU C Library's
-│                       │       │                   dynamic loader ld.so while processing the GLIBC_TUNABLES
-│                       │       │                   environment variable. This issue could allow a local
-│                       │       │                   attacker to use maliciously crafted GLIBC_TUNABLES
-│                       │       │                   environment variables when launching binaries with SUID
 │                       │       │                   permission to execute code with elevated
 │                       │       │                   privileges. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
 │                       │       │                           │           :H/I:H/A:H 
 │                       │       │                           ╰ V3Score : 7.8 
-│                       │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4911 
-│                       │                          ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │                          │      VE-2023-4911 
-│                       │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
-│                       │                          ├ [3]: https://ubuntu.com/security/notices/USN-6409-1 
-│                       │                          ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
-│                       │                          ├ [5]: https://www.qualys.com/2023/10/03/cve-2023-4911/
-│                       │                          │      looney-tunables-local-privilege-escalation-glibc-ld-s
-│                       │                          │      o.txt 
-│                       │                          ╰ [6]: https://www.qualys.com/cve-2023-4911/ 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /10/03/2 
+│                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /10/03/3 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-4911 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4911 
+│                       │       │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
+│                       │       │                  ├ [6] : https://ubuntu.com/security/notices/USN-6409-1 
+│                       │       │                  ├ [7] : https://www.cve.org/CVERecord?id=CVE-2023-4911 
+│                       │       │                  ├ [8] : https://www.debian.org/security/2023/dsa-5514 
+│                       │       │                  ├ [9] : https://www.qualys.com/2023/10/03/cve-2023-4911
+│                       │       │                  │       /looney-tunables-local-privilege-escalation-glibc-ld
+│                       │       │                  │       -so.txt 
+│                       │       │                  ╰ [10]: https://www.qualys.com/cve-2023-4911/ 
+│                       │       ├ PublishedDate   : 2023-10-03T18:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-03T23:55:00Z 
 │                       ├ [28]  ╭ VulnerabilityID : CVE-2023-4527 
 │                       │       ├ PkgID           : glibc@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc 
@@ -1271,12 +1283,20 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4806 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/4 
+│                       │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/5 
+│                       │       │                  ├ [2]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/6 
+│                       │       │                  ├ [3]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/8 
+│                       │       │                  ├ [4]: https://access.redhat.com/security/cve/CVE-2023-4806 
+│                       │       │                  ├ [5]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-26T19:54:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
 │                       ├ [30]  ╭ VulnerabilityID : CVE-2023-4813 
 │                       │       ├ PkgID           : glibc@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc 
@@ -1303,12 +1323,14 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4813 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/8 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-4813 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
 │                       │       ├ PublishedDate   : 2023-09-12T22:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-20T19:01:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
 │                       ├ [31]  ╭ VulnerabilityID : CVE-2023-5156 
 │                       │       ├ PkgID           : glibc@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc 
@@ -1332,16 +1354,24 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:L 
 │                       │       │                           ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5156 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2240541 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5156 
-│                       │       │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=30884 
-│                       │       │                  ├ [4]: https://sourceware.org/git/?p=glibc.git;a=commit
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/4 
+│                       │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/5 
+│                       │       │                  ├ [2]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/6 
+│                       │       │                  ├ [3]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/8 
+│                       │       │                  ├ [4]: https://access.redhat.com/security/cve/CVE-2023-5156 
+│                       │       │                  ├ [5]: https://bugzilla.redhat.com/show_bug.cgi?id=2240541 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-5156 
+│                       │       │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=30884 
+│                       │       │                  ├ [8]: https://sourceware.org/git/?p=glibc.git;a=commit
 │                       │       │                  │      diff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
 │                       │       │                  │       
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-5156 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-5156 
 │                       │       ├ PublishedDate   : 2023-09-25T16:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-10-02T16:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
 │                       ├ [32]  ╭ VulnerabilityID : CVE-2023-4911 
 │                       │       ├ PkgID           : glibc-common@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-common 
@@ -1359,28 +1389,30 @@
 │                       │       │                   GLIBC_TUNABLES environment variable. This issue could allow
 │                       │       │                    a local attacker to use maliciously crafted GLIBC_TUNABLES
 │                       │       │                    environment variables when launching binaries with SUID
-│                       │       │                   permission to execute code with elevated privileges.A
-│                       │       │                   buffer overflow was discovered in the GNU C Library's
-│                       │       │                   dynamic loader ld.so while processing the GLIBC_TUNABLES
-│                       │       │                   environment variable. This issue could allow a local
-│                       │       │                   attacker to use maliciously crafted GLIBC_TUNABLES
-│                       │       │                   environment variables when launching binaries with SUID
 │                       │       │                   permission to execute code with elevated
 │                       │       │                   privileges. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
 │                       │       │                           │           :H/I:H/A:H 
 │                       │       │                           ╰ V3Score : 7.8 
-│                       │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4911 
-│                       │                          ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │                          │      VE-2023-4911 
-│                       │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
-│                       │                          ├ [3]: https://ubuntu.com/security/notices/USN-6409-1 
-│                       │                          ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
-│                       │                          ├ [5]: https://www.qualys.com/2023/10/03/cve-2023-4911/
-│                       │                          │      looney-tunables-local-privilege-escalation-glibc-ld-s
-│                       │                          │      o.txt 
-│                       │                          ╰ [6]: https://www.qualys.com/cve-2023-4911/ 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /10/03/2 
+│                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /10/03/3 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-4911 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4911 
+│                       │       │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
+│                       │       │                  ├ [6] : https://ubuntu.com/security/notices/USN-6409-1 
+│                       │       │                  ├ [7] : https://www.cve.org/CVERecord?id=CVE-2023-4911 
+│                       │       │                  ├ [8] : https://www.debian.org/security/2023/dsa-5514 
+│                       │       │                  ├ [9] : https://www.qualys.com/2023/10/03/cve-2023-4911
+│                       │       │                  │       /looney-tunables-local-privilege-escalation-glibc-ld
+│                       │       │                  │       -so.txt 
+│                       │       │                  ╰ [10]: https://www.qualys.com/cve-2023-4911/ 
+│                       │       ├ PublishedDate   : 2023-10-03T18:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-03T23:55:00Z 
 │                       ├ [33]  ╭ VulnerabilityID : CVE-2023-4527 
 │                       │       ├ PkgID           : glibc-common@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-common 
@@ -1449,12 +1481,20 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4806 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/4 
+│                       │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/5 
+│                       │       │                  ├ [2]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/6 
+│                       │       │                  ├ [3]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/8 
+│                       │       │                  ├ [4]: https://access.redhat.com/security/cve/CVE-2023-4806 
+│                       │       │                  ├ [5]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-26T19:54:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
 │                       ├ [35]  ╭ VulnerabilityID : CVE-2023-4813 
 │                       │       ├ PkgID           : glibc-common@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-common 
@@ -1481,12 +1521,14 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4813 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/8 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-4813 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
 │                       │       ├ PublishedDate   : 2023-09-12T22:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-20T19:01:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
 │                       ├ [36]  ╭ VulnerabilityID : CVE-2023-5156 
 │                       │       ├ PkgID           : glibc-common@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-common 
@@ -1510,16 +1552,24 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:L 
 │                       │       │                           ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5156 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2240541 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5156 
-│                       │       │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=30884 
-│                       │       │                  ├ [4]: https://sourceware.org/git/?p=glibc.git;a=commit
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/4 
+│                       │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/5 
+│                       │       │                  ├ [2]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/6 
+│                       │       │                  ├ [3]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/8 
+│                       │       │                  ├ [4]: https://access.redhat.com/security/cve/CVE-2023-5156 
+│                       │       │                  ├ [5]: https://bugzilla.redhat.com/show_bug.cgi?id=2240541 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-5156 
+│                       │       │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=30884 
+│                       │       │                  ├ [8]: https://sourceware.org/git/?p=glibc.git;a=commit
 │                       │       │                  │      diff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
 │                       │       │                  │       
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-5156 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-5156 
 │                       │       ├ PublishedDate   : 2023-09-25T16:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-10-02T16:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
 │                       ├ [37]  ╭ VulnerabilityID : CVE-2023-4911 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
@@ -1537,28 +1587,30 @@
 │                       │       │                   GLIBC_TUNABLES environment variable. This issue could allow
 │                       │       │                    a local attacker to use maliciously crafted GLIBC_TUNABLES
 │                       │       │                    environment variables when launching binaries with SUID
-│                       │       │                   permission to execute code with elevated privileges.A
-│                       │       │                   buffer overflow was discovered in the GNU C Library's
-│                       │       │                   dynamic loader ld.so while processing the GLIBC_TUNABLES
-│                       │       │                   environment variable. This issue could allow a local
-│                       │       │                   attacker to use maliciously crafted GLIBC_TUNABLES
-│                       │       │                   environment variables when launching binaries with SUID
 │                       │       │                   permission to execute code with elevated
 │                       │       │                   privileges. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
 │                       │       │                           │           :H/I:H/A:H 
 │                       │       │                           ╰ V3Score : 7.8 
-│                       │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4911 
-│                       │                          ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │                          │      VE-2023-4911 
-│                       │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
-│                       │                          ├ [3]: https://ubuntu.com/security/notices/USN-6409-1 
-│                       │                          ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
-│                       │                          ├ [5]: https://www.qualys.com/2023/10/03/cve-2023-4911/
-│                       │                          │      looney-tunables-local-privilege-escalation-glibc-ld-s
-│                       │                          │      o.txt 
-│                       │                          ╰ [6]: https://www.qualys.com/cve-2023-4911/ 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /10/03/2 
+│                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /10/03/3 
+│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-4911 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4911 
+│                       │       │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
+│                       │       │                  ├ [6] : https://ubuntu.com/security/notices/USN-6409-1 
+│                       │       │                  ├ [7] : https://www.cve.org/CVERecord?id=CVE-2023-4911 
+│                       │       │                  ├ [8] : https://www.debian.org/security/2023/dsa-5514 
+│                       │       │                  ├ [9] : https://www.qualys.com/2023/10/03/cve-2023-4911
+│                       │       │                  │       /looney-tunables-local-privilege-escalation-glibc-ld
+│                       │       │                  │       -so.txt 
+│                       │       │                  ╰ [10]: https://www.qualys.com/cve-2023-4911/ 
+│                       │       ├ PublishedDate   : 2023-10-03T18:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-03T23:55:00Z 
 │                       ├ [38]  ╭ VulnerabilityID : CVE-2023-4527 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
@@ -1627,12 +1679,20 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4806 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/4 
+│                       │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/5 
+│                       │       │                  ├ [2]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/6 
+│                       │       │                  ├ [3]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/8 
+│                       │       │                  ├ [4]: https://access.redhat.com/security/cve/CVE-2023-4806 
+│                       │       │                  ├ [5]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-26T19:54:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
 │                       ├ [40]  ╭ VulnerabilityID : CVE-2023-4813 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
@@ -1659,12 +1719,14 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4813 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
-│                       │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/8 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-4813 
+│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
 │                       │       ├ PublishedDate   : 2023-09-12T22:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-20T19:01:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
 │                       ├ [41]  ╭ VulnerabilityID : CVE-2023-5156 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
@@ -1688,16 +1750,24 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:L 
 │                       │       │                           ╰ V3Score : 5.3 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5156 
-│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2240541 
-│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5156 
-│                       │       │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=30884 
-│                       │       │                  ├ [4]: https://sourceware.org/git/?p=glibc.git;a=commit
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/4 
+│                       │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/5 
+│                       │       │                  ├ [2]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/6 
+│                       │       │                  ├ [3]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      10/03/8 
+│                       │       │                  ├ [4]: https://access.redhat.com/security/cve/CVE-2023-5156 
+│                       │       │                  ├ [5]: https://bugzilla.redhat.com/show_bug.cgi?id=2240541 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-5156 
+│                       │       │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=30884 
+│                       │       │                  ├ [8]: https://sourceware.org/git/?p=glibc.git;a=commit
 │                       │       │                  │      diff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
 │                       │       │                  │       
-│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-5156 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-5156 
 │                       │       ├ PublishedDate   : 2023-09-25T16:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-10-02T16:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
 │                       ├ [42]  ╭ VulnerabilityID : CVE-2021-43618 
 │                       │       ├ PkgID           : gmp@6.2.0-10.el9.x86_64 
 │                       │       ├ PkgName         : gmp 
@@ -3950,7 +4020,7 @@
 │                       │       │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
 │                       │       │                  ╰ [14]: https://www.openssl.org/news/secadv/20230719.txt 
 │                       │       ├ PublishedDate   : 2023-07-19T12:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-08-16T08:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-03T15:48:00Z 
 │                       ├ [91]  ╭ VulnerabilityID : CVE-2023-3817 
 │                       │       ├ PkgID           : openssl@3.0.7-16.el9_2.x86_64 
 │                       │       ├ PkgName         : openssl 
@@ -4217,7 +4287,7 @@
 │                       │       │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
 │                       │       │                  ╰ [14]: https://www.openssl.org/news/secadv/20230719.txt 
 │                       │       ├ PublishedDate   : 2023-07-19T12:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-08-16T08:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-03T15:48:00Z 
 │                       ├ [94]  ╭ VulnerabilityID : CVE-2023-3817 
 │                       │       ├ PkgID           : openssl-libs@3.0.7-16.el9_2.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
