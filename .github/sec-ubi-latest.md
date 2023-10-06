@@ -1175,10 +1175,12 @@
 │                       │       ├ PublishedDate   : 2023-09-14T20:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-09-25T20:15:00Z 
 │                       ├ [27]  ╭ VulnerabilityID : CVE-2023-4911 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2023:5453 
 │                       │       ├ PkgID           : glibc@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc 
 │                       │       ├ InstalledVersion: 2.34-60.el9 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-60.el9_2.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc
 │                       │       │                  │         534cc313627f8113246276bf0f 
 │                       │       │                  ╰ DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e
@@ -1201,25 +1203,41 @@
 │                       │       │                  │       /10/03/2 
 │                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023
 │                       │       │                  │       /10/03/3 
-│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-4911 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
-│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /10/05/1 
+│                       │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-4911 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2023-4911 
-│                       │       │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
-│                       │       │                  ├ [6] : https://ubuntu.com/security/notices/USN-6409-1 
-│                       │       │                  ├ [7] : https://www.cve.org/CVERecord?id=CVE-2023-4911 
-│                       │       │                  ├ [8] : https://www.debian.org/security/2023/dsa-5514 
-│                       │       │                  ├ [9] : https://www.qualys.com/2023/10/03/cve-2023-4911
+│                       │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-4911.html 
+│                       │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-12851.html 
+│                       │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/4DBU
+│                       │       │                  │       QRRPB47TC3NJOUIBVWUGFHBJAFDL/ 
+│                       │       │                  ├ [9] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DFG4
+│                       │       │                  │       P76UHHZEWQ26FWBXG76N2QLKKPZA/ 
+│                       │       │                  ├ [10]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/NDAQ
+│                       │       │                  │       WHTSVOCOZ5K6KPIWKRT3JX4RTZUR/ 
+│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
+│                       │       │                  ├ [12]: https://security.gentoo.org/glsa/202310-03 
+│                       │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-6409-1 
+│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
+│                       │       │                  ├ [15]: https://www.debian.org/security/2023/dsa-5514 
+│                       │       │                  ├ [16]: https://www.qualys.com/2023/10/03/cve-2023-4911
 │                       │       │                  │       /looney-tunables-local-privilege-escalation-glibc-ld
 │                       │       │                  │       -so.txt 
-│                       │       │                  ╰ [10]: https://www.qualys.com/cve-2023-4911/ 
+│                       │       │                  ╰ [17]: https://www.qualys.com/cve-2023-4911/ 
 │                       │       ├ PublishedDate   : 2023-10-03T18:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-10-03T23:55:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-05T03:15:00Z 
 │                       ├ [28]  ╭ VulnerabilityID : CVE-2023-4527 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2023:5453 
 │                       │       ├ PkgID           : glibc@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc 
 │                       │       ├ InstalledVersion: 2.34-60.el9 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-60.el9_2.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc
 │                       │       │                  │         534cc313627f8113246276bf0f 
 │                       │       │                  ╰ DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e
@@ -1242,22 +1260,34 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :L/I:N/A:H 
 │                       │       │                           ╰ V3Score : 6.5 
-│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
-│                       │       │                  │      09/25/1 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-4527 
-│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
-│                       │       │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │       │                  │      VE-2023-4527 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
-│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6409-1 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /09/25/1 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-4527 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
+│                       │       │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4527 
+│                       │       │                  ├ [4] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/4DBU
+│                       │       │                  │       QRRPB47TC3NJOUIBVWUGFHBJAFDL/ 
+│                       │       │                  ├ [5] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DFG4
+│                       │       │                  │       P76UHHZEWQ26FWBXG76N2QLKKPZA/ 
+│                       │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/NDAQ
+│                       │       │                  │       WHTSVOCOZ5K6KPIWKRT3JX4RTZUR/ 
+│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
+│                       │       │                  ├ [8] : https://security.gentoo.org/glsa/202310-03 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6409-1 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-25T12:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-04T19:15:00Z 
 │                       ├ [29]  ╭ VulnerabilityID : CVE-2023-4806 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2023:5453 
 │                       │       ├ PkgID           : glibc@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc 
 │                       │       ├ InstalledVersion: 2.34-60.el9 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-60.el9_2.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc
 │                       │       │                  │         534cc313627f8113246276bf0f 
 │                       │       │                  ╰ DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e
@@ -1283,25 +1313,37 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
-│                       │       │                  │      10/03/4 
-│                       │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/
-│                       │       │                  │      10/03/5 
-│                       │       │                  ├ [2]: http://www.openwall.com/lists/oss-security/2023/
-│                       │       │                  │      10/03/6 
-│                       │       │                  ├ [3]: http://www.openwall.com/lists/oss-security/2023/
-│                       │       │                  │      10/03/8 
-│                       │       │                  ├ [4]: https://access.redhat.com/security/cve/CVE-2023-4806 
-│                       │       │                  ├ [5]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /10/03/4 
+│                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /10/03/5 
+│                       │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /10/03/6 
+│                       │       │                  ├ [3] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /10/03/8 
+│                       │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2023-4806 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+│                       │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/4DBU
+│                       │       │                  │       QRRPB47TC3NJOUIBVWUGFHBJAFDL/ 
+│                       │       │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DFG4
+│                       │       │                  │       P76UHHZEWQ26FWBXG76N2QLKKPZA/ 
+│                       │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/NDAQ
+│                       │       │                  │       WHTSVOCOZ5K6KPIWKRT3JX4RTZUR/ 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
+│                       │       │                  ├ [10]: https://security.gentoo.org/glsa/202310-03 
+│                       │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-04T19:15:00Z 
 │                       ├ [30]  ╭ VulnerabilityID : CVE-2023-4813 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2023:5453 
 │                       │       ├ PkgID           : glibc@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc 
 │                       │       ├ InstalledVersion: 2.34-60.el9 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-60.el9_2.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc
 │                       │       │                  │         534cc313627f8113246276bf0f 
 │                       │       │                  ╰ DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e
@@ -1373,10 +1415,12 @@
 │                       │       ├ PublishedDate   : 2023-09-25T16:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
 │                       ├ [32]  ╭ VulnerabilityID : CVE-2023-4911 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2023:5453 
 │                       │       ├ PkgID           : glibc-common@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-common 
 │                       │       ├ InstalledVersion: 2.34-60.el9 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-60.el9_2.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc
 │                       │       │                  │         534cc313627f8113246276bf0f 
 │                       │       │                  ╰ DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e
@@ -1399,25 +1443,41 @@
 │                       │       │                  │       /10/03/2 
 │                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023
 │                       │       │                  │       /10/03/3 
-│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-4911 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
-│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /10/05/1 
+│                       │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-4911 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2023-4911 
-│                       │       │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
-│                       │       │                  ├ [6] : https://ubuntu.com/security/notices/USN-6409-1 
-│                       │       │                  ├ [7] : https://www.cve.org/CVERecord?id=CVE-2023-4911 
-│                       │       │                  ├ [8] : https://www.debian.org/security/2023/dsa-5514 
-│                       │       │                  ├ [9] : https://www.qualys.com/2023/10/03/cve-2023-4911
+│                       │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-4911.html 
+│                       │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-12851.html 
+│                       │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/4DBU
+│                       │       │                  │       QRRPB47TC3NJOUIBVWUGFHBJAFDL/ 
+│                       │       │                  ├ [9] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DFG4
+│                       │       │                  │       P76UHHZEWQ26FWBXG76N2QLKKPZA/ 
+│                       │       │                  ├ [10]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/NDAQ
+│                       │       │                  │       WHTSVOCOZ5K6KPIWKRT3JX4RTZUR/ 
+│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
+│                       │       │                  ├ [12]: https://security.gentoo.org/glsa/202310-03 
+│                       │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-6409-1 
+│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
+│                       │       │                  ├ [15]: https://www.debian.org/security/2023/dsa-5514 
+│                       │       │                  ├ [16]: https://www.qualys.com/2023/10/03/cve-2023-4911
 │                       │       │                  │       /looney-tunables-local-privilege-escalation-glibc-ld
 │                       │       │                  │       -so.txt 
-│                       │       │                  ╰ [10]: https://www.qualys.com/cve-2023-4911/ 
+│                       │       │                  ╰ [17]: https://www.qualys.com/cve-2023-4911/ 
 │                       │       ├ PublishedDate   : 2023-10-03T18:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-10-03T23:55:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-05T03:15:00Z 
 │                       ├ [33]  ╭ VulnerabilityID : CVE-2023-4527 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2023:5453 
 │                       │       ├ PkgID           : glibc-common@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-common 
 │                       │       ├ InstalledVersion: 2.34-60.el9 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-60.el9_2.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc
 │                       │       │                  │         534cc313627f8113246276bf0f 
 │                       │       │                  ╰ DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e
@@ -1440,22 +1500,34 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :L/I:N/A:H 
 │                       │       │                           ╰ V3Score : 6.5 
-│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
-│                       │       │                  │      09/25/1 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-4527 
-│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
-│                       │       │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │       │                  │      VE-2023-4527 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
-│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6409-1 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /09/25/1 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-4527 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
+│                       │       │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4527 
+│                       │       │                  ├ [4] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/4DBU
+│                       │       │                  │       QRRPB47TC3NJOUIBVWUGFHBJAFDL/ 
+│                       │       │                  ├ [5] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DFG4
+│                       │       │                  │       P76UHHZEWQ26FWBXG76N2QLKKPZA/ 
+│                       │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/NDAQ
+│                       │       │                  │       WHTSVOCOZ5K6KPIWKRT3JX4RTZUR/ 
+│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
+│                       │       │                  ├ [8] : https://security.gentoo.org/glsa/202310-03 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6409-1 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-25T12:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-04T19:15:00Z 
 │                       ├ [34]  ╭ VulnerabilityID : CVE-2023-4806 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2023:5453 
 │                       │       ├ PkgID           : glibc-common@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-common 
 │                       │       ├ InstalledVersion: 2.34-60.el9 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-60.el9_2.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc
 │                       │       │                  │         534cc313627f8113246276bf0f 
 │                       │       │                  ╰ DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e
@@ -1481,25 +1553,37 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
-│                       │       │                  │      10/03/4 
-│                       │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/
-│                       │       │                  │      10/03/5 
-│                       │       │                  ├ [2]: http://www.openwall.com/lists/oss-security/2023/
-│                       │       │                  │      10/03/6 
-│                       │       │                  ├ [3]: http://www.openwall.com/lists/oss-security/2023/
-│                       │       │                  │      10/03/8 
-│                       │       │                  ├ [4]: https://access.redhat.com/security/cve/CVE-2023-4806 
-│                       │       │                  ├ [5]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /10/03/4 
+│                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /10/03/5 
+│                       │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /10/03/6 
+│                       │       │                  ├ [3] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /10/03/8 
+│                       │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2023-4806 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+│                       │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/4DBU
+│                       │       │                  │       QRRPB47TC3NJOUIBVWUGFHBJAFDL/ 
+│                       │       │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DFG4
+│                       │       │                  │       P76UHHZEWQ26FWBXG76N2QLKKPZA/ 
+│                       │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/NDAQ
+│                       │       │                  │       WHTSVOCOZ5K6KPIWKRT3JX4RTZUR/ 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
+│                       │       │                  ├ [10]: https://security.gentoo.org/glsa/202310-03 
+│                       │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-04T19:15:00Z 
 │                       ├ [35]  ╭ VulnerabilityID : CVE-2023-4813 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2023:5453 
 │                       │       ├ PkgID           : glibc-common@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-common 
 │                       │       ├ InstalledVersion: 2.34-60.el9 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-60.el9_2.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc
 │                       │       │                  │         534cc313627f8113246276bf0f 
 │                       │       │                  ╰ DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e
@@ -1571,10 +1655,12 @@
 │                       │       ├ PublishedDate   : 2023-09-25T16:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
 │                       ├ [37]  ╭ VulnerabilityID : CVE-2023-4911 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2023:5453 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
 │                       │       ├ InstalledVersion: 2.34-60.el9 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-60.el9_2.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc
 │                       │       │                  │         534cc313627f8113246276bf0f 
 │                       │       │                  ╰ DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e
@@ -1597,25 +1683,41 @@
 │                       │       │                  │       /10/03/2 
 │                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023
 │                       │       │                  │       /10/03/3 
-│                       │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-4911 
-│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
-│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /10/05/1 
+│                       │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-4911 
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2023-4911 
-│                       │       │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
-│                       │       │                  ├ [6] : https://ubuntu.com/security/notices/USN-6409-1 
-│                       │       │                  ├ [7] : https://www.cve.org/CVERecord?id=CVE-2023-4911 
-│                       │       │                  ├ [8] : https://www.debian.org/security/2023/dsa-5514 
-│                       │       │                  ├ [9] : https://www.qualys.com/2023/10/03/cve-2023-4911
+│                       │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-4911.html 
+│                       │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-12851.html 
+│                       │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/4DBU
+│                       │       │                  │       QRRPB47TC3NJOUIBVWUGFHBJAFDL/ 
+│                       │       │                  ├ [9] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DFG4
+│                       │       │                  │       P76UHHZEWQ26FWBXG76N2QLKKPZA/ 
+│                       │       │                  ├ [10]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/NDAQ
+│                       │       │                  │       WHTSVOCOZ5K6KPIWKRT3JX4RTZUR/ 
+│                       │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
+│                       │       │                  ├ [12]: https://security.gentoo.org/glsa/202310-03 
+│                       │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-6409-1 
+│                       │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
+│                       │       │                  ├ [15]: https://www.debian.org/security/2023/dsa-5514 
+│                       │       │                  ├ [16]: https://www.qualys.com/2023/10/03/cve-2023-4911
 │                       │       │                  │       /looney-tunables-local-privilege-escalation-glibc-ld
 │                       │       │                  │       -so.txt 
-│                       │       │                  ╰ [10]: https://www.qualys.com/cve-2023-4911/ 
+│                       │       │                  ╰ [17]: https://www.qualys.com/cve-2023-4911/ 
 │                       │       ├ PublishedDate   : 2023-10-03T18:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-10-03T23:55:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-05T03:15:00Z 
 │                       ├ [38]  ╭ VulnerabilityID : CVE-2023-4527 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2023:5453 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
 │                       │       ├ InstalledVersion: 2.34-60.el9 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-60.el9_2.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc
 │                       │       │                  │         534cc313627f8113246276bf0f 
 │                       │       │                  ╰ DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e
@@ -1638,22 +1740,34 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :L/I:N/A:H 
 │                       │       │                           ╰ V3Score : 6.5 
-│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
-│                       │       │                  │      09/25/1 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-4527 
-│                       │       │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
-│                       │       │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │       │                  │      VE-2023-4527 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
-│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6409-1 
-│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /09/25/1 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-4527 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
+│                       │       │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4527 
+│                       │       │                  ├ [4] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/4DBU
+│                       │       │                  │       QRRPB47TC3NJOUIBVWUGFHBJAFDL/ 
+│                       │       │                  ├ [5] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DFG4
+│                       │       │                  │       P76UHHZEWQ26FWBXG76N2QLKKPZA/ 
+│                       │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/NDAQ
+│                       │       │                  │       WHTSVOCOZ5K6KPIWKRT3JX4RTZUR/ 
+│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
+│                       │       │                  ├ [8] : https://security.gentoo.org/glsa/202310-03 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6409-1 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-09-25T12:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-04T19:15:00Z 
 │                       ├ [39]  ╭ VulnerabilityID : CVE-2023-4806 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2023:5453 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
 │                       │       ├ InstalledVersion: 2.34-60.el9 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-60.el9_2.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc
 │                       │       │                  │         534cc313627f8113246276bf0f 
 │                       │       │                  ╰ DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e
@@ -1679,25 +1793,37 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 5.9 
-│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
-│                       │       │                  │      10/03/4 
-│                       │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/
-│                       │       │                  │      10/03/5 
-│                       │       │                  ├ [2]: http://www.openwall.com/lists/oss-security/2023/
-│                       │       │                  │      10/03/6 
-│                       │       │                  ├ [3]: http://www.openwall.com/lists/oss-security/2023/
-│                       │       │                  │      10/03/8 
-│                       │       │                  ├ [4]: https://access.redhat.com/security/cve/CVE-2023-4806 
-│                       │       │                  ├ [5]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
-│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /10/03/4 
+│                       │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /10/03/5 
+│                       │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /10/03/6 
+│                       │       │                  ├ [3] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /10/03/8 
+│                       │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2023-4806 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+│                       │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/4DBU
+│                       │       │                  │       QRRPB47TC3NJOUIBVWUGFHBJAFDL/ 
+│                       │       │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DFG4
+│                       │       │                  │       P76UHHZEWQ26FWBXG76N2QLKKPZA/ 
+│                       │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/NDAQ
+│                       │       │                  │       WHTSVOCOZ5K6KPIWKRT3JX4RTZUR/ 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
+│                       │       │                  ├ [10]: https://security.gentoo.org/glsa/202310-03 
+│                       │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-10-04T19:15:00Z 
 │                       ├ [40]  ╭ VulnerabilityID : CVE-2023-4813 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2023:5453 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-60.el9.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
 │                       │       ├ InstalledVersion: 2.34-60.el9 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 2.34-60.el9_2.7 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc
 │                       │       │                  │         534cc313627f8113246276bf0f 
 │                       │       │                  ╰ DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e
@@ -4383,10 +4509,12 @@
 │                       │       ├ PublishedDate   : 2023-07-31T16:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-09-23T00:15:00Z 
 │                       ├ [95]  ╭ VulnerabilityID : CVE-2023-40217 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2023:5462 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.16-1.el9_2.1.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ InstalledVersion: 3.9.16-1.el9_2.1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 3.9.16-1.el9_2.2 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f
 │                       │       │                  │         16d7d03765489b31e3b215f5e5 
 │                       │       │                  ╰ DiffID: sha256:1f3978e72111e44ebf85001b385520335f432e
@@ -4782,10 +4910,12 @@
 │                       │       ├ PublishedDate   : 2023-06-25T18:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-07-06T16:00:00Z 
 │                       ├ [101] ╭ VulnerabilityID : CVE-2023-40217 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2023:5462 
 │                       │       ├ PkgID           : python3@3.9.16-1.el9_2.1.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ InstalledVersion: 3.9.16-1.el9_2.1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 3.9.16-1.el9_2.2 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f
 │                       │       │                  │         16d7d03765489b31e3b215f5e5 
 │                       │       │                  ╰ DiffID: sha256:1f3978e72111e44ebf85001b385520335f432e
@@ -5181,10 +5311,12 @@
 │                       │       ├ PublishedDate   : 2023-06-25T18:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-07-06T16:00:00Z 
 │                       ├ [107] ╭ VulnerabilityID : CVE-2023-40217 
+│                       │       ├ VendorIDs        ─ [0]: RHSA-2023:5462 
 │                       │       ├ PkgID           : python3-libs@3.9.16-1.el9_2.1.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ InstalledVersion: 3.9.16-1.el9_2.1 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 3.9.16-1.el9_2.2 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f
 │                       │       │                  │         16d7d03765489b31e3b215f5e5 
 │                       │       │                  ╰ DiffID: sha256:1f3978e72111e44ebf85001b385520335f432e
