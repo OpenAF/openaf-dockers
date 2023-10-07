@@ -962,19 +962,34 @@
     Title: buffer overflow in ld.so leading to privilege escalation
     Description: A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.
     Severity: HIGH
+    CweIDs:
+    - CWE-787
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://seclists.org/fulldisclosure/2023/Oct/11
     - http://www.openwall.com/lists/oss-security/2023/10/03/2
     - http://www.openwall.com/lists/oss-security/2023/10/03/3
     - http://www.openwall.com/lists/oss-security/2023/10/05/1
+    - https://access.redhat.com/errata/RHSA-2023:5453
+    - https://access.redhat.com/errata/RHSA-2023:5454
+    - https://access.redhat.com/errata/RHSA-2023:5455
+    - https://access.redhat.com/errata/RHSA-2023:5476
     - https://access.redhat.com/security/cve/CVE-2023-4911
+    - https://bugzilla.redhat.com/2234712
+    - https://bugzilla.redhat.com/2237782
+    - https://bugzilla.redhat.com/2237798
+    - https://bugzilla.redhat.com/2238352
     - https://bugzilla.redhat.com/show_bug.cgi?id=2238352
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4911
+    - https://errata.almalinux.org/9/ALSA-2023-5453.html
     - https://linux.oracle.com/cve/CVE-2023-4911.html
-    - https://linux.oracle.com/errata/ELSA-2023-12851.html
+    - https://linux.oracle.com/errata/ELSA-2023-12854.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4DBUQRRPB47TC3NJOUIBVWUGFHBJAFDL/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DFG4P76UHHZEWQ26FWBXG76N2QLKKPZA/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NDAQWHTSVOCOZ5K6KPIWKRT3JX4RTZUR/
@@ -986,7 +1001,7 @@
     - https://www.qualys.com/2023/10/03/cve-2023-4911/looney-tunables-local-privilege-escalation-glibc-ld-so.txt
     - https://www.qualys.com/cve-2023-4911/
     PublishedDate: '2023-10-03T18:15:00Z'
-    LastModifiedDate: '2023-10-05T03:15:00Z'
+    LastModifiedDate: '2023-10-06T06:15:00Z'
   - VulnerabilityID: CVE-2023-4527
     VendorIDs:
     - RHSA-2023:5453
@@ -1014,9 +1029,16 @@
         V3Score: 6.5
     References:
     - http://www.openwall.com/lists/oss-security/2023/09/25/1
+    - https://access.redhat.com/errata/RHSA-2023:5453
+    - https://access.redhat.com/errata/RHSA-2023:5455
     - https://access.redhat.com/security/cve/CVE-2023-4527
+    - https://bugzilla.redhat.com/2234712
+    - https://bugzilla.redhat.com/2237782
+    - https://bugzilla.redhat.com/2237798
+    - https://bugzilla.redhat.com/2238352
     - https://bugzilla.redhat.com/show_bug.cgi?id=2234712
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4527
+    - https://errata.almalinux.org/9/ALSA-2023-5453.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4DBUQRRPB47TC3NJOUIBVWUGFHBJAFDL/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DFG4P76UHHZEWQ26FWBXG76N2QLKKPZA/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NDAQWHTSVOCOZ5K6KPIWKRT3JX4RTZUR/
@@ -1025,7 +1047,7 @@
     - https://ubuntu.com/security/notices/USN-6409-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4527
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-10-04T19:15:00Z'
+    LastModifiedDate: '2023-10-05T16:15:00Z'
   - VulnerabilityID: CVE-2023-4806
     VendorIDs:
     - RHSA-2023:5453
@@ -1056,8 +1078,15 @@
     - http://www.openwall.com/lists/oss-security/2023/10/03/5
     - http://www.openwall.com/lists/oss-security/2023/10/03/6
     - http://www.openwall.com/lists/oss-security/2023/10/03/8
+    - https://access.redhat.com/errata/RHSA-2023:5453
+    - https://access.redhat.com/errata/RHSA-2023:5455
     - https://access.redhat.com/security/cve/CVE-2023-4806
+    - https://bugzilla.redhat.com/2234712
+    - https://bugzilla.redhat.com/2237782
+    - https://bugzilla.redhat.com/2237798
+    - https://bugzilla.redhat.com/2238352
     - https://bugzilla.redhat.com/show_bug.cgi?id=2237782
+    - https://errata.almalinux.org/9/ALSA-2023-5453.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4DBUQRRPB47TC3NJOUIBVWUGFHBJAFDL/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DFG4P76UHHZEWQ26FWBXG76N2QLKKPZA/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NDAQWHTSVOCOZ5K6KPIWKRT3JX4RTZUR/
@@ -1065,7 +1094,7 @@
     - https://security.gentoo.org/glsa/202310-03
     - https://www.cve.org/CVERecord?id=CVE-2023-4806
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-10-04T19:15:00Z'
+    LastModifiedDate: '2023-10-05T16:15:00Z'
   - VulnerabilityID: CVE-2023-4813
     VendorIDs:
     - RHSA-2023:5453
@@ -1093,47 +1122,19 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2023/10/03/8
+    - https://access.redhat.com/errata/RHSA-2023:5453
+    - https://access.redhat.com/errata/RHSA-2023:5455
     - https://access.redhat.com/security/cve/CVE-2023-4813
+    - https://bugzilla.redhat.com/2234712
+    - https://bugzilla.redhat.com/2237782
+    - https://bugzilla.redhat.com/2237798
+    - https://bugzilla.redhat.com/2238352
     - https://bugzilla.redhat.com/show_bug.cgi?id=2237798
+    - https://errata.almalinux.org/9/ALSA-2023-5453.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
     - https://www.cve.org/CVERecord?id=CVE-2023-4813
     PublishedDate: '2023-09-12T22:15:00Z'
-    LastModifiedDate: '2023-10-04T00:15:00Z'
-  - VulnerabilityID: CVE-2023-5156
-    PkgID: glibc@2.34-60.el9.x86_64
-    PkgName: glibc
-    InstalledVersion: 2.34-60.el9
-    Status: affected
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5156
-    Title: DoS due to memory leak in getaddrinfo.c
-    Description: A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-401
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2023/10/03/4
-    - http://www.openwall.com/lists/oss-security/2023/10/03/5
-    - http://www.openwall.com/lists/oss-security/2023/10/03/6
-    - http://www.openwall.com/lists/oss-security/2023/10/03/8
-    - https://access.redhat.com/security/cve/CVE-2023-5156
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2240541
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-5156
-    - https://sourceware.org/bugzilla/show_bug.cgi?id=30884
-    - https://sourceware.org/git/?p=glibc.git;a=commitdiff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
-    - https://www.cve.org/CVERecord?id=CVE-2023-5156
-    PublishedDate: '2023-09-25T16:15:00Z'
-    LastModifiedDate: '2023-10-04T00:15:00Z'
+    LastModifiedDate: '2023-10-05T16:15:00Z'
   - VulnerabilityID: CVE-2023-4911
     VendorIDs:
     - RHSA-2023:5453
@@ -1150,19 +1151,34 @@
     Title: buffer overflow in ld.so leading to privilege escalation
     Description: A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.
     Severity: HIGH
+    CweIDs:
+    - CWE-787
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://seclists.org/fulldisclosure/2023/Oct/11
     - http://www.openwall.com/lists/oss-security/2023/10/03/2
     - http://www.openwall.com/lists/oss-security/2023/10/03/3
     - http://www.openwall.com/lists/oss-security/2023/10/05/1
+    - https://access.redhat.com/errata/RHSA-2023:5453
+    - https://access.redhat.com/errata/RHSA-2023:5454
+    - https://access.redhat.com/errata/RHSA-2023:5455
+    - https://access.redhat.com/errata/RHSA-2023:5476
     - https://access.redhat.com/security/cve/CVE-2023-4911
+    - https://bugzilla.redhat.com/2234712
+    - https://bugzilla.redhat.com/2237782
+    - https://bugzilla.redhat.com/2237798
+    - https://bugzilla.redhat.com/2238352
     - https://bugzilla.redhat.com/show_bug.cgi?id=2238352
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4911
+    - https://errata.almalinux.org/9/ALSA-2023-5453.html
     - https://linux.oracle.com/cve/CVE-2023-4911.html
-    - https://linux.oracle.com/errata/ELSA-2023-12851.html
+    - https://linux.oracle.com/errata/ELSA-2023-12854.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4DBUQRRPB47TC3NJOUIBVWUGFHBJAFDL/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DFG4P76UHHZEWQ26FWBXG76N2QLKKPZA/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NDAQWHTSVOCOZ5K6KPIWKRT3JX4RTZUR/
@@ -1174,7 +1190,7 @@
     - https://www.qualys.com/2023/10/03/cve-2023-4911/looney-tunables-local-privilege-escalation-glibc-ld-so.txt
     - https://www.qualys.com/cve-2023-4911/
     PublishedDate: '2023-10-03T18:15:00Z'
-    LastModifiedDate: '2023-10-05T03:15:00Z'
+    LastModifiedDate: '2023-10-06T06:15:00Z'
   - VulnerabilityID: CVE-2023-4527
     VendorIDs:
     - RHSA-2023:5453
@@ -1202,9 +1218,16 @@
         V3Score: 6.5
     References:
     - http://www.openwall.com/lists/oss-security/2023/09/25/1
+    - https://access.redhat.com/errata/RHSA-2023:5453
+    - https://access.redhat.com/errata/RHSA-2023:5455
     - https://access.redhat.com/security/cve/CVE-2023-4527
+    - https://bugzilla.redhat.com/2234712
+    - https://bugzilla.redhat.com/2237782
+    - https://bugzilla.redhat.com/2237798
+    - https://bugzilla.redhat.com/2238352
     - https://bugzilla.redhat.com/show_bug.cgi?id=2234712
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4527
+    - https://errata.almalinux.org/9/ALSA-2023-5453.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4DBUQRRPB47TC3NJOUIBVWUGFHBJAFDL/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DFG4P76UHHZEWQ26FWBXG76N2QLKKPZA/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NDAQWHTSVOCOZ5K6KPIWKRT3JX4RTZUR/
@@ -1213,7 +1236,7 @@
     - https://ubuntu.com/security/notices/USN-6409-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4527
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-10-04T19:15:00Z'
+    LastModifiedDate: '2023-10-05T16:15:00Z'
   - VulnerabilityID: CVE-2023-4806
     VendorIDs:
     - RHSA-2023:5453
@@ -1244,8 +1267,15 @@
     - http://www.openwall.com/lists/oss-security/2023/10/03/5
     - http://www.openwall.com/lists/oss-security/2023/10/03/6
     - http://www.openwall.com/lists/oss-security/2023/10/03/8
+    - https://access.redhat.com/errata/RHSA-2023:5453
+    - https://access.redhat.com/errata/RHSA-2023:5455
     - https://access.redhat.com/security/cve/CVE-2023-4806
+    - https://bugzilla.redhat.com/2234712
+    - https://bugzilla.redhat.com/2237782
+    - https://bugzilla.redhat.com/2237798
+    - https://bugzilla.redhat.com/2238352
     - https://bugzilla.redhat.com/show_bug.cgi?id=2237782
+    - https://errata.almalinux.org/9/ALSA-2023-5453.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4DBUQRRPB47TC3NJOUIBVWUGFHBJAFDL/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DFG4P76UHHZEWQ26FWBXG76N2QLKKPZA/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NDAQWHTSVOCOZ5K6KPIWKRT3JX4RTZUR/
@@ -1253,7 +1283,7 @@
     - https://security.gentoo.org/glsa/202310-03
     - https://www.cve.org/CVERecord?id=CVE-2023-4806
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-10-04T19:15:00Z'
+    LastModifiedDate: '2023-10-05T16:15:00Z'
   - VulnerabilityID: CVE-2023-4813
     VendorIDs:
     - RHSA-2023:5453
@@ -1281,47 +1311,19 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2023/10/03/8
+    - https://access.redhat.com/errata/RHSA-2023:5453
+    - https://access.redhat.com/errata/RHSA-2023:5455
     - https://access.redhat.com/security/cve/CVE-2023-4813
+    - https://bugzilla.redhat.com/2234712
+    - https://bugzilla.redhat.com/2237782
+    - https://bugzilla.redhat.com/2237798
+    - https://bugzilla.redhat.com/2238352
     - https://bugzilla.redhat.com/show_bug.cgi?id=2237798
+    - https://errata.almalinux.org/9/ALSA-2023-5453.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
     - https://www.cve.org/CVERecord?id=CVE-2023-4813
     PublishedDate: '2023-09-12T22:15:00Z'
-    LastModifiedDate: '2023-10-04T00:15:00Z'
-  - VulnerabilityID: CVE-2023-5156
-    PkgID: glibc-common@2.34-60.el9.x86_64
-    PkgName: glibc-common
-    InstalledVersion: 2.34-60.el9
-    Status: affected
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5156
-    Title: DoS due to memory leak in getaddrinfo.c
-    Description: A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-401
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2023/10/03/4
-    - http://www.openwall.com/lists/oss-security/2023/10/03/5
-    - http://www.openwall.com/lists/oss-security/2023/10/03/6
-    - http://www.openwall.com/lists/oss-security/2023/10/03/8
-    - https://access.redhat.com/security/cve/CVE-2023-5156
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2240541
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-5156
-    - https://sourceware.org/bugzilla/show_bug.cgi?id=30884
-    - https://sourceware.org/git/?p=glibc.git;a=commitdiff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
-    - https://www.cve.org/CVERecord?id=CVE-2023-5156
-    PublishedDate: '2023-09-25T16:15:00Z'
-    LastModifiedDate: '2023-10-04T00:15:00Z'
+    LastModifiedDate: '2023-10-05T16:15:00Z'
   - VulnerabilityID: CVE-2023-4911
     VendorIDs:
     - RHSA-2023:5453
@@ -1338,19 +1340,34 @@
     Title: buffer overflow in ld.so leading to privilege escalation
     Description: A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.
     Severity: HIGH
+    CweIDs:
+    - CWE-787
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://seclists.org/fulldisclosure/2023/Oct/11
     - http://www.openwall.com/lists/oss-security/2023/10/03/2
     - http://www.openwall.com/lists/oss-security/2023/10/03/3
     - http://www.openwall.com/lists/oss-security/2023/10/05/1
+    - https://access.redhat.com/errata/RHSA-2023:5453
+    - https://access.redhat.com/errata/RHSA-2023:5454
+    - https://access.redhat.com/errata/RHSA-2023:5455
+    - https://access.redhat.com/errata/RHSA-2023:5476
     - https://access.redhat.com/security/cve/CVE-2023-4911
+    - https://bugzilla.redhat.com/2234712
+    - https://bugzilla.redhat.com/2237782
+    - https://bugzilla.redhat.com/2237798
+    - https://bugzilla.redhat.com/2238352
     - https://bugzilla.redhat.com/show_bug.cgi?id=2238352
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4911
+    - https://errata.almalinux.org/9/ALSA-2023-5453.html
     - https://linux.oracle.com/cve/CVE-2023-4911.html
-    - https://linux.oracle.com/errata/ELSA-2023-12851.html
+    - https://linux.oracle.com/errata/ELSA-2023-12854.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4DBUQRRPB47TC3NJOUIBVWUGFHBJAFDL/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DFG4P76UHHZEWQ26FWBXG76N2QLKKPZA/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NDAQWHTSVOCOZ5K6KPIWKRT3JX4RTZUR/
@@ -1362,7 +1379,7 @@
     - https://www.qualys.com/2023/10/03/cve-2023-4911/looney-tunables-local-privilege-escalation-glibc-ld-so.txt
     - https://www.qualys.com/cve-2023-4911/
     PublishedDate: '2023-10-03T18:15:00Z'
-    LastModifiedDate: '2023-10-05T03:15:00Z'
+    LastModifiedDate: '2023-10-06T06:15:00Z'
   - VulnerabilityID: CVE-2023-4527
     VendorIDs:
     - RHSA-2023:5453
@@ -1390,9 +1407,16 @@
         V3Score: 6.5
     References:
     - http://www.openwall.com/lists/oss-security/2023/09/25/1
+    - https://access.redhat.com/errata/RHSA-2023:5453
+    - https://access.redhat.com/errata/RHSA-2023:5455
     - https://access.redhat.com/security/cve/CVE-2023-4527
+    - https://bugzilla.redhat.com/2234712
+    - https://bugzilla.redhat.com/2237782
+    - https://bugzilla.redhat.com/2237798
+    - https://bugzilla.redhat.com/2238352
     - https://bugzilla.redhat.com/show_bug.cgi?id=2234712
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4527
+    - https://errata.almalinux.org/9/ALSA-2023-5453.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4DBUQRRPB47TC3NJOUIBVWUGFHBJAFDL/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DFG4P76UHHZEWQ26FWBXG76N2QLKKPZA/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NDAQWHTSVOCOZ5K6KPIWKRT3JX4RTZUR/
@@ -1401,7 +1425,7 @@
     - https://ubuntu.com/security/notices/USN-6409-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4527
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-10-04T19:15:00Z'
+    LastModifiedDate: '2023-10-05T16:15:00Z'
   - VulnerabilityID: CVE-2023-4806
     VendorIDs:
     - RHSA-2023:5453
@@ -1432,8 +1456,15 @@
     - http://www.openwall.com/lists/oss-security/2023/10/03/5
     - http://www.openwall.com/lists/oss-security/2023/10/03/6
     - http://www.openwall.com/lists/oss-security/2023/10/03/8
+    - https://access.redhat.com/errata/RHSA-2023:5453
+    - https://access.redhat.com/errata/RHSA-2023:5455
     - https://access.redhat.com/security/cve/CVE-2023-4806
+    - https://bugzilla.redhat.com/2234712
+    - https://bugzilla.redhat.com/2237782
+    - https://bugzilla.redhat.com/2237798
+    - https://bugzilla.redhat.com/2238352
     - https://bugzilla.redhat.com/show_bug.cgi?id=2237782
+    - https://errata.almalinux.org/9/ALSA-2023-5453.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4DBUQRRPB47TC3NJOUIBVWUGFHBJAFDL/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DFG4P76UHHZEWQ26FWBXG76N2QLKKPZA/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NDAQWHTSVOCOZ5K6KPIWKRT3JX4RTZUR/
@@ -1441,7 +1472,7 @@
     - https://security.gentoo.org/glsa/202310-03
     - https://www.cve.org/CVERecord?id=CVE-2023-4806
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-10-04T19:15:00Z'
+    LastModifiedDate: '2023-10-05T16:15:00Z'
   - VulnerabilityID: CVE-2023-4813
     VendorIDs:
     - RHSA-2023:5453
@@ -1469,47 +1500,19 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2023/10/03/8
+    - https://access.redhat.com/errata/RHSA-2023:5453
+    - https://access.redhat.com/errata/RHSA-2023:5455
     - https://access.redhat.com/security/cve/CVE-2023-4813
+    - https://bugzilla.redhat.com/2234712
+    - https://bugzilla.redhat.com/2237782
+    - https://bugzilla.redhat.com/2237798
+    - https://bugzilla.redhat.com/2238352
     - https://bugzilla.redhat.com/show_bug.cgi?id=2237798
+    - https://errata.almalinux.org/9/ALSA-2023-5453.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
     - https://www.cve.org/CVERecord?id=CVE-2023-4813
     PublishedDate: '2023-09-12T22:15:00Z'
-    LastModifiedDate: '2023-10-04T00:15:00Z'
-  - VulnerabilityID: CVE-2023-5156
-    PkgID: glibc-minimal-langpack@2.34-60.el9.x86_64
-    PkgName: glibc-minimal-langpack
-    InstalledVersion: 2.34-60.el9
-    Status: affected
-    Layer:
-      Digest: sha256:62742f27dce5ebff467a57ad6bfa680820f3bc534cc313627f8113246276bf0f
-      DiffID: sha256:8ed77c26f435056ec36532ec08d271f276190e7e8e7055ef62d24ba202202e19
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5156
-    Title: DoS due to memory leak in getaddrinfo.c
-    Description: A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-401
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2023/10/03/4
-    - http://www.openwall.com/lists/oss-security/2023/10/03/5
-    - http://www.openwall.com/lists/oss-security/2023/10/03/6
-    - http://www.openwall.com/lists/oss-security/2023/10/03/8
-    - https://access.redhat.com/security/cve/CVE-2023-5156
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2240541
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-5156
-    - https://sourceware.org/bugzilla/show_bug.cgi?id=30884
-    - https://sourceware.org/git/?p=glibc.git;a=commitdiff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
-    - https://www.cve.org/CVERecord?id=CVE-2023-5156
-    PublishedDate: '2023-09-25T16:15:00Z'
-    LastModifiedDate: '2023-10-04T00:15:00Z'
+    LastModifiedDate: '2023-10-05T16:15:00Z'
   - VulnerabilityID: CVE-2021-43618
     PkgID: gmp@6.2.0-10.el9.x86_64
     PkgName: gmp
@@ -3646,7 +3649,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
         V3Score: 8.6
     References:
+    - https://access.redhat.com/errata/RHSA-2023:5462
     - https://access.redhat.com/security/cve/CVE-2023-40217
+    - https://bugzilla.redhat.com/2235789
+    - https://errata.almalinux.org/9/ALSA-2023-5462.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
@@ -3914,7 +3920,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
         V3Score: 8.6
     References:
+    - https://access.redhat.com/errata/RHSA-2023:5462
     - https://access.redhat.com/security/cve/CVE-2023-40217
+    - https://bugzilla.redhat.com/2235789
+    - https://errata.almalinux.org/9/ALSA-2023-5462.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
@@ -4182,7 +4191,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
         V3Score: 8.6
     References:
+    - https://access.redhat.com/errata/RHSA-2023:5462
     - https://access.redhat.com/security/cve/CVE-2023-40217
+    - https://bugzilla.redhat.com/2235789
+    - https://errata.almalinux.org/9/ALSA-2023-5462.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
