@@ -417,6 +417,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5WHEJIYMMAIXU2EC35MGTB5LGGO2FFJE/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5WVS4I7JG3LISFPKTM6ADKJXXEPEEWBQ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AMYDKIE4PSJDEMC5OWNFCDMHFGLJ57XG/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PXPVADB56NMLJWG4IZ3OZBNJ2ZOLPQJ6/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/T2GSPQAFK2Z6L57TRXEKZDF42K2EVBH7/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4504
     - https://takeonme.org/cves/CVE-2023-4504.html
@@ -425,7 +426,7 @@
     - https://ubuntu.com/security/notices/USN-6392-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4504
     PublishedDate: '2023-09-21T23:15:00Z'
-    LastModifiedDate: '2023-09-30T20:15:00Z'
+    LastModifiedDate: '2023-10-07T03:15:00Z'
   - VulnerabilityID: CVE-2021-25317
     PkgID: cups-libs@2.3.3op2-16.el9.x86_64
     PkgName: cups-libs
@@ -972,6 +973,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://packetstormsecurity.com/files/174986/glibc-ld.so-Local-Privilege-Escalation.html
     - http://seclists.org/fulldisclosure/2023/Oct/11
     - http://www.openwall.com/lists/oss-security/2023/10/03/2
     - http://www.openwall.com/lists/oss-security/2023/10/03/3
@@ -1001,7 +1003,7 @@
     - https://www.qualys.com/2023/10/03/cve-2023-4911/looney-tunables-local-privilege-escalation-glibc-ld-so.txt
     - https://www.qualys.com/cve-2023-4911/
     PublishedDate: '2023-10-03T18:15:00Z'
-    LastModifiedDate: '2023-10-06T06:15:00Z'
+    LastModifiedDate: '2023-10-06T17:15:00Z'
   - VulnerabilityID: CVE-2023-4527
     VendorIDs:
     - RHSA-2023:5453
@@ -1161,6 +1163,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://packetstormsecurity.com/files/174986/glibc-ld.so-Local-Privilege-Escalation.html
     - http://seclists.org/fulldisclosure/2023/Oct/11
     - http://www.openwall.com/lists/oss-security/2023/10/03/2
     - http://www.openwall.com/lists/oss-security/2023/10/03/3
@@ -1190,7 +1193,7 @@
     - https://www.qualys.com/2023/10/03/cve-2023-4911/looney-tunables-local-privilege-escalation-glibc-ld-so.txt
     - https://www.qualys.com/cve-2023-4911/
     PublishedDate: '2023-10-03T18:15:00Z'
-    LastModifiedDate: '2023-10-06T06:15:00Z'
+    LastModifiedDate: '2023-10-06T17:15:00Z'
   - VulnerabilityID: CVE-2023-4527
     VendorIDs:
     - RHSA-2023:5453
@@ -1350,6 +1353,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://packetstormsecurity.com/files/174986/glibc-ld.so-Local-Privilege-Escalation.html
     - http://seclists.org/fulldisclosure/2023/Oct/11
     - http://www.openwall.com/lists/oss-security/2023/10/03/2
     - http://www.openwall.com/lists/oss-security/2023/10/03/3
@@ -1379,7 +1383,7 @@
     - https://www.qualys.com/2023/10/03/cve-2023-4911/looney-tunables-local-privilege-escalation-glibc-ld-so.txt
     - https://www.qualys.com/cve-2023-4911/
     PublishedDate: '2023-10-03T18:15:00Z'
-    LastModifiedDate: '2023-10-06T06:15:00Z'
+    LastModifiedDate: '2023-10-06T17:15:00Z'
   - VulnerabilityID: CVE-2023-4527
     VendorIDs:
     - RHSA-2023:5453
@@ -3656,10 +3660,11 @@
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
+    - https://security.netapp.com/advisory/ntap-20231006-0014/
     - https://www.cve.org/CVERecord?id=CVE-2023-40217
     - https://www.python.org/dev/security/
     PublishedDate: '2023-08-25T01:15:00Z'
-    LastModifiedDate: '2023-09-20T22:15:00Z'
+    LastModifiedDate: '2023-10-06T15:15:00Z'
   - VulnerabilityID: CVE-2007-4559
     PkgID: python-unversioned-command@3.9.16-1.el9_2.1.noarch
     PkgName: python-unversioned-command
@@ -3927,10 +3932,11 @@
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
+    - https://security.netapp.com/advisory/ntap-20231006-0014/
     - https://www.cve.org/CVERecord?id=CVE-2023-40217
     - https://www.python.org/dev/security/
     PublishedDate: '2023-08-25T01:15:00Z'
-    LastModifiedDate: '2023-09-20T22:15:00Z'
+    LastModifiedDate: '2023-10-06T15:15:00Z'
   - VulnerabilityID: CVE-2007-4559
     PkgID: python3@3.9.16-1.el9_2.1.x86_64
     PkgName: python3
@@ -4198,10 +4204,11 @@
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
+    - https://security.netapp.com/advisory/ntap-20231006-0014/
     - https://www.cve.org/CVERecord?id=CVE-2023-40217
     - https://www.python.org/dev/security/
     PublishedDate: '2023-08-25T01:15:00Z'
-    LastModifiedDate: '2023-09-20T22:15:00Z'
+    LastModifiedDate: '2023-10-06T15:15:00Z'
   - VulnerabilityID: CVE-2007-4559
     PkgID: python3-libs@3.9.16-1.el9_2.1.x86_64
     PkgName: python3-libs
