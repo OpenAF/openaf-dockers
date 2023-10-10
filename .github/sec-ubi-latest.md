@@ -608,24 +608,29 @@
 │                       │       │                  │       -27536 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2179092 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2196786 
-│                       │       │                  ├ [4] : https://curl.se/docs/CVE-2023-27536.html 
-│                       │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2179092 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2196786 
+│                       │       │                  ├ [6] : https://curl.se/docs/CVE-2023-27536.html 
+│                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2023-27536 
-│                       │       │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2023-4523.html 
-│                       │       │                  ├ [7] : https://hackerone.com/reports/1895135 
-│                       │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-27536.html 
-│                       │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4523.html 
-│                       │       │                  ├ [10]: https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-28321 
+│                       │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2023-4523.html 
+│                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2023:4523 
+│                       │       │                  ├ [11]: https://hackerone.com/reports/1895135 
+│                       │       │                  ├ [12]: https://linux.oracle.com/cve/CVE-2023-27536.html 
+│                       │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2023-4523.html 
+│                       │       │                  ├ [14]: https://lists.debian.org/debian-lts-announce/20
 │                       │       │                  │       23/04/msg00025.html 
-│                       │       │                  ├ [11]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/36NB
 │                       │       │                  │       D5YLJXXEDZLDGNFCERWRYJQ6LAQW/ 
-│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-27536 
-│                       │       │                  ├ [13]: https://security.netapp.com/advisory/ntap-20230
+│                       │       │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2023-27536 
+│                       │       │                  ├ [17]: https://security.netapp.com/advisory/ntap-20230
 │                       │       │                  │       420-0010/ 
-│                       │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-5964-1 
-│                       │       │                  ├ [15]: https://ubuntu.com/security/notices/USN-5964-2 
-│                       │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-27536 
+│                       │       │                  ├ [18]: https://ubuntu.com/security/notices/USN-5964-1 
+│                       │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-5964-2 
+│                       │       │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-27536 
 │                       │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-06-06T20:34:00Z 
 │                       ├ [15]  ╭ VulnerabilityID : CVE-2023-28321 
@@ -674,28 +679,33 @@
 │                       │       │                  │       -28321 
 │                       │       │                  ├ [5] : https://bugzilla.redhat.com/2196786 
 │                       │       │                  ├ [6] : https://bugzilla.redhat.com/2196793 
-│                       │       │                  ├ [7] : https://curl.se/docs/CVE-2023-28321.html 
-│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2179092 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2196786 
+│                       │       │                  ├ [9] : https://curl.se/docs/CVE-2023-28321.html 
+│                       │       │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-27536 
+│                       │       │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2023-28321 
-│                       │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-4354.html 
-│                       │       │                  ├ [10]: https://hackerone.com/reports/1950627 
-│                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-28321.html 
-│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2023-4523.html 
-│                       │       │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2023-4354.html 
+│                       │       │                  ├ [13]: https://errata.rockylinux.org/RLSA-2023:4523 
+│                       │       │                  ├ [14]: https://hackerone.com/reports/1950627 
+│                       │       │                  ├ [15]: https://linux.oracle.com/cve/CVE-2023-28321.html 
+│                       │       │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2023-4523.html 
+│                       │       │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/F4I7
 │                       │       │                  │       5RDGX5ULSSCBE5BF3P5I5SFO7ULQ/ 
-│                       │       │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/Z2LI
 │                       │       │                  │       WHWKOVH24COGGBCVOWDXXIUPKOMK/ 
-│                       │       │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2023-28321 
-│                       │       │                  ├ [16]: https://security.netapp.com/advisory/ntap-20230
+│                       │       │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-28321 
+│                       │       │                  ├ [20]: https://security.netapp.com/advisory/ntap-20230
 │                       │       │                  │       609-0009/ 
-│                       │       │                  ├ [17]: https://support.apple.com/kb/HT213843 
-│                       │       │                  ├ [18]: https://support.apple.com/kb/HT213844 
-│                       │       │                  ├ [19]: https://support.apple.com/kb/HT213845 
-│                       │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-6237-1 
-│                       │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-6237-3 
-│                       │       │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-28321 
+│                       │       │                  ├ [21]: https://support.apple.com/kb/HT213843 
+│                       │       │                  ├ [22]: https://support.apple.com/kb/HT213844 
+│                       │       │                  ├ [23]: https://support.apple.com/kb/HT213845 
+│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-6237-1 
+│                       │       │                  ├ [25]: https://ubuntu.com/security/notices/USN-6237-3 
+│                       │       │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-28321 
 │                       │       ├ PublishedDate   : 2023-05-26T21:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-08-02T16:46:00Z 
 │                       ├ [16]  ╭ VulnerabilityID : CVE-2023-27533 
@@ -1224,30 +1234,40 @@
 │                       │       │                  ├ [11]: https://bugzilla.redhat.com/2237782 
 │                       │       │                  ├ [12]: https://bugzilla.redhat.com/2237798 
 │                       │       │                  ├ [13]: https://bugzilla.redhat.com/2238352 
-│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
-│                       │       │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
+│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
+│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │       │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4527 
+│                       │       │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4806 
+│                       │       │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4813 
+│                       │       │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2023-4911 
-│                       │       │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
-│                       │       │                  ├ [17]: https://linux.oracle.com/cve/CVE-2023-4911.html 
-│                       │       │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2023-12854.html 
-│                       │       │                  ├ [19]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
+│                       │       │                  ├ [23]: https://errata.rockylinux.org/RLSA-2023:5455 
+│                       │       │                  ├ [24]: https://linux.oracle.com/cve/CVE-2023-4911.html 
+│                       │       │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2023-12854.html 
+│                       │       │                  ├ [26]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/4DBU
 │                       │       │                  │       QRRPB47TC3NJOUIBVWUGFHBJAFDL/ 
-│                       │       │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [27]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DFG4
 │                       │       │                  │       P76UHHZEWQ26FWBXG76N2QLKKPZA/ 
-│                       │       │                  ├ [21]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [28]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/NDAQ
 │                       │       │                  │       WHTSVOCOZ5K6KPIWKRT3JX4RTZUR/ 
-│                       │       │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
-│                       │       │                  ├ [23]: https://security.gentoo.org/glsa/202310-03 
-│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-6409-1 
-│                       │       │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
-│                       │       │                  ├ [26]: https://www.debian.org/security/2023/dsa-5514 
-│                       │       │                  ├ [27]: https://www.qualys.com/2023/10/03/cve-2023-4911
+│                       │       │                  ├ [29]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
+│                       │       │                  ├ [30]: https://security.gentoo.org/glsa/202310-03 
+│                       │       │                  ├ [31]: https://ubuntu.com/security/notices/USN-6409-1 
+│                       │       │                  ├ [32]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
+│                       │       │                  ├ [33]: https://www.debian.org/security/2023/dsa-5514 
+│                       │       │                  ├ [34]: https://www.qualys.com/2023/10/03/cve-2023-4911
 │                       │       │                  │       /looney-tunables-local-privilege-escalation-glibc-ld
 │                       │       │                  │       -so.txt 
-│                       │       │                  ╰ [28]: https://www.qualys.com/cve-2023-4911/ 
+│                       │       │                  ╰ [35]: https://www.qualys.com/cve-2023-4911/ 
 │                       │       ├ PublishedDate   : 2023-10-03T18:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-10-06T17:15:00Z 
 │                       ├ [28]  ╭ VulnerabilityID : CVE-2023-4527 
@@ -1289,22 +1309,32 @@
 │                       │       │                  ├ [6] : https://bugzilla.redhat.com/2237798 
 │                       │       │                  ├ [7] : https://bugzilla.redhat.com/2238352 
 │                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
-│                       │       │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │       │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2023-4527 
-│                       │       │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
-│                       │       │                  ├ [11]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4806 
+│                       │       │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4813 
+│                       │       │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4911 
+│                       │       │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
+│                       │       │                  ├ [17]: https://errata.rockylinux.org/RLSA-2023:5455 
+│                       │       │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/4DBU
 │                       │       │                  │       QRRPB47TC3NJOUIBVWUGFHBJAFDL/ 
-│                       │       │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [19]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DFG4
 │                       │       │                  │       P76UHHZEWQ26FWBXG76N2QLKKPZA/ 
-│                       │       │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/NDAQ
 │                       │       │                  │       WHTSVOCOZ5K6KPIWKRT3JX4RTZUR/ 
-│                       │       │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
-│                       │       │                  ├ [15]: https://security.gentoo.org/glsa/202310-03 
-│                       │       │                  ├ [16]: https://ubuntu.com/security/notices/USN-6409-1 
-│                       │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
+│                       │       │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
+│                       │       │                  ├ [22]: https://security.gentoo.org/glsa/202310-03 
+│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-6409-1 
+│                       │       │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-10-05T16:15:00Z 
 │                       ├ [29]  ╭ VulnerabilityID : CVE-2023-4806 
@@ -1354,20 +1384,32 @@
 │                       │       │                  ├ [8] : https://bugzilla.redhat.com/2237782 
 │                       │       │                  ├ [9] : https://bugzilla.redhat.com/2237798 
 │                       │       │                  ├ [10]: https://bugzilla.redhat.com/2238352 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
-│                       │       │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
-│                       │       │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │       │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4527 
+│                       │       │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4806 
+│                       │       │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4813 
+│                       │       │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4911 
+│                       │       │                  ├ [19]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
+│                       │       │                  ├ [20]: https://errata.rockylinux.org/RLSA-2023:5455 
+│                       │       │                  ├ [21]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/4DBU
 │                       │       │                  │       QRRPB47TC3NJOUIBVWUGFHBJAFDL/ 
-│                       │       │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [22]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DFG4
 │                       │       │                  │       P76UHHZEWQ26FWBXG76N2QLKKPZA/ 
-│                       │       │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/NDAQ
 │                       │       │                  │       WHTSVOCOZ5K6KPIWKRT3JX4RTZUR/ 
-│                       │       │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
-│                       │       │                  ├ [17]: https://security.gentoo.org/glsa/202310-03 
-│                       │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
+│                       │       │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
+│                       │       │                  ├ [25]: https://security.gentoo.org/glsa/202310-03 
+│                       │       │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-10-05T16:15:00Z 
 │                       ├ [30]  ╭ VulnerabilityID : CVE-2023-4813 
@@ -1407,10 +1449,22 @@
 │                       │       │                  ├ [5] : https://bugzilla.redhat.com/2237782 
 │                       │       │                  ├ [6] : https://bugzilla.redhat.com/2237798 
 │                       │       │                  ├ [7] : https://bugzilla.redhat.com/2238352 
-│                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
-│                       │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-5453.html 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
-│                       │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │       │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4527 
+│                       │       │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4806 
+│                       │       │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4813 
+│                       │       │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4911 
+│                       │       │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
+│                       │       │                  ├ [17]: https://errata.rockylinux.org/RLSA-2023:5455 
+│                       │       │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
+│                       │       │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
 │                       │       ├ PublishedDate   : 2023-09-12T22:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-10-05T16:15:00Z 
 │                       ├ [31]  ╭ VulnerabilityID : CVE-2023-4911 
@@ -1460,30 +1514,40 @@
 │                       │       │                  ├ [11]: https://bugzilla.redhat.com/2237782 
 │                       │       │                  ├ [12]: https://bugzilla.redhat.com/2237798 
 │                       │       │                  ├ [13]: https://bugzilla.redhat.com/2238352 
-│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
-│                       │       │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
+│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
+│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │       │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4527 
+│                       │       │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4806 
+│                       │       │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4813 
+│                       │       │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2023-4911 
-│                       │       │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
-│                       │       │                  ├ [17]: https://linux.oracle.com/cve/CVE-2023-4911.html 
-│                       │       │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2023-12854.html 
-│                       │       │                  ├ [19]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
+│                       │       │                  ├ [23]: https://errata.rockylinux.org/RLSA-2023:5455 
+│                       │       │                  ├ [24]: https://linux.oracle.com/cve/CVE-2023-4911.html 
+│                       │       │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2023-12854.html 
+│                       │       │                  ├ [26]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/4DBU
 │                       │       │                  │       QRRPB47TC3NJOUIBVWUGFHBJAFDL/ 
-│                       │       │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [27]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DFG4
 │                       │       │                  │       P76UHHZEWQ26FWBXG76N2QLKKPZA/ 
-│                       │       │                  ├ [21]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [28]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/NDAQ
 │                       │       │                  │       WHTSVOCOZ5K6KPIWKRT3JX4RTZUR/ 
-│                       │       │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
-│                       │       │                  ├ [23]: https://security.gentoo.org/glsa/202310-03 
-│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-6409-1 
-│                       │       │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
-│                       │       │                  ├ [26]: https://www.debian.org/security/2023/dsa-5514 
-│                       │       │                  ├ [27]: https://www.qualys.com/2023/10/03/cve-2023-4911
+│                       │       │                  ├ [29]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
+│                       │       │                  ├ [30]: https://security.gentoo.org/glsa/202310-03 
+│                       │       │                  ├ [31]: https://ubuntu.com/security/notices/USN-6409-1 
+│                       │       │                  ├ [32]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
+│                       │       │                  ├ [33]: https://www.debian.org/security/2023/dsa-5514 
+│                       │       │                  ├ [34]: https://www.qualys.com/2023/10/03/cve-2023-4911
 │                       │       │                  │       /looney-tunables-local-privilege-escalation-glibc-ld
 │                       │       │                  │       -so.txt 
-│                       │       │                  ╰ [28]: https://www.qualys.com/cve-2023-4911/ 
+│                       │       │                  ╰ [35]: https://www.qualys.com/cve-2023-4911/ 
 │                       │       ├ PublishedDate   : 2023-10-03T18:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-10-06T17:15:00Z 
 │                       ├ [32]  ╭ VulnerabilityID : CVE-2023-4527 
@@ -1525,22 +1589,32 @@
 │                       │       │                  ├ [6] : https://bugzilla.redhat.com/2237798 
 │                       │       │                  ├ [7] : https://bugzilla.redhat.com/2238352 
 │                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
-│                       │       │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │       │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2023-4527 
-│                       │       │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
-│                       │       │                  ├ [11]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4806 
+│                       │       │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4813 
+│                       │       │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4911 
+│                       │       │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
+│                       │       │                  ├ [17]: https://errata.rockylinux.org/RLSA-2023:5455 
+│                       │       │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/4DBU
 │                       │       │                  │       QRRPB47TC3NJOUIBVWUGFHBJAFDL/ 
-│                       │       │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [19]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DFG4
 │                       │       │                  │       P76UHHZEWQ26FWBXG76N2QLKKPZA/ 
-│                       │       │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/NDAQ
 │                       │       │                  │       WHTSVOCOZ5K6KPIWKRT3JX4RTZUR/ 
-│                       │       │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
-│                       │       │                  ├ [15]: https://security.gentoo.org/glsa/202310-03 
-│                       │       │                  ├ [16]: https://ubuntu.com/security/notices/USN-6409-1 
-│                       │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
+│                       │       │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
+│                       │       │                  ├ [22]: https://security.gentoo.org/glsa/202310-03 
+│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-6409-1 
+│                       │       │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-10-05T16:15:00Z 
 │                       ├ [33]  ╭ VulnerabilityID : CVE-2023-4806 
@@ -1590,20 +1664,32 @@
 │                       │       │                  ├ [8] : https://bugzilla.redhat.com/2237782 
 │                       │       │                  ├ [9] : https://bugzilla.redhat.com/2237798 
 │                       │       │                  ├ [10]: https://bugzilla.redhat.com/2238352 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
-│                       │       │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
-│                       │       │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │       │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4527 
+│                       │       │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4806 
+│                       │       │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4813 
+│                       │       │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4911 
+│                       │       │                  ├ [19]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
+│                       │       │                  ├ [20]: https://errata.rockylinux.org/RLSA-2023:5455 
+│                       │       │                  ├ [21]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/4DBU
 │                       │       │                  │       QRRPB47TC3NJOUIBVWUGFHBJAFDL/ 
-│                       │       │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [22]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DFG4
 │                       │       │                  │       P76UHHZEWQ26FWBXG76N2QLKKPZA/ 
-│                       │       │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/NDAQ
 │                       │       │                  │       WHTSVOCOZ5K6KPIWKRT3JX4RTZUR/ 
-│                       │       │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
-│                       │       │                  ├ [17]: https://security.gentoo.org/glsa/202310-03 
-│                       │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
+│                       │       │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
+│                       │       │                  ├ [25]: https://security.gentoo.org/glsa/202310-03 
+│                       │       │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-10-05T16:15:00Z 
 │                       ├ [34]  ╭ VulnerabilityID : CVE-2023-4813 
@@ -1643,10 +1729,22 @@
 │                       │       │                  ├ [5] : https://bugzilla.redhat.com/2237782 
 │                       │       │                  ├ [6] : https://bugzilla.redhat.com/2237798 
 │                       │       │                  ├ [7] : https://bugzilla.redhat.com/2238352 
-│                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
-│                       │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-5453.html 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
-│                       │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │       │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4527 
+│                       │       │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4806 
+│                       │       │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4813 
+│                       │       │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4911 
+│                       │       │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
+│                       │       │                  ├ [17]: https://errata.rockylinux.org/RLSA-2023:5455 
+│                       │       │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
+│                       │       │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
 │                       │       ├ PublishedDate   : 2023-09-12T22:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-10-05T16:15:00Z 
 │                       ├ [35]  ╭ VulnerabilityID : CVE-2023-4911 
@@ -1696,30 +1794,40 @@
 │                       │       │                  ├ [11]: https://bugzilla.redhat.com/2237782 
 │                       │       │                  ├ [12]: https://bugzilla.redhat.com/2237798 
 │                       │       │                  ├ [13]: https://bugzilla.redhat.com/2238352 
-│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
-│                       │       │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
+│                       │       │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+│                       │       │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
+│                       │       │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │       │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4527 
+│                       │       │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4806 
+│                       │       │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4813 
+│                       │       │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2023-4911 
-│                       │       │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
-│                       │       │                  ├ [17]: https://linux.oracle.com/cve/CVE-2023-4911.html 
-│                       │       │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2023-12854.html 
-│                       │       │                  ├ [19]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
+│                       │       │                  ├ [23]: https://errata.rockylinux.org/RLSA-2023:5455 
+│                       │       │                  ├ [24]: https://linux.oracle.com/cve/CVE-2023-4911.html 
+│                       │       │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2023-12854.html 
+│                       │       │                  ├ [26]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/4DBU
 │                       │       │                  │       QRRPB47TC3NJOUIBVWUGFHBJAFDL/ 
-│                       │       │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [27]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DFG4
 │                       │       │                  │       P76UHHZEWQ26FWBXG76N2QLKKPZA/ 
-│                       │       │                  ├ [21]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [28]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/NDAQ
 │                       │       │                  │       WHTSVOCOZ5K6KPIWKRT3JX4RTZUR/ 
-│                       │       │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
-│                       │       │                  ├ [23]: https://security.gentoo.org/glsa/202310-03 
-│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-6409-1 
-│                       │       │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
-│                       │       │                  ├ [26]: https://www.debian.org/security/2023/dsa-5514 
-│                       │       │                  ├ [27]: https://www.qualys.com/2023/10/03/cve-2023-4911
+│                       │       │                  ├ [29]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
+│                       │       │                  ├ [30]: https://security.gentoo.org/glsa/202310-03 
+│                       │       │                  ├ [31]: https://ubuntu.com/security/notices/USN-6409-1 
+│                       │       │                  ├ [32]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
+│                       │       │                  ├ [33]: https://www.debian.org/security/2023/dsa-5514 
+│                       │       │                  ├ [34]: https://www.qualys.com/2023/10/03/cve-2023-4911
 │                       │       │                  │       /looney-tunables-local-privilege-escalation-glibc-ld
 │                       │       │                  │       -so.txt 
-│                       │       │                  ╰ [28]: https://www.qualys.com/cve-2023-4911/ 
+│                       │       │                  ╰ [35]: https://www.qualys.com/cve-2023-4911/ 
 │                       │       ├ PublishedDate   : 2023-10-03T18:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-10-06T17:15:00Z 
 │                       ├ [36]  ╭ VulnerabilityID : CVE-2023-4527 
@@ -1761,22 +1869,32 @@
 │                       │       │                  ├ [6] : https://bugzilla.redhat.com/2237798 
 │                       │       │                  ├ [7] : https://bugzilla.redhat.com/2238352 
 │                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
-│                       │       │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │       │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2023-4527 
-│                       │       │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
-│                       │       │                  ├ [11]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4806 
+│                       │       │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4813 
+│                       │       │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4911 
+│                       │       │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
+│                       │       │                  ├ [17]: https://errata.rockylinux.org/RLSA-2023:5455 
+│                       │       │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/4DBU
 │                       │       │                  │       QRRPB47TC3NJOUIBVWUGFHBJAFDL/ 
-│                       │       │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [19]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DFG4
 │                       │       │                  │       P76UHHZEWQ26FWBXG76N2QLKKPZA/ 
-│                       │       │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/NDAQ
 │                       │       │                  │       WHTSVOCOZ5K6KPIWKRT3JX4RTZUR/ 
-│                       │       │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
-│                       │       │                  ├ [15]: https://security.gentoo.org/glsa/202310-03 
-│                       │       │                  ├ [16]: https://ubuntu.com/security/notices/USN-6409-1 
-│                       │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
+│                       │       │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2023-4527 
+│                       │       │                  ├ [22]: https://security.gentoo.org/glsa/202310-03 
+│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-6409-1 
+│                       │       │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2023-4527 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-10-05T16:15:00Z 
 │                       ├ [37]  ╭ VulnerabilityID : CVE-2023-4806 
@@ -1826,20 +1944,32 @@
 │                       │       │                  ├ [8] : https://bugzilla.redhat.com/2237782 
 │                       │       │                  ├ [9] : https://bugzilla.redhat.com/2237798 
 │                       │       │                  ├ [10]: https://bugzilla.redhat.com/2238352 
-│                       │       │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
-│                       │       │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
-│                       │       │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
+│                       │       │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+│                       │       │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
+│                       │       │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │       │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4527 
+│                       │       │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4806 
+│                       │       │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4813 
+│                       │       │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4911 
+│                       │       │                  ├ [19]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
+│                       │       │                  ├ [20]: https://errata.rockylinux.org/RLSA-2023:5455 
+│                       │       │                  ├ [21]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/4DBU
 │                       │       │                  │       QRRPB47TC3NJOUIBVWUGFHBJAFDL/ 
-│                       │       │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [22]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DFG4
 │                       │       │                  │       P76UHHZEWQ26FWBXG76N2QLKKPZA/ 
-│                       │       │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/NDAQ
 │                       │       │                  │       WHTSVOCOZ5K6KPIWKRT3JX4RTZUR/ 
-│                       │       │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
-│                       │       │                  ├ [17]: https://security.gentoo.org/glsa/202310-03 
-│                       │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
+│                       │       │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2023-4806 
+│                       │       │                  ├ [25]: https://security.gentoo.org/glsa/202310-03 
+│                       │       │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-4806 
 │                       │       ├ PublishedDate   : 2023-09-18T17:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-10-05T16:15:00Z 
 │                       ├ [38]  ╭ VulnerabilityID : CVE-2023-4813 
@@ -1879,10 +2009,22 @@
 │                       │       │                  ├ [5] : https://bugzilla.redhat.com/2237782 
 │                       │       │                  ├ [6] : https://bugzilla.redhat.com/2237798 
 │                       │       │                  ├ [7] : https://bugzilla.redhat.com/2238352 
-│                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
-│                       │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-5453.html 
-│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
-│                       │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2234712 
+│                       │       │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2237782 
+│                       │       │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2237798 
+│                       │       │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │       │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4527 
+│                       │       │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4806 
+│                       │       │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4813 
+│                       │       │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-4911 
+│                       │       │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
+│                       │       │                  ├ [17]: https://errata.rockylinux.org/RLSA-2023:5455 
+│                       │       │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
+│                       │       │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
 │                       │       ├ PublishedDate   : 2023-09-12T22:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-10-05T16:15:00Z 
 │                       ├ [39]  ╭ VulnerabilityID : CVE-2021-43618 
@@ -2510,24 +2652,29 @@
 │                       │       │                  │       -27536 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2179092 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2196786 
-│                       │       │                  ├ [4] : https://curl.se/docs/CVE-2023-27536.html 
-│                       │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2179092 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2196786 
+│                       │       │                  ├ [6] : https://curl.se/docs/CVE-2023-27536.html 
+│                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2023-27536 
-│                       │       │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2023-4523.html 
-│                       │       │                  ├ [7] : https://hackerone.com/reports/1895135 
-│                       │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-27536.html 
-│                       │       │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4523.html 
-│                       │       │                  ├ [10]: https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-28321 
+│                       │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2023-4523.html 
+│                       │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2023:4523 
+│                       │       │                  ├ [11]: https://hackerone.com/reports/1895135 
+│                       │       │                  ├ [12]: https://linux.oracle.com/cve/CVE-2023-27536.html 
+│                       │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2023-4523.html 
+│                       │       │                  ├ [14]: https://lists.debian.org/debian-lts-announce/20
 │                       │       │                  │       23/04/msg00025.html 
-│                       │       │                  ├ [11]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/36NB
 │                       │       │                  │       D5YLJXXEDZLDGNFCERWRYJQ6LAQW/ 
-│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-27536 
-│                       │       │                  ├ [13]: https://security.netapp.com/advisory/ntap-20230
+│                       │       │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2023-27536 
+│                       │       │                  ├ [17]: https://security.netapp.com/advisory/ntap-20230
 │                       │       │                  │       420-0010/ 
-│                       │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-5964-1 
-│                       │       │                  ├ [15]: https://ubuntu.com/security/notices/USN-5964-2 
-│                       │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-27536 
+│                       │       │                  ├ [18]: https://ubuntu.com/security/notices/USN-5964-1 
+│                       │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-5964-2 
+│                       │       │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-27536 
 │                       │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-06-06T20:34:00Z 
 │                       ├ [52]  ╭ VulnerabilityID : CVE-2023-28321 
@@ -2576,28 +2723,33 @@
 │                       │       │                  │       -28321 
 │                       │       │                  ├ [5] : https://bugzilla.redhat.com/2196786 
 │                       │       │                  ├ [6] : https://bugzilla.redhat.com/2196793 
-│                       │       │                  ├ [7] : https://curl.se/docs/CVE-2023-28321.html 
-│                       │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2179092 
+│                       │       │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2196786 
+│                       │       │                  ├ [9] : https://curl.se/docs/CVE-2023-28321.html 
+│                       │       │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-27536 
+│                       │       │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2023-28321 
-│                       │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-4354.html 
-│                       │       │                  ├ [10]: https://hackerone.com/reports/1950627 
-│                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-28321.html 
-│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2023-4523.html 
-│                       │       │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2023-4354.html 
+│                       │       │                  ├ [13]: https://errata.rockylinux.org/RLSA-2023:4523 
+│                       │       │                  ├ [14]: https://hackerone.com/reports/1950627 
+│                       │       │                  ├ [15]: https://linux.oracle.com/cve/CVE-2023-28321.html 
+│                       │       │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2023-4523.html 
+│                       │       │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/F4I7
 │                       │       │                  │       5RDGX5ULSSCBE5BF3P5I5SFO7ULQ/ 
-│                       │       │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/Z2LI
 │                       │       │                  │       WHWKOVH24COGGBCVOWDXXIUPKOMK/ 
-│                       │       │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2023-28321 
-│                       │       │                  ├ [16]: https://security.netapp.com/advisory/ntap-20230
+│                       │       │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-28321 
+│                       │       │                  ├ [20]: https://security.netapp.com/advisory/ntap-20230
 │                       │       │                  │       609-0009/ 
-│                       │       │                  ├ [17]: https://support.apple.com/kb/HT213843 
-│                       │       │                  ├ [18]: https://support.apple.com/kb/HT213844 
-│                       │       │                  ├ [19]: https://support.apple.com/kb/HT213845 
-│                       │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-6237-1 
-│                       │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-6237-3 
-│                       │       │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-28321 
+│                       │       │                  ├ [21]: https://support.apple.com/kb/HT213843 
+│                       │       │                  ├ [22]: https://support.apple.com/kb/HT213844 
+│                       │       │                  ├ [23]: https://support.apple.com/kb/HT213845 
+│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-6237-1 
+│                       │       │                  ├ [25]: https://ubuntu.com/security/notices/USN-6237-3 
+│                       │       │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-28321 
 │                       │       ├ PublishedDate   : 2023-05-26T21:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-08-02T16:46:00Z 
 │                       ├ [53]  ╭ VulnerabilityID : CVE-2023-27533 
@@ -3178,26 +3330,31 @@
 │                       │       │                  │       -28484 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2185984 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2185994 
-│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2185984 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2185994 
+│                       │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2023-28484 
-│                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4349.html 
-│                       │       │                  ├ [6] : https://gitlab.gnome.org/GNOME/libxml2/-/commit
+│                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-29469 
+│                       │       │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2023-4349.html 
+│                       │       │                  ├ [9] : https://errata.rockylinux.org/RLSA-2023:4529 
+│                       │       │                  ├ [10]: https://gitlab.gnome.org/GNOME/libxml2/-/commit
 │                       │       │                  │       /4c6922f763ad958c48ff66f82823ae21f2e92ee6 
-│                       │       │                  ├ [7] : https://gitlab.gnome.org/GNOME/libxml2/-/commit
+│                       │       │                  ├ [11]: https://gitlab.gnome.org/GNOME/libxml2/-/commit
 │                       │       │                  │       /647e072ea0a2f12687fa05c172f4c4713fdb0c4f 
-│                       │       │                  ├ [8] : https://gitlab.gnome.org/GNOME/libxml2/-/issues/491 
-│                       │       │                  ├ [9] : https://gitlab.gnome.org/GNOME/libxml2/-/releas
+│                       │       │                  ├ [12]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/491 
+│                       │       │                  ├ [13]: https://gitlab.gnome.org/GNOME/libxml2/-/releas
 │                       │       │                  │       es/v2.10.4 
-│                       │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-28484.html 
-│                       │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2023-4529.html 
-│                       │       │                  ├ [12]: https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  ├ [14]: https://linux.oracle.com/cve/CVE-2023-28484.html 
+│                       │       │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2023-4529.html 
+│                       │       │                  ├ [16]: https://lists.debian.org/debian-lts-announce/20
 │                       │       │                  │       23/04/msg00031.html 
-│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-28484 
-│                       │       │                  ├ [14]: https://security.netapp.com/advisory/ntap-20230
+│                       │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2023-28484 
+│                       │       │                  ├ [18]: https://security.netapp.com/advisory/ntap-20230
 │                       │       │                  │       601-0006/ 
-│                       │       │                  ├ [15]: https://ubuntu.com/security/notices/USN-6028-1 
-│                       │       │                  ├ [16]: https://ubuntu.com/security/notices/USN-6028-2 
-│                       │       │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-28484 
+│                       │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-6028-1 
+│                       │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-6028-2 
+│                       │       │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2023-28484 
 │                       │       ├ PublishedDate   : 2023-04-24T21:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
 │                       ├ [65]  ╭ VulnerabilityID : CVE-2023-29469 
@@ -3235,24 +3392,29 @@
 │                       │       │                  │       -29469 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2185984 
 │                       │       │                  ├ [3] : https://bugzilla.redhat.com/2185994 
-│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2185984 
+│                       │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2185994 
+│                       │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-28484 
+│                       │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2023-29469 
-│                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4349.html 
-│                       │       │                  ├ [6] : https://gitlab.gnome.org/GNOME/libxml2/-/commit
+│                       │       │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2023-4349.html 
+│                       │       │                  ├ [9] : https://errata.rockylinux.org/RLSA-2023:4529 
+│                       │       │                  ├ [10]: https://gitlab.gnome.org/GNOME/libxml2/-/commit
 │                       │       │                  │       /09a2dd453007f9c7205274623acdd73747c22d64 
-│                       │       │                  ├ [7] : https://gitlab.gnome.org/GNOME/libxml2/-/issues/510 
-│                       │       │                  ├ [8] : https://gitlab.gnome.org/GNOME/libxml2/-/releas
+│                       │       │                  ├ [11]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/510 
+│                       │       │                  ├ [12]: https://gitlab.gnome.org/GNOME/libxml2/-/releas
 │                       │       │                  │       es/v2.10.4 
-│                       │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2023-29469.html 
-│                       │       │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2023-4529.html 
-│                       │       │                  ├ [11]: https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  ├ [13]: https://linux.oracle.com/cve/CVE-2023-29469.html 
+│                       │       │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2023-4529.html 
+│                       │       │                  ├ [15]: https://lists.debian.org/debian-lts-announce/20
 │                       │       │                  │       23/04/msg00031.html 
-│                       │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-29469 
-│                       │       │                  ├ [13]: https://security.netapp.com/advisory/ntap-20230
+│                       │       │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2023-29469 
+│                       │       │                  ├ [17]: https://security.netapp.com/advisory/ntap-20230
 │                       │       │                  │       601-0006/ 
-│                       │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-6028-1 
-│                       │       │                  ├ [15]: https://ubuntu.com/security/notices/USN-6028-2 
-│                       │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-29469 
+│                       │       │                  ├ [18]: https://ubuntu.com/security/notices/USN-6028-1 
+│                       │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-6028-2 
+│                       │       │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-29469 
 │                       │       ├ PublishedDate   : 2023-04-24T21:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
 │                       ├ [66]  ╭ VulnerabilityID : CVE-2023-39615 
@@ -4540,20 +4702,25 @@
 │                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/
 │                       │       │                            │           C:N/I:H/A:N 
 │                       │       │                            ╰ V3Score : 8.6 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2023:5462 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-40217 
-│                       │       │                  ├ [2]: https://bugzilla.redhat.com/2235789 
-│                       │       │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2023-5462.html 
-│                       │       │                  ├ [4]: https://lists.debian.org/debian-lts-announce/202
-│                       │       │                  │      3/09/msg00022.html 
-│                       │       │                  ├ [5]: https://mail.python.org/archives/list/security-a
-│                       │       │                  │      nnounce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRER
-│                       │       │                  │      G4YXY/ 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-40217 
-│                       │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-202310
-│                       │       │                  │      06-0014/ 
-│                       │       │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-40217 
-│                       │       │                  ╰ [9]: https://www.python.org/dev/security/ 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5462 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+│                       │       │                  │       -40217 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2235789 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2235789 
+│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-40217 
+│                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-5462.html 
+│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:5463 
+│                       │       │                  ├ [7] : https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  │       23/09/msg00022.html 
+│                       │       │                  ├ [8] : https://mail.python.org/archives/list/security-
+│                       │       │                  │       announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCR
+│                       │       │                  │       ERG4YXY/ 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-40217 
+│                       │       │                  ├ [10]: https://security.netapp.com/advisory/ntap-20231
+│                       │       │                  │       006-0014/ 
+│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2023-40217 
+│                       │       │                  ╰ [12]: https://www.python.org/dev/security/ 
 │                       │       ├ PublishedDate   : 2023-08-25T01:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-10-06T15:15:00Z 
 │                       ├ [93]  ╭ VulnerabilityID : CVE-2007-4559 
@@ -4946,20 +5113,25 @@
 │                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/
 │                       │       │                            │           C:N/I:H/A:N 
 │                       │       │                            ╰ V3Score : 8.6 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2023:5462 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-40217 
-│                       │       │                  ├ [2]: https://bugzilla.redhat.com/2235789 
-│                       │       │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2023-5462.html 
-│                       │       │                  ├ [4]: https://lists.debian.org/debian-lts-announce/202
-│                       │       │                  │      3/09/msg00022.html 
-│                       │       │                  ├ [5]: https://mail.python.org/archives/list/security-a
-│                       │       │                  │      nnounce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRER
-│                       │       │                  │      G4YXY/ 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-40217 
-│                       │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-202310
-│                       │       │                  │      06-0014/ 
-│                       │       │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-40217 
-│                       │       │                  ╰ [9]: https://www.python.org/dev/security/ 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5462 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+│                       │       │                  │       -40217 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2235789 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2235789 
+│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-40217 
+│                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-5462.html 
+│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:5463 
+│                       │       │                  ├ [7] : https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  │       23/09/msg00022.html 
+│                       │       │                  ├ [8] : https://mail.python.org/archives/list/security-
+│                       │       │                  │       announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCR
+│                       │       │                  │       ERG4YXY/ 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-40217 
+│                       │       │                  ├ [10]: https://security.netapp.com/advisory/ntap-20231
+│                       │       │                  │       006-0014/ 
+│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2023-40217 
+│                       │       │                  ╰ [12]: https://www.python.org/dev/security/ 
 │                       │       ├ PublishedDate   : 2023-08-25T01:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-10-06T15:15:00Z 
 │                       ├ [99]  ╭ VulnerabilityID : CVE-2007-4559 
@@ -5352,20 +5524,25 @@
 │                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/
 │                       │       │                            │           C:N/I:H/A:N 
 │                       │       │                            ╰ V3Score : 8.6 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2023:5462 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-40217 
-│                       │       │                  ├ [2]: https://bugzilla.redhat.com/2235789 
-│                       │       │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2023-5462.html 
-│                       │       │                  ├ [4]: https://lists.debian.org/debian-lts-announce/202
-│                       │       │                  │      3/09/msg00022.html 
-│                       │       │                  ├ [5]: https://mail.python.org/archives/list/security-a
-│                       │       │                  │      nnounce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRER
-│                       │       │                  │      G4YXY/ 
-│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-40217 
-│                       │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-202310
-│                       │       │                  │      06-0014/ 
-│                       │       │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-40217 
-│                       │       │                  ╰ [9]: https://www.python.org/dev/security/ 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5462 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+│                       │       │                  │       -40217 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2235789 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2235789 
+│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-40217 
+│                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-5462.html 
+│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:5463 
+│                       │       │                  ├ [7] : https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  │       23/09/msg00022.html 
+│                       │       │                  ├ [8] : https://mail.python.org/archives/list/security-
+│                       │       │                  │       announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCR
+│                       │       │                  │       ERG4YXY/ 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-40217 
+│                       │       │                  ├ [10]: https://security.netapp.com/advisory/ntap-20231
+│                       │       │                  │       006-0014/ 
+│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2023-40217 
+│                       │       │                  ╰ [12]: https://www.python.org/dev/security/ 
 │                       │       ├ PublishedDate   : 2023-08-25T01:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-10-06T15:15:00Z 
 │                       ├ [105] ╭ VulnerabilityID : CVE-2007-4559 
