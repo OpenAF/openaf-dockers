@@ -8,8 +8,8 @@
     InstalledVersion: 0.8-12.el9_2.1
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-3468
     Title: Local DoS by event-busy-loop from writing long lines to /run/avahi-daemon/socket
@@ -44,8 +44,8 @@
     InstalledVersion: 0.8-12.el9_2.1
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-3502
     Title: reachable assertion in avahi_s_host_name_resolver_start when trying to resolve badly-formatted hostnames
@@ -80,8 +80,8 @@
     InstalledVersion: 0.8-12.el9_2.1
     Status: will_not_fix
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-1981
     Title: avahi-daemon can be crashed via DBus
@@ -113,8 +113,8 @@
     InstalledVersion: 0.8-12.el9_2.1
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38469
     Title: Reachable assertion in avahi_dns_packet_append_record
@@ -135,8 +135,8 @@
     InstalledVersion: 0.8-12.el9_2.1
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38470
     Title: Reachable assertion in avahi_escape_label
@@ -157,8 +157,8 @@
     InstalledVersion: 0.8-12.el9_2.1
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38471
     Title: Reachable assertion in dbus_set_host_name
@@ -179,8 +179,8 @@
     InstalledVersion: 0.8-12.el9_2.1
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38472
     Title: Reachable assertion in avahi_rdata_parse
@@ -201,8 +201,8 @@
     InstalledVersion: 0.8-12.el9_2.1
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38473
     Title: Reachable assertion in avahi_alternative_host_name
@@ -223,8 +223,8 @@
     InstalledVersion: 0.8-12.el9_2.1
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2017-6519
     Title: Multicast DNS responds to unicast queries outside of local network
@@ -266,8 +266,8 @@
     InstalledVersion: 1:2.3.3op2-16.el9_2.1
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-32324
     Title: heap buffer overflow may lead to DoS
@@ -300,8 +300,8 @@
     InstalledVersion: 1:2.3.3op2-16.el9_2.1
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-34241
     Title: use-after-free in cupsdAcceptClient() in scheduler/client.c
@@ -347,8 +347,8 @@
     InstalledVersion: 1:2.3.3op2-16.el9_2.1
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4504
     Title: Postscript Parsing Heap Overflow
@@ -390,8 +390,8 @@
     InstalledVersion: 1:2.3.3op2-16.el9_2.1
     Status: will_not_fix
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-25317
     Title: 'cups: insecure permissions of /var/log/cups allows for symlink attacks'
@@ -418,6 +418,30 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-25317
     PublishedDate: '2021-05-05T10:15:00Z'
     LastModifiedDate: '2023-04-14T18:49:00Z'
+  - VulnerabilityID: CVE-2023-38545
+    PkgID: curl-minimal@7.76.1-23.el9_2.2.x86_64
+    PkgName: curl-minimal
+    InstalledVersion: 7.76.1-23.el9_2.2
+    Status: affected
+    Layer:
+      Digest: sha256:516f7562f02267e05bc0f8b175363c70768471b977360d0f0ab5711a8a6d25ab
+      DiffID: sha256:07e751bf2dc8c84231cee7803f1400d85a08081213711f5d95714bff1a5a3c19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38545
+    Title: a heap based buffer overflow in the SOCKS5 proxy handshake
+    Description: A heap-based buffer overflow flaw was found in the SOCKS5 proxy handshake in the Curl package. If Curl is unable to resolve the address itself, it passes the hostname to the SOCKS5 proxy. However, the maximum length of the hostname that can be passed is 255 bytes. If the hostname is longer, then Curl switches to the local name resolving and passes the resolved address only to the proxy. The local variable that instructs Curl to "let the host resolve the name" could obtain the wrong value during a slow SOCKS5 handshake, resulting in the too-long hostname being copied to the target buffer instead of the resolved address, which was not the intended behavior.
+    Severity: HIGH
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-38545
+    - https://curl.se/docs/CVE-2023-38545.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38545
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-38545
+    - https://ubuntu.com/security/notices/USN-6429-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-38545
   - VulnerabilityID: CVE-2023-27536
     PkgID: curl-minimal@7.76.1-23.el9_2.2.x86_64
     PkgName: curl-minimal
@@ -458,12 +482,13 @@
     - https://lists.debian.org/debian-lts-announce/2023/04/msg00025.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/36NBD5YLJXXEDZLDGNFCERWRYJQ6LAQW/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27536
+    - https://security.gentoo.org/glsa/202310-12
     - https://security.netapp.com/advisory/ntap-20230420-0010/
     - https://ubuntu.com/security/notices/USN-5964-1
     - https://ubuntu.com/security/notices/USN-5964-2
     - https://www.cve.org/CVERecord?id=CVE-2023-27536
     PublishedDate: '2023-03-30T20:15:00Z'
-    LastModifiedDate: '2023-06-06T20:34:00Z'
+    LastModifiedDate: '2023-10-11T11:15:00Z'
   - VulnerabilityID: CVE-2023-27533
     PkgID: curl-minimal@7.76.1-23.el9_2.2.x86_64
     PkgName: curl-minimal
@@ -494,12 +519,13 @@
     - https://lists.debian.org/debian-lts-announce/2023/04/msg00025.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/36NBD5YLJXXEDZLDGNFCERWRYJQ6LAQW/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27533
+    - https://security.gentoo.org/glsa/202310-12
     - https://security.netapp.com/advisory/ntap-20230420-0011/
     - https://ubuntu.com/security/notices/USN-5964-1
     - https://ubuntu.com/security/notices/USN-5964-2
     - https://www.cve.org/CVERecord?id=CVE-2023-27533
     PublishedDate: '2023-03-30T20:15:00Z'
-    LastModifiedDate: '2023-04-21T23:15:00Z'
+    LastModifiedDate: '2023-10-11T11:15:00Z'
   - VulnerabilityID: CVE-2023-27534
     PkgID: curl-minimal@7.76.1-23.el9_2.2.x86_64
     PkgName: curl-minimal
@@ -529,11 +555,12 @@
     - https://hackerone.com/reports/1892351
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/36NBD5YLJXXEDZLDGNFCERWRYJQ6LAQW/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27534
+    - https://security.gentoo.org/glsa/202310-12
     - https://security.netapp.com/advisory/ntap-20230420-0012/
     - https://ubuntu.com/security/notices/USN-5964-1
     - https://www.cve.org/CVERecord?id=CVE-2023-27534
     PublishedDate: '2023-03-30T20:15:00Z'
-    LastModifiedDate: '2023-04-20T09:15:00Z'
+    LastModifiedDate: '2023-10-11T11:15:00Z'
   - VulnerabilityID: CVE-2023-27538
     PkgID: curl-minimal@7.76.1-23.el9_2.2.x86_64
     PkgName: curl-minimal
@@ -564,11 +591,37 @@
     - https://lists.debian.org/debian-lts-announce/2023/04/msg00025.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/36NBD5YLJXXEDZLDGNFCERWRYJQ6LAQW/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27538
+    - https://security.gentoo.org/glsa/202310-12
     - https://security.netapp.com/advisory/ntap-20230420-0010/
     - https://ubuntu.com/security/notices/USN-5964-1
     - https://www.cve.org/CVERecord?id=CVE-2023-27538
     PublishedDate: '2023-03-30T20:15:00Z'
-    LastModifiedDate: '2023-04-21T23:15:00Z'
+    LastModifiedDate: '2023-10-11T11:15:00Z'
+  - VulnerabilityID: CVE-2023-38546
+    PkgID: curl-minimal@7.76.1-23.el9_2.2.x86_64
+    PkgName: curl-minimal
+    InstalledVersion: 7.76.1-23.el9_2.2
+    Status: affected
+    Layer:
+      Digest: sha256:516f7562f02267e05bc0f8b175363c70768471b977360d0f0ab5711a8a6d25ab
+      DiffID: sha256:07e751bf2dc8c84231cee7803f1400d85a08081213711f5d95714bff1a5a3c19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38546
+    Title: cookie injection with none file
+    Description: A flaw was found in the Curl package. This flaw allows an attacker to insert cookies into a running program using libcurl if the specific series of conditions are met.
+    Severity: LOW
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-38546
+    - https://curl.se/docs/CVE-2023-38546.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38546
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-38546
+    - https://ubuntu.com/security/notices/USN-6429-1
+    - https://ubuntu.com/security/notices/USN-6429-2
+    - https://www.cve.org/CVERecord?id=CVE-2023-38546
   - VulnerabilityID: CVE-2022-48554
     PkgID: file-libs@5.39-12.1.el9_2.x86_64
     PkgName: file-libs
@@ -847,8 +900,8 @@
     InstalledVersion: 2.7.4-8.el9
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-25193
     Title: allows attackers to trigger O(n^2) growth via consecutive marks
@@ -896,8 +949,8 @@
     InstalledVersion: 1:1.8.0.382.b05-2.el9
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-40433
     Title: segmentation fault in ciMethodBlocks
@@ -927,8 +980,8 @@
     InstalledVersion: 1:1.8.0.382.b05-2.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3857
     Title: Null pointer dereference leads to segmentation fault
@@ -1042,12 +1095,37 @@
         V3Score: 5.3
     References:
     - https://access.redhat.com/security/cve/CVE-2023-30571
+    - https://access.redhat.com/solutions/7033331
     - https://github.com/libarchive/libarchive/issues/1876
     - https://groups.google.com/g/libarchive-announce
     - https://nvd.nist.gov/vuln/detail/CVE-2023-30571
     - https://www.cve.org/CVERecord?id=CVE-2023-30571
     PublishedDate: '2023-05-29T20:15:00Z'
     LastModifiedDate: '2023-06-05T16:40:00Z'
+  - VulnerabilityID: CVE-2023-38545
+    PkgID: libcurl-minimal@7.76.1-23.el9_2.2.x86_64
+    PkgName: libcurl-minimal
+    InstalledVersion: 7.76.1-23.el9_2.2
+    Status: affected
+    Layer:
+      Digest: sha256:516f7562f02267e05bc0f8b175363c70768471b977360d0f0ab5711a8a6d25ab
+      DiffID: sha256:07e751bf2dc8c84231cee7803f1400d85a08081213711f5d95714bff1a5a3c19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38545
+    Title: a heap based buffer overflow in the SOCKS5 proxy handshake
+    Description: A heap-based buffer overflow flaw was found in the SOCKS5 proxy handshake in the Curl package. If Curl is unable to resolve the address itself, it passes the hostname to the SOCKS5 proxy. However, the maximum length of the hostname that can be passed is 255 bytes. If the hostname is longer, then Curl switches to the local name resolving and passes the resolved address only to the proxy. The local variable that instructs Curl to "let the host resolve the name" could obtain the wrong value during a slow SOCKS5 handshake, resulting in the too-long hostname being copied to the target buffer instead of the resolved address, which was not the intended behavior.
+    Severity: HIGH
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-38545
+    - https://curl.se/docs/CVE-2023-38545.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38545
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-38545
+    - https://ubuntu.com/security/notices/USN-6429-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-38545
   - VulnerabilityID: CVE-2023-27536
     PkgID: libcurl-minimal@7.76.1-23.el9_2.2.x86_64
     PkgName: libcurl-minimal
@@ -1088,12 +1166,13 @@
     - https://lists.debian.org/debian-lts-announce/2023/04/msg00025.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/36NBD5YLJXXEDZLDGNFCERWRYJQ6LAQW/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27536
+    - https://security.gentoo.org/glsa/202310-12
     - https://security.netapp.com/advisory/ntap-20230420-0010/
     - https://ubuntu.com/security/notices/USN-5964-1
     - https://ubuntu.com/security/notices/USN-5964-2
     - https://www.cve.org/CVERecord?id=CVE-2023-27536
     PublishedDate: '2023-03-30T20:15:00Z'
-    LastModifiedDate: '2023-06-06T20:34:00Z'
+    LastModifiedDate: '2023-10-11T11:15:00Z'
   - VulnerabilityID: CVE-2023-27533
     PkgID: libcurl-minimal@7.76.1-23.el9_2.2.x86_64
     PkgName: libcurl-minimal
@@ -1124,12 +1203,13 @@
     - https://lists.debian.org/debian-lts-announce/2023/04/msg00025.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/36NBD5YLJXXEDZLDGNFCERWRYJQ6LAQW/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27533
+    - https://security.gentoo.org/glsa/202310-12
     - https://security.netapp.com/advisory/ntap-20230420-0011/
     - https://ubuntu.com/security/notices/USN-5964-1
     - https://ubuntu.com/security/notices/USN-5964-2
     - https://www.cve.org/CVERecord?id=CVE-2023-27533
     PublishedDate: '2023-03-30T20:15:00Z'
-    LastModifiedDate: '2023-04-21T23:15:00Z'
+    LastModifiedDate: '2023-10-11T11:15:00Z'
   - VulnerabilityID: CVE-2023-27534
     PkgID: libcurl-minimal@7.76.1-23.el9_2.2.x86_64
     PkgName: libcurl-minimal
@@ -1159,11 +1239,12 @@
     - https://hackerone.com/reports/1892351
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/36NBD5YLJXXEDZLDGNFCERWRYJQ6LAQW/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27534
+    - https://security.gentoo.org/glsa/202310-12
     - https://security.netapp.com/advisory/ntap-20230420-0012/
     - https://ubuntu.com/security/notices/USN-5964-1
     - https://www.cve.org/CVERecord?id=CVE-2023-27534
     PublishedDate: '2023-03-30T20:15:00Z'
-    LastModifiedDate: '2023-04-20T09:15:00Z'
+    LastModifiedDate: '2023-10-11T11:15:00Z'
   - VulnerabilityID: CVE-2023-27538
     PkgID: libcurl-minimal@7.76.1-23.el9_2.2.x86_64
     PkgName: libcurl-minimal
@@ -1194,11 +1275,37 @@
     - https://lists.debian.org/debian-lts-announce/2023/04/msg00025.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/36NBD5YLJXXEDZLDGNFCERWRYJQ6LAQW/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27538
+    - https://security.gentoo.org/glsa/202310-12
     - https://security.netapp.com/advisory/ntap-20230420-0010/
     - https://ubuntu.com/security/notices/USN-5964-1
     - https://www.cve.org/CVERecord?id=CVE-2023-27538
     PublishedDate: '2023-03-30T20:15:00Z'
-    LastModifiedDate: '2023-04-21T23:15:00Z'
+    LastModifiedDate: '2023-10-11T11:15:00Z'
+  - VulnerabilityID: CVE-2023-38546
+    PkgID: libcurl-minimal@7.76.1-23.el9_2.2.x86_64
+    PkgName: libcurl-minimal
+    InstalledVersion: 7.76.1-23.el9_2.2
+    Status: affected
+    Layer:
+      Digest: sha256:516f7562f02267e05bc0f8b175363c70768471b977360d0f0ab5711a8a6d25ab
+      DiffID: sha256:07e751bf2dc8c84231cee7803f1400d85a08081213711f5d95714bff1a5a3c19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38546
+    Title: cookie injection with none file
+    Description: A flaw was found in the Curl package. This flaw allows an attacker to insert cookies into a running program using libcurl if the specific series of conditions are met.
+    Severity: LOW
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-38546
+    - https://curl.se/docs/CVE-2023-38546.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38546
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-38546
+    - https://ubuntu.com/security/notices/USN-6429-1
+    - https://ubuntu.com/security/notices/USN-6429-2
+    - https://www.cve.org/CVERecord?id=CVE-2023-38546
   - VulnerabilityID: CVE-2023-4039
     PkgID: libgcc@11.3.1-4.3.el9.x86_64
     PkgName: libgcc
@@ -1292,8 +1399,8 @@
     InstalledVersion: 2:1.6.37-12.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3857
     Title: Null pointer dereference leads to segmentation fault
@@ -1446,7 +1553,12 @@
     Title: use-after-free in xmlUnlinkNode() in tree.c
     Description: '** DISPUTED ** libxml2 through 2.11.5 has a use-after-free that can only occur after a certain memory allocation fails. This occurs in xmlUnlinkNode in tree.c. NOTE: the vendor''s position is "I don''t think these issues are critical enough to warrant a CVE ID ... because an attacker typically can''t control when memory allocations fail."'
     Severity: MEDIUM
+    CweIDs:
+    - CWE-416
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.1
@@ -1458,7 +1570,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45322
     - https://www.cve.org/CVERecord?id=CVE-2023-45322
     PublishedDate: '2023-10-06T22:15:00Z'
-    LastModifiedDate: '2023-10-07T00:15:00Z'
+    LastModifiedDate: '2023-10-11T18:13:00Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd@1.5.1-2.el9.x86_64
     PkgName: libzstd
@@ -1674,8 +1786,8 @@
     InstalledVersion: 4.35.0-3.el9_2
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4421
     Title: new tlsfuzzer code can still detect timing issues in RSA operations
@@ -1687,16 +1799,38 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-4421
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4421
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4421
     - https://www.cve.org/CVERecord?id=CVE-2023-4421
+  - VulnerabilityID: CVE-2023-5388
+    PkgID: nspr@4.35.0-3.el9_2.x86_64
+    PkgName: nspr
+    InstalledVersion: 4.35.0-3.el9_2
+    Status: affected
+    Layer:
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5388
+    Title: timing attack against RSA decryption
+    Description: 'It was discovered that the numerical library used in NSS for RSA cryptography leaks information whether high order bits of the RSA decryption result are zero. This information can be used to mount a Bleichenbacher or Manger like attack against all RSA decryption operations. As the leak happens before any padding operations, it affects all padding modes: PKCS#1 v1.5, OAEP, and RSASVP. Both API level calls and TLS server operation are affected.'
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5388
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
+    - https://www.cve.org/CVERecord?id=CVE-2023-5388
   - VulnerabilityID: CVE-2020-12413
     PkgID: nspr@4.35.0-3.el9_2.x86_64
     PkgName: nspr
     InstalledVersion: 4.35.0-3.el9_2
     Status: will_not_fix
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
     Title: Information exposure when DH secret are reused across multiple TLS connections
@@ -1726,8 +1860,8 @@
     InstalledVersion: 3.90.0-3.el9_2
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4421
     Title: new tlsfuzzer code can still detect timing issues in RSA operations
@@ -1739,16 +1873,38 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-4421
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4421
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4421
     - https://www.cve.org/CVERecord?id=CVE-2023-4421
+  - VulnerabilityID: CVE-2023-5388
+    PkgID: nss@3.90.0-3.el9_2.x86_64
+    PkgName: nss
+    InstalledVersion: 3.90.0-3.el9_2
+    Status: affected
+    Layer:
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5388
+    Title: timing attack against RSA decryption
+    Description: 'It was discovered that the numerical library used in NSS for RSA cryptography leaks information whether high order bits of the RSA decryption result are zero. This information can be used to mount a Bleichenbacher or Manger like attack against all RSA decryption operations. As the leak happens before any padding operations, it affects all padding modes: PKCS#1 v1.5, OAEP, and RSASVP. Both API level calls and TLS server operation are affected.'
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5388
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
+    - https://www.cve.org/CVERecord?id=CVE-2023-5388
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss@3.90.0-3.el9_2.x86_64
     PkgName: nss
     InstalledVersion: 3.90.0-3.el9_2
     Status: will_not_fix
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
     Title: Information exposure when DH secret are reused across multiple TLS connections
@@ -1778,8 +1934,8 @@
     InstalledVersion: 3.90.0-3.el9_2
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4421
     Title: new tlsfuzzer code can still detect timing issues in RSA operations
@@ -1791,16 +1947,38 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-4421
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4421
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4421
     - https://www.cve.org/CVERecord?id=CVE-2023-4421
+  - VulnerabilityID: CVE-2023-5388
+    PkgID: nss-softokn@3.90.0-3.el9_2.x86_64
+    PkgName: nss-softokn
+    InstalledVersion: 3.90.0-3.el9_2
+    Status: affected
+    Layer:
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5388
+    Title: timing attack against RSA decryption
+    Description: 'It was discovered that the numerical library used in NSS for RSA cryptography leaks information whether high order bits of the RSA decryption result are zero. This information can be used to mount a Bleichenbacher or Manger like attack against all RSA decryption operations. As the leak happens before any padding operations, it affects all padding modes: PKCS#1 v1.5, OAEP, and RSASVP. Both API level calls and TLS server operation are affected.'
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5388
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
+    - https://www.cve.org/CVERecord?id=CVE-2023-5388
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-softokn@3.90.0-3.el9_2.x86_64
     PkgName: nss-softokn
     InstalledVersion: 3.90.0-3.el9_2
     Status: will_not_fix
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
     Title: Information exposure when DH secret are reused across multiple TLS connections
@@ -1830,8 +2008,8 @@
     InstalledVersion: 3.90.0-3.el9_2
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4421
     Title: new tlsfuzzer code can still detect timing issues in RSA operations
@@ -1843,16 +2021,38 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-4421
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4421
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4421
     - https://www.cve.org/CVERecord?id=CVE-2023-4421
+  - VulnerabilityID: CVE-2023-5388
+    PkgID: nss-softokn-freebl@3.90.0-3.el9_2.x86_64
+    PkgName: nss-softokn-freebl
+    InstalledVersion: 3.90.0-3.el9_2
+    Status: affected
+    Layer:
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5388
+    Title: timing attack against RSA decryption
+    Description: 'It was discovered that the numerical library used in NSS for RSA cryptography leaks information whether high order bits of the RSA decryption result are zero. This information can be used to mount a Bleichenbacher or Manger like attack against all RSA decryption operations. As the leak happens before any padding operations, it affects all padding modes: PKCS#1 v1.5, OAEP, and RSASVP. Both API level calls and TLS server operation are affected.'
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5388
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
+    - https://www.cve.org/CVERecord?id=CVE-2023-5388
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-softokn-freebl@3.90.0-3.el9_2.x86_64
     PkgName: nss-softokn-freebl
     InstalledVersion: 3.90.0-3.el9_2
     Status: will_not_fix
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
     Title: Information exposure when DH secret are reused across multiple TLS connections
@@ -1882,8 +2082,8 @@
     InstalledVersion: 3.90.0-3.el9_2
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4421
     Title: new tlsfuzzer code can still detect timing issues in RSA operations
@@ -1895,16 +2095,38 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-4421
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4421
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4421
     - https://www.cve.org/CVERecord?id=CVE-2023-4421
+  - VulnerabilityID: CVE-2023-5388
+    PkgID: nss-sysinit@3.90.0-3.el9_2.x86_64
+    PkgName: nss-sysinit
+    InstalledVersion: 3.90.0-3.el9_2
+    Status: affected
+    Layer:
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5388
+    Title: timing attack against RSA decryption
+    Description: 'It was discovered that the numerical library used in NSS for RSA cryptography leaks information whether high order bits of the RSA decryption result are zero. This information can be used to mount a Bleichenbacher or Manger like attack against all RSA decryption operations. As the leak happens before any padding operations, it affects all padding modes: PKCS#1 v1.5, OAEP, and RSASVP. Both API level calls and TLS server operation are affected.'
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5388
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
+    - https://www.cve.org/CVERecord?id=CVE-2023-5388
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-sysinit@3.90.0-3.el9_2.x86_64
     PkgName: nss-sysinit
     InstalledVersion: 3.90.0-3.el9_2
     Status: will_not_fix
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
     Title: Information exposure when DH secret are reused across multiple TLS connections
@@ -1934,8 +2156,8 @@
     InstalledVersion: 3.90.0-3.el9_2
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4421
     Title: new tlsfuzzer code can still detect timing issues in RSA operations
@@ -1947,16 +2169,38 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-4421
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4421
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4421
     - https://www.cve.org/CVERecord?id=CVE-2023-4421
+  - VulnerabilityID: CVE-2023-5388
+    PkgID: nss-util@3.90.0-3.el9_2.x86_64
+    PkgName: nss-util
+    InstalledVersion: 3.90.0-3.el9_2
+    Status: affected
+    Layer:
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5388
+    Title: timing attack against RSA decryption
+    Description: 'It was discovered that the numerical library used in NSS for RSA cryptography leaks information whether high order bits of the RSA decryption result are zero. This information can be used to mount a Bleichenbacher or Manger like attack against all RSA decryption operations. As the leak happens before any padding operations, it affects all padding modes: PKCS#1 v1.5, OAEP, and RSASVP. Both API level calls and TLS server operation are affected.'
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5388
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
+    - https://www.cve.org/CVERecord?id=CVE-2023-5388
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-util@3.90.0-3.el9_2.x86_64
     PkgName: nss-util
     InstalledVersion: 3.90.0-3.el9_2
     Status: will_not_fix
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
     Title: Information exposure when DH secret are reused across multiple TLS connections
@@ -2068,8 +2312,8 @@
     InstalledVersion: 1:3.0.7-17.el9_2
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-2975
     Title: AES-SIV cipher implementation contains a bug that causes it to ignore empty associated data entries
@@ -2123,8 +2367,8 @@
     InstalledVersion: 1:3.0.7-17.el9_2
     Status: will_not_fix
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3446
     Title: Excessive time spent checking DH keys and parameters
@@ -2192,8 +2436,8 @@
     InstalledVersion: 1:3.0.7-17.el9_2
     Status: will_not_fix
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3817
     Title: Excessive time spent checking DH q parameter value
@@ -2450,8 +2694,8 @@
     InstalledVersion: 3.9.16-1.el9_2.2
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2007-4559
     Title: tarfile module directory traversal
@@ -2484,8 +2728,8 @@
     InstalledVersion: 3.9.16-1.el9_2.2
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-23336
     Title: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters
@@ -2561,8 +2805,8 @@
     InstalledVersion: 3.9.16-1.el9_2.2
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-0391
     Title: urllib.parse does not sanitize URLs containing ASCII newline and tabs
@@ -2610,8 +2854,8 @@
     InstalledVersion: 3.9.16-1.el9_2.2
     Status: will_not_fix
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-27043
     Title: Parsing errors in email/_parseaddr.py lead to incorrect value in email address part of tuple
@@ -2648,8 +2892,8 @@
     InstalledVersion: 3.9.16-1.el9_2.2
     Status: will_not_fix
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36632
     Title: maximum recursion depth exceeded while calling a Python object
@@ -2683,8 +2927,8 @@
     InstalledVersion: 3.9.16-1.el9_2.2
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2007-4559
     Title: tarfile module directory traversal
@@ -2717,8 +2961,8 @@
     InstalledVersion: 3.9.16-1.el9_2.2
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-23336
     Title: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters
@@ -2794,8 +3038,8 @@
     InstalledVersion: 3.9.16-1.el9_2.2
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-0391
     Title: urllib.parse does not sanitize URLs containing ASCII newline and tabs
@@ -2843,8 +3087,8 @@
     InstalledVersion: 3.9.16-1.el9_2.2
     Status: will_not_fix
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-27043
     Title: Parsing errors in email/_parseaddr.py lead to incorrect value in email address part of tuple
@@ -2881,8 +3125,8 @@
     InstalledVersion: 3.9.16-1.el9_2.2
     Status: will_not_fix
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36632
     Title: maximum recursion depth exceeded while calling a Python object
@@ -2916,8 +3160,8 @@
     InstalledVersion: 3.9.16-1.el9_2.2
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2007-4559
     Title: tarfile module directory traversal
@@ -2950,8 +3194,8 @@
     InstalledVersion: 3.9.16-1.el9_2.2
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-23336
     Title: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters
@@ -3027,8 +3271,8 @@
     InstalledVersion: 3.9.16-1.el9_2.2
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-0391
     Title: urllib.parse does not sanitize URLs containing ASCII newline and tabs
@@ -3076,8 +3320,8 @@
     InstalledVersion: 3.9.16-1.el9_2.2
     Status: will_not_fix
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-27043
     Title: Parsing errors in email/_parseaddr.py lead to incorrect value in email address part of tuple
@@ -3114,8 +3358,8 @@
     InstalledVersion: 3.9.16-1.el9_2.2
     Status: will_not_fix
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36632
     Title: maximum recursion depth exceeded while calling a Python object
@@ -3149,8 +3393,8 @@
     InstalledVersion: 21.2.3-6.el9
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-43804
     Title: Cookie request header isn't stripped during cross-origin redirects
@@ -3162,6 +3406,9 @@
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N
         V3Score: 5.9
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 8.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N
         V3Score: 5.9
@@ -3173,18 +3420,19 @@
     - https://github.com/urllib3/urllib3/commit/644124ecd0b6e417c527191f866daa05a5a2056d
     - https://github.com/urllib3/urllib3/security/advisories/GHSA-v845-jxx5-vc9f
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00012.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/I3PR7C6RJ6JUBQKIJ644DMIJSUP36VDY/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-43804
     - https://www.cve.org/CVERecord?id=CVE-2023-43804
     PublishedDate: '2023-10-04T17:15:00Z'
-    LastModifiedDate: '2023-10-08T14:15:00Z'
+    LastModifiedDate: '2023-10-11T03:15:00Z'
   - VulnerabilityID: CVE-2021-3572
     PkgID: python3-pip-wheel@21.2.3-6.el9.noarch
     PkgName: python3-pip-wheel
     InstalledVersion: 21.2.3-6.el9
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-3572
     Title: 'python-pip: Incorrect handling of unicode separators in git references'
@@ -3430,8 +3678,8 @@
     InstalledVersion: 1.9.5p2-9.el9
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-28486
     Title: Sudo does not escape control characters in log messages
@@ -3465,8 +3713,8 @@
     InstalledVersion: 1.9.5p2-9.el9
     Status: affected
     Layer:
-      Digest: sha256:48c995311be427c512290fe40d17686b53dcf7c77590b6dc8dda9e49e35d2781
-      DiffID: sha256:81f406763582a5bf50a653706904a3e2b9cf25b1ec87fc4d5bc6e009dbdb829f
+      Digest: sha256:d6d919baa66e0832fe1ba529918428072b4f24da3adec3a11ad8ec5b0d64af5a
+      DiffID: sha256:4d84518fbc51de7231999c93a0d43c3f185d24b6725f8a13c51d320a49654fe7
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-28487
     Title: Sudo does not escape control characters in sudoreplay output
@@ -3528,138 +3776,3 @@
     - https://www.openwall.com/lists/oss-security/2022/01/10/2
     PublishedDate: '2022-08-23T20:15:00Z'
     LastModifiedDate: '2023-05-03T12:15:00Z'
-- Target: Java
-  Class: lang-pkgs
-  Type: jar
-  Vulnerabilities:
-  - VulnerabilityID: CVE-2023-36478
-    PkgName: org.eclipse.jetty:jetty-http
-    PkgPath: openaf/openaf.jar
-    InstalledVersion: 9.4.52.v20230823
-    FixedVersion: 10.0.16, 11.0.16, 9.4.53
-    Status: fixed
-    Layer:
-      Digest: sha256:10d02aab83d08fb374ca70da6f256cd4601830af9074dbd1c77a53eede64cd24
-      DiffID: sha256:a28fe5d1caa67b7d43083c772741b2574b0e6c87fe393d9e3769fecc97416bd7
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36478
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Maven
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
-    Title: HTTP/2 HPACK integer overflow and buffer allocation
-    Description: |-
-      An integer overflow in `MetaDataBuilder.checkSize` allows for HTTP/2 HPACK header values to
-      exceed their size limit. 
-
-      In `MetaDataBuilder.java`, the following code determines if a header name or value
-      exceeds the size limit, and throws an exception if the limit is exceeded:
-
-      ```java
-      291 public void checkSize(int length, boolean huffman) throws SessionException
-      292 {
-      293 // Apply a huffman fudge factor
-      294 if (huffman)
-      295 length = (length * 4) / 3;
-      296 if ((_size + length) > _maxSize)
-      297 throw new HpackException.SessionException("Header too large %d > %d",
-      _size + length, _maxSize);
-      298 }
-      ```
-
-      However, when length is very large and huffman is true, the multiplication by 4 in line 295
-      will overflow, and length will become negative. (_size+length) will now be negative, and
-      the check on line 296 will not be triggered.
-
-      Furthermore, `MetaDataBuilder.checkSize` allows for user-entered HPACK header value sizes to be
-      negative, potentially leading to a very large buffer allocation later on when the
-      user-entered size is multiplied by 2.
-
-      In `MetaDataBuilder.java`, the following code determines if a header name or value
-      exceeds the size limit, and throws an exception if the limit is exceeded:
-
-      ```java
-      public void checkSize(int length, boolean huffman) throws SessionException
-      {
-      // Apply a huffman fudge factor
-      if (huffman)
-      length = (length * 4) / 3;
-      if ((_size + length) > _maxSize)
-      throw new HpackException.SessionException("Header too large %d > %d", _size
-      + length, _maxSize);
-      }
-      ```
-
-      However, no exception is thrown in the case of a negative size.
-      Later, in `Huffman.decode`, the user-entered length is multiplied by 2 before allocating a buffer:
-
-      ```java
-      public static String decode(ByteBuffer buffer, int length) throws
-      HpackException.CompressionException
-      {
-      Utf8StringBuilder utf8 = new Utf8StringBuilder(length * 2);
-      // ...
-      ```
-
-      This means that if a user provides a negative length value (or, more precisely, a length
-      value which, when multiplied by the 4/3 fudge factor, is negative), and this length value is a
-      very large positive number when multiplied by 2, then the user can cause a very large
-      buffer to be allocated on the server.
-
-
-      ### Exploit Scenario 1
-      An attacker repeatedly sends HTTP messages with the HPACK header 0x00ffffffffff02.
-      Each time this header is decoded:
-      + `HpackDecode.decode` will determine that a Huffman-coded value of length
-      805306494 needs to be decoded.
-      + `MetaDataBuilder.checkSize` will approve this length.
-      + Huffman.decode will allocate a 1.6 GB string array.
-      + Huffman.decode will have a buffer overflow error, and the array will be deallocated
-      the next time garbage collection happens. (Note: this can be delayed by appending
-      valid huffman-coded characters to the end of the header.)
-
-      Depending on the timing of garbage collection, the number of threads, and the amount of
-      memory available on the server, this may cause the server to run out of memory.
-
-
-      ### Exploit Scenario 2
-      An attacker repeatedly sends HTTP messages with the HPACK header 0x00ff8080ffff0b. Each
-      time this header is decoded:
-       + HpackDecode.decode will determine that a Huffman-coded value of length
-      -1073758081 needs to be decoded
-       +  MetaDataBuilder.checkSize will approve this length
-       + The number will be multiplied by 2 to get 2147451134, and Huffman.decode will
-      allocate a 2.1 GB string array
-       + Huffman.decode will have a buffer overflow error, and the array will be deallocated
-      the next time garbage collection happens (Note that this deallocation can be
-      delayed by adding valid Huffman-coded characters to the end of the header)
-
-      Depending on the timing of garbage collection, the number of threads, and the amount of
-      memory available on the server, this may cause the server to run out of memory.
-
-      ### Impact
-      Users of HTTP/2 can be impacted by a remote denial of service attack.
-
-      ### Patches
-      Fixed in Jetty 10.0.16 and Jetty 11.0.16
-      Fixed in Jetty 9.4.53
-      Jetty 12.x is unaffected.
-
-      ### Workarounds
-      No workarounds possible, only patched versions of Jetty.
-
-      ### References
-      * https://github.com/eclipse/jetty.project/pull/9634
-    Severity: HIGH
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://github.com/eclipse/jetty.project
-    - https://github.com/eclipse/jetty.project/pull/9634
-    - https://github.com/eclipse/jetty.project/releases/tag/jetty-10.0.16
-    - https://github.com/eclipse/jetty.project/releases/tag/jetty-11.0.16
-    - https://github.com/eclipse/jetty.project/releases/tag/jetty-9.4.53.v20231009
-    - https://github.com/eclipse/jetty.project/security/advisories/GHSA-wgh7-54f2-x98r
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-36478
