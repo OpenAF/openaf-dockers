@@ -290,7 +290,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2230495
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32360
     - https://errata.almalinux.org/9/ALSA-2023-4838.html
-    - https://errata.rockylinux.org/RLSA-2023:4864
+    - https://errata.rockylinux.org/RLSA-2023:4838
     - https://linux.oracle.com/cve/CVE-2023-32360.html
     - https://linux.oracle.com/errata/ELSA-2023-4864.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00041.html
@@ -804,7 +804,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -1236,7 +1236,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
     - https://www.cve.org/CVERecord?id=CVE-2023-4813
     PublishedDate: '2023-09-12T22:15:00Z'
-    LastModifiedDate: '2023-10-05T16:15:00Z'
+    LastModifiedDate: '2023-10-13T01:18:00Z'
   - VulnerabilityID: CVE-2023-4911
     VendorIDs:
     - RHSA-2023:5453
@@ -1462,7 +1462,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
     - https://www.cve.org/CVERecord?id=CVE-2023-4813
     PublishedDate: '2023-09-12T22:15:00Z'
-    LastModifiedDate: '2023-10-05T16:15:00Z'
+    LastModifiedDate: '2023-10-13T01:18:00Z'
   - VulnerabilityID: CVE-2023-4911
     VendorIDs:
     - RHSA-2023:5453
@@ -1688,7 +1688,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
     - https://www.cve.org/CVERecord?id=CVE-2023-4813
     PublishedDate: '2023-09-12T22:15:00Z'
-    LastModifiedDate: '2023-10-05T16:15:00Z'
+    LastModifiedDate: '2023-10-13T01:18:00Z'
   - VulnerabilityID: CVE-2021-43618
     PkgID: gmp@6.2.0-10.el9.x86_64
     PkgName: gmp
@@ -1872,13 +1872,13 @@
     - https://access.redhat.com/security/cve/CVE-2023-22049
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2219727
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2220662
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221645
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221647
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049
     - https://errata.almalinux.org/9/ALSA-2023-4178.html
-    - https://errata.rockylinux.org/RLSA-2023:4176
+    - https://errata.rockylinux.org/RLSA-2023:4178
     - https://linux.oracle.com/cve/CVE-2023-22049.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00018.html
@@ -1951,13 +1951,13 @@
     - https://access.redhat.com/security/cve/CVE-2023-22045
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2219727
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2220662
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221645
     - https://bugzilla.redhat.com/show_bug.cgi?id=2221647
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049
     - https://errata.almalinux.org/9/ALSA-2023-4178.html
-    - https://errata.rockylinux.org/RLSA-2023:4176
+    - https://errata.rockylinux.org/RLSA-2023:4178
     - https://linux.oracle.com/cve/CVE-2023-22045.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00018.html
@@ -4068,6 +4068,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-40217
     - https://errata.almalinux.org/9/ALSA-2023-5462.html
     - https://errata.rockylinux.org/RLSA-2023:5463
+    - https://linux.oracle.com/cve/CVE-2023-40217.html
+    - https://linux.oracle.com/errata/ELSA-2023-5463.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00017.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
@@ -4344,6 +4346,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-40217
     - https://errata.almalinux.org/9/ALSA-2023-5462.html
     - https://errata.rockylinux.org/RLSA-2023:5463
+    - https://linux.oracle.com/cve/CVE-2023-40217.html
+    - https://linux.oracle.com/errata/ELSA-2023-5463.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00017.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
@@ -4620,6 +4624,8 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-40217
     - https://errata.almalinux.org/9/ALSA-2023-5462.html
     - https://errata.rockylinux.org/RLSA-2023:5463
+    - https://linux.oracle.com/cve/CVE-2023-40217.html
+    - https://linux.oracle.com/errata/ELSA-2023-5463.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00017.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
@@ -4862,44 +4868,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:00Z'
     LastModifiedDate: '2023-07-06T16:00:00Z'
-  - VulnerabilityID: CVE-2023-43804
-    PkgID: python3-pip-wheel@21.2.3-6.el9.noarch
-    PkgName: python3-pip-wheel
-    InstalledVersion: 21.2.3-6.el9
-    Status: affected
-    Layer:
-      Digest: sha256:cd88437a6094844c24dfcee4fd130d1b07fc2f16d7d03765489b31e3b215f5e5
-      DiffID: sha256:1f3978e72111e44ebf85001b385520335f432ee09d3cd5d1208c1c286751fce9
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-43804
-    Title: Cookie request header isn't stripped during cross-origin redirects
-    Description: urllib3 is a user-friendly HTTP client library for Python. urllib3 doesn't treat the `Cookie` HTTP header special or provide any helpers for managing cookies over HTTP, that is the responsibility of the user. However, it is possible for a user to specify a `Cookie` header and unknowingly leak information via HTTP redirects to a different origin if that user doesn't disable redirects explicitly. This issue has been patched in urllib3 version 1.26.17 or 2.0.5.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-200
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N
-        V3Score: 5.9
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N
-        V3Score: 8.1
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N
-        V3Score: 5.9
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-43804
-    - https://github.com/pypa/advisory-database/tree/main/vulns/urllib3/PYSEC-2023-192.yaml
-    - https://github.com/urllib3/urllib3
-    - https://github.com/urllib3/urllib3/commit/01220354d389cd05474713f8c982d05c9b17aafb
-    - https://github.com/urllib3/urllib3/commit/644124ecd0b6e417c527191f866daa05a5a2056d
-    - https://github.com/urllib3/urllib3/security/advisories/GHSA-v845-jxx5-vc9f
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00012.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/I3PR7C6RJ6JUBQKIJ644DMIJSUP36VDY/
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-43804
-    - https://www.cve.org/CVERecord?id=CVE-2023-43804
-    PublishedDate: '2023-10-04T17:15:00Z'
-    LastModifiedDate: '2023-10-11T03:15:00Z'
   - VulnerabilityID: CVE-2021-3572
     PkgID: python3-pip-wheel@21.2.3-6.el9.noarch
     PkgName: python3-pip-wheel
@@ -5373,7 +5341,7 @@
     - https://www.debian.org/security/2023/dsa-5507
     - https://www.rfc-editor.org/rfc/rfc9110#section-8.6
     PublishedDate: '2023-09-15T20:15:00Z'
-    LastModifiedDate: '2023-09-30T15:15:00Z'
+    LastModifiedDate: '2023-10-13T01:59:00Z'
   - VulnerabilityID: CVE-2023-4759
     PkgName: org.eclipse.jgit:org.eclipse.jgit
     PkgPath: openaf/openaf.jar
