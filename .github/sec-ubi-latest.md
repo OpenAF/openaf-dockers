@@ -1127,43 +1127,44 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:H 
                         │       │                           ╰ V3Score : 7.5 
-                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4175 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4177 
                         │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
                         │       │                  │       -25193 
                         │       │                  ├ [2] : https://bugzilla.redhat.com/2167254 
                         │       │                  ├ [3] : https://bugzilla.redhat.com/2221626 
                         │       │                  ├ [4] : https://bugzilla.redhat.com/2221634 
-                        │       │                  ├ [5] : https://bugzilla.redhat.com/2221645 
-                        │       │                  ├ [6] : https://bugzilla.redhat.com/2221647 
-                        │       │                  ├ [7] : https://bugzilla.redhat.com/2223207 
-                        │       │                  ├ [8] : https://chromium.googlesource.com/chromium/src/
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/2221642 
+                        │       │                  ├ [6] : https://bugzilla.redhat.com/2221645 
+                        │       │                  ├ [7] : https://bugzilla.redhat.com/2221647 
+                        │       │                  ├ [8] : https://bugzilla.redhat.com/2223207 
+                        │       │                  ├ [9] : https://chromium.googlesource.com/chromium/src/
                         │       │                  │       +/e1f324aa681af54101c1f2d173d92adb80e37088/DEPS#361
                         │       │                  │       [m 
-                        │       │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                        │       │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
                         │       │                  │       CVE-2023-25193 
-                        │       │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2023-4175.html 
-                        │       │                  ├ [11]: https://github.com/harfbuzz/harfbuzz/blob/2822b
+                        │       │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-4177.html 
+                        │       │                  ├ [12]: https://github.com/harfbuzz/harfbuzz/blob/2822b
                         │       │                  │       589bc837fae6f66233e2cf2eef0f6ce8470/src/hb-ot-layout
                         │       │                  │       -gsubgpos.hh 
-                        │       │                  ├ [12]: https://github.com/harfbuzz/harfbuzz/commit/85b
-                        │       │                  │       e877925ddbf34f74a1229f3ca1716bb6170dc 
                         │       │                  ├ [13]: https://github.com/harfbuzz/harfbuzz/commit/85b
+                        │       │                  │       e877925ddbf34f74a1229f3ca1716bb6170dc 
+                        │       │                  ├ [14]: https://github.com/harfbuzz/harfbuzz/commit/85b
                         │       │                  │       e877925ddbf34f74a1229f3ca1716bb6170dc
                         │       │                  │       (reverted) 
-                        │       │                  ├ [14]: https://linux.oracle.com/cve/CVE-2023-25193.html 
-                        │       │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2023-4233.html 
-                        │       │                  ├ [16]: https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [15]: https://linux.oracle.com/cve/CVE-2023-25193.html 
+                        │       │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2023-4233.html 
+                        │       │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/KWCH
                         │       │                  │       WSICWVZSAXP2YAXM65JC2GR53547/ 
-                        │       │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/YZ5M
                         │       │                  │       2GSAIHFPLHYJXUPQ2QDJCLWXUGO3/ 
-                        │       │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2023-25193 
-                        │       │                  ├ [19]: https://security.netapp.com/advisory/ntap-20230
+                        │       │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-25193 
+                        │       │                  ├ [20]: https://security.netapp.com/advisory/ntap-20230
                         │       │                  │       725-0006/ 
-                        │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-6263-1 
-                        │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-6272-1 
-                        │       │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-25193 
+                        │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-6263-1 
+                        │       │                  ├ [22]: https://ubuntu.com/security/notices/USN-6272-1 
+                        │       │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2023-25193 
                         │       ├ PublishedDate   : 2023-02-04T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
                         ├ [28]  ╭ VulnerabilityID : CVE-2022-40433 
@@ -4395,7 +4396,39 @@
                         │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
                         │       ├ PublishedDate   : 2023-06-25T18:15:00Z 
                         │       ╰ LastModifiedDate: 2023-07-06T16:00:00Z 
-                        ├ [92]  ╭ VulnerabilityID : CVE-2021-3572 
+                        ├ [92]  ╭ VulnerabilityID : CVE-2018-25091 
+                        │       ├ PkgID           : python3-pip-wheel@21.2.3-6.el9.noarch 
+                        │       ├ PkgName         : python3-pip-wheel 
+                        │       ├ InstalledVersion: 21.2.3-6.el9 
+                        │       ├ Status          : under_investigation 
+                        │       ├ Layer            ╭ Digest: sha256:65e940e0477ea269d922e3da864e16ef3b3bfb
+                        │       │                  │         4c774211c9bfe0477395cf4e40 
+                        │       │                  ╰ DiffID: sha256:17fea5e7594d20f30998321d06728469a19262
+                        │       │                            03ef70a1896c60b18b4443ff1c 
+                        │       ├ SeveritySource  : redhat 
+                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2018-25091 
+                        │       ├ Title           : urllib3 does not remove the authorization HTTP header
+                        │       │                   when following a cross-origin redirect 
+                        │       ├ Description     : urllib3 before 1.24.2 does not remove the
+                        │       │                   authorization HTTP header when following a cross-origin
+                        │       │                   redirect (i.e., a redirect that differs in host, port, or
+                        │       │                   scheme). This can allow for credentials in the
+                        │       │                   authorization header to be exposed to unintended hosts or
+                        │       │                   transmitted in cleartext. NOTE: this issue exists because
+                        │       │                   of an incomplete fix for CVE-2018-20060 (which was
+                        │       │                   case-sensitive). 
+                        │       ├ Severity        : MEDIUM 
+                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2018-25091 
+                        │       │                  ├ [1]: https://github.com/urllib3/urllib3/commit/adb358
+                        │       │                  │      f8e06865406d1f05e581a16cbea2136fbc 
+                        │       │                  ├ [2]: https://github.com/urllib3/urllib3/compare/1.24.
+                        │       │                  │      1...1.24.2 
+                        │       │                  ├ [3]: https://github.com/urllib3/urllib3/issues/1510 
+                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2018-25091 
+                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2018-25091 
+                        │       ├ PublishedDate   : 2023-10-15T19:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-15T19:15:00Z 
+                        ├ [93]  ╭ VulnerabilityID : CVE-2021-3572 
                         │       ├ PkgID           : python3-pip-wheel@21.2.3-6.el9.noarch 
                         │       ├ PkgName         : python3-pip-wheel 
                         │       ├ InstalledVersion: 21.2.3-6.el9 
@@ -4456,7 +4489,7 @@
                         │       │                          22.html 
                         │       ├ PublishedDate   : 2021-11-10T18:15:00Z 
                         │       ╰ LastModifiedDate: 2022-10-05T02:14:00Z 
-                        ├ [93]  ╭ VulnerabilityID : CVE-2021-35937 
+                        ├ [94]  ╭ VulnerabilityID : CVE-2021-35937 
                         │       ├ PkgID           : rpm@4.16.1.3-22.el9.x86_64 
                         │       ├ PkgName         : rpm 
                         │       ├ InstalledVersion: 4.16.1.3-22.el9 
@@ -4493,7 +4526,7 @@
                         │       │                         ull_papers/borisov/borisov.pdf 
                         │       ├ PublishedDate   : 2022-08-25T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-06-26T17:48:00Z 
-                        ├ [94]  ╭ VulnerabilityID : CVE-2021-35938 
+                        ├ [95]  ╭ VulnerabilityID : CVE-2021-35938 
                         │       ├ PkgID           : rpm@4.16.1.3-22.el9.x86_64 
                         │       ├ PkgName         : rpm 
                         │       ├ InstalledVersion: 4.16.1.3-22.el9 
@@ -4536,7 +4569,7 @@
                         │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2021-35938 
                         │       ├ PublishedDate   : 2022-08-25T20:15:00Z 
                         │       ╰ LastModifiedDate: 2022-11-29T18:06:00Z 
-                        ├ [95]  ╭ VulnerabilityID : CVE-2021-35939 
+                        ├ [96]  ╭ VulnerabilityID : CVE-2021-35939 
                         │       ├ PkgID           : rpm@4.16.1.3-22.el9.x86_64 
                         │       ├ PkgName         : rpm 
                         │       ├ InstalledVersion: 4.16.1.3-22.el9 
@@ -4578,7 +4611,7 @@
                         │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2021-35939 
                         │       ├ PublishedDate   : 2022-08-26T16:15:00Z 
                         │       ╰ LastModifiedDate: 2023-02-04T01:16:00Z 
-                        ├ [96]  ╭ VulnerabilityID : CVE-2021-35937 
+                        ├ [97]  ╭ VulnerabilityID : CVE-2021-35937 
                         │       ├ PkgID           : rpm-libs@4.16.1.3-22.el9.x86_64 
                         │       ├ PkgName         : rpm-libs 
                         │       ├ InstalledVersion: 4.16.1.3-22.el9 
@@ -4615,7 +4648,7 @@
                         │       │                         ull_papers/borisov/borisov.pdf 
                         │       ├ PublishedDate   : 2022-08-25T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-06-26T17:48:00Z 
-                        ├ [97]  ╭ VulnerabilityID : CVE-2021-35938 
+                        ├ [98]  ╭ VulnerabilityID : CVE-2021-35938 
                         │       ├ PkgID           : rpm-libs@4.16.1.3-22.el9.x86_64 
                         │       ├ PkgName         : rpm-libs 
                         │       ├ InstalledVersion: 4.16.1.3-22.el9 
@@ -4658,7 +4691,7 @@
                         │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2021-35938 
                         │       ├ PublishedDate   : 2022-08-25T20:15:00Z 
                         │       ╰ LastModifiedDate: 2022-11-29T18:06:00Z 
-                        ├ [98]  ╭ VulnerabilityID : CVE-2021-35939 
+                        ├ [99]  ╭ VulnerabilityID : CVE-2021-35939 
                         │       ├ PkgID           : rpm-libs@4.16.1.3-22.el9.x86_64 
                         │       ├ PkgName         : rpm-libs 
                         │       ├ InstalledVersion: 4.16.1.3-22.el9 
@@ -4700,7 +4733,7 @@
                         │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2021-35939 
                         │       ├ PublishedDate   : 2022-08-26T16:15:00Z 
                         │       ╰ LastModifiedDate: 2023-02-04T01:16:00Z 
-                        ├ [99]  ╭ VulnerabilityID : CVE-2023-28486 
+                        ├ [100] ╭ VulnerabilityID : CVE-2023-28486 
                         │       ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
                         │       ├ PkgName         : sudo 
                         │       ├ InstalledVersion: 1.9.5p2-9.el9 
@@ -4738,7 +4771,7 @@
                         │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28486 
                         │       ├ PublishedDate   : 2023-03-16T01:15:00Z 
                         │       ╰ LastModifiedDate: 2023-09-29T14:15:00Z 
-                        ├ [100] ╭ VulnerabilityID : CVE-2023-28487 
+                        ├ [101] ╭ VulnerabilityID : CVE-2023-28487 
                         │       ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
                         │       ├ PkgName         : sudo 
                         │       ├ InstalledVersion: 1.9.5p2-9.el9 
@@ -4777,43 +4810,71 @@
                         │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28487 
                         │       ├ PublishedDate   : 2023-03-16T01:15:00Z 
                         │       ╰ LastModifiedDate: 2023-09-29T14:15:00Z 
-                        ╰ [101] ╭ VulnerabilityID : CVE-2021-3997 
-                                ├ PkgID           : systemd-libs@252-14.el9_2.3.x86_64 
-                                ├ PkgName         : systemd-libs 
-                                ├ InstalledVersion: 252-14.el9_2.3 
-                                ├ Status          : affected 
+                        ├ [102] ╭ VulnerabilityID : CVE-2021-3997 
+                        │       ├ PkgID           : systemd-libs@252-14.el9_2.3.x86_64 
+                        │       ├ PkgName         : systemd-libs 
+                        │       ├ InstalledVersion: 252-14.el9_2.3 
+                        │       ├ Status          : affected 
+                        │       ├ Layer            ╭ Digest: sha256:516f7562f02267e05bc0f8b175363c70768471
+                        │       │                  │         b977360d0f0ab5711a8a6d25ab 
+                        │       │                  ╰ DiffID: sha256:07e751bf2dc8c84231cee7803f1400d85a0808
+                        │       │                            1213711f5d95714bff1a5a3c19 
+                        │       ├ SeveritySource  : redhat 
+                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-3997 
+                        │       ├ Title           : Uncontrolled recursion in systemd-tmpfiles when
+                        │       │                   removing files 
+                        │       ├ Description     : A flaw was found in systemd. An uncontrolled recursion
+                        │       │                    in systemd-tmpfiles may lead to a denial of service at
+                        │       │                   boot time when too many nested directories are created in
+                        │       │                   /tmp. 
+                        │       ├ Severity        : MEDIUM 
+                        │       ├ CweIDs           ─ [0]: CWE-674 
+                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+                        │       │                  │        │           :N/I:N/A:H 
+                        │       │                  │        ╰ V3Score : 5.5 
+                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+                        │       │                           │           :N/I:N/A:H 
+                        │       │                           ╰ V3Score : 5.5 
+                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-3997 
+                        │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2024639 
+                        │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │       │                  │      VE-2021-3997 
+                        │       │                  ├ [3]: https://github.com/systemd/systemd/commit/5b1cf7
+                        │       │                  │      a9be37e20133c0208005274ce4a5b5c6a1 
+                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2021-3997 
+                        │       │                  ├ [5]: https://security.gentoo.org/glsa/202305-15 
+                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-5226-1 
+                        │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2021-3997 
+                        │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2022
+                        │       │                         /01/10/2 
+                        │       ├ PublishedDate   : 2022-08-23T20:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
+                        ╰ [103] ╭ VulnerabilityID : CVE-2023-45853 
+                                ├ PkgID           : zlib@1.2.11-39.el9.x86_64 
+                                ├ PkgName         : zlib 
+                                ├ InstalledVersion: 1.2.11-39.el9 
+                                ├ Status          : under_investigation 
                                 ├ Layer            ╭ Digest: sha256:516f7562f02267e05bc0f8b175363c70768471
                                 │                  │         b977360d0f0ab5711a8a6d25ab 
                                 │                  ╰ DiffID: sha256:07e751bf2dc8c84231cee7803f1400d85a0808
                                 │                            1213711f5d95714bff1a5a3c19 
                                 ├ SeveritySource  : redhat 
-                                ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-3997 
-                                ├ Title           : Uncontrolled recursion in systemd-tmpfiles when
-                                │                   removing files 
-                                ├ Description     : A flaw was found in systemd. An uncontrolled recursion
-                                │                    in systemd-tmpfiles may lead to a denial of service at
-                                │                   boot time when too many nested directories are created in
-                                │                   /tmp. 
+                                ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45853 
+                                ├ Description     : MiniZip in zlib through 1.3 has an integer overflow
+                                │                   and resultant heap-based buffer overflow in
+                                │                   zipOpenNewFileInZip4_64 via a long filename, comment, or
+                                │                   extra field. NOTE: MiniZip is not a supported part of the
+                                │                   zlib product. 
                                 ├ Severity        : MEDIUM 
-                                ├ CweIDs           ─ [0]: CWE-674 
-                                ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
-                                │                  │        │           :N/I:N/A:H 
-                                │                  │        ╰ V3Score : 5.5 
-                                │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
-                                │                           │           :N/I:N/A:H 
-                                │                           ╰ V3Score : 5.5 
-                                ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-3997 
-                                │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2024639 
-                                │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-                                │                  │      VE-2021-3997 
-                                │                  ├ [3]: https://github.com/systemd/systemd/commit/5b1cf7
-                                │                  │      a9be37e20133c0208005274ce4a5b5c6a1 
-                                │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2021-3997 
-                                │                  ├ [5]: https://security.gentoo.org/glsa/202305-15 
-                                │                  ├ [6]: https://ubuntu.com/security/notices/USN-5226-1 
-                                │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2021-3997 
-                                │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2022
-                                │                         /01/10/2 
-                                ├ PublishedDate   : 2022-08-23T20:15:00Z 
-                                ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
+                                ├ References       ╭ [0]: https://chromium.googlesource.com/chromium/src/+
+                                │                  │      /d709fb23806858847131027da95ef4c548813356 
+                                │                  ├ [1]: https://chromium.googlesource.com/chromium/src/+
+                                │                  │      /de29dd6c7151d3cd37cb4cf0036800ddfb1d8b61 
+                                │                  ├ [2]: https://github.com/madler/zlib/blob/ac8f12c97d1a
+                                │                  │      fd9bafa9c710f827d40a407d3266/contrib/README.contrib#L
+                                │                  │      1-L4 
+                                │                  ├ [3]: https://github.com/madler/zlib/pull/843 
+                                │                  ╰ [4]: https://www.winimage.com/zLibDll/minizip.html 
+                                ├ PublishedDate   : 2023-10-14T02:15:00Z 
+                                ╰ LastModifiedDate: 2023-10-14T17:32:00Z 
 ````
