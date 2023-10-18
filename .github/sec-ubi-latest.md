@@ -474,7 +474,7 @@
                         │       │                  ├ [15]: https://ubuntu.com/security/notices/USN-6392-1 
                         │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-4504 
                         │       ├ PublishedDate   : 2023-09-21T23:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-07T03:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-16T19:32:00Z 
                         ├ [12]  ╭ VulnerabilityID : CVE-2021-25317 
                         │       ├ PkgID           : cups-libs@2.3.3op2-16.el9_2.1.x86_64 
                         │       ├ PkgName         : cups-libs 
@@ -526,10 +526,12 @@
                         │       ├ PublishedDate   : 2021-05-05T10:15:00Z 
                         │       ╰ LastModifiedDate: 2023-04-14T18:49:00Z 
                         ├ [13]  ╭ VulnerabilityID : CVE-2023-38545 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2023:5763 
                         │       ├ PkgID           : curl-minimal@7.76.1-23.el9_2.2.x86_64 
                         │       ├ PkgName         : curl-minimal 
                         │       ├ InstalledVersion: 7.76.1-23.el9_2.2 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 7.76.1-23.el9_2.4 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:516f7562f02267e05bc0f8b175363c70768471
                         │       │                  │         b977360d0f0ab5711a8a6d25ab 
                         │       │                  ╰ DiffID: sha256:07e751bf2dc8c84231cee7803f1400d85a0808
@@ -553,13 +555,19 @@
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C
                         │       │                           │           :H/I:H/A:H 
                         │       │                           ╰ V3Score : 7.5 
-                        │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-38545 
-                        │                          ├ [1]: https://curl.se/docs/CVE-2023-38545.html 
-                        │                          ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-                        │                          │      VE-2023-38545 
-                        │                          ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-38545 
-                        │                          ├ [4]: https://ubuntu.com/security/notices/USN-6429-1 
-                        │                          ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-38545 
+                        │       ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5763 
+                        │                          ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+                        │                          │       -38545 
+                        │                          ├ [2] : https://bugzilla.redhat.com/2241933 
+                        │                          ├ [3] : https://bugzilla.redhat.com/2241938 
+                        │                          ├ [4] : https://curl.se/docs/CVE-2023-38545.html 
+                        │                          ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                        │                          │       CVE-2023-38545 
+                        │                          ├ [6] : https://errata.almalinux.org/9/ALSA-2023-5763.html 
+                        │                          ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2023-38545 
+                        │                          ├ [8] : https://ubuntu.com/security/notices/USN-6429-1 
+                        │                          ├ [9] : https://ubuntu.com/security/notices/USN-6429-3 
+                        │                          ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-38545 
                         ├ [14]  ╭ VulnerabilityID : CVE-2023-27536 
                         │       ├ PkgID           : curl-minimal@7.76.1-23.el9_2.2.x86_64 
                         │       ├ PkgName         : curl-minimal 
@@ -765,10 +773,12 @@
                         │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-10-11T11:15:00Z 
                         ├ [18]  ╭ VulnerabilityID : CVE-2023-38546 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2023:5763 
                         │       ├ PkgID           : curl-minimal@7.76.1-23.el9_2.2.x86_64 
                         │       ├ PkgName         : curl-minimal 
                         │       ├ InstalledVersion: 7.76.1-23.el9_2.2 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 7.76.1-23.el9_2.4 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:516f7562f02267e05bc0f8b175363c70768471
                         │       │                  │         b977360d0f0ab5711a8a6d25ab 
                         │       │                  ╰ DiffID: sha256:07e751bf2dc8c84231cee7803f1400d85a0808
@@ -784,14 +794,20 @@
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C
                         │       │                           │           :L/I:L/A:L 
                         │       │                           ╰ V3Score : 5 
-                        │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-38546 
-                        │                          ├ [1]: https://curl.se/docs/CVE-2023-38546.html 
-                        │                          ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-                        │                          │      VE-2023-38546 
-                        │                          ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-38546 
-                        │                          ├ [4]: https://ubuntu.com/security/notices/USN-6429-1 
-                        │                          ├ [5]: https://ubuntu.com/security/notices/USN-6429-2 
-                        │                          ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-38546 
+                        │       ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5763 
+                        │                          ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+                        │                          │       -38546 
+                        │                          ├ [2] : https://bugzilla.redhat.com/2241933 
+                        │                          ├ [3] : https://bugzilla.redhat.com/2241938 
+                        │                          ├ [4] : https://curl.se/docs/CVE-2023-38546.html 
+                        │                          ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                        │                          │       CVE-2023-38546 
+                        │                          ├ [6] : https://errata.almalinux.org/9/ALSA-2023-5763.html 
+                        │                          ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2023-38546 
+                        │                          ├ [8] : https://ubuntu.com/security/notices/USN-6429-1 
+                        │                          ├ [9] : https://ubuntu.com/security/notices/USN-6429-2 
+                        │                          ├ [10]: https://ubuntu.com/security/notices/USN-6429-3 
+                        │                          ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-38546 
                         ├ [19]  ╭ VulnerabilityID : CVE-2022-48554 
                         │       ├ PkgID           : file-libs@5.39-12.1.el9_2.x86_64 
                         │       ├ PkgName         : file-libs 
@@ -1354,10 +1370,12 @@
                         │       ├ PublishedDate   : 2023-05-29T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-06-05T16:40:00Z 
                         ├ [33]  ╭ VulnerabilityID : CVE-2023-38545 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2023:5763 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.2.x86_64 
                         │       ├ PkgName         : libcurl-minimal 
                         │       ├ InstalledVersion: 7.76.1-23.el9_2.2 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 7.76.1-23.el9_2.4 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:516f7562f02267e05bc0f8b175363c70768471
                         │       │                  │         b977360d0f0ab5711a8a6d25ab 
                         │       │                  ╰ DiffID: sha256:07e751bf2dc8c84231cee7803f1400d85a0808
@@ -1381,13 +1399,19 @@
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C
                         │       │                           │           :H/I:H/A:H 
                         │       │                           ╰ V3Score : 7.5 
-                        │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-38545 
-                        │                          ├ [1]: https://curl.se/docs/CVE-2023-38545.html 
-                        │                          ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-                        │                          │      VE-2023-38545 
-                        │                          ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-38545 
-                        │                          ├ [4]: https://ubuntu.com/security/notices/USN-6429-1 
-                        │                          ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-38545 
+                        │       ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5763 
+                        │                          ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+                        │                          │       -38545 
+                        │                          ├ [2] : https://bugzilla.redhat.com/2241933 
+                        │                          ├ [3] : https://bugzilla.redhat.com/2241938 
+                        │                          ├ [4] : https://curl.se/docs/CVE-2023-38545.html 
+                        │                          ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                        │                          │       CVE-2023-38545 
+                        │                          ├ [6] : https://errata.almalinux.org/9/ALSA-2023-5763.html 
+                        │                          ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2023-38545 
+                        │                          ├ [8] : https://ubuntu.com/security/notices/USN-6429-1 
+                        │                          ├ [9] : https://ubuntu.com/security/notices/USN-6429-3 
+                        │                          ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-38545 
                         ├ [34]  ╭ VulnerabilityID : CVE-2023-27536 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.2.x86_64 
                         │       ├ PkgName         : libcurl-minimal 
@@ -1593,10 +1617,12 @@
                         │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-10-11T11:15:00Z 
                         ├ [38]  ╭ VulnerabilityID : CVE-2023-38546 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2023:5763 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.2.x86_64 
                         │       ├ PkgName         : libcurl-minimal 
                         │       ├ InstalledVersion: 7.76.1-23.el9_2.2 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 7.76.1-23.el9_2.4 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:516f7562f02267e05bc0f8b175363c70768471
                         │       │                  │         b977360d0f0ab5711a8a6d25ab 
                         │       │                  ╰ DiffID: sha256:07e751bf2dc8c84231cee7803f1400d85a0808
@@ -1612,14 +1638,20 @@
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C
                         │       │                           │           :L/I:L/A:L 
                         │       │                           ╰ V3Score : 5 
-                        │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-38546 
-                        │                          ├ [1]: https://curl.se/docs/CVE-2023-38546.html 
-                        │                          ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-                        │                          │      VE-2023-38546 
-                        │                          ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-38546 
-                        │                          ├ [4]: https://ubuntu.com/security/notices/USN-6429-1 
-                        │                          ├ [5]: https://ubuntu.com/security/notices/USN-6429-2 
-                        │                          ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-38546 
+                        │       ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5763 
+                        │                          ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+                        │                          │       -38546 
+                        │                          ├ [2] : https://bugzilla.redhat.com/2241933 
+                        │                          ├ [3] : https://bugzilla.redhat.com/2241938 
+                        │                          ├ [4] : https://curl.se/docs/CVE-2023-38546.html 
+                        │                          ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                        │                          │       CVE-2023-38546 
+                        │                          ├ [6] : https://errata.almalinux.org/9/ALSA-2023-5763.html 
+                        │                          ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2023-38546 
+                        │                          ├ [8] : https://ubuntu.com/security/notices/USN-6429-1 
+                        │                          ├ [9] : https://ubuntu.com/security/notices/USN-6429-2 
+                        │                          ├ [10]: https://ubuntu.com/security/notices/USN-6429-3 
+                        │                          ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-38546 
                         ├ [39]  ╭ VulnerabilityID : CVE-2023-4039 
                         │       ├ PkgID           : libgcc@11.3.1-4.3.el9.x86_64 
                         │       ├ PkgName         : libgcc 
@@ -4419,15 +4451,16 @@
                         │       │                   case-sensitive). 
                         │       ├ Severity        : MEDIUM 
                         │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2018-25091 
-                        │       │                  ├ [1]: https://github.com/urllib3/urllib3/commit/adb358
+                        │       │                  ├ [1]: https://github.com/urllib3/urllib3 
+                        │       │                  ├ [2]: https://github.com/urllib3/urllib3/commit/adb358
                         │       │                  │      f8e06865406d1f05e581a16cbea2136fbc 
-                        │       │                  ├ [2]: https://github.com/urllib3/urllib3/compare/1.24.
+                        │       │                  ├ [3]: https://github.com/urllib3/urllib3/compare/1.24.
                         │       │                  │      1...1.24.2 
-                        │       │                  ├ [3]: https://github.com/urllib3/urllib3/issues/1510 
-                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2018-25091 
-                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2018-25091 
+                        │       │                  ├ [4]: https://github.com/urllib3/urllib3/issues/1510 
+                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2018-25091 
+                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2018-25091 
                         │       ├ PublishedDate   : 2023-10-15T19:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-15T19:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-16T11:58:00Z 
                         ├ [93]  ╭ VulnerabilityID : CVE-2021-3572 
                         │       ├ PkgID           : python3-pip-wheel@21.2.3-6.el9.noarch 
                         │       ├ PkgName         : python3-pip-wheel 
@@ -4860,21 +4893,29 @@
                                 │                            1213711f5d95714bff1a5a3c19 
                                 ├ SeveritySource  : redhat 
                                 ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45853 
+                                ├ Title           : integer overflow and resultant heap-based buffer
+                                │                   overflow in zipOpenNewFileInZip4_6 
                                 ├ Description     : MiniZip in zlib through 1.3 has an integer overflow
                                 │                   and resultant heap-based buffer overflow in
                                 │                   zipOpenNewFileInZip4_64 via a long filename, comment, or
                                 │                   extra field. NOTE: MiniZip is not a supported part of the
                                 │                   zlib product. 
                                 ├ Severity        : MEDIUM 
-                                ├ References       ╭ [0]: https://chromium.googlesource.com/chromium/src/+
-                                │                  │      /d709fb23806858847131027da95ef4c548813356 
+                                ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+                                │                           │           :L/I:L/A:L 
+                                │                           ╰ V3Score : 5.3 
+                                ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-45853 
                                 │                  ├ [1]: https://chromium.googlesource.com/chromium/src/+
+                                │                  │      /d709fb23806858847131027da95ef4c548813356 
+                                │                  ├ [2]: https://chromium.googlesource.com/chromium/src/+
                                 │                  │      /de29dd6c7151d3cd37cb4cf0036800ddfb1d8b61 
-                                │                  ├ [2]: https://github.com/madler/zlib/blob/ac8f12c97d1a
+                                │                  ├ [3]: https://github.com/madler/zlib/blob/ac8f12c97d1a
                                 │                  │      fd9bafa9c710f827d40a407d3266/contrib/README.contrib#L
                                 │                  │      1-L4 
-                                │                  ├ [3]: https://github.com/madler/zlib/pull/843 
-                                │                  ╰ [4]: https://www.winimage.com/zLibDll/minizip.html 
+                                │                  ├ [4]: https://github.com/madler/zlib/pull/843 
+                                │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-45853 
+                                │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2023-45853 
+                                │                  ╰ [7]: https://www.winimage.com/zLibDll/minizip.html 
                                 ├ PublishedDate   : 2023-10-14T02:15:00Z 
                                 ╰ LastModifiedDate: 2023-10-14T17:32:00Z 
 ````
