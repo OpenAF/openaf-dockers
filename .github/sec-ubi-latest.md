@@ -585,7 +585,7 @@
                         │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-6429-3 
                         │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-38545 
                         │       ├ PublishedDate   : 2023-10-18T04:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-18T04:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-18T12:46:00Z 
                         ├ [14]  ╭ VulnerabilityID : CVE-2023-27536 
                         │       ├ PkgID           : curl-minimal@7.76.1-23.el9_2.2.x86_64 
                         │       ├ PkgName         : curl-minimal 
@@ -858,7 +858,7 @@
                         │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6429-3 
                         │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-38546 
                         │       ├ PublishedDate   : 2023-10-18T04:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-18T04:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-18T12:46:00Z 
                         ├ [19]  ╭ VulnerabilityID : CVE-2022-48554 
                         │       ├ PkgID           : file-libs@5.39-12.1.el9_2.x86_64 
                         │       ├ PkgName         : file-libs 
@@ -964,7 +964,8 @@
                         │       │                  │      3/09/msg00030.html 
                         │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-29499 
                         │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6165-1 
-                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-29499 
+                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6165-2 
+                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-29499 
                         │       ├ PublishedDate   : 2023-09-14T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-09-25T20:15:00Z 
                         ├ [22]  ╭ VulnerabilityID : CVE-2023-32611 
@@ -1001,7 +1002,8 @@
                         │       │                  │      3/09/msg00030.html 
                         │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-32611 
                         │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6165-1 
-                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-32611 
+                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6165-2 
+                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-32611 
                         │       ├ PublishedDate   : 2023-09-14T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-09-25T20:15:00Z 
                         ├ [23]  ╭ VulnerabilityID : CVE-2023-32636 
@@ -1041,7 +1043,8 @@
                         │       │                  │      [m 
                         │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-32636 
                         │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6165-1 
-                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-32636 
+                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6165-2 
+                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-32636 
                         │       ├ PublishedDate   : 2023-09-14T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-09-19T18:59:00Z 
                         ├ [24]  ╭ VulnerabilityID : CVE-2023-32665 
@@ -1078,7 +1081,8 @@
                         │       │                  │      3/09/msg00030.html 
                         │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-32665 
                         │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6165-1 
-                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-32665 
+                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6165-2 
+                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-32665 
                         │       ├ PublishedDate   : 2023-09-14T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-09-25T20:15:00Z 
                         ├ [25]  ╭ VulnerabilityID : CVE-2021-43618 
@@ -1235,10 +1239,12 @@
                         │       ├ PublishedDate   : 2023-02-04T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
                         ├ [28]  ╭ VulnerabilityID : CVE-2022-40433 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2023:5733 
                         │       ├ PkgID           : java-1.8.0-openjdk-headless@1.8.0.382.b05-2.el9.x86_64 
                         │       ├ PkgName         : java-1.8.0-openjdk-headless 
                         │       ├ InstalledVersion: 1:1.8.0.382.b05-2.el9 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 1:1.8.0.392.b08-3.el9 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:65e940e0477ea269d922e3da864e16ef3b3bfb
                         │       │                  │         4c774211c9bfe0477395cf4e40 
                         │       │                  ╰ DiffID: sha256:17fea5e7594d20f30998321d06728469a19262
@@ -1269,10 +1275,12 @@
                         │       ├ PublishedDate   : 2023-08-22T19:16:00Z 
                         │       ╰ LastModifiedDate: 2023-09-25T17:23:00Z 
                         ├ [29]  ╭ VulnerabilityID : CVE-2023-22067 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2023:5733 
                         │       ├ PkgID           : java-1.8.0-openjdk-headless@1.8.0.382.b05-2.el9.x86_64 
                         │       ├ PkgName         : java-1.8.0-openjdk-headless 
                         │       ├ InstalledVersion: 1:1.8.0.382.b05-2.el9 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 1:1.8.0.392.b08-3.el9 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:65e940e0477ea269d922e3da864e16ef3b3bfb
                         │       │                  │         4c774211c9bfe0477395cf4e40 
                         │       │                  ╰ DiffID: sha256:17fea5e7594d20f30998321d06728469a19262
@@ -1302,17 +1310,21 @@
                         │       │                           │           :N/I:L/A:N 
                         │       │                           ╰ V3Score : 5.3 
                         │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-22067 
-                        │       │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-22067 
-                        │       │                  ├ [2]: https://www.cve.org/CVERecord?id=CVE-2023-22067 
-                        │       │                  ╰ [3]: https://www.oracle.com/security-alerts/cpuoct202
+                        │       │                  ├ [1]: https://linux.oracle.com/cve/CVE-2023-22067.html 
+                        │       │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2023-5761.html 
+                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-22067 
+                        │       │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-22067 
+                        │       │                  ╰ [5]: https://www.oracle.com/security-alerts/cpuoct202
                         │       │                         3.html 
                         │       ├ PublishedDate   : 2023-10-17T22:15:00Z 
                         │       ╰ LastModifiedDate: 2023-10-18T01:28:00Z 
                         ├ [30]  ╭ VulnerabilityID : CVE-2023-22081 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2023:5733 
                         │       ├ PkgID           : java-1.8.0-openjdk-headless@1.8.0.382.b05-2.el9.x86_64 
                         │       ├ PkgName         : java-1.8.0-openjdk-headless 
                         │       ├ InstalledVersion: 1:1.8.0.382.b05-2.el9 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 1:1.8.0.392.b08-3.el9 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:65e940e0477ea269d922e3da864e16ef3b3bfb
                         │       │                  │         4c774211c9bfe0477395cf4e40 
                         │       │                  ╰ DiffID: sha256:17fea5e7594d20f30998321d06728469a19262
@@ -1350,7 +1362,7 @@
                         │       │                           ╰ V3Score : 5.3 
                         │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-22081 
                         │       │                  ├ [1]: https://linux.oracle.com/cve/CVE-2023-22081.html 
-                        │       │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2023-5736.html 
+                        │       │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2023-5761.html 
                         │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-22081 
                         │       │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-22081 
                         │       │                  ╰ [5]: https://www.oracle.com/security-alerts/cpuoct202
@@ -1569,7 +1581,7 @@
                         │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-6429-3 
                         │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-38545 
                         │       ├ PublishedDate   : 2023-10-18T04:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-18T04:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-18T12:46:00Z 
                         ├ [36]  ╭ VulnerabilityID : CVE-2023-27536 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.2.x86_64 
                         │       ├ PkgName         : libcurl-minimal 
@@ -1842,7 +1854,7 @@
                         │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6429-3 
                         │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-38546 
                         │       ├ PublishedDate   : 2023-10-18T04:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-18T04:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-18T12:46:00Z 
                         ├ [41]  ╭ VulnerabilityID : CVE-2023-4039 
                         │       ├ PkgID           : libgcc@11.3.1-4.3.el9.x86_64 
                         │       ├ PkgName         : libgcc 
@@ -1970,225 +1982,235 @@
                         │       │                   August through October 2023. 
                         │       ├ Severity        : HIGH 
                         │       ├ CweIDs           ─ [0]: CWE-400 
-                        │       ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-                        │       │                  │        │           :N/I:N/A:L 
-                        │       │                  │        ╰ V3Score : 5.3 
-                        │       │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-                        │       │                  │        │           :N/I:N/A:H 
-                        │       │                  │        ╰ V3Score : 7.5 
-                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-                        │       │                           │           :N/I:N/A:H 
-                        │       │                           ╰ V3Score : 7.5 
+                        │       ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+                        │       │                  │         │           C:N/I:N/A:H 
+                        │       │                  │         ╰ V3Score : 7.5 
+                        │       │                  ├ ghsa    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+                        │       │                  │         │           C:N/I:N/A:L 
+                        │       │                  │         ╰ V3Score : 5.3 
+                        │       │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+                        │       │                  │         │           C:N/I:N/A:H 
+                        │       │                  │         ╰ V3Score : 7.5 
+                        │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+                        │       │                            │           C:N/I:N/A:H 
+                        │       │                            ╰ V3Score : 7.5 
                         │       ├ References       ╭ [0]  : http://www.openwall.com/lists/oss-security/202
                         │       │                  │        3/10/13/4 
                         │       │                  ├ [1]  : http://www.openwall.com/lists/oss-security/202
                         │       │                  │        3/10/13/9 
-                        │       │                  ├ [2]  : https://access.redhat.com/errata/RHSA-2023:5765 
-                        │       │                  ├ [3]  : https://access.redhat.com/security/cve/CVE-202
+                        │       │                  ├ [2]  : http://www.openwall.com/lists/oss-security/202
+                        │       │                  │        3/10/18/4 
+                        │       │                  ├ [3]  : http://www.openwall.com/lists/oss-security/202
+                        │       │                  │        3/10/18/8 
+                        │       │                  ├ [4]  : https://access.redhat.com/errata/RHSA-2023:5867 
+                        │       │                  ├ [5]  : https://access.redhat.com/security/cve/CVE-202
                         │       │                  │        3-44487 
-                        │       │                  ├ [4]  : https://access.redhat.com/security/cve/cve-202
+                        │       │                  ├ [6]  : https://access.redhat.com/security/cve/cve-202
                         │       │                  │        3-44487 
-                        │       │                  ├ [5]  : https://arstechnica.com/security/2023/10/how-d
+                        │       │                  ├ [7]  : https://arstechnica.com/security/2023/10/how-d
                         │       │                  │        dosers-used-the-http-2-protocol-to-deliver-attacks-
                         │       │                  │        of-unprecedented-size/ 
-                        │       │                  ├ [6]  : https://aws.amazon.com/security/security-bulle
+                        │       │                  ├ [8]  : https://aws.amazon.com/security/security-bulle
                         │       │                  │        tins/AWS-2023-011/ 
-                        │       │                  ├ [7]  : https://blog.cloudflare.com/technical-breakdow
+                        │       │                  ├ [9]  : https://blog.cloudflare.com/technical-breakdow
                         │       │                  │        n-http2-rapid-reset-ddos-attack/ 
-                        │       │                  ├ [8]  : https://blog.cloudflare.com/zero-day-rapid-res
+                        │       │                  ├ [10] : https://blog.cloudflare.com/zero-day-rapid-res
                         │       │                  │        et-http2-record-breaking-ddos-attack/ 
-                        │       │                  ├ [9]  : https://blog.litespeedtech.com/2023/10/11/rapi
+                        │       │                  ├ [11] : https://blog.litespeedtech.com/2023/10/11/rapi
                         │       │                  │        d-reset-http-2-vulnerablilty/ 
-                        │       │                  ├ [10] : https://blog.qualys.com/vulnerabilities-threat
+                        │       │                  ├ [12] : https://blog.qualys.com/vulnerabilities-threat
                         │       │                  │        -research/2023/10/10/cve-2023-44487-http-2-rapid-re
                         │       │                  │        set-attack 
-                        │       │                  ├ [11] : https://blog.vespa.ai/cve-2023-44487/ 
-                        │       │                  ├ [12] : https://bugzilla.proxmox.com/show_bug.cgi?id=4988 
-                        │       │                  ├ [13] : https://bugzilla.redhat.com/2242803 
-                        │       │                  ├ [14] : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
-                        │       │                  ├ [15] : https://bugzilla.suse.com/show_bug.cgi?id=1216123 
-                        │       │                  ├ [16] : https://cgit.freebsd.org/ports/commit/?id=c64c
+                        │       │                  ├ [13] : https://blog.vespa.ai/cve-2023-44487/ 
+                        │       │                  ├ [14] : https://bugzilla.proxmox.com/show_bug.cgi?id=4988 
+                        │       │                  ├ [15] : https://bugzilla.redhat.com/2242803 
+                        │       │                  ├ [16] : https://bugzilla.redhat.com/2243296 
+                        │       │                  ├ [17] : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
+                        │       │                  ├ [18] : https://bugzilla.suse.com/show_bug.cgi?id=1216123 
+                        │       │                  ├ [19] : https://cgit.freebsd.org/ports/commit/?id=c64c
                         │       │                  │        329c2c1752f46b73e3e6ce9f4329be6629f9 
-                        │       │                  ├ [17] : https://chaos.social/@icing/111210915918780532 
-                        │       │                  ├ [18] : https://cloud.google.com/blog/products/identit
+                        │       │                  ├ [20] : https://chaos.social/@icing/111210915918780532 
+                        │       │                  ├ [21] : https://cloud.google.com/blog/products/identit
                         │       │                  │        y-security/google-cloud-mitigated-largest-ddos-atta
                         │       │                  │        ck-peaking-above-398-million-rps/ 
-                        │       │                  ├ [19] : https://cloud.google.com/blog/products/identit
+                        │       │                  ├ [22] : https://cloud.google.com/blog/products/identit
                         │       │                  │        y-security/how-it-works-the-novel-http2-rapid-reset
                         │       │                  │        -ddos-attack 
-                        │       │                  ├ [20] : https://community.traefik.io/t/is-traefik-vuln
+                        │       │                  ├ [23] : https://community.traefik.io/t/is-traefik-vuln
                         │       │                  │        erable-to-cve-2023-44487/20125 
-                        │       │                  ├ [21] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
+                        │       │                  ├ [24] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
                         │       │                  │        =CVE-2023-44487 
-                        │       │                  ├ [22] : https://devblogs.microsoft.com/dotnet/october-
+                        │       │                  ├ [25] : https://devblogs.microsoft.com/dotnet/october-
                         │       │                  │        2023-updates/ 
-                        │       │                  ├ [23] : https://edg.io/lp/blog/resets-leaks-ddos-and-t
+                        │       │                  ├ [26] : https://edg.io/lp/blog/resets-leaks-ddos-and-t
                         │       │                  │        he-tale-of-a-hidden-cve 
-                        │       │                  ├ [24] : https://errata.almalinux.org/9/ALSA-2023-5765.html 
-                        │       │                  ├ [25] : https://forums.swift.org/t/swift-nio-http2-sec
+                        │       │                  ├ [27] : https://errata.almalinux.org/9/ALSA-2023-5867.html 
+                        │       │                  ├ [28] : https://forums.swift.org/t/swift-nio-http2-sec
                         │       │                  │        urity-update-cve-2023-44487-http-2-dos/67764
                         │       │                  │        [m 
-                        │       │                  ├ [26] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b
+                        │       │                  ├ [29] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b
                         │       │                  │        35a5e131c66a0c088 
-                        │       │                  ├ [27] : https://github.com/Azure/AKS/issues/3947 
-                        │       │                  ├ [28] : https://github.com/Kong/kong/discussions/11741 
-                        │       │                  ├ [29] : https://github.com/advisories/GHSA-qppj-fm5r-hxr3 
-                        │       │                  ├ [30] : https://github.com/advisories/GHSA-vx74-f528-fxqg 
-                        │       │                  ├ [31] : https://github.com/advisories/GHSA-xpw8-rcwv-8f8p 
-                        │       │                  ├ [32] : https://github.com/akka/akka-http/issues/4323 
-                        │       │                  ├ [33] : https://github.com/alibaba/tengine/issues/1872 
-                        │       │                  ├ [34] : https://github.com/apache/apisix/issues/10320 
-                        │       │                  ├ [35] : https://github.com/apache/httpd-site/pull/10 
-                        │       │                  ├ [36] : https://github.com/apache/httpd/blob/afcdbeebb
+                        │       │                  ├ [30] : https://github.com/Azure/AKS/issues/3947 
+                        │       │                  ├ [31] : https://github.com/Kong/kong/discussions/11741 
+                        │       │                  ├ [32] : https://github.com/advisories/GHSA-qppj-fm5r-hxr3 
+                        │       │                  ├ [33] : https://github.com/advisories/GHSA-vx74-f528-fxqg 
+                        │       │                  ├ [34] : https://github.com/advisories/GHSA-xpw8-rcwv-8f8p 
+                        │       │                  ├ [35] : https://github.com/akka/akka-http/issues/4323 
+                        │       │                  ├ [36] : https://github.com/alibaba/tengine/issues/1872 
+                        │       │                  ├ [37] : https://github.com/apache/apisix/issues/10320 
+                        │       │                  ├ [38] : https://github.com/apache/httpd-site/pull/10 
+                        │       │                  ├ [39] : https://github.com/apache/httpd/blob/afcdbeebb
                         │       │                  │        ff4b0c50ea26cdd16e178c0d1f24152/modules/http2/h2_mp
                         │       │                  │        lx.c#L1101-L1113 
-                        │       │                  ├ [37] : https://github.com/apache/tomcat/tree/main/jav
+                        │       │                  ├ [40] : https://github.com/apache/tomcat/tree/main/jav
                         │       │                  │        a/org/apache/coyote/http2 
-                        │       │                  ├ [38] : https://github.com/apache/trafficserver/pull/10564 
-                        │       │                  ├ [39] : https://github.com/apple/swift-nio-http2 
-                        │       │                  ├ [40] : https://github.com/apple/swift-nio-http2/secur
+                        │       │                  ├ [41] : https://github.com/apache/trafficserver/pull/10564 
+                        │       │                  ├ [42] : https://github.com/apple/swift-nio-http2 
+                        │       │                  ├ [43] : https://github.com/apple/swift-nio-http2/secur
                         │       │                  │        ity/advisories/GHSA-qppj-fm5r-hxr3 
-                        │       │                  ├ [41] : https://github.com/arkrwn/PoC/tree/main/CVE-20
+                        │       │                  ├ [44] : https://github.com/arkrwn/PoC/tree/main/CVE-20
                         │       │                  │        23-44487 
-                        │       │                  ├ [42] : https://github.com/bcdannyboy/CVE-2023-44487 
-                        │       │                  ├ [43] : https://github.com/caddyserver/caddy/issues/5877 
-                        │       │                  ├ [44] : https://github.com/caddyserver/caddy/releases/
+                        │       │                  ├ [45] : https://github.com/bcdannyboy/CVE-2023-44487 
+                        │       │                  ├ [46] : https://github.com/caddyserver/caddy/issues/5877 
+                        │       │                  ├ [47] : https://github.com/caddyserver/caddy/releases/
                         │       │                  │        tag/v2.7.5 
-                        │       │                  ├ [45] : https://github.com/dotnet/announcements/issues/277 
-                        │       │                  ├ [46] : https://github.com/dotnet/core/blob/e4613450ea
+                        │       │                  ├ [48] : https://github.com/dotnet/announcements/issues/277 
+                        │       │                  ├ [49] : https://github.com/dotnet/core/blob/e4613450ea
                         │       │                  │        0da7fd2fc6b61dfb2c1c1dec1ce9ec/release-notes/6.0/6.
                         │       │                  │        0.23/6.0.23.md?plain=1#L73 
-                        │       │                  ├ [47] : https://github.com/eclipse/jetty.project/issue
+                        │       │                  ├ [50] : https://github.com/eclipse/jetty.project/issue
                         │       │                  │        s/10679 
-                        │       │                  ├ [48] : https://github.com/envoyproxy/envoy/pull/30055 
-                        │       │                  ├ [49] : https://github.com/etcd-io/etcd/issues/16740 
-                        │       │                  ├ [50] : https://github.com/facebook/proxygen/pull/466 
-                        │       │                  ├ [51] : https://github.com/golang/go/issues/63417 
-                        │       │                  ├ [52] : https://github.com/grpc/grpc-go/pull/6703 
-                        │       │                  ├ [53] : https://github.com/h2o/h2o/pull/3291 
-                        │       │                  ├ [54] : https://github.com/h2o/h2o/security/advisories
+                        │       │                  ├ [51] : https://github.com/envoyproxy/envoy/pull/30055 
+                        │       │                  ├ [52] : https://github.com/etcd-io/etcd/issues/16740 
+                        │       │                  ├ [53] : https://github.com/facebook/proxygen/pull/466 
+                        │       │                  ├ [54] : https://github.com/golang/go/issues/63417 
+                        │       │                  ├ [55] : https://github.com/grpc/grpc-go/pull/6703 
+                        │       │                  ├ [56] : https://github.com/h2o/h2o/pull/3291 
+                        │       │                  ├ [57] : https://github.com/h2o/h2o/security/advisories
                         │       │                  │        /GHSA-2m7v-gc89-fjqf 
-                        │       │                  ├ [55] : https://github.com/haproxy/haproxy/issues/2312 
-                        │       │                  ├ [56] : https://github.com/hyperium/hyper/issues/3337 
-                        │       │                  ├ [57] : https://github.com/icing/mod_h2/blob/0a864782a
+                        │       │                  ├ [58] : https://github.com/haproxy/haproxy/issues/2312 
+                        │       │                  ├ [59] : https://github.com/hyperium/hyper/issues/3337 
+                        │       │                  ├ [60] : https://github.com/icing/mod_h2/blob/0a864782a
                         │       │                  │        f0a942aa2ad4ed960a6b32cd35bcf0a/mod_http2/README.md
                         │       │                  │        ?plain=1#L239-L244 
-                        │       │                  ├ [58] : https://github.com/junkurihara/rust-rpxy/issues/97 
-                        │       │                  ├ [59] : https://github.com/kazu-yamamoto/http2/commit/
+                        │       │                  ├ [61] : https://github.com/junkurihara/rust-rpxy/issues/97 
+                        │       │                  ├ [62] : https://github.com/kazu-yamamoto/http2/commit/
                         │       │                  │        f61d41a502bd0f60eb24e1ce14edc7b6df6722a1 
-                        │       │                  ├ [60] : https://github.com/kazu-yamamoto/http2/issues/93 
-                        │       │                  ├ [61] : https://github.com/kubernetes/kubernetes/pull/
+                        │       │                  ├ [63] : https://github.com/kazu-yamamoto/http2/issues/93 
+                        │       │                  ├ [64] : https://github.com/kubernetes/kubernetes/pull/
                         │       │                  │        121120 
-                        │       │                  ├ [62] : https://github.com/line/armeria/pull/5232 
-                        │       │                  ├ [63] : https://github.com/linkerd/website/pull/1695/c
+                        │       │                  ├ [65] : https://github.com/line/armeria/pull/5232 
+                        │       │                  ├ [66] : https://github.com/linkerd/website/pull/1695/c
                         │       │                  │        ommits/4b9c6836471bc8270ab48aae6fd2181bc73fd632
                         │       │                  │        [m 
-                        │       │                  ├ [64] : https://github.com/micrictor/http2-rst-stream 
-                        │       │                  ├ [65] : https://github.com/microsoft/CBL-Mariner/pull/6381 
-                        │       │                  ├ [66] : https://github.com/netty/netty/commit/58f75f66
+                        │       │                  ├ [67] : https://github.com/micrictor/http2-rst-stream 
+                        │       │                  ├ [68] : https://github.com/microsoft/CBL-Mariner/pull/6381 
+                        │       │                  ├ [69] : https://github.com/netty/netty/commit/58f75f66
                         │       │                  │        5aa81a8cbcf6ffa74820042a285c5e61 
-                        │       │                  ├ [67] : https://github.com/nghttp2/nghttp2/pull/1961 
-                        │       │                  ├ [68] : https://github.com/nghttp2/nghttp2/releases/ta
+                        │       │                  ├ [70] : https://github.com/nghttp2/nghttp2/pull/1961 
+                        │       │                  ├ [71] : https://github.com/nghttp2/nghttp2/releases/ta
                         │       │                  │        g/v1.57.0 
-                        │       │                  ├ [69] : https://github.com/ninenines/cowboy/issues/1615 
-                        │       │                  ├ [70] : https://github.com/nodejs/node/pull/50121 
-                        │       │                  ├ [71] : https://github.com/openresty/openresty/issues/930 
-                        │       │                  ├ [72] : https://github.com/opensearch-project/data-pre
+                        │       │                  ├ [72] : https://github.com/ninenines/cowboy/issues/1615 
+                        │       │                  ├ [73] : https://github.com/nodejs/node/pull/50121 
+                        │       │                  ├ [74] : https://github.com/openresty/openresty/issues/930 
+                        │       │                  ├ [75] : https://github.com/opensearch-project/data-pre
                         │       │                  │        pper/issues/3474 
-                        │       │                  ├ [73] : https://github.com/oqtane/oqtane.framework/dis
+                        │       │                  ├ [76] : https://github.com/oqtane/oqtane.framework/dis
                         │       │                  │        cussions/3367 
-                        │       │                  ├ [74] : https://github.com/projectcontour/contour/pull/5826 
-                        │       │                  ├ [75] : https://github.com/tempesta-tech/tempesta/issu
+                        │       │                  ├ [77] : https://github.com/projectcontour/contour/pull/5826 
+                        │       │                  ├ [78] : https://github.com/tempesta-tech/tempesta/issu
                         │       │                  │        es/1986 
-                        │       │                  ├ [76] : https://github.com/varnishcache/varnish-cache/
+                        │       │                  ├ [79] : https://github.com/varnishcache/varnish-cache/
                         │       │                  │        issues/3996 
-                        │       │                  ├ [77] : https://go.dev/cl/534215 
-                        │       │                  ├ [78] : https://go.dev/cl/534235 
-                        │       │                  ├ [79] : https://go.dev/issue/63417 
-                        │       │                  ├ [80] : https://groups.google.com/g/golang-announce/c/
+                        │       │                  ├ [80] : https://go.dev/cl/534215 
+                        │       │                  ├ [81] : https://go.dev/cl/534235 
+                        │       │                  ├ [82] : https://go.dev/issue/63417 
+                        │       │                  ├ [83] : https://groups.google.com/g/golang-announce/c/
                         │       │                  │        iNNxDTCjZvo 
-                        │       │                  ├ [81] : https://groups.google.com/g/golang-announce/c/
+                        │       │                  ├ [84] : https://groups.google.com/g/golang-announce/c/
                         │       │                  │        iNNxDTCjZvo/m/UDd7VKQuAAAJ 
-                        │       │                  ├ [82] : https://istio.io/latest/news/security/istio-se
+                        │       │                  ├ [85] : https://istio.io/latest/news/security/istio-se
                         │       │                  │        curity-2023-004/ 
-                        │       │                  ├ [83] : https://linkerd.io/2023/10/12/linkerd-cve-2023
+                        │       │                  ├ [86] : https://linkerd.io/2023/10/12/linkerd-cve-2023
                         │       │                  │        -44487/ 
-                        │       │                  ├ [84] : https://linux.oracle.com/cve/CVE-2023-44487.html 
-                        │       │                  ├ [85] : https://linux.oracle.com/errata/ELSA-2023-5749.html 
-                        │       │                  ├ [86] : https://lists.apache.org/thread/5py8h42mxfsn8l
+                        │       │                  ├ [87] : https://linux.oracle.com/cve/CVE-2023-44487.html 
+                        │       │                  ├ [88] : https://linux.oracle.com/errata/ELSA-2023-5838.html 
+                        │       │                  ├ [89] : https://lists.apache.org/thread/5py8h42mxfsn8l
                         │       │                  │        1wy6o41xwhsjlsd87q 
-                        │       │                  ├ [87] : https://lists.debian.org/debian-lts-announce/2
+                        │       │                  ├ [90] : https://lists.debian.org/debian-lts-announce/2
                         │       │                  │        023/10/msg00020.html 
-                        │       │                  ├ [88] : https://lists.debian.org/debian-lts-announce/2
+                        │       │                  ├ [91] : https://lists.debian.org/debian-lts-announce/2
                         │       │                  │        023/10/msg00023.html 
-                        │       │                  ├ [89] : https://lists.debian.org/debian-lts-announce/2
+                        │       │                  ├ [92] : https://lists.debian.org/debian-lts-announce/2
                         │       │                  │        023/10/msg00024.html 
-                        │       │                  ├ [90] : https://lists.fedoraproject.org/archives/list/
+                        │       │                  ├ [93] : https://lists.fedoraproject.org/archives/list/
                         │       │                  │        package-announce@lists.fedoraproject.org/message/JM
                         │       │                  │        EXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/ 
-                        │       │                  ├ [91] : https://lists.w3.org/Archives/Public/ietf-http
+                        │       │                  ├ [94] : https://lists.w3.org/Archives/Public/ietf-http
                         │       │                  │        -wg/2023OctDec/0025.html 
-                        │       │                  ├ [92] : https://mailman.nginx.org/pipermail/nginx-deve
+                        │       │                  ├ [95] : https://mailman.nginx.org/pipermail/nginx-deve
                         │       │                  │        l/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.htm
                         │       │                  │        l 
-                        │       │                  ├ [93] : https://martinthomson.github.io/h2-stream-limi
+                        │       │                  ├ [96] : https://martinthomson.github.io/h2-stream-limi
                         │       │                  │        ts/draft-thomson-httpbis-h2-stream-limits.html[
                         │       │                  │        m 
-                        │       │                  ├ [94] : https://msrc.microsoft.com/blog/2023/10/micros
+                        │       │                  ├ [97] : https://msrc.microsoft.com/blog/2023/10/micros
                         │       │                  │        oft-response-to-distributed-denial-of-service-ddos-
                         │       │                  │        attacks-against-http/2/ 
-                        │       │                  ├ [95] : https://msrc.microsoft.com/update-guide/vulner
+                        │       │                  ├ [98] : https://msrc.microsoft.com/update-guide/vulner
                         │       │                  │        ability/CVE-2023-44487 
-                        │       │                  ├ [96] : https://my.f5.com/manage/s/article/K000137106 
-                        │       │                  ├ [97] : https://netty.io/news/2023/10/10/4-1-100-Final.html 
-                        │       │                  ├ [98] : https://news.ycombinator.com/item?id=37830987 
-                        │       │                  ├ [99] : https://news.ycombinator.com/item?id=37830998 
-                        │       │                  ├ [100]: https://news.ycombinator.com/item?id=37831062 
-                        │       │                  ├ [101]: https://news.ycombinator.com/item?id=37837043 
-                        │       │                  ├ [102]: https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
-                        │       │                  ├ [103]: https://openssf.org/blog/2023/10/10/http-2-rap
+                        │       │                  ├ [99] : https://my.f5.com/manage/s/article/K000137106 
+                        │       │                  ├ [100]: https://netty.io/news/2023/10/10/4-1-100-Final.html 
+                        │       │                  ├ [101]: https://news.ycombinator.com/item?id=37830987 
+                        │       │                  ├ [102]: https://news.ycombinator.com/item?id=37830998 
+                        │       │                  ├ [103]: https://news.ycombinator.com/item?id=37831062 
+                        │       │                  ├ [104]: https://news.ycombinator.com/item?id=37837043 
+                        │       │                  ├ [105]: https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
+                        │       │                  ├ [106]: https://openssf.org/blog/2023/10/10/http-2-rap
                         │       │                  │        id-reset-vulnerability-highlights-need-for-rapid-re
                         │       │                  │        sponse/ 
-                        │       │                  ├ [104]: https://pkg.go.dev/vuln/GO-2023-2102 
-                        │       │                  ├ [105]: https://seanmonstar.com/post/73079415113693593
+                        │       │                  ├ [107]: https://pkg.go.dev/vuln/GO-2023-2102 
+                        │       │                  ├ [108]: https://seanmonstar.com/post/73079415113693593
                         │       │                  │        6/hyper-http2-rapid-reset-unaffected 
-                        │       │                  ├ [106]: https://security.netapp.com/advisory/ntap-2023
+                        │       │                  ├ [109]: https://security.netapp.com/advisory/ntap-2023
                         │       │                  │        1016-0001/ 
-                        │       │                  ├ [107]: https://security.paloaltonetworks.com/CVE-2023
+                        │       │                  ├ [110]: https://security.paloaltonetworks.com/CVE-2023
                         │       │                  │        -44487 
-                        │       │                  ├ [108]: https://tomcat.apache.org/security-10.html#Fix
+                        │       │                  ├ [111]: https://tomcat.apache.org/security-10.html#Fix
                         │       │                  │        ed_in_Apache_Tomcat_10.1.14 
-                        │       │                  ├ [109]: https://ubuntu.com/security/CVE-2023-44487 
-                        │       │                  ├ [110]: https://ubuntu.com/security/notices/USN-6427-1 
-                        │       │                  ├ [111]: https://www.bleepingcomputer.com/news/security
+                        │       │                  ├ [112]: https://ubuntu.com/security/CVE-2023-44487 
+                        │       │                  ├ [113]: https://ubuntu.com/security/notices/USN-6427-1 
+                        │       │                  ├ [114]: https://ubuntu.com/security/notices/USN-6427-2 
+                        │       │                  ├ [115]: https://ubuntu.com/security/notices/USN-6438-1 
+                        │       │                  ├ [116]: https://www.bleepingcomputer.com/news/security
                         │       │                  │        /new-http-2-rapid-reset-zero-day-attack-breaks-ddos
                         │       │                  │        -records/ 
-                        │       │                  ├ [112]: https://www.cisa.gov/news-events/alerts/2023/1
+                        │       │                  ├ [117]: https://www.cisa.gov/news-events/alerts/2023/1
                         │       │                  │        0/10/http2-rapid-reset-vulnerability-cve-2023-44487
                         │       │                  │         
-                        │       │                  ├ [113]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
-                        │       │                  ├ [114]: https://www.darkreading.com/cloud/internet-wid
+                        │       │                  ├ [118]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
+                        │       │                  ├ [119]: https://www.darkreading.com/cloud/internet-wid
                         │       │                  │        e-zero-day-bug-fuels-largest-ever-ddos-event
                         │       │                  │        [m 
-                        │       │                  ├ [115]: https://www.debian.org/security/2023/dsa-5521 
-                        │       │                  ├ [116]: https://www.debian.org/security/2023/dsa-5522 
-                        │       │                  ├ [117]: https://www.haproxy.com/blog/haproxy-is-not-af
+                        │       │                  ├ [120]: https://www.debian.org/security/2023/dsa-5521 
+                        │       │                  ├ [121]: https://www.debian.org/security/2023/dsa-5522 
+                        │       │                  ├ [122]: https://www.haproxy.com/blog/haproxy-is-not-af
                         │       │                  │        fected-by-the-http-2-rapid-reset-attack-cve-2023-44
                         │       │                  │        487 
-                        │       │                  ├ [118]: https://www.mail-archive.com/haproxy@formilux.
+                        │       │                  ├ [123]: https://www.mail-archive.com/haproxy@formilux.
                         │       │                  │        org/msg44134.html 
-                        │       │                  ├ [119]: https://www.netlify.com/blog/netlify-successfu
+                        │       │                  ├ [124]: https://www.netlify.com/blog/netlify-successfu
                         │       │                  │        lly-mitigates-cve-2023-44487/ 
-                        │       │                  ├ [120]: https://www.nginx.com/blog/http-2-rapid-reset-
+                        │       │                  ├ [125]: https://www.nginx.com/blog/http-2-rapid-reset-
                         │       │                  │        attack-impacting-f5-nginx-products/ 
-                        │       │                  ├ [121]: https://www.openwall.com/lists/oss-security/20
+                        │       │                  ├ [126]: https://www.openwall.com/lists/oss-security/20
                         │       │                  │        23/10/10/6 
-                        │       │                  ├ [122]: https://www.phoronix.com/news/HTTP2-Rapid-Rese
+                        │       │                  ├ [127]: https://www.phoronix.com/news/HTTP2-Rapid-Rese
                         │       │                  │        t-Attack 
-                        │       │                  ╰ [123]: https://www.theregister.com/2023/10/10/http2_r
+                        │       │                  ╰ [128]: https://www.theregister.com/2023/10/10/http2_r
                         │       │                           apid_reset_zeroday/ 
                         │       ├ PublishedDate   : 2023-10-10T14:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-17T01:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-19T03:15:00Z 
                         ├ [44]  ╭ VulnerabilityID : CVE-2022-3857 
                         │       ├ PkgID           : libpng@1.6.37-12.el9.x86_64 
                         │       ├ PkgName         : libpng 
@@ -4885,15 +4907,20 @@
                         │       │                   of an incomplete fix for CVE-2018-20060 (which was
                         │       │                   case-sensitive). 
                         │       ├ Severity        : MEDIUM 
+                        │       ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L
+                        │       │                         │           /I:L/A:N 
+                        │       │                         ╰ V3Score : 6.1 
                         │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2018-25091 
-                        │       │                  ├ [1]: https://github.com/urllib3/urllib3 
-                        │       │                  ├ [2]: https://github.com/urllib3/urllib3/commit/adb358
+                        │       │                  ├ [1]: https://github.com/pypa/advisory-database/tree/m
+                        │       │                  │      ain/vulns/urllib3/PYSEC-2023-207.yaml 
+                        │       │                  ├ [2]: https://github.com/urllib3/urllib3 
+                        │       │                  ├ [3]: https://github.com/urllib3/urllib3/commit/adb358
                         │       │                  │      f8e06865406d1f05e581a16cbea2136fbc 
-                        │       │                  ├ [3]: https://github.com/urllib3/urllib3/compare/1.24.
+                        │       │                  ├ [4]: https://github.com/urllib3/urllib3/compare/1.24.
                         │       │                  │      1...1.24.2 
-                        │       │                  ├ [4]: https://github.com/urllib3/urllib3/issues/1510 
-                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2018-25091 
-                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2018-25091 
+                        │       │                  ├ [5]: https://github.com/urllib3/urllib3/issues/1510 
+                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2018-25091 
+                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2018-25091 
                         │       ├ PublishedDate   : 2023-10-15T19:15:00Z 
                         │       ╰ LastModifiedDate: 2023-10-16T11:58:00Z 
                         ├ [96]  ╭ VulnerabilityID : CVE-2021-3572 
