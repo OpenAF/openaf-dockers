@@ -646,7 +646,7 @@
                         │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-5964-2 
                         │       │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2023-27536 
                         │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-11T11:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-20T18:44:00Z 
                         ├ [15]  ╭ VulnerabilityID : CVE-2023-27533 
                         │       ├ PkgID           : curl-minimal@7.76.1-23.el9_2.2.x86_64 
                         │       ├ PkgName         : curl-minimal 
@@ -695,7 +695,7 @@
                         │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-5964-2 
                         │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-27533 
                         │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-11T11:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-20T18:51:00Z 
                         ├ [16]  ╭ VulnerabilityID : CVE-2023-27534 
                         │       ├ PkgID           : curl-minimal@7.76.1-23.el9_2.2.x86_64 
                         │       ├ PkgName         : curl-minimal 
@@ -740,7 +740,7 @@
                         │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-5964-1 
                         │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27534 
                         │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-11T11:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-20T18:45:00Z 
                         ├ [17]  ╭ VulnerabilityID : CVE-2023-27538 
                         │       ├ PkgID           : curl-minimal@7.76.1-23.el9_2.2.x86_64 
                         │       ├ PkgName         : curl-minimal 
@@ -789,7 +789,7 @@
                         │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-5964-1 
                         │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-27538 
                         │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-11T11:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-20T18:43:00Z 
                         ├ [18]  ╭ VulnerabilityID : CVE-2023-38546 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:5763 
                         │       ├ PkgID           : curl-minimal@7.76.1-23.el9_2.2.x86_64 
@@ -1263,15 +1263,21 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:H 
                         │       │                           ╰ V3Score : 4.9 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-40433 
-                        │       │                  ├ [1]: https://bugs.openjdk.org/browse/JDK-8283441 
-                        │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-                        │       │                  │      VE-2022-40433 
-                        │       │                  ├ [3]: https://github.com/openjdk/jdk11u-dev/pull/1183 
-                        │       │                  ├ [4]: https://github.com/openjdk/jdk13u-dev/pull/394 
-                        │       │                  ├ [5]: https://github.com/openjdk/jdk15u-dev/pull/261 
-                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-40433 
-                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-40433 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5733 
+                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022
+                        │       │                  │       -40433 
+                        │       │                  ├ [2] : https://bugs.openjdk.org/browse/JDK-8283441 
+                        │       │                  ├ [3] : https://bugzilla.redhat.com/2237709 
+                        │       │                  ├ [4] : https://bugzilla.redhat.com/2243627 
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/2243637 
+                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                        │       │                  │       CVE-2022-40433 
+                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2023-5733.html 
+                        │       │                  ├ [8] : https://github.com/openjdk/jdk11u-dev/pull/1183 
+                        │       │                  ├ [9] : https://github.com/openjdk/jdk13u-dev/pull/394 
+                        │       │                  ├ [10]: https://github.com/openjdk/jdk15u-dev/pull/261 
+                        │       │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2022-40433 
+                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-40433 
                         │       ├ PublishedDate   : 2023-08-22T19:16:00Z 
                         │       ╰ LastModifiedDate: 2023-09-25T17:23:00Z 
                         ├ [29]  ╭ VulnerabilityID : CVE-2023-22067 
@@ -1309,13 +1315,19 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:L/A:N 
                         │       │                           ╰ V3Score : 5.3 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-22067 
-                        │       │                  ├ [1]: https://linux.oracle.com/cve/CVE-2023-22067.html 
-                        │       │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2023-5761.html 
-                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-22067 
-                        │       │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-22067 
-                        │       │                  ╰ [5]: https://www.oracle.com/security-alerts/cpuoct202
-                        │       │                         3.html 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5733 
+                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+                        │       │                  │       -22067 
+                        │       │                  ├ [2] : https://bugzilla.redhat.com/2237709 
+                        │       │                  ├ [3] : https://bugzilla.redhat.com/2243627 
+                        │       │                  ├ [4] : https://bugzilla.redhat.com/2243637 
+                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-5733.html 
+                        │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-22067.html 
+                        │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-5761.html 
+                        │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-22067 
+                        │       │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-22067 
+                        │       │                  ╰ [10]: https://www.oracle.com/security-alerts/cpuoct20
+                        │       │                          23.html 
                         │       ├ PublishedDate   : 2023-10-17T22:15:00Z 
                         │       ╰ LastModifiedDate: 2023-10-18T01:28:00Z 
                         ├ [30]  ╭ VulnerabilityID : CVE-2023-22081 
@@ -1336,18 +1348,18 @@
                         │       ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM
                         │       │                   for JDK product of Oracle Java SE (component: JSSE). 
                         │       │                   Supported versions that are affected are Oracle Java SE:
-                        │       │                   8u381, 8u381-perf, 11.0.20, 17.0.8, 20.0.2; Oracle GraalVM
-                        │       │                   for JDK: 17.0.8 and  20.0.2. Easily exploitable
-                        │       │                   vulnerability allows unauthenticated attacker with network
-                        │       │                   access via HTTPS to compromise Oracle Java SE, Oracle
-                        │       │                   GraalVM for JDK.  Successful attacks of this vulnerability
-                        │       │                   can result in unauthorized ability to cause a partial
-                        │       │                   denial of service (partial DOS) of Oracle Java SE, Oracle
-                        │       │                   GraalVM for JDK. Note: This vulnerability applies to Java
-                        │       │                   deployments, typically in clients running sandboxed Java
-                        │       │                   Web Start applications or sandboxed Java applets, that load
-                        │       │                    and run untrusted code (e.g., code that comes from the
-                        │       │                   internet) and rely on the Java sandbox for security. This
+                        │       │                   8u381, 8u381-perf, 11.0.20, 17.0.8, 21; Oracle GraalVM for
+                        │       │                   JDK: 17.0.8 and  21. Easily exploitable vulnerability
+                        │       │                   allows unauthenticated attacker with network access via
+                        │       │                   HTTPS to compromise Oracle Java SE, Oracle GraalVM for JDK.
+                        │       │                     Successful attacks of this vulnerability can result in
+                        │       │                   unauthorized ability to cause a partial denial of service
+                        │       │                   (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK.
+                        │       │                   Note: This vulnerability applies to Java deployments,
+                        │       │                   typically in clients running sandboxed Java Web Start
+                        │       │                   applications or sandboxed Java applets, that load and run
+                        │       │                   untrusted code (e.g., code that comes from the internet)
+                        │       │                   and rely on the Java sandbox for security. This
                         │       │                   vulnerability does not apply to Java deployments, typically
                         │       │                    in servers, that load and run only trusted code (e.g.,
                         │       │                   code installed by an administrator). CVSS 3.1 Base Score
@@ -1360,15 +1372,19 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:L 
                         │       │                           ╰ V3Score : 5.3 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-22081 
-                        │       │                  ├ [1]: https://linux.oracle.com/cve/CVE-2023-22081.html 
-                        │       │                  ├ [2]: https://linux.oracle.com/errata/ELSA-2023-5761.html 
-                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-22081 
-                        │       │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-22081 
-                        │       │                  ╰ [5]: https://www.oracle.com/security-alerts/cpuoct202
+                        │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2023:5753 
+                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-22081 
+                        │       │                  ├ [2]: https://bugzilla.redhat.com/2243627 
+                        │       │                  ├ [3]: https://bugzilla.redhat.com/2243805 
+                        │       │                  ├ [4]: https://errata.almalinux.org/9/ALSA-2023-5753.html 
+                        │       │                  ├ [5]: https://linux.oracle.com/cve/CVE-2023-22081.html 
+                        │       │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2023-5761.html 
+                        │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-22081 
+                        │       │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-22081 
+                        │       │                  ╰ [9]: https://www.oracle.com/security-alerts/cpuoct202
                         │       │                         3.html 
                         │       ├ PublishedDate   : 2023-10-17T22:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-18T01:28:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-20T21:15:00Z 
                         ├ [31]  ╭ VulnerabilityID : CVE-2022-3857 
                         │       ├ PkgID           : java-1.8.0-openjdk-headless@1.8.0.382.b05-2.el9.x86_64 
                         │       ├ PkgName         : java-1.8.0-openjdk-headless 
@@ -1642,7 +1658,7 @@
                         │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-5964-2 
                         │       │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2023-27536 
                         │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-11T11:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-20T18:44:00Z 
                         ├ [37]  ╭ VulnerabilityID : CVE-2023-27533 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.2.x86_64 
                         │       ├ PkgName         : libcurl-minimal 
@@ -1691,7 +1707,7 @@
                         │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-5964-2 
                         │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-27533 
                         │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-11T11:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-20T18:51:00Z 
                         ├ [38]  ╭ VulnerabilityID : CVE-2023-27534 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.2.x86_64 
                         │       ├ PkgName         : libcurl-minimal 
@@ -1736,7 +1752,7 @@
                         │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-5964-1 
                         │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27534 
                         │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-11T11:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-20T18:45:00Z 
                         ├ [39]  ╭ VulnerabilityID : CVE-2023-27538 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.2.x86_64 
                         │       ├ PkgName         : libcurl-minimal 
@@ -1785,7 +1801,7 @@
                         │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-5964-1 
                         │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-27538 
                         │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-11T11:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-20T18:43:00Z 
                         ├ [40]  ╭ VulnerabilityID : CVE-2023-38546 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:5763 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.2.x86_64 
@@ -2004,29 +2020,30 @@
                         │       │                  │        3/10/18/8 
                         │       │                  ├ [4]  : http://www.openwall.com/lists/oss-security/202
                         │       │                  │        3/10/19/6 
-                        │       │                  ├ [5]  : https://access.redhat.com/errata/RHSA-2023:5867 
-                        │       │                  ├ [6]  : https://access.redhat.com/security/cve/CVE-202
+                        │       │                  ├ [5]  : http://www.openwall.com/lists/oss-security/202
+                        │       │                  │        3/10/20/8 
+                        │       │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5929 
+                        │       │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-202
                         │       │                  │        3-44487 
-                        │       │                  ├ [7]  : https://access.redhat.com/security/cve/cve-202
+                        │       │                  ├ [8]  : https://access.redhat.com/security/cve/cve-202
                         │       │                  │        3-44487 
-                        │       │                  ├ [8]  : https://arstechnica.com/security/2023/10/how-d
+                        │       │                  ├ [9]  : https://arstechnica.com/security/2023/10/how-d
                         │       │                  │        dosers-used-the-http-2-protocol-to-deliver-attacks-
                         │       │                  │        of-unprecedented-size/ 
-                        │       │                  ├ [9]  : https://aws.amazon.com/security/security-bulle
+                        │       │                  ├ [10] : https://aws.amazon.com/security/security-bulle
                         │       │                  │        tins/AWS-2023-011/ 
-                        │       │                  ├ [10] : https://blog.cloudflare.com/technical-breakdow
+                        │       │                  ├ [11] : https://blog.cloudflare.com/technical-breakdow
                         │       │                  │        n-http2-rapid-reset-ddos-attack/ 
-                        │       │                  ├ [11] : https://blog.cloudflare.com/zero-day-rapid-res
+                        │       │                  ├ [12] : https://blog.cloudflare.com/zero-day-rapid-res
                         │       │                  │        et-http2-record-breaking-ddos-attack/ 
-                        │       │                  ├ [12] : https://blog.litespeedtech.com/2023/10/11/rapi
+                        │       │                  ├ [13] : https://blog.litespeedtech.com/2023/10/11/rapi
                         │       │                  │        d-reset-http-2-vulnerablilty/ 
-                        │       │                  ├ [13] : https://blog.qualys.com/vulnerabilities-threat
+                        │       │                  ├ [14] : https://blog.qualys.com/vulnerabilities-threat
                         │       │                  │        -research/2023/10/10/cve-2023-44487-http-2-rapid-re
                         │       │                  │        set-attack 
-                        │       │                  ├ [14] : https://blog.vespa.ai/cve-2023-44487/ 
-                        │       │                  ├ [15] : https://bugzilla.proxmox.com/show_bug.cgi?id=4988 
-                        │       │                  ├ [16] : https://bugzilla.redhat.com/2242803 
-                        │       │                  ├ [17] : https://bugzilla.redhat.com/2243296 
+                        │       │                  ├ [15] : https://blog.vespa.ai/cve-2023-44487/ 
+                        │       │                  ├ [16] : https://bugzilla.proxmox.com/show_bug.cgi?id=4988 
+                        │       │                  ├ [17] : https://bugzilla.redhat.com/2242803 
                         │       │                  ├ [18] : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
                         │       │                  ├ [19] : https://bugzilla.suse.com/show_bug.cgi?id=1216123 
                         │       │                  ├ [20] : https://cgit.freebsd.org/ports/commit/?id=c64c
@@ -2046,7 +2063,7 @@
                         │       │                  │        2023-updates/ 
                         │       │                  ├ [27] : https://edg.io/lp/blog/resets-leaks-ddos-and-t
                         │       │                  │        he-tale-of-a-hidden-cve 
-                        │       │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5867.html 
+                        │       │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5929.html 
                         │       │                  ├ [29] : https://forums.swift.org/t/swift-nio-http2-sec
                         │       │                  │        urity-update-cve-2023-44487-http-2-dos/67764
                         │       │                  │        [m 
@@ -2218,7 +2235,7 @@
                         │       │                  ╰ [131]: https://www.theregister.com/2023/10/10/http2_r
                         │       │                           apid_reset_zeroday/ 
                         │       ├ PublishedDate   : 2023-10-10T14:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-20T03:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-20T21:15:00Z 
                         ├ [44]  ╭ VulnerabilityID : CVE-2022-3857 
                         │       ├ PkgID           : libpng@1.6.37-12.el9.x86_64 
                         │       ├ PkgName         : libpng 
@@ -5382,22 +5399,25 @@
                                 │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
                                 │                           │           :L/I:L/A:L 
                                 │                           ╰ V3Score : 5.3 
-                                ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-45853 
-                                │                  ├ [1]: https://chromium.googlesource.com/chromium/src/+
-                                │                  │      /d709fb23806858847131027da95ef4c548813356 
-                                │                  ├ [2]: https://chromium.googlesource.com/chromium/src/+
-                                │                  │      /de29dd6c7151d3cd37cb4cf0036800ddfb1d8b61 
-                                │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-                                │                  │      VE-2023-45853 
-                                │                  ├ [4]: https://github.com/madler/zlib/blob/ac8f12c97d1a
-                                │                  │      fd9bafa9c710f827d40a407d3266/contrib/README.contrib#L
-                                │                  │      1-L4 
-                                │                  ├ [5]: https://github.com/madler/zlib/commit/73331a6a04
-                                │                  │      81067628f065ffe87bb1d8f787d10c 
-                                │                  ├ [6]: https://github.com/madler/zlib/pull/843 
-                                │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-45853 
-                                │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-45853 
-                                │                  ╰ [9]: https://www.winimage.com/zLibDll/minizip.html 
+                                ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023
+                                │                  │       /10/20/9 
+                                │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+                                │                  │       -45853 
+                                │                  ├ [2] : https://chromium.googlesource.com/chromium/src/
+                                │                  │       +/d709fb23806858847131027da95ef4c548813356 
+                                │                  ├ [3] : https://chromium.googlesource.com/chromium/src/
+                                │                  │       +/de29dd6c7151d3cd37cb4cf0036800ddfb1d8b61 
+                                │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                                │                  │       CVE-2023-45853 
+                                │                  ├ [5] : https://github.com/madler/zlib/blob/ac8f12c97d1
+                                │                  │       afd9bafa9c710f827d40a407d3266/contrib/README.contrib
+                                │                  │       #L1-L4 
+                                │                  ├ [6] : https://github.com/madler/zlib/commit/73331a6a0
+                                │                  │       481067628f065ffe87bb1d8f787d10c 
+                                │                  ├ [7] : https://github.com/madler/zlib/pull/843 
+                                │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-45853 
+                                │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-45853 
+                                │                  ╰ [10]: https://www.winimage.com/zLibDll/minizip.html 
                                 ├ PublishedDate   : 2023-10-14T02:15:00Z 
-                                ╰ LastModifiedDate: 2023-10-19T12:44:00Z 
+                                ╰ LastModifiedDate: 2023-10-20T21:15:00Z 
 ````
