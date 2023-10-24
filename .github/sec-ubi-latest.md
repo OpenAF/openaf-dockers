@@ -538,7 +538,7 @@
                         │       │                            1213711f5d95714bff1a5a3c19 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38545 
-                        │       ├ Title           : a heap based buffer overflow in the SOCKS5 proxy handshake 
+                        │       ├ Title           : heap based buffer overflow in the SOCKS5 proxy handshake 
                         │       ├ Description     : This flaw makes curl overflow a heap based buffer in
                         │       │                   the SOCKS5 proxy
                         │       │                   handshake.
@@ -1198,44 +1198,43 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:H 
                         │       │                           ╰ V3Score : 7.5 
-                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4177 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4175 
                         │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
                         │       │                  │       -25193 
                         │       │                  ├ [2] : https://bugzilla.redhat.com/2167254 
                         │       │                  ├ [3] : https://bugzilla.redhat.com/2221626 
                         │       │                  ├ [4] : https://bugzilla.redhat.com/2221634 
-                        │       │                  ├ [5] : https://bugzilla.redhat.com/2221642 
-                        │       │                  ├ [6] : https://bugzilla.redhat.com/2221645 
-                        │       │                  ├ [7] : https://bugzilla.redhat.com/2221647 
-                        │       │                  ├ [8] : https://bugzilla.redhat.com/2223207 
-                        │       │                  ├ [9] : https://chromium.googlesource.com/chromium/src/
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/2221645 
+                        │       │                  ├ [6] : https://bugzilla.redhat.com/2221647 
+                        │       │                  ├ [7] : https://bugzilla.redhat.com/2223207 
+                        │       │                  ├ [8] : https://chromium.googlesource.com/chromium/src/
                         │       │                  │       +/e1f324aa681af54101c1f2d173d92adb80e37088/DEPS#361
                         │       │                  │       [m 
-                        │       │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                        │       │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
                         │       │                  │       CVE-2023-25193 
-                        │       │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-4177.html 
-                        │       │                  ├ [12]: https://github.com/harfbuzz/harfbuzz/blob/2822b
+                        │       │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2023-4175.html 
+                        │       │                  ├ [11]: https://github.com/harfbuzz/harfbuzz/blob/2822b
                         │       │                  │       589bc837fae6f66233e2cf2eef0f6ce8470/src/hb-ot-layout
                         │       │                  │       -gsubgpos.hh 
-                        │       │                  ├ [13]: https://github.com/harfbuzz/harfbuzz/commit/85b
+                        │       │                  ├ [12]: https://github.com/harfbuzz/harfbuzz/commit/85b
                         │       │                  │       e877925ddbf34f74a1229f3ca1716bb6170dc 
-                        │       │                  ├ [14]: https://github.com/harfbuzz/harfbuzz/commit/85b
+                        │       │                  ├ [13]: https://github.com/harfbuzz/harfbuzz/commit/85b
                         │       │                  │       e877925ddbf34f74a1229f3ca1716bb6170dc
                         │       │                  │       (reverted) 
-                        │       │                  ├ [15]: https://linux.oracle.com/cve/CVE-2023-25193.html 
-                        │       │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2023-4233.html 
-                        │       │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [14]: https://linux.oracle.com/cve/CVE-2023-25193.html 
+                        │       │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2023-4233.html 
+                        │       │                  ├ [16]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/KWCH
                         │       │                  │       WSICWVZSAXP2YAXM65JC2GR53547/ 
-                        │       │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/YZ5M
                         │       │                  │       2GSAIHFPLHYJXUPQ2QDJCLWXUGO3/ 
-                        │       │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-25193 
-                        │       │                  ├ [20]: https://security.netapp.com/advisory/ntap-20230
+                        │       │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2023-25193 
+                        │       │                  ├ [19]: https://security.netapp.com/advisory/ntap-20230
                         │       │                  │       725-0006/ 
-                        │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-6263-1 
-                        │       │                  ├ [22]: https://ubuntu.com/security/notices/USN-6272-1 
-                        │       │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2023-25193 
+                        │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-6263-1 
+                        │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-6272-1 
+                        │       │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-25193 
                         │       ├ PublishedDate   : 2023-02-04T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
                         ├ [28]  ╭ VulnerabilityID : CVE-2022-40433 
@@ -1263,7 +1262,7 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:H 
                         │       │                           ╰ V3Score : 4.9 
-                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5733 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5731 
                         │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022
                         │       │                  │       -40433 
                         │       │                  ├ [2] : https://bugs.openjdk.org/browse/JDK-8283441 
@@ -1272,7 +1271,7 @@
                         │       │                  ├ [5] : https://bugzilla.redhat.com/2243637 
                         │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
                         │       │                  │       CVE-2022-40433 
-                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2023-5733.html 
+                        │       │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2023-5731.html 
                         │       │                  ├ [8] : https://github.com/openjdk/jdk11u-dev/pull/1183 
                         │       │                  ├ [9] : https://github.com/openjdk/jdk13u-dev/pull/394 
                         │       │                  ├ [10]: https://github.com/openjdk/jdk15u-dev/pull/261 
@@ -1315,13 +1314,13 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:L/A:N 
                         │       │                           ╰ V3Score : 5.3 
-                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5733 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5731 
                         │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
                         │       │                  │       -22067 
                         │       │                  ├ [2] : https://bugzilla.redhat.com/2237709 
                         │       │                  ├ [3] : https://bugzilla.redhat.com/2243627 
                         │       │                  ├ [4] : https://bugzilla.redhat.com/2243637 
-                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-5733.html 
+                        │       │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-5731.html 
                         │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-22067.html 
                         │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-5761.html 
                         │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-22067 
@@ -1372,11 +1371,11 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:L 
                         │       │                           ╰ V3Score : 5.3 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2023:5753 
+                        │       ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2023:5751 
                         │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-22081 
                         │       │                  ├ [2]: https://bugzilla.redhat.com/2243627 
                         │       │                  ├ [3]: https://bugzilla.redhat.com/2243805 
-                        │       │                  ├ [4]: https://errata.almalinux.org/9/ALSA-2023-5753.html 
+                        │       │                  ├ [4]: https://errata.almalinux.org/8/ALSA-2023-5751.html 
                         │       │                  ├ [5]: https://linux.oracle.com/cve/CVE-2023-22081.html 
                         │       │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2023-5761.html 
                         │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-22081 
@@ -1454,13 +1453,15 @@
                         │       │                  │      -final...krb5-1.20.2-final 
                         │       │                  ├ [4]: https://github.com/krb5/krb5/compare/krb5-1.21-f
                         │       │                  │      inal...krb5-1.21.1-final 
-                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
-                        │       │                  ├ [6]: https://security.netapp.com/advisory/ntap-202309
+                        │       │                  ├ [5]: https://lists.debian.org/debian-lts-announce/202
+                        │       │                  │      3/10/msg00031.html 
+                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
+                        │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-202309
                         │       │                  │      08-0004/ 
-                        │       │                  ├ [7]: https://web.mit.edu/kerberos/www/advisories/ 
-                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
+                        │       │                  ├ [8]: https://web.mit.edu/kerberos/www/advisories/ 
+                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
                         │       ├ PublishedDate   : 2023-08-07T19:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-09-08T17:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-22T23:15:00Z 
                         ├ [33]  ╭ VulnerabilityID : CVE-2023-39975 
                         │       ├ PkgID           : krb5-libs@1.20.1-9.el9_2.x86_64 
                         │       ├ PkgName         : krb5-libs 
@@ -1550,7 +1551,7 @@
                         │       │                            1213711f5d95714bff1a5a3c19 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38545 
-                        │       ├ Title           : a heap based buffer overflow in the SOCKS5 proxy handshake 
+                        │       ├ Title           : heap based buffer overflow in the SOCKS5 proxy handshake 
                         │       ├ Description     : This flaw makes curl overflow a heap based buffer in
                         │       │                   the SOCKS5 proxy
                         │       │                   handshake.
@@ -2022,7 +2023,7 @@
                         │       │                  │        3/10/19/6 
                         │       │                  ├ [5]  : http://www.openwall.com/lists/oss-security/202
                         │       │                  │        3/10/20/8 
-                        │       │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5929 
+                        │       │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5928 
                         │       │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-202
                         │       │                  │        3-44487 
                         │       │                  ├ [8]  : https://access.redhat.com/security/cve/cve-202
@@ -2063,7 +2064,7 @@
                         │       │                  │        2023-updates/ 
                         │       │                  ├ [27] : https://edg.io/lp/blog/resets-leaks-ddos-and-t
                         │       │                  │        he-tale-of-a-hidden-cve 
-                        │       │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5929.html 
+                        │       │                  ├ [28] : https://errata.almalinux.org/8/ALSA-2023-5928.html 
                         │       │                  ├ [29] : https://forums.swift.org/t/swift-nio-http2-sec
                         │       │                  │        urity-update-cve-2023-44487-http-2-dos/67764
                         │       │                  │        [m 
@@ -2153,7 +2154,7 @@
                         │       │                  ├ [87] : https://linkerd.io/2023/10/12/linkerd-cve-2023
                         │       │                  │        -44487/ 
                         │       │                  ├ [88] : https://linux.oracle.com/cve/CVE-2023-44487.html 
-                        │       │                  ├ [89] : https://linux.oracle.com/errata/ELSA-2023-5838.html 
+                        │       │                  ├ [89] : https://linux.oracle.com/errata/ELSA-2023-5929.html 
                         │       │                  ├ [90] : https://lists.apache.org/thread/5py8h42mxfsn8l
                         │       │                  │        1wy6o41xwhsjlsd87q 
                         │       │                  ├ [91] : https://lists.debian.org/debian-lts-announce/2
