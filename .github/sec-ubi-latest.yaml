@@ -980,17 +980,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4175
+    - https://access.redhat.com/errata/RHSA-2023:4177
     - https://access.redhat.com/security/cve/CVE-2023-25193
     - https://bugzilla.redhat.com/2167254
     - https://bugzilla.redhat.com/2221626
     - https://bugzilla.redhat.com/2221634
+    - https://bugzilla.redhat.com/2221642
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
     - https://bugzilla.redhat.com/2223207
     - https://chromium.googlesource.com/chromium/src/+/e1f324aa681af54101c1f2d173d92adb80e37088/DEPS#361
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25193
-    - https://errata.almalinux.org/8/ALSA-2023-4175.html
+    - https://errata.almalinux.org/9/ALSA-2023-4177.html
     - https://github.com/harfbuzz/harfbuzz/blob/2822b589bc837fae6f66233e2cf2eef0f6ce8470/src/hb-ot-layout-gsubgpos.hh
     - https://github.com/harfbuzz/harfbuzz/commit/85be877925ddbf34f74a1229f3ca1716bb6170dc
     - https://github.com/harfbuzz/harfbuzz/commit/85be877925ddbf34f74a1229f3ca1716bb6170dc (reverted)
@@ -1029,14 +1030,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H
         V3Score: 4.9
     References:
-    - https://access.redhat.com/errata/RHSA-2023:5731
+    - https://access.redhat.com/errata/RHSA-2023:5733
     - https://access.redhat.com/security/cve/CVE-2022-40433
     - https://bugs.openjdk.org/browse/JDK-8283441
     - https://bugzilla.redhat.com/2237709
     - https://bugzilla.redhat.com/2243627
     - https://bugzilla.redhat.com/2243637
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40433
-    - https://errata.almalinux.org/8/ALSA-2023-5731.html
+    - https://errata.almalinux.org/9/ALSA-2023-5733.html
     - https://github.com/openjdk/jdk11u-dev/pull/1183
     - https://github.com/openjdk/jdk13u-dev/pull/394
     - https://github.com/openjdk/jdk15u-dev/pull/261
@@ -1068,12 +1069,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2023:5731
+    - https://access.redhat.com/errata/RHSA-2023:5733
     - https://access.redhat.com/security/cve/CVE-2023-22067
     - https://bugzilla.redhat.com/2237709
     - https://bugzilla.redhat.com/2243627
     - https://bugzilla.redhat.com/2243637
-    - https://errata.almalinux.org/8/ALSA-2023-5731.html
+    - https://errata.almalinux.org/9/ALSA-2023-5733.html
     - https://linux.oracle.com/cve/CVE-2023-22067.html
     - https://linux.oracle.com/errata/ELSA-2023-5761.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-22067
@@ -1105,11 +1106,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2023:5751
+    - https://access.redhat.com/errata/RHSA-2023:5753
     - https://access.redhat.com/security/cve/CVE-2023-22081
     - https://bugzilla.redhat.com/2243627
     - https://bugzilla.redhat.com/2243805
-    - https://errata.almalinux.org/8/ALSA-2023-5751.html
+    - https://errata.almalinux.org/9/ALSA-2023-5753.html
     - https://linux.oracle.com/cve/CVE-2023-22081.html
     - https://linux.oracle.com/errata/ELSA-2023-5761.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-22081
@@ -1634,7 +1635,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - http://www.openwall.com/lists/oss-security/2023/10/20/8
-    - https://access.redhat.com/errata/RHSA-2023:5928
+    - https://access.redhat.com/errata/RHSA-2023:5929
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -1656,7 +1657,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/8/ALSA-2023-5928.html
+    - https://errata.almalinux.org/9/ALSA-2023-5929.html
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -1717,7 +1718,7 @@
     - https://istio.io/latest/news/security/istio-security-2023-004/
     - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
     - https://linux.oracle.com/cve/CVE-2023-44487.html
-    - https://linux.oracle.com/errata/ELSA-2023-5929.html
+    - https://linux.oracle.com/errata/ELSA-2023-5989.html
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
@@ -1736,6 +1737,7 @@
     - https://news.ycombinator.com/item?id=37830998
     - https://news.ycombinator.com/item?id=37831062
     - https://news.ycombinator.com/item?id=37837043
+    - https://nodejs.org/en/blog/vulnerability/october-2023-security-releases
     - https://nvd.nist.gov/vuln/detail/CVE-2023-44487
     - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response/
     - https://pkg.go.dev/vuln/GO-2023-2102
@@ -2726,6 +2728,7 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2975
     - https://security.netapp.com/advisory/ntap-20230725-0004/
+    - https://ubuntu.com/security/notices/USN-6450-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2975
     - https://www.openssl.org/news/secadv/20230714.txt
     PublishedDate: '2023-07-14T12:15:00Z'
@@ -2796,6 +2799,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3446
     - https://security.netapp.com/advisory/ntap-20230803-0011/
     - https://ubuntu.com/security/notices/USN-6435-1
+    - https://ubuntu.com/security/notices/USN-6450-1
     - https://www.cve.org/CVERecord?id=CVE-2023-3446
     - https://www.openssl.org/news/secadv/20230719.txt
     PublishedDate: '2023-07-19T12:15:00Z'
@@ -2864,6 +2868,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3817
     - https://security.netapp.com/advisory/ntap-20230818-0014/
     - https://ubuntu.com/security/notices/USN-6435-1
+    - https://ubuntu.com/security/notices/USN-6450-1
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:00Z'
@@ -2919,6 +2924,7 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2975
     - https://security.netapp.com/advisory/ntap-20230725-0004/
+    - https://ubuntu.com/security/notices/USN-6450-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2975
     - https://www.openssl.org/news/secadv/20230714.txt
     PublishedDate: '2023-07-14T12:15:00Z'
@@ -2989,6 +2995,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3446
     - https://security.netapp.com/advisory/ntap-20230803-0011/
     - https://ubuntu.com/security/notices/USN-6435-1
+    - https://ubuntu.com/security/notices/USN-6450-1
     - https://www.cve.org/CVERecord?id=CVE-2023-3446
     - https://www.openssl.org/news/secadv/20230719.txt
     PublishedDate: '2023-07-19T12:15:00Z'
@@ -3057,6 +3064,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3817
     - https://security.netapp.com/advisory/ntap-20230818-0014/
     - https://ubuntu.com/security/notices/USN-6435-1
+    - https://ubuntu.com/security/notices/USN-6450-1
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:00Z'
