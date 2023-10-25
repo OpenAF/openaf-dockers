@@ -1,5 +1,80 @@
 ````yaml
-─ [0] ╭ Target: openaf/oaf:latest (alpine 3.18.4) 
-      ├ Class : os-pkgs 
-      ╰ Type  : alpine 
+─ [0] ╭ Target         : openaf/oaf:latest (alpine 3.18.4) 
+      ├ Class          : os-pkgs 
+      ├ Type           : alpine 
+      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2023-5363 
+                        │     ├ PkgID           : libcrypto3@3.1.3-r0 
+                        │     ├ PkgName         : libcrypto3 
+                        │     ├ InstalledVersion: 3.1.3-r0 
+                        │     ├ FixedVersion    : 3.1.4-r0 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:1378fc82263415b521c2d2c4cc2f36581dd4d53c
+                        │     │                  │         16e32fd7c7e7072d51f23b32 
+                        │     │                  ╰ DiffID: sha256:937b8a3a9fdc8a897ce9cae37be44e2b120218ce
+                        │     │                            6091a4be8b6745d90cf68985 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-5363 
+                        │     ├ DataSource       ╭ ID  : alpine 
+                        │     │                  ├ Name: Alpine Secdb 
+                        │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+                        │     ├ Title           : Issue summary: A bug has been identified in the
+                        │     │                   processing of key and  ... 
+                        │     ├ Description     : A bug has been identified in the processing of key and
+                        │     │                   initialisation vector (IV) lengths. This can lead to
+                        │     │                   potential truncation or overruns during the initialisation of
+                        │     │                    some symmetric ciphers. 
+                        │     ├ Severity        : MEDIUM 
+                        │     ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                        │                        │      -2023-5363 
+                        │                        ├ [1]: https://ubuntu.com/security/notices/USN-6450-1 
+                        │                        ╰ [2]: https://www.openssl.org/news/secadv/20231024.txt 
+                        ├ [1] ╭ VulnerabilityID : CVE-2023-5363 
+                        │     ├ PkgID           : libssl3@3.1.3-r0 
+                        │     ├ PkgName         : libssl3 
+                        │     ├ InstalledVersion: 3.1.3-r0 
+                        │     ├ FixedVersion    : 3.1.4-r0 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:1378fc82263415b521c2d2c4cc2f36581dd4d53c
+                        │     │                  │         16e32fd7c7e7072d51f23b32 
+                        │     │                  ╰ DiffID: sha256:937b8a3a9fdc8a897ce9cae37be44e2b120218ce
+                        │     │                            6091a4be8b6745d90cf68985 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-5363 
+                        │     ├ DataSource       ╭ ID  : alpine 
+                        │     │                  ├ Name: Alpine Secdb 
+                        │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+                        │     ├ Title           : Issue summary: A bug has been identified in the
+                        │     │                   processing of key and  ... 
+                        │     ├ Description     : A bug has been identified in the processing of key and
+                        │     │                   initialisation vector (IV) lengths. This can lead to
+                        │     │                   potential truncation or overruns during the initialisation of
+                        │     │                    some symmetric ciphers. 
+                        │     ├ Severity        : MEDIUM 
+                        │     ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                        │                        │      -2023-5363 
+                        │                        ├ [1]: https://ubuntu.com/security/notices/USN-6450-1 
+                        │                        ╰ [2]: https://www.openssl.org/news/secadv/20231024.txt 
+                        ╰ [2] ╭ VulnerabilityID : CVE-2023-5363 
+                              ├ PkgID           : openssl@3.1.3-r0 
+                              ├ PkgName         : openssl 
+                              ├ InstalledVersion: 3.1.3-r0 
+                              ├ FixedVersion    : 3.1.4-r0 
+                              ├ Status          : fixed 
+                              ├ Layer            ╭ Digest: sha256:1378fc82263415b521c2d2c4cc2f36581dd4d53c
+                              │                  │         16e32fd7c7e7072d51f23b32 
+                              │                  ╰ DiffID: sha256:937b8a3a9fdc8a897ce9cae37be44e2b120218ce
+                              │                            6091a4be8b6745d90cf68985 
+                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-5363 
+                              ├ DataSource       ╭ ID  : alpine 
+                              │                  ├ Name: Alpine Secdb 
+                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
+                              ├ Title           : Issue summary: A bug has been identified in the
+                              │                   processing of key and  ... 
+                              ├ Description     : A bug has been identified in the processing of key and
+                              │                   initialisation vector (IV) lengths. This can lead to
+                              │                   potential truncation or overruns during the initialisation of
+                              │                    some symmetric ciphers. 
+                              ├ Severity        : MEDIUM 
+                              ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                                                 │      -2023-5363 
+                                                 ├ [1]: https://ubuntu.com/security/notices/USN-6450-1 
+                                                 ╰ [2]: https://www.openssl.org/news/secadv/20231024.txt 
 ````
