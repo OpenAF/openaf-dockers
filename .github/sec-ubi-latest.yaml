@@ -1763,7 +1763,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-20T21:15:00Z'
+    LastModifiedDate: '2023-10-24T12:58:00Z'
   - VulnerabilityID: CVE-2022-3857
     PkgID: libpng@1.6.37-12.el9.x86_64
     PkgName: libpng
@@ -2151,28 +2151,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-29458
     PublishedDate: '2022-04-18T21:15:00Z'
     LastModifiedDate: '2022-11-08T19:46:00Z'
-  - VulnerabilityID: CVE-2023-4421
-    PkgID: nspr@4.35.0-3.el9_2.x86_64
-    PkgName: nspr
-    InstalledVersion: 4.35.0-3.el9_2
-    Status: affected
-    Layer:
-      Digest: sha256:65e940e0477ea269d922e3da864e16ef3b3bfb4c774211c9bfe0477395cf4e40
-      DiffID: sha256:17fea5e7594d20f30998321d06728469a1926203ef70a1896c60b18b4443ff1c
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4421
-    Title: new tlsfuzzer code can still detect timing issues in RSA operations
-    Description: A vulnerability was found in NSS. The interface between the cryptographic library (the softokn) and the rest of NSS is using PKCS#11, and the error reporting (erroring out when the PKCS#1 v1.5 padding checks fail) that PKCS#11 requires is very noisy, making it easy to detect over the network.
-    Severity: MEDIUM
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-4421
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4421
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-4421
-    - https://www.cve.org/CVERecord?id=CVE-2023-4421
   - VulnerabilityID: CVE-2023-5388
     PkgID: nspr@4.35.0-3.el9_2.x86_64
     PkgName: nspr
@@ -2225,28 +2203,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:00Z'
     LastModifiedDate: '2023-02-28T19:49:00Z'
-  - VulnerabilityID: CVE-2023-4421
-    PkgID: nss@3.90.0-3.el9_2.x86_64
-    PkgName: nss
-    InstalledVersion: 3.90.0-3.el9_2
-    Status: affected
-    Layer:
-      Digest: sha256:65e940e0477ea269d922e3da864e16ef3b3bfb4c774211c9bfe0477395cf4e40
-      DiffID: sha256:17fea5e7594d20f30998321d06728469a1926203ef70a1896c60b18b4443ff1c
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4421
-    Title: new tlsfuzzer code can still detect timing issues in RSA operations
-    Description: A vulnerability was found in NSS. The interface between the cryptographic library (the softokn) and the rest of NSS is using PKCS#11, and the error reporting (erroring out when the PKCS#1 v1.5 padding checks fail) that PKCS#11 requires is very noisy, making it easy to detect over the network.
-    Severity: MEDIUM
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-4421
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4421
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-4421
-    - https://www.cve.org/CVERecord?id=CVE-2023-4421
   - VulnerabilityID: CVE-2023-5388
     PkgID: nss@3.90.0-3.el9_2.x86_64
     PkgName: nss
@@ -2299,28 +2255,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:00Z'
     LastModifiedDate: '2023-02-28T19:49:00Z'
-  - VulnerabilityID: CVE-2023-4421
-    PkgID: nss-softokn@3.90.0-3.el9_2.x86_64
-    PkgName: nss-softokn
-    InstalledVersion: 3.90.0-3.el9_2
-    Status: affected
-    Layer:
-      Digest: sha256:65e940e0477ea269d922e3da864e16ef3b3bfb4c774211c9bfe0477395cf4e40
-      DiffID: sha256:17fea5e7594d20f30998321d06728469a1926203ef70a1896c60b18b4443ff1c
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4421
-    Title: new tlsfuzzer code can still detect timing issues in RSA operations
-    Description: A vulnerability was found in NSS. The interface between the cryptographic library (the softokn) and the rest of NSS is using PKCS#11, and the error reporting (erroring out when the PKCS#1 v1.5 padding checks fail) that PKCS#11 requires is very noisy, making it easy to detect over the network.
-    Severity: MEDIUM
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-4421
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4421
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-4421
-    - https://www.cve.org/CVERecord?id=CVE-2023-4421
   - VulnerabilityID: CVE-2023-5388
     PkgID: nss-softokn@3.90.0-3.el9_2.x86_64
     PkgName: nss-softokn
@@ -2373,28 +2307,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:00Z'
     LastModifiedDate: '2023-02-28T19:49:00Z'
-  - VulnerabilityID: CVE-2023-4421
-    PkgID: nss-softokn-freebl@3.90.0-3.el9_2.x86_64
-    PkgName: nss-softokn-freebl
-    InstalledVersion: 3.90.0-3.el9_2
-    Status: affected
-    Layer:
-      Digest: sha256:65e940e0477ea269d922e3da864e16ef3b3bfb4c774211c9bfe0477395cf4e40
-      DiffID: sha256:17fea5e7594d20f30998321d06728469a1926203ef70a1896c60b18b4443ff1c
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4421
-    Title: new tlsfuzzer code can still detect timing issues in RSA operations
-    Description: A vulnerability was found in NSS. The interface between the cryptographic library (the softokn) and the rest of NSS is using PKCS#11, and the error reporting (erroring out when the PKCS#1 v1.5 padding checks fail) that PKCS#11 requires is very noisy, making it easy to detect over the network.
-    Severity: MEDIUM
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-4421
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4421
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-4421
-    - https://www.cve.org/CVERecord?id=CVE-2023-4421
   - VulnerabilityID: CVE-2023-5388
     PkgID: nss-softokn-freebl@3.90.0-3.el9_2.x86_64
     PkgName: nss-softokn-freebl
@@ -2447,28 +2359,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:00Z'
     LastModifiedDate: '2023-02-28T19:49:00Z'
-  - VulnerabilityID: CVE-2023-4421
-    PkgID: nss-sysinit@3.90.0-3.el9_2.x86_64
-    PkgName: nss-sysinit
-    InstalledVersion: 3.90.0-3.el9_2
-    Status: affected
-    Layer:
-      Digest: sha256:65e940e0477ea269d922e3da864e16ef3b3bfb4c774211c9bfe0477395cf4e40
-      DiffID: sha256:17fea5e7594d20f30998321d06728469a1926203ef70a1896c60b18b4443ff1c
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4421
-    Title: new tlsfuzzer code can still detect timing issues in RSA operations
-    Description: A vulnerability was found in NSS. The interface between the cryptographic library (the softokn) and the rest of NSS is using PKCS#11, and the error reporting (erroring out when the PKCS#1 v1.5 padding checks fail) that PKCS#11 requires is very noisy, making it easy to detect over the network.
-    Severity: MEDIUM
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-4421
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4421
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-4421
-    - https://www.cve.org/CVERecord?id=CVE-2023-4421
   - VulnerabilityID: CVE-2023-5388
     PkgID: nss-sysinit@3.90.0-3.el9_2.x86_64
     PkgName: nss-sysinit
@@ -2521,28 +2411,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:00Z'
     LastModifiedDate: '2023-02-28T19:49:00Z'
-  - VulnerabilityID: CVE-2023-4421
-    PkgID: nss-util@3.90.0-3.el9_2.x86_64
-    PkgName: nss-util
-    InstalledVersion: 3.90.0-3.el9_2
-    Status: affected
-    Layer:
-      Digest: sha256:65e940e0477ea269d922e3da864e16ef3b3bfb4c774211c9bfe0477395cf4e40
-      DiffID: sha256:17fea5e7594d20f30998321d06728469a1926203ef70a1896c60b18b4443ff1c
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4421
-    Title: new tlsfuzzer code can still detect timing issues in RSA operations
-    Description: A vulnerability was found in NSS. The interface between the cryptographic library (the softokn) and the rest of NSS is using PKCS#11, and the error reporting (erroring out when the PKCS#1 v1.5 padding checks fail) that PKCS#11 requires is very noisy, making it easy to detect over the network.
-    Severity: MEDIUM
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-4421
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4421
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-4421
-    - https://www.cve.org/CVERecord?id=CVE-2023-4421
   - VulnerabilityID: CVE-2023-5388
     PkgID: nss-util@3.90.0-3.el9_2.x86_64
     PkgName: nss-util
@@ -2677,6 +2545,30 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-2953
     PublishedDate: '2023-05-30T22:15:00Z'
     LastModifiedDate: '2023-08-02T16:46:00Z'
+  - VulnerabilityID: CVE-2023-5363
+    PkgID: openssl@3.0.7-17.el9_2.x86_64
+    PkgName: openssl
+    InstalledVersion: 1:3.0.7-17.el9_2
+    Status: affected
+    Layer:
+      Digest: sha256:65e940e0477ea269d922e3da864e16ef3b3bfb4c774211c9bfe0477395cf4e40
+      DiffID: sha256:17fea5e7594d20f30998321d06728469a1926203ef70a1896c60b18b4443ff1c
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5363
+    Title: Incorrect cipher key and IV length processing
+    Description: 'Issue summary: A bug has been identified in the processing of key and initialisation vector (IV) lengths. This can lead to potential truncation or overruns during the initialisation of some symmetric ciphers. Impact summary: A truncation in the IV can result in non-uniqueness, which could result in loss of confidentiality for some cipher modes. When calling EVP_EncryptInit_ex2(), EVP_DecryptInit_ex2() or EVP_CipherInit_ex2() the provided OSSL_PARAM array is processed after the key and IV have been established. Any alterations to the key length, via the "keylen" parameter or the IV length, via the "ivlen" parameter, within the OSSL_PARAM array will not take effect as intended, potentially causing truncation or overreading of these values. The following ciphers and cipher modes are impacted: RC2, RC4, RC5, CCM, GCM and OCB. For the CCM, GCM and OCB cipher modes, truncation of the IV can result in loss of confidentiality. For example, when following NIST''s SP 800-38D section 8.2.1 guidance for constructing a deterministic IV for AES in GCM mode, truncation of the counter portion could lead to IV reuse. Both truncations and overruns of the key and overruns of the IV will produce incorrect results and could, in some cases, trigger a memory exception. However, these issues are not currently assessed as security critical. Changing the key and/or IV lengths is not considered to be a common operation and the vulnerable API was recently introduced. Furthermore it is likely that application developers will have spotted this problem during testing since decryption would fail unless both peers in the communication were similarly vulnerable. For these reasons we expect the probability of an application being vulnerable to this to be quite low. However if an application is vulnerable then this issue is considered very serious. For these reasons we have assessed this issue as Moderate severity overall. The OpenSSL SSL/TLS implementation is not affected by this issue. The OpenSSL 3.0 and 3.1 FIPS providers are not affected by this because the issue lies outside of the FIPS provider boundary. OpenSSL 3.1 and 3.0 are vulnerable to this issue.A flaw was found in OpenSSL in how it processes key and initialization vector (IV) lengths. This issue can lead to potential truncation or overruns during the initialization of some symmetric ciphers. A truncation in the IV can result in non-uniqueness, which could result in loss of confidentiality for some cipher modes. Both truncations and overruns of the key and the IV will produce incorrect results and could, in some cases, trigger a memory exception.'
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5363
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5363
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5363
+    - https://ubuntu.com/security/notices/USN-6450-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-5363
+    - https://www.openssl.org/news/secadv/20231024.txt
   - VulnerabilityID: CVE-2023-2975
     PkgID: openssl@3.0.7-17.el9_2.x86_64
     PkgName: openssl
@@ -2799,6 +2691,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3446
     - https://security.netapp.com/advisory/ntap-20230803-0011/
     - https://ubuntu.com/security/notices/USN-6435-1
+    - https://ubuntu.com/security/notices/USN-6435-2
     - https://ubuntu.com/security/notices/USN-6450-1
     - https://www.cve.org/CVERecord?id=CVE-2023-3446
     - https://www.openssl.org/news/secadv/20230719.txt
@@ -2868,11 +2761,36 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3817
     - https://security.netapp.com/advisory/ntap-20230818-0014/
     - https://ubuntu.com/security/notices/USN-6435-1
+    - https://ubuntu.com/security/notices/USN-6435-2
     - https://ubuntu.com/security/notices/USN-6450-1
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:00Z'
     LastModifiedDate: '2023-09-23T00:15:00Z'
+  - VulnerabilityID: CVE-2023-5363
+    PkgID: openssl-libs@3.0.7-17.el9_2.x86_64
+    PkgName: openssl-libs
+    InstalledVersion: 1:3.0.7-17.el9_2
+    Status: affected
+    Layer:
+      Digest: sha256:516f7562f02267e05bc0f8b175363c70768471b977360d0f0ab5711a8a6d25ab
+      DiffID: sha256:07e751bf2dc8c84231cee7803f1400d85a08081213711f5d95714bff1a5a3c19
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5363
+    Title: Incorrect cipher key and IV length processing
+    Description: 'Issue summary: A bug has been identified in the processing of key and initialisation vector (IV) lengths. This can lead to potential truncation or overruns during the initialisation of some symmetric ciphers. Impact summary: A truncation in the IV can result in non-uniqueness, which could result in loss of confidentiality for some cipher modes. When calling EVP_EncryptInit_ex2(), EVP_DecryptInit_ex2() or EVP_CipherInit_ex2() the provided OSSL_PARAM array is processed after the key and IV have been established. Any alterations to the key length, via the "keylen" parameter or the IV length, via the "ivlen" parameter, within the OSSL_PARAM array will not take effect as intended, potentially causing truncation or overreading of these values. The following ciphers and cipher modes are impacted: RC2, RC4, RC5, CCM, GCM and OCB. For the CCM, GCM and OCB cipher modes, truncation of the IV can result in loss of confidentiality. For example, when following NIST''s SP 800-38D section 8.2.1 guidance for constructing a deterministic IV for AES in GCM mode, truncation of the counter portion could lead to IV reuse. Both truncations and overruns of the key and overruns of the IV will produce incorrect results and could, in some cases, trigger a memory exception. However, these issues are not currently assessed as security critical. Changing the key and/or IV lengths is not considered to be a common operation and the vulnerable API was recently introduced. Furthermore it is likely that application developers will have spotted this problem during testing since decryption would fail unless both peers in the communication were similarly vulnerable. For these reasons we expect the probability of an application being vulnerable to this to be quite low. However if an application is vulnerable then this issue is considered very serious. For these reasons we have assessed this issue as Moderate severity overall. The OpenSSL SSL/TLS implementation is not affected by this issue. The OpenSSL 3.0 and 3.1 FIPS providers are not affected by this because the issue lies outside of the FIPS provider boundary. OpenSSL 3.1 and 3.0 are vulnerable to this issue.A flaw was found in OpenSSL in how it processes key and initialization vector (IV) lengths. This issue can lead to potential truncation or overruns during the initialization of some symmetric ciphers. A truncation in the IV can result in non-uniqueness, which could result in loss of confidentiality for some cipher modes. Both truncations and overruns of the key and the IV will produce incorrect results and could, in some cases, trigger a memory exception.'
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5363
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5363
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5363
+    - https://ubuntu.com/security/notices/USN-6450-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-5363
+    - https://www.openssl.org/news/secadv/20231024.txt
   - VulnerabilityID: CVE-2023-2975
     PkgID: openssl-libs@3.0.7-17.el9_2.x86_64
     PkgName: openssl-libs
@@ -2995,6 +2913,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3446
     - https://security.netapp.com/advisory/ntap-20230803-0011/
     - https://ubuntu.com/security/notices/USN-6435-1
+    - https://ubuntu.com/security/notices/USN-6435-2
     - https://ubuntu.com/security/notices/USN-6450-1
     - https://www.cve.org/CVERecord?id=CVE-2023-3446
     - https://www.openssl.org/news/secadv/20230719.txt
@@ -3064,6 +2983,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3817
     - https://security.netapp.com/advisory/ntap-20230818-0014/
     - https://ubuntu.com/security/notices/USN-6435-1
+    - https://ubuntu.com/security/notices/USN-6435-2
     - https://ubuntu.com/security/notices/USN-6450-1
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
