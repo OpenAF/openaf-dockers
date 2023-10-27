@@ -450,7 +450,12 @@
       The target buffer being a heap based buffer, and the host name coming from the
       URL that curl has been told to operate with.
     Severity: HIGH
+    CweIDs:
+    - CWE-787
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.5
@@ -469,7 +474,7 @@
     - https://ubuntu.com/security/notices/USN-6429-3
     - https://www.cve.org/CVERecord?id=CVE-2023-38545
     PublishedDate: '2023-10-18T04:15:00Z'
-    LastModifiedDate: '2023-10-18T12:46:00Z'
+    LastModifiedDate: '2023-10-25T13:24:00Z'
   - VulnerabilityID: CVE-2023-27536
     PkgID: curl-minimal@7.76.1-23.el9_2.2.x86_64
     PkgName: curl-minimal
@@ -661,6 +666,9 @@
       program using libcurl. And if using the correct file format of course.
     Severity: LOW
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
         V3Score: 5
@@ -680,7 +688,7 @@
     - https://ubuntu.com/security/notices/USN-6429-3
     - https://www.cve.org/CVERecord?id=CVE-2023-38546
     PublishedDate: '2023-10-18T04:15:00Z'
-    LastModifiedDate: '2023-10-18T12:46:00Z'
+    LastModifiedDate: '2023-10-25T13:23:00Z'
   - VulnerabilityID: CVE-2022-48554
     PkgID: file-libs@5.39-12.1.el9_2.x86_64
     PkgName: file-libs
@@ -1081,7 +1089,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-22067
     - https://www.oracle.com/security-alerts/cpuoct2023.html
     PublishedDate: '2023-10-17T22:15:00Z'
-    LastModifiedDate: '2023-10-18T01:28:00Z'
+    LastModifiedDate: '2023-10-25T14:30:00Z'
   - VulnerabilityID: CVE-2023-22081
     VendorIDs:
     - RHSA-2023:5733
@@ -1117,7 +1125,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-22081
     - https://www.oracle.com/security-alerts/cpuoct2023.html
     PublishedDate: '2023-10-17T22:15:00Z'
-    LastModifiedDate: '2023-10-20T21:15:00Z'
+    LastModifiedDate: '2023-10-25T14:29:00Z'
   - VulnerabilityID: CVE-2022-3857
     PkgID: java-1.8.0-openjdk-headless@1.8.0.382.b05-2.el9.x86_64
     PkgName: java-1.8.0-openjdk-headless
@@ -1279,7 +1287,12 @@
       The target buffer being a heap based buffer, and the host name coming from the
       URL that curl has been told to operate with.
     Severity: HIGH
+    CweIDs:
+    - CWE-787
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.5
@@ -1298,7 +1311,7 @@
     - https://ubuntu.com/security/notices/USN-6429-3
     - https://www.cve.org/CVERecord?id=CVE-2023-38545
     PublishedDate: '2023-10-18T04:15:00Z'
-    LastModifiedDate: '2023-10-18T12:46:00Z'
+    LastModifiedDate: '2023-10-25T13:24:00Z'
   - VulnerabilityID: CVE-2023-27536
     PkgID: libcurl-minimal@7.76.1-23.el9_2.2.x86_64
     PkgName: libcurl-minimal
@@ -1490,6 +1503,9 @@
       program using libcurl. And if using the correct file format of course.
     Severity: LOW
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
         V3Score: 5
@@ -1509,7 +1525,7 @@
     - https://ubuntu.com/security/notices/USN-6429-3
     - https://www.cve.org/CVERecord?id=CVE-2023-38546
     PublishedDate: '2023-10-18T04:15:00Z'
-    LastModifiedDate: '2023-10-18T12:46:00Z'
+    LastModifiedDate: '2023-10-25T13:23:00Z'
   - VulnerabilityID: CVE-2023-4039
     PkgID: libgcc@11.3.1-4.3.el9.x86_64
     PkgName: libgcc
@@ -1635,7 +1651,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - http://www.openwall.com/lists/oss-security/2023/10/20/8
-    - https://access.redhat.com/errata/RHSA-2023:5929
+    - https://access.redhat.com/errata/RHSA-2023:6077
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -1647,6 +1663,7 @@
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
     - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/2243296
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -1657,7 +1674,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/9/ALSA-2023-5929.html
+    - https://errata.almalinux.org/9/ALSA-2023-6077.html
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -1723,9 +1740,16 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
     - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
@@ -1763,7 +1787,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-24T12:58:00Z'
+    LastModifiedDate: '2023-10-26T05:15:00Z'
   - VulnerabilityID: CVE-2022-3857
     PkgID: libpng@1.6.37-12.el9.x86_64
     PkgName: libpng
@@ -2556,19 +2580,65 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5363
     Title: Incorrect cipher key and IV length processing
-    Description: 'Issue summary: A bug has been identified in the processing of key and initialisation vector (IV) lengths. This can lead to potential truncation or overruns during the initialisation of some symmetric ciphers. Impact summary: A truncation in the IV can result in non-uniqueness, which could result in loss of confidentiality for some cipher modes. When calling EVP_EncryptInit_ex2(), EVP_DecryptInit_ex2() or EVP_CipherInit_ex2() the provided OSSL_PARAM array is processed after the key and IV have been established. Any alterations to the key length, via the "keylen" parameter or the IV length, via the "ivlen" parameter, within the OSSL_PARAM array will not take effect as intended, potentially causing truncation or overreading of these values. The following ciphers and cipher modes are impacted: RC2, RC4, RC5, CCM, GCM and OCB. For the CCM, GCM and OCB cipher modes, truncation of the IV can result in loss of confidentiality. For example, when following NIST''s SP 800-38D section 8.2.1 guidance for constructing a deterministic IV for AES in GCM mode, truncation of the counter portion could lead to IV reuse. Both truncations and overruns of the key and overruns of the IV will produce incorrect results and could, in some cases, trigger a memory exception. However, these issues are not currently assessed as security critical. Changing the key and/or IV lengths is not considered to be a common operation and the vulnerable API was recently introduced. Furthermore it is likely that application developers will have spotted this problem during testing since decryption would fail unless both peers in the communication were similarly vulnerable. For these reasons we expect the probability of an application being vulnerable to this to be quite low. However if an application is vulnerable then this issue is considered very serious. For these reasons we have assessed this issue as Moderate severity overall. The OpenSSL SSL/TLS implementation is not affected by this issue. The OpenSSL 3.0 and 3.1 FIPS providers are not affected by this because the issue lies outside of the FIPS provider boundary. OpenSSL 3.1 and 3.0 are vulnerable to this issue.A flaw was found in OpenSSL in how it processes key and initialization vector (IV) lengths. This issue can lead to potential truncation or overruns during the initialization of some symmetric ciphers. A truncation in the IV can result in non-uniqueness, which could result in loss of confidentiality for some cipher modes. Both truncations and overruns of the key and the IV will produce incorrect results and could, in some cases, trigger a memory exception.'
+    Description: |-
+      Issue summary: A bug has been identified in the processing of key and
+      initialisation vector (IV) lengths.  This can lead to potential truncation
+      or overruns during the initialisation of some symmetric ciphers.
+
+      Impact summary: A truncation in the IV can result in non-uniqueness,
+      which could result in loss of confidentiality for some cipher modes.
+
+      When calling EVP_EncryptInit_ex2(), EVP_DecryptInit_ex2() or
+      EVP_CipherInit_ex2() the provided OSSL_PARAM array is processed after
+      the key and IV have been established.  Any alterations to the key length,
+      via the "keylen" parameter or the IV length, via the "ivlen" parameter,
+      within the OSSL_PARAM array will not take effect as intended, potentially
+      causing truncation or overreading of these values.  The following ciphers
+      and cipher modes are impacted: RC2, RC4, RC5, CCM, GCM and OCB.
+
+      For the CCM, GCM and OCB cipher modes, truncation of the IV can result in
+      loss of confidentiality.  For example, when following NIST's SP 800-38D
+      section 8.2.1 guidance for constructing a deterministic IV for AES in
+      GCM mode, truncation of the counter portion could lead to IV reuse.
+
+      Both truncations and overruns of the key and overruns of the IV will
+      produce incorrect results and could, in some cases, trigger a memory
+      exception.  However, these issues are not currently assessed as security
+      critical.
+
+      Changing the key and/or IV lengths is not considered to be a common operation
+      and the vulnerable API was recently introduced. Furthermore it is likely that
+      application developers will have spotted this problem during testing since
+      decryption would fail unless both peers in the communication were similarly
+      vulnerable. For these reasons we expect the probability of an application being
+      vulnerable to this to be quite low. However if an application is vulnerable then
+      this issue is considered very serious. For these reasons we have assessed this
+      issue as Moderate severity overall.
+
+      The OpenSSL SSL/TLS implementation is not affected by this issue.
+
+      The OpenSSL 3.0 and 3.1 FIPS providers are not affected by this because
+      the issue lies outside of the FIPS provider boundary.
+
+      OpenSSL 3.1 and 3.0 are vulnerable to this issue.
     Severity: MEDIUM
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2023/10/24/1
     - https://access.redhat.com/security/cve/CVE-2023-5363
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5363
+    - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=0df40630850fb2740e6be6890bb905d3fc623b2d
+    - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=5f69f5c65e483928c4b28ed16af6e5742929f1ee
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5363
     - https://ubuntu.com/security/notices/USN-6450-1
     - https://www.cve.org/CVERecord?id=CVE-2023-5363
+    - https://www.debian.org/security/2023/dsa-5532
     - https://www.openssl.org/news/secadv/20231024.txt
+    PublishedDate: '2023-10-25T18:17:00Z'
+    LastModifiedDate: '2023-10-25T20:31:00Z'
   - VulnerabilityID: CVE-2023-2975
     PkgID: openssl@3.0.7-17.el9_2.x86_64
     PkgName: openssl
@@ -2778,19 +2848,65 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5363
     Title: Incorrect cipher key and IV length processing
-    Description: 'Issue summary: A bug has been identified in the processing of key and initialisation vector (IV) lengths. This can lead to potential truncation or overruns during the initialisation of some symmetric ciphers. Impact summary: A truncation in the IV can result in non-uniqueness, which could result in loss of confidentiality for some cipher modes. When calling EVP_EncryptInit_ex2(), EVP_DecryptInit_ex2() or EVP_CipherInit_ex2() the provided OSSL_PARAM array is processed after the key and IV have been established. Any alterations to the key length, via the "keylen" parameter or the IV length, via the "ivlen" parameter, within the OSSL_PARAM array will not take effect as intended, potentially causing truncation or overreading of these values. The following ciphers and cipher modes are impacted: RC2, RC4, RC5, CCM, GCM and OCB. For the CCM, GCM and OCB cipher modes, truncation of the IV can result in loss of confidentiality. For example, when following NIST''s SP 800-38D section 8.2.1 guidance for constructing a deterministic IV for AES in GCM mode, truncation of the counter portion could lead to IV reuse. Both truncations and overruns of the key and overruns of the IV will produce incorrect results and could, in some cases, trigger a memory exception. However, these issues are not currently assessed as security critical. Changing the key and/or IV lengths is not considered to be a common operation and the vulnerable API was recently introduced. Furthermore it is likely that application developers will have spotted this problem during testing since decryption would fail unless both peers in the communication were similarly vulnerable. For these reasons we expect the probability of an application being vulnerable to this to be quite low. However if an application is vulnerable then this issue is considered very serious. For these reasons we have assessed this issue as Moderate severity overall. The OpenSSL SSL/TLS implementation is not affected by this issue. The OpenSSL 3.0 and 3.1 FIPS providers are not affected by this because the issue lies outside of the FIPS provider boundary. OpenSSL 3.1 and 3.0 are vulnerable to this issue.A flaw was found in OpenSSL in how it processes key and initialization vector (IV) lengths. This issue can lead to potential truncation or overruns during the initialization of some symmetric ciphers. A truncation in the IV can result in non-uniqueness, which could result in loss of confidentiality for some cipher modes. Both truncations and overruns of the key and the IV will produce incorrect results and could, in some cases, trigger a memory exception.'
+    Description: |-
+      Issue summary: A bug has been identified in the processing of key and
+      initialisation vector (IV) lengths.  This can lead to potential truncation
+      or overruns during the initialisation of some symmetric ciphers.
+
+      Impact summary: A truncation in the IV can result in non-uniqueness,
+      which could result in loss of confidentiality for some cipher modes.
+
+      When calling EVP_EncryptInit_ex2(), EVP_DecryptInit_ex2() or
+      EVP_CipherInit_ex2() the provided OSSL_PARAM array is processed after
+      the key and IV have been established.  Any alterations to the key length,
+      via the "keylen" parameter or the IV length, via the "ivlen" parameter,
+      within the OSSL_PARAM array will not take effect as intended, potentially
+      causing truncation or overreading of these values.  The following ciphers
+      and cipher modes are impacted: RC2, RC4, RC5, CCM, GCM and OCB.
+
+      For the CCM, GCM and OCB cipher modes, truncation of the IV can result in
+      loss of confidentiality.  For example, when following NIST's SP 800-38D
+      section 8.2.1 guidance for constructing a deterministic IV for AES in
+      GCM mode, truncation of the counter portion could lead to IV reuse.
+
+      Both truncations and overruns of the key and overruns of the IV will
+      produce incorrect results and could, in some cases, trigger a memory
+      exception.  However, these issues are not currently assessed as security
+      critical.
+
+      Changing the key and/or IV lengths is not considered to be a common operation
+      and the vulnerable API was recently introduced. Furthermore it is likely that
+      application developers will have spotted this problem during testing since
+      decryption would fail unless both peers in the communication were similarly
+      vulnerable. For these reasons we expect the probability of an application being
+      vulnerable to this to be quite low. However if an application is vulnerable then
+      this issue is considered very serious. For these reasons we have assessed this
+      issue as Moderate severity overall.
+
+      The OpenSSL SSL/TLS implementation is not affected by this issue.
+
+      The OpenSSL 3.0 and 3.1 FIPS providers are not affected by this because
+      the issue lies outside of the FIPS provider boundary.
+
+      OpenSSL 3.1 and 3.0 are vulnerable to this issue.
     Severity: MEDIUM
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2023/10/24/1
     - https://access.redhat.com/security/cve/CVE-2023-5363
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5363
+    - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=0df40630850fb2740e6be6890bb905d3fc623b2d
+    - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=5f69f5c65e483928c4b28ed16af6e5742929f1ee
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5363
     - https://ubuntu.com/security/notices/USN-6450-1
     - https://www.cve.org/CVERecord?id=CVE-2023-5363
+    - https://www.debian.org/security/2023/dsa-5532
     - https://www.openssl.org/news/secadv/20231024.txt
+    PublishedDate: '2023-10-25T18:17:00Z'
+    LastModifiedDate: '2023-10-25T20:31:00Z'
   - VulnerabilityID: CVE-2023-2975
     PkgID: openssl-libs@3.0.7-17.el9_2.x86_64
     PkgName: openssl-libs
@@ -4076,7 +4192,7 @@
     PkgID: zlib@1.2.11-39.el9.x86_64
     PkgName: zlib
     InstalledVersion: 1.2.11-39.el9
-    Status: under_investigation
+    Status: affected
     Layer:
       Digest: sha256:516f7562f02267e05bc0f8b175363c70768471b977360d0f0ab5711a8a6d25ab
       DiffID: sha256:07e751bf2dc8c84231cee7803f1400d85a08081213711f5d95714bff1a5a3c19
