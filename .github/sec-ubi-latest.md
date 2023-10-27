@@ -566,7 +566,11 @@
                         │       │                   URL that curl has been told to operate with.
                         │       │                    
                         │       ├ Severity        : HIGH 
-                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C
+                        │       ├ CweIDs           ─ [0]: CWE-787 
+                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+                        │       │                  │        │           :H/I:H/A:H 
+                        │       │                  │        ╰ V3Score : 9.8 
+                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C
                         │       │                           │           :H/I:H/A:H 
                         │       │                           ╰ V3Score : 7.5 
                         │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5763 
@@ -585,7 +589,7 @@
                         │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-6429-3 
                         │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-38545 
                         │       ├ PublishedDate   : 2023-10-18T04:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-18T12:46:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-25T13:24:00Z 
                         ├ [14]  ╭ VulnerabilityID : CVE-2023-27536 
                         │       ├ PkgID           : curl-minimal@7.76.1-23.el9_2.2.x86_64 
                         │       ├ PkgName         : curl-minimal 
@@ -838,7 +842,10 @@
                         │       │                    of course.
                         │       │                    
                         │       ├ Severity        : LOW 
-                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C
+                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+                        │       │                  │        │           :N/I:L/A:N 
+                        │       │                  │        ╰ V3Score : 3.7 
+                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C
                         │       │                           │           :L/I:L/A:L 
                         │       │                           ╰ V3Score : 5 
                         │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5763 
@@ -858,7 +865,7 @@
                         │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6429-3 
                         │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-38546 
                         │       ├ PublishedDate   : 2023-10-18T04:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-18T12:46:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-25T13:23:00Z 
                         ├ [19]  ╭ VulnerabilityID : CVE-2022-48554 
                         │       ├ PkgID           : file-libs@5.39-12.1.el9_2.x86_64 
                         │       ├ PkgName         : file-libs 
@@ -1329,7 +1336,7 @@
                         │       │                  ╰ [10]: https://www.oracle.com/security-alerts/cpuoct20
                         │       │                          23.html 
                         │       ├ PublishedDate   : 2023-10-17T22:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-18T01:28:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-25T14:30:00Z 
                         ├ [30]  ╭ VulnerabilityID : CVE-2023-22081 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:5733 
                         │       ├ PkgID           : java-1.8.0-openjdk-headless@1.8.0.382.b05-2.el9.x86_64 
@@ -1384,7 +1391,7 @@
                         │       │                  ╰ [9]: https://www.oracle.com/security-alerts/cpuoct202
                         │       │                         3.html 
                         │       ├ PublishedDate   : 2023-10-17T22:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-20T21:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-25T14:29:00Z 
                         ├ [31]  ╭ VulnerabilityID : CVE-2022-3857 
                         │       ├ PkgID           : java-1.8.0-openjdk-headless@1.8.0.382.b05-2.el9.x86_64 
                         │       ├ PkgName         : java-1.8.0-openjdk-headless 
@@ -1580,7 +1587,11 @@
                         │       │                   URL that curl has been told to operate with.
                         │       │                    
                         │       ├ Severity        : HIGH 
-                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C
+                        │       ├ CweIDs           ─ [0]: CWE-787 
+                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+                        │       │                  │        │           :H/I:H/A:H 
+                        │       │                  │        ╰ V3Score : 9.8 
+                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C
                         │       │                           │           :H/I:H/A:H 
                         │       │                           ╰ V3Score : 7.5 
                         │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5763 
@@ -1599,7 +1610,7 @@
                         │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-6429-3 
                         │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-38545 
                         │       ├ PublishedDate   : 2023-10-18T04:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-18T12:46:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-25T13:24:00Z 
                         ├ [36]  ╭ VulnerabilityID : CVE-2023-27536 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.2.x86_64 
                         │       ├ PkgName         : libcurl-minimal 
@@ -1852,7 +1863,10 @@
                         │       │                    of course.
                         │       │                    
                         │       ├ Severity        : LOW 
-                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C
+                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+                        │       │                  │        │           :N/I:L/A:N 
+                        │       │                  │        ╰ V3Score : 3.7 
+                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C
                         │       │                           │           :L/I:L/A:L 
                         │       │                           ╰ V3Score : 5 
                         │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5763 
@@ -1872,7 +1886,7 @@
                         │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6429-3 
                         │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-38546 
                         │       ├ PublishedDate   : 2023-10-18T04:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-18T12:46:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-25T13:23:00Z 
                         ├ [41]  ╭ VulnerabilityID : CVE-2023-4039 
                         │       ├ PkgID           : libgcc@11.3.1-4.3.el9.x86_64 
                         │       ├ PkgName         : libgcc 
@@ -2024,7 +2038,7 @@
                         │       │                  │        3/10/19/6 
                         │       │                  ├ [5]  : http://www.openwall.com/lists/oss-security/202
                         │       │                  │        3/10/20/8 
-                        │       │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5929 
+                        │       │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:6077 
                         │       │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-202
                         │       │                  │        3-44487 
                         │       │                  ├ [8]  : https://access.redhat.com/security/cve/cve-202
@@ -2046,200 +2060,222 @@
                         │       │                  ├ [15] : https://blog.vespa.ai/cve-2023-44487/ 
                         │       │                  ├ [16] : https://bugzilla.proxmox.com/show_bug.cgi?id=4988 
                         │       │                  ├ [17] : https://bugzilla.redhat.com/2242803 
-                        │       │                  ├ [18] : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
-                        │       │                  ├ [19] : https://bugzilla.suse.com/show_bug.cgi?id=1216123 
-                        │       │                  ├ [20] : https://cgit.freebsd.org/ports/commit/?id=c64c
+                        │       │                  ├ [18] : https://bugzilla.redhat.com/2243296 
+                        │       │                  ├ [19] : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
+                        │       │                  ├ [20] : https://bugzilla.suse.com/show_bug.cgi?id=1216123 
+                        │       │                  ├ [21] : https://cgit.freebsd.org/ports/commit/?id=c64c
                         │       │                  │        329c2c1752f46b73e3e6ce9f4329be6629f9 
-                        │       │                  ├ [21] : https://chaos.social/@icing/111210915918780532 
-                        │       │                  ├ [22] : https://cloud.google.com/blog/products/identit
+                        │       │                  ├ [22] : https://chaos.social/@icing/111210915918780532 
+                        │       │                  ├ [23] : https://cloud.google.com/blog/products/identit
                         │       │                  │        y-security/google-cloud-mitigated-largest-ddos-atta
                         │       │                  │        ck-peaking-above-398-million-rps/ 
-                        │       │                  ├ [23] : https://cloud.google.com/blog/products/identit
+                        │       │                  ├ [24] : https://cloud.google.com/blog/products/identit
                         │       │                  │        y-security/how-it-works-the-novel-http2-rapid-reset
                         │       │                  │        -ddos-attack 
-                        │       │                  ├ [24] : https://community.traefik.io/t/is-traefik-vuln
+                        │       │                  ├ [25] : https://community.traefik.io/t/is-traefik-vuln
                         │       │                  │        erable-to-cve-2023-44487/20125 
-                        │       │                  ├ [25] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
+                        │       │                  ├ [26] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
                         │       │                  │        =CVE-2023-44487 
-                        │       │                  ├ [26] : https://devblogs.microsoft.com/dotnet/october-
+                        │       │                  ├ [27] : https://devblogs.microsoft.com/dotnet/october-
                         │       │                  │        2023-updates/ 
-                        │       │                  ├ [27] : https://edg.io/lp/blog/resets-leaks-ddos-and-t
+                        │       │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-t
                         │       │                  │        he-tale-of-a-hidden-cve 
-                        │       │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5929.html 
-                        │       │                  ├ [29] : https://forums.swift.org/t/swift-nio-http2-sec
+                        │       │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
+                        │       │                  ├ [30] : https://forums.swift.org/t/swift-nio-http2-sec
                         │       │                  │        urity-update-cve-2023-44487-http-2-dos/67764
                         │       │                  │        [m 
-                        │       │                  ├ [30] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b
+                        │       │                  ├ [31] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b
                         │       │                  │        35a5e131c66a0c088 
-                        │       │                  ├ [31] : https://github.com/Azure/AKS/issues/3947 
-                        │       │                  ├ [32] : https://github.com/Kong/kong/discussions/11741 
-                        │       │                  ├ [33] : https://github.com/advisories/GHSA-qppj-fm5r-hxr3 
-                        │       │                  ├ [34] : https://github.com/advisories/GHSA-vx74-f528-fxqg 
-                        │       │                  ├ [35] : https://github.com/advisories/GHSA-xpw8-rcwv-8f8p 
-                        │       │                  ├ [36] : https://github.com/akka/akka-http/issues/4323 
-                        │       │                  ├ [37] : https://github.com/alibaba/tengine/issues/1872 
-                        │       │                  ├ [38] : https://github.com/apache/apisix/issues/10320 
-                        │       │                  ├ [39] : https://github.com/apache/httpd-site/pull/10 
-                        │       │                  ├ [40] : https://github.com/apache/httpd/blob/afcdbeebb
+                        │       │                  ├ [32] : https://github.com/Azure/AKS/issues/3947 
+                        │       │                  ├ [33] : https://github.com/Kong/kong/discussions/11741 
+                        │       │                  ├ [34] : https://github.com/advisories/GHSA-qppj-fm5r-hxr3 
+                        │       │                  ├ [35] : https://github.com/advisories/GHSA-vx74-f528-fxqg 
+                        │       │                  ├ [36] : https://github.com/advisories/GHSA-xpw8-rcwv-8f8p 
+                        │       │                  ├ [37] : https://github.com/akka/akka-http/issues/4323 
+                        │       │                  ├ [38] : https://github.com/alibaba/tengine/issues/1872 
+                        │       │                  ├ [39] : https://github.com/apache/apisix/issues/10320 
+                        │       │                  ├ [40] : https://github.com/apache/httpd-site/pull/10 
+                        │       │                  ├ [41] : https://github.com/apache/httpd/blob/afcdbeebb
                         │       │                  │        ff4b0c50ea26cdd16e178c0d1f24152/modules/http2/h2_mp
                         │       │                  │        lx.c#L1101-L1113 
-                        │       │                  ├ [41] : https://github.com/apache/tomcat/tree/main/jav
+                        │       │                  ├ [42] : https://github.com/apache/tomcat/tree/main/jav
                         │       │                  │        a/org/apache/coyote/http2 
-                        │       │                  ├ [42] : https://github.com/apache/trafficserver/pull/10564 
-                        │       │                  ├ [43] : https://github.com/apple/swift-nio-http2 
-                        │       │                  ├ [44] : https://github.com/apple/swift-nio-http2/secur
+                        │       │                  ├ [43] : https://github.com/apache/trafficserver/pull/10564 
+                        │       │                  ├ [44] : https://github.com/apple/swift-nio-http2 
+                        │       │                  ├ [45] : https://github.com/apple/swift-nio-http2/secur
                         │       │                  │        ity/advisories/GHSA-qppj-fm5r-hxr3 
-                        │       │                  ├ [45] : https://github.com/arkrwn/PoC/tree/main/CVE-20
+                        │       │                  ├ [46] : https://github.com/arkrwn/PoC/tree/main/CVE-20
                         │       │                  │        23-44487 
-                        │       │                  ├ [46] : https://github.com/bcdannyboy/CVE-2023-44487 
-                        │       │                  ├ [47] : https://github.com/caddyserver/caddy/issues/5877 
-                        │       │                  ├ [48] : https://github.com/caddyserver/caddy/releases/
+                        │       │                  ├ [47] : https://github.com/bcdannyboy/CVE-2023-44487 
+                        │       │                  ├ [48] : https://github.com/caddyserver/caddy/issues/5877 
+                        │       │                  ├ [49] : https://github.com/caddyserver/caddy/releases/
                         │       │                  │        tag/v2.7.5 
-                        │       │                  ├ [49] : https://github.com/dotnet/announcements/issues/277 
-                        │       │                  ├ [50] : https://github.com/dotnet/core/blob/e4613450ea
+                        │       │                  ├ [50] : https://github.com/dotnet/announcements/issues/277 
+                        │       │                  ├ [51] : https://github.com/dotnet/core/blob/e4613450ea
                         │       │                  │        0da7fd2fc6b61dfb2c1c1dec1ce9ec/release-notes/6.0/6.
                         │       │                  │        0.23/6.0.23.md?plain=1#L73 
-                        │       │                  ├ [51] : https://github.com/eclipse/jetty.project/issue
+                        │       │                  ├ [52] : https://github.com/eclipse/jetty.project/issue
                         │       │                  │        s/10679 
-                        │       │                  ├ [52] : https://github.com/envoyproxy/envoy/pull/30055 
-                        │       │                  ├ [53] : https://github.com/etcd-io/etcd/issues/16740 
-                        │       │                  ├ [54] : https://github.com/facebook/proxygen/pull/466 
-                        │       │                  ├ [55] : https://github.com/golang/go/issues/63417 
-                        │       │                  ├ [56] : https://github.com/grpc/grpc-go/pull/6703 
-                        │       │                  ├ [57] : https://github.com/h2o/h2o/pull/3291 
-                        │       │                  ├ [58] : https://github.com/h2o/h2o/security/advisories
+                        │       │                  ├ [53] : https://github.com/envoyproxy/envoy/pull/30055 
+                        │       │                  ├ [54] : https://github.com/etcd-io/etcd/issues/16740 
+                        │       │                  ├ [55] : https://github.com/facebook/proxygen/pull/466 
+                        │       │                  ├ [56] : https://github.com/golang/go/issues/63417 
+                        │       │                  ├ [57] : https://github.com/grpc/grpc-go/pull/6703 
+                        │       │                  ├ [58] : https://github.com/h2o/h2o/pull/3291 
+                        │       │                  ├ [59] : https://github.com/h2o/h2o/security/advisories
                         │       │                  │        /GHSA-2m7v-gc89-fjqf 
-                        │       │                  ├ [59] : https://github.com/haproxy/haproxy/issues/2312 
-                        │       │                  ├ [60] : https://github.com/hyperium/hyper/issues/3337 
-                        │       │                  ├ [61] : https://github.com/icing/mod_h2/blob/0a864782a
+                        │       │                  ├ [60] : https://github.com/haproxy/haproxy/issues/2312 
+                        │       │                  ├ [61] : https://github.com/hyperium/hyper/issues/3337 
+                        │       │                  ├ [62] : https://github.com/icing/mod_h2/blob/0a864782a
                         │       │                  │        f0a942aa2ad4ed960a6b32cd35bcf0a/mod_http2/README.md
                         │       │                  │        ?plain=1#L239-L244 
-                        │       │                  ├ [62] : https://github.com/junkurihara/rust-rpxy/issues/97 
-                        │       │                  ├ [63] : https://github.com/kazu-yamamoto/http2/commit/
+                        │       │                  ├ [63] : https://github.com/junkurihara/rust-rpxy/issues/97 
+                        │       │                  ├ [64] : https://github.com/kazu-yamamoto/http2/commit/
                         │       │                  │        f61d41a502bd0f60eb24e1ce14edc7b6df6722a1 
-                        │       │                  ├ [64] : https://github.com/kazu-yamamoto/http2/issues/93 
-                        │       │                  ├ [65] : https://github.com/kubernetes/kubernetes/pull/
+                        │       │                  ├ [65] : https://github.com/kazu-yamamoto/http2/issues/93 
+                        │       │                  ├ [66] : https://github.com/kubernetes/kubernetes/pull/
                         │       │                  │        121120 
-                        │       │                  ├ [66] : https://github.com/line/armeria/pull/5232 
-                        │       │                  ├ [67] : https://github.com/linkerd/website/pull/1695/c
+                        │       │                  ├ [67] : https://github.com/line/armeria/pull/5232 
+                        │       │                  ├ [68] : https://github.com/linkerd/website/pull/1695/c
                         │       │                  │        ommits/4b9c6836471bc8270ab48aae6fd2181bc73fd632
                         │       │                  │        [m 
-                        │       │                  ├ [68] : https://github.com/micrictor/http2-rst-stream 
-                        │       │                  ├ [69] : https://github.com/microsoft/CBL-Mariner/pull/6381 
-                        │       │                  ├ [70] : https://github.com/netty/netty/commit/58f75f66
+                        │       │                  ├ [69] : https://github.com/micrictor/http2-rst-stream 
+                        │       │                  ├ [70] : https://github.com/microsoft/CBL-Mariner/pull/6381 
+                        │       │                  ├ [71] : https://github.com/netty/netty/commit/58f75f66
                         │       │                  │        5aa81a8cbcf6ffa74820042a285c5e61 
-                        │       │                  ├ [71] : https://github.com/nghttp2/nghttp2/pull/1961 
-                        │       │                  ├ [72] : https://github.com/nghttp2/nghttp2/releases/ta
+                        │       │                  ├ [72] : https://github.com/nghttp2/nghttp2/pull/1961 
+                        │       │                  ├ [73] : https://github.com/nghttp2/nghttp2/releases/ta
                         │       │                  │        g/v1.57.0 
-                        │       │                  ├ [73] : https://github.com/ninenines/cowboy/issues/1615 
-                        │       │                  ├ [74] : https://github.com/nodejs/node/pull/50121 
-                        │       │                  ├ [75] : https://github.com/openresty/openresty/issues/930 
-                        │       │                  ├ [76] : https://github.com/opensearch-project/data-pre
+                        │       │                  ├ [74] : https://github.com/ninenines/cowboy/issues/1615 
+                        │       │                  ├ [75] : https://github.com/nodejs/node/pull/50121 
+                        │       │                  ├ [76] : https://github.com/openresty/openresty/issues/930 
+                        │       │                  ├ [77] : https://github.com/opensearch-project/data-pre
                         │       │                  │        pper/issues/3474 
-                        │       │                  ├ [77] : https://github.com/oqtane/oqtane.framework/dis
+                        │       │                  ├ [78] : https://github.com/oqtane/oqtane.framework/dis
                         │       │                  │        cussions/3367 
-                        │       │                  ├ [78] : https://github.com/projectcontour/contour/pull/5826 
-                        │       │                  ├ [79] : https://github.com/tempesta-tech/tempesta/issu
+                        │       │                  ├ [79] : https://github.com/projectcontour/contour/pull/5826 
+                        │       │                  ├ [80] : https://github.com/tempesta-tech/tempesta/issu
                         │       │                  │        es/1986 
-                        │       │                  ├ [80] : https://github.com/varnishcache/varnish-cache/
+                        │       │                  ├ [81] : https://github.com/varnishcache/varnish-cache/
                         │       │                  │        issues/3996 
-                        │       │                  ├ [81] : https://go.dev/cl/534215 
-                        │       │                  ├ [82] : https://go.dev/cl/534235 
-                        │       │                  ├ [83] : https://go.dev/issue/63417 
-                        │       │                  ├ [84] : https://groups.google.com/g/golang-announce/c/
-                        │       │                  │        iNNxDTCjZvo 
+                        │       │                  ├ [82] : https://go.dev/cl/534215 
+                        │       │                  ├ [83] : https://go.dev/cl/534235 
+                        │       │                  ├ [84] : https://go.dev/issue/63417 
                         │       │                  ├ [85] : https://groups.google.com/g/golang-announce/c/
+                        │       │                  │        iNNxDTCjZvo 
+                        │       │                  ├ [86] : https://groups.google.com/g/golang-announce/c/
                         │       │                  │        iNNxDTCjZvo/m/UDd7VKQuAAAJ 
-                        │       │                  ├ [86] : https://istio.io/latest/news/security/istio-se
+                        │       │                  ├ [87] : https://istio.io/latest/news/security/istio-se
                         │       │                  │        curity-2023-004/ 
-                        │       │                  ├ [87] : https://linkerd.io/2023/10/12/linkerd-cve-2023
+                        │       │                  ├ [88] : https://linkerd.io/2023/10/12/linkerd-cve-2023
                         │       │                  │        -44487/ 
-                        │       │                  ├ [88] : https://linux.oracle.com/cve/CVE-2023-44487.html 
-                        │       │                  ├ [89] : https://linux.oracle.com/errata/ELSA-2023-5989.html 
-                        │       │                  ├ [90] : https://lists.apache.org/thread/5py8h42mxfsn8l
+                        │       │                  ├ [89] : https://linux.oracle.com/cve/CVE-2023-44487.html 
+                        │       │                  ├ [90] : https://linux.oracle.com/errata/ELSA-2023-5989.html 
+                        │       │                  ├ [91] : https://lists.apache.org/thread/5py8h42mxfsn8l
                         │       │                  │        1wy6o41xwhsjlsd87q 
-                        │       │                  ├ [91] : https://lists.debian.org/debian-lts-announce/2
-                        │       │                  │        023/10/msg00020.html 
                         │       │                  ├ [92] : https://lists.debian.org/debian-lts-announce/2
-                        │       │                  │        023/10/msg00023.html 
+                        │       │                  │        023/10/msg00020.html 
                         │       │                  ├ [93] : https://lists.debian.org/debian-lts-announce/2
+                        │       │                  │        023/10/msg00023.html 
+                        │       │                  ├ [94] : https://lists.debian.org/debian-lts-announce/2
                         │       │                  │        023/10/msg00024.html 
-                        │       │                  ├ [94] : https://lists.fedoraproject.org/archives/list/
+                        │       │                  ├ [95] : https://lists.fedoraproject.org/archives/list/
+                        │       │                  │        package-announce@lists.fedoraproject.org/message/BF
+                        │       │                  │        QD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/ 
+                        │       │                  ├ [96] : https://lists.fedoraproject.org/archives/list/
+                        │       │                  │        package-announce@lists.fedoraproject.org/message/E7
+                        │       │                  │        2T67UPDRXHIDLO3OROR25YAMN4GGW5/ 
+                        │       │                  ├ [97] : https://lists.fedoraproject.org/archives/list/
+                        │       │                  │        package-announce@lists.fedoraproject.org/message/FN
+                        │       │                  │        A62Q767CFAFHBCDKYNPBMZWB7TWYVU/ 
+                        │       │                  ├ [98] : https://lists.fedoraproject.org/archives/list/
                         │       │                  │        package-announce@lists.fedoraproject.org/message/JI
                         │       │                  │        ZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/ 
-                        │       │                  ├ [95] : https://lists.fedoraproject.org/archives/list/
+                        │       │                  ├ [99] : https://lists.fedoraproject.org/archives/list/
                         │       │                  │        package-announce@lists.fedoraproject.org/message/JM
                         │       │                  │        EXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/ 
-                        │       │                  ├ [96] : https://lists.fedoraproject.org/archives/list/
+                        │       │                  ├ [100]: https://lists.fedoraproject.org/archives/list/
+                        │       │                  │        package-announce@lists.fedoraproject.org/message/LK
+                        │       │                  │        YHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/ 
+                        │       │                  ├ [101]: https://lists.fedoraproject.org/archives/list/
+                        │       │                  │        package-announce@lists.fedoraproject.org/message/WL
+                        │       │                  │        PRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/ 
+                        │       │                  ├ [102]: https://lists.fedoraproject.org/archives/list/
+                        │       │                  │        package-announce@lists.fedoraproject.org/message/X6
+                        │       │                  │        QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/ 
+                        │       │                  ├ [103]: https://lists.fedoraproject.org/archives/list/
                         │       │                  │        package-announce@lists.fedoraproject.org/message/ZK
                         │       │                  │        QSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/ 
-                        │       │                  ├ [97] : https://lists.w3.org/Archives/Public/ietf-http
+                        │       │                  ├ [104]: https://lists.fedoraproject.org/archives/list/
+                        │       │                  │        package-announce@lists.fedoraproject.org/message/ZL
+                        │       │                  │        U6U2R2IC2K64NDPNMV55AUAO65MAF4/ 
+                        │       │                  ├ [105]: https://lists.w3.org/Archives/Public/ietf-http
                         │       │                  │        -wg/2023OctDec/0025.html 
-                        │       │                  ├ [98] : https://mailman.nginx.org/pipermail/nginx-deve
+                        │       │                  ├ [106]: https://mailman.nginx.org/pipermail/nginx-deve
                         │       │                  │        l/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.htm
                         │       │                  │        l 
-                        │       │                  ├ [99] : https://martinthomson.github.io/h2-stream-limi
+                        │       │                  ├ [107]: https://martinthomson.github.io/h2-stream-limi
                         │       │                  │        ts/draft-thomson-httpbis-h2-stream-limits.html[
                         │       │                  │        m 
-                        │       │                  ├ [100]: https://msrc.microsoft.com/blog/2023/10/micros
+                        │       │                  ├ [108]: https://msrc.microsoft.com/blog/2023/10/micros
                         │       │                  │        oft-response-to-distributed-denial-of-service-ddos-
                         │       │                  │        attacks-against-http/2/ 
-                        │       │                  ├ [101]: https://msrc.microsoft.com/update-guide/vulner
+                        │       │                  ├ [109]: https://msrc.microsoft.com/update-guide/vulner
                         │       │                  │        ability/CVE-2023-44487 
-                        │       │                  ├ [102]: https://my.f5.com/manage/s/article/K000137106 
-                        │       │                  ├ [103]: https://netty.io/news/2023/10/10/4-1-100-Final.html 
-                        │       │                  ├ [104]: https://news.ycombinator.com/item?id=37830987 
-                        │       │                  ├ [105]: https://news.ycombinator.com/item?id=37830998 
-                        │       │                  ├ [106]: https://news.ycombinator.com/item?id=37831062 
-                        │       │                  ├ [107]: https://news.ycombinator.com/item?id=37837043 
-                        │       │                  ├ [108]: https://nodejs.org/en/blog/vulnerability/octob
+                        │       │                  ├ [110]: https://my.f5.com/manage/s/article/K000137106 
+                        │       │                  ├ [111]: https://netty.io/news/2023/10/10/4-1-100-Final.html 
+                        │       │                  ├ [112]: https://news.ycombinator.com/item?id=37830987 
+                        │       │                  ├ [113]: https://news.ycombinator.com/item?id=37830998 
+                        │       │                  ├ [114]: https://news.ycombinator.com/item?id=37831062 
+                        │       │                  ├ [115]: https://news.ycombinator.com/item?id=37837043 
+                        │       │                  ├ [116]: https://nodejs.org/en/blog/vulnerability/octob
                         │       │                  │        er-2023-security-releases 
-                        │       │                  ├ [109]: https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
-                        │       │                  ├ [110]: https://openssf.org/blog/2023/10/10/http-2-rap
+                        │       │                  ├ [117]: https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
+                        │       │                  ├ [118]: https://openssf.org/blog/2023/10/10/http-2-rap
                         │       │                  │        id-reset-vulnerability-highlights-need-for-rapid-re
                         │       │                  │        sponse/ 
-                        │       │                  ├ [111]: https://pkg.go.dev/vuln/GO-2023-2102 
-                        │       │                  ├ [112]: https://seanmonstar.com/post/73079415113693593
+                        │       │                  ├ [119]: https://pkg.go.dev/vuln/GO-2023-2102 
+                        │       │                  ├ [120]: https://seanmonstar.com/post/73079415113693593
                         │       │                  │        6/hyper-http2-rapid-reset-unaffected 
-                        │       │                  ├ [113]: https://security.netapp.com/advisory/ntap-2023
+                        │       │                  ├ [121]: https://security.netapp.com/advisory/ntap-2023
                         │       │                  │        1016-0001/ 
-                        │       │                  ├ [114]: https://security.paloaltonetworks.com/CVE-2023
+                        │       │                  ├ [122]: https://security.paloaltonetworks.com/CVE-2023
                         │       │                  │        -44487 
-                        │       │                  ├ [115]: https://tomcat.apache.org/security-10.html#Fix
+                        │       │                  ├ [123]: https://tomcat.apache.org/security-10.html#Fix
                         │       │                  │        ed_in_Apache_Tomcat_10.1.14 
-                        │       │                  ├ [116]: https://ubuntu.com/security/CVE-2023-44487 
-                        │       │                  ├ [117]: https://ubuntu.com/security/notices/USN-6427-1 
-                        │       │                  ├ [118]: https://ubuntu.com/security/notices/USN-6427-2 
-                        │       │                  ├ [119]: https://ubuntu.com/security/notices/USN-6438-1 
-                        │       │                  ├ [120]: https://www.bleepingcomputer.com/news/security
+                        │       │                  ├ [124]: https://ubuntu.com/security/CVE-2023-44487 
+                        │       │                  ├ [125]: https://ubuntu.com/security/notices/USN-6427-1 
+                        │       │                  ├ [126]: https://ubuntu.com/security/notices/USN-6427-2 
+                        │       │                  ├ [127]: https://ubuntu.com/security/notices/USN-6438-1 
+                        │       │                  ├ [128]: https://www.bleepingcomputer.com/news/security
                         │       │                  │        /new-http-2-rapid-reset-zero-day-attack-breaks-ddos
                         │       │                  │        -records/ 
-                        │       │                  ├ [121]: https://www.cisa.gov/news-events/alerts/2023/1
+                        │       │                  ├ [129]: https://www.cisa.gov/news-events/alerts/2023/1
                         │       │                  │        0/10/http2-rapid-reset-vulnerability-cve-2023-44487
                         │       │                  │         
-                        │       │                  ├ [122]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
-                        │       │                  ├ [123]: https://www.darkreading.com/cloud/internet-wid
+                        │       │                  ├ [130]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
+                        │       │                  ├ [131]: https://www.darkreading.com/cloud/internet-wid
                         │       │                  │        e-zero-day-bug-fuels-largest-ever-ddos-event
                         │       │                  │        [m 
-                        │       │                  ├ [124]: https://www.debian.org/security/2023/dsa-5521 
-                        │       │                  ├ [125]: https://www.debian.org/security/2023/dsa-5522 
-                        │       │                  ├ [126]: https://www.haproxy.com/blog/haproxy-is-not-af
+                        │       │                  ├ [132]: https://www.debian.org/security/2023/dsa-5521 
+                        │       │                  ├ [133]: https://www.debian.org/security/2023/dsa-5522 
+                        │       │                  ├ [134]: https://www.haproxy.com/blog/haproxy-is-not-af
                         │       │                  │        fected-by-the-http-2-rapid-reset-attack-cve-2023-44
                         │       │                  │        487 
-                        │       │                  ├ [127]: https://www.mail-archive.com/haproxy@formilux.
+                        │       │                  ├ [135]: https://www.mail-archive.com/haproxy@formilux.
                         │       │                  │        org/msg44134.html 
-                        │       │                  ├ [128]: https://www.netlify.com/blog/netlify-successfu
+                        │       │                  ├ [136]: https://www.netlify.com/blog/netlify-successfu
                         │       │                  │        lly-mitigates-cve-2023-44487/ 
-                        │       │                  ├ [129]: https://www.nginx.com/blog/http-2-rapid-reset-
+                        │       │                  ├ [137]: https://www.nginx.com/blog/http-2-rapid-reset-
                         │       │                  │        attack-impacting-f5-nginx-products/ 
-                        │       │                  ├ [130]: https://www.openwall.com/lists/oss-security/20
+                        │       │                  ├ [138]: https://www.openwall.com/lists/oss-security/20
                         │       │                  │        23/10/10/6 
-                        │       │                  ├ [131]: https://www.phoronix.com/news/HTTP2-Rapid-Rese
+                        │       │                  ├ [139]: https://www.phoronix.com/news/HTTP2-Rapid-Rese
                         │       │                  │        t-Attack 
-                        │       │                  ╰ [132]: https://www.theregister.com/2023/10/10/http2_r
+                        │       │                  ╰ [140]: https://www.theregister.com/2023/10/10/http2_r
                         │       │                           apid_reset_zeroday/ 
                         │       ├ PublishedDate   : 2023-10-10T14:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-10-24T12:58:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-26T05:15:00Z 
                         ├ [44]  ╭ VulnerabilityID : CVE-2022-3857 
                         │       ├ PkgID           : libpng@1.6.37-12.el9.x86_64 
                         │       ├ PkgName         : libpng 
@@ -3174,64 +3210,95 @@
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-5363 
                         │       ├ Title           : Incorrect cipher key and IV length processing 
                         │       ├ Description     : Issue summary: A bug has been identified in the
-                        │       │                   processing of key and initialisation vector (IV) lengths.
-                        │       │                   This can lead to potential truncation or overruns during
-                        │       │                   the initialisation of some symmetric ciphers. Impact
-                        │       │                   summary: A truncation in the IV can result in
-                        │       │                   non-uniqueness, which could result in loss of
-                        │       │                   confidentiality for some cipher modes. When calling
-                        │       │                   EVP_EncryptInit_ex2(), EVP_DecryptInit_ex2() or
+                        │       │                   processing of key and
+                        │       │                   initialisation vector (IV) lengths.  This can lead to
+                        │       │                   potential truncation
+                        │       │                   or overruns during the initialisation of some symmetric
+                        │       │                   ciphers.
+                        │       │                   
+                        │       │                   Impact summary: A truncation in the IV can result in
+                        │       │                   non-uniqueness,
+                        │       │                   which could result in loss of confidentiality for some
+                        │       │                   cipher modes.
+                        │       │                   
+                        │       │                   When calling EVP_EncryptInit_ex2(), EVP_DecryptInit_ex2()
+                        │       │                   or
                         │       │                   EVP_CipherInit_ex2() the provided OSSL_PARAM array is
-                        │       │                   processed after the key and IV have been established. Any
-                        │       │                   alterations to the key length, via the "keylen" parameter
-                        │       │                   or the IV length, via the "ivlen" parameter, within the
-                        │       │                   OSSL_PARAM array will not take effect as intended,
-                        │       │                   potentially causing truncation or overreading of these
-                        │       │                   values. The following ciphers and cipher modes are
-                        │       │                   impacted: RC2, RC4, RC5, CCM, GCM and OCB. For the CCM, GCM
-                        │       │                    and OCB cipher modes, truncation of the IV can result in
-                        │       │                   loss of confidentiality. For example, when following NIST's
-                        │       │                    SP 800-38D section 8.2.1 guidance for constructing a
-                        │       │                   deterministic IV for AES in GCM mode, truncation of the
-                        │       │                   counter portion could lead to IV reuse. Both truncations
-                        │       │                   and overruns of the key and overruns of the IV will produce
-                        │       │                    incorrect results and could, in some cases, trigger a
-                        │       │                   memory exception. However, these issues are not currently
-                        │       │                   assessed as security critical. Changing the key and/or IV
-                        │       │                   lengths is not considered to be a common operation and the
-                        │       │                   vulnerable API was recently introduced. Furthermore it is
-                        │       │                   likely that application developers will have spotted this
-                        │       │                   problem during testing since decryption would fail unless
-                        │       │                   both peers in the communication were similarly vulnerable.
-                        │       │                   For these reasons we expect the probability of an
-                        │       │                   application being vulnerable to this to be quite low.
-                        │       │                   However if an application is vulnerable then this issue is
-                        │       │                   considered very serious. For these reasons we have assessed
-                        │       │                    this issue as Moderate severity overall. The OpenSSL
-                        │       │                   SSL/TLS implementation is not affected by this issue. The
-                        │       │                   OpenSSL 3.0 and 3.1 FIPS providers are not affected by this
-                        │       │                    because the issue lies outside of the FIPS provider
-                        │       │                   boundary. OpenSSL 3.1 and 3.0 are vulnerable to this
-                        │       │                   issue.A flaw was found in OpenSSL in how it processes key
-                        │       │                   and initialization vector (IV) lengths. This issue can lead
-                        │       │                    to potential truncation or overruns during the
-                        │       │                   initialization of some symmetric ciphers. A truncation in
-                        │       │                   the IV can result in non-uniqueness, which could result in
-                        │       │                   loss of confidentiality for some cipher modes. Both
-                        │       │                   truncations and overruns of the key and the IV will produce
-                        │       │                    incorrect results and could, in some cases, trigger a
-                        │       │                   memory exception. 
+                        │       │                   processed after
+                        │       │                   the key and IV have been established.  Any alterations to
+                        │       │                   the key length,
+                        │       │                   via the "keylen" parameter or the IV length, via the
+                        │       │                   "ivlen" parameter,
+                        │       │                   within the OSSL_PARAM array will not take effect as
+                        │       │                   intended, potentially
+                        │       │                   causing truncation or overreading of these values.  The
+                        │       │                   following ciphers
+                        │       │                   and cipher modes are impacted: RC2, RC4, RC5, CCM, GCM and
+                        │       │                   OCB.
+                        │       │                   
+                        │       │                   For the CCM, GCM and OCB cipher modes, truncation of the IV
+                        │       │                    can result in
+                        │       │                   loss of confidentiality.  For example, when following
+                        │       │                   NIST's SP 800-38D
+                        │       │                   section 8.2.1 guidance for constructing a deterministic IV
+                        │       │                   for AES in
+                        │       │                   GCM mode, truncation of the counter portion could lead to
+                        │       │                   IV reuse.
+                        │       │                   
+                        │       │                   Both truncations and overruns of the key and overruns of
+                        │       │                   the IV will
+                        │       │                   produce incorrect results and could, in some cases, trigger
+                        │       │                    a memory
+                        │       │                   exception.  However, these issues are not currently
+                        │       │                   assessed as security
+                        │       │                   critical.
+                        │       │                   
+                        │       │                   Changing the key and/or IV lengths is not considered to be
+                        │       │                   a common operation
+                        │       │                   and the vulnerable API was recently introduced. Furthermore
+                        │       │                    it is likely that
+                        │       │                   application developers will have spotted this problem
+                        │       │                   during testing since
+                        │       │                   decryption would fail unless both peers in the
+                        │       │                   communication were similarly
+                        │       │                   vulnerable. For these reasons we expect the probability of
+                        │       │                   an application being
+                        │       │                   vulnerable to this to be quite low. However if an
+                        │       │                   application is vulnerable then
+                        │       │                   this issue is considered very serious. For these reasons we
+                        │       │                    have assessed this
+                        │       │                   issue as Moderate severity overall.
+                        │       │                   
+                        │       │                   The OpenSSL SSL/TLS implementation is not affected by this
+                        │       │                   issue.
+                        │       │                   
+                        │       │                   The OpenSSL 3.0 and 3.1 FIPS providers are not affected by
+                        │       │                   this because
+                        │       │                   the issue lies outside of the FIPS provider boundary.
+                        │       │                   
+                        │       │                   OpenSSL 3.1 and 3.0 are vulnerable to this issue. 
                         │       ├ Severity        : MEDIUM 
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :L/I:N/A:N 
                         │       │                           ╰ V3Score : 5.3 
-                        │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5363 
-                        │                          ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-                        │                          │      VE-2023-5363 
-                        │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5363 
-                        │                          ├ [3]: https://ubuntu.com/security/notices/USN-6450-1 
-                        │                          ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5363 
-                        │                          ╰ [5]: https://www.openssl.org/news/secadv/20231024.txt 
+                        │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/24/1 
+                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-5363 
+                        │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │       │                  │      VE-2023-5363 
+                        │       │                  ├ [3]: https://git.openssl.org/gitweb/?p=openssl.git;a=
+                        │       │                  │      commitdiff;h=0df40630850fb2740e6be6890bb905d3fc623b2d
+                        │       │                  │       
+                        │       │                  ├ [4]: https://git.openssl.org/gitweb/?p=openssl.git;a=
+                        │       │                  │      commitdiff;h=5f69f5c65e483928c4b28ed16af6e5742929f1ee
+                        │       │                  │       
+                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-5363 
+                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6450-1 
+                        │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-5363 
+                        │       │                  ├ [8]: https://www.debian.org/security/2023/dsa-5532 
+                        │       │                  ╰ [9]: https://www.openssl.org/news/secadv/20231024.txt 
+                        │       ├ PublishedDate   : 2023-10-25T18:17:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-25T20:31:00Z 
                         ├ [69]  ╭ VulnerabilityID : CVE-2023-2975 
                         │       ├ PkgID           : openssl@3.0.7-17.el9_2.x86_64 
                         │       ├ PkgName         : openssl 
@@ -3519,64 +3586,95 @@
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-5363 
                         │       ├ Title           : Incorrect cipher key and IV length processing 
                         │       ├ Description     : Issue summary: A bug has been identified in the
-                        │       │                   processing of key and initialisation vector (IV) lengths.
-                        │       │                   This can lead to potential truncation or overruns during
-                        │       │                   the initialisation of some symmetric ciphers. Impact
-                        │       │                   summary: A truncation in the IV can result in
-                        │       │                   non-uniqueness, which could result in loss of
-                        │       │                   confidentiality for some cipher modes. When calling
-                        │       │                   EVP_EncryptInit_ex2(), EVP_DecryptInit_ex2() or
+                        │       │                   processing of key and
+                        │       │                   initialisation vector (IV) lengths.  This can lead to
+                        │       │                   potential truncation
+                        │       │                   or overruns during the initialisation of some symmetric
+                        │       │                   ciphers.
+                        │       │                   
+                        │       │                   Impact summary: A truncation in the IV can result in
+                        │       │                   non-uniqueness,
+                        │       │                   which could result in loss of confidentiality for some
+                        │       │                   cipher modes.
+                        │       │                   
+                        │       │                   When calling EVP_EncryptInit_ex2(), EVP_DecryptInit_ex2()
+                        │       │                   or
                         │       │                   EVP_CipherInit_ex2() the provided OSSL_PARAM array is
-                        │       │                   processed after the key and IV have been established. Any
-                        │       │                   alterations to the key length, via the "keylen" parameter
-                        │       │                   or the IV length, via the "ivlen" parameter, within the
-                        │       │                   OSSL_PARAM array will not take effect as intended,
-                        │       │                   potentially causing truncation or overreading of these
-                        │       │                   values. The following ciphers and cipher modes are
-                        │       │                   impacted: RC2, RC4, RC5, CCM, GCM and OCB. For the CCM, GCM
-                        │       │                    and OCB cipher modes, truncation of the IV can result in
-                        │       │                   loss of confidentiality. For example, when following NIST's
-                        │       │                    SP 800-38D section 8.2.1 guidance for constructing a
-                        │       │                   deterministic IV for AES in GCM mode, truncation of the
-                        │       │                   counter portion could lead to IV reuse. Both truncations
-                        │       │                   and overruns of the key and overruns of the IV will produce
-                        │       │                    incorrect results and could, in some cases, trigger a
-                        │       │                   memory exception. However, these issues are not currently
-                        │       │                   assessed as security critical. Changing the key and/or IV
-                        │       │                   lengths is not considered to be a common operation and the
-                        │       │                   vulnerable API was recently introduced. Furthermore it is
-                        │       │                   likely that application developers will have spotted this
-                        │       │                   problem during testing since decryption would fail unless
-                        │       │                   both peers in the communication were similarly vulnerable.
-                        │       │                   For these reasons we expect the probability of an
-                        │       │                   application being vulnerable to this to be quite low.
-                        │       │                   However if an application is vulnerable then this issue is
-                        │       │                   considered very serious. For these reasons we have assessed
-                        │       │                    this issue as Moderate severity overall. The OpenSSL
-                        │       │                   SSL/TLS implementation is not affected by this issue. The
-                        │       │                   OpenSSL 3.0 and 3.1 FIPS providers are not affected by this
-                        │       │                    because the issue lies outside of the FIPS provider
-                        │       │                   boundary. OpenSSL 3.1 and 3.0 are vulnerable to this
-                        │       │                   issue.A flaw was found in OpenSSL in how it processes key
-                        │       │                   and initialization vector (IV) lengths. This issue can lead
-                        │       │                    to potential truncation or overruns during the
-                        │       │                   initialization of some symmetric ciphers. A truncation in
-                        │       │                   the IV can result in non-uniqueness, which could result in
-                        │       │                   loss of confidentiality for some cipher modes. Both
-                        │       │                   truncations and overruns of the key and the IV will produce
-                        │       │                    incorrect results and could, in some cases, trigger a
-                        │       │                   memory exception. 
+                        │       │                   processed after
+                        │       │                   the key and IV have been established.  Any alterations to
+                        │       │                   the key length,
+                        │       │                   via the "keylen" parameter or the IV length, via the
+                        │       │                   "ivlen" parameter,
+                        │       │                   within the OSSL_PARAM array will not take effect as
+                        │       │                   intended, potentially
+                        │       │                   causing truncation or overreading of these values.  The
+                        │       │                   following ciphers
+                        │       │                   and cipher modes are impacted: RC2, RC4, RC5, CCM, GCM and
+                        │       │                   OCB.
+                        │       │                   
+                        │       │                   For the CCM, GCM and OCB cipher modes, truncation of the IV
+                        │       │                    can result in
+                        │       │                   loss of confidentiality.  For example, when following
+                        │       │                   NIST's SP 800-38D
+                        │       │                   section 8.2.1 guidance for constructing a deterministic IV
+                        │       │                   for AES in
+                        │       │                   GCM mode, truncation of the counter portion could lead to
+                        │       │                   IV reuse.
+                        │       │                   
+                        │       │                   Both truncations and overruns of the key and overruns of
+                        │       │                   the IV will
+                        │       │                   produce incorrect results and could, in some cases, trigger
+                        │       │                    a memory
+                        │       │                   exception.  However, these issues are not currently
+                        │       │                   assessed as security
+                        │       │                   critical.
+                        │       │                   
+                        │       │                   Changing the key and/or IV lengths is not considered to be
+                        │       │                   a common operation
+                        │       │                   and the vulnerable API was recently introduced. Furthermore
+                        │       │                    it is likely that
+                        │       │                   application developers will have spotted this problem
+                        │       │                   during testing since
+                        │       │                   decryption would fail unless both peers in the
+                        │       │                   communication were similarly
+                        │       │                   vulnerable. For these reasons we expect the probability of
+                        │       │                   an application being
+                        │       │                   vulnerable to this to be quite low. However if an
+                        │       │                   application is vulnerable then
+                        │       │                   this issue is considered very serious. For these reasons we
+                        │       │                    have assessed this
+                        │       │                   issue as Moderate severity overall.
+                        │       │                   
+                        │       │                   The OpenSSL SSL/TLS implementation is not affected by this
+                        │       │                   issue.
+                        │       │                   
+                        │       │                   The OpenSSL 3.0 and 3.1 FIPS providers are not affected by
+                        │       │                   this because
+                        │       │                   the issue lies outside of the FIPS provider boundary.
+                        │       │                   
+                        │       │                   OpenSSL 3.1 and 3.0 are vulnerable to this issue. 
                         │       ├ Severity        : MEDIUM 
                         │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :L/I:N/A:N 
                         │       │                           ╰ V3Score : 5.3 
-                        │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5363 
-                        │                          ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-                        │                          │      VE-2023-5363 
-                        │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5363 
-                        │                          ├ [3]: https://ubuntu.com/security/notices/USN-6450-1 
-                        │                          ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5363 
-                        │                          ╰ [5]: https://www.openssl.org/news/secadv/20231024.txt 
+                        │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+                        │       │                  │      10/24/1 
+                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-5363 
+                        │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │       │                  │      VE-2023-5363 
+                        │       │                  ├ [3]: https://git.openssl.org/gitweb/?p=openssl.git;a=
+                        │       │                  │      commitdiff;h=0df40630850fb2740e6be6890bb905d3fc623b2d
+                        │       │                  │       
+                        │       │                  ├ [4]: https://git.openssl.org/gitweb/?p=openssl.git;a=
+                        │       │                  │      commitdiff;h=5f69f5c65e483928c4b28ed16af6e5742929f1ee
+                        │       │                  │       
+                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-5363 
+                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6450-1 
+                        │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-5363 
+                        │       │                  ├ [8]: https://www.debian.org/security/2023/dsa-5532 
+                        │       │                  ╰ [9]: https://www.openssl.org/news/secadv/20231024.txt 
+                        │       ├ PublishedDate   : 2023-10-25T18:17:00Z 
+                        │       ╰ LastModifiedDate: 2023-10-25T20:31:00Z 
                         ├ [73]  ╭ VulnerabilityID : CVE-2023-2975 
                         │       ├ PkgID           : openssl-libs@3.0.7-17.el9_2.x86_64 
                         │       ├ PkgName         : openssl-libs 
@@ -5365,7 +5463,7 @@
                                 ├ PkgID           : zlib@1.2.11-39.el9.x86_64 
                                 ├ PkgName         : zlib 
                                 ├ InstalledVersion: 1.2.11-39.el9 
-                                ├ Status          : under_investigation 
+                                ├ Status          : affected 
                                 ├ Layer            ╭ Digest: sha256:516f7562f02267e05bc0f8b175363c70768471
                                 │                  │         b977360d0f0ab5711a8a6d25ab 
                                 │                  ╰ DiffID: sha256:07e751bf2dc8c84231cee7803f1400d85a0808
