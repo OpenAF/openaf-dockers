@@ -4764,24 +4764,22 @@
                                │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
                                │                           │           L/I:L/A:L 
                                │                           ╰ V3Score : 5.3 
-                               ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023/
-                               │                  │       10/20/9 
-                               │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-45853 
-                               │                  ├ [2] : https://chromium.googlesource.com/chromium/src/+
-                               │                  │       /d709fb23806858847131027da95ef4c548813356 
-                               │                  ├ [3] : https://chromium.googlesource.com/chromium/src/+
-                               │                  │       /de29dd6c7151d3cd37cb4cf0036800ddfb1d8b61 
-                               │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-                               │                  │       VE-2023-45853 
-                               │                  ├ [5] : https://github.com/madler/zlib/blob/ac8f12c97d1a
-                               │                  │       fd9bafa9c710f827d40a407d3266/contrib/README.contrib#L
-                               │                  │       1-L4 
-                               │                  ├ [6] : https://github.com/madler/zlib/commit/73331a6a04
-                               │                  │       81067628f065ffe87bb1d8f787d10c 
-                               │                  ├ [7] : https://github.com/madler/zlib/pull/843 
-                               │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-45853 
-                               │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-45853 
-                               │                  ╰ [10]: https://www.winimage.com/zLibDll/minizip.html 
+                               ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/1
+                               │                  │      0/20/9 
+                               │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-45853 
+                               │                  ├ [2]: https://chromium.googlesource.com/chromium/src/+/
+                               │                  │      d709fb23806858847131027da95ef4c548813356 
+                               │                  ├ [3]: https://chromium.googlesource.com/chromium/src/+/
+                               │                  │      de29dd6c7151d3cd37cb4cf0036800ddfb1d8b61 
+                               │                  ├ [4]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                               │                  │      E-2023-45853 
+                               │                  ├ [5]: https://github.com/madler/zlib/blob/ac8f12c97d1af
+                               │                  │      d9bafa9c710f827d40a407d3266/contrib/README.contrib#L1-
+                               │                  │      L4 
+                               │                  ├ [6]: https://github.com/madler/zlib/pull/843 
+                               │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-45853 
+                               │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-45853 
+                               │                  ╰ [9]: https://www.winimage.com/zLibDll/minizip.html 
                                ├ PublishedDate   : 2023-10-14T02:15:00Z 
                                ╰ LastModifiedDate: 2023-10-20T21:15:00Z 
 ````
