@@ -3707,7 +3707,6 @@
     - https://chromium.googlesource.com/chromium/src/+/de29dd6c7151d3cd37cb4cf0036800ddfb1d8b61
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45853
     - https://github.com/madler/zlib/blob/ac8f12c97d1afd9bafa9c710f827d40a407d3266/contrib/README.contrib#L1-L4
-    - https://github.com/madler/zlib/commit/73331a6a0481067628f065ffe87bb1d8f787d10c
     - https://github.com/madler/zlib/pull/843
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45853
     - https://www.cve.org/CVERecord?id=CVE-2023-45853
