@@ -1160,22 +1160,23 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 5.7 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-36054 
-                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-                        │      │                  │      E-2023-36054 
-                        │      │                  ├ [2]: https://github.com/krb5/krb5/commit/ef08b09c94595
-                        │      │                  │      51aabbe7924fb176f1583053cdd 
-                        │      │                  ├ [3]: https://github.com/krb5/krb5/compare/krb5-1.20.1-
-                        │      │                  │      final...krb5-1.20.2-final 
-                        │      │                  ├ [4]: https://github.com/krb5/krb5/compare/krb5-1.21-fi
-                        │      │                  │      nal...krb5-1.21.1-final 
-                        │      │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2023
-                        │      │                  │      /10/msg00031.html 
-                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
-                        │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2023090
-                        │      │                  │      8-0004/ 
-                        │      │                  ├ [8]: https://web.mit.edu/kerberos/www/advisories/ 
-                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-36054 
+                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2023-36054 
+                        │      │                  ├ [2] : https://github.com/krb5/krb5/commit/ef08b09c9459
+                        │      │                  │       551aabbe7924fb176f1583053cdd 
+                        │      │                  ├ [3] : https://github.com/krb5/krb5/compare/krb5-1.20.1
+                        │      │                  │       -final...krb5-1.20.2-final 
+                        │      │                  ├ [4] : https://github.com/krb5/krb5/compare/krb5-1.21-f
+                        │      │                  │       inal...krb5-1.21.1-final 
+                        │      │                  ├ [5] : https://lists.debian.org/debian-lts-announce/202
+                        │      │                  │       3/10/msg00031.html 
+                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
+                        │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-202309
+                        │      │                  │       08-0004/ 
+                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6467-1 
+                        │      │                  ├ [9] : https://web.mit.edu/kerberos/www/advisories/ 
+                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
                         │      ├ PublishedDate   : 2023-08-07T19:15:00Z 
                         │      ╰ LastModifiedDate: 2023-10-22T23:15:00Z 
                         ├ [28] ╭ VulnerabilityID : CVE-2023-39975 
