@@ -135,6 +135,8 @@
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38469 
                         │      ├ Title           : Reachable assertion in avahi_dns_packet_append_record 
                         │      ├ Description     : A vulnerability was found in Avahi, where a reachable
+                        │      │                   assertion exists in avahi_dns_packet_append_record.A
+                        │      │                   vulnerability was found in Avahi, where a reachable
                         │      │                   assertion exists in avahi_dns_packet_append_record. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
@@ -158,8 +160,9 @@
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38470 
                         │      ├ Title           : Reachable assertion in avahi_escape_label 
                         │      ├ Description     : A vulnerability was found in Avahi. A reachable
-                        │      │                   assertion exists in the avahi_escape_label()
-                        │      │                   function. 
+                        │      │                   assertion exists in the avahi_escape_label() function.A
+                        │      │                   vulnerability was found in Avahi. A reachable assertion
+                        │      │                   exists in the avahi_escape_label() function. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
@@ -182,8 +185,9 @@
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38471 
                         │      ├ Title           : Reachable assertion in dbus_set_host_name 
                         │      ├ Description     : A vulnerability was found in Avahi. A reachable
-                        │      │                   assertion exists in the dbus_set_host_name function.[
-                        │      │                   m 
+                        │      │                   assertion exists in the dbus_set_host_name function.A
+                        │      │                   vulnerability was found in Avahi. A reachable assertion
+                        │      │                   exists in the dbus_set_host_name function. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
@@ -206,8 +210,9 @@
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38472 
                         │      ├ Title           : Reachable assertion in avahi_rdata_parse 
                         │      ├ Description     : A vulnerability was found in Avahi. A reachable
-                        │      │                   assertion exists in the avahi_rdata_parse()
-                        │      │                   function. 
+                        │      │                   assertion exists in the avahi_rdata_parse() function.A
+                        │      │                   vulnerability was found in Avahi. A reachable assertion
+                        │      │                   exists in the avahi_rdata_parse() function. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
@@ -230,6 +235,8 @@
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38473 
                         │      ├ Title           : Reachable assertion in avahi_alternative_host_name 
                         │      ├ Description     : A vulnerability was found in Avahi. A reachable
+                        │      │                   assertion exists in the avahi_alternative_host_name()
+                        │      │                   function.A vulnerability was found in Avahi. A reachable
                         │      │                   assertion exists in the avahi_alternative_host_name()
                         │      │                   function. 
                         │      ├ Severity        : MEDIUM 
@@ -1160,22 +1167,23 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 5.7 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-36054 
-                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-                        │      │                  │      E-2023-36054 
-                        │      │                  ├ [2]: https://github.com/krb5/krb5/commit/ef08b09c94595
-                        │      │                  │      51aabbe7924fb176f1583053cdd 
-                        │      │                  ├ [3]: https://github.com/krb5/krb5/compare/krb5-1.20.1-
-                        │      │                  │      final...krb5-1.20.2-final 
-                        │      │                  ├ [4]: https://github.com/krb5/krb5/compare/krb5-1.21-fi
-                        │      │                  │      nal...krb5-1.21.1-final 
-                        │      │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2023
-                        │      │                  │      /10/msg00031.html 
-                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
-                        │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2023090
-                        │      │                  │      8-0004/ 
-                        │      │                  ├ [8]: https://web.mit.edu/kerberos/www/advisories/ 
-                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-36054 
+                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2023-36054 
+                        │      │                  ├ [2] : https://github.com/krb5/krb5/commit/ef08b09c9459
+                        │      │                  │       551aabbe7924fb176f1583053cdd 
+                        │      │                  ├ [3] : https://github.com/krb5/krb5/compare/krb5-1.20.1
+                        │      │                  │       -final...krb5-1.20.2-final 
+                        │      │                  ├ [4] : https://github.com/krb5/krb5/compare/krb5-1.21-f
+                        │      │                  │       inal...krb5-1.21.1-final 
+                        │      │                  ├ [5] : https://lists.debian.org/debian-lts-announce/202
+                        │      │                  │       3/10/msg00031.html 
+                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
+                        │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-202309
+                        │      │                  │       08-0004/ 
+                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6467-1 
+                        │      │                  ├ [9] : https://web.mit.edu/kerberos/www/advisories/ 
+                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
                         │      ├ PublishedDate   : 2023-08-07T19:15:00Z 
                         │      ╰ LastModifiedDate: 2023-10-22T23:15:00Z 
                         ├ [28] ╭ VulnerabilityID : CVE-2023-39975 
@@ -2048,8 +2056,11 @@
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 6.5 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5388 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
+                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │                         │      E-2023-5388 
+                        │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
+                        │                         ├ [3]: https://people.redhat.com/~hkario/marvin/ 
+                        │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
                         ├ [47] ╭ VulnerabilityID : CVE-2020-12413 
                         │      ├ PkgID           : nspr@4.35.0-3.el9_2.x86_64 
                         │      ├ PkgName         : nspr 
@@ -2109,8 +2120,11 @@
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 6.5 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5388 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
+                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │                         │      E-2023-5388 
+                        │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
+                        │                         ├ [3]: https://people.redhat.com/~hkario/marvin/ 
+                        │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
                         ├ [49] ╭ VulnerabilityID : CVE-2020-12413 
                         │      ├ PkgID           : nss@3.90.0-3.el9_2.x86_64 
                         │      ├ PkgName         : nss 
@@ -2170,8 +2184,11 @@
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 6.5 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5388 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
+                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │                         │      E-2023-5388 
+                        │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
+                        │                         ├ [3]: https://people.redhat.com/~hkario/marvin/ 
+                        │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
                         ├ [51] ╭ VulnerabilityID : CVE-2020-12413 
                         │      ├ PkgID           : nss-softokn@3.90.0-3.el9_2.x86_64 
                         │      ├ PkgName         : nss-softokn 
@@ -2231,8 +2248,11 @@
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 6.5 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5388 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
+                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │                         │      E-2023-5388 
+                        │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
+                        │                         ├ [3]: https://people.redhat.com/~hkario/marvin/ 
+                        │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
                         ├ [53] ╭ VulnerabilityID : CVE-2020-12413 
                         │      ├ PkgID           : nss-softokn-freebl@3.90.0-3.el9_2.x86_64 
                         │      ├ PkgName         : nss-softokn-freebl 
@@ -2292,8 +2312,11 @@
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 6.5 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5388 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
+                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │                         │      E-2023-5388 
+                        │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
+                        │                         ├ [3]: https://people.redhat.com/~hkario/marvin/ 
+                        │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
                         ├ [55] ╭ VulnerabilityID : CVE-2020-12413 
                         │      ├ PkgID           : nss-sysinit@3.90.0-3.el9_2.x86_64 
                         │      ├ PkgName         : nss-sysinit 
@@ -2353,8 +2376,11 @@
                         │      │                           │           H/I:N/A:N 
                         │      │                           ╰ V3Score : 6.5 
                         │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5388 
-                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
-                        │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
+                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │                         │      E-2023-5388 
+                        │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
+                        │                         ├ [3]: https://people.redhat.com/~hkario/marvin/ 
+                        │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
                         ├ [57] ╭ VulnerabilityID : CVE-2020-12413 
                         │      ├ PkgID           : nss-util@3.90.0-3.el9_2.x86_64 
                         │      ├ PkgName         : nss-util 
@@ -4660,7 +4686,7 @@
                         │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6005-2 
                         │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28486 
                         │      ├ PublishedDate   : 2023-03-16T01:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-09-29T14:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-11-02T01:59:00Z 
                         ├ [92] ╭ VulnerabilityID : CVE-2023-28487 
                         │      ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
                         │      ├ PkgName         : sudo 
@@ -4698,7 +4724,7 @@
                         │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6005-2 
                         │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28487 
                         │      ├ PublishedDate   : 2023-03-16T01:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-09-29T14:15:00Z 
+                        │      ╰ LastModifiedDate: 2023-11-02T01:58:00Z 
                         ├ [93] ╭ VulnerabilityID : CVE-2021-3997 
                         │      ├ PkgID           : systemd-libs@252-14.el9_2.3.x86_64 
                         │      ├ PkgName         : systemd-libs 
@@ -4764,24 +4790,22 @@
                                │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
                                │                           │           L/I:L/A:L 
                                │                           ╰ V3Score : 5.3 
-                               ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023/
-                               │                  │       10/20/9 
-                               │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-45853 
-                               │                  ├ [2] : https://chromium.googlesource.com/chromium/src/+
-                               │                  │       /d709fb23806858847131027da95ef4c548813356 
-                               │                  ├ [3] : https://chromium.googlesource.com/chromium/src/+
-                               │                  │       /de29dd6c7151d3cd37cb4cf0036800ddfb1d8b61 
-                               │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-                               │                  │       VE-2023-45853 
-                               │                  ├ [5] : https://github.com/madler/zlib/blob/ac8f12c97d1a
-                               │                  │       fd9bafa9c710f827d40a407d3266/contrib/README.contrib#L
-                               │                  │       1-L4 
-                               │                  ├ [6] : https://github.com/madler/zlib/commit/73331a6a04
-                               │                  │       81067628f065ffe87bb1d8f787d10c 
-                               │                  ├ [7] : https://github.com/madler/zlib/pull/843 
-                               │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-45853 
-                               │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-45853 
-                               │                  ╰ [10]: https://www.winimage.com/zLibDll/minizip.html 
+                               ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/1
+                               │                  │      0/20/9 
+                               │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-45853 
+                               │                  ├ [2]: https://chromium.googlesource.com/chromium/src/+/
+                               │                  │      d709fb23806858847131027da95ef4c548813356 
+                               │                  ├ [3]: https://chromium.googlesource.com/chromium/src/+/
+                               │                  │      de29dd6c7151d3cd37cb4cf0036800ddfb1d8b61 
+                               │                  ├ [4]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                               │                  │      E-2023-45853 
+                               │                  ├ [5]: https://github.com/madler/zlib/blob/ac8f12c97d1af
+                               │                  │      d9bafa9c710f827d40a407d3266/contrib/README.contrib#L1-
+                               │                  │      L4 
+                               │                  ├ [6]: https://github.com/madler/zlib/pull/843 
+                               │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-45853 
+                               │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-45853 
+                               │                  ╰ [9]: https://www.winimage.com/zLibDll/minizip.html 
                                ├ PublishedDate   : 2023-10-14T02:15:00Z 
                                ╰ LastModifiedDate: 2023-10-20T21:15:00Z 
 ````

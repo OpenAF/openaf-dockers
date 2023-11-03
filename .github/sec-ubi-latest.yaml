@@ -118,7 +118,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38469
     Title: Reachable assertion in avahi_dns_packet_append_record
-    Description: A vulnerability was found in Avahi, where a reachable assertion exists in avahi_dns_packet_append_record.
+    Description: A vulnerability was found in Avahi, where a reachable assertion exists in avahi_dns_packet_append_record.A vulnerability was found in Avahi, where a reachable assertion exists in avahi_dns_packet_append_record.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -140,7 +140,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38470
     Title: Reachable assertion in avahi_escape_label
-    Description: A vulnerability was found in Avahi. A reachable assertion exists in the avahi_escape_label() function.
+    Description: A vulnerability was found in Avahi. A reachable assertion exists in the avahi_escape_label() function.A vulnerability was found in Avahi. A reachable assertion exists in the avahi_escape_label() function.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -162,7 +162,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38471
     Title: Reachable assertion in dbus_set_host_name
-    Description: A vulnerability was found in Avahi. A reachable assertion exists in the dbus_set_host_name function.
+    Description: A vulnerability was found in Avahi. A reachable assertion exists in the dbus_set_host_name function.A vulnerability was found in Avahi. A reachable assertion exists in the dbus_set_host_name function.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -184,7 +184,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38472
     Title: Reachable assertion in avahi_rdata_parse
-    Description: A vulnerability was found in Avahi. A reachable assertion exists in the avahi_rdata_parse() function.
+    Description: A vulnerability was found in Avahi. A reachable assertion exists in the avahi_rdata_parse() function.A vulnerability was found in Avahi. A reachable assertion exists in the avahi_rdata_parse() function.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -206,7 +206,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38473
     Title: Reachable assertion in avahi_alternative_host_name
-    Description: A vulnerability was found in Avahi. A reachable assertion exists in the avahi_alternative_host_name() function.
+    Description: A vulnerability was found in Avahi. A reachable assertion exists in the avahi_alternative_host_name() function.A vulnerability was found in Avahi. A reachable assertion exists in the avahi_alternative_host_name() function.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -961,6 +961,7 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00031.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36054
     - https://security.netapp.com/advisory/ntap-20230908-0004/
+    - https://ubuntu.com/security/notices/USN-6467-1
     - https://web.mit.edu/kerberos/www/advisories/
     - https://www.cve.org/CVERecord?id=CVE-2023-36054
     PublishedDate: '2023-08-07T19:15:00Z'
@@ -1676,7 +1677,9 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-5388
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
+    - https://people.redhat.com/~hkario/marvin/
     - https://www.cve.org/CVERecord?id=CVE-2023-5388
   - VulnerabilityID: CVE-2020-12413
     PkgID: nspr@4.35.0-3.el9_2.x86_64
@@ -1728,7 +1731,9 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-5388
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
+    - https://people.redhat.com/~hkario/marvin/
     - https://www.cve.org/CVERecord?id=CVE-2023-5388
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss@3.90.0-3.el9_2.x86_64
@@ -1780,7 +1785,9 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-5388
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
+    - https://people.redhat.com/~hkario/marvin/
     - https://www.cve.org/CVERecord?id=CVE-2023-5388
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-softokn@3.90.0-3.el9_2.x86_64
@@ -1832,7 +1839,9 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-5388
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
+    - https://people.redhat.com/~hkario/marvin/
     - https://www.cve.org/CVERecord?id=CVE-2023-5388
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-softokn-freebl@3.90.0-3.el9_2.x86_64
@@ -1884,7 +1893,9 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-5388
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
+    - https://people.redhat.com/~hkario/marvin/
     - https://www.cve.org/CVERecord?id=CVE-2023-5388
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-sysinit@3.90.0-3.el9_2.x86_64
@@ -1936,7 +1947,9 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-5388
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
+    - https://people.redhat.com/~hkario/marvin/
     - https://www.cve.org/CVERecord?id=CVE-2023-5388
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-util@3.90.0-3.el9_2.x86_64
@@ -3608,7 +3621,7 @@
     - https://ubuntu.com/security/notices/USN-6005-2
     - https://www.cve.org/CVERecord?id=CVE-2023-28486
     PublishedDate: '2023-03-16T01:15:00Z'
-    LastModifiedDate: '2023-09-29T14:15:00Z'
+    LastModifiedDate: '2023-11-02T01:59:00Z'
   - VulnerabilityID: CVE-2023-28487
     PkgID: sudo@1.9.5p2-9.el9.x86_64
     PkgName: sudo
@@ -3643,7 +3656,7 @@
     - https://ubuntu.com/security/notices/USN-6005-2
     - https://www.cve.org/CVERecord?id=CVE-2023-28487
     PublishedDate: '2023-03-16T01:15:00Z'
-    LastModifiedDate: '2023-09-29T14:15:00Z'
+    LastModifiedDate: '2023-11-02T01:58:00Z'
   - VulnerabilityID: CVE-2021-3997
     PkgID: systemd-libs@252-14.el9_2.3.x86_64
     PkgName: systemd-libs
@@ -3707,7 +3720,6 @@
     - https://chromium.googlesource.com/chromium/src/+/de29dd6c7151d3cd37cb4cf0036800ddfb1d8b61
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45853
     - https://github.com/madler/zlib/blob/ac8f12c97d1afd9bafa9c710f827d40a407d3266/contrib/README.contrib#L1-L4
-    - https://github.com/madler/zlib/commit/73331a6a0481067628f065ffe87bb1d8f787d10c
     - https://github.com/madler/zlib/pull/843
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45853
     - https://www.cve.org/CVERecord?id=CVE-2023-45853
