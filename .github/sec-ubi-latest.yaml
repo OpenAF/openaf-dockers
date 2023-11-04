@@ -118,7 +118,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38469
     Title: Reachable assertion in avahi_dns_packet_append_record
-    Description: A vulnerability was found in Avahi, where a reachable assertion exists in avahi_dns_packet_append_record.A vulnerability was found in Avahi, where a reachable assertion exists in avahi_dns_packet_append_record.
+    Description: A vulnerability was found in Avahi, where a reachable assertion exists in avahi_dns_packet_append_record.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -126,9 +126,12 @@
         V3Score: 6.2
     References:
     - https://access.redhat.com/security/cve/CVE-2023-38469
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2191687
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38469
     - https://nvd.nist.gov/vuln/detail/CVE-2023-38469
     - https://www.cve.org/CVERecord?id=CVE-2023-38469
+    PublishedDate: '2023-11-02T15:15:00Z'
+    LastModifiedDate: '2023-11-02T18:21:00Z'
   - VulnerabilityID: CVE-2023-38470
     PkgID: avahi-libs@0.8-12.el9_2.1.x86_64
     PkgName: avahi-libs
@@ -140,7 +143,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38470
     Title: Reachable assertion in avahi_escape_label
-    Description: A vulnerability was found in Avahi. A reachable assertion exists in the avahi_escape_label() function.A vulnerability was found in Avahi. A reachable assertion exists in the avahi_escape_label() function.
+    Description: A vulnerability was found in Avahi. A reachable assertion exists in the avahi_escape_label() function.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -148,9 +151,12 @@
         V3Score: 6.2
     References:
     - https://access.redhat.com/security/cve/CVE-2023-38470
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2191690
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38470
     - https://nvd.nist.gov/vuln/detail/CVE-2023-38470
     - https://www.cve.org/CVERecord?id=CVE-2023-38470
+    PublishedDate: '2023-11-02T15:15:00Z'
+    LastModifiedDate: '2023-11-02T18:21:00Z'
   - VulnerabilityID: CVE-2023-38471
     PkgID: avahi-libs@0.8-12.el9_2.1.x86_64
     PkgName: avahi-libs
@@ -162,7 +168,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38471
     Title: Reachable assertion in dbus_set_host_name
-    Description: A vulnerability was found in Avahi. A reachable assertion exists in the dbus_set_host_name function.A vulnerability was found in Avahi. A reachable assertion exists in the dbus_set_host_name function.
+    Description: A vulnerability was found in Avahi. A reachable assertion exists in the dbus_set_host_name function.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -170,9 +176,12 @@
         V3Score: 6.2
     References:
     - https://access.redhat.com/security/cve/CVE-2023-38471
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2191691
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38471
     - https://nvd.nist.gov/vuln/detail/CVE-2023-38471
     - https://www.cve.org/CVERecord?id=CVE-2023-38471
+    PublishedDate: '2023-11-02T15:15:00Z'
+    LastModifiedDate: '2023-11-02T18:21:00Z'
   - VulnerabilityID: CVE-2023-38472
     PkgID: avahi-libs@0.8-12.el9_2.1.x86_64
     PkgName: avahi-libs
@@ -184,7 +193,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38472
     Title: Reachable assertion in avahi_rdata_parse
-    Description: A vulnerability was found in Avahi. A reachable assertion exists in the avahi_rdata_parse() function.A vulnerability was found in Avahi. A reachable assertion exists in the avahi_rdata_parse() function.
+    Description: A vulnerability was found in Avahi. A reachable assertion exists in the avahi_rdata_parse() function.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -192,9 +201,12 @@
         V3Score: 6.2
     References:
     - https://access.redhat.com/security/cve/CVE-2023-38472
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2191692
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38472
     - https://nvd.nist.gov/vuln/detail/CVE-2023-38472
     - https://www.cve.org/CVERecord?id=CVE-2023-38472
+    PublishedDate: '2023-11-02T15:15:00Z'
+    LastModifiedDate: '2023-11-02T18:21:00Z'
   - VulnerabilityID: CVE-2023-38473
     PkgID: avahi-libs@0.8-12.el9_2.1.x86_64
     PkgName: avahi-libs
@@ -206,7 +218,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38473
     Title: Reachable assertion in avahi_alternative_host_name
-    Description: A vulnerability was found in Avahi. A reachable assertion exists in the avahi_alternative_host_name() function.A vulnerability was found in Avahi. A reachable assertion exists in the avahi_alternative_host_name() function.
+    Description: A vulnerability was found in Avahi. A reachable assertion exists in the avahi_alternative_host_name() function.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -214,9 +226,12 @@
         V3Score: 6.2
     References:
     - https://access.redhat.com/security/cve/CVE-2023-38473
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2191694
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38473
     - https://nvd.nist.gov/vuln/detail/CVE-2023-38473
     - https://www.cve.org/CVERecord?id=CVE-2023-38473
+    PublishedDate: '2023-11-02T16:15:00Z'
+    LastModifiedDate: '2023-11-02T18:21:00Z'
   - VulnerabilityID: CVE-2017-6519
     PkgID: avahi-libs@0.8-12.el9_2.1.x86_64
     PkgName: avahi-libs
@@ -1422,7 +1437,7 @@
     PkgID: libxml2@2.9.13-3.el9_2.1.x86_64
     PkgName: libxml2
     InstalledVersion: 2.9.13-3.el9_2.1
-    Status: affected
+    Status: will_not_fix
     Layer:
       Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
@@ -3303,6 +3318,40 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:00Z'
     LastModifiedDate: '2023-07-06T16:00:00Z'
+  - VulnerabilityID: CVE-2007-4559
+    PkgID: python3-pip-wheel@21.2.3-6.el9.noarch
+    PkgName: python3-pip-wheel
+    InstalledVersion: 21.2.3-6.el9
+    Status: affected
+    Layer:
+      Digest: sha256:e16169bcca65672445400ead37d79469d07be9c655000dddaf975d8512625079
+      DiffID: sha256:27ed7942fad6945764bc8dec75155a15271fd83f7691ab7a2a2a70794d84e883
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2007-4559
+    Title: tarfile module directory traversal
+    Description: Directory traversal vulnerability in the (1) extract and (2) extractall functions in the tarfile module in Python allows user-assisted remote attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive, a related issue to CVE-2001-1267.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    CVSS:
+      nvd:
+        V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P
+        V2Score: 6.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+    References:
+    - http://mail.python.org/pipermail/python-dev/2007-August/074290.html
+    - http://mail.python.org/pipermail/python-dev/2007-August/074292.html
+    - http://secunia.com/advisories/26623
+    - http://www.vupen.com/english/advisories/2007/3022
+    - https://access.redhat.com/security/cve/CVE-2007-4559
+    - https://bugzilla.redhat.com/show_bug.cgi?id=263261
+    - https://nvd.nist.gov/vuln/detail/CVE-2007-4559
+    - https://security.gentoo.org/glsa/202309-06
+    - https://www.cve.org/CVERecord?id=CVE-2007-4559
+    PublishedDate: '2007-08-28T01:17:00Z'
+    LastModifiedDate: '2023-09-17T09:15:00Z'
   - VulnerabilityID: CVE-2018-25091
     PkgID: python3-pip-wheel@21.2.3-6.el9.noarch
     PkgName: python3-pip-wheel
