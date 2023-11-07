@@ -1192,8 +1192,9 @@
                         │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-202309
                         │      │                  │       08-0004/ 
                         │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6467-1 
-                        │      │                  ├ [9] : https://web.mit.edu/kerberos/www/advisories/ 
-                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
+                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6467-2 
+                        │      │                  ├ [10]: https://web.mit.edu/kerberos/www/advisories/ 
+                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
                         │      ├ PublishedDate   : 2023-08-07T19:15:00Z 
                         │      ╰ LastModifiedDate: 2023-10-22T23:15:00Z 
                         ├ [28] ╭ VulnerabilityID : CVE-2023-39975 
