@@ -978,6 +978,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36054
     - https://security.netapp.com/advisory/ntap-20230908-0004/
     - https://ubuntu.com/security/notices/USN-6467-1
+    - https://ubuntu.com/security/notices/USN-6467-2
     - https://web.mit.edu/kerberos/www/advisories/
     - https://www.cve.org/CVERecord?id=CVE-2023-36054
     PublishedDate: '2023-08-07T19:15:00Z'
