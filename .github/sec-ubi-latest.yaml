@@ -3,10 +3,13 @@
   Type: redhat
   Vulnerabilities:
   - VulnerabilityID: CVE-2021-3468
+    VendorIDs:
+    - RHSA-2023:6707
     PkgID: avahi-libs@0.8-12.el9_2.1.x86_64
     PkgName: avahi-libs
     InstalledVersion: 0.8-12.el9_2.1
-    Status: affected
+    FixedVersion: 0.8-15.el9
+    Status: fixed
     Layer:
       Digest: sha256:e16169bcca65672445400ead37d79469d07be9c655000dddaf975d8512625079
       DiffID: sha256:27ed7942fad6945764bc8dec75155a15271fd83f7691ab7a2a2a70794d84e883
@@ -39,10 +42,13 @@
     PublishedDate: '2021-06-02T16:15:00Z'
     LastModifiedDate: '2023-06-22T02:15:00Z'
   - VulnerabilityID: CVE-2021-3502
+    VendorIDs:
+    - RHSA-2023:6707
     PkgID: avahi-libs@0.8-12.el9_2.1.x86_64
     PkgName: avahi-libs
     InstalledVersion: 0.8-12.el9_2.1
-    Status: affected
+    FixedVersion: 0.8-15.el9
+    Status: fixed
     Layer:
       Digest: sha256:e16169bcca65672445400ead37d79469d07be9c655000dddaf975d8512625079
       DiffID: sha256:27ed7942fad6945764bc8dec75155a15271fd83f7691ab7a2a2a70794d84e883
@@ -52,7 +58,6 @@
     Description: A flaw was found in avahi 0.8-5. A reachable assertion is present in avahi_s_host_name_resolver_start function allowing a local attacker to crash the avahi service by requesting hostname resolutions through the avahi socket or dbus methods for invalid hostnames. The highest threat from this vulnerability is to the service availability.
     Severity: MEDIUM
     CweIDs:
-    - CWE-476
     - CWE-617
     CVSS:
       nvd:
@@ -73,12 +78,15 @@
     - https://ubuntu.com/security/notices/USN-5008-1
     - https://www.cve.org/CVERecord?id=CVE-2021-3502
     PublishedDate: '2021-05-07T12:15:00Z'
-    LastModifiedDate: '2021-05-17T17:30:00Z'
+    LastModifiedDate: '2023-11-07T03:38:00Z'
   - VulnerabilityID: CVE-2023-1981
+    VendorIDs:
+    - RHSA-2023:6707
     PkgID: avahi-libs@0.8-12.el9_2.1.x86_64
     PkgName: avahi-libs
     InstalledVersion: 0.8-12.el9_2.1
-    Status: will_not_fix
+    FixedVersion: 0.8-15.el9
+    Status: fixed
     Layer:
       Digest: sha256:e16169bcca65672445400ead37d79469d07be9c655000dddaf975d8512625079
       DiffID: sha256:27ed7942fad6945764bc8dec75155a15271fd83f7691ab7a2a2a70794d84e883
@@ -131,7 +139,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-38469
     - https://www.cve.org/CVERecord?id=CVE-2023-38469
     PublishedDate: '2023-11-02T15:15:00Z'
-    LastModifiedDate: '2023-11-02T18:21:00Z'
+    LastModifiedDate: '2023-11-07T04:17:00Z'
   - VulnerabilityID: CVE-2023-38470
     PkgID: avahi-libs@0.8-12.el9_2.1.x86_64
     PkgName: avahi-libs
@@ -156,7 +164,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-38470
     - https://www.cve.org/CVERecord?id=CVE-2023-38470
     PublishedDate: '2023-11-02T15:15:00Z'
-    LastModifiedDate: '2023-11-02T18:21:00Z'
+    LastModifiedDate: '2023-11-07T04:17:00Z'
   - VulnerabilityID: CVE-2023-38471
     PkgID: avahi-libs@0.8-12.el9_2.1.x86_64
     PkgName: avahi-libs
@@ -181,7 +189,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-38471
     - https://www.cve.org/CVERecord?id=CVE-2023-38471
     PublishedDate: '2023-11-02T15:15:00Z'
-    LastModifiedDate: '2023-11-02T18:21:00Z'
+    LastModifiedDate: '2023-11-07T04:17:00Z'
   - VulnerabilityID: CVE-2023-38472
     PkgID: avahi-libs@0.8-12.el9_2.1.x86_64
     PkgName: avahi-libs
@@ -206,7 +214,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-38472
     - https://www.cve.org/CVERecord?id=CVE-2023-38472
     PublishedDate: '2023-11-02T15:15:00Z'
-    LastModifiedDate: '2023-11-02T18:21:00Z'
+    LastModifiedDate: '2023-11-07T04:17:00Z'
   - VulnerabilityID: CVE-2023-38473
     PkgID: avahi-libs@0.8-12.el9_2.1.x86_64
     PkgName: avahi-libs
@@ -231,7 +239,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-38473
     - https://www.cve.org/CVERecord?id=CVE-2023-38473
     PublishedDate: '2023-11-02T16:15:00Z'
-    LastModifiedDate: '2023-11-02T18:21:00Z'
+    LastModifiedDate: '2023-11-07T04:17:00Z'
   - VulnerabilityID: CVE-2017-6519
     PkgID: avahi-libs@0.8-12.el9_2.1.x86_64
     PkgName: avahi-libs
@@ -264,7 +272,7 @@
     - https://github.com/lathiat/avahi/issues/203#issuecomment-449536790
     - https://linux.oracle.com/cve/CVE-2017-6519.html
     - https://linux.oracle.com/errata/ELSA-2020-1176.html
-    - https://lists.apache.org/thread.html/r1b103833cb5bc8466e24ff0ecc5e75b45a705334ab6a444e64e840a0@%3Cissues.bookkeeper.apache.org%3E
+    - https://lists.apache.org/thread.html/r1b103833cb5bc8466e24ff0ecc5e75b45a705334ab6a444e64e840a0%40%3Cissues.bookkeeper.apache.org%3E
     - https://nvd.nist.gov/vuln/detail/CVE-2017-6519
     - https://ubuntu.com/security/notices/USN-3876-1
     - https://ubuntu.com/security/notices/USN-3876-2
@@ -274,12 +282,15 @@
     - https://www.kb.cert.org/vuls/id/550620
     - https://www.secfu.net/advisories
     PublishedDate: '2017-05-01T01:59:00Z'
-    LastModifiedDate: '2020-07-29T12:15:00Z'
+    LastModifiedDate: '2023-11-07T02:49:00Z'
   - VulnerabilityID: CVE-2023-32324
+    VendorIDs:
+    - RHSA-2023:6596
     PkgID: cups-libs@2.3.3op2-16.el9_2.1.x86_64
     PkgName: cups-libs
     InstalledVersion: 1:2.3.3op2-16.el9_2.1
-    Status: affected
+    FixedVersion: 1:2.3.3op2-21.el9
+    Status: fixed
     Layer:
       Digest: sha256:e16169bcca65672445400ead37d79469d07be9c655000dddaf975d8512625079
       DiffID: sha256:27ed7942fad6945764bc8dec75155a15271fd83f7691ab7a2a2a70794d84e883
@@ -310,10 +321,13 @@
     PublishedDate: '2023-06-01T17:15:00Z'
     LastModifiedDate: '2023-06-08T14:32:00Z'
   - VulnerabilityID: CVE-2023-34241
+    VendorIDs:
+    - RHSA-2023:6596
     PkgID: cups-libs@2.3.3op2-16.el9_2.1.x86_64
     PkgName: cups-libs
     InstalledVersion: 1:2.3.3op2-16.el9_2.1
-    Status: affected
+    FixedVersion: 1:2.3.3op2-21.el9
+    Status: fixed
     Layer:
       Digest: sha256:e16169bcca65672445400ead37d79469d07be9c655000dddaf975d8512625079
       DiffID: sha256:27ed7942fad6945764bc8dec75155a15271fd83f7691ab7a2a2a70794d84e883
@@ -426,18 +440,80 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2021-25317
     - https://bugzilla.suse.com/show_bug.cgi?id=1184161
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GWPGZLT3U776Q5YPPSA6LGFWWBDWBVH3/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/H74BP746O5NNVCBUTLLZYAFBPESFVECV/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/S37IDQGHTORQ3Z6VRDQIGBYVOI27YG47/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/GWPGZLT3U776Q5YPPSA6LGFWWBDWBVH3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H74BP746O5NNVCBUTLLZYAFBPESFVECV/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/S37IDQGHTORQ3Z6VRDQIGBYVOI27YG47/
     - https://nvd.nist.gov/vuln/detail/CVE-2021-25317
     - https://www.cve.org/CVERecord?id=CVE-2021-25317
     PublishedDate: '2021-05-05T10:15:00Z'
-    LastModifiedDate: '2023-04-14T18:49:00Z'
-  - VulnerabilityID: CVE-2023-27536
+    LastModifiedDate: '2023-11-07T03:31:00Z'
+  - VulnerabilityID: CVE-2023-38545
+    VendorIDs:
+    - RHSA-2023:6745
     PkgID: curl-minimal@7.76.1-23.el9_2.4.x86_64
     PkgName: curl-minimal
     InstalledVersion: 7.76.1-23.el9_2.4
-    Status: affected
+    FixedVersion: 7.76.1-26.el9_3.2
+    Status: fixed
+    Layer:
+      Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
+      DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38545
+    Title: heap based buffer overflow in the SOCKS5 proxy handshake
+    Description: |
+      This flaw makes curl overflow a heap based buffer in the SOCKS5 proxy
+      handshake.
+
+      When curl is asked to pass along the host name to the SOCKS5 proxy to allow
+      that to resolve the address instead of it getting done by curl itself, the
+      maximum length that host name can be is 255 bytes.
+
+      If the host name is detected to be longer, curl switches to local name
+      resolving and instead passes on the resolved address only. Due to this bug,
+      the local variable that means "let the host resolve the name" could get the
+      wrong value during a slow SOCKS5 handshake, and contrary to the intention,
+      copy the too long host name to the target buffer instead of copying just the
+      resolved address there.
+
+      The target buffer being a heap based buffer, and the host name coming from the
+      URL that curl has been told to operate with.
+    Severity: HIGH
+    CweIDs:
+    - CWE-787
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2023:5763
+    - https://access.redhat.com/security/cve/CVE-2023-38545
+    - https://bugzilla.redhat.com/2241933
+    - https://bugzilla.redhat.com/2241938
+    - https://curl.se/docs/CVE-2023-38545.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38545
+    - https://errata.almalinux.org/9/ALSA-2023-5763.html
+    - https://linux.oracle.com/cve/CVE-2023-38545.html
+    - https://linux.oracle.com/errata/ELSA-2023-5763.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OGMXNRNSJ4ETDK6FRNU3J7SABXPWCHSQ/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-38545
+    - https://security.netapp.com/advisory/ntap-20231027-0009/
+    - https://ubuntu.com/security/notices/USN-6429-1
+    - https://ubuntu.com/security/notices/USN-6429-3
+    - https://www.cve.org/CVERecord?id=CVE-2023-38545
+    PublishedDate: '2023-10-18T04:15:00Z'
+    LastModifiedDate: '2023-10-28T03:15:00Z'
+  - VulnerabilityID: CVE-2023-27536
+    VendorIDs:
+    - RHSA-2023:6679
+    PkgID: curl-minimal@7.76.1-23.el9_2.4.x86_64
+    PkgName: curl-minimal
+    InstalledVersion: 7.76.1-23.el9_2.4
+    FixedVersion: 7.76.1-26.el9
+    Status: fixed
     Layer:
       Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
@@ -471,6 +547,7 @@
     - https://linux.oracle.com/cve/CVE-2023-27536.html
     - https://linux.oracle.com/errata/ELSA-2023-4523.html
     - https://lists.debian.org/debian-lts-announce/2023/04/msg00025.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/36NBD5YLJXXEDZLDGNFCERWRYJQ6LAQW/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/36NBD5YLJXXEDZLDGNFCERWRYJQ6LAQW/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27536
     - https://security.gentoo.org/glsa/202310-12
@@ -479,12 +556,15 @@
     - https://ubuntu.com/security/notices/USN-5964-2
     - https://www.cve.org/CVERecord?id=CVE-2023-27536
     PublishedDate: '2023-03-30T20:15:00Z'
-    LastModifiedDate: '2023-10-20T18:44:00Z'
+    LastModifiedDate: '2023-11-07T04:09:00Z'
   - VulnerabilityID: CVE-2023-27533
+    VendorIDs:
+    - RHSA-2023:6679
     PkgID: curl-minimal@7.76.1-23.el9_2.4.x86_64
     PkgName: curl-minimal
     InstalledVersion: 7.76.1-23.el9_2.4
-    Status: affected
+    FixedVersion: 7.76.1-26.el9
+    Status: fixed
     Layer:
       Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
@@ -508,7 +588,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27533
     - https://hackerone.com/reports/1891474
     - https://lists.debian.org/debian-lts-announce/2023/04/msg00025.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/36NBD5YLJXXEDZLDGNFCERWRYJQ6LAQW/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/36NBD5YLJXXEDZLDGNFCERWRYJQ6LAQW/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27533
     - https://security.gentoo.org/glsa/202310-12
     - https://security.netapp.com/advisory/ntap-20230420-0011/
@@ -516,12 +596,15 @@
     - https://ubuntu.com/security/notices/USN-5964-2
     - https://www.cve.org/CVERecord?id=CVE-2023-27533
     PublishedDate: '2023-03-30T20:15:00Z'
-    LastModifiedDate: '2023-10-20T18:51:00Z'
+    LastModifiedDate: '2023-11-07T04:09:00Z'
   - VulnerabilityID: CVE-2023-27534
+    VendorIDs:
+    - RHSA-2023:6679
     PkgID: curl-minimal@7.76.1-23.el9_2.4.x86_64
     PkgName: curl-minimal
     InstalledVersion: 7.76.1-23.el9_2.4
-    Status: affected
+    FixedVersion: 7.76.1-26.el9
+    Status: fixed
     Layer:
       Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
@@ -544,19 +627,22 @@
     - https://curl.se/docs/CVE-2023-27534.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27534
     - https://hackerone.com/reports/1892351
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/36NBD5YLJXXEDZLDGNFCERWRYJQ6LAQW/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/36NBD5YLJXXEDZLDGNFCERWRYJQ6LAQW/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27534
     - https://security.gentoo.org/glsa/202310-12
     - https://security.netapp.com/advisory/ntap-20230420-0012/
     - https://ubuntu.com/security/notices/USN-5964-1
     - https://www.cve.org/CVERecord?id=CVE-2023-27534
     PublishedDate: '2023-03-30T20:15:00Z'
-    LastModifiedDate: '2023-10-20T18:45:00Z'
+    LastModifiedDate: '2023-11-07T04:09:00Z'
   - VulnerabilityID: CVE-2023-27538
+    VendorIDs:
+    - RHSA-2023:6679
     PkgID: curl-minimal@7.76.1-23.el9_2.4.x86_64
     PkgName: curl-minimal
     InstalledVersion: 7.76.1-23.el9_2.4
-    Status: affected
+    FixedVersion: 7.76.1-26.el9
+    Status: fixed
     Layer:
       Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
@@ -588,6 +674,66 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-27538
     PublishedDate: '2023-03-30T20:15:00Z'
     LastModifiedDate: '2023-10-20T18:43:00Z'
+  - VulnerabilityID: CVE-2023-38546
+    VendorIDs:
+    - RHSA-2023:6745
+    PkgID: curl-minimal@7.76.1-23.el9_2.4.x86_64
+    PkgName: curl-minimal
+    InstalledVersion: 7.76.1-23.el9_2.4
+    FixedVersion: 7.76.1-26.el9_3.2
+    Status: fixed
+    Layer:
+      Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
+      DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38546
+    Title: cookie injection with none file
+    Description: |
+      This flaw allows an attacker to insert cookies at will into a running program
+      using libcurl, if the specific series of conditions are met.
+
+      libcurl performs transfers. In its API, an application creates "easy handles"
+      that are the individual handles for single transfers.
+
+      libcurl provides a function call that duplicates en easy handle called
+      [curl_easy_duphandle](https://curl.se/libcurl/c/curl_easy_duphandle.html).
+
+      If a transfer has cookies enabled when the handle is duplicated, the
+      cookie-enable state is also cloned - but without cloning the actual
+      cookies. If the source handle did not read any cookies from a specific file on
+      disk, the cloned version of the handle would instead store the file name as
+      `none` (using the four ASCII letters, no quotes).
+
+      Subsequent use of the cloned handle that does not explicitly set a source to
+      load cookies from would then inadvertently load cookies from a file named
+      `none` - if such a file exists and is readable in the current directory of the
+      program using libcurl. And if using the correct file format of course.
+    Severity: LOW
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5
+    References:
+    - https://access.redhat.com/errata/RHSA-2023:5763
+    - https://access.redhat.com/security/cve/CVE-2023-38546
+    - https://bugzilla.redhat.com/2241933
+    - https://bugzilla.redhat.com/2241938
+    - https://curl.se/docs/CVE-2023-38546.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38546
+    - https://errata.almalinux.org/9/ALSA-2023-5763.html
+    - https://linux.oracle.com/cve/CVE-2023-38546.html
+    - https://linux.oracle.com/errata/ELSA-2023-5763.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OGMXNRNSJ4ETDK6FRNU3J7SABXPWCHSQ/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-38546
+    - https://ubuntu.com/security/notices/USN-6429-1
+    - https://ubuntu.com/security/notices/USN-6429-2
+    - https://ubuntu.com/security/notices/USN-6429-3
+    - https://www.cve.org/CVERecord?id=CVE-2023-38546
+    PublishedDate: '2023-10-18T04:15:00Z'
+    LastModifiedDate: '2023-10-28T03:15:00Z'
   - VulnerabilityID: CVE-2022-48554
     PkgID: file-libs@5.39-12.1.el9_2.x86_64
     PkgName: file-libs
@@ -653,12 +799,15 @@
     - https://ubuntu.com/security/notices/USN-6373-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4156
     PublishedDate: '2023-09-25T18:15:00Z'
-    LastModifiedDate: '2023-09-26T19:39:00Z'
+    LastModifiedDate: '2023-11-07T04:22:00Z'
   - VulnerabilityID: CVE-2023-29499
+    VendorIDs:
+    - RHSA-2023:6631
     PkgID: glib2@2.68.4-6.el9.x86_64
     PkgName: glib2
     InstalledVersion: 2.68.4-6.el9
-    Status: affected
+    FixedVersion: 2.68.4-11.el9
+    Status: fixed
     Layer:
       Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
@@ -688,12 +837,15 @@
     - https://ubuntu.com/security/notices/USN-6165-2
     - https://www.cve.org/CVERecord?id=CVE-2023-29499
     PublishedDate: '2023-09-14T20:15:00Z'
-    LastModifiedDate: '2023-11-04T06:15:00Z'
+    LastModifiedDate: '2023-11-07T04:11:00Z'
   - VulnerabilityID: CVE-2023-32611
+    VendorIDs:
+    - RHSA-2023:6631
     PkgID: glib2@2.68.4-6.el9.x86_64
     PkgName: glib2
     InstalledVersion: 2.68.4-6.el9
-    Status: affected
+    FixedVersion: 2.68.4-11.el9
+    Status: fixed
     Layer:
       Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
@@ -723,7 +875,7 @@
     - https://ubuntu.com/security/notices/USN-6165-2
     - https://www.cve.org/CVERecord?id=CVE-2023-32611
     PublishedDate: '2023-09-14T20:15:00Z'
-    LastModifiedDate: '2023-10-27T15:15:00Z'
+    LastModifiedDate: '2023-11-07T04:14:00Z'
   - VulnerabilityID: CVE-2023-32636
     PkgID: glib2@2.68.4-6.el9.x86_64
     PkgName: glib2
@@ -758,10 +910,13 @@
     PublishedDate: '2023-09-14T20:15:00Z'
     LastModifiedDate: '2023-09-19T18:59:00Z'
   - VulnerabilityID: CVE-2023-32665
+    VendorIDs:
+    - RHSA-2023:6631
     PkgID: glib2@2.68.4-6.el9.x86_64
     PkgName: glib2
     InstalledVersion: 2.68.4-6.el9
-    Status: affected
+    FixedVersion: 2.68.4-11.el9
+    Status: fixed
     Layer:
       Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
@@ -790,12 +945,15 @@
     - https://ubuntu.com/security/notices/USN-6165-2
     - https://www.cve.org/CVERecord?id=CVE-2023-32665
     PublishedDate: '2023-09-14T20:15:00Z'
-    LastModifiedDate: '2023-09-25T20:15:00Z'
+    LastModifiedDate: '2023-11-07T04:14:00Z'
   - VulnerabilityID: CVE-2021-43618
+    VendorIDs:
+    - RHSA-2023:6661
     PkgID: gmp@6.2.0-10.el9.x86_64
     PkgName: gmp
     InstalledVersion: 1:6.2.0-10.el9
-    Status: affected
+    FixedVersion: 1:6.2.0-13.el9
+    Status: fixed
     Layer:
       Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
@@ -906,15 +1064,16 @@
     - https://github.com/harfbuzz/harfbuzz/commit/85be877925ddbf34f74a1229f3ca1716bb6170dc (reverted)
     - https://linux.oracle.com/cve/CVE-2023-25193.html
     - https://linux.oracle.com/errata/ELSA-2023-4233.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KWCHWSICWVZSAXP2YAXM65JC2GR53547/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YZ5M2GSAIHFPLHYJXUPQ2QDJCLWXUGO3/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KWCHWSICWVZSAXP2YAXM65JC2GR53547/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YZ5M2GSAIHFPLHYJXUPQ2QDJCLWXUGO3/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-25193
     - https://security.netapp.com/advisory/ntap-20230725-0006/
     - https://ubuntu.com/security/notices/USN-6263-1
     - https://ubuntu.com/security/notices/USN-6272-1
     - https://www.cve.org/CVERecord?id=CVE-2023-25193
     PublishedDate: '2023-02-04T20:15:00Z'
-    LastModifiedDate: '2023-07-25T15:15:00Z'
+    LastModifiedDate: '2023-11-07T04:08:00Z'
   - VulnerabilityID: CVE-2022-3857
     PkgID: java-1.8.0-openjdk-headless@1.8.0.392.b08-3.el9.x86_64
     PkgName: java-1.8.0-openjdk-headless
@@ -947,10 +1106,13 @@
     PublishedDate: '2023-03-06T23:15:00Z'
     LastModifiedDate: '2023-04-06T13:15:00Z'
   - VulnerabilityID: CVE-2023-36054
+    VendorIDs:
+    - RHSA-2023:6699
     PkgID: krb5-libs@1.20.1-9.el9_2.x86_64
     PkgName: krb5-libs
     InstalledVersion: 1.20.1-9.el9_2
-    Status: affected
+    FixedVersion: 1.21.1-1.el9
+    Status: fixed
     Layer:
       Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
@@ -984,10 +1146,13 @@
     PublishedDate: '2023-08-07T19:15:00Z'
     LastModifiedDate: '2023-10-22T23:15:00Z'
   - VulnerabilityID: CVE-2023-39975
+    VendorIDs:
+    - RHSA-2023:6699
     PkgID: krb5-libs@1.20.1-9.el9_2.x86_64
     PkgName: krb5-libs
     InstalledVersion: 1.20.1-9.el9_2
-    Status: affected
+    FixedVersion: 1.21.1-1.el9
+    Status: fixed
     Layer:
       Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
@@ -1046,11 +1211,73 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-30571
     PublishedDate: '2023-05-29T20:15:00Z'
     LastModifiedDate: '2023-06-05T16:40:00Z'
-  - VulnerabilityID: CVE-2023-27536
+  - VulnerabilityID: CVE-2023-38545
+    VendorIDs:
+    - RHSA-2023:6745
     PkgID: libcurl-minimal@7.76.1-23.el9_2.4.x86_64
     PkgName: libcurl-minimal
     InstalledVersion: 7.76.1-23.el9_2.4
-    Status: affected
+    FixedVersion: 7.76.1-26.el9_3.2
+    Status: fixed
+    Layer:
+      Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
+      DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38545
+    Title: heap based buffer overflow in the SOCKS5 proxy handshake
+    Description: |
+      This flaw makes curl overflow a heap based buffer in the SOCKS5 proxy
+      handshake.
+
+      When curl is asked to pass along the host name to the SOCKS5 proxy to allow
+      that to resolve the address instead of it getting done by curl itself, the
+      maximum length that host name can be is 255 bytes.
+
+      If the host name is detected to be longer, curl switches to local name
+      resolving and instead passes on the resolved address only. Due to this bug,
+      the local variable that means "let the host resolve the name" could get the
+      wrong value during a slow SOCKS5 handshake, and contrary to the intention,
+      copy the too long host name to the target buffer instead of copying just the
+      resolved address there.
+
+      The target buffer being a heap based buffer, and the host name coming from the
+      URL that curl has been told to operate with.
+    Severity: HIGH
+    CweIDs:
+    - CWE-787
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2023:5763
+    - https://access.redhat.com/security/cve/CVE-2023-38545
+    - https://bugzilla.redhat.com/2241933
+    - https://bugzilla.redhat.com/2241938
+    - https://curl.se/docs/CVE-2023-38545.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38545
+    - https://errata.almalinux.org/9/ALSA-2023-5763.html
+    - https://linux.oracle.com/cve/CVE-2023-38545.html
+    - https://linux.oracle.com/errata/ELSA-2023-5763.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OGMXNRNSJ4ETDK6FRNU3J7SABXPWCHSQ/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-38545
+    - https://security.netapp.com/advisory/ntap-20231027-0009/
+    - https://ubuntu.com/security/notices/USN-6429-1
+    - https://ubuntu.com/security/notices/USN-6429-3
+    - https://www.cve.org/CVERecord?id=CVE-2023-38545
+    PublishedDate: '2023-10-18T04:15:00Z'
+    LastModifiedDate: '2023-10-28T03:15:00Z'
+  - VulnerabilityID: CVE-2023-27536
+    VendorIDs:
+    - RHSA-2023:6679
+    PkgID: libcurl-minimal@7.76.1-23.el9_2.4.x86_64
+    PkgName: libcurl-minimal
+    InstalledVersion: 7.76.1-23.el9_2.4
+    FixedVersion: 7.76.1-26.el9
+    Status: fixed
     Layer:
       Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
@@ -1084,6 +1311,7 @@
     - https://linux.oracle.com/cve/CVE-2023-27536.html
     - https://linux.oracle.com/errata/ELSA-2023-4523.html
     - https://lists.debian.org/debian-lts-announce/2023/04/msg00025.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/36NBD5YLJXXEDZLDGNFCERWRYJQ6LAQW/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/36NBD5YLJXXEDZLDGNFCERWRYJQ6LAQW/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27536
     - https://security.gentoo.org/glsa/202310-12
@@ -1092,12 +1320,15 @@
     - https://ubuntu.com/security/notices/USN-5964-2
     - https://www.cve.org/CVERecord?id=CVE-2023-27536
     PublishedDate: '2023-03-30T20:15:00Z'
-    LastModifiedDate: '2023-10-20T18:44:00Z'
+    LastModifiedDate: '2023-11-07T04:09:00Z'
   - VulnerabilityID: CVE-2023-27533
+    VendorIDs:
+    - RHSA-2023:6679
     PkgID: libcurl-minimal@7.76.1-23.el9_2.4.x86_64
     PkgName: libcurl-minimal
     InstalledVersion: 7.76.1-23.el9_2.4
-    Status: affected
+    FixedVersion: 7.76.1-26.el9
+    Status: fixed
     Layer:
       Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
@@ -1121,7 +1352,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27533
     - https://hackerone.com/reports/1891474
     - https://lists.debian.org/debian-lts-announce/2023/04/msg00025.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/36NBD5YLJXXEDZLDGNFCERWRYJQ6LAQW/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/36NBD5YLJXXEDZLDGNFCERWRYJQ6LAQW/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27533
     - https://security.gentoo.org/glsa/202310-12
     - https://security.netapp.com/advisory/ntap-20230420-0011/
@@ -1129,12 +1360,15 @@
     - https://ubuntu.com/security/notices/USN-5964-2
     - https://www.cve.org/CVERecord?id=CVE-2023-27533
     PublishedDate: '2023-03-30T20:15:00Z'
-    LastModifiedDate: '2023-10-20T18:51:00Z'
+    LastModifiedDate: '2023-11-07T04:09:00Z'
   - VulnerabilityID: CVE-2023-27534
+    VendorIDs:
+    - RHSA-2023:6679
     PkgID: libcurl-minimal@7.76.1-23.el9_2.4.x86_64
     PkgName: libcurl-minimal
     InstalledVersion: 7.76.1-23.el9_2.4
-    Status: affected
+    FixedVersion: 7.76.1-26.el9
+    Status: fixed
     Layer:
       Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
@@ -1157,19 +1391,22 @@
     - https://curl.se/docs/CVE-2023-27534.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27534
     - https://hackerone.com/reports/1892351
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/36NBD5YLJXXEDZLDGNFCERWRYJQ6LAQW/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/36NBD5YLJXXEDZLDGNFCERWRYJQ6LAQW/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27534
     - https://security.gentoo.org/glsa/202310-12
     - https://security.netapp.com/advisory/ntap-20230420-0012/
     - https://ubuntu.com/security/notices/USN-5964-1
     - https://www.cve.org/CVERecord?id=CVE-2023-27534
     PublishedDate: '2023-03-30T20:15:00Z'
-    LastModifiedDate: '2023-10-20T18:45:00Z'
+    LastModifiedDate: '2023-11-07T04:09:00Z'
   - VulnerabilityID: CVE-2023-27538
+    VendorIDs:
+    - RHSA-2023:6679
     PkgID: libcurl-minimal@7.76.1-23.el9_2.4.x86_64
     PkgName: libcurl-minimal
     InstalledVersion: 7.76.1-23.el9_2.4
-    Status: affected
+    FixedVersion: 7.76.1-26.el9
+    Status: fixed
     Layer:
       Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
@@ -1201,6 +1438,66 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-27538
     PublishedDate: '2023-03-30T20:15:00Z'
     LastModifiedDate: '2023-10-20T18:43:00Z'
+  - VulnerabilityID: CVE-2023-38546
+    VendorIDs:
+    - RHSA-2023:6745
+    PkgID: libcurl-minimal@7.76.1-23.el9_2.4.x86_64
+    PkgName: libcurl-minimal
+    InstalledVersion: 7.76.1-23.el9_2.4
+    FixedVersion: 7.76.1-26.el9_3.2
+    Status: fixed
+    Layer:
+      Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
+      DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38546
+    Title: cookie injection with none file
+    Description: |
+      This flaw allows an attacker to insert cookies at will into a running program
+      using libcurl, if the specific series of conditions are met.
+
+      libcurl performs transfers. In its API, an application creates "easy handles"
+      that are the individual handles for single transfers.
+
+      libcurl provides a function call that duplicates en easy handle called
+      [curl_easy_duphandle](https://curl.se/libcurl/c/curl_easy_duphandle.html).
+
+      If a transfer has cookies enabled when the handle is duplicated, the
+      cookie-enable state is also cloned - but without cloning the actual
+      cookies. If the source handle did not read any cookies from a specific file on
+      disk, the cloned version of the handle would instead store the file name as
+      `none` (using the four ASCII letters, no quotes).
+
+      Subsequent use of the cloned handle that does not explicitly set a source to
+      load cookies from would then inadvertently load cookies from a file named
+      `none` - if such a file exists and is readable in the current directory of the
+      program using libcurl. And if using the correct file format of course.
+    Severity: LOW
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 5
+    References:
+    - https://access.redhat.com/errata/RHSA-2023:5763
+    - https://access.redhat.com/security/cve/CVE-2023-38546
+    - https://bugzilla.redhat.com/2241933
+    - https://bugzilla.redhat.com/2241938
+    - https://curl.se/docs/CVE-2023-38546.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38546
+    - https://errata.almalinux.org/9/ALSA-2023-5763.html
+    - https://linux.oracle.com/cve/CVE-2023-38546.html
+    - https://linux.oracle.com/errata/ELSA-2023-5763.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OGMXNRNSJ4ETDK6FRNU3J7SABXPWCHSQ/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-38546
+    - https://ubuntu.com/security/notices/USN-6429-1
+    - https://ubuntu.com/security/notices/USN-6429-2
+    - https://ubuntu.com/security/notices/USN-6429-3
+    - https://www.cve.org/CVERecord?id=CVE-2023-38546
+    PublishedDate: '2023-10-18T04:15:00Z'
+    LastModifiedDate: '2023-10-28T03:15:00Z'
   - VulnerabilityID: CVE-2023-4039
     PkgID: libgcc@11.3.1-4.3.el9.x86_64
     PkgName: libgcc
@@ -1282,12 +1579,224 @@
     - https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039
     - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=9234cdca6ee88badfc00297e72f13dac4e540c79
     - https://gcc.gnu.org/pipermail/gcc-patches/2022-March/592244.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-27943
     - https://sourceware.org/bugzilla/show_bug.cgi?id=28995
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:00Z'
-    LastModifiedDate: '2023-08-08T14:22:00Z'
+    LastModifiedDate: '2023-11-07T03:45:00Z'
+  - VulnerabilityID: CVE-2023-44487
+    VendorIDs:
+    - RHSA-2023:6746
+    PkgID: libnghttp2@1.43.0-5.el9_2.1.x86_64
+    PkgName: libnghttp2
+    InstalledVersion: 1.43.0-5.el9_2.1
+    FixedVersion: 1.43.0-5.el9_3.1
+    Status: fixed
+    Layer:
+      Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
+      DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-44487
+    Title: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)
+    Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
+    Severity: HIGH
+    CweIDs:
+    - CWE-400
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2023/10/13/4
+    - http://www.openwall.com/lists/oss-security/2023/10/13/9
+    - http://www.openwall.com/lists/oss-security/2023/10/18/4
+    - http://www.openwall.com/lists/oss-security/2023/10/18/8
+    - http://www.openwall.com/lists/oss-security/2023/10/19/6
+    - http://www.openwall.com/lists/oss-security/2023/10/20/8
+    - https://access.redhat.com/errata/RHSA-2023:6120
+    - https://access.redhat.com/security/cve/CVE-2023-44487
+    - https://access.redhat.com/security/cve/cve-2023-44487
+    - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
+    - https://aws.amazon.com/security/security-bulletins/AWS-2023-011/
+    - https://blog.cloudflare.com/technical-breakdown-http2-rapid-reset-ddos-attack/
+    - https://blog.cloudflare.com/zero-day-rapid-reset-http2-record-breaking-ddos-attack/
+    - https://blog.litespeedtech.com/2023/10/11/rapid-reset-http-2-vulnerablilty/
+    - https://blog.qualys.com/vulnerabilities-threat-research/2023/10/10/cve-2023-44487-http-2-rapid-reset-attack
+    - https://blog.vespa.ai/cve-2023-44487/
+    - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
+    - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
+    - https://bugzilla.suse.com/show_bug.cgi?id=1216123
+    - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
+    - https://chaos.social/@icing/111210915918780532
+    - https://cloud.google.com/blog/products/identity-security/google-cloud-mitigated-largest-ddos-attack-peaking-above-398-million-rps/
+    - https://cloud.google.com/blog/products/identity-security/how-it-works-the-novel-http2-rapid-reset-ddos-attack
+    - https://community.traefik.io/t/is-traefik-vulnerable-to-cve-2023-44487/20125
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
+    - https://devblogs.microsoft.com/dotnet/october-2023-updates/
+    - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
+    - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
+    - https://errata.almalinux.org/9/ALSA-2023-6120.html
+    - https://errata.rockylinux.org/RLSA-2023:5928
+    - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
+    - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
+    - https://github.com/Azure/AKS/issues/3947
+    - https://github.com/Kong/kong/discussions/11741
+    - https://github.com/advisories/GHSA-qppj-fm5r-hxr3
+    - https://github.com/advisories/GHSA-vx74-f528-fxqg
+    - https://github.com/advisories/GHSA-xpw8-rcwv-8f8p
+    - https://github.com/akka/akka-http/issues/4323
+    - https://github.com/alibaba/tengine/issues/1872
+    - https://github.com/apache/apisix/issues/10320
+    - https://github.com/apache/httpd-site/pull/10
+    - https://github.com/apache/httpd/blob/afcdbeebbff4b0c50ea26cdd16e178c0d1f24152/modules/http2/h2_mplx.c#L1101-L1113
+    - https://github.com/apache/tomcat/tree/main/java/org/apache/coyote/http2
+    - https://github.com/apache/trafficserver/pull/10564
+    - https://github.com/apple/swift-nio-http2
+    - https://github.com/apple/swift-nio-http2/security/advisories/GHSA-qppj-fm5r-hxr3
+    - https://github.com/arkrwn/PoC/tree/main/CVE-2023-44487
+    - https://github.com/bcdannyboy/CVE-2023-44487
+    - https://github.com/caddyserver/caddy/issues/5877
+    - https://github.com/caddyserver/caddy/releases/tag/v2.7.5
+    - https://github.com/dotnet/announcements/issues/277
+    - https://github.com/dotnet/core/blob/e4613450ea0da7fd2fc6b61dfb2c1c1dec1ce9ec/release-notes/6.0/6.0.23/6.0.23.md?plain=1#L73
+    - https://github.com/eclipse/jetty.project/issues/10679
+    - https://github.com/envoyproxy/envoy/pull/30055
+    - https://github.com/etcd-io/etcd/issues/16740
+    - https://github.com/facebook/proxygen/pull/466
+    - https://github.com/golang/go/issues/63417
+    - https://github.com/grpc/grpc-go/pull/6703
+    - https://github.com/grpc/grpc-go/releases
+    - https://github.com/h2o/h2o/pull/3291
+    - https://github.com/h2o/h2o/security/advisories/GHSA-2m7v-gc89-fjqf
+    - https://github.com/haproxy/haproxy/issues/2312
+    - https://github.com/hyperium/hyper/issues/3337
+    - https://github.com/icing/mod_h2/blob/0a864782af0a942aa2ad4ed960a6b32cd35bcf0a/mod_http2/README.md?plain=1#L239-L244
+    - https://github.com/junkurihara/rust-rpxy/issues/97
+    - https://github.com/kazu-yamamoto/http2/commit/f61d41a502bd0f60eb24e1ce14edc7b6df6722a1
+    - https://github.com/kazu-yamamoto/http2/issues/93
+    - https://github.com/kubernetes/kubernetes/pull/121120
+    - https://github.com/line/armeria/pull/5232
+    - https://github.com/linkerd/website/pull/1695/commits/4b9c6836471bc8270ab48aae6fd2181bc73fd632
+    - https://github.com/micrictor/http2-rst-stream
+    - https://github.com/microsoft/CBL-Mariner/pull/6381
+    - https://github.com/netty/netty/commit/58f75f665aa81a8cbcf6ffa74820042a285c5e61
+    - https://github.com/nghttp2/nghttp2/pull/1961
+    - https://github.com/nghttp2/nghttp2/releases/tag/v1.57.0
+    - https://github.com/ninenines/cowboy/issues/1615
+    - https://github.com/nodejs/node/pull/50121
+    - https://github.com/openresty/openresty/issues/930
+    - https://github.com/opensearch-project/data-prepper/issues/3474
+    - https://github.com/oqtane/oqtane.framework/discussions/3367
+    - https://github.com/projectcontour/contour/pull/5826
+    - https://github.com/tempesta-tech/tempesta/issues/1986
+    - https://github.com/varnishcache/varnish-cache/issues/3996
+    - https://go.dev/cl/534215
+    - https://go.dev/cl/534235
+    - https://go.dev/issue/63417
+    - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo
+    - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
+    - https://istio.io/latest/news/security/istio-security-2023-004/
+    - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
+    - https://linux.oracle.com/cve/CVE-2023-44487.html
+    - https://linux.oracle.com/errata/ELSA-2023-6120.html
+    - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
+    - https://lists.debian.org/debian-lts-announce/2023/11/msg00001.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/2MBEPPC36UBVOZZNAXFHKLFGSLCMN5LI/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WE2I52RHNNU42PX6NZ2RBUHSFFJ2LVZX/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
+    - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
+    - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
+    - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
+    - https://msrc.microsoft.com/blog/2023/10/microsoft-response-to-distributed-denial-of-service-ddos-attacks-against-http/2/
+    - https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-44487
+    - https://my.f5.com/manage/s/article/K000137106
+    - https://netty.io/news/2023/10/10/4-1-100-Final.html
+    - https://news.ycombinator.com/item?id=37830987
+    - https://news.ycombinator.com/item?id=37830998
+    - https://news.ycombinator.com/item?id=37831062
+    - https://news.ycombinator.com/item?id=37837043
+    - https://nodejs.org/en/blog/vulnerability/october-2023-security-releases
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-44487
+    - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response/
+    - https://pkg.go.dev/vuln/GO-2023-2102
+    - https://seanmonstar.com/post/730794151136935936/hyper-http2-rapid-reset-unaffected
+    - https://security.netapp.com/advisory/ntap-20231016-0001/
+    - https://security.paloaltonetworks.com/CVE-2023-44487
+    - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
+    - https://ubuntu.com/security/CVE-2023-44487
+    - https://ubuntu.com/security/notices/USN-6427-1
+    - https://ubuntu.com/security/notices/USN-6427-2
+    - https://ubuntu.com/security/notices/USN-6438-1
+    - https://www.bleepingcomputer.com/news/security/new-http-2-rapid-reset-zero-day-attack-breaks-ddos-records/
+    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
+    - https://www.cve.org/CVERecord?id=CVE-2023-44487
+    - https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event
+    - https://www.debian.org/security/2023/dsa-5521
+    - https://www.debian.org/security/2023/dsa-5522
+    - https://www.debian.org/security/2023/dsa-5540
+    - https://www.debian.org/security/2023/dsa-5549
+    - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
+    - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
+    - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
+    - https://www.nginx.com/blog/http-2-rapid-reset-attack-impacting-f5-nginx-products/
+    - https://www.openwall.com/lists/oss-security/2023/10/10/6
+    - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
+    - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
+    PublishedDate: '2023-10-10T14:15:00Z'
+    LastModifiedDate: '2023-11-07T05:15:00Z'
   - VulnerabilityID: CVE-2022-3857
     PkgID: libpng@1.6.37-12.el9.x86_64
     PkgName: libpng
@@ -1400,12 +1909,12 @@
     - https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039
     - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=9234cdca6ee88badfc00297e72f13dac4e540c79
     - https://gcc.gnu.org/pipermail/gcc-patches/2022-March/592244.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-27943
     - https://sourceware.org/bugzilla/show_bug.cgi?id=28995
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:00Z'
-    LastModifiedDate: '2023-08-08T14:22:00Z'
+    LastModifiedDate: '2023-11-07T03:45:00Z'
   - VulnerabilityID: CVE-2023-39615
     PkgID: libxml2@2.9.13-3.el9_2.1.x86_64
     PkgName: libxml2
@@ -1417,7 +1926,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39615
     Title: crafted xml can cause global buffer overflow
-    Description: '** DISPUTED ** Xmlsoft Libxml2 v2.11.0 was discovered to contain an out-of-bounds read via the xmlSAX2StartElement() function at /libxml2/SAX2.c. This vulnerability allows attackers to cause a Denial of Service (DoS) via supplying a crafted XML file. NOTE: the vendor''s position is that the product does not support the legacy SAX1 interface with custom callbacks; there is a crash even without crafted input.'
+    Description: 'Xmlsoft Libxml2 v2.11.0 was discovered to contain an out-of-bounds read via the xmlSAX2StartElement() function at /libxml2/SAX2.c. This vulnerability allows attackers to cause a Denial of Service (DoS) via supplying a crafted XML file. NOTE: the vendor''s position is that the product does not support the legacy SAX1 interface with custom callbacks; there is a crash even without crafted input.'
     Severity: MEDIUM
     CweIDs:
     - CWE-119
@@ -1434,7 +1943,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39615
     - https://www.cve.org/CVERecord?id=CVE-2023-39615
     PublishedDate: '2023-08-29T17:15:00Z'
-    LastModifiedDate: '2023-09-06T17:15:00Z'
+    LastModifiedDate: '2023-11-07T04:17:00Z'
   - VulnerabilityID: CVE-2023-45322
     PkgID: libxml2@2.9.13-3.el9_2.1.x86_64
     PkgName: libxml2
@@ -1446,7 +1955,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45322
     Title: use-after-free in xmlUnlinkNode() in tree.c
-    Description: '** DISPUTED ** libxml2 through 2.11.5 has a use-after-free that can only occur after a certain memory allocation fails. This occurs in xmlUnlinkNode in tree.c. NOTE: the vendor''s position is "I don''t think these issues are critical enough to warrant a CVE ID ... because an attacker typically can''t control when memory allocations fail."'
+    Description: 'libxml2 through 2.11.5 has a use-after-free that can only occur after a certain memory allocation fails. This occurs in xmlUnlinkNode in tree.c. NOTE: the vendor''s position is "I don''t think these issues are critical enough to warrant a CVE ID ... because an attacker typically can''t control when memory allocations fail."'
     Severity: LOW
     CweIDs:
     - CWE-416
@@ -1465,7 +1974,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45322
     - https://www.cve.org/CVERecord?id=CVE-2023-45322
     PublishedDate: '2023-10-06T22:15:00Z'
-    LastModifiedDate: '2023-10-11T18:13:00Z'
+    LastModifiedDate: '2023-11-07T04:21:00Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd@1.5.1-2.el9.x86_64
     PkgName: libzstd
@@ -1499,6 +2008,9 @@
     - https://github.com/facebook/zstd/pull/3220
     - https://github.com/pypa/advisory-database/tree/main/vulns/zstd/PYSEC-2023-121.yaml
     - https://github.com/sergey-dryabzhinsky/python-zstd/commit/c8a619aebdbd6b838fbfef6e19325a70f631a4c6
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/C63HAGVLQA6FJNDCHR7CNZZL6VSLILB2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JEHRBBYYTPA4DETOM5XAKGCP37NUTLOA/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QYLDK6ODVC4LJSDULLX6Q2YHTFOWABCN/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/C63HAGVLQA6FJNDCHR7CNZZL6VSLILB2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JEHRBBYYTPA4DETOM5XAKGCP37NUTLOA/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QYLDK6ODVC4LJSDULLX6Q2YHTFOWABCN/
@@ -1506,12 +2018,15 @@
     - https://security.netapp.com/advisory/ntap-20230725-0005/
     - https://www.cve.org/CVERecord?id=CVE-2022-4899
     PublishedDate: '2023-03-31T20:15:00Z'
-    LastModifiedDate: '2023-09-16T04:15:00Z'
+    LastModifiedDate: '2023-11-07T03:59:00Z'
   - VulnerabilityID: CVE-2023-29491
+    VendorIDs:
+    - RHSA-2023:6698
     PkgID: ncurses-base@6.2-8.20210508.el9.noarch
     PkgName: ncurses-base
     InstalledVersion: 6.2-8.20210508.el9
-    Status: affected
+    FixedVersion: 6.2-10.20210508.el9
+    Status: fixed
     Layer:
       Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
@@ -1530,6 +2045,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://ncurses.scripts.mit.edu/?p=ncurses.git%3Ba=commit%3Bh=eb51b1ea1f75a0ec17c9c5937cb28df1e8eeec56
     - http://ncurses.scripts.mit.edu/?p=ncurses.git;a=commit;h=eb51b1ea1f75a0ec17c9c5937cb28df1e8eeec56
     - http://www.openwall.com/lists/oss-security/2023/04/19/10
     - http://www.openwall.com/lists/oss-security/2023/04/19/11
@@ -1551,7 +2067,7 @@
     - https://www.openwall.com/lists/oss-security/2023/04/12/5
     - https://www.openwall.com/lists/oss-security/2023/04/13/4
     PublishedDate: '2023-04-14T01:15:00Z'
-    LastModifiedDate: '2023-09-09T22:15:00Z'
+    LastModifiedDate: '2023-11-07T04:11:00Z'
   - VulnerabilityID: CVE-2022-29458
     PkgID: ncurses-base@6.2-8.20210508.el9.noarch
     PkgName: ncurses-base
@@ -1577,6 +2093,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
         V3Score: 6.1
     References:
+    - http://seclists.org/fulldisclosure/2022/Oct/28
     - http://seclists.org/fulldisclosure/2022/Oct/41
     - https://access.redhat.com/security/cve/CVE-2022-29458
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29458
@@ -1590,12 +2107,15 @@
     - https://ubuntu.com/security/notices/USN-6099-1
     - https://www.cve.org/CVERecord?id=CVE-2022-29458
     PublishedDate: '2022-04-18T21:15:00Z'
-    LastModifiedDate: '2022-11-08T19:46:00Z'
+    LastModifiedDate: '2023-11-07T03:46:00Z'
   - VulnerabilityID: CVE-2023-29491
+    VendorIDs:
+    - RHSA-2023:6698
     PkgID: ncurses-libs@6.2-8.20210508.el9.x86_64
     PkgName: ncurses-libs
     InstalledVersion: 6.2-8.20210508.el9
-    Status: affected
+    FixedVersion: 6.2-10.20210508.el9
+    Status: fixed
     Layer:
       Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
@@ -1614,6 +2134,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://ncurses.scripts.mit.edu/?p=ncurses.git%3Ba=commit%3Bh=eb51b1ea1f75a0ec17c9c5937cb28df1e8eeec56
     - http://ncurses.scripts.mit.edu/?p=ncurses.git;a=commit;h=eb51b1ea1f75a0ec17c9c5937cb28df1e8eeec56
     - http://www.openwall.com/lists/oss-security/2023/04/19/10
     - http://www.openwall.com/lists/oss-security/2023/04/19/11
@@ -1635,7 +2156,7 @@
     - https://www.openwall.com/lists/oss-security/2023/04/12/5
     - https://www.openwall.com/lists/oss-security/2023/04/13/4
     PublishedDate: '2023-04-14T01:15:00Z'
-    LastModifiedDate: '2023-09-09T22:15:00Z'
+    LastModifiedDate: '2023-11-07T04:11:00Z'
   - VulnerabilityID: CVE-2022-29458
     PkgID: ncurses-libs@6.2-8.20210508.el9.x86_64
     PkgName: ncurses-libs
@@ -1661,6 +2182,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
         V3Score: 6.1
     References:
+    - http://seclists.org/fulldisclosure/2022/Oct/28
     - http://seclists.org/fulldisclosure/2022/Oct/41
     - https://access.redhat.com/security/cve/CVE-2022-29458
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29458
@@ -1674,7 +2196,7 @@
     - https://ubuntu.com/security/notices/USN-6099-1
     - https://www.cve.org/CVERecord?id=CVE-2022-29458
     PublishedDate: '2022-04-18T21:15:00Z'
-    LastModifiedDate: '2022-11-08T19:46:00Z'
+    LastModifiedDate: '2023-11-07T03:46:00Z'
   - VulnerabilityID: CVE-2023-5388
     PkgID: nspr@4.35.0-3.el9_2.x86_64
     PkgName: nspr
@@ -2334,6 +2856,7 @@
     - http://www.openwall.com/lists/oss-security/2023/07/31/1
     - http://www.openwall.com/lists/oss-security/2023/09/22/11
     - http://www.openwall.com/lists/oss-security/2023/09/22/9
+    - http://www.openwall.com/lists/oss-security/2023/11/06/2
     - https://access.redhat.com/security/cve/CVE-2023-3817
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3817
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a1eb62c29db6cb5eec707f9338aee00f44e26f5
@@ -2350,7 +2873,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:00Z'
-    LastModifiedDate: '2023-10-27T15:15:00Z'
+    LastModifiedDate: '2023-11-06T19:15:00Z'
   - VulnerabilityID: CVE-2023-5363
     PkgID: openssl-libs@3.0.7-17.el9_2.x86_64
     PkgName: openssl-libs
@@ -2604,6 +3127,7 @@
     - http://www.openwall.com/lists/oss-security/2023/07/31/1
     - http://www.openwall.com/lists/oss-security/2023/09/22/11
     - http://www.openwall.com/lists/oss-security/2023/09/22/9
+    - http://www.openwall.com/lists/oss-security/2023/11/06/2
     - https://access.redhat.com/security/cve/CVE-2023-3817
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3817
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a1eb62c29db6cb5eec707f9338aee00f44e26f5
@@ -2620,12 +3144,15 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:00Z'
-    LastModifiedDate: '2023-10-27T15:15:00Z'
+    LastModifiedDate: '2023-11-06T19:15:00Z'
   - VulnerabilityID: CVE-2007-4559
+    VendorIDs:
+    - RHSA-2023:6659
     PkgID: python-unversioned-command@3.9.16-1.el9_2.2.noarch
     PkgName: python-unversioned-command
     InstalledVersion: 3.9.16-1.el9_2.2
-    Status: affected
+    FixedVersion: 3.9.18-1.el9_3
+    Status: fixed
     Layer:
       Digest: sha256:e16169bcca65672445400ead37d79469d07be9c655000dddaf975d8512625079
       DiffID: sha256:27ed7942fad6945764bc8dec75155a15271fd83f7691ab7a2a2a70794d84e883
@@ -2692,32 +3219,32 @@
     - https://github.com/python/cpython/pull/24297
     - https://linux.oracle.com/cve/CVE-2021-23336.html
     - https://linux.oracle.com/errata/ELSA-2021-4162.html
-    - https://lists.apache.org/thread.html/ra8ce70088ba291f358e077cafdb14d174b7a1ce9a9d86d1b332d6367@%3Cusers.airflow.apache.org%3E
-    - https://lists.apache.org/thread.html/rc005f4de9d9b0ba943ceb8ff5a21a5c6ff8a9df52632476698d99432@%3Cannounce.apache.org%3E
-    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E
+    - https://lists.apache.org/thread.html/ra8ce70088ba291f358e077cafdb14d174b7a1ce9a9d86d1b332d6367%40%3Cusers.airflow.apache.org%3E
+    - https://lists.apache.org/thread.html/rc005f4de9d9b0ba943ceb8ff5a21a5c6ff8a9df52632476698d99432%40%3Cannounce.apache.org%3E
+    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
     - https://lists.debian.org/debian-lts-announce/2021/02/msg00030.html
     - https://lists.debian.org/debian-lts-announce/2021/04/msg00005.html
     - https://lists.debian.org/debian-lts-announce/2021/04/msg00015.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3EPYWWFDV22CJ5AOH5VCE72DOASZZ255/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3YKKDLXL3UEZ3J426C2XTBS63AHE46SM/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/46N6A52EGSXHJYCZWVMBJJIH4NWIV2B5/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FONHJIOZOFD7CD35KZL6SVBUTMBPGZGA/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HCQTCSP6SCVIYNIRUJC5X7YBVUHPLSC4/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HZTM7KLHFCE3LWSEVO2NAFLUHMGYMCRY/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IHQDU7NXA7EWAE4W7VO6MURVJIULEPPR/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KJXCMHLY7H3FIYLE4OKDYUILU2CCRUCZ/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LVNH6Z24IG3E67ZCQGGJ46FZB4XFLQNZ/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MNUN5SOMFL2BBKP6ZAICIIUPQKZDMGYO/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MP572OLHMS7MZO4KUPSCIMSZIA5IZZ62/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/N6VXJZSZ6N64AILJX4CTMACYGQGHHD5C/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NJSCSN722JO2E2AGPWD4NTGVELVRPB4R/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NODWHDIFBQE5RU5PUWUVE47JOT5VCMJ2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OAGSWNGZJ6HQ5ISA67SNMK3CJRKICET7/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RSLQD5CCM75IZGAMBDGUZEATYU5YSGJ7/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SGIY6I4YS3WOXAK4SXKIEOC2G4VZKIR7/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TFTELUMWZE3KV3JB2H5EE6VFRZFRD5MV/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/W2LSKBEFI5SYEY5FM6ICZVZM5WRQUCS4/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3EPYWWFDV22CJ5AOH5VCE72DOASZZ255/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YKKDLXL3UEZ3J426C2XTBS63AHE46SM/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/46N6A52EGSXHJYCZWVMBJJIH4NWIV2B5/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FONHJIOZOFD7CD35KZL6SVBUTMBPGZGA/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HCQTCSP6SCVIYNIRUJC5X7YBVUHPLSC4/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HZTM7KLHFCE3LWSEVO2NAFLUHMGYMCRY/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/IHQDU7NXA7EWAE4W7VO6MURVJIULEPPR/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KJXCMHLY7H3FIYLE4OKDYUILU2CCRUCZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LVNH6Z24IG3E67ZCQGGJ46FZB4XFLQNZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MNUN5SOMFL2BBKP6ZAICIIUPQKZDMGYO/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MP572OLHMS7MZO4KUPSCIMSZIA5IZZ62/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/N6VXJZSZ6N64AILJX4CTMACYGQGHHD5C/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NJSCSN722JO2E2AGPWD4NTGVELVRPB4R/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NODWHDIFBQE5RU5PUWUVE47JOT5VCMJ2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/OAGSWNGZJ6HQ5ISA67SNMK3CJRKICET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RSLQD5CCM75IZGAMBDGUZEATYU5YSGJ7/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SGIY6I4YS3WOXAK4SXKIEOC2G4VZKIR7/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/TFTELUMWZE3KV3JB2H5EE6VFRZFRD5MV/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/W2LSKBEFI5SYEY5FM6ICZVZM5WRQUCS4/
     - https://nvd.nist.gov/vuln/detail/CVE-2021-23336
     - https://security.gentoo.org/glsa/202104-04
     - https://security.netapp.com/advisory/ntap-20210326-0004/
@@ -2731,7 +3258,7 @@
     - https://www.oracle.com/security-alerts/cpujan2022.html
     - https://www.oracle.com/security-alerts/cpuoct2021.html
     PublishedDate: '2021-02-15T13:15:00Z'
-    LastModifiedDate: '2023-09-20T22:15:00Z'
+    LastModifiedDate: '2023-11-07T03:30:00Z'
   - VulnerabilityID: CVE-2022-0391
     PkgID: python-unversioned-command@3.9.16-1.el9_2.2.noarch
     PkgName: python-unversioned-command
@@ -2770,8 +3297,8 @@
     - https://linux.oracle.com/cve/CVE-2022-0391.html
     - https://linux.oracle.com/errata/ELSA-2023-3550.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CSD2YBXP3ZF44E44QMIIAR5VTO35KTRB/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UDBDBAU6HUPZHISBOARTXZ5GKHF2VH5U/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CSD2YBXP3ZF44E44QMIIAR5VTO35KTRB/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UDBDBAU6HUPZHISBOARTXZ5GKHF2VH5U/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-0391
     - https://security.gentoo.org/glsa/202305-02
     - https://security.netapp.com/advisory/ntap-20220225-0009/
@@ -2780,7 +3307,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-0391
     - https://www.oracle.com/security-alerts/cpuapr2022.html
     PublishedDate: '2022-02-09T23:15:00Z'
-    LastModifiedDate: '2023-09-20T22:15:00Z'
+    LastModifiedDate: '2023-11-07T03:41:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python-unversioned-command@3.9.16-1.el9_2.2.noarch
     PkgName: python-unversioned-command
@@ -2830,7 +3357,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36632
     Title: maximum recursion depth exceeded while calling a Python object
-    Description: '** DISPUTED ** The legacy email.utils.parseaddr function in Python through 3.11.4 allows attackers to trigger "RecursionError: maximum recursion depth exceeded while calling a Python object" via a crafted argument. This argument is plausibly an untrusted value from an application''s input data that was supposed to contain a name and an e-mail address. NOTE: email.utils.parseaddr is categorized as a Legacy API in the documentation of the Python email package. Applications should instead use the email.parser.BytesParser or email.parser.Parser class. NOTE: the vendor''s perspective is that this is neither a vulnerability nor a bug. The email package is intended to have size limits and to throw an exception when limits are exceeded; they were exceeded by the example demonstration code.'
+    Description: 'The legacy email.utils.parseaddr function in Python through 3.11.4 allows attackers to trigger "RecursionError: maximum recursion depth exceeded while calling a Python object" via a crafted argument. This argument is plausibly an untrusted value from an application''s input data that was supposed to contain a name and an e-mail address. NOTE: email.utils.parseaddr is categorized as a Legacy API in the documentation of the Python email package. Applications should instead use the email.parser.BytesParser or email.parser.Parser class. NOTE: the vendor''s perspective is that this is neither a vulnerability nor a bug. The email package is intended to have size limits and to throw an exception when limits are exceeded; they were exceeded by the example demonstration code.'
     Severity: MEDIUM
     CweIDs:
     - CWE-674
@@ -2853,12 +3380,15 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36632
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:00Z'
-    LastModifiedDate: '2023-07-06T16:00:00Z'
+    LastModifiedDate: '2023-11-07T04:16:00Z'
   - VulnerabilityID: CVE-2007-4559
+    VendorIDs:
+    - RHSA-2023:6659
     PkgID: python3@3.9.16-1.el9_2.2.x86_64
     PkgName: python3
     InstalledVersion: 3.9.16-1.el9_2.2
-    Status: affected
+    FixedVersion: 3.9.18-1.el9_3
+    Status: fixed
     Layer:
       Digest: sha256:e16169bcca65672445400ead37d79469d07be9c655000dddaf975d8512625079
       DiffID: sha256:27ed7942fad6945764bc8dec75155a15271fd83f7691ab7a2a2a70794d84e883
@@ -2925,32 +3455,32 @@
     - https://github.com/python/cpython/pull/24297
     - https://linux.oracle.com/cve/CVE-2021-23336.html
     - https://linux.oracle.com/errata/ELSA-2021-4162.html
-    - https://lists.apache.org/thread.html/ra8ce70088ba291f358e077cafdb14d174b7a1ce9a9d86d1b332d6367@%3Cusers.airflow.apache.org%3E
-    - https://lists.apache.org/thread.html/rc005f4de9d9b0ba943ceb8ff5a21a5c6ff8a9df52632476698d99432@%3Cannounce.apache.org%3E
-    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E
+    - https://lists.apache.org/thread.html/ra8ce70088ba291f358e077cafdb14d174b7a1ce9a9d86d1b332d6367%40%3Cusers.airflow.apache.org%3E
+    - https://lists.apache.org/thread.html/rc005f4de9d9b0ba943ceb8ff5a21a5c6ff8a9df52632476698d99432%40%3Cannounce.apache.org%3E
+    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
     - https://lists.debian.org/debian-lts-announce/2021/02/msg00030.html
     - https://lists.debian.org/debian-lts-announce/2021/04/msg00005.html
     - https://lists.debian.org/debian-lts-announce/2021/04/msg00015.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3EPYWWFDV22CJ5AOH5VCE72DOASZZ255/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3YKKDLXL3UEZ3J426C2XTBS63AHE46SM/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/46N6A52EGSXHJYCZWVMBJJIH4NWIV2B5/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FONHJIOZOFD7CD35KZL6SVBUTMBPGZGA/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HCQTCSP6SCVIYNIRUJC5X7YBVUHPLSC4/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HZTM7KLHFCE3LWSEVO2NAFLUHMGYMCRY/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IHQDU7NXA7EWAE4W7VO6MURVJIULEPPR/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KJXCMHLY7H3FIYLE4OKDYUILU2CCRUCZ/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LVNH6Z24IG3E67ZCQGGJ46FZB4XFLQNZ/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MNUN5SOMFL2BBKP6ZAICIIUPQKZDMGYO/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MP572OLHMS7MZO4KUPSCIMSZIA5IZZ62/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/N6VXJZSZ6N64AILJX4CTMACYGQGHHD5C/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NJSCSN722JO2E2AGPWD4NTGVELVRPB4R/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NODWHDIFBQE5RU5PUWUVE47JOT5VCMJ2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OAGSWNGZJ6HQ5ISA67SNMK3CJRKICET7/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RSLQD5CCM75IZGAMBDGUZEATYU5YSGJ7/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SGIY6I4YS3WOXAK4SXKIEOC2G4VZKIR7/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TFTELUMWZE3KV3JB2H5EE6VFRZFRD5MV/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/W2LSKBEFI5SYEY5FM6ICZVZM5WRQUCS4/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3EPYWWFDV22CJ5AOH5VCE72DOASZZ255/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YKKDLXL3UEZ3J426C2XTBS63AHE46SM/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/46N6A52EGSXHJYCZWVMBJJIH4NWIV2B5/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FONHJIOZOFD7CD35KZL6SVBUTMBPGZGA/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HCQTCSP6SCVIYNIRUJC5X7YBVUHPLSC4/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HZTM7KLHFCE3LWSEVO2NAFLUHMGYMCRY/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/IHQDU7NXA7EWAE4W7VO6MURVJIULEPPR/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KJXCMHLY7H3FIYLE4OKDYUILU2CCRUCZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LVNH6Z24IG3E67ZCQGGJ46FZB4XFLQNZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MNUN5SOMFL2BBKP6ZAICIIUPQKZDMGYO/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MP572OLHMS7MZO4KUPSCIMSZIA5IZZ62/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/N6VXJZSZ6N64AILJX4CTMACYGQGHHD5C/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NJSCSN722JO2E2AGPWD4NTGVELVRPB4R/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NODWHDIFBQE5RU5PUWUVE47JOT5VCMJ2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/OAGSWNGZJ6HQ5ISA67SNMK3CJRKICET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RSLQD5CCM75IZGAMBDGUZEATYU5YSGJ7/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SGIY6I4YS3WOXAK4SXKIEOC2G4VZKIR7/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/TFTELUMWZE3KV3JB2H5EE6VFRZFRD5MV/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/W2LSKBEFI5SYEY5FM6ICZVZM5WRQUCS4/
     - https://nvd.nist.gov/vuln/detail/CVE-2021-23336
     - https://security.gentoo.org/glsa/202104-04
     - https://security.netapp.com/advisory/ntap-20210326-0004/
@@ -2964,7 +3494,7 @@
     - https://www.oracle.com/security-alerts/cpujan2022.html
     - https://www.oracle.com/security-alerts/cpuoct2021.html
     PublishedDate: '2021-02-15T13:15:00Z'
-    LastModifiedDate: '2023-09-20T22:15:00Z'
+    LastModifiedDate: '2023-11-07T03:30:00Z'
   - VulnerabilityID: CVE-2022-0391
     PkgID: python3@3.9.16-1.el9_2.2.x86_64
     PkgName: python3
@@ -3003,8 +3533,8 @@
     - https://linux.oracle.com/cve/CVE-2022-0391.html
     - https://linux.oracle.com/errata/ELSA-2023-3550.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CSD2YBXP3ZF44E44QMIIAR5VTO35KTRB/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UDBDBAU6HUPZHISBOARTXZ5GKHF2VH5U/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CSD2YBXP3ZF44E44QMIIAR5VTO35KTRB/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UDBDBAU6HUPZHISBOARTXZ5GKHF2VH5U/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-0391
     - https://security.gentoo.org/glsa/202305-02
     - https://security.netapp.com/advisory/ntap-20220225-0009/
@@ -3013,7 +3543,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-0391
     - https://www.oracle.com/security-alerts/cpuapr2022.html
     PublishedDate: '2022-02-09T23:15:00Z'
-    LastModifiedDate: '2023-09-20T22:15:00Z'
+    LastModifiedDate: '2023-11-07T03:41:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3@3.9.16-1.el9_2.2.x86_64
     PkgName: python3
@@ -3063,7 +3593,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36632
     Title: maximum recursion depth exceeded while calling a Python object
-    Description: '** DISPUTED ** The legacy email.utils.parseaddr function in Python through 3.11.4 allows attackers to trigger "RecursionError: maximum recursion depth exceeded while calling a Python object" via a crafted argument. This argument is plausibly an untrusted value from an application''s input data that was supposed to contain a name and an e-mail address. NOTE: email.utils.parseaddr is categorized as a Legacy API in the documentation of the Python email package. Applications should instead use the email.parser.BytesParser or email.parser.Parser class. NOTE: the vendor''s perspective is that this is neither a vulnerability nor a bug. The email package is intended to have size limits and to throw an exception when limits are exceeded; they were exceeded by the example demonstration code.'
+    Description: 'The legacy email.utils.parseaddr function in Python through 3.11.4 allows attackers to trigger "RecursionError: maximum recursion depth exceeded while calling a Python object" via a crafted argument. This argument is plausibly an untrusted value from an application''s input data that was supposed to contain a name and an e-mail address. NOTE: email.utils.parseaddr is categorized as a Legacy API in the documentation of the Python email package. Applications should instead use the email.parser.BytesParser or email.parser.Parser class. NOTE: the vendor''s perspective is that this is neither a vulnerability nor a bug. The email package is intended to have size limits and to throw an exception when limits are exceeded; they were exceeded by the example demonstration code.'
     Severity: MEDIUM
     CweIDs:
     - CWE-674
@@ -3086,12 +3616,15 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36632
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:00Z'
-    LastModifiedDate: '2023-07-06T16:00:00Z'
+    LastModifiedDate: '2023-11-07T04:16:00Z'
   - VulnerabilityID: CVE-2007-4559
+    VendorIDs:
+    - RHSA-2023:6659
     PkgID: python3-libs@3.9.16-1.el9_2.2.x86_64
     PkgName: python3-libs
     InstalledVersion: 3.9.16-1.el9_2.2
-    Status: affected
+    FixedVersion: 3.9.18-1.el9_3
+    Status: fixed
     Layer:
       Digest: sha256:e16169bcca65672445400ead37d79469d07be9c655000dddaf975d8512625079
       DiffID: sha256:27ed7942fad6945764bc8dec75155a15271fd83f7691ab7a2a2a70794d84e883
@@ -3158,32 +3691,32 @@
     - https://github.com/python/cpython/pull/24297
     - https://linux.oracle.com/cve/CVE-2021-23336.html
     - https://linux.oracle.com/errata/ELSA-2021-4162.html
-    - https://lists.apache.org/thread.html/ra8ce70088ba291f358e077cafdb14d174b7a1ce9a9d86d1b332d6367@%3Cusers.airflow.apache.org%3E
-    - https://lists.apache.org/thread.html/rc005f4de9d9b0ba943ceb8ff5a21a5c6ff8a9df52632476698d99432@%3Cannounce.apache.org%3E
-    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E
+    - https://lists.apache.org/thread.html/ra8ce70088ba291f358e077cafdb14d174b7a1ce9a9d86d1b332d6367%40%3Cusers.airflow.apache.org%3E
+    - https://lists.apache.org/thread.html/rc005f4de9d9b0ba943ceb8ff5a21a5c6ff8a9df52632476698d99432%40%3Cannounce.apache.org%3E
+    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
     - https://lists.debian.org/debian-lts-announce/2021/02/msg00030.html
     - https://lists.debian.org/debian-lts-announce/2021/04/msg00005.html
     - https://lists.debian.org/debian-lts-announce/2021/04/msg00015.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3EPYWWFDV22CJ5AOH5VCE72DOASZZ255/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3YKKDLXL3UEZ3J426C2XTBS63AHE46SM/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/46N6A52EGSXHJYCZWVMBJJIH4NWIV2B5/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FONHJIOZOFD7CD35KZL6SVBUTMBPGZGA/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HCQTCSP6SCVIYNIRUJC5X7YBVUHPLSC4/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HZTM7KLHFCE3LWSEVO2NAFLUHMGYMCRY/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IHQDU7NXA7EWAE4W7VO6MURVJIULEPPR/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KJXCMHLY7H3FIYLE4OKDYUILU2CCRUCZ/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LVNH6Z24IG3E67ZCQGGJ46FZB4XFLQNZ/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MNUN5SOMFL2BBKP6ZAICIIUPQKZDMGYO/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MP572OLHMS7MZO4KUPSCIMSZIA5IZZ62/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/N6VXJZSZ6N64AILJX4CTMACYGQGHHD5C/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NJSCSN722JO2E2AGPWD4NTGVELVRPB4R/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NODWHDIFBQE5RU5PUWUVE47JOT5VCMJ2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OAGSWNGZJ6HQ5ISA67SNMK3CJRKICET7/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RSLQD5CCM75IZGAMBDGUZEATYU5YSGJ7/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SGIY6I4YS3WOXAK4SXKIEOC2G4VZKIR7/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TFTELUMWZE3KV3JB2H5EE6VFRZFRD5MV/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/W2LSKBEFI5SYEY5FM6ICZVZM5WRQUCS4/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3EPYWWFDV22CJ5AOH5VCE72DOASZZ255/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YKKDLXL3UEZ3J426C2XTBS63AHE46SM/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/46N6A52EGSXHJYCZWVMBJJIH4NWIV2B5/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FONHJIOZOFD7CD35KZL6SVBUTMBPGZGA/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HCQTCSP6SCVIYNIRUJC5X7YBVUHPLSC4/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HZTM7KLHFCE3LWSEVO2NAFLUHMGYMCRY/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/IHQDU7NXA7EWAE4W7VO6MURVJIULEPPR/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KJXCMHLY7H3FIYLE4OKDYUILU2CCRUCZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LVNH6Z24IG3E67ZCQGGJ46FZB4XFLQNZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MNUN5SOMFL2BBKP6ZAICIIUPQKZDMGYO/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MP572OLHMS7MZO4KUPSCIMSZIA5IZZ62/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/N6VXJZSZ6N64AILJX4CTMACYGQGHHD5C/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NJSCSN722JO2E2AGPWD4NTGVELVRPB4R/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NODWHDIFBQE5RU5PUWUVE47JOT5VCMJ2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/OAGSWNGZJ6HQ5ISA67SNMK3CJRKICET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RSLQD5CCM75IZGAMBDGUZEATYU5YSGJ7/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SGIY6I4YS3WOXAK4SXKIEOC2G4VZKIR7/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/TFTELUMWZE3KV3JB2H5EE6VFRZFRD5MV/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/W2LSKBEFI5SYEY5FM6ICZVZM5WRQUCS4/
     - https://nvd.nist.gov/vuln/detail/CVE-2021-23336
     - https://security.gentoo.org/glsa/202104-04
     - https://security.netapp.com/advisory/ntap-20210326-0004/
@@ -3197,7 +3730,7 @@
     - https://www.oracle.com/security-alerts/cpujan2022.html
     - https://www.oracle.com/security-alerts/cpuoct2021.html
     PublishedDate: '2021-02-15T13:15:00Z'
-    LastModifiedDate: '2023-09-20T22:15:00Z'
+    LastModifiedDate: '2023-11-07T03:30:00Z'
   - VulnerabilityID: CVE-2022-0391
     PkgID: python3-libs@3.9.16-1.el9_2.2.x86_64
     PkgName: python3-libs
@@ -3236,8 +3769,8 @@
     - https://linux.oracle.com/cve/CVE-2022-0391.html
     - https://linux.oracle.com/errata/ELSA-2023-3550.html
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CSD2YBXP3ZF44E44QMIIAR5VTO35KTRB/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UDBDBAU6HUPZHISBOARTXZ5GKHF2VH5U/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CSD2YBXP3ZF44E44QMIIAR5VTO35KTRB/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UDBDBAU6HUPZHISBOARTXZ5GKHF2VH5U/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-0391
     - https://security.gentoo.org/glsa/202305-02
     - https://security.netapp.com/advisory/ntap-20220225-0009/
@@ -3246,7 +3779,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-0391
     - https://www.oracle.com/security-alerts/cpuapr2022.html
     PublishedDate: '2022-02-09T23:15:00Z'
-    LastModifiedDate: '2023-09-20T22:15:00Z'
+    LastModifiedDate: '2023-11-07T03:41:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3-libs@3.9.16-1.el9_2.2.x86_64
     PkgName: python3-libs
@@ -3296,7 +3829,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36632
     Title: maximum recursion depth exceeded while calling a Python object
-    Description: '** DISPUTED ** The legacy email.utils.parseaddr function in Python through 3.11.4 allows attackers to trigger "RecursionError: maximum recursion depth exceeded while calling a Python object" via a crafted argument. This argument is plausibly an untrusted value from an application''s input data that was supposed to contain a name and an e-mail address. NOTE: email.utils.parseaddr is categorized as a Legacy API in the documentation of the Python email package. Applications should instead use the email.parser.BytesParser or email.parser.Parser class. NOTE: the vendor''s perspective is that this is neither a vulnerability nor a bug. The email package is intended to have size limits and to throw an exception when limits are exceeded; they were exceeded by the example demonstration code.'
+    Description: 'The legacy email.utils.parseaddr function in Python through 3.11.4 allows attackers to trigger "RecursionError: maximum recursion depth exceeded while calling a Python object" via a crafted argument. This argument is plausibly an untrusted value from an application''s input data that was supposed to contain a name and an e-mail address. NOTE: email.utils.parseaddr is categorized as a Legacy API in the documentation of the Python email package. Applications should instead use the email.parser.BytesParser or email.parser.Parser class. NOTE: the vendor''s perspective is that this is neither a vulnerability nor a bug. The email package is intended to have size limits and to throw an exception when limits are exceeded; they were exceeded by the example demonstration code.'
     Severity: MEDIUM
     CweIDs:
     - CWE-674
@@ -3319,12 +3852,15 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36632
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:00Z'
-    LastModifiedDate: '2023-07-06T16:00:00Z'
+    LastModifiedDate: '2023-11-07T04:16:00Z'
   - VulnerabilityID: CVE-2007-4559
+    VendorIDs:
+    - RHSA-2023:6694
     PkgID: python3-pip-wheel@21.2.3-6.el9.noarch
     PkgName: python3-pip-wheel
     InstalledVersion: 21.2.3-6.el9
-    Status: affected
+    FixedVersion: 21.2.3-7.el9
+    Status: fixed
     Layer:
       Digest: sha256:e16169bcca65672445400ead37d79469d07be9c655000dddaf975d8512625079
       DiffID: sha256:27ed7942fad6945764bc8dec75155a15271fd83f7691ab7a2a2a70794d84e883
@@ -3471,7 +4007,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-35937
     - https://www.usenix.org/legacy/event/sec05/tech/full_papers/borisov/borisov.pdf
     PublishedDate: '2022-08-25T20:15:00Z'
-    LastModifiedDate: '2023-06-26T17:48:00Z'
+    LastModifiedDate: '2023-11-07T03:36:00Z'
   - VulnerabilityID: CVE-2021-35938
     PkgID: rpm@4.16.1.3-22.el9.x86_64
     PkgName: rpm
@@ -3570,7 +4106,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-35937
     - https://www.usenix.org/legacy/event/sec05/tech/full_papers/borisov/borisov.pdf
     PublishedDate: '2022-08-25T20:15:00Z'
-    LastModifiedDate: '2023-06-26T17:48:00Z'
+    LastModifiedDate: '2023-11-07T03:36:00Z'
   - VulnerabilityID: CVE-2021-35938
     PkgID: rpm-libs@4.16.1.3-22.el9.x86_64
     PkgName: rpm-libs
