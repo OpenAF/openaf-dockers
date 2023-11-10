@@ -15,8 +15,8 @@
                         │       │                            3f7691ab7a2a2a70794d84e883 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-3468 
-                        │       ├ Title           : Local DoS by event-busy-loop from writing long lines
-                        │       │                   to /run/avahi-daemon/socket 
+                        │       ├ Title           : avahi: Local DoS by event-busy-loop from writing long
+                        │       │                   lines to /run/avahi-daemon/socket 
                         │       ├ Description     : A flaw was found in avahi in versions 0.6 up to 0.8.
                         │       │                   The event used to signal the termination of the client
                         │       │                   connection on the avahi Unix socket is not correctly
@@ -318,7 +318,55 @@
                         │       │                  ╰ [15]: https://www.secfu.net/advisories 
                         │       ├ PublishedDate   : 2017-05-01T01:59:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T02:49:00Z 
-                        ├ [9]   ╭ VulnerabilityID : CVE-2023-32324 
+                        ├ [9]   ╭ VulnerabilityID : CVE-2023-37920 
+                        │       ├ PkgID           : ca-certificates@2023.2.60_v7.0.306-90.1.el9_2.noarch 
+                        │       ├ PkgName         : ca-certificates 
+                        │       ├ InstalledVersion: 2023.2.60_v7.0.306-90.1.el9_2 
+                        │       ├ Status          : affected 
+                        │       ├ Layer            ╭ Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a3234
+                        │       │                  │         1a7352b0435155277e54fc0cd1 
+                        │       │                  ╰ DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127
+                        │       │                            a1ba578362e7ef9ce66406a679 
+                        │       ├ SeveritySource  : redhat 
+                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-37920 
+                        │       ├ Title           : python-certifi: Removal of e-Tugra root certificate 
+                        │       ├ Description     : Certifi is a curated collection of Root Certificates
+                        │       │                   for validating the trustworthiness of SSL certificates
+                        │       │                   while verifying the identity of TLS hosts. Certifi prior to
+                        │       │                    version 2023.07.22 recognizes "e-Tugra" root certificates.
+                        │       │                    e-Tugra's root certificates were subject to an
+                        │       │                   investigation prompted by reporting of security issues in
+                        │       │                   their systems. Certifi 2023.07.22 removes root certificates
+                        │       │                    from "e-Tugra" from the root store. 
+                        │       ├ Severity        : MEDIUM 
+                        │       ├ CweIDs           ─ [0]: CWE-345 
+                        │       ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+                        │       │                  │        │           :N/I:H/A:N 
+                        │       │                  │        ╰ V3Score : 7.5 
+                        │       │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+                        │       │                  │        │           :H/I:H/A:H 
+                        │       │                  │        ╰ V3Score : 9.8 
+                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+                        │       │                           │           :N/I:H/A:N 
+                        │       │                           ╰ V3Score : 7.5 
+                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-37920 
+                        │       │                  ├ [1]: https://github.com/certifi/python-certifi 
+                        │       │                  ├ [2]: https://github.com/certifi/python-certifi/commit
+                        │       │                  │      /8fb96ed81f71e7097ed11bc4d9b19afd7ea5c909 
+                        │       │                  ├ [3]: https://github.com/certifi/python-certifi/securi
+                        │       │                  │      ty/advisories/GHSA-xqr8-7jwr-rhp7 
+                        │       │                  ├ [4]: https://github.com/pypa/advisory-database/tree/m
+                        │       │                  │      ain/vulns/certifi/PYSEC-2023-135.yaml 
+                        │       │                  ├ [5]: https://groups.google.com/a/mozilla.org/g/dev-se
+                        │       │                  │      curity-policy/c/C-HrP1SEq1A 
+                        │       │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pa
+                        │       │                  │      ckage-announce@lists.fedoraproject.org/message/5EX6NG
+                        │       │                  │      7WUFNUKGFHLM35KHHU3GAKXRTG/ 
+                        │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-37920 
+                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-37920 
+                        │       ├ PublishedDate   : 2023-07-25T21:15:00Z 
+                        │       ╰ LastModifiedDate: 2023-08-12T06:16:00Z 
+                        ├ [10]  ╭ VulnerabilityID : CVE-2023-32324 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6596 
                         │       ├ PkgID           : cups-libs@2.3.3op2-16.el9_2.1.x86_64 
                         │       ├ PkgName         : cups-libs 
@@ -365,7 +413,7 @@
                         │       │                         /06/01/1 
                         │       ├ PublishedDate   : 2023-06-01T17:15:00Z 
                         │       ╰ LastModifiedDate: 2023-06-08T14:32:00Z 
-                        ├ [10]  ╭ VulnerabilityID : CVE-2023-34241 
+                        ├ [11]  ╭ VulnerabilityID : CVE-2023-34241 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6596 
                         │       ├ PkgID           : cups-libs@2.3.3op2-16.el9_2.1.x86_64 
                         │       ├ PkgName         : cups-libs 
@@ -440,18 +488,18 @@
                         │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-34241 
                         │       ├ PublishedDate   : 2023-06-22T23:15:00Z 
                         │       ╰ LastModifiedDate: 2023-07-28T21:15:00Z 
-                        ├ [11]  ╭ VulnerabilityID : CVE-2023-4504 
+                        ├ [12]  ╭ VulnerabilityID : CVE-2023-4504 
                         │       ├ PkgID           : cups-libs@2.3.3op2-16.el9_2.1.x86_64 
                         │       ├ PkgName         : cups-libs 
                         │       ├ InstalledVersion: 1:2.3.3op2-16.el9_2.1 
-                        │       ├ Status          : affected 
+                        │       ├ Status          : will_not_fix 
                         │       ├ Layer            ╭ Digest: sha256:e16169bcca65672445400ead37d79469d07be9
                         │       │                  │         c655000dddaf975d8512625079 
                         │       │                  ╰ DiffID: sha256:27ed7942fad6945764bc8dec75155a15271fd8
                         │       │                            3f7691ab7a2a2a70794d84e883 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4504 
-                        │       ├ Title           : Postscript Parsing Heap Overflow 
+                        │       ├ Title           : cups, libppd: Postscript Parsing Heap Overflow 
                         │       ├ Description     : Due to failure in validating the length provided by an
                         │       │                    attacker-crafted PPD PostScript document, CUPS and libppd
                         │       │                   are susceptible to a heap-based buffer overflow and
@@ -463,9 +511,9 @@
                         │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
                         │       │                  │        │           :H/I:H/A:H 
                         │       │                  │        ╰ V3Score : 7.8 
-                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C
-                        │       │                           │           :L/I:L/A:L 
-                        │       │                           ╰ V3Score : 4.2 
+                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C
+                        │       │                           │           :H/I:H/A:H 
+                        │       │                           ╰ V3Score : 7 
                         │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-4504 
                         │       │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
                         │       │                  │       CVE-2023-4504 
@@ -500,7 +548,7 @@
                         │       │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-4504 
                         │       ├ PublishedDate   : 2023-09-21T23:15:00Z 
                         │       ╰ LastModifiedDate: 2023-10-16T19:32:00Z 
-                        ├ [12]  ╭ VulnerabilityID : CVE-2021-25317 
+                        ├ [13]  ╭ VulnerabilityID : CVE-2021-25317 
                         │       ├ PkgID           : cups-libs@2.3.3op2-16.el9_2.1.x86_64 
                         │       ├ PkgName         : cups-libs 
                         │       ├ InstalledVersion: 1:2.3.3op2-16.el9_2.1 
@@ -550,7 +598,7 @@
                         │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2021-25317 
                         │       ├ PublishedDate   : 2021-05-05T10:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:31:00Z 
-                        ├ [13]  ╭ VulnerabilityID : CVE-2023-38545 
+                        ├ [14]  ╭ VulnerabilityID : CVE-2023-38545 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6745 
                         │       ├ PkgID           : curl-minimal@7.76.1-23.el9_2.4.x86_64 
                         │       ├ PkgName         : curl-minimal 
@@ -563,7 +611,8 @@
                         │       │                            a1ba578362e7ef9ce66406a679 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38545 
-                        │       ├ Title           : heap based buffer overflow in the SOCKS5 proxy handshake 
+                        │       ├ Title           : curl: heap based buffer overflow in the SOCKS5 proxy
+                        │       │                   handshake 
                         │       ├ Description     : This flaw makes curl overflow a heap based buffer in
                         │       │                   the SOCKS5 proxy
                         │       │                   handshake.
@@ -620,7 +669,7 @@
                         │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2023-38545 
                         │       ├ PublishedDate   : 2023-10-18T04:15:00Z 
                         │       ╰ LastModifiedDate: 2023-10-28T03:15:00Z 
-                        ├ [14]  ╭ VulnerabilityID : CVE-2023-27536 
+                        ├ [15]  ╭ VulnerabilityID : CVE-2023-27536 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6679 
                         │       ├ PkgID           : curl-minimal@7.76.1-23.el9_2.4.x86_64 
                         │       ├ PkgName         : curl-minimal 
@@ -686,7 +735,7 @@
                         │       │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-27536 
                         │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T04:09:00Z 
-                        ├ [15]  ╭ VulnerabilityID : CVE-2023-27533 
+                        ├ [16]  ╭ VulnerabilityID : CVE-2023-27533 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6679 
                         │       ├ PkgID           : curl-minimal@7.76.1-23.el9_2.4.x86_64 
                         │       ├ PkgName         : curl-minimal 
@@ -737,7 +786,7 @@
                         │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-27533 
                         │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T04:09:00Z 
-                        ├ [16]  ╭ VulnerabilityID : CVE-2023-27534 
+                        ├ [17]  ╭ VulnerabilityID : CVE-2023-27534 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6679 
                         │       ├ PkgID           : curl-minimal@7.76.1-23.el9_2.4.x86_64 
                         │       ├ PkgName         : curl-minimal 
@@ -784,7 +833,7 @@
                         │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27534 
                         │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T04:09:00Z 
-                        ├ [17]  ╭ VulnerabilityID : CVE-2023-27538 
+                        ├ [18]  ╭ VulnerabilityID : CVE-2023-27538 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6679 
                         │       ├ PkgID           : curl-minimal@7.76.1-23.el9_2.4.x86_64 
                         │       ├ PkgName         : curl-minimal 
@@ -835,7 +884,7 @@
                         │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-27538 
                         │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-10-20T18:43:00Z 
-                        ├ [18]  ╭ VulnerabilityID : CVE-2023-38546 
+                        ├ [19]  ╭ VulnerabilityID : CVE-2023-38546 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6745 
                         │       ├ PkgID           : curl-minimal@7.76.1-23.el9_2.4.x86_64 
                         │       ├ PkgName         : curl-minimal 
@@ -910,7 +959,7 @@
                         │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2023-38546 
                         │       ├ PublishedDate   : 2023-10-18T04:15:00Z 
                         │       ╰ LastModifiedDate: 2023-10-28T03:15:00Z 
-                        ├ [19]  ╭ VulnerabilityID : CVE-2022-48554 
+                        ├ [20]  ╭ VulnerabilityID : CVE-2022-48554 
                         │       ├ PkgID           : file-libs@5.39-12.1.el9_2.x86_64 
                         │       ├ PkgName         : file-libs 
                         │       ├ InstalledVersion: 5.39-12.1.el9_2 
@@ -943,7 +992,7 @@
                         │       │                  ╰ [6]: https://www.debian.org/security/2023/dsa-5489 
                         │       ├ PublishedDate   : 2023-08-22T19:16:00Z 
                         │       ╰ LastModifiedDate: 2023-09-05T05:15:00Z 
-                        ├ [20]  ╭ VulnerabilityID : CVE-2023-4156 
+                        ├ [21]  ╭ VulnerabilityID : CVE-2023-4156 
                         │       ├ PkgID           : gawk@5.1.0-6.el9.x86_64 
                         │       ├ PkgName         : gawk 
                         │       ├ InstalledVersion: 5.1.0-6.el9 
@@ -982,7 +1031,7 @@
                         │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-4156 
                         │       ├ PublishedDate   : 2023-09-25T18:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T04:22:00Z 
-                        ├ [21]  ╭ VulnerabilityID : CVE-2023-29499 
+                        ├ [22]  ╭ VulnerabilityID : CVE-2023-29499 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6631 
                         │       ├ PkgID           : glib2@2.68.4-6.el9.x86_64 
                         │       ├ PkgName         : glib2 
@@ -995,8 +1044,8 @@
                         │       │                            a1ba578362e7ef9ce66406a679 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29499 
-                        │       ├ Title           : GVariant offset table entry size is not checked in
-                        │       │                   is_normal() 
+                        │       ├ Title           : glib: GVariant offset table entry size is not checked
+                        │       │                   in is_normal() 
                         │       ├ Description     : A flaw was found in GLib. GVariant deserialization
                         │       │                   fails to validate that the input conforms to the expected
                         │       │                   format, leading to denial of service. 
@@ -1005,9 +1054,9 @@
                         │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
                         │       │                  │        │           :N/I:N/A:H 
                         │       │                  │        ╰ V3Score : 7.5 
-                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:H 
-                        │       │                           ╰ V3Score : 5.5 
+                        │       │                           ╰ V3Score : 7.5 
                         │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-29499 
                         │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2211828 
                         │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
@@ -1023,7 +1072,7 @@
                         │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-29499 
                         │       ├ PublishedDate   : 2023-09-14T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T04:11:00Z 
-                        ├ [22]  ╭ VulnerabilityID : CVE-2023-32611 
+                        ├ [23]  ╭ VulnerabilityID : CVE-2023-32611 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6631 
                         │       ├ PkgID           : glib2@2.68.4-6.el9.x86_64 
                         │       ├ PkgName         : glib2 
@@ -1065,7 +1114,7 @@
                         │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-32611 
                         │       ├ PublishedDate   : 2023-09-14T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T04:14:00Z 
-                        ├ [23]  ╭ VulnerabilityID : CVE-2023-32636 
+                        ├ [24]  ╭ VulnerabilityID : CVE-2023-32636 
                         │       ├ PkgID           : glib2@2.68.4-6.el9.x86_64 
                         │       ├ PkgName         : glib2 
                         │       ├ InstalledVersion: 2.68.4-6.el9 
@@ -1106,7 +1155,7 @@
                         │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-32636 
                         │       ├ PublishedDate   : 2023-09-14T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-09-19T18:59:00Z 
-                        ├ [24]  ╭ VulnerabilityID : CVE-2023-32665 
+                        ├ [25]  ╭ VulnerabilityID : CVE-2023-32665 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6631 
                         │       ├ PkgID           : glib2@2.68.4-6.el9.x86_64 
                         │       ├ PkgName         : glib2 
@@ -1146,7 +1195,7 @@
                         │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-32665 
                         │       ├ PublishedDate   : 2023-09-14T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T04:14:00Z 
-                        ├ [25]  ╭ VulnerabilityID : CVE-2021-43618 
+                        ├ [26]  ╭ VulnerabilityID : CVE-2021-43618 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6661 
                         │       ├ PkgID           : gmp@6.2.0-10.el9.x86_64 
                         │       ├ PkgName         : gmp 
@@ -1197,7 +1246,7 @@
                         │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2021-43618 
                         │       ├ PublishedDate   : 2021-11-15T04:15:00Z 
                         │       ╰ LastModifiedDate: 2023-09-29T15:15:00Z 
-                        ├ [26]  ╭ VulnerabilityID : CVE-2022-3219 
+                        ├ [27]  ╭ VulnerabilityID : CVE-2022-3219 
                         │       ├ PkgID           : gnupg2@2.3.3-2.el9_0.x86_64 
                         │       ├ PkgName         : gnupg2 
                         │       ├ InstalledVersion: 2.3.3-2.el9_0 
@@ -1236,7 +1285,7 @@
                         │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
                         │       ├ PublishedDate   : 2023-02-23T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
-                        ├ [27]  ╭ VulnerabilityID : CVE-2023-25193 
+                        ├ [28]  ╭ VulnerabilityID : CVE-2023-25193 
                         │       ├ PkgID           : harfbuzz@2.7.4-8.el9.x86_64 
                         │       ├ PkgName         : harfbuzz 
                         │       ├ InstalledVersion: 2.7.4-8.el9 
@@ -1304,7 +1353,7 @@
                         │       │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2023-25193 
                         │       ├ PublishedDate   : 2023-02-04T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T04:08:00Z 
-                        ├ [28]  ╭ VulnerabilityID : CVE-2022-3857 
+                        ├ [29]  ╭ VulnerabilityID : CVE-2022-3857 
                         │       ├ PkgID           : java-1.8.0-openjdk-headless@1.8.0.392.b08-3.el9.x86_64 
                         │       ├ PkgName         : java-1.8.0-openjdk-headless 
                         │       ├ InstalledVersion: 1:1.8.0.392.b08-3.el9 
@@ -1337,7 +1386,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-3857 
                         │       ├ PublishedDate   : 2023-03-06T23:15:00Z 
                         │       ╰ LastModifiedDate: 2023-04-06T13:15:00Z 
-                        ├ [29]  ╭ VulnerabilityID : CVE-2023-36054 
+                        ├ [30]  ╭ VulnerabilityID : CVE-2023-36054 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6699 
                         │       ├ PkgID           : krb5-libs@1.20.1-9.el9_2.x86_64 
                         │       ├ PkgName         : krb5-libs 
@@ -1387,7 +1436,7 @@
                         │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
                         │       ├ PublishedDate   : 2023-08-07T19:15:00Z 
                         │       ╰ LastModifiedDate: 2023-10-22T23:15:00Z 
-                        ├ [30]  ╭ VulnerabilityID : CVE-2023-39975 
+                        ├ [31]  ╭ VulnerabilityID : CVE-2023-39975 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6699 
                         │       ├ PkgID           : krb5-libs@1.20.1-9.el9_2.x86_64 
                         │       ├ PkgName         : krb5-libs 
@@ -1426,7 +1475,7 @@
                         │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-39975 
                         │       ├ PublishedDate   : 2023-08-16T15:15:00Z 
                         │       ╰ LastModifiedDate: 2023-09-15T14:15:00Z 
-                        ├ [31]  ╭ VulnerabilityID : CVE-2023-30571 
+                        ├ [32]  ╭ VulnerabilityID : CVE-2023-30571 
                         │       ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
                         │       ├ PkgName         : libarchive 
                         │       ├ InstalledVersion: 3.5.3-4.el9 
@@ -1437,7 +1486,7 @@
                         │       │                            a1ba578362e7ef9ce66406a679 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-30571 
-                        │       ├ Title           : Race condition in multi-threaded use of
+                        │       ├ Title           : libarchive: Race condition in multi-threaded use of
                         │       │                   archive_write_disk_header() on posix based systems 
                         │       ├ Description     : Libarchive through 3.6.2 can cause directories to have
                         │       │                    world-writable permissions. The umask() call inside
@@ -1465,7 +1514,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-30571 
                         │       ├ PublishedDate   : 2023-05-29T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-06-05T16:40:00Z 
-                        ├ [32]  ╭ VulnerabilityID : CVE-2023-38545 
+                        ├ [33]  ╭ VulnerabilityID : CVE-2023-38545 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6745 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.4.x86_64 
                         │       ├ PkgName         : libcurl-minimal 
@@ -1478,7 +1527,8 @@
                         │       │                            a1ba578362e7ef9ce66406a679 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38545 
-                        │       ├ Title           : heap based buffer overflow in the SOCKS5 proxy handshake 
+                        │       ├ Title           : curl: heap based buffer overflow in the SOCKS5 proxy
+                        │       │                   handshake 
                         │       ├ Description     : This flaw makes curl overflow a heap based buffer in
                         │       │                   the SOCKS5 proxy
                         │       │                   handshake.
@@ -1535,7 +1585,7 @@
                         │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2023-38545 
                         │       ├ PublishedDate   : 2023-10-18T04:15:00Z 
                         │       ╰ LastModifiedDate: 2023-10-28T03:15:00Z 
-                        ├ [33]  ╭ VulnerabilityID : CVE-2023-27536 
+                        ├ [34]  ╭ VulnerabilityID : CVE-2023-27536 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6679 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.4.x86_64 
                         │       ├ PkgName         : libcurl-minimal 
@@ -1601,7 +1651,7 @@
                         │       │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-27536 
                         │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T04:09:00Z 
-                        ├ [34]  ╭ VulnerabilityID : CVE-2023-27533 
+                        ├ [35]  ╭ VulnerabilityID : CVE-2023-27533 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6679 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.4.x86_64 
                         │       ├ PkgName         : libcurl-minimal 
@@ -1652,7 +1702,7 @@
                         │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-27533 
                         │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T04:09:00Z 
-                        ├ [35]  ╭ VulnerabilityID : CVE-2023-27534 
+                        ├ [36]  ╭ VulnerabilityID : CVE-2023-27534 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6679 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.4.x86_64 
                         │       ├ PkgName         : libcurl-minimal 
@@ -1699,7 +1749,7 @@
                         │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27534 
                         │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T04:09:00Z 
-                        ├ [36]  ╭ VulnerabilityID : CVE-2023-27538 
+                        ├ [37]  ╭ VulnerabilityID : CVE-2023-27538 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6679 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.4.x86_64 
                         │       ├ PkgName         : libcurl-minimal 
@@ -1750,7 +1800,7 @@
                         │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-27538 
                         │       ├ PublishedDate   : 2023-03-30T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-10-20T18:43:00Z 
-                        ├ [37]  ╭ VulnerabilityID : CVE-2023-38546 
+                        ├ [38]  ╭ VulnerabilityID : CVE-2023-38546 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6745 
                         │       ├ PkgID           : libcurl-minimal@7.76.1-23.el9_2.4.x86_64 
                         │       ├ PkgName         : libcurl-minimal 
@@ -1825,7 +1875,7 @@
                         │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2023-38546 
                         │       ├ PublishedDate   : 2023-10-18T04:15:00Z 
                         │       ╰ LastModifiedDate: 2023-10-28T03:15:00Z 
-                        ├ [38]  ╭ VulnerabilityID : CVE-2023-4039 
+                        ├ [39]  ╭ VulnerabilityID : CVE-2023-4039 
                         │       ├ PkgID           : libgcc@11.3.1-4.3.el9.x86_64 
                         │       ├ PkgName         : libgcc 
                         │       ├ InstalledVersion: 11.3.1-4.3.el9 
@@ -1836,7 +1886,7 @@
                         │       │                            a1ba578362e7ef9ce66406a679 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4039 
-                        │       ├ Title           : -fstack-protector fails to guard dynamic stack
+                        │       ├ Title           : gcc: -fstack-protector fails to guard dynamic stack
                         │       │                   allocations on ARM64 
                         │       ├ Description     : 
                         │       │                   
@@ -1889,7 +1939,7 @@
                         │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4039 
                         │       ├ PublishedDate   : 2023-09-13T09:15:00Z 
                         │       ╰ LastModifiedDate: 2023-09-14T20:01:00Z 
-                        ├ [39]  ╭ VulnerabilityID : CVE-2022-27943 
+                        ├ [40]  ╭ VulnerabilityID : CVE-2022-27943 
                         │       ├ PkgID           : libgcc@11.3.1-4.3.el9.x86_64 
                         │       ├ PkgName         : libgcc 
                         │       ├ InstalledVersion: 11.3.1-4.3.el9 
@@ -1931,7 +1981,7 @@
                         │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
                         │       ├ PublishedDate   : 2022-03-26T13:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:45:00Z 
-                        ├ [40]  ╭ VulnerabilityID : CVE-2023-44487 
+                        ├ [41]  ╭ VulnerabilityID : CVE-2023-44487 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6746 
                         │       ├ PkgID           : libnghttp2@1.43.0-5.el9_2.1.x86_64 
                         │       ├ PkgName         : libnghttp2 
@@ -2317,7 +2367,7 @@
                         │       │                           apid_reset_zeroday/ 
                         │       ├ PublishedDate   : 2023-10-10T14:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T05:15:00Z 
-                        ├ [41]  ╭ VulnerabilityID : CVE-2022-3857 
+                        ├ [42]  ╭ VulnerabilityID : CVE-2022-3857 
                         │       ├ PkgID           : libpng@1.6.37-12.el9.x86_64 
                         │       ├ PkgName         : libpng 
                         │       ├ InstalledVersion: 2:1.6.37-12.el9 
@@ -2350,7 +2400,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-3857 
                         │       ├ PublishedDate   : 2023-03-06T23:15:00Z 
                         │       ╰ LastModifiedDate: 2023-04-06T13:15:00Z 
-                        ├ [42]  ╭ VulnerabilityID : CVE-2023-4039 
+                        ├ [43]  ╭ VulnerabilityID : CVE-2023-4039 
                         │       ├ PkgID           : libstdc++@11.3.1-4.3.el9.x86_64 
                         │       ├ PkgName         : libstdc++ 
                         │       ├ InstalledVersion: 11.3.1-4.3.el9 
@@ -2361,7 +2411,7 @@
                         │       │                            a1ba578362e7ef9ce66406a679 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4039 
-                        │       ├ Title           : -fstack-protector fails to guard dynamic stack
+                        │       ├ Title           : gcc: -fstack-protector fails to guard dynamic stack
                         │       │                   allocations on ARM64 
                         │       ├ Description     : 
                         │       │                   
@@ -2414,7 +2464,7 @@
                         │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4039 
                         │       ├ PublishedDate   : 2023-09-13T09:15:00Z 
                         │       ╰ LastModifiedDate: 2023-09-14T20:01:00Z 
-                        ├ [43]  ╭ VulnerabilityID : CVE-2022-27943 
+                        ├ [44]  ╭ VulnerabilityID : CVE-2022-27943 
                         │       ├ PkgID           : libstdc++@11.3.1-4.3.el9.x86_64 
                         │       ├ PkgName         : libstdc++ 
                         │       ├ InstalledVersion: 11.3.1-4.3.el9 
@@ -2456,7 +2506,7 @@
                         │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
                         │       ├ PublishedDate   : 2022-03-26T13:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:45:00Z 
-                        ├ [44]  ╭ VulnerabilityID : CVE-2023-39615 
+                        ├ [45]  ╭ VulnerabilityID : CVE-2023-39615 
                         │       ├ PkgID           : libxml2@2.9.13-3.el9_2.1.x86_64 
                         │       ├ PkgName         : libxml2 
                         │       ├ InstalledVersion: 2.9.13-3.el9_2.1 
@@ -2490,7 +2540,7 @@
                         │       │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-39615 
                         │       ├ PublishedDate   : 2023-08-29T17:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T04:17:00Z 
-                        ├ [45]  ╭ VulnerabilityID : CVE-2023-45322 
+                        ├ [46]  ╭ VulnerabilityID : CVE-2023-45322 
                         │       ├ PkgID           : libxml2@2.9.13-3.el9_2.1.x86_64 
                         │       ├ PkgName         : libxml2 
                         │       ├ InstalledVersion: 2.9.13-3.el9_2.1 
@@ -2501,7 +2551,7 @@
                         │       │                            a1ba578362e7ef9ce66406a679 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45322 
-                        │       ├ Title           : use-after-free in xmlUnlinkNode() in tree.c 
+                        │       ├ Title           : libxml2: use-after-free in xmlUnlinkNode() in tree.c 
                         │       ├ Description     : libxml2 through 2.11.5 has a use-after-free that can
                         │       │                   only occur after a certain memory allocation fails. This
                         │       │                   occurs in xmlUnlinkNode in tree.c. NOTE: the vendor's
@@ -2525,7 +2575,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-45322 
                         │       ├ PublishedDate   : 2023-10-06T22:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T04:21:00Z 
-                        ├ [46]  ╭ VulnerabilityID : CVE-2022-4899 
+                        ├ [47]  ╭ VulnerabilityID : CVE-2022-4899 
                         │       ├ PkgID           : libzstd@1.5.1-2.el9.x86_64 
                         │       ├ PkgName         : libzstd 
                         │       ├ InstalledVersion: 1.5.1-2.el9 
@@ -2586,7 +2636,7 @@
                         │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
                         │       ├ PublishedDate   : 2023-03-31T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:59:00Z 
-                        ├ [47]  ╭ VulnerabilityID : CVE-2023-29491 
+                        ├ [48]  ╭ VulnerabilityID : CVE-2023-29491 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6698 
                         │       ├ PkgID           : ncurses-base@6.2-8.20210508.el9.noarch 
                         │       ├ PkgName         : ncurses-base 
@@ -2650,7 +2700,7 @@
                         │       │                          3/04/13/4 
                         │       ├ PublishedDate   : 2023-04-14T01:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T04:11:00Z 
-                        ├ [48]  ╭ VulnerabilityID : CVE-2022-29458 
+                        ├ [49]  ╭ VulnerabilityID : CVE-2022-29458 
                         │       ├ PkgID           : ncurses-base@6.2-8.20210508.el9.noarch 
                         │       ├ PkgName         : ncurses-base 
                         │       ├ InstalledVersion: 6.2-8.20210508.el9 
@@ -2696,7 +2746,7 @@
                         │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-29458 
                         │       ├ PublishedDate   : 2022-04-18T21:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:46:00Z 
-                        ├ [49]  ╭ VulnerabilityID : CVE-2023-29491 
+                        ├ [50]  ╭ VulnerabilityID : CVE-2023-29491 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6698 
                         │       ├ PkgID           : ncurses-libs@6.2-8.20210508.el9.x86_64 
                         │       ├ PkgName         : ncurses-libs 
@@ -2760,7 +2810,7 @@
                         │       │                          3/04/13/4 
                         │       ├ PublishedDate   : 2023-04-14T01:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T04:11:00Z 
-                        ├ [50]  ╭ VulnerabilityID : CVE-2022-29458 
+                        ├ [51]  ╭ VulnerabilityID : CVE-2022-29458 
                         │       ├ PkgID           : ncurses-libs@6.2-8.20210508.el9.x86_64 
                         │       ├ PkgName         : ncurses-libs 
                         │       ├ InstalledVersion: 6.2-8.20210508.el9 
@@ -2806,7 +2856,7 @@
                         │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-29458 
                         │       ├ PublishedDate   : 2022-04-18T21:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:46:00Z 
-                        ├ [51]  ╭ VulnerabilityID : CVE-2023-5388 
+                        ├ [52]  ╭ VulnerabilityID : CVE-2023-5388 
                         │       ├ PkgID           : nspr@4.35.0-3.el9_2.x86_64 
                         │       ├ PkgName         : nspr 
                         │       ├ InstalledVersion: 4.35.0-3.el9_2 
@@ -2836,7 +2886,7 @@
                         │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
                         │                          ├ [3]: https://people.redhat.com/~hkario/marvin/ 
                         │                          ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
-                        ├ [52]  ╭ VulnerabilityID : CVE-2020-12413 
+                        ├ [53]  ╭ VulnerabilityID : CVE-2020-12413 
                         │       ├ PkgID           : nspr@4.35.0-3.el9_2.x86_64 
                         │       ├ PkgName         : nspr 
                         │       ├ InstalledVersion: 4.35.0-3.el9_2 
@@ -2870,7 +2920,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │       ├ PublishedDate   : 2023-02-16T22:15:00Z 
                         │       ╰ LastModifiedDate: 2023-02-28T19:49:00Z 
-                        ├ [53]  ╭ VulnerabilityID : CVE-2023-5388 
+                        ├ [54]  ╭ VulnerabilityID : CVE-2023-5388 
                         │       ├ PkgID           : nss@3.90.0-3.el9_2.x86_64 
                         │       ├ PkgName         : nss 
                         │       ├ InstalledVersion: 3.90.0-3.el9_2 
@@ -2900,7 +2950,7 @@
                         │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
                         │                          ├ [3]: https://people.redhat.com/~hkario/marvin/ 
                         │                          ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
-                        ├ [54]  ╭ VulnerabilityID : CVE-2020-12413 
+                        ├ [55]  ╭ VulnerabilityID : CVE-2020-12413 
                         │       ├ PkgID           : nss@3.90.0-3.el9_2.x86_64 
                         │       ├ PkgName         : nss 
                         │       ├ InstalledVersion: 3.90.0-3.el9_2 
@@ -2934,7 +2984,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │       ├ PublishedDate   : 2023-02-16T22:15:00Z 
                         │       ╰ LastModifiedDate: 2023-02-28T19:49:00Z 
-                        ├ [55]  ╭ VulnerabilityID : CVE-2023-5388 
+                        ├ [56]  ╭ VulnerabilityID : CVE-2023-5388 
                         │       ├ PkgID           : nss-softokn@3.90.0-3.el9_2.x86_64 
                         │       ├ PkgName         : nss-softokn 
                         │       ├ InstalledVersion: 3.90.0-3.el9_2 
@@ -2964,7 +3014,7 @@
                         │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
                         │                          ├ [3]: https://people.redhat.com/~hkario/marvin/ 
                         │                          ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
-                        ├ [56]  ╭ VulnerabilityID : CVE-2020-12413 
+                        ├ [57]  ╭ VulnerabilityID : CVE-2020-12413 
                         │       ├ PkgID           : nss-softokn@3.90.0-3.el9_2.x86_64 
                         │       ├ PkgName         : nss-softokn 
                         │       ├ InstalledVersion: 3.90.0-3.el9_2 
@@ -2998,7 +3048,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │       ├ PublishedDate   : 2023-02-16T22:15:00Z 
                         │       ╰ LastModifiedDate: 2023-02-28T19:49:00Z 
-                        ├ [57]  ╭ VulnerabilityID : CVE-2023-5388 
+                        ├ [58]  ╭ VulnerabilityID : CVE-2023-5388 
                         │       ├ PkgID           : nss-softokn-freebl@3.90.0-3.el9_2.x86_64 
                         │       ├ PkgName         : nss-softokn-freebl 
                         │       ├ InstalledVersion: 3.90.0-3.el9_2 
@@ -3028,7 +3078,7 @@
                         │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
                         │                          ├ [3]: https://people.redhat.com/~hkario/marvin/ 
                         │                          ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
-                        ├ [58]  ╭ VulnerabilityID : CVE-2020-12413 
+                        ├ [59]  ╭ VulnerabilityID : CVE-2020-12413 
                         │       ├ PkgID           : nss-softokn-freebl@3.90.0-3.el9_2.x86_64 
                         │       ├ PkgName         : nss-softokn-freebl 
                         │       ├ InstalledVersion: 3.90.0-3.el9_2 
@@ -3062,7 +3112,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │       ├ PublishedDate   : 2023-02-16T22:15:00Z 
                         │       ╰ LastModifiedDate: 2023-02-28T19:49:00Z 
-                        ├ [59]  ╭ VulnerabilityID : CVE-2023-5388 
+                        ├ [60]  ╭ VulnerabilityID : CVE-2023-5388 
                         │       ├ PkgID           : nss-sysinit@3.90.0-3.el9_2.x86_64 
                         │       ├ PkgName         : nss-sysinit 
                         │       ├ InstalledVersion: 3.90.0-3.el9_2 
@@ -3092,7 +3142,7 @@
                         │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
                         │                          ├ [3]: https://people.redhat.com/~hkario/marvin/ 
                         │                          ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
-                        ├ [60]  ╭ VulnerabilityID : CVE-2020-12413 
+                        ├ [61]  ╭ VulnerabilityID : CVE-2020-12413 
                         │       ├ PkgID           : nss-sysinit@3.90.0-3.el9_2.x86_64 
                         │       ├ PkgName         : nss-sysinit 
                         │       ├ InstalledVersion: 3.90.0-3.el9_2 
@@ -3126,7 +3176,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │       ├ PublishedDate   : 2023-02-16T22:15:00Z 
                         │       ╰ LastModifiedDate: 2023-02-28T19:49:00Z 
-                        ├ [61]  ╭ VulnerabilityID : CVE-2023-5388 
+                        ├ [62]  ╭ VulnerabilityID : CVE-2023-5388 
                         │       ├ PkgID           : nss-util@3.90.0-3.el9_2.x86_64 
                         │       ├ PkgName         : nss-util 
                         │       ├ InstalledVersion: 3.90.0-3.el9_2 
@@ -3156,7 +3206,7 @@
                         │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-5388 
                         │                          ├ [3]: https://people.redhat.com/~hkario/marvin/ 
                         │                          ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-5388 
-                        ├ [62]  ╭ VulnerabilityID : CVE-2020-12413 
+                        ├ [63]  ╭ VulnerabilityID : CVE-2020-12413 
                         │       ├ PkgID           : nss-util@3.90.0-3.el9_2.x86_64 
                         │       ├ PkgName         : nss-util 
                         │       ├ InstalledVersion: 3.90.0-3.el9_2 
@@ -3190,7 +3240,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │       ├ PublishedDate   : 2023-02-16T22:15:00Z 
                         │       ╰ LastModifiedDate: 2023-02-28T19:49:00Z 
-                        ├ [63]  ╭ VulnerabilityID : CVE-2023-2953 
+                        ├ [64]  ╭ VulnerabilityID : CVE-2023-2953 
                         │       ├ PkgID           : openldap@2.6.2-3.el9.x86_64 
                         │       ├ PkgName         : openldap 
                         │       ├ InstalledVersion: 2.6.2-3.el9 
@@ -3233,7 +3283,7 @@
                         │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
                         │       ├ PublishedDate   : 2023-05-30T22:15:00Z 
                         │       ╰ LastModifiedDate: 2023-08-02T16:46:00Z 
-                        ├ [64]  ╭ VulnerabilityID : CVE-2023-2953 
+                        ├ [65]  ╭ VulnerabilityID : CVE-2023-2953 
                         │       ├ PkgID           : openldap-compat@2.6.2-3.el9.x86_64 
                         │       ├ PkgName         : openldap-compat 
                         │       ├ InstalledVersion: 2.6.2-3.el9 
@@ -3276,7 +3326,7 @@
                         │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
                         │       ├ PublishedDate   : 2023-05-30T22:15:00Z 
                         │       ╰ LastModifiedDate: 2023-08-02T16:46:00Z 
-                        ├ [65]  ╭ VulnerabilityID : CVE-2023-5363 
+                        ├ [66]  ╭ VulnerabilityID : CVE-2023-5363 
                         │       ├ PkgID           : openssl@3.0.7-17.el9_2.x86_64 
                         │       ├ PkgName         : openssl 
                         │       ├ InstalledVersion: 1:3.0.7-17.el9_2 
@@ -3380,7 +3430,7 @@
                         │       │                  ╰ [10]: https://www.openssl.org/news/secadv/20231024.txt 
                         │       ├ PublishedDate   : 2023-10-25T18:17:00Z 
                         │       ╰ LastModifiedDate: 2023-10-27T15:15:00Z 
-                        ├ [66]  ╭ VulnerabilityID : CVE-2023-2975 
+                        ├ [67]  ╭ VulnerabilityID : CVE-2023-2975 
                         │       ├ PkgID           : openssl@3.0.7-17.el9_2.x86_64 
                         │       ├ PkgName         : openssl 
                         │       ├ InstalledVersion: 1:3.0.7-17.el9_2 
@@ -3457,7 +3507,7 @@
                         │       │                  ╰ [10]: https://www.openssl.org/news/secadv/20230714.txt 
                         │       ├ PublishedDate   : 2023-07-14T12:15:00Z 
                         │       ╰ LastModifiedDate: 2023-07-27T13:02:00Z 
-                        ├ [67]  ╭ VulnerabilityID : CVE-2023-3446 
+                        ├ [68]  ╭ VulnerabilityID : CVE-2023-3446 
                         │       ├ PkgID           : openssl@3.0.7-17.el9_2.x86_64 
                         │       ├ PkgName         : openssl 
                         │       ├ InstalledVersion: 1:3.0.7-17.el9_2 
@@ -3559,7 +3609,7 @@
                         │       │                  ╰ [17]: https://www.openssl.org/news/secadv/20230719.txt 
                         │       ├ PublishedDate   : 2023-07-19T12:15:00Z 
                         │       ╰ LastModifiedDate: 2023-10-03T15:48:00Z 
-                        ├ [68]  ╭ VulnerabilityID : CVE-2023-3817 
+                        ├ [69]  ╭ VulnerabilityID : CVE-2023-3817 
                         │       ├ PkgID           : openssl@3.0.7-17.el9_2.x86_64 
                         │       ├ PkgName         : openssl 
                         │       ├ InstalledVersion: 1:3.0.7-17.el9_2 
@@ -3660,7 +3710,7 @@
                         │       │                  ╰ [19]: https://www.openssl.org/news/secadv/20230731.txt 
                         │       ├ PublishedDate   : 2023-07-31T16:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-06T19:15:00Z 
-                        ├ [69]  ╭ VulnerabilityID : CVE-2023-5678 
+                        ├ [70]  ╭ VulnerabilityID : CVE-2023-5678 
                         │       ├ PkgID           : openssl@3.0.7-17.el9_2.x86_64 
                         │       ├ PkgName         : openssl 
                         │       ├ InstalledVersion: 1:3.0.7-17.el9_2 
@@ -3752,7 +3802,7 @@
                         │       │                  ╰ [8]: https://www.openssl.org/news/secadv/20231106.txt 
                         │       ├ PublishedDate   : 2023-11-06T16:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T14:15:00Z 
-                        ├ [70]  ╭ VulnerabilityID : CVE-2023-5363 
+                        ├ [71]  ╭ VulnerabilityID : CVE-2023-5363 
                         │       ├ PkgID           : openssl-libs@3.0.7-17.el9_2.x86_64 
                         │       ├ PkgName         : openssl-libs 
                         │       ├ InstalledVersion: 1:3.0.7-17.el9_2 
@@ -3856,7 +3906,7 @@
                         │       │                  ╰ [10]: https://www.openssl.org/news/secadv/20231024.txt 
                         │       ├ PublishedDate   : 2023-10-25T18:17:00Z 
                         │       ╰ LastModifiedDate: 2023-10-27T15:15:00Z 
-                        ├ [71]  ╭ VulnerabilityID : CVE-2023-2975 
+                        ├ [72]  ╭ VulnerabilityID : CVE-2023-2975 
                         │       ├ PkgID           : openssl-libs@3.0.7-17.el9_2.x86_64 
                         │       ├ PkgName         : openssl-libs 
                         │       ├ InstalledVersion: 1:3.0.7-17.el9_2 
@@ -3933,7 +3983,7 @@
                         │       │                  ╰ [10]: https://www.openssl.org/news/secadv/20230714.txt 
                         │       ├ PublishedDate   : 2023-07-14T12:15:00Z 
                         │       ╰ LastModifiedDate: 2023-07-27T13:02:00Z 
-                        ├ [72]  ╭ VulnerabilityID : CVE-2023-3446 
+                        ├ [73]  ╭ VulnerabilityID : CVE-2023-3446 
                         │       ├ PkgID           : openssl-libs@3.0.7-17.el9_2.x86_64 
                         │       ├ PkgName         : openssl-libs 
                         │       ├ InstalledVersion: 1:3.0.7-17.el9_2 
@@ -4035,7 +4085,7 @@
                         │       │                  ╰ [17]: https://www.openssl.org/news/secadv/20230719.txt 
                         │       ├ PublishedDate   : 2023-07-19T12:15:00Z 
                         │       ╰ LastModifiedDate: 2023-10-03T15:48:00Z 
-                        ├ [73]  ╭ VulnerabilityID : CVE-2023-3817 
+                        ├ [74]  ╭ VulnerabilityID : CVE-2023-3817 
                         │       ├ PkgID           : openssl-libs@3.0.7-17.el9_2.x86_64 
                         │       ├ PkgName         : openssl-libs 
                         │       ├ InstalledVersion: 1:3.0.7-17.el9_2 
@@ -4136,7 +4186,7 @@
                         │       │                  ╰ [19]: https://www.openssl.org/news/secadv/20230731.txt 
                         │       ├ PublishedDate   : 2023-07-31T16:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-06T19:15:00Z 
-                        ├ [74]  ╭ VulnerabilityID : CVE-2023-5678 
+                        ├ [75]  ╭ VulnerabilityID : CVE-2023-5678 
                         │       ├ PkgID           : openssl-libs@3.0.7-17.el9_2.x86_64 
                         │       ├ PkgName         : openssl-libs 
                         │       ├ InstalledVersion: 1:3.0.7-17.el9_2 
@@ -4228,7 +4278,7 @@
                         │       │                  ╰ [8]: https://www.openssl.org/news/secadv/20231106.txt 
                         │       ├ PublishedDate   : 2023-11-06T16:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T14:15:00Z 
-                        ├ [75]  ╭ VulnerabilityID : CVE-2007-4559 
+                        ├ [76]  ╭ VulnerabilityID : CVE-2007-4559 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6659 
                         │       ├ PkgID           : python-unversioned-command@3.9.16-1.el9_2.2.noarch 
                         │       ├ PkgName         : python-unversioned-command 
@@ -4267,7 +4317,7 @@
                         │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2007-4559 
                         │       ├ PublishedDate   : 2007-08-28T01:17:00Z 
                         │       ╰ LastModifiedDate: 2023-09-17T09:15:00Z 
-                        ├ [76]  ╭ VulnerabilityID : CVE-2021-23336 
+                        ├ [77]  ╭ VulnerabilityID : CVE-2021-23336 
                         │       ├ PkgID           : python-unversioned-command@3.9.16-1.el9_2.2.noarch 
                         │       ├ PkgName         : python-unversioned-command 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.2 
@@ -4417,7 +4467,7 @@
                         │       │                          21.html 
                         │       ├ PublishedDate   : 2021-02-15T13:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:30:00Z 
-                        ├ [77]  ╭ VulnerabilityID : CVE-2022-0391 
+                        ├ [78]  ╭ VulnerabilityID : CVE-2022-0391 
                         │       ├ PkgID           : python-unversioned-command@3.9.16-1.el9_2.2.noarch 
                         │       ├ PkgName         : python-unversioned-command 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.2 
@@ -4481,7 +4531,7 @@
                         │       │                          22.html 
                         │       ├ PublishedDate   : 2022-02-09T23:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:41:00Z 
-                        ├ [78]  ╭ VulnerabilityID : CVE-2023-27043 
+                        ├ [79]  ╭ VulnerabilityID : CVE-2023-27043 
                         │       ├ PkgID           : python-unversioned-command@3.9.16-1.el9_2.2.noarch 
                         │       ├ PkgName         : python-unversioned-command 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.2 
@@ -4529,7 +4579,7 @@
                         │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
                         │       ├ PublishedDate   : 2023-04-19T00:15:00Z 
                         │       ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-                        ├ [79]  ╭ VulnerabilityID : CVE-2023-36632 
+                        ├ [80]  ╭ VulnerabilityID : CVE-2023-36632 
                         │       ├ PkgID           : python-unversioned-command@3.9.16-1.el9_2.2.noarch 
                         │       ├ PkgName         : python-unversioned-command 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.2 
@@ -4578,7 +4628,7 @@
                         │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
                         │       ├ PublishedDate   : 2023-06-25T18:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T04:16:00Z 
-                        ├ [80]  ╭ VulnerabilityID : CVE-2007-4559 
+                        ├ [81]  ╭ VulnerabilityID : CVE-2007-4559 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6659 
                         │       ├ PkgID           : python3@3.9.16-1.el9_2.2.x86_64 
                         │       ├ PkgName         : python3 
@@ -4617,7 +4667,7 @@
                         │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2007-4559 
                         │       ├ PublishedDate   : 2007-08-28T01:17:00Z 
                         │       ╰ LastModifiedDate: 2023-09-17T09:15:00Z 
-                        ├ [81]  ╭ VulnerabilityID : CVE-2021-23336 
+                        ├ [82]  ╭ VulnerabilityID : CVE-2021-23336 
                         │       ├ PkgID           : python3@3.9.16-1.el9_2.2.x86_64 
                         │       ├ PkgName         : python3 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.2 
@@ -4767,7 +4817,7 @@
                         │       │                          21.html 
                         │       ├ PublishedDate   : 2021-02-15T13:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:30:00Z 
-                        ├ [82]  ╭ VulnerabilityID : CVE-2022-0391 
+                        ├ [83]  ╭ VulnerabilityID : CVE-2022-0391 
                         │       ├ PkgID           : python3@3.9.16-1.el9_2.2.x86_64 
                         │       ├ PkgName         : python3 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.2 
@@ -4831,7 +4881,7 @@
                         │       │                          22.html 
                         │       ├ PublishedDate   : 2022-02-09T23:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:41:00Z 
-                        ├ [83]  ╭ VulnerabilityID : CVE-2023-27043 
+                        ├ [84]  ╭ VulnerabilityID : CVE-2023-27043 
                         │       ├ PkgID           : python3@3.9.16-1.el9_2.2.x86_64 
                         │       ├ PkgName         : python3 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.2 
@@ -4879,7 +4929,7 @@
                         │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
                         │       ├ PublishedDate   : 2023-04-19T00:15:00Z 
                         │       ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-                        ├ [84]  ╭ VulnerabilityID : CVE-2023-36632 
+                        ├ [85]  ╭ VulnerabilityID : CVE-2023-36632 
                         │       ├ PkgID           : python3@3.9.16-1.el9_2.2.x86_64 
                         │       ├ PkgName         : python3 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.2 
@@ -4928,7 +4978,7 @@
                         │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
                         │       ├ PublishedDate   : 2023-06-25T18:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T04:16:00Z 
-                        ├ [85]  ╭ VulnerabilityID : CVE-2007-4559 
+                        ├ [86]  ╭ VulnerabilityID : CVE-2007-4559 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6659 
                         │       ├ PkgID           : python3-libs@3.9.16-1.el9_2.2.x86_64 
                         │       ├ PkgName         : python3-libs 
@@ -4967,7 +5017,7 @@
                         │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2007-4559 
                         │       ├ PublishedDate   : 2007-08-28T01:17:00Z 
                         │       ╰ LastModifiedDate: 2023-09-17T09:15:00Z 
-                        ├ [86]  ╭ VulnerabilityID : CVE-2021-23336 
+                        ├ [87]  ╭ VulnerabilityID : CVE-2021-23336 
                         │       ├ PkgID           : python3-libs@3.9.16-1.el9_2.2.x86_64 
                         │       ├ PkgName         : python3-libs 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.2 
@@ -5117,7 +5167,7 @@
                         │       │                          21.html 
                         │       ├ PublishedDate   : 2021-02-15T13:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:30:00Z 
-                        ├ [87]  ╭ VulnerabilityID : CVE-2022-0391 
+                        ├ [88]  ╭ VulnerabilityID : CVE-2022-0391 
                         │       ├ PkgID           : python3-libs@3.9.16-1.el9_2.2.x86_64 
                         │       ├ PkgName         : python3-libs 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.2 
@@ -5181,7 +5231,7 @@
                         │       │                          22.html 
                         │       ├ PublishedDate   : 2022-02-09T23:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:41:00Z 
-                        ├ [88]  ╭ VulnerabilityID : CVE-2023-27043 
+                        ├ [89]  ╭ VulnerabilityID : CVE-2023-27043 
                         │       ├ PkgID           : python3-libs@3.9.16-1.el9_2.2.x86_64 
                         │       ├ PkgName         : python3-libs 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.2 
@@ -5229,7 +5279,7 @@
                         │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
                         │       ├ PublishedDate   : 2023-04-19T00:15:00Z 
                         │       ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-                        ├ [89]  ╭ VulnerabilityID : CVE-2023-36632 
+                        ├ [90]  ╭ VulnerabilityID : CVE-2023-36632 
                         │       ├ PkgID           : python3-libs@3.9.16-1.el9_2.2.x86_64 
                         │       ├ PkgName         : python3-libs 
                         │       ├ InstalledVersion: 3.9.16-1.el9_2.2 
@@ -5278,7 +5328,7 @@
                         │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
                         │       ├ PublishedDate   : 2023-06-25T18:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T04:16:00Z 
-                        ├ [90]  ╭ VulnerabilityID : CVE-2007-4559 
+                        ├ [91]  ╭ VulnerabilityID : CVE-2007-4559 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6694 
                         │       ├ PkgID           : python3-pip-wheel@21.2.3-6.el9.noarch 
                         │       ├ PkgName         : python3-pip-wheel 
@@ -5317,7 +5367,7 @@
                         │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2007-4559 
                         │       ├ PublishedDate   : 2007-08-28T01:17:00Z 
                         │       ╰ LastModifiedDate: 2023-09-17T09:15:00Z 
-                        ├ [91]  ╭ VulnerabilityID : CVE-2018-25091 
+                        ├ [92]  ╭ VulnerabilityID : CVE-2018-25091 
                         │       ├ PkgID           : python3-pip-wheel@21.2.3-6.el9.noarch 
                         │       ├ PkgName         : python3-pip-wheel 
                         │       ├ InstalledVersion: 21.2.3-6.el9 
@@ -5349,22 +5399,26 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C
                         │       │                           │           :L/I:L/A:N 
                         │       │                           ╰ V3Score : 6.1 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2018-25091 
-                        │       │                  ├ [1]: https://github.com/pypa/advisory-database/tree/m
-                        │       │                  │      ain/vulns/urllib3/PYSEC-2023-207.yaml 
-                        │       │                  ├ [2]: https://github.com/urllib3/urllib3 
-                        │       │                  ├ [3]: https://github.com/urllib3/urllib3/commit/adb358
-                        │       │                  │      f8e06865406d1f05e581a16cbea2136fbc 
-                        │       │                  ├ [4]: https://github.com/urllib3/urllib3/compare/1.24.
-                        │       │                  │      1...1.24.2 
-                        │       │                  ├ [5]: https://github.com/urllib3/urllib3/issues/1510 
-                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2018-25091 
-                        │       │                  ├ [7]: https://security.snyk.io/vuln/SNYK-PYTHON-URLLIB
-                        │       │                  │      3-5969479 
-                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2018-25091 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2018
+                        │       │                  │       -25091 
+                        │       │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                        │       │                  │       CVE-2018-25091 
+                        │       │                  ├ [2] : https://github.com/pypa/advisory-database/tree/
+                        │       │                  │       main/vulns/urllib3/PYSEC-2023-207.yaml 
+                        │       │                  ├ [3] : https://github.com/urllib3/urllib3 
+                        │       │                  ├ [4] : https://github.com/urllib3/urllib3/commit/adb35
+                        │       │                  │       8f8e06865406d1f05e581a16cbea2136fbc 
+                        │       │                  ├ [5] : https://github.com/urllib3/urllib3/compare/1.24
+                        │       │                  │       .1...1.24.2 
+                        │       │                  ├ [6] : https://github.com/urllib3/urllib3/issues/1510 
+                        │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2018-25091 
+                        │       │                  ├ [8] : https://security.snyk.io/vuln/SNYK-PYTHON-URLLI
+                        │       │                  │       B3-5969479 
+                        │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6473-1 
+                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2018-25091 
                         │       ├ PublishedDate   : 2023-10-15T19:15:00Z 
                         │       ╰ LastModifiedDate: 2023-10-19T14:01:00Z 
-                        ├ [92]  ╭ VulnerabilityID : CVE-2021-3572 
+                        ├ [93]  ╭ VulnerabilityID : CVE-2021-3572 
                         │       ├ PkgID           : python3-pip-wheel@21.2.3-6.el9.noarch 
                         │       ├ PkgName         : python3-pip-wheel 
                         │       ├ InstalledVersion: 21.2.3-6.el9 
@@ -5425,7 +5479,7 @@
                         │       │                          22.html 
                         │       ├ PublishedDate   : 2021-11-10T18:15:00Z 
                         │       ╰ LastModifiedDate: 2022-10-05T02:14:00Z 
-                        ├ [93]  ╭ VulnerabilityID : CVE-2021-35937 
+                        ├ [94]  ╭ VulnerabilityID : CVE-2021-35937 
                         │       ├ PkgID           : rpm@4.16.1.3-22.el9.x86_64 
                         │       ├ PkgName         : rpm 
                         │       ├ InstalledVersion: 4.16.1.3-22.el9 
@@ -5462,7 +5516,7 @@
                         │       │                         ull_papers/borisov/borisov.pdf 
                         │       ├ PublishedDate   : 2022-08-25T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:36:00Z 
-                        ├ [94]  ╭ VulnerabilityID : CVE-2021-35938 
+                        ├ [95]  ╭ VulnerabilityID : CVE-2021-35938 
                         │       ├ PkgID           : rpm@4.16.1.3-22.el9.x86_64 
                         │       ├ PkgName         : rpm 
                         │       ├ InstalledVersion: 4.16.1.3-22.el9 
@@ -5505,7 +5559,7 @@
                         │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2021-35938 
                         │       ├ PublishedDate   : 2022-08-25T20:15:00Z 
                         │       ╰ LastModifiedDate: 2022-11-29T18:06:00Z 
-                        ├ [95]  ╭ VulnerabilityID : CVE-2021-35939 
+                        ├ [96]  ╭ VulnerabilityID : CVE-2021-35939 
                         │       ├ PkgID           : rpm@4.16.1.3-22.el9.x86_64 
                         │       ├ PkgName         : rpm 
                         │       ├ InstalledVersion: 4.16.1.3-22.el9 
@@ -5547,7 +5601,7 @@
                         │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2021-35939 
                         │       ├ PublishedDate   : 2022-08-26T16:15:00Z 
                         │       ╰ LastModifiedDate: 2023-02-04T01:16:00Z 
-                        ├ [96]  ╭ VulnerabilityID : CVE-2021-35937 
+                        ├ [97]  ╭ VulnerabilityID : CVE-2021-35937 
                         │       ├ PkgID           : rpm-libs@4.16.1.3-22.el9.x86_64 
                         │       ├ PkgName         : rpm-libs 
                         │       ├ InstalledVersion: 4.16.1.3-22.el9 
@@ -5584,7 +5638,7 @@
                         │       │                         ull_papers/borisov/borisov.pdf 
                         │       ├ PublishedDate   : 2022-08-25T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T03:36:00Z 
-                        ├ [97]  ╭ VulnerabilityID : CVE-2021-35938 
+                        ├ [98]  ╭ VulnerabilityID : CVE-2021-35938 
                         │       ├ PkgID           : rpm-libs@4.16.1.3-22.el9.x86_64 
                         │       ├ PkgName         : rpm-libs 
                         │       ├ InstalledVersion: 4.16.1.3-22.el9 
@@ -5627,7 +5681,7 @@
                         │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2021-35938 
                         │       ├ PublishedDate   : 2022-08-25T20:15:00Z 
                         │       ╰ LastModifiedDate: 2022-11-29T18:06:00Z 
-                        ├ [98]  ╭ VulnerabilityID : CVE-2021-35939 
+                        ├ [99]  ╭ VulnerabilityID : CVE-2021-35939 
                         │       ├ PkgID           : rpm-libs@4.16.1.3-22.el9.x86_64 
                         │       ├ PkgName         : rpm-libs 
                         │       ├ InstalledVersion: 4.16.1.3-22.el9 
@@ -5669,7 +5723,7 @@
                         │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2021-35939 
                         │       ├ PublishedDate   : 2022-08-26T16:15:00Z 
                         │       ╰ LastModifiedDate: 2023-02-04T01:16:00Z 
-                        ├ [99]  ╭ VulnerabilityID : CVE-2023-28486 
+                        ├ [100] ╭ VulnerabilityID : CVE-2023-28486 
                         │       ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
                         │       ├ PkgName         : sudo 
                         │       ├ InstalledVersion: 1.9.5p2-9.el9 
@@ -5707,7 +5761,7 @@
                         │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28486 
                         │       ├ PublishedDate   : 2023-03-16T01:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-02T01:59:00Z 
-                        ├ [100] ╭ VulnerabilityID : CVE-2023-28487 
+                        ├ [101] ╭ VulnerabilityID : CVE-2023-28487 
                         │       ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
                         │       ├ PkgName         : sudo 
                         │       ├ InstalledVersion: 1.9.5p2-9.el9 
@@ -5746,7 +5800,7 @@
                         │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28487 
                         │       ├ PublishedDate   : 2023-03-16T01:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-02T01:58:00Z 
-                        ├ [101] ╭ VulnerabilityID : CVE-2021-3997 
+                        ├ [102] ╭ VulnerabilityID : CVE-2021-3997 
                         │       ├ PkgID           : systemd-libs@252-14.el9_2.3.x86_64 
                         │       ├ PkgName         : systemd-libs 
                         │       ├ InstalledVersion: 252-14.el9_2.3 
@@ -5785,7 +5839,7 @@
                         │       │                         /01/10/2 
                         │       ├ PublishedDate   : 2022-08-23T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-                        ╰ [102] ╭ VulnerabilityID : CVE-2023-45853 
+                        ╰ [103] ╭ VulnerabilityID : CVE-2023-45853 
                                 ├ PkgID           : zlib@1.2.11-39.el9.x86_64 
                                 ├ PkgName         : zlib 
                                 ├ InstalledVersion: 1.2.11-39.el9 
