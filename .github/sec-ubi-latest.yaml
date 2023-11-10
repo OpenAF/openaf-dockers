@@ -15,7 +15,7 @@
       DiffID: sha256:27ed7942fad6945764bc8dec75155a15271fd83f7691ab7a2a2a70794d84e883
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-3468
-    Title: Local DoS by event-busy-loop from writing long lines to /run/avahi-daemon/socket
+    Title: 'avahi: Local DoS by event-busy-loop from writing long lines to /run/avahi-daemon/socket'
     Description: A flaw was found in avahi in versions 0.6 up to 0.8. The event used to signal the termination of the client connection on the avahi Unix socket is not correctly handled in the client_work function, allowing a local attacker to trigger an infinite loop. The highest threat from this vulnerability is to the availability of the avahi service, which becomes unresponsive after this flaw is triggered.
     Severity: MEDIUM
     CweIDs:
@@ -283,6 +283,43 @@
     - https://www.secfu.net/advisories
     PublishedDate: '2017-05-01T01:59:00Z'
     LastModifiedDate: '2023-11-07T02:49:00Z'
+  - VulnerabilityID: CVE-2023-37920
+    PkgID: ca-certificates@2023.2.60_v7.0.306-90.1.el9_2.noarch
+    PkgName: ca-certificates
+    InstalledVersion: 2023.2.60_v7.0.306-90.1.el9_2
+    Status: affected
+    Layer:
+      Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
+      DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-37920
+    Title: 'python-certifi: Removal of e-Tugra root certificate'
+    Description: Certifi is a curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. Certifi prior to version 2023.07.22 recognizes "e-Tugra" root certificates. e-Tugra's root certificates were subject to an investigation prompted by reporting of security issues in their systems. Certifi 2023.07.22 removes root certificates from "e-Tugra" from the root store.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-345
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-37920
+    - https://github.com/certifi/python-certifi
+    - https://github.com/certifi/python-certifi/commit/8fb96ed81f71e7097ed11bc4d9b19afd7ea5c909
+    - https://github.com/certifi/python-certifi/security/advisories/GHSA-xqr8-7jwr-rhp7
+    - https://github.com/pypa/advisory-database/tree/main/vulns/certifi/PYSEC-2023-135.yaml
+    - https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/C-HrP1SEq1A
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5EX6NG7WUFNUKGFHLM35KHHU3GAKXRTG/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-37920
+    - https://www.cve.org/CVERecord?id=CVE-2023-37920
+    PublishedDate: '2023-07-25T21:15:00Z'
+    LastModifiedDate: '2023-08-12T06:16:00Z'
   - VulnerabilityID: CVE-2023-32324
     VendorIDs:
     - RHSA-2023:6596
@@ -374,13 +411,13 @@
     PkgID: cups-libs@2.3.3op2-16.el9_2.1.x86_64
     PkgName: cups-libs
     InstalledVersion: 1:2.3.3op2-16.el9_2.1
-    Status: affected
+    Status: will_not_fix
     Layer:
       Digest: sha256:e16169bcca65672445400ead37d79469d07be9c655000dddaf975d8512625079
       DiffID: sha256:27ed7942fad6945764bc8dec75155a15271fd83f7691ab7a2a2a70794d84e883
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4504
-    Title: Postscript Parsing Heap Overflow
+    Title: 'cups, libppd: Postscript Parsing Heap Overflow'
     Description: |
       Due to failure in validating the length provided by an attacker-crafted PPD PostScript document, CUPS and libppd are susceptible to a heap-based buffer overflow and possibly code execution. This issue has been fixed in CUPS version 2.4.7, released in September of 2023.
     Severity: MEDIUM
@@ -391,8 +428,8 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:L
-        V3Score: 4.2
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
     References:
     - https://access.redhat.com/security/cve/CVE-2023-4504
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4504
@@ -460,7 +497,7 @@
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38545
-    Title: heap based buffer overflow in the SOCKS5 proxy handshake
+    Title: 'curl: heap based buffer overflow in the SOCKS5 proxy handshake'
     Description: |
       This flaw makes curl overflow a heap based buffer in the SOCKS5 proxy
       handshake.
@@ -813,7 +850,7 @@
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29499
-    Title: GVariant offset table entry size is not checked in is_normal()
+    Title: 'glib: GVariant offset table entry size is not checked in is_normal()'
     Description: A flaw was found in GLib. GVariant deserialization fails to validate that the input conforms to the expected format, leading to denial of service.
     Severity: LOW
     CweIDs:
@@ -823,8 +860,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-29499
     - https://bugzilla.redhat.com/show_bug.cgi?id=2211828
@@ -1190,7 +1227,7 @@
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-30571
-    Title: Race condition in multi-threaded use of archive_write_disk_header() on posix based systems
+    Title: 'libarchive: Race condition in multi-threaded use of archive_write_disk_header() on posix based systems'
     Description: Libarchive through 3.6.2 can cause directories to have world-writable permissions. The umask() call inside archive_write_disk_posix.c changes the umask of the whole process for a very short period of time; a race condition with another thread can lead to a permanent umask 0 setting. Such a race condition could lead to implicit directory creation with permissions 0777 (without the sticky bit), which means that any low-privileged local user can delete and rename files inside those directories.
     Severity: MEDIUM
     CweIDs:
@@ -1224,7 +1261,7 @@
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38545
-    Title: heap based buffer overflow in the SOCKS5 proxy handshake
+    Title: 'curl: heap based buffer overflow in the SOCKS5 proxy handshake'
     Description: |
       This flaw makes curl overflow a heap based buffer in the SOCKS5 proxy
       handshake.
@@ -1508,7 +1545,7 @@
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4039
-    Title: '-fstack-protector fails to guard dynamic stack allocations on ARM64'
+    Title: 'gcc: -fstack-protector fails to guard dynamic stack allocations on ARM64'
     Description: |+
 
 
@@ -1838,7 +1875,7 @@
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4039
-    Title: '-fstack-protector fails to guard dynamic stack allocations on ARM64'
+    Title: 'gcc: -fstack-protector fails to guard dynamic stack allocations on ARM64'
     Description: |+
 
 
@@ -1954,7 +1991,7 @@
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45322
-    Title: use-after-free in xmlUnlinkNode() in tree.c
+    Title: 'libxml2: use-after-free in xmlUnlinkNode() in tree.c'
     Description: 'libxml2 through 2.11.5 has a use-after-free that can only occur after a certain memory allocation fails. This occurs in xmlUnlinkNode in tree.c. NOTE: the vendor''s position is "I don''t think these issues are critical enough to warrant a CVE ID ... because an attacker typically can''t control when memory allocations fail."'
     Severity: LOW
     CweIDs:
@@ -4041,6 +4078,7 @@
         V3Score: 6.1
     References:
     - https://access.redhat.com/security/cve/CVE-2018-25091
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-25091
     - https://github.com/pypa/advisory-database/tree/main/vulns/urllib3/PYSEC-2023-207.yaml
     - https://github.com/urllib3/urllib3
     - https://github.com/urllib3/urllib3/commit/adb358f8e06865406d1f05e581a16cbea2136fbc
@@ -4048,6 +4086,7 @@
     - https://github.com/urllib3/urllib3/issues/1510
     - https://nvd.nist.gov/vuln/detail/CVE-2018-25091
     - https://security.snyk.io/vuln/SNYK-PYTHON-URLLIB3-5969479
+    - https://ubuntu.com/security/notices/USN-6473-1
     - https://www.cve.org/CVERecord?id=CVE-2018-25091
     PublishedDate: '2023-10-15T19:15:00Z'
     LastModifiedDate: '2023-10-19T14:01:00Z'
