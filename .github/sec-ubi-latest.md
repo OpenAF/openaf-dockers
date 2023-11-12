@@ -1170,11 +1170,13 @@
                         │       │                  │      ixes-for-gvariant-normalisation-issues-in-glib/12835
                         │       │                  │      [m 
                         │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-32636 
-                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6165-1 
-                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6165-2 
-                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-32636 
+                        │       │                  ├ [5]: https://security.netapp.com/advisory/ntap-202311
+                        │       │                  │      10-0002/ 
+                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6165-1 
+                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6165-2 
+                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-32636 
                         │       ├ PublishedDate   : 2023-09-14T20:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-09-19T18:59:00Z 
+                        │       ╰ LastModifiedDate: 2023-11-10T18:15:00Z 
                         ├ [25]  ╭ VulnerabilityID : CVE-2023-32665 
                         │       ├ VendorIDs        ─ [0]: RHSA-2023:6631 
                         │       ├ PkgID           : glib2@2.68.4-6.el9.x86_64 
