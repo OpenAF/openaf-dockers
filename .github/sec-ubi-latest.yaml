@@ -966,11 +966,12 @@
     - https://gitlab.gnome.org/GNOME/glib/-/issues/2841
     - https://https://discourse.gnome.org/t/multiple-fixes-for-gvariant-normalisation-issues-in-glib/12835
     - https://nvd.nist.gov/vuln/detail/CVE-2023-32636
+    - https://security.netapp.com/advisory/ntap-20231110-0002/
     - https://ubuntu.com/security/notices/USN-6165-1
     - https://ubuntu.com/security/notices/USN-6165-2
     - https://www.cve.org/CVERecord?id=CVE-2023-32636
     PublishedDate: '2023-09-14T20:15:00Z'
-    LastModifiedDate: '2023-09-19T18:59:00Z'
+    LastModifiedDate: '2023-11-10T18:15:00Z'
   - VulnerabilityID: CVE-2023-32665
     VendorIDs:
     - RHSA-2023:6631
