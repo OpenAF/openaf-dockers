@@ -106,7 +106,7 @@
                         │       │                            3f7691ab7a2a2a70794d84e883 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-1981 
-                        │       ├ Title           : avahi-daemon can be crashed via DBus 
+                        │       ├ Title           : avahi: avahi-daemon can be crashed via DBus 
                         │       ├ Description     : A vulnerability was found in the avahi library. This
                         │       │                   flaw allows an unprivileged user to make a dbus call,
                         │       │                   causing the avahi daemon to crash. 
@@ -399,7 +399,7 @@
                         │       │                            3f7691ab7a2a2a70794d84e883 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-32324 
-                        │       ├ Title           : heap buffer overflow may lead to DoS 
+                        │       ├ Title           : cups: heap buffer overflow may lead to DoS 
                         │       ├ Description     : OpenPrinting CUPS is an open source printing system.
                         │       │                   In versions 2.4.2 and prior, a heap buffer overflow
                         │       │                   vulnerability would allow a remote attacker to launch a
@@ -446,7 +446,8 @@
                         │       │                            3f7691ab7a2a2a70794d84e883 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-34241 
-                        │       ├ Title           : use-after-free in cupsdAcceptClient() in scheduler/client.c 
+                        │       ├ Title           : cups: use-after-free in cupsdAcceptClient() in
+                        │       │                   scheduler/client.c 
                         │       ├ Description     : OpenPrinting CUPS is a standards-based, open source
                         │       │                   printing system for Linux and other Unix-like operating
                         │       │                   systems. Starting in version 2.0.0 and prior to version
@@ -707,7 +708,7 @@
                         │       │                            a1ba578362e7ef9ce66406a679 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27536 
-                        │       ├ Title           : GSS delegation too eager connection re-use 
+                        │       ├ Title           : curl: GSS delegation too eager connection re-use 
                         │       ├ Description     : An authentication bypass vulnerability exists libcurl
                         │       │                   <8.0.0 in the connection reuse feature which can reuse
                         │       │                   previously established connections with incorrect user
@@ -960,9 +961,9 @@
                         │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
                         │       │                  │        │           :N/I:L/A:N 
                         │       │                  │        ╰ V3Score : 3.7 
-                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C
-                        │       │                           │           :L/I:L/A:L 
-                        │       │                           ╰ V3Score : 5 
+                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+                        │       │                           │           :N/I:L/A:N 
+                        │       │                           ╰ V3Score : 3.7 
                         │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5763 
                         │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
                         │       │                  │       -38546 
@@ -1200,8 +1201,8 @@
                         │       │                            a1ba578362e7ef9ce66406a679 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-32665 
-                        │       ├ Title           : GVariant deserialisation does not match spec for
-                        │       │                   non-normal data 
+                        │       ├ Title           : glib: GVariant deserialisation does not match spec for
+                        │       │                    non-normal data 
                         │       ├ Description     : A flaw was found in GLib. GVariant deserialization is
                         │       │                   vulnerable to an exponential blowup issue where a crafted
                         │       │                   GVariant can cause excessive processing, leading to denial
@@ -1635,7 +1636,7 @@
                         │       │                            a1ba578362e7ef9ce66406a679 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27536 
-                        │       ├ Title           : GSS delegation too eager connection re-use 
+                        │       ├ Title           : curl: GSS delegation too eager connection re-use 
                         │       ├ Description     : An authentication bypass vulnerability exists libcurl
                         │       │                   <8.0.0 in the connection reuse feature which can reuse
                         │       │                   previously established connections with incorrect user
@@ -1888,9 +1889,9 @@
                         │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
                         │       │                  │        │           :N/I:L/A:N 
                         │       │                  │        ╰ V3Score : 3.7 
-                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C
-                        │       │                           │           :L/I:L/A:L 
-                        │       │                           ╰ V3Score : 5 
+                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+                        │       │                           │           :N/I:L/A:N 
+                        │       │                           ╰ V3Score : 3.7 
                         │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5763 
                         │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
                         │       │                  │       -38546 
@@ -2691,8 +2692,8 @@
                         │       │                            a1ba578362e7ef9ce66406a679 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29491 
-                        │       ├ Title           : Local users can trigger security-relevant memory
-                        │       │                   corruption via malformed data 
+                        │       ├ Title           : ncurses: Local users can trigger security-relevant
+                        │       │                   memory corruption via malformed data 
                         │       ├ Description     : ncurses before 6.4 20230408, when used by a setuid
                         │       │                   application, allows local users to trigger
                         │       │                   security-relevant memory corruption via malformed data in a
@@ -2801,8 +2802,8 @@
                         │       │                            a1ba578362e7ef9ce66406a679 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29491 
-                        │       ├ Title           : Local users can trigger security-relevant memory
-                        │       │                   corruption via malformed data 
+                        │       ├ Title           : ncurses: Local users can trigger security-relevant
+                        │       │                   memory corruption via malformed data 
                         │       ├ Description     : ncurses before 6.4 20230408, when used by a setuid
                         │       │                   application, allows local users to trigger
                         │       │                   security-relevant memory corruption via malformed data in a
@@ -4339,7 +4340,7 @@
                         │       │                            3f7691ab7a2a2a70794d84e883 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2007-4559 
-                        │       ├ Title           : tarfile module directory traversal 
+                        │       ├ Title           : python: tarfile module directory traversal 
                         │       ├ Description     : Directory traversal vulnerability in the (1) extract
                         │       │                   and (2) extractall functions in the tarfile module in
                         │       │                   Python allows user-assisted remote attackers to overwrite
@@ -4689,7 +4690,7 @@
                         │       │                            3f7691ab7a2a2a70794d84e883 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2007-4559 
-                        │       ├ Title           : tarfile module directory traversal 
+                        │       ├ Title           : python: tarfile module directory traversal 
                         │       ├ Description     : Directory traversal vulnerability in the (1) extract
                         │       │                   and (2) extractall functions in the tarfile module in
                         │       │                   Python allows user-assisted remote attackers to overwrite
@@ -5039,7 +5040,7 @@
                         │       │                            3f7691ab7a2a2a70794d84e883 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2007-4559 
-                        │       ├ Title           : tarfile module directory traversal 
+                        │       ├ Title           : python: tarfile module directory traversal 
                         │       ├ Description     : Directory traversal vulnerability in the (1) extract
                         │       │                   and (2) extractall functions in the tarfile module in
                         │       │                   Python allows user-assisted remote attackers to overwrite
@@ -5389,7 +5390,7 @@
                         │       │                            3f7691ab7a2a2a70794d84e883 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2007-4559 
-                        │       ├ Title           : tarfile module directory traversal 
+                        │       ├ Title           : python: tarfile module directory traversal 
                         │       ├ Description     : Directory traversal vulnerability in the (1) extract
                         │       │                   and (2) extractall functions in the tarfile module in
                         │       │                   Python allows user-assisted remote attackers to overwrite
@@ -5848,87 +5849,43 @@
                         │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28487 
                         │       ├ PublishedDate   : 2023-03-16T01:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-02T01:58:00Z 
-                        ├ [102] ╭ VulnerabilityID : CVE-2021-3997 
-                        │       ├ PkgID           : systemd-libs@252-14.el9_2.3.x86_64 
-                        │       ├ PkgName         : systemd-libs 
-                        │       ├ InstalledVersion: 252-14.el9_2.3 
-                        │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a3234
-                        │       │                  │         1a7352b0435155277e54fc0cd1 
-                        │       │                  ╰ DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127
-                        │       │                            a1ba578362e7ef9ce66406a679 
-                        │       ├ SeveritySource  : redhat 
-                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-3997 
-                        │       ├ Title           : Uncontrolled recursion in systemd-tmpfiles when
-                        │       │                   removing files 
-                        │       ├ Description     : A flaw was found in systemd. An uncontrolled recursion
-                        │       │                    in systemd-tmpfiles may lead to a denial of service at
-                        │       │                   boot time when too many nested directories are created in
-                        │       │                   /tmp. 
-                        │       ├ Severity        : MEDIUM 
-                        │       ├ CweIDs           ─ [0]: CWE-674 
-                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
-                        │       │                  │        │           :N/I:N/A:H 
-                        │       │                  │        ╰ V3Score : 5.5 
-                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
-                        │       │                           │           :N/I:N/A:H 
-                        │       │                           ╰ V3Score : 5.5 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-3997 
-                        │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2024639 
-                        │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-                        │       │                  │      VE-2021-3997 
-                        │       │                  ├ [3]: https://github.com/systemd/systemd/commit/5b1cf7
-                        │       │                  │      a9be37e20133c0208005274ce4a5b5c6a1 
-                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2021-3997 
-                        │       │                  ├ [5]: https://security.gentoo.org/glsa/202305-15 
-                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-5226-1 
-                        │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2021-3997 
-                        │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2022
-                        │       │                         /01/10/2 
-                        │       ├ PublishedDate   : 2022-08-23T20:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-                        ╰ [103] ╭ VulnerabilityID : CVE-2023-45853 
-                                ├ PkgID           : zlib@1.2.11-39.el9.x86_64 
-                                ├ PkgName         : zlib 
-                                ├ InstalledVersion: 1.2.11-39.el9 
+                        ╰ [102] ╭ VulnerabilityID : CVE-2021-3997 
+                                ├ PkgID           : systemd-libs@252-14.el9_2.3.x86_64 
+                                ├ PkgName         : systemd-libs 
+                                ├ InstalledVersion: 252-14.el9_2.3 
                                 ├ Status          : affected 
                                 ├ Layer            ╭ Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a3234
                                 │                  │         1a7352b0435155277e54fc0cd1 
                                 │                  ╰ DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127
                                 │                            a1ba578362e7ef9ce66406a679 
                                 ├ SeveritySource  : redhat 
-                                ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45853 
-                                ├ Title           : zlib: integer overflow and resultant heap-based buffer
-                                │                    overflow in zipOpenNewFileInZip4_6 
-                                ├ Description     : MiniZip in zlib through 1.3 has an integer overflow
-                                │                   and resultant heap-based buffer overflow in
-                                │                   zipOpenNewFileInZip4_64 via a long filename, comment, or
-                                │                   extra field. NOTE: MiniZip is not a supported part of the
-                                │                   zlib product. 
+                                ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-3997 
+                                ├ Title           : Uncontrolled recursion in systemd-tmpfiles when
+                                │                   removing files 
+                                ├ Description     : A flaw was found in systemd. An uncontrolled recursion
+                                │                    in systemd-tmpfiles may lead to a denial of service at
+                                │                   boot time when too many nested directories are created in
+                                │                   /tmp. 
                                 ├ Severity        : MEDIUM 
-                                ├ CweIDs           ─ [0]: CWE-190 
-                                ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-                                │                  │        │           :H/I:H/A:H 
-                                │                  │        ╰ V3Score : 9.8 
-                                │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
-                                │                           │           :L/I:L/A:L 
-                                │                           ╰ V3Score : 5.3 
-                                ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
-                                │                  │      10/20/9 
-                                │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-45853 
-                                │                  ├ [2]: https://chromium.googlesource.com/chromium/src/+
-                                │                  │      /d709fb23806858847131027da95ef4c548813356 
-                                │                  ├ [3]: https://chromium.googlesource.com/chromium/src/+
-                                │                  │      /de29dd6c7151d3cd37cb4cf0036800ddfb1d8b61 
-                                │                  ├ [4]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-                                │                  │      VE-2023-45853 
-                                │                  ├ [5]: https://github.com/madler/zlib/blob/ac8f12c97d1a
-                                │                  │      fd9bafa9c710f827d40a407d3266/contrib/README.contrib#L
-                                │                  │      1-L4 
-                                │                  ├ [6]: https://github.com/madler/zlib/pull/843 
-                                │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-45853 
-                                │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-45853 
-                                │                  ╰ [9]: https://www.winimage.com/zLibDll/minizip.html 
-                                ├ PublishedDate   : 2023-10-14T02:15:00Z 
-                                ╰ LastModifiedDate: 2023-10-20T21:15:00Z 
+                                ├ CweIDs           ─ [0]: CWE-674 
+                                ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+                                │                  │        │           :N/I:N/A:H 
+                                │                  │        ╰ V3Score : 5.5 
+                                │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+                                │                           │           :N/I:N/A:H 
+                                │                           ╰ V3Score : 5.5 
+                                ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-3997 
+                                │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2024639 
+                                │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                                │                  │      VE-2021-3997 
+                                │                  ├ [3]: https://github.com/systemd/systemd/commit/5b1cf7
+                                │                  │      a9be37e20133c0208005274ce4a5b5c6a1 
+                                │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2021-3997 
+                                │                  ├ [5]: https://security.gentoo.org/glsa/202305-15 
+                                │                  ├ [6]: https://ubuntu.com/security/notices/USN-5226-1 
+                                │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2021-3997 
+                                │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2022
+                                │                         /01/10/2 
+                                ├ PublishedDate   : 2022-08-23T20:15:00Z 
+                                ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
 ````
