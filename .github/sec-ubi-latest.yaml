@@ -92,7 +92,7 @@
       DiffID: sha256:27ed7942fad6945764bc8dec75155a15271fd83f7691ab7a2a2a70794d84e883
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-1981
-    Title: avahi-daemon can be crashed via DBus
+    Title: 'avahi: avahi-daemon can be crashed via DBus'
     Description: A vulnerability was found in the avahi library. This flaw allows an unprivileged user to make a dbus call, causing the avahi daemon to crash.
     Severity: MEDIUM
     CweIDs:
@@ -358,7 +358,7 @@
       DiffID: sha256:27ed7942fad6945764bc8dec75155a15271fd83f7691ab7a2a2a70794d84e883
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-32324
-    Title: heap buffer overflow may lead to DoS
+    Title: 'cups: heap buffer overflow may lead to DoS'
     Description: OpenPrinting CUPS is an open source printing system. In versions 2.4.2 and prior, a heap buffer overflow vulnerability would allow a remote attacker to launch a denial of service (DoS) attack. A buffer overflow vulnerability in the function `format_log_line` could allow remote attackers to cause a DoS on the affected system. Exploitation of the vulnerability can be triggered when the configuration file `cupsd.conf` sets the value of `loglevel `to `DEBUG`. No known patches or workarounds exist at time of publication.
     Severity: MEDIUM
     CweIDs:
@@ -395,7 +395,7 @@
       DiffID: sha256:27ed7942fad6945764bc8dec75155a15271fd83f7691ab7a2a2a70794d84e883
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-34241
-    Title: use-after-free in cupsdAcceptClient() in scheduler/client.c
+    Title: 'cups: use-after-free in cupsdAcceptClient() in scheduler/client.c'
     Description: |-
       OpenPrinting CUPS is a standards-based, open source printing system for Linux and other Unix-like operating systems. Starting in version 2.0.0 and prior to version 2.4.6, CUPS logs data of free memory to the logging service AFTER the connection has been closed, when it should have logged the data right before. This is a use-after-free bug that impacts the entire cupsd process.
 
@@ -555,9 +555,13 @@
     - https://access.redhat.com/security/cve/CVE-2023-38545
     - https://bugzilla.redhat.com/2241933
     - https://bugzilla.redhat.com/2241938
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2241933
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2241938
     - https://curl.se/docs/CVE-2023-38545.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38545
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38546
     - https://errata.almalinux.org/9/ALSA-2023-5763.html
+    - https://errata.rockylinux.org/RLSA-2023:5763
     - https://linux.oracle.com/cve/CVE-2023-38545.html
     - https://linux.oracle.com/errata/ELSA-2023-5763.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OGMXNRNSJ4ETDK6FRNU3J7SABXPWCHSQ/
@@ -581,7 +585,7 @@
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-27536
-    Title: GSS delegation too eager connection re-use
+    Title: 'curl: GSS delegation too eager connection re-use'
     Description: An authentication bypass vulnerability exists libcurl <8.0.0 in the connection reuse feature which can reuse previously established connections with incorrect user permissions due to a failure to check for changes in the CURLOPT_GSSAPI_DELEGATION option. This vulnerability affects krb5/kerberos/negotiate/GSSAPI transfers and could potentially result in unauthorized access to sensitive information. The safest option is to not reuse connections if the CURLOPT_GSSAPI_DELEGATION option has been changed.
     Severity: MEDIUM
     CweIDs:
@@ -776,16 +780,20 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
-        V3Score: 5
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
     References:
     - https://access.redhat.com/errata/RHSA-2023:5763
     - https://access.redhat.com/security/cve/CVE-2023-38546
     - https://bugzilla.redhat.com/2241933
     - https://bugzilla.redhat.com/2241938
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2241933
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2241938
     - https://curl.se/docs/CVE-2023-38546.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38545
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38546
     - https://errata.almalinux.org/9/ALSA-2023-5763.html
+    - https://errata.rockylinux.org/RLSA-2023:5763
     - https://linux.oracle.com/cve/CVE-2023-38546.html
     - https://linux.oracle.com/errata/ELSA-2023-5763.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OGMXNRNSJ4ETDK6FRNU3J7SABXPWCHSQ/
@@ -985,7 +993,7 @@
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-32665
-    Title: GVariant deserialisation does not match spec for non-normal data
+    Title: 'glib: GVariant deserialisation does not match spec for non-normal data'
     Description: A flaw was found in GLib. GVariant deserialization is vulnerable to an exponential blowup issue where a crafted GVariant can cause excessive processing, leading to denial of service.
     Severity: LOW
     CweIDs:
@@ -1110,17 +1118,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4175
+    - https://access.redhat.com/errata/RHSA-2023:4177
     - https://access.redhat.com/security/cve/CVE-2023-25193
     - https://bugzilla.redhat.com/2167254
     - https://bugzilla.redhat.com/2221626
     - https://bugzilla.redhat.com/2221634
+    - https://bugzilla.redhat.com/2221642
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
     - https://bugzilla.redhat.com/2223207
     - https://chromium.googlesource.com/chromium/src/+/e1f324aa681af54101c1f2d173d92adb80e37088/DEPS#361
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25193
-    - https://errata.almalinux.org/8/ALSA-2023-4175.html
+    - https://errata.almalinux.org/9/ALSA-2023-4177.html
     - https://github.com/harfbuzz/harfbuzz/blob/2822b589bc837fae6f66233e2cf2eef0f6ce8470/src/hb-ot-layout-gsubgpos.hh
     - https://github.com/harfbuzz/harfbuzz/commit/85be877925ddbf34f74a1229f3ca1716bb6170dc
     - https://github.com/harfbuzz/harfbuzz/commit/85be877925ddbf34f74a1229f3ca1716bb6170dc (reverted)
@@ -1319,9 +1328,13 @@
     - https://access.redhat.com/security/cve/CVE-2023-38545
     - https://bugzilla.redhat.com/2241933
     - https://bugzilla.redhat.com/2241938
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2241933
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2241938
     - https://curl.se/docs/CVE-2023-38545.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38545
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38546
     - https://errata.almalinux.org/9/ALSA-2023-5763.html
+    - https://errata.rockylinux.org/RLSA-2023:5763
     - https://linux.oracle.com/cve/CVE-2023-38545.html
     - https://linux.oracle.com/errata/ELSA-2023-5763.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OGMXNRNSJ4ETDK6FRNU3J7SABXPWCHSQ/
@@ -1345,7 +1358,7 @@
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-27536
-    Title: GSS delegation too eager connection re-use
+    Title: 'curl: GSS delegation too eager connection re-use'
     Description: An authentication bypass vulnerability exists libcurl <8.0.0 in the connection reuse feature which can reuse previously established connections with incorrect user permissions due to a failure to check for changes in the CURLOPT_GSSAPI_DELEGATION option. This vulnerability affects krb5/kerberos/negotiate/GSSAPI transfers and could potentially result in unauthorized access to sensitive information. The safest option is to not reuse connections if the CURLOPT_GSSAPI_DELEGATION option has been changed.
     Severity: MEDIUM
     CweIDs:
@@ -1540,16 +1553,20 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
-        V3Score: 5
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
     References:
     - https://access.redhat.com/errata/RHSA-2023:5763
     - https://access.redhat.com/security/cve/CVE-2023-38546
     - https://bugzilla.redhat.com/2241933
     - https://bugzilla.redhat.com/2241938
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2241933
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2241938
     - https://curl.se/docs/CVE-2023-38546.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38545
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38546
     - https://errata.almalinux.org/9/ALSA-2023-5763.html
+    - https://errata.rockylinux.org/RLSA-2023:5763
     - https://linux.oracle.com/cve/CVE-2023-38546.html
     - https://linux.oracle.com/errata/ELSA-2023-5763.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OGMXNRNSJ4ETDK6FRNU3J7SABXPWCHSQ/
@@ -1685,7 +1702,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - http://www.openwall.com/lists/oss-security/2023/10/20/8
-    - https://access.redhat.com/errata/RHSA-2023:5989
+    - https://access.redhat.com/errata/RHSA-2023:6120
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -1708,8 +1725,8 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/8/ALSA-2023-5989.html
-    - https://errata.rockylinux.org/RLSA-2023:5928
+    - https://errata.almalinux.org/9/ALSA-2023-6120.html
+    - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -2094,7 +2111,7 @@
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29491
-    Title: Local users can trigger security-relevant memory corruption via malformed data
+    Title: 'ncurses: Local users can trigger security-relevant memory corruption via malformed data'
     Description: ncurses before 6.4 20230408, when used by a setuid application, allows local users to trigger security-relevant memory corruption via malformed data in a terminfo database file that is found in $HOME/.terminfo or reached via the TERMINFO or TERM environment variable.
     Severity: MEDIUM
     CweIDs:
@@ -2183,7 +2200,7 @@
       DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29491
-    Title: Local users can trigger security-relevant memory corruption via malformed data
+    Title: 'ncurses: Local users can trigger security-relevant memory corruption via malformed data'
     Description: ncurses before 6.4 20230408, when used by a setuid application, allows local users to trigger security-relevant memory corruption via malformed data in a terminfo database file that is found in $HOME/.terminfo or reached via the TERMINFO or TERM environment variable.
     Severity: MEDIUM
     CweIDs:
@@ -3350,7 +3367,7 @@
       DiffID: sha256:27ed7942fad6945764bc8dec75155a15271fd83f7691ab7a2a2a70794d84e883
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2007-4559
-    Title: tarfile module directory traversal
+    Title: 'python: tarfile module directory traversal'
     Description: Directory traversal vulnerability in the (1) extract and (2) extractall functions in the tarfile module in Python allows user-assisted remote attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive, a related issue to CVE-2001-1267.
     Severity: MEDIUM
     CweIDs:
@@ -3586,7 +3603,7 @@
       DiffID: sha256:27ed7942fad6945764bc8dec75155a15271fd83f7691ab7a2a2a70794d84e883
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2007-4559
-    Title: tarfile module directory traversal
+    Title: 'python: tarfile module directory traversal'
     Description: Directory traversal vulnerability in the (1) extract and (2) extractall functions in the tarfile module in Python allows user-assisted remote attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive, a related issue to CVE-2001-1267.
     Severity: MEDIUM
     CweIDs:
@@ -3822,7 +3839,7 @@
       DiffID: sha256:27ed7942fad6945764bc8dec75155a15271fd83f7691ab7a2a2a70794d84e883
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2007-4559
-    Title: tarfile module directory traversal
+    Title: 'python: tarfile module directory traversal'
     Description: Directory traversal vulnerability in the (1) extract and (2) extractall functions in the tarfile module in Python allows user-assisted remote attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive, a related issue to CVE-2001-1267.
     Severity: MEDIUM
     CweIDs:
@@ -4058,7 +4075,7 @@
       DiffID: sha256:27ed7942fad6945764bc8dec75155a15271fd83f7691ab7a2a2a70794d84e883
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2007-4559
-    Title: tarfile module directory traversal
+    Title: 'python: tarfile module directory traversal'
     Description: Directory traversal vulnerability in the (1) extract and (2) extractall functions in the tarfile module in Python allows user-assisted remote attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive, a related issue to CVE-2001-1267.
     Severity: MEDIUM
     CweIDs:
@@ -4472,38 +4489,3 @@
     - https://www.openwall.com/lists/oss-security/2022/01/10/2
     PublishedDate: '2022-08-23T20:15:00Z'
     LastModifiedDate: '2023-05-03T12:15:00Z'
-  - VulnerabilityID: CVE-2023-45853
-    PkgID: zlib@1.2.11-39.el9.x86_64
-    PkgName: zlib
-    InstalledVersion: 1.2.11-39.el9
-    Status: affected
-    Layer:
-      Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a32341a7352b0435155277e54fc0cd1
-      DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127a1ba578362e7ef9ce66406a679
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45853
-    Title: 'zlib: integer overflow and resultant heap-based buffer overflow in zipOpenNewFileInZip4_6'
-    Description: 'MiniZip in zlib through 1.3 has an integer overflow and resultant heap-based buffer overflow in zipOpenNewFileInZip4_64 via a long filename, comment, or extra field. NOTE: MiniZip is not a supported part of the zlib product.'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-190
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 9.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2023/10/20/9
-    - https://access.redhat.com/security/cve/CVE-2023-45853
-    - https://chromium.googlesource.com/chromium/src/+/d709fb23806858847131027da95ef4c548813356
-    - https://chromium.googlesource.com/chromium/src/+/de29dd6c7151d3cd37cb4cf0036800ddfb1d8b61
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45853
-    - https://github.com/madler/zlib/blob/ac8f12c97d1afd9bafa9c710f827d40a407d3266/contrib/README.contrib#L1-L4
-    - https://github.com/madler/zlib/pull/843
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-45853
-    - https://www.cve.org/CVERecord?id=CVE-2023-45853
-    - https://www.winimage.com/zLibDll/minizip.html
-    PublishedDate: '2023-10-14T02:15:00Z'
-    LastModifiedDate: '2023-10-20T21:15:00Z'

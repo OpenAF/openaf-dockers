@@ -106,7 +106,7 @@
                         │       │                            3f7691ab7a2a2a70794d84e883 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-1981 
-                        │       ├ Title           : avahi-daemon can be crashed via DBus 
+                        │       ├ Title           : avahi: avahi-daemon can be crashed via DBus 
                         │       ├ Description     : A vulnerability was found in the avahi library. This
                         │       │                   flaw allows an unprivileged user to make a dbus call,
                         │       │                   causing the avahi daemon to crash. 
@@ -399,7 +399,7 @@
                         │       │                            3f7691ab7a2a2a70794d84e883 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-32324 
-                        │       ├ Title           : heap buffer overflow may lead to DoS 
+                        │       ├ Title           : cups: heap buffer overflow may lead to DoS 
                         │       ├ Description     : OpenPrinting CUPS is an open source printing system.
                         │       │                   In versions 2.4.2 and prior, a heap buffer overflow
                         │       │                   vulnerability would allow a remote attacker to launch a
@@ -446,7 +446,8 @@
                         │       │                            3f7691ab7a2a2a70794d84e883 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-34241 
-                        │       ├ Title           : use-after-free in cupsdAcceptClient() in scheduler/client.c 
+                        │       ├ Title           : cups: use-after-free in cupsdAcceptClient() in
+                        │       │                   scheduler/client.c 
                         │       ├ Description     : OpenPrinting CUPS is a standards-based, open source
                         │       │                   printing system for Linux and other Unix-like operating
                         │       │                   systems. Starting in version 2.0.0 and prior to version
@@ -672,21 +673,26 @@
                         │       │                  │       -38545 
                         │       │                  ├ [2] : https://bugzilla.redhat.com/2241933 
                         │       │                  ├ [3] : https://bugzilla.redhat.com/2241938 
-                        │       │                  ├ [4] : https://curl.se/docs/CVE-2023-38545.html 
-                        │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                        │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2241933 
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2241938 
+                        │       │                  ├ [6] : https://curl.se/docs/CVE-2023-38545.html 
+                        │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
                         │       │                  │       CVE-2023-38545 
-                        │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2023-5763.html 
-                        │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2023-38545.html 
-                        │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2023-5763.html 
-                        │       │                  ├ [9] : https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                        │       │                  │       CVE-2023-38546 
+                        │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-5763.html 
+                        │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2023:5763 
+                        │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-38545.html 
+                        │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2023-5763.html 
+                        │       │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/OGMX
                         │       │                  │       NRNSJ4ETDK6FRNU3J7SABXPWCHSQ/ 
-                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-38545 
-                        │       │                  ├ [11]: https://security.netapp.com/advisory/ntap-20231
+                        │       │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2023-38545 
+                        │       │                  ├ [15]: https://security.netapp.com/advisory/ntap-20231
                         │       │                  │       027-0009/ 
-                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6429-1 
-                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-6429-3 
-                        │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2023-38545 
+                        │       │                  ├ [16]: https://ubuntu.com/security/notices/USN-6429-1 
+                        │       │                  ├ [17]: https://ubuntu.com/security/notices/USN-6429-3 
+                        │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2023-38545 
                         │       ├ PublishedDate   : 2023-10-18T04:15:00Z 
                         │       ╰ LastModifiedDate: 2023-10-28T03:15:00Z 
                         ├ [15]  ╭ VulnerabilityID : CVE-2023-27536 
@@ -702,7 +708,7 @@
                         │       │                            a1ba578362e7ef9ce66406a679 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27536 
-                        │       ├ Title           : GSS delegation too eager connection re-use 
+                        │       ├ Title           : curl: GSS delegation too eager connection re-use 
                         │       ├ Description     : An authentication bypass vulnerability exists libcurl
                         │       │                   <8.0.0 in the connection reuse feature which can reuse
                         │       │                   previously established connections with incorrect user
@@ -955,28 +961,33 @@
                         │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
                         │       │                  │        │           :N/I:L/A:N 
                         │       │                  │        ╰ V3Score : 3.7 
-                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C
-                        │       │                           │           :L/I:L/A:L 
-                        │       │                           ╰ V3Score : 5 
+                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+                        │       │                           │           :N/I:L/A:N 
+                        │       │                           ╰ V3Score : 3.7 
                         │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5763 
                         │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
                         │       │                  │       -38546 
                         │       │                  ├ [2] : https://bugzilla.redhat.com/2241933 
                         │       │                  ├ [3] : https://bugzilla.redhat.com/2241938 
-                        │       │                  ├ [4] : https://curl.se/docs/CVE-2023-38546.html 
-                        │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                        │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2241933 
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2241938 
+                        │       │                  ├ [6] : https://curl.se/docs/CVE-2023-38546.html 
+                        │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                        │       │                  │       CVE-2023-38545 
+                        │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
                         │       │                  │       CVE-2023-38546 
-                        │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2023-5763.html 
-                        │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2023-38546.html 
-                        │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2023-5763.html 
-                        │       │                  ├ [9] : https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-5763.html 
+                        │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2023:5763 
+                        │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-38546.html 
+                        │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2023-5763.html 
+                        │       │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/OGMX
                         │       │                  │       NRNSJ4ETDK6FRNU3J7SABXPWCHSQ/ 
-                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-38546 
-                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-6429-1 
-                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6429-2 
-                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-6429-3 
-                        │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2023-38546 
+                        │       │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2023-38546 
+                        │       │                  ├ [15]: https://ubuntu.com/security/notices/USN-6429-1 
+                        │       │                  ├ [16]: https://ubuntu.com/security/notices/USN-6429-2 
+                        │       │                  ├ [17]: https://ubuntu.com/security/notices/USN-6429-3 
+                        │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2023-38546 
                         │       ├ PublishedDate   : 2023-10-18T04:15:00Z 
                         │       ╰ LastModifiedDate: 2023-10-28T03:15:00Z 
                         ├ [20]  ╭ VulnerabilityID : CVE-2022-48554 
@@ -1190,8 +1201,8 @@
                         │       │                            a1ba578362e7ef9ce66406a679 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-32665 
-                        │       ├ Title           : GVariant deserialisation does not match spec for
-                        │       │                   non-normal data 
+                        │       ├ Title           : glib: GVariant deserialisation does not match spec for
+                        │       │                    non-normal data 
                         │       ├ Description     : A flaw was found in GLib. GVariant deserialization is
                         │       │                   vulnerable to an exponential blowup issue where a crafted
                         │       │                   GVariant can cause excessive processing, leading to denial
@@ -1332,46 +1343,47 @@
                         │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
                         │       │                           │           :N/I:N/A:H 
                         │       │                           ╰ V3Score : 7.5 
-                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4175 
+                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4177 
                         │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
                         │       │                  │       -25193 
                         │       │                  ├ [2] : https://bugzilla.redhat.com/2167254 
                         │       │                  ├ [3] : https://bugzilla.redhat.com/2221626 
                         │       │                  ├ [4] : https://bugzilla.redhat.com/2221634 
-                        │       │                  ├ [5] : https://bugzilla.redhat.com/2221645 
-                        │       │                  ├ [6] : https://bugzilla.redhat.com/2221647 
-                        │       │                  ├ [7] : https://bugzilla.redhat.com/2223207 
-                        │       │                  ├ [8] : https://chromium.googlesource.com/chromium/src/
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/2221642 
+                        │       │                  ├ [6] : https://bugzilla.redhat.com/2221645 
+                        │       │                  ├ [7] : https://bugzilla.redhat.com/2221647 
+                        │       │                  ├ [8] : https://bugzilla.redhat.com/2223207 
+                        │       │                  ├ [9] : https://chromium.googlesource.com/chromium/src/
                         │       │                  │       +/e1f324aa681af54101c1f2d173d92adb80e37088/DEPS#361
                         │       │                  │       [m 
-                        │       │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                        │       │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
                         │       │                  │       CVE-2023-25193 
-                        │       │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2023-4175.html 
-                        │       │                  ├ [11]: https://github.com/harfbuzz/harfbuzz/blob/2822b
+                        │       │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-4177.html 
+                        │       │                  ├ [12]: https://github.com/harfbuzz/harfbuzz/blob/2822b
                         │       │                  │       589bc837fae6f66233e2cf2eef0f6ce8470/src/hb-ot-layout
                         │       │                  │       -gsubgpos.hh 
-                        │       │                  ├ [12]: https://github.com/harfbuzz/harfbuzz/commit/85b
-                        │       │                  │       e877925ddbf34f74a1229f3ca1716bb6170dc 
                         │       │                  ├ [13]: https://github.com/harfbuzz/harfbuzz/commit/85b
+                        │       │                  │       e877925ddbf34f74a1229f3ca1716bb6170dc 
+                        │       │                  ├ [14]: https://github.com/harfbuzz/harfbuzz/commit/85b
                         │       │                  │       e877925ddbf34f74a1229f3ca1716bb6170dc
                         │       │                  │       (reverted) 
-                        │       │                  ├ [14]: https://linux.oracle.com/cve/CVE-2023-25193.html 
-                        │       │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2023-4233.html 
-                        │       │                  ├ [16]: https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [15]: https://linux.oracle.com/cve/CVE-2023-25193.html 
+                        │       │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2023-4233.html 
+                        │       │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce%40lists.fedoraproject.org/message/KW
                         │       │                  │       CHWSICWVZSAXP2YAXM65JC2GR53547/ 
-                        │       │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce%40lists.fedoraproject.org/message/YZ
                         │       │                  │       5M2GSAIHFPLHYJXUPQ2QDJCLWXUGO3/ 
-                        │       │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [19]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/KWCH
                         │       │                  │       WSICWVZSAXP2YAXM65JC2GR53547/ 
-                        │       │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-25193 
-                        │       │                  ├ [20]: https://security.netapp.com/advisory/ntap-20230
+                        │       │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2023-25193 
+                        │       │                  ├ [21]: https://security.netapp.com/advisory/ntap-20230
                         │       │                  │       725-0006/ 
-                        │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-6263-1 
-                        │       │                  ├ [22]: https://ubuntu.com/security/notices/USN-6272-1 
-                        │       │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2023-25193 
+                        │       │                  ├ [22]: https://ubuntu.com/security/notices/USN-6263-1 
+                        │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-6272-1 
+                        │       │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2023-25193 
                         │       ├ PublishedDate   : 2023-02-04T20:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T04:08:00Z 
                         ├ [29]  ╭ VulnerabilityID : CVE-2022-3857 
@@ -1589,21 +1601,26 @@
                         │       │                  │       -38545 
                         │       │                  ├ [2] : https://bugzilla.redhat.com/2241933 
                         │       │                  ├ [3] : https://bugzilla.redhat.com/2241938 
-                        │       │                  ├ [4] : https://curl.se/docs/CVE-2023-38545.html 
-                        │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                        │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2241933 
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2241938 
+                        │       │                  ├ [6] : https://curl.se/docs/CVE-2023-38545.html 
+                        │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
                         │       │                  │       CVE-2023-38545 
-                        │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2023-5763.html 
-                        │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2023-38545.html 
-                        │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2023-5763.html 
-                        │       │                  ├ [9] : https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                        │       │                  │       CVE-2023-38546 
+                        │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-5763.html 
+                        │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2023:5763 
+                        │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-38545.html 
+                        │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2023-5763.html 
+                        │       │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/OGMX
                         │       │                  │       NRNSJ4ETDK6FRNU3J7SABXPWCHSQ/ 
-                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-38545 
-                        │       │                  ├ [11]: https://security.netapp.com/advisory/ntap-20231
+                        │       │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2023-38545 
+                        │       │                  ├ [15]: https://security.netapp.com/advisory/ntap-20231
                         │       │                  │       027-0009/ 
-                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6429-1 
-                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-6429-3 
-                        │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2023-38545 
+                        │       │                  ├ [16]: https://ubuntu.com/security/notices/USN-6429-1 
+                        │       │                  ├ [17]: https://ubuntu.com/security/notices/USN-6429-3 
+                        │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2023-38545 
                         │       ├ PublishedDate   : 2023-10-18T04:15:00Z 
                         │       ╰ LastModifiedDate: 2023-10-28T03:15:00Z 
                         ├ [34]  ╭ VulnerabilityID : CVE-2023-27536 
@@ -1619,7 +1636,7 @@
                         │       │                            a1ba578362e7ef9ce66406a679 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27536 
-                        │       ├ Title           : GSS delegation too eager connection re-use 
+                        │       ├ Title           : curl: GSS delegation too eager connection re-use 
                         │       ├ Description     : An authentication bypass vulnerability exists libcurl
                         │       │                   <8.0.0 in the connection reuse feature which can reuse
                         │       │                   previously established connections with incorrect user
@@ -1872,28 +1889,33 @@
                         │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
                         │       │                  │        │           :N/I:L/A:N 
                         │       │                  │        ╰ V3Score : 3.7 
-                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C
-                        │       │                           │           :L/I:L/A:L 
-                        │       │                           ╰ V3Score : 5 
+                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+                        │       │                           │           :N/I:L/A:N 
+                        │       │                           ╰ V3Score : 3.7 
                         │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5763 
                         │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
                         │       │                  │       -38546 
                         │       │                  ├ [2] : https://bugzilla.redhat.com/2241933 
                         │       │                  ├ [3] : https://bugzilla.redhat.com/2241938 
-                        │       │                  ├ [4] : https://curl.se/docs/CVE-2023-38546.html 
-                        │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                        │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2241933 
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2241938 
+                        │       │                  ├ [6] : https://curl.se/docs/CVE-2023-38546.html 
+                        │       │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                        │       │                  │       CVE-2023-38545 
+                        │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
                         │       │                  │       CVE-2023-38546 
-                        │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2023-5763.html 
-                        │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2023-38546.html 
-                        │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2023-5763.html 
-                        │       │                  ├ [9] : https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-5763.html 
+                        │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2023:5763 
+                        │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-38546.html 
+                        │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2023-5763.html 
+                        │       │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/OGMX
                         │       │                  │       NRNSJ4ETDK6FRNU3J7SABXPWCHSQ/ 
-                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-38546 
-                        │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-6429-1 
-                        │       │                  ├ [12]: https://ubuntu.com/security/notices/USN-6429-2 
-                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-6429-3 
-                        │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2023-38546 
+                        │       │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2023-38546 
+                        │       │                  ├ [15]: https://ubuntu.com/security/notices/USN-6429-1 
+                        │       │                  ├ [16]: https://ubuntu.com/security/notices/USN-6429-2 
+                        │       │                  ├ [17]: https://ubuntu.com/security/notices/USN-6429-3 
+                        │       │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2023-38546 
                         │       ├ PublishedDate   : 2023-10-18T04:15:00Z 
                         │       ╰ LastModifiedDate: 2023-10-28T03:15:00Z 
                         ├ [39]  ╭ VulnerabilityID : CVE-2023-4039 
@@ -2047,7 +2069,7 @@
                         │       │                  │        3/10/19/6 
                         │       │                  ├ [5]  : http://www.openwall.com/lists/oss-security/202
                         │       │                  │        3/10/20/8 
-                        │       │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5989 
+                        │       │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:6120 
                         │       │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-202
                         │       │                  │        3-44487 
                         │       │                  ├ [8]  : https://access.redhat.com/security/cve/cve-202
@@ -2092,8 +2114,8 @@
                         │       │                  │        7/59715 
                         │       │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-t
                         │       │                  │        he-tale-of-a-hidden-cve 
-                        │       │                  ├ [29] : https://errata.almalinux.org/8/ALSA-2023-5989.html 
-                        │       │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5928 
+                        │       │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6120.html 
+                        │       │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
                         │       │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-sec
                         │       │                  │        urity-update-cve-2023-44487-http-2-dos/67764
                         │       │                  │        [m 
@@ -2670,8 +2692,8 @@
                         │       │                            a1ba578362e7ef9ce66406a679 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29491 
-                        │       ├ Title           : Local users can trigger security-relevant memory
-                        │       │                   corruption via malformed data 
+                        │       ├ Title           : ncurses: Local users can trigger security-relevant
+                        │       │                   memory corruption via malformed data 
                         │       ├ Description     : ncurses before 6.4 20230408, when used by a setuid
                         │       │                   application, allows local users to trigger
                         │       │                   security-relevant memory corruption via malformed data in a
@@ -2780,8 +2802,8 @@
                         │       │                            a1ba578362e7ef9ce66406a679 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29491 
-                        │       ├ Title           : Local users can trigger security-relevant memory
-                        │       │                   corruption via malformed data 
+                        │       ├ Title           : ncurses: Local users can trigger security-relevant
+                        │       │                   memory corruption via malformed data 
                         │       ├ Description     : ncurses before 6.4 20230408, when used by a setuid
                         │       │                   application, allows local users to trigger
                         │       │                   security-relevant memory corruption via malformed data in a
@@ -4318,7 +4340,7 @@
                         │       │                            3f7691ab7a2a2a70794d84e883 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2007-4559 
-                        │       ├ Title           : tarfile module directory traversal 
+                        │       ├ Title           : python: tarfile module directory traversal 
                         │       ├ Description     : Directory traversal vulnerability in the (1) extract
                         │       │                   and (2) extractall functions in the tarfile module in
                         │       │                   Python allows user-assisted remote attackers to overwrite
@@ -4668,7 +4690,7 @@
                         │       │                            3f7691ab7a2a2a70794d84e883 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2007-4559 
-                        │       ├ Title           : tarfile module directory traversal 
+                        │       ├ Title           : python: tarfile module directory traversal 
                         │       ├ Description     : Directory traversal vulnerability in the (1) extract
                         │       │                   and (2) extractall functions in the tarfile module in
                         │       │                   Python allows user-assisted remote attackers to overwrite
@@ -5018,7 +5040,7 @@
                         │       │                            3f7691ab7a2a2a70794d84e883 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2007-4559 
-                        │       ├ Title           : tarfile module directory traversal 
+                        │       ├ Title           : python: tarfile module directory traversal 
                         │       ├ Description     : Directory traversal vulnerability in the (1) extract
                         │       │                   and (2) extractall functions in the tarfile module in
                         │       │                   Python allows user-assisted remote attackers to overwrite
@@ -5368,7 +5390,7 @@
                         │       │                            3f7691ab7a2a2a70794d84e883 
                         │       ├ SeveritySource  : redhat 
                         │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2007-4559 
-                        │       ├ Title           : tarfile module directory traversal 
+                        │       ├ Title           : python: tarfile module directory traversal 
                         │       ├ Description     : Directory traversal vulnerability in the (1) extract
                         │       │                   and (2) extractall functions in the tarfile module in
                         │       │                   Python allows user-assisted remote attackers to overwrite
@@ -5827,87 +5849,43 @@
                         │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28487 
                         │       ├ PublishedDate   : 2023-03-16T01:15:00Z 
                         │       ╰ LastModifiedDate: 2023-11-02T01:58:00Z 
-                        ├ [102] ╭ VulnerabilityID : CVE-2021-3997 
-                        │       ├ PkgID           : systemd-libs@252-14.el9_2.3.x86_64 
-                        │       ├ PkgName         : systemd-libs 
-                        │       ├ InstalledVersion: 252-14.el9_2.3 
-                        │       ├ Status          : affected 
-                        │       ├ Layer            ╭ Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a3234
-                        │       │                  │         1a7352b0435155277e54fc0cd1 
-                        │       │                  ╰ DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127
-                        │       │                            a1ba578362e7ef9ce66406a679 
-                        │       ├ SeveritySource  : redhat 
-                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-3997 
-                        │       ├ Title           : Uncontrolled recursion in systemd-tmpfiles when
-                        │       │                   removing files 
-                        │       ├ Description     : A flaw was found in systemd. An uncontrolled recursion
-                        │       │                    in systemd-tmpfiles may lead to a denial of service at
-                        │       │                   boot time when too many nested directories are created in
-                        │       │                   /tmp. 
-                        │       ├ Severity        : MEDIUM 
-                        │       ├ CweIDs           ─ [0]: CWE-674 
-                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
-                        │       │                  │        │           :N/I:N/A:H 
-                        │       │                  │        ╰ V3Score : 5.5 
-                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
-                        │       │                           │           :N/I:N/A:H 
-                        │       │                           ╰ V3Score : 5.5 
-                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-3997 
-                        │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2024639 
-                        │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-                        │       │                  │      VE-2021-3997 
-                        │       │                  ├ [3]: https://github.com/systemd/systemd/commit/5b1cf7
-                        │       │                  │      a9be37e20133c0208005274ce4a5b5c6a1 
-                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2021-3997 
-                        │       │                  ├ [5]: https://security.gentoo.org/glsa/202305-15 
-                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-5226-1 
-                        │       │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2021-3997 
-                        │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2022
-                        │       │                         /01/10/2 
-                        │       ├ PublishedDate   : 2022-08-23T20:15:00Z 
-                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-                        ╰ [103] ╭ VulnerabilityID : CVE-2023-45853 
-                                ├ PkgID           : zlib@1.2.11-39.el9.x86_64 
-                                ├ PkgName         : zlib 
-                                ├ InstalledVersion: 1.2.11-39.el9 
+                        ╰ [102] ╭ VulnerabilityID : CVE-2021-3997 
+                                ├ PkgID           : systemd-libs@252-14.el9_2.3.x86_64 
+                                ├ PkgName         : systemd-libs 
+                                ├ InstalledVersion: 252-14.el9_2.3 
                                 ├ Status          : affected 
                                 ├ Layer            ╭ Digest: sha256:2f5211d9dccf1de31345273282bf9a4f2a3234
                                 │                  │         1a7352b0435155277e54fc0cd1 
                                 │                  ╰ DiffID: sha256:e2604a9fd705f67f7a2ea9b96d25dea750b127
                                 │                            a1ba578362e7ef9ce66406a679 
                                 ├ SeveritySource  : redhat 
-                                ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45853 
-                                ├ Title           : zlib: integer overflow and resultant heap-based buffer
-                                │                    overflow in zipOpenNewFileInZip4_6 
-                                ├ Description     : MiniZip in zlib through 1.3 has an integer overflow
-                                │                   and resultant heap-based buffer overflow in
-                                │                   zipOpenNewFileInZip4_64 via a long filename, comment, or
-                                │                   extra field. NOTE: MiniZip is not a supported part of the
-                                │                   zlib product. 
+                                ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-3997 
+                                ├ Title           : Uncontrolled recursion in systemd-tmpfiles when
+                                │                   removing files 
+                                ├ Description     : A flaw was found in systemd. An uncontrolled recursion
+                                │                    in systemd-tmpfiles may lead to a denial of service at
+                                │                   boot time when too many nested directories are created in
+                                │                   /tmp. 
                                 ├ Severity        : MEDIUM 
-                                ├ CweIDs           ─ [0]: CWE-190 
-                                ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-                                │                  │        │           :H/I:H/A:H 
-                                │                  │        ╰ V3Score : 9.8 
-                                │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
-                                │                           │           :L/I:L/A:L 
-                                │                           ╰ V3Score : 5.3 
-                                ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
-                                │                  │      10/20/9 
-                                │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-45853 
-                                │                  ├ [2]: https://chromium.googlesource.com/chromium/src/+
-                                │                  │      /d709fb23806858847131027da95ef4c548813356 
-                                │                  ├ [3]: https://chromium.googlesource.com/chromium/src/+
-                                │                  │      /de29dd6c7151d3cd37cb4cf0036800ddfb1d8b61 
-                                │                  ├ [4]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-                                │                  │      VE-2023-45853 
-                                │                  ├ [5]: https://github.com/madler/zlib/blob/ac8f12c97d1a
-                                │                  │      fd9bafa9c710f827d40a407d3266/contrib/README.contrib#L
-                                │                  │      1-L4 
-                                │                  ├ [6]: https://github.com/madler/zlib/pull/843 
-                                │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-45853 
-                                │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-45853 
-                                │                  ╰ [9]: https://www.winimage.com/zLibDll/minizip.html 
-                                ├ PublishedDate   : 2023-10-14T02:15:00Z 
-                                ╰ LastModifiedDate: 2023-10-20T21:15:00Z 
+                                ├ CweIDs           ─ [0]: CWE-674 
+                                ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+                                │                  │        │           :N/I:N/A:H 
+                                │                  │        ╰ V3Score : 5.5 
+                                │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+                                │                           │           :N/I:N/A:H 
+                                │                           ╰ V3Score : 5.5 
+                                ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-3997 
+                                │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2024639 
+                                │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                                │                  │      VE-2021-3997 
+                                │                  ├ [3]: https://github.com/systemd/systemd/commit/5b1cf7
+                                │                  │      a9be37e20133c0208005274ce4a5b5c6a1 
+                                │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2021-3997 
+                                │                  ├ [5]: https://security.gentoo.org/glsa/202305-15 
+                                │                  ├ [6]: https://ubuntu.com/security/notices/USN-5226-1 
+                                │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2021-3997 
+                                │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2022
+                                │                         /01/10/2 
+                                ├ PublishedDate   : 2022-08-23T20:15:00Z 
+                                ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
 ````
