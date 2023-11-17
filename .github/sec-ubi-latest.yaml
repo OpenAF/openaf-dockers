@@ -319,7 +319,7 @@
       DiffID: sha256:80c0d7946d02825018d47fbf34df054bec5dc433ae20f71ffabd8d3725448837
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48554
-    Title: stack-based buffer over-read in file_copystr in funcs.c
+    Title: 'file: stack-based buffer over-read in file_copystr in funcs.c'
     Description: 'File before 5.43 has an stack-based buffer over-read in file_copystr in funcs.c. NOTE: "File" is the name of an Open Source project.'
     Severity: LOW
     CweIDs:
@@ -466,18 +466,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4177
+    - https://access.redhat.com/errata/RHSA-2023:4175
     - https://access.redhat.com/security/cve/CVE-2023-25193
     - https://bugzilla.redhat.com/2167254
     - https://bugzilla.redhat.com/2221626
     - https://bugzilla.redhat.com/2221634
-    - https://bugzilla.redhat.com/2221642
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
     - https://bugzilla.redhat.com/2223207
     - https://chromium.googlesource.com/chromium/src/+/e1f324aa681af54101c1f2d173d92adb80e37088/DEPS#361
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25193
-    - https://errata.almalinux.org/9/ALSA-2023-4177.html
+    - https://errata.almalinux.org/8/ALSA-2023-4175.html
     - https://github.com/harfbuzz/harfbuzz/blob/2822b589bc837fae6f66233e2cf2eef0f6ce8470/src/hb-ot-layout-gsubgpos.hh
     - https://github.com/harfbuzz/harfbuzz/commit/85be877925ddbf34f74a1229f3ca1716bb6170dc
     - https://github.com/harfbuzz/harfbuzz/commit/85be877925ddbf34f74a1229f3ca1716bb6170dc (reverted)
@@ -1629,7 +1628,12 @@
       The OpenSSL 3.0 and 3.1 FIPS providers are not affected by this issue.
 
     Severity: LOW
+    CweIDs:
+    - CWE-754
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
@@ -1644,7 +1648,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-5678
     - https://www.openssl.org/news/secadv/20231106.txt
     PublishedDate: '2023-11-06T16:15:00Z'
-    LastModifiedDate: '2023-11-07T14:15:00Z'
+    LastModifiedDate: '2023-11-14T17:46:00Z'
   - VulnerabilityID: CVE-2023-5363
     PkgID: openssl-libs@3.0.7-24.el9.x86_64
     PkgName: openssl-libs
@@ -1965,7 +1969,12 @@
       The OpenSSL 3.0 and 3.1 FIPS providers are not affected by this issue.
 
     Severity: LOW
+    CweIDs:
+    - CWE-754
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
@@ -1980,7 +1989,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-5678
     - https://www.openssl.org/news/secadv/20231106.txt
     PublishedDate: '2023-11-06T16:15:00Z'
-    LastModifiedDate: '2023-11-07T14:15:00Z'
+    LastModifiedDate: '2023-11-14T17:46:00Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python-unversioned-command@3.9.18-1.el9_3.noarch
     PkgName: python-unversioned-command
@@ -2614,6 +2623,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2018-25091
     - https://security.snyk.io/vuln/SNYK-PYTHON-URLLIB3-5969479
     - https://ubuntu.com/security/notices/USN-6473-1
+    - https://ubuntu.com/security/notices/USN-6473-2
     - https://www.cve.org/CVERecord?id=CVE-2018-25091
     PublishedDate: '2023-10-15T19:15:00Z'
     LastModifiedDate: '2023-10-19T14:01:00Z'
