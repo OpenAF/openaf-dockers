@@ -319,7 +319,7 @@
       DiffID: sha256:80c0d7946d02825018d47fbf34df054bec5dc433ae20f71ffabd8d3725448837
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48554
-    Title: stack-based buffer over-read in file_copystr in funcs.c
+    Title: 'file: stack-based buffer over-read in file_copystr in funcs.c'
     Description: 'File before 5.43 has an stack-based buffer over-read in file_copystr in funcs.c. NOTE: "File" is the name of an Open Source project.'
     Severity: LOW
     CweIDs:
@@ -466,18 +466,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4177
+    - https://access.redhat.com/errata/RHSA-2023:4175
     - https://access.redhat.com/security/cve/CVE-2023-25193
     - https://bugzilla.redhat.com/2167254
     - https://bugzilla.redhat.com/2221626
     - https://bugzilla.redhat.com/2221634
-    - https://bugzilla.redhat.com/2221642
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
     - https://bugzilla.redhat.com/2223207
     - https://chromium.googlesource.com/chromium/src/+/e1f324aa681af54101c1f2d173d92adb80e37088/DEPS#361
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25193
-    - https://errata.almalinux.org/9/ALSA-2023-4177.html
+    - https://errata.almalinux.org/8/ALSA-2023-4175.html
     - https://github.com/harfbuzz/harfbuzz/blob/2822b589bc837fae6f66233e2cf2eef0f6ce8470/src/hb-ot-layout-gsubgpos.hh
     - https://github.com/harfbuzz/harfbuzz/commit/85be877925ddbf34f74a1229f3ca1716bb6170dc
     - https://github.com/harfbuzz/harfbuzz/commit/85be877925ddbf34f74a1229f3ca1716bb6170dc (reverted)
@@ -2117,78 +2116,6 @@
     - https://www.oracle.com/security-alerts/cpuapr2022.html
     PublishedDate: '2022-02-09T23:15:00Z'
     LastModifiedDate: '2023-11-07T03:41:00Z'
-  - VulnerabilityID: CVE-2022-48560
-    PkgID: python-unversioned-command@3.9.18-1.el9_3.noarch
-    PkgName: python-unversioned-command
-    InstalledVersion: 3.9.18-1.el9_3
-    Status: under_investigation
-    Layer:
-      Digest: sha256:cfbba5939963c18f6f27483adb7b8f0a7f7633fcc43f816ccd43853ec46738b3
-      DiffID: sha256:b9f19f0fded6bc2afd5af2578c932dee3b1422862c3bf65dbcae17671709c298
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48560
-    Title: 'python: use after free in heappushpop() of heapq module'
-    Description: A use-after-free exists in Python through 3.9 via heappushpop in heapq.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-48560
-    - https://bugs.python.org/issue39421
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48560
-    - https://github.com/python/cpython/commit/79f89e6e5a659846d1068e8b1bd8e491ccdef861 (v3.9.0a3)
-    - https://github.com/python/cpython/commit/958064f8d2b84062b0582bbae911df8ccfc11fd6 (v3.7.7rc1)
-    - https://github.com/python/cpython/issues/83602
-    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00017.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-48560
-    - https://security.netapp.com/advisory/ntap-20230929-0008/
-    - https://ubuntu.com/security/notices/USN-6394-1
-    - https://ubuntu.com/security/notices/USN-6394-2
-    - https://www.cve.org/CVERecord?id=CVE-2022-48560
-    PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-10-11T23:15:00Z'
-  - VulnerabilityID: CVE-2022-48564
-    PkgID: python-unversioned-command@3.9.18-1.el9_3.noarch
-    PkgName: python-unversioned-command
-    InstalledVersion: 3.9.18-1.el9_3
-    Status: under_investigation
-    Layer:
-      Digest: sha256:cfbba5939963c18f6f27483adb7b8f0a7f7633fcc43f816ccd43853ec46738b3
-      DiffID: sha256:b9f19f0fded6bc2afd5af2578c932dee3b1422862c3bf65dbcae17671709c298
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48564
-    Title: 'python: DoS when processing malformed Apple Property List files in binary format'
-    Description: read_ints in plistlib.py in Python through 3.9.1 is vulnerable to a potential DoS attack via CPU and RAM exhaustion when processing malformed Apple Property List files in binary format.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-400
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-48564
-    - https://bugs.python.org/issue42103
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00017.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-48564
-    - https://security.netapp.com/advisory/ntap-20230929-0009/
-    - https://www.cve.org/CVERecord?id=CVE-2022-48564
-    PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-10-11T23:15:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python-unversioned-command@3.9.18-1.el9_3.noarch
     PkgName: python-unversioned-command
@@ -2388,78 +2315,6 @@
     - https://www.oracle.com/security-alerts/cpuapr2022.html
     PublishedDate: '2022-02-09T23:15:00Z'
     LastModifiedDate: '2023-11-07T03:41:00Z'
-  - VulnerabilityID: CVE-2022-48560
-    PkgID: python3@3.9.18-1.el9_3.x86_64
-    PkgName: python3
-    InstalledVersion: 3.9.18-1.el9_3
-    Status: under_investigation
-    Layer:
-      Digest: sha256:cfbba5939963c18f6f27483adb7b8f0a7f7633fcc43f816ccd43853ec46738b3
-      DiffID: sha256:b9f19f0fded6bc2afd5af2578c932dee3b1422862c3bf65dbcae17671709c298
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48560
-    Title: 'python: use after free in heappushpop() of heapq module'
-    Description: A use-after-free exists in Python through 3.9 via heappushpop in heapq.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-48560
-    - https://bugs.python.org/issue39421
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48560
-    - https://github.com/python/cpython/commit/79f89e6e5a659846d1068e8b1bd8e491ccdef861 (v3.9.0a3)
-    - https://github.com/python/cpython/commit/958064f8d2b84062b0582bbae911df8ccfc11fd6 (v3.7.7rc1)
-    - https://github.com/python/cpython/issues/83602
-    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00017.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-48560
-    - https://security.netapp.com/advisory/ntap-20230929-0008/
-    - https://ubuntu.com/security/notices/USN-6394-1
-    - https://ubuntu.com/security/notices/USN-6394-2
-    - https://www.cve.org/CVERecord?id=CVE-2022-48560
-    PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-10-11T23:15:00Z'
-  - VulnerabilityID: CVE-2022-48564
-    PkgID: python3@3.9.18-1.el9_3.x86_64
-    PkgName: python3
-    InstalledVersion: 3.9.18-1.el9_3
-    Status: under_investigation
-    Layer:
-      Digest: sha256:cfbba5939963c18f6f27483adb7b8f0a7f7633fcc43f816ccd43853ec46738b3
-      DiffID: sha256:b9f19f0fded6bc2afd5af2578c932dee3b1422862c3bf65dbcae17671709c298
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48564
-    Title: 'python: DoS when processing malformed Apple Property List files in binary format'
-    Description: read_ints in plistlib.py in Python through 3.9.1 is vulnerable to a potential DoS attack via CPU and RAM exhaustion when processing malformed Apple Property List files in binary format.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-400
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-48564
-    - https://bugs.python.org/issue42103
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00017.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-48564
-    - https://security.netapp.com/advisory/ntap-20230929-0009/
-    - https://www.cve.org/CVERecord?id=CVE-2022-48564
-    PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-10-11T23:15:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3@3.9.18-1.el9_3.x86_64
     PkgName: python3
@@ -2659,78 +2514,6 @@
     - https://www.oracle.com/security-alerts/cpuapr2022.html
     PublishedDate: '2022-02-09T23:15:00Z'
     LastModifiedDate: '2023-11-07T03:41:00Z'
-  - VulnerabilityID: CVE-2022-48560
-    PkgID: python3-libs@3.9.18-1.el9_3.x86_64
-    PkgName: python3-libs
-    InstalledVersion: 3.9.18-1.el9_3
-    Status: under_investigation
-    Layer:
-      Digest: sha256:cfbba5939963c18f6f27483adb7b8f0a7f7633fcc43f816ccd43853ec46738b3
-      DiffID: sha256:b9f19f0fded6bc2afd5af2578c932dee3b1422862c3bf65dbcae17671709c298
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48560
-    Title: 'python: use after free in heappushpop() of heapq module'
-    Description: A use-after-free exists in Python through 3.9 via heappushpop in heapq.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-48560
-    - https://bugs.python.org/issue39421
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48560
-    - https://github.com/python/cpython/commit/79f89e6e5a659846d1068e8b1bd8e491ccdef861 (v3.9.0a3)
-    - https://github.com/python/cpython/commit/958064f8d2b84062b0582bbae911df8ccfc11fd6 (v3.7.7rc1)
-    - https://github.com/python/cpython/issues/83602
-    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00017.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-48560
-    - https://security.netapp.com/advisory/ntap-20230929-0008/
-    - https://ubuntu.com/security/notices/USN-6394-1
-    - https://ubuntu.com/security/notices/USN-6394-2
-    - https://www.cve.org/CVERecord?id=CVE-2022-48560
-    PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-10-11T23:15:00Z'
-  - VulnerabilityID: CVE-2022-48564
-    PkgID: python3-libs@3.9.18-1.el9_3.x86_64
-    PkgName: python3-libs
-    InstalledVersion: 3.9.18-1.el9_3
-    Status: under_investigation
-    Layer:
-      Digest: sha256:cfbba5939963c18f6f27483adb7b8f0a7f7633fcc43f816ccd43853ec46738b3
-      DiffID: sha256:b9f19f0fded6bc2afd5af2578c932dee3b1422862c3bf65dbcae17671709c298
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48564
-    Title: 'python: DoS when processing malformed Apple Property List files in binary format'
-    Description: read_ints in plistlib.py in Python through 3.9.1 is vulnerable to a potential DoS attack via CPU and RAM exhaustion when processing malformed Apple Property List files in binary format.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-400
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-48564
-    - https://bugs.python.org/issue42103
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00017.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-48564
-    - https://security.netapp.com/advisory/ntap-20230929-0009/
-    - https://www.cve.org/CVERecord?id=CVE-2022-48564
-    PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-10-11T23:15:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3-libs@3.9.18-1.el9_3.x86_64
     PkgName: python3-libs
