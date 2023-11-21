@@ -29,7 +29,8 @@
                         │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
                         │      │                  │      E-2023-38469 
                         │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-38469 
-                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-38469 
+                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-6487-1 
+                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-38469 
                         │      ├ PublishedDate   : 2023-11-02T15:15:00Z 
                         │      ╰ LastModifiedDate: 2023-11-09T19:58:00Z 
                         ├ [1]  ╭ VulnerabilityID : CVE-2023-38470 
@@ -60,7 +61,8 @@
                         │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
                         │      │                  │      E-2023-38470 
                         │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-38470 
-                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-38470 
+                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-6487-1 
+                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-38470 
                         │      ├ PublishedDate   : 2023-11-02T15:15:00Z 
                         │      ╰ LastModifiedDate: 2023-11-09T19:58:00Z 
                         ├ [2]  ╭ VulnerabilityID : CVE-2023-38471 
@@ -91,7 +93,8 @@
                         │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
                         │      │                  │      E-2023-38471 
                         │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-38471 
-                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-38471 
+                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-6487-1 
+                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-38471 
                         │      ├ PublishedDate   : 2023-11-02T15:15:00Z 
                         │      ╰ LastModifiedDate: 2023-11-09T19:58:00Z 
                         ├ [3]  ╭ VulnerabilityID : CVE-2023-38472 
@@ -122,7 +125,8 @@
                         │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
                         │      │                  │      E-2023-38472 
                         │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-38472 
-                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-38472 
+                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-6487-1 
+                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-38472 
                         │      ├ PublishedDate   : 2023-11-02T15:15:00Z 
                         │      ╰ LastModifiedDate: 2023-11-09T19:58:00Z 
                         ├ [4]  ╭ VulnerabilityID : CVE-2023-38473 
@@ -153,7 +157,8 @@
                         │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
                         │      │                  │      E-2023-38473 
                         │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-38473 
-                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-38473 
+                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-6487-1 
+                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-38473 
                         │      ├ PublishedDate   : 2023-11-02T16:15:00Z 
                         │      ╰ LastModifiedDate: 2023-11-09T17:46:00Z 
                         ├ [5]  ╭ VulnerabilityID : CVE-2017-6519 
@@ -229,7 +234,7 @@
                         │      │                    prompted by reporting of security issues in their systems.
                         │      │                   Certifi 2023.07.22 removes root certificates from "e-Tugra"
                         │      │                   from the root store. 
-                        │      ├ Severity        : MEDIUM 
+                        │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-345 
                         │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                  │        │           N/I:H/A:N 
@@ -2614,8 +2619,8 @@
                         │      │                            62c3bf65dbcae17671709c298 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
-                        │      ├ Title           : Parsing errors in email/_parseaddr.py lead to incorrect
-                        │      │                    value in email address part of tuple 
+                        │      ├ Title           : python: Parsing errors in email/_parseaddr.py lead to
+                        │      │                   incorrect value in email address part of tuple 
                         │      ├ Description     : The email module of Python through 3.11.3 incorrectly
                         │      │                   parses e-mail addresses that contain a special character.
                         │      │                   The wrong portion of an RFC2822 header is identified as the
@@ -2923,8 +2928,8 @@
                         │      │                            62c3bf65dbcae17671709c298 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
-                        │      ├ Title           : Parsing errors in email/_parseaddr.py lead to incorrect
-                        │      │                    value in email address part of tuple 
+                        │      ├ Title           : python: Parsing errors in email/_parseaddr.py lead to
+                        │      │                   incorrect value in email address part of tuple 
                         │      ├ Description     : The email module of Python through 3.11.3 incorrectly
                         │      │                   parses e-mail addresses that contain a special character.
                         │      │                   The wrong portion of an RFC2822 header is identified as the
@@ -3232,8 +3237,8 @@
                         │      │                            62c3bf65dbcae17671709c298 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
-                        │      ├ Title           : Parsing errors in email/_parseaddr.py lead to incorrect
-                        │      │                    value in email address part of tuple 
+                        │      ├ Title           : python: Parsing errors in email/_parseaddr.py lead to
+                        │      │                   incorrect value in email address part of tuple 
                         │      ├ Description     : The email module of Python through 3.11.3 incorrectly
                         │      │                   parses e-mail addresses that contain a special character.
                         │      │                   The wrong portion of an RFC2822 header is identified as the
