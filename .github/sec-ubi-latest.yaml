@@ -2492,46 +2492,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:00Z'
     LastModifiedDate: '2023-11-07T04:16:00Z'
-  - VulnerabilityID: CVE-2018-25091
-    PkgID: python3-pip-wheel@21.2.3-7.el9.noarch
-    PkgName: python3-pip-wheel
-    InstalledVersion: 21.2.3-7.el9
-    Status: under_investigation
-    Layer:
-      Digest: sha256:cfbba5939963c18f6f27483adb7b8f0a7f7633fcc43f816ccd43853ec46738b3
-      DiffID: sha256:b9f19f0fded6bc2afd5af2578c932dee3b1422862c3bf65dbcae17671709c298
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2018-25091
-    Title: 'urllib3: urllib3 does not remove the authorization HTTP header when following a cross-origin redirect'
-    Description: 'urllib3 before 1.24.2 does not remove the authorization HTTP header when following a cross-origin redirect (i.e., a redirect that differs in host, port, or scheme). This can allow for credentials in the authorization header to be exposed to unintended hosts or transmitted in cleartext. NOTE: this issue exists because of an incomplete fix for CVE-2018-20060 (which was case-sensitive).'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-601
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
-        V3Score: 6.1
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
-        V3Score: 6.1
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
-        V3Score: 6.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2018-25091
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-25091
-    - https://github.com/pypa/advisory-database/tree/main/vulns/urllib3/PYSEC-2023-207.yaml
-    - https://github.com/urllib3/urllib3
-    - https://github.com/urllib3/urllib3/commit/adb358f8e06865406d1f05e581a16cbea2136fbc
-    - https://github.com/urllib3/urllib3/compare/1.24.1...1.24.2
-    - https://github.com/urllib3/urllib3/issues/1510
-    - https://nvd.nist.gov/vuln/detail/CVE-2018-25091
-    - https://security.snyk.io/vuln/SNYK-PYTHON-URLLIB3-5969479
-    - https://ubuntu.com/security/notices/USN-6473-1
-    - https://ubuntu.com/security/notices/USN-6473-2
-    - https://www.cve.org/CVERecord?id=CVE-2018-25091
-    PublishedDate: '2023-10-15T19:15:00Z'
-    LastModifiedDate: '2023-10-19T14:01:00Z'
   - VulnerabilityID: CVE-2021-3572
     PkgID: python3-pip-wheel@21.2.3-7.el9.noarch
     PkgName: python3-pip-wheel
