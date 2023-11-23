@@ -540,8 +540,8 @@
                         │      │                            62c3bf65dbcae17671709c298 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-25193 
-                        │      ├ Title           : allows attackers to trigger O(n^2) growth via
-                        │      │                   consecutive marks 
+                        │      ├ Title           : harfbuzz: allows attackers to trigger O(n^2) growth via
+                        │      │                    consecutive marks 
                         │      ├ Description     : hb-ot-layout-gsubgpos.hh in HarfBuzz through 6.0.0
                         │      │                   allows attackers to trigger O(n^2) growth via consecutive
                         │      │                   marks during the process of looking back for base glyphs
@@ -1888,8 +1888,8 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-754 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-                        │      │                  │        │           N/I:N/A:H 
-                        │      │                  │        ╰ V3Score : 7.5 
+                        │      │                  │        │           N/I:N/A:L 
+                        │      │                  │        ╰ V3Score : 5.3 
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:L 
                         │      │                           ╰ V3Score : 5.3 
@@ -1912,7 +1912,7 @@
                         │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-5678 
                         │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20231106.txt 
                         │      ├ PublishedDate   : 2023-11-06T16:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-11-14T17:46:00Z 
+                        │      ╰ LastModifiedDate: 2023-11-21T16:54:00Z 
                         ├ [42] ╭ VulnerabilityID : CVE-2023-5363 
                         │      ├ PkgID           : openssl-libs@3.0.7-24.el9.x86_64 
                         │      ├ PkgName         : openssl-libs 
@@ -2371,8 +2371,8 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-754 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-                        │      │                  │        │           N/I:N/A:H 
-                        │      │                  │        ╰ V3Score : 7.5 
+                        │      │                  │        │           N/I:N/A:L 
+                        │      │                  │        ╰ V3Score : 5.3 
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:L 
                         │      │                           ╰ V3Score : 5.3 
@@ -2395,7 +2395,7 @@
                         │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-5678 
                         │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20231106.txt 
                         │      ├ PublishedDate   : 2023-11-06T16:15:00Z 
-                        │      ╰ LastModifiedDate: 2023-11-14T17:46:00Z 
+                        │      ╰ LastModifiedDate: 2023-11-21T16:54:00Z 
                         ├ [47] ╭ VulnerabilityID : CVE-2021-23336 
                         │      ├ PkgID           : python-unversioned-command@3.9.18-1.el9_3.noarch 
                         │      ├ PkgName         : python-unversioned-command 
@@ -2556,8 +2556,8 @@
                         │      │                            62c3bf65dbcae17671709c298 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-0391 
-                        │      ├ Title           : urllib.parse does not sanitize URLs containing ASCII
-                        │      │                   newline and tabs 
+                        │      ├ Title           : python: urllib.parse does not sanitize URLs containing
+                        │      │                   ASCII newline and tabs 
                         │      ├ Description     : A flaw was found in Python, specifically within the
                         │      │                   urllib.parse module. This module helps break Uniform
                         │      │                   Resource Locator (URL) strings into components. The issue
@@ -2865,8 +2865,8 @@
                         │      │                            62c3bf65dbcae17671709c298 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-0391 
-                        │      ├ Title           : urllib.parse does not sanitize URLs containing ASCII
-                        │      │                   newline and tabs 
+                        │      ├ Title           : python: urllib.parse does not sanitize URLs containing
+                        │      │                   ASCII newline and tabs 
                         │      ├ Description     : A flaw was found in Python, specifically within the
                         │      │                   urllib.parse module. This module helps break Uniform
                         │      │                   Resource Locator (URL) strings into components. The issue
@@ -3174,8 +3174,8 @@
                         │      │                            62c3bf65dbcae17671709c298 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-0391 
-                        │      ├ Title           : urllib.parse does not sanitize URLs containing ASCII
-                        │      │                   newline and tabs 
+                        │      ├ Title           : python: urllib.parse does not sanitize URLs containing
+                        │      │                   ASCII newline and tabs 
                         │      ├ Description     : A flaw was found in Python, specifically within the
                         │      │                   urllib.parse module. This module helps break Uniform
                         │      │                   Resource Locator (URL) strings into components. The issue
