@@ -459,7 +459,7 @@
       DiffID: sha256:b9f19f0fded6bc2afd5af2578c932dee3b1422862c3bf65dbcae17671709c298
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-25193
-    Title: allows attackers to trigger O(n^2) growth via consecutive marks
+    Title: 'harfbuzz: allows attackers to trigger O(n^2) growth via consecutive marks'
     Description: hb-ot-layout-gsubgpos.hh in HarfBuzz through 6.0.0 allows attackers to trigger O(n^2) growth via consecutive marks during the process of looking back for base glyphs when attaching marks.
     Severity: MEDIUM
     CweIDs:
@@ -1537,8 +1537,8 @@
     - CWE-754
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
@@ -1553,7 +1553,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-5678
     - https://www.openssl.org/news/secadv/20231106.txt
     PublishedDate: '2023-11-06T16:15:00Z'
-    LastModifiedDate: '2023-11-14T17:46:00Z'
+    LastModifiedDate: '2023-11-21T16:54:00Z'
   - VulnerabilityID: CVE-2023-5363
     PkgID: openssl-libs@3.0.7-24.el9.x86_64
     PkgName: openssl-libs
@@ -1878,8 +1878,8 @@
     - CWE-754
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
@@ -1894,7 +1894,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-5678
     - https://www.openssl.org/news/secadv/20231106.txt
     PublishedDate: '2023-11-06T16:15:00Z'
-    LastModifiedDate: '2023-11-14T17:46:00Z'
+    LastModifiedDate: '2023-11-21T16:54:00Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python-unversioned-command@3.9.18-1.el9_3.noarch
     PkgName: python-unversioned-command
@@ -1982,7 +1982,7 @@
       DiffID: sha256:b9f19f0fded6bc2afd5af2578c932dee3b1422862c3bf65dbcae17671709c298
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-0391
-    Title: urllib.parse does not sanitize URLs containing ASCII newline and tabs
+    Title: 'python: urllib.parse does not sanitize URLs containing ASCII newline and tabs'
     Description: A flaw was found in Python, specifically within the urllib.parse module. This module helps break Uniform Resource Locator (URL) strings into components. The issue involves how the urlparse method does not sanitize input and allows characters like '\r' and '\n' in the URL path. This flaw allows an attacker to input a crafted URL, leading to injection attacks. This flaw affects Python versions prior to 3.10.0b1, 3.9.5, 3.8.11, 3.7.11 and 3.6.14.
     Severity: MEDIUM
     CweIDs:
@@ -2181,7 +2181,7 @@
       DiffID: sha256:b9f19f0fded6bc2afd5af2578c932dee3b1422862c3bf65dbcae17671709c298
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-0391
-    Title: urllib.parse does not sanitize URLs containing ASCII newline and tabs
+    Title: 'python: urllib.parse does not sanitize URLs containing ASCII newline and tabs'
     Description: A flaw was found in Python, specifically within the urllib.parse module. This module helps break Uniform Resource Locator (URL) strings into components. The issue involves how the urlparse method does not sanitize input and allows characters like '\r' and '\n' in the URL path. This flaw allows an attacker to input a crafted URL, leading to injection attacks. This flaw affects Python versions prior to 3.10.0b1, 3.9.5, 3.8.11, 3.7.11 and 3.6.14.
     Severity: MEDIUM
     CweIDs:
@@ -2380,7 +2380,7 @@
       DiffID: sha256:b9f19f0fded6bc2afd5af2578c932dee3b1422862c3bf65dbcae17671709c298
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-0391
-    Title: urllib.parse does not sanitize URLs containing ASCII newline and tabs
+    Title: 'python: urllib.parse does not sanitize URLs containing ASCII newline and tabs'
     Description: A flaw was found in Python, specifically within the urllib.parse module. This module helps break Uniform Resource Locator (URL) strings into components. The issue involves how the urlparse method does not sanitize input and allows characters like '\r' and '\n' in the URL path. This flaw allows an attacker to input a crafted URL, leading to injection attacks. This flaw affects Python versions prior to 3.10.0b1, 3.9.5, 3.8.11, 3.7.11 and 3.6.14.
     Severity: MEDIUM
     CweIDs:
