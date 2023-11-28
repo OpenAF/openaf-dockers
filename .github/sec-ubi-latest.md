@@ -2407,8 +2407,8 @@
                         │      │                            62c3bf65dbcae17671709c298 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-23336 
-                        │      ├ Title           : Web cache poisoning via urllib.parse.parse_qsl and
-                        │      │                   urllib.parse.parse_qs by using a semicolon in query
+                        │      ├ Title           : python: Web cache poisoning via urllib.parse.parse_qsl
+                        │      │                   and urllib.parse.parse_qs by using a semicolon in query
                         │      │                   parameters 
                         │      ├ Description     : The package python/cpython from 0 and before 3.6.13,
                         │      │                   from 3.7.0 and before 3.7.10, from 3.8.0 and before 3.8.8,
@@ -2716,8 +2716,8 @@
                         │      │                            62c3bf65dbcae17671709c298 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-23336 
-                        │      ├ Title           : Web cache poisoning via urllib.parse.parse_qsl and
-                        │      │                   urllib.parse.parse_qs by using a semicolon in query
+                        │      ├ Title           : python: Web cache poisoning via urllib.parse.parse_qsl
+                        │      │                   and urllib.parse.parse_qs by using a semicolon in query
                         │      │                   parameters 
                         │      ├ Description     : The package python/cpython from 0 and before 3.6.13,
                         │      │                   from 3.7.0 and before 3.7.10, from 3.8.0 and before 3.8.8,
@@ -3025,8 +3025,8 @@
                         │      │                            62c3bf65dbcae17671709c298 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-23336 
-                        │      ├ Title           : Web cache poisoning via urllib.parse.parse_qsl and
-                        │      │                   urllib.parse.parse_qs by using a semicolon in query
+                        │      ├ Title           : python: Web cache poisoning via urllib.parse.parse_qsl
+                        │      │                   and urllib.parse.parse_qs by using a semicolon in query
                         │      │                   parameters 
                         │      ├ Description     : The package python/cpython from 0 and before 3.6.13,
                         │      │                   from 3.7.0 and before 3.7.10, from 3.8.0 and before 3.8.8,
