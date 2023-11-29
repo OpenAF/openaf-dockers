@@ -449,6 +449,31 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:00Z'
     LastModifiedDate: '2023-05-26T16:31:00Z'
+  - VulnerabilityID: CVE-2023-5981
+    PkgID: gnutls@3.7.6-23.el9.x86_64
+    PkgName: gnutls
+    InstalledVersion: 3.7.6-23.el9
+    Status: affected
+    Layer:
+      Digest: sha256:a032f50e22ae11b241fcf38b4a787f0e51009578eedaf9d05894f5f38fd12af5
+      DiffID: sha256:80c0d7946d02825018d47fbf34df054bec5dc433ae20f71ffabd8d3725448837
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5981
+    Title: 'gnutls: timing side-channel in the RSA-PSK authentication'
+    Description: A vulnerability was found that the response times to malformed ciphertexts in RSA-PSK ClientKeyExchange differ from response times of ciphertexts with correct PKCS#1 v1.5 padding.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5981
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5981
+    - https://gnutls.org/security-new.html#GNUTLS-SA-2023-10-23
+    - https://lists.gnupg.org/pipermail/gnutls-help/2023-November/004837.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5981
+    - https://ubuntu.com/security/notices/USN-6499-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-5981
   - VulnerabilityID: CVE-2023-25193
     PkgID: harfbuzz@2.7.4-8.el9.x86_64
     PkgName: harfbuzz
