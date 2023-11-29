@@ -449,6 +449,31 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:00Z'
     LastModifiedDate: '2023-05-26T16:31:00Z'
+  - VulnerabilityID: CVE-2023-5981
+    PkgID: gnutls@3.7.6-23.el9.x86_64
+    PkgName: gnutls
+    InstalledVersion: 3.7.6-23.el9
+    Status: affected
+    Layer:
+      Digest: sha256:a032f50e22ae11b241fcf38b4a787f0e51009578eedaf9d05894f5f38fd12af5
+      DiffID: sha256:80c0d7946d02825018d47fbf34df054bec5dc433ae20f71ffabd8d3725448837
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5981
+    Title: 'gnutls: timing side-channel in the RSA-PSK authentication'
+    Description: A vulnerability was found that the response times to malformed ciphertexts in RSA-PSK ClientKeyExchange differ from response times of ciphertexts with correct PKCS#1 v1.5 padding.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5981
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5981
+    - https://gnutls.org/security-new.html#GNUTLS-SA-2023-10-23
+    - https://lists.gnupg.org/pipermail/gnutls-help/2023-November/004837.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5981
+    - https://ubuntu.com/security/notices/USN-6499-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-5981
   - VulnerabilityID: CVE-2023-25193
     PkgID: harfbuzz@2.7.4-8.el9.x86_64
     PkgName: harfbuzz
@@ -459,7 +484,7 @@
       DiffID: sha256:b9f19f0fded6bc2afd5af2578c932dee3b1422862c3bf65dbcae17671709c298
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-25193
-    Title: allows attackers to trigger O(n^2) growth via consecutive marks
+    Title: 'harfbuzz: allows attackers to trigger O(n^2) growth via consecutive marks'
     Description: hb-ot-layout-gsubgpos.hh in HarfBuzz through 6.0.0 allows attackers to trigger O(n^2) growth via consecutive marks during the process of looking back for base glyphs when attaching marks.
     Severity: MEDIUM
     CweIDs:
@@ -1537,8 +1562,8 @@
     - CWE-754
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
@@ -1553,7 +1578,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-5678
     - https://www.openssl.org/news/secadv/20231106.txt
     PublishedDate: '2023-11-06T16:15:00Z'
-    LastModifiedDate: '2023-11-14T17:46:00Z'
+    LastModifiedDate: '2023-11-21T16:54:00Z'
   - VulnerabilityID: CVE-2023-5363
     PkgID: openssl-libs@3.0.7-24.el9.x86_64
     PkgName: openssl-libs
@@ -1878,8 +1903,8 @@
     - CWE-754
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
@@ -1894,7 +1919,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-5678
     - https://www.openssl.org/news/secadv/20231106.txt
     PublishedDate: '2023-11-06T16:15:00Z'
-    LastModifiedDate: '2023-11-14T17:46:00Z'
+    LastModifiedDate: '2023-11-21T16:54:00Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python-unversioned-command@3.9.18-1.el9_3.noarch
     PkgName: python-unversioned-command
@@ -1905,7 +1930,7 @@
       DiffID: sha256:b9f19f0fded6bc2afd5af2578c932dee3b1422862c3bf65dbcae17671709c298
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-23336
-    Title: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters
+    Title: 'python: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters'
     Description: The package python/cpython from 0 and before 3.6.13, from 3.7.0 and before 3.7.10, from 3.8.0 and before 3.8.8, from 3.9.0 and before 3.9.2 are vulnerable to Web Cache Poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a vector called parameter cloaking. When the attacker can separate query parameters using a semicolon (;), they can cause a difference in the interpretation of the request between the proxy (running with default configuration) and the server. This can result in malicious requests being cached as completely safe ones, as the proxy would usually not see the semicolon as a separator, and therefore would not include it in a cache key of an unkeyed parameter.
     Severity: MEDIUM
     CweIDs:
@@ -1982,7 +2007,7 @@
       DiffID: sha256:b9f19f0fded6bc2afd5af2578c932dee3b1422862c3bf65dbcae17671709c298
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-0391
-    Title: urllib.parse does not sanitize URLs containing ASCII newline and tabs
+    Title: 'python: urllib.parse does not sanitize URLs containing ASCII newline and tabs'
     Description: A flaw was found in Python, specifically within the urllib.parse module. This module helps break Uniform Resource Locator (URL) strings into components. The issue involves how the urlparse method does not sanitize input and allows characters like '\r' and '\n' in the URL path. This flaw allows an attacker to input a crafted URL, leading to injection attacks. This flaw affects Python versions prior to 3.10.0b1, 3.9.5, 3.8.11, 3.7.11 and 3.6.14.
     Severity: MEDIUM
     CweIDs:
@@ -2104,7 +2129,7 @@
       DiffID: sha256:b9f19f0fded6bc2afd5af2578c932dee3b1422862c3bf65dbcae17671709c298
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-23336
-    Title: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters
+    Title: 'python: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters'
     Description: The package python/cpython from 0 and before 3.6.13, from 3.7.0 and before 3.7.10, from 3.8.0 and before 3.8.8, from 3.9.0 and before 3.9.2 are vulnerable to Web Cache Poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a vector called parameter cloaking. When the attacker can separate query parameters using a semicolon (;), they can cause a difference in the interpretation of the request between the proxy (running with default configuration) and the server. This can result in malicious requests being cached as completely safe ones, as the proxy would usually not see the semicolon as a separator, and therefore would not include it in a cache key of an unkeyed parameter.
     Severity: MEDIUM
     CweIDs:
@@ -2181,7 +2206,7 @@
       DiffID: sha256:b9f19f0fded6bc2afd5af2578c932dee3b1422862c3bf65dbcae17671709c298
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-0391
-    Title: urllib.parse does not sanitize URLs containing ASCII newline and tabs
+    Title: 'python: urllib.parse does not sanitize URLs containing ASCII newline and tabs'
     Description: A flaw was found in Python, specifically within the urllib.parse module. This module helps break Uniform Resource Locator (URL) strings into components. The issue involves how the urlparse method does not sanitize input and allows characters like '\r' and '\n' in the URL path. This flaw allows an attacker to input a crafted URL, leading to injection attacks. This flaw affects Python versions prior to 3.10.0b1, 3.9.5, 3.8.11, 3.7.11 and 3.6.14.
     Severity: MEDIUM
     CweIDs:
@@ -2303,7 +2328,7 @@
       DiffID: sha256:b9f19f0fded6bc2afd5af2578c932dee3b1422862c3bf65dbcae17671709c298
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-23336
-    Title: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters
+    Title: 'python: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters'
     Description: The package python/cpython from 0 and before 3.6.13, from 3.7.0 and before 3.7.10, from 3.8.0 and before 3.8.8, from 3.9.0 and before 3.9.2 are vulnerable to Web Cache Poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a vector called parameter cloaking. When the attacker can separate query parameters using a semicolon (;), they can cause a difference in the interpretation of the request between the proxy (running with default configuration) and the server. This can result in malicious requests being cached as completely safe ones, as the proxy would usually not see the semicolon as a separator, and therefore would not include it in a cache key of an unkeyed parameter.
     Severity: MEDIUM
     CweIDs:
@@ -2380,7 +2405,7 @@
       DiffID: sha256:b9f19f0fded6bc2afd5af2578c932dee3b1422862c3bf65dbcae17671709c298
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-0391
-    Title: urllib.parse does not sanitize URLs containing ASCII newline and tabs
+    Title: 'python: urllib.parse does not sanitize URLs containing ASCII newline and tabs'
     Description: A flaw was found in Python, specifically within the urllib.parse module. This module helps break Uniform Resource Locator (URL) strings into components. The issue involves how the urlparse method does not sanitize input and allows characters like '\r' and '\n' in the URL path. This flaw allows an attacker to input a crafted URL, leading to injection attacks. This flaw affects Python versions prior to 3.10.0b1, 3.9.5, 3.8.11, 3.7.11 and 3.6.14.
     Severity: MEDIUM
     CweIDs:
