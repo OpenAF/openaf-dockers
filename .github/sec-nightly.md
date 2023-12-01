@@ -1,5 +1,5 @@
 ````yaml
-╭ [0] ╭ Target: openaf/oaf:nightly (alpine 3.18.4) 
+╭ [0] ╭ Target: openaf/oaf:nightly (alpine 3.18.5) 
 │     ├ Class : os-pkgs 
 │     ╰ Type  : alpine 
 ╰ [1] ╭ Target         : Java 
@@ -11,10 +11,10 @@
                         │     ├ InstalledVersion: 1.2.11 
                         │     ├ FixedVersion    : 1.3.12, 1.4.12 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:3a3cd5e127f22ec5187989cbd1a73c0813187a09
-                        │     │                  │         23a7e7f443373ec94348f876 
-                        │     │                  ╰ DiffID: sha256:b3ff00b43550cce1e90cd40d6d86ef7e337812d4
-                        │     │                            4ef5d265b4327e7b5741477f 
+                        │     ├ Layer            ╭ Digest: sha256:fe1670b3ed53af66328158e4e9fc947e50a46c34
+                        │     │                  │         224e0c6e9d1d785d05a188de 
+                        │     │                  ╰ DiffID: sha256:6db41e9352b93487dfed81a6e2e9af2a3a851b74
+                        │     │                            ad25bde6d15a8a8763ae9f93 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6378 
                         │     ├ DataSource       ╭ ID  : ghsa 
@@ -24,32 +24,35 @@
                         │     ├ Title           : A serialization vulnerability in logback receiver
                         │     │                   component part of  l ... 
                         │     ├ Description     : A serialization vulnerability in logback receiver
-                        │     │                   component part of logback version 1.4.11 allows an attacker
-                        │     │                   to mount a Denial-Of-Service attack by sending poisoned
-                        │     │                   data.
+                        │     │                   component part of 
+                        │     │                   logback version 1.4.11 allows an attacker to mount a
+                        │     │                   Denial-Of-Service 
+                        │     │                   attack by sending poisoned data.
                         │     │                   
                         │     │                    
                         │     ├ Severity        : HIGH 
                         │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I
                         │     │                         │           :N/A:H 
                         │     │                         ╰ V3Score : 7.1 
-                        │     ╰ References       ╭ [0]: https://github.com/qos-ch/logback 
-                        │                        ├ [1]: https://github.com/qos-ch/logback/commit/9c782b45b
-                        │                        │      e4abdafb7e17481e24e7354c2acd1eb 
-                        │                        ├ [2]: https://github.com/qos-ch/logback/commit/b8eac23a9
-                        │                        │      de9e05fb6d51160b3f46acd91af9731 
-                        │                        ├ [3]: https://logback.qos.ch/news.html#1.3.12 
-                        │                        ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
+                        │     ├ References       ╭ [0]: https://github.com/qos-ch/logback 
+                        │     │                  ├ [1]: https://github.com/qos-ch/logback/commit/9c782b45b
+                        │     │                  │      e4abdafb7e17481e24e7354c2acd1eb 
+                        │     │                  ├ [2]: https://github.com/qos-ch/logback/commit/b8eac23a9
+                        │     │                  │      de9e05fb6d51160b3f46acd91af9731 
+                        │     │                  ├ [3]: https://logback.qos.ch/news.html#1.3.12 
+                        │     │                  ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
+                        │     ├ PublishedDate   : 2023-11-29T12:15:00Z 
+                        │     ╰ LastModifiedDate: 2023-11-29T14:18:00Z 
                         ╰ [1] ╭ VulnerabilityID : CVE-2023-6378 
                               ├ PkgName         : ch.qos.logback:logback-core 
                               ├ PkgPath         : openaf/openaf.jar 
                               ├ InstalledVersion: 1.2.11 
                               ├ FixedVersion    : 1.3.12, 1.4.12 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:3a3cd5e127f22ec5187989cbd1a73c0813187a09
-                              │                  │         23a7e7f443373ec94348f876 
-                              │                  ╰ DiffID: sha256:b3ff00b43550cce1e90cd40d6d86ef7e337812d4
-                              │                            4ef5d265b4327e7b5741477f 
+                              ├ Layer            ╭ Digest: sha256:fe1670b3ed53af66328158e4e9fc947e50a46c34
+                              │                  │         224e0c6e9d1d785d05a188de 
+                              │                  ╰ DiffID: sha256:6db41e9352b93487dfed81a6e2e9af2a3a851b74
+                              │                            ad25bde6d15a8a8763ae9f93 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6378 
                               ├ DataSource       ╭ ID  : ghsa 
@@ -59,20 +62,23 @@
                               ├ Title           : A serialization vulnerability in logback receiver
                               │                   component part of  l ... 
                               ├ Description     : A serialization vulnerability in logback receiver
-                              │                   component part of logback version 1.4.11 allows an attacker
-                              │                   to mount a Denial-Of-Service attack by sending poisoned
-                              │                   data.
+                              │                   component part of 
+                              │                   logback version 1.4.11 allows an attacker to mount a
+                              │                   Denial-Of-Service 
+                              │                   attack by sending poisoned data.
                               │                   
                               │                    
                               ├ Severity        : HIGH 
                               ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I
                               │                         │           :N/A:H 
                               │                         ╰ V3Score : 7.1 
-                              ╰ References       ╭ [0]: https://github.com/qos-ch/logback 
-                                                 ├ [1]: https://github.com/qos-ch/logback/commit/9c782b45b
-                                                 │      e4abdafb7e17481e24e7354c2acd1eb 
-                                                 ├ [2]: https://github.com/qos-ch/logback/commit/b8eac23a9
-                                                 │      de9e05fb6d51160b3f46acd91af9731 
-                                                 ├ [3]: https://logback.qos.ch/news.html#1.3.12 
-                                                 ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
+                              ├ References       ╭ [0]: https://github.com/qos-ch/logback 
+                              │                  ├ [1]: https://github.com/qos-ch/logback/commit/9c782b45b
+                              │                  │      e4abdafb7e17481e24e7354c2acd1eb 
+                              │                  ├ [2]: https://github.com/qos-ch/logback/commit/b8eac23a9
+                              │                  │      de9e05fb6d51160b3f46acd91af9731 
+                              │                  ├ [3]: https://logback.qos.ch/news.html#1.3.12 
+                              │                  ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
+                              ├ PublishedDate   : 2023-11-29T12:15:00Z 
+                              ╰ LastModifiedDate: 2023-11-29T14:18:00Z 
 ````
