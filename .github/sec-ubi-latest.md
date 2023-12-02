@@ -1942,10 +1942,12 @@
 │                       │      │                  │      ommitdiff;h=ddeb4b6c6d527e54ce9a99cba785c0f7776e54b6[
 │                       │      │                  │      m 
 │                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-5678 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-5678 
-│                       │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20231106.txt 
+│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2023113
+│                       │      │                  │      0-0010/ 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-5678 
+│                       │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20231106.txt 
 │                       │      ├ PublishedDate   : 2023-11-06T16:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-11-21T16:54:00Z 
+│                       │      ╰ LastModifiedDate: 2023-11-30T22:15:00Z 
 │                       ├ [43] ╭ VulnerabilityID : CVE-2023-5363 
 │                       │      ├ PkgID           : openssl-libs@3.0.7-24.el9.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
@@ -2425,10 +2427,12 @@
 │                       │      │                  │      ommitdiff;h=ddeb4b6c6d527e54ce9a99cba785c0f7776e54b6[
 │                       │      │                  │      m 
 │                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-5678 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-5678 
-│                       │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20231106.txt 
+│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2023113
+│                       │      │                  │      0-0010/ 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-5678 
+│                       │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20231106.txt 
 │                       │      ├ PublishedDate   : 2023-11-06T16:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-11-21T16:54:00Z 
+│                       │      ╰ LastModifiedDate: 2023-11-30T22:15:00Z 
 │                       ├ [48] ╭ VulnerabilityID : CVE-2021-23336 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.18-1.el9_3.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
@@ -3809,8 +3813,9 @@
                         │     │                  │      e4abdafb7e17481e24e7354c2acd1eb 
                         │     │                  ├ [2]: https://github.com/qos-ch/logback/commit/b8eac23a9
                         │     │                  │      de9e05fb6d51160b3f46acd91af9731 
-                        │     │                  ├ [3]: https://logback.qos.ch/news.html#1.3.12 
-                        │     │                  ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
+                        │     │                  ├ [3]: https://logback.qos.ch/manual/receivers.html 
+                        │     │                  ├ [4]: https://logback.qos.ch/news.html#1.3.12 
+                        │     │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
                         │     ├ PublishedDate   : 2023-11-29T12:15:00Z 
                         │     ╰ LastModifiedDate: 2023-11-29T14:18:00Z 
                         ╰ [1] ╭ VulnerabilityID : CVE-2023-6378 
@@ -3847,8 +3852,9 @@
                               │                  │      e4abdafb7e17481e24e7354c2acd1eb 
                               │                  ├ [2]: https://github.com/qos-ch/logback/commit/b8eac23a9
                               │                  │      de9e05fb6d51160b3f46acd91af9731 
-                              │                  ├ [3]: https://logback.qos.ch/news.html#1.3.12 
-                              │                  ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
+                              │                  ├ [3]: https://logback.qos.ch/manual/receivers.html 
+                              │                  ├ [4]: https://logback.qos.ch/news.html#1.3.12 
+                              │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
                               ├ PublishedDate   : 2023-11-29T12:15:00Z 
                               ╰ LastModifiedDate: 2023-11-29T14:18:00Z 
 ````
