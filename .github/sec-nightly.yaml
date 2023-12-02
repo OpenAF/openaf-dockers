@@ -12,8 +12,8 @@
     FixedVersion: 1.3.12, 1.4.12
     Status: fixed
     Layer:
-      Digest: sha256:fe1670b3ed53af66328158e4e9fc947e50a46c34224e0c6e9d1d785d05a188de
-      DiffID: sha256:6db41e9352b93487dfed81a6e2e9af2a3a851b74ad25bde6d15a8a8763ae9f93
+      Digest: sha256:7371773d54bb45022cbe3f266e07fddf9d9b08393adcc8a948351d63d9c6be45
+      DiffID: sha256:cbec05cd1ec65c1ddcab1283b3f4d04bee504d52f41462935e915c5407c9c247
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6378
     DataSource:
@@ -35,6 +35,7 @@
     - https://github.com/qos-ch/logback
     - https://github.com/qos-ch/logback/commit/9c782b45be4abdafb7e17481e24e7354c2acd1eb
     - https://github.com/qos-ch/logback/commit/b8eac23a9de9e05fb6d51160b3f46acd91af9731
+    - https://logback.qos.ch/manual/receivers.html
     - https://logback.qos.ch/news.html#1.3.12
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6378
     PublishedDate: '2023-11-29T12:15:00Z'
@@ -46,8 +47,8 @@
     FixedVersion: 1.3.12, 1.4.12
     Status: fixed
     Layer:
-      Digest: sha256:fe1670b3ed53af66328158e4e9fc947e50a46c34224e0c6e9d1d785d05a188de
-      DiffID: sha256:6db41e9352b93487dfed81a6e2e9af2a3a851b74ad25bde6d15a8a8763ae9f93
+      Digest: sha256:7371773d54bb45022cbe3f266e07fddf9d9b08393adcc8a948351d63d9c6be45
+      DiffID: sha256:cbec05cd1ec65c1ddcab1283b3f4d04bee504d52f41462935e915c5407c9c247
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6378
     DataSource:
@@ -69,6 +70,7 @@
     - https://github.com/qos-ch/logback
     - https://github.com/qos-ch/logback/commit/9c782b45be4abdafb7e17481e24e7354c2acd1eb
     - https://github.com/qos-ch/logback/commit/b8eac23a9de9e05fb6d51160b3f46acd91af9731
+    - https://logback.qos.ch/manual/receivers.html
     - https://logback.qos.ch/news.html#1.3.12
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6378
     PublishedDate: '2023-11-29T12:15:00Z'
