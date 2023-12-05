@@ -12,8 +12,8 @@
     FixedVersion: 1.3.12, 1.4.12
     Status: fixed
     Layer:
-      Digest: sha256:dcab7b04327149a5dba000730eb53cd6b6d8c6e219ea9602e0f63a01647f817f
-      DiffID: sha256:adff227de89b8e688fbd03fa0949ae5ffe023b4d5d7fe023af4e1681c3aaacb6
+      Digest: sha256:c947a67cbe5df84c3a1db5691f38c2c64b400aa0156324abda581b2e60423599
+      DiffID: sha256:83dbac0fd132cf401fbaab0ac41d5381e6689724adbda13277b7a0d1d76a961f
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6378
     DataSource:
@@ -47,8 +47,8 @@
     FixedVersion: 1.3.12, 1.4.12
     Status: fixed
     Layer:
-      Digest: sha256:dcab7b04327149a5dba000730eb53cd6b6d8c6e219ea9602e0f63a01647f817f
-      DiffID: sha256:adff227de89b8e688fbd03fa0949ae5ffe023b4d5d7fe023af4e1681c3aaacb6
+      Digest: sha256:c947a67cbe5df84c3a1db5691f38c2c64b400aa0156324abda581b2e60423599
+      DiffID: sha256:83dbac0fd132cf401fbaab0ac41d5381e6689724adbda13277b7a0d1d76a961f
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6378
     DataSource:
