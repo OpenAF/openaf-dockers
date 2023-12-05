@@ -1854,7 +1854,7 @@
 │                       │      ├ PkgID           : openssl@3.0.7-24.el9.x86_64 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ InstalledVersion: 1:3.0.7-24.el9 
-│                       │      ├ Status          : will_not_fix 
+│                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:cfbba5939963c18f6f27483adb7b8f0a7f7633f
 │                       │      │                  │         cc43f816ccd43853ec46738b3 
 │                       │      │                  ╰ DiffID: sha256:b9f19f0fded6bc2afd5af2578c932dee3b14228
@@ -2339,7 +2339,7 @@
 │                       │      ├ PkgID           : openssl-libs@3.0.7-24.el9.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
 │                       │      ├ InstalledVersion: 1:3.0.7-24.el9 
-│                       │      ├ Status          : will_not_fix 
+│                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:a032f50e22ae11b241fcf38b4a787f0e5100957
 │                       │      │                  │         8eedaf9d05894f5f38fd12af5 
 │                       │      │                  ╰ DiffID: sha256:80c0d7946d02825018d47fbf34df054bec5dc43
