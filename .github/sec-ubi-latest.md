@@ -546,7 +546,11 @@
 │                       │      │                   from response times of ciphertexts with correct PKCS#1 v1.5
 │                       │      │                   padding. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+│                       │      ├ CweIDs           ─ [0]: CWE-203 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+│                       │      │                  │        │           H/I:N/A:N 
+│                       │      │                  │        ╰ V3Score : 5.9 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           H/I:H/A:N 
 │                       │      │                           ╰ V3Score : 7.4 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5981 
@@ -561,7 +565,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6499-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-5981 
 │                       │      ├ PublishedDate   : 2023-11-28T12:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-11-28T14:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-12-04T19:40:00Z 
 │                       ├ [14] ╭ VulnerabilityID : CVE-2023-25193 
 │                       │      ├ PkgID           : harfbuzz@2.7.4-8.el9.x86_64 
 │                       │      ├ PkgName         : harfbuzz 
@@ -1854,7 +1858,7 @@
 │                       │      ├ PkgID           : openssl@3.0.7-24.el9.x86_64 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ InstalledVersion: 1:3.0.7-24.el9 
-│                       │      ├ Status          : will_not_fix 
+│                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:cfbba5939963c18f6f27483adb7b8f0a7f7633f
 │                       │      │                  │         cc43f816ccd43853ec46738b3 
 │                       │      │                  ╰ DiffID: sha256:b9f19f0fded6bc2afd5af2578c932dee3b14228
@@ -1942,10 +1946,12 @@
 │                       │      │                  │      ommitdiff;h=ddeb4b6c6d527e54ce9a99cba785c0f7776e54b6[
 │                       │      │                  │      m 
 │                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-5678 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-5678 
-│                       │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20231106.txt 
+│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2023113
+│                       │      │                  │      0-0010/ 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-5678 
+│                       │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20231106.txt 
 │                       │      ├ PublishedDate   : 2023-11-06T16:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-11-21T16:54:00Z 
+│                       │      ╰ LastModifiedDate: 2023-11-30T22:15:00Z 
 │                       ├ [43] ╭ VulnerabilityID : CVE-2023-5363 
 │                       │      ├ PkgID           : openssl-libs@3.0.7-24.el9.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
@@ -2337,7 +2343,7 @@
 │                       │      ├ PkgID           : openssl-libs@3.0.7-24.el9.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
 │                       │      ├ InstalledVersion: 1:3.0.7-24.el9 
-│                       │      ├ Status          : will_not_fix 
+│                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:a032f50e22ae11b241fcf38b4a787f0e5100957
 │                       │      │                  │         8eedaf9d05894f5f38fd12af5 
 │                       │      │                  ╰ DiffID: sha256:80c0d7946d02825018d47fbf34df054bec5dc43
@@ -2425,10 +2431,12 @@
 │                       │      │                  │      ommitdiff;h=ddeb4b6c6d527e54ce9a99cba785c0f7776e54b6[
 │                       │      │                  │      m 
 │                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-5678 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-5678 
-│                       │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20231106.txt 
+│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2023113
+│                       │      │                  │      0-0010/ 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-5678 
+│                       │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20231106.txt 
 │                       │      ├ PublishedDate   : 2023-11-06T16:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-11-21T16:54:00Z 
+│                       │      ╰ LastModifiedDate: 2023-11-30T22:15:00Z 
 │                       ├ [48] ╭ VulnerabilityID : CVE-2021-23336 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.18-1.el9_3.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
@@ -3356,7 +3364,94 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
 │                       │      ├ PublishedDate   : 2023-06-25T18:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T04:16:00Z 
-│                       ├ [60] ╭ VulnerabilityID : CVE-2021-3572 
+│                       ├ [60] ╭ VulnerabilityID : CVE-2023-45803 
+│                       │      ├ PkgID           : python3-pip-wheel@21.2.3-7.el9.noarch 
+│                       │      ├ PkgName         : python3-pip-wheel 
+│                       │      ├ InstalledVersion: 21.2.3-7.el9 
+│                       │      ├ Status          : under_investigation 
+│                       │      ├ Layer            ╭ Digest: sha256:cfbba5939963c18f6f27483adb7b8f0a7f7633f
+│                       │      │                  │         cc43f816ccd43853ec46738b3 
+│                       │      │                  ╰ DiffID: sha256:b9f19f0fded6bc2afd5af2578c932dee3b14228
+│                       │      │                            62c3bf65dbcae17671709c298 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45803 
+│                       │      ├ Title           : urllib3:  Request body not stripped after redirect from
+│                       │      │                    303 status changes request method to GET 
+│                       │      ├ Description     : urllib3 is a user-friendly HTTP client library for
+│                       │      │                   Python. urllib3 previously wouldn't remove the HTTP request
+│                       │      │                   body when an HTTP redirect response using status 301, 302,
+│                       │      │                   or 303 after the request had its method changed from one
+│                       │      │                   that could accept a request body (like `POST`) to `GET` as
+│                       │      │                   is required by HTTP RFCs. Although this behavior is not
+│                       │      │                   specified in the section for redirects, it can be inferred
+│                       │      │                   by piecing together information from different sections and
+│                       │      │                   we have observed the behavior in other major HTTP client
+│                       │      │                   implementations like curl and web browsers. Because the
+│                       │      │                   vulnerability requires a previously trusted service to
+│                       │      │                   become compromised in order to have an impact on
+│                       │      │                   confidentiality we believe the exploitability of this
+│                       │      │                   vulnerability is low. Additionally, many users aren't
+│                       │      │                   putting sensitive data in HTTP request bodies, if this is
+│                       │      │                   the case then this vulnerability isn't exploitable. Both of
+│                       │      │                   the following conditions must be true to be affected by this
+│                       │      │                    vulnerability: 1. Using urllib3 and submitting sensitive
+│                       │      │                   information in the HTTP request body (such as form data or
+│                       │      │                   JSON) and 2. The origin service is compromised and starts
+│                       │      │                   redirecting using 301, 302, or 303 to a malicious peer or
+│                       │      │                   the redirected-to service becomes compromised. This issue
+│                       │      │                   has been addressed in versions 1.26.18 and 2.0.7 and users
+│                       │      │                   are advised to update to resolve this issue. Users unable to
+│                       │      │                    update should disable redirects for services that aren't
+│                       │      │                   expecting to respond with redirects with `redirects=False`
+│                       │      │                   and disable automatic redirects with `redirects=False` and
+│                       │      │                   handle 301, 302, and 303 redirects manually by stripping the
+│                       │      │                    HTTP request body.
+│                       │      │                    
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-200 
+│                       │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:
+│                       │      │                  │        │           H/I:N/A:N 
+│                       │      │                  │        ╰ V3Score : 4.2 
+│                       │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:
+│                       │      │                  │        │           H/I:N/A:N 
+│                       │      │                  │        ╰ V3Score : 4.2 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:
+│                       │      │                           │           H/I:N/A:N 
+│                       │      │                           ╰ V3Score : 4.2 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-45803 
+│                       │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2023-45803 
+│                       │      │                  ├ [2] : https://github.com/pypa/advisory-database/tree/m
+│                       │      │                  │       ain/vulns/urllib3/PYSEC-2023-212.yaml 
+│                       │      │                  ├ [3] : https://github.com/urllib3/urllib3 
+│                       │      │                  ├ [4] : https://github.com/urllib3/urllib3/commit/4e50fb
+│                       │      │                  │       c5db74e32cabd5ccc1ab81fc103adfe0b3 
+│                       │      │                  ├ [5] : https://github.com/urllib3/urllib3/commit/4e98d5
+│                       │      │                  │       7809dacab1cbe625fddeec1a290c478ea9 
+│                       │      │                  ├ [6] : https://github.com/urllib3/urllib3/commit/b594c5
+│                       │      │                  │       ceaca38e1ac215f916538fb128e3526a36 
+│                       │      │                  ├ [7] : https://github.com/urllib3/urllib3/releases/tag/
+│                       │      │                  │       1.26.18 
+│                       │      │                  ├ [8] : https://github.com/urllib3/urllib3/releases/tag/2.0.7 
+│                       │      │                  ├ [9] : https://github.com/urllib3/urllib3/security/advi
+│                       │      │                  │       sories/GHSA-g4mx-q9vg-27p4 
+│                       │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/4R2Y5X
+│                       │      │                  │       K3WALSR3FNAGN7JBYV2B343ZKB/ 
+│                       │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/5F5CUB
+│                       │      │                  │       AN5XMEBVBZPHFITBLMJV5FIJJ5/ 
+│                       │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/PPDPLM
+│                       │      │                  │       6UUMN55ESPQWJFLLIZY4ZKCNRX/ 
+│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-45803 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6473-1 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6473-2 
+│                       │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2023-45803 
+│                       │      │                  ╰ [17]: https://www.rfc-editor.org/rfc/rfc9110.html#name-get 
+│                       │      ├ PublishedDate   : 2023-10-17T20:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-11-03T22:15:00Z 
+│                       ├ [61] ╭ VulnerabilityID : CVE-2021-3572 
 │                       │      ├ PkgID           : python3-pip-wheel@21.2.3-7.el9.noarch 
 │                       │      ├ PkgName         : python3-pip-wheel 
 │                       │      ├ InstalledVersion: 21.2.3-7.el9 
@@ -3417,7 +3512,7 @@
 │                       │      │                          2.html 
 │                       │      ├ PublishedDate   : 2021-11-10T18:15:00Z 
 │                       │      ╰ LastModifiedDate: 2022-10-05T02:14:00Z 
-│                       ├ [61] ╭ VulnerabilityID : CVE-2021-35937 
+│                       ├ [62] ╭ VulnerabilityID : CVE-2021-35937 
 │                       │      ├ PkgID           : rpm@4.16.1.3-25.el9.x86_64 
 │                       │      ├ PkgName         : rpm 
 │                       │      ├ InstalledVersion: 4.16.1.3-25.el9 
@@ -3454,7 +3549,7 @@
 │                       │      │                         ll_papers/borisov/borisov.pdf 
 │                       │      ├ PublishedDate   : 2022-08-25T20:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:36:00Z 
-│                       ├ [62] ╭ VulnerabilityID : CVE-2021-35938 
+│                       ├ [63] ╭ VulnerabilityID : CVE-2021-35938 
 │                       │      ├ PkgID           : rpm@4.16.1.3-25.el9.x86_64 
 │                       │      ├ PkgName         : rpm 
 │                       │      ├ InstalledVersion: 4.16.1.3-25.el9 
@@ -3496,7 +3591,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2021-35938 
 │                       │      ├ PublishedDate   : 2022-08-25T20:15:00Z 
 │                       │      ╰ LastModifiedDate: 2022-11-29T18:06:00Z 
-│                       ├ [63] ╭ VulnerabilityID : CVE-2021-35939 
+│                       ├ [64] ╭ VulnerabilityID : CVE-2021-35939 
 │                       │      ├ PkgID           : rpm@4.16.1.3-25.el9.x86_64 
 │                       │      ├ PkgName         : rpm 
 │                       │      ├ InstalledVersion: 4.16.1.3-25.el9 
@@ -3537,7 +3632,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2021-35939 
 │                       │      ├ PublishedDate   : 2022-08-26T16:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-02-04T01:16:00Z 
-│                       ├ [64] ╭ VulnerabilityID : CVE-2021-35937 
+│                       ├ [65] ╭ VulnerabilityID : CVE-2021-35937 
 │                       │      ├ PkgID           : rpm-libs@4.16.1.3-25.el9.x86_64 
 │                       │      ├ PkgName         : rpm-libs 
 │                       │      ├ InstalledVersion: 4.16.1.3-25.el9 
@@ -3574,7 +3669,7 @@
 │                       │      │                         ll_papers/borisov/borisov.pdf 
 │                       │      ├ PublishedDate   : 2022-08-25T20:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:36:00Z 
-│                       ├ [65] ╭ VulnerabilityID : CVE-2021-35938 
+│                       ├ [66] ╭ VulnerabilityID : CVE-2021-35938 
 │                       │      ├ PkgID           : rpm-libs@4.16.1.3-25.el9.x86_64 
 │                       │      ├ PkgName         : rpm-libs 
 │                       │      ├ InstalledVersion: 4.16.1.3-25.el9 
@@ -3616,7 +3711,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2021-35938 
 │                       │      ├ PublishedDate   : 2022-08-25T20:15:00Z 
 │                       │      ╰ LastModifiedDate: 2022-11-29T18:06:00Z 
-│                       ├ [66] ╭ VulnerabilityID : CVE-2021-35939 
+│                       ├ [67] ╭ VulnerabilityID : CVE-2021-35939 
 │                       │      ├ PkgID           : rpm-libs@4.16.1.3-25.el9.x86_64 
 │                       │      ├ PkgName         : rpm-libs 
 │                       │      ├ InstalledVersion: 4.16.1.3-25.el9 
@@ -3657,7 +3752,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2021-35939 
 │                       │      ├ PublishedDate   : 2022-08-26T16:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-02-04T01:16:00Z 
-│                       ├ [67] ╭ VulnerabilityID : CVE-2023-28486 
+│                       ├ [68] ╭ VulnerabilityID : CVE-2023-28486 
 │                       │      ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
 │                       │      ├ PkgName         : sudo 
 │                       │      ├ InstalledVersion: 1.9.5p2-9.el9 
@@ -3695,7 +3790,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28486 
 │                       │      ├ PublishedDate   : 2023-03-16T01:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-02T01:59:00Z 
-│                       ├ [68] ╭ VulnerabilityID : CVE-2023-28487 
+│                       ├ [69] ╭ VulnerabilityID : CVE-2023-28487 
 │                       │      ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
 │                       │      ├ PkgName         : sudo 
 │                       │      ├ InstalledVersion: 1.9.5p2-9.el9 
@@ -3733,7 +3828,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28487 
 │                       │      ├ PublishedDate   : 2023-03-16T01:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-02T01:58:00Z 
-│                       ╰ [69] ╭ VulnerabilityID : CVE-2021-3997 
+│                       ╰ [70] ╭ VulnerabilityID : CVE-2021-3997 
 │                              ├ PkgID           : systemd-libs@252-18.el9.x86_64 
 │                              ├ PkgName         : systemd-libs 
 │                              ├ InstalledVersion: 252-18.el9 
@@ -3779,7 +3874,7 @@
                         │     ├ PkgName         : ch.qos.logback:logback-classic 
                         │     ├ PkgPath         : openaf/openaf.jar 
                         │     ├ InstalledVersion: 1.2.11 
-                        │     ├ FixedVersion    : 1.3.12, 1.4.12 
+                        │     ├ FixedVersion    : 1.3.12, 1.4.12, 1.2.13 
                         │     ├ Status          : fixed 
                         │     ├ Layer            ╭ Digest: sha256:0e22766200ec2318e25141f092059bcb92e40b57
                         │     │                  │         e9b824ef03dfdde5edf30d0b 
@@ -3791,8 +3886,7 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areview
                         │     │                          ed+ecosystem%3Amaven 
-                        │     ├ Title           : A serialization vulnerability in logback receiver
-                        │     │                   component part of  l ... 
+                        │     ├ Title           : logback: serialization vulnerability in logback receiver 
                         │     ├ Description     : A serialization vulnerability in logback receiver
                         │     │                   component part of 
                         │     │                   logback version 1.4.11 allows an attacker to mount a
@@ -3801,23 +3895,34 @@
                         │     │                   
                         │     │                    
                         │     ├ Severity        : HIGH 
-                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I
-                        │     │                         │           :N/A:H 
-                        │     │                         ╰ V3Score : 7.1 
-                        │     ├ References       ╭ [0]: https://github.com/qos-ch/logback 
-                        │     │                  ├ [1]: https://github.com/qos-ch/logback/commit/9c782b45b
-                        │     │                  │      e4abdafb7e17481e24e7354c2acd1eb 
-                        │     │                  ├ [2]: https://github.com/qos-ch/logback/commit/b8eac23a9
-                        │     │                  │      de9e05fb6d51160b3f46acd91af9731 
-                        │     │                  ├ [3]: https://logback.qos.ch/news.html#1.3.12 
-                        │     │                  ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
+                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N
+                        │     │                  │        │           /I:N/A:H 
+                        │     │                  │        ╰ V3Score : 7.1 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N
+                        │     │                           │           /I:N/A:H 
+                        │     │                           ╰ V3Score : 7.1 
+                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-6378 
+                        │     │                  ├ [1] : https://github.com/qos-ch/logback 
+                        │     │                  ├ [2] : https://github.com/qos-ch/logback/commit/9c782b45
+                        │     │                  │       be4abdafb7e17481e24e7354c2acd1eb 
+                        │     │                  ├ [3] : https://github.com/qos-ch/logback/commit/b8eac23a
+                        │     │                  │       9de9e05fb6d51160b3f46acd91af9731 
+                        │     │                  ├ [4] : https://github.com/qos-ch/logback/commit/bb095154
+                        │     │                  │       be011267b64e37a1d401546e7cc2b7c3 
+                        │     │                  ├ [5] : https://github.com/qos-ch/logback/issues/745#issu
+                        │     │                  │       ecomment-1836227158 
+                        │     │                  ├ [6] : https://logback.qos.ch/manual/receivers.html 
+                        │     │                  ├ [7] : https://logback.qos.ch/news.html#1.2.13 
+                        │     │                  ├ [8] : https://logback.qos.ch/news.html#1.3.12 
+                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
+                        │     │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-6378 
                         │     ├ PublishedDate   : 2023-11-29T12:15:00Z 
                         │     ╰ LastModifiedDate: 2023-11-29T14:18:00Z 
                         ╰ [1] ╭ VulnerabilityID : CVE-2023-6378 
                               ├ PkgName         : ch.qos.logback:logback-core 
                               ├ PkgPath         : openaf/openaf.jar 
                               ├ InstalledVersion: 1.2.11 
-                              ├ FixedVersion    : 1.3.12, 1.4.12 
+                              ├ FixedVersion    : 1.3.12, 1.4.12, 1.2.13 
                               ├ Status          : fixed 
                               ├ Layer            ╭ Digest: sha256:0e22766200ec2318e25141f092059bcb92e40b57
                               │                  │         e9b824ef03dfdde5edf30d0b 
@@ -3829,8 +3934,7 @@
                               │                  ├ Name: GitHub Security Advisory Maven 
                               │                  ╰ URL : https://github.com/advisories?query=type%3Areview
                               │                          ed+ecosystem%3Amaven 
-                              ├ Title           : A serialization vulnerability in logback receiver
-                              │                   component part of  l ... 
+                              ├ Title           : logback: serialization vulnerability in logback receiver 
                               ├ Description     : A serialization vulnerability in logback receiver
                               │                   component part of 
                               │                   logback version 1.4.11 allows an attacker to mount a
@@ -3839,16 +3943,27 @@
                               │                   
                               │                    
                               ├ Severity        : HIGH 
-                              ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I
-                              │                         │           :N/A:H 
-                              │                         ╰ V3Score : 7.1 
-                              ├ References       ╭ [0]: https://github.com/qos-ch/logback 
-                              │                  ├ [1]: https://github.com/qos-ch/logback/commit/9c782b45b
-                              │                  │      e4abdafb7e17481e24e7354c2acd1eb 
-                              │                  ├ [2]: https://github.com/qos-ch/logback/commit/b8eac23a9
-                              │                  │      de9e05fb6d51160b3f46acd91af9731 
-                              │                  ├ [3]: https://logback.qos.ch/news.html#1.3.12 
-                              │                  ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
+                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N
+                              │                  │        │           /I:N/A:H 
+                              │                  │        ╰ V3Score : 7.1 
+                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N
+                              │                           │           /I:N/A:H 
+                              │                           ╰ V3Score : 7.1 
+                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-6378 
+                              │                  ├ [1] : https://github.com/qos-ch/logback 
+                              │                  ├ [2] : https://github.com/qos-ch/logback/commit/9c782b45
+                              │                  │       be4abdafb7e17481e24e7354c2acd1eb 
+                              │                  ├ [3] : https://github.com/qos-ch/logback/commit/b8eac23a
+                              │                  │       9de9e05fb6d51160b3f46acd91af9731 
+                              │                  ├ [4] : https://github.com/qos-ch/logback/commit/bb095154
+                              │                  │       be011267b64e37a1d401546e7cc2b7c3 
+                              │                  ├ [5] : https://github.com/qos-ch/logback/issues/745#issu
+                              │                  │       ecomment-1836227158 
+                              │                  ├ [6] : https://logback.qos.ch/manual/receivers.html 
+                              │                  ├ [7] : https://logback.qos.ch/news.html#1.2.13 
+                              │                  ├ [8] : https://logback.qos.ch/news.html#1.3.12 
+                              │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
+                              │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-6378 
                               ├ PublishedDate   : 2023-11-29T12:15:00Z 
                               ╰ LastModifiedDate: 2023-11-29T14:18:00Z 
 ````
