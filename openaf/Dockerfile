@@ -18,8 +18,11 @@ COPY getOpenAFOrigJar.js /openaf/
 RUN echo 'PATH=$PATH:/openaf' > /etc/profile.d/openaf.sh\
  && mv /etc/profile.d/color_prompt.sh.disabled /etc/profile.d/color_prompt.sh\
  && apk update\
- && apk --no-cache add openjdk11-jre-headless ca-certificates curl openssl sudo\
+ && apk --no-cache add openjdk8-jre ca-certificates curl openssl sudo\
  && update-ca-certificates\
+ && rm -rf /usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/nashorn.jar\
+ && rm -rf /usr/lib/jvm/java-1.8-openjdk/jre/man\
+ && rm -rf /usr/lib/jvm/java-1.8-openjdk/jre/lib/images\
  && adduser -Ds /bin/sh openaf\
  && echo "openaf ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/openaf
 

@@ -12,7 +12,10 @@ COPY getOpenAFOrigJar.js /openaf/
 # Install java + auxiliary settings
 RUN microdnf upgrade -y\
  && rm -rf /var/cache/yum\
- && microdnf install -y --nodocs java-11-openjdk-headless sudo shadow-utils\
+ && microdnf install -y --nodocs java-1.8.0-openjdk-headless sudo shadow-utils\
+ && rm -rf /usr/lib/jvm/java-1.8.0-openjdk-*/jre/lib/ext/nashorn.jar\
+ && rm -rf /usr/lib/jvm/java-1.8.0-openjdk-*/jre/lib/images/jre/man\
+ && rm -rf /usr/lib/jvm/java-1.8.0-openjdk-*/jre/lib/images\
  && echo 'PATH=$PATH:/openaf' > /etc/profile.d/openaf.sh\
  && adduser openaf\
  && chown -R openaf: /openaf\
