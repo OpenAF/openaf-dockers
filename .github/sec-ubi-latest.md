@@ -414,7 +414,7 @@
 │                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6535-1 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
 │                       │      ├ PublishedDate   : 2023-12-07T01:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-12-07T01:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-12-07T12:12:00Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2022-48554 
 │                       │      ├ PkgID           : file-libs@5.39-14.el9.x86_64 
 │                       │      ├ PkgName         : file-libs 
@@ -789,7 +789,7 @@
 │                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6535-1 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
 │                       │      ├ PublishedDate   : 2023-12-07T01:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-12-07T01:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-12-07T12:12:00Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libgcc@11.4.1-2.1.el9.x86_64 
 │                       │      ├ PkgName         : libgcc 
