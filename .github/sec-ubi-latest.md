@@ -410,11 +410,14 @@
 │                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-46218 
 │                       │      │                  ├ [3]: https://hackerone.com/reports/2212193 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6535-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
+│                       │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      │                  │      kage-announce@lists.fedoraproject.org/message/3ZX3VW67
+│                       │      │                  │      N4ACRAPMV2QS2LVYGD7H2MVE/ 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6535-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
 │                       │      ├ PublishedDate   : 2023-12-07T01:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-12-07T12:12:00Z 
+│                       │      ╰ LastModifiedDate: 2023-12-10T03:15:00Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2022-48554 
 │                       │      ├ PkgID           : file-libs@5.39-14.el9.x86_64 
 │                       │      ├ PkgName         : file-libs 
@@ -785,11 +788,14 @@
 │                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-46218 
 │                       │      │                  ├ [3]: https://hackerone.com/reports/2212193 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6535-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
+│                       │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      │                  │      kage-announce@lists.fedoraproject.org/message/3ZX3VW67
+│                       │      │                  │      N4ACRAPMV2QS2LVYGD7H2MVE/ 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6535-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
 │                       │      ├ PublishedDate   : 2023-12-07T01:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-12-07T12:12:00Z 
+│                       │      ╰ LastModifiedDate: 2023-12-10T03:15:00Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libgcc@11.4.1-2.1.el9.x86_64 
 │                       │      ├ PkgName         : libgcc 
