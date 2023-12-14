@@ -1,7 +1,7 @@
 ARG DIST
 ARG OPENAFDIST
 
-FROM registry.access.redhat.com/ubi9/ubi-minimal 
+FROM registry.access.redhat.com/ubi9/ubi-minimal as main
 ARG DIST
 ARG OPENAFDIST
 
@@ -17,7 +17,7 @@ RUN microdnf upgrade -y\
  && rm -rf /usr/lib/jvm/java-1.8.0-openjdk-*/jre/lib/images/jre/man\
  && rm -rf /usr/lib/jvm/java-1.8.0-openjdk-*/jre/lib/images\
  && echo 'PATH=$PATH:/openaf' > /etc/profile.d/openaf.sh\
- && adduser openaf\
+ && adduser openaf -u 1000\
  && chown -R openaf: /openaf\
  && echo "openaf ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/openaf\
  && microdnf remove -y shadow-utils\
@@ -25,7 +25,7 @@ RUN microdnf upgrade -y\
  && echo 'if [ ! -e ~/.openaf-ojobio-complete ] || [ $(find ~/.openaf-ojobio-complete -mtime +1) ]; then curl --max-time 2 -s https://ojob.io/autoComplete.sh > ~/.openaf-ojobio-complete; fi' >> /etc/bashrc\
  && echo "source ~/.openaf-ojobio-complete" >> /etc/bashrc
 
-USER openaf
+USER 1000
 
 # Install openaf and prepare everything
 RUN cd /openaf\
@@ -34,6 +34,14 @@ RUN cd /openaf\
  && chmod u+x /openaf/.docker/entrypoint.sh\
  && chmod u+x /openaf/getOpenAFOrigJar.js\
  && curl -s https://ojob.io/autoComplete.sh > ~/.openaf-ojobio-complete
+
+# -------------------
+FROM scratch as final
+
+COPY --from=main / /
+
+ENV OAF_HOME=/openaf
+USER 1000
 
 WORKDIR /openaf
 ENTRYPOINT ["/openaf/.docker/entrypoint.sh"]
