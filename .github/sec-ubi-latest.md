@@ -402,7 +402,10 @@
 │                       │      │                    a PSL domain.
 │                       │      │                    
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                  │        │           L/I:L/A:N 
+│                       │      │                  │        ╰ V3Score : 6.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           L/I:N/A:N 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46218 
@@ -417,7 +420,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6535-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
 │                       │      ├ PublishedDate   : 2023-12-07T01:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-12-10T03:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-12-12T15:53:00Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2022-48554 
 │                       │      ├ PkgID           : file-libs@5.39-14.el9.x86_64 
 │                       │      ├ PkgName         : file-libs 
@@ -780,7 +783,10 @@
 │                       │      │                    a PSL domain.
 │                       │      │                    
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                  │        │           L/I:L/A:N 
+│                       │      │                  │        ╰ V3Score : 6.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           L/I:N/A:N 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46218 
@@ -795,7 +801,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6535-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
 │                       │      ├ PublishedDate   : 2023-12-07T01:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-12-10T03:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-12-12T15:53:00Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libgcc@11.4.1-2.1.el9.x86_64 
 │                       │      ├ PkgName         : libgcc 
@@ -944,8 +950,10 @@
 │                       │      │                           ╰ V3Score : 6.5 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-39615 
 │                       │      │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/535 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-39615 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-39615 
+│                       │      │                  ├ [2]: https://linux.oracle.com/cve/CVE-2023-39615.html 
+│                       │      │                  ├ [3]: https://linux.oracle.com/errata/ELSA-2023-7747.html 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-39615 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-39615 
 │                       │      ├ PublishedDate   : 2023-08-29T17:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T04:17:00Z 
 │                       ├ [23] ╭ VulnerabilityID : CVE-2023-45322 
@@ -1048,7 +1056,7 @@
 │                       │      ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
 │                       │      ├ PkgName         : ncurses-base 
 │                       │      ├ InstalledVersion: 6.2-10.20210508.el9 
-│                       │      ├ Status          : under_investigation 
+│                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:a032f50e22ae11b241fcf38b4a787f0e5100957
 │                       │      │                  │         8eedaf9d05894f5f38fd12af5 
 │                       │      │                  ╰ DiffID: sha256:80c0d7946d02825018d47fbf34df054bec5dc43
@@ -1056,12 +1064,22 @@
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
 │                       │      ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
-│                       │      ├ Description     : A flaw was found in the NCurses package. A segmentation
-│                       │      │                    fault may occur via _nc_wrap_entry(). 
+│                       │      ├ Description     : NCurse v6.4-20230418 was discovered to contain a
+│                       │      │                   segmentation fault via the component
+│                       │      │                   _nc_wrap_entry(). 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
-│                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
-│                       │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
+│                       │      │                           │           N/I:N/A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
+│                       │      │                  ├ [1]: https://lists.gnu.org/archive/html/bug-ncurses/20
+│                       │      │                  │      23-04/msg00020.html 
+│                       │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-ncurses/20
+│                       │      │                  │      23-04/msg00029.html 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
+│                       │      ├ PublishedDate   : 2023-12-12T15:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-12-12T15:52:00Z 
 │                       ├ [26] ╭ VulnerabilityID : CVE-2022-29458 
 │                       │      ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
 │                       │      ├ PkgName         : ncurses-base 
@@ -1111,7 +1129,7 @@
 │                       │      ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
 │                       │      ├ PkgName         : ncurses-libs 
 │                       │      ├ InstalledVersion: 6.2-10.20210508.el9 
-│                       │      ├ Status          : under_investigation 
+│                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:a032f50e22ae11b241fcf38b4a787f0e5100957
 │                       │      │                  │         8eedaf9d05894f5f38fd12af5 
 │                       │      │                  ╰ DiffID: sha256:80c0d7946d02825018d47fbf34df054bec5dc43
@@ -1119,12 +1137,22 @@
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
 │                       │      ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
-│                       │      ├ Description     : A flaw was found in the NCurses package. A segmentation
-│                       │      │                    fault may occur via _nc_wrap_entry(). 
+│                       │      ├ Description     : NCurse v6.4-20230418 was discovered to contain a
+│                       │      │                   segmentation fault via the component
+│                       │      │                   _nc_wrap_entry(). 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
-│                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
-│                       │                         ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
+│                       │      │                           │           N/I:N/A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
+│                       │      │                  ├ [1]: https://lists.gnu.org/archive/html/bug-ncurses/20
+│                       │      │                  │      23-04/msg00020.html 
+│                       │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-ncurses/20
+│                       │      │                  │      23-04/msg00029.html 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
+│                       │      ├ PublishedDate   : 2023-12-12T15:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-12-12T15:52:00Z 
 │                       ├ [28] ╭ VulnerabilityID : CVE-2022-29458 
 │                       │      ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
 │                       │      ├ PkgName         : ncurses-libs 
