@@ -24,13 +24,21 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-38469 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2191687 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-38469 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-38469 
-│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-6487-1 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-38469 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:7836 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-38469 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/1939614 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2191687 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2191690 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2191691 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2191692 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2191694 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2191687 
+│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2023-38469 
+│                       │      │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2023-7836.html 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2023-38469 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6487-1 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-38469 
 │                       │      ├ PublishedDate   : 2023-11-02T15:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-09T19:58:00Z 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2023-38470 
@@ -56,13 +64,21 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-38470 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2191690 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-38470 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-38470 
-│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-6487-1 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-38470 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:7836 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-38470 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/1939614 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2191687 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2191690 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2191691 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2191692 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2191694 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2191690 
+│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2023-38470 
+│                       │      │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2023-7836.html 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2023-38470 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6487-1 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-38470 
 │                       │      ├ PublishedDate   : 2023-11-02T15:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-09T19:58:00Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2023-38471 
@@ -88,13 +104,21 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-38471 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2191691 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-38471 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-38471 
-│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-6487-1 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-38471 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:7836 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-38471 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/1939614 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2191687 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2191690 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2191691 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2191692 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2191694 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2191691 
+│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2023-38471 
+│                       │      │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2023-7836.html 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2023-38471 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6487-1 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-38471 
 │                       │      ├ PublishedDate   : 2023-11-02T15:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-09T19:58:00Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2023-38472 
@@ -120,13 +144,21 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-38472 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2191692 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-38472 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-38472 
-│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-6487-1 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-38472 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:7836 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-38472 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/1939614 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2191687 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2191690 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2191691 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2191692 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2191694 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2191692 
+│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2023-38472 
+│                       │      │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2023-7836.html 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2023-38472 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6487-1 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-38472 
 │                       │      ├ PublishedDate   : 2023-11-02T15:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-09T19:58:00Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2023-38473 
@@ -152,13 +184,21 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-38473 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2191694 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-38473 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-38473 
-│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-6487-1 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-38473 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:7836 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-38473 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/1939614 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2191687 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2191690 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2191691 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2191692 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2191694 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2191694 
+│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2023-38473 
+│                       │      │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2023-7836.html 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2023-38473 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6487-1 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-38473 
 │                       │      ├ PublishedDate   : 2023-11-02T16:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-09T17:46:00Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2017-6519 
@@ -416,11 +456,14 @@
 │                       │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/3ZX3VW67
 │                       │      │                  │      N4ACRAPMV2QS2LVYGD7H2MVE/ 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6535-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
+│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      │                  │      kage-announce@lists.fedoraproject.org/message/UOGXU25F
+│                       │      │                  │      MMT2X6UUITQ7EZZYMJ42YWWD/ 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6535-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
 │                       │      ├ PublishedDate   : 2023-12-07T01:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-12-12T15:53:00Z 
+│                       │      ╰ LastModifiedDate: 2023-12-15T03:15:00Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2022-48554 
 │                       │      ├ PkgID           : file-libs@5.39-14.el9.x86_64 
 │                       │      ├ PkgName         : file-libs 
@@ -640,45 +683,46 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4175 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4177 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-25193 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2167254 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2221626 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2221634 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2221645 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2221647 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2223207 
-│                       │      │                  ├ [8] : https://chromium.googlesource.com/chromium/src/+
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2221642 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2221645 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2221647 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2223207 
+│                       │      │                  ├ [9] : https://chromium.googlesource.com/chromium/src/+
 │                       │      │                  │       /e1f324aa681af54101c1f2d173d92adb80e37088/DEPS#361
 │                       │      │                  │        
-│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-25193 
-│                       │      │                  ├ [10]: https://errata.almalinux.org/8/ALSA-2023-4175.html 
-│                       │      │                  ├ [11]: https://github.com/harfbuzz/harfbuzz/blob/2822b5
+│                       │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-4177.html 
+│                       │      │                  ├ [12]: https://github.com/harfbuzz/harfbuzz/blob/2822b5
 │                       │      │                  │       89bc837fae6f66233e2cf2eef0f6ce8470/src/hb-ot-layout-g
 │                       │      │                  │       subgpos.hh 
-│                       │      │                  ├ [12]: https://github.com/harfbuzz/harfbuzz/commit/85be
-│                       │      │                  │       877925ddbf34f74a1229f3ca1716bb6170dc 
 │                       │      │                  ├ [13]: https://github.com/harfbuzz/harfbuzz/commit/85be
+│                       │      │                  │       877925ddbf34f74a1229f3ca1716bb6170dc 
+│                       │      │                  ├ [14]: https://github.com/harfbuzz/harfbuzz/commit/85be
 │                       │      │                  │       877925ddbf34f74a1229f3ca1716bb6170dc
 │                       │      │                  │       (reverted) 
-│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2023-25193.html 
-│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2023-4233.html 
-│                       │      │                  ├ [16]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2023-25193.html 
+│                       │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2023-4233.html 
+│                       │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce%40lists.fedoraproject.org/message/KWCH
 │                       │      │                  │       WSICWVZSAXP2YAXM65JC2GR53547/ 
-│                       │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce%40lists.fedoraproject.org/message/YZ5M
 │                       │      │                  │       2GSAIHFPLHYJXUPQ2QDJCLWXUGO3/ 
-│                       │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [19]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/KWCHWS
 │                       │      │                  │       ICWVZSAXP2YAXM65JC2GR53547/ 
-│                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-25193 
-│                       │      │                  ├ [20]: https://security.netapp.com/advisory/ntap-202307
+│                       │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2023-25193 
+│                       │      │                  ├ [21]: https://security.netapp.com/advisory/ntap-202307
 │                       │      │                  │       25-0006/ 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6263-1 
-│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6272-1 
-│                       │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2023-25193 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6263-1 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6272-1 
+│                       │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2023-25193 
 │                       │      ├ PublishedDate   : 2023-02-04T20:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T04:08:00Z 
 │                       ├ [16] ╭ VulnerabilityID : CVE-2022-3857 
@@ -796,11 +840,14 @@
 │                       │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/3ZX3VW67
 │                       │      │                  │      N4ACRAPMV2QS2LVYGD7H2MVE/ 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6535-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
+│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      │                  │      kage-announce@lists.fedoraproject.org/message/UOGXU25F
+│                       │      │                  │      MMT2X6UUITQ7EZZYMJ42YWWD/ 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6535-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
 │                       │      ├ PublishedDate   : 2023-12-07T01:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-12-12T15:53:00Z 
+│                       │      ╰ LastModifiedDate: 2023-12-15T03:15:00Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libgcc@11.4.1-2.1.el9.x86_64 
 │                       │      ├ PkgName         : libgcc 
@@ -1070,7 +1117,10 @@
 │                       │      │                   segmentation fault via the component
 │                       │      │                   _nc_wrap_entry(). 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                  │        │           N/I:N/A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 6.5 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
@@ -1081,7 +1131,7 @@
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                       │      ├ PublishedDate   : 2023-12-12T15:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-12-12T15:52:00Z 
+│                       │      ╰ LastModifiedDate: 2023-12-14T20:37:00Z 
 │                       ├ [26] ╭ VulnerabilityID : CVE-2022-29458 
 │                       │      ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
 │                       │      ├ PkgName         : ncurses-base 
@@ -1143,7 +1193,10 @@
 │                       │      │                   segmentation fault via the component
 │                       │      │                   _nc_wrap_entry(). 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                  │        │           N/I:N/A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 6.5 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
@@ -1154,7 +1207,7 @@
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                       │      ├ PublishedDate   : 2023-12-12T15:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-12-12T15:52:00Z 
+│                       │      ╰ LastModifiedDate: 2023-12-14T20:37:00Z 
 │                       ├ [28] ╭ VulnerabilityID : CVE-2022-29458 
 │                       │      ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
 │                       │      ├ PkgName         : ncurses-libs 
@@ -1241,8 +1294,8 @@
 │                       │      │                            62c3bf65dbcae17671709c298 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-│                       │      ├ Title           : Information exposure when DH secret are reused across
-│                       │      │                   multiple TLS connections 
+│                       │      ├ Title           : nss: Information exposure when DH secret are reused
+│                       │      │                   across multiple TLS connections 
 │                       │      ├ Description     : The Raccoon attack is a timing attack on DHE
 │                       │      │                   ciphersuites inherit in the TLS specification. To mitigate
 │                       │      │                   this vulnerability, Firefox disabled support for DHE
@@ -1305,8 +1358,8 @@
 │                       │      │                            62c3bf65dbcae17671709c298 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-│                       │      ├ Title           : Information exposure when DH secret are reused across
-│                       │      │                   multiple TLS connections 
+│                       │      ├ Title           : nss: Information exposure when DH secret are reused
+│                       │      │                   across multiple TLS connections 
 │                       │      ├ Description     : The Raccoon attack is a timing attack on DHE
 │                       │      │                   ciphersuites inherit in the TLS specification. To mitigate
 │                       │      │                   this vulnerability, Firefox disabled support for DHE
@@ -1369,8 +1422,8 @@
 │                       │      │                            62c3bf65dbcae17671709c298 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-│                       │      ├ Title           : Information exposure when DH secret are reused across
-│                       │      │                   multiple TLS connections 
+│                       │      ├ Title           : nss: Information exposure when DH secret are reused
+│                       │      │                   across multiple TLS connections 
 │                       │      ├ Description     : The Raccoon attack is a timing attack on DHE
 │                       │      │                   ciphersuites inherit in the TLS specification. To mitigate
 │                       │      │                   this vulnerability, Firefox disabled support for DHE
@@ -1433,8 +1486,8 @@
 │                       │      │                            62c3bf65dbcae17671709c298 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-│                       │      ├ Title           : Information exposure when DH secret are reused across
-│                       │      │                   multiple TLS connections 
+│                       │      ├ Title           : nss: Information exposure when DH secret are reused
+│                       │      │                   across multiple TLS connections 
 │                       │      ├ Description     : The Raccoon attack is a timing attack on DHE
 │                       │      │                   ciphersuites inherit in the TLS specification. To mitigate
 │                       │      │                   this vulnerability, Firefox disabled support for DHE
@@ -1497,8 +1550,8 @@
 │                       │      │                            62c3bf65dbcae17671709c298 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-│                       │      ├ Title           : Information exposure when DH secret are reused across
-│                       │      │                   multiple TLS connections 
+│                       │      ├ Title           : nss: Information exposure when DH secret are reused
+│                       │      │                   across multiple TLS connections 
 │                       │      ├ Description     : The Raccoon attack is a timing attack on DHE
 │                       │      │                   ciphersuites inherit in the TLS specification. To mitigate
 │                       │      │                   this vulnerability, Firefox disabled support for DHE
@@ -1561,8 +1614,8 @@
 │                       │      │                            62c3bf65dbcae17671709c298 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-│                       │      ├ Title           : Information exposure when DH secret are reused across
-│                       │      │                   multiple TLS connections 
+│                       │      ├ Title           : nss: Information exposure when DH secret are reused
+│                       │      │                   across multiple TLS connections 
 │                       │      ├ Description     : The Raccoon attack is a timing attack on DHE
 │                       │      │                   ciphersuites inherit in the TLS specification. To mitigate
 │                       │      │                   this vulnerability, Firefox disabled support for DHE
