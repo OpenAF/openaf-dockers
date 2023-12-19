@@ -12,6 +12,7 @@
 │                       │     │                  │         ec855ff6eef0bdf9481be6c5 
 │                       │     │                  ╰ DiffID: sha256:7d80dbffbb7eab09de6ed7b23045602be2daf667
 │                       │     │                            571c29a656342fc5527e3579 
+│                       │     ├ SeveritySource  : nvd 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-46218 
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
@@ -35,7 +36,13 @@
 │                       │     │                   a PSL domain.
 │                       │     │                    
 │                       │     ├ Severity        : MEDIUM 
-│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
+│                       │     ├ VendorSeverity   ╭ nvd   : 2 
+│                       │     │                  ├ redhat: 2 
+│                       │     │                  ╰ ubuntu: 2 
+│                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
+│                       │     │                  │        │           /I:L/A:N 
+│                       │     │                  │        ╰ V3Score : 6.5 
+│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
 │                       │     │                           │           /I:N/A:N 
 │                       │     │                           ╰ V3Score : 5.3 
 │                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46218 
@@ -43,11 +50,17 @@
 │                       │     │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
 │                       │     │                  │      -2023-46218 
 │                       │     │                  ├ [3]: https://hackerone.com/reports/2212193 
-│                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
-│                       │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-6535-1 
-│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
-│                       │     ├ PublishedDate   : 2023-12-07T01:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-12-07T12:12:00Z 
+│                       │     │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pack
+│                       │     │                  │      age-announce@lists.fedoraproject.org/message/3ZX3VW67N4
+│                       │     │                  │      ACRAPMV2QS2LVYGD7H2MVE/ 
+│                       │     │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pack
+│                       │     │                  │      age-announce@lists.fedoraproject.org/message/UOGXU25FMM
+│                       │     │                  │      T2X6UUITQ7EZZYMJ42YWWD/ 
+│                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
+│                       │     │                  ├ [7]: https://ubuntu.com/security/notices/USN-6535-1 
+│                       │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
+│                       │     ├ PublishedDate   : 2023-12-07T01:15:07.16Z 
+│                       │     ╰ LastModifiedDate: 2023-12-15T03:15:44.97Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2023-46219 
 │                       │     ├ PkgID           : curl@8.4.0-r0 
 │                       │     ├ PkgName         : curl 
@@ -58,21 +71,43 @@
 │                       │     │                  │         ec855ff6eef0bdf9481be6c5 
 │                       │     │                  ╰ DiffID: sha256:7d80dbffbb7eab09de6ed7b23045602be2daf667
 │                       │     │                            571c29a656342fc5527e3579 
+│                       │     ├ SeveritySource  : nvd 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-46219 
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │     ├ Title           : curl: excessively long file name may lead to unknown
 │                       │     │                   HSTS status 
-│                       │     ├ Description     : No description is available for this CVE. 
-│                       │     ├ Severity        : LOW 
-│                       │     ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46219 
-│                       │                        ├ [1]: https://curl.se/docs/CVE-2023-46219.html 
-│                       │                        ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
-│                       │                        │      -2023-46219 
-│                       │                        ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-46219 
-│                       │                        ├ [4]: https://ubuntu.com/security/notices/USN-6535-1 
-│                       │                        ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-46219 
+│                       │     ├ Description     : When saving HSTS data to an excessively long file name,
+│                       │     │                   curl could end up
+│                       │     │                   removing all contents, making subsequent requests using that
+│                       │     │                   file unaware of
+│                       │     │                   the HSTS status they should otherwise use.
+│                       │     │                    
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ CweIDs           ─ [0]: CWE-311 
+│                       │     ├ VendorSeverity   ╭ nvd   : 2 
+│                       │     │                  ├ redhat: 1 
+│                       │     │                  ╰ ubuntu: 1 
+│                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+│                       │     │                  │        │           /I:L/A:N 
+│                       │     │                  │        ╰ V3Score : 5.3 
+│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L
+│                       │     │                           │           /I:L/A:N 
+│                       │     │                           ╰ V3Score : 4.8 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46219 
+│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2023-46219.html 
+│                       │     │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+│                       │     │                  │      -2023-46219 
+│                       │     │                  ├ [3]: https://hackerone.com/reports/2236133 
+│                       │     │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pack
+│                       │     │                  │      age-announce@lists.fedoraproject.org/message/UOGXU25FMM
+│                       │     │                  │      T2X6UUITQ7EZZYMJ42YWWD/ 
+│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46219 
+│                       │     │                  ├ [6]: https://ubuntu.com/security/notices/USN-6535-1 
+│                       │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-46219 
+│                       │     ├ PublishedDate   : 2023-12-12T02:15:06.99Z 
+│                       │     ╰ LastModifiedDate: 2023-12-15T14:49:07.26Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2023-46218 
 │                       │     ├ PkgID           : libcurl@8.4.0-r0 
 │                       │     ├ PkgName         : libcurl 
@@ -83,6 +118,7 @@
 │                       │     │                  │         ec855ff6eef0bdf9481be6c5 
 │                       │     │                  ╰ DiffID: sha256:7d80dbffbb7eab09de6ed7b23045602be2daf667
 │                       │     │                            571c29a656342fc5527e3579 
+│                       │     ├ SeveritySource  : nvd 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-46218 
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
@@ -106,7 +142,13 @@
 │                       │     │                   a PSL domain.
 │                       │     │                    
 │                       │     ├ Severity        : MEDIUM 
-│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
+│                       │     ├ VendorSeverity   ╭ nvd   : 2 
+│                       │     │                  ├ redhat: 2 
+│                       │     │                  ╰ ubuntu: 2 
+│                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
+│                       │     │                  │        │           /I:L/A:N 
+│                       │     │                  │        ╰ V3Score : 6.5 
+│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
 │                       │     │                           │           /I:N/A:N 
 │                       │     │                           ╰ V3Score : 5.3 
 │                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46218 
@@ -114,11 +156,17 @@
 │                       │     │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
 │                       │     │                  │      -2023-46218 
 │                       │     │                  ├ [3]: https://hackerone.com/reports/2212193 
-│                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
-│                       │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-6535-1 
-│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
-│                       │     ├ PublishedDate   : 2023-12-07T01:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-12-07T12:12:00Z 
+│                       │     │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pack
+│                       │     │                  │      age-announce@lists.fedoraproject.org/message/3ZX3VW67N4
+│                       │     │                  │      ACRAPMV2QS2LVYGD7H2MVE/ 
+│                       │     │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pack
+│                       │     │                  │      age-announce@lists.fedoraproject.org/message/UOGXU25FMM
+│                       │     │                  │      T2X6UUITQ7EZZYMJ42YWWD/ 
+│                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-46218 
+│                       │     │                  ├ [7]: https://ubuntu.com/security/notices/USN-6535-1 
+│                       │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
+│                       │     ├ PublishedDate   : 2023-12-07T01:15:07.16Z 
+│                       │     ╰ LastModifiedDate: 2023-12-15T03:15:44.97Z 
 │                       ╰ [3] ╭ VulnerabilityID : CVE-2023-46219 
 │                             ├ PkgID           : libcurl@8.4.0-r0 
 │                             ├ PkgName         : libcurl 
@@ -129,21 +177,43 @@
 │                             │                  │         ec855ff6eef0bdf9481be6c5 
 │                             │                  ╰ DiffID: sha256:7d80dbffbb7eab09de6ed7b23045602be2daf667
 │                             │                            571c29a656342fc5527e3579 
+│                             ├ SeveritySource  : nvd 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-46219 
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                             ├ Title           : curl: excessively long file name may lead to unknown
 │                             │                   HSTS status 
-│                             ├ Description     : No description is available for this CVE. 
-│                             ├ Severity        : LOW 
-│                             ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46219 
-│                                                ├ [1]: https://curl.se/docs/CVE-2023-46219.html 
-│                                                ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
-│                                                │      -2023-46219 
-│                                                ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-46219 
-│                                                ├ [4]: https://ubuntu.com/security/notices/USN-6535-1 
-│                                                ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-46219 
+│                             ├ Description     : When saving HSTS data to an excessively long file name,
+│                             │                   curl could end up
+│                             │                   removing all contents, making subsequent requests using that
+│                             │                   file unaware of
+│                             │                   the HSTS status they should otherwise use.
+│                             │                    
+│                             ├ Severity        : MEDIUM 
+│                             ├ CweIDs           ─ [0]: CWE-311 
+│                             ├ VendorSeverity   ╭ nvd   : 2 
+│                             │                  ├ redhat: 1 
+│                             │                  ╰ ubuntu: 1 
+│                             ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+│                             │                  │        │           /I:L/A:N 
+│                             │                  │        ╰ V3Score : 5.3 
+│                             │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L
+│                             │                           │           /I:L/A:N 
+│                             │                           ╰ V3Score : 4.8 
+│                             ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46219 
+│                             │                  ├ [1]: https://curl.se/docs/CVE-2023-46219.html 
+│                             │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+│                             │                  │      -2023-46219 
+│                             │                  ├ [3]: https://hackerone.com/reports/2236133 
+│                             │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pack
+│                             │                  │      age-announce@lists.fedoraproject.org/message/UOGXU25FMM
+│                             │                  │      T2X6UUITQ7EZZYMJ42YWWD/ 
+│                             │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46219 
+│                             │                  ├ [6]: https://ubuntu.com/security/notices/USN-6535-1 
+│                             │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-46219 
+│                             ├ PublishedDate   : 2023-12-12T02:15:06.99Z 
+│                             ╰ LastModifiedDate: 2023-12-15T14:49:07.26Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
@@ -173,6 +243,9 @@
                         │     │                    
                         │     ├ Severity        : HIGH 
                         │     ├ CweIDs           ─ [0]: CWE-502 
+                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+                        │     │                  ├ nvd   : 3 
+                        │     │                  ╰ redhat: 2 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N
                         │     │                  │        │           /I:N/A:H 
                         │     │                  │        ╰ V3Score : 7.1 
@@ -197,8 +270,8 @@
                         │     │                  ├ [8] : https://logback.qos.ch/news.html#1.3.12 
                         │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
                         │     │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-6378 
-                        │     ├ PublishedDate   : 2023-11-29T12:15:00Z 
-                        │     ╰ LastModifiedDate: 2023-12-05T21:00:00Z 
+                        │     ├ PublishedDate   : 2023-11-29T12:15:07.543Z 
+                        │     ╰ LastModifiedDate: 2023-12-05T21:00:10.557Z 
                         ╰ [1] ╭ VulnerabilityID : CVE-2023-6378 
                               ├ PkgName         : ch.qos.logback:logback-core 
                               ├ PkgPath         : openaf/openaf.jar 
@@ -225,6 +298,9 @@
                               │                    
                               ├ Severity        : HIGH 
                               ├ CweIDs           ─ [0]: CWE-502 
+                              ├ VendorSeverity   ╭ ghsa  : 3 
+                              │                  ├ nvd   : 3 
+                              │                  ╰ redhat: 2 
                               ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N
                               │                  │        │           /I:N/A:H 
                               │                  │        ╰ V3Score : 7.1 
@@ -249,6 +325,6 @@
                               │                  ├ [8] : https://logback.qos.ch/news.html#1.3.12 
                               │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
                               │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-6378 
-                              ├ PublishedDate   : 2023-11-29T12:15:00Z 
-                              ╰ LastModifiedDate: 2023-12-05T21:00:00Z 
+                              ├ PublishedDate   : 2023-11-29T12:15:07.543Z 
+                              ╰ LastModifiedDate: 2023-12-05T21:00:10.557Z 
 ````
