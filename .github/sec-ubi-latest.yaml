@@ -3447,7 +3447,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -3489,7 +3489,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -3515,6 +3515,16 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-28487
     PublishedDate: '2023-03-16T01:15:47.067Z'
     LastModifiedDate: '2023-11-02T01:58:22.777Z'
+  - VulnerabilityID: CVE-2023-42465
+    PkgID: sudo@1.9.5p2-9.el9.x86_64
+    PkgName: sudo
+    InstalledVersion: 1.9.5p2-9.el9
+    Status: affected
+    Layer:
+      Digest: sha256:cfbba5939963c18f6f27483adb7b8f0a7f7633fcc43f816ccd43853ec46738b3
+      DiffID: sha256:b9f19f0fded6bc2afd5af2578c932dee3b1422862c3bf65dbcae17671709c298
+    SeveritySource: redhat
+    Severity: MEDIUM
   - VulnerabilityID: CVE-2021-3997
     PkgID: systemd-libs@252-18.el9.x86_64
     PkgName: systemd-libs
