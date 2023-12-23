@@ -9,7 +9,14 @@ Security scans:
 [![sec-ubi-latest](.github/sec-ubi-latest.svg)](.github/sec-ubi-latest.md)<br>
 [![sec-ubi-nightly](.github/sec-ubi-nightly.svg)](.github/sec-ubi-nightly.md)<br>
 [![sec-oJobRT-latest](.github/sec-oJobRT-latest.svg)](.github/sec-oJobRT-latest.md)<br>
-[![sec-oJobRT-nightly](.github/sec-oJobRT-nightly.svg)](.github/sec-oJobRT-nightly.md)
+[![sec-oJobRT-nightly](.github/sec-oJobRT-nightly.svg)](.github/sec-oJobRT-nightly.md)<br>
+<br>
+[![sec-8-latest](.github/sec-8-latest.svg)](.github/sec-8-latest.md)<br>
+[![sec-8-nightly](.github/sec-8-nightly.svg)](.github/sec-8-nightly.md)<br>
+[![sec-8-ubi-latest](.github/sec-8-ubi-latest.svg)](.github/sec-8-ubi-latest.md)<br>
+[![sec-8-ubi-nightly](.github/sec-8-ubi-nightly.svg)](.github/sec-8-ubi-nightly.md)<br>
+[![sec-8-oJobRT-latest](.github/sec-8-oJobRT-latest.svg)](.github/sec-8-oJobRT-latest.md)<br>
+[![sec-8-oJobRT-nightly](.github/sec-8-oJobRT-nightly.svg)](.github/sec-8-oJobRT-nightly.md)
 
 ## OpenAF
 
