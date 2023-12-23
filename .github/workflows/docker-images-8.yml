@@ -1,4 +1,4 @@
-name: Docker Images CI
+name: Docker Images 8 CI
 
 on:
   #push:
@@ -74,7 +74,7 @@ jobs:
       if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi != 'yes' }}
       with:
         platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:openaf-8"
+        context: "{{defaultContext}}:openaf"
         push: true
         tags: openaf/oaf:${{ github.event.inputs.baseTag }}
         build-args: | 
@@ -85,7 +85,7 @@ jobs:
       if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi == 'yes' }}
       with:
         platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:openaf-ubi-8"
+        context: "{{defaultContext}}:openaf-ubi"
         push: true
         tags: openaf/oaf:${{ github.event.inputs.baseTag }}
         build-args: | 
@@ -96,7 +96,7 @@ jobs:
       if  : ${{ ! github.event.inputs.baseTag }}
       with:
         platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:openaf-8"
+        context: "{{defaultContext}}:openaf"
         push: true
         tags: openaf/oaf:build
         build-args: DIST=build
@@ -118,7 +118,7 @@ jobs:
       if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi != 'yes' }}
       with:
         platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:openaf-8"
+        context: "{{defaultContext}}:openaf"
         push: true
         tags: openaf/openaf:${{ github.event.inputs.baseTag }}
         build-args: | 
@@ -129,7 +129,7 @@ jobs:
       if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi == 'yes' }}
       with:
         platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:openaf-ubi-8"
+        context: "{{defaultContext}}:openaf-ubi"
         push: true
         tags: openaf/openaf:${{ github.event.inputs.baseTag }}
         build-args: | 
@@ -140,7 +140,7 @@ jobs:
       if  : ${{ ! github.event.inputs.baseTag }}
       with:
         platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:openaf-8"
+        context: "{{defaultContext}}:openaf"
         push: true
         tags: openaf/openaf:build
         build-args: DIST=build
