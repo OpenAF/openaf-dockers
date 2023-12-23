@@ -63,3 +63,40 @@ jobs:
         ojob: ojob.io/git/hub/workflows
         args: 'op="trigger" workflow="docker-images.yml" inputs="{baseTag:\"ubi-nightly\",oafDist:\"nightly\",ubi:\"yes\"}"'
         dist: t8
+
+    # ----------------------
+    - name: Trigger build t8
+      uses: openaf/ojob-action@v4
+      env :
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        ojob: ojob.io/git/hub/workflows
+        args: 'op="trigger" workflow="docker-images-8.yml" inputs="{baseTag:\"8-t8\",oafDist:\"t8\",ubi:\"no\"}"'
+        dist: t8
+    # --------------------------
+    - name: Trigger build t8 ubi
+      uses: openaf/ojob-action@v4
+      env :
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        ojob: ojob.io/git/hub/workflows
+        args: 'op="trigger" workflow="docker-images-8.yml" inputs="{baseTag:\"8-ubi-t8\",oafDist:\"t8\",ubi:\"yes\"}"'
+        dist: t8
+    # ---------------------------
+    - name: Trigger build nightly
+      uses: openaf/ojob-action@v4
+      env :
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        ojob: ojob.io/git/hub/workflows
+        args: 'op="trigger" workflow="docker-images-8.yml" inputs="{baseTag:\"8-nightly\",oafDist:\"nightly\",ubi:\"no\"}"'
+        dist: t8
+    # -------------------------------
+    - name: Trigger build nightly ubi
+      uses: openaf/ojob-action@v4
+      env :
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        ojob: ojob.io/git/hub/workflows
+        args: 'op="trigger" workflow="docker-images-8.yml" inputs="{baseTag:\"8-ubi-nightly\",oafDist:\"nightly\",ubi:\"yes\"}"'
+        dist: t8
