@@ -1,4 +1,4 @@
-name: Docker Images 8 CI
+name: Docker Images CI
 
 on:
   #push:
