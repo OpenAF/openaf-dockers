@@ -107,7 +107,7 @@ jobs:
                 .sort("name")
                 .notEquals("name", "OpenAF")
                 .select(r=> ({ name: r.name, version: r.version }))
-    log(global.uuid + " | oJobRT start (OpenAF version " + getVersion() + " (" + getDistribution() + "), oPacks: " + af.toSLON( packs ) + ")" )
+    log(global.uuid + " | oJobRT start (OpenAF version " + getVersion() + " (" + getDistribution() + "), Java: " + ow.format.getJavaVersion() + ", oPacks: " + af.toSLON( packs ) + ")" )
 
 # --------------------
 - name: Initial checks
