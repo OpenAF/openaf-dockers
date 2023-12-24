@@ -4103,7 +4103,7 @@
                         │      │                   in log messages. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
@@ -4147,7 +4147,7 @@
                         │      │                   in sudoreplay output. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
@@ -4275,13 +4275,17 @@
                                │                   allowing man-in-the-middles (or the upstream DNS resolver)
                                │                   to manipulate records. 
                                ├ Severity        : MEDIUM 
+                               ├ CweIDs           ─ [0]: CWE-300 
                                ├ VendorSeverity   ─ redhat: 2 
                                ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                                │                           │           N/I:H/A:N 
                                │                           ╰ V3Score : 5.9 
-                               ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-7008 
-                                                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2222261 
-                                                  ├ [2]: https://github.com/systemd/systemd/issues/25676 
-                                                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
-                                                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
+                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-7008 
+                               │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2222261 
+                               │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2222672 
+                               │                  ├ [3]: https://github.com/systemd/systemd/issues/25676 
+                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
+                               │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
+                               ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
+                               ╰ LastModifiedDate: 2023-12-23T13:15:07.573Z 
 ````
