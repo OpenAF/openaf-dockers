@@ -473,8 +473,9 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-46218
     - https://ubuntu.com/security/notices/USN-6535-1
     - https://www.cve.org/CVERecord?id=CVE-2023-46218
+    - https://www.debian.org/security/2023/dsa-5587
     PublishedDate: '2023-12-07T01:15:07.16Z'
-    LastModifiedDate: '2023-12-22T16:15:08.38Z'
+    LastModifiedDate: '2023-12-24T13:15:08.1Z'
   - VulnerabilityID: CVE-2022-48554
     PkgID: file-libs@5.39-14.el9.x86_64
     PkgName: file-libs
@@ -512,7 +513,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-48554
     - https://www.debian.org/security/2023/dsa-5489
     PublishedDate: '2023-08-22T19:16:31.757Z'
-    LastModifiedDate: '2023-11-16T16:15:29.06Z'
+    LastModifiedDate: '2023-12-27T22:04:16.397Z'
   - VulnerabilityID: CVE-2023-4156
     PkgID: gawk@5.1.0-6.el9.x86_64
     PkgName: gawk
@@ -840,8 +841,9 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-46218
     - https://ubuntu.com/security/notices/USN-6535-1
     - https://www.cve.org/CVERecord?id=CVE-2023-46218
+    - https://www.debian.org/security/2023/dsa-5587
     PublishedDate: '2023-12-07T01:15:07.16Z'
-    LastModifiedDate: '2023-12-22T16:15:08.38Z'
+    LastModifiedDate: '2023-12-24T13:15:08.1Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc@11.4.1-2.1.el9.x86_64
     PkgName: libgcc
@@ -2599,12 +2601,25 @@
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/P2W2BZQIHMCKRI5FNBJERFYMS5PK6TAH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RDDC2VOX7OQC6OHMYTVD4HLFZIV6PYBC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VZXC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YQVY5C5REXWJIORJIL2FIL3ALOEJEF72/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2023-06-01T14:15:11.143Z'
+    LastModifiedDate: '2023-12-28T02:15:54.543Z'
   - VulnerabilityID: CVE-2023-36632
     PkgID: python-unversioned-command@3.9.18-1.el9_3.noarch
     PkgName: python-unversioned-command
@@ -2829,12 +2844,25 @@
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/P2W2BZQIHMCKRI5FNBJERFYMS5PK6TAH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RDDC2VOX7OQC6OHMYTVD4HLFZIV6PYBC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VZXC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YQVY5C5REXWJIORJIL2FIL3ALOEJEF72/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2023-06-01T14:15:11.143Z'
+    LastModifiedDate: '2023-12-28T02:15:54.543Z'
   - VulnerabilityID: CVE-2023-36632
     PkgID: python3@3.9.18-1.el9_3.x86_64
     PkgName: python3
@@ -3059,12 +3087,25 @@
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/P2W2BZQIHMCKRI5FNBJERFYMS5PK6TAH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RDDC2VOX7OQC6OHMYTVD4HLFZIV6PYBC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VZXC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YQVY5C5REXWJIORJIL2FIL3ALOEJEF72/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2023-06-01T14:15:11.143Z'
+    LastModifiedDate: '2023-12-28T02:15:54.543Z'
   - VulnerabilityID: CVE-2023-36632
     PkgID: python3-libs@3.9.18-1.el9_3.x86_64
     PkgName: python3-libs
@@ -3389,6 +3430,37 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-35939
     PublishedDate: '2022-08-26T16:15:08.683Z'
     LastModifiedDate: '2023-02-04T01:16:51.737Z'
+  - VulnerabilityID: CVE-2023-7104
+    PkgID: sqlite-libs@3.34.1-6.el9_1.x86_64
+    PkgName: sqlite-libs
+    InstalledVersion: 3.34.1-6.el9_1
+    Status: under_investigation
+    Layer:
+      Digest: sha256:70640274a58d8b38541104d15b10a34d730269c15057087b660924ff36d832e4
+      DiffID: sha256:f87fd0b4ce8281dfa532059bd24c350d625041dfeaac2f797d754e3b44b2eba9
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-7104
+    Title: 'sqlite: heap-buffer-overflow at sessionfuzz'
+    Description: A vulnerability was found in SQLite SQLite3 up to 3.43.0 and classified as critical. This issue affects the function sessionReadRecord of the file ext/session/sqlite3session.c of the component make alltest Handler. The manipulation leads to heap-based buffer overflow. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-248999.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-7104
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-7104
+    - https://sqlite.org/forum/forumpost/5bcbf4571c
+    - https://sqlite.org/src/info/0e4e7a05c4204b47
+    - https://vuldb.com/?ctiid.248999
+    - https://vuldb.com/?id.248999
+    - https://www.cve.org/CVERecord?id=CVE-2023-7104
+    PublishedDate: '2023-12-29T10:15:13.89Z'
+    LastModifiedDate: '2023-12-29T13:56:27.537Z'
   - VulnerabilityID: CVE-2023-28486
     PkgID: sudo@1.9.5p2-9.el9.x86_64
     PkgName: sudo
@@ -3405,7 +3477,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -3447,7 +3519,7 @@
     CweIDs:
     - CWE-116
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -3557,6 +3629,8 @@
     Title: 'systemd-resolved: Unsigned name response in signed zone is not refused when DNSSEC=yes'
     Description: A vulnerability was found in systemd-resolved. This issue may allow systemd-resolved to accept records of DNSSEC-signed domains even when they have no signature, allowing man-in-the-middles (or the upstream DNS resolver) to manipulate records.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-300
     VendorSeverity:
       redhat: 2
     CVSS:
@@ -3566,6 +3640,9 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2023-7008
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://github.com/systemd/systemd/issues/25676
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
+    PublishedDate: '2023-12-23T13:15:07.573Z'
+    LastModifiedDate: '2023-12-25T03:08:20.54Z'
