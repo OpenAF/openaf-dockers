@@ -3232,8 +3232,8 @@
                         │      │                            feaac2f797d754e3b44b2eba9 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-36632 
-                        │      ├ Title           : maximum recursion depth exceeded while calling a Python
-                        │      │                    object 
+                        │      ├ Title           : python: RecursionError: maximum recursion depth
+                        │      │                   exceeded while calling a Python object 
                         │      ├ Description     : The legacy email.utils.parseaddr function in Python
                         │      │                   through 3.11.4 allows attackers to trigger "RecursionError:
                         │      │                   maximum recursion depth exceeded while calling a Python
@@ -3607,8 +3607,8 @@
                         │      │                            feaac2f797d754e3b44b2eba9 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-36632 
-                        │      ├ Title           : maximum recursion depth exceeded while calling a Python
-                        │      │                    object 
+                        │      ├ Title           : python: RecursionError: maximum recursion depth
+                        │      │                   exceeded while calling a Python object 
                         │      ├ Description     : The legacy email.utils.parseaddr function in Python
                         │      │                   through 3.11.4 allows attackers to trigger "RecursionError:
                         │      │                   maximum recursion depth exceeded while calling a Python
@@ -3982,8 +3982,8 @@
                         │      │                            feaac2f797d754e3b44b2eba9 
                         │      ├ SeveritySource  : redhat 
                         │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-36632 
-                        │      ├ Title           : maximum recursion depth exceeded while calling a Python
-                        │      │                    object 
+                        │      ├ Title           : python: RecursionError: maximum recursion depth
+                        │      │                   exceeded while calling a Python object 
                         │      ├ Description     : The legacy email.utils.parseaddr function in Python
                         │      │                   through 3.11.4 allows attackers to trigger "RecursionError:
                         │      │                   maximum recursion depth exceeded while calling a Python
@@ -4405,7 +4405,7 @@
                         │      │                   in log messages. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
@@ -4449,7 +4449,7 @@
                         │      │                   in sudoreplay output. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ photon     : 2 
