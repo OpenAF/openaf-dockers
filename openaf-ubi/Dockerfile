@@ -12,7 +12,7 @@ COPY getOpenAFOrigJar.js /openaf/
 # Install java + auxiliary settings
 RUN microdnf upgrade -y\
  && rm -rf /var/cache/yum\
- && microdnf install -y --nodocs java-21-openjdk-headless sudo shadow-utils\
+ && microdnf install -y --nodocs java-21-openjdk-headless tar sudo shadow-utils\
  && echo 'PATH=$PATH:/openaf' > /etc/profile.d/openaf.sh\
  && adduser openaf -u 1000\
  && chown -R openaf: /openaf\
