@@ -4294,10 +4294,15 @@
                         │      │                   issue. The associated identifier of this vulnerability is
                         │      │                   VDB-248999. 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ CweIDs           ─ [0]: CWE-122 
-                        │      ├ VendorSeverity   ╭ redhat: 2 
+                        │      ├ CweIDs           ╭ [0]: CWE-119 
+                        │      │                  ╰ [1]: CWE-122 
+                        │      ├ VendorSeverity   ╭ nvd   : 4 
+                        │      │                  ├ redhat: 2 
                         │      │                  ╰ ubuntu: 2 
-                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:
+                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+                        │      │                  │        │           H/I:H/A:H 
+                        │      │                  │        ╰ V3Score : 9.8 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:
                         │      │                           │           L/I:L/A:L 
                         │      │                           ╰ V3Score : 5.5 
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-7104 
@@ -4314,7 +4319,7 @@
                         │      │                  ├ [8]: https://vuldb.com/?id.248999 
                         │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-7104 
                         │      ├ PublishedDate   : 2023-12-29T10:15:13.89Z 
-                        │      ╰ LastModifiedDate: 2024-01-05T02:15:08.063Z 
+                        │      ╰ LastModifiedDate: 2024-01-05T19:43:46.343Z 
                         ├ [69] ╭ VulnerabilityID : CVE-2023-28486 
                         │      ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
                         │      ├ PkgName         : sudo 
