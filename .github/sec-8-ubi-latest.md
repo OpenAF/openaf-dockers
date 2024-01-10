@@ -327,6 +327,7 @@
                         │      │                  ├ ghsa       : 3 
                         │      │                  ├ nvd        : 4 
                         │      │                  ├ oracle-oval: 2 
+                        │      │                  ├ photon     : 4 
                         │      │                  ╰ redhat     : 1 
                         │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                  │        │           N/I:H/A:N 
@@ -508,7 +509,8 @@
                         │      │                    a PSL domain.
                         │      │                    
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
+                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      │                  ├ nvd   : 2 
                         │      │                  ├ redhat: 2 
                         │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
@@ -728,7 +730,9 @@
                         │      │                   padding. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-203 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
+                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      │                  ├ nvd   : 2 
+                        │      │                  ├ photon: 2 
                         │      │                  ├ redhat: 2 
                         │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
@@ -747,7 +751,8 @@
                         │      │                  │      3-November/004837.html 
                         │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-5981 
                         │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6499-1 
-                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-5981 
+                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6499-2 
+                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-5981 
                         │      ├ PublishedDate   : 2023-11-28T12:15:07.04Z 
                         │      ╰ LastModifiedDate: 2023-12-11T09:15:06.907Z 
                         ├ [15] ╭ VulnerabilityID : CVE-2023-25193 
@@ -930,7 +935,8 @@
                         │      │                    a PSL domain.
                         │      │                    
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
+                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      │                  ├ nvd   : 2 
                         │      │                  ├ redhat: 2 
                         │      │                  ╰ ubuntu: 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
@@ -988,20 +994,24 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 5.5 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-27943 
-                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-                        │      │                  │      E-2022-27943 
-                        │      │                  ├ [2]: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039 
-                        │      │                  ├ [3]: https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=92
-                        │      │                  │      34cdca6ee88badfc00297e72f13dac4e540c79 
-                        │      │                  ├ [4]: https://gcc.gnu.org/pipermail/gcc-patches/2022-Ma
-                        │      │                  │      rch/592244.html 
-                        │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
-                        │      │                  │      kage-announce%40lists.fedoraproject.org/message/H424YX
-                        │      │                  │      GW7OKXS2NCAP35OP6Y4P4AW6VG/ 
-                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-27943 
-                        │      │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=28995 
-                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2022-27943 
+                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2022-27943 
+                        │      │                  ├ [2] : https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039 
+                        │      │                  ├ [3] : https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=1
+                        │      │                  │       a770b01ef415e114164b6151d1e55acdee09371 
+                        │      │                  ├ [4] : https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=9
+                        │      │                  │       234cdca6ee88badfc00297e72f13dac4e540c79 
+                        │      │                  ├ [5] : https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=f
+                        │      │                  │       c968115a742d9e4674d9725ce9c2106b91b6ead 
+                        │      │                  ├ [6] : https://gcc.gnu.org/pipermail/gcc-patches/2022-M
+                        │      │                  │       arch/592244.html 
+                        │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce%40lists.fedoraproject.org/message/H424
+                        │      │                  │       YXGW7OKXS2NCAP35OP6Y4P4AW6VG/ 
+                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2022-27943 
+                        │      │                  ├ [9] : https://sourceware.org/bugzilla/show_bug.cgi?id=28995 
+                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
                         │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
                         ├ [20] ╭ VulnerabilityID : CVE-2022-3857 
@@ -1071,20 +1081,24 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 5.5 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-27943 
-                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-                        │      │                  │      E-2022-27943 
-                        │      │                  ├ [2]: https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039 
-                        │      │                  ├ [3]: https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=92
-                        │      │                  │      34cdca6ee88badfc00297e72f13dac4e540c79 
-                        │      │                  ├ [4]: https://gcc.gnu.org/pipermail/gcc-patches/2022-Ma
-                        │      │                  │      rch/592244.html 
-                        │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
-                        │      │                  │      kage-announce%40lists.fedoraproject.org/message/H424YX
-                        │      │                  │      GW7OKXS2NCAP35OP6Y4P4AW6VG/ 
-                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-27943 
-                        │      │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=28995 
-                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2022-27943 
+                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2022-27943 
+                        │      │                  ├ [2] : https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039 
+                        │      │                  ├ [3] : https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=1
+                        │      │                  │       a770b01ef415e114164b6151d1e55acdee09371 
+                        │      │                  ├ [4] : https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=9
+                        │      │                  │       234cdca6ee88badfc00297e72f13dac4e540c79 
+                        │      │                  ├ [5] : https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=f
+                        │      │                  │       c968115a742d9e4674d9725ce9c2106b91b6ead 
+                        │      │                  ├ [6] : https://gcc.gnu.org/pipermail/gcc-patches/2022-M
+                        │      │                  │       arch/592244.html 
+                        │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce%40lists.fedoraproject.org/message/H424
+                        │      │                  │       YXGW7OKXS2NCAP35OP6Y4P4AW6VG/ 
+                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2022-27943 
+                        │      │                  ├ [9] : https://sourceware.org/bugzilla/show_bug.cgi?id=28995 
+                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
                         │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
                         ├ [22] ╭ VulnerabilityID : CVE-2023-45322 
@@ -1194,40 +1208,7 @@
                         │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
                         │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:59:16.09Z 
-                        ├ [24] ╭ VulnerabilityID : CVE-2023-50495 
-                        │      ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
-                        │      ├ PkgName         : ncurses-base 
-                        │      ├ InstalledVersion: 6.2-10.20210508.el9 
-                        │      ├ Status          : affected 
-                        │      ├ Layer            ╭ Digest: sha256:ee1c251a213c9878d82c49bb85d6c42db6f6aad
-                        │      │                  │         6b34fa102f82466b24124bb8e 
-                        │      │                  ╰ DiffID: sha256:18a7fbd69dd6f4cdc7bb01294cfa07dcd01e4da
-                        │      │                            9065816d1a0172f95142850ba 
-                        │      ├ SeveritySource  : redhat 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
-                        │      ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
-                        │      ├ Description     : NCurse v6.4-20230418 was discovered to contain a
-                        │      │                   segmentation fault via the component
-                        │      │                   _nc_wrap_entry(). 
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
-                        │      │                  ╰ redhat: 2 
-                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                  │        │           N/I:N/A:H 
-                        │      │                  │        ╰ V3Score : 6.5 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                           │           N/I:N/A:H 
-                        │      │                           ╰ V3Score : 6.5 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
-                        │      │                  ├ [1]: https://lists.gnu.org/archive/html/bug-ncurses/20
-                        │      │                  │      23-04/msg00020.html 
-                        │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-ncurses/20
-                        │      │                  │      23-04/msg00029.html 
-                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
-                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
-                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
-                        │      ╰ LastModifiedDate: 2023-12-18T18:30:24.743Z 
-                        ├ [25] ╭ VulnerabilityID : CVE-2022-29458 
+                        ├ [24] ╭ VulnerabilityID : CVE-2022-29458 
                         │      ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
                         │      ├ PkgName         : ncurses-base 
                         │      ├ InstalledVersion: 6.2-10.20210508.el9 
@@ -1278,9 +1259,9 @@
                         │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-29458 
                         │      ├ PublishedDate   : 2022-04-18T21:15:07.6Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:46:02.1Z 
-                        ├ [26] ╭ VulnerabilityID : CVE-2023-50495 
-                        │      ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
-                        │      ├ PkgName         : ncurses-libs 
+                        ├ [25] ╭ VulnerabilityID : CVE-2023-50495 
+                        │      ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
+                        │      ├ PkgName         : ncurses-base 
                         │      ├ InstalledVersion: 6.2-10.20210508.el9 
                         │      ├ Status          : affected 
                         │      ├ Layer            ╭ Digest: sha256:ee1c251a213c9878d82c49bb85d6c42db6f6aad
@@ -1293,9 +1274,10 @@
                         │      ├ Description     : NCurse v6.4-20230418 was discovered to contain a
                         │      │                   segmentation fault via the component
                         │      │                   _nc_wrap_entry(). 
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
-                        │      │                  ╰ redhat: 2 
+                        │      ├ Severity        : LOW 
+                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      │                  ├ nvd   : 2 
+                        │      │                  ╰ redhat: 1 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
                         │      │                  │        │           N/I:N/A:H 
                         │      │                  │        ╰ V3Score : 6.5 
@@ -1311,7 +1293,7 @@
                         │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
                         │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
                         │      ╰ LastModifiedDate: 2023-12-18T18:30:24.743Z 
-                        ├ [27] ╭ VulnerabilityID : CVE-2022-29458 
+                        ├ [26] ╭ VulnerabilityID : CVE-2022-29458 
                         │      ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
                         │      ├ PkgName         : ncurses-libs 
                         │      ├ InstalledVersion: 6.2-10.20210508.el9 
@@ -1362,6 +1344,40 @@
                         │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-29458 
                         │      ├ PublishedDate   : 2022-04-18T21:15:07.6Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:46:02.1Z 
+                        ├ [27] ╭ VulnerabilityID : CVE-2023-50495 
+                        │      ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
+                        │      ├ PkgName         : ncurses-libs 
+                        │      ├ InstalledVersion: 6.2-10.20210508.el9 
+                        │      ├ Status          : affected 
+                        │      ├ Layer            ╭ Digest: sha256:ee1c251a213c9878d82c49bb85d6c42db6f6aad
+                        │      │                  │         6b34fa102f82466b24124bb8e 
+                        │      │                  ╰ DiffID: sha256:18a7fbd69dd6f4cdc7bb01294cfa07dcd01e4da
+                        │      │                            9065816d1a0172f95142850ba 
+                        │      ├ SeveritySource  : redhat 
+                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
+                        │      ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
+                        │      ├ Description     : NCurse v6.4-20230418 was discovered to contain a
+                        │      │                   segmentation fault via the component
+                        │      │                   _nc_wrap_entry(). 
+                        │      ├ Severity        : LOW 
+                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      │                  ├ nvd   : 2 
+                        │      │                  ╰ redhat: 1 
+                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
+                        │      │                  │        │           N/I:N/A:H 
+                        │      │                  │        ╰ V3Score : 6.5 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
+                        │      │                           │           N/I:N/A:H 
+                        │      │                           ╰ V3Score : 6.5 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
+                        │      │                  ├ [1]: https://lists.gnu.org/archive/html/bug-ncurses/20
+                        │      │                  │      23-04/msg00020.html 
+                        │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-ncurses/20
+                        │      │                  │      23-04/msg00029.html 
+                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
+                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
+                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
+                        │      ╰ LastModifiedDate: 2023-12-18T18:30:24.743Z 
                         ├ [28] ╭ VulnerabilityID : CVE-2023-5388 
                         │      ├ PkgID           : nspr@4.35.0-3.el9_2.x86_64 
                         │      ├ PkgName         : nspr 
@@ -4443,30 +4459,37 @@
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ╭ [0]: CWE-119 
                         │      │                  ╰ [1]: CWE-122 
-                        │      ├ VendorSeverity   ╭ nvd   : 4 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
-                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-                        │      │                  │        │           H/I:H/A:H 
-                        │      │                  │        ╰ V3Score : 9.8 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:
-                        │      │                           │           L/I:L/A:L 
-                        │      │                           ╰ V3Score : 5.5 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-7104 
-                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-                        │      │                  │      E-2023-7104 
-                        │      │                  ├ [2]: https://lists.fedoraproject.org/archives/list/pac
-                        │      │                  │      kage-announce@lists.fedoraproject.org/message/D6C2HN4T
-                        │      │                  │      2S6GYNTAUXLH45LQZHK7QPHP/ 
-                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-7104 
-                        │      │                  ├ [4]: https://sqlite.org/forum/forumpost/5bcbf4571c 
-                        │      │                  ├ [5]: https://sqlite.org/src/info/0e4e7a05c4204b47 
-                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6566-1 
-                        │      │                  ├ [7]: https://vuldb.com/?ctiid.248999 
-                        │      │                  ├ [8]: https://vuldb.com/?id.248999 
-                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-7104 
+                        │      ├ VendorSeverity   ╭ bitnami: 3 
+                        │      │                  ├ nvd    : 3 
+                        │      │                  ├ redhat : 2 
+                        │      │                  ╰ ubuntu : 2 
+                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+                        │      │                  │         │           :L/I:L/A:L 
+                        │      │                  │         ╰ V3Score : 7.3 
+                        │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+                        │      │                  │         │           :L/I:L/A:L 
+                        │      │                  │         ╰ V3Score : 7.3 
+                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+                        │      │                            │           :L/I:L/A:L 
+                        │      │                            ╰ V3Score : 7.3 
+                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-7104 
+                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2023-7104 
+                        │      │                  ├ [2] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce@lists.fedoraproject.org/message/AYONA2
+                        │      │                  │       XSNFMXLAW4IHLFI5UVV3QRNG5K/ 
+                        │      │                  ├ [3] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce@lists.fedoraproject.org/message/D6C2HN
+                        │      │                  │       4T2S6GYNTAUXLH45LQZHK7QPHP/ 
+                        │      │                  ├ [4] : https://nvd.nist.gov/vuln/detail/CVE-2023-7104 
+                        │      │                  ├ [5] : https://sqlite.org/forum/forumpost/5bcbf4571c 
+                        │      │                  ├ [6] : https://sqlite.org/src/info/0e4e7a05c4204b47 
+                        │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-6566-1 
+                        │      │                  ├ [8] : https://vuldb.com/?ctiid.248999 
+                        │      │                  ├ [9] : https://vuldb.com/?id.248999 
+                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-7104 
                         │      ├ PublishedDate   : 2023-12-29T10:15:13.89Z 
-                        │      ╰ LastModifiedDate: 2024-01-05T19:43:46.343Z 
+                        │      ╰ LastModifiedDate: 2024-01-08T17:46:29.51Z 
                         ├ [72] ╭ VulnerabilityID : CVE-2023-28486 
                         │      ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
                         │      ├ PkgName         : sudo 
@@ -4727,7 +4750,8 @@
                                │                    allow an attacker to cause an application crash, resulting
                                │                   in a denial of service. 
                                ├ Severity        : LOW 
-                               ├ VendorSeverity   ╭ redhat: 1 
+                               ├ VendorSeverity   ╭ amazon: 1 
+                               │                  ├ redhat: 1 
                                │                  ╰ ubuntu: 2 
                                ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
                                │                           │           N/I:N/A:L 
