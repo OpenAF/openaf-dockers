@@ -816,12 +816,13 @@
                         │      │                   padding. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-203 
-                        │      ├ VendorSeverity   ╭ alma  : 2 
-                        │      │                  ├ amazon: 2 
-                        │      │                  ├ nvd   : 2 
-                        │      │                  ├ photon: 2 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
+                        │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ nvd        : 2 
+                        │      │                  ├ oracle-oval: 2 
+                        │      │                  ├ photon     : 2 
+                        │      │                  ├ redhat     : 2 
+                        │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                  │        │           H/I:N/A:N 
                         │      │                  │        ╰ V3Score : 5.9 
@@ -837,12 +838,14 @@
                         │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2024-0155.html 
                         │      │                  ├ [6] : https://gnutls.org/security-new.html#GNUTLS-SA-2
                         │      │                  │       023-10-23 
-                        │      │                  ├ [7] : https://lists.gnupg.org/pipermail/gnutls-help/20
+                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2023-5981.html 
+                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-0155.html 
+                        │      │                  ├ [9] : https://lists.gnupg.org/pipermail/gnutls-help/20
                         │      │                  │       23-November/004837.html 
-                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-5981 
-                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6499-1 
-                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6499-2 
-                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-5981 
+                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-5981 
+                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6499-1 
+                        │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6499-2 
+                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-5981 
                         │      ├ PublishedDate   : 2023-11-28T12:15:07.04Z 
                         │      ╰ LastModifiedDate: 2024-01-10T21:15:09.23Z 
                         ├ [15] ╭ VulnerabilityID : CVE-2023-25193 
@@ -2238,7 +2241,7 @@
                         │      ├ VendorSeverity   ╭ alma       : 1 
                         │      │                  ├ amazon     : 2 
                         │      │                  ├ nvd        : 2 
-                        │      │                  ├ oracle-oval: 1 
+                        │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
                         │      │                  ├ redhat     : 1 
                         │      │                  ╰ ubuntu     : 1 
@@ -2277,7 +2280,7 @@
                         │      │                  │       commitdiff;h=fc9867c1e03c22ebf56943be205202e576aabf23
                         │      │                  │        
                         │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2023-3446.html 
-                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2023-7877.html 
+                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-12056.html 
                         │      │                  ├ [17]: https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       3/08/msg00019.html 
                         │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2023-3446 
@@ -2351,7 +2354,7 @@
                         │      │                  ├ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
-                        │      │                  ├ oracle-oval: 1 
+                        │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
                         │      │                  ├ redhat     : 1 
                         │      │                  ╰ ubuntu     : 1 
@@ -2391,7 +2394,7 @@
                         │      │                  │       commitdiff;h=91ddeba0f2269b017dc06c46c993a788974b1aa5
                         │      │                  │        
                         │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2023-3817.html 
-                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2023-7877.html 
+                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2024-12056.html 
                         │      │                  ├ [18]: https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       3/08/msg00019.html 
                         │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-3817 
@@ -2480,7 +2483,7 @@
                         │      │                  ├ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
-                        │      │                  ├ oracle-oval: 1 
+                        │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
                         │      │                  ├ redhat     : 1 
                         │      │                  ╰ ubuntu     : 1 
@@ -2511,7 +2514,7 @@
                         │      │                  │       commitdiff;h=ddeb4b6c6d527e54ce9a99cba785c0f7776e54b6
                         │      │                  │        
                         │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-5678.html 
-                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2023-7877.html 
+                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-12056.html 
                         │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-5678 
                         │      │                  ├ [14]: https://security.netapp.com/advisory/ntap-202311
                         │      │                  │       30-0010/ 
@@ -2870,7 +2873,7 @@
                         │      ├ VendorSeverity   ╭ alma       : 1 
                         │      │                  ├ amazon     : 2 
                         │      │                  ├ nvd        : 2 
-                        │      │                  ├ oracle-oval: 1 
+                        │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
                         │      │                  ├ redhat     : 1 
                         │      │                  ╰ ubuntu     : 1 
@@ -2909,7 +2912,7 @@
                         │      │                  │       commitdiff;h=fc9867c1e03c22ebf56943be205202e576aabf23
                         │      │                  │        
                         │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2023-3446.html 
-                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2023-7877.html 
+                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-12056.html 
                         │      │                  ├ [17]: https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       3/08/msg00019.html 
                         │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2023-3446 
@@ -2983,7 +2986,7 @@
                         │      │                  ├ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
-                        │      │                  ├ oracle-oval: 1 
+                        │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
                         │      │                  ├ redhat     : 1 
                         │      │                  ╰ ubuntu     : 1 
@@ -3023,7 +3026,7 @@
                         │      │                  │       commitdiff;h=91ddeba0f2269b017dc06c46c993a788974b1aa5
                         │      │                  │        
                         │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2023-3817.html 
-                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2023-7877.html 
+                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2024-12056.html 
                         │      │                  ├ [18]: https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       3/08/msg00019.html 
                         │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-3817 
@@ -3112,7 +3115,7 @@
                         │      │                  ├ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
-                        │      │                  ├ oracle-oval: 1 
+                        │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
                         │      │                  ├ redhat     : 1 
                         │      │                  ╰ ubuntu     : 1 
@@ -3143,7 +3146,7 @@
                         │      │                  │       commitdiff;h=ddeb4b6c6d527e54ce9a99cba785c0f7776e54b6
                         │      │                  │        
                         │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-5678.html 
-                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2023-7877.html 
+                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-12056.html 
                         │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-5678 
                         │      │                  ├ [14]: https://security.netapp.com/advisory/ntap-202311
                         │      │                  │       30-0010/ 
