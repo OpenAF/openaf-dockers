@@ -4063,6 +4063,7 @@
     Severity: LOW
     VendorSeverity:
       amazon: 1
+      photon: 1
       redhat: 1
       ubuntu: 2
     CVSS:
