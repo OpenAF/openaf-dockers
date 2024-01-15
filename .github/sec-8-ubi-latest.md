@@ -5124,6 +5124,7 @@
                                │                   in a denial of service. 
                                ├ Severity        : LOW 
                                ├ VendorSeverity   ╭ amazon: 1 
+                               │                  ├ photon: 1 
                                │                  ├ redhat: 1 
                                │                  ╰ ubuntu: 2 
                                ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
