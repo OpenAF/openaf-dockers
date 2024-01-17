@@ -41,13 +41,13 @@ jobs:
         ECR_REPOSITORY: openaf
         IMAGE_TAG: ${{ github.event.inputs.baseTag }}
       run : |
-        docker run --rm -ti -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/imgutils sudo skopeo copy --all docker://openaf/oaf:$IMAGE_TAG docker://public.ecr.aws/openaf/oaf:$IMAGE_TAG
-        docker run --rm -ti -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/imgutils sudo skopeo copy --all docker://openaf/openaf:$IMAGE_TAG docker://public.ecr.aws/openaf/openaf:$IMAGE_TAG
-        docker run --rm -ti -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/imgutils sudo skopeo copy --all docker://openaf/openaf-ojobc:$IMAGE_TAG docker://public.ecr.aws/openaf/openaf-ojobc:$IMAGE_TAG
-        docker run --rm -ti -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/imgutils sudo skopeo copy --all docker://openaf/ojobc:$IMAGE_TAG docker://public.ecr.aws/openaf/ojobc:$
-        docker run --rm -ti -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/imgutils sudo skopeo copy --all docker://openaf/openaf-ojob:$IMAGE_TAG docker://public.ecr.aws/openaf/openaf-ojob:$IMAGE_TAG
-        docker run --rm -ti -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/imgutils sudo skopeo copy --all docker://openaf/ojob:$IMAGE_TAG docker://public.ecr.aws/openaf/ojob:$IMAGE_TAG
-        docker run --rm -ti -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/imgutils sudo skopeo copy --all docker://openaf/openaf-console:$IMAGE_TAG docker://public.ecr.aws/openaf/openaf-console:$IMAGE_TAG
-        docker run --rm -ti -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/imgutils sudo skopeo copy --all docker://openaf/oafc:$IMAGE_TAG docker://public.ecr.aws/openaf/oafc:$IMAGE_TAG
-        docker run --rm -ti -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/imgutils sudo skopeo copy --all docker://openaf/ojobrt:$IMAGE_TAG docker://public.ecr.aws/openaf/ojobrt:$IMAGE_TAG
-        docker run --rm -ti -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/imgutils sudo skopeo copy --all docker://openaf/nattrmon:$IMAGE_TAG docker://public.ecr.aws/openaf/nattrmon:$IMAGE_TAG
+        docker run --rm -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/imgutils sudo skopeo copy --all docker://openaf/oaf:$IMAGE_TAG docker://public.ecr.aws/openaf/oaf:$IMAGE_TAG
+        docker run --rm -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/imgutils sudo skopeo copy --all docker://openaf/openaf:$IMAGE_TAG docker://public.ecr.aws/openaf/openaf:$IMAGE_TAG
+        docker run --rm -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/imgutils sudo skopeo copy --all docker://openaf/openaf-ojobc:$IMAGE_TAG docker://public.ecr.aws/openaf/openaf-ojobc:$IMAGE_TAG
+        docker run --rm -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/imgutils sudo skopeo copy --all docker://openaf/ojobc:$IMAGE_TAG docker://public.ecr.aws/openaf/ojobc:$
+        docker run --rm -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/imgutils sudo skopeo copy --all docker://openaf/openaf-ojob:$IMAGE_TAG docker://public.ecr.aws/openaf/openaf-ojob:$IMAGE_TAG
+        docker run --rm -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/imgutils sudo skopeo copy --all docker://openaf/ojob:$IMAGE_TAG docker://public.ecr.aws/openaf/ojob:$IMAGE_TAG
+        docker run --rm -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/imgutils sudo skopeo copy --all docker://openaf/openaf-console:$IMAGE_TAG docker://public.ecr.aws/openaf/openaf-console:$IMAGE_TAG
+        docker run --rm -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/imgutils sudo skopeo copy --all docker://openaf/oafc:$IMAGE_TAG docker://public.ecr.aws/openaf/oafc:$IMAGE_TAG
+        docker run --rm -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/imgutils sudo skopeo copy --all docker://openaf/ojobrt:$IMAGE_TAG docker://public.ecr.aws/openaf/ojobrt:$IMAGE_TAG
+        docker run --rm -v /var/run/docker.sock:/var/run/docker.sock nmaguiar/imgutils sudo skopeo copy --all docker://openaf/nattrmon:$IMAGE_TAG docker://public.ecr.aws/openaf/nattrmon:$IMAGE_TAG
