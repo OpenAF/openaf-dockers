@@ -41,7 +41,10 @@ jobs:
         ECR_REPOSITORY: openaf
         IMAGE_TAG: ${{ github.event.inputs.baseTag }}
       run : |
-        sudo add-apt-repository ppa:projectatomic/ppa
+        sudo apt-get update
+        sudo apt install -y software-properties-common
+        sudo add-apt-repository -y "deb 5 /"
+        curl -L "6" | sudo apt-key add -
         sudo apt-get update
         sudo apt-get install -y skopeo
 
