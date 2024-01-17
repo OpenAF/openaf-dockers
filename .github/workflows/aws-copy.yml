@@ -41,9 +41,10 @@ jobs:
         ECR_REPOSITORY: openaf
         IMAGE_TAG: ${{ github.event.inputs.baseTag }}
       run : |
+        sudo add-apt-repository ppa:projectatomic/ppa
         sudo apt-get update
         sudo apt-get install -y skopeo
-        
+
         skopeo copy --all docker://openaf/oaf:$IMAGE_TAG docker://public.ecr.aws/openaf/oaf:$IMAGE_TAG
         skopeo copy --all docker://openaf/openaf:$IMAGE_TAG docker://public.ecr.aws/openaf/openaf:$IMAGE_TAG
         skopeo copy --all docker://openaf/openaf-ojobc:$IMAGE_TAG docker://public.ecr.aws/openaf/openaf-ojobc:$IMAGE_TAG
