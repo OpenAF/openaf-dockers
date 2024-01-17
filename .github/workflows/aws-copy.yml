@@ -41,15 +41,13 @@ jobs:
         ECR_REPOSITORY: openaf
         IMAGE_TAG: ${{ github.event.inputs.baseTag }}
       run : |
-        echo "docker://openaf/oaf:$IMAGE_TAG -> docker://$ECR_REGISTRY/$ECR_REPOSITORY/oaf:$IMAGE_TAG"
-        skopeo copy --all docker://openaf/oaf:$IMAGE_TAG docker://$ECR_REGISTRY/$ECR_REPOSITORY/oaf:$IMAGE_TAG
-        echo "docker://openaf/openaf:$IMAGE_TAG -> docker://$ECR_REGISTRY/$ECR_REPOSITORY/openaf:$IMAGE_TAG"
-        skopeo copy --all docker://openaf/openaf:$IMAGE_TAG docker://$ECR_REGISTRY/$ECR_REPOSITORY/openaf:$IMAGE_TAG
-        skopeo copy --all docker://openaf/openaf-ojobc:$IMAGE_TAG docker://$ECR_REGISTRY/$ECR_REPOSITORY/openaf-ojobc:$IMAGE_TAG
-        skopeo copy --all docker://openaf/ojobc:$IMAGE_TAG docker://$ECR_REGISTRY/$ECR_REPOSITORY/ojobc:$
-        skopeo copy --all docker://openaf/openaf-ojob:$IMAGE_TAG docker://$ECR_REGISTRY/$ECR_REPOSITORY/openaf-ojob:$IMAGE_TAG
-        skopeo copy --all docker://openaf/ojob:$IMAGE_TAG docker://$ECR_REGISTRY/$ECR_REPOSITORY/ojob:$IMAGE_TAG
-        skopeo copy --all docker://openaf/openaf-console:$IMAGE_TAG docker://$ECR_REGISTRY/$ECR_REPOSITORY/openaf-console:$IMAGE_TAG
-        skopeo copy --all docker://openaf/oafc:$IMAGE_TAG docker://$ECR_REGISTRY/$ECR_REPOSITORY/oafc:$IMAGE_TAG
-        skopeo copy --all docker://openaf/ojobrt:$IMAGE_TAG docker://$ECR_REGISTRY/$ECR_REPOSITORY/ojobrt:$IMAGE_TAG
-        skopeo copy --all docker://openaf/nattrmon:$IMAGE_TAG docker://$ECR_REGISTRY/$ECR_REPOSITORY/nattrmon:$IMAGE_TAG
+        skopeo copy --all docker://openaf/oaf:$IMAGE_TAG docker://public.ecr.aws/openaf/oaf:$IMAGE_TAG
+        skopeo copy --all docker://openaf/openaf:$IMAGE_TAG docker://public.ecr.aws/openaf/openaf:$IMAGE_TAG
+        skopeo copy --all docker://openaf/openaf-ojobc:$IMAGE_TAG docker://public.ecr.aws/openaf/openaf-ojobc:$IMAGE_TAG
+        skopeo copy --all docker://openaf/ojobc:$IMAGE_TAG docker://public.ecr.aws/openaf/ojobc:$
+        skopeo copy --all docker://openaf/openaf-ojob:$IMAGE_TAG docker://public.ecr.aws/openaf/openaf-ojob:$IMAGE_TAG
+        skopeo copy --all docker://openaf/ojob:$IMAGE_TAG docker://public.ecr.aws/openaf/ojob:$IMAGE_TAG
+        skopeo copy --all docker://openaf/openaf-console:$IMAGE_TAG docker://public.ecr.aws/openaf/openaf-console:$IMAGE_TAG
+        skopeo copy --all docker://openaf/oafc:$IMAGE_TAG docker://public.ecr.aws/openaf/oafc:$IMAGE_TAG
+        skopeo copy --all docker://openaf/ojobrt:$IMAGE_TAG docker://public.ecr.aws/openaf/ojobrt:$IMAGE_TAG
+        skopeo copy --all docker://openaf/nattrmon:$IMAGE_TAG docker://public.ecr.aws/openaf/nattrmon:$IMAGE_TAG
