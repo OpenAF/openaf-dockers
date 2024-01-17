@@ -41,7 +41,6 @@ jobs:
         ECR_REPOSITORY: openaf
         IMAGE_TAG: ${{ github.event.inputs.baseTag }}
       run : |
-        sudo apt-get update
         sudo apt-get install -y skopeo
 
         skopeo copy --all docker://openaf/oaf:$IMAGE_TAG docker://$ECR_REGISTRY/$ECR_REPOSITORY/oaf:$IMAGE_TAG
