@@ -1,0 +1,57 @@
+name: AWS Copy
+
+on:
+  #push:
+  #  branches: [ "master" ]
+  #pull_request:
+  #  branches: [ "main" ]
+  #schedule:
+  #- cron: '30 6 * * *'
+        
+  workflow_dispatch:
+    inputs:
+      baseTag:
+        description: 'The base image tag to use'
+        required   : true
+        default    : build
+
+jobs:
+
+  aws-copy:
+
+    name   : AWS Copy
+    runs-on: ubuntu-latest
+    steps  :
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET }}
+        aws-region: us-east-1
+
+    - name: Login to Amazon ECR
+      id  : login-ecr
+      uses: aws-actions/amazon-ecr-login@v1
+
+    - name: Copy to AWS
+      env :
+        ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+        ECR_REPOSITORY: openaf
+        IMAGE_TAG: ${{ github.event.inputs.baseTag }}
+      run : |
+        sudo apt-get update
+        sudo apt-get install -y software-properties-common
+        sudo add-apt-repository -y ppa:projectatomic/ppa
+        sudo apt-get update
+        sudo apt-get install -y skopeo
+
+        skopeo copy --all docker://openaf/oaf:$IMAGE_TAG docker://$ECR_REGISTRY/$ECR_REPOSITORY/oaf:$IMAGE_TAG
+        skopeo copy --all docker://openaf/openaf:$IMAGE_TAG docker://$ECR_REGISTRY/$ECR_REPOSITORY/openaf:$IMAGE_TAG
+        skopeo copy --all docker://openaf/openaf-ojobc:$IMAGE_TAG docker://$ECR_REGISTRY/$ECR_REPOSITORY/openaf-ojobc:$IMAGE_TAG
+        skopeo copy --all docker://openaf/ojobc:$IMAGE_TAG docker://$ECR_REGISTRY/$ECR_REPOSITORY/ojobc:$
+        skopeo copy --all docker://openaf/openaf-ojob:$IMAGE_TAG docker://$ECR_REGISTRY/$ECR_REPOSITORY/openaf-ojob:$IMAGE_TAG
+        skopeo copy --all docker://openaf/ojob:$IMAGE_TAG docker://$ECR_REGISTRY/$ECR_REPOSITORY/ojob:$IMAGE_TAG
+        skopeo copy --all docker://openaf/openaf-console:$IMAGE_TAG docker://$ECR_REGISTRY/$ECR_REPOSITORY/openaf-console:$IMAGE_TAG
+        skopeo copy --all docker://openaf/oafc:$IMAGE_TAG docker://$ECR_REGISTRY/$ECR_REPOSITORY/oafc:$IMAGE_TAG
+        skopeo copy --all docker://openaf/ojobrt:$IMAGE_TAG docker://$ECR_REGISTRY/$ECR_REPOSITORY/ojobrt:$IMAGE_TAG
+        skopeo copy --all docker://openaf/nattrmon:$IMAGE_TAG docker://$ECR_REGISTRY/$ECR_REPOSITORY/nattrmon:$IMAGE_TAG
