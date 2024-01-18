@@ -30,6 +30,7 @@ RUN cd /openaf\
  && java -jar openaf.jar --install -e 'args=$JAVA_ARGS'\
  && chown -R openaf:0 /openaf\
  && chmod -R a+rwx /openaf\
+ && chmod -R u+rwx,g+rwx,o+rx /openaf/*\
  && chmod -R a+rx /openaf/.docker\
  && curl -s https://ojob.io/autoComplete.sh > ~/.openaf-ojobio-complete
 
