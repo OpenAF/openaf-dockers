@@ -397,7 +397,7 @@
     - https://github.com/pypa/advisory-database/tree/main/vulns/certifi/PYSEC-2023-135.yaml
     - https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/C-HrP1SEq1A
     - https://linux.oracle.com/cve/CVE-2023-37920.html
-    - https://linux.oracle.com/errata/ELSA-2023-7753.html
+    - https://linux.oracle.com/errata/ELSA-2024-0133.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5EX6NG7WUFNUKGFHLM35KHHU3GAKXRTG/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-37920
     - https://www.cve.org/CVERecord?id=CVE-2023-37920
@@ -514,6 +514,7 @@
     Severity: MEDIUM
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       redhat: 2
       ubuntu: 2
@@ -631,6 +632,7 @@
     Description: A flaw was found in glib, where the gvariant deserialization code is vulnerable to a denial of service introduced by additional input validation added to resolve CVE-2023-29499. The offset table validation may be very slow. This bug does not affect any released version of glib but does affect glib distributors who followed the guidance of glib developers to backport the initial fix for CVE-2023-29499.
     Severity: LOW
     CweIDs:
+    - CWE-502
     - CWE-400
     VendorSeverity:
       nvd: 3
@@ -655,7 +657,7 @@
     - https://ubuntu.com/security/notices/USN-6165-2
     - https://www.cve.org/CVERecord?id=CVE-2023-32636
     PublishedDate: '2023-09-14T20:15:09.653Z'
-    LastModifiedDate: '2023-11-10T18:15:07.903Z'
+    LastModifiedDate: '2024-01-12T22:09:56.247Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg2@2.3.3-4.el9.x86_64
     PkgName: gnupg2
@@ -710,10 +712,13 @@
     CweIDs:
     - CWE-203
     VendorSeverity:
+      alma: 2
       amazon: 2
       nvd: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       nvd:
@@ -725,9 +730,14 @@
     References:
     - https://access.redhat.com/errata/RHSA-2024:0155
     - https://access.redhat.com/security/cve/CVE-2023-5981
+    - https://bugzilla.redhat.com/2248445
     - https://bugzilla.redhat.com/show_bug.cgi?id=2248445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5981
+    - https://errata.almalinux.org/8/ALSA-2024-0155.html
+    - https://errata.rockylinux.org/RLSA-2024:0155
     - https://gnutls.org/security-new.html#GNUTLS-SA-2023-10-23
+    - https://linux.oracle.com/cve/CVE-2023-5981.html
+    - https://linux.oracle.com/errata/ELSA-2024-0155.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2023-November/004837.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5981
     - https://ubuntu.com/security/notices/USN-6499-1
@@ -735,6 +745,202 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-5981
     PublishedDate: '2023-11-28T12:15:07.04Z'
     LastModifiedDate: '2024-01-10T21:15:09.23Z'
+  - VulnerabilityID: CVE-2024-0553
+    PkgID: gnutls@3.7.6-23.el9.x86_64
+    PkgName: gnutls
+    InstalledVersion: 3.7.6-23.el9
+    Status: affected
+    Layer:
+      Digest: sha256:1e46619d11db8ee123fe5ecb7f605e165427e39ed0a344b9b8b82010ea390c8e
+      DiffID: sha256:fc0d8ecf093320c72f2178707c79b15a269da4c977eb272bc4e007e087dda974
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0553
+    Title: 'gnutls: incomplete fix for CVE-2023-5981'
+    Description: A vulnerability was found in GnuTLS. The response times to malformed ciphertexts in RSA-PSK ClientKeyExchange differ from response times of ciphertexts with correct PKCS#1 v1.5 padding. This issue may allow a remote attacker to perform a timing side-channel attack in the RSA-PSK key exchange, potentially leading to the leakage of sensitive data. CVE-2024-0553 is designated as an incomplete resolution for CVE-2023-5981.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-203
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-0553
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2258412
+    - https://gitlab.com/gnutls/gnutls/-/issues/1522
+    - https://lists.gnupg.org/pipermail/gnutls-help/2024-January/004841.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-0553
+    - https://www.cve.org/CVERecord?id=CVE-2024-0553
+    PublishedDate: '2024-01-16T12:15:45.557Z'
+    LastModifiedDate: '2024-01-16T13:56:05.467Z'
+  - VulnerabilityID: CVE-2024-0567
+    PkgID: gnutls@3.7.6-23.el9.x86_64
+    PkgName: gnutls
+    InstalledVersion: 3.7.6-23.el9
+    Status: affected
+    Layer:
+      Digest: sha256:1e46619d11db8ee123fe5ecb7f605e165427e39ed0a344b9b8b82010ea390c8e
+      DiffID: sha256:fc0d8ecf093320c72f2178707c79b15a269da4c977eb272bc4e007e087dda974
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0567
+    Title: 'gnutls: rejects certificate chain with distributed trust'
+    Description: A vulnerability was found in GnuTLS, where a cockpit (which uses gnuTLS) rejects a certificate chain with distributed trust. This issue occurs when validating a certificate chain with cockpit-certificate-ensure. This flaw allows an unauthenticated, remote client or attacker to initiate a denial of service attack.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-347
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-0567
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2258544
+    - https://gitlab.com/gnutls/gnutls/-/issues/1521
+    - https://lists.gnupg.org/pipermail/gnutls-help/2024-January/004841.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-0567
+    - https://www.cve.org/CVERecord?id=CVE-2024-0567
+    PublishedDate: '2024-01-16T14:15:48.527Z'
+    LastModifiedDate: '2024-01-16T23:12:38.473Z'
+  - VulnerabilityID: CVE-2024-20918
+    VendorIDs:
+    - RHSA-2024:0249
+    PkgID: java-21-openjdk-headless@21.0.1.0.12-3.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    InstalledVersion: 1:21.0.1.0.12-3.el9
+    FixedVersion: 1:21.0.2.0.13-1.el9
+    Status: fixed
+    Layer:
+      Digest: sha256:1e46619d11db8ee123fe5ecb7f605e165427e39ed0a344b9b8b82010ea390c8e
+      DiffID: sha256:fc0d8ecf093320c72f2178707c79b15a269da4c977eb272bc4e007e087dda974
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-20918
+    Title: 'OpenJDK: array out-of-bounds access due to missing range check in C1 compiler (8314468)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u391, 8u391-perf, 11.0.21, 17.0.9, 21.0.1; Oracle GraalVM for JDK: 17.0.9, 21.0.1; Oracle GraalVM Enterprise Edition: 20.3.12, 21.3.8 and  22.3.4. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 7.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N).'
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-20918
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-20918
+    - https://www.cve.org/CVERecord?id=CVE-2024-20918
+    - https://www.oracle.com/security-alerts/cpujan2024.html
+    PublishedDate: '2024-01-16T22:15:39.51Z'
+    LastModifiedDate: '2024-01-16T23:12:38.473Z'
+  - VulnerabilityID: CVE-2024-20952
+    VendorIDs:
+    - RHSA-2024:0249
+    PkgID: java-21-openjdk-headless@21.0.1.0.12-3.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    InstalledVersion: 1:21.0.1.0.12-3.el9
+    FixedVersion: 1:21.0.2.0.13-1.el9
+    Status: fixed
+    Layer:
+      Digest: sha256:1e46619d11db8ee123fe5ecb7f605e165427e39ed0a344b9b8b82010ea390c8e
+      DiffID: sha256:fc0d8ecf093320c72f2178707c79b15a269da4c977eb272bc4e007e087dda974
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-20952
+    Title: 'OpenJDK: RSA padding issue and timing side-channel attack against TLS (8317547)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u391, 8u391-perf, 11.0.21, 17.0.9, 21.0.1; Oracle GraalVM for JDK: 17.0.9, 21.0.1; Oracle GraalVM Enterprise Edition: 20.3.12, 21.3.8 and  22.3.4. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 7.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N).'
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-20952
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-20952
+    - https://www.cve.org/CVERecord?id=CVE-2024-20952
+    - https://www.oracle.com/security-alerts/cpujan2024.html
+    PublishedDate: '2024-01-16T22:15:42.477Z'
+    LastModifiedDate: '2024-01-16T23:12:38.473Z'
+  - VulnerabilityID: CVE-2024-20919
+    VendorIDs:
+    - RHSA-2024:0249
+    PkgID: java-21-openjdk-headless@21.0.1.0.12-3.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    InstalledVersion: 1:21.0.1.0.12-3.el9
+    FixedVersion: 1:21.0.2.0.13-1.el9
+    Status: fixed
+    Layer:
+      Digest: sha256:1e46619d11db8ee123fe5ecb7f605e165427e39ed0a344b9b8b82010ea390c8e
+      DiffID: sha256:fc0d8ecf093320c72f2178707c79b15a269da4c977eb272bc4e007e087dda974
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-20919
+    Title: 'OpenJDK: JVM class file verifier flaw allows unverified bytecode execution (8314295)'
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-20919
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-20919
+    - https://www.cve.org/CVERecord?id=CVE-2024-20919
+  - VulnerabilityID: CVE-2024-20921
+    VendorIDs:
+    - RHSA-2024:0249
+    PkgID: java-21-openjdk-headless@21.0.1.0.12-3.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    InstalledVersion: 1:21.0.1.0.12-3.el9
+    FixedVersion: 1:21.0.2.0.13-1.el9
+    Status: fixed
+    Layer:
+      Digest: sha256:1e46619d11db8ee123fe5ecb7f605e165427e39ed0a344b9b8b82010ea390c8e
+      DiffID: sha256:fc0d8ecf093320c72f2178707c79b15a269da4c977eb272bc4e007e087dda974
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-20921
+    Title: 'OpenJDK: range check loop optimization issue (8314307)'
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-20921
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-20921
+    - https://www.cve.org/CVERecord?id=CVE-2024-20921
+  - VulnerabilityID: CVE-2024-20945
+    VendorIDs:
+    - RHSA-2024:0249
+    PkgID: java-21-openjdk-headless@21.0.1.0.12-3.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    InstalledVersion: 1:21.0.1.0.12-3.el9
+    FixedVersion: 1:21.0.2.0.13-1.el9
+    Status: fixed
+    Layer:
+      Digest: sha256:1e46619d11db8ee123fe5ecb7f605e165427e39ed0a344b9b8b82010ea390c8e
+      DiffID: sha256:fc0d8ecf093320c72f2178707c79b15a269da4c977eb272bc4e007e087dda974
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-20945
+    Title: 'OpenJDK: logging of digital signature private keys (8316976)'
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-20945
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-20945
+    - https://www.cve.org/CVERecord?id=CVE-2024-20945
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -793,6 +999,7 @@
     Severity: MEDIUM
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       redhat: 2
       ubuntu: 2
@@ -1166,15 +1373,25 @@
     Description: 'It was discovered that the numerical library used in NSS for RSA cryptography leaks information whether high order bits of the RSA decryption result are zero. This information can be used to mount a Bleichenbacher or Manger like attack against all RSA decryption operations. As the leak happens before any padding operations, it affects all padding modes: PKCS#1 v1.5, OAEP, and RSASVP. Both API level calls and TLS server operation are affected.'
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:0108
     - https://access.redhat.com/security/cve/CVE-2023-5388
+    - https://bugzilla.redhat.com/2243644
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2243644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
+    - https://errata.almalinux.org/9/ALSA-2024-0108.html
+    - https://errata.rockylinux.org/RLSA-2024:0105
+    - https://linux.oracle.com/cve/CVE-2023-5388.html
+    - https://linux.oracle.com/errata/ELSA-2024-0108.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
     - https://people.redhat.com/~hkario/marvin/
     - https://www.cve.org/CVERecord?id=CVE-2023-5388
@@ -1229,15 +1446,25 @@
     Description: 'It was discovered that the numerical library used in NSS for RSA cryptography leaks information whether high order bits of the RSA decryption result are zero. This information can be used to mount a Bleichenbacher or Manger like attack against all RSA decryption operations. As the leak happens before any padding operations, it affects all padding modes: PKCS#1 v1.5, OAEP, and RSASVP. Both API level calls and TLS server operation are affected.'
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:0108
     - https://access.redhat.com/security/cve/CVE-2023-5388
+    - https://bugzilla.redhat.com/2243644
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2243644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
+    - https://errata.almalinux.org/9/ALSA-2024-0108.html
+    - https://errata.rockylinux.org/RLSA-2024:0105
+    - https://linux.oracle.com/cve/CVE-2023-5388.html
+    - https://linux.oracle.com/errata/ELSA-2024-0108.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
     - https://people.redhat.com/~hkario/marvin/
     - https://www.cve.org/CVERecord?id=CVE-2023-5388
@@ -1292,15 +1519,25 @@
     Description: 'It was discovered that the numerical library used in NSS for RSA cryptography leaks information whether high order bits of the RSA decryption result are zero. This information can be used to mount a Bleichenbacher or Manger like attack against all RSA decryption operations. As the leak happens before any padding operations, it affects all padding modes: PKCS#1 v1.5, OAEP, and RSASVP. Both API level calls and TLS server operation are affected.'
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:0108
     - https://access.redhat.com/security/cve/CVE-2023-5388
+    - https://bugzilla.redhat.com/2243644
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2243644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
+    - https://errata.almalinux.org/9/ALSA-2024-0108.html
+    - https://errata.rockylinux.org/RLSA-2024:0105
+    - https://linux.oracle.com/cve/CVE-2023-5388.html
+    - https://linux.oracle.com/errata/ELSA-2024-0108.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
     - https://people.redhat.com/~hkario/marvin/
     - https://www.cve.org/CVERecord?id=CVE-2023-5388
@@ -1355,15 +1592,25 @@
     Description: 'It was discovered that the numerical library used in NSS for RSA cryptography leaks information whether high order bits of the RSA decryption result are zero. This information can be used to mount a Bleichenbacher or Manger like attack against all RSA decryption operations. As the leak happens before any padding operations, it affects all padding modes: PKCS#1 v1.5, OAEP, and RSASVP. Both API level calls and TLS server operation are affected.'
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:0108
     - https://access.redhat.com/security/cve/CVE-2023-5388
+    - https://bugzilla.redhat.com/2243644
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2243644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
+    - https://errata.almalinux.org/9/ALSA-2024-0108.html
+    - https://errata.rockylinux.org/RLSA-2024:0105
+    - https://linux.oracle.com/cve/CVE-2023-5388.html
+    - https://linux.oracle.com/errata/ELSA-2024-0108.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
     - https://people.redhat.com/~hkario/marvin/
     - https://www.cve.org/CVERecord?id=CVE-2023-5388
@@ -1418,15 +1665,25 @@
     Description: 'It was discovered that the numerical library used in NSS for RSA cryptography leaks information whether high order bits of the RSA decryption result are zero. This information can be used to mount a Bleichenbacher or Manger like attack against all RSA decryption operations. As the leak happens before any padding operations, it affects all padding modes: PKCS#1 v1.5, OAEP, and RSASVP. Both API level calls and TLS server operation are affected.'
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:0108
     - https://access.redhat.com/security/cve/CVE-2023-5388
+    - https://bugzilla.redhat.com/2243644
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2243644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
+    - https://errata.almalinux.org/9/ALSA-2024-0108.html
+    - https://errata.rockylinux.org/RLSA-2024:0105
+    - https://linux.oracle.com/cve/CVE-2023-5388.html
+    - https://linux.oracle.com/errata/ELSA-2024-0108.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
     - https://people.redhat.com/~hkario/marvin/
     - https://www.cve.org/CVERecord?id=CVE-2023-5388
@@ -1481,15 +1738,25 @@
     Description: 'It was discovered that the numerical library used in NSS for RSA cryptography leaks information whether high order bits of the RSA decryption result are zero. This information can be used to mount a Bleichenbacher or Manger like attack against all RSA decryption operations. As the leak happens before any padding operations, it affects all padding modes: PKCS#1 v1.5, OAEP, and RSASVP. Both API level calls and TLS server operation are affected.'
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 6.5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:0108
     - https://access.redhat.com/security/cve/CVE-2023-5388
+    - https://bugzilla.redhat.com/2243644
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2243644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
+    - https://errata.almalinux.org/9/ALSA-2024-0108.html
+    - https://errata.rockylinux.org/RLSA-2024:0105
+    - https://linux.oracle.com/cve/CVE-2023-5388.html
+    - https://linux.oracle.com/errata/ELSA-2024-0108.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5388
     - https://people.redhat.com/~hkario/marvin/
     - https://www.cve.org/CVERecord?id=CVE-2023-5388
@@ -1765,7 +2032,7 @@
       alma: 1
       amazon: 2
       nvd: 2
-      oracle-oval: 1
+      oracle-oval: 2
       photon: 2
       redhat: 1
       ubuntu: 1
@@ -1793,7 +2060,7 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9a0a4d3c1e7138915563c0df4fe6a3f9377b839c
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=fc9867c1e03c22ebf56943be205202e576aabf23
     - https://linux.oracle.com/cve/CVE-2023-3446.html
-    - https://linux.oracle.com/errata/ELSA-2023-7877.html
+    - https://linux.oracle.com/errata/ELSA-2024-12056.html
     - https://lists.debian.org/debian-lts-announce/2023/08/msg00019.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3446
     - https://security.netapp.com/advisory/ntap-20230803-0011/
@@ -1851,7 +2118,7 @@
       amazon: 2
       cbl-mariner: 2
       nvd: 2
-      oracle-oval: 1
+      oracle-oval: 2
       photon: 2
       redhat: 1
       ubuntu: 1
@@ -1880,7 +2147,7 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9002fd07327a91f35ba6c1307e71fa6fd4409b7f
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=91ddeba0f2269b017dc06c46c993a788974b1aa5
     - https://linux.oracle.com/cve/CVE-2023-3817.html
-    - https://linux.oracle.com/errata/ELSA-2023-7877.html
+    - https://linux.oracle.com/errata/ELSA-2024-12056.html
     - https://lists.debian.org/debian-lts-announce/2023/08/msg00019.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3817
     - https://security.netapp.com/advisory/ntap-20230818-0014/
@@ -1945,7 +2212,7 @@
       amazon: 2
       cbl-mariner: 2
       nvd: 2
-      oracle-oval: 1
+      oracle-oval: 2
       photon: 2
       redhat: 1
       ubuntu: 1
@@ -1969,7 +2236,7 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=db925ae2e65d0d925adef429afc37f75bd1c2017
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=ddeb4b6c6d527e54ce9a99cba785c0f7776e54b6
     - https://linux.oracle.com/cve/CVE-2023-5678.html
-    - https://linux.oracle.com/errata/ELSA-2023-7877.html
+    - https://linux.oracle.com/errata/ELSA-2024-12056.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5678
     - https://security.netapp.com/advisory/ntap-20231130-0010/
     - https://www.cve.org/CVERecord?id=CVE-2023-5678
@@ -2028,7 +2295,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - http://www.openwall.com/lists/oss-security/2024/01/09/1
     - https://access.redhat.com/security/cve/CVE-2023-6129
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6129
     - https://github.com/openssl/openssl/commit/050d26383d4e264966fb83428e72d5d48f402d35
@@ -2039,7 +2305,34 @@
     - https://www.openssl.org/news/secadv/20240109.txt
     - https://www.openwall.com/lists/oss-security/2024/01/09/1
     PublishedDate: '2024-01-09T17:15:12.147Z'
-    LastModifiedDate: '2024-01-09T19:56:14.023Z'
+    LastModifiedDate: '2024-01-15T12:15:43.4Z'
+  - VulnerabilityID: CVE-2023-6237
+    PkgID: openssl@3.0.7-24.el9.x86_64
+    PkgName: openssl
+    InstalledVersion: 1:3.0.7-24.el9
+    Status: affected
+    Layer:
+      Digest: sha256:1e46619d11db8ee123fe5ecb7f605e165427e39ed0a344b9b8b82010ea390c8e
+      DiffID: sha256:fc0d8ecf093320c72f2178707c79b15a269da4c977eb272bc4e007e087dda974
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6237
+    Title: 'openssl: Excessive time spent checking invalid RSA public keys'
+    Description: A flaw was found in OpenSSL. When the EVP_PKEY_public_check() function is called in RSA public keys, a computation is done to confirm that the RSA modulus, n, is composite. For valid RSA keys, n is a product of two or more large primes and this computation completes quickly. However, if n is a large prime, this computation takes a long time. An application that calls EVP_PKEY_public_check() and supplies an RSA key obtained from an untrusted source could be vulnerable to a Denial of Service attack.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-6237
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6237
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-6237
+    - https://www.cve.org/CVERecord?id=CVE-2023-6237
+    - https://www.openssl.org/news/secadv/20240115.txt
+    - https://www.openwall.com/lists/oss-security/2024/01/15/2
   - VulnerabilityID: CVE-2023-5363
     PkgID: openssl-libs@3.0.7-24.el9.x86_64
     PkgName: openssl-libs
@@ -2230,7 +2523,7 @@
       alma: 1
       amazon: 2
       nvd: 2
-      oracle-oval: 1
+      oracle-oval: 2
       photon: 2
       redhat: 1
       ubuntu: 1
@@ -2258,7 +2551,7 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9a0a4d3c1e7138915563c0df4fe6a3f9377b839c
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=fc9867c1e03c22ebf56943be205202e576aabf23
     - https://linux.oracle.com/cve/CVE-2023-3446.html
-    - https://linux.oracle.com/errata/ELSA-2023-7877.html
+    - https://linux.oracle.com/errata/ELSA-2024-12056.html
     - https://lists.debian.org/debian-lts-announce/2023/08/msg00019.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3446
     - https://security.netapp.com/advisory/ntap-20230803-0011/
@@ -2316,7 +2609,7 @@
       amazon: 2
       cbl-mariner: 2
       nvd: 2
-      oracle-oval: 1
+      oracle-oval: 2
       photon: 2
       redhat: 1
       ubuntu: 1
@@ -2345,7 +2638,7 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9002fd07327a91f35ba6c1307e71fa6fd4409b7f
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=91ddeba0f2269b017dc06c46c993a788974b1aa5
     - https://linux.oracle.com/cve/CVE-2023-3817.html
-    - https://linux.oracle.com/errata/ELSA-2023-7877.html
+    - https://linux.oracle.com/errata/ELSA-2024-12056.html
     - https://lists.debian.org/debian-lts-announce/2023/08/msg00019.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3817
     - https://security.netapp.com/advisory/ntap-20230818-0014/
@@ -2410,7 +2703,7 @@
       amazon: 2
       cbl-mariner: 2
       nvd: 2
-      oracle-oval: 1
+      oracle-oval: 2
       photon: 2
       redhat: 1
       ubuntu: 1
@@ -2434,7 +2727,7 @@
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=db925ae2e65d0d925adef429afc37f75bd1c2017
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=ddeb4b6c6d527e54ce9a99cba785c0f7776e54b6
     - https://linux.oracle.com/cve/CVE-2023-5678.html
-    - https://linux.oracle.com/errata/ELSA-2023-7877.html
+    - https://linux.oracle.com/errata/ELSA-2024-12056.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5678
     - https://security.netapp.com/advisory/ntap-20231130-0010/
     - https://www.cve.org/CVERecord?id=CVE-2023-5678
@@ -2493,7 +2786,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - http://www.openwall.com/lists/oss-security/2024/01/09/1
     - https://access.redhat.com/security/cve/CVE-2023-6129
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6129
     - https://github.com/openssl/openssl/commit/050d26383d4e264966fb83428e72d5d48f402d35
@@ -2504,7 +2796,34 @@
     - https://www.openssl.org/news/secadv/20240109.txt
     - https://www.openwall.com/lists/oss-security/2024/01/09/1
     PublishedDate: '2024-01-09T17:15:12.147Z'
-    LastModifiedDate: '2024-01-09T19:56:14.023Z'
+    LastModifiedDate: '2024-01-15T12:15:43.4Z'
+  - VulnerabilityID: CVE-2023-6237
+    PkgID: openssl-libs@3.0.7-24.el9.x86_64
+    PkgName: openssl-libs
+    InstalledVersion: 1:3.0.7-24.el9
+    Status: affected
+    Layer:
+      Digest: sha256:1e46619d11db8ee123fe5ecb7f605e165427e39ed0a344b9b8b82010ea390c8e
+      DiffID: sha256:fc0d8ecf093320c72f2178707c79b15a269da4c977eb272bc4e007e087dda974
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6237
+    Title: 'openssl: Excessive time spent checking invalid RSA public keys'
+    Description: A flaw was found in OpenSSL. When the EVP_PKEY_public_check() function is called in RSA public keys, a computation is done to confirm that the RSA modulus, n, is composite. For valid RSA keys, n is a product of two or more large primes and this computation completes quickly. However, if n is a large prime, this computation takes a long time. An application that calls EVP_PKEY_public_check() and supplies an RSA key obtained from an untrusted source could be vulnerable to a Denial of Service attack.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-6237
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6237
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-6237
+    - https://www.cve.org/CVERecord?id=CVE-2023-6237
+    - https://www.openssl.org/news/secadv/20240115.txt
+    - https://www.openwall.com/lists/oss-security/2024/01/15/2
   - VulnerabilityID: CVE-2021-23336
     PkgID: python-unversioned-command@3.9.18-1.el9_3.noarch
     PkgName: python-unversioned-command
@@ -2667,9 +2986,11 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      alma: 2
       amazon: 2
       bitnami: 2
       nvd: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -2685,11 +3006,17 @@
         V3Score: 5.3
     References:
     - http://python.org
+    - https://access.redhat.com/articles/7051467
+    - https://access.redhat.com/errata/RHSA-2024:0256
     - https://access.redhat.com/security/cve/CVE-2023-27043
+    - https://bugzilla.redhat.com/2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
+    - https://errata.almalinux.org/8/ALSA-2024-0256.html
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://linux.oracle.com/cve/CVE-2023-27043.html
+    - https://linux.oracle.com/errata/ELSA-2024-0256.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -2913,9 +3240,11 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      alma: 2
       amazon: 2
       bitnami: 2
       nvd: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -2931,11 +3260,17 @@
         V3Score: 5.3
     References:
     - http://python.org
+    - https://access.redhat.com/articles/7051467
+    - https://access.redhat.com/errata/RHSA-2024:0256
     - https://access.redhat.com/security/cve/CVE-2023-27043
+    - https://bugzilla.redhat.com/2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
+    - https://errata.almalinux.org/8/ALSA-2024-0256.html
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://linux.oracle.com/cve/CVE-2023-27043.html
+    - https://linux.oracle.com/errata/ELSA-2024-0256.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -3159,9 +3494,11 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      alma: 2
       amazon: 2
       bitnami: 2
       nvd: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -3177,11 +3514,17 @@
         V3Score: 5.3
     References:
     - http://python.org
+    - https://access.redhat.com/articles/7051467
+    - https://access.redhat.com/errata/RHSA-2024:0256
     - https://access.redhat.com/security/cve/CVE-2023-27043
+    - https://bugzilla.redhat.com/2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
+    - https://errata.almalinux.org/8/ALSA-2024-0256.html
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://linux.oracle.com/cve/CVE-2023-27043.html
+    - https://linux.oracle.com/errata/ELSA-2024-0256.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -3596,8 +3939,11 @@
     - CWE-119
     - CWE-122
     VendorSeverity:
+      alma: 2
       bitnami: 3
       nvd: 3
+      oracle-oval: 2
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3611,11 +3957,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 7.3
     References:
+    - https://access.redhat.com/errata/RHSA-2024:0253
     - https://access.redhat.com/security/cve/CVE-2023-7104
+    - https://bugzilla.redhat.com/2256194
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7104
+    - https://errata.almalinux.org/8/ALSA-2024-0253.html
+    - https://linux.oracle.com/cve/CVE-2023-7104.html
+    - https://linux.oracle.com/errata/ELSA-2024-0253.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AYONA2XSNFMXLAW4IHLFI5UVV3QRNG5K/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/D6C2HN4T2S6GYNTAUXLH45LQZHK7QPHP/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7104
+    - https://security.netapp.com/advisory/ntap-20240112-0008/
     - https://sqlite.org/forum/forumpost/5bcbf4571c
     - https://sqlite.org/src/info/0e4e7a05c4204b47
     - https://ubuntu.com/security/notices/USN-6566-1
@@ -3623,7 +3975,7 @@
     - https://vuldb.com/?id.248999
     - https://www.cve.org/CVERecord?id=CVE-2023-7104
     PublishedDate: '2023-12-29T10:15:13.89Z'
-    LastModifiedDate: '2024-01-08T17:46:29.51Z'
+    LastModifiedDate: '2024-01-12T14:15:49.607Z'
   - VulnerabilityID: CVE-2024-0232
     PkgID: sqlite-libs@3.34.1-6.el9_1.x86_64
     PkgName: sqlite-libs
@@ -3635,14 +3987,23 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0232
     Title: 'sqlite: use-after-free bug in jsonParseAddNodeArray'
-    Description: No description is available for this CVE.
+    Description: A heap use-after-free issue has been identified in SQLite in the jsonParseAddNodeArray() function in sqlite3.c. This flaw allows a local attacker to leverage a victim to pass specially crafted malicious input to the application, potentially causing a crash and leading to a denial of service.
     Severity: LOW
+    CweIDs:
+    - CWE-416
     VendorSeverity:
       redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 4.7
     References:
     - https://access.redhat.com/security/cve/CVE-2024-0232
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2243754
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0232
     - https://www.cve.org/CVERecord?id=CVE-2024-0232
+    PublishedDate: '2024-01-16T14:15:48.327Z'
+    LastModifiedDate: '2024-01-16T23:12:38.473Z'
   - VulnerabilityID: CVE-2023-28486
     PkgID: sudo@1.9.5p2-9.el9.x86_64
     PkgName: sudo
@@ -3653,7 +4014,7 @@
       DiffID: sha256:fc0d8ecf093320c72f2178707c79b15a269da4c977eb272bc4e007e087dda974
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-28486
-    Title: Sudo does not escape control characters in log messages
+    Title: 'sudo: Sudo does not escape control characters in log messages'
     Description: Sudo before 1.9.13 does not escape control characters in log messages.
     Severity: MEDIUM
     CweIDs:
@@ -3695,7 +4056,7 @@
       DiffID: sha256:fc0d8ecf093320c72f2178707c79b15a269da4c977eb272bc4e007e087dda974
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-28487
-    Title: Sudo does not escape control characters in sudoreplay output
+    Title: 'sudo: Sudo does not escape control characters in sudoreplay output'
     Description: Sudo before 1.9.13 does not escape control characters in sudoreplay output.
     Severity: MEDIUM
     CweIDs:
@@ -3742,6 +4103,7 @@
     Severity: MEDIUM
     VendorSeverity:
       nvd: 3
+      photon: 3
       redhat: 2
     CVSS:
       nvd:
@@ -3883,6 +4245,7 @@
     Severity: LOW
     VendorSeverity:
       amazon: 1
+      photon: 1
       redhat: 1
       ubuntu: 2
     CVSS:
