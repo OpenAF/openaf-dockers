@@ -394,6 +394,7 @@ jobs:
     - build-ojobc
     - build-openaf-ojob
     - build-ojob
+    - build-ojobrt
     - build-openaf-console
     - build-console
     steps  :
