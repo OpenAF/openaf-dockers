@@ -7,6 +7,7 @@ COPY --chown=openaf main.yaml /openaf/main.yaml
 #COPY --chown=openaf entrypoint.sh /openaf/.docker/entrypoint.sh
 
 #RUN chmod u+x /openaf/.docker/entrypoint.sh\
-RUN /openaf/opack install ojob-common
+RUN /openaf/opack install ojob-common\
+ && chmod a+rw /openaf/.opack.db
 
 ENV OJOB=/openaf/main.yaml

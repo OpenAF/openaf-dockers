@@ -13,7 +13,8 @@ RUN /openaf/opack install oJob-common -deps\
  && /openaf/opack install S3 -deps\
  && /openaf/opack install Notifications -deps\
  && /openaf/opack install DockerRegistry -deps\
- && /openaf/opack install ElasticSearch -deps
+ && /openaf/opack install ElasticSearch -deps\
+ && chmod a+rw /openaf/.opack.db
 
 COPY --chown=openaf: main.yaml /openaf/main.yaml
 

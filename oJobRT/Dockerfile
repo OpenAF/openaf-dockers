@@ -14,7 +14,8 @@ RUN mkdir /ojob\
 
 USER openaf
 RUN /openaf/opack install ojob-common\
- && /openaf/opack install S3
+ && /openaf/opack install S3\
+ && chmod a+rw /openaf/.opack.db
 
 WORKDIR /ojob
 ENV OJOB=/openaf/entrypoint.yaml
