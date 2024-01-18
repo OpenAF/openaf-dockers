@@ -28,8 +28,9 @@ USER 1000
 RUN cd /openaf\
  && curl -o openaf.jar https://openaf.io/$OPENAFDIST/openaf.jar.repacked -s\
  && java -jar openaf.jar --install -e 'args=$JAVA_ARGS'\
- && chmod u+x,g+x /openaf/.docker/entrypoint.sh\
- && chmod u+x,g+x /openaf/getOpenAFOrigJar.js\
+ && chown -R openaf:0 /openaf\
+ && chmod -R a+rwx /openaf\
+ && chmod -R a+rx /openaf/.docker\
  && curl -s https://ojob.io/autoComplete.sh > ~/.openaf-ojobio-complete
 
 # -------------------

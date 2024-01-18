@@ -28,7 +28,8 @@ RUN cd /openaf\
  && curl -o openaf.jar https://openaf.io/$OPENAFDIST/openaf.jar.repacked -s\
  && java -jar openaf.jar --install\
  && chown -R openaf:0 /openaf\
- && chmod -R g+rwx /openaf
+ && chmod -R a+rwx /openaf\
+ && chmod -R a+rx /openaf/.docker
 
 # -------------------
 FROM scratch as final
