@@ -6,8 +6,11 @@ COPY --chown=openaf entrypoint.yaml /openaf/entrypoint.yaml
 
 USER root 
 RUN mkdir /ojob\
+ && mkdir /secrets\
  && chown -R openaf: /ojob\
- && chmod -R a+rwx /ojob
+ && chown -R openaf: /secrets\
+ && chmod -R a+rwx /ojob\
+ && chmod -R a+rwx /secrets
 
 USER openaf
 RUN /openaf/opack install ojob-common\
