@@ -1,5 +1,13 @@
 #!/bin/sh
 
+# Ensure that the user exists in /etc/passwd
+if ! whoami >/dev/null 2>&1; then
+   if [ -w /etc/passwd ]; then
+      echo "$(id -u):x:$(id -u):0:$(id -u) user:${HOME}:/sbin/nologin" >> /etc/passwd
+   fi
+fi
+
+# This script is used to run OpenAF as a container
 PATH=$PATH:/openaf
 export PATH
 
