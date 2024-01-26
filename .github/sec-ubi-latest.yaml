@@ -1,3 +1,97 @@
 - Target: openaf/oaf:ubi (alpine 3.19.0)
   Class: os-pkgs
   Type: alpine
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2024-0727
+    PkgID: libcrypto3@3.1.4-r4
+    PkgName: libcrypto3
+    InstalledVersion: 3.1.4-r4
+    FixedVersion: 3.1.4-r5
+    Status: fixed
+    Layer:
+      Digest: sha256:e021ffc8afc34eb0c92d865d45e867d85f00d16139ab879a45e6b678d33d1d8b
+      DiffID: sha256:7dcbfb4b8f96be571c346eff83ca4efec9a968a9c124cf05eca3b8d7b646ae00
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0727
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'openssl: denial of service via null dereference'
+    Description: A flaw was found in OpenSSL. The optional ContentInfo fields can be set to null, even if the "type" is a valid value, which can lead to a null dereference error that may cause a denial of service.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-0727
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0727
+    - https://github.com/openssl/openssl/pull/23362
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-0727
+    - https://www.cve.org/CVERecord?id=CVE-2024-0727
+    - https://www.openssl.org/news/secadv/20240125.txt
+  - VulnerabilityID: CVE-2024-0727
+    PkgID: libssl3@3.1.4-r4
+    PkgName: libssl3
+    InstalledVersion: 3.1.4-r4
+    FixedVersion: 3.1.4-r5
+    Status: fixed
+    Layer:
+      Digest: sha256:e021ffc8afc34eb0c92d865d45e867d85f00d16139ab879a45e6b678d33d1d8b
+      DiffID: sha256:7dcbfb4b8f96be571c346eff83ca4efec9a968a9c124cf05eca3b8d7b646ae00
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0727
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'openssl: denial of service via null dereference'
+    Description: A flaw was found in OpenSSL. The optional ContentInfo fields can be set to null, even if the "type" is a valid value, which can lead to a null dereference error that may cause a denial of service.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-0727
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0727
+    - https://github.com/openssl/openssl/pull/23362
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-0727
+    - https://www.cve.org/CVERecord?id=CVE-2024-0727
+    - https://www.openssl.org/news/secadv/20240125.txt
+  - VulnerabilityID: CVE-2024-0727
+    PkgID: openssl@3.1.4-r4
+    PkgName: openssl
+    InstalledVersion: 3.1.4-r4
+    FixedVersion: 3.1.4-r5
+    Status: fixed
+    Layer:
+      Digest: sha256:e021ffc8afc34eb0c92d865d45e867d85f00d16139ab879a45e6b678d33d1d8b
+      DiffID: sha256:7dcbfb4b8f96be571c346eff83ca4efec9a968a9c124cf05eca3b8d7b646ae00
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0727
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'openssl: denial of service via null dereference'
+    Description: A flaw was found in OpenSSL. The optional ContentInfo fields can be set to null, even if the "type" is a valid value, which can lead to a null dereference error that may cause a denial of service.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-0727
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0727
+    - https://github.com/openssl/openssl/pull/23362
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-0727
+    - https://www.cve.org/CVERecord?id=CVE-2024-0727
+    - https://www.openssl.org/news/secadv/20240125.txt
