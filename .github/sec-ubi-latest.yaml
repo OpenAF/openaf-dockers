@@ -400,11 +400,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 9.1
     References:
-    - https://access.redhat.com/errata/RHSA-2023:7753
+    - https://access.redhat.com/errata/RHSA-2024:0133
     - https://access.redhat.com/security/cve/CVE-2023-37920
     - https://bugzilla.redhat.com/2226586
     - https://bugzilla.redhat.com/2242493
-    - https://errata.almalinux.org/9/ALSA-2023-7753.html
+    - https://errata.almalinux.org/8/ALSA-2024-0133.html
     - https://github.com/certifi/python-certifi
     - https://github.com/certifi/python-certifi/commit/8fb96ed81f71e7097ed11bc4d9b19afd7ea5c909
     - https://github.com/certifi/python-certifi/security/advisories/GHSA-xqr8-7jwr-rhp7
@@ -771,11 +771,9 @@
     - https://access.redhat.com/errata/RHSA-2024:0533
     - https://access.redhat.com/security/cve/CVE-2023-5981
     - https://bugzilla.redhat.com/2248445
-    - https://bugzilla.redhat.com/2258412
-    - https://bugzilla.redhat.com/2258544
     - https://bugzilla.redhat.com/show_bug.cgi?id=2248445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5981
-    - https://errata.almalinux.org/9/ALSA-2024-0533.html
+    - https://errata.almalinux.org/8/ALSA-2024-0155.html
     - https://errata.rockylinux.org/RLSA-2024:0155
     - https://gnutls.org/security-new.html#GNUTLS-SA-2023-10-23
     - https://linux.oracle.com/cve/CVE-2023-5981.html
@@ -828,12 +826,10 @@
     - https://access.redhat.com/errata/RHSA-2024:0533
     - https://access.redhat.com/errata/RHSA-2024:0627
     - https://access.redhat.com/security/cve/CVE-2024-0553
-    - https://bugzilla.redhat.com/2248445
     - https://bugzilla.redhat.com/2258412
-    - https://bugzilla.redhat.com/2258544
     - https://bugzilla.redhat.com/show_bug.cgi?id=2258412
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0553
-    - https://errata.almalinux.org/9/ALSA-2024-0533.html
+    - https://errata.almalinux.org/8/ALSA-2024-0627.html
     - https://gitlab.com/gnutls/gnutls/-/issues/1522
     - https://gnutls.org/security-new.html#GNUTLS-SA-2024-01-14
     - https://linux.oracle.com/cve/CVE-2024-0553.html
@@ -1381,6 +1377,51 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2024-01-31T03:15:08.49Z'
+  - VulnerabilityID: CVE-2023-6135
+    VendorIDs:
+    - RHSA-2024:0790
+    PkgID: nspr@4.35.0-4.el9_3.x86_64
+    PkgName: nspr
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/nspr@4.35.0-4.el9_3?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 4.35.0-4.el9_3
+    FixedVersion: 4.35.0-6.el9_3
+    Status: fixed
+    Layer:
+      Digest: sha256:95b2511137ef32f4e7b50a13a8e2c90f644e624466b7c9c3e1c706e99a35bbb8
+      DiffID: sha256:20314878142695fcdd93d471cc1a97120a95ebc833e1c96fa24f9f9f1becba72
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6135
+    Title: 'nss: vulnerable to Minerva side-channel information leak'
+    Description: Multiple NSS NIST curves were susceptible to a side-channel attack known as "Minerva". This attack could potentially allow an attacker to recover the private key. This vulnerability affects Firefox < 121.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-203
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 4.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-6135
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1853908
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6135
+    - https://minerva.crocs.fi.muni.cz/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-6135
+    - https://people.redhat.com/~hkario/marvin/
+    - https://security.gentoo.org/glsa/202401-10
+    - https://ubuntu.com/security/notices/USN-6562-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-6135
+    - https://www.mozilla.org/en-US/security/advisories/mfsa2023-56/#CVE-2023-6135
+    - https://www.mozilla.org/security/advisories/mfsa2023-56/
+    PublishedDate: '2023-12-19T14:15:07.143Z'
+    LastModifiedDate: '2024-01-07T11:15:14.493Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nspr@4.35.0-4.el9_3.x86_64
     PkgName: nspr
@@ -1417,6 +1458,51 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:10.58Z'
     LastModifiedDate: '2023-02-28T19:49:51.89Z'
+  - VulnerabilityID: CVE-2023-6135
+    VendorIDs:
+    - RHSA-2024:0790
+    PkgID: nss@3.90.0-4.el9_3.x86_64
+    PkgName: nss
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/nss@3.90.0-4.el9_3?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 3.90.0-4.el9_3
+    FixedVersion: 3.90.0-6.el9_3
+    Status: fixed
+    Layer:
+      Digest: sha256:95b2511137ef32f4e7b50a13a8e2c90f644e624466b7c9c3e1c706e99a35bbb8
+      DiffID: sha256:20314878142695fcdd93d471cc1a97120a95ebc833e1c96fa24f9f9f1becba72
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6135
+    Title: 'nss: vulnerable to Minerva side-channel information leak'
+    Description: Multiple NSS NIST curves were susceptible to a side-channel attack known as "Minerva". This attack could potentially allow an attacker to recover the private key. This vulnerability affects Firefox < 121.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-203
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 4.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-6135
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1853908
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6135
+    - https://minerva.crocs.fi.muni.cz/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-6135
+    - https://people.redhat.com/~hkario/marvin/
+    - https://security.gentoo.org/glsa/202401-10
+    - https://ubuntu.com/security/notices/USN-6562-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-6135
+    - https://www.mozilla.org/en-US/security/advisories/mfsa2023-56/#CVE-2023-6135
+    - https://www.mozilla.org/security/advisories/mfsa2023-56/
+    PublishedDate: '2023-12-19T14:15:07.143Z'
+    LastModifiedDate: '2024-01-07T11:15:14.493Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss@3.90.0-4.el9_3.x86_64
     PkgName: nss
@@ -1453,6 +1539,51 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:10.58Z'
     LastModifiedDate: '2023-02-28T19:49:51.89Z'
+  - VulnerabilityID: CVE-2023-6135
+    VendorIDs:
+    - RHSA-2024:0790
+    PkgID: nss-softokn@3.90.0-4.el9_3.x86_64
+    PkgName: nss-softokn
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/nss-softokn@3.90.0-4.el9_3?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 3.90.0-4.el9_3
+    FixedVersion: 3.90.0-6.el9_3
+    Status: fixed
+    Layer:
+      Digest: sha256:95b2511137ef32f4e7b50a13a8e2c90f644e624466b7c9c3e1c706e99a35bbb8
+      DiffID: sha256:20314878142695fcdd93d471cc1a97120a95ebc833e1c96fa24f9f9f1becba72
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6135
+    Title: 'nss: vulnerable to Minerva side-channel information leak'
+    Description: Multiple NSS NIST curves were susceptible to a side-channel attack known as "Minerva". This attack could potentially allow an attacker to recover the private key. This vulnerability affects Firefox < 121.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-203
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 4.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-6135
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1853908
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6135
+    - https://minerva.crocs.fi.muni.cz/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-6135
+    - https://people.redhat.com/~hkario/marvin/
+    - https://security.gentoo.org/glsa/202401-10
+    - https://ubuntu.com/security/notices/USN-6562-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-6135
+    - https://www.mozilla.org/en-US/security/advisories/mfsa2023-56/#CVE-2023-6135
+    - https://www.mozilla.org/security/advisories/mfsa2023-56/
+    PublishedDate: '2023-12-19T14:15:07.143Z'
+    LastModifiedDate: '2024-01-07T11:15:14.493Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-softokn@3.90.0-4.el9_3.x86_64
     PkgName: nss-softokn
@@ -1489,6 +1620,51 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:10.58Z'
     LastModifiedDate: '2023-02-28T19:49:51.89Z'
+  - VulnerabilityID: CVE-2023-6135
+    VendorIDs:
+    - RHSA-2024:0790
+    PkgID: nss-softokn-freebl@3.90.0-4.el9_3.x86_64
+    PkgName: nss-softokn-freebl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/nss-softokn-freebl@3.90.0-4.el9_3?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 3.90.0-4.el9_3
+    FixedVersion: 3.90.0-6.el9_3
+    Status: fixed
+    Layer:
+      Digest: sha256:95b2511137ef32f4e7b50a13a8e2c90f644e624466b7c9c3e1c706e99a35bbb8
+      DiffID: sha256:20314878142695fcdd93d471cc1a97120a95ebc833e1c96fa24f9f9f1becba72
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6135
+    Title: 'nss: vulnerable to Minerva side-channel information leak'
+    Description: Multiple NSS NIST curves were susceptible to a side-channel attack known as "Minerva". This attack could potentially allow an attacker to recover the private key. This vulnerability affects Firefox < 121.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-203
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 4.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-6135
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1853908
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6135
+    - https://minerva.crocs.fi.muni.cz/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-6135
+    - https://people.redhat.com/~hkario/marvin/
+    - https://security.gentoo.org/glsa/202401-10
+    - https://ubuntu.com/security/notices/USN-6562-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-6135
+    - https://www.mozilla.org/en-US/security/advisories/mfsa2023-56/#CVE-2023-6135
+    - https://www.mozilla.org/security/advisories/mfsa2023-56/
+    PublishedDate: '2023-12-19T14:15:07.143Z'
+    LastModifiedDate: '2024-01-07T11:15:14.493Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-softokn-freebl@3.90.0-4.el9_3.x86_64
     PkgName: nss-softokn-freebl
@@ -1525,6 +1701,51 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:10.58Z'
     LastModifiedDate: '2023-02-28T19:49:51.89Z'
+  - VulnerabilityID: CVE-2023-6135
+    VendorIDs:
+    - RHSA-2024:0790
+    PkgID: nss-sysinit@3.90.0-4.el9_3.x86_64
+    PkgName: nss-sysinit
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/nss-sysinit@3.90.0-4.el9_3?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 3.90.0-4.el9_3
+    FixedVersion: 3.90.0-6.el9_3
+    Status: fixed
+    Layer:
+      Digest: sha256:95b2511137ef32f4e7b50a13a8e2c90f644e624466b7c9c3e1c706e99a35bbb8
+      DiffID: sha256:20314878142695fcdd93d471cc1a97120a95ebc833e1c96fa24f9f9f1becba72
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6135
+    Title: 'nss: vulnerable to Minerva side-channel information leak'
+    Description: Multiple NSS NIST curves were susceptible to a side-channel attack known as "Minerva". This attack could potentially allow an attacker to recover the private key. This vulnerability affects Firefox < 121.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-203
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 4.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-6135
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1853908
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6135
+    - https://minerva.crocs.fi.muni.cz/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-6135
+    - https://people.redhat.com/~hkario/marvin/
+    - https://security.gentoo.org/glsa/202401-10
+    - https://ubuntu.com/security/notices/USN-6562-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-6135
+    - https://www.mozilla.org/en-US/security/advisories/mfsa2023-56/#CVE-2023-6135
+    - https://www.mozilla.org/security/advisories/mfsa2023-56/
+    PublishedDate: '2023-12-19T14:15:07.143Z'
+    LastModifiedDate: '2024-01-07T11:15:14.493Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-sysinit@3.90.0-4.el9_3.x86_64
     PkgName: nss-sysinit
@@ -1561,6 +1782,51 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:10.58Z'
     LastModifiedDate: '2023-02-28T19:49:51.89Z'
+  - VulnerabilityID: CVE-2023-6135
+    VendorIDs:
+    - RHSA-2024:0790
+    PkgID: nss-util@3.90.0-4.el9_3.x86_64
+    PkgName: nss-util
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/nss-util@3.90.0-4.el9_3?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 3.90.0-4.el9_3
+    FixedVersion: 3.90.0-6.el9_3
+    Status: fixed
+    Layer:
+      Digest: sha256:95b2511137ef32f4e7b50a13a8e2c90f644e624466b7c9c3e1c706e99a35bbb8
+      DiffID: sha256:20314878142695fcdd93d471cc1a97120a95ebc833e1c96fa24f9f9f1becba72
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6135
+    Title: 'nss: vulnerable to Minerva side-channel information leak'
+    Description: Multiple NSS NIST curves were susceptible to a side-channel attack known as "Minerva". This attack could potentially allow an attacker to recover the private key. This vulnerability affects Firefox < 121.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-203
+    VendorSeverity:
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 4.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-6135
+    - https://bugzilla.mozilla.org/show_bug.cgi?id=1853908
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6135
+    - https://minerva.crocs.fi.muni.cz/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-6135
+    - https://people.redhat.com/~hkario/marvin/
+    - https://security.gentoo.org/glsa/202401-10
+    - https://ubuntu.com/security/notices/USN-6562-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-6135
+    - https://www.mozilla.org/en-US/security/advisories/mfsa2023-56/#CVE-2023-6135
+    - https://www.mozilla.org/security/advisories/mfsa2023-56/
+    PublishedDate: '2023-12-19T14:15:07.143Z'
+    LastModifiedDate: '2024-01-07T11:15:14.493Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-util@3.90.0-4.el9_3.x86_64
     PkgName: nss-util
