@@ -452,9 +452,12 @@
                         │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-0133.html 
                         │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/5EX6NG
+                        │      │                  │       7WUFNUKGFHLM35KHHU3GAKXRTG 
+                        │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  │       ckage-announce@lists.fedoraproject.org/message/5EX6NG
                         │      │                  │       7WUFNUKGFHLM35KHHU3GAKXRTG/ 
-                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-37920 
-                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2023-37920 
+                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2023-37920 
+                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-37920 
                         │      ├ PublishedDate   : 2023-07-25T21:15:10.827Z 
                         │      ╰ LastModifiedDate: 2023-08-12T06:16:31.077Z 
                         ├ [7]  ╭ VulnerabilityID : CVE-2023-4504 
@@ -928,6 +931,7 @@
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
                         │      │                  ├ redhat     : 2 
+                        │      │                  ├ rocky      : 2 
                         │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                  │        │           H/I:N/A:N 
@@ -939,34 +943,36 @@
                         │      │                  │       01/19/3 
                         │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:0533 
                         │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:0627 
-                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-0553 
-                        │      │                  ├ [4] : https://bugzilla.redhat.com/2248445 
-                        │      │                  ├ [5] : https://bugzilla.redhat.com/2258412 
-                        │      │                  ├ [6] : https://bugzilla.redhat.com/2258544 
-                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2258412 
-                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2024:0796 
+                        │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2024-0553 
+                        │      │                  ├ [5] : https://bugzilla.redhat.com/2248445 
+                        │      │                  ├ [6] : https://bugzilla.redhat.com/2258412 
+                        │      │                  ├ [7] : https://bugzilla.redhat.com/2258544 
+                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2258412 
+                        │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2024-0553 
-                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-0533.html 
-                        │      │                  ├ [10]: https://gitlab.com/gnutls/gnutls/-/issues/1522 
-                        │      │                  ├ [11]: https://gnutls.org/security-new.html#GNUTLS-SA-2
+                        │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-0533.html 
+                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:0627 
+                        │      │                  ├ [12]: https://gitlab.com/gnutls/gnutls/-/issues/1522 
+                        │      │                  ├ [13]: https://gnutls.org/security-new.html#GNUTLS-SA-2
                         │      │                  │       024-01-14 
-                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-0553.html 
-                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-12135.html 
-                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-0553.html 
+                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-12135.html 
+                        │      │                  ├ [16]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/7ZEIOL
                         │      │                  │       ORQ7N6WRPFXZSYDL2MC4LP7VFV/ 
-                        │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/GNXKVR
                         │      │                  │       5YNUEBNHAHM5GSYKBZX4W2HMN2/ 
-                        │      │                  ├ [16]: https://lists.gnupg.org/pipermail/gnutls-help/20
+                        │      │                  ├ [18]: https://lists.gnupg.org/pipermail/gnutls-help/20
                         │      │                  │       24-January/004841.html 
-                        │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-0553 
-                        │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-202402
+                        │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2024-0553 
+                        │      │                  ├ [20]: https://security.netapp.com/advisory/ntap-202402
                         │      │                  │       02-0011/ 
-                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6593-1 
-                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2024-0553 
+                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6593-1 
+                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2024-0553 
                         │      ├ PublishedDate   : 2024-01-16T12:15:45.557Z 
-                        │      ╰ LastModifiedDate: 2024-02-09T03:15:09.317Z 
+                        │      ╰ LastModifiedDate: 2024-02-13T09:15:47.017Z 
                         ├ [16] ╭ VulnerabilityID : CVE-2024-0567 
                         │      ├ VendorIDs        ─ [0]: RHSA-2024:0533 
                         │      ├ PkgID           : gnutls@3.7.6-23.el9.x86_64 
@@ -1277,16 +1283,10 @@
                         │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-25062 
                         │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
                         │      │                  │      E-2024-25062 
-                        │      │                  ├ [2]: https://gitlab.gnome.org/GNOME/libxml2/-/commit/2
-                        │      │                  │      b0aac140d739905c7848a42efc60bfe783a39b7 (v2.11.7)[
-                        │      │                  │      m 
-                        │      │                  ├ [3]: https://gitlab.gnome.org/GNOME/libxml2/-/commit/9
-                        │      │                  │      2721970884fcc13305cb8e23cdc5f0dd7667c2c (v2.12.5)[
-                        │      │                  │      m 
-                        │      │                  ├ [4]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/604 
-                        │      │                  ├ [5]: https://gitlab.gnome.org/GNOME/libxml2/-/tags 
-                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-25062 
-                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-25062 
+                        │      │                  ├ [2]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/604 
+                        │      │                  ├ [3]: https://gitlab.gnome.org/GNOME/libxml2/-/tags 
+                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-25062 
+                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-25062 
                         │      ├ PublishedDate   : 2024-02-04T16:15:45.12Z 
                         │      ╰ LastModifiedDate: 2024-02-13T00:40:40.503Z 
                         ├ [22] ╭ VulnerabilityID : CVE-2023-45322 
@@ -1387,17 +1387,19 @@
                         │      │                  │       K6ODVC4LJSDULLX6Q2YHTFOWABCN/ 
                         │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/C63HAG
-                        │      │                  │       VLQA6FJNDCHR7CNZZL6VSLILB2/ 
+                        │      │                  │       VLQA6FJNDCHR7CNZZL6VSLILB2 
                         │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/JEHRBB
-                        │      │                  │       YYTPA4DETOM5XAKGCP37NUTLOA/ 
+                        │      │                  │       YYTPA4DETOM5XAKGCP37NUTLOA 
                         │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce@lists.fedoraproject.org/message/QYLDK6
-                        │      │                  │       ODVC4LJSDULLX6Q2YHTFOWABCN/ 
+                        │      │                  │       ODVC4LJSDULLX6Q2YHTFOWABCN 
                         │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2022-4899 
                         │      │                  ├ [14]: https://security.netapp.com/advisory/ntap-202307
+                        │      │                  │       25-0005 
+                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-202307
                         │      │                  │       25-0005/ 
-                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
+                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
                         │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:59:16.09Z 
                         ├ [24] ╭ VulnerabilityID : CVE-2022-29458 
@@ -1614,28 +1616,35 @@
                         │      │                   This vulnerability affects Firefox < 121. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-203 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
+                        │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ nvd        : 2 
+                        │      │                  ├ oracle-oval: 2 
+                        │      │                  ├ redhat     : 2 
+                        │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
                         │      │                  │        │           L/I:N/A:N 
                         │      │                  │        ╰ V3Score : 4.3 
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
                         │      │                           │           L/I:N/A:N 
                         │      │                           ╰ V3Score : 4.3 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-6135 
-                        │      │                  ├ [1] : https://bugzilla.mozilla.org/show_bug.cgi?id=1853908 
-                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0790 
+                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-6135 
+                        │      │                  ├ [2] : https://bugzilla.mozilla.org/show_bug.cgi?id=1853908 
+                        │      │                  ├ [3] : https://bugzilla.redhat.com/2249906 
+                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2023-6135 
-                        │      │                  ├ [3] : https://minerva.crocs.fi.muni.cz/ 
-                        │      │                  ├ [4] : https://nvd.nist.gov/vuln/detail/CVE-2023-6135 
-                        │      │                  ├ [5] : https://people.redhat.com/~hkario/marvin/ 
-                        │      │                  ├ [6] : https://security.gentoo.org/glsa/202401-10 
-                        │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-6562-1 
-                        │      │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2023-6135 
-                        │      │                  ├ [9] : https://www.mozilla.org/en-US/security/advisorie
+                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-0790.html 
+                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-6135.html 
+                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-0790.html 
+                        │      │                  ├ [8] : https://minerva.crocs.fi.muni.cz/ 
+                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-6135 
+                        │      │                  ├ [10]: https://people.redhat.com/~hkario/marvin/ 
+                        │      │                  ├ [11]: https://security.gentoo.org/glsa/202401-10 
+                        │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6562-1 
+                        │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2023-6135 
+                        │      │                  ├ [14]: https://www.mozilla.org/en-US/security/advisorie
                         │      │                  │       s/mfsa2023-56/#CVE-2023-6135 
-                        │      │                  ╰ [10]: https://www.mozilla.org/security/advisories/mfsa
+                        │      │                  ╰ [15]: https://www.mozilla.org/security/advisories/mfsa
                         │      │                          2023-56/ 
                         │      ├ PublishedDate   : 2023-12-19T14:15:07.143Z 
                         │      ╰ LastModifiedDate: 2024-01-07T11:15:14.493Z 
@@ -1699,28 +1708,35 @@
                         │      │                   This vulnerability affects Firefox < 121. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-203 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
+                        │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ nvd        : 2 
+                        │      │                  ├ oracle-oval: 2 
+                        │      │                  ├ redhat     : 2 
+                        │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
                         │      │                  │        │           L/I:N/A:N 
                         │      │                  │        ╰ V3Score : 4.3 
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
                         │      │                           │           L/I:N/A:N 
                         │      │                           ╰ V3Score : 4.3 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-6135 
-                        │      │                  ├ [1] : https://bugzilla.mozilla.org/show_bug.cgi?id=1853908 
-                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0790 
+                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-6135 
+                        │      │                  ├ [2] : https://bugzilla.mozilla.org/show_bug.cgi?id=1853908 
+                        │      │                  ├ [3] : https://bugzilla.redhat.com/2249906 
+                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2023-6135 
-                        │      │                  ├ [3] : https://minerva.crocs.fi.muni.cz/ 
-                        │      │                  ├ [4] : https://nvd.nist.gov/vuln/detail/CVE-2023-6135 
-                        │      │                  ├ [5] : https://people.redhat.com/~hkario/marvin/ 
-                        │      │                  ├ [6] : https://security.gentoo.org/glsa/202401-10 
-                        │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-6562-1 
-                        │      │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2023-6135 
-                        │      │                  ├ [9] : https://www.mozilla.org/en-US/security/advisorie
+                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-0790.html 
+                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-6135.html 
+                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-0790.html 
+                        │      │                  ├ [8] : https://minerva.crocs.fi.muni.cz/ 
+                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-6135 
+                        │      │                  ├ [10]: https://people.redhat.com/~hkario/marvin/ 
+                        │      │                  ├ [11]: https://security.gentoo.org/glsa/202401-10 
+                        │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6562-1 
+                        │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2023-6135 
+                        │      │                  ├ [14]: https://www.mozilla.org/en-US/security/advisorie
                         │      │                  │       s/mfsa2023-56/#CVE-2023-6135 
-                        │      │                  ╰ [10]: https://www.mozilla.org/security/advisories/mfsa
+                        │      │                  ╰ [15]: https://www.mozilla.org/security/advisories/mfsa
                         │      │                          2023-56/ 
                         │      ├ PublishedDate   : 2023-12-19T14:15:07.143Z 
                         │      ╰ LastModifiedDate: 2024-01-07T11:15:14.493Z 
@@ -1784,28 +1800,35 @@
                         │      │                   This vulnerability affects Firefox < 121. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-203 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
+                        │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ nvd        : 2 
+                        │      │                  ├ oracle-oval: 2 
+                        │      │                  ├ redhat     : 2 
+                        │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
                         │      │                  │        │           L/I:N/A:N 
                         │      │                  │        ╰ V3Score : 4.3 
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
                         │      │                           │           L/I:N/A:N 
                         │      │                           ╰ V3Score : 4.3 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-6135 
-                        │      │                  ├ [1] : https://bugzilla.mozilla.org/show_bug.cgi?id=1853908 
-                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0790 
+                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-6135 
+                        │      │                  ├ [2] : https://bugzilla.mozilla.org/show_bug.cgi?id=1853908 
+                        │      │                  ├ [3] : https://bugzilla.redhat.com/2249906 
+                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2023-6135 
-                        │      │                  ├ [3] : https://minerva.crocs.fi.muni.cz/ 
-                        │      │                  ├ [4] : https://nvd.nist.gov/vuln/detail/CVE-2023-6135 
-                        │      │                  ├ [5] : https://people.redhat.com/~hkario/marvin/ 
-                        │      │                  ├ [6] : https://security.gentoo.org/glsa/202401-10 
-                        │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-6562-1 
-                        │      │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2023-6135 
-                        │      │                  ├ [9] : https://www.mozilla.org/en-US/security/advisorie
+                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-0790.html 
+                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-6135.html 
+                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-0790.html 
+                        │      │                  ├ [8] : https://minerva.crocs.fi.muni.cz/ 
+                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-6135 
+                        │      │                  ├ [10]: https://people.redhat.com/~hkario/marvin/ 
+                        │      │                  ├ [11]: https://security.gentoo.org/glsa/202401-10 
+                        │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6562-1 
+                        │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2023-6135 
+                        │      │                  ├ [14]: https://www.mozilla.org/en-US/security/advisorie
                         │      │                  │       s/mfsa2023-56/#CVE-2023-6135 
-                        │      │                  ╰ [10]: https://www.mozilla.org/security/advisories/mfsa
+                        │      │                  ╰ [15]: https://www.mozilla.org/security/advisories/mfsa
                         │      │                          2023-56/ 
                         │      ├ PublishedDate   : 2023-12-19T14:15:07.143Z 
                         │      ╰ LastModifiedDate: 2024-01-07T11:15:14.493Z 
@@ -1869,28 +1892,35 @@
                         │      │                   This vulnerability affects Firefox < 121. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-203 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
+                        │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ nvd        : 2 
+                        │      │                  ├ oracle-oval: 2 
+                        │      │                  ├ redhat     : 2 
+                        │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
                         │      │                  │        │           L/I:N/A:N 
                         │      │                  │        ╰ V3Score : 4.3 
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
                         │      │                           │           L/I:N/A:N 
                         │      │                           ╰ V3Score : 4.3 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-6135 
-                        │      │                  ├ [1] : https://bugzilla.mozilla.org/show_bug.cgi?id=1853908 
-                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0790 
+                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-6135 
+                        │      │                  ├ [2] : https://bugzilla.mozilla.org/show_bug.cgi?id=1853908 
+                        │      │                  ├ [3] : https://bugzilla.redhat.com/2249906 
+                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2023-6135 
-                        │      │                  ├ [3] : https://minerva.crocs.fi.muni.cz/ 
-                        │      │                  ├ [4] : https://nvd.nist.gov/vuln/detail/CVE-2023-6135 
-                        │      │                  ├ [5] : https://people.redhat.com/~hkario/marvin/ 
-                        │      │                  ├ [6] : https://security.gentoo.org/glsa/202401-10 
-                        │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-6562-1 
-                        │      │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2023-6135 
-                        │      │                  ├ [9] : https://www.mozilla.org/en-US/security/advisorie
+                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-0790.html 
+                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-6135.html 
+                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-0790.html 
+                        │      │                  ├ [8] : https://minerva.crocs.fi.muni.cz/ 
+                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-6135 
+                        │      │                  ├ [10]: https://people.redhat.com/~hkario/marvin/ 
+                        │      │                  ├ [11]: https://security.gentoo.org/glsa/202401-10 
+                        │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6562-1 
+                        │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2023-6135 
+                        │      │                  ├ [14]: https://www.mozilla.org/en-US/security/advisorie
                         │      │                  │       s/mfsa2023-56/#CVE-2023-6135 
-                        │      │                  ╰ [10]: https://www.mozilla.org/security/advisories/mfsa
+                        │      │                  ╰ [15]: https://www.mozilla.org/security/advisories/mfsa
                         │      │                          2023-56/ 
                         │      ├ PublishedDate   : 2023-12-19T14:15:07.143Z 
                         │      ╰ LastModifiedDate: 2024-01-07T11:15:14.493Z 
@@ -1954,28 +1984,35 @@
                         │      │                   This vulnerability affects Firefox < 121. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-203 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
+                        │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ nvd        : 2 
+                        │      │                  ├ oracle-oval: 2 
+                        │      │                  ├ redhat     : 2 
+                        │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
                         │      │                  │        │           L/I:N/A:N 
                         │      │                  │        ╰ V3Score : 4.3 
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
                         │      │                           │           L/I:N/A:N 
                         │      │                           ╰ V3Score : 4.3 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-6135 
-                        │      │                  ├ [1] : https://bugzilla.mozilla.org/show_bug.cgi?id=1853908 
-                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0790 
+                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-6135 
+                        │      │                  ├ [2] : https://bugzilla.mozilla.org/show_bug.cgi?id=1853908 
+                        │      │                  ├ [3] : https://bugzilla.redhat.com/2249906 
+                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2023-6135 
-                        │      │                  ├ [3] : https://minerva.crocs.fi.muni.cz/ 
-                        │      │                  ├ [4] : https://nvd.nist.gov/vuln/detail/CVE-2023-6135 
-                        │      │                  ├ [5] : https://people.redhat.com/~hkario/marvin/ 
-                        │      │                  ├ [6] : https://security.gentoo.org/glsa/202401-10 
-                        │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-6562-1 
-                        │      │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2023-6135 
-                        │      │                  ├ [9] : https://www.mozilla.org/en-US/security/advisorie
+                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-0790.html 
+                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-6135.html 
+                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-0790.html 
+                        │      │                  ├ [8] : https://minerva.crocs.fi.muni.cz/ 
+                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-6135 
+                        │      │                  ├ [10]: https://people.redhat.com/~hkario/marvin/ 
+                        │      │                  ├ [11]: https://security.gentoo.org/glsa/202401-10 
+                        │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6562-1 
+                        │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2023-6135 
+                        │      │                  ├ [14]: https://www.mozilla.org/en-US/security/advisorie
                         │      │                  │       s/mfsa2023-56/#CVE-2023-6135 
-                        │      │                  ╰ [10]: https://www.mozilla.org/security/advisories/mfsa
+                        │      │                  ╰ [15]: https://www.mozilla.org/security/advisories/mfsa
                         │      │                          2023-56/ 
                         │      ├ PublishedDate   : 2023-12-19T14:15:07.143Z 
                         │      ╰ LastModifiedDate: 2024-01-07T11:15:14.493Z 
@@ -2039,28 +2076,35 @@
                         │      │                   This vulnerability affects Firefox < 121. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-203 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
+                        │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ nvd        : 2 
+                        │      │                  ├ oracle-oval: 2 
+                        │      │                  ├ redhat     : 2 
+                        │      │                  ╰ ubuntu     : 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
                         │      │                  │        │           L/I:N/A:N 
                         │      │                  │        ╰ V3Score : 4.3 
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
                         │      │                           │           L/I:N/A:N 
                         │      │                           ╰ V3Score : 4.3 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-6135 
-                        │      │                  ├ [1] : https://bugzilla.mozilla.org/show_bug.cgi?id=1853908 
-                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0790 
+                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-6135 
+                        │      │                  ├ [2] : https://bugzilla.mozilla.org/show_bug.cgi?id=1853908 
+                        │      │                  ├ [3] : https://bugzilla.redhat.com/2249906 
+                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2023-6135 
-                        │      │                  ├ [3] : https://minerva.crocs.fi.muni.cz/ 
-                        │      │                  ├ [4] : https://nvd.nist.gov/vuln/detail/CVE-2023-6135 
-                        │      │                  ├ [5] : https://people.redhat.com/~hkario/marvin/ 
-                        │      │                  ├ [6] : https://security.gentoo.org/glsa/202401-10 
-                        │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-6562-1 
-                        │      │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2023-6135 
-                        │      │                  ├ [9] : https://www.mozilla.org/en-US/security/advisorie
+                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-0790.html 
+                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-6135.html 
+                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-0790.html 
+                        │      │                  ├ [8] : https://minerva.crocs.fi.muni.cz/ 
+                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-6135 
+                        │      │                  ├ [10]: https://people.redhat.com/~hkario/marvin/ 
+                        │      │                  ├ [11]: https://security.gentoo.org/glsa/202401-10 
+                        │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-6562-1 
+                        │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2023-6135 
+                        │      │                  ├ [14]: https://www.mozilla.org/en-US/security/advisorie
                         │      │                  │       s/mfsa2023-56/#CVE-2023-6135 
-                        │      │                  ╰ [10]: https://www.mozilla.org/security/advisories/mfsa
+                        │      │                  ╰ [15]: https://www.mozilla.org/security/advisories/mfsa
                         │      │                          2023-56/ 
                         │      ├ PublishedDate   : 2023-12-19T14:15:07.143Z 
                         │      ╰ LastModifiedDate: 2024-01-07T11:15:14.493Z 
@@ -2588,8 +2632,9 @@
                         │      │                  ├ [14]: https://security.netapp.com/advisory/ntap-202311
                         │      │                  │       30-0010/ 
                         │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6622-1 
-                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2023-5678 
-                        │      │                  ╰ [17]: https://www.openssl.org/news/secadv/20231106.txt 
+                        │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6632-1 
+                        │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2023-5678 
+                        │      │                  ╰ [18]: https://www.openssl.org/news/secadv/20231106.txt 
                         │      ├ PublishedDate   : 2023-11-06T16:15:42.67Z 
                         │      ╰ LastModifiedDate: 2023-11-30T22:15:09.723Z 
                         ├ [45] ╭ VulnerabilityID : CVE-2023-6129 
@@ -2808,8 +2853,9 @@
                         │      │                  ├ [9] : https://security.netapp.com/advisory/ntap-202402
                         │      │                  │       08-0006/ 
                         │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6622-1 
-                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
-                        │      │                  ╰ [12]: https://www.openssl.org/news/secadv/20240125.txt 
+                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6632-1 
+                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
+                        │      │                  ╰ [13]: https://www.openssl.org/news/secadv/20240125.txt 
                         │      ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
                         │      ╰ LastModifiedDate: 2024-02-08T10:15:13.91Z 
                         ├ [48] ╭ VulnerabilityID : CVE-2023-2975 
@@ -3246,8 +3292,9 @@
                         │      │                  ├ [14]: https://security.netapp.com/advisory/ntap-202311
                         │      │                  │       30-0010/ 
                         │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6622-1 
-                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2023-5678 
-                        │      │                  ╰ [17]: https://www.openssl.org/news/secadv/20231106.txt 
+                        │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6632-1 
+                        │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2023-5678 
+                        │      │                  ╰ [18]: https://www.openssl.org/news/secadv/20231106.txt 
                         │      ├ PublishedDate   : 2023-11-06T16:15:42.67Z 
                         │      ╰ LastModifiedDate: 2023-11-30T22:15:09.723Z 
                         ├ [52] ╭ VulnerabilityID : CVE-2023-6129 
@@ -3466,8 +3513,9 @@
                         │      │                  ├ [9] : https://security.netapp.com/advisory/ntap-202402
                         │      │                  │       08-0006/ 
                         │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6622-1 
-                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
-                        │      │                  ╰ [12]: https://www.openssl.org/news/secadv/20240125.txt 
+                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6632-1 
+                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
+                        │      │                  ╰ [13]: https://www.openssl.org/news/secadv/20240125.txt 
                         │      ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
                         │      ╰ LastModifiedDate: 2024-02-08T10:15:13.91Z 
                         ├ [55] ╭ VulnerabilityID : CVE-2024-22365 
@@ -3491,10 +3539,14 @@
                         │      │                   O_DIRECTORY. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ VendorSeverity   ╭ amazon: 1 
+                        │      │                  ├ nvd   : 2 
                         │      │                  ├ photon: 2 
                         │      │                  ├ redhat: 2 
                         │      │                  ╰ ubuntu: 2 
-                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
+                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
+                        │      │                  │        │           N/I:N/A:H 
+                        │      │                  │        ╰ V3Score : 5.5 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
                         │      │                           ╰ V3Score : 5.5 
                         │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
@@ -3513,7 +3565,7 @@
                         │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024/
                         │      │                         01/18/3 
                         │      ├ PublishedDate   : 2024-02-06T08:15:52.203Z 
-                        │      ╰ LastModifiedDate: 2024-02-06T13:53:38.513Z 
+                        │      ╰ LastModifiedDate: 2024-02-14T00:27:40.143Z 
                         ├ [56] ╭ VulnerabilityID : CVE-2022-41409 
                         │      ├ PkgID           : pcre2@10.40-2.el9.x86_64 
                         │      ├ PkgName         : pcre2 
@@ -4572,12 +4624,14 @@
                         │      ├ PublishedDate   : 2024-01-16T14:15:48.327Z 
                         │      ╰ LastModifiedDate: 2024-02-07T21:14:08.527Z 
                         ├ [69] ╭ VulnerabilityID : CVE-2023-28486 
+                        │      ├ VendorIDs        ─ [0]: RHSA-2024:0811 
                         │      ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
                         │      ├ PkgName         : sudo 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/sudo@1.9.5p2-9.el9?arch=x86_64&di
                         │      │                          stro=redhat-9.3 
                         │      ├ InstalledVersion: 1.9.5p2-9.el9 
-                        │      ├ Status          : affected 
+                        │      ├ FixedVersion    : 1.9.5p2-10.el9_3 
+                        │      ├ Status          : fixed 
                         │      ├ Layer            ╭ Digest: sha256:95b2511137ef32f4e7b50a13a8e2c90f644e624
                         │      │                  │         466b7c9c3e1c706e99a35bbb8 
                         │      │                  ╰ DiffID: sha256:20314878142695fcdd93d471cc1a97120a95ebc
@@ -4590,9 +4644,11 @@
                         │      │                   in log messages. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
+                        │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
                         │      │                  ├ redhat     : 2 
                         │      │                  ╰ ubuntu     : 2 
@@ -4602,31 +4658,40 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           L/I:N/A:N 
                         │      │                           ╰ V3Score : 5.3 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-28486 
-                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0811 
+                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-28486 
+                        │      │                  ├ [2] : https://bugzilla.redhat.com/2179272 
+                        │      │                  ├ [3] : https://bugzilla.redhat.com/2179273 
+                        │      │                  ├ [4] : https://bugzilla.redhat.com/2255568 
+                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2023-28486 
-                        │      │                  ├ [2] : https://github.com/sudo-project/sudo/commit/334d
+                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2024-0811.html 
+                        │      │                  ├ [7] : https://github.com/sudo-project/sudo/commit/334d
                         │      │                  │       af92b31b79ce68ed75e2ee14fca265f029ca 
-                        │      │                  ├ [3] : https://github.com/sudo-project/sudo/releases/ta
+                        │      │                  ├ [8] : https://github.com/sudo-project/sudo/releases/ta
                         │      │                  │       g/SUDO_1_9_13 
-                        │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/202
+                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2023-28486.html 
+                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-0811.html 
+                        │      │                  ├ [11]: https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       4/02/msg00002.html 
-                        │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-28486 
-                        │      │                  ├ [6] : https://security.gentoo.org/glsa/202309-12 
-                        │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-202304
+                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-28486 
+                        │      │                  ├ [13]: https://security.gentoo.org/glsa/202309-12 
+                        │      │                  ├ [14]: https://security.netapp.com/advisory/ntap-202304
                         │      │                  │       20-0002/ 
-                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6005-1 
-                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6005-2 
-                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-28486 
+                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6005-1 
+                        │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6005-2 
+                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-28486 
                         │      ├ PublishedDate   : 2023-03-16T01:15:47.003Z 
                         │      ╰ LastModifiedDate: 2024-02-03T11:15:10.757Z 
                         ├ [70] ╭ VulnerabilityID : CVE-2023-28487 
+                        │      ├ VendorIDs        ─ [0]: RHSA-2024:0811 
                         │      ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
                         │      ├ PkgName         : sudo 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/sudo@1.9.5p2-9.el9?arch=x86_64&di
                         │      │                          stro=redhat-9.3 
                         │      ├ InstalledVersion: 1.9.5p2-9.el9 
-                        │      ├ Status          : affected 
+                        │      ├ FixedVersion    : 1.9.5p2-10.el9_3 
+                        │      ├ Status          : fixed 
                         │      ├ Layer            ╭ Digest: sha256:95b2511137ef32f4e7b50a13a8e2c90f644e624
                         │      │                  │         466b7c9c3e1c706e99a35bbb8 
                         │      │                  ╰ DiffID: sha256:20314878142695fcdd93d471cc1a97120a95ebc
@@ -4639,9 +4704,11 @@
                         │      │                   in sudoreplay output. 
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-116 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
+                        │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
                         │      │                  ├ redhat     : 2 
                         │      │                  ╰ ubuntu     : 2 
@@ -4651,31 +4718,40 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
                         │      │                           │           L/I:N/A:N 
                         │      │                           ╰ V3Score : 5.3 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-28487 
-                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0811 
+                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-28487 
+                        │      │                  ├ [2] : https://bugzilla.redhat.com/2179272 
+                        │      │                  ├ [3] : https://bugzilla.redhat.com/2179273 
+                        │      │                  ├ [4] : https://bugzilla.redhat.com/2255568 
+                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
                         │      │                  │       VE-2023-28487 
-                        │      │                  ├ [2] : https://github.com/sudo-project/sudo/commit/334d
+                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2024-0811.html 
+                        │      │                  ├ [7] : https://github.com/sudo-project/sudo/commit/334d
                         │      │                  │       af92b31b79ce68ed75e2ee14fca265f029ca 
-                        │      │                  ├ [3] : https://github.com/sudo-project/sudo/releases/ta
+                        │      │                  ├ [8] : https://github.com/sudo-project/sudo/releases/ta
                         │      │                  │       g/SUDO_1_9_13 
-                        │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/202
+                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2023-28487.html 
+                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-0811.html 
+                        │      │                  ├ [11]: https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       4/02/msg00002.html 
-                        │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-28487 
-                        │      │                  ├ [6] : https://security.gentoo.org/glsa/202309-12 
-                        │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-202304
+                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-28487 
+                        │      │                  ├ [13]: https://security.gentoo.org/glsa/202309-12 
+                        │      │                  ├ [14]: https://security.netapp.com/advisory/ntap-202304
                         │      │                  │       20-0002/ 
-                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6005-1 
-                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6005-2 
-                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-28487 
+                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6005-1 
+                        │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6005-2 
+                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-28487 
                         │      ├ PublishedDate   : 2023-03-16T01:15:47.067Z 
                         │      ╰ LastModifiedDate: 2024-02-03T11:15:14.343Z 
                         ├ [71] ╭ VulnerabilityID : CVE-2023-42465 
+                        │      ├ VendorIDs        ─ [0]: RHSA-2024:0811 
                         │      ├ PkgID           : sudo@1.9.5p2-9.el9.x86_64 
                         │      ├ PkgName         : sudo 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/sudo@1.9.5p2-9.el9?arch=x86_64&di
                         │      │                          stro=redhat-9.3 
                         │      ├ InstalledVersion: 1.9.5p2-9.el9 
-                        │      ├ Status          : affected 
+                        │      ├ FixedVersion    : 1.9.5p2-10.el9_3 
+                        │      ├ Status          : fixed 
                         │      ├ Layer            ╭ Digest: sha256:95b2511137ef32f4e7b50a13a8e2c90f644e624
                         │      │                  │         466b7c9c3e1c706e99a35bbb8 
                         │      │                  ╰ DiffID: sha256:20314878142695fcdd93d471cc1a97120a95ebc
@@ -4690,9 +4766,11 @@
                         │      │                   because the values do not resist flips of a single bit.[
                         │      │                   m 
                         │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 3 
                         │      │                  ├ nvd        : 3 
+                        │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 3 
                         │      │                  ╰ redhat     : 2 
                         │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:
@@ -4701,24 +4779,31 @@
                         │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:
                         │      │                           │           H/I:H/A:H 
                         │      │                           ╰ V3Score : 7 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-42465 
-                        │      │                  ├ [1] : https://arxiv.org/abs/2309.02545 
-                        │      │                  ├ [2] : https://arxiv.org/pdf/2309.02545.pdf 
-                        │      │                  ├ [3] : https://github.com/sudo-project/sudo/commit/7873
+                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0811 
+                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-42465 
+                        │      │                  ├ [2] : https://arxiv.org/abs/2309.02545 
+                        │      │                  ├ [3] : https://arxiv.org/pdf/2309.02545.pdf 
+                        │      │                  ├ [4] : https://bugzilla.redhat.com/2179272 
+                        │      │                  ├ [5] : https://bugzilla.redhat.com/2179273 
+                        │      │                  ├ [6] : https://bugzilla.redhat.com/2255568 
+                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-0811.html 
+                        │      │                  ├ [8] : https://github.com/sudo-project/sudo/commit/7873
                         │      │                  │       f8334c8d31031f8cfa83bd97ac6029309e4f 
-                        │      │                  ├ [4] : https://github.com/sudo-project/sudo/releases/ta
+                        │      │                  ├ [9] : https://github.com/sudo-project/sudo/releases/ta
                         │      │                  │       g/SUDO_1_9_15 
-                        │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/pa
+                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-42465.html 
+                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-0811.html 
+                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/pa
                         │      │                  │       ckage-announce%40lists.fedoraproject.org/message/U6XM
                         │      │                  │       RUJCPII4MPWG43HTYR76DGLEYEFZ/ 
-                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-42465 
-                        │      │                  ├ [7] : https://security.gentoo.org/glsa/202401-29 
-                        │      │                  ├ [8] : https://security.netapp.com/advisory/ntap-202402
+                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-42465 
+                        │      │                  ├ [14]: https://security.gentoo.org/glsa/202401-29 
+                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-202402
                         │      │                  │       08-0002/ 
-                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-42465 
-                        │      │                  ├ [10]: https://www.openwall.com/lists/oss-security/2023
+                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2023-42465 
+                        │      │                  ├ [17]: https://www.openwall.com/lists/oss-security/2023
                         │      │                  │       /12/21/9 
-                        │      │                  ╰ [11]: https://www.sudo.ws/releases/changelog/ 
+                        │      │                  ╰ [18]: https://www.sudo.ws/releases/changelog/ 
                         │      ├ PublishedDate   : 2023-12-22T16:15:08.057Z 
                         │      ╰ LastModifiedDate: 2024-02-08T10:15:09.24Z 
                         ├ [72] ╭ VulnerabilityID : CVE-2021-3997 
