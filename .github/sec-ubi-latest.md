@@ -642,8 +642,9 @@
                         │      │                  ├ [8] : https://security.netapp.com/advisory/ntap-202401
                         │      │                  │       25-0007/ 
                         │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6535-1 
-                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
-                        │      │                  ╰ [11]: https://www.debian.org/security/2023/dsa-5587 
+                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6641-1 
+                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
+                        │      │                  ╰ [12]: https://www.debian.org/security/2023/dsa-5587 
                         │      ├ PublishedDate   : 2023-12-07T01:15:07.16Z 
                         │      ╰ LastModifiedDate: 2024-01-25T14:15:26.117Z 
                         ├ [10] ╭ VulnerabilityID : CVE-2022-48554 
@@ -998,6 +999,7 @@
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-347 
                         │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ nvd        : 3 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
@@ -1142,8 +1144,9 @@
                         │      │                  ├ [8] : https://security.netapp.com/advisory/ntap-202401
                         │      │                  │       25-0007/ 
                         │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6535-1 
-                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
-                        │      │                  ╰ [11]: https://www.debian.org/security/2023/dsa-5587 
+                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6641-1 
+                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2023-46218 
+                        │      │                  ╰ [12]: https://www.debian.org/security/2023/dsa-5587 
                         │      ├ PublishedDate   : 2023-12-07T01:15:07.16Z 
                         │      ╰ LastModifiedDate: 2024-01-25T14:15:26.117Z 
                         ├ [19] ╭ VulnerabilityID : CVE-2022-27943 
@@ -1617,6 +1620,7 @@
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-203 
                         │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ redhat     : 2 
@@ -1709,6 +1713,7 @@
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-203 
                         │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ redhat     : 2 
@@ -1801,6 +1806,7 @@
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-203 
                         │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ redhat     : 2 
@@ -1893,6 +1899,7 @@
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-203 
                         │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ redhat     : 2 
@@ -1985,6 +1992,7 @@
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-203 
                         │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ redhat     : 2 
@@ -2077,6 +2085,7 @@
                         │      ├ Severity        : MEDIUM 
                         │      ├ CweIDs           ─ [0]: CWE-203 
                         │      ├ VendorSeverity   ╭ alma       : 2 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ redhat     : 2 
@@ -2763,7 +2772,8 @@
                         │      │                    and supplies an RSA key obtained from an untrusted source
                         │      │                   could be vulnerable to a Denial of Service attack. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ redhat: 1 
+                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      │                  ├ redhat: 1 
                         │      │                  ╰ ubuntu: 1 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
@@ -2825,7 +2835,8 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ ghsa  : 2 
+                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      │                  ├ ghsa  : 2 
                         │      │                  ├ nvd   : 2 
                         │      │                  ├ photon: 2 
                         │      │                  ├ redhat: 1 
@@ -3436,7 +3447,8 @@
                         │      │                    and supplies an RSA key obtained from an untrusted source
                         │      │                   could be vulnerable to a Denial of Service attack. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ redhat: 1 
+                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      │                  ├ redhat: 1 
                         │      │                  ╰ ubuntu: 1 
                         │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
                         │      │                           │           N/I:N/A:H 
@@ -3498,7 +3510,8 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ ghsa  : 2 
+                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      │                  ├ ghsa  : 2 
                         │      │                  ├ nvd   : 2 
                         │      │                  ├ photon: 2 
                         │      │                  ├ redhat: 1 
