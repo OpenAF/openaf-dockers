@@ -1,5 +1,196 @@
 ````yaml
-─ [0] ╭ Target: openaf/ojobrt:8-nightly (alpine 3.19.1) 
-      ├ Class : os-pkgs 
-      ╰ Type  : alpine 
+╭ [0] ╭ Target: openaf/ojobrt:8-nightly (alpine 3.19.1) 
+│     ├ Class : os-pkgs 
+│     ╰ Type  : alpine 
+╰ [1] ╭ Target         : Java 
+      ├ Class          : lang-pkgs 
+      ├ Type           : jar 
+      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-25710 
+                        │     ├ PkgName         : org.apache.commons:commons-compress 
+                        │     ├ PkgPath         : openaf/S3/commons-compress-1.24.0.jar 
+                        │     ├ PkgIdentifier    ─ PURL: pkg:maven/org.apache.commons/commons-compress@1.24.0 
+                        │     ├ InstalledVersion: 1.24.0 
+                        │     ├ FixedVersion    : 1.26.0 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:29883aa2a9d8d40b9ae862cc2dded009bdc2636d
+                        │     │                  │         4e3b3676b20a71dccea28b3e 
+                        │     │                  ╰ DiffID: sha256:981e2c952ca0bf76963aa368657cab452c4fb3db
+                        │     │                            95c9743f6468e3ebabf60b13 
+                        │     ├ SeveritySource  : ghsa 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-25710 
+                        │     ├ DataSource       ╭ ID  : ghsa 
+                        │     │                  ├ Name: GitHub Security Advisory Maven 
+                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areview
+                        │     │                          ed+ecosystem%3Amaven 
+                        │     ├ Title           : commons-compress: Denial of service caused by an
+                        │     │                   infinite loop for a corrupted DUMP file 
+                        │     ├ Description     : Loop with Unreachable Exit Condition ('Infinite Loop')
+                        │     │                   vulnerability in Apache Commons Compress.This issue affects
+                        │     │                   Apache Commons Compress: from 1.3 through 1.25.0.
+                        │     │                   
+                        │     │                   Users are recommended to upgrade to version 1.26.0 which
+                        │     │                   fixes the issue.
+                        │     │                   
+                        │     │                    
+                        │     ├ Severity        : HIGH 
+                        │     ├ CweIDs           ─ [0]: CWE-835 
+                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+                        │     │                  ╰ redhat: 3 
+                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H
+                        │     │                  │        │           /I:H/A:H 
+                        │     │                  │        ╰ V3Score : 8.1 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H
+                        │     │                           │           /I:H/A:H 
+                        │     │                           ╰ V3Score : 8.1 
+                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/02/19/1 
+                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-25710 
+                        │     │                  ├ [2]: https://github.com/apache/commons-compress 
+                        │     │                  ├ [3]: https://lists.apache.org/thread/cz8qkcwphy4cx8gltn
+                        │     │                  │      932ln51cbtq6kf 
+                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-25710 
+                        │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-25710 
+                        │     ├ PublishedDate   : 2024-02-19T09:15:37.943Z 
+                        │     ╰ LastModifiedDate: 2024-02-20T19:50:53.96Z 
+                        ├ [1] ╭ VulnerabilityID : CVE-2024-26308 
+                        │     ├ PkgName         : org.apache.commons:commons-compress 
+                        │     ├ PkgPath         : openaf/S3/commons-compress-1.24.0.jar 
+                        │     ├ PkgIdentifier    ─ PURL: pkg:maven/org.apache.commons/commons-compress@1.24.0 
+                        │     ├ InstalledVersion: 1.24.0 
+                        │     ├ FixedVersion    : 1.26.0 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:29883aa2a9d8d40b9ae862cc2dded009bdc2636d
+                        │     │                  │         4e3b3676b20a71dccea28b3e 
+                        │     │                  ╰ DiffID: sha256:981e2c952ca0bf76963aa368657cab452c4fb3db
+                        │     │                            95c9743f6468e3ebabf60b13 
+                        │     ├ SeveritySource  : ghsa 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26308 
+                        │     ├ DataSource       ╭ ID  : ghsa 
+                        │     │                  ├ Name: GitHub Security Advisory Maven 
+                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areview
+                        │     │                          ed+ecosystem%3Amaven 
+                        │     ├ Title           : commons-compress: OutOfMemoryError unpacking broken
+                        │     │                   Pack200 file 
+                        │     ├ Description     : Allocation of Resources Without Limits or Throttling
+                        │     │                   vulnerability in Apache Commons Compress.This issue affects
+                        │     │                   Apache Commons Compress: from 1.21 before 1.26.
+                        │     │                   
+                        │     │                   Users are recommended to upgrade to version 1.26, which fixes
+                        │     │                    the issue.
+                        │     │                   
+                        │     │                    
+                        │     ├ Severity        : HIGH 
+                        │     ├ CweIDs           ─ [0]: CWE-770 
+                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+                        │     │                  ╰ redhat: 2 
+                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                        │     │                  │        │           /I:N/A:H 
+                        │     │                  │        ╰ V3Score : 7.5 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
+                        │     │                           │           /I:N/A:H 
+                        │     │                           ╰ V3Score : 5.9 
+                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/02/19/2 
+                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-26308 
+                        │     │                  ├ [2]: https://github.com/apache/commons-compress 
+                        │     │                  ├ [3]: https://lists.apache.org/thread/ch5yo2d21p7vlqrhll
+                        │     │                  │      9b17otbyq4npfg 
+                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-26308 
+                        │     │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26308 
+                        │     │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2024/0
+                        │     │                         2/19/2 
+                        │     ├ PublishedDate   : 2024-02-19T09:15:38.277Z 
+                        │     ╰ LastModifiedDate: 2024-02-20T19:50:53.96Z 
+                        ├ [2] ╭ VulnerabilityID : CVE-2024-25710 
+                        │     ├ PkgName         : org.apache.commons:commons-compress 
+                        │     ├ PkgPath         : openaf/openaf.jar 
+                        │     ├ PkgIdentifier    ─ PURL: pkg:maven/org.apache.commons/commons-compress@1.25.0 
+                        │     ├ InstalledVersion: 1.25.0 
+                        │     ├ FixedVersion    : 1.26.0 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:50461508a5eee01873c5db0ea6c4113bfaffd8e6
+                        │     │                  │         1566680dd79c966a9b570650 
+                        │     │                  ╰ DiffID: sha256:a966f315efc792c599b0c86b051ecb342b4d7c3f
+                        │     │                            5d4c7932d032e6290d50ad08 
+                        │     ├ SeveritySource  : ghsa 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-25710 
+                        │     ├ DataSource       ╭ ID  : ghsa 
+                        │     │                  ├ Name: GitHub Security Advisory Maven 
+                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areview
+                        │     │                          ed+ecosystem%3Amaven 
+                        │     ├ Title           : commons-compress: Denial of service caused by an
+                        │     │                   infinite loop for a corrupted DUMP file 
+                        │     ├ Description     : Loop with Unreachable Exit Condition ('Infinite Loop')
+                        │     │                   vulnerability in Apache Commons Compress.This issue affects
+                        │     │                   Apache Commons Compress: from 1.3 through 1.25.0.
+                        │     │                   
+                        │     │                   Users are recommended to upgrade to version 1.26.0 which
+                        │     │                   fixes the issue.
+                        │     │                   
+                        │     │                    
+                        │     ├ Severity        : HIGH 
+                        │     ├ CweIDs           ─ [0]: CWE-835 
+                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+                        │     │                  ╰ redhat: 3 
+                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H
+                        │     │                  │        │           /I:H/A:H 
+                        │     │                  │        ╰ V3Score : 8.1 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H
+                        │     │                           │           /I:H/A:H 
+                        │     │                           ╰ V3Score : 8.1 
+                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/02/19/1 
+                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-25710 
+                        │     │                  ├ [2]: https://github.com/apache/commons-compress 
+                        │     │                  ├ [3]: https://lists.apache.org/thread/cz8qkcwphy4cx8gltn
+                        │     │                  │      932ln51cbtq6kf 
+                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-25710 
+                        │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-25710 
+                        │     ├ PublishedDate   : 2024-02-19T09:15:37.943Z 
+                        │     ╰ LastModifiedDate: 2024-02-20T19:50:53.96Z 
+                        ╰ [3] ╭ VulnerabilityID : CVE-2024-26308 
+                              ├ PkgName         : org.apache.commons:commons-compress 
+                              ├ PkgPath         : openaf/openaf.jar 
+                              ├ PkgIdentifier    ─ PURL: pkg:maven/org.apache.commons/commons-compress@1.25.0 
+                              ├ InstalledVersion: 1.25.0 
+                              ├ FixedVersion    : 1.26.0 
+                              ├ Status          : fixed 
+                              ├ Layer            ╭ Digest: sha256:50461508a5eee01873c5db0ea6c4113bfaffd8e6
+                              │                  │         1566680dd79c966a9b570650 
+                              │                  ╰ DiffID: sha256:a966f315efc792c599b0c86b051ecb342b4d7c3f
+                              │                            5d4c7932d032e6290d50ad08 
+                              ├ SeveritySource  : ghsa 
+                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26308 
+                              ├ DataSource       ╭ ID  : ghsa 
+                              │                  ├ Name: GitHub Security Advisory Maven 
+                              │                  ╰ URL : https://github.com/advisories?query=type%3Areview
+                              │                          ed+ecosystem%3Amaven 
+                              ├ Title           : commons-compress: OutOfMemoryError unpacking broken
+                              │                   Pack200 file 
+                              ├ Description     : Allocation of Resources Without Limits or Throttling
+                              │                   vulnerability in Apache Commons Compress.This issue affects
+                              │                   Apache Commons Compress: from 1.21 before 1.26.
+                              │                   
+                              │                   Users are recommended to upgrade to version 1.26, which fixes
+                              │                    the issue.
+                              │                   
+                              │                    
+                              ├ Severity        : HIGH 
+                              ├ CweIDs           ─ [0]: CWE-770 
+                              ├ VendorSeverity   ╭ ghsa  : 3 
+                              │                  ╰ redhat: 2 
+                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                              │                  │        │           /I:N/A:H 
+                              │                  │        ╰ V3Score : 7.5 
+                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
+                              │                           │           /I:N/A:H 
+                              │                           ╰ V3Score : 5.9 
+                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/02/19/2 
+                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-26308 
+                              │                  ├ [2]: https://github.com/apache/commons-compress 
+                              │                  ├ [3]: https://lists.apache.org/thread/ch5yo2d21p7vlqrhll
+                              │                  │      9b17otbyq4npfg 
+                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-26308 
+                              │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26308 
+                              │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2024/0
+                              │                         2/19/2 
+                              ├ PublishedDate   : 2024-02-19T09:15:38.277Z 
+                              ╰ LastModifiedDate: 2024-02-20T19:50:53.96Z 
 ````

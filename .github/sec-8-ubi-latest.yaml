@@ -400,11 +400,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 9.1
     References:
-    - https://access.redhat.com/errata/RHSA-2023:7753
+    - https://access.redhat.com/errata/RHSA-2024:0133
     - https://access.redhat.com/security/cve/CVE-2023-37920
     - https://bugzilla.redhat.com/2226586
     - https://bugzilla.redhat.com/2242493
-    - https://errata.almalinux.org/9/ALSA-2023-7753.html
+    - https://errata.almalinux.org/8/ALSA-2024-0133.html
     - https://github.com/certifi/python-certifi
     - https://github.com/certifi/python-certifi/commit/8fb96ed81f71e7097ed11bc4d9b19afd7ea5c909
     - https://github.com/certifi/python-certifi/security/advisories/GHSA-xqr8-7jwr-rhp7
@@ -773,11 +773,9 @@
     - https://access.redhat.com/errata/RHSA-2024:0533
     - https://access.redhat.com/security/cve/CVE-2023-5981
     - https://bugzilla.redhat.com/2248445
-    - https://bugzilla.redhat.com/2258412
-    - https://bugzilla.redhat.com/2258544
     - https://bugzilla.redhat.com/show_bug.cgi?id=2248445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5981
-    - https://errata.almalinux.org/9/ALSA-2024-0533.html
+    - https://errata.almalinux.org/8/ALSA-2024-0155.html
     - https://errata.rockylinux.org/RLSA-2024:0155
     - https://gnutls.org/security-new.html#GNUTLS-SA-2023-10-23
     - https://linux.oracle.com/cve/CVE-2023-5981.html
@@ -832,12 +830,10 @@
     - https://access.redhat.com/errata/RHSA-2024:0627
     - https://access.redhat.com/errata/RHSA-2024:0796
     - https://access.redhat.com/security/cve/CVE-2024-0553
-    - https://bugzilla.redhat.com/2248445
     - https://bugzilla.redhat.com/2258412
-    - https://bugzilla.redhat.com/2258544
     - https://bugzilla.redhat.com/show_bug.cgi?id=2258412
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0553
-    - https://errata.almalinux.org/9/ALSA-2024-0533.html
+    - https://errata.almalinux.org/8/ALSA-2024-0627.html
     - https://errata.rockylinux.org/RLSA-2024:0627
     - https://gitlab.com/gnutls/gnutls/-/issues/1522
     - https://gnutls.org/security-new.html#GNUTLS-SA-2024-01-14
@@ -943,18 +939,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4177
+    - https://access.redhat.com/errata/RHSA-2023:4175
     - https://access.redhat.com/security/cve/CVE-2023-25193
     - https://bugzilla.redhat.com/2167254
     - https://bugzilla.redhat.com/2221626
     - https://bugzilla.redhat.com/2221634
-    - https://bugzilla.redhat.com/2221642
     - https://bugzilla.redhat.com/2221645
     - https://bugzilla.redhat.com/2221647
     - https://bugzilla.redhat.com/2223207
     - https://chromium.googlesource.com/chromium/src/+/e1f324aa681af54101c1f2d173d92adb80e37088/DEPS#361
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25193
-    - https://errata.almalinux.org/9/ALSA-2023-4177.html
+    - https://errata.almalinux.org/8/ALSA-2023-4175.html
     - https://github.com/harfbuzz/harfbuzz/blob/2822b589bc837fae6f66233e2cf2eef0f6ce8470/src/hb-ot-layout-gsubgpos.hh
     - https://github.com/harfbuzz/harfbuzz/commit/85be877925ddbf34f74a1229f3ca1716bb6170dc
     - https://github.com/harfbuzz/harfbuzz/commit/85be877925ddbf34f74a1229f3ca1716bb6170dc (reverted)
@@ -1564,12 +1559,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0790
+    - https://access.redhat.com/errata/RHSA-2024:0786
     - https://access.redhat.com/security/cve/CVE-2023-6135
     - https://bugzilla.mozilla.org/show_bug.cgi?id=1853908
     - https://bugzilla.redhat.com/2249906
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6135
-    - https://errata.almalinux.org/9/ALSA-2024-0790.html
+    - https://errata.almalinux.org/8/ALSA-2024-0786.html
     - https://linux.oracle.com/cve/CVE-2023-6135.html
     - https://linux.oracle.com/errata/ELSA-2024-0790.html
     - https://minerva.crocs.fi.muni.cz/
@@ -1653,12 +1648,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0790
+    - https://access.redhat.com/errata/RHSA-2024:0786
     - https://access.redhat.com/security/cve/CVE-2023-6135
     - https://bugzilla.mozilla.org/show_bug.cgi?id=1853908
     - https://bugzilla.redhat.com/2249906
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6135
-    - https://errata.almalinux.org/9/ALSA-2024-0790.html
+    - https://errata.almalinux.org/8/ALSA-2024-0786.html
     - https://linux.oracle.com/cve/CVE-2023-6135.html
     - https://linux.oracle.com/errata/ELSA-2024-0790.html
     - https://minerva.crocs.fi.muni.cz/
@@ -1742,12 +1737,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0790
+    - https://access.redhat.com/errata/RHSA-2024:0786
     - https://access.redhat.com/security/cve/CVE-2023-6135
     - https://bugzilla.mozilla.org/show_bug.cgi?id=1853908
     - https://bugzilla.redhat.com/2249906
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6135
-    - https://errata.almalinux.org/9/ALSA-2024-0790.html
+    - https://errata.almalinux.org/8/ALSA-2024-0786.html
     - https://linux.oracle.com/cve/CVE-2023-6135.html
     - https://linux.oracle.com/errata/ELSA-2024-0790.html
     - https://minerva.crocs.fi.muni.cz/
@@ -1831,12 +1826,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0790
+    - https://access.redhat.com/errata/RHSA-2024:0786
     - https://access.redhat.com/security/cve/CVE-2023-6135
     - https://bugzilla.mozilla.org/show_bug.cgi?id=1853908
     - https://bugzilla.redhat.com/2249906
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6135
-    - https://errata.almalinux.org/9/ALSA-2024-0790.html
+    - https://errata.almalinux.org/8/ALSA-2024-0786.html
     - https://linux.oracle.com/cve/CVE-2023-6135.html
     - https://linux.oracle.com/errata/ELSA-2024-0790.html
     - https://minerva.crocs.fi.muni.cz/
@@ -1920,12 +1915,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0790
+    - https://access.redhat.com/errata/RHSA-2024:0786
     - https://access.redhat.com/security/cve/CVE-2023-6135
     - https://bugzilla.mozilla.org/show_bug.cgi?id=1853908
     - https://bugzilla.redhat.com/2249906
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6135
-    - https://errata.almalinux.org/9/ALSA-2024-0790.html
+    - https://errata.almalinux.org/8/ALSA-2024-0786.html
     - https://linux.oracle.com/cve/CVE-2023-6135.html
     - https://linux.oracle.com/errata/ELSA-2024-0790.html
     - https://minerva.crocs.fi.muni.cz/
@@ -2009,12 +2004,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N
         V3Score: 4.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0790
+    - https://access.redhat.com/errata/RHSA-2024:0786
     - https://access.redhat.com/security/cve/CVE-2023-6135
     - https://bugzilla.mozilla.org/show_bug.cgi?id=1853908
     - https://bugzilla.redhat.com/2249906
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6135
-    - https://errata.almalinux.org/9/ALSA-2024-0790.html
+    - https://errata.almalinux.org/8/ALSA-2024-0786.html
     - https://linux.oracle.com/cve/CVE-2023-6135.html
     - https://linux.oracle.com/errata/ELSA-2024-0790.html
     - https://minerva.crocs.fi.muni.cz/
@@ -3953,7 +3948,7 @@
     - CWE-116
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -4010,7 +4005,7 @@
     - CWE-116
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -4249,3 +4244,98 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39804
     - https://ubuntu.com/security/notices/USN-6543-1
     - https://www.cve.org/CVERecord?id=CVE-2023-39804
+- Target: Java
+  Class: lang-pkgs
+  Type: jar
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2024-25710
+    PkgName: org.apache.commons:commons-compress
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/org.apache.commons/commons-compress@1.25.0
+    InstalledVersion: 1.25.0
+    FixedVersion: 1.26.0
+    Status: fixed
+    Layer:
+      Digest: sha256:abad931c50e5e687a3f8a51fca01310c067e94a550b2054679b3909297ce5b98
+      DiffID: sha256:c87dda8a77b3c06dd67bc9e327e53649c35290a00d5a7b7d0fe8361b2354be85
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-25710
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Title: 'commons-compress: Denial of service caused by an infinite loop for a corrupted DUMP file'
+    Description: |+
+      Loop with Unreachable Exit Condition ('Infinite Loop') vulnerability in Apache Commons Compress.This issue affects Apache Commons Compress: from 1.3 through 1.25.0.
+
+      Users are recommended to upgrade to version 1.26.0 which fixes the issue.
+
+    Severity: HIGH
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      ghsa: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 8.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 8.1
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/02/19/1
+    - https://access.redhat.com/security/cve/CVE-2024-25710
+    - https://github.com/apache/commons-compress
+    - https://lists.apache.org/thread/cz8qkcwphy4cx8gltn932ln51cbtq6kf
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-25710
+    - https://www.cve.org/CVERecord?id=CVE-2024-25710
+    PublishedDate: '2024-02-19T09:15:37.943Z'
+    LastModifiedDate: '2024-02-20T19:50:53.96Z'
+  - VulnerabilityID: CVE-2024-26308
+    PkgName: org.apache.commons:commons-compress
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/org.apache.commons/commons-compress@1.25.0
+    InstalledVersion: 1.25.0
+    FixedVersion: 1.26.0
+    Status: fixed
+    Layer:
+      Digest: sha256:abad931c50e5e687a3f8a51fca01310c067e94a550b2054679b3909297ce5b98
+      DiffID: sha256:c87dda8a77b3c06dd67bc9e327e53649c35290a00d5a7b7d0fe8361b2354be85
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26308
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Title: 'commons-compress: OutOfMemoryError unpacking broken Pack200 file'
+    Description: |+
+      Allocation of Resources Without Limits or Throttling vulnerability in Apache Commons Compress.This issue affects Apache Commons Compress: from 1.21 before 1.26.
+
+      Users are recommended to upgrade to version 1.26, which fixes the issue.
+
+    Severity: HIGH
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      ghsa: 3
+      redhat: 2
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/02/19/2
+    - https://access.redhat.com/security/cve/CVE-2024-26308
+    - https://github.com/apache/commons-compress
+    - https://lists.apache.org/thread/ch5yo2d21p7vlqrhll9b17otbyq4npfg
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-26308
+    - https://www.cve.org/CVERecord?id=CVE-2024-26308
+    - https://www.openwall.com/lists/oss-security/2024/02/19/2
+    PublishedDate: '2024-02-19T09:15:38.277Z'
+    LastModifiedDate: '2024-02-20T19:50:53.96Z'
