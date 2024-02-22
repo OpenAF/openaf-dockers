@@ -36,13 +36,13 @@
 │                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H
 │                             │                           │           /I:N/A:N 
 │                             │                           ╰ V3Score : 6.5 
-│                             ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0108 
+│                             ╰ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0105 
 │                                                ├ [1] : https://access.redhat.com/security/cve/CVE-2023-5388 
 │                                                ├ [2] : https://bugzilla.redhat.com/2243644 
 │                                                ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2243644 
 │                                                ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                                                │       E-2023-5388 
-│                                                ├ [5] : https://errata.almalinux.org/9/ALSA-2024-0108.html 
+│                                                ├ [5] : https://errata.almalinux.org/8/ALSA-2024-0105.html 
 │                                                ├ [6] : https://errata.rockylinux.org/RLSA-2024:0105 
 │                                                ├ [7] : https://linux.oracle.com/cve/CVE-2023-5388.html 
 │                                                ├ [8] : https://linux.oracle.com/errata/ELSA-2024-0108.html 
