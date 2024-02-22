@@ -33,12 +33,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0108
+    - https://access.redhat.com/errata/RHSA-2024:0105
     - https://access.redhat.com/security/cve/CVE-2023-5388
     - https://bugzilla.redhat.com/2243644
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243644
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5388
-    - https://errata.almalinux.org/9/ALSA-2024-0108.html
+    - https://errata.almalinux.org/8/ALSA-2024-0105.html
     - https://errata.rockylinux.org/RLSA-2024:0105
     - https://linux.oracle.com/cve/CVE-2023-5388.html
     - https://linux.oracle.com/errata/ELSA-2024-0108.html
