@@ -926,6 +926,7 @@
     - CWE-416
     VendorSeverity:
       nvd: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
