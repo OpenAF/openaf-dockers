@@ -12,10 +12,10 @@
                         │     ├ InstalledVersion: 1.24.0 
                         │     ├ FixedVersion    : 1.26.0 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:29883aa2a9d8d40b9ae862cc2dded009bdc2636d
-                        │     │                  │         4e3b3676b20a71dccea28b3e 
-                        │     │                  ╰ DiffID: sha256:981e2c952ca0bf76963aa368657cab452c4fb3db
-                        │     │                            95c9743f6468e3ebabf60b13 
+                        │     ├ Layer            ╭ Digest: sha256:2852f4022e828023febef9735538340b66323c60
+                        │     │                  │         ac0ee969ccd74caf512e88de 
+                        │     │                  ╰ DiffID: sha256:834412f4da0f382bb355d48387dfcf83e65b85f4
+                        │     │                            8a2994f7a1a28bd73c38e20d 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-25710 
                         │     ├ DataSource       ╭ ID  : ghsa 
@@ -35,10 +35,14 @@
                         │     ├ Severity        : HIGH 
                         │     ├ CweIDs           ─ [0]: CWE-835 
                         │     ├ VendorSeverity   ╭ ghsa  : 3 
+                        │     │                  ├ nvd   : 2 
                         │     │                  ╰ redhat: 3 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H
                         │     │                  │        │           /I:H/A:H 
                         │     │                  │        ╰ V3Score : 8.1 
+                        │     │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
+                        │     │                  │        │           /I:N/A:H 
+                        │     │                  │        ╰ V3Score : 5.5 
                         │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H
                         │     │                           │           /I:H/A:H 
                         │     │                           ╰ V3Score : 8.1 
@@ -50,7 +54,7 @@
                         │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-25710 
                         │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-25710 
                         │     ├ PublishedDate   : 2024-02-19T09:15:37.943Z 
-                        │     ╰ LastModifiedDate: 2024-02-20T19:50:53.96Z 
+                        │     ╰ LastModifiedDate: 2024-02-22T15:24:45.24Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2024-26308 
                         │     ├ PkgName         : org.apache.commons:commons-compress 
                         │     ├ PkgPath         : openaf/S3/commons-compress-1.24.0.jar 
@@ -58,10 +62,10 @@
                         │     ├ InstalledVersion: 1.24.0 
                         │     ├ FixedVersion    : 1.26.0 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:29883aa2a9d8d40b9ae862cc2dded009bdc2636d
-                        │     │                  │         4e3b3676b20a71dccea28b3e 
-                        │     │                  ╰ DiffID: sha256:981e2c952ca0bf76963aa368657cab452c4fb3db
-                        │     │                            95c9743f6468e3ebabf60b13 
+                        │     ├ Layer            ╭ Digest: sha256:2852f4022e828023febef9735538340b66323c60
+                        │     │                  │         ac0ee969ccd74caf512e88de 
+                        │     │                  ╰ DiffID: sha256:834412f4da0f382bb355d48387dfcf83e65b85f4
+                        │     │                            8a2994f7a1a28bd73c38e20d 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26308 
                         │     ├ DataSource       ╭ ID  : ghsa 
@@ -81,10 +85,14 @@
                         │     ├ Severity        : HIGH 
                         │     ├ CweIDs           ─ [0]: CWE-770 
                         │     ├ VendorSeverity   ╭ ghsa  : 3 
+                        │     │                  ├ nvd   : 2 
                         │     │                  ╰ redhat: 2 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
                         │     │                  │        │           /I:N/A:H 
                         │     │                  │        ╰ V3Score : 7.5 
+                        │     │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
+                        │     │                  │        │           /I:N/A:H 
+                        │     │                  │        ╰ V3Score : 5.5 
                         │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
                         │     │                           │           /I:N/A:H 
                         │     │                           ╰ V3Score : 5.9 
@@ -98,7 +106,7 @@
                         │     │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2024/0
                         │     │                         2/19/2 
                         │     ├ PublishedDate   : 2024-02-19T09:15:38.277Z 
-                        │     ╰ LastModifiedDate: 2024-02-20T19:50:53.96Z 
+                        │     ╰ LastModifiedDate: 2024-02-22T15:21:36.213Z 
                         ├ [2] ╭ VulnerabilityID : CVE-2024-25710 
                         │     ├ PkgName         : org.apache.commons:commons-compress 
                         │     ├ PkgPath         : openaf/openaf.jar 
@@ -106,10 +114,10 @@
                         │     ├ InstalledVersion: 1.25.0 
                         │     ├ FixedVersion    : 1.26.0 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:50461508a5eee01873c5db0ea6c4113bfaffd8e6
-                        │     │                  │         1566680dd79c966a9b570650 
-                        │     │                  ╰ DiffID: sha256:a966f315efc792c599b0c86b051ecb342b4d7c3f
-                        │     │                            5d4c7932d032e6290d50ad08 
+                        │     ├ Layer            ╭ Digest: sha256:0c28303fb4bc2feef10deb75f233c374f3bff7f6
+                        │     │                  │         bbb9815826cb5c379b2856b5 
+                        │     │                  ╰ DiffID: sha256:8d070531ab2f51dc19611c875640c45e47cca3be
+                        │     │                            9f4f8c5cc8c524a54d28d973 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-25710 
                         │     ├ DataSource       ╭ ID  : ghsa 
@@ -129,10 +137,14 @@
                         │     ├ Severity        : HIGH 
                         │     ├ CweIDs           ─ [0]: CWE-835 
                         │     ├ VendorSeverity   ╭ ghsa  : 3 
+                        │     │                  ├ nvd   : 2 
                         │     │                  ╰ redhat: 3 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H
                         │     │                  │        │           /I:H/A:H 
                         │     │                  │        ╰ V3Score : 8.1 
+                        │     │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
+                        │     │                  │        │           /I:N/A:H 
+                        │     │                  │        ╰ V3Score : 5.5 
                         │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H
                         │     │                           │           /I:H/A:H 
                         │     │                           ╰ V3Score : 8.1 
@@ -144,7 +156,7 @@
                         │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-25710 
                         │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-25710 
                         │     ├ PublishedDate   : 2024-02-19T09:15:37.943Z 
-                        │     ╰ LastModifiedDate: 2024-02-20T19:50:53.96Z 
+                        │     ╰ LastModifiedDate: 2024-02-22T15:24:45.24Z 
                         ╰ [3] ╭ VulnerabilityID : CVE-2024-26308 
                               ├ PkgName         : org.apache.commons:commons-compress 
                               ├ PkgPath         : openaf/openaf.jar 
@@ -152,10 +164,10 @@
                               ├ InstalledVersion: 1.25.0 
                               ├ FixedVersion    : 1.26.0 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:50461508a5eee01873c5db0ea6c4113bfaffd8e6
-                              │                  │         1566680dd79c966a9b570650 
-                              │                  ╰ DiffID: sha256:a966f315efc792c599b0c86b051ecb342b4d7c3f
-                              │                            5d4c7932d032e6290d50ad08 
+                              ├ Layer            ╭ Digest: sha256:0c28303fb4bc2feef10deb75f233c374f3bff7f6
+                              │                  │         bbb9815826cb5c379b2856b5 
+                              │                  ╰ DiffID: sha256:8d070531ab2f51dc19611c875640c45e47cca3be
+                              │                            9f4f8c5cc8c524a54d28d973 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26308 
                               ├ DataSource       ╭ ID  : ghsa 
@@ -175,10 +187,14 @@
                               ├ Severity        : HIGH 
                               ├ CweIDs           ─ [0]: CWE-770 
                               ├ VendorSeverity   ╭ ghsa  : 3 
+                              │                  ├ nvd   : 2 
                               │                  ╰ redhat: 2 
                               ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
                               │                  │        │           /I:N/A:H 
                               │                  │        ╰ V3Score : 7.5 
+                              │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
+                              │                  │        │           /I:N/A:H 
+                              │                  │        ╰ V3Score : 5.5 
                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
                               │                           │           /I:N/A:H 
                               │                           ╰ V3Score : 5.9 
@@ -192,5 +208,5 @@
                               │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2024/0
                               │                         2/19/2 
                               ├ PublishedDate   : 2024-02-19T09:15:38.277Z 
-                              ╰ LastModifiedDate: 2024-02-20T19:50:53.96Z 
+                              ╰ LastModifiedDate: 2024-02-22T15:21:36.213Z 
 ````
