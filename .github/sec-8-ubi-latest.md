@@ -2740,7 +2740,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon     : 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ ghsa       : 2 
                         │      │                  ├ nvd        : 2 
@@ -3414,7 +3414,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon     : 2 
+                        │      ├ VendorSeverity   ╭ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ ghsa       : 2 
                         │      │                  ├ nvd        : 2 
