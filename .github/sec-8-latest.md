@@ -1,5 +1,41 @@
 ````yaml
-─ [0] ╭ Target: openaf/oaf:8-latest (alpine 3.19.1) 
-      ├ Class : os-pkgs 
-      ╰ Type  : alpine 
+─ [0] ╭ Target         : openaf/oaf:8-latest (alpine 3.19.1) 
+      ├ Class          : os-pkgs 
+      ├ Type           : alpine 
+      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2024-28757 
+                              ├ PkgID           : libexpat@2.6.0-r0 
+                              ├ PkgName         : libexpat 
+                              ├ PkgIdentifier    ─ PURL: pkg:apk/alpine/libexpat@2.6.0-r0?arch=x86_64&dist
+                              │                          ro=3.19.1 
+                              ├ InstalledVersion: 2.6.0-r0 
+                              ├ FixedVersion    : 2.6.2-r0 
+                              ├ Status          : fixed 
+                              ├ Layer            ╭ Digest: sha256:e766e9f214b0f081caee5867ce37b8455005c08a
+                              │                  │         3835dd341b82eee9f995a1a4 
+                              │                  ╰ DiffID: sha256:71f40c0921da12b6bb04250955022ca053ef2c69
+                              │                            49a7f6ab63a9063e32330e31 
+                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-28757 
+                              ├ DataSource       ╭ ID  : alpine 
+                              │                  ├ Name: Alpine Secdb 
+                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
+                              ├ Title           : expat: XML Entity Expansion 
+                              ├ Description     : libexpat through 2.6.1 allows an XML Entity Expansion
+                              │                   attack when there is isolated use of external parsers
+                              │                   (created via XML_ExternalEntityParserCreate). 
+                              ├ Severity        : HIGH 
+                              ├ VendorSeverity   ╭ redhat: 2 
+                              │                  ╰ ubuntu: 2 
+                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+                              │                           │           /I:N/A:H 
+                              │                           ╰ V3Score : 7.5 
+                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-28757 
+                              │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
+                              │                  │      -2024-28757 
+                              │                  ├ [2]: https://github.com/libexpat/libexpat/issues/839 
+                              │                  ├ [3]: https://github.com/libexpat/libexpat/pull/842 
+                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-28757 
+                              │                  ├ [5]: https://ubuntu.com/security/notices/USN-6694-1 
+                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-28757 
+                              ├ PublishedDate   : 2024-03-10T05:15:06.57Z 
+                              ╰ LastModifiedDate: 2024-03-11T01:32:29.61Z 
 ````
