@@ -647,10 +647,12 @@
                         │      │                  │      kage-announce%40lists.fedoraproject.org/message/LKJ7V5
                         │      │                  │      F6LJCEQJXDBWGT27J7NAP3E3N7/ 
                         │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-28757 
-                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6694-1 
-                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-28757 
+                        │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2024032
+                        │      │                  │      2-0001/ 
+                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6694-1 
+                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-28757 
                         │      ├ PublishedDate   : 2024-03-10T05:15:06.57Z 
-                        │      ╰ LastModifiedDate: 2024-03-19T03:15:06.893Z 
+                        │      ╰ LastModifiedDate: 2024-03-22T19:15:08.663Z 
                         ├ [11] ╭ VulnerabilityID : CVE-2022-48554 
                         │      ├ PkgID           : file-libs@5.39-14.el9.x86_64 
                         │      ├ PkgName         : file-libs 
@@ -842,7 +844,88 @@
                         │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
                         │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
                         │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
-                        ├ [15] ╭ VulnerabilityID : CVE-2024-26458 
+                        ├ [15] ╭ VulnerabilityID : CVE-2024-28834 
+                        │      ├ PkgID           : gnutls@3.7.6-23.el9_3.3.x86_64 
+                        │      ├ PkgName         : gnutls 
+                        │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/gnutls@3.7.6-23.el9_3.3?arch=x86_
+                        │      │                          64&distro=redhat-9.3 
+                        │      ├ InstalledVersion: 3.7.6-23.el9_3.3 
+                        │      ├ Status          : affected 
+                        │      ├ Layer            ╭ Digest: sha256:3624adb57dc778028851767a252ce9c35651417
+                        │      │                  │         05f12f28b232632e6b00ce5f3 
+                        │      │                  ╰ DiffID: sha256:1cce999ef826f9fb846e681e0f0e0df4d10475e
+                        │      │                            43cf8c74316427e48d6a30788 
+                        │      ├ SeveritySource  : redhat 
+                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-28834 
+                        │      ├ Title           : gnutls: vulnerable to Minerva side-channel information leak 
+                        │      ├ Description     : A flaw was found in GnuTLS. The Minerva attack is a
+                        │      │                   cryptographic vulnerability that exploits deterministic
+                        │      │                   behavior in systems like GnuTLS, leading to side-channel
+                        │      │                   leaks. In specific scenarios, such as when using the
+                        │      │                   GNUTLS_PRIVKEY_FLAG_REPRODUCIBLE flag, it can result in a
+                        │      │                   noticeable step in nonce size from 513 to 512 bits, exposing
+                        │      │                    a potential timing side-channel. 
+                        │      ├ Severity        : MEDIUM 
+                        │      ├ CweIDs           ─ [0]: CWE-200 
+                        │      ├ VendorSeverity   ╭ redhat: 2 
+                        │      │                  ╰ ubuntu: 2 
+                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:
+                        │      │                           │           H/I:N/A:N 
+                        │      │                           ╰ V3Score : 5.3 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-28834 
+                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2269228 
+                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │      │                  │      E-2024-28834 
+                        │      │                  ├ [3]: https://gitlab.com/gnutls/gnutls/-/issues/1516 
+                        │      │                  ├ [4]: https://lists.gnupg.org/pipermail/gnutls-help/202
+                        │      │                  │      4-March/004845.html 
+                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-28834 
+                        │      │                  ├ [6]: https://people.redhat.com/~hkario/marvin/ 
+                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-28834 
+                        │      │                  ╰ [8]: https://www.gnutls.org/security-new.html#GNUTLS-S
+                        │      │                         A-2023-12-04 
+                        │      ├ PublishedDate   : 2024-03-21T14:15:07.547Z 
+                        │      ╰ LastModifiedDate: 2024-03-21T15:24:35.093Z 
+                        ├ [16] ╭ VulnerabilityID : CVE-2024-28835 
+                        │      ├ PkgID           : gnutls@3.7.6-23.el9_3.3.x86_64 
+                        │      ├ PkgName         : gnutls 
+                        │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/gnutls@3.7.6-23.el9_3.3?arch=x86_
+                        │      │                          64&distro=redhat-9.3 
+                        │      ├ InstalledVersion: 3.7.6-23.el9_3.3 
+                        │      ├ Status          : affected 
+                        │      ├ Layer            ╭ Digest: sha256:3624adb57dc778028851767a252ce9c35651417
+                        │      │                  │         05f12f28b232632e6b00ce5f3 
+                        │      │                  ╰ DiffID: sha256:1cce999ef826f9fb846e681e0f0e0df4d10475e
+                        │      │                            43cf8c74316427e48d6a30788 
+                        │      ├ SeveritySource  : redhat 
+                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-28835 
+                        │      ├ Title           : gnutls: potential crash during chain building/verification 
+                        │      ├ Description     : A flaw has been discovered in GnuTLS where an
+                        │      │                   application crash can be induced when attempting to verify a
+                        │      │                    specially crafted .pem bundle using the "certtool
+                        │      │                   --verify-chain" command. 
+                        │      ├ Severity        : MEDIUM 
+                        │      ├ CweIDs           ─ [0]: CWE-248 
+                        │      ├ VendorSeverity   ╭ redhat: 2 
+                        │      │                  ╰ ubuntu: 2 
+                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:
+                        │      │                           │           N/I:N/A:H 
+                        │      │                           ╰ V3Score : 5 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-28835 
+                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2269084 
+                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │      │                  │      E-2024-28835 
+                        │      │                  ├ [3]: https://gitlab.com/gnutls/gnutls/-/issues/1525 
+                        │      │                  ├ [4]: https://gitlab.com/gnutls/gnutls/-/issues/1527 
+                        │      │                  ├ [5]: https://lists.gnupg.org/pipermail/gnutls-help/202
+                        │      │                  │      4-March/004845.html 
+                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-28835 
+                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-28835 
+                        │      │                  ╰ [8]: https://www.gnutls.org/security-new.html#GNUTLS-S
+                        │      │                         A-2024-01-23 
+                        │      ├ PublishedDate   : 2024-03-21T06:15:45.113Z 
+                        │      ╰ LastModifiedDate: 2024-03-21T12:58:51.093Z 
+                        ├ [17] ╭ VulnerabilityID : CVE-2024-26458 
                         │      ├ PkgID           : krb5-libs@1.21.1-1.el9.x86_64 
                         │      ├ PkgName         : krb5-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/krb5-libs@1.21.1-1.el9?arch=x86_6
@@ -873,7 +956,7 @@
                         │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
                         │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
                         │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
-                        ├ [16] ╭ VulnerabilityID : CVE-2024-26461 
+                        ├ [18] ╭ VulnerabilityID : CVE-2024-26461 
                         │      ├ PkgID           : krb5-libs@1.21.1-1.el9.x86_64 
                         │      ├ PkgName         : krb5-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/krb5-libs@1.21.1-1.el9?arch=x86_6
@@ -904,7 +987,7 @@
                         │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
                         │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
                         │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
-                        ├ [17] ╭ VulnerabilityID : CVE-2024-26462 
+                        ├ [19] ╭ VulnerabilityID : CVE-2024-26462 
                         │      ├ PkgID           : krb5-libs@1.21.1-1.el9.x86_64 
                         │      ├ PkgName         : krb5-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/krb5-libs@1.21.1-1.el9?arch=x86_6
@@ -935,7 +1018,7 @@
                         │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
                         │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
                         │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
-                        ├ [18] ╭ VulnerabilityID : CVE-2023-30571 
+                        ├ [20] ╭ VulnerabilityID : CVE-2023-30571 
                         │      ├ PkgID           : libarchive@3.5.3-4.el9.x86_64 
                         │      ├ PkgName         : libarchive 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/libarchive@3.5.3-4.el9?arch=x86_6
@@ -977,7 +1060,7 @@
                         │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-30571 
                         │      ├ PublishedDate   : 2023-05-29T20:15:09.513Z 
                         │      ╰ LastModifiedDate: 2023-06-05T16:40:57.93Z 
-                        ├ [19] ╭ VulnerabilityID : CVE-2022-27943 
+                        ├ [21] ╭ VulnerabilityID : CVE-2022-27943 
                         │      ├ PkgID           : libgcc@11.4.1-2.1.el9.x86_64 
                         │      ├ PkgName         : libgcc 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/libgcc@11.4.1-2.1.el9?arch=x86_64
@@ -1029,7 +1112,7 @@
                         │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
                         │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-                        ├ [20] ╭ VulnerabilityID : CVE-2024-2236 
+                        ├ [22] ╭ VulnerabilityID : CVE-2024-2236 
                         │      ├ PkgID           : libgcrypt@1.10.0-10.el9_2.x86_64 
                         │      ├ PkgName         : libgcrypt 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/libgcrypt@1.10.0-10.el9_2?arch=x8
@@ -1066,7 +1149,7 @@
                         │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
                         │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
                         │      ╰ LastModifiedDate: 2024-03-07T13:52:27.11Z 
-                        ├ [21] ╭ VulnerabilityID : CVE-2022-27943 
+                        ├ [23] ╭ VulnerabilityID : CVE-2022-27943 
                         │      ├ PkgID           : libstdc++@11.4.1-2.1.el9.x86_64 
                         │      ├ PkgName         : libstdc++ 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/libstdc%2B%2B@11.4.1-2.1.el9?arch
@@ -1118,7 +1201,7 @@
                         │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
                         │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-                        ├ [22] ╭ VulnerabilityID : CVE-2024-25062 
+                        ├ [24] ╭ VulnerabilityID : CVE-2024-25062 
                         │      ├ PkgID           : libxml2@2.9.13-5.el9_3.x86_64 
                         │      ├ PkgName         : libxml2 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/libxml2@2.9.13-5.el9_3?arch=x86_6
@@ -1160,7 +1243,7 @@
                         │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-25062 
                         │      ├ PublishedDate   : 2024-02-04T16:15:45.12Z 
                         │      ╰ LastModifiedDate: 2024-02-13T00:40:40.503Z 
-                        ├ [23] ╭ VulnerabilityID : CVE-2023-45322 
+                        ├ [25] ╭ VulnerabilityID : CVE-2023-45322 
                         │      ├ PkgID           : libxml2@2.9.13-5.el9_3.x86_64 
                         │      ├ PkgName         : libxml2 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/libxml2@2.9.13-5.el9_3?arch=x86_6
@@ -1201,8 +1284,8 @@
                         │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-45322 
                         │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-45322 
                         │      ├ PublishedDate   : 2023-10-06T22:15:11.66Z 
-                        │      ╰ LastModifiedDate: 2023-11-07T04:21:45Z 
-                        ├ [24] ╭ VulnerabilityID : CVE-2022-4899 
+                        │      ╰ LastModifiedDate: 2024-03-21T02:49:16.44Z 
+                        ├ [26] ╭ VulnerabilityID : CVE-2022-4899 
                         │      ├ PkgID           : libzstd@1.5.1-2.el9.x86_64 
                         │      ├ PkgName         : libzstd 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/libzstd@1.5.1-2.el9?arch=x86_64&d
@@ -1355,108 +1438,11 @@
                         │      │                  ╰ [95]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
                         │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:59:16.09Z 
-                        ├ [25] ╭ VulnerabilityID : CVE-2022-29458 
-                        │      ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
-                        │      ├ PkgName         : ncurses-base 
-                        │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/ncurses-base@6.2-10.20210508.el9?
-                        │      │                          arch=noarch&distro=redhat-9.3 
-                        │      ├ InstalledVersion: 6.2-10.20210508.el9 
-                        │      ├ Status          : will_not_fix 
-                        │      ├ Layer            ╭ Digest: sha256:3624adb57dc778028851767a252ce9c35651417
-                        │      │                  │         05f12f28b232632e6b00ce5f3 
-                        │      │                  ╰ DiffID: sha256:1cce999ef826f9fb846e681e0f0e0df4d10475e
-                        │      │                            43cf8c74316427e48d6a30788 
-                        │      ├ SeveritySource  : redhat 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-29458 
-                        │      ├ Title           : segfaulting OOB read 
-                        │      ├ Description     : ncurses 6.3 before patch 20220416 has an out-of-bounds
-                        │      │                   read and segmentation violation in convert_strings in
-                        │      │                   tinfo/read_entry.c in the terminfo library. 
-                        │      ├ Severity        : LOW 
-                        │      ├ CweIDs           ─ [0]: CWE-125 
-                        │      ├ VendorSeverity   ╭ amazon     : 2 
-                        │      │                  ├ cbl-mariner: 3 
-                        │      │                  ├ nvd        : 3 
-                        │      │                  ├ photon     : 3 
-                        │      │                  ├ redhat     : 1 
-                        │      │                  ╰ ubuntu     : 1 
-                        │      ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:N/A:P 
-                        │      │                  │        ├ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                  │        │           H/I:N/A:H 
-                        │      │                  │        ├ V2Score : 5.8 
-                        │      │                  │        ╰ V3Score : 7.1 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                           │           L/I:N/A:H 
-                        │      │                           ╰ V3Score : 6.1 
-                        │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2022/Oct/28 
-                        │      │                  ├ [1] : http://seclists.org/fulldisclosure/2022/Oct/41 
-                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2022-29458 
-                        │      │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-                        │      │                  │       VE-2022-29458 
-                        │      │                  ├ [4] : https://invisible-island.net/ncurses/NEWS.html#t
-                        │      │                  │       20220416 
-                        │      │                  ├ [5] : https://lists.debian.org/debian-lts-announce/202
-                        │      │                  │       2/10/msg00037.html 
-                        │      │                  ├ [6] : https://lists.gnu.org/archive/html/bug-ncurses/2
-                        │      │                  │       022-04/msg00014.html 
-                        │      │                  ├ [7] : https://lists.gnu.org/archive/html/bug-ncurses/2
-                        │      │                  │       022-04/msg00016.html 
-                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2022-29458 
-                        │      │                  ├ [9] : https://support.apple.com/kb/HT213488 
-                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-5477-1 
-                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6099-1 
-                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-29458 
-                        │      ├ PublishedDate   : 2022-04-18T21:15:07.6Z 
-                        │      ╰ LastModifiedDate: 2023-11-07T03:46:02.1Z 
-                        ├ [26] ╭ VulnerabilityID : CVE-2023-50495 
-                        │      ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
-                        │      ├ PkgName         : ncurses-base 
-                        │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/ncurses-base@6.2-10.20210508.el9?
-                        │      │                          arch=noarch&distro=redhat-9.3 
-                        │      ├ InstalledVersion: 6.2-10.20210508.el9 
-                        │      ├ Status          : will_not_fix 
-                        │      ├ Layer            ╭ Digest: sha256:3624adb57dc778028851767a252ce9c35651417
-                        │      │                  │         05f12f28b232632e6b00ce5f3 
-                        │      │                  ╰ DiffID: sha256:1cce999ef826f9fb846e681e0f0e0df4d10475e
-                        │      │                            43cf8c74316427e48d6a30788 
-                        │      ├ SeveritySource  : redhat 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
-                        │      ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
-                        │      ├ Description     : NCurse v6.4-20230418 was discovered to contain a
-                        │      │                   segmentation fault via the component _nc_wrap_entry(). 
-                        │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon: 2 
-                        │      │                  ├ nvd   : 2 
-                        │      │                  ├ redhat: 1 
-                        │      │                  ╰ ubuntu: 1 
-                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                  │        │           N/I:N/A:H 
-                        │      │                  │        ╰ V3Score : 6.5 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                           │           N/I:N/A:H 
-                        │      │                           ╰ V3Score : 6.5 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
-                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-                        │      │                  │      E-2023-50495 
-                        │      │                  ├ [2]: https://lists.fedoraproject.org/archives/list/pac
-                        │      │                  │      kage-announce%40lists.fedoraproject.org/message/LU4MYM
-                        │      │                  │      KFEZQ5VSCVLRIZGDQOUW3T44GT/ 
-                        │      │                  ├ [3]: https://lists.gnu.org/archive/html/bug-ncurses/20
-                        │      │                  │      23-04/msg00020.html 
-                        │      │                  ├ [4]: https://lists.gnu.org/archive/html/bug-ncurses/20
-                        │      │                  │      23-04/msg00029.html 
-                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
-                        │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-2024011
-                        │      │                  │      9-0008/ 
-                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6684-1 
-                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
-                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
-                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
                         ├ [27] ╭ VulnerabilityID : CVE-2022-29458 
-                        │      ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
-                        │      ├ PkgName         : ncurses-libs 
-                        │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/ncurses-libs@6.2-10.20210508.el9?
-                        │      │                          arch=x86_64&distro=redhat-9.3 
+                        │      ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
+                        │      ├ PkgName         : ncurses-base 
+                        │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/ncurses-base@6.2-10.20210508.el9?
+                        │      │                          arch=noarch&distro=redhat-9.3 
                         │      ├ InstalledVersion: 6.2-10.20210508.el9 
                         │      ├ Status          : will_not_fix 
                         │      ├ Layer            ╭ Digest: sha256:3624adb57dc778028851767a252ce9c35651417
@@ -1506,6 +1492,103 @@
                         │      ├ PublishedDate   : 2022-04-18T21:15:07.6Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:46:02.1Z 
                         ├ [28] ╭ VulnerabilityID : CVE-2023-50495 
+                        │      ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
+                        │      ├ PkgName         : ncurses-base 
+                        │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/ncurses-base@6.2-10.20210508.el9?
+                        │      │                          arch=noarch&distro=redhat-9.3 
+                        │      ├ InstalledVersion: 6.2-10.20210508.el9 
+                        │      ├ Status          : will_not_fix 
+                        │      ├ Layer            ╭ Digest: sha256:3624adb57dc778028851767a252ce9c35651417
+                        │      │                  │         05f12f28b232632e6b00ce5f3 
+                        │      │                  ╰ DiffID: sha256:1cce999ef826f9fb846e681e0f0e0df4d10475e
+                        │      │                            43cf8c74316427e48d6a30788 
+                        │      ├ SeveritySource  : redhat 
+                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
+                        │      ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
+                        │      ├ Description     : NCurse v6.4-20230418 was discovered to contain a
+                        │      │                   segmentation fault via the component _nc_wrap_entry(). 
+                        │      ├ Severity        : LOW 
+                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      │                  ├ nvd   : 2 
+                        │      │                  ├ redhat: 1 
+                        │      │                  ╰ ubuntu: 1 
+                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
+                        │      │                  │        │           N/I:N/A:H 
+                        │      │                  │        ╰ V3Score : 6.5 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
+                        │      │                           │           N/I:N/A:H 
+                        │      │                           ╰ V3Score : 6.5 
+                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
+                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+                        │      │                  │      E-2023-50495 
+                        │      │                  ├ [2]: https://lists.fedoraproject.org/archives/list/pac
+                        │      │                  │      kage-announce%40lists.fedoraproject.org/message/LU4MYM
+                        │      │                  │      KFEZQ5VSCVLRIZGDQOUW3T44GT/ 
+                        │      │                  ├ [3]: https://lists.gnu.org/archive/html/bug-ncurses/20
+                        │      │                  │      23-04/msg00020.html 
+                        │      │                  ├ [4]: https://lists.gnu.org/archive/html/bug-ncurses/20
+                        │      │                  │      23-04/msg00029.html 
+                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
+                        │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-2024011
+                        │      │                  │      9-0008/ 
+                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6684-1 
+                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
+                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
+                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
+                        ├ [29] ╭ VulnerabilityID : CVE-2022-29458 
+                        │      ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
+                        │      ├ PkgName         : ncurses-libs 
+                        │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/ncurses-libs@6.2-10.20210508.el9?
+                        │      │                          arch=x86_64&distro=redhat-9.3 
+                        │      ├ InstalledVersion: 6.2-10.20210508.el9 
+                        │      ├ Status          : will_not_fix 
+                        │      ├ Layer            ╭ Digest: sha256:3624adb57dc778028851767a252ce9c35651417
+                        │      │                  │         05f12f28b232632e6b00ce5f3 
+                        │      │                  ╰ DiffID: sha256:1cce999ef826f9fb846e681e0f0e0df4d10475e
+                        │      │                            43cf8c74316427e48d6a30788 
+                        │      ├ SeveritySource  : redhat 
+                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-29458 
+                        │      ├ Title           : segfaulting OOB read 
+                        │      ├ Description     : ncurses 6.3 before patch 20220416 has an out-of-bounds
+                        │      │                   read and segmentation violation in convert_strings in
+                        │      │                   tinfo/read_entry.c in the terminfo library. 
+                        │      ├ Severity        : LOW 
+                        │      ├ CweIDs           ─ [0]: CWE-125 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
+                        │      │                  ├ cbl-mariner: 3 
+                        │      │                  ├ nvd        : 3 
+                        │      │                  ├ photon     : 3 
+                        │      │                  ├ redhat     : 1 
+                        │      │                  ╰ ubuntu     : 1 
+                        │      ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:N/A:P 
+                        │      │                  │        ├ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
+                        │      │                  │        │           H/I:N/A:H 
+                        │      │                  │        ├ V2Score : 5.8 
+                        │      │                  │        ╰ V3Score : 7.1 
+                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
+                        │      │                           │           L/I:N/A:H 
+                        │      │                           ╰ V3Score : 6.1 
+                        │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2022/Oct/28 
+                        │      │                  ├ [1] : http://seclists.org/fulldisclosure/2022/Oct/41 
+                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2022-29458 
+                        │      │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+                        │      │                  │       VE-2022-29458 
+                        │      │                  ├ [4] : https://invisible-island.net/ncurses/NEWS.html#t
+                        │      │                  │       20220416 
+                        │      │                  ├ [5] : https://lists.debian.org/debian-lts-announce/202
+                        │      │                  │       2/10/msg00037.html 
+                        │      │                  ├ [6] : https://lists.gnu.org/archive/html/bug-ncurses/2
+                        │      │                  │       022-04/msg00014.html 
+                        │      │                  ├ [7] : https://lists.gnu.org/archive/html/bug-ncurses/2
+                        │      │                  │       022-04/msg00016.html 
+                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2022-29458 
+                        │      │                  ├ [9] : https://support.apple.com/kb/HT213488 
+                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-5477-1 
+                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6099-1 
+                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-29458 
+                        │      ├ PublishedDate   : 2022-04-18T21:15:07.6Z 
+                        │      ╰ LastModifiedDate: 2023-11-07T03:46:02.1Z 
+                        ├ [30] ╭ VulnerabilityID : CVE-2023-50495 
                         │      ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
                         │      ├ PkgName         : ncurses-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/ncurses-libs@6.2-10.20210508.el9?
@@ -1549,7 +1632,7 @@
                         │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
                         │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
                         │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-                        ├ [29] ╭ VulnerabilityID : CVE-2020-12413 
+                        ├ [31] ╭ VulnerabilityID : CVE-2020-12413 
                         │      ├ PkgID           : nspr@4.35.0-6.el9_3.x86_64 
                         │      ├ PkgName         : nspr 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/nspr@4.35.0-6.el9_3?arch=x86_64&d
@@ -1587,7 +1670,7 @@
                         │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
                         │      ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
-                        ├ [30] ╭ VulnerabilityID : CVE-2020-12413 
+                        ├ [32] ╭ VulnerabilityID : CVE-2020-12413 
                         │      ├ PkgID           : nss@3.90.0-6.el9_3.x86_64 
                         │      ├ PkgName         : nss 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/nss@3.90.0-6.el9_3?arch=x86_64&di
@@ -1625,7 +1708,7 @@
                         │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
                         │      ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
-                        ├ [31] ╭ VulnerabilityID : CVE-2020-12413 
+                        ├ [33] ╭ VulnerabilityID : CVE-2020-12413 
                         │      ├ PkgID           : nss-softokn@3.90.0-6.el9_3.x86_64 
                         │      ├ PkgName         : nss-softokn 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/nss-softokn@3.90.0-6.el9_3?arch=x
@@ -1663,7 +1746,7 @@
                         │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
                         │      ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
-                        ├ [32] ╭ VulnerabilityID : CVE-2020-12413 
+                        ├ [34] ╭ VulnerabilityID : CVE-2020-12413 
                         │      ├ PkgID           : nss-softokn-freebl@3.90.0-6.el9_3.x86_64 
                         │      ├ PkgName         : nss-softokn-freebl 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/nss-softokn-freebl@3.90.0-6.el9_3
@@ -1701,7 +1784,7 @@
                         │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
                         │      ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
-                        ├ [33] ╭ VulnerabilityID : CVE-2020-12413 
+                        ├ [35] ╭ VulnerabilityID : CVE-2020-12413 
                         │      ├ PkgID           : nss-sysinit@3.90.0-6.el9_3.x86_64 
                         │      ├ PkgName         : nss-sysinit 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/nss-sysinit@3.90.0-6.el9_3?arch=x
@@ -1739,7 +1822,7 @@
                         │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
                         │      ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
-                        ├ [34] ╭ VulnerabilityID : CVE-2020-12413 
+                        ├ [36] ╭ VulnerabilityID : CVE-2020-12413 
                         │      ├ PkgID           : nss-util@3.90.0-6.el9_3.x86_64 
                         │      ├ PkgName         : nss-util 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/nss-util@3.90.0-6.el9_3?arch=x86_
@@ -1777,7 +1860,7 @@
                         │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
                         │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
                         │      ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
-                        ├ [35] ╭ VulnerabilityID : CVE-2023-2953 
+                        ├ [37] ╭ VulnerabilityID : CVE-2023-2953 
                         │      ├ PkgID           : openldap@2.6.3-1.el9.x86_64 
                         │      ├ PkgName         : openldap 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openldap@2.6.3-1.el9?arch=x86_64&
@@ -1829,7 +1912,7 @@
                         │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
                         │      ├ PublishedDate   : 2023-05-30T22:15:10.613Z 
                         │      ╰ LastModifiedDate: 2023-08-02T16:46:03.663Z 
-                        ├ [36] ╭ VulnerabilityID : CVE-2023-2975 
+                        ├ [38] ╭ VulnerabilityID : CVE-2023-2975 
                         │      ├ PkgID           : openssl@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl@3.0.7-25.el9_3?arch=x86_6
@@ -1913,7 +1996,7 @@
                         │      │                  ╰ [11]: https://www.openssl.org/news/secadv/20230714.txt 
                         │      ├ PublishedDate   : 2023-07-14T12:15:09.023Z 
                         │      ╰ LastModifiedDate: 2024-02-04T09:15:09.773Z 
-                        ├ [37] ╭ VulnerabilityID : CVE-2023-3446 
+                        ├ [39] ╭ VulnerabilityID : CVE-2023-3446 
                         │      ├ PkgID           : openssl@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl@3.0.7-25.el9_3?arch=x86_6
@@ -1977,7 +2060,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-1333 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
@@ -2026,11 +2109,12 @@
                         │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6435-1 
                         │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6435-2 
                         │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6450-1 
-                        │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
-                        │      │                  ╰ [23]: https://www.openssl.org/news/secadv/20230719.txt 
+                        │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6709-1 
+                        │      │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
+                        │      │                  ╰ [24]: https://www.openssl.org/news/secadv/20230719.txt 
                         │      ├ PublishedDate   : 2023-07-19T12:15:10.003Z 
                         │      ╰ LastModifiedDate: 2024-02-04T09:15:09.9Z 
-                        ├ [38] ╭ VulnerabilityID : CVE-2023-3817 
+                        ├ [40] ╭ VulnerabilityID : CVE-2023-3817 
                         │      ├ PkgID           : openssl@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl@3.0.7-25.el9_3?arch=x86_6
@@ -2090,7 +2174,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-834 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -2145,11 +2229,12 @@
                         │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6435-1 
                         │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6435-2 
                         │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-6450-1 
-                        │      │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
-                        │      │                  ╰ [27]: https://www.openssl.org/news/secadv/20230731.txt 
+                        │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-6709-1 
+                        │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
+                        │      │                  ╰ [28]: https://www.openssl.org/news/secadv/20230731.txt 
                         │      ├ PublishedDate   : 2023-07-31T16:15:10.497Z 
                         │      ╰ LastModifiedDate: 2024-02-04T09:15:10.03Z 
-                        ├ [39] ╭ VulnerabilityID : CVE-2023-5678 
+                        ├ [41] ╭ VulnerabilityID : CVE-2023-5678 
                         │      ├ PkgID           : openssl@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl@3.0.7-25.el9_3?arch=x86_6
@@ -2222,7 +2307,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-754 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -2262,11 +2347,12 @@
                         │      │                  │       30-0010/ 
                         │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6622-1 
                         │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6632-1 
-                        │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2023-5678 
-                        │      │                  ╰ [18]: https://www.openssl.org/news/secadv/20231106.txt 
+                        │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-6709-1 
+                        │      │                  ├ [18]: https://www.cve.org/CVERecord?id=CVE-2023-5678 
+                        │      │                  ╰ [19]: https://www.openssl.org/news/secadv/20231106.txt 
                         │      ├ PublishedDate   : 2023-11-06T16:15:42.67Z 
                         │      ╰ LastModifiedDate: 2023-11-30T22:15:09.723Z 
-                        ├ [40] ╭ VulnerabilityID : CVE-2023-6129 
+                        ├ [42] ╭ VulnerabilityID : CVE-2023-6129 
                         │      ├ PkgID           : openssl@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl@3.0.7-25.el9_3?arch=x86_6
@@ -2367,7 +2453,7 @@
                         │      │                          /01/09/1 
                         │      ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
                         │      ╰ LastModifiedDate: 2024-02-16T13:15:09.91Z 
-                        ├ [41] ╭ VulnerabilityID : CVE-2023-6237 
+                        ├ [43] ╭ VulnerabilityID : CVE-2023-6237 
                         │      ├ PkgID           : openssl@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl@3.0.7-25.el9_3?arch=x86_6
@@ -2407,7 +2493,7 @@
                         │                         ├ [5]: https://www.openssl.org/news/secadv/20240115.txt 
                         │                         ╰ [6]: https://www.openwall.com/lists/oss-security/2024/
                         │                                01/15/2 
-                        ├ [42] ╭ VulnerabilityID : CVE-2024-0727 
+                        ├ [44] ╭ VulnerabilityID : CVE-2024-0727 
                         │      ├ PkgID           : openssl@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl@3.0.7-25.el9_3?arch=x86_6
@@ -2455,7 +2541,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ ghsa       : 2 
                         │      │                  ├ nvd        : 2 
@@ -2499,11 +2585,12 @@
                         │      │                  │       08-0006/ 
                         │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6622-1 
                         │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6632-1 
-                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
-                        │      │                  ╰ [17]: https://www.openssl.org/news/secadv/20240125.txt 
+                        │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6709-1 
+                        │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
+                        │      │                  ╰ [18]: https://www.openssl.org/news/secadv/20240125.txt 
                         │      ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
                         │      ╰ LastModifiedDate: 2024-02-08T10:15:13.91Z 
-                        ├ [43] ╭ VulnerabilityID : CVE-2023-2975 
+                        ├ [45] ╭ VulnerabilityID : CVE-2023-2975 
                         │      ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-25.el9_3?arch=
@@ -2587,7 +2674,7 @@
                         │      │                  ╰ [11]: https://www.openssl.org/news/secadv/20230714.txt 
                         │      ├ PublishedDate   : 2023-07-14T12:15:09.023Z 
                         │      ╰ LastModifiedDate: 2024-02-04T09:15:09.773Z 
-                        ├ [44] ╭ VulnerabilityID : CVE-2023-3446 
+                        ├ [46] ╭ VulnerabilityID : CVE-2023-3446 
                         │      ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-25.el9_3?arch=
@@ -2651,7 +2738,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-1333 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
@@ -2700,11 +2787,12 @@
                         │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6435-1 
                         │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6435-2 
                         │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6450-1 
-                        │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
-                        │      │                  ╰ [23]: https://www.openssl.org/news/secadv/20230719.txt 
+                        │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6709-1 
+                        │      │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2023-3446 
+                        │      │                  ╰ [24]: https://www.openssl.org/news/secadv/20230719.txt 
                         │      ├ PublishedDate   : 2023-07-19T12:15:10.003Z 
                         │      ╰ LastModifiedDate: 2024-02-04T09:15:09.9Z 
-                        ├ [45] ╭ VulnerabilityID : CVE-2023-3817 
+                        ├ [47] ╭ VulnerabilityID : CVE-2023-3817 
                         │      ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-25.el9_3?arch=
@@ -2764,7 +2852,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-834 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -2819,11 +2907,12 @@
                         │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6435-1 
                         │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6435-2 
                         │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-6450-1 
-                        │      │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
-                        │      │                  ╰ [27]: https://www.openssl.org/news/secadv/20230731.txt 
+                        │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-6709-1 
+                        │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
+                        │      │                  ╰ [28]: https://www.openssl.org/news/secadv/20230731.txt 
                         │      ├ PublishedDate   : 2023-07-31T16:15:10.497Z 
                         │      ╰ LastModifiedDate: 2024-02-04T09:15:10.03Z 
-                        ├ [46] ╭ VulnerabilityID : CVE-2023-5678 
+                        ├ [48] ╭ VulnerabilityID : CVE-2023-5678 
                         │      ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-25.el9_3?arch=
@@ -2896,7 +2985,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-754 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -2936,11 +3025,12 @@
                         │      │                  │       30-0010/ 
                         │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6622-1 
                         │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6632-1 
-                        │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2023-5678 
-                        │      │                  ╰ [18]: https://www.openssl.org/news/secadv/20231106.txt 
+                        │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-6709-1 
+                        │      │                  ├ [18]: https://www.cve.org/CVERecord?id=CVE-2023-5678 
+                        │      │                  ╰ [19]: https://www.openssl.org/news/secadv/20231106.txt 
                         │      ├ PublishedDate   : 2023-11-06T16:15:42.67Z 
                         │      ╰ LastModifiedDate: 2023-11-30T22:15:09.723Z 
-                        ├ [47] ╭ VulnerabilityID : CVE-2023-6129 
+                        ├ [49] ╭ VulnerabilityID : CVE-2023-6129 
                         │      ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-25.el9_3?arch=
@@ -3041,7 +3131,7 @@
                         │      │                          /01/09/1 
                         │      ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
                         │      ╰ LastModifiedDate: 2024-02-16T13:15:09.91Z 
-                        ├ [48] ╭ VulnerabilityID : CVE-2023-6237 
+                        ├ [50] ╭ VulnerabilityID : CVE-2023-6237 
                         │      ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-25.el9_3?arch=
@@ -3081,7 +3171,7 @@
                         │                         ├ [5]: https://www.openssl.org/news/secadv/20240115.txt 
                         │                         ╰ [6]: https://www.openwall.com/lists/oss-security/2024/
                         │                                01/15/2 
-                        ├ [49] ╭ VulnerabilityID : CVE-2024-0727 
+                        ├ [51] ╭ VulnerabilityID : CVE-2024-0727 
                         │      ├ PkgID           : openssl-libs@3.0.7-25.el9_3.x86_64 
                         │      ├ PkgName         : openssl-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-25.el9_3?arch=
@@ -3129,7 +3219,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon     : 3 
+                        │      ├ VendorSeverity   ╭ amazon     : 2 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ ghsa       : 2 
                         │      │                  ├ nvd        : 2 
@@ -3173,11 +3263,12 @@
                         │      │                  │       08-0006/ 
                         │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6622-1 
                         │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6632-1 
-                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
-                        │      │                  ╰ [17]: https://www.openssl.org/news/secadv/20240125.txt 
+                        │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6709-1 
+                        │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
+                        │      │                  ╰ [18]: https://www.openssl.org/news/secadv/20240125.txt 
                         │      ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
                         │      ╰ LastModifiedDate: 2024-02-08T10:15:13.91Z 
-                        ├ [50] ╭ VulnerabilityID : CVE-2024-22365 
+                        ├ [52] ╭ VulnerabilityID : CVE-2024-22365 
                         │      ├ PkgID           : pam@1.5.1-15.el9.x86_64 
                         │      ├ PkgName         : pam 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/pam@1.5.1-15.el9?arch=x86_64&dist
@@ -3225,7 +3316,7 @@
                         │      │                         01/18/3 
                         │      ├ PublishedDate   : 2024-02-06T08:15:52.203Z 
                         │      ╰ LastModifiedDate: 2024-02-14T00:27:40.143Z 
-                        ├ [51] ╭ VulnerabilityID : CVE-2022-41409 
+                        ├ [53] ╭ VulnerabilityID : CVE-2022-41409 
                         │      ├ PkgID           : pcre2@10.40-2.el9.x86_64 
                         │      ├ PkgName         : pcre2 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/pcre2@10.40-2.el9?arch=x86_64&dis
@@ -3265,7 +3356,7 @@
                         │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-41409 
                         │      ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
                         │      ╰ LastModifiedDate: 2023-07-27T03:46:09.807Z 
-                        ├ [52] ╭ VulnerabilityID : CVE-2022-41409 
+                        ├ [54] ╭ VulnerabilityID : CVE-2022-41409 
                         │      ├ PkgID           : pcre2-syntax@10.40-2.el9.noarch 
                         │      ├ PkgName         : pcre2-syntax 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/pcre2-syntax@10.40-2.el9?arch=noa
@@ -3305,7 +3396,7 @@
                         │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-41409 
                         │      ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
                         │      ╰ LastModifiedDate: 2023-07-27T03:46:09.807Z 
-                        ├ [53] ╭ VulnerabilityID : CVE-2021-23336 
+                        ├ [55] ╭ VulnerabilityID : CVE-2021-23336 
                         │      ├ PkgID           : python-unversioned-command@3.9.18-1.el9_3.1.noarch 
                         │      ├ PkgName         : python-unversioned-command 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18
@@ -3465,7 +3556,7 @@
                         │      │                          1.html 
                         │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:30:51.953Z 
-                        ├ [54] ╭ VulnerabilityID : CVE-2022-0391 
+                        ├ [56] ╭ VulnerabilityID : CVE-2022-0391 
                         │      ├ PkgID           : python-unversioned-command@3.9.18-1.el9_3.1.noarch 
                         │      ├ PkgName         : python-unversioned-command 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18
@@ -3539,7 +3630,7 @@
                         │      │                          2.html 
                         │      ├ PublishedDate   : 2022-02-09T23:15:16.58Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:41:13.75Z 
-                        ├ [55] ╭ VulnerabilityID : CVE-2023-36632 
+                        ├ [57] ╭ VulnerabilityID : CVE-2023-36632 
                         │      ├ PkgID           : python-unversioned-command@3.9.18-1.el9_3.1.noarch 
                         │      ├ PkgName         : python-unversioned-command 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18
@@ -3592,8 +3683,8 @@
                         │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36632 
                         │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
                         │      ├ PublishedDate   : 2023-06-25T18:15:09.313Z 
-                        │      ╰ LastModifiedDate: 2023-11-07T04:16:39.19Z 
-                        ├ [56] ╭ VulnerabilityID : CVE-2021-23336 
+                        │      ╰ LastModifiedDate: 2024-03-21T02:48:03.197Z 
+                        ├ [58] ╭ VulnerabilityID : CVE-2021-23336 
                         │      ├ PkgID           : python3@3.9.18-1.el9_3.1.x86_64 
                         │      ├ PkgName         : python3 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/python3@3.9.18-1.el9_3.1?arch=x86
@@ -3753,7 +3844,7 @@
                         │      │                          1.html 
                         │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:30:51.953Z 
-                        ├ [57] ╭ VulnerabilityID : CVE-2022-0391 
+                        ├ [59] ╭ VulnerabilityID : CVE-2022-0391 
                         │      ├ PkgID           : python3@3.9.18-1.el9_3.1.x86_64 
                         │      ├ PkgName         : python3 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/python3@3.9.18-1.el9_3.1?arch=x86
@@ -3827,7 +3918,7 @@
                         │      │                          2.html 
                         │      ├ PublishedDate   : 2022-02-09T23:15:16.58Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:41:13.75Z 
-                        ├ [58] ╭ VulnerabilityID : CVE-2023-36632 
+                        ├ [60] ╭ VulnerabilityID : CVE-2023-36632 
                         │      ├ PkgID           : python3@3.9.18-1.el9_3.1.x86_64 
                         │      ├ PkgName         : python3 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/python3@3.9.18-1.el9_3.1?arch=x86
@@ -3880,8 +3971,8 @@
                         │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36632 
                         │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
                         │      ├ PublishedDate   : 2023-06-25T18:15:09.313Z 
-                        │      ╰ LastModifiedDate: 2023-11-07T04:16:39.19Z 
-                        ├ [59] ╭ VulnerabilityID : CVE-2021-23336 
+                        │      ╰ LastModifiedDate: 2024-03-21T02:48:03.197Z 
+                        ├ [61] ╭ VulnerabilityID : CVE-2021-23336 
                         │      ├ PkgID           : python3-libs@3.9.18-1.el9_3.1.x86_64 
                         │      ├ PkgName         : python3-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/python3-libs@3.9.18-1.el9_3.1?arc
@@ -4041,7 +4132,7 @@
                         │      │                          1.html 
                         │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:30:51.953Z 
-                        ├ [60] ╭ VulnerabilityID : CVE-2022-0391 
+                        ├ [62] ╭ VulnerabilityID : CVE-2022-0391 
                         │      ├ PkgID           : python3-libs@3.9.18-1.el9_3.1.x86_64 
                         │      ├ PkgName         : python3-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/python3-libs@3.9.18-1.el9_3.1?arc
@@ -4115,7 +4206,7 @@
                         │      │                          2.html 
                         │      ├ PublishedDate   : 2022-02-09T23:15:16.58Z 
                         │      ╰ LastModifiedDate: 2023-11-07T03:41:13.75Z 
-                        ├ [61] ╭ VulnerabilityID : CVE-2023-36632 
+                        ├ [63] ╭ VulnerabilityID : CVE-2023-36632 
                         │      ├ PkgID           : python3-libs@3.9.18-1.el9_3.1.x86_64 
                         │      ├ PkgName         : python3-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/python3-libs@3.9.18-1.el9_3.1?arc
@@ -4168,8 +4259,8 @@
                         │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36632 
                         │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
                         │      ├ PublishedDate   : 2023-06-25T18:15:09.313Z 
-                        │      ╰ LastModifiedDate: 2023-11-07T04:16:39.19Z 
-                        ├ [62] ╭ VulnerabilityID : CVE-2021-3572 
+                        │      ╰ LastModifiedDate: 2024-03-21T02:48:03.197Z 
+                        ├ [64] ╭ VulnerabilityID : CVE-2021-3572 
                         │      ├ PkgID           : python3-pip-wheel@21.2.3-7.el9_3.1.noarch 
                         │      ├ PkgName         : python3-pip-wheel 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/python3-pip-wheel@21.2.3-7.el9_3.
@@ -4242,7 +4333,7 @@
                         │      │                          2.html 
                         │      ├ PublishedDate   : 2021-11-10T18:15:09.51Z 
                         │      ╰ LastModifiedDate: 2022-10-05T02:14:39.75Z 
-                        ├ [63] ╭ VulnerabilityID : CVE-2023-36191 
+                        ├ [65] ╭ VulnerabilityID : CVE-2023-36191 
                         │      ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
                         │      ├ PkgName         : sqlite-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x
@@ -4273,7 +4364,7 @@
                         │      │                  ╰ [3]: https://www.sqlite.org/forum/forumpost/19f55ef73b 
                         │      ├ PublishedDate   : 2023-06-23T02:15:09.597Z 
                         │      ╰ LastModifiedDate: 2023-11-07T04:16:25.153Z 
-                        ├ [64] ╭ VulnerabilityID : CVE-2024-0232 
+                        ├ [66] ╭ VulnerabilityID : CVE-2024-0232 
                         │      ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
                         │      ├ PkgName         : sqlite-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x
@@ -4318,7 +4409,7 @@
                         │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-0232 
                         │      ├ PublishedDate   : 2024-01-16T14:15:48.327Z 
                         │      ╰ LastModifiedDate: 2024-03-15T11:15:08.56Z 
-                        ├ [65] ╭ VulnerabilityID : CVE-2021-3997 
+                        ├ [67] ╭ VulnerabilityID : CVE-2021-3997 
                         │      ├ PkgID           : systemd-libs@252-18.el9.x86_64 
                         │      ├ PkgName         : systemd-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/systemd-libs@252-18.el9?arch=x86_
@@ -4364,7 +4455,7 @@
                         │      │                         01/10/2 
                         │      ├ PublishedDate   : 2022-08-23T20:15:08.67Z 
                         │      ╰ LastModifiedDate: 2023-05-03T12:15:15.95Z 
-                        ├ [66] ╭ VulnerabilityID : CVE-2023-7008 
+                        ├ [68] ╭ VulnerabilityID : CVE-2023-7008 
                         │      ├ PkgID           : systemd-libs@252-18.el9.x86_64 
                         │      ├ PkgName         : systemd-libs 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/systemd-libs@252-18.el9?arch=x86_
@@ -4413,7 +4504,7 @@
                         │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
                         │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
                         │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
-                        ├ [67] ╭ VulnerabilityID : CVE-2005-2541 
+                        ├ [69] ╭ VulnerabilityID : CVE-2005-2541 
                         │      ├ PkgID           : tar@1.34-6.el9_1.x86_64 
                         │      ├ PkgName         : tar 
                         │      ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/tar@1.34-6.el9_1?arch=x86_64&dist
@@ -4448,7 +4539,7 @@
                         │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2005-2541 
                         │      ├ PublishedDate   : 2005-08-10T04:00:00Z 
                         │      ╰ LastModifiedDate: 2023-11-07T01:57:39.453Z 
-                        ╰ [68] ╭ VulnerabilityID : CVE-2023-39804 
+                        ╰ [70] ╭ VulnerabilityID : CVE-2023-39804 
                                ├ PkgID           : tar@1.34-6.el9_1.x86_64 
                                ├ PkgName         : tar 
                                ├ PkgIdentifier    ─ PURL: pkg:rpm/redhat/tar@1.34-6.el9_1?arch=x86_64&dist

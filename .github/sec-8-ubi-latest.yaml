@@ -566,10 +566,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FPLC6WDSRDUYS7F7JWAOVOHFNOUQ43DD/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LKJ7V5F6LJCEQJXDBWGT27J7NAP3E3N7/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-28757
+    - https://security.netapp.com/advisory/ntap-20240322-0001/
     - https://ubuntu.com/security/notices/USN-6694-1
     - https://www.cve.org/CVERecord?id=CVE-2024-28757
     PublishedDate: '2024-03-10T05:15:06.57Z'
-    LastModifiedDate: '2024-03-19T03:15:06.893Z'
+    LastModifiedDate: '2024-03-22T19:15:08.663Z'
   - VulnerabilityID: CVE-2022-48554
     PkgID: file-libs@5.39-14.el9.x86_64
     PkgName: file-libs
@@ -743,6 +744,78 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
     LastModifiedDate: '2023-05-26T16:31:34.07Z'
+  - VulnerabilityID: CVE-2024-28834
+    PkgID: gnutls@3.7.6-23.el9_3.3.x86_64
+    PkgName: gnutls
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/gnutls@3.7.6-23.el9_3.3?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 3.7.6-23.el9_3.3
+    Status: affected
+    Layer:
+      Digest: sha256:c2efce6c65fde8904da2ac69fa6d2352cc2a63e8fb73dba403746b11c8dbea5f
+      DiffID: sha256:02cf6fe02f439481a89113be4acde51820385e1badafb88af79379218d2f3498
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-28834
+    Title: 'gnutls: vulnerable to Minerva side-channel information leak'
+    Description: A flaw was found in GnuTLS. The Minerva attack is a cryptographic vulnerability that exploits deterministic behavior in systems like GnuTLS, leading to side-channel leaks. In specific scenarios, such as when using the GNUTLS_PRIVKEY_FLAG_REPRODUCIBLE flag, it can result in a noticeable step in nonce size from 513 to 512 bits, exposing a potential timing side-channel.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-200
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-28834
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2269228
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28834
+    - https://gitlab.com/gnutls/gnutls/-/issues/1516
+    - https://lists.gnupg.org/pipermail/gnutls-help/2024-March/004845.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-28834
+    - https://people.redhat.com/~hkario/marvin/
+    - https://www.cve.org/CVERecord?id=CVE-2024-28834
+    - https://www.gnutls.org/security-new.html#GNUTLS-SA-2023-12-04
+    PublishedDate: '2024-03-21T14:15:07.547Z'
+    LastModifiedDate: '2024-03-21T15:24:35.093Z'
+  - VulnerabilityID: CVE-2024-28835
+    PkgID: gnutls@3.7.6-23.el9_3.3.x86_64
+    PkgName: gnutls
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/gnutls@3.7.6-23.el9_3.3?arch=x86_64&distro=redhat-9.3
+    InstalledVersion: 3.7.6-23.el9_3.3
+    Status: affected
+    Layer:
+      Digest: sha256:c2efce6c65fde8904da2ac69fa6d2352cc2a63e8fb73dba403746b11c8dbea5f
+      DiffID: sha256:02cf6fe02f439481a89113be4acde51820385e1badafb88af79379218d2f3498
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-28835
+    Title: 'gnutls: potential crash during chain building/verification'
+    Description: A flaw has been discovered in GnuTLS where an application crash can be induced when attempting to verify a specially crafted .pem bundle using the "certtool --verify-chain" command.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-248
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-28835
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2269084
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28835
+    - https://gitlab.com/gnutls/gnutls/-/issues/1525
+    - https://gitlab.com/gnutls/gnutls/-/issues/1527
+    - https://lists.gnupg.org/pipermail/gnutls-help/2024-March/004845.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-28835
+    - https://www.cve.org/CVERecord?id=CVE-2024-28835
+    - https://www.gnutls.org/security-new.html#GNUTLS-SA-2024-01-23
+    PublishedDate: '2024-03-21T06:15:45.113Z'
+    LastModifiedDate: '2024-03-21T12:58:51.093Z'
   - VulnerabilityID: CVE-2023-25193
     PkgID: harfbuzz@2.7.4-8.el9.x86_64
     PkgName: harfbuzz
@@ -1207,7 +1280,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45322
     - https://www.cve.org/CVERecord?id=CVE-2023-45322
     PublishedDate: '2023-10-06T22:15:11.66Z'
-    LastModifiedDate: '2023-11-07T04:21:45Z'
+    LastModifiedDate: '2024-03-21T02:49:16.44Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd@1.5.1-2.el9.x86_64
     PkgName: libzstd
@@ -1900,7 +1973,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       nvd: 2
       oracle-oval: 2
       photon: 2
@@ -1936,6 +2009,7 @@
     - https://ubuntu.com/security/notices/USN-6435-1
     - https://ubuntu.com/security/notices/USN-6435-2
     - https://ubuntu.com/security/notices/USN-6450-1
+    - https://ubuntu.com/security/notices/USN-6709-1
     - https://www.cve.org/CVERecord?id=CVE-2023-3446
     - https://www.openssl.org/news/secadv/20230719.txt
     PublishedDate: '2023-07-19T12:15:10.003Z'
@@ -1986,7 +2060,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2027,6 +2101,7 @@
     - https://ubuntu.com/security/notices/USN-6435-1
     - https://ubuntu.com/security/notices/USN-6435-2
     - https://ubuntu.com/security/notices/USN-6450-1
+    - https://ubuntu.com/security/notices/USN-6709-1
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:10.497Z'
@@ -2083,7 +2158,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2115,6 +2190,7 @@
     - https://security.netapp.com/advisory/ntap-20231130-0010/
     - https://ubuntu.com/security/notices/USN-6622-1
     - https://ubuntu.com/security/notices/USN-6632-1
+    - https://ubuntu.com/security/notices/USN-6709-1
     - https://www.cve.org/CVERecord?id=CVE-2023-5678
     - https://www.openssl.org/news/secadv/20231106.txt
     PublishedDate: '2023-11-06T16:15:42.67Z'
@@ -2260,7 +2336,7 @@
       The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.
     Severity: LOW
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -2294,6 +2370,7 @@
     - https://security.netapp.com/advisory/ntap-20240208-0006/
     - https://ubuntu.com/security/notices/USN-6622-1
     - https://ubuntu.com/security/notices/USN-6632-1
+    - https://ubuntu.com/security/notices/USN-6709-1
     - https://www.cve.org/CVERecord?id=CVE-2024-0727
     - https://www.openssl.org/news/secadv/20240125.txt
     PublishedDate: '2024-01-26T09:15:07.637Z'
@@ -2411,7 +2488,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       nvd: 2
       oracle-oval: 2
       photon: 2
@@ -2447,6 +2524,7 @@
     - https://ubuntu.com/security/notices/USN-6435-1
     - https://ubuntu.com/security/notices/USN-6435-2
     - https://ubuntu.com/security/notices/USN-6450-1
+    - https://ubuntu.com/security/notices/USN-6709-1
     - https://www.cve.org/CVERecord?id=CVE-2023-3446
     - https://www.openssl.org/news/secadv/20230719.txt
     PublishedDate: '2023-07-19T12:15:10.003Z'
@@ -2497,7 +2575,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2538,6 +2616,7 @@
     - https://ubuntu.com/security/notices/USN-6435-1
     - https://ubuntu.com/security/notices/USN-6435-2
     - https://ubuntu.com/security/notices/USN-6450-1
+    - https://ubuntu.com/security/notices/USN-6709-1
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
     PublishedDate: '2023-07-31T16:15:10.497Z'
@@ -2594,7 +2673,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
@@ -2626,6 +2705,7 @@
     - https://security.netapp.com/advisory/ntap-20231130-0010/
     - https://ubuntu.com/security/notices/USN-6622-1
     - https://ubuntu.com/security/notices/USN-6632-1
+    - https://ubuntu.com/security/notices/USN-6709-1
     - https://www.cve.org/CVERecord?id=CVE-2023-5678
     - https://www.openssl.org/news/secadv/20231106.txt
     PublishedDate: '2023-11-06T16:15:42.67Z'
@@ -2771,7 +2851,7 @@
       The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.
     Severity: LOW
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -2805,6 +2885,7 @@
     - https://security.netapp.com/advisory/ntap-20240208-0006/
     - https://ubuntu.com/security/notices/USN-6622-1
     - https://ubuntu.com/security/notices/USN-6632-1
+    - https://ubuntu.com/security/notices/USN-6709-1
     - https://www.cve.org/CVERecord?id=CVE-2024-0727
     - https://www.openssl.org/news/secadv/20240125.txt
     PublishedDate: '2024-01-26T09:15:07.637Z'
@@ -3118,7 +3199,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36632
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:09.313Z'
-    LastModifiedDate: '2023-11-07T04:16:39.19Z'
+    LastModifiedDate: '2024-03-21T02:48:03.197Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python3@3.9.18-1.el9_3.1.x86_64
     PkgName: python3
@@ -3309,7 +3390,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36632
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:09.313Z'
-    LastModifiedDate: '2023-11-07T04:16:39.19Z'
+    LastModifiedDate: '2024-03-21T02:48:03.197Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python3-libs@3.9.18-1.el9_3.1.x86_64
     PkgName: python3-libs
@@ -3500,7 +3581,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36632
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:09.313Z'
-    LastModifiedDate: '2023-11-07T04:16:39.19Z'
+    LastModifiedDate: '2024-03-21T02:48:03.197Z'
   - VulnerabilityID: CVE-2021-3572
     PkgID: python3-pip-wheel@21.2.3-7.el9_3.1.noarch
     PkgName: python3-pip-wheel
