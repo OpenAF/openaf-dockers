@@ -2,135 +2,52 @@
 ─ [0] ╭ Target         : openaf/oaf:8-latest (alpine 3.19.1) 
       ├ Class          : os-pkgs 
       ├ Type           : alpine 
-      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2021-40633 
-                        │     ├ PkgID           : giflib@5.2.1-r5 
-                        │     ├ PkgName         : giflib 
-                        │     ├ PkgIdentifier    ─ PURL: pkg:apk/alpine/giflib@5.2.1-r5?arch=x86_64&distro
-                        │     │                          =3.19.1 
-                        │     ├ InstalledVersion: 5.2.1-r5 
-                        │     ├ FixedVersion    : 5.2.2-r0 
-                        │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:da85322c4f03bc78bcadc233564e50da690f7fdc
-                        │     │                  │         646731cbf62c119c302e1474 
-                        │     │                  ╰ DiffID: sha256:6325e321c0609fd7d6d32fa70addc6e0e74adcce
-                        │     │                            57338c948f1ecd1cf03c09ff 
-                        │     ├ SeveritySource  : nvd 
-                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-40633 
-                        │     ├ DataSource       ╭ ID  : alpine 
-                        │     │                  ├ Name: Alpine Secdb 
-                        │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                        │     ├ Title           : A memory leak (out-of-memory) in gif2rgb in
-                        │     │                   util/gif2rgb.c in giflib 5 ... 
-                        │     ├ Description     : A memory leak (out-of-memory) in gif2rgb in
-                        │     │                   util/gif2rgb.c in giflib 5.1.4 allows remote attackers
-                        │     │                   trigger an out of memory exception or denial of service via a
-                        │     │                    gif format file. 
-                        │     ├ Severity        : HIGH 
-                        │     ├ CweIDs           ─ [0]: CWE-401 
-                        │     ├ VendorSeverity   ╭ nvd   : 3 
-                        │     │                  ╰ ubuntu: 1 
-                        │     ├ CVSS             ─ nvd ╭ V2Vector: AV:N/AC:H/Au:N/C:P/I:P/A:P 
-                        │     │                        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H 
-                        │     │                        ├ V2Score : 5.1 
-                        │     │                        ╰ V3Score : 8.8 
-                        │     ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
-                        │     │                  │      -2021-40633 
-                        │     │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2021-40633 
-                        │     │                  ╰ [2]: https://sourceforge.net/p/giflib/bugs/157/ 
-                        │     ├ PublishedDate   : 2022-06-14T11:15:10.47Z 
-                        │     ╰ LastModifiedDate: 2022-06-23T14:20:26.143Z 
-                        ├ [1] ╭ VulnerabilityID : CVE-2023-48161 
-                        │     ├ PkgID           : giflib@5.2.1-r5 
-                        │     ├ PkgName         : giflib 
-                        │     ├ PkgIdentifier    ─ PURL: pkg:apk/alpine/giflib@5.2.1-r5?arch=x86_64&distro
-                        │     │                          =3.19.1 
-                        │     ├ InstalledVersion: 5.2.1-r5 
-                        │     ├ FixedVersion    : 5.2.2-r0 
-                        │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:da85322c4f03bc78bcadc233564e50da690f7fdc
-                        │     │                  │         646731cbf62c119c302e1474 
-                        │     │                  ╰ DiffID: sha256:6325e321c0609fd7d6d32fa70addc6e0e74adcce
-                        │     │                            57338c948f1ecd1cf03c09ff 
-                        │     ├ SeveritySource  : nvd 
-                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-48161 
-                        │     ├ DataSource       ╭ ID  : alpine 
-                        │     │                  ├ Name: Alpine Secdb 
-                        │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                        │     ├ Title           : giflib: Heap-Buffer Overflow during Image Saving in
-                        │     │                   DumpScreen2RGB Function 
-                        │     ├ Description     : Buffer Overflow vulnerability in GifLib Project GifLib
-                        │     │                   v.5.2.1 allows a local attacker to obtain sensitive
-                        │     │                   information via the DumpSCreen2RGB function in gif2rgb.c[
-                        │     │                   m 
-                        │     ├ Severity        : HIGH 
-                        │     ├ CweIDs           ─ [0]: CWE-787 
-                        │     ├ VendorSeverity   ╭ nvd   : 3 
-                        │     │                  ├ redhat: 2 
-                        │     │                  ╰ ubuntu: 1 
-                        │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H
-                        │     │                  │        │           /I:N/A:H 
-                        │     │                  │        ╰ V3Score : 7.1 
-                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H
-                        │     │                           │           /I:N/A:H 
-                        │     │                           ╰ V3Score : 7.1 
-                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-48161 
-                        │     │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
-                        │     │                  │      -2023-48161 
-                        │     │                  ├ [2]: https://github.com/tacetool/TACE#cve-2023-48161 
-                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-48161 
-                        │     │                  ├ [4]: https://sourceforge.net/p/giflib/bugs/167/ 
-                        │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-48161 
-                        │     ├ PublishedDate   : 2023-11-22T06:15:43.123Z 
-                        │     ╰ LastModifiedDate: 2023-11-29T18:48:53.683Z 
-                        ╰ [2] ╭ VulnerabilityID : CVE-2023-39742 
-                              ├ PkgID           : giflib@5.2.1-r5 
-                              ├ PkgName         : giflib 
-                              ├ PkgIdentifier    ─ PURL: pkg:apk/alpine/giflib@5.2.1-r5?arch=x86_64&distro
-                              │                          =3.19.1 
-                              ├ InstalledVersion: 5.2.1-r5 
-                              ├ FixedVersion    : 5.2.2-r0 
+      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2024-25629 
+                              ├ PkgID           : c-ares@1.24.0-r1 
+                              ├ PkgName         : c-ares 
+                              ├ PkgIdentifier    ─ PURL: pkg:apk/alpine/c-ares@1.24.0-r1?arch=x86_64&distr
+                              │                          o=3.19.1 
+                              ├ InstalledVersion: 1.24.0-r1 
+                              ├ FixedVersion    : 1.27.0-r0 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:da85322c4f03bc78bcadc233564e50da690f7fdc
-                              │                  │         646731cbf62c119c302e1474 
-                              │                  ╰ DiffID: sha256:6325e321c0609fd7d6d32fa70addc6e0e74adcce
-                              │                            57338c948f1ecd1cf03c09ff 
-                              ├ SeveritySource  : nvd 
-                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-39742 
+                              ├ Layer            ╭ Digest: sha256:604414ded2530e1bdd4d78f5a447f422d0ec7d27
+                              │                  │         2c2033bd2f960470c478ec64 
+                              │                  ╰ DiffID: sha256:ebd52dbab23b79a601f35d7b3509191dcd5c9797
+                              │                            431737375dd9905f5165a736 
+                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-25629 
                               ├ DataSource       ╭ ID  : alpine 
                               │                  ├ Name: Alpine Secdb 
                               │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                              ├ Title           : giflib: segfault via getarg.c 
-                              ├ Description     : giflib v5.2.1 was discovered to contain a segmentation
-                              │                   fault via the component getarg.c. 
+                              ├ Title           : c-ares: Out of bounds read in ares__read_line() 
+                              ├ Description     : c-ares is a C library for asynchronous DNS requests.
+                              │                   `ares__read_line()` is used to parse local configuration
+                              │                   files such as `/etc/resolv.conf`, `/etc/nsswitch.conf`, the
+                              │                   `HOSTALIASES` file, and if using a c-ares version prior to
+                              │                   1.27.0, the `/etc/hosts` file. If any of these configuration
+                              │                   files has an embedded `NULL` character as the first character
+                              │                    in a new line, it can lead to attempting to read memory
+                              │                   prior to the start of the given buffer which may result in a
+                              │                   crash. This issue is fixed in c-ares 1.27.0. No known
+                              │                   workarounds exist. 
                               ├ Severity        : MEDIUM 
-                              ├ CweIDs           ─ [0]: CWE-120 
+                              ├ CweIDs           ─ [0]: CWE-127 
                               ├ VendorSeverity   ╭ amazon: 2 
-                              │                  ├ nvd   : 2 
+                              │                  ├ photon: 2 
                               │                  ├ redhat: 1 
-                              │                  ╰ ubuntu: 1 
-                              ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N
-                              │                  │        │           /I:N/A:H 
-                              │                  │        ╰ V3Score : 5.5 
-                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N
-                              │                           │           /I:N/A:L 
-                              │                           ╰ V3Score : 2.8 
-                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-39742 
+                              │                  ╰ ubuntu: 2 
+                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N
+                              │                           │           /I:N/A:H 
+                              │                           ╰ V3Score : 4.4 
+                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-25629 
                               │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE
-                              │                  │      -2023-39742 
-                              │                  ├ [2]: https://gist.github.com/huanglei3/ec9090096aa92445
-                              │                  │      cf0a8baa8e929084 
-                              │                  ├ [3]: https://lists.fedoraproject.org/archives/list/pack
-                              │                  │      age-announce%40lists.fedoraproject.org/message/O4RLSFGP
-                              │                  │      BPR3FMIUJCWPGVIYIU35YGQX/ 
-                              │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pack
-                              │                  │      age-announce%40lists.fedoraproject.org/message/OPNBOB65
-                              │                  │      TEA4ZEPLVENI26BY4LEX7TEF/ 
-                              │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pack
-                              │                  │      age-announce%40lists.fedoraproject.org/message/T5WO6WL2
-                              │                  │      TCGO6T4VKGACDIVSZI74WJAU/ 
-                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-39742 
-                              │                  ├ [7]: https://sourceforge.net/p/giflib/bugs/166/ 
-                              │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-39742 
-                              ├ PublishedDate   : 2023-08-25T14:15:09.763Z 
-                              ╰ LastModifiedDate: 2023-11-07T04:17:37.49Z 
+                              │                  │      -2024-25629 
+                              │                  ├ [2]: https://github.com/c-ares/c-ares/commit/a804c04ddc
+                              │                  │      8245fc8adf0e92368709639125e183 
+                              │                  ├ [3]: https://github.com/c-ares/c-ares/security/advisori
+                              │                  │      es/GHSA-mg26-v6qh-x48q 
+                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-25629 
+                              │                  ├ [5]: https://ubuntu.com/security/notices/USN-6676-1 
+                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-25629 
+                              ├ PublishedDate   : 2024-02-23T15:15:09.237Z 
+                              ╰ LastModifiedDate: 2024-02-23T16:14:43.447Z 
 ````
