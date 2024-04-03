@@ -13,8 +13,8 @@
     InstalledVersion: 0.12.5
     Status: affected
     Layer:
-      Digest: sha256:2f2afca8a17491e30b0f0885ae6e92bfc868c1138d33c88b72c004b2d5979fa3
-      DiffID: sha256:4a8f59282433622a31137705f43abc9d27ea08e2b8e75322226516997a8096b6
+      Digest: sha256:21f36e7c0938ed8bba753979c67e153b863a072c5100eb255a1a832caf3751e1
+      DiffID: sha256:047c5eed395b34f09b63bb3e3e332fe44a5dab94e7c39ccaea8833719c2a2f7e
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-31033
     DataSource:
