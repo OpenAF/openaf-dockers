@@ -11,10 +11,10 @@
                               ├ PkgIdentifier    ─ PURL: pkg:maven/io.jsonwebtoken/jjwt-impl@0.12.5 
                               ├ InstalledVersion: 0.12.5 
                               ├ Status          : affected 
-                              ├ Layer            ╭ Digest: sha256:104d352fd1fe01c498d1127c02d7b26fb9499b61
-                              │                  │         79efa19b2db7792dbd9aa7d1 
-                              │                  ╰ DiffID: sha256:a26595764fc211492761a4fed2bcff2c586e3462
-                              │                            b2dfbac7a15db1f6cb8c6a9a 
+                              ├ Layer            ╭ Digest: sha256:d45fe311ce24b4729d90c5c835d60262dacd8b7d
+                              │                  │         dd578eb3438e7b2dcff0fbc3 
+                              │                  ╰ DiffID: sha256:e36199746d4bee05eb2115363e4b87495b549223
+                              │                            3bd42f173b502cf7694b4c71 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-31033 
                               ├ DataSource       ╭ ID  : ghsa 
