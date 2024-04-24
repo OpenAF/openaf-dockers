@@ -951,9 +951,11 @@
                         │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-2961 
                         │      │                  ├ [5]: https://sourceware.org/git/?p=glibc.git;a=blob;f=
                         │      │                  │      advisories/GLIBC-SA-2024-0004 
-                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6737-1 
-                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
-                        │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2024/
+                        │      │                  ├ [6]: https://sourceware.org/git?p=glibc.git;a=commit;h
+                        │      │                  │      =f9dc609e06b1136bb0408be9605ce7973a767ada 
+                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6737-1 
+                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
+                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024/
                         │      │                         04/17/9 
                         │      ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
                         │      ╰ LastModifiedDate: 2024-04-20T03:15:07.047Z 
@@ -998,9 +1000,11 @@
                         │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-2961 
                         │      │                  ├ [5]: https://sourceware.org/git/?p=glibc.git;a=blob;f=
                         │      │                  │      advisories/GLIBC-SA-2024-0004 
-                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6737-1 
-                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
-                        │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2024/
+                        │      │                  ├ [6]: https://sourceware.org/git?p=glibc.git;a=commit;h
+                        │      │                  │      =f9dc609e06b1136bb0408be9605ce7973a767ada 
+                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6737-1 
+                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
+                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024/
                         │      │                         04/17/9 
                         │      ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
                         │      ╰ LastModifiedDate: 2024-04-20T03:15:07.047Z 
@@ -1045,9 +1049,11 @@
                         │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-2961 
                         │      │                  ├ [5]: https://sourceware.org/git/?p=glibc.git;a=blob;f=
                         │      │                  │      advisories/GLIBC-SA-2024-0004 
-                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6737-1 
-                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
-                        │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2024/
+                        │      │                  ├ [6]: https://sourceware.org/git?p=glibc.git;a=commit;h
+                        │      │                  │      =f9dc609e06b1136bb0408be9605ce7973a767ada 
+                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6737-1 
+                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
+                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024/
                         │      │                         04/17/9 
                         │      ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
                         │      ╰ LastModifiedDate: 2024-04-20T03:15:07.047Z 
@@ -1244,7 +1250,7 @@
                         │      │                  ├ [5] : https://bugzilla.redhat.com/2275005 
                         │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2024-1825.html 
                         │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-21011.html 
-                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-1825.html 
+                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-1828.html 
                         │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       4/04/msg00014.html 
                         │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21011 
@@ -1307,7 +1313,7 @@
                         │      │                  ├ [5] : https://bugzilla.redhat.com/2275005 
                         │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2024-1825.html 
                         │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-21068.html 
-                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-1825.html 
+                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-1828.html 
                         │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       4/04/msg00014.html 
                         │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21068 
@@ -1434,7 +1440,7 @@
                         │      │                  ├ [5] : https://bugzilla.redhat.com/2275005 
                         │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2024-1825.html 
                         │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-21012.html 
-                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-1825.html 
+                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-1828.html 
                         │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/202
                         │      │                  │       4/04/msg00014.html 
                         │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21012 
@@ -2694,7 +2700,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-1333 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
@@ -2806,7 +2812,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-834 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -2937,7 +2943,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-754 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -3165,7 +3171,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      ├ VendorSeverity   ╭ amazon: 3 
                         │      │                  ├ ghsa  : 2 
                         │      │                  ├ nvd   : 2 
                         │      │                  ├ photon: 2 
@@ -3426,7 +3432,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-1333 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
                         │      │                  ├ photon     : 2 
@@ -3538,7 +3544,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-834 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -3669,7 +3675,7 @@
                         │      ├ Severity        : LOW 
                         │      ├ CweIDs           ─ [0]: CWE-754 
                         │      ├ VendorSeverity   ╭ alma       : 1 
-                        │      │                  ├ amazon     : 2 
+                        │      │                  ├ amazon     : 3 
                         │      │                  ├ cbl-mariner: 2 
                         │      │                  ├ nvd        : 2 
                         │      │                  ├ oracle-oval: 2 
@@ -3897,7 +3903,7 @@
                         │      │                   The FIPS modules in 3.2, 3.1 and 3.0 are not affected by
                         │      │                   this issue. 
                         │      ├ Severity        : LOW 
-                        │      ├ VendorSeverity   ╭ amazon: 2 
+                        │      ├ VendorSeverity   ╭ amazon: 3 
                         │      │                  ├ ghsa  : 2 
                         │      │                  ├ nvd   : 2 
                         │      │                  ├ photon: 2 
