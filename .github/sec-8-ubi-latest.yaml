@@ -575,6 +575,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 7.5
     References:
+    - http://www.openwall.com/lists/oss-security/2024/03/27/3
     - https://access.redhat.com/security/cve/CVE-2024-2398
     - https://curl.se/docs/CVE-2024-2398.html
     - https://curl.se/docs/CVE-2024-2398.json
@@ -587,7 +588,7 @@
     - https://ubuntu.com/security/notices/USN-6718-3
     - https://www.cve.org/CVERecord?id=CVE-2024-2398
     PublishedDate: '2024-03-27T08:15:41.283Z'
-    LastModifiedDate: '2024-04-25T06:15:58.64Z'
+    LastModifiedDate: '2024-05-01T18:15:19.207Z'
   - VulnerabilityID: CVE-2022-48554
     VendorIDs:
     - RHSA-2024:2512
@@ -708,6 +709,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.8
     References:
+    - http://www.openwall.com/lists/oss-security/2024/04/17/9
+    - http://www.openwall.com/lists/oss-security/2024/04/18/4
+    - http://www.openwall.com/lists/oss-security/2024/04/24/2
     - https://access.redhat.com/security/cve/CVE-2024-2961
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/
@@ -719,7 +723,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
     PublishedDate: '2024-04-17T18:15:15.833Z'
-    LastModifiedDate: '2024-04-20T03:15:07.047Z'
+    LastModifiedDate: '2024-05-01T18:15:19.437Z'
   - VulnerabilityID: CVE-2024-33599
     PkgID: glibc@2.34-83.el9_3.12.x86_64
     PkgName: glibc
@@ -848,6 +852,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.8
     References:
+    - http://www.openwall.com/lists/oss-security/2024/04/17/9
+    - http://www.openwall.com/lists/oss-security/2024/04/18/4
+    - http://www.openwall.com/lists/oss-security/2024/04/24/2
     - https://access.redhat.com/security/cve/CVE-2024-2961
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/
@@ -859,7 +866,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
     PublishedDate: '2024-04-17T18:15:15.833Z'
-    LastModifiedDate: '2024-04-20T03:15:07.047Z'
+    LastModifiedDate: '2024-05-01T18:15:19.437Z'
   - VulnerabilityID: CVE-2024-33599
     PkgID: glibc-common@2.34-83.el9_3.12.x86_64
     PkgName: glibc-common
@@ -988,6 +995,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.8
     References:
+    - http://www.openwall.com/lists/oss-security/2024/04/17/9
+    - http://www.openwall.com/lists/oss-security/2024/04/18/4
+    - http://www.openwall.com/lists/oss-security/2024/04/24/2
     - https://access.redhat.com/security/cve/CVE-2024-2961
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/
@@ -999,7 +1009,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
     PublishedDate: '2024-04-17T18:15:15.833Z'
-    LastModifiedDate: '2024-04-20T03:15:07.047Z'
+    LastModifiedDate: '2024-05-01T18:15:19.437Z'
   - VulnerabilityID: CVE-2024-33599
     PkgID: glibc-minimal-langpack@2.34-83.el9_3.12.x86_64
     PkgName: glibc-minimal-langpack
@@ -1171,6 +1181,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2024/03/22/1
+    - http://www.openwall.com/lists/oss-security/2024/03/22/2
     - https://access.redhat.com/errata/RHSA-2024:1784
     - https://access.redhat.com/errata/RHSA-2024:1879
     - https://access.redhat.com/errata/RHSA-2024:1997
@@ -1192,7 +1204,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-28834
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2023-12-04
     PublishedDate: '2024-03-21T14:15:07.547Z'
-    LastModifiedDate: '2024-04-30T20:15:07.763Z'
+    LastModifiedDate: '2024-05-01T18:15:17.683Z'
   - VulnerabilityID: CVE-2024-28835
     VendorIDs:
     - RHSA-2024:2570
@@ -1225,6 +1237,8 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5
     References:
+    - http://www.openwall.com/lists/oss-security/2024/03/22/1
+    - http://www.openwall.com/lists/oss-security/2024/03/22/2
     - https://access.redhat.com/errata/RHSA-2024:1879
     - https://access.redhat.com/errata/RHSA-2024:2570
     - https://access.redhat.com/security/cve/CVE-2024-28835
@@ -1241,7 +1255,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-28835
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2024-01-23
     PublishedDate: '2024-03-21T06:15:45.113Z'
-    LastModifiedDate: '2024-04-30T20:15:07.89Z'
+    LastModifiedDate: '2024-05-01T18:15:17.79Z'
   - VulnerabilityID: CVE-2023-25193
     VendorIDs:
     - RHSA-2024:2410
@@ -1492,6 +1506,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 7.5
     References:
+    - http://www.openwall.com/lists/oss-security/2024/03/27/3
     - https://access.redhat.com/security/cve/CVE-2024-2398
     - https://curl.se/docs/CVE-2024-2398.html
     - https://curl.se/docs/CVE-2024-2398.json
@@ -1504,7 +1519,7 @@
     - https://ubuntu.com/security/notices/USN-6718-3
     - https://www.cve.org/CVERecord?id=CVE-2024-2398
     PublishedDate: '2024-03-27T08:15:41.283Z'
-    LastModifiedDate: '2024-04-25T06:15:58.64Z'
+    LastModifiedDate: '2024-05-01T18:15:19.207Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc@11.4.1-2.1.el9.x86_64
     PkgName: libgcc
@@ -1612,6 +1627,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - http://www.openwall.com/lists/oss-security/2024/04/03/16
+    - http://www.openwall.com/lists/oss-security/2024/04/04/4
     - https://access.redhat.com/errata/RHSA-2024:1872
     - https://access.redhat.com/security/cve/CVE-2024-27316
     - https://bugzilla.redhat.com/2268277
@@ -1632,7 +1649,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-27316
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T20:15:08.72Z'
-    LastModifiedDate: '2024-04-21T04:15:08.147Z'
+    LastModifiedDate: '2024-05-01T18:15:16.023Z'
   - VulnerabilityID: CVE-2022-3857
     PkgID: libpng@1.6.37-12.el9.x86_64
     PkgName: libpng
@@ -2721,6 +2738,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2024/03/11/1
     - https://access.redhat.com/errata/RHSA-2023:7877
     - https://access.redhat.com/security/cve/CVE-2023-5678
     - https://bugzilla.redhat.com/2224962
@@ -2741,7 +2759,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-5678
     - https://www.openssl.org/news/secadv/20231106.txt
     PublishedDate: '2023-11-06T16:15:42.67Z'
-    LastModifiedDate: '2023-11-30T22:15:09.723Z'
+    LastModifiedDate: '2024-05-01T18:15:12.393Z'
   - VulnerabilityID: CVE-2023-6129
     VendorIDs:
     - RHSA-2024:2447
@@ -2805,6 +2823,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
         V3Score: 6.5
     References:
+    - http://www.openwall.com/lists/oss-security/2024/03/11/1
     - https://access.redhat.com/security/cve/CVE-2023-6129
     - https://github.com/openssl/openssl/commit/050d26383d4e264966fb83428e72d5d48f402d35
     - https://github.com/openssl/openssl/commit/5b139f95c9a47a55a0c54100f3837b1eee942b04
@@ -2818,7 +2837,7 @@
     - https://www.openssl.org/news/secadv/20240109.txt
     - https://www.openwall.com/lists/oss-security/2024/01/09/1
     PublishedDate: '2024-01-09T17:15:12.147Z'
-    LastModifiedDate: '2024-04-26T09:15:08.91Z'
+    LastModifiedDate: '2024-05-01T18:15:12.49Z'
   - VulnerabilityID: CVE-2023-6237
     VendorIDs:
     - RHSA-2024:2447
@@ -2872,6 +2891,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - http://www.openwall.com/lists/oss-security/2024/03/11/1
     - https://access.redhat.com/security/cve/CVE-2023-6237
     - https://github.com/openssl/openssl/commit/0b0f7abfb37350794a4b8960fafc292cd5d1b84d
     - https://github.com/openssl/openssl/commit/18c02492138d1eb8b6548cb26e7b625fb2414a2a
@@ -2882,7 +2902,7 @@
     - https://www.openssl.org/news/secadv/20240115.txt
     - https://www.openwall.com/lists/oss-security/2024/01/15/2
     PublishedDate: '2024-04-25T07:15:45.27Z'
-    LastModifiedDate: '2024-04-25T13:18:13.537Z'
+    LastModifiedDate: '2024-05-01T18:15:12.59Z'
   - VulnerabilityID: CVE-2024-0727
     VendorIDs:
     - RHSA-2024:2447
@@ -2940,6 +2960,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
+    - http://www.openwall.com/lists/oss-security/2024/03/11/1
     - https://access.redhat.com/security/cve/CVE-2024-0727
     - https://github.com/alexcrichton/openssl-src-rs/commit/add20f73b6b42be7451af2e1044d4e0e778992b2
     - https://github.com/github/advisory-database/pull/3472
@@ -2959,7 +2980,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-0727
     - https://www.openssl.org/news/secadv/20240125.txt
     PublishedDate: '2024-01-26T09:15:07.637Z'
-    LastModifiedDate: '2024-02-08T10:15:13.91Z'
+    LastModifiedDate: '2024-05-01T18:15:13.057Z'
   - VulnerabilityID: CVE-2024-2511
     PkgID: openssl@3.0.7-25.el9_3.x86_64
     PkgName: openssl
@@ -3003,6 +3024,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
     References:
+    - http://www.openwall.com/lists/oss-security/2024/04/08/5
     - https://access.redhat.com/security/cve/CVE-2024-2511
     - https://github.com/openssl/openssl/commit/7e4d731b1c07201ad9374c1cd9ac5263bdf35bce
     - https://github.com/openssl/openssl/commit/b52867a9f618bb955bed2a3ce3db4d4f97ed8e5d
@@ -3013,7 +3035,7 @@
     - https://www.openssl.org/news/secadv/20240408.txt
     - https://www.openssl.org/news/vulnerabilities.html
     PublishedDate: '2024-04-08T14:15:07.66Z'
-    LastModifiedDate: '2024-04-08T18:48:40.217Z'
+    LastModifiedDate: '2024-05-01T19:15:23.677Z'
   - VulnerabilityID: CVE-2023-2975
     VendorIDs:
     - RHSA-2024:2447
@@ -3336,6 +3358,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2024/03/11/1
     - https://access.redhat.com/errata/RHSA-2023:7877
     - https://access.redhat.com/security/cve/CVE-2023-5678
     - https://bugzilla.redhat.com/2224962
@@ -3356,7 +3379,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-5678
     - https://www.openssl.org/news/secadv/20231106.txt
     PublishedDate: '2023-11-06T16:15:42.67Z'
-    LastModifiedDate: '2023-11-30T22:15:09.723Z'
+    LastModifiedDate: '2024-05-01T18:15:12.393Z'
   - VulnerabilityID: CVE-2023-6129
     VendorIDs:
     - RHSA-2024:2447
@@ -3420,6 +3443,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
         V3Score: 6.5
     References:
+    - http://www.openwall.com/lists/oss-security/2024/03/11/1
     - https://access.redhat.com/security/cve/CVE-2023-6129
     - https://github.com/openssl/openssl/commit/050d26383d4e264966fb83428e72d5d48f402d35
     - https://github.com/openssl/openssl/commit/5b139f95c9a47a55a0c54100f3837b1eee942b04
@@ -3433,7 +3457,7 @@
     - https://www.openssl.org/news/secadv/20240109.txt
     - https://www.openwall.com/lists/oss-security/2024/01/09/1
     PublishedDate: '2024-01-09T17:15:12.147Z'
-    LastModifiedDate: '2024-04-26T09:15:08.91Z'
+    LastModifiedDate: '2024-05-01T18:15:12.49Z'
   - VulnerabilityID: CVE-2023-6237
     VendorIDs:
     - RHSA-2024:2447
@@ -3487,6 +3511,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - http://www.openwall.com/lists/oss-security/2024/03/11/1
     - https://access.redhat.com/security/cve/CVE-2023-6237
     - https://github.com/openssl/openssl/commit/0b0f7abfb37350794a4b8960fafc292cd5d1b84d
     - https://github.com/openssl/openssl/commit/18c02492138d1eb8b6548cb26e7b625fb2414a2a
@@ -3497,7 +3522,7 @@
     - https://www.openssl.org/news/secadv/20240115.txt
     - https://www.openwall.com/lists/oss-security/2024/01/15/2
     PublishedDate: '2024-04-25T07:15:45.27Z'
-    LastModifiedDate: '2024-04-25T13:18:13.537Z'
+    LastModifiedDate: '2024-05-01T18:15:12.59Z'
   - VulnerabilityID: CVE-2024-0727
     VendorIDs:
     - RHSA-2024:2447
@@ -3555,6 +3580,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
+    - http://www.openwall.com/lists/oss-security/2024/03/11/1
     - https://access.redhat.com/security/cve/CVE-2024-0727
     - https://github.com/alexcrichton/openssl-src-rs/commit/add20f73b6b42be7451af2e1044d4e0e778992b2
     - https://github.com/github/advisory-database/pull/3472
@@ -3574,7 +3600,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-0727
     - https://www.openssl.org/news/secadv/20240125.txt
     PublishedDate: '2024-01-26T09:15:07.637Z'
-    LastModifiedDate: '2024-02-08T10:15:13.91Z'
+    LastModifiedDate: '2024-05-01T18:15:13.057Z'
   - VulnerabilityID: CVE-2024-2511
     PkgID: openssl-libs@3.0.7-25.el9_3.x86_64
     PkgName: openssl-libs
@@ -3618,6 +3644,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
     References:
+    - http://www.openwall.com/lists/oss-security/2024/04/08/5
     - https://access.redhat.com/security/cve/CVE-2024-2511
     - https://github.com/openssl/openssl/commit/7e4d731b1c07201ad9374c1cd9ac5263bdf35bce
     - https://github.com/openssl/openssl/commit/b52867a9f618bb955bed2a3ce3db4d4f97ed8e5d
@@ -3628,7 +3655,7 @@
     - https://www.openssl.org/news/secadv/20240408.txt
     - https://www.openssl.org/news/vulnerabilities.html
     PublishedDate: '2024-04-08T14:15:07.66Z'
-    LastModifiedDate: '2024-04-08T18:48:40.217Z'
+    LastModifiedDate: '2024-05-01T19:15:23.677Z'
   - VulnerabilityID: CVE-2024-22365
     VendorIDs:
     - RHSA-2024:2438
@@ -3782,6 +3809,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N
         V3Score: 7.8
     References:
+    - http://www.openwall.com/lists/oss-security/2024/03/20/5
     - https://access.redhat.com/security/cve/CVE-2023-6597
     - https://github.com/python/cpython/commit/02a9259c717738dfe6b463c44d7e17f2b6d2cb3a
     - https://github.com/python/cpython/commit/5585334d772b253a01a6730e8202ffb1607c3d25
@@ -3795,7 +3823,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6597
     - https://www.cve.org/CVERecord?id=CVE-2023-6597
     PublishedDate: '2024-03-19T16:15:08.743Z'
-    LastModifiedDate: '2024-04-03T15:15:51.783Z'
+    LastModifiedDate: '2024-05-01T18:15:12.78Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python-unversioned-command@3.9.18-1.el9_3.1.noarch
     PkgName: python-unversioned-command
@@ -4019,6 +4047,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
+    - http://www.openwall.com/lists/oss-security/2024/03/20/5
     - https://access.redhat.com/security/cve/CVE-2024-0450
     - https://github.com/python/cpython/commit/30fe5d853b56138dbec62432d370a1f99409fc85
     - https://github.com/python/cpython/commit/66363b9a7b9fe7c99eba3a185b74c5fdbf842eba
@@ -4034,7 +4063,7 @@
     - https://www.bamsoftware.com/hacks/zipbomb/
     - https://www.cve.org/CVERecord?id=CVE-2024-0450
     PublishedDate: '2024-03-19T16:15:09.18Z'
-    LastModifiedDate: '2024-04-03T15:15:51.873Z'
+    LastModifiedDate: '2024-05-01T18:15:12.867Z'
   - VulnerabilityID: CVE-2023-6597
     PkgID: python3@3.9.18-1.el9_3.1.x86_64
     PkgName: python3
@@ -4065,6 +4094,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N
         V3Score: 7.8
     References:
+    - http://www.openwall.com/lists/oss-security/2024/03/20/5
     - https://access.redhat.com/security/cve/CVE-2023-6597
     - https://github.com/python/cpython/commit/02a9259c717738dfe6b463c44d7e17f2b6d2cb3a
     - https://github.com/python/cpython/commit/5585334d772b253a01a6730e8202ffb1607c3d25
@@ -4078,7 +4108,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6597
     - https://www.cve.org/CVERecord?id=CVE-2023-6597
     PublishedDate: '2024-03-19T16:15:08.743Z'
-    LastModifiedDate: '2024-04-03T15:15:51.783Z'
+    LastModifiedDate: '2024-05-01T18:15:12.78Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python3@3.9.18-1.el9_3.1.x86_64
     PkgName: python3
@@ -4302,6 +4332,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
+    - http://www.openwall.com/lists/oss-security/2024/03/20/5
     - https://access.redhat.com/security/cve/CVE-2024-0450
     - https://github.com/python/cpython/commit/30fe5d853b56138dbec62432d370a1f99409fc85
     - https://github.com/python/cpython/commit/66363b9a7b9fe7c99eba3a185b74c5fdbf842eba
@@ -4317,7 +4348,7 @@
     - https://www.bamsoftware.com/hacks/zipbomb/
     - https://www.cve.org/CVERecord?id=CVE-2024-0450
     PublishedDate: '2024-03-19T16:15:09.18Z'
-    LastModifiedDate: '2024-04-03T15:15:51.873Z'
+    LastModifiedDate: '2024-05-01T18:15:12.867Z'
   - VulnerabilityID: CVE-2023-6597
     PkgID: python3-libs@3.9.18-1.el9_3.1.x86_64
     PkgName: python3-libs
@@ -4348,6 +4379,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N
         V3Score: 7.8
     References:
+    - http://www.openwall.com/lists/oss-security/2024/03/20/5
     - https://access.redhat.com/security/cve/CVE-2023-6597
     - https://github.com/python/cpython/commit/02a9259c717738dfe6b463c44d7e17f2b6d2cb3a
     - https://github.com/python/cpython/commit/5585334d772b253a01a6730e8202ffb1607c3d25
@@ -4361,7 +4393,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6597
     - https://www.cve.org/CVERecord?id=CVE-2023-6597
     PublishedDate: '2024-03-19T16:15:08.743Z'
-    LastModifiedDate: '2024-04-03T15:15:51.783Z'
+    LastModifiedDate: '2024-05-01T18:15:12.78Z'
   - VulnerabilityID: CVE-2021-23336
     PkgID: python3-libs@3.9.18-1.el9_3.1.x86_64
     PkgName: python3-libs
@@ -4585,6 +4617,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
+    - http://www.openwall.com/lists/oss-security/2024/03/20/5
     - https://access.redhat.com/security/cve/CVE-2024-0450
     - https://github.com/python/cpython/commit/30fe5d853b56138dbec62432d370a1f99409fc85
     - https://github.com/python/cpython/commit/66363b9a7b9fe7c99eba3a185b74c5fdbf842eba
@@ -4600,7 +4633,7 @@
     - https://www.bamsoftware.com/hacks/zipbomb/
     - https://www.cve.org/CVERecord?id=CVE-2024-0450
     PublishedDate: '2024-03-19T16:15:09.18Z'
-    LastModifiedDate: '2024-04-03T15:15:51.873Z'
+    LastModifiedDate: '2024-05-01T18:15:12.867Z'
   - VulnerabilityID: CVE-2023-45803
     PkgID: python3-pip-wheel@21.2.3-7.el9_3.1.noarch
     PkgName: python3-pip-wheel
