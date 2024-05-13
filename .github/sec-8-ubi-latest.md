@@ -792,7 +792,7 @@
                         │      │                  │       istro=redhat-9.3 
                         │      │                  ╰ UID : 32b08b43a58892d2 
                         │      ├ InstalledVersion: 2.68.4-11.el9 
-                        │      ├ Status          : under_investigation 
+                        │      ├ Status          : affected 
                         │      ├ Layer            ╭ Digest: sha256:c31dca1e9734fbf0f8b9071fd10e804ae38b2ae
                         │      │                  │         05f870fb7101835424804863d 
                         │      │                  ╰ DiffID: sha256:095a50b272d78e46ead81f16de5a6f5f4af3460
