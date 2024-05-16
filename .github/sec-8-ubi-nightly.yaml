@@ -11,8 +11,8 @@
     InstalledVersion: 0.8-20.el9
     Status: under_investigation
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-36217
     Title: 'avahi: local DoS against avahi-daemon via D-Bus interface'
@@ -39,8 +39,8 @@
     InstalledVersion: 0.8-20.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2017-6519
     Title: 'avahi: Multicast DNS responds to unicast queries outside of local network'
@@ -91,8 +91,8 @@
     InstalledVersion: 2023.2.60_v7.0.306-90.1.el9_2
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-37920
     Title: 'python-certifi: Removal of e-Tugra root certificate'
@@ -146,8 +146,8 @@
     InstalledVersion: 1:2.3.3op2-24.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4504
     Title: 'cups, libppd: Postscript Parsing Heap Overflow'
@@ -199,8 +199,8 @@
     InstalledVersion: 1:2.3.3op2-24.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-25317
     Title: 'cups: insecure permissions of /var/log/cups allows for symlink attacks'
@@ -239,8 +239,8 @@
     InstalledVersion: 7.76.1-29.el9_4
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2398
     Title: 'curl: HTTP/2 push headers memory-leak'
@@ -280,8 +280,8 @@
     InstalledVersion: 5.1.0-6.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4156
     Title: 'gawk: heap out of bound read in builtin.c'
@@ -321,10 +321,10 @@
       PURL: pkg:rpm/redhat/glib2@2.68.4-14.el9?arch=x86_64&distro=redhat-9.4
       UID: 825b59159808cd0
     InstalledVersion: 2.68.4-14.el9
-    Status: under_investigation
+    Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34397
     Title: 'glib2: Signal subscription vulnerabilities'
@@ -356,8 +356,8 @@
     InstalledVersion: 2.34-100.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2961
     Title: 'glibc: Out of bounds write in iconv may lead to remote code execution'
@@ -409,8 +409,8 @@
     InstalledVersion: 2.34-100.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-33599
     Title: 'glibc: stack-based buffer overflow in netgroup cache'
@@ -427,6 +427,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 3
     CVSS:
       redhat:
@@ -448,8 +449,8 @@
     InstalledVersion: 2.34-100.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-33600
     Title: 'glibc: null pointer dereferences after failed netgroup cache insertion'
@@ -467,6 +468,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 2
     CVSS:
       redhat:
@@ -488,8 +490,8 @@
     InstalledVersion: 2.34-100.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-33601
     Title: 'glibc: netgroup cache may terminate daemon on memory allocation failure'
@@ -507,6 +509,7 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 1
     CVSS:
       redhat:
@@ -528,8 +531,8 @@
     InstalledVersion: 2.34-100.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-33602
     Title: 'glibc: netgroup cache assumes NSS callback uses in-buffer strings'
@@ -546,6 +549,7 @@
     CweIDs:
     - CWE-466
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 1
     CVSS:
       redhat:
@@ -567,8 +571,8 @@
     InstalledVersion: 2.34-100.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2961
     Title: 'glibc: Out of bounds write in iconv may lead to remote code execution'
@@ -620,8 +624,8 @@
     InstalledVersion: 2.34-100.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-33599
     Title: 'glibc: stack-based buffer overflow in netgroup cache'
@@ -638,6 +642,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 3
     CVSS:
       redhat:
@@ -659,8 +664,8 @@
     InstalledVersion: 2.34-100.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-33600
     Title: 'glibc: null pointer dereferences after failed netgroup cache insertion'
@@ -678,6 +683,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 2
     CVSS:
       redhat:
@@ -699,8 +705,8 @@
     InstalledVersion: 2.34-100.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-33601
     Title: 'glibc: netgroup cache may terminate daemon on memory allocation failure'
@@ -718,6 +724,7 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 1
     CVSS:
       redhat:
@@ -739,8 +746,8 @@
     InstalledVersion: 2.34-100.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-33602
     Title: 'glibc: netgroup cache assumes NSS callback uses in-buffer strings'
@@ -757,6 +764,7 @@
     CweIDs:
     - CWE-466
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 1
     CVSS:
       redhat:
@@ -778,8 +786,8 @@
     InstalledVersion: 2.34-100.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2961
     Title: 'glibc: Out of bounds write in iconv may lead to remote code execution'
@@ -831,8 +839,8 @@
     InstalledVersion: 2.34-100.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-33599
     Title: 'glibc: stack-based buffer overflow in netgroup cache'
@@ -849,6 +857,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 3
     CVSS:
       redhat:
@@ -870,8 +879,8 @@
     InstalledVersion: 2.34-100.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-33600
     Title: 'glibc: null pointer dereferences after failed netgroup cache insertion'
@@ -889,6 +898,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 2
     CVSS:
       redhat:
@@ -910,8 +920,8 @@
     InstalledVersion: 2.34-100.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-33601
     Title: 'glibc: netgroup cache may terminate daemon on memory allocation failure'
@@ -929,6 +939,7 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 1
     CVSS:
       redhat:
@@ -950,8 +961,8 @@
     InstalledVersion: 2.34-100.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-33602
     Title: 'glibc: netgroup cache assumes NSS callback uses in-buffer strings'
@@ -968,6 +979,7 @@
     CweIDs:
     - CWE-466
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 1
     CVSS:
       redhat:
@@ -989,8 +1001,8 @@
     InstalledVersion: 2.3.3-4.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
@@ -1029,8 +1041,8 @@
     InstalledVersion: 1:1.8.0.412.b08-2.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3857
     Title: 'libpng: Null pointer dereference leads to segmentation fault'
@@ -1067,8 +1079,8 @@
     InstalledVersion: 1.21.1-1.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26462
     Title: 'krb5: Memory leak at /krb5/src/kdc/ndr.c'
@@ -1086,9 +1098,10 @@
     - https://access.redhat.com/security/cve/CVE-2024-26462
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_3.md
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26462
+    - https://security.netapp.com/advisory/ntap-20240415-0012/
     - https://www.cve.org/CVERecord?id=CVE-2024-26462
     PublishedDate: '2024-02-29T01:44:18.857Z'
-    LastModifiedDate: '2024-02-29T13:49:29.39Z'
+    LastModifiedDate: '2024-05-14T15:09:01.053Z'
   - VulnerabilityID: CVE-2024-26458
     PkgID: krb5-libs@1.21.1-1.el9.x86_64
     PkgName: krb5-libs
@@ -1098,8 +1111,8 @@
     InstalledVersion: 1.21.1-1.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26458
     Title: 'krb5: Memory leak at /krb5/src/lib/rpc/pmap_rmt.c'
@@ -1117,9 +1130,10 @@
     - https://access.redhat.com/security/cve/CVE-2024-26458
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
+    - https://security.netapp.com/advisory/ntap-20240415-0010/
     - https://www.cve.org/CVERecord?id=CVE-2024-26458
     PublishedDate: '2024-02-29T01:44:18.78Z'
-    LastModifiedDate: '2024-02-29T13:49:29.39Z'
+    LastModifiedDate: '2024-05-14T15:09:00.47Z'
   - VulnerabilityID: CVE-2024-26461
     PkgID: krb5-libs@1.21.1-1.el9.x86_64
     PkgName: krb5-libs
@@ -1129,8 +1143,8 @@
     InstalledVersion: 1.21.1-1.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26461
     Title: 'krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5sealv3.c'
@@ -1148,9 +1162,10 @@
     - https://access.redhat.com/security/cve/CVE-2024-26461
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
+    - https://security.netapp.com/advisory/ntap-20240415-0011/
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
     PublishedDate: '2024-02-29T01:44:18.82Z'
-    LastModifiedDate: '2024-02-29T13:49:29.39Z'
+    LastModifiedDate: '2024-05-14T15:09:00.787Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -1160,8 +1175,8 @@
     InstalledVersion: 3.5.3-4.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-30571
     Title: 'libarchive: Race condition in multi-threaded use of archive_write_disk_header() on posix based systems'
@@ -1197,8 +1212,8 @@
     InstalledVersion: 7.76.1-29.el9_4
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2398
     Title: 'curl: HTTP/2 push headers memory-leak'
@@ -1238,8 +1253,8 @@
     InstalledVersion: 11.4.1-3.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27943
     Title: 'binutils: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const'
@@ -1283,8 +1298,8 @@
     InstalledVersion: 1.10.0-10.el9_2
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2236
     Title: 'libgcrypt: vulnerable to Marvin Attack'
@@ -1309,6 +1324,62 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2024-04-25T17:15:49.467Z'
+  - VulnerabilityID: CVE-2024-28182
+    PkgID: libnghttp2@1.43.0-5.el9_3.1.x86_64
+    PkgName: libnghttp2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libnghttp2@1.43.0-5.el9_3.1?arch=x86_64&distro=redhat-9.4
+      UID: 9f82f2822c76384
+    InstalledVersion: 1.43.0-5.el9_3.1
+    Status: affected
+    Layer:
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-28182
+    Title: 'nghttp2: CONTINUATION frames DoS'
+    Description: nghttp2 is an implementation of the Hypertext Transfer Protocol version 2 in C. The nghttp2 library prior to version 1.61.0 keeps reading the unbounded number of HTTP/2 CONTINUATION frames even after a stream is reset to keep HPACK context in sync.  This causes excessive CPU usage to decode HPACK stream. nghttp2 v1.61.0 mitigates this vulnerability by limiting the number of CONTINUATION frames it accepts per stream. There is no workaround for this vulnerability.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      alma: 3
+      amazon: 3
+      oracle-oval: 3
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/04/03/16
+    - https://access.redhat.com/errata/RHSA-2024:2779
+    - https://access.redhat.com/security/cve/CVE-2024-28182
+    - https://bugzilla.redhat.com/2265713
+    - https://bugzilla.redhat.com/2268639
+    - https://bugzilla.redhat.com/2270559
+    - https://bugzilla.redhat.com/2272764
+    - https://bugzilla.redhat.com/2275392
+    - https://errata.almalinux.org/9/ALSA-2024-2779.html
+    - https://github.com/nghttp2/nghttp2/commit/00201ecd8f982da3b67d4f6868af72a1b03b14e0
+    - https://github.com/nghttp2/nghttp2/commit/d71a4668c6bead55805d18810d633fbb98315af9
+    - https://github.com/nghttp2/nghttp2/security/advisories/GHSA-x6x3-gv8h-m57q
+    - https://linux.oracle.com/cve/CVE-2024-28182.html
+    - https://linux.oracle.com/errata/ELSA-2024-2780.html
+    - https://lists.debian.org/debian-lts-announce/2024/04/msg00026.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AGOME6ZXJG7664IPQNVE3DL67E3YP3HY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/J6ZMXUGB66VAXDW5J6QSTHM5ET25FGSA/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PXJO2EASHM2OQQLGVDY5ZSO7UVDVHTDK/
+    - https://nowotarski.info/http2-continuation-flood/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-28182
+    - https://ubuntu.com/security/notices/USN-6754-1
+    - https://ubuntu.com/security/notices/USN-6754-2
+    - https://www.cve.org/CVERecord?id=CVE-2024-28182
+    - https://www.kb.cert.org/vuls/id/421644
+    PublishedDate: '2024-04-04T15:15:38.427Z'
+    LastModifiedDate: '2024-05-01T18:15:17.267Z'
   - VulnerabilityID: CVE-2022-3857
     PkgID: libpng@1.6.37-12.el9.x86_64
     PkgName: libpng
@@ -1318,8 +1389,8 @@
     InstalledVersion: 2:1.6.37-12.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3857
     Title: 'libpng: Null pointer dereference leads to segmentation fault'
@@ -1356,8 +1427,8 @@
     InstalledVersion: 11.4.1-3.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27943
     Title: 'binutils: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const'
@@ -1392,6 +1463,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2023-11-07T03:45:32.64Z'
+  - VulnerabilityID: CVE-2024-34459
+    PkgID: libxml2@2.9.13-6.el9_4.x86_64
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libxml2@2.9.13-6.el9_4?arch=x86_64&distro=redhat-9.4
+      UID: dc5abe66153bd3db
+    InstalledVersion: 2.9.13-6.el9_4
+    Status: under_investigation
+    Layer:
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34459
+    Title: 'libxml2: buffer over-read in xmlHTMLPrintFileContext in xmllint.c'
+    Description: An issue was discovered in xmllint (from libxml2) before 2.11.8 and 2.12.x before 2.12.7. Formatting error messages with xmllint --htmlout can result in a buffer over-read in xmlHTMLPrintFileContext in xmllint.c.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-34459
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/72
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/720
+    - https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2.11.8
+    - https://gitlab.gnome.org/GNOME/libxml2/-/releases/v2.12.7
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34459
+    - https://www.cve.org/CVERecord?id=CVE-2024-34459
+    PublishedDate: '2024-05-14T15:39:11.917Z'
+    LastModifiedDate: '2024-05-14T16:12:23.49Z'
   - VulnerabilityID: CVE-2023-45322
     PkgID: libxml2@2.9.13-6.el9_4.x86_64
     PkgName: libxml2
@@ -1401,8 +1504,8 @@
     InstalledVersion: 2.9.13-6.el9_4
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45322
     Title: 'libxml2: use-after-free in xmlUnlinkNode() in tree.c'
@@ -1431,7 +1534,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45322
     - https://www.cve.org/CVERecord?id=CVE-2023-45322
     PublishedDate: '2023-10-06T22:15:11.66Z'
-    LastModifiedDate: '2024-04-11T01:21:55.82Z'
+    LastModifiedDate: '2024-05-14T13:51:51.397Z'
   - VulnerabilityID: CVE-2024-3205
     PkgID: libyaml@0.2.5-7.el9.x86_64
     PkgName: libyaml
@@ -1441,8 +1544,8 @@
     InstalledVersion: 0.2.5-7.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-3205
     Title: 'libyaml: Heap-Based Buffer Overflow'
@@ -1466,7 +1569,7 @@
     - https://vuldb.com/?submit.304561
     - https://www.cve.org/CVERecord?id=CVE-2024-3205
     PublishedDate: '2024-04-02T23:15:54.627Z'
-    LastModifiedDate: '2024-04-11T01:25:56.01Z'
+    LastModifiedDate: '2024-05-14T15:40:27.55Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd@1.5.1-2.el9.x86_64
     PkgName: libzstd
@@ -1476,8 +1579,8 @@
     InstalledVersion: 1.5.1-2.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-4899
     Title: 'zstd: mysql: buffer overrun in util.c'
@@ -1612,8 +1715,8 @@
     InstalledVersion: 6.2-10.20210508.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-29458
     Title: 'ncurses: segfaulting OOB read'
@@ -1661,8 +1764,8 @@
     InstalledVersion: 6.2-10.20210508.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50495
     Title: 'ncurses: segmentation fault via _nc_wrap_entry()'
@@ -1700,8 +1803,8 @@
     InstalledVersion: 6.2-10.20210508.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-29458
     Title: 'ncurses: segfaulting OOB read'
@@ -1749,8 +1852,8 @@
     InstalledVersion: 6.2-10.20210508.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50495
     Title: 'ncurses: segmentation fault via _nc_wrap_entry()'
@@ -1788,8 +1891,8 @@
     InstalledVersion: 4.35.0-7.el9_4
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
     Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
@@ -1825,8 +1928,8 @@
     InstalledVersion: 3.90.0-7.el9_4
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
     Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
@@ -1862,8 +1965,8 @@
     InstalledVersion: 3.90.0-7.el9_4
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
     Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
@@ -1899,8 +2002,8 @@
     InstalledVersion: 3.90.0-7.el9_4
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
     Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
@@ -1936,8 +2039,8 @@
     InstalledVersion: 3.90.0-7.el9_4
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
     Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
@@ -1973,8 +2076,8 @@
     InstalledVersion: 3.90.0-7.el9_4
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
     Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
@@ -2010,8 +2113,8 @@
     InstalledVersion: 2.6.6-3.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-2953
     Title: 'openldap: null pointer dereference in  ber_memalloc_x  function'
@@ -2061,8 +2164,8 @@
     InstalledVersion: 1:3.0.7-27.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3446
     Title: 'openssl: Excessive time spent checking DH keys and parameters'
@@ -2174,8 +2277,8 @@
     InstalledVersion: 1:3.0.7-27.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3817
     Title: 'OpenSSL: Excessive time spent checking DH q parameter value'
@@ -2270,8 +2373,8 @@
     InstalledVersion: 1:3.0.7-27.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5678
     Title: 'openssl: Generating excessively long X9.42 DH keys or checking excessively long X9.42 DH keys or parameters may be very slow'
@@ -2364,8 +2467,8 @@
     InstalledVersion: 1:3.0.7-27.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6129
     Title: 'mysql: openssl: POLY1305 MAC implementation corrupts vector registers on PowerPC'
@@ -2454,8 +2557,8 @@
     InstalledVersion: 1:3.0.7-27.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6237
     Title: 'openssl: Excessive time spent checking invalid RSA public keys'
@@ -2531,8 +2634,8 @@
     InstalledVersion: 1:3.0.7-27.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0727
     Title: 'openssl: denial of service via null dereference'
@@ -2562,6 +2665,7 @@
     VendorSeverity:
       alma: 1
       amazon: 2
+      cbl-mariner: 2
       ghsa: 2
       nvd: 2
       oracle-oval: 1
@@ -2620,8 +2724,8 @@
     InstalledVersion: 1:3.0.7-27.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2511
     Title: 'openssl: Unbounded memory growth with session handling in TLSv1.3'
@@ -2647,6 +2751,7 @@
       1.0.2 is also not affected by this issue.
     Severity: LOW
     VendorSeverity:
+      amazon: 2
       photon: 3
       redhat: 1
       ubuntu: 1
@@ -2677,8 +2782,8 @@
     InstalledVersion: 1:3.0.7-27.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3446
     Title: 'openssl: Excessive time spent checking DH keys and parameters'
@@ -2790,8 +2895,8 @@
     InstalledVersion: 1:3.0.7-27.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3817
     Title: 'OpenSSL: Excessive time spent checking DH q parameter value'
@@ -2886,8 +2991,8 @@
     InstalledVersion: 1:3.0.7-27.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5678
     Title: 'openssl: Generating excessively long X9.42 DH keys or checking excessively long X9.42 DH keys or parameters may be very slow'
@@ -2980,8 +3085,8 @@
     InstalledVersion: 1:3.0.7-27.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6129
     Title: 'mysql: openssl: POLY1305 MAC implementation corrupts vector registers on PowerPC'
@@ -3070,8 +3175,8 @@
     InstalledVersion: 1:3.0.7-27.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6237
     Title: 'openssl: Excessive time spent checking invalid RSA public keys'
@@ -3147,8 +3252,8 @@
     InstalledVersion: 1:3.0.7-27.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0727
     Title: 'openssl: denial of service via null dereference'
@@ -3178,6 +3283,7 @@
     VendorSeverity:
       alma: 1
       amazon: 2
+      cbl-mariner: 2
       ghsa: 2
       nvd: 2
       oracle-oval: 1
@@ -3236,8 +3342,8 @@
     InstalledVersion: 1:3.0.7-27.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2511
     Title: 'openssl: Unbounded memory growth with session handling in TLSv1.3'
@@ -3263,6 +3369,7 @@
       1.0.2 is also not affected by this issue.
     Severity: LOW
     VendorSeverity:
+      amazon: 2
       photon: 3
       redhat: 1
       ubuntu: 1
@@ -3293,8 +3400,8 @@
     InstalledVersion: 10.40-5.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-41409
     Title: 'pcre2: negative repeat value in a pcre2test subject line leads to inifinite loop'
@@ -3333,8 +3440,8 @@
     InstalledVersion: 10.40-5.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-41409
     Title: 'pcre2: negative repeat value in a pcre2test subject line leads to inifinite loop'
@@ -3373,8 +3480,8 @@
     InstalledVersion: 3.9.18-3.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6597
     Title: 'python: Path traversal on tempfile.TemporaryDirectory'
@@ -3384,6 +3491,7 @@
       The tempfile.TemporaryDirectory class would dereference symlinks during cleanup of permissions-related errors. This means users which can run privileged programs are potentially able to modify permissions of files referenced by symlinks in some circumstances.
     Severity: HIGH
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       cbl-mariner: 3
       redhat: 3
@@ -3419,8 +3527,8 @@
     InstalledVersion: 3.9.18-3.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-23336
     Title: 'python: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters'
@@ -3508,8 +3616,8 @@
     InstalledVersion: 3.9.18-3.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-0391
     Title: 'python: urllib.parse does not sanitize URLs containing ASCII newline and tabs'
@@ -3569,8 +3677,8 @@
     InstalledVersion: 3.9.18-3.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36632
     Title: 'python: RecursionError: maximum recursion depth exceeded while calling a Python object'
@@ -3601,7 +3709,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36632
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:09.313Z'
-    LastModifiedDate: '2024-04-11T01:20:41.153Z'
+    LastModifiedDate: '2024-05-14T13:18:50.223Z'
   - VulnerabilityID: CVE-2024-0450
     PkgID: python-unversioned-command@3.9.18-3.el9.noarch
     PkgName: python-unversioned-command
@@ -3611,8 +3719,8 @@
     InstalledVersion: 3.9.18-3.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0450
     Title: 'python: The zipfile module is vulnerable to zip-bombs leading to denial of service'
@@ -3664,8 +3772,8 @@
     InstalledVersion: 3.9.18-3.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6597
     Title: 'python: Path traversal on tempfile.TemporaryDirectory'
@@ -3675,6 +3783,7 @@
       The tempfile.TemporaryDirectory class would dereference symlinks during cleanup of permissions-related errors. This means users which can run privileged programs are potentially able to modify permissions of files referenced by symlinks in some circumstances.
     Severity: HIGH
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       cbl-mariner: 3
       redhat: 3
@@ -3710,8 +3819,8 @@
     InstalledVersion: 3.9.18-3.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-23336
     Title: 'python: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters'
@@ -3799,8 +3908,8 @@
     InstalledVersion: 3.9.18-3.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-0391
     Title: 'python: urllib.parse does not sanitize URLs containing ASCII newline and tabs'
@@ -3860,8 +3969,8 @@
     InstalledVersion: 3.9.18-3.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36632
     Title: 'python: RecursionError: maximum recursion depth exceeded while calling a Python object'
@@ -3892,7 +4001,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36632
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:09.313Z'
-    LastModifiedDate: '2024-04-11T01:20:41.153Z'
+    LastModifiedDate: '2024-05-14T13:18:50.223Z'
   - VulnerabilityID: CVE-2024-0450
     PkgID: python3@3.9.18-3.el9.x86_64
     PkgName: python3
@@ -3902,8 +4011,8 @@
     InstalledVersion: 3.9.18-3.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0450
     Title: 'python: The zipfile module is vulnerable to zip-bombs leading to denial of service'
@@ -3955,8 +4064,8 @@
     InstalledVersion: 3.9.18-3.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6597
     Title: 'python: Path traversal on tempfile.TemporaryDirectory'
@@ -3966,6 +4075,7 @@
       The tempfile.TemporaryDirectory class would dereference symlinks during cleanup of permissions-related errors. This means users which can run privileged programs are potentially able to modify permissions of files referenced by symlinks in some circumstances.
     Severity: HIGH
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       cbl-mariner: 3
       redhat: 3
@@ -4001,8 +4111,8 @@
     InstalledVersion: 3.9.18-3.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-23336
     Title: 'python: Web cache poisoning via urllib.parse.parse_qsl and urllib.parse.parse_qs by using a semicolon in query parameters'
@@ -4090,8 +4200,8 @@
     InstalledVersion: 3.9.18-3.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-0391
     Title: 'python: urllib.parse does not sanitize URLs containing ASCII newline and tabs'
@@ -4151,8 +4261,8 @@
     InstalledVersion: 3.9.18-3.el9
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36632
     Title: 'python: RecursionError: maximum recursion depth exceeded while calling a Python object'
@@ -4183,7 +4293,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36632
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:09.313Z'
-    LastModifiedDate: '2024-04-11T01:20:41.153Z'
+    LastModifiedDate: '2024-05-14T13:18:50.223Z'
   - VulnerabilityID: CVE-2024-0450
     PkgID: python3-libs@3.9.18-3.el9.x86_64
     PkgName: python3-libs
@@ -4193,8 +4303,8 @@
     InstalledVersion: 3.9.18-3.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0450
     Title: 'python: The zipfile module is vulnerable to zip-bombs leading to denial of service'
@@ -4246,8 +4356,8 @@
     InstalledVersion: 21.2.3-8.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45803
     Title: 'urllib3: Request body not stripped after redirect from 303 status changes request method to GET'
@@ -4315,8 +4425,8 @@
     InstalledVersion: 21.2.3-8.el9
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-3572
     Title: 'python-pip: Incorrect handling of unicode separators in git references'
@@ -4378,8 +4488,8 @@
     InstalledVersion: 3.34.1-7.el9_3
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36191
     Title: 'sqlite: CLI fault on missing -nonce'
@@ -4409,8 +4519,8 @@
     InstalledVersion: 3.34.1-7.el9_3
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0232
     Title: 'sqlite: use-after-free bug in jsonParseAddNodeArray'
@@ -4450,8 +4560,8 @@
     InstalledVersion: 252-32.el9_4
     Status: affected
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-3997
     Title: 'systemd: Uncontrolled recursion in systemd-tmpfiles when removing files'
@@ -4492,8 +4602,8 @@
     InstalledVersion: 2:1.34-6.el9_1
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2005-2541
     Title: 'tar: does not properly warn the user when extracting setuid or setgid files'
@@ -4526,8 +4636,8 @@
     InstalledVersion: 2:1.34-6.el9_1
     Status: will_not_fix
     Layer:
-      Digest: sha256:cee60972681cc3d1575642b45be9378ae118ccd3ec06d520484cd29c8fdea6e7
-      DiffID: sha256:fa1056c393dd8df8425a72c8b03c928f19503667571db31cf6e0ea6bff945203
+      Digest: sha256:bf2dfab89630189857cdb7d0a68ae5285ff3bcd4dd2dbe67dc1b7da16b19b4c2
+      DiffID: sha256:677ff51def3fe2387eb5bc433cfb3d7219db933bad5ad7d2b9fda9c4b8da673b
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39804
     Title: 'tar: Incorrectly handled extension attributes in PAX archives can lead to a crash'
