@@ -2,469 +2,235 @@
 ─ [0] ╭ Target         : openaf/ojobrt:nightly (alpine 3.19.1) 
       ├ Class          : os-pkgs 
       ├ Type           : alpine 
-      ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2023-42363 
-                        │      ├ PkgID           : busybox@1.36.1-r15 
-                        │      ├ PkgName         : busybox 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox@1.36.1-r15?arch=x86_64&di
-                        │      │                  │       stro=3.19.1 
-                        │      │                  ╰ UID : a71bca140ff5726b 
-                        │      ├ InstalledVersion: 1.36.1-r15 
-                        │      ├ FixedVersion    : 1.36.1-r17 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:96a504d60d4f35c974c6a92b6cf04612192706b
-                        │      │                  │         40880615844c526828d4f1694 
-                        │      │                  ╰ DiffID: sha256:1bbffd31a4c4ae40defb9c5dd117c9205eb7a85
-                        │      │                            8107eef5709b15737c0d2af98 
-                        │      ├ SeveritySource  : nvd 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42363 
-                        │      ├ DataSource       ╭ ID  : alpine 
-                        │      │                  ├ Name: Alpine Secdb 
-                        │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                        │      ├ Title           : busybox: use-after-free in awk 
-                        │      ├ Description     : A use-after-free vulnerability was discovered in
-                        │      │                   xasprintf function in xfuncs_printf.c:344 in BusyBox
-                        │      │                   v.1.36.1. 
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ CweIDs           ─ [0]: CWE-416 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
-                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                  │        │           N/I:N/A:H 
-                        │      │                  │        ╰ V3Score : 5.5 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                           │           H/I:H/A:H 
-                        │      │                           ╰ V3Score : 7.8 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42363 
-                        │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15865 
-                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42363 
-                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42363 
-                        │      ├ PublishedDate   : 2023-11-27T22:15:07.94Z 
-                        │      ╰ LastModifiedDate: 2023-11-30T05:06:49.523Z 
-                        ├ [1]  ╭ VulnerabilityID : CVE-2023-42364 
-                        │      ├ PkgID           : busybox@1.36.1-r15 
-                        │      ├ PkgName         : busybox 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox@1.36.1-r15?arch=x86_64&di
-                        │      │                  │       stro=3.19.1 
-                        │      │                  ╰ UID : a71bca140ff5726b 
-                        │      ├ InstalledVersion: 1.36.1-r15 
-                        │      ├ FixedVersion    : 1.36.1-r17 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:96a504d60d4f35c974c6a92b6cf04612192706b
-                        │      │                  │         40880615844c526828d4f1694 
-                        │      │                  ╰ DiffID: sha256:1bbffd31a4c4ae40defb9c5dd117c9205eb7a85
-                        │      │                            8107eef5709b15737c0d2af98 
-                        │      ├ SeveritySource  : nvd 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42364 
-                        │      ├ DataSource       ╭ ID  : alpine 
-                        │      │                  ├ Name: Alpine Secdb 
-                        │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                        │      ├ Title           : busybox: use-after-free 
-                        │      ├ Description     : A use-after-free vulnerability in BusyBox v.1.36.1
-                        │      │                   allows attackers to cause a denial of service via a crafted
-                        │      │                   awk pattern in the awk.c evaluate function. 
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ CweIDs           ─ [0]: CWE-416 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
-                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                  │        │           N/I:N/A:H 
-                        │      │                  │        ╰ V3Score : 5.5 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                           │           H/I:H/A:H 
-                        │      │                           ╰ V3Score : 7.8 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42364 
-                        │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15868 
-                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42364 
-                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42364 
-                        │      ├ PublishedDate   : 2023-11-27T23:15:07.313Z 
-                        │      ╰ LastModifiedDate: 2023-11-30T05:07:10.827Z 
-                        ├ [2]  ╭ VulnerabilityID : CVE-2023-42365 
-                        │      ├ PkgID           : busybox@1.36.1-r15 
-                        │      ├ PkgName         : busybox 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox@1.36.1-r15?arch=x86_64&di
-                        │      │                  │       stro=3.19.1 
-                        │      │                  ╰ UID : a71bca140ff5726b 
-                        │      ├ InstalledVersion: 1.36.1-r15 
-                        │      ├ FixedVersion    : 1.36.1-r17 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:96a504d60d4f35c974c6a92b6cf04612192706b
-                        │      │                  │         40880615844c526828d4f1694 
-                        │      │                  ╰ DiffID: sha256:1bbffd31a4c4ae40defb9c5dd117c9205eb7a85
-                        │      │                            8107eef5709b15737c0d2af98 
-                        │      ├ SeveritySource  : nvd 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42365 
-                        │      ├ DataSource       ╭ ID  : alpine 
-                        │      │                  ├ Name: Alpine Secdb 
-                        │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                        │      ├ Title           : busybox:  use-after-free 
-                        │      ├ Description     : A use-after-free vulnerability was discovered in
-                        │      │                   BusyBox v.1.36.1 via a crafted awk pattern in the awk.c
-                        │      │                   copyvar function. 
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ CweIDs           ─ [0]: CWE-416 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
-                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                  │        │           N/I:N/A:H 
-                        │      │                  │        ╰ V3Score : 5.5 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                           │           H/I:H/A:H 
-                        │      │                           ╰ V3Score : 7.8 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42365 
-                        │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15871 
-                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42365 
-                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42365 
-                        │      ├ PublishedDate   : 2023-11-27T23:15:07.373Z 
-                        │      ╰ LastModifiedDate: 2023-11-30T05:08:08.77Z 
-                        ├ [3]  ╭ VulnerabilityID : CVE-2023-42366 
-                        │      ├ PkgID           : busybox@1.36.1-r15 
-                        │      ├ PkgName         : busybox 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox@1.36.1-r15?arch=x86_64&di
-                        │      │                  │       stro=3.19.1 
-                        │      │                  ╰ UID : a71bca140ff5726b 
-                        │      ├ InstalledVersion: 1.36.1-r15 
-                        │      ├ FixedVersion    : 1.36.1-r16 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:96a504d60d4f35c974c6a92b6cf04612192706b
-                        │      │                  │         40880615844c526828d4f1694 
-                        │      │                  ╰ DiffID: sha256:1bbffd31a4c4ae40defb9c5dd117c9205eb7a85
-                        │      │                            8107eef5709b15737c0d2af98 
-                        │      ├ SeveritySource  : nvd 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42366 
-                        │      ├ DataSource       ╭ ID  : alpine 
-                        │      │                  ├ Name: Alpine Secdb 
-                        │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                        │      ├ Title           : busybox: A heap-buffer-overflow 
-                        │      ├ Description     : A heap-buffer-overflow was discovered in BusyBox
-                        │      │                   v.1.36.1 in the next_token function at awk.c:1159. 
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ CweIDs           ─ [0]: CWE-787 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
-                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                  │        │           N/I:N/A:H 
-                        │      │                  │        ╰ V3Score : 5.5 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                           │           H/I:N/A:H 
-                        │      │                           ╰ V3Score : 7.1 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42366 
-                        │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15874 
-                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42366 
-                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42366 
-                        │      ├ PublishedDate   : 2023-11-27T23:15:07.42Z 
-                        │      ╰ LastModifiedDate: 2023-11-30T05:08:23.197Z 
-                        ├ [4]  ╭ VulnerabilityID : CVE-2023-42363 
-                        │      ├ PkgID           : busybox-binsh@1.36.1-r15 
-                        │      ├ PkgName         : busybox-binsh 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox-binsh@1.36.1-r15?arch=x86
-                        │      │                  │       _64&distro=3.19.1 
-                        │      │                  ╰ UID : 3c2acc699fbc7b01 
-                        │      ├ InstalledVersion: 1.36.1-r15 
-                        │      ├ FixedVersion    : 1.36.1-r17 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:96a504d60d4f35c974c6a92b6cf04612192706b
-                        │      │                  │         40880615844c526828d4f1694 
-                        │      │                  ╰ DiffID: sha256:1bbffd31a4c4ae40defb9c5dd117c9205eb7a85
-                        │      │                            8107eef5709b15737c0d2af98 
-                        │      ├ SeveritySource  : nvd 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42363 
-                        │      ├ DataSource       ╭ ID  : alpine 
-                        │      │                  ├ Name: Alpine Secdb 
-                        │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                        │      ├ Title           : busybox: use-after-free in awk 
-                        │      ├ Description     : A use-after-free vulnerability was discovered in
-                        │      │                   xasprintf function in xfuncs_printf.c:344 in BusyBox
-                        │      │                   v.1.36.1. 
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ CweIDs           ─ [0]: CWE-416 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
-                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                  │        │           N/I:N/A:H 
-                        │      │                  │        ╰ V3Score : 5.5 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                           │           H/I:H/A:H 
-                        │      │                           ╰ V3Score : 7.8 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42363 
-                        │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15865 
-                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42363 
-                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42363 
-                        │      ├ PublishedDate   : 2023-11-27T22:15:07.94Z 
-                        │      ╰ LastModifiedDate: 2023-11-30T05:06:49.523Z 
-                        ├ [5]  ╭ VulnerabilityID : CVE-2023-42364 
-                        │      ├ PkgID           : busybox-binsh@1.36.1-r15 
-                        │      ├ PkgName         : busybox-binsh 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox-binsh@1.36.1-r15?arch=x86
-                        │      │                  │       _64&distro=3.19.1 
-                        │      │                  ╰ UID : 3c2acc699fbc7b01 
-                        │      ├ InstalledVersion: 1.36.1-r15 
-                        │      ├ FixedVersion    : 1.36.1-r17 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:96a504d60d4f35c974c6a92b6cf04612192706b
-                        │      │                  │         40880615844c526828d4f1694 
-                        │      │                  ╰ DiffID: sha256:1bbffd31a4c4ae40defb9c5dd117c9205eb7a85
-                        │      │                            8107eef5709b15737c0d2af98 
-                        │      ├ SeveritySource  : nvd 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42364 
-                        │      ├ DataSource       ╭ ID  : alpine 
-                        │      │                  ├ Name: Alpine Secdb 
-                        │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                        │      ├ Title           : busybox: use-after-free 
-                        │      ├ Description     : A use-after-free vulnerability in BusyBox v.1.36.1
-                        │      │                   allows attackers to cause a denial of service via a crafted
-                        │      │                   awk pattern in the awk.c evaluate function. 
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ CweIDs           ─ [0]: CWE-416 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
-                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                  │        │           N/I:N/A:H 
-                        │      │                  │        ╰ V3Score : 5.5 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                           │           H/I:H/A:H 
-                        │      │                           ╰ V3Score : 7.8 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42364 
-                        │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15868 
-                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42364 
-                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42364 
-                        │      ├ PublishedDate   : 2023-11-27T23:15:07.313Z 
-                        │      ╰ LastModifiedDate: 2023-11-30T05:07:10.827Z 
-                        ├ [6]  ╭ VulnerabilityID : CVE-2023-42365 
-                        │      ├ PkgID           : busybox-binsh@1.36.1-r15 
-                        │      ├ PkgName         : busybox-binsh 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox-binsh@1.36.1-r15?arch=x86
-                        │      │                  │       _64&distro=3.19.1 
-                        │      │                  ╰ UID : 3c2acc699fbc7b01 
-                        │      ├ InstalledVersion: 1.36.1-r15 
-                        │      ├ FixedVersion    : 1.36.1-r17 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:96a504d60d4f35c974c6a92b6cf04612192706b
-                        │      │                  │         40880615844c526828d4f1694 
-                        │      │                  ╰ DiffID: sha256:1bbffd31a4c4ae40defb9c5dd117c9205eb7a85
-                        │      │                            8107eef5709b15737c0d2af98 
-                        │      ├ SeveritySource  : nvd 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42365 
-                        │      ├ DataSource       ╭ ID  : alpine 
-                        │      │                  ├ Name: Alpine Secdb 
-                        │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                        │      ├ Title           : busybox:  use-after-free 
-                        │      ├ Description     : A use-after-free vulnerability was discovered in
-                        │      │                   BusyBox v.1.36.1 via a crafted awk pattern in the awk.c
-                        │      │                   copyvar function. 
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ CweIDs           ─ [0]: CWE-416 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
-                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                  │        │           N/I:N/A:H 
-                        │      │                  │        ╰ V3Score : 5.5 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                           │           H/I:H/A:H 
-                        │      │                           ╰ V3Score : 7.8 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42365 
-                        │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15871 
-                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42365 
-                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42365 
-                        │      ├ PublishedDate   : 2023-11-27T23:15:07.373Z 
-                        │      ╰ LastModifiedDate: 2023-11-30T05:08:08.77Z 
-                        ├ [7]  ╭ VulnerabilityID : CVE-2023-42366 
-                        │      ├ PkgID           : busybox-binsh@1.36.1-r15 
-                        │      ├ PkgName         : busybox-binsh 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox-binsh@1.36.1-r15?arch=x86
-                        │      │                  │       _64&distro=3.19.1 
-                        │      │                  ╰ UID : 3c2acc699fbc7b01 
-                        │      ├ InstalledVersion: 1.36.1-r15 
-                        │      ├ FixedVersion    : 1.36.1-r16 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:96a504d60d4f35c974c6a92b6cf04612192706b
-                        │      │                  │         40880615844c526828d4f1694 
-                        │      │                  ╰ DiffID: sha256:1bbffd31a4c4ae40defb9c5dd117c9205eb7a85
-                        │      │                            8107eef5709b15737c0d2af98 
-                        │      ├ SeveritySource  : nvd 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42366 
-                        │      ├ DataSource       ╭ ID  : alpine 
-                        │      │                  ├ Name: Alpine Secdb 
-                        │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                        │      ├ Title           : busybox: A heap-buffer-overflow 
-                        │      ├ Description     : A heap-buffer-overflow was discovered in BusyBox
-                        │      │                   v.1.36.1 in the next_token function at awk.c:1159. 
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ CweIDs           ─ [0]: CWE-787 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
-                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                  │        │           N/I:N/A:H 
-                        │      │                  │        ╰ V3Score : 5.5 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                           │           H/I:N/A:H 
-                        │      │                           ╰ V3Score : 7.1 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42366 
-                        │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15874 
-                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42366 
-                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42366 
-                        │      ├ PublishedDate   : 2023-11-27T23:15:07.42Z 
-                        │      ╰ LastModifiedDate: 2023-11-30T05:08:23.197Z 
-                        ├ [8]  ╭ VulnerabilityID : CVE-2023-42363 
-                        │      ├ PkgID           : ssl_client@1.36.1-r15 
-                        │      ├ PkgName         : ssl_client 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.36.1-r15?arch=x86_64
-                        │      │                  │       &distro=3.19.1 
-                        │      │                  ╰ UID : 741efa5e56ecac21 
-                        │      ├ InstalledVersion: 1.36.1-r15 
-                        │      ├ FixedVersion    : 1.36.1-r17 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:96a504d60d4f35c974c6a92b6cf04612192706b
-                        │      │                  │         40880615844c526828d4f1694 
-                        │      │                  ╰ DiffID: sha256:1bbffd31a4c4ae40defb9c5dd117c9205eb7a85
-                        │      │                            8107eef5709b15737c0d2af98 
-                        │      ├ SeveritySource  : nvd 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42363 
-                        │      ├ DataSource       ╭ ID  : alpine 
-                        │      │                  ├ Name: Alpine Secdb 
-                        │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                        │      ├ Title           : busybox: use-after-free in awk 
-                        │      ├ Description     : A use-after-free vulnerability was discovered in
-                        │      │                   xasprintf function in xfuncs_printf.c:344 in BusyBox
-                        │      │                   v.1.36.1. 
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ CweIDs           ─ [0]: CWE-416 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
-                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                  │        │           N/I:N/A:H 
-                        │      │                  │        ╰ V3Score : 5.5 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                           │           H/I:H/A:H 
-                        │      │                           ╰ V3Score : 7.8 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42363 
-                        │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15865 
-                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42363 
-                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42363 
-                        │      ├ PublishedDate   : 2023-11-27T22:15:07.94Z 
-                        │      ╰ LastModifiedDate: 2023-11-30T05:06:49.523Z 
-                        ├ [9]  ╭ VulnerabilityID : CVE-2023-42364 
-                        │      ├ PkgID           : ssl_client@1.36.1-r15 
-                        │      ├ PkgName         : ssl_client 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.36.1-r15?arch=x86_64
-                        │      │                  │       &distro=3.19.1 
-                        │      │                  ╰ UID : 741efa5e56ecac21 
-                        │      ├ InstalledVersion: 1.36.1-r15 
-                        │      ├ FixedVersion    : 1.36.1-r17 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:96a504d60d4f35c974c6a92b6cf04612192706b
-                        │      │                  │         40880615844c526828d4f1694 
-                        │      │                  ╰ DiffID: sha256:1bbffd31a4c4ae40defb9c5dd117c9205eb7a85
-                        │      │                            8107eef5709b15737c0d2af98 
-                        │      ├ SeveritySource  : nvd 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42364 
-                        │      ├ DataSource       ╭ ID  : alpine 
-                        │      │                  ├ Name: Alpine Secdb 
-                        │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                        │      ├ Title           : busybox: use-after-free 
-                        │      ├ Description     : A use-after-free vulnerability in BusyBox v.1.36.1
-                        │      │                   allows attackers to cause a denial of service via a crafted
-                        │      │                   awk pattern in the awk.c evaluate function. 
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ CweIDs           ─ [0]: CWE-416 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
-                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                  │        │           N/I:N/A:H 
-                        │      │                  │        ╰ V3Score : 5.5 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                           │           H/I:H/A:H 
-                        │      │                           ╰ V3Score : 7.8 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42364 
-                        │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15868 
-                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42364 
-                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42364 
-                        │      ├ PublishedDate   : 2023-11-27T23:15:07.313Z 
-                        │      ╰ LastModifiedDate: 2023-11-30T05:07:10.827Z 
-                        ├ [10] ╭ VulnerabilityID : CVE-2023-42365 
-                        │      ├ PkgID           : ssl_client@1.36.1-r15 
-                        │      ├ PkgName         : ssl_client 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.36.1-r15?arch=x86_64
-                        │      │                  │       &distro=3.19.1 
-                        │      │                  ╰ UID : 741efa5e56ecac21 
-                        │      ├ InstalledVersion: 1.36.1-r15 
-                        │      ├ FixedVersion    : 1.36.1-r17 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:96a504d60d4f35c974c6a92b6cf04612192706b
-                        │      │                  │         40880615844c526828d4f1694 
-                        │      │                  ╰ DiffID: sha256:1bbffd31a4c4ae40defb9c5dd117c9205eb7a85
-                        │      │                            8107eef5709b15737c0d2af98 
-                        │      ├ SeveritySource  : nvd 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42365 
-                        │      ├ DataSource       ╭ ID  : alpine 
-                        │      │                  ├ Name: Alpine Secdb 
-                        │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                        │      ├ Title           : busybox:  use-after-free 
-                        │      ├ Description     : A use-after-free vulnerability was discovered in
-                        │      │                   BusyBox v.1.36.1 via a crafted awk pattern in the awk.c
-                        │      │                   copyvar function. 
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ CweIDs           ─ [0]: CWE-416 
-                        │      ├ VendorSeverity   ╭ nvd   : 2 
-                        │      │                  ├ redhat: 2 
-                        │      │                  ╰ ubuntu: 2 
-                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                  │        │           N/I:N/A:H 
-                        │      │                  │        ╰ V3Score : 5.5 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                        │      │                           │           H/I:H/A:H 
-                        │      │                           ╰ V3Score : 7.8 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42365 
-                        │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15871 
-                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42365 
-                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42365 
-                        │      ├ PublishedDate   : 2023-11-27T23:15:07.373Z 
-                        │      ╰ LastModifiedDate: 2023-11-30T05:08:08.77Z 
-                        ╰ [11] ╭ VulnerabilityID : CVE-2023-42366 
-                               ├ PkgID           : ssl_client@1.36.1-r15 
-                               ├ PkgName         : ssl_client 
-                               ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.36.1-r15?arch=x86_64
-                               │                  │       &distro=3.19.1 
-                               │                  ╰ UID : 741efa5e56ecac21 
-                               ├ InstalledVersion: 1.36.1-r15 
-                               ├ FixedVersion    : 1.36.1-r16 
-                               ├ Status          : fixed 
-                               ├ Layer            ╭ Digest: sha256:96a504d60d4f35c974c6a92b6cf04612192706b
-                               │                  │         40880615844c526828d4f1694 
-                               │                  ╰ DiffID: sha256:1bbffd31a4c4ae40defb9c5dd117c9205eb7a85
-                               │                            8107eef5709b15737c0d2af98 
-                               ├ SeveritySource  : nvd 
-                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42366 
-                               ├ DataSource       ╭ ID  : alpine 
-                               │                  ├ Name: Alpine Secdb 
-                               │                  ╰ URL : https://secdb.alpinelinux.org/ 
-                               ├ Title           : busybox: A heap-buffer-overflow 
-                               ├ Description     : A heap-buffer-overflow was discovered in BusyBox
-                               │                   v.1.36.1 in the next_token function at awk.c:1159. 
-                               ├ Severity        : MEDIUM 
-                               ├ CweIDs           ─ [0]: CWE-787 
-                               ├ VendorSeverity   ╭ nvd   : 2 
-                               │                  ├ redhat: 2 
-                               │                  ╰ ubuntu: 2 
-                               ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                               │                  │        │           N/I:N/A:H 
-                               │                  │        ╰ V3Score : 5.5 
-                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-                               │                           │           H/I:N/A:H 
-                               │                           ╰ V3Score : 7.1 
-                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42366 
-                               │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15874 
-                               │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42366 
-                               │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42366 
-                               ├ PublishedDate   : 2023-11-27T23:15:07.42Z 
-                               ╰ LastModifiedDate: 2023-11-30T05:08:23.197Z 
+      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2023-42363 
+                        │     ├ PkgID           : busybox@1.36.1-r15 
+                        │     ├ PkgName         : busybox 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox@1.36.1-r15?arch=x86_64&dis
+                        │     │                  │       tro=3.19.1 
+                        │     │                  ╰ UID : a71bca140ff5726b 
+                        │     ├ InstalledVersion: 1.36.1-r15 
+                        │     ├ FixedVersion    : 1.36.1-r17 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:e06cb9e53d0500b190e6a57f93bccb0f9ae0886e
+                        │     │                  │         a304a92497c935152e7873d5 
+                        │     │                  ╰ DiffID: sha256:b63cf138a3bc35b401172917825b228c4dddf907
+                        │     │                            79850168693a324e09d1cd8c 
+                        │     ├ SeveritySource  : nvd 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42363 
+                        │     ├ DataSource       ╭ ID  : alpine 
+                        │     │                  ├ Name: Alpine Secdb 
+                        │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+                        │     ├ Title           : busybox: use-after-free in awk 
+                        │     ├ Description     : A use-after-free vulnerability was discovered in
+                        │     │                   xasprintf function in xfuncs_printf.c:344 in BusyBox
+                        │     │                   v.1.36.1. 
+                        │     ├ Severity        : MEDIUM 
+                        │     ├ CweIDs           ─ [0]: CWE-416 
+                        │     ├ VendorSeverity   ╭ nvd   : 2 
+                        │     │                  ├ redhat: 2 
+                        │     │                  ╰ ubuntu: 2 
+                        │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
+                        │     │                  │        │           /I:N/A:H 
+                        │     │                  │        ╰ V3Score : 5.5 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H
+                        │     │                           │           /I:H/A:H 
+                        │     │                           ╰ V3Score : 7.8 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42363 
+                        │     │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15865 
+                        │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42363 
+                        │     │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42363 
+                        │     ├ PublishedDate   : 2023-11-27T22:15:07.94Z 
+                        │     ╰ LastModifiedDate: 2023-11-30T05:06:49.523Z 
+                        ├ [1] ╭ VulnerabilityID : CVE-2023-42366 
+                        │     ├ PkgID           : busybox@1.36.1-r15 
+                        │     ├ PkgName         : busybox 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox@1.36.1-r15?arch=x86_64&dis
+                        │     │                  │       tro=3.19.1 
+                        │     │                  ╰ UID : a71bca140ff5726b 
+                        │     ├ InstalledVersion: 1.36.1-r15 
+                        │     ├ FixedVersion    : 1.36.1-r16 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:e06cb9e53d0500b190e6a57f93bccb0f9ae0886e
+                        │     │                  │         a304a92497c935152e7873d5 
+                        │     │                  ╰ DiffID: sha256:b63cf138a3bc35b401172917825b228c4dddf907
+                        │     │                            79850168693a324e09d1cd8c 
+                        │     ├ SeveritySource  : nvd 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42366 
+                        │     ├ DataSource       ╭ ID  : alpine 
+                        │     │                  ├ Name: Alpine Secdb 
+                        │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+                        │     ├ Title           : busybox: A heap-buffer-overflow 
+                        │     ├ Description     : A heap-buffer-overflow was discovered in BusyBox
+                        │     │                   v.1.36.1 in the next_token function at awk.c:1159. 
+                        │     ├ Severity        : MEDIUM 
+                        │     ├ CweIDs           ─ [0]: CWE-787 
+                        │     ├ VendorSeverity   ╭ nvd   : 2 
+                        │     │                  ├ redhat: 2 
+                        │     │                  ╰ ubuntu: 2 
+                        │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
+                        │     │                  │        │           /I:N/A:H 
+                        │     │                  │        ╰ V3Score : 5.5 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H
+                        │     │                           │           /I:N/A:H 
+                        │     │                           ╰ V3Score : 7.1 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42366 
+                        │     │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15874 
+                        │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42366 
+                        │     │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42366 
+                        │     ├ PublishedDate   : 2023-11-27T23:15:07.42Z 
+                        │     ╰ LastModifiedDate: 2023-11-30T05:08:23.197Z 
+                        ├ [2] ╭ VulnerabilityID : CVE-2023-42363 
+                        │     ├ PkgID           : busybox-binsh@1.36.1-r15 
+                        │     ├ PkgName         : busybox-binsh 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox-binsh@1.36.1-r15?arch=x86_
+                        │     │                  │       64&distro=3.19.1 
+                        │     │                  ╰ UID : 3c2acc699fbc7b01 
+                        │     ├ InstalledVersion: 1.36.1-r15 
+                        │     ├ FixedVersion    : 1.36.1-r17 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:e06cb9e53d0500b190e6a57f93bccb0f9ae0886e
+                        │     │                  │         a304a92497c935152e7873d5 
+                        │     │                  ╰ DiffID: sha256:b63cf138a3bc35b401172917825b228c4dddf907
+                        │     │                            79850168693a324e09d1cd8c 
+                        │     ├ SeveritySource  : nvd 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42363 
+                        │     ├ DataSource       ╭ ID  : alpine 
+                        │     │                  ├ Name: Alpine Secdb 
+                        │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+                        │     ├ Title           : busybox: use-after-free in awk 
+                        │     ├ Description     : A use-after-free vulnerability was discovered in
+                        │     │                   xasprintf function in xfuncs_printf.c:344 in BusyBox
+                        │     │                   v.1.36.1. 
+                        │     ├ Severity        : MEDIUM 
+                        │     ├ CweIDs           ─ [0]: CWE-416 
+                        │     ├ VendorSeverity   ╭ nvd   : 2 
+                        │     │                  ├ redhat: 2 
+                        │     │                  ╰ ubuntu: 2 
+                        │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
+                        │     │                  │        │           /I:N/A:H 
+                        │     │                  │        ╰ V3Score : 5.5 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H
+                        │     │                           │           /I:H/A:H 
+                        │     │                           ╰ V3Score : 7.8 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42363 
+                        │     │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15865 
+                        │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42363 
+                        │     │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42363 
+                        │     ├ PublishedDate   : 2023-11-27T22:15:07.94Z 
+                        │     ╰ LastModifiedDate: 2023-11-30T05:06:49.523Z 
+                        ├ [3] ╭ VulnerabilityID : CVE-2023-42366 
+                        │     ├ PkgID           : busybox-binsh@1.36.1-r15 
+                        │     ├ PkgName         : busybox-binsh 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox-binsh@1.36.1-r15?arch=x86_
+                        │     │                  │       64&distro=3.19.1 
+                        │     │                  ╰ UID : 3c2acc699fbc7b01 
+                        │     ├ InstalledVersion: 1.36.1-r15 
+                        │     ├ FixedVersion    : 1.36.1-r16 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:e06cb9e53d0500b190e6a57f93bccb0f9ae0886e
+                        │     │                  │         a304a92497c935152e7873d5 
+                        │     │                  ╰ DiffID: sha256:b63cf138a3bc35b401172917825b228c4dddf907
+                        │     │                            79850168693a324e09d1cd8c 
+                        │     ├ SeveritySource  : nvd 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42366 
+                        │     ├ DataSource       ╭ ID  : alpine 
+                        │     │                  ├ Name: Alpine Secdb 
+                        │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+                        │     ├ Title           : busybox: A heap-buffer-overflow 
+                        │     ├ Description     : A heap-buffer-overflow was discovered in BusyBox
+                        │     │                   v.1.36.1 in the next_token function at awk.c:1159. 
+                        │     ├ Severity        : MEDIUM 
+                        │     ├ CweIDs           ─ [0]: CWE-787 
+                        │     ├ VendorSeverity   ╭ nvd   : 2 
+                        │     │                  ├ redhat: 2 
+                        │     │                  ╰ ubuntu: 2 
+                        │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
+                        │     │                  │        │           /I:N/A:H 
+                        │     │                  │        ╰ V3Score : 5.5 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H
+                        │     │                           │           /I:N/A:H 
+                        │     │                           ╰ V3Score : 7.1 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42366 
+                        │     │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15874 
+                        │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42366 
+                        │     │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42366 
+                        │     ├ PublishedDate   : 2023-11-27T23:15:07.42Z 
+                        │     ╰ LastModifiedDate: 2023-11-30T05:08:23.197Z 
+                        ├ [4] ╭ VulnerabilityID : CVE-2023-42363 
+                        │     ├ PkgID           : ssl_client@1.36.1-r15 
+                        │     ├ PkgName         : ssl_client 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.36.1-r15?arch=x86_64&
+                        │     │                  │       distro=3.19.1 
+                        │     │                  ╰ UID : 741efa5e56ecac21 
+                        │     ├ InstalledVersion: 1.36.1-r15 
+                        │     ├ FixedVersion    : 1.36.1-r17 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:e06cb9e53d0500b190e6a57f93bccb0f9ae0886e
+                        │     │                  │         a304a92497c935152e7873d5 
+                        │     │                  ╰ DiffID: sha256:b63cf138a3bc35b401172917825b228c4dddf907
+                        │     │                            79850168693a324e09d1cd8c 
+                        │     ├ SeveritySource  : nvd 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42363 
+                        │     ├ DataSource       ╭ ID  : alpine 
+                        │     │                  ├ Name: Alpine Secdb 
+                        │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+                        │     ├ Title           : busybox: use-after-free in awk 
+                        │     ├ Description     : A use-after-free vulnerability was discovered in
+                        │     │                   xasprintf function in xfuncs_printf.c:344 in BusyBox
+                        │     │                   v.1.36.1. 
+                        │     ├ Severity        : MEDIUM 
+                        │     ├ CweIDs           ─ [0]: CWE-416 
+                        │     ├ VendorSeverity   ╭ nvd   : 2 
+                        │     │                  ├ redhat: 2 
+                        │     │                  ╰ ubuntu: 2 
+                        │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
+                        │     │                  │        │           /I:N/A:H 
+                        │     │                  │        ╰ V3Score : 5.5 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H
+                        │     │                           │           /I:H/A:H 
+                        │     │                           ╰ V3Score : 7.8 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42363 
+                        │     │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15865 
+                        │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42363 
+                        │     │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42363 
+                        │     ├ PublishedDate   : 2023-11-27T22:15:07.94Z 
+                        │     ╰ LastModifiedDate: 2023-11-30T05:06:49.523Z 
+                        ╰ [5] ╭ VulnerabilityID : CVE-2023-42366 
+                              ├ PkgID           : ssl_client@1.36.1-r15 
+                              ├ PkgName         : ssl_client 
+                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.36.1-r15?arch=x86_64&
+                              │                  │       distro=3.19.1 
+                              │                  ╰ UID : 741efa5e56ecac21 
+                              ├ InstalledVersion: 1.36.1-r15 
+                              ├ FixedVersion    : 1.36.1-r16 
+                              ├ Status          : fixed 
+                              ├ Layer            ╭ Digest: sha256:e06cb9e53d0500b190e6a57f93bccb0f9ae0886e
+                              │                  │         a304a92497c935152e7873d5 
+                              │                  ╰ DiffID: sha256:b63cf138a3bc35b401172917825b228c4dddf907
+                              │                            79850168693a324e09d1cd8c 
+                              ├ SeveritySource  : nvd 
+                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42366 
+                              ├ DataSource       ╭ ID  : alpine 
+                              │                  ├ Name: Alpine Secdb 
+                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
+                              ├ Title           : busybox: A heap-buffer-overflow 
+                              ├ Description     : A heap-buffer-overflow was discovered in BusyBox
+                              │                   v.1.36.1 in the next_token function at awk.c:1159. 
+                              ├ Severity        : MEDIUM 
+                              ├ CweIDs           ─ [0]: CWE-787 
+                              ├ VendorSeverity   ╭ nvd   : 2 
+                              │                  ├ redhat: 2 
+                              │                  ╰ ubuntu: 2 
+                              ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
+                              │                  │        │           /I:N/A:H 
+                              │                  │        ╰ V3Score : 5.5 
+                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H
+                              │                           │           /I:N/A:H 
+                              │                           ╰ V3Score : 7.1 
+                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-42366 
+                              │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15874 
+                              │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-42366 
+                              │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-42366 
+                              ├ PublishedDate   : 2023-11-27T23:15:07.42Z 
+                              ╰ LastModifiedDate: 2023-11-30T05:08:23.197Z 
 ````
