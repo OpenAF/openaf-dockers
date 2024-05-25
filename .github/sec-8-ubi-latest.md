@@ -836,13 +836,15 @@
                         │       ├ PublishedDate   : 2024-05-07T18:15:08.35Z 
                         │       ╰ LastModifiedDate: 2024-05-07T20:07:58.737Z 
                         ├ [14]  ╭ VulnerabilityID : CVE-2024-2961 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
                         │       ├ PkgID           : glibc@2.34-83.el9_3.12.x86_64 
                         │       ├ PkgName         : glibc 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc@2.34-83.el9_3.12?arch=x86_
                         │       │                  │       64&distro=redhat-9.3 
                         │       │                  ╰ UID : 95f1173a1abb76b3 
                         │       ├ InstalledVersion: 2.34-83.el9_3.12 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 2.34-100.el9_4.2 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:c31dca1e9734fbf0f8b9071fd10e804ae38b2a
                         │       │                  │         e05f870fb7101835424804863d 
                         │       │                  ╰ DiffID: sha256:095a50b272d78e46ead81f16de5a6f5f4af346
@@ -903,13 +905,15 @@
                         │       ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
                         │       ╰ LastModifiedDate: 2024-05-04T01:15:06.243Z 
                         ├ [15]  ╭ VulnerabilityID : CVE-2024-33599 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
                         │       ├ PkgID           : glibc@2.34-83.el9_3.12.x86_64 
                         │       ├ PkgName         : glibc 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc@2.34-83.el9_3.12?arch=x86_
                         │       │                  │       64&distro=redhat-9.3 
                         │       │                  ╰ UID : 95f1173a1abb76b3 
                         │       ├ InstalledVersion: 2.34-83.el9_3.12 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 2.34-100.el9_4.2 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:c31dca1e9734fbf0f8b9071fd10e804ae38b2a
                         │       │                  │         e05f870fb7101835424804863d 
                         │       │                  ╰ DiffID: sha256:095a50b272d78e46ead81f16de5a6f5f4af346
@@ -944,13 +948,15 @@
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.437Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [16]  ╭ VulnerabilityID : CVE-2024-33600 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
                         │       ├ PkgID           : glibc@2.34-83.el9_3.12.x86_64 
                         │       ├ PkgName         : glibc 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc@2.34-83.el9_3.12?arch=x86_
                         │       │                  │       64&distro=redhat-9.3 
                         │       │                  ╰ UID : 95f1173a1abb76b3 
                         │       ├ InstalledVersion: 2.34-83.el9_3.12 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 2.34-100.el9_4.2 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:c31dca1e9734fbf0f8b9071fd10e804ae38b2a
                         │       │                  │         e05f870fb7101835424804863d 
                         │       │                  ╰ DiffID: sha256:095a50b272d78e46ead81f16de5a6f5f4af346
@@ -987,13 +993,15 @@
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.523Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [17]  ╭ VulnerabilityID : CVE-2024-33601 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
                         │       ├ PkgID           : glibc@2.34-83.el9_3.12.x86_64 
                         │       ├ PkgName         : glibc 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc@2.34-83.el9_3.12?arch=x86_
                         │       │                  │       64&distro=redhat-9.3 
                         │       │                  ╰ UID : 95f1173a1abb76b3 
                         │       ├ InstalledVersion: 2.34-83.el9_3.12 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 2.34-100.el9_4.2 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:c31dca1e9734fbf0f8b9071fd10e804ae38b2a
                         │       │                  │         e05f870fb7101835424804863d 
                         │       │                  ╰ DiffID: sha256:095a50b272d78e46ead81f16de5a6f5f4af346
@@ -1032,13 +1040,15 @@
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.603Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [18]  ╭ VulnerabilityID : CVE-2024-33602 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
                         │       ├ PkgID           : glibc@2.34-83.el9_3.12.x86_64 
                         │       ├ PkgName         : glibc 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc@2.34-83.el9_3.12?arch=x86_
                         │       │                  │       64&distro=redhat-9.3 
                         │       │                  ╰ UID : 95f1173a1abb76b3 
                         │       ├ InstalledVersion: 2.34-83.el9_3.12 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 2.34-100.el9_4.2 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:c31dca1e9734fbf0f8b9071fd10e804ae38b2a
                         │       │                  │         e05f870fb7101835424804863d 
                         │       │                  ╰ DiffID: sha256:095a50b272d78e46ead81f16de5a6f5f4af346
@@ -1075,13 +1085,15 @@
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.68Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [19]  ╭ VulnerabilityID : CVE-2024-2961 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
                         │       ├ PkgID           : glibc-common@2.34-83.el9_3.12.x86_64 
                         │       ├ PkgName         : glibc-common 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-common@2.34-83.el9_3.12?ar
                         │       │                  │       ch=x86_64&distro=redhat-9.3 
                         │       │                  ╰ UID : 881d32bfa49ed7d3 
                         │       ├ InstalledVersion: 2.34-83.el9_3.12 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 2.34-100.el9_4.2 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:c31dca1e9734fbf0f8b9071fd10e804ae38b2a
                         │       │                  │         e05f870fb7101835424804863d 
                         │       │                  ╰ DiffID: sha256:095a50b272d78e46ead81f16de5a6f5f4af346
@@ -1142,13 +1154,15 @@
                         │       ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
                         │       ╰ LastModifiedDate: 2024-05-04T01:15:06.243Z 
                         ├ [20]  ╭ VulnerabilityID : CVE-2024-33599 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
                         │       ├ PkgID           : glibc-common@2.34-83.el9_3.12.x86_64 
                         │       ├ PkgName         : glibc-common 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-common@2.34-83.el9_3.12?ar
                         │       │                  │       ch=x86_64&distro=redhat-9.3 
                         │       │                  ╰ UID : 881d32bfa49ed7d3 
                         │       ├ InstalledVersion: 2.34-83.el9_3.12 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 2.34-100.el9_4.2 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:c31dca1e9734fbf0f8b9071fd10e804ae38b2a
                         │       │                  │         e05f870fb7101835424804863d 
                         │       │                  ╰ DiffID: sha256:095a50b272d78e46ead81f16de5a6f5f4af346
@@ -1183,13 +1197,15 @@
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.437Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [21]  ╭ VulnerabilityID : CVE-2024-33600 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
                         │       ├ PkgID           : glibc-common@2.34-83.el9_3.12.x86_64 
                         │       ├ PkgName         : glibc-common 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-common@2.34-83.el9_3.12?ar
                         │       │                  │       ch=x86_64&distro=redhat-9.3 
                         │       │                  ╰ UID : 881d32bfa49ed7d3 
                         │       ├ InstalledVersion: 2.34-83.el9_3.12 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 2.34-100.el9_4.2 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:c31dca1e9734fbf0f8b9071fd10e804ae38b2a
                         │       │                  │         e05f870fb7101835424804863d 
                         │       │                  ╰ DiffID: sha256:095a50b272d78e46ead81f16de5a6f5f4af346
@@ -1226,13 +1242,15 @@
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.523Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [22]  ╭ VulnerabilityID : CVE-2024-33601 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
                         │       ├ PkgID           : glibc-common@2.34-83.el9_3.12.x86_64 
                         │       ├ PkgName         : glibc-common 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-common@2.34-83.el9_3.12?ar
                         │       │                  │       ch=x86_64&distro=redhat-9.3 
                         │       │                  ╰ UID : 881d32bfa49ed7d3 
                         │       ├ InstalledVersion: 2.34-83.el9_3.12 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 2.34-100.el9_4.2 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:c31dca1e9734fbf0f8b9071fd10e804ae38b2a
                         │       │                  │         e05f870fb7101835424804863d 
                         │       │                  ╰ DiffID: sha256:095a50b272d78e46ead81f16de5a6f5f4af346
@@ -1271,13 +1289,15 @@
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.603Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [23]  ╭ VulnerabilityID : CVE-2024-33602 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
                         │       ├ PkgID           : glibc-common@2.34-83.el9_3.12.x86_64 
                         │       ├ PkgName         : glibc-common 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-common@2.34-83.el9_3.12?ar
                         │       │                  │       ch=x86_64&distro=redhat-9.3 
                         │       │                  ╰ UID : 881d32bfa49ed7d3 
                         │       ├ InstalledVersion: 2.34-83.el9_3.12 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 2.34-100.el9_4.2 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:c31dca1e9734fbf0f8b9071fd10e804ae38b2a
                         │       │                  │         e05f870fb7101835424804863d 
                         │       │                  ╰ DiffID: sha256:095a50b272d78e46ead81f16de5a6f5f4af346
@@ -1314,13 +1334,15 @@
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.68Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [24]  ╭ VulnerabilityID : CVE-2024-2961 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
                         │       ├ PkgID           : glibc-minimal-langpack@2.34-83.el9_3.12.x86_64 
                         │       ├ PkgName         : glibc-minimal-langpack 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-83.e
                         │       │                  │       l9_3.12?arch=x86_64&distro=redhat-9.3 
                         │       │                  ╰ UID : a3079cce77c5b60 
                         │       ├ InstalledVersion: 2.34-83.el9_3.12 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 2.34-100.el9_4.2 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:c31dca1e9734fbf0f8b9071fd10e804ae38b2a
                         │       │                  │         e05f870fb7101835424804863d 
                         │       │                  ╰ DiffID: sha256:095a50b272d78e46ead81f16de5a6f5f4af346
@@ -1381,13 +1403,15 @@
                         │       ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
                         │       ╰ LastModifiedDate: 2024-05-04T01:15:06.243Z 
                         ├ [25]  ╭ VulnerabilityID : CVE-2024-33599 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
                         │       ├ PkgID           : glibc-minimal-langpack@2.34-83.el9_3.12.x86_64 
                         │       ├ PkgName         : glibc-minimal-langpack 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-83.e
                         │       │                  │       l9_3.12?arch=x86_64&distro=redhat-9.3 
                         │       │                  ╰ UID : a3079cce77c5b60 
                         │       ├ InstalledVersion: 2.34-83.el9_3.12 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 2.34-100.el9_4.2 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:c31dca1e9734fbf0f8b9071fd10e804ae38b2a
                         │       │                  │         e05f870fb7101835424804863d 
                         │       │                  ╰ DiffID: sha256:095a50b272d78e46ead81f16de5a6f5f4af346
@@ -1422,13 +1446,15 @@
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.437Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [26]  ╭ VulnerabilityID : CVE-2024-33600 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
                         │       ├ PkgID           : glibc-minimal-langpack@2.34-83.el9_3.12.x86_64 
                         │       ├ PkgName         : glibc-minimal-langpack 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-83.e
                         │       │                  │       l9_3.12?arch=x86_64&distro=redhat-9.3 
                         │       │                  ╰ UID : a3079cce77c5b60 
                         │       ├ InstalledVersion: 2.34-83.el9_3.12 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 2.34-100.el9_4.2 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:c31dca1e9734fbf0f8b9071fd10e804ae38b2a
                         │       │                  │         e05f870fb7101835424804863d 
                         │       │                  ╰ DiffID: sha256:095a50b272d78e46ead81f16de5a6f5f4af346
@@ -1465,13 +1491,15 @@
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.523Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [27]  ╭ VulnerabilityID : CVE-2024-33601 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
                         │       ├ PkgID           : glibc-minimal-langpack@2.34-83.el9_3.12.x86_64 
                         │       ├ PkgName         : glibc-minimal-langpack 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-83.e
                         │       │                  │       l9_3.12?arch=x86_64&distro=redhat-9.3 
                         │       │                  ╰ UID : a3079cce77c5b60 
                         │       ├ InstalledVersion: 2.34-83.el9_3.12 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 2.34-100.el9_4.2 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:c31dca1e9734fbf0f8b9071fd10e804ae38b2a
                         │       │                  │         e05f870fb7101835424804863d 
                         │       │                  ╰ DiffID: sha256:095a50b272d78e46ead81f16de5a6f5f4af346
@@ -1510,13 +1538,15 @@
                         │       ├ PublishedDate   : 2024-05-06T20:15:11.603Z 
                         │       ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
                         ├ [28]  ╭ VulnerabilityID : CVE-2024-33602 
+                        │       ├ VendorIDs        ─ [0]: RHSA-2024:3339 
                         │       ├ PkgID           : glibc-minimal-langpack@2.34-83.el9_3.12.x86_64 
                         │       ├ PkgName         : glibc-minimal-langpack 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-83.e
                         │       │                  │       l9_3.12?arch=x86_64&distro=redhat-9.3 
                         │       │                  ╰ UID : a3079cce77c5b60 
                         │       ├ InstalledVersion: 2.34-83.el9_3.12 
-                        │       ├ Status          : affected 
+                        │       ├ FixedVersion    : 2.34-100.el9_4.2 
+                        │       ├ Status          : fixed 
                         │       ├ Layer            ╭ Digest: sha256:c31dca1e9734fbf0f8b9071fd10e804ae38b2a
                         │       │                  │         e05f870fb7101835424804863d 
                         │       │                  ╰ DiffID: sha256:095a50b272d78e46ead81f16de5a6f5f4af346
@@ -2170,7 +2200,7 @@
                         │       │                           ╰ V3Score : 5.3 
                         │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
                         │       │                  │       /04/03/16 
-                        │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:2853 
+                        │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:2910 
                         │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
                         │       │                  │       -28182 
                         │       │                  ├ [3] : https://bugzilla.redhat.com/2265713 
@@ -2178,7 +2208,7 @@
                         │       │                  ├ [5] : https://bugzilla.redhat.com/2270559 
                         │       │                  ├ [6] : https://bugzilla.redhat.com/2272764 
                         │       │                  ├ [7] : https://bugzilla.redhat.com/2275392 
-                        │       │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-2853.html 
+                        │       │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-2910.html 
                         │       │                  ├ [9] : https://github.com/nghttp2/nghttp2/commit/00201
                         │       │                  │       ecd8f982da3b67d4f6868af72a1b03b14e0 
                         │       │                  ├ [10]: https://github.com/nghttp2/nghttp2/commit/d71a4
@@ -2186,7 +2216,7 @@
                         │       │                  ├ [11]: https://github.com/nghttp2/nghttp2/security/adv
                         │       │                  │       isories/GHSA-x6x3-gv8h-m57q 
                         │       │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-28182.html 
-                        │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-2853.html 
+                        │       │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-2910.html 
                         │       │                  ├ [14]: https://lists.debian.org/debian-lts-announce/20
                         │       │                  │       24/04/msg00026.html 
                         │       │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
@@ -6488,7 +6518,53 @@
                         │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-0450 
                         │       ├ PublishedDate   : 2024-03-19T16:15:09.18Z 
                         │       ╰ LastModifiedDate: 2024-05-07T22:15:07.43Z 
-                        ├ [96]  ╭ VulnerabilityID : CVE-2021-3572 
+                        ├ [96]  ╭ VulnerabilityID : CVE-2024-35195 
+                        │       ├ PkgID           : python3-pip-wheel@21.2.3-7.el9_3.1.noarch 
+                        │       ├ PkgName         : python3-pip-wheel 
+                        │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.2.3-7.el9_3
+                        │       │                  │       .1?arch=noarch&distro=redhat-9.3 
+                        │       │                  ╰ UID : 5e59436c04a9257b 
+                        │       ├ InstalledVersion: 21.2.3-7.el9_3.1 
+                        │       ├ Status          : under_investigation 
+                        │       ├ Layer            ╭ Digest: sha256:c31dca1e9734fbf0f8b9071fd10e804ae38b2a
+                        │       │                  │         e05f870fb7101835424804863d 
+                        │       │                  ╰ DiffID: sha256:095a50b272d78e46ead81f16de5a6f5f4af346
+                        │       │                            01c93e5e425b5f317eb81a9836 
+                        │       ├ SeveritySource  : redhat 
+                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-35195 
+                        │       ├ Title           : requests: subsequent requests to the same host ignore
+                        │       │                   cert verification 
+                        │       ├ Description     : Requests is a HTTP library. Prior to 2.32.0, when
+                        │       │                   making requests through a Requests `Session`, if the first
+                        │       │                   request is made with `verify=False` to disable cert
+                        │       │                   verification, all subsequent requests to the same host will
+                        │       │                    continue to ignore cert verification regardless of changes
+                        │       │                    to the value of `verify`. This behavior will continue for
+                        │       │                   the lifecycle of the connection in the connection pool.
+                        │       │                   This vulnerability is fixed in 2.32.0. 
+                        │       ├ Severity        : MEDIUM 
+                        │       ├ CweIDs           ─ [0]: CWE-670 
+                        │       ├ VendorSeverity   ╭ ghsa  : 2 
+                        │       │                  ├ redhat: 2 
+                        │       │                  ╰ ubuntu: 2 
+                        │       ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C
+                        │       │                  │        │           :H/I:H/A:N 
+                        │       │                  │        ╰ V3Score : 5.6 
+                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C
+                        │       │                           │           :H/I:H/A:N 
+                        │       │                           ╰ V3Score : 5.6 
+                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-35195 
+                        │       │                  ├ [1]: https://github.com/psf/requests 
+                        │       │                  ├ [2]: https://github.com/psf/requests/commit/a58d7f2ff
+                        │       │                  │      b4d00b46dca2d70a3932a0b37e22fac 
+                        │       │                  ├ [3]: https://github.com/psf/requests/pull/6655 
+                        │       │                  ├ [4]: https://github.com/psf/requests/security/advisor
+                        │       │                  │      ies/GHSA-9wx4-h78v-vm56 
+                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-35195 
+                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-35195 
+                        │       ├ PublishedDate   : 2024-05-20T21:15:09.99Z 
+                        │       ╰ LastModifiedDate: 2024-05-21T12:37:59.687Z 
+                        ├ [97]  ╭ VulnerabilityID : CVE-2021-3572 
                         │       ├ PkgID           : python3-pip-wheel@21.2.3-7.el9_3.1.noarch 
                         │       ├ PkgName         : python3-pip-wheel 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.2.3-7.el9_3
@@ -6560,7 +6636,7 @@
                         │       │                          22.html 
                         │       ├ PublishedDate   : 2021-11-10T18:15:09.51Z 
                         │       ╰ LastModifiedDate: 2022-10-05T02:14:39.75Z 
-                        ├ [97]  ╭ VulnerabilityID : CVE-2023-36191 
+                        ├ [98]  ╭ VulnerabilityID : CVE-2023-36191 
                         │       ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
                         │       ├ PkgName         : sqlite-libs 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=
@@ -6592,7 +6668,7 @@
                         │       │                  ╰ [3]: https://www.sqlite.org/forum/forumpost/19f55ef73b 
                         │       ├ PublishedDate   : 2023-06-23T02:15:09.597Z 
                         │       ╰ LastModifiedDate: 2023-11-07T04:16:25.153Z 
-                        ├ [98]  ╭ VulnerabilityID : CVE-2024-0232 
+                        ├ [99]  ╭ VulnerabilityID : CVE-2024-0232 
                         │       ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
                         │       ├ PkgName         : sqlite-libs 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=
@@ -6638,7 +6714,7 @@
                         │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-0232 
                         │       ├ PublishedDate   : 2024-01-16T14:15:48.327Z 
                         │       ╰ LastModifiedDate: 2024-03-15T11:15:08.56Z 
-                        ├ [99]  ╭ VulnerabilityID : CVE-2021-3997 
+                        ├ [100] ╭ VulnerabilityID : CVE-2021-3997 
                         │       ├ PkgID           : systemd-libs@252-18.el9.x86_64 
                         │       ├ PkgName         : systemd-libs 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/systemd-libs@252-18.el9?arch=x86
@@ -6683,7 +6759,7 @@
                         │       │                         /01/10/2 
                         │       ├ PublishedDate   : 2022-08-23T20:15:08.67Z 
                         │       ╰ LastModifiedDate: 2023-05-03T12:15:15.95Z 
-                        ├ [100] ╭ VulnerabilityID : CVE-2023-7008 
+                        ├ [101] ╭ VulnerabilityID : CVE-2023-7008 
                         │       ├ VendorIDs        ─ [0]: RHSA-2024:2463 
                         │       ├ PkgID           : systemd-libs@252-18.el9.x86_64 
                         │       ├ PkgName         : systemd-libs 
@@ -6723,28 +6799,29 @@
                         │       │                           │           :N/I:H/A:N 
                         │       │                           ╰ V3Score : 5.9 
                         │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:2463 
-                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-7008 
-                        │       │                  ├ [2] : https://bugzilla.redhat.com/2222672 
-                        │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2222261 
-                        │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2222672 
-                        │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+                        │       │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:3203 
+                        │       │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-7008 
+                        │       │                  ├ [3] : https://bugzilla.redhat.com/2222672 
+                        │       │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2222261 
+                        │       │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2222672 
+                        │       │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
                         │       │                  │       CVE-2023-7008 
-                        │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
-                        │       │                  ├ [7] : https://errata.rockylinux.org/RLSA-2024:2463 
-                        │       │                  ├ [8] : https://github.com/systemd/systemd/issues/25676 
-                        │       │                  ├ [9] : https://linux.oracle.com/cve/CVE-2023-7008.html 
-                        │       │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-2463.html 
-                        │       │                  ├ [11]: https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-2463.html 
+                        │       │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
+                        │       │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
+                        │       │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
+                        │       │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-2463.html 
+                        │       │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/4GMD
                         │       │                  │       EG5PKONWNHOEYSUDRT6JEOISRMN2/ 
-                        │       │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
+                        │       │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
                         │       │                  │       ackage-announce@lists.fedoraproject.org/message/QHNB
                         │       │                  │       XGKJWISJETTTDTZKTBFIBJUOSLKL/ 
-                        │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
-                        │       │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
+                        │       │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
+                        │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
                         │       ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
-                        │       ╰ LastModifiedDate: 2024-04-30T14:15:13.513Z 
-                        ├ [101] ╭ VulnerabilityID : CVE-2005-2541 
+                        │       ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
+                        ├ [102] ╭ VulnerabilityID : CVE-2005-2541 
                         │       ├ PkgID           : tar@1.34-6.el9_1.x86_64 
                         │       ├ PkgName         : tar 
                         │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-6.el9_1?arch=x86_64&dis
@@ -6780,7 +6857,7 @@
                         │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2005-2541 
                         │       ├ PublishedDate   : 2005-08-10T04:00:00Z 
                         │       ╰ LastModifiedDate: 2023-11-07T01:57:39.453Z 
-                        ╰ [102] ╭ VulnerabilityID : CVE-2023-39804 
+                        ╰ [103] ╭ VulnerabilityID : CVE-2023-39804 
                                 ├ PkgID           : tar@1.34-6.el9_1.x86_64 
                                 ├ PkgName         : tar 
                                 ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-6.el9_1?arch=x86_64&dis
