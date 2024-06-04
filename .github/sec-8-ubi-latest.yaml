@@ -6030,3 +6030,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-39804
     PublishedDate: '2024-03-27T04:15:08.897Z'
     LastModifiedDate: '2024-03-27T12:29:30.307Z'
+- Target: Java
+  Class: lang-pkgs
+  Type: jar
