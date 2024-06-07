@@ -1,3 +1,6 @@
 - Target: openaf/oaf:8-nightly (alpine 3.20.0)
   Class: os-pkgs
   Type: alpine
+- Target: Java
+  Class: lang-pkgs
+  Type: jar
