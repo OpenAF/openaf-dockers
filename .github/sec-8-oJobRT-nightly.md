@@ -11,10 +11,10 @@
 │                       │     ├ InstalledVersion: 1.36.1-r28 
 │                       │     ├ FixedVersion    : 1.36.1-r29 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:2aba525df4a67f6b2c9b8f43649761b5e5cf3962
-│                       │     │                  │         dbb5e48e6d1739b6453d8c0e 
-│                       │     │                  ╰ DiffID: sha256:f1822c1d8a26efd6fecb2309c700ba88fe2f6d84
-│                       │     │                            dc449c8dc5b6d33114527a73 
+│                       │     ├ Layer            ╭ Digest: sha256:521009d893060dba29d8852186dc263d307cb76e
+│                       │     │                  │         a09ba313fc14392bcd84f796 
+│                       │     │                  ╰ DiffID: sha256:a38f96fc5856973a52900b9b0f379219beca5647
+│                       │     │                            e321dcebcfbf8138d9a62a5c 
 │                       │     ├ SeveritySource  : nvd 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42364 
 │                       │     ├ DataSource       ╭ ID  : alpine 
@@ -50,10 +50,10 @@
 │                       │     ├ InstalledVersion: 1.36.1-r28 
 │                       │     ├ FixedVersion    : 1.36.1-r29 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:2aba525df4a67f6b2c9b8f43649761b5e5cf3962
-│                       │     │                  │         dbb5e48e6d1739b6453d8c0e 
-│                       │     │                  ╰ DiffID: sha256:f1822c1d8a26efd6fecb2309c700ba88fe2f6d84
-│                       │     │                            dc449c8dc5b6d33114527a73 
+│                       │     ├ Layer            ╭ Digest: sha256:521009d893060dba29d8852186dc263d307cb76e
+│                       │     │                  │         a09ba313fc14392bcd84f796 
+│                       │     │                  ╰ DiffID: sha256:a38f96fc5856973a52900b9b0f379219beca5647
+│                       │     │                            e321dcebcfbf8138d9a62a5c 
 │                       │     ├ SeveritySource  : nvd 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42365 
 │                       │     ├ DataSource       ╭ ID  : alpine 
@@ -89,10 +89,10 @@
 │                       │     ├ InstalledVersion: 1.36.1-r28 
 │                       │     ├ FixedVersion    : 1.36.1-r29 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:2aba525df4a67f6b2c9b8f43649761b5e5cf3962
-│                       │     │                  │         dbb5e48e6d1739b6453d8c0e 
-│                       │     │                  ╰ DiffID: sha256:f1822c1d8a26efd6fecb2309c700ba88fe2f6d84
-│                       │     │                            dc449c8dc5b6d33114527a73 
+│                       │     ├ Layer            ╭ Digest: sha256:521009d893060dba29d8852186dc263d307cb76e
+│                       │     │                  │         a09ba313fc14392bcd84f796 
+│                       │     │                  ╰ DiffID: sha256:a38f96fc5856973a52900b9b0f379219beca5647
+│                       │     │                            e321dcebcfbf8138d9a62a5c 
 │                       │     ├ SeveritySource  : nvd 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42364 
 │                       │     ├ DataSource       ╭ ID  : alpine 
@@ -128,10 +128,10 @@
 │                       │     ├ InstalledVersion: 1.36.1-r28 
 │                       │     ├ FixedVersion    : 1.36.1-r29 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:2aba525df4a67f6b2c9b8f43649761b5e5cf3962
-│                       │     │                  │         dbb5e48e6d1739b6453d8c0e 
-│                       │     │                  ╰ DiffID: sha256:f1822c1d8a26efd6fecb2309c700ba88fe2f6d84
-│                       │     │                            dc449c8dc5b6d33114527a73 
+│                       │     ├ Layer            ╭ Digest: sha256:521009d893060dba29d8852186dc263d307cb76e
+│                       │     │                  │         a09ba313fc14392bcd84f796 
+│                       │     │                  ╰ DiffID: sha256:a38f96fc5856973a52900b9b0f379219beca5647
+│                       │     │                            e321dcebcfbf8138d9a62a5c 
 │                       │     ├ SeveritySource  : nvd 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42365 
 │                       │     ├ DataSource       ╭ ID  : alpine 
@@ -167,10 +167,10 @@
 │                       │     ├ InstalledVersion: 1.36.1-r28 
 │                       │     ├ FixedVersion    : 1.36.1-r29 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:2aba525df4a67f6b2c9b8f43649761b5e5cf3962
-│                       │     │                  │         dbb5e48e6d1739b6453d8c0e 
-│                       │     │                  ╰ DiffID: sha256:f1822c1d8a26efd6fecb2309c700ba88fe2f6d84
-│                       │     │                            dc449c8dc5b6d33114527a73 
+│                       │     ├ Layer            ╭ Digest: sha256:521009d893060dba29d8852186dc263d307cb76e
+│                       │     │                  │         a09ba313fc14392bcd84f796 
+│                       │     │                  ╰ DiffID: sha256:a38f96fc5856973a52900b9b0f379219beca5647
+│                       │     │                            e321dcebcfbf8138d9a62a5c 
 │                       │     ├ SeveritySource  : nvd 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42364 
 │                       │     ├ DataSource       ╭ ID  : alpine 
@@ -206,10 +206,10 @@
 │                             ├ InstalledVersion: 1.36.1-r28 
 │                             ├ FixedVersion    : 1.36.1-r29 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:2aba525df4a67f6b2c9b8f43649761b5e5cf3962
-│                             │                  │         dbb5e48e6d1739b6453d8c0e 
-│                             │                  ╰ DiffID: sha256:f1822c1d8a26efd6fecb2309c700ba88fe2f6d84
-│                             │                            dc449c8dc5b6d33114527a73 
+│                             ├ Layer            ╭ Digest: sha256:521009d893060dba29d8852186dc263d307cb76e
+│                             │                  │         a09ba313fc14392bcd84f796 
+│                             │                  ╰ DiffID: sha256:a38f96fc5856973a52900b9b0f379219beca5647
+│                             │                            e321dcebcfbf8138d9a62a5c 
 │                             ├ SeveritySource  : nvd 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42365 
 │                             ├ DataSource       ╭ ID  : alpine 
