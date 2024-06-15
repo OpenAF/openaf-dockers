@@ -290,11 +290,13 @@
 │                       │      │                  │       8a623e090dee8a8aadf12a6a4b25efac143d 
 │                       │      │                  ├ [7] : https://github.com/OpenPrinting/cups/security/ad
 │                       │      │                  │       visories/GHSA-vvwp-mv6j-hw6f 
-│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-35235 
-│                       │      │                  ├ [9] : https://seclists.org/oss-sec/2024/q2/277 
-│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-35235 
+│                       │      │                  ├ [8] : https://lists.debian.org/debian-lts-announce/202
+│                       │      │                  │       4/06/msg00001.html 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-35235 
+│                       │      │                  ├ [10]: https://seclists.org/oss-sec/2024/q2/277 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-35235 
 │                       │      ├ PublishedDate   : 2024-06-11T15:16:07.473Z 
-│                       │      ╰ LastModifiedDate: 2024-06-13T18:36:45.417Z 
+│                       │      ╰ LastModifiedDate: 2024-06-14T03:15:13.393Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2021-25317 
 │                       │      ├ PkgID           : cups-libs@2.3.3op2-24.el9.x86_64 
 │                       │      ├ PkgName         : cups-libs 
@@ -1047,7 +1049,8 @@
 │                       │      │                   messages with xmllint --htmlout can result in a buffer
 │                       │      │                   over-read in xmlHTMLPrintFileContext in xmllint.c. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      │                  ╰ redhat     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 5.5 
@@ -1800,7 +1803,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
 │                       │      │                  ├ photon     : 2 
@@ -1947,7 +1950,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-834 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -2083,7 +2086,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -2605,7 +2608,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
 │                       │      │                  ├ photon     : 2 
@@ -2752,7 +2755,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-834 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -2888,7 +2891,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -4794,9 +4797,10 @@
 │                       │      │                    vulnerability is fixed in 2.32.0. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-670 
-│                       │      ├ VendorSeverity   ╭ ghsa  : 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      │                  ├ ghsa       : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:
 │                       │      │                  │        │           H/I:H/A:N 
 │                       │      │                  │        ╰ V3Score : 5.6 
