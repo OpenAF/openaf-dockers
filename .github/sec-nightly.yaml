@@ -12,8 +12,8 @@
     FixedVersion: 1.36.1-r29
     Status: fixed
     Layer:
-      Digest: sha256:d4f399f5aa8403d6ed29d36da27d168ff5e8e60353bb3d13b6a9fd673efd2c4c
-      DiffID: sha256:60b1d760d1b24e7a1481039b404ee5198a2832e3f47fceb0ec717816255ecbb2
+      Digest: sha256:260d6d63a10c284311955da68224c76fae60fc2ef62f7c34ce5a78a91c3a5309
+      DiffID: sha256:05682826749f0de19cd49bf2c87333c5b5da11b389536009ebda6c5a6782b658
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42364
     DataSource:
@@ -53,8 +53,8 @@
     FixedVersion: 1.36.1-r29
     Status: fixed
     Layer:
-      Digest: sha256:d4f399f5aa8403d6ed29d36da27d168ff5e8e60353bb3d13b6a9fd673efd2c4c
-      DiffID: sha256:60b1d760d1b24e7a1481039b404ee5198a2832e3f47fceb0ec717816255ecbb2
+      Digest: sha256:260d6d63a10c284311955da68224c76fae60fc2ef62f7c34ce5a78a91c3a5309
+      DiffID: sha256:05682826749f0de19cd49bf2c87333c5b5da11b389536009ebda6c5a6782b658
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42365
     DataSource:
@@ -94,8 +94,8 @@
     FixedVersion: 1.36.1-r29
     Status: fixed
     Layer:
-      Digest: sha256:d4f399f5aa8403d6ed29d36da27d168ff5e8e60353bb3d13b6a9fd673efd2c4c
-      DiffID: sha256:60b1d760d1b24e7a1481039b404ee5198a2832e3f47fceb0ec717816255ecbb2
+      Digest: sha256:260d6d63a10c284311955da68224c76fae60fc2ef62f7c34ce5a78a91c3a5309
+      DiffID: sha256:05682826749f0de19cd49bf2c87333c5b5da11b389536009ebda6c5a6782b658
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42364
     DataSource:
@@ -135,8 +135,8 @@
     FixedVersion: 1.36.1-r29
     Status: fixed
     Layer:
-      Digest: sha256:d4f399f5aa8403d6ed29d36da27d168ff5e8e60353bb3d13b6a9fd673efd2c4c
-      DiffID: sha256:60b1d760d1b24e7a1481039b404ee5198a2832e3f47fceb0ec717816255ecbb2
+      Digest: sha256:260d6d63a10c284311955da68224c76fae60fc2ef62f7c34ce5a78a91c3a5309
+      DiffID: sha256:05682826749f0de19cd49bf2c87333c5b5da11b389536009ebda6c5a6782b658
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42365
     DataSource:
@@ -176,8 +176,8 @@
     FixedVersion: 1.36.1-r29
     Status: fixed
     Layer:
-      Digest: sha256:d4f399f5aa8403d6ed29d36da27d168ff5e8e60353bb3d13b6a9fd673efd2c4c
-      DiffID: sha256:60b1d760d1b24e7a1481039b404ee5198a2832e3f47fceb0ec717816255ecbb2
+      Digest: sha256:260d6d63a10c284311955da68224c76fae60fc2ef62f7c34ce5a78a91c3a5309
+      DiffID: sha256:05682826749f0de19cd49bf2c87333c5b5da11b389536009ebda6c5a6782b658
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42364
     DataSource:
@@ -217,8 +217,8 @@
     FixedVersion: 1.36.1-r29
     Status: fixed
     Layer:
-      Digest: sha256:d4f399f5aa8403d6ed29d36da27d168ff5e8e60353bb3d13b6a9fd673efd2c4c
-      DiffID: sha256:60b1d760d1b24e7a1481039b404ee5198a2832e3f47fceb0ec717816255ecbb2
+      Digest: sha256:260d6d63a10c284311955da68224c76fae60fc2ef62f7c34ce5a78a91c3a5309
+      DiffID: sha256:05682826749f0de19cd49bf2c87333c5b5da11b389536009ebda6c5a6782b658
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42365
     DataSource:
