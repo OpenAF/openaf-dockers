@@ -12,8 +12,8 @@
     FixedVersion: 1.36.1-r29
     Status: fixed
     Layer:
-      Digest: sha256:efb8af276d7dd05606194ef02f7287d34746de59338c90f6a1790d4bdf57cab2
-      DiffID: sha256:93118998ae7ec5bac8b02556f5a317588c68fa48d8815f5b78d635232839ff2d
+      Digest: sha256:63b4ebabdf6ff02e99a5be475b10b2ae3ea5421d0bb410a0b9f167b7dd0b08af
+      DiffID: sha256:aa0a794481e10151b99e7306c503ad362172609c580bdc49dc7153ae0241f3e0
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42364
     DataSource:
@@ -28,7 +28,6 @@
     VendorSeverity:
       nvd: 2
       redhat: 2
-      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
@@ -53,8 +52,8 @@
     FixedVersion: 1.36.1-r29
     Status: fixed
     Layer:
-      Digest: sha256:efb8af276d7dd05606194ef02f7287d34746de59338c90f6a1790d4bdf57cab2
-      DiffID: sha256:93118998ae7ec5bac8b02556f5a317588c68fa48d8815f5b78d635232839ff2d
+      Digest: sha256:63b4ebabdf6ff02e99a5be475b10b2ae3ea5421d0bb410a0b9f167b7dd0b08af
+      DiffID: sha256:aa0a794481e10151b99e7306c503ad362172609c580bdc49dc7153ae0241f3e0
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42365
     DataSource:
@@ -69,7 +68,6 @@
     VendorSeverity:
       nvd: 2
       redhat: 2
-      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
@@ -94,8 +92,8 @@
     FixedVersion: 1.36.1-r29
     Status: fixed
     Layer:
-      Digest: sha256:efb8af276d7dd05606194ef02f7287d34746de59338c90f6a1790d4bdf57cab2
-      DiffID: sha256:93118998ae7ec5bac8b02556f5a317588c68fa48d8815f5b78d635232839ff2d
+      Digest: sha256:63b4ebabdf6ff02e99a5be475b10b2ae3ea5421d0bb410a0b9f167b7dd0b08af
+      DiffID: sha256:aa0a794481e10151b99e7306c503ad362172609c580bdc49dc7153ae0241f3e0
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42364
     DataSource:
@@ -110,7 +108,6 @@
     VendorSeverity:
       nvd: 2
       redhat: 2
-      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
@@ -135,8 +132,8 @@
     FixedVersion: 1.36.1-r29
     Status: fixed
     Layer:
-      Digest: sha256:efb8af276d7dd05606194ef02f7287d34746de59338c90f6a1790d4bdf57cab2
-      DiffID: sha256:93118998ae7ec5bac8b02556f5a317588c68fa48d8815f5b78d635232839ff2d
+      Digest: sha256:63b4ebabdf6ff02e99a5be475b10b2ae3ea5421d0bb410a0b9f167b7dd0b08af
+      DiffID: sha256:aa0a794481e10151b99e7306c503ad362172609c580bdc49dc7153ae0241f3e0
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42365
     DataSource:
@@ -151,7 +148,6 @@
     VendorSeverity:
       nvd: 2
       redhat: 2
-      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
@@ -176,8 +172,8 @@
     FixedVersion: 1.36.1-r29
     Status: fixed
     Layer:
-      Digest: sha256:efb8af276d7dd05606194ef02f7287d34746de59338c90f6a1790d4bdf57cab2
-      DiffID: sha256:93118998ae7ec5bac8b02556f5a317588c68fa48d8815f5b78d635232839ff2d
+      Digest: sha256:63b4ebabdf6ff02e99a5be475b10b2ae3ea5421d0bb410a0b9f167b7dd0b08af
+      DiffID: sha256:aa0a794481e10151b99e7306c503ad362172609c580bdc49dc7153ae0241f3e0
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42364
     DataSource:
@@ -192,7 +188,6 @@
     VendorSeverity:
       nvd: 2
       redhat: 2
-      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
@@ -217,8 +212,8 @@
     FixedVersion: 1.36.1-r29
     Status: fixed
     Layer:
-      Digest: sha256:efb8af276d7dd05606194ef02f7287d34746de59338c90f6a1790d4bdf57cab2
-      DiffID: sha256:93118998ae7ec5bac8b02556f5a317588c68fa48d8815f5b78d635232839ff2d
+      Digest: sha256:63b4ebabdf6ff02e99a5be475b10b2ae3ea5421d0bb410a0b9f167b7dd0b08af
+      DiffID: sha256:aa0a794481e10151b99e7306c503ad362172609c580bdc49dc7153ae0241f3e0
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42365
     DataSource:
@@ -233,7 +228,6 @@
     VendorSeverity:
       nvd: 2
       redhat: 2
-      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
