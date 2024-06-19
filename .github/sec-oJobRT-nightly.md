@@ -11,10 +11,10 @@
 │                       │     ├ InstalledVersion: 1.36.1-r28 
 │                       │     ├ FixedVersion    : 1.36.1-r29 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:e108a3f62b3fce99ad0ebb4d57da9afe4251ac91
-│                       │     │                  │         6e2f868c8b82ab977d69938a 
-│                       │     │                  ╰ DiffID: sha256:15f3c85390b1c03e3c3f177bcc00544a670033d1
-│                       │     │                            20329d703148626a08ecba03 
+│                       │     ├ Layer            ╭ Digest: sha256:052b6a2af5e86e3ecec3036c1232532dc8082aab
+│                       │     │                  │         b46279a3cd583d4fb5045285 
+│                       │     │                  ╰ DiffID: sha256:651efdd84536e537fb716c9c90dcd58555c4b302
+│                       │     │                            0bd29ef11092c0a759df01ce 
 │                       │     ├ SeveritySource  : nvd 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42364 
 │                       │     ├ DataSource       ╭ ID  : alpine 
@@ -27,8 +27,7 @@
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-416 
 │                       │     ├ VendorSeverity   ╭ nvd   : 2 
-│                       │     │                  ├ redhat: 2 
-│                       │     │                  ╰ ubuntu: 2 
+│                       │     │                  ╰ redhat: 2 
 │                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
 │                       │     │                  │        │           /I:N/A:H 
 │                       │     │                  │        ╰ V3Score : 5.5 
@@ -50,10 +49,10 @@
 │                       │     ├ InstalledVersion: 1.36.1-r28 
 │                       │     ├ FixedVersion    : 1.36.1-r29 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:e108a3f62b3fce99ad0ebb4d57da9afe4251ac91
-│                       │     │                  │         6e2f868c8b82ab977d69938a 
-│                       │     │                  ╰ DiffID: sha256:15f3c85390b1c03e3c3f177bcc00544a670033d1
-│                       │     │                            20329d703148626a08ecba03 
+│                       │     ├ Layer            ╭ Digest: sha256:052b6a2af5e86e3ecec3036c1232532dc8082aab
+│                       │     │                  │         b46279a3cd583d4fb5045285 
+│                       │     │                  ╰ DiffID: sha256:651efdd84536e537fb716c9c90dcd58555c4b302
+│                       │     │                            0bd29ef11092c0a759df01ce 
 │                       │     ├ SeveritySource  : nvd 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42365 
 │                       │     ├ DataSource       ╭ ID  : alpine 
@@ -66,8 +65,7 @@
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-416 
 │                       │     ├ VendorSeverity   ╭ nvd   : 2 
-│                       │     │                  ├ redhat: 2 
-│                       │     │                  ╰ ubuntu: 2 
+│                       │     │                  ╰ redhat: 2 
 │                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
 │                       │     │                  │        │           /I:N/A:H 
 │                       │     │                  │        ╰ V3Score : 5.5 
@@ -89,10 +87,10 @@
 │                       │     ├ InstalledVersion: 1.36.1-r28 
 │                       │     ├ FixedVersion    : 1.36.1-r29 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:e108a3f62b3fce99ad0ebb4d57da9afe4251ac91
-│                       │     │                  │         6e2f868c8b82ab977d69938a 
-│                       │     │                  ╰ DiffID: sha256:15f3c85390b1c03e3c3f177bcc00544a670033d1
-│                       │     │                            20329d703148626a08ecba03 
+│                       │     ├ Layer            ╭ Digest: sha256:052b6a2af5e86e3ecec3036c1232532dc8082aab
+│                       │     │                  │         b46279a3cd583d4fb5045285 
+│                       │     │                  ╰ DiffID: sha256:651efdd84536e537fb716c9c90dcd58555c4b302
+│                       │     │                            0bd29ef11092c0a759df01ce 
 │                       │     ├ SeveritySource  : nvd 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42364 
 │                       │     ├ DataSource       ╭ ID  : alpine 
@@ -105,8 +103,7 @@
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-416 
 │                       │     ├ VendorSeverity   ╭ nvd   : 2 
-│                       │     │                  ├ redhat: 2 
-│                       │     │                  ╰ ubuntu: 2 
+│                       │     │                  ╰ redhat: 2 
 │                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
 │                       │     │                  │        │           /I:N/A:H 
 │                       │     │                  │        ╰ V3Score : 5.5 
@@ -128,10 +125,10 @@
 │                       │     ├ InstalledVersion: 1.36.1-r28 
 │                       │     ├ FixedVersion    : 1.36.1-r29 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:e108a3f62b3fce99ad0ebb4d57da9afe4251ac91
-│                       │     │                  │         6e2f868c8b82ab977d69938a 
-│                       │     │                  ╰ DiffID: sha256:15f3c85390b1c03e3c3f177bcc00544a670033d1
-│                       │     │                            20329d703148626a08ecba03 
+│                       │     ├ Layer            ╭ Digest: sha256:052b6a2af5e86e3ecec3036c1232532dc8082aab
+│                       │     │                  │         b46279a3cd583d4fb5045285 
+│                       │     │                  ╰ DiffID: sha256:651efdd84536e537fb716c9c90dcd58555c4b302
+│                       │     │                            0bd29ef11092c0a759df01ce 
 │                       │     ├ SeveritySource  : nvd 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42365 
 │                       │     ├ DataSource       ╭ ID  : alpine 
@@ -144,8 +141,7 @@
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-416 
 │                       │     ├ VendorSeverity   ╭ nvd   : 2 
-│                       │     │                  ├ redhat: 2 
-│                       │     │                  ╰ ubuntu: 2 
+│                       │     │                  ╰ redhat: 2 
 │                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
 │                       │     │                  │        │           /I:N/A:H 
 │                       │     │                  │        ╰ V3Score : 5.5 
@@ -167,10 +163,10 @@
 │                       │     ├ InstalledVersion: 1.36.1-r28 
 │                       │     ├ FixedVersion    : 1.36.1-r29 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:e108a3f62b3fce99ad0ebb4d57da9afe4251ac91
-│                       │     │                  │         6e2f868c8b82ab977d69938a 
-│                       │     │                  ╰ DiffID: sha256:15f3c85390b1c03e3c3f177bcc00544a670033d1
-│                       │     │                            20329d703148626a08ecba03 
+│                       │     ├ Layer            ╭ Digest: sha256:052b6a2af5e86e3ecec3036c1232532dc8082aab
+│                       │     │                  │         b46279a3cd583d4fb5045285 
+│                       │     │                  ╰ DiffID: sha256:651efdd84536e537fb716c9c90dcd58555c4b302
+│                       │     │                            0bd29ef11092c0a759df01ce 
 │                       │     ├ SeveritySource  : nvd 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42364 
 │                       │     ├ DataSource       ╭ ID  : alpine 
@@ -183,8 +179,7 @@
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-416 
 │                       │     ├ VendorSeverity   ╭ nvd   : 2 
-│                       │     │                  ├ redhat: 2 
-│                       │     │                  ╰ ubuntu: 2 
+│                       │     │                  ╰ redhat: 2 
 │                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
 │                       │     │                  │        │           /I:N/A:H 
 │                       │     │                  │        ╰ V3Score : 5.5 
@@ -206,10 +201,10 @@
 │                             ├ InstalledVersion: 1.36.1-r28 
 │                             ├ FixedVersion    : 1.36.1-r29 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:e108a3f62b3fce99ad0ebb4d57da9afe4251ac91
-│                             │                  │         6e2f868c8b82ab977d69938a 
-│                             │                  ╰ DiffID: sha256:15f3c85390b1c03e3c3f177bcc00544a670033d1
-│                             │                            20329d703148626a08ecba03 
+│                             ├ Layer            ╭ Digest: sha256:052b6a2af5e86e3ecec3036c1232532dc8082aab
+│                             │                  │         b46279a3cd583d4fb5045285 
+│                             │                  ╰ DiffID: sha256:651efdd84536e537fb716c9c90dcd58555c4b302
+│                             │                            0bd29ef11092c0a759df01ce 
 │                             ├ SeveritySource  : nvd 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42365 
 │                             ├ DataSource       ╭ ID  : alpine 
@@ -222,8 +217,7 @@
 │                             ├ Severity        : MEDIUM 
 │                             ├ CweIDs           ─ [0]: CWE-416 
 │                             ├ VendorSeverity   ╭ nvd   : 2 
-│                             │                  ├ redhat: 2 
-│                             │                  ╰ ubuntu: 2 
+│                             │                  ╰ redhat: 2 
 │                             ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N
 │                             │                  │        │           /I:N/A:H 
 │                             │                  │        ╰ V3Score : 5.5 
