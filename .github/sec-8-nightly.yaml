@@ -12,8 +12,8 @@
     FixedVersion: 1.36.1-r29
     Status: fixed
     Layer:
-      Digest: sha256:71e90d8f27e4aa8c8abb57d170db62b188ba47c5da27b157f548138695df6df6
-      DiffID: sha256:6f8a0d6acde4d326b535b62ba6fdf4dce7f1af6a742d2f0f50ff45bcfa0e7704
+      Digest: sha256:80ea64a771951957d845ed5cc35f6be5cb043ddd63f4a299c30e981b086b7485
+      DiffID: sha256:aa514cfb730ff359e46d08ba563dfcec811533dc8f45d292c11151700d590468
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42364
     DataSource:
@@ -28,6 +28,7 @@
     VendorSeverity:
       nvd: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
@@ -36,8 +37,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://lists.busybox.net/pipermail/busybox/2024-May/090762.html
     - https://access.redhat.com/security/cve/CVE-2023-42364
     - https://bugs.busybox.net/show_bug.cgi?id=15868
+    - https://gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/busybox/CVE-2023-42364-CVE-2023-42365.patch
     - https://nvd.nist.gov/vuln/detail/CVE-2023-42364
     - https://www.cve.org/CVERecord?id=CVE-2023-42364
     PublishedDate: '2023-11-27T23:15:07.313Z'
@@ -52,8 +55,8 @@
     FixedVersion: 1.36.1-r29
     Status: fixed
     Layer:
-      Digest: sha256:71e90d8f27e4aa8c8abb57d170db62b188ba47c5da27b157f548138695df6df6
-      DiffID: sha256:6f8a0d6acde4d326b535b62ba6fdf4dce7f1af6a742d2f0f50ff45bcfa0e7704
+      Digest: sha256:80ea64a771951957d845ed5cc35f6be5cb043ddd63f4a299c30e981b086b7485
+      DiffID: sha256:aa514cfb730ff359e46d08ba563dfcec811533dc8f45d292c11151700d590468
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42365
     DataSource:
@@ -68,6 +71,7 @@
     VendorSeverity:
       nvd: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
@@ -76,8 +80,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://lists.busybox.net/pipermail/busybox/2024-May/090762.html
     - https://access.redhat.com/security/cve/CVE-2023-42365
     - https://bugs.busybox.net/show_bug.cgi?id=15871
+    - https://gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/busybox/CVE-2023-42364-CVE-2023-42365.patch
     - https://nvd.nist.gov/vuln/detail/CVE-2023-42365
     - https://www.cve.org/CVERecord?id=CVE-2023-42365
     PublishedDate: '2023-11-27T23:15:07.373Z'
@@ -92,8 +98,8 @@
     FixedVersion: 1.36.1-r29
     Status: fixed
     Layer:
-      Digest: sha256:71e90d8f27e4aa8c8abb57d170db62b188ba47c5da27b157f548138695df6df6
-      DiffID: sha256:6f8a0d6acde4d326b535b62ba6fdf4dce7f1af6a742d2f0f50ff45bcfa0e7704
+      Digest: sha256:80ea64a771951957d845ed5cc35f6be5cb043ddd63f4a299c30e981b086b7485
+      DiffID: sha256:aa514cfb730ff359e46d08ba563dfcec811533dc8f45d292c11151700d590468
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42364
     DataSource:
@@ -108,6 +114,7 @@
     VendorSeverity:
       nvd: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
@@ -116,8 +123,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://lists.busybox.net/pipermail/busybox/2024-May/090762.html
     - https://access.redhat.com/security/cve/CVE-2023-42364
     - https://bugs.busybox.net/show_bug.cgi?id=15868
+    - https://gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/busybox/CVE-2023-42364-CVE-2023-42365.patch
     - https://nvd.nist.gov/vuln/detail/CVE-2023-42364
     - https://www.cve.org/CVERecord?id=CVE-2023-42364
     PublishedDate: '2023-11-27T23:15:07.313Z'
@@ -132,8 +141,8 @@
     FixedVersion: 1.36.1-r29
     Status: fixed
     Layer:
-      Digest: sha256:71e90d8f27e4aa8c8abb57d170db62b188ba47c5da27b157f548138695df6df6
-      DiffID: sha256:6f8a0d6acde4d326b535b62ba6fdf4dce7f1af6a742d2f0f50ff45bcfa0e7704
+      Digest: sha256:80ea64a771951957d845ed5cc35f6be5cb043ddd63f4a299c30e981b086b7485
+      DiffID: sha256:aa514cfb730ff359e46d08ba563dfcec811533dc8f45d292c11151700d590468
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42365
     DataSource:
@@ -148,6 +157,7 @@
     VendorSeverity:
       nvd: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
@@ -156,8 +166,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://lists.busybox.net/pipermail/busybox/2024-May/090762.html
     - https://access.redhat.com/security/cve/CVE-2023-42365
     - https://bugs.busybox.net/show_bug.cgi?id=15871
+    - https://gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/busybox/CVE-2023-42364-CVE-2023-42365.patch
     - https://nvd.nist.gov/vuln/detail/CVE-2023-42365
     - https://www.cve.org/CVERecord?id=CVE-2023-42365
     PublishedDate: '2023-11-27T23:15:07.373Z'
@@ -172,8 +184,8 @@
     FixedVersion: 1.36.1-r29
     Status: fixed
     Layer:
-      Digest: sha256:71e90d8f27e4aa8c8abb57d170db62b188ba47c5da27b157f548138695df6df6
-      DiffID: sha256:6f8a0d6acde4d326b535b62ba6fdf4dce7f1af6a742d2f0f50ff45bcfa0e7704
+      Digest: sha256:80ea64a771951957d845ed5cc35f6be5cb043ddd63f4a299c30e981b086b7485
+      DiffID: sha256:aa514cfb730ff359e46d08ba563dfcec811533dc8f45d292c11151700d590468
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42364
     DataSource:
@@ -188,6 +200,7 @@
     VendorSeverity:
       nvd: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
@@ -196,8 +209,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://lists.busybox.net/pipermail/busybox/2024-May/090762.html
     - https://access.redhat.com/security/cve/CVE-2023-42364
     - https://bugs.busybox.net/show_bug.cgi?id=15868
+    - https://gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/busybox/CVE-2023-42364-CVE-2023-42365.patch
     - https://nvd.nist.gov/vuln/detail/CVE-2023-42364
     - https://www.cve.org/CVERecord?id=CVE-2023-42364
     PublishedDate: '2023-11-27T23:15:07.313Z'
@@ -212,8 +227,8 @@
     FixedVersion: 1.36.1-r29
     Status: fixed
     Layer:
-      Digest: sha256:71e90d8f27e4aa8c8abb57d170db62b188ba47c5da27b157f548138695df6df6
-      DiffID: sha256:6f8a0d6acde4d326b535b62ba6fdf4dce7f1af6a742d2f0f50ff45bcfa0e7704
+      Digest: sha256:80ea64a771951957d845ed5cc35f6be5cb043ddd63f4a299c30e981b086b7485
+      DiffID: sha256:aa514cfb730ff359e46d08ba563dfcec811533dc8f45d292c11151700d590468
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42365
     DataSource:
@@ -228,6 +243,7 @@
     VendorSeverity:
       nvd: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
@@ -236,8 +252,10 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://lists.busybox.net/pipermail/busybox/2024-May/090762.html
     - https://access.redhat.com/security/cve/CVE-2023-42365
     - https://bugs.busybox.net/show_bug.cgi?id=15871
+    - https://gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/busybox/CVE-2023-42364-CVE-2023-42365.patch
     - https://nvd.nist.gov/vuln/detail/CVE-2023-42365
     - https://www.cve.org/CVERecord?id=CVE-2023-42365
     PublishedDate: '2023-11-27T23:15:07.373Z'
