@@ -1089,7 +1089,105 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-34459 
 │                       │      ├ PublishedDate   : 2024-05-14T15:39:11.917Z 
 │                       │      ╰ LastModifiedDate: 2024-06-10T18:15:34.93Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2024-35329 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2024-35325 
+│                       │      ├ PkgID           : libyaml@0.2.5-7.el9.x86_64 
+│                       │      ├ PkgName         : libyaml 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libyaml@0.2.5-7.el9?arch=x86_64&d
+│                       │      │                  │       istro=redhat-9.4 
+│                       │      │                  ╰ UID : b069be4420870139 
+│                       │      ├ InstalledVersion: 0.2.5-7.el9 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:248b885a2e99c1fe351d1476eec553a4930c93f
+│                       │      │                  │         18b236b085b9fad9f8450a4cf 
+│                       │      │                  ╰ DiffID: sha256:3a3bbb501ec3542a6a56114af5eccd48f35123d
+│                       │      │                            65bffc127a4c0615ab8008459 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-35325 
+│                       │      ├ Title           : libyaml: double-free in yaml_event_delete in
+│                       │      │                   /src/libyaml/src/api.c 
+│                       │      ├ Description     : A vulnerability was found in libyaml up to 0.2.5.
+│                       │      │                   Affected by this issue is the function yaml_event_delete of
+│                       │      │                   the file /src/libyaml/src/api.c. The manipulation leads to a
+│                       │      │                    double-free. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
+│                       │      │                           │           N/I:N/A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-35325 
+│                       │      │                  ├ [1]: https://github.com/idhyt/pocs/blob/main/libyaml/C
+│                       │      │                  │      VE-2024-35325.c 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-35325 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-35325 
+│                       │      ├ PublishedDate   : 2024-06-13T17:15:50.39Z 
+│                       │      ╰ LastModifiedDate: 2024-06-13T18:35:19.777Z 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2024-35326 
+│                       │      ├ PkgID           : libyaml@0.2.5-7.el9.x86_64 
+│                       │      ├ PkgName         : libyaml 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libyaml@0.2.5-7.el9?arch=x86_64&d
+│                       │      │                  │       istro=redhat-9.4 
+│                       │      │                  ╰ UID : b069be4420870139 
+│                       │      ├ InstalledVersion: 0.2.5-7.el9 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:248b885a2e99c1fe351d1476eec553a4930c93f
+│                       │      │                  │         18b236b085b9fad9f8450a4cf 
+│                       │      │                  ╰ DiffID: sha256:3a3bbb501ec3542a6a56114af5eccd48f35123d
+│                       │      │                            65bffc127a4c0615ab8008459 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-35326 
+│                       │      ├ Title           : libyaml: double-free in yaml_emitter_emit in
+│                       │      │                   /src/libyaml/src/emitter.c 
+│                       │      ├ Description     : libyaml v0.2.5 is vulnerable to Buffer Overflow.
+│                       │      │                   Affected by this issue is the function yaml_emitter_emit of
+│                       │      │                   the file /src/libyaml/src/emitter.c. The manipulation leads
+│                       │      │                   to a double-free. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
+│                       │      │                           │           N/I:N/A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-35326 
+│                       │      │                  ├ [1]: https://github.com/idhyt/pocs/blob/main/libyaml/C
+│                       │      │                  │      VE-2024-35326.c 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-35326 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-35326 
+│                       │      ├ PublishedDate   : 2024-06-13T17:15:50.49Z 
+│                       │      ╰ LastModifiedDate: 2024-06-13T18:35:19.777Z 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2024-35328 
+│                       │      ├ PkgID           : libyaml@0.2.5-7.el9.x86_64 
+│                       │      ├ PkgName         : libyaml 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libyaml@0.2.5-7.el9?arch=x86_64&d
+│                       │      │                  │       istro=redhat-9.4 
+│                       │      │                  ╰ UID : b069be4420870139 
+│                       │      ├ InstalledVersion: 0.2.5-7.el9 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:248b885a2e99c1fe351d1476eec553a4930c93f
+│                       │      │                  │         18b236b085b9fad9f8450a4cf 
+│                       │      │                  ╰ DiffID: sha256:3a3bbb501ec3542a6a56114af5eccd48f35123d
+│                       │      │                            65bffc127a4c0615ab8008459 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-35328 
+│                       │      ├ Title           : libyaml: denial of service in yaml_parser_parse of the
+│                       │      │                   file /src/libyaml/src/parser.c. 
+│                       │      ├ Description     : libyaml v0.2.5 is vulnerable to DDOS. Affected by this
+│                       │      │                   issue is the function yaml_parser_parse of the file
+│                       │      │                   /src/libyaml/src/parser.c. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                           │           N/I:N/A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-35328 
+│                       │      │                  ├ [1]: https://github.com/idhyt/pocs/blob/main/libyaml/C
+│                       │      │                  │      VE-2024-35328.c 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-35328 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-35328 
+│                       │      ├ PublishedDate   : 2024-06-13T16:15:11.037Z 
+│                       │      ╰ LastModifiedDate: 2024-06-13T18:35:19.777Z 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2024-35329 
 │                       │      ├ PkgID           : libyaml@0.2.5-7.el9.x86_64 
 │                       │      ├ PkgName         : libyaml 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libyaml@0.2.5-7.el9?arch=x86_64&d
@@ -1126,7 +1224,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-35329 
 │                       │      ├ PublishedDate   : 2024-06-11T05:15:53.533Z 
 │                       │      ╰ LastModifiedDate: 2024-06-12T22:15:18.4Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2022-4899 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2022-4899 
 │                       │      ├ PkgID           : libzstd@1.5.1-2.el9.x86_64 
 │                       │      ├ PkgName         : libzstd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libzstd@1.5.1-2.el9?arch=x86_64&d
@@ -1278,7 +1376,7 @@
 │                       │      │                  ╰ [94]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                       │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:59:16.09Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2022-29458 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2022-29458 
 │                       │      ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
 │                       │      ├ PkgName         : ncurses-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/ncurses-base@6.2-10.20210508.el9?
@@ -1330,7 +1428,7 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2022-29458 
 │                       │      ├ PublishedDate   : 2022-04-18T21:15:07.6Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:46:02.1Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2023-50495 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │      ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
 │                       │      ├ PkgName         : ncurses-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/ncurses-base@6.2-10.20210508.el9?
@@ -1373,7 +1471,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                       │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                       │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2022-29458 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2022-29458 
 │                       │      ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
 │                       │      ├ PkgName         : ncurses-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/ncurses-libs@6.2-10.20210508.el9?
@@ -1425,7 +1523,7 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2022-29458 
 │                       │      ├ PublishedDate   : 2022-04-18T21:15:07.6Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:46:02.1Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2023-50495 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │      ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
 │                       │      ├ PkgName         : ncurses-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/ncurses-libs@6.2-10.20210508.el9?
@@ -1468,7 +1566,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                       │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                       │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │      ├ PkgID           : nspr@4.35.0-7.el9_4.x86_64 
 │                       │      ├ PkgName         : nspr 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nspr@4.35.0-7.el9_4?arch=x86_64&d
@@ -1507,7 +1605,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │      ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │      ├ PkgID           : nss@3.90.0-7.el9_4.x86_64 
 │                       │      ├ PkgName         : nss 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss@3.90.0-7.el9_4?arch=x86_64&di
@@ -1546,7 +1644,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │      ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │      ├ PkgID           : nss-softokn@3.90.0-7.el9_4.x86_64 
 │                       │      ├ PkgName         : nss-softokn 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-softokn@3.90.0-7.el9_4?arch=x
@@ -1585,7 +1683,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │      ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │      ├ PkgID           : nss-softokn-freebl@3.90.0-7.el9_4.x86_64 
 │                       │      ├ PkgName         : nss-softokn-freebl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-softokn-freebl@3.90.0-7.el9_4
@@ -1624,7 +1722,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │      ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │      ├ PkgID           : nss-sysinit@3.90.0-7.el9_4.x86_64 
 │                       │      ├ PkgName         : nss-sysinit 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-sysinit@3.90.0-7.el9_4?arch=x
@@ -1663,7 +1761,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │      ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │      ├ PkgID           : nss-util@3.90.0-7.el9_4.x86_64 
 │                       │      ├ PkgName         : nss-util 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-util@3.90.0-7.el9_4?arch=x86_
@@ -1702,7 +1800,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │      ╰ LastModifiedDate: 2023-02-28T19:49:51.89Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2023-2953 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2023-2953 
 │                       │      ├ PkgID           : openldap@2.6.6-3.el9.x86_64 
 │                       │      ├ PkgName         : openldap 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openldap@2.6.6-3.el9?arch=x86_64&
@@ -1754,7 +1852,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
 │                       │      ├ PublishedDate   : 2023-05-30T22:15:10.613Z 
 │                       │      ╰ LastModifiedDate: 2023-08-02T16:46:03.663Z 
-│                       ├ [35] ╭ VulnerabilityID : CVE-2023-3446 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2023-3446 
 │                       │      ├ PkgID           : openssl@3.0.7-27.el9.x86_64 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.0.7-27.el9?arch=x86_64&
@@ -1819,7 +1917,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
 │                       │      │                  ├ photon     : 2 
@@ -1905,7 +2003,7 @@
 │                       │      │                  ╰ [47]: https://www.openssl.org/news/secadv/20230719.txt 
 │                       │      ├ PublishedDate   : 2023-07-19T12:15:10.003Z 
 │                       │      ╰ LastModifiedDate: 2024-06-10T17:16:12.867Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2023-3817 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2023-3817 
 │                       │      ├ PkgID           : openssl@3.0.7-27.el9.x86_64 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.0.7-27.el9?arch=x86_64&
@@ -1966,7 +2064,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-834 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -2028,7 +2126,7 @@
 │                       │      │                  ╰ [31]: https://www.openssl.org/news/secadv/20230731.txt 
 │                       │      ├ PublishedDate   : 2023-07-31T16:15:10.497Z 
 │                       │      ╰ LastModifiedDate: 2024-02-04T09:15:10.03Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2023-5678 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2023-5678 
 │                       │      ├ PkgID           : openssl@3.0.7-27.el9.x86_64 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.0.7-27.el9?arch=x86_64&
@@ -2102,7 +2200,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -2151,7 +2249,7 @@
 │                       │      │                  ╰ [23]: https://www.openssl.org/news/secadv/20231106.txt 
 │                       │      ├ PublishedDate   : 2023-11-06T16:15:42.67Z 
 │                       │      ╰ LastModifiedDate: 2024-05-01T18:15:12.393Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2023-6129 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2023-6129 
 │                       │      ├ PkgID           : openssl@3.0.7-27.el9.x86_64 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.0.7-27.el9?arch=x86_64&
@@ -2272,7 +2370,7 @@
 │                       │      │                          /01/09/1 
 │                       │      ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
 │                       │      ╰ LastModifiedDate: 2024-05-03T13:15:21.163Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2023-6237 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2023-6237 
 │                       │      ├ PkgID           : openssl@3.0.7-27.el9.x86_64 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.0.7-27.el9?arch=x86_64&
@@ -2369,7 +2467,7 @@
 │                       │      │                          /01/15/2 
 │                       │      ├ PublishedDate   : 2024-04-25T07:15:45.27Z 
 │                       │      ╰ LastModifiedDate: 2024-06-10T17:16:16.797Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2024-2511 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2024-2511 
 │                       │      ├ PkgID           : openssl@3.0.7-27.el9.x86_64 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.0.7-27.el9?arch=x86_64&
@@ -2444,7 +2542,7 @@
 │                       │      │                  ╰ [10]: https://www.openssl.org/news/vulnerabilities.html 
 │                       │      ├ PublishedDate   : 2024-04-08T14:15:07.66Z 
 │                       │      ╰ LastModifiedDate: 2024-05-03T13:15:21.93Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2024-4603 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2024-4603 
 │                       │      ├ PkgID           : openssl@3.0.7-27.el9.x86_64 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.0.7-27.el9?arch=x86_64&
@@ -2530,14 +2628,14 @@
 │                       │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20240516.txt 
 │                       │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
 │                       │      ╰ LastModifiedDate: 2024-06-10T17:16:33.69Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2024-4741 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2024-4741 
 │                       │      ├ PkgID           : openssl@3.0.7-27.el9.x86_64 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.0.7-27.el9?arch=x86_64&
 │                       │      │                  │       distro=redhat-9.4&epoch=1 
 │                       │      │                  ╰ UID : da03a6cceb0a544c 
 │                       │      ├ InstalledVersion: 1:3.0.7-27.el9 
-│                       │      ├ Status          : under_investigation 
+│                       │      ├ Status          : will_not_fix 
 │                       │      ├ Layer            ╭ Digest: sha256:248b885a2e99c1fe351d1476eec553a4930c93f
 │                       │      │                  │         18b236b085b9fad9f8450a4cf 
 │                       │      │                  ╰ DiffID: sha256:3a3bbb501ec3542a6a56114af5eccd48f35123d
@@ -2559,7 +2657,7 @@
 │                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-4741 
 │                       │                         ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-4741 
 │                       │                         ╰ [3]: https://www.openssl.org/news/secadv/20240528.txt 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2023-3446 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2023-3446 
 │                       │      ├ PkgID           : openssl-libs@3.0.7-27.el9.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-27.el9?arch=x8
@@ -2624,7 +2722,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
 │                       │      │                  ├ photon     : 2 
@@ -2710,7 +2808,7 @@
 │                       │      │                  ╰ [47]: https://www.openssl.org/news/secadv/20230719.txt 
 │                       │      ├ PublishedDate   : 2023-07-19T12:15:10.003Z 
 │                       │      ╰ LastModifiedDate: 2024-06-10T17:16:12.867Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2023-3817 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2023-3817 
 │                       │      ├ PkgID           : openssl-libs@3.0.7-27.el9.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-27.el9?arch=x8
@@ -2771,7 +2869,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-834 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -2833,7 +2931,7 @@
 │                       │      │                  ╰ [31]: https://www.openssl.org/news/secadv/20230731.txt 
 │                       │      ├ PublishedDate   : 2023-07-31T16:15:10.497Z 
 │                       │      ╰ LastModifiedDate: 2024-02-04T09:15:10.03Z 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2023-5678 
+│                       ├ [48] ╭ VulnerabilityID : CVE-2023-5678 
 │                       │      ├ PkgID           : openssl-libs@3.0.7-27.el9.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-27.el9?arch=x8
@@ -2907,7 +3005,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -2956,7 +3054,7 @@
 │                       │      │                  ╰ [23]: https://www.openssl.org/news/secadv/20231106.txt 
 │                       │      ├ PublishedDate   : 2023-11-06T16:15:42.67Z 
 │                       │      ╰ LastModifiedDate: 2024-05-01T18:15:12.393Z 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2023-6129 
+│                       ├ [49] ╭ VulnerabilityID : CVE-2023-6129 
 │                       │      ├ PkgID           : openssl-libs@3.0.7-27.el9.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-27.el9?arch=x8
@@ -3077,7 +3175,7 @@
 │                       │      │                          /01/09/1 
 │                       │      ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
 │                       │      ╰ LastModifiedDate: 2024-05-03T13:15:21.163Z 
-│                       ├ [47] ╭ VulnerabilityID : CVE-2023-6237 
+│                       ├ [50] ╭ VulnerabilityID : CVE-2023-6237 
 │                       │      ├ PkgID           : openssl-libs@3.0.7-27.el9.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-27.el9?arch=x8
@@ -3174,7 +3272,7 @@
 │                       │      │                          /01/15/2 
 │                       │      ├ PublishedDate   : 2024-04-25T07:15:45.27Z 
 │                       │      ╰ LastModifiedDate: 2024-06-10T17:16:16.797Z 
-│                       ├ [48] ╭ VulnerabilityID : CVE-2024-2511 
+│                       ├ [51] ╭ VulnerabilityID : CVE-2024-2511 
 │                       │      ├ PkgID           : openssl-libs@3.0.7-27.el9.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-27.el9?arch=x8
@@ -3249,7 +3347,7 @@
 │                       │      │                  ╰ [10]: https://www.openssl.org/news/vulnerabilities.html 
 │                       │      ├ PublishedDate   : 2024-04-08T14:15:07.66Z 
 │                       │      ╰ LastModifiedDate: 2024-05-03T13:15:21.93Z 
-│                       ├ [49] ╭ VulnerabilityID : CVE-2024-4603 
+│                       ├ [52] ╭ VulnerabilityID : CVE-2024-4603 
 │                       │      ├ PkgID           : openssl-libs@3.0.7-27.el9.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-27.el9?arch=x8
@@ -3335,14 +3433,14 @@
 │                       │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20240516.txt 
 │                       │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
 │                       │      ╰ LastModifiedDate: 2024-06-10T17:16:33.69Z 
-│                       ├ [50] ╭ VulnerabilityID : CVE-2024-4741 
+│                       ├ [53] ╭ VulnerabilityID : CVE-2024-4741 
 │                       │      ├ PkgID           : openssl-libs@3.0.7-27.el9.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-27.el9?arch=x8
 │                       │      │                  │       6_64&distro=redhat-9.4&epoch=1 
 │                       │      │                  ╰ UID : 25545213957e9abc 
 │                       │      ├ InstalledVersion: 1:3.0.7-27.el9 
-│                       │      ├ Status          : under_investigation 
+│                       │      ├ Status          : will_not_fix 
 │                       │      ├ Layer            ╭ Digest: sha256:248b885a2e99c1fe351d1476eec553a4930c93f
 │                       │      │                  │         18b236b085b9fad9f8450a4cf 
 │                       │      │                  ╰ DiffID: sha256:3a3bbb501ec3542a6a56114af5eccd48f35123d
@@ -3364,7 +3462,7 @@
 │                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-4741 
 │                       │                         ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-4741 
 │                       │                         ╰ [3]: https://www.openssl.org/news/secadv/20240528.txt 
-│                       ├ [51] ╭ VulnerabilityID : CVE-2022-41409 
+│                       ├ [54] ╭ VulnerabilityID : CVE-2022-41409 
 │                       │      ├ PkgID           : pcre2@10.40-5.el9.x86_64 
 │                       │      ├ PkgName         : pcre2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2@10.40-5.el9?arch=x86_64&dis
@@ -3405,7 +3503,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-41409 
 │                       │      ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
 │                       │      ╰ LastModifiedDate: 2023-07-27T03:46:09.807Z 
-│                       ├ [52] ╭ VulnerabilityID : CVE-2022-41409 
+│                       ├ [55] ╭ VulnerabilityID : CVE-2022-41409 
 │                       │      ├ PkgID           : pcre2-syntax@10.40-5.el9.noarch 
 │                       │      ├ PkgName         : pcre2-syntax 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2-syntax@10.40-5.el9?arch=noa
@@ -3446,7 +3544,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-41409 
 │                       │      ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
 │                       │      ╰ LastModifiedDate: 2023-07-27T03:46:09.807Z 
-│                       ├ [53] ╭ VulnerabilityID : CVE-2023-6597 
+│                       ├ [56] ╭ VulnerabilityID : CVE-2023-6597 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.18-3.el9.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18
@@ -3530,7 +3628,7 @@
 │                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-6597 
 │                       │      ├ PublishedDate   : 2024-03-19T16:15:08.743Z 
 │                       │      ╰ LastModifiedDate: 2024-06-10T18:15:24.76Z 
-│                       ├ [54] ╭ VulnerabilityID : CVE-2021-23336 
+│                       ├ [57] ╭ VulnerabilityID : CVE-2021-23336 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.18-3.el9.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18
@@ -3689,80 +3787,7 @@
 │                       │      │                          1.html 
 │                       │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:30:51.953Z 
-│                       ├ [55] ╭ VulnerabilityID : CVE-2022-0391 
-│                       │      ├ PkgID           : python-unversioned-command@3.9.18-3.el9.noarch 
-│                       │      ├ PkgName         : python-unversioned-command 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18
-│                       │      │                  │       -3.el9?arch=noarch&distro=redhat-9.4 
-│                       │      │                  ╰ UID : f4d8fb07f82de418 
-│                       │      ├ InstalledVersion: 3.9.18-3.el9 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:248b885a2e99c1fe351d1476eec553a4930c93f
-│                       │      │                  │         18b236b085b9fad9f8450a4cf 
-│                       │      │                  ╰ DiffID: sha256:3a3bbb501ec3542a6a56114af5eccd48f35123d
-│                       │      │                            65bffc127a4c0615ab8008459 
-│                       │      ├ SeveritySource  : redhat 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-0391 
-│                       │      ├ Title           : python: urllib.parse does not sanitize URLs containing
-│                       │      │                   ASCII newline and tabs 
-│                       │      ├ Description     : A flaw was found in Python, specifically within the
-│                       │      │                   urllib.parse module. This module helps break Uniform
-│                       │      │                   Resource Locator (URL) strings into components. The issue
-│                       │      │                   involves how the urlparse method does not sanitize input and
-│                       │      │                    allows characters like '\r' and '\n' in the URL path. This
-│                       │      │                   flaw allows an attacker to input a crafted URL, leading to
-│                       │      │                   injection attacks. This flaw affects Python versions prior
-│                       │      │                   to 3.10.0b1, 3.9.5, 3.8.11, 3.7.11 and 3.6.14. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-74 
-│                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
-│                       │      │                  ├ nvd        : 3 
-│                       │      │                  ├ oracle-oval: 3 
-│                       │      │                  ├ photon     : 3 
-│                       │      │                  ├ redhat     : 2 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                       │      │                  │         │           :N/I:H/A:N 
-│                       │      │                  │         ╰ V3Score : 7.5 
-│                       │      │                  ├ nvd     ╭ V2Vector: AV:N/AC:L/Au:N/C:N/I:P/A:N 
-│                       │      │                  │         ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                       │      │                  │         │           :N/I:H/A:N 
-│                       │      │                  │         ├ V2Score : 5 
-│                       │      │                  │         ╰ V3Score : 7.5 
-│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                       │      │                            │           :N/I:L/A:N 
-│                       │      │                            ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2022:6457 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-0391 
-│                       │      │                  ├ [2] : https://bugs.python.org/issue43882 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2047376 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2075390 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2022-6457.html 
-│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2022-0391.html 
-│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-3550.html 
-│                       │      │                  ├ [8] : https://lists.debian.org/debian-lts-announce/202
-│                       │      │                  │       3/09/msg00022.html 
-│                       │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
-│                       │      │                  │       ckage-announce%40lists.fedoraproject.org/message/CSD2
-│                       │      │                  │       YBXP3ZF44E44QMIIAR5VTO35KTRB/ 
-│                       │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
-│                       │      │                  │       ckage-announce%40lists.fedoraproject.org/message/UDBD
-│                       │      │                  │       BAU6HUPZHISBOARTXZ5GKHF2VH5U/ 
-│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2022-0391 
-│                       │      │                  ├ [12]: https://security.gentoo.org/glsa/202305-02 
-│                       │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-202202
-│                       │      │                  │       25-0009/ 
-│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-5342-1 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-5342-2 
-│                       │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2022-0391 
-│                       │      │                  ╰ [17]: https://www.oracle.com/security-alerts/cpuapr202
-│                       │      │                          2.html 
-│                       │      ├ PublishedDate   : 2022-02-09T23:15:16.58Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T03:41:13.75Z 
-│                       ├ [56] ╭ VulnerabilityID : CVE-2023-36632 
+│                       ├ [58] ╭ VulnerabilityID : CVE-2023-36632 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.18-3.el9.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18
@@ -3817,7 +3842,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
 │                       │      ├ PublishedDate   : 2023-06-25T18:15:09.313Z 
 │                       │      ╰ LastModifiedDate: 2024-05-17T02:25:48.66Z 
-│                       ├ [57] ╭ VulnerabilityID : CVE-2024-0450 
+│                       ├ [59] ╭ VulnerabilityID : CVE-2024-0450 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.18-3.el9.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18
@@ -3909,7 +3934,67 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2024-0450 
 │                       │      ├ PublishedDate   : 2024-03-19T16:15:09.18Z 
 │                       │      ╰ LastModifiedDate: 2024-06-10T18:15:24.853Z 
-│                       ├ [58] ╭ VulnerabilityID : CVE-2023-6597 
+│                       ├ [60] ╭ VulnerabilityID : CVE-2024-4032 
+│                       │      ├ PkgID           : python-unversioned-command@3.9.18-3.el9.noarch 
+│                       │      ├ PkgName         : python-unversioned-command 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18
+│                       │      │                  │       -3.el9?arch=noarch&distro=redhat-9.4 
+│                       │      │                  ╰ UID : f4d8fb07f82de418 
+│                       │      ├ InstalledVersion: 3.9.18-3.el9 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:248b885a2e99c1fe351d1476eec553a4930c93f
+│                       │      │                  │         18b236b085b9fad9f8450a4cf 
+│                       │      │                  ╰ DiffID: sha256:3a3bbb501ec3542a6a56114af5eccd48f35123d
+│                       │      │                            65bffc127a4c0615ab8008459 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-4032 
+│                       │      ├ Title           : python: incorrect IPv4 and IPv6 private ranges 
+│                       │      ├ Description     : The “ipaddress” module contained incorrect information
+│                       │      │                   about whether certain IPv4 and IPv6 addresses were
+│                       │      │                   designated as “globally reachable” or “private”. This
+│                       │      │                   affected the is_private and is_global properties of the
+│                       │      │                   ipaddress.IPv4Address, ipaddress.IPv4Network,
+│                       │      │                   ipaddress.IPv6Address, and ipaddress.IPv6Network classes,
+│                       │      │                   where values wouldn’t be returned in accordance with the
+│                       │      │                   latest information from the IANA Special-Purpose Address
+│                       │      │                   Registries.
+│                       │      │                   
+│                       │      │                   CPython 3.12.4 and 3.13.0a6 contain updated information from
+│                       │      │                    these registries and thus have the intended behavior. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+│                       │      │                           │           N/I:N/A:L 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/
+│                       │      │                  │       06/17/3 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-4032 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/22adf29
+│                       │      │                  │       da8d99933ffed8647d3e0726edd16f7f8 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/40d75c2
+│                       │      │                  │       b7f5c67e254d0a025e0f2e2c7ada7f69f 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/895f7e2
+│                       │      │                  │       ac23eff4743143beef0f0c5ac71ea27d3 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/ba43157
+│                       │      │                  │       9efdcbaed7a96f2ac4ea0775879a332fb 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/c62c9e5
+│                       │      │                  │       18b784fe44432a3f4fc265fb95b651906 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/f86b17a
+│                       │      │                  │       c511e68192ba71f27e752321a3252cee3 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/issues/113171 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/pull/113179 
+│                       │      │                  ├ [10]: https://mail.python.org/archives/list/security-a
+│                       │      │                  │       nnounce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCK
+│                       │      │                  │       U3RZA/ 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
+│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
+│                       │      │                  ├ [13]: https://www.iana.org/assignments/iana-ipv4-speci
+│                       │      │                  │       al-registry/iana-ipv4-special-registry.xhtml 
+│                       │      │                  ╰ [14]: https://www.iana.org/assignments/iana-ipv6-speci
+│                       │      │                          al-registry/iana-ipv6-special-registry.xhtml 
+│                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
+│                       │      ╰ LastModifiedDate: 2024-06-17T18:15:18.047Z 
+│                       ├ [61] ╭ VulnerabilityID : CVE-2023-6597 
 │                       │      ├ PkgID           : python3@3.9.18-3.el9.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.18-3.el9?arch=x86_64&
@@ -3993,7 +4078,7 @@
 │                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-6597 
 │                       │      ├ PublishedDate   : 2024-03-19T16:15:08.743Z 
 │                       │      ╰ LastModifiedDate: 2024-06-10T18:15:24.76Z 
-│                       ├ [59] ╭ VulnerabilityID : CVE-2021-23336 
+│                       ├ [62] ╭ VulnerabilityID : CVE-2021-23336 
 │                       │      ├ PkgID           : python3@3.9.18-3.el9.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.18-3.el9?arch=x86_64&
@@ -4152,80 +4237,7 @@
 │                       │      │                          1.html 
 │                       │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:30:51.953Z 
-│                       ├ [60] ╭ VulnerabilityID : CVE-2022-0391 
-│                       │      ├ PkgID           : python3@3.9.18-3.el9.x86_64 
-│                       │      ├ PkgName         : python3 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.18-3.el9?arch=x86_64&
-│                       │      │                  │       distro=redhat-9.4 
-│                       │      │                  ╰ UID : 1aba03eb85365a5e 
-│                       │      ├ InstalledVersion: 3.9.18-3.el9 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:248b885a2e99c1fe351d1476eec553a4930c93f
-│                       │      │                  │         18b236b085b9fad9f8450a4cf 
-│                       │      │                  ╰ DiffID: sha256:3a3bbb501ec3542a6a56114af5eccd48f35123d
-│                       │      │                            65bffc127a4c0615ab8008459 
-│                       │      ├ SeveritySource  : redhat 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-0391 
-│                       │      ├ Title           : python: urllib.parse does not sanitize URLs containing
-│                       │      │                   ASCII newline and tabs 
-│                       │      ├ Description     : A flaw was found in Python, specifically within the
-│                       │      │                   urllib.parse module. This module helps break Uniform
-│                       │      │                   Resource Locator (URL) strings into components. The issue
-│                       │      │                   involves how the urlparse method does not sanitize input and
-│                       │      │                    allows characters like '\r' and '\n' in the URL path. This
-│                       │      │                   flaw allows an attacker to input a crafted URL, leading to
-│                       │      │                   injection attacks. This flaw affects Python versions prior
-│                       │      │                   to 3.10.0b1, 3.9.5, 3.8.11, 3.7.11 and 3.6.14. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-74 
-│                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
-│                       │      │                  ├ nvd        : 3 
-│                       │      │                  ├ oracle-oval: 3 
-│                       │      │                  ├ photon     : 3 
-│                       │      │                  ├ redhat     : 2 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                       │      │                  │         │           :N/I:H/A:N 
-│                       │      │                  │         ╰ V3Score : 7.5 
-│                       │      │                  ├ nvd     ╭ V2Vector: AV:N/AC:L/Au:N/C:N/I:P/A:N 
-│                       │      │                  │         ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                       │      │                  │         │           :N/I:H/A:N 
-│                       │      │                  │         ├ V2Score : 5 
-│                       │      │                  │         ╰ V3Score : 7.5 
-│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                       │      │                            │           :N/I:L/A:N 
-│                       │      │                            ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2022:6457 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-0391 
-│                       │      │                  ├ [2] : https://bugs.python.org/issue43882 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2047376 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2075390 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2022-6457.html 
-│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2022-0391.html 
-│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-3550.html 
-│                       │      │                  ├ [8] : https://lists.debian.org/debian-lts-announce/202
-│                       │      │                  │       3/09/msg00022.html 
-│                       │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
-│                       │      │                  │       ckage-announce%40lists.fedoraproject.org/message/CSD2
-│                       │      │                  │       YBXP3ZF44E44QMIIAR5VTO35KTRB/ 
-│                       │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
-│                       │      │                  │       ckage-announce%40lists.fedoraproject.org/message/UDBD
-│                       │      │                  │       BAU6HUPZHISBOARTXZ5GKHF2VH5U/ 
-│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2022-0391 
-│                       │      │                  ├ [12]: https://security.gentoo.org/glsa/202305-02 
-│                       │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-202202
-│                       │      │                  │       25-0009/ 
-│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-5342-1 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-5342-2 
-│                       │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2022-0391 
-│                       │      │                  ╰ [17]: https://www.oracle.com/security-alerts/cpuapr202
-│                       │      │                          2.html 
-│                       │      ├ PublishedDate   : 2022-02-09T23:15:16.58Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T03:41:13.75Z 
-│                       ├ [61] ╭ VulnerabilityID : CVE-2023-36632 
+│                       ├ [63] ╭ VulnerabilityID : CVE-2023-36632 
 │                       │      ├ PkgID           : python3@3.9.18-3.el9.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.18-3.el9?arch=x86_64&
@@ -4280,7 +4292,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
 │                       │      ├ PublishedDate   : 2023-06-25T18:15:09.313Z 
 │                       │      ╰ LastModifiedDate: 2024-05-17T02:25:48.66Z 
-│                       ├ [62] ╭ VulnerabilityID : CVE-2024-0450 
+│                       ├ [64] ╭ VulnerabilityID : CVE-2024-0450 
 │                       │      ├ PkgID           : python3@3.9.18-3.el9.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.18-3.el9?arch=x86_64&
@@ -4372,7 +4384,67 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2024-0450 
 │                       │      ├ PublishedDate   : 2024-03-19T16:15:09.18Z 
 │                       │      ╰ LastModifiedDate: 2024-06-10T18:15:24.853Z 
-│                       ├ [63] ╭ VulnerabilityID : CVE-2023-6597 
+│                       ├ [65] ╭ VulnerabilityID : CVE-2024-4032 
+│                       │      ├ PkgID           : python3@3.9.18-3.el9.x86_64 
+│                       │      ├ PkgName         : python3 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.18-3.el9?arch=x86_64&
+│                       │      │                  │       distro=redhat-9.4 
+│                       │      │                  ╰ UID : 1aba03eb85365a5e 
+│                       │      ├ InstalledVersion: 3.9.18-3.el9 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:248b885a2e99c1fe351d1476eec553a4930c93f
+│                       │      │                  │         18b236b085b9fad9f8450a4cf 
+│                       │      │                  ╰ DiffID: sha256:3a3bbb501ec3542a6a56114af5eccd48f35123d
+│                       │      │                            65bffc127a4c0615ab8008459 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-4032 
+│                       │      ├ Title           : python: incorrect IPv4 and IPv6 private ranges 
+│                       │      ├ Description     : The “ipaddress” module contained incorrect information
+│                       │      │                   about whether certain IPv4 and IPv6 addresses were
+│                       │      │                   designated as “globally reachable” or “private”. This
+│                       │      │                   affected the is_private and is_global properties of the
+│                       │      │                   ipaddress.IPv4Address, ipaddress.IPv4Network,
+│                       │      │                   ipaddress.IPv6Address, and ipaddress.IPv6Network classes,
+│                       │      │                   where values wouldn’t be returned in accordance with the
+│                       │      │                   latest information from the IANA Special-Purpose Address
+│                       │      │                   Registries.
+│                       │      │                   
+│                       │      │                   CPython 3.12.4 and 3.13.0a6 contain updated information from
+│                       │      │                    these registries and thus have the intended behavior. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+│                       │      │                           │           N/I:N/A:L 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/
+│                       │      │                  │       06/17/3 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-4032 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/22adf29
+│                       │      │                  │       da8d99933ffed8647d3e0726edd16f7f8 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/40d75c2
+│                       │      │                  │       b7f5c67e254d0a025e0f2e2c7ada7f69f 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/895f7e2
+│                       │      │                  │       ac23eff4743143beef0f0c5ac71ea27d3 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/ba43157
+│                       │      │                  │       9efdcbaed7a96f2ac4ea0775879a332fb 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/c62c9e5
+│                       │      │                  │       18b784fe44432a3f4fc265fb95b651906 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/f86b17a
+│                       │      │                  │       c511e68192ba71f27e752321a3252cee3 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/issues/113171 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/pull/113179 
+│                       │      │                  ├ [10]: https://mail.python.org/archives/list/security-a
+│                       │      │                  │       nnounce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCK
+│                       │      │                  │       U3RZA/ 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
+│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
+│                       │      │                  ├ [13]: https://www.iana.org/assignments/iana-ipv4-speci
+│                       │      │                  │       al-registry/iana-ipv4-special-registry.xhtml 
+│                       │      │                  ╰ [14]: https://www.iana.org/assignments/iana-ipv6-speci
+│                       │      │                          al-registry/iana-ipv6-special-registry.xhtml 
+│                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
+│                       │      ╰ LastModifiedDate: 2024-06-17T18:15:18.047Z 
+│                       ├ [66] ╭ VulnerabilityID : CVE-2023-6597 
 │                       │      ├ PkgID           : python3-libs@3.9.18-3.el9.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.18-3.el9?arch=x8
@@ -4456,7 +4528,7 @@
 │                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-6597 
 │                       │      ├ PublishedDate   : 2024-03-19T16:15:08.743Z 
 │                       │      ╰ LastModifiedDate: 2024-06-10T18:15:24.76Z 
-│                       ├ [64] ╭ VulnerabilityID : CVE-2021-23336 
+│                       ├ [67] ╭ VulnerabilityID : CVE-2021-23336 
 │                       │      ├ PkgID           : python3-libs@3.9.18-3.el9.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.18-3.el9?arch=x8
@@ -4615,80 +4687,7 @@
 │                       │      │                          1.html 
 │                       │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:30:51.953Z 
-│                       ├ [65] ╭ VulnerabilityID : CVE-2022-0391 
-│                       │      ├ PkgID           : python3-libs@3.9.18-3.el9.x86_64 
-│                       │      ├ PkgName         : python3-libs 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.18-3.el9?arch=x8
-│                       │      │                  │       6_64&distro=redhat-9.4 
-│                       │      │                  ╰ UID : 85f7b410053078b7 
-│                       │      ├ InstalledVersion: 3.9.18-3.el9 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:248b885a2e99c1fe351d1476eec553a4930c93f
-│                       │      │                  │         18b236b085b9fad9f8450a4cf 
-│                       │      │                  ╰ DiffID: sha256:3a3bbb501ec3542a6a56114af5eccd48f35123d
-│                       │      │                            65bffc127a4c0615ab8008459 
-│                       │      ├ SeveritySource  : redhat 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-0391 
-│                       │      ├ Title           : python: urllib.parse does not sanitize URLs containing
-│                       │      │                   ASCII newline and tabs 
-│                       │      ├ Description     : A flaw was found in Python, specifically within the
-│                       │      │                   urllib.parse module. This module helps break Uniform
-│                       │      │                   Resource Locator (URL) strings into components. The issue
-│                       │      │                   involves how the urlparse method does not sanitize input and
-│                       │      │                    allows characters like '\r' and '\n' in the URL path. This
-│                       │      │                   flaw allows an attacker to input a crafted URL, leading to
-│                       │      │                   injection attacks. This flaw affects Python versions prior
-│                       │      │                   to 3.10.0b1, 3.9.5, 3.8.11, 3.7.11 and 3.6.14. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-74 
-│                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
-│                       │      │                  ├ nvd        : 3 
-│                       │      │                  ├ oracle-oval: 3 
-│                       │      │                  ├ photon     : 3 
-│                       │      │                  ├ redhat     : 2 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                       │      │                  │         │           :N/I:H/A:N 
-│                       │      │                  │         ╰ V3Score : 7.5 
-│                       │      │                  ├ nvd     ╭ V2Vector: AV:N/AC:L/Au:N/C:N/I:P/A:N 
-│                       │      │                  │         ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                       │      │                  │         │           :N/I:H/A:N 
-│                       │      │                  │         ├ V2Score : 5 
-│                       │      │                  │         ╰ V3Score : 7.5 
-│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                       │      │                            │           :N/I:L/A:N 
-│                       │      │                            ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2022:6457 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-0391 
-│                       │      │                  ├ [2] : https://bugs.python.org/issue43882 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2047376 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2075390 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2022-6457.html 
-│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2022-0391.html 
-│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-3550.html 
-│                       │      │                  ├ [8] : https://lists.debian.org/debian-lts-announce/202
-│                       │      │                  │       3/09/msg00022.html 
-│                       │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
-│                       │      │                  │       ckage-announce%40lists.fedoraproject.org/message/CSD2
-│                       │      │                  │       YBXP3ZF44E44QMIIAR5VTO35KTRB/ 
-│                       │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
-│                       │      │                  │       ckage-announce%40lists.fedoraproject.org/message/UDBD
-│                       │      │                  │       BAU6HUPZHISBOARTXZ5GKHF2VH5U/ 
-│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2022-0391 
-│                       │      │                  ├ [12]: https://security.gentoo.org/glsa/202305-02 
-│                       │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-202202
-│                       │      │                  │       25-0009/ 
-│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-5342-1 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-5342-2 
-│                       │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2022-0391 
-│                       │      │                  ╰ [17]: https://www.oracle.com/security-alerts/cpuapr202
-│                       │      │                          2.html 
-│                       │      ├ PublishedDate   : 2022-02-09T23:15:16.58Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T03:41:13.75Z 
-│                       ├ [66] ╭ VulnerabilityID : CVE-2023-36632 
+│                       ├ [68] ╭ VulnerabilityID : CVE-2023-36632 
 │                       │      ├ PkgID           : python3-libs@3.9.18-3.el9.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.18-3.el9?arch=x8
@@ -4743,7 +4742,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
 │                       │      ├ PublishedDate   : 2023-06-25T18:15:09.313Z 
 │                       │      ╰ LastModifiedDate: 2024-05-17T02:25:48.66Z 
-│                       ├ [67] ╭ VulnerabilityID : CVE-2024-0450 
+│                       ├ [69] ╭ VulnerabilityID : CVE-2024-0450 
 │                       │      ├ PkgID           : python3-libs@3.9.18-3.el9.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.18-3.el9?arch=x8
@@ -4835,7 +4834,67 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2024-0450 
 │                       │      ├ PublishedDate   : 2024-03-19T16:15:09.18Z 
 │                       │      ╰ LastModifiedDate: 2024-06-10T18:15:24.853Z 
-│                       ├ [68] ╭ VulnerabilityID : CVE-2024-35195 
+│                       ├ [70] ╭ VulnerabilityID : CVE-2024-4032 
+│                       │      ├ PkgID           : python3-libs@3.9.18-3.el9.x86_64 
+│                       │      ├ PkgName         : python3-libs 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.18-3.el9?arch=x8
+│                       │      │                  │       6_64&distro=redhat-9.4 
+│                       │      │                  ╰ UID : 85f7b410053078b7 
+│                       │      ├ InstalledVersion: 3.9.18-3.el9 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:248b885a2e99c1fe351d1476eec553a4930c93f
+│                       │      │                  │         18b236b085b9fad9f8450a4cf 
+│                       │      │                  ╰ DiffID: sha256:3a3bbb501ec3542a6a56114af5eccd48f35123d
+│                       │      │                            65bffc127a4c0615ab8008459 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-4032 
+│                       │      ├ Title           : python: incorrect IPv4 and IPv6 private ranges 
+│                       │      ├ Description     : The “ipaddress” module contained incorrect information
+│                       │      │                   about whether certain IPv4 and IPv6 addresses were
+│                       │      │                   designated as “globally reachable” or “private”. This
+│                       │      │                   affected the is_private and is_global properties of the
+│                       │      │                   ipaddress.IPv4Address, ipaddress.IPv4Network,
+│                       │      │                   ipaddress.IPv6Address, and ipaddress.IPv6Network classes,
+│                       │      │                   where values wouldn’t be returned in accordance with the
+│                       │      │                   latest information from the IANA Special-Purpose Address
+│                       │      │                   Registries.
+│                       │      │                   
+│                       │      │                   CPython 3.12.4 and 3.13.0a6 contain updated information from
+│                       │      │                    these registries and thus have the intended behavior. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+│                       │      │                           │           N/I:N/A:L 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/
+│                       │      │                  │       06/17/3 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-4032 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/22adf29
+│                       │      │                  │       da8d99933ffed8647d3e0726edd16f7f8 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/40d75c2
+│                       │      │                  │       b7f5c67e254d0a025e0f2e2c7ada7f69f 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/895f7e2
+│                       │      │                  │       ac23eff4743143beef0f0c5ac71ea27d3 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/ba43157
+│                       │      │                  │       9efdcbaed7a96f2ac4ea0775879a332fb 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/c62c9e5
+│                       │      │                  │       18b784fe44432a3f4fc265fb95b651906 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/f86b17a
+│                       │      │                  │       c511e68192ba71f27e752321a3252cee3 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/issues/113171 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/pull/113179 
+│                       │      │                  ├ [10]: https://mail.python.org/archives/list/security-a
+│                       │      │                  │       nnounce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCK
+│                       │      │                  │       U3RZA/ 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
+│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
+│                       │      │                  ├ [13]: https://www.iana.org/assignments/iana-ipv4-speci
+│                       │      │                  │       al-registry/iana-ipv4-special-registry.xhtml 
+│                       │      │                  ╰ [14]: https://www.iana.org/assignments/iana-ipv6-speci
+│                       │      │                          al-registry/iana-ipv6-special-registry.xhtml 
+│                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
+│                       │      ╰ LastModifiedDate: 2024-06-17T18:15:18.047Z 
+│                       ├ [71] ╭ VulnerabilityID : CVE-2024-35195 
 │                       │      ├ PkgID           : python3-pip-wheel@21.2.3-8.el9.noarch 
 │                       │      ├ PkgName         : python3-pip-wheel 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.2.3-8.el9?ar
@@ -4894,7 +4953,79 @@
 │                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-35195 
 │                       │      ├ PublishedDate   : 2024-05-20T21:15:09.99Z 
 │                       │      ╰ LastModifiedDate: 2024-06-10T17:16:29.563Z 
-│                       ├ [69] ╭ VulnerabilityID : CVE-2021-3572 
+│                       ├ [72] ╭ VulnerabilityID : CVE-2024-37891 
+│                       │      ├ PkgID           : python3-pip-wheel@21.2.3-8.el9.noarch 
+│                       │      ├ PkgName         : python3-pip-wheel 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.2.3-8.el9?ar
+│                       │      │                  │       ch=noarch&distro=redhat-9.4 
+│                       │      │                  ╰ UID : 32dd6dd0dd08a5b6 
+│                       │      ├ InstalledVersion: 21.2.3-8.el9 
+│                       │      ├ Status          : under_investigation 
+│                       │      ├ Layer            ╭ Digest: sha256:248b885a2e99c1fe351d1476eec553a4930c93f
+│                       │      │                  │         18b236b085b9fad9f8450a4cf 
+│                       │      │                  ╰ DiffID: sha256:3a3bbb501ec3542a6a56114af5eccd48f35123d
+│                       │      │                            65bffc127a4c0615ab8008459 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-37891 
+│                       │      ├ Title           : urllib3: proxy-authorization request header is not
+│                       │      │                   stripped during cross-origin redirects 
+│                       │      ├ Description     :  urllib3 is a user-friendly HTTP client library for
+│                       │      │                   Python. When using urllib3's proxy support with
+│                       │      │                   `ProxyManager`, the `Proxy-Authorization` header is only
+│                       │      │                   sent to the configured proxy, as expected. However, when
+│                       │      │                   sending HTTP requests *without* using urllib3's proxy
+│                       │      │                   support, it's possible to accidentally configure the
+│                       │      │                   `Proxy-Authorization` header even though it won't have any
+│                       │      │                   effect as the request is not using a forwarding proxy or a
+│                       │      │                   tunneling proxy. In those cases, urllib3 doesn't treat the
+│                       │      │                   `Proxy-Authorization` HTTP header as one carrying
+│                       │      │                   authentication material and thus doesn't strip the header on
+│                       │      │                    cross-origin redirects. Because this is a highly unlikely
+│                       │      │                   scenario, we believe the severity of this vulnerability is
+│                       │      │                   low for almost all users. Out of an abundance of caution
+│                       │      │                   urllib3 will automatically strip the `Proxy-Authorization`
+│                       │      │                   header during cross-origin redirects to avoid the small
+│                       │      │                   chance that users are doing this on accident. Users should
+│                       │      │                   use urllib3's proxy support or disable automatic redirects
+│                       │      │                   to achieve safe processing of the `Proxy-Authorization`
+│                       │      │                   header, but we still decided to strip the header by default
+│                       │      │                   in order to further protect users who aren't using the
+│                       │      │                   correct approach. We believe the number of usages affected
+│                       │      │                   by this advisory is low. It requires all of the following to
+│                       │      │                    be true to be exploited: 1. Setting the
+│                       │      │                   `Proxy-Authorization` header without using urllib3's
+│                       │      │                   built-in proxy support. 2. Not disabling HTTP redirects. 3.
+│                       │      │                   Either not using an HTTPS origin server or for the proxy or
+│                       │      │                   target origin to redirect to a malicious origin. Users are
+│                       │      │                   advised to update to either version 1.26.19 or version
+│                       │      │                   2.2.2. Users unable to upgrade may use the
+│                       │      │                   `Proxy-Authorization` header with urllib3's `ProxyManager`,
+│                       │      │                   disable HTTP redirects using `redirects=False` when sending
+│                       │      │                   requests, or not user the `Proxy-Authorization` header as
+│                       │      │                   mitigations. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-669 
+│                       │      ├ VendorSeverity   ╭ ghsa  : 2 
+│                       │      │                  ╰ redhat: 2 
+│                       │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:
+│                       │      │                  │        │           H/I:N/A:N 
+│                       │      │                  │        ╰ V3Score : 4.4 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:
+│                       │      │                           │           H/I:N/A:N 
+│                       │      │                           ╰ V3Score : 4.4 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-37891 
+│                       │      │                  ├ [1]: https://github.com/urllib3/urllib3 
+│                       │      │                  ├ [2]: https://github.com/urllib3/urllib3/commit/40b6d16
+│                       │      │                  │      05814dd1db0a46e202d6e56f2e4c9a468 
+│                       │      │                  ├ [3]: https://github.com/urllib3/urllib3/commit/accff72
+│                       │      │                  │      ecc2f6cf5a76d9570198a93ac7c90270e 
+│                       │      │                  ├ [4]: https://github.com/urllib3/urllib3/security/advis
+│                       │      │                  │      ories/GHSA-34jh-p97f-mpxf 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-37891 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-37891 
+│                       │      ├ PublishedDate   : 2024-06-17T20:15:13.45Z 
+│                       │      ╰ LastModifiedDate: 2024-06-17T20:15:13.45Z 
+│                       ├ [73] ╭ VulnerabilityID : CVE-2021-3572 
 │                       │      ├ PkgID           : python3-pip-wheel@21.2.3-8.el9.noarch 
 │                       │      ├ PkgName         : python3-pip-wheel 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.2.3-8.el9?ar
@@ -4966,7 +5097,7 @@
 │                       │      │                          2.html 
 │                       │      ├ PublishedDate   : 2021-11-10T18:15:09.51Z 
 │                       │      ╰ LastModifiedDate: 2022-10-05T02:14:39.75Z 
-│                       ├ [70] ╭ VulnerabilityID : CVE-2023-36191 
+│                       ├ [74] ╭ VulnerabilityID : CVE-2023-36191 
 │                       │      ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x
@@ -4998,7 +5129,7 @@
 │                       │      │                  ╰ [3]: https://www.sqlite.org/forum/forumpost/19f55ef73b 
 │                       │      ├ PublishedDate   : 2023-06-23T02:15:09.597Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T04:16:25.153Z 
-│                       ├ [71] ╭ VulnerabilityID : CVE-2024-0232 
+│                       ├ [75] ╭ VulnerabilityID : CVE-2024-0232 
 │                       │      ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x
@@ -5044,7 +5175,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-0232 
 │                       │      ├ PublishedDate   : 2024-01-16T14:15:48.327Z 
 │                       │      ╰ LastModifiedDate: 2024-03-15T11:15:08.56Z 
-│                       ├ [72] ╭ VulnerabilityID : CVE-2021-3997 
+│                       ├ [76] ╭ VulnerabilityID : CVE-2021-3997 
 │                       │      ├ PkgID           : systemd-libs@252-32.el9_4.x86_64 
 │                       │      ├ PkgName         : systemd-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/systemd-libs@252-32.el9_4?arch=x8
@@ -5090,7 +5221,7 @@
 │                       │      │                         01/10/2 
 │                       │      ├ PublishedDate   : 2022-08-23T20:15:08.67Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:15.95Z 
-│                       ├ [73] ╭ VulnerabilityID : CVE-2005-2541 
+│                       ├ [77] ╭ VulnerabilityID : CVE-2005-2541 
 │                       │      ├ PkgID           : tar@1.34-6.el9_1.x86_64 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-6.el9_1?arch=x86_64&dist
@@ -5126,7 +5257,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2005-2541 
 │                       │      ├ PublishedDate   : 2005-08-10T04:00:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T01:57:39.453Z 
-│                       ╰ [74] ╭ VulnerabilityID : CVE-2023-39804 
+│                       ╰ [78] ╭ VulnerabilityID : CVE-2023-39804 
 │                              ├ PkgID           : tar@1.34-6.el9_1.x86_64 
 │                              ├ PkgName         : tar 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-6.el9_1?arch=x86_64&dist
