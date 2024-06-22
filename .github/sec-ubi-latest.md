@@ -2132,14 +2132,16 @@
 │                       │      │                  │       18-0014/ 
 │                       │      │                  ├ [25]: https://security.netapp.com/advisory/ntap-202310
 │                       │      │                  │       27-0008/ 
-│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-6435-1 
-│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-6435-2 
-│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-6450-1 
-│                       │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-6709-1 
-│                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
-│                       │      │                  ╰ [31]: https://www.openssl.org/news/secadv/20230731.txt 
+│                       │      │                  ├ [26]: https://security.netapp.com/advisory/ntap-202406
+│                       │      │                  │       21-0006/ 
+│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-6435-1 
+│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-6435-2 
+│                       │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-6450-1 
+│                       │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-6709-1 
+│                       │      │                  ├ [31]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
+│                       │      │                  ╰ [32]: https://www.openssl.org/news/secadv/20230731.txt 
 │                       │      ├ PublishedDate   : 2023-07-31T16:15:10.497Z 
-│                       │      ╰ LastModifiedDate: 2024-02-04T09:15:10.03Z 
+│                       │      ╰ LastModifiedDate: 2024-06-21T19:15:28.01Z 
 │                       ├ [39] ╭ VulnerabilityID : CVE-2023-5678 
 │                       │      ├ PkgID           : openssl@3.0.7-27.el9.x86_64 
 │                       │      ├ PkgName         : openssl 
@@ -2638,10 +2640,12 @@
 │                       │      │                  ├ [5]: https://github.com/openssl/openssl/commit/da343d0
 │                       │      │                  │      605c826ef197aceedc67e8e04f065f740 
 │                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
-│                       │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20240516.txt 
+│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2024062
+│                       │      │                  │      1-0001/ 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
+│                       │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20240516.txt 
 │                       │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
-│                       │      ╰ LastModifiedDate: 2024-06-10T17:16:33.69Z 
+│                       │      ╰ LastModifiedDate: 2024-06-21T19:15:30.783Z 
 │                       ├ [44] ╭ VulnerabilityID : CVE-2024-4741 
 │                       │      ├ PkgID           : openssl@3.0.7-27.el9.x86_64 
 │                       │      ├ PkgName         : openssl 
@@ -2937,14 +2941,16 @@
 │                       │      │                  │       18-0014/ 
 │                       │      │                  ├ [25]: https://security.netapp.com/advisory/ntap-202310
 │                       │      │                  │       27-0008/ 
-│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-6435-1 
-│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-6435-2 
-│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-6450-1 
-│                       │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-6709-1 
-│                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
-│                       │      │                  ╰ [31]: https://www.openssl.org/news/secadv/20230731.txt 
+│                       │      │                  ├ [26]: https://security.netapp.com/advisory/ntap-202406
+│                       │      │                  │       21-0006/ 
+│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-6435-1 
+│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-6435-2 
+│                       │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-6450-1 
+│                       │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-6709-1 
+│                       │      │                  ├ [31]: https://www.cve.org/CVERecord?id=CVE-2023-3817 
+│                       │      │                  ╰ [32]: https://www.openssl.org/news/secadv/20230731.txt 
 │                       │      ├ PublishedDate   : 2023-07-31T16:15:10.497Z 
-│                       │      ╰ LastModifiedDate: 2024-02-04T09:15:10.03Z 
+│                       │      ╰ LastModifiedDate: 2024-06-21T19:15:28.01Z 
 │                       ├ [47] ╭ VulnerabilityID : CVE-2023-5678 
 │                       │      ├ PkgID           : openssl-libs@3.0.7-27.el9.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
@@ -3443,10 +3449,12 @@
 │                       │      │                  ├ [5]: https://github.com/openssl/openssl/commit/da343d0
 │                       │      │                  │      605c826ef197aceedc67e8e04f065f740 
 │                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
-│                       │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20240516.txt 
+│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2024062
+│                       │      │                  │      1-0001/ 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
+│                       │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20240516.txt 
 │                       │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
-│                       │      ╰ LastModifiedDate: 2024-06-10T17:16:33.69Z 
+│                       │      ╰ LastModifiedDate: 2024-06-21T19:15:30.783Z 
 │                       ├ [52] ╭ VulnerabilityID : CVE-2024-4741 
 │                       │      ├ PkgID           : openssl-libs@3.0.7-27.el9.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
@@ -5031,14 +5039,18 @@
 │                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2021-3572 
 │                       │      │                  ├ [12]: https://packetstormsecurity.com/files/162712/USN
 │                       │      │                  │       -4961-1.txt 
-│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-4961-2 
-│                       │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2021-3572 
-│                       │      │                  ├ [15]: https://www.oracle.com/security-alerts/cpuapr202
+│                       │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-202406
+│                       │      │                  │       21-0006 
+│                       │      │                  ├ [14]: https://security.netapp.com/advisory/ntap-202406
+│                       │      │                  │       21-0006/ 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-4961-2 
+│                       │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2021-3572 
+│                       │      │                  ├ [17]: https://www.oracle.com/security-alerts/cpuapr202
 │                       │      │                  │       2.html 
-│                       │      │                  ╰ [16]: https://www.oracle.com/security-alerts/cpujul202
+│                       │      │                  ╰ [18]: https://www.oracle.com/security-alerts/cpujul202
 │                       │      │                          2.html 
 │                       │      ├ PublishedDate   : 2021-11-10T18:15:09.51Z 
-│                       │      ╰ LastModifiedDate: 2022-10-05T02:14:39.75Z 
+│                       │      ╰ LastModifiedDate: 2024-06-21T19:15:20.04Z 
 │                       ├ [72] ╭ VulnerabilityID : CVE-2023-36191 
 │                       │      ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
 │                       │      ├ PkgName         : sqlite-libs 
