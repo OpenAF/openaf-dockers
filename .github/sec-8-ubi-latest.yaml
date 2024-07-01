@@ -1733,6 +1733,7 @@
     VendorSeverity:
       alma: 1
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
       photon: 2
@@ -2193,6 +2194,7 @@
     Severity: LOW
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 3
       photon: 3
       redhat: 1
       ubuntu: 1
@@ -2298,6 +2300,7 @@
     Description: A use-after-free vulnerability was found in OpenSSL. Calling the OpenSSL API SSL_free_buffers function may cause memory to be accessed that was previously freed in some situations.
     Severity: LOW
     VendorSeverity:
+      cbl-mariner: 3
       photon: 2
       redhat: 1
       ubuntu: 1
@@ -2360,6 +2363,7 @@
     VendorSeverity:
       alma: 1
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
       photon: 2
@@ -2820,6 +2824,7 @@
     Severity: LOW
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 3
       photon: 3
       redhat: 1
       ubuntu: 1
@@ -2925,6 +2930,7 @@
     Description: A use-after-free vulnerability was found in OpenSSL. Calling the OpenSSL API SSL_free_buffers function may cause memory to be accessed that was previously freed in some situations.
     Severity: LOW
     VendorSeverity:
+      cbl-mariner: 3
       photon: 2
       redhat: 1
       ubuntu: 1
