@@ -301,7 +301,7 @@
 │                       │      │                  ├ [10]: https://github.com/OpenPrinting/cups/security/ad
 │                       │      │                  │       visories/GHSA-vvwp-mv6j-hw6f 
 │                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-35235.html 
-│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-4265.html 
+│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-4776.html 
 │                       │      │                  ├ [13]: https://lists.debian.org/debian-lts-announce/202
 │                       │      │                  │       4/06/msg00001.html 
 │                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-35235 
@@ -1621,8 +1621,11 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-35328 
 │                       │      │                  ├ [1]: https://github.com/idhyt/pocs/blob/main/libyaml/C
 │                       │      │                  │      VE-2024-35328.c 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-35328 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-35328 
+│                       │      │                  ├ [2]: https://github.com/yaml/libyaml/issues/298#issuec
+│                       │      │                  │      omment-2167684233 
+│                       │      │                  ├ [3]: https://github.com/yaml/libyaml/issues/302 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-35328 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-35328 
 │                       │      ├ PublishedDate   : 2024-06-13T16:15:11.037Z 
 │                       │      ╰ LastModifiedDate: 2024-07-19T15:25:50.03Z 
 │                       ├ [31] ╭ VulnerabilityID : CVE-2022-4899 
@@ -4832,7 +4835,8 @@
 │                       │      │                   CPython 3.12.4 and 3.13.0a6 contain updated information from
 │                       │      │                    these registries and thus have the intended behavior. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ oracle-oval: 1 
+│                       │      │                  ╰ redhat     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:L 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -4853,14 +4857,16 @@
 │                       │      │                  │       c511e68192ba71f27e752321a3252cee3 
 │                       │      │                  ├ [8] : https://github.com/python/cpython/issues/113171 
 │                       │      │                  ├ [9] : https://github.com/python/cpython/pull/113179 
-│                       │      │                  ├ [10]: https://mail.python.org/archives/list/security-a
+│                       │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2024-4032.html 
+│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-4779.html 
+│                       │      │                  ├ [12]: https://mail.python.org/archives/list/security-a
 │                       │      │                  │       nnounce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCK
 │                       │      │                  │       U3RZA/ 
-│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
-│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
-│                       │      │                  ├ [13]: https://www.iana.org/assignments/iana-ipv4-speci
+│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
+│                       │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
+│                       │      │                  ├ [15]: https://www.iana.org/assignments/iana-ipv4-speci
 │                       │      │                  │       al-registry/iana-ipv4-special-registry.xhtml 
-│                       │      │                  ╰ [14]: https://www.iana.org/assignments/iana-ipv6-speci
+│                       │      │                  ╰ [16]: https://www.iana.org/assignments/iana-ipv6-speci
 │                       │      │                          al-registry/iana-ipv6-special-registry.xhtml 
 │                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
 │                       │      ╰ LastModifiedDate: 2024-06-20T12:44:22.977Z 
@@ -5108,7 +5114,8 @@
 │                       │      │                   CPython 3.12.4 and 3.13.0a6 contain updated information from
 │                       │      │                    these registries and thus have the intended behavior. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ oracle-oval: 1 
+│                       │      │                  ╰ redhat     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:L 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -5129,14 +5136,16 @@
 │                       │      │                  │       c511e68192ba71f27e752321a3252cee3 
 │                       │      │                  ├ [8] : https://github.com/python/cpython/issues/113171 
 │                       │      │                  ├ [9] : https://github.com/python/cpython/pull/113179 
-│                       │      │                  ├ [10]: https://mail.python.org/archives/list/security-a
+│                       │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2024-4032.html 
+│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-4779.html 
+│                       │      │                  ├ [12]: https://mail.python.org/archives/list/security-a
 │                       │      │                  │       nnounce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCK
 │                       │      │                  │       U3RZA/ 
-│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
-│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
-│                       │      │                  ├ [13]: https://www.iana.org/assignments/iana-ipv4-speci
+│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
+│                       │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
+│                       │      │                  ├ [15]: https://www.iana.org/assignments/iana-ipv4-speci
 │                       │      │                  │       al-registry/iana-ipv4-special-registry.xhtml 
-│                       │      │                  ╰ [14]: https://www.iana.org/assignments/iana-ipv6-speci
+│                       │      │                  ╰ [16]: https://www.iana.org/assignments/iana-ipv6-speci
 │                       │      │                          al-registry/iana-ipv6-special-registry.xhtml 
 │                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
 │                       │      ╰ LastModifiedDate: 2024-06-20T12:44:22.977Z 
@@ -5384,7 +5393,8 @@
 │                       │      │                   CPython 3.12.4 and 3.13.0a6 contain updated information from
 │                       │      │                    these registries and thus have the intended behavior. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ oracle-oval: 1 
+│                       │      │                  ╰ redhat     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:L 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -5405,14 +5415,16 @@
 │                       │      │                  │       c511e68192ba71f27e752321a3252cee3 
 │                       │      │                  ├ [8] : https://github.com/python/cpython/issues/113171 
 │                       │      │                  ├ [9] : https://github.com/python/cpython/pull/113179 
-│                       │      │                  ├ [10]: https://mail.python.org/archives/list/security-a
+│                       │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2024-4032.html 
+│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-4779.html 
+│                       │      │                  ├ [12]: https://mail.python.org/archives/list/security-a
 │                       │      │                  │       nnounce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCK
 │                       │      │                  │       U3RZA/ 
-│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
-│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
-│                       │      │                  ├ [13]: https://www.iana.org/assignments/iana-ipv4-speci
+│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
+│                       │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
+│                       │      │                  ├ [15]: https://www.iana.org/assignments/iana-ipv4-speci
 │                       │      │                  │       al-registry/iana-ipv4-special-registry.xhtml 
-│                       │      │                  ╰ [14]: https://www.iana.org/assignments/iana-ipv6-speci
+│                       │      │                  ╰ [16]: https://www.iana.org/assignments/iana-ipv6-speci
 │                       │      │                          al-registry/iana-ipv6-special-registry.xhtml 
 │                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
 │                       │      ╰ LastModifiedDate: 2024-06-20T12:44:22.977Z 
@@ -5784,7 +5796,7 @@
                         │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-25638 
                         │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-25638 
                         │     ├ PublishedDate   : 2024-07-22T14:15:04.593Z 
-                        │     ╰ LastModifiedDate: 2024-07-22T14:15:04.593Z 
+                        │     ╰ LastModifiedDate: 2024-07-24T12:55:13.223Z 
                         ├ [1] ╭ VulnerabilityID : GHSA-crjg-w57m-rqqf 
                         │     ├ PkgName         : dnsjava:dnsjava 
                         │     ├ PkgPath         : openaf/openaf.jar 
