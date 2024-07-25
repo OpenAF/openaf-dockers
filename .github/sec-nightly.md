@@ -13,10 +13,10 @@
                         │     ├ InstalledVersion: 3.5.3 
                         │     ├ FixedVersion    : 3.6.0 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:de02d856ec020c12f8c53dbdf312424f6ea217f6
-                        │     │                  │         0b21129a1073e64e3f18baa1 
-                        │     │                  ╰ DiffID: sha256:375b33c487735b5990d3714861a1a00b564e67aa
-                        │     │                            e186887c8e6f9f9c126a3e11 
+                        │     ├ Layer            ╭ Digest: sha256:47ad91fdb7bd30e8ba8ec9d1ee0f72ad63d3336e
+                        │     │                  │         1be1e9eb49b8a68f8636c90d 
+                        │     │                  ╰ DiffID: sha256:dd06595411e0592520b81209ec797795423d1b1c
+                        │     │                            208e9436be27039f3da4b93b 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-25638 
                         │     ├ DataSource       ╭ ID  : ghsa 
@@ -57,10 +57,10 @@
                         │     ├ InstalledVersion: 3.5.3 
                         │     ├ FixedVersion    : 3.6.0 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:de02d856ec020c12f8c53dbdf312424f6ea217f6
-                        │     │                  │         0b21129a1073e64e3f18baa1 
-                        │     │                  ╰ DiffID: sha256:375b33c487735b5990d3714861a1a00b564e67aa
-                        │     │                            e186887c8e6f9f9c126a3e11 
+                        │     ├ Layer            ╭ Digest: sha256:47ad91fdb7bd30e8ba8ec9d1ee0f72ad63d3336e
+                        │     │                  │         1be1e9eb49b8a68f8636c90d 
+                        │     │                  ╰ DiffID: sha256:dd06595411e0592520b81209ec797795423d1b1c
+                        │     │                            208e9436be27039f3da4b93b 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://github.com/advisories/GHSA-crjg-w57m-rqqf 
                         │     ├ DataSource       ╭ ID  : ghsa 
@@ -104,10 +104,10 @@
                               ├ InstalledVersion: 3.5.3 
                               ├ FixedVersion    : 3.6.0 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:de02d856ec020c12f8c53dbdf312424f6ea217f6
-                              │                  │         0b21129a1073e64e3f18baa1 
-                              │                  ╰ DiffID: sha256:375b33c487735b5990d3714861a1a00b564e67aa
-                              │                            e186887c8e6f9f9c126a3e11 
+                              ├ Layer            ╭ Digest: sha256:47ad91fdb7bd30e8ba8ec9d1ee0f72ad63d3336e
+                              │                  │         1be1e9eb49b8a68f8636c90d 
+                              │                  ╰ DiffID: sha256:dd06595411e0592520b81209ec797795423d1b1c
+                              │                            208e9436be27039f3da4b93b 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://github.com/advisories/GHSA-mmwx-rj87-vfgr 
                               ├ DataSource       ╭ ID  : ghsa 
