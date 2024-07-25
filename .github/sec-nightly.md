@@ -13,10 +13,10 @@
                         │     ├ InstalledVersion: 3.5.3 
                         │     ├ FixedVersion    : 3.6.0 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:47ad91fdb7bd30e8ba8ec9d1ee0f72ad63d3336e
-                        │     │                  │         1be1e9eb49b8a68f8636c90d 
-                        │     │                  ╰ DiffID: sha256:dd06595411e0592520b81209ec797795423d1b1c
-                        │     │                            208e9436be27039f3da4b93b 
+                        │     ├ Layer            ╭ Digest: sha256:c31389bee243e5e97bf5b6273d57180443028f01
+                        │     │                  │         9c8a1e19b4e04a8ab9c0fee9 
+                        │     │                  ╰ DiffID: sha256:18ae29ccbf6d39bd8bf6e5af62be2e579a52d1d5
+                        │     │                            1fe9322cc9106769b77796ee 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-25638 
                         │     ├ DataSource       ╭ ID  : ghsa 
@@ -48,7 +48,7 @@
                         │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-25638 
                         │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-25638 
                         │     ├ PublishedDate   : 2024-07-22T14:15:04.593Z 
-                        │     ╰ LastModifiedDate: 2024-07-22T14:15:04.593Z 
+                        │     ╰ LastModifiedDate: 2024-07-24T12:55:13.223Z 
                         ├ [1] ╭ VulnerabilityID : GHSA-crjg-w57m-rqqf 
                         │     ├ PkgName         : dnsjava:dnsjava 
                         │     ├ PkgPath         : openaf/openaf.jar 
@@ -57,10 +57,10 @@
                         │     ├ InstalledVersion: 3.5.3 
                         │     ├ FixedVersion    : 3.6.0 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:47ad91fdb7bd30e8ba8ec9d1ee0f72ad63d3336e
-                        │     │                  │         1be1e9eb49b8a68f8636c90d 
-                        │     │                  ╰ DiffID: sha256:dd06595411e0592520b81209ec797795423d1b1c
-                        │     │                            208e9436be27039f3da4b93b 
+                        │     ├ Layer            ╭ Digest: sha256:c31389bee243e5e97bf5b6273d57180443028f01
+                        │     │                  │         9c8a1e19b4e04a8ab9c0fee9 
+                        │     │                  ╰ DiffID: sha256:18ae29ccbf6d39bd8bf6e5af62be2e579a52d1d5
+                        │     │                            1fe9322cc9106769b77796ee 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://github.com/advisories/GHSA-crjg-w57m-rqqf 
                         │     ├ DataSource       ╭ ID  : ghsa 
@@ -104,10 +104,10 @@
                               ├ InstalledVersion: 3.5.3 
                               ├ FixedVersion    : 3.6.0 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:47ad91fdb7bd30e8ba8ec9d1ee0f72ad63d3336e
-                              │                  │         1be1e9eb49b8a68f8636c90d 
-                              │                  ╰ DiffID: sha256:dd06595411e0592520b81209ec797795423d1b1c
-                              │                            208e9436be27039f3da4b93b 
+                              ├ Layer            ╭ Digest: sha256:c31389bee243e5e97bf5b6273d57180443028f01
+                              │                  │         9c8a1e19b4e04a8ab9c0fee9 
+                              │                  ╰ DiffID: sha256:18ae29ccbf6d39bd8bf6e5af62be2e579a52d1d5
+                              │                            1fe9322cc9106769b77796ee 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://github.com/advisories/GHSA-mmwx-rj87-vfgr 
                               ├ DataSource       ╭ ID  : ghsa 
