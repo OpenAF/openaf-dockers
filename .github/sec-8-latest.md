@@ -18,8 +18,7 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : libcurl's ASN1 parser has this utf8asn1str() function
-│                       │     │                   used for parsing ... 
+│                       │     ├ Title           : curl: freeing stack buffer in utf8asn1str 
 │                       │     ├ Description     : libcurl's ASN1 parser has this utf8asn1str() function
 │                       │     │                   used for parsing an ASN.1 UTF-8 string. Itcan detect an
 │                       │     │                   invalid field and return error. Unfortunately, when doing so
@@ -33,12 +32,20 @@
 │                       │     │                   outcome of exploting this flaw is a crash, although it cannot
 │                       │     │                    be ruled out that more serious results can be had in special
 │                       │     │                    circumstances. 
-│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ VendorSeverity   ╭ photon: 2 
+│                       │     │                  ╰ redhat: 2 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
+│                       │     │                           │           /I:L/A:H 
+│                       │     │                           ╰ V3Score : 6.5 
 │                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/07/24/1 
 │                       │     │                  ├ [1]: http://www.openwall.com/lists/oss-security/2024/07/24/5 
-│                       │     │                  ├ [2]: https://curl.se/docs/CVE-2024-6197.html 
-│                       │     │                  ├ [3]: https://curl.se/docs/CVE-2024-6197.json 
-│                       │     │                  ╰ [4]: https://hackerone.com/reports/2559516 
+│                       │     │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2024-6197 
+│                       │     │                  ├ [3]: https://curl.se/docs/CVE-2024-6197.html 
+│                       │     │                  ├ [4]: https://curl.se/docs/CVE-2024-6197.json 
+│                       │     │                  ├ [5]: https://hackerone.com/reports/2559516 
+│                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-6197 
+│                       │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-6197 
 │                       │     ├ PublishedDate   : 2024-07-24T08:15:03.34Z 
 │                       │     ╰ LastModifiedDate: 2024-07-24T21:15:12.6Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2024-6874 
@@ -57,8 +64,7 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : libcurl's URL API function
-│                       │     │                   [curl_url_get()](https://curl.se/libcurl/c/ ... 
+│                       │     ├ Title           : curl: macidn punycode buffer overread 
 │                       │     ├ Description     : libcurl's URL API function
 │                       │     │                   [curl_url_get()](https://curl.se/libcurl/c/curl_url_get.html)
 │                       │     │                    offers punycode
@@ -74,11 +80,18 @@
 │                       │     │                   This flaw can lead to stack contents accidently getting
 │                       │     │                   returned as part of
 │                       │     │                   the converted string. 
-│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ VendorSeverity   ─ redhat: 1 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
+│                       │     │                           │           /I:N/A:N 
+│                       │     │                           ╰ V3Score : 5.3 
 │                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/07/24/2 
-│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2024-6874.html 
-│                       │     │                  ├ [2]: https://curl.se/docs/CVE-2024-6874.json 
-│                       │     │                  ╰ [3]: https://hackerone.com/reports/2604391 
+│                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-6874 
+│                       │     │                  ├ [2]: https://curl.se/docs/CVE-2024-6874.html 
+│                       │     │                  ├ [3]: https://curl.se/docs/CVE-2024-6874.json 
+│                       │     │                  ├ [4]: https://hackerone.com/reports/2604391 
+│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-6874 
+│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6874 
 │                       │     ├ PublishedDate   : 2024-07-24T08:15:03.413Z 
 │                       │     ╰ LastModifiedDate: 2024-07-24T12:55:13.223Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2024-6197 
@@ -98,8 +111,7 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : libcurl's ASN1 parser has this utf8asn1str() function
-│                       │     │                   used for parsing ... 
+│                       │     ├ Title           : curl: freeing stack buffer in utf8asn1str 
 │                       │     ├ Description     : libcurl's ASN1 parser has this utf8asn1str() function
 │                       │     │                   used for parsing an ASN.1 UTF-8 string. Itcan detect an
 │                       │     │                   invalid field and return error. Unfortunately, when doing so
@@ -113,12 +125,20 @@
 │                       │     │                   outcome of exploting this flaw is a crash, although it cannot
 │                       │     │                    be ruled out that more serious results can be had in special
 │                       │     │                    circumstances. 
-│                       │     ├ Severity        : UNKNOWN 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ VendorSeverity   ╭ photon: 2 
+│                       │     │                  ╰ redhat: 2 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N
+│                       │     │                           │           /I:L/A:H 
+│                       │     │                           ╰ V3Score : 6.5 
 │                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/07/24/1 
 │                       │     │                  ├ [1]: http://www.openwall.com/lists/oss-security/2024/07/24/5 
-│                       │     │                  ├ [2]: https://curl.se/docs/CVE-2024-6197.html 
-│                       │     │                  ├ [3]: https://curl.se/docs/CVE-2024-6197.json 
-│                       │     │                  ╰ [4]: https://hackerone.com/reports/2559516 
+│                       │     │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2024-6197 
+│                       │     │                  ├ [3]: https://curl.se/docs/CVE-2024-6197.html 
+│                       │     │                  ├ [4]: https://curl.se/docs/CVE-2024-6197.json 
+│                       │     │                  ├ [5]: https://hackerone.com/reports/2559516 
+│                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-6197 
+│                       │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-6197 
 │                       │     ├ PublishedDate   : 2024-07-24T08:15:03.34Z 
 │                       │     ╰ LastModifiedDate: 2024-07-24T21:15:12.6Z 
 │                       ╰ [3] ╭ VulnerabilityID : CVE-2024-6874 
@@ -138,8 +158,7 @@
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Title           : libcurl's URL API function
-│                             │                   [curl_url_get()](https://curl.se/libcurl/c/ ... 
+│                             ├ Title           : curl: macidn punycode buffer overread 
 │                             ├ Description     : libcurl's URL API function
 │                             │                   [curl_url_get()](https://curl.se/libcurl/c/curl_url_get.html)
 │                             │                    offers punycode
@@ -155,11 +174,18 @@
 │                             │                   This flaw can lead to stack contents accidently getting
 │                             │                   returned as part of
 │                             │                   the converted string. 
-│                             ├ Severity        : UNKNOWN 
+│                             ├ Severity        : MEDIUM 
+│                             ├ VendorSeverity   ─ redhat: 1 
+│                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
+│                             │                           │           /I:N/A:N 
+│                             │                           ╰ V3Score : 5.3 
 │                             ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/07/24/2 
-│                             │                  ├ [1]: https://curl.se/docs/CVE-2024-6874.html 
-│                             │                  ├ [2]: https://curl.se/docs/CVE-2024-6874.json 
-│                             │                  ╰ [3]: https://hackerone.com/reports/2604391 
+│                             │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-6874 
+│                             │                  ├ [2]: https://curl.se/docs/CVE-2024-6874.html 
+│                             │                  ├ [3]: https://curl.se/docs/CVE-2024-6874.json 
+│                             │                  ├ [4]: https://hackerone.com/reports/2604391 
+│                             │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-6874 
+│                             │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6874 
 │                             ├ PublishedDate   : 2024-07-24T08:15:03.413Z 
 │                             ╰ LastModifiedDate: 2024-07-24T12:55:13.223Z 
 ╰ [1] ╭ Target         : Java 
