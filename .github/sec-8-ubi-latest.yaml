@@ -658,7 +658,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:4563
+    - https://access.redhat.com/errata/RHSA-2024:4567
     - https://access.redhat.com/security/cve/CVE-2024-21144
     - https://bugzilla.redhat.com/2297961
     - https://bugzilla.redhat.com/2297962
@@ -666,7 +666,7 @@
     - https://bugzilla.redhat.com/2297964
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
-    - https://errata.almalinux.org/8/ALSA-2024-4563.html
+    - https://errata.almalinux.org/9/ALSA-2024-4567.html
     - https://linux.oracle.com/cve/CVE-2024-21144.html
     - https://linux.oracle.com/errata/ELSA-2024-4567.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21144
@@ -2236,7 +2236,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -2349,7 +2349,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -2453,7 +2453,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -2980,7 +2980,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -3093,7 +3093,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -3197,7 +3197,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 2
