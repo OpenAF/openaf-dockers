@@ -2907,6 +2907,7 @@
     - CWE-200
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 4
       photon: 4
       redhat: 1
       ubuntu: 1
@@ -3651,6 +3652,7 @@
     - CWE-200
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 4
       photon: 4
       redhat: 1
       ubuntu: 1
@@ -4392,6 +4394,7 @@
     - CWE-94
     VendorSeverity:
       ghsa: 3
+      photon: 3
       redhat: 3
     CVSS:
       ghsa:
