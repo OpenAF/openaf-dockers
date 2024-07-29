@@ -2610,7 +2610,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -2758,7 +2758,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-834 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -2897,7 +2897,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -3593,7 +3593,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 1 
@@ -3741,7 +3741,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-834 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -3880,7 +3880,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -4869,13 +4869,15 @@
 │                       │      │                  │       nnounce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCK
 │                       │      │                  │       U3RZA/ 
 │                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
-│                       │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
-│                       │      │                  ├ [18]: https://www.iana.org/assignments/iana-ipv4-speci
+│                       │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-202407
+│                       │      │                  │       26-0004/ 
+│                       │      │                  ├ [18]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
+│                       │      │                  ├ [19]: https://www.iana.org/assignments/iana-ipv4-speci
 │                       │      │                  │       al-registry/iana-ipv4-special-registry.xhtml 
-│                       │      │                  ╰ [19]: https://www.iana.org/assignments/iana-ipv6-speci
+│                       │      │                  ╰ [20]: https://www.iana.org/assignments/iana-ipv6-speci
 │                       │      │                          al-registry/iana-ipv6-special-registry.xhtml 
 │                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
-│                       │      ╰ LastModifiedDate: 2024-06-20T12:44:22.977Z 
+│                       │      ╰ LastModifiedDate: 2024-07-28T14:15:10.783Z 
 │                       ├ [72] ╭ VulnerabilityID : CVE-2021-23336 
 │                       │      ├ PkgID           : python3@3.9.18-3.el9_4.1.x86_64 
 │                       │      ├ PkgName         : python3 
@@ -5152,13 +5154,15 @@
 │                       │      │                  │       nnounce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCK
 │                       │      │                  │       U3RZA/ 
 │                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
-│                       │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
-│                       │      │                  ├ [18]: https://www.iana.org/assignments/iana-ipv4-speci
+│                       │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-202407
+│                       │      │                  │       26-0004/ 
+│                       │      │                  ├ [18]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
+│                       │      │                  ├ [19]: https://www.iana.org/assignments/iana-ipv4-speci
 │                       │      │                  │       al-registry/iana-ipv4-special-registry.xhtml 
-│                       │      │                  ╰ [19]: https://www.iana.org/assignments/iana-ipv6-speci
+│                       │      │                  ╰ [20]: https://www.iana.org/assignments/iana-ipv6-speci
 │                       │      │                          al-registry/iana-ipv6-special-registry.xhtml 
 │                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
-│                       │      ╰ LastModifiedDate: 2024-06-20T12:44:22.977Z 
+│                       │      ╰ LastModifiedDate: 2024-07-28T14:15:10.783Z 
 │                       ├ [75] ╭ VulnerabilityID : CVE-2021-23336 
 │                       │      ├ PkgID           : python3-libs@3.9.18-3.el9_4.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
@@ -5435,13 +5439,15 @@
 │                       │      │                  │       nnounce@python.org/thread/NRUHDUS2IV2USIZM2CVMSFL6SCK
 │                       │      │                  │       U3RZA/ 
 │                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-4032 
-│                       │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
-│                       │      │                  ├ [18]: https://www.iana.org/assignments/iana-ipv4-speci
+│                       │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-202407
+│                       │      │                  │       26-0004/ 
+│                       │      │                  ├ [18]: https://www.cve.org/CVERecord?id=CVE-2024-4032 
+│                       │      │                  ├ [19]: https://www.iana.org/assignments/iana-ipv4-speci
 │                       │      │                  │       al-registry/iana-ipv4-special-registry.xhtml 
-│                       │      │                  ╰ [19]: https://www.iana.org/assignments/iana-ipv6-speci
+│                       │      │                  ╰ [20]: https://www.iana.org/assignments/iana-ipv6-speci
 │                       │      │                          al-registry/iana-ipv6-special-registry.xhtml 
 │                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
-│                       │      ╰ LastModifiedDate: 2024-06-20T12:44:22.977Z 
+│                       │      ╰ LastModifiedDate: 2024-07-28T14:15:10.783Z 
 │                       ├ [78] ╭ VulnerabilityID : CVE-2021-3572 
 │                       │      ├ PkgID           : python3-pip-wheel@21.2.3-8.el9.noarch 
 │                       │      ├ PkgName         : python3-pip-wheel 
