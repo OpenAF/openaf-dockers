@@ -47,7 +47,7 @@
 │                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-6197 
 │                       │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-6197 
 │                       │     ├ PublishedDate   : 2024-07-24T08:15:03.34Z 
-│                       │     ╰ LastModifiedDate: 2024-07-24T21:15:12.6Z 
+│                       │     ╰ LastModifiedDate: 2024-08-01T14:00:14.76Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2024-6874 
 │                       │     ├ PkgID           : curl@8.8.0-r0 
 │                       │     ├ PkgName         : curl 
@@ -93,7 +93,7 @@
 │                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-6874 
 │                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6874 
 │                       │     ├ PublishedDate   : 2024-07-24T08:15:03.413Z 
-│                       │     ╰ LastModifiedDate: 2024-07-24T12:55:13.223Z 
+│                       │     ╰ LastModifiedDate: 2024-08-01T14:00:45.683Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2024-6197 
 │                       │     ├ PkgID           : libcurl@8.8.0-r0 
 │                       │     ├ PkgName         : libcurl 
@@ -140,7 +140,7 @@
 │                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-6197 
 │                       │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-6197 
 │                       │     ├ PublishedDate   : 2024-07-24T08:15:03.34Z 
-│                       │     ╰ LastModifiedDate: 2024-07-24T21:15:12.6Z 
+│                       │     ╰ LastModifiedDate: 2024-08-01T14:00:14.76Z 
 │                       ╰ [3] ╭ VulnerabilityID : CVE-2024-6874 
 │                             ├ PkgID           : libcurl@8.8.0-r0 
 │                             ├ PkgName         : libcurl 
@@ -187,7 +187,7 @@
 │                             │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-6874 
 │                             │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6874 
 │                             ├ PublishedDate   : 2024-07-24T08:15:03.413Z 
-│                             ╰ LastModifiedDate: 2024-07-24T12:55:13.223Z 
+│                             ╰ LastModifiedDate: 2024-08-01T14:00:45.683Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
