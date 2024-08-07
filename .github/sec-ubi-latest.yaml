@@ -119,11 +119,11 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N
         V3Score: 9.1
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0133
+    - https://access.redhat.com/errata/RHSA-2023:7753
     - https://access.redhat.com/security/cve/CVE-2023-37920
     - https://bugzilla.redhat.com/2226586
     - https://bugzilla.redhat.com/2242493
-    - https://errata.almalinux.org/8/ALSA-2024-0133.html
+    - https://errata.almalinux.org/9/ALSA-2023-7753.html
     - https://github.com/certifi/python-certifi
     - https://github.com/certifi/python-certifi/commit/8fb96ed81f71e7097ed11bc4d9b19afd7ea5c909
     - https://github.com/certifi/python-certifi/security/advisories/GHSA-xqr8-7jwr-rhp7
@@ -150,7 +150,7 @@
       DiffID: sha256:3dcb77d1cfb1311d2f9c6e1c42024c6d0f86f620207085d75edf45151b66a994
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4504
-    Title: 'cups, libppd: Postscript Parsing Heap Overflow'
+    Title: 'libppd: Postscript Parsing Heap Overflow'
     Description: |
       Due to failure in validating the length provided by an attacker-crafted PPD PostScript document, CUPS and libppd are susceptible to a heap-based buffer overflow and possibly code execution. This issue has been fixed in CUPS version 2.4.7, released in September of 2023.
     Severity: MEDIUM
@@ -228,10 +228,10 @@
     - http://www.openwall.com/lists/oss-security/2024/06/11/1
     - http://www.openwall.com/lists/oss-security/2024/06/12/4
     - http://www.openwall.com/lists/oss-security/2024/06/12/5
-    - https://access.redhat.com/errata/RHSA-2024:4265
+    - https://access.redhat.com/errata/RHSA-2024:4776
     - https://access.redhat.com/security/cve/CVE-2024-35235
     - https://bugzilla.redhat.com/2290318
-    - https://errata.almalinux.org/8/ALSA-2024-4265.html
+    - https://errata.almalinux.org/9/ALSA-2024-4776.html
     - https://git.launchpad.net/ubuntu/+source/apparmor/tree/profiles/apparmor.d/abstractions/user-tmp#n21
     - https://github.com/OpenPrinting/cups/blob/aba917003c8de55e5bf85010f0ecf1f1ddd1408e/cups/http-addr.c#L229-L240
     - https://github.com/OpenPrinting/cups/commit/ff1f8a623e090dee8a8aadf12a6a4b25efac143d
@@ -479,6 +479,8 @@
       amazon: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
@@ -491,11 +493,26 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297961
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297962
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297963
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297976
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297977
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21131
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21147.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21147
     - https://security.netapp.com/advisory/ntap-20240719-0008/
+    - https://ubuntu.com/security/notices/USN-6929-1
+    - https://ubuntu.com/security/notices/USN-6930-1
+    - https://ubuntu.com/security/notices/USN-6931-1
+    - https://ubuntu.com/security/notices/USN-6932-1
     - https://www.cve.org/CVERecord?id=CVE-2024-21147
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:16.377Z'
@@ -547,7 +564,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -587,6 +604,8 @@
       amazon: 3
       oracle-oval: 3
       redhat: 2
+      rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
@@ -599,11 +618,26 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297961
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297962
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297963
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297976
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297977
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21131
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21131.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21131
     - https://security.netapp.com/advisory/ntap-20240719-0008/
+    - https://ubuntu.com/security/notices/USN-6929-1
+    - https://ubuntu.com/security/notices/USN-6930-1
+    - https://ubuntu.com/security/notices/USN-6931-1
+    - https://ubuntu.com/security/notices/USN-6932-1
     - https://www.cve.org/CVERecord?id=CVE-2024-21131
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:13.21Z'
@@ -632,6 +666,8 @@
       amazon: 3
       oracle-oval: 3
       redhat: 2
+      rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
@@ -644,11 +680,26 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297961
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297962
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297963
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297976
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297977
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21131
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21138.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21138
     - https://security.netapp.com/advisory/ntap-20240719-0008/
+    - https://ubuntu.com/security/notices/USN-6929-1
+    - https://ubuntu.com/security/notices/USN-6930-1
+    - https://ubuntu.com/security/notices/USN-6931-1
+    - https://ubuntu.com/security/notices/USN-6932-1
     - https://www.cve.org/CVERecord?id=CVE-2024-21138
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:14.62Z'
@@ -672,11 +723,15 @@
     Title: 'OpenJDK: Range Check Elimination (RCE) pre-loop limit overflow (8320548)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u411, 8u411-perf, 11.0.23, 17.0.11, 21.0.3, 22.0.1; Oracle GraalVM for JDK: 17.0.11, 21.0.3, 22.0.1; Oracle GraalVM Enterprise Edition: 20.3.14 and  21.3.10. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 4.8 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).'
     Severity: MEDIUM
+    CweIDs:
+    - CWE-200
     VendorSeverity:
       alma: 3
       amazon: 3
       oracle-oval: 3
       redhat: 2
+      rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
@@ -689,15 +744,30 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297961
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297962
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297963
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297976
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297977
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21131
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21140.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21140
     - https://security.netapp.com/advisory/ntap-20240719-0008/
+    - https://ubuntu.com/security/notices/USN-6929-1
+    - https://ubuntu.com/security/notices/USN-6930-1
+    - https://ubuntu.com/security/notices/USN-6931-1
+    - https://ubuntu.com/security/notices/USN-6932-1
     - https://www.cve.org/CVERecord?id=CVE-2024-21140
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:15.043Z'
-    LastModifiedDate: '2024-07-19T14:15:05.4Z'
+    LastModifiedDate: '2024-08-01T13:46:27.193Z'
   - VulnerabilityID: CVE-2024-21145
     VendorIDs:
     - RHSA-2024:4573
@@ -722,6 +792,8 @@
       amazon: 3
       oracle-oval: 3
       redhat: 2
+      rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
@@ -734,11 +806,26 @@
     - https://bugzilla.redhat.com/2297963
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297961
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297962
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297963
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297976
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2297977
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21131
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21138
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21145.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21145
     - https://security.netapp.com/advisory/ntap-20240719-0008/
+    - https://ubuntu.com/security/notices/USN-6929-1
+    - https://ubuntu.com/security/notices/USN-6930-1
+    - https://ubuntu.com/security/notices/USN-6931-1
+    - https://ubuntu.com/security/notices/USN-6932-1
     - https://www.cve.org/CVERecord?id=CVE-2024-21145
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:15.993Z'
@@ -796,6 +883,11 @@
     VendorSeverity:
       amazon: 2
       redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 7.4
     References:
     - https://access.redhat.com/security/cve/CVE-2024-37370
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
@@ -824,6 +916,11 @@
     VendorSeverity:
       amazon: 2
       redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2024-37371
     - https://github.com/krb5/krb5/commit/55fbf435edbe2e92dd8101669b1ce7144bc96fef
@@ -1177,7 +1274,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45322
     - https://www.cve.org/CVERecord?id=CVE-2023-45322
     PublishedDate: '2023-10-06T22:15:11.66Z'
-    LastModifiedDate: '2024-05-17T02:29:45.487Z'
+    LastModifiedDate: '2024-08-02T21:15:32.323Z'
   - VulnerabilityID: CVE-2024-34459
     PkgID: libxml2@2.9.13-6.el9_4.x86_64
     PkgName: libxml2
@@ -1243,36 +1340,6 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-35325
     - https://www.cve.org/CVERecord?id=CVE-2024-35325
     PublishedDate: '2024-06-13T17:15:50.39Z'
-    LastModifiedDate: '2024-06-13T18:35:19.777Z'
-  - VulnerabilityID: CVE-2024-35326
-    PkgID: libyaml@0.2.5-7.el9.x86_64
-    PkgName: libyaml
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/libyaml@0.2.5-7.el9?arch=x86_64&distro=redhat-9.4
-      UID: b069be4420870139
-    InstalledVersion: 0.2.5-7.el9
-    Status: affected
-    Layer:
-      Digest: sha256:188858f26ce5810bc3a7699886d00bac70a003f44ac575c40c497d84131c3078
-      DiffID: sha256:3dcb77d1cfb1311d2f9c6e1c42024c6d0f86f620207085d75edf45151b66a994
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-35326
-    Title: 'libyaml: double-free in yaml_emitter_emit in /src/libyaml/src/emitter.c'
-    Description: libyaml v0.2.5 is vulnerable to Buffer Overflow. Affected by this issue is the function yaml_emitter_emit of the file /src/libyaml/src/emitter.c. The manipulation leads to a double-free.
-    Severity: MEDIUM
-    VendorSeverity:
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2024-35326
-    - https://github.com/idhyt/pocs/blob/main/libyaml/CVE-2024-35326.c
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-35326
-    - https://www.cve.org/CVERecord?id=CVE-2024-35326
-    PublishedDate: '2024-06-13T17:15:50.49Z'
     LastModifiedDate: '2024-06-13T18:35:19.777Z'
   - VulnerabilityID: CVE-2024-35328
     PkgID: libyaml@0.2.5-7.el9.x86_64
@@ -1351,7 +1418,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0894
+    - https://access.redhat.com/errata/RHSA-2024:1141
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -1428,7 +1495,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/8/ALSA-2024-0894.html
+    - https://errata.almalinux.org/9/ALSA-2024-1141.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
@@ -2272,9 +2339,15 @@
     - http://www.openwall.com/lists/oss-security/2023/07/19/6
     - http://www.openwall.com/lists/oss-security/2023/07/31/1
     - http://www.openwall.com/lists/oss-security/2024/05/16/1
-    - https://access.redhat.com/errata/RHSA-2024:0888
+    - https://access.redhat.com/errata/RHSA-2024:2447
     - https://access.redhat.com/security/cve/CVE-2023-3446
+    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
+    - https://bugzilla.redhat.com/2227852
+    - https://bugzilla.redhat.com/2248616
+    - https://bugzilla.redhat.com/2257571
+    - https://bugzilla.redhat.com/2258502
+    - https://bugzilla.redhat.com/2259944
     - https://bugzilla.redhat.com/show_bug.cgi?id=2224962
     - https://bugzilla.redhat.com/show_bug.cgi?id=2257582
     - https://bugzilla.redhat.com/show_bug.cgi?id=2257583
@@ -2291,7 +2364,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45232
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45233
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45235
-    - https://errata.almalinux.org/8/ALSA-2024-0888.html
+    - https://errata.almalinux.org/9/ALSA-2024-2447.html
     - https://errata.rockylinux.org/RLSA-2024:2264
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=1fa20cf2f506113c761777127a38bce5068740eb
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=8780a896543a654e757db1b9396383f9d8095528
@@ -2379,12 +2452,16 @@
     - http://www.openwall.com/lists/oss-security/2023/09/22/11
     - http://www.openwall.com/lists/oss-security/2023/09/22/9
     - http://www.openwall.com/lists/oss-security/2023/11/06/2
-    - https://access.redhat.com/errata/RHSA-2023:7877
+    - https://access.redhat.com/errata/RHSA-2024:2447
     - https://access.redhat.com/security/cve/CVE-2023-3817
+    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
     - https://bugzilla.redhat.com/2227852
     - https://bugzilla.redhat.com/2248616
-    - https://errata.almalinux.org/8/ALSA-2023-7877.html
+    - https://bugzilla.redhat.com/2257571
+    - https://bugzilla.redhat.com/2258502
+    - https://bugzilla.redhat.com/2259944
+    - https://errata.almalinux.org/9/ALSA-2024-2447.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a1eb62c29db6cb5eec707f9338aee00f44e26f5
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=869ad69aadd985c7b8ca6f4e5dd0eb274c9f3644
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9002fd07327a91f35ba6c1307e71fa6fd4409b7f
@@ -2475,12 +2552,16 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/11/1
-    - https://access.redhat.com/errata/RHSA-2023:7877
+    - https://access.redhat.com/errata/RHSA-2024:2447
     - https://access.redhat.com/security/cve/CVE-2023-5678
+    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
     - https://bugzilla.redhat.com/2227852
     - https://bugzilla.redhat.com/2248616
-    - https://errata.almalinux.org/8/ALSA-2023-7877.html
+    - https://bugzilla.redhat.com/2257571
+    - https://bugzilla.redhat.com/2258502
+    - https://bugzilla.redhat.com/2259944
+    - https://errata.almalinux.org/9/ALSA-2024-2447.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=34efaef6c103d636ab507a0cc34dca4d3aecc055
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=710fee740904b6290fef0dd5536fbcedbc38ff0c
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=db925ae2e65d0d925adef429afc37f75bd1c2017
@@ -2722,6 +2803,7 @@
     - https://github.openssl.org/openssl/extended-releases/commit/5f8d25770ae6437db119dfc951e207271a326640
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2511
     - https://security.netapp.com/advisory/ntap-20240503-0013/
+    - https://ubuntu.com/security/notices/USN-6937-1
     - https://www.cve.org/CVERecord?id=CVE-2024-2511
     - https://www.openssl.org/news/secadv/20240408.txt
     - https://www.openssl.org/news/vulnerabilities.html
@@ -2792,6 +2874,7 @@
     - https://github.com/openssl/openssl/commit/da343d0605c826ef197aceedc67e8e04f065f740
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4603
     - https://security.netapp.com/advisory/ntap-20240621-0001/
+    - https://ubuntu.com/security/notices/USN-6937-1
     - https://www.cve.org/CVERecord?id=CVE-2024-4603
     - https://www.openssl.org/news/secadv/20240516.txt
     PublishedDate: '2024-05-16T16:15:10.643Z'
@@ -2810,7 +2893,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-4741
     Title: 'openssl: Use After Free with SSL_free_buffers'
-    Description: A use-after-free vulnerability was found in OpenSSL. Calling the OpenSSL API SSL_free_buffers function may cause memory to be accessed that was previously freed in some situations.
+    Description: No description is available for this CVE.
     Severity: LOW
     VendorSeverity:
       cbl-mariner: 3
@@ -2824,6 +2907,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-4741
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4741
+    - https://ubuntu.com/security/notices/USN-6937-1
     - https://www.cve.org/CVERecord?id=CVE-2024-4741
     - https://www.openssl.org/news/secadv/20240528.txt
   - VulnerabilityID: CVE-2024-5535
@@ -2929,6 +3013,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-5535
     - https://openssl.org/news/secadv/20240627.txt
     - https://security.netapp.com/advisory/ntap-20240712-0005/
+    - https://ubuntu.com/security/notices/USN-6937-1
     - https://www.cve.org/CVERecord?id=CVE-2024-5535
     - https://www.openssl.org/news/secadv/20240627.txt
     PublishedDate: '2024-06-27T11:15:24.447Z'
@@ -3003,9 +3088,15 @@
     - http://www.openwall.com/lists/oss-security/2023/07/19/6
     - http://www.openwall.com/lists/oss-security/2023/07/31/1
     - http://www.openwall.com/lists/oss-security/2024/05/16/1
-    - https://access.redhat.com/errata/RHSA-2024:0888
+    - https://access.redhat.com/errata/RHSA-2024:2447
     - https://access.redhat.com/security/cve/CVE-2023-3446
+    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
+    - https://bugzilla.redhat.com/2227852
+    - https://bugzilla.redhat.com/2248616
+    - https://bugzilla.redhat.com/2257571
+    - https://bugzilla.redhat.com/2258502
+    - https://bugzilla.redhat.com/2259944
     - https://bugzilla.redhat.com/show_bug.cgi?id=2224962
     - https://bugzilla.redhat.com/show_bug.cgi?id=2257582
     - https://bugzilla.redhat.com/show_bug.cgi?id=2257583
@@ -3022,7 +3113,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45232
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45233
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45235
-    - https://errata.almalinux.org/8/ALSA-2024-0888.html
+    - https://errata.almalinux.org/9/ALSA-2024-2447.html
     - https://errata.rockylinux.org/RLSA-2024:2264
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=1fa20cf2f506113c761777127a38bce5068740eb
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=8780a896543a654e757db1b9396383f9d8095528
@@ -3110,12 +3201,16 @@
     - http://www.openwall.com/lists/oss-security/2023/09/22/11
     - http://www.openwall.com/lists/oss-security/2023/09/22/9
     - http://www.openwall.com/lists/oss-security/2023/11/06/2
-    - https://access.redhat.com/errata/RHSA-2023:7877
+    - https://access.redhat.com/errata/RHSA-2024:2447
     - https://access.redhat.com/security/cve/CVE-2023-3817
+    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
     - https://bugzilla.redhat.com/2227852
     - https://bugzilla.redhat.com/2248616
-    - https://errata.almalinux.org/8/ALSA-2023-7877.html
+    - https://bugzilla.redhat.com/2257571
+    - https://bugzilla.redhat.com/2258502
+    - https://bugzilla.redhat.com/2259944
+    - https://errata.almalinux.org/9/ALSA-2024-2447.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a1eb62c29db6cb5eec707f9338aee00f44e26f5
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=869ad69aadd985c7b8ca6f4e5dd0eb274c9f3644
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=9002fd07327a91f35ba6c1307e71fa6fd4409b7f
@@ -3206,12 +3301,16 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/11/1
-    - https://access.redhat.com/errata/RHSA-2023:7877
+    - https://access.redhat.com/errata/RHSA-2024:2447
     - https://access.redhat.com/security/cve/CVE-2023-5678
+    - https://bugzilla.redhat.com/2223016
     - https://bugzilla.redhat.com/2224962
     - https://bugzilla.redhat.com/2227852
     - https://bugzilla.redhat.com/2248616
-    - https://errata.almalinux.org/8/ALSA-2023-7877.html
+    - https://bugzilla.redhat.com/2257571
+    - https://bugzilla.redhat.com/2258502
+    - https://bugzilla.redhat.com/2259944
+    - https://errata.almalinux.org/9/ALSA-2024-2447.html
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=34efaef6c103d636ab507a0cc34dca4d3aecc055
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=710fee740904b6290fef0dd5536fbcedbc38ff0c
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=db925ae2e65d0d925adef429afc37f75bd1c2017
@@ -3453,6 +3552,7 @@
     - https://github.openssl.org/openssl/extended-releases/commit/5f8d25770ae6437db119dfc951e207271a326640
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2511
     - https://security.netapp.com/advisory/ntap-20240503-0013/
+    - https://ubuntu.com/security/notices/USN-6937-1
     - https://www.cve.org/CVERecord?id=CVE-2024-2511
     - https://www.openssl.org/news/secadv/20240408.txt
     - https://www.openssl.org/news/vulnerabilities.html
@@ -3523,6 +3623,7 @@
     - https://github.com/openssl/openssl/commit/da343d0605c826ef197aceedc67e8e04f065f740
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4603
     - https://security.netapp.com/advisory/ntap-20240621-0001/
+    - https://ubuntu.com/security/notices/USN-6937-1
     - https://www.cve.org/CVERecord?id=CVE-2024-4603
     - https://www.openssl.org/news/secadv/20240516.txt
     PublishedDate: '2024-05-16T16:15:10.643Z'
@@ -3541,7 +3642,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-4741
     Title: 'openssl: Use After Free with SSL_free_buffers'
-    Description: A use-after-free vulnerability was found in OpenSSL. Calling the OpenSSL API SSL_free_buffers function may cause memory to be accessed that was previously freed in some situations.
+    Description: No description is available for this CVE.
     Severity: LOW
     VendorSeverity:
       cbl-mariner: 3
@@ -3555,6 +3656,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-4741
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4741
+    - https://ubuntu.com/security/notices/USN-6937-1
     - https://www.cve.org/CVERecord?id=CVE-2024-4741
     - https://www.openssl.org/news/secadv/20240528.txt
   - VulnerabilityID: CVE-2024-5535
@@ -3660,6 +3762,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-5535
     - https://openssl.org/news/secadv/20240627.txt
     - https://security.netapp.com/advisory/ntap-20240712-0005/
+    - https://ubuntu.com/security/notices/USN-6937-1
     - https://www.cve.org/CVERecord?id=CVE-2024-5535
     - https://www.openssl.org/news/secadv/20240627.txt
     PublishedDate: '2024-06-27T11:15:24.447Z'
@@ -3874,7 +3977,60 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36632
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:09.313Z'
-    LastModifiedDate: '2024-05-17T02:25:48.66Z'
+    LastModifiedDate: '2024-08-02T17:16:13.363Z'
+  - VulnerabilityID: CVE-2024-0397
+    PkgID: python-unversioned-command@3.9.18-3.el9_4.1.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18-3.el9_4.1?arch=noarch&distro=redhat-9.4
+      UID: 7f37e71c310352b8
+    InstalledVersion: 3.9.18-3.el9_4.1
+    Status: under_investigation
+    Layer:
+      Digest: sha256:188858f26ce5810bc3a7699886d00bac70a003f44ac575c40c497d84131c3078
+      DiffID: sha256:3dcb77d1cfb1311d2f9c6e1c42024c6d0f86f620207085d75edf45151b66a994
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0397
+    Title: 'cpython: python: Memory race condition in ssl.SSLContext certificate store methods'
+    Description: |-
+      A defect was discovered in the Python “ssl” module where there is a memory
+      race condition with the ssl.SSLContext methods “cert_store_stats()” and
+      “get_ca_certs()”. The race condition can be triggered if the methods are
+      called at the same time as certificates are loaded into the SSLContext,
+      such as during the TLS handshake with a certificate directory configured.
+      This issue is fixed in CPython 3.10.14, 3.11.9, 3.12.3, and 3.13.0a5.
+    Severity: LOW
+    CweIDs:
+    - CWE-362
+    VendorSeverity:
+      bitnami: 3
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 7.4
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/06/17/2
+    - https://access.redhat.com/security/cve/CVE-2024-0397
+    - https://github.com/python/cpython/commit/01c37f1d0714f5822d34063ca7180b595abf589d
+    - https://github.com/python/cpython/commit/29c97287d205bf2f410f4895ebce3f43b5160524
+    - https://github.com/python/cpython/commit/37324b421b72b7bc9934e27aba85d48d4773002e
+    - https://github.com/python/cpython/commit/542f3272f56f31ed04e74c40635a913fbc12d286
+    - https://github.com/python/cpython/commit/b228655c227b2ca298a8ffac44d14ce3d22f6faa
+    - https://github.com/python/cpython/commit/bce693111bff906ccf9281c22371331aaff766ab
+    - https://github.com/python/cpython/commit/bce693111bff906ccf9281c22371331aaff766ab (3.13)
+    - https://github.com/python/cpython/issues/114572
+    - https://github.com/python/cpython/pull/114573
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/BMAK5BCGKYWNJOACVUSLUF6SFGBIM4VP/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-0397
+    - https://ubuntu.com/security/notices/USN-6928-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-0397
+    PublishedDate: '2024-06-17T16:15:10.217Z'
+    LastModifiedDate: '2024-07-03T01:44:41.987Z'
   - VulnerabilityID: CVE-2024-4032
     VendorIDs:
     - RHSA-2024:4779
@@ -3929,6 +4085,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4032
     - https://security.netapp.com/advisory/ntap-20240726-0004/
     - https://ubuntu.com/security/notices/USN-6928-1
+    - https://ubuntu.com/security/notices/USN-6941-1
     - https://www.cve.org/CVERecord?id=CVE-2024-4032
     - https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xhtml
     - https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xhtml
@@ -4064,7 +4221,60 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36632
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:09.313Z'
-    LastModifiedDate: '2024-05-17T02:25:48.66Z'
+    LastModifiedDate: '2024-08-02T17:16:13.363Z'
+  - VulnerabilityID: CVE-2024-0397
+    PkgID: python3@3.9.18-3.el9_4.1.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.18-3.el9_4.1?arch=x86_64&distro=redhat-9.4
+      UID: 645273e9b2ac0eeb
+    InstalledVersion: 3.9.18-3.el9_4.1
+    Status: under_investigation
+    Layer:
+      Digest: sha256:188858f26ce5810bc3a7699886d00bac70a003f44ac575c40c497d84131c3078
+      DiffID: sha256:3dcb77d1cfb1311d2f9c6e1c42024c6d0f86f620207085d75edf45151b66a994
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0397
+    Title: 'cpython: python: Memory race condition in ssl.SSLContext certificate store methods'
+    Description: |-
+      A defect was discovered in the Python “ssl” module where there is a memory
+      race condition with the ssl.SSLContext methods “cert_store_stats()” and
+      “get_ca_certs()”. The race condition can be triggered if the methods are
+      called at the same time as certificates are loaded into the SSLContext,
+      such as during the TLS handshake with a certificate directory configured.
+      This issue is fixed in CPython 3.10.14, 3.11.9, 3.12.3, and 3.13.0a5.
+    Severity: LOW
+    CweIDs:
+    - CWE-362
+    VendorSeverity:
+      bitnami: 3
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 7.4
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/06/17/2
+    - https://access.redhat.com/security/cve/CVE-2024-0397
+    - https://github.com/python/cpython/commit/01c37f1d0714f5822d34063ca7180b595abf589d
+    - https://github.com/python/cpython/commit/29c97287d205bf2f410f4895ebce3f43b5160524
+    - https://github.com/python/cpython/commit/37324b421b72b7bc9934e27aba85d48d4773002e
+    - https://github.com/python/cpython/commit/542f3272f56f31ed04e74c40635a913fbc12d286
+    - https://github.com/python/cpython/commit/b228655c227b2ca298a8ffac44d14ce3d22f6faa
+    - https://github.com/python/cpython/commit/bce693111bff906ccf9281c22371331aaff766ab
+    - https://github.com/python/cpython/commit/bce693111bff906ccf9281c22371331aaff766ab (3.13)
+    - https://github.com/python/cpython/issues/114572
+    - https://github.com/python/cpython/pull/114573
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/BMAK5BCGKYWNJOACVUSLUF6SFGBIM4VP/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-0397
+    - https://ubuntu.com/security/notices/USN-6928-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-0397
+    PublishedDate: '2024-06-17T16:15:10.217Z'
+    LastModifiedDate: '2024-07-03T01:44:41.987Z'
   - VulnerabilityID: CVE-2024-4032
     VendorIDs:
     - RHSA-2024:4779
@@ -4119,6 +4329,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4032
     - https://security.netapp.com/advisory/ntap-20240726-0004/
     - https://ubuntu.com/security/notices/USN-6928-1
+    - https://ubuntu.com/security/notices/USN-6941-1
     - https://www.cve.org/CVERecord?id=CVE-2024-4032
     - https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xhtml
     - https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xhtml
@@ -4254,7 +4465,60 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36632
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:09.313Z'
-    LastModifiedDate: '2024-05-17T02:25:48.66Z'
+    LastModifiedDate: '2024-08-02T17:16:13.363Z'
+  - VulnerabilityID: CVE-2024-0397
+    PkgID: python3-libs@3.9.18-3.el9_4.1.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.18-3.el9_4.1?arch=x86_64&distro=redhat-9.4
+      UID: ce0a20b793e1921e
+    InstalledVersion: 3.9.18-3.el9_4.1
+    Status: under_investigation
+    Layer:
+      Digest: sha256:188858f26ce5810bc3a7699886d00bac70a003f44ac575c40c497d84131c3078
+      DiffID: sha256:3dcb77d1cfb1311d2f9c6e1c42024c6d0f86f620207085d75edf45151b66a994
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0397
+    Title: 'cpython: python: Memory race condition in ssl.SSLContext certificate store methods'
+    Description: |-
+      A defect was discovered in the Python “ssl” module where there is a memory
+      race condition with the ssl.SSLContext methods “cert_store_stats()” and
+      “get_ca_certs()”. The race condition can be triggered if the methods are
+      called at the same time as certificates are loaded into the SSLContext,
+      such as during the TLS handshake with a certificate directory configured.
+      This issue is fixed in CPython 3.10.14, 3.11.9, 3.12.3, and 3.13.0a5.
+    Severity: LOW
+    CweIDs:
+    - CWE-362
+    VendorSeverity:
+      bitnami: 3
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H
+        V3Score: 7.4
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/06/17/2
+    - https://access.redhat.com/security/cve/CVE-2024-0397
+    - https://github.com/python/cpython/commit/01c37f1d0714f5822d34063ca7180b595abf589d
+    - https://github.com/python/cpython/commit/29c97287d205bf2f410f4895ebce3f43b5160524
+    - https://github.com/python/cpython/commit/37324b421b72b7bc9934e27aba85d48d4773002e
+    - https://github.com/python/cpython/commit/542f3272f56f31ed04e74c40635a913fbc12d286
+    - https://github.com/python/cpython/commit/b228655c227b2ca298a8ffac44d14ce3d22f6faa
+    - https://github.com/python/cpython/commit/bce693111bff906ccf9281c22371331aaff766ab
+    - https://github.com/python/cpython/commit/bce693111bff906ccf9281c22371331aaff766ab (3.13)
+    - https://github.com/python/cpython/issues/114572
+    - https://github.com/python/cpython/pull/114573
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/BMAK5BCGKYWNJOACVUSLUF6SFGBIM4VP/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-0397
+    - https://ubuntu.com/security/notices/USN-6928-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-0397
+    PublishedDate: '2024-06-17T16:15:10.217Z'
+    LastModifiedDate: '2024-07-03T01:44:41.987Z'
   - VulnerabilityID: CVE-2024-4032
     VendorIDs:
     - RHSA-2024:4779
@@ -4309,6 +4573,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4032
     - https://security.netapp.com/advisory/ntap-20240726-0004/
     - https://ubuntu.com/security/notices/USN-6928-1
+    - https://ubuntu.com/security/notices/USN-6941-1
     - https://www.cve.org/CVERecord?id=CVE-2024-4032
     - https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xhtml
     - https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xhtml
@@ -4398,10 +4663,14 @@
     CweIDs:
     - CWE-94
     VendorSeverity:
+      bitnami: 3
       ghsa: 3
       photon: 3
       redhat: 3
     CVSS:
+      bitnami:
+        V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 8.8
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 8.8

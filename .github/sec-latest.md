@@ -50,7 +50,7 @@
 │                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-6197 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-6197 
 │                       │      ├ PublishedDate   : 2024-07-24T08:15:03.34Z 
-│                       │      ╰ LastModifiedDate: 2024-07-24T21:15:12.6Z 
+│                       │      ╰ LastModifiedDate: 2024-08-01T14:00:14.76Z 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2024-6874 
 │                       │      ├ PkgID           : curl@8.8.0-r0 
 │                       │      ├ PkgName         : curl 
@@ -98,7 +98,7 @@
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-6874 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6874 
 │                       │      ├ PublishedDate   : 2024-07-24T08:15:03.413Z 
-│                       │      ╰ LastModifiedDate: 2024-07-24T12:55:13.223Z 
+│                       │      ╰ LastModifiedDate: 2024-08-01T14:00:45.683Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2024-6197 
 │                       │      ├ PkgID           : libcurl@8.8.0-r0 
 │                       │      ├ PkgName         : libcurl 
@@ -147,7 +147,7 @@
 │                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-6197 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-6197 
 │                       │      ├ PublishedDate   : 2024-07-24T08:15:03.34Z 
-│                       │      ╰ LastModifiedDate: 2024-07-24T21:15:12.6Z 
+│                       │      ╰ LastModifiedDate: 2024-08-01T14:00:14.76Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2024-6874 
 │                       │      ├ PkgID           : libcurl@8.8.0-r0 
 │                       │      ├ PkgName         : libcurl 
@@ -195,7 +195,7 @@
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-6874 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6874 
 │                       │      ├ PublishedDate   : 2024-07-24T08:15:03.413Z 
-│                       │      ╰ LastModifiedDate: 2024-07-24T12:55:13.223Z 
+│                       │      ╰ LastModifiedDate: 2024-08-01T14:00:45.683Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2024-21147 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.3_p9-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
@@ -245,7 +245,9 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
-│                       │      │                  ╰ redhat     : 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           H/I:H/A:N 
 │                       │      │                           ╰ V3Score : 7.4 
@@ -256,14 +258,34 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2297963 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2297976 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2297977 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-4573.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21147.html 
-│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-4573.html 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21147 
-│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202407
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2297961 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2297962 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2297963 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2297976 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2297977 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21131 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21138 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21140 
+│                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21145 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21147 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21147.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21147 
+│                       │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-202407
 │                       │      │                  │       19-0008/ 
-│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-21147 
-│                       │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpujul202
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6929-1 
+│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6930-1 
+│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-6931-1 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-6932-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21147 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpujul202
 │                       │      │                          4.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:16.377Z 
 │                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.667Z 
@@ -313,10 +335,13 @@
 │                       │      │                    CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-200 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           L/I:L/A:N 
 │                       │      │                           ╰ V3Score : 4.8 
@@ -327,17 +352,37 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2297963 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2297976 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2297977 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-4573.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21140.html 
-│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-4573.html 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21140 
-│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202407
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2297961 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2297962 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2297963 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2297976 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2297977 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21131 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21138 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21140 
+│                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21145 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21147 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21140.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21140 
+│                       │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-202407
 │                       │      │                  │       19-0008/ 
-│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-21140 
-│                       │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpujul202
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6929-1 
+│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6930-1 
+│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-6931-1 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-6932-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21140 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpujul202
 │                       │      │                          4.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.043Z 
-│                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.4Z 
+│                       │      ╰ LastModifiedDate: 2024-08-01T13:46:27.193Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2024-21145 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.3_p9-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
@@ -386,7 +431,9 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           L/I:L/A:N 
 │                       │      │                           ╰ V3Score : 4.8 
@@ -397,14 +444,34 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2297963 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2297976 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2297977 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-4573.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21145.html 
-│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-4573.html 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21145 
-│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202407
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2297961 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2297962 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2297963 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2297976 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2297977 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21131 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21138 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21140 
+│                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21145 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21147 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21145.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21145 
+│                       │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-202407
 │                       │      │                  │       19-0008/ 
-│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-21145 
-│                       │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpujul202
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6929-1 
+│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6930-1 
+│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-6931-1 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-6932-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21145 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpujul202
 │                       │      │                          4.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.993Z 
 │                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.58Z 
@@ -453,7 +520,9 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:L/A:N 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -464,14 +533,34 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2297963 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2297976 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2297977 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-4573.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21131.html 
-│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-4573.html 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21131 
-│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202407
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2297961 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2297962 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2297963 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2297976 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2297977 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21131 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21138 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21140 
+│                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21145 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21147 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21131.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21131 
+│                       │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-202407
 │                       │      │                  │       19-0008/ 
-│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-21131 
-│                       │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpujul202
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6929-1 
+│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6930-1 
+│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-6931-1 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-6932-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21131 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpujul202
 │                       │      │                          4.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:13.21Z 
 │                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.18Z 
@@ -521,7 +610,9 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:L 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -532,14 +623,34 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2297963 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2297976 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2297977 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-4573.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21138.html 
-│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-4573.html 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21138 
-│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202407
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2297961 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2297962 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2297963 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2297976 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2297977 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21131 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21138 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21140 
+│                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21145 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21147 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21138.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21138 
+│                       │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-202407
 │                       │      │                  │       19-0008/ 
-│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-21138 
-│                       │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpujul202
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6929-1 
+│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6930-1 
+│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-6931-1 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-6932-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21138 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpujul202
 │                       │      │                          4.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:14.62Z 
 │                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.29Z 
@@ -592,7 +703,9 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
-│                       │      │                  ╰ redhat     : 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           H/I:H/A:N 
 │                       │      │                           ╰ V3Score : 7.4 
@@ -603,14 +716,34 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2297963 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2297976 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2297977 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-4573.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21147.html 
-│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-4573.html 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21147 
-│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202407
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2297961 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2297962 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2297963 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2297976 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2297977 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21131 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21138 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21140 
+│                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21145 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21147 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21147.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21147 
+│                       │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-202407
 │                       │      │                  │       19-0008/ 
-│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-21147 
-│                       │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpujul202
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6929-1 
+│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6930-1 
+│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-6931-1 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-6932-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21147 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpujul202
 │                       │      │                          4.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:16.377Z 
 │                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.667Z 
@@ -660,10 +793,13 @@
 │                       │      │                    CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-200 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           L/I:L/A:N 
 │                       │      │                           ╰ V3Score : 4.8 
@@ -674,17 +810,37 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2297963 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2297976 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2297977 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-4573.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21140.html 
-│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-4573.html 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21140 
-│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202407
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2297961 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2297962 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2297963 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2297976 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2297977 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21131 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21138 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21140 
+│                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21145 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21147 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21140.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21140 
+│                       │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-202407
 │                       │      │                  │       19-0008/ 
-│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-21140 
-│                       │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpujul202
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6929-1 
+│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6930-1 
+│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-6931-1 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-6932-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21140 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpujul202
 │                       │      │                          4.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.043Z 
-│                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.4Z 
+│                       │      ╰ LastModifiedDate: 2024-08-01T13:46:27.193Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2024-21145 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.3_p9-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
@@ -733,7 +889,9 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           L/I:L/A:N 
 │                       │      │                           ╰ V3Score : 4.8 
@@ -744,14 +902,34 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2297963 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2297976 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2297977 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-4573.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21145.html 
-│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-4573.html 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21145 
-│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202407
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2297961 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2297962 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2297963 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2297976 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2297977 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21131 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21138 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21140 
+│                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21145 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21147 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21145.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21145 
+│                       │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-202407
 │                       │      │                  │       19-0008/ 
-│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-21145 
-│                       │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpujul202
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6929-1 
+│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6930-1 
+│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-6931-1 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-6932-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21145 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpujul202
 │                       │      │                          4.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.993Z 
 │                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.58Z 
@@ -800,7 +978,9 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:L/A:N 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -811,14 +991,34 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2297963 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2297976 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2297977 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-4573.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21131.html 
-│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-4573.html 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21131 
-│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202407
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2297961 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2297962 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2297963 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2297976 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2297977 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21131 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21138 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21140 
+│                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21145 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2024-21147 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21131.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21131 
+│                       │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-202407
 │                       │      │                  │       19-0008/ 
-│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-21131 
-│                       │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpujul202
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6929-1 
+│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6930-1 
+│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-6931-1 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-6932-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21131 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpujul202
 │                       │      │                          4.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:13.21Z 
 │                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.18Z 
@@ -868,7 +1068,9 @@
 │                              ├ VendorSeverity   ╭ alma       : 3 
 │                              │                  ├ amazon     : 3 
 │                              │                  ├ oracle-oval: 3 
-│                              │                  ╰ redhat     : 2 
+│                              │                  ├ redhat     : 2 
+│                              │                  ├ rocky      : 3 
+│                              │                  ╰ ubuntu     : 2 
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:L 
 │                              │                           ╰ V3Score : 3.7 
@@ -879,14 +1081,34 @@
 │                              │                  ├ [4] : https://bugzilla.redhat.com/2297963 
 │                              │                  ├ [5] : https://bugzilla.redhat.com/2297976 
 │                              │                  ├ [6] : https://bugzilla.redhat.com/2297977 
-│                              │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-4573.html 
-│                              │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21138.html 
-│                              │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-4573.html 
-│                              │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21138 
-│                              │                  ├ [11]: https://security.netapp.com/advisory/ntap-202407
+│                              │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2297961 
+│                              │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2297962 
+│                              │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2297963 
+│                              │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2297976 
+│                              │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2297977 
+│                              │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                              │                  │       VE-2024-21131 
+│                              │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                              │                  │       VE-2024-21138 
+│                              │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                              │                  │       VE-2024-21140 
+│                              │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                              │                  │       VE-2024-21145 
+│                              │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                              │                  │       VE-2024-21147 
+│                              │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
+│                              │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
+│                              │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21138.html 
+│                              │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
+│                              │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21138 
+│                              │                  ├ [22]: https://security.netapp.com/advisory/ntap-202407
 │                              │                  │       19-0008/ 
-│                              │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-21138 
-│                              │                  ╰ [13]: https://www.oracle.com/security-alerts/cpujul202
+│                              │                  ├ [23]: https://ubuntu.com/security/notices/USN-6929-1 
+│                              │                  ├ [24]: https://ubuntu.com/security/notices/USN-6930-1 
+│                              │                  ├ [25]: https://ubuntu.com/security/notices/USN-6931-1 
+│                              │                  ├ [26]: https://ubuntu.com/security/notices/USN-6932-1 
+│                              │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21138 
+│                              │                  ╰ [28]: https://www.oracle.com/security-alerts/cpujul202
 │                              │                          4.html 
 │                              ├ PublishedDate   : 2024-07-16T23:15:14.62Z 
 │                              ╰ LastModifiedDate: 2024-07-19T14:15:05.29Z 
