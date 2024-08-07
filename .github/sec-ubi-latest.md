@@ -389,10 +389,11 @@
 │                       │      │                   condition fails silently and is therefore not easily
 │                       │      │                   detected by an application. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ photon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           H/I:N/A:N 
 │                       │      │                           ╰ V3Score : 7.5 
@@ -1170,9 +1171,10 @@
 │                       │      │                   confidential GSS krb5 wrap token, causing the unwrapped
 │                       │      │                   token to appear truncated to the application. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:H/A:H 
 │                       │      │                           ╰ V3Score : 7.4 
@@ -1205,9 +1207,10 @@
 │                       │      │                   handling by sending message tokens with invalid length
 │                       │      │                   fields. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 6.5 
@@ -1292,6 +1295,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
 │                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 1 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
@@ -1391,10 +1395,11 @@
 │                       │      │                   condition fails silently and is therefore not easily
 │                       │      │                   detected by an application. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ photon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           H/I:N/A:N 
 │                       │      │                           ╰ V3Score : 7.5 
@@ -3477,7 +3482,8 @@
 │                       │      │                   The OpenSSL 3.0 and 3.1 FIPS providers are affected by this
 │                       │      │                   issue. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -3520,7 +3526,8 @@
 │                       │      ├ Title           : openssl: Use After Free with SSL_free_buffers 
 │                       │      ├ Description     : No description is available for this CVE. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -4461,7 +4468,8 @@
 │                       │      │                   The OpenSSL 3.0 and 3.1 FIPS providers are affected by this
 │                       │      │                   issue. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -4504,7 +4512,8 @@
 │                       │      ├ Title           : openssl: Use After Free with SSL_free_buffers 
 │                       │      ├ Description     : No description is available for this CVE. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -4975,7 +4984,48 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
 │                       │      ├ PublishedDate   : 2023-06-25T18:15:09.313Z 
 │                       │      ╰ LastModifiedDate: 2024-08-02T17:16:13.363Z 
-│                       ├ [72] ╭ VulnerabilityID : CVE-2024-0397 
+│                       ├ [72] ╭ VulnerabilityID : CVE-2024-6923 
+│                       │      ├ PkgID           : python-unversioned-command@3.9.18-3.el9_4.1.noarch 
+│                       │      ├ PkgName         : python-unversioned-command 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18
+│                       │      │                  │       -3.el9_4.1?arch=noarch&distro=redhat-9.4 
+│                       │      │                  ╰ UID : 7f37e71c310352b8 
+│                       │      ├ InstalledVersion: 3.9.18-3.el9_4.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:188858f26ce5810bc3a7699886d00bac70a003f
+│                       │      │                  │         44ac575c40c497d84131c3078 
+│                       │      │                  ╰ DiffID: sha256:3dcb77d1cfb1311d2f9c6e1c42024c6d0f86f62
+│                       │      │                            0207085d75edf45151b66a994 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-6923 
+│                       │      ├ Title           : cpython: python: email module doesn't properly quotes
+│                       │      │                   newlines in email headers, allowing header injection 
+│                       │      ├ Description     : There is a MEDIUM severity vulnerability affecting
+│                       │      │                   CPython.
+│                       │      │                   
+│                       │      │                   The 
+│                       │      │                   email module didn’t properly quote newlines for email
+│                       │      │                   headers when 
+│                       │      │                   serializing an email message allowing for header injection
+│                       │      │                   when an email
+│                       │      │                    is serialized. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-94 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:
+│                       │      │                           │           H/I:H/A:N 
+│                       │      │                           ╰ V3Score : 6.8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-6923 
+│                       │      │                  ├ [1]: https://github.com/python/cpython/issues/121650 
+│                       │      │                  ├ [2]: https://github.com/python/cpython/pull/122233 
+│                       │      │                  ├ [3]: https://mail.python.org/archives/list/security-an
+│                       │      │                  │      nounce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKI
+│                       │      │                  │      SRW/ 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-6923 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-6923 
+│                       │      ├ PublishedDate   : 2024-08-01T14:15:03.647Z 
+│                       │      ╰ LastModifiedDate: 2024-08-01T19:36:19.627Z 
+│                       ├ [73] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.18-3.el9_4.1.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18
@@ -5005,9 +5055,11 @@
 │                       │      │                   3.13.0a5. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-362 
-│                       │      ├ VendorSeverity   ╭ bitnami: 3 
-│                       │      │                  ├ redhat : 1 
-│                       │      │                  ╰ ubuntu : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ bitnami    : 3 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │      │                  │         │           :H/I:N/A:H 
 │                       │      │                  │         ╰ V3Score : 7.4 
@@ -5041,7 +5093,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
 │                       │      ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
 │                       │      ╰ LastModifiedDate: 2024-07-03T01:44:41.987Z 
-│                       ├ [73] ╭ VulnerabilityID : CVE-2024-4032 
+│                       ├ [74] ╭ VulnerabilityID : CVE-2024-4032 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:4779 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.18-3.el9_4.1.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
@@ -5119,7 +5171,7 @@
 │                       │      │                          al-registry/iana-ipv6-special-registry.xhtml 
 │                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
 │                       │      ╰ LastModifiedDate: 2024-07-28T14:15:10.783Z 
-│                       ├ [74] ╭ VulnerabilityID : CVE-2021-23336 
+│                       ├ [75] ╭ VulnerabilityID : CVE-2021-23336 
 │                       │      ├ PkgID           : python3@3.9.18-3.el9_4.1.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.18-3.el9_4.1?arch=x86
@@ -5278,7 +5330,7 @@
 │                       │      │                          1.html 
 │                       │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:30:51.953Z 
-│                       ├ [75] ╭ VulnerabilityID : CVE-2023-36632 
+│                       ├ [76] ╭ VulnerabilityID : CVE-2023-36632 
 │                       │      ├ PkgID           : python3@3.9.18-3.el9_4.1.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.18-3.el9_4.1?arch=x86
@@ -5333,7 +5385,48 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
 │                       │      ├ PublishedDate   : 2023-06-25T18:15:09.313Z 
 │                       │      ╰ LastModifiedDate: 2024-08-02T17:16:13.363Z 
-│                       ├ [76] ╭ VulnerabilityID : CVE-2024-0397 
+│                       ├ [77] ╭ VulnerabilityID : CVE-2024-6923 
+│                       │      ├ PkgID           : python3@3.9.18-3.el9_4.1.x86_64 
+│                       │      ├ PkgName         : python3 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.18-3.el9_4.1?arch=x86
+│                       │      │                  │       _64&distro=redhat-9.4 
+│                       │      │                  ╰ UID : 645273e9b2ac0eeb 
+│                       │      ├ InstalledVersion: 3.9.18-3.el9_4.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:188858f26ce5810bc3a7699886d00bac70a003f
+│                       │      │                  │         44ac575c40c497d84131c3078 
+│                       │      │                  ╰ DiffID: sha256:3dcb77d1cfb1311d2f9c6e1c42024c6d0f86f62
+│                       │      │                            0207085d75edf45151b66a994 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-6923 
+│                       │      ├ Title           : cpython: python: email module doesn't properly quotes
+│                       │      │                   newlines in email headers, allowing header injection 
+│                       │      ├ Description     : There is a MEDIUM severity vulnerability affecting
+│                       │      │                   CPython.
+│                       │      │                   
+│                       │      │                   The 
+│                       │      │                   email module didn’t properly quote newlines for email
+│                       │      │                   headers when 
+│                       │      │                   serializing an email message allowing for header injection
+│                       │      │                   when an email
+│                       │      │                    is serialized. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-94 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:
+│                       │      │                           │           H/I:H/A:N 
+│                       │      │                           ╰ V3Score : 6.8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-6923 
+│                       │      │                  ├ [1]: https://github.com/python/cpython/issues/121650 
+│                       │      │                  ├ [2]: https://github.com/python/cpython/pull/122233 
+│                       │      │                  ├ [3]: https://mail.python.org/archives/list/security-an
+│                       │      │                  │      nounce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKI
+│                       │      │                  │      SRW/ 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-6923 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-6923 
+│                       │      ├ PublishedDate   : 2024-08-01T14:15:03.647Z 
+│                       │      ╰ LastModifiedDate: 2024-08-01T19:36:19.627Z 
+│                       ├ [78] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python3@3.9.18-3.el9_4.1.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.18-3.el9_4.1?arch=x86
@@ -5363,9 +5456,11 @@
 │                       │      │                   3.13.0a5. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-362 
-│                       │      ├ VendorSeverity   ╭ bitnami: 3 
-│                       │      │                  ├ redhat : 1 
-│                       │      │                  ╰ ubuntu : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ bitnami    : 3 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │      │                  │         │           :H/I:N/A:H 
 │                       │      │                  │         ╰ V3Score : 7.4 
@@ -5399,7 +5494,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
 │                       │      ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
 │                       │      ╰ LastModifiedDate: 2024-07-03T01:44:41.987Z 
-│                       ├ [77] ╭ VulnerabilityID : CVE-2024-4032 
+│                       ├ [79] ╭ VulnerabilityID : CVE-2024-4032 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:4779 
 │                       │      ├ PkgID           : python3@3.9.18-3.el9_4.1.x86_64 
 │                       │      ├ PkgName         : python3 
@@ -5477,7 +5572,7 @@
 │                       │      │                          al-registry/iana-ipv6-special-registry.xhtml 
 │                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
 │                       │      ╰ LastModifiedDate: 2024-07-28T14:15:10.783Z 
-│                       ├ [78] ╭ VulnerabilityID : CVE-2021-23336 
+│                       ├ [80] ╭ VulnerabilityID : CVE-2021-23336 
 │                       │      ├ PkgID           : python3-libs@3.9.18-3.el9_4.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.18-3.el9_4.1?arc
@@ -5636,7 +5731,7 @@
 │                       │      │                          1.html 
 │                       │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:30:51.953Z 
-│                       ├ [79] ╭ VulnerabilityID : CVE-2023-36632 
+│                       ├ [81] ╭ VulnerabilityID : CVE-2023-36632 
 │                       │      ├ PkgID           : python3-libs@3.9.18-3.el9_4.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.18-3.el9_4.1?arc
@@ -5691,7 +5786,48 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-36632 
 │                       │      ├ PublishedDate   : 2023-06-25T18:15:09.313Z 
 │                       │      ╰ LastModifiedDate: 2024-08-02T17:16:13.363Z 
-│                       ├ [80] ╭ VulnerabilityID : CVE-2024-0397 
+│                       ├ [82] ╭ VulnerabilityID : CVE-2024-6923 
+│                       │      ├ PkgID           : python3-libs@3.9.18-3.el9_4.1.x86_64 
+│                       │      ├ PkgName         : python3-libs 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.18-3.el9_4.1?arc
+│                       │      │                  │       h=x86_64&distro=redhat-9.4 
+│                       │      │                  ╰ UID : ce0a20b793e1921e 
+│                       │      ├ InstalledVersion: 3.9.18-3.el9_4.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:188858f26ce5810bc3a7699886d00bac70a003f
+│                       │      │                  │         44ac575c40c497d84131c3078 
+│                       │      │                  ╰ DiffID: sha256:3dcb77d1cfb1311d2f9c6e1c42024c6d0f86f62
+│                       │      │                            0207085d75edf45151b66a994 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-6923 
+│                       │      ├ Title           : cpython: python: email module doesn't properly quotes
+│                       │      │                   newlines in email headers, allowing header injection 
+│                       │      ├ Description     : There is a MEDIUM severity vulnerability affecting
+│                       │      │                   CPython.
+│                       │      │                   
+│                       │      │                   The 
+│                       │      │                   email module didn’t properly quote newlines for email
+│                       │      │                   headers when 
+│                       │      │                   serializing an email message allowing for header injection
+│                       │      │                   when an email
+│                       │      │                    is serialized. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-94 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:
+│                       │      │                           │           H/I:H/A:N 
+│                       │      │                           ╰ V3Score : 6.8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-6923 
+│                       │      │                  ├ [1]: https://github.com/python/cpython/issues/121650 
+│                       │      │                  ├ [2]: https://github.com/python/cpython/pull/122233 
+│                       │      │                  ├ [3]: https://mail.python.org/archives/list/security-an
+│                       │      │                  │      nounce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKI
+│                       │      │                  │      SRW/ 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-6923 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-6923 
+│                       │      ├ PublishedDate   : 2024-08-01T14:15:03.647Z 
+│                       │      ╰ LastModifiedDate: 2024-08-01T19:36:19.627Z 
+│                       ├ [83] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python3-libs@3.9.18-3.el9_4.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.18-3.el9_4.1?arc
@@ -5721,9 +5857,11 @@
 │                       │      │                   3.13.0a5. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-362 
-│                       │      ├ VendorSeverity   ╭ bitnami: 3 
-│                       │      │                  ├ redhat : 1 
-│                       │      │                  ╰ ubuntu : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ bitnami    : 3 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                       │      │                  │         │           :H/I:N/A:H 
 │                       │      │                  │         ╰ V3Score : 7.4 
@@ -5757,7 +5895,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
 │                       │      ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
 │                       │      ╰ LastModifiedDate: 2024-07-03T01:44:41.987Z 
-│                       ├ [81] ╭ VulnerabilityID : CVE-2024-4032 
+│                       ├ [84] ╭ VulnerabilityID : CVE-2024-4032 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:4779 
 │                       │      ├ PkgID           : python3-libs@3.9.18-3.el9_4.1.x86_64 
 │                       │      ├ PkgName         : python3-libs 
@@ -5835,7 +5973,7 @@
 │                       │      │                          al-registry/iana-ipv6-special-registry.xhtml 
 │                       │      ├ PublishedDate   : 2024-06-17T15:15:52.517Z 
 │                       │      ╰ LastModifiedDate: 2024-07-28T14:15:10.783Z 
-│                       ├ [82] ╭ VulnerabilityID : CVE-2021-3572 
+│                       ├ [85] ╭ VulnerabilityID : CVE-2021-3572 
 │                       │      ├ PkgID           : python3-pip-wheel@21.2.3-8.el9.noarch 
 │                       │      ├ PkgName         : python3-pip-wheel 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.2.3-8.el9?ar
@@ -5911,7 +6049,7 @@
 │                       │      │                          2.html 
 │                       │      ├ PublishedDate   : 2021-11-10T18:15:09.51Z 
 │                       │      ╰ LastModifiedDate: 2024-06-21T19:15:20.04Z 
-│                       ├ [83] ╭ VulnerabilityID : CVE-2024-6345 
+│                       ├ [86] ╭ VulnerabilityID : CVE-2024-6345 
 │                       │      ├ PkgID           : python3-setuptools-wheel@53.0.0-12.el9.noarch 
 │                       │      ├ PkgName         : python3-setuptools-wheel 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-setuptools-wheel@53.0.0-1
@@ -5939,7 +6077,8 @@
 │                       │      │                    is fixed in version 70.0. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-94 
-│                       │      ├ VendorSeverity   ╭ bitnami: 3 
+│                       │      ├ VendorSeverity   ╭ amazon : 3 
+│                       │      │                  ├ bitnami: 3 
 │                       │      │                  ├ ghsa   : 3 
 │                       │      │                  ├ photon : 3 
 │                       │      │                  ╰ redhat : 3 
@@ -5963,7 +6102,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6345 
 │                       │      ├ PublishedDate   : 2024-07-15T01:15:01.73Z 
 │                       │      ╰ LastModifiedDate: 2024-07-15T13:00:34.853Z 
-│                       ├ [84] ╭ VulnerabilityID : CVE-2023-36191 
+│                       ├ [87] ╭ VulnerabilityID : CVE-2023-36191 
 │                       │      ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x
@@ -5995,7 +6134,7 @@
 │                       │      │                  ╰ [3]: https://www.sqlite.org/forum/forumpost/19f55ef73b 
 │                       │      ├ PublishedDate   : 2023-06-23T02:15:09.597Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T04:16:25.153Z 
-│                       ├ [85] ╭ VulnerabilityID : CVE-2024-0232 
+│                       ├ [88] ╭ VulnerabilityID : CVE-2024-0232 
 │                       │      ├ PkgID           : sqlite-libs@3.34.1-7.el9_3.x86_64 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-7.el9_3?arch=x
@@ -6041,7 +6180,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-0232 
 │                       │      ├ PublishedDate   : 2024-01-16T14:15:48.327Z 
 │                       │      ╰ LastModifiedDate: 2024-03-15T11:15:08.56Z 
-│                       ├ [86] ╭ VulnerabilityID : CVE-2021-3997 
+│                       ├ [89] ╭ VulnerabilityID : CVE-2021-3997 
 │                       │      ├ PkgID           : systemd-libs@252-32.el9_4.x86_64 
 │                       │      ├ PkgName         : systemd-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/systemd-libs@252-32.el9_4?arch=x8
@@ -6087,7 +6226,7 @@
 │                       │      │                         01/10/2 
 │                       │      ├ PublishedDate   : 2022-08-23T20:15:08.67Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:15.95Z 
-│                       ├ [87] ╭ VulnerabilityID : CVE-2005-2541 
+│                       ├ [90] ╭ VulnerabilityID : CVE-2005-2541 
 │                       │      ├ PkgID           : tar@1.34-6.el9_1.x86_64 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-6.el9_1?arch=x86_64&dist
@@ -6123,7 +6262,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2005-2541 
 │                       │      ├ PublishedDate   : 2005-08-10T04:00:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T01:57:39.453Z 
-│                       ╰ [88] ╭ VulnerabilityID : CVE-2023-39804 
+│                       ╰ [91] ╭ VulnerabilityID : CVE-2023-39804 
 │                              ├ PkgID           : tar@1.34-6.el9_1.x86_64 
 │                              ├ PkgName         : tar 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-6.el9_1?arch=x86_64&dist
