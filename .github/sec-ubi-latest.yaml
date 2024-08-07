@@ -303,6 +303,7 @@
     Severity: MEDIUM
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 3
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -882,6 +883,7 @@
     Severity: MEDIUM
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -915,6 +917,7 @@
     Severity: MEDIUM
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -997,6 +1000,7 @@
     VendorSeverity:
       alma: 1
       amazon: 2
+      cbl-mariner: 3
       oracle-oval: 1
       photon: 2
       redhat: 1
@@ -1081,6 +1085,7 @@
     Severity: MEDIUM
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 3
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -2857,6 +2862,7 @@
       The OpenSSL 3.0 and 3.1 FIPS providers are affected by this issue.
     Severity: LOW
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 1
@@ -2896,6 +2902,7 @@
     Description: No description is available for this CVE.
     Severity: LOW
     VendorSeverity:
+      amazon: 2
       cbl-mariner: 3
       photon: 2
       redhat: 1
@@ -3606,6 +3613,7 @@
       The OpenSSL 3.0 and 3.1 FIPS providers are affected by this issue.
     Severity: LOW
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 1
@@ -3645,6 +3653,7 @@
     Description: No description is available for this CVE.
     Severity: LOW
     VendorSeverity:
+      amazon: 2
       cbl-mariner: 3
       photon: 2
       redhat: 1
@@ -3978,6 +3987,45 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:09.313Z'
     LastModifiedDate: '2024-08-02T17:16:13.363Z'
+  - VulnerabilityID: CVE-2024-6923
+    PkgID: python-unversioned-command@3.9.18-3.el9_4.1.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18-3.el9_4.1?arch=noarch&distro=redhat-9.4
+      UID: 7f37e71c310352b8
+    InstalledVersion: 3.9.18-3.el9_4.1
+    Status: affected
+    Layer:
+      Digest: sha256:188858f26ce5810bc3a7699886d00bac70a003f44ac575c40c497d84131c3078
+      DiffID: sha256:3dcb77d1cfb1311d2f9c6e1c42024c6d0f86f620207085d75edf45151b66a994
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6923
+    Title: 'cpython: python: email module doesn''t properly quotes newlines in email headers, allowing header injection'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+      The 
+      email module didn’t properly quote newlines for email headers when 
+      serializing an email message allowing for header injection when an email
+       is serialized.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-6923
+    - https://github.com/python/cpython/issues/121650
+    - https://github.com/python/cpython/pull/122233
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKISRW/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6923
+    - https://www.cve.org/CVERecord?id=CVE-2024-6923
+    PublishedDate: '2024-08-01T14:15:03.647Z'
+    LastModifiedDate: '2024-08-01T19:36:19.627Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python-unversioned-command@3.9.18-3.el9_4.1.noarch
     PkgName: python-unversioned-command
@@ -4003,7 +4051,9 @@
     CweIDs:
     - CWE-362
     VendorSeverity:
+      amazon: 2
       bitnami: 3
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4222,6 +4272,45 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:09.313Z'
     LastModifiedDate: '2024-08-02T17:16:13.363Z'
+  - VulnerabilityID: CVE-2024-6923
+    PkgID: python3@3.9.18-3.el9_4.1.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.18-3.el9_4.1?arch=x86_64&distro=redhat-9.4
+      UID: 645273e9b2ac0eeb
+    InstalledVersion: 3.9.18-3.el9_4.1
+    Status: affected
+    Layer:
+      Digest: sha256:188858f26ce5810bc3a7699886d00bac70a003f44ac575c40c497d84131c3078
+      DiffID: sha256:3dcb77d1cfb1311d2f9c6e1c42024c6d0f86f620207085d75edf45151b66a994
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6923
+    Title: 'cpython: python: email module doesn''t properly quotes newlines in email headers, allowing header injection'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+      The 
+      email module didn’t properly quote newlines for email headers when 
+      serializing an email message allowing for header injection when an email
+       is serialized.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-6923
+    - https://github.com/python/cpython/issues/121650
+    - https://github.com/python/cpython/pull/122233
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKISRW/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6923
+    - https://www.cve.org/CVERecord?id=CVE-2024-6923
+    PublishedDate: '2024-08-01T14:15:03.647Z'
+    LastModifiedDate: '2024-08-01T19:36:19.627Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python3@3.9.18-3.el9_4.1.x86_64
     PkgName: python3
@@ -4247,7 +4336,9 @@
     CweIDs:
     - CWE-362
     VendorSeverity:
+      amazon: 2
       bitnami: 3
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4466,6 +4557,45 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-36632
     PublishedDate: '2023-06-25T18:15:09.313Z'
     LastModifiedDate: '2024-08-02T17:16:13.363Z'
+  - VulnerabilityID: CVE-2024-6923
+    PkgID: python3-libs@3.9.18-3.el9_4.1.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.18-3.el9_4.1?arch=x86_64&distro=redhat-9.4
+      UID: ce0a20b793e1921e
+    InstalledVersion: 3.9.18-3.el9_4.1
+    Status: affected
+    Layer:
+      Digest: sha256:188858f26ce5810bc3a7699886d00bac70a003f44ac575c40c497d84131c3078
+      DiffID: sha256:3dcb77d1cfb1311d2f9c6e1c42024c6d0f86f620207085d75edf45151b66a994
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6923
+    Title: 'cpython: python: email module doesn''t properly quotes newlines in email headers, allowing header injection'
+    Description: |-
+      There is a MEDIUM severity vulnerability affecting CPython.
+
+      The 
+      email module didn’t properly quote newlines for email headers when 
+      serializing an email message allowing for header injection when an email
+       is serialized.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-94
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-6923
+    - https://github.com/python/cpython/issues/121650
+    - https://github.com/python/cpython/pull/122233
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/QH3BUOE2DYQBWP7NAQ7UNHPPOELKISRW/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-6923
+    - https://www.cve.org/CVERecord?id=CVE-2024-6923
+    PublishedDate: '2024-08-01T14:15:03.647Z'
+    LastModifiedDate: '2024-08-01T19:36:19.627Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python3-libs@3.9.18-3.el9_4.1.x86_64
     PkgName: python3-libs
@@ -4491,7 +4621,9 @@
     CweIDs:
     - CWE-362
     VendorSeverity:
+      amazon: 2
       bitnami: 3
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4663,6 +4795,7 @@
     CweIDs:
     - CWE-94
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       ghsa: 3
       photon: 3
