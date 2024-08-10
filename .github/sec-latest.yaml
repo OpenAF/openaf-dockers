@@ -217,7 +217,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.almalinux.org/8/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21147.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -282,7 +282,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.almalinux.org/8/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21140.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -345,7 +345,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.almalinux.org/8/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21145.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -408,7 +408,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.almalinux.org/8/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21131.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -471,7 +471,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.almalinux.org/8/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21138.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -534,7 +534,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.almalinux.org/8/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21147.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -599,7 +599,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.almalinux.org/8/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21140.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -662,7 +662,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.almalinux.org/8/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21145.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -725,7 +725,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.almalinux.org/8/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21131.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -788,7 +788,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/9/ALSA-2024-4573.html
+    - https://errata.almalinux.org/8/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21138.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
