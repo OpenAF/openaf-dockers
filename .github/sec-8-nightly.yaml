@@ -1,10 +1,6 @@
-ojob.io/sec/genSecBadge: ''
-image: openaf/oaf:8-nightly
-file: .github/sec-8-nightly.svg
-reportFile: .github/sec-8-nightly.yaml
-init: {}
-msg: Producing a summary of the results...
-__key: report
-level: info
-options: {}
-__format: pm
+- Target: openaf/oaf:8-nightly (alpine 3.20.2)
+  Class: os-pkgs
+  Type: alpine
+- Target: Java
+  Class: lang-pkgs
+  Type: jar
