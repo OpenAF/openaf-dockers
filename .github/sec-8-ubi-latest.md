@@ -372,7 +372,9 @@
 │                       │      │                  ├ [2]: https://github.com/libexpat/libexpat/issues/887 
 │                       │      │                  ├ [3]: https://github.com/libexpat/libexpat/pull/890 
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-45490 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-45490 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7000-1 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7001-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-45490 
 │                       │      ├ PublishedDate   : 2024-08-30T03:15:03.757Z 
 │                       │      ╰ LastModifiedDate: 2024-09-04T14:28:19.313Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2024-45491 
@@ -411,7 +413,9 @@
 │                       │      │                  ├ [2]: https://github.com/libexpat/libexpat/issues/888 
 │                       │      │                  ├ [3]: https://github.com/libexpat/libexpat/pull/891 
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-45491 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-45491 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7000-1 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7001-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-45491 
 │                       │      ├ PublishedDate   : 2024-08-30T03:15:03.85Z 
 │                       │      ╰ LastModifiedDate: 2024-09-04T14:28:33.953Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2024-45492 
@@ -451,7 +455,8 @@
 │                       │      │                  ├ [2]: https://github.com/libexpat/libexpat/issues/889 
 │                       │      │                  ├ [3]: https://github.com/libexpat/libexpat/pull/892 
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-45492 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-45492 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7000-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-45492 
 │                       │      ├ PublishedDate   : 2024-08-30T03:15:03.93Z 
 │                       │      ╰ LastModifiedDate: 2024-09-04T14:28:41.76Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2023-4156 
@@ -1128,7 +1133,7 @@
 │                       │      │                   xmlHTMLPrintFileContext in xmllint.c. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ╰ redhat     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -3425,7 +3430,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-200 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
-│                       │      │                  ├ azure      : 4 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 4 
 │                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 1 
@@ -4410,7 +4415,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-200 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
-│                       │      │                  ├ azure      : 4 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 4 
 │                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 1 
@@ -4754,7 +4759,8 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ nvd   : 3 
-│                       │      │                  ╰ redhat: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
@@ -4896,7 +4902,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -4964,7 +4970,8 @@
 │                       │      ├ VendorSeverity   ╭ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ nvd        : 3 
-│                       │      │                  ╰ redhat     : 1 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
@@ -5223,7 +5230,8 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ nvd   : 3 
-│                       │      │                  ╰ redhat: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
@@ -5365,7 +5373,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5433,7 +5441,8 @@
 │                       │      ├ VendorSeverity   ╭ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ nvd        : 3 
-│                       │      │                  ╰ redhat     : 1 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
@@ -5692,7 +5701,8 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ nvd   : 3 
-│                       │      │                  ╰ redhat: 2 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
@@ -5834,7 +5844,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5902,7 +5912,8 @@
 │                       │      ├ VendorSeverity   ╭ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ nvd        : 3 
-│                       │      │                  ╰ redhat     : 1 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
