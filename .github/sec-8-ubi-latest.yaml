@@ -285,13 +285,16 @@
     PublishedDate: '2024-07-31T08:15:02.657Z'
     LastModifiedDate: '2024-08-12T17:30:51.88Z'
   - VulnerabilityID: CVE-2024-45490
+    VendorIDs:
+    - RHSA-2024:6754
     PkgID: expat@2.5.0-2.el9_4.x86_64
     PkgName: expat
     PkgIdentifier:
       PURL: pkg:rpm/redhat/expat@2.5.0-2.el9_4?arch=x86_64&distro=redhat-9.4
       UID: bac40d6c4b0e1564
     InstalledVersion: 2.5.0-2.el9_4
-    Status: will_not_fix
+    FixedVersion: 2.5.0-2.el9_4.1
+    Status: fixed
     Layer:
       Digest: sha256:02fb1e3ce87b8ca56c13137f23f1c929dc494246e0d7bcfa473b48d5ebc6f3d1
       DiffID: sha256:b72b70703597ad72223d8a89c18c6785922e2ce65f4513fae2b9fd896d37245b
@@ -329,13 +332,16 @@
     PublishedDate: '2024-08-30T03:15:03.757Z'
     LastModifiedDate: '2024-09-04T14:28:19.313Z'
   - VulnerabilityID: CVE-2024-45491
+    VendorIDs:
+    - RHSA-2024:6754
     PkgID: expat@2.5.0-2.el9_4.x86_64
     PkgName: expat
     PkgIdentifier:
       PURL: pkg:rpm/redhat/expat@2.5.0-2.el9_4?arch=x86_64&distro=redhat-9.4
       UID: bac40d6c4b0e1564
     InstalledVersion: 2.5.0-2.el9_4
-    Status: will_not_fix
+    FixedVersion: 2.5.0-2.el9_4.1
+    Status: fixed
     Layer:
       Digest: sha256:02fb1e3ce87b8ca56c13137f23f1c929dc494246e0d7bcfa473b48d5ebc6f3d1
       DiffID: sha256:b72b70703597ad72223d8a89c18c6785922e2ce65f4513fae2b9fd896d37245b
@@ -373,13 +379,16 @@
     PublishedDate: '2024-08-30T03:15:03.85Z'
     LastModifiedDate: '2024-09-04T14:28:33.953Z'
   - VulnerabilityID: CVE-2024-45492
+    VendorIDs:
+    - RHSA-2024:6754
     PkgID: expat@2.5.0-2.el9_4.x86_64
     PkgName: expat
     PkgIdentifier:
       PURL: pkg:rpm/redhat/expat@2.5.0-2.el9_4?arch=x86_64&distro=redhat-9.4
       UID: bac40d6c4b0e1564
     InstalledVersion: 2.5.0-2.el9_4
-    Status: will_not_fix
+    FixedVersion: 2.5.0-2.el9_4.1
+    Status: fixed
     Layer:
       Digest: sha256:02fb1e3ce87b8ca56c13137f23f1c929dc494246e0d7bcfa473b48d5ebc6f3d1
       DiffID: sha256:b72b70703597ad72223d8a89c18c6785922e2ce65f4513fae2b9fd896d37245b
@@ -391,7 +400,7 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
-      cbl-mariner: 4
+      cbl-mariner: 3
       nvd: 4
       photon: 4
       redhat: 2
@@ -1088,7 +1097,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
-      cbl-mariner: 3
+      cbl-mariner: 2
       photon: 2
       redhat: 1
     CVSS:
@@ -4269,7 +4278,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4642,7 +4651,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -5015,7 +5024,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 2
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 2
     CVSS:
