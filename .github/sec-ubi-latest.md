@@ -338,13 +338,15 @@
 │                       │      ├ PublishedDate   : 2024-07-31T08:15:02.657Z 
 │                       │      ╰ LastModifiedDate: 2024-08-12T17:30:51.88Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2024-45490 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2024:6754 
 │                       │      ├ PkgID           : expat@2.5.0-2.el9_4.x86_64 
 │                       │      ├ PkgName         : expat 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-2.el9_4?arch=x86_64&distro
 │                       │      │                  │       =redhat-9.4 
 │                       │      │                  ╰ UID : bac40d6c4b0e1564 
 │                       │      ├ InstalledVersion: 2.5.0-2.el9_4 
-│                       │      ├ Status          : will_not_fix 
+│                       │      ├ FixedVersion    : 2.5.0-2.el9_4.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:b4dcdb04d7b0b0a16c55b0c5a34fde913327a9472607
 │                       │      │                  │         873e365c2672f7958901 
 │                       │      │                  ╰ DiffID: sha256:42c3e4a2bba4bdad5a878431c820546b0181ce80b9e7
@@ -381,13 +383,15 @@
 │                       │      ├ PublishedDate   : 2024-08-30T03:15:03.757Z 
 │                       │      ╰ LastModifiedDate: 2024-09-04T14:28:19.313Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2024-45491 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2024:6754 
 │                       │      ├ PkgID           : expat@2.5.0-2.el9_4.x86_64 
 │                       │      ├ PkgName         : expat 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-2.el9_4?arch=x86_64&distro
 │                       │      │                  │       =redhat-9.4 
 │                       │      │                  ╰ UID : bac40d6c4b0e1564 
 │                       │      ├ InstalledVersion: 2.5.0-2.el9_4 
-│                       │      ├ Status          : will_not_fix 
+│                       │      ├ FixedVersion    : 2.5.0-2.el9_4.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:b4dcdb04d7b0b0a16c55b0c5a34fde913327a9472607
 │                       │      │                  │         873e365c2672f7958901 
 │                       │      │                  ╰ DiffID: sha256:42c3e4a2bba4bdad5a878431c820546b0181ce80b9e7
@@ -425,13 +429,15 @@
 │                       │      ├ PublishedDate   : 2024-08-30T03:15:03.85Z 
 │                       │      ╰ LastModifiedDate: 2024-09-04T14:28:33.953Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2024-45492 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2024:6754 
 │                       │      ├ PkgID           : expat@2.5.0-2.el9_4.x86_64 
 │                       │      ├ PkgName         : expat 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-2.el9_4?arch=x86_64&distro
 │                       │      │                  │       =redhat-9.4 
 │                       │      │                  ╰ UID : bac40d6c4b0e1564 
 │                       │      ├ InstalledVersion: 2.5.0-2.el9_4 
-│                       │      ├ Status          : will_not_fix 
+│                       │      ├ FixedVersion    : 2.5.0-2.el9_4.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:b4dcdb04d7b0b0a16c55b0c5a34fde913327a9472607
 │                       │      │                  │         873e365c2672f7958901 
 │                       │      │                  ╰ DiffID: sha256:42c3e4a2bba4bdad5a878431c820546b0181ce80b9e7
@@ -445,7 +451,7 @@
 │                       │      │                   SIZE_MAX). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-190 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 4 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
 │                       │      │                  ├ nvd        : 4 
 │                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 2 
@@ -1213,7 +1219,7 @@
 │                       │      │                   xmlHTMLPrintFileContext in xmllint.c. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ╰ redhat     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -4991,7 +4997,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5474,7 +5480,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5957,7 +5963,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
