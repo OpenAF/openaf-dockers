@@ -137,6 +137,47 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-37920
     PublishedDate: '2023-07-25T21:15:10.827Z'
     LastModifiedDate: '2023-08-12T06:16:31.077Z'
+  - VulnerabilityID: CVE-2024-47175
+    PkgID: cups-libs@2.3.3op2-27.el9_4.x86_64
+    PkgName: cups-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/cups-libs@2.3.3op2-27.el9_4?arch=x86_64&distro=redhat-9.4&epoch=1
+      UID: dc5858eeded1e7f2
+    InstalledVersion: 1:2.3.3op2-27.el9_4
+    Status: affected
+    Layer:
+      Digest: sha256:02fb1e3ce87b8ca56c13137f23f1c929dc494246e0d7bcfa473b48d5ebc6f3d1
+      DiffID: sha256:b72b70703597ad72223d8a89c18c6785922e2ce65f4513fae2b9fd896d37245b
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-47175
+    Title: 'cups: libppd: remote command injection via attacker controlled data in PPD file'
+    Description: CUPS is a standards-based, open-source printing system, and `libppd` can be used for legacy PPD file support. The `libppd` function `ppdCreatePPDFromIPP2` does not sanitize IPP attributes when creating the PPD buffer. When used in combination with other functions such as `cfGetPrinterAttributes5`, can result in user controlled input and ultimately code execution via Foomatic. This vulnerability can be part of an exploit chain leading to remote code execution (RCE), as described in CVE-2024-47176.
+    Severity: HIGH
+    CweIDs:
+    - CWE-20
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
+        V3Score: 7.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-47175
+    - https://github.com/OpenPrinting/cups-browsed/security/advisories/GHSA-rj88-6mr5-rcw8
+    - https://github.com/OpenPrinting/cups-filters/security/advisories/GHSA-p9rh-jxmq-gq47
+    - https://github.com/OpenPrinting/libcupsfilters/security/advisories/GHSA-w63j-6g73-wmg5
+    - https://github.com/OpenPrinting/libppd/security/advisories/GHSA-7xfx-47qg-grp6
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-47175
+    - https://ubuntu.com/blog/cups-remote-code-execution-vulnerability-fix-available
+    - https://ubuntu.com/security/notices/USN-7041-1
+    - https://ubuntu.com/security/notices/USN-7045-1
+    - https://www.cups.org
+    - https://www.cve.org/CVERecord?id=CVE-2024-47175
+    - https://www.evilsocket.net/2024/09/26/Attacking-UNIX-systems-via-CUPS-Part-I
+    - https://www.evilsocket.net/2024/09/26/Attacking-UNIX-systems-via-CUPS-Part-I/
+    PublishedDate: '2024-09-26T22:15:04.283Z'
+    LastModifiedDate: '2024-09-26T22:15:04.283Z'
   - VulnerabilityID: CVE-2023-4504
     PkgID: cups-libs@2.3.3op2-27.el9_4.x86_64
     PkgName: cups-libs
@@ -363,7 +404,7 @@
     - CWE-190
     VendorSeverity:
       alma: 2
-      cbl-mariner: 4
+      cbl-mariner: 3
       nvd: 4
       oracle-oval: 2
       photon: 4
@@ -1124,7 +1165,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
-      cbl-mariner: 2
+      cbl-mariner: 3
       photon: 2
       redhat: 1
     CVSS:
@@ -2428,7 +2469,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -2542,7 +2583,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -2646,7 +2687,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -3258,7 +3299,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -3372,7 +3413,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -3476,7 +3517,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -3988,6 +4029,7 @@
       nvd: 3
       photon: 3
       redhat: 1
+      ubuntu: 1
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -4028,6 +4070,7 @@
       nvd: 3
       photon: 3
       redhat: 1
+      ubuntu: 1
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -4203,6 +4246,7 @@
     VendorSeverity:
       alma: 2
       bitnami: 3
+      cbl-mariner: 3
       nvd: 3
       oracle-oval: 2
       redhat: 2
@@ -4274,6 +4318,7 @@
     - CWE-835
     VendorSeverity:
       alma: 2
+      cbl-mariner: 3
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -4338,7 +4383,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4586,6 +4631,7 @@
     VendorSeverity:
       alma: 2
       bitnami: 3
+      cbl-mariner: 3
       nvd: 3
       oracle-oval: 2
       redhat: 2
@@ -4657,6 +4703,7 @@
     - CWE-835
     VendorSeverity:
       alma: 2
+      cbl-mariner: 3
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -4721,7 +4768,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4969,6 +5016,7 @@
     VendorSeverity:
       alma: 2
       bitnami: 3
+      cbl-mariner: 3
       nvd: 3
       oracle-oval: 2
       redhat: 2
@@ -5040,6 +5088,7 @@
     - CWE-835
     VendorSeverity:
       alma: 2
+      cbl-mariner: 3
       oracle-oval: 2
       redhat: 2
       ubuntu: 2
@@ -5104,7 +5153,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -5324,12 +5373,10 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-0232
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243754
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QDCMYQ3J45NHQ4EJREM3BJNNKB5BK4Y7/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0232
-    - https://security.netapp.com/advisory/ntap-20240315-0007/
     - https://www.cve.org/CVERecord?id=CVE-2024-0232
     PublishedDate: '2024-01-16T14:15:48.327Z'
-    LastModifiedDate: '2024-03-15T11:15:08.56Z'
+    LastModifiedDate: '2024-09-28T04:15:07.23Z'
   - VulnerabilityID: CVE-2021-3997
     PkgID: systemd-libs@252-32.el9_4.7.x86_64
     PkgName: systemd-libs
