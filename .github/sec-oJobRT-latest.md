@@ -1,99 +1,93 @@
 ````yaml
-╭ stdout   
-├ stderr  : latest: Pulling from aquasec/trivy
-│           Digest: sha256:e682a9f8db9db6f09731fe2f63e4234d240ec67a811d90974b5af3d40497f843
-│           Status: Image is up to date for aquasec/trivy:latest
-│           2024-10-03T07:09:23Z	INFO	[vulndb] Need to update DB
-│           2024-10-03T07:09:23Z	INFO	[vulndb] Downloading vulnerability DB...
-│           2024-10-03T07:09:23Z	INFO	[vulndb] Downloading artifact...	repo="ghcr.io/aquasecurity/trivy-db:2"
-│           53.95 MiB / 53.95 MiB [----------------------------------------------------------->] 100.00% ? p/s
-│           ?53.95 MiB / 53.95 MiB [----------------------------------------------------------->] 100.00% ? p/s
-│            ?53.95 MiB / 53.95 MiB [----------------------------------------------------------->] 100.00% ?
-│           p/s ?53.95 MiB / 53.95 MiB [----------------------------------------------------------->] 100.00% ?
-│            p/s ?53.95 MiB / 53.95 MiB [----------------------------------------------------------->] 100.00%
-│           ? p/s ?53.95 MiB / 53.95 MiB [----------------------------------------------------------->] 100.00%
-│            ? p/s ?53.95 MiB / 53.95 MiB [----------------------------------------------------------->]
-│           100.00% ? p/s ?53.95 MiB / 53.95 MiB [----------------------------------------------------------->]
-│            100.00% ? p/s ?53.95 MiB / 53.95 MiB [-------------------------------------------------] 100.00%
-│           34.78 MiB p/s 1.8s2024-10-03T07:09:25Z	INFO	[vulndb] Artifact successfully
-│           downloaded	repo="ghcr.io/aquasecurity/trivy-db:2"
-│           2024-10-03T07:09:25Z	INFO	[vuln] Vulnerability scanning is enabled
-│           2024-10-03T07:09:25Z	INFO	[secret] Secret scanning is enabled
-│           2024-10-03T07:09:25Z	INFO	[secret] If your scanning is slow, please try '--scanners vuln' to
-│           disable secret scanning
-│           2024-10-03T07:09:25Z	INFO	[secret] Please see also
-│           https://aquasecurity.github.io/trivy/v0.56/docs/scanner/secret#recommendation for faster secret
-│           detection
-│           2024-10-03T07:09:27Z	INFO	[javadb] Downloading Java DB...
-│           2024-10-03T07:09:27Z	INFO	[javadb] Downloading
-│           artifact...	repo="ghcr.io/aquasecurity/trivy-java-db:1"
-│           52.73 MiB / 649.13 MiB [---->________________________________________________________] 8.12% ? p/s
-│           ?116.25 MiB / 649.13 MiB [---------->________________________________________________] 17.91% ? p/s
-│            ?181.13 MiB / 649.13 MiB [---------------->__________________________________________] 27.90% ?
-│           p/s ?248.51 MiB / 649.13 MiB [----------------->___________________________] 38.28% 326.23 MiB p/s
-│           ETA 1s311.85 MiB / 649.13 MiB [--------------------->_______________________] 48.04% 326.23 MiB p/s
-│            ETA 1s373.29 MiB / 649.13 MiB [------------------------->___________________] 57.51% 326.23 MiB
-│           p/s ETA 0s436.93 MiB / 649.13 MiB [------------------------------>______________] 67.31% 325.45 MiB
-│            p/s ETA 0s503.28 MiB / 649.13 MiB [---------------------------------->__________] 77.53% 325.45
-│           MiB p/s ETA 0s563.24 MiB / 649.13 MiB [--------------------------------------->_____] 86.77% 325.45
-│            MiB p/s ETA 0s625.75 MiB / 649.13 MiB [------------------------------------------->_] 96.40%
-│           324.76 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00%
-│            324.76 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->]
-│           100.00% 324.76 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->]
-│            100.00% 306.32 MiB p/s ETA 0s649.13 MiB / 649.13 MiB
-│           [------------------------------------------->] 100.00% 306.32 MiB p/s ETA 0s649.13 MiB / 649.13 MiB
-│            [------------------------------------------->] 100.00% 306.32 MiB p/s ETA 0s649.13 MiB / 649.13
-│           MiB [------------------------------------------->] 100.00% 286.56 MiB p/s ETA 0s649.13 MiB / 649.13
-│            MiB [------------------------------------------->] 100.00% 286.56 MiB p/s ETA 0s649.13 MiB /
-│           649.13 MiB [------------------------------------------->] 100.00% 286.56 MiB p/s ETA 0s649.13 MiB /
-│            649.13 MiB [------------------------------------------->] 100.00% 268.07 MiB p/s ETA 0s649.13 MiB
-│           / 649.13 MiB [------------------------------------------->] 100.00% 268.07 MiB p/s ETA 0s649.13 MiB
-│            / 649.13 MiB [------------------------------------------->] 100.00% 268.07 MiB p/s ETA 0s649.13
-│           MiB / 649.13 MiB [------------------------------------------->] 100.00% 250.77 MiB p/s ETA 0s649.13
-│            MiB / 649.13 MiB [------------------------------------------->] 100.00% 250.77 MiB p/s ETA
-│           0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 250.77 MiB p/s ETA
-│            0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 234.60 MiB p/s
-│           ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 234.60 MiB p/s
-│            ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 234.60 MiB
-│           p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 219.46 MiB
-│            p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 219.46
-│           MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 219.46
-│            MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00%
-│           205.30 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00%
-│            205.30 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->]
-│           100.00% 205.30 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->]
-│            100.00% 192.06 MiB p/s ETA 0s649.13 MiB / 649.13 MiB
-│           [------------------------------------------->] 100.00% 192.06 MiB p/s ETA 0s649.13 MiB / 649.13 MiB
-│            [------------------------------------------->] 100.00% 192.06 MiB p/s ETA 0s649.13 MiB / 649.13
-│           MiB [------------------------------------------->] 100.00% 179.67 MiB p/s ETA 0s649.13 MiB / 649.13
-│            MiB [------------------------------------------->] 100.00% 179.67 MiB p/s ETA 0s649.13 MiB /
-│           649.13 MiB [------------------------------------------->] 100.00% 179.67 MiB p/s ETA 0s649.13 MiB /
-│            649.13 MiB [------------------------------------------->] 100.00% 168.07 MiB p/s ETA 0s649.13 MiB
-│           / 649.13 MiB [------------------------------------------->] 100.00% 168.07 MiB p/s ETA 0s649.13 MiB
-│            / 649.13 MiB [------------------------------------------->] 100.00% 168.07 MiB p/s ETA 0s649.13
-│           MiB / 649.13 MiB [------------------------------------------->] 100.00% 157.23 MiB p/s ETA 0s649.13
-│            MiB / 649.13 MiB [------------------------------------------->] 100.00% 157.23 MiB p/s ETA
-│           0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 157.23 MiB p/s ETA
-│            0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 147.09 MiB p/s
-│           ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 147.09 MiB p/s
-│            ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 147.09 MiB
-│           p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 137.60 MiB
-│            p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 137.60
-│           MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00% 137.60
-│           128.72 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->] 100.00%
-│            128.72 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->]
-│           100.00% 128.72 MiB p/s ETA 0s649.13 MiB / 649.13 MiB [------------------------------------------->]
-│            100.00% 120.42 MiB p/s ETA 0s649.13 MiB / 649.13 MiB
-│           [------------------------------------------->] 100.00% 120.42 MiB p/s ETA 0s649.13 MiB / 649.13 MiB
-│            [------------------------------------------->] 100.00% 120.42 MiB p/s ETA 0s649.13 MiB / 649.13
-│           MiB [------------------------------------------------] 100.00% 57.27 MiB p/s
-│           12s2024-10-03T07:09:38Z	INFO	[javadb] Artifact successfully
-│           downloaded	repo="ghcr.io/aquasecurity/trivy-java-db:1"
-│           2024-10-03T07:09:38Z	FATAL	Fatal error	image scan error: scan error: scan failed: failed analysis:
-│           analyze error: pipeline error: failed to analyze layer
-│           (sha256:6f576c9eca0f8458e264e86a3a31395e22a545453dcb5e1dbbef910a56d7bea9): post analysis error:
-│           post analysis error: Unable to initialize the Java DB: Java DB update failed: OCI artifact error:
-│           failed to download Java DB from any source 
-├ exitcode: 1 
-╰ cmd     : docker run --pull always --rm  aquasec/trivy -f json  image openaf/ojobrt:latest 
+╭ [0] ╭ Target         : openaf/ojobrt:latest (alpine 3.20.2) 
+│     ├ Class          : os-pkgs 
+│     ├ Type           : alpine 
+│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-8096 
+│                       │     ├ PkgID           : curl@8.9.1-r1 
+│                       │     ├ PkgName         : curl 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.9.1-r1?arch=x86_64&distro=3.20.2 
+│                       │     │                  ╰ UID : 7f16e72adebffd84 
+│                       │     ├ InstalledVersion: 8.9.1-r1 
+│                       │     ├ FixedVersion    : 8.10.0-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:a271ddb7ece55d98f1a072a1eb717d7a243ffc71f2c42
+│                       │     │                  │         8a7c4c75775f5d9f854 
+│                       │     │                  ╰ DiffID: sha256:093d6b3d3a35b9df0a58e9c77af8c6c5107bb5a59d2c1
+│                       │     │                            114939297821068da14 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-8096 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Title           : curl: OCSP stapling bypass with GnuTLS 
+│                       │     ├ Description     : When curl is told to use the Certificate Status Request TLS
+│                       │     │                   extension, often referred to as OCSP stapling, to verify that
+│                       │     │                    the server certificate is valid, it might fail to detect
+│                       │     │                   some OCSP problems and instead wrongly consider the response
+│                       │     │                   as fine.  If the returned status reports another error than
+│                       │     │                   'revoked' (like for example 'unauthorized') it is not treated
+│                       │     │                    as a bad certficate. 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ CweIDs           ─ [0]: CWE-295 
+│                       │     ├ VendorSeverity   ╭ azure      : 2 
+│                       │     │                  ├ cbl-mariner: 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ╰ ubuntu     : 2 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/
+│                       │     │                           │           A:N 
+│                       │     │                           ╰ V3Score : 6.5 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-8096 
+│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2024-8096.html 
+│                       │     │                  ├ [2]: https://curl.se/docs/CVE-2024-8096.json 
+│                       │     │                  ├ [3]: https://hackerone.com/reports/2669852 
+│                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-8096 
+│                       │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-7012-1 
+│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-8096 
+│                       │     ├ PublishedDate   : 2024-09-11T10:15:02.883Z 
+│                       │     ╰ LastModifiedDate: 2024-09-11T16:26:11.92Z 
+│                       ╰ [1] ╭ VulnerabilityID : CVE-2024-8096 
+│                             ├ PkgID           : libcurl@8.9.1-r1 
+│                             ├ PkgName         : libcurl 
+│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.9.1-r1?arch=x86_64&distro=3.2
+│                             │                  │       0.2 
+│                             │                  ╰ UID : 9a1ec08cf3c33746 
+│                             ├ InstalledVersion: 8.9.1-r1 
+│                             ├ FixedVersion    : 8.10.0-r0 
+│                             ├ Status          : fixed 
+│                             ├ Layer            ╭ Digest: sha256:a271ddb7ece55d98f1a072a1eb717d7a243ffc71f2c42
+│                             │                  │         8a7c4c75775f5d9f854 
+│                             │                  ╰ DiffID: sha256:093d6b3d3a35b9df0a58e9c77af8c6c5107bb5a59d2c1
+│                             │                            114939297821068da14 
+│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-8096 
+│                             ├ DataSource       ╭ ID  : alpine 
+│                             │                  ├ Name: Alpine Secdb 
+│                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                             ├ Title           : curl: OCSP stapling bypass with GnuTLS 
+│                             ├ Description     : When curl is told to use the Certificate Status Request TLS
+│                             │                   extension, often referred to as OCSP stapling, to verify that
+│                             │                    the server certificate is valid, it might fail to detect
+│                             │                   some OCSP problems and instead wrongly consider the response
+│                             │                   as fine.  If the returned status reports another error than
+│                             │                   'revoked' (like for example 'unauthorized') it is not treated
+│                             │                    as a bad certficate. 
+│                             ├ Severity        : MEDIUM 
+│                             ├ CweIDs           ─ [0]: CWE-295 
+│                             ├ VendorSeverity   ╭ azure      : 2 
+│                             │                  ├ cbl-mariner: 2 
+│                             │                  ├ redhat     : 2 
+│                             │                  ╰ ubuntu     : 2 
+│                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/
+│                             │                           │           A:N 
+│                             │                           ╰ V3Score : 6.5 
+│                             ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-8096 
+│                             │                  ├ [1]: https://curl.se/docs/CVE-2024-8096.html 
+│                             │                  ├ [2]: https://curl.se/docs/CVE-2024-8096.json 
+│                             │                  ├ [3]: https://hackerone.com/reports/2669852 
+│                             │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-8096 
+│                             │                  ├ [5]: https://ubuntu.com/security/notices/USN-7012-1 
+│                             │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-8096 
+│                             ├ PublishedDate   : 2024-09-11T10:15:02.883Z 
+│                             ╰ LastModifiedDate: 2024-09-11T16:26:11.92Z 
+╰ [1] ╭ Target: Java 
+      ├ Class : lang-pkgs 
+      ╰ Type  : jar 
 ````
