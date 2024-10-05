@@ -28,7 +28,8 @@
 │                       │     │                    as a bad certficate. 
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-295 
-│                       │     ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │     ├ VendorSeverity   ╭ azure      : 2 
+│                       │     │                  ├ cbl-mariner: 2 
 │                       │     │                  ├ redhat     : 2 
 │                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/
@@ -70,7 +71,8 @@
 │                             │                    as a bad certficate. 
 │                             ├ Severity        : MEDIUM 
 │                             ├ CweIDs           ─ [0]: CWE-295 
-│                             ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                             ├ VendorSeverity   ╭ azure      : 2 
+│                             │                  ├ cbl-mariner: 2 
 │                             │                  ├ redhat     : 2 
 │                             │                  ╰ ubuntu     : 2 
 │                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/

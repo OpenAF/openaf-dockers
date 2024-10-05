@@ -25,6 +25,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
@@ -65,6 +66,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
       redhat: 2
       ubuntu: 2
