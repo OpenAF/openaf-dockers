@@ -285,6 +285,7 @@
     - https://ubuntu.com/blog/cups-remote-code-execution-vulnerability-fix-available
     - https://ubuntu.com/security/notices/USN-7041-1
     - https://ubuntu.com/security/notices/USN-7041-2
+    - https://ubuntu.com/security/notices/USN-7041-3
     - https://ubuntu.com/security/notices/USN-7045-1
     - https://www.cups.org
     - https://www.cve.org/CVERecord?id=CVE-2024-47175
@@ -1212,7 +1213,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
-      cbl-mariner: 2
+      cbl-mariner: 3
       photon: 2
       redhat: 1
     CVSS:
@@ -2520,7 +2521,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -2634,7 +2635,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -2738,7 +2739,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -3391,7 +3392,7 @@
     - CWE-1333
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 1
@@ -3505,7 +3506,7 @@
     - CWE-834
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 2
@@ -3609,7 +3610,7 @@
     - CWE-754
     VendorSeverity:
       alma: 1
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       nvd: 2
