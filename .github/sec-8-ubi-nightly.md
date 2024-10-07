@@ -3,39 +3,17 @@
 ├ stderr  : latest: Pulling from aquasec/trivy
 │           Digest: sha256:c42bb3221509b0a9fa2291cd79a3a818b30a172ab87e9aac8a43997a5b56f293
 │           Status: Image is up to date for aquasec/trivy:latest
-│           2024-10-07T07:11:16Z	INFO	[vulndb] Need to update DB
-│           2024-10-07T07:11:16Z	INFO	[vulndb] Downloading vulnerability DB...
-│           2024-10-07T07:11:16Z	INFO	[vulndb] Downloading artifact...	repo="ghcr.io/aquasecurity/trivy-db:2"
-│           54.04 MiB / 54.04 MiB [----------------------------------------------------------->] 100.00% ? p/s
-│           ?54.04 MiB / 54.04 MiB [----------------------------------------------------------->] 100.00% ? p/s
-│            ?54.04 MiB / 54.04 MiB [----------------------------------------------------------->] 100.00% ?
-│           p/s ?54.04 MiB / 54.04 MiB [----------------------------------------------------------->] 100.00% ?
-│            p/s ?54.04 MiB / 54.04 MiB [----------------------------------------------------------->] 100.00%
-│           ? p/s ?54.04 MiB / 54.04 MiB [----------------------------------------------------------->] 100.00%
-│            ? p/s ?54.04 MiB / 54.04 MiB [----------------------------------------------------------->]
-│           100.00% ? p/s ?54.04 MiB / 54.04 MiB [----------------------------------------------------------->]
-│            100.00% ? p/s ?54.04 MiB / 54.04 MiB [-------------------------------------------------] 100.00%
-│           35.06 MiB p/s 1.7s2024-10-07T07:11:18Z	INFO	[vulndb] Artifact successfully
-│           downloaded	repo="ghcr.io/aquasecurity/trivy-db:2"
-│           2024-10-07T07:11:18Z	INFO	[vuln] Vulnerability scanning is enabled
-│           2024-10-07T07:11:18Z	INFO	[secret] Secret scanning is enabled
-│           2024-10-07T07:11:18Z	INFO	[secret] If your scanning is slow, please try '--scanners vuln' to
-│           disable secret scanning
-│           2024-10-07T07:11:18Z	INFO	[secret] Please see also
-│           https://aquasecurity.github.io/trivy/v0.56/docs/scanner/secret#recommendation for faster secret
-│           detection
-│           2024-10-07T07:11:26Z	INFO	[javadb] Downloading Java DB...
-│           2024-10-07T07:11:26Z	INFO	[javadb] Downloading
-│           artifact...	repo="ghcr.io/aquasecurity/trivy-java-db:1"
-│           2024-10-07T07:11:26Z	ERROR	[javadb] Failed to download
-│           artifact	repo="ghcr.io/aquasecurity/trivy-java-db:1" err="OCI repository error: 1 error
-│           occurred:\n\t* GET https://ghcr.io/v2/aquasecurity/trivy-java-db/manifests/1: TOOMANYREQUESTS:
-│           retry-after: 576.138µs, allowed: 44000/minute\n\n"
-│           2024-10-07T07:11:26Z	FATAL	Fatal error	image scan error: scan error: scan failed: failed analysis:
-│           analyze error: pipeline error: failed to analyze layer
-│           (sha256:20bd8e6fbabd1e515550fcb7f11550fe6bf8020039b003f3dc2d2adeaa0027d6): post analysis error:
-│           post analysis error: Unable to initialize the Java DB: Java DB update failed: OCI artifact error:
-│           failed to download Java DB: failed to download artifact from any source 
+│           2024-10-07T09:12:57Z	INFO	[vulndb] Need to update DB
+│           2024-10-07T09:12:57Z	INFO	[vulndb] Downloading vulnerability DB...
+│           2024-10-07T09:12:57Z	INFO	[vulndb] Downloading artifact...	repo="ghcr.io/aquasecurity/trivy-db:2"
+│           2024-10-07T09:12:57Z	ERROR	[vulndb] Failed to download
+│           artifact	repo="ghcr.io/aquasecurity/trivy-db:2" err="oci download error: failed to fetch the layer:
+│            GET
+│           https://ghcr.io/v2/aquasecurity/trivy-db/blobs/sha256:bffb38c362c3397ad2c37f9090e1edd0a6697fe0738ac
+│           1943745ba64cf83baca: TOOMANYREQUESTS: retry-after: 87.976µs, allowed: 44000/minute"
+│           2024-10-07T09:12:57Z	FATAL	Fatal error	init error: DB error: failed to download vulnerability DB:
+│           OCI artifact error: failed to download vulnerability DB: failed to download artifact from any
+│           source 
 ├ exitcode: 1 
 ╰ cmd     : docker run --pull always --rm  aquasec/trivy -f json  image openaf/oaf:8-ubi-nightly 
 ````
