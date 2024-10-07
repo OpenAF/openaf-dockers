@@ -351,12 +351,13 @@
 │                       │       │                  │       ulnerability-fix-available 
 │                       │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-7041-1 
 │                       │       │                  ├ [22]: https://ubuntu.com/security/notices/USN-7041-2 
-│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-7045-1 
-│                       │       │                  ├ [24]: https://www.cups.org 
-│                       │       │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2024-47175 
-│                       │       │                  ├ [26]: https://www.evilsocket.net/2024/09/26/Attacking-UNIX
+│                       │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-7041-3 
+│                       │       │                  ├ [24]: https://ubuntu.com/security/notices/USN-7045-1 
+│                       │       │                  ├ [25]: https://www.cups.org 
+│                       │       │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2024-47175 
+│                       │       │                  ├ [27]: https://www.evilsocket.net/2024/09/26/Attacking-UNIX
 │                       │       │                  │       -systems-via-CUPS-Part-I 
-│                       │       │                  ╰ [27]: https://www.evilsocket.net/2024/09/26/Attacking-UNIX
+│                       │       │                  ╰ [28]: https://www.evilsocket.net/2024/09/26/Attacking-UNIX
 │                       │       │                          -systems-via-CUPS-Part-I/ 
 │                       │       ├ PublishedDate   : 2024-09-26T22:15:04.283Z 
 │                       │       ╰ LastModifiedDate: 2024-09-30T12:46:20.237Z 
@@ -1353,7 +1354,7 @@
 │                       │       │                   xmlHTMLPrintFileContext in xmllint.c. 
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-122 
-│                       │       ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │       ├ VendorSeverity   ╭ cbl-mariner: 3 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ╰ redhat     : 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
@@ -2870,7 +2871,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-1333 
 │                       │       ├ VendorSeverity   ╭ alma       : 1 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 1 
@@ -3009,7 +3010,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-834 
 │                       │       ├ VendorSeverity   ╭ alma       : 1 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ nvd        : 2 
@@ -3135,7 +3136,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-754 
 │                       │       ├ VendorSeverity   ╭ alma       : 1 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ nvd        : 2 
@@ -3938,7 +3939,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-1333 
 │                       │       ├ VendorSeverity   ╭ alma       : 1 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 1 
@@ -4077,7 +4078,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-834 
 │                       │       ├ VendorSeverity   ╭ alma       : 1 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ nvd        : 2 
@@ -4203,7 +4204,7 @@
 │                       │       ├ Severity        : LOW 
 │                       │       ├ CweIDs           ─ [0]: CWE-754 
 │                       │       ├ VendorSeverity   ╭ alma       : 1 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ nvd        : 2 
