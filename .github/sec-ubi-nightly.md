@@ -3,14 +3,14 @@
 ├ stderr  : latest: Pulling from aquasec/trivy
 │           Digest: sha256:c42bb3221509b0a9fa2291cd79a3a818b30a172ab87e9aac8a43997a5b56f293
 │           Status: Image is up to date for aquasec/trivy:latest
-│           2024-10-07T09:10:44Z	INFO	[vulndb] Need to update DB
-│           2024-10-07T09:10:44Z	INFO	[vulndb] Downloading vulnerability DB...
-│           2024-10-07T09:10:44Z	INFO	[vulndb] Downloading artifact...	repo="ghcr.io/aquasecurity/trivy-db:2"
-│           2024-10-07T09:10:45Z	ERROR	[vulndb] Failed to download
+│           2024-10-07T15:10:06Z	INFO	[vulndb] Need to update DB
+│           2024-10-07T15:10:06Z	INFO	[vulndb] Downloading vulnerability DB...
+│           2024-10-07T15:10:06Z	INFO	[vulndb] Downloading artifact...	repo="ghcr.io/aquasecurity/trivy-db:2"
+│           2024-10-07T15:10:06Z	ERROR	[vulndb] Failed to download
 │           artifact	repo="ghcr.io/aquasecurity/trivy-db:2" err="OCI repository error: 1 error occurred:\n\t*
-│           GET https://ghcr.io/v2/aquasecurity/trivy-db/manifests/2: TOOMANYREQUESTS: retry-after: 100.702µs,
+│           GET https://ghcr.io/v2/aquasecurity/trivy-db/manifests/2: TOOMANYREQUESTS: retry-after: 779.718µs,
 │           allowed: 44000/minute\n\n"
-│           2024-10-07T09:10:45Z	FATAL	Fatal error	init error: DB error: failed to download vulnerability DB:
+│           2024-10-07T15:10:06Z	FATAL	Fatal error	init error: DB error: failed to download vulnerability DB:
 │           OCI artifact error: failed to download vulnerability DB: failed to download artifact from any
 │           source 
 ├ exitcode: 1 
