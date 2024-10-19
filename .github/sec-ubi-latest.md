@@ -1085,7 +1085,7 @@
 │                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-21217 
 │                       │      │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:11.197Z 
-│                       │      ╰ LastModifiedDate: 2024-10-16T16:38:43.17Z 
+│                       │      ╰ LastModifiedDate: 2024-10-18T18:29:36.59Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2024-21235 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:8127 
 │                       │      ├ PkgID           : java-21-openjdk-headless@21.0.4.0.7-1.el9.x86_64 
@@ -1150,7 +1150,7 @@
 │                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-21235 
 │                       │      │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:12.643Z 
-│                       │      ╰ LastModifiedDate: 2024-10-16T16:38:43.17Z 
+│                       │      ╰ LastModifiedDate: 2024-10-18T18:30:26.097Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2024-26462 
 │                       │      ├ PkgID           : krb5-libs@1.21.1-2.el9_4.x86_64 
 │                       │      ├ PkgName         : krb5-libs 
