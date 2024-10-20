@@ -314,8 +314,8 @@
     - CWE-611
     VendorSeverity:
       alma: 2
-      azure: 4
-      cbl-mariner: 4
+      azure: 3
+      cbl-mariner: 3
       nvd: 3
       oracle-oval: 2
       photon: 4
@@ -1374,7 +1374,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
-      cbl-mariner: 2
+      cbl-mariner: 3
       photon: 2
       redhat: 1
     CVSS:
