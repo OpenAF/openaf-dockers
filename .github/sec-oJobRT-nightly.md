@@ -1,67 +1,37 @@
 ````yaml
-╭ [0] ╭ Target: openaf/ojobrt:nightly (alpine 3.20.3) 
-│     ├ Class : os-pkgs 
-│     ╰ Type  : alpine 
-╰ [1] ╭ Target         : Java 
-      ├ Class          : lang-pkgs 
-      ├ Type           : jar 
-      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2024-6763 
-                              ├ PkgName         : org.eclipse.jetty:jetty-http 
-                              ├ PkgPath         : openaf/openaf.jar 
-                              ├ PkgIdentifier    ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-http@9.4.56.v20240826 
-                              │                  ╰ UID : 16a78109ae818b93 
-                              ├ InstalledVersion: 9.4.56.v20240826 
-                              ├ FixedVersion    : 12.0.12 
-                              ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:023e0f9a88e0fc2460bd4d91305155f9445c44cfea0ca
-                              │                  │         a8422de21b9d794cf43 
-                              │                  ╰ DiffID: sha256:312fac4753a63cd7a3d63d14709bac04d2f8765d67aa4
-                              │                            724e3a9eae7038f7f98 
-                              ├ SeveritySource  : ghsa 
-                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-6763 
-                              ├ DataSource       ╭ ID  : ghsa 
-                              │                  ├ Name: GitHub Security Advisory Maven 
-                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
-                              │                          osystem%3Amaven 
-                              ├ Title           : org.eclipse.jetty:jetty-http: jetty: Jetty URI parsing of
-                              │                   invalid authority 
-                              ├ Description     : Eclipse Jetty is a lightweight, highly scalable, Java-based
-                              │                   web server and Servlet engine . It includes a utility class,
-                              │                   HttpURI, for URI/URL parsing.
-                              │                   
-                              │                   The HttpURI class does insufficient validation on the
-                              │                   authority segment of a URI.  However the behaviour of
-                              │                   HttpURI
-                              │                    differs from the common browsers in how it handles a URI
-                              │                   that would be 
-                              │                   considered invalid if fully validated against the RRC. 
-                              │                   Specifically HttpURI
-                              │                    and the browser may differ on the value of the host
-                              │                   extracted from an 
-                              │                   invalid URI and thus a combination of Jetty and a vulnerable
-                              │                   browser may
-                              │                    be vulnerable to a open redirect attack or to a SSRF attack
-                              │                   if the URI 
-                              │                   is used after passing validation checks. 
-                              ├ Severity        : LOW 
-                              ├ CweIDs           ─ [0]: CWE-1286 
-                              ├ VendorSeverity   ╭ ghsa  : 1 
-                              │                  ╰ redhat: 1 
-                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/
-                              │                  │        │           A:N 
-                              │                  │        ╰ V3Score : 3.7 
-                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/
-                              │                           │           A:N 
-                              │                           ╰ V3Score : 3.7 
-                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-6763 
-                              │                  ├ [1]: https://github.com/jetty/jetty.project 
-                              │                  ├ [2]: https://github.com/jetty/jetty.project/pull/12012 
-                              │                  ├ [3]: https://github.com/jetty/jetty.project/security/advisor
-                              │                  │      ies/GHSA-qh8g-58pp-2wxh 
-                              │                  ├ [4]: https://gitlab.eclipse.org/security/cve-assignement/-/i
-                              │                  │      ssues/25 
-                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-6763 
-                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6763 
-                              ├ PublishedDate   : 2024-10-14T16:15:04.163Z 
-                              ╰ LastModifiedDate: 2024-10-15T12:57:46.88Z 
+╭ stdout   
+├ stderr  : latest: Pulling from aquasec/trivy
+│           Digest: sha256:26245f364b6f5d223003dc344ec1eb5eb8439052bfecb31d79aeba0c74344b3a
+│           Status: Image is up to date for aquasec/trivy:latest
+│           2024-10-23T02:36:23Z	INFO	[vulndb] Need to update DB
+│           2024-10-23T02:36:23Z	INFO	[vulndb] Downloading vulnerability DB...
+│           2024-10-23T02:36:23Z	INFO	[vulndb] Downloading artifact...	repo="ghcr.io/aquasecurity/trivy-db:2"
+│           54.61 MiB / 54.61 MiB [----------------------------------------------------------->] 100.00% ? p/s
+│           ?54.61 MiB / 54.61 MiB [----------------------------------------------------------->] 100.00% ? p/s
+│            ?54.61 MiB / 54.61 MiB [----------------------------------------------------------->] 100.00% ?
+│           p/s ?54.61 MiB / 54.61 MiB [----------------------------------------------------------->] 100.00% ?
+│            p/s ?54.61 MiB / 54.61 MiB [----------------------------------------------------------->] 100.00%
+│           ? p/s ?54.61 MiB / 54.61 MiB [----------------------------------------------------------->] 100.00%
+│            ? p/s ?54.61 MiB / 54.61 MiB [----------------------------------------------------------->]
+│           100.00% ? p/s ?54.61 MiB / 54.61 MiB [----------------------------------------------------------->]
+│            100.00% ? p/s ?54.61 MiB / 54.61 MiB
+│           [----------------------------------------------------------->] 100.00% ? p/s ?54.61 MiB / 54.61 MiB
+│            [-------------------------------------------------] 100.00% 30.84 MiB p/s
+│           2.0s2024-10-23T02:36:25Z	INFO	[vulndb] Artifact successfully
+│           downloaded	repo="ghcr.io/aquasecurity/trivy-db:2"
+│           2024-10-23T02:36:25Z	INFO	[vuln] Vulnerability scanning is enabled
+│           2024-10-23T02:36:25Z	INFO	[secret] Secret scanning is enabled
+│           2024-10-23T02:36:25Z	INFO	[secret] If your scanning is slow, please try '--scanners vuln' to
+│           disable secret scanning
+│           2024-10-23T02:36:25Z	INFO	[secret] Please see also
+│           https://aquasecurity.github.io/trivy/v0.56/docs/scanner/secret#recommendation for faster secret
+│           detection
+│           2024-10-23T02:36:26Z	FATAL	Fatal error	image scan error: scan error: scan failed: failed analysis:
+│           analyze error: pipeline error: failed to analyze layer
+│           (sha256:249f61e2f18db1438402cb3f0d0f5e6aadb6a9629ad0c41f5f9f941c4ccc8465): walk error: failed to
+│           process the file: failed to analyze file: failed to analyze openaf/S3/bcprov-jdk18on-1.78.jar:
+│           unable to open openaf/S3/bcprov-jdk18on-1.78.jar: failed to open: unable to read the file: stream
+│           error: stream ID 7; INTERNAL_ERROR; received from peer 
+├ exitcode: 1 
+╰ cmd     : docker run --pull always --rm  aquasec/trivy -f json  image openaf/ojobrt:nightly 
 ````
