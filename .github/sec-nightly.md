@@ -1,67 +1,19 @@
 ````yaml
-╭ [0] ╭ Target: openaf/oaf:nightly (alpine 3.20.3) 
-│     ├ Class : os-pkgs 
-│     ╰ Type  : alpine 
-╰ [1] ╭ Target         : Java 
-      ├ Class          : lang-pkgs 
-      ├ Type           : jar 
-      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2024-6763 
-                              ├ PkgName         : org.eclipse.jetty:jetty-http 
-                              ├ PkgPath         : openaf/openaf.jar 
-                              ├ PkgIdentifier    ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-http@9.4.56.v20240826 
-                              │                  ╰ UID : 16a78109ae818b93 
-                              ├ InstalledVersion: 9.4.56.v20240826 
-                              ├ FixedVersion    : 12.0.12 
-                              ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:8318167d4d7b4d4d4d1be98f8be401ca877c55cf6b5ae
-                              │                  │         9f9952f859553fae399 
-                              │                  ╰ DiffID: sha256:f1236dd680e6bc97e885dc2be13d2b4dd3b48cb125800
-                              │                            d814c6b3af938b8e810 
-                              ├ SeveritySource  : ghsa 
-                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-6763 
-                              ├ DataSource       ╭ ID  : ghsa 
-                              │                  ├ Name: GitHub Security Advisory Maven 
-                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
-                              │                          osystem%3Amaven 
-                              ├ Title           : org.eclipse.jetty:jetty-http: jetty: Jetty URI parsing of
-                              │                   invalid authority 
-                              ├ Description     : Eclipse Jetty is a lightweight, highly scalable, Java-based
-                              │                   web server and Servlet engine . It includes a utility class,
-                              │                   HttpURI, for URI/URL parsing.
-                              │                   
-                              │                   The HttpURI class does insufficient validation on the
-                              │                   authority segment of a URI.  However the behaviour of
-                              │                   HttpURI
-                              │                    differs from the common browsers in how it handles a URI
-                              │                   that would be 
-                              │                   considered invalid if fully validated against the RRC. 
-                              │                   Specifically HttpURI
-                              │                    and the browser may differ on the value of the host
-                              │                   extracted from an 
-                              │                   invalid URI and thus a combination of Jetty and a vulnerable
-                              │                   browser may
-                              │                    be vulnerable to a open redirect attack or to a SSRF attack
-                              │                   if the URI 
-                              │                   is used after passing validation checks. 
-                              ├ Severity        : LOW 
-                              ├ CweIDs           ─ [0]: CWE-1286 
-                              ├ VendorSeverity   ╭ ghsa  : 1 
-                              │                  ╰ redhat: 1 
-                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/
-                              │                  │        │           A:N 
-                              │                  │        ╰ V3Score : 3.7 
-                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/
-                              │                           │           A:N 
-                              │                           ╰ V3Score : 3.7 
-                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-6763 
-                              │                  ├ [1]: https://github.com/jetty/jetty.project 
-                              │                  ├ [2]: https://github.com/jetty/jetty.project/pull/12012 
-                              │                  ├ [3]: https://github.com/jetty/jetty.project/security/advisor
-                              │                  │      ies/GHSA-qh8g-58pp-2wxh 
-                              │                  ├ [4]: https://gitlab.eclipse.org/security/cve-assignement/-/i
-                              │                  │      ssues/25 
-                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-6763 
-                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6763 
-                              ├ PublishedDate   : 2024-10-14T16:15:04.163Z 
-                              ╰ LastModifiedDate: 2024-10-15T12:57:46.88Z 
+╭ stdout   
+├ stderr  : latest: Pulling from aquasec/trivy
+│           Digest: sha256:26245f364b6f5d223003dc344ec1eb5eb8439052bfecb31d79aeba0c74344b3a
+│           Status: Image is up to date for aquasec/trivy:latest
+│           2024-10-24T07:08:32Z	INFO	[vulndb] Need to update DB
+│           2024-10-24T07:08:32Z	INFO	[vulndb] Downloading vulnerability DB...
+│           2024-10-24T07:08:32Z	INFO	[vulndb] Downloading artifact...	repo="ghcr.io/aquasecurity/trivy-db:2"
+│           2024-10-24T07:08:32Z	ERROR	[vulndb] Failed to download
+│           artifact	repo="ghcr.io/aquasecurity/trivy-db:2" err="oci download error: failed to fetch the layer:
+│            GET
+│           https://ghcr.io/v2/aquasecurity/trivy-db/blobs/sha256:f9070a900bc5d93c2631b2789a25c087cfc2f5a898eea
+│           fac637cf0263cfe7586: TOOMANYREQUESTS: retry-after: 66.19µs, allowed: 44000/minute"
+│           2024-10-24T07:08:32Z	FATAL	Fatal error	init error: DB error: failed to download vulnerability DB:
+│           OCI artifact error: failed to download vulnerability DB: failed to download artifact from any
+│           source 
+├ exitcode: 1 
+╰ cmd     : docker run --pull always --rm  aquasec/trivy -f json  image openaf/oaf:nightly 
 ````
