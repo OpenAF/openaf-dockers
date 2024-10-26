@@ -13,10 +13,10 @@
                               ├ InstalledVersion: 9.4.56.v20240826 
                               ├ FixedVersion    : 12.0.12 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:8318167d4d7b4d4d4d1be98f8be401ca877c55cf6b5ae
-                              │                  │         9f9952f859553fae399 
-                              │                  ╰ DiffID: sha256:f1236dd680e6bc97e885dc2be13d2b4dd3b48cb125800
-                              │                            d814c6b3af938b8e810 
+                              ├ Layer            ╭ Digest: sha256:1ab04a3f942910495be98880b09b93e193d6cefb70c25
+                              │                  │         97ad42df817aa03b689 
+                              │                  ╰ DiffID: sha256:7811552af1b1099b94ab658addb68336a9f5982c6f3d5
+                              │                            ed7262014999a690f90 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-6763 
                               ├ DataSource       ╭ ID  : ghsa 
