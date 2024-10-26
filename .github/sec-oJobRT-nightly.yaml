@@ -15,8 +15,8 @@
     FixedVersion: 12.0.12
     Status: fixed
     Layer:
-      Digest: sha256:023e0f9a88e0fc2460bd4d91305155f9445c44cfea0caa8422de21b9d794cf43
-      DiffID: sha256:312fac4753a63cd7a3d63d14709bac04d2f8765d67aa4724e3a9eae7038f7f98
+      Digest: sha256:3ffb200f59d4c259504f17b863c4ba0bd4a62a4e46ac5e22ebc2a4ab6064efab
+      DiffID: sha256:4ac643341646b8b59186781da2f02bf3abcf928c85fa84da8604ac57d39403e9
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-6763
     DataSource:
