@@ -217,7 +217,8 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ oracle-oval: 2 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.8 
@@ -228,7 +229,7 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2318526 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2318530 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2318534 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21235.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-8127.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21235 
@@ -280,7 +281,8 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ oracle-oval: 2 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -291,7 +293,7 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2318526 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2318530 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2318534 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21208.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-8127.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21208 
@@ -337,7 +339,8 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ oracle-oval: 2 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -348,7 +351,7 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2318526 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2318530 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2318534 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21210.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-8127.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21210 
@@ -453,7 +456,8 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ oracle-oval: 2 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -464,7 +468,7 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2318526 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2318530 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2318534 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21217.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-8127.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21217 
@@ -519,7 +523,8 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ oracle-oval: 2 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.8 
@@ -530,7 +535,7 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2318526 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2318530 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2318534 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21235.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-8127.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21235 
@@ -582,7 +587,8 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ oracle-oval: 2 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -593,7 +599,7 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2318526 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2318530 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2318534 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21208.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-8127.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21208 
@@ -639,7 +645,8 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ oracle-oval: 2 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -650,7 +657,7 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2318526 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2318530 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2318534 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21210.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-8127.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21210 
@@ -755,7 +762,8 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ oracle-oval: 2 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -766,7 +774,7 @@
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2318526 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2318530 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2318534 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-21217.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2024-8127.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-21217 
