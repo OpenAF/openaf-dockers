@@ -399,7 +399,7 @@
 │                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-45492 
 │                       │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2024-6754.html 
-│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2024:6989 
+│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2024:6754 
 │                       │      │                  ├ [13]: https://github.com/libexpat/libexpat/blob/R_2_6_3/exp
 │                       │      │                  │       at/Changes 
 │                       │      │                  ├ [14]: https://github.com/libexpat/libexpat/issues/888 
