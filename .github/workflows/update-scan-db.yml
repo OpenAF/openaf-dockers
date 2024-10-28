@@ -35,3 +35,9 @@ jobs:
     - name: Store the trivy databases in cache
       run : |
         docker run --rm -v trivy-db:/volume -v /tmp/oaf:/backup busybox tar czf /backup/trivy-db.tgz -C /volume .
+
+    - name: Save cache
+      uses: actions/cache/save@v4
+      with:
+        key : oaf-t8
+        path: /tmp/oaf
