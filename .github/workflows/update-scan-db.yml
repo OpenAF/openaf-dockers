@@ -14,12 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     name: Scan DB update
     steps:
-    - name: Cache OpenAF runtime
-      uses: actions/cache/restore@v4
-      with:
-        key : oaf-t8
-        path: /tmp/oaf
-        
     - name: Retrieve trivy java database
       uses: openaf/ojob-action@v5
       with:
@@ -34,10 +28,10 @@ jobs:
 
     - name: Store the trivy databases in cache
       run : |
-        docker run --rm -v trivy-db:/volume -v /tmp/oaf:/backup busybox tar czf /backup/trivy-db.tgz -C /volume .
+        docker run --rm -v trivy-db:/volume -v /tmp/trivy-db:/backup busybox tar czf /backup/trivy-db.tgz -C /volume .
 
     - name: Save cache
       uses: actions/cache/save@v4
       with:
-        key : oaf-t8
-        path: /tmp/oaf
+        key : trivy-db
+        path: /tmp/trivy-db
