@@ -15,7 +15,7 @@ jobs:
     name: Scan DB update
     steps:
     - name: Cache OpenAF runtime
-      uses: actions/cache@v3
+      uses: actions/cache/restore@v4
       with:
         key : oaf-t8
         path: /tmp/oaf
