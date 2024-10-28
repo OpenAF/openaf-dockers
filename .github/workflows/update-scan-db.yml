@@ -1,4 +1,4 @@
-name: Scan Images
+name: Scan DB update
 
 on:
   workflow_dispatch:
@@ -6,13 +6,13 @@ on:
     - cron: '27 5 * * 5'
 
 jobs:
-  Scan-Images:
+  Scan-DB-Update:
     permissions:
       contents: write
       pull-requests: write
       
     runs-on: ubuntu-latest
-    name: Scan images
+    name: Scan DB update
     steps:
     - name: Cache OpenAF runtime
       uses: actions/cache@v3
