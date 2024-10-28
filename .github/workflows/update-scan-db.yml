@@ -20,6 +20,10 @@ jobs:
         key : oaf-t8
         path: /tmp/oaf
 
+    - name: Files cleanup
+      run : |
+        docker volume rm trivy-db 2>/dev/null || true
+
     - name: Retrieve trivy java database
       uses: openaf/ojob-action@v5
       with:
@@ -34,6 +38,8 @@ jobs:
 
     - name: Store the trivy databases in cache
       run : |
+        rm -rf /tmp/trivy-db
+        mkdir -p /tmp/trivy-db
         docker run --rm -v trivy-db:/volume -v /tmp/trivy-db:/backup busybox tar czf /backup/trivy-db.tgz -C /volume .
 
     - name: Save cache
