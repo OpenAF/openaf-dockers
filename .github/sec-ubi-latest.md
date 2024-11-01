@@ -1065,7 +1065,9 @@
 │                       │      │                   (Availability impacts).  CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L). 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-203 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -1086,7 +1088,7 @@
 │                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-21208 
 │                       │      │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.437Z 
-│                       │      ╰ LastModifiedDate: 2024-10-16T16:38:43.17Z 
+│                       │      ╰ LastModifiedDate: 2024-10-31T13:35:05.287Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2024-21210 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:8127 
 │                       │      ├ PkgID           : java-21-openjdk-headless@21.0.4.0.7-1.el9.x86_64 
@@ -1122,7 +1124,9 @@
 │                       │      │                   3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-203 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -1143,7 +1147,7 @@
 │                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-21210 
 │                       │      │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.843Z 
-│                       │      ╰ LastModifiedDate: 2024-10-16T16:38:43.17Z 
+│                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.037Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2024-21217 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:8127 
 │                       │      ├ PkgID           : java-21-openjdk-headless@21.0.4.0.7-1.el9.x86_64 
@@ -1186,6 +1190,7 @@
 │                       │      │                   CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -1252,6 +1257,7 @@
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -2001,6 +2007,7 @@
 │                       │      │                    have disputed this indicating upstream does not regard it
 │                       │      │                   as a security issue. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
@@ -2015,7 +2022,7 @@
 │                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-20240315-0006/ 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                       │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
-│                       │      ╰ LastModifiedDate: 2024-10-28T21:15:03.937Z 
+│                       │      ╰ LastModifiedDate: 2024-10-31T18:35:03.08Z 
 │                       ├ [35] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │      ├ PkgID           : ncurses-base@6.2-10.20210508.el9.noarch 
 │                       │      ├ PkgName         : ncurses-base 
@@ -2131,6 +2138,7 @@
 │                       │      │                    have disputed this indicating upstream does not regard it
 │                       │      │                   as a security issue. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
@@ -2145,7 +2153,7 @@
 │                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-20240315-0006/ 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                       │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
-│                       │      ╰ LastModifiedDate: 2024-10-28T21:15:03.937Z 
+│                       │      ╰ LastModifiedDate: 2024-10-31T18:35:03.08Z 
 │                       ├ [38] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │      ├ PkgID           : ncurses-libs@6.2-10.20210508.el9.x86_64 
 │                       │      ├ PkgName         : ncurses-libs 
@@ -4741,7 +4749,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5249,7 +5257,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5757,7 +5765,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
