@@ -409,7 +409,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45491
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45492
     - https://errata.almalinux.org/9/ALSA-2024-6754.html
-    - https://errata.rockylinux.org/RLSA-2024:6754
+    - https://errata.rockylinux.org/RLSA-2024:6989
     - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
     - https://github.com/libexpat/libexpat/issues/888
     - https://github.com/libexpat/libexpat/pull/891
@@ -1117,7 +1117,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
-      cbl-mariner: 2
+      cbl-mariner: 3
       photon: 2
       redhat: 1
     CVSS:
@@ -2380,7 +2380,7 @@
     - https://www.openssl.org/news/secadv/20240115.txt
     - https://www.openwall.com/lists/oss-security/2024/01/15/2
     PublishedDate: '2024-04-25T07:15:45.27Z'
-    LastModifiedDate: '2024-10-14T15:15:12.997Z'
+    LastModifiedDate: '2024-11-01T15:35:06.92Z'
   - VulnerabilityID: CVE-2024-2511
     PkgID: openssl@3.0.7-28.el9_4.x86_64
     PkgName: openssl
@@ -2779,7 +2779,7 @@
     - https://www.openssl.org/news/secadv/20240115.txt
     - https://www.openwall.com/lists/oss-security/2024/01/15/2
     PublishedDate: '2024-04-25T07:15:45.27Z'
-    LastModifiedDate: '2024-10-14T15:15:12.997Z'
+    LastModifiedDate: '2024-11-01T15:35:06.92Z'
   - VulnerabilityID: CVE-2024-2511
     PkgID: openssl-libs@3.0.7-28.el9_4.x86_64
     PkgName: openssl-libs
