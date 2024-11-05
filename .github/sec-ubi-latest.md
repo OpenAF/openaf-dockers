@@ -1727,7 +1727,7 @@
 │                       │      │                   xmlHTMLPrintFileContext in xmllint.c. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ╰ redhat     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -4251,6 +4251,7 @@
 │                       │      │                    flaw could result in leaked passwords, such as those found
 │                       │      │                   in /etc/shadow while performing authentications. 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-922 
 │                       │      ├ VendorSeverity   ─ redhat: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
@@ -4260,7 +4261,7 @@
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                       │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
-│                       │      ╰ LastModifiedDate: 2024-10-23T15:12:34.673Z 
+│                       │      ╰ LastModifiedDate: 2024-11-04T22:27:02.877Z 
 │                       ├ [73] ╭ VulnerabilityID : CVE-2022-41409 
 │                       │      ├ PkgID           : pcre2@10.40-5.el9.x86_64 
 │                       │      ├ PkgName         : pcre2 
@@ -4705,17 +4706,26 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9287 
-│                       │      │                  ├ [1]: https://github.com/python/cpython/commit/e52095a0c1005
-│                       │      │                  │      a87eed2276af7a1f2f66e2b6483 
-│                       │      │                  ├ [2]: https://github.com/python/cpython/issues/124651 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/pull/124712 
-│                       │      │                  ├ [4]: https://mail.python.org/archives/list/security-announc
-│                       │      │                  │      e@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL/ 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-9287 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-9287 
+│                       │      │                  ├ [1] : https://github.com/python/cpython/commit/633555735a02
+│                       │      │                  │       3d3e4d92ba31da35b1205f9ecbd7 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/8450b2482586
+│                       │      │                  │       857d689b6658f08de9c8179af7db 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/9286ab3a107e
+│                       │      │                  │       a41bd3f3c3682ce2512692bdded8 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/ae961ae94bf1
+│                       │      │                  │       9c8f8c7fbea3d1c25cc55ce8ae97 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/e52095a0c100
+│                       │      │                  │       5a87eed2276af7a1f2f66e2b6483 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/issues/124651 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/pull/124712 
+│                       │      │                  ├ [8] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL
+│                       │      │                  │       / 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-9287 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
 │                       │      ├ PublishedDate   : 2024-10-22T17:15:06.697Z 
-│                       │      ╰ LastModifiedDate: 2024-10-30T16:15:05.1Z 
+│                       │      ╰ LastModifiedDate: 2024-11-04T18:15:05.627Z 
 │                       ├ [79] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.18-3.el9_4.5.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
@@ -4749,7 +4759,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5213,17 +5223,26 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9287 
-│                       │      │                  ├ [1]: https://github.com/python/cpython/commit/e52095a0c1005
-│                       │      │                  │      a87eed2276af7a1f2f66e2b6483 
-│                       │      │                  ├ [2]: https://github.com/python/cpython/issues/124651 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/pull/124712 
-│                       │      │                  ├ [4]: https://mail.python.org/archives/list/security-announc
-│                       │      │                  │      e@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL/ 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-9287 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-9287 
+│                       │      │                  ├ [1] : https://github.com/python/cpython/commit/633555735a02
+│                       │      │                  │       3d3e4d92ba31da35b1205f9ecbd7 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/8450b2482586
+│                       │      │                  │       857d689b6658f08de9c8179af7db 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/9286ab3a107e
+│                       │      │                  │       a41bd3f3c3682ce2512692bdded8 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/ae961ae94bf1
+│                       │      │                  │       9c8f8c7fbea3d1c25cc55ce8ae97 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/e52095a0c100
+│                       │      │                  │       5a87eed2276af7a1f2f66e2b6483 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/issues/124651 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/pull/124712 
+│                       │      │                  ├ [8] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL
+│                       │      │                  │       / 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-9287 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
 │                       │      ├ PublishedDate   : 2024-10-22T17:15:06.697Z 
-│                       │      ╰ LastModifiedDate: 2024-10-30T16:15:05.1Z 
+│                       │      ╰ LastModifiedDate: 2024-11-04T18:15:05.627Z 
 │                       ├ [85] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python3@3.9.18-3.el9_4.5.x86_64 
 │                       │      ├ PkgName         : python3 
@@ -5257,7 +5276,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
@@ -5721,17 +5740,26 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:C/C:L/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9287 
-│                       │      │                  ├ [1]: https://github.com/python/cpython/commit/e52095a0c1005
-│                       │      │                  │      a87eed2276af7a1f2f66e2b6483 
-│                       │      │                  ├ [2]: https://github.com/python/cpython/issues/124651 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/pull/124712 
-│                       │      │                  ├ [4]: https://mail.python.org/archives/list/security-announc
-│                       │      │                  │      e@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL/ 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-9287 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-9287 
+│                       │      │                  ├ [1] : https://github.com/python/cpython/commit/633555735a02
+│                       │      │                  │       3d3e4d92ba31da35b1205f9ecbd7 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/8450b2482586
+│                       │      │                  │       857d689b6658f08de9c8179af7db 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/9286ab3a107e
+│                       │      │                  │       a41bd3f3c3682ce2512692bdded8 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/ae961ae94bf1
+│                       │      │                  │       9c8f8c7fbea3d1c25cc55ce8ae97 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/e52095a0c100
+│                       │      │                  │       5a87eed2276af7a1f2f66e2b6483 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/issues/124651 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/pull/124712 
+│                       │      │                  ├ [8] : https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL
+│                       │      │                  │       / 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-9287 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
 │                       │      ├ PublishedDate   : 2024-10-22T17:15:06.697Z 
-│                       │      ╰ LastModifiedDate: 2024-10-30T16:15:05.1Z 
+│                       │      ╰ LastModifiedDate: 2024-11-04T18:15:05.627Z 
 │                       ├ [91] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python3-libs@3.9.18-3.el9_4.5.x86_64 
 │                       │      ├ PkgName         : python3-libs 
@@ -5765,7 +5793,7 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:
