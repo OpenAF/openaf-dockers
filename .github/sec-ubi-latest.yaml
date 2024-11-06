@@ -289,7 +289,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47175
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47176
     - https://errata.almalinux.org/9/ALSA-2024-7346.html
-    - https://errata.rockylinux.org/RLSA-2024:7346
+    - https://errata.rockylinux.org/RLSA-2024:7463
     - https://github.com/OpenPrinting/cups-browsed/security/advisories/GHSA-rj88-6mr5-rcw8
     - https://github.com/OpenPrinting/cups-filters/security/advisories/GHSA-p9rh-jxmq-gq47
     - https://github.com/OpenPrinting/libcupsfilters/security/advisories/GHSA-w63j-6g73-wmg5
@@ -412,7 +412,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45491
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45492
     - https://errata.almalinux.org/9/ALSA-2024-6754.html
-    - https://errata.rockylinux.org/RLSA-2024:6754
+    - https://errata.rockylinux.org/RLSA-2024:6989
     - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
     - https://github.com/libexpat/libexpat/issues/887
     - https://github.com/libexpat/libexpat/pull/890
@@ -477,7 +477,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45491
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45492
     - https://errata.almalinux.org/9/ALSA-2024-6754.html
-    - https://errata.rockylinux.org/RLSA-2024:6754
+    - https://errata.rockylinux.org/RLSA-2024:6989
     - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
     - https://github.com/libexpat/libexpat/issues/888
     - https://github.com/libexpat/libexpat/pull/891
@@ -542,7 +542,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45491
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45492
     - https://errata.almalinux.org/9/ALSA-2024-6754.html
-    - https://errata.rockylinux.org/RLSA-2024:6754
+    - https://errata.rockylinux.org/RLSA-2024:6989
     - https://github.com/libexpat/libexpat/blob/R_2_6_3/expat/Changes
     - https://github.com/libexpat/libexpat/issues/889
     - https://github.com/libexpat/libexpat/pull/892
@@ -802,6 +802,7 @@
       nvd: 3
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 1
     CVSS:
       nvd:
@@ -818,7 +819,18 @@
     - https://bugzilla.redhat.com/2318526
     - https://bugzilla.redhat.com/2318530
     - https://bugzilla.redhat.com/2318534
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2251025
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318524
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318526
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318530
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318534
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48161
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21208
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21210
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21217
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21235
     - https://errata.almalinux.org/9/ALSA-2024-8127.html
+    - https://errata.rockylinux.org/RLSA-2024:8127
     - https://github.com/tacetool/TACE#cve-2023-48161
     - https://linux.oracle.com/cve/CVE-2023-48161.html
     - https://linux.oracle.com/errata/ELSA-2024-8127.html
@@ -916,6 +928,7 @@
       amazon: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 1
     CVSS:
       redhat:
@@ -929,7 +942,18 @@
     - https://bugzilla.redhat.com/2318526
     - https://bugzilla.redhat.com/2318530
     - https://bugzilla.redhat.com/2318534
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2251025
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318524
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318526
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318530
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318534
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48161
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21208
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21210
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21217
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21235
     - https://errata.almalinux.org/9/ALSA-2024-8127.html
+    - https://errata.rockylinux.org/RLSA-2024:8127
     - https://linux.oracle.com/cve/CVE-2024-21208.html
     - https://linux.oracle.com/errata/ELSA-2024-8127.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21208
@@ -963,6 +987,7 @@
       amazon: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 1
     CVSS:
       redhat:
@@ -976,7 +1001,18 @@
     - https://bugzilla.redhat.com/2318526
     - https://bugzilla.redhat.com/2318530
     - https://bugzilla.redhat.com/2318534
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2251025
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318524
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318526
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318530
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318534
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48161
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21208
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21210
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21217
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21235
     - https://errata.almalinux.org/9/ALSA-2024-8127.html
+    - https://errata.rockylinux.org/RLSA-2024:8127
     - https://linux.oracle.com/cve/CVE-2024-21210.html
     - https://linux.oracle.com/errata/ELSA-2024-8127.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21210
@@ -1008,6 +1044,7 @@
       amazon: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 1
     CVSS:
       redhat:
@@ -1021,7 +1058,18 @@
     - https://bugzilla.redhat.com/2318526
     - https://bugzilla.redhat.com/2318530
     - https://bugzilla.redhat.com/2318534
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2251025
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318524
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318526
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318530
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318534
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48161
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21208
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21210
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21217
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21235
     - https://errata.almalinux.org/9/ALSA-2024-8127.html
+    - https://errata.rockylinux.org/RLSA-2024:8127
     - https://linux.oracle.com/cve/CVE-2024-21217.html
     - https://linux.oracle.com/errata/ELSA-2024-8127.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21217
@@ -1053,6 +1101,7 @@
       amazon: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -1066,7 +1115,18 @@
     - https://bugzilla.redhat.com/2318526
     - https://bugzilla.redhat.com/2318530
     - https://bugzilla.redhat.com/2318534
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2251025
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318524
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318526
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318530
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318534
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48161
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21208
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21210
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21217
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21235
     - https://errata.almalinux.org/9/ALSA-2024-8127.html
+    - https://errata.rockylinux.org/RLSA-2024:8127
     - https://linux.oracle.com/cve/CVE-2024-21235.html
     - https://linux.oracle.com/errata/ELSA-2024-8127.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21235
@@ -3122,6 +3182,7 @@
       oracle-oval: 1
       photon: 4
       redhat: 1
+      rocky: 1
       ubuntu: 1
     CVSS:
       redhat:
@@ -3133,7 +3194,10 @@
     - https://access.redhat.com/errata/RHSA-2024:7848
     - https://access.redhat.com/security/cve/CVE-2024-5535
     - https://bugzilla.redhat.com/2294581
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2294581
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5535
     - https://errata.almalinux.org/8/ALSA-2024-7848.html
+    - https://errata.rockylinux.org/RLSA-2024:7848
     - https://github.com/openssl/openssl/commit/4ada436a1946cbb24db5ab4ca082b69c1bc10f37
     - https://github.com/openssl/openssl/commit/99fb785a5f85315b95288921a321a935ea29a51e
     - https://github.com/openssl/openssl/commit/cf6f91f6121f4db167405db2f0de410a456f260c
@@ -3601,6 +3665,7 @@
       oracle-oval: 1
       photon: 4
       redhat: 1
+      rocky: 1
       ubuntu: 1
     CVSS:
       redhat:
@@ -3612,7 +3677,10 @@
     - https://access.redhat.com/errata/RHSA-2024:7848
     - https://access.redhat.com/security/cve/CVE-2024-5535
     - https://bugzilla.redhat.com/2294581
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2294581
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5535
     - https://errata.almalinux.org/8/ALSA-2024-7848.html
+    - https://errata.rockylinux.org/RLSA-2024:7848
     - https://github.com/openssl/openssl/commit/4ada436a1946cbb24db5ab4ca082b69c1bc10f37
     - https://github.com/openssl/openssl/commit/99fb785a5f85315b95288921a321a935ea29a51e
     - https://github.com/openssl/openssl/commit/cf6f91f6121f4db167405db2f0de410a456f260c
@@ -4054,7 +4122,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4454,7 +4522,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -4854,7 +4922,7 @@
       amazon: 2
       azure: 3
       bitnami: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 2
     CVSS:
