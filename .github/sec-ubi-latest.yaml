@@ -101,6 +101,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      alma: 1
       amazon: 1
       cbl-mariner: 4
       nvd: 4
@@ -123,8 +124,11 @@
     - http://lists.opensuse.org/opensuse-security-announce/2019-12/msg00000.html
     - http://packetstormsecurity.com/files/153644/Slackware-Security-Advisory-bzip2-Updates.html
     - http://packetstormsecurity.com/files/153957/FreeBSD-Security-Advisory-FreeBSD-SA-19-18.bzip2.html
+    - https://access.redhat.com/errata/RHSA-2024:8922
     - https://access.redhat.com/security/cve/CVE-2019-12900
     - https://bugs.launchpad.net/ubuntu/+source/bzip2/+bug/1834494
+    - https://bugzilla.redhat.com/1724459
+    - https://errata.almalinux.org/8/ALSA-2024-8922.html
     - https://gitlab.com/federicomenaquintero/bzip2/commit/74de1e2e6ffc9d51ef9824db71a8ffee5962cdbc
     - https://lists.apache.org/thread.html/ra0adb9653c7de9539b93cc8434143b655f753b9f60580ff260becb2b%40%3Cusers.kafka.apache.org%3E
     - https://lists.apache.org/thread.html/rce8cd8c30f60604b580ea01bebda8a671a25c9a1629f409fc24e7774%40%3Cuser.flink.apache.org%3E
@@ -482,7 +486,7 @@
     - https://github.com/libexpat/libexpat/issues/888
     - https://github.com/libexpat/libexpat/pull/891
     - https://linux.oracle.com/cve/CVE-2024-45491.html
-    - https://linux.oracle.com/errata/ELSA-2024-6989.html
+    - https://linux.oracle.com/errata/ELSA-2024-8859.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-45491
     - https://ubuntu.com/security/notices/USN-7000-1
     - https://ubuntu.com/security/notices/USN-7000-2
@@ -802,6 +806,7 @@
       nvd: 3
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 1
     CVSS:
       nvd:
@@ -818,7 +823,18 @@
     - https://bugzilla.redhat.com/2318526
     - https://bugzilla.redhat.com/2318530
     - https://bugzilla.redhat.com/2318534
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2251025
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318524
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318526
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318530
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318534
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48161
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21208
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21210
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21217
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21235
     - https://errata.almalinux.org/9/ALSA-2024-8127.html
+    - https://errata.rockylinux.org/RLSA-2024:8127
     - https://github.com/tacetool/TACE#cve-2023-48161
     - https://linux.oracle.com/cve/CVE-2023-48161.html
     - https://linux.oracle.com/errata/ELSA-2024-8127.html
@@ -909,10 +925,14 @@
     Title: 'JDK: HTTP client improper handling of maxHeaderSize (8328286)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 8u421, 8u421-perf, 11.0.24, 17.0.12, 21.0.4, 23; Oracle GraalVM for JDK: 17.0.12, 21.0.4, 23; Oracle GraalVM Enterprise Edition: 20.3.15 and  21.3.11. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 3.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: MEDIUM
+    CweIDs:
+    - CWE-203
     VendorSeverity:
       alma: 2
+      amazon: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 1
     CVSS:
       redhat:
@@ -926,14 +946,25 @@
     - https://bugzilla.redhat.com/2318526
     - https://bugzilla.redhat.com/2318530
     - https://bugzilla.redhat.com/2318534
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2251025
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318524
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318526
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318530
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318534
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48161
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21208
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21210
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21217
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21235
     - https://errata.almalinux.org/9/ALSA-2024-8127.html
+    - https://errata.rockylinux.org/RLSA-2024:8127
     - https://linux.oracle.com/cve/CVE-2024-21208.html
     - https://linux.oracle.com/errata/ELSA-2024-8127.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21208
     - https://www.cve.org/CVERecord?id=CVE-2024-21208
     - https://www.oracle.com/security-alerts/cpuoct2024.html
     PublishedDate: '2024-10-15T20:15:09.437Z'
-    LastModifiedDate: '2024-10-16T16:38:43.17Z'
+    LastModifiedDate: '2024-10-31T13:35:05.287Z'
   - VulnerabilityID: CVE-2024-21210
     VendorIDs:
     - RHSA-2024:8127
@@ -953,10 +984,14 @@
     Title: 'JDK: Array indexing integer overflow (8328544)'
     Description: 'Vulnerability in Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u421, 8u421-perf, 11.0.24, 17.0.12, 21.0.4 and  23. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
     Severity: MEDIUM
+    CweIDs:
+    - CWE-203
     VendorSeverity:
       alma: 2
+      amazon: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 1
     CVSS:
       redhat:
@@ -970,14 +1005,25 @@
     - https://bugzilla.redhat.com/2318526
     - https://bugzilla.redhat.com/2318530
     - https://bugzilla.redhat.com/2318534
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2251025
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318524
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318526
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318530
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318534
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48161
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21208
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21210
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21217
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21235
     - https://errata.almalinux.org/9/ALSA-2024-8127.html
+    - https://errata.rockylinux.org/RLSA-2024:8127
     - https://linux.oracle.com/cve/CVE-2024-21210.html
     - https://linux.oracle.com/errata/ELSA-2024-8127.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21210
     - https://www.cve.org/CVERecord?id=CVE-2024-21210
     - https://www.oracle.com/security-alerts/cpuoct2024.html
     PublishedDate: '2024-10-15T20:15:09.843Z'
-    LastModifiedDate: '2024-10-16T16:38:43.17Z'
+    LastModifiedDate: '2024-10-31T13:35:06.037Z'
   - VulnerabilityID: CVE-2024-21217
     VendorIDs:
     - RHSA-2024:8127
@@ -999,8 +1045,10 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
+      amazon: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 1
     CVSS:
       redhat:
@@ -1014,7 +1062,18 @@
     - https://bugzilla.redhat.com/2318526
     - https://bugzilla.redhat.com/2318530
     - https://bugzilla.redhat.com/2318534
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2251025
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318524
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318526
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318530
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318534
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48161
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21208
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21210
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21217
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21235
     - https://errata.almalinux.org/9/ALSA-2024-8127.html
+    - https://errata.rockylinux.org/RLSA-2024:8127
     - https://linux.oracle.com/cve/CVE-2024-21217.html
     - https://linux.oracle.com/errata/ELSA-2024-8127.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21217
@@ -1043,8 +1102,10 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
+      amazon: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -1058,7 +1119,18 @@
     - https://bugzilla.redhat.com/2318526
     - https://bugzilla.redhat.com/2318530
     - https://bugzilla.redhat.com/2318534
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2251025
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318524
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318526
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318530
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2318534
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48161
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21208
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21210
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21217
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21235
     - https://errata.almalinux.org/9/ALSA-2024-8127.html
+    - https://errata.rockylinux.org/RLSA-2024:8127
     - https://linux.oracle.com/cve/CVE-2024-21235.html
     - https://linux.oracle.com/errata/ELSA-2024-8127.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21235
@@ -1479,7 +1551,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
-      cbl-mariner: 2
+      cbl-mariner: 3
       photon: 2
       redhat: 1
     CVSS:
@@ -1728,6 +1800,8 @@
     Title: 'ncurses: NULL pointer dereference in tgetstr in tinfo/lib_termcap.c'
     Description: 'ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinfo/lib_termcap.c. NOTE: Multiple third parties have disputed this indicating upstream does not regard it as a security issue.'
     Severity: LOW
+    CweIDs:
+    - CWE-476
     VendorSeverity:
       amazon: 2
       redhat: 1
@@ -1744,7 +1818,7 @@
     - https://security.netapp.com/advisory/ntap-20240315-0006/
     - https://www.cve.org/CVERecord?id=CVE-2023-45918
     PublishedDate: '2024-02-16T22:15:07.88Z'
-    LastModifiedDate: '2024-10-28T21:15:03.937Z'
+    LastModifiedDate: '2024-10-31T18:35:03.08Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: ncurses-base@6.2-10.20210508.el9.noarch
     PkgName: ncurses-base
@@ -1849,6 +1923,8 @@
     Title: 'ncurses: NULL pointer dereference in tgetstr in tinfo/lib_termcap.c'
     Description: 'ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinfo/lib_termcap.c. NOTE: Multiple third parties have disputed this indicating upstream does not regard it as a security issue.'
     Severity: LOW
+    CweIDs:
+    - CWE-476
     VendorSeverity:
       amazon: 2
       redhat: 1
@@ -1865,7 +1941,7 @@
     - https://security.netapp.com/advisory/ntap-20240315-0006/
     - https://www.cve.org/CVERecord?id=CVE-2023-45918
     PublishedDate: '2024-02-16T22:15:07.88Z'
-    LastModifiedDate: '2024-10-28T21:15:03.937Z'
+    LastModifiedDate: '2024-10-31T18:35:03.08Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: ncurses-libs@6.2-10.20210508.el9.x86_64
     PkgName: ncurses-libs
@@ -2818,7 +2894,7 @@
     - https://www.openssl.org/news/secadv/20240115.txt
     - https://www.openwall.com/lists/oss-security/2024/01/15/2
     PublishedDate: '2024-04-25T07:15:45.27Z'
-    LastModifiedDate: '2024-10-14T15:15:12.997Z'
+    LastModifiedDate: '2024-11-01T15:35:06.92Z'
   - VulnerabilityID: CVE-2024-2511
     PkgID: openssl@3.0.7-27.el9.x86_64
     PkgName: openssl
@@ -3110,6 +3186,7 @@
       oracle-oval: 1
       photon: 4
       redhat: 1
+      rocky: 1
       ubuntu: 1
     CVSS:
       redhat:
@@ -3121,7 +3198,10 @@
     - https://access.redhat.com/errata/RHSA-2024:7848
     - https://access.redhat.com/security/cve/CVE-2024-5535
     - https://bugzilla.redhat.com/2294581
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2294581
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5535
     - https://errata.almalinux.org/8/ALSA-2024-7848.html
+    - https://errata.rockylinux.org/RLSA-2024:7848
     - https://github.com/openssl/openssl/commit/4ada436a1946cbb24db5ab4ca082b69c1bc10f37
     - https://github.com/openssl/openssl/commit/99fb785a5f85315b95288921a321a935ea29a51e
     - https://github.com/openssl/openssl/commit/cf6f91f6121f4db167405db2f0de410a456f260c
@@ -3297,7 +3377,7 @@
     - https://www.openssl.org/news/secadv/20240115.txt
     - https://www.openwall.com/lists/oss-security/2024/01/15/2
     PublishedDate: '2024-04-25T07:15:45.27Z'
-    LastModifiedDate: '2024-10-14T15:15:12.997Z'
+    LastModifiedDate: '2024-11-01T15:35:06.92Z'
   - VulnerabilityID: CVE-2024-2511
     PkgID: openssl-libs@3.0.7-27.el9.x86_64
     PkgName: openssl-libs
@@ -3589,6 +3669,7 @@
       oracle-oval: 1
       photon: 4
       redhat: 1
+      rocky: 1
       ubuntu: 1
     CVSS:
       redhat:
@@ -3600,7 +3681,10 @@
     - https://access.redhat.com/errata/RHSA-2024:7848
     - https://access.redhat.com/security/cve/CVE-2024-5535
     - https://bugzilla.redhat.com/2294581
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2294581
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5535
     - https://errata.almalinux.org/8/ALSA-2024-7848.html
+    - https://errata.rockylinux.org/RLSA-2024:7848
     - https://github.com/openssl/openssl/commit/4ada436a1946cbb24db5ab4ca082b69c1bc10f37
     - https://github.com/openssl/openssl/commit/99fb785a5f85315b95288921a321a935ea29a51e
     - https://github.com/openssl/openssl/commit/cf6f91f6121f4db167405db2f0de410a456f260c
@@ -3634,6 +3718,8 @@
     Title: 'pam: libpam: Libpam vulnerable to read hashed password'
     Description: A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending characters to its standard input (stdin). As this occurs, the attacker can train the branch predictor to execute an ROP chain speculatively. This flaw could result in leaked passwords, such as those found in /etc/shadow while performing authentications.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-922
     VendorSeverity:
       redhat: 2
     CVSS:
@@ -3646,7 +3732,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
     - https://www.cve.org/CVERecord?id=CVE-2024-10041
     PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-10-23T15:12:34.673Z'
+    LastModifiedDate: '2024-11-04T22:27:02.877Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: pcre2@10.40-5.el9.x86_64
     PkgName: pcre2
@@ -3887,7 +3973,7 @@
     - https://github.com/python/cpython/issues/121285
     - https://github.com/python/cpython/pull/121286
     - https://linux.oracle.com/cve/CVE-2024-6232.html
-    - https://linux.oracle.com/errata/ELSA-2024-8447.html
+    - https://linux.oracle.com/errata/ELSA-2024-8838.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
     - https://ubuntu.com/security/notices/USN-7015-1
@@ -4000,6 +4086,10 @@
         V3Score: 6.3
     References:
     - https://access.redhat.com/security/cve/CVE-2024-9287
+    - https://github.com/python/cpython/commit/633555735a023d3e4d92ba31da35b1205f9ecbd7
+    - https://github.com/python/cpython/commit/8450b2482586857d689b6658f08de9c8179af7db
+    - https://github.com/python/cpython/commit/9286ab3a107ea41bd3f3c3682ce2512692bdded8
+    - https://github.com/python/cpython/commit/ae961ae94bf19c8f8c7fbea3d1c25cc55ce8ae97
     - https://github.com/python/cpython/commit/e52095a0c1005a87eed2276af7a1f2f66e2b6483
     - https://github.com/python/cpython/issues/124651
     - https://github.com/python/cpython/pull/124712
@@ -4007,7 +4097,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9287
     - https://www.cve.org/CVERecord?id=CVE-2024-9287
     PublishedDate: '2024-10-22T17:15:06.697Z'
-    LastModifiedDate: '2024-10-30T16:15:05.1Z'
+    LastModifiedDate: '2024-11-04T18:15:05.627Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python-unversioned-command@3.9.18-3.el9_4.5.noarch
     PkgName: python-unversioned-command
@@ -4283,7 +4373,7 @@
     - https://github.com/python/cpython/issues/121285
     - https://github.com/python/cpython/pull/121286
     - https://linux.oracle.com/cve/CVE-2024-6232.html
-    - https://linux.oracle.com/errata/ELSA-2024-8447.html
+    - https://linux.oracle.com/errata/ELSA-2024-8838.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
     - https://ubuntu.com/security/notices/USN-7015-1
@@ -4396,6 +4486,10 @@
         V3Score: 6.3
     References:
     - https://access.redhat.com/security/cve/CVE-2024-9287
+    - https://github.com/python/cpython/commit/633555735a023d3e4d92ba31da35b1205f9ecbd7
+    - https://github.com/python/cpython/commit/8450b2482586857d689b6658f08de9c8179af7db
+    - https://github.com/python/cpython/commit/9286ab3a107ea41bd3f3c3682ce2512692bdded8
+    - https://github.com/python/cpython/commit/ae961ae94bf19c8f8c7fbea3d1c25cc55ce8ae97
     - https://github.com/python/cpython/commit/e52095a0c1005a87eed2276af7a1f2f66e2b6483
     - https://github.com/python/cpython/issues/124651
     - https://github.com/python/cpython/pull/124712
@@ -4403,7 +4497,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9287
     - https://www.cve.org/CVERecord?id=CVE-2024-9287
     PublishedDate: '2024-10-22T17:15:06.697Z'
-    LastModifiedDate: '2024-10-30T16:15:05.1Z'
+    LastModifiedDate: '2024-11-04T18:15:05.627Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python3@3.9.18-3.el9_4.5.x86_64
     PkgName: python3
@@ -4679,7 +4773,7 @@
     - https://github.com/python/cpython/issues/121285
     - https://github.com/python/cpython/pull/121286
     - https://linux.oracle.com/cve/CVE-2024-6232.html
-    - https://linux.oracle.com/errata/ELSA-2024-8447.html
+    - https://linux.oracle.com/errata/ELSA-2024-8838.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/JRYFTPRHZRTLMZLWQEUHZSJXNHM4ACTY/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6232
     - https://ubuntu.com/security/notices/USN-7015-1
@@ -4792,6 +4886,10 @@
         V3Score: 6.3
     References:
     - https://access.redhat.com/security/cve/CVE-2024-9287
+    - https://github.com/python/cpython/commit/633555735a023d3e4d92ba31da35b1205f9ecbd7
+    - https://github.com/python/cpython/commit/8450b2482586857d689b6658f08de9c8179af7db
+    - https://github.com/python/cpython/commit/9286ab3a107ea41bd3f3c3682ce2512692bdded8
+    - https://github.com/python/cpython/commit/ae961ae94bf19c8f8c7fbea3d1c25cc55ce8ae97
     - https://github.com/python/cpython/commit/e52095a0c1005a87eed2276af7a1f2f66e2b6483
     - https://github.com/python/cpython/issues/124651
     - https://github.com/python/cpython/pull/124712
@@ -4799,7 +4897,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9287
     - https://www.cve.org/CVERecord?id=CVE-2024-9287
     PublishedDate: '2024-10-22T17:15:06.697Z'
-    LastModifiedDate: '2024-10-30T16:15:05.1Z'
+    LastModifiedDate: '2024-11-04T18:15:05.627Z'
   - VulnerabilityID: CVE-2024-0397
     PkgID: python3-libs@3.9.18-3.el9_4.5.x86_64
     PkgName: python3-libs
@@ -4961,7 +5059,7 @@
     - https://github.com/urllib3/urllib3/commit/accff72ecc2f6cf5a76d9570198a93ac7c90270e
     - https://github.com/urllib3/urllib3/security/advisories/GHSA-34jh-p97f-mpxf
     - https://linux.oracle.com/cve/CVE-2024-37891.html
-    - https://linux.oracle.com/errata/ELSA-2024-6311.html
+    - https://linux.oracle.com/errata/ELSA-2024-8843.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-37891
     - https://ubuntu.com/security/notices/USN-7084-1
     - https://ubuntu.com/security/notices/USN-7084-2
