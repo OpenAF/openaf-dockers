@@ -2,7 +2,69 @@
 ╭ [0] ╭ Target         : openaf/oaf:8-latest (alpine 3.20.3) 
 │     ├ Class          : os-pkgs 
 │     ├ Type           : alpine 
-│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-9143 
+│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-9681 
+│                       │     ├ PkgID           : curl@8.10.1-r0 
+│                       │     ├ PkgName         : curl 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.10.1-r0?arch=x86_64&distro=3.20.3 
+│                       │     │                  ╰ UID : f07e06b001c6f80a 
+│                       │     ├ InstalledVersion: 8.10.1-r0 
+│                       │     ├ FixedVersion    : 8.11.0-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee2
+│                       │     │                  │         801b3e28133325c482b 
+│                       │     │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed2
+│                       │     │                            8ea1250ef005595c5f9 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9681 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Title           : When curl is asked to use HSTS, the expiry time for a
+│                       │     │                   subdomain might  ... 
+│                       │     ├ Description     : When curl is asked to use HSTS, the expiry time for a
+│                       │     │                   subdomain might
+│                       │     │                   overwrite a parent domain's cache entry, making it end sooner
+│                       │     │                    or later than
+│                       │     │                   otherwise intended.
+│                       │     │                   
+│                       │     │                   This affects curl using applications that enable HSTS and use
+│                       │     │                    URLs with the
+│                       │     │                   insecure `HTTP://` scheme and perform transfers with hosts
+│                       │     │                   like
+│                       │     │                   `x.example.com` as well as `example.com` where the first host
+│                       │     │                    is a subdomain
+│                       │     │                   of the second host.
+│                       │     │                   (The HSTS cache either needs to have been populated manually
+│                       │     │                   or there needs to
+│                       │     │                   have been previous HTTPS accesses done as the cache needs to
+│                       │     │                   have entries for
+│                       │     │                   the domains involved to trigger this problem.)
+│                       │     │                   When `x.example.com` responds with
+│                       │     │                   `Strict-Transport-Security:` headers, this
+│                       │     │                   bug can make the subdomain's expiry timeout *bleed over* and
+│                       │     │                   get set for the
+│                       │     │                   parent domain `example.com` in curl's HSTS cache.
+│                       │     │                   The result of a triggered bug is that HTTP accesses to
+│                       │     │                   `example.com` get
+│                       │     │                   converted to HTTPS for a different period of time than what
+│                       │     │                   was asked for by
+│                       │     │                   the origin server. If `example.com` for example stops
+│                       │     │                   supporting HTTPS at its
+│                       │     │                   expiry time, curl might then fail to access
+│                       │     │                   `http://example.com` until the
+│                       │     │                   (wrongly set) timeout expires. This bug can also expire the
+│                       │     │                   parent's entry
+│                       │     │                   *earlier*, thus making curl inadvertently switch back to
+│                       │     │                   insecure HTTP earlier
+│                       │     │                   than otherwise intended. 
+│                       │     ├ Severity        : LOW 
+│                       │     ├ VendorSeverity   ─ ubuntu: 1 
+│                       │     ├ References       ╭ [0]: https://curl.se/docs/CVE-2024-9681.html 
+│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.json 
+│                       │     │                  ├ [2]: https://hackerone.com/reports/2764830 
+│                       │     │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │     ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
+│                       │     ╰ LastModifiedDate: 2024-11-06T18:17:17.287Z 
+│                       ├ [1] ╭ VulnerabilityID : CVE-2024-9143 
 │                       │     ├ PkgID           : libcrypto3@3.3.2-r0 
 │                       │     ├ PkgName         : libcrypto3 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.3.2-r0?arch=x86_64&distro=
@@ -86,7 +148,70 @@
 │                       │     │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-9143 
 │                       │     ├ PublishedDate   : 2024-10-16T17:15:18.13Z 
 │                       │     ╰ LastModifiedDate: 2024-10-18T12:53:04.627Z 
-│                       ├ [1] ╭ VulnerabilityID : CVE-2024-9143 
+│                       ├ [2] ╭ VulnerabilityID : CVE-2024-9681 
+│                       │     ├ PkgID           : libcurl@8.10.1-r0 
+│                       │     ├ PkgName         : libcurl 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.10.1-r0?arch=x86_64&distro=3.
+│                       │     │                  │       20.3 
+│                       │     │                  ╰ UID : 49f1e7608626c36e 
+│                       │     ├ InstalledVersion: 8.10.1-r0 
+│                       │     ├ FixedVersion    : 8.11.0-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee2
+│                       │     │                  │         801b3e28133325c482b 
+│                       │     │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed2
+│                       │     │                            8ea1250ef005595c5f9 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9681 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Title           : When curl is asked to use HSTS, the expiry time for a
+│                       │     │                   subdomain might  ... 
+│                       │     ├ Description     : When curl is asked to use HSTS, the expiry time for a
+│                       │     │                   subdomain might
+│                       │     │                   overwrite a parent domain's cache entry, making it end sooner
+│                       │     │                    or later than
+│                       │     │                   otherwise intended.
+│                       │     │                   
+│                       │     │                   This affects curl using applications that enable HSTS and use
+│                       │     │                    URLs with the
+│                       │     │                   insecure `HTTP://` scheme and perform transfers with hosts
+│                       │     │                   like
+│                       │     │                   `x.example.com` as well as `example.com` where the first host
+│                       │     │                    is a subdomain
+│                       │     │                   of the second host.
+│                       │     │                   (The HSTS cache either needs to have been populated manually
+│                       │     │                   or there needs to
+│                       │     │                   have been previous HTTPS accesses done as the cache needs to
+│                       │     │                   have entries for
+│                       │     │                   the domains involved to trigger this problem.)
+│                       │     │                   When `x.example.com` responds with
+│                       │     │                   `Strict-Transport-Security:` headers, this
+│                       │     │                   bug can make the subdomain's expiry timeout *bleed over* and
+│                       │     │                   get set for the
+│                       │     │                   parent domain `example.com` in curl's HSTS cache.
+│                       │     │                   The result of a triggered bug is that HTTP accesses to
+│                       │     │                   `example.com` get
+│                       │     │                   converted to HTTPS for a different period of time than what
+│                       │     │                   was asked for by
+│                       │     │                   the origin server. If `example.com` for example stops
+│                       │     │                   supporting HTTPS at its
+│                       │     │                   expiry time, curl might then fail to access
+│                       │     │                   `http://example.com` until the
+│                       │     │                   (wrongly set) timeout expires. This bug can also expire the
+│                       │     │                   parent's entry
+│                       │     │                   *earlier*, thus making curl inadvertently switch back to
+│                       │     │                   insecure HTTP earlier
+│                       │     │                   than otherwise intended. 
+│                       │     ├ Severity        : LOW 
+│                       │     ├ VendorSeverity   ─ ubuntu: 1 
+│                       │     ├ References       ╭ [0]: https://curl.se/docs/CVE-2024-9681.html 
+│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.json 
+│                       │     │                  ├ [2]: https://hackerone.com/reports/2764830 
+│                       │     │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │     ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
+│                       │     ╰ LastModifiedDate: 2024-11-06T18:17:17.287Z 
+│                       ├ [3] ╭ VulnerabilityID : CVE-2024-9143 
 │                       │     ├ PkgID           : libssl3@3.3.2-r0 
 │                       │     ├ PkgName         : libssl3 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.3.2-r0?arch=x86_64&distro=3.2
@@ -170,7 +295,7 @@
 │                       │     │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-9143 
 │                       │     ├ PublishedDate   : 2024-10-16T17:15:18.13Z 
 │                       │     ╰ LastModifiedDate: 2024-10-18T12:53:04.627Z 
-│                       ╰ [2] ╭ VulnerabilityID : CVE-2024-9143 
+│                       ╰ [4] ╭ VulnerabilityID : CVE-2024-9143 
 │                             ├ PkgID           : openssl@3.3.2-r0 
 │                             ├ PkgName         : openssl 
 │                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.3.2-r0?arch=x86_64&distro=3.2
