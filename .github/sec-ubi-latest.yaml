@@ -105,6 +105,7 @@
       amazon: 1
       cbl-mariner: 4
       nvd: 4
+      oracle-oval: 1
       photon: 4
       redhat: 1
       ubuntu: 2
@@ -130,6 +131,8 @@
     - https://bugzilla.redhat.com/1724459
     - https://errata.almalinux.org/8/ALSA-2024-8922.html
     - https://gitlab.com/federicomenaquintero/bzip2/commit/74de1e2e6ffc9d51ef9824db71a8ffee5962cdbc
+    - https://linux.oracle.com/cve/CVE-2019-12900.html
+    - https://linux.oracle.com/errata/ELSA-2024-8922.html
     - https://lists.apache.org/thread.html/ra0adb9653c7de9539b93cc8434143b655f753b9f60580ff260becb2b%40%3Cusers.kafka.apache.org%3E
     - https://lists.apache.org/thread.html/rce8cd8c30f60604b580ea01bebda8a671a25c9a1629f409fc24e7774%40%3Cuser.flink.apache.org%3E
     - https://lists.apache.org/thread.html/rda98305669476c4d90cc8527c4deda7e449019dd1fe9936b56671dd4%40%3Cuser.flink.apache.org%3E
@@ -3143,6 +3146,37 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10041
     PublishedDate: '2024-10-23T14:15:03.97Z'
     LastModifiedDate: '2024-11-04T22:27:02.877Z'
+  - VulnerabilityID: CVE-2024-10963
+    PkgID: pam@1.5.1-19.el9.x86_64
+    PkgName: pam
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/pam@1.5.1-19.el9?arch=x86_64&distro=redhat-9.4
+      UID: 4c59d4ee3bb055cc
+    InstalledVersion: 1.5.1-19.el9
+    Status: affected
+    Layer:
+      Digest: sha256:1346b17d0e1c3f4b61badca192bc70f5cd3957b95f2310cf3c18b74b220099d2
+      DiffID: sha256:28e575353d006d6acdd977be9d862357e971ac6233c4c431df66f290b0c62194
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
+    Title: 'pam: Improper Hostname Interpretation in pam_access Leads to Access Control Bypass'
+    Description: A vulnerability was found in pam_access due to the improper handling of tokens in access.conf, interpreted as hostnames. This flaw allows attackers to bypass access restrictions by spoofing hostnames, undermining configurations designed to limit access to specific TTYs or services. The flaw poses a risk in environments relying on these configurations for local access control.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-287
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-10963
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-10963
+    - https://www.cve.org/CVERecord?id=CVE-2024-10963
+    PublishedDate: '2024-11-07T16:15:17.15Z'
+    LastModifiedDate: '2024-11-08T07:15:06.5Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: pcre2@10.40-5.el9.x86_64
     PkgName: pcre2
