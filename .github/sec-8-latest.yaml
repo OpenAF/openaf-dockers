@@ -202,7 +202,7 @@
     CweIDs:
     - CWE-754
     VendorSeverity:
-      azure: 3
+      azure: 2
       cbl-mariner: 3
       redhat: 2
     CVSS:
