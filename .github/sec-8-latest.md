@@ -236,8 +236,8 @@
 │                       │     │                   XML_StopParser can stop/suspend an unstarted parser. 
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-754 
-│                       │     ├ VendorSeverity   ╭ azure      : 2 
-│                       │     │                  ├ cbl-mariner: 3 
+│                       │     ├ VendorSeverity   ╭ azure      : 3 
+│                       │     │                  ├ cbl-mariner: 2 
 │                       │     │                  ╰ redhat     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
 │                       │     │                           │           A:H 
