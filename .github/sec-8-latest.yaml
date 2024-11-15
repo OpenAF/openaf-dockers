@@ -203,7 +203,7 @@
     - CWE-754
     VendorSeverity:
       azure: 3
-      cbl-mariner: 3
+      cbl-mariner: 2
       redhat: 2
     CVSS:
       redhat:
