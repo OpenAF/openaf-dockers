@@ -379,7 +379,7 @@
 │                       │      │                  ├ [16]: https://github.com/OpenPrinting/libppd/security/advis
 │                       │      │                  │       ories/GHSA-7xfx-47qg-grp6 
 │                       │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2024-47175.html 
-│                       │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2024-7463.html 
+│                       │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2024-7553.html 
 │                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2024-47175 
 │                       │      │                  ├ [20]: https://ubuntu.com/blog/cups-remote-code-execution-vu
 │                       │      │                  │       lnerability-fix-available 
@@ -427,7 +427,8 @@
 │                       │      │                   NFO.html) is used. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
@@ -536,16 +537,23 @@
 │                       │      │                   XML_StopParser can stop/suspend an unstarted parser. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
-│                       │      ├ VendorSeverity   ╭ azure      : 3 
-│                       │      │                  ├ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ╰ redhat     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-50602 
-│                       │      │                  ├ [1]: https://github.com/libexpat/libexpat/pull/915 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-50602 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-50602 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:9502 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-50602 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2321987 
+│                       │      │                  ├ [3]: https://errata.almalinux.org/8/ALSA-2024-9502.html 
+│                       │      │                  ├ [4]: https://github.com/libexpat/libexpat/pull/915 
+│                       │      │                  ├ [5]: https://linux.oracle.com/cve/CVE-2024-50602.html 
+│                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2024-9502.html 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-50602 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-50602 
 │                       │      ├ PublishedDate   : 2024-10-27T05:15:04.09Z 
 │                       │      ╰ LastModifiedDate: 2024-10-30T18:35:16.237Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2023-4156 
@@ -594,7 +602,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-4156 
 │                       │      ├ PublishedDate   : 2023-09-25T18:15:11.013Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T04:22:11.937Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2024-34397 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2024-52533 
 │                       │      ├ PkgID           : glib2@2.68.4-14.el9_4.1.x86_64 
 │                       │      ├ PkgName         : glib2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glib2@2.68.4-14.el9_4.1?arch=x86_64&di
@@ -607,63 +615,28 @@
 │                       │      │                  ╰ DiffID: sha256:28e575353d006d6acdd977be9d862357e971ac6233c4
 │                       │      │                            c431df66f290b0c62194 
 │                       │      ├ SeveritySource  : redhat 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-34397 
-│                       │      ├ Title           : glib2: Signal subscription vulnerabilities 
-│                       │      ├ Description     : An issue was discovered in GNOME GLib before 2.78.5, and
-│                       │      │                   2.79.x and 2.80.x before 2.80.1. When a GDBus-based client
-│                       │      │                   subscribes to signals from a trusted system service such as
-│                       │      │                   NetworkManager on a shared computer, other users of the same
-│                       │      │                    computer can send spoofed D-Bus signals that the
-│                       │      │                   GDBus-based client will wrongly interpret as having been
-│                       │      │                   sent by the trusted system service. This could lead to the
-│                       │      │                   GDBus-based client behaving incorrectly, with an
-│                       │      │                   application-dependent impact. 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-52533 
+│                       │      ├ Title           : glib: buffer overflow in set_connect_msg() 
+│                       │      ├ Description     : gio/gsocks4aproxy.c in GNOME GLib before 2.82.1 has an
+│                       │      │                   off-by-one error and resultant buffer overflow because
+│                       │      │                   SOCKS4_CONN_MSG_LEN is not sufficient for a trailing '\0'
+│                       │      │                   character. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ oracle-oval: 2 
-│                       │      │                  ├ photon     : 1 
-│                       │      │                  ├ redhat     : 2 
-│                       │      │                  ├ rocky      : 2 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:L
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 3.8 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:6464 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-34397 
-│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2279632 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2279632 
-│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-34397 
-│                       │      │                  ├ [5] : https://discourse.gnome.org/t/security-fixes-for-sign
-│                       │      │                  │       al-handling-in-gdbus-in-glib/20882/1 
-│                       │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2024-6464.html 
-│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2024:6464 
-│                       │      │                  ├ [8] : https://gitlab.gnome.org/GNOME/glib/-/issues/3268 
-│                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-34397.html 
-│                       │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-6464.html 
-│                       │      │                  ├ [11]: https://lists.debian.org/debian-lts-announce/2024/05/
-│                       │      │                  │       msg00008.html 
-│                       │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/IRSFYAE5X
-│                       │      │                  │       23TNRWX7ZWEJOMISLCDSYNS/ 
-│                       │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/LCDY3KA7G
-│                       │      │                  │       7D3DRXYTT46K6LFHS2KHWBH/ 
-│                       │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/LL6HSJDXC
-│                       │      │                  │       XMLEIJBYV6CPOR4K2NTCTXW/ 
-│                       │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/package
-│                       │      │                  │       -announce%40lists.fedoraproject.org/message/UNFJHISR4
-│                       │      │                  │       O6VFOHBFWH5I5WWMG37H63A/ 
-│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-34397 
-│                       │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-20240531-00
-│                       │      │                  │       08/ 
-│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6768-1 
-│                       │      │                  ├ [19]: https://www.cve.org/CVERecord?id=CVE-2024-34397 
-│                       │      │                  ╰ [20]: https://www.openwall.com/lists/oss-security/2024/05/0
-│                       │      │                          7/5 
-│                       │      ├ PublishedDate   : 2024-05-07T18:15:08.35Z 
-│                       │      ╰ LastModifiedDate: 2024-06-10T18:15:34.863Z 
+│                       │      ├ CweIDs           ─ [0]: CWE-120 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-52533 
+│                       │      │                  ├ [1]: https://gitlab.gnome.org/GNOME/glib/-/issues/3461 
+│                       │      │                  ├ [2]: https://gitlab.gnome.org/GNOME/glib/-/releases/2.82.1 
+│                       │      │                  ├ [3]: https://gitlab.gnome.org/Teams/Releng/security/-/wikis
+│                       │      │                  │      /home 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-52533 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-52533 
+│                       │      ├ PublishedDate   : 2024-11-11T23:15:05.967Z 
+│                       │      ╰ LastModifiedDate: 2024-11-12T16:35:24.297Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2023-32636 
 │                       │      ├ PkgID           : glib2@2.68.4-14.el9_4.1.x86_64 
 │                       │      ├ PkgName         : glib2 
@@ -1140,7 +1113,8 @@
 │                       │      │                   NFO.html) is used. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
@@ -1371,7 +1345,7 @@
 │                       │      │                   xmlHTMLPrintFileContext in xmllint.c. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ╰ redhat     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
@@ -2722,95 +2696,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
 │                       │      ├ PublishedDate   : 2023-05-30T22:15:10.613Z 
 │                       │      ╰ LastModifiedDate: 2023-08-02T16:46:03.663Z 
-│                       ├ [52] ╭ VulnerabilityID : CVE-2023-6237 
-│                       │      ├ PkgID           : openssl@3.0.7-28.el9_4.x86_64 
-│                       │      ├ PkgName         : openssl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.0.7-28.el9_4?arch=x86_64&dis
-│                       │      │                  │       tro=redhat-9.4&epoch=1 
-│                       │      │                  ╰ UID : c6d0d884c77d678d 
-│                       │      ├ InstalledVersion: 1:3.0.7-28.el9_4 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:1346b17d0e1c3f4b61badca192bc70f5cd3957b95f23
-│                       │      │                  │         10cf3c18b74b220099d2 
-│                       │      │                  ╰ DiffID: sha256:28e575353d006d6acdd977be9d862357e971ac6233c4
-│                       │      │                            c431df66f290b0c62194 
-│                       │      ├ SeveritySource  : redhat 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6237 
-│                       │      ├ Title           : openssl: Excessive time spent checking invalid RSA public keys 
-│                       │      ├ Description     : Issue summary: Checking excessively long invalid RSA public
-│                       │      │                   keys may take
-│                       │      │                   a long time.
-│                       │      │                   
-│                       │      │                   Impact summary: Applications that use the function
-│                       │      │                   EVP_PKEY_public_check()
-│                       │      │                   to check RSA public keys may experience long delays. Where
-│                       │      │                   the key that
-│                       │      │                   is being checked has been obtained from an untrusted source
-│                       │      │                   this may lead
-│                       │      │                   to a Denial of Service.
-│                       │      │                   When function EVP_PKEY_public_check() is called on RSA
-│                       │      │                   public keys,
-│                       │      │                   a computation is done to confirm that the RSA modulus, n, is
-│                       │      │                    composite.
-│                       │      │                   For valid RSA keys, n is a product of two or more large
-│                       │      │                   primes and this
-│                       │      │                   computation completes quickly. However, if n is an overly
-│                       │      │                   large prime,
-│                       │      │                   then this computation would take a long time.
-│                       │      │                   An application that calls EVP_PKEY_public_check() and
-│                       │      │                   supplies an RSA key
-│                       │      │                   obtained from an untrusted source could be vulnerable to a
-│                       │      │                   Denial of Service
-│                       │      │                   attack.
-│                       │      │                   The function EVP_PKEY_public_check() is not called from
-│                       │      │                   other OpenSSL
-│                       │      │                   functions however it is called from the OpenSSL pkey command
-│                       │      │                    line
-│                       │      │                   application. For that reason that application is also
-│                       │      │                   vulnerable if used
-│                       │      │                   with the '-pubin' and '-check' options on untrusted data.
-│                       │      │                   The OpenSSL SSL/TLS implementation is not affected by this
-│                       │      │                   issue.
-│                       │      │                   The OpenSSL 3.0 and 3.1 FIPS providers are affected by this 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-606 
-│                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ azure      : 2 
-│                       │      │                  ├ cbl-mariner: 2 
-│                       │      │                  ├ oracle-oval: 1 
-│                       │      │                  ├ redhat     : 1 
-│                       │      │                  ╰ ubuntu     : 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
-│                       │      │                           │           /A:H 
-│                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:2447 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-6237 
-│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2223016 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2224962 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2227852 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2248616 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2257571 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2258502 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2259944 
-│                       │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-2447.html 
-│                       │      │                  ├ [10]: https://github.com/openssl/openssl/commit/0b0f7abfb37
-│                       │      │                  │       350794a4b8960fafc292cd5d1b84d 
-│                       │      │                  ├ [11]: https://github.com/openssl/openssl/commit/18c02492138
-│                       │      │                  │       d1eb8b6548cb26e7b625fb2414a2a 
-│                       │      │                  ├ [12]: https://github.com/openssl/openssl/commit/a830f551557
-│                       │      │                  │       d3d66a84bbb18a5b889c640c36294 
-│                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2023-6237.html 
-│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-2447.html 
-│                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2023-6237 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6622-1 
-│                       │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2023-6237 
-│                       │      │                  ├ [18]: https://www.openssl.org/news/secadv/20240115.txt 
-│                       │      │                  ╰ [19]: https://www.openwall.com/lists/oss-security/2024/01/1
-│                       │      │                          5/2 
-│                       │      ├ PublishedDate   : 2024-04-25T07:15:45.27Z 
-│                       │      ╰ LastModifiedDate: 2024-11-01T15:35:06.92Z 
-│                       ├ [53] ╭ VulnerabilityID : CVE-2024-2511 
+│                       ├ [52] ╭ VulnerabilityID : CVE-2024-2511 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:9333 
 │                       │      ├ PkgID           : openssl@3.0.7-28.el9_4.x86_64 
 │                       │      ├ PkgName         : openssl 
@@ -2883,7 +2769,7 @@
 │                       │      │                  ╰ [9]: https://www.openssl.org/news/vulnerabilities.html 
 │                       │      ├ PublishedDate   : 2024-04-08T14:15:07.66Z 
 │                       │      ╰ LastModifiedDate: 2024-10-14T15:15:13.27Z 
-│                       ├ [54] ╭ VulnerabilityID : CVE-2024-41996 
+│                       ├ [53] ╭ VulnerabilityID : CVE-2024-41996 
 │                       │      ├ PkgID           : openssl@3.0.7-28.el9_4.x86_64 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.0.7-28.el9_4?arch=x86_64&dis
@@ -2930,7 +2816,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                       │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                       │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                       ├ [55] ╭ VulnerabilityID : CVE-2024-4603 
+│                       ├ [54] ╭ VulnerabilityID : CVE-2024-4603 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:9333 
 │                       │      ├ PkgID           : openssl@3.0.7-28.el9_4.x86_64 
 │                       │      ├ PkgName         : openssl 
@@ -3013,7 +2899,7 @@
 │                       │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20240516.txt 
 │                       │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
 │                       │      ╰ LastModifiedDate: 2024-10-14T15:15:14.21Z 
-│                       ├ [56] ╭ VulnerabilityID : CVE-2024-4741 
+│                       ├ [55] ╭ VulnerabilityID : CVE-2024-4741 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:9333 
 │                       │      ├ PkgID           : openssl@3.0.7-28.el9_4.x86_64 
 │                       │      ├ PkgName         : openssl 
@@ -3030,10 +2916,53 @@
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-4741 
 │                       │      ├ Title           : openssl: Use After Free with SSL_free_buffers 
-│                       │      ├ Description     : A use-after-free vulnerability was found in OpenSSL. Calling
-│                       │      │                    the OpenSSL API SSL_free_buffers function may cause memory
-│                       │      │                   to be accessed that was previously freed in some situations. 
+│                       │      ├ Description     : Issue summary: Calling the OpenSSL API function
+│                       │      │                   SSL_free_buffers may cause
+│                       │      │                   memory to be accessed that was previously freed in some
+│                       │      │                   situations
+│                       │      │                   
+│                       │      │                   Impact summary: A use after free can have a range of
+│                       │      │                   potential consequences such
+│                       │      │                   as the corruption of valid data, crashes or execution of
+│                       │      │                   arbitrary code.
+│                       │      │                   However, only applications that directly call the
+│                       │      │                   SSL_free_buffers function are
+│                       │      │                   affected by this issue. Applications that do not call this
+│                       │      │                   function are not
+│                       │      │                   vulnerable. Our investigations indicate that this function
+│                       │      │                   is rarely used by
+│                       │      │                   applications.
+│                       │      │                   The SSL_free_buffers function is used to free the internal
+│                       │      │                   OpenSSL buffer used
+│                       │      │                   when processing an incoming record from the network. The
+│                       │      │                   call is only expected
+│                       │      │                   to succeed if the buffer is not currently in use. However,
+│                       │      │                   two scenarios have
+│                       │      │                   been identified where the buffer is freed even when still in
+│                       │      │                    use.
+│                       │      │                   The first scenario occurs where a record header has been
+│                       │      │                   received from the
+│                       │      │                   network and processed by OpenSSL, but the full record body
+│                       │      │                   has not yet arrived.
+│                       │      │                   In this case calling SSL_free_buffers will succeed even
+│                       │      │                   though a record has only
+│                       │      │                   been partially processed and the buffer is still in use.
+│                       │      │                   The second scenario occurs where a full record containing
+│                       │      │                   application data has
+│                       │      │                   been received and processed by OpenSSL but the application
+│                       │      │                   has only read part of
+│                       │      │                   this data. Again a call to SSL_free_buffers will succeed
+│                       │      │                   even though the buffer
+│                       │      │                   is still in use.
+│                       │      │                   While these scenarios could occur accidentally during normal
+│                       │      │                    operation a
+│                       │      │                   malicious attacker could attempt to engineer a stituation
+│                       │      │                   where this occurs.
+│                       │      │                   We are not aware of this issue being actively exploited.
+│                       │      │                   The FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected
+│                       │      │                   by this issue. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-416 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ photon     : 2 
@@ -3042,12 +2971,24 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.6 
-│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-4741 
-│                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-4741 
-│                       │                         ├ [2]: https://ubuntu.com/security/notices/USN-6937-1 
-│                       │                         ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-4741 
-│                       │                         ╰ [4]: https://www.openssl.org/news/secadv/20240528.txt 
-│                       ├ [57] ╭ VulnerabilityID : CVE-2024-5535 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-4741 
+│                       │      │                  ├ [1]: https://github.com/openssl/openssl/commit/704f725b96aa
+│                       │      │                  │      373ee45ecfb23f6abfe8be8d9177 
+│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/b3f0eb0a295f
+│                       │      │                  │      58f16ba43ba99dad70d4ee5c437d 
+│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/c88c3de51020
+│                       │      │                  │      c37e8706bf7a682a162593053aac 
+│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/e5093133c35c
+│                       │      │                  │      a82874ad83697af76f4b0f7e3bd8 
+│                       │      │                  ├ [5]: https://github.openssl.org/openssl/extended-releases/c
+│                       │      │                  │      ommit/f7a045f3143fc6da2ee66bf52d8df04829590dd4 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-4741 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6937-1 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-4741 
+│                       │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20240528.txt 
+│                       │      ├ PublishedDate   : 2024-11-13T11:15:04.48Z 
+│                       │      ╰ LastModifiedDate: 2024-11-13T17:01:16.85Z 
+│                       ├ [56] ╭ VulnerabilityID : CVE-2024-5535 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:9333 
 │                       │      ├ PkgID           : openssl@3.0.7-28.el9_4.x86_64 
 │                       │      ├ PkgName         : openssl 
@@ -3217,95 +3158,7 @@
 │                       │      │                          l#AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-06-27T11:15:24.447Z 
 │                       │      ╰ LastModifiedDate: 2024-07-12T14:15:16.79Z 
-│                       ├ [58] ╭ VulnerabilityID : CVE-2023-6237 
-│                       │      ├ PkgID           : openssl-libs@3.0.7-28.el9_4.x86_64 
-│                       │      ├ PkgName         : openssl-libs 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-28.el9_4?arch=x86_6
-│                       │      │                  │       4&distro=redhat-9.4&epoch=1 
-│                       │      │                  ╰ UID : 29e6e15b2fdb8e 
-│                       │      ├ InstalledVersion: 1:3.0.7-28.el9_4 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:1346b17d0e1c3f4b61badca192bc70f5cd3957b95f23
-│                       │      │                  │         10cf3c18b74b220099d2 
-│                       │      │                  ╰ DiffID: sha256:28e575353d006d6acdd977be9d862357e971ac6233c4
-│                       │      │                            c431df66f290b0c62194 
-│                       │      ├ SeveritySource  : redhat 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6237 
-│                       │      ├ Title           : openssl: Excessive time spent checking invalid RSA public keys 
-│                       │      ├ Description     : Issue summary: Checking excessively long invalid RSA public
-│                       │      │                   keys may take
-│                       │      │                   a long time.
-│                       │      │                   
-│                       │      │                   Impact summary: Applications that use the function
-│                       │      │                   EVP_PKEY_public_check()
-│                       │      │                   to check RSA public keys may experience long delays. Where
-│                       │      │                   the key that
-│                       │      │                   is being checked has been obtained from an untrusted source
-│                       │      │                   this may lead
-│                       │      │                   to a Denial of Service.
-│                       │      │                   When function EVP_PKEY_public_check() is called on RSA
-│                       │      │                   public keys,
-│                       │      │                   a computation is done to confirm that the RSA modulus, n, is
-│                       │      │                    composite.
-│                       │      │                   For valid RSA keys, n is a product of two or more large
-│                       │      │                   primes and this
-│                       │      │                   computation completes quickly. However, if n is an overly
-│                       │      │                   large prime,
-│                       │      │                   then this computation would take a long time.
-│                       │      │                   An application that calls EVP_PKEY_public_check() and
-│                       │      │                   supplies an RSA key
-│                       │      │                   obtained from an untrusted source could be vulnerable to a
-│                       │      │                   Denial of Service
-│                       │      │                   attack.
-│                       │      │                   The function EVP_PKEY_public_check() is not called from
-│                       │      │                   other OpenSSL
-│                       │      │                   functions however it is called from the OpenSSL pkey command
-│                       │      │                    line
-│                       │      │                   application. For that reason that application is also
-│                       │      │                   vulnerable if used
-│                       │      │                   with the '-pubin' and '-check' options on untrusted data.
-│                       │      │                   The OpenSSL SSL/TLS implementation is not affected by this
-│                       │      │                   issue.
-│                       │      │                   The OpenSSL 3.0 and 3.1 FIPS providers are affected by this 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-606 
-│                       │      ├ VendorSeverity   ╭ alma       : 1 
-│                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ azure      : 2 
-│                       │      │                  ├ cbl-mariner: 2 
-│                       │      │                  ├ oracle-oval: 1 
-│                       │      │                  ├ redhat     : 1 
-│                       │      │                  ╰ ubuntu     : 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
-│                       │      │                           │           /A:H 
-│                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:2447 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-6237 
-│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2223016 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2224962 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2227852 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2248616 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2257571 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2258502 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2259944 
-│                       │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-2447.html 
-│                       │      │                  ├ [10]: https://github.com/openssl/openssl/commit/0b0f7abfb37
-│                       │      │                  │       350794a4b8960fafc292cd5d1b84d 
-│                       │      │                  ├ [11]: https://github.com/openssl/openssl/commit/18c02492138
-│                       │      │                  │       d1eb8b6548cb26e7b625fb2414a2a 
-│                       │      │                  ├ [12]: https://github.com/openssl/openssl/commit/a830f551557
-│                       │      │                  │       d3d66a84bbb18a5b889c640c36294 
-│                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2023-6237.html 
-│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-2447.html 
-│                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2023-6237 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6622-1 
-│                       │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2023-6237 
-│                       │      │                  ├ [18]: https://www.openssl.org/news/secadv/20240115.txt 
-│                       │      │                  ╰ [19]: https://www.openwall.com/lists/oss-security/2024/01/1
-│                       │      │                          5/2 
-│                       │      ├ PublishedDate   : 2024-04-25T07:15:45.27Z 
-│                       │      ╰ LastModifiedDate: 2024-11-01T15:35:06.92Z 
-│                       ├ [59] ╭ VulnerabilityID : CVE-2024-2511 
+│                       ├ [57] ╭ VulnerabilityID : CVE-2024-2511 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:9333 
 │                       │      ├ PkgID           : openssl-libs@3.0.7-28.el9_4.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
@@ -3378,7 +3231,7 @@
 │                       │      │                  ╰ [9]: https://www.openssl.org/news/vulnerabilities.html 
 │                       │      ├ PublishedDate   : 2024-04-08T14:15:07.66Z 
 │                       │      ╰ LastModifiedDate: 2024-10-14T15:15:13.27Z 
-│                       ├ [60] ╭ VulnerabilityID : CVE-2024-41996 
+│                       ├ [58] ╭ VulnerabilityID : CVE-2024-41996 
 │                       │      ├ PkgID           : openssl-libs@3.0.7-28.el9_4.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.0.7-28.el9_4?arch=x86_6
@@ -3425,7 +3278,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                       │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                       │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                       ├ [61] ╭ VulnerabilityID : CVE-2024-4603 
+│                       ├ [59] ╭ VulnerabilityID : CVE-2024-4603 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:9333 
 │                       │      ├ PkgID           : openssl-libs@3.0.7-28.el9_4.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
@@ -3508,7 +3361,7 @@
 │                       │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20240516.txt 
 │                       │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
 │                       │      ╰ LastModifiedDate: 2024-10-14T15:15:14.21Z 
-│                       ├ [62] ╭ VulnerabilityID : CVE-2024-4741 
+│                       ├ [60] ╭ VulnerabilityID : CVE-2024-4741 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:9333 
 │                       │      ├ PkgID           : openssl-libs@3.0.7-28.el9_4.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
@@ -3525,10 +3378,53 @@
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-4741 
 │                       │      ├ Title           : openssl: Use After Free with SSL_free_buffers 
-│                       │      ├ Description     : A use-after-free vulnerability was found in OpenSSL. Calling
-│                       │      │                    the OpenSSL API SSL_free_buffers function may cause memory
-│                       │      │                   to be accessed that was previously freed in some situations. 
+│                       │      ├ Description     : Issue summary: Calling the OpenSSL API function
+│                       │      │                   SSL_free_buffers may cause
+│                       │      │                   memory to be accessed that was previously freed in some
+│                       │      │                   situations
+│                       │      │                   
+│                       │      │                   Impact summary: A use after free can have a range of
+│                       │      │                   potential consequences such
+│                       │      │                   as the corruption of valid data, crashes or execution of
+│                       │      │                   arbitrary code.
+│                       │      │                   However, only applications that directly call the
+│                       │      │                   SSL_free_buffers function are
+│                       │      │                   affected by this issue. Applications that do not call this
+│                       │      │                   function are not
+│                       │      │                   vulnerable. Our investigations indicate that this function
+│                       │      │                   is rarely used by
+│                       │      │                   applications.
+│                       │      │                   The SSL_free_buffers function is used to free the internal
+│                       │      │                   OpenSSL buffer used
+│                       │      │                   when processing an incoming record from the network. The
+│                       │      │                   call is only expected
+│                       │      │                   to succeed if the buffer is not currently in use. However,
+│                       │      │                   two scenarios have
+│                       │      │                   been identified where the buffer is freed even when still in
+│                       │      │                    use.
+│                       │      │                   The first scenario occurs where a record header has been
+│                       │      │                   received from the
+│                       │      │                   network and processed by OpenSSL, but the full record body
+│                       │      │                   has not yet arrived.
+│                       │      │                   In this case calling SSL_free_buffers will succeed even
+│                       │      │                   though a record has only
+│                       │      │                   been partially processed and the buffer is still in use.
+│                       │      │                   The second scenario occurs where a full record containing
+│                       │      │                   application data has
+│                       │      │                   been received and processed by OpenSSL but the application
+│                       │      │                   has only read part of
+│                       │      │                   this data. Again a call to SSL_free_buffers will succeed
+│                       │      │                   even though the buffer
+│                       │      │                   is still in use.
+│                       │      │                   While these scenarios could occur accidentally during normal
+│                       │      │                    operation a
+│                       │      │                   malicious attacker could attempt to engineer a stituation
+│                       │      │                   where this occurs.
+│                       │      │                   We are not aware of this issue being actively exploited.
+│                       │      │                   The FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected
+│                       │      │                   by this issue. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-416 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ photon     : 2 
@@ -3537,12 +3433,24 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.6 
-│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-4741 
-│                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-4741 
-│                       │                         ├ [2]: https://ubuntu.com/security/notices/USN-6937-1 
-│                       │                         ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-4741 
-│                       │                         ╰ [4]: https://www.openssl.org/news/secadv/20240528.txt 
-│                       ├ [63] ╭ VulnerabilityID : CVE-2024-5535 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-4741 
+│                       │      │                  ├ [1]: https://github.com/openssl/openssl/commit/704f725b96aa
+│                       │      │                  │      373ee45ecfb23f6abfe8be8d9177 
+│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/b3f0eb0a295f
+│                       │      │                  │      58f16ba43ba99dad70d4ee5c437d 
+│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/c88c3de51020
+│                       │      │                  │      c37e8706bf7a682a162593053aac 
+│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/e5093133c35c
+│                       │      │                  │      a82874ad83697af76f4b0f7e3bd8 
+│                       │      │                  ├ [5]: https://github.openssl.org/openssl/extended-releases/c
+│                       │      │                  │      ommit/f7a045f3143fc6da2ee66bf52d8df04829590dd4 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-4741 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6937-1 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-4741 
+│                       │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20240528.txt 
+│                       │      ├ PublishedDate   : 2024-11-13T11:15:04.48Z 
+│                       │      ╰ LastModifiedDate: 2024-11-13T17:01:16.85Z 
+│                       ├ [61] ╭ VulnerabilityID : CVE-2024-5535 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:9333 
 │                       │      ├ PkgID           : openssl-libs@3.0.7-28.el9_4.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
@@ -3712,7 +3620,42 @@
 │                       │      │                          l#AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-06-27T11:15:24.447Z 
 │                       │      ╰ LastModifiedDate: 2024-07-12T14:15:16.79Z 
-│                       ├ [64] ╭ VulnerabilityID : CVE-2024-10041 
+│                       ├ [62] ╭ VulnerabilityID : CVE-2024-10963 
+│                       │      ├ PkgID           : pam@1.5.1-19.el9.x86_64 
+│                       │      ├ PkgName         : pam 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pam@1.5.1-19.el9?arch=x86_64&distro=re
+│                       │      │                  │       dhat-9.4 
+│                       │      │                  ╰ UID : 4c59d4ee3bb055cc 
+│                       │      ├ InstalledVersion: 1.5.1-19.el9 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:1346b17d0e1c3f4b61badca192bc70f5cd3957b95f23
+│                       │      │                  │         10cf3c18b74b220099d2 
+│                       │      │                  ╰ DiffID: sha256:28e575353d006d6acdd977be9d862357e971ac6233c4
+│                       │      │                            c431df66f290b0c62194 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10963 
+│                       │      ├ Title           : pam: Improper Hostname Interpretation in pam_access Leads to
+│                       │      │                    Access Control Bypass 
+│                       │      ├ Description     : A flaw was found in pam_access, where certain rules in its
+│                       │      │                   configuration file are mistakenly treated as hostnames. This
+│                       │      │                    vulnerability allows attackers to trick the system by
+│                       │      │                   pretending to be a trusted hostname, gaining unauthorized
+│                       │      │                   access. This issue poses a risk for systems that rely on
+│                       │      │                   this feature to control who can access certain services or
+│                       │      │                   terminals. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-287 
+│                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 7.4 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-10963 
+│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
+│                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
+│                       │      ╰ LastModifiedDate: 2024-11-11T18:15:14.487Z 
+│                       ├ [63] ╭ VulnerabilityID : CVE-2024-10041 
 │                       │      ├ PkgID           : pam@1.5.1-19.el9.x86_64 
 │                       │      ├ PkgName         : pam 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pam@1.5.1-19.el9?arch=x86_64&distro=re
@@ -3746,42 +3689,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                       │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                       │      ╰ LastModifiedDate: 2024-11-12T21:15:10.467Z 
-│                       ├ [65] ╭ VulnerabilityID : CVE-2024-10963 
-│                       │      ├ PkgID           : pam@1.5.1-19.el9.x86_64 
-│                       │      ├ PkgName         : pam 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pam@1.5.1-19.el9?arch=x86_64&distro=re
-│                       │      │                  │       dhat-9.4 
-│                       │      │                  ╰ UID : 4c59d4ee3bb055cc 
-│                       │      ├ InstalledVersion: 1.5.1-19.el9 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:1346b17d0e1c3f4b61badca192bc70f5cd3957b95f23
-│                       │      │                  │         10cf3c18b74b220099d2 
-│                       │      │                  ╰ DiffID: sha256:28e575353d006d6acdd977be9d862357e971ac6233c4
-│                       │      │                            c431df66f290b0c62194 
-│                       │      ├ SeveritySource  : redhat 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10963 
-│                       │      ├ Title           : pam: Improper Hostname Interpretation in pam_access Leads to
-│                       │      │                    Access Control Bypass 
-│                       │      ├ Description     : A flaw was found in pam_access, where certain rules in its
-│                       │      │                   configuration file are mistakenly treated as hostnames. This
-│                       │      │                    vulnerability allows attackers to trick the system by
-│                       │      │                   pretending to be a trusted hostname, gaining unauthorized
-│                       │      │                   access. This issue poses a risk for systems that rely on
-│                       │      │                   this feature to control who can access certain services or
-│                       │      │                   terminals. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-287 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 7.4 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-10963 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
-│                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
-│                       │      ╰ LastModifiedDate: 2024-11-11T18:15:14.487Z 
-│                       ├ [66] ╭ VulnerabilityID : CVE-2022-41409 
+│                       ├ [64] ╭ VulnerabilityID : CVE-2022-41409 
 │                       │      ├ PkgID           : pcre2@10.40-5.el9.x86_64 
 │                       │      ├ PkgName         : pcre2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2@10.40-5.el9?arch=x86_64&distro=r
@@ -3823,7 +3731,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-41409 
 │                       │      ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
 │                       │      ╰ LastModifiedDate: 2023-07-27T03:46:09.807Z 
-│                       ├ [67] ╭ VulnerabilityID : CVE-2022-41409 
+│                       ├ [65] ╭ VulnerabilityID : CVE-2022-41409 
 │                       │      ├ PkgID           : pcre2-syntax@10.40-5.el9.noarch 
 │                       │      ├ PkgName         : pcre2-syntax 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2-syntax@10.40-5.el9?arch=noarch&d
@@ -3865,7 +3773,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-41409 
 │                       │      ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
 │                       │      ╰ LastModifiedDate: 2023-07-27T03:46:09.807Z 
-│                       ├ [68] ╭ VulnerabilityID : CVE-2021-23336 
+│                       ├ [66] ╭ VulnerabilityID : CVE-2021-23336 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.18-3.el9_4.6.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18-3.el
@@ -4017,7 +3925,46 @@
 │                       │      │                  ╰ [45]: https://www.oracle.com/security-alerts/cpuoct2021.html 
 │                       │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:30:51.953Z 
-│                       ├ [69] ╭ VulnerabilityID : CVE-2024-6232 
+│                       ├ [67] ╭ VulnerabilityID : CVE-2024-11168 
+│                       │      ├ PkgID           : python-unversioned-command@3.9.18-3.el9_4.6.noarch 
+│                       │      ├ PkgName         : python-unversioned-command 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18-3.el
+│                       │      │                  │       9_4.6?arch=noarch&distro=redhat-9.4 
+│                       │      │                  ╰ UID : 7b8840e07cd257c7 
+│                       │      ├ InstalledVersion: 3.9.18-3.el9_4.6 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:1346b17d0e1c3f4b61badca192bc70f5cd3957b95f23
+│                       │      │                  │         10cf3c18b74b220099d2 
+│                       │      │                  ╰ DiffID: sha256:28e575353d006d6acdd977be9d862357e971ac6233c4
+│                       │      │                            c431df66f290b0c62194 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11168 
+│                       │      ├ Title           : python: Improper validation of IPv6 and IPvFuture addresses 
+│                       │      ├ Description     : The urllib.parse.urlsplit() and urlparse() functions
+│                       │      │                   improperly validated bracketed hosts (`[]`), allowing hosts
+│                       │      │                   that weren't IPv6 or IPvFuture. This behavior was not
+│                       │      │                   conformant to RFC 3986 and potentially enabled SSRF if a URL
+│                       │      │                    is processed by more than one URL parser. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-918 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11168 
+│                       │      │                  ├ [1]: https://github.com/python/cpython/commit/29f348e232e82
+│                       │      │                  │      938ba2165843c448c2b291504c5 
+│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/b2171a2fd4141
+│                       │      │                  │      6cf68afd67460578631d755a550 
+│                       │      │                  ├ [3]: https://github.com/python/cpython/issues/103848 
+│                       │      │                  ├ [4]: https://github.com/python/cpython/pull/103849 
+│                       │      │                  ├ [5]: https://mail.python.org/archives/list/security-announc
+│                       │      │                  │      e@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T/ 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
+│                       │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
+│                       │      ╰ LastModifiedDate: 2024-11-13T17:01:16.85Z 
+│                       ├ [68] ╭ VulnerabilityID : CVE-2024-6232 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:9468 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.18-3.el9_4.6.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
@@ -4043,6 +3990,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ cbl-mariner: 3 
@@ -4099,7 +4047,7 @@
 │                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2024-6232 
 │                       │      ├ PublishedDate   : 2024-09-03T13:15:05.363Z 
 │                       │      ╰ LastModifiedDate: 2024-09-04T21:15:14.48Z 
-│                       ├ [70] ╭ VulnerabilityID : CVE-2024-8088 
+│                       ├ [69] ╭ VulnerabilityID : CVE-2024-8088 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:9371 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.18-3.el9_4.6.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
@@ -4195,7 +4143,7 @@
 │                       │      │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2024-8088 
 │                       │      ├ PublishedDate   : 2024-08-22T19:15:09.72Z 
 │                       │      ╰ LastModifiedDate: 2024-09-04T23:15:13.1Z 
-│                       ├ [71] ╭ VulnerabilityID : CVE-2024-9287 
+│                       ├ [70] ╭ VulnerabilityID : CVE-2024-9287 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.18-3.el9_4.6.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18-3.el
@@ -4247,7 +4195,7 @@
 │                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
 │                       │      ├ PublishedDate   : 2024-10-22T17:15:06.697Z 
 │                       │      ╰ LastModifiedDate: 2024-11-04T18:15:05.627Z 
-│                       ├ [72] ╭ VulnerabilityID : CVE-2024-0397 
+│                       ├ [71] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.18-3.el9_4.6.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18-3.el
@@ -4315,7 +4263,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
 │                       │      ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
 │                       │      ╰ LastModifiedDate: 2024-07-03T01:44:41.987Z 
-│                       ├ [73] ╭ VulnerabilityID : CVE-2024-7592 
+│                       ├ [72] ╭ VulnerabilityID : CVE-2024-7592 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.18-3.el9_4.6.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.18-3.el
@@ -4384,7 +4332,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
 │                       │      ╰ LastModifiedDate: 2024-09-04T21:15:14.643Z 
-│                       ├ [74] ╭ VulnerabilityID : CVE-2021-23336 
+│                       ├ [73] ╭ VulnerabilityID : CVE-2021-23336 
 │                       │      ├ PkgID           : python3@3.9.18-3.el9_4.6.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.18-3.el9_4.6?arch=x86_64&d
@@ -4536,6 +4484,45 @@
 │                       │      │                  ╰ [45]: https://www.oracle.com/security-alerts/cpuoct2021.html 
 │                       │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:30:51.953Z 
+│                       ├ [74] ╭ VulnerabilityID : CVE-2024-11168 
+│                       │      ├ PkgID           : python3@3.9.18-3.el9_4.6.x86_64 
+│                       │      ├ PkgName         : python3 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.18-3.el9_4.6?arch=x86_64&d
+│                       │      │                  │       istro=redhat-9.4 
+│                       │      │                  ╰ UID : 1fe0daf6dccc94 
+│                       │      ├ InstalledVersion: 3.9.18-3.el9_4.6 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:1346b17d0e1c3f4b61badca192bc70f5cd3957b95f23
+│                       │      │                  │         10cf3c18b74b220099d2 
+│                       │      │                  ╰ DiffID: sha256:28e575353d006d6acdd977be9d862357e971ac6233c4
+│                       │      │                            c431df66f290b0c62194 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11168 
+│                       │      ├ Title           : python: Improper validation of IPv6 and IPvFuture addresses 
+│                       │      ├ Description     : The urllib.parse.urlsplit() and urlparse() functions
+│                       │      │                   improperly validated bracketed hosts (`[]`), allowing hosts
+│                       │      │                   that weren't IPv6 or IPvFuture. This behavior was not
+│                       │      │                   conformant to RFC 3986 and potentially enabled SSRF if a URL
+│                       │      │                    is processed by more than one URL parser. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-918 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11168 
+│                       │      │                  ├ [1]: https://github.com/python/cpython/commit/29f348e232e82
+│                       │      │                  │      938ba2165843c448c2b291504c5 
+│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/b2171a2fd4141
+│                       │      │                  │      6cf68afd67460578631d755a550 
+│                       │      │                  ├ [3]: https://github.com/python/cpython/issues/103848 
+│                       │      │                  ├ [4]: https://github.com/python/cpython/pull/103849 
+│                       │      │                  ├ [5]: https://mail.python.org/archives/list/security-announc
+│                       │      │                  │      e@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T/ 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
+│                       │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
+│                       │      ╰ LastModifiedDate: 2024-11-13T17:01:16.85Z 
 │                       ├ [75] ╭ VulnerabilityID : CVE-2024-6232 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:9468 
 │                       │      ├ PkgID           : python3@3.9.18-3.el9_4.6.x86_64 
@@ -4562,6 +4549,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ cbl-mariner: 3 
@@ -5055,7 +5043,46 @@
 │                       │      │                  ╰ [45]: https://www.oracle.com/security-alerts/cpuoct2021.html 
 │                       │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:30:51.953Z 
-│                       ├ [81] ╭ VulnerabilityID : CVE-2024-6232 
+│                       ├ [81] ╭ VulnerabilityID : CVE-2024-11168 
+│                       │      ├ PkgID           : python3-libs@3.9.18-3.el9_4.6.x86_64 
+│                       │      ├ PkgName         : python3-libs 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.18-3.el9_4.6?arch=x86
+│                       │      │                  │       _64&distro=redhat-9.4 
+│                       │      │                  ╰ UID : eebb43936772a31c 
+│                       │      ├ InstalledVersion: 3.9.18-3.el9_4.6 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:1346b17d0e1c3f4b61badca192bc70f5cd3957b95f23
+│                       │      │                  │         10cf3c18b74b220099d2 
+│                       │      │                  ╰ DiffID: sha256:28e575353d006d6acdd977be9d862357e971ac6233c4
+│                       │      │                            c431df66f290b0c62194 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11168 
+│                       │      ├ Title           : python: Improper validation of IPv6 and IPvFuture addresses 
+│                       │      ├ Description     : The urllib.parse.urlsplit() and urlparse() functions
+│                       │      │                   improperly validated bracketed hosts (`[]`), allowing hosts
+│                       │      │                   that weren't IPv6 or IPvFuture. This behavior was not
+│                       │      │                   conformant to RFC 3986 and potentially enabled SSRF if a URL
+│                       │      │                    is processed by more than one URL parser. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-918 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-11168 
+│                       │      │                  ├ [1]: https://github.com/python/cpython/commit/29f348e232e82
+│                       │      │                  │      938ba2165843c448c2b291504c5 
+│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/b2171a2fd4141
+│                       │      │                  │      6cf68afd67460578631d755a550 
+│                       │      │                  ├ [3]: https://github.com/python/cpython/issues/103848 
+│                       │      │                  ├ [4]: https://github.com/python/cpython/pull/103849 
+│                       │      │                  ├ [5]: https://mail.python.org/archives/list/security-announc
+│                       │      │                  │      e@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T/ 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-11168 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-11168 
+│                       │      ├ PublishedDate   : 2024-11-12T22:15:14.92Z 
+│                       │      ╰ LastModifiedDate: 2024-11-13T17:01:16.85Z 
+│                       ├ [82] ╭ VulnerabilityID : CVE-2024-6232 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:9468 
 │                       │      ├ PkgID           : python3-libs@3.9.18-3.el9_4.6.x86_64 
 │                       │      ├ PkgName         : python3-libs 
@@ -5081,6 +5108,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ cbl-mariner: 3 
@@ -5137,7 +5165,7 @@
 │                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2024-6232 
 │                       │      ├ PublishedDate   : 2024-09-03T13:15:05.363Z 
 │                       │      ╰ LastModifiedDate: 2024-09-04T21:15:14.48Z 
-│                       ├ [82] ╭ VulnerabilityID : CVE-2024-8088 
+│                       ├ [83] ╭ VulnerabilityID : CVE-2024-8088 
 │                       │      ├ VendorIDs        ─ [0]: RHSA-2024:9371 
 │                       │      ├ PkgID           : python3-libs@3.9.18-3.el9_4.6.x86_64 
 │                       │      ├ PkgName         : python3-libs 
@@ -5233,7 +5261,7 @@
 │                       │      │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2024-8088 
 │                       │      ├ PublishedDate   : 2024-08-22T19:15:09.72Z 
 │                       │      ╰ LastModifiedDate: 2024-09-04T23:15:13.1Z 
-│                       ├ [83] ╭ VulnerabilityID : CVE-2024-9287 
+│                       ├ [84] ╭ VulnerabilityID : CVE-2024-9287 
 │                       │      ├ PkgID           : python3-libs@3.9.18-3.el9_4.6.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.18-3.el9_4.6?arch=x86
@@ -5285,7 +5313,7 @@
 │                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-9287 
 │                       │      ├ PublishedDate   : 2024-10-22T17:15:06.697Z 
 │                       │      ╰ LastModifiedDate: 2024-11-04T18:15:05.627Z 
-│                       ├ [84] ╭ VulnerabilityID : CVE-2024-0397 
+│                       ├ [85] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python3-libs@3.9.18-3.el9_4.6.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.18-3.el9_4.6?arch=x86
@@ -5353,7 +5381,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
 │                       │      ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
 │                       │      ╰ LastModifiedDate: 2024-07-03T01:44:41.987Z 
-│                       ├ [85] ╭ VulnerabilityID : CVE-2024-7592 
+│                       ├ [86] ╭ VulnerabilityID : CVE-2024-7592 
 │                       │      ├ PkgID           : python3-libs@3.9.18-3.el9_4.6.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.18-3.el9_4.6?arch=x86
@@ -5422,95 +5450,6 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-7592 
 │                       │      ├ PublishedDate   : 2024-08-19T19:15:08.18Z 
 │                       │      ╰ LastModifiedDate: 2024-09-04T21:15:14.643Z 
-│                       ├ [86] ╭ VulnerabilityID : CVE-2024-37891 
-│                       │      ├ PkgID           : python3-pip-wheel@21.2.3-8.el9.noarch 
-│                       │      ├ PkgName         : python3-pip-wheel 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.2.3-8.el9?arch=no
-│                       │      │                  │       arch&distro=redhat-9.4 
-│                       │      │                  ╰ UID : 95205c2cec6896bf 
-│                       │      ├ InstalledVersion: 21.2.3-8.el9 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:1346b17d0e1c3f4b61badca192bc70f5cd3957b95f23
-│                       │      │                  │         10cf3c18b74b220099d2 
-│                       │      │                  ╰ DiffID: sha256:28e575353d006d6acdd977be9d862357e971ac6233c4
-│                       │      │                            c431df66f290b0c62194 
-│                       │      ├ SeveritySource  : redhat 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-37891 
-│                       │      ├ Title           : urllib3: proxy-authorization request header is not stripped
-│                       │      │                   during cross-origin redirects 
-│                       │      ├ Description     :  urllib3 is a user-friendly HTTP client library for Python.
-│                       │      │                   When using urllib3's proxy support with `ProxyManager`, the
-│                       │      │                   `Proxy-Authorization` header is only sent to the configured
-│                       │      │                   proxy, as expected. However, when sending HTTP requests
-│                       │      │                   *without* using urllib3's proxy support, it's possible to
-│                       │      │                   accidentally configure the `Proxy-Authorization` header even
-│                       │      │                    though it won't have any effect as the request is not using
-│                       │      │                    a forwarding proxy or a tunneling proxy. In those cases,
-│                       │      │                   urllib3 doesn't treat the `Proxy-Authorization` HTTP header
-│                       │      │                   as one carrying authentication material and thus doesn't
-│                       │      │                   strip the header on cross-origin redirects. Because this is
-│                       │      │                   a highly unlikely scenario, we believe the severity of this
-│                       │      │                   vulnerability is low for almost all users. Out of an
-│                       │      │                   abundance of caution urllib3 will automatically strip the
-│                       │      │                   `Proxy-Authorization` header during cross-origin redirects
-│                       │      │                   to avoid the small chance that users are doing this on
-│                       │      │                   accident. Users should use urllib3's proxy support or
-│                       │      │                   disable automatic redirects to achieve safe processing of
-│                       │      │                   the `Proxy-Authorization` header, but we still decided to
-│                       │      │                   strip the header by default in order to further protect
-│                       │      │                   users who aren't using the correct approach. We believe the
-│                       │      │                   number of usages affected by this advisory is low. It
-│                       │      │                   requires all of the following to be true to be exploited: 1.
-│                       │      │                    Setting the `Proxy-Authorization` header without using
-│                       │      │                   urllib3's built-in proxy support. 2. Not disabling HTTP
-│                       │      │                   redirects. 3. Either not using an HTTPS origin server or for
-│                       │      │                    the proxy or target origin to redirect to a malicious
-│                       │      │                   origin. Users are advised to update to either version
-│                       │      │                   1.26.19 or version 2.2.2. Users unable to upgrade may use
-│                       │      │                   the `Proxy-Authorization` header with urllib3's
-│                       │      │                   `ProxyManager`, disable HTTP redirects using
-│                       │      │                   `redirects=False` when sending requests, or not user the
-│                       │      │                   `Proxy-Authorization` header as mitigations. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-669 
-│                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ azure      : 2 
-│                       │      │                  ├ cbl-mariner: 2 
-│                       │      │                  ├ ghsa       : 2 
-│                       │      │                  ├ oracle-oval: 2 
-│                       │      │                  ├ redhat     : 2 
-│                       │      │                  ├ rocky      : 2 
-│                       │      │                  ╰ ubuntu     : 1 
-│                       │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:N
-│                       │      │                  │        │           /A:N 
-│                       │      │                  │        ╰ V3Score : 4.4 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:N
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 4.4 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:6162 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-37891 
-│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2292788 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2292788 
-│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-37891 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-6162.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2024:8843 
-│                       │      │                  ├ [7] : https://github.com/urllib3/urllib3 
-│                       │      │                  ├ [8] : https://github.com/urllib3/urllib3/commit/40b6d160581
-│                       │      │                  │       4dd1db0a46e202d6e56f2e4c9a468 
-│                       │      │                  ├ [9] : https://github.com/urllib3/urllib3/commit/accff72ecc2
-│                       │      │                  │       f6cf5a76d9570198a93ac7c90270e 
-│                       │      │                  ├ [10]: https://github.com/urllib3/urllib3/security/advisorie
-│                       │      │                  │       s/GHSA-34jh-p97f-mpxf 
-│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-37891.html 
-│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-8843.html 
-│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-37891 
-│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7084-1 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7084-2 
-│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-37891 
-│                       │      ├ PublishedDate   : 2024-06-17T20:15:13.45Z 
-│                       │      ╰ LastModifiedDate: 2024-06-20T12:44:22.977Z 
 │                       ├ [87] ╭ VulnerabilityID : CVE-2021-3572 
 │                       │      ├ PkgID           : python3-pip-wheel@21.2.3-8.el9.noarch 
 │                       │      ├ PkgName         : python3-pip-wheel 
