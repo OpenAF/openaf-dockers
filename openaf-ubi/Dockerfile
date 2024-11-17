@@ -12,15 +12,15 @@ COPY getOpenAFOrigJar.js /openaf/
 # Install java + auxiliary settings
 RUN microdnf upgrade -y\
  && rm -rf /var/cache/yum\
- && microdnf install -y --nodocs java-21-openjdk-headless tar sudo shadow-utils\
+ && microdnf install -y --nodocs java-21-openjdk-headless tar sudo shadow-utils bash-completion\
  && echo 'PATH=$PATH:/openaf' > /etc/profile.d/openaf.sh\
  && adduser openaf -g 0 -u 1000\
  && chown -R openaf: /openaf\
  && echo "openaf ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/openaf\
  && microdnf remove -y shadow-utils\
  && microdnf clean all\
- && echo 'if [ ! -e /tmp/.openaf-ojobio-complete ] || [ $(find /tmp/.openaf-ojobio-complete -mtime +1) ]; then curl --max-time 2 -s https://ojob.io/autoComplete.sh > /tmp/.openaf-ojobio-complete; fi' >> /etc/bashrc\
- && echo "source /tmp/.openaf-ojobio-complete" >> /etc/bashrc\
+ && echo "if [ ! -e ~/.openaf_completion_oaf.sh ]; then /openaf/oaf --bashcompletion all > /tmp/.openaf_completion_bash.sh; fi" >> /etc/bashrc\
+ && echo "source /tmp/.openaf_completion_bash.sh" >> /etc/bashrc\
  && chmod -R a+rx /openaf/.docker\
  && chmod g+w /etc/passwd\
  && cp ~/.bash_profile /.bash_profile\
@@ -37,8 +37,12 @@ RUN cd /openaf\
  && sudo chown -R openaf:0 /openaf\
  && sudo chown openaf:0 /openaf/.opack.db\
  && sudo chmod g+w /openaf/.opack.db\
- && curl -s https://ojob.io/autoComplete.sh > /tmp/.openaf-ojobio-complete\
- && chmod a+rw /tmp/.openaf-ojobio-complete
+ && /openaf/oaf --bashcompletion all > /tmp/.openaf_completion_bash.sh\
+ && chmod a+rw /tmp/.openaf_completion_bash.sh
+
+USER root
+RUN /openaf/oaf --bashcompletion all > /dev/null
+USER 1000:0
 
 # -------------------
 FROM scratch as final
