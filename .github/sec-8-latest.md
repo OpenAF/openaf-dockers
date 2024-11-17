@@ -18,8 +18,7 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : When curl is asked to use HSTS, the expiry time for a
-│                       │     │                   subdomain might  ... 
+│                       │     ├ Title           : curl: HSTS subdomain overwrites parent cache entry 
 │                       │     ├ Description     : When curl is asked to use HSTS, the expiry time for a
 │                       │     │                   subdomain might
 │                       │     │                   overwrite a parent domain's cache entry, making it end sooner
@@ -58,11 +57,17 @@
 │                       │     │                   than otherwise intended. 
 │                       │     ├ Severity        : LOW 
 │                       │     ├ VendorSeverity   ╭ photon: 2 
+│                       │     │                  ├ redhat: 1 
 │                       │     │                  ╰ ubuntu: 1 
-│                       │     ├ References       ╭ [0]: https://curl.se/docs/CVE-2024-9681.html 
-│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.json 
-│                       │     │                  ├ [2]: https://hackerone.com/reports/2764830 
-│                       │     │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/
+│                       │     │                           │           A:N 
+│                       │     │                           ╰ V3Score : 2.5 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9681 
+│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.html 
+│                       │     │                  ├ [2]: https://curl.se/docs/CVE-2024-9681.json 
+│                       │     │                  ├ [3]: https://hackerone.com/reports/2764830 
+│                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
+│                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                       │     ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
 │                       │     ╰ LastModifiedDate: 2024-11-06T18:17:17.287Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2024-9143 
@@ -166,8 +171,7 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : When curl is asked to use HSTS, the expiry time for a
-│                       │     │                   subdomain might  ... 
+│                       │     ├ Title           : curl: HSTS subdomain overwrites parent cache entry 
 │                       │     ├ Description     : When curl is asked to use HSTS, the expiry time for a
 │                       │     │                   subdomain might
 │                       │     │                   overwrite a parent domain's cache entry, making it end sooner
@@ -206,11 +210,17 @@
 │                       │     │                   than otherwise intended. 
 │                       │     ├ Severity        : LOW 
 │                       │     ├ VendorSeverity   ╭ photon: 2 
+│                       │     │                  ├ redhat: 1 
 │                       │     │                  ╰ ubuntu: 1 
-│                       │     ├ References       ╭ [0]: https://curl.se/docs/CVE-2024-9681.html 
-│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.json 
-│                       │     │                  ├ [2]: https://hackerone.com/reports/2764830 
-│                       │     │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/
+│                       │     │                           │           A:N 
+│                       │     │                           ╰ V3Score : 2.5 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-9681 
+│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2024-9681.html 
+│                       │     │                  ├ [2]: https://curl.se/docs/CVE-2024-9681.json 
+│                       │     │                  ├ [3]: https://hackerone.com/reports/2764830 
+│                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
+│                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                       │     ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
 │                       │     ╰ LastModifiedDate: 2024-11-06T18:17:17.287Z 
 │                       ├ [3] ╭ VulnerabilityID : CVE-2024-50602 
