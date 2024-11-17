@@ -10,8 +10,6 @@ Security scans:
 [![sec-ubi-nightly](.github/sec-ubi-nightly.svg)](.github/sec-ubi-nightly.md)<br>
 [![sec-oJobRT-latest](.github/sec-oJobRT-latest.svg)](.github/sec-oJobRT-latest.md)<br>
 [![sec-oJobRT-nightly](.github/sec-oJobRT-nightly.svg)](.github/sec-oJobRT-nightly.md)<br>
-<br>
-[![sec-8-latest](.github/sec-8-latest.svg)](.github/sec-8-latest.md)
 
 ## OpenAF
 
