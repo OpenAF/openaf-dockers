@@ -67,7 +67,8 @@
 │                       │     │                  ├ [2]: https://curl.se/docs/CVE-2024-9681.json 
 │                       │     │                  ├ [3]: https://hackerone.com/reports/2764830 
 │                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
-│                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-7104-1 
+│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                       │     ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
 │                       │     ╰ LastModifiedDate: 2024-11-06T18:17:17.287Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2024-9143 
@@ -220,7 +221,8 @@
 │                       │     │                  ├ [2]: https://curl.se/docs/CVE-2024-9681.json 
 │                       │     │                  ├ [3]: https://hackerone.com/reports/2764830 
 │                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
-│                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │     │                  ├ [5]: https://ubuntu.com/security/notices/USN-7104-1 
+│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                       │     ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
 │                       │     ╰ LastModifiedDate: 2024-11-06T18:17:17.287Z 
 │                       ├ [3] ╭ VulnerabilityID : CVE-2024-50602 
@@ -254,10 +256,10 @@
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 5.9 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:9502 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:9541 
 │                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-50602 
 │                       │     │                  ├ [2]: https://bugzilla.redhat.com/2321987 
-│                       │     │                  ├ [3]: https://errata.almalinux.org/8/ALSA-2024-9502.html 
+│                       │     │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2024-9541.html 
 │                       │     │                  ├ [4]: https://github.com/libexpat/libexpat/pull/915 
 │                       │     │                  ├ [5]: https://linux.oracle.com/cve/CVE-2024-50602.html 
 │                       │     │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2024-9502.html 
