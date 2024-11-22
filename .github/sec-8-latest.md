@@ -256,10 +256,10 @@
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
 │                       │     │                           │           A:H 
 │                       │     │                           ╰ V3Score : 5.9 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:9502 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:9541 
 │                       │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-50602 
 │                       │     │                  ├ [2]: https://bugzilla.redhat.com/2321987 
-│                       │     │                  ├ [3]: https://errata.almalinux.org/8/ALSA-2024-9502.html 
+│                       │     │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2024-9541.html 
 │                       │     │                  ├ [4]: https://github.com/libexpat/libexpat/pull/915 
 │                       │     │                  ├ [5]: https://linux.oracle.com/cve/CVE-2024-50602.html 
 │                       │     │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2024-9541.html 
