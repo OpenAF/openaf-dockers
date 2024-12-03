@@ -355,7 +355,6 @@
     - CWE-125
     VendorSeverity:
       amazon: 2
-      cbl-mariner: 2
       nvd: 2
       photon: 2
       redhat: 1
@@ -812,7 +811,6 @@
     - CWE-125
     VendorSeverity:
       amazon: 2
-      cbl-mariner: 2
       nvd: 2
       photon: 2
       redhat: 1
