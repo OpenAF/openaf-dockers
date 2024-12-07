@@ -1195,7 +1195,7 @@
 │                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2024-21131 
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:13.21Z 
-│                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.18Z 
+│                       │      ╰ LastModifiedDate: 2024-12-05T22:02:52.553Z 
 │                       ├ [14] ╭ VulnerabilityID : CVE-2024-21138 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
@@ -1286,7 +1286,7 @@
 │                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2024-21138 
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:14.62Z 
-│                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.29Z 
+│                       │      ╰ LastModifiedDate: 2024-12-05T22:05:55.937Z 
 │                       ├ [15] ╭ VulnerabilityID : CVE-2024-21144 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
@@ -2441,7 +2441,7 @@
 │                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2024-21131 
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:13.21Z 
-│                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.18Z 
+│                       │      ╰ LastModifiedDate: 2024-12-05T22:02:52.553Z 
 │                       ├ [28] ╭ VulnerabilityID : CVE-2024-21138 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
@@ -2532,7 +2532,7 @@
 │                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2024-21138 
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:14.62Z 
-│                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.29Z 
+│                       │      ╰ LastModifiedDate: 2024-12-05T22:05:55.937Z 
 │                       ├ [29] ╭ VulnerabilityID : CVE-2024-21144 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
@@ -3687,7 +3687,7 @@
 │                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2024-21131 
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:13.21Z 
-│                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.18Z 
+│                       │      ╰ LastModifiedDate: 2024-12-05T22:02:52.553Z 
 │                       ├ [42] ╭ VulnerabilityID : CVE-2024-21138 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
@@ -3778,7 +3778,7 @@
 │                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2024-21138 
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:14.62Z 
-│                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.29Z 
+│                       │      ╰ LastModifiedDate: 2024-12-05T22:05:55.937Z 
 │                       ├ [43] ╭ VulnerabilityID : CVE-2024-21144 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
