@@ -264,13 +264,17 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ rocky      : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
-│                       │      │                           │           /A:H 
-│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                  │         │           N/A:H 
+│                       │      │                  │         ╰ V3Score : 5.9 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                            │           N/A:H 
+│                       │      │                            ╰ V3Score : 5.9 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:9541 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-50602 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2321987 
@@ -918,7 +922,7 @@
 │                       │      │                  ╰ [25]: https://www.oracle.com/security-alerts/cpuapr2024.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:25.307Z 
-│                       │      ╰ LastModifiedDate: 2024-04-26T09:15:11.273Z 
+│                       │      ╰ LastModifiedDate: 2024-12-06T19:22:57.927Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2024-21085 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
@@ -1191,7 +1195,7 @@
 │                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2024-21131 
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:13.21Z 
-│                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.18Z 
+│                       │      ╰ LastModifiedDate: 2024-12-05T22:02:52.553Z 
 │                       ├ [14] ╭ VulnerabilityID : CVE-2024-21138 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
@@ -1282,7 +1286,7 @@
 │                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2024-21138 
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:14.62Z 
-│                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.29Z 
+│                       │      ╰ LastModifiedDate: 2024-12-05T22:05:55.937Z 
 │                       ├ [15] ╭ VulnerabilityID : CVE-2024-21144 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
@@ -2164,7 +2168,7 @@
 │                       │      │                  ╰ [25]: https://www.oracle.com/security-alerts/cpuapr2024.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:25.307Z 
-│                       │      ╰ LastModifiedDate: 2024-04-26T09:15:11.273Z 
+│                       │      ╰ LastModifiedDate: 2024-12-06T19:22:57.927Z 
 │                       ├ [25] ╭ VulnerabilityID : CVE-2024-21085 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
@@ -2437,7 +2441,7 @@
 │                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2024-21131 
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:13.21Z 
-│                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.18Z 
+│                       │      ╰ LastModifiedDate: 2024-12-05T22:02:52.553Z 
 │                       ├ [28] ╭ VulnerabilityID : CVE-2024-21138 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
@@ -2528,7 +2532,7 @@
 │                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2024-21138 
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:14.62Z 
-│                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.29Z 
+│                       │      ╰ LastModifiedDate: 2024-12-05T22:05:55.937Z 
 │                       ├ [29] ╭ VulnerabilityID : CVE-2024-21144 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
@@ -3410,7 +3414,7 @@
 │                       │      │                  ╰ [25]: https://www.oracle.com/security-alerts/cpuapr2024.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:25.307Z 
-│                       │      ╰ LastModifiedDate: 2024-04-26T09:15:11.273Z 
+│                       │      ╰ LastModifiedDate: 2024-12-06T19:22:57.927Z 
 │                       ├ [39] ╭ VulnerabilityID : CVE-2024-21085 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
@@ -3683,7 +3687,7 @@
 │                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2024-21131 
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:13.21Z 
-│                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.18Z 
+│                       │      ╰ LastModifiedDate: 2024-12-05T22:02:52.553Z 
 │                       ├ [42] ╭ VulnerabilityID : CVE-2024-21138 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
@@ -3774,7 +3778,7 @@
 │                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2024-21138 
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:14.62Z 
-│                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.29Z 
+│                       │      ╰ LastModifiedDate: 2024-12-05T22:05:55.937Z 
 │                       ├ [43] ╭ VulnerabilityID : CVE-2024-21144 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
