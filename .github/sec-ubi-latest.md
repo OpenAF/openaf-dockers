@@ -54,7 +54,8 @@
 │                       │      │                   injected. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-330 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
@@ -91,7 +92,8 @@
 │                       │      │                   attackers to guess transaction IDs. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-334 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
@@ -637,7 +639,7 @@
 │                       │      │                  │       stro=redhat-9.5 
 │                       │      │                  ╰ UID : 78944302b9fb73af 
 │                       │      ├ InstalledVersion: 2.68.4-14.el9_4.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ Status          : will_not_fix 
 │                       │      ├ Layer            ╭ Digest: sha256:3fe8d556afabe932d54e1f3c3f575c1cc1b73f4c8ede
 │                       │      │                  │         34f2940c0d8dae0dcb92 
 │                       │      │                  ╰ DiffID: sha256:3e50bf05f2b80c57fe073fb5d294f5773c61e1d5de55
@@ -653,6 +655,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-120 
 │                       │      ├ VendorSeverity   ╭ azure      : 4 
 │                       │      │                  ├ cbl-mariner: 4 
+│                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
@@ -1199,7 +1202,8 @@
 │                       │      │                   xmlHTMLPrintFileContext in xmllint.c. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ╰ redhat     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
