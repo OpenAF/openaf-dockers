@@ -517,10 +517,11 @@
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2024-9681.json 
 │                       │      │                  ├ [4]: https://hackerone.com/reports/2764830 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7104-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-20241213-0006/ 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7104-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                       │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
-│                       │      ╰ LastModifiedDate: 2024-11-25T19:52:56.417Z 
+│                       │      ╰ LastModifiedDate: 2024-12-13T14:15:22.953Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2024-45491 
 │                       │      ├ PkgID           : expat@2.5.0-3.el9_5.1.x86_64 
 │                       │      ├ PkgName         : expat 
@@ -1034,10 +1035,11 @@
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2024-9681.json 
 │                       │      │                  ├ [4]: https://hackerone.com/reports/2764830 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7104-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-20241213-0006/ 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7104-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                       │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
-│                       │      ╰ LastModifiedDate: 2024-11-25T19:52:56.417Z 
+│                       │      ╰ LastModifiedDate: 2024-12-13T14:15:22.953Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libgcc@11.5.0-2.el9.x86_64 
 │                       │      ├ PkgName         : libgcc 
@@ -3715,7 +3717,7 @@
 │                       │      │                  ├ [9] : https://github.com/python/cpython/issues/103848 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/pull/103849 
 │                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-11168.html 
-│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-10779.html 
+│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-10983.html 
 │                       │      │                  ├ [13]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T
 │                       │      │                  │       / 
@@ -3778,7 +3780,7 @@
 │                       │      │                  ├ [12]: https://github.com/python/cpython/pull/124712/commits
 │                       │      │                  │       /b6a3bbd155c558cdcda482629073e492437db3d0 
 │                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-9287.html 
-│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-10779.html 
+│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-10983.html 
 │                       │      │                  ├ [15]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL
 │                       │      │                  │       / 
@@ -4122,7 +4124,7 @@
 │                       │      │                  ├ [9] : https://github.com/python/cpython/issues/103848 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/pull/103849 
 │                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-11168.html 
-│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-10779.html 
+│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-10983.html 
 │                       │      │                  ├ [13]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T
 │                       │      │                  │       / 
@@ -4185,7 +4187,7 @@
 │                       │      │                  ├ [12]: https://github.com/python/cpython/pull/124712/commits
 │                       │      │                  │       /b6a3bbd155c558cdcda482629073e492437db3d0 
 │                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-9287.html 
-│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-10779.html 
+│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-10983.html 
 │                       │      │                  ├ [15]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL
 │                       │      │                  │       / 
@@ -4529,7 +4531,7 @@
 │                       │      │                  ├ [9] : https://github.com/python/cpython/issues/103848 
 │                       │      │                  ├ [10]: https://github.com/python/cpython/pull/103849 
 │                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-11168.html 
-│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-10779.html 
+│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-10983.html 
 │                       │      │                  ├ [13]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/XPWB6XVZ5G5KGEI63M4AWLIEUF5BPH4T
 │                       │      │                  │       / 
@@ -4592,7 +4594,7 @@
 │                       │      │                  ├ [12]: https://github.com/python/cpython/pull/124712/commits
 │                       │      │                  │       /b6a3bbd155c558cdcda482629073e492437db3d0 
 │                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-9287.html 
-│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-10779.html 
+│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-10983.html 
 │                       │      │                  ├ [15]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL
 │                       │      │                  │       / 
