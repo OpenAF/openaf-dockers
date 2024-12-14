@@ -2,7 +2,49 @@
 ╭ [0] ╭ Target         : openaf/oaf:8-latest (alpine 3.20.3) 
 │     ├ Class          : os-pkgs 
 │     ├ Type           : alpine 
-│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2024-9681 
+│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2024-11053 
+│                       │      ├ PkgID           : curl@8.10.1-r0 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.10.1-r0?arch=x86_64&distro=3.20.3 
+│                       │      │                  ╰ UID : f07e06b001c6f80a 
+│                       │      ├ InstalledVersion: 8.10.1-r0 
+│                       │      ├ FixedVersion    : 8.11.1-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
+│                       │      │                  │         2801b3e28133325c482b 
+│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
+│                       │      │                            28ea1250ef005595c5f9 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11053 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : curl: curl netrc password leak 
+│                       │      ├ Description     : When asked to both use a `.netrc` file for credentials and
+│                       │      │                   to follow HTTP
+│                       │      │                   redirects, curl could leak the password used for the first
+│                       │      │                   host to the
+│                       │      │                   followed-to host under certain circumstances.
+│                       │      │                   
+│                       │      │                   This flaw only manifests itself if the netrc file has an
+│                       │      │                   entry that matches
+│                       │      │                   the redirect target hostname but the entry either omits just
+│                       │      │                    the password or
+│                       │      │                   omits both login and password. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/11/1 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-11053 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2024-11053.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2024-11053.json 
+│                       │      │                  ├ [4]: https://hackerone.com/reports/2829063 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
+│                       │      ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
+│                       │      ╰ LastModifiedDate: 2024-12-11T15:15:07.783Z 
+│                       ├ [1]  ╭ VulnerabilityID : CVE-2024-9681 
 │                       │      ├ PkgID           : curl@8.10.1-r0 
 │                       │      ├ PkgName         : curl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.10.1-r0?arch=x86_64&distro=3.20.3 
@@ -74,11 +116,12 @@
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2024-9681.json 
 │                       │      │                  ├ [4]: https://hackerone.com/reports/2764830 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7104-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-20241213-0006/ 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7104-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                       │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
-│                       │      ╰ LastModifiedDate: 2024-11-25T19:52:56.417Z 
-│                       ├ [1]  ╭ VulnerabilityID : CVE-2024-9143 
+│                       │      ╰ LastModifiedDate: 2024-12-13T14:15:22.953Z 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2024-9143 
 │                       │      ├ PkgID           : libcrypto3@3.3.2-r0 
 │                       │      ├ PkgName         : libcrypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.3.2-r0?arch=x86_64&distro
@@ -162,7 +205,50 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-9143 
 │                       │      ├ PublishedDate   : 2024-10-16T17:15:18.13Z 
 │                       │      ╰ LastModifiedDate: 2024-11-08T16:35:21.58Z 
-│                       ├ [2]  ╭ VulnerabilityID : CVE-2024-9681 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2024-11053 
+│                       │      ├ PkgID           : libcurl@8.10.1-r0 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.10.1-r0?arch=x86_64&distro=3
+│                       │      │                  │       .20.3 
+│                       │      │                  ╰ UID : 49f1e7608626c36e 
+│                       │      ├ InstalledVersion: 8.10.1-r0 
+│                       │      ├ FixedVersion    : 8.11.1-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
+│                       │      │                  │         2801b3e28133325c482b 
+│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
+│                       │      │                            28ea1250ef005595c5f9 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11053 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : curl: curl netrc password leak 
+│                       │      ├ Description     : When asked to both use a `.netrc` file for credentials and
+│                       │      │                   to follow HTTP
+│                       │      │                   redirects, curl could leak the password used for the first
+│                       │      │                   host to the
+│                       │      │                   followed-to host under certain circumstances.
+│                       │      │                   
+│                       │      │                   This flaw only manifests itself if the netrc file has an
+│                       │      │                   entry that matches
+│                       │      │                   the redirect target hostname but the entry either omits just
+│                       │      │                    the password or
+│                       │      │                   omits both login and password. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/11/1 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-11053 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2024-11053.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2024-11053.json 
+│                       │      │                  ├ [4]: https://hackerone.com/reports/2829063 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
+│                       │      ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
+│                       │      ╰ LastModifiedDate: 2024-12-11T15:15:07.783Z 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2024-9681 
 │                       │      ├ PkgID           : libcurl@8.10.1-r0 
 │                       │      ├ PkgName         : libcurl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.10.1-r0?arch=x86_64&distro=3
@@ -235,11 +321,12 @@
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2024-9681.json 
 │                       │      │                  ├ [4]: https://hackerone.com/reports/2764830 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7104-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-20241213-0006/ 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7104-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                       │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
-│                       │      ╰ LastModifiedDate: 2024-11-25T19:52:56.417Z 
-│                       ├ [3]  ╭ VulnerabilityID : CVE-2024-50602 
+│                       │      ╰ LastModifiedDate: 2024-12-13T14:15:22.953Z 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2024-50602 
 │                       │      ├ PkgID           : libexpat@2.6.3-r0 
 │                       │      ├ PkgName         : libexpat 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.6.3-r0?arch=x86_64&distro=3
@@ -264,13 +351,17 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ rocky      : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
-│                       │      │                           │           /A:H 
-│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                  │         │           N/A:H 
+│                       │      │                  │         ╰ V3Score : 5.9 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                            │           N/A:H 
+│                       │      │                            ╰ V3Score : 5.9 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:9541 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-50602 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2321987 
@@ -286,7 +377,7 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-50602 
 │                       │      ├ PublishedDate   : 2024-10-27T05:15:04.09Z 
 │                       │      ╰ LastModifiedDate: 2024-10-30T18:35:16.237Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2024-9143 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2024-9143 
 │                       │      ├ PkgID           : libssl3@3.3.2-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.3.2-r0?arch=x86_64&distro=3.
@@ -370,7 +461,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-9143 
 │                       │      ├ PublishedDate   : 2024-10-16T17:15:18.13Z 
 │                       │      ╰ LastModifiedDate: 2024-11-08T16:35:21.58Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2024-21147 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2024-21147 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -465,7 +556,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:16.377Z 
 │                       │      ╰ LastModifiedDate: 2024-08-13T00:49:47.367Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2024-21140 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2024-21140 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -561,7 +652,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.043Z 
 │                       │      ╰ LastModifiedDate: 2024-08-01T13:46:27.193Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2024-21145 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2024-21145 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -659,7 +750,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.993Z 
 │                       │      ╰ LastModifiedDate: 2024-09-20T13:46:53.83Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2024-21235 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2024-21235 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -749,7 +840,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:12.643Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:30:26.097Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2024-21011 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2024-21011 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -834,7 +925,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:15.437Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T21:15:17.52Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2024-21068 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2024-21068 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -918,8 +1009,8 @@
 │                       │      │                  ╰ [25]: https://www.oracle.com/security-alerts/cpuapr2024.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:25.307Z 
-│                       │      ╰ LastModifiedDate: 2024-04-26T09:15:11.273Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2024-21085 
+│                       │      ╰ LastModifiedDate: 2024-12-06T19:22:57.927Z 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2024-21085 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1007,7 +1098,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:28.293Z 
 │                       │      ╰ LastModifiedDate: 2024-04-26T09:15:11.447Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2024-21094 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2024-21094 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1101,7 +1192,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:29.857Z 
 │                       │      ╰ LastModifiedDate: 2024-07-03T01:46:32.57Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2024-21131 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2024-21131 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1191,8 +1282,8 @@
 │                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2024-21131 
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:13.21Z 
-│                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.18Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2024-21138 
+│                       │      ╰ LastModifiedDate: 2024-12-05T22:02:52.553Z 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2024-21138 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1282,8 +1373,8 @@
 │                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2024-21138 
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:14.62Z 
-│                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.29Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2024-21144 
+│                       │      ╰ LastModifiedDate: 2024-12-05T22:05:55.937Z 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2024-21144 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1359,7 +1450,7 @@
 │                       │      │                  ╰ [18]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.81Z 
 │                       │      ╰ LastModifiedDate: 2024-09-18T15:15:42.963Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2024-21208 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2024-21208 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1447,7 +1538,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.437Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:05.287Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2024-21210 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2024-21210 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1529,7 +1620,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.843Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.037Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2024-21217 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2024-21217 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1616,7 +1707,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:11.197Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:29:36.59Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2024-21147 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2024-21147 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -1711,7 +1802,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:16.377Z 
 │                       │      ╰ LastModifiedDate: 2024-08-13T00:49:47.367Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2024-21140 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2024-21140 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -1807,7 +1898,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.043Z 
 │                       │      ╰ LastModifiedDate: 2024-08-01T13:46:27.193Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2024-21145 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2024-21145 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -1905,7 +1996,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.993Z 
 │                       │      ╰ LastModifiedDate: 2024-09-20T13:46:53.83Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2024-21235 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2024-21235 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -1995,7 +2086,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:12.643Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:30:26.097Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2024-21011 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2024-21011 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2080,7 +2171,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:15.437Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T21:15:17.52Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2024-21068 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2024-21068 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2164,8 +2255,8 @@
 │                       │      │                  ╰ [25]: https://www.oracle.com/security-alerts/cpuapr2024.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:25.307Z 
-│                       │      ╰ LastModifiedDate: 2024-04-26T09:15:11.273Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2024-21085 
+│                       │      ╰ LastModifiedDate: 2024-12-06T19:22:57.927Z 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2024-21085 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2253,7 +2344,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:28.293Z 
 │                       │      ╰ LastModifiedDate: 2024-04-26T09:15:11.447Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2024-21094 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2024-21094 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2347,7 +2438,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:29.857Z 
 │                       │      ╰ LastModifiedDate: 2024-07-03T01:46:32.57Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2024-21131 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2024-21131 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2437,8 +2528,8 @@
 │                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2024-21131 
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:13.21Z 
-│                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.18Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2024-21138 
+│                       │      ╰ LastModifiedDate: 2024-12-05T22:02:52.553Z 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2024-21138 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2528,8 +2619,8 @@
 │                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2024-21138 
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:14.62Z 
-│                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.29Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2024-21144 
+│                       │      ╰ LastModifiedDate: 2024-12-05T22:05:55.937Z 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2024-21144 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2605,7 +2696,7 @@
 │                       │      │                  ╰ [18]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.81Z 
 │                       │      ╰ LastModifiedDate: 2024-09-18T15:15:42.963Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2024-21208 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2024-21208 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2693,7 +2784,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.437Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:05.287Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2024-21210 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2024-21210 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2775,7 +2866,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.843Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.037Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2024-21217 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2024-21217 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2862,7 +2953,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:11.197Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:29:36.59Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2024-21147 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2024-21147 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -2957,7 +3048,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:16.377Z 
 │                       │      ╰ LastModifiedDate: 2024-08-13T00:49:47.367Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2024-21140 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2024-21140 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3053,7 +3144,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.043Z 
 │                       │      ╰ LastModifiedDate: 2024-08-01T13:46:27.193Z 
-│                       ├ [35] ╭ VulnerabilityID : CVE-2024-21145 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2024-21145 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3151,7 +3242,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.993Z 
 │                       │      ╰ LastModifiedDate: 2024-09-20T13:46:53.83Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2024-21235 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2024-21235 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3241,7 +3332,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:12.643Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:30:26.097Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2024-21011 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2024-21011 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3326,7 +3417,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:15.437Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T21:15:17.52Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2024-21068 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2024-21068 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3410,8 +3501,8 @@
 │                       │      │                  ╰ [25]: https://www.oracle.com/security-alerts/cpuapr2024.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:25.307Z 
-│                       │      ╰ LastModifiedDate: 2024-04-26T09:15:11.273Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2024-21085 
+│                       │      ╰ LastModifiedDate: 2024-12-06T19:22:57.927Z 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2024-21085 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3499,7 +3590,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:28.293Z 
 │                       │      ╰ LastModifiedDate: 2024-04-26T09:15:11.447Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2024-21094 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2024-21094 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3593,7 +3684,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:29.857Z 
 │                       │      ╰ LastModifiedDate: 2024-07-03T01:46:32.57Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2024-21131 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2024-21131 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3683,8 +3774,8 @@
 │                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2024-21131 
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:13.21Z 
-│                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.18Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2024-21138 
+│                       │      ╰ LastModifiedDate: 2024-12-05T22:02:52.553Z 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2024-21138 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3774,8 +3865,8 @@
 │                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2024-21138 
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:14.62Z 
-│                       │      ╰ LastModifiedDate: 2024-07-19T14:15:05.29Z 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2024-21144 
+│                       │      ╰ LastModifiedDate: 2024-12-05T22:05:55.937Z 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2024-21144 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3851,7 +3942,7 @@
 │                       │      │                  ╰ [18]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.81Z 
 │                       │      ╰ LastModifiedDate: 2024-09-18T15:15:42.963Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2024-21208 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2024-21208 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3939,7 +4030,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.437Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:05.287Z 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2024-21210 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2024-21210 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -4021,7 +4112,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.843Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.037Z 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2024-21217 
+│                       ├ [48] ╭ VulnerabilityID : CVE-2024-21217 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -4108,7 +4199,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:11.197Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:29:36.59Z 
-│                       ╰ [47] ╭ VulnerabilityID : CVE-2024-9143 
+│                       ╰ [49] ╭ VulnerabilityID : CVE-2024-9143 
 │                              ├ PkgID           : openssl@3.3.2-r0 
 │                              ├ PkgName         : openssl 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.3.2-r0?arch=x86_64&distro=3.
