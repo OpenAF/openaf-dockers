@@ -2,7 +2,49 @@
 ╭ [0] ╭ Target         : openaf/oaf:8-latest (alpine 3.20.3) 
 │     ├ Class          : os-pkgs 
 │     ├ Type           : alpine 
-│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2024-9681 
+│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2024-11053 
+│                       │      ├ PkgID           : curl@8.10.1-r0 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.10.1-r0?arch=x86_64&distro=3.20.3 
+│                       │      │                  ╰ UID : f07e06b001c6f80a 
+│                       │      ├ InstalledVersion: 8.10.1-r0 
+│                       │      ├ FixedVersion    : 8.11.1-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
+│                       │      │                  │         2801b3e28133325c482b 
+│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
+│                       │      │                            28ea1250ef005595c5f9 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11053 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : curl: curl netrc password leak 
+│                       │      ├ Description     : When asked to both use a `.netrc` file for credentials and
+│                       │      │                   to follow HTTP
+│                       │      │                   redirects, curl could leak the password used for the first
+│                       │      │                   host to the
+│                       │      │                   followed-to host under certain circumstances.
+│                       │      │                   
+│                       │      │                   This flaw only manifests itself if the netrc file has an
+│                       │      │                   entry that matches
+│                       │      │                   the redirect target hostname but the entry either omits just
+│                       │      │                    the password or
+│                       │      │                   omits both login and password. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/11/1 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-11053 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2024-11053.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2024-11053.json 
+│                       │      │                  ├ [4]: https://hackerone.com/reports/2829063 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
+│                       │      ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
+│                       │      ╰ LastModifiedDate: 2024-12-11T15:15:07.783Z 
+│                       ├ [1]  ╭ VulnerabilityID : CVE-2024-9681 
 │                       │      ├ PkgID           : curl@8.10.1-r0 
 │                       │      ├ PkgName         : curl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.10.1-r0?arch=x86_64&distro=3.20.3 
@@ -74,46 +116,11 @@
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2024-9681.json 
 │                       │      │                  ├ [4]: https://hackerone.com/reports/2764830 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7104-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-20241213-0006/ 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7104-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                       │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
-│                       │      ╰ LastModifiedDate: 2024-11-25T19:52:56.417Z 
-│                       ├ [1]  ╭ VulnerabilityID : CVE-2024-11053 
-│                       │      ├ PkgID           : curl@8.10.1-r0 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.10.1-r0?arch=x86_64&distro=3.20.3 
-│                       │      │                  ╰ UID : f07e06b001c6f80a 
-│                       │      ├ InstalledVersion: 8.10.1-r0 
-│                       │      ├ FixedVersion    : 8.11.1-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
-│                       │      │                  │         2801b3e28133325c482b 
-│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
-│                       │      │                            28ea1250ef005595c5f9 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11053 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : When asked to both use a `.netrc` file for credentials and
-│                       │      │                   to follow H ... 
-│                       │      ├ Description     : When asked to both use a `.netrc` file for credentials and
-│                       │      │                   to follow HTTP
-│                       │      │                   redirects, curl could leak the password used for the first
-│                       │      │                   host to the
-│                       │      │                   followed-to host under certain circumstances.
-│                       │      │                   
-│                       │      │                   This flaw only manifests itself if the netrc file has an
-│                       │      │                   entry that matches
-│                       │      │                   the redirect target hostname but the entry either omits just
-│                       │      │                    the password or
-│                       │      │                   omits both login and password. 
-│                       │      ├ Severity        : UNKNOWN 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/11/1 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2024-11053.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2024-11053.json 
-│                       │      │                  ╰ [3]: https://hackerone.com/reports/2829063 
-│                       │      ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
-│                       │      ╰ LastModifiedDate: 2024-12-11T15:15:07.783Z 
+│                       │      ╰ LastModifiedDate: 2024-12-13T14:15:22.953Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2024-9143 
 │                       │      ├ PkgID           : libcrypto3@3.3.2-r0 
 │                       │      ├ PkgName         : libcrypto3 
@@ -198,7 +205,50 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-9143 
 │                       │      ├ PublishedDate   : 2024-10-16T17:15:18.13Z 
 │                       │      ╰ LastModifiedDate: 2024-11-08T16:35:21.58Z 
-│                       ├ [3]  ╭ VulnerabilityID : CVE-2024-9681 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2024-11053 
+│                       │      ├ PkgID           : libcurl@8.10.1-r0 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.10.1-r0?arch=x86_64&distro=3
+│                       │      │                  │       .20.3 
+│                       │      │                  ╰ UID : 49f1e7608626c36e 
+│                       │      ├ InstalledVersion: 8.10.1-r0 
+│                       │      ├ FixedVersion    : 8.11.1-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
+│                       │      │                  │         2801b3e28133325c482b 
+│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
+│                       │      │                            28ea1250ef005595c5f9 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11053 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : curl: curl netrc password leak 
+│                       │      ├ Description     : When asked to both use a `.netrc` file for credentials and
+│                       │      │                   to follow HTTP
+│                       │      │                   redirects, curl could leak the password used for the first
+│                       │      │                   host to the
+│                       │      │                   followed-to host under certain circumstances.
+│                       │      │                   
+│                       │      │                   This flaw only manifests itself if the netrc file has an
+│                       │      │                   entry that matches
+│                       │      │                   the redirect target hostname but the entry either omits just
+│                       │      │                    the password or
+│                       │      │                   omits both login and password. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/11/1 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-11053 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2024-11053.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2024-11053.json 
+│                       │      │                  ├ [4]: https://hackerone.com/reports/2829063 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
+│                       │      ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
+│                       │      ╰ LastModifiedDate: 2024-12-11T15:15:07.783Z 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2024-9681 
 │                       │      ├ PkgID           : libcurl@8.10.1-r0 
 │                       │      ├ PkgName         : libcurl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.10.1-r0?arch=x86_64&distro=3
@@ -271,47 +321,11 @@
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2024-9681.json 
 │                       │      │                  ├ [4]: https://hackerone.com/reports/2764830 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-9681 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7104-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
+│                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-20241213-0006/ 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7104-1 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                       │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
-│                       │      ╰ LastModifiedDate: 2024-11-25T19:52:56.417Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2024-11053 
-│                       │      ├ PkgID           : libcurl@8.10.1-r0 
-│                       │      ├ PkgName         : libcurl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.10.1-r0?arch=x86_64&distro=3
-│                       │      │                  │       .20.3 
-│                       │      │                  ╰ UID : 49f1e7608626c36e 
-│                       │      ├ InstalledVersion: 8.10.1-r0 
-│                       │      ├ FixedVersion    : 8.11.1-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
-│                       │      │                  │         2801b3e28133325c482b 
-│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
-│                       │      │                            28ea1250ef005595c5f9 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11053 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : When asked to both use a `.netrc` file for credentials and
-│                       │      │                   to follow H ... 
-│                       │      ├ Description     : When asked to both use a `.netrc` file for credentials and
-│                       │      │                   to follow HTTP
-│                       │      │                   redirects, curl could leak the password used for the first
-│                       │      │                   host to the
-│                       │      │                   followed-to host under certain circumstances.
-│                       │      │                   
-│                       │      │                   This flaw only manifests itself if the netrc file has an
-│                       │      │                   entry that matches
-│                       │      │                   the redirect target hostname but the entry either omits just
-│                       │      │                    the password or
-│                       │      │                   omits both login and password. 
-│                       │      ├ Severity        : UNKNOWN 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/12/11/1 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2024-11053.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2024-11053.json 
-│                       │      │                  ╰ [3]: https://hackerone.com/reports/2829063 
-│                       │      ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
-│                       │      ╰ LastModifiedDate: 2024-12-11T15:15:07.783Z 
+│                       │      ╰ LastModifiedDate: 2024-12-13T14:15:22.953Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2024-50602 
 │                       │      ├ PkgID           : libexpat@2.6.3-r0 
 │                       │      ├ PkgName         : libexpat 
