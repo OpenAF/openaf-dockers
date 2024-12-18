@@ -3774,7 +3774,7 @@
 │                       │      │                  ├ [12]: https://github.com/python/cpython/pull/124712/commits
 │                       │      │                  │       /b6a3bbd155c558cdcda482629073e492437db3d0 
 │                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-9287.html 
-│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-10983.html 
+│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-11111.html 
 │                       │      │                  ├ [15]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL
 │                       │      │                  │       / 
@@ -3881,7 +3881,8 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ╭ [0]: CWE-1333 
 │                       │      │                  ╰ [1]: CWE-400 
-│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ nvd        : 3 
@@ -4181,7 +4182,7 @@
 │                       │      │                  ├ [12]: https://github.com/python/cpython/pull/124712/commits
 │                       │      │                  │       /b6a3bbd155c558cdcda482629073e492437db3d0 
 │                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-9287.html 
-│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-10983.html 
+│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-11111.html 
 │                       │      │                  ├ [15]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL
 │                       │      │                  │       / 
@@ -4288,7 +4289,8 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ╭ [0]: CWE-1333 
 │                       │      │                  ╰ [1]: CWE-400 
-│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ nvd        : 3 
@@ -4588,7 +4590,7 @@
 │                       │      │                  ├ [12]: https://github.com/python/cpython/pull/124712/commits
 │                       │      │                  │       /b6a3bbd155c558cdcda482629073e492437db3d0 
 │                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-9287.html 
-│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-10983.html 
+│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-11111.html 
 │                       │      │                  ├ [15]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL
 │                       │      │                  │       / 
@@ -4695,7 +4697,8 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ╭ [0]: CWE-1333 
 │                       │      │                  ╰ [1]: CWE-400 
-│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ nvd        : 3 
