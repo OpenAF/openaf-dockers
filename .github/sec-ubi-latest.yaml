@@ -3206,7 +3206,7 @@
     - https://github.com/python/cpython/pull/124712
     - https://github.com/python/cpython/pull/124712/commits/b6a3bbd155c558cdcda482629073e492437db3d0
     - https://linux.oracle.com/cve/CVE-2024-9287.html
-    - https://linux.oracle.com/errata/ELSA-2024-10983.html
+    - https://linux.oracle.com/errata/ELSA-2024-11111.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9287
     - https://ubuntu.com/security/notices/USN-7116-1
@@ -3297,6 +3297,7 @@
     - CWE-1333
     - CWE-400
     VendorSeverity:
+      amazon: 3
       azure: 3
       bitnami: 3
       cbl-mariner: 3
@@ -3508,7 +3509,7 @@
     - https://github.com/python/cpython/pull/124712
     - https://github.com/python/cpython/pull/124712/commits/b6a3bbd155c558cdcda482629073e492437db3d0
     - https://linux.oracle.com/cve/CVE-2024-9287.html
-    - https://linux.oracle.com/errata/ELSA-2024-10983.html
+    - https://linux.oracle.com/errata/ELSA-2024-11111.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9287
     - https://ubuntu.com/security/notices/USN-7116-1
@@ -3599,6 +3600,7 @@
     - CWE-1333
     - CWE-400
     VendorSeverity:
+      amazon: 3
       azure: 3
       bitnami: 3
       cbl-mariner: 3
@@ -3810,7 +3812,7 @@
     - https://github.com/python/cpython/pull/124712
     - https://github.com/python/cpython/pull/124712/commits/b6a3bbd155c558cdcda482629073e492437db3d0
     - https://linux.oracle.com/cve/CVE-2024-9287.html
-    - https://linux.oracle.com/errata/ELSA-2024-10983.html
+    - https://linux.oracle.com/errata/ELSA-2024-11111.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/RSPJ2B5JL22FG3TKUJ7D7DQ4N5JRRBZL/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9287
     - https://ubuntu.com/security/notices/USN-7116-1
@@ -3901,6 +3903,7 @@
     - CWE-1333
     - CWE-400
     VendorSeverity:
+      amazon: 3
       azure: 3
       bitnami: 3
       cbl-mariner: 3
