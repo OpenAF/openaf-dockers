@@ -30,7 +30,11 @@ if [ ! -z "$OPACK_EXEC" ]; then
    /openaf/opack exec "$OPACK_EXEC" "$@"
 fi
 
-if [ -z "$OPENAF" ] && [ -z "$OJOB" ]; then
+if [ ! -z "$OAFP" ]; then
+   /openaf/oafp "$@"
+fi
+
+if [ -z "$OPENAF" ] && [ -z "$OJOB" ] && [ -z "$OAFP" ]; then
    if [ -z $1 ] && [ -z "$OPACK_EXEC" ]; then
       /bin/sh
    else

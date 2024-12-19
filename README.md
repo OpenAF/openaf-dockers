@@ -27,6 +27,7 @@ There are two tags available:
 |---------|--------------------------|
 | latest  | The lastest stable build |
 | nightly | The nightly build        |
+| t8      | The developer version    |
 
 The environment variables available:
 
@@ -37,6 +38,7 @@ The environment variables available:
 | OPACKS_DB  | A comma separated list of  | OPACKS_DB=http://main.server/opack.db |
 | OPENAF     | A container based script to be executed. | /myscripts/script.js |
 | OJOB       | A container based ojob to be executed. | /myojobs/job.yaml |
+| OAFP       | If defined will rever to running oafp. | -h |
 
 #### Examples
 
@@ -75,6 +77,7 @@ There are two tags available:
 |---------|--------------------------|
 | latest  | The lastest stable build |
 | nightly | The nightly build        |
+| t8      | The developer version    |
 
 #### Example
 
@@ -100,6 +103,7 @@ There are two tags available:
 |---------|--------------------------|
 | latest  | The lastest stable build |
 | nightly | The nightly build        |
+| t8      | The developer version    |
 
 [Building oJob](oJob)
 
@@ -119,5 +123,6 @@ There are two tags available:
 |---------|--------------------------|
 | latest  | The lastest stable build |
 | nightly | The nightly build        |
+| t8      | The developer version    |
 
 [Building oJobC](oJobC)
