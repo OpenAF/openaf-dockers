@@ -1,4 +1,4 @@
-- Target: openaf/oaf:nightly (alpine 3.21.1)
+- Target: openaf/oaf:nightly (alpine 3.21.2)
   Class: os-pkgs
   Type: alpine
 - Target: Java
