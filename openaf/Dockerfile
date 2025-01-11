@@ -22,7 +22,9 @@ RUN echo 'PATH=$PATH:/openaf' > /etc/profile.d/openaf.sh\
  && update-ca-certificates\
  && adduser -g 0 -u 1000 -Ds /bin/sh openaf\
  && echo "openaf ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/openaf\
- && chmod g+w /etc/passwd
+ && chmod g+w /etc/passwd\
+ && apk cache --purge\
+ && rm -rf /var/cache/apk/*
 
 # Install openaf and prepare everthing
 RUN cd /openaf\

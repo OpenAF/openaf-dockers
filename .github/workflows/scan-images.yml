@@ -115,7 +115,21 @@ jobs:
         ojob: 'ojob.io/util/toMDTree'
         args: 'inputFile=.github/sec-oJobRT-nightly.yaml file=.github/sec-oJobRT-nightly.md'
         dist: 't8'
+
+    - uses: openaf/ojob-action@v4
+      name: Scan pyOAF nightly
+      with:
+        ojob: 'ojob.io/sec/genSecBadge'
+        args: 'image=openaf/pyoaf:nightly file=.github/sec-pyOAF-nightly.svg reportFile=.github/sec-pyOAF-nightly.yaml'
+        dist: 't8'
         
+    - uses: openaf/ojob-action@v4
+      name: Generate sec-pyOAF-nightly.md
+      with:
+        ojob: 'ojob.io/util/toMDTree'
+        args: 'inputFile=.github/sec-pyOAF-nightly.yaml file=.github/sec-pyOAF-nightly.md'
+        dist: 't8'
+
 
     - uses: openaf/ojob-action@v4
       name: Scan 8 latest
