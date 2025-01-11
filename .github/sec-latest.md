@@ -1,5 +1,5 @@
 ````yaml
-╭ [0] ╭ Target: openaf/oaf:latest (alpine 3.21.0) 
+╭ [0] ╭ Target: openaf/oaf:latest (alpine 3.21.2) 
 │     ├ Class : os-pkgs 
 │     ╰ Type  : alpine 
 ╰ [1] ╭ Target: Java 
