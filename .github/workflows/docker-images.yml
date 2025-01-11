@@ -426,6 +426,7 @@ jobs:
     - build-ojobc
     - build-openaf-ojob
     - build-ojob
+    - build-pyoaf
     - build-ojobrt
     - build-openaf-console
     - build-console
