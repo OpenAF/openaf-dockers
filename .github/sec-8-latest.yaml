@@ -30,6 +30,8 @@
       omits both login and password.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 3
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -217,6 +219,8 @@
       omits both login and password.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 3
+      cbl-mariner: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -660,7 +664,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -1168,7 +1172,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -1233,7 +1237,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -1296,7 +1300,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -1566,7 +1570,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -2074,7 +2078,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -2139,7 +2143,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -2202,7 +2206,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -2472,7 +2476,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -2980,7 +2984,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -3045,7 +3049,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -3108,7 +3112,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
