@@ -31,8 +31,10 @@
 │                       │      │                    the password or
 │                       │      │                   omits both login and password. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
@@ -239,8 +241,10 @@
 │                       │      │                    the password or
 │                       │      │                   omits both login and password. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
@@ -807,7 +811,7 @@
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
@@ -1505,7 +1509,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-203 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
@@ -1587,7 +1591,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-203 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
@@ -1674,7 +1678,7 @@
 │                       │      │                   CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L). 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
@@ -2053,7 +2057,7 @@
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
@@ -2751,7 +2755,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-203 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
@@ -2833,7 +2837,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-203 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
@@ -2920,7 +2924,7 @@
 │                       │      │                   CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L). 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
@@ -3299,7 +3303,7 @@
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
@@ -3997,7 +4001,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-203 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
@@ -4079,7 +4083,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-203 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
@@ -4166,7 +4170,7 @@
 │                       │      │                   CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L). 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
