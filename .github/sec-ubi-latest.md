@@ -419,8 +419,10 @@
 │                       │      │                    the password or
 │                       │      │                   omits both login and password. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
@@ -887,7 +889,7 @@
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-30571 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-30571 
 │                       │      ├ PublishedDate   : 2023-05-29T20:15:09.513Z 
-│                       │      ╰ LastModifiedDate: 2023-06-05T16:40:57.93Z 
+│                       │      ╰ LastModifiedDate: 2025-01-14T17:15:11.673Z 
 │                       ├ [16] ╭ VulnerabilityID : CVE-2024-11053 
 │                       │      ├ PkgID           : libcurl-minimal@7.76.1-31.el9.x86_64 
 │                       │      ├ PkgName         : libcurl-minimal 
@@ -915,8 +917,10 @@
 │                       │      │                    the password or
 │                       │      │                   omits both login and password. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
