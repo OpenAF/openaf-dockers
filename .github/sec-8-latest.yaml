@@ -47,6 +47,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11053
     - https://ubuntu.com/security/notices/USN-7162-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11053
+    - https://www.oracle.com/security-alerts/cpujan2025.html#AppendixMSQL
     PublishedDate: '2024-12-11T08:15:05.307Z'
     LastModifiedDate: '2024-12-15T17:15:05.273Z'
   - VulnerabilityID: CVE-2024-9681
@@ -236,6 +237,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11053
     - https://ubuntu.com/security/notices/USN-7162-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11053
+    - https://www.oracle.com/security-alerts/cpujan2025.html#AppendixMSQL
     PublishedDate: '2024-12-11T08:15:05.307Z'
     LastModifiedDate: '2024-12-15T17:15:05.273Z'
   - VulnerabilityID: CVE-2024-9681
@@ -664,7 +666,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -1172,7 +1174,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -1237,7 +1239,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -1300,7 +1302,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -1570,7 +1572,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -2078,7 +2080,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -2143,7 +2145,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -2206,7 +2208,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -2476,7 +2478,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -2984,7 +2986,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -3049,7 +3051,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -3112,7 +3114,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
