@@ -45,11 +45,12 @@
     - https://curl.se/docs/CVE-2024-11053.json
     - https://hackerone.com/reports/2829063
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11053
+    - https://security.netapp.com/advisory/ntap-20250124-0012/
     - https://ubuntu.com/security/notices/USN-7162-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11053
     - https://www.oracle.com/security-alerts/cpujan2025.html#AppendixMSQL
     PublishedDate: '2024-12-11T08:15:05.307Z'
-    LastModifiedDate: '2024-12-15T17:15:05.273Z'
+    LastModifiedDate: '2025-01-24T20:15:31.92Z'
   - VulnerabilityID: CVE-2024-9681
     PkgID: curl@8.10.1-r0
     PkgName: curl
@@ -235,11 +236,12 @@
     - https://curl.se/docs/CVE-2024-11053.json
     - https://hackerone.com/reports/2829063
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11053
+    - https://security.netapp.com/advisory/ntap-20250124-0012/
     - https://ubuntu.com/security/notices/USN-7162-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11053
     - https://www.oracle.com/security-alerts/cpujan2025.html#AppendixMSQL
     PublishedDate: '2024-12-11T08:15:05.307Z'
-    LastModifiedDate: '2024-12-15T17:15:05.273Z'
+    LastModifiedDate: '2025-01-24T20:15:31.92Z'
   - VulnerabilityID: CVE-2024-9681
     PkgID: libcurl@8.10.1-r0
     PkgName: libcurl
@@ -666,8 +668,9 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
+      photon: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -1174,8 +1177,9 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
+      photon: 1
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -1239,8 +1243,9 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
+      photon: 1
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -1302,8 +1307,9 @@
     Severity: LOW
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
+      photon: 1
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -1572,8 +1578,9 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
+      photon: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -2080,8 +2087,9 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
+      photon: 1
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -2145,8 +2153,9 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
+      photon: 1
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -2208,8 +2217,9 @@
     Severity: LOW
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
+      photon: 1
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -2478,8 +2488,9 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
+      photon: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -2986,8 +2997,9 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
+      photon: 1
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -3051,8 +3063,9 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
+      photon: 1
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -3114,8 +3127,9 @@
     Severity: LOW
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
+      photon: 1
       redhat: 2
       rocky: 2
       ubuntu: 1
