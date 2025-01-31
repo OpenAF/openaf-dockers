@@ -45,11 +45,12 @@
     - https://curl.se/docs/CVE-2024-11053.json
     - https://hackerone.com/reports/2829063
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11053
+    - https://security.netapp.com/advisory/ntap-20250124-0012/
     - https://ubuntu.com/security/notices/USN-7162-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11053
     - https://www.oracle.com/security-alerts/cpujan2025.html#AppendixMSQL
     PublishedDate: '2024-12-11T08:15:05.307Z'
-    LastModifiedDate: '2024-12-15T17:15:05.273Z'
+    LastModifiedDate: '2025-01-24T20:15:31.92Z'
   - VulnerabilityID: CVE-2024-9681
     PkgID: curl@8.10.1-r0
     PkgName: curl
@@ -99,6 +100,7 @@
     - CWE-697
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       photon: 2
       redhat: 1
@@ -235,11 +237,12 @@
     - https://curl.se/docs/CVE-2024-11053.json
     - https://hackerone.com/reports/2829063
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11053
+    - https://security.netapp.com/advisory/ntap-20250124-0012/
     - https://ubuntu.com/security/notices/USN-7162-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11053
     - https://www.oracle.com/security-alerts/cpujan2025.html#AppendixMSQL
     PublishedDate: '2024-12-11T08:15:05.307Z'
-    LastModifiedDate: '2024-12-15T17:15:05.273Z'
+    LastModifiedDate: '2025-01-24T20:15:31.92Z'
   - VulnerabilityID: CVE-2024-9681
     PkgID: libcurl@8.10.1-r0
     PkgName: libcurl
@@ -289,6 +292,7 @@
     - CWE-697
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       photon: 2
       redhat: 1
@@ -668,6 +672,7 @@
       alma: 2
       amazon: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -1176,6 +1181,7 @@
       alma: 2
       amazon: 2
       oracle-oval: 2
+      photon: 1
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -1241,6 +1247,7 @@
       alma: 2
       amazon: 2
       oracle-oval: 2
+      photon: 1
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -1304,6 +1311,7 @@
       alma: 2
       amazon: 2
       oracle-oval: 2
+      photon: 1
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -1574,6 +1582,7 @@
       alma: 2
       amazon: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -2082,6 +2091,7 @@
       alma: 2
       amazon: 2
       oracle-oval: 2
+      photon: 1
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -2147,6 +2157,7 @@
       alma: 2
       amazon: 2
       oracle-oval: 2
+      photon: 1
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -2210,6 +2221,7 @@
       alma: 2
       amazon: 2
       oracle-oval: 2
+      photon: 1
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -2480,6 +2492,7 @@
       alma: 2
       amazon: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -2988,6 +3001,7 @@
       alma: 2
       amazon: 2
       oracle-oval: 2
+      photon: 1
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -3053,6 +3067,7 @@
       alma: 2
       amazon: 2
       oracle-oval: 2
+      photon: 1
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -3116,6 +3131,7 @@
       alma: 2
       amazon: 2
       oracle-oval: 2
+      photon: 1
       redhat: 2
       rocky: 2
       ubuntu: 1

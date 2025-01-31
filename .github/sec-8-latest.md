@@ -44,12 +44,13 @@
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2024-11053.json 
 │                       │      │                  ├ [4]: https://hackerone.com/reports/2829063 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7162-1 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
-│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujan2025.html
+│                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-20250124-0012/ 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7162-1 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
+│                       │      │                  ╰ [9]: https://www.oracle.com/security-alerts/cpujan2025.html
 │                       │      │                         #AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
-│                       │      ╰ LastModifiedDate: 2024-12-15T17:15:05.273Z 
+│                       │      ╰ LastModifiedDate: 2025-01-24T20:15:31.92Z 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2024-9681 
 │                       │      ├ PkgID           : curl@8.10.1-r0 
 │                       │      ├ PkgName         : curl 
@@ -106,11 +107,12 @@
 │                       │      │                   than otherwise intended. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-697 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ nvd   : 2 
-│                       │      │                  ├ photon: 2 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ nvd        : 2 
+│                       │      │                  ├ photon     : 2 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                  │        │           /A:L 
 │                       │      │                  │        ╰ V3Score : 6.5 
@@ -256,12 +258,13 @@
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2024-11053.json 
 │                       │      │                  ├ [4]: https://hackerone.com/reports/2829063 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-11053 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7162-1 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
-│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujan2025.html
+│                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-20250124-0012/ 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7162-1 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-11053 
+│                       │      │                  ╰ [9]: https://www.oracle.com/security-alerts/cpujan2025.html
 │                       │      │                         #AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
-│                       │      ╰ LastModifiedDate: 2024-12-15T17:15:05.273Z 
+│                       │      ╰ LastModifiedDate: 2025-01-24T20:15:31.92Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2024-9681 
 │                       │      ├ PkgID           : libcurl@8.10.1-r0 
 │                       │      ├ PkgName         : libcurl 
@@ -319,11 +322,12 @@
 │                       │      │                   than otherwise intended. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-697 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ nvd   : 2 
-│                       │      │                  ├ photon: 2 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ nvd        : 2 
+│                       │      │                  ├ photon     : 2 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                  │        │           /A:L 
 │                       │      │                  │        ╰ V3Score : 6.5 
@@ -817,6 +821,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -1515,6 +1520,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -1597,6 +1603,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -1684,6 +1691,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -2063,6 +2071,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -2761,6 +2770,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -2843,6 +2853,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -2930,6 +2941,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -3309,6 +3321,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -4007,6 +4020,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -4089,6 +4103,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 1 
@@ -4176,6 +4191,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 1 
