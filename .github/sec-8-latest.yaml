@@ -46,11 +46,12 @@
     - https://hackerone.com/reports/2829063
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11053
     - https://security.netapp.com/advisory/ntap-20250124-0012/
+    - https://security.netapp.com/advisory/ntap-20250131-0003/
     - https://ubuntu.com/security/notices/USN-7162-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11053
     - https://www.oracle.com/security-alerts/cpujan2025.html#AppendixMSQL
     PublishedDate: '2024-12-11T08:15:05.307Z'
-    LastModifiedDate: '2025-01-24T20:15:31.92Z'
+    LastModifiedDate: '2025-01-31T15:15:12.4Z'
   - VulnerabilityID: CVE-2024-9681
     PkgID: curl@8.10.1-r0
     PkgName: curl
@@ -100,6 +101,7 @@
     - CWE-697
     VendorSeverity:
       amazon: 2
+      azure: 2
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -182,6 +184,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
     References:
+    - http://www.openwall.com/lists/oss-security/2024/10/16/1
+    - http://www.openwall.com/lists/oss-security/2024/10/23/1
+    - http://www.openwall.com/lists/oss-security/2024/10/24/1
     - https://access.redhat.com/security/cve/CVE-2024-9143
     - https://github.com/openssl/openssl/commit/72ae83ad214d2eef262461365a1975707f862712
     - https://github.com/openssl/openssl/commit/bc7e04d7c8d509fb78fc0e285aa948fb0da04700
@@ -191,9 +196,10 @@
     - https://github.openssl.org/openssl/extended-releases/commit/9d576994cec2b7aa37a91740ea7e680810957e41
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9143
     - https://openssl-library.org/news/secadv/20241016.txt
+    - https://security.netapp.com/advisory/ntap-20241101-0001/
     - https://www.cve.org/CVERecord?id=CVE-2024-9143
     PublishedDate: '2024-10-16T17:15:18.13Z'
-    LastModifiedDate: '2024-11-08T16:35:21.58Z'
+    LastModifiedDate: '2024-11-21T09:54:04.817Z'
   - VulnerabilityID: CVE-2024-11053
     PkgID: libcurl@8.10.1-r0
     PkgName: libcurl
@@ -238,11 +244,12 @@
     - https://hackerone.com/reports/2829063
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11053
     - https://security.netapp.com/advisory/ntap-20250124-0012/
+    - https://security.netapp.com/advisory/ntap-20250131-0003/
     - https://ubuntu.com/security/notices/USN-7162-1
     - https://www.cve.org/CVERecord?id=CVE-2024-11053
     - https://www.oracle.com/security-alerts/cpujan2025.html#AppendixMSQL
     PublishedDate: '2024-12-11T08:15:05.307Z'
-    LastModifiedDate: '2025-01-24T20:15:31.92Z'
+    LastModifiedDate: '2025-01-31T15:15:12.4Z'
   - VulnerabilityID: CVE-2024-9681
     PkgID: libcurl@8.10.1-r0
     PkgName: libcurl
@@ -292,6 +299,7 @@
     - CWE-697
     VendorSeverity:
       amazon: 2
+      azure: 2
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -429,6 +437,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
     References:
+    - http://www.openwall.com/lists/oss-security/2024/10/16/1
+    - http://www.openwall.com/lists/oss-security/2024/10/23/1
+    - http://www.openwall.com/lists/oss-security/2024/10/24/1
     - https://access.redhat.com/security/cve/CVE-2024-9143
     - https://github.com/openssl/openssl/commit/72ae83ad214d2eef262461365a1975707f862712
     - https://github.com/openssl/openssl/commit/bc7e04d7c8d509fb78fc0e285aa948fb0da04700
@@ -438,9 +449,10 @@
     - https://github.openssl.org/openssl/extended-releases/commit/9d576994cec2b7aa37a91740ea7e680810957e41
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9143
     - https://openssl-library.org/news/secadv/20241016.txt
+    - https://security.netapp.com/advisory/ntap-20241101-0001/
     - https://www.cve.org/CVERecord?id=CVE-2024-9143
     PublishedDate: '2024-10-16T17:15:18.13Z'
-    LastModifiedDate: '2024-11-08T16:35:21.58Z'
+    LastModifiedDate: '2024-11-21T09:54:04.817Z'
   - VulnerabilityID: CVE-2024-21147
     PkgID: openjdk8-jre@8.402.06-r0
     PkgName: openjdk8-jre
@@ -508,7 +520,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-21147
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:16.377Z'
-    LastModifiedDate: '2024-08-13T00:49:47.367Z'
+    LastModifiedDate: '2024-11-21T08:53:52.63Z'
   - VulnerabilityID: CVE-2024-21140
     PkgID: openjdk8-jre@8.402.06-r0
     PkgName: openjdk8-jre
@@ -576,7 +588,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-21140
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:15.043Z'
-    LastModifiedDate: '2024-08-01T13:46:27.193Z'
+    LastModifiedDate: '2024-11-21T08:53:51.75Z'
   - VulnerabilityID: CVE-2024-21145
     PkgID: openjdk8-jre@8.402.06-r0
     PkgName: openjdk8-jre
@@ -897,7 +909,7 @@
     - https://www.oracle.com/security-alerts/cpuapr2024.html
     - https://www.oracle.com/security-alerts/cpuapr2024.html#AppendixJAVA
     PublishedDate: '2024-04-16T22:15:28.293Z'
-    LastModifiedDate: '2024-04-26T09:15:11.447Z'
+    LastModifiedDate: '2024-11-21T08:53:45.35Z'
   - VulnerabilityID: CVE-2024-21094
     PkgID: openjdk8-jre@8.402.06-r0
     PkgName: openjdk8-jre
@@ -965,7 +977,7 @@
     - https://www.oracle.com/security-alerts/cpuapr2024.html
     - https://www.oracle.com/security-alerts/cpuapr2024.html#AppendixJAVA
     PublishedDate: '2024-04-16T22:15:29.857Z'
-    LastModifiedDate: '2024-07-03T01:46:32.57Z'
+    LastModifiedDate: '2024-11-21T08:53:46.35Z'
   - VulnerabilityID: CVE-2024-21131
     PkgID: openjdk8-jre@8.402.06-r0
     PkgName: openjdk8-jre
@@ -1418,7 +1430,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-21147
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:16.377Z'
-    LastModifiedDate: '2024-08-13T00:49:47.367Z'
+    LastModifiedDate: '2024-11-21T08:53:52.63Z'
   - VulnerabilityID: CVE-2024-21140
     PkgID: openjdk8-jre-base@8.402.06-r0
     PkgName: openjdk8-jre-base
@@ -1486,7 +1498,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-21140
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:15.043Z'
-    LastModifiedDate: '2024-08-01T13:46:27.193Z'
+    LastModifiedDate: '2024-11-21T08:53:51.75Z'
   - VulnerabilityID: CVE-2024-21145
     PkgID: openjdk8-jre-base@8.402.06-r0
     PkgName: openjdk8-jre-base
@@ -1807,7 +1819,7 @@
     - https://www.oracle.com/security-alerts/cpuapr2024.html
     - https://www.oracle.com/security-alerts/cpuapr2024.html#AppendixJAVA
     PublishedDate: '2024-04-16T22:15:28.293Z'
-    LastModifiedDate: '2024-04-26T09:15:11.447Z'
+    LastModifiedDate: '2024-11-21T08:53:45.35Z'
   - VulnerabilityID: CVE-2024-21094
     PkgID: openjdk8-jre-base@8.402.06-r0
     PkgName: openjdk8-jre-base
@@ -1875,7 +1887,7 @@
     - https://www.oracle.com/security-alerts/cpuapr2024.html
     - https://www.oracle.com/security-alerts/cpuapr2024.html#AppendixJAVA
     PublishedDate: '2024-04-16T22:15:29.857Z'
-    LastModifiedDate: '2024-07-03T01:46:32.57Z'
+    LastModifiedDate: '2024-11-21T08:53:46.35Z'
   - VulnerabilityID: CVE-2024-21131
     PkgID: openjdk8-jre-base@8.402.06-r0
     PkgName: openjdk8-jre-base
@@ -2328,7 +2340,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-21147
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:16.377Z'
-    LastModifiedDate: '2024-08-13T00:49:47.367Z'
+    LastModifiedDate: '2024-11-21T08:53:52.63Z'
   - VulnerabilityID: CVE-2024-21140
     PkgID: openjdk8-jre-lib@8.402.06-r0
     PkgName: openjdk8-jre-lib
@@ -2396,7 +2408,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-21140
     - https://www.oracle.com/security-alerts/cpujul2024.html
     PublishedDate: '2024-07-16T23:15:15.043Z'
-    LastModifiedDate: '2024-08-01T13:46:27.193Z'
+    LastModifiedDate: '2024-11-21T08:53:51.75Z'
   - VulnerabilityID: CVE-2024-21145
     PkgID: openjdk8-jre-lib@8.402.06-r0
     PkgName: openjdk8-jre-lib
@@ -2717,7 +2729,7 @@
     - https://www.oracle.com/security-alerts/cpuapr2024.html
     - https://www.oracle.com/security-alerts/cpuapr2024.html#AppendixJAVA
     PublishedDate: '2024-04-16T22:15:28.293Z'
-    LastModifiedDate: '2024-04-26T09:15:11.447Z'
+    LastModifiedDate: '2024-11-21T08:53:45.35Z'
   - VulnerabilityID: CVE-2024-21094
     PkgID: openjdk8-jre-lib@8.402.06-r0
     PkgName: openjdk8-jre-lib
@@ -2785,7 +2797,7 @@
     - https://www.oracle.com/security-alerts/cpuapr2024.html
     - https://www.oracle.com/security-alerts/cpuapr2024.html#AppendixJAVA
     PublishedDate: '2024-04-16T22:15:29.857Z'
-    LastModifiedDate: '2024-07-03T01:46:32.57Z'
+    LastModifiedDate: '2024-11-21T08:53:46.35Z'
   - VulnerabilityID: CVE-2024-21131
     PkgID: openjdk8-jre-lib@8.402.06-r0
     PkgName: openjdk8-jre-lib
@@ -3229,6 +3241,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
     References:
+    - http://www.openwall.com/lists/oss-security/2024/10/16/1
+    - http://www.openwall.com/lists/oss-security/2024/10/23/1
+    - http://www.openwall.com/lists/oss-security/2024/10/24/1
     - https://access.redhat.com/security/cve/CVE-2024-9143
     - https://github.com/openssl/openssl/commit/72ae83ad214d2eef262461365a1975707f862712
     - https://github.com/openssl/openssl/commit/bc7e04d7c8d509fb78fc0e285aa948fb0da04700
@@ -3238,9 +3253,10 @@
     - https://github.openssl.org/openssl/extended-releases/commit/9d576994cec2b7aa37a91740ea7e680810957e41
     - https://nvd.nist.gov/vuln/detail/CVE-2024-9143
     - https://openssl-library.org/news/secadv/20241016.txt
+    - https://security.netapp.com/advisory/ntap-20241101-0001/
     - https://www.cve.org/CVERecord?id=CVE-2024-9143
     PublishedDate: '2024-10-16T17:15:18.13Z'
-    LastModifiedDate: '2024-11-08T16:35:21.58Z'
+    LastModifiedDate: '2024-11-21T09:54:04.817Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
