@@ -126,6 +126,176 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
     LastModifiedDate: '2024-12-13T14:15:22.953Z'
+  - VulnerabilityID: CVE-2025-0725
+    PkgID: curl@8.10.1-r0
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/curl@8.10.1-r0?arch=x86_64&distro=3.20.3
+      UID: f07e06b001c6f80a
+    InstalledVersion: 8.10.1-r0
+    FixedVersion: 8.12.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee2801b3e28133325c482b
+      DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed28ea1250ef005595c5f9
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0725
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'libcurl: Buffer Overflow in libcurl via zlib Integer Overflow'
+    Description: |-
+      When libcurl is asked to perform automatic gzip decompression of
+      content-encoded HTTP responses with the `CURLOPT_ACCEPT_ENCODING` option,
+      **using zlib 1.2.0.3 or older**, an attacker-controlled integer overflow would
+      make libcurl perform a buffer overflow.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/02/05/3
+    - http://www.openwall.com/lists/oss-security/2025/02/06/2
+    - http://www.openwall.com/lists/oss-security/2025/02/06/4
+    - https://access.redhat.com/security/cve/CVE-2025-0725
+    - https://curl.se/docs/CVE-2025-0725.html
+    - https://curl.se/docs/CVE-2025-0725.json
+    - https://hackerone.com/reports/2956023
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-0725
+    - https://www.cve.org/CVERecord?id=CVE-2025-0725
+    PublishedDate: '2025-02-05T10:15:22.98Z'
+    LastModifiedDate: '2025-02-06T19:15:19.733Z'
+  - VulnerabilityID: CVE-2025-0167
+    PkgID: curl@8.10.1-r0
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/curl@8.10.1-r0?arch=x86_64&distro=3.20.3
+      UID: f07e06b001c6f80a
+    InstalledVersion: 8.10.1-r0
+    FixedVersion: 8.12.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee2801b3e28133325c482b
+      DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed28ea1250ef005595c5f9
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0167
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: When asked to use a `.netrc` file for credentials **and** to follow HT ...
+    Description: |-
+      When asked to use a `.netrc` file for credentials **and** to follow HTTP
+      redirects, curl could leak the password used for the first host to the
+      followed-to host under certain circumstances.
+
+      This flaw only manifests itself if the netrc file has a `default` entry that
+      omits both login and password. A rare circumstance.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/docs/CVE-2025-0167.html
+    - https://curl.se/docs/CVE-2025-0167.json
+    - https://hackerone.com/reports/2917232
+    - https://www.cve.org/CVERecord?id=CVE-2025-0167
+    PublishedDate: '2025-02-05T10:15:22.71Z'
+    LastModifiedDate: '2025-02-06T15:15:16.967Z'
+  - VulnerabilityID: CVE-2025-0665
+    PkgID: curl@8.10.1-r0
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/curl@8.10.1-r0?arch=x86_64&distro=3.20.3
+      UID: f07e06b001c6f80a
+    InstalledVersion: 8.10.1-r0
+    FixedVersion: 8.12.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee2801b3e28133325c482b
+      DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed28ea1250ef005595c5f9
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0665
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: libcurl would wrongly close the same eventfd file descriptor twice whe ...
+    Description: |-
+      libcurl would wrongly close the same eventfd file descriptor twice when taking
+      down a connection channel after having completed a threaded name resolve.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-1341
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/02/05/2
+    - http://www.openwall.com/lists/oss-security/2025/02/05/5
+    - https://curl.se/docs/CVE-2025-0665.html
+    - https://curl.se/docs/CVE-2025-0665.json
+    - https://hackerone.com/reports/2954286
+    PublishedDate: '2025-02-05T10:15:22.857Z'
+    LastModifiedDate: '2025-02-05T20:15:45.31Z'
+  - VulnerabilityID: CVE-2024-13176
+    PkgID: libcrypto3@3.3.2-r0
+    PkgName: libcrypto3
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libcrypto3@3.3.2-r0?arch=x86_64&distro=3.20.3
+      UID: 33eb4551a5ab015e
+    InstalledVersion: 3.3.2-r0
+    FixedVersion: 3.3.2-r2
+    Status: fixed
+    Layer:
+      Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee2801b3e28133325c482b
+      DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed28ea1250ef005595c5f9
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-13176
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'openssl: Timing side-channel in ECDSA signature computation'
+    Description: |-
+      Issue summary: A timing side-channel which could potentially allow recovering
+      the private key exists in the ECDSA signature computation.
+
+      Impact summary: A timing side-channel in ECDSA signature computations
+      could allow recovering the private key by an attacker. However, measuring
+      the timing would require either local access to the signing application or
+      a very fast network connection with low latency.
+
+      There is a timing signal of around 300 nanoseconds when the top word of
+      the inverted ECDSA nonce value is zero. This can happen with significant
+      probability only for some of the supported elliptic curves. In particular
+      the NIST P-521 curve is affected. To be able to measure this leak, the attacker
+      process must either be located in the same physical computer or must
+      have a very fast network connection with low latency. For that reason
+      the severity of this vulnerability is Low.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-385
+    VendorSeverity:
+      amazon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/01/20/2
+    - https://access.redhat.com/security/cve/CVE-2024-13176
+    - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
+    - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
+    - https://github.com/openssl/openssl/commit/392dcb336405a0c94486aa6655057f59fd3a0902
+    - https://github.com/openssl/openssl/commit/4b1cb94a734a7d4ec363ac0a215a25c181e11f65
+    - https://github.com/openssl/openssl/commit/77c608f4c8857e63e98e66444e2e761c9627916f
+    - https://github.openssl.org/openssl/extended-releases/commit/0d5fd1ab987f7571e2c955d8d8b638fc0fb54ded
+    - https://github.openssl.org/openssl/extended-releases/commit/a2639000db19878d5d89586ae7b725080592ae86
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-13176
+    - https://openssl-library.org/news/secadv/20250120.txt
+    - https://security.netapp.com/advisory/ntap-20250124-0005/
+    - https://www.cve.org/CVERecord?id=CVE-2024-13176
+    PublishedDate: '2025-01-20T14:15:26.247Z'
+    LastModifiedDate: '2025-01-27T21:15:11.907Z'
   - VulnerabilityID: CVE-2024-9143
     PkgID: libcrypto3@3.3.2-r0
     PkgName: libcrypto3
@@ -133,7 +303,7 @@
       PURL: pkg:apk/alpine/libcrypto3@3.3.2-r0?arch=x86_64&distro=3.20.3
       UID: 33eb4551a5ab015e
     InstalledVersion: 3.3.2-r0
-    FixedVersion: 3.3.2-r1
+    FixedVersion: 3.3.2-r3
     Status: fixed
     Layer:
       Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee2801b3e28133325c482b
@@ -324,6 +494,115 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
     LastModifiedDate: '2024-12-13T14:15:22.953Z'
+  - VulnerabilityID: CVE-2025-0725
+    PkgID: libcurl@8.10.1-r0
+    PkgName: libcurl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libcurl@8.10.1-r0?arch=x86_64&distro=3.20.3
+      UID: 49f1e7608626c36e
+    InstalledVersion: 8.10.1-r0
+    FixedVersion: 8.12.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee2801b3e28133325c482b
+      DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed28ea1250ef005595c5f9
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0725
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'libcurl: Buffer Overflow in libcurl via zlib Integer Overflow'
+    Description: |-
+      When libcurl is asked to perform automatic gzip decompression of
+      content-encoded HTTP responses with the `CURLOPT_ACCEPT_ENCODING` option,
+      **using zlib 1.2.0.3 or older**, an attacker-controlled integer overflow would
+      make libcurl perform a buffer overflow.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/02/05/3
+    - http://www.openwall.com/lists/oss-security/2025/02/06/2
+    - http://www.openwall.com/lists/oss-security/2025/02/06/4
+    - https://access.redhat.com/security/cve/CVE-2025-0725
+    - https://curl.se/docs/CVE-2025-0725.html
+    - https://curl.se/docs/CVE-2025-0725.json
+    - https://hackerone.com/reports/2956023
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-0725
+    - https://www.cve.org/CVERecord?id=CVE-2025-0725
+    PublishedDate: '2025-02-05T10:15:22.98Z'
+    LastModifiedDate: '2025-02-06T19:15:19.733Z'
+  - VulnerabilityID: CVE-2025-0167
+    PkgID: libcurl@8.10.1-r0
+    PkgName: libcurl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libcurl@8.10.1-r0?arch=x86_64&distro=3.20.3
+      UID: 49f1e7608626c36e
+    InstalledVersion: 8.10.1-r0
+    FixedVersion: 8.12.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee2801b3e28133325c482b
+      DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed28ea1250ef005595c5f9
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0167
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: When asked to use a `.netrc` file for credentials **and** to follow HT ...
+    Description: |-
+      When asked to use a `.netrc` file for credentials **and** to follow HTTP
+      redirects, curl could leak the password used for the first host to the
+      followed-to host under certain circumstances.
+
+      This flaw only manifests itself if the netrc file has a `default` entry that
+      omits both login and password. A rare circumstance.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://curl.se/docs/CVE-2025-0167.html
+    - https://curl.se/docs/CVE-2025-0167.json
+    - https://hackerone.com/reports/2917232
+    - https://www.cve.org/CVERecord?id=CVE-2025-0167
+    PublishedDate: '2025-02-05T10:15:22.71Z'
+    LastModifiedDate: '2025-02-06T15:15:16.967Z'
+  - VulnerabilityID: CVE-2025-0665
+    PkgID: libcurl@8.10.1-r0
+    PkgName: libcurl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libcurl@8.10.1-r0?arch=x86_64&distro=3.20.3
+      UID: 49f1e7608626c36e
+    InstalledVersion: 8.10.1-r0
+    FixedVersion: 8.12.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee2801b3e28133325c482b
+      DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed28ea1250ef005595c5f9
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0665
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: libcurl would wrongly close the same eventfd file descriptor twice whe ...
+    Description: |-
+      libcurl would wrongly close the same eventfd file descriptor twice when taking
+      down a connection channel after having completed a threaded name resolve.
+    Severity: UNKNOWN
+    CweIDs:
+    - CWE-1341
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/02/05/2
+    - http://www.openwall.com/lists/oss-security/2025/02/05/5
+    - https://curl.se/docs/CVE-2025-0665.html
+    - https://curl.se/docs/CVE-2025-0665.json
+    - https://hackerone.com/reports/2954286
+    PublishedDate: '2025-02-05T10:15:22.857Z'
+    LastModifiedDate: '2025-02-05T20:15:45.31Z'
   - VulnerabilityID: CVE-2024-50602
     PkgID: libexpat@2.6.3-r0
     PkgName: libexpat
@@ -365,12 +644,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - https://access.redhat.com/errata/RHSA-2024:9502
+    - https://access.redhat.com/errata/RHSA-2024:9541
     - https://access.redhat.com/security/cve/CVE-2024-50602
     - https://bugzilla.redhat.com/2321987
     - https://bugzilla.redhat.com/show_bug.cgi?id=2321987
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-50602
-    - https://errata.almalinux.org/8/ALSA-2024-9502.html
+    - https://errata.almalinux.org/9/ALSA-2024-9541.html
     - https://errata.rockylinux.org/RLSA-2024:9502
     - https://github.com/libexpat/libexpat/pull/915
     - https://linux.oracle.com/cve/CVE-2024-50602.html
@@ -379,6 +658,67 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-50602
     PublishedDate: '2024-10-27T05:15:04.09Z'
     LastModifiedDate: '2024-10-30T18:35:16.237Z'
+  - VulnerabilityID: CVE-2024-13176
+    PkgID: libssl3@3.3.2-r0
+    PkgName: libssl3
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libssl3@3.3.2-r0?arch=x86_64&distro=3.20.3
+      UID: aa5719d6e39bba43
+    InstalledVersion: 3.3.2-r0
+    FixedVersion: 3.3.2-r2
+    Status: fixed
+    Layer:
+      Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee2801b3e28133325c482b
+      DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed28ea1250ef005595c5f9
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-13176
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'openssl: Timing side-channel in ECDSA signature computation'
+    Description: |-
+      Issue summary: A timing side-channel which could potentially allow recovering
+      the private key exists in the ECDSA signature computation.
+
+      Impact summary: A timing side-channel in ECDSA signature computations
+      could allow recovering the private key by an attacker. However, measuring
+      the timing would require either local access to the signing application or
+      a very fast network connection with low latency.
+
+      There is a timing signal of around 300 nanoseconds when the top word of
+      the inverted ECDSA nonce value is zero. This can happen with significant
+      probability only for some of the supported elliptic curves. In particular
+      the NIST P-521 curve is affected. To be able to measure this leak, the attacker
+      process must either be located in the same physical computer or must
+      have a very fast network connection with low latency. For that reason
+      the severity of this vulnerability is Low.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-385
+    VendorSeverity:
+      amazon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/01/20/2
+    - https://access.redhat.com/security/cve/CVE-2024-13176
+    - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
+    - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
+    - https://github.com/openssl/openssl/commit/392dcb336405a0c94486aa6655057f59fd3a0902
+    - https://github.com/openssl/openssl/commit/4b1cb94a734a7d4ec363ac0a215a25c181e11f65
+    - https://github.com/openssl/openssl/commit/77c608f4c8857e63e98e66444e2e761c9627916f
+    - https://github.openssl.org/openssl/extended-releases/commit/0d5fd1ab987f7571e2c955d8d8b638fc0fb54ded
+    - https://github.openssl.org/openssl/extended-releases/commit/a2639000db19878d5d89586ae7b725080592ae86
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-13176
+    - https://openssl-library.org/news/secadv/20250120.txt
+    - https://security.netapp.com/advisory/ntap-20250124-0005/
+    - https://www.cve.org/CVERecord?id=CVE-2024-13176
+    PublishedDate: '2025-01-20T14:15:26.247Z'
+    LastModifiedDate: '2025-01-27T21:15:11.907Z'
   - VulnerabilityID: CVE-2024-9143
     PkgID: libssl3@3.3.2-r0
     PkgName: libssl3
@@ -386,7 +726,7 @@
       PURL: pkg:apk/alpine/libssl3@3.3.2-r0?arch=x86_64&distro=3.20.3
       UID: aa5719d6e39bba43
     InstalledVersion: 3.3.2-r0
-    FixedVersion: 3.3.2-r1
+    FixedVersion: 3.3.2-r3
     Status: fixed
     Layer:
       Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee2801b3e28133325c482b
@@ -453,6 +793,24 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-9143
     PublishedDate: '2024-10-16T17:15:18.13Z'
     LastModifiedDate: '2024-11-21T09:54:04.817Z'
+  - VulnerabilityID: CVE-2024-12133
+    PkgID: libtasn1@4.19.0-r2
+    PkgName: libtasn1
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libtasn1@4.19.0-r2?arch=x86_64&distro=3.20.3
+      UID: e7801fd6af4bf968
+    InstalledVersion: 4.19.0-r2
+    FixedVersion: 4.20.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee2801b3e28133325c482b
+      DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed28ea1250ef005595c5f9
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12133
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Severity: UNKNOWN
   - VulnerabilityID: CVE-2024-21147
     PkgID: openjdk8-jre@8.402.06-r0
     PkgName: openjdk8-jre
@@ -504,7 +862,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21147.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -572,7 +930,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21140.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -643,7 +1001,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21145.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -682,7 +1040,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       photon: 2
       redhat: 2
@@ -710,7 +1068,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21210
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21217
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21235
-    - https://errata.almalinux.org/8/ALSA-2024-8127.html
+    - https://errata.almalinux.org/9/ALSA-2024-8127.html
     - https://errata.rockylinux.org/RLSA-2024:8127
     - https://linux.oracle.com/cve/CVE-2024-21235.html
     - https://linux.oracle.com/errata/ELSA-2024-8127.html
@@ -758,19 +1116,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1825
+    - https://access.redhat.com/errata/RHSA-2024:1828
     - https://access.redhat.com/security/cve/CVE-2024-21011
     - https://bugzilla.redhat.com/2274975
     - https://bugzilla.redhat.com/2274977
     - https://bugzilla.redhat.com/2275003
-    - https://bugzilla.redhat.com/2275005
     - https://bugzilla.redhat.com/show_bug.cgi?id=2274975
     - https://bugzilla.redhat.com/show_bug.cgi?id=2274977
     - https://bugzilla.redhat.com/show_bug.cgi?id=2275003
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21011
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21012
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1828.html
     - https://errata.rockylinux.org/RLSA-2024:1828
     - https://linux.oracle.com/cve/CVE-2024-21011.html
     - https://linux.oracle.com/errata/ELSA-2024-1828.html
@@ -819,19 +1176,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1825
+    - https://access.redhat.com/errata/RHSA-2024:1828
     - https://access.redhat.com/security/cve/CVE-2024-21068
     - https://bugzilla.redhat.com/2274975
     - https://bugzilla.redhat.com/2274977
     - https://bugzilla.redhat.com/2275003
-    - https://bugzilla.redhat.com/2275005
     - https://bugzilla.redhat.com/show_bug.cgi?id=2274975
     - https://bugzilla.redhat.com/show_bug.cgi?id=2274977
     - https://bugzilla.redhat.com/show_bug.cgi?id=2275003
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21011
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21012
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1828.html
     - https://errata.rockylinux.org/RLSA-2024:1828
     - https://linux.oracle.com/cve/CVE-2024-21068.html
     - https://linux.oracle.com/errata/ELSA-2024-1828.html
@@ -880,8 +1236,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1818
+    - https://access.redhat.com/errata/RHSA-2024:1822
     - https://access.redhat.com/security/cve/CVE-2024-21085
+    - https://bugzilla.redhat.com/2274975
     - https://bugzilla.redhat.com/2274977
     - https://bugzilla.redhat.com/2275001
     - https://bugzilla.redhat.com/2275003
@@ -896,7 +1253,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/8/ALSA-2024-1818.html
+    - https://errata.almalinux.org/9/ALSA-2024-1822.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21085.html
     - https://linux.oracle.com/errata/ELSA-2024-1822.html
@@ -962,7 +1319,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -1028,7 +1385,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21131.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -1094,7 +1451,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21138.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -1155,7 +1512,7 @@
     - https://bugzilla.redhat.com/2297964
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
-    - https://errata.almalinux.org/8/ALSA-2024-4567.html
+    - https://errata.almalinux.org/9/ALSA-2024-4567.html
     - https://linux.oracle.com/cve/CVE-2024-21144.html
     - https://linux.oracle.com/errata/ELSA-2024-4567.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21144
@@ -1192,7 +1549,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       photon: 1
       redhat: 2
@@ -1220,7 +1577,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21210
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21217
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21235
-    - https://errata.almalinux.org/8/ALSA-2024-8127.html
+    - https://errata.almalinux.org/9/ALSA-2024-8127.html
     - https://errata.rockylinux.org/RLSA-2024:8127
     - https://linux.oracle.com/cve/CVE-2024-21208.html
     - https://linux.oracle.com/errata/ELSA-2024-8127.html
@@ -1258,7 +1615,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       photon: 1
       redhat: 2
@@ -1286,7 +1643,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21210
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21217
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21235
-    - https://errata.almalinux.org/8/ALSA-2024-8127.html
+    - https://errata.almalinux.org/9/ALSA-2024-8127.html
     - https://errata.rockylinux.org/RLSA-2024:8127
     - https://linux.oracle.com/cve/CVE-2024-21210.html
     - https://linux.oracle.com/errata/ELSA-2024-8127.html
@@ -1322,7 +1679,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       photon: 1
       redhat: 2
@@ -1350,7 +1707,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21210
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21217
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21235
-    - https://errata.almalinux.org/8/ALSA-2024-8127.html
+    - https://errata.almalinux.org/9/ALSA-2024-8127.html
     - https://errata.rockylinux.org/RLSA-2024:8127
     - https://linux.oracle.com/cve/CVE-2024-21217.html
     - https://linux.oracle.com/errata/ELSA-2024-8127.html
@@ -1415,7 +1772,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21147.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -1483,7 +1840,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21140.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -1554,7 +1911,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21145.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -1593,7 +1950,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       photon: 2
       redhat: 2
@@ -1621,7 +1978,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21210
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21217
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21235
-    - https://errata.almalinux.org/8/ALSA-2024-8127.html
+    - https://errata.almalinux.org/9/ALSA-2024-8127.html
     - https://errata.rockylinux.org/RLSA-2024:8127
     - https://linux.oracle.com/cve/CVE-2024-21235.html
     - https://linux.oracle.com/errata/ELSA-2024-8127.html
@@ -1669,19 +2026,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1825
+    - https://access.redhat.com/errata/RHSA-2024:1828
     - https://access.redhat.com/security/cve/CVE-2024-21011
     - https://bugzilla.redhat.com/2274975
     - https://bugzilla.redhat.com/2274977
     - https://bugzilla.redhat.com/2275003
-    - https://bugzilla.redhat.com/2275005
     - https://bugzilla.redhat.com/show_bug.cgi?id=2274975
     - https://bugzilla.redhat.com/show_bug.cgi?id=2274977
     - https://bugzilla.redhat.com/show_bug.cgi?id=2275003
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21011
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21012
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1828.html
     - https://errata.rockylinux.org/RLSA-2024:1828
     - https://linux.oracle.com/cve/CVE-2024-21011.html
     - https://linux.oracle.com/errata/ELSA-2024-1828.html
@@ -1730,19 +2086,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1825
+    - https://access.redhat.com/errata/RHSA-2024:1828
     - https://access.redhat.com/security/cve/CVE-2024-21068
     - https://bugzilla.redhat.com/2274975
     - https://bugzilla.redhat.com/2274977
     - https://bugzilla.redhat.com/2275003
-    - https://bugzilla.redhat.com/2275005
     - https://bugzilla.redhat.com/show_bug.cgi?id=2274975
     - https://bugzilla.redhat.com/show_bug.cgi?id=2274977
     - https://bugzilla.redhat.com/show_bug.cgi?id=2275003
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21011
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21012
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1828.html
     - https://errata.rockylinux.org/RLSA-2024:1828
     - https://linux.oracle.com/cve/CVE-2024-21068.html
     - https://linux.oracle.com/errata/ELSA-2024-1828.html
@@ -1791,8 +2146,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1818
+    - https://access.redhat.com/errata/RHSA-2024:1822
     - https://access.redhat.com/security/cve/CVE-2024-21085
+    - https://bugzilla.redhat.com/2274975
     - https://bugzilla.redhat.com/2274977
     - https://bugzilla.redhat.com/2275001
     - https://bugzilla.redhat.com/2275003
@@ -1807,7 +2163,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/8/ALSA-2024-1818.html
+    - https://errata.almalinux.org/9/ALSA-2024-1822.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21085.html
     - https://linux.oracle.com/errata/ELSA-2024-1822.html
@@ -1873,7 +2229,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -1939,7 +2295,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21131.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -2005,7 +2361,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21138.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -2066,7 +2422,7 @@
     - https://bugzilla.redhat.com/2297964
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
-    - https://errata.almalinux.org/8/ALSA-2024-4567.html
+    - https://errata.almalinux.org/9/ALSA-2024-4567.html
     - https://linux.oracle.com/cve/CVE-2024-21144.html
     - https://linux.oracle.com/errata/ELSA-2024-4567.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21144
@@ -2103,7 +2459,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       photon: 1
       redhat: 2
@@ -2131,7 +2487,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21210
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21217
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21235
-    - https://errata.almalinux.org/8/ALSA-2024-8127.html
+    - https://errata.almalinux.org/9/ALSA-2024-8127.html
     - https://errata.rockylinux.org/RLSA-2024:8127
     - https://linux.oracle.com/cve/CVE-2024-21208.html
     - https://linux.oracle.com/errata/ELSA-2024-8127.html
@@ -2169,7 +2525,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       photon: 1
       redhat: 2
@@ -2197,7 +2553,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21210
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21217
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21235
-    - https://errata.almalinux.org/8/ALSA-2024-8127.html
+    - https://errata.almalinux.org/9/ALSA-2024-8127.html
     - https://errata.rockylinux.org/RLSA-2024:8127
     - https://linux.oracle.com/cve/CVE-2024-21210.html
     - https://linux.oracle.com/errata/ELSA-2024-8127.html
@@ -2233,7 +2589,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       photon: 1
       redhat: 2
@@ -2261,7 +2617,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21210
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21217
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21235
-    - https://errata.almalinux.org/8/ALSA-2024-8127.html
+    - https://errata.almalinux.org/9/ALSA-2024-8127.html
     - https://errata.rockylinux.org/RLSA-2024:8127
     - https://linux.oracle.com/cve/CVE-2024-21217.html
     - https://linux.oracle.com/errata/ELSA-2024-8127.html
@@ -2326,7 +2682,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21147.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -2394,7 +2750,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21140.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -2465,7 +2821,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21145.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -2504,7 +2860,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       photon: 2
       redhat: 2
@@ -2532,7 +2888,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21210
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21217
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21235
-    - https://errata.almalinux.org/8/ALSA-2024-8127.html
+    - https://errata.almalinux.org/9/ALSA-2024-8127.html
     - https://errata.rockylinux.org/RLSA-2024:8127
     - https://linux.oracle.com/cve/CVE-2024-21235.html
     - https://linux.oracle.com/errata/ELSA-2024-8127.html
@@ -2580,19 +2936,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1825
+    - https://access.redhat.com/errata/RHSA-2024:1828
     - https://access.redhat.com/security/cve/CVE-2024-21011
     - https://bugzilla.redhat.com/2274975
     - https://bugzilla.redhat.com/2274977
     - https://bugzilla.redhat.com/2275003
-    - https://bugzilla.redhat.com/2275005
     - https://bugzilla.redhat.com/show_bug.cgi?id=2274975
     - https://bugzilla.redhat.com/show_bug.cgi?id=2274977
     - https://bugzilla.redhat.com/show_bug.cgi?id=2275003
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21011
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21012
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1828.html
     - https://errata.rockylinux.org/RLSA-2024:1828
     - https://linux.oracle.com/cve/CVE-2024-21011.html
     - https://linux.oracle.com/errata/ELSA-2024-1828.html
@@ -2641,19 +2996,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1825
+    - https://access.redhat.com/errata/RHSA-2024:1828
     - https://access.redhat.com/security/cve/CVE-2024-21068
     - https://bugzilla.redhat.com/2274975
     - https://bugzilla.redhat.com/2274977
     - https://bugzilla.redhat.com/2275003
-    - https://bugzilla.redhat.com/2275005
     - https://bugzilla.redhat.com/show_bug.cgi?id=2274975
     - https://bugzilla.redhat.com/show_bug.cgi?id=2274977
     - https://bugzilla.redhat.com/show_bug.cgi?id=2275003
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21011
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21012
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1828.html
     - https://errata.rockylinux.org/RLSA-2024:1828
     - https://linux.oracle.com/cve/CVE-2024-21068.html
     - https://linux.oracle.com/errata/ELSA-2024-1828.html
@@ -2702,8 +3056,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1818
+    - https://access.redhat.com/errata/RHSA-2024:1822
     - https://access.redhat.com/security/cve/CVE-2024-21085
+    - https://bugzilla.redhat.com/2274975
     - https://bugzilla.redhat.com/2274977
     - https://bugzilla.redhat.com/2275001
     - https://bugzilla.redhat.com/2275003
@@ -2718,7 +3073,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/8/ALSA-2024-1818.html
+    - https://errata.almalinux.org/9/ALSA-2024-1822.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21085.html
     - https://linux.oracle.com/errata/ELSA-2024-1822.html
@@ -2784,7 +3139,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -2850,7 +3205,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21131.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -2916,7 +3271,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21140
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21145
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21147
-    - https://errata.almalinux.org/8/ALSA-2024-4573.html
+    - https://errata.almalinux.org/9/ALSA-2024-4573.html
     - https://errata.rockylinux.org/RLSA-2024:4573
     - https://linux.oracle.com/cve/CVE-2024-21138.html
     - https://linux.oracle.com/errata/ELSA-2024-4573.html
@@ -2977,7 +3332,7 @@
     - https://bugzilla.redhat.com/2297964
     - https://bugzilla.redhat.com/2297976
     - https://bugzilla.redhat.com/2297977
-    - https://errata.almalinux.org/8/ALSA-2024-4567.html
+    - https://errata.almalinux.org/9/ALSA-2024-4567.html
     - https://linux.oracle.com/cve/CVE-2024-21144.html
     - https://linux.oracle.com/errata/ELSA-2024-4567.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21144
@@ -3014,7 +3369,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       photon: 1
       redhat: 2
@@ -3042,7 +3397,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21210
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21217
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21235
-    - https://errata.almalinux.org/8/ALSA-2024-8127.html
+    - https://errata.almalinux.org/9/ALSA-2024-8127.html
     - https://errata.rockylinux.org/RLSA-2024:8127
     - https://linux.oracle.com/cve/CVE-2024-21208.html
     - https://linux.oracle.com/errata/ELSA-2024-8127.html
@@ -3080,7 +3435,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       photon: 1
       redhat: 2
@@ -3108,7 +3463,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21210
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21217
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21235
-    - https://errata.almalinux.org/8/ALSA-2024-8127.html
+    - https://errata.almalinux.org/9/ALSA-2024-8127.html
     - https://errata.rockylinux.org/RLSA-2024:8127
     - https://linux.oracle.com/cve/CVE-2024-21210.html
     - https://linux.oracle.com/errata/ELSA-2024-8127.html
@@ -3144,7 +3499,7 @@
     Severity: LOW
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       oracle-oval: 2
       photon: 1
       redhat: 2
@@ -3172,7 +3527,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21210
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21217
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21235
-    - https://errata.almalinux.org/8/ALSA-2024-8127.html
+    - https://errata.almalinux.org/9/ALSA-2024-8127.html
     - https://errata.rockylinux.org/RLSA-2024:8127
     - https://linux.oracle.com/cve/CVE-2024-21217.html
     - https://linux.oracle.com/errata/ELSA-2024-8127.html
@@ -3186,6 +3541,67 @@
     - https://www.oracle.com/security-alerts/cpuoct2024.html
     PublishedDate: '2024-10-15T20:15:11.197Z'
     LastModifiedDate: '2024-10-18T18:29:36.59Z'
+  - VulnerabilityID: CVE-2024-13176
+    PkgID: openssl@3.3.2-r0
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openssl@3.3.2-r0?arch=x86_64&distro=3.20.3
+      UID: aad39ba6d762dc14
+    InstalledVersion: 3.3.2-r0
+    FixedVersion: 3.3.2-r2
+    Status: fixed
+    Layer:
+      Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee2801b3e28133325c482b
+      DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed28ea1250ef005595c5f9
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-13176
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'openssl: Timing side-channel in ECDSA signature computation'
+    Description: |-
+      Issue summary: A timing side-channel which could potentially allow recovering
+      the private key exists in the ECDSA signature computation.
+
+      Impact summary: A timing side-channel in ECDSA signature computations
+      could allow recovering the private key by an attacker. However, measuring
+      the timing would require either local access to the signing application or
+      a very fast network connection with low latency.
+
+      There is a timing signal of around 300 nanoseconds when the top word of
+      the inverted ECDSA nonce value is zero. This can happen with significant
+      probability only for some of the supported elliptic curves. In particular
+      the NIST P-521 curve is affected. To be able to measure this leak, the attacker
+      process must either be located in the same physical computer or must
+      have a very fast network connection with low latency. For that reason
+      the severity of this vulnerability is Low.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-385
+    VendorSeverity:
+      amazon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/01/20/2
+    - https://access.redhat.com/security/cve/CVE-2024-13176
+    - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
+    - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
+    - https://github.com/openssl/openssl/commit/392dcb336405a0c94486aa6655057f59fd3a0902
+    - https://github.com/openssl/openssl/commit/4b1cb94a734a7d4ec363ac0a215a25c181e11f65
+    - https://github.com/openssl/openssl/commit/77c608f4c8857e63e98e66444e2e761c9627916f
+    - https://github.openssl.org/openssl/extended-releases/commit/0d5fd1ab987f7571e2c955d8d8b638fc0fb54ded
+    - https://github.openssl.org/openssl/extended-releases/commit/a2639000db19878d5d89586ae7b725080592ae86
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-13176
+    - https://openssl-library.org/news/secadv/20250120.txt
+    - https://security.netapp.com/advisory/ntap-20250124-0005/
+    - https://www.cve.org/CVERecord?id=CVE-2024-13176
+    PublishedDate: '2025-01-20T14:15:26.247Z'
+    LastModifiedDate: '2025-01-27T21:15:11.907Z'
   - VulnerabilityID: CVE-2024-9143
     PkgID: openssl@3.3.2-r0
     PkgName: openssl
@@ -3193,7 +3609,7 @@
       PURL: pkg:apk/alpine/openssl@3.3.2-r0?arch=x86_64&distro=3.20.3
       UID: aad39ba6d762dc14
     InstalledVersion: 3.3.2-r0
-    FixedVersion: 3.3.2-r1
+    FixedVersion: 3.3.2-r3
     Status: fixed
     Layer:
       Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee2801b3e28133325c482b
