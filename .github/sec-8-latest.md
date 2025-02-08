@@ -134,14 +134,193 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                       │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
 │                       │      ╰ LastModifiedDate: 2024-12-13T14:15:22.953Z 
-│                       ├ [2]  ╭ VulnerabilityID : CVE-2024-9143 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2025-0725 
+│                       │      ├ PkgID           : curl@8.10.1-r0 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.10.1-r0?arch=x86_64&distro=3.20.3 
+│                       │      │                  ╰ UID : f07e06b001c6f80a 
+│                       │      ├ InstalledVersion: 8.10.1-r0 
+│                       │      ├ FixedVersion    : 8.12.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
+│                       │      │                  │         2801b3e28133325c482b 
+│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
+│                       │      │                            28ea1250ef005595c5f9 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0725 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : libcurl: Buffer Overflow in libcurl via zlib Integer Overflow 
+│                       │      ├ Description     : When libcurl is asked to perform automatic gzip
+│                       │      │                   decompression of
+│                       │      │                   content-encoded HTTP responses with the
+│                       │      │                   `CURLOPT_ACCEPT_ENCODING` option,
+│                       │      │                   **using zlib 1.2.0.3 or older**, an attacker-controlled
+│                       │      │                   integer overflow would
+│                       │      │                   make libcurl perform a buffer overflow. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 4 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/3 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/06/2 
+│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/02/06/4 
+│                       │      │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-0725 
+│                       │      │                  ├ [4]: https://curl.se/docs/CVE-2025-0725.html 
+│                       │      │                  ├ [5]: https://curl.se/docs/CVE-2025-0725.json 
+│                       │      │                  ├ [6]: https://hackerone.com/reports/2956023 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-0725 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0725 
+│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.98Z 
+│                       │      ╰ LastModifiedDate: 2025-02-06T19:15:19.733Z 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2025-0167 
+│                       │      ├ PkgID           : curl@8.10.1-r0 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.10.1-r0?arch=x86_64&distro=3.20.3 
+│                       │      │                  ╰ UID : f07e06b001c6f80a 
+│                       │      ├ InstalledVersion: 8.10.1-r0 
+│                       │      ├ FixedVersion    : 8.12.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
+│                       │      │                  │         2801b3e28133325c482b 
+│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
+│                       │      │                            28ea1250ef005595c5f9 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0167 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : When asked to use a `.netrc` file for credentials **and** to
+│                       │      │                    follow HT ... 
+│                       │      ├ Description     : When asked to use a `.netrc` file for credentials **and** to
+│                       │      │                    follow HTTP
+│                       │      │                   redirects, curl could leak the password used for the first
+│                       │      │                   host to the
+│                       │      │                   followed-to host under certain circumstances.
+│                       │      │                   
+│                       │      │                   This flaw only manifests itself if the netrc file has a
+│                       │      │                   `default` entry that
+│                       │      │                   omits both login and password. A rare circumstance. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
+│                       │      │                  ├ [2]: https://hackerone.com/reports/2917232 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
+│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
+│                       │      ╰ LastModifiedDate: 2025-02-06T15:15:16.967Z 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2025-0665 
+│                       │      ├ PkgID           : curl@8.10.1-r0 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.10.1-r0?arch=x86_64&distro=3.20.3 
+│                       │      │                  ╰ UID : f07e06b001c6f80a 
+│                       │      ├ InstalledVersion: 8.10.1-r0 
+│                       │      ├ FixedVersion    : 8.12.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
+│                       │      │                  │         2801b3e28133325c482b 
+│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
+│                       │      │                            28ea1250ef005595c5f9 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0665 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : libcurl would wrongly close the same eventfd file descriptor
+│                       │      │                    twice whe ... 
+│                       │      ├ Description     : libcurl would wrongly close the same eventfd file descriptor
+│                       │      │                    twice when taking
+│                       │      │                   down a connection channel after having completed a threaded
+│                       │      │                   name resolve. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-1341 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/2 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/05/5 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-0665.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-0665.json 
+│                       │      │                  ╰ [4]: https://hackerone.com/reports/2954286 
+│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.857Z 
+│                       │      ╰ LastModifiedDate: 2025-02-05T20:15:45.31Z 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2024-13176 
 │                       │      ├ PkgID           : libcrypto3@3.3.2-r0 
 │                       │      ├ PkgName         : libcrypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.3.2-r0?arch=x86_64&distro
 │                       │      │                  │       =3.20.3 
 │                       │      │                  ╰ UID : 33eb4551a5ab015e 
 │                       │      ├ InstalledVersion: 3.3.2-r0 
-│                       │      ├ FixedVersion    : 3.3.2-r1 
+│                       │      ├ FixedVersion    : 3.3.2-r2 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
+│                       │      │                  │         2801b3e28133325c482b 
+│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
+│                       │      │                            28ea1250ef005595c5f9 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-13176 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openssl: Timing side-channel in ECDSA signature computation 
+│                       │      ├ Description     : Issue summary: A timing side-channel which could potentially
+│                       │      │                    allow recovering
+│                       │      │                   the private key exists in the ECDSA signature computation.
+│                       │      │                   
+│                       │      │                   Impact summary: A timing side-channel in ECDSA signature
+│                       │      │                   computations
+│                       │      │                   could allow recovering the private key by an attacker.
+│                       │      │                   However, measuring
+│                       │      │                   the timing would require either local access to the signing
+│                       │      │                   application or
+│                       │      │                   a very fast network connection with low latency.
+│                       │      │                   There is a timing signal of around 300 nanoseconds when the
+│                       │      │                   top word of
+│                       │      │                   the inverted ECDSA nonce value is zero. This can happen with
+│                       │      │                    significant
+│                       │      │                   probability only for some of the supported elliptic curves.
+│                       │      │                   In particular
+│                       │      │                   the NIST P-521 curve is affected. To be able to measure this
+│                       │      │                    leak, the attacker
+│                       │      │                   process must either be located in the same physical computer
+│                       │      │                    or must
+│                       │      │                   have a very fast network connection with low latency. For
+│                       │      │                   that reason
+│                       │      │                   the severity of this vulnerability is Low. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-385 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ redhat: 1 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 4.7 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/01/20/2 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-13176 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/07272b05b04
+│                       │      │                  │       836a762b4baa874958af51d513844 
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/2af62e74fb5
+│                       │      │                  │       9bc469506bc37eb2990ea408d9467 
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/392dcb33640
+│                       │      │                  │       5a0c94486aa6655057f59fd3a0902 
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/4b1cb94a734
+│                       │      │                  │       a7d4ec363ac0a215a25c181e11f65 
+│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/77c608f4c88
+│                       │      │                  │       57e63e98e66444e2e761c9627916f 
+│                       │      │                  ├ [7] : https://github.openssl.org/openssl/extended-releases/
+│                       │      │                  │       commit/0d5fd1ab987f7571e2c955d8d8b638fc0fb54ded 
+│                       │      │                  ├ [8] : https://github.openssl.org/openssl/extended-releases/
+│                       │      │                  │       commit/a2639000db19878d5d89586ae7b725080592ae86 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-13176 
+│                       │      │                  ├ [10]: https://openssl-library.org/news/secadv/20250120.txt 
+│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250124-00
+│                       │      │                  │       05/ 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
+│                       │      ├ PublishedDate   : 2025-01-20T14:15:26.247Z 
+│                       │      ╰ LastModifiedDate: 2025-01-27T21:15:11.907Z 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2024-9143 
+│                       │      ├ PkgID           : libcrypto3@3.3.2-r0 
+│                       │      ├ PkgName         : libcrypto3 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.3.2-r0?arch=x86_64&distro
+│                       │      │                  │       =3.20.3 
+│                       │      │                  ╰ UID : 33eb4551a5ab015e 
+│                       │      ├ InstalledVersion: 3.3.2-r0 
+│                       │      ├ FixedVersion    : 3.3.2-r3 
 │                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
 │                       │      │                  │         2801b3e28133325c482b 
@@ -224,7 +403,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-9143 
 │                       │      ├ PublishedDate   : 2024-10-16T17:15:18.13Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T09:54:04.817Z 
-│                       ├ [3]  ╭ VulnerabilityID : CVE-2024-11053 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2024-11053 
 │                       │      ├ PkgID           : libcurl@8.10.1-r0 
 │                       │      ├ PkgName         : libcurl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.10.1-r0?arch=x86_64&distro=3
@@ -277,7 +456,7 @@
 │                       │      │                          l#AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
 │                       │      ╰ LastModifiedDate: 2025-01-31T15:15:12.4Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2024-9681 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2024-9681 
 │                       │      ├ PkgID           : libcurl@8.10.1-r0 
 │                       │      ├ PkgName         : libcurl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.10.1-r0?arch=x86_64&distro=3
@@ -358,7 +537,116 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                       │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
 │                       │      ╰ LastModifiedDate: 2024-12-13T14:15:22.953Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2024-50602 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-0725 
+│                       │      ├ PkgID           : libcurl@8.10.1-r0 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.10.1-r0?arch=x86_64&distro=3
+│                       │      │                  │       .20.3 
+│                       │      │                  ╰ UID : 49f1e7608626c36e 
+│                       │      ├ InstalledVersion: 8.10.1-r0 
+│                       │      ├ FixedVersion    : 8.12.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
+│                       │      │                  │         2801b3e28133325c482b 
+│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
+│                       │      │                            28ea1250ef005595c5f9 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0725 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : libcurl: Buffer Overflow in libcurl via zlib Integer Overflow 
+│                       │      ├ Description     : When libcurl is asked to perform automatic gzip
+│                       │      │                   decompression of
+│                       │      │                   content-encoded HTTP responses with the
+│                       │      │                   `CURLOPT_ACCEPT_ENCODING` option,
+│                       │      │                   **using zlib 1.2.0.3 or older**, an attacker-controlled
+│                       │      │                   integer overflow would
+│                       │      │                   make libcurl perform a buffer overflow. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 4 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/3 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/06/2 
+│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/02/06/4 
+│                       │      │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-0725 
+│                       │      │                  ├ [4]: https://curl.se/docs/CVE-2025-0725.html 
+│                       │      │                  ├ [5]: https://curl.se/docs/CVE-2025-0725.json 
+│                       │      │                  ├ [6]: https://hackerone.com/reports/2956023 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-0725 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0725 
+│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.98Z 
+│                       │      ╰ LastModifiedDate: 2025-02-06T19:15:19.733Z 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2025-0167 
+│                       │      ├ PkgID           : libcurl@8.10.1-r0 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.10.1-r0?arch=x86_64&distro=3
+│                       │      │                  │       .20.3 
+│                       │      │                  ╰ UID : 49f1e7608626c36e 
+│                       │      ├ InstalledVersion: 8.10.1-r0 
+│                       │      ├ FixedVersion    : 8.12.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
+│                       │      │                  │         2801b3e28133325c482b 
+│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
+│                       │      │                            28ea1250ef005595c5f9 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0167 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : When asked to use a `.netrc` file for credentials **and** to
+│                       │      │                    follow HT ... 
+│                       │      ├ Description     : When asked to use a `.netrc` file for credentials **and** to
+│                       │      │                    follow HTTP
+│                       │      │                   redirects, curl could leak the password used for the first
+│                       │      │                   host to the
+│                       │      │                   followed-to host under certain circumstances.
+│                       │      │                   
+│                       │      │                   This flaw only manifests itself if the netrc file has a
+│                       │      │                   `default` entry that
+│                       │      │                   omits both login and password. A rare circumstance. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
+│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
+│                       │      │                  ├ [2]: https://hackerone.com/reports/2917232 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
+│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
+│                       │      ╰ LastModifiedDate: 2025-02-06T15:15:16.967Z 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2025-0665 
+│                       │      ├ PkgID           : libcurl@8.10.1-r0 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.10.1-r0?arch=x86_64&distro=3
+│                       │      │                  │       .20.3 
+│                       │      │                  ╰ UID : 49f1e7608626c36e 
+│                       │      ├ InstalledVersion: 8.10.1-r0 
+│                       │      ├ FixedVersion    : 8.12.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
+│                       │      │                  │         2801b3e28133325c482b 
+│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
+│                       │      │                            28ea1250ef005595c5f9 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0665 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : libcurl would wrongly close the same eventfd file descriptor
+│                       │      │                    twice whe ... 
+│                       │      ├ Description     : libcurl would wrongly close the same eventfd file descriptor
+│                       │      │                    twice when taking
+│                       │      │                   down a connection channel after having completed a threaded
+│                       │      │                   name resolve. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-1341 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/2 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/05/5 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-0665.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-0665.json 
+│                       │      │                  ╰ [4]: https://hackerone.com/reports/2954286 
+│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.857Z 
+│                       │      ╰ LastModifiedDate: 2025-02-05T20:15:45.31Z 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2024-50602 
 │                       │      ├ PkgID           : libexpat@2.6.3-r0 
 │                       │      ├ PkgName         : libexpat 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.6.3-r0?arch=x86_64&distro=3
@@ -397,13 +685,13 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                            │           N/A:H 
 │                       │      │                            ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:9502 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:9541 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-50602 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2321987 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2321987 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-50602 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2024-9502.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-9541.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2024:9502 
 │                       │      │                  ├ [7] : https://github.com/libexpat/libexpat/pull/915 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2024-50602.html 
@@ -412,14 +700,87 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-50602 
 │                       │      ├ PublishedDate   : 2024-10-27T05:15:04.09Z 
 │                       │      ╰ LastModifiedDate: 2024-10-30T18:35:16.237Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2024-9143 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2024-13176 
 │                       │      ├ PkgID           : libssl3@3.3.2-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.3.2-r0?arch=x86_64&distro=3.
 │                       │      │                  │       20.3 
 │                       │      │                  ╰ UID : aa5719d6e39bba43 
 │                       │      ├ InstalledVersion: 3.3.2-r0 
-│                       │      ├ FixedVersion    : 3.3.2-r1 
+│                       │      ├ FixedVersion    : 3.3.2-r2 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
+│                       │      │                  │         2801b3e28133325c482b 
+│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
+│                       │      │                            28ea1250ef005595c5f9 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-13176 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openssl: Timing side-channel in ECDSA signature computation 
+│                       │      ├ Description     : Issue summary: A timing side-channel which could potentially
+│                       │      │                    allow recovering
+│                       │      │                   the private key exists in the ECDSA signature computation.
+│                       │      │                   
+│                       │      │                   Impact summary: A timing side-channel in ECDSA signature
+│                       │      │                   computations
+│                       │      │                   could allow recovering the private key by an attacker.
+│                       │      │                   However, measuring
+│                       │      │                   the timing would require either local access to the signing
+│                       │      │                   application or
+│                       │      │                   a very fast network connection with low latency.
+│                       │      │                   There is a timing signal of around 300 nanoseconds when the
+│                       │      │                   top word of
+│                       │      │                   the inverted ECDSA nonce value is zero. This can happen with
+│                       │      │                    significant
+│                       │      │                   probability only for some of the supported elliptic curves.
+│                       │      │                   In particular
+│                       │      │                   the NIST P-521 curve is affected. To be able to measure this
+│                       │      │                    leak, the attacker
+│                       │      │                   process must either be located in the same physical computer
+│                       │      │                    or must
+│                       │      │                   have a very fast network connection with low latency. For
+│                       │      │                   that reason
+│                       │      │                   the severity of this vulnerability is Low. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-385 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ redhat: 1 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 4.7 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/01/20/2 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-13176 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/07272b05b04
+│                       │      │                  │       836a762b4baa874958af51d513844 
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/2af62e74fb5
+│                       │      │                  │       9bc469506bc37eb2990ea408d9467 
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/392dcb33640
+│                       │      │                  │       5a0c94486aa6655057f59fd3a0902 
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/4b1cb94a734
+│                       │      │                  │       a7d4ec363ac0a215a25c181e11f65 
+│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/77c608f4c88
+│                       │      │                  │       57e63e98e66444e2e761c9627916f 
+│                       │      │                  ├ [7] : https://github.openssl.org/openssl/extended-releases/
+│                       │      │                  │       commit/0d5fd1ab987f7571e2c955d8d8b638fc0fb54ded 
+│                       │      │                  ├ [8] : https://github.openssl.org/openssl/extended-releases/
+│                       │      │                  │       commit/a2639000db19878d5d89586ae7b725080592ae86 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-13176 
+│                       │      │                  ├ [10]: https://openssl-library.org/news/secadv/20250120.txt 
+│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250124-00
+│                       │      │                  │       05/ 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
+│                       │      ├ PublishedDate   : 2025-01-20T14:15:26.247Z 
+│                       │      ╰ LastModifiedDate: 2025-01-27T21:15:11.907Z 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2024-9143 
+│                       │      ├ PkgID           : libssl3@3.3.2-r0 
+│                       │      ├ PkgName         : libssl3 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.3.2-r0?arch=x86_64&distro=3.
+│                       │      │                  │       20.3 
+│                       │      │                  ╰ UID : aa5719d6e39bba43 
+│                       │      ├ InstalledVersion: 3.3.2-r0 
+│                       │      ├ FixedVersion    : 3.3.2-r3 
 │                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
 │                       │      │                  │         2801b3e28133325c482b 
@@ -502,7 +863,25 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-9143 
 │                       │      ├ PublishedDate   : 2024-10-16T17:15:18.13Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T09:54:04.817Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2024-21147 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2024-12133 
+│                       │      ├ PkgID           : libtasn1@4.19.0-r2 
+│                       │      ├ PkgName         : libtasn1 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libtasn1@4.19.0-r2?arch=x86_64&distro=
+│                       │      │                  │       3.20.3 
+│                       │      │                  ╰ UID : e7801fd6af4bf968 
+│                       │      ├ InstalledVersion: 4.19.0-r2 
+│                       │      ├ FixedVersion    : 4.20.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
+│                       │      │                  │         2801b3e28133325c482b 
+│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
+│                       │      │                            28ea1250ef005595c5f9 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-12133 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ╰ Severity        : UNKNOWN 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2024-21147 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -579,7 +958,7 @@
 │                       │      │                  │       24-21145 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21147 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-4573.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21147.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
@@ -597,7 +976,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:16.377Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:52.63Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2024-21140 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2024-21140 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -675,7 +1054,7 @@
 │                       │      │                  │       24-21145 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21147 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-4573.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21140.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
@@ -693,7 +1072,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.043Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:51.75Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2024-21145 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2024-21145 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -773,7 +1152,7 @@
 │                       │      │                  │       24-21145 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21147 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-4573.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21145.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
@@ -791,7 +1170,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.993Z 
 │                       │      ╰ LastModifiedDate: 2024-12-16T20:13:37.007Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2024-21235 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2024-21235 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -837,7 +1216,7 @@
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
@@ -868,7 +1247,7 @@
 │                       │      │                  │       24-21217 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21235 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21235.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
@@ -882,7 +1261,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:12.643Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:30:26.097Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2024-21011 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2024-21011 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -933,42 +1312,41 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1825 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1828 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-21011 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2274975 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2274977 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2275003 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2275005 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2274975 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2274977 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2275003 
-│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2274975 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2274977 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2275003 
+│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21011 
-│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21012 
-│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21068 
-│                       │      │                  ├ [12]: https://errata.almalinux.org/8/ALSA-2024-1825.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:1828 
-│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-21011.html 
-│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-1828.html 
-│                       │      │                  ├ [16]: https://lists.debian.org/debian-lts-announce/2024/04/
+│                       │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2024-1828.html 
+│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2024:1828 
+│                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-21011.html 
+│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-1828.html 
+│                       │      │                  ├ [15]: https://lists.debian.org/debian-lts-announce/2024/04/
 │                       │      │                  │       msg00014.html 
-│                       │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-21011 
-│                       │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240426-00
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-21011 
+│                       │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-20240426-00
 │                       │      │                  │       04/ 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6810-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6811-1 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6812-1 
-│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6813-1 
-│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7096-1 
-│                       │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2024-21011 
-│                       │      │                  ├ [25]: https://www.oracle.com/security-alerts/cpuapr2024.html 
-│                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpuapr2024.htm
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6810-1 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6811-1 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6812-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6813-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7096-1 
+│                       │      │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2024-21011 
+│                       │      │                  ├ [24]: https://www.oracle.com/security-alerts/cpuapr2024.html 
+│                       │      │                  ╰ [25]: https://www.oracle.com/security-alerts/cpuapr2024.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:15.437Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T21:15:17.52Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2024-21068 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2024-21068 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1019,42 +1397,41 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1825 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1828 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-21068 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2274975 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2274977 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2275003 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2275005 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2274975 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2274977 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2275003 
-│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2274975 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2274977 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2275003 
+│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21011 
-│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21012 
-│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21068 
-│                       │      │                  ├ [12]: https://errata.almalinux.org/8/ALSA-2024-1825.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:1828 
-│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-21068.html 
-│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-1828.html 
-│                       │      │                  ├ [16]: https://lists.debian.org/debian-lts-announce/2024/04/
+│                       │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2024-1828.html 
+│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2024:1828 
+│                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-21068.html 
+│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-1828.html 
+│                       │      │                  ├ [15]: https://lists.debian.org/debian-lts-announce/2024/04/
 │                       │      │                  │       msg00014.html 
-│                       │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-21068 
-│                       │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240426-00
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-21068 
+│                       │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-20240426-00
 │                       │      │                  │       04/ 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6810-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6811-1 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6812-1 
-│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6813-1 
-│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7096-1 
-│                       │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2024-21068 
-│                       │      │                  ├ [25]: https://www.oracle.com/security-alerts/cpuapr2024.html 
-│                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpuapr2024.htm
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6810-1 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6811-1 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6812-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6813-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7096-1 
+│                       │      │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2024-21068 
+│                       │      │                  ├ [24]: https://www.oracle.com/security-alerts/cpuapr2024.html 
+│                       │      │                  ╰ [25]: https://www.oracle.com/security-alerts/cpuapr2024.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:25.307Z 
 │                       │      ╰ LastModifiedDate: 2024-12-06T19:22:57.927Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2024-21085 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2024-21085 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1102,46 +1479,47 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1818 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1822 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-21085 
-│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2274977 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2275001 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2275003 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2275005 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2274975 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2274977 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2275001 
-│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2275003 
-│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2275005 
-│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-21011 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2274975 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2274977 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2275001 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2275003 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2275005 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2274975 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2274977 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2275001 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2275003 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2275005 
 │                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-21012 
+│                       │      │                  │       24-21011 
 │                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-21068 
+│                       │      │                  │       24-21012 
 │                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-21085 
+│                       │      │                  │       24-21068 
 │                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21085 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21094 
-│                       │      │                  ├ [16]: https://errata.almalinux.org/8/ALSA-2024-1818.html 
-│                       │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:1822 
-│                       │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-21085.html 
-│                       │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-1822.html 
-│                       │      │                  ├ [20]: https://lists.debian.org/debian-lts-announce/2024/04/
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-1822.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:1822 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21085.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-1822.html 
+│                       │      │                  ├ [21]: https://lists.debian.org/debian-lts-announce/2024/04/
 │                       │      │                  │       msg00014.html 
-│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21085 
-│                       │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240426-00
+│                       │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2024-21085 
+│                       │      │                  ├ [23]: https://security.netapp.com/advisory/ntap-20240426-00
 │                       │      │                  │       04/ 
-│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6810-1 
-│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6811-1 
-│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7096-1 
-│                       │      │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2024-21085 
-│                       │      │                  ├ [27]: https://www.oracle.com/security-alerts/cpuapr2024.html 
-│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuapr2024.htm
+│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6810-1 
+│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-6811-1 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7096-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21085 
+│                       │      │                  ├ [28]: https://www.oracle.com/security-alerts/cpuapr2024.html 
+│                       │      │                  ╰ [29]: https://www.oracle.com/security-alerts/cpuapr2024.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:28.293Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:45.35Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2024-21094 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2024-21094 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1215,7 +1593,7 @@
 │                       │      │                  │       24-21085 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21094 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-1825.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-1825.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:1822 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21094.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-1825.html 
@@ -1235,7 +1613,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:29.857Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:46.35Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2024-21131 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2024-21131 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1308,7 +1686,7 @@
 │                       │      │                  │       24-21145 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21147 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-4573.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21131.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
@@ -1326,7 +1704,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:13.21Z 
 │                       │      ╰ LastModifiedDate: 2024-12-05T22:02:52.553Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2024-21138 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2024-21138 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1399,7 +1777,7 @@
 │                       │      │                  │       24-21145 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21147 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-4573.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21138.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
@@ -1417,7 +1795,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:14.62Z 
 │                       │      ╰ LastModifiedDate: 2024-12-05T22:05:55.937Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2024-21144 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2024-21144 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1479,7 +1857,7 @@
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2297964 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2297976 
 │                       │      │                  ├ [7] : https://bugzilla.redhat.com/2297977 
-│                       │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-4567.html 
+│                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-4567.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-21144.html 
 │                       │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-4567.html 
 │                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-21144 
@@ -1493,7 +1871,7 @@
 │                       │      │                  ╰ [18]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.81Z 
 │                       │      ╰ LastModifiedDate: 2024-12-16T20:13:40.827Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2024-21208 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2024-21208 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1537,7 +1915,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-203 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
@@ -1568,7 +1946,7 @@
 │                       │      │                  │       24-21217 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21235 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21208.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
@@ -1582,7 +1960,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.437Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:05.287Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2024-21210 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2024-21210 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1620,7 +1998,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-203 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
@@ -1651,7 +2029,7 @@
 │                       │      │                  │       24-21217 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21235 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21210.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
@@ -1665,7 +2043,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.843Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.037Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2024-21217 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2024-21217 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1708,7 +2086,7 @@
 │                       │      │                   CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L). 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
@@ -1739,7 +2117,7 @@
 │                       │      │                  │       24-21217 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21235 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21217.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
@@ -1753,7 +2131,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:11.197Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:29:36.59Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2024-21147 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2024-21147 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -1830,7 +2208,7 @@
 │                       │      │                  │       24-21145 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21147 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-4573.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21147.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
@@ -1848,7 +2226,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:16.377Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:52.63Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2024-21140 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2024-21140 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -1926,7 +2304,7 @@
 │                       │      │                  │       24-21145 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21147 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-4573.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21140.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
@@ -1944,7 +2322,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.043Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:51.75Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2024-21145 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2024-21145 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2024,7 +2402,7 @@
 │                       │      │                  │       24-21145 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21147 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-4573.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21145.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
@@ -2042,7 +2420,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.993Z 
 │                       │      ╰ LastModifiedDate: 2024-12-16T20:13:37.007Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2024-21235 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2024-21235 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2088,7 +2466,7 @@
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
@@ -2119,7 +2497,7 @@
 │                       │      │                  │       24-21217 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21235 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21235.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
@@ -2133,7 +2511,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:12.643Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:30:26.097Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2024-21011 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2024-21011 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2184,42 +2562,41 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1825 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1828 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-21011 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2274975 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2274977 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2275003 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2275005 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2274975 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2274977 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2275003 
-│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2274975 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2274977 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2275003 
+│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21011 
-│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21012 
-│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21068 
-│                       │      │                  ├ [12]: https://errata.almalinux.org/8/ALSA-2024-1825.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:1828 
-│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-21011.html 
-│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-1828.html 
-│                       │      │                  ├ [16]: https://lists.debian.org/debian-lts-announce/2024/04/
+│                       │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2024-1828.html 
+│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2024:1828 
+│                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-21011.html 
+│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-1828.html 
+│                       │      │                  ├ [15]: https://lists.debian.org/debian-lts-announce/2024/04/
 │                       │      │                  │       msg00014.html 
-│                       │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-21011 
-│                       │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240426-00
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-21011 
+│                       │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-20240426-00
 │                       │      │                  │       04/ 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6810-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6811-1 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6812-1 
-│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6813-1 
-│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7096-1 
-│                       │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2024-21011 
-│                       │      │                  ├ [25]: https://www.oracle.com/security-alerts/cpuapr2024.html 
-│                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpuapr2024.htm
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6810-1 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6811-1 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6812-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6813-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7096-1 
+│                       │      │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2024-21011 
+│                       │      │                  ├ [24]: https://www.oracle.com/security-alerts/cpuapr2024.html 
+│                       │      │                  ╰ [25]: https://www.oracle.com/security-alerts/cpuapr2024.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:15.437Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T21:15:17.52Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2024-21068 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2024-21068 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2270,42 +2647,41 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1825 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1828 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-21068 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2274975 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2274977 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2275003 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2275005 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2274975 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2274977 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2275003 
-│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2274975 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2274977 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2275003 
+│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21011 
-│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21012 
-│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21068 
-│                       │      │                  ├ [12]: https://errata.almalinux.org/8/ALSA-2024-1825.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:1828 
-│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-21068.html 
-│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-1828.html 
-│                       │      │                  ├ [16]: https://lists.debian.org/debian-lts-announce/2024/04/
+│                       │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2024-1828.html 
+│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2024:1828 
+│                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-21068.html 
+│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-1828.html 
+│                       │      │                  ├ [15]: https://lists.debian.org/debian-lts-announce/2024/04/
 │                       │      │                  │       msg00014.html 
-│                       │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-21068 
-│                       │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240426-00
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-21068 
+│                       │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-20240426-00
 │                       │      │                  │       04/ 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6810-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6811-1 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6812-1 
-│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6813-1 
-│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7096-1 
-│                       │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2024-21068 
-│                       │      │                  ├ [25]: https://www.oracle.com/security-alerts/cpuapr2024.html 
-│                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpuapr2024.htm
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6810-1 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6811-1 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6812-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6813-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7096-1 
+│                       │      │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2024-21068 
+│                       │      │                  ├ [24]: https://www.oracle.com/security-alerts/cpuapr2024.html 
+│                       │      │                  ╰ [25]: https://www.oracle.com/security-alerts/cpuapr2024.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:25.307Z 
 │                       │      ╰ LastModifiedDate: 2024-12-06T19:22:57.927Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2024-21085 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2024-21085 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2353,46 +2729,47 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1818 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1822 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-21085 
-│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2274977 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2275001 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2275003 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2275005 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2274975 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2274977 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2275001 
-│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2275003 
-│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2275005 
-│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-21011 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2274975 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2274977 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2275001 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2275003 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2275005 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2274975 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2274977 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2275001 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2275003 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2275005 
 │                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-21012 
+│                       │      │                  │       24-21011 
 │                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-21068 
+│                       │      │                  │       24-21012 
 │                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-21085 
+│                       │      │                  │       24-21068 
 │                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21085 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21094 
-│                       │      │                  ├ [16]: https://errata.almalinux.org/8/ALSA-2024-1818.html 
-│                       │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:1822 
-│                       │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-21085.html 
-│                       │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-1822.html 
-│                       │      │                  ├ [20]: https://lists.debian.org/debian-lts-announce/2024/04/
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-1822.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:1822 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21085.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-1822.html 
+│                       │      │                  ├ [21]: https://lists.debian.org/debian-lts-announce/2024/04/
 │                       │      │                  │       msg00014.html 
-│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21085 
-│                       │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240426-00
+│                       │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2024-21085 
+│                       │      │                  ├ [23]: https://security.netapp.com/advisory/ntap-20240426-00
 │                       │      │                  │       04/ 
-│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6810-1 
-│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6811-1 
-│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7096-1 
-│                       │      │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2024-21085 
-│                       │      │                  ├ [27]: https://www.oracle.com/security-alerts/cpuapr2024.html 
-│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuapr2024.htm
+│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6810-1 
+│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-6811-1 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7096-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21085 
+│                       │      │                  ├ [28]: https://www.oracle.com/security-alerts/cpuapr2024.html 
+│                       │      │                  ╰ [29]: https://www.oracle.com/security-alerts/cpuapr2024.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:28.293Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:45.35Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2024-21094 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2024-21094 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2466,7 +2843,7 @@
 │                       │      │                  │       24-21085 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21094 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-1825.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-1825.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:1822 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21094.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-1825.html 
@@ -2486,7 +2863,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:29.857Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:46.35Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2024-21131 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2024-21131 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2559,7 +2936,7 @@
 │                       │      │                  │       24-21145 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21147 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-4573.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21131.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
@@ -2577,7 +2954,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:13.21Z 
 │                       │      ╰ LastModifiedDate: 2024-12-05T22:02:52.553Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2024-21138 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2024-21138 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2650,7 +3027,7 @@
 │                       │      │                  │       24-21145 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21147 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-4573.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21138.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
@@ -2668,7 +3045,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:14.62Z 
 │                       │      ╰ LastModifiedDate: 2024-12-05T22:05:55.937Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2024-21144 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2024-21144 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2730,7 +3107,7 @@
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2297964 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2297976 
 │                       │      │                  ├ [7] : https://bugzilla.redhat.com/2297977 
-│                       │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-4567.html 
+│                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-4567.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-21144.html 
 │                       │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-4567.html 
 │                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-21144 
@@ -2744,7 +3121,7 @@
 │                       │      │                  ╰ [18]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.81Z 
 │                       │      ╰ LastModifiedDate: 2024-12-16T20:13:40.827Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2024-21208 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2024-21208 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2788,7 +3165,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-203 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
@@ -2819,7 +3196,7 @@
 │                       │      │                  │       24-21217 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21235 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21208.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
@@ -2833,7 +3210,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.437Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:05.287Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2024-21210 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2024-21210 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2871,7 +3248,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-203 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
@@ -2902,7 +3279,7 @@
 │                       │      │                  │       24-21217 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21235 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21210.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
@@ -2916,7 +3293,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.843Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.037Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2024-21217 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2024-21217 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2959,7 +3336,7 @@
 │                       │      │                   CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L). 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
@@ -2990,7 +3367,7 @@
 │                       │      │                  │       24-21217 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21235 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21217.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
@@ -3004,7 +3381,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:11.197Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:29:36.59Z 
-│                       ├ [35] ╭ VulnerabilityID : CVE-2024-21147 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2024-21147 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3081,7 +3458,7 @@
 │                       │      │                  │       24-21145 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21147 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-4573.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21147.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
@@ -3099,7 +3476,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:16.377Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:52.63Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2024-21140 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2024-21140 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3177,7 +3554,7 @@
 │                       │      │                  │       24-21145 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21147 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-4573.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21140.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
@@ -3195,7 +3572,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.043Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:51.75Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2024-21145 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2024-21145 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3275,7 +3652,7 @@
 │                       │      │                  │       24-21145 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21147 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-4573.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21145.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
@@ -3293,7 +3670,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.993Z 
 │                       │      ╰ LastModifiedDate: 2024-12-16T20:13:37.007Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2024-21235 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2024-21235 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3339,7 +3716,7 @@
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
@@ -3370,7 +3747,7 @@
 │                       │      │                  │       24-21217 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21235 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21235.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
@@ -3384,7 +3761,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:12.643Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:30:26.097Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2024-21011 
+│                       ├ [48] ╭ VulnerabilityID : CVE-2024-21011 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3435,42 +3812,41 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1825 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1828 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-21011 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2274975 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2274977 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2275003 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2275005 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2274975 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2274977 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2275003 
-│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2274975 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2274977 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2275003 
+│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21011 
-│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21012 
-│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21068 
-│                       │      │                  ├ [12]: https://errata.almalinux.org/8/ALSA-2024-1825.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:1828 
-│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-21011.html 
-│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-1828.html 
-│                       │      │                  ├ [16]: https://lists.debian.org/debian-lts-announce/2024/04/
+│                       │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2024-1828.html 
+│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2024:1828 
+│                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-21011.html 
+│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-1828.html 
+│                       │      │                  ├ [15]: https://lists.debian.org/debian-lts-announce/2024/04/
 │                       │      │                  │       msg00014.html 
-│                       │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-21011 
-│                       │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240426-00
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-21011 
+│                       │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-20240426-00
 │                       │      │                  │       04/ 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6810-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6811-1 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6812-1 
-│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6813-1 
-│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7096-1 
-│                       │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2024-21011 
-│                       │      │                  ├ [25]: https://www.oracle.com/security-alerts/cpuapr2024.html 
-│                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpuapr2024.htm
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6810-1 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6811-1 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6812-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6813-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7096-1 
+│                       │      │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2024-21011 
+│                       │      │                  ├ [24]: https://www.oracle.com/security-alerts/cpuapr2024.html 
+│                       │      │                  ╰ [25]: https://www.oracle.com/security-alerts/cpuapr2024.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:15.437Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T21:15:17.52Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2024-21068 
+│                       ├ [49] ╭ VulnerabilityID : CVE-2024-21068 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3521,42 +3897,41 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1825 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1828 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-21068 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2274975 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2274977 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2275003 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2275005 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2274975 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2274977 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2275003 
-│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2274975 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2274977 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2275003 
+│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21011 
-│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21012 
-│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21068 
-│                       │      │                  ├ [12]: https://errata.almalinux.org/8/ALSA-2024-1825.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:1828 
-│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-21068.html 
-│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-1828.html 
-│                       │      │                  ├ [16]: https://lists.debian.org/debian-lts-announce/2024/04/
+│                       │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2024-1828.html 
+│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2024:1828 
+│                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2024-21068.html 
+│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2024-1828.html 
+│                       │      │                  ├ [15]: https://lists.debian.org/debian-lts-announce/2024/04/
 │                       │      │                  │       msg00014.html 
-│                       │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-21068 
-│                       │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240426-00
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-21068 
+│                       │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-20240426-00
 │                       │      │                  │       04/ 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6810-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6811-1 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6812-1 
-│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6813-1 
-│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7096-1 
-│                       │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2024-21068 
-│                       │      │                  ├ [25]: https://www.oracle.com/security-alerts/cpuapr2024.html 
-│                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpuapr2024.htm
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6810-1 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6811-1 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6812-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6813-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7096-1 
+│                       │      │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2024-21068 
+│                       │      │                  ├ [24]: https://www.oracle.com/security-alerts/cpuapr2024.html 
+│                       │      │                  ╰ [25]: https://www.oracle.com/security-alerts/cpuapr2024.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:25.307Z 
 │                       │      ╰ LastModifiedDate: 2024-12-06T19:22:57.927Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2024-21085 
+│                       ├ [50] ╭ VulnerabilityID : CVE-2024-21085 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3604,46 +3979,47 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1818 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1822 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-21085 
-│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2274977 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2275001 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2275003 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2275005 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2274975 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2274977 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2275001 
-│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2275003 
-│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2275005 
-│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-21011 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2274975 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2274977 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2275001 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2275003 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2275005 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2274975 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2274977 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2275001 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2275003 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2275005 
 │                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-21012 
+│                       │      │                  │       24-21011 
 │                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-21068 
+│                       │      │                  │       24-21012 
 │                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-21085 
+│                       │      │                  │       24-21068 
 │                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       24-21085 
+│                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21094 
-│                       │      │                  ├ [16]: https://errata.almalinux.org/8/ALSA-2024-1818.html 
-│                       │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:1822 
-│                       │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-21085.html 
-│                       │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2024-1822.html 
-│                       │      │                  ├ [20]: https://lists.debian.org/debian-lts-announce/2024/04/
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-1822.html 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:1822 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21085.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-1822.html 
+│                       │      │                  ├ [21]: https://lists.debian.org/debian-lts-announce/2024/04/
 │                       │      │                  │       msg00014.html 
-│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2024-21085 
-│                       │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-20240426-00
+│                       │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2024-21085 
+│                       │      │                  ├ [23]: https://security.netapp.com/advisory/ntap-20240426-00
 │                       │      │                  │       04/ 
-│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6810-1 
-│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6811-1 
-│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7096-1 
-│                       │      │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2024-21085 
-│                       │      │                  ├ [27]: https://www.oracle.com/security-alerts/cpuapr2024.html 
-│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuapr2024.htm
+│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-6810-1 
+│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-6811-1 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7096-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21085 
+│                       │      │                  ├ [28]: https://www.oracle.com/security-alerts/cpuapr2024.html 
+│                       │      │                  ╰ [29]: https://www.oracle.com/security-alerts/cpuapr2024.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:28.293Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:45.35Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2024-21094 
+│                       ├ [51] ╭ VulnerabilityID : CVE-2024-21094 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3717,7 +4093,7 @@
 │                       │      │                  │       24-21085 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21094 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-1825.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-1825.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:1822 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21094.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-1825.html 
@@ -3737,7 +4113,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:29.857Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:46.35Z 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2024-21131 
+│                       ├ [52] ╭ VulnerabilityID : CVE-2024-21131 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3810,7 +4186,7 @@
 │                       │      │                  │       24-21145 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21147 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-4573.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21131.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
@@ -3828,7 +4204,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:13.21Z 
 │                       │      ╰ LastModifiedDate: 2024-12-05T22:02:52.553Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2024-21138 
+│                       ├ [53] ╭ VulnerabilityID : CVE-2024-21138 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3901,7 +4277,7 @@
 │                       │      │                  │       24-21145 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21147 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-4573.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-4573.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:4573 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21138.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4573.html 
@@ -3919,7 +4295,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:14.62Z 
 │                       │      ╰ LastModifiedDate: 2024-12-05T22:05:55.937Z 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2024-21144 
+│                       ├ [54] ╭ VulnerabilityID : CVE-2024-21144 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3981,7 +4357,7 @@
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2297964 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2297976 
 │                       │      │                  ├ [7] : https://bugzilla.redhat.com/2297977 
-│                       │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-4567.html 
+│                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-4567.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-21144.html 
 │                       │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-4567.html 
 │                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-21144 
@@ -3995,7 +4371,7 @@
 │                       │      │                  ╰ [18]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.81Z 
 │                       │      ╰ LastModifiedDate: 2024-12-16T20:13:40.827Z 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2024-21208 
+│                       ├ [55] ╭ VulnerabilityID : CVE-2024-21208 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -4039,7 +4415,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-203 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
@@ -4070,7 +4446,7 @@
 │                       │      │                  │       24-21217 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21235 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21208.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
@@ -4084,7 +4460,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.437Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:05.287Z 
-│                       ├ [47] ╭ VulnerabilityID : CVE-2024-21210 
+│                       ├ [56] ╭ VulnerabilityID : CVE-2024-21210 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -4122,7 +4498,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-203 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
@@ -4153,7 +4529,7 @@
 │                       │      │                  │       24-21217 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21235 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21210.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
@@ -4167,7 +4543,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.843Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.037Z 
-│                       ├ [48] ╭ VulnerabilityID : CVE-2024-21217 
+│                       ├ [57] ╭ VulnerabilityID : CVE-2024-21217 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -4210,7 +4586,7 @@
 │                       │      │                   CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L). 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
@@ -4241,7 +4617,7 @@
 │                       │      │                  │       24-21217 
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-21235 
-│                       │      │                  ├ [17]: https://errata.almalinux.org/8/ALSA-2024-8127.html 
+│                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2024-8127.html 
 │                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2024:8127 
 │                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2024-21217.html 
 │                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-8127.html 
@@ -4255,14 +4631,87 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:11.197Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:29:36.59Z 
-│                       ╰ [49] ╭ VulnerabilityID : CVE-2024-9143 
+│                       ├ [58] ╭ VulnerabilityID : CVE-2024-13176 
+│                       │      ├ PkgID           : openssl@3.3.2-r0 
+│                       │      ├ PkgName         : openssl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.3.2-r0?arch=x86_64&distro=3.
+│                       │      │                  │       20.3 
+│                       │      │                  ╰ UID : aad39ba6d762dc14 
+│                       │      ├ InstalledVersion: 3.3.2-r0 
+│                       │      ├ FixedVersion    : 3.3.2-r2 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
+│                       │      │                  │         2801b3e28133325c482b 
+│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
+│                       │      │                            28ea1250ef005595c5f9 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-13176 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openssl: Timing side-channel in ECDSA signature computation 
+│                       │      ├ Description     : Issue summary: A timing side-channel which could potentially
+│                       │      │                    allow recovering
+│                       │      │                   the private key exists in the ECDSA signature computation.
+│                       │      │                   
+│                       │      │                   Impact summary: A timing side-channel in ECDSA signature
+│                       │      │                   computations
+│                       │      │                   could allow recovering the private key by an attacker.
+│                       │      │                   However, measuring
+│                       │      │                   the timing would require either local access to the signing
+│                       │      │                   application or
+│                       │      │                   a very fast network connection with low latency.
+│                       │      │                   There is a timing signal of around 300 nanoseconds when the
+│                       │      │                   top word of
+│                       │      │                   the inverted ECDSA nonce value is zero. This can happen with
+│                       │      │                    significant
+│                       │      │                   probability only for some of the supported elliptic curves.
+│                       │      │                   In particular
+│                       │      │                   the NIST P-521 curve is affected. To be able to measure this
+│                       │      │                    leak, the attacker
+│                       │      │                   process must either be located in the same physical computer
+│                       │      │                    or must
+│                       │      │                   have a very fast network connection with low latency. For
+│                       │      │                   that reason
+│                       │      │                   the severity of this vulnerability is Low. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-385 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ redhat: 1 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 4.7 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/01/20/2 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-13176 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/07272b05b04
+│                       │      │                  │       836a762b4baa874958af51d513844 
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/2af62e74fb5
+│                       │      │                  │       9bc469506bc37eb2990ea408d9467 
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/392dcb33640
+│                       │      │                  │       5a0c94486aa6655057f59fd3a0902 
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/4b1cb94a734
+│                       │      │                  │       a7d4ec363ac0a215a25c181e11f65 
+│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/77c608f4c88
+│                       │      │                  │       57e63e98e66444e2e761c9627916f 
+│                       │      │                  ├ [7] : https://github.openssl.org/openssl/extended-releases/
+│                       │      │                  │       commit/0d5fd1ab987f7571e2c955d8d8b638fc0fb54ded 
+│                       │      │                  ├ [8] : https://github.openssl.org/openssl/extended-releases/
+│                       │      │                  │       commit/a2639000db19878d5d89586ae7b725080592ae86 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-13176 
+│                       │      │                  ├ [10]: https://openssl-library.org/news/secadv/20250120.txt 
+│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250124-00
+│                       │      │                  │       05/ 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
+│                       │      ├ PublishedDate   : 2025-01-20T14:15:26.247Z 
+│                       │      ╰ LastModifiedDate: 2025-01-27T21:15:11.907Z 
+│                       ╰ [59] ╭ VulnerabilityID : CVE-2024-9143 
 │                              ├ PkgID           : openssl@3.3.2-r0 
 │                              ├ PkgName         : openssl 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.3.2-r0?arch=x86_64&distro=3.
 │                              │                  │       20.3 
 │                              │                  ╰ UID : aad39ba6d762dc14 
 │                              ├ InstalledVersion: 3.3.2-r0 
-│                              ├ FixedVersion    : 3.3.2-r1 
+│                              ├ FixedVersion    : 3.3.2-r3 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
 │                              │                  │         2801b3e28133325c482b 
