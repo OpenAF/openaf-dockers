@@ -29,7 +29,7 @@ RUN echo 'PATH=$PATH:/openaf:/openaf/jre/bin' > /etc/profile.d/openaf.sh\
 # Install openaf and prepare everthing
 RUN cd /openaf\
  && curl -o openaf.jar https://openaf.io/$OPENAFDIST/openaf.jar.repacked -s\
- && curl -o jre.tgz "https://openaf.io/java/java21_64$(if [ "$(uname -m)" = "x86_64" ]; then echo ''; else echo 'A'; fi).tgz" -s\
+ && curl -o jre.tgz "https://openaf.io/java/java21_$(if [ "$(uname -m)" = "x86_64" ]; then echo ''; else echo 'A'; fi)64.tgz" -s\
  && tar xzf jre.tgz\
  && mv jdk* jre\
  && rm jre.tgz\
