@@ -22,7 +22,7 @@ COPY getOpenAFOrigJar.js /openaf/
 # Install java, Update SSL certificates and clean up + Auxiliary settings
 RUN echo 'PATH=$PATH:/openaf:/openaf/jre/bin' > /etc/profile.d/openaf.sh\
  && userdel -r ubuntu\
- && useradd --gid 0 --uid 1000 --shell /bin/sh openaf\
+ && useradd --gid 0 --uid 1000 -m --shell /bin/sh openaf\
  && echo "openaf ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/openaf\
  && chmod g+w /etc/passwd
 
