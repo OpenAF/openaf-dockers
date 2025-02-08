@@ -76,7 +76,7 @@ jobs:
         password: ${{ secrets.DOCKERHUB_TOKEN }}
     - uses: docker/build-push-action@v4
       name: Build and push based on input
-      if  : ${{ github.event.inputs.baseTag }}
+      if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi != 'yes' && github.event.inputs.deb != 'yes' }}
       with:
         platforms: linux/amd64,linux/arm64
         context: "{{defaultContext}}:openaf-py"
@@ -85,7 +85,7 @@ jobs:
         build-args: url=openaf/oaf:${{ github.event.inputs.baseTag }}
     - uses: docker/build-push-action@v4
       name: Build and push
-      if  : ${{ ! github.event.inputs.baseTag }}
+      if  : ${{ ! github.event.inputs.baseTag && github.event.inputs.ubi != 'yes' && github.event.inputs.deb != 'yes' }}
       with:
         platforms: linux/amd64,linux/arm64
         context: "{{defaultContext}}:openaf-py"
