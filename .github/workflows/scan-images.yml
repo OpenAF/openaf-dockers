@@ -67,6 +67,13 @@ jobs:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=openaf/oaf:ubi-nightly file=.github/sec-ubi-nightly.svg reportFile=.github/sec-ubi-nightly.yaml'
         dist: 't8'
+
+    - uses: openaf/ojob-action@v4
+      name: Scan DEB nightly
+      with:
+        ojob: 'ojob.io/sec/genSecBadge'
+        args: 'image=openaf/oaf:deb-nightly file=.github/sec-deb-nightly.svg reportFile=.github/sec-deb-nightly.yaml'
+        dist: 't8'
     
     - uses: openaf/ojob-action@v4
       name: Generate sec-ubi-nightly.md
@@ -75,12 +82,25 @@ jobs:
         args: 'inputFile=.github/sec-ubi-nightly.yaml file=.github/sec-ubi-nightly.md'
         
     - uses: openaf/ojob-action@v4
+      name: Generate sec-deb-nightly.md
+      with:
+        ojob: 'ojob.io/util/toMDTree'
+        args: 'inputFile=.github/sec-deb-nightly.yaml file=.github/sec-deb-nightly.md'
+
+    - uses: openaf/ojob-action@v4
       name: Scan UBI latest
       with:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=openaf/oaf:ubi file=.github/sec-ubi-latest.svg reportFile=.github/sec-ubi-latest.yaml'
         dist: 't8'
-        
+
+    - uses: openaf/ojob-action@v4
+      name: Scan DEB latest
+      with:
+        ojob: 'ojob.io/sec/genSecBadge'
+        args: 'image=openaf/oaf:deb file=.github/sec-deb-latest.svg reportFile=.github/sec-deb-latest.yaml'
+        dist: 't8'        
+
     - uses: openaf/ojob-action@v4
       name: Generate sec-ubi-latest.md
       with:
@@ -88,6 +108,13 @@ jobs:
         args: 'inputFile=.github/sec-ubi-latest.yaml file=.github/sec-ubi-latest.md'
         dist: 't8'
         
+    - uses: openaf/ojob-action@v4
+      name: Generate sec-deb-latest.md
+      with:
+        ojob: 'ojob.io/util/toMDTree'
+        args: 'inputFile=.github/sec-deb-latest.yaml file=.github/sec-deb-latest.md'
+        dist: 't8'
+
     - uses: openaf/ojob-action@v4
       name: Scan oJobRT latest
       with:

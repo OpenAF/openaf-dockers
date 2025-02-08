@@ -22,6 +22,10 @@ on:
         description: 'If defined will build using an ubi base image instead of alpine'
         required   : false
         default    : ''
+      deb:
+        description: 'If defined will build using an ubuntu base image instead of alpine'
+        required   : false
+        default    : ''
 
 jobs:
 
@@ -103,7 +107,7 @@ jobs:
         password: ${{ secrets.DOCKERHUB_TOKEN }}
     - uses: docker/build-push-action@v4
       name: Build and push based on input
-      if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi != 'yes' }}
+      if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi != 'yes' && github.event.inputs.deb != 'yes' }}
       with:
         platforms: linux/amd64,linux/arm64
         context: "{{defaultContext}}:openaf"
@@ -114,10 +118,21 @@ jobs:
           OPENAFDIST=${{ github.event.inputs.oafDist }}
     - uses: docker/build-push-action@v4
       name: Build and push based on input ubi
-      if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi == 'yes' }}
+      if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi == 'yes' && github.event.inputs.deb != 'yes' }}
       with:
         platforms: linux/amd64,linux/arm64
         context: "{{defaultContext}}:openaf-ubi"
+        push: true
+        tags: openaf/oaf:${{ github.event.inputs.baseTag }}
+        build-args: | 
+          DIST=${{ github.event.inputs.baseTag }}
+          OPENAFDIST=${{ github.event.inputs.oafDist }}
+    - uses: docker/build-push-action@v4
+      name: Build and push based on input ubi
+      if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi != 'yes' && github.event.inputs.deb == 'yes' }}
+      with:
+        platforms: linux/amd64,linux/arm64
+        context: "{{defaultContext}}:openaf-deb"
         push: true
         tags: openaf/oaf:${{ github.event.inputs.baseTag }}
         build-args: | 
@@ -147,7 +162,7 @@ jobs:
         password: ${{ secrets.DOCKERHUB_TOKEN }}
     - uses: docker/build-push-action@v4
       name: Build and push based on input
-      if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi != 'yes' }}
+      if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi != 'yes' && github.event.inputs.deb != 'yes' }}
       with:
         platforms: linux/amd64,linux/arm64
         context: "{{defaultContext}}:openaf"
@@ -158,10 +173,21 @@ jobs:
           OPENAFDIST=${{ github.event.inputs.oafDist }}
     - uses: docker/build-push-action@v4
       name: Build and push based on input ubi
-      if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi == 'yes' }}
+      if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi == 'yes' && github.event.inputs.deb != 'yes' }}
       with:
         platforms: linux/amd64,linux/arm64
         context: "{{defaultContext}}:openaf-ubi"
+        push: true
+        tags: openaf/openaf:${{ github.event.inputs.baseTag }}
+        build-args: | 
+          DIST=${{ github.event.inputs.baseTag }}
+          OPENAFDIST=${{ github.event.inputs.oafDist }}
+    - uses: docker/build-push-action@v4
+      name: Build and push based on input ubi
+      if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi != 'yes' && github.event.inputs.deb == 'yes' }}
+      with:
+        platforms: linux/amd64,linux/arm64
+        context: "{{defaultContext}}:openaf-deb"
         push: true
         tags: openaf/openaf:${{ github.event.inputs.baseTag }}
         build-args: | 
