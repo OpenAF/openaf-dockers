@@ -1411,7 +1411,7 @@
 │                       │      │                  │       =redhat-9.5 
 │                       │      │                  ╰ UID : ce859a6e06e9cb00 
 │                       │      ├ InstalledVersion: 11.5.0-2.el9 
-│                       │      ├ Status          : under_investigation 
+│                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:b48328bbe79a0836092b5fc616c020bf7718ef866666
 │                       │      │                  │         c696d2a6073efba6e62c 
 │                       │      │                  ╰ DiffID: sha256:f511bfe1ac4ef2d917eb5d445f9afc080ce5eda4ccdd
@@ -1881,7 +1881,7 @@
 │                       │      │                  │       &distro=redhat-9.5 
 │                       │      │                  ╰ UID : 2defde911a3a950b 
 │                       │      ├ InstalledVersion: 11.5.0-2.el9 
-│                       │      ├ Status          : under_investigation 
+│                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:b48328bbe79a0836092b5fc616c020bf7718ef866666
 │                       │      │                  │         c696d2a6073efba6e62c 
 │                       │      │                  ╰ DiffID: sha256:f511bfe1ac4ef2d917eb5d445f9afc080ce5eda4ccdd
