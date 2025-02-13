@@ -120,9 +120,9 @@
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                  │        │           /A:L 
 │                       │      │                  │        ╰ V3Score : 6.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 2.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 3.9 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/11/06/2 
 │                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-9681 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2024-9681.html 
@@ -134,113 +134,86 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                       │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
 │                       │      ╰ LastModifiedDate: 2024-12-13T14:15:22.953Z 
-│                       ├ [2]  ╭ VulnerabilityID : CVE-2025-0725 
-│                       │      ├ PkgID           : curl@8.10.1-r0 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.10.1-r0?arch=x86_64&distro=3.20.3 
-│                       │      │                  ╰ UID : f07e06b001c6f80a 
-│                       │      ├ InstalledVersion: 8.10.1-r0 
-│                       │      ├ FixedVersion    : 8.12.0-r0 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2024-12797 
+│                       │      ├ PkgID           : libcrypto3@3.3.2-r0 
+│                       │      ├ PkgName         : libcrypto3 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.3.2-r0?arch=x86_64&distro
+│                       │      │                  │       =3.20.3 
+│                       │      │                  ╰ UID : 33eb4551a5ab015e 
+│                       │      ├ InstalledVersion: 3.3.2-r0 
+│                       │      ├ FixedVersion    : 3.3.3-r0 
 │                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
 │                       │      │                  │         2801b3e28133325c482b 
 │                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
 │                       │      │                            28ea1250ef005595c5f9 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0725 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-12797 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : libcurl: Buffer Overflow in libcurl via zlib Integer Overflow 
-│                       │      ├ Description     : When libcurl is asked to perform automatic gzip
-│                       │      │                   decompression of
-│                       │      │                   content-encoded HTTP responses with the
-│                       │      │                   `CURLOPT_ACCEPT_ENCODING` option,
-│                       │      │                   **using zlib 1.2.0.3 or older**, an attacker-controlled
-│                       │      │                   integer overflow would
-│                       │      │                   make libcurl perform a buffer overflow. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ redhat: 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N
-│                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 4 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/3 
-│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/06/2 
-│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/02/06/4 
-│                       │      │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-0725 
-│                       │      │                  ├ [4]: https://curl.se/docs/CVE-2025-0725.html 
-│                       │      │                  ├ [5]: https://curl.se/docs/CVE-2025-0725.json 
-│                       │      │                  ├ [6]: https://hackerone.com/reports/2956023 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-0725 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0725 
-│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.98Z 
-│                       │      ╰ LastModifiedDate: 2025-02-06T19:15:19.733Z 
-│                       ├ [3]  ╭ VulnerabilityID : CVE-2025-0167 
-│                       │      ├ PkgID           : curl@8.10.1-r0 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.10.1-r0?arch=x86_64&distro=3.20.3 
-│                       │      │                  ╰ UID : f07e06b001c6f80a 
-│                       │      ├ InstalledVersion: 8.10.1-r0 
-│                       │      ├ FixedVersion    : 8.12.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
-│                       │      │                  │         2801b3e28133325c482b 
-│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
-│                       │      │                            28ea1250ef005595c5f9 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0167 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : When asked to use a `.netrc` file for credentials **and** to
-│                       │      │                    follow HT ... 
-│                       │      ├ Description     : When asked to use a `.netrc` file for credentials **and** to
-│                       │      │                    follow HTTP
-│                       │      │                   redirects, curl could leak the password used for the first
-│                       │      │                   host to the
-│                       │      │                   followed-to host under certain circumstances.
+│                       │      ├ Title           : openssl: RFC7250 handshakes with unauthenticated servers
+│                       │      │                   don't abort as expected 
+│                       │      ├ Description     : Issue summary: Clients using RFC7250 Raw Public Keys (RPKs)
+│                       │      │                   to authenticate a
+│                       │      │                   server may fail to notice that the server was not
+│                       │      │                   authenticated, because
+│                       │      │                   handshakes don't abort as expected when the SSL_VERIFY_PEER
+│                       │      │                   verification mode
+│                       │      │                   is set.
 │                       │      │                   
-│                       │      │                   This flaw only manifests itself if the netrc file has a
-│                       │      │                   `default` entry that
-│                       │      │                   omits both login and password. A rare circumstance. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
-│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
-│                       │      │                  ├ [2]: https://hackerone.com/reports/2917232 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
-│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
-│                       │      ╰ LastModifiedDate: 2025-02-06T15:15:16.967Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2025-0665 
-│                       │      ├ PkgID           : curl@8.10.1-r0 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.10.1-r0?arch=x86_64&distro=3.20.3 
-│                       │      │                  ╰ UID : f07e06b001c6f80a 
-│                       │      ├ InstalledVersion: 8.10.1-r0 
-│                       │      ├ FixedVersion    : 8.12.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
-│                       │      │                  │         2801b3e28133325c482b 
-│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
-│                       │      │                            28ea1250ef005595c5f9 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0665 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : libcurl would wrongly close the same eventfd file descriptor
-│                       │      │                    twice whe ... 
-│                       │      ├ Description     : libcurl would wrongly close the same eventfd file descriptor
-│                       │      │                    twice when taking
-│                       │      │                   down a connection channel after having completed a threaded
-│                       │      │                   name resolve. 
-│                       │      ├ Severity        : UNKNOWN 
-│                       │      ├ CweIDs           ─ [0]: CWE-1341 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/2 
-│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/05/5 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-0665.html 
-│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-0665.json 
-│                       │      │                  ╰ [4]: https://hackerone.com/reports/2954286 
-│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.857Z 
-│                       │      ╰ LastModifiedDate: 2025-02-05T20:15:45.31Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2024-13176 
+│                       │      │                   Impact summary: TLS and DTLS connections using raw public
+│                       │      │                   keys may be
+│                       │      │                   vulnerable to man-in-middle attacks when server
+│                       │      │                   authentication failure is not
+│                       │      │                   detected by clients.
+│                       │      │                   RPKs are disabled by default in both TLS clients and TLS
+│                       │      │                   servers.  The issue
+│                       │      │                   only arises when TLS clients explicitly enable RPK use by
+│                       │      │                   the server, and the
+│                       │      │                   server, likewise, enables sending of an RPK instead of an
+│                       │      │                   X.509 certificate
+│                       │      │                   chain.  The affected clients are those that then rely on the
+│                       │      │                    handshake to
+│                       │      │                   fail when the server's RPK fails to match one of the
+│                       │      │                   expected public keys,
+│                       │      │                   by setting the verification mode to SSL_VERIFY_PEER.
+│                       │      │                   Clients that enable server-side raw public keys can still
+│                       │      │                   find out that raw
+│                       │      │                   public key verification failed by calling
+│                       │      │                   SSL_get_verify_result(), and those
+│                       │      │                   that do, and take appropriate action, are not affected. 
+│                       │      │                   This issue was
+│                       │      │                   introduced in the initial implementation of RPK support in
+│                       │      │                   OpenSSL 3.2.
+│                       │      │                   The FIPS modules in 3.4, 3.3, 3.2, 3.1 and 3.0 are not
+│                       │      │                   affected by this issue. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-392 
+│                       │      ├ VendorSeverity   ╭ ghsa  : 1 
+│                       │      │                  ├ redhat: 3 
+│                       │      │                  ╰ ubuntu: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 7.4 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/02/11/3 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/02/11/4 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-12797 
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/738d4f9fdea
+│                       │      │                  │       ad57660dcba50a619fafced3fd5e9 
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/798779d4349
+│                       │      │                  │       4549b611233f92652f0da5328fbe7 
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/87ebd203fef
+│                       │      │                  │       fcf92ad5889df92f90bb0ee10a699 
+│                       │      │                  ├ [6] : https://github.com/pyca/cryptography 
+│                       │      │                  ├ [7] : https://github.com/pyca/cryptography/security/advisor
+│                       │      │                  │       ies/GHSA-79v4-65xg-pq4g 
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-12797 
+│                       │      │                  ├ [9] : https://openssl-library.org/news/secadv/20250211.txt 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7264-1 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
+│                       │      ├ PublishedDate   : 2025-02-11T16:15:38.827Z 
+│                       │      ╰ LastModifiedDate: 2025-02-11T23:15:08.807Z 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2024-13176 
 │                       │      ├ PkgID           : libcrypto3@3.3.2-r0 
 │                       │      ├ PkgName         : libcrypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.3.2-r0?arch=x86_64&distro
@@ -310,17 +283,18 @@
 │                       │      │                  ├ [10]: https://openssl-library.org/news/secadv/20250120.txt 
 │                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250124-00
 │                       │      │                  │       05/ 
-│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7264-1 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
 │                       │      ├ PublishedDate   : 2025-01-20T14:15:26.247Z 
 │                       │      ╰ LastModifiedDate: 2025-01-27T21:15:11.907Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2024-9143 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2024-9143 
 │                       │      ├ PkgID           : libcrypto3@3.3.2-r0 
 │                       │      ├ PkgName         : libcrypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcrypto3@3.3.2-r0?arch=x86_64&distro
 │                       │      │                  │       =3.20.3 
 │                       │      │                  ╰ UID : 33eb4551a5ab015e 
 │                       │      ├ InstalledVersion: 3.3.2-r0 
-│                       │      ├ FixedVersion    : 3.3.2-r3 
+│                       │      ├ FixedVersion    : 3.3.2-r1 
 │                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
 │                       │      │                  │         2801b3e28133325c482b 
@@ -400,10 +374,11 @@
 │                       │      │                  ├ [11]: https://openssl-library.org/news/secadv/20241016.txt 
 │                       │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-20241101-00
 │                       │      │                  │       01/ 
-│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-9143 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7264-1 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-9143 
 │                       │      ├ PublishedDate   : 2024-10-16T17:15:18.13Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T09:54:04.817Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2024-11053 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2024-11053 
 │                       │      ├ PkgID           : libcurl@8.10.1-r0 
 │                       │      ├ PkgName         : libcurl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.10.1-r0?arch=x86_64&distro=3
@@ -456,7 +431,7 @@
 │                       │      │                          l#AppendixMSQL 
 │                       │      ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
 │                       │      ╰ LastModifiedDate: 2025-01-31T15:15:12.4Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2024-9681 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2024-9681 
 │                       │      ├ PkgID           : libcurl@8.10.1-r0 
 │                       │      ├ PkgName         : libcurl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.10.1-r0?arch=x86_64&distro=3
@@ -523,9 +498,9 @@
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                  │        │           /A:L 
 │                       │      │                  │        ╰ V3Score : 6.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 2.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 3.9 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/11/06/2 
 │                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-9681 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2024-9681.html 
@@ -537,116 +512,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-9681 
 │                       │      ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
 │                       │      ╰ LastModifiedDate: 2024-12-13T14:15:22.953Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-0725 
-│                       │      ├ PkgID           : libcurl@8.10.1-r0 
-│                       │      ├ PkgName         : libcurl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.10.1-r0?arch=x86_64&distro=3
-│                       │      │                  │       .20.3 
-│                       │      │                  ╰ UID : 49f1e7608626c36e 
-│                       │      ├ InstalledVersion: 8.10.1-r0 
-│                       │      ├ FixedVersion    : 8.12.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
-│                       │      │                  │         2801b3e28133325c482b 
-│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
-│                       │      │                            28ea1250ef005595c5f9 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0725 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : libcurl: Buffer Overflow in libcurl via zlib Integer Overflow 
-│                       │      ├ Description     : When libcurl is asked to perform automatic gzip
-│                       │      │                   decompression of
-│                       │      │                   content-encoded HTTP responses with the
-│                       │      │                   `CURLOPT_ACCEPT_ENCODING` option,
-│                       │      │                   **using zlib 1.2.0.3 or older**, an attacker-controlled
-│                       │      │                   integer overflow would
-│                       │      │                   make libcurl perform a buffer overflow. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ redhat: 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N
-│                       │      │                           │           /A:L 
-│                       │      │                           ╰ V3Score : 4 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/3 
-│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/06/2 
-│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/02/06/4 
-│                       │      │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-0725 
-│                       │      │                  ├ [4]: https://curl.se/docs/CVE-2025-0725.html 
-│                       │      │                  ├ [5]: https://curl.se/docs/CVE-2025-0725.json 
-│                       │      │                  ├ [6]: https://hackerone.com/reports/2956023 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-0725 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0725 
-│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.98Z 
-│                       │      ╰ LastModifiedDate: 2025-02-06T19:15:19.733Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2025-0167 
-│                       │      ├ PkgID           : libcurl@8.10.1-r0 
-│                       │      ├ PkgName         : libcurl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.10.1-r0?arch=x86_64&distro=3
-│                       │      │                  │       .20.3 
-│                       │      │                  ╰ UID : 49f1e7608626c36e 
-│                       │      ├ InstalledVersion: 8.10.1-r0 
-│                       │      ├ FixedVersion    : 8.12.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
-│                       │      │                  │         2801b3e28133325c482b 
-│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
-│                       │      │                            28ea1250ef005595c5f9 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0167 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : When asked to use a `.netrc` file for credentials **and** to
-│                       │      │                    follow HT ... 
-│                       │      ├ Description     : When asked to use a `.netrc` file for credentials **and** to
-│                       │      │                    follow HTTP
-│                       │      │                   redirects, curl could leak the password used for the first
-│                       │      │                   host to the
-│                       │      │                   followed-to host under certain circumstances.
-│                       │      │                   
-│                       │      │                   This flaw only manifests itself if the netrc file has a
-│                       │      │                   `default` entry that
-│                       │      │                   omits both login and password. A rare circumstance. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
-│                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
-│                       │      │                  ├ [2]: https://hackerone.com/reports/2917232 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
-│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
-│                       │      ╰ LastModifiedDate: 2025-02-06T15:15:16.967Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2025-0665 
-│                       │      ├ PkgID           : libcurl@8.10.1-r0 
-│                       │      ├ PkgName         : libcurl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.10.1-r0?arch=x86_64&distro=3
-│                       │      │                  │       .20.3 
-│                       │      │                  ╰ UID : 49f1e7608626c36e 
-│                       │      ├ InstalledVersion: 8.10.1-r0 
-│                       │      ├ FixedVersion    : 8.12.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
-│                       │      │                  │         2801b3e28133325c482b 
-│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
-│                       │      │                            28ea1250ef005595c5f9 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0665 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : libcurl would wrongly close the same eventfd file descriptor
-│                       │      │                    twice whe ... 
-│                       │      ├ Description     : libcurl would wrongly close the same eventfd file descriptor
-│                       │      │                    twice when taking
-│                       │      │                   down a connection channel after having completed a threaded
-│                       │      │                   name resolve. 
-│                       │      ├ Severity        : UNKNOWN 
-│                       │      ├ CweIDs           ─ [0]: CWE-1341 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/2 
-│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/05/5 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-0665.html 
-│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-0665.json 
-│                       │      │                  ╰ [4]: https://hackerone.com/reports/2954286 
-│                       │      ├ PublishedDate   : 2025-02-05T10:15:22.857Z 
-│                       │      ╰ LastModifiedDate: 2025-02-05T20:15:45.31Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2024-50602 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2024-50602 
 │                       │      ├ PkgID           : libexpat@2.6.3-r0 
 │                       │      ├ PkgName         : libexpat 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.6.3-r0?arch=x86_64&distro=3
@@ -700,7 +566,86 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-50602 
 │                       │      ├ PublishedDate   : 2024-10-27T05:15:04.09Z 
 │                       │      ╰ LastModifiedDate: 2024-10-30T18:35:16.237Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2024-13176 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2024-12797 
+│                       │      ├ PkgID           : libssl3@3.3.2-r0 
+│                       │      ├ PkgName         : libssl3 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.3.2-r0?arch=x86_64&distro=3.
+│                       │      │                  │       20.3 
+│                       │      │                  ╰ UID : aa5719d6e39bba43 
+│                       │      ├ InstalledVersion: 3.3.2-r0 
+│                       │      ├ FixedVersion    : 3.3.3-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
+│                       │      │                  │         2801b3e28133325c482b 
+│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
+│                       │      │                            28ea1250ef005595c5f9 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-12797 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openssl: RFC7250 handshakes with unauthenticated servers
+│                       │      │                   don't abort as expected 
+│                       │      ├ Description     : Issue summary: Clients using RFC7250 Raw Public Keys (RPKs)
+│                       │      │                   to authenticate a
+│                       │      │                   server may fail to notice that the server was not
+│                       │      │                   authenticated, because
+│                       │      │                   handshakes don't abort as expected when the SSL_VERIFY_PEER
+│                       │      │                   verification mode
+│                       │      │                   is set.
+│                       │      │                   
+│                       │      │                   Impact summary: TLS and DTLS connections using raw public
+│                       │      │                   keys may be
+│                       │      │                   vulnerable to man-in-middle attacks when server
+│                       │      │                   authentication failure is not
+│                       │      │                   detected by clients.
+│                       │      │                   RPKs are disabled by default in both TLS clients and TLS
+│                       │      │                   servers.  The issue
+│                       │      │                   only arises when TLS clients explicitly enable RPK use by
+│                       │      │                   the server, and the
+│                       │      │                   server, likewise, enables sending of an RPK instead of an
+│                       │      │                   X.509 certificate
+│                       │      │                   chain.  The affected clients are those that then rely on the
+│                       │      │                    handshake to
+│                       │      │                   fail when the server's RPK fails to match one of the
+│                       │      │                   expected public keys,
+│                       │      │                   by setting the verification mode to SSL_VERIFY_PEER.
+│                       │      │                   Clients that enable server-side raw public keys can still
+│                       │      │                   find out that raw
+│                       │      │                   public key verification failed by calling
+│                       │      │                   SSL_get_verify_result(), and those
+│                       │      │                   that do, and take appropriate action, are not affected. 
+│                       │      │                   This issue was
+│                       │      │                   introduced in the initial implementation of RPK support in
+│                       │      │                   OpenSSL 3.2.
+│                       │      │                   The FIPS modules in 3.4, 3.3, 3.2, 3.1 and 3.0 are not
+│                       │      │                   affected by this issue. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-392 
+│                       │      ├ VendorSeverity   ╭ ghsa  : 1 
+│                       │      │                  ├ redhat: 3 
+│                       │      │                  ╰ ubuntu: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 7.4 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/02/11/3 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/02/11/4 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-12797 
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/738d4f9fdea
+│                       │      │                  │       ad57660dcba50a619fafced3fd5e9 
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/798779d4349
+│                       │      │                  │       4549b611233f92652f0da5328fbe7 
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/87ebd203fef
+│                       │      │                  │       fcf92ad5889df92f90bb0ee10a699 
+│                       │      │                  ├ [6] : https://github.com/pyca/cryptography 
+│                       │      │                  ├ [7] : https://github.com/pyca/cryptography/security/advisor
+│                       │      │                  │       ies/GHSA-79v4-65xg-pq4g 
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-12797 
+│                       │      │                  ├ [9] : https://openssl-library.org/news/secadv/20250211.txt 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7264-1 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
+│                       │      ├ PublishedDate   : 2025-02-11T16:15:38.827Z 
+│                       │      ╰ LastModifiedDate: 2025-02-11T23:15:08.807Z 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2024-13176 
 │                       │      ├ PkgID           : libssl3@3.3.2-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.3.2-r0?arch=x86_64&distro=3.
@@ -770,17 +715,18 @@
 │                       │      │                  ├ [10]: https://openssl-library.org/news/secadv/20250120.txt 
 │                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250124-00
 │                       │      │                  │       05/ 
-│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7264-1 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
 │                       │      ├ PublishedDate   : 2025-01-20T14:15:26.247Z 
 │                       │      ╰ LastModifiedDate: 2025-01-27T21:15:11.907Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2024-9143 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2024-9143 
 │                       │      ├ PkgID           : libssl3@3.3.2-r0 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libssl3@3.3.2-r0?arch=x86_64&distro=3.
 │                       │      │                  │       20.3 
 │                       │      │                  ╰ UID : aa5719d6e39bba43 
 │                       │      ├ InstalledVersion: 3.3.2-r0 
-│                       │      ├ FixedVersion    : 3.3.2-r3 
+│                       │      ├ FixedVersion    : 3.3.2-r1 
 │                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
 │                       │      │                  │         2801b3e28133325c482b 
@@ -860,10 +806,11 @@
 │                       │      │                  ├ [11]: https://openssl-library.org/news/secadv/20241016.txt 
 │                       │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-20241101-00
 │                       │      │                  │       01/ 
-│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-9143 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7264-1 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-9143 
 │                       │      ├ PublishedDate   : 2024-10-16T17:15:18.13Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T09:54:04.817Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2024-12133 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2024-12133 
 │                       │      ├ PkgID           : libtasn1@4.19.0-r2 
 │                       │      ├ PkgName         : libtasn1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libtasn1@4.19.0-r2?arch=x86_64&distro=
@@ -880,8 +827,29 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ╰ Severity        : UNKNOWN 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2024-21147 
+│                       │      ├ Title           : libtasn1: Inefficient DER Decoding in libtasn1 Leading to
+│                       │      │                   Potential Remote DoS 
+│                       │      ├ Description     : A flaw in libtasn1 causes inefficient handling of specific
+│                       │      │                   certificate data. When processing a large number of elements
+│                       │      │                    in a certificate, libtasn1 takes much longer than expected,
+│                       │      │                    which can slow down or even crash the system. This flaw
+│                       │      │                   allows an attacker to send a specially crafted certificate,
+│                       │      │                   causing a denial of service attack. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-407 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/06/6 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-12133 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2344611 
+│                       │      │                  ├ [3]: https://gitlab.com/gnutls/libtasn1/-/issues/52 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-12133 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-12133 
+│                       │      ├ PublishedDate   : 2025-02-10T16:15:37.26Z 
+│                       │      ╰ LastModifiedDate: 2025-02-10T16:15:37.26Z 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2024-21147 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -976,7 +944,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:16.377Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:52.63Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2024-21140 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2024-21140 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1072,7 +1040,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.043Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:51.75Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2024-21145 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2024-21145 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1170,7 +1138,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.993Z 
 │                       │      ╰ LastModifiedDate: 2024-12-16T20:13:37.007Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2024-21235 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2024-21235 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1261,7 +1229,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:12.643Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:30:26.097Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2024-21011 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2024-21011 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1346,7 +1314,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:15.437Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T21:15:17.52Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2024-21068 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2024-21068 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1431,7 +1399,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:25.307Z 
 │                       │      ╰ LastModifiedDate: 2024-12-06T19:22:57.927Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2024-21085 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2024-21085 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1519,7 +1487,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:28.293Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:45.35Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2024-21094 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2024-21094 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1613,7 +1581,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:29.857Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:46.35Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2024-21131 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2024-21131 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1704,7 +1672,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:13.21Z 
 │                       │      ╰ LastModifiedDate: 2024-12-05T22:02:52.553Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2024-21138 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2024-21138 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1795,7 +1763,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:14.62Z 
 │                       │      ╰ LastModifiedDate: 2024-12-05T22:05:55.937Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2024-21144 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2024-21144 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1871,7 +1839,7 @@
 │                       │      │                  ╰ [18]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.81Z 
 │                       │      ╰ LastModifiedDate: 2024-12-16T20:13:40.827Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2024-21208 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2024-21208 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -1960,7 +1928,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.437Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:05.287Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2024-21210 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2024-21210 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -2043,7 +2011,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.843Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.037Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2024-21217 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2024-21217 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre@8.402.06-r0?arch=x86_64&d
@@ -2131,7 +2099,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:11.197Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:29:36.59Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2024-21147 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2024-21147 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2226,7 +2194,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:16.377Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:52.63Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2024-21140 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2024-21140 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2322,7 +2290,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.043Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:51.75Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2024-21145 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2024-21145 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2420,7 +2388,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.993Z 
 │                       │      ╰ LastModifiedDate: 2024-12-16T20:13:37.007Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2024-21235 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2024-21235 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2511,7 +2479,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:12.643Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:30:26.097Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2024-21011 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2024-21011 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2596,7 +2564,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:15.437Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T21:15:17.52Z 
-│                       ├ [35] ╭ VulnerabilityID : CVE-2024-21068 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2024-21068 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2681,7 +2649,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:25.307Z 
 │                       │      ╰ LastModifiedDate: 2024-12-06T19:22:57.927Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2024-21085 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2024-21085 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2769,7 +2737,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:28.293Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:45.35Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2024-21094 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2024-21094 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2863,7 +2831,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:29.857Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:46.35Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2024-21131 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2024-21131 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -2954,7 +2922,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:13.21Z 
 │                       │      ╰ LastModifiedDate: 2024-12-05T22:02:52.553Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2024-21138 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2024-21138 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -3045,7 +3013,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:14.62Z 
 │                       │      ╰ LastModifiedDate: 2024-12-05T22:05:55.937Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2024-21144 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2024-21144 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -3121,7 +3089,7 @@
 │                       │      │                  ╰ [18]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.81Z 
 │                       │      ╰ LastModifiedDate: 2024-12-16T20:13:40.827Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2024-21208 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2024-21208 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -3210,7 +3178,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.437Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:05.287Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2024-21210 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2024-21210 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -3293,7 +3261,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.843Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.037Z 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2024-21217 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2024-21217 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-base@8.402.06-r0?arch=x86
@@ -3381,7 +3349,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:11.197Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:29:36.59Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2024-21147 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2024-21147 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3476,7 +3444,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:16.377Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:52.63Z 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2024-21140 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2024-21140 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3572,7 +3540,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.043Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:51.75Z 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2024-21145 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2024-21145 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3670,7 +3638,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.993Z 
 │                       │      ╰ LastModifiedDate: 2024-12-16T20:13:37.007Z 
-│                       ├ [47] ╭ VulnerabilityID : CVE-2024-21235 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2024-21235 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3761,7 +3729,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:12.643Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:30:26.097Z 
-│                       ├ [48] ╭ VulnerabilityID : CVE-2024-21011 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2024-21011 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3846,7 +3814,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:15.437Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T21:15:17.52Z 
-│                       ├ [49] ╭ VulnerabilityID : CVE-2024-21068 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2024-21068 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -3931,7 +3899,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:25.307Z 
 │                       │      ╰ LastModifiedDate: 2024-12-06T19:22:57.927Z 
-│                       ├ [50] ╭ VulnerabilityID : CVE-2024-21085 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2024-21085 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -4019,7 +3987,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:28.293Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:45.35Z 
-│                       ├ [51] ╭ VulnerabilityID : CVE-2024-21094 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2024-21094 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -4113,7 +4081,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2024-04-16T22:15:29.857Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T08:53:46.35Z 
-│                       ├ [52] ╭ VulnerabilityID : CVE-2024-21131 
+│                       ├ [48] ╭ VulnerabilityID : CVE-2024-21131 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -4204,7 +4172,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:13.21Z 
 │                       │      ╰ LastModifiedDate: 2024-12-05T22:02:52.553Z 
-│                       ├ [53] ╭ VulnerabilityID : CVE-2024-21138 
+│                       ├ [49] ╭ VulnerabilityID : CVE-2024-21138 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -4295,7 +4263,7 @@
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:14.62Z 
 │                       │      ╰ LastModifiedDate: 2024-12-05T22:05:55.937Z 
-│                       ├ [54] ╭ VulnerabilityID : CVE-2024-21144 
+│                       ├ [50] ╭ VulnerabilityID : CVE-2024-21144 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -4371,7 +4339,7 @@
 │                       │      │                  ╰ [18]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.81Z 
 │                       │      ╰ LastModifiedDate: 2024-12-16T20:13:40.827Z 
-│                       ├ [55] ╭ VulnerabilityID : CVE-2024-21208 
+│                       ├ [51] ╭ VulnerabilityID : CVE-2024-21208 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -4460,7 +4428,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.437Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:05.287Z 
-│                       ├ [56] ╭ VulnerabilityID : CVE-2024-21210 
+│                       ├ [52] ╭ VulnerabilityID : CVE-2024-21210 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -4543,7 +4511,7 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.843Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.037Z 
-│                       ├ [57] ╭ VulnerabilityID : CVE-2024-21217 
+│                       ├ [53] ╭ VulnerabilityID : CVE-2024-21217 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk8-jre-lib@8.402.06-r0?arch=x86_
@@ -4631,7 +4599,86 @@
 │                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:11.197Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:29:36.59Z 
-│                       ├ [58] ╭ VulnerabilityID : CVE-2024-13176 
+│                       ├ [54] ╭ VulnerabilityID : CVE-2024-12797 
+│                       │      ├ PkgID           : openssl@3.3.2-r0 
+│                       │      ├ PkgName         : openssl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.3.2-r0?arch=x86_64&distro=3.
+│                       │      │                  │       20.3 
+│                       │      │                  ╰ UID : aad39ba6d762dc14 
+│                       │      ├ InstalledVersion: 3.3.2-r0 
+│                       │      ├ FixedVersion    : 3.3.3-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
+│                       │      │                  │         2801b3e28133325c482b 
+│                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
+│                       │      │                            28ea1250ef005595c5f9 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-12797 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openssl: RFC7250 handshakes with unauthenticated servers
+│                       │      │                   don't abort as expected 
+│                       │      ├ Description     : Issue summary: Clients using RFC7250 Raw Public Keys (RPKs)
+│                       │      │                   to authenticate a
+│                       │      │                   server may fail to notice that the server was not
+│                       │      │                   authenticated, because
+│                       │      │                   handshakes don't abort as expected when the SSL_VERIFY_PEER
+│                       │      │                   verification mode
+│                       │      │                   is set.
+│                       │      │                   
+│                       │      │                   Impact summary: TLS and DTLS connections using raw public
+│                       │      │                   keys may be
+│                       │      │                   vulnerable to man-in-middle attacks when server
+│                       │      │                   authentication failure is not
+│                       │      │                   detected by clients.
+│                       │      │                   RPKs are disabled by default in both TLS clients and TLS
+│                       │      │                   servers.  The issue
+│                       │      │                   only arises when TLS clients explicitly enable RPK use by
+│                       │      │                   the server, and the
+│                       │      │                   server, likewise, enables sending of an RPK instead of an
+│                       │      │                   X.509 certificate
+│                       │      │                   chain.  The affected clients are those that then rely on the
+│                       │      │                    handshake to
+│                       │      │                   fail when the server's RPK fails to match one of the
+│                       │      │                   expected public keys,
+│                       │      │                   by setting the verification mode to SSL_VERIFY_PEER.
+│                       │      │                   Clients that enable server-side raw public keys can still
+│                       │      │                   find out that raw
+│                       │      │                   public key verification failed by calling
+│                       │      │                   SSL_get_verify_result(), and those
+│                       │      │                   that do, and take appropriate action, are not affected. 
+│                       │      │                   This issue was
+│                       │      │                   introduced in the initial implementation of RPK support in
+│                       │      │                   OpenSSL 3.2.
+│                       │      │                   The FIPS modules in 3.4, 3.3, 3.2, 3.1 and 3.0 are not
+│                       │      │                   affected by this issue. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-392 
+│                       │      ├ VendorSeverity   ╭ ghsa  : 1 
+│                       │      │                  ├ redhat: 3 
+│                       │      │                  ╰ ubuntu: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 7.4 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/02/11/3 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/02/11/4 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-12797 
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/738d4f9fdea
+│                       │      │                  │       ad57660dcba50a619fafced3fd5e9 
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/798779d4349
+│                       │      │                  │       4549b611233f92652f0da5328fbe7 
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/87ebd203fef
+│                       │      │                  │       fcf92ad5889df92f90bb0ee10a699 
+│                       │      │                  ├ [6] : https://github.com/pyca/cryptography 
+│                       │      │                  ├ [7] : https://github.com/pyca/cryptography/security/advisor
+│                       │      │                  │       ies/GHSA-79v4-65xg-pq4g 
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-12797 
+│                       │      │                  ├ [9] : https://openssl-library.org/news/secadv/20250211.txt 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7264-1 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
+│                       │      ├ PublishedDate   : 2025-02-11T16:15:38.827Z 
+│                       │      ╰ LastModifiedDate: 2025-02-11T23:15:08.807Z 
+│                       ├ [55] ╭ VulnerabilityID : CVE-2024-13176 
 │                       │      ├ PkgID           : openssl@3.3.2-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.3.2-r0?arch=x86_64&distro=3.
@@ -4701,17 +4748,18 @@
 │                       │      │                  ├ [10]: https://openssl-library.org/news/secadv/20250120.txt 
 │                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250124-00
 │                       │      │                  │       05/ 
-│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7264-1 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-13176 
 │                       │      ├ PublishedDate   : 2025-01-20T14:15:26.247Z 
 │                       │      ╰ LastModifiedDate: 2025-01-27T21:15:11.907Z 
-│                       ╰ [59] ╭ VulnerabilityID : CVE-2024-9143 
+│                       ╰ [56] ╭ VulnerabilityID : CVE-2024-9143 
 │                              ├ PkgID           : openssl@3.3.2-r0 
 │                              ├ PkgName         : openssl 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.3.2-r0?arch=x86_64&distro=3.
 │                              │                  │       20.3 
 │                              │                  ╰ UID : aad39ba6d762dc14 
 │                              ├ InstalledVersion: 3.3.2-r0 
-│                              ├ FixedVersion    : 3.3.2-r3 
+│                              ├ FixedVersion    : 3.3.2-r1 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee
 │                              │                  │         2801b3e28133325c482b 
@@ -4791,7 +4839,8 @@
 │                              │                  ├ [11]: https://openssl-library.org/news/secadv/20241016.txt 
 │                              │                  ├ [12]: https://security.netapp.com/advisory/ntap-20241101-00
 │                              │                  │       01/ 
-│                              │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-9143 
+│                              │                  ├ [13]: https://ubuntu.com/security/notices/USN-7264-1 
+│                              │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-9143 
 │                              ├ PublishedDate   : 2024-10-16T17:15:18.13Z 
 │                              ╰ LastModifiedDate: 2024-11-21T09:54:04.817Z 
 ╰ [1] ╭ Target         : Java 
