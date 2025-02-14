@@ -2,222 +2,7 @@
 ╭ [0] ╭ Target         : openaf/pyoaf:nightly (alpine 3.21.2) 
 │     ├ Class          : os-pkgs 
 │     ├ Type           : alpine 
-│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2025-0725 
-│                       │     ├ PkgID           : curl@8.11.1-r1 
-│                       │     ├ PkgName         : curl 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.11.1-r1?arch=x86_64&distro=3.21.2 
-│                       │     │                  ╰ UID : 6c52f830beb86792 
-│                       │     ├ InstalledVersion: 8.11.1-r1 
-│                       │     ├ FixedVersion    : 8.12.0-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:b7c86ebb76aa8bdd49a8a4d536f4ab10e50bbe142b738
-│                       │     │                  │         12d976899e8ebe9a219 
-│                       │     │                  ╰ DiffID: sha256:168f992320b3845e76951172b665b6e70b5abe9f467dc
-│                       │     │                            1c572095750691bf607 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0725 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : libcurl: Buffer Overflow in libcurl via zlib Integer Overflow 
-│                       │     ├ Description     : When libcurl is asked to perform automatic gzip decompression
-│                       │     │                    of
-│                       │     │                   content-encoded HTTP responses with the
-│                       │     │                   `CURLOPT_ACCEPT_ENCODING` option,
-│                       │     │                   **using zlib 1.2.0.3 or older**, an attacker-controlled
-│                       │     │                   integer overflow would
-│                       │     │                   make libcurl perform a buffer overflow. 
-│                       │     ├ Severity        : MEDIUM 
-│                       │     ├ VendorSeverity   ─ redhat: 1 
-│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/
-│                       │     │                           │           A:L 
-│                       │     │                           ╰ V3Score : 4 
-│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/3 
-│                       │     │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/06/2 
-│                       │     │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/02/06/4 
-│                       │     │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-0725 
-│                       │     │                  ├ [4]: https://curl.se/docs/CVE-2025-0725.html 
-│                       │     │                  ├ [5]: https://curl.se/docs/CVE-2025-0725.json 
-│                       │     │                  ├ [6]: https://hackerone.com/reports/2956023 
-│                       │     │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-0725 
-│                       │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0725 
-│                       │     ├ PublishedDate   : 2025-02-05T10:15:22.98Z 
-│                       │     ╰ LastModifiedDate: 2025-02-06T19:15:19.733Z 
-│                       ├ [1] ╭ VulnerabilityID : CVE-2025-0167 
-│                       │     ├ PkgID           : curl@8.11.1-r1 
-│                       │     ├ PkgName         : curl 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.11.1-r1?arch=x86_64&distro=3.21.2 
-│                       │     │                  ╰ UID : 6c52f830beb86792 
-│                       │     ├ InstalledVersion: 8.11.1-r1 
-│                       │     ├ FixedVersion    : 8.12.0-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:b7c86ebb76aa8bdd49a8a4d536f4ab10e50bbe142b738
-│                       │     │                  │         12d976899e8ebe9a219 
-│                       │     │                  ╰ DiffID: sha256:168f992320b3845e76951172b665b6e70b5abe9f467dc
-│                       │     │                            1c572095750691bf607 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0167 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : When asked to use a `.netrc` file for credentials **and** to
-│                       │     │                   follow HT ... 
-│                       │     ├ Description     : When asked to use a `.netrc` file for credentials **and** to
-│                       │     │                   follow HTTP
-│                       │     │                   redirects, curl could leak the password used for the first
-│                       │     │                   host to the
-│                       │     │                   followed-to host under certain circumstances.
-│                       │     │                   
-│                       │     │                   This flaw only manifests itself if the netrc file has a
-│                       │     │                   `default` entry that
-│                       │     │                   omits both login and password. A rare circumstance. 
-│                       │     ├ Severity        : LOW 
-│                       │     ├ VendorSeverity   ─ ubuntu: 1 
-│                       │     ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
-│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
-│                       │     │                  ├ [2]: https://hackerone.com/reports/2917232 
-│                       │     │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
-│                       │     ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
-│                       │     ╰ LastModifiedDate: 2025-02-06T15:15:16.967Z 
-│                       ├ [2] ╭ VulnerabilityID : CVE-2025-0665 
-│                       │     ├ PkgID           : curl@8.11.1-r1 
-│                       │     ├ PkgName         : curl 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.11.1-r1?arch=x86_64&distro=3.21.2 
-│                       │     │                  ╰ UID : 6c52f830beb86792 
-│                       │     ├ InstalledVersion: 8.11.1-r1 
-│                       │     ├ FixedVersion    : 8.12.0-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:b7c86ebb76aa8bdd49a8a4d536f4ab10e50bbe142b738
-│                       │     │                  │         12d976899e8ebe9a219 
-│                       │     │                  ╰ DiffID: sha256:168f992320b3845e76951172b665b6e70b5abe9f467dc
-│                       │     │                            1c572095750691bf607 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0665 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : libcurl would wrongly close the same eventfd file descriptor
-│                       │     │                   twice whe ... 
-│                       │     ├ Description     : libcurl would wrongly close the same eventfd file descriptor
-│                       │     │                   twice when taking
-│                       │     │                   down a connection channel after having completed a threaded
-│                       │     │                   name resolve. 
-│                       │     ├ Severity        : UNKNOWN 
-│                       │     ├ CweIDs           ─ [0]: CWE-1341 
-│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/2 
-│                       │     │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/05/5 
-│                       │     │                  ├ [2]: https://curl.se/docs/CVE-2025-0665.html 
-│                       │     │                  ├ [3]: https://curl.se/docs/CVE-2025-0665.json 
-│                       │     │                  ╰ [4]: https://hackerone.com/reports/2954286 
-│                       │     ├ PublishedDate   : 2025-02-05T10:15:22.857Z 
-│                       │     ╰ LastModifiedDate: 2025-02-05T20:15:45.31Z 
-│                       ├ [3] ╭ VulnerabilityID : CVE-2025-0725 
-│                       │     ├ PkgID           : libcurl@8.11.1-r1 
-│                       │     ├ PkgName         : libcurl 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.11.1-r1?arch=x86_64&distro=3.
-│                       │     │                  │       21.2 
-│                       │     │                  ╰ UID : e9ad8e93751a035c 
-│                       │     ├ InstalledVersion: 8.11.1-r1 
-│                       │     ├ FixedVersion    : 8.12.0-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:b7c86ebb76aa8bdd49a8a4d536f4ab10e50bbe142b738
-│                       │     │                  │         12d976899e8ebe9a219 
-│                       │     │                  ╰ DiffID: sha256:168f992320b3845e76951172b665b6e70b5abe9f467dc
-│                       │     │                            1c572095750691bf607 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0725 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : libcurl: Buffer Overflow in libcurl via zlib Integer Overflow 
-│                       │     ├ Description     : When libcurl is asked to perform automatic gzip decompression
-│                       │     │                    of
-│                       │     │                   content-encoded HTTP responses with the
-│                       │     │                   `CURLOPT_ACCEPT_ENCODING` option,
-│                       │     │                   **using zlib 1.2.0.3 or older**, an attacker-controlled
-│                       │     │                   integer overflow would
-│                       │     │                   make libcurl perform a buffer overflow. 
-│                       │     ├ Severity        : MEDIUM 
-│                       │     ├ VendorSeverity   ─ redhat: 1 
-│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/
-│                       │     │                           │           A:L 
-│                       │     │                           ╰ V3Score : 4 
-│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/3 
-│                       │     │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/06/2 
-│                       │     │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/02/06/4 
-│                       │     │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-0725 
-│                       │     │                  ├ [4]: https://curl.se/docs/CVE-2025-0725.html 
-│                       │     │                  ├ [5]: https://curl.se/docs/CVE-2025-0725.json 
-│                       │     │                  ├ [6]: https://hackerone.com/reports/2956023 
-│                       │     │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-0725 
-│                       │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0725 
-│                       │     ├ PublishedDate   : 2025-02-05T10:15:22.98Z 
-│                       │     ╰ LastModifiedDate: 2025-02-06T19:15:19.733Z 
-│                       ├ [4] ╭ VulnerabilityID : CVE-2025-0167 
-│                       │     ├ PkgID           : libcurl@8.11.1-r1 
-│                       │     ├ PkgName         : libcurl 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.11.1-r1?arch=x86_64&distro=3.
-│                       │     │                  │       21.2 
-│                       │     │                  ╰ UID : e9ad8e93751a035c 
-│                       │     ├ InstalledVersion: 8.11.1-r1 
-│                       │     ├ FixedVersion    : 8.12.0-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:b7c86ebb76aa8bdd49a8a4d536f4ab10e50bbe142b738
-│                       │     │                  │         12d976899e8ebe9a219 
-│                       │     │                  ╰ DiffID: sha256:168f992320b3845e76951172b665b6e70b5abe9f467dc
-│                       │     │                            1c572095750691bf607 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0167 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : When asked to use a `.netrc` file for credentials **and** to
-│                       │     │                   follow HT ... 
-│                       │     ├ Description     : When asked to use a `.netrc` file for credentials **and** to
-│                       │     │                   follow HTTP
-│                       │     │                   redirects, curl could leak the password used for the first
-│                       │     │                   host to the
-│                       │     │                   followed-to host under certain circumstances.
-│                       │     │                   
-│                       │     │                   This flaw only manifests itself if the netrc file has a
-│                       │     │                   `default` entry that
-│                       │     │                   omits both login and password. A rare circumstance. 
-│                       │     ├ Severity        : LOW 
-│                       │     ├ VendorSeverity   ─ ubuntu: 1 
-│                       │     ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
-│                       │     │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
-│                       │     │                  ├ [2]: https://hackerone.com/reports/2917232 
-│                       │     │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
-│                       │     ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
-│                       │     ╰ LastModifiedDate: 2025-02-06T15:15:16.967Z 
-│                       ├ [5] ╭ VulnerabilityID : CVE-2025-0665 
-│                       │     ├ PkgID           : libcurl@8.11.1-r1 
-│                       │     ├ PkgName         : libcurl 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.11.1-r1?arch=x86_64&distro=3.
-│                       │     │                  │       21.2 
-│                       │     │                  ╰ UID : e9ad8e93751a035c 
-│                       │     ├ InstalledVersion: 8.11.1-r1 
-│                       │     ├ FixedVersion    : 8.12.0-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:b7c86ebb76aa8bdd49a8a4d536f4ab10e50bbe142b738
-│                       │     │                  │         12d976899e8ebe9a219 
-│                       │     │                  ╰ DiffID: sha256:168f992320b3845e76951172b665b6e70b5abe9f467dc
-│                       │     │                            1c572095750691bf607 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0665 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : libcurl would wrongly close the same eventfd file descriptor
-│                       │     │                   twice whe ... 
-│                       │     ├ Description     : libcurl would wrongly close the same eventfd file descriptor
-│                       │     │                   twice when taking
-│                       │     │                   down a connection channel after having completed a threaded
-│                       │     │                   name resolve. 
-│                       │     ├ Severity        : UNKNOWN 
-│                       │     ├ CweIDs           ─ [0]: CWE-1341 
-│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/2 
-│                       │     │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/05/5 
-│                       │     │                  ├ [2]: https://curl.se/docs/CVE-2025-0665.html 
-│                       │     │                  ├ [3]: https://curl.se/docs/CVE-2025-0665.json 
-│                       │     │                  ╰ [4]: https://hackerone.com/reports/2954286 
-│                       │     ├ PublishedDate   : 2025-02-05T10:15:22.857Z 
-│                       │     ╰ LastModifiedDate: 2025-02-05T20:15:45.31Z 
-│                       ├ [6] ╭ VulnerabilityID : CVE-2025-26519 
+│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2025-26519 
 │                       │     ├ PkgID           : musl@1.2.5-r8 
 │                       │     ├ PkgName         : musl 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl@1.2.5-r8?arch=x86_64&distro=3.21.2 
@@ -225,15 +10,15 @@
 │                       │     ├ InstalledVersion: 1.2.5-r8 
 │                       │     ├ FixedVersion    : 1.2.5-r9 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:b7c86ebb76aa8bdd49a8a4d536f4ab10e50bbe142b738
-│                       │     │                  │         12d976899e8ebe9a219 
-│                       │     │                  ╰ DiffID: sha256:168f992320b3845e76951172b665b6e70b5abe9f467dc
-│                       │     │                            1c572095750691bf607 
+│                       │     ├ Layer            ╭ Digest: sha256:a199a5419b01e256684baeef17e0ca0a43e34b4e9d0dd
+│                       │     │                  │         776b36c1f5af16249e3 
+│                       │     │                  ╰ DiffID: sha256:a219b51eca5899fc49c33ae7583285fabdbd97cdb7672
+│                       │     │                            ffa6a1a71df2527df2f 
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │     ╰ Severity        : UNKNOWN 
-│                       ╰ [7] ╭ VulnerabilityID : CVE-2025-26519 
+│                       ╰ [1] ╭ VulnerabilityID : CVE-2025-26519 
 │                             ├ PkgID           : musl-utils@1.2.5-r8 
 │                             ├ PkgName         : musl-utils 
 │                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl-utils@1.2.5-r8?arch=x86_64&distro=
@@ -242,10 +27,10 @@
 │                             ├ InstalledVersion: 1.2.5-r8 
 │                             ├ FixedVersion    : 1.2.5-r9 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:b7c86ebb76aa8bdd49a8a4d536f4ab10e50bbe142b738
-│                             │                  │         12d976899e8ebe9a219 
-│                             │                  ╰ DiffID: sha256:168f992320b3845e76951172b665b6e70b5abe9f467dc
-│                             │                            1c572095750691bf607 
+│                             ├ Layer            ╭ Digest: sha256:a199a5419b01e256684baeef17e0ca0a43e34b4e9d0dd
+│                             │                  │         776b36c1f5af16249e3 
+│                             │                  ╰ DiffID: sha256:a219b51eca5899fc49c33ae7583285fabdbd97cdb7672
+│                             │                            ffa6a1a71df2527df2f 
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
