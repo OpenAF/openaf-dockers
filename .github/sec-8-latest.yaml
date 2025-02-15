@@ -151,6 +151,7 @@
       make libcurl perform a buffer overflow.
     Severity: MEDIUM
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 1
     CVSS:
       redhat:
@@ -595,6 +596,7 @@
       make libcurl perform a buffer overflow.
     Severity: MEDIUM
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 1
     CVSS:
       redhat:
@@ -994,11 +996,28 @@
     Layer:
       Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee2801b3e28133325c482b
       DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed28ea1250ef005595c5f9
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-26519
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Title: musl libc 0.9.13 through 1.2.5 before 1.2.6 has an out-of-bounds write ...
+    Description: musl libc 0.9.13 through 1.2.5 before 1.2.6 has an out-of-bounds write vulnerability when an attacker can trigger iconv conversion of untrusted EUC-KR text to UTF-8.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-787
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/02/13/2
+    - http://www.openwall.com/lists/oss-security/2025/02/13/3
+    - http://www.openwall.com/lists/oss-security/2025/02/13/4
+    - http://www.openwall.com/lists/oss-security/2025/02/13/5
+    - http://www.openwall.com/lists/oss-security/2025/02/14/5
+    - http://www.openwall.com/lists/oss-security/2025/02/14/6
+    - https://git.musl-libc.org/cgit/musl/commit/?id=c47ad25ea3b484e10326f933e927c0bc8cded3da
+    - https://git.musl-libc.org/cgit/musl/commit/?id=e5adcd97b5196e29991b524237381a0202a60659
+    - https://www.openwall.com/lists/oss-security/2025/02/13/2
+    PublishedDate: '2025-02-14T04:15:09.05Z'
+    LastModifiedDate: '2025-02-14T17:15:23.09Z'
   - VulnerabilityID: CVE-2025-26519
     PkgID: musl-utils@1.2.5-r0
     PkgName: musl-utils
@@ -1011,11 +1030,28 @@
     Layer:
       Digest: sha256:b1f4bc594d61f8bac28325b4a3ba24e1ffdc31d557ee2801b3e28133325c482b
       DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed28ea1250ef005595c5f9
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-26519
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Title: musl libc 0.9.13 through 1.2.5 before 1.2.6 has an out-of-bounds write ...
+    Description: musl libc 0.9.13 through 1.2.5 before 1.2.6 has an out-of-bounds write vulnerability when an attacker can trigger iconv conversion of untrusted EUC-KR text to UTF-8.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-787
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/02/13/2
+    - http://www.openwall.com/lists/oss-security/2025/02/13/3
+    - http://www.openwall.com/lists/oss-security/2025/02/13/4
+    - http://www.openwall.com/lists/oss-security/2025/02/13/5
+    - http://www.openwall.com/lists/oss-security/2025/02/14/5
+    - http://www.openwall.com/lists/oss-security/2025/02/14/6
+    - https://git.musl-libc.org/cgit/musl/commit/?id=c47ad25ea3b484e10326f933e927c0bc8cded3da
+    - https://git.musl-libc.org/cgit/musl/commit/?id=e5adcd97b5196e29991b524237381a0202a60659
+    - https://www.openwall.com/lists/oss-security/2025/02/13/2
+    PublishedDate: '2025-02-14T04:15:09.05Z'
+    LastModifiedDate: '2025-02-14T17:15:23.09Z'
   - VulnerabilityID: CVE-2024-21147
     PkgID: openjdk8-jre@8.402.06-r0
     PkgName: openjdk8-jre
