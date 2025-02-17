@@ -159,7 +159,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-401 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
@@ -489,7 +489,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-401 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
@@ -660,7 +660,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-401 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
@@ -831,7 +831,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-401 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
@@ -1002,7 +1002,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-401 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
