@@ -85,6 +85,7 @@
     - CWE-334
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1936,8 +1937,8 @@
       ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
-        V3Score: 8.1
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
+        V3Score: 5.9
     References:
     - https://access.redhat.com/errata/RHSA-2025:1350
     - https://access.redhat.com/security/cve/CVE-2022-49043
@@ -3032,10 +3033,11 @@
     - https://linux.oracle.com/errata/ELSA-2025-1330.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12797
     - https://openssl-library.org/news/secadv/20250211.txt
+    - https://security.netapp.com/advisory/ntap-20250214-0001/
     - https://ubuntu.com/security/notices/USN-7264-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12797
     PublishedDate: '2025-02-11T16:15:38.827Z'
-    LastModifiedDate: '2025-02-11T23:15:08.807Z'
+    LastModifiedDate: '2025-02-15T01:15:10.25Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl@3.2.2-6.el9_5.x86_64
     PkgName: openssl
@@ -3201,10 +3203,11 @@
     - https://linux.oracle.com/errata/ELSA-2025-1330.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12797
     - https://openssl-library.org/news/secadv/20250211.txt
+    - https://security.netapp.com/advisory/ntap-20250214-0001/
     - https://ubuntu.com/security/notices/USN-7264-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12797
     PublishedDate: '2025-02-11T16:15:38.827Z'
-    LastModifiedDate: '2025-02-11T23:15:08.807Z'
+    LastModifiedDate: '2025-02-15T01:15:10.25Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl-libs@3.2.2-6.el9_5.x86_64
     PkgName: openssl-libs
