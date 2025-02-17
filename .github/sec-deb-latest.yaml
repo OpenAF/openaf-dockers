@@ -157,7 +157,7 @@
     VendorSeverity:
       alma: 2
       amazon: 2
-      azure: 3
+      azure: 2
       nvd: 2
       oracle-oval: 2
       photon: 2
@@ -481,7 +481,7 @@
     VendorSeverity:
       alma: 2
       amazon: 2
-      azure: 3
+      azure: 2
       nvd: 2
       oracle-oval: 2
       photon: 2
@@ -647,7 +647,7 @@
     VendorSeverity:
       alma: 2
       amazon: 2
-      azure: 3
+      azure: 2
       nvd: 2
       oracle-oval: 2
       photon: 2
@@ -813,7 +813,7 @@
     VendorSeverity:
       alma: 2
       amazon: 2
-      azure: 3
+      azure: 2
       nvd: 2
       oracle-oval: 2
       photon: 2
@@ -979,7 +979,7 @@
     VendorSeverity:
       alma: 2
       amazon: 2
-      azure: 3
+      azure: 2
       nvd: 2
       oracle-oval: 2
       photon: 2
