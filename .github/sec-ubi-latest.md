@@ -92,9 +92,10 @@
 │                       │      │                   attackers to guess transaction IDs. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-334 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -2539,9 +2540,9 @@
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N
 │                       │      │                           │           /A:H 
-│                       │      │                           ╰ V3Score : 8.1 
+│                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:1350 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-49043 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2342118 
@@ -3773,10 +3774,12 @@
 │                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-1330.html 
 │                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-12797 
 │                       │      │                  ├ [14]: https://openssl-library.org/news/secadv/20250211.txt 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7264-1 
-│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
+│                       │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20250214-00
+│                       │      │                  │       01/ 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7264-1 
+│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
 │                       │      ├ PublishedDate   : 2025-02-11T16:15:38.827Z 
-│                       │      ╰ LastModifiedDate: 2025-02-11T23:15:08.807Z 
+│                       │      ╰ LastModifiedDate: 2025-02-15T01:15:10.25Z 
 │                       ├ [58] ╭ VulnerabilityID : CVE-2024-13176 
 │                       │      ├ PkgID           : openssl@3.2.2-6.el9_5.x86_64 
 │                       │      ├ PkgName         : openssl 
@@ -3976,10 +3979,12 @@
 │                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-1330.html 
 │                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-12797 
 │                       │      │                  ├ [14]: https://openssl-library.org/news/secadv/20250211.txt 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7264-1 
-│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
+│                       │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20250214-00
+│                       │      │                  │       01/ 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7264-1 
+│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
 │                       │      ├ PublishedDate   : 2025-02-11T16:15:38.827Z 
-│                       │      ╰ LastModifiedDate: 2025-02-11T23:15:08.807Z 
+│                       │      ╰ LastModifiedDate: 2025-02-15T01:15:10.25Z 
 │                       ├ [61] ╭ VulnerabilityID : CVE-2024-13176 
 │                       │      ├ PkgID           : openssl-libs@3.2.2-6.el9_5.x86_64 
 │                       │      ├ PkgName         : openssl-libs 
