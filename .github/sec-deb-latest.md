@@ -156,14 +156,19 @@
 │                       │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
 │                       │      │                   vulnerability in /krb5/src/kdc/ndr.c. 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-401 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:9331 
@@ -183,7 +188,7 @@
 │                       │      │                  │       12/ 
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T09:02:27.01Z 
+│                       │      ╰ LastModifiedDate: 2025-02-14T17:29:03.303Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2024-26458 
 │                       │      ├ PkgID           : krb5-locales@1.20.1-6ubuntu2.3 
 │                       │      ├ PkgName         : krb5-locales 
@@ -373,7 +378,48 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2016-20013 
 │                       │      ├ PublishedDate   : 2022-02-19T05:15:09.413Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T02:47:33.427Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-0167 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-1390 
+│                       │      ├ PkgID           : libcap2@1:2.66-5ubuntu2.1 
+│                       │      ├ PkgName         : libcap2 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcap2@2.66-5ubuntu2.1?arch=amd64&dis
+│                       │      │                  │       tro=ubuntu-24.04&epoch=1 
+│                       │      │                  ╰ UID : 4c75c706fa9a02ae 
+│                       │      ├ InstalledVersion: 1:2.66-5ubuntu2.1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:5ff5d08da5bf60f8760821b774b770ecebdf393a97f1
+│                       │      │                  │         bed6cb66c59bcddea2db 
+│                       │      │                  ╰ DiffID: sha256:10789cc6d7ed419b0038fcdab1d626339bd22f602022
+│                       │      │                            a4d3659f4ea10bb62b4c 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1390 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : libcap: pam_cap: Fix potential configuration parsing error 
+│                       │      ├ Description     : The PAM module pam_cap.so of libcap configuration supports
+│                       │      │                   group names starting with “@”, during actual parsing,
+│                       │      │                   configurations not starting with “@” are incorrectly
+│                       │      │                   recognized as group names. This may result in nonintended
+│                       │      │                   users being granted an inherited capability set, potentially
+│                       │      │                    leading to security risks. Attackers can exploit this
+│                       │      │                   vulnerability to achieve local privilege escalation on
+│                       │      │                   systems where /etc/security/capability.conf is used to
+│                       │      │                   configure user inherited privileges by constructing specific
+│                       │      │                    usernames. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 6.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1390 
+│                       │      │                  ├ [1]: https://bugzilla.openanolis.cn/show_bug.cgi?id=18804 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-1390 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-1390 
+│                       │      ├ PublishedDate   : 2025-02-18T03:15:10.447Z 
+│                       │      ╰ LastModifiedDate: 2025-02-18T03:15:10.447Z 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-0167 
 │                       │      ├ PkgID           : libcurl4t64@8.5.0-2ubuntu10.6 
 │                       │      ├ PkgName         : libcurl4t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.5.0-2ubuntu10.6?arch=amd
@@ -409,7 +455,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
 │                       │      ╰ LastModifiedDate: 2025-02-06T15:15:16.967Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2024-2236 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2024-2236 
 │                       │      ├ PkgID           : libgcrypt20@1.10.3-2build1 
 │                       │      ├ PkgName         : libgcrypt20 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcrypt20@1.10.3-2build1?arch=amd64&
@@ -460,7 +506,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                       │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T09:09:19.41Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2024-26462 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2024-26462 
 │                       │      ├ PkgID           : libgssapi-krb5-2@1.20.1-6ubuntu2.3 
 │                       │      ├ PkgName         : libgssapi-krb5-2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.20.1-6ubuntu2.3?arc
@@ -481,14 +527,19 @@
 │                       │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
 │                       │      │                   vulnerability in /krb5/src/kdc/ndr.c. 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-401 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:9331 
@@ -508,8 +559,8 @@
 │                       │      │                  │       12/ 
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T09:02:27.01Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2024-26458 
+│                       │      ╰ LastModifiedDate: 2025-02-14T17:29:03.303Z 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2024-26458 
 │                       │      ├ PkgID           : libgssapi-krb5-2@1.20.1-6ubuntu2.3 
 │                       │      ├ PkgName         : libgssapi-krb5-2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.20.1-6ubuntu2.3?arc
@@ -567,7 +618,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                       │      ╰ LastModifiedDate: 2024-12-06T21:15:06.28Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2024-26461 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2024-26461 
 │                       │      ├ PkgID           : libgssapi-krb5-2@1.20.1-6ubuntu2.3 
 │                       │      ├ PkgName         : libgssapi-krb5-2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.20.1-6ubuntu2.3?arc
@@ -626,7 +677,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T09:02:26.477Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2024-26462 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2024-26462 
 │                       │      ├ PkgID           : libk5crypto3@1.20.1-6ubuntu2.3 
 │                       │      ├ PkgName         : libk5crypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.20.1-6ubuntu2.3?arch=am
@@ -647,14 +698,19 @@
 │                       │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
 │                       │      │                   vulnerability in /krb5/src/kdc/ndr.c. 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-401 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:9331 
@@ -674,8 +730,8 @@
 │                       │      │                  │       12/ 
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T09:02:27.01Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2024-26458 
+│                       │      ╰ LastModifiedDate: 2025-02-14T17:29:03.303Z 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2024-26458 
 │                       │      ├ PkgID           : libk5crypto3@1.20.1-6ubuntu2.3 
 │                       │      ├ PkgName         : libk5crypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.20.1-6ubuntu2.3?arch=am
@@ -733,7 +789,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                       │      ╰ LastModifiedDate: 2024-12-06T21:15:06.28Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2024-26461 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2024-26461 
 │                       │      ├ PkgID           : libk5crypto3@1.20.1-6ubuntu2.3 
 │                       │      ├ PkgName         : libk5crypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.20.1-6ubuntu2.3?arch=am
@@ -792,7 +848,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T09:02:26.477Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2024-26462 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2024-26462 
 │                       │      ├ PkgID           : libkrb5-3@1.20.1-6ubuntu2.3 
 │                       │      ├ PkgName         : libkrb5-3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.20.1-6ubuntu2.3?arch=amd64
@@ -813,14 +869,19 @@
 │                       │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
 │                       │      │                   vulnerability in /krb5/src/kdc/ndr.c. 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-401 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:9331 
@@ -840,8 +901,8 @@
 │                       │      │                  │       12/ 
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T09:02:27.01Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2024-26458 
+│                       │      ╰ LastModifiedDate: 2025-02-14T17:29:03.303Z 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2024-26458 
 │                       │      ├ PkgID           : libkrb5-3@1.20.1-6ubuntu2.3 
 │                       │      ├ PkgName         : libkrb5-3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.20.1-6ubuntu2.3?arch=amd64
@@ -899,7 +960,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                       │      ╰ LastModifiedDate: 2024-12-06T21:15:06.28Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2024-26461 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2024-26461 
 │                       │      ├ PkgID           : libkrb5-3@1.20.1-6ubuntu2.3 
 │                       │      ├ PkgName         : libkrb5-3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.20.1-6ubuntu2.3?arch=amd64
@@ -958,7 +1019,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T09:02:26.477Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2024-26462 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2024-26462 
 │                       │      ├ PkgID           : libkrb5support0@1.20.1-6ubuntu2.3 
 │                       │      ├ PkgName         : libkrb5support0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.20.1-6ubuntu2.3?arch
@@ -979,14 +1040,19 @@
 │                       │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
 │                       │      │                   vulnerability in /krb5/src/kdc/ndr.c. 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-401 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ nvd        : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:9331 
@@ -1006,8 +1072,8 @@
 │                       │      │                  │       12/ 
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T09:02:27.01Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2024-26458 
+│                       │      ╰ LastModifiedDate: 2025-02-14T17:29:03.303Z 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2024-26458 
 │                       │      ├ PkgID           : libkrb5support0@1.20.1-6ubuntu2.3 
 │                       │      ├ PkgName         : libkrb5support0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.20.1-6ubuntu2.3?arch
@@ -1065,7 +1131,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                       │      ╰ LastModifiedDate: 2024-12-06T21:15:06.28Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2024-26461 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2024-26461 
 │                       │      ├ PkgID           : libkrb5support0@1.20.1-6ubuntu2.3 
 │                       │      ├ PkgName         : libkrb5support0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.20.1-6ubuntu2.3?arch
@@ -1124,7 +1190,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T09:02:26.477Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2024-10041 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2024-10041 
 │                       │      ├ PkgID           : libpam-modules@1.5.3-5ubuntu5.1 
 │                       │      ├ PkgName         : libpam-modules 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-5ubuntu5.1?arch=a
@@ -1179,7 +1245,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                       │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                       │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2024-10963 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2024-10963 
 │                       │      ├ PkgID           : libpam-modules@1.5.3-5ubuntu5.1 
 │                       │      ├ PkgName         : libpam-modules 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-5ubuntu5.1?arch=a
@@ -1238,7 +1304,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2024-10041 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2024-10041 
 │                       │      ├ PkgID           : libpam-modules-bin@1.5.3-5ubuntu5.1 
 │                       │      ├ PkgName         : libpam-modules-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-5ubuntu5.1?ar
@@ -1293,7 +1359,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                       │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                       │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2024-10963 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2024-10963 
 │                       │      ├ PkgID           : libpam-modules-bin@1.5.3-5ubuntu5.1 
 │                       │      ├ PkgName         : libpam-modules-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-5ubuntu5.1?ar
@@ -1352,7 +1418,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2024-10041 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2024-10041 
 │                       │      ├ PkgID           : libpam-runtime@1.5.3-5ubuntu5.1 
 │                       │      ├ PkgName         : libpam-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-5ubuntu5.1?arch=a
@@ -1407,7 +1473,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                       │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                       │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2024-10963 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2024-10963 
 │                       │      ├ PkgID           : libpam-runtime@1.5.3-5ubuntu5.1 
 │                       │      ├ PkgName         : libpam-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-5ubuntu5.1?arch=a
@@ -1466,7 +1532,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2024-10041 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2024-10041 
 │                       │      ├ PkgID           : libpam0g@1.5.3-5ubuntu5.1 
 │                       │      ├ PkgName         : libpam0g 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.5.3-5ubuntu5.1?arch=amd64&d
@@ -1521,7 +1587,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                       │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                       │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2024-10963 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2024-10963 
 │                       │      ├ PkgID           : libpam0g@1.5.3-5ubuntu5.1 
 │                       │      ├ PkgName         : libpam0g 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.5.3-5ubuntu5.1?arch=amd64&d
@@ -1580,7 +1646,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2024-41996 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2024-41996 
 │                       │      ├ PkgID           : libssl3t64@3.0.13-0ubuntu3.4 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.4?arch=amd6
@@ -1630,7 +1696,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                       │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                       │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login@1:4.13+dfsg1-4ubuntu3.2 
 │                       │      ├ PkgName         : login 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.13%2Bdfsg1-4ubuntu3.2?arch=amd
@@ -1677,7 +1743,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2024-41996 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2024-41996 
 │                       │      ├ PkgID           : openssl@3.0.13-0ubuntu3.4 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.4?arch=amd64&d
@@ -1727,7 +1793,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-41996 
 │                       │      ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                       │      ╰ LastModifiedDate: 2024-08-26T16:35:11.247Z 
-│                       ╰ [33] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ╰ [34] ╭ VulnerabilityID : CVE-2024-56433 
 │                              ├ PkgID           : passwd@1:4.13+dfsg1-4ubuntu3.2 
 │                              ├ PkgName         : passwd 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.13%2Bdfsg1-4ubuntu3.2?arch=am
