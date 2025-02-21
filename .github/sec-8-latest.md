@@ -159,7 +159,9 @@
 │                       │      │                   integer overflow would
 │                       │      │                   make libcurl perform a buffer overflow. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ╰ redhat     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4 
@@ -232,14 +234,13 @@
 │                       │      │                   down a connection channel after having completed a threaded
 │                       │      │                   name resolve. 
 │                       │      ├ Severity        : UNKNOWN 
-│                       │      ├ CweIDs           ─ [0]: CWE-1341 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/2 
 │                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/05/5 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-0665.html 
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-0665.json 
 │                       │      │                  ╰ [4]: https://hackerone.com/reports/2954286 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.857Z 
-│                       │      ╰ LastModifiedDate: 2025-02-05T20:15:45.31Z 
+│                       │      ╰ LastModifiedDate: 2025-02-18T19:15:23.28Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2024-12797 
 │                       │      ├ PkgID           : libcrypto3@3.3.2-r0 
 │                       │      ├ PkgName         : libcrypto3 
@@ -322,10 +323,12 @@
 │                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-1330.html 
 │                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-12797 
 │                       │      │                  ├ [14]: https://openssl-library.org/news/secadv/20250211.txt 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7264-1 
-│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
+│                       │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20250214-00
+│                       │      │                  │       01/ 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7264-1 
+│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
 │                       │      ├ PublishedDate   : 2025-02-11T16:15:38.827Z 
-│                       │      ╰ LastModifiedDate: 2025-02-11T23:15:08.807Z 
+│                       │      ╰ LastModifiedDate: 2025-02-18T14:15:27.107Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2024-13176 
 │                       │      ├ PkgID           : libcrypto3@3.3.2-r0 
 │                       │      ├ PkgName         : libcrypto3 
@@ -651,7 +654,9 @@
 │                       │      │                   integer overflow would
 │                       │      │                   make libcurl perform a buffer overflow. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ╰ redhat     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4 
@@ -726,14 +731,13 @@
 │                       │      │                   down a connection channel after having completed a threaded
 │                       │      │                   name resolve. 
 │                       │      ├ Severity        : UNKNOWN 
-│                       │      ├ CweIDs           ─ [0]: CWE-1341 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/2 
 │                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/05/5 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-0665.html 
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-0665.json 
 │                       │      │                  ╰ [4]: https://hackerone.com/reports/2954286 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.857Z 
-│                       │      ╰ LastModifiedDate: 2025-02-05T20:15:45.31Z 
+│                       │      ╰ LastModifiedDate: 2025-02-18T19:15:23.28Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2024-50602 
 │                       │      ├ PkgID           : libexpat@2.6.3-r0 
 │                       │      ├ PkgName         : libexpat 
@@ -870,10 +874,12 @@
 │                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-1330.html 
 │                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-12797 
 │                       │      │                  ├ [14]: https://openssl-library.org/news/secadv/20250211.txt 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7264-1 
-│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
+│                       │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20250214-00
+│                       │      │                  │       01/ 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7264-1 
+│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
 │                       │      ├ PublishedDate   : 2025-02-11T16:15:38.827Z 
-│                       │      ╰ LastModifiedDate: 2025-02-11T23:15:08.807Z 
+│                       │      ╰ LastModifiedDate: 2025-02-18T14:15:27.107Z 
 │                       ├ [15] ╭ VulnerabilityID : CVE-2024-13176 
 │                       │      ├ PkgID           : libssl3@3.3.2-r0 
 │                       │      ├ PkgName         : libssl3 
@@ -1066,16 +1072,21 @@
 │                       │      │                   causing a denial of service attack. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-407 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/06/6 
 │                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-12133 
 │                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2344611 
-│                       │      │                  ├ [3]: https://gitlab.com/gnutls/libtasn1/-/issues/52 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-12133 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-12133 
+│                       │      │                  ├ [3]: https://gitlab.com/gnutls/libtasn1/-/blob/master/doc/s
+│                       │      │                  │      ecurity/CVE-2024-12133.md?ref_type=heads 
+│                       │      │                  ├ [4]: https://gitlab.com/gnutls/libtasn1/-/issues/52 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-12133 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7275-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-12133 
 │                       │      ├ PublishedDate   : 2025-02-10T16:15:37.26Z 
 │                       │      ╰ LastModifiedDate: 2025-02-10T16:15:37.26Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2025-26519 
@@ -1090,10 +1101,30 @@
 │                       │      │                  │         2801b3e28133325c482b 
 │                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
 │                       │      │                            28ea1250ef005595c5f9 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26519 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ╰ Severity        : UNKNOWN 
+│                       │      ├ Title           : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
+│                       │      │                   out-of-bounds write ... 
+│                       │      ├ Description     : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
+│                       │      │                   out-of-bounds write vulnerability when an attacker can
+│                       │      │                   trigger iconv conversion of untrusted EUC-KR text to UTF-8. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-787 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/13/2 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/13/3 
+│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/02/13/4 
+│                       │      │                  ├ [3]: http://www.openwall.com/lists/oss-security/2025/02/13/5 
+│                       │      │                  ├ [4]: http://www.openwall.com/lists/oss-security/2025/02/14/5 
+│                       │      │                  ├ [5]: http://www.openwall.com/lists/oss-security/2025/02/14/6 
+│                       │      │                  ├ [6]: https://git.musl-libc.org/cgit/musl/commit/?id=c47ad25
+│                       │      │                  │      ea3b484e10326f933e927c0bc8cded3da 
+│                       │      │                  ├ [7]: https://git.musl-libc.org/cgit/musl/commit/?id=e5adcd9
+│                       │      │                  │      7b5196e29991b524237381a0202a60659 
+│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/02/13/2 
+│                       │      ├ PublishedDate   : 2025-02-14T04:15:09.05Z 
+│                       │      ╰ LastModifiedDate: 2025-02-14T17:15:23.09Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2025-26519 
 │                       │      ├ PkgID           : musl-utils@1.2.5-r0 
 │                       │      ├ PkgName         : musl-utils 
@@ -1107,10 +1138,30 @@
 │                       │      │                  │         2801b3e28133325c482b 
 │                       │      │                  ╰ DiffID: sha256:8cd304aad7f5e6704c8926ba33357a932f26ae5516ed
 │                       │      │                            28ea1250ef005595c5f9 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26519 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ╰ Severity        : UNKNOWN 
+│                       │      ├ Title           : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
+│                       │      │                   out-of-bounds write ... 
+│                       │      ├ Description     : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
+│                       │      │                   out-of-bounds write vulnerability when an attacker can
+│                       │      │                   trigger iconv conversion of untrusted EUC-KR text to UTF-8. 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-787 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/13/2 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/13/3 
+│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/02/13/4 
+│                       │      │                  ├ [3]: http://www.openwall.com/lists/oss-security/2025/02/13/5 
+│                       │      │                  ├ [4]: http://www.openwall.com/lists/oss-security/2025/02/14/5 
+│                       │      │                  ├ [5]: http://www.openwall.com/lists/oss-security/2025/02/14/6 
+│                       │      │                  ├ [6]: https://git.musl-libc.org/cgit/musl/commit/?id=c47ad25
+│                       │      │                  │      ea3b484e10326f933e927c0bc8cded3da 
+│                       │      │                  ├ [7]: https://git.musl-libc.org/cgit/musl/commit/?id=e5adcd9
+│                       │      │                  │      7b5196e29991b524237381a0202a60659 
+│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/02/13/2 
+│                       │      ├ PublishedDate   : 2025-02-14T04:15:09.05Z 
+│                       │      ╰ LastModifiedDate: 2025-02-14T17:15:23.09Z 
 │                       ├ [20] ╭ VulnerabilityID : CVE-2024-21147 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
@@ -4943,10 +4994,12 @@
 │                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2025-1330.html 
 │                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-12797 
 │                       │      │                  ├ [14]: https://openssl-library.org/news/secadv/20250211.txt 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7264-1 
-│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
+│                       │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20250214-00
+│                       │      │                  │       01/ 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7264-1 
+│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-12797 
 │                       │      ├ PublishedDate   : 2025-02-11T16:15:38.827Z 
-│                       │      ╰ LastModifiedDate: 2025-02-11T23:15:08.807Z 
+│                       │      ╰ LastModifiedDate: 2025-02-18T14:15:27.107Z 
 │                       ├ [63] ╭ VulnerabilityID : CVE-2024-13176 
 │                       │      ├ PkgID           : openssl@3.3.2-r0 
 │                       │      ├ PkgName         : openssl 
