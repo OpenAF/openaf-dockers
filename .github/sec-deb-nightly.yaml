@@ -11,8 +11,8 @@
     InstalledVersion: 9.4-3ubuntu6
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-2781
     DataSource:
@@ -62,8 +62,8 @@
     InstalledVersion: 8.5.0-2ubuntu10.6
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0167
     DataSource:
@@ -97,8 +97,8 @@
     InstalledVersion: 2.4.4-2ubuntu17
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -141,8 +141,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26462
     DataSource:
@@ -152,15 +152,21 @@
     Title: 'krb5: Memory leak at /krb5/src/kdc/ndr.c'
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/kdc/ndr.c.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-401
     VendorSeverity:
       alma: 2
       amazon: 2
-      azure: 3
+      azure: 2
+      nvd: 2
       oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -179,7 +185,7 @@
     - https://security.netapp.com/advisory/ntap-20240415-0012/
     - https://www.cve.org/CVERecord?id=CVE-2024-26462
     PublishedDate: '2024-02-29T01:44:18.857Z'
-    LastModifiedDate: '2024-11-21T09:02:27.01Z'
+    LastModifiedDate: '2025-02-14T17:29:03.303Z'
   - VulnerabilityID: CVE-2024-26458
     PkgID: krb5-locales@1.20.1-6ubuntu2.4
     PkgName: krb5-locales
@@ -189,8 +195,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26458
     DataSource:
@@ -244,8 +250,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26461
     DataSource:
@@ -301,8 +307,8 @@
     InstalledVersion: 2.39-0ubuntu8.4
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -338,8 +344,8 @@
     InstalledVersion: 2.39-0ubuntu8.4
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -366,17 +372,53 @@
     - https://www.cve.org/CVERecord?id=CVE-2016-20013
     PublishedDate: '2022-02-19T05:15:09.413Z'
     LastModifiedDate: '2024-11-21T02:47:33.427Z'
+  - VulnerabilityID: CVE-2025-1390
+    PkgID: libcap2@1:2.66-5ubuntu2.1
+    PkgName: libcap2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcap2@2.66-5ubuntu2.1?arch=amd64&distro=ubuntu-24.04&epoch=1
+      UID: 4c75c706fa9a02ae
+    InstalledVersion: 1:2.66-5ubuntu2.1
+    Status: affected
+    Layer:
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1390
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libcap: pam_cap: Fix potential configuration parsing error'
+    Description: The PAM module pam_cap.so of libcap configuration supports group names starting with “@”, during actual parsing, configurations not starting with “@” are incorrectly recognized as group names. This may result in nonintended users being granted an inherited capability set, potentially leading to security risks. Attackers can exploit this vulnerability to achieve local privilege escalation on systems where /etc/security/capability.conf is used to configure user inherited privileges by constructing specific usernames.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-284
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-1390
+    - https://bugzilla.openanolis.cn/show_bug.cgi?id=18804
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-1390
+    - https://www.cve.org/CVERecord?id=CVE-2025-1390
+    PublishedDate: '2025-02-18T03:15:10.447Z'
+    LastModifiedDate: '2025-02-18T03:15:10.447Z'
   - VulnerabilityID: CVE-2025-0167
     PkgID: libcurl4t64@8.5.0-2ubuntu10.6
     PkgName: libcurl4t64
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libcurl4t64@8.5.0-2ubuntu10.6?arch=amd64&distro=ubuntu-24.04
-      UID: d38f9103acac3cad
+      UID: 1affc7d07a525f4a
     InstalledVersion: 8.5.0-2ubuntu10.6
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0167
     DataSource:
@@ -410,8 +452,8 @@
     InstalledVersion: 1.10.3-2build1
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2236
     DataSource:
@@ -459,8 +501,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26462
     DataSource:
@@ -470,15 +512,21 @@
     Title: 'krb5: Memory leak at /krb5/src/kdc/ndr.c'
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/kdc/ndr.c.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-401
     VendorSeverity:
       alma: 2
       amazon: 2
-      azure: 3
+      azure: 2
+      nvd: 2
       oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -497,7 +545,7 @@
     - https://security.netapp.com/advisory/ntap-20240415-0012/
     - https://www.cve.org/CVERecord?id=CVE-2024-26462
     PublishedDate: '2024-02-29T01:44:18.857Z'
-    LastModifiedDate: '2024-11-21T09:02:27.01Z'
+    LastModifiedDate: '2025-02-14T17:29:03.303Z'
   - VulnerabilityID: CVE-2024-26458
     PkgID: libgssapi-krb5-2@1.20.1-6ubuntu2.4
     PkgName: libgssapi-krb5-2
@@ -507,8 +555,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26458
     DataSource:
@@ -562,8 +610,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26461
     DataSource:
@@ -619,8 +667,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26462
     DataSource:
@@ -630,15 +678,21 @@
     Title: 'krb5: Memory leak at /krb5/src/kdc/ndr.c'
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/kdc/ndr.c.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-401
     VendorSeverity:
       alma: 2
       amazon: 2
-      azure: 3
+      azure: 2
+      nvd: 2
       oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -657,7 +711,7 @@
     - https://security.netapp.com/advisory/ntap-20240415-0012/
     - https://www.cve.org/CVERecord?id=CVE-2024-26462
     PublishedDate: '2024-02-29T01:44:18.857Z'
-    LastModifiedDate: '2024-11-21T09:02:27.01Z'
+    LastModifiedDate: '2025-02-14T17:29:03.303Z'
   - VulnerabilityID: CVE-2024-26458
     PkgID: libk5crypto3@1.20.1-6ubuntu2.4
     PkgName: libk5crypto3
@@ -667,8 +721,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26458
     DataSource:
@@ -722,8 +776,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26461
     DataSource:
@@ -775,12 +829,12 @@
     PkgName: libkrb5-3
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libkrb5-3@1.20.1-6ubuntu2.4?arch=amd64&distro=ubuntu-24.04
-      UID: 7a7ddf77550995d
+      UID: d65342dbe27c8452
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26462
     DataSource:
@@ -790,15 +844,21 @@
     Title: 'krb5: Memory leak at /krb5/src/kdc/ndr.c'
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/kdc/ndr.c.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-401
     VendorSeverity:
       alma: 2
       amazon: 2
-      azure: 3
+      azure: 2
+      nvd: 2
       oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -817,18 +877,18 @@
     - https://security.netapp.com/advisory/ntap-20240415-0012/
     - https://www.cve.org/CVERecord?id=CVE-2024-26462
     PublishedDate: '2024-02-29T01:44:18.857Z'
-    LastModifiedDate: '2024-11-21T09:02:27.01Z'
+    LastModifiedDate: '2025-02-14T17:29:03.303Z'
   - VulnerabilityID: CVE-2024-26458
     PkgID: libkrb5-3@1.20.1-6ubuntu2.4
     PkgName: libkrb5-3
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libkrb5-3@1.20.1-6ubuntu2.4?arch=amd64&distro=ubuntu-24.04
-      UID: 7a7ddf77550995d
+      UID: d65342dbe27c8452
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26458
     DataSource:
@@ -878,12 +938,12 @@
     PkgName: libkrb5-3
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libkrb5-3@1.20.1-6ubuntu2.4?arch=amd64&distro=ubuntu-24.04
-      UID: 7a7ddf77550995d
+      UID: d65342dbe27c8452
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26461
     DataSource:
@@ -939,8 +999,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26462
     DataSource:
@@ -950,15 +1010,21 @@
     Title: 'krb5: Memory leak at /krb5/src/kdc/ndr.c'
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/kdc/ndr.c.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-401
     VendorSeverity:
       alma: 2
       amazon: 2
-      azure: 3
+      azure: 2
+      nvd: 2
       oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -977,7 +1043,7 @@
     - https://security.netapp.com/advisory/ntap-20240415-0012/
     - https://www.cve.org/CVERecord?id=CVE-2024-26462
     PublishedDate: '2024-02-29T01:44:18.857Z'
-    LastModifiedDate: '2024-11-21T09:02:27.01Z'
+    LastModifiedDate: '2025-02-14T17:29:03.303Z'
   - VulnerabilityID: CVE-2024-26458
     PkgID: libkrb5support0@1.20.1-6ubuntu2.4
     PkgName: libkrb5support0
@@ -987,8 +1053,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26458
     DataSource:
@@ -1042,8 +1108,8 @@
     InstalledVersion: 1.20.1-6ubuntu2.4
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-26461
     DataSource:
@@ -1099,8 +1165,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -1150,8 +1216,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -1204,8 +1270,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -1255,8 +1321,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -1309,8 +1375,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -1360,8 +1426,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -1414,8 +1480,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -1465,8 +1531,8 @@
     InstalledVersion: 1.5.3-5ubuntu5.1
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -1511,16 +1577,16 @@
     PublishedDate: '2024-11-07T16:15:17.15Z'
     LastModifiedDate: '2025-02-06T06:15:29.24Z'
   - VulnerabilityID: CVE-2024-41996
-    PkgID: libssl3t64@3.0.13-0ubuntu3.4
+    PkgID: libssl3t64@3.0.13-0ubuntu3.5
     PkgName: libssl3t64
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.4?arch=amd64&distro=ubuntu-24.04
-      UID: 312d18ce92e2a8b2
-    InstalledVersion: 3.0.13-0ubuntu3.4
+      PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.5?arch=amd64&distro=ubuntu-24.04
+      UID: f7dd30a98cc0b1a
+    InstalledVersion: 3.0.13-0ubuntu3.5
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-41996
     DataSource:
@@ -1561,8 +1627,8 @@
     InstalledVersion: 1:4.13+dfsg1-4ubuntu3.2
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -1591,16 +1657,16 @@
     PublishedDate: '2024-12-26T09:15:07.267Z'
     LastModifiedDate: '2024-12-26T09:15:07.267Z'
   - VulnerabilityID: CVE-2024-41996
-    PkgID: openssl@3.0.13-0ubuntu3.4
+    PkgID: openssl@3.0.13-0ubuntu3.5
     PkgName: openssl
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.4?arch=amd64&distro=ubuntu-24.04
-      UID: e66ab4a7df6ee7c2
-    InstalledVersion: 3.0.13-0ubuntu3.4
+      PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.5?arch=amd64&distro=ubuntu-24.04
+      UID: 9833b0131d231716
+    InstalledVersion: 3.0.13-0ubuntu3.5
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-41996
     DataSource:
@@ -1641,8 +1707,8 @@
     InstalledVersion: 1:4.13+dfsg1-4ubuntu3.2
     Status: affected
     Layer:
-      Digest: sha256:cc499193cec3ded89e5ce29bfd5571a85f5000bb6c1beabc76d3cff6b6fff4b6
-      DiffID: sha256:45961499b79e042444ec6c033c3cc987fc65614c3043a0531d8707a2ab5c2e79
+      Digest: sha256:b8ad65681cc6e16b2098fbb9a4456c60a111b7634f3473b7c1e26b4a87daccf8
+      DiffID: sha256:aa6df167fe8f1c23f4b0c2b1f55fae4c8781904220a6708e44b35850867b5d91
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
