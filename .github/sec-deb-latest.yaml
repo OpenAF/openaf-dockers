@@ -492,6 +492,47 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2024-11-21T09:09:19.41Z'
+  - VulnerabilityID: CVE-2024-12243
+    PkgID: libgnutls30t64@3.8.3-1.1ubuntu3.2
+    PkgName: libgnutls30t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.3-1.1ubuntu3.2?arch=amd64&distro=ubuntu-24.04
+      UID: a3469faf06a4c01a
+    InstalledVersion: 3.8.3-1.1ubuntu3.2
+    FixedVersion: 3.8.3-1.1ubuntu3.3
+    Status: fixed
+    Layer:
+      Digest: sha256:5ff5d08da5bf60f8760821b774b770ecebdf393a97f1bed6cb66c59bcddea2db
+      DiffID: sha256:10789cc6d7ed419b0038fcdab1d626339bd22f602022a4d3659f4ea10bb62b4c
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12243
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'gnutls: GnuTLS Impacted by Inefficient DER Decoding in libtasn1 Leading to Remote DoS'
+    Description: A flaw was found in GnuTLS, which relies on libtasn1 for ASN.1 data processing. Due to an inefficient algorithm in libtasn1, decoding certain DER-encoded certificate data can take excessive time, leading to increased resource consumption. This flaw allows a remote attacker to send a specially crafted certificate, causing GnuTLS to become unresponsive or slow, resulting in a denial-of-service condition.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-407
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-12243
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2344615
+    - https://gitlab.com/gnutls/libtasn1/-/issues/52
+    - https://lists.gnupg.org/pipermail/gnutls-help/2025-February/004875.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-12243
+    - https://ubuntu.com/security/notices/USN-7281-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-12243
+    - https://www.gnutls.org/security-new.html#GNUTLS-SA-2025-02-07
+    PublishedDate: '2025-02-10T16:15:37.423Z'
+    LastModifiedDate: '2025-02-10T16:15:37.423Z'
   - VulnerabilityID: CVE-2024-26462
     PkgID: libgssapi-krb5-2@1.20.1-6ubuntu2.3
     PkgName: libgssapi-krb5-2
@@ -1576,6 +1617,70 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10963
     PublishedDate: '2024-11-07T16:15:17.15Z'
     LastModifiedDate: '2025-02-06T06:15:29.24Z'
+  - VulnerabilityID: CVE-2024-13176
+    PkgID: libssl3t64@3.0.13-0ubuntu3.4
+    PkgName: libssl3t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.4?arch=amd64&distro=ubuntu-24.04
+      UID: 312d18ce92e2a8b2
+    InstalledVersion: 3.0.13-0ubuntu3.4
+    FixedVersion: 3.0.13-0ubuntu3.5
+    Status: fixed
+    Layer:
+      Digest: sha256:5ff5d08da5bf60f8760821b774b770ecebdf393a97f1bed6cb66c59bcddea2db
+      DiffID: sha256:10789cc6d7ed419b0038fcdab1d626339bd22f602022a4d3659f4ea10bb62b4c
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-13176
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssl: Timing side-channel in ECDSA signature computation'
+    Description: |-
+      Issue summary: A timing side-channel which could potentially allow recovering
+      the private key exists in the ECDSA signature computation.
+
+      Impact summary: A timing side-channel in ECDSA signature computations
+      could allow recovering the private key by an attacker. However, measuring
+      the timing would require either local access to the signing application or
+      a very fast network connection with low latency.
+
+      There is a timing signal of around 300 nanoseconds when the top word of
+      the inverted ECDSA nonce value is zero. This can happen with significant
+      probability only for some of the supported elliptic curves. In particular
+      the NIST P-521 curve is affected. To be able to measure this leak, the attacker
+      process must either be located in the same physical computer or must
+      have a very fast network connection with low latency. For that reason
+      the severity of this vulnerability is Low.
+    Severity: LOW
+    CweIDs:
+    - CWE-385
+    VendorSeverity:
+      amazon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/01/20/2
+    - https://access.redhat.com/security/cve/CVE-2024-13176
+    - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
+    - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
+    - https://github.com/openssl/openssl/commit/392dcb336405a0c94486aa6655057f59fd3a0902
+    - https://github.com/openssl/openssl/commit/4b1cb94a734a7d4ec363ac0a215a25c181e11f65
+    - https://github.com/openssl/openssl/commit/77c608f4c8857e63e98e66444e2e761c9627916f
+    - https://github.openssl.org/openssl/extended-releases/commit/0d5fd1ab987f7571e2c955d8d8b638fc0fb54ded
+    - https://github.openssl.org/openssl/extended-releases/commit/a2639000db19878d5d89586ae7b725080592ae86
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-13176
+    - https://openssl-library.org/news/secadv/20250120.txt
+    - https://security.netapp.com/advisory/ntap-20250124-0005/
+    - https://ubuntu.com/security/notices/USN-7264-1
+    - https://ubuntu.com/security/notices/USN-7278-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-13176
+    PublishedDate: '2025-01-20T14:15:26.247Z'
+    LastModifiedDate: '2025-01-27T21:15:11.907Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: libssl3t64@3.0.13-0ubuntu3.4
     PkgName: libssl3t64
@@ -1618,6 +1723,128 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
     PublishedDate: '2024-08-26T06:15:04.603Z'
     LastModifiedDate: '2024-08-26T16:35:11.247Z'
+  - VulnerabilityID: CVE-2024-9143
+    PkgID: libssl3t64@3.0.13-0ubuntu3.4
+    PkgName: libssl3t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssl3t64@3.0.13-0ubuntu3.4?arch=amd64&distro=ubuntu-24.04
+      UID: 312d18ce92e2a8b2
+    InstalledVersion: 3.0.13-0ubuntu3.4
+    FixedVersion: 3.0.13-0ubuntu3.5
+    Status: fixed
+    Layer:
+      Digest: sha256:5ff5d08da5bf60f8760821b774b770ecebdf393a97f1bed6cb66c59bcddea2db
+      DiffID: sha256:10789cc6d7ed419b0038fcdab1d626339bd22f602022a4d3659f4ea10bb62b4c
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9143
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssl: Low-level invalid GF(2^m) parameters lead to OOB memory access'
+    Description: |-
+      Issue summary: Use of the low-level GF(2^m) elliptic curve APIs with untrusted
+      explicit values for the field polynomial can lead to out-of-bounds memory reads
+      or writes.
+
+      Impact summary: Out of bound memory writes can lead to an application crash or
+      even a possibility of a remote code execution, however, in all the protocols
+      involving Elliptic Curve Cryptography that we're aware of, either only "named
+      curves" are supported, or, if explicit curve parameters are supported, they
+      specify an X9.62 encoding of binary (GF(2^m)) curves that can't represent
+      problematic input values. Thus the likelihood of existence of a vulnerable
+      application is low.
+
+      In particular, the X9.62 encoding is used for ECC keys in X.509 certificates,
+      so problematic inputs cannot occur in the context of processing X.509
+      certificates.  Any problematic use-cases would have to be using an "exotic"
+      curve encoding.
+
+      The affected APIs include: EC_GROUP_new_curve_GF2m(), EC_GROUP_new_from_params(),
+      and various supporting BN_GF2m_*() functions.
+
+      Applications working with "exotic" explicit binary (GF(2^m)) curve parameters,
+      that make it possible to represent invalid field polynomials with a zero
+      constant term, via the above or similar APIs, may terminate abruptly as a
+      result of reading or writing outside of array bounds.  Remote code execution
+      cannot easily be ruled out.
+
+      The FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected by this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      amazon: 3
+      photon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/10/16/1
+    - http://www.openwall.com/lists/oss-security/2024/10/23/1
+    - http://www.openwall.com/lists/oss-security/2024/10/24/1
+    - https://access.redhat.com/security/cve/CVE-2024-9143
+    - https://github.com/openssl/openssl/commit/72ae83ad214d2eef262461365a1975707f862712
+    - https://github.com/openssl/openssl/commit/bc7e04d7c8d509fb78fc0e285aa948fb0da04700
+    - https://github.com/openssl/openssl/commit/c0d3e4d32d2805f49bec30547f225bc4d092e1f4
+    - https://github.com/openssl/openssl/commit/fdf6723362ca51bd883295efe206cb5b1cfa5154
+    - https://github.openssl.org/openssl/extended-releases/commit/8efc0cbaa8ebba8e116f7b81a876a4123594d86a
+    - https://github.openssl.org/openssl/extended-releases/commit/9d576994cec2b7aa37a91740ea7e680810957e41
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-9143
+    - https://openssl-library.org/news/secadv/20241016.txt
+    - https://security.netapp.com/advisory/ntap-20241101-0001/
+    - https://ubuntu.com/security/notices/USN-7264-1
+    - https://ubuntu.com/security/notices/USN-7278-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-9143
+    PublishedDate: '2024-10-16T17:15:18.13Z'
+    LastModifiedDate: '2024-11-21T09:54:04.817Z'
+  - VulnerabilityID: CVE-2024-12133
+    PkgID: libtasn1-6@4.19.0-3build1
+    PkgName: libtasn1-6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libtasn1-6@4.19.0-3build1?arch=amd64&distro=ubuntu-24.04
+      UID: d966aa095a4eff86
+    InstalledVersion: 4.19.0-3build1
+    FixedVersion: 4.19.0-3ubuntu0.24.04.1
+    Status: fixed
+    Layer:
+      Digest: sha256:5ff5d08da5bf60f8760821b774b770ecebdf393a97f1bed6cb66c59bcddea2db
+      DiffID: sha256:10789cc6d7ed419b0038fcdab1d626339bd22f602022a4d3659f4ea10bb62b4c
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-12133
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libtasn1: Inefficient DER Decoding in libtasn1 Leading to Potential Remote DoS'
+    Description: A flaw in libtasn1 causes inefficient handling of specific certificate data. When processing a large number of elements in a certificate, libtasn1 takes much longer than expected, which can slow down or even crash the system. This flaw allows an attacker to send a specially crafted certificate, causing a denial of service attack.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-407
+    VendorSeverity:
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/02/06/6
+    - https://access.redhat.com/security/cve/CVE-2024-12133
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2344611
+    - https://gitlab.com/gnutls/libtasn1/-/blob/master/doc/security/CVE-2024-12133.md?ref_type=heads
+    - https://gitlab.com/gnutls/libtasn1/-/issues/52
+    - https://lists.debian.org/debian-lts-announce/2025/02/msg00025.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-12133
+    - https://ubuntu.com/security/notices/USN-7275-1
+    - https://ubuntu.com/security/notices/USN-7275-2
+    - https://www.cve.org/CVERecord?id=CVE-2024-12133
+    PublishedDate: '2025-02-10T16:15:37.26Z'
+    LastModifiedDate: '2025-02-21T13:15:10.43Z'
   - VulnerabilityID: CVE-2024-56433
     PkgID: login@1:4.13+dfsg1-4ubuntu3.2
     PkgName: login
@@ -1656,6 +1883,70 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56433
     PublishedDate: '2024-12-26T09:15:07.267Z'
     LastModifiedDate: '2024-12-26T09:15:07.267Z'
+  - VulnerabilityID: CVE-2024-13176
+    PkgID: openssl@3.0.13-0ubuntu3.4
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.4?arch=amd64&distro=ubuntu-24.04
+      UID: e66ab4a7df6ee7c2
+    InstalledVersion: 3.0.13-0ubuntu3.4
+    FixedVersion: 3.0.13-0ubuntu3.5
+    Status: fixed
+    Layer:
+      Digest: sha256:5ff5d08da5bf60f8760821b774b770ecebdf393a97f1bed6cb66c59bcddea2db
+      DiffID: sha256:10789cc6d7ed419b0038fcdab1d626339bd22f602022a4d3659f4ea10bb62b4c
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-13176
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssl: Timing side-channel in ECDSA signature computation'
+    Description: |-
+      Issue summary: A timing side-channel which could potentially allow recovering
+      the private key exists in the ECDSA signature computation.
+
+      Impact summary: A timing side-channel in ECDSA signature computations
+      could allow recovering the private key by an attacker. However, measuring
+      the timing would require either local access to the signing application or
+      a very fast network connection with low latency.
+
+      There is a timing signal of around 300 nanoseconds when the top word of
+      the inverted ECDSA nonce value is zero. This can happen with significant
+      probability only for some of the supported elliptic curves. In particular
+      the NIST P-521 curve is affected. To be able to measure this leak, the attacker
+      process must either be located in the same physical computer or must
+      have a very fast network connection with low latency. For that reason
+      the severity of this vulnerability is Low.
+    Severity: LOW
+    CweIDs:
+    - CWE-385
+    VendorSeverity:
+      amazon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/01/20/2
+    - https://access.redhat.com/security/cve/CVE-2024-13176
+    - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
+    - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
+    - https://github.com/openssl/openssl/commit/392dcb336405a0c94486aa6655057f59fd3a0902
+    - https://github.com/openssl/openssl/commit/4b1cb94a734a7d4ec363ac0a215a25c181e11f65
+    - https://github.com/openssl/openssl/commit/77c608f4c8857e63e98e66444e2e761c9627916f
+    - https://github.openssl.org/openssl/extended-releases/commit/0d5fd1ab987f7571e2c955d8d8b638fc0fb54ded
+    - https://github.openssl.org/openssl/extended-releases/commit/a2639000db19878d5d89586ae7b725080592ae86
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-13176
+    - https://openssl-library.org/news/secadv/20250120.txt
+    - https://security.netapp.com/advisory/ntap-20250124-0005/
+    - https://ubuntu.com/security/notices/USN-7264-1
+    - https://ubuntu.com/security/notices/USN-7278-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-13176
+    PublishedDate: '2025-01-20T14:15:26.247Z'
+    LastModifiedDate: '2025-01-27T21:15:11.907Z'
   - VulnerabilityID: CVE-2024-41996
     PkgID: openssl@3.0.13-0ubuntu3.4
     PkgName: openssl
@@ -1698,6 +1989,84 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
     PublishedDate: '2024-08-26T06:15:04.603Z'
     LastModifiedDate: '2024-08-26T16:35:11.247Z'
+  - VulnerabilityID: CVE-2024-9143
+    PkgID: openssl@3.0.13-0ubuntu3.4
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/openssl@3.0.13-0ubuntu3.4?arch=amd64&distro=ubuntu-24.04
+      UID: e66ab4a7df6ee7c2
+    InstalledVersion: 3.0.13-0ubuntu3.4
+    FixedVersion: 3.0.13-0ubuntu3.5
+    Status: fixed
+    Layer:
+      Digest: sha256:5ff5d08da5bf60f8760821b774b770ecebdf393a97f1bed6cb66c59bcddea2db
+      DiffID: sha256:10789cc6d7ed419b0038fcdab1d626339bd22f602022a4d3659f4ea10bb62b4c
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9143
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssl: Low-level invalid GF(2^m) parameters lead to OOB memory access'
+    Description: |-
+      Issue summary: Use of the low-level GF(2^m) elliptic curve APIs with untrusted
+      explicit values for the field polynomial can lead to out-of-bounds memory reads
+      or writes.
+
+      Impact summary: Out of bound memory writes can lead to an application crash or
+      even a possibility of a remote code execution, however, in all the protocols
+      involving Elliptic Curve Cryptography that we're aware of, either only "named
+      curves" are supported, or, if explicit curve parameters are supported, they
+      specify an X9.62 encoding of binary (GF(2^m)) curves that can't represent
+      problematic input values. Thus the likelihood of existence of a vulnerable
+      application is low.
+
+      In particular, the X9.62 encoding is used for ECC keys in X.509 certificates,
+      so problematic inputs cannot occur in the context of processing X.509
+      certificates.  Any problematic use-cases would have to be using an "exotic"
+      curve encoding.
+
+      The affected APIs include: EC_GROUP_new_curve_GF2m(), EC_GROUP_new_from_params(),
+      and various supporting BN_GF2m_*() functions.
+
+      Applications working with "exotic" explicit binary (GF(2^m)) curve parameters,
+      that make it possible to represent invalid field polynomials with a zero
+      constant term, via the above or similar APIs, may terminate abruptly as a
+      result of reading or writing outside of array bounds.  Remote code execution
+      cannot easily be ruled out.
+
+      The FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected by this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      amazon: 3
+      photon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/10/16/1
+    - http://www.openwall.com/lists/oss-security/2024/10/23/1
+    - http://www.openwall.com/lists/oss-security/2024/10/24/1
+    - https://access.redhat.com/security/cve/CVE-2024-9143
+    - https://github.com/openssl/openssl/commit/72ae83ad214d2eef262461365a1975707f862712
+    - https://github.com/openssl/openssl/commit/bc7e04d7c8d509fb78fc0e285aa948fb0da04700
+    - https://github.com/openssl/openssl/commit/c0d3e4d32d2805f49bec30547f225bc4d092e1f4
+    - https://github.com/openssl/openssl/commit/fdf6723362ca51bd883295efe206cb5b1cfa5154
+    - https://github.openssl.org/openssl/extended-releases/commit/8efc0cbaa8ebba8e116f7b81a876a4123594d86a
+    - https://github.openssl.org/openssl/extended-releases/commit/9d576994cec2b7aa37a91740ea7e680810957e41
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-9143
+    - https://openssl-library.org/news/secadv/20241016.txt
+    - https://security.netapp.com/advisory/ntap-20241101-0001/
+    - https://ubuntu.com/security/notices/USN-7264-1
+    - https://ubuntu.com/security/notices/USN-7278-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-9143
+    PublishedDate: '2024-10-16T17:15:18.13Z'
+    LastModifiedDate: '2024-11-21T09:54:04.817Z'
   - VulnerabilityID: CVE-2024-56433
     PkgID: passwd@1:4.13+dfsg1-4ubuntu3.2
     PkgName: passwd
