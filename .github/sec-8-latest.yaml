@@ -30,8 +30,10 @@
       omits both login and password.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       azure: 3
       cbl-mariner: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -40,10 +42,63 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-11053
+    - https://bugzilla.redhat.com/2294581
+    - https://bugzilla.redhat.com/2294676
+    - https://bugzilla.redhat.com/2301888
+    - https://bugzilla.redhat.com/2318857
+    - https://bugzilla.redhat.com/2318858
+    - https://bugzilla.redhat.com/2318870
+    - https://bugzilla.redhat.com/2318873
+    - https://bugzilla.redhat.com/2318874
+    - https://bugzilla.redhat.com/2318876
+    - https://bugzilla.redhat.com/2318882
+    - https://bugzilla.redhat.com/2318883
+    - https://bugzilla.redhat.com/2318884
+    - https://bugzilla.redhat.com/2318885
+    - https://bugzilla.redhat.com/2318886
+    - https://bugzilla.redhat.com/2318897
+    - https://bugzilla.redhat.com/2318900
+    - https://bugzilla.redhat.com/2318905
+    - https://bugzilla.redhat.com/2318914
+    - https://bugzilla.redhat.com/2318922
+    - https://bugzilla.redhat.com/2318923
+    - https://bugzilla.redhat.com/2318925
+    - https://bugzilla.redhat.com/2318926
+    - https://bugzilla.redhat.com/2318927
+    - https://bugzilla.redhat.com/2331191
+    - https://bugzilla.redhat.com/2339218
+    - https://bugzilla.redhat.com/2339220
+    - https://bugzilla.redhat.com/2339221
+    - https://bugzilla.redhat.com/2339226
+    - https://bugzilla.redhat.com/2339231
+    - https://bugzilla.redhat.com/2339236
+    - https://bugzilla.redhat.com/2339238
+    - https://bugzilla.redhat.com/2339243
+    - https://bugzilla.redhat.com/2339247
+    - https://bugzilla.redhat.com/2339252
+    - https://bugzilla.redhat.com/2339259
+    - https://bugzilla.redhat.com/2339266
+    - https://bugzilla.redhat.com/2339270
+    - https://bugzilla.redhat.com/2339271
+    - https://bugzilla.redhat.com/2339275
+    - https://bugzilla.redhat.com/2339277
+    - https://bugzilla.redhat.com/2339281
+    - https://bugzilla.redhat.com/2339284
+    - https://bugzilla.redhat.com/2339291
+    - https://bugzilla.redhat.com/2339293
+    - https://bugzilla.redhat.com/2339295
+    - https://bugzilla.redhat.com/2339299
+    - https://bugzilla.redhat.com/2339300
+    - https://bugzilla.redhat.com/2339304
+    - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://hackerone.com/reports/2829063
+    - https://linux.oracle.com/cve/CVE-2024-11053.html
+    - https://linux.oracle.com/errata/ELSA-2025-1673.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11053
     - https://security.netapp.com/advisory/ntap-20250124-0012/
     - https://security.netapp.com/advisory/ntap-20250131-0003/
@@ -281,6 +336,7 @@
     - CWE-392
     VendorSeverity:
       alma: 3
+      cbl-mariner: 3
       ghsa: 1
       oracle-oval: 3
       redhat: 3
@@ -369,6 +425,7 @@
     - https://openssl-library.org/news/secadv/20250120.txt
     - https://security.netapp.com/advisory/ntap-20250124-0005/
     - https://ubuntu.com/security/notices/USN-7264-1
+    - https://ubuntu.com/security/notices/USN-7278-1
     - https://www.cve.org/CVERecord?id=CVE-2024-13176
     PublishedDate: '2025-01-20T14:15:26.247Z'
     LastModifiedDate: '2025-01-27T21:15:11.907Z'
@@ -423,6 +480,7 @@
     - CWE-787
     VendorSeverity:
       amazon: 3
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -444,6 +502,7 @@
     - https://openssl-library.org/news/secadv/20241016.txt
     - https://security.netapp.com/advisory/ntap-20241101-0001/
     - https://ubuntu.com/security/notices/USN-7264-1
+    - https://ubuntu.com/security/notices/USN-7278-1
     - https://www.cve.org/CVERecord?id=CVE-2024-9143
     PublishedDate: '2024-10-16T17:15:18.13Z'
     LastModifiedDate: '2024-11-21T09:54:04.817Z'
@@ -475,8 +534,10 @@
       omits both login and password.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       azure: 3
       cbl-mariner: 3
+      oracle-oval: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -485,10 +546,63 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
+    - https://access.redhat.com/errata/RHSA-2025:1673
     - https://access.redhat.com/security/cve/CVE-2024-11053
+    - https://bugzilla.redhat.com/2294581
+    - https://bugzilla.redhat.com/2294676
+    - https://bugzilla.redhat.com/2301888
+    - https://bugzilla.redhat.com/2318857
+    - https://bugzilla.redhat.com/2318858
+    - https://bugzilla.redhat.com/2318870
+    - https://bugzilla.redhat.com/2318873
+    - https://bugzilla.redhat.com/2318874
+    - https://bugzilla.redhat.com/2318876
+    - https://bugzilla.redhat.com/2318882
+    - https://bugzilla.redhat.com/2318883
+    - https://bugzilla.redhat.com/2318884
+    - https://bugzilla.redhat.com/2318885
+    - https://bugzilla.redhat.com/2318886
+    - https://bugzilla.redhat.com/2318897
+    - https://bugzilla.redhat.com/2318900
+    - https://bugzilla.redhat.com/2318905
+    - https://bugzilla.redhat.com/2318914
+    - https://bugzilla.redhat.com/2318922
+    - https://bugzilla.redhat.com/2318923
+    - https://bugzilla.redhat.com/2318925
+    - https://bugzilla.redhat.com/2318926
+    - https://bugzilla.redhat.com/2318927
+    - https://bugzilla.redhat.com/2331191
+    - https://bugzilla.redhat.com/2339218
+    - https://bugzilla.redhat.com/2339220
+    - https://bugzilla.redhat.com/2339221
+    - https://bugzilla.redhat.com/2339226
+    - https://bugzilla.redhat.com/2339231
+    - https://bugzilla.redhat.com/2339236
+    - https://bugzilla.redhat.com/2339238
+    - https://bugzilla.redhat.com/2339243
+    - https://bugzilla.redhat.com/2339247
+    - https://bugzilla.redhat.com/2339252
+    - https://bugzilla.redhat.com/2339259
+    - https://bugzilla.redhat.com/2339266
+    - https://bugzilla.redhat.com/2339270
+    - https://bugzilla.redhat.com/2339271
+    - https://bugzilla.redhat.com/2339275
+    - https://bugzilla.redhat.com/2339277
+    - https://bugzilla.redhat.com/2339281
+    - https://bugzilla.redhat.com/2339284
+    - https://bugzilla.redhat.com/2339291
+    - https://bugzilla.redhat.com/2339293
+    - https://bugzilla.redhat.com/2339295
+    - https://bugzilla.redhat.com/2339299
+    - https://bugzilla.redhat.com/2339300
+    - https://bugzilla.redhat.com/2339304
+    - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
+    - https://errata.almalinux.org/8/ALSA-2025-1673.html
     - https://hackerone.com/reports/2829063
+    - https://linux.oracle.com/cve/CVE-2024-11053.html
+    - https://linux.oracle.com/errata/ELSA-2025-1673.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-11053
     - https://security.netapp.com/advisory/ntap-20250124-0012/
     - https://security.netapp.com/advisory/ntap-20250131-0003/
@@ -781,6 +895,7 @@
     - CWE-392
     VendorSeverity:
       alma: 3
+      cbl-mariner: 3
       ghsa: 1
       oracle-oval: 3
       redhat: 3
@@ -869,6 +984,7 @@
     - https://openssl-library.org/news/secadv/20250120.txt
     - https://security.netapp.com/advisory/ntap-20250124-0005/
     - https://ubuntu.com/security/notices/USN-7264-1
+    - https://ubuntu.com/security/notices/USN-7278-1
     - https://www.cve.org/CVERecord?id=CVE-2024-13176
     PublishedDate: '2025-01-20T14:15:26.247Z'
     LastModifiedDate: '2025-01-27T21:15:11.907Z'
@@ -923,6 +1039,7 @@
     - CWE-787
     VendorSeverity:
       amazon: 3
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -944,6 +1061,7 @@
     - https://openssl-library.org/news/secadv/20241016.txt
     - https://security.netapp.com/advisory/ntap-20241101-0001/
     - https://ubuntu.com/security/notices/USN-7264-1
+    - https://ubuntu.com/security/notices/USN-7278-1
     - https://www.cve.org/CVERecord?id=CVE-2024-9143
     PublishedDate: '2024-10-16T17:15:18.13Z'
     LastModifiedDate: '2024-11-21T09:54:04.817Z'
@@ -983,11 +1101,13 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2344611
     - https://gitlab.com/gnutls/libtasn1/-/blob/master/doc/security/CVE-2024-12133.md?ref_type=heads
     - https://gitlab.com/gnutls/libtasn1/-/issues/52
+    - https://lists.debian.org/debian-lts-announce/2025/02/msg00025.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12133
     - https://ubuntu.com/security/notices/USN-7275-1
+    - https://ubuntu.com/security/notices/USN-7275-2
     - https://www.cve.org/CVERecord?id=CVE-2024-12133
     PublishedDate: '2025-02-10T16:15:37.26Z'
-    LastModifiedDate: '2025-02-10T16:15:37.26Z'
+    LastModifiedDate: '2025-02-21T13:15:10.43Z'
   - VulnerabilityID: CVE-2025-26519
     PkgID: musl@1.2.5-r0
     PkgName: musl
@@ -3832,6 +3952,7 @@
     - CWE-392
     VendorSeverity:
       alma: 3
+      cbl-mariner: 3
       ghsa: 1
       oracle-oval: 3
       redhat: 3
@@ -3920,6 +4041,7 @@
     - https://openssl-library.org/news/secadv/20250120.txt
     - https://security.netapp.com/advisory/ntap-20250124-0005/
     - https://ubuntu.com/security/notices/USN-7264-1
+    - https://ubuntu.com/security/notices/USN-7278-1
     - https://www.cve.org/CVERecord?id=CVE-2024-13176
     PublishedDate: '2025-01-20T14:15:26.247Z'
     LastModifiedDate: '2025-01-27T21:15:11.907Z'
@@ -3974,6 +4096,7 @@
     - CWE-787
     VendorSeverity:
       amazon: 3
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -3995,6 +4118,7 @@
     - https://openssl-library.org/news/secadv/20241016.txt
     - https://security.netapp.com/advisory/ntap-20241101-0001/
     - https://ubuntu.com/security/notices/USN-7264-1
+    - https://ubuntu.com/security/notices/USN-7278-1
     - https://www.cve.org/CVERecord?id=CVE-2024-9143
     PublishedDate: '2024-10-16T17:15:18.13Z'
     LastModifiedDate: '2024-11-21T09:54:04.817Z'
