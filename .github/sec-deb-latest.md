@@ -544,15 +544,17 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-12243 
 │                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2344615 
 │                       │      │                  ├ [2]: https://gitlab.com/gnutls/libtasn1/-/issues/52 
-│                       │      │                  ├ [3]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Feb
+│                       │      │                  ├ [3]: https://lists.debian.org/debian-lts-announce/2025/02/m
+│                       │      │                  │      sg00027.html 
+│                       │      │                  ├ [4]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Feb
 │                       │      │                  │      ruary/004875.html 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-12243 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7281-1 
-│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2024-12243 
-│                       │      │                  ╰ [7]: https://www.gnutls.org/security-new.html#GNUTLS-SA-202
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-12243 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7281-1 
+│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-12243 
+│                       │      │                  ╰ [8]: https://www.gnutls.org/security-new.html#GNUTLS-SA-202
 │                       │      │                         5-02-07 
 │                       │      ├ PublishedDate   : 2025-02-10T16:15:37.423Z 
-│                       │      ╰ LastModifiedDate: 2025-02-10T16:15:37.423Z 
+│                       │      ╰ LastModifiedDate: 2025-02-21T22:15:11.89Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2024-26462 
 │                       │      ├ PkgID           : libgssapi-krb5-2@1.20.1-6ubuntu2.3 
 │                       │      ├ PkgName         : libgssapi-krb5-2 
