@@ -427,6 +427,7 @@
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
@@ -1418,6 +1419,7 @@
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
@@ -2814,8 +2816,9 @@
 │                       │      │                   XML schema must be used. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ redhat: 3 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.8 
@@ -2850,8 +2853,9 @@
 │                       │      │                   to CVE-2017-9047. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-121 
-│                       │      ├ VendorSeverity   ╭ redhat: 3 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.8 
@@ -3023,8 +3027,9 @@
 │                       │      │                   pointer dereference in xmlPatMatch in pattern.c. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 1 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 2.9 
