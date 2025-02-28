@@ -80,6 +80,7 @@
       omits both login and password. A rare circumstance.
     Severity: LOW
     VendorSeverity:
+      photon: 2
       ubuntu: 1
     References:
     - https://curl.se/docs/CVE-2025-0167.html
@@ -396,6 +397,7 @@
     CweIDs:
     - CWE-284
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -437,6 +439,7 @@
       omits both login and password. A rare circumstance.
     Severity: LOW
     VendorSeverity:
+      photon: 2
       ubuntu: 1
     References:
     - https://curl.se/docs/CVE-2025-0167.html
