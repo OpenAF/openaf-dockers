@@ -35,6 +35,7 @@
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
@@ -259,7 +260,8 @@
 │                       │      │                   `default` entry that
 │                       │      │                   omits both login and password. A rare circumstance. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
 │                       │      │                  ├ [2]: https://hackerone.com/reports/2917232 
@@ -588,6 +590,7 @@
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
@@ -815,7 +818,8 @@
 │                       │      │                   `default` entry that
 │                       │      │                   omits both login and password. A rare circumstance. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
 │                       │      │                  ├ [2]: https://hackerone.com/reports/2917232 
