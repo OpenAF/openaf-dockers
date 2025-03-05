@@ -15,12 +15,12 @@ jobs:
     name: Scan images
     steps:
     - name: Cache OpenAF runtime
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key : oaf-t8
         path: /tmp/oaf
         
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       name: Checkout
 
     - name: Restore the trivy databases from cache
@@ -28,129 +28,129 @@ jobs:
         wget https://openaf.io/trivy-db.tgz
         docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
       
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Scan latest
       with:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=openaf/oaf:latest file=.github/sec-latest.svg reportFile=.github/sec-latest.yaml'
         dist: 't8'
         
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Generate sec-latest.md
       with:
         ojob: 'ojob.io/util/toMDTree'
         args: 'inputFile=.github/sec-latest.yaml file=.github/sec-latest.md'
         
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Scan nightly
       with:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=openaf/oaf:nightly file=.github/sec-nightly.svg reportFile=.github/sec-nightly.yaml'
         dist: 't8'
         
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Generate sec-nightly.md
       with:
         ojob: 'ojob.io/util/toMDTree'
         args: 'inputFile=.github/sec-nigthly.yaml file=.github/sec-nightly.md'
 
         
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Generate sec-nightly.md
       with:
         ojob: 'ojob.io/util/toMDTree'
         args: 'inputFile=.github/sec-nightly.yaml file=.github/sec-nightly.md'
         
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Scan UBI nightly
       with:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=openaf/oaf:ubi-nightly file=.github/sec-ubi-nightly.svg reportFile=.github/sec-ubi-nightly.yaml'
         dist: 't8'
 
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Scan DEB nightly
       with:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=openaf/oaf:deb-nightly file=.github/sec-deb-nightly.svg reportFile=.github/sec-deb-nightly.yaml'
         dist: 't8'
     
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Generate sec-ubi-nightly.md
       with:
         ojob: 'ojob.io/util/toMDTree'
         args: 'inputFile=.github/sec-ubi-nightly.yaml file=.github/sec-ubi-nightly.md'
         
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Generate sec-deb-nightly.md
       with:
         ojob: 'ojob.io/util/toMDTree'
         args: 'inputFile=.github/sec-deb-nightly.yaml file=.github/sec-deb-nightly.md'
 
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Scan UBI latest
       with:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=openaf/oaf:ubi file=.github/sec-ubi-latest.svg reportFile=.github/sec-ubi-latest.yaml'
         dist: 't8'
 
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Scan DEB latest
       with:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=openaf/oaf:deb file=.github/sec-deb-latest.svg reportFile=.github/sec-deb-latest.yaml'
         dist: 't8'        
 
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Generate sec-ubi-latest.md
       with:
         ojob: 'ojob.io/util/toMDTree'
         args: 'inputFile=.github/sec-ubi-latest.yaml file=.github/sec-ubi-latest.md'
         dist: 't8'
         
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Generate sec-deb-latest.md
       with:
         ojob: 'ojob.io/util/toMDTree'
         args: 'inputFile=.github/sec-deb-latest.yaml file=.github/sec-deb-latest.md'
         dist: 't8'
 
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Scan oJobRT latest
       with:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=openaf/ojobrt:latest file=.github/sec-oJobRT-latest.svg reportFile=.github/sec-oJobRT-latest.yaml'
         dist: 't8'
         
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Generate sec-oJobRT-latest.md
       with:
         ojob: 'ojob.io/util/toMDTree'
         args: 'inputFile=.github/sec-oJobRT-latest.yaml file=.github/sec-oJobRT-latest.md'
         dist: 't8'
         
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Scan oJobRT nightly
       with:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=openaf/ojobrt:nightly file=.github/sec-oJobRT-nightly.svg reportFile=.github/sec-oJobRT-nightly.yaml'
         dist: 't8'
         
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Generate sec-oJobRT-nightly.md
       with:
         ojob: 'ojob.io/util/toMDTree'
         args: 'inputFile=.github/sec-oJobRT-nightly.yaml file=.github/sec-oJobRT-nightly.md'
         dist: 't8'
 
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Scan pyOAF nightly
       with:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=openaf/pyoaf:nightly file=.github/sec-pyOAF-nightly.svg reportFile=.github/sec-pyOAF-nightly.yaml'
         dist: 't8'
         
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Generate sec-pyOAF-nightly.md
       with:
         ojob: 'ojob.io/util/toMDTree'
@@ -158,14 +158,14 @@ jobs:
         dist: 't8'
 
 
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Scan 8 latest
       with:
         ojob: 'ojob.io/sec/genSecBadge'
         args: 'image=openaf/oaf:8-latest file=.github/sec-8-latest.svg reportFile=.github/sec-8-latest.yaml'
         dist: 't8'
         
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Generate sec-8-latest.md
       with:
         ojob: 'ojob.io/util/toMDTree'
@@ -247,7 +247,7 @@ jobs:
     #     dist: 't8'
 
 
-    - uses: openaf/ojob-action@v4
+    - uses: openaf/ojob-action@v7
       name: Push
       env :
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

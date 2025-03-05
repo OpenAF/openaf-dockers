@@ -19,17 +19,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     # -------------------------
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       name: Checkout
     # --------------------------
     - name: Cache OpenAF runtime
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         key : oaf-t8
         path: /tmp/oaf
     # ----------------------
     - name: Trigger build t8
-      uses: openaf/ojob-action@v4
+      uses: openaf/ojob-action@v7
       env :
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
@@ -38,7 +38,7 @@ jobs:
         dist: t8
     # --------------------------
     - name: Trigger build t8 ubi
-      uses: openaf/ojob-action@v4
+      uses: openaf/ojob-action@v7
       env :
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
@@ -47,7 +47,7 @@ jobs:
         dist: t8
     # --------------------------
     - name: Trigger build t8 deb
-      uses: openaf/ojob-action@v4
+      uses: openaf/ojob-action@v7
       env :
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
@@ -56,7 +56,7 @@ jobs:
         dist: t8
     # ---------------------------
     - name: Trigger build nightly
-      uses: openaf/ojob-action@v4
+      uses: openaf/ojob-action@v7
       env :
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
@@ -65,7 +65,7 @@ jobs:
         dist: t8
     # -------------------------------
     - name: Trigger build nightly ubi
-      uses: openaf/ojob-action@v4
+      uses: openaf/ojob-action@v7
       env :
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
@@ -74,7 +74,7 @@ jobs:
         dist: t8
     # -------------------------------
     - name: Trigger build nightly deb
-      uses: openaf/ojob-action@v4
+      uses: openaf/ojob-action@v7
       env :
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
