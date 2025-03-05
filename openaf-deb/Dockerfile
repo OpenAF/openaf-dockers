@@ -35,11 +35,11 @@ RUN cd /openaf\
  && rm jre.tgz\
  && jre/bin/java -jar openaf.jar --install\
  && chown -R openaf:0 /openaf\
- && chown openaf:0 /openaf/.opack.db\
+ && chown openaf:0 /openaf/.opack.db || true\
  && chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\
  && chmod a+rwx /openaf\
  && chmod -R a+rx /openaf/.docker\
- && chmod g+w /openaf/.opack.db
+ && chmod g+w /openaf/.opack.db || true
 
 # -------------------
 FROM scratch as final

@@ -35,8 +35,8 @@ RUN cd /openaf\
  && sudo chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\
  && sudo chmod a+rwx /openaf\
  && sudo chown -R openaf:0 /openaf\
- && sudo chown openaf:0 /openaf/.opack.db\
- && sudo chmod g+w /openaf/.opack.db\
+ && sudo chown openaf:0 /openaf/.opack.db || true\
+ && sudo chmod g+w /openaf/.opack.db || true\
  && /openaf/oaf --bashcompletion all > /tmp/.openaf_completion_bash.sh\
  && chmod a+rw /tmp/.openaf_completion_bash.sh
 
