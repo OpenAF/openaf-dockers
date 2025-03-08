@@ -86,9 +86,10 @@
     - https://curl.se/docs/CVE-2025-0167.html
     - https://curl.se/docs/CVE-2025-0167.json
     - https://hackerone.com/reports/2917232
+    - https://security.netapp.com/advisory/ntap-20250306-0008/
     - https://www.cve.org/CVERecord?id=CVE-2025-0167
     PublishedDate: '2025-02-05T10:15:22.71Z'
-    LastModifiedDate: '2025-02-06T15:15:16.967Z'
+    LastModifiedDate: '2025-03-07T01:15:12.11Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpgv@2.4.4-2ubuntu17
     PkgName: gpgv
@@ -211,6 +212,7 @@
     Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
     Severity: MEDIUM
     VendorSeverity:
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -220,6 +222,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-24528
     - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
+    - https://linux.oracle.com/cve/CVE-2025-24528.html
+    - https://linux.oracle.com/errata/ELSA-2025-1352.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
     - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2025-24528
@@ -485,9 +489,10 @@
     - https://curl.se/docs/CVE-2025-0167.html
     - https://curl.se/docs/CVE-2025-0167.json
     - https://hackerone.com/reports/2917232
+    - https://security.netapp.com/advisory/ntap-20250306-0008/
     - https://www.cve.org/CVERecord?id=CVE-2025-0167
     PublishedDate: '2025-02-05T10:15:22.71Z'
-    LastModifiedDate: '2025-02-06T15:15:16.967Z'
+    LastModifiedDate: '2025-03-07T01:15:12.11Z'
   - VulnerabilityID: CVE-2024-2236
     PkgID: libgcrypt20@1.10.3-2build1
     PkgName: libgcrypt20
@@ -658,6 +663,7 @@
     Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
     Severity: MEDIUM
     VendorSeverity:
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -667,6 +673,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-24528
     - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
+    - https://linux.oracle.com/cve/CVE-2025-24528.html
+    - https://linux.oracle.com/errata/ELSA-2025-1352.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
     - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2025-24528
@@ -864,6 +872,7 @@
     Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
     Severity: MEDIUM
     VendorSeverity:
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -873,6 +882,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-24528
     - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
+    - https://linux.oracle.com/cve/CVE-2025-24528.html
+    - https://linux.oracle.com/errata/ELSA-2025-1352.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
     - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2025-24528
@@ -1070,6 +1081,7 @@
     Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
     Severity: MEDIUM
     VendorSeverity:
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1079,6 +1091,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-24528
     - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
+    - https://linux.oracle.com/cve/CVE-2025-24528.html
+    - https://linux.oracle.com/errata/ELSA-2025-1352.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
     - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2025-24528
@@ -1276,6 +1290,7 @@
     Description: A flaw was found in krb5. With incremental propagation enabled, an authenticated attacker can cause kadmind to write beyond the end of the mapped region for the iprop log file. This issue can trigger a process crash and lead to a denial of service.
     Severity: MEDIUM
     VendorSeverity:
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1285,6 +1300,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-24528
     - https://github.com/krb5/krb5/commit/78ceba024b64d49612375be4a12d1c066b0bfbd0
+    - https://linux.oracle.com/cve/CVE-2025-24528.html
+    - https://linux.oracle.com/errata/ELSA-2025-1352.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
     - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2025-24528
