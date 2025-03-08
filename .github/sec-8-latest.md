@@ -35,6 +35,7 @@
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
@@ -228,9 +229,10 @@
 │                       │      │                  ├ [5]: https://curl.se/docs/CVE-2025-0725.json 
 │                       │      │                  ├ [6]: https://hackerone.com/reports/2956023 
 │                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-0725 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0725 
+│                       │      │                  ├ [8]: https://security.netapp.com/advisory/ntap-20250306-0009/ 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-0725 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.98Z 
-│                       │      ╰ LastModifiedDate: 2025-02-06T19:15:19.733Z 
+│                       │      ╰ LastModifiedDate: 2025-03-07T01:15:12.403Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2025-0167 
 │                       │      ├ PkgID           : curl@8.10.1-r0 
 │                       │      ├ PkgName         : curl 
@@ -259,13 +261,15 @@
 │                       │      │                   `default` entry that
 │                       │      │                   omits both login and password. A rare circumstance. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
 │                       │      │                  ├ [2]: https://hackerone.com/reports/2917232 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
+│                       │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-20250306-0008/ 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
-│                       │      ╰ LastModifiedDate: 2025-02-06T15:15:16.967Z 
+│                       │      ╰ LastModifiedDate: 2025-03-07T01:15:12.11Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2025-0665 
 │                       │      ├ PkgID           : curl@8.10.1-r0 
 │                       │      ├ PkgName         : curl 
@@ -293,9 +297,10 @@
 │                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/05/5 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-0665.html 
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-0665.json 
-│                       │      │                  ╰ [4]: https://hackerone.com/reports/2954286 
+│                       │      │                  ├ [4]: https://hackerone.com/reports/2954286 
+│                       │      │                  ╰ [5]: https://security.netapp.com/advisory/ntap-20250306-0007/ 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.857Z 
-│                       │      ╰ LastModifiedDate: 2025-02-18T19:15:23.28Z 
+│                       │      ╰ LastModifiedDate: 2025-03-07T01:15:12.293Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2024-12797 
 │                       │      ├ PkgID           : libcrypto3@3.3.2-r0 
 │                       │      ├ PkgName         : libcrypto3 
@@ -352,6 +357,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-392 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ ghsa       : 1 
 │                       │      │                  ├ oracle-oval: 3 
@@ -587,6 +593,7 @@
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
@@ -782,9 +789,10 @@
 │                       │      │                  ├ [5]: https://curl.se/docs/CVE-2025-0725.json 
 │                       │      │                  ├ [6]: https://hackerone.com/reports/2956023 
 │                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-0725 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-0725 
+│                       │      │                  ├ [8]: https://security.netapp.com/advisory/ntap-20250306-0009/ 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-0725 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.98Z 
-│                       │      ╰ LastModifiedDate: 2025-02-06T19:15:19.733Z 
+│                       │      ╰ LastModifiedDate: 2025-03-07T01:15:12.403Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2025-0167 
 │                       │      ├ PkgID           : libcurl@8.10.1-r0 
 │                       │      ├ PkgName         : libcurl 
@@ -814,13 +822,15 @@
 │                       │      │                   `default` entry that
 │                       │      │                   omits both login and password. A rare circumstance. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
 │                       │      │                  ├ [2]: https://hackerone.com/reports/2917232 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
+│                       │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-20250306-0008/ 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
-│                       │      ╰ LastModifiedDate: 2025-02-06T15:15:16.967Z 
+│                       │      ╰ LastModifiedDate: 2025-03-07T01:15:12.11Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2025-0665 
 │                       │      ├ PkgID           : libcurl@8.10.1-r0 
 │                       │      ├ PkgName         : libcurl 
@@ -849,9 +859,10 @@
 │                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/05/5 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-0665.html 
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-0665.json 
-│                       │      │                  ╰ [4]: https://hackerone.com/reports/2954286 
+│                       │      │                  ├ [4]: https://hackerone.com/reports/2954286 
+│                       │      │                  ╰ [5]: https://security.netapp.com/advisory/ntap-20250306-0007/ 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.857Z 
-│                       │      ╰ LastModifiedDate: 2025-02-18T19:15:23.28Z 
+│                       │      ╰ LastModifiedDate: 2025-03-07T01:15:12.293Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2024-50602 
 │                       │      ├ PkgID           : libexpat@2.6.3-r0 
 │                       │      ├ PkgName         : libexpat 
@@ -962,6 +973,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-392 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ ghsa       : 1 
 │                       │      │                  ├ oracle-oval: 3 
@@ -1190,9 +1202,10 @@
 │                       │      │                   causing a denial of service attack. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-407 
-│                       │      ├ VendorSeverity   ╭ photon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -5089,6 +5102,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-392 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ ghsa       : 1 
 │                       │      │                  ├ oracle-oval: 3 
@@ -5353,7 +5367,9 @@
                               │                  ├ [4]: https://gitlab.eclipse.org/security/cve-assignement/-/i
                               │                  │      ssues/25 
                               │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-6763 
-                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-6763 
+                              │                  ├ [6]: https://security.netapp.com/advisory/ntap-20250306-0005 
+                              │                  ├ [7]: https://security.netapp.com/advisory/ntap-20250306-0005/ 
+                              │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-6763 
                               ├ PublishedDate   : 2024-10-14T16:15:04.163Z 
-                              ╰ LastModifiedDate: 2024-11-08T21:15:57.677Z 
+                              ╰ LastModifiedDate: 2025-03-07T01:15:11.793Z 
 ````

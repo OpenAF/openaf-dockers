@@ -34,6 +34,7 @@
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -222,9 +223,10 @@
     - https://curl.se/docs/CVE-2025-0725.json
     - https://hackerone.com/reports/2956023
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0725
+    - https://security.netapp.com/advisory/ntap-20250306-0009/
     - https://www.cve.org/CVERecord?id=CVE-2025-0725
     PublishedDate: '2025-02-05T10:15:22.98Z'
-    LastModifiedDate: '2025-02-06T19:15:19.733Z'
+    LastModifiedDate: '2025-03-07T01:15:12.403Z'
   - VulnerabilityID: CVE-2025-0167
     PkgID: curl@8.10.1-r0
     PkgName: curl
@@ -252,14 +254,16 @@
       omits both login and password. A rare circumstance.
     Severity: LOW
     VendorSeverity:
+      photon: 2
       ubuntu: 1
     References:
     - https://curl.se/docs/CVE-2025-0167.html
     - https://curl.se/docs/CVE-2025-0167.json
     - https://hackerone.com/reports/2917232
+    - https://security.netapp.com/advisory/ntap-20250306-0008/
     - https://www.cve.org/CVERecord?id=CVE-2025-0167
     PublishedDate: '2025-02-05T10:15:22.71Z'
-    LastModifiedDate: '2025-02-06T15:15:16.967Z'
+    LastModifiedDate: '2025-03-07T01:15:12.11Z'
   - VulnerabilityID: CVE-2025-0665
     PkgID: curl@8.10.1-r0
     PkgName: curl
@@ -288,8 +292,9 @@
     - https://curl.se/docs/CVE-2025-0665.html
     - https://curl.se/docs/CVE-2025-0665.json
     - https://hackerone.com/reports/2954286
+    - https://security.netapp.com/advisory/ntap-20250306-0007/
     PublishedDate: '2025-02-05T10:15:22.857Z'
-    LastModifiedDate: '2025-02-18T19:15:23.28Z'
+    LastModifiedDate: '2025-03-07T01:15:12.293Z'
   - VulnerabilityID: CVE-2024-12797
     PkgID: libcrypto3@3.3.2-r0
     PkgName: libcrypto3
@@ -336,6 +341,7 @@
     - CWE-392
     VendorSeverity:
       alma: 3
+      azure: 3
       cbl-mariner: 3
       ghsa: 1
       oracle-oval: 3
@@ -538,6 +544,7 @@
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -726,9 +733,10 @@
     - https://curl.se/docs/CVE-2025-0725.json
     - https://hackerone.com/reports/2956023
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0725
+    - https://security.netapp.com/advisory/ntap-20250306-0009/
     - https://www.cve.org/CVERecord?id=CVE-2025-0725
     PublishedDate: '2025-02-05T10:15:22.98Z'
-    LastModifiedDate: '2025-02-06T19:15:19.733Z'
+    LastModifiedDate: '2025-03-07T01:15:12.403Z'
   - VulnerabilityID: CVE-2025-0167
     PkgID: libcurl@8.10.1-r0
     PkgName: libcurl
@@ -756,14 +764,16 @@
       omits both login and password. A rare circumstance.
     Severity: LOW
     VendorSeverity:
+      photon: 2
       ubuntu: 1
     References:
     - https://curl.se/docs/CVE-2025-0167.html
     - https://curl.se/docs/CVE-2025-0167.json
     - https://hackerone.com/reports/2917232
+    - https://security.netapp.com/advisory/ntap-20250306-0008/
     - https://www.cve.org/CVERecord?id=CVE-2025-0167
     PublishedDate: '2025-02-05T10:15:22.71Z'
-    LastModifiedDate: '2025-02-06T15:15:16.967Z'
+    LastModifiedDate: '2025-03-07T01:15:12.11Z'
   - VulnerabilityID: CVE-2025-0665
     PkgID: libcurl@8.10.1-r0
     PkgName: libcurl
@@ -792,8 +802,9 @@
     - https://curl.se/docs/CVE-2025-0665.html
     - https://curl.se/docs/CVE-2025-0665.json
     - https://hackerone.com/reports/2954286
+    - https://security.netapp.com/advisory/ntap-20250306-0007/
     PublishedDate: '2025-02-05T10:15:22.857Z'
-    LastModifiedDate: '2025-02-18T19:15:23.28Z'
+    LastModifiedDate: '2025-03-07T01:15:12.293Z'
   - VulnerabilityID: CVE-2024-50602
     PkgID: libexpat@2.6.3-r0
     PkgName: libexpat
@@ -895,6 +906,7 @@
     - CWE-392
     VendorSeverity:
       alma: 3
+      azure: 3
       cbl-mariner: 3
       ghsa: 1
       oracle-oval: 3
@@ -1088,6 +1100,7 @@
     CweIDs:
     - CWE-407
     VendorSeverity:
+      cbl-mariner: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -3952,6 +3965,7 @@
     - CWE-392
     VendorSeverity:
       alma: 3
+      azure: 3
       cbl-mariner: 3
       ghsa: 1
       oracle-oval: 3
@@ -4179,6 +4193,8 @@
     - https://github.com/jetty/jetty.project/security/advisories/GHSA-qh8g-58pp-2wxh
     - https://gitlab.eclipse.org/security/cve-assignement/-/issues/25
     - https://nvd.nist.gov/vuln/detail/CVE-2024-6763
+    - https://security.netapp.com/advisory/ntap-20250306-0005
+    - https://security.netapp.com/advisory/ntap-20250306-0005/
     - https://www.cve.org/CVERecord?id=CVE-2024-6763
     PublishedDate: '2024-10-14T16:15:04.163Z'
-    LastModifiedDate: '2024-11-08T21:15:57.677Z'
+    LastModifiedDate: '2025-03-07T01:15:11.793Z'
