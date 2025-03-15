@@ -1323,7 +1323,7 @@
 │                       │                         ├ [1]: https://github.com/krb5/krb5/commit/78ceba024b64d49612
 │                       │                         │      375be4a12d1c066b0bfbd0 
 │                       │                         ├ [2]: https://linux.oracle.com/cve/CVE-2025-24528.html 
-│                       │                         ├ [3]: https://linux.oracle.com/errata/ELSA-2025-1352.html 
+│                       │                         ├ [3]: https://linux.oracle.com/errata/ELSA-2025-2722.html 
 │                       │                         ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-24528 
 │                       │                         ├ [5]: https://ubuntu.com/security/notices/USN-7314-1 
 │                       │                         ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-24528 
@@ -2832,7 +2832,8 @@
 │                       │      │                   causing a denial of service attack. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-407 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -2877,6 +2878,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
@@ -2924,6 +2926,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-121 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
@@ -3112,7 +3115,8 @@
 │                       │      │                   pointer dereference in xmlPatMatch in pattern.c. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 1 
+│                       │      ├ VendorSeverity   ╭ azure      : 1 
+│                       │      │                  ├ cbl-mariner: 1 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 1 
@@ -4305,6 +4309,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-385 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N
@@ -4513,6 +4518,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-385 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N
@@ -4975,6 +4981,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-20 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -5000,11 +5007,13 @@
 │                       │      │                  │       ce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB
 │                       │      │                  │       / 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
-│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7280-1 
-│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7348-1 
-│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250314-00
+│                       │      │                  │       02/ 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7280-1 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7348-1 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                       │      ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
-│                       │      ╰ LastModifiedDate: 2025-02-28T20:15:46.58Z 
+│                       │      ╰ LastModifiedDate: 2025-03-14T10:15:15.847Z 
 │                       ├ [75] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.21-1.el9_5.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
@@ -5369,6 +5378,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-20 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -5394,11 +5404,13 @@
 │                       │      │                  │       ce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB
 │                       │      │                  │       / 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
-│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7280-1 
-│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7348-1 
-│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250314-00
+│                       │      │                  │       02/ 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7280-1 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7348-1 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                       │      ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
-│                       │      ╰ LastModifiedDate: 2025-02-28T20:15:46.58Z 
+│                       │      ╰ LastModifiedDate: 2025-03-14T10:15:15.847Z 
 │                       ├ [80] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python3@3.9.21-1.el9_5.x86_64 
 │                       │      ├ PkgName         : python3 
@@ -5763,6 +5775,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-20 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -5788,11 +5801,13 @@
 │                       │      │                  │       ce@python.org/thread/K4EUG6EKV6JYFIC24BASYOZS4M5XOQIB
 │                       │      │                  │       / 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-0938 
-│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7280-1 
-│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7348-1 
-│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250314-00
+│                       │      │                  │       02/ 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7280-1 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7348-1 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                       │      ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
-│                       │      ╰ LastModifiedDate: 2025-02-28T20:15:46.58Z 
+│                       │      ╰ LastModifiedDate: 2025-03-14T10:15:15.847Z 
 │                       ├ [85] ╭ VulnerabilityID : CVE-2024-0397 
 │                       │      ├ PkgID           : python3-libs@3.9.21-1.el9_5.x86_64 
 │                       │      ├ PkgName         : python3-libs 
