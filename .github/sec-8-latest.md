@@ -261,13 +261,15 @@
 │                       │      │                   `default` entry that
 │                       │      │                   omits both login and password. A rare circumstance. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      ├ VendorSeverity   ╭ azure : 1 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
 │                       │      │                  ├ [2]: https://hackerone.com/reports/2917232 
-│                       │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-20250306-0008/ 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-0167 
+│                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-20250306-0008/ 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
 │                       │      ╰ LastModifiedDate: 2025-03-07T01:15:12.11Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2025-0665 
@@ -292,13 +294,15 @@
 │                       │      │                    twice when taking
 │                       │      │                   down a connection channel after having completed a threaded
 │                       │      │                   name resolve. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ azure: 1 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/2 
 │                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/05/5 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-0665.html 
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-0665.json 
 │                       │      │                  ├ [4]: https://hackerone.com/reports/2954286 
-│                       │      │                  ╰ [5]: https://security.netapp.com/advisory/ntap-20250306-0007/ 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-0665 
+│                       │      │                  ╰ [6]: https://security.netapp.com/advisory/ntap-20250306-0007/ 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.857Z 
 │                       │      ╰ LastModifiedDate: 2025-03-07T01:15:12.293Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2024-12797 
@@ -436,6 +440,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-385 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N
@@ -822,13 +827,15 @@
 │                       │      │                   `default` entry that
 │                       │      │                   omits both login and password. A rare circumstance. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      ├ VendorSeverity   ╭ azure : 1 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
 │                       │      │                  ├ [2]: https://hackerone.com/reports/2917232 
-│                       │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-20250306-0008/ 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-0167 
+│                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-20250306-0008/ 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
 │                       │      ╰ LastModifiedDate: 2025-03-07T01:15:12.11Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2025-0665 
@@ -854,13 +861,15 @@
 │                       │      │                    twice when taking
 │                       │      │                   down a connection channel after having completed a threaded
 │                       │      │                   name resolve. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ─ azure: 1 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/2 
 │                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/05/5 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-0665.html 
 │                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-0665.json 
 │                       │      │                  ├ [4]: https://hackerone.com/reports/2954286 
-│                       │      │                  ╰ [5]: https://security.netapp.com/advisory/ntap-20250306-0007/ 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-0665 
+│                       │      │                  ╰ [6]: https://security.netapp.com/advisory/ntap-20250306-0007/ 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.857Z 
 │                       │      ╰ LastModifiedDate: 2025-03-07T01:15:12.293Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2024-50602 
@@ -1052,6 +1061,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-385 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N
@@ -1202,7 +1212,8 @@
 │                       │      │                   causing a denial of service attack. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-407 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -1532,6 +1543,7 @@
 │                       │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ nvd        : 2 
@@ -1584,7 +1596,7 @@
 │                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2024-21145 
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.993Z 
-│                       │      ╰ LastModifiedDate: 2024-12-16T20:13:37.007Z 
+│                       │      ╰ LastModifiedDate: 2025-03-13T14:15:20.36Z 
 │                       ├ [23] ╭ VulnerabilityID : CVE-2024-21235 
 │                       │      ├ PkgID           : openjdk8-jre@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre 
@@ -1631,7 +1643,7 @@
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
@@ -1672,8 +1684,10 @@
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
 │                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
-│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21235 
-│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-7338-1 
+│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-7339-1 
+│                       │      │                  ├ [29]: https://www.cve.org/CVERecord?id=CVE-2024-21235 
+│                       │      │                  ╰ [30]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:12.643Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:30:26.097Z 
 │                       ├ [24] ╭ VulnerabilityID : CVE-2024-21011 
@@ -2330,7 +2344,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-203 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
@@ -2371,8 +2385,10 @@
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
 │                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
-│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21208 
-│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-7338-1 
+│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-7339-1 
+│                       │      │                  ├ [29]: https://www.cve.org/CVERecord?id=CVE-2024-21208 
+│                       │      │                  ╰ [30]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.437Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:05.287Z 
 │                       ├ [32] ╭ VulnerabilityID : CVE-2024-21210 
@@ -2413,7 +2429,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-203 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
@@ -2454,8 +2470,10 @@
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
 │                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
-│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21210 
-│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-7338-1 
+│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-7339-1 
+│                       │      │                  ├ [29]: https://www.cve.org/CVERecord?id=CVE-2024-21210 
+│                       │      │                  ╰ [30]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.843Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.037Z 
 │                       ├ [33] ╭ VulnerabilityID : CVE-2024-21217 
@@ -2500,8 +2518,9 @@
 │                       │      │                   security. CVSS 3.1 Base Score 3.7 (Availability impacts). 
 │                       │      │                   CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L). 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-502 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
@@ -2542,10 +2561,12 @@
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
 │                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
-│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21217 
-│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-7338-1 
+│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-7339-1 
+│                       │      │                  ├ [29]: https://www.cve.org/CVERecord?id=CVE-2024-21217 
+│                       │      │                  ╰ [30]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:11.197Z 
-│                       │      ╰ LastModifiedDate: 2024-10-18T18:29:36.59Z 
+│                       │      ╰ LastModifiedDate: 2025-03-13T14:15:21.56Z 
 │                       ├ [34] ╭ VulnerabilityID : CVE-2024-21147 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
@@ -2782,6 +2803,7 @@
 │                       │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ nvd        : 2 
@@ -2834,7 +2856,7 @@
 │                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2024-21145 
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.993Z 
-│                       │      ╰ LastModifiedDate: 2024-12-16T20:13:37.007Z 
+│                       │      ╰ LastModifiedDate: 2025-03-13T14:15:20.36Z 
 │                       ├ [37] ╭ VulnerabilityID : CVE-2024-21235 
 │                       │      ├ PkgID           : openjdk8-jre-base@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-base 
@@ -2881,7 +2903,7 @@
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
@@ -2922,8 +2944,10 @@
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
 │                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
-│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21235 
-│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-7338-1 
+│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-7339-1 
+│                       │      │                  ├ [29]: https://www.cve.org/CVERecord?id=CVE-2024-21235 
+│                       │      │                  ╰ [30]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:12.643Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:30:26.097Z 
 │                       ├ [38] ╭ VulnerabilityID : CVE-2024-21011 
@@ -3580,7 +3604,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-203 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
@@ -3621,8 +3645,10 @@
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
 │                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
-│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21208 
-│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-7338-1 
+│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-7339-1 
+│                       │      │                  ├ [29]: https://www.cve.org/CVERecord?id=CVE-2024-21208 
+│                       │      │                  ╰ [30]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.437Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:05.287Z 
 │                       ├ [46] ╭ VulnerabilityID : CVE-2024-21210 
@@ -3663,7 +3689,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-203 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
@@ -3704,8 +3730,10 @@
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
 │                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
-│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21210 
-│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-7338-1 
+│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-7339-1 
+│                       │      │                  ├ [29]: https://www.cve.org/CVERecord?id=CVE-2024-21210 
+│                       │      │                  ╰ [30]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.843Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.037Z 
 │                       ├ [47] ╭ VulnerabilityID : CVE-2024-21217 
@@ -3750,8 +3778,9 @@
 │                       │      │                   security. CVSS 3.1 Base Score 3.7 (Availability impacts). 
 │                       │      │                   CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L). 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-502 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
@@ -3792,10 +3821,12 @@
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
 │                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
-│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21217 
-│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-7338-1 
+│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-7339-1 
+│                       │      │                  ├ [29]: https://www.cve.org/CVERecord?id=CVE-2024-21217 
+│                       │      │                  ╰ [30]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:11.197Z 
-│                       │      ╰ LastModifiedDate: 2024-10-18T18:29:36.59Z 
+│                       │      ╰ LastModifiedDate: 2025-03-13T14:15:21.56Z 
 │                       ├ [48] ╭ VulnerabilityID : CVE-2024-21147 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
@@ -4032,6 +4063,7 @@
 │                       │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ nvd        : 2 
@@ -4084,7 +4116,7 @@
 │                       │      │                  ├ [30]: https://www.cve.org/CVERecord?id=CVE-2024-21145 
 │                       │      │                  ╰ [31]: https://www.oracle.com/security-alerts/cpujul2024.html 
 │                       │      ├ PublishedDate   : 2024-07-16T23:15:15.993Z 
-│                       │      ╰ LastModifiedDate: 2024-12-16T20:13:37.007Z 
+│                       │      ╰ LastModifiedDate: 2025-03-13T14:15:20.36Z 
 │                       ├ [51] ╭ VulnerabilityID : CVE-2024-21235 
 │                       │      ├ PkgID           : openjdk8-jre-lib@8.402.06-r0 
 │                       │      ├ PkgName         : openjdk8-jre-lib 
@@ -4131,7 +4163,7 @@
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
@@ -4172,8 +4204,10 @@
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
 │                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
-│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21235 
-│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-7338-1 
+│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-7339-1 
+│                       │      │                  ├ [29]: https://www.cve.org/CVERecord?id=CVE-2024-21235 
+│                       │      │                  ╰ [30]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:12.643Z 
 │                       │      ╰ LastModifiedDate: 2024-10-18T18:30:26.097Z 
 │                       ├ [52] ╭ VulnerabilityID : CVE-2024-21011 
@@ -4830,7 +4864,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-203 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
@@ -4871,8 +4905,10 @@
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
 │                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
-│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21208 
-│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-7338-1 
+│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-7339-1 
+│                       │      │                  ├ [29]: https://www.cve.org/CVERecord?id=CVE-2024-21208 
+│                       │      │                  ╰ [30]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.437Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:05.287Z 
 │                       ├ [60] ╭ VulnerabilityID : CVE-2024-21210 
@@ -4913,7 +4949,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-203 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
@@ -4954,8 +4990,10 @@
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
 │                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
-│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21210 
-│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-7338-1 
+│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-7339-1 
+│                       │      │                  ├ [29]: https://www.cve.org/CVERecord?id=CVE-2024-21210 
+│                       │      │                  ╰ [30]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:09.843Z 
 │                       │      ╰ LastModifiedDate: 2024-10-31T13:35:06.037Z 
 │                       ├ [61] ╭ VulnerabilityID : CVE-2024-21217 
@@ -5000,8 +5038,9 @@
 │                       │      │                   security. CVSS 3.1 Base Score 3.7 (Availability impacts). 
 │                       │      │                   CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L). 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-502 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 2 
@@ -5042,10 +5081,12 @@
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7098-1 
 │                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7099-1 
 │                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7124-1 
-│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-21217 
-│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuoct2024.html 
+│                       │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-7338-1 
+│                       │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-7339-1 
+│                       │      │                  ├ [29]: https://www.cve.org/CVERecord?id=CVE-2024-21217 
+│                       │      │                  ╰ [30]: https://www.oracle.com/security-alerts/cpuoct2024.html 
 │                       │      ├ PublishedDate   : 2024-10-15T20:15:11.197Z 
-│                       │      ╰ LastModifiedDate: 2024-10-18T18:29:36.59Z 
+│                       │      ╰ LastModifiedDate: 2025-03-13T14:15:21.56Z 
 │                       ├ [62] ╭ VulnerabilityID : CVE-2024-12797 
 │                       │      ├ PkgID           : openssl@3.3.2-r0 
 │                       │      ├ PkgName         : openssl 
@@ -5181,6 +5222,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-385 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N
