@@ -10,10 +10,10 @@
 │                       │      │                  ╰ UID : 91b2a8258892ebb 
 │                       │      ├ InstalledVersion: 9.4-3ubuntu6 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:949e5e22eb49c777cfe96658cbc85b87a81af3849102
-│                       │      │                  │         327dc66c01fe2637d547 
-│                       │      │                  ╰ DiffID: sha256:0fa4fbcf6e8e53a8307af0b8ec911d22a9d6a91d2ce5
-│                       │      │                            b88cdfa12f2de9836f60 
+│                       │      ├ Layer            ╭ Digest: sha256:db34b054ee14762355ffc9008d8b484c600b90eb2d94
+│                       │      │                  │         79b4177abd827f598398 
+│                       │      │                  ╰ DiffID: sha256:38544698b093173b60d3bd2a0547dca5c8c16efa96f4
+│                       │      │                            bc4b6b70f0895d80c2e8 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-2781 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -64,10 +64,10 @@
 │                       │      │                  ╰ UID : 71fd8292b7daf34e 
 │                       │      ├ InstalledVersion: 8.5.0-2ubuntu10.6 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:949e5e22eb49c777cfe96658cbc85b87a81af3849102
-│                       │      │                  │         327dc66c01fe2637d547 
-│                       │      │                  ╰ DiffID: sha256:0fa4fbcf6e8e53a8307af0b8ec911d22a9d6a91d2ce5
-│                       │      │                            b88cdfa12f2de9836f60 
+│                       │      ├ Layer            ╭ Digest: sha256:db34b054ee14762355ffc9008d8b484c600b90eb2d94
+│                       │      │                  │         79b4177abd827f598398 
+│                       │      │                  ╰ DiffID: sha256:38544698b093173b60d3bd2a0547dca5c8c16efa96f4
+│                       │      │                            bc4b6b70f0895d80c2e8 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0167 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -85,13 +85,15 @@
 │                       │      │                   `default` entry that
 │                       │      │                   omits both login and password. A rare circumstance. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      ├ VendorSeverity   ╭ azure : 1 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
 │                       │      │                  ├ [2]: https://hackerone.com/reports/2917232 
-│                       │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-20250306-0008/ 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-0167 
+│                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-20250306-0008/ 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
 │                       │      ╰ LastModifiedDate: 2025-03-07T01:15:12.11Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2022-3219 
@@ -102,10 +104,10 @@
 │                       │      │                  ╰ UID : 7861d55200da292b 
 │                       │      ├ InstalledVersion: 2.4.4-2ubuntu17 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:949e5e22eb49c777cfe96658cbc85b87a81af3849102
-│                       │      │                  │         327dc66c01fe2637d547 
-│                       │      │                  ╰ DiffID: sha256:0fa4fbcf6e8e53a8307af0b8ec911d22a9d6a91d2ce5
-│                       │      │                            b88cdfa12f2de9836f60 
+│                       │      ├ Layer            ╭ Digest: sha256:db34b054ee14762355ffc9008d8b484c600b90eb2d94
+│                       │      │                  │         79b4177abd827f598398 
+│                       │      │                  ╰ DiffID: sha256:38544698b093173b60d3bd2a0547dca5c8c16efa96f4
+│                       │      │                            bc4b6b70f0895d80c2e8 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -136,7 +138,7 @@
 │                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-20230324-0001/ 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T07:19:04.727Z 
+│                       │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2016-20013 
 │                       │      ├ PkgID           : libc-bin@2.39-0ubuntu8.4 
 │                       │      ├ PkgName         : libc-bin 
@@ -145,10 +147,10 @@
 │                       │      │                  ╰ UID : 939838306fc8a34c 
 │                       │      ├ InstalledVersion: 2.39-0ubuntu8.4 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:949e5e22eb49c777cfe96658cbc85b87a81af3849102
-│                       │      │                  │         327dc66c01fe2637d547 
-│                       │      │                  ╰ DiffID: sha256:0fa4fbcf6e8e53a8307af0b8ec911d22a9d6a91d2ce5
-│                       │      │                            b88cdfa12f2de9836f60 
+│                       │      ├ Layer            ╭ Digest: sha256:db34b054ee14762355ffc9008d8b484c600b90eb2d94
+│                       │      │                  │         79b4177abd827f598398 
+│                       │      │                  ╰ DiffID: sha256:38544698b093173b60d3bd2a0547dca5c8c16efa96f4
+│                       │      │                            bc4b6b70f0895d80c2e8 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-20013 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -181,10 +183,10 @@
 │                       │      │                  ╰ UID : 59b78719802dd37a 
 │                       │      ├ InstalledVersion: 2.39-0ubuntu8.4 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:949e5e22eb49c777cfe96658cbc85b87a81af3849102
-│                       │      │                  │         327dc66c01fe2637d547 
-│                       │      │                  ╰ DiffID: sha256:0fa4fbcf6e8e53a8307af0b8ec911d22a9d6a91d2ce5
-│                       │      │                            b88cdfa12f2de9836f60 
+│                       │      ├ Layer            ╭ Digest: sha256:db34b054ee14762355ffc9008d8b484c600b90eb2d94
+│                       │      │                  │         79b4177abd827f598398 
+│                       │      │                  ╰ DiffID: sha256:38544698b093173b60d3bd2a0547dca5c8c16efa96f4
+│                       │      │                            bc4b6b70f0895d80c2e8 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-20013 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -217,10 +219,10 @@
 │                       │      │                  ╰ UID : dbcd56afaf949b99 
 │                       │      ├ InstalledVersion: 8.5.0-2ubuntu10.6 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:949e5e22eb49c777cfe96658cbc85b87a81af3849102
-│                       │      │                  │         327dc66c01fe2637d547 
-│                       │      │                  ╰ DiffID: sha256:0fa4fbcf6e8e53a8307af0b8ec911d22a9d6a91d2ce5
-│                       │      │                            b88cdfa12f2de9836f60 
+│                       │      ├ Layer            ╭ Digest: sha256:db34b054ee14762355ffc9008d8b484c600b90eb2d94
+│                       │      │                  │         79b4177abd827f598398 
+│                       │      │                  ╰ DiffID: sha256:38544698b093173b60d3bd2a0547dca5c8c16efa96f4
+│                       │      │                            bc4b6b70f0895d80c2e8 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-0167 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -238,13 +240,15 @@
 │                       │      │                   `default` entry that
 │                       │      │                   omits both login and password. A rare circumstance. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      ├ VendorSeverity   ╭ azure : 1 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
 │                       │      │                  ├ [2]: https://hackerone.com/reports/2917232 
-│                       │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-20250306-0008/ 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-0167 
+│                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-20250306-0008/ 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-0167 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.71Z 
 │                       │      ╰ LastModifiedDate: 2025-03-07T01:15:12.11Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2024-2236 
@@ -255,10 +259,10 @@
 │                       │      │                  ╰ UID : 75ea201b0aeb3715 
 │                       │      ├ InstalledVersion: 1.10.3-2build1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:949e5e22eb49c777cfe96658cbc85b87a81af3849102
-│                       │      │                  │         327dc66c01fe2637d547 
-│                       │      │                  ╰ DiffID: sha256:0fa4fbcf6e8e53a8307af0b8ec911d22a9d6a91d2ce5
-│                       │      │                            b88cdfa12f2de9836f60 
+│                       │      ├ Layer            ╭ Digest: sha256:db34b054ee14762355ffc9008d8b484c600b90eb2d94
+│                       │      │                  │         79b4177abd827f598398 
+│                       │      │                  ╰ DiffID: sha256:38544698b093173b60d3bd2a0547dca5c8c16efa96f4
+│                       │      │                            bc4b6b70f0895d80c2e8 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-2236 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -306,10 +310,10 @@
 │                       │      │                  ╰ UID : f821171cc4f544ed 
 │                       │      ├ InstalledVersion: 1.5.3-5ubuntu5.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:949e5e22eb49c777cfe96658cbc85b87a81af3849102
-│                       │      │                  │         327dc66c01fe2637d547 
-│                       │      │                  ╰ DiffID: sha256:0fa4fbcf6e8e53a8307af0b8ec911d22a9d6a91d2ce5
-│                       │      │                            b88cdfa12f2de9836f60 
+│                       │      ├ Layer            ╭ Digest: sha256:db34b054ee14762355ffc9008d8b484c600b90eb2d94
+│                       │      │                  │         79b4177abd827f598398 
+│                       │      │                  ╰ DiffID: sha256:38544698b093173b60d3bd2a0547dca5c8c16efa96f4
+│                       │      │                            bc4b6b70f0895d80c2e8 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10041 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -361,10 +365,10 @@
 │                       │      │                  ╰ UID : f821171cc4f544ed 
 │                       │      ├ InstalledVersion: 1.5.3-5ubuntu5.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:949e5e22eb49c777cfe96658cbc85b87a81af3849102
-│                       │      │                  │         327dc66c01fe2637d547 
-│                       │      │                  ╰ DiffID: sha256:0fa4fbcf6e8e53a8307af0b8ec911d22a9d6a91d2ce5
-│                       │      │                            b88cdfa12f2de9836f60 
+│                       │      ├ Layer            ╭ Digest: sha256:db34b054ee14762355ffc9008d8b484c600b90eb2d94
+│                       │      │                  │         79b4177abd827f598398 
+│                       │      │                  ╰ DiffID: sha256:38544698b093173b60d3bd2a0547dca5c8c16efa96f4
+│                       │      │                            bc4b6b70f0895d80c2e8 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10963 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -420,10 +424,10 @@
 │                       │      │                  ╰ UID : 7c7ccd55f96c6f56 
 │                       │      ├ InstalledVersion: 1.5.3-5ubuntu5.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:949e5e22eb49c777cfe96658cbc85b87a81af3849102
-│                       │      │                  │         327dc66c01fe2637d547 
-│                       │      │                  ╰ DiffID: sha256:0fa4fbcf6e8e53a8307af0b8ec911d22a9d6a91d2ce5
-│                       │      │                            b88cdfa12f2de9836f60 
+│                       │      ├ Layer            ╭ Digest: sha256:db34b054ee14762355ffc9008d8b484c600b90eb2d94
+│                       │      │                  │         79b4177abd827f598398 
+│                       │      │                  ╰ DiffID: sha256:38544698b093173b60d3bd2a0547dca5c8c16efa96f4
+│                       │      │                            bc4b6b70f0895d80c2e8 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10041 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -475,10 +479,10 @@
 │                       │      │                  ╰ UID : 7c7ccd55f96c6f56 
 │                       │      ├ InstalledVersion: 1.5.3-5ubuntu5.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:949e5e22eb49c777cfe96658cbc85b87a81af3849102
-│                       │      │                  │         327dc66c01fe2637d547 
-│                       │      │                  ╰ DiffID: sha256:0fa4fbcf6e8e53a8307af0b8ec911d22a9d6a91d2ce5
-│                       │      │                            b88cdfa12f2de9836f60 
+│                       │      ├ Layer            ╭ Digest: sha256:db34b054ee14762355ffc9008d8b484c600b90eb2d94
+│                       │      │                  │         79b4177abd827f598398 
+│                       │      │                  ╰ DiffID: sha256:38544698b093173b60d3bd2a0547dca5c8c16efa96f4
+│                       │      │                            bc4b6b70f0895d80c2e8 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10963 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -534,10 +538,10 @@
 │                       │      │                  ╰ UID : f94ce0c2a9328057 
 │                       │      ├ InstalledVersion: 1.5.3-5ubuntu5.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:949e5e22eb49c777cfe96658cbc85b87a81af3849102
-│                       │      │                  │         327dc66c01fe2637d547 
-│                       │      │                  ╰ DiffID: sha256:0fa4fbcf6e8e53a8307af0b8ec911d22a9d6a91d2ce5
-│                       │      │                            b88cdfa12f2de9836f60 
+│                       │      ├ Layer            ╭ Digest: sha256:db34b054ee14762355ffc9008d8b484c600b90eb2d94
+│                       │      │                  │         79b4177abd827f598398 
+│                       │      │                  ╰ DiffID: sha256:38544698b093173b60d3bd2a0547dca5c8c16efa96f4
+│                       │      │                            bc4b6b70f0895d80c2e8 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10041 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -589,10 +593,10 @@
 │                       │      │                  ╰ UID : f94ce0c2a9328057 
 │                       │      ├ InstalledVersion: 1.5.3-5ubuntu5.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:949e5e22eb49c777cfe96658cbc85b87a81af3849102
-│                       │      │                  │         327dc66c01fe2637d547 
-│                       │      │                  ╰ DiffID: sha256:0fa4fbcf6e8e53a8307af0b8ec911d22a9d6a91d2ce5
-│                       │      │                            b88cdfa12f2de9836f60 
+│                       │      ├ Layer            ╭ Digest: sha256:db34b054ee14762355ffc9008d8b484c600b90eb2d94
+│                       │      │                  │         79b4177abd827f598398 
+│                       │      │                  ╰ DiffID: sha256:38544698b093173b60d3bd2a0547dca5c8c16efa96f4
+│                       │      │                            bc4b6b70f0895d80c2e8 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10963 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -648,10 +652,10 @@
 │                       │      │                  ╰ UID : 7a311da79b48e0e1 
 │                       │      ├ InstalledVersion: 1.5.3-5ubuntu5.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:949e5e22eb49c777cfe96658cbc85b87a81af3849102
-│                       │      │                  │         327dc66c01fe2637d547 
-│                       │      │                  ╰ DiffID: sha256:0fa4fbcf6e8e53a8307af0b8ec911d22a9d6a91d2ce5
-│                       │      │                            b88cdfa12f2de9836f60 
+│                       │      ├ Layer            ╭ Digest: sha256:db34b054ee14762355ffc9008d8b484c600b90eb2d94
+│                       │      │                  │         79b4177abd827f598398 
+│                       │      │                  ╰ DiffID: sha256:38544698b093173b60d3bd2a0547dca5c8c16efa96f4
+│                       │      │                            bc4b6b70f0895d80c2e8 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10041 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -703,10 +707,10 @@
 │                       │      │                  ╰ UID : 7a311da79b48e0e1 
 │                       │      ├ InstalledVersion: 1.5.3-5ubuntu5.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:949e5e22eb49c777cfe96658cbc85b87a81af3849102
-│                       │      │                  │         327dc66c01fe2637d547 
-│                       │      │                  ╰ DiffID: sha256:0fa4fbcf6e8e53a8307af0b8ec911d22a9d6a91d2ce5
-│                       │      │                            b88cdfa12f2de9836f60 
+│                       │      ├ Layer            ╭ Digest: sha256:db34b054ee14762355ffc9008d8b484c600b90eb2d94
+│                       │      │                  │         79b4177abd827f598398 
+│                       │      │                  ╰ DiffID: sha256:38544698b093173b60d3bd2a0547dca5c8c16efa96f4
+│                       │      │                            bc4b6b70f0895d80c2e8 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10963 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -762,10 +766,10 @@
 │                       │      │                  ╰ UID : f7dd30a98cc0b1a 
 │                       │      ├ InstalledVersion: 3.0.13-0ubuntu3.5 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:949e5e22eb49c777cfe96658cbc85b87a81af3849102
-│                       │      │                  │         327dc66c01fe2637d547 
-│                       │      │                  ╰ DiffID: sha256:0fa4fbcf6e8e53a8307af0b8ec911d22a9d6a91d2ce5
-│                       │      │                            b88cdfa12f2de9836f60 
+│                       │      ├ Layer            ╭ Digest: sha256:db34b054ee14762355ffc9008d8b484c600b90eb2d94
+│                       │      │                  │         79b4177abd827f598398 
+│                       │      │                  ╰ DiffID: sha256:38544698b093173b60d3bd2a0547dca5c8c16efa96f4
+│                       │      │                            bc4b6b70f0895d80c2e8 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-41996 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -812,10 +816,10 @@
 │                       │      │                  ╰ UID : 92b953859fb749c3 
 │                       │      ├ InstalledVersion: 1:4.13+dfsg1-4ubuntu3.2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:949e5e22eb49c777cfe96658cbc85b87a81af3849102
-│                       │      │                  │         327dc66c01fe2637d547 
-│                       │      │                  ╰ DiffID: sha256:0fa4fbcf6e8e53a8307af0b8ec911d22a9d6a91d2ce5
-│                       │      │                            b88cdfa12f2de9836f60 
+│                       │      ├ Layer            ╭ Digest: sha256:db34b054ee14762355ffc9008d8b484c600b90eb2d94
+│                       │      │                  │         79b4177abd827f598398 
+│                       │      │                  ╰ DiffID: sha256:38544698b093173b60d3bd2a0547dca5c8c16efa96f4
+│                       │      │                            bc4b6b70f0895d80c2e8 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56433 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -859,10 +863,10 @@
 │                       │      │                  ╰ UID : 9833b0131d231716 
 │                       │      ├ InstalledVersion: 3.0.13-0ubuntu3.5 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:949e5e22eb49c777cfe96658cbc85b87a81af3849102
-│                       │      │                  │         327dc66c01fe2637d547 
-│                       │      │                  ╰ DiffID: sha256:0fa4fbcf6e8e53a8307af0b8ec911d22a9d6a91d2ce5
-│                       │      │                            b88cdfa12f2de9836f60 
+│                       │      ├ Layer            ╭ Digest: sha256:db34b054ee14762355ffc9008d8b484c600b90eb2d94
+│                       │      │                  │         79b4177abd827f598398 
+│                       │      │                  ╰ DiffID: sha256:38544698b093173b60d3bd2a0547dca5c8c16efa96f4
+│                       │      │                            bc4b6b70f0895d80c2e8 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-41996 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -909,10 +913,10 @@
 │                              │                  ╰ UID : d910a4981892feb8 
 │                              ├ InstalledVersion: 1:4.13+dfsg1-4ubuntu3.2 
 │                              ├ Status          : affected 
-│                              ├ Layer            ╭ Digest: sha256:949e5e22eb49c777cfe96658cbc85b87a81af3849102
-│                              │                  │         327dc66c01fe2637d547 
-│                              │                  ╰ DiffID: sha256:0fa4fbcf6e8e53a8307af0b8ec911d22a9d6a91d2ce5
-│                              │                            b88cdfa12f2de9836f60 
+│                              ├ Layer            ╭ Digest: sha256:db34b054ee14762355ffc9008d8b484c600b90eb2d94
+│                              │                  │         79b4177abd827f598398 
+│                              │                  ╰ DiffID: sha256:38544698b093173b60d3bd2a0547dca5c8c16efa96f4
+│                              │                            bc4b6b70f0895d80c2e8 
 │                              ├ SeveritySource  : ubuntu 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56433 
 │                              ├ DataSource       ╭ ID  : ubuntu 
