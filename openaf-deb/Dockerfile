@@ -2,7 +2,7 @@ ARG DIST
 ARG OPENAFDIST
 
 #FROM openjdk:8-jre-alpine
-FROM ubuntu:daily as main
+FROM ubuntu:rolling as main
 ARG DIST
 ARG OPENAFDIST
 
