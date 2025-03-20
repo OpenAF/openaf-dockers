@@ -295,6 +295,7 @@
 │                       │      │                   down a connection channel after having completed a threaded
 │                       │      │                   name resolve. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-1341 
 │                       │      ├ VendorSeverity   ─ azure: 1 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/2 
 │                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/05/5 
@@ -304,7 +305,7 @@
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-0665 
 │                       │      │                  ╰ [6]: https://security.netapp.com/advisory/ntap-20250306-0007/ 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.857Z 
-│                       │      ╰ LastModifiedDate: 2025-03-07T01:15:12.293Z 
+│                       │      ╰ LastModifiedDate: 2025-03-18T18:15:28.427Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2024-12797 
 │                       │      ├ PkgID           : libcrypto3@3.3.2-r0 
 │                       │      ├ PkgName         : libcrypto3 
@@ -864,6 +865,7 @@
 │                       │      │                   down a connection channel after having completed a threaded
 │                       │      │                   name resolve. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-1341 
 │                       │      ├ VendorSeverity   ─ azure: 1 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/05/2 
 │                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/02/05/5 
@@ -873,7 +875,7 @@
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-0665 
 │                       │      │                  ╰ [6]: https://security.netapp.com/advisory/ntap-20250306-0007/ 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.857Z 
-│                       │      ╰ LastModifiedDate: 2025-03-07T01:15:12.293Z 
+│                       │      ╰ LastModifiedDate: 2025-03-18T18:15:28.427Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2024-8176 
 │                       │      ├ PkgID           : libexpat@2.6.3-r0 
 │                       │      ├ PkgName         : libexpat 
@@ -916,14 +918,13 @@
 │                       │      │                  ├ [5] : https://github.com/libexpat/libexpat/blob/R_2_7_0/exp
 │                       │      │                  │       at/Changes#L40-L52 
 │                       │      │                  ├ [6] : https://github.com/libexpat/libexpat/issues/893 
-│                       │      │                  ├ [7] : https://github.com/libexpat/libexpat/pull/973 
-│                       │      │                  ├ [8] : https://gitlab.alpinelinux.org/alpine/aports/-/commit
+│                       │      │                  ├ [7] : https://gitlab.alpinelinux.org/alpine/aports/-/commit
 │                       │      │                  │       /d068c3ff36fc6f4789988a09c69b434db757db53 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
-│                       │      │                  ├ [10]: https://security-tracker.debian.org/tracker/CVE-2024-
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
+│                       │      │                  ├ [9] : https://security-tracker.debian.org/tracker/CVE-2024-
 │                       │      │                  │       8176 
-│                       │      │                  ├ [11]: https://ubuntu.com/security/CVE-2024-8176 
-│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/CVE-2024-8176 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
 │                       │      ├ PublishedDate   : 2025-03-14T09:15:14.157Z 
 │                       │      ╰ LastModifiedDate: 2025-03-17T17:15:36.167Z 
 │                       ├ [14] ╭ VulnerabilityID : CVE-2024-50602 
