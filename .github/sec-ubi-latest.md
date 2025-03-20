@@ -2409,7 +2409,7 @@
 │                       │      │                  ├ [4]: https://raccoon-attack.com/RacoonAttack.pdf 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T04:59:40.06Z 
+│                       │      ╰ LastModifiedDate: 2025-03-19T16:15:14.643Z 
 │                       ├ [43] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │      ├ PkgID           : nspr@4.35.0-17.el9_2.x86_64 
 │                       │      ├ PkgName         : nspr 
@@ -2438,6 +2438,7 @@
 │                       │      │                   This vulnerability affects Firefox < 129, Firefox ESR <
 │                       │      │                   115.14, and Firefox ESR < 128.1. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-367 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
@@ -2460,7 +2461,7 @@
 │                       │      │                  ├ [8]: https://www.mozilla.org/security/advisories/mfsa2024-34/ 
 │                       │      │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
 │                       │      ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
-│                       │      ╰ LastModifiedDate: 2024-10-30T21:35:13.07Z 
+│                       │      ╰ LastModifiedDate: 2025-03-19T16:15:29.57Z 
 │                       ├ [44] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │      ├ PkgID           : nss@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss 
@@ -2499,7 +2500,7 @@
 │                       │      │                  ├ [4]: https://raccoon-attack.com/RacoonAttack.pdf 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T04:59:40.06Z 
+│                       │      ╰ LastModifiedDate: 2025-03-19T16:15:14.643Z 
 │                       ├ [45] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │      ├ PkgID           : nss@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss 
@@ -2528,6 +2529,7 @@
 │                       │      │                   This vulnerability affects Firefox < 129, Firefox ESR <
 │                       │      │                   115.14, and Firefox ESR < 128.1. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-367 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
@@ -2550,7 +2552,7 @@
 │                       │      │                  ├ [8]: https://www.mozilla.org/security/advisories/mfsa2024-34/ 
 │                       │      │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
 │                       │      ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
-│                       │      ╰ LastModifiedDate: 2024-10-30T21:35:13.07Z 
+│                       │      ╰ LastModifiedDate: 2025-03-19T16:15:29.57Z 
 │                       ├ [46] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │      ├ PkgID           : nss-softokn@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-softokn 
@@ -2589,7 +2591,7 @@
 │                       │      │                  ├ [4]: https://raccoon-attack.com/RacoonAttack.pdf 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T04:59:40.06Z 
+│                       │      ╰ LastModifiedDate: 2025-03-19T16:15:14.643Z 
 │                       ├ [47] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │      ├ PkgID           : nss-softokn@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-softokn 
@@ -2618,6 +2620,7 @@
 │                       │      │                   This vulnerability affects Firefox < 129, Firefox ESR <
 │                       │      │                   115.14, and Firefox ESR < 128.1. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-367 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
@@ -2640,7 +2643,7 @@
 │                       │      │                  ├ [8]: https://www.mozilla.org/security/advisories/mfsa2024-34/ 
 │                       │      │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
 │                       │      ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
-│                       │      ╰ LastModifiedDate: 2024-10-30T21:35:13.07Z 
+│                       │      ╰ LastModifiedDate: 2025-03-19T16:15:29.57Z 
 │                       ├ [48] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │      ├ PkgID           : nss-softokn-freebl@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-softokn-freebl 
@@ -2679,7 +2682,7 @@
 │                       │      │                  ├ [4]: https://raccoon-attack.com/RacoonAttack.pdf 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T04:59:40.06Z 
+│                       │      ╰ LastModifiedDate: 2025-03-19T16:15:14.643Z 
 │                       ├ [49] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │      ├ PkgID           : nss-softokn-freebl@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-softokn-freebl 
@@ -2708,6 +2711,7 @@
 │                       │      │                   This vulnerability affects Firefox < 129, Firefox ESR <
 │                       │      │                   115.14, and Firefox ESR < 128.1. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-367 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
@@ -2730,7 +2734,7 @@
 │                       │      │                  ├ [8]: https://www.mozilla.org/security/advisories/mfsa2024-34/ 
 │                       │      │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
 │                       │      ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
-│                       │      ╰ LastModifiedDate: 2024-10-30T21:35:13.07Z 
+│                       │      ╰ LastModifiedDate: 2025-03-19T16:15:29.57Z 
 │                       ├ [50] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │      ├ PkgID           : nss-sysinit@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-sysinit 
@@ -2769,7 +2773,7 @@
 │                       │      │                  ├ [4]: https://raccoon-attack.com/RacoonAttack.pdf 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T04:59:40.06Z 
+│                       │      ╰ LastModifiedDate: 2025-03-19T16:15:14.643Z 
 │                       ├ [51] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │      ├ PkgID           : nss-sysinit@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-sysinit 
@@ -2798,6 +2802,7 @@
 │                       │      │                   This vulnerability affects Firefox < 129, Firefox ESR <
 │                       │      │                   115.14, and Firefox ESR < 128.1. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-367 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
@@ -2820,7 +2825,7 @@
 │                       │      │                  ├ [8]: https://www.mozilla.org/security/advisories/mfsa2024-34/ 
 │                       │      │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
 │                       │      ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
-│                       │      ╰ LastModifiedDate: 2024-10-30T21:35:13.07Z 
+│                       │      ╰ LastModifiedDate: 2025-03-19T16:15:29.57Z 
 │                       ├ [52] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │      ├ PkgID           : nss-util@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-util 
@@ -2859,7 +2864,7 @@
 │                       │      │                  ├ [4]: https://raccoon-attack.com/RacoonAttack.pdf 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2020-12413 
 │                       │      ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T04:59:40.06Z 
+│                       │      ╰ LastModifiedDate: 2025-03-19T16:15:14.643Z 
 │                       ├ [53] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │      ├ PkgID           : nss-util@3.101.0-10.el9_2.x86_64 
 │                       │      ├ PkgName         : nss-util 
@@ -2888,6 +2893,7 @@
 │                       │      │                   This vulnerability affects Firefox < 129, Firefox ESR <
 │                       │      │                   115.14, and Firefox ESR < 128.1. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-367 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
@@ -2910,7 +2916,7 @@
 │                       │      │                  ├ [8]: https://www.mozilla.org/security/advisories/mfsa2024-34/ 
 │                       │      │                  ╰ [9]: https://www.mozilla.org/security/advisories/mfsa2024-35/ 
 │                       │      ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
-│                       │      ╰ LastModifiedDate: 2024-10-30T21:35:13.07Z 
+│                       │      ╰ LastModifiedDate: 2025-03-19T16:15:29.57Z 
 │                       ├ [54] ╭ VulnerabilityID : CVE-2023-2953 
 │                       │      ├ PkgID           : openldap@2.6.6-3.el9.x86_64 
 │                       │      ├ PkgName         : openldap 
