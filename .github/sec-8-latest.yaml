@@ -288,6 +288,8 @@
       libcurl would wrongly close the same eventfd file descriptor twice when taking
       down a connection channel after having completed a threaded name resolve.
     Severity: LOW
+    CweIDs:
+    - CWE-1341
     VendorSeverity:
       azure: 1
     References:
@@ -299,7 +301,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0665
     - https://security.netapp.com/advisory/ntap-20250306-0007/
     PublishedDate: '2025-02-05T10:15:22.857Z'
-    LastModifiedDate: '2025-03-07T01:15:12.293Z'
+    LastModifiedDate: '2025-03-18T18:15:28.427Z'
   - VulnerabilityID: CVE-2024-12797
     PkgID: libcrypto3@3.3.2-r0
     PkgName: libcrypto3
@@ -806,6 +808,8 @@
       libcurl would wrongly close the same eventfd file descriptor twice when taking
       down a connection channel after having completed a threaded name resolve.
     Severity: LOW
+    CweIDs:
+    - CWE-1341
     VendorSeverity:
       azure: 1
     References:
@@ -817,7 +821,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0665
     - https://security.netapp.com/advisory/ntap-20250306-0007/
     PublishedDate: '2025-02-05T10:15:22.857Z'
-    LastModifiedDate: '2025-03-07T01:15:12.293Z'
+    LastModifiedDate: '2025-03-18T18:15:28.427Z'
   - VulnerabilityID: CVE-2024-8176
     PkgID: libexpat@2.6.3-r0
     PkgName: libexpat
@@ -855,7 +859,6 @@
     - https://bugzilla.suse.com/show_bug.cgi?id=1239618
     - https://github.com/libexpat/libexpat/blob/R_2_7_0/expat/Changes#L40-L52
     - https://github.com/libexpat/libexpat/issues/893
-    - https://github.com/libexpat/libexpat/pull/973
     - https://gitlab.alpinelinux.org/alpine/aports/-/commit/d068c3ff36fc6f4789988a09c69b434db757db53
     - https://nvd.nist.gov/vuln/detail/CVE-2024-8176
     - https://security-tracker.debian.org/tracker/CVE-2024-8176
