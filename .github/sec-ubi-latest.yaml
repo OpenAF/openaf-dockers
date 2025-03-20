@@ -2186,7 +2186,7 @@
     - https://raccoon-attack.com/RacoonAttack.pdf
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:10.58Z'
-    LastModifiedDate: '2024-11-21T04:59:40.06Z'
+    LastModifiedDate: '2025-03-19T16:15:14.643Z'
   - VulnerabilityID: CVE-2024-7531
     PkgID: nspr@4.35.0-17.el9_2.x86_64
     PkgName: nspr
@@ -2203,6 +2203,8 @@
     Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
     Description: Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the same buffer for input and output can result in plaintext on an Intel Sandy Bridge processor. In Firefox this only affects the QUIC header protection feature when the connection is using the ChaCha20-Poly1305 cipher suite. The most likely outcome is connection failure, but if the connection persists despite the high packet loss it could be possible for a network observer to identify packets as coming from the same source despite a network path change. This vulnerability affects Firefox < 129, Firefox ESR < 115.14, and Firefox ESR < 128.1.
     Severity: LOW
+    CweIDs:
+    - CWE-367
     VendorSeverity:
       nvd: 2
       redhat: 1
@@ -2226,7 +2228,7 @@
     - https://www.mozilla.org/security/advisories/mfsa2024-34/
     - https://www.mozilla.org/security/advisories/mfsa2024-35/
     PublishedDate: '2024-08-06T13:15:57.787Z'
-    LastModifiedDate: '2024-10-30T21:35:13.07Z'
+    LastModifiedDate: '2025-03-19T16:15:29.57Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss@3.101.0-10.el9_2.x86_64
     PkgName: nss
@@ -2263,7 +2265,7 @@
     - https://raccoon-attack.com/RacoonAttack.pdf
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:10.58Z'
-    LastModifiedDate: '2024-11-21T04:59:40.06Z'
+    LastModifiedDate: '2025-03-19T16:15:14.643Z'
   - VulnerabilityID: CVE-2024-7531
     PkgID: nss@3.101.0-10.el9_2.x86_64
     PkgName: nss
@@ -2280,6 +2282,8 @@
     Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
     Description: Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the same buffer for input and output can result in plaintext on an Intel Sandy Bridge processor. In Firefox this only affects the QUIC header protection feature when the connection is using the ChaCha20-Poly1305 cipher suite. The most likely outcome is connection failure, but if the connection persists despite the high packet loss it could be possible for a network observer to identify packets as coming from the same source despite a network path change. This vulnerability affects Firefox < 129, Firefox ESR < 115.14, and Firefox ESR < 128.1.
     Severity: LOW
+    CweIDs:
+    - CWE-367
     VendorSeverity:
       nvd: 2
       redhat: 1
@@ -2303,7 +2307,7 @@
     - https://www.mozilla.org/security/advisories/mfsa2024-34/
     - https://www.mozilla.org/security/advisories/mfsa2024-35/
     PublishedDate: '2024-08-06T13:15:57.787Z'
-    LastModifiedDate: '2024-10-30T21:35:13.07Z'
+    LastModifiedDate: '2025-03-19T16:15:29.57Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-softokn@3.101.0-10.el9_2.x86_64
     PkgName: nss-softokn
@@ -2340,7 +2344,7 @@
     - https://raccoon-attack.com/RacoonAttack.pdf
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:10.58Z'
-    LastModifiedDate: '2024-11-21T04:59:40.06Z'
+    LastModifiedDate: '2025-03-19T16:15:14.643Z'
   - VulnerabilityID: CVE-2024-7531
     PkgID: nss-softokn@3.101.0-10.el9_2.x86_64
     PkgName: nss-softokn
@@ -2357,6 +2361,8 @@
     Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
     Description: Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the same buffer for input and output can result in plaintext on an Intel Sandy Bridge processor. In Firefox this only affects the QUIC header protection feature when the connection is using the ChaCha20-Poly1305 cipher suite. The most likely outcome is connection failure, but if the connection persists despite the high packet loss it could be possible for a network observer to identify packets as coming from the same source despite a network path change. This vulnerability affects Firefox < 129, Firefox ESR < 115.14, and Firefox ESR < 128.1.
     Severity: LOW
+    CweIDs:
+    - CWE-367
     VendorSeverity:
       nvd: 2
       redhat: 1
@@ -2380,7 +2386,7 @@
     - https://www.mozilla.org/security/advisories/mfsa2024-34/
     - https://www.mozilla.org/security/advisories/mfsa2024-35/
     PublishedDate: '2024-08-06T13:15:57.787Z'
-    LastModifiedDate: '2024-10-30T21:35:13.07Z'
+    LastModifiedDate: '2025-03-19T16:15:29.57Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-softokn-freebl@3.101.0-10.el9_2.x86_64
     PkgName: nss-softokn-freebl
@@ -2417,7 +2423,7 @@
     - https://raccoon-attack.com/RacoonAttack.pdf
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:10.58Z'
-    LastModifiedDate: '2024-11-21T04:59:40.06Z'
+    LastModifiedDate: '2025-03-19T16:15:14.643Z'
   - VulnerabilityID: CVE-2024-7531
     PkgID: nss-softokn-freebl@3.101.0-10.el9_2.x86_64
     PkgName: nss-softokn-freebl
@@ -2434,6 +2440,8 @@
     Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
     Description: Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the same buffer for input and output can result in plaintext on an Intel Sandy Bridge processor. In Firefox this only affects the QUIC header protection feature when the connection is using the ChaCha20-Poly1305 cipher suite. The most likely outcome is connection failure, but if the connection persists despite the high packet loss it could be possible for a network observer to identify packets as coming from the same source despite a network path change. This vulnerability affects Firefox < 129, Firefox ESR < 115.14, and Firefox ESR < 128.1.
     Severity: LOW
+    CweIDs:
+    - CWE-367
     VendorSeverity:
       nvd: 2
       redhat: 1
@@ -2457,7 +2465,7 @@
     - https://www.mozilla.org/security/advisories/mfsa2024-34/
     - https://www.mozilla.org/security/advisories/mfsa2024-35/
     PublishedDate: '2024-08-06T13:15:57.787Z'
-    LastModifiedDate: '2024-10-30T21:35:13.07Z'
+    LastModifiedDate: '2025-03-19T16:15:29.57Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-sysinit@3.101.0-10.el9_2.x86_64
     PkgName: nss-sysinit
@@ -2494,7 +2502,7 @@
     - https://raccoon-attack.com/RacoonAttack.pdf
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:10.58Z'
-    LastModifiedDate: '2024-11-21T04:59:40.06Z'
+    LastModifiedDate: '2025-03-19T16:15:14.643Z'
   - VulnerabilityID: CVE-2024-7531
     PkgID: nss-sysinit@3.101.0-10.el9_2.x86_64
     PkgName: nss-sysinit
@@ -2511,6 +2519,8 @@
     Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
     Description: Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the same buffer for input and output can result in plaintext on an Intel Sandy Bridge processor. In Firefox this only affects the QUIC header protection feature when the connection is using the ChaCha20-Poly1305 cipher suite. The most likely outcome is connection failure, but if the connection persists despite the high packet loss it could be possible for a network observer to identify packets as coming from the same source despite a network path change. This vulnerability affects Firefox < 129, Firefox ESR < 115.14, and Firefox ESR < 128.1.
     Severity: LOW
+    CweIDs:
+    - CWE-367
     VendorSeverity:
       nvd: 2
       redhat: 1
@@ -2534,7 +2544,7 @@
     - https://www.mozilla.org/security/advisories/mfsa2024-34/
     - https://www.mozilla.org/security/advisories/mfsa2024-35/
     PublishedDate: '2024-08-06T13:15:57.787Z'
-    LastModifiedDate: '2024-10-30T21:35:13.07Z'
+    LastModifiedDate: '2025-03-19T16:15:29.57Z'
   - VulnerabilityID: CVE-2020-12413
     PkgID: nss-util@3.101.0-10.el9_2.x86_64
     PkgName: nss-util
@@ -2571,7 +2581,7 @@
     - https://raccoon-attack.com/RacoonAttack.pdf
     - https://www.cve.org/CVERecord?id=CVE-2020-12413
     PublishedDate: '2023-02-16T22:15:10.58Z'
-    LastModifiedDate: '2024-11-21T04:59:40.06Z'
+    LastModifiedDate: '2025-03-19T16:15:14.643Z'
   - VulnerabilityID: CVE-2024-7531
     PkgID: nss-util@3.101.0-10.el9_2.x86_64
     PkgName: nss-util
@@ -2588,6 +2598,8 @@
     Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
     Description: Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the same buffer for input and output can result in plaintext on an Intel Sandy Bridge processor. In Firefox this only affects the QUIC header protection feature when the connection is using the ChaCha20-Poly1305 cipher suite. The most likely outcome is connection failure, but if the connection persists despite the high packet loss it could be possible for a network observer to identify packets as coming from the same source despite a network path change. This vulnerability affects Firefox < 129, Firefox ESR < 115.14, and Firefox ESR < 128.1.
     Severity: LOW
+    CweIDs:
+    - CWE-367
     VendorSeverity:
       nvd: 2
       redhat: 1
@@ -2611,7 +2623,7 @@
     - https://www.mozilla.org/security/advisories/mfsa2024-34/
     - https://www.mozilla.org/security/advisories/mfsa2024-35/
     PublishedDate: '2024-08-06T13:15:57.787Z'
-    LastModifiedDate: '2024-10-30T21:35:13.07Z'
+    LastModifiedDate: '2025-03-19T16:15:29.57Z'
   - VulnerabilityID: CVE-2023-2953
     PkgID: openldap@2.6.6-3.el9.x86_64
     PkgName: openldap
