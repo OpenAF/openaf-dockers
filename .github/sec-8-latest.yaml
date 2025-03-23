@@ -1485,7 +1485,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
       photon: 2
       redhat: 2
@@ -1996,7 +1996,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
       photon: 1
       redhat: 2
@@ -2064,7 +2064,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
       photon: 1
       redhat: 2
@@ -2132,7 +2132,7 @@
     - CWE-502
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
       photon: 1
       redhat: 2
@@ -2407,7 +2407,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
       photon: 2
       redhat: 2
@@ -2918,7 +2918,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
       photon: 1
       redhat: 2
@@ -2986,7 +2986,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
       photon: 1
       redhat: 2
@@ -3054,7 +3054,7 @@
     - CWE-502
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
       photon: 1
       redhat: 2
@@ -3329,7 +3329,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
       photon: 2
       redhat: 2
@@ -3840,7 +3840,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
       photon: 1
       redhat: 2
@@ -3908,7 +3908,7 @@
     - CWE-203
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
       photon: 1
       redhat: 2
@@ -3976,7 +3976,7 @@
     - CWE-502
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       oracle-oval: 2
       photon: 1
       redhat: 2
