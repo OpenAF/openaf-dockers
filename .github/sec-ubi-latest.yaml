@@ -3244,6 +3244,7 @@
     - https://security.netapp.com/advisory/ntap-20250314-0002/
     - https://ubuntu.com/security/notices/USN-7280-1
     - https://ubuntu.com/security/notices/USN-7348-1
+    - https://ubuntu.com/security/notices/USN-7348-2
     - https://www.cve.org/CVERecord?id=CVE-2025-0938
     PublishedDate: '2025-01-31T18:15:38.053Z'
     LastModifiedDate: '2025-03-14T10:15:15.847Z'
@@ -3536,6 +3537,7 @@
     - https://security.netapp.com/advisory/ntap-20250314-0002/
     - https://ubuntu.com/security/notices/USN-7280-1
     - https://ubuntu.com/security/notices/USN-7348-1
+    - https://ubuntu.com/security/notices/USN-7348-2
     - https://www.cve.org/CVERecord?id=CVE-2025-0938
     PublishedDate: '2025-01-31T18:15:38.053Z'
     LastModifiedDate: '2025-03-14T10:15:15.847Z'
@@ -3828,6 +3830,7 @@
     - https://security.netapp.com/advisory/ntap-20250314-0002/
     - https://ubuntu.com/security/notices/USN-7280-1
     - https://ubuntu.com/security/notices/USN-7348-1
+    - https://ubuntu.com/security/notices/USN-7348-2
     - https://www.cve.org/CVERecord?id=CVE-2025-0938
     PublishedDate: '2025-01-31T18:15:38.053Z'
     LastModifiedDate: '2025-03-14T10:15:15.847Z'
