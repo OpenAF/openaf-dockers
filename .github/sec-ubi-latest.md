@@ -3676,7 +3676,8 @@
 │                       │      │                  │       02/ 
 │                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7280-1 
 │                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7348-1 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7348-2 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                       │      ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
 │                       │      ╰ LastModifiedDate: 2025-03-14T10:15:15.847Z 
 │                       ├ [67] ╭ VulnerabilityID : CVE-2024-0397 
@@ -4073,7 +4074,8 @@
 │                       │      │                  │       02/ 
 │                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7280-1 
 │                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7348-1 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7348-2 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                       │      ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
 │                       │      ╰ LastModifiedDate: 2025-03-14T10:15:15.847Z 
 │                       ├ [72] ╭ VulnerabilityID : CVE-2024-0397 
@@ -4470,7 +4472,8 @@
 │                       │      │                  │       02/ 
 │                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7280-1 
 │                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7348-1 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7348-2 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                       │      ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
 │                       │      ╰ LastModifiedDate: 2025-03-14T10:15:15.847Z 
 │                       ├ [77] ╭ VulnerabilityID : CVE-2024-0397 
