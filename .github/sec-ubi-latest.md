@@ -1034,9 +1034,10 @@
 │                       │      │                   condition. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-407 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      │                  ├ photon     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -1292,9 +1293,13 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ╭ [0]: CWE-404 
 │                       │      │                  ╰ [1]: CWE-476 
-│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ╰ redhat: 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.3 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-1632 
@@ -1305,7 +1310,7 @@
 │                       │      │                  ├ [5]: https://vuldb.com/?submit.496460 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-1632 
 │                       │      ├ PublishedDate   : 2025-02-24T14:15:11.59Z 
-│                       │      ╰ LastModifiedDate: 2025-02-24T15:15:13.217Z 
+│                       │      ╰ LastModifiedDate: 2025-03-25T15:41:41.683Z 
 │                       ├ [24] ╭ VulnerabilityID : CVE-2024-11053 
 │                       │      ├ PkgID           : libcurl-minimal@7.76.1-31.el9.x86_64 
 │                       │      ├ PkgName         : libcurl-minimal 
@@ -1948,7 +1953,8 @@
 │                       │      │                   pointer dereference in xmlPatMatch in pattern.c. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ VendorSeverity   ╭ azure      : 1 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 1 
 │                       │      │                  ├ cbl-mariner: 1 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ photon     : 3 
@@ -3676,7 +3682,8 @@
 │                       │      │                  │       02/ 
 │                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7280-1 
 │                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7348-1 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7348-2 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                       │      ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
 │                       │      ╰ LastModifiedDate: 2025-03-14T10:15:15.847Z 
 │                       ├ [67] ╭ VulnerabilityID : CVE-2024-0397 
@@ -4073,7 +4080,8 @@
 │                       │      │                  │       02/ 
 │                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7280-1 
 │                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7348-1 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7348-2 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                       │      ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
 │                       │      ╰ LastModifiedDate: 2025-03-14T10:15:15.847Z 
 │                       ├ [72] ╭ VulnerabilityID : CVE-2024-0397 
@@ -4470,7 +4478,8 @@
 │                       │      │                  │       02/ 
 │                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7280-1 
 │                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7348-1 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7348-2 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-0938 
 │                       │      ├ PublishedDate   : 2025-01-31T18:15:38.053Z 
 │                       │      ╰ LastModifiedDate: 2025-03-14T10:15:15.847Z 
 │                       ├ [77] ╭ VulnerabilityID : CVE-2024-0397 
