@@ -157,19 +157,48 @@ jobs:
         args: 'inputFile=.github/sec-pyOAF-nightly.yaml file=.github/sec-pyOAF-nightly.md'
         dist: 't8'
 
+    # ----
 
     - uses: openaf/ojob-action@v7
-      name: Scan 8 latest
+      name: Scan oJobRT edge
       with:
         ojob: 'ojob.io/sec/genSecBadge'
-        args: 'image=openaf/oaf:8-latest file=.github/sec-8-latest.svg reportFile=.github/sec-8-latest.yaml'
+        args: 'image=openaf/ojobrt:edge file=.github/sec-oJobRT-edge.svg reportFile=.github/sec-oJobRT-edge.yaml'
         dist: 't8'
         
     - uses: openaf/ojob-action@v7
-      name: Generate sec-8-latest.md
+      name: Generate sec-oJobRT-edge.md
       with:
         ojob: 'ojob.io/util/toMDTree'
-        args: 'inputFile=.github/sec-8-latest.yaml file=.github/sec-8-latest.md'
+        args: 'inputFile=.github/sec-oJobRT-edge.yaml file=.github/sec-oJobRT-edge.md'
+        dist: 't8'
+
+    - uses: openaf/ojob-action@v7
+      name: Scan pyOAF edge
+      with:
+        ojob: 'ojob.io/sec/genSecBadge'
+        args: 'image=openaf/pyoaf:edge file=.github/sec-pyOAF-edge.svg reportFile=.github/sec-pyOAF-edge.yaml'
+        dist: 't8'
+        
+    - uses: openaf/ojob-action@v7
+      name: Generate sec-pyOAF-edge.md
+      with:
+        ojob: 'ojob.io/util/toMDTree'
+        args: 'inputFile=.github/sec-pyOAF-edge.yaml file=.github/sec-pyOAF-edge.md'
+        dist: 't8'
+
+    # - uses: openaf/ojob-action@v7
+    #   name: Scan 8 latest
+    #   with:
+    #     ojob: 'ojob.io/sec/genSecBadge'
+    #     args: 'image=openaf/oaf:8-latest file=.github/sec-8-latest.svg reportFile=.github/sec-8-latest.yaml'
+    #     dist: 't8'
+        
+    # - uses: openaf/ojob-action@v7
+    #   name: Generate sec-8-latest.md
+    #   with:
+    #     ojob: 'ojob.io/util/toMDTree'
+    #     args: 'inputFile=.github/sec-8-latest.yaml file=.github/sec-8-latest.md'
         
     # - uses: openaf/ojob-action@v4
     #   name: Scan 8 nightly
