@@ -22,6 +22,10 @@ on:
         description: 'If defined will build using an ubi base image instead of alpine'
         required   : false
         default    : ''
+      deb:
+        description: 'If defined will build using an ubuntu base image instead of alpine'
+        required   : false
+        default    : ''
 
 jobs:
 
@@ -71,7 +75,7 @@ jobs:
         password: ${{ secrets.DOCKERHUB_TOKEN }}
     - uses: docker/build-push-action@v6
       name: Build and push based on input
-      if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi != 'yes' }}
+      if  : ${{ github.event.inputs.baseTag &&  && github.event.inputs.ubi != 'yes' && github.event.inputs.deb != 'yes' }}
       with:
         platforms: linux/amd64,linux/arm64
         context: "{{defaultContext}}:openaf-edge"
@@ -115,7 +119,7 @@ jobs:
         password: ${{ secrets.DOCKERHUB_TOKEN }}
     - uses: docker/build-push-action@v6
       name: Build and push based on input
-      if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi != 'yes' }}
+      if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi != 'yes' && github.event.inputs.deb != 'yes' }}
       with:
         platforms: linux/amd64,linux/arm64
         context: "{{defaultContext}}:openaf-edge"
