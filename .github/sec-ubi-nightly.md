@@ -3761,7 +3761,7 @@
 │                       │      │                  │       9_5?arch=noarch&distro=redhat-9.5 
 │                       │      │                  ╰ UID : 608b68b025ced14b 
 │                       │      ├ InstalledVersion: 3.9.21-1.el9_5 
-│                       │      ├ Status          : will_not_fix 
+│                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:baca7d522eb26f080b97edbacef760b92e0f8d36a098
 │                       │      │                  │         395e2ca5ea090aa5ec20 
 │                       │      │                  ╰ DiffID: sha256:41e5c0c7b5053d593016c6b368e4d20ab74ff6464b65
@@ -4159,7 +4159,7 @@
 │                       │      │                  │       tro=redhat-9.5 
 │                       │      │                  ╰ UID : 10354af4a40c5d3e 
 │                       │      ├ InstalledVersion: 3.9.21-1.el9_5 
-│                       │      ├ Status          : will_not_fix 
+│                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:baca7d522eb26f080b97edbacef760b92e0f8d36a098
 │                       │      │                  │         395e2ca5ea090aa5ec20 
 │                       │      │                  ╰ DiffID: sha256:41e5c0c7b5053d593016c6b368e4d20ab74ff6464b65
@@ -4557,7 +4557,7 @@
 │                       │      │                  │       4&distro=redhat-9.5 
 │                       │      │                  ╰ UID : 4018da6618a128d1 
 │                       │      ├ InstalledVersion: 3.9.21-1.el9_5 
-│                       │      ├ Status          : will_not_fix 
+│                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:baca7d522eb26f080b97edbacef760b92e0f8d36a098
 │                       │      │                  │         395e2ca5ea090aa5ec20 
 │                       │      │                  ╰ DiffID: sha256:41e5c0c7b5053d593016c6b368e4d20ab74ff6464b65
