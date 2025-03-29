@@ -74,29 +74,29 @@ jobs:
       if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi != 'yes' }}
       with:
         platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:openaf-8"
+        context: "{{defaultContext}}:openaf-edge"
         push: true
         tags: openaf/oaf:${{ github.event.inputs.baseTag }}
         build-args: | 
           DIST=${{ github.event.inputs.baseTag }}
           OPENAFDIST=${{ github.event.inputs.oafDist }}
-    - uses: docker/build-push-action@v6
-      name: Build and push based on input ubi
-      if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi == 'yes' }}
-      with:
-        platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:openaf-ubi-8"
-        push: true
-        tags: openaf/oaf:${{ github.event.inputs.baseTag }}
-        build-args: | 
-          DIST=${{ github.event.inputs.baseTag }}
-          OPENAFDIST=${{ github.event.inputs.oafDist }}
+    # - uses: docker/build-push-action@v6
+    #   name: Build and push based on input ubi
+    #   if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi == 'yes' }}
+    #   with:
+    #     platforms: linux/amd64,linux/arm64
+    #     context: "{{defaultContext}}:openaf-ubi-8"
+    #     push: true
+    #     tags: openaf/oaf:${{ github.event.inputs.baseTag }}
+    #     build-args: | 
+    #       DIST=${{ github.event.inputs.baseTag }}
+    #       OPENAFDIST=${{ github.event.inputs.oafDist }}
     - uses: docker/build-push-action@v6
       name: Build and push
       if  : ${{ ! github.event.inputs.baseTag }}
       with:
         platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:openaf-8"
+        context: "{{defaultContext}}:openaf-edge"
         push: true
         tags: openaf/oaf:build
         build-args: DIST=build
@@ -118,29 +118,29 @@ jobs:
       if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi != 'yes' }}
       with:
         platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:openaf-8"
+        context: "{{defaultContext}}:openaf-edge"
         push: true
         tags: openaf/openaf:${{ github.event.inputs.baseTag }}
         build-args: | 
           DIST=${{ github.event.inputs.baseTag }}
           OPENAFDIST=${{ github.event.inputs.oafDist }}
-    - uses: docker/build-push-action@v6
-      name: Build and push based on input ubi
-      if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi == 'yes' }}
-      with:
-        platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:openaf-ubi-8"
-        push: true
-        tags: openaf/openaf:${{ github.event.inputs.baseTag }}
-        build-args: | 
-          DIST=${{ github.event.inputs.baseTag }}
-          OPENAFDIST=${{ github.event.inputs.oafDist }}
+    # - uses: docker/build-push-action@v6
+    #   name: Build and push based on input ubi
+    #   if  : ${{ github.event.inputs.baseTag && github.event.inputs.ubi == 'yes' }}
+    #   with:
+    #     platforms: linux/amd64,linux/arm64
+    #     context: "{{defaultContext}}:openaf-ubi-8"
+    #     push: true
+    #     tags: openaf/openaf:${{ github.event.inputs.baseTag }}
+    #     build-args: | 
+    #       DIST=${{ github.event.inputs.baseTag }}
+    #       OPENAFDIST=${{ github.event.inputs.oafDist }}
     - uses: docker/build-push-action@v6
       name: Build and push
       if  : ${{ ! github.event.inputs.baseTag }}
       with:
         platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:openaf-8"
+        context: "{{defaultContext}}:openaf-edge"
         push: true
         tags: openaf/openaf:build
         build-args: DIST=build

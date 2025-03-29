@@ -1,0 +1,49 @@
+ARG DIST
+ARG OPENAFDIST
+
+FROM alpine:edge as main
+ARG DIST
+ARG OPENAFDIST
+
+# Copy auxiliary scripts
+COPY entrypoint.sh installOPacks.js /openaf/.docker/
+COPY getOpenAFOrigJar.js /openaf/
+
+# Install java, Update SSL certificates and clean up + Auxiliary settings
+RUN echo 'PATH=$PATH:/openaf' > /etc/profile.d/openaf.sh\
+ && mv /etc/profile.d/color_prompt.sh.disabled /etc/profile.d/color_prompt.sh\
+ && apk update\
+ && apk --no-cache add ca-certificates curl openssl sudo bash\
+ && update-ca-certificates\
+ && adduser -g 0 -u 1000 -Ds /bin/sh openaf\
+ && echo "openaf ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/openaf\
+ && chmod g+w /etc/passwd\
+ && cd /openaf\
+ && curl https://openaf.io/getJava.sh | VERSION=24 bash\
+ && tar xzf jre.tgz\
+ && rm jre.tgz\
+ && mv jdk* jre\
+ && apk del bash\
+ && rm -rf /var/cache/apk/*
+
+# Install openaf and prepare everthing
+RUN cd /openaf\
+ && curl -o openaf.jar https://openaf.io/$OPENAFDIST/openaf.jar.repacked -s\
+ && jre/bin/java --enable-native-access=ALL-UNNAMED -jar openaf.jar --install\
+ && chown -R openaf:0 /openaf\
+ && chown openaf:0 /openaf/.opack.db || true\
+ && chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\
+ && chmod a+rwx /openaf\
+ && chmod -R a+rx /openaf/.docker\
+ && chmod g+w /openaf/.opack.db || true
+
+# -------------------
+FROM scratch as final
+
+COPY --from=main / /
+
+ENV OAF_HOME=/openaf
+USER openaf:0
+
+WORKDIR /openaf
+ENTRYPOINT ["/bin/sh", "/openaf/.docker/entrypoint.sh"]
