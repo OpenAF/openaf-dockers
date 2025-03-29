@@ -905,8 +905,9 @@
 │                       │      │                   the environment and library usage. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-674 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
