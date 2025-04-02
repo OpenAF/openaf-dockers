@@ -9,7 +9,7 @@ ARG OPENAFDIST
 # Upgrade alpine
 RUN apt-get -y update\
  && apt-get -y upgrade\
- && apt-get -y install curl sudo gzip\
+ && apt-get -y install curl sudo gzip bash-completion\
  && apt-get purge -y --auto-remove\
  && apt-get clean\
  && rm -rf /var/lib/apt/lists/*\
@@ -39,7 +39,12 @@ RUN cd /openaf\
  && chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\
  && chmod a+rwx /openaf\
  && chmod -R a+rx /openaf/.docker\
- && chmod g+w /openaf/.opack.db || true
+ && chmod g+w /openaf/.opack.db || true\
+ && echo "source ~/.openaf_completion_bash.sh > /dev/null 2>&1" >> /etc/bash.bashrc\
+ && /openaf/oaf --bashcompletion all > ~/.openaf_completion_bash.sh
+
+USER openaf:0
+RUN /openaf/oaf --bashcompletion all > ~/.openaf_completion_bash.sh
 
 # -------------------
 FROM scratch as final

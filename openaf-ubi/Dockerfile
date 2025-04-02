@@ -19,8 +19,7 @@ RUN microdnf upgrade -y\
  && echo "openaf ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/openaf\
  && microdnf remove -y shadow-utils\
  && microdnf clean all\
- && echo "if [ ! -e ~/.openaf_completion_oaf.sh ]; then /openaf/oaf --bashcompletion all > /tmp/.openaf_completion_bash.sh; fi" >> /etc/bashrc\
- && echo "source /tmp/.openaf_completion_bash.sh" >> /etc/bashrc\
+ && echo "source ~/.openaf_completion_bash.sh > /dev/null 2>&1" >> /etc/bashrc\
  && chmod -R a+rx /openaf/.docker\
  && chmod g+w /etc/passwd\
  && cp ~/.bash_profile /.bash_profile\
@@ -37,11 +36,10 @@ RUN cd /openaf\
  && sudo chown -R openaf:0 /openaf\
  && sudo chown openaf:0 /openaf/.opack.db || true\
  && sudo chmod g+w /openaf/.opack.db || true\
- && /openaf/oaf --bashcompletion all > /tmp/.openaf_completion_bash.sh\
- && chmod a+rw /tmp/.openaf_completion_bash.sh
+ && /openaf/oaf --bashcompletion all > ~/.openaf_completion_bash.sh
 
 USER root
-RUN /openaf/oaf --bashcompletion all > /dev/null
+RUN /openaf/oaf --bashcompletion all > ~/.openaf_completion_bash.sh
 USER 1000:0
 
 # -------------------
