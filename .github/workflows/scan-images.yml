@@ -62,6 +62,26 @@ jobs:
         args: 'inputFile=.github/sec-nightly.yaml file=.github/sec-nightly.md'
         
     - uses: openaf/ojob-action@v7
+      name: Scan edge
+      with:
+        ojob: 'ojob.io/sec/genSecBadge'
+        args: 'image=openaf/oaf:edge file=.github/sec-edge.svg reportFile=.github/sec-edge.yaml'
+        dist: 't8'
+        
+    - uses: openaf/ojob-action@v7
+      name: Generate sec-edge.md
+      with:
+        ojob: 'ojob.io/util/toMDTree'
+        args: 'inputFile=.github/sec-edge.yaml file=.github/sec-edge.md'
+
+        
+    - uses: openaf/ojob-action@v7
+      name: Generate sec-edge.md
+      with:
+        ojob: 'ojob.io/util/toMDTree'
+        args: 'inputFile=.github/sec-edge.yaml file=.github/sec-edge.md'
+
+    - uses: openaf/ojob-action@v7
       name: Scan UBI nightly
       with:
         ojob: 'ojob.io/sec/genSecBadge'
