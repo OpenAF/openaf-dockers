@@ -12,6 +12,9 @@ Security scans:
 [![sec-deb-nightly](.github/sec-deb-nightly.svg)](.github/sec-deb-nightly.md)<br>
 [![sec-oJobRT-latest](.github/sec-oJobRT-latest.svg)](.github/sec-oJobRT-latest.md)<br>
 [![sec-oJobRT-nightly](.github/sec-oJobRT-nightly.svg)](.github/sec-oJobRT-nightly.md)<br>
+[![sec-oJobRT-edge](.github/sec-oJobRT-edge.svg)](.github/sec-oJobRT-edge.md)<br>
+[![sec-pyOAF-nightly](.github/sec-pyOAF-nightly.svg)](.github/sec-pyOAF-nightly.md)<br>
+[![sec-pyOAF-edge](.github/sec-pyOAF-edge.svg)](.github/sec-pyOAF-edge.md)<br>
 
 ## OpenAF
 
