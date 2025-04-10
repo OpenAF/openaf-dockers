@@ -383,7 +383,8 @@
 │                       │      │                  ├ [1]: CWE-416 
 │                       │      │                  ├ [2]: CWE-476 
 │                       │      │                  ╰ [3]: CWE-826 
-│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ├ redhat: 3 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -401,7 +402,7 @@
 │                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7414-1 
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-31115 
 │                       │      ├ PublishedDate   : 2025-04-03T17:15:30.54Z 
-│                       │      ╰ LastModifiedDate: 2025-04-03T20:15:25.113Z 
+│                       │      ╰ LastModifiedDate: 2025-04-07T14:18:34.453Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2024-10041 
 │                       │      ├ PkgID           : libpam-modules@1.5.3-7ubuntu2 
 │                       │      ├ PkgName         : libpam-modules 

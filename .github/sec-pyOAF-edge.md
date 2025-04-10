@@ -1,7 +1,62 @@
 ````yaml
-╭ [0] ╭ Target: openaf/pyoaf:edge (alpine 3.21.3) 
-│     ├ Class : os-pkgs 
-│     ╰ Type  : alpine 
+╭ [0] ╭ Target         : openaf/pyoaf:edge (alpine 3.21.3) 
+│     ├ Class          : os-pkgs 
+│     ├ Type           : alpine 
+│     ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2025-31115 
+│                             ├ PkgID           : xz-libs@5.6.3-r0 
+│                             ├ PkgName         : xz-libs 
+│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xz-libs@5.6.3-r0?arch=x86_64&distro=3.2
+│                             │                  │       1.3 
+│                             │                  ╰ UID : 6a1b930ba614c87c 
+│                             ├ InstalledVersion: 5.6.3-r0 
+│                             ├ FixedVersion    : 5.6.3-r1 
+│                             ├ Status          : fixed 
+│                             ├ Layer            ╭ Digest: sha256:4c4700dde23c51097d326a561f2def2e2afcb03cfd32a
+│                             │                  │         f2fecb1758597ec9408 
+│                             │                  ╰ DiffID: sha256:be756c12e9dbd56e6ea2e38174c811ced9c0c95d3241f
+│                             │                            c7b86e44c11b16ec73a 
+│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-31115 
+│                             ├ DataSource       ╭ ID  : alpine 
+│                             │                  ├ Name: Alpine Secdb 
+│                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                             ├ Title           : xz: XZ has a heap-use-after-free bug in threaded .xz decoder 
+│                             ├ Description     : XZ Utils provide a general-purpose data-compression library
+│                             │                   plus command-line tools. In XZ Utils 5.3.3alpha to 5.8.0, the
+│                             │                    multithreaded .xz decoder in liblzma has a bug where invalid
+│                             │                    input can at least result in a crash. The effects include
+│                             │                   heap use after free and writing to an address based on the
+│                             │                   null pointer plus an offset. Applications and libraries that
+│                             │                   use the lzma_stream_decoder_mt function are affected. The bug
+│                             │                    has been fixed in XZ Utils 5.8.1, and the fix has been
+│                             │                   committed to the v5.4, v5.6, v5.8, and master branches in the
+│                             │                    xz Git repository. No new release packages will be made from
+│                             │                    the old stable branches, but a standalone patch is available
+│                             │                    that applies to all affected releases. 
+│                             ├ Severity        : HIGH 
+│                             ├ CweIDs           ╭ [0]: CWE-366 
+│                             │                  ├ [1]: CWE-416 
+│                             │                  ├ [2]: CWE-476 
+│                             │                  ╰ [3]: CWE-826 
+│                             ├ VendorSeverity   ╭ photon: 3 
+│                             │                  ├ redhat: 3 
+│                             │                  ╰ ubuntu: 2 
+│                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+│                             │                           │           A:H 
+│                             │                           ╰ V3Score : 7.5 
+│                             ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/03/1 
+│                             │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/04/03/2 
+│                             │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/04/03/3 
+│                             │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-31115 
+│                             │                  ├ [4]: https://github.com/tukaani-project/xz/commit/d5a2ffe41b
+│                             │                  │      b77b918a8c96084885d4dbe4bf6480 
+│                             │                  ├ [5]: https://github.com/tukaani-project/xz/security/advisori
+│                             │                  │      es/GHSA-6cc8-p5mm-29w2 
+│                             │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-31115 
+│                             │                  ├ [7]: https://tukaani.org/xz/xz-cve-2025-31115.patch 
+│                             │                  ├ [8]: https://ubuntu.com/security/notices/USN-7414-1 
+│                             │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-31115 
+│                             ├ PublishedDate   : 2025-04-03T17:15:30.54Z 
+│                             ╰ LastModifiedDate: 2025-04-07T14:18:34.453Z 
 ╰ [1] ╭ Target: Java 
       ├ Class : lang-pkgs 
       ╰ Type  : jar 

@@ -621,6 +621,7 @@
     - https://security-tracker.debian.org/tracker/CVE-2024-8176
     - https://security.netapp.com/advisory/ntap-20250328-0009/
     - https://ubuntu.com/security/CVE-2024-8176
+    - https://ubuntu.com/security/notices/USN-7424-1
     - https://www.cve.org/CVERecord?id=CVE-2024-8176
     PublishedDate: '2025-03-14T09:15:14.157Z'
     LastModifiedDate: '2025-04-02T15:15:57.987Z'
@@ -770,6 +771,37 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-32636
     PublishedDate: '2023-09-14T20:15:09.653Z'
     LastModifiedDate: '2024-11-21T08:03:44.8Z'
+  - VulnerabilityID: CVE-2025-3360
+    PkgID: glib2@2.68.4-14.el9_4.1.x86_64
+    PkgName: glib2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glib2@2.68.4-14.el9_4.1?arch=x86_64&distro=redhat-9.5
+      UID: 71f4f5724a460de4
+    InstalledVersion: 2.68.4-14.el9_4.1
+    Status: affected
+    Layer:
+      Digest: sha256:37b753910a1a0253853348da0982bfd56d6a3feca98b1ea1486a4a7cfc613075
+      DiffID: sha256:951d5b1f9bf0ef75b1bc17f07467d6a4aac49bde431c6862510a05294b4eda8d
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-3360
+    Title: 'glibc: GLib prior to 2.82.5 is vulnerable to integer  overflow and buffer under-read when parsing a very long invalid ISO  8601 timestamp with g_date_time_new_from_iso8601().'
+    Description: A flaw was found in GLib. An integer overflow and buffer under-read occur when parsing a long invalid ISO 8601 timestamp with the g_date_time_new_from_iso8601() function.
+    Severity: LOW
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-3360
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2357754
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-3360
+    - https://www.cve.org/CVERecord?id=CVE-2025-3360
+    PublishedDate: '2025-04-07T13:15:43.687Z'
+    LastModifiedDate: '2025-04-07T14:17:50.22Z'
   - VulnerabilityID: CVE-2025-0395
     PkgID: glibc@2.34-125.el9_5.3.x86_64
     PkgName: glibc
@@ -1750,6 +1782,37 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-12133
     PublishedDate: '2025-02-10T16:15:37.26Z'
     LastModifiedDate: '2025-02-21T13:15:10.43Z'
+  - VulnerabilityID: CVE-2025-32414
+    PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libxml2@2.9.13-6.el9_5.2?arch=x86_64&distro=redhat-9.5
+      UID: fe6f7b4379e04d70
+    InstalledVersion: 2.9.13-6.el9_5.2
+    Status: affected
+    Layer:
+      Digest: sha256:37b753910a1a0253853348da0982bfd56d6a3feca98b1ea1486a4a7cfc613075
+      DiffID: sha256:951d5b1f9bf0ef75b1bc17f07467d6a4aac49bde431c6862510a05294b4eda8d
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-32414
+    Title: 'libxml2: Out-of-Bounds Read in libxml2'
+    Description: In libxml2 before 2.13.8 and 2.14.x before 2.14.2, out-of-bounds memory access can occur in the Python API (Python bindings) because of an incorrect return value. This occurs in xmlPythonFileRead and xmlPythonFileReadRaw because of a difference between bytes and characters.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-393
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L
+        V3Score: 5.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-32414
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/889
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-32414
+    - https://www.cve.org/CVERecord?id=CVE-2025-32414
+    PublishedDate: '2025-04-08T03:15:15.94Z'
+    LastModifiedDate: '2025-04-08T03:15:15.94Z'
   - VulnerabilityID: CVE-2023-45322
     PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
     PkgName: libxml2
@@ -3407,11 +3470,13 @@
     - CWE-400
     - CWE-1333
     VendorSeverity:
+      alma: 1
       amazon: 2
       azure: 3
       bitnami: 3
       cbl-mariner: 3
       nvd: 3
+      oracle-oval: 1
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -3425,7 +3490,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H
         V3Score: 4.8
     References:
+    - https://access.redhat.com/errata/RHSA-2025:3634
     - https://access.redhat.com/security/cve/CVE-2024-7592
+    - https://errata.almalinux.org/9/ALSA-2025-3634.html
     - https://github.com/python/cpython/commit/391e5626e3ee5af267b97e37abc7475732e67621
     - https://github.com/python/cpython/commit/44e458357fca05ca0ae2658d62c8c595b048b5ef
     - https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06
@@ -3435,6 +3502,8 @@
     - https://github.com/python/cpython/commit/dcc3eaef98cd94d6cb6cb0f44bd1c903d04f33b1
     - https://github.com/python/cpython/issues/123067
     - https://github.com/python/cpython/pull/123075
+    - https://linux.oracle.com/cve/CVE-2024-7592.html
+    - https://linux.oracle.com/errata/ELSA-2025-3634.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
     - https://security.netapp.com/advisory/ntap-20241018-0006/
@@ -3701,11 +3770,13 @@
     - CWE-400
     - CWE-1333
     VendorSeverity:
+      alma: 1
       amazon: 2
       azure: 3
       bitnami: 3
       cbl-mariner: 3
       nvd: 3
+      oracle-oval: 1
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -3719,7 +3790,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H
         V3Score: 4.8
     References:
+    - https://access.redhat.com/errata/RHSA-2025:3634
     - https://access.redhat.com/security/cve/CVE-2024-7592
+    - https://errata.almalinux.org/9/ALSA-2025-3634.html
     - https://github.com/python/cpython/commit/391e5626e3ee5af267b97e37abc7475732e67621
     - https://github.com/python/cpython/commit/44e458357fca05ca0ae2658d62c8c595b048b5ef
     - https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06
@@ -3729,6 +3802,8 @@
     - https://github.com/python/cpython/commit/dcc3eaef98cd94d6cb6cb0f44bd1c903d04f33b1
     - https://github.com/python/cpython/issues/123067
     - https://github.com/python/cpython/pull/123075
+    - https://linux.oracle.com/cve/CVE-2024-7592.html
+    - https://linux.oracle.com/errata/ELSA-2025-3634.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
     - https://security.netapp.com/advisory/ntap-20241018-0006/
@@ -3995,11 +4070,13 @@
     - CWE-400
     - CWE-1333
     VendorSeverity:
+      alma: 1
       amazon: 2
       azure: 3
       bitnami: 3
       cbl-mariner: 3
       nvd: 3
+      oracle-oval: 1
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -4013,7 +4090,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:N/A:H
         V3Score: 4.8
     References:
+    - https://access.redhat.com/errata/RHSA-2025:3634
     - https://access.redhat.com/security/cve/CVE-2024-7592
+    - https://errata.almalinux.org/9/ALSA-2025-3634.html
     - https://github.com/python/cpython/commit/391e5626e3ee5af267b97e37abc7475732e67621
     - https://github.com/python/cpython/commit/44e458357fca05ca0ae2658d62c8c595b048b5ef
     - https://github.com/python/cpython/commit/a77ab24427a18bff817025adb03ca920dc3f1a06
@@ -4023,6 +4102,8 @@
     - https://github.com/python/cpython/commit/dcc3eaef98cd94d6cb6cb0f44bd1c903d04f33b1
     - https://github.com/python/cpython/issues/123067
     - https://github.com/python/cpython/pull/123075
+    - https://linux.oracle.com/cve/CVE-2024-7592.html
+    - https://linux.oracle.com/errata/ELSA-2025-3634.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/HXJAAAALNUNGCQUS2W7WR6GFIZIHFOOK/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-7592
     - https://security.netapp.com/advisory/ntap-20241018-0006/
