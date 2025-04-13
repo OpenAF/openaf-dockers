@@ -1272,6 +1272,7 @@
       nvd: 2
       photon: 2
       redhat: 1
+      ubuntu: 1
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
@@ -3439,10 +3440,11 @@
     - https://github.com/python/cpython/pull/114573
     - https://mail.python.org/archives/list/security-announce@python.org/thread/BMAK5BCGKYWNJOACVUSLUF6SFGBIM4VP/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0397
+    - https://security.netapp.com/advisory/ntap-20250411-0006/
     - https://ubuntu.com/security/notices/USN-6928-1
     - https://www.cve.org/CVERecord?id=CVE-2024-0397
     PublishedDate: '2024-06-17T16:15:10.217Z'
-    LastModifiedDate: '2024-11-21T08:46:29.733Z'
+    LastModifiedDate: '2025-04-11T22:15:28.65Z'
   - VulnerabilityID: CVE-2024-7592
     PkgID: python-unversioned-command@3.9.21-1.el9_5.noarch
     PkgName: python-unversioned-command
@@ -3739,10 +3741,11 @@
     - https://github.com/python/cpython/pull/114573
     - https://mail.python.org/archives/list/security-announce@python.org/thread/BMAK5BCGKYWNJOACVUSLUF6SFGBIM4VP/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0397
+    - https://security.netapp.com/advisory/ntap-20250411-0006/
     - https://ubuntu.com/security/notices/USN-6928-1
     - https://www.cve.org/CVERecord?id=CVE-2024-0397
     PublishedDate: '2024-06-17T16:15:10.217Z'
-    LastModifiedDate: '2024-11-21T08:46:29.733Z'
+    LastModifiedDate: '2025-04-11T22:15:28.65Z'
   - VulnerabilityID: CVE-2024-7592
     PkgID: python3@3.9.21-1.el9_5.x86_64
     PkgName: python3
@@ -4039,10 +4042,11 @@
     - https://github.com/python/cpython/pull/114573
     - https://mail.python.org/archives/list/security-announce@python.org/thread/BMAK5BCGKYWNJOACVUSLUF6SFGBIM4VP/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0397
+    - https://security.netapp.com/advisory/ntap-20250411-0006/
     - https://ubuntu.com/security/notices/USN-6928-1
     - https://www.cve.org/CVERecord?id=CVE-2024-0397
     PublishedDate: '2024-06-17T16:15:10.217Z'
-    LastModifiedDate: '2024-11-21T08:46:29.733Z'
+    LastModifiedDate: '2025-04-11T22:15:28.65Z'
   - VulnerabilityID: CVE-2024-7592
     PkgID: python3-libs@3.9.21-1.el9_5.x86_64
     PkgName: python3-libs
