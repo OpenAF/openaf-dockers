@@ -1428,7 +1428,8 @@
 │                       │      │                  ╰ [1]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ nvd   : 2 
 │                       │      │                  ├ photon: 2 
-│                       │      │                  ╰ redhat: 1 
+│                       │      │                  ├ redhat: 1 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 5.5 
@@ -3887,10 +3888,12 @@
 │                       │      │                  │       ce@python.org/thread/BMAK5BCGKYWNJOACVUSLUF6SFGBIM4VP
 │                       │      │                  │       / 
 │                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-0397 
-│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6928-1 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
+│                       │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-20250411-00
+│                       │      │                  │       06/ 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6928-1 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
 │                       │      ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T08:46:29.733Z 
+│                       │      ╰ LastModifiedDate: 2025-04-11T22:15:28.65Z 
 │                       ├ [71] ╭ VulnerabilityID : CVE-2024-7592 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.21-1.el9_5.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
@@ -4292,10 +4295,12 @@
 │                       │      │                  │       ce@python.org/thread/BMAK5BCGKYWNJOACVUSLUF6SFGBIM4VP
 │                       │      │                  │       / 
 │                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-0397 
-│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6928-1 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
+│                       │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-20250411-00
+│                       │      │                  │       06/ 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6928-1 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
 │                       │      ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T08:46:29.733Z 
+│                       │      ╰ LastModifiedDate: 2025-04-11T22:15:28.65Z 
 │                       ├ [76] ╭ VulnerabilityID : CVE-2024-7592 
 │                       │      ├ PkgID           : python3@3.9.21-1.el9_5.x86_64 
 │                       │      ├ PkgName         : python3 
@@ -4697,10 +4702,12 @@
 │                       │      │                  │       ce@python.org/thread/BMAK5BCGKYWNJOACVUSLUF6SFGBIM4VP
 │                       │      │                  │       / 
 │                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-0397 
-│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6928-1 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
+│                       │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-20250411-00
+│                       │      │                  │       06/ 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6928-1 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-0397 
 │                       │      ├ PublishedDate   : 2024-06-17T16:15:10.217Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T08:46:29.733Z 
+│                       │      ╰ LastModifiedDate: 2025-04-11T22:15:28.65Z 
 │                       ├ [81] ╭ VulnerabilityID : CVE-2024-7592 
 │                       │      ├ PkgID           : python3-libs@3.9.21-1.el9_5.x86_64 
 │                       │      ├ PkgName         : python3-libs 
