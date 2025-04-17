@@ -92,8 +92,53 @@
 │                       │     │                  ╰ [9]: https://www.openeuler.org/zh/security/security-bulletin
 │                       │     │                         s/detail/?id=openEuler-SA-2025-1292 
 │                       │     ├ PublishedDate   : 2025-04-14T08:15:13.973Z 
-│                       │     ╰ LastModifiedDate: 2025-04-14T08:15:13.973Z 
-│                       ╰ [2] ╭ VulnerabilityID : CVE-2025-31115 
+│                       │     ╰ LastModifiedDate: 2025-04-15T18:39:27.967Z 
+│                       ├ [2] ╭ VulnerabilityID : CVE-2025-29087 
+│                       │     ├ PkgID           : sqlite-libs@3.48.0-r0 
+│                       │     ├ PkgName         : sqlite-libs 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sqlite-libs@3.48.0-r0?arch=x86_64&distr
+│                       │     │                  │       o=3.21.3 
+│                       │     │                  ╰ UID : d3184f4c955c09b4 
+│                       │     ├ InstalledVersion: 3.48.0-r0 
+│                       │     ├ FixedVersion    : 3.48.0-r1 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:4c4700dde23c51097d326a561f2def2e2afcb03cfd32a
+│                       │     │                  │         f2fecb1758597ec9408 
+│                       │     │                  ╰ DiffID: sha256:be756c12e9dbd56e6ea2e38174c811ced9c0c95d3241f
+│                       │     │                            c7b86e44c11b16ec73a 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-29087 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Title           : sqlite: Integer Overflow in SQLite concat Function 
+│                       │     ├ Description     : In SQLite 3.44.0 through 3.49.0 before 3.49.1, the
+│                       │     │                   concat_ws() SQL function can cause memory to be written
+│                       │     │                   beyond the end of a malloc-allocated buffer. If the separator
+│                       │     │                    argument is attacker-controlled and has a large string
+│                       │     │                   (e.g., 2MB or more), an integer overflow occurs in
+│                       │     │                   calculating the size of the result buffer, and thus malloc
+│                       │     │                   may not allocate enough memory. 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ CweIDs           ─ [0]: CWE-190 
+│                       │     ├ VendorSeverity   ╭ bitnami: 1 
+│                       │     │                  ├ redhat : 2 
+│                       │     │                  ╰ ubuntu : 2 
+│                       │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N
+│                       │     │                  │         │           /A:L 
+│                       │     │                  │         ╰ V3Score : 3.2 
+│                       │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N
+│                       │     │                            │           /A:H 
+│                       │     │                            ╰ V3Score : 5.5 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-29087 
+│                       │     │                  ├ [1]: https://gist.github.com/ylwango613/a44a29f1ef074fa783e2
+│                       │     │                  │      9f04a0afd62a 
+│                       │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-29087 
+│                       │     │                  ├ [3]: https://sqlite.org/releaselog/3_49_1.html 
+│                       │     │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-29087 
+│                       │     │                  ╰ [5]: https://www.sqlite.org/cves.html 
+│                       │     ├ PublishedDate   : 2025-04-07T20:15:20.253Z 
+│                       │     ╰ LastModifiedDate: 2025-04-15T16:16:06.233Z 
+│                       ╰ [3] ╭ VulnerabilityID : CVE-2025-31115 
 │                             ├ PkgID           : xz-libs@5.6.3-r0 
 │                             ├ PkgName         : xz-libs 
 │                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xz-libs@5.6.3-r0?arch=x86_64&distro=3.2
