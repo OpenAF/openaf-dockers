@@ -916,7 +916,7 @@
     - https://ubuntu.com/security/notices/USN-7434-1
     - https://www.cve.org/CVERecord?id=CVE-2024-56406
     PublishedDate: '2025-04-13T14:15:14.527Z'
-    LastModifiedDate: '2025-04-13T22:15:12.767Z'
+    LastModifiedDate: '2025-04-15T18:39:27.967Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
