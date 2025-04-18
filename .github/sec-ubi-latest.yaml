@@ -285,7 +285,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -338,7 +338,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -396,7 +396,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -449,7 +449,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -597,6 +597,7 @@
       alma: 2
       cbl-mariner: 3
       oracle-oval: 2
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -607,6 +608,7 @@
     - http://www.openwall.com/lists/oss-security/2025/03/15/1
     - https://access.redhat.com/errata/RHSA-2025:3531
     - https://access.redhat.com/errata/RHSA-2025:3734
+    - https://access.redhat.com/errata/RHSA-2025:3913
     - https://access.redhat.com/security/cve/CVE-2024-8176
     - https://blog.hartwork.org/posts/expat-2-7-0-released/
     - https://bugzilla.redhat.com/2310137
@@ -617,7 +619,7 @@
     - https://github.com/libexpat/libexpat/issues/893
     - https://gitlab.alpinelinux.org/alpine/aports/-/commit/d068c3ff36fc6f4789988a09c69b434db757db53
     - https://linux.oracle.com/cve/CVE-2024-8176.html
-    - https://linux.oracle.com/errata/ELSA-2025-3531.html
+    - https://linux.oracle.com/errata/ELSA-2025-3913.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-8176
     - https://security-tracker.debian.org/tracker/CVE-2024-8176
     - https://security.netapp.com/advisory/ntap-20250328-0009/
@@ -625,7 +627,7 @@
     - https://ubuntu.com/security/notices/USN-7424-1
     - https://www.cve.org/CVERecord?id=CVE-2024-8176
     PublishedDate: '2025-03-14T09:15:14.157Z'
-    LastModifiedDate: '2025-04-09T08:15:14.71Z'
+    LastModifiedDate: '2025-04-15T17:15:37.603Z'
   - VulnerabilityID: CVE-2023-4156
     PkgID: gawk@5.1.0-6.el9.x86_64
     PkgName: gawk
@@ -799,10 +801,11 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-3360
     - https://bugzilla.redhat.com/show_bug.cgi?id=2357754
+    - https://lists.debian.org/debian-lts-announce/2025/04/msg00024.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3360
     - https://www.cve.org/CVERecord?id=CVE-2025-3360
     PublishedDate: '2025-04-07T13:15:43.687Z'
-    LastModifiedDate: '2025-04-07T14:17:50.22Z'
+    LastModifiedDate: '2025-04-14T12:15:16.087Z'
   - VulnerabilityID: CVE-2025-0395
     PkgID: glibc@2.34-125.el9_5.3.x86_64
     PkgName: glibc
@@ -822,6 +825,8 @@
     CweIDs:
     - CWE-131
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -832,7 +837,12 @@
     - http://www.openwall.com/lists/oss-security/2025/01/22/4
     - http://www.openwall.com/lists/oss-security/2025/01/23/2
     - http://www.openwall.com/lists/oss-security/2025/04/13/1
+    - https://access.redhat.com/errata/RHSA-2025:3828
     - https://access.redhat.com/security/cve/CVE-2025-0395
+    - https://bugzilla.redhat.com/2339460
+    - https://errata.almalinux.org/8/ALSA-2025-3828.html
+    - https://linux.oracle.com/cve/CVE-2025-0395.html
+    - https://linux.oracle.com/errata/ELSA-2025-3828.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
     - https://security.netapp.com/advisory/ntap-20250228-0006/
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
@@ -864,6 +874,8 @@
     CweIDs:
     - CWE-131
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -874,7 +886,12 @@
     - http://www.openwall.com/lists/oss-security/2025/01/22/4
     - http://www.openwall.com/lists/oss-security/2025/01/23/2
     - http://www.openwall.com/lists/oss-security/2025/04/13/1
+    - https://access.redhat.com/errata/RHSA-2025:3828
     - https://access.redhat.com/security/cve/CVE-2025-0395
+    - https://bugzilla.redhat.com/2339460
+    - https://errata.almalinux.org/8/ALSA-2025-3828.html
+    - https://linux.oracle.com/cve/CVE-2025-0395.html
+    - https://linux.oracle.com/errata/ELSA-2025-3828.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
     - https://security.netapp.com/advisory/ntap-20250228-0006/
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
@@ -906,6 +923,8 @@
     CweIDs:
     - CWE-131
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -916,7 +935,12 @@
     - http://www.openwall.com/lists/oss-security/2025/01/22/4
     - http://www.openwall.com/lists/oss-security/2025/01/23/2
     - http://www.openwall.com/lists/oss-security/2025/04/13/1
+    - https://access.redhat.com/errata/RHSA-2025:3828
     - https://access.redhat.com/security/cve/CVE-2025-0395
+    - https://bugzilla.redhat.com/2339460
+    - https://errata.almalinux.org/8/ALSA-2025-3828.html
+    - https://linux.oracle.com/cve/CVE-2025-0395.html
+    - https://linux.oracle.com/errata/ELSA-2025-3828.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-0395
     - https://security.netapp.com/advisory/ntap-20250228-0006/
     - https://sourceware.org/bugzilla/show_bug.cgi?id=32582
@@ -1090,7 +1114,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21068
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21085
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21094
-    - https://errata.almalinux.org/8/ALSA-2024-1825.html
+    - https://errata.almalinux.org/9/ALSA-2024-1825.html
     - https://errata.rockylinux.org/RLSA-2024:1822
     - https://linux.oracle.com/cve/CVE-2024-21094.html
     - https://linux.oracle.com/errata/ELSA-2024-1825.html
@@ -1107,6 +1131,42 @@
     - https://www.oracle.com/security-alerts/cpuapr2024.html#AppendixJAVA
     PublishedDate: '2024-04-16T22:15:29.857Z'
     LastModifiedDate: '2024-11-21T08:53:46.35Z'
+  - VulnerabilityID: CVE-2025-31344
+    PkgID: java-21-openjdk-headless@21.0.6.0.7-1.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.6.0.7-1.el9?arch=x86_64&distro=redhat-9.5&epoch=1
+      UID: cb7b385fbb878cb0
+    InstalledVersion: 1:21.0.6.0.7-1.el9
+    Status: affected
+    Layer:
+      Digest: sha256:37b753910a1a0253853348da0982bfd56d6a3feca98b1ea1486a4a7cfc613075
+      DiffID: sha256:951d5b1f9bf0ef75b1bc17f07467d6a4aac49bde431c6862510a05294b4eda8d
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-31344
+    Title: Heap-based Buffer Overflow vulnerability in openEuler giflib on Linux. ...
+    Description: |-
+      Heap-based Buffer Overflow vulnerability in openEuler giflib on Linux. This vulnerability is associated with program files gif2rgb.C.
+
+      This issue affects giflib: through 5.2.2.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      redhat: 2
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/04/07/3
+    - http://www.openwall.com/lists/oss-security/2025/04/07/4
+    - http://www.openwall.com/lists/oss-security/2025/04/07/5
+    - http://www.openwall.com/lists/oss-security/2025/04/07/6
+    - http://www.openwall.com/lists/oss-security/2025/04/08/1
+    - http://www.openwall.com/lists/oss-security/2025/04/09/5
+    - http://www.openwall.com/lists/oss-security/2025/04/09/7
+    - http://www.openwall.com/lists/oss-security/2025/04/10/1
+    - https://gitee.com/src-openeuler/giflib/pulls/54
+    - https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2025-1292
+    PublishedDate: '2025-04-14T08:15:13.973Z'
+    LastModifiedDate: '2025-04-15T18:39:27.967Z'
   - VulnerabilityID: CVE-2022-37967
     PkgID: krb5-libs@1.21.1-4.el9_5.x86_64
     PkgName: krb5-libs
@@ -1180,6 +1240,31 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-24528
     - https://ubuntu.com/security/notices/USN-7314-1
     - https://www.cve.org/CVERecord?id=CVE-2025-24528
+  - VulnerabilityID: CVE-2025-3576
+    PkgID: krb5-libs@1.21.1-4.el9_5.x86_64
+    PkgName: krb5-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/krb5-libs@1.21.1-4.el9_5?arch=x86_64&distro=redhat-9.5
+      UID: 42d98a6341e87938
+    InstalledVersion: 1.21.1-4.el9_5
+    Status: affected
+    Layer:
+      Digest: sha256:37b753910a1a0253853348da0982bfd56d6a3feca98b1ea1486a4a7cfc613075
+      DiffID: sha256:951d5b1f9bf0ef75b1bc17f07467d6a4aac49bde431c6862510a05294b4eda8d
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-3576
+    Title: A vulnerability in the MIT Kerberos implementation allows GSSAPI-prote ...
+    Description: A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-328
+    VendorSeverity:
+      redhat: 2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-3576
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    PublishedDate: '2025-04-15T06:15:44.047Z'
+    LastModifiedDate: '2025-04-15T18:39:27.967Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -1330,7 +1415,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1383,7 +1468,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -1441,7 +1526,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1494,7 +1579,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -1984,7 +2069,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2024:0894
+    - https://access.redhat.com/errata/RHSA-2024:1141
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://bugzilla.redhat.com/2179864
     - https://bugzilla.redhat.com/2188109
@@ -2061,7 +2146,7 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://errata.almalinux.org/8/ALSA-2024-0894.html
+    - https://errata.almalinux.org/9/ALSA-2024-1141.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
     - https://github.com/facebook/zstd/pull/3220
@@ -3538,6 +3623,7 @@
     - CWE-116
     VendorSeverity:
       amazon: 1
+      bitnami: 1
       redhat: 1
     CVSS:
       redhat:
@@ -3839,6 +3925,7 @@
     - CWE-116
     VendorSeverity:
       amazon: 1
+      bitnami: 1
       redhat: 1
     CVSS:
       redhat:
@@ -4140,6 +4227,7 @@
     - CWE-116
     VendorSeverity:
       amazon: 1
+      bitnami: 1
       redhat: 1
     CVSS:
       redhat:

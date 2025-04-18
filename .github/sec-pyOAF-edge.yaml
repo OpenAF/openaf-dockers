@@ -58,7 +58,69 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
+    Title: Heap-based Buffer Overflow vulnerability in openEuler giflib on Linux. ...
+    Description: |-
+      Heap-based Buffer Overflow vulnerability in openEuler giflib on Linux. This vulnerability is associated with program files gif2rgb.C.
+
+      This issue affects giflib: through 5.2.2.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-122
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/04/07/3
+    - http://www.openwall.com/lists/oss-security/2025/04/07/4
+    - http://www.openwall.com/lists/oss-security/2025/04/07/5
+    - http://www.openwall.com/lists/oss-security/2025/04/07/6
+    - http://www.openwall.com/lists/oss-security/2025/04/08/1
+    - http://www.openwall.com/lists/oss-security/2025/04/09/5
+    - http://www.openwall.com/lists/oss-security/2025/04/09/7
+    - http://www.openwall.com/lists/oss-security/2025/04/10/1
+    - https://gitee.com/src-openeuler/giflib/pulls/54
+    - https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2025-1292
+    PublishedDate: '2025-04-14T08:15:13.973Z'
+    LastModifiedDate: '2025-04-15T18:39:27.967Z'
+  - VulnerabilityID: CVE-2025-29087
+    PkgID: sqlite-libs@3.48.0-r0
+    PkgName: sqlite-libs
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/sqlite-libs@3.48.0-r0?arch=x86_64&distro=3.21.3
+      UID: d3184f4c955c09b4
+    InstalledVersion: 3.48.0-r0
+    FixedVersion: 3.48.0-r1
+    Status: fixed
+    Layer:
+      Digest: sha256:4c4700dde23c51097d326a561f2def2e2afcb03cfd32af2fecb1758597ec9408
+      DiffID: sha256:be756c12e9dbd56e6ea2e38174c811ced9c0c95d3241fc7b86e44c11b16ec73a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-29087
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'sqlite: Integer Overflow in SQLite concat Function'
+    Description: In SQLite 3.44.0 through 3.49.0 before 3.49.1, the concat_ws() SQL function can cause memory to be written beyond the end of a malloc-allocated buffer. If the separator argument is attacker-controlled and has a large string (e.g., 2MB or more), an integer overflow occurs in calculating the size of the result buffer, and thus malloc may not allocate enough memory.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      bitnami: 1
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:L
+        V3Score: 3.2
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-29087
+    - https://gist.github.com/ylwango613/a44a29f1ef074fa783e29f04a0afd62a
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-29087
+    - https://sqlite.org/releaselog/3_49_1.html
+    - https://www.cve.org/CVERecord?id=CVE-2025-29087
+    - https://www.sqlite.org/cves.html
+    PublishedDate: '2025-04-07T20:15:20.253Z'
+    LastModifiedDate: '2025-04-15T16:16:06.233Z'
   - VulnerabilityID: CVE-2025-31115
     PkgID: xz-libs@5.6.3-r0
     PkgName: xz-libs
