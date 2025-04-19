@@ -136,6 +136,36 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
     LastModifiedDate: '2025-03-12T21:15:38.207Z'
+  - VulnerabilityID: CVE-2025-3576
+    PkgID: krb5-locales@1.21.3-3ubuntu0.2
+    PkgName: krb5-locales
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/krb5-locales@1.21.3-3ubuntu0.2?arch=all&distro=ubuntu-24.10
+      UID: 56a680e9261e550b
+    InstalledVersion: 1.21.3-3ubuntu0.2
+    Status: affected
+    Layer:
+      Digest: sha256:60a93d0ebe069e2e014adbe0e13c95c79e592a8445d8f1b98bf73b244aff443c
+      DiffID: sha256:2c7ad7c8f9a4e2f163e5687bdca906cc890dbe51fb47512c173816e2a77dc0ce
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-3576
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: A vulnerability in the MIT Kerberos implementation allows GSSAPI-prote ...
+    Description: A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-328
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-3576
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://www.cve.org/CVERecord?id=CVE-2025-3576
+    PublishedDate: '2025-04-15T06:15:44.047Z'
+    LastModifiedDate: '2025-04-15T18:39:27.967Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc-bin@2.40-1ubuntu3.1
     PkgName: libc-bin
@@ -300,6 +330,126 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2025-04-02T17:15:37.79Z'
+  - VulnerabilityID: CVE-2025-3576
+    PkgID: libgssapi-krb5-2@1.21.3-3ubuntu0.2
+    PkgName: libgssapi-krb5-2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.21.3-3ubuntu0.2?arch=amd64&distro=ubuntu-24.10
+      UID: 58cd212bb253a760
+    InstalledVersion: 1.21.3-3ubuntu0.2
+    Status: affected
+    Layer:
+      Digest: sha256:60a93d0ebe069e2e014adbe0e13c95c79e592a8445d8f1b98bf73b244aff443c
+      DiffID: sha256:2c7ad7c8f9a4e2f163e5687bdca906cc890dbe51fb47512c173816e2a77dc0ce
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-3576
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: A vulnerability in the MIT Kerberos implementation allows GSSAPI-prote ...
+    Description: A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-328
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-3576
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://www.cve.org/CVERecord?id=CVE-2025-3576
+    PublishedDate: '2025-04-15T06:15:44.047Z'
+    LastModifiedDate: '2025-04-15T18:39:27.967Z'
+  - VulnerabilityID: CVE-2025-3576
+    PkgID: libk5crypto3@1.21.3-3ubuntu0.2
+    PkgName: libk5crypto3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libk5crypto3@1.21.3-3ubuntu0.2?arch=amd64&distro=ubuntu-24.10
+      UID: c9ee3508bb1fe918
+    InstalledVersion: 1.21.3-3ubuntu0.2
+    Status: affected
+    Layer:
+      Digest: sha256:60a93d0ebe069e2e014adbe0e13c95c79e592a8445d8f1b98bf73b244aff443c
+      DiffID: sha256:2c7ad7c8f9a4e2f163e5687bdca906cc890dbe51fb47512c173816e2a77dc0ce
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-3576
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: A vulnerability in the MIT Kerberos implementation allows GSSAPI-prote ...
+    Description: A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-328
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-3576
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://www.cve.org/CVERecord?id=CVE-2025-3576
+    PublishedDate: '2025-04-15T06:15:44.047Z'
+    LastModifiedDate: '2025-04-15T18:39:27.967Z'
+  - VulnerabilityID: CVE-2025-3576
+    PkgID: libkrb5-3@1.21.3-3ubuntu0.2
+    PkgName: libkrb5-3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libkrb5-3@1.21.3-3ubuntu0.2?arch=amd64&distro=ubuntu-24.10
+      UID: 3e12ef4b4229dfc9
+    InstalledVersion: 1.21.3-3ubuntu0.2
+    Status: affected
+    Layer:
+      Digest: sha256:60a93d0ebe069e2e014adbe0e13c95c79e592a8445d8f1b98bf73b244aff443c
+      DiffID: sha256:2c7ad7c8f9a4e2f163e5687bdca906cc890dbe51fb47512c173816e2a77dc0ce
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-3576
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: A vulnerability in the MIT Kerberos implementation allows GSSAPI-prote ...
+    Description: A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-328
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-3576
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://www.cve.org/CVERecord?id=CVE-2025-3576
+    PublishedDate: '2025-04-15T06:15:44.047Z'
+    LastModifiedDate: '2025-04-15T18:39:27.967Z'
+  - VulnerabilityID: CVE-2025-3576
+    PkgID: libkrb5support0@1.21.3-3ubuntu0.2
+    PkgName: libkrb5support0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libkrb5support0@1.21.3-3ubuntu0.2?arch=amd64&distro=ubuntu-24.10
+      UID: 417cbbf23946242d
+    InstalledVersion: 1.21.3-3ubuntu0.2
+    Status: affected
+    Layer:
+      Digest: sha256:60a93d0ebe069e2e014adbe0e13c95c79e592a8445d8f1b98bf73b244aff443c
+      DiffID: sha256:2c7ad7c8f9a4e2f163e5687bdca906cc890dbe51fb47512c173816e2a77dc0ce
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-3576
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: A vulnerability in the MIT Kerberos implementation allows GSSAPI-prote ...
+    Description: A vulnerability in the MIT Kerberos implementation allows GSSAPI-protected messages using RC4-HMAC-MD5 to be spoofed due to weaknesses in the MD5 checksum design. If RC4 is preferred over stronger encryption types, an attacker could exploit MD5 collisions to forge message integrity codes. This may lead to unauthorized message tampering.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-328
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-3576
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://www.cve.org/CVERecord?id=CVE-2025-3576
+    PublishedDate: '2025-04-15T06:15:44.047Z'
+    LastModifiedDate: '2025-04-15T18:39:27.967Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-modules@1.5.3-7ubuntu2
     PkgName: libpam-modules
