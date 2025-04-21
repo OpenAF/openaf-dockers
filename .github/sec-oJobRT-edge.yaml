@@ -12,8 +12,8 @@
     FixedVersion: 1.2.5-r10
     Status: fixed
     Layer:
-      Digest: sha256:4a7bff41345ae90280297d7e2b99cf2f483cb1936ef715be3d35ca26caee3779
-      DiffID: sha256:01a35cfdf21d67ad418fb4dacb47e4eec8868d8de06aff2d371654475ecc200d
+      Digest: sha256:4c8419a0400151b360996fa647a6837fee7d2a16b6b9ee4d04ab941d67982bfe
+      DiffID: sha256:d22e6b27302ca13bf7f9811e3568ce9801bcede296b3c3ffc3adfda9645eb715
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-26519
     DataSource:
       ID: alpine
@@ -46,8 +46,8 @@
     FixedVersion: 1.2.5-r10
     Status: fixed
     Layer:
-      Digest: sha256:4a7bff41345ae90280297d7e2b99cf2f483cb1936ef715be3d35ca26caee3779
-      DiffID: sha256:01a35cfdf21d67ad418fb4dacb47e4eec8868d8de06aff2d371654475ecc200d
+      Digest: sha256:4c8419a0400151b360996fa647a6837fee7d2a16b6b9ee4d04ab941d67982bfe
+      DiffID: sha256:d22e6b27302ca13bf7f9811e3568ce9801bcede296b3c3ffc3adfda9645eb715
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-26519
     DataSource:
       ID: alpine
