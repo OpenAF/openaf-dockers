@@ -42,6 +42,7 @@ FROM scratch as final
 COPY --from=main / /
 
 ENV OAF_HOME=/openaf
+USER openaf:0
 
 WORKDIR /openaf
 ENTRYPOINT ["/bin/sh", "/openaf/.docker/entrypoint.sh"]
