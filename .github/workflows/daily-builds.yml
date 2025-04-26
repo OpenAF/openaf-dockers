@@ -89,7 +89,16 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         ojob: ojob.io/git/hub/workflows
-        args: 'op="trigger" workflow="docker-images-edge.yml" inputs="{baseTag:\"edge\",oafDist:\"t8\",ubi:\"no\",deb:\"no\"}"'
+        args: 'op="trigger" workflow="docker-images-edge.yml" inputs="{baseTag:\"edge\",oafDist:\"nightly\",ubi:\"no\",deb:\"no\"}"'
+        dist: t8
+    # ---------------------------
+    - name: Trigger build edge t8
+      uses: openaf/ojob-action@v7
+      env :
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        ojob: ojob.io/git/hub/workflows
+        args: 'op="trigger" workflow="docker-images-edge.yml" inputs="{baseTag:\"edge-t8\",oafDist:\"t8\",ubi:\"no\",deb:\"no\"}"'
         dist: t8
     # # --------------------------
     # - name: Trigger build t8 ubi
