@@ -496,6 +496,7 @@
     Layer:
       Digest: sha256:4c4700dde23c51097d326a561f2def2e2afcb03cfd32af2fecb1758597ec9408
       DiffID: sha256:be756c12e9dbd56e6ea2e38174c811ced9c0c95d3241fc7b86e44c11b16ec73a
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-29087
     DataSource:
       ID: alpine
@@ -503,17 +504,21 @@
       URL: https://secdb.alpinelinux.org/
     Title: 'sqlite: Integer Overflow in SQLite concat_ws Function'
     Description: In SQLite 3.44.0 through 3.49.0 before 3.49.1, the concat_ws() SQL function can cause memory to be written beyond the end of a malloc-allocated buffer. If the separator argument is attacker-controlled and has a large string (e.g., 2MB or more), an integer overflow occurs in calculating the size of the result buffer, and thus malloc may not allocate enough memory.
-    Severity: MEDIUM
+    Severity: HIGH
     CweIDs:
     - CWE-190
     VendorSeverity:
-      bitnami: 1
+      bitnami: 3
+      nvd: 3
       redhat: 2
       ubuntu: 2
     CVSS:
       bitnami:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:L
-        V3Score: 3.2
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.5
@@ -525,7 +530,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-29087
     - https://www.sqlite.org/cves.html
     PublishedDate: '2025-04-07T20:15:20.253Z'
-    LastModifiedDate: '2025-04-15T16:16:06.233Z'
+    LastModifiedDate: '2025-04-30T12:43:22.31Z'
   - VulnerabilityID: CVE-2025-31115
     PkgID: xz-libs@5.6.3-r0
     PkgName: xz-libs
