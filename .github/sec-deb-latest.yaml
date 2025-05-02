@@ -1095,6 +1095,7 @@
     VendorSeverity:
       azure: 3
       cbl-mariner: 3
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1114,7 +1115,7 @@
     - https://ubuntu.com/security/notices/USN-7434-2
     - https://www.cve.org/CVERecord?id=CVE-2024-56406
     PublishedDate: '2025-04-13T14:15:14.527Z'
-    LastModifiedDate: '2025-04-18T17:15:34.37Z'
+    LastModifiedDate: '2025-04-30T15:21:11.547Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
