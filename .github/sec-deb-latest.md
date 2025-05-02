@@ -1190,6 +1190,7 @@
 │                              │                  ╰ [1]: CWE-787 
 │                              ├ VendorSeverity   ╭ azure      : 3 
 │                              │                  ├ cbl-mariner: 3 
+│                              │                  ├ photon     : 3 
 │                              │                  ├ redhat     : 3 
 │                              │                  ╰ ubuntu     : 2 
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L
@@ -1208,7 +1209,7 @@
 │                              │                  ├ [9] : https://ubuntu.com/security/notices/USN-7434-2 
 │                              │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-56406 
 │                              ├ PublishedDate   : 2025-04-13T14:15:14.527Z 
-│                              ╰ LastModifiedDate: 2025-04-18T17:15:34.37Z 
+│                              ╰ LastModifiedDate: 2025-04-30T15:21:11.547Z 
 ╰ [1] ╭ Target: Java 
       ├ Class : lang-pkgs 
       ╰ Type  : jar 
