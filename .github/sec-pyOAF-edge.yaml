@@ -25,6 +25,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      alma: 2
       amazon: 2
       azure: 3
       oracle-oval: 2
@@ -36,7 +37,10 @@
         V3Score: 7
     References:
     - http://www.openwall.com/lists/oss-security/2025/04/08/3
+    - https://access.redhat.com/errata/RHSA-2025:4461
     - https://access.redhat.com/security/cve/CVE-2025-31498
+    - https://bugzilla.redhat.com/2358271
+    - https://errata.almalinux.org/8/ALSA-2025-4461.html
     - https://github.com/c-ares/c-ares/commit/29d38719112639d8c0ba910254a3dd4f482ea2d1
     - https://github.com/c-ares/c-ares/pull/821
     - https://github.com/c-ares/c-ares/security/advisories/GHSA-6hxc-62jh-p29v
