@@ -39,7 +39,8 @@
 │                       │      │                   This vulnerability is fixed in 1.34.5. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -47,18 +48,21 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/08/3 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-31498 
-│                       │      │                  ├ [2]: https://github.com/c-ares/c-ares/commit/29d38719112639
-│                       │      │                  │      d8c0ba910254a3dd4f482ea2d1 
-│                       │      │                  ├ [3]: https://github.com/c-ares/c-ares/pull/821 
-│                       │      │                  ├ [4]: https://github.com/c-ares/c-ares/security/advisories/G
-│                       │      │                  │      HSA-6hxc-62jh-p29v 
-│                       │      │                  ├ [5]: https://linux.oracle.com/cve/CVE-2025-31498.html 
-│                       │      │                  ├ [6]: https://linux.oracle.com/errata/ELSA-2025-4461.html 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-31498 
-│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7477-1 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-31498 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/08/3 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:4461 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-31498 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2358271 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-4461.html 
+│                       │      │                  ├ [5] : https://github.com/c-ares/c-ares/commit/29d3871911263
+│                       │      │                  │       9d8c0ba910254a3dd4f482ea2d1 
+│                       │      │                  ├ [6] : https://github.com/c-ares/c-ares/pull/821 
+│                       │      │                  ├ [7] : https://github.com/c-ares/c-ares/security/advisories/
+│                       │      │                  │       GHSA-6hxc-62jh-p29v 
+│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-31498.html 
+│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-4461.html 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-31498 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7477-1 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-31498 
 │                       │      ├ PublishedDate   : 2025-04-08T14:15:35.293Z 
 │                       │      ╰ LastModifiedDate: 2025-04-08T15:15:50.31Z 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2025-31344 
