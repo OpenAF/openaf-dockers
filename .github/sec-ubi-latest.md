@@ -701,9 +701,10 @@
 │                       │      │                  │       09/ 
 │                       │      │                  ├ [23]: https://ubuntu.com/security/CVE-2024-8176 
 │                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7424-1 
-│                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
+│                       │      │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
+│                       │      │                  ╰ [26]: https://www.kb.cert.org/vuls/id/760160 
 │                       │      ├ PublishedDate   : 2025-03-14T09:15:14.157Z 
-│                       │      ╰ LastModifiedDate: 2025-05-05T08:15:15.277Z 
+│                       │      ╰ LastModifiedDate: 2025-05-09T14:15:37.043Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2023-4156 
 │                       │      ├ PkgID           : gawk@5.1.0-6.el9.x86_64 
 │                       │      ├ PkgName         : gawk 
