@@ -1216,7 +1216,8 @@
 │                       │      │                   condition. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-407 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
@@ -1227,18 +1228,20 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:4051 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-12243 
-│                       │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2344615 
-│                       │      │                  ├ [3] : https://gitlab.com/gnutls/libtasn1/-/issues/52 
-│                       │      │                  ├ [4] : https://linux.oracle.com/cve/CVE-2024-12243.html 
-│                       │      │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-4051.html 
-│                       │      │                  ├ [6] : https://lists.debian.org/debian-lts-announce/2025/02/
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2344615 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2344615 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-4051.html 
+│                       │      │                  ├ [5] : https://gitlab.com/gnutls/libtasn1/-/issues/52 
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-12243.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-4051.html 
+│                       │      │                  ├ [8] : https://lists.debian.org/debian-lts-announce/2025/02/
 │                       │      │                  │       msg00027.html 
-│                       │      │                  ├ [7] : https://lists.gnupg.org/pipermail/gnutls-help/2025-Fe
+│                       │      │                  ├ [9] : https://lists.gnupg.org/pipermail/gnutls-help/2025-Fe
 │                       │      │                  │       bruary/004875.html 
-│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-12243 
-│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7281-1 
-│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-12243 
-│                       │      │                  ╰ [11]: https://www.gnutls.org/security-new.html#GNUTLS-SA-20
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-12243 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7281-1 
+│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-12243 
+│                       │      │                  ╰ [13]: https://www.gnutls.org/security-new.html#GNUTLS-SA-20
 │                       │      │                          25-02-07 
 │                       │      ├ PublishedDate   : 2025-02-10T16:15:37.423Z 
 │                       │      ╰ LastModifiedDate: 2025-04-23T11:15:45.773Z 
@@ -1386,9 +1389,9 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.4 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3845 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3855 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-21587 
-│                       │      │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-3845.html 
+│                       │      │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-3855.html 
 │                       │      │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/2adb01e8c5fb
 │                       │      │                  │       cc3dfa9f82df3deccb3a1705bf13 (jdk-11.0.27-ga) 
 │                       │      │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/73aa304234f2
@@ -1457,9 +1460,9 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.8 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3845 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3855 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30691 
-│                       │      │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-3845.html 
+│                       │      │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-3855.html 
 │                       │      │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/2b70822671cf
 │                       │      │                  │       5f9b37956949421e7c77da082c8e (jdk-11.0.27-ga) 
 │                       │      │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/5b0a5f436fb9
@@ -1539,9 +1542,9 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.6 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3845 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3855 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30698 
-│                       │      │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-3845.html 
+│                       │      │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-3855.html 
 │                       │      │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/ea1389c97182
 │                       │      │                  │       7876134a6d1d3ab2934681e9f3d6 (jdk-11.0.27-ga) 
 │                       │      │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/0a89eb258833
@@ -1610,13 +1613,15 @@
 │                       │      ├ PublishedDate   : 2025-04-14T08:15:13.973Z 
 │                       │      ╰ LastModifiedDate: 2025-04-15T18:39:27.967Z 
 │                       ├ [27] ╭ VulnerabilityID : CVE-2025-24528 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:7067 
 │                       │      ├ PkgID           : krb5-libs@1.21.1-4.el9_5.x86_64 
 │                       │      ├ PkgName         : krb5-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/krb5-libs@1.21.1-4.el9_5?arch=x86_64&d
 │                       │      │                  │       istro=redhat-9.5 
 │                       │      │                  ╰ UID : 42d98a6341e87938 
 │                       │      ├ InstalledVersion: 1.21.1-4.el9_5 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 1.21.1-6.el9 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:37b753910a1a0253853348da0982bfd56d6a3feca98b
 │                       │      │                  │         1ea1486a4a7cfc613075 
 │                       │      │                  ╰ DiffID: sha256:951d5b1f9bf0ef75b1bc17f07467d6a4aac49bde431c
@@ -2303,13 +2308,15 @@
 │                       │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T06:56:31.04Z 
 │                       ├ [39] ╭ VulnerabilityID : CVE-2024-12133 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:7077 
 │                       │      ├ PkgID           : libtasn1@4.16.0-8.el9_1.x86_64 
 │                       │      ├ PkgName         : libtasn1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libtasn1@4.16.0-8.el9_1?arch=x86_64&di
 │                       │      │                  │       stro=redhat-9.5 
 │                       │      │                  ╰ UID : c26f6d86613774a7 
 │                       │      ├ InstalledVersion: 4.16.0-8.el9_1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 4.16.0-9.el9 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:37b753910a1a0253853348da0982bfd56d6a3feca98b
 │                       │      │                  │         1ea1486a4a7cfc613075 
 │                       │      │                  ╰ DiffID: sha256:951d5b1f9bf0ef75b1bc17f07467d6a4aac49bde431c
@@ -2337,21 +2344,22 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/02/06/6 
 │                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:4049 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-12133 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2344611 
-│                       │      │                  ├ [4] : https://gitlab.com/gnutls/libtasn1/-/blob/master/doc/
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:7077 
+│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-12133 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2344611 
+│                       │      │                  ├ [5] : https://gitlab.com/gnutls/libtasn1/-/blob/master/doc/
 │                       │      │                  │       security/CVE-2024-12133.md?ref_type=heads 
-│                       │      │                  ├ [5] : https://gitlab.com/gnutls/libtasn1/-/issues/52 
-│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-12133.html 
-│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-4049.html 
-│                       │      │                  ├ [8] : https://lists.debian.org/debian-lts-announce/2025/02/
+│                       │      │                  ├ [6] : https://gitlab.com/gnutls/libtasn1/-/issues/52 
+│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-12133.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-4049.html 
+│                       │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/2025/02/
 │                       │      │                  │       msg00025.html 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-12133 
-│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7275-1 
-│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7275-2 
-│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-12133 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-12133 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7275-1 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7275-2 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-12133 
 │                       │      ├ PublishedDate   : 2025-02-10T16:15:37.26Z 
-│                       │      ╰ LastModifiedDate: 2025-04-23T12:15:15.01Z 
+│                       │      ╰ LastModifiedDate: 2025-05-13T09:15:19.16Z 
 │                       ├ [40] ╭ VulnerabilityID : CVE-2025-32414 
 │                       │      ├ PkgID           : libxml2@2.9.13-6.el9_5.2.x86_64 
 │                       │      ├ PkgName         : libxml2 
@@ -4048,13 +4056,15 @@
 │                       │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T05:51:31.403Z 
 │                       ├ [73] ╭ VulnerabilityID : CVE-2025-0938 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:6977 
 │                       │      ├ PkgID           : python-unversioned-command@3.9.21-1.el9_5.noarch 
 │                       │      ├ PkgName         : python-unversioned-command 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.21-1.el
 │                       │      │                  │       9_5?arch=noarch&distro=redhat-9.5 
 │                       │      │                  ╰ UID : 608b68b025ced14b 
 │                       │      ├ InstalledVersion: 3.9.21-1.el9_5 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 3.9.21-2.el9 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:37b753910a1a0253853348da0982bfd56d6a3feca98b
 │                       │      │                  │         1ea1486a4a7cfc613075 
 │                       │      │                  ╰ DiffID: sha256:951d5b1f9bf0ef75b1bc17f07467d6a4aac49bde431c
@@ -4457,13 +4467,15 @@
 │                       │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T05:51:31.403Z 
 │                       ├ [78] ╭ VulnerabilityID : CVE-2025-0938 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:6977 
 │                       │      ├ PkgID           : python3@3.9.21-1.el9_5.x86_64 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.21-1.el9_5?arch=x86_64&dis
 │                       │      │                  │       tro=redhat-9.5 
 │                       │      │                  ╰ UID : 10354af4a40c5d3e 
 │                       │      ├ InstalledVersion: 3.9.21-1.el9_5 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 3.9.21-2.el9 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:37b753910a1a0253853348da0982bfd56d6a3feca98b
 │                       │      │                  │         1ea1486a4a7cfc613075 
 │                       │      │                  ╰ DiffID: sha256:951d5b1f9bf0ef75b1bc17f07467d6a4aac49bde431c
@@ -4866,13 +4878,15 @@
 │                       │      ├ PublishedDate   : 2021-02-15T13:15:12.433Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T05:51:31.403Z 
 │                       ├ [83] ╭ VulnerabilityID : CVE-2025-0938 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:6977 
 │                       │      ├ PkgID           : python3-libs@3.9.21-1.el9_5.x86_64 
 │                       │      ├ PkgName         : python3-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.21-1.el9_5?arch=x86_6
 │                       │      │                  │       4&distro=redhat-9.5 
 │                       │      │                  ╰ UID : 4018da6618a128d1 
 │                       │      ├ InstalledVersion: 3.9.21-1.el9_5 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 3.9.21-2.el9 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:37b753910a1a0253853348da0982bfd56d6a3feca98b
 │                       │      │                  │         1ea1486a4a7cfc613075 
 │                       │      │                  ╰ DiffID: sha256:951d5b1f9bf0ef75b1bc17f07467d6a4aac49bde431c
