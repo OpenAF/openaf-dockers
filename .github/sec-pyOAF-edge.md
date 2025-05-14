@@ -39,21 +39,30 @@
 │                       │      │                   This vulnerability is fixed in 1.34.5. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ azure : 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/08/3 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-31498 
-│                       │      │                  ├ [2]: https://github.com/c-ares/c-ares/commit/29d38719112639
-│                       │      │                  │      d8c0ba910254a3dd4f482ea2d1 
-│                       │      │                  ├ [3]: https://github.com/c-ares/c-ares/pull/821 
-│                       │      │                  ├ [4]: https://github.com/c-ares/c-ares/security/advisories/G
-│                       │      │                  │      HSA-6hxc-62jh-p29v 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-31498 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-31498 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/08/3 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:4461 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-31498 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2358271 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-4461.html 
+│                       │      │                  ├ [5] : https://github.com/c-ares/c-ares/commit/29d3871911263
+│                       │      │                  │       9d8c0ba910254a3dd4f482ea2d1 
+│                       │      │                  ├ [6] : https://github.com/c-ares/c-ares/pull/821 
+│                       │      │                  ├ [7] : https://github.com/c-ares/c-ares/security/advisories/
+│                       │      │                  │       GHSA-6hxc-62jh-p29v 
+│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-31498.html 
+│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-4461.html 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-31498 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7477-1 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-31498 
 │                       │      ├ PublishedDate   : 2025-04-08T14:15:35.293Z 
 │                       │      ╰ LastModifiedDate: 2025-04-08T15:15:50.31Z 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2025-31344 
@@ -151,6 +160,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -173,10 +183,15 @@
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-21587 
 │                       │      │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/2
 │                       │      │                  │       025-04-15 
-│                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-21587 
-│                       │      │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7480-1 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7481-1 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7482-1 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7483-1 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7484-1 
+│                       │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-21587 
+│                       │      │                  ╰ [17]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:54.293Z 
-│                       │      ╰ LastModifiedDate: 2025-04-16T16:15:29.73Z 
+│                       │      ╰ LastModifiedDate: 2025-04-29T20:03:13.79Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2025-23083 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
@@ -274,6 +289,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -298,8 +314,13 @@
 │                       │      │                  │       025-04-15 
 │                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250418-00
 │                       │      │                  │       04/ 
-│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2025-30691 
-│                       │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7480-1 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7481-1 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7482-1 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7483-1 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7484-1 
+│                       │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2025-30691 
+│                       │      │                  ╰ [18]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:58.36Z 
 │                       │      ╰ LastModifiedDate: 2025-04-19T01:15:44.85Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2025-30698 
@@ -351,6 +372,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -373,10 +395,15 @@
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-30698 
 │                       │      │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/2
 │                       │      │                  │       025-04-15 
-│                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-30698 
-│                       │      │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7480-1 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7481-1 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7482-1 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7483-1 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7484-1 
+│                       │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-30698 
+│                       │      │                  ╰ [17]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:59.137Z 
-│                       │      ╰ LastModifiedDate: 2025-04-16T16:15:33.397Z 
+│                       │      ╰ LastModifiedDate: 2025-04-29T20:03:21.7Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2025-21587 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
@@ -424,6 +451,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -446,10 +474,15 @@
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-21587 
 │                       │      │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/2
 │                       │      │                  │       025-04-15 
-│                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-21587 
-│                       │      │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7480-1 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7481-1 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7482-1 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7483-1 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7484-1 
+│                       │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-21587 
+│                       │      │                  ╰ [17]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:54.293Z 
-│                       │      ╰ LastModifiedDate: 2025-04-16T16:15:29.73Z 
+│                       │      ╰ LastModifiedDate: 2025-04-29T20:03:13.79Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2025-23083 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
@@ -547,6 +580,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -571,8 +605,13 @@
 │                       │      │                  │       025-04-15 
 │                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-20250418-00
 │                       │      │                  │       04/ 
-│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2025-30691 
-│                       │      │                  ╰ [13]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7480-1 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7481-1 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7482-1 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7483-1 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7484-1 
+│                       │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2025-30691 
+│                       │      │                  ╰ [18]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:58.36Z 
 │                       │      ╰ LastModifiedDate: 2025-04-19T01:15:44.85Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2025-30698 
@@ -624,6 +663,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -646,10 +686,15 @@
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-30698 
 │                       │      │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/2
 │                       │      │                  │       025-04-15 
-│                       │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2025-30698 
-│                       │      │                  ╰ [12]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7480-1 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7481-1 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7482-1 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7483-1 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7484-1 
+│                       │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2025-30698 
+│                       │      │                  ╰ [17]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:59.137Z 
-│                       │      ╰ LastModifiedDate: 2025-04-16T16:15:33.397Z 
+│                       │      ╰ LastModifiedDate: 2025-04-29T20:03:21.7Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2025-29087 
 │                       │      ├ PkgID           : sqlite-libs@3.48.0-r0 
 │                       │      ├ PkgName         : sqlite-libs 
@@ -663,6 +708,7 @@
 │                       │      │                  │         af2fecb1758597ec9408 
 │                       │      │                  ╰ DiffID: sha256:be756c12e9dbd56e6ea2e38174c811ced9c0c95d3241
 │                       │      │                            fc7b86e44c11b16ec73a 
+│                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-29087 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
@@ -675,14 +721,18 @@
 │                       │      │                   string (e.g., 2MB or more), an integer overflow occurs in
 │                       │      │                   calculating the size of the result buffer, and thus malloc
 │                       │      │                   may not allocate enough memory. 
-│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-190 
-│                       │      ├ VendorSeverity   ╭ bitnami: 1 
+│                       │      ├ VendorSeverity   ╭ bitnami: 3 
+│                       │      │                  ├ nvd    : 3 
 │                       │      │                  ├ redhat : 2 
 │                       │      │                  ╰ ubuntu : 2 
-│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:
-│                       │      │                  │         │           N/A:L 
-│                       │      │                  │         ╰ V3Score : 3.2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                  │         │           N/A:H 
+│                       │      │                  │         ╰ V3Score : 7.5 
+│                       │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                  │         │           N/A:H 
+│                       │      │                  │         ╰ V3Score : 7.5 
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
 │                       │      │                            │           N/A:H 
 │                       │      │                            ╰ V3Score : 5.5 
@@ -694,7 +744,7 @@
 │                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-29087 
 │                       │      │                  ╰ [5]: https://www.sqlite.org/cves.html 
 │                       │      ├ PublishedDate   : 2025-04-07T20:15:20.253Z 
-│                       │      ╰ LastModifiedDate: 2025-04-15T16:16:06.233Z 
+│                       │      ╰ LastModifiedDate: 2025-04-30T12:43:22.31Z 
 │                       ╰ [11] ╭ VulnerabilityID : CVE-2025-31115 
 │                              ├ PkgID           : xz-libs@5.6.3-r0 
 │                              ├ PkgName         : xz-libs 
