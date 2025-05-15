@@ -71,13 +71,15 @@
 │                       │      ├ PublishedDate   : 2024-11-21T21:15:23.807Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T21:15:23.807Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2024-52616 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:7437 
 │                       │      ├ PkgID           : avahi-libs@0.8-21.el9.x86_64 
 │                       │      ├ PkgName         : avahi-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/avahi-libs@0.8-21.el9?arch=x86_64&dist
 │                       │      │                  │       ro=redhat-9.5 
 │                       │      │                  ╰ UID : 516b87568aec35cd 
 │                       │      ├ InstalledVersion: 0.8-21.el9 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 0.8-22.el9_6 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:37b753910a1a0253853348da0982bfd56d6a3feca98b
 │                       │      │                  │         1ea1486a4a7cfc613075 
 │                       │      │                  ╰ DiffID: sha256:951d5b1f9bf0ef75b1bc17f07467d6a4aac49bde431c
@@ -100,16 +102,17 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-52616 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
-│                       │      │                  ├ [2]: https://github.com/avahi/avahi/issues/254#issuecomment
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:7437 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-52616 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2326429 
+│                       │      │                  ├ [3]: https://github.com/avahi/avahi/issues/254#issuecomment
 │                       │      │                  │      -2480519212 
-│                       │      │                  ├ [3]: https://github.com/avahi/avahi/security/advisories/GHS
+│                       │      │                  ├ [4]: https://github.com/avahi/avahi/security/advisories/GHS
 │                       │      │                  │      A-r9j3-vjjh-p8vm 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-52616 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-52616 
 │                       │      ├ PublishedDate   : 2024-11-21T21:15:24.14Z 
-│                       │      ╰ LastModifiedDate: 2024-11-21T21:15:24.14Z 
+│                       │      ╰ LastModifiedDate: 2025-05-14T00:15:17.52Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2017-6519 
 │                       │      ├ PkgID           : avahi-libs@0.8-21.el9.x86_64 
 │                       │      ├ PkgName         : avahi-libs 
@@ -616,6 +619,7 @@
 │                       │      │                   integer overflow would
 │                       │      │                   make libcurl perform a buffer overflow. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-120 
 │                       │      ├ VendorSeverity   ╭ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ╰ redhat     : 1 
@@ -633,16 +637,16 @@
 │                       │      │                  ├ [8]: https://security.netapp.com/advisory/ntap-20250306-0009/ 
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-0725 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.98Z 
-│                       │      ╰ LastModifiedDate: 2025-03-07T01:15:12.403Z 
+│                       │      ╰ LastModifiedDate: 2025-05-13T18:35:30.15Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2024-8176 
-│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:3531 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:7444 
 │                       │      ├ PkgID           : expat@2.5.0-3.el9_5.1.x86_64 
 │                       │      ├ PkgName         : expat 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-3.el9_5.1?arch=x86_64&dist
 │                       │      │                  │       ro=redhat-9.5 
 │                       │      │                  ╰ UID : 5b04d3172453ad77 
 │                       │      ├ InstalledVersion: 2.5.0-3.el9_5.1 
-│                       │      ├ FixedVersion    : 2.5.0-3.el9_5.3 
+│                       │      ├ FixedVersion    : 2.5.0-5.el9_6 
 │                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:37b753910a1a0253853348da0982bfd56d6a3feca98b
 │                       │      │                  │         1ea1486a4a7cfc613075 
@@ -681,30 +685,32 @@
 │                       │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2025:4447 
 │                       │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2025:4448 
 │                       │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:4449 
-│                       │      │                  ├ [9] : https://access.redhat.com/security/cve/CVE-2024-8176 
-│                       │      │                  ├ [10]: https://blog.hartwork.org/posts/expat-2-7-0-released/ 
-│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2310137 
-│                       │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2310137 
-│                       │      │                  ├ [13]: https://bugzilla.suse.com/show_bug.cgi?id=1239618 
-│                       │      │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2025-3531.html 
-│                       │      │                  ├ [15]: https://github.com/libexpat/libexpat/blob/R_2_7_0/exp
+│                       │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2025:7444 
+│                       │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:7512 
+│                       │      │                  ├ [11]: https://access.redhat.com/security/cve/CVE-2024-8176 
+│                       │      │                  ├ [12]: https://blog.hartwork.org/posts/expat-2-7-0-released/ 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2310137 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2310137 
+│                       │      │                  ├ [15]: https://bugzilla.suse.com/show_bug.cgi?id=1239618 
+│                       │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2025-3531.html 
+│                       │      │                  ├ [17]: https://github.com/libexpat/libexpat/blob/R_2_7_0/exp
 │                       │      │                  │       at/Changes#L40-L52 
-│                       │      │                  ├ [16]: https://github.com/libexpat/libexpat/issues/893 
-│                       │      │                  ├ [17]: https://gitlab.alpinelinux.org/alpine/aports/-/commit
+│                       │      │                  ├ [18]: https://github.com/libexpat/libexpat/issues/893 
+│                       │      │                  ├ [19]: https://gitlab.alpinelinux.org/alpine/aports/-/commit
 │                       │      │                  │       /d068c3ff36fc6f4789988a09c69b434db757db53 
-│                       │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2024-8176.html 
-│                       │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2025-4048.html 
-│                       │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
-│                       │      │                  ├ [21]: https://security-tracker.debian.org/tracker/CVE-2024-
+│                       │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2024-8176.html 
+│                       │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2025-4048.html 
+│                       │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
+│                       │      │                  ├ [23]: https://security-tracker.debian.org/tracker/CVE-2024-
 │                       │      │                  │       8176 
-│                       │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-20250328-00
+│                       │      │                  ├ [24]: https://security.netapp.com/advisory/ntap-20250328-00
 │                       │      │                  │       09/ 
-│                       │      │                  ├ [23]: https://ubuntu.com/security/CVE-2024-8176 
-│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7424-1 
-│                       │      │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
-│                       │      │                  ╰ [26]: https://www.kb.cert.org/vuls/id/760160 
+│                       │      │                  ├ [25]: https://ubuntu.com/security/CVE-2024-8176 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7424-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2024-8176 
+│                       │      │                  ╰ [28]: https://www.kb.cert.org/vuls/id/760160 
 │                       │      ├ PublishedDate   : 2025-03-14T09:15:14.157Z 
-│                       │      ╰ LastModifiedDate: 2025-05-09T14:15:37.043Z 
+│                       │      ╰ LastModifiedDate: 2025-05-13T23:15:21.95Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2023-4156 
 │                       │      ├ PkgID           : gawk@5.1.0-6.el9.x86_64 
 │                       │      ├ PkgName         : gawk 
@@ -1191,13 +1197,15 @@
 │                       │      ├ PublishedDate   : 2025-03-19T20:15:20.14Z 
 │                       │      ╰ LastModifiedDate: 2025-03-19T20:15:20.14Z 
 │                       ├ [21] ╭ VulnerabilityID : CVE-2024-12243 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:7076 
 │                       │      ├ PkgID           : gnutls@3.8.3-4.el9_4.x86_64 
 │                       │      ├ PkgName         : gnutls 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/gnutls@3.8.3-4.el9_4?arch=x86_64&distr
 │                       │      │                  │       o=redhat-9.5 
 │                       │      │                  ╰ UID : 25bfd95195391d24 
 │                       │      ├ InstalledVersion: 3.8.3-4.el9_4 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 3.8.3-6.el9 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:37b753910a1a0253853348da0982bfd56d6a3feca98b
 │                       │      │                  │         1ea1486a4a7cfc613075 
 │                       │      │                  ╰ DiffID: sha256:951d5b1f9bf0ef75b1bc17f07467d6a4aac49bde431c
@@ -1217,6 +1225,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-407 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
@@ -1227,24 +1236,25 @@
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:4051 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-12243 
-│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2344615 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2344615 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-4051.html 
-│                       │      │                  ├ [5] : https://gitlab.com/gnutls/libtasn1/-/issues/52 
-│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-12243.html 
-│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-4051.html 
-│                       │      │                  ├ [8] : https://lists.debian.org/debian-lts-announce/2025/02/
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:7076 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-12243 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2344615 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2344615 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-4051.html 
+│                       │      │                  ├ [6] : https://gitlab.com/gnutls/libtasn1/-/issues/52 
+│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-12243.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-4051.html 
+│                       │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/2025/02/
 │                       │      │                  │       msg00027.html 
-│                       │      │                  ├ [9] : https://lists.gnupg.org/pipermail/gnutls-help/2025-Fe
+│                       │      │                  ├ [10]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Fe
 │                       │      │                  │       bruary/004875.html 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-12243 
-│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7281-1 
-│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-12243 
-│                       │      │                  ╰ [13]: https://www.gnutls.org/security-new.html#GNUTLS-SA-20
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-12243 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7281-1 
+│                       │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2024-12243 
+│                       │      │                  ╰ [14]: https://www.gnutls.org/security-new.html#GNUTLS-SA-20
 │                       │      │                          25-02-07 
 │                       │      ├ PublishedDate   : 2025-02-10T16:15:37.423Z 
-│                       │      ╰ LastModifiedDate: 2025-04-23T11:15:45.773Z 
+│                       │      ╰ LastModifiedDate: 2025-05-13T21:15:59.447Z 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2024-21094 
 │                       │      ├ PkgID           : java-21-openjdk-headless@21.0.6.0.7-1.el9.x86_64 
 │                       │      ├ PkgName         : java-21-openjdk-headless 
@@ -2147,6 +2157,7 @@
 │                       │      │                   integer overflow would
 │                       │      │                   make libcurl perform a buffer overflow. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-120 
 │                       │      ├ VendorSeverity   ╭ azure      : 3 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ╰ redhat     : 1 
@@ -2164,7 +2175,7 @@
 │                       │      │                  ├ [8]: https://security.netapp.com/advisory/ntap-20250306-0009/ 
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-0725 
 │                       │      ├ PublishedDate   : 2025-02-05T10:15:22.98Z 
-│                       │      ╰ LastModifiedDate: 2025-03-07T01:15:12.403Z 
+│                       │      ╰ LastModifiedDate: 2025-05-13T18:35:30.15Z 
 │                       ├ [36] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libgcc@11.5.0-5.el9_5.x86_64 
 │                       │      ├ PkgName         : libgcc 
@@ -2383,7 +2394,8 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ╭ [0]: CWE-393 
 │                       │      │                  ╰ [1]: CWE-252 
-│                       │      ├ VendorSeverity   ╭ nvd   : 3 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
@@ -2560,7 +2572,8 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ╭ [0]: CWE-1284 
 │                       │      │                  ╰ [1]: CWE-125 
-│                       │      ├ VendorSeverity   ╭ nvd   : 3 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 3 
 │                       │      │                  ├ photon: 1 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
