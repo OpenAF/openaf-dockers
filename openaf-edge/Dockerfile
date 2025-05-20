@@ -13,7 +13,7 @@ COPY getOpenAFOrigJar.js /openaf/
 RUN echo 'PATH=$PATH:/openaf' > /etc/profile.d/openaf.sh\
  && mv /etc/profile.d/color_prompt.sh.disabled /etc/profile.d/color_prompt.sh\
  && apk update\
- && apk --no-cache add ca-certificates curl openssl sudo bash jemalloc\
+ && apk --no-cache add ca-certificates curl openssl sudo bash mimalloc2\
  && update-ca-certificates\
  && adduser -g 0 -u 1000 -Ds /bin/sh openaf\
  && echo "openaf ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/openaf\
@@ -43,7 +43,7 @@ FROM scratch as final
 COPY --from=main / /
 
 ENV OAF_HOME=/openaf
-ENV LD_PRELOAD=/usr/lib/libjemalloc.so.2
+ENV LD_PRELOAD=/usr/lib/libmimalloc.so.2
 USER openaf:0
 
 WORKDIR /openaf
