@@ -5381,45 +5381,87 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2005-2541 
 │                       │      ├ PublishedDate   : 2005-08-10T04:00:00Z 
 │                       │      ╰ LastModifiedDate: 2025-04-03T01:03:51.193Z 
-│                       ╰ [92] ╭ VulnerabilityID : CVE-2023-39804 
-│                              ├ PkgID           : tar@1.34-7.el9.x86_64 
-│                              ├ PkgName         : tar 
-│                              ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=redh
-│                              │                  │       at-9.5&epoch=2 
-│                              │                  ╰ UID : f8076b5b0a39cb2 
-│                              ├ InstalledVersion: 2:1.34-7.el9 
-│                              ├ Status          : will_not_fix 
+│                       ├ [92] ╭ VulnerabilityID : CVE-2023-39804 
+│                       │      ├ PkgID           : tar@1.34-7.el9.x86_64 
+│                       │      ├ PkgName         : tar 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=redh
+│                       │      │                  │       at-9.5&epoch=2 
+│                       │      │                  ╰ UID : f8076b5b0a39cb2 
+│                       │      ├ InstalledVersion: 2:1.34-7.el9 
+│                       │      ├ Status          : will_not_fix 
+│                       │      ├ Layer            ╭ Digest: sha256:37b753910a1a0253853348da0982bfd56d6a3feca98b
+│                       │      │                  │         1ea1486a4a7cfc613075 
+│                       │      │                  ╰ DiffID: sha256:951d5b1f9bf0ef75b1bc17f07467d6a4aac49bde431c
+│                       │      │                            6862510a05294b4eda8d 
+│                       │      ├ SeveritySource  : redhat 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-39804 
+│                       │      ├ Title           : tar: Incorrectly handled extension attributes in PAX
+│                       │      │                   archives can lead to a crash 
+│                       │      ├ Description     : In GNU tar before 1.35, mishandled extension attributes in a
+│                       │      │                    PAX archive can lead to an application crash in xheader.c. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ VendorSeverity   ╭ amazon     : 1 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ photon     : 1 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 3.3 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-39804 
+│                       │      │                  ├ [1]: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1058
+│                       │      │                  │      079 
+│                       │      │                  ├ [2]: https://git.savannah.gnu.org/cgit/tar.git/commit/?id=a
+│                       │      │                  │      339f05cd269013fa133d2f148d73f6f7d4247e4 
+│                       │      │                  ├ [3]: https://git.savannah.gnu.org/cgit/tar.git/tree/src/xhe
+│                       │      │                  │      ader.c?h=release_1_34#n1723 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-39804 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6543-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-39804 
+│                       │      ├ PublishedDate   : 2024-03-27T04:15:08.897Z 
+│                       │      ╰ LastModifiedDate: 2024-11-21T08:15:56.95Z 
+│                       ╰ [93] ╭ VulnerabilityID : CVE-2025-4638 
+│                              ├ PkgID           : zlib@1.2.11-40.el9.x86_64 
+│                              ├ PkgName         : zlib 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/zlib@1.2.11-40.el9?arch=x86_64&distro=
+│                              │                  │       redhat-9.5 
+│                              │                  ╰ UID : 5bc27e2031913054 
+│                              ├ InstalledVersion: 1.2.11-40.el9 
+│                              ├ Status          : affected 
 │                              ├ Layer            ╭ Digest: sha256:37b753910a1a0253853348da0982bfd56d6a3feca98b
 │                              │                  │         1ea1486a4a7cfc613075 
 │                              │                  ╰ DiffID: sha256:951d5b1f9bf0ef75b1bc17f07467d6a4aac49bde431c
 │                              │                            6862510a05294b4eda8d 
 │                              ├ SeveritySource  : redhat 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-39804 
-│                              ├ Title           : tar: Incorrectly handled extension attributes in PAX
-│                              │                   archives can lead to a crash 
-│                              ├ Description     : In GNU tar before 1.35, mishandled extension attributes in a
-│                              │                    PAX archive can lead to an application crash in xheader.c. 
-│                              ├ Severity        : LOW 
-│                              ├ VendorSeverity   ╭ amazon     : 1 
-│                              │                  ├ cbl-mariner: 2 
-│                              │                  ├ photon     : 1 
-│                              │                  ├ redhat     : 1 
-│                              │                  ╰ ubuntu     : 2 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N
-│                              │                           │           /A:L 
-│                              │                           ╰ V3Score : 3.3 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-39804 
-│                              │                  ├ [1]: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1058
-│                              │                  │      079 
-│                              │                  ├ [2]: https://git.savannah.gnu.org/cgit/tar.git/commit/?id=a
-│                              │                  │      339f05cd269013fa133d2f148d73f6f7d4247e4 
-│                              │                  ├ [3]: https://git.savannah.gnu.org/cgit/tar.git/tree/src/xhe
-│                              │                  │      ader.c?h=release_1_34#n1723 
-│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-39804 
-│                              │                  ├ [5]: https://ubuntu.com/security/notices/USN-6543-1 
-│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-39804 
-│                              ├ PublishedDate   : 2024-03-27T04:15:08.897Z 
-│                              ╰ LastModifiedDate: 2024-11-21T08:15:56.95Z 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4638 
+│                              ├ Title           : pcl: zlib: Improper Pointer Arithmetic in pcl 
+│                              ├ Description     : A vulnerability exists in the inftrees.c component of the
+│                              │                   zlib library, which is bundled within the PointCloudLibrary
+│                              │                   (PCL). This issue may allow context-dependent attackers to
+│                              │                   cause undefined behavior by exploiting improper pointer
+│                              │                   arithmetic.
+│                              │                   
+│                              │                   Since version 1.14.0, PCL by default uses a zlib
+│                              │                   installation from the system, unless the user sets
+│                              │                   WITH_SYSTEM_ZLIB=FALSE. So this potential vulnerability is
+│                              │                   only relevant if the PCL version is older than 1.14.0 or the
+│                              │                    user specifically requests to not use the system zlib. 
+│                              ├ Severity        : HIGH 
+│                              ├ CweIDs           ─ [0]: CWE-119 
+│                              ├ VendorSeverity   ─ redhat: 3 
+│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
+│                              │                           │           /A:H 
+│                              │                           ╰ V3Score : 8.1 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-4638 
+│                              │                  ├ [1]: https://github.com/PointCloudLibrary/pcl/blob/master/s
+│                              │                  │      urface/CMakeLists.txt#L70 
+│                              │                  ├ [2]: https://github.com/PointCloudLibrary/pcl/commit/502bd2
+│                              │                  │      b013ce635f21632d523aa8cf2e04f7b7ac 
+│                              │                  ├ [3]: https://github.com/PointCloudLibrary/pcl/pull/6245 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-4638 
+│                              │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-4638 
+│                              ├ PublishedDate   : 2025-05-14T18:15:33.597Z 
+│                              ╰ LastModifiedDate: 2025-05-16T14:43:56.797Z 
 ╰ [1] ╭ Target: Java 
       ├ Class : lang-pkgs 
       ╰ Type  : jar 
