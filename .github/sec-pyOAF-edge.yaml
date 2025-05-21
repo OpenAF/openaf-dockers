@@ -181,6 +181,7 @@
       azure: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 3
     CVSS:
       bitnami:
@@ -392,6 +393,7 @@
       azure: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 3
     CVSS:
       bitnami:
