@@ -42,7 +42,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
-│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
@@ -60,7 +60,7 @@
 │                       │      │                  ├ [8] : https://github.com/c-ares/c-ares/security/advisories/
 │                       │      │                  │       GHSA-6hxc-62jh-p29v 
 │                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-31498.html 
-│                       │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7426.html 
+│                       │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7433.html 
 │                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-31498 
 │                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7477-1 
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-31498 
@@ -907,8 +907,9 @@
 │                       │      │                  │      29f04a0afd62a 
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-29087 
 │                       │      │                  ├ [3]: https://sqlite.org/releaselog/3_49_1.html 
-│                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-29087 
-│                       │      │                  ╰ [5]: https://www.sqlite.org/cves.html 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7528-1 
+│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-29087 
+│                       │      │                  ╰ [6]: https://www.sqlite.org/cves.html 
 │                       │      ├ PublishedDate   : 2025-04-07T20:15:20.253Z 
 │                       │      ╰ LastModifiedDate: 2025-04-30T12:43:22.31Z 
 │                       ╰ [15] ╭ VulnerabilityID : CVE-2025-31115 
