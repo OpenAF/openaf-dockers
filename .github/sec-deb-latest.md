@@ -87,7 +87,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ azure      : 1 
 │                       │      │                  ├ cbl-mariner: 1 
-│                       │      │                  ├ photon     : 2 
+│                       │      │                  ├ photon     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 
@@ -243,7 +243,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ VendorSeverity   ╭ azure      : 1 
 │                       │      │                  ├ cbl-mariner: 1 
-│                       │      │                  ├ photon     : 2 
+│                       │      │                  ├ photon     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-0167.html 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-0167.json 

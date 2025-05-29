@@ -82,7 +82,7 @@
     VendorSeverity:
       azure: 1
       cbl-mariner: 1
-      photon: 2
+      photon: 1
       ubuntu: 1
     References:
     - https://curl.se/docs/CVE-2025-0167.html
@@ -240,7 +240,7 @@
     VendorSeverity:
       azure: 1
       cbl-mariner: 1
-      photon: 2
+      photon: 1
       ubuntu: 1
     References:
     - https://curl.se/docs/CVE-2025-0167.html
