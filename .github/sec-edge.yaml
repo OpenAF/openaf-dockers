@@ -7,13 +7,13 @@
     PkgName: musl
     PkgIdentifier:
       PURL: pkg:apk/alpine/musl@1.2.5-r9?arch=x86_64&distro=3.22.0_alpha20250108
-      UID: 5f24e6e13113e0ec
+      UID: ebcbb7de0538c04f
     InstalledVersion: 1.2.5-r9
     FixedVersion: 1.2.5-r10
     Status: fixed
     Layer:
-      Digest: sha256:d714b2ec77aeb8d3628c7cc7a9ee09e730334d46477a0015ae4b25b828897384
-      DiffID: sha256:b6b44d25774031ad60917e4fd72c077a1b3d0b10841567ff02f8d17321a59297
+      Digest: sha256:ce6e23d9f9dc06ab5763b49196fd0c4057b80b720742b8a8fcd0ede570b3b1d8
+      DiffID: sha256:352a35b5074438f47ef02a62fe6835274a3c9464e33896eeb887562ebf876ff8
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-26519
     DataSource:
       ID: alpine
@@ -41,13 +41,13 @@
     PkgName: musl-utils
     PkgIdentifier:
       PURL: pkg:apk/alpine/musl-utils@1.2.5-r9?arch=x86_64&distro=3.22.0_alpha20250108
-      UID: 7828f14cf08ceb6a
+      UID: 8b959e5d6017bacb
     InstalledVersion: 1.2.5-r9
     FixedVersion: 1.2.5-r10
     Status: fixed
     Layer:
-      Digest: sha256:d714b2ec77aeb8d3628c7cc7a9ee09e730334d46477a0015ae4b25b828897384
-      DiffID: sha256:b6b44d25774031ad60917e4fd72c077a1b3d0b10841567ff02f8d17321a59297
+      Digest: sha256:ce6e23d9f9dc06ab5763b49196fd0c4057b80b720742b8a8fcd0ede570b3b1d8
+      DiffID: sha256:352a35b5074438f47ef02a62fe6835274a3c9464e33896eeb887562ebf876ff8
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-26519
     DataSource:
       ID: alpine
