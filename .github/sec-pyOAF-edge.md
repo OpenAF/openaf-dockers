@@ -7,7 +7,7 @@
 │                       │      ├ PkgName         : c-ares 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/c-ares@1.34.3-r0?arch=x86_64&distro=3.
 │                       │      │                  │       21.3 
-│                       │      │                  ╰ UID : 3bac544df48402b7 
+│                       │      │                  ╰ UID : a88ae4812afe4ac7 
 │                       │      ├ InstalledVersion: 1.34.3-r0 
 │                       │      ├ FixedVersion    : 1.34.5-r0 
 │                       │      ├ Status          : fixed 
@@ -71,7 +71,7 @@
 │                       │      ├ PkgName         : giflib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/giflib@5.2.2-r0?arch=x86_64&distro=3.2
 │                       │      │                  │       1.3 
-│                       │      │                  ╰ UID : da32343cd3d1a4d8 
+│                       │      │                  ╰ UID : 1faefcccad6c3f6 
 │                       │      ├ InstalledVersion: 5.2.2-r0 
 │                       │      ├ FixedVersion    : 5.2.2-r1 
 │                       │      ├ Status          : fixed 
@@ -119,7 +119,7 @@
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64
 │                       │      │                  │       &distro=3.21.3 
-│                       │      │                  ╰ UID : b0c8f9b2170425c0 
+│                       │      │                  ╰ UID : 2080461f382c7dae 
 │                       │      ├ InstalledVersion: 21.0.6_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.7_p6-r0 
 │                       │      ├ Status          : fixed 
@@ -200,7 +200,7 @@
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64
 │                       │      │                  │       &distro=3.21.3 
-│                       │      │                  ╰ UID : b0c8f9b2170425c0 
+│                       │      │                  ╰ UID : 2080461f382c7dae 
 │                       │      ├ InstalledVersion: 21.0.6_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.7_p6-r0 
 │                       │      ├ Status          : fixed 
@@ -258,7 +258,7 @@
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64
 │                       │      │                  │       &distro=3.21.3 
-│                       │      │                  ╰ UID : b0c8f9b2170425c0 
+│                       │      │                  ╰ UID : 2080461f382c7dae 
 │                       │      ├ InstalledVersion: 21.0.6_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.7_p6-r0 
 │                       │      ├ Status          : fixed 
@@ -334,7 +334,7 @@
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64
 │                       │      │                  │       &distro=3.21.3 
-│                       │      │                  ╰ UID : b0c8f9b2170425c0 
+│                       │      │                  ╰ UID : 2080461f382c7dae 
 │                       │      ├ InstalledVersion: 21.0.6_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.7_p6-r0 
 │                       │      ├ Status          : fixed 
@@ -417,7 +417,7 @@
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
 │                       │      │                  │       ch=x86_64&distro=3.21.3 
-│                       │      │                  ╰ UID : 93561891ceb3fbef 
+│                       │      │                  ╰ UID : d2e38af626fba367 
 │                       │      ├ InstalledVersion: 21.0.6_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.7_p6-r0 
 │                       │      ├ Status          : fixed 
@@ -498,7 +498,7 @@
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
 │                       │      │                  │       ch=x86_64&distro=3.21.3 
-│                       │      │                  ╰ UID : 93561891ceb3fbef 
+│                       │      │                  ╰ UID : d2e38af626fba367 
 │                       │      ├ InstalledVersion: 21.0.6_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.7_p6-r0 
 │                       │      ├ Status          : fixed 
@@ -556,7 +556,7 @@
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
 │                       │      │                  │       ch=x86_64&distro=3.21.3 
-│                       │      │                  ╰ UID : 93561891ceb3fbef 
+│                       │      │                  ╰ UID : d2e38af626fba367 
 │                       │      ├ InstalledVersion: 21.0.6_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.7_p6-r0 
 │                       │      ├ Status          : fixed 
@@ -632,7 +632,7 @@
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
 │                       │      │                  │       ch=x86_64&distro=3.21.3 
-│                       │      │                  ╰ UID : 93561891ceb3fbef 
+│                       │      │                  ╰ UID : d2e38af626fba367 
 │                       │      ├ InstalledVersion: 21.0.6_p7-r0 
 │                       │      ├ FixedVersion    : 21.0.7_p6-r0 
 │                       │      ├ Status          : fixed 
@@ -714,7 +714,7 @@
 │                       │      ├ PkgID           : pyc@3.12.9-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.12.9-r0?arch=x86_64&distro=3.21.3 
-│                       │      │                  ╰ UID : cf72e64d953821c9 
+│                       │      │                  ╰ UID : 41758a8c4cd5d746 
 │                       │      ├ InstalledVersion: 3.12.9-r0 
 │                       │      ├ FixedVersion    : 3.12.10-r1 
 │                       │      ├ Status          : fixed 
@@ -755,7 +755,7 @@
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.12.9-r0?arch=x86_64&distro=3
 │                       │      │                  │       .21.3 
-│                       │      │                  ╰ UID : 343ad4cba47e8b28 
+│                       │      │                  ╰ UID : a21f36526a870334 
 │                       │      ├ InstalledVersion: 3.12.9-r0 
 │                       │      ├ FixedVersion    : 3.12.10-r1 
 │                       │      ├ Status          : fixed 
@@ -796,7 +796,7 @@
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.12.9-r0?arch=x86_64&dist
 │                       │      │                  │       ro=3.21.3 
-│                       │      │                  ╰ UID : 3d0324976e18cd4f 
+│                       │      │                  ╰ UID : 2bcc0db22fc4228 
 │                       │      ├ InstalledVersion: 3.12.9-r0 
 │                       │      ├ FixedVersion    : 3.12.10-r1 
 │                       │      ├ Status          : fixed 
@@ -837,7 +837,7 @@
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.12.9-r0?arch=x8
 │                       │      │                  │       6_64&distro=3.21.3 
-│                       │      │                  ╰ UID : 7be0c38594cbfd3c 
+│                       │      │                  ╰ UID : bfb291a02ec4b24d 
 │                       │      ├ InstalledVersion: 3.12.9-r0 
 │                       │      ├ FixedVersion    : 3.12.10-r1 
 │                       │      ├ Status          : fixed 
@@ -878,7 +878,7 @@
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sqlite-libs@3.48.0-r0?arch=x86_64&dist
 │                       │      │                  │       ro=3.21.3 
-│                       │      │                  ╰ UID : d3184f4c955c09b4 
+│                       │      │                  ╰ UID : 22e66f5245d24208 
 │                       │      ├ InstalledVersion: 3.48.0-r0 
 │                       │      ├ FixedVersion    : 3.48.0-r1 
 │                       │      ├ Status          : fixed 
@@ -929,7 +929,7 @@
 │                              ├ PkgName         : xz-libs 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xz-libs@5.6.3-r0?arch=x86_64&distro=3.
 │                              │                  │       21.3 
-│                              │                  ╰ UID : 6a1b930ba614c87c 
+│                              │                  ╰ UID : a317bf50660bd742 
 │                              ├ InstalledVersion: 5.6.3-r0 
 │                              ├ FixedVersion    : 5.6.3-r1 
 │                              ├ Status          : fixed 

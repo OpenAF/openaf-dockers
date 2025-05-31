@@ -7,14 +7,14 @@
 │                       │     ├ PkgName         : musl 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl@1.2.5-r9?arch=x86_64&distro=3.22.0
 │                       │     │                  │       _alpha20250108 
-│                       │     │                  ╰ UID : 5f24e6e13113e0ec 
+│                       │     │                  ╰ UID : ebcbb7de0538c04f 
 │                       │     ├ InstalledVersion: 1.2.5-r9 
 │                       │     ├ FixedVersion    : 1.2.5-r10 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:d714b2ec77aeb8d3628c7cc7a9ee09e730334d46477a0
-│                       │     │                  │         015ae4b25b828897384 
-│                       │     │                  ╰ DiffID: sha256:b6b44d25774031ad60917e4fd72c077a1b3d0b1084156
-│                       │     │                            7ff02f8d17321a59297 
+│                       │     ├ Layer            ╭ Digest: sha256:5afe147e0e56ea35e70efb8ac0250da6d68956ceeea07
+│                       │     │                  │         bd463110209c47fea89 
+│                       │     │                  ╰ DiffID: sha256:e331129c792e70178ee513ae34745f87a9ea6564ced1b
+│                       │     │                            013526fe05c985afad7 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26519 
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
@@ -44,14 +44,14 @@
 │                             ├ PkgName         : musl-utils 
 │                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl-utils@1.2.5-r9?arch=x86_64&distro=
 │                             │                  │       3.22.0_alpha20250108 
-│                             │                  ╰ UID : 7828f14cf08ceb6a 
+│                             │                  ╰ UID : 8b959e5d6017bacb 
 │                             ├ InstalledVersion: 1.2.5-r9 
 │                             ├ FixedVersion    : 1.2.5-r10 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:d714b2ec77aeb8d3628c7cc7a9ee09e730334d46477a0
-│                             │                  │         015ae4b25b828897384 
-│                             │                  ╰ DiffID: sha256:b6b44d25774031ad60917e4fd72c077a1b3d0b1084156
-│                             │                            7ff02f8d17321a59297 
+│                             ├ Layer            ╭ Digest: sha256:5afe147e0e56ea35e70efb8ac0250da6d68956ceeea07
+│                             │                  │         bd463110209c47fea89 
+│                             │                  ╰ DiffID: sha256:e331129c792e70178ee513ae34745f87a9ea6564ced1b
+│                             │                            013526fe05c985afad7 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26519 
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
