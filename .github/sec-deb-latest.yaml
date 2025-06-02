@@ -792,7 +792,7 @@
     - CWE-1188
     VendorSeverity:
       azure: 1
-      redhat: 1
+      redhat: 2
       ubuntu: 1
     CVSS:
       redhat:
@@ -873,7 +873,7 @@
     - CWE-1188
     VendorSeverity:
       azure: 1
-      redhat: 1
+      redhat: 2
       ubuntu: 1
     CVSS:
       redhat:
