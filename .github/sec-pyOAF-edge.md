@@ -230,7 +230,8 @@
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
-│                       │      │                  ╰ redhat     : 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:
 │                       │      │                  │         │           H/A:N 
 │                       │      │                  │         ╰ V3Score : 7.7 
@@ -243,14 +244,19 @@
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2339392 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2342618 
 │                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-1613.html 
-│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-23083.html 
-│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-1613.html 
-│                       │      │                  ├ [8] : https://nodejs.org/en/blog/vulnerability/january-2025
+│                       │      │                  ├ [6] : https://github.com/nodejs/node/commit/51938f023aac90d
+│                       │      │                  │       c1dc0bc1f743501788613210e 
+│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-23083.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-1613.html 
+│                       │      │                  ├ [9] : https://nodejs.org/en/blog/vulnerability/january-2025
 │                       │      │                  │       -security-releases 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-23083 
-│                       │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20250228-00
+│                       │      │                  ├ [10]: https://nodejs.org/en/blog/vulnerability/january-2025
+│                       │      │                  │       -security-releases#worker-permission-bypass-via-inter
+│                       │      │                  │       nalworker-leak-in-diagnostics-cve-2025-23083---high 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-23083 
+│                       │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-20250228-00
 │                       │      │                  │       08/ 
-│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-23083 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-23083 
 │                       │      ├ PublishedDate   : 2025-01-22T02:15:33.93Z 
 │                       │      ╰ LastModifiedDate: 2025-02-28T13:15:28.213Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2025-30691 
@@ -528,7 +534,8 @@
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
-│                       │      │                  ╰ redhat     : 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:
 │                       │      │                  │         │           H/A:N 
 │                       │      │                  │         ╰ V3Score : 7.7 
@@ -541,14 +548,19 @@
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2339392 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2342618 
 │                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-1613.html 
-│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-23083.html 
-│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-1613.html 
-│                       │      │                  ├ [8] : https://nodejs.org/en/blog/vulnerability/january-2025
+│                       │      │                  ├ [6] : https://github.com/nodejs/node/commit/51938f023aac90d
+│                       │      │                  │       c1dc0bc1f743501788613210e 
+│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-23083.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-1613.html 
+│                       │      │                  ├ [9] : https://nodejs.org/en/blog/vulnerability/january-2025
 │                       │      │                  │       -security-releases 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-23083 
-│                       │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20250228-00
+│                       │      │                  ├ [10]: https://nodejs.org/en/blog/vulnerability/january-2025
+│                       │      │                  │       -security-releases#worker-permission-bypass-via-inter
+│                       │      │                  │       nalworker-leak-in-diagnostics-cve-2025-23083---high 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-23083 
+│                       │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-20250228-00
 │                       │      │                  │       08/ 
-│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-23083 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-23083 
 │                       │      ├ PublishedDate   : 2025-01-22T02:15:33.93Z 
 │                       │      ╰ LastModifiedDate: 2025-02-28T13:15:28.213Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2025-30691 
@@ -737,19 +749,30 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : UNKNOWN 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/05/16/4 
-│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/05/19/1 
-│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/69b4387f78f41
-│                       │      │                  │      3e8c47572a85b3478c47eba8142 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/9f69a58623bd0
-│                       │      │                  │      1349a18ba0c7a9cb1dad6a51e8e 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/issues/133767 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/pull/129648 
-│                       │      │                  ├ [6]: https://mail.python.org/archives/list/security-announc
-│                       │      │                  │      e@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/ 
-│                       │      │                  ╰ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/16/4 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/19/1 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/4398b788ffc1
+│                       │      │                  │       f954a2c552da285477d42a571292 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/6279eb8c076d
+│                       │      │                  │       89d3739a6edb393e43c7929b429d 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/69b4387f78f4
+│                       │      │                  │       13e8c47572a85b3478c47eba8142 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/73b3040f5924
+│                       │      │                  │       36385007918887b7e2132aa8431f 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/8d35fd1b3493
+│                       │      │                  │       5221aff23a1ab69a429dd156be77 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/9f69a58623bd
+│                       │      │                  │       01349a18ba0c7a9cb1dad6a51e8e 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/ab9893c40609
+│                       │      │                  │       935e0d40a6d2a7307ea51aec598b 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/issues/133767 
+│                       │      │                  ├ [10]: https://github.com/python/cpython/pull/129648 
+│                       │      │                  ├ [11]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74
+│                       │      │                  │       / 
+│                       │      │                  ╰ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
-│                       │      ╰ LastModifiedDate: 2025-05-19T10:15:21.153Z 
+│                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │      ├ PkgID           : python3@3.12.9-r0 
 │                       │      ├ PkgName         : python3 
@@ -778,19 +801,30 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : UNKNOWN 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/05/16/4 
-│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/05/19/1 
-│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/69b4387f78f41
-│                       │      │                  │      3e8c47572a85b3478c47eba8142 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/9f69a58623bd0
-│                       │      │                  │      1349a18ba0c7a9cb1dad6a51e8e 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/issues/133767 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/pull/129648 
-│                       │      │                  ├ [6]: https://mail.python.org/archives/list/security-announc
-│                       │      │                  │      e@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/ 
-│                       │      │                  ╰ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/16/4 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/19/1 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/4398b788ffc1
+│                       │      │                  │       f954a2c552da285477d42a571292 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/6279eb8c076d
+│                       │      │                  │       89d3739a6edb393e43c7929b429d 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/69b4387f78f4
+│                       │      │                  │       13e8c47572a85b3478c47eba8142 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/73b3040f5924
+│                       │      │                  │       36385007918887b7e2132aa8431f 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/8d35fd1b3493
+│                       │      │                  │       5221aff23a1ab69a429dd156be77 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/9f69a58623bd
+│                       │      │                  │       01349a18ba0c7a9cb1dad6a51e8e 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/ab9893c40609
+│                       │      │                  │       935e0d40a6d2a7307ea51aec598b 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/issues/133767 
+│                       │      │                  ├ [10]: https://github.com/python/cpython/pull/129648 
+│                       │      │                  ├ [11]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74
+│                       │      │                  │       / 
+│                       │      │                  ╰ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
-│                       │      ╰ LastModifiedDate: 2025-05-19T10:15:21.153Z 
+│                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │      ├ PkgID           : python3-pyc@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pyc 
@@ -819,19 +853,30 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : UNKNOWN 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/05/16/4 
-│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/05/19/1 
-│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/69b4387f78f41
-│                       │      │                  │      3e8c47572a85b3478c47eba8142 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/9f69a58623bd0
-│                       │      │                  │      1349a18ba0c7a9cb1dad6a51e8e 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/issues/133767 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/pull/129648 
-│                       │      │                  ├ [6]: https://mail.python.org/archives/list/security-announc
-│                       │      │                  │      e@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/ 
-│                       │      │                  ╰ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/16/4 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/19/1 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/4398b788ffc1
+│                       │      │                  │       f954a2c552da285477d42a571292 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/6279eb8c076d
+│                       │      │                  │       89d3739a6edb393e43c7929b429d 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/69b4387f78f4
+│                       │      │                  │       13e8c47572a85b3478c47eba8142 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/73b3040f5924
+│                       │      │                  │       36385007918887b7e2132aa8431f 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/8d35fd1b3493
+│                       │      │                  │       5221aff23a1ab69a429dd156be77 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/9f69a58623bd
+│                       │      │                  │       01349a18ba0c7a9cb1dad6a51e8e 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/ab9893c40609
+│                       │      │                  │       935e0d40a6d2a7307ea51aec598b 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/issues/133767 
+│                       │      │                  ├ [10]: https://github.com/python/cpython/pull/129648 
+│                       │      │                  ├ [11]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74
+│                       │      │                  │       / 
+│                       │      │                  ╰ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
-│                       │      ╰ LastModifiedDate: 2025-05-19T10:15:21.153Z 
+│                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
@@ -860,19 +905,30 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : UNKNOWN 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/05/16/4 
-│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/05/19/1 
-│                       │      │                  ├ [2]: https://github.com/python/cpython/commit/69b4387f78f41
-│                       │      │                  │      3e8c47572a85b3478c47eba8142 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/commit/9f69a58623bd0
-│                       │      │                  │      1349a18ba0c7a9cb1dad6a51e8e 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/issues/133767 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/pull/129648 
-│                       │      │                  ├ [6]: https://mail.python.org/archives/list/security-announc
-│                       │      │                  │      e@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74/ 
-│                       │      │                  ╰ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/16/4 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/19/1 
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/4398b788ffc1
+│                       │      │                  │       f954a2c552da285477d42a571292 
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/6279eb8c076d
+│                       │      │                  │       89d3739a6edb393e43c7929b429d 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/69b4387f78f4
+│                       │      │                  │       13e8c47572a85b3478c47eba8142 
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/73b3040f5924
+│                       │      │                  │       36385007918887b7e2132aa8431f 
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/8d35fd1b3493
+│                       │      │                  │       5221aff23a1ab69a429dd156be77 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/9f69a58623bd
+│                       │      │                  │       01349a18ba0c7a9cb1dad6a51e8e 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/ab9893c40609
+│                       │      │                  │       935e0d40a6d2a7307ea51aec598b 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/issues/133767 
+│                       │      │                  ├ [10]: https://github.com/python/cpython/pull/129648 
+│                       │      │                  ├ [11]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  │       ce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74
+│                       │      │                  │       / 
+│                       │      │                  ╰ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
-│                       │      ╰ LastModifiedDate: 2025-05-19T10:15:21.153Z 
+│                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
 │                       ├ [14] ╭ VulnerabilityID : CVE-2025-29087 
 │                       │      ├ PkgID           : sqlite-libs@3.48.0-r0 
 │                       │      ├ PkgName         : sqlite-libs 

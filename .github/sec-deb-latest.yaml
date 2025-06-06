@@ -768,6 +768,116 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-41996
     PublishedDate: '2024-08-26T06:15:04.603Z'
     LastModifiedDate: '2024-08-26T16:35:11.247Z'
+  - VulnerabilityID: CVE-2025-4598
+    PkgID: libsystemd0@256.5-2ubuntu3.1
+    PkgName: libsystemd0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsystemd0@256.5-2ubuntu3.1?arch=amd64&distro=ubuntu-24.10
+      UID: f7340a89617e2d74
+    InstalledVersion: 256.5-2ubuntu3.1
+    Status: affected
+    Layer:
+      Digest: sha256:60a93d0ebe069e2e014adbe0e13c95c79e592a8445d8f1b98bf73b244aff443c
+      DiffID: sha256:2c7ad7c8f9a4e2f163e5687bdca906cc890dbe51fb47512c173816e2a77dc0ce
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
+    Description: |-
+      A vulnerability was found in systemd-coredump. This flaw allows an attacker to force a SUID process to crash and replace it with a non-SUID binary to access the original's privileged process coredump, allowing the attacker to read sensitive data, such as /etc/shadow content, loaded by the original process.
+
+      A SUID binary or process has a special type of permission, which allows the process to run with the file owner's permissions, regardless of the user executing the binary. This allows the process to access more restricted data than unprivileged users or processes would be able to. An attacker can leverage this flaw by forcing a SUID process to crash and force the Linux kernel to recycle the process PID before systemd-coredump can analyze the /proc/pid/auxv file. If the attacker wins the race condition, they gain access to the original's SUID process coredump file. They can read sensitive content loaded into memory by the original binary, affecting data confidentiality.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-364
+    VendorSeverity:
+      oracle-oval: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/06/05/1
+    - http://www.openwall.com/lists/oss-security/2025/06/05/3
+    - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
+    - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
+    - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
+    - https://github.com/systemd/systemd/commit/49f1f2d4a7612bbed5211a73d11d6a94fbe3bb69 (main)
+    - https://github.com/systemd/systemd/commit/76e0ab49c47965877c19772a2b3bf55f6417ca39 (main)
+    - https://github.com/systemd/systemd/commit/868d95577ec9f862580ad365726515459be582fc (main)
+    - https://github.com/systemd/systemd/commit/8fc7b2a211eb13ef1a94250b28e1c79cab8bdcb9 (main)
+    - https://github.com/systemd/systemd/commit/9ce8e3e449def92c75ada41b7d10c5bc3946be77 (main)
+    - https://github.com/systemd/systemd/commit/e6a8687b939ab21854f12f59a3cce703e32768cf (main)
+    - https://linux.oracle.com/cve/CVE-2025-4598.html
+    - https://linux.oracle.com/errata/ELSA-2025-20344.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
+    - https://www.cve.org/CVERecord?id=CVE-2025-4598
+    - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
+    PublishedDate: '2025-05-30T14:15:23.557Z'
+    LastModifiedDate: '2025-06-05T07:15:23.047Z'
+  - VulnerabilityID: CVE-2025-4598
+    PkgID: libudev1@256.5-2ubuntu3.1
+    PkgName: libudev1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libudev1@256.5-2ubuntu3.1?arch=amd64&distro=ubuntu-24.10
+      UID: 841103bf19bdab52
+    InstalledVersion: 256.5-2ubuntu3.1
+    Status: affected
+    Layer:
+      Digest: sha256:60a93d0ebe069e2e014adbe0e13c95c79e592a8445d8f1b98bf73b244aff443c
+      DiffID: sha256:2c7ad7c8f9a4e2f163e5687bdca906cc890dbe51fb47512c173816e2a77dc0ce
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
+    Description: |-
+      A vulnerability was found in systemd-coredump. This flaw allows an attacker to force a SUID process to crash and replace it with a non-SUID binary to access the original's privileged process coredump, allowing the attacker to read sensitive data, such as /etc/shadow content, loaded by the original process.
+
+      A SUID binary or process has a special type of permission, which allows the process to run with the file owner's permissions, regardless of the user executing the binary. This allows the process to access more restricted data than unprivileged users or processes would be able to. An attacker can leverage this flaw by forcing a SUID process to crash and force the Linux kernel to recycle the process PID before systemd-coredump can analyze the /proc/pid/auxv file. If the attacker wins the race condition, they gain access to the original's SUID process coredump file. They can read sensitive content loaded into memory by the original binary, affecting data confidentiality.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-364
+    VendorSeverity:
+      oracle-oval: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/06/05/1
+    - http://www.openwall.com/lists/oss-security/2025/06/05/3
+    - https://access.redhat.com/security/cve/CVE-2025-4598
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
+    - https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f23d422ca8a5a8bdea
+    - https://github.com/systemd/systemd/commit/0c49e0049b7665bb7769a13ef346fef92e1ad4d6 (main)
+    - https://github.com/systemd/systemd/commit/13902e025321242b1d95c6d8b4e482b37f58cdef (main)
+    - https://github.com/systemd/systemd/commit/49f1f2d4a7612bbed5211a73d11d6a94fbe3bb69 (main)
+    - https://github.com/systemd/systemd/commit/76e0ab49c47965877c19772a2b3bf55f6417ca39 (main)
+    - https://github.com/systemd/systemd/commit/868d95577ec9f862580ad365726515459be582fc (main)
+    - https://github.com/systemd/systemd/commit/8fc7b2a211eb13ef1a94250b28e1c79cab8bdcb9 (main)
+    - https://github.com/systemd/systemd/commit/9ce8e3e449def92c75ada41b7d10c5bc3946be77 (main)
+    - https://github.com/systemd/systemd/commit/e6a8687b939ab21854f12f59a3cce703e32768cf (main)
+    - https://linux.oracle.com/cve/CVE-2025-4598.html
+    - https://linux.oracle.com/errata/ELSA-2025-20344.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
+    - https://www.cve.org/CVERecord?id=CVE-2025-4598
+    - https://www.openwall.com/lists/oss-security/2025/05/29/3
+    - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
+    PublishedDate: '2025-05-30T14:15:23.557Z'
+    LastModifiedDate: '2025-06-05T07:15:23.047Z'
   - VulnerabilityID: CVE-2024-56433
     PkgID: login@1:4.15.3-3ubuntu2
     PkgName: login

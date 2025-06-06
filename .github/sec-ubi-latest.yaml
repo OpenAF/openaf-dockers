@@ -698,6 +698,7 @@
     - https://access.redhat.com/errata/RHSA-2025:4449
     - https://access.redhat.com/errata/RHSA-2025:7444
     - https://access.redhat.com/errata/RHSA-2025:7512
+    - https://access.redhat.com/errata/RHSA-2025:8385
     - https://access.redhat.com/security/cve/CVE-2024-8176
     - https://blog.hartwork.org/posts/expat-2-7-0-released/
     - https://bugzilla.redhat.com/2310137
@@ -717,7 +718,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-8176
     - https://www.kb.cert.org/vuls/id/760160
     PublishedDate: '2025-03-14T09:15:14.157Z'
-    LastModifiedDate: '2025-05-13T23:15:21.95Z'
+    LastModifiedDate: '2025-06-02T15:15:32.773Z'
   - VulnerabilityID: CVE-2023-4156
     PkgID: gawk@5.1.0-6.el9.x86_64
     PkgName: gawk
@@ -1327,6 +1328,7 @@
     - https://access.redhat.com/errata/RHSA-2025:4051
     - https://access.redhat.com/errata/RHSA-2025:7076
     - https://access.redhat.com/errata/RHSA-2025:8020
+    - https://access.redhat.com/errata/RHSA-2025:8385
     - https://access.redhat.com/security/cve/CVE-2024-12243
     - https://bugzilla.redhat.com/2344615
     - https://bugzilla.redhat.com/show_bug.cgi?id=2344615
@@ -1342,7 +1344,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-12243
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2025-02-07
     PublishedDate: '2025-02-10T16:15:37.423Z'
-    LastModifiedDate: '2025-05-23T14:15:25.293Z'
+    LastModifiedDate: '2025-06-02T15:15:27.81Z'
   - VulnerabilityID: CVE-2024-21094
     PkgID: java-21-openjdk-headless@21.0.6.0.7-1.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -1677,6 +1679,8 @@
     CweIDs:
     - CWE-328
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1684,14 +1688,19 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2025:8411
     - https://access.redhat.com/security/cve/CVE-2025-3576
+    - https://bugzilla.redhat.com/2359465
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
+    - https://errata.almalinux.org/8/ALSA-2025-8411.html
+    - https://linux.oracle.com/cve/CVE-2025-3576.html
+    - https://linux.oracle.com/errata/ELSA-2025-8411.html
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
     - https://ubuntu.com/security/notices/USN-7542-1
     - https://www.cve.org/CVERecord?id=CVE-2025-3576
     PublishedDate: '2025-04-15T06:15:44.047Z'
-    LastModifiedDate: '2025-05-30T17:15:28.94Z'
+    LastModifiedDate: '2025-06-03T03:15:27.32Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-4.el9.x86_64
     PkgName: libarchive
@@ -2319,6 +2328,7 @@
     CweIDs:
     - CWE-407
     VendorSeverity:
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -2334,6 +2344,7 @@
     - https://access.redhat.com/errata/RHSA-2025:4049
     - https://access.redhat.com/errata/RHSA-2025:7077
     - https://access.redhat.com/errata/RHSA-2025:8021
+    - https://access.redhat.com/errata/RHSA-2025:8385
     - https://access.redhat.com/security/cve/CVE-2024-12133
     - https://bugzilla.redhat.com/show_bug.cgi?id=2344611
     - https://gitlab.com/gnutls/libtasn1/-/blob/master/doc/security/CVE-2024-12133.md?ref_type=heads
@@ -2347,7 +2358,7 @@
     - https://ubuntu.com/security/notices/USN-7275-2
     - https://www.cve.org/CVERecord?id=CVE-2024-12133
     PublishedDate: '2025-02-10T16:15:37.26Z'
-    LastModifiedDate: '2025-05-23T14:15:24.51Z'
+    LastModifiedDate: '2025-06-02T15:15:27.653Z'
   - VulnerabilityID: CVE-2025-32414
     PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
     PkgName: libxml2
@@ -4725,44 +4736,6 @@
     - https://www.openwall.com/lists/oss-security/2022/01/10/2
     PublishedDate: '2022-08-23T20:15:08.67Z'
     LastModifiedDate: '2024-11-21T06:23:20.623Z'
-  - VulnerabilityID: CVE-2025-4598
-    PkgID: systemd-libs@252-46.el9_5.2.x86_64
-    PkgName: systemd-libs
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/systemd-libs@252-46.el9_5.2?arch=x86_64&distro=redhat-9.5
-      UID: e1fa19113df11371
-    InstalledVersion: 252-46.el9_5.2
-    Status: affected
-    Layer:
-      Digest: sha256:37b753910a1a0253853348da0982bfd56d6a3feca98b1ea1486a4a7cfc613075
-      DiffID: sha256:951d5b1f9bf0ef75b1bc17f07467d6a4aac49bde431c6862510a05294b4eda8d
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
-    Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
-    Description: |-
-      A vulnerability was found in systemd-coredump. This flaw allows an attacker to force a SUID process to crash and replace it with a non-SUID binary to access the original's privileged process coredump, allowing the attacker to read sensitive data, such as /etc/shadow content, loaded by the original process.
-
-      A SUID binary or process has a special type of permission, which allows the process to run with the file owner's permissions, regardless of the user executing the binary. This allows the process to access more restricted data than unprivileged users or processes would be able to. An attacker can leverage this flaw by forcing a SUID process to crash and force the Linux kernel to recycle the process PID before systemd-coredump can analyze the /proc/pid/auxv file. If the attacker wins the race condition, they gain access to the original's SUID process coredump file. They can read sensitive content loaded into memory by the original binary, affecting data confidentiality.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-364
-    VendorSeverity:
-      oracle-oval: 3
-      redhat: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-4598
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
-    - https://linux.oracle.com/cve/CVE-2025-4598.html
-    - https://linux.oracle.com/errata/ELSA-2025-20344.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-4598
-    - https://www.cve.org/CVERecord?id=CVE-2025-4598
-    - https://www.openwall.com/lists/oss-security/2025/05/29/3
-    PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-05-30T16:31:03.107Z'
   - VulnerabilityID: CVE-2005-2541
     PkgID: tar@1.34-7.el9.x86_64
     PkgName: tar
