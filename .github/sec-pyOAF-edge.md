@@ -39,7 +39,7 @@
 │                       │      │                   This vulnerability is fixed in 1.34.5. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ oracle-oval: 3 
@@ -49,21 +49,20 @@
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/08/3 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:7433 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:4461 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-31498 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2358271 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2359553 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-7433.html 
-│                       │      │                  ├ [6] : https://github.com/c-ares/c-ares/commit/29d3871911263
+│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2025-4461.html 
+│                       │      │                  ├ [5] : https://github.com/c-ares/c-ares/commit/29d3871911263
 │                       │      │                  │       9d8c0ba910254a3dd4f482ea2d1 
-│                       │      │                  ├ [7] : https://github.com/c-ares/c-ares/pull/821 
-│                       │      │                  ├ [8] : https://github.com/c-ares/c-ares/security/advisories/
+│                       │      │                  ├ [6] : https://github.com/c-ares/c-ares/pull/821 
+│                       │      │                  ├ [7] : https://github.com/c-ares/c-ares/security/advisories/
 │                       │      │                  │       GHSA-6hxc-62jh-p29v 
-│                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-31498.html 
-│                       │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7433.html 
-│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-31498 
-│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7477-1 
-│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-31498 
+│                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-31498.html 
+│                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-7433.html 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-31498 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7477-1 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-31498 
 │                       │      ├ PublishedDate   : 2025-04-08T14:15:35.293Z 
 │                       │      ╰ LastModifiedDate: 2025-04-08T15:15:50.31Z 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2025-31344 
@@ -170,7 +169,7 @@
 │                       │      │                           ╰ V3Score : 7.4 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3855 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-21587 
-│                       │      │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-3855.html 
+│                       │      │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2025-3855.html 
 │                       │      │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/2adb01e8c5fb
 │                       │      │                  │       cc3dfa9f82df3deccb3a1705bf13 (jdk-11.0.27-ga) 
 │                       │      │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/73aa304234f2
@@ -238,12 +237,12 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:
 │                       │      │                            │           H/A:N 
 │                       │      │                            ╰ V3Score : 7.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:1613 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:1611 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-23083 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2339176 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2339392 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2342618 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-1613.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-1611.html 
 │                       │      │                  ├ [6] : https://github.com/nodejs/node/commit/51938f023aac90d
 │                       │      │                  │       c1dc0bc1f743501788613210e 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-23083.html 
@@ -308,7 +307,7 @@
 │                       │      │                           ╰ V3Score : 4.8 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3855 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30691 
-│                       │      │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-3855.html 
+│                       │      │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2025-3855.html 
 │                       │      │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/2b70822671cf
 │                       │      │                  │       5f9b37956949421e7c77da082c8e (jdk-11.0.27-ga) 
 │                       │      │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/5b0a5f436fb9
@@ -393,7 +392,7 @@
 │                       │      │                           ╰ V3Score : 5.6 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3855 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30698 
-│                       │      │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-3855.html 
+│                       │      │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2025-3855.html 
 │                       │      │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/ea1389c97182
 │                       │      │                  │       7876134a6d1d3ab2934681e9f3d6 (jdk-11.0.27-ga) 
 │                       │      │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/0a89eb258833
@@ -474,7 +473,7 @@
 │                       │      │                           ╰ V3Score : 7.4 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3855 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-21587 
-│                       │      │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-3855.html 
+│                       │      │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2025-3855.html 
 │                       │      │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/2adb01e8c5fb
 │                       │      │                  │       cc3dfa9f82df3deccb3a1705bf13 (jdk-11.0.27-ga) 
 │                       │      │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/73aa304234f2
@@ -542,12 +541,12 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:
 │                       │      │                            │           H/A:N 
 │                       │      │                            ╰ V3Score : 7.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:1613 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:1611 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-23083 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2339176 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2339392 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2342618 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-1613.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-1611.html 
 │                       │      │                  ├ [6] : https://github.com/nodejs/node/commit/51938f023aac90d
 │                       │      │                  │       c1dc0bc1f743501788613210e 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-23083.html 
@@ -612,7 +611,7 @@
 │                       │      │                           ╰ V3Score : 4.8 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3855 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30691 
-│                       │      │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-3855.html 
+│                       │      │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2025-3855.html 
 │                       │      │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/2b70822671cf
 │                       │      │                  │       5f9b37956949421e7c77da082c8e (jdk-11.0.27-ga) 
 │                       │      │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/5b0a5f436fb9
@@ -697,7 +696,7 @@
 │                       │      │                           ╰ V3Score : 5.6 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:3855 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-30698 
-│                       │      │                  ├ [2] : https://errata.almalinux.org/9/ALSA-2025-3855.html 
+│                       │      │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2025-3855.html 
 │                       │      │                  ├ [3] : https://github.com/openjdk/jdk11u/commit/ea1389c97182
 │                       │      │                  │       7876134a6d1d3ab2934681e9f3d6 (jdk-11.0.27-ga) 
 │                       │      │                  ├ [4] : https://github.com/openjdk/jdk17u/commit/0a89eb258833
