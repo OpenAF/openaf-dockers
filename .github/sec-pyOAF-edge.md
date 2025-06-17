@@ -818,8 +818,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : Allows the extraction filter to be ignored, allowing symlink
-│                       │      │                    targets t ... 
+│                       │      ├ Title           : cpython: Bypassing extraction filter to create symlinks to
+│                       │      │                   arbitrary targets outside extraction directory 
 │                       │      ├ Description     : Allows the extraction filter to be ignored, allowing symlink
 │                       │      │                    targets to point outside the destination directory, and the
 │                       │      │                    modification of some file metadata.
@@ -843,34 +843,40 @@
 │                       │      │                   installing source distributions with suspicious links. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-22 
-│                       │      ├ VendorSeverity   ─ bitnami: 3 
-│                       │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
+│                       │      ├ VendorSeverity   ╭ bitnami: 3 
+│                       │      │                  ╰ redhat : 3 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
+│                       │      │                  │         │           N/A:N 
+│                       │      │                  │         ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
 │                       │      │                            │           N/A:N 
 │                       │      │                            ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://gist.github.com/sethmlarson/52398e33eff261329
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4138 
+│                       │      │                  ├ [1] : https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
-│                       │      │                  ├ [1] : https://github.com/python/cpython/commit/19de092debb3
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/19de092debb3
 │                       │      │                  │       d7e832e5672cc2f7b788d35951da 
-│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/28463dba112a
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/28463dba112a
 │                       │      │                  │       f719df1e8b0391c46787ad756dd9 
-│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/3612d8f51741
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/3612d8f51741
 │                       │      │                  │       b11f36f8fb0494d79086bac9390a 
-│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/4633f3f497b1
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/4633f3f497b1
 │                       │      │                  │       ff70e4a35b6fe2c907cbe2d4cb2e 
-│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/9c1110ef6652
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/9c1110ef6652
 │                       │      │                  │       687d7c55f590f909720eddde965a 
-│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/9e0ac76d96cf
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/9e0ac76d96cf
 │                       │      │                  │       80b49055f6d6b9a6763fb9215c2a 
-│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/aa9eb5f757ce
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/aa9eb5f757ce
 │                       │      │                  │       ff461e6e996f12c89e5d9b583b01 
-│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/dd8f187d0746
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/dd8f187d0746
 │                       │      │                  │       da151e0025c51680979ac5b4cfb1 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/issues/135034 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/pull/135037 
-│                       │      │                  ├ [11]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [10]: https://github.com/python/cpython/issues/135034 
+│                       │      │                  ├ [11]: https://github.com/python/cpython/pull/135037 
+│                       │      │                  ├ [12]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG
 │                       │      │                  │       / 
-│                       │      │                  ╰ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-4138 
+│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-4138 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-4138 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.377Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.767Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2025-4517 
@@ -1050,30 +1056,37 @@
 │                       │      │                   issue you may stop using the error= handler and instead wrap
 │                       │      │                    the bytes.decode() call in a try-except catching the
 │                       │      │                   DecodeError. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/16/4 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/19/1 
 │                       │      │                  ├ [2] : https://github.com/python/cpython/commit/4398b788ffc1
 │                       │      │                  │       f954a2c552da285477d42a571292 
-│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/6279eb8c076d
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/564664867829
+│                       │      │                  │       5a44aa82636c6e92826651baf33a 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/6279eb8c076d
 │                       │      │                  │       89d3739a6edb393e43c7929b429d 
-│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/69b4387f78f4
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/69b4387f78f4
 │                       │      │                  │       13e8c47572a85b3478c47eba8142 
-│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/73b3040f5924
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/73b3040f5924
 │                       │      │                  │       36385007918887b7e2132aa8431f 
-│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/8d35fd1b3493
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/8d35fd1b3493
 │                       │      │                  │       5221aff23a1ab69a429dd156be77 
-│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/9f69a58623bd
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/9f69a58623bd
 │                       │      │                  │       01349a18ba0c7a9cb1dad6a51e8e 
-│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/ab9893c40609
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/9f69a58623bd
+│                       │      │                  │       01349a18ba0c7a9cb1dad6a51e8e (main) 
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/ab9893c40609
 │                       │      │                  │       935e0d40a6d2a7307ea51aec598b 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/issues/133767 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/pull/129648 
-│                       │      │                  ├ [11]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [11]: https://github.com/python/cpython/issues/133767 
+│                       │      │                  ├ [12]: https://github.com/python/cpython/pull/129648 
+│                       │      │                  ├ [13]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74
 │                       │      │                  │       / 
-│                       │      │                  ╰ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
+│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7570-1 
+│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
 │                       ├ [15] ╭ VulnerabilityID : CVE-2024-12718 
@@ -1174,8 +1187,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : Allows the extraction filter to be ignored, allowing symlink
-│                       │      │                    targets t ... 
+│                       │      ├ Title           : cpython: Bypassing extraction filter to create symlinks to
+│                       │      │                   arbitrary targets outside extraction directory 
 │                       │      ├ Description     : Allows the extraction filter to be ignored, allowing symlink
 │                       │      │                    targets to point outside the destination directory, and the
 │                       │      │                    modification of some file metadata.
@@ -1199,34 +1212,40 @@
 │                       │      │                   installing source distributions with suspicious links. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-22 
-│                       │      ├ VendorSeverity   ─ bitnami: 3 
-│                       │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
+│                       │      ├ VendorSeverity   ╭ bitnami: 3 
+│                       │      │                  ╰ redhat : 3 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
+│                       │      │                  │         │           N/A:N 
+│                       │      │                  │         ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
 │                       │      │                            │           N/A:N 
 │                       │      │                            ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://gist.github.com/sethmlarson/52398e33eff261329
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4138 
+│                       │      │                  ├ [1] : https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
-│                       │      │                  ├ [1] : https://github.com/python/cpython/commit/19de092debb3
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/19de092debb3
 │                       │      │                  │       d7e832e5672cc2f7b788d35951da 
-│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/28463dba112a
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/28463dba112a
 │                       │      │                  │       f719df1e8b0391c46787ad756dd9 
-│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/3612d8f51741
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/3612d8f51741
 │                       │      │                  │       b11f36f8fb0494d79086bac9390a 
-│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/4633f3f497b1
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/4633f3f497b1
 │                       │      │                  │       ff70e4a35b6fe2c907cbe2d4cb2e 
-│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/9c1110ef6652
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/9c1110ef6652
 │                       │      │                  │       687d7c55f590f909720eddde965a 
-│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/9e0ac76d96cf
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/9e0ac76d96cf
 │                       │      │                  │       80b49055f6d6b9a6763fb9215c2a 
-│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/aa9eb5f757ce
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/aa9eb5f757ce
 │                       │      │                  │       ff461e6e996f12c89e5d9b583b01 
-│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/dd8f187d0746
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/dd8f187d0746
 │                       │      │                  │       da151e0025c51680979ac5b4cfb1 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/issues/135034 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/pull/135037 
-│                       │      │                  ├ [11]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [10]: https://github.com/python/cpython/issues/135034 
+│                       │      │                  ├ [11]: https://github.com/python/cpython/pull/135037 
+│                       │      │                  ├ [12]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG
 │                       │      │                  │       / 
-│                       │      │                  ╰ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-4138 
+│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-4138 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-4138 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.377Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.767Z 
 │                       ├ [17] ╭ VulnerabilityID : CVE-2025-4517 
@@ -1409,30 +1428,37 @@
 │                       │      │                   issue you may stop using the error= handler and instead wrap
 │                       │      │                    the bytes.decode() call in a try-except catching the
 │                       │      │                   DecodeError. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/16/4 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/19/1 
 │                       │      │                  ├ [2] : https://github.com/python/cpython/commit/4398b788ffc1
 │                       │      │                  │       f954a2c552da285477d42a571292 
-│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/6279eb8c076d
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/564664867829
+│                       │      │                  │       5a44aa82636c6e92826651baf33a 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/6279eb8c076d
 │                       │      │                  │       89d3739a6edb393e43c7929b429d 
-│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/69b4387f78f4
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/69b4387f78f4
 │                       │      │                  │       13e8c47572a85b3478c47eba8142 
-│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/73b3040f5924
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/73b3040f5924
 │                       │      │                  │       36385007918887b7e2132aa8431f 
-│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/8d35fd1b3493
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/8d35fd1b3493
 │                       │      │                  │       5221aff23a1ab69a429dd156be77 
-│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/9f69a58623bd
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/9f69a58623bd
 │                       │      │                  │       01349a18ba0c7a9cb1dad6a51e8e 
-│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/ab9893c40609
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/9f69a58623bd
+│                       │      │                  │       01349a18ba0c7a9cb1dad6a51e8e (main) 
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/ab9893c40609
 │                       │      │                  │       935e0d40a6d2a7307ea51aec598b 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/issues/133767 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/pull/129648 
-│                       │      │                  ├ [11]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [11]: https://github.com/python/cpython/issues/133767 
+│                       │      │                  ├ [12]: https://github.com/python/cpython/pull/129648 
+│                       │      │                  ├ [13]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74
 │                       │      │                  │       / 
-│                       │      │                  ╰ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
+│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7570-1 
+│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
 │                       ├ [20] ╭ VulnerabilityID : CVE-2024-12718 
@@ -1533,8 +1559,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : Allows the extraction filter to be ignored, allowing symlink
-│                       │      │                    targets t ... 
+│                       │      ├ Title           : cpython: Bypassing extraction filter to create symlinks to
+│                       │      │                   arbitrary targets outside extraction directory 
 │                       │      ├ Description     : Allows the extraction filter to be ignored, allowing symlink
 │                       │      │                    targets to point outside the destination directory, and the
 │                       │      │                    modification of some file metadata.
@@ -1558,34 +1584,40 @@
 │                       │      │                   installing source distributions with suspicious links. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-22 
-│                       │      ├ VendorSeverity   ─ bitnami: 3 
-│                       │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
+│                       │      ├ VendorSeverity   ╭ bitnami: 3 
+│                       │      │                  ╰ redhat : 3 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
+│                       │      │                  │         │           N/A:N 
+│                       │      │                  │         ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
 │                       │      │                            │           N/A:N 
 │                       │      │                            ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://gist.github.com/sethmlarson/52398e33eff261329
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4138 
+│                       │      │                  ├ [1] : https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
-│                       │      │                  ├ [1] : https://github.com/python/cpython/commit/19de092debb3
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/19de092debb3
 │                       │      │                  │       d7e832e5672cc2f7b788d35951da 
-│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/28463dba112a
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/28463dba112a
 │                       │      │                  │       f719df1e8b0391c46787ad756dd9 
-│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/3612d8f51741
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/3612d8f51741
 │                       │      │                  │       b11f36f8fb0494d79086bac9390a 
-│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/4633f3f497b1
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/4633f3f497b1
 │                       │      │                  │       ff70e4a35b6fe2c907cbe2d4cb2e 
-│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/9c1110ef6652
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/9c1110ef6652
 │                       │      │                  │       687d7c55f590f909720eddde965a 
-│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/9e0ac76d96cf
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/9e0ac76d96cf
 │                       │      │                  │       80b49055f6d6b9a6763fb9215c2a 
-│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/aa9eb5f757ce
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/aa9eb5f757ce
 │                       │      │                  │       ff461e6e996f12c89e5d9b583b01 
-│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/dd8f187d0746
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/dd8f187d0746
 │                       │      │                  │       da151e0025c51680979ac5b4cfb1 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/issues/135034 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/pull/135037 
-│                       │      │                  ├ [11]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [10]: https://github.com/python/cpython/issues/135034 
+│                       │      │                  ├ [11]: https://github.com/python/cpython/pull/135037 
+│                       │      │                  ├ [12]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG
 │                       │      │                  │       / 
-│                       │      │                  ╰ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-4138 
+│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-4138 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-4138 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.377Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.767Z 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2025-4517 
@@ -1768,30 +1800,37 @@
 │                       │      │                   issue you may stop using the error= handler and instead wrap
 │                       │      │                    the bytes.decode() call in a try-except catching the
 │                       │      │                   DecodeError. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/16/4 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/19/1 
 │                       │      │                  ├ [2] : https://github.com/python/cpython/commit/4398b788ffc1
 │                       │      │                  │       f954a2c552da285477d42a571292 
-│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/6279eb8c076d
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/564664867829
+│                       │      │                  │       5a44aa82636c6e92826651baf33a 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/6279eb8c076d
 │                       │      │                  │       89d3739a6edb393e43c7929b429d 
-│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/69b4387f78f4
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/69b4387f78f4
 │                       │      │                  │       13e8c47572a85b3478c47eba8142 
-│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/73b3040f5924
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/73b3040f5924
 │                       │      │                  │       36385007918887b7e2132aa8431f 
-│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/8d35fd1b3493
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/8d35fd1b3493
 │                       │      │                  │       5221aff23a1ab69a429dd156be77 
-│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/9f69a58623bd
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/9f69a58623bd
 │                       │      │                  │       01349a18ba0c7a9cb1dad6a51e8e 
-│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/ab9893c40609
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/9f69a58623bd
+│                       │      │                  │       01349a18ba0c7a9cb1dad6a51e8e (main) 
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/ab9893c40609
 │                       │      │                  │       935e0d40a6d2a7307ea51aec598b 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/issues/133767 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/pull/129648 
-│                       │      │                  ├ [11]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [11]: https://github.com/python/cpython/issues/133767 
+│                       │      │                  ├ [12]: https://github.com/python/cpython/pull/129648 
+│                       │      │                  ├ [13]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74
 │                       │      │                  │       / 
-│                       │      │                  ╰ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
+│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7570-1 
+│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
 │                       ├ [25] ╭ VulnerabilityID : CVE-2024-12718 
@@ -1892,8 +1931,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Title           : Allows the extraction filter to be ignored, allowing symlink
-│                       │      │                    targets t ... 
+│                       │      ├ Title           : cpython: Bypassing extraction filter to create symlinks to
+│                       │      │                   arbitrary targets outside extraction directory 
 │                       │      ├ Description     : Allows the extraction filter to be ignored, allowing symlink
 │                       │      │                    targets to point outside the destination directory, and the
 │                       │      │                    modification of some file metadata.
@@ -1917,34 +1956,40 @@
 │                       │      │                   installing source distributions with suspicious links. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-22 
-│                       │      ├ VendorSeverity   ─ bitnami: 3 
-│                       │      ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
+│                       │      ├ VendorSeverity   ╭ bitnami: 3 
+│                       │      │                  ╰ redhat : 3 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
+│                       │      │                  │         │           N/A:N 
+│                       │      │                  │         ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
 │                       │      │                            │           N/A:N 
 │                       │      │                            ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://gist.github.com/sethmlarson/52398e33eff261329
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-4138 
+│                       │      │                  ├ [1] : https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
-│                       │      │                  ├ [1] : https://github.com/python/cpython/commit/19de092debb3
+│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/19de092debb3
 │                       │      │                  │       d7e832e5672cc2f7b788d35951da 
-│                       │      │                  ├ [2] : https://github.com/python/cpython/commit/28463dba112a
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/28463dba112a
 │                       │      │                  │       f719df1e8b0391c46787ad756dd9 
-│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/3612d8f51741
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/3612d8f51741
 │                       │      │                  │       b11f36f8fb0494d79086bac9390a 
-│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/4633f3f497b1
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/4633f3f497b1
 │                       │      │                  │       ff70e4a35b6fe2c907cbe2d4cb2e 
-│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/9c1110ef6652
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/9c1110ef6652
 │                       │      │                  │       687d7c55f590f909720eddde965a 
-│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/9e0ac76d96cf
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/9e0ac76d96cf
 │                       │      │                  │       80b49055f6d6b9a6763fb9215c2a 
-│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/aa9eb5f757ce
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/aa9eb5f757ce
 │                       │      │                  │       ff461e6e996f12c89e5d9b583b01 
-│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/dd8f187d0746
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/dd8f187d0746
 │                       │      │                  │       da151e0025c51680979ac5b4cfb1 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/issues/135034 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/pull/135037 
-│                       │      │                  ├ [11]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [10]: https://github.com/python/cpython/issues/135034 
+│                       │      │                  ├ [11]: https://github.com/python/cpython/pull/135037 
+│                       │      │                  ├ [12]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG
 │                       │      │                  │       / 
-│                       │      │                  ╰ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-4138 
+│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-4138 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-4138 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.377Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.767Z 
 │                       ├ [27] ╭ VulnerabilityID : CVE-2025-4517 
@@ -2127,30 +2172,37 @@
 │                       │      │                   issue you may stop using the error= handler and instead wrap
 │                       │      │                    the bytes.decode() call in a try-except catching the
 │                       │      │                   DecodeError. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/05/16/4 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/05/19/1 
 │                       │      │                  ├ [2] : https://github.com/python/cpython/commit/4398b788ffc1
 │                       │      │                  │       f954a2c552da285477d42a571292 
-│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/6279eb8c076d
+│                       │      │                  ├ [3] : https://github.com/python/cpython/commit/564664867829
+│                       │      │                  │       5a44aa82636c6e92826651baf33a 
+│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/6279eb8c076d
 │                       │      │                  │       89d3739a6edb393e43c7929b429d 
-│                       │      │                  ├ [4] : https://github.com/python/cpython/commit/69b4387f78f4
+│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/69b4387f78f4
 │                       │      │                  │       13e8c47572a85b3478c47eba8142 
-│                       │      │                  ├ [5] : https://github.com/python/cpython/commit/73b3040f5924
+│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/73b3040f5924
 │                       │      │                  │       36385007918887b7e2132aa8431f 
-│                       │      │                  ├ [6] : https://github.com/python/cpython/commit/8d35fd1b3493
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/8d35fd1b3493
 │                       │      │                  │       5221aff23a1ab69a429dd156be77 
-│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/9f69a58623bd
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/9f69a58623bd
 │                       │      │                  │       01349a18ba0c7a9cb1dad6a51e8e 
-│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/ab9893c40609
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/9f69a58623bd
+│                       │      │                  │       01349a18ba0c7a9cb1dad6a51e8e (main) 
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/ab9893c40609
 │                       │      │                  │       935e0d40a6d2a7307ea51aec598b 
-│                       │      │                  ├ [9] : https://github.com/python/cpython/issues/133767 
-│                       │      │                  ├ [10]: https://github.com/python/cpython/pull/129648 
-│                       │      │                  ├ [11]: https://mail.python.org/archives/list/security-announ
+│                       │      │                  ├ [11]: https://github.com/python/cpython/issues/133767 
+│                       │      │                  ├ [12]: https://github.com/python/cpython/pull/129648 
+│                       │      │                  ├ [13]: https://mail.python.org/archives/list/security-announ
 │                       │      │                  │       ce@python.org/thread/L75IPBBTSCYEF56I2M4KIW353BB3AY74
 │                       │      │                  │       / 
-│                       │      │                  ╰ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
+│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-4516 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7570-1 
+│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
 │                       ├ [30] ╭ VulnerabilityID : CVE-2025-29087 
