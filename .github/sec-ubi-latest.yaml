@@ -579,50 +579,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
     LastModifiedDate: '2024-12-13T14:15:22.953Z'
-  - VulnerabilityID: CVE-2025-0725
-    PkgID: curl-minimal@7.76.1-31.el9.x86_64
-    PkgName: curl-minimal
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/curl-minimal@7.76.1-31.el9?arch=x86_64&distro=redhat-9.5
-      UID: c0e05bc267fd2158
-    InstalledVersion: 7.76.1-31.el9
-    Status: affected
-    Layer:
-      Digest: sha256:37b753910a1a0253853348da0982bfd56d6a3feca98b1ea1486a4a7cfc613075
-      DiffID: sha256:951d5b1f9bf0ef75b1bc17f07467d6a4aac49bde431c6862510a05294b4eda8d
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0725
-    Title: 'libcurl: Buffer Overflow in libcurl via zlib Integer Overflow'
-    Description: |-
-      When libcurl is asked to perform automatic gzip decompression of
-      content-encoded HTTP responses with the `CURLOPT_ACCEPT_ENCODING` option,
-      **using zlib 1.2.0.3 or older**, an attacker-controlled integer overflow would
-      make libcurl perform a buffer overflow.
-    Severity: LOW
-    CweIDs:
-    - CWE-120
-    VendorSeverity:
-      azure: 3
-      cbl-mariner: 3
-      redhat: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 4
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/02/05/3
-    - http://www.openwall.com/lists/oss-security/2025/02/06/2
-    - http://www.openwall.com/lists/oss-security/2025/02/06/4
-    - https://access.redhat.com/security/cve/CVE-2025-0725
-    - https://curl.se/docs/CVE-2025-0725.html
-    - https://curl.se/docs/CVE-2025-0725.json
-    - https://github.com/curl/curl/commit/76f83f0db23846e254d940ec7
-    - https://hackerone.com/reports/2956023
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-0725
-    - https://security.netapp.com/advisory/ntap-20250306-0009/
-    - https://www.cve.org/CVERecord?id=CVE-2025-0725
-    PublishedDate: '2025-02-05T10:15:22.98Z'
-    LastModifiedDate: '2025-06-12T16:15:22.467Z'
   - VulnerabilityID: CVE-2024-8176
     VendorIDs:
     - RHSA-2025:7444
@@ -2363,50 +2319,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
     LastModifiedDate: '2024-12-13T14:15:22.953Z'
-  - VulnerabilityID: CVE-2025-0725
-    PkgID: libcurl-minimal@7.76.1-31.el9.x86_64
-    PkgName: libcurl-minimal
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-31.el9?arch=x86_64&distro=redhat-9.5
-      UID: 87d3ea38929bd38d
-    InstalledVersion: 7.76.1-31.el9
-    Status: affected
-    Layer:
-      Digest: sha256:37b753910a1a0253853348da0982bfd56d6a3feca98b1ea1486a4a7cfc613075
-      DiffID: sha256:951d5b1f9bf0ef75b1bc17f07467d6a4aac49bde431c6862510a05294b4eda8d
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-0725
-    Title: 'libcurl: Buffer Overflow in libcurl via zlib Integer Overflow'
-    Description: |-
-      When libcurl is asked to perform automatic gzip decompression of
-      content-encoded HTTP responses with the `CURLOPT_ACCEPT_ENCODING` option,
-      **using zlib 1.2.0.3 or older**, an attacker-controlled integer overflow would
-      make libcurl perform a buffer overflow.
-    Severity: LOW
-    CweIDs:
-    - CWE-120
-    VendorSeverity:
-      azure: 3
-      cbl-mariner: 3
-      redhat: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 4
-    References:
-    - http://www.openwall.com/lists/oss-security/2025/02/05/3
-    - http://www.openwall.com/lists/oss-security/2025/02/06/2
-    - http://www.openwall.com/lists/oss-security/2025/02/06/4
-    - https://access.redhat.com/security/cve/CVE-2025-0725
-    - https://curl.se/docs/CVE-2025-0725.html
-    - https://curl.se/docs/CVE-2025-0725.json
-    - https://github.com/curl/curl/commit/76f83f0db23846e254d940ec7
-    - https://hackerone.com/reports/2956023
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-0725
-    - https://security.netapp.com/advisory/ntap-20250306-0009/
-    - https://www.cve.org/CVERecord?id=CVE-2025-0725
-    PublishedDate: '2025-02-05T10:15:22.98Z'
-    LastModifiedDate: '2025-06-12T16:15:22.467Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc@11.5.0-5.el9_5.x86_64
     PkgName: libgcc
@@ -2603,8 +2515,10 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-49794
     Title: 'libxml: Heap use after free (UAF) leads to Denial of service (DoS)'
-    Description: No description is available for this CVE.
+    Description: A use-after-free vulnerability was found in libxml2. This issue occurs when parsing XPath elements under certain circumstances when the XML schematron has the <sch:name path="..."/> schema elements. This flaw allows a malicious actor to craft a malicious XML document used as input for libxml, resulting in the program's crash using libxml or other possible undefined behaviors.
     Severity: HIGH
+    CweIDs:
+    - CWE-825
     VendorSeverity:
       redhat: 3
     CVSS:
@@ -2613,8 +2527,11 @@
         V3Score: 9.1
     References:
     - https://access.redhat.com/security/cve/CVE-2025-49794
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372373
     - https://nvd.nist.gov/vuln/detail/CVE-2025-49794
     - https://www.cve.org/CVERecord?id=CVE-2025-49794
+    PublishedDate: '2025-06-16T16:15:18.997Z'
+    LastModifiedDate: '2025-06-16T16:15:18.997Z'
   - VulnerabilityID: CVE-2025-49795
     PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
     PkgName: libxml2
@@ -2629,8 +2546,10 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-49795
     Title: 'libxml: Null pointer dereference leads to Denial of service (DoS)'
-    Description: No description is available for this CVE.
+    Description: A NULL pointer dereference vulnerability was found in libxml2 when processing XPath XML expressions. This flaw allows an attacker to craft a malicious XML input to libxml2, leading to a denial of service.
     Severity: HIGH
+    CweIDs:
+    - CWE-825
     VendorSeverity:
       redhat: 3
     CVSS:
@@ -2639,8 +2558,11 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2025-49795
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372379
     - https://nvd.nist.gov/vuln/detail/CVE-2025-49795
     - https://www.cve.org/CVERecord?id=CVE-2025-49795
+    PublishedDate: '2025-06-16T16:15:19.203Z'
+    LastModifiedDate: '2025-06-16T16:15:19.203Z'
   - VulnerabilityID: CVE-2025-49796
     PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
     PkgName: libxml2
@@ -2655,8 +2577,10 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-49796
     Title: 'libxml: Type confusion leads to Denial of service (DoS)'
-    Description: No description is available for this CVE.
+    Description: A vulnerability was found in libxml2. Processing certain sch:name elements from the input XML file can trigger a memory corruption issue. This flaw allows an attacker to craft a malicious XML input file that can lead libxml to crash, resulting in a denial of service or other possible undefined behavior due to sensitive data being corrupted in memory.
     Severity: HIGH
+    CweIDs:
+    - CWE-125
     VendorSeverity:
       redhat: 3
     CVSS:
@@ -2665,8 +2589,11 @@
         V3Score: 9.1
     References:
     - https://access.redhat.com/security/cve/CVE-2025-49796
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372385
     - https://nvd.nist.gov/vuln/detail/CVE-2025-49796
     - https://www.cve.org/CVERecord?id=CVE-2025-49796
+    PublishedDate: '2025-06-16T16:15:19.37Z'
+    LastModifiedDate: '2025-06-16T16:15:19.37Z'
   - VulnerabilityID: CVE-2025-32414
     PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
     PkgName: libxml2
@@ -2912,6 +2839,37 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-32415
     PublishedDate: '2025-04-17T17:15:33.733Z'
     LastModifiedDate: '2025-04-23T18:17:52.053Z'
+  - VulnerabilityID: CVE-2025-6170
+    PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libxml2@2.9.13-6.el9_5.2?arch=x86_64&distro=redhat-9.5
+      UID: fe6f7b4379e04d70
+    InstalledVersion: 2.9.13-6.el9_5.2
+    Status: affected
+    Layer:
+      Digest: sha256:37b753910a1a0253853348da0982bfd56d6a3feca98b1ea1486a4a7cfc613075
+      DiffID: sha256:951d5b1f9bf0ef75b1bc17f07467d6a4aac49bde431c6862510a05294b4eda8d
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6170
+    Title: 'libxml2: Stack Buffer Overflow in xmllint Interactive Shell Command Handling'
+    Description: A flaw was found in the interactive shell of the xmllint command-line tool, used for parsing XML files. When a user inputs an overly long command, the program does not check the input size properly, which can cause it to crash. This issue might allow attackers to run harmful code in rare configurations without modern protections.
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 2.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6170
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372952
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6170
+    - https://www.cve.org/CVERecord?id=CVE-2025-6170
+    PublishedDate: '2025-06-16T16:15:20.43Z'
+    LastModifiedDate: '2025-06-16T16:15:20.43Z'
   - VulnerabilityID: CVE-2022-29458
     PkgID: ncurses-base@6.2-10.20210508.el9.noarch
     PkgName: ncurses-base
@@ -4259,6 +4217,7 @@
       bitnami: 1
       cbl-mariner: 1
       redhat: 1
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
@@ -4273,6 +4232,7 @@
     - https://github.com/python/cpython/pull/119099
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MB62IZMEC3UM6SGHP5LET5JX2Y7H4ZUR/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-1795
+    - https://ubuntu.com/security/notices/USN-7570-1
     - https://www.cve.org/CVERecord?id=CVE-2025-1795
     PublishedDate: '2025-02-28T19:15:36.55Z'
     LastModifiedDate: '2025-02-28T21:15:27.57Z'
@@ -4569,6 +4529,7 @@
       bitnami: 1
       cbl-mariner: 1
       redhat: 1
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
@@ -4583,6 +4544,7 @@
     - https://github.com/python/cpython/pull/119099
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MB62IZMEC3UM6SGHP5LET5JX2Y7H4ZUR/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-1795
+    - https://ubuntu.com/security/notices/USN-7570-1
     - https://www.cve.org/CVERecord?id=CVE-2025-1795
     PublishedDate: '2025-02-28T19:15:36.55Z'
     LastModifiedDate: '2025-02-28T21:15:27.57Z'
@@ -4879,6 +4841,7 @@
       bitnami: 1
       cbl-mariner: 1
       redhat: 1
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
@@ -4893,6 +4856,7 @@
     - https://github.com/python/cpython/pull/119099
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MB62IZMEC3UM6SGHP5LET5JX2Y7H4ZUR/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-1795
+    - https://ubuntu.com/security/notices/USN-7570-1
     - https://www.cve.org/CVERecord?id=CVE-2025-1795
     PublishedDate: '2025-02-28T19:15:36.55Z'
     LastModifiedDate: '2025-02-28T21:15:27.57Z'
@@ -5226,7 +5190,7 @@
     VendorSeverity:
       amazon: 1
       cbl-mariner: 2
-      photon: 1
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
