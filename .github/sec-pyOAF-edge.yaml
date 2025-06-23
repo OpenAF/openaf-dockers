@@ -568,6 +568,7 @@
     VendorSeverity:
       bitnami: 2
       redhat: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
@@ -582,6 +583,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -591,6 +593,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12718
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12718
     PublishedDate: '2025-06-03T13:15:20.183Z'
     LastModifiedDate: '2025-06-04T14:54:33.783Z'
@@ -611,7 +614,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: 'cpython: Bypassing extraction filter to create symlinks to arbitrary targets outside extraction directory'
+    Title: 'cpython: python: Bypassing extraction filter to create symlinks to arbitrary targets outside extraction directory'
     Description: "Allows the extraction filter to be ignored, allowing symlink targets to point outside the destination directory, and the modification of some file metadata.\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: HIGH
     CweIDs:
@@ -619,6 +622,7 @@
     VendorSeverity:
       bitnami: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
@@ -633,6 +637,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -641,6 +646,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4138
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4138
     PublishedDate: '2025-06-03T13:15:20.377Z'
     LastModifiedDate: '2025-06-05T14:15:32.767Z'
@@ -661,7 +667,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: 'cpython: Arbitrary writes via tarfile realpath overflow'
+    Title: 'python: cpython: Arbitrary writes via tarfile realpath overflow'
     Description: "Allows arbitrary filesystem writes outside the extraction directory during extraction with filter=\"data\".\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: HIGH
     CweIDs:
@@ -669,6 +675,7 @@
     VendorSeverity:
       bitnami: 4
       redhat: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L
@@ -683,6 +690,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -691,6 +699,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4517
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4517
     PublishedDate: '2025-06-03T13:15:20.837Z'
     LastModifiedDate: '2025-06-05T14:15:33.05Z'
@@ -719,6 +728,7 @@
     VendorSeverity:
       bitnami: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
@@ -733,6 +743,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -741,6 +752,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4330
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4330
     PublishedDate: '2025-06-03T13:15:20.503Z'
     LastModifiedDate: '2025-06-05T14:15:32.91Z'
@@ -813,6 +825,7 @@
     VendorSeverity:
       bitnami: 2
       redhat: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
@@ -827,6 +840,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -836,6 +850,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12718
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12718
     PublishedDate: '2025-06-03T13:15:20.183Z'
     LastModifiedDate: '2025-06-04T14:54:33.783Z'
@@ -856,7 +871,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: 'cpython: Bypassing extraction filter to create symlinks to arbitrary targets outside extraction directory'
+    Title: 'cpython: python: Bypassing extraction filter to create symlinks to arbitrary targets outside extraction directory'
     Description: "Allows the extraction filter to be ignored, allowing symlink targets to point outside the destination directory, and the modification of some file metadata.\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: HIGH
     CweIDs:
@@ -864,6 +879,7 @@
     VendorSeverity:
       bitnami: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
@@ -878,6 +894,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -886,6 +903,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4138
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4138
     PublishedDate: '2025-06-03T13:15:20.377Z'
     LastModifiedDate: '2025-06-05T14:15:32.767Z'
@@ -906,7 +924,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: 'cpython: Arbitrary writes via tarfile realpath overflow'
+    Title: 'python: cpython: Arbitrary writes via tarfile realpath overflow'
     Description: "Allows arbitrary filesystem writes outside the extraction directory during extraction with filter=\"data\".\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: HIGH
     CweIDs:
@@ -914,6 +932,7 @@
     VendorSeverity:
       bitnami: 4
       redhat: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L
@@ -928,6 +947,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -936,6 +956,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4517
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4517
     PublishedDate: '2025-06-03T13:15:20.837Z'
     LastModifiedDate: '2025-06-05T14:15:33.05Z'
@@ -964,6 +985,7 @@
     VendorSeverity:
       bitnami: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
@@ -978,6 +1000,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -986,6 +1009,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4330
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4330
     PublishedDate: '2025-06-03T13:15:20.503Z'
     LastModifiedDate: '2025-06-05T14:15:32.91Z'
@@ -1058,6 +1082,7 @@
     VendorSeverity:
       bitnami: 2
       redhat: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
@@ -1072,6 +1097,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -1081,6 +1107,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12718
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12718
     PublishedDate: '2025-06-03T13:15:20.183Z'
     LastModifiedDate: '2025-06-04T14:54:33.783Z'
@@ -1101,7 +1128,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: 'cpython: Bypassing extraction filter to create symlinks to arbitrary targets outside extraction directory'
+    Title: 'cpython: python: Bypassing extraction filter to create symlinks to arbitrary targets outside extraction directory'
     Description: "Allows the extraction filter to be ignored, allowing symlink targets to point outside the destination directory, and the modification of some file metadata.\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: HIGH
     CweIDs:
@@ -1109,6 +1136,7 @@
     VendorSeverity:
       bitnami: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
@@ -1123,6 +1151,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -1131,6 +1160,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4138
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4138
     PublishedDate: '2025-06-03T13:15:20.377Z'
     LastModifiedDate: '2025-06-05T14:15:32.767Z'
@@ -1151,7 +1181,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: 'cpython: Arbitrary writes via tarfile realpath overflow'
+    Title: 'python: cpython: Arbitrary writes via tarfile realpath overflow'
     Description: "Allows arbitrary filesystem writes outside the extraction directory during extraction with filter=\"data\".\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: HIGH
     CweIDs:
@@ -1159,6 +1189,7 @@
     VendorSeverity:
       bitnami: 4
       redhat: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L
@@ -1173,6 +1204,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -1181,6 +1213,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4517
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4517
     PublishedDate: '2025-06-03T13:15:20.837Z'
     LastModifiedDate: '2025-06-05T14:15:33.05Z'
@@ -1209,6 +1242,7 @@
     VendorSeverity:
       bitnami: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
@@ -1223,6 +1257,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -1231,6 +1266,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4330
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4330
     PublishedDate: '2025-06-03T13:15:20.503Z'
     LastModifiedDate: '2025-06-05T14:15:32.91Z'
@@ -1303,6 +1339,7 @@
     VendorSeverity:
       bitnami: 2
       redhat: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
@@ -1317,6 +1354,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -1326,6 +1364,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-12718
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2024-12718
     PublishedDate: '2025-06-03T13:15:20.183Z'
     LastModifiedDate: '2025-06-04T14:54:33.783Z'
@@ -1346,7 +1385,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: 'cpython: Bypassing extraction filter to create symlinks to arbitrary targets outside extraction directory'
+    Title: 'cpython: python: Bypassing extraction filter to create symlinks to arbitrary targets outside extraction directory'
     Description: "Allows the extraction filter to be ignored, allowing symlink targets to point outside the destination directory, and the modification of some file metadata.\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: HIGH
     CweIDs:
@@ -1354,6 +1393,7 @@
     VendorSeverity:
       bitnami: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
@@ -1368,6 +1408,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -1376,6 +1417,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4138
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4138
     PublishedDate: '2025-06-03T13:15:20.377Z'
     LastModifiedDate: '2025-06-05T14:15:32.767Z'
@@ -1396,7 +1438,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: 'cpython: Arbitrary writes via tarfile realpath overflow'
+    Title: 'python: cpython: Arbitrary writes via tarfile realpath overflow'
     Description: "Allows arbitrary filesystem writes outside the extraction directory during extraction with filter=\"data\".\n\n\nYou are affected by this vulnerability if using the tarfile\_module to extract untrusted tar archives using TarFile.extractall()\_or TarFile.extract()\_using the filter=\_parameter with a value of \"data\"\_or \"tar\". See the tarfile  extraction filters documentation https://docs.python.org/3/library/tarfile.html#tarfile-extraction-filter \_for more information.\n\nNote that for Python 3.14 or later the default value of filter=\_changed from \"no filtering\" to `\"data\", so if you are relying on this new default behavior then your usage is also affected.\n\nNote that none of these vulnerabilities significantly affect the installation of source distributions which are tar archives as source distributions already allow arbitrary code execution during the build process. However when evaluating source distributions it's important to avoid installing source distributions with suspicious links."
     Severity: HIGH
     CweIDs:
@@ -1404,6 +1446,7 @@
     VendorSeverity:
       bitnami: 4
       redhat: 3
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L
@@ -1418,6 +1461,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -1426,6 +1470,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4517
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4517
     PublishedDate: '2025-06-03T13:15:20.837Z'
     LastModifiedDate: '2025-06-05T14:15:33.05Z'
@@ -1454,6 +1499,7 @@
     VendorSeverity:
       bitnami: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
@@ -1468,6 +1514,7 @@
     - https://github.com/python/cpython/commit/28463dba112af719df1e8b0391c46787ad756dd9
     - https://github.com/python/cpython/commit/3612d8f51741b11f36f8fb0494d79086bac9390a
     - https://github.com/python/cpython/commit/4633f3f497b1ff70e4a35b6fe2c907cbe2d4cb2e
+    - https://github.com/python/cpython/commit/98016f7c92aa4c1232c68bac1ed6646db31782ec
     - https://github.com/python/cpython/commit/9c1110ef6652687d7c55f590f909720eddde965a
     - https://github.com/python/cpython/commit/9e0ac76d96cf80b49055f6d6b9a6763fb9215c2a
     - https://github.com/python/cpython/commit/aa9eb5f757ceff461e6e996f12c89e5d9b583b01
@@ -1476,6 +1523,7 @@
     - https://github.com/python/cpython/pull/135037
     - https://mail.python.org/archives/list/security-announce@python.org/thread/MAXIJJCUUMCL7ATZNDVEGGHUMQMUUKLG/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-4330
+    - https://ubuntu.com/security/notices/USN-7583-1
     - https://www.cve.org/CVERecord?id=CVE-2025-4330
     PublishedDate: '2025-06-03T13:15:20.503Z'
     LastModifiedDate: '2025-06-05T14:15:32.91Z'
