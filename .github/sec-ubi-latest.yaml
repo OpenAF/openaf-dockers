@@ -1746,7 +1746,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359465
     - https://errata.almalinux.org/8/ALSA-2025-8411.html
     - https://linux.oracle.com/cve/CVE-2025-3576.html
-    - https://linux.oracle.com/errata/ELSA-2025-8411.html
+    - https://linux.oracle.com/errata/ELSA-2025-9430.html
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00047.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3576
     - https://ubuntu.com/security/notices/USN-7542-1
@@ -1890,6 +1890,7 @@
     CweIDs:
     - CWE-415
     VendorSeverity:
+      amazon: 3
       nvd: 4
       redhat: 1
     CVSS:
@@ -2662,6 +2663,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      amazon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -3982,6 +3984,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 2
       redhat: 3
       ubuntu: 2
@@ -4032,6 +4035,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 3
       ubuntu: 2
@@ -4081,6 +4085,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 4
       redhat: 3
       ubuntu: 2
@@ -4273,6 +4278,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 2
       ubuntu: 2
@@ -4322,6 +4328,7 @@
     CweIDs:
     - CWE-682
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 2
       ubuntu: 2
@@ -4579,6 +4586,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 2
       redhat: 3
       ubuntu: 2
@@ -4629,6 +4637,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 3
       ubuntu: 2
@@ -4678,6 +4687,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 4
       redhat: 3
       ubuntu: 2
@@ -4870,6 +4880,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 2
       ubuntu: 2
@@ -4919,6 +4930,7 @@
     CweIDs:
     - CWE-682
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 2
       ubuntu: 2
@@ -5176,6 +5188,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 2
       redhat: 3
       ubuntu: 2
@@ -5226,6 +5239,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 3
       ubuntu: 2
@@ -5275,6 +5289,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 4
       redhat: 3
       ubuntu: 2
@@ -5467,6 +5482,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 2
       ubuntu: 2
@@ -5516,6 +5532,7 @@
     CweIDs:
     - CWE-682
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 2
       ubuntu: 2
@@ -5773,6 +5790,7 @@
     CweIDs:
     - CWE-522
     VendorSeverity:
+      amazon: 2
       ghsa: 2
       redhat: 2
       ubuntu: 2
@@ -5838,7 +5856,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-50181
     - https://www.cve.org/CVERecord?id=CVE-2025-50181
     PublishedDate: '2025-06-19T01:15:24.453Z'
-    LastModifiedDate: '2025-06-19T01:15:24.453Z'
+    LastModifiedDate: '2025-06-23T20:16:59.783Z'
   - VulnerabilityID: CVE-2025-50182
     PkgID: python3-pip-wheel@21.3.1-1.el9.noarch
     PkgName: python3-pip-wheel
@@ -5875,7 +5893,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-50182
     - https://www.cve.org/CVERecord?id=CVE-2025-50182
     PublishedDate: '2025-06-19T02:15:17.967Z'
-    LastModifiedDate: '2025-06-19T02:15:17.967Z'
+    LastModifiedDate: '2025-06-23T20:16:59.783Z'
   - VulnerabilityID: CVE-2021-3572
     PkgID: python3-pip-wheel@21.3.1-1.el9.noarch
     PkgName: python3-pip-wheel
@@ -6008,7 +6026,6 @@
     Description: 'Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.'
     Severity: LOW
     VendorSeverity:
-      amazon: 2
       photon: 2
       redhat: 1
     CVSS:
