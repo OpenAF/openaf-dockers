@@ -566,6 +566,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 2
       redhat: 3
       ubuntu: 2
@@ -620,6 +621,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 3
       ubuntu: 2
@@ -673,6 +675,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 4
       redhat: 3
       ubuntu: 2
@@ -726,6 +729,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 2
       ubuntu: 2
@@ -779,6 +783,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      amazon: 3
       ubuntu: 2
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/4
@@ -823,6 +828,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 2
       redhat: 3
       ubuntu: 2
@@ -877,6 +883,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 3
       ubuntu: 2
@@ -930,6 +937,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 4
       redhat: 3
       ubuntu: 2
@@ -983,6 +991,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 2
       ubuntu: 2
@@ -1036,6 +1045,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      amazon: 3
       ubuntu: 2
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/4
@@ -1080,6 +1090,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 2
       redhat: 3
       ubuntu: 2
@@ -1134,6 +1145,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 3
       ubuntu: 2
@@ -1187,6 +1199,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 4
       redhat: 3
       ubuntu: 2
@@ -1240,6 +1253,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 2
       ubuntu: 2
@@ -1293,6 +1307,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      amazon: 3
       ubuntu: 2
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/4
@@ -1337,6 +1352,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 2
       redhat: 3
       ubuntu: 2
@@ -1391,6 +1407,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 3
       ubuntu: 2
@@ -1444,6 +1461,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 4
       redhat: 3
       ubuntu: 2
@@ -1497,6 +1515,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      amazon: 3
       bitnami: 3
       redhat: 2
       ubuntu: 2
@@ -1550,6 +1569,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      amazon: 3
       ubuntu: 2
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/4
