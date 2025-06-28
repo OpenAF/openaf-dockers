@@ -1332,6 +1332,7 @@
 │                              │                  ╰ [1]: CWE-787 
 │                              ├ VendorSeverity   ╭ azure      : 3 
 │                              │                  ├ cbl-mariner: 3 
+│                              │                  ├ oracle-oval: 3 
 │                              │                  ├ photon     : 3 
 │                              │                  ├ redhat     : 3 
 │                              │                  ╰ ubuntu     : 2 
@@ -1344,12 +1345,14 @@
 │                              │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-56406 
 │                              │                  ├ [4] : https://github.com/Perl/perl5/commit/87f42aa0e0096e9a
 │                              │                  │       346c9672aa3a0bd3bef8c1dd.patch 
-│                              │                  ├ [5] : https://metacpan.org/release/SHAY/perl-5.38.4/changes 
-│                              │                  ├ [6] : https://metacpan.org/release/SHAY/perl-5.40.2/changes 
-│                              │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2024-56406 
-│                              │                  ├ [8] : https://ubuntu.com/security/notices/USN-7434-1 
-│                              │                  ├ [9] : https://ubuntu.com/security/notices/USN-7434-2 
-│                              │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-56406 
+│                              │                  ├ [5] : https://linux.oracle.com/cve/CVE-2024-56406.html 
+│                              │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-7500.html 
+│                              │                  ├ [7] : https://metacpan.org/release/SHAY/perl-5.38.4/changes 
+│                              │                  ├ [8] : https://metacpan.org/release/SHAY/perl-5.40.2/changes 
+│                              │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-56406 
+│                              │                  ├ [10]: https://ubuntu.com/security/notices/USN-7434-1 
+│                              │                  ├ [11]: https://ubuntu.com/security/notices/USN-7434-2 
+│                              │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-56406 
 │                              ├ PublishedDate   : 2025-04-13T14:15:14.527Z 
 │                              ╰ LastModifiedDate: 2025-04-30T15:21:11.547Z 
 ╰ [1] ╭ Target: Java 
