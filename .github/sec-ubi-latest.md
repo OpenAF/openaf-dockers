@@ -682,7 +682,7 @@
 │                       │       │                  ├ [20]: https://gitlab.alpinelinux.org/alpine/aports/-/commi
 │                       │       │                  │       t/d068c3ff36fc6f4789988a09c69b434db757db53 
 │                       │       │                  ├ [21]: https://linux.oracle.com/cve/CVE-2024-8176.html 
-│                       │       │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2025-7444.html 
+│                       │       │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2025-7512.html 
 │                       │       │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2024-8176 
 │                       │       │                  ├ [24]: https://security-tracker.debian.org/tracker/CVE-2024
 │                       │       │                  │       -8176 
@@ -1700,7 +1700,7 @@
 │                       │       │                  ├ [6] : https://github.com/openjdk/jdk8u/commit/3cdd3081565d
 │                       │       │                  │       890801a27a1f9ac8bc53e5711ce6 (jdk8u452-b08) 
 │                       │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-21587.html 
-│                       │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-3855.html 
+│                       │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-7508.html 
 │                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-21587 
 │                       │       │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/
 │                       │       │                  │       2025-04-15 
@@ -1774,7 +1774,7 @@
 │                       │       │                  ├ [6] : https://github.com/openjdk/jdk8u/commit/949c6ffc54ef
 │                       │       │                  │       aa92d6559a3e7897432b95e99253 (jdk8u452-b08) 
 │                       │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-30691.html 
-│                       │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-3855.html 
+│                       │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-7508.html 
 │                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-30691 
 │                       │       │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/
 │                       │       │                  │       2025-04-15 
@@ -1859,7 +1859,7 @@
 │                       │       │                  ├ [6] : https://github.com/openjdk/jdk8u/commit/68d10daabaf9
 │                       │       │                  │       c939a5d2e665994c6d348f38cfd5 (jdk8u452-b08) 
 │                       │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-30698.html 
-│                       │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-3855.html 
+│                       │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-7508.html 
 │                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-30698 
 │                       │       │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/
 │                       │       │                  │       2025-04-15 
