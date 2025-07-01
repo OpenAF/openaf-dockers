@@ -446,21 +446,26 @@
 │                       │      │                    multiple symlink attacks and race conditions. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-22 
-│                       │      ├ VendorSeverity   ╭ oracle-oval: 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/06/17/1 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-6020 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-6020.html 
-│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7580-1 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/06/17/1 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/17/1 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9526 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-6020 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2372512 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-9526.html 
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7580-1 
+│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                       │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2025/06/1
+│                       │      │                          7/1 
 │                       │      ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
 │                       │      ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2024-10041 
@@ -603,21 +608,26 @@
 │                       │      │                    multiple symlink attacks and race conditions. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-22 
-│                       │      ├ VendorSeverity   ╭ oracle-oval: 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/06/17/1 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-6020 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-6020.html 
-│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7580-1 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/06/17/1 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/17/1 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9526 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-6020 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2372512 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-9526.html 
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7580-1 
+│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                       │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2025/06/1
+│                       │      │                          7/1 
 │                       │      ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
 │                       │      ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2024-10041 
@@ -760,21 +770,26 @@
 │                       │      │                    multiple symlink attacks and race conditions. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-22 
-│                       │      ├ VendorSeverity   ╭ oracle-oval: 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/06/17/1 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-6020 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-6020.html 
-│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7580-1 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/06/17/1 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/17/1 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9526 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-6020 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2372512 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-9526.html 
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7580-1 
+│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                       │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2025/06/1
+│                       │      │                          7/1 
 │                       │      ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
 │                       │      ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
 │                       ├ [16] ╭ VulnerabilityID : CVE-2024-10041 
@@ -917,21 +932,26 @@
 │                       │      │                    multiple symlink attacks and race conditions. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-22 
-│                       │      ├ VendorSeverity   ╭ oracle-oval: 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/06/17/1 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-6020 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-6020.html 
-│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-9526.html 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7580-1 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
-│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/06/17/1 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/17/1 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:9526 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-6020 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2372512 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-9526.html 
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-6020.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-9526.html 
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-6020 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7580-1 
+│                       │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2025-6020 
+│                       │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/2025/06/1
+│                       │      │                          7/1 
 │                       │      ├ PublishedDate   : 2025-06-17T13:15:21.66Z 
 │                       │      ╰ LastModifiedDate: 2025-06-17T20:50:23.507Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2024-41996 
@@ -1294,67 +1314,124 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ╰ [25] ╭ VulnerabilityID : CVE-2024-56406 
-│                              ├ PkgID           : perl-base@5.38.2-5 
-│                              ├ PkgName         : perl-base 
-│                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/perl-base@5.38.2-5?arch=amd64&distro=u
-│                              │                  │       buntu-24.10 
-│                              │                  ╰ UID : 77ab4151461517eb 
-│                              ├ InstalledVersion: 5.38.2-5 
-│                              ├ FixedVersion    : 5.38.2-5ubuntu0.1 
-│                              ├ Status          : fixed 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2024-56406 
+│                       │      ├ PkgID           : perl-base@5.38.2-5 
+│                       │      ├ PkgName         : perl-base 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/perl-base@5.38.2-5?arch=amd64&distro=u
+│                       │      │                  │       buntu-24.10 
+│                       │      │                  ╰ UID : 77ab4151461517eb 
+│                       │      ├ InstalledVersion: 5.38.2-5 
+│                       │      ├ FixedVersion    : 5.38.2-5ubuntu0.1 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:60a93d0ebe069e2e014adbe0e13c95c79e592a8445d8
+│                       │      │                  │         f1b98bf73b244aff443c 
+│                       │      │                  ╰ DiffID: sha256:2c7ad7c8f9a4e2f163e5687bdca906cc890dbe51fb47
+│                       │      │                            512c173816e2a77dc0ce 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56406 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : perl: Perl 5.34, 5.36, 5.38 and 5.40 are vulnerable to a
+│                       │      │                   heap buffer overflow when transliterating non-ASCII bytes 
+│                       │      ├ Description     : A heap buffer overflow vulnerability was discovered in Perl.
+│                       │      │                    
+│                       │      │                   
+│                       │      │                   Release branches 5.34, 5.36, 5.38 and 5.40 are affected,
+│                       │      │                   including development versions from 5.33.1 through 5.41.10.
+│                       │      │                   When there are non-ASCII bytes in the left-hand-side of the
+│                       │      │                   `tr` operator, `S_do_trans_invmap` can overflow the
+│                       │      │                   destination pointer `d`.
+│                       │      │                      $ perl -e '$_ = "\x{FF}" x 1000000; tr/\xFF/\x{100}/;' 
+│                       │      │                      Segmentation fault (core dumped)
+│                       │      │                   It is believed that this vulnerability can enable Denial of
+│                       │      │                   Service and possibly Code Execution attacks on platforms
+│                       │      │                   that lack sufficient defenses. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-122 
+│                       │      │                  ╰ [1]: CWE-787 
+│                       │      ├ VendorSeverity   ╭ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.3 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/13/3 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/04/13/4 
+│                       │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/04/13/5 
+│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-56406 
+│                       │      │                  ├ [4] : https://github.com/Perl/perl5/commit/87f42aa0e0096e9a
+│                       │      │                  │       346c9672aa3a0bd3bef8c1dd.patch 
+│                       │      │                  ├ [5] : https://linux.oracle.com/cve/CVE-2024-56406.html 
+│                       │      │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-7500.html 
+│                       │      │                  ├ [7] : https://metacpan.org/release/SHAY/perl-5.38.4/changes 
+│                       │      │                  ├ [8] : https://metacpan.org/release/SHAY/perl-5.40.2/changes 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-56406 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7434-1 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7434-2 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-56406 
+│                       │      ├ PublishedDate   : 2025-04-13T14:15:14.527Z 
+│                       │      ╰ LastModifiedDate: 2025-04-30T15:21:11.547Z 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2025-32462 
+│                       │      ├ PkgID           : sudo@1.9.15p5-3ubuntu5 
+│                       │      ├ PkgName         : sudo 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/sudo@1.9.15p5-3ubuntu5?arch=amd64&dist
+│                       │      │                  │       ro=ubuntu-24.10 
+│                       │      │                  ╰ UID : 90f578df02553520 
+│                       │      ├ InstalledVersion: 1.9.15p5-3ubuntu5 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:60a93d0ebe069e2e014adbe0e13c95c79e592a8445d8
+│                       │      │                  │         f1b98bf73b244aff443c 
+│                       │      │                  ╰ DiffID: sha256:2c7ad7c8f9a4e2f163e5687bdca906cc890dbe51fb47
+│                       │      │                            512c173816e2a77dc0ce 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-32462 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : [Local Privilege Escalation via host option] 
+│                       │      ├ Description     : Sudo's host (`-h` or `--host`) option is intended to be used
+│                       │      │                    in conjunction with the list option (`-l` or `--list`) to
+│                       │      │                   list a user's sudo privileges on a host other than the
+│                       │      │                   current one.  However, due to a bug it was not restricted to
+│                       │      │                    listing privileges and could be used when running a command
+│                       │      │                    via `sudo` or editing a file with `sudoedit`.  Depending on
+│                       │      │                    the rules present in the sudoers file this could allow a
+│                       │      │                   local privilege escalation attack. Sudo versions 1.8.8 to
+│                       │      │                   1.9.17 inclusive are affected. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ VendorSeverity   ─ ubuntu: 3 
+│                       │      ╰ References       ╭ [0]: https://www.cve.org/CVERecord?id=CVE-2025-32462 
+│                       │                         ╰ [1]: https://www.sudo.ws/security/advisories/host_any/ 
+│                       ╰ [27] ╭ VulnerabilityID : CVE-2025-32463 
+│                              ├ PkgID           : sudo@1.9.15p5-3ubuntu5 
+│                              ├ PkgName         : sudo 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/sudo@1.9.15p5-3ubuntu5?arch=amd64&dist
+│                              │                  │       ro=ubuntu-24.10 
+│                              │                  ╰ UID : 90f578df02553520 
+│                              ├ InstalledVersion: 1.9.15p5-3ubuntu5 
+│                              ├ Status          : affected 
 │                              ├ Layer            ╭ Digest: sha256:60a93d0ebe069e2e014adbe0e13c95c79e592a8445d8
 │                              │                  │         f1b98bf73b244aff443c 
 │                              │                  ╰ DiffID: sha256:2c7ad7c8f9a4e2f163e5687bdca906cc890dbe51fb47
 │                              │                            512c173816e2a77dc0ce 
 │                              ├ SeveritySource  : ubuntu 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56406 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-32463 
 │                              ├ DataSource       ╭ ID  : ubuntu 
 │                              │                  ├ Name: Ubuntu CVE Tracker 
 │                              │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                              ├ Title           : perl: Perl 5.34, 5.36, 5.38 and 5.40 are vulnerable to a
-│                              │                   heap buffer overflow when transliterating non-ASCII bytes 
-│                              ├ Description     : A heap buffer overflow vulnerability was discovered in Perl.
-│                              │                    
-│                              │                   
-│                              │                   Release branches 5.34, 5.36, 5.38 and 5.40 are affected,
-│                              │                   including development versions from 5.33.1 through 5.41.10.
-│                              │                   When there are non-ASCII bytes in the left-hand-side of the
-│                              │                   `tr` operator, `S_do_trans_invmap` can overflow the
-│                              │                   destination pointer `d`.
-│                              │                      $ perl -e '$_ = "\x{FF}" x 1000000; tr/\xFF/\x{100}/;' 
-│                              │                      Segmentation fault (core dumped)
-│                              │                   It is believed that this vulnerability can enable Denial of
-│                              │                   Service and possibly Code Execution attacks on platforms
-│                              │                   that lack sufficient defenses. 
-│                              ├ Severity        : MEDIUM 
-│                              ├ CweIDs           ╭ [0]: CWE-122 
-│                              │                  ╰ [1]: CWE-787 
-│                              ├ VendorSeverity   ╭ azure      : 3 
-│                              │                  ├ cbl-mariner: 3 
-│                              │                  ├ oracle-oval: 3 
-│                              │                  ├ photon     : 3 
-│                              │                  ├ redhat     : 3 
-│                              │                  ╰ ubuntu     : 2 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L
-│                              │                           │           /A:H 
-│                              │                           ╰ V3Score : 7.3 
-│                              ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/13/3 
-│                              │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/04/13/4 
-│                              │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/04/13/5 
-│                              │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-56406 
-│                              │                  ├ [4] : https://github.com/Perl/perl5/commit/87f42aa0e0096e9a
-│                              │                  │       346c9672aa3a0bd3bef8c1dd.patch 
-│                              │                  ├ [5] : https://linux.oracle.com/cve/CVE-2024-56406.html 
-│                              │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-7500.html 
-│                              │                  ├ [7] : https://metacpan.org/release/SHAY/perl-5.38.4/changes 
-│                              │                  ├ [8] : https://metacpan.org/release/SHAY/perl-5.40.2/changes 
-│                              │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-56406 
-│                              │                  ├ [10]: https://ubuntu.com/security/notices/USN-7434-1 
-│                              │                  ├ [11]: https://ubuntu.com/security/notices/USN-7434-2 
-│                              │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-56406 
-│                              ├ PublishedDate   : 2025-04-13T14:15:14.527Z 
-│                              ╰ LastModifiedDate: 2025-04-30T15:21:11.547Z 
+│                              ├ Title           : [Local Privilege Escalation via chroot option] 
+│                              ├ Description     : An attacker can leverage sudo's `-R` (`--chroot`) option to
+│                              │                   run arbitrary commands as root, even if they are not listed
+│                              │                   in the sudoers file. Sudo versions 1.9.14 to 1.9.17
+│                              │                   inclusive are affected. 
+│                              ├ Severity        : HIGH 
+│                              ├ VendorSeverity   ─ ubuntu: 3 
+│                              ╰ References       ╭ [0]: https://www.cve.org/CVERecord?id=CVE-2025-32463 
+│                                                 ╰ [1]: https://www.sudo.ws/security/advisories/chroot_bug/ 
 ╰ [1] ╭ Target: Java 
       ├ Class : lang-pkgs 
       ╰ Type  : jar 
