@@ -180,7 +180,7 @@
 │                       │      │                  ├ [6] : https://github.com/openjdk/jdk8u/commit/3cdd3081565d8
 │                       │      │                  │       90801a27a1f9ac8bc53e5711ce6 (jdk8u452-b08) 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-21587.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-3855.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-7508.html 
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-21587 
 │                       │      │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/2
 │                       │      │                  │       025-04-15 
@@ -318,7 +318,7 @@
 │                       │      │                  ├ [6] : https://github.com/openjdk/jdk8u/commit/949c6ffc54efa
 │                       │      │                  │       a92d6559a3e7897432b95e99253 (jdk8u452-b08) 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-30691.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-3855.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-7508.html 
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-30691 
 │                       │      │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/2
 │                       │      │                  │       025-04-15 
@@ -403,7 +403,7 @@
 │                       │      │                  ├ [6] : https://github.com/openjdk/jdk8u/commit/68d10daabaf9c
 │                       │      │                  │       939a5d2e665994c6d348f38cfd5 (jdk8u452-b08) 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-30698.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-3855.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-7508.html 
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-30698 
 │                       │      │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/2
 │                       │      │                  │       025-04-15 
@@ -484,7 +484,7 @@
 │                       │      │                  ├ [6] : https://github.com/openjdk/jdk8u/commit/3cdd3081565d8
 │                       │      │                  │       90801a27a1f9ac8bc53e5711ce6 (jdk8u452-b08) 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-21587.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-3855.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-7508.html 
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-21587 
 │                       │      │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/2
 │                       │      │                  │       025-04-15 
@@ -622,7 +622,7 @@
 │                       │      │                  ├ [6] : https://github.com/openjdk/jdk8u/commit/949c6ffc54efa
 │                       │      │                  │       a92d6559a3e7897432b95e99253 (jdk8u452-b08) 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-30691.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-3855.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-7508.html 
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-30691 
 │                       │      │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/2
 │                       │      │                  │       025-04-15 
@@ -707,7 +707,7 @@
 │                       │      │                  ├ [6] : https://github.com/openjdk/jdk8u/commit/68d10daabaf9c
 │                       │      │                  │       939a5d2e665994c6d348f38cfd5 (jdk8u452-b08) 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-30698.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-3855.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-7508.html 
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-30698 
 │                       │      │                  ├ [10]: https://openjdk.org/groups/vulnerability/advisories/2
 │                       │      │                  │       025-04-15 
@@ -2379,25 +2379,28 @@
 │                              │                  ├ [1]: CWE-416 
 │                              │                  ├ [2]: CWE-476 
 │                              │                  ╰ [3]: CWE-826 
-│                              ├ VendorSeverity   ╭ azure : 3 
-│                              │                  ├ photon: 3 
-│                              │                  ├ redhat: 3 
-│                              │                  ╰ ubuntu: 2 
+│                              ├ VendorSeverity   ╭ azure      : 3 
+│                              │                  ├ oracle-oval: 3 
+│                              │                  ├ photon     : 3 
+│                              │                  ├ redhat     : 3 
+│                              │                  ╰ ubuntu     : 2 
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                              │                           │           /A:H 
 │                              │                           ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/03/1 
-│                              │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/04/03/2 
-│                              │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/04/03/3 
-│                              │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-31115 
-│                              │                  ├ [4]: https://github.com/tukaani-project/xz/commit/d5a2ffe41
-│                              │                  │      bb77b918a8c96084885d4dbe4bf6480 
-│                              │                  ├ [5]: https://github.com/tukaani-project/xz/security/advisor
-│                              │                  │      ies/GHSA-6cc8-p5mm-29w2 
-│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-31115 
-│                              │                  ├ [7]: https://tukaani.org/xz/xz-cve-2025-31115.patch 
-│                              │                  ├ [8]: https://ubuntu.com/security/notices/USN-7414-1 
-│                              │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-31115 
+│                              ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/03/1 
+│                              │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/04/03/2 
+│                              │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/04/03/3 
+│                              │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-31115 
+│                              │                  ├ [4] : https://github.com/tukaani-project/xz/commit/d5a2ffe4
+│                              │                  │       1bb77b918a8c96084885d4dbe4bf6480 
+│                              │                  ├ [5] : https://github.com/tukaani-project/xz/security/adviso
+│                              │                  │       ries/GHSA-6cc8-p5mm-29w2 
+│                              │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-31115.html 
+│                              │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-7524.html 
+│                              │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-31115 
+│                              │                  ├ [9] : https://tukaani.org/xz/xz-cve-2025-31115.patch 
+│                              │                  ├ [10]: https://ubuntu.com/security/notices/USN-7414-1 
+│                              │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-31115 
 │                              ├ PublishedDate   : 2025-04-03T17:15:30.54Z 
 │                              ╰ LastModifiedDate: 2025-04-07T14:18:34.453Z 
 ╰ [1] ╭ Target: Java 

@@ -432,6 +432,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 3
       ubuntu: 2
@@ -441,8 +442,11 @@
         V3Score: 7.8
     References:
     - http://www.openwall.com/lists/oss-security/2025/06/17/1
+    - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
+    - https://bugzilla.redhat.com/2372512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://errata.almalinux.org/9/ALSA-2025-9526.html
     - https://linux.oracle.com/cve/CVE-2025-6020.html
     - https://linux.oracle.com/errata/ELSA-2025-9526.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6020
@@ -581,6 +585,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 3
       ubuntu: 2
@@ -590,8 +595,11 @@
         V3Score: 7.8
     References:
     - http://www.openwall.com/lists/oss-security/2025/06/17/1
+    - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
+    - https://bugzilla.redhat.com/2372512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://errata.almalinux.org/9/ALSA-2025-9526.html
     - https://linux.oracle.com/cve/CVE-2025-6020.html
     - https://linux.oracle.com/errata/ELSA-2025-9526.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6020
@@ -730,6 +738,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 3
       ubuntu: 2
@@ -739,8 +748,11 @@
         V3Score: 7.8
     References:
     - http://www.openwall.com/lists/oss-security/2025/06/17/1
+    - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
+    - https://bugzilla.redhat.com/2372512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://errata.almalinux.org/9/ALSA-2025-9526.html
     - https://linux.oracle.com/cve/CVE-2025-6020.html
     - https://linux.oracle.com/errata/ELSA-2025-9526.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6020
@@ -879,6 +891,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 3
       ubuntu: 2
@@ -888,8 +901,11 @@
         V3Score: 7.8
     References:
     - http://www.openwall.com/lists/oss-security/2025/06/17/1
+    - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
+    - https://bugzilla.redhat.com/2372512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://errata.almalinux.org/9/ALSA-2025-9526.html
     - https://linux.oracle.com/cve/CVE-2025-6020.html
     - https://linux.oracle.com/errata/ELSA-2025-9526.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6020
@@ -1227,6 +1243,56 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56406
     PublishedDate: '2025-04-13T14:15:14.527Z'
     LastModifiedDate: '2025-04-30T15:21:11.547Z'
+  - VulnerabilityID: CVE-2025-32462
+    PkgID: sudo@1.9.15p5-3ubuntu5
+    PkgName: sudo
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/sudo@1.9.15p5-3ubuntu5?arch=amd64&distro=ubuntu-24.10
+      UID: 90f578df02553520
+    InstalledVersion: 1.9.15p5-3ubuntu5
+    Status: affected
+    Layer:
+      Digest: sha256:60a93d0ebe069e2e014adbe0e13c95c79e592a8445d8f1b98bf73b244aff443c
+      DiffID: sha256:2c7ad7c8f9a4e2f163e5687bdca906cc890dbe51fb47512c173816e2a77dc0ce
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-32462
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: '[Local Privilege Escalation via host option]'
+    Description: Sudo's host (`-h` or `--host`) option is intended to be used in conjunction with the list option (`-l` or `--list`) to list a user's sudo privileges on a host other than the current one.  However, due to a bug it was not restricted to listing privileges and could be used when running a command via `sudo` or editing a file with `sudoedit`.  Depending on the rules present in the sudoers file this could allow a local privilege escalation attack. Sudo versions 1.8.8 to 1.9.17 inclusive are affected.
+    Severity: HIGH
+    VendorSeverity:
+      ubuntu: 3
+    References:
+    - https://www.cve.org/CVERecord?id=CVE-2025-32462
+    - https://www.sudo.ws/security/advisories/host_any/
+  - VulnerabilityID: CVE-2025-32463
+    PkgID: sudo@1.9.15p5-3ubuntu5
+    PkgName: sudo
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/sudo@1.9.15p5-3ubuntu5?arch=amd64&distro=ubuntu-24.10
+      UID: 90f578df02553520
+    InstalledVersion: 1.9.15p5-3ubuntu5
+    Status: affected
+    Layer:
+      Digest: sha256:60a93d0ebe069e2e014adbe0e13c95c79e592a8445d8f1b98bf73b244aff443c
+      DiffID: sha256:2c7ad7c8f9a4e2f163e5687bdca906cc890dbe51fb47512c173816e2a77dc0ce
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-32463
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: '[Local Privilege Escalation via chroot option]'
+    Description: An attacker can leverage sudo's `-R` (`--chroot`) option to run arbitrary commands as root, even if they are not listed in the sudoers file. Sudo versions 1.9.14 to 1.9.17 inclusive are affected.
+    Severity: HIGH
+    VendorSeverity:
+      ubuntu: 3
+    References:
+    - https://www.cve.org/CVERecord?id=CVE-2025-32463
+    - https://www.sudo.ws/security/advisories/chroot_bug/
 - Target: Java
   Class: lang-pkgs
   Type: jar
