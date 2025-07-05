@@ -23,8 +23,8 @@ RUN echo 'PATH=$PATH:/openaf' > /etc/profile.d/openaf.sh \
 
 # Install openaf and prepare everthing
 RUN cd /openaf\
- && wget https://openaf.io/$OPENAFDIST/openaf.jar -O openaf.jar.orig -q\
- && wget https://openaf.io/$OPENAFDIST/openaf.jar.repacked -O openaf.jar -q\
+ && wget https://openaf.io/${OPENAFDIST:+$OPENAFDIST/}openaf.jar -O openaf.jar.orig -q\
+ && wget https://openaf.io/${OPENAFDIST:+$OPENAFDIST/}openaf.jar.repacked -O openaf.jar -q\
  && java -jar openaf.jar --install -e args="-Xshare:off -XX:+IgnoreUnrecognizedVMOptions -XX:+UseContainerSupport -XX:MaxRAMPercentage=90.0 -XX:+IdleTuningCompactOnIdle -XX:+IdleTuningGcOnIdle"\
  && chmod u+x /openaf/.docker/entrypoint.sh
 

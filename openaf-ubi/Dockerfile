@@ -29,7 +29,7 @@ USER 1000:0
 
 # Install openaf and prepare everything
 RUN cd /openaf\
- && curl -o openaf.jar https://openaf.io/$OPENAFDIST/openaf.jar.repacked -s\
+ && curl -o openaf.jar https://openaf.io/${OPENAFDIST:+$OPENAFDIST/}openaf.jar.repacked -s\
  && java -jar openaf.jar --install -e 'args=$JAVA_ARGS'\
  && sudo chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\
  && sudo chmod a+rwx /openaf\

@@ -27,7 +27,7 @@ RUN echo 'PATH=$PATH:/openaf' > /etc/profile.d/openaf.sh\
 
 # Install openaf and prepare everthing
 RUN cd /openaf\
- && curl -o openaf.jar https://openaf.io/$OPENAFDIST/openaf.jar.repacked -s\
+ && curl -o openaf.jar https://openaf.io/${OPENAFDIST:+$OPENAFDIST/}openaf.jar.repacked -s\
  && java -jar openaf.jar --install\
  && chown -R openaf:0 /openaf\
  && chown openaf:0 /openaf/.opack.db || true\
