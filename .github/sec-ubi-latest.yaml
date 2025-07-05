@@ -2501,6 +2501,7 @@
     CweIDs:
     - CWE-407
     VendorSeverity:
+      alma: 2
       amazon: 2
       azure: 2
       cbl-mariner: 2
@@ -2519,7 +2520,9 @@
     - https://access.redhat.com/errata/RHSA-2025:8021
     - https://access.redhat.com/errata/RHSA-2025:8385
     - https://access.redhat.com/security/cve/CVE-2024-12133
+    - https://bugzilla.redhat.com/2344611
     - https://bugzilla.redhat.com/show_bug.cgi?id=2344611
+    - https://errata.almalinux.org/9/ALSA-2025-7077.html
     - https://gitlab.com/gnutls/libtasn1/-/blob/master/doc/security/CVE-2024-12133.md?ref_type=heads
     - https://gitlab.com/gnutls/libtasn1/-/issues/52
     - https://linux.oracle.com/cve/CVE-2024-12133.html
@@ -2562,37 +2565,6 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-49794
     - https://www.cve.org/CVERecord?id=CVE-2025-49794
     PublishedDate: '2025-06-16T16:15:18.997Z'
-    LastModifiedDate: '2025-06-17T20:50:23.507Z'
-  - VulnerabilityID: CVE-2025-49795
-    PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
-    PkgName: libxml2
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/libxml2@2.9.13-6.el9_5.2?arch=x86_64&distro=redhat-9.5
-      UID: fe6f7b4379e04d70
-    InstalledVersion: 2.9.13-6.el9_5.2
-    Status: affected
-    Layer:
-      Digest: sha256:37b753910a1a0253853348da0982bfd56d6a3feca98b1ea1486a4a7cfc613075
-      DiffID: sha256:951d5b1f9bf0ef75b1bc17f07467d6a4aac49bde431c6862510a05294b4eda8d
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-49795
-    Title: 'libxml: Null pointer dereference leads to Denial of service (DoS)'
-    Description: A NULL pointer dereference vulnerability was found in libxml2 when processing XPath XML expressions. This flaw allows an attacker to craft a malicious XML input to libxml2, leading to a denial of service.
-    Severity: HIGH
-    CweIDs:
-    - CWE-825
-    VendorSeverity:
-      redhat: 3
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-49795
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2372379
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-49795
-    - https://www.cve.org/CVERecord?id=CVE-2025-49795
-    PublishedDate: '2025-06-16T16:15:19.203Z'
     LastModifiedDate: '2025-06-17T20:50:23.507Z'
   - VulnerabilityID: CVE-2025-49796
     PkgID: libxml2@2.9.13-6.el9_5.2.x86_64
@@ -4248,6 +4220,7 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      alma: 2
       amazon: 2
       azure: 2
       cbl-mariner: 2
@@ -4259,7 +4232,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
         V3Score: 6.8
     References:
+    - https://access.redhat.com/errata/RHSA-2025:7109
     - https://access.redhat.com/security/cve/CVE-2025-0938
+    - https://bugzilla.redhat.com/2343237
+    - https://errata.almalinux.org/9/ALSA-2025-7109.html
     - https://github.com/python/cpython/commit/526617ed68cde460236c973e5d0a8bad4de896ba
     - https://github.com/python/cpython/commit/90e526ae67b172ed7c6c56e7edad36263b0f9403
     - https://github.com/python/cpython/commit/a7084f6075c9595ba60119ce8c62f1496f50c568
@@ -4922,6 +4898,7 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      alma: 2
       amazon: 2
       azure: 2
       cbl-mariner: 2
@@ -4933,7 +4910,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
         V3Score: 6.8
     References:
+    - https://access.redhat.com/errata/RHSA-2025:7109
     - https://access.redhat.com/security/cve/CVE-2025-0938
+    - https://bugzilla.redhat.com/2343237
+    - https://errata.almalinux.org/9/ALSA-2025-7109.html
     - https://github.com/python/cpython/commit/526617ed68cde460236c973e5d0a8bad4de896ba
     - https://github.com/python/cpython/commit/90e526ae67b172ed7c6c56e7edad36263b0f9403
     - https://github.com/python/cpython/commit/a7084f6075c9595ba60119ce8c62f1496f50c568
@@ -5596,6 +5576,7 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      alma: 2
       amazon: 2
       azure: 2
       cbl-mariner: 2
@@ -5607,7 +5588,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
         V3Score: 6.8
     References:
+    - https://access.redhat.com/errata/RHSA-2025:7109
     - https://access.redhat.com/security/cve/CVE-2025-0938
+    - https://bugzilla.redhat.com/2343237
+    - https://errata.almalinux.org/9/ALSA-2025-7109.html
     - https://github.com/python/cpython/commit/526617ed68cde460236c973e5d0a8bad4de896ba
     - https://github.com/python/cpython/commit/90e526ae67b172ed7c6c56e7edad36263b0f9403
     - https://github.com/python/cpython/commit/a7084f6075c9595ba60119ce8c62f1496f50c568
@@ -6252,7 +6236,7 @@
     - https://www.sudo.ws/security/advisories/
     - https://www.sudo.ws/security/advisories/host_any/
     PublishedDate: '2025-06-30T21:15:30.08Z'
-    LastModifiedDate: '2025-06-30T21:15:30.08Z'
+    LastModifiedDate: '2025-07-03T15:14:12.767Z'
   - VulnerabilityID: CVE-2025-4598
     PkgID: systemd-libs@252-46.el9_5.2.x86_64
     PkgName: systemd-libs

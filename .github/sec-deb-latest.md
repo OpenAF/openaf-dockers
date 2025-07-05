@@ -1446,7 +1446,7 @@
 │                       │      │                  ├ [13]: https://www.sudo.ws/security/advisories/ 
 │                       │      │                  ╰ [14]: https://www.sudo.ws/security/advisories/host_any/ 
 │                       │      ├ PublishedDate   : 2025-06-30T21:15:30.08Z 
-│                       │      ╰ LastModifiedDate: 2025-06-30T21:15:30.08Z 
+│                       │      ╰ LastModifiedDate: 2025-07-03T15:14:12.767Z 
 │                       ╰ [27] ╭ VulnerabilityID : CVE-2025-32463 
 │                              ├ PkgID           : sudo@1.9.15p5-3ubuntu5 
 │                              ├ PkgName         : sudo 
@@ -1497,7 +1497,7 @@
 │                              │                  ╰ [14]: https://www.suse.com/support/update/announcement/2025
 │                              │                          /suse-su-202502177-1/ 
 │                              ├ PublishedDate   : 2025-06-30T21:15:30.257Z 
-│                              ╰ LastModifiedDate: 2025-07-01T20:15:24.673Z 
+│                              ╰ LastModifiedDate: 2025-07-03T15:14:12.767Z 
 ╰ [1] ╭ Target: Java 
       ├ Class : lang-pkgs 
       ╰ Type  : jar 
