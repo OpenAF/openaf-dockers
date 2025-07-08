@@ -821,17 +821,23 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Title: 'cpython: python: CPython DecodeError Handling Vulnerability'
     Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
     Severity: MEDIUM
     CweIDs:
     - CWE-416
     VendorSeverity:
       amazon: 3
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.1
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/4
     - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://access.redhat.com/security/cve/CVE-2025-4516
     - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
     - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
     - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
@@ -1127,17 +1133,23 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Title: 'cpython: python: CPython DecodeError Handling Vulnerability'
     Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
     Severity: MEDIUM
     CweIDs:
     - CWE-416
     VendorSeverity:
       amazon: 3
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.1
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/4
     - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://access.redhat.com/security/cve/CVE-2025-4516
     - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
     - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
     - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
@@ -1433,17 +1445,23 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Title: 'cpython: python: CPython DecodeError Handling Vulnerability'
     Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
     Severity: MEDIUM
     CweIDs:
     - CWE-416
     VendorSeverity:
       amazon: 3
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.1
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/4
     - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://access.redhat.com/security/cve/CVE-2025-4516
     - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
     - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
     - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
@@ -1739,17 +1757,23 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Title: There is an issue in CPython when using `bytes.decode("unicode_escape" ...
+    Title: 'cpython: python: CPython DecodeError Handling Vulnerability'
     Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
     Severity: MEDIUM
     CweIDs:
     - CWE-416
     VendorSeverity:
       amazon: 3
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.1
     References:
     - http://www.openwall.com/lists/oss-security/2025/05/16/4
     - http://www.openwall.com/lists/oss-security/2025/05/19/1
+    - https://access.redhat.com/security/cve/CVE-2025-4516
     - https://github.com/python/cpython/commit/4398b788ffc1f954a2c552da285477d42a571292
     - https://github.com/python/cpython/commit/5646648678295a44aa82636c6e92826651baf33a
     - https://github.com/python/cpython/commit/6279eb8c076d89d3739a6edb393e43c7929b429d
