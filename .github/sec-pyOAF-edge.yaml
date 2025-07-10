@@ -766,6 +766,7 @@
       amazon: 3
       bitnami: 4
       oracle-oval: 3
+      photon: 4
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1078,6 +1079,7 @@
       amazon: 3
       bitnami: 4
       oracle-oval: 3
+      photon: 4
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1390,6 +1392,7 @@
       amazon: 3
       bitnami: 4
       oracle-oval: 3
+      photon: 4
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1702,6 +1705,7 @@
       amazon: 3
       bitnami: 4
       oracle-oval: 3
+      photon: 4
       redhat: 3
       ubuntu: 2
     CVSS:
