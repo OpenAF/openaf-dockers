@@ -11,8 +11,8 @@
     InstalledVersion: 9.5-1ubuntu1.25.04.1
     Status: affected
     Layer:
-      Digest: sha256:6bcfdd12ba19324b87b9447df30bfbae96984b4c9cf1872f78851897349453dd
-      DiffID: sha256:925bdfa0117cf5a43e4e0adb930002e9ffb6d7dc9c2d9adee9c3a473b7ee5463
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-2781
     DataSource:
@@ -62,8 +62,8 @@
     InstalledVersion: 2.4.4-2ubuntu23.1
     Status: affected
     Layer:
-      Digest: sha256:6bcfdd12ba19324b87b9447df30bfbae96984b4c9cf1872f78851897349453dd
-      DiffID: sha256:925bdfa0117cf5a43e4e0adb930002e9ffb6d7dc9c2d9adee9c3a473b7ee5463
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -106,8 +106,8 @@
     InstalledVersion: 2.41-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:6bcfdd12ba19324b87b9447df30bfbae96984b4c9cf1872f78851897349453dd
-      DiffID: sha256:925bdfa0117cf5a43e4e0adb930002e9ffb6d7dc9c2d9adee9c3a473b7ee5463
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
     DataSource:
@@ -150,8 +150,8 @@
     InstalledVersion: 2.41-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:6bcfdd12ba19324b87b9447df30bfbae96984b4c9cf1872f78851897349453dd
-      DiffID: sha256:925bdfa0117cf5a43e4e0adb930002e9ffb6d7dc9c2d9adee9c3a473b7ee5463
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5745
     DataSource:
@@ -187,8 +187,8 @@
     InstalledVersion: 2.41-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:6bcfdd12ba19324b87b9447df30bfbae96984b4c9cf1872f78851897349453dd
-      DiffID: sha256:925bdfa0117cf5a43e4e0adb930002e9ffb6d7dc9c2d9adee9c3a473b7ee5463
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -224,8 +224,8 @@
     InstalledVersion: 2.41-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:6bcfdd12ba19324b87b9447df30bfbae96984b4c9cf1872f78851897349453dd
-      DiffID: sha256:925bdfa0117cf5a43e4e0adb930002e9ffb6d7dc9c2d9adee9c3a473b7ee5463
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
     DataSource:
@@ -268,8 +268,8 @@
     InstalledVersion: 2.41-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:6bcfdd12ba19324b87b9447df30bfbae96984b4c9cf1872f78851897349453dd
-      DiffID: sha256:925bdfa0117cf5a43e4e0adb930002e9ffb6d7dc9c2d9adee9c3a473b7ee5463
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5745
     DataSource:
@@ -305,8 +305,8 @@
     InstalledVersion: 2.41-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:6bcfdd12ba19324b87b9447df30bfbae96984b4c9cf1872f78851897349453dd
-      DiffID: sha256:925bdfa0117cf5a43e4e0adb930002e9ffb6d7dc9c2d9adee9c3a473b7ee5463
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -342,8 +342,8 @@
     InstalledVersion: 1.11.0-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:6bcfdd12ba19324b87b9447df30bfbae96984b4c9cf1872f78851897349453dd
-      DiffID: sha256:925bdfa0117cf5a43e4e0adb930002e9ffb6d7dc9c2d9adee9c3a473b7ee5463
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2236
     DataSource:
@@ -384,6 +384,157 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2025-04-02T17:15:37.79Z'
+  - VulnerabilityID: CVE-2025-32988
+    PkgID: libgnutls30t64@3.8.9-2ubuntu3
+    PkgName: libgnutls30t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-2ubuntu3?arch=amd64&distro=ubuntu-25.04
+      UID: 1c77387b7eb0e80f
+    InstalledVersion: 3.8.9-2ubuntu3
+    Status: affected
+    Layer:
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-32988
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'gnutls: Vulnerability in GnuTLS otherName SAN export'
+    Description: |-
+      A flaw was found in GnuTLS. A double-free vulnerability exists in GnuTLS due to incorrect ownership handling in the export logic of Subject Alternative Name (SAN) entries containing an otherName. If the type-id OID is invalid or malformed, GnuTLS will call asn1_delete_structure() on an ASN.1 node it does not own, leading to a double-free condition when the parent function or caller later attempts to free the same structure.
+
+      This vulnerability can be triggered using only public GnuTLS APIs and may result in denial of service or memory corruption, depending on allocator behavior.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-415
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-32988
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359622
+    - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-32988
+    - https://www.cve.org/CVERecord?id=CVE-2025-32988
+    PublishedDate: '2025-07-10T08:15:24.223Z'
+    LastModifiedDate: '2025-07-10T13:17:30.017Z'
+  - VulnerabilityID: CVE-2025-32989
+    PkgID: libgnutls30t64@3.8.9-2ubuntu3
+    PkgName: libgnutls30t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-2ubuntu3?arch=amd64&distro=ubuntu-25.04
+      UID: 1c77387b7eb0e80f
+    InstalledVersion: 3.8.9-2ubuntu3
+    Status: affected
+    Layer:
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-32989
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'gnutls: Vulnerability in GnuTLS SCT extension parsing'
+    Description: A heap-buffer-overread vulnerability was found in GnuTLS in how it handles the Certificate Transparency (CT) Signed Certificate Timestamp (SCT) extension during X.509 certificate parsing. This flaw allows a malicious user to create a certificate containing a malformed SCT extension (OID 1.3.6.1.4.1.11129.2.4.2) that contains sensitive data. This issue leads to the exposure of confidential information when GnuTLS verifies certificates from certain websites when the certificate (SCT) is not checked correctly.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-295
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-32989
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359621
+    - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-32989
+    - https://www.cve.org/CVERecord?id=CVE-2025-32989
+    PublishedDate: '2025-07-10T08:15:24.43Z'
+    LastModifiedDate: '2025-07-10T13:17:30.017Z'
+  - VulnerabilityID: CVE-2025-32990
+    PkgID: libgnutls30t64@3.8.9-2ubuntu3
+    PkgName: libgnutls30t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-2ubuntu3?arch=amd64&distro=ubuntu-25.04
+      UID: 1c77387b7eb0e80f
+    InstalledVersion: 3.8.9-2ubuntu3
+    Status: affected
+    Layer:
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-32990
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'gnutls: Vulnerability in GnuTLS certtool template parsing'
+    Description: A heap-buffer-overflow (off-by-one) flaw was found in the GnuTLS software in the template parsing logic within the certtool utility. When it reads certain settings from a template file, it allows an attacker to cause an out-of-bounds (OOB) NULL pointer write, resulting in memory corruption and a denial-of-service (DoS) that could potentially crash the system.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-32990
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359620
+    - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-32990
+    - https://www.cve.org/CVERecord?id=CVE-2025-32990
+    PublishedDate: '2025-07-10T10:15:33.06Z'
+    LastModifiedDate: '2025-07-10T13:17:30.017Z'
+  - VulnerabilityID: CVE-2025-6395
+    PkgID: libgnutls30t64@3.8.9-2ubuntu3
+    PkgName: libgnutls30t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-2ubuntu3?arch=amd64&distro=ubuntu-25.04
+      UID: 1c77387b7eb0e80f
+    InstalledVersion: 3.8.9-2ubuntu3
+    Status: affected
+    Layer:
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6395
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'gnutls: NULL pointer dereference in _gnutls_figure_common_ciphersuite()'
+    Description: A NULL pointer dereference flaw was found in the GnuTLS software in _gnutls_figure_common_ciphersuite(). When it reads certain settings from a template file, it can allow an attacker to cause an out-of-bounds (OOB) NULL pointer write, resulting in memory corruption and a denial of service (DoS) that could crash the system.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-6395
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2376755
+    - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-6395
+    - https://www.cve.org/CVERecord?id=CVE-2025-6395
+    PublishedDate: '2025-07-10T16:15:25.11Z'
+    LastModifiedDate: '2025-07-10T16:15:25.11Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-modules@1.5.3-7ubuntu4.3
     PkgName: libpam-modules
@@ -393,8 +544,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:6bcfdd12ba19324b87b9447df30bfbae96984b4c9cf1872f78851897349453dd
-      DiffID: sha256:925bdfa0117cf5a43e4e0adb930002e9ffb6d7dc9c2d9adee9c3a473b7ee5463
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -445,8 +596,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:6bcfdd12ba19324b87b9447df30bfbae96984b4c9cf1872f78851897349453dd
-      DiffID: sha256:925bdfa0117cf5a43e4e0adb930002e9ffb6d7dc9c2d9adee9c3a473b7ee5463
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -499,8 +650,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:6bcfdd12ba19324b87b9447df30bfbae96984b4c9cf1872f78851897349453dd
-      DiffID: sha256:925bdfa0117cf5a43e4e0adb930002e9ffb6d7dc9c2d9adee9c3a473b7ee5463
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -551,8 +702,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:6bcfdd12ba19324b87b9447df30bfbae96984b4c9cf1872f78851897349453dd
-      DiffID: sha256:925bdfa0117cf5a43e4e0adb930002e9ffb6d7dc9c2d9adee9c3a473b7ee5463
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -605,8 +756,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:6bcfdd12ba19324b87b9447df30bfbae96984b4c9cf1872f78851897349453dd
-      DiffID: sha256:925bdfa0117cf5a43e4e0adb930002e9ffb6d7dc9c2d9adee9c3a473b7ee5463
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -657,8 +808,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:6bcfdd12ba19324b87b9447df30bfbae96984b4c9cf1872f78851897349453dd
-      DiffID: sha256:925bdfa0117cf5a43e4e0adb930002e9ffb6d7dc9c2d9adee9c3a473b7ee5463
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -711,8 +862,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:6bcfdd12ba19324b87b9447df30bfbae96984b4c9cf1872f78851897349453dd
-      DiffID: sha256:925bdfa0117cf5a43e4e0adb930002e9ffb6d7dc9c2d9adee9c3a473b7ee5463
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -763,8 +914,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:6bcfdd12ba19324b87b9447df30bfbae96984b4c9cf1872f78851897349453dd
-      DiffID: sha256:925bdfa0117cf5a43e4e0adb930002e9ffb6d7dc9c2d9adee9c3a473b7ee5463
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -817,8 +968,8 @@
     InstalledVersion: 1:4.16.0-7ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:6bcfdd12ba19324b87b9447df30bfbae96984b4c9cf1872f78851897349453dd
-      DiffID: sha256:925bdfa0117cf5a43e4e0adb930002e9ffb6d7dc9c2d9adee9c3a473b7ee5463
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -856,8 +1007,8 @@
     InstalledVersion: 1:4.16.0-7ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:6bcfdd12ba19324b87b9447df30bfbae96984b4c9cf1872f78851897349453dd
-      DiffID: sha256:925bdfa0117cf5a43e4e0adb930002e9ffb6d7dc9c2d9adee9c3a473b7ee5463
+      Digest: sha256:8744d3c91882dafc6a0baadb9f86dc3b5995587210920a4617887c4117fc90f9
+      DiffID: sha256:2b7049f4d9223259097288eb2d71ca38b868fe9cdf4799f18b5ff7a1fb1e233f
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
