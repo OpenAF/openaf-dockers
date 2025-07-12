@@ -706,6 +706,8 @@
     - CWE-190
     VendorSeverity:
       amazon: 3
+      azure: 1
+      cbl-mariner: 1
       redhat: 1
     CVSS:
       redhat:
@@ -817,6 +819,7 @@
     - CWE-415
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
@@ -824,6 +827,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-32988
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359622
+    - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32988
     - https://www.cve.org/CVERecord?id=CVE-2025-32988
     PublishedDate: '2025-07-10T08:15:24.223Z'
@@ -848,6 +852,7 @@
     - CWE-295
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
@@ -855,6 +860,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-32989
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359621
+    - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32989
     - https://www.cve.org/CVERecord?id=CVE-2025-32989
     PublishedDate: '2025-07-10T08:15:24.43Z'
@@ -879,6 +885,7 @@
     - CWE-122
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
@@ -886,6 +893,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-32990
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359620
+    - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32990
     - https://www.cve.org/CVERecord?id=CVE-2025-32990
     PublishedDate: '2025-07-10T10:15:33.06Z'
@@ -910,6 +918,7 @@
     - CWE-476
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
@@ -917,6 +926,7 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-6395
     - https://bugzilla.redhat.com/show_bug.cgi?id=2376755
+    - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6395
     - https://www.cve.org/CVERecord?id=CVE-2025-6395
     PublishedDate: '2025-07-10T16:15:25.11Z'
@@ -1725,6 +1735,7 @@
     CweIDs:
     - CWE-825
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 3
     CVSS:
@@ -1736,7 +1747,11 @@
     - https://access.redhat.com/errata/RHSA-2025:10698
     - https://access.redhat.com/errata/RHSA-2025:10699
     - https://access.redhat.com/security/cve/CVE-2025-49794
+    - https://bugzilla.redhat.com/2372373
+    - https://bugzilla.redhat.com/2372385
+    - https://bugzilla.redhat.com/2372406
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372373
+    - https://errata.almalinux.org/9/ALSA-2025-10699.html
     - https://linux.oracle.com/cve/CVE-2025-49794.html
     - https://linux.oracle.com/errata/ELSA-2025-10699.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-49794
@@ -1765,6 +1780,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 3
     CVSS:
@@ -1776,7 +1792,11 @@
     - https://access.redhat.com/errata/RHSA-2025:10698
     - https://access.redhat.com/errata/RHSA-2025:10699
     - https://access.redhat.com/security/cve/CVE-2025-49796
+    - https://bugzilla.redhat.com/2372373
+    - https://bugzilla.redhat.com/2372385
+    - https://bugzilla.redhat.com/2372406
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372385
+    - https://errata.almalinux.org/9/ALSA-2025-10699.html
     - https://linux.oracle.com/cve/CVE-2025-49796.html
     - https://linux.oracle.com/errata/ELSA-2025-10699.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-49796
@@ -1806,6 +1826,7 @@
       alma: 2
       amazon: 2
       azure: 2
+      cbl-mariner: 2
       nvd: 3
       oracle-oval: 2
       photon: 3
@@ -1854,6 +1875,7 @@
     VendorSeverity:
       amazon: 2
       azure: 1
+      cbl-mariner: 1
       nvd: 3
       photon: 3
       redhat: 2
@@ -1896,6 +1918,7 @@
     CweIDs:
     - CWE-121
     VendorSeverity:
+      alma: 3
       amazon: 3
       oracle-oval: 3
       redhat: 2
@@ -1908,7 +1931,11 @@
     - https://access.redhat.com/errata/RHSA-2025:10698
     - https://access.redhat.com/errata/RHSA-2025:10699
     - https://access.redhat.com/security/cve/CVE-2025-6021
+    - https://bugzilla.redhat.com/2372373
+    - https://bugzilla.redhat.com/2372385
+    - https://bugzilla.redhat.com/2372406
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372406
+    - https://errata.almalinux.org/9/ALSA-2025-10699.html
     - https://linux.oracle.com/cve/CVE-2025-6021.html
     - https://linux.oracle.com/errata/ELSA-2025-10699.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6021
@@ -3083,6 +3110,7 @@
     - CWE-416
     VendorSeverity:
       amazon: 3
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3346,6 +3374,7 @@
     - CWE-416
     VendorSeverity:
       amazon: 3
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3609,6 +3638,7 @@
     - CWE-416
     VendorSeverity:
       amazon: 3
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
