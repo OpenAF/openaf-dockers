@@ -99,7 +99,96 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                       ├ [2]  ╭ VulnerabilityID : CVE-2016-20013 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2025-5702 
+│                       │      ├ PkgID           : libc-bin@2.41-6ubuntu1 
+│                       │      ├ PkgName         : libc-bin 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc-bin@2.41-6ubuntu1?arch=amd64&dist
+│                       │      │                  │       ro=ubuntu-25.04 
+│                       │      │                  ╰ UID : e2ea38724e36afbf 
+│                       │      ├ InstalledVersion: 2.41-6ubuntu1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18b
+│                       │      │                  │         ecaf402d89eb5972897b 
+│                       │      │                  ╰ DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a636497934
+│                       │      │                            26200f6408010c9c9573 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5702 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : glibc: Vector register overwrite bug in glibc 
+│                       │      ├ Description     : The strcmp implementation optimized for the Power10
+│                       │      │                   processor in the GNU C Library version 2.39 and later writes
+│                       │      │                    to vector registers v20 to v31 without saving contents from
+│                       │      │                    the caller (those registers are defined as non-volatile
+│                       │      │                   registers by the powerpc64le ABI), resulting in overwriting
+│                       │      │                   of its contents and potentially altering control flow of the
+│                       │      │                    caller, or leaking the input strings to the function to
+│                       │      │                   other parts of the program. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-665 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.6 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:9877 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-5702 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2370472 
+│                       │      │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-9877.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-5702.html 
+│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-9877.html 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
+│                       │      │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
+│                       │      │                  ├ [8]: https://sourceware.org/pipermail/libc-alpha/2025-June/
+│                       │      │                  │      167381.html 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
+│                       │      ├ PublishedDate   : 2025-06-05T19:15:31.073Z 
+│                       │      ╰ LastModifiedDate: 2025-06-05T21:15:22.873Z 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2025-5745 
+│                       │      ├ PkgID           : libc-bin@2.41-6ubuntu1 
+│                       │      ├ PkgName         : libc-bin 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc-bin@2.41-6ubuntu1?arch=amd64&dist
+│                       │      │                  │       ro=ubuntu-25.04 
+│                       │      │                  ╰ UID : e2ea38724e36afbf 
+│                       │      ├ InstalledVersion: 2.41-6ubuntu1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18b
+│                       │      │                  │         ecaf402d89eb5972897b 
+│                       │      │                  ╰ DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a636497934
+│                       │      │                            26200f6408010c9c9573 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5745 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : glibc: Vector register overwrite bug in glibc 
+│                       │      ├ Description     : The strncmp implementation optimized for the Power10
+│                       │      │                   processor in the GNU C Library version 2.40 and later writes
+│                       │      │                    to vector registers v20 to v31 without saving contents from
+│                       │      │                    the caller (those registers are defined as non-volatile
+│                       │      │                   registers by the powerpc64le ABI), resulting in overwriting
+│                       │      │                   of its contents and potentially altering control flow of the
+│                       │      │                    caller, or leaking the input strings to the function to
+│                       │      │                   other parts of the program. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-665 
+│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 8.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-5745 
+│                       │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-5745 
+│                       │      │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=33060 
+│                       │      │                  ├ [3]: https://sourceware.org/pipermail/libc-alpha/2025-June/
+│                       │      │                  │      167405.html 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-5745 
+│                       │      ├ PublishedDate   : 2025-06-05T20:15:27.377Z 
+│                       │      ╰ LastModifiedDate: 2025-06-06T14:07:28.33Z 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2016-20013 
 │                       │      ├ PkgID           : libc-bin@2.41-6ubuntu1 
 │                       │      ├ PkgName         : libc-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc-bin@2.41-6ubuntu1?arch=amd64&dist
@@ -135,7 +224,96 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2016-20013 
 │                       │      ├ PublishedDate   : 2022-02-19T05:15:09.413Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T02:47:33.427Z 
-│                       ├ [3]  ╭ VulnerabilityID : CVE-2016-20013 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-5702 
+│                       │      ├ PkgID           : libc6@2.41-6ubuntu1 
+│                       │      ├ PkgName         : libc6 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc6@2.41-6ubuntu1?arch=amd64&distro=
+│                       │      │                  │       ubuntu-25.04 
+│                       │      │                  ╰ UID : 9179a4c8d310984e 
+│                       │      ├ InstalledVersion: 2.41-6ubuntu1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18b
+│                       │      │                  │         ecaf402d89eb5972897b 
+│                       │      │                  ╰ DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a636497934
+│                       │      │                            26200f6408010c9c9573 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5702 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : glibc: Vector register overwrite bug in glibc 
+│                       │      ├ Description     : The strcmp implementation optimized for the Power10
+│                       │      │                   processor in the GNU C Library version 2.39 and later writes
+│                       │      │                    to vector registers v20 to v31 without saving contents from
+│                       │      │                    the caller (those registers are defined as non-volatile
+│                       │      │                   registers by the powerpc64le ABI), resulting in overwriting
+│                       │      │                   of its contents and potentially altering control flow of the
+│                       │      │                    caller, or leaking the input strings to the function to
+│                       │      │                   other parts of the program. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-665 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.6 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:9877 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-5702 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2370472 
+│                       │      │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-9877.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-5702.html 
+│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-9877.html 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
+│                       │      │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
+│                       │      │                  ├ [8]: https://sourceware.org/pipermail/libc-alpha/2025-June/
+│                       │      │                  │      167381.html 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
+│                       │      ├ PublishedDate   : 2025-06-05T19:15:31.073Z 
+│                       │      ╰ LastModifiedDate: 2025-06-05T21:15:22.873Z 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-5745 
+│                       │      ├ PkgID           : libc6@2.41-6ubuntu1 
+│                       │      ├ PkgName         : libc6 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc6@2.41-6ubuntu1?arch=amd64&distro=
+│                       │      │                  │       ubuntu-25.04 
+│                       │      │                  ╰ UID : 9179a4c8d310984e 
+│                       │      ├ InstalledVersion: 2.41-6ubuntu1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18b
+│                       │      │                  │         ecaf402d89eb5972897b 
+│                       │      │                  ╰ DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a636497934
+│                       │      │                            26200f6408010c9c9573 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5745 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : glibc: Vector register overwrite bug in glibc 
+│                       │      ├ Description     : The strncmp implementation optimized for the Power10
+│                       │      │                   processor in the GNU C Library version 2.40 and later writes
+│                       │      │                    to vector registers v20 to v31 without saving contents from
+│                       │      │                    the caller (those registers are defined as non-volatile
+│                       │      │                   registers by the powerpc64le ABI), resulting in overwriting
+│                       │      │                   of its contents and potentially altering control flow of the
+│                       │      │                    caller, or leaking the input strings to the function to
+│                       │      │                   other parts of the program. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-665 
+│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 8.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-5745 
+│                       │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-5745 
+│                       │      │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=33060 
+│                       │      │                  ├ [3]: https://sourceware.org/pipermail/libc-alpha/2025-June/
+│                       │      │                  │      167405.html 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-5745 
+│                       │      ├ PublishedDate   : 2025-06-05T20:15:27.377Z 
+│                       │      ╰ LastModifiedDate: 2025-06-06T14:07:28.33Z 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2016-20013 
 │                       │      ├ PkgID           : libc6@2.41-6ubuntu1 
 │                       │      ├ PkgName         : libc6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc6@2.41-6ubuntu1?arch=amd64&distro=
@@ -171,7 +349,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2016-20013 
 │                       │      ├ PublishedDate   : 2022-02-19T05:15:09.413Z 
 │                       │      ╰ LastModifiedDate: 2024-11-21T02:47:33.427Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2024-2236 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2024-2236 
 │                       │      ├ PkgID           : libgcrypt20@1.11.0-6ubuntu1 
 │                       │      ├ PkgName         : libgcrypt20 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcrypt20@1.11.0-6ubuntu1?arch=amd64
@@ -224,7 +402,174 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                       │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                       │      ╰ LastModifiedDate: 2025-04-02T17:15:37.79Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2024-10041 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-32988 
+│                       │      ├ PkgID           : libgnutls30t64@3.8.9-2ubuntu3 
+│                       │      ├ PkgName         : libgnutls30t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-2ubuntu3?arch=amd
+│                       │      │                  │       64&distro=ubuntu-25.04 
+│                       │      │                  ╰ UID : 1c77387b7eb0e80f 
+│                       │      ├ InstalledVersion: 3.8.9-2ubuntu3 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18b
+│                       │      │                  │         ecaf402d89eb5972897b 
+│                       │      │                  ╰ DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a636497934
+│                       │      │                            26200f6408010c9c9573 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-32988 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : gnutls: Vulnerability in GnuTLS otherName SAN export 
+│                       │      ├ Description     : A flaw was found in GnuTLS. A double-free vulnerability
+│                       │      │                   exists in GnuTLS due to incorrect ownership handling in the
+│                       │      │                   export logic of Subject Alternative Name (SAN) entries
+│                       │      │                   containing an otherName. If the type-id OID is invalid or
+│                       │      │                   malformed, GnuTLS will call asn1_delete_structure() on an
+│                       │      │                   ASN.1 node it does not own, leading to a double-free
+│                       │      │                   condition when the parent function or caller later attempts
+│                       │      │                   to free the same structure.
+│                       │      │                   
+│                       │      │                   This vulnerability can be triggered using only public GnuTLS
+│                       │      │                    APIs and may result in denial of service or memory
+│                       │      │                   corruption, depending on allocator behavior. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-415 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32988 
+│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
+│                       │      │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Jul
+│                       │      │                  │      y/004883.html 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-32988 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-32988 
+│                       │      ├ PublishedDate   : 2025-07-10T08:15:24.223Z 
+│                       │      ╰ LastModifiedDate: 2025-07-10T13:17:30.017Z 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2025-32989 
+│                       │      ├ PkgID           : libgnutls30t64@3.8.9-2ubuntu3 
+│                       │      ├ PkgName         : libgnutls30t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-2ubuntu3?arch=amd
+│                       │      │                  │       64&distro=ubuntu-25.04 
+│                       │      │                  ╰ UID : 1c77387b7eb0e80f 
+│                       │      ├ InstalledVersion: 3.8.9-2ubuntu3 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18b
+│                       │      │                  │         ecaf402d89eb5972897b 
+│                       │      │                  ╰ DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a636497934
+│                       │      │                            26200f6408010c9c9573 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-32989 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : gnutls: Vulnerability in GnuTLS SCT extension parsing 
+│                       │      ├ Description     : A heap-buffer-overread vulnerability was found in GnuTLS in
+│                       │      │                   how it handles the Certificate Transparency (CT) Signed
+│                       │      │                   Certificate Timestamp (SCT) extension during X.509
+│                       │      │                   certificate parsing. This flaw allows a malicious user to
+│                       │      │                   create a certificate containing a malformed SCT extension
+│                       │      │                   (OID 1.3.6.1.4.1.11129.2.4.2) that contains sensitive data.
+│                       │      │                   This issue leads to the exposure of confidential information
+│                       │      │                    when GnuTLS verifies certificates from certain websites
+│                       │      │                   when the certificate (SCT) is not checked correctly. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-295 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32989 
+│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2359621 
+│                       │      │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Jul
+│                       │      │                  │      y/004883.html 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-32989 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-32989 
+│                       │      ├ PublishedDate   : 2025-07-10T08:15:24.43Z 
+│                       │      ╰ LastModifiedDate: 2025-07-10T13:17:30.017Z 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2025-32990 
+│                       │      ├ PkgID           : libgnutls30t64@3.8.9-2ubuntu3 
+│                       │      ├ PkgName         : libgnutls30t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-2ubuntu3?arch=amd
+│                       │      │                  │       64&distro=ubuntu-25.04 
+│                       │      │                  ╰ UID : 1c77387b7eb0e80f 
+│                       │      ├ InstalledVersion: 3.8.9-2ubuntu3 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18b
+│                       │      │                  │         ecaf402d89eb5972897b 
+│                       │      │                  ╰ DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a636497934
+│                       │      │                            26200f6408010c9c9573 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-32990 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : gnutls: Vulnerability in GnuTLS certtool template parsing 
+│                       │      ├ Description     : A heap-buffer-overflow (off-by-one) flaw was found in the
+│                       │      │                   GnuTLS software in the template parsing logic within the
+│                       │      │                   certtool utility. When it reads certain settings from a
+│                       │      │                   template file, it allows an attacker to cause an
+│                       │      │                   out-of-bounds (OOB) NULL pointer write, resulting in memory
+│                       │      │                   corruption and a denial-of-service (DoS) that could
+│                       │      │                   potentially crash the system. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-122 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32990 
+│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2359620 
+│                       │      │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Jul
+│                       │      │                  │      y/004883.html 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-32990 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-32990 
+│                       │      ├ PublishedDate   : 2025-07-10T10:15:33.06Z 
+│                       │      ╰ LastModifiedDate: 2025-07-10T13:17:30.017Z 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2025-6395 
+│                       │      ├ PkgID           : libgnutls30t64@3.8.9-2ubuntu3 
+│                       │      ├ PkgName         : libgnutls30t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-2ubuntu3?arch=amd
+│                       │      │                  │       64&distro=ubuntu-25.04 
+│                       │      │                  ╰ UID : 1c77387b7eb0e80f 
+│                       │      ├ InstalledVersion: 3.8.9-2ubuntu3 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18b
+│                       │      │                  │         ecaf402d89eb5972897b 
+│                       │      │                  ╰ DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a636497934
+│                       │      │                            26200f6408010c9c9573 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-6395 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : gnutls: NULL pointer dereference in
+│                       │      │                   _gnutls_figure_common_ciphersuite() 
+│                       │      ├ Description     : A NULL pointer dereference flaw was found in the GnuTLS
+│                       │      │                   software in _gnutls_figure_common_ciphersuite(). When it
+│                       │      │                   reads certain settings from a template file, it can allow an
+│                       │      │                    attacker to cause an out-of-bounds (OOB) NULL pointer
+│                       │      │                   write, resulting in memory corruption and a denial of
+│                       │      │                   service (DoS) that could crash the system. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-476 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-6395 
+│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
+│                       │      │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Jul
+│                       │      │                  │      y/004883.html 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-6395 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
+│                       │      ├ PublishedDate   : 2025-07-10T16:15:25.11Z 
+│                       │      ╰ LastModifiedDate: 2025-07-10T16:15:25.11Z 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2024-10041 
 │                       │      ├ PkgID           : libpam-modules@1.5.3-7ubuntu4.3 
 │                       │      ├ PkgName         : libpam-modules 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-7ubuntu4.3?arch=a
@@ -280,7 +625,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                       │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                       │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2024-10963 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2024-10963 
 │                       │      ├ PkgID           : libpam-modules@1.5.3-7ubuntu4.3 
 │                       │      ├ PkgName         : libpam-modules 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-7ubuntu4.3?arch=a
@@ -339,7 +684,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2024-10041 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2024-10041 
 │                       │      ├ PkgID           : libpam-modules-bin@1.5.3-7ubuntu4.3 
 │                       │      ├ PkgName         : libpam-modules-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu4.3?ar
@@ -395,7 +740,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                       │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                       │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2024-10963 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2024-10963 
 │                       │      ├ PkgID           : libpam-modules-bin@1.5.3-7ubuntu4.3 
 │                       │      ├ PkgName         : libpam-modules-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu4.3?ar
@@ -454,7 +799,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2024-10041 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2024-10041 
 │                       │      ├ PkgID           : libpam-runtime@1.5.3-7ubuntu4.3 
 │                       │      ├ PkgName         : libpam-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu4.3?arch=a
@@ -510,7 +855,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                       │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                       │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2024-10963 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2024-10963 
 │                       │      ├ PkgID           : libpam-runtime@1.5.3-7ubuntu4.3 
 │                       │      ├ PkgName         : libpam-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu4.3?arch=a
@@ -569,7 +914,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2024-10041 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2024-10041 
 │                       │      ├ PkgID           : libpam0g@1.5.3-7ubuntu4.3 
 │                       │      ├ PkgName         : libpam0g 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.3?arch=amd64&d
@@ -625,7 +970,7 @@
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
 │                       │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
 │                       │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2024-10963 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2024-10963 
 │                       │      ├ PkgID           : libpam0g@1.5.3-7ubuntu4.3 
 │                       │      ├ PkgName         : libpam0g 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.3?arch=amd64&d
@@ -684,7 +1029,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login.defs@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : login.defs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.16.0-7ubuntu1?arch=all&di
@@ -732,7 +1077,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ╰ [14] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ╰ [22] ╭ VulnerabilityID : CVE-2024-56433 
 │                              ├ PkgID           : passwd@1:4.16.0-7ubuntu1 
 │                              ├ PkgName         : passwd 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.16.0-7ubuntu1?arch=amd64&dist
