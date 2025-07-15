@@ -104,7 +104,8 @@
       PURL: pkg:deb/ubuntu/libc-bin@2.41-6ubuntu1?arch=amd64&distro=ubuntu-25.04
       UID: e2ea38724e36afbf
     InstalledVersion: 2.41-6ubuntu1
-    Status: affected
+    FixedVersion: 2.41-6ubuntu1.1
+    Status: fixed
     Layer:
       Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
       DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
@@ -138,6 +139,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
     - https://sourceware.org/pipermail/libc-alpha/2025-June/167381.html
+    - https://ubuntu.com/security/notices/USN-7634-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5702
     PublishedDate: '2025-06-05T19:15:31.073Z'
     LastModifiedDate: '2025-06-05T21:15:22.873Z'
@@ -148,7 +150,8 @@
       PURL: pkg:deb/ubuntu/libc-bin@2.41-6ubuntu1?arch=amd64&distro=ubuntu-25.04
       UID: e2ea38724e36afbf
     InstalledVersion: 2.41-6ubuntu1
-    Status: affected
+    FixedVersion: 2.41-6ubuntu1.1
+    Status: fixed
     Layer:
       Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
       DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
@@ -175,6 +178,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5745
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33060
     - https://sourceware.org/pipermail/libc-alpha/2025-June/167405.html
+    - https://ubuntu.com/security/notices/USN-7634-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5745
     PublishedDate: '2025-06-05T20:15:27.377Z'
     LastModifiedDate: '2025-06-06T14:07:28.33Z'
@@ -222,7 +226,8 @@
       PURL: pkg:deb/ubuntu/libc6@2.41-6ubuntu1?arch=amd64&distro=ubuntu-25.04
       UID: 9179a4c8d310984e
     InstalledVersion: 2.41-6ubuntu1
-    Status: affected
+    FixedVersion: 2.41-6ubuntu1.1
+    Status: fixed
     Layer:
       Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
       DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
@@ -256,6 +261,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
     - https://sourceware.org/pipermail/libc-alpha/2025-June/167381.html
+    - https://ubuntu.com/security/notices/USN-7634-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5702
     PublishedDate: '2025-06-05T19:15:31.073Z'
     LastModifiedDate: '2025-06-05T21:15:22.873Z'
@@ -266,7 +272,8 @@
       PURL: pkg:deb/ubuntu/libc6@2.41-6ubuntu1?arch=amd64&distro=ubuntu-25.04
       UID: 9179a4c8d310984e
     InstalledVersion: 2.41-6ubuntu1
-    Status: affected
+    FixedVersion: 2.41-6ubuntu1.1
+    Status: fixed
     Layer:
       Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
       DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
@@ -293,6 +300,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-5745
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33060
     - https://sourceware.org/pipermail/libc-alpha/2025-June/167405.html
+    - https://ubuntu.com/security/notices/USN-7634-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5745
     PublishedDate: '2025-06-05T20:15:27.377Z'
     LastModifiedDate: '2025-06-06T14:07:28.33Z'
@@ -391,7 +399,8 @@
       PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-2ubuntu3?arch=amd64&distro=ubuntu-25.04
       UID: 1c77387b7eb0e80f
     InstalledVersion: 3.8.9-2ubuntu3
-    Status: affected
+    FixedVersion: 3.8.9-2ubuntu3.1
+    Status: fixed
     Layer:
       Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
       DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
@@ -421,6 +430,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359622
     - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32988
+    - https://ubuntu.com/security/notices/USN-7635-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32988
     PublishedDate: '2025-07-10T08:15:24.223Z'
     LastModifiedDate: '2025-07-10T13:17:30.017Z'
@@ -431,7 +441,8 @@
       PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-2ubuntu3?arch=amd64&distro=ubuntu-25.04
       UID: 1c77387b7eb0e80f
     InstalledVersion: 3.8.9-2ubuntu3
-    Status: affected
+    FixedVersion: 3.8.9-2ubuntu3.1
+    Status: fixed
     Layer:
       Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
       DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
@@ -458,6 +469,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359621
     - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32989
+    - https://ubuntu.com/security/notices/USN-7635-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32989
     PublishedDate: '2025-07-10T08:15:24.43Z'
     LastModifiedDate: '2025-07-10T13:17:30.017Z'
@@ -468,7 +480,8 @@
       PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-2ubuntu3?arch=amd64&distro=ubuntu-25.04
       UID: 1c77387b7eb0e80f
     InstalledVersion: 3.8.9-2ubuntu3
-    Status: affected
+    FixedVersion: 3.8.9-2ubuntu3.1
+    Status: fixed
     Layer:
       Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
       DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
@@ -495,6 +508,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359620
     - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32990
+    - https://ubuntu.com/security/notices/USN-7635-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32990
     PublishedDate: '2025-07-10T10:15:33.06Z'
     LastModifiedDate: '2025-07-10T13:17:30.017Z'
@@ -505,7 +519,8 @@
       PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-2ubuntu3?arch=amd64&distro=ubuntu-25.04
       UID: 1c77387b7eb0e80f
     InstalledVersion: 3.8.9-2ubuntu3
-    Status: affected
+    FixedVersion: 3.8.9-2ubuntu3.1
+    Status: fixed
     Layer:
       Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
       DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
@@ -532,6 +547,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2376755
     - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6395
+    - https://ubuntu.com/security/notices/USN-7635-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6395
     PublishedDate: '2025-07-10T16:15:25.11Z'
     LastModifiedDate: '2025-07-10T16:15:25.11Z'
@@ -1037,6 +1053,79 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-56433
     PublishedDate: '2024-12-26T09:15:07.267Z'
     LastModifiedDate: '2024-12-26T09:15:07.267Z'
+  - VulnerabilityID: CVE-2025-45582
+    PkgID: tar@1.35+dfsg-3.1
+    PkgName: tar
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1?arch=amd64&distro=ubuntu-25.04
+      UID: a4187a8c3d48826a
+    InstalledVersion: 1.35+dfsg-3.1
+    Status: affected
+    Layer:
+      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
+      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-45582
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: GNU Tar through 1.35 allows file overwrite via directory traversal in  ...
+    Description: GNU Tar through 1.35 allows file overwrite via directory traversal in crafted TAR archives, with a certain two-step process. First, the victim must extract an archive that contains a ../ symlink to a critical directory. Second, the victim must extract an archive that contains a critical file, specified via a relative pathname that begins with the symlink name and ends with that critical file's name. Here, the extraction follows the symlink and overwrites the critical file. This bypasses the protection mechanism of "Member name contains '..'" that would occur for a single TAR archive that attempted to specify the critical file via a ../ approach. For example, the first archive can contain "x -> ../../../../../home/victim/.ssh" and the second archive can contain x/authorized_keys. This can affect server applications that automatically extract any number of user-supplied TAR archives, and were relying on the blocking of traversal. This can also affect software installation processes in which "tar xf" is run more than once (e.g., when installing a package can automatically install two dependencies that are set up as untrusted tarballs instead of official packages).
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-24
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/i900008/vulndb/blob/main/Gnu_tar_vuln.md
+    - https://www.cve.org/CVERecord?id=CVE-2025-45582
+    - https://www.gnu.org/software/tar/
+    PublishedDate: '2025-07-11T17:15:37.183Z'
+    LastModifiedDate: '2025-07-11T18:15:34.52Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2025-48924
+    PkgName: org.apache.commons:commons-lang3
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/org.apache.commons/commons-lang3@3.17.0
+      UID: 36abc6aa3ef9156f
+    InstalledVersion: 3.17.0
+    FixedVersion: 3.18.0
+    Status: fixed
+    Layer:
+      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
+      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-48924
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Title: 'commons-lang/commons-lang: org.apache.commons/commons-lang3: Uncontrolled Recursion vulnerability in Apache Commons Lang'
+    Description: "Uncontrolled Recursion vulnerability in Apache Commons Lang.\n\nThis issue affects Apache Commons Lang: Starting with\_commons-lang:commons-lang\_2.0 to 2.6, and, from org.apache.commons:commons-lang3 3.0 before\_3.18.0.\n\nThe methods ClassUtils.getClass(...) can throw\_StackOverflowError on very long inputs. Because an Error is usually not handled by applications and libraries, a \nStackOverflowError could\_cause an application to stop.\n\nUsers are recommended to upgrade to version 3.18.0, which fixes the issue."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      ghsa: 2
+      redhat: 1
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-48924
+    - https://github.com/apache/commons-lang
+    - https://github.com/apache/commons-lang/commit/b424803abdb2bec818e4fbcb251ce031c22aca53
+    - https://lists.apache.org/thread/bgv0lpswokgol11tloxnjfzdl7yrc1g1
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-48924
+    - https://www.cve.org/CVERecord?id=CVE-2025-48924
+    PublishedDate: '2025-07-11T15:15:24.347Z'
+    LastModifiedDate: '2025-07-14T17:15:33.027Z'
