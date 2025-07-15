@@ -106,7 +106,8 @@
 │                       │      │                  │       ro=ubuntu-25.04 
 │                       │      │                  ╰ UID : e2ea38724e36afbf 
 │                       │      ├ InstalledVersion: 2.41-6ubuntu1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2.41-6ubuntu1.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18b
 │                       │      │                  │         ecaf402d89eb5972897b 
 │                       │      │                  ╰ DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a636497934
@@ -134,17 +135,18 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.6 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:9877 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-5702 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2370472 
-│                       │      │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-9877.html 
-│                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-5702.html 
-│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-9877.html 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
-│                       │      │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
-│                       │      │                  ├ [8]: https://sourceware.org/pipermail/libc-alpha/2025-June/
-│                       │      │                  │      167381.html 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:9877 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-5702 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2370472 
+│                       │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-9877.html 
+│                       │      │                  ├ [4] : https://linux.oracle.com/cve/CVE-2025-5702.html 
+│                       │      │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-9877.html 
+│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
+│                       │      │                  ├ [7] : https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
+│                       │      │                  ├ [8] : https://sourceware.org/pipermail/libc-alpha/2025-June
+│                       │      │                  │       /167381.html 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7634-1 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
 │                       │      ├ PublishedDate   : 2025-06-05T19:15:31.073Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T21:15:22.873Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2025-5745 
@@ -154,7 +156,8 @@
 │                       │      │                  │       ro=ubuntu-25.04 
 │                       │      │                  ╰ UID : e2ea38724e36afbf 
 │                       │      ├ InstalledVersion: 2.41-6ubuntu1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2.41-6ubuntu1.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18b
 │                       │      │                  │         ecaf402d89eb5972897b 
 │                       │      │                  ╰ DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a636497934
@@ -185,7 +188,8 @@
 │                       │      │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=33060 
 │                       │      │                  ├ [3]: https://sourceware.org/pipermail/libc-alpha/2025-June/
 │                       │      │                  │      167405.html 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-5745 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7634-1 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-5745 
 │                       │      ├ PublishedDate   : 2025-06-05T20:15:27.377Z 
 │                       │      ╰ LastModifiedDate: 2025-06-06T14:07:28.33Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2016-20013 
@@ -231,7 +235,8 @@
 │                       │      │                  │       ubuntu-25.04 
 │                       │      │                  ╰ UID : 9179a4c8d310984e 
 │                       │      ├ InstalledVersion: 2.41-6ubuntu1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2.41-6ubuntu1.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18b
 │                       │      │                  │         ecaf402d89eb5972897b 
 │                       │      │                  ╰ DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a636497934
@@ -259,17 +264,18 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.6 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:9877 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-5702 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2370472 
-│                       │      │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2025-9877.html 
-│                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-5702.html 
-│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-9877.html 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
-│                       │      │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
-│                       │      │                  ├ [8]: https://sourceware.org/pipermail/libc-alpha/2025-June/
-│                       │      │                  │      167381.html 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:9877 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-5702 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2370472 
+│                       │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-9877.html 
+│                       │      │                  ├ [4] : https://linux.oracle.com/cve/CVE-2025-5702.html 
+│                       │      │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-9877.html 
+│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
+│                       │      │                  ├ [7] : https://sourceware.org/bugzilla/show_bug.cgi?id=33056 
+│                       │      │                  ├ [8] : https://sourceware.org/pipermail/libc-alpha/2025-June
+│                       │      │                  │       /167381.html 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7634-1 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-5702 
 │                       │      ├ PublishedDate   : 2025-06-05T19:15:31.073Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T21:15:22.873Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2025-5745 
@@ -279,7 +285,8 @@
 │                       │      │                  │       ubuntu-25.04 
 │                       │      │                  ╰ UID : 9179a4c8d310984e 
 │                       │      ├ InstalledVersion: 2.41-6ubuntu1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2.41-6ubuntu1.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18b
 │                       │      │                  │         ecaf402d89eb5972897b 
 │                       │      │                  ╰ DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a636497934
@@ -310,7 +317,8 @@
 │                       │      │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=33060 
 │                       │      │                  ├ [3]: https://sourceware.org/pipermail/libc-alpha/2025-June/
 │                       │      │                  │      167405.html 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-5745 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7634-1 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-5745 
 │                       │      ├ PublishedDate   : 2025-06-05T20:15:27.377Z 
 │                       │      ╰ LastModifiedDate: 2025-06-06T14:07:28.33Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2016-20013 
@@ -409,7 +417,8 @@
 │                       │      │                  │       64&distro=ubuntu-25.04 
 │                       │      │                  ╰ UID : 1c77387b7eb0e80f 
 │                       │      ├ InstalledVersion: 3.8.9-2ubuntu3 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 3.8.9-2ubuntu3.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18b
 │                       │      │                  │         ecaf402d89eb5972897b 
 │                       │      │                  ╰ DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a636497934
@@ -444,7 +453,8 @@
 │                       │      │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Jul
 │                       │      │                  │      y/004883.html 
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-32988 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-32988 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32988 
 │                       │      ├ PublishedDate   : 2025-07-10T08:15:24.223Z 
 │                       │      ╰ LastModifiedDate: 2025-07-10T13:17:30.017Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2025-32989 
@@ -454,7 +464,8 @@
 │                       │      │                  │       64&distro=ubuntu-25.04 
 │                       │      │                  ╰ UID : 1c77387b7eb0e80f 
 │                       │      ├ InstalledVersion: 3.8.9-2ubuntu3 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 3.8.9-2ubuntu3.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18b
 │                       │      │                  │         ecaf402d89eb5972897b 
 │                       │      │                  ╰ DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a636497934
@@ -486,7 +497,8 @@
 │                       │      │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Jul
 │                       │      │                  │      y/004883.html 
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-32989 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-32989 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32989 
 │                       │      ├ PublishedDate   : 2025-07-10T08:15:24.43Z 
 │                       │      ╰ LastModifiedDate: 2025-07-10T13:17:30.017Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2025-32990 
@@ -496,7 +508,8 @@
 │                       │      │                  │       64&distro=ubuntu-25.04 
 │                       │      │                  ╰ UID : 1c77387b7eb0e80f 
 │                       │      ├ InstalledVersion: 3.8.9-2ubuntu3 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 3.8.9-2ubuntu3.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18b
 │                       │      │                  │         ecaf402d89eb5972897b 
 │                       │      │                  ╰ DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a636497934
@@ -526,7 +539,8 @@
 │                       │      │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Jul
 │                       │      │                  │      y/004883.html 
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-32990 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-32990 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32990 
 │                       │      ├ PublishedDate   : 2025-07-10T10:15:33.06Z 
 │                       │      ╰ LastModifiedDate: 2025-07-10T13:17:30.017Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2025-6395 
@@ -536,7 +550,8 @@
 │                       │      │                  │       64&distro=ubuntu-25.04 
 │                       │      │                  ╰ UID : 1c77387b7eb0e80f 
 │                       │      ├ InstalledVersion: 3.8.9-2ubuntu3 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 3.8.9-2ubuntu3.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18b
 │                       │      │                  │         ecaf402d89eb5972897b 
 │                       │      │                  ╰ DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a636497934
@@ -566,7 +581,8 @@
 │                       │      │                  ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Jul
 │                       │      │                  │      y/004883.html 
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-6395 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
 │                       │      ├ PublishedDate   : 2025-07-10T16:15:25.11Z 
 │                       │      ╰ LastModifiedDate: 2025-07-10T16:15:25.11Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2024-10041 
@@ -1077,54 +1093,103 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ╰ [22] ╭ VulnerabilityID : CVE-2024-56433 
-│                              ├ PkgID           : passwd@1:4.16.0-7ubuntu1 
-│                              ├ PkgName         : passwd 
-│                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.16.0-7ubuntu1?arch=amd64&dist
-│                              │                  │       ro=ubuntu-25.04&epoch=1 
-│                              │                  ╰ UID : 3f9ea2708f334a48 
-│                              ├ InstalledVersion: 1:4.16.0-7ubuntu1 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2024-56433 
+│                       │      ├ PkgID           : passwd@1:4.16.0-7ubuntu1 
+│                       │      ├ PkgName         : passwd 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.16.0-7ubuntu1?arch=amd64&dist
+│                       │      │                  │       ro=ubuntu-25.04&epoch=1 
+│                       │      │                  ╰ UID : 3f9ea2708f334a48 
+│                       │      ├ InstalledVersion: 1:4.16.0-7ubuntu1 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18b
+│                       │      │                  │         ecaf402d89eb5972897b 
+│                       │      │                  ╰ DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a636497934
+│                       │      │                            26200f6408010c9c9573 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56433 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : shadow-utils: Default subordinate ID configuration in
+│                       │      │                   /etc/login.defs could lead to compromise 
+│                       │      ├ Description     : shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a
+│                       │      │                   default /etc/subuid behavior (e.g., uid 100000 through
+│                       │      │                   165535 for the first user account) that can realistically
+│                       │      │                   conflict with the uids of users defined on locally
+│                       │      │                   administered networks, potentially leading to account
+│                       │      │                   takeover, e.g., by leveraging newuidmap for access to an NFS
+│                       │      │                    home directory (or same-host resources in the case of
+│                       │      │                   remote logins by these local network users). NOTE: it may
+│                       │      │                   also be argued that system administrators should not have
+│                       │      │                   assigned uids, within local networks, that are within the
+│                       │      │                   range that can occur in /etc/subuid. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-1188 
+│                       │      ├ VendorSeverity   ╭ azure : 1 
+│                       │      │                  ├ redhat: 2 
+│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.6 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-56433 
+│                       │      │                  ├ [1]: https://github.com/shadow-maint/shadow/blob/e2512d5741
+│                       │      │                  │      d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L24
+│                       │      │                  │      1 
+│                       │      │                  ├ [2]: https://github.com/shadow-maint/shadow/issues/1157 
+│                       │      │                  ├ [3]: https://github.com/shadow-maint/shadow/releases/tag/4.4 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
+│                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
+│                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
+│                       ╰ [23] ╭ VulnerabilityID : CVE-2025-45582 
+│                              ├ PkgID           : tar@1.35+dfsg-3.1 
+│                              ├ PkgName         : tar 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1?arch=amd64&distro=
+│                              │                  │       ubuntu-25.04 
+│                              │                  ╰ UID : a4187a8c3d48826a 
+│                              ├ InstalledVersion: 1.35+dfsg-3.1 
 │                              ├ Status          : affected 
 │                              ├ Layer            ╭ Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18b
 │                              │                  │         ecaf402d89eb5972897b 
 │                              │                  ╰ DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a636497934
 │                              │                            26200f6408010c9c9573 
 │                              ├ SeveritySource  : ubuntu 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56433 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-45582 
 │                              ├ DataSource       ╭ ID  : ubuntu 
 │                              │                  ├ Name: Ubuntu CVE Tracker 
 │                              │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                              ├ Title           : shadow-utils: Default subordinate ID configuration in
-│                              │                   /etc/login.defs could lead to compromise 
-│                              ├ Description     : shadow-utils (aka shadow) 4.4 through 4.17.0 establishes a
-│                              │                   default /etc/subuid behavior (e.g., uid 100000 through
-│                              │                   165535 for the first user account) that can realistically
-│                              │                   conflict with the uids of users defined on locally
-│                              │                   administered networks, potentially leading to account
-│                              │                   takeover, e.g., by leveraging newuidmap for access to an NFS
-│                              │                    home directory (or same-host resources in the case of
-│                              │                   remote logins by these local network users). NOTE: it may
-│                              │                   also be argued that system administrators should not have
-│                              │                   assigned uids, within local networks, that are within the
-│                              │                   range that can occur in /etc/subuid. 
-│                              ├ Severity        : LOW 
-│                              ├ CweIDs           ─ [0]: CWE-1188 
-│                              ├ VendorSeverity   ╭ azure : 1 
-│                              │                  ├ redhat: 2 
-│                              │                  ╰ ubuntu: 1 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L
-│                              │                           │           /A:N 
-│                              │                           ╰ V3Score : 3.6 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-56433 
-│                              │                  ├ [1]: https://github.com/shadow-maint/shadow/blob/e2512d5741
-│                              │                  │      d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L24
-│                              │                  │      1 
-│                              │                  ├ [2]: https://github.com/shadow-maint/shadow/issues/1157 
-│                              │                  ├ [3]: https://github.com/shadow-maint/shadow/releases/tag/4.4 
-│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
-│                              │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
-│                              ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
-│                              ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
+│                              ├ Title           : GNU Tar through 1.35 allows file overwrite via directory
+│                              │                   traversal in  ... 
+│                              ├ Description     : GNU Tar through 1.35 allows file overwrite via directory
+│                              │                   traversal in crafted TAR archives, with a certain two-step
+│                              │                   process. First, the victim must extract an archive that
+│                              │                   contains a ../ symlink to a critical directory. Second, the
+│                              │                   victim must extract an archive that contains a critical
+│                              │                   file, specified via a relative pathname that begins with the
+│                              │                    symlink name and ends with that critical file's name. Here,
+│                              │                    the extraction follows the symlink and overwrites the
+│                              │                   critical file. This bypasses the protection mechanism of
+│                              │                   "Member name contains '..'" that would occur for a single
+│                              │                   TAR archive that attempted to specify the critical file via
+│                              │                   a ../ approach. For example, the first archive can contain
+│                              │                   "x -> ../../../../../home/victim/.ssh" and the second
+│                              │                   archive can contain x/authorized_keys. This can affect
+│                              │                   server applications that automatically extract any number of
+│                              │                    user-supplied TAR archives, and were relying on the
+│                              │                   blocking of traversal. This can also affect software
+│                              │                   installation processes in which "tar xf" is run more than
+│                              │                   once (e.g., when installing a package can automatically
+│                              │                   install two dependencies that are set up as untrusted
+│                              │                   tarballs instead of official packages). 
+│                              ├ Severity        : MEDIUM 
+│                              ├ CweIDs           ─ [0]: CWE-24 
+│                              ├ VendorSeverity   ─ ubuntu: 2 
+│                              ├ References       ╭ [0]: https://github.com/i900008/vulndb/blob/main/Gnu_tar_vu
+│                              │                  │      ln.md 
+│                              │                  ├ [1]: https://www.cve.org/CVERecord?id=CVE-2025-45582 
+│                              │                  ╰ [2]: https://www.gnu.org/software/tar/ 
+│                              ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
+│                              ╰ LastModifiedDate: 2025-07-11T18:15:34.52Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
@@ -1178,5 +1243,5 @@
                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-48924 
                               │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-48924 
                               ├ PublishedDate   : 2025-07-11T15:15:24.347Z 
-                              ╰ LastModifiedDate: 2025-07-11T20:15:24.32Z 
+                              ╰ LastModifiedDate: 2025-07-14T17:15:33.027Z 
 ````
