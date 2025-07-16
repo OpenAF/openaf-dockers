@@ -1,5 +1,5 @@
 ````yaml
-╭ [0] ╭ Target: openaf/ojobrt:nightly (alpine 3.22.0) 
+╭ [0] ╭ Target: openaf/ojobrt:nightly (alpine 3.22.1) 
 │     ├ Class : os-pkgs 
 │     ╰ Type  : alpine 
 ╰ [1] ╭ Target: Java 
