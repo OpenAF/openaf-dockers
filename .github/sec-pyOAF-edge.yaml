@@ -1995,6 +1995,7 @@
     - CWE-476
     - CWE-826
     VendorSeverity:
+      alma: 3
       azure: 3
       oracle-oval: 3
       photon: 3
@@ -2008,7 +2009,10 @@
     - http://www.openwall.com/lists/oss-security/2025/04/03/1
     - http://www.openwall.com/lists/oss-security/2025/04/03/2
     - http://www.openwall.com/lists/oss-security/2025/04/03/3
+    - https://access.redhat.com/errata/RHSA-2025:7524
     - https://access.redhat.com/security/cve/CVE-2025-31115
+    - https://bugzilla.redhat.com/2357249
+    - https://errata.almalinux.org/10/ALSA-2025-7524.html
     - https://github.com/tukaani-project/xz/commit/d5a2ffe41bb77b918a8c96084885d4dbe4bf6480
     - https://github.com/tukaani-project/xz/security/advisories/GHSA-6cc8-p5mm-29w2
     - https://linux.oracle.com/cve/CVE-2025-31115.html
