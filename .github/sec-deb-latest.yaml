@@ -419,6 +419,7 @@
     CweIDs:
     - CWE-415
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -458,6 +459,7 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -497,6 +499,7 @@
     CweIDs:
     - CWE-122
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
