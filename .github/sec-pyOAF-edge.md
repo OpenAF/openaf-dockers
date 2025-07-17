@@ -2708,7 +2708,8 @@
 │                              │                  ├ [1]: CWE-416 
 │                              │                  ├ [2]: CWE-476 
 │                              │                  ╰ [3]: CWE-826 
-│                              ├ VendorSeverity   ╭ azure      : 3 
+│                              ├ VendorSeverity   ╭ alma       : 3 
+│                              │                  ├ azure      : 3 
 │                              │                  ├ oracle-oval: 3 
 │                              │                  ├ photon     : 3 
 │                              │                  ├ redhat     : 3 
@@ -2719,17 +2720,20 @@
 │                              ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/03/1 
 │                              │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/04/03/2 
 │                              │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/04/03/3 
-│                              │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-31115 
-│                              │                  ├ [4] : https://github.com/tukaani-project/xz/commit/d5a2ffe4
+│                              │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:7524 
+│                              │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2025-31115 
+│                              │                  ├ [5] : https://bugzilla.redhat.com/2357249 
+│                              │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-7524.html 
+│                              │                  ├ [7] : https://github.com/tukaani-project/xz/commit/d5a2ffe4
 │                              │                  │       1bb77b918a8c96084885d4dbe4bf6480 
-│                              │                  ├ [5] : https://github.com/tukaani-project/xz/security/adviso
+│                              │                  ├ [8] : https://github.com/tukaani-project/xz/security/adviso
 │                              │                  │       ries/GHSA-6cc8-p5mm-29w2 
-│                              │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-31115.html 
-│                              │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-7524.html 
-│                              │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-31115 
-│                              │                  ├ [9] : https://tukaani.org/xz/xz-cve-2025-31115.patch 
-│                              │                  ├ [10]: https://ubuntu.com/security/notices/USN-7414-1 
-│                              │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-31115 
+│                              │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-31115.html 
+│                              │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7524.html 
+│                              │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-31115 
+│                              │                  ├ [12]: https://tukaani.org/xz/xz-cve-2025-31115.patch 
+│                              │                  ├ [13]: https://ubuntu.com/security/notices/USN-7414-1 
+│                              │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-31115 
 │                              ├ PublishedDate   : 2025-04-03T17:15:30.54Z 
 │                              ╰ LastModifiedDate: 2025-04-07T14:18:34.453Z 
 ╰ [1] ╭ Target         : Java 
