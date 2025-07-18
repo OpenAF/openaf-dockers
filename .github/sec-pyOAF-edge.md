@@ -1127,7 +1127,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ azure : 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
@@ -1575,7 +1575,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ azure : 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
@@ -2023,7 +2023,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ azure : 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
@@ -2471,7 +2471,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ azure : 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
@@ -2573,6 +2573,7 @@
 │                       │      │                  │         d7814ea39226035ebf8e 
 │                       │      │                  ╰ DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7
 │                       │      │                            185ab555262cb80cc579 
+│                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-32462 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
@@ -2588,11 +2589,15 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 1 
 │                       │      │                  ├ cbl-mariner: 1 
+│                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 3 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 8.8 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:9978 
@@ -2616,7 +2621,7 @@
 │                       │      │                  ├ [14]: https://www.sudo.ws/security/advisories/ 
 │                       │      │                  ╰ [15]: https://www.sudo.ws/security/advisories/host_any/ 
 │                       │      ├ PublishedDate   : 2025-06-30T21:15:30.08Z 
-│                       │      ╰ LastModifiedDate: 2025-07-09T18:15:22.93Z 
+│                       │      ╰ LastModifiedDate: 2025-07-17T15:56:46.45Z 
 │                       ├ [32] ╭ VulnerabilityID : CVE-2025-32463 
 │                       │      ├ PkgID           : sudo@1.9.16_p2-r0 
 │                       │      ├ PkgName         : sudo 
@@ -2630,6 +2635,7 @@
 │                       │      │                  │         d7814ea39226035ebf8e 
 │                       │      │                  ╰ DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7
 │                       │      │                            185ab555262cb80cc579 
+│                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-32463 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
@@ -2643,10 +2649,14 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 4 
 │                       │      │                  ├ cbl-mariner: 4 
+│                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 3 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.8 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.8 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-32463 
@@ -2672,7 +2682,7 @@
 │                       │      │                  ╰ [15]: https://www.suse.com/support/update/announcement/2025
 │                       │      │                          /suse-su-202502177-1/ 
 │                       │      ├ PublishedDate   : 2025-06-30T21:15:30.257Z 
-│                       │      ╰ LastModifiedDate: 2025-07-09T18:15:23.847Z 
+│                       │      ╰ LastModifiedDate: 2025-07-17T15:56:53.31Z 
 │                       ╰ [33] ╭ VulnerabilityID : CVE-2025-31115 
 │                              ├ PkgID           : xz-libs@5.6.3-r0 
 │                              ├ PkgName         : xz-libs 
