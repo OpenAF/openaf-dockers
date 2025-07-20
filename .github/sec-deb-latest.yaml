@@ -539,6 +539,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
