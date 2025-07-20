@@ -942,6 +942,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1878,6 +1879,7 @@
     VendorSeverity:
       alma: 3
       oracle-oval: 3
+      photon: 4
       redhat: 3
     CVSS:
       redhat:
@@ -1923,6 +1925,7 @@
     VendorSeverity:
       alma: 3
       oracle-oval: 3
+      photon: 4
       redhat: 3
     CVSS:
       redhat:
@@ -2062,6 +2065,7 @@
       alma: 3
       amazon: 3
       oracle-oval: 3
+      photon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -2297,7 +2301,7 @@
       PURL: pkg:rpm/redhat/ncurses-base@6.2-10.20210508.el9?arch=noarch&distro=redhat-9.6
       UID: 5359c71bf0d7b07
     InstalledVersion: 6.2-10.20210508.el9
-    Status: will_not_fix
+    Status: affected
     Layer:
       Digest: sha256:982b19e749dff056322376f4b11bb9d0e765a8852af830d38bde1f6feaa76723
       DiffID: sha256:cd7b23f351e8054abc8aff3ec245c6bb4f8f733fb8088d35b83acbf3e1a85db9
@@ -2386,7 +2390,7 @@
       PURL: pkg:rpm/redhat/ncurses-libs@6.2-10.20210508.el9?arch=x86_64&distro=redhat-9.6
       UID: 59a363db5d002840
     InstalledVersion: 6.2-10.20210508.el9
-    Status: will_not_fix
+    Status: affected
     Layer:
       Digest: sha256:982b19e749dff056322376f4b11bb9d0e765a8852af830d38bde1f6feaa76723
       DiffID: sha256:cd7b23f351e8054abc8aff3ec245c6bb4f8f733fb8088d35b83acbf3e1a85db9
@@ -3187,8 +3191,9 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3237,6 +3242,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 2
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3451,8 +3457,9 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3501,6 +3508,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 2
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3715,8 +3723,9 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3765,6 +3774,7 @@
     VendorSeverity:
       amazon: 2
       bitnami: 2
+      cbl-mariner: 2
       redhat: 2
       ubuntu: 2
     CVSS:
