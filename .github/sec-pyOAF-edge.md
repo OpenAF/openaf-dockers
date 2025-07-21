@@ -259,7 +259,191 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-23083 
 │                       │      ├ PublishedDate   : 2025-01-22T02:15:33.93Z 
 │                       │      ╰ LastModifiedDate: 2025-02-28T13:15:28.213Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2025-30691 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2025-30749 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64
+│                       │      │                  │       &distro=3.21.3 
+│                       │      │                  ╰ UID : 2080461f382c7dae 
+│                       │      ├ InstalledVersion: 21.0.6_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.8_p9-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4
+│                       │      │                  │         d7814ea39226035ebf8e 
+│                       │      │                  ╰ DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7
+│                       │      │                            185ab555262cb80cc579 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-30749 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openjdk: Better Glyph drawing (Oracle CPU 2025-07) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: 2D).  Supported versions that are affected are
+│                       │      │                   Oracle Java SE: 8u451, 8u451-perf, 11.0.27, 17.0.15, 21.0.7,
+│                       │      │                    24.0.1; Oracle GraalVM for JDK: 17.0.15, 21.0.7 and 
+│                       │      │                   24.0.1; Oracle GraalVM Enterprise Edition: 21.3.14.
+│                       │      │                   Difficult to exploit vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via multiple protocols to
+│                       │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+│                       │      │                   vulnerability can result in takeover of Oracle Java SE,
+│                       │      │                   Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.
+│                       │      │                   Note: This vulnerability applies to Java deployments,
+│                       │      │                   typically in clients running sandboxed Java Web Start
+│                       │      │                   applications or sandboxed Java applets, that load and run
+│                       │      │                   untrusted code (e.g., code that comes from the internet) and
+│                       │      │                    rely on the Java sandbox for security. This vulnerability
+│                       │      │                   does not apply to Java deployments, typically in servers,
+│                       │      │                   that load and run only trusted code (e.g., code installed by
+│                       │      │                    an administrator). CVSS 3.1 Base Score 8.1
+│                       │      │                   (Confidentiality, Integrity and Availability impacts).  CVSS
+│                       │      │                    Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H). 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ╰ redhat     : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 8.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-30749 
+│                       │      │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
+│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-30749.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-30749 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-30749 
+│                       │      │                  ├ [7]: https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujul2025.html
+│                       │      │                         #AppendixJAVA 
+│                       │      ├ PublishedDate   : 2025-07-15T20:15:29.313Z 
+│                       │      ╰ LastModifiedDate: 2025-07-16T14:59:23.707Z 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-50059 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64
+│                       │      │                  │       &distro=3.21.3 
+│                       │      │                  ╰ UID : 2080461f382c7dae 
+│                       │      ├ InstalledVersion: 21.0.6_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.8_p9-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4
+│                       │      │                  │         d7814ea39226035ebf8e 
+│                       │      │                  ╰ DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7
+│                       │      │                            185ab555262cb80cc579 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-50059 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openjdk: Improve HTTP client header handling (Oracle CPU
+│                       │      │                   2025-07) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Networking).  Supported versions that are
+│                       │      │                   affected are Oracle Java SE: 8u451-perf, 11.0.27, 17.0.15,
+│                       │      │                   21.0.7, 24.0.1; Oracle GraalVM for JDK: 17.0.15, 21.0.7 and 
+│                       │      │                    24.0.1; Oracle GraalVM Enterprise Edition: 21.3.14. Easily
+│                       │      │                   exploitable vulnerability allows unauthenticated attacker
+│                       │      │                   with network access via multiple protocols to compromise
+│                       │      │                   Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM
+│                       │      │                   Enterprise Edition.  While the vulnerability is in Oracle
+│                       │      │                   Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition, attacks may significantly impact additional
+│                       │      │                   products (scope change).  Successful attacks of this
+│                       │      │                   vulnerability can result in  unauthorized access to critical
+│                       │      │                    data or complete access to all Oracle Java SE, Oracle
+│                       │      │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition
+│                       │      │                   accessible data. Note: This vulnerability applies to Java
+│                       │      │                   deployments, typically in clients running sandboxed Java Web
+│                       │      │                    Start applications or sandboxed Java applets, that load and
+│                       │      │                    run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. This
+│                       │      │                   vulnerability does not apply to Java deployments, typically
+│                       │      │                   in servers, that load and run only trusted code (e.g., code
+│                       │      │                   installed by an administrator). CVSS 3.1 Base Score 8.6
+│                       │      │                   (Confidentiality impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N). 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ╰ redhat     : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 8.6 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-50059 
+│                       │      │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
+│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-50059.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-50059 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-50059 
+│                       │      │                  ├ [7]: https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujul2025.html
+│                       │      │                         #AppendixJAVA 
+│                       │      ├ PublishedDate   : 2025-07-15T20:15:40.367Z 
+│                       │      ╰ LastModifiedDate: 2025-07-16T15:15:26.997Z 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-50106 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64
+│                       │      │                  │       &distro=3.21.3 
+│                       │      │                  ╰ UID : 2080461f382c7dae 
+│                       │      ├ InstalledVersion: 21.0.6_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.8_p9-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4
+│                       │      │                  │         d7814ea39226035ebf8e 
+│                       │      │                  ╰ DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7
+│                       │      │                            185ab555262cb80cc579 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-50106 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openjdk: Glyph out-of-memory access and crash (Oracle CPU
+│                       │      │                   2025-07) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: 2D).  Supported versions that are affected are
+│                       │      │                   Oracle Java SE: 8u451, 8u451-perf, 11.0.27, 17.0.15, 21.0.7,
+│                       │      │                    24.0.1; Oracle GraalVM for JDK: 17.0.15, 21.0.7 and 
+│                       │      │                   24.0.1; Oracle GraalVM Enterprise Edition: 21.3.14.
+│                       │      │                   Difficult to exploit vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via multiple protocols to
+│                       │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+│                       │      │                   vulnerability can result in takeover of Oracle Java SE,
+│                       │      │                   Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.
+│                       │      │                   Note: This vulnerability can be exploited by using APIs in
+│                       │      │                   the specified Component, e.g., through a web service which
+│                       │      │                   supplies data to the APIs. This vulnerability also applies
+│                       │      │                   to Java deployments, typically in clients running sandboxed
+│                       │      │                   Java Web Start applications or sandboxed Java applets, that
+│                       │      │                   load and run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. CVSS
+│                       │      │                   3.1 Base Score 8.1 (Confidentiality, Integrity and
+│                       │      │                   Availability impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H). 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ╰ redhat     : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 8.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-50106 
+│                       │      │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
+│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-50106.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-50106 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-50106 
+│                       │      │                  ├ [7]: https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujul2025.html
+│                       │      │                         #AppendixJAVA 
+│                       │      ├ PublishedDate   : 2025-07-15T20:15:47.013Z 
+│                       │      ╰ LastModifiedDate: 2025-07-16T14:58:59.837Z 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-30691 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64
@@ -335,7 +519,7 @@
 │                       │      │                  ╰ [20]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:58.36Z 
 │                       │      ╰ LastModifiedDate: 2025-04-19T01:15:44.85Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-30698 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-30698 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64
@@ -418,7 +602,70 @@
 │                       │      │                  ╰ [19]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:59.137Z 
 │                       │      ╰ LastModifiedDate: 2025-04-29T20:03:21.7Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-21587 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-30754 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64
+│                       │      │                  │       &distro=3.21.3 
+│                       │      │                  ╰ UID : 2080461f382c7dae 
+│                       │      ├ InstalledVersion: 21.0.6_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.8_p9-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4
+│                       │      │                  │         d7814ea39226035ebf8e 
+│                       │      │                  ╰ DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7
+│                       │      │                            185ab555262cb80cc579 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-30754 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openjdk: Enhance TLS protocol support (Oracle CPU 2025-07) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: JSSE).  Supported versions that are affected
+│                       │      │                   are Oracle Java SE: 8u451, 8u451-perf, 11.0.27, 17.0.15,
+│                       │      │                   21.0.7, 24.0.1; Oracle GraalVM for JDK: 17.0.15, 21.0.7 and 
+│                       │      │                    24.0.1; Oracle GraalVM Enterprise Edition: 21.3.14.
+│                       │      │                   Difficult to exploit vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via TLS to compromise Oracle
+│                       │      │                   Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition.  Successful attacks of this vulnerability can
+│                       │      │                   result in  unauthorized update, insert or delete access to
+│                       │      │                   some of Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition accessible data as well as 
+│                       │      │                   unauthorized read access to a subset of Oracle Java SE,
+│                       │      │                   Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition
+│                       │      │                   accessible data. Note: This vulnerability applies to Java
+│                       │      │                   deployments, typically in clients running sandboxed Java Web
+│                       │      │                    Start applications or sandboxed Java applets, that load and
+│                       │      │                    run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. This
+│                       │      │                   vulnerability does not apply to Java deployments, typically
+│                       │      │                   in servers, that load and run only trusted code (e.g., code
+│                       │      │                   installed by an administrator). CVSS 3.1 Base Score 4.8
+│                       │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ╰ redhat     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 4.8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-30754 
+│                       │      │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
+│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-30754.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-30754 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-30754 
+│                       │      │                  ├ [7]: https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujul2025.html
+│                       │      │                         #AppendixJAVA 
+│                       │      ├ PublishedDate   : 2025-07-15T20:15:29.973Z 
+│                       │      ╰ LastModifiedDate: 2025-07-16T16:15:25.807Z 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2025-21587 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
@@ -499,7 +746,7 @@
 │                       │      │                  ╰ [19]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:54.293Z 
 │                       │      ╰ LastModifiedDate: 2025-04-29T20:03:13.79Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-23083 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2025-23083 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
@@ -563,7 +810,191 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-23083 
 │                       │      ├ PublishedDate   : 2025-01-22T02:15:33.93Z 
 │                       │      ╰ LastModifiedDate: 2025-02-28T13:15:28.213Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-30691 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2025-30749 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
+│                       │      │                  │       ch=x86_64&distro=3.21.3 
+│                       │      │                  ╰ UID : d2e38af626fba367 
+│                       │      ├ InstalledVersion: 21.0.6_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.8_p9-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4
+│                       │      │                  │         d7814ea39226035ebf8e 
+│                       │      │                  ╰ DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7
+│                       │      │                            185ab555262cb80cc579 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-30749 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openjdk: Better Glyph drawing (Oracle CPU 2025-07) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: 2D).  Supported versions that are affected are
+│                       │      │                   Oracle Java SE: 8u451, 8u451-perf, 11.0.27, 17.0.15, 21.0.7,
+│                       │      │                    24.0.1; Oracle GraalVM for JDK: 17.0.15, 21.0.7 and 
+│                       │      │                   24.0.1; Oracle GraalVM Enterprise Edition: 21.3.14.
+│                       │      │                   Difficult to exploit vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via multiple protocols to
+│                       │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+│                       │      │                   vulnerability can result in takeover of Oracle Java SE,
+│                       │      │                   Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.
+│                       │      │                   Note: This vulnerability applies to Java deployments,
+│                       │      │                   typically in clients running sandboxed Java Web Start
+│                       │      │                   applications or sandboxed Java applets, that load and run
+│                       │      │                   untrusted code (e.g., code that comes from the internet) and
+│                       │      │                    rely on the Java sandbox for security. This vulnerability
+│                       │      │                   does not apply to Java deployments, typically in servers,
+│                       │      │                   that load and run only trusted code (e.g., code installed by
+│                       │      │                    an administrator). CVSS 3.1 Base Score 8.1
+│                       │      │                   (Confidentiality, Integrity and Availability impacts).  CVSS
+│                       │      │                    Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H). 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ╰ redhat     : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 8.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-30749 
+│                       │      │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
+│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-30749.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-30749 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-30749 
+│                       │      │                  ├ [7]: https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujul2025.html
+│                       │      │                         #AppendixJAVA 
+│                       │      ├ PublishedDate   : 2025-07-15T20:15:29.313Z 
+│                       │      ╰ LastModifiedDate: 2025-07-16T14:59:23.707Z 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2025-50059 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
+│                       │      │                  │       ch=x86_64&distro=3.21.3 
+│                       │      │                  ╰ UID : d2e38af626fba367 
+│                       │      ├ InstalledVersion: 21.0.6_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.8_p9-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4
+│                       │      │                  │         d7814ea39226035ebf8e 
+│                       │      │                  ╰ DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7
+│                       │      │                            185ab555262cb80cc579 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-50059 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openjdk: Improve HTTP client header handling (Oracle CPU
+│                       │      │                   2025-07) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Networking).  Supported versions that are
+│                       │      │                   affected are Oracle Java SE: 8u451-perf, 11.0.27, 17.0.15,
+│                       │      │                   21.0.7, 24.0.1; Oracle GraalVM for JDK: 17.0.15, 21.0.7 and 
+│                       │      │                    24.0.1; Oracle GraalVM Enterprise Edition: 21.3.14. Easily
+│                       │      │                   exploitable vulnerability allows unauthenticated attacker
+│                       │      │                   with network access via multiple protocols to compromise
+│                       │      │                   Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM
+│                       │      │                   Enterprise Edition.  While the vulnerability is in Oracle
+│                       │      │                   Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition, attacks may significantly impact additional
+│                       │      │                   products (scope change).  Successful attacks of this
+│                       │      │                   vulnerability can result in  unauthorized access to critical
+│                       │      │                    data or complete access to all Oracle Java SE, Oracle
+│                       │      │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition
+│                       │      │                   accessible data. Note: This vulnerability applies to Java
+│                       │      │                   deployments, typically in clients running sandboxed Java Web
+│                       │      │                    Start applications or sandboxed Java applets, that load and
+│                       │      │                    run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. This
+│                       │      │                   vulnerability does not apply to Java deployments, typically
+│                       │      │                   in servers, that load and run only trusted code (e.g., code
+│                       │      │                   installed by an administrator). CVSS 3.1 Base Score 8.6
+│                       │      │                   (Confidentiality impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N). 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ╰ redhat     : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 8.6 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-50059 
+│                       │      │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
+│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-50059.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-50059 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-50059 
+│                       │      │                  ├ [7]: https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujul2025.html
+│                       │      │                         #AppendixJAVA 
+│                       │      ├ PublishedDate   : 2025-07-15T20:15:40.367Z 
+│                       │      ╰ LastModifiedDate: 2025-07-16T15:15:26.997Z 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2025-50106 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
+│                       │      │                  │       ch=x86_64&distro=3.21.3 
+│                       │      │                  ╰ UID : d2e38af626fba367 
+│                       │      ├ InstalledVersion: 21.0.6_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.8_p9-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4
+│                       │      │                  │         d7814ea39226035ebf8e 
+│                       │      │                  ╰ DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7
+│                       │      │                            185ab555262cb80cc579 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-50106 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openjdk: Glyph out-of-memory access and crash (Oracle CPU
+│                       │      │                   2025-07) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: 2D).  Supported versions that are affected are
+│                       │      │                   Oracle Java SE: 8u451, 8u451-perf, 11.0.27, 17.0.15, 21.0.7,
+│                       │      │                    24.0.1; Oracle GraalVM for JDK: 17.0.15, 21.0.7 and 
+│                       │      │                   24.0.1; Oracle GraalVM Enterprise Edition: 21.3.14.
+│                       │      │                   Difficult to exploit vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via multiple protocols to
+│                       │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+│                       │      │                   vulnerability can result in takeover of Oracle Java SE,
+│                       │      │                   Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.
+│                       │      │                   Note: This vulnerability can be exploited by using APIs in
+│                       │      │                   the specified Component, e.g., through a web service which
+│                       │      │                   supplies data to the APIs. This vulnerability also applies
+│                       │      │                   to Java deployments, typically in clients running sandboxed
+│                       │      │                   Java Web Start applications or sandboxed Java applets, that
+│                       │      │                   load and run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. CVSS
+│                       │      │                   3.1 Base Score 8.1 (Confidentiality, Integrity and
+│                       │      │                   Availability impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H). 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ╰ redhat     : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 8.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-50106 
+│                       │      │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
+│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-50106.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-50106 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-50106 
+│                       │      │                  ├ [7]: https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujul2025.html
+│                       │      │                         #AppendixJAVA 
+│                       │      ├ PublishedDate   : 2025-07-15T20:15:47.013Z 
+│                       │      ╰ LastModifiedDate: 2025-07-16T14:58:59.837Z 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2025-30691 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
@@ -639,7 +1070,7 @@
 │                       │      │                  ╰ [20]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:58.36Z 
 │                       │      ╰ LastModifiedDate: 2025-04-19T01:15:44.85Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-30698 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2025-30698 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
@@ -722,7 +1153,70 @@
 │                       │      │                  ╰ [19]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:59.137Z 
 │                       │      ╰ LastModifiedDate: 2025-04-29T20:03:21.7Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2024-12718 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2025-30754 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
+│                       │      │                  │       ch=x86_64&distro=3.21.3 
+│                       │      │                  ╰ UID : d2e38af626fba367 
+│                       │      ├ InstalledVersion: 21.0.6_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.8_p9-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4
+│                       │      │                  │         d7814ea39226035ebf8e 
+│                       │      │                  ╰ DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7
+│                       │      │                            185ab555262cb80cc579 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-30754 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openjdk: Enhance TLS protocol support (Oracle CPU 2025-07) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: JSSE).  Supported versions that are affected
+│                       │      │                   are Oracle Java SE: 8u451, 8u451-perf, 11.0.27, 17.0.15,
+│                       │      │                   21.0.7, 24.0.1; Oracle GraalVM for JDK: 17.0.15, 21.0.7 and 
+│                       │      │                    24.0.1; Oracle GraalVM Enterprise Edition: 21.3.14.
+│                       │      │                   Difficult to exploit vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via TLS to compromise Oracle
+│                       │      │                   Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition.  Successful attacks of this vulnerability can
+│                       │      │                   result in  unauthorized update, insert or delete access to
+│                       │      │                   some of Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition accessible data as well as 
+│                       │      │                   unauthorized read access to a subset of Oracle Java SE,
+│                       │      │                   Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition
+│                       │      │                   accessible data. Note: This vulnerability applies to Java
+│                       │      │                   deployments, typically in clients running sandboxed Java Web
+│                       │      │                    Start applications or sandboxed Java applets, that load and
+│                       │      │                    run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. This
+│                       │      │                   vulnerability does not apply to Java deployments, typically
+│                       │      │                   in servers, that load and run only trusted code (e.g., code
+│                       │      │                   installed by an administrator). CVSS 3.1 Base Score 4.8
+│                       │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ╰ redhat     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 4.8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:10867 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-30754 
+│                       │      │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-10867.html 
+│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-30754.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-10867.html 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-30754 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-30754 
+│                       │      │                  ├ [7]: https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpujul2025.html
+│                       │      │                         #AppendixJAVA 
+│                       │      ├ PublishedDate   : 2025-07-15T20:15:29.973Z 
+│                       │      ╰ LastModifiedDate: 2025-07-16T16:15:25.807Z 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2024-12718 
 │                       │      ├ PkgID           : pyc@3.12.9-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.12.9-r0?arch=x86_64&distro=3.21.3 
@@ -768,6 +1262,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 3 
@@ -819,7 +1314,7 @@
 │                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2024-12718 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.183Z 
 │                       │      ╰ LastModifiedDate: 2025-06-04T14:54:33.783Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2025-4138 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2025-4138 
 │                       │      ├ PkgID           : pyc@3.12.9-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.12.9-r0?arch=x86_64&distro=3.21.3 
@@ -863,6 +1358,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 3 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
@@ -913,7 +1409,7 @@
 │                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-4138 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.377Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.767Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2025-4330 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2025-4330 
 │                       │      ├ PkgID           : pyc@3.12.9-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.12.9-r0?arch=x86_64&distro=3.21.3 
@@ -957,6 +1453,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 3 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
@@ -1007,7 +1504,7 @@
 │                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-4330 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.503Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.91Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2025-4517 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2025-4517 
 │                       │      ├ PkgID           : pyc@3.12.9-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.12.9-r0?arch=x86_64&distro=3.21.3 
@@ -1051,6 +1548,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 4 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 3 
@@ -1101,7 +1599,7 @@
 │                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-4517 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.837Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:33.05Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │      ├ PkgID           : pyc@3.12.9-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.12.9-r0?arch=x86_64&distro=3.21.3 
@@ -1127,10 +1625,11 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon: 3 
-│                       │      │                  ├ azure : 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.1 
@@ -1165,7 +1664,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2024-12718 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2024-12718 
 │                       │      ├ PkgID           : python3@3.12.9-r0 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.12.9-r0?arch=x86_64&distro=3
@@ -1212,6 +1711,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 3 
@@ -1263,7 +1763,7 @@
 │                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2024-12718 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.183Z 
 │                       │      ╰ LastModifiedDate: 2025-06-04T14:54:33.783Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2025-4138 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2025-4138 
 │                       │      ├ PkgID           : python3@3.12.9-r0 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.12.9-r0?arch=x86_64&distro=3
@@ -1308,6 +1808,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 3 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
@@ -1358,7 +1859,7 @@
 │                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-4138 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.377Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.767Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2025-4330 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2025-4330 
 │                       │      ├ PkgID           : python3@3.12.9-r0 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.12.9-r0?arch=x86_64&distro=3
@@ -1403,6 +1904,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 3 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
@@ -1453,7 +1955,7 @@
 │                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-4330 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.503Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.91Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2025-4517 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2025-4517 
 │                       │      ├ PkgID           : python3@3.12.9-r0 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.12.9-r0?arch=x86_64&distro=3
@@ -1498,6 +2000,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 4 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 3 
@@ -1548,7 +2051,7 @@
 │                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-4517 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.837Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:33.05Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │      ├ PkgID           : python3@3.12.9-r0 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.12.9-r0?arch=x86_64&distro=3
@@ -1575,10 +2078,11 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon: 3 
-│                       │      │                  ├ azure : 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.1 
@@ -1613,7 +2117,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2024-12718 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2024-12718 
 │                       │      ├ PkgID           : python3-pyc@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.12.9-r0?arch=x86_64&dist
@@ -1660,6 +2164,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 3 
@@ -1711,7 +2216,7 @@
 │                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2024-12718 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.183Z 
 │                       │      ╰ LastModifiedDate: 2025-06-04T14:54:33.783Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2025-4138 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2025-4138 
 │                       │      ├ PkgID           : python3-pyc@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.12.9-r0?arch=x86_64&dist
@@ -1756,6 +2261,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 3 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
@@ -1806,7 +2312,7 @@
 │                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-4138 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.377Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.767Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2025-4330 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2025-4330 
 │                       │      ├ PkgID           : python3-pyc@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.12.9-r0?arch=x86_64&dist
@@ -1851,6 +2357,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 3 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
@@ -1901,7 +2408,7 @@
 │                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-4330 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.503Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.91Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2025-4517 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2025-4517 
 │                       │      ├ PkgID           : python3-pyc@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.12.9-r0?arch=x86_64&dist
@@ -1946,6 +2453,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 4 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 3 
@@ -1996,7 +2504,7 @@
 │                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-4517 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.837Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:33.05Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │      ├ PkgID           : python3-pyc@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.12.9-r0?arch=x86_64&dist
@@ -2023,10 +2531,11 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon: 3 
-│                       │      │                  ├ azure : 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.1 
@@ -2061,7 +2570,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2024-12718 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2024-12718 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.12.9-r0?arch=x8
@@ -2108,6 +2617,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 3 
@@ -2159,7 +2669,7 @@
 │                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2024-12718 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.183Z 
 │                       │      ╰ LastModifiedDate: 2025-06-04T14:54:33.783Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2025-4138 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2025-4138 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.12.9-r0?arch=x8
@@ -2204,6 +2714,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 3 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
@@ -2254,7 +2765,7 @@
 │                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-4138 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.377Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.767Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2025-4330 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2025-4330 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.12.9-r0?arch=x8
@@ -2299,6 +2810,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ bitnami    : 3 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
@@ -2349,7 +2861,7 @@
 │                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-4330 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.503Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.91Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2025-4517 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2025-4517 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.12.9-r0?arch=x8
@@ -2394,6 +2906,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ bitnami    : 4 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 3 
@@ -2444,7 +2957,7 @@
 │                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-4517 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.837Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:33.05Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.12.9-r0?arch=x8
@@ -2471,10 +2984,11 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon: 3 
-│                       │      │                  ├ azure : 2 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.1 
@@ -2509,7 +3023,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2025-29087 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2025-29087 
 │                       │      ├ PkgID           : sqlite-libs@3.48.0-r0 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sqlite-libs@3.48.0-r0?arch=x86_64&dist
@@ -2560,7 +3074,7 @@
 │                       │      │                  ╰ [6]: https://www.sqlite.org/cves.html 
 │                       │      ├ PublishedDate   : 2025-04-07T20:15:20.253Z 
 │                       │      ╰ LastModifiedDate: 2025-04-30T12:43:22.31Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2025-32462 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2025-32462 
 │                       │      ├ PkgID           : sudo@1.9.16_p2-r0 
 │                       │      ├ PkgName         : sudo 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sudo@1.9.16_p2-r0?arch=x86_64&distro=3
@@ -2573,6 +3087,7 @@
 │                       │      │                  │         d7814ea39226035ebf8e 
 │                       │      │                  ╰ DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7
 │                       │      │                            185ab555262cb80cc579 
+│                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-32462 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
@@ -2588,11 +3103,15 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 1 
 │                       │      │                  ├ cbl-mariner: 1 
+│                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 1 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 3 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 8.8 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:9978 
@@ -2616,8 +3135,8 @@
 │                       │      │                  ├ [14]: https://www.sudo.ws/security/advisories/ 
 │                       │      │                  ╰ [15]: https://www.sudo.ws/security/advisories/host_any/ 
 │                       │      ├ PublishedDate   : 2025-06-30T21:15:30.08Z 
-│                       │      ╰ LastModifiedDate: 2025-07-09T18:15:22.93Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2025-32463 
+│                       │      ╰ LastModifiedDate: 2025-07-19T03:15:21.643Z 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2025-32463 
 │                       │      ├ PkgID           : sudo@1.9.16_p2-r0 
 │                       │      ├ PkgName         : sudo 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sudo@1.9.16_p2-r0?arch=x86_64&distro=3
@@ -2630,6 +3149,7 @@
 │                       │      │                  │         d7814ea39226035ebf8e 
 │                       │      │                  ╰ DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7
 │                       │      │                            185ab555262cb80cc579 
+│                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-32463 
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
@@ -2643,37 +3163,44 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 4 
 │                       │      │                  ├ cbl-mariner: 4 
+│                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ ubuntu     : 3 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.8 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.8 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-32463 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/cve-2025-32463 
 │                       │      │                  ├ [2] : https://bugs.gentoo.org/show_bug.cgi?id=CVE-2025-32463 
 │                       │      │                  ├ [3] : https://explore.alas.aws.amazon.com/CVE-2025-32463.html 
-│                       │      │                  ├ [4] : https://nvd.nist.gov/vuln/detail/CVE-2025-32463 
-│                       │      │                  ├ [5] : https://security-tracker.debian.org/tracker/CVE-2025-
+│                       │      │                  ├ [4] : https://iototsecnews.jp/2025/07/01/linux-sudo-chroot-
+│                       │      │                  │       vulnerability-enables-hackers-to-elevate-privileges-t
+│                       │      │                  │       o-root/ 
+│                       │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2025-32463 
+│                       │      │                  ├ [6] : https://security-tracker.debian.org/tracker/CVE-2025-
 │                       │      │                  │       32463 
-│                       │      │                  ├ [6] : https://ubuntu.com/security/notices/USN-7604-1 
-│                       │      │                  ├ [7] : https://www.cve.org/CVERecord?id=CVE-2025-32463 
-│                       │      │                  ├ [8] : https://www.openwall.com/lists/oss-security/2025/06/3
+│                       │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-7604-1 
+│                       │      │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2025-32463 
+│                       │      │                  ├ [9] : https://www.openwall.com/lists/oss-security/2025/06/3
 │                       │      │                  │       0/3 
-│                       │      │                  ├ [9] : https://www.secpod.com/blog/sudo-lpe-vulnerabilities-
+│                       │      │                  ├ [10]: https://www.secpod.com/blog/sudo-lpe-vulnerabilities-
 │                       │      │                  │       resolved-what-you-need-to-know-about-cve-2025-32462-a
 │                       │      │                  │       nd-cve-2025-32463/ 
-│                       │      │                  ├ [10]: https://www.stratascale.com/vulnerability-alert-CVE-2
+│                       │      │                  ├ [11]: https://www.stratascale.com/vulnerability-alert-CVE-2
 │                       │      │                  │       025-32463-sudo-chroot 
-│                       │      │                  ├ [11]: https://www.sudo.ws/releases/changelog/ 
-│                       │      │                  ├ [12]: https://www.sudo.ws/security/advisories/ 
-│                       │      │                  ├ [13]: https://www.sudo.ws/security/advisories/chroot_bug/ 
-│                       │      │                  ├ [14]: https://www.suse.com/security/cve/CVE-2025-32463.html 
-│                       │      │                  ╰ [15]: https://www.suse.com/support/update/announcement/2025
+│                       │      │                  ├ [12]: https://www.sudo.ws/releases/changelog/ 
+│                       │      │                  ├ [13]: https://www.sudo.ws/security/advisories/ 
+│                       │      │                  ├ [14]: https://www.sudo.ws/security/advisories/chroot_bug/ 
+│                       │      │                  ├ [15]: https://www.suse.com/security/cve/CVE-2025-32463.html 
+│                       │      │                  ╰ [16]: https://www.suse.com/support/update/announcement/2025
 │                       │      │                          /suse-su-202502177-1/ 
 │                       │      ├ PublishedDate   : 2025-06-30T21:15:30.257Z 
-│                       │      ╰ LastModifiedDate: 2025-07-09T18:15:23.847Z 
-│                       ╰ [33] ╭ VulnerabilityID : CVE-2025-31115 
+│                       │      ╰ LastModifiedDate: 2025-07-19T03:15:22.59Z 
+│                       ╰ [41] ╭ VulnerabilityID : CVE-2025-31115 
 │                              ├ PkgID           : xz-libs@5.6.3-r0 
 │                              ├ PkgName         : xz-libs 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xz-libs@5.6.3-r0?arch=x86_64&distro=3.
@@ -2708,7 +3235,8 @@
 │                              │                  ├ [1]: CWE-416 
 │                              │                  ├ [2]: CWE-476 
 │                              │                  ╰ [3]: CWE-826 
-│                              ├ VendorSeverity   ╭ azure      : 3 
+│                              ├ VendorSeverity   ╭ alma       : 3 
+│                              │                  ├ azure      : 3 
 │                              │                  ├ oracle-oval: 3 
 │                              │                  ├ photon     : 3 
 │                              │                  ├ redhat     : 3 
@@ -2719,17 +3247,20 @@
 │                              ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/04/03/1 
 │                              │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/04/03/2 
 │                              │                  ├ [2] : http://www.openwall.com/lists/oss-security/2025/04/03/3 
-│                              │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-31115 
-│                              │                  ├ [4] : https://github.com/tukaani-project/xz/commit/d5a2ffe4
+│                              │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:7524 
+│                              │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2025-31115 
+│                              │                  ├ [5] : https://bugzilla.redhat.com/2357249 
+│                              │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2025-7524.html 
+│                              │                  ├ [7] : https://github.com/tukaani-project/xz/commit/d5a2ffe4
 │                              │                  │       1bb77b918a8c96084885d4dbe4bf6480 
-│                              │                  ├ [5] : https://github.com/tukaani-project/xz/security/adviso
+│                              │                  ├ [8] : https://github.com/tukaani-project/xz/security/adviso
 │                              │                  │       ries/GHSA-6cc8-p5mm-29w2 
-│                              │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-31115.html 
-│                              │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2025-7524.html 
-│                              │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-31115 
-│                              │                  ├ [9] : https://tukaani.org/xz/xz-cve-2025-31115.patch 
-│                              │                  ├ [10]: https://ubuntu.com/security/notices/USN-7414-1 
-│                              │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-31115 
+│                              │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-31115.html 
+│                              │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-7524.html 
+│                              │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-31115 
+│                              │                  ├ [12]: https://tukaani.org/xz/xz-cve-2025-31115.patch 
+│                              │                  ├ [13]: https://ubuntu.com/security/notices/USN-7414-1 
+│                              │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-31115 
 │                              ├ PublishedDate   : 2025-04-03T17:15:30.54Z 
 │                              ╰ LastModifiedDate: 2025-04-07T14:18:34.453Z 
 ╰ [1] ╭ Target         : Java 
@@ -2785,5 +3316,5 @@
                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-48924 
                               │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-48924 
                               ├ PublishedDate   : 2025-07-11T15:15:24.347Z 
-                              ╰ LastModifiedDate: 2025-07-14T17:15:33.027Z 
+                              ╰ LastModifiedDate: 2025-07-15T13:14:49.98Z 
 ````
