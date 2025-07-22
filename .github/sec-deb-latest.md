@@ -135,10 +135,10 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.6 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:11066 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:9877 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-5702 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2370472 
-│                       │      │                  ├ [3] : https://errata.almalinux.org/10/ALSA-2025-11066.html 
+│                       │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-9877.html 
 │                       │      │                  ├ [4] : https://linux.oracle.com/cve/CVE-2025-5702.html 
 │                       │      │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-9877.html 
 │                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
@@ -264,10 +264,10 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.6 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:11066 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:9877 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-5702 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2370472 
-│                       │      │                  ├ [3] : https://errata.almalinux.org/10/ALSA-2025-11066.html 
+│                       │      │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2025-9877.html 
 │                       │      │                  ├ [4] : https://linux.oracle.com/cve/CVE-2025-5702.html 
 │                       │      │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2025-9877.html 
 │                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2025-5702 
