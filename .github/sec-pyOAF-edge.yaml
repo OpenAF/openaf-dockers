@@ -209,8 +209,10 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-23083
     - https://security.netapp.com/advisory/ntap-20250228-0008/
     - https://www.cve.org/CVERecord?id=CVE-2025-23083
+    - https://www.vicarius.io/vsociety/posts/cve-2025-23083-detect-nodejs-vulnerability
+    - https://www.vicarius.io/vsociety/posts/cve-2025-23083-mitigate-nodejs-vulnerability
     PublishedDate: '2025-01-22T02:15:33.93Z'
-    LastModifiedDate: '2025-02-28T13:15:28.213Z'
+    LastModifiedDate: '2025-07-22T16:15:26.76Z'
   - VulnerabilityID: CVE-2025-30749
     PkgID: openjdk21-jre@21.0.6_p7-r0
     PkgName: openjdk21-jre
@@ -235,6 +237,7 @@
       alma: 3
       oracle-oval: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
@@ -277,6 +280,7 @@
       alma: 3
       oracle-oval: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
@@ -317,6 +321,7 @@
       alma: 3
       oracle-oval: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
@@ -470,6 +475,7 @@
       alma: 3
       oracle-oval: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
@@ -594,8 +600,10 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-23083
     - https://security.netapp.com/advisory/ntap-20250228-0008/
     - https://www.cve.org/CVERecord?id=CVE-2025-23083
+    - https://www.vicarius.io/vsociety/posts/cve-2025-23083-detect-nodejs-vulnerability
+    - https://www.vicarius.io/vsociety/posts/cve-2025-23083-mitigate-nodejs-vulnerability
     PublishedDate: '2025-01-22T02:15:33.93Z'
-    LastModifiedDate: '2025-02-28T13:15:28.213Z'
+    LastModifiedDate: '2025-07-22T16:15:26.76Z'
   - VulnerabilityID: CVE-2025-30749
     PkgID: openjdk21-jre-headless@21.0.6_p7-r0
     PkgName: openjdk21-jre-headless
@@ -620,6 +628,7 @@
       alma: 3
       oracle-oval: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
@@ -662,6 +671,7 @@
       alma: 3
       oracle-oval: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N
@@ -702,6 +712,7 @@
       alma: 3
       oracle-oval: 3
       redhat: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
@@ -855,6 +866,7 @@
       alma: 3
       oracle-oval: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
@@ -1164,7 +1176,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -1487,7 +1499,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -1810,7 +1822,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -2133,7 +2145,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -2298,6 +2310,7 @@
       azure: 4
       cbl-mariner: 4
       nvd: 3
+      oracle-oval: 3
       photon: 3
       redhat: 3
       ubuntu: 3
@@ -2314,6 +2327,8 @@
     - https://bugs.gentoo.org/show_bug.cgi?id=CVE-2025-32463
     - https://explore.alas.aws.amazon.com/CVE-2025-32463.html
     - https://iototsecnews.jp/2025/07/01/linux-sudo-chroot-vulnerability-enables-hackers-to-elevate-privileges-to-root/
+    - https://linux.oracle.com/cve/CVE-2025-32463.html
+    - https://linux.oracle.com/errata/ELSA-2025-11537.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32463
     - https://security-tracker.debian.org/tracker/CVE-2025-32463
     - https://ubuntu.com/security/notices/USN-7604-1
@@ -2326,8 +2341,10 @@
     - https://www.sudo.ws/security/advisories/chroot_bug/
     - https://www.suse.com/security/cve/CVE-2025-32463.html
     - https://www.suse.com/support/update/announcement/2025/suse-su-202502177-1/
+    - https://www.vicarius.io/vsociety/posts/cve-2025-32463-detect-sudo-vulnerability
+    - https://www.vicarius.io/vsociety/posts/cve-2025-32463-mitigate-sudo-vulnerability
     PublishedDate: '2025-06-30T21:15:30.257Z'
-    LastModifiedDate: '2025-07-19T03:15:22.59Z'
+    LastModifiedDate: '2025-07-22T15:15:26.15Z'
   - VulnerabilityID: CVE-2025-31115
     PkgID: xz-libs@5.6.3-r0
     PkgName: xz-libs
