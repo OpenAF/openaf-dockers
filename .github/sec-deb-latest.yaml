@@ -11,8 +11,8 @@
     InstalledVersion: 9.5-1ubuntu1.25.04.1
     Status: affected
     Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
+      Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
+      DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-2781
     DataSource:
@@ -54,16 +54,16 @@
     PublishedDate: '2017-02-07T15:59:00.333Z'
     LastModifiedDate: '2025-06-09T16:15:25.013Z'
   - VulnerabilityID: CVE-2022-3219
-    PkgID: gpgv@2.4.4-2ubuntu23
+    PkgID: gpgv@2.4.4-2ubuntu23.1
     PkgName: gpgv
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/gpgv@2.4.4-2ubuntu23?arch=amd64&distro=ubuntu-25.04
-      UID: 72469ecfc60d3fa6
-    InstalledVersion: 2.4.4-2ubuntu23
+      PURL: pkg:deb/ubuntu/gpgv@2.4.4-2ubuntu23.1?arch=amd64&distro=ubuntu-25.04
+      UID: e88142d915a9c0c6
+    InstalledVersion: 2.4.4-2ubuntu23.1
     Status: affected
     Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
+      Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
+      DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -97,102 +97,17 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
     LastModifiedDate: '2025-03-12T21:15:38.207Z'
-  - VulnerabilityID: CVE-2025-5702
-    PkgID: libc-bin@2.41-6ubuntu1
-    PkgName: libc-bin
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libc-bin@2.41-6ubuntu1?arch=amd64&distro=ubuntu-25.04
-      UID: e2ea38724e36afbf
-    InstalledVersion: 2.41-6ubuntu1
-    FixedVersion: 2.41-6ubuntu1.1
-    Status: fixed
-    Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'glibc: Vector register overwrite bug in glibc'
-    Description: The strcmp implementation optimized for the Power10 processor in the GNU C Library version 2.39 and later writes to vector registers v20 to v31 without saving contents from the caller (those registers are defined as non-volatile registers by the powerpc64le ABI), resulting in overwriting of its contents and potentially altering control flow of the caller, or leaking the input strings to the function to other parts of the program.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-665
-    VendorSeverity:
-      alma: 2
-      oracle-oval: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
-        V3Score: 5.6
-    References:
-    - https://access.redhat.com/errata/RHSA-2025:9877
-    - https://access.redhat.com/security/cve/CVE-2025-5702
-    - https://bugzilla.redhat.com/2370472
-    - https://errata.almalinux.org/9/ALSA-2025-9877.html
-    - https://linux.oracle.com/cve/CVE-2025-5702.html
-    - https://linux.oracle.com/errata/ELSA-2025-9877.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
-    - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
-    - https://sourceware.org/pipermail/libc-alpha/2025-June/167381.html
-    - https://ubuntu.com/security/notices/USN-7634-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-5702
-    PublishedDate: '2025-06-05T19:15:31.073Z'
-    LastModifiedDate: '2025-06-05T21:15:22.873Z'
-  - VulnerabilityID: CVE-2025-5745
-    PkgID: libc-bin@2.41-6ubuntu1
-    PkgName: libc-bin
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libc-bin@2.41-6ubuntu1?arch=amd64&distro=ubuntu-25.04
-      UID: e2ea38724e36afbf
-    InstalledVersion: 2.41-6ubuntu1
-    FixedVersion: 2.41-6ubuntu1.1
-    Status: fixed
-    Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5745
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'glibc: Vector register overwrite bug in glibc'
-    Description: The strncmp implementation optimized for the Power10 processor in the GNU C Library version 2.40 and later writes to vector registers v20 to v31 without saving contents from the caller (those registers are defined as non-volatile registers by the powerpc64le ABI), resulting in overwriting of its contents and potentially altering control flow of the caller, or leaking the input strings to the function to other parts of the program.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-665
-    VendorSeverity:
-      redhat: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-5745
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-5745
-    - https://sourceware.org/bugzilla/show_bug.cgi?id=33060
-    - https://sourceware.org/pipermail/libc-alpha/2025-June/167405.html
-    - https://ubuntu.com/security/notices/USN-7634-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-5745
-    PublishedDate: '2025-06-05T20:15:27.377Z'
-    LastModifiedDate: '2025-06-06T14:07:28.33Z'
   - VulnerabilityID: CVE-2016-20013
-    PkgID: libc-bin@2.41-6ubuntu1
+    PkgID: libc-bin@2.41-6ubuntu1.1
     PkgName: libc-bin
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libc-bin@2.41-6ubuntu1?arch=amd64&distro=ubuntu-25.04
-      UID: e2ea38724e36afbf
-    InstalledVersion: 2.41-6ubuntu1
+      PURL: pkg:deb/ubuntu/libc-bin@2.41-6ubuntu1.1?arch=amd64&distro=ubuntu-25.04
+      UID: 2e3397a2ed854c46
+    InstalledVersion: 2.41-6ubuntu1.1
     Status: affected
     Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
+      Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
+      DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -219,102 +134,17 @@
     - https://www.cve.org/CVERecord?id=CVE-2016-20013
     PublishedDate: '2022-02-19T05:15:09.413Z'
     LastModifiedDate: '2024-11-21T02:47:33.427Z'
-  - VulnerabilityID: CVE-2025-5702
-    PkgID: libc6@2.41-6ubuntu1
-    PkgName: libc6
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libc6@2.41-6ubuntu1?arch=amd64&distro=ubuntu-25.04
-      UID: 9179a4c8d310984e
-    InstalledVersion: 2.41-6ubuntu1
-    FixedVersion: 2.41-6ubuntu1.1
-    Status: fixed
-    Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5702
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'glibc: Vector register overwrite bug in glibc'
-    Description: The strcmp implementation optimized for the Power10 processor in the GNU C Library version 2.39 and later writes to vector registers v20 to v31 without saving contents from the caller (those registers are defined as non-volatile registers by the powerpc64le ABI), resulting in overwriting of its contents and potentially altering control flow of the caller, or leaking the input strings to the function to other parts of the program.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-665
-    VendorSeverity:
-      alma: 2
-      oracle-oval: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
-        V3Score: 5.6
-    References:
-    - https://access.redhat.com/errata/RHSA-2025:9877
-    - https://access.redhat.com/security/cve/CVE-2025-5702
-    - https://bugzilla.redhat.com/2370472
-    - https://errata.almalinux.org/9/ALSA-2025-9877.html
-    - https://linux.oracle.com/cve/CVE-2025-5702.html
-    - https://linux.oracle.com/errata/ELSA-2025-9877.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-5702
-    - https://sourceware.org/bugzilla/show_bug.cgi?id=33056
-    - https://sourceware.org/pipermail/libc-alpha/2025-June/167381.html
-    - https://ubuntu.com/security/notices/USN-7634-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-5702
-    PublishedDate: '2025-06-05T19:15:31.073Z'
-    LastModifiedDate: '2025-06-05T21:15:22.873Z'
-  - VulnerabilityID: CVE-2025-5745
-    PkgID: libc6@2.41-6ubuntu1
-    PkgName: libc6
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libc6@2.41-6ubuntu1?arch=amd64&distro=ubuntu-25.04
-      UID: 9179a4c8d310984e
-    InstalledVersion: 2.41-6ubuntu1
-    FixedVersion: 2.41-6ubuntu1.1
-    Status: fixed
-    Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5745
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'glibc: Vector register overwrite bug in glibc'
-    Description: The strncmp implementation optimized for the Power10 processor in the GNU C Library version 2.40 and later writes to vector registers v20 to v31 without saving contents from the caller (those registers are defined as non-volatile registers by the powerpc64le ABI), resulting in overwriting of its contents and potentially altering control flow of the caller, or leaking the input strings to the function to other parts of the program.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-665
-    VendorSeverity:
-      redhat: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-5745
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-5745
-    - https://sourceware.org/bugzilla/show_bug.cgi?id=33060
-    - https://sourceware.org/pipermail/libc-alpha/2025-June/167405.html
-    - https://ubuntu.com/security/notices/USN-7634-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-5745
-    PublishedDate: '2025-06-05T20:15:27.377Z'
-    LastModifiedDate: '2025-06-06T14:07:28.33Z'
   - VulnerabilityID: CVE-2016-20013
-    PkgID: libc6@2.41-6ubuntu1
+    PkgID: libc6@2.41-6ubuntu1.1
     PkgName: libc6
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libc6@2.41-6ubuntu1?arch=amd64&distro=ubuntu-25.04
-      UID: 9179a4c8d310984e
-    InstalledVersion: 2.41-6ubuntu1
+      PURL: pkg:deb/ubuntu/libc6@2.41-6ubuntu1.1?arch=amd64&distro=ubuntu-25.04
+      UID: b21898bd1df05fa3
+    InstalledVersion: 2.41-6ubuntu1.1
     Status: affected
     Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
+      Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
+      DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -346,12 +176,12 @@
     PkgName: libgcrypt20
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libgcrypt20@1.11.0-6ubuntu1?arch=amd64&distro=ubuntu-25.04
-      UID: 20eec5b0fe47f2c7
+      UID: 5904b0b508923af9
     InstalledVersion: 1.11.0-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
+      Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
+      DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2236
     DataSource:
@@ -392,169 +222,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2025-04-02T17:15:37.79Z'
-  - VulnerabilityID: CVE-2025-32988
-    PkgID: libgnutls30t64@3.8.9-2ubuntu3
-    PkgName: libgnutls30t64
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-2ubuntu3?arch=amd64&distro=ubuntu-25.04
-      UID: 1c77387b7eb0e80f
-    InstalledVersion: 3.8.9-2ubuntu3
-    FixedVersion: 3.8.9-2ubuntu3.1
-    Status: fixed
-    Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-32988
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'gnutls: Vulnerability in GnuTLS otherName SAN export'
-    Description: |-
-      A flaw was found in GnuTLS. A double-free vulnerability exists in GnuTLS due to incorrect ownership handling in the export logic of Subject Alternative Name (SAN) entries containing an otherName. If the type-id OID is invalid or malformed, GnuTLS will call asn1_delete_structure() on an ASN.1 node it does not own, leading to a double-free condition when the parent function or caller later attempts to free the same structure.
-
-      This vulnerability can be triggered using only public GnuTLS APIs and may result in denial of service or memory corruption, depending on allocator behavior.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-415
-    VendorSeverity:
-      azure: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-32988
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2359622
-    - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-32988
-    - https://ubuntu.com/security/notices/USN-7635-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-32988
-    PublishedDate: '2025-07-10T08:15:24.223Z'
-    LastModifiedDate: '2025-07-10T13:17:30.017Z'
-  - VulnerabilityID: CVE-2025-32989
-    PkgID: libgnutls30t64@3.8.9-2ubuntu3
-    PkgName: libgnutls30t64
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-2ubuntu3?arch=amd64&distro=ubuntu-25.04
-      UID: 1c77387b7eb0e80f
-    InstalledVersion: 3.8.9-2ubuntu3
-    FixedVersion: 3.8.9-2ubuntu3.1
-    Status: fixed
-    Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-32989
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'gnutls: Vulnerability in GnuTLS SCT extension parsing'
-    Description: A heap-buffer-overread vulnerability was found in GnuTLS in how it handles the Certificate Transparency (CT) Signed Certificate Timestamp (SCT) extension during X.509 certificate parsing. This flaw allows a malicious user to create a certificate containing a malformed SCT extension (OID 1.3.6.1.4.1.11129.2.4.2) that contains sensitive data. This issue leads to the exposure of confidential information when GnuTLS verifies certificates from certain websites when the certificate (SCT) is not checked correctly.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-295
-    VendorSeverity:
-      azure: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-32989
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2359621
-    - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-32989
-    - https://ubuntu.com/security/notices/USN-7635-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-32989
-    PublishedDate: '2025-07-10T08:15:24.43Z'
-    LastModifiedDate: '2025-07-10T13:17:30.017Z'
-  - VulnerabilityID: CVE-2025-32990
-    PkgID: libgnutls30t64@3.8.9-2ubuntu3
-    PkgName: libgnutls30t64
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-2ubuntu3?arch=amd64&distro=ubuntu-25.04
-      UID: 1c77387b7eb0e80f
-    InstalledVersion: 3.8.9-2ubuntu3
-    FixedVersion: 3.8.9-2ubuntu3.1
-    Status: fixed
-    Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-32990
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'gnutls: Vulnerability in GnuTLS certtool template parsing'
-    Description: A heap-buffer-overflow (off-by-one) flaw was found in the GnuTLS software in the template parsing logic within the certtool utility. When it reads certain settings from a template file, it allows an attacker to cause an out-of-bounds (OOB) NULL pointer write, resulting in memory corruption and a denial-of-service (DoS) that could potentially crash the system.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-122
-    VendorSeverity:
-      azure: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-32990
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2359620
-    - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-32990
-    - https://ubuntu.com/security/notices/USN-7635-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-32990
-    PublishedDate: '2025-07-10T10:15:33.06Z'
-    LastModifiedDate: '2025-07-10T13:17:30.017Z'
-  - VulnerabilityID: CVE-2025-6395
-    PkgID: libgnutls30t64@3.8.9-2ubuntu3
-    PkgName: libgnutls30t64
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-2ubuntu3?arch=amd64&distro=ubuntu-25.04
-      UID: 1c77387b7eb0e80f
-    InstalledVersion: 3.8.9-2ubuntu3
-    FixedVersion: 3.8.9-2ubuntu3.1
-    Status: fixed
-    Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6395
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'gnutls: NULL pointer dereference in _gnutls_figure_common_ciphersuite()'
-    Description: A NULL pointer dereference flaw was found in the GnuTLS software in _gnutls_figure_common_ciphersuite().
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-476
-    VendorSeverity:
-      azure: 2
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-6395
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2376755
-    - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-6395
-    - https://ubuntu.com/security/notices/USN-7635-1
-    - https://www.cve.org/CVERecord?id=CVE-2025-6395
-    PublishedDate: '2025-07-10T16:15:25.11Z'
-    LastModifiedDate: '2025-07-15T13:24:41.097Z'
   - VulnerabilityID: CVE-2024-10041
     PkgID: libpam-modules@1.5.3-7ubuntu4.3
     PkgName: libpam-modules
@@ -564,8 +231,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
+      Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
+      DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -616,8 +283,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
+      Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
+      DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -666,12 +333,12 @@
     PkgName: libpam-modules-bin
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
-      UID: 4e81f2e81e844680
+      UID: d8ba224caf087ede
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
+      Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
+      DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -718,12 +385,12 @@
     PkgName: libpam-modules-bin
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
-      UID: 4e81f2e81e844680
+      UID: d8ba224caf087ede
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
+      Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
+      DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -776,8 +443,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
+      Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
+      DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -828,8 +495,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
+      Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
+      DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -878,12 +545,12 @@
     PkgName: libpam0g
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
-      UID: 32acabc88aaa95b
+      UID: 81d18cf0b55a9957
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
+      Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
+      DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -930,12 +597,12 @@
     PkgName: libpam0g
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
-      UID: 32acabc88aaa95b
+      UID: 81d18cf0b55a9957
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
+      Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
+      DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -988,8 +655,8 @@
     InstalledVersion: 1:4.16.0-7ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
+      Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
+      DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -1023,12 +690,12 @@
     PkgName: passwd
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/passwd@4.16.0-7ubuntu1?arch=amd64&distro=ubuntu-25.04&epoch=1
-      UID: 3f9ea2708f334a48
+      UID: 9c1b1d7dcc1c866
     InstalledVersion: 1:4.16.0-7ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
+      Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
+      DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -1066,8 +733,8 @@
     InstalledVersion: 1.35+dfsg-3.1
     Status: affected
     Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
+      Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
+      DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-45582
     DataSource:
@@ -1098,46 +765,3 @@
 - Target: Java
   Class: lang-pkgs
   Type: jar
-  Vulnerabilities:
-  - VulnerabilityID: CVE-2025-48924
-    PkgName: org.apache.commons:commons-lang3
-    PkgPath: openaf/openaf.jar
-    PkgIdentifier:
-      PURL: pkg:maven/org.apache.commons/commons-lang3@3.17.0
-      UID: 36abc6aa3ef9156f
-    InstalledVersion: 3.17.0
-    FixedVersion: 3.18.0
-    Status: fixed
-    Layer:
-      Digest: sha256:eef138bd448b4d20a77b2622c8837b629774caefc18becaf402d89eb5972897b
-      DiffID: sha256:0c70ad12135a2acbd5480c2f7f48647ca4a63649793426200f6408010c9c9573
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-48924
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Maven
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
-    Title: 'commons-lang/commons-lang: org.apache.commons/commons-lang3: Uncontrolled Recursion vulnerability in Apache Commons Lang'
-    Description: "Uncontrolled Recursion vulnerability in Apache Commons Lang.\n\nThis issue affects Apache Commons Lang: Starting with\_commons-lang:commons-lang\_2.0 to 2.6, and, from org.apache.commons:commons-lang3 3.0 before\_3.18.0.\n\nThe methods ClassUtils.getClass(...) can throw\_StackOverflowError on very long inputs. Because an Error is usually not handled by applications and libraries, a \nStackOverflowError could\_cause an application to stop.\n\nUsers are recommended to upgrade to version 3.18.0, which fixes the issue."
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-674
-    VendorSeverity:
-      ghsa: 2
-      redhat: 1
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 6.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 3.7
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-48924
-    - https://github.com/apache/commons-lang
-    - https://github.com/apache/commons-lang/commit/b424803abdb2bec818e4fbcb251ce031c22aca53
-    - https://lists.apache.org/thread/bgv0lpswokgol11tloxnjfzdl7yrc1g1
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-48924
-    - https://www.cve.org/CVERecord?id=CVE-2025-48924
-    PublishedDate: '2025-07-11T15:15:24.347Z'
-    LastModifiedDate: '2025-07-15T13:14:49.98Z'
