@@ -249,8 +249,12 @@
     - https://linux.oracle.com/cve/CVE-2025-30749.html
     - https://linux.oracle.com/errata/ELSA-2025-10867.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-30749
+    - https://ubuntu.com/security/notices/USN-7667-1
     - https://ubuntu.com/security/notices/USN-7668-1
     - https://ubuntu.com/security/notices/USN-7669-1
+    - https://ubuntu.com/security/notices/USN-7672-1
+    - https://ubuntu.com/security/notices/USN-7673-1
+    - https://ubuntu.com/security/notices/USN-7674-1
     - https://www.cve.org/CVERecord?id=CVE-2025-30749
     - https://www.oracle.com/security-alerts/cpujul2025.html
     - https://www.oracle.com/security-alerts/cpujul2025.html#AppendixJAVA
@@ -296,6 +300,9 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-50059
     - https://ubuntu.com/security/notices/USN-7668-1
     - https://ubuntu.com/security/notices/USN-7669-1
+    - https://ubuntu.com/security/notices/USN-7672-1
+    - https://ubuntu.com/security/notices/USN-7673-1
+    - https://ubuntu.com/security/notices/USN-7674-1
     - https://www.cve.org/CVERecord?id=CVE-2025-50059
     - https://www.oracle.com/security-alerts/cpujul2025.html
     - https://www.oracle.com/security-alerts/cpujul2025.html#AppendixJAVA
@@ -337,8 +344,12 @@
     - https://linux.oracle.com/cve/CVE-2025-50106.html
     - https://linux.oracle.com/errata/ELSA-2025-10867.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-50106
+    - https://ubuntu.com/security/notices/USN-7667-1
     - https://ubuntu.com/security/notices/USN-7668-1
     - https://ubuntu.com/security/notices/USN-7669-1
+    - https://ubuntu.com/security/notices/USN-7672-1
+    - https://ubuntu.com/security/notices/USN-7673-1
+    - https://ubuntu.com/security/notices/USN-7674-1
     - https://www.cve.org/CVERecord?id=CVE-2025-50106
     - https://www.oracle.com/security-alerts/cpujul2025.html
     - https://www.oracle.com/security-alerts/cpujul2025.html#AppendixJAVA
@@ -493,8 +504,12 @@
     - https://linux.oracle.com/cve/CVE-2025-30754.html
     - https://linux.oracle.com/errata/ELSA-2025-10867.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-30754
+    - https://ubuntu.com/security/notices/USN-7667-1
     - https://ubuntu.com/security/notices/USN-7668-1
     - https://ubuntu.com/security/notices/USN-7669-1
+    - https://ubuntu.com/security/notices/USN-7672-1
+    - https://ubuntu.com/security/notices/USN-7673-1
+    - https://ubuntu.com/security/notices/USN-7674-1
     - https://www.cve.org/CVERecord?id=CVE-2025-30754
     - https://www.oracle.com/security-alerts/cpujul2025.html
     - https://www.oracle.com/security-alerts/cpujul2025.html#AppendixJAVA
@@ -648,8 +663,12 @@
     - https://linux.oracle.com/cve/CVE-2025-30749.html
     - https://linux.oracle.com/errata/ELSA-2025-10867.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-30749
+    - https://ubuntu.com/security/notices/USN-7667-1
     - https://ubuntu.com/security/notices/USN-7668-1
     - https://ubuntu.com/security/notices/USN-7669-1
+    - https://ubuntu.com/security/notices/USN-7672-1
+    - https://ubuntu.com/security/notices/USN-7673-1
+    - https://ubuntu.com/security/notices/USN-7674-1
     - https://www.cve.org/CVERecord?id=CVE-2025-30749
     - https://www.oracle.com/security-alerts/cpujul2025.html
     - https://www.oracle.com/security-alerts/cpujul2025.html#AppendixJAVA
@@ -695,6 +714,9 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-50059
     - https://ubuntu.com/security/notices/USN-7668-1
     - https://ubuntu.com/security/notices/USN-7669-1
+    - https://ubuntu.com/security/notices/USN-7672-1
+    - https://ubuntu.com/security/notices/USN-7673-1
+    - https://ubuntu.com/security/notices/USN-7674-1
     - https://www.cve.org/CVERecord?id=CVE-2025-50059
     - https://www.oracle.com/security-alerts/cpujul2025.html
     - https://www.oracle.com/security-alerts/cpujul2025.html#AppendixJAVA
@@ -736,8 +758,12 @@
     - https://linux.oracle.com/cve/CVE-2025-50106.html
     - https://linux.oracle.com/errata/ELSA-2025-10867.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-50106
+    - https://ubuntu.com/security/notices/USN-7667-1
     - https://ubuntu.com/security/notices/USN-7668-1
     - https://ubuntu.com/security/notices/USN-7669-1
+    - https://ubuntu.com/security/notices/USN-7672-1
+    - https://ubuntu.com/security/notices/USN-7673-1
+    - https://ubuntu.com/security/notices/USN-7674-1
     - https://www.cve.org/CVERecord?id=CVE-2025-50106
     - https://www.oracle.com/security-alerts/cpujul2025.html
     - https://www.oracle.com/security-alerts/cpujul2025.html#AppendixJAVA
@@ -892,8 +918,12 @@
     - https://linux.oracle.com/cve/CVE-2025-30754.html
     - https://linux.oracle.com/errata/ELSA-2025-10867.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-30754
+    - https://ubuntu.com/security/notices/USN-7667-1
     - https://ubuntu.com/security/notices/USN-7668-1
     - https://ubuntu.com/security/notices/USN-7669-1
+    - https://ubuntu.com/security/notices/USN-7672-1
+    - https://ubuntu.com/security/notices/USN-7673-1
+    - https://ubuntu.com/security/notices/USN-7674-1
     - https://www.cve.org/CVERecord?id=CVE-2025-30754
     - https://www.oracle.com/security-alerts/cpujul2025.html
     - https://www.oracle.com/security-alerts/cpujul2025.html#AppendixJAVA
@@ -2471,4 +2501,4 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-48924
     - https://www.cve.org/CVERecord?id=CVE-2025-48924
     PublishedDate: '2025-07-11T15:15:24.347Z'
-    LastModifiedDate: '2025-07-15T13:14:49.98Z'
+    LastModifiedDate: '2025-07-28T13:45:38.647Z'
