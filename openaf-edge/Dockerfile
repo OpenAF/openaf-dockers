@@ -43,7 +43,9 @@ RUN OPENAFDIST=${OPENAFDIST:-t8} && \
     cd /openaf && \
     /openaf/ojob ojob.io/oaf/j23SharedAOC && \
     chown openaf:0 /openaf/.shared.oaf && \
-    chmod a+r /openaf/.shared.oaf; \
+    chmod a+r /openaf/.shared.oaf; && \
+    chown -R openaf:0 /openaf && \
+    chown openaf:0 /openaf/.opack.db || true\
   else \
     echo "Skipping AOC..."; \
   fi
