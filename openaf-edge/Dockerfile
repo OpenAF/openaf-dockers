@@ -37,6 +37,17 @@ RUN cd /openaf\
  && chmod -R a+rx /openaf/.docker\
  && chmod g+w /openaf/.opack.db || true
 
+# if distribution equals t8
+RUN OPENAFDIST=${OPENAFDIST:-t8} && \
+  if [ "$OPENAFDIST" = "t8" ]; then \
+    cd /openaf && \
+    /openaf/ojob ojob.io/oaf/j23SharedAOC && \
+    chown openaf:0 /openaf/.shared.oaf && \
+    chmod a+r /openaf/.shared.oaf; \
+  else \
+    echo "Skipping AOC..."; \
+  fi
+
 # -------------------
 FROM scratch as final
 
