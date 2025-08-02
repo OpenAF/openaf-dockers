@@ -32,23 +32,25 @@ RUN cd /openaf\
  && jre/bin/java --enable-native-access=ALL-UNNAMED -jar openaf.jar --install\
  && chown -R openaf:0 /openaf\
  && chown openaf:0 /openaf/.opack.db || true\
+ && chown openaf:0 /openaf/.shared.oaf || true\
  && chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\
  && chmod a+rwx /openaf\
  && chmod -R a+rx /openaf/.docker\
- && chmod g+w /openaf/.opack.db || true
+ && chmod g+w /openaf/.opack.db || true\
+ && chmod g+w /openaf/.shared.oaf || true
 
 # if distribution equals t8
-RUN OPENAFDIST=${OPENAFDIST:-t8} && \
-  if [ "$OPENAFDIST" = "t8" ]; then \
-    cd /openaf && \
-    /openaf/ojob ojob.io/oaf/j23SharedAOC && \
-    chown openaf:0 /openaf/.shared.oaf && \
-    chmod a+r /openaf/.shared.oaf; && \
-    chown -R openaf:0 /openaf && \
-    chown openaf:0 /openaf/.opack.db || true\
-  else \
-    echo "Skipping AOC..."; \
-  fi
+#RUN OPENAFDIST=${OPENAFDIST:-t8} && \
+#  if [ "$OPENAFDIST" = "t8" ]; then \
+#    cd /openaf && \
+#    /openaf/ojob ojob.io/oaf/j23SharedAOC && \
+#    chown openaf:0 /openaf/.shared.oaf && \
+#    chmod a+r /openaf/.shared.oaf; && \
+#    chown -R openaf:0 /openaf && \
+#    chown openaf:0 /openaf/.opack.db || true\
+#  else \
+#    echo "Skipping AOC..."; \
+#  fi
 
 # -------------------
 FROM scratch as final
