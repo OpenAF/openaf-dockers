@@ -354,7 +354,7 @@
 │                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpujul2025.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:29.313Z 
-│                       │      ╰ LastModifiedDate: 2025-07-16T14:59:23.707Z 
+│                       │      ╰ LastModifiedDate: 2025-08-04T21:05:34.533Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2025-50059 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
@@ -440,7 +440,7 @@
 │                       │      │                  ╰ [22]: https://www.oracle.com/security-alerts/cpujul2025.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:40.367Z 
-│                       │      ╰ LastModifiedDate: 2025-07-16T15:15:26.997Z 
+│                       │      ╰ LastModifiedDate: 2025-08-04T21:17:16.467Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2025-50106 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
@@ -522,7 +522,7 @@
 │                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpujul2025.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:47.013Z 
-│                       │      ╰ LastModifiedDate: 2025-07-16T14:58:59.837Z 
+│                       │      ╰ LastModifiedDate: 2025-08-04T21:20:26.203Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2025-30691 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
@@ -788,7 +788,7 @@
 │                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpujul2025.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:29.973Z 
-│                       │      ╰ LastModifiedDate: 2025-07-16T16:15:25.807Z 
+│                       │      ╰ LastModifiedDate: 2025-08-04T21:16:20.84Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2025-21587 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
@@ -1029,7 +1029,7 @@
 │                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpujul2025.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:29.313Z 
-│                       │      ╰ LastModifiedDate: 2025-07-16T14:59:23.707Z 
+│                       │      ╰ LastModifiedDate: 2025-08-04T21:05:34.533Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2025-50059 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
@@ -1115,7 +1115,7 @@
 │                       │      │                  ╰ [22]: https://www.oracle.com/security-alerts/cpujul2025.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:40.367Z 
-│                       │      ╰ LastModifiedDate: 2025-07-16T15:15:26.997Z 
+│                       │      ╰ LastModifiedDate: 2025-08-04T21:17:16.467Z 
 │                       ├ [14] ╭ VulnerabilityID : CVE-2025-50106 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
@@ -1197,7 +1197,7 @@
 │                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpujul2025.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:47.013Z 
-│                       │      ╰ LastModifiedDate: 2025-07-16T14:58:59.837Z 
+│                       │      ╰ LastModifiedDate: 2025-08-04T21:20:26.203Z 
 │                       ├ [15] ╭ VulnerabilityID : CVE-2025-30691 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
@@ -1463,7 +1463,7 @@
 │                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpujul2025.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:29.973Z 
-│                       │      ╰ LastModifiedDate: 2025-07-16T16:15:25.807Z 
+│                       │      ╰ LastModifiedDate: 2025-08-04T21:16:20.84Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2024-12718 
 │                       │      ├ PkgID           : pyc@3.12.9-r0 
 │                       │      ├ PkgName         : pyc 
@@ -3570,6 +3570,7 @@
 │                       │      ├ Severity        : CRITICAL 
 │                       │      ├ CweIDs           ─ [0]: CWE-197 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ nvd        : 4 
 │                       │      │                  ├ oracle-oval: 3 
