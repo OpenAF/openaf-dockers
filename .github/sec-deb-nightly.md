@@ -7,13 +7,13 @@
 │                       │      ├ PkgName         : coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/coreutils@9.5-1ubuntu1.25.04.1?arch=am
 │                       │      │                  │       d64&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 2dee316f186d187a 
+│                       │      │                  ╰ UID : 4420166f792adb9f 
 │                       │      ├ InstalledVersion: 9.5-1ubuntu1.25.04.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2c7956fe89c26d331cb88a86d477cbed05719d853b80
-│                       │      │                  │         879bbeb4e1339f9a292b 
-│                       │      │                  ╰ DiffID: sha256:9ece82bf301b648f98e21a20215645897ea281519208
-│                       │      │                            4a16e6ecbad948926d65 
+│                       │      ├ Layer            ╭ Digest: sha256:28a4a4eacb4df57c01740fe58051d701aabf48457cdc
+│                       │      │                  │         802f790a4075721ddae8 
+│                       │      │                  ╰ DiffID: sha256:26404a949e0d3f9e9f5b673daaa37c21d97fb650df1e
+│                       │      │                            58bfd9dd7335760dc32d 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-2781 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -64,10 +64,10 @@
 │                       │      │                  ╰ UID : e88142d915a9c0c6 
 │                       │      ├ InstalledVersion: 2.4.4-2ubuntu23.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2c7956fe89c26d331cb88a86d477cbed05719d853b80
-│                       │      │                  │         879bbeb4e1339f9a292b 
-│                       │      │                  ╰ DiffID: sha256:9ece82bf301b648f98e21a20215645897ea281519208
-│                       │      │                            4a16e6ecbad948926d65 
+│                       │      ├ Layer            ╭ Digest: sha256:28a4a4eacb4df57c01740fe58051d701aabf48457cdc
+│                       │      │                  │         802f790a4075721ddae8 
+│                       │      │                  ╰ DiffID: sha256:26404a949e0d3f9e9f5b673daaa37c21d97fb650df1e
+│                       │      │                            58bfd9dd7335760dc32d 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -104,13 +104,13 @@
 │                       │      ├ PkgName         : libc-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc-bin@2.41-6ubuntu1.1?arch=amd64&di
 │                       │      │                  │       stro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 2e3397a2ed854c46 
+│                       │      │                  ╰ UID : 798a8ba2010c8ddb 
 │                       │      ├ InstalledVersion: 2.41-6ubuntu1.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2c7956fe89c26d331cb88a86d477cbed05719d853b80
-│                       │      │                  │         879bbeb4e1339f9a292b 
-│                       │      │                  ╰ DiffID: sha256:9ece82bf301b648f98e21a20215645897ea281519208
-│                       │      │                            4a16e6ecbad948926d65 
+│                       │      ├ Layer            ╭ Digest: sha256:28a4a4eacb4df57c01740fe58051d701aabf48457cdc
+│                       │      │                  │         802f790a4075721ddae8 
+│                       │      │                  ╰ DiffID: sha256:26404a949e0d3f9e9f5b673daaa37c21d97fb650df1e
+│                       │      │                            58bfd9dd7335760dc32d 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-20013 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -140,13 +140,13 @@
 │                       │      ├ PkgName         : libc6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc6@2.41-6ubuntu1.1?arch=amd64&distr
 │                       │      │                  │       o=ubuntu-25.04 
-│                       │      │                  ╰ UID : b21898bd1df05fa3 
+│                       │      │                  ╰ UID : de34a93826490997 
 │                       │      ├ InstalledVersion: 2.41-6ubuntu1.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2c7956fe89c26d331cb88a86d477cbed05719d853b80
-│                       │      │                  │         879bbeb4e1339f9a292b 
-│                       │      │                  ╰ DiffID: sha256:9ece82bf301b648f98e21a20215645897ea281519208
-│                       │      │                            4a16e6ecbad948926d65 
+│                       │      ├ Layer            ╭ Digest: sha256:28a4a4eacb4df57c01740fe58051d701aabf48457cdc
+│                       │      │                  │         802f790a4075721ddae8 
+│                       │      │                  ╰ DiffID: sha256:26404a949e0d3f9e9f5b673daaa37c21d97fb650df1e
+│                       │      │                            58bfd9dd7335760dc32d 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-20013 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -176,13 +176,13 @@
 │                       │      ├ PkgName         : libgcrypt20 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcrypt20@1.11.0-6ubuntu1?arch=amd64
 │                       │      │                  │       &distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 5904b0b508923af9 
+│                       │      │                  ╰ UID : 97b71536671f4622 
 │                       │      ├ InstalledVersion: 1.11.0-6ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2c7956fe89c26d331cb88a86d477cbed05719d853b80
-│                       │      │                  │         879bbeb4e1339f9a292b 
-│                       │      │                  ╰ DiffID: sha256:9ece82bf301b648f98e21a20215645897ea281519208
-│                       │      │                            4a16e6ecbad948926d65 
+│                       │      ├ Layer            ╭ Digest: sha256:28a4a4eacb4df57c01740fe58051d701aabf48457cdc
+│                       │      │                  │         802f790a4075721ddae8 
+│                       │      │                  ╰ DiffID: sha256:26404a949e0d3f9e9f5b673daaa37c21d97fb650df1e
+│                       │      │                            58bfd9dd7335760dc32d 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-2236 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -229,13 +229,13 @@
 │                       │      ├ PkgName         : libpam-modules 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-7ubuntu4.3?arch=a
 │                       │      │                  │       md64&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 8a0887ccb0ee46e2 
+│                       │      │                  ╰ UID : 1f70a9af7a8bc1e3 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2c7956fe89c26d331cb88a86d477cbed05719d853b80
-│                       │      │                  │         879bbeb4e1339f9a292b 
-│                       │      │                  ╰ DiffID: sha256:9ece82bf301b648f98e21a20215645897ea281519208
-│                       │      │                            4a16e6ecbad948926d65 
+│                       │      ├ Layer            ╭ Digest: sha256:28a4a4eacb4df57c01740fe58051d701aabf48457cdc
+│                       │      │                  │         802f790a4075721ddae8 
+│                       │      │                  ╰ DiffID: sha256:26404a949e0d3f9e9f5b673daaa37c21d97fb650df1e
+│                       │      │                            58bfd9dd7335760dc32d 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10041 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -252,6 +252,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-922 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
@@ -285,13 +286,13 @@
 │                       │      ├ PkgName         : libpam-modules 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-7ubuntu4.3?arch=a
 │                       │      │                  │       md64&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 8a0887ccb0ee46e2 
+│                       │      │                  ╰ UID : 1f70a9af7a8bc1e3 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2c7956fe89c26d331cb88a86d477cbed05719d853b80
-│                       │      │                  │         879bbeb4e1339f9a292b 
-│                       │      │                  ╰ DiffID: sha256:9ece82bf301b648f98e21a20215645897ea281519208
-│                       │      │                            4a16e6ecbad948926d65 
+│                       │      ├ Layer            ╭ Digest: sha256:28a4a4eacb4df57c01740fe58051d701aabf48457cdc
+│                       │      │                  │         802f790a4075721ddae8 
+│                       │      │                  ╰ DiffID: sha256:26404a949e0d3f9e9f5b673daaa37c21d97fb650df1e
+│                       │      │                            58bfd9dd7335760dc32d 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10963 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -344,13 +345,13 @@
 │                       │      ├ PkgName         : libpam-modules-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu4.3?ar
 │                       │      │                  │       ch=amd64&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : d8ba224caf087ede 
+│                       │      │                  ╰ UID : 914231a75f77278f 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2c7956fe89c26d331cb88a86d477cbed05719d853b80
-│                       │      │                  │         879bbeb4e1339f9a292b 
-│                       │      │                  ╰ DiffID: sha256:9ece82bf301b648f98e21a20215645897ea281519208
-│                       │      │                            4a16e6ecbad948926d65 
+│                       │      ├ Layer            ╭ Digest: sha256:28a4a4eacb4df57c01740fe58051d701aabf48457cdc
+│                       │      │                  │         802f790a4075721ddae8 
+│                       │      │                  ╰ DiffID: sha256:26404a949e0d3f9e9f5b673daaa37c21d97fb650df1e
+│                       │      │                            58bfd9dd7335760dc32d 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10041 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -367,6 +368,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-922 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
@@ -400,13 +402,13 @@
 │                       │      ├ PkgName         : libpam-modules-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu4.3?ar
 │                       │      │                  │       ch=amd64&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : d8ba224caf087ede 
+│                       │      │                  ╰ UID : 914231a75f77278f 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2c7956fe89c26d331cb88a86d477cbed05719d853b80
-│                       │      │                  │         879bbeb4e1339f9a292b 
-│                       │      │                  ╰ DiffID: sha256:9ece82bf301b648f98e21a20215645897ea281519208
-│                       │      │                            4a16e6ecbad948926d65 
+│                       │      ├ Layer            ╭ Digest: sha256:28a4a4eacb4df57c01740fe58051d701aabf48457cdc
+│                       │      │                  │         802f790a4075721ddae8 
+│                       │      │                  ╰ DiffID: sha256:26404a949e0d3f9e9f5b673daaa37c21d97fb650df1e
+│                       │      │                            58bfd9dd7335760dc32d 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10963 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -459,13 +461,13 @@
 │                       │      ├ PkgName         : libpam-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu4.3?arch=a
 │                       │      │                  │       ll&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 11da3ddf37287ea 
+│                       │      │                  ╰ UID : 1420d5870a0f1057 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2c7956fe89c26d331cb88a86d477cbed05719d853b80
-│                       │      │                  │         879bbeb4e1339f9a292b 
-│                       │      │                  ╰ DiffID: sha256:9ece82bf301b648f98e21a20215645897ea281519208
-│                       │      │                            4a16e6ecbad948926d65 
+│                       │      ├ Layer            ╭ Digest: sha256:28a4a4eacb4df57c01740fe58051d701aabf48457cdc
+│                       │      │                  │         802f790a4075721ddae8 
+│                       │      │                  ╰ DiffID: sha256:26404a949e0d3f9e9f5b673daaa37c21d97fb650df1e
+│                       │      │                            58bfd9dd7335760dc32d 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10041 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -482,6 +484,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-922 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
@@ -515,13 +518,13 @@
 │                       │      ├ PkgName         : libpam-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu4.3?arch=a
 │                       │      │                  │       ll&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 11da3ddf37287ea 
+│                       │      │                  ╰ UID : 1420d5870a0f1057 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2c7956fe89c26d331cb88a86d477cbed05719d853b80
-│                       │      │                  │         879bbeb4e1339f9a292b 
-│                       │      │                  ╰ DiffID: sha256:9ece82bf301b648f98e21a20215645897ea281519208
-│                       │      │                            4a16e6ecbad948926d65 
+│                       │      ├ Layer            ╭ Digest: sha256:28a4a4eacb4df57c01740fe58051d701aabf48457cdc
+│                       │      │                  │         802f790a4075721ddae8 
+│                       │      │                  ╰ DiffID: sha256:26404a949e0d3f9e9f5b673daaa37c21d97fb650df1e
+│                       │      │                            58bfd9dd7335760dc32d 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10963 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -574,13 +577,13 @@
 │                       │      ├ PkgName         : libpam0g 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.3?arch=amd64&d
 │                       │      │                  │       istro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 81d18cf0b55a9957 
+│                       │      │                  ╰ UID : 78dc01c1ea68c9c2 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2c7956fe89c26d331cb88a86d477cbed05719d853b80
-│                       │      │                  │         879bbeb4e1339f9a292b 
-│                       │      │                  ╰ DiffID: sha256:9ece82bf301b648f98e21a20215645897ea281519208
-│                       │      │                            4a16e6ecbad948926d65 
+│                       │      ├ Layer            ╭ Digest: sha256:28a4a4eacb4df57c01740fe58051d701aabf48457cdc
+│                       │      │                  │         802f790a4075721ddae8 
+│                       │      │                  ╰ DiffID: sha256:26404a949e0d3f9e9f5b673daaa37c21d97fb650df1e
+│                       │      │                            58bfd9dd7335760dc32d 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10041 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -597,6 +600,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-922 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
@@ -630,13 +634,13 @@
 │                       │      ├ PkgName         : libpam0g 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.3?arch=amd64&d
 │                       │      │                  │       istro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 81d18cf0b55a9957 
+│                       │      │                  ╰ UID : 78dc01c1ea68c9c2 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2c7956fe89c26d331cb88a86d477cbed05719d853b80
-│                       │      │                  │         879bbeb4e1339f9a292b 
-│                       │      │                  ╰ DiffID: sha256:9ece82bf301b648f98e21a20215645897ea281519208
-│                       │      │                            4a16e6ecbad948926d65 
+│                       │      ├ Layer            ╭ Digest: sha256:28a4a4eacb4df57c01740fe58051d701aabf48457cdc
+│                       │      │                  │         802f790a4075721ddae8 
+│                       │      │                  ╰ DiffID: sha256:26404a949e0d3f9e9f5b673daaa37c21d97fb650df1e
+│                       │      │                            58bfd9dd7335760dc32d 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10963 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -689,13 +693,13 @@
 │                       │      ├ PkgName         : login.defs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.16.0-7ubuntu1?arch=all&di
 │                       │      │                  │       stro=ubuntu-25.04&epoch=1 
-│                       │      │                  ╰ UID : 3c8b88c42ea22e9c 
+│                       │      │                  ╰ UID : 4016d70dedce9ad0 
 │                       │      ├ InstalledVersion: 1:4.16.0-7ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2c7956fe89c26d331cb88a86d477cbed05719d853b80
-│                       │      │                  │         879bbeb4e1339f9a292b 
-│                       │      │                  ╰ DiffID: sha256:9ece82bf301b648f98e21a20215645897ea281519208
-│                       │      │                            4a16e6ecbad948926d65 
+│                       │      ├ Layer            ╭ Digest: sha256:28a4a4eacb4df57c01740fe58051d701aabf48457cdc
+│                       │      │                  │         802f790a4075721ddae8 
+│                       │      │                  ╰ DiffID: sha256:26404a949e0d3f9e9f5b673daaa37c21d97fb650df1e
+│                       │      │                            58bfd9dd7335760dc32d 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56433 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -737,13 +741,13 @@
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.16.0-7ubuntu1?arch=amd64&dist
 │                       │      │                  │       ro=ubuntu-25.04&epoch=1 
-│                       │      │                  ╰ UID : 9c1b1d7dcc1c866 
+│                       │      │                  ╰ UID : f3a0273134c1de96 
 │                       │      ├ InstalledVersion: 1:4.16.0-7ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:2c7956fe89c26d331cb88a86d477cbed05719d853b80
-│                       │      │                  │         879bbeb4e1339f9a292b 
-│                       │      │                  ╰ DiffID: sha256:9ece82bf301b648f98e21a20215645897ea281519208
-│                       │      │                            4a16e6ecbad948926d65 
+│                       │      ├ Layer            ╭ Digest: sha256:28a4a4eacb4df57c01740fe58051d701aabf48457cdc
+│                       │      │                  │         802f790a4075721ddae8 
+│                       │      │                  ╰ DiffID: sha256:26404a949e0d3f9e9f5b673daaa37c21d97fb650df1e
+│                       │      │                            58bfd9dd7335760dc32d 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56433 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -785,13 +789,13 @@
 │                              ├ PkgName         : tar 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1?arch=amd64&distro=
 │                              │                  │       ubuntu-25.04 
-│                              │                  ╰ UID : a4187a8c3d48826a 
+│                              │                  ╰ UID : a03ee9a61d584e89 
 │                              ├ InstalledVersion: 1.35+dfsg-3.1 
 │                              ├ Status          : affected 
-│                              ├ Layer            ╭ Digest: sha256:2c7956fe89c26d331cb88a86d477cbed05719d853b80
-│                              │                  │         879bbeb4e1339f9a292b 
-│                              │                  ╰ DiffID: sha256:9ece82bf301b648f98e21a20215645897ea281519208
-│                              │                            4a16e6ecbad948926d65 
+│                              ├ Layer            ╭ Digest: sha256:28a4a4eacb4df57c01740fe58051d701aabf48457cdc
+│                              │                  │         802f790a4075721ddae8 
+│                              │                  ╰ DiffID: sha256:26404a949e0d3f9e9f5b673daaa37c21d97fb650df1e
+│                              │                            58bfd9dd7335760dc32d 
 │                              ├ SeveritySource  : ubuntu 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-45582 
 │                              ├ DataSource       ╭ ID  : ubuntu 

@@ -7,7 +7,7 @@
 │                       │      ├ PkgName         : coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/coreutils@9.5-1ubuntu1.25.04.1?arch=am
 │                       │      │                  │       d64&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 2dee316f186d187a 
+│                       │      │                  ╰ UID : 4420166f792adb9f 
 │                       │      ├ InstalledVersion: 9.5-1ubuntu1.25.04.1 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790a
@@ -104,7 +104,7 @@
 │                       │      ├ PkgName         : libc-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc-bin@2.41-6ubuntu1.1?arch=amd64&di
 │                       │      │                  │       stro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 2e3397a2ed854c46 
+│                       │      │                  ╰ UID : 798a8ba2010c8ddb 
 │                       │      ├ InstalledVersion: 2.41-6ubuntu1.1 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790a
@@ -140,7 +140,7 @@
 │                       │      ├ PkgName         : libc6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc6@2.41-6ubuntu1.1?arch=amd64&distr
 │                       │      │                  │       o=ubuntu-25.04 
-│                       │      │                  ╰ UID : b21898bd1df05fa3 
+│                       │      │                  ╰ UID : de34a93826490997 
 │                       │      ├ InstalledVersion: 2.41-6ubuntu1.1 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790a
@@ -176,7 +176,7 @@
 │                       │      ├ PkgName         : libgcrypt20 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcrypt20@1.11.0-6ubuntu1?arch=amd64
 │                       │      │                  │       &distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 5904b0b508923af9 
+│                       │      │                  ╰ UID : 97b71536671f4622 
 │                       │      ├ InstalledVersion: 1.11.0-6ubuntu1 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790a
@@ -229,7 +229,7 @@
 │                       │      ├ PkgName         : libpam-modules 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-7ubuntu4.3?arch=a
 │                       │      │                  │       md64&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 8a0887ccb0ee46e2 
+│                       │      │                  ╰ UID : 1f70a9af7a8bc1e3 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790a
@@ -252,6 +252,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-922 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
@@ -285,7 +286,7 @@
 │                       │      ├ PkgName         : libpam-modules 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-7ubuntu4.3?arch=a
 │                       │      │                  │       md64&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 8a0887ccb0ee46e2 
+│                       │      │                  ╰ UID : 1f70a9af7a8bc1e3 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790a
@@ -344,7 +345,7 @@
 │                       │      ├ PkgName         : libpam-modules-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu4.3?ar
 │                       │      │                  │       ch=amd64&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : d8ba224caf087ede 
+│                       │      │                  ╰ UID : 914231a75f77278f 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790a
@@ -367,6 +368,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-922 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
@@ -400,7 +402,7 @@
 │                       │      ├ PkgName         : libpam-modules-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu4.3?ar
 │                       │      │                  │       ch=amd64&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : d8ba224caf087ede 
+│                       │      │                  ╰ UID : 914231a75f77278f 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790a
@@ -459,7 +461,7 @@
 │                       │      ├ PkgName         : libpam-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu4.3?arch=a
 │                       │      │                  │       ll&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 11da3ddf37287ea 
+│                       │      │                  ╰ UID : 1420d5870a0f1057 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790a
@@ -482,6 +484,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-922 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
@@ -515,7 +518,7 @@
 │                       │      ├ PkgName         : libpam-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu4.3?arch=a
 │                       │      │                  │       ll&distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 11da3ddf37287ea 
+│                       │      │                  ╰ UID : 1420d5870a0f1057 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790a
@@ -574,7 +577,7 @@
 │                       │      ├ PkgName         : libpam0g 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.3?arch=amd64&d
 │                       │      │                  │       istro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 81d18cf0b55a9957 
+│                       │      │                  ╰ UID : 78dc01c1ea68c9c2 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790a
@@ -597,6 +600,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-922 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
@@ -630,7 +634,7 @@
 │                       │      ├ PkgName         : libpam0g 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.3?arch=amd64&d
 │                       │      │                  │       istro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 81d18cf0b55a9957 
+│                       │      │                  ╰ UID : 78dc01c1ea68c9c2 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790a
@@ -689,7 +693,7 @@
 │                       │      ├ PkgName         : login.defs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.16.0-7ubuntu1?arch=all&di
 │                       │      │                  │       stro=ubuntu-25.04&epoch=1 
-│                       │      │                  ╰ UID : 3c8b88c42ea22e9c 
+│                       │      │                  ╰ UID : 4016d70dedce9ad0 
 │                       │      ├ InstalledVersion: 1:4.16.0-7ubuntu1 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790a
@@ -737,7 +741,7 @@
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.16.0-7ubuntu1?arch=amd64&dist
 │                       │      │                  │       ro=ubuntu-25.04&epoch=1 
-│                       │      │                  ╰ UID : 9c1b1d7dcc1c866 
+│                       │      │                  ╰ UID : f3a0273134c1de96 
 │                       │      ├ InstalledVersion: 1:4.16.0-7ubuntu1 
 │                       │      ├ Status          : affected 
 │                       │      ├ Layer            ╭ Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790a
@@ -785,7 +789,7 @@
 │                       │      ├ PkgName         : perl-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/perl-base@5.40.1-2ubuntu0.1?arch=amd64
 │                       │      │                  │       &distro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 47c2b4fb696ffc5b 
+│                       │      │                  ╰ UID : d890fbc6969495a8 
 │                       │      ├ InstalledVersion: 5.40.1-2ubuntu0.1 
 │                       │      ├ FixedVersion    : 5.40.1-2ubuntu0.2 
 │                       │      ├ Status          : fixed 
@@ -819,8 +823,10 @@
 │                       │      │                  ╰ [1]: CWE-426 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
@@ -837,23 +843,27 @@
 │                       │      │                  ├ [9] : https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=109
 │                       │      │                  │       8226 
 │                       │      │                  ├ [10]: https://bugzilla.redhat.com/2369407 
-│                       │      │                  ├ [11]: https://errata.almalinux.org/8/ALSA-2025-11805.html 
-│                       │      │                  ├ [12]: https://github.com/Perl/perl5/commit/11a11ecf4bea72b1
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2369407 
+│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-40909 
+│                       │      │                  ├ [13]: https://errata.almalinux.org/8/ALSA-2025-11805.html 
+│                       │      │                  ├ [14]: https://errata.rockylinux.org/RLSA-2025:11805 
+│                       │      │                  ├ [15]: https://github.com/Perl/perl5/commit/11a11ecf4bea72b1
 │                       │      │                  │       7d250cfb43c897be1341861e 
-│                       │      │                  ├ [13]: https://github.com/Perl/perl5/commit/918bfff86ca8d6d4
+│                       │      │                  ├ [16]: https://github.com/Perl/perl5/commit/918bfff86ca8d6d4
 │                       │      │                  │       e4ec5b30994451e0bd74aba9.patch 
-│                       │      │                  ├ [14]: https://github.com/Perl/perl5/issues/10387 
-│                       │      │                  ├ [15]: https://github.com/Perl/perl5/issues/23010 
-│                       │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2025-40909.html 
-│                       │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2025-11805.html 
-│                       │      │                  ├ [18]: https://lists.security.metacpan.org/cve-announce/msg/
+│                       │      │                  ├ [17]: https://github.com/Perl/perl5/issues/10387 
+│                       │      │                  ├ [18]: https://github.com/Perl/perl5/issues/23010 
+│                       │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2025-40909.html 
+│                       │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2025-12056.html 
+│                       │      │                  ├ [21]: https://lists.security.metacpan.org/cve-announce/msg/
 │                       │      │                  │       30017499/ 
-│                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2025-40909 
-│                       │      │                  ├ [20]: https://perldoc.perl.org/5.14.0/perl5136delta#Directo
+│                       │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2025-40909 
+│                       │      │                  ├ [23]: https://perldoc.perl.org/5.14.0/perl5136delta#Directo
 │                       │      │                  │       ry-handles-not-copied-to-threads 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7678-1 
-│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2025-40909 
-│                       │      │                  ╰ [23]: https://www.openwall.com/lists/oss-security/2025/05/2
+│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7678-1 
+│                       │      │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2025-40909 
+│                       │      │                  ╰ [26]: https://www.openwall.com/lists/oss-security/2025/05/2
 │                       │      │                          2/2 
 │                       │      ├ PublishedDate   : 2025-05-30T13:15:22.35Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T04:15:40.47Z 
@@ -862,7 +872,7 @@
 │                              ├ PkgName         : tar 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1?arch=amd64&distro=
 │                              │                  │       ubuntu-25.04 
-│                              │                  ╰ UID : a4187a8c3d48826a 
+│                              │                  ╰ UID : a03ee9a61d584e89 
 │                              ├ InstalledVersion: 1.35+dfsg-3.1 
 │                              ├ Status          : affected 
 │                              ├ Layer            ╭ Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790a
