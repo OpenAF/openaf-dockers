@@ -706,16 +706,23 @@
 │                       │      │                   library. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-415 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ╰ redhat     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8058 
-│                       │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
-│                       │      │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=33185 
-│                       │      │                  ├ [3]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:12980 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-8058 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2383146 
+│                       │      │                  ├ [3]: https://errata.almalinux.org/8/ALSA-2025-12980.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-8058.html 
+│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-12980.html 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
+│                       │      │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33185 
+│                       │      │                  ├ [8]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff
 │                       │      │                  │      17af18c38727b88d9115e536c069e6b5d601f 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-8058 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-8058 
 │                       │      ├ PublishedDate   : 2025-07-23T20:15:27.747Z 
 │                       │      ╰ LastModifiedDate: 2025-07-25T15:29:44.523Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2025-8058 
@@ -749,16 +756,23 @@
 │                       │      │                   library. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-415 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ╰ redhat     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8058 
-│                       │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
-│                       │      │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=33185 
-│                       │      │                  ├ [3]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:12980 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-8058 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2383146 
+│                       │      │                  ├ [3]: https://errata.almalinux.org/8/ALSA-2025-12980.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-8058.html 
+│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-12980.html 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
+│                       │      │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33185 
+│                       │      │                  ├ [8]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff
 │                       │      │                  │      17af18c38727b88d9115e536c069e6b5d601f 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-8058 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-8058 
 │                       │      ├ PublishedDate   : 2025-07-23T20:15:27.747Z 
 │                       │      ╰ LastModifiedDate: 2025-07-25T15:29:44.523Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2025-8058 
@@ -792,16 +806,23 @@
 │                       │      │                   library. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-415 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ╰ redhat     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8058 
-│                       │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
-│                       │      │                  ├ [2]: https://sourceware.org/bugzilla/show_bug.cgi?id=33185 
-│                       │      │                  ├ [3]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:12980 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-8058 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2383146 
+│                       │      │                  ├ [3]: https://errata.almalinux.org/8/ALSA-2025-12980.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/cve/CVE-2025-8058.html 
+│                       │      │                  ├ [5]: https://linux.oracle.com/errata/ELSA-2025-12980.html 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
+│                       │      │                  ├ [7]: https://sourceware.org/bugzilla/show_bug.cgi?id=33185 
+│                       │      │                  ├ [8]: https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff
 │                       │      │                  │      17af18c38727b88d9115e536c069e6b5d601f 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-8058 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-8058 
 │                       │      ├ PublishedDate   : 2025-07-23T20:15:27.747Z 
 │                       │      ╰ LastModifiedDate: 2025-07-25T15:29:44.523Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2022-3219 
@@ -1833,25 +1854,37 @@
 │                       │      │                           ╰ V3Score : 7.8 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:12447 
 │                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:12450 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-7425 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2379274 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2379274 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-12447.html 
-│                       │      │                  ├ [6] : https://gitlab.gnome.org/GNOME/libxslt/-/issues/140 
-│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-7425.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-12450.html 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-7425 
-│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-7425 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:13267 
+│                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:13308 
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:13309 
+│                       │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2025:13310 
+│                       │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2025:13311 
+│                       │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2025:13312 
+│                       │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:13313 
+│                       │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2025:13314 
+│                       │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:13335 
+│                       │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:13464 
+│                       │      │                  ├ [12]: https://access.redhat.com/security/cve/CVE-2025-7425 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2379274 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2379274 
+│                       │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2025-12447.html 
+│                       │      │                  ├ [16]: https://gitlab.gnome.org/GNOME/libxslt/-/issues/140 
+│                       │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2025-7425.html 
+│                       │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2025-12450.html 
+│                       │      │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2025-7425 
+│                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2025-7425 
 │                       │      ├ PublishedDate   : 2025-07-10T14:15:27.877Z 
-│                       │      ╰ LastModifiedDate: 2025-07-31T17:15:30.373Z 
+│                       │      ╰ LastModifiedDate: 2025-08-07T16:15:31.64Z 
 │                       ├ [33] ╭ VulnerabilityID : CVE-2025-32414 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:13428 
 │                       │      ├ PkgID           : libxml2@2.9.13-10.el9_6.x86_64 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-10.el9_6?arch=x86_64&di
 │                       │      │                  │       stro=redhat-9.6 
 │                       │      │                  ╰ UID : db2c4af72d0bcd9d 
 │                       │      ├ InstalledVersion: 2.9.13-10.el9_6 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2.9.13-12.el9_6 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:fe85511d7855fd2f323e548f876f11634f8dc5c8e82b
 │                       │      │                  │         0f5f8d458804476ee749 
 │                       │      │                  ╰ DiffID: sha256:966053bec58d216fa2314e1c45842b465f4215ac2729
@@ -1901,13 +1934,15 @@
 │                       │      ├ PublishedDate   : 2025-04-08T03:15:15.94Z 
 │                       │      ╰ LastModifiedDate: 2025-04-23T19:09:35.517Z 
 │                       ├ [34] ╭ VulnerabilityID : CVE-2025-32415 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:13428 
 │                       │      ├ PkgID           : libxml2@2.9.13-10.el9_6.x86_64 
 │                       │      ├ PkgName         : libxml2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-10.el9_6?arch=x86_64&di
 │                       │      │                  │       stro=redhat-9.6 
 │                       │      │                  ╰ UID : db2c4af72d0bcd9d 
 │                       │      ├ InstalledVersion: 2.9.13-10.el9_6 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2.9.13-12.el9_6 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:fe85511d7855fd2f323e548f876f11634f8dc5c8e82b
 │                       │      │                  │         0f5f8d458804476ee749 
 │                       │      │                  ╰ DiffID: sha256:966053bec58d216fa2314e1c45842b465f4215ac2729
@@ -1923,10 +1958,12 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ╭ [0]: CWE-1284 
 │                       │      │                  ╰ [1]: CWE-125 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 1 
 │                       │      │                  ├ cbl-mariner: 1 
 │                       │      │                  ├ nvd        : 3 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -1936,12 +1973,17 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32415 
-│                       │      │                  ├ [1]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/890 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-32415 
-│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-7467-1 
-│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7467-2 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32415 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:13203 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-32415 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2360768 
+│                       │      │                  ├ [3] : https://errata.almalinux.org/8/ALSA-2025-13203.html 
+│                       │      │                  ├ [4] : https://gitlab.gnome.org/GNOME/libxml2/-/issues/890 
+│                       │      │                  ├ [5] : https://linux.oracle.com/cve/CVE-2025-32415.html 
+│                       │      │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-13203.html 
+│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2025-32415 
+│                       │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-7467-1 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7467-2 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-32415 
 │                       │      ├ PublishedDate   : 2025-04-17T17:15:33.733Z 
 │                       │      ╰ LastModifiedDate: 2025-04-23T18:17:52.053Z 
 │                       ├ [35] ╭ VulnerabilityID : CVE-2023-45322 
@@ -3250,6 +3292,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -3621,6 +3664,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -3992,6 +4036,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-1333 
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -4307,6 +4352,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-601 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ azure : 2 
 │                       │      │                  ├ ghsa  : 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
@@ -4499,7 +4545,7 @@
 │                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-11992.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:12010 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-6965.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-12010.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-12349.html 
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-6965 
 │                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7676-1 
 │                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7679-1 
