@@ -630,13 +630,20 @@
     CweIDs:
     - CWE-415
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
         V3Score: 4.2
     References:
+    - https://access.redhat.com/errata/RHSA-2025:12980
     - https://access.redhat.com/security/cve/CVE-2025-8058
+    - https://bugzilla.redhat.com/2383146
+    - https://errata.almalinux.org/8/ALSA-2025-12980.html
+    - https://linux.oracle.com/cve/CVE-2025-8058.html
+    - https://linux.oracle.com/errata/ELSA-2025-12980.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
     - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
@@ -671,13 +678,20 @@
     CweIDs:
     - CWE-415
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
         V3Score: 4.2
     References:
+    - https://access.redhat.com/errata/RHSA-2025:12980
     - https://access.redhat.com/security/cve/CVE-2025-8058
+    - https://bugzilla.redhat.com/2383146
+    - https://errata.almalinux.org/8/ALSA-2025-12980.html
+    - https://linux.oracle.com/cve/CVE-2025-8058.html
+    - https://linux.oracle.com/errata/ELSA-2025-12980.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
     - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
@@ -712,13 +726,20 @@
     CweIDs:
     - CWE-415
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
         V3Score: 4.2
     References:
+    - https://access.redhat.com/errata/RHSA-2025:12980
     - https://access.redhat.com/security/cve/CVE-2025-8058
+    - https://bugzilla.redhat.com/2383146
+    - https://errata.almalinux.org/8/ALSA-2025-12980.html
+    - https://linux.oracle.com/cve/CVE-2025-8058.html
+    - https://linux.oracle.com/errata/ELSA-2025-12980.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
     - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
@@ -1659,6 +1680,16 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:12447
     - https://access.redhat.com/errata/RHSA-2025:12450
+    - https://access.redhat.com/errata/RHSA-2025:13267
+    - https://access.redhat.com/errata/RHSA-2025:13308
+    - https://access.redhat.com/errata/RHSA-2025:13309
+    - https://access.redhat.com/errata/RHSA-2025:13310
+    - https://access.redhat.com/errata/RHSA-2025:13311
+    - https://access.redhat.com/errata/RHSA-2025:13312
+    - https://access.redhat.com/errata/RHSA-2025:13313
+    - https://access.redhat.com/errata/RHSA-2025:13314
+    - https://access.redhat.com/errata/RHSA-2025:13335
+    - https://access.redhat.com/errata/RHSA-2025:13464
     - https://access.redhat.com/security/cve/CVE-2025-7425
     - https://bugzilla.redhat.com/2379274
     - https://bugzilla.redhat.com/show_bug.cgi?id=2379274
@@ -1669,15 +1700,18 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-7425
     - https://www.cve.org/CVERecord?id=CVE-2025-7425
     PublishedDate: '2025-07-10T14:15:27.877Z'
-    LastModifiedDate: '2025-07-31T17:15:30.373Z'
+    LastModifiedDate: '2025-08-07T16:15:31.64Z'
   - VulnerabilityID: CVE-2025-32414
+    VendorIDs:
+    - RHSA-2025:13428
     PkgID: libxml2@2.9.13-10.el9_6.x86_64
     PkgName: libxml2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libxml2@2.9.13-10.el9_6?arch=x86_64&distro=redhat-9.6
       UID: db2c4af72d0bcd9d
     InstalledVersion: 2.9.13-10.el9_6
-    Status: affected
+    FixedVersion: 2.9.13-12.el9_6
+    Status: fixed
     Layer:
       Digest: sha256:fe85511d7855fd2f323e548f876f11634f8dc5c8e82b0f5f8d458804476ee749
       DiffID: sha256:966053bec58d216fa2314e1c45842b465f4215ac272917036e7b02f7ebcfcce8
@@ -1725,13 +1759,16 @@
     PublishedDate: '2025-04-08T03:15:15.94Z'
     LastModifiedDate: '2025-04-23T19:09:35.517Z'
   - VulnerabilityID: CVE-2025-32415
+    VendorIDs:
+    - RHSA-2025:13428
     PkgID: libxml2@2.9.13-10.el9_6.x86_64
     PkgName: libxml2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libxml2@2.9.13-10.el9_6?arch=x86_64&distro=redhat-9.6
       UID: db2c4af72d0bcd9d
     InstalledVersion: 2.9.13-10.el9_6
-    Status: affected
+    FixedVersion: 2.9.13-12.el9_6
+    Status: fixed
     Layer:
       Digest: sha256:fe85511d7855fd2f323e548f876f11634f8dc5c8e82b0f5f8d458804476ee749
       DiffID: sha256:966053bec58d216fa2314e1c45842b465f4215ac272917036e7b02f7ebcfcce8
@@ -1744,10 +1781,12 @@
     - CWE-1284
     - CWE-125
     VendorSeverity:
+      alma: 2
       amazon: 2
       azure: 1
       cbl-mariner: 1
       nvd: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -1759,8 +1798,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2025:13203
     - https://access.redhat.com/security/cve/CVE-2025-32415
+    - https://bugzilla.redhat.com/2360768
+    - https://errata.almalinux.org/8/ALSA-2025-13203.html
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/890
+    - https://linux.oracle.com/cve/CVE-2025-32415.html
+    - https://linux.oracle.com/errata/ELSA-2025-13203.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32415
     - https://ubuntu.com/security/notices/USN-7467-1
     - https://ubuntu.com/security/notices/USN-7467-2
@@ -2935,6 +2979,7 @@
     - CWE-1333
     VendorSeverity:
       amazon: 2
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       redhat: 2
@@ -3241,6 +3286,7 @@
     - CWE-1333
     VendorSeverity:
       amazon: 2
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       redhat: 2
@@ -3547,6 +3593,7 @@
     - CWE-1333
     VendorSeverity:
       amazon: 2
+      azure: 2
       bitnami: 2
       cbl-mariner: 2
       redhat: 2
@@ -3804,6 +3851,7 @@
     - CWE-601
     VendorSeverity:
       amazon: 2
+      azure: 2
       ghsa: 2
       redhat: 2
       ubuntu: 2
@@ -3977,7 +4025,7 @@
     - https://errata.almalinux.org/9/ALSA-2025-11992.html
     - https://errata.rockylinux.org/RLSA-2025:12010
     - https://linux.oracle.com/cve/CVE-2025-6965.html
-    - https://linux.oracle.com/errata/ELSA-2025-12010.html
+    - https://linux.oracle.com/errata/ELSA-2025-12349.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6965
     - https://ubuntu.com/security/notices/USN-7676-1
     - https://ubuntu.com/security/notices/USN-7679-1
