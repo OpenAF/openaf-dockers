@@ -843,7 +843,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32989 
 │                       │      ├ PublishedDate   : 2025-07-10T08:15:24.43Z 
-│                       │      ╰ LastModifiedDate: 2025-07-10T13:17:30.017Z 
+│                       │      ╰ LastModifiedDate: 2025-08-15T19:35:41.363Z 
 │                       ├ [14] ╭ VulnerabilityID : CVE-2025-32990 
 │                       │      ├ PkgID           : gnutls@3.8.3-6.el9.x86_64 
 │                       │      ├ PkgName         : gnutls 
@@ -870,10 +870,14 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
 │                       │      ├ VendorSeverity   ╭ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 8.2 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 6.5 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32990 
@@ -884,7 +888,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32990 
 │                       │      ├ PublishedDate   : 2025-07-10T10:15:33.06Z 
-│                       │      ╰ LastModifiedDate: 2025-07-10T13:17:30.017Z 
+│                       │      ╰ LastModifiedDate: 2025-08-15T19:32:53.387Z 
 │                       ├ [15] ╭ VulnerabilityID : CVE-2025-6395 
 │                       │      ├ PkgID           : gnutls@3.8.3-6.el9.x86_64 
 │                       │      ├ PkgName         : gnutls 
@@ -1134,9 +1138,13 @@
 │                       │      │                   using libarchive. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-190 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5.6 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.9 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-5916 
@@ -1150,7 +1158,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7601-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-5916 
 │                       │      ├ PublishedDate   : 2025-06-09T20:15:27.17Z 
-│                       │      ╰ LastModifiedDate: 2025-06-12T16:06:47.857Z 
+│                       │      ╰ LastModifiedDate: 2025-08-15T18:12:06.987Z 
 │                       ├ [21] ╭ VulnerabilityID : CVE-2025-5917 
 │                       │      ├ PkgID           : libarchive@3.5.3-5.el9_6.x86_64 
 │                       │      ├ PkgName         : libarchive 
@@ -1178,9 +1186,13 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 2.8 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-5917 
@@ -1192,7 +1204,7 @@
 │                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7601-1 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-5917 
 │                       │      ├ PublishedDate   : 2025-06-09T20:15:27.33Z 
-│                       │      ╰ LastModifiedDate: 2025-06-12T16:06:47.857Z 
+│                       │      ╰ LastModifiedDate: 2025-08-15T18:16:42.91Z 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2025-5918 
 │                       │      ├ PkgID           : libarchive@3.5.3-5.el9_6.x86_64 
 │                       │      ├ PkgName         : libarchive 
@@ -1218,8 +1230,12 @@
 │                       │      │                   condition. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ VendorSeverity   ─ redhat: 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ╰ redhat: 1 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 6.6 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.9 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-5918 
@@ -1230,7 +1246,7 @@
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-5918 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-5918 
 │                       │      ├ PublishedDate   : 2025-06-09T20:15:27.493Z 
-│                       │      ╰ LastModifiedDate: 2025-06-12T16:06:47.857Z 
+│                       │      ╰ LastModifiedDate: 2025-08-15T18:35:04.39Z 
 │                       ├ [23] ╭ VulnerabilityID : CVE-2024-11053 
 │                       │      ├ PkgID           : libcurl-minimal@7.76.1-31.el9_6.1.x86_64 
 │                       │      ├ PkgName         : libcurl-minimal 
@@ -2841,7 +2857,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -3218,7 +3234,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -3595,7 +3611,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
