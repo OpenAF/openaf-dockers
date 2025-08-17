@@ -750,7 +750,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-362 
 │                       │      │                  ╰ [1]: CWE-426 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
