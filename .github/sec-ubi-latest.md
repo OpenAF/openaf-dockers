@@ -951,7 +951,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-415 
 │                       │      ├ VendorSeverity   ╭ amazon: 3 
 │                       │      │                  ├ nvd   : 4 
-│                       │      │                  ├ photon: 4 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 3 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
@@ -1088,9 +1088,13 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ nvd   : 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 6.6 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.9 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-5915 
@@ -1102,7 +1106,7 @@
 │                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7601-1 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-5915 
 │                       │      ├ PublishedDate   : 2025-06-09T20:15:26.317Z 
-│                       │      ╰ LastModifiedDate: 2025-06-12T16:06:47.857Z 
+│                       │      ╰ LastModifiedDate: 2025-08-15T18:07:44.653Z 
 │                       ├ [20] ╭ VulnerabilityID : CVE-2025-5916 
 │                       │      ├ PkgID           : libarchive@3.5.3-5.el9_6.x86_64 
 │                       │      ├ PkgName         : libarchive 
@@ -2585,6 +2589,7 @@
 │                       │      │                            7ae23ec295519de6c6ee 
 │                       │      ├ SeveritySource  : redhat 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8941 
+│                       │      ├ Title           : linux-pam: Incomplete fix for CVE-2025-6020 
 │                       │      ├ Description     : A flaw was found in linux-pam. The pam_namespace module may
 │                       │      │                   improperly handle user-controlled paths, allowing local
 │                       │      │                   users to exploit symlink attacks and race conditions to
@@ -2593,8 +2598,13 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-22 
 │                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.8 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-8941 
-│                       │      │                  ╰ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
+│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-08-13T17:33:46.673Z 
 │                       ├ [50] ╭ VulnerabilityID : CVE-2022-41409 
@@ -2831,7 +2841,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -3208,7 +3218,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -3585,7 +3595,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 

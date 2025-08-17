@@ -97,80 +97,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
     LastModifiedDate: '2025-03-12T21:15:38.207Z'
-  - VulnerabilityID: CVE-2016-20013
-    PkgID: libc-bin@2.41-6ubuntu1.1
-    PkgName: libc-bin
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libc-bin@2.41-6ubuntu1.1?arch=amd64&distro=ubuntu-25.04
-      UID: 798a8ba2010c8ddb
-    InstalledVersion: 2.41-6ubuntu1.1
-    Status: affected
-    Layer:
-      Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
-      DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Description: sha256crypt and sha512crypt through 0.6 allow attackers to cause a denial of service (CPU consumption) because the algorithm's runtime is proportional to the square of the length of the password.
-    Severity: LOW
-    CweIDs:
-    - CWE-770
-    VendorSeverity:
-      nvd: 3
-      ubuntu: 1
-    CVSS:
-      nvd:
-        V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V2Score: 5
-        V3Score: 7.5
-    References:
-    - https://akkadia.org/drepper/SHA-crypt.txt
-    - https://pthree.org/2018/05/23/do-not-use-sha256crypt-sha512crypt-theyre-dangerous/
-    - https://twitter.com/solardiz/status/795601240151457793
-    - https://www.cve.org/CVERecord?id=CVE-2016-20013
-    PublishedDate: '2022-02-19T05:15:09.413Z'
-    LastModifiedDate: '2024-11-21T02:47:33.427Z'
-  - VulnerabilityID: CVE-2016-20013
-    PkgID: libc6@2.41-6ubuntu1.1
-    PkgName: libc6
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libc6@2.41-6ubuntu1.1?arch=amd64&distro=ubuntu-25.04
-      UID: de34a93826490997
-    InstalledVersion: 2.41-6ubuntu1.1
-    Status: affected
-    Layer:
-      Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
-      DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Description: sha256crypt and sha512crypt through 0.6 allow attackers to cause a denial of service (CPU consumption) because the algorithm's runtime is proportional to the square of the length of the password.
-    Severity: LOW
-    CweIDs:
-    - CWE-770
-    VendorSeverity:
-      nvd: 3
-      ubuntu: 1
-    CVSS:
-      nvd:
-        V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V2Score: 5
-        V3Score: 7.5
-    References:
-    - https://akkadia.org/drepper/SHA-crypt.txt
-    - https://pthree.org/2018/05/23/do-not-use-sha256crypt-sha512crypt-theyre-dangerous/
-    - https://twitter.com/solardiz/status/795601240151457793
-    - https://www.cve.org/CVERecord?id=CVE-2016-20013
-    PublishedDate: '2022-02-19T05:15:09.413Z'
-    LastModifiedDate: '2024-11-21T02:47:33.427Z'
   - VulnerabilityID: CVE-2024-2236
     PkgID: libgcrypt20@1.11.0-6ubuntu1
     PkgName: libgcrypt20
@@ -754,7 +680,7 @@
     - CWE-426
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 2
       redhat: 2
