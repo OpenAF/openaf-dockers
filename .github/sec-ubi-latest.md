@@ -784,7 +784,8 @@
 │                       │      │                   corruption, depending on allocator behavior. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-415 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
@@ -827,7 +828,8 @@
 │                       │      │                   when the certificate (SCT) is not checked correctly. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-295 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
@@ -868,7 +870,8 @@
 │                       │      │                   potentially crash the system. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ photon     : 3 
@@ -909,7 +912,8 @@
 │                       │      │                   software in _gnutls_figure_common_ciphersuite(). 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
@@ -2982,7 +2986,8 @@
 │                       │      │                   ff8b33e1 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-835 
-│                       │      ├ VendorSeverity   ╭ bitnami: 3 
+│                       │      ├ VendorSeverity   ╭ amazon : 3 
+│                       │      │                  ├ bitnami: 3 
 │                       │      │                  ╰ redhat : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                  │         │           N/A:H 
@@ -3359,7 +3364,8 @@
 │                       │      │                   ff8b33e1 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-835 
-│                       │      ├ VendorSeverity   ╭ bitnami: 3 
+│                       │      ├ VendorSeverity   ╭ amazon : 3 
+│                       │      │                  ├ bitnami: 3 
 │                       │      │                  ╰ redhat : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                  │         │           N/A:H 
@@ -3736,7 +3742,8 @@
 │                       │      │                   ff8b33e1 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-835 
-│                       │      ├ VendorSeverity   ╭ bitnami: 3 
+│                       │      ├ VendorSeverity   ╭ amazon : 3 
+│                       │      │                  ├ bitnami: 3 
 │                       │      │                  ╰ redhat : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                  │         │           N/A:H 
@@ -4231,36 +4238,42 @@
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/06/05/1 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2025/06/05/3 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-4598 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
-│                       │      │                  ├ [4] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f2
+│                       │      │                  ├ [3] : https://blogs.oracle.com/linux/post/analysis-of-cve-2
+│                       │      │                  │       025-4598 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2369242 
+│                       │      │                  ├ [5] : https://ciq.com/blog/the-real-danger-of-systemd-cored
+│                       │      │                  │       ump-cve-2025-4598/ 
+│                       │      │                  ├ [6] : https://git.kernel.org/linus/b5325b2a270fcaf7b2a9a0f2
 │                       │      │                  │       3d422ca8a5a8bdea 
-│                       │      │                  ├ [5] : https://github.com/systemd/systemd/commit/0c49e0049b7
+│                       │      │                  ├ [7] : https://github.com/systemd/systemd/commit/0c49e0049b7
 │                       │      │                  │       665bb7769a13ef346fef92e1ad4d6 (main) 
-│                       │      │                  ├ [6] : https://github.com/systemd/systemd/commit/13902e02532
+│                       │      │                  ├ [8] : https://github.com/systemd/systemd/commit/13902e02532
 │                       │      │                  │       1242b1d95c6d8b4e482b37f58cdef (main) 
-│                       │      │                  ├ [7] : https://github.com/systemd/systemd/commit/49f1f2d4a76
+│                       │      │                  ├ [9] : https://github.com/systemd/systemd/commit/49f1f2d4a76
 │                       │      │                  │       12bbed5211a73d11d6a94fbe3bb69 (main) 
-│                       │      │                  ├ [8] : https://github.com/systemd/systemd/commit/76e0ab49c47
+│                       │      │                  ├ [10]: https://github.com/systemd/systemd/commit/76e0ab49c47
 │                       │      │                  │       965877c19772a2b3bf55f6417ca39 (main) 
-│                       │      │                  ├ [9] : https://github.com/systemd/systemd/commit/868d95577ec
+│                       │      │                  ├ [11]: https://github.com/systemd/systemd/commit/868d95577ec
 │                       │      │                  │       9f862580ad365726515459be582fc (main) 
-│                       │      │                  ├ [10]: https://github.com/systemd/systemd/commit/8fc7b2a211e
+│                       │      │                  ├ [12]: https://github.com/systemd/systemd/commit/8fc7b2a211e
 │                       │      │                  │       b13ef1a94250b28e1c79cab8bdcb9 (main) 
-│                       │      │                  ├ [11]: https://github.com/systemd/systemd/commit/9ce8e3e449d
+│                       │      │                  ├ [13]: https://github.com/systemd/systemd/commit/9ce8e3e449d
 │                       │      │                  │       ef92c75ada41b7d10c5bc3946be77 (main) 
-│                       │      │                  ├ [12]: https://github.com/systemd/systemd/commit/e6a8687b939
+│                       │      │                  ├ [14]: https://github.com/systemd/systemd/commit/e6a8687b939
 │                       │      │                  │       ab21854f12f59a3cce703e32768cf (main) 
-│                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-4598.html 
-│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
-│                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7559-1 
-│                       │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
-│                       │      │                  ├ [18]: https://www.openwall.com/lists/oss-security/2025/05/2
+│                       │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2025-4598.html 
+│                       │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2025-20344.html 
+│                       │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2025-4598 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7559-1 
+│                       │      │                  ├ [19]: https://www.cve.org/CVERecord?id=CVE-2025-4598 
+│                       │      │                  ├ [20]: https://www.openwall.com/lists/oss-security/2025/05/2
 │                       │      │                  │       9/3 
-│                       │      │                  ╰ [19]: https://www.qualys.com/2025/05/29/apport-coredump/app
+│                       │      │                  ├ [21]: https://www.openwall.com/lists/oss-security/2025/08/1
+│                       │      │                  │       8/3 
+│                       │      │                  ╰ [22]: https://www.qualys.com/2025/05/29/apport-coredump/app
 │                       │      │                          ort-coredump.txt 
 │                       │      ├ PublishedDate   : 2025-05-30T14:15:23.557Z 
-│                       │      ╰ LastModifiedDate: 2025-08-12T19:59:36.587Z 
+│                       │      ╰ LastModifiedDate: 2025-08-18T16:15:28.447Z 
 │                       ├ [78] ╭ VulnerabilityID : CVE-2005-2541 
 │                       │      ├ PkgID           : tar@1.34-7.el9.x86_64 
 │                       │      ├ PkgName         : tar 
@@ -4332,7 +4345,11 @@
 │                       │      │                   installation processes in which "tar xf" is run more than
 │                       │      │                   once (e.g., when installing a package can automatically
 │                       │      │                   install two dependencies that are set up as untrusted
-│                       │      │                   tarballs instead of official packages). 
+│                       │      │                   tarballs instead of official packages). NOTE: the official
+│                       │      │                   GNU Tar manual has an otherwise-empty directory for each
+│                       │      │                   "tar xf" in its Security Rules of Thumb; however,
+│                       │      │                   third-party advice leads users to run "tar xf" more than
+│                       │      │                   once into the same directory. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-24 
 │                       │      ├ VendorSeverity   ╭ redhat: 2 
@@ -4343,13 +4360,19 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-45582 
 │                       │      │                  ├ [1]: https://github.com/i900008/vulndb/blob/main/Gnu_tar_vu
 │                       │      │                  │      ln.md 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-45582 
-│                       │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2025-45582 
-│                       │      │                  ├ [4]: https://www.gnu.org/software/tar/ 
-│                       │      │                  ╰ [5]: https://www.gnu.org/software/tar/manual/html_node/Inte
-│                       │      │                         grity.html#Integrity 
+│                       │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-tar/2025-08/msg
+│                       │      │                  │      00012.html 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-45582 
+│                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-45582 
+│                       │      │                  ├ [5]: https://www.gnu.org/software/tar/ 
+│                       │      │                  ├ [6]: https://www.gnu.org/software/tar/manual/html_node/Inte
+│                       │      │                  │      grity.html 
+│                       │      │                  ├ [7]: https://www.gnu.org/software/tar/manual/html_node/Inte
+│                       │      │                  │      grity.html#Integrity 
+│                       │      │                  ╰ [8]: https://www.gnu.org/software/tar/manual/html_node/Secu
+│                       │      │                         rity-rules-of-thumb.html 
 │                       │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
-│                       │      ╰ LastModifiedDate: 2025-07-17T13:09:39.997Z 
+│                       │      ╰ LastModifiedDate: 2025-08-18T04:15:36.743Z 
 │                       ╰ [80] ╭ VulnerabilityID : CVE-2023-39804 
 │                              ├ PkgID           : tar@1.34-7.el9.x86_64 
 │                              ├ PkgName         : tar 
