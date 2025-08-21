@@ -2881,6 +2881,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
+      amazon: 1
       ghsa: 2
       redhat: 1
     CVSS:
