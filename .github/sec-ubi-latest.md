@@ -787,10 +787,14 @@
 │                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 8.2 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 6.5 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-32988 
@@ -801,7 +805,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7635-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-32988 
 │                       │      ├ PublishedDate   : 2025-07-10T08:15:24.223Z 
-│                       │      ╰ LastModifiedDate: 2025-07-10T13:17:30.017Z 
+│                       │      ╰ LastModifiedDate: 2025-08-21T15:37:20.973Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2025-32989 
 │                       │      ├ PkgID           : gnutls@3.8.3-6.el9.x86_64 
 │                       │      ├ PkgName         : gnutls 
@@ -931,13 +935,15 @@
 │                       │      ├ PublishedDate   : 2025-07-10T16:15:25.11Z 
 │                       │      ╰ LastModifiedDate: 2025-07-15T13:24:41.097Z 
 │                       ├ [16] ╭ VulnerabilityID : CVE-2025-5914 
+│                       │      ├ VendorIDs        ─ [0]: RHSA-2025:14130 
 │                       │      ├ PkgID           : libarchive@3.5.3-5.el9_6.x86_64 
 │                       │      ├ PkgName         : libarchive 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-5.el9_6?arch=x86_64&d
 │                       │      │                  │       istro=redhat-9.6 
 │                       │      │                  ╰ UID : 7921b5291e84afbc 
 │                       │      ├ InstalledVersion: 3.5.3-5.el9_6 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 3.5.3-6.el9_6 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:8c1fff6291f422585bc92e701c88e7a226b3f4476949
 │                       │      │                  │         cae3126479f4c0477716 
 │                       │      │                  ╰ DiffID: sha256:023a490b42e0cf34ec8590114c543daaf4152e801965
@@ -957,29 +963,40 @@
 │                       │      │                   denial-of-service condition. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-415 
-│                       │      ├ VendorSeverity   ╭ amazon: 3 
-│                       │      │                  ├ nvd   : 4 
-│                       │      │                  ├ photon: 3 
-│                       │      │                  ├ redhat: 3 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ nvd        : 4 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                  │        │           /A:H 
 │                       │      │                  │        ╰ V3Score : 9.8 
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-5914 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2370861 
-│                       │      │                  ├ [2]: https://github.com/libarchive/libarchive/pull/2598 
-│                       │      │                  ├ [3]: https://github.com/libarchive/libarchive/pull/2598/com
-│                       │      │                  │      mits/196029dd0a17cd17c916eada9085839032b76ec9 
-│                       │      │                  ├ [4]: https://github.com/libarchive/libarchive/releases/tag/
-│                       │      │                  │      v3.8.0 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-5914 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7601-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-5914 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:14130 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:14135 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:14137 
+│                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:14141 
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:14142 
+│                       │      │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2025-5914 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2370861 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2370861 
+│                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2025-14130.html 
+│                       │      │                  ├ [9] : https://github.com/libarchive/libarchive/pull/2598 
+│                       │      │                  ├ [10]: https://github.com/libarchive/libarchive/pull/2598/co
+│                       │      │                  │       mmits/196029dd0a17cd17c916eada9085839032b76ec9 
+│                       │      │                  ├ [11]: https://github.com/libarchive/libarchive/releases/tag
+│                       │      │                  │       /v3.8.0 
+│                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-5914.html 
+│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-14137.html 
+│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-5914 
+│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7601-1 
+│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-5914 
 │                       │      ├ PublishedDate   : 2025-06-09T20:15:26.123Z 
-│                       │      ╰ LastModifiedDate: 2025-08-12T11:15:27.42Z 
+│                       │      ╰ LastModifiedDate: 2025-08-20T15:15:35.48Z 
 │                       ├ [17] ╭ VulnerabilityID : CVE-2023-30571 
 │                       │      ├ PkgID           : libarchive@3.5.3-5.el9_6.x86_64 
 │                       │      ├ PkgName         : libarchive 
@@ -1856,7 +1873,8 @@
 │                       │      ├ VendorSeverity   ╭ azure      : 1 
 │                       │      │                  ├ cbl-mariner: 1 
 │                       │      │                  ├ nvd        : 1 
-│                       │      │                  ╰ redhat     : 1 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N
 │                       │      │                  │        │           /A:L 
 │                       │      │                  │        ╰ V3Score : 2.5 
@@ -1865,8 +1883,10 @@
 │                       │      │                           ╰ V3Score : 2.5 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-6170 
 │                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2372952 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-6170 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-6170 
+│                       │      │                  ├ [2]: https://gitlab.gnome.org/GNOME/libxml2/-/issues/941 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-6170 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-7694-1 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-6170 
 │                       │      ├ PublishedDate   : 2025-06-16T16:15:20.43Z 
 │                       │      ╰ LastModifiedDate: 2025-08-12T13:04:06.117Z 
 │                       ├ [33] ╭ VulnerabilityID : CVE-2023-50495 
