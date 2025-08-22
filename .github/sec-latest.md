@@ -1,12 +1,8 @@
 ````yaml
-╭ ojob.io/sec/genSecBadge:  
-├ image                  : openaf/oaf:latest 
-├ file                   : .github/sec-latest.svg 
-├ reportFile             : .github/sec-latest.yaml 
-├ init                    
-├ msg                    : Producing a summary of the results... 
-├ __key                  : report 
-├ level                  : info 
-├ options                 
-╰ __format               : pm 
+╭ [0] ╭ Target: openaf/oaf:latest (alpine 3.22.1) 
+│     ├ Class : os-pkgs 
+│     ╰ Type  : alpine 
+╰ [1] ╭ Target: Java 
+      ├ Class : lang-pkgs 
+      ╰ Type  : jar 
 ````
