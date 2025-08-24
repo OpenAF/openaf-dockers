@@ -223,7 +223,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -276,7 +276,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -334,7 +334,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -387,7 +387,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -886,7 +886,7 @@
     - https://access.redhat.com/security/cve/CVE-2025-5914
     - https://bugzilla.redhat.com/2370861
     - https://bugzilla.redhat.com/show_bug.cgi?id=2370861
-    - https://errata.almalinux.org/8/ALSA-2025-14135.html
+    - https://errata.almalinux.org/10/ALSA-2025-14137.html
     - https://github.com/libarchive/libarchive/pull/2598
     - https://github.com/libarchive/libarchive/pull/2598/commits/196029dd0a17cd17c916eada9085839032b76ec9
     - https://github.com/libarchive/libarchive/releases/tag/v3.8.0
@@ -1171,7 +1171,7 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/12/11/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-11053
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1224,7 +1224,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-11053.html
     - https://curl.se/docs/CVE-2024-11053.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://hackerone.com/reports/2829063
     - https://linux.oracle.com/cve/CVE-2024-11053.html
     - https://linux.oracle.com/errata/ELSA-2025-1673.html
@@ -1282,7 +1282,7 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/07/31/1
-    - https://access.redhat.com/errata/RHSA-2025:1673
+    - https://access.redhat.com/errata/RHSA-2025:1671
     - https://access.redhat.com/security/cve/CVE-2024-7264
     - https://bugzilla.redhat.com/2294581
     - https://bugzilla.redhat.com/2294676
@@ -1335,7 +1335,7 @@
     - https://bugzilla.redhat.com/2339305
     - https://curl.se/docs/CVE-2024-7264.html
     - https://curl.se/docs/CVE-2024-7264.json
-    - https://errata.almalinux.org/8/ALSA-2025-1673.html
+    - https://errata.almalinux.org/9/ALSA-2025-1671.html
     - https://github.com/curl/curl/commit/27959ecce75cdb2809c0bdb3286e60e08fadb519
     - https://hackerone.com/reports/2629968
     - https://linux.oracle.com/cve/CVE-2024-7264.html
@@ -2592,7 +2592,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -2905,7 +2905,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -3218,7 +3218,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
