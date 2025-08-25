@@ -3601,7 +3601,7 @@
 │                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-11992.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:12010 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-6965.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-12349.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-14101.html 
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-6965 
 │                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7676-1 
 │                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7679-1 
