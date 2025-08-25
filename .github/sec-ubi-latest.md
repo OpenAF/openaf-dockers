@@ -984,7 +984,7 @@
 │                       │      │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2025-5914 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2370861 
 │                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2370861 
-│                       │      │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2025-14137.html 
+│                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2025-14130.html 
 │                       │      │                  ├ [9] : https://github.com/libarchive/libarchive/pull/2598 
 │                       │      │                  ├ [10]: https://github.com/libarchive/libarchive/pull/2598/co
 │                       │      │                  │       mmits/196029dd0a17cd17c916eada9085839032b76ec9 
@@ -2881,7 +2881,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -3262,7 +3262,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -3643,7 +3643,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
