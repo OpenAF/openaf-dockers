@@ -788,7 +788,7 @@
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 3 
-│                       │      │                  ├ photon     : 2 
+│                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
@@ -1131,7 +1131,7 @@
 │                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-7601-1 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-5915 
 │                       │      ├ PublishedDate   : 2025-06-09T20:15:26.317Z 
-│                       │      ╰ LastModifiedDate: 2025-08-15T18:07:44.653Z 
+│                       │      ╰ LastModifiedDate: 2025-08-25T02:28:51.487Z 
 │                       ├ [20] ╭ VulnerabilityID : CVE-2025-5916 
 │                       │      ├ PkgID           : libarchive@3.5.3-5.el9_6.x86_64 
 │                       │      ├ PkgName         : libarchive 
