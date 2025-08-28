@@ -11,10 +11,10 @@
 │                       │     ├ InstalledVersion: 1.2.5-r9 
 │                       │     ├ FixedVersion    : 1.2.5-r10 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:6bcbbc34ba3918524d649c9d3b0968bc25709814b6ff5
-│                       │     │                  │         9883dceb9f1ed43c359 
-│                       │     │                  ╰ DiffID: sha256:339e6cfa5f7d3c02d65480c2d9d7b4071c29abf42c82d
-│                       │     │                            b30857073352a05b7b7 
+│                       │     ├ Layer            ╭ Digest: sha256:c5663942badc8648a610f1a2c136e5f04bd4efec271d7
+│                       │     │                  │         c5b7a2b420742913b5e 
+│                       │     │                  ╰ DiffID: sha256:74ace7df2765e1294210338c35e9b0222c722d9aeaa96
+│                       │     │                            e0e1647401933a00f94 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26519 
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
@@ -48,10 +48,10 @@
 │                             ├ InstalledVersion: 1.2.5-r9 
 │                             ├ FixedVersion    : 1.2.5-r10 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:6bcbbc34ba3918524d649c9d3b0968bc25709814b6ff5
-│                             │                  │         9883dceb9f1ed43c359 
-│                             │                  ╰ DiffID: sha256:339e6cfa5f7d3c02d65480c2d9d7b4071c29abf42c82d
-│                             │                            b30857073352a05b7b7 
+│                             ├ Layer            ╭ Digest: sha256:c5663942badc8648a610f1a2c136e5f04bd4efec271d7
+│                             │                  │         c5b7a2b420742913b5e 
+│                             │                  ╰ DiffID: sha256:74ace7df2765e1294210338c35e9b0222c722d9aeaa96
+│                             │                            e0e1647401933a00f94 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26519 
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
