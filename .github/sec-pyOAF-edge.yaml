@@ -2897,6 +2897,7 @@
     - CWE-674
     VendorSeverity:
       amazon: 1
+      azure: 2
       ghsa: 2
       redhat: 1
     CVSS:
