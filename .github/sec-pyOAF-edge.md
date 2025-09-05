@@ -3927,6 +3927,7 @@
                               ├ Severity        : MEDIUM 
                               ├ CweIDs           ─ [0]: CWE-674 
                               ├ VendorSeverity   ╭ amazon: 1 
+                              │                  ├ azure : 2 
                               │                  ├ ghsa  : 2 
                               │                  ╰ redhat: 1 
                               ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/
