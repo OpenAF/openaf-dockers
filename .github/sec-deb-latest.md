@@ -747,8 +747,8 @@
 │                       │      │                   11a11ecf4bea72b17d250cfb43c897be1341861e and released in
 │                       │      │                   Perl version 5.13.6 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ╭ [0]: CWE-362 
-│                       │      │                  ╰ [1]: CWE-426 
+│                       │      ├ CweIDs           ╭ [0]: CWE-426 
+│                       │      │                  ╰ [1]: CWE-689 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
@@ -795,7 +795,7 @@
 │                       │      │                  ╰ [26]: https://www.openwall.com/lists/oss-security/2025/05/2
 │                       │      │                          2/2 
 │                       │      ├ PublishedDate   : 2025-05-30T13:15:22.35Z 
-│                       │      ╰ LastModifiedDate: 2025-06-03T04:15:40.47Z 
+│                       │      ╰ LastModifiedDate: 2025-09-05T14:15:44.947Z 
 │                       ╰ [14] ╭ VulnerabilityID : CVE-2025-45582 
 │                              ├ PkgID           : tar@1.35+dfsg-3.1 
 │                              ├ PkgName         : tar 
