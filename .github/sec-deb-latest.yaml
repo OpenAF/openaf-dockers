@@ -676,8 +676,8 @@
     Description: "Perl threads have a working directory race condition where file operations may target unintended paths.\n\nIf a directory handle is open at thread creation, the process-wide current working directory is temporarily changed in order to clone\_that handle for the new thread, which is visible from any third (or\_more) thread already running. \n\nThis may lead to unintended operations\_such as loading code or accessing files from unexpected locations,\_which a local attacker may be able to exploit.\n\nThe bug was introduced in commit\_11a11ecf4bea72b17d250cfb43c897be1341861e and released in Perl version 5.13.6"
     Severity: MEDIUM
     CweIDs:
-    - CWE-362
     - CWE-426
+    - CWE-689
     VendorSeverity:
       alma: 2
       amazon: 2
@@ -720,7 +720,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-40909
     - https://www.openwall.com/lists/oss-security/2025/05/22/2
     PublishedDate: '2025-05-30T13:15:22.35Z'
-    LastModifiedDate: '2025-06-03T04:15:40.47Z'
+    LastModifiedDate: '2025-09-05T14:15:44.947Z'
   - VulnerabilityID: CVE-2025-45582
     PkgID: tar@1.35+dfsg-3.1
     PkgName: tar
