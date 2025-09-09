@@ -3,16 +3,16 @@
   Type: ubuntu
   Vulnerabilities:
   - VulnerabilityID: CVE-2016-2781
-    PkgID: coreutils@9.5-1ubuntu1.25.04.1
+    PkgID: coreutils@9.5-1ubuntu1.25.04.2
     PkgName: coreutils
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/coreutils@9.5-1ubuntu1.25.04.1?arch=amd64&distro=ubuntu-25.04
-      UID: 4420166f792adb9f
-    InstalledVersion: 9.5-1ubuntu1.25.04.1
+      PURL: pkg:deb/ubuntu/coreutils@9.5-1ubuntu1.25.04.2?arch=amd64&distro=ubuntu-25.04
+      UID: fb90d22e49e1fb47
+    InstalledVersion: 9.5-1ubuntu1.25.04.2
     Status: affected
     Layer:
-      Digest: sha256:4fa918ebfa74883b9a4767c97937bcab5ec81c9f82cf8d0b3a76e3e70b60fb0f
-      DiffID: sha256:46b48c19a33bfb1319b3305a5adc9ea5ed38165969f887edf231f32dea1c7cf2
+      Digest: sha256:e4922c8f2aeb592e9be8b8be0f42ff70f8931683355be9d9255c5b4684ab2b6e
+      DiffID: sha256:267798f87613651173540bc061542cbbcabbab4437e4a6f5a32690e5b1c5956e
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-2781
     DataSource:
@@ -62,8 +62,8 @@
     InstalledVersion: 2.4.4-2ubuntu23.1
     Status: affected
     Layer:
-      Digest: sha256:4fa918ebfa74883b9a4767c97937bcab5ec81c9f82cf8d0b3a76e3e70b60fb0f
-      DiffID: sha256:46b48c19a33bfb1319b3305a5adc9ea5ed38165969f887edf231f32dea1c7cf2
+      Digest: sha256:e4922c8f2aeb592e9be8b8be0f42ff70f8931683355be9d9255c5b4684ab2b6e
+      DiffID: sha256:267798f87613651173540bc061542cbbcabbab4437e4a6f5a32690e5b1c5956e
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -97,6 +97,110 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
     LastModifiedDate: '2025-03-12T21:15:38.207Z'
+  - VulnerabilityID: CVE-2025-8058
+    PkgID: libc-bin@2.41-6ubuntu1.1
+    PkgName: libc-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc-bin@2.41-6ubuntu1.1?arch=amd64&distro=ubuntu-25.04
+      UID: 798a8ba2010c8ddb
+    InstalledVersion: 2.41-6ubuntu1.1
+    Status: affected
+    Layer:
+      Digest: sha256:e4922c8f2aeb592e9be8b8be0f42ff70f8931683355be9d9255c5b4684ab2b6e
+      DiffID: sha256:267798f87613651173540bc061542cbbcabbab4437e4a6f5a32690e5b1c5956e
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8058
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glibc: Double free in glibc'
+    Description: |-
+      The regcomp function in the GNU C library version from 2.4 to 2.41 is 
+      subject to a double free if some previous allocation fails. It can be 
+      accomplished either by a malloc failure or by using an interposed malloc
+       that injects random malloc failures. The double free can allow buffer 
+      manipulation depending of how the regex is constructed. This issue 
+      affects all architectures and ABIs supported by the GNU C library.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-415
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.2
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:13240
+    - https://access.redhat.com/security/cve/CVE-2025-8058
+    - https://bugzilla.redhat.com/2383146
+    - https://errata.almalinux.org/10/ALSA-2025-13240.html
+    - https://linux.oracle.com/cve/CVE-2025-8058.html
+    - https://linux.oracle.com/errata/ELSA-2025-13240.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2025-0005
+    - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
+    - https://www.cve.org/CVERecord?id=CVE-2025-8058
+    PublishedDate: '2025-07-23T20:15:27.747Z'
+    LastModifiedDate: '2025-07-25T15:29:44.523Z'
+  - VulnerabilityID: CVE-2025-8058
+    PkgID: libc6@2.41-6ubuntu1.1
+    PkgName: libc6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc6@2.41-6ubuntu1.1?arch=amd64&distro=ubuntu-25.04
+      UID: de34a93826490997
+    InstalledVersion: 2.41-6ubuntu1.1
+    Status: affected
+    Layer:
+      Digest: sha256:e4922c8f2aeb592e9be8b8be0f42ff70f8931683355be9d9255c5b4684ab2b6e
+      DiffID: sha256:267798f87613651173540bc061542cbbcabbab4437e4a6f5a32690e5b1c5956e
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8058
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glibc: Double free in glibc'
+    Description: |-
+      The regcomp function in the GNU C library version from 2.4 to 2.41 is 
+      subject to a double free if some previous allocation fails. It can be 
+      accomplished either by a malloc failure or by using an interposed malloc
+       that injects random malloc failures. The double free can allow buffer 
+      manipulation depending of how the regex is constructed. This issue 
+      affects all architectures and ABIs supported by the GNU C library.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-415
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.2
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:13240
+    - https://access.redhat.com/security/cve/CVE-2025-8058
+    - https://bugzilla.redhat.com/2383146
+    - https://errata.almalinux.org/10/ALSA-2025-13240.html
+    - https://linux.oracle.com/cve/CVE-2025-8058.html
+    - https://linux.oracle.com/errata/ELSA-2025-13240.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=33185
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2025-0005
+    - https://sourceware.org/git/?p=glibc.git;a=commit;h=3ff17af18c38727b88d9115e536c069e6b5d601f
+    - https://www.cve.org/CVERecord?id=CVE-2025-8058
+    PublishedDate: '2025-07-23T20:15:27.747Z'
+    LastModifiedDate: '2025-07-25T15:29:44.523Z'
   - VulnerabilityID: CVE-2024-2236
     PkgID: libgcrypt20@1.11.0-6ubuntu1
     PkgName: libgcrypt20
@@ -106,8 +210,8 @@
     InstalledVersion: 1.11.0-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:4fa918ebfa74883b9a4767c97937bcab5ec81c9f82cf8d0b3a76e3e70b60fb0f
-      DiffID: sha256:46b48c19a33bfb1319b3305a5adc9ea5ed38165969f887edf231f32dea1c7cf2
+      Digest: sha256:e4922c8f2aeb592e9be8b8be0f42ff70f8931683355be9d9255c5b4684ab2b6e
+      DiffID: sha256:267798f87613651173540bc061542cbbcabbab4437e4a6f5a32690e5b1c5956e
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2236
     DataSource:
@@ -157,8 +261,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:4fa918ebfa74883b9a4767c97937bcab5ec81c9f82cf8d0b3a76e3e70b60fb0f
-      DiffID: sha256:46b48c19a33bfb1319b3305a5adc9ea5ed38165969f887edf231f32dea1c7cf2
+      Digest: sha256:e4922c8f2aeb592e9be8b8be0f42ff70f8931683355be9d9255c5b4684ab2b6e
+      DiffID: sha256:267798f87613651173540bc061542cbbcabbab4437e4a6f5a32690e5b1c5956e
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -210,8 +314,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:4fa918ebfa74883b9a4767c97937bcab5ec81c9f82cf8d0b3a76e3e70b60fb0f
-      DiffID: sha256:46b48c19a33bfb1319b3305a5adc9ea5ed38165969f887edf231f32dea1c7cf2
+      Digest: sha256:e4922c8f2aeb592e9be8b8be0f42ff70f8931683355be9d9255c5b4684ab2b6e
+      DiffID: sha256:267798f87613651173540bc061542cbbcabbab4437e4a6f5a32690e5b1c5956e
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -264,8 +368,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:4fa918ebfa74883b9a4767c97937bcab5ec81c9f82cf8d0b3a76e3e70b60fb0f
-      DiffID: sha256:46b48c19a33bfb1319b3305a5adc9ea5ed38165969f887edf231f32dea1c7cf2
+      Digest: sha256:e4922c8f2aeb592e9be8b8be0f42ff70f8931683355be9d9255c5b4684ab2b6e
+      DiffID: sha256:267798f87613651173540bc061542cbbcabbab4437e4a6f5a32690e5b1c5956e
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -317,8 +421,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:4fa918ebfa74883b9a4767c97937bcab5ec81c9f82cf8d0b3a76e3e70b60fb0f
-      DiffID: sha256:46b48c19a33bfb1319b3305a5adc9ea5ed38165969f887edf231f32dea1c7cf2
+      Digest: sha256:e4922c8f2aeb592e9be8b8be0f42ff70f8931683355be9d9255c5b4684ab2b6e
+      DiffID: sha256:267798f87613651173540bc061542cbbcabbab4437e4a6f5a32690e5b1c5956e
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -371,8 +475,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:4fa918ebfa74883b9a4767c97937bcab5ec81c9f82cf8d0b3a76e3e70b60fb0f
-      DiffID: sha256:46b48c19a33bfb1319b3305a5adc9ea5ed38165969f887edf231f32dea1c7cf2
+      Digest: sha256:e4922c8f2aeb592e9be8b8be0f42ff70f8931683355be9d9255c5b4684ab2b6e
+      DiffID: sha256:267798f87613651173540bc061542cbbcabbab4437e4a6f5a32690e5b1c5956e
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -424,8 +528,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:4fa918ebfa74883b9a4767c97937bcab5ec81c9f82cf8d0b3a76e3e70b60fb0f
-      DiffID: sha256:46b48c19a33bfb1319b3305a5adc9ea5ed38165969f887edf231f32dea1c7cf2
+      Digest: sha256:e4922c8f2aeb592e9be8b8be0f42ff70f8931683355be9d9255c5b4684ab2b6e
+      DiffID: sha256:267798f87613651173540bc061542cbbcabbab4437e4a6f5a32690e5b1c5956e
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -478,8 +582,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:4fa918ebfa74883b9a4767c97937bcab5ec81c9f82cf8d0b3a76e3e70b60fb0f
-      DiffID: sha256:46b48c19a33bfb1319b3305a5adc9ea5ed38165969f887edf231f32dea1c7cf2
+      Digest: sha256:e4922c8f2aeb592e9be8b8be0f42ff70f8931683355be9d9255c5b4684ab2b6e
+      DiffID: sha256:267798f87613651173540bc061542cbbcabbab4437e4a6f5a32690e5b1c5956e
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
     DataSource:
@@ -531,8 +635,8 @@
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
-      Digest: sha256:4fa918ebfa74883b9a4767c97937bcab5ec81c9f82cf8d0b3a76e3e70b60fb0f
-      DiffID: sha256:46b48c19a33bfb1319b3305a5adc9ea5ed38165969f887edf231f32dea1c7cf2
+      Digest: sha256:e4922c8f2aeb592e9be8b8be0f42ff70f8931683355be9d9255c5b4684ab2b6e
+      DiffID: sha256:267798f87613651173540bc061542cbbcabbab4437e4a6f5a32690e5b1c5956e
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10963
     DataSource:
@@ -576,6 +680,45 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10963
     PublishedDate: '2024-11-07T16:15:17.15Z'
     LastModifiedDate: '2025-02-06T06:15:29.24Z'
+  - VulnerabilityID: CVE-2025-58050
+    PkgID: libpcre2-8-0@10.45-1
+    PkgName: libpcre2-8-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpcre2-8-0@10.45-1?arch=amd64&distro=ubuntu-25.04
+      UID: acc3f2b7a0c0ada6
+    InstalledVersion: 10.45-1
+    Status: affected
+    Layer:
+      Digest: sha256:e4922c8f2aeb592e9be8b8be0f42ff70f8931683355be9d9255c5b4684ab2b6e
+      DiffID: sha256:267798f87613651173540bc061542cbbcabbab4437e4a6f5a32690e5b1c5956e
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58050
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'pcre2: PCRE2: heap-buffer-overflow read in match_ref due to missing boundary restoration in SCS'
+    Description: The PCRE2 library is a set of C functions that implement regular expression pattern matching. In version 10.45, a heap-buffer-overflow read vulnerability exists in the PCRE2 regular expression matching engine, specifically within the handling of the (*scs:...) (Scan SubString) verb when combined with (*ACCEPT) in src/pcre2_match.c. This vulnerability may potentially lead to information disclosure if the out-of-bounds data read during the memcmp affects the final match result in a way observable by the attacker. This issue has been resolved in version 10.46.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-58050
+    - https://github.com/PCRE2Project/pcre2/commit/a141712e5967d448c7ce13090ab530c8e3d82254
+    - https://github.com/PCRE2Project/pcre2/releases/tag/pcre2-10.46
+    - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-c2gv-xgf5-5cc2
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-58050
+    - https://www.cve.org/CVERecord?id=CVE-2025-58050
+    PublishedDate: '2025-08-27T19:15:37.56Z'
+    LastModifiedDate: '2025-08-29T16:24:09.86Z'
   - VulnerabilityID: CVE-2024-56433
     PkgID: login.defs@1:4.16.0-7ubuntu1
     PkgName: login.defs
@@ -585,8 +728,8 @@
     InstalledVersion: 1:4.16.0-7ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:4fa918ebfa74883b9a4767c97937bcab5ec81c9f82cf8d0b3a76e3e70b60fb0f
-      DiffID: sha256:46b48c19a33bfb1319b3305a5adc9ea5ed38165969f887edf231f32dea1c7cf2
+      Digest: sha256:e4922c8f2aeb592e9be8b8be0f42ff70f8931683355be9d9255c5b4684ab2b6e
+      DiffID: sha256:267798f87613651173540bc061542cbbcabbab4437e4a6f5a32690e5b1c5956e
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -624,8 +767,8 @@
     InstalledVersion: 1:4.16.0-7ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:4fa918ebfa74883b9a4767c97937bcab5ec81c9f82cf8d0b3a76e3e70b60fb0f
-      DiffID: sha256:46b48c19a33bfb1319b3305a5adc9ea5ed38165969f887edf231f32dea1c7cf2
+      Digest: sha256:e4922c8f2aeb592e9be8b8be0f42ff70f8931683355be9d9255c5b4684ab2b6e
+      DiffID: sha256:267798f87613651173540bc061542cbbcabbab4437e4a6f5a32690e5b1c5956e
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-56433
     DataSource:
@@ -663,8 +806,8 @@
     InstalledVersion: 1.35+dfsg-3.1
     Status: affected
     Layer:
-      Digest: sha256:4fa918ebfa74883b9a4767c97937bcab5ec81c9f82cf8d0b3a76e3e70b60fb0f
-      DiffID: sha256:46b48c19a33bfb1319b3305a5adc9ea5ed38165969f887edf231f32dea1c7cf2
+      Digest: sha256:e4922c8f2aeb592e9be8b8be0f42ff70f8931683355be9d9255c5b4684ab2b6e
+      DiffID: sha256:267798f87613651173540bc061542cbbcabbab4437e4a6f5a32690e5b1c5956e
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-45582
     DataSource:
