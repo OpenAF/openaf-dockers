@@ -1028,7 +1028,7 @@
 │                       │      │                  ├ [13]: https://access.redhat.com/security/cve/CVE-2025-5914 
 │                       │      │                  ├ [14]: https://bugzilla.redhat.com/2370861 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2370861 
-│                       │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2025-14130.html 
+│                       │      │                  ├ [16]: https://errata.almalinux.org/10/ALSA-2025-14137.html 
 │                       │      │                  ├ [17]: https://github.com/libarchive/libarchive/pull/2598 
 │                       │      │                  ├ [18]: https://github.com/libarchive/libarchive/pull/2598/co
 │                       │      │                  │       mmits/196029dd0a17cd17c916eada9085839032b76ec9 
