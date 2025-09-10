@@ -900,6 +900,7 @@
       oracle-oval: 3
       photon: 3
       redhat: 3
+      rocky: 3
       ubuntu: 2
     CVSS:
       nvd:
@@ -925,7 +926,9 @@
     - https://access.redhat.com/security/cve/CVE-2025-5914
     - https://bugzilla.redhat.com/2370861
     - https://bugzilla.redhat.com/show_bug.cgi?id=2370861
-    - https://errata.almalinux.org/10/ALSA-2025-14137.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5914
+    - https://errata.almalinux.org/9/ALSA-2025-14130.html
+    - https://errata.rockylinux.org/RLSA-2025:14135
     - https://github.com/libarchive/libarchive/pull/2598
     - https://github.com/libarchive/libarchive/pull/2598/commits/196029dd0a17cd17c916eada9085839032b76ec9
     - https://github.com/libarchive/libarchive/releases/tag/v3.8.0
@@ -2468,9 +2471,11 @@
     - https://access.redhat.com/security/cve/CVE-2025-6020
     - https://bugzilla.redhat.com/2372512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
     - https://errata.almalinux.org/9/ALSA-2025-9526.html
-    - https://errata.rockylinux.org/RLSA-2025:10027
+    - https://errata.rockylinux.org/RLSA-2025:14557
     - https://linux.oracle.com/cve/CVE-2025-6020.html
     - https://linux.oracle.com/errata/ELSA-2025-9526.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6020
@@ -2504,6 +2509,7 @@
       alma: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
@@ -2522,8 +2528,12 @@
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
     - https://bugzilla.redhat.com/2388220
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
     - https://errata.almalinux.org/9/ALSA-2025-15099.html
+    - https://errata.rockylinux.org/RLSA-2025:14557
     - https://linux.oracle.com/cve/CVE-2025-8941.html
     - https://linux.oracle.com/errata/ELSA-2025-15099.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
@@ -2856,6 +2866,7 @@
       bitnami: 3
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -2869,7 +2880,10 @@
     - https://access.redhat.com/security/cve/CVE-2025-8194
     - https://bugzilla.redhat.com/2366982
     - https://bugzilla.redhat.com/2384043
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2384043
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8194
     - https://errata.almalinux.org/8/ALSA-2025-14900.html
+    - https://errata.rockylinux.org/RLSA-2025:14841
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
     - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
@@ -3055,6 +3069,7 @@
       bitnami: 3
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -3068,7 +3083,10 @@
     - https://access.redhat.com/security/cve/CVE-2025-8194
     - https://bugzilla.redhat.com/2366982
     - https://bugzilla.redhat.com/2384043
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2384043
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8194
     - https://errata.almalinux.org/8/ALSA-2025-14900.html
+    - https://errata.rockylinux.org/RLSA-2025:14841
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
     - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
@@ -3254,6 +3272,7 @@
       bitnami: 3
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       bitnami:
@@ -3267,7 +3286,10 @@
     - https://access.redhat.com/security/cve/CVE-2025-8194
     - https://bugzilla.redhat.com/2366982
     - https://bugzilla.redhat.com/2384043
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2384043
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8194
     - https://errata.almalinux.org/8/ALSA-2025-14900.html
+    - https://errata.rockylinux.org/RLSA-2025:14841
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/7040aa54f14676938970e10c5f74ea93cd56aa38
     - https://github.com/python/cpython/commit/c9d9f78feb1467e73fd29356c040bde1c104f29f
