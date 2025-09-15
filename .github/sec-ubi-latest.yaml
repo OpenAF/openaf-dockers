@@ -92,6 +92,50 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-5278
     PublishedDate: '2025-05-27T21:15:23.197Z'
     LastModifiedDate: '2025-05-29T18:15:24.29Z'
+  - VulnerabilityID: CVE-2025-58060
+    VendorIDs:
+    - RHSA-2025:15700
+    PkgID: cups-libs@2.3.3op2-33.el9.x86_64
+    PkgName: cups-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/cups-libs@2.3.3op2-33.el9?arch=x86_64&distro=redhat-9.6&epoch=1
+      UID: bd2fc61797e1195d
+    InstalledVersion: 1:2.3.3op2-33.el9
+    FixedVersion: 1:2.3.3op2-33.el9_6.1
+    Status: fixed
+    Layer:
+      Digest: sha256:8c1fff6291f422585bc92e701c88e7a226b3f4476949cae3126479f4c0477716
+      DiffID: sha256:023a490b42e0cf34ec8590114c543daaf4152e8019657ae23ec295519de6c6ee
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58060
+    Title: 'cups: Authentication Bypass in CUPS Authorization Handling'
+    Description: 'OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. In versions 2.4.12 and earlier, when the `AuthType` is set to anything but `Basic`, if the request contains an `Authorization: Basic ...` header, the password is not checked. This results in authentication bypass. Any configuration that allows an `AuthType` that is not `Basic` is affected. Version 2.4.13 fixes the issue.'
+    Severity: HIGH
+    CweIDs:
+    - CWE-287
+    VendorSeverity:
+      alma: 3
+      oracle-oval: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H
+        V3Score: 8
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:15702
+    - https://access.redhat.com/security/cve/CVE-2025-58060
+    - https://bugzilla.redhat.com/2392595
+    - https://errata.almalinux.org/8/ALSA-2025-15702.html
+    - https://github.com/OpenPrinting/cups/commit/595d691075b1d396d2edfaa0a8fd0873a0a1f221
+    - https://github.com/OpenPrinting/cups/security/advisories/GHSA-4c68-qgrh-rmmq
+    - https://linux.oracle.com/cve/CVE-2025-58060.html
+    - https://linux.oracle.com/errata/ELSA-2025-15702.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-58060
+    - https://ubuntu.com/security/notices/USN-7745-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-58060
+    PublishedDate: '2025-09-11T18:15:34.787Z'
+    LastModifiedDate: '2025-09-11T18:15:34.787Z'
   - VulnerabilityID: CVE-2023-4504
     PkgID: cups-libs@2.3.3op2-33.el9.x86_64
     PkgName: cups-libs
@@ -145,6 +189,47 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-4504
     PublishedDate: '2023-09-21T23:15:12.293Z'
     LastModifiedDate: '2025-04-23T17:16:44.91Z'
+  - VulnerabilityID: CVE-2025-58364
+    VendorIDs:
+    - RHSA-2025:15700
+    PkgID: cups-libs@2.3.3op2-33.el9.x86_64
+    PkgName: cups-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/cups-libs@2.3.3op2-33.el9?arch=x86_64&distro=redhat-9.6&epoch=1
+      UID: bd2fc61797e1195d
+    InstalledVersion: 1:2.3.3op2-33.el9
+    FixedVersion: 1:2.3.3op2-33.el9_6.1
+    Status: fixed
+    Layer:
+      Digest: sha256:8c1fff6291f422585bc92e701c88e7a226b3f4476949cae3126479f4c0477716
+      DiffID: sha256:023a490b42e0cf34ec8590114c543daaf4152e8019657ae23ec295519de6c6ee
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58364
+    Title: 'cups: Null Pointer Dereference in CUPS ipp_read_io() Leading to Remote DoS'
+    Description: OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. In versions 2.4.12 and earlier, an unsafe deserialization and validation of printer attributes causes null dereference in the libcups library. This is a remote DoS vulnerability available in local subnet in default configurations. It can cause the cups & cups-browsed to crash, on all the machines in local network who are listening for printers (so by default for all regular linux machines). On systems where the vulnerability CVE-2024-47176 (cups-filters 1.x/cups-browsed 2.x vulnerability) was not fixed, and the firewall on the machine does not reject incoming communication to IPP port, and the machine is set to be available to public internet, attack vector "Network" is possible. The current versions of CUPS and cups-browsed projects have the attack vector "Adjacent" in their default configurations. Version 2.4.13 contains a patch for CVE-2025-58364.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-20
+    - CWE-476
+    VendorSeverity:
+      oracle-oval: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-58364
+    - https://github.com/OpenPrinting/cups/commit/e58cba9d6fceed4242980e51dbd1302cf638ab1d
+    - https://github.com/OpenPrinting/cups/security/advisories/GHSA-7qx3-r744-6qv4
+    - https://linux.oracle.com/cve/CVE-2025-58364.html
+    - https://linux.oracle.com/errata/ELSA-2025-15701.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-58364
+    - https://ubuntu.com/security/notices/USN-7745-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-58364
+    PublishedDate: '2025-09-11T18:15:35.38Z'
+    LastModifiedDate: '2025-09-11T18:15:35.38Z'
   - VulnerabilityID: CVE-2021-25317
     PkgID: cups-libs@2.3.3op2-33.el9.x86_64
     PkgName: cups-libs
@@ -186,6 +271,55 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-25317
     PublishedDate: '2021-05-05T10:15:08.133Z'
     LastModifiedDate: '2024-11-21T05:54:44.187Z'
+  - VulnerabilityID: CVE-2025-9086
+    PkgID: curl-minimal@7.76.1-31.el9_6.1.x86_64
+    PkgName: curl-minimal
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/curl-minimal@7.76.1-31.el9_6.1?arch=x86_64&distro=redhat-9.6
+      UID: cd810536d1efc95a
+    InstalledVersion: 7.76.1-31.el9_6.1
+    Status: affected
+    Layer:
+      Digest: sha256:8c1fff6291f422585bc92e701c88e7a226b3f4476949cae3126479f4c0477716
+      DiffID: sha256:023a490b42e0cf34ec8590114c543daaf4152e8019657ae23ec295519de6c6ee
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9086
+    Title: 'curl: libcurl: Curl out of bounds read for cookie path'
+    Description: |-
+      1. A cookie is set using the `secure` keyword for `https://target`
+      2. curl is redirected to or otherwise made to speak with `http://target` (same
+         hostname, but using clear text HTTP) using the same cookie set
+      3. The same cookie name is set - but with just a slash as path (`path='/'`).
+         Since this site is not secure, the cookie *should* just be ignored.
+      4. A bug in the path comparison logic makes curl read outside a heap buffer
+         boundary
+
+      The bug either causes a crash or it potentially makes the comparison come to
+      the wrong conclusion and lets the clear-text site override the contents of the
+      secure cookie, contrary to expectations and depending on the memory contents
+      immediately following the single-byte allocation that holds the path.
+
+      The presumed and correct behavior would be to plainly ignore the second set of
+      the cookie since it was already set as secure on a secure host so overriding
+      it on an insecure host should not be okay.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-9086
+    - https://curl.se/docs/CVE-2025-9086.html
+    - https://curl.se/docs/CVE-2025-9086.json
+    - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
+    - https://hackerone.com/reports/3294999
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
+    - https://www.cve.org/CVERecord?id=CVE-2025-9086
+    PublishedDate: '2025-09-12T06:15:44.1Z'
+    LastModifiedDate: '2025-09-12T18:15:35.167Z'
   - VulnerabilityID: CVE-2024-11053
     PkgID: curl-minimal@7.76.1-31.el9_6.1.x86_64
     PkgName: curl-minimal
@@ -926,6 +1060,7 @@
     - https://access.redhat.com/errata/RHSA-2025:14810
     - https://access.redhat.com/errata/RHSA-2025:14828
     - https://access.redhat.com/errata/RHSA-2025:15024
+    - https://access.redhat.com/errata/RHSA-2025:15709
     - https://access.redhat.com/security/cve/CVE-2025-5914
     - https://bugzilla.redhat.com/2370861
     - https://bugzilla.redhat.com/show_bug.cgi?id=2370861
@@ -941,7 +1076,7 @@
     - https://ubuntu.com/security/notices/USN-7601-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5914
     PublishedDate: '2025-06-09T20:15:26.123Z'
-    LastModifiedDate: '2025-09-02T03:15:42.52Z'
+    LastModifiedDate: '2025-09-11T16:15:33.883Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-5.el9_6.x86_64
     PkgName: libarchive
@@ -1182,6 +1317,55 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-5918
     PublishedDate: '2025-06-09T20:15:27.493Z'
     LastModifiedDate: '2025-08-15T18:35:04.39Z'
+  - VulnerabilityID: CVE-2025-9086
+    PkgID: libcurl-minimal@7.76.1-31.el9_6.1.x86_64
+    PkgName: libcurl-minimal
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-31.el9_6.1?arch=x86_64&distro=redhat-9.6
+      UID: 73acd586904554a7
+    InstalledVersion: 7.76.1-31.el9_6.1
+    Status: affected
+    Layer:
+      Digest: sha256:8c1fff6291f422585bc92e701c88e7a226b3f4476949cae3126479f4c0477716
+      DiffID: sha256:023a490b42e0cf34ec8590114c543daaf4152e8019657ae23ec295519de6c6ee
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9086
+    Title: 'curl: libcurl: Curl out of bounds read for cookie path'
+    Description: |-
+      1. A cookie is set using the `secure` keyword for `https://target`
+      2. curl is redirected to or otherwise made to speak with `http://target` (same
+         hostname, but using clear text HTTP) using the same cookie set
+      3. The same cookie name is set - but with just a slash as path (`path='/'`).
+         Since this site is not secure, the cookie *should* just be ignored.
+      4. A bug in the path comparison logic makes curl read outside a heap buffer
+         boundary
+
+      The bug either causes a crash or it potentially makes the comparison come to
+      the wrong conclusion and lets the clear-text site override the contents of the
+      secure cookie, contrary to expectations and depending on the memory contents
+      immediately following the single-byte allocation that holds the path.
+
+      The presumed and correct behavior would be to plainly ignore the second set of
+      the cookie since it was already set as secure on a secure host so overriding
+      it on an insecure host should not be okay.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-9086
+    - https://curl.se/docs/CVE-2025-9086.html
+    - https://curl.se/docs/CVE-2025-9086.json
+    - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
+    - https://hackerone.com/reports/3294999
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
+    - https://www.cve.org/CVERecord?id=CVE-2025-9086
+    PublishedDate: '2025-09-12T06:15:44.1Z'
+    LastModifiedDate: '2025-09-12T18:15:35.167Z'
   - VulnerabilityID: CVE-2024-11053
     PkgID: libcurl-minimal@7.76.1-31.el9_6.1.x86_64
     PkgName: libcurl-minimal
@@ -1608,20 +1792,27 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9714
     Title: 'libxslt: libxml2: Inifinite recursion at exsltDynMapFunction function in libexslt/dynamic.c'
-    Description: A flaw was found in libxstl/libxml2. The 'exsltDynMapFunction' function in libexslt/dynamic.c does not contain a recursion depth check, which may cause an infinite loop via a specially crafted XSLT document while handling 'dyn:map()', leading to stack exhaustion and a local denial of service.
+    Description: "Uncontrolled recursion in\_XPath evaluation\_in libxml2 up to and including version 2.9.14 allows a local attacker to cause a stack overflow via crafted expressions. XPath processing functions `xmlXPathRunEval`, `xmlXPathCtxtCompile`, and `xmlXPathEvalExpr` were resetting recursion depth to zero before making potentially recursive calls. When such functions were called recursively this could allow for uncontrolled recursion and lead to a stack overflow. These functions now preserve recursion depth across recursive calls, allowing recursion depth to be controlled."
     Severity: MEDIUM
+    CweIDs:
+    - CWE-674
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
     - https://access.redhat.com/security/cve/CVE-2025-9714
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2392605
     - https://gitlab.gnome.org/GNOME/libxml2/-/commit/677a42645ef22b5a50741bad5facf9d8a8bc6d21
     - https://gitlab.gnome.org/GNOME/libxslt/-/issues/148
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9714
+    - https://ubuntu.com/security/notices/USN-7743-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9714
+    PublishedDate: '2025-09-10T19:15:42.707Z'
+    LastModifiedDate: '2025-09-11T17:14:10.147Z'
   - VulnerabilityID: CVE-2023-45322
     PkgID: libxml2@2.9.13-12.el9_6.x86_64
     PkgName: libxml2
@@ -2470,6 +2661,7 @@
     - https://access.redhat.com/errata/RHSA-2025:11487
     - https://access.redhat.com/errata/RHSA-2025:14557
     - https://access.redhat.com/errata/RHSA-2025:15099
+    - https://access.redhat.com/errata/RHSA-2025:15709
     - https://access.redhat.com/errata/RHSA-2025:9526
     - https://access.redhat.com/security/cve/CVE-2025-6020
     - https://bugzilla.redhat.com/2372512
@@ -2486,7 +2678,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6020
     - https://www.openwall.com/lists/oss-security/2025/06/17/1
     PublishedDate: '2025-06-17T13:15:21.66Z'
-    LastModifiedDate: '2025-09-03T03:15:38.973Z'
+    LastModifiedDate: '2025-09-11T16:15:34.16Z'
   - VulnerabilityID: CVE-2025-8941
     VendorIDs:
     - RHSA-2025:15099
@@ -2528,6 +2720,7 @@
     - https://access.redhat.com/errata/RHSA-2025:15105
     - https://access.redhat.com/errata/RHSA-2025:15106
     - https://access.redhat.com/errata/RHSA-2025:15107
+    - https://access.redhat.com/errata/RHSA-2025:15709
     - https://access.redhat.com/security/cve/CVE-2025-8941
     - https://bugzilla.redhat.com/2372512
     - https://bugzilla.redhat.com/2388220
@@ -2542,7 +2735,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
     - https://www.cve.org/CVERecord?id=CVE-2025-8941
     PublishedDate: '2025-08-13T15:15:41.873Z'
-    LastModifiedDate: '2025-09-03T03:15:39.39Z'
+    LastModifiedDate: '2025-09-11T16:15:34.393Z'
   - VulnerabilityID: CVE-2022-41409
     PkgID: pcre2@10.40-6.el9.x86_64
     PkgName: pcre2
