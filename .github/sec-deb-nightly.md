@@ -10,10 +10,10 @@
 │                       │      │                  ╰ UID : fb90d22e49e1fb47 
 │                       │      ├ InstalledVersion: 9.5-1ubuntu1.25.04.2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:85126685b46c56cffafafc9f6742cf5e49b55812993f
-│                       │      │                  │         011b02b03ca47f3c4db9 
-│                       │      │                  ╰ DiffID: sha256:e143e0c2d1a479c05d6d0e2b665279934cc0e7c7158b
-│                       │      │                            17b2f4b1a53539d28da2 
+│                       │      ├ Layer            ╭ Digest: sha256:d8b207ac1e3ac60c352a436a155b60efde0b0a5e7671
+│                       │      │                  │         4c6ffd9466a347232f81 
+│                       │      │                  ╰ DiffID: sha256:35a0f8a3c545895085d05f062ba6f64f7927e12cdd14
+│                       │      │                            fa8f4c06c17597a93d47 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-2781 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -64,10 +64,10 @@
 │                       │      │                  ╰ UID : 10b1fa91959ee993 
 │                       │      ├ InstalledVersion: 8.12.1-3ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:85126685b46c56cffafafc9f6742cf5e49b55812993f
-│                       │      │                  │         011b02b03ca47f3c4db9 
-│                       │      │                  ╰ DiffID: sha256:e143e0c2d1a479c05d6d0e2b665279934cc0e7c7158b
-│                       │      │                            17b2f4b1a53539d28da2 
+│                       │      ├ Layer            ╭ Digest: sha256:d8b207ac1e3ac60c352a436a155b60efde0b0a5e7671
+│                       │      │                  │         4c6ffd9466a347232f81 
+│                       │      │                  ╰ DiffID: sha256:35a0f8a3c545895085d05f062ba6f64f7927e12cdd14
+│                       │      │                            fa8f4c06c17597a93d47 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-10148 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -102,7 +102,7 @@
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
-│                       │      ╰ LastModifiedDate: 2025-09-12T18:15:33.233Z 
+│                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2025-9086 
 │                       │      ├ PkgID           : curl@8.12.1-3ubuntu1 
 │                       │      ├ PkgName         : curl 
@@ -111,10 +111,10 @@
 │                       │      │                  ╰ UID : 10b1fa91959ee993 
 │                       │      ├ InstalledVersion: 8.12.1-3ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:85126685b46c56cffafafc9f6742cf5e49b55812993f
-│                       │      │                  │         011b02b03ca47f3c4db9 
-│                       │      │                  ╰ DiffID: sha256:e143e0c2d1a479c05d6d0e2b665279934cc0e7c7158b
-│                       │      │                            17b2f4b1a53539d28da2 
+│                       │      ├ Layer            ╭ Digest: sha256:d8b207ac1e3ac60c352a436a155b60efde0b0a5e7671
+│                       │      │                  │         4c6ffd9466a347232f81 
+│                       │      │                  ╰ DiffID: sha256:35a0f8a3c545895085d05f062ba6f64f7927e12cdd14
+│                       │      │                            fa8f4c06c17597a93d47 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9086 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -163,7 +163,7 @@
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
-│                       │      ╰ LastModifiedDate: 2025-09-12T18:15:35.167Z 
+│                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gpgv@2.4.4-2ubuntu23.1 
 │                       │      ├ PkgName         : gpgv 
@@ -172,10 +172,10 @@
 │                       │      │                  ╰ UID : e88142d915a9c0c6 
 │                       │      ├ InstalledVersion: 2.4.4-2ubuntu23.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:85126685b46c56cffafafc9f6742cf5e49b55812993f
-│                       │      │                  │         011b02b03ca47f3c4db9 
-│                       │      │                  ╰ DiffID: sha256:e143e0c2d1a479c05d6d0e2b665279934cc0e7c7158b
-│                       │      │                            17b2f4b1a53539d28da2 
+│                       │      ├ Layer            ╭ Digest: sha256:d8b207ac1e3ac60c352a436a155b60efde0b0a5e7671
+│                       │      │                  │         4c6ffd9466a347232f81 
+│                       │      │                  ╰ DiffID: sha256:35a0f8a3c545895085d05f062ba6f64f7927e12cdd14
+│                       │      │                            fa8f4c06c17597a93d47 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -215,10 +215,10 @@
 │                       │      │                  ╰ UID : 798a8ba2010c8ddb 
 │                       │      ├ InstalledVersion: 2.41-6ubuntu1.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:85126685b46c56cffafafc9f6742cf5e49b55812993f
-│                       │      │                  │         011b02b03ca47f3c4db9 
-│                       │      │                  ╰ DiffID: sha256:e143e0c2d1a479c05d6d0e2b665279934cc0e7c7158b
-│                       │      │                            17b2f4b1a53539d28da2 
+│                       │      ├ Layer            ╭ Digest: sha256:d8b207ac1e3ac60c352a436a155b60efde0b0a5e7671
+│                       │      │                  │         4c6ffd9466a347232f81 
+│                       │      │                  ╰ DiffID: sha256:35a0f8a3c545895085d05f062ba6f64f7927e12cdd14
+│                       │      │                            fa8f4c06c17597a93d47 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8058 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -240,6 +240,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-415 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
@@ -275,10 +276,10 @@
 │                       │      │                  ╰ UID : de34a93826490997 
 │                       │      ├ InstalledVersion: 2.41-6ubuntu1.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:85126685b46c56cffafafc9f6742cf5e49b55812993f
-│                       │      │                  │         011b02b03ca47f3c4db9 
-│                       │      │                  ╰ DiffID: sha256:e143e0c2d1a479c05d6d0e2b665279934cc0e7c7158b
-│                       │      │                            17b2f4b1a53539d28da2 
+│                       │      ├ Layer            ╭ Digest: sha256:d8b207ac1e3ac60c352a436a155b60efde0b0a5e7671
+│                       │      │                  │         4c6ffd9466a347232f81 
+│                       │      │                  ╰ DiffID: sha256:35a0f8a3c545895085d05f062ba6f64f7927e12cdd14
+│                       │      │                            fa8f4c06c17597a93d47 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8058 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -300,6 +301,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-415 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
@@ -335,10 +337,10 @@
 │                       │      │                  ╰ UID : c4a83a72d7a57798 
 │                       │      ├ InstalledVersion: 8.12.1-3ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:85126685b46c56cffafafc9f6742cf5e49b55812993f
-│                       │      │                  │         011b02b03ca47f3c4db9 
-│                       │      │                  ╰ DiffID: sha256:e143e0c2d1a479c05d6d0e2b665279934cc0e7c7158b
-│                       │      │                            17b2f4b1a53539d28da2 
+│                       │      ├ Layer            ╭ Digest: sha256:d8b207ac1e3ac60c352a436a155b60efde0b0a5e7671
+│                       │      │                  │         4c6ffd9466a347232f81 
+│                       │      │                  ╰ DiffID: sha256:35a0f8a3c545895085d05f062ba6f64f7927e12cdd14
+│                       │      │                            fa8f4c06c17597a93d47 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-10148 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -373,7 +375,7 @@
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
-│                       │      ╰ LastModifiedDate: 2025-09-12T18:15:33.233Z 
+│                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2025-9086 
 │                       │      ├ PkgID           : libcurl4t64@8.12.1-3ubuntu1 
 │                       │      ├ PkgName         : libcurl4t64 
@@ -382,10 +384,10 @@
 │                       │      │                  ╰ UID : c4a83a72d7a57798 
 │                       │      ├ InstalledVersion: 8.12.1-3ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:85126685b46c56cffafafc9f6742cf5e49b55812993f
-│                       │      │                  │         011b02b03ca47f3c4db9 
-│                       │      │                  ╰ DiffID: sha256:e143e0c2d1a479c05d6d0e2b665279934cc0e7c7158b
-│                       │      │                            17b2f4b1a53539d28da2 
+│                       │      ├ Layer            ╭ Digest: sha256:d8b207ac1e3ac60c352a436a155b60efde0b0a5e7671
+│                       │      │                  │         4c6ffd9466a347232f81 
+│                       │      │                  ╰ DiffID: sha256:35a0f8a3c545895085d05f062ba6f64f7927e12cdd14
+│                       │      │                            fa8f4c06c17597a93d47 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9086 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -434,7 +436,7 @@
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
-│                       │      ╰ LastModifiedDate: 2025-09-12T18:15:35.167Z 
+│                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2024-2236 
 │                       │      ├ PkgID           : libgcrypt20@1.11.0-6ubuntu1 
 │                       │      ├ PkgName         : libgcrypt20 
@@ -443,10 +445,10 @@
 │                       │      │                  ╰ UID : 97b71536671f4622 
 │                       │      ├ InstalledVersion: 1.11.0-6ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:85126685b46c56cffafafc9f6742cf5e49b55812993f
-│                       │      │                  │         011b02b03ca47f3c4db9 
-│                       │      │                  ╰ DiffID: sha256:e143e0c2d1a479c05d6d0e2b665279934cc0e7c7158b
-│                       │      │                            17b2f4b1a53539d28da2 
+│                       │      ├ Layer            ╭ Digest: sha256:d8b207ac1e3ac60c352a436a155b60efde0b0a5e7671
+│                       │      │                  │         4c6ffd9466a347232f81 
+│                       │      │                  ╰ DiffID: sha256:35a0f8a3c545895085d05f062ba6f64f7927e12cdd14
+│                       │      │                            fa8f4c06c17597a93d47 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-2236 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -488,7 +490,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                       │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                       │      ╰ LastModifiedDate: 2025-04-02T17:15:37.79Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2024-10041 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2024-10963 
 │                       │      ├ PkgID           : libpam-modules@1.5.3-7ubuntu4.3 
 │                       │      ├ PkgName         : libpam-modules 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-7ubuntu4.3?arch=a
@@ -496,56 +498,58 @@
 │                       │      │                  ╰ UID : 1f70a9af7a8bc1e3 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:85126685b46c56cffafafc9f6742cf5e49b55812993f
-│                       │      │                  │         011b02b03ca47f3c4db9 
-│                       │      │                  ╰ DiffID: sha256:e143e0c2d1a479c05d6d0e2b665279934cc0e7c7158b
-│                       │      │                            17b2f4b1a53539d28da2 
+│                       │      ├ Layer            ╭ Digest: sha256:d8b207ac1e3ac60c352a436a155b60efde0b0a5e7671
+│                       │      │                  │         4c6ffd9466a347232f81 
+│                       │      │                  ╰ DiffID: sha256:35a0f8a3c545895085d05f062ba6f64f7927e12cdd14
+│                       │      │                            fa8f4c06c17597a93d47 
 │                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10041 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10963 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : pam: libpam: Libpam vulnerable to read hashed password 
-│                       │      ├ Description     : A vulnerability was found in PAM. The secret information is
-│                       │      │                   stored in memory, where the attacker can trigger the victim
-│                       │      │                   program to execute by sending characters to its standard
-│                       │      │                   input (stdin). As this occurs, the attacker can train the
-│                       │      │                   branch predictor to execute an ROP chain speculatively. This
-│                       │      │                    flaw could result in leaked passwords, such as those found
-│                       │      │                   in /etc/shadow while performing authentications. 
+│                       │      ├ Title           : pam: Improper Hostname Interpretation in pam_access Leads to
+│                       │      │                    Access Control Bypass 
+│                       │      ├ Description     : A flaw was found in pam_access, where certain rules in its
+│                       │      │                   configuration file are mistakenly treated as hostnames. This
+│                       │      │                    vulnerability allows attackers to trick the system by
+│                       │      │                   pretending to be a trusted hostname, gaining unauthorized
+│                       │      │                   access. This issue poses a risk for systems that rely on
+│                       │      │                   this feature to control who can access certain services or
+│                       │      │                   terminals. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-922 
-│                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ azure      : 2 
-│                       │      │                  ├ cbl-mariner: 2 
-│                       │      │                  ├ oracle-oval: 2 
-│                       │      │                  ├ redhat     : 2 
+│                       │      ├ CweIDs           ─ [0]: CWE-287 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 3 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 4.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10379 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:11250 
-│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:9941 
-│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-10041 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2319212 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                           ╰ V3Score : 7.4 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10232 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:10244 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:10379 
+│                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2024:10518 
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2024:10528 
+│                       │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2024:10852 
+│                       │      │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2024-10963 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2324291 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-10041 
-│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-10963 
-│                       │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-11250.html 
-│                       │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-10041.html 
-│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-11250.html 
-│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
-│                       │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
-│                       │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2024-10963 
+│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-10244.html 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-10963.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
+│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
+│                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
+│                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam-modules@1.5.3-7ubuntu4.3 
 │                       │      ├ PkgName         : libpam-modules 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-7ubuntu4.3?arch=a
@@ -553,58 +557,61 @@
 │                       │      │                  ╰ UID : 1f70a9af7a8bc1e3 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:85126685b46c56cffafafc9f6742cf5e49b55812993f
-│                       │      │                  │         011b02b03ca47f3c4db9 
-│                       │      │                  ╰ DiffID: sha256:e143e0c2d1a479c05d6d0e2b665279934cc0e7c7158b
-│                       │      │                            17b2f4b1a53539d28da2 
+│                       │      ├ Layer            ╭ Digest: sha256:d8b207ac1e3ac60c352a436a155b60efde0b0a5e7671
+│                       │      │                  │         4c6ffd9466a347232f81 
+│                       │      │                  ╰ DiffID: sha256:35a0f8a3c545895085d05f062ba6f64f7927e12cdd14
+│                       │      │                            fa8f4c06c17597a93d47 
 │                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10963 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8941 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : pam: Improper Hostname Interpretation in pam_access Leads to
-│                       │      │                    Access Control Bypass 
-│                       │      ├ Description     : A flaw was found in pam_access, where certain rules in its
-│                       │      │                   configuration file are mistakenly treated as hostnames. This
-│                       │      │                    vulnerability allows attackers to trick the system by
-│                       │      │                   pretending to be a trusted hostname, gaining unauthorized
-│                       │      │                   access. This issue poses a risk for systems that rely on
-│                       │      │                   this feature to control who can access certain services or
-│                       │      │                   terminals. 
+│                       │      ├ Title           : linux-pam: Incomplete fix for CVE-2025-6020 
+│                       │      ├ Description     : A flaw was found in linux-pam. The pam_namespace module may
+│                       │      │                   improperly handle user-controlled paths, allowing local
+│                       │      │                   users to exploit symlink attacks and race conditions to
+│                       │      │                   elevate their privileges to root. This CVE provides a
+│                       │      │                   "complete" fix for CVE-2025-6020. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-287 
+│                       │      ├ CweIDs           ─ [0]: CWE-22 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
-│                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 7.4 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10232 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:10244 
-│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:10379 
-│                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2024:10518 
-│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2024:10528 
-│                       │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2024:10852 
-│                       │      │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2024-10963 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2324291 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-10041 
-│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-10963 
-│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-10244.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-10963.html 
-│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
-│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
-│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
-│                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
-│                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2024-10041 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.8 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:14557 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:15099 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:15100 
+│                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:15101 
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:15102 
+│                       │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2025:15103 
+│                       │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2025:15104 
+│                       │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2025:15105 
+│                       │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:15106 
+│                       │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2025:15107 
+│                       │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:15709 
+│                       │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:15828 
+│                       │      │                  ├ [12]: https://access.redhat.com/security/cve/CVE-2025-8941 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2372512 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/2388220 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
+│                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-6020 
+│                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-8941 
+│                       │      │                  ├ [19]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
+│                       │      │                  ├ [20]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                       │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2025-8941.html 
+│                       │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
+│                       │      │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
+│                       │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
+│                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
+│                       │      ╰ LastModifiedDate: 2025-09-15T16:15:41.297Z 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2024-10963 
 │                       │      ├ PkgID           : libpam-modules-bin@1.5.3-7ubuntu4.3 
 │                       │      ├ PkgName         : libpam-modules-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu4.3?ar
@@ -612,56 +619,58 @@
 │                       │      │                  ╰ UID : 914231a75f77278f 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:85126685b46c56cffafafc9f6742cf5e49b55812993f
-│                       │      │                  │         011b02b03ca47f3c4db9 
-│                       │      │                  ╰ DiffID: sha256:e143e0c2d1a479c05d6d0e2b665279934cc0e7c7158b
-│                       │      │                            17b2f4b1a53539d28da2 
+│                       │      ├ Layer            ╭ Digest: sha256:d8b207ac1e3ac60c352a436a155b60efde0b0a5e7671
+│                       │      │                  │         4c6ffd9466a347232f81 
+│                       │      │                  ╰ DiffID: sha256:35a0f8a3c545895085d05f062ba6f64f7927e12cdd14
+│                       │      │                            fa8f4c06c17597a93d47 
 │                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10041 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10963 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : pam: libpam: Libpam vulnerable to read hashed password 
-│                       │      ├ Description     : A vulnerability was found in PAM. The secret information is
-│                       │      │                   stored in memory, where the attacker can trigger the victim
-│                       │      │                   program to execute by sending characters to its standard
-│                       │      │                   input (stdin). As this occurs, the attacker can train the
-│                       │      │                   branch predictor to execute an ROP chain speculatively. This
-│                       │      │                    flaw could result in leaked passwords, such as those found
-│                       │      │                   in /etc/shadow while performing authentications. 
+│                       │      ├ Title           : pam: Improper Hostname Interpretation in pam_access Leads to
+│                       │      │                    Access Control Bypass 
+│                       │      ├ Description     : A flaw was found in pam_access, where certain rules in its
+│                       │      │                   configuration file are mistakenly treated as hostnames. This
+│                       │      │                    vulnerability allows attackers to trick the system by
+│                       │      │                   pretending to be a trusted hostname, gaining unauthorized
+│                       │      │                   access. This issue poses a risk for systems that rely on
+│                       │      │                   this feature to control who can access certain services or
+│                       │      │                   terminals. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-922 
-│                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ azure      : 2 
-│                       │      │                  ├ cbl-mariner: 2 
-│                       │      │                  ├ oracle-oval: 2 
-│                       │      │                  ├ redhat     : 2 
+│                       │      ├ CweIDs           ─ [0]: CWE-287 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 3 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 4.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10379 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:11250 
-│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:9941 
-│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-10041 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2319212 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                           ╰ V3Score : 7.4 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10232 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:10244 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:10379 
+│                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2024:10518 
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2024:10528 
+│                       │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2024:10852 
+│                       │      │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2024-10963 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2324291 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-10041 
-│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-10963 
-│                       │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-11250.html 
-│                       │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-10041.html 
-│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-11250.html 
-│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
-│                       │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
-│                       │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2024-10963 
+│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-10244.html 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-10963.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
+│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
+│                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
+│                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam-modules-bin@1.5.3-7ubuntu4.3 
 │                       │      ├ PkgName         : libpam-modules-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu4.3?ar
@@ -669,58 +678,61 @@
 │                       │      │                  ╰ UID : 914231a75f77278f 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:85126685b46c56cffafafc9f6742cf5e49b55812993f
-│                       │      │                  │         011b02b03ca47f3c4db9 
-│                       │      │                  ╰ DiffID: sha256:e143e0c2d1a479c05d6d0e2b665279934cc0e7c7158b
-│                       │      │                            17b2f4b1a53539d28da2 
+│                       │      ├ Layer            ╭ Digest: sha256:d8b207ac1e3ac60c352a436a155b60efde0b0a5e7671
+│                       │      │                  │         4c6ffd9466a347232f81 
+│                       │      │                  ╰ DiffID: sha256:35a0f8a3c545895085d05f062ba6f64f7927e12cdd14
+│                       │      │                            fa8f4c06c17597a93d47 
 │                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10963 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8941 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : pam: Improper Hostname Interpretation in pam_access Leads to
-│                       │      │                    Access Control Bypass 
-│                       │      ├ Description     : A flaw was found in pam_access, where certain rules in its
-│                       │      │                   configuration file are mistakenly treated as hostnames. This
-│                       │      │                    vulnerability allows attackers to trick the system by
-│                       │      │                   pretending to be a trusted hostname, gaining unauthorized
-│                       │      │                   access. This issue poses a risk for systems that rely on
-│                       │      │                   this feature to control who can access certain services or
-│                       │      │                   terminals. 
+│                       │      ├ Title           : linux-pam: Incomplete fix for CVE-2025-6020 
+│                       │      ├ Description     : A flaw was found in linux-pam. The pam_namespace module may
+│                       │      │                   improperly handle user-controlled paths, allowing local
+│                       │      │                   users to exploit symlink attacks and race conditions to
+│                       │      │                   elevate their privileges to root. This CVE provides a
+│                       │      │                   "complete" fix for CVE-2025-6020. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-287 
+│                       │      ├ CweIDs           ─ [0]: CWE-22 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
-│                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 7.4 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10232 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:10244 
-│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:10379 
-│                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2024:10518 
-│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2024:10528 
-│                       │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2024:10852 
-│                       │      │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2024-10963 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2324291 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-10041 
-│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-10963 
-│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-10244.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-10963.html 
-│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
-│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
-│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
-│                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
-│                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2024-10041 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.8 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:14557 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:15099 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:15100 
+│                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:15101 
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:15102 
+│                       │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2025:15103 
+│                       │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2025:15104 
+│                       │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2025:15105 
+│                       │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:15106 
+│                       │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2025:15107 
+│                       │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:15709 
+│                       │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:15828 
+│                       │      │                  ├ [12]: https://access.redhat.com/security/cve/CVE-2025-8941 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2372512 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/2388220 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
+│                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-6020 
+│                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-8941 
+│                       │      │                  ├ [19]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
+│                       │      │                  ├ [20]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                       │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2025-8941.html 
+│                       │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
+│                       │      │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
+│                       │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
+│                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
+│                       │      ╰ LastModifiedDate: 2025-09-15T16:15:41.297Z 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2024-10963 
 │                       │      ├ PkgID           : libpam-runtime@1.5.3-7ubuntu4.3 
 │                       │      ├ PkgName         : libpam-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu4.3?arch=a
@@ -728,56 +740,58 @@
 │                       │      │                  ╰ UID : 1420d5870a0f1057 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:85126685b46c56cffafafc9f6742cf5e49b55812993f
-│                       │      │                  │         011b02b03ca47f3c4db9 
-│                       │      │                  ╰ DiffID: sha256:e143e0c2d1a479c05d6d0e2b665279934cc0e7c7158b
-│                       │      │                            17b2f4b1a53539d28da2 
+│                       │      ├ Layer            ╭ Digest: sha256:d8b207ac1e3ac60c352a436a155b60efde0b0a5e7671
+│                       │      │                  │         4c6ffd9466a347232f81 
+│                       │      │                  ╰ DiffID: sha256:35a0f8a3c545895085d05f062ba6f64f7927e12cdd14
+│                       │      │                            fa8f4c06c17597a93d47 
 │                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10041 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10963 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : pam: libpam: Libpam vulnerable to read hashed password 
-│                       │      ├ Description     : A vulnerability was found in PAM. The secret information is
-│                       │      │                   stored in memory, where the attacker can trigger the victim
-│                       │      │                   program to execute by sending characters to its standard
-│                       │      │                   input (stdin). As this occurs, the attacker can train the
-│                       │      │                   branch predictor to execute an ROP chain speculatively. This
-│                       │      │                    flaw could result in leaked passwords, such as those found
-│                       │      │                   in /etc/shadow while performing authentications. 
+│                       │      ├ Title           : pam: Improper Hostname Interpretation in pam_access Leads to
+│                       │      │                    Access Control Bypass 
+│                       │      ├ Description     : A flaw was found in pam_access, where certain rules in its
+│                       │      │                   configuration file are mistakenly treated as hostnames. This
+│                       │      │                    vulnerability allows attackers to trick the system by
+│                       │      │                   pretending to be a trusted hostname, gaining unauthorized
+│                       │      │                   access. This issue poses a risk for systems that rely on
+│                       │      │                   this feature to control who can access certain services or
+│                       │      │                   terminals. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-922 
-│                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ azure      : 2 
-│                       │      │                  ├ cbl-mariner: 2 
-│                       │      │                  ├ oracle-oval: 2 
-│                       │      │                  ├ redhat     : 2 
+│                       │      ├ CweIDs           ─ [0]: CWE-287 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 3 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 4.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10379 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:11250 
-│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:9941 
-│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-10041 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2319212 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                           ╰ V3Score : 7.4 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10232 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:10244 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:10379 
+│                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2024:10518 
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2024:10528 
+│                       │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2024:10852 
+│                       │      │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2024-10963 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2324291 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-10041 
-│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-10963 
-│                       │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-11250.html 
-│                       │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-10041.html 
-│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-11250.html 
-│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
-│                       │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
-│                       │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2024-10963 
+│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-10244.html 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-10963.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
+│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
+│                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
+│                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam-runtime@1.5.3-7ubuntu4.3 
 │                       │      ├ PkgName         : libpam-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu4.3?arch=a
@@ -785,10 +799,72 @@
 │                       │      │                  ╰ UID : 1420d5870a0f1057 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:85126685b46c56cffafafc9f6742cf5e49b55812993f
-│                       │      │                  │         011b02b03ca47f3c4db9 
-│                       │      │                  ╰ DiffID: sha256:e143e0c2d1a479c05d6d0e2b665279934cc0e7c7158b
-│                       │      │                            17b2f4b1a53539d28da2 
+│                       │      ├ Layer            ╭ Digest: sha256:d8b207ac1e3ac60c352a436a155b60efde0b0a5e7671
+│                       │      │                  │         4c6ffd9466a347232f81 
+│                       │      │                  ╰ DiffID: sha256:35a0f8a3c545895085d05f062ba6f64f7927e12cdd14
+│                       │      │                            fa8f4c06c17597a93d47 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8941 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : linux-pam: Incomplete fix for CVE-2025-6020 
+│                       │      ├ Description     : A flaw was found in linux-pam. The pam_namespace module may
+│                       │      │                   improperly handle user-controlled paths, allowing local
+│                       │      │                   users to exploit symlink attacks and race conditions to
+│                       │      │                   elevate their privileges to root. This CVE provides a
+│                       │      │                   "complete" fix for CVE-2025-6020. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-22 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.8 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:14557 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:15099 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:15100 
+│                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:15101 
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:15102 
+│                       │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2025:15103 
+│                       │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2025:15104 
+│                       │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2025:15105 
+│                       │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:15106 
+│                       │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2025:15107 
+│                       │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:15709 
+│                       │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:15828 
+│                       │      │                  ├ [12]: https://access.redhat.com/security/cve/CVE-2025-8941 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2372512 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/2388220 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
+│                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-6020 
+│                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-8941 
+│                       │      │                  ├ [19]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
+│                       │      │                  ├ [20]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                       │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2025-8941.html 
+│                       │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
+│                       │      │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
+│                       │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
+│                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
+│                       │      ╰ LastModifiedDate: 2025-09-15T16:15:41.297Z 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2024-10963 
+│                       │      ├ PkgID           : libpam0g@1.5.3-7ubuntu4.3 
+│                       │      ├ PkgName         : libpam0g 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.3?arch=amd64&d
+│                       │      │                  │       istro=ubuntu-25.04 
+│                       │      │                  ╰ UID : 78dc01c1ea68c9c2 
+│                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:d8b207ac1e3ac60c352a436a155b60efde0b0a5e7671
+│                       │      │                  │         4c6ffd9466a347232f81 
+│                       │      │                  ╰ DiffID: sha256:35a0f8a3c545895085d05f062ba6f64f7927e12cdd14
+│                       │      │                            fa8f4c06c17597a93d47 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10963 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -836,7 +912,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2024-10041 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam0g@1.5.3-7ubuntu4.3 
 │                       │      ├ PkgName         : libpam0g 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.3?arch=amd64&d
@@ -844,114 +920,60 @@
 │                       │      │                  ╰ UID : 78dc01c1ea68c9c2 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:85126685b46c56cffafafc9f6742cf5e49b55812993f
-│                       │      │                  │         011b02b03ca47f3c4db9 
-│                       │      │                  ╰ DiffID: sha256:e143e0c2d1a479c05d6d0e2b665279934cc0e7c7158b
-│                       │      │                            17b2f4b1a53539d28da2 
+│                       │      ├ Layer            ╭ Digest: sha256:d8b207ac1e3ac60c352a436a155b60efde0b0a5e7671
+│                       │      │                  │         4c6ffd9466a347232f81 
+│                       │      │                  ╰ DiffID: sha256:35a0f8a3c545895085d05f062ba6f64f7927e12cdd14
+│                       │      │                            fa8f4c06c17597a93d47 
 │                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10041 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8941 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : pam: libpam: Libpam vulnerable to read hashed password 
-│                       │      ├ Description     : A vulnerability was found in PAM. The secret information is
-│                       │      │                   stored in memory, where the attacker can trigger the victim
-│                       │      │                   program to execute by sending characters to its standard
-│                       │      │                   input (stdin). As this occurs, the attacker can train the
-│                       │      │                   branch predictor to execute an ROP chain speculatively. This
-│                       │      │                    flaw could result in leaked passwords, such as those found
-│                       │      │                   in /etc/shadow while performing authentications. 
+│                       │      ├ Title           : linux-pam: Incomplete fix for CVE-2025-6020 
+│                       │      ├ Description     : A flaw was found in linux-pam. The pam_namespace module may
+│                       │      │                   improperly handle user-controlled paths, allowing local
+│                       │      │                   users to exploit symlink attacks and race conditions to
+│                       │      │                   elevate their privileges to root. This CVE provides a
+│                       │      │                   "complete" fix for CVE-2025-6020. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-922 
-│                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
-│                       │      │                  ├ azure      : 2 
-│                       │      │                  ├ cbl-mariner: 2 
-│                       │      │                  ├ oracle-oval: 2 
-│                       │      │                  ├ redhat     : 2 
-│                       │      │                  ├ rocky      : 3 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 4.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10379 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:11250 
-│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:9941 
-│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-10041 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2319212 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-10041 
-│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-10963 
-│                       │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-11250.html 
-│                       │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-10041.html 
-│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-11250.html 
-│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-10041 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-10041 
-│                       │      ├ PublishedDate   : 2024-10-23T14:15:03.97Z 
-│                       │      ╰ LastModifiedDate: 2024-12-18T10:15:05.85Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2024-10963 
-│                       │      ├ PkgID           : libpam0g@1.5.3-7ubuntu4.3 
-│                       │      ├ PkgName         : libpam0g 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.3?arch=amd64&d
-│                       │      │                  │       istro=ubuntu-25.04 
-│                       │      │                  ╰ UID : 78dc01c1ea68c9c2 
-│                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.3 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:85126685b46c56cffafafc9f6742cf5e49b55812993f
-│                       │      │                  │         011b02b03ca47f3c4db9 
-│                       │      │                  ╰ DiffID: sha256:e143e0c2d1a479c05d6d0e2b665279934cc0e7c7158b
-│                       │      │                            17b2f4b1a53539d28da2 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-10963 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : pam: Improper Hostname Interpretation in pam_access Leads to
-│                       │      │                    Access Control Bypass 
-│                       │      ├ Description     : A flaw was found in pam_access, where certain rules in its
-│                       │      │                   configuration file are mistakenly treated as hostnames. This
-│                       │      │                    vulnerability allows attackers to trick the system by
-│                       │      │                   pretending to be a trusted hostname, gaining unauthorized
-│                       │      │                   access. This issue poses a risk for systems that rely on
-│                       │      │                   this feature to control who can access certain services or
-│                       │      │                   terminals. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-287 
+│                       │      ├ CweIDs           ─ [0]: CWE-22 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
-│                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
-│                       │      │                           │           /A:N 
-│                       │      │                           ╰ V3Score : 7.4 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:10232 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:10244 
-│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:10379 
-│                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2024:10518 
-│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2024:10528 
-│                       │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2024:10852 
-│                       │      │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2024-10963 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2324291 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-10041 
-│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       24-10963 
-│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-10244.html 
-│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-10963.html 
-│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
-│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
-│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
-│                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
-│                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.8 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:14557 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:15099 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2025:15100 
+│                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2025:15101 
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2025:15102 
+│                       │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2025:15103 
+│                       │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2025:15104 
+│                       │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2025:15105 
+│                       │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2025:15106 
+│                       │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2025:15107 
+│                       │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2025:15709 
+│                       │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2025:15828 
+│                       │      │                  ├ [12]: https://access.redhat.com/security/cve/CVE-2025-8941 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2372512 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/2388220 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
+│                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-6020 
+│                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-8941 
+│                       │      │                  ├ [19]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
+│                       │      │                  ├ [20]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                       │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2025-8941.html 
+│                       │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
+│                       │      │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
+│                       │      │                  ╰ [24]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
+│                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
+│                       │      ╰ LastModifiedDate: 2025-09-15T16:15:41.297Z 
 │                       ├ [17] ╭ VulnerabilityID : CVE-2025-58050 
 │                       │      ├ PkgID           : libpcre2-8-0@10.45-1 
 │                       │      ├ PkgName         : libpcre2-8-0 
@@ -960,10 +982,10 @@
 │                       │      │                  ╰ UID : acc3f2b7a0c0ada6 
 │                       │      ├ InstalledVersion: 10.45-1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:85126685b46c56cffafafc9f6742cf5e49b55812993f
-│                       │      │                  │         011b02b03ca47f3c4db9 
-│                       │      │                  ╰ DiffID: sha256:e143e0c2d1a479c05d6d0e2b665279934cc0e7c7158b
-│                       │      │                            17b2f4b1a53539d28da2 
+│                       │      ├ Layer            ╭ Digest: sha256:d8b207ac1e3ac60c352a436a155b60efde0b0a5e7671
+│                       │      │                  │         4c6ffd9466a347232f81 
+│                       │      │                  ╰ DiffID: sha256:35a0f8a3c545895085d05f062ba6f64f7927e12cdd14
+│                       │      │                            fa8f4c06c17597a93d47 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-58050 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1013,10 +1035,10 @@
 │                       │      │                  ╰ UID : 4016d70dedce9ad0 
 │                       │      ├ InstalledVersion: 1:4.16.0-7ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:85126685b46c56cffafafc9f6742cf5e49b55812993f
-│                       │      │                  │         011b02b03ca47f3c4db9 
-│                       │      │                  ╰ DiffID: sha256:e143e0c2d1a479c05d6d0e2b665279934cc0e7c7158b
-│                       │      │                            17b2f4b1a53539d28da2 
+│                       │      ├ Layer            ╭ Digest: sha256:d8b207ac1e3ac60c352a436a155b60efde0b0a5e7671
+│                       │      │                  │         4c6ffd9466a347232f81 
+│                       │      │                  ╰ DiffID: sha256:35a0f8a3c545895085d05f062ba6f64f7927e12cdd14
+│                       │      │                            fa8f4c06c17597a93d47 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56433 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1061,10 +1083,10 @@
 │                       │      │                  ╰ UID : f3a0273134c1de96 
 │                       │      ├ InstalledVersion: 1:4.16.0-7ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:85126685b46c56cffafafc9f6742cf5e49b55812993f
-│                       │      │                  │         011b02b03ca47f3c4db9 
-│                       │      │                  ╰ DiffID: sha256:e143e0c2d1a479c05d6d0e2b665279934cc0e7c7158b
-│                       │      │                            17b2f4b1a53539d28da2 
+│                       │      ├ Layer            ╭ Digest: sha256:d8b207ac1e3ac60c352a436a155b60efde0b0a5e7671
+│                       │      │                  │         4c6ffd9466a347232f81 
+│                       │      │                  ╰ DiffID: sha256:35a0f8a3c545895085d05f062ba6f64f7927e12cdd14
+│                       │      │                            fa8f4c06c17597a93d47 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56433 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1109,10 +1131,10 @@
 │                              │                  ╰ UID : a03ee9a61d584e89 
 │                              ├ InstalledVersion: 1.35+dfsg-3.1 
 │                              ├ Status          : affected 
-│                              ├ Layer            ╭ Digest: sha256:85126685b46c56cffafafc9f6742cf5e49b55812993f
-│                              │                  │         011b02b03ca47f3c4db9 
-│                              │                  ╰ DiffID: sha256:e143e0c2d1a479c05d6d0e2b665279934cc0e7c7158b
-│                              │                            17b2f4b1a53539d28da2 
+│                              ├ Layer            ╭ Digest: sha256:d8b207ac1e3ac60c352a436a155b60efde0b0a5e7671
+│                              │                  │         4c6ffd9466a347232f81 
+│                              │                  ╰ DiffID: sha256:35a0f8a3c545895085d05f062ba6f64f7927e12cdd14
+│                              │                            fa8f4c06c17597a93d47 
 │                              ├ SeveritySource  : ubuntu 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-45582 
 │                              ├ DataSource       ╭ ID  : ubuntu 
