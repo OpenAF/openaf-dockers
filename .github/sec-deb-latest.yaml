@@ -97,7 +97,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-10148
     - https://www.cve.org/CVERecord?id=CVE-2025-10148
     PublishedDate: '2025-09-12T06:15:40.02Z'
-    LastModifiedDate: '2025-09-12T18:15:33.233Z'
+    LastModifiedDate: '2025-09-15T15:21:42.937Z'
   - VulnerabilityID: CVE-2025-9086
     PkgID: curl@8.12.1-3ubuntu1
     PkgName: curl
@@ -150,7 +150,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2025-09-12T18:15:35.167Z'
+    LastModifiedDate: '2025-09-15T15:21:42.937Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpgv@2.4.4-2ubuntu23.1
     PkgName: gpgv
@@ -225,6 +225,7 @@
     - CWE-415
     VendorSeverity:
       alma: 2
+      amazon: 2
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -281,6 +282,7 @@
     - CWE-415
     VendorSeverity:
       alma: 2
+      amazon: 2
       oracle-oval: 2
       photon: 3
       redhat: 2
@@ -351,7 +353,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-10148
     - https://www.cve.org/CVERecord?id=CVE-2025-10148
     PublishedDate: '2025-09-12T06:15:40.02Z'
-    LastModifiedDate: '2025-09-12T18:15:33.233Z'
+    LastModifiedDate: '2025-09-15T15:21:42.937Z'
   - VulnerabilityID: CVE-2025-9086
     PkgID: libcurl4t64@8.12.1-3ubuntu1
     PkgName: libcurl4t64
@@ -404,7 +406,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2025-09-12T18:15:35.167Z'
+    LastModifiedDate: '2025-09-15T15:21:42.937Z'
   - VulnerabilityID: CVE-2024-2236
     PkgID: libgcrypt20@1.11.0-6ubuntu1
     PkgName: libgcrypt20
@@ -456,59 +458,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2025-04-02T17:15:37.79Z'
-  - VulnerabilityID: CVE-2024-10041
-    PkgID: libpam-modules@1.5.3-7ubuntu4.3
-    PkgName: libpam-modules
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
-      UID: 1f70a9af7a8bc1e3
-    InstalledVersion: 1.5.3-7ubuntu4.3
-    Status: affected
-    Layer:
-      Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
-      DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'pam: libpam: Libpam vulnerable to read hashed password'
-    Description: A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending characters to its standard input (stdin). As this occurs, the attacker can train the branch predictor to execute an ROP chain speculatively. This flaw could result in leaked passwords, such as those found in /etc/shadow while performing authentications.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-922
-    VendorSeverity:
-      alma: 2
-      amazon: 2
-      azure: 2
-      cbl-mariner: 2
-      oracle-oval: 2
-      redhat: 2
-      rocky: 3
-      ubuntu: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
-    References:
-    - https://access.redhat.com/errata/RHSA-2024:10379
-    - https://access.redhat.com/errata/RHSA-2024:11250
-    - https://access.redhat.com/errata/RHSA-2024:9941
-    - https://access.redhat.com/security/cve/CVE-2024-10041
-    - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10041.html
-    - https://linux.oracle.com/errata/ELSA-2024-11250.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
-    - https://www.cve.org/CVERecord?id=CVE-2024-10041
-    PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-12-18T10:15:05.85Z'
   - VulnerabilityID: CVE-2024-10963
     PkgID: libpam-modules@1.5.3-7ubuntu4.3
     PkgName: libpam-modules
@@ -563,59 +512,66 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10963
     PublishedDate: '2024-11-07T16:15:17.15Z'
     LastModifiedDate: '2025-02-06T06:15:29.24Z'
-  - VulnerabilityID: CVE-2024-10041
-    PkgID: libpam-modules-bin@1.5.3-7ubuntu4.3
-    PkgName: libpam-modules-bin
+  - VulnerabilityID: CVE-2025-8941
+    PkgID: libpam-modules@1.5.3-7ubuntu4.3
+    PkgName: libpam-modules
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
-      UID: 914231a75f77278f
+      PURL: pkg:deb/ubuntu/libpam-modules@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
+      UID: 1f70a9af7a8bc1e3
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
       Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
       DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
     SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8941
     DataSource:
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'pam: libpam: Libpam vulnerable to read hashed password'
-    Description: A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending characters to its standard input (stdin). As this occurs, the attacker can train the branch predictor to execute an ROP chain speculatively. This flaw could result in leaked passwords, such as those found in /etc/shadow while performing authentications.
+    Title: 'linux-pam: Incomplete fix for CVE-2025-6020'
+    Description: A flaw was found in linux-pam. The pam_namespace module may improperly handle user-controlled paths, allowing local users to exploit symlink attacks and race conditions to elevate their privileges to root. This CVE provides a "complete" fix for CVE-2025-6020.
     Severity: MEDIUM
     CweIDs:
-    - CWE-922
+    - CWE-22
     VendorSeverity:
-      alma: 2
-      amazon: 2
-      azure: 2
-      cbl-mariner: 2
-      oracle-oval: 2
-      redhat: 2
+      alma: 3
+      oracle-oval: 3
+      redhat: 3
       rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
     References:
-    - https://access.redhat.com/errata/RHSA-2024:10379
-    - https://access.redhat.com/errata/RHSA-2024:11250
-    - https://access.redhat.com/errata/RHSA-2024:9941
-    - https://access.redhat.com/security/cve/CVE-2024-10041
-    - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10041.html
-    - https://linux.oracle.com/errata/ELSA-2024-11250.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
-    - https://www.cve.org/CVERecord?id=CVE-2024-10041
-    PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-12-18T10:15:05.85Z'
+    - https://access.redhat.com/errata/RHSA-2025:14557
+    - https://access.redhat.com/errata/RHSA-2025:15099
+    - https://access.redhat.com/errata/RHSA-2025:15100
+    - https://access.redhat.com/errata/RHSA-2025:15101
+    - https://access.redhat.com/errata/RHSA-2025:15102
+    - https://access.redhat.com/errata/RHSA-2025:15103
+    - https://access.redhat.com/errata/RHSA-2025:15104
+    - https://access.redhat.com/errata/RHSA-2025:15105
+    - https://access.redhat.com/errata/RHSA-2025:15106
+    - https://access.redhat.com/errata/RHSA-2025:15107
+    - https://access.redhat.com/errata/RHSA-2025:15709
+    - https://access.redhat.com/errata/RHSA-2025:15828
+    - https://access.redhat.com/security/cve/CVE-2025-8941
+    - https://bugzilla.redhat.com/2372512
+    - https://bugzilla.redhat.com/2388220
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
+    - https://errata.almalinux.org/9/ALSA-2025-15099.html
+    - https://errata.rockylinux.org/RLSA-2025:14557
+    - https://linux.oracle.com/cve/CVE-2025-8941.html
+    - https://linux.oracle.com/errata/ELSA-2025-15099.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
+    - https://www.cve.org/CVERecord?id=CVE-2025-8941
+    PublishedDate: '2025-08-13T15:15:41.873Z'
+    LastModifiedDate: '2025-09-15T16:15:41.297Z'
   - VulnerabilityID: CVE-2024-10963
     PkgID: libpam-modules-bin@1.5.3-7ubuntu4.3
     PkgName: libpam-modules-bin
@@ -670,59 +626,66 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10963
     PublishedDate: '2024-11-07T16:15:17.15Z'
     LastModifiedDate: '2025-02-06T06:15:29.24Z'
-  - VulnerabilityID: CVE-2024-10041
-    PkgID: libpam-runtime@1.5.3-7ubuntu4.3
-    PkgName: libpam-runtime
+  - VulnerabilityID: CVE-2025-8941
+    PkgID: libpam-modules-bin@1.5.3-7ubuntu4.3
+    PkgName: libpam-modules-bin
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu4.3?arch=all&distro=ubuntu-25.04
-      UID: 1420d5870a0f1057
+      PURL: pkg:deb/ubuntu/libpam-modules-bin@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
+      UID: 914231a75f77278f
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
       Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
       DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
     SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8941
     DataSource:
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'pam: libpam: Libpam vulnerable to read hashed password'
-    Description: A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending characters to its standard input (stdin). As this occurs, the attacker can train the branch predictor to execute an ROP chain speculatively. This flaw could result in leaked passwords, such as those found in /etc/shadow while performing authentications.
+    Title: 'linux-pam: Incomplete fix for CVE-2025-6020'
+    Description: A flaw was found in linux-pam. The pam_namespace module may improperly handle user-controlled paths, allowing local users to exploit symlink attacks and race conditions to elevate their privileges to root. This CVE provides a "complete" fix for CVE-2025-6020.
     Severity: MEDIUM
     CweIDs:
-    - CWE-922
+    - CWE-22
     VendorSeverity:
-      alma: 2
-      amazon: 2
-      azure: 2
-      cbl-mariner: 2
-      oracle-oval: 2
-      redhat: 2
+      alma: 3
+      oracle-oval: 3
+      redhat: 3
       rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
     References:
-    - https://access.redhat.com/errata/RHSA-2024:10379
-    - https://access.redhat.com/errata/RHSA-2024:11250
-    - https://access.redhat.com/errata/RHSA-2024:9941
-    - https://access.redhat.com/security/cve/CVE-2024-10041
-    - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10041.html
-    - https://linux.oracle.com/errata/ELSA-2024-11250.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
-    - https://www.cve.org/CVERecord?id=CVE-2024-10041
-    PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-12-18T10:15:05.85Z'
+    - https://access.redhat.com/errata/RHSA-2025:14557
+    - https://access.redhat.com/errata/RHSA-2025:15099
+    - https://access.redhat.com/errata/RHSA-2025:15100
+    - https://access.redhat.com/errata/RHSA-2025:15101
+    - https://access.redhat.com/errata/RHSA-2025:15102
+    - https://access.redhat.com/errata/RHSA-2025:15103
+    - https://access.redhat.com/errata/RHSA-2025:15104
+    - https://access.redhat.com/errata/RHSA-2025:15105
+    - https://access.redhat.com/errata/RHSA-2025:15106
+    - https://access.redhat.com/errata/RHSA-2025:15107
+    - https://access.redhat.com/errata/RHSA-2025:15709
+    - https://access.redhat.com/errata/RHSA-2025:15828
+    - https://access.redhat.com/security/cve/CVE-2025-8941
+    - https://bugzilla.redhat.com/2372512
+    - https://bugzilla.redhat.com/2388220
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
+    - https://errata.almalinux.org/9/ALSA-2025-15099.html
+    - https://errata.rockylinux.org/RLSA-2025:14557
+    - https://linux.oracle.com/cve/CVE-2025-8941.html
+    - https://linux.oracle.com/errata/ELSA-2025-15099.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
+    - https://www.cve.org/CVERecord?id=CVE-2025-8941
+    PublishedDate: '2025-08-13T15:15:41.873Z'
+    LastModifiedDate: '2025-09-15T16:15:41.297Z'
   - VulnerabilityID: CVE-2024-10963
     PkgID: libpam-runtime@1.5.3-7ubuntu4.3
     PkgName: libpam-runtime
@@ -777,59 +740,66 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10963
     PublishedDate: '2024-11-07T16:15:17.15Z'
     LastModifiedDate: '2025-02-06T06:15:29.24Z'
-  - VulnerabilityID: CVE-2024-10041
-    PkgID: libpam0g@1.5.3-7ubuntu4.3
-    PkgName: libpam0g
+  - VulnerabilityID: CVE-2025-8941
+    PkgID: libpam-runtime@1.5.3-7ubuntu4.3
+    PkgName: libpam-runtime
     PkgIdentifier:
-      PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
-      UID: 78dc01c1ea68c9c2
+      PURL: pkg:deb/ubuntu/libpam-runtime@1.5.3-7ubuntu4.3?arch=all&distro=ubuntu-25.04
+      UID: 1420d5870a0f1057
     InstalledVersion: 1.5.3-7ubuntu4.3
     Status: affected
     Layer:
       Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
       DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
     SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-10041
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8941
     DataSource:
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'pam: libpam: Libpam vulnerable to read hashed password'
-    Description: A vulnerability was found in PAM. The secret information is stored in memory, where the attacker can trigger the victim program to execute by sending characters to its standard input (stdin). As this occurs, the attacker can train the branch predictor to execute an ROP chain speculatively. This flaw could result in leaked passwords, such as those found in /etc/shadow while performing authentications.
+    Title: 'linux-pam: Incomplete fix for CVE-2025-6020'
+    Description: A flaw was found in linux-pam. The pam_namespace module may improperly handle user-controlled paths, allowing local users to exploit symlink attacks and race conditions to elevate their privileges to root. This CVE provides a "complete" fix for CVE-2025-6020.
     Severity: MEDIUM
     CweIDs:
-    - CWE-922
+    - CWE-22
     VendorSeverity:
-      alma: 2
-      amazon: 2
-      azure: 2
-      cbl-mariner: 2
-      oracle-oval: 2
-      redhat: 2
+      alma: 3
+      oracle-oval: 3
+      redhat: 3
       rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 4.7
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
     References:
-    - https://access.redhat.com/errata/RHSA-2024:10379
-    - https://access.redhat.com/errata/RHSA-2024:11250
-    - https://access.redhat.com/errata/RHSA-2024:9941
-    - https://access.redhat.com/security/cve/CVE-2024-10041
-    - https://bugzilla.redhat.com/2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2319212
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2324291
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10041
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10963
-    - https://errata.almalinux.org/9/ALSA-2024-11250.html
-    - https://errata.rockylinux.org/RLSA-2024:10379
-    - https://linux.oracle.com/cve/CVE-2024-10041.html
-    - https://linux.oracle.com/errata/ELSA-2024-11250.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2024-10041
-    - https://www.cve.org/CVERecord?id=CVE-2024-10041
-    PublishedDate: '2024-10-23T14:15:03.97Z'
-    LastModifiedDate: '2024-12-18T10:15:05.85Z'
+    - https://access.redhat.com/errata/RHSA-2025:14557
+    - https://access.redhat.com/errata/RHSA-2025:15099
+    - https://access.redhat.com/errata/RHSA-2025:15100
+    - https://access.redhat.com/errata/RHSA-2025:15101
+    - https://access.redhat.com/errata/RHSA-2025:15102
+    - https://access.redhat.com/errata/RHSA-2025:15103
+    - https://access.redhat.com/errata/RHSA-2025:15104
+    - https://access.redhat.com/errata/RHSA-2025:15105
+    - https://access.redhat.com/errata/RHSA-2025:15106
+    - https://access.redhat.com/errata/RHSA-2025:15107
+    - https://access.redhat.com/errata/RHSA-2025:15709
+    - https://access.redhat.com/errata/RHSA-2025:15828
+    - https://access.redhat.com/security/cve/CVE-2025-8941
+    - https://bugzilla.redhat.com/2372512
+    - https://bugzilla.redhat.com/2388220
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
+    - https://errata.almalinux.org/9/ALSA-2025-15099.html
+    - https://errata.rockylinux.org/RLSA-2025:14557
+    - https://linux.oracle.com/cve/CVE-2025-8941.html
+    - https://linux.oracle.com/errata/ELSA-2025-15099.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
+    - https://www.cve.org/CVERecord?id=CVE-2025-8941
+    PublishedDate: '2025-08-13T15:15:41.873Z'
+    LastModifiedDate: '2025-09-15T16:15:41.297Z'
   - VulnerabilityID: CVE-2024-10963
     PkgID: libpam0g@1.5.3-7ubuntu4.3
     PkgName: libpam0g
@@ -884,6 +854,66 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-10963
     PublishedDate: '2024-11-07T16:15:17.15Z'
     LastModifiedDate: '2025-02-06T06:15:29.24Z'
+  - VulnerabilityID: CVE-2025-8941
+    PkgID: libpam0g@1.5.3-7ubuntu4.3
+    PkgName: libpam0g
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam0g@1.5.3-7ubuntu4.3?arch=amd64&distro=ubuntu-25.04
+      UID: 78dc01c1ea68c9c2
+    InstalledVersion: 1.5.3-7ubuntu4.3
+    Status: affected
+    Layer:
+      Digest: sha256:5af3e19e79c838e3a261e597389deb12960c186b790aff808145b7403fca7841
+      DiffID: sha256:46a3dcbcf02122404613f25478137a5b120209c84fed1151e17ea159a9c3d4be
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8941
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'linux-pam: Incomplete fix for CVE-2025-6020'
+    Description: A flaw was found in linux-pam. The pam_namespace module may improperly handle user-controlled paths, allowing local users to exploit symlink attacks and race conditions to elevate their privileges to root. This CVE provides a "complete" fix for CVE-2025-6020.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      alma: 3
+      oracle-oval: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:14557
+    - https://access.redhat.com/errata/RHSA-2025:15099
+    - https://access.redhat.com/errata/RHSA-2025:15100
+    - https://access.redhat.com/errata/RHSA-2025:15101
+    - https://access.redhat.com/errata/RHSA-2025:15102
+    - https://access.redhat.com/errata/RHSA-2025:15103
+    - https://access.redhat.com/errata/RHSA-2025:15104
+    - https://access.redhat.com/errata/RHSA-2025:15105
+    - https://access.redhat.com/errata/RHSA-2025:15106
+    - https://access.redhat.com/errata/RHSA-2025:15107
+    - https://access.redhat.com/errata/RHSA-2025:15709
+    - https://access.redhat.com/errata/RHSA-2025:15828
+    - https://access.redhat.com/security/cve/CVE-2025-8941
+    - https://bugzilla.redhat.com/2372512
+    - https://bugzilla.redhat.com/2388220
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2372512
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2388220
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6020
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8941
+    - https://errata.almalinux.org/9/ALSA-2025-15099.html
+    - https://errata.rockylinux.org/RLSA-2025:14557
+    - https://linux.oracle.com/cve/CVE-2025-8941.html
+    - https://linux.oracle.com/errata/ELSA-2025-15099.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-8941
+    - https://www.cve.org/CVERecord?id=CVE-2025-8941
+    PublishedDate: '2025-08-13T15:15:41.873Z'
+    LastModifiedDate: '2025-09-15T16:15:41.297Z'
   - VulnerabilityID: CVE-2025-58050
     PkgID: libpcre2-8-0@10.45-1
     PkgName: libpcre2-8-0
