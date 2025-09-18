@@ -3565,7 +3565,60 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2025-6965 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2025-3277 
+│                       │      ├ PkgID           : sqlite-libs@3.48.0-r0 
+│                       │      ├ PkgName         : sqlite-libs 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sqlite-libs@3.48.0-r0?arch=x86_64&dist
+│                       │      │                  │       ro=3.21.3 
+│                       │      │                  ╰ UID : 22e66f5245d24208 
+│                       │      ├ InstalledVersion: 3.48.0-r0 
+│                       │      ├ FixedVersion    : 3.48.0-r1 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4c4700dde23c51097d326a561f2def2e2afcb03cfd32
+│                       │      │                  │         af2fecb1758597ec9408 
+│                       │      │                  ╰ DiffID: sha256:be756c12e9dbd56e6ea2e38174c811ced9c0c95d3241
+│                       │      │                            fc7b86e44c11b16ec73a 
+│                       │      ├ SeveritySource  : nvd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-3277 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : SQLite: integer overflow in SQLite 
+│                       │      ├ Description     : An integer overflow can be triggered in SQLite’s
+│                       │      │                   `concat_ws()` function. The resulting, truncated integer is
+│                       │      │                   then used to allocate a buffer. When SQLite then writes the
+│                       │      │                   resulting string to the buffer, it uses the original,
+│                       │      │                   untruncated size and thus a wild Heap Buffer overflow of
+│                       │      │                   size ~4GB can be triggered. This can result in arbitrary
+│                       │      │                   code execution. 
+│                       │      ├ Severity        : CRITICAL 
+│                       │      ├ CweIDs           ╭ [0]: CWE-122 
+│                       │      │                  ╰ [1]: CWE-190 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ nvd        : 4 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 9.8 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 7.3 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:7433 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-3277 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2358271 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2359553 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2025-7433.html 
+│                       │      │                  ├ [5] : https://linux.oracle.com/cve/CVE-2025-3277.html 
+│                       │      │                  ├ [6] : https://linux.oracle.com/errata/ELSA-2025-7517.html 
+│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2025-3277 
+│                       │      │                  ├ [8] : https://sqlite.org/src/info/498e3f1cf57f164f 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7528-1 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-3277 
+│                       │      ├ PublishedDate   : 2025-04-14T17:15:27.297Z 
+│                       │      ╰ LastModifiedDate: 2025-08-18T21:28:16.38Z 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2025-6965 
 │                       │      ├ PkgID           : sqlite-libs@3.48.0-r0 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sqlite-libs@3.48.0-r0?arch=x86_64&dist
@@ -3625,7 +3678,7 @@
 │                       │      │                          c280ecdd833007c9d8dd595edb295b984c2b487b5c8 
 │                       │      ├ PublishedDate   : 2025-07-15T14:15:31.08Z 
 │                       │      ╰ LastModifiedDate: 2025-07-22T17:06:21.51Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2025-29087 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2025-29087 
 │                       │      ├ PkgID           : sqlite-libs@3.48.0-r0 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sqlite-libs@3.48.0-r0?arch=x86_64&dist
@@ -3676,7 +3729,57 @@
 │                       │      │                  ╰ [6]: https://www.sqlite.org/cves.html 
 │                       │      ├ PublishedDate   : 2025-04-07T20:15:20.253Z 
 │                       │      ╰ LastModifiedDate: 2025-04-30T12:43:22.31Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2025-32462 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2025-29088 
+│                       │      ├ PkgID           : sqlite-libs@3.48.0-r0 
+│                       │      ├ PkgName         : sqlite-libs 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sqlite-libs@3.48.0-r0?arch=x86_64&dist
+│                       │      │                  │       ro=3.21.3 
+│                       │      │                  ╰ UID : 22e66f5245d24208 
+│                       │      ├ InstalledVersion: 3.48.0-r0 
+│                       │      ├ FixedVersion    : 3.48.0-r4 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4c4700dde23c51097d326a561f2def2e2afcb03cfd32
+│                       │      │                  │         af2fecb1758597ec9408 
+│                       │      │                  ╰ DiffID: sha256:be756c12e9dbd56e6ea2e38174c811ced9c0c95d3241
+│                       │      │                            fc7b86e44c11b16ec73a 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-29088 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : sqlite: Denial of Service in SQLite 
+│                       │      ├ Description     : In SQLite 3.49.0 before 3.49.1, certain argument values to
+│                       │      │                   sqlite3_db_config (in the C-language API) can cause a denial
+│                       │      │                    of service (application crash). An sz*nBig multiplication
+│                       │      │                   is not cast to a 64-bit integer, and consequently some
+│                       │      │                   memory allocations may be incorrect. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-190 
+│                       │      ├ VendorSeverity   ╭ amazon : 3 
+│                       │      │                  ├ bitnami: 2 
+│                       │      │                  ├ photon : 2 
+│                       │      │                  ├ redhat : 2 
+│                       │      │                  ╰ ubuntu : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:L/I:
+│                       │      │                  │         │           L/A:L 
+│                       │      │                  │         ╰ V3Score : 5.6 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
+│                       │      │                            │           N/A:H 
+│                       │      │                            ╰ V3Score : 5.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-29088 
+│                       │      │                  ├ [1]: https://gist.github.com/ylwango613/d3883fb9f6ba8a78086
+│                       │      │                  │      356779ce88248 
+│                       │      │                  ├ [2]: https://github.com/sqlite/sqlite/commit/56d2fd008b1081
+│                       │      │                  │      09f489339f5fd55212bb50afd4 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-29088 
+│                       │      │                  ├ [4]: https://sqlite.org/forum/forumpost/48f365daec 
+│                       │      │                  ├ [5]: https://sqlite.org/releaselog/3_49_1.html 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7528-1 
+│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7679-1 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-29088 
+│                       │      │                  ╰ [9]: https://www.sqlite.org/cves.html 
+│                       │      ├ PublishedDate   : 2025-04-10T14:15:27.163Z 
+│                       │      ╰ LastModifiedDate: 2025-08-26T20:15:39.47Z 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2025-32462 
 │                       │      ├ PkgID           : sudo@1.9.16_p2-r0 
 │                       │      ├ PkgName         : sudo 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sudo@1.9.16_p2-r0?arch=x86_64&distro=3
@@ -3751,7 +3854,7 @@
 │                       │      │                  ╰ [24]: https://www.suse.com/security/cve/CVE-2025-32462.html 
 │                       │      ├ PublishedDate   : 2025-06-30T21:15:30.08Z 
 │                       │      ╰ LastModifiedDate: 2025-07-25T15:15:26.497Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2025-32463 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2025-32463 
 │                       │      ├ PkgID           : sudo@1.9.16_p2-r0 
 │                       │      ├ PkgName         : sudo 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sudo@1.9.16_p2-r0?arch=x86_64&distro=3
@@ -3827,7 +3930,7 @@
 │                       │      │                          -mitigate-sudo-vulnerability 
 │                       │      ├ PublishedDate   : 2025-06-30T21:15:30.257Z 
 │                       │      ╰ LastModifiedDate: 2025-07-22T15:15:26.15Z 
-│                       ╰ [42] ╭ VulnerabilityID : CVE-2025-31115 
+│                       ╰ [44] ╭ VulnerabilityID : CVE-2025-31115 
 │                              ├ PkgID           : xz-libs@5.6.3-r0 
 │                              ├ PkgName         : xz-libs 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xz-libs@5.6.3-r0?arch=x86_64&distro=3.
