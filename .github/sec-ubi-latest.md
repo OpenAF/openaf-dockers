@@ -3671,7 +3671,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -3919,7 +3919,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -4167,7 +4167,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
