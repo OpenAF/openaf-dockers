@@ -3651,6 +3651,7 @@
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ nvd        : 4 
 │                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ photon     : 4 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
