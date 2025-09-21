@@ -154,7 +154,7 @@
 │                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7745-1 
 │                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-58060 
 │                       │      ├ PublishedDate   : 2025-09-11T18:15:34.787Z 
-│                       │      ╰ LastModifiedDate: 2025-09-15T15:22:38.297Z 
+│                       │      ╰ LastModifiedDate: 2025-09-19T19:56:17.477Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2023-4504 
 │                       │      ├ PkgID           : cups-libs@2.3.3op2-33.el9.x86_64 
 │                       │      ├ PkgName         : cups-libs 
@@ -279,7 +279,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-7745-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-58364 
 │                       │      ├ PublishedDate   : 2025-09-11T18:15:35.38Z 
-│                       │      ╰ LastModifiedDate: 2025-09-15T15:22:38.297Z 
+│                       │      ╰ LastModifiedDate: 2025-09-19T19:48:32.727Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2021-25317 
 │                       │      ├ PkgID           : cups-libs@2.3.3op2-33.el9.x86_64 
 │                       │      ├ PkgName         : cups-libs 
@@ -1029,6 +1029,7 @@
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 3 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -1047,12 +1048,14 @@
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2376755 
 │                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2359622 
 │                       │      │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2025-16115.html 
-│                       │      │                  ├ [9] : https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
+│                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-32988.html 
+│                       │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
+│                       │      │                  ├ [11]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
 │                       │      │                  │       ly/004883.html 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-32988 
-│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7635-1 
-│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7742-1 
-│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-32988 
+│                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-32988 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7742-1 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-32988 
 │                       │      ├ PublishedDate   : 2025-07-10T08:15:24.223Z 
 │                       │      ╰ LastModifiedDate: 2025-09-17T21:15:37.95Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2025-32989 
@@ -1087,6 +1090,7 @@
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -1102,11 +1106,13 @@
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2376755 
 │                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2359621 
 │                       │      │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2025-16115.html 
-│                       │      │                  ├ [9] : https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
+│                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-32989.html 
+│                       │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
+│                       │      │                  ├ [11]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
 │                       │      │                  │       ly/004883.html 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-32989 
-│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7635-1 
-│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2025-32989 
+│                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-32989 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2025-32989 
 │                       │      ├ PublishedDate   : 2025-07-10T08:15:24.43Z 
 │                       │      ╰ LastModifiedDate: 2025-09-17T21:15:38.08Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2025-32990 
@@ -1140,6 +1146,7 @@
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 3 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -1158,12 +1165,14 @@
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2376755 
 │                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2359620 
 │                       │      │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2025-16115.html 
-│                       │      │                  ├ [9] : https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
+│                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-32990.html 
+│                       │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
+│                       │      │                  ├ [11]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
 │                       │      │                  │       ly/004883.html 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-32990 
-│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7635-1 
-│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7742-1 
-│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-32990 
+│                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-32990 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7742-1 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-32990 
 │                       │      ├ PublishedDate   : 2025-07-10T10:15:33.06Z 
 │                       │      ╰ LastModifiedDate: 2025-09-17T21:15:38.223Z 
 │                       ├ [20] ╭ VulnerabilityID : CVE-2025-6395 
@@ -1192,6 +1201,7 @@
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ ubuntu     : 2 
@@ -1207,12 +1217,14 @@
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/2376755 
 │                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2376755 
 │                       │      │                  ├ [8] : https://errata.almalinux.org/10/ALSA-2025-16115.html 
-│                       │      │                  ├ [9] : https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
+│                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-6395.html 
+│                       │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2025-20606.html 
+│                       │      │                  ├ [11]: https://lists.gnupg.org/pipermail/gnutls-help/2025-Ju
 │                       │      │                  │       ly/004883.html 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-6395 
-│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7635-1 
-│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7742-1 
-│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
+│                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-6395 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-7635-1 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-7742-1 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2025-6395 
 │                       │      ├ PublishedDate   : 2025-07-10T16:15:25.11Z 
 │                       │      ╰ LastModifiedDate: 2025-09-17T21:15:38.51Z 
 │                       ├ [21] ╭ VulnerabilityID : CVE-2025-5914 
@@ -3671,7 +3683,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -3919,7 +3931,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -4167,7 +4179,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
