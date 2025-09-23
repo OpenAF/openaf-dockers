@@ -114,7 +114,48 @@
 │                       │      │                          ins/detail/?id=openEuler-SA-2025-1292 
 │                       │      ├ PublishedDate   : 2025-04-14T08:15:13.973Z 
 │                       │      ╰ LastModifiedDate: 2025-04-15T18:39:27.967Z 
-│                       ├ [2]  ╭ VulnerabilityID : CVE-2025-21587 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2025-59375 
+│                       │      ├ PkgID           : libexpat@2.7.0-r0 
+│                       │      ├ PkgName         : libexpat 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libexpat@2.7.0-r0?arch=x86_64&distro=3
+│                       │      │                  │       .21.3 
+│                       │      │                  ╰ UID : c0ff74b5002517fa 
+│                       │      ├ InstalledVersion: 2.7.0-r0 
+│                       │      ├ FixedVersion    : 2.7.2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:4c4700dde23c51097d326a561f2def2e2afcb03cfd32
+│                       │      │                  │         af2fecb1758597ec9408 
+│                       │      │                  ╰ DiffID: sha256:be756c12e9dbd56e6ea2e38174c811ced9c0c95d3241
+│                       │      │                            fc7b86e44c11b16ec73a 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-59375 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : expat: libexpat in Expat allows attackers to trigger large
+│                       │      │                   dynamic memory allocations via a small document that is
+│                       │      │                   submitted for parsing 
+│                       │      ├ Description     : libexpat in Expat before 2.7.2 allows attackers to trigger
+│                       │      │                   large dynamic memory allocations via a small document that
+│                       │      │                   is submitted for parsing. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-770 
+│                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-59375 
+│                       │      │                  ├ [1]: https://github.com/libexpat/libexpat/blob/676a4c531ec7
+│                       │      │                  │      68732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74 
+│                       │      │                  ├ [2]: https://github.com/libexpat/libexpat/blob/R_2_7_2/expa
+│                       │      │                  │      t/Changes 
+│                       │      │                  ├ [3]: https://github.com/libexpat/libexpat/issues/1018 
+│                       │      │                  ├ [4]: https://github.com/libexpat/libexpat/pull/1034 
+│                       │      │                  ├ [5]: https://issues.oss-fuzz.com/issues/439133977 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-59375 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-59375 
+│                       │      ├ PublishedDate   : 2025-09-15T03:15:40.92Z 
+│                       │      ╰ LastModifiedDate: 2025-09-17T14:15:40.913Z 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2025-21587 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64
@@ -207,7 +248,7 @@
 │                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:54.293Z 
 │                       │      ╰ LastModifiedDate: 2025-04-29T20:03:13.79Z 
-│                       ├ [3]  ╭ VulnerabilityID : CVE-2025-23083 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2025-23083 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64
@@ -275,7 +316,7 @@
 │                       │      │                          -mitigate-nodejs-vulnerability 
 │                       │      ├ PublishedDate   : 2025-01-22T02:15:33.93Z 
 │                       │      ╰ LastModifiedDate: 2025-07-22T16:15:26.76Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2025-30749 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-30749 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64
@@ -358,7 +399,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:29.313Z 
 │                       │      ╰ LastModifiedDate: 2025-08-04T21:05:34.533Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-50059 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-50059 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64
@@ -446,7 +487,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:40.367Z 
 │                       │      ╰ LastModifiedDate: 2025-08-04T21:17:16.467Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-50106 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-50106 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64
@@ -530,7 +571,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:47.013Z 
 │                       │      ╰ LastModifiedDate: 2025-08-04T21:20:26.203Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-30691 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-30691 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64
@@ -618,7 +659,7 @@
 │                       │      │                  ╰ [27]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:58.36Z 
 │                       │      ╰ LastModifiedDate: 2025-04-19T01:15:44.85Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-30698 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-30698 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64
@@ -713,7 +754,7 @@
 │                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:59.137Z 
 │                       │      ╰ LastModifiedDate: 2025-04-29T20:03:21.7Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-30754 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2025-30754 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64
@@ -800,7 +841,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:29.973Z 
 │                       │      ╰ LastModifiedDate: 2025-08-04T21:16:20.84Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2025-21587 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2025-21587 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
@@ -893,7 +934,7 @@
 │                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:54.293Z 
 │                       │      ╰ LastModifiedDate: 2025-04-29T20:03:13.79Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2025-23083 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2025-23083 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
@@ -961,7 +1002,7 @@
 │                       │      │                          -mitigate-nodejs-vulnerability 
 │                       │      ├ PublishedDate   : 2025-01-22T02:15:33.93Z 
 │                       │      ╰ LastModifiedDate: 2025-07-22T16:15:26.76Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2025-30749 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2025-30749 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
@@ -1044,7 +1085,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:29.313Z 
 │                       │      ╰ LastModifiedDate: 2025-08-04T21:05:34.533Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2025-50059 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2025-50059 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
@@ -1132,7 +1173,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:40.367Z 
 │                       │      ╰ LastModifiedDate: 2025-08-04T21:17:16.467Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2025-50106 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2025-50106 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
@@ -1216,7 +1257,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:47.013Z 
 │                       │      ╰ LastModifiedDate: 2025-08-04T21:20:26.203Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2025-30691 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2025-30691 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
@@ -1304,7 +1345,7 @@
 │                       │      │                  ╰ [27]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:58.36Z 
 │                       │      ╰ LastModifiedDate: 2025-04-19T01:15:44.85Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2025-30698 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2025-30698 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
@@ -1399,7 +1440,7 @@
 │                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:59.137Z 
 │                       │      ╰ LastModifiedDate: 2025-04-29T20:03:21.7Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2025-30754 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2025-30754 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
@@ -1486,7 +1527,7 @@
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:29.973Z 
 │                       │      ╰ LastModifiedDate: 2025-08-04T21:16:20.84Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2024-12718 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2024-12718 
 │                       │      ├ PkgID           : pyc@3.12.9-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.12.9-r0?arch=x86_64&distro=3.21.3 
@@ -1601,7 +1642,7 @@
 │                       │      │                  ╰ [37]: https://www.cve.org/CVERecord?id=CVE-2024-12718 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.183Z 
 │                       │      ╰ LastModifiedDate: 2025-07-24T16:15:29.157Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2025-4138 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2025-4138 
 │                       │      ├ PkgID           : pyc@3.12.9-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.12.9-r0?arch=x86_64&distro=3.21.3 
@@ -1713,7 +1754,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4138 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.377Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.767Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2025-4330 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2025-4330 
 │                       │      ├ PkgID           : pyc@3.12.9-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.12.9-r0?arch=x86_64&distro=3.21.3 
@@ -1825,7 +1866,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4330 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.503Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.91Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2025-4517 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2025-4517 
 │                       │      ├ PkgID           : pyc@3.12.9-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.12.9-r0?arch=x86_64&distro=3.21.3 
@@ -1937,7 +1978,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4517 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.837Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:33.05Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │      ├ PkgID           : pyc@3.12.9-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.12.9-r0?arch=x86_64&distro=3.21.3 
@@ -2002,7 +2043,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2024-12718 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2024-12718 
 │                       │      ├ PkgID           : python3@3.12.9-r0 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.12.9-r0?arch=x86_64&distro=3
@@ -2118,7 +2159,7 @@
 │                       │      │                  ╰ [37]: https://www.cve.org/CVERecord?id=CVE-2024-12718 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.183Z 
 │                       │      ╰ LastModifiedDate: 2025-07-24T16:15:29.157Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2025-4138 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2025-4138 
 │                       │      ├ PkgID           : python3@3.12.9-r0 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.12.9-r0?arch=x86_64&distro=3
@@ -2231,7 +2272,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4138 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.377Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.767Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2025-4330 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2025-4330 
 │                       │      ├ PkgID           : python3@3.12.9-r0 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.12.9-r0?arch=x86_64&distro=3
@@ -2344,7 +2385,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4330 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.503Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.91Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2025-4517 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2025-4517 
 │                       │      ├ PkgID           : python3@3.12.9-r0 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.12.9-r0?arch=x86_64&distro=3
@@ -2457,7 +2498,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4517 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.837Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:33.05Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │      ├ PkgID           : python3@3.12.9-r0 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.12.9-r0?arch=x86_64&distro=3
@@ -2523,7 +2564,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2024-12718 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2024-12718 
 │                       │      ├ PkgID           : python3-pyc@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.12.9-r0?arch=x86_64&dist
@@ -2639,7 +2680,7 @@
 │                       │      │                  ╰ [37]: https://www.cve.org/CVERecord?id=CVE-2024-12718 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.183Z 
 │                       │      ╰ LastModifiedDate: 2025-07-24T16:15:29.157Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2025-4138 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2025-4138 
 │                       │      ├ PkgID           : python3-pyc@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.12.9-r0?arch=x86_64&dist
@@ -2752,7 +2793,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4138 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.377Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.767Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2025-4330 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2025-4330 
 │                       │      ├ PkgID           : python3-pyc@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.12.9-r0?arch=x86_64&dist
@@ -2865,7 +2906,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4330 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.503Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.91Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2025-4517 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2025-4517 
 │                       │      ├ PkgID           : python3-pyc@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.12.9-r0?arch=x86_64&dist
@@ -2978,7 +3019,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4517 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.837Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:33.05Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │      ├ PkgID           : python3-pyc@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.12.9-r0?arch=x86_64&dist
@@ -3044,7 +3085,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2024-12718 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2024-12718 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.12.9-r0?arch=x8
@@ -3160,7 +3201,7 @@
 │                       │      │                  ╰ [37]: https://www.cve.org/CVERecord?id=CVE-2024-12718 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.183Z 
 │                       │      ╰ LastModifiedDate: 2025-07-24T16:15:29.157Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2025-4138 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2025-4138 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.12.9-r0?arch=x8
@@ -3273,7 +3314,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4138 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.377Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.767Z 
-│                       ├ [35] ╭ VulnerabilityID : CVE-2025-4330 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2025-4330 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.12.9-r0?arch=x8
@@ -3386,7 +3427,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4330 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.503Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.91Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2025-4517 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2025-4517 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.12.9-r0?arch=x8
@@ -3499,7 +3540,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4517 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.837Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:33.05Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.12.9-r0?arch=x8
@@ -3565,7 +3606,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2025-3277 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2025-3277 
 │                       │      ├ PkgID           : sqlite-libs@3.48.0-r0 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sqlite-libs@3.48.0-r0?arch=x86_64&dist
@@ -3618,7 +3659,7 @@
 │                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-3277 
 │                       │      ├ PublishedDate   : 2025-04-14T17:15:27.297Z 
 │                       │      ╰ LastModifiedDate: 2025-08-18T21:28:16.38Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2025-6965 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2025-6965 
 │                       │      ├ PkgID           : sqlite-libs@3.48.0-r0 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sqlite-libs@3.48.0-r0?arch=x86_64&dist
@@ -3679,7 +3720,7 @@
 │                       │      │                          c280ecdd833007c9d8dd595edb295b984c2b487b5c8 
 │                       │      ├ PublishedDate   : 2025-07-15T14:15:31.08Z 
 │                       │      ╰ LastModifiedDate: 2025-07-22T17:06:21.51Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2025-29087 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2025-29087 
 │                       │      ├ PkgID           : sqlite-libs@3.48.0-r0 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sqlite-libs@3.48.0-r0?arch=x86_64&dist
@@ -3730,7 +3771,7 @@
 │                       │      │                  ╰ [6]: https://www.sqlite.org/cves.html 
 │                       │      ├ PublishedDate   : 2025-04-07T20:15:20.253Z 
 │                       │      ╰ LastModifiedDate: 2025-04-30T12:43:22.31Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2025-29088 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2025-29088 
 │                       │      ├ PkgID           : sqlite-libs@3.48.0-r0 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sqlite-libs@3.48.0-r0?arch=x86_64&dist
@@ -3780,7 +3821,7 @@
 │                       │      │                  ╰ [9]: https://www.sqlite.org/cves.html 
 │                       │      ├ PublishedDate   : 2025-04-10T14:15:27.163Z 
 │                       │      ╰ LastModifiedDate: 2025-08-26T20:15:39.47Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2025-32462 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2025-32462 
 │                       │      ├ PkgID           : sudo@1.9.16_p2-r0 
 │                       │      ├ PkgName         : sudo 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sudo@1.9.16_p2-r0?arch=x86_64&distro=3
@@ -3855,7 +3896,7 @@
 │                       │      │                  ╰ [24]: https://www.suse.com/security/cve/CVE-2025-32462.html 
 │                       │      ├ PublishedDate   : 2025-06-30T21:15:30.08Z 
 │                       │      ╰ LastModifiedDate: 2025-07-25T15:15:26.497Z 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2025-32463 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2025-32463 
 │                       │      ├ PkgID           : sudo@1.9.16_p2-r0 
 │                       │      ├ PkgName         : sudo 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sudo@1.9.16_p2-r0?arch=x86_64&distro=3
@@ -3931,7 +3972,7 @@
 │                       │      │                          -mitigate-sudo-vulnerability 
 │                       │      ├ PublishedDate   : 2025-06-30T21:15:30.257Z 
 │                       │      ╰ LastModifiedDate: 2025-07-22T15:15:26.15Z 
-│                       ╰ [44] ╭ VulnerabilityID : CVE-2025-31115 
+│                       ╰ [45] ╭ VulnerabilityID : CVE-2025-31115 
 │                              ├ PkgID           : xz-libs@5.6.3-r0 
 │                              ├ PkgName         : xz-libs 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xz-libs@5.6.3-r0?arch=x86_64&distro=3.
