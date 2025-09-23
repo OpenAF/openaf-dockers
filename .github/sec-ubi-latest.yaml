@@ -115,6 +115,7 @@
     - CWE-287
     VendorSeverity:
       alma: 3
+      azure: 3
       oracle-oval: 3
       redhat: 3
       ubuntu: 2
@@ -212,6 +213,7 @@
     - CWE-20
     - CWE-476
     VendorSeverity:
+      azure: 2
       oracle-oval: 3
       redhat: 2
       ubuntu: 2
