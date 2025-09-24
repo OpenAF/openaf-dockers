@@ -101,6 +101,45 @@
     - https://www.openeuler.org/zh/security/security-bulletins/detail/?id=openEuler-SA-2025-1292
     PublishedDate: '2025-04-14T08:15:13.973Z'
     LastModifiedDate: '2025-04-15T18:39:27.967Z'
+  - VulnerabilityID: CVE-2025-59375
+    PkgID: libexpat@2.7.0-r0
+    PkgName: libexpat
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libexpat@2.7.0-r0?arch=x86_64&distro=3.21.3
+      UID: c0ff74b5002517fa
+    InstalledVersion: 2.7.0-r0
+    FixedVersion: 2.7.2-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:4c4700dde23c51097d326a561f2def2e2afcb03cfd32af2fecb1758597ec9408
+      DiffID: sha256:be756c12e9dbd56e6ea2e38174c811ced9c0c95d3241fc7b86e44c11b16ec73a
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-59375
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'expat: libexpat in Expat allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing'
+    Description: libexpat in Expat before 2.7.2 allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing.
+    Severity: HIGH
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-59375
+    - https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74
+    - https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes
+    - https://github.com/libexpat/libexpat/issues/1018
+    - https://github.com/libexpat/libexpat/pull/1034
+    - https://issues.oss-fuzz.com/issues/439133977
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-59375
+    - https://www.cve.org/CVERecord?id=CVE-2025-59375
+    PublishedDate: '2025-09-15T03:15:40.92Z'
+    LastModifiedDate: '2025-09-17T14:15:40.913Z'
   - VulnerabilityID: CVE-2025-21587
     PkgID: openjdk21-jre@21.0.6_p7-r0
     PkgName: openjdk21-jre
