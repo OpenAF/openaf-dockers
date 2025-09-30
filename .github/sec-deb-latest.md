@@ -293,13 +293,13 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.2 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:12980 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:13240 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-8058 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2383146 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2383146 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8058 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-12980.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-13240.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:12980 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-8058.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-20595.html 
@@ -355,13 +355,13 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.2 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:12980 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:13240 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-8058 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2383146 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2383146 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8058 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-12980.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-13240.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:12980 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-8058.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-20595.html 
@@ -581,21 +581,20 @@
 │                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2024:10528 
 │                       │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2024:10852 
 │                       │      │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2024-10963 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2319212 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2324291 
-│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2324291 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-10041 
-│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-10963 
-│                       │      │                  ├ [13]: https://errata.almalinux.org/8/ALSA-2024-10379.html 
-│                       │      │                  ├ [14]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                       │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-10963.html 
-│                       │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
-│                       │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
-│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7761-1 
-│                       │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
+│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-10244.html 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-10963.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7761-1 
+│                       │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2025-8941 
@@ -647,18 +646,19 @@
 │                       │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:16524 
 │                       │      │                  ├ [14]: https://access.redhat.com/security/cve/CVE-2025-8941 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2372512 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
-│                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-6020 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2388220 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
 │                       │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-6020 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8941 
-│                       │      │                  ├ [20]: https://errata.almalinux.org/8/ALSA-2025-14557.html 
-│                       │      │                  ├ [21]: https://errata.rockylinux.org/RLSA-2025:14557 
-│                       │      │                  ├ [22]: https://linux.oracle.com/cve/CVE-2025-8941.html 
-│                       │      │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
-│                       │      │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
-│                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
+│                       │      │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
+│                       │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                       │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-8941.html 
+│                       │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
+│                       │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
+│                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-09-23T20:15:33.927Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2024-10963 
@@ -706,21 +706,20 @@
 │                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2024:10528 
 │                       │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2024:10852 
 │                       │      │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2024-10963 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2319212 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2324291 
-│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2324291 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-10041 
-│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-10963 
-│                       │      │                  ├ [13]: https://errata.almalinux.org/8/ALSA-2024-10379.html 
-│                       │      │                  ├ [14]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                       │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-10963.html 
-│                       │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
-│                       │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
-│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7761-1 
-│                       │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
+│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-10244.html 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-10963.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7761-1 
+│                       │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2025-8941 
@@ -772,18 +771,19 @@
 │                       │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:16524 
 │                       │      │                  ├ [14]: https://access.redhat.com/security/cve/CVE-2025-8941 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2372512 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
-│                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-6020 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2388220 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
 │                       │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-6020 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8941 
-│                       │      │                  ├ [20]: https://errata.almalinux.org/8/ALSA-2025-14557.html 
-│                       │      │                  ├ [21]: https://errata.rockylinux.org/RLSA-2025:14557 
-│                       │      │                  ├ [22]: https://linux.oracle.com/cve/CVE-2025-8941.html 
-│                       │      │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
-│                       │      │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
-│                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
+│                       │      │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
+│                       │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                       │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-8941.html 
+│                       │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
+│                       │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
+│                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-09-23T20:15:33.927Z 
 │                       ├ [14] ╭ VulnerabilityID : CVE-2024-10963 
@@ -831,21 +831,20 @@
 │                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2024:10528 
 │                       │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2024:10852 
 │                       │      │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2024-10963 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2319212 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2324291 
-│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2324291 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-10041 
-│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-10963 
-│                       │      │                  ├ [13]: https://errata.almalinux.org/8/ALSA-2024-10379.html 
-│                       │      │                  ├ [14]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                       │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-10963.html 
-│                       │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
-│                       │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
-│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7761-1 
-│                       │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
+│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-10244.html 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-10963.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7761-1 
+│                       │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
 │                       ├ [15] ╭ VulnerabilityID : CVE-2025-8941 
@@ -897,18 +896,19 @@
 │                       │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:16524 
 │                       │      │                  ├ [14]: https://access.redhat.com/security/cve/CVE-2025-8941 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2372512 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
-│                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-6020 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2388220 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
 │                       │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-6020 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8941 
-│                       │      │                  ├ [20]: https://errata.almalinux.org/8/ALSA-2025-14557.html 
-│                       │      │                  ├ [21]: https://errata.rockylinux.org/RLSA-2025:14557 
-│                       │      │                  ├ [22]: https://linux.oracle.com/cve/CVE-2025-8941.html 
-│                       │      │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
-│                       │      │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
-│                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
+│                       │      │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
+│                       │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                       │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-8941.html 
+│                       │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
+│                       │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
+│                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-09-23T20:15:33.927Z 
 │                       ├ [16] ╭ VulnerabilityID : CVE-2024-10963 
@@ -956,21 +956,20 @@
 │                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2024:10528 
 │                       │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2024:10852 
 │                       │      │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2024-10963 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2319212 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2324291 
-│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
-│                       │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
-│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2324291 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2319212 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2324291 
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-10041 
-│                       │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-10963 
-│                       │      │                  ├ [13]: https://errata.almalinux.org/8/ALSA-2024-10379.html 
-│                       │      │                  ├ [14]: https://errata.rockylinux.org/RLSA-2024:10379 
-│                       │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2024-10963.html 
-│                       │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
-│                       │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
-│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7761-1 
-│                       │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
+│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-10244.html 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:10379 
+│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-10963.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-10379.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-10963 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7761-1 
+│                       │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-10963 
 │                       │      ├ PublishedDate   : 2024-11-07T16:15:17.15Z 
 │                       │      ╰ LastModifiedDate: 2025-02-06T06:15:29.24Z 
 │                       ├ [17] ╭ VulnerabilityID : CVE-2025-8941 
@@ -1022,18 +1021,19 @@
 │                       │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:16524 
 │                       │      │                  ├ [14]: https://access.redhat.com/security/cve/CVE-2025-8941 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2372512 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
-│                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-6020 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2388220 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
 │                       │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-6020 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8941 
-│                       │      │                  ├ [20]: https://errata.almalinux.org/8/ALSA-2025-14557.html 
-│                       │      │                  ├ [21]: https://errata.rockylinux.org/RLSA-2025:14557 
-│                       │      │                  ├ [22]: https://linux.oracle.com/cve/CVE-2025-8941.html 
-│                       │      │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
-│                       │      │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
-│                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
+│                       │      │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
+│                       │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                       │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-8941.html 
+│                       │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
+│                       │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
+│                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-09-23T20:15:33.927Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2025-58050 
