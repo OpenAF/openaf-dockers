@@ -10,10 +10,10 @@
 │                       │      │                  ╰ UID : fb90d22e49e1fb47 
 │                       │      ├ InstalledVersion: 9.5-1ubuntu1.25.04.2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9eaf07e82373a9c797f21faee5202d2c3a770a831694
-│                       │      │                  │         89b78f6929c977513a0f 
-│                       │      │                  ╰ DiffID: sha256:b1fa529b1630e985f5c9bcd91b539cf4e26a88389f1a
-│                       │      │                            48d02d11a3dd7459781e 
+│                       │      ├ Layer            ╭ Digest: sha256:c39cec8e8910c8f5a6604d9b9d4c3bc4008a6d63940e
+│                       │      │                  │         b56d1b2fa2a4ce4501ee 
+│                       │      │                  ╰ DiffID: sha256:6700dd9d768937762042cafb26091700d584dbe8d8eb
+│                       │      │                            2ad78641b1e678894bbc 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-2781 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -64,10 +64,10 @@
 │                       │      │                  ╰ UID : 6ea7a92c5821dca8 
 │                       │      ├ InstalledVersion: 8.12.1-3ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9eaf07e82373a9c797f21faee5202d2c3a770a831694
-│                       │      │                  │         89b78f6929c977513a0f 
-│                       │      │                  ╰ DiffID: sha256:b1fa529b1630e985f5c9bcd91b539cf4e26a88389f1a
-│                       │      │                            48d02d11a3dd7459781e 
+│                       │      ├ Layer            ╭ Digest: sha256:c39cec8e8910c8f5a6604d9b9d4c3bc4008a6d63940e
+│                       │      │                  │         b56d1b2fa2a4ce4501ee 
+│                       │      │                  ╰ DiffID: sha256:6700dd9d768937762042cafb26091700d584dbe8d8eb
+│                       │      │                            2ad78641b1e678894bbc 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-10148 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -111,10 +111,10 @@
 │                       │      │                  ╰ UID : 6ea7a92c5821dca8 
 │                       │      ├ InstalledVersion: 8.12.1-3ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9eaf07e82373a9c797f21faee5202d2c3a770a831694
-│                       │      │                  │         89b78f6929c977513a0f 
-│                       │      │                  ╰ DiffID: sha256:b1fa529b1630e985f5c9bcd91b539cf4e26a88389f1a
-│                       │      │                            48d02d11a3dd7459781e 
+│                       │      ├ Layer            ╭ Digest: sha256:c39cec8e8910c8f5a6604d9b9d4c3bc4008a6d63940e
+│                       │      │                  │         b56d1b2fa2a4ce4501ee 
+│                       │      │                  ╰ DiffID: sha256:6700dd9d768937762042cafb26091700d584dbe8d8eb
+│                       │      │                            2ad78641b1e678894bbc 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9086 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -172,10 +172,10 @@
 │                       │      │                  ╰ UID : d2a702b753c09f0f 
 │                       │      ├ InstalledVersion: 2.4.4-2ubuntu23.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9eaf07e82373a9c797f21faee5202d2c3a770a831694
-│                       │      │                  │         89b78f6929c977513a0f 
-│                       │      │                  ╰ DiffID: sha256:b1fa529b1630e985f5c9bcd91b539cf4e26a88389f1a
-│                       │      │                            48d02d11a3dd7459781e 
+│                       │      ├ Layer            ╭ Digest: sha256:c39cec8e8910c8f5a6604d9b9d4c3bc4008a6d63940e
+│                       │      │                  │         b56d1b2fa2a4ce4501ee 
+│                       │      │                  ╰ DiffID: sha256:6700dd9d768937762042cafb26091700d584dbe8d8eb
+│                       │      │                            2ad78641b1e678894bbc 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -215,10 +215,10 @@
 │                       │      │                  ╰ UID : 5ce7d94c2b78c513 
 │                       │      ├ InstalledVersion: 8.12.1-3ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9eaf07e82373a9c797f21faee5202d2c3a770a831694
-│                       │      │                  │         89b78f6929c977513a0f 
-│                       │      │                  ╰ DiffID: sha256:b1fa529b1630e985f5c9bcd91b539cf4e26a88389f1a
-│                       │      │                            48d02d11a3dd7459781e 
+│                       │      ├ Layer            ╭ Digest: sha256:c39cec8e8910c8f5a6604d9b9d4c3bc4008a6d63940e
+│                       │      │                  │         b56d1b2fa2a4ce4501ee 
+│                       │      │                  ╰ DiffID: sha256:6700dd9d768937762042cafb26091700d584dbe8d8eb
+│                       │      │                            2ad78641b1e678894bbc 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-10148 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -262,10 +262,10 @@
 │                       │      │                  ╰ UID : 5ce7d94c2b78c513 
 │                       │      ├ InstalledVersion: 8.12.1-3ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9eaf07e82373a9c797f21faee5202d2c3a770a831694
-│                       │      │                  │         89b78f6929c977513a0f 
-│                       │      │                  ╰ DiffID: sha256:b1fa529b1630e985f5c9bcd91b539cf4e26a88389f1a
-│                       │      │                            48d02d11a3dd7459781e 
+│                       │      ├ Layer            ╭ Digest: sha256:c39cec8e8910c8f5a6604d9b9d4c3bc4008a6d63940e
+│                       │      │                  │         b56d1b2fa2a4ce4501ee 
+│                       │      │                  ╰ DiffID: sha256:6700dd9d768937762042cafb26091700d584dbe8d8eb
+│                       │      │                            2ad78641b1e678894bbc 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9086 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -323,10 +323,10 @@
 │                       │      │                  ╰ UID : 5a0c5e86aadb6057 
 │                       │      ├ InstalledVersion: 1.11.0-6ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9eaf07e82373a9c797f21faee5202d2c3a770a831694
-│                       │      │                  │         89b78f6929c977513a0f 
-│                       │      │                  ╰ DiffID: sha256:b1fa529b1630e985f5c9bcd91b539cf4e26a88389f1a
-│                       │      │                            48d02d11a3dd7459781e 
+│                       │      ├ Layer            ╭ Digest: sha256:c39cec8e8910c8f5a6604d9b9d4c3bc4008a6d63940e
+│                       │      │                  │         b56d1b2fa2a4ce4501ee 
+│                       │      │                  ╰ DiffID: sha256:6700dd9d768937762042cafb26091700d584dbe8d8eb
+│                       │      │                            2ad78641b1e678894bbc 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-2236 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -376,10 +376,10 @@
 │                       │      │                  ╰ UID : c49554b6d433bfcd 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.4 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9eaf07e82373a9c797f21faee5202d2c3a770a831694
-│                       │      │                  │         89b78f6929c977513a0f 
-│                       │      │                  ╰ DiffID: sha256:b1fa529b1630e985f5c9bcd91b539cf4e26a88389f1a
-│                       │      │                            48d02d11a3dd7459781e 
+│                       │      ├ Layer            ╭ Digest: sha256:c39cec8e8910c8f5a6604d9b9d4c3bc4008a6d63940e
+│                       │      │                  │         b56d1b2fa2a4ce4501ee 
+│                       │      │                  ╰ DiffID: sha256:6700dd9d768937762042cafb26091700d584dbe8d8eb
+│                       │      │                            2ad78641b1e678894bbc 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8941 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -417,18 +417,19 @@
 │                       │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:16524 
 │                       │      │                  ├ [14]: https://access.redhat.com/security/cve/CVE-2025-8941 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2372512 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
-│                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-6020 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2388220 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
 │                       │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-6020 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8941 
-│                       │      │                  ├ [20]: https://errata.almalinux.org/8/ALSA-2025-14557.html 
-│                       │      │                  ├ [21]: https://errata.rockylinux.org/RLSA-2025:14557 
-│                       │      │                  ├ [22]: https://linux.oracle.com/cve/CVE-2025-8941.html 
-│                       │      │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
-│                       │      │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
-│                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
+│                       │      │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
+│                       │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                       │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-8941.html 
+│                       │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
+│                       │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
+│                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-09-23T20:15:33.927Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2025-8941 
@@ -439,10 +440,10 @@
 │                       │      │                  ╰ UID : 5357e0bb8a1ff079 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.4 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9eaf07e82373a9c797f21faee5202d2c3a770a831694
-│                       │      │                  │         89b78f6929c977513a0f 
-│                       │      │                  ╰ DiffID: sha256:b1fa529b1630e985f5c9bcd91b539cf4e26a88389f1a
-│                       │      │                            48d02d11a3dd7459781e 
+│                       │      ├ Layer            ╭ Digest: sha256:c39cec8e8910c8f5a6604d9b9d4c3bc4008a6d63940e
+│                       │      │                  │         b56d1b2fa2a4ce4501ee 
+│                       │      │                  ╰ DiffID: sha256:6700dd9d768937762042cafb26091700d584dbe8d8eb
+│                       │      │                            2ad78641b1e678894bbc 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8941 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -480,18 +481,19 @@
 │                       │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:16524 
 │                       │      │                  ├ [14]: https://access.redhat.com/security/cve/CVE-2025-8941 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2372512 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
-│                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-6020 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2388220 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
 │                       │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-6020 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8941 
-│                       │      │                  ├ [20]: https://errata.almalinux.org/8/ALSA-2025-14557.html 
-│                       │      │                  ├ [21]: https://errata.rockylinux.org/RLSA-2025:14557 
-│                       │      │                  ├ [22]: https://linux.oracle.com/cve/CVE-2025-8941.html 
-│                       │      │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
-│                       │      │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
-│                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
+│                       │      │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
+│                       │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                       │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-8941.html 
+│                       │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
+│                       │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
+│                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-09-23T20:15:33.927Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2025-8941 
@@ -502,10 +504,10 @@
 │                       │      │                  ╰ UID : ff7c6fc616e7055b 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.4 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9eaf07e82373a9c797f21faee5202d2c3a770a831694
-│                       │      │                  │         89b78f6929c977513a0f 
-│                       │      │                  ╰ DiffID: sha256:b1fa529b1630e985f5c9bcd91b539cf4e26a88389f1a
-│                       │      │                            48d02d11a3dd7459781e 
+│                       │      ├ Layer            ╭ Digest: sha256:c39cec8e8910c8f5a6604d9b9d4c3bc4008a6d63940e
+│                       │      │                  │         b56d1b2fa2a4ce4501ee 
+│                       │      │                  ╰ DiffID: sha256:6700dd9d768937762042cafb26091700d584dbe8d8eb
+│                       │      │                            2ad78641b1e678894bbc 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8941 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -543,18 +545,19 @@
 │                       │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:16524 
 │                       │      │                  ├ [14]: https://access.redhat.com/security/cve/CVE-2025-8941 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2372512 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
-│                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-6020 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2388220 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
 │                       │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-6020 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8941 
-│                       │      │                  ├ [20]: https://errata.almalinux.org/8/ALSA-2025-14557.html 
-│                       │      │                  ├ [21]: https://errata.rockylinux.org/RLSA-2025:14557 
-│                       │      │                  ├ [22]: https://linux.oracle.com/cve/CVE-2025-8941.html 
-│                       │      │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
-│                       │      │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
-│                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
+│                       │      │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
+│                       │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                       │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-8941.html 
+│                       │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
+│                       │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
+│                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-09-23T20:15:33.927Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2025-8941 
@@ -565,10 +568,10 @@
 │                       │      │                  ╰ UID : e7da9492a7d7e6e9 
 │                       │      ├ InstalledVersion: 1.5.3-7ubuntu4.4 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9eaf07e82373a9c797f21faee5202d2c3a770a831694
-│                       │      │                  │         89b78f6929c977513a0f 
-│                       │      │                  ╰ DiffID: sha256:b1fa529b1630e985f5c9bcd91b539cf4e26a88389f1a
-│                       │      │                            48d02d11a3dd7459781e 
+│                       │      ├ Layer            ╭ Digest: sha256:c39cec8e8910c8f5a6604d9b9d4c3bc4008a6d63940e
+│                       │      │                  │         b56d1b2fa2a4ce4501ee 
+│                       │      │                  ╰ DiffID: sha256:6700dd9d768937762042cafb26091700d584dbe8d8eb
+│                       │      │                            2ad78641b1e678894bbc 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-8941 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -606,18 +609,19 @@
 │                       │      │                  ├ [13]: https://access.redhat.com/errata/RHSA-2025:16524 
 │                       │      │                  ├ [14]: https://access.redhat.com/security/cve/CVE-2025-8941 
 │                       │      │                  ├ [15]: https://bugzilla.redhat.com/2372512 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
-│                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-6020 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2388220 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2372512 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2388220 
 │                       │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-6020 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8941 
-│                       │      │                  ├ [20]: https://errata.almalinux.org/8/ALSA-2025-14557.html 
-│                       │      │                  ├ [21]: https://errata.rockylinux.org/RLSA-2025:14557 
-│                       │      │                  ├ [22]: https://linux.oracle.com/cve/CVE-2025-8941.html 
-│                       │      │                  ├ [23]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
-│                       │      │                  ├ [24]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
-│                       │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
+│                       │      │                  ├ [21]: https://errata.almalinux.org/9/ALSA-2025-15099.html 
+│                       │      │                  ├ [22]: https://errata.rockylinux.org/RLSA-2025:14557 
+│                       │      │                  ├ [23]: https://linux.oracle.com/cve/CVE-2025-8941.html 
+│                       │      │                  ├ [24]: https://linux.oracle.com/errata/ELSA-2025-15099.html 
+│                       │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2025-8941 
+│                       │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-09-23T20:15:33.927Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2024-56433 
@@ -628,10 +632,10 @@
 │                       │      │                  ╰ UID : 4016d70dedce9ad0 
 │                       │      ├ InstalledVersion: 1:4.16.0-7ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9eaf07e82373a9c797f21faee5202d2c3a770a831694
-│                       │      │                  │         89b78f6929c977513a0f 
-│                       │      │                  ╰ DiffID: sha256:b1fa529b1630e985f5c9bcd91b539cf4e26a88389f1a
-│                       │      │                            48d02d11a3dd7459781e 
+│                       │      ├ Layer            ╭ Digest: sha256:c39cec8e8910c8f5a6604d9b9d4c3bc4008a6d63940e
+│                       │      │                  │         b56d1b2fa2a4ce4501ee 
+│                       │      │                  ╰ DiffID: sha256:6700dd9d768937762042cafb26091700d584dbe8d8eb
+│                       │      │                            2ad78641b1e678894bbc 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56433 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -676,10 +680,10 @@
 │                       │      │                  ╰ UID : 3bc9adb4bf916fa 
 │                       │      ├ InstalledVersion: 1:4.16.0-7ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9eaf07e82373a9c797f21faee5202d2c3a770a831694
-│                       │      │                  │         89b78f6929c977513a0f 
-│                       │      │                  ╰ DiffID: sha256:b1fa529b1630e985f5c9bcd91b539cf4e26a88389f1a
-│                       │      │                            48d02d11a3dd7459781e 
+│                       │      ├ Layer            ╭ Digest: sha256:c39cec8e8910c8f5a6604d9b9d4c3bc4008a6d63940e
+│                       │      │                  │         b56d1b2fa2a4ce4501ee 
+│                       │      │                  ╰ DiffID: sha256:6700dd9d768937762042cafb26091700d584dbe8d8eb
+│                       │      │                            2ad78641b1e678894bbc 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-56433 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -724,10 +728,10 @@
 │                              │                  ╰ UID : a03ee9a61d584e89 
 │                              ├ InstalledVersion: 1.35+dfsg-3.1 
 │                              ├ Status          : affected 
-│                              ├ Layer            ╭ Digest: sha256:9eaf07e82373a9c797f21faee5202d2c3a770a831694
-│                              │                  │         89b78f6929c977513a0f 
-│                              │                  ╰ DiffID: sha256:b1fa529b1630e985f5c9bcd91b539cf4e26a88389f1a
-│                              │                            48d02d11a3dd7459781e 
+│                              ├ Layer            ╭ Digest: sha256:c39cec8e8910c8f5a6604d9b9d4c3bc4008a6d63940e
+│                              │                  │         b56d1b2fa2a4ce4501ee 
+│                              │                  ╰ DiffID: sha256:6700dd9d768937762042cafb26091700d584dbe8d8eb
+│                              │                            2ad78641b1e678894bbc 
 │                              ├ SeveritySource  : ubuntu 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-45582 
 │                              ├ DataSource       ╭ ID  : ubuntu 
