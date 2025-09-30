@@ -11,10 +11,10 @@
 │                       │     ├ InstalledVersion: 1.2.5-r9 
 │                       │     ├ FixedVersion    : 1.2.5-r10 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:3a6455b58c31ac7fa0e51aff966d95bac1119e1517b5c
-│                       │     │                  │         4f1076afbac1cb2fef9 
-│                       │     │                  ╰ DiffID: sha256:d3726044d5be226deb857fd3bad376f23e6e2da3f6806
-│                       │     │                            b4b2a04a4ab9229f8a8 
+│                       │     ├ Layer            ╭ Digest: sha256:a72f5ca273b0eced52affb6eba7ee063777801cd80ca1
+│                       │     │                  │         efe77517a6060124438 
+│                       │     │                  ╰ DiffID: sha256:e99488328a725bdebcd0b28259de742b2d890a88efb59
+│                       │     │                            874aca5ffbad905d295 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26519 
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
@@ -48,10 +48,10 @@
 │                             ├ InstalledVersion: 1.2.5-r9 
 │                             ├ FixedVersion    : 1.2.5-r10 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:3a6455b58c31ac7fa0e51aff966d95bac1119e1517b5c
-│                             │                  │         4f1076afbac1cb2fef9 
-│                             │                  ╰ DiffID: sha256:d3726044d5be226deb857fd3bad376f23e6e2da3f6806
-│                             │                            b4b2a04a4ab9229f8a8 
+│                             ├ Layer            ╭ Digest: sha256:a72f5ca273b0eced52affb6eba7ee063777801cd80ca1
+│                             │                  │         efe77517a6060124438 
+│                             │                  ╰ DiffID: sha256:e99488328a725bdebcd0b28259de742b2d890a88efb59
+│                             │                            874aca5ffbad905d295 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-26519 
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
@@ -76,7 +76,73 @@
 │                             │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/02/13/2 
 │                             ├ PublishedDate   : 2025-02-14T04:15:09.05Z 
 │                             ╰ LastModifiedDate: 2025-02-14T17:15:23.09Z 
-╰ [1] ╭ Target: Java 
-      ├ Class : lang-pkgs 
-      ╰ Type  : jar 
+╰ [1] ╭ Target         : Java 
+      ├ Class          : lang-pkgs 
+      ├ Type           : jar 
+      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : GHSA-h7rh-xfpj-hpcm 
+                              ├ PkgName         : io.minio:minio 
+                              ├ PkgPath         : openaf/S3/minio-8.5.17.jar 
+                              ├ PkgIdentifier    ╭ PURL: pkg:maven/io.minio/minio@8.5.17 
+                              │                  ╰ UID : f8170235ced54720 
+                              ├ InstalledVersion: 8.5.17 
+                              ├ FixedVersion    : 8.6.0 
+                              ├ Status          : fixed 
+                              ├ Layer            ╭ Digest: sha256:4bac41638c41d827edab35791307a8bf05b1fd1c36ef1
+                              │                  │         3f91f0c5d910e693f4c 
+                              │                  ╰ DiffID: sha256:87a90cf62df9bb93a48653301205239be571a6d24ec0f
+                              │                            976cec7e67ef6e220bb 
+                              ├ SeveritySource  : ghsa 
+                              ├ PrimaryURL      : https://github.com/advisories/GHSA-h7rh-xfpj-hpcm 
+                              ├ DataSource       ╭ ID  : ghsa 
+                              │                  ├ Name: GitHub Security Advisory Maven 
+                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+                              │                          osystem%3Amaven 
+                              ├ Title           : MinIO Java Client XML Tag Value Substitution Vulnerability 
+                              ├ Description     : #### Description
+                              │                   In minio-java versions prior to 8.6.0, XML tag values
+                              │                   containing references to system properties or environment
+                              │                   variables were automatically substituted with their actual
+                              │                   values during processing. This unintended behavior could lead
+                              │                    to the exposure of sensitive information, including
+                              │                   credentials, file paths, or system configuration details, if
+                              │                   such references were present in XML content from untrusted
+                              │                   sources.
+                              │                   
+                              │                   #### Affected Versions
+                              │                   - minio-java < 8.6.0
+                              │                   All applications utilizing affected versions of minio-java
+                              │                   for parsing XML with potentially untrusted input are
+                              │                   vulnerable.
+                              │                   #### Impact
+                              │                   This vulnerability poses a high risk of information
+                              │                   disclosure. Attackers could craft malicious XML inputs to
+                              │                   extract sensitive data from the system's properties or
+                              │                   environment variables, potentially compromising security in
+                              │                   applications relying on minio-java for object storage
+                              │                   operations.
+                              │                   #### Patches
+                              │                   The issue is resolved in minio-java version 8.6.0 and later.
+                              │                   In these versions, automatic substitution of XML tag values
+                              │                   with system properties or environment variables has been
+                              │                   disabled.
+                              │                   Users are strongly advised to upgrade to minio-java 8.6.0 or
+                              │                   a newer release to mitigate the vulnerability.
+                              │                   #### Workarounds
+                              │                   No full workarounds exist without upgrading the library. As
+                              │                   interim measures:
+                              │                   - Refrain from processing XML data from untrusted or external
+                              │                    sources.
+                              │                   - Implement input sanitization or validation to detect and
+                              │                   remove references to 
+                              │                     system properties or environment variables in XML content. 
+                              ├ Severity        : HIGH 
+                              ├ VendorSeverity   ─ ghsa: 3 
+                              ├ References       ╭ [0]: https://github.com/minio/minio-java 
+                              │                  ├ [1]: https://github.com/minio/minio-java/commit/f7a98d06b25e
+                              │                  │      5464bdd4811b044e25ff9101d37f 
+                              │                  ├ [2]: https://github.com/minio/minio-java/releases/tag/8.6.0 
+                              │                  ╰ [3]: https://github.com/minio/minio-java/security/advisories
+                              │                         /GHSA-h7rh-xfpj-hpcm 
+                              ├ PublishedDate   : 2025-09-29T17:53:31Z 
+                              ╰ LastModifiedDate: 2025-09-29T17:53:31Z 
 ````
