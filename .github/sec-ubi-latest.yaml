@@ -36009,6 +36009,7 @@
       alma: 3
       amazon: 3
       azure: 1
+      cbl-mariner: 1
       nvd: 4
       oracle-oval: 3
       photon: 3
@@ -36157,6 +36158,7 @@
     VendorSeverity:
       amazon: 2
       azure: 1
+      cbl-mariner: 1
       nvd: 2
       redhat: 1
       ubuntu: 2
@@ -36197,6 +36199,7 @@
     - CWE-190
     VendorSeverity:
       azure: 1
+      cbl-mariner: 1
       nvd: 2
       redhat: 1
       ubuntu: 2
@@ -36239,6 +36242,7 @@
     VendorSeverity:
       amazon: 2
       azure: 1
+      cbl-mariner: 1
       nvd: 2
       redhat: 1
       ubuntu: 2
@@ -36279,6 +36283,7 @@
     - CWE-125
     VendorSeverity:
       azure: 1
+      cbl-mariner: 1
       nvd: 2
       redhat: 1
     CVSS:
@@ -37575,7 +37580,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9230
     PublishedDate: '2025-09-30T14:15:41.05Z'
-    LastModifiedDate: '2025-09-30T20:15:41.023Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9231
     PkgID: openssl@3.2.2-6.el9_5.1.x86_64
     PkgName: openssl
@@ -37631,7 +37636,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9231
     PublishedDate: '2025-09-30T14:15:41.19Z'
-    LastModifiedDate: '2025-09-30T20:15:41.22Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl@3.2.2-6.el9_5.1.x86_64
     PkgName: openssl
@@ -37855,7 +37860,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
-    LastModifiedDate: '2025-09-30T20:15:41.397Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9230
     PkgID: openssl-libs@3.2.2-6.el9_5.1.x86_64
     PkgName: openssl-libs
@@ -37913,7 +37918,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9230
     PublishedDate: '2025-09-30T14:15:41.05Z'
-    LastModifiedDate: '2025-09-30T20:15:41.023Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9231
     PkgID: openssl-libs@3.2.2-6.el9_5.1.x86_64
     PkgName: openssl-libs
@@ -37969,7 +37974,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9231
     PublishedDate: '2025-09-30T14:15:41.19Z'
-    LastModifiedDate: '2025-09-30T20:15:41.22Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl-libs@3.2.2-6.el9_5.1.x86_64
     PkgName: openssl-libs
@@ -38193,7 +38198,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
-    LastModifiedDate: '2025-09-30T20:15:41.397Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-6020
     VendorIDs:
     - RHSA-2025:15099
@@ -38545,7 +38550,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -38681,7 +38686,7 @@
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://linux.oracle.com/cve/CVE-2025-8194.html
-    - https://linux.oracle.com/errata/ELSA-2025-15019.html
+    - https://linux.oracle.com/errata/ELSA-2025-16117.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -38750,7 +38755,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -38886,7 +38891,7 @@
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://linux.oracle.com/cve/CVE-2025-8194.html
-    - https://linux.oracle.com/errata/ELSA-2025-15019.html
+    - https://linux.oracle.com/errata/ELSA-2025-16117.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -38955,7 +38960,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -39091,7 +39096,7 @@
     - https://github.com/python/cpython/issues/130577
     - https://github.com/python/cpython/pull/137027
     - https://linux.oracle.com/cve/CVE-2025-8194.html
-    - https://linux.oracle.com/errata/ELSA-2025-15019.html
+    - https://linux.oracle.com/errata/ELSA-2025-16117.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/ZULLF3IZ726XP5EY7XJ7YIN3K5MDYR2D/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8194
     - https://ubuntu.com/security/notices/USN-7710-1
@@ -39162,6 +39167,7 @@
     VendorSeverity:
       amazon: 2
       azure: 2
+      cbl-mariner: 2
       ghsa: 2
       nvd: 2
       redhat: 2
