@@ -9405,7 +9405,7 @@
 │                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7786-1 
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-9230 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.05Z 
-│                       │      ╰ LastModifiedDate: 2025-09-30T20:15:41.023Z 
+│                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
 │                       ├ [20] ╭ VulnerabilityID : CVE-2025-9231 
 │                       │      ├ PkgID           : libssl3t64@3.4.1-1ubuntu3 
 │                       │      ├ PkgName         : libssl3t64 
@@ -9474,7 +9474,7 @@
 │                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7786-1 
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-9231 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.19Z 
-│                       │      ╰ LastModifiedDate: 2025-09-30T20:15:41.22Z 
+│                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
 │                       ├ [21] ╭ VulnerabilityID : CVE-2025-9232 
 │                       │      ├ PkgID           : libssl3t64@3.4.1-1ubuntu3 
 │                       │      ├ PkgName         : libssl3t64 
@@ -9552,7 +9552,7 @@
 │                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7786-1 
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.313Z 
-│                       │      ╰ LastModifiedDate: 2025-09-30T20:15:41.397Z 
+│                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login.defs@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : login.defs 
@@ -9674,7 +9674,7 @@
 │                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7786-1 
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-9230 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.05Z 
-│                       │      ╰ LastModifiedDate: 2025-09-30T20:15:41.023Z 
+│                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
 │                       ├ [24] ╭ VulnerabilityID : CVE-2025-9231 
 │                       │      ├ PkgID           : openssl@3.4.1-1ubuntu3 
 │                       │      ├ PkgName         : openssl 
@@ -9743,7 +9743,7 @@
 │                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7786-1 
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-9231 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.19Z 
-│                       │      ╰ LastModifiedDate: 2025-09-30T20:15:41.22Z 
+│                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
 │                       ├ [25] ╭ VulnerabilityID : CVE-2025-9232 
 │                       │      ├ PkgID           : openssl@3.4.1-1ubuntu3 
 │                       │      ├ PkgName         : openssl 
@@ -9821,7 +9821,7 @@
 │                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7786-1 
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.313Z 
-│                       │      ╰ LastModifiedDate: 2025-09-30T20:15:41.397Z 
+│                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
 │                       ├ [26] ╭ VulnerabilityID : CVE-2025-9230 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.4.1-1ubuntu3 
 │                       │      ├ PkgName         : openssl-provider-legacy 
@@ -9895,7 +9895,7 @@
 │                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7786-1 
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-9230 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.05Z 
-│                       │      ╰ LastModifiedDate: 2025-09-30T20:15:41.023Z 
+│                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
 │                       ├ [27] ╭ VulnerabilityID : CVE-2025-9231 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.4.1-1ubuntu3 
 │                       │      ├ PkgName         : openssl-provider-legacy 
@@ -9964,7 +9964,7 @@
 │                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7786-1 
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-9231 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.19Z 
-│                       │      ╰ LastModifiedDate: 2025-09-30T20:15:41.22Z 
+│                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
 │                       ├ [28] ╭ VulnerabilityID : CVE-2025-9232 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.4.1-1ubuntu3 
 │                       │      ├ PkgName         : openssl-provider-legacy 
@@ -10042,7 +10042,7 @@
 │                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7786-1 
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.313Z 
-│                       │      ╰ LastModifiedDate: 2025-09-30T20:15:41.397Z 
+│                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
 │                       ├ [29] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.16.0-7ubuntu1 
 │                       │      ├ PkgName         : passwd 
