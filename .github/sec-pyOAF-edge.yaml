@@ -5466,6 +5466,287 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-31498
     PublishedDate: '2025-04-08T14:15:35.293Z'
     LastModifiedDate: '2025-04-08T15:15:50.31Z'
+  - VulnerabilityID: CVE-2025-10148
+    PkgID: curl@8.12.1-r1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/curl@8.12.1-r1?arch=x86_64&distro=3.21.3
+      UID: 803b531308fc04a4
+    InstalledVersion: 8.12.1-r1
+    FixedVersion: 8.14.1-r2
+    Status: fixed
+    Layer:
+      Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4d7814ea39226035ebf8e
+      DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7185ab555262cb80cc579
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10148
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'curl: predictable WebSocket mask'
+    Description: |-
+      curl's websocket code did not update the 32 bit mask pattern for each new
+       outgoing frame as the specification says. Instead it used a fixed mask that
+      persisted and was used throughout the entire connection.
+
+      A predictable mask pattern allows for a malicious server to induce traffic
+      between the two communicating parties that could be interpreted by an involved
+      proxy (configured or transparent) as genuine, real, HTTP traffic with content
+      and thereby poison its cache. That cached poisoned content could then be
+      served to all users of that proxy.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-10148
+    - https://curl.se/docs/CVE-2025-10148.html
+    - https://curl.se/docs/CVE-2025-10148.json
+    - https://hackerone.com/reports/3330839
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-10148
+    - https://www.cve.org/CVERecord?id=CVE-2025-10148
+    PublishedDate: '2025-09-12T06:15:40.02Z'
+    LastModifiedDate: '2025-09-15T15:21:42.937Z'
+  - VulnerabilityID: CVE-2025-4947
+    PkgID: curl@8.12.1-r1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/curl@8.12.1-r1?arch=x86_64&distro=3.21.3
+      UID: 803b531308fc04a4
+    InstalledVersion: 8.12.1-r1
+    FixedVersion: 8.14.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4d7814ea39226035ebf8e
+      DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7185ab555262cb80cc579
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4947
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'libcurl: curl: QUIC certificate check skip with wolfSSL'
+    Description: libcurl accidentally skips the certificate verification for QUIC connections when connecting to a host specified as an IP address in the URL. Therefore, it does not detect impostors or man-in-the-middle attacks.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-295
+    VendorSeverity:
+      azure: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/28/4
+    - https://access.redhat.com/security/cve/CVE-2025-4947
+    - https://curl.se/docs/CVE-2025-4947.html
+    - https://curl.se/docs/CVE-2025-4947.json
+    - https://hackerone.com/reports/3150884
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4947
+    - https://www.cve.org/CVERecord?id=CVE-2025-4947
+    PublishedDate: '2025-05-28T07:15:24.78Z'
+    LastModifiedDate: '2025-06-26T15:08:21.52Z'
+  - VulnerabilityID: CVE-2025-5025
+    PkgID: curl@8.12.1-r1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/curl@8.12.1-r1?arch=x86_64&distro=3.21.3
+      UID: 803b531308fc04a4
+    InstalledVersion: 8.12.1-r1
+    FixedVersion: 8.14.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4d7814ea39226035ebf8e
+      DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7185ab555262cb80cc579
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5025
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'curl: libcurl: QUIC Certificate Pinning Bypass'
+    Description: libcurl supports *pinning* of the server certificate public key for HTTPS transfers. Due to an omission, this check is not performed when connecting with QUIC for HTTP/3, when the TLS backend is wolfSSL. Documentation says the option works with wolfSSL, failing to specify that it does not for QUIC and HTTP/3. Since pinning makes the transfer succeed if the pin is fine, users could unwittingly connect to an impostor server without noticing.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-295
+    VendorSeverity:
+      azure: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/28/5
+    - https://access.redhat.com/security/cve/CVE-2025-5025
+    - https://curl.se/docs/CVE-2025-5025.html
+    - https://curl.se/docs/CVE-2025-5025.json
+    - https://hackerone.com/reports/3153497
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5025
+    - https://www.cve.org/CVERecord?id=CVE-2025-5025
+    PublishedDate: '2025-05-28T07:15:24.91Z'
+    LastModifiedDate: '2025-07-30T19:41:37.987Z'
+  - VulnerabilityID: CVE-2025-5399
+    PkgID: curl@8.12.1-r1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/curl@8.12.1-r1?arch=x86_64&distro=3.21.3
+      UID: 803b531308fc04a4
+    InstalledVersion: 8.12.1-r1
+    FixedVersion: 8.14.1-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4d7814ea39226035ebf8e
+      DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7185ab555262cb80cc579
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5399
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'curl: libcurl: WebSocket endless loop'
+    Description: |-
+      Due to a mistake in libcurl's WebSocket code, a malicious server can send a
+      particularly crafted packet which makes libcurl get trapped in an endless
+      busy-loop.
+
+      There is no other way for the application to escape or exit this loop other
+      than killing the thread/process.
+
+      This might be used to DoS libcurl-using application.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/06/04/2
+    - https://access.redhat.com/errata/RHSA-2025:16046
+    - https://access.redhat.com/security/cve/CVE-2025-5399
+    - https://bugzilla.redhat.com/2359885
+    - https://bugzilla.redhat.com/2359888
+    - https://bugzilla.redhat.com/2359892
+    - https://bugzilla.redhat.com/2359894
+    - https://bugzilla.redhat.com/2359895
+    - https://bugzilla.redhat.com/2359899
+    - https://bugzilla.redhat.com/2359900
+    - https://bugzilla.redhat.com/2359902
+    - https://bugzilla.redhat.com/2359903
+    - https://bugzilla.redhat.com/2359911
+    - https://bugzilla.redhat.com/2359918
+    - https://bugzilla.redhat.com/2359920
+    - https://bugzilla.redhat.com/2359924
+    - https://bugzilla.redhat.com/2359928
+    - https://bugzilla.redhat.com/2359930
+    - https://bugzilla.redhat.com/2359932
+    - https://bugzilla.redhat.com/2359934
+    - https://bugzilla.redhat.com/2359938
+    - https://bugzilla.redhat.com/2359940
+    - https://bugzilla.redhat.com/2359943
+    - https://bugzilla.redhat.com/2359944
+    - https://bugzilla.redhat.com/2359945
+    - https://bugzilla.redhat.com/2359947
+    - https://bugzilla.redhat.com/2359950
+    - https://bugzilla.redhat.com/2359963
+    - https://bugzilla.redhat.com/2359964
+    - https://bugzilla.redhat.com/2359972
+    - https://bugzilla.redhat.com/2370920
+    - https://bugzilla.redhat.com/2380264
+    - https://bugzilla.redhat.com/2380273
+    - https://bugzilla.redhat.com/2380274
+    - https://bugzilla.redhat.com/2380278
+    - https://bugzilla.redhat.com/2380280
+    - https://bugzilla.redhat.com/2380283
+    - https://bugzilla.redhat.com/2380284
+    - https://bugzilla.redhat.com/2380290
+    - https://bugzilla.redhat.com/2380291
+    - https://bugzilla.redhat.com/2380295
+    - https://bugzilla.redhat.com/2380298
+    - https://bugzilla.redhat.com/2380306
+    - https://bugzilla.redhat.com/2380308
+    - https://bugzilla.redhat.com/2380309
+    - https://bugzilla.redhat.com/2380310
+    - https://bugzilla.redhat.com/2380312
+    - https://bugzilla.redhat.com/2380313
+    - https://bugzilla.redhat.com/2380320
+    - https://bugzilla.redhat.com/2380321
+    - https://bugzilla.redhat.com/2380322
+    - https://bugzilla.redhat.com/2380326
+    - https://bugzilla.redhat.com/2380327
+    - https://bugzilla.redhat.com/2380334
+    - https://bugzilla.redhat.com/2380335
+    - https://curl.se/docs/CVE-2025-5399.html
+    - https://curl.se/docs/CVE-2025-5399.json
+    - https://errata.almalinux.org/9/ALSA-2025-16046.html
+    - https://hackerone.com/reports/3168039
+    - https://linux.oracle.com/cve/CVE-2025-5399.html
+    - https://linux.oracle.com/errata/ELSA-2025-16046.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5399
+    - https://www.cve.org/CVERecord?id=CVE-2025-5399
+    - https://www.oracle.com/security-alerts/cpujul2025.html#AppendixMSQL
+    PublishedDate: '2025-06-07T08:15:20.687Z'
+    LastModifiedDate: '2025-07-30T19:41:33.457Z'
+  - VulnerabilityID: CVE-2025-9086
+    PkgID: curl@8.12.1-r1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/curl@8.12.1-r1?arch=x86_64&distro=3.21.3
+      UID: 803b531308fc04a4
+    InstalledVersion: 8.12.1-r1
+    FixedVersion: 8.14.1-r2
+    Status: fixed
+    Layer:
+      Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4d7814ea39226035ebf8e
+      DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7185ab555262cb80cc579
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9086
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'curl: libcurl: Curl out of bounds read for cookie path'
+    Description: |-
+      1. A cookie is set using the `secure` keyword for `https://target`
+      2. curl is redirected to or otherwise made to speak with `http://target` (same
+         hostname, but using clear text HTTP) using the same cookie set
+      3. The same cookie name is set - but with just a slash as path (`path='/'`).
+         Since this site is not secure, the cookie *should* just be ignored.
+      4. A bug in the path comparison logic makes curl read outside a heap buffer
+         boundary
+
+      The bug either causes a crash or it potentially makes the comparison come to
+      the wrong conclusion and lets the clear-text site override the contents of the
+      secure cookie, contrary to expectations and depending on the memory contents
+      immediately following the single-byte allocation that holds the path.
+
+      The presumed and correct behavior would be to plainly ignore the second set of
+      the cookie since it was already set as secure on a secure host so overriding
+      it on an insecure host should not be okay.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-9086
+    - https://curl.se/docs/CVE-2025-9086.html
+    - https://curl.se/docs/CVE-2025-9086.json
+    - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
+    - https://hackerone.com/reports/3294999
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
+    - https://www.cve.org/CVERecord?id=CVE-2025-9086
+    PublishedDate: '2025-09-12T06:15:44.1Z'
+    LastModifiedDate: '2025-09-15T15:21:42.937Z'
   - VulnerabilityID: CVE-2025-31344
     PkgID: giflib@5.2.2-r0
     PkgName: giflib
@@ -5577,7 +5858,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9230
     PublishedDate: '2025-09-30T14:15:41.05Z'
-    LastModifiedDate: '2025-09-30T20:15:41.023Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9231
     PkgID: libcrypto3@3.3.3-r0
     PkgName: libcrypto3
@@ -5637,7 +5918,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9231
     PublishedDate: '2025-09-30T14:15:41.19Z'
-    LastModifiedDate: '2025-09-30T20:15:41.22Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9232
     PkgID: libcrypto3@3.3.3-r0
     PkgName: libcrypto3
@@ -5703,7 +5984,288 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
-    LastModifiedDate: '2025-09-30T20:15:41.397Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
+  - VulnerabilityID: CVE-2025-10148
+    PkgID: libcurl@8.12.1-r1
+    PkgName: libcurl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libcurl@8.12.1-r1?arch=x86_64&distro=3.21.3
+      UID: cd23b7172f0dfc2d
+    InstalledVersion: 8.12.1-r1
+    FixedVersion: 8.14.1-r2
+    Status: fixed
+    Layer:
+      Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4d7814ea39226035ebf8e
+      DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7185ab555262cb80cc579
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10148
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'curl: predictable WebSocket mask'
+    Description: |-
+      curl's websocket code did not update the 32 bit mask pattern for each new
+       outgoing frame as the specification says. Instead it used a fixed mask that
+      persisted and was used throughout the entire connection.
+
+      A predictable mask pattern allows for a malicious server to induce traffic
+      between the two communicating parties that could be interpreted by an involved
+      proxy (configured or transparent) as genuine, real, HTTP traffic with content
+      and thereby poison its cache. That cached poisoned content could then be
+      served to all users of that proxy.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-10148
+    - https://curl.se/docs/CVE-2025-10148.html
+    - https://curl.se/docs/CVE-2025-10148.json
+    - https://hackerone.com/reports/3330839
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-10148
+    - https://www.cve.org/CVERecord?id=CVE-2025-10148
+    PublishedDate: '2025-09-12T06:15:40.02Z'
+    LastModifiedDate: '2025-09-15T15:21:42.937Z'
+  - VulnerabilityID: CVE-2025-4947
+    PkgID: libcurl@8.12.1-r1
+    PkgName: libcurl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libcurl@8.12.1-r1?arch=x86_64&distro=3.21.3
+      UID: cd23b7172f0dfc2d
+    InstalledVersion: 8.12.1-r1
+    FixedVersion: 8.14.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4d7814ea39226035ebf8e
+      DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7185ab555262cb80cc579
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4947
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'libcurl: curl: QUIC certificate check skip with wolfSSL'
+    Description: libcurl accidentally skips the certificate verification for QUIC connections when connecting to a host specified as an IP address in the URL. Therefore, it does not detect impostors or man-in-the-middle attacks.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-295
+    VendorSeverity:
+      azure: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/28/4
+    - https://access.redhat.com/security/cve/CVE-2025-4947
+    - https://curl.se/docs/CVE-2025-4947.html
+    - https://curl.se/docs/CVE-2025-4947.json
+    - https://hackerone.com/reports/3150884
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-4947
+    - https://www.cve.org/CVERecord?id=CVE-2025-4947
+    PublishedDate: '2025-05-28T07:15:24.78Z'
+    LastModifiedDate: '2025-06-26T15:08:21.52Z'
+  - VulnerabilityID: CVE-2025-5025
+    PkgID: libcurl@8.12.1-r1
+    PkgName: libcurl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libcurl@8.12.1-r1?arch=x86_64&distro=3.21.3
+      UID: cd23b7172f0dfc2d
+    InstalledVersion: 8.12.1-r1
+    FixedVersion: 8.14.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4d7814ea39226035ebf8e
+      DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7185ab555262cb80cc579
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5025
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'curl: libcurl: QUIC Certificate Pinning Bypass'
+    Description: libcurl supports *pinning* of the server certificate public key for HTTPS transfers. Due to an omission, this check is not performed when connecting with QUIC for HTTP/3, when the TLS backend is wolfSSL. Documentation says the option works with wolfSSL, failing to specify that it does not for QUIC and HTTP/3. Since pinning makes the transfer succeed if the pin is fine, users could unwittingly connect to an impostor server without noticing.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-295
+    VendorSeverity:
+      azure: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/05/28/5
+    - https://access.redhat.com/security/cve/CVE-2025-5025
+    - https://curl.se/docs/CVE-2025-5025.html
+    - https://curl.se/docs/CVE-2025-5025.json
+    - https://hackerone.com/reports/3153497
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5025
+    - https://www.cve.org/CVERecord?id=CVE-2025-5025
+    PublishedDate: '2025-05-28T07:15:24.91Z'
+    LastModifiedDate: '2025-07-30T19:41:37.987Z'
+  - VulnerabilityID: CVE-2025-5399
+    PkgID: libcurl@8.12.1-r1
+    PkgName: libcurl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libcurl@8.12.1-r1?arch=x86_64&distro=3.21.3
+      UID: cd23b7172f0dfc2d
+    InstalledVersion: 8.12.1-r1
+    FixedVersion: 8.14.1-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4d7814ea39226035ebf8e
+      DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7185ab555262cb80cc579
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5399
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'curl: libcurl: WebSocket endless loop'
+    Description: |-
+      Due to a mistake in libcurl's WebSocket code, a malicious server can send a
+      particularly crafted packet which makes libcurl get trapped in an endless
+      busy-loop.
+
+      There is no other way for the application to escape or exit this loop other
+      than killing the thread/process.
+
+      This might be used to DoS libcurl-using application.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/06/04/2
+    - https://access.redhat.com/errata/RHSA-2025:16046
+    - https://access.redhat.com/security/cve/CVE-2025-5399
+    - https://bugzilla.redhat.com/2359885
+    - https://bugzilla.redhat.com/2359888
+    - https://bugzilla.redhat.com/2359892
+    - https://bugzilla.redhat.com/2359894
+    - https://bugzilla.redhat.com/2359895
+    - https://bugzilla.redhat.com/2359899
+    - https://bugzilla.redhat.com/2359900
+    - https://bugzilla.redhat.com/2359902
+    - https://bugzilla.redhat.com/2359903
+    - https://bugzilla.redhat.com/2359911
+    - https://bugzilla.redhat.com/2359918
+    - https://bugzilla.redhat.com/2359920
+    - https://bugzilla.redhat.com/2359924
+    - https://bugzilla.redhat.com/2359928
+    - https://bugzilla.redhat.com/2359930
+    - https://bugzilla.redhat.com/2359932
+    - https://bugzilla.redhat.com/2359934
+    - https://bugzilla.redhat.com/2359938
+    - https://bugzilla.redhat.com/2359940
+    - https://bugzilla.redhat.com/2359943
+    - https://bugzilla.redhat.com/2359944
+    - https://bugzilla.redhat.com/2359945
+    - https://bugzilla.redhat.com/2359947
+    - https://bugzilla.redhat.com/2359950
+    - https://bugzilla.redhat.com/2359963
+    - https://bugzilla.redhat.com/2359964
+    - https://bugzilla.redhat.com/2359972
+    - https://bugzilla.redhat.com/2370920
+    - https://bugzilla.redhat.com/2380264
+    - https://bugzilla.redhat.com/2380273
+    - https://bugzilla.redhat.com/2380274
+    - https://bugzilla.redhat.com/2380278
+    - https://bugzilla.redhat.com/2380280
+    - https://bugzilla.redhat.com/2380283
+    - https://bugzilla.redhat.com/2380284
+    - https://bugzilla.redhat.com/2380290
+    - https://bugzilla.redhat.com/2380291
+    - https://bugzilla.redhat.com/2380295
+    - https://bugzilla.redhat.com/2380298
+    - https://bugzilla.redhat.com/2380306
+    - https://bugzilla.redhat.com/2380308
+    - https://bugzilla.redhat.com/2380309
+    - https://bugzilla.redhat.com/2380310
+    - https://bugzilla.redhat.com/2380312
+    - https://bugzilla.redhat.com/2380313
+    - https://bugzilla.redhat.com/2380320
+    - https://bugzilla.redhat.com/2380321
+    - https://bugzilla.redhat.com/2380322
+    - https://bugzilla.redhat.com/2380326
+    - https://bugzilla.redhat.com/2380327
+    - https://bugzilla.redhat.com/2380334
+    - https://bugzilla.redhat.com/2380335
+    - https://curl.se/docs/CVE-2025-5399.html
+    - https://curl.se/docs/CVE-2025-5399.json
+    - https://errata.almalinux.org/9/ALSA-2025-16046.html
+    - https://hackerone.com/reports/3168039
+    - https://linux.oracle.com/cve/CVE-2025-5399.html
+    - https://linux.oracle.com/errata/ELSA-2025-16046.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-5399
+    - https://www.cve.org/CVERecord?id=CVE-2025-5399
+    - https://www.oracle.com/security-alerts/cpujul2025.html#AppendixMSQL
+    PublishedDate: '2025-06-07T08:15:20.687Z'
+    LastModifiedDate: '2025-07-30T19:41:33.457Z'
+  - VulnerabilityID: CVE-2025-9086
+    PkgID: libcurl@8.12.1-r1
+    PkgName: libcurl
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libcurl@8.12.1-r1?arch=x86_64&distro=3.21.3
+      UID: cd23b7172f0dfc2d
+    InstalledVersion: 8.12.1-r1
+    FixedVersion: 8.14.1-r2
+    Status: fixed
+    Layer:
+      Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4d7814ea39226035ebf8e
+      DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7185ab555262cb80cc579
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9086
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'curl: libcurl: Curl out of bounds read for cookie path'
+    Description: |-
+      1. A cookie is set using the `secure` keyword for `https://target`
+      2. curl is redirected to or otherwise made to speak with `http://target` (same
+         hostname, but using clear text HTTP) using the same cookie set
+      3. The same cookie name is set - but with just a slash as path (`path='/'`).
+         Since this site is not secure, the cookie *should* just be ignored.
+      4. A bug in the path comparison logic makes curl read outside a heap buffer
+         boundary
+
+      The bug either causes a crash or it potentially makes the comparison come to
+      the wrong conclusion and lets the clear-text site override the contents of the
+      secure cookie, contrary to expectations and depending on the memory contents
+      immediately following the single-byte allocation that holds the path.
+
+      The presumed and correct behavior would be to plainly ignore the second set of
+      the cookie since it was already set as secure on a secure host so overriding
+      it on an insecure host should not be okay.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-9086
+    - https://curl.se/docs/CVE-2025-9086.html
+    - https://curl.se/docs/CVE-2025-9086.json
+    - https://github.com/curl/curl/commit/c6ae07c6a541e0e96d0040afb6
+    - https://hackerone.com/reports/3294999
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
+    - https://www.cve.org/CVERecord?id=CVE-2025-9086
+    PublishedDate: '2025-09-12T06:15:44.1Z'
+    LastModifiedDate: '2025-09-15T15:21:42.937Z'
   - VulnerabilityID: CVE-2025-59375
     PkgID: libexpat@2.7.0-r0
     PkgName: libexpat
@@ -5805,7 +6367,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9230
     PublishedDate: '2025-09-30T14:15:41.05Z'
-    LastModifiedDate: '2025-09-30T20:15:41.023Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9231
     PkgID: libssl3@3.3.3-r0
     PkgName: libssl3
@@ -5865,7 +6427,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9231
     PublishedDate: '2025-09-30T14:15:41.19Z'
-    LastModifiedDate: '2025-09-30T20:15:41.22Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9232
     PkgID: libssl3@3.3.3-r0
     PkgName: libssl3
@@ -5931,7 +6493,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
-    LastModifiedDate: '2025-09-30T20:15:41.397Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-21587
     PkgID: openjdk21-jre@21.0.6_p7-r0
     PkgName: openjdk21-jre
@@ -6979,7 +7541,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9230
     PublishedDate: '2025-09-30T14:15:41.05Z'
-    LastModifiedDate: '2025-09-30T20:15:41.023Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9231
     PkgID: openssl@3.3.3-r0
     PkgName: openssl
@@ -7039,7 +7601,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9231
     PublishedDate: '2025-09-30T14:15:41.19Z'
-    LastModifiedDate: '2025-09-30T20:15:41.22Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2025-9232
     PkgID: openssl@3.3.3-r0
     PkgName: openssl
@@ -7105,7 +7667,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
-    LastModifiedDate: '2025-09-30T20:15:41.397Z'
+    LastModifiedDate: '2025-10-02T19:12:17.16Z'
   - VulnerabilityID: CVE-2024-12718
     PkgID: pyc@3.12.9-r0
     PkgName: pyc
@@ -7447,7 +8009,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -7818,7 +8380,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -8189,7 +8751,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -8560,7 +9122,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -9600,6 +10162,7 @@
     VendorSeverity:
       amazon: 1
       azure: 2
+      cbl-mariner: 2
       ghsa: 2
       redhat: 1
     CVSS:
