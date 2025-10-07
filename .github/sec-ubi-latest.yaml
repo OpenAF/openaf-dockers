@@ -34992,17 +34992,21 @@
       azure: 3
       oracle-oval: 3
       redhat: 3
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H
         V3Score: 8
     References:
-    - https://access.redhat.com/errata/RHSA-2025:15700
+    - https://access.redhat.com/errata/RHSA-2025:15701
     - https://access.redhat.com/security/cve/CVE-2025-58060
     - https://bugzilla.redhat.com/2392595
     - https://bugzilla.redhat.com/2393078
-    - https://errata.almalinux.org/9/ALSA-2025-15700.html
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2392595
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-58060
+    - https://errata.almalinux.org/10/ALSA-2025-15701.html
+    - https://errata.rockylinux.org/RLSA-2025:15702
     - https://github.com/OpenPrinting/cups/commit/595d691075b1d396d2edfaa0a8fd0873a0a1f221
     - https://github.com/OpenPrinting/cups/security/advisories/GHSA-4c68-qgrh-rmmq
     - https://linux.oracle.com/cve/CVE-2025-58060.html
@@ -35099,11 +35103,11 @@
         V3Vector: CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:15700
+    - https://access.redhat.com/errata/RHSA-2025:15701
     - https://access.redhat.com/security/cve/CVE-2025-58364
     - https://bugzilla.redhat.com/2392595
     - https://bugzilla.redhat.com/2393078
-    - https://errata.almalinux.org/9/ALSA-2025-15700.html
+    - https://errata.almalinux.org/10/ALSA-2025-15701.html
     - https://github.com/OpenPrinting/cups/commit/e58cba9d6fceed4242980e51dbd1302cf638ab1d
     - https://github.com/OpenPrinting/cups/security/advisories/GHSA-7qx3-r744-6qv4
     - https://linux.oracle.com/cve/CVE-2025-58364.html
@@ -35806,13 +35810,15 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:16115
     - https://access.redhat.com/errata/RHSA-2025:16116
+    - https://access.redhat.com/errata/RHSA-2025:17348
+    - https://access.redhat.com/errata/RHSA-2025:17361
     - https://access.redhat.com/security/cve/CVE-2025-32988
     - https://bugzilla.redhat.com/2359620
     - https://bugzilla.redhat.com/2359621
     - https://bugzilla.redhat.com/2359622
     - https://bugzilla.redhat.com/2376755
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359622
-    - https://errata.almalinux.org/9/ALSA-2025-16116.html
+    - https://errata.almalinux.org/10/ALSA-2025-16115.html
     - https://linux.oracle.com/cve/CVE-2025-32988.html
     - https://linux.oracle.com/errata/ELSA-2025-20606.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
@@ -35821,7 +35827,7 @@
     - https://ubuntu.com/security/notices/USN-7742-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32988
     PublishedDate: '2025-07-10T08:15:24.223Z'
-    LastModifiedDate: '2025-09-17T21:15:37.95Z'
+    LastModifiedDate: '2025-10-06T12:15:33.023Z'
   - VulnerabilityID: CVE-2025-32989
     VendorIDs:
     - RHSA-2025:16116
@@ -35859,13 +35865,15 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:16115
     - https://access.redhat.com/errata/RHSA-2025:16116
+    - https://access.redhat.com/errata/RHSA-2025:17348
+    - https://access.redhat.com/errata/RHSA-2025:17361
     - https://access.redhat.com/security/cve/CVE-2025-32989
     - https://bugzilla.redhat.com/2359620
     - https://bugzilla.redhat.com/2359621
     - https://bugzilla.redhat.com/2359622
     - https://bugzilla.redhat.com/2376755
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359621
-    - https://errata.almalinux.org/9/ALSA-2025-16116.html
+    - https://errata.almalinux.org/10/ALSA-2025-16115.html
     - https://linux.oracle.com/cve/CVE-2025-32989.html
     - https://linux.oracle.com/errata/ELSA-2025-20606.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
@@ -35873,7 +35881,7 @@
     - https://ubuntu.com/security/notices/USN-7635-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32989
     PublishedDate: '2025-07-10T08:15:24.43Z'
-    LastModifiedDate: '2025-09-17T21:15:38.08Z'
+    LastModifiedDate: '2025-10-06T12:15:33.197Z'
   - VulnerabilityID: CVE-2025-32990
     VendorIDs:
     - RHSA-2025:16116
@@ -35915,13 +35923,15 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:16115
     - https://access.redhat.com/errata/RHSA-2025:16116
+    - https://access.redhat.com/errata/RHSA-2025:17348
+    - https://access.redhat.com/errata/RHSA-2025:17361
     - https://access.redhat.com/security/cve/CVE-2025-32990
     - https://bugzilla.redhat.com/2359620
     - https://bugzilla.redhat.com/2359621
     - https://bugzilla.redhat.com/2359622
     - https://bugzilla.redhat.com/2376755
     - https://bugzilla.redhat.com/show_bug.cgi?id=2359620
-    - https://errata.almalinux.org/9/ALSA-2025-16116.html
+    - https://errata.almalinux.org/10/ALSA-2025-16115.html
     - https://linux.oracle.com/cve/CVE-2025-32990.html
     - https://linux.oracle.com/errata/ELSA-2025-20606.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
@@ -35930,7 +35940,7 @@
     - https://ubuntu.com/security/notices/USN-7742-1
     - https://www.cve.org/CVERecord?id=CVE-2025-32990
     PublishedDate: '2025-07-10T10:15:33.06Z'
-    LastModifiedDate: '2025-09-17T21:15:38.223Z'
+    LastModifiedDate: '2025-10-06T12:15:33.343Z'
   - VulnerabilityID: CVE-2025-6395
     VendorIDs:
     - RHSA-2025:16116
@@ -35968,13 +35978,15 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:16115
     - https://access.redhat.com/errata/RHSA-2025:16116
+    - https://access.redhat.com/errata/RHSA-2025:17348
+    - https://access.redhat.com/errata/RHSA-2025:17361
     - https://access.redhat.com/security/cve/CVE-2025-6395
     - https://bugzilla.redhat.com/2359620
     - https://bugzilla.redhat.com/2359621
     - https://bugzilla.redhat.com/2359622
     - https://bugzilla.redhat.com/2376755
     - https://bugzilla.redhat.com/show_bug.cgi?id=2376755
-    - https://errata.almalinux.org/9/ALSA-2025-16116.html
+    - https://errata.almalinux.org/10/ALSA-2025-16115.html
     - https://linux.oracle.com/cve/CVE-2025-6395.html
     - https://linux.oracle.com/errata/ELSA-2025-20606.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html
@@ -35983,7 +35995,7 @@
     - https://ubuntu.com/security/notices/USN-7742-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6395
     PublishedDate: '2025-07-10T16:15:25.11Z'
-    LastModifiedDate: '2025-09-17T21:15:38.51Z'
+    LastModifiedDate: '2025-10-06T12:15:33.497Z'
   - VulnerabilityID: CVE-2025-5914
     VendorIDs:
     - RHSA-2025:14130
@@ -36045,7 +36057,7 @@
     - https://bugzilla.redhat.com/2370861
     - https://bugzilla.redhat.com/show_bug.cgi?id=2370861
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5914
-    - https://errata.almalinux.org/9/ALSA-2025-14130.html
+    - https://errata.almalinux.org/10/ALSA-2025-14137.html
     - https://errata.rockylinux.org/RLSA-2025:14135
     - https://github.com/libarchive/libarchive/pull/2598
     - https://github.com/libarchive/libarchive/pull/2598/commits/196029dd0a17cd17c916eada9085839032b76ec9
@@ -37686,7 +37698,7 @@
         V3Score: 4.7
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
-    - https://access.redhat.com/errata/RHSA-2025:16046
+    - https://access.redhat.com/errata/RHSA-2025:15699
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -37740,7 +37752,7 @@
     - https://bugzilla.redhat.com/2380327
     - https://bugzilla.redhat.com/2380334
     - https://bugzilla.redhat.com/2380335
-    - https://errata.almalinux.org/9/ALSA-2025-16046.html
+    - https://errata.almalinux.org/10/ALSA-2025-15699.html
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
     - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
     - https://github.com/openssl/openssl/commit/392dcb336405a0c94486aa6655057f59fd3a0902
@@ -38024,7 +38036,7 @@
         V3Score: 4.7
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
-    - https://access.redhat.com/errata/RHSA-2025:16046
+    - https://access.redhat.com/errata/RHSA-2025:15699
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -38078,7 +38090,7 @@
     - https://bugzilla.redhat.com/2380327
     - https://bugzilla.redhat.com/2380334
     - https://bugzilla.redhat.com/2380335
-    - https://errata.almalinux.org/9/ALSA-2025-16046.html
+    - https://errata.almalinux.org/10/ALSA-2025-15699.html
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
     - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
     - https://github.com/openssl/openssl/commit/392dcb336405a0c94486aa6655057f59fd3a0902
@@ -38550,7 +38562,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -38668,12 +38680,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:15019
+    - https://access.redhat.com/errata/RHSA-2025:14984
     - https://access.redhat.com/security/cve/CVE-2025-8194
     - https://bugzilla.redhat.com/2384043
     - https://bugzilla.redhat.com/show_bug.cgi?id=2384043
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8194
-    - https://errata.almalinux.org/9/ALSA-2025-15019.html
+    - https://errata.almalinux.org/10/ALSA-2025-14984.html
     - https://errata.rockylinux.org/RLSA-2025:14841
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/57f5981d6260ed21266e0c26951b8564cc252bc2
@@ -38755,7 +38767,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -38873,12 +38885,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:15019
+    - https://access.redhat.com/errata/RHSA-2025:14984
     - https://access.redhat.com/security/cve/CVE-2025-8194
     - https://bugzilla.redhat.com/2384043
     - https://bugzilla.redhat.com/show_bug.cgi?id=2384043
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8194
-    - https://errata.almalinux.org/9/ALSA-2025-15019.html
+    - https://errata.almalinux.org/10/ALSA-2025-14984.html
     - https://errata.rockylinux.org/RLSA-2025:14841
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/57f5981d6260ed21266e0c26951b8564cc252bc2
@@ -38960,7 +38972,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -39078,12 +39090,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2025:15019
+    - https://access.redhat.com/errata/RHSA-2025:14984
     - https://access.redhat.com/security/cve/CVE-2025-8194
     - https://bugzilla.redhat.com/2384043
     - https://bugzilla.redhat.com/show_bug.cgi?id=2384043
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8194
-    - https://errata.almalinux.org/9/ALSA-2025-15019.html
+    - https://errata.almalinux.org/10/ALSA-2025-14984.html
     - https://errata.rockylinux.org/RLSA-2025:14841
     - https://gist.github.com/sethmlarson/1716ac5b82b73dbcbf23ad2eff8b33e1
     - https://github.com/python/cpython/commit/57f5981d6260ed21266e0c26951b8564cc252bc2
