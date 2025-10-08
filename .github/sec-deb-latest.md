@@ -8534,13 +8534,13 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.2 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:13240 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:12980 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-8058 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2383146 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2383146 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8058 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-13240.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-12980.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:12980 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-8058.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-20595.html 
@@ -8596,13 +8596,13 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.2 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:13240 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:12980 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-8058 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2383146 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2383146 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8058 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-13240.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2025-12980.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:12980 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-8058.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-20595.html 
@@ -10129,7 +10129,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-426 
 │                       │      │                  ╰ [1]: CWE-689 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
