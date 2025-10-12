@@ -5623,6 +5623,7 @@
       alma: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
@@ -5683,9 +5684,116 @@
     - https://bugzilla.redhat.com/2380327
     - https://bugzilla.redhat.com/2380334
     - https://bugzilla.redhat.com/2380335
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2338999
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359885
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359888
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359892
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359894
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359895
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359899
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359900
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359902
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359903
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359911
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359918
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359920
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359924
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359928
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359930
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359932
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359934
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359938
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359940
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359943
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359944
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359945
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359947
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359950
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359963
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359964
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359972
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2370920
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380264
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380273
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380274
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380278
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380280
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380283
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380284
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380290
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380291
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380295
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380298
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380306
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380308
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380309
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380310
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380312
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380313
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380320
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380321
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380326
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380334
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380335
     - https://curl.se/docs/CVE-2025-5399.html
     - https://curl.se/docs/CVE-2025-5399.json
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-13176
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21574
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21575
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21577
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21579
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21580
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21581
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21584
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21585
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21588
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30681
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30682
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30683
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30684
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30685
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30687
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30688
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30689
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30693
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30695
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30696
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30699
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30703
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30704
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30705
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30715
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30721
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30722
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50077
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50078
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50079
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50080
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50081
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50082
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50083
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50084
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50085
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50086
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50087
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50088
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50091
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50092
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50093
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50094
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50096
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50097
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50098
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50099
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50100
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50101
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
     - https://errata.almalinux.org/9/ALSA-2025-16046.html
+    - https://errata.rockylinux.org/RLSA-2025:15699
     - https://hackerone.com/reports/3168039
     - https://linux.oracle.com/cve/CVE-2025-5399.html
     - https://linux.oracle.com/errata/ELSA-2025-16046.html
@@ -6142,6 +6250,7 @@
       alma: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
@@ -6202,9 +6311,116 @@
     - https://bugzilla.redhat.com/2380327
     - https://bugzilla.redhat.com/2380334
     - https://bugzilla.redhat.com/2380335
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2338999
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359885
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359888
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359892
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359894
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359895
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359899
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359900
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359902
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359903
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359911
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359918
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359920
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359924
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359928
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359930
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359932
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359934
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359938
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359940
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359943
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359944
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359945
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359947
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359950
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359963
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359964
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359972
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2370920
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380264
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380273
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380274
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380278
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380280
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380283
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380284
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380290
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380291
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380295
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380298
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380306
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380308
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380309
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380310
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380312
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380313
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380320
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380321
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380322
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380326
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380327
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380334
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2380335
     - https://curl.se/docs/CVE-2025-5399.html
     - https://curl.se/docs/CVE-2025-5399.json
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-13176
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21574
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21575
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21577
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21579
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21580
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21581
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21584
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21585
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21588
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30681
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30682
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30683
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30684
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30685
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30687
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30688
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30689
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30693
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30695
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30696
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30699
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30703
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30704
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30705
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30715
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30721
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30722
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50077
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50078
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50079
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50080
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50081
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50082
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50083
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50084
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50085
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50086
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50087
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50088
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50091
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50092
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50093
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50094
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50096
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50097
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50098
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50099
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50100
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50101
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
     - https://errata.almalinux.org/9/ALSA-2025-16046.html
+    - https://errata.rockylinux.org/RLSA-2025:15699
     - https://hackerone.com/reports/3168039
     - https://linux.oracle.com/cve/CVE-2025-5399.html
     - https://linux.oracle.com/errata/ELSA-2025-16046.html
@@ -6290,6 +6506,7 @@
     - CWE-770
     VendorSeverity:
       amazon: 3
+      photon: 3
       redhat: 3
     CVSS:
       redhat:
@@ -9181,6 +9398,7 @@
       nvd: 4
       oracle-oval: 3
       redhat: 3
+      rocky: 3
       ubuntu: 2
     CVSS:
       nvd:
@@ -9194,7 +9412,10 @@
     - https://access.redhat.com/security/cve/CVE-2025-3277
     - https://bugzilla.redhat.com/2358271
     - https://bugzilla.redhat.com/2359553
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2359553
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-3277
     - https://errata.almalinux.org/9/ALSA-2025-7433.html
+    - https://errata.rockylinux.org/RLSA-2025:7517
     - https://linux.oracle.com/cve/CVE-2025-3277.html
     - https://linux.oracle.com/errata/ELSA-2025-7517.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3277
@@ -9464,6 +9685,7 @@
       oracle-oval: 3
       photon: 3
       redhat: 3
+      rocky: 3
       ubuntu: 3
     CVSS:
       nvd:
@@ -9479,7 +9701,12 @@
     - https://bugs.gentoo.org/show_bug.cgi?id=CVE-2025-32463
     - https://bugzilla.redhat.com/2374692
     - https://bugzilla.redhat.com/2374693
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2374692
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2374693
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32462
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-32463
     - https://errata.almalinux.org/10/ALSA-2025-11537.html
+    - https://errata.rockylinux.org/RLSA-2025:11537
     - https://explore.alas.aws.amazon.com/CVE-2025-32463.html
     - https://iototsecnews.jp/2025/07/01/linux-sudo-chroot-vulnerability-enables-hackers-to-elevate-privileges-to-root/
     - https://linux.oracle.com/cve/CVE-2025-32463.html
@@ -9532,6 +9759,7 @@
       oracle-oval: 3
       photon: 3
       redhat: 3
+      rocky: 3
       ubuntu: 2
     CVSS:
       redhat:
@@ -9544,7 +9772,10 @@
     - https://access.redhat.com/errata/RHSA-2025:7524
     - https://access.redhat.com/security/cve/CVE-2025-31115
     - https://bugzilla.redhat.com/2357249
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2357249
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-31115
     - https://errata.almalinux.org/10/ALSA-2025-7524.html
+    - https://errata.rockylinux.org/RLSA-2025:7524
     - https://github.com/tukaani-project/xz/commit/d5a2ffe41bb77b918a8c96084885d4dbe4bf6480
     - https://github.com/tukaani-project/xz/security/advisories/GHSA-6cc8-p5mm-29w2
     - https://linux.oracle.com/cve/CVE-2025-31115.html
