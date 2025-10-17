@@ -35669,7 +35669,7 @@
     - https://ubuntu.com/security/notices/USN-7412-1
     - https://www.cve.org/CVERecord?id=CVE-2025-30258
     PublishedDate: '2025-03-19T20:15:20.14Z'
-    LastModifiedDate: '2025-10-10T14:29:32.06Z'
+    LastModifiedDate: '2025-10-16T16:53:07.557Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-6.el9_6.x86_64
     PkgName: libarchive
@@ -37174,6 +37174,7 @@
     - CWE-787
     VendorSeverity:
       amazon: 2
+      azure: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -37622,6 +37623,7 @@
     - CWE-787
     VendorSeverity:
       amazon: 2
+      azure: 3
       redhat: 2
       ubuntu: 2
     CVSS:
