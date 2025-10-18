@@ -5496,6 +5496,7 @@
       served to all users of that proxy.
     Severity: MEDIUM
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -5946,6 +5947,8 @@
     - CWE-125
     - CWE-787
     VendorSeverity:
+      amazon: 2
+      azure: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -6009,6 +6012,7 @@
     CweIDs:
     - CWE-385
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -6123,6 +6127,7 @@
       served to all users of that proxy.
     Severity: MEDIUM
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -6506,6 +6511,7 @@
     - CWE-770
     VendorSeverity:
       amazon: 3
+      cbl-mariner: 2
       photon: 3
       redhat: 3
     CVSS:
@@ -6564,6 +6570,8 @@
     - CWE-125
     - CWE-787
     VendorSeverity:
+      amazon: 2
+      azure: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -6627,6 +6635,7 @@
     CweIDs:
     - CWE-385
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -7738,6 +7747,8 @@
     - CWE-125
     - CWE-787
     VendorSeverity:
+      amazon: 2
+      azure: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -7801,6 +7812,7 @@
     CweIDs:
     - CWE-385
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -8226,7 +8238,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -8597,7 +8609,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -8968,7 +8980,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -9339,7 +9351,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
