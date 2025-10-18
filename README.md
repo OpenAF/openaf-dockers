@@ -4,18 +4,18 @@ This repository hosts the Dockerfiles and helper scripts that produce the offici
 
 ## Security scan status
 
-[![sec-latest](.github/sec-latest.svg)](.github/sec-latest.md) 
-[![sec-nightly](.github/sec-nightly.svg)](.github/sec-nightly.md) 
-[![sec-edge](.github/sec-edge.svg)](.github/sec-edge.md)  
-[![sec-ubi-latest](.github/sec-ubi-latest.svg)](.github/sec-ubi-latest.md) 
-[![sec-ubi-nightly](.github/sec-ubi-nightly.svg)](.github/sec-ubi-nightly.md) 
-[![sec-deb-latest](.github/sec-deb-latest.svg)](.github/sec-deb-latest.md) 
-[![sec-deb-nightly](.github/sec-deb-nightly.svg)](.github/sec-deb-nightly.md)  
-[![sec-oJobRT-latest](.github/sec-oJobRT-latest.svg)](.github/sec-oJobRT-latest.md) 
-[![sec-oJobRT-nightly](.github/sec-oJobRT-nightly.svg)](.github/sec-oJobRT-nightly.md) 
-[![sec-oJobRT-edge](.github/sec-oJobRT-edge.svg)](.github/sec-oJobRT-edge.md)  
-[![sec-pyOAF-nightly](.github/sec-pyOAF-nightly.svg)](.github/sec-pyOAF-nightly.md) 
-[![sec-pyOAF-edge](.github/sec-pyOAF-edge.svg)](.github/sec-pyOAF-edge.md)
+[![sec-latest](.github/sec-latest.svg)](.github/sec-latest.md) <br/>
+[![sec-nightly](.github/sec-nightly.svg)](.github/sec-nightly.md) <br/>
+[![sec-edge](.github/sec-edge.svg)](.github/sec-edge.md)  <br/>
+[![sec-ubi-latest](.github/sec-ubi-latest.svg)](.github/sec-ubi-latest.md) <br/>
+[![sec-ubi-nightly](.github/sec-ubi-nightly.svg)](.github/sec-ubi-nightly.md) <br/>
+[![sec-deb-latest](.github/sec-deb-latest.svg)](.github/sec-deb-latest.md) <br/>
+[![sec-deb-nightly](.github/sec-deb-nightly.svg)](.github/sec-deb-nightly.md)  <br/>
+[![sec-oJobRT-latest](.github/sec-oJobRT-latest.svg)](.github/sec-oJobRT-latest.md) <br/>
+[![sec-oJobRT-nightly](.github/sec-oJobRT-nightly.svg)](.github/sec-oJobRT-nightly.md) <br/>
+[![sec-oJobRT-edge](.github/sec-oJobRT-edge.svg)](.github/sec-oJobRT-edge.md)  <br/>
+[![sec-pyOAF-nightly](.github/sec-pyOAF-nightly.svg)](.github/sec-pyOAF-nightly.md) <br/>
+[![sec-pyOAF-edge](.github/sec-pyOAF-edge.svg)](.github/sec-pyOAF-edge.md)<br/>
 
 ## Quick start
 
