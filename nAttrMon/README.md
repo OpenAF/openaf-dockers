@@ -1,98 +1,70 @@
-# nAttrMon docker
+# nAttrMon
 
-## Building
+## Overview
 
-To build the container execute (changing the date to the current date):
+This image packages [nAttrMon](https://github.com/OpenAF/nAttrMon) on top of the OpenAF runtime. It can bootstrap its configuration from multiple backends (local files, HTTP/S, or S3-compatible object storage) and exposes knobs to run with JSON logging, integrity checks, and different secret sources.
 
-````bash
-$ docker build -t nattrmon:20220202 .
-````
+## Build from source
 
-## Running
+```bash
+docker build -t nattrmon:$(date +%Y%m%d) https://github.com/OpenAF/openaf-dockers.git#:nAttrMon
+```
 
-When running the following are the main environment variables considered:
+## Runtime configuration
 
-| Env variable | Mandatory? | Description |
-|--------------|------------|-------------|
-| NAM_METHOD   | No | Method to retrieve NAM_CONFIG (e.g. S3, HTTP, LOCAL, NONE) |
-| NAM_CONFIG   | Yes | ZIP file or URL to a zip file (if NAM_METHOD=HTTP) with the nAttrMon configuration |
-| NAM_JSONLOG  | No | Turns the log output to json |
-| NAM_HASH     | No | Ensure the NAM_CONFIG zip file or main.yaml as the provided hash (SHA-1) |
+| Variable    | Required? | Description |
+|-------------|-----------|-------------|
+| `NAM_METHOD`| No        | Retrieval method for `NAM_CONFIG`. Supported values: `none` (default), `local`, `http`, `s3`. |
+| `NAM_CONFIG`| Yes*      | Path, URL, or object key holding the nAttrMon configuration (ZIP or `main.yaml`). Required unless `NAM_METHOD=none` and you ship your own `/nattrmon/main.yaml`. |
+| `NAM_JSONLOG` | No      | Set to `true` to emit container logs in JSON. |
+| `NAM_HASH`  | No        | SHA-1 checksum used to verify the downloaded package (applies to ZIP or `main.yaml`). |
 
-### Local nAttrMon configuration
+### Local configuration (`NAM_METHOD=local`)
 
-To run a local provided nAttrMon ZIP file use the following environment variables:
+```bash
+docker run --rm -ti \
+  -v "$PWD/examples":/config \
+  -e NAM_METHOD=local \
+  -e NAM_CONFIG=/config/main.zip \
+  nattrmon:20240202
+```
 
-| Env variable | Example value |
-|--------------|---------------|
-| NAM_METHOD  | local         |
-| NAM_CONFIG  | /local/path/config.zip |
+### HTTP/S configuration (`NAM_METHOD=http`)
 
-**Example:**
+```bash
+docker run --rm -ti \
+  -e NAM_METHOD=http \
+  -e NAM_CONFIG=https://example.local/nattrmon/config.zip \
+  nattrmon:20240202
+```
 
-````bash
-$ docker run --rm -ti -v "$(pwd)"/examples:/test -e NAM_METHOD=local -e NAM_CONFIG=/test/main.zip nattrmon:20220202
-````
+Set `login` and `pass` environment variables for basic-auth endpoints.
 
-### S3 based nAttrMon
+### S3 configuration (`NAM_METHOD=s3`)
 
-To retrieve a nAttrMonh ZIP package from a S3 based bucket set the following environment variables:
+You can rely on OpenAF secrets buckets or provide credentials directly as environment variables.
 
-| Env variable | Example value |
-|--------------|-------|
-| NAM_METHOD  | s3    |
-| NAM_CONFIG  | /some/path/myPackage.zip |
+| Variable | Purpose |
+|----------|---------|
+| `secBucket`, `secKey`, `secFile` | Configure OpenAF secrets bucket lookup (defaults: bucket `nattrmon`, key `s3_config`, file `/secrets/secrets.yaml`). |
+| `url`, `bucket`, `accessKey`, `secret`, `sessionToken` | Supply credentials directly to reach an S3-compatible endpoint. |
 
-**Example using default secrets:**
+```bash
+docker run --rm -ti \
+  -e NAM_METHOD=s3 \
+  -e NAM_CONFIG=configs/main.zip \
+  -e bucket=my-bucket \
+  -e url=https://minio.local:9000 \
+  -e accessKey=minioadmin \
+  -e secret=minioadmin \
+  nattrmon:20240202
+```
 
-By default, the secrets.yaml is expected to be in /secrets/secrets.yaml. 
-If no secBucket environment variable is provided it will default for searching the main key *"nattrmon"*.
-If no secKey environment variable is provided it will default for searching the key *"s3_config"* in the OpenAF secBucket.
+### ZIP package layout
 
-````bash
-docker run --rm -ti -e NAM_METHOD=s3 -e NAM_CONFIG=test.zip -v "$(pwd)"/secrets:/secrets --net nattrmon nattrmon:20220202
-````
+When `NAM_CONFIG` points to a ZIP file, nAttrMon expects a structure similar to:
 
-**Example using a different secBucket and/or secKey:**
-
-````bash
-$ docker run --rm -ti -e NAM_METHOD=s3 -e NAM_CONFIG=test/test.zip -e secBucket=mySBucket -e secKey=myS3 -v "$(pwd)"/secrets:/secrets --net nattrmon nattrmon:20220202 
-````
-
-> To use a different secrets file the environment variable **secFile** can be provided
-
-**Example using all secrets in environment variables:**
-
-To provide the secrets directly, without using the OpenAF SBucket functionality, as enviroment variables use the following extra enviroment variables:
-
-| Env variable | Example value |
-|--------------|---------------|
-| url          | https://minio:9000 |
-| bucket       | mybucket      |
-| accessKey    | minioadmin    |
-| secret       | minioadmin    | 
-
-````sh
-$ docker run --rm -ti -e NAM_METHOD=s3 -e NAM_CONFIG=test.zip -e bucket=test -e url=http://minio:9000 -e accessKey=minioadmin -e secret=minioadmin --net nattrmon nattrmon:20220202
-````
-
-### HTTP based nAttrMon config
-
-To retrieve a nAttrMon ZIP configuration from a HTTP url set the following environment variables:
-
-| Env variable | Example value |
-|--------------|-------|
-| NAM_METHOD  | http  |
-| NAM_CONFIG  | http://some.server:12345/path/config.zip |
-
-**Example:**
-
-````bash
-docker run --rm -ti -v "$(pwd)"/examples:/test -e NAM_METHOD=http -e NAM_CONFIG=http://minio:9000/test/config.zip -v "$(pwd)"/secrets:/secrets --net nattrmon nattrmon:20220202
-````
-
-> It's possible also to provide a "login" and a "pass" enviroment variable for HTTP(s) basic authentication.
-
-### nAttrMon ZIP config
-
-The ZIP file can have all the necessary files for the nAttrMon configuration. For __TESTING PROPOSES__ optionally a **secrets.yaml** can be provided also.
+| Path          | Description |
+|---------------|-------------|
+| `/main.yaml`  | Entry point executed at startup. |
+| `/secrets.yaml` | Optional OpenAF `$sec` secrets file (handy for local testing). |

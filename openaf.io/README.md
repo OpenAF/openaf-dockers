@@ -1,25 +1,14 @@
-# openaf.io
+# openaf.io utilities
 
-## copy4GIT
+The `openaf.io` folder contains auxiliary container images that complement the main OpenAF runtimes. They focus on build automation, temporary tooling, and helper services.
 
-Clones the latest version of a specific branch of a GIT repository and strips all the GIT metadata.
+| Component | Description | Documentation |
+|-----------|-------------|---------------|
+| `copy4GIT` | Clones a Git repository branch, strips metadata, and ships the working tree (handy for air-gapped transfers). | `copy4GIT/README.md` |
+| `fbrowser` | Disposable web file browser for quickly inspecting mounted volumes. | `fbrowser/README.md` |
+| `OAFBuild` | Automated pipeline to clone, build, test, and package OpenAF releases. | `OAFBuild/README.md` |
+| `OAFDirector` | REST API service that orchestrates OpenAF builds and oPack creation. | `OAFDirector/README.md` |
+| `oLB` | Local HAProxy-based load-balancer whose backend list is managed by an OpenAF oJob. | `oLB/README.md` |
+| `opackServer` | Lightweight private oPack server backed by a mounted directory of `.opack` files or folders. | `opackServer/README.md` |
 
-## fbrowser
-
-Provides a simple file browser to quickly browse over a volume contents.
-
-## OAFBuild
-
-Clones a specific OpenAF's GIT branch and builds it. Optionally providing the final version, distribution and executing automated tests.
-
-## OAFDirector
-
-Simple REST API server to coordinate the OpenAF's builds, oPack building and others.
-
-## oLB
-
-Simples local HTTP load-balanced based on HAProxy. An OpenAF oJob rewrites the HAProxy backends list whenever a backend container is started or stopped, from the list of local available containers, given the optional filter options. Useful for testing of a cluster of containers if not deployed as a service.
-
-## opackServer
-
-Complete and simple private oPack server that will serve oPacks from a provided folder. These oPacks can be in the form of oPack files or folders.
+Use the individual READMEs for build/run details.

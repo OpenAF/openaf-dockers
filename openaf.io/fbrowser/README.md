@@ -1,19 +1,22 @@
-# OpenAF-FBrowser
+# fbrowser
 
-Quick, simple, temporary file browser for a quick hack. 
+## Overview
 
-## Using it
+`openaf.io/fbrowser` launches a temporary, read-only web file browser backed by an OpenAF oJob. Mount any folder into `/output` and the container serves a simple UI on port 8888 for quick inspection.
 
-1. Build the container
+## Usage
 
-````bash
-docker build -t fbrowser https://github.com/OpenAF/openaf-dockers.git#:openaf.io/fbrowser
-````
+```sh
+docker run --rm \
+  -p 8888:80 \
+  -v "$PWD":/output:ro \
+  fbrowser:latest
+```
 
-2. Run the container
+Then open `http://localhost:8888` in your browser.
 
-````bash
-docker run --rm -ti -v [the folder or volume you want to expose]:/output -p 8888:80 fbrowser
-````
+## Build from source
 
-3. Point your browser to the docker host address on port 8888 (e.g. http://127.0.0.1:8888)
+```sh
+docker build -t fbrowser:latest https://github.com/OpenAF/openaf-dockers.git#:openaf.io/fbrowser
+```

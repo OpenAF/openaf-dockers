@@ -1,122 +1,108 @@
 # oJobRT
 
-This container image is aimed to be a generic oJob runtime allowing different methods to retrieve the oJob to run upon startup. 
+## Overview
 
-## Building
+`openaf/ojobrt` is a generic OpenAF oJob runtime. It knows how to fetch an oJob definition at startup (from the filesystem, HTTP/S, or S3-compatible object storage), unpacks it when needed, and then executes the requested job. This makes it a good fit for GitOps-style deployments where the job definition lives outside of the container image.
 
-To build it from the source:
+## Available tags
 
-````bash
-$ docker build -t openaf/ojobrt --build-arg DIST="latest" https://github.com/OpenAF/openaf-dockers.git#:oJobRT
-````
+| Tag | Description |
+|-----|-------------|
+| `latest` | Latest stable build published to Docker Hub. |
+| `nightly` | Nightly build from the most recent OpenAF sources. |
+| `edge` | Builds aligned with the bleeding-edge OpenAF distribution. |
+
+## Build from source
+
+```bash
+docker build \
+  -t openaf/ojobrt:local \
+  --build-arg DIST=latest \
+  https://github.com/OpenAF/openaf-dockers.git#:oJobRT
+```
 
 | Build argument | Description |
 |----------------|-------------|
-| DIST           | The docker containter distribution/tag (e.g. latest, nightly) |
+| `DIST`         | Docker distribution tag to bake into the image (`latest`, `nightly`, `edge`, ...). |
 
-## Running
+## Runtime configuration
 
-When running the following are the main environment variables considered:
+| Variable     | Required? | Purpose |
+|--------------|-----------|---------|
+| `OJOB_METHOD`| No        | Selects how the oJob definition is retrieved. Supported values: `none` (default), `local`, `http`, `s3`. |
+| `OJOB_CONFIG`| Yes       | Path, URL, or object key that points to the main oJob file (or ZIP package) for the chosen method. Defaults to `/ojob/main.yaml` when `OJOB_METHOD=none`. |
+| `OJOB_JSONLOG` | No      | When set to `true`, emits entrypoint logs in JSON (does not affect the oJob own logging). |
 
-| Env variable | Mandatory? | Description |
-|--------------|------------|-------------|
-| OJOB_METHOD  | No         | Selects the method to retrive the corresponding oJob definition (defaults to 'NONE') |
-| OJOB_CONFIG  | Yes        | Depending on the OJOB_METHOD choosen points to the source object or filepath where the oJob definition (individual file or zip package) can be found |
-| OJOB_JSONLOG | No         | If OJOB_JSONLOG=true the entrypoint log will be output in JSON format |
+The image also accepts the standard OpenAF variables (`OPACKS`, `OPACKS_DIR`, `OPACKS_DB`, `OPENAF`, `OPACK_EXEC`, `OAFP`) inherited from the base runtime.
 
-> OJOB_JSONLOG doesn't set how logs from the corresponding oJob are output. This should be defined on the oJob itself.
+### Method: none
 
-### None oJob
+Mount or bake the oJob directly inside the image and rely on the default path:
 
-To run a directly mapped file(s) (to the folder /ojob) you don't need to provide any environment variables (optionally you can use OJOB_CONFIG for a different value than the default /ojob/main.yaml)
+```bash
+docker run --rm -ti \
+  -v "$PWD/examples":/ojob \
+  openaf/ojobrt:latest
+```
 
-**Example:**
-````bash
-$ docker run --rm -ti -v "$(pwd)"/examples:/test -e OJOB_CONFIG=/ojob/main.yaml openaf/ojobrt
-````
+Override the default path with `OJOB_CONFIG` if the file lives elsewhere:
 
-### Local oJob
+```bash
+docker run --rm -ti \
+  -v "$PWD/examples":/payload \
+  -e OJOB_METHOD=none \
+  -e OJOB_CONFIG=/payload/main.yaml \
+  openaf/ojobrt:latest
+```
 
-To run a local provided oJob file or zip package use the following environment variables:
+### Method: local
 
-| Env variable | Example value |
-|--------------|---------------|
-| OJOB_METHOD  | local         |
-| OJOB_CONFIG  | /local/path/main.yaml |
+Point to a file or ZIP already available inside the container (typically through a bind mount):
 
-**Example:**
+```bash
+docker run --rm -ti \
+  -v "$PWD/jobs":/jobs \
+  -e OJOB_METHOD=local \
+  -e OJOB_CONFIG=/jobs/main.yaml \
+  openaf/ojobrt:nightly
+```
 
-````bash
-$ docker run --rm -ti -v "$(pwd)"/examples:/test -e OJOB_METHOD=local -e OJOB_CONFIG=/test/main.yaml openaf/ojobrt 
-````
+### Method: http
 
-### S3 based oJob
+Download the job from an HTTP/S endpoint. Optional `login` and `pass` environment variables enable basic authentication.
 
-To retrieve a oJob ZIP package from a S3 based bucket set the following environment variables:
+```bash
+docker run --rm -ti \
+  -e OJOB_METHOD=http \
+  -e OJOB_CONFIG=https://example.local/jobs/package.zip \
+  openaf/ojobrt:latest
+```
 
-| Env variable | Example value |
-|--------------|-------|
-| OJOB_METHOD  | s3    |
-| OJOB_CONFIG  | /some/path/myPackage.zip |
+### Method: s3
 
-**Example using default secrets:**
+Fetch an oJob (file or ZIP) from an S3-compatible object store. Secrets can be provided either through the OpenAF secrets bucket mechanism or via environment variables.
 
-By default, the secrets.yaml is expected to be in /secrets/secrets.yaml. 
-If no secBucket environment variable is provided it will default for searching the main key *"ojob"*.
-If no secKey environment variable is provided it will default for searching the key *"s3_config"* in the OpenAF secBucket.
+| Variable | Purpose |
+|----------|---------|
+| `secBucket`, `secKey`, `secFile` | Point to credentials stored in an OpenAF secrets bucket (defaults: bucket `ojob`, key `s3_config`, file `/secrets/secrets.yaml`). |
+| `url`, `bucket`, `accessKey`, `secret`, `sessionToken` | Provide S3 credentials directly as environment variables. |
 
-````bash
-docker run --rm -ti -e OJOB_METHOD=s3 -e OJOB_CONFIG=test.zip -v "$(pwd)"/secrets:/secrets --net test openaf/ojobrt
-````
+```bash
+docker run --rm -ti \
+  -e OJOB_METHOD=s3 \
+  -e OJOB_CONFIG=jobs/pipeline.zip \
+  -e bucket=my-bucket \
+  -e url=https://minio.local:9000 \
+  -e accessKey=minioadmin \
+  -e secret=minioadmin \
+  openaf/ojobrt:edge
+```
 
-**Example using a different secBucket and/or secKey:**
+### Working with ZIP packages
 
-````bash
-$ docker run --rm -ti -e OJOB_METHOD=s3 -e OJOB_CONFIG=test/test.zip -e secBucket=mySBucket -e secKey=myS3 -v "$(pwd)"/secrets:/secrets --net test openaf/ojobrt 
-````
+When `OJOB_CONFIG` points to a ZIP file, the archive is unpacked and `main.yaml` is executed. You can optionally include a `secrets.yaml` alongside the job definition for testing purposes.
 
-> To use a different secrets file the environment variable **secFile** can be provided
-
-**Example using all secrets in environment variables:**
-
-To provide the secrets directly, without using the OpenAF SBucket functionality, as enviroment variables use the following extra enviroment variables:
-
-| Env variable | Example value |
-|--------------|---------------|
-| url          | https://minio:9000 |
-| bucket       | mybucket      |
-| accessKey    | minioadmin    |
-| secret       | minioadmin    | 
-
-````sh
-$ docker run --rm -ti -e OJOB_METHOD=s3 -e OJOB_CONFIG=test.zip -e bucket=test -e url=http://minio:9000 -e accessKey=minioadmin -e secret=minioadmin --net test openaf/ojobrt
-````
-
-### HTTP based oJob
-
-To retrieve a oJob ZIP package from a HTTP url set the following environment variables:
-
-| Env variable | Example value |
-|--------------|-------|
-| OJOB_METHOD  | http  |
-| OJOB_CONFIG  | http://some.server:12345/path/package.zip |
-
-**Example:**
-
-````bash
-docker run --rm -ti -v "$(pwd)"/examples:/test -e OJOB_METHOD=http -e OJOB_CONFIG=http://minio:9000/test/test.zip -v "$(pwd)"/secrets:/secrets --net test openaf/ojobrt
-````
-
-> It's possible also to provide a "login" and a "pass" enviroment variable for HTTP(s) basic authentication.
-
-### oJob ZIP package
-
-For some retrieval methods (OJOB_METHOD) it's possible to point to a ZIP file instead of a single file. The ZIP file can have all the necessary files to run the corresponding oJob but the main execution requires a **"main.yaml"** file. Optionally a **secrets.yaml** can be provided for testing proposed.
-
-Structure of the oJob ZIP package:
-
-| Filepath | Description |
-|----------|-------------|
-| /main.yaml | The main execution oJob |
-| /secrets.yaml | An optional secrets.yaml file (OpenAF $sec based) |
-
+| File path     | Description |
+|---------------|-------------|
+| `/main.yaml`  | Required oJob entry point executed by the runtime. |
+| `/secrets.yaml` | Optional OpenAF `$sec` secrets file that is loaded before execution. |

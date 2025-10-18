@@ -1,34 +1,33 @@
-# oPackServer
+# opackServer
 
-opackServer is a simple private opack server that will serve opacks from a provided folder. These opacks can be in the form of opack files or folders.
+## Overview
 
-## Install it as a docker container
+`openaf.io/opackServer` delivers a simple, self-hosted oPack repository. Mount a directory containing `.opack` files or unpacked oPack folders and the container serves both a REST API (port 8090) and a static file endpoint (port 8100) for your clients.
 
-### Build the container
+## Usage
 
-To build the container:
+```sh
+docker run --rm \
+  -p 8090:8090 \
+  -p 8100:8100 \
+  -v "$PWD/opacks":/data \
+  -e OPACKSERVER_PATH=/data \
+  -e OPACKSERVER_URL=http://localhost:8090 \
+  opackserver:latest
+```
 
-````bash
-docker build -t opackserver .
-````
+## Configuration
 
-To run the container:
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `OPACKSERVER_PATH` | Location of the `opack.db` database and the oPack files/folders inside the container. | `/data` |
+| `OPACKSERVER_URL` | Base URL advertised in metadata for clients to download packages. | `http://127.0.0.1:8090` |
+| `OPACKSERVER_INITRELOAD` | Set to `false` to skip rebuilding `opack.db` on startup. | `true` |
 
-````bash
-docker run -ti -p 8090:8090 -p 8100:8100 -v /my/opacks/folder:/data opackserver
-````
+If you prefer to run the logic directly with OpenAF, execute `ojob main.yaml` and provide the same environment variables.
 
-Uncomment and change, if needed, the following environment variables:
+## Build from source
 
-````dockerfile
-# Where the opack.db and opacks folder is located in the container
-ENV OPACKSERVER_PATH /data
-# The external endpoint on which the opack content will be available
-ENV OPACKSERVER_URL http://127.0.0.1:8090
-# Don't reload opack.db on startup
-ENV OPACKSERVER_INITRELOAD false
-````
-
-## Install it as a oJob
-
-_tbc_
+```sh
+docker build -t opackserver:latest https://github.com/OpenAF/openaf-dockers.git#:openaf.io/opackServer
+```

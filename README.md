@@ -1,134 +1,84 @@
 # OpenAF dockers
 
-Main OpenAF docker builds.
+This repository hosts the Dockerfiles and helper scripts that produce the official OpenAF container images. They ship the OpenAF runtime, optional tooling, and pre-configured runtimes for common deployment scenarios.
 
-Security scans:
+## Security scan status
 
-[![sec-latest](.github/sec-latest.svg)](.github/sec-latest.md)<br>
-[![sec-nightly](.github/sec-nightly.svg)](.github/sec-nightly.md)<br>
-[![sec-edge](.github/sec-edge.svg)](.github/sec-edge.md)<br>
-[![sec-ubi-latest](.github/sec-ubi-latest.svg)](.github/sec-ubi-latest.md)<br>
-[![sec-ubi-nightly](.github/sec-ubi-nightly.svg)](.github/sec-ubi-nightly.md)<br>
-[![sec-deb-latest](.github/sec-deb-latest.svg)](.github/sec-deb-latest.md)<br>
-[![sec-deb-nightly](.github/sec-deb-nightly.svg)](.github/sec-deb-nightly.md)<br>
-[![sec-oJobRT-latest](.github/sec-oJobRT-latest.svg)](.github/sec-oJobRT-latest.md)<br>
-[![sec-oJobRT-nightly](.github/sec-oJobRT-nightly.svg)](.github/sec-oJobRT-nightly.md)<br>
-[![sec-oJobRT-edge](.github/sec-oJobRT-edge.svg)](.github/sec-oJobRT-edge.md)<br>
-[![sec-pyOAF-nightly](.github/sec-pyOAF-nightly.svg)](.github/sec-pyOAF-nightly.md)<br>
-[![sec-pyOAF-edge](.github/sec-pyOAF-edge.svg)](.github/sec-pyOAF-edge.md)<br>
+[![sec-latest](.github/sec-latest.svg)](.github/sec-latest.md) [![sec-nightly](.github/sec-nightly.svg)](.github/sec-nightly.md) [![sec-edge](.github/sec-edge.svg)](.github/sec-edge.md)  
+[![sec-ubi-latest](.github/sec-ubi-latest.svg)](.github/sec-ubi-latest.md) [![sec-ubi-nightly](.github/sec-ubi-nightly.svg)](.github/sec-ubi-nightly.md) [![sec-deb-latest](.github/sec-deb-latest.svg)](.github/sec-deb-latest.md) [![sec-deb-nightly](.github/sec-deb-nightly.svg)](.github/sec-deb-nightly.md)  
+[![sec-oJobRT-latest](.github/sec-oJobRT-latest.svg)](.github/sec-oJobRT-latest.md) [![sec-oJobRT-nightly](.github/sec-oJobRT-nightly.svg)](.github/sec-oJobRT-nightly.md) [![sec-oJobRT-edge](.github/sec-oJobRT-edge.svg)](.github/sec-oJobRT-edge.md)  
+[![sec-pyOAF-nightly](.github/sec-pyOAF-nightly.svg)](.github/sec-pyOAF-nightly.md) [![sec-pyOAF-edge](.github/sec-pyOAF-edge.svg)](.github/sec-pyOAF-edge.md)
 
-## OpenAF
+## Quick start
 
-The main base container for OpenAF.
+```sh
+# Pull the latest stable OpenAF runtime
+docker pull openaf/openaf:latest
 
-### Running
+# Start an interactive shell with OpenAF available on the PATH
+docker run --rm -ti openaf/openaf:latest
 
-````sh
-docker pull openaf/openaf
-````
+# Run a script mounted from the host
+docker run --rm -ti \
+  -v "$PWD/scripts":/scripts \
+  -e OPENAF=/scripts/example.js \
+  openaf/openaf:latest
+```
 
-There are two tags available:
+### Common entrypoint options
 
-| Tag     | Description              |
-|---------|--------------------------|
-| latest  | The lastest stable build |
-| nightly | The nightly build        |
-| t8      | The developer version    |
+| Variable    | Purpose | Example |
+|-------------|---------|---------|
+| `OPACKS`    | Comma-separated list of oPacks to install on the first run (fetched from configured repositories). | `OPACKS=APIs,Docker,Mongo` |
+| `OPACKS_DIR`| Folder inside the container containing `.opack` files or unpacked oPack directories to install on the first run. | `OPACKS_DIR=/opacks` |
+| `OPACKS_DB` | Comma-separated list of remote oPack database URLs to add before installing oPacks. | `OPACKS_DB=https://my.repo/opack.db,https://mirror/opacks.json` |
+| `OPENAF`    | Path to a script inside the container that should be executed with `openaf`. | `OPENAF=/srv/jobs/cleanup.js` |
+| `OJOB`      | Path to an oJob definition (file or zip) that will be executed with `ojob`. | `OJOB=/ojobs/main.yaml` |
+| `OPACK_EXEC`| Name of an oPack executable to run through `opack exec`. Arguments after `docker run` are passed along. | `OPACK_EXEC=resttool` |
+| `OAFP`      | When present, runs `oafp` instead of the default entrypoint logic. Commonly set to `-h` to show help. | `OAFP=-h` |
 
-The environment variables available:
+The entrypoint installs requested oPacks only on the first run (tracked through `/openaf/.installed`). Without any of the variables above, the container starts an interactive shell with OpenAF tools on the `PATH`.
 
-| Variable   | Description | Example |
-|------------|-------------|---------|
-| OPACKS     | A comma separated list of oPacks to install during the first execution from central repositories. | OPACKS=APIs,Docker,Mongo |
-| OPACKS_DIR | A container based folder with .opack files or folders to be installed during the first execution. | OPACKS_DIR=/opacks |
-| OPACKS_DB  | A comma separated list of  | OPACKS_DB=http://main.server/opack.db |
-| OPENAF     | A container based script to be executed. | /myscripts/script.js |
-| OJOB       | A container based ojob to be executed. | /myojobs/job.yaml |
-| OAFP       | If defined will rever to running oafp. | -h |
+UBI-based images also expose `JVM_MEMMXPERC` and `JVM_MEMMSPERC` to influence the JVM memory percentage flags that get injected into `JAVA_ARGS`.
 
-#### Examples
+### Building from source
 
-Running commands directly:
-````sh
-docker run -ti -e OPACKS=APIs openaf/openaf -e 'load("apis.js");print(apis.ChuckNorrisJokes.get())'
-````
-Running a script:
-````sh
-docker run -ti -e OPACKS=APIs -e OPENAF=/scripts/myScript.js -v /myscripts:/scripts openaf/openaf
-````
-Running an oJob:
-````sh
-docker run -ti -e OPACKS=APIs -e OJOB=/ojobs/myJob.yaml -v /myojobs:/ojobs openaf/openaf
-````
-Invoking the console with a private opack:
-````sh
-docker run -ti -e OPACKS=https://user:pass@my.server/myOPack.opack openaf/openaf --console
-````
+```sh
+docker build \
+  -t openaf/openaf:dev \
+  --build-arg DIST=nightly \
+  --build-arg OPENAFDIST=nightly \
+  https://github.com/OpenAF/openaf-dockers.git#:openaf
+```
 
-[Building openaf](openaf)
+| Build arg    | Description |
+|--------------|-------------|
+| `DIST`       | Selects the distribution tag for the resulting image (e.g., `latest`, `nightly`, `t8`). |
+| `OPENAFDIST` | Chooses which OpenAF build to embed (empty string for stable, `nightly`, `edge`, etc.). |
 
-## OpenAF Console
+## Image catalog
 
-Based on the main openaf container facilitates the use of the openaf-console.
+**Core runtimes**
+- `openaf/openaf` – Minimal Alpine-based runtime with OpenJDK 21. [Docs](openaf/README.md)
+- `openaf/openaf-console` – Adds the OpenAF console tooling. [Docs](openaf-console/README.md)
+- `openaf/openaf-ojob` – Boots into `/openaf/main.yaml` for oJob workloads. [Docs](oJob/README.md)
+- `openaf/openaf-ojobc` – oJob runtime with the `ojob-common` oPack pre-installed. [Docs](oJobC/README.md)
+- `openaf/ojobrt` – Generic oJob runtime that can fetch jobs from local, HTTP, or S3 sources. [Docs](oJobRT/README.md)
 
-### Running
+**Runtime variants**
+- `openaf/openaf-edge` – Alpine edge base with a slim Java 25 runtime and mimalloc. [Docs](openaf-edge/README.md)
+- `openaf/openaf-8` – Alpine base with OpenJDK 8 for legacy workloads. [Docs](openaf-8/README.md)
+- `openaf/openaf-11` / `-13` / `-15` – Experimental builds pinned to specific OpenJDK versions. [Docs](openaf-11/README.md), [Docs](openaf-13/README.md), [Docs](openaf-15/README.md)
+- `openaf/openaf-ubi` – Red Hat UBI 9 minimal image with OpenJDK 21 and bash completion. [Docs](openaf-ubi/README.md)
+- `openaf/openaf-ubi-8` – UBI-based legacy build with OpenJDK 8 and auto-complete helpers. [Docs](openaf-ubi-8/README.md)
+- `openaf/openaf-j9` – Eclipse OpenJ9 JVM tuned for container workloads. [Docs](openaf-j9/README.md)
+- `openaf/openaf-deb` – Ubuntu rolling base with bundled Java 21 and bash. [Docs](openaf-deb/README.md)
 
-````sh
-docker pull openaf/openaf-console
-````
+**Application images**
+- `openaf/nattrmon` – Containerized nAttrMon with multiple configuration backends (local, S3, HTTP). [Docs](nAttrMon/README.md)
 
-There are two tags available:
-
-| Tag     | Description              |
-|---------|--------------------------|
-| latest  | The lastest stable build |
-| nightly | The nightly build        |
-| t8      | The developer version    |
-
-#### Example
-
-````sh
-docker run -ti openaf/openaf-console
-````
-
-[Building openaf-console](openaf-console)
-
-## oJob
-
-Based on the main openaf container facilitates the execution of an oJob executing /openaf/main.yaml be default.
-
-### Running
-
-````sh
-docker pull openaf/openaf-ojob
-````
-
-There are two tags available:
-
-| Tag     | Description              |
-|---------|--------------------------|
-| latest  | The lastest stable build |
-| nightly | The nightly build        |
-| t8      | The developer version    |
-
-[Building oJob](oJob)
-
-## oJobC
-
-Based on the main openaf container facilitates the execution of an oJob, with ojob-common opack pre-installed, executing /openaf/main.yaml be default.
-
-### Running
-
-````sh
-docker pull openaf/openaf-ojobc
-````
-
-There are two tags available:
-
-| Tag     | Description              |
-|---------|--------------------------|
-| latest  | The lastest stable build |
-| nightly | The nightly build        |
-| t8      | The developer version    |
-
-[Building oJobC](oJobC)
+**Utility images (under `openaf.io/`)**
+- `copy4git`, `OAFBuild`, `OAFDirector` – Build support utilities. [Overview](openaf.io/README.md)
+- `fbrowser` – Ephemeral file browser for mounted volumes. [Docs](openaf.io/fbrowser/README.md)
+- `oLB` – HAProxy-based container load balancer managed by OpenAF. [Docs](openaf.io/oLB/README.md)
+- `opackServer` – Lightweight private oPack server backed by a mounted volume. [Docs](openaf.io/opackServer/README.md)
