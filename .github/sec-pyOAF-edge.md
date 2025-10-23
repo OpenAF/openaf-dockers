@@ -8348,7 +8348,8 @@
 │                       │      │                   boundary. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
@@ -9067,7 +9068,8 @@
 │                       │      │                   boundary. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
@@ -10660,7 +10662,8 @@
 │                       │      │                   boundary. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
@@ -11159,7 +11162,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -11680,7 +11683,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -12201,7 +12204,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -12722,7 +12725,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -13127,26 +13130,28 @@
 │                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7604-1 
 │                       │      │                  ├ [19]: https://www.cisa.gov/known-exploited-vulnerabilities-
 │                       │      │                  │       catalog 
-│                       │      │                  ├ [20]: https://www.cve.org/CVERecord?id=CVE-2025-32463 
-│                       │      │                  ├ [21]: https://www.openwall.com/lists/oss-security/2025/06/3
+│                       │      │                  ├ [20]: https://www.cisa.gov/known-exploited-vulnerabilities-
+│                       │      │                  │       catalog?field_cve=CVE-2025-32463 
+│                       │      │                  ├ [21]: https://www.cve.org/CVERecord?id=CVE-2025-32463 
+│                       │      │                  ├ [22]: https://www.openwall.com/lists/oss-security/2025/06/3
 │                       │      │                  │       0/3 
-│                       │      │                  ├ [22]: https://www.secpod.com/blog/sudo-lpe-vulnerabilities-
+│                       │      │                  ├ [23]: https://www.secpod.com/blog/sudo-lpe-vulnerabilities-
 │                       │      │                  │       resolved-what-you-need-to-know-about-cve-2025-32462-a
 │                       │      │                  │       nd-cve-2025-32463/ 
-│                       │      │                  ├ [23]: https://www.stratascale.com/vulnerability-alert-CVE-2
+│                       │      │                  ├ [24]: https://www.stratascale.com/vulnerability-alert-CVE-2
 │                       │      │                  │       025-32463-sudo-chroot 
-│                       │      │                  ├ [24]: https://www.sudo.ws/releases/changelog/ 
-│                       │      │                  ├ [25]: https://www.sudo.ws/security/advisories/ 
-│                       │      │                  ├ [26]: https://www.sudo.ws/security/advisories/chroot_bug/ 
-│                       │      │                  ├ [27]: https://www.suse.com/security/cve/CVE-2025-32463.html 
-│                       │      │                  ├ [28]: https://www.suse.com/support/update/announcement/2025
+│                       │      │                  ├ [25]: https://www.sudo.ws/releases/changelog/ 
+│                       │      │                  ├ [26]: https://www.sudo.ws/security/advisories/ 
+│                       │      │                  ├ [27]: https://www.sudo.ws/security/advisories/chroot_bug/ 
+│                       │      │                  ├ [28]: https://www.suse.com/security/cve/CVE-2025-32463.html 
+│                       │      │                  ├ [29]: https://www.suse.com/support/update/announcement/2025
 │                       │      │                  │       /suse-su-202502177-1/ 
-│                       │      │                  ├ [29]: https://www.vicarius.io/vsociety/posts/cve-2025-32463
+│                       │      │                  ├ [30]: https://www.vicarius.io/vsociety/posts/cve-2025-32463
 │                       │      │                  │       -detect-sudo-vulnerability 
-│                       │      │                  ╰ [30]: https://www.vicarius.io/vsociety/posts/cve-2025-32463
+│                       │      │                  ╰ [31]: https://www.vicarius.io/vsociety/posts/cve-2025-32463
 │                       │      │                          -mitigate-sudo-vulnerability 
 │                       │      ├ PublishedDate   : 2025-06-30T21:15:30.257Z 
-│                       │      ╰ LastModifiedDate: 2025-09-30T13:30:30.213Z 
+│                       │      ╰ LastModifiedDate: 2025-10-21T23:16:59.997Z 
 │                       ╰ [64] ╭ VulnerabilityID : CVE-2025-31115 
 │                              ├ PkgID           : xz-libs@5.6.3-r0 
 │                              ├ PkgName         : xz-libs 
