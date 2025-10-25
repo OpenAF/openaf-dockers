@@ -34961,7 +34961,7 @@
     - https://security-tracker.debian.org/tracker/CVE-2025-5278
     - https://www.cve.org/CVERecord?id=CVE-2025-5278
     PublishedDate: '2025-05-27T21:15:23.197Z'
-    LastModifiedDate: '2025-05-29T18:15:24.29Z'
+    LastModifiedDate: '2025-10-22T20:15:37.32Z'
   - VulnerabilityID: CVE-2023-4504
     PkgID: cups-libs@2.3.3op2-33.el9_6.1.x86_64
     PkgName: cups-libs
@@ -35133,7 +35133,7 @@
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
-      photon: 2
+      photon: 1
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -35672,13 +35672,16 @@
     PublishedDate: '2025-03-19T20:15:20.14Z'
     LastModifiedDate: '2025-10-16T16:53:07.557Z'
   - VulnerabilityID: CVE-2025-53057
+    VendorIDs:
+    - RHSA-2025:18824
     PkgID: java-21-openjdk-headless@21.0.8.0.9-1.el9.x86_64
     PkgName: java-21-openjdk-headless
     PkgIdentifier:
       PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.8.0.9-1.el9?arch=x86_64&distro=redhat-9.6&epoch=1
       UID: ae9ab323042f9f5f
     InstalledVersion: 1:21.0.8.0.9-1.el9
-    Status: affected
+    FixedVersion: 1:21.0.9.0.10-1.el9
+    Status: fixed
     Layer:
       Digest: sha256:f7e6c245b3951fabccb1392499a2a3bdb81c682823f7d98598d63fd71484b12d
       DiffID: sha256:eb15d08491f3d1dc55049576a8c179f4b27b3c177023ebac39b6f899d445db45
@@ -35687,6 +35690,8 @@
     Title: 'openjdk: Enhance certificate handling (Oracle CPU 2025-10)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u461, 8u461-perf, 11.0.28, 17.0.16, 21.0.8, 25; Oracle GraalVM for JDK: 17.0.16 and  21.0.8; Oracle GraalVM Enterprise Edition: 21.3.15. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.9 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N).'
     Severity: MEDIUM
+    CweIDs:
+    - CWE-284
     VendorSeverity:
       redhat: 2
     CVSS:
@@ -35699,15 +35704,18 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-53057
     - https://www.oracle.com/security-alerts/cpuoct2025.html
     PublishedDate: '2025-10-21T20:20:45.24Z'
-    LastModifiedDate: '2025-10-21T20:20:45.24Z'
+    LastModifiedDate: '2025-10-22T21:13:03.753Z'
   - VulnerabilityID: CVE-2025-53066
+    VendorIDs:
+    - RHSA-2025:18824
     PkgID: java-21-openjdk-headless@21.0.8.0.9-1.el9.x86_64
     PkgName: java-21-openjdk-headless
     PkgIdentifier:
       PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.8.0.9-1.el9?arch=x86_64&distro=redhat-9.6&epoch=1
       UID: ae9ab323042f9f5f
     InstalledVersion: 1:21.0.8.0.9-1.el9
-    Status: affected
+    FixedVersion: 1:21.0.9.0.10-1.el9
+    Status: fixed
     Layer:
       Digest: sha256:f7e6c245b3951fabccb1392499a2a3bdb81c682823f7d98598d63fd71484b12d
       DiffID: sha256:eb15d08491f3d1dc55049576a8c179f4b27b3c177023ebac39b6f899d445db45
@@ -35716,6 +35724,8 @@
     Title: 'openjdk: Enhance Path Factories (Oracle CPU 2025-10)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JAXP).  Supported versions that are affected are Oracle Java SE: 8u461, 8u461-perf, 11.0.28, 17.0.16, 21.0.8, 25; Oracle GraalVM for JDK: 17.0.16 and  21.0.8; Oracle GraalVM Enterprise Edition: 21.3.15. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).'
     Severity: MEDIUM
+    CweIDs:
+    - CWE-200
     VendorSeverity:
       redhat: 2
     CVSS:
@@ -35728,15 +35738,18 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-53066
     - https://www.oracle.com/security-alerts/cpuoct2025.html
     PublishedDate: '2025-10-21T20:20:47.177Z'
-    LastModifiedDate: '2025-10-21T20:20:47.177Z'
+    LastModifiedDate: '2025-10-22T21:13:03.753Z'
   - VulnerabilityID: CVE-2025-61748
+    VendorIDs:
+    - RHSA-2025:18824
     PkgID: java-21-openjdk-headless@21.0.8.0.9-1.el9.x86_64
     PkgName: java-21-openjdk-headless
     PkgIdentifier:
       PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.8.0.9-1.el9?arch=x86_64&distro=redhat-9.6&epoch=1
       UID: ae9ab323042f9f5f
     InstalledVersion: 1:21.0.8.0.9-1.el9
-    Status: affected
+    FixedVersion: 1:21.0.9.0.10-1.el9
+    Status: fixed
     Layer:
       Digest: sha256:f7e6c245b3951fabccb1392499a2a3bdb81c682823f7d98598d63fd71484b12d
       DiffID: sha256:eb15d08491f3d1dc55049576a8c179f4b27b3c177023ebac39b6f899d445db45
@@ -35745,6 +35758,8 @@
     Title: 'openjdk: Enhance String handling (Oracle CPU 2025-10)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 21.0.8 and  25; Oracle GraalVM for JDK: 21.0.8; Oracle GraalVM Enterprise Edition: 21.3.15. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
     Severity: MEDIUM
+    CweIDs:
+    - CWE-284
     VendorSeverity:
       redhat: 2
     CVSS:
@@ -35757,7 +35772,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-61748
     - https://www.oracle.com/security-alerts/cpuoct2025.html
     PublishedDate: '2025-10-21T20:20:51.057Z'
-    LastModifiedDate: '2025-10-21T20:20:51.057Z'
+    LastModifiedDate: '2025-10-22T21:13:03.753Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-6.el9_6.x86_64
     PkgName: libarchive
@@ -36080,7 +36095,7 @@
       azure: 3
       cbl-mariner: 3
       oracle-oval: 3
-      photon: 2
+      photon: 1
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -36670,6 +36685,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6170
     PublishedDate: '2025-06-16T16:15:20.43Z'
     LastModifiedDate: '2025-08-12T13:04:06.117Z'
+  - VulnerabilityID: CVE-2025-62813
+    PkgID: lz4-libs@1.9.3-5.el9.x86_64
+    PkgName: lz4-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/lz4-libs@1.9.3-5.el9?arch=x86_64&distro=redhat-9.6
+      UID: 28358c9cde7f2a00
+    InstalledVersion: 1.9.3-5.el9
+    Status: affected
+    Layer:
+      Digest: sha256:f7e6c245b3951fabccb1392499a2a3bdb81c682823f7d98598d63fd71484b12d
+      DiffID: sha256:eb15d08491f3d1dc55049576a8c179f4b27b3c177023ebac39b6f899d445db45
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-62813
+    Title: 'lz4: LZ4 null handling error'
+    Description: LZ4 through 1.10.0 allows attackers to cause a denial of service (application crash) or possibly have unspecified other impact when the application processes untrusted LZ4 frames. For example, LZ4F_createCDict_advanced in lib/lz4frame.c mishandles NULL checks.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-158
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-62813
+    - https://github.com/lz4/lz4/commit/f64efec011c058bd70348576438abac222fe6c82
+    - https://github.com/lz4/lz4/pull/1593
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-62813
+    - https://www.cve.org/CVERecord?id=CVE-2025-62813
+    PublishedDate: '2025-10-23T04:17:26.35Z'
+    LastModifiedDate: '2025-10-23T04:17:26.35Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: ncurses-base@6.2-10.20210508.el9_6.2.noarch
     PkgName: ncurses-base
@@ -37263,6 +37310,7 @@
     VendorSeverity:
       amazon: 2
       azure: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -37598,6 +37646,7 @@
     - CWE-125
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -37656,6 +37705,7 @@
     VendorSeverity:
       amazon: 2
       azure: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -37991,6 +38041,7 @@
     - CWE-125
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -38228,7 +38279,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -38423,7 +38474,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -38618,7 +38669,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
