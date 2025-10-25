@@ -8198,6 +8198,7 @@
 │                       │      │                  ╰ [1]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ azure : 3 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
@@ -8349,6 +8350,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N
@@ -8918,6 +8920,7 @@
 │                       │      │                  ╰ [1]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ azure : 3 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
@@ -9069,6 +9072,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N
@@ -9318,7 +9322,7 @@
 │                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-50106 
 │                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2025-10873.html 
-│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10867 
+│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10873 
 │                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-30749.html 
 │                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-10873.html 
 │                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-30749 
@@ -9407,7 +9411,7 @@
 │                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-50106 
 │                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2025-10873.html 
-│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10867 
+│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10873 
 │                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-50059.html 
 │                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-10873.html 
 │                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-50059 
@@ -9490,7 +9494,7 @@
 │                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-50106 
 │                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2025-10873.html 
-│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10867 
+│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10873 
 │                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-50106.html 
 │                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-10873.html 
 │                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-50106 
@@ -9760,7 +9764,7 @@
 │                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-50106 
 │                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2025-10873.html 
-│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10867 
+│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10873 
 │                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-30754.html 
 │                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-10873.html 
 │                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-30754 
@@ -10004,7 +10008,7 @@
 │                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-50106 
 │                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2025-10873.html 
-│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10867 
+│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10873 
 │                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-30749.html 
 │                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-10873.html 
 │                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-30749 
@@ -10093,7 +10097,7 @@
 │                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-50106 
 │                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2025-10873.html 
-│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10867 
+│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10873 
 │                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-50059.html 
 │                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-10873.html 
 │                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-50059 
@@ -10176,7 +10180,7 @@
 │                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-50106 
 │                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2025-10873.html 
-│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10867 
+│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10873 
 │                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-50106.html 
 │                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-10873.html 
 │                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-50106 
@@ -10446,7 +10450,7 @@
 │                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-50106 
 │                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2025-10873.html 
-│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10867 
+│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10873 
 │                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-30754.html 
 │                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-10873.html 
 │                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-30754 
@@ -10512,6 +10516,7 @@
 │                       │      │                  ╰ [1]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ azure : 3 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
@@ -10663,6 +10668,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N
@@ -10766,7 +10772,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -10879,7 +10885,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -10991,7 +10997,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -11103,7 +11109,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -11162,7 +11168,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -11283,7 +11289,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -11397,7 +11403,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -11510,7 +11516,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -11623,7 +11629,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -11683,7 +11689,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -11804,7 +11810,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -11918,7 +11924,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -12031,7 +12037,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -12144,7 +12150,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -12204,7 +12210,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -12325,7 +12331,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -12439,7 +12445,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -12552,7 +12558,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -12665,7 +12671,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -12725,7 +12731,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -12872,7 +12878,7 @@
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6965 
 │                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-11992.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:12010 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:11933 
 │                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-6965.html 
 │                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-14101.html 
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-6965 
@@ -13036,32 +13042,35 @@
 │                       │      │                  ├ [3] : https://bugs.gentoo.org/show_bug.cgi?id=CVE-2025-32462 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2374692 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2374692 
-│                       │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2374693 
+│                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-32462 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2025-9978.html 
-│                       │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2025:10110 
-│                       │      │                  ├ [9] : https://explore.alas.aws.amazon.com/CVE-2025-32462.html 
-│                       │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2025-32462.html 
-│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-9978.html 
-│                       │      │                  ├ [12]: https://lists.debian.org/debian-security-announce/202
+│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-32463 
+│                       │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2025-9978.html 
+│                       │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2025:11537 
+│                       │      │                  ├ [11]: https://explore.alas.aws.amazon.com/CVE-2025-32462.html 
+│                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-32462.html 
+│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-9978.html 
+│                       │      │                  ├ [14]: https://lists.debian.org/debian-security-announce/202
 │                       │      │                  │       5/msg00118.html 
-│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-32462 
-│                       │      │                  ├ [14]: https://security-tracker.debian.org/tracker/CVE-2025-
+│                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-32462 
+│                       │      │                  ├ [16]: https://security-tracker.debian.org/tracker/CVE-2025-
 │                       │      │                  │       32462 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7604-1 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7604-2 
-│                       │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2025-32462 
-│                       │      │                  ├ [18]: https://www.openwall.com/lists/oss-security/2025/06/3
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7604-1 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7604-2 
+│                       │      │                  ├ [19]: https://www.cve.org/CVERecord?id=CVE-2025-32462 
+│                       │      │                  ├ [20]: https://www.openwall.com/lists/oss-security/2025/06/3
 │                       │      │                  │       0/2 
-│                       │      │                  ├ [19]: https://www.secpod.com/blog/sudo-lpe-vulnerabilities-
+│                       │      │                  ├ [21]: https://www.secpod.com/blog/sudo-lpe-vulnerabilities-
 │                       │      │                  │       resolved-what-you-need-to-know-about-cve-2025-32462-a
 │                       │      │                  │       nd-cve-2025-32463/ 
-│                       │      │                  ├ [20]: https://www.stratascale.com/vulnerability-alert-CVE-2
+│                       │      │                  ├ [22]: https://www.stratascale.com/vulnerability-alert-CVE-2
 │                       │      │                  │       025-32462-sudo-host 
-│                       │      │                  ├ [21]: https://www.sudo.ws/releases/changelog/ 
-│                       │      │                  ├ [22]: https://www.sudo.ws/security/advisories/ 
-│                       │      │                  ├ [23]: https://www.sudo.ws/security/advisories/host_any/ 
-│                       │      │                  ╰ [24]: https://www.suse.com/security/cve/CVE-2025-32462.html 
+│                       │      │                  ├ [23]: https://www.sudo.ws/releases/changelog/ 
+│                       │      │                  ├ [24]: https://www.sudo.ws/security/advisories/ 
+│                       │      │                  ├ [25]: https://www.sudo.ws/security/advisories/host_any/ 
+│                       │      │                  ╰ [26]: https://www.suse.com/security/cve/CVE-2025-32462.html 
 │                       │      ├ PublishedDate   : 2025-06-30T21:15:30.08Z 
 │                       │      ╰ LastModifiedDate: 2025-07-25T15:15:26.497Z 
 │                       ├ [63] ╭ VulnerabilityID : CVE-2025-32463 
