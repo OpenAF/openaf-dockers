@@ -7979,7 +7979,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2383146
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8058
     - https://errata.almalinux.org/8/ALSA-2025-12980.html
-    - https://errata.rockylinux.org/RLSA-2025:12980
+    - https://errata.rockylinux.org/RLSA-2025:13240
     - https://linux.oracle.com/cve/CVE-2025-8058.html
     - https://linux.oracle.com/errata/ELSA-2025-20595.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
@@ -8037,7 +8037,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2383146
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-8058
     - https://errata.almalinux.org/8/ALSA-2025-12980.html
-    - https://errata.rockylinux.org/RLSA-2025:12980
+    - https://errata.rockylinux.org/RLSA-2025:13240
     - https://linux.oracle.com/cve/CVE-2025-8058.html
     - https://linux.oracle.com/errata/ELSA-2025-20595.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8058
@@ -8756,6 +8756,7 @@
     VendorSeverity:
       amazon: 2
       azure: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -8888,6 +8889,7 @@
     - CWE-125
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -8990,6 +8992,7 @@
     VendorSeverity:
       amazon: 2
       azure: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -9122,6 +9125,7 @@
     - CWE-125
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -9185,6 +9189,7 @@
     VendorSeverity:
       amazon: 2
       azure: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -9317,6 +9322,7 @@
     - CWE-125
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -9401,7 +9407,7 @@
     - CWE-689
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -9428,7 +9434,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369407
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-40909
     - https://errata.almalinux.org/8/ALSA-2025-11805.html
-    - https://errata.rockylinux.org/RLSA-2025:11805
+    - https://errata.rockylinux.org/RLSA-2025:12056
     - https://github.com/Perl/perl5/commit/11a11ecf4bea72b17d250cfb43c897be1341861e
     - https://github.com/Perl/perl5/commit/918bfff86ca8d6d4e4ec5b30994451e0bd74aba9.patch
     - https://github.com/Perl/perl5/issues/10387
