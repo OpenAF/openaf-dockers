@@ -35089,6 +35089,7 @@
       it on an insecure host should not be okay.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -35408,6 +35409,7 @@
     - CWE-770
     VendorSeverity:
       amazon: 3
+      azure: 2
       cbl-mariner: 2
       photon: 3
       redhat: 3
@@ -35578,6 +35580,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      azure: 1
       cbl-mariner: 1
       redhat: 1
     CVSS:
@@ -35693,6 +35696,7 @@
     CweIDs:
     - CWE-284
     VendorSeverity:
+      amazon: 2
       oracle-oval: 2
       redhat: 2
     CVSS:
@@ -35707,7 +35711,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-53057
     - https://www.oracle.com/security-alerts/cpuoct2025.html
     PublishedDate: '2025-10-21T20:20:45.24Z'
-    LastModifiedDate: '2025-10-22T21:13:03.753Z'
+    LastModifiedDate: '2025-10-28T16:15:36.53Z'
   - VulnerabilityID: CVE-2025-53066
     VendorIDs:
     - RHSA-2025:18824
@@ -35730,6 +35734,7 @@
     CweIDs:
     - CWE-200
     VendorSeverity:
+      amazon: 2
       oracle-oval: 2
       redhat: 2
     CVSS:
@@ -35744,7 +35749,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-53066
     - https://www.oracle.com/security-alerts/cpuoct2025.html
     PublishedDate: '2025-10-21T20:20:47.177Z'
-    LastModifiedDate: '2025-10-22T21:13:03.753Z'
+    LastModifiedDate: '2025-10-28T19:15:17.153Z'
   - VulnerabilityID: CVE-2025-61748
     VendorIDs:
     - RHSA-2025:18824
@@ -35767,6 +35772,7 @@
     CweIDs:
     - CWE-284
     VendorSeverity:
+      amazon: 2
       oracle-oval: 2
       redhat: 2
     CVSS:
@@ -35781,7 +35787,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-61748
     - https://www.oracle.com/security-alerts/cpuoct2025.html
     PublishedDate: '2025-10-21T20:20:51.057Z'
-    LastModifiedDate: '2025-10-22T21:13:03.753Z'
+    LastModifiedDate: '2025-10-28T19:11:56.063Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-6.el9_6.x86_64
     PkgName: libarchive
@@ -36060,6 +36066,7 @@
       it on an insecure host should not be okay.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -36694,38 +36701,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6170
     PublishedDate: '2025-06-16T16:15:20.43Z'
     LastModifiedDate: '2025-08-12T13:04:06.117Z'
-  - VulnerabilityID: CVE-2025-62813
-    PkgID: lz4-libs@1.9.3-5.el9.x86_64
-    PkgName: lz4-libs
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/lz4-libs@1.9.3-5.el9?arch=x86_64&distro=redhat-9.6
-      UID: 28358c9cde7f2a00
-    InstalledVersion: 1.9.3-5.el9
-    Status: affected
-    Layer:
-      Digest: sha256:f7e6c245b3951fabccb1392499a2a3bdb81c682823f7d98598d63fd71484b12d
-      DiffID: sha256:eb15d08491f3d1dc55049576a8c179f4b27b3c177023ebac39b6f899d445db45
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-62813
-    Title: 'lz4: LZ4 null handling error'
-    Description: LZ4 through 1.10.0 allows attackers to cause a denial of service (application crash) or possibly have unspecified other impact when the application processes untrusted LZ4 frames. For example, LZ4F_createCDict_advanced in lib/lz4frame.c mishandles NULL checks.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-158
-    VendorSeverity:
-      redhat: 2
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
-        V3Score: 5.9
-    References:
-    - https://access.redhat.com/security/cve/CVE-2025-62813
-    - https://github.com/lz4/lz4/commit/f64efec011c058bd70348576438abac222fe6c82
-    - https://github.com/lz4/lz4/pull/1593
-    - https://nvd.nist.gov/vuln/detail/CVE-2025-62813
-    - https://www.cve.org/CVERecord?id=CVE-2025-62813
-    PublishedDate: '2025-10-23T04:17:26.35Z'
-    LastModifiedDate: '2025-10-23T04:17:26.35Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: ncurses-base@6.2-10.20210508.el9_6.2.noarch
     PkgName: ncurses-base
@@ -38288,7 +38263,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -38397,6 +38372,8 @@
     CweIDs:
     - CWE-1285
     VendorSeverity:
+      amazon: 2
+      azure: 2
       bitnami: 2
       redhat: 2
     CVSS:
@@ -38408,6 +38385,8 @@
         V3Score: 4.3
     References:
     - https://access.redhat.com/security/cve/CVE-2025-8291
+    - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
+    - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
     - https://github.com/python/cpython/commit/162997bb70e067668c039700141770687bc8f267
     - https://github.com/python/cpython/commit/1d29afb0d6218aa8fb5e1e4a6133a4778d89bb46
     - https://github.com/python/cpython/commit/333d4a6f4967d3ace91492a39ededbcf3faa76a6
@@ -38421,7 +38400,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8291
     - https://www.cve.org/CVERecord?id=CVE-2025-8291
     PublishedDate: '2025-10-07T18:16:00.317Z'
-    LastModifiedDate: '2025-10-15T16:15:36.573Z'
+    LastModifiedDate: '2025-10-29T16:15:35.133Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python-unversioned-command@3.9.21-2.el9_6.2.noarch
     PkgName: python-unversioned-command
@@ -38483,7 +38462,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -38592,6 +38571,8 @@
     CweIDs:
     - CWE-1285
     VendorSeverity:
+      amazon: 2
+      azure: 2
       bitnami: 2
       redhat: 2
     CVSS:
@@ -38603,6 +38584,8 @@
         V3Score: 4.3
     References:
     - https://access.redhat.com/security/cve/CVE-2025-8291
+    - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
+    - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
     - https://github.com/python/cpython/commit/162997bb70e067668c039700141770687bc8f267
     - https://github.com/python/cpython/commit/1d29afb0d6218aa8fb5e1e4a6133a4778d89bb46
     - https://github.com/python/cpython/commit/333d4a6f4967d3ace91492a39ededbcf3faa76a6
@@ -38616,7 +38599,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8291
     - https://www.cve.org/CVERecord?id=CVE-2025-8291
     PublishedDate: '2025-10-07T18:16:00.317Z'
-    LastModifiedDate: '2025-10-15T16:15:36.573Z'
+    LastModifiedDate: '2025-10-29T16:15:35.133Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3@3.9.21-2.el9_6.2.x86_64
     PkgName: python3
@@ -38678,7 +38661,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -38787,6 +38770,8 @@
     CweIDs:
     - CWE-1285
     VendorSeverity:
+      amazon: 2
+      azure: 2
       bitnami: 2
       redhat: 2
     CVSS:
@@ -38798,6 +38783,8 @@
         V3Score: 4.3
     References:
     - https://access.redhat.com/security/cve/CVE-2025-8291
+    - https://github.com/google/security-research/security/advisories/GHSA-hhv7-p4pg-wm6p
+    - https://github.com/psf/advisory-database/blob/main/advisories/python/PSF-2025-12.json
     - https://github.com/python/cpython/commit/162997bb70e067668c039700141770687bc8f267
     - https://github.com/python/cpython/commit/1d29afb0d6218aa8fb5e1e4a6133a4778d89bb46
     - https://github.com/python/cpython/commit/333d4a6f4967d3ace91492a39ededbcf3faa76a6
@@ -38811,7 +38798,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8291
     - https://www.cve.org/CVERecord?id=CVE-2025-8291
     PublishedDate: '2025-10-07T18:16:00.317Z'
-    LastModifiedDate: '2025-10-15T16:15:36.573Z'
+    LastModifiedDate: '2025-10-29T16:15:35.133Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3-libs@3.9.21-2.el9_6.2.x86_64
     PkgName: python3-libs
