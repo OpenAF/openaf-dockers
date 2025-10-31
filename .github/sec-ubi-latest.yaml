@@ -35696,6 +35696,7 @@
     CweIDs:
     - CWE-284
     VendorSeverity:
+      alma: 2
       amazon: 2
       oracle-oval: 2
       redhat: 2
@@ -35704,7 +35705,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2025:18824
     - https://access.redhat.com/security/cve/CVE-2025-53057
+    - https://errata.almalinux.org/8/ALSA-2025-18824.html
     - https://linux.oracle.com/cve/CVE-2025-53057.html
     - https://linux.oracle.com/errata/ELSA-2025-18824.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-53057
@@ -35734,6 +35737,7 @@
     CweIDs:
     - CWE-200
     VendorSeverity:
+      alma: 2
       amazon: 2
       oracle-oval: 2
       redhat: 2
@@ -35742,7 +35746,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L
         V3Score: 4.8
     References:
+    - https://access.redhat.com/errata/RHSA-2025:18824
     - https://access.redhat.com/security/cve/CVE-2025-53066
+    - https://errata.almalinux.org/8/ALSA-2025-18824.html
     - https://linux.oracle.com/cve/CVE-2025-53066.html
     - https://linux.oracle.com/errata/ELSA-2025-18824.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-53066
@@ -35772,6 +35778,7 @@
     CweIDs:
     - CWE-284
     VendorSeverity:
+      alma: 2
       amazon: 2
       oracle-oval: 2
       redhat: 2
@@ -35780,7 +35787,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
     References:
+    - https://access.redhat.com/errata/RHSA-2025:18824
     - https://access.redhat.com/security/cve/CVE-2025-61748
+    - https://errata.almalinux.org/8/ALSA-2025-18824.html
     - https://linux.oracle.com/cve/CVE-2025-61748.html
     - https://linux.oracle.com/errata/ELSA-2025-18824.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61748
