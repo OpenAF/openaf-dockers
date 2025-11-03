@@ -10244,22 +10244,23 @@
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                              │                           │           /A:L 
 │                              │                           ╰ V3Score : 5.6 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-45582 
-│                              │                  ├ [1]: https://github.com/i900008/vulndb/blob/main/Gnu_tar_vu
+│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/11/01/6 
+│                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-45582 
+│                              │                  ├ [2]: https://github.com/i900008/vulndb/blob/main/Gnu_tar_vu
 │                              │                  │      ln.md 
-│                              │                  ├ [2]: https://lists.gnu.org/archive/html/bug-tar/2025-08/msg
+│                              │                  ├ [3]: https://lists.gnu.org/archive/html/bug-tar/2025-08/msg
 │                              │                  │      00012.html 
-│                              │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-45582 
-│                              │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2025-45582 
-│                              │                  ├ [5]: https://www.gnu.org/software/tar/ 
-│                              │                  ├ [6]: https://www.gnu.org/software/tar/manual/html_node/Inte
-│                              │                  │      grity.html 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-45582 
+│                              │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-45582 
+│                              │                  ├ [6]: https://www.gnu.org/software/tar/ 
 │                              │                  ├ [7]: https://www.gnu.org/software/tar/manual/html_node/Inte
+│                              │                  │      grity.html 
+│                              │                  ├ [8]: https://www.gnu.org/software/tar/manual/html_node/Inte
 │                              │                  │      grity.html#Integrity 
-│                              │                  ╰ [8]: https://www.gnu.org/software/tar/manual/html_node/Secu
+│                              │                  ╰ [9]: https://www.gnu.org/software/tar/manual/html_node/Secu
 │                              │                         rity-rules-of-thumb.html 
 │                              ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
-│                              ╰ LastModifiedDate: 2025-08-18T04:15:36.743Z 
+│                              ╰ LastModifiedDate: 2025-11-02T01:15:32.307Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 
