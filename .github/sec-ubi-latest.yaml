@@ -35699,6 +35699,7 @@
       alma: 2
       amazon: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
     CVSS:
       redhat:
@@ -35707,7 +35708,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:18824
     - https://access.redhat.com/security/cve/CVE-2025-53057
-    - https://errata.almalinux.org/8/ALSA-2025-18824.html
+    - https://errata.almalinux.org/9/ALSA-2025-18824.html
     - https://linux.oracle.com/cve/CVE-2025-53057.html
     - https://linux.oracle.com/errata/ELSA-2025-18824.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-53057
@@ -35740,6 +35741,7 @@
       alma: 2
       amazon: 2
       oracle-oval: 2
+      photon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -35748,7 +35750,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:18824
     - https://access.redhat.com/security/cve/CVE-2025-53066
-    - https://errata.almalinux.org/8/ALSA-2025-18824.html
+    - https://errata.almalinux.org/9/ALSA-2025-18824.html
     - https://linux.oracle.com/cve/CVE-2025-53066.html
     - https://linux.oracle.com/errata/ELSA-2025-18824.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-53066
@@ -35781,6 +35783,7 @@
       alma: 2
       amazon: 2
       oracle-oval: 2
+      photon: 1
       redhat: 2
     CVSS:
       redhat:
@@ -35789,7 +35792,7 @@
     References:
     - https://access.redhat.com/errata/RHSA-2025:18824
     - https://access.redhat.com/security/cve/CVE-2025-61748
-    - https://errata.almalinux.org/8/ALSA-2025-18824.html
+    - https://errata.almalinux.org/9/ALSA-2025-18824.html
     - https://linux.oracle.com/cve/CVE-2025-61748.html
     - https://linux.oracle.com/errata/ELSA-2025-18824.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-61748
@@ -39162,6 +39165,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 5.6
     References:
+    - http://www.openwall.com/lists/oss-security/2025/11/01/6
     - https://access.redhat.com/security/cve/CVE-2025-45582
     - https://github.com/i900008/vulndb/blob/main/Gnu_tar_vuln.md
     - https://lists.gnu.org/archive/html/bug-tar/2025-08/msg00012.html
@@ -39172,7 +39176,7 @@
     - https://www.gnu.org/software/tar/manual/html_node/Integrity.html#Integrity
     - https://www.gnu.org/software/tar/manual/html_node/Security-rules-of-thumb.html
     PublishedDate: '2025-07-11T17:15:37.183Z'
-    LastModifiedDate: '2025-08-18T04:15:36.743Z'
+    LastModifiedDate: '2025-11-02T01:15:32.307Z'
   - VulnerabilityID: CVE-2023-39804
     PkgID: tar@1.34-7.el9.x86_64
     PkgName: tar
