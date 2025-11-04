@@ -10147,7 +10147,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-426 
 │                       │      │                  ╰ [1]: CWE-689 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
