@@ -5496,7 +5496,9 @@
       served to all users of that proxy.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -5504,6 +5506,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.8
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/10/2
+    - http://www.openwall.com/lists/oss-security/2025/09/10/3
     - https://access.redhat.com/security/cve/CVE-2025-10148
     - https://curl.se/docs/CVE-2025-10148.html
     - https://curl.se/docs/CVE-2025-10148.json
@@ -5511,7 +5515,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-10148
     - https://www.cve.org/CVERecord?id=CVE-2025-10148
     PublishedDate: '2025-09-12T06:15:40.02Z'
-    LastModifiedDate: '2025-09-15T15:21:42.937Z'
+    LastModifiedDate: '2025-11-04T22:16:05.137Z'
   - VulnerabilityID: CVE-2025-4947
     PkgID: curl@8.12.1-r1
     PkgName: curl
@@ -5536,6 +5540,7 @@
     - CWE-295
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 2
     CVSS:
       redhat:
@@ -5575,6 +5580,7 @@
     - CWE-295
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 2
     CVSS:
       redhat:
@@ -5840,6 +5846,7 @@
       it on an insecure host should not be okay.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -5847,6 +5854,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/10/1
     - https://access.redhat.com/security/cve/CVE-2025-9086
     - https://curl.se/docs/CVE-2025-9086.html
     - https://curl.se/docs/CVE-2025-9086.json
@@ -5855,7 +5863,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2025-09-15T15:21:42.937Z'
+    LastModifiedDate: '2025-11-04T22:16:45.19Z'
   - VulnerabilityID: CVE-2025-31344
     PkgID: giflib@5.2.2-r0
     PkgName: giflib
@@ -5949,6 +5957,7 @@
     VendorSeverity:
       amazon: 2
       azure: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -5956,6 +5965,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 5.6
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/30/5
     - https://access.redhat.com/security/cve/CVE-2025-9230
     - https://github.com/openssl/openssl/commit/5965ea5dd6960f36d8b7f74f8eac67a8eb8f2b45
     - https://github.com/openssl/openssl/commit/9e91358f365dee6c446dcdcdb01c04d2743fd280
@@ -5964,12 +5974,13 @@
     - https://github.com/openssl/openssl/commit/bae259a211ada6315dc50900686daaaaaa55f482
     - https://github.openssl.org/openssl/extended-releases/commit/c2b96348bfa662f25f4fabf81958ae822063dae3
     - https://github.openssl.org/openssl/extended-releases/commit/dfbaf161d8dafc1132dd88cd48ad990ed9b4c8ba
+    - https://lists.debian.org/debian-lts-announce/2025/10/msg00001.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9230
     - https://openssl-library.org/news/secadv/20250930.txt
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9230
     PublishedDate: '2025-09-30T14:15:41.05Z'
-    LastModifiedDate: '2025-10-02T19:12:17.16Z'
+    LastModifiedDate: '2025-11-04T22:16:45.36Z'
   - VulnerabilityID: CVE-2025-9231
     PkgID: libcrypto3@3.3.3-r0
     PkgName: libcrypto3
@@ -6020,6 +6031,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/30/5
     - https://access.redhat.com/security/cve/CVE-2025-9231
     - https://github.com/openssl/openssl/commit/567f64386e43683888212226824b6a179885a0fe
     - https://github.com/openssl/openssl/commit/cba616c26ac8e7b37de5e77762e505ba5ca51698
@@ -6030,7 +6042,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9231
     PublishedDate: '2025-09-30T14:15:41.19Z'
-    LastModifiedDate: '2025-10-02T19:12:17.16Z'
+    LastModifiedDate: '2025-11-04T22:16:45.49Z'
   - VulnerabilityID: CVE-2025-9232
     PkgID: libcrypto3@3.3.3-r0
     PkgName: libcrypto3
@@ -6079,6 +6091,7 @@
     - CWE-125
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -6086,6 +6099,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L
         V3Score: 3.1
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/30/5
     - https://access.redhat.com/security/cve/CVE-2025-9232
     - https://github.com/openssl/openssl/commit/2b4ec20e47959170422922eaff25346d362dcb35
     - https://github.com/openssl/openssl/commit/654dc11d23468a74fc8ea4672b702dd3feb7be4b
@@ -6097,7 +6111,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
-    LastModifiedDate: '2025-10-02T19:12:17.16Z'
+    LastModifiedDate: '2025-11-04T22:16:45.63Z'
   - VulnerabilityID: CVE-2025-10148
     PkgID: libcurl@8.12.1-r1
     PkgName: libcurl
@@ -6128,7 +6142,9 @@
       served to all users of that proxy.
     Severity: MEDIUM
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -6136,6 +6152,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.8
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/10/2
+    - http://www.openwall.com/lists/oss-security/2025/09/10/3
     - https://access.redhat.com/security/cve/CVE-2025-10148
     - https://curl.se/docs/CVE-2025-10148.html
     - https://curl.se/docs/CVE-2025-10148.json
@@ -6143,7 +6161,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-10148
     - https://www.cve.org/CVERecord?id=CVE-2025-10148
     PublishedDate: '2025-09-12T06:15:40.02Z'
-    LastModifiedDate: '2025-09-15T15:21:42.937Z'
+    LastModifiedDate: '2025-11-04T22:16:05.137Z'
   - VulnerabilityID: CVE-2025-4947
     PkgID: libcurl@8.12.1-r1
     PkgName: libcurl
@@ -6168,6 +6186,7 @@
     - CWE-295
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 2
     CVSS:
       redhat:
@@ -6207,6 +6226,7 @@
     - CWE-295
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 2
     CVSS:
       redhat:
@@ -6472,6 +6492,7 @@
       it on an insecure host should not be okay.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -6479,6 +6500,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/10/1
     - https://access.redhat.com/security/cve/CVE-2025-9086
     - https://curl.se/docs/CVE-2025-9086.html
     - https://curl.se/docs/CVE-2025-9086.json
@@ -6487,7 +6509,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2025-09-15T15:21:42.937Z'
+    LastModifiedDate: '2025-11-04T22:16:45.19Z'
   - VulnerabilityID: CVE-2025-59375
     PkgID: libexpat@2.7.0-r0
     PkgName: libexpat
@@ -6512,7 +6534,9 @@
     - CWE-770
     VendorSeverity:
       amazon: 3
+      azure: 2
       cbl-mariner: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -6520,16 +6544,19 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/16/2
     - https://access.redhat.com/security/cve/CVE-2025-59375
     - https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74
     - https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes
     - https://github.com/libexpat/libexpat/issues/1018
     - https://github.com/libexpat/libexpat/pull/1034
     - https://issues.oss-fuzz.com/issues/439133977
+    - https://linux.oracle.com/cve/CVE-2025-59375.html
+    - https://linux.oracle.com/errata/ELSA-2025-19403.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-59375
     - https://www.cve.org/CVERecord?id=CVE-2025-59375
     PublishedDate: '2025-09-15T03:15:40.92Z'
-    LastModifiedDate: '2025-10-17T19:26:36.673Z'
+    LastModifiedDate: '2025-11-04T22:16:34.927Z'
   - VulnerabilityID: CVE-2025-9230
     PkgID: libssl3@3.3.3-r0
     PkgName: libssl3
@@ -6573,6 +6600,7 @@
     VendorSeverity:
       amazon: 2
       azure: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -6580,6 +6608,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 5.6
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/30/5
     - https://access.redhat.com/security/cve/CVE-2025-9230
     - https://github.com/openssl/openssl/commit/5965ea5dd6960f36d8b7f74f8eac67a8eb8f2b45
     - https://github.com/openssl/openssl/commit/9e91358f365dee6c446dcdcdb01c04d2743fd280
@@ -6588,12 +6617,13 @@
     - https://github.com/openssl/openssl/commit/bae259a211ada6315dc50900686daaaaaa55f482
     - https://github.openssl.org/openssl/extended-releases/commit/c2b96348bfa662f25f4fabf81958ae822063dae3
     - https://github.openssl.org/openssl/extended-releases/commit/dfbaf161d8dafc1132dd88cd48ad990ed9b4c8ba
+    - https://lists.debian.org/debian-lts-announce/2025/10/msg00001.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9230
     - https://openssl-library.org/news/secadv/20250930.txt
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9230
     PublishedDate: '2025-09-30T14:15:41.05Z'
-    LastModifiedDate: '2025-10-02T19:12:17.16Z'
+    LastModifiedDate: '2025-11-04T22:16:45.36Z'
   - VulnerabilityID: CVE-2025-9231
     PkgID: libssl3@3.3.3-r0
     PkgName: libssl3
@@ -6644,6 +6674,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/30/5
     - https://access.redhat.com/security/cve/CVE-2025-9231
     - https://github.com/openssl/openssl/commit/567f64386e43683888212226824b6a179885a0fe
     - https://github.com/openssl/openssl/commit/cba616c26ac8e7b37de5e77762e505ba5ca51698
@@ -6654,7 +6685,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9231
     PublishedDate: '2025-09-30T14:15:41.19Z'
-    LastModifiedDate: '2025-10-02T19:12:17.16Z'
+    LastModifiedDate: '2025-11-04T22:16:45.49Z'
   - VulnerabilityID: CVE-2025-9232
     PkgID: libssl3@3.3.3-r0
     PkgName: libssl3
@@ -6703,6 +6734,7 @@
     - CWE-125
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -6710,6 +6742,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L
         V3Score: 3.1
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/30/5
     - https://access.redhat.com/security/cve/CVE-2025-9232
     - https://github.com/openssl/openssl/commit/2b4ec20e47959170422922eaff25346d362dcb35
     - https://github.com/openssl/openssl/commit/654dc11d23468a74fc8ea4672b702dd3feb7be4b
@@ -6721,7 +6754,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
-    LastModifiedDate: '2025-10-02T19:12:17.16Z'
+    LastModifiedDate: '2025-11-04T22:16:45.63Z'
   - VulnerabilityID: CVE-2025-21587
     PkgID: openjdk21-jre@21.0.6_p7-r0
     PkgName: openjdk21-jre
@@ -6773,8 +6806,10 @@
     - https://github.com/openjdk/jdk8u/commit/3cdd3081565d890801a27a1f9ac8bc53e5711ce6 (jdk8u452-b08)
     - https://linux.oracle.com/cve/CVE-2025-21587.html
     - https://linux.oracle.com/errata/ELSA-2025-7508.html
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-21587
     - https://openjdk.org/groups/vulnerability/advisories/2025-04-15
+    - https://security.netapp.com/advisory/ntap-20250502-0005/
     - https://ubuntu.com/security/notices/USN-7480-1
     - https://ubuntu.com/security/notices/USN-7481-1
     - https://ubuntu.com/security/notices/USN-7482-1
@@ -6785,7 +6820,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-21587
     - https://www.oracle.com/security-alerts/cpuapr2025.html
     PublishedDate: '2025-04-15T21:15:54.293Z'
-    LastModifiedDate: '2025-04-29T20:03:13.79Z'
+    LastModifiedDate: '2025-11-03T20:17:08.777Z'
   - VulnerabilityID: CVE-2025-23083
     PkgID: openjdk21-jre@21.0.6_p7-r0
     PkgName: openjdk21-jre
@@ -6890,6 +6925,8 @@
     - https://errata.rockylinux.org/RLSA-2025:10867
     - https://linux.oracle.com/cve/CVE-2025-30749.html
     - https://linux.oracle.com/errata/ELSA-2025-10873.html
+    - https://lists.debian.org/debian-lts-announce/2025/07/msg00011.html
+    - https://lists.debian.org/debian-lts-announce/2025/08/msg00014.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-30749
     - https://ubuntu.com/security/notices/USN-7667-1
     - https://ubuntu.com/security/notices/USN-7668-1
@@ -6902,7 +6939,7 @@
     - https://www.oracle.com/security-alerts/cpujul2025.html
     - https://www.oracle.com/security-alerts/cpujul2025.html#AppendixJAVA
     PublishedDate: '2025-07-15T20:15:29.313Z'
-    LastModifiedDate: '2025-08-04T21:05:34.533Z'
+    LastModifiedDate: '2025-11-03T20:18:15.37Z'
   - VulnerabilityID: CVE-2025-50059
     PkgID: openjdk21-jre@21.0.6_p7-r0
     PkgName: openjdk21-jre
@@ -6952,6 +6989,8 @@
     - https://errata.rockylinux.org/RLSA-2025:10867
     - https://linux.oracle.com/cve/CVE-2025-50059.html
     - https://linux.oracle.com/errata/ELSA-2025-10873.html
+    - https://lists.debian.org/debian-lts-announce/2025/07/msg00011.html
+    - https://lists.debian.org/debian-lts-announce/2025/08/msg00014.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-50059
     - https://ubuntu.com/security/notices/USN-7668-1
     - https://ubuntu.com/security/notices/USN-7669-1
@@ -6963,7 +7002,7 @@
     - https://www.oracle.com/security-alerts/cpujul2025.html
     - https://www.oracle.com/security-alerts/cpujul2025.html#AppendixJAVA
     PublishedDate: '2025-07-15T20:15:40.367Z'
-    LastModifiedDate: '2025-08-04T21:17:16.467Z'
+    LastModifiedDate: '2025-11-03T20:19:11.743Z'
   - VulnerabilityID: CVE-2025-50106
     PkgID: openjdk21-jre@21.0.6_p7-r0
     PkgName: openjdk21-jre
@@ -7011,6 +7050,8 @@
     - https://errata.rockylinux.org/RLSA-2025:10867
     - https://linux.oracle.com/cve/CVE-2025-50106.html
     - https://linux.oracle.com/errata/ELSA-2025-10873.html
+    - https://lists.debian.org/debian-lts-announce/2025/07/msg00011.html
+    - https://lists.debian.org/debian-lts-announce/2025/08/msg00014.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-50106
     - https://ubuntu.com/security/notices/USN-7667-1
     - https://ubuntu.com/security/notices/USN-7668-1
@@ -7023,7 +7064,7 @@
     - https://www.oracle.com/security-alerts/cpujul2025.html
     - https://www.oracle.com/security-alerts/cpujul2025.html#AppendixJAVA
     PublishedDate: '2025-07-15T20:15:47.013Z'
-    LastModifiedDate: '2025-08-04T21:20:26.203Z'
+    LastModifiedDate: '2025-11-03T20:19:11.87Z'
   - VulnerabilityID: CVE-2025-30691
     PkgID: openjdk21-jre@21.0.6_p7-r0
     PkgName: openjdk21-jre
@@ -7075,6 +7116,7 @@
     - https://github.com/openjdk/jdk8u/commit/949c6ffc54efaa92d6559a3e7897432b95e99253 (jdk8u452-b08)
     - https://linux.oracle.com/cve/CVE-2025-30691.html
     - https://linux.oracle.com/errata/ELSA-2025-7508.html
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-30691
     - https://openjdk.org/groups/vulnerability/advisories/2025-04-15
     - https://security.netapp.com/advisory/ntap-20250418-0004/
@@ -7088,7 +7130,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-30691
     - https://www.oracle.com/security-alerts/cpuapr2025.html
     PublishedDate: '2025-04-15T21:15:58.36Z'
-    LastModifiedDate: '2025-04-19T01:15:44.85Z'
+    LastModifiedDate: '2025-11-03T20:18:13.993Z'
   - VulnerabilityID: CVE-2025-30698
     PkgID: openjdk21-jre@21.0.6_p7-r0
     PkgName: openjdk21-jre
@@ -7140,8 +7182,10 @@
     - https://github.com/openjdk/jdk8u/commit/68d10daabaf9c939a5d2e665994c6d348f38cfd5 (jdk8u452-b08)
     - https://linux.oracle.com/cve/CVE-2025-30698.html
     - https://linux.oracle.com/errata/ELSA-2025-7508.html
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-30698
     - https://openjdk.org/groups/vulnerability/advisories/2025-04-15
+    - https://security.netapp.com/advisory/ntap-20250502-0005/
     - https://ubuntu.com/security/notices/USN-7480-1
     - https://ubuntu.com/security/notices/USN-7481-1
     - https://ubuntu.com/security/notices/USN-7482-1
@@ -7152,7 +7196,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-30698
     - https://www.oracle.com/security-alerts/cpuapr2025.html
     PublishedDate: '2025-04-15T21:15:59.137Z'
-    LastModifiedDate: '2025-04-29T20:03:21.7Z'
+    LastModifiedDate: '2025-11-03T20:18:14.463Z'
   - VulnerabilityID: CVE-2025-30754
     PkgID: openjdk21-jre@21.0.6_p7-r0
     PkgName: openjdk21-jre
@@ -7202,6 +7246,8 @@
     - https://errata.rockylinux.org/RLSA-2025:10867
     - https://linux.oracle.com/cve/CVE-2025-30754.html
     - https://linux.oracle.com/errata/ELSA-2025-10873.html
+    - https://lists.debian.org/debian-lts-announce/2025/07/msg00011.html
+    - https://lists.debian.org/debian-lts-announce/2025/08/msg00014.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-30754
     - https://ubuntu.com/security/notices/USN-7667-1
     - https://ubuntu.com/security/notices/USN-7668-1
@@ -7214,7 +7260,138 @@
     - https://www.oracle.com/security-alerts/cpujul2025.html
     - https://www.oracle.com/security-alerts/cpujul2025.html#AppendixJAVA
     PublishedDate: '2025-07-15T20:15:29.973Z'
-    LastModifiedDate: '2025-08-04T21:16:20.84Z'
+    LastModifiedDate: '2025-11-03T20:18:15.503Z'
+  - VulnerabilityID: CVE-2025-53057
+    PkgID: openjdk21-jre@21.0.6_p7-r0
+    PkgName: openjdk21-jre
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64&distro=3.21.3
+      UID: 2080461f382c7dae
+    InstalledVersion: 21.0.6_p7-r0
+    FixedVersion: 21.0.9_p10-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4d7814ea39226035ebf8e
+      DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7185ab555262cb80cc579
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-53057
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'openjdk: Enhance certificate handling (Oracle CPU 2025-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u461, 8u461-perf, 11.0.28, 17.0.16, 21.0.8, 25; Oracle GraalVM for JDK: 17.0.16 and  21.0.8; Oracle GraalVM Enterprise Edition: 21.3.15. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.9 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N).'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-284
+    VendorSeverity:
+      alma: 2
+      amazon: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:18824
+    - https://access.redhat.com/security/cve/CVE-2025-53057
+    - https://errata.almalinux.org/9/ALSA-2025-18824.html
+    - https://linux.oracle.com/cve/CVE-2025-53057.html
+    - https://linux.oracle.com/errata/ELSA-2025-18824.html
+    - https://lists.debian.org/debian-lts-announce/2025/10/msg00026.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-53057
+    - https://www.cve.org/CVERecord?id=CVE-2025-53057
+    - https://www.oracle.com/security-alerts/cpuoct2025.html
+    PublishedDate: '2025-10-21T20:20:45.24Z'
+    LastModifiedDate: '2025-11-03T18:16:56.973Z'
+  - VulnerabilityID: CVE-2025-53066
+    PkgID: openjdk21-jre@21.0.6_p7-r0
+    PkgName: openjdk21-jre
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64&distro=3.21.3
+      UID: 2080461f382c7dae
+    InstalledVersion: 21.0.6_p7-r0
+    FixedVersion: 21.0.9_p10-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4d7814ea39226035ebf8e
+      DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7185ab555262cb80cc579
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-53066
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'openjdk: Enhance Path Factories (Oracle CPU 2025-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JAXP).  Supported versions that are affected are Oracle Java SE: 8u461, 8u461-perf, 11.0.28, 17.0.16, 21.0.8, 25; Oracle GraalVM for JDK: 17.0.16 and  21.0.8; Oracle GraalVM Enterprise Edition: 21.3.15. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-200
+    VendorSeverity:
+      alma: 2
+      amazon: 2
+      oracle-oval: 2
+      photon: 3
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:18824
+    - https://access.redhat.com/security/cve/CVE-2025-53066
+    - https://errata.almalinux.org/9/ALSA-2025-18824.html
+    - https://linux.oracle.com/cve/CVE-2025-53066.html
+    - https://linux.oracle.com/errata/ELSA-2025-18824.html
+    - https://lists.debian.org/debian-lts-announce/2025/10/msg00026.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-53066
+    - https://www.cve.org/CVERecord?id=CVE-2025-53066
+    - https://www.oracle.com/security-alerts/cpuoct2025.html
+    PublishedDate: '2025-10-21T20:20:47.177Z'
+    LastModifiedDate: '2025-11-03T18:16:57.227Z'
+  - VulnerabilityID: CVE-2025-61748
+    PkgID: openjdk21-jre@21.0.6_p7-r0
+    PkgName: openjdk21-jre
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64&distro=3.21.3
+      UID: 2080461f382c7dae
+    InstalledVersion: 21.0.6_p7-r0
+    FixedVersion: 21.0.9_p10-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4d7814ea39226035ebf8e
+      DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7185ab555262cb80cc579
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61748
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'openjdk: Enhance String handling (Oracle CPU 2025-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 21.0.8 and  25; Oracle GraalVM for JDK: 21.0.8; Oracle GraalVM Enterprise Edition: 21.3.15. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
+    Severity: LOW
+    CweIDs:
+    - CWE-284
+    VendorSeverity:
+      alma: 2
+      amazon: 2
+      oracle-oval: 2
+      photon: 1
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:18824
+    - https://access.redhat.com/security/cve/CVE-2025-61748
+    - https://errata.almalinux.org/9/ALSA-2025-18824.html
+    - https://linux.oracle.com/cve/CVE-2025-61748.html
+    - https://linux.oracle.com/errata/ELSA-2025-18824.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-61748
+    - https://www.cve.org/CVERecord?id=CVE-2025-61748
+    - https://www.oracle.com/security-alerts/cpuoct2025.html
+    PublishedDate: '2025-10-21T20:20:51.057Z'
+    LastModifiedDate: '2025-10-28T19:11:56.063Z'
   - VulnerabilityID: CVE-2025-21587
     PkgID: openjdk21-jre-headless@21.0.6_p7-r0
     PkgName: openjdk21-jre-headless
@@ -7266,8 +7443,10 @@
     - https://github.com/openjdk/jdk8u/commit/3cdd3081565d890801a27a1f9ac8bc53e5711ce6 (jdk8u452-b08)
     - https://linux.oracle.com/cve/CVE-2025-21587.html
     - https://linux.oracle.com/errata/ELSA-2025-7508.html
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-21587
     - https://openjdk.org/groups/vulnerability/advisories/2025-04-15
+    - https://security.netapp.com/advisory/ntap-20250502-0005/
     - https://ubuntu.com/security/notices/USN-7480-1
     - https://ubuntu.com/security/notices/USN-7481-1
     - https://ubuntu.com/security/notices/USN-7482-1
@@ -7278,7 +7457,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-21587
     - https://www.oracle.com/security-alerts/cpuapr2025.html
     PublishedDate: '2025-04-15T21:15:54.293Z'
-    LastModifiedDate: '2025-04-29T20:03:13.79Z'
+    LastModifiedDate: '2025-11-03T20:17:08.777Z'
   - VulnerabilityID: CVE-2025-23083
     PkgID: openjdk21-jre-headless@21.0.6_p7-r0
     PkgName: openjdk21-jre-headless
@@ -7383,6 +7562,8 @@
     - https://errata.rockylinux.org/RLSA-2025:10867
     - https://linux.oracle.com/cve/CVE-2025-30749.html
     - https://linux.oracle.com/errata/ELSA-2025-10873.html
+    - https://lists.debian.org/debian-lts-announce/2025/07/msg00011.html
+    - https://lists.debian.org/debian-lts-announce/2025/08/msg00014.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-30749
     - https://ubuntu.com/security/notices/USN-7667-1
     - https://ubuntu.com/security/notices/USN-7668-1
@@ -7395,7 +7576,7 @@
     - https://www.oracle.com/security-alerts/cpujul2025.html
     - https://www.oracle.com/security-alerts/cpujul2025.html#AppendixJAVA
     PublishedDate: '2025-07-15T20:15:29.313Z'
-    LastModifiedDate: '2025-08-04T21:05:34.533Z'
+    LastModifiedDate: '2025-11-03T20:18:15.37Z'
   - VulnerabilityID: CVE-2025-50059
     PkgID: openjdk21-jre-headless@21.0.6_p7-r0
     PkgName: openjdk21-jre-headless
@@ -7445,6 +7626,8 @@
     - https://errata.rockylinux.org/RLSA-2025:10867
     - https://linux.oracle.com/cve/CVE-2025-50059.html
     - https://linux.oracle.com/errata/ELSA-2025-10873.html
+    - https://lists.debian.org/debian-lts-announce/2025/07/msg00011.html
+    - https://lists.debian.org/debian-lts-announce/2025/08/msg00014.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-50059
     - https://ubuntu.com/security/notices/USN-7668-1
     - https://ubuntu.com/security/notices/USN-7669-1
@@ -7456,7 +7639,7 @@
     - https://www.oracle.com/security-alerts/cpujul2025.html
     - https://www.oracle.com/security-alerts/cpujul2025.html#AppendixJAVA
     PublishedDate: '2025-07-15T20:15:40.367Z'
-    LastModifiedDate: '2025-08-04T21:17:16.467Z'
+    LastModifiedDate: '2025-11-03T20:19:11.743Z'
   - VulnerabilityID: CVE-2025-50106
     PkgID: openjdk21-jre-headless@21.0.6_p7-r0
     PkgName: openjdk21-jre-headless
@@ -7504,6 +7687,8 @@
     - https://errata.rockylinux.org/RLSA-2025:10867
     - https://linux.oracle.com/cve/CVE-2025-50106.html
     - https://linux.oracle.com/errata/ELSA-2025-10873.html
+    - https://lists.debian.org/debian-lts-announce/2025/07/msg00011.html
+    - https://lists.debian.org/debian-lts-announce/2025/08/msg00014.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-50106
     - https://ubuntu.com/security/notices/USN-7667-1
     - https://ubuntu.com/security/notices/USN-7668-1
@@ -7516,7 +7701,7 @@
     - https://www.oracle.com/security-alerts/cpujul2025.html
     - https://www.oracle.com/security-alerts/cpujul2025.html#AppendixJAVA
     PublishedDate: '2025-07-15T20:15:47.013Z'
-    LastModifiedDate: '2025-08-04T21:20:26.203Z'
+    LastModifiedDate: '2025-11-03T20:19:11.87Z'
   - VulnerabilityID: CVE-2025-30691
     PkgID: openjdk21-jre-headless@21.0.6_p7-r0
     PkgName: openjdk21-jre-headless
@@ -7568,6 +7753,7 @@
     - https://github.com/openjdk/jdk8u/commit/949c6ffc54efaa92d6559a3e7897432b95e99253 (jdk8u452-b08)
     - https://linux.oracle.com/cve/CVE-2025-30691.html
     - https://linux.oracle.com/errata/ELSA-2025-7508.html
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-30691
     - https://openjdk.org/groups/vulnerability/advisories/2025-04-15
     - https://security.netapp.com/advisory/ntap-20250418-0004/
@@ -7581,7 +7767,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-30691
     - https://www.oracle.com/security-alerts/cpuapr2025.html
     PublishedDate: '2025-04-15T21:15:58.36Z'
-    LastModifiedDate: '2025-04-19T01:15:44.85Z'
+    LastModifiedDate: '2025-11-03T20:18:13.993Z'
   - VulnerabilityID: CVE-2025-30698
     PkgID: openjdk21-jre-headless@21.0.6_p7-r0
     PkgName: openjdk21-jre-headless
@@ -7633,8 +7819,10 @@
     - https://github.com/openjdk/jdk8u/commit/68d10daabaf9c939a5d2e665994c6d348f38cfd5 (jdk8u452-b08)
     - https://linux.oracle.com/cve/CVE-2025-30698.html
     - https://linux.oracle.com/errata/ELSA-2025-7508.html
+    - https://lists.debian.org/debian-lts-announce/2025/05/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-30698
     - https://openjdk.org/groups/vulnerability/advisories/2025-04-15
+    - https://security.netapp.com/advisory/ntap-20250502-0005/
     - https://ubuntu.com/security/notices/USN-7480-1
     - https://ubuntu.com/security/notices/USN-7481-1
     - https://ubuntu.com/security/notices/USN-7482-1
@@ -7645,7 +7833,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-30698
     - https://www.oracle.com/security-alerts/cpuapr2025.html
     PublishedDate: '2025-04-15T21:15:59.137Z'
-    LastModifiedDate: '2025-04-29T20:03:21.7Z'
+    LastModifiedDate: '2025-11-03T20:18:14.463Z'
   - VulnerabilityID: CVE-2025-30754
     PkgID: openjdk21-jre-headless@21.0.6_p7-r0
     PkgName: openjdk21-jre-headless
@@ -7695,6 +7883,8 @@
     - https://errata.rockylinux.org/RLSA-2025:10867
     - https://linux.oracle.com/cve/CVE-2025-30754.html
     - https://linux.oracle.com/errata/ELSA-2025-10873.html
+    - https://lists.debian.org/debian-lts-announce/2025/07/msg00011.html
+    - https://lists.debian.org/debian-lts-announce/2025/08/msg00014.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-30754
     - https://ubuntu.com/security/notices/USN-7667-1
     - https://ubuntu.com/security/notices/USN-7668-1
@@ -7707,7 +7897,138 @@
     - https://www.oracle.com/security-alerts/cpujul2025.html
     - https://www.oracle.com/security-alerts/cpujul2025.html#AppendixJAVA
     PublishedDate: '2025-07-15T20:15:29.973Z'
-    LastModifiedDate: '2025-08-04T21:16:20.84Z'
+    LastModifiedDate: '2025-11-03T20:18:15.503Z'
+  - VulnerabilityID: CVE-2025-53057
+    PkgID: openjdk21-jre-headless@21.0.6_p7-r0
+    PkgName: openjdk21-jre-headless
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?arch=x86_64&distro=3.21.3
+      UID: d2e38af626fba367
+    InstalledVersion: 21.0.6_p7-r0
+    FixedVersion: 21.0.9_p10-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4d7814ea39226035ebf8e
+      DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7185ab555262cb80cc579
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-53057
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'openjdk: Enhance certificate handling (Oracle CPU 2025-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u461, 8u461-perf, 11.0.28, 17.0.16, 21.0.8, 25; Oracle GraalVM for JDK: 17.0.16 and  21.0.8; Oracle GraalVM Enterprise Edition: 21.3.15. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.9 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N).'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-284
+    VendorSeverity:
+      alma: 2
+      amazon: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:18824
+    - https://access.redhat.com/security/cve/CVE-2025-53057
+    - https://errata.almalinux.org/9/ALSA-2025-18824.html
+    - https://linux.oracle.com/cve/CVE-2025-53057.html
+    - https://linux.oracle.com/errata/ELSA-2025-18824.html
+    - https://lists.debian.org/debian-lts-announce/2025/10/msg00026.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-53057
+    - https://www.cve.org/CVERecord?id=CVE-2025-53057
+    - https://www.oracle.com/security-alerts/cpuoct2025.html
+    PublishedDate: '2025-10-21T20:20:45.24Z'
+    LastModifiedDate: '2025-11-03T18:16:56.973Z'
+  - VulnerabilityID: CVE-2025-53066
+    PkgID: openjdk21-jre-headless@21.0.6_p7-r0
+    PkgName: openjdk21-jre-headless
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?arch=x86_64&distro=3.21.3
+      UID: d2e38af626fba367
+    InstalledVersion: 21.0.6_p7-r0
+    FixedVersion: 21.0.9_p10-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4d7814ea39226035ebf8e
+      DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7185ab555262cb80cc579
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-53066
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'openjdk: Enhance Path Factories (Oracle CPU 2025-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JAXP).  Supported versions that are affected are Oracle Java SE: 8u461, 8u461-perf, 11.0.28, 17.0.16, 21.0.8, 25; Oracle GraalVM for JDK: 17.0.16 and  21.0.8; Oracle GraalVM Enterprise Edition: 21.3.15. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-200
+    VendorSeverity:
+      alma: 2
+      amazon: 2
+      oracle-oval: 2
+      photon: 3
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:18824
+    - https://access.redhat.com/security/cve/CVE-2025-53066
+    - https://errata.almalinux.org/9/ALSA-2025-18824.html
+    - https://linux.oracle.com/cve/CVE-2025-53066.html
+    - https://linux.oracle.com/errata/ELSA-2025-18824.html
+    - https://lists.debian.org/debian-lts-announce/2025/10/msg00026.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-53066
+    - https://www.cve.org/CVERecord?id=CVE-2025-53066
+    - https://www.oracle.com/security-alerts/cpuoct2025.html
+    PublishedDate: '2025-10-21T20:20:47.177Z'
+    LastModifiedDate: '2025-11-03T18:16:57.227Z'
+  - VulnerabilityID: CVE-2025-61748
+    PkgID: openjdk21-jre-headless@21.0.6_p7-r0
+    PkgName: openjdk21-jre-headless
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?arch=x86_64&distro=3.21.3
+      UID: d2e38af626fba367
+    InstalledVersion: 21.0.6_p7-r0
+    FixedVersion: 21.0.9_p10-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4d7814ea39226035ebf8e
+      DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7185ab555262cb80cc579
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61748
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Title: 'openjdk: Enhance String handling (Oracle CPU 2025-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 21.0.8 and  25; Oracle GraalVM for JDK: 21.0.8; Oracle GraalVM Enterprise Edition: 21.3.15. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
+    Severity: LOW
+    CweIDs:
+    - CWE-284
+    VendorSeverity:
+      alma: 2
+      amazon: 2
+      oracle-oval: 2
+      photon: 1
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/errata/RHSA-2025:18824
+    - https://access.redhat.com/security/cve/CVE-2025-61748
+    - https://errata.almalinux.org/9/ALSA-2025-18824.html
+    - https://linux.oracle.com/cve/CVE-2025-61748.html
+    - https://linux.oracle.com/errata/ELSA-2025-18824.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-61748
+    - https://www.cve.org/CVERecord?id=CVE-2025-61748
+    - https://www.oracle.com/security-alerts/cpuoct2025.html
+    PublishedDate: '2025-10-21T20:20:51.057Z'
+    LastModifiedDate: '2025-10-28T19:11:56.063Z'
   - VulnerabilityID: CVE-2025-9230
     PkgID: openssl@3.3.3-r0
     PkgName: openssl
@@ -7751,6 +8072,7 @@
     VendorSeverity:
       amazon: 2
       azure: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -7758,6 +8080,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 5.6
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/30/5
     - https://access.redhat.com/security/cve/CVE-2025-9230
     - https://github.com/openssl/openssl/commit/5965ea5dd6960f36d8b7f74f8eac67a8eb8f2b45
     - https://github.com/openssl/openssl/commit/9e91358f365dee6c446dcdcdb01c04d2743fd280
@@ -7766,12 +8089,13 @@
     - https://github.com/openssl/openssl/commit/bae259a211ada6315dc50900686daaaaaa55f482
     - https://github.openssl.org/openssl/extended-releases/commit/c2b96348bfa662f25f4fabf81958ae822063dae3
     - https://github.openssl.org/openssl/extended-releases/commit/dfbaf161d8dafc1132dd88cd48ad990ed9b4c8ba
+    - https://lists.debian.org/debian-lts-announce/2025/10/msg00001.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9230
     - https://openssl-library.org/news/secadv/20250930.txt
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9230
     PublishedDate: '2025-09-30T14:15:41.05Z'
-    LastModifiedDate: '2025-10-02T19:12:17.16Z'
+    LastModifiedDate: '2025-11-04T22:16:45.36Z'
   - VulnerabilityID: CVE-2025-9231
     PkgID: openssl@3.3.3-r0
     PkgName: openssl
@@ -7822,6 +8146,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/30/5
     - https://access.redhat.com/security/cve/CVE-2025-9231
     - https://github.com/openssl/openssl/commit/567f64386e43683888212226824b6a179885a0fe
     - https://github.com/openssl/openssl/commit/cba616c26ac8e7b37de5e77762e505ba5ca51698
@@ -7832,7 +8157,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9231
     PublishedDate: '2025-09-30T14:15:41.19Z'
-    LastModifiedDate: '2025-10-02T19:12:17.16Z'
+    LastModifiedDate: '2025-11-04T22:16:45.49Z'
   - VulnerabilityID: CVE-2025-9232
     PkgID: openssl@3.3.3-r0
     PkgName: openssl
@@ -7881,6 +8206,7 @@
     - CWE-125
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -7888,6 +8214,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L
         V3Score: 3.1
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/30/5
     - https://access.redhat.com/security/cve/CVE-2025-9232
     - https://github.com/openssl/openssl/commit/2b4ec20e47959170422922eaff25346d362dcb35
     - https://github.com/openssl/openssl/commit/654dc11d23468a74fc8ea4672b702dd3feb7be4b
@@ -7899,7 +8226,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
-    LastModifiedDate: '2025-10-02T19:12:17.16Z'
+    LastModifiedDate: '2025-11-04T22:16:45.63Z'
   - VulnerabilityID: CVE-2024-12718
     PkgID: pyc@3.12.9-r0
     PkgName: pyc
@@ -8241,7 +8568,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -8612,7 +8939,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -8983,7 +9310,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -9354,7 +9681,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -9482,6 +9809,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:H/A:L
         V3Score: 7.7
     References:
+    - http://seclists.org/fulldisclosure/2025/Sep/49
+    - http://seclists.org/fulldisclosure/2025/Sep/53
+    - http://seclists.org/fulldisclosure/2025/Sep/56
+    - http://seclists.org/fulldisclosure/2025/Sep/57
+    - http://seclists.org/fulldisclosure/2025/Sep/58
+    - http://www.openwall.com/lists/oss-security/2025/09/06/1
     - https://access.redhat.com/errata/RHSA-2025:11992
     - https://access.redhat.com/security/cve/CVE-2025-6965
     - https://bugzilla.redhat.com/2380149
@@ -9497,7 +9830,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6965
     - https://www.sqlite.org/src/info/5508b56fd24016c13981ec280ecdd833007c9d8dd595edb295b984c2b487b5c8
     PublishedDate: '2025-07-15T14:15:31.08Z'
-    LastModifiedDate: '2025-07-22T17:06:21.51Z'
+    LastModifiedDate: '2025-11-04T22:16:43.413Z'
   - VulnerabilityID: CVE-2025-29087
     PkgID: sqlite-libs@3.48.0-r0
     PkgName: sqlite-libs
@@ -9653,6 +9986,7 @@
     - https://explore.alas.aws.amazon.com/CVE-2025-32462.html
     - https://linux.oracle.com/cve/CVE-2025-32462.html
     - https://linux.oracle.com/errata/ELSA-2025-9978.html
+    - https://lists.debian.org/debian-lts-announce/2025/06/msg00033.html
     - https://lists.debian.org/debian-security-announce/2025/msg00118.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-32462
     - https://security-tracker.debian.org/tracker/CVE-2025-32462
@@ -9667,7 +10001,7 @@
     - https://www.sudo.ws/security/advisories/host_any/
     - https://www.suse.com/security/cve/CVE-2025-32462.html
     PublishedDate: '2025-06-30T21:15:30.08Z'
-    LastModifiedDate: '2025-07-25T15:15:26.497Z'
+    LastModifiedDate: '2025-11-03T20:18:27.727Z'
   - VulnerabilityID: CVE-2025-32463
     PkgID: sudo@1.9.16_p2-r0
     PkgName: sudo
@@ -10420,11 +10754,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.7
     References:
+    - http://www.openwall.com/lists/oss-security/2025/07/11/1
     - https://access.redhat.com/security/cve/CVE-2025-48924
     - https://github.com/apache/commons-lang
     - https://github.com/apache/commons-lang/commit/b424803abdb2bec818e4fbcb251ce031c22aca53
     - https://lists.apache.org/thread/bgv0lpswokgol11tloxnjfzdl7yrc1g1
+    - https://lists.debian.org/debian-lts-announce/2025/08/msg00000.html
+    - https://lists.debian.org/debian-lts-announce/2025/08/msg00026.html
+    - https://lists.debian.org/debian-lts-announce/2025/09/msg00032.html
+    - https://lists.debian.org/debian-lts-announce/2025/09/msg00036.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-48924
     - https://www.cve.org/CVERecord?id=CVE-2025-48924
     PublishedDate: '2025-07-11T15:15:24.347Z'
-    LastModifiedDate: '2025-07-28T13:45:38.647Z'
+    LastModifiedDate: '2025-11-04T22:16:17.823Z'
