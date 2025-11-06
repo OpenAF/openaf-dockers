@@ -7781,7 +7781,9 @@
       served to all users of that proxy.
     Severity: LOW
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -7789,6 +7791,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.8
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/10/2
+    - http://www.openwall.com/lists/oss-security/2025/09/10/3
     - https://access.redhat.com/security/cve/CVE-2025-10148
     - https://curl.se/docs/CVE-2025-10148.html
     - https://curl.se/docs/CVE-2025-10148.json
@@ -7796,7 +7800,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-10148
     - https://www.cve.org/CVERecord?id=CVE-2025-10148
     PublishedDate: '2025-09-12T06:15:40.02Z'
-    LastModifiedDate: '2025-09-15T15:21:42.937Z'
+    LastModifiedDate: '2025-11-04T22:16:05.137Z'
   - VulnerabilityID: CVE-2025-9086
     PkgID: curl@8.12.1-3ubuntu1
     PkgName: curl
@@ -7834,6 +7838,7 @@
       it on an insecure host should not be okay.
     Severity: LOW
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -7841,6 +7846,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/10/1
     - https://access.redhat.com/security/cve/CVE-2025-9086
     - https://curl.se/docs/CVE-2025-9086.html
     - https://curl.se/docs/CVE-2025-9086.json
@@ -7849,7 +7855,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2025-09-15T15:21:42.937Z'
+    LastModifiedDate: '2025-11-04T22:16:45.19Z'
   - VulnerabilityID: CVE-2025-6297
     PkgID: dpkg@1.22.18ubuntu2
     PkgName: dpkg
@@ -7973,6 +7979,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
         V3Score: 4.2
     References:
+    - http://www.openwall.com/lists/oss-security/2025/07/23/1
     - https://access.redhat.com/errata/RHSA-2025:12980
     - https://access.redhat.com/security/cve/CVE-2025-8058
     - https://bugzilla.redhat.com/2383146
@@ -7989,7 +7996,7 @@
     - https://ubuntu.com/security/notices/USN-7760-1
     - https://www.cve.org/CVERecord?id=CVE-2025-8058
     PublishedDate: '2025-07-23T20:15:27.747Z'
-    LastModifiedDate: '2025-07-25T15:29:44.523Z'
+    LastModifiedDate: '2025-11-04T22:16:44.44Z'
   - VulnerabilityID: CVE-2025-8058
     PkgID: libc6@2.41-6ubuntu1.1
     PkgName: libc6
@@ -8031,6 +8038,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L
         V3Score: 4.2
     References:
+    - http://www.openwall.com/lists/oss-security/2025/07/23/1
     - https://access.redhat.com/errata/RHSA-2025:12980
     - https://access.redhat.com/security/cve/CVE-2025-8058
     - https://bugzilla.redhat.com/2383146
@@ -8047,7 +8055,7 @@
     - https://ubuntu.com/security/notices/USN-7760-1
     - https://www.cve.org/CVERecord?id=CVE-2025-8058
     PublishedDate: '2025-07-23T20:15:27.747Z'
-    LastModifiedDate: '2025-07-25T15:29:44.523Z'
+    LastModifiedDate: '2025-11-04T22:16:44.44Z'
   - VulnerabilityID: CVE-2025-10148
     PkgID: libcurl4t64@8.12.1-3ubuntu1
     PkgName: libcurl4t64
@@ -8078,7 +8086,9 @@
       served to all users of that proxy.
     Severity: LOW
     VendorSeverity:
+      azure: 2
       cbl-mariner: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -8086,6 +8096,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.8
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/10/2
+    - http://www.openwall.com/lists/oss-security/2025/09/10/3
     - https://access.redhat.com/security/cve/CVE-2025-10148
     - https://curl.se/docs/CVE-2025-10148.html
     - https://curl.se/docs/CVE-2025-10148.json
@@ -8093,7 +8105,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-10148
     - https://www.cve.org/CVERecord?id=CVE-2025-10148
     PublishedDate: '2025-09-12T06:15:40.02Z'
-    LastModifiedDate: '2025-09-15T15:21:42.937Z'
+    LastModifiedDate: '2025-11-04T22:16:05.137Z'
   - VulnerabilityID: CVE-2025-9086
     PkgID: libcurl4t64@8.12.1-3ubuntu1
     PkgName: libcurl4t64
@@ -8131,6 +8143,7 @@
       it on an insecure host should not be okay.
     Severity: LOW
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -8138,6 +8151,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/10/1
     - https://access.redhat.com/security/cve/CVE-2025-9086
     - https://curl.se/docs/CVE-2025-9086.html
     - https://curl.se/docs/CVE-2025-9086.json
@@ -8146,7 +8160,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2025-09-15T15:21:42.937Z'
+    LastModifiedDate: '2025-11-04T22:16:45.19Z'
   - VulnerabilityID: CVE-2024-2236
     PkgID: libgcrypt20@1.11.0-6ubuntu1
     PkgName: libgcrypt20
@@ -8756,6 +8770,7 @@
     VendorSeverity:
       amazon: 2
       azure: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -8763,6 +8778,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 5.6
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/30/5
     - https://access.redhat.com/security/cve/CVE-2025-9230
     - https://github.com/openssl/openssl/commit/5965ea5dd6960f36d8b7f74f8eac67a8eb8f2b45
     - https://github.com/openssl/openssl/commit/9e91358f365dee6c446dcdcdb01c04d2743fd280
@@ -8771,12 +8787,13 @@
     - https://github.com/openssl/openssl/commit/bae259a211ada6315dc50900686daaaaaa55f482
     - https://github.openssl.org/openssl/extended-releases/commit/c2b96348bfa662f25f4fabf81958ae822063dae3
     - https://github.openssl.org/openssl/extended-releases/commit/dfbaf161d8dafc1132dd88cd48ad990ed9b4c8ba
+    - https://lists.debian.org/debian-lts-announce/2025/10/msg00001.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9230
     - https://openssl-library.org/news/secadv/20250930.txt
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9230
     PublishedDate: '2025-09-30T14:15:41.05Z'
-    LastModifiedDate: '2025-10-02T19:12:17.16Z'
+    LastModifiedDate: '2025-11-04T22:16:45.36Z'
   - VulnerabilityID: CVE-2025-9231
     PkgID: libssl3t64@3.4.1-1ubuntu3
     PkgName: libssl3t64
@@ -8828,6 +8845,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/30/5
     - https://access.redhat.com/security/cve/CVE-2025-9231
     - https://github.com/openssl/openssl/commit/567f64386e43683888212226824b6a179885a0fe
     - https://github.com/openssl/openssl/commit/cba616c26ac8e7b37de5e77762e505ba5ca51698
@@ -8838,7 +8856,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9231
     PublishedDate: '2025-09-30T14:15:41.19Z'
-    LastModifiedDate: '2025-10-02T19:12:17.16Z'
+    LastModifiedDate: '2025-11-04T22:16:45.49Z'
   - VulnerabilityID: CVE-2025-9232
     PkgID: libssl3t64@3.4.1-1ubuntu3
     PkgName: libssl3t64
@@ -8888,6 +8906,7 @@
     - CWE-125
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -8895,6 +8914,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L
         V3Score: 3.1
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/30/5
     - https://access.redhat.com/security/cve/CVE-2025-9232
     - https://github.com/openssl/openssl/commit/2b4ec20e47959170422922eaff25346d362dcb35
     - https://github.com/openssl/openssl/commit/654dc11d23468a74fc8ea4672b702dd3feb7be4b
@@ -8906,7 +8926,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
-    LastModifiedDate: '2025-10-02T19:12:17.16Z'
+    LastModifiedDate: '2025-11-04T22:16:45.63Z'
   - VulnerabilityID: CVE-2024-56433
     PkgID: login.defs@1:4.16.0-7ubuntu1
     PkgName: login.defs
@@ -8990,6 +9010,7 @@
     VendorSeverity:
       amazon: 2
       azure: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -8997,6 +9018,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 5.6
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/30/5
     - https://access.redhat.com/security/cve/CVE-2025-9230
     - https://github.com/openssl/openssl/commit/5965ea5dd6960f36d8b7f74f8eac67a8eb8f2b45
     - https://github.com/openssl/openssl/commit/9e91358f365dee6c446dcdcdb01c04d2743fd280
@@ -9005,12 +9027,13 @@
     - https://github.com/openssl/openssl/commit/bae259a211ada6315dc50900686daaaaaa55f482
     - https://github.openssl.org/openssl/extended-releases/commit/c2b96348bfa662f25f4fabf81958ae822063dae3
     - https://github.openssl.org/openssl/extended-releases/commit/dfbaf161d8dafc1132dd88cd48ad990ed9b4c8ba
+    - https://lists.debian.org/debian-lts-announce/2025/10/msg00001.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9230
     - https://openssl-library.org/news/secadv/20250930.txt
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9230
     PublishedDate: '2025-09-30T14:15:41.05Z'
-    LastModifiedDate: '2025-10-02T19:12:17.16Z'
+    LastModifiedDate: '2025-11-04T22:16:45.36Z'
   - VulnerabilityID: CVE-2025-9231
     PkgID: openssl@3.4.1-1ubuntu3
     PkgName: openssl
@@ -9062,6 +9085,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/30/5
     - https://access.redhat.com/security/cve/CVE-2025-9231
     - https://github.com/openssl/openssl/commit/567f64386e43683888212226824b6a179885a0fe
     - https://github.com/openssl/openssl/commit/cba616c26ac8e7b37de5e77762e505ba5ca51698
@@ -9072,7 +9096,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9231
     PublishedDate: '2025-09-30T14:15:41.19Z'
-    LastModifiedDate: '2025-10-02T19:12:17.16Z'
+    LastModifiedDate: '2025-11-04T22:16:45.49Z'
   - VulnerabilityID: CVE-2025-9232
     PkgID: openssl@3.4.1-1ubuntu3
     PkgName: openssl
@@ -9122,6 +9146,7 @@
     - CWE-125
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -9129,6 +9154,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L
         V3Score: 3.1
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/30/5
     - https://access.redhat.com/security/cve/CVE-2025-9232
     - https://github.com/openssl/openssl/commit/2b4ec20e47959170422922eaff25346d362dcb35
     - https://github.com/openssl/openssl/commit/654dc11d23468a74fc8ea4672b702dd3feb7be4b
@@ -9140,7 +9166,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
-    LastModifiedDate: '2025-10-02T19:12:17.16Z'
+    LastModifiedDate: '2025-11-04T22:16:45.63Z'
   - VulnerabilityID: CVE-2025-9230
     PkgID: openssl-provider-legacy@3.4.1-1ubuntu3
     PkgName: openssl-provider-legacy
@@ -9185,6 +9211,7 @@
     VendorSeverity:
       amazon: 2
       azure: 3
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -9192,6 +9219,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 5.6
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/30/5
     - https://access.redhat.com/security/cve/CVE-2025-9230
     - https://github.com/openssl/openssl/commit/5965ea5dd6960f36d8b7f74f8eac67a8eb8f2b45
     - https://github.com/openssl/openssl/commit/9e91358f365dee6c446dcdcdb01c04d2743fd280
@@ -9200,12 +9228,13 @@
     - https://github.com/openssl/openssl/commit/bae259a211ada6315dc50900686daaaaaa55f482
     - https://github.openssl.org/openssl/extended-releases/commit/c2b96348bfa662f25f4fabf81958ae822063dae3
     - https://github.openssl.org/openssl/extended-releases/commit/dfbaf161d8dafc1132dd88cd48ad990ed9b4c8ba
+    - https://lists.debian.org/debian-lts-announce/2025/10/msg00001.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9230
     - https://openssl-library.org/news/secadv/20250930.txt
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9230
     PublishedDate: '2025-09-30T14:15:41.05Z'
-    LastModifiedDate: '2025-10-02T19:12:17.16Z'
+    LastModifiedDate: '2025-11-04T22:16:45.36Z'
   - VulnerabilityID: CVE-2025-9231
     PkgID: openssl-provider-legacy@3.4.1-1ubuntu3
     PkgName: openssl-provider-legacy
@@ -9257,6 +9286,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/30/5
     - https://access.redhat.com/security/cve/CVE-2025-9231
     - https://github.com/openssl/openssl/commit/567f64386e43683888212226824b6a179885a0fe
     - https://github.com/openssl/openssl/commit/cba616c26ac8e7b37de5e77762e505ba5ca51698
@@ -9267,7 +9297,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9231
     PublishedDate: '2025-09-30T14:15:41.19Z'
-    LastModifiedDate: '2025-10-02T19:12:17.16Z'
+    LastModifiedDate: '2025-11-04T22:16:45.49Z'
   - VulnerabilityID: CVE-2025-9232
     PkgID: openssl-provider-legacy@3.4.1-1ubuntu3
     PkgName: openssl-provider-legacy
@@ -9317,6 +9347,7 @@
     - CWE-125
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -9324,6 +9355,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L
         V3Score: 3.1
     References:
+    - http://www.openwall.com/lists/oss-security/2025/09/30/5
     - https://access.redhat.com/security/cve/CVE-2025-9232
     - https://github.com/openssl/openssl/commit/2b4ec20e47959170422922eaff25346d362dcb35
     - https://github.com/openssl/openssl/commit/654dc11d23468a74fc8ea4672b702dd3feb7be4b
@@ -9335,7 +9367,7 @@
     - https://ubuntu.com/security/notices/USN-7786-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
-    LastModifiedDate: '2025-10-02T19:12:17.16Z'
+    LastModifiedDate: '2025-11-04T22:16:45.63Z'
   - VulnerabilityID: CVE-2024-56433
     PkgID: passwd@1:4.16.0-7ubuntu1
     PkgName: passwd
@@ -9414,6 +9446,9 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 5.9
     References:
+    - http://seclists.org/fulldisclosure/2025/Sep/53
+    - http://seclists.org/fulldisclosure/2025/Sep/54
+    - http://seclists.org/fulldisclosure/2025/Sep/55
     - http://www.openwall.com/lists/oss-security/2025/05/23/1
     - http://www.openwall.com/lists/oss-security/2025/05/30/4
     - http://www.openwall.com/lists/oss-security/2025/06/02/2
@@ -9442,7 +9477,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-40909
     - https://www.openwall.com/lists/oss-security/2025/05/22/2
     PublishedDate: '2025-05-30T13:15:22.35Z'
-    LastModifiedDate: '2025-09-05T14:15:44.947Z'
+    LastModifiedDate: '2025-11-03T19:15:52.563Z'
   - VulnerabilityID: CVE-2025-45582
     PkgID: tar@1.35+dfsg-3.1
     PkgName: tar
@@ -9473,6 +9508,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 5.6
     References:
+    - http://www.openwall.com/lists/oss-security/2025/11/01/6
     - https://access.redhat.com/security/cve/CVE-2025-45582
     - https://github.com/i900008/vulndb/blob/main/Gnu_tar_vuln.md
     - https://lists.gnu.org/archive/html/bug-tar/2025-08/msg00012.html
@@ -9483,7 +9519,7 @@
     - https://www.gnu.org/software/tar/manual/html_node/Integrity.html#Integrity
     - https://www.gnu.org/software/tar/manual/html_node/Security-rules-of-thumb.html
     PublishedDate: '2025-07-11T17:15:37.183Z'
-    LastModifiedDate: '2025-08-18T04:15:36.743Z'
+    LastModifiedDate: '2025-11-02T01:15:32.307Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
