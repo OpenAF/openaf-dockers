@@ -10077,7 +10077,7 @@
     - https://www.vicarius.io/vsociety/posts/cve-2025-32463-detect-sudo-vulnerability
     - https://www.vicarius.io/vsociety/posts/cve-2025-32463-mitigate-sudo-vulnerability
     PublishedDate: '2025-06-30T21:15:30.257Z'
-    LastModifiedDate: '2025-10-21T23:16:59.997Z'
+    LastModifiedDate: '2025-11-05T19:26:48.393Z'
   - VulnerabilityID: CVE-2025-31115
     PkgID: xz-libs@5.6.3-r0
     PkgName: xz-libs
