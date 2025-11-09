@@ -8571,7 +8571,7 @@
 │                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8058 
 │                       │      │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2025-12980.html 
-│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:12980 
+│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:13240 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-8058.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-20595.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
@@ -8634,7 +8634,7 @@
 │                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-8058 
 │                       │      │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2025-12980.html 
-│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:12980 
+│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2025:13240 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2025-8058.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2025-20595.html 
 │                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-8058 
@@ -10218,7 +10218,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-426 
 │                       │      │                  ╰ [1]: CWE-689 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
@@ -10248,7 +10248,7 @@
 │                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-40909 
 │                       │      │                  ├ [16]: https://errata.almalinux.org/8/ALSA-2025-11805.html 
-│                       │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2025:11805 
+│                       │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2025:12056 
 │                       │      │                  ├ [18]: https://github.com/Perl/perl5/commit/11a11ecf4bea72b1
 │                       │      │                  │       7d250cfb43c897be1341861e 
 │                       │      │                  ├ [19]: https://github.com/Perl/perl5/commit/918bfff86ca8d6d4
