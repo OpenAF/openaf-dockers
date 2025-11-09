@@ -7684,20 +7684,24 @@
 │                       │      │                   could then be
 │                       │      │                   served to all users of that proxy. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-10148 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-10148.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-10148.json 
-│                       │      │                  ├ [3]: https://hackerone.com/reports/3330839 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/09/10/2 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/09/10/3 
+│                       │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2025-10148 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-10148.html 
+│                       │      │                  ├ [4]: https://curl.se/docs/CVE-2025-10148.json 
+│                       │      │                  ├ [5]: https://hackerone.com/reports/3330839 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
-│                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
+│                       │      ╰ LastModifiedDate: 2025-11-04T22:16:05.137Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2025-4947 
 │                       │      ├ PkgID           : curl@8.12.1-r1 
 │                       │      ├ PkgName         : curl 
@@ -7722,6 +7726,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-295 
 │                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ╰ redhat: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
@@ -7763,6 +7768,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-295 
 │                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ╰ redhat: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
@@ -8085,21 +8091,23 @@
 │                       │      │                   host so overriding
 │                       │      │                   it on an insecure host should not be okay. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9086 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-9086.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-9086.json 
-│                       │      │                  ├ [3]: https://github.com/curl/curl/commit/c6ae07c6a541e0e96d
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/09/10/1 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-9086 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-9086.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-9086.json 
+│                       │      │                  ├ [4]: https://github.com/curl/curl/commit/c6ae07c6a541e0e96d
 │                       │      │                  │      0040afb6 
-│                       │      │                  ├ [4]: https://hackerone.com/reports/3294999 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
+│                       │      │                  ├ [5]: https://hackerone.com/reports/3294999 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
-│                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
+│                       │      ╰ LastModifiedDate: 2025-11-04T22:16:45.19Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2025-31344 
 │                       │      ├ PkgID           : giflib@5.2.2-r0 
 │                       │      ├ PkgName         : giflib 
@@ -8198,32 +8206,36 @@
 │                       │      │                  ╰ [1]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ azure : 3 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.6 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-9230 
-│                       │      │                  ├ [1] : https://github.com/openssl/openssl/commit/5965ea5dd69
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/09/30/5 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-9230 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/5965ea5dd69
 │                       │      │                  │       60f36d8b7f74f8eac67a8eb8f2b45 
-│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/9e91358f365
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/9e91358f365
 │                       │      │                  │       dee6c446dcdcdb01c04d2743fd280 
-│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/a79c4ce559c
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/a79c4ce559c
 │                       │      │                  │       6a3a8fd4109e9f33c1185d5bf2def 
-│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/b5282d67755
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/b5282d67755
 │                       │      │                  │       1afda7d20e9c00e09561b547b2dfd 
-│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/bae259a211a
+│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/bae259a211a
 │                       │      │                  │       da6315dc50900686daaaaaa55f482 
-│                       │      │                  ├ [6] : https://github.openssl.org/openssl/extended-releases/
-│                       │      │                  │       commit/c2b96348bfa662f25f4fabf81958ae822063dae3 
 │                       │      │                  ├ [7] : https://github.openssl.org/openssl/extended-releases/
+│                       │      │                  │       commit/c2b96348bfa662f25f4fabf81958ae822063dae3 
+│                       │      │                  ├ [8] : https://github.openssl.org/openssl/extended-releases/
 │                       │      │                  │       commit/dfbaf161d8dafc1132dd88cd48ad990ed9b4c8ba 
-│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-9230 
-│                       │      │                  ├ [9] : https://openssl-library.org/news/secadv/20250930.txt 
-│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7786-1 
-│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-9230 
+│                       │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/2025/10/
+│                       │      │                  │       msg00001.html 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-9230 
+│                       │      │                  ├ [11]: https://openssl-library.org/news/secadv/20250930.txt 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7786-1 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-9230 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.05Z 
-│                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
+│                       │      ╰ LastModifiedDate: 2025-11-04T22:16:45.36Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2025-9231 
 │                       │      ├ PkgID           : libcrypto3@3.3.3-r0 
 │                       │      ├ PkgName         : libcrypto3 
@@ -8278,21 +8290,22 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9231 
-│                       │      │                  ├ [1]: https://github.com/openssl/openssl/commit/567f64386e43
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/09/30/5 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-9231 
+│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/567f64386e43
 │                       │      │                  │      683888212226824b6a179885a0fe 
-│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/cba616c26ac8
+│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/cba616c26ac8
 │                       │      │                  │      e7b37de5e77762e505ba5ca51698 
-│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/eed5adc9f969
+│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/eed5adc9f969
 │                       │      │                  │      d77c94f213767acbb41ff923b6f4 
-│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/fc47a2ec0789
+│                       │      │                  ├ [5]: https://github.com/openssl/openssl/commit/fc47a2ec0789
 │                       │      │                  │      12b3e914fab5734535e76c4820c2 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-9231 
-│                       │      │                  ├ [6]: https://openssl-library.org/news/secadv/20250930.txt 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7786-1 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-9231 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-9231 
+│                       │      │                  ├ [7]: https://openssl-library.org/news/secadv/20250930.txt 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7786-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-9231 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.19Z 
-│                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
+│                       │      ╰ LastModifiedDate: 2025-11-04T22:16:45.49Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2025-9232 
 │                       │      ├ PkgID           : libcrypto3@3.3.3-r0 
 │                       │      ├ PkgName         : libcrypto3 
@@ -8349,28 +8362,30 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.1 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9232 
-│                       │      │                  ├ [1]: https://github.com/openssl/openssl/commit/2b4ec20e4795
-│                       │      │                  │      9170422922eaff25346d362dcb35 
-│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/654dc11d2346
-│                       │      │                  │      8a74fc8ea4672b702dd3feb7be4b 
-│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/7cf21a30513c
-│                       │      │                  │      9e43c4bc3836c237cf086e194af3 
-│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/89e790ac4311
-│                       │      │                  │      25a4849992858490bed6b225eadf 
-│                       │      │                  ├ [5]: https://github.com/openssl/openssl/commit/bbf38c034cda
-│                       │      │                  │      bd0a13330abcc4855c866f53d2e0 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-9232 
-│                       │      │                  ├ [7]: https://openssl-library.org/news/secadv/20250930.txt 
-│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7786-1 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/09/30/5 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-9232 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/2b4ec20e479
+│                       │      │                  │       59170422922eaff25346d362dcb35 
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/654dc11d234
+│                       │      │                  │       68a74fc8ea4672b702dd3feb7be4b 
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/7cf21a30513
+│                       │      │                  │       c9e43c4bc3836c237cf086e194af3 
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/89e790ac431
+│                       │      │                  │       125a4849992858490bed6b225eadf 
+│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/bbf38c034cd
+│                       │      │                  │       abd0a13330abcc4855c866f53d2e0 
+│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2025-9232 
+│                       │      │                  ├ [8] : https://openssl-library.org/news/secadv/20250930.txt 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7786-1 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.313Z 
-│                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
+│                       │      ╰ LastModifiedDate: 2025-11-04T22:16:45.63Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2025-10148 
 │                       │      ├ PkgID           : libcurl@8.12.1-r1 
 │                       │      ├ PkgName         : libcurl 
@@ -8405,20 +8420,24 @@
 │                       │      │                   could then be
 │                       │      │                   served to all users of that proxy. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                       │      ├ VendorSeverity   ╭ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-10148 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-10148.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-10148.json 
-│                       │      │                  ├ [3]: https://hackerone.com/reports/3330839 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/09/10/2 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/09/10/3 
+│                       │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2025-10148 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-10148.html 
+│                       │      │                  ├ [4]: https://curl.se/docs/CVE-2025-10148.json 
+│                       │      │                  ├ [5]: https://hackerone.com/reports/3330839 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
-│                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
+│                       │      ╰ LastModifiedDate: 2025-11-04T22:16:05.137Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2025-4947 
 │                       │      ├ PkgID           : libcurl@8.12.1-r1 
 │                       │      ├ PkgName         : libcurl 
@@ -8444,6 +8463,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-295 
 │                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ╰ redhat: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
@@ -8486,6 +8506,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-295 
 │                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ╰ redhat: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
@@ -8810,21 +8831,23 @@
 │                       │      │                   host so overriding
 │                       │      │                   it on an insecure host should not be okay. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9086 
-│                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-9086.html 
-│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-9086.json 
-│                       │      │                  ├ [3]: https://github.com/curl/curl/commit/c6ae07c6a541e0e96d
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/09/10/1 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-9086 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-9086.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-9086.json 
+│                       │      │                  ├ [4]: https://github.com/curl/curl/commit/c6ae07c6a541e0e96d
 │                       │      │                  │      0040afb6 
-│                       │      │                  ├ [4]: https://hackerone.com/reports/3294999 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
+│                       │      │                  ├ [5]: https://hackerone.com/reports/3294999 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
-│                       │      ╰ LastModifiedDate: 2025-09-15T15:21:42.937Z 
+│                       │      ╰ LastModifiedDate: 2025-11-04T22:16:45.19Z 
 │                       ├ [15] ╭ VulnerabilityID : CVE-2025-59375 
 │                       │      ├ PkgID           : libexpat@2.7.0-r0 
 │                       │      ├ PkgName         : libexpat 
@@ -8851,24 +8874,29 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-770 
 │                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ╰ redhat     : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-59375 
-│                       │      │                  ├ [1]: https://github.com/libexpat/libexpat/blob/676a4c531ec7
-│                       │      │                  │      68732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74 
-│                       │      │                  ├ [2]: https://github.com/libexpat/libexpat/blob/R_2_7_2/expa
-│                       │      │                  │      t/Changes 
-│                       │      │                  ├ [3]: https://github.com/libexpat/libexpat/issues/1018 
-│                       │      │                  ├ [4]: https://github.com/libexpat/libexpat/pull/1034 
-│                       │      │                  ├ [5]: https://issues.oss-fuzz.com/issues/439133977 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-59375 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-59375 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/09/16/2 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-59375 
+│                       │      │                  ├ [2] : https://github.com/libexpat/libexpat/blob/676a4c531ec
+│                       │      │                  │       768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74 
+│                       │      │                  ├ [3] : https://github.com/libexpat/libexpat/blob/R_2_7_2/exp
+│                       │      │                  │       at/Changes 
+│                       │      │                  ├ [4] : https://github.com/libexpat/libexpat/issues/1018 
+│                       │      │                  ├ [5] : https://github.com/libexpat/libexpat/pull/1034 
+│                       │      │                  ├ [6] : https://issues.oss-fuzz.com/issues/439133977 
+│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-59375.html 
+│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-19403.html 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-59375 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-59375 
 │                       │      ├ PublishedDate   : 2025-09-15T03:15:40.92Z 
-│                       │      ╰ LastModifiedDate: 2025-10-17T19:26:36.673Z 
+│                       │      ╰ LastModifiedDate: 2025-11-04T22:16:34.927Z 
 │                       ├ [16] ╭ VulnerabilityID : CVE-2025-9230 
 │                       │      ├ PkgID           : libssl3@3.3.3-r0 
 │                       │      ├ PkgName         : libssl3 
@@ -8918,32 +8946,36 @@
 │                       │      │                  ╰ [1]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ azure : 3 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.6 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-9230 
-│                       │      │                  ├ [1] : https://github.com/openssl/openssl/commit/5965ea5dd69
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/09/30/5 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-9230 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/5965ea5dd69
 │                       │      │                  │       60f36d8b7f74f8eac67a8eb8f2b45 
-│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/9e91358f365
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/9e91358f365
 │                       │      │                  │       dee6c446dcdcdb01c04d2743fd280 
-│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/a79c4ce559c
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/a79c4ce559c
 │                       │      │                  │       6a3a8fd4109e9f33c1185d5bf2def 
-│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/b5282d67755
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/b5282d67755
 │                       │      │                  │       1afda7d20e9c00e09561b547b2dfd 
-│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/bae259a211a
+│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/bae259a211a
 │                       │      │                  │       da6315dc50900686daaaaaa55f482 
-│                       │      │                  ├ [6] : https://github.openssl.org/openssl/extended-releases/
-│                       │      │                  │       commit/c2b96348bfa662f25f4fabf81958ae822063dae3 
 │                       │      │                  ├ [7] : https://github.openssl.org/openssl/extended-releases/
+│                       │      │                  │       commit/c2b96348bfa662f25f4fabf81958ae822063dae3 
+│                       │      │                  ├ [8] : https://github.openssl.org/openssl/extended-releases/
 │                       │      │                  │       commit/dfbaf161d8dafc1132dd88cd48ad990ed9b4c8ba 
-│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-9230 
-│                       │      │                  ├ [9] : https://openssl-library.org/news/secadv/20250930.txt 
-│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7786-1 
-│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-9230 
+│                       │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/2025/10/
+│                       │      │                  │       msg00001.html 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-9230 
+│                       │      │                  ├ [11]: https://openssl-library.org/news/secadv/20250930.txt 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7786-1 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-9230 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.05Z 
-│                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
+│                       │      ╰ LastModifiedDate: 2025-11-04T22:16:45.36Z 
 │                       ├ [17] ╭ VulnerabilityID : CVE-2025-9231 
 │                       │      ├ PkgID           : libssl3@3.3.3-r0 
 │                       │      ├ PkgName         : libssl3 
@@ -8998,21 +9030,22 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9231 
-│                       │      │                  ├ [1]: https://github.com/openssl/openssl/commit/567f64386e43
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/09/30/5 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-9231 
+│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/567f64386e43
 │                       │      │                  │      683888212226824b6a179885a0fe 
-│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/cba616c26ac8
+│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/cba616c26ac8
 │                       │      │                  │      e7b37de5e77762e505ba5ca51698 
-│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/eed5adc9f969
+│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/eed5adc9f969
 │                       │      │                  │      d77c94f213767acbb41ff923b6f4 
-│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/fc47a2ec0789
+│                       │      │                  ├ [5]: https://github.com/openssl/openssl/commit/fc47a2ec0789
 │                       │      │                  │      12b3e914fab5734535e76c4820c2 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-9231 
-│                       │      │                  ├ [6]: https://openssl-library.org/news/secadv/20250930.txt 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7786-1 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-9231 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-9231 
+│                       │      │                  ├ [7]: https://openssl-library.org/news/secadv/20250930.txt 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7786-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-9231 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.19Z 
-│                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
+│                       │      ╰ LastModifiedDate: 2025-11-04T22:16:45.49Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2025-9232 
 │                       │      ├ PkgID           : libssl3@3.3.3-r0 
 │                       │      ├ PkgName         : libssl3 
@@ -9069,28 +9102,30 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.1 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9232 
-│                       │      │                  ├ [1]: https://github.com/openssl/openssl/commit/2b4ec20e4795
-│                       │      │                  │      9170422922eaff25346d362dcb35 
-│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/654dc11d2346
-│                       │      │                  │      8a74fc8ea4672b702dd3feb7be4b 
-│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/7cf21a30513c
-│                       │      │                  │      9e43c4bc3836c237cf086e194af3 
-│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/89e790ac4311
-│                       │      │                  │      25a4849992858490bed6b225eadf 
-│                       │      │                  ├ [5]: https://github.com/openssl/openssl/commit/bbf38c034cda
-│                       │      │                  │      bd0a13330abcc4855c866f53d2e0 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-9232 
-│                       │      │                  ├ [7]: https://openssl-library.org/news/secadv/20250930.txt 
-│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7786-1 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/09/30/5 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-9232 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/2b4ec20e479
+│                       │      │                  │       59170422922eaff25346d362dcb35 
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/654dc11d234
+│                       │      │                  │       68a74fc8ea4672b702dd3feb7be4b 
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/7cf21a30513
+│                       │      │                  │       c9e43c4bc3836c237cf086e194af3 
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/89e790ac431
+│                       │      │                  │       125a4849992858490bed6b225eadf 
+│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/bbf38c034cd
+│                       │      │                  │       abd0a13330abcc4855c866f53d2e0 
+│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2025-9232 
+│                       │      │                  ├ [8] : https://openssl-library.org/news/secadv/20250930.txt 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7786-1 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.313Z 
-│                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
+│                       │      ╰ LastModifiedDate: 2025-11-04T22:16:45.63Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2025-21587 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
@@ -9170,20 +9205,24 @@
 │                       │      │                  │       90801a27a1f9ac8bc53e5711ce6 (jdk8u452-b08) 
 │                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2025-21587.html 
 │                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-7508.html 
-│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-21587 
-│                       │      │                  ├ [17]: https://openjdk.org/groups/vulnerability/advisories/2
+│                       │      │                  ├ [16]: https://lists.debian.org/debian-lts-announce/2025/05/
+│                       │      │                  │       msg00026.html 
+│                       │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2025-21587 
+│                       │      │                  ├ [18]: https://openjdk.org/groups/vulnerability/advisories/2
 │                       │      │                  │       025-04-15 
-│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7480-1 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7481-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7482-1 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7483-1 
-│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7484-1 
-│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7531-1 
-│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7533-1 
-│                       │      │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2025-21587 
-│                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │      │                  ├ [19]: https://security.netapp.com/advisory/ntap-20250502-00
+│                       │      │                  │       05/ 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7480-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7481-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7482-1 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7483-1 
+│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7484-1 
+│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7531-1 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7533-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2025-21587 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:54.293Z 
-│                       │      ╰ LastModifiedDate: 2025-04-29T20:03:13.79Z 
+│                       │      ╰ LastModifiedDate: 2025-11-03T20:17:08.777Z 
 │                       ├ [20] ╭ VulnerabilityID : CVE-2025-23083 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
@@ -9318,23 +9357,27 @@
 │                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-50106 
 │                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2025-10873.html 
-│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10867 
+│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10873 
 │                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-30749.html 
 │                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-10873.html 
-│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-30749 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7667-1 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7668-1 
-│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7669-1 
-│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7672-1 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7673-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7674-1 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7690-1 
-│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2025-30749 
-│                       │      │                  ├ [23]: https://www.oracle.com/security-alerts/cpujul2025.html 
-│                       │      │                  ╰ [24]: https://www.oracle.com/security-alerts/cpujul2025.htm
+│                       │      │                  ├ [14]: https://lists.debian.org/debian-lts-announce/2025/07/
+│                       │      │                  │       msg00011.html 
+│                       │      │                  ├ [15]: https://lists.debian.org/debian-lts-announce/2025/08/
+│                       │      │                  │       msg00014.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-30749 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7667-1 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7668-1 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7669-1 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7672-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7673-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7674-1 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7690-1 
+│                       │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2025-30749 
+│                       │      │                  ├ [25]: https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpujul2025.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:29.313Z 
-│                       │      ╰ LastModifiedDate: 2025-08-04T21:05:34.533Z 
+│                       │      ╰ LastModifiedDate: 2025-11-03T20:18:15.37Z 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2025-50059 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
@@ -9407,22 +9450,26 @@
 │                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-50106 
 │                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2025-10873.html 
-│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10867 
+│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10873 
 │                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-50059.html 
 │                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-10873.html 
-│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-50059 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7668-1 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7669-1 
-│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7672-1 
-│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7673-1 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7674-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7690-1 
-│                       │      │                  ├ [21]: https://www.cve.org/CVERecord?id=CVE-2025-50059 
-│                       │      │                  ├ [22]: https://www.oracle.com/security-alerts/cpujul2025.html 
-│                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpujul2025.htm
+│                       │      │                  ├ [14]: https://lists.debian.org/debian-lts-announce/2025/07/
+│                       │      │                  │       msg00011.html 
+│                       │      │                  ├ [15]: https://lists.debian.org/debian-lts-announce/2025/08/
+│                       │      │                  │       msg00014.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-50059 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7668-1 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7669-1 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7672-1 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7673-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7674-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7690-1 
+│                       │      │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2025-50059 
+│                       │      │                  ├ [24]: https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │      │                  ╰ [25]: https://www.oracle.com/security-alerts/cpujul2025.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:40.367Z 
-│                       │      ╰ LastModifiedDate: 2025-08-04T21:17:16.467Z 
+│                       │      ╰ LastModifiedDate: 2025-11-03T20:19:11.743Z 
 │                       ├ [23] ╭ VulnerabilityID : CVE-2025-50106 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
@@ -9490,23 +9537,27 @@
 │                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-50106 
 │                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2025-10873.html 
-│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10867 
+│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10873 
 │                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-50106.html 
 │                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-10873.html 
-│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-50106 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7667-1 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7668-1 
-│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7669-1 
-│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7672-1 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7673-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7674-1 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7690-1 
-│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2025-50106 
-│                       │      │                  ├ [23]: https://www.oracle.com/security-alerts/cpujul2025.html 
-│                       │      │                  ╰ [24]: https://www.oracle.com/security-alerts/cpujul2025.htm
+│                       │      │                  ├ [14]: https://lists.debian.org/debian-lts-announce/2025/07/
+│                       │      │                  │       msg00011.html 
+│                       │      │                  ├ [15]: https://lists.debian.org/debian-lts-announce/2025/08/
+│                       │      │                  │       msg00014.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-50106 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7667-1 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7668-1 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7669-1 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7672-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7673-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7674-1 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7690-1 
+│                       │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2025-50106 
+│                       │      │                  ├ [25]: https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpujul2025.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:47.013Z 
-│                       │      ╰ LastModifiedDate: 2025-08-04T21:20:26.203Z 
+│                       │      ╰ LastModifiedDate: 2025-11-03T20:19:11.87Z 
 │                       ├ [24] ╭ VulnerabilityID : CVE-2025-30691 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
@@ -9579,22 +9630,24 @@
 │                       │      │                  │       a92d6559a3e7897432b95e99253 (jdk8u452-b08) 
 │                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2025-30691.html 
 │                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-7508.html 
-│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-30691 
-│                       │      │                  ├ [17]: https://openjdk.org/groups/vulnerability/advisories/2
+│                       │      │                  ├ [16]: https://lists.debian.org/debian-lts-announce/2025/05/
+│                       │      │                  │       msg00026.html 
+│                       │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2025-30691 
+│                       │      │                  ├ [18]: https://openjdk.org/groups/vulnerability/advisories/2
 │                       │      │                  │       025-04-15 
-│                       │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20250418-00
+│                       │      │                  ├ [19]: https://security.netapp.com/advisory/ntap-20250418-00
 │                       │      │                  │       04/ 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7480-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7481-1 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7482-1 
-│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7483-1 
-│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7484-1 
-│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7531-1 
-│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7533-1 
-│                       │      │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2025-30691 
-│                       │      │                  ╰ [27]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7480-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7481-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7482-1 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7483-1 
+│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7484-1 
+│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7531-1 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7533-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2025-30691 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:58.36Z 
-│                       │      ╰ LastModifiedDate: 2025-04-19T01:15:44.85Z 
+│                       │      ╰ LastModifiedDate: 2025-11-03T20:18:13.993Z 
 │                       ├ [25] ╭ VulnerabilityID : CVE-2025-30698 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
@@ -9676,20 +9729,24 @@
 │                       │      │                  │       939a5d2e665994c6d348f38cfd5 (jdk8u452-b08) 
 │                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2025-30698.html 
 │                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-7508.html 
-│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-30698 
-│                       │      │                  ├ [17]: https://openjdk.org/groups/vulnerability/advisories/2
+│                       │      │                  ├ [16]: https://lists.debian.org/debian-lts-announce/2025/05/
+│                       │      │                  │       msg00026.html 
+│                       │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2025-30698 
+│                       │      │                  ├ [18]: https://openjdk.org/groups/vulnerability/advisories/2
 │                       │      │                  │       025-04-15 
-│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7480-1 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7481-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7482-1 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7483-1 
-│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7484-1 
-│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7531-1 
-│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7533-1 
-│                       │      │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2025-30698 
-│                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │      │                  ├ [19]: https://security.netapp.com/advisory/ntap-20250502-00
+│                       │      │                  │       05/ 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7480-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7481-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7482-1 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7483-1 
+│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7484-1 
+│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7531-1 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7533-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2025-30698 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:59.137Z 
-│                       │      ╰ LastModifiedDate: 2025-04-29T20:03:21.7Z 
+│                       │      ╰ LastModifiedDate: 2025-11-03T20:18:14.463Z 
 │                       ├ [26] ╭ VulnerabilityID : CVE-2025-30754 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
@@ -9760,24 +9817,213 @@
 │                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-50106 
 │                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2025-10873.html 
-│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10867 
+│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10873 
 │                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-30754.html 
 │                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-10873.html 
-│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-30754 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7667-1 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7668-1 
-│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7669-1 
-│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7672-1 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7673-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7674-1 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7690-1 
-│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2025-30754 
-│                       │      │                  ├ [23]: https://www.oracle.com/security-alerts/cpujul2025.html 
-│                       │      │                  ╰ [24]: https://www.oracle.com/security-alerts/cpujul2025.htm
+│                       │      │                  ├ [14]: https://lists.debian.org/debian-lts-announce/2025/07/
+│                       │      │                  │       msg00011.html 
+│                       │      │                  ├ [15]: https://lists.debian.org/debian-lts-announce/2025/08/
+│                       │      │                  │       msg00014.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-30754 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7667-1 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7668-1 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7669-1 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7672-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7673-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7674-1 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7690-1 
+│                       │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2025-30754 
+│                       │      │                  ├ [25]: https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpujul2025.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:29.973Z 
-│                       │      ╰ LastModifiedDate: 2025-08-04T21:16:20.84Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2025-21587 
+│                       │      ╰ LastModifiedDate: 2025-11-03T20:18:15.503Z 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2025-53057 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64
+│                       │      │                  │       &distro=3.21.3 
+│                       │      │                  ╰ UID : 2080461f382c7dae 
+│                       │      ├ InstalledVersion: 21.0.6_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.9_p10-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4
+│                       │      │                  │         d7814ea39226035ebf8e 
+│                       │      │                  ╰ DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7
+│                       │      │                            185ab555262cb80cc579 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-53057 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openjdk: Enhance certificate handling (Oracle CPU 2025-10) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Security).  Supported versions that are
+│                       │      │                   affected are Oracle Java SE: 8u461, 8u461-perf, 11.0.28,
+│                       │      │                   17.0.16, 21.0.8, 25; Oracle GraalVM for JDK: 17.0.16 and 
+│                       │      │                   21.0.8; Oracle GraalVM Enterprise Edition: 21.3.15.
+│                       │      │                   Difficult to exploit vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via multiple protocols to
+│                       │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+│                       │      │                   vulnerability can result in  unauthorized creation, deletion
+│                       │      │                    or modification access to critical data or all Oracle Java
+│                       │      │                   SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition accessible data. Note: This vulnerability can be
+│                       │      │                   exploited by using APIs in the specified Component, e.g.,
+│                       │      │                   through a web service which supplies data to the APIs. This
+│                       │      │                   vulnerability also applies to Java deployments, typically in
+│                       │      │                    clients running sandboxed Java Web Start applications or
+│                       │      │                   sandboxed Java applets, that load and run untrusted code
+│                       │      │                   (e.g., code that comes from the internet) and rely on the
+│                       │      │                   Java sandbox for security. CVSS 3.1 Base Score 5.9
+│                       │      │                   (Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ photon     : 2 
+│                       │      │                  ╰ redhat     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:18824 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-53057 
+│                       │      │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-18824.html 
+│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-53057.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-18824.html 
+│                       │      │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2025/10/m
+│                       │      │                  │      sg00026.html 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-53057 
+│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-53057 
+│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │      ├ PublishedDate   : 2025-10-21T20:20:45.24Z 
+│                       │      ╰ LastModifiedDate: 2025-11-03T18:16:56.973Z 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2025-53066 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64
+│                       │      │                  │       &distro=3.21.3 
+│                       │      │                  ╰ UID : 2080461f382c7dae 
+│                       │      ├ InstalledVersion: 21.0.6_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.9_p10-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4
+│                       │      │                  │         d7814ea39226035ebf8e 
+│                       │      │                  ╰ DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7
+│                       │      │                            185ab555262cb80cc579 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-53066 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openjdk: Enhance Path Factories (Oracle CPU 2025-10) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: JAXP).  Supported versions that are affected
+│                       │      │                   are Oracle Java SE: 8u461, 8u461-perf, 11.0.28, 17.0.16,
+│                       │      │                   21.0.8, 25; Oracle GraalVM for JDK: 17.0.16 and  21.0.8;
+│                       │      │                   Oracle GraalVM Enterprise Edition: 21.3.15. Easily
+│                       │      │                   exploitable vulnerability allows unauthenticated attacker
+│                       │      │                   with network access via multiple protocols to compromise
+│                       │      │                   Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM
+│                       │      │                   Enterprise Edition.  Successful attacks of this
+│                       │      │                   vulnerability can result in  unauthorized access to critical
+│                       │      │                    data or complete access to all Oracle Java SE, Oracle
+│                       │      │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition
+│                       │      │                   accessible data. Note: This vulnerability can be exploited
+│                       │      │                   by using APIs in the specified Component, e.g., through a
+│                       │      │                   web service which supplies data to the APIs. This
+│                       │      │                   vulnerability also applies to Java deployments, typically in
+│                       │      │                    clients running sandboxed Java Web Start applications or
+│                       │      │                   sandboxed Java applets, that load and run untrusted code
+│                       │      │                   (e.g., code that comes from the internet) and rely on the
+│                       │      │                   Java sandbox for security. CVSS 3.1 Base Score 7.5
+│                       │      │                   (Confidentiality impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-200 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ╰ redhat     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 4.8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:18824 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-53066 
+│                       │      │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-18824.html 
+│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-53066.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-18824.html 
+│                       │      │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2025/10/m
+│                       │      │                  │      sg00026.html 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-53066 
+│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-53066 
+│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │      ├ PublishedDate   : 2025-10-21T20:20:47.177Z 
+│                       │      ╰ LastModifiedDate: 2025-11-03T18:16:57.227Z 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2025-61748 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.6_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.6_p7-r0?arch=x86_64
+│                       │      │                  │       &distro=3.21.3 
+│                       │      │                  ╰ UID : 2080461f382c7dae 
+│                       │      ├ InstalledVersion: 21.0.6_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.9_p10-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4
+│                       │      │                  │         d7814ea39226035ebf8e 
+│                       │      │                  ╰ DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7
+│                       │      │                            185ab555262cb80cc579 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-61748 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openjdk: Enhance String handling (Oracle CPU 2025-10) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Libraries).  Supported versions that are
+│                       │      │                   affected are Oracle Java SE: 21.0.8 and  25; Oracle GraalVM
+│                       │      │                   for JDK: 21.0.8; Oracle GraalVM Enterprise Edition: 21.3.15.
+│                       │      │                    Difficult to exploit vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via multiple protocols to
+│                       │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+│                       │      │                   vulnerability can result in  unauthorized update, insert or
+│                       │      │                   delete access to some of Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK, Oracle GraalVM Enterprise Edition accessible data.
+│                       │      │                   Note: This vulnerability can be exploited by using APIs in
+│                       │      │                   the specified Component, e.g., through a web service which
+│                       │      │                   supplies data to the APIs. This vulnerability also applies
+│                       │      │                   to Java deployments, typically in clients running sandboxed
+│                       │      │                   Java Web Start applications or sandboxed Java applets, that
+│                       │      │                   load and run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. CVSS
+│                       │      │                   3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N). 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ photon     : 1 
+│                       │      │                  ╰ redhat     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:18824 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-61748 
+│                       │      │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-18824.html 
+│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-61748.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-18824.html 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-61748 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-61748 
+│                       │      │                  ╰ [7]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │      ├ PublishedDate   : 2025-10-21T20:20:51.057Z 
+│                       │      ╰ LastModifiedDate: 2025-10-28T19:11:56.063Z 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2025-21587 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
@@ -9856,21 +10102,25 @@
 │                       │      │                  │       90801a27a1f9ac8bc53e5711ce6 (jdk8u452-b08) 
 │                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2025-21587.html 
 │                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-7508.html 
-│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-21587 
-│                       │      │                  ├ [17]: https://openjdk.org/groups/vulnerability/advisories/2
+│                       │      │                  ├ [16]: https://lists.debian.org/debian-lts-announce/2025/05/
+│                       │      │                  │       msg00026.html 
+│                       │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2025-21587 
+│                       │      │                  ├ [18]: https://openjdk.org/groups/vulnerability/advisories/2
 │                       │      │                  │       025-04-15 
-│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7480-1 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7481-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7482-1 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7483-1 
-│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7484-1 
-│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7531-1 
-│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7533-1 
-│                       │      │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2025-21587 
-│                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │      │                  ├ [19]: https://security.netapp.com/advisory/ntap-20250502-00
+│                       │      │                  │       05/ 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7480-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7481-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7482-1 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7483-1 
+│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7484-1 
+│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7531-1 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7533-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2025-21587 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:54.293Z 
-│                       │      ╰ LastModifiedDate: 2025-04-29T20:03:13.79Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2025-23083 
+│                       │      ╰ LastModifiedDate: 2025-11-03T20:17:08.777Z 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2025-23083 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
@@ -9938,7 +10188,7 @@
 │                       │      │                          -mitigate-nodejs-vulnerability 
 │                       │      ├ PublishedDate   : 2025-01-22T02:15:33.93Z 
 │                       │      ╰ LastModifiedDate: 2025-07-22T16:15:26.76Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2025-30749 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2025-30749 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
@@ -10004,24 +10254,28 @@
 │                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-50106 
 │                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2025-10873.html 
-│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10867 
+│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10873 
 │                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-30749.html 
 │                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-10873.html 
-│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-30749 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7667-1 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7668-1 
-│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7669-1 
-│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7672-1 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7673-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7674-1 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7690-1 
-│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2025-30749 
-│                       │      │                  ├ [23]: https://www.oracle.com/security-alerts/cpujul2025.html 
-│                       │      │                  ╰ [24]: https://www.oracle.com/security-alerts/cpujul2025.htm
+│                       │      │                  ├ [14]: https://lists.debian.org/debian-lts-announce/2025/07/
+│                       │      │                  │       msg00011.html 
+│                       │      │                  ├ [15]: https://lists.debian.org/debian-lts-announce/2025/08/
+│                       │      │                  │       msg00014.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-30749 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7667-1 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7668-1 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7669-1 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7672-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7673-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7674-1 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7690-1 
+│                       │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2025-30749 
+│                       │      │                  ├ [25]: https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpujul2025.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:29.313Z 
-│                       │      ╰ LastModifiedDate: 2025-08-04T21:05:34.533Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2025-50059 
+│                       │      ╰ LastModifiedDate: 2025-11-03T20:18:15.37Z 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2025-50059 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
@@ -10093,23 +10347,27 @@
 │                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-50106 
 │                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2025-10873.html 
-│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10867 
+│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10873 
 │                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-50059.html 
 │                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-10873.html 
-│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-50059 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7668-1 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7669-1 
-│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7672-1 
-│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7673-1 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7674-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7690-1 
-│                       │      │                  ├ [21]: https://www.cve.org/CVERecord?id=CVE-2025-50059 
-│                       │      │                  ├ [22]: https://www.oracle.com/security-alerts/cpujul2025.html 
-│                       │      │                  ╰ [23]: https://www.oracle.com/security-alerts/cpujul2025.htm
+│                       │      │                  ├ [14]: https://lists.debian.org/debian-lts-announce/2025/07/
+│                       │      │                  │       msg00011.html 
+│                       │      │                  ├ [15]: https://lists.debian.org/debian-lts-announce/2025/08/
+│                       │      │                  │       msg00014.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-50059 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7668-1 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7669-1 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7672-1 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7673-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7674-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7690-1 
+│                       │      │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2025-50059 
+│                       │      │                  ├ [24]: https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │      │                  ╰ [25]: https://www.oracle.com/security-alerts/cpujul2025.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:40.367Z 
-│                       │      ╰ LastModifiedDate: 2025-08-04T21:17:16.467Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2025-50106 
+│                       │      ╰ LastModifiedDate: 2025-11-03T20:19:11.743Z 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2025-50106 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
@@ -10176,24 +10434,28 @@
 │                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-50106 
 │                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2025-10873.html 
-│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10867 
+│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10873 
 │                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-50106.html 
 │                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-10873.html 
-│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-50106 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7667-1 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7668-1 
-│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7669-1 
-│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7672-1 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7673-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7674-1 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7690-1 
-│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2025-50106 
-│                       │      │                  ├ [23]: https://www.oracle.com/security-alerts/cpujul2025.html 
-│                       │      │                  ╰ [24]: https://www.oracle.com/security-alerts/cpujul2025.htm
+│                       │      │                  ├ [14]: https://lists.debian.org/debian-lts-announce/2025/07/
+│                       │      │                  │       msg00011.html 
+│                       │      │                  ├ [15]: https://lists.debian.org/debian-lts-announce/2025/08/
+│                       │      │                  │       msg00014.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-50106 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7667-1 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7668-1 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7669-1 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7672-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7673-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7674-1 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7690-1 
+│                       │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2025-50106 
+│                       │      │                  ├ [25]: https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpujul2025.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:47.013Z 
-│                       │      ╰ LastModifiedDate: 2025-08-04T21:20:26.203Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2025-30691 
+│                       │      ╰ LastModifiedDate: 2025-11-03T20:19:11.87Z 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2025-30691 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
@@ -10265,23 +10527,25 @@
 │                       │      │                  │       a92d6559a3e7897432b95e99253 (jdk8u452-b08) 
 │                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2025-30691.html 
 │                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-7508.html 
-│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-30691 
-│                       │      │                  ├ [17]: https://openjdk.org/groups/vulnerability/advisories/2
+│                       │      │                  ├ [16]: https://lists.debian.org/debian-lts-announce/2025/05/
+│                       │      │                  │       msg00026.html 
+│                       │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2025-30691 
+│                       │      │                  ├ [18]: https://openjdk.org/groups/vulnerability/advisories/2
 │                       │      │                  │       025-04-15 
-│                       │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20250418-00
+│                       │      │                  ├ [19]: https://security.netapp.com/advisory/ntap-20250418-00
 │                       │      │                  │       04/ 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7480-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7481-1 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7482-1 
-│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7483-1 
-│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7484-1 
-│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7531-1 
-│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7533-1 
-│                       │      │                  ├ [26]: https://www.cve.org/CVERecord?id=CVE-2025-30691 
-│                       │      │                  ╰ [27]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7480-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7481-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7482-1 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7483-1 
+│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7484-1 
+│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7531-1 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7533-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2025-30691 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:58.36Z 
-│                       │      ╰ LastModifiedDate: 2025-04-19T01:15:44.85Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2025-30698 
+│                       │      ╰ LastModifiedDate: 2025-11-03T20:18:13.993Z 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2025-30698 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
@@ -10362,21 +10626,25 @@
 │                       │      │                  │       939a5d2e665994c6d348f38cfd5 (jdk8u452-b08) 
 │                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2025-30698.html 
 │                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2025-7508.html 
-│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-30698 
-│                       │      │                  ├ [17]: https://openjdk.org/groups/vulnerability/advisories/2
+│                       │      │                  ├ [16]: https://lists.debian.org/debian-lts-announce/2025/05/
+│                       │      │                  │       msg00026.html 
+│                       │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2025-30698 
+│                       │      │                  ├ [18]: https://openjdk.org/groups/vulnerability/advisories/2
 │                       │      │                  │       025-04-15 
-│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7480-1 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7481-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7482-1 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7483-1 
-│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7484-1 
-│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7531-1 
-│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7533-1 
-│                       │      │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2025-30698 
-│                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpuapr2025.html 
+│                       │      │                  ├ [19]: https://security.netapp.com/advisory/ntap-20250502-00
+│                       │      │                  │       05/ 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7480-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7481-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7482-1 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7483-1 
+│                       │      │                  ├ [24]: https://ubuntu.com/security/notices/USN-7484-1 
+│                       │      │                  ├ [25]: https://ubuntu.com/security/notices/USN-7531-1 
+│                       │      │                  ├ [26]: https://ubuntu.com/security/notices/USN-7533-1 
+│                       │      │                  ├ [27]: https://www.cve.org/CVERecord?id=CVE-2025-30698 
+│                       │      │                  ╰ [28]: https://www.oracle.com/security-alerts/cpuapr2025.html 
 │                       │      ├ PublishedDate   : 2025-04-15T21:15:59.137Z 
-│                       │      ╰ LastModifiedDate: 2025-04-29T20:03:21.7Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2025-30754 
+│                       │      ╰ LastModifiedDate: 2025-11-03T20:18:14.463Z 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2025-30754 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
@@ -10446,24 +10714,213 @@
 │                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-50106 
 │                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2025-10873.html 
-│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10867 
+│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2025:10873 
 │                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-30754.html 
 │                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-10873.html 
-│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2025-30754 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7667-1 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7668-1 
-│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7669-1 
-│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7672-1 
-│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7673-1 
-│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7674-1 
-│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7690-1 
-│                       │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2025-30754 
-│                       │      │                  ├ [23]: https://www.oracle.com/security-alerts/cpujul2025.html 
-│                       │      │                  ╰ [24]: https://www.oracle.com/security-alerts/cpujul2025.htm
+│                       │      │                  ├ [14]: https://lists.debian.org/debian-lts-announce/2025/07/
+│                       │      │                  │       msg00011.html 
+│                       │      │                  ├ [15]: https://lists.debian.org/debian-lts-announce/2025/08/
+│                       │      │                  │       msg00014.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-30754 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7667-1 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7668-1 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7669-1 
+│                       │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-7672-1 
+│                       │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-7673-1 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-7674-1 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-7690-1 
+│                       │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2025-30754 
+│                       │      │                  ├ [25]: https://www.oracle.com/security-alerts/cpujul2025.html 
+│                       │      │                  ╰ [26]: https://www.oracle.com/security-alerts/cpujul2025.htm
 │                       │      │                          l#AppendixJAVA 
 │                       │      ├ PublishedDate   : 2025-07-15T20:15:29.973Z 
-│                       │      ╰ LastModifiedDate: 2025-08-04T21:16:20.84Z 
-│                       ├ [35] ╭ VulnerabilityID : CVE-2025-9230 
+│                       │      ╰ LastModifiedDate: 2025-11-03T20:18:15.503Z 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2025-53057 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
+│                       │      │                  │       ch=x86_64&distro=3.21.3 
+│                       │      │                  ╰ UID : d2e38af626fba367 
+│                       │      ├ InstalledVersion: 21.0.6_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.9_p10-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4
+│                       │      │                  │         d7814ea39226035ebf8e 
+│                       │      │                  ╰ DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7
+│                       │      │                            185ab555262cb80cc579 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-53057 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openjdk: Enhance certificate handling (Oracle CPU 2025-10) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Security).  Supported versions that are
+│                       │      │                   affected are Oracle Java SE: 8u461, 8u461-perf, 11.0.28,
+│                       │      │                   17.0.16, 21.0.8, 25; Oracle GraalVM for JDK: 17.0.16 and 
+│                       │      │                   21.0.8; Oracle GraalVM Enterprise Edition: 21.3.15.
+│                       │      │                   Difficult to exploit vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via multiple protocols to
+│                       │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+│                       │      │                   vulnerability can result in  unauthorized creation, deletion
+│                       │      │                    or modification access to critical data or all Oracle Java
+│                       │      │                   SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition accessible data. Note: This vulnerability can be
+│                       │      │                   exploited by using APIs in the specified Component, e.g.,
+│                       │      │                   through a web service which supplies data to the APIs. This
+│                       │      │                   vulnerability also applies to Java deployments, typically in
+│                       │      │                    clients running sandboxed Java Web Start applications or
+│                       │      │                   sandboxed Java applets, that load and run untrusted code
+│                       │      │                   (e.g., code that comes from the internet) and rely on the
+│                       │      │                   Java sandbox for security. CVSS 3.1 Base Score 5.9
+│                       │      │                   (Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ photon     : 2 
+│                       │      │                  ╰ redhat     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:18824 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-53057 
+│                       │      │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-18824.html 
+│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-53057.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-18824.html 
+│                       │      │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2025/10/m
+│                       │      │                  │      sg00026.html 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-53057 
+│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-53057 
+│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │      ├ PublishedDate   : 2025-10-21T20:20:45.24Z 
+│                       │      ╰ LastModifiedDate: 2025-11-03T18:16:56.973Z 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2025-53066 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
+│                       │      │                  │       ch=x86_64&distro=3.21.3 
+│                       │      │                  ╰ UID : d2e38af626fba367 
+│                       │      ├ InstalledVersion: 21.0.6_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.9_p10-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4
+│                       │      │                  │         d7814ea39226035ebf8e 
+│                       │      │                  ╰ DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7
+│                       │      │                            185ab555262cb80cc579 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-53066 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openjdk: Enhance Path Factories (Oracle CPU 2025-10) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: JAXP).  Supported versions that are affected
+│                       │      │                   are Oracle Java SE: 8u461, 8u461-perf, 11.0.28, 17.0.16,
+│                       │      │                   21.0.8, 25; Oracle GraalVM for JDK: 17.0.16 and  21.0.8;
+│                       │      │                   Oracle GraalVM Enterprise Edition: 21.3.15. Easily
+│                       │      │                   exploitable vulnerability allows unauthenticated attacker
+│                       │      │                   with network access via multiple protocols to compromise
+│                       │      │                   Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM
+│                       │      │                   Enterprise Edition.  Successful attacks of this
+│                       │      │                   vulnerability can result in  unauthorized access to critical
+│                       │      │                    data or complete access to all Oracle Java SE, Oracle
+│                       │      │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition
+│                       │      │                   accessible data. Note: This vulnerability can be exploited
+│                       │      │                   by using APIs in the specified Component, e.g., through a
+│                       │      │                   web service which supplies data to the APIs. This
+│                       │      │                   vulnerability also applies to Java deployments, typically in
+│                       │      │                    clients running sandboxed Java Web Start applications or
+│                       │      │                   sandboxed Java applets, that load and run untrusted code
+│                       │      │                   (e.g., code that comes from the internet) and rely on the
+│                       │      │                   Java sandbox for security. CVSS 3.1 Base Score 7.5
+│                       │      │                   (Confidentiality impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-200 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ╰ redhat     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 4.8 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:18824 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-53066 
+│                       │      │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-18824.html 
+│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-53066.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-18824.html 
+│                       │      │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2025/10/m
+│                       │      │                  │      sg00026.html 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-53066 
+│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-53066 
+│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │      ├ PublishedDate   : 2025-10-21T20:20:47.177Z 
+│                       │      ╰ LastModifiedDate: 2025-11-03T18:16:57.227Z 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2025-61748 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.6_p7-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.6_p7-r0?ar
+│                       │      │                  │       ch=x86_64&distro=3.21.3 
+│                       │      │                  ╰ UID : d2e38af626fba367 
+│                       │      ├ InstalledVersion: 21.0.6_p7-r0 
+│                       │      ├ FixedVersion    : 21.0.9_p10-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:1e5ff339c8114bc27d24c7ac92a1d1071255c746cdc4
+│                       │      │                  │         d7814ea39226035ebf8e 
+│                       │      │                  ╰ DiffID: sha256:071b9ab46a73306317e4fa55fb52334a4b6d9588a4b7
+│                       │      │                            185ab555262cb80cc579 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-61748 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Title           : openjdk: Enhance String handling (Oracle CPU 2025-10) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Libraries).  Supported versions that are
+│                       │      │                   affected are Oracle Java SE: 21.0.8 and  25; Oracle GraalVM
+│                       │      │                   for JDK: 21.0.8; Oracle GraalVM Enterprise Edition: 21.3.15.
+│                       │      │                    Difficult to exploit vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via multiple protocols to
+│                       │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+│                       │      │                   vulnerability can result in  unauthorized update, insert or
+│                       │      │                   delete access to some of Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK, Oracle GraalVM Enterprise Edition accessible data.
+│                       │      │                   Note: This vulnerability can be exploited by using APIs in
+│                       │      │                   the specified Component, e.g., through a web service which
+│                       │      │                   supplies data to the APIs. This vulnerability also applies
+│                       │      │                   to Java deployments, typically in clients running sandboxed
+│                       │      │                   Java Web Start applications or sandboxed Java applets, that
+│                       │      │                   load and run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. CVSS
+│                       │      │                   3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N). 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ photon     : 1 
+│                       │      │                  ╰ redhat     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2025:18824 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-61748 
+│                       │      │                  ├ [2]: https://errata.almalinux.org/9/ALSA-2025-18824.html 
+│                       │      │                  ├ [3]: https://linux.oracle.com/cve/CVE-2025-61748.html 
+│                       │      │                  ├ [4]: https://linux.oracle.com/errata/ELSA-2025-18824.html 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-61748 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-61748 
+│                       │      │                  ╰ [7]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │      ├ PublishedDate   : 2025-10-21T20:20:51.057Z 
+│                       │      ╰ LastModifiedDate: 2025-10-28T19:11:56.063Z 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2025-9230 
 │                       │      ├ PkgID           : openssl@3.3.3-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.3.3-r0?arch=x86_64&distro=3.
@@ -10512,33 +10969,37 @@
 │                       │      │                  ╰ [1]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ azure : 3 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.6 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2025-9230 
-│                       │      │                  ├ [1] : https://github.com/openssl/openssl/commit/5965ea5dd69
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/09/30/5 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-9230 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/5965ea5dd69
 │                       │      │                  │       60f36d8b7f74f8eac67a8eb8f2b45 
-│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/9e91358f365
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/9e91358f365
 │                       │      │                  │       dee6c446dcdcdb01c04d2743fd280 
-│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/a79c4ce559c
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/a79c4ce559c
 │                       │      │                  │       6a3a8fd4109e9f33c1185d5bf2def 
-│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/b5282d67755
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/b5282d67755
 │                       │      │                  │       1afda7d20e9c00e09561b547b2dfd 
-│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/bae259a211a
+│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/bae259a211a
 │                       │      │                  │       da6315dc50900686daaaaaa55f482 
-│                       │      │                  ├ [6] : https://github.openssl.org/openssl/extended-releases/
-│                       │      │                  │       commit/c2b96348bfa662f25f4fabf81958ae822063dae3 
 │                       │      │                  ├ [7] : https://github.openssl.org/openssl/extended-releases/
+│                       │      │                  │       commit/c2b96348bfa662f25f4fabf81958ae822063dae3 
+│                       │      │                  ├ [8] : https://github.openssl.org/openssl/extended-releases/
 │                       │      │                  │       commit/dfbaf161d8dafc1132dd88cd48ad990ed9b4c8ba 
-│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-9230 
-│                       │      │                  ├ [9] : https://openssl-library.org/news/secadv/20250930.txt 
-│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7786-1 
-│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2025-9230 
+│                       │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/2025/10/
+│                       │      │                  │       msg00001.html 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2025-9230 
+│                       │      │                  ├ [11]: https://openssl-library.org/news/secadv/20250930.txt 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-7786-1 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-9230 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.05Z 
-│                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2025-9231 
+│                       │      ╰ LastModifiedDate: 2025-11-04T22:16:45.36Z 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2025-9231 
 │                       │      ├ PkgID           : openssl@3.3.3-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.3.3-r0?arch=x86_64&distro=3.
@@ -10592,22 +11053,23 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9231 
-│                       │      │                  ├ [1]: https://github.com/openssl/openssl/commit/567f64386e43
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/09/30/5 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-9231 
+│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/567f64386e43
 │                       │      │                  │      683888212226824b6a179885a0fe 
-│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/cba616c26ac8
+│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/cba616c26ac8
 │                       │      │                  │      e7b37de5e77762e505ba5ca51698 
-│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/eed5adc9f969
+│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/eed5adc9f969
 │                       │      │                  │      d77c94f213767acbb41ff923b6f4 
-│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/fc47a2ec0789
+│                       │      │                  ├ [5]: https://github.com/openssl/openssl/commit/fc47a2ec0789
 │                       │      │                  │      12b3e914fab5734535e76c4820c2 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-9231 
-│                       │      │                  ├ [6]: https://openssl-library.org/news/secadv/20250930.txt 
-│                       │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-7786-1 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-9231 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-9231 
+│                       │      │                  ├ [7]: https://openssl-library.org/news/secadv/20250930.txt 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7786-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-9231 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.19Z 
-│                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2025-9232 
+│                       │      ╰ LastModifiedDate: 2025-11-04T22:16:45.49Z 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2025-9232 
 │                       │      ├ PkgID           : openssl@3.3.3-r0 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openssl@3.3.3-r0?arch=x86_64&distro=3.
@@ -10663,29 +11125,31 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.1 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-9232 
-│                       │      │                  ├ [1]: https://github.com/openssl/openssl/commit/2b4ec20e4795
-│                       │      │                  │      9170422922eaff25346d362dcb35 
-│                       │      │                  ├ [2]: https://github.com/openssl/openssl/commit/654dc11d2346
-│                       │      │                  │      8a74fc8ea4672b702dd3feb7be4b 
-│                       │      │                  ├ [3]: https://github.com/openssl/openssl/commit/7cf21a30513c
-│                       │      │                  │      9e43c4bc3836c237cf086e194af3 
-│                       │      │                  ├ [4]: https://github.com/openssl/openssl/commit/89e790ac4311
-│                       │      │                  │      25a4849992858490bed6b225eadf 
-│                       │      │                  ├ [5]: https://github.com/openssl/openssl/commit/bbf38c034cda
-│                       │      │                  │      bd0a13330abcc4855c866f53d2e0 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-9232 
-│                       │      │                  ├ [7]: https://openssl-library.org/news/secadv/20250930.txt 
-│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-7786-1 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/09/30/5 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-9232 
+│                       │      │                  ├ [2] : https://github.com/openssl/openssl/commit/2b4ec20e479
+│                       │      │                  │       59170422922eaff25346d362dcb35 
+│                       │      │                  ├ [3] : https://github.com/openssl/openssl/commit/654dc11d234
+│                       │      │                  │       68a74fc8ea4672b702dd3feb7be4b 
+│                       │      │                  ├ [4] : https://github.com/openssl/openssl/commit/7cf21a30513
+│                       │      │                  │       c9e43c4bc3836c237cf086e194af3 
+│                       │      │                  ├ [5] : https://github.com/openssl/openssl/commit/89e790ac431
+│                       │      │                  │       125a4849992858490bed6b225eadf 
+│                       │      │                  ├ [6] : https://github.com/openssl/openssl/commit/bbf38c034cd
+│                       │      │                  │       abd0a13330abcc4855c866f53d2e0 
+│                       │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2025-9232 
+│                       │      │                  ├ [8] : https://openssl-library.org/news/secadv/20250930.txt 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-7786-1 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-9232 
 │                       │      ├ PublishedDate   : 2025-09-30T14:15:41.313Z 
-│                       │      ╰ LastModifiedDate: 2025-10-02T19:12:17.16Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2024-12718 
+│                       │      ╰ LastModifiedDate: 2025-11-04T22:16:45.63Z 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2024-12718 
 │                       │      ├ PkgID           : pyc@3.12.9-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.12.9-r0?arch=x86_64&distro=3.21.3 
@@ -10766,7 +11230,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -10800,7 +11264,7 @@
 │                       │      │                  ╰ [37]: https://www.cve.org/CVERecord?id=CVE-2024-12718 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.183Z 
 │                       │      ╰ LastModifiedDate: 2025-07-24T16:15:29.157Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2025-4138 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2025-4138 
 │                       │      ├ PkgID           : pyc@3.12.9-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.12.9-r0?arch=x86_64&distro=3.21.3 
@@ -10879,7 +11343,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -10912,7 +11376,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4138 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.377Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.767Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2025-4330 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2025-4330 
 │                       │      ├ PkgID           : pyc@3.12.9-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.12.9-r0?arch=x86_64&distro=3.21.3 
@@ -10991,7 +11455,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -11024,7 +11488,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4330 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.503Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.91Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2025-4517 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2025-4517 
 │                       │      ├ PkgID           : pyc@3.12.9-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.12.9-r0?arch=x86_64&distro=3.21.3 
@@ -11103,7 +11567,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -11136,7 +11600,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4517 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.837Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:33.05Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [48] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │      ├ PkgID           : pyc@3.12.9-r0 
 │                       │      ├ PkgName         : pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/pyc@3.12.9-r0?arch=x86_64&distro=3.21.3 
@@ -11162,7 +11626,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -11201,7 +11665,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2024-12718 
+│                       ├ [49] ╭ VulnerabilityID : CVE-2024-12718 
 │                       │      ├ PkgID           : python3@3.12.9-r0 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.12.9-r0?arch=x86_64&distro=3
@@ -11283,7 +11747,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -11317,7 +11781,7 @@
 │                       │      │                  ╰ [37]: https://www.cve.org/CVERecord?id=CVE-2024-12718 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.183Z 
 │                       │      ╰ LastModifiedDate: 2025-07-24T16:15:29.157Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2025-4138 
+│                       ├ [50] ╭ VulnerabilityID : CVE-2025-4138 
 │                       │      ├ PkgID           : python3@3.12.9-r0 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.12.9-r0?arch=x86_64&distro=3
@@ -11397,7 +11861,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -11430,7 +11894,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4138 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.377Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.767Z 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2025-4330 
+│                       ├ [51] ╭ VulnerabilityID : CVE-2025-4330 
 │                       │      ├ PkgID           : python3@3.12.9-r0 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.12.9-r0?arch=x86_64&distro=3
@@ -11510,7 +11974,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -11543,7 +12007,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4330 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.503Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.91Z 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2025-4517 
+│                       ├ [52] ╭ VulnerabilityID : CVE-2025-4517 
 │                       │      ├ PkgID           : python3@3.12.9-r0 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.12.9-r0?arch=x86_64&distro=3
@@ -11623,7 +12087,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -11656,7 +12120,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4517 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.837Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:33.05Z 
-│                       ├ [47] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [53] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │      ├ PkgID           : python3@3.12.9-r0 
 │                       │      ├ PkgName         : python3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3@3.12.9-r0?arch=x86_64&distro=3
@@ -11683,7 +12147,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -11722,7 +12186,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [48] ╭ VulnerabilityID : CVE-2024-12718 
+│                       ├ [54] ╭ VulnerabilityID : CVE-2024-12718 
 │                       │      ├ PkgID           : python3-pyc@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.12.9-r0?arch=x86_64&dist
@@ -11804,7 +12268,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -11838,7 +12302,7 @@
 │                       │      │                  ╰ [37]: https://www.cve.org/CVERecord?id=CVE-2024-12718 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.183Z 
 │                       │      ╰ LastModifiedDate: 2025-07-24T16:15:29.157Z 
-│                       ├ [49] ╭ VulnerabilityID : CVE-2025-4138 
+│                       ├ [55] ╭ VulnerabilityID : CVE-2025-4138 
 │                       │      ├ PkgID           : python3-pyc@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.12.9-r0?arch=x86_64&dist
@@ -11918,7 +12382,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -11951,7 +12415,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4138 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.377Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.767Z 
-│                       ├ [50] ╭ VulnerabilityID : CVE-2025-4330 
+│                       ├ [56] ╭ VulnerabilityID : CVE-2025-4330 
 │                       │      ├ PkgID           : python3-pyc@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.12.9-r0?arch=x86_64&dist
@@ -12031,7 +12495,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -12064,7 +12528,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4330 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.503Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.91Z 
-│                       ├ [51] ╭ VulnerabilityID : CVE-2025-4517 
+│                       ├ [57] ╭ VulnerabilityID : CVE-2025-4517 
 │                       │      ├ PkgID           : python3-pyc@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.12.9-r0?arch=x86_64&dist
@@ -12144,7 +12608,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -12177,7 +12641,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4517 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.837Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:33.05Z 
-│                       ├ [52] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [58] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │      ├ PkgID           : python3-pyc@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pyc 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pyc@3.12.9-r0?arch=x86_64&dist
@@ -12204,7 +12668,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -12243,7 +12707,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [53] ╭ VulnerabilityID : CVE-2024-12718 
+│                       ├ [59] ╭ VulnerabilityID : CVE-2024-12718 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.12.9-r0?arch=x8
@@ -12325,7 +12789,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -12359,7 +12823,7 @@
 │                       │      │                  ╰ [37]: https://www.cve.org/CVERecord?id=CVE-2024-12718 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.183Z 
 │                       │      ╰ LastModifiedDate: 2025-07-24T16:15:29.157Z 
-│                       ├ [54] ╭ VulnerabilityID : CVE-2025-4138 
+│                       ├ [60] ╭ VulnerabilityID : CVE-2025-4138 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.12.9-r0?arch=x8
@@ -12439,7 +12903,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -12472,7 +12936,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4138 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.377Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.767Z 
-│                       ├ [55] ╭ VulnerabilityID : CVE-2025-4330 
+│                       ├ [61] ╭ VulnerabilityID : CVE-2025-4330 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.12.9-r0?arch=x8
@@ -12552,7 +13016,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -12585,7 +13049,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4330 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.503Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:32.91Z 
-│                       ├ [56] ╭ VulnerabilityID : CVE-2025-4517 
+│                       ├ [62] ╭ VulnerabilityID : CVE-2025-4517 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.12.9-r0?arch=x8
@@ -12665,7 +13129,7 @@
 │                       │      │                  ├ [16]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-4517 
 │                       │      │                  ├ [17]: https://errata.almalinux.org/9/ALSA-2025-10189.html 
-│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10031 
+│                       │      │                  ├ [18]: https://errata.rockylinux.org/RLSA-2025:10140 
 │                       │      │                  ├ [19]: https://gist.github.com/sethmlarson/52398e33eff261329
 │                       │      │                  │       a0180ac1d54f42f 
 │                       │      │                  ├ [20]: https://github.com/python/cpython/commit/19de092debb3
@@ -12698,7 +13162,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2025-4517 
 │                       │      ├ PublishedDate   : 2025-06-03T13:15:20.837Z 
 │                       │      ╰ LastModifiedDate: 2025-06-05T14:15:33.05Z 
-│                       ├ [57] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [63] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │      ├ PkgID           : python3-pycache-pyc0@3.12.9-r0 
 │                       │      ├ PkgName         : python3-pycache-pyc0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/python3-pycache-pyc0@3.12.9-r0?arch=x8
@@ -12725,7 +13189,7 @@
 │                       │      │                   DecodeError. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ redhat     : 2 
@@ -12764,7 +13228,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-4516 
 │                       │      ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │      ╰ LastModifiedDate: 2025-06-03T14:15:49.697Z 
-│                       ├ [58] ╭ VulnerabilityID : CVE-2025-3277 
+│                       ├ [64] ╭ VulnerabilityID : CVE-2025-3277 
 │                       │      ├ PkgID           : sqlite-libs@3.48.0-r0 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sqlite-libs@3.48.0-r0?arch=x86_64&dist
@@ -12822,7 +13286,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-3277 
 │                       │      ├ PublishedDate   : 2025-04-14T17:15:27.297Z 
 │                       │      ╰ LastModifiedDate: 2025-08-18T21:28:16.38Z 
-│                       ├ [59] ╭ VulnerabilityID : CVE-2025-6965 
+│                       ├ [65] ╭ VulnerabilityID : CVE-2025-6965 
 │                       │      ├ PkgID           : sqlite-libs@3.48.0-r0 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sqlite-libs@3.48.0-r0?arch=x86_64&dist
@@ -12865,25 +13329,31 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:H
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 7.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:11992 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-6965 
-│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2380149 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2380149 
-│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2025/Sep/49 
+│                       │      │                  ├ [1] : http://seclists.org/fulldisclosure/2025/Sep/53 
+│                       │      │                  ├ [2] : http://seclists.org/fulldisclosure/2025/Sep/56 
+│                       │      │                  ├ [3] : http://seclists.org/fulldisclosure/2025/Sep/57 
+│                       │      │                  ├ [4] : http://seclists.org/fulldisclosure/2025/Sep/58 
+│                       │      │                  ├ [5] : http://www.openwall.com/lists/oss-security/2025/09/06/1 
+│                       │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2025:11992 
+│                       │      │                  ├ [7] : https://access.redhat.com/security/cve/CVE-2025-6965 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2380149 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2380149 
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-6965 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-11992.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:12010 
-│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-6965.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-14101.html 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-6965 
-│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-7676-1 
-│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-7679-1 
-│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2025-6965 
-│                       │      │                  ╰ [13]: https://www.sqlite.org/src/info/5508b56fd24016c13981e
+│                       │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2025-11992.html 
+│                       │      │                  ├ [12]: https://errata.rockylinux.org/RLSA-2025:11933 
+│                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2025-6965.html 
+│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2025-14101.html 
+│                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-6965 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7676-1 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-7679-1 
+│                       │      │                  ├ [18]: https://www.cve.org/CVERecord?id=CVE-2025-6965 
+│                       │      │                  ╰ [19]: https://www.sqlite.org/src/info/5508b56fd24016c13981e
 │                       │      │                          c280ecdd833007c9d8dd595edb295b984c2b487b5c8 
 │                       │      ├ PublishedDate   : 2025-07-15T14:15:31.08Z 
-│                       │      ╰ LastModifiedDate: 2025-07-22T17:06:21.51Z 
-│                       ├ [60] ╭ VulnerabilityID : CVE-2025-29087 
+│                       │      ╰ LastModifiedDate: 2025-11-04T22:16:43.413Z 
+│                       ├ [66] ╭ VulnerabilityID : CVE-2025-29087 
 │                       │      ├ PkgID           : sqlite-libs@3.48.0-r0 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sqlite-libs@3.48.0-r0?arch=x86_64&dist
@@ -12934,7 +13404,7 @@
 │                       │      │                  ╰ [6]: https://www.sqlite.org/cves.html 
 │                       │      ├ PublishedDate   : 2025-04-07T20:15:20.253Z 
 │                       │      ╰ LastModifiedDate: 2025-04-30T12:43:22.31Z 
-│                       ├ [61] ╭ VulnerabilityID : CVE-2025-29088 
+│                       ├ [67] ╭ VulnerabilityID : CVE-2025-29088 
 │                       │      ├ PkgID           : sqlite-libs@3.48.0-r0 
 │                       │      ├ PkgName         : sqlite-libs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sqlite-libs@3.48.0-r0?arch=x86_64&dist
@@ -12989,7 +13459,7 @@
 │                       │      │                  ╰ [9]: https://www.sqlite.org/cves.html 
 │                       │      ├ PublishedDate   : 2025-04-10T14:15:27.163Z 
 │                       │      ╰ LastModifiedDate: 2025-09-30T16:59:27.32Z 
-│                       ├ [62] ╭ VulnerabilityID : CVE-2025-32462 
+│                       ├ [68] ╭ VulnerabilityID : CVE-2025-32462 
 │                       │      ├ PkgID           : sudo@1.9.16_p2-r0 
 │                       │      ├ PkgName         : sudo 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sudo@1.9.16_p2-r0?arch=x86_64&distro=3
@@ -13036,35 +13506,40 @@
 │                       │      │                  ├ [3] : https://bugs.gentoo.org/show_bug.cgi?id=CVE-2025-32462 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2374692 
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2374692 
-│                       │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2374693 
+│                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-32462 
-│                       │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2025-9978.html 
-│                       │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2025:10110 
-│                       │      │                  ├ [9] : https://explore.alas.aws.amazon.com/CVE-2025-32462.html 
-│                       │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2025-32462.html 
-│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-9978.html 
-│                       │      │                  ├ [12]: https://lists.debian.org/debian-security-announce/202
+│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-32463 
+│                       │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2025-9978.html 
+│                       │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2025:11537 
+│                       │      │                  ├ [11]: https://explore.alas.aws.amazon.com/CVE-2025-32462.html 
+│                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2025-32462.html 
+│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2025-9978.html 
+│                       │      │                  ├ [14]: https://lists.debian.org/debian-lts-announce/2025/06/
+│                       │      │                  │       msg00033.html 
+│                       │      │                  ├ [15]: https://lists.debian.org/debian-security-announce/202
 │                       │      │                  │       5/msg00118.html 
-│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2025-32462 
-│                       │      │                  ├ [14]: https://security-tracker.debian.org/tracker/CVE-2025-
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-32462 
+│                       │      │                  ├ [17]: https://security-tracker.debian.org/tracker/CVE-2025-
 │                       │      │                  │       32462 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-7604-1 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-7604-2 
-│                       │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2025-32462 
-│                       │      │                  ├ [18]: https://www.openwall.com/lists/oss-security/2025/06/3
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-7604-1 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-7604-2 
+│                       │      │                  ├ [20]: https://www.cve.org/CVERecord?id=CVE-2025-32462 
+│                       │      │                  ├ [21]: https://www.openwall.com/lists/oss-security/2025/06/3
 │                       │      │                  │       0/2 
-│                       │      │                  ├ [19]: https://www.secpod.com/blog/sudo-lpe-vulnerabilities-
+│                       │      │                  ├ [22]: https://www.secpod.com/blog/sudo-lpe-vulnerabilities-
 │                       │      │                  │       resolved-what-you-need-to-know-about-cve-2025-32462-a
 │                       │      │                  │       nd-cve-2025-32463/ 
-│                       │      │                  ├ [20]: https://www.stratascale.com/vulnerability-alert-CVE-2
+│                       │      │                  ├ [23]: https://www.stratascale.com/vulnerability-alert-CVE-2
 │                       │      │                  │       025-32462-sudo-host 
-│                       │      │                  ├ [21]: https://www.sudo.ws/releases/changelog/ 
-│                       │      │                  ├ [22]: https://www.sudo.ws/security/advisories/ 
-│                       │      │                  ├ [23]: https://www.sudo.ws/security/advisories/host_any/ 
-│                       │      │                  ╰ [24]: https://www.suse.com/security/cve/CVE-2025-32462.html 
+│                       │      │                  ├ [24]: https://www.sudo.ws/releases/changelog/ 
+│                       │      │                  ├ [25]: https://www.sudo.ws/security/advisories/ 
+│                       │      │                  ├ [26]: https://www.sudo.ws/security/advisories/host_any/ 
+│                       │      │                  ╰ [27]: https://www.suse.com/security/cve/CVE-2025-32462.html 
 │                       │      ├ PublishedDate   : 2025-06-30T21:15:30.08Z 
-│                       │      ╰ LastModifiedDate: 2025-07-25T15:15:26.497Z 
-│                       ├ [63] ╭ VulnerabilityID : CVE-2025-32463 
+│                       │      ╰ LastModifiedDate: 2025-11-03T20:18:27.727Z 
+│                       ├ [69] ╭ VulnerabilityID : CVE-2025-32463 
 │                       │      ├ PkgID           : sudo@1.9.16_p2-r0 
 │                       │      ├ PkgName         : sudo 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sudo@1.9.16_p2-r0?arch=x86_64&distro=3
@@ -13151,8 +13626,8 @@
 │                       │      │                  ╰ [31]: https://www.vicarius.io/vsociety/posts/cve-2025-32463
 │                       │      │                          -mitigate-sudo-vulnerability 
 │                       │      ├ PublishedDate   : 2025-06-30T21:15:30.257Z 
-│                       │      ╰ LastModifiedDate: 2025-10-21T23:16:59.997Z 
-│                       ╰ [64] ╭ VulnerabilityID : CVE-2025-31115 
+│                       │      ╰ LastModifiedDate: 2025-11-05T19:26:48.393Z 
+│                       ╰ [70] ╭ VulnerabilityID : CVE-2025-31115 
 │                              ├ PkgID           : xz-libs@5.6.3-r0 
 │                              ├ PkgName         : xz-libs 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/xz-libs@5.6.3-r0?arch=x86_64&distro=3.
@@ -13852,14 +14327,23 @@
                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
                               │                           │           A:L 
                               │                           ╰ V3Score : 3.7 
-                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-48924 
-                              │                  ├ [1]: https://github.com/apache/commons-lang 
-                              │                  ├ [2]: https://github.com/apache/commons-lang/commit/b424803ab
-                              │                  │      db2bec818e4fbcb251ce031c22aca53 
-                              │                  ├ [3]: https://lists.apache.org/thread/bgv0lpswokgol11tloxnjfz
-                              │                  │      dl7yrc1g1 
-                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-48924 
-                              │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-48924 
+                              ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/07/11/1 
+                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-48924 
+                              │                  ├ [2] : https://github.com/apache/commons-lang 
+                              │                  ├ [3] : https://github.com/apache/commons-lang/commit/b424803a
+                              │                  │       bdb2bec818e4fbcb251ce031c22aca53 
+                              │                  ├ [4] : https://lists.apache.org/thread/bgv0lpswokgol11tloxnjf
+                              │                  │       zdl7yrc1g1 
+                              │                  ├ [5] : https://lists.debian.org/debian-lts-announce/2025/08/m
+                              │                  │       sg00000.html 
+                              │                  ├ [6] : https://lists.debian.org/debian-lts-announce/2025/08/m
+                              │                  │       sg00026.html 
+                              │                  ├ [7] : https://lists.debian.org/debian-lts-announce/2025/09/m
+                              │                  │       sg00032.html 
+                              │                  ├ [8] : https://lists.debian.org/debian-lts-announce/2025/09/m
+                              │                  │       sg00036.html 
+                              │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-48924 
+                              │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-48924 
                               ├ PublishedDate   : 2025-07-11T15:15:24.347Z 
-                              ╰ LastModifiedDate: 2025-07-28T13:45:38.647Z 
+                              ╰ LastModifiedDate: 2025-11-04T22:16:17.823Z 
 ````
