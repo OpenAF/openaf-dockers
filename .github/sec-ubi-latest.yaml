@@ -35057,6 +35057,43 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-25317
     PublishedDate: '2021-05-05T10:15:08.133Z'
     LastModifiedDate: '2024-11-21T05:54:44.187Z'
+  - VulnerabilityID: CVE-2025-10966
+    PkgID: curl-minimal@7.76.1-31.el9_6.1.x86_64
+    PkgName: curl-minimal
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/curl-minimal@7.76.1-31.el9_6.1?arch=x86_64&distro=redhat-9.6
+      UID: cd810536d1efc95a
+    InstalledVersion: 7.76.1-31.el9_6.1
+    Status: affected
+    Layer:
+      Digest: sha256:f7e6c245b3951fabccb1392499a2a3bdb81c682823f7d98598d63fd71484b12d
+      DiffID: sha256:eb15d08491f3d1dc55049576a8c179f4b27b3c177023ebac39b6f899d445db45
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10966
+    Title: 'curl: Curl missing SFTP host verification with wolfSSH backend'
+    Description: |-
+      curl's code for managing SSH connections when SFTP was done using the wolfSSH
+      powered backend was flawed and missed host verification mechanisms.
+
+      This prevents curl from detecting MITM attackers and more.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/11/05/2
+    - https://access.redhat.com/security/cve/CVE-2025-10966
+    - https://curl.se/docs/CVE-2025-10966.html
+    - https://curl.se/docs/CVE-2025-10966.json
+    - https://github.com/curl/curl/commit/b011e3fcfb06d6c027859
+    - https://hackerone.com/reports/3355218
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-10966
+    - https://www.cve.org/CVERecord?id=CVE-2025-10966
+    PublishedDate: '2025-11-07T08:15:39.617Z'
+    LastModifiedDate: '2025-11-07T08:15:39.617Z'
   - VulnerabilityID: CVE-2025-9086
     PkgID: curl-minimal@7.76.1-31.el9_6.1.x86_64
     PkgName: curl-minimal
@@ -36156,6 +36193,43 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-5918
     PublishedDate: '2025-06-09T20:15:27.493Z'
     LastModifiedDate: '2025-08-15T18:35:04.39Z'
+  - VulnerabilityID: CVE-2025-10966
+    PkgID: libcurl-minimal@7.76.1-31.el9_6.1.x86_64
+    PkgName: libcurl-minimal
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-31.el9_6.1?arch=x86_64&distro=redhat-9.6
+      UID: 73acd586904554a7
+    InstalledVersion: 7.76.1-31.el9_6.1
+    Status: affected
+    Layer:
+      Digest: sha256:f7e6c245b3951fabccb1392499a2a3bdb81c682823f7d98598d63fd71484b12d
+      DiffID: sha256:eb15d08491f3d1dc55049576a8c179f4b27b3c177023ebac39b6f899d445db45
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10966
+    Title: 'curl: Curl missing SFTP host verification with wolfSSH backend'
+    Description: |-
+      curl's code for managing SSH connections when SFTP was done using the wolfSSH
+      powered backend was flawed and missed host verification mechanisms.
+
+      This prevents curl from detecting MITM attackers and more.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/11/05/2
+    - https://access.redhat.com/security/cve/CVE-2025-10966
+    - https://curl.se/docs/CVE-2025-10966.html
+    - https://curl.se/docs/CVE-2025-10966.json
+    - https://github.com/curl/curl/commit/b011e3fcfb06d6c027859
+    - https://hackerone.com/reports/3355218
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-10966
+    - https://www.cve.org/CVERecord?id=CVE-2025-10966
+    PublishedDate: '2025-11-07T08:15:39.617Z'
+    LastModifiedDate: '2025-11-07T08:15:39.617Z'
   - VulnerabilityID: CVE-2025-9086
     PkgID: libcurl-minimal@7.76.1-31.el9_6.1.x86_64
     PkgName: libcurl-minimal
@@ -36630,6 +36704,37 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2024-11-21T06:56:31.04Z'
+  - VulnerabilityID: CVE-2025-12863
+    PkgID: libxml2@2.9.13-12.el9_6.x86_64
+    PkgName: libxml2
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libxml2@2.9.13-12.el9_6?arch=x86_64&distro=redhat-9.6
+      UID: d6fc3630b049eabb
+    InstalledVersion: 2.9.13-12.el9_6
+    Status: affected
+    Layer:
+      Digest: sha256:f7e6c245b3951fabccb1392499a2a3bdb81c682823f7d98598d63fd71484b12d
+      DiffID: sha256:eb15d08491f3d1dc55049576a8c179f4b27b3c177023ebac39b6f899d445db45
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-12863
+    Title: 'libxml2: Namespace Use-After-Free in xmlSetTreeDoc() function of libxml2'
+    Description: A flaw was found in the xmlSetTreeDoc() function of the libxml2 XML parsing library. This function is responsible for updating document pointers when XML nodes are moved between documents. Due to improper handling of namespace references, a namespace pointer may remain linked to a freed memory region when the original document is destroyed. As a result, subsequent operations that access the namespace can lead to a use-after-free condition, causing an application crash.
+    Severity: HIGH
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-12863
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2413323
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-12863
+    - https://www.cve.org/CVERecord?id=CVE-2025-12863
+    PublishedDate: '2025-11-07T21:15:40.393Z'
+    LastModifiedDate: '2025-11-07T21:15:40.393Z'
   - VulnerabilityID: CVE-2025-9714
     PkgID: libxml2@2.9.13-12.el9_6.x86_64
     PkgName: libxml2
@@ -38424,7 +38529,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -38668,7 +38773,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -38912,7 +39017,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       redhat: 2
