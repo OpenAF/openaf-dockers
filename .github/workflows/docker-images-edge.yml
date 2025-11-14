@@ -388,6 +388,40 @@ jobs:
         tags: openaf/ojobrt:build
         build-args: DIST=build
 
+  build-mini-a:
+    needs: build-openaf
+    runs-on: ubuntu-latest
+    steps:
+    - name: Set up QEMU
+      uses: docker/setup-qemu-action@v3
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+    - name: Login to DockerHub
+      uses: docker/login-action@v3
+      with:
+        username: ${{ secrets.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_TOKEN }}
+    - uses: docker/build-push-action@v6
+      name: Build and push based on input
+      if  : ${{ github.event.inputs.baseTag }}
+      with:
+        platforms: linux/amd64,linux/arm64
+        context: "{{defaultContext}}:mini-a"
+        push: true
+        tags: openaf/mini-a:${{ github.event.inputs.baseTag }}
+        build-args: | 
+          DIST=${{ github.event.inputs.baseTag }}
+          OPENAFDIST=${{ github.event.inputs.oafDist }}
+    - uses: docker/build-push-action@v6
+      name: Build and push
+      if  : ${{ ! github.event.inputs.baseTag }}
+      with:
+        platforms: linux/amd64,linux/arm64
+        context: "{{defaultContext}}:mini-a"
+        push: true
+        tags: openaf/mini-a:build
+        build-args: DIST=build
+
   aws-copy:
     name   : AWS Copy
     runs-on: ubuntu-latest
@@ -402,6 +436,7 @@ jobs:
     - build-ojobrt
     - build-openaf-console
     - build-console
+    - build-mini-a
     steps  :
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
