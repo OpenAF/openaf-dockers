@@ -7862,6 +7862,7 @@
       it on an insecure host should not be okay.
     Severity: LOW
     VendorSeverity:
+      amazon: 1
       photon: 3
       redhat: 2
       ubuntu: 1
@@ -8191,6 +8192,7 @@
       it on an insecure host should not be okay.
     Severity: LOW
     VendorSeverity:
+      amazon: 1
       photon: 3
       redhat: 2
       ubuntu: 1
@@ -8338,6 +8340,7 @@
     - CWE-22
     VendorSeverity:
       alma: 3
+      amazon: 2
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -8456,6 +8459,7 @@
     - CWE-22
     VendorSeverity:
       alma: 3
+      amazon: 2
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -8574,6 +8578,7 @@
     - CWE-22
     VendorSeverity:
       alma: 3
+      amazon: 2
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -8692,6 +8697,7 @@
     - CWE-22
     VendorSeverity:
       alma: 3
+      amazon: 2
       oracle-oval: 3
       redhat: 3
       rocky: 3
@@ -9485,7 +9491,7 @@
     - CWE-689
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       oracle-oval: 2
