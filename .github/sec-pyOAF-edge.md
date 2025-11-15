@@ -8091,7 +8091,8 @@
 │                       │      │                   host so overriding
 │                       │      │                   it on an insecure host should not be okay. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      ├ VendorSeverity   ╭ amazon: 1 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
@@ -8831,7 +8832,8 @@
 │                       │      │                   host so overriding
 │                       │      │                   it on an insecure host should not be okay. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      ├ VendorSeverity   ╭ amazon: 1 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
@@ -8873,7 +8875,8 @@
 │                       │      │                   is submitted for parsing. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-770 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
@@ -8883,18 +8886,21 @@
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/09/16/2 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-59375 
-│                       │      │                  ├ [2] : https://github.com/libexpat/libexpat/blob/676a4c531ec
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2025:19403 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-59375 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2395108 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/10/ALSA-2025-19403.html 
+│                       │      │                  ├ [5] : https://github.com/libexpat/libexpat/blob/676a4c531ec
 │                       │      │                  │       768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74 
-│                       │      │                  ├ [3] : https://github.com/libexpat/libexpat/blob/R_2_7_2/exp
+│                       │      │                  ├ [6] : https://github.com/libexpat/libexpat/blob/R_2_7_2/exp
 │                       │      │                  │       at/Changes 
-│                       │      │                  ├ [4] : https://github.com/libexpat/libexpat/issues/1018 
-│                       │      │                  ├ [5] : https://github.com/libexpat/libexpat/pull/1034 
-│                       │      │                  ├ [6] : https://issues.oss-fuzz.com/issues/439133977 
-│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2025-59375.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2025-19403.html 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2025-59375 
-│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-59375 
+│                       │      │                  ├ [7] : https://github.com/libexpat/libexpat/issues/1018 
+│                       │      │                  ├ [8] : https://github.com/libexpat/libexpat/pull/1034 
+│                       │      │                  ├ [9] : https://issues.oss-fuzz.com/issues/439133977 
+│                       │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2025-59375.html 
+│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2025-19403.html 
+│                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2025-59375 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2025-59375 
 │                       │      ├ PublishedDate   : 2025-09-15T03:15:40.92Z 
 │                       │      ╰ LastModifiedDate: 2025-11-04T22:16:34.927Z 
 │                       ├ [16] ╭ VulnerabilityID : CVE-2025-9230 
@@ -9885,7 +9891,8 @@
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
@@ -9897,8 +9904,10 @@
 │                       │      │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2025/10/m
 │                       │      │                  │      sg00026.html 
 │                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-53057 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-53057 
-│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │      │                  ├ [7]: https://openjdk.org/groups/vulnerability/advisories/20
+│                       │      │                  │      25-10-21 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-53057 
+│                       │      │                  ╰ [9]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:45.24Z 
 │                       │      ╰ LastModifiedDate: 2025-11-03T18:16:56.973Z 
 │                       ├ [28] ╭ VulnerabilityID : CVE-2025-53066 
@@ -9948,7 +9957,8 @@
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 3 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.8 
@@ -9960,8 +9970,10 @@
 │                       │      │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2025/10/m
 │                       │      │                  │      sg00026.html 
 │                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-53066 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-53066 
-│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │      │                  ├ [7]: https://openjdk.org/groups/vulnerability/advisories/20
+│                       │      │                  │      25-10-21 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-53066 
+│                       │      │                  ╰ [9]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:47.177Z 
 │                       │      ╰ LastModifiedDate: 2025-11-03T18:16:57.227Z 
 │                       ├ [29] ╭ VulnerabilityID : CVE-2025-61748 
@@ -10782,7 +10794,8 @@
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 2 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
@@ -10794,8 +10807,10 @@
 │                       │      │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2025/10/m
 │                       │      │                  │      sg00026.html 
 │                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-53057 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-53057 
-│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │      │                  ├ [7]: https://openjdk.org/groups/vulnerability/advisories/20
+│                       │      │                  │      25-10-21 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-53057 
+│                       │      │                  ╰ [9]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:45.24Z 
 │                       │      ╰ LastModifiedDate: 2025-11-03T18:16:56.973Z 
 │                       ├ [39] ╭ VulnerabilityID : CVE-2025-53066 
@@ -10845,7 +10860,8 @@
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 3 
-│                       │      │                  ╰ redhat     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 4.8 
@@ -10857,8 +10873,10 @@
 │                       │      │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2025/10/m
 │                       │      │                  │      sg00026.html 
 │                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-53066 
-│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-53066 
-│                       │      │                  ╰ [8]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │      │                  ├ [7]: https://openjdk.org/groups/vulnerability/advisories/20
+│                       │      │                  │      25-10-21 
+│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-53066 
+│                       │      │                  ╰ [9]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │      ├ PublishedDate   : 2025-10-21T20:20:47.177Z 
 │                       │      ╰ LastModifiedDate: 2025-11-03T18:16:57.227Z 
 │                       ├ [40] ╭ VulnerabilityID : CVE-2025-61748 

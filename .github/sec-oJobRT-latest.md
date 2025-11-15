@@ -2351,7 +2351,8 @@
 │                       │     │                  ├ amazon     : 2 
 │                       │     │                  ├ oracle-oval: 2 
 │                       │     │                  ├ photon     : 2 
-│                       │     │                  ╰ redhat     : 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/
 │                       │     │                           │           A:N 
 │                       │     │                           ╰ V3Score : 5.9 
@@ -2363,8 +2364,10 @@
 │                       │     │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2025/10/ms
 │                       │     │                  │      g00026.html 
 │                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-53057 
-│                       │     │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-53057 
-│                       │     │                  ╰ [8]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │     │                  ├ [7]: https://openjdk.org/groups/vulnerability/advisories/202
+│                       │     │                  │      5-10-21 
+│                       │     │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-53057 
+│                       │     │                  ╰ [9]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │     ├ PublishedDate   : 2025-10-21T20:20:45.24Z 
 │                       │     ╰ LastModifiedDate: 2025-11-03T18:16:56.973Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2025-53066 
@@ -2413,7 +2416,8 @@
 │                       │     │                  ├ amazon     : 2 
 │                       │     │                  ├ oracle-oval: 2 
 │                       │     │                  ├ photon     : 3 
-│                       │     │                  ╰ redhat     : 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/
 │                       │     │                           │           A:L 
 │                       │     │                           ╰ V3Score : 4.8 
@@ -2425,8 +2429,10 @@
 │                       │     │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2025/10/ms
 │                       │     │                  │      g00026.html 
 │                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-53066 
-│                       │     │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-53066 
-│                       │     │                  ╰ [8]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │     │                  ├ [7]: https://openjdk.org/groups/vulnerability/advisories/202
+│                       │     │                  │      5-10-21 
+│                       │     │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-53066 
+│                       │     │                  ╰ [9]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │     ├ PublishedDate   : 2025-10-21T20:20:47.177Z 
 │                       │     ╰ LastModifiedDate: 2025-11-03T18:16:57.227Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2025-61748 
@@ -2534,7 +2540,8 @@
 │                       │     │                  ├ amazon     : 2 
 │                       │     │                  ├ oracle-oval: 2 
 │                       │     │                  ├ photon     : 2 
-│                       │     │                  ╰ redhat     : 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/
 │                       │     │                           │           A:N 
 │                       │     │                           ╰ V3Score : 5.9 
@@ -2546,8 +2553,10 @@
 │                       │     │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2025/10/ms
 │                       │     │                  │      g00026.html 
 │                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-53057 
-│                       │     │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-53057 
-│                       │     │                  ╰ [8]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │     │                  ├ [7]: https://openjdk.org/groups/vulnerability/advisories/202
+│                       │     │                  │      5-10-21 
+│                       │     │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-53057 
+│                       │     │                  ╰ [9]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │     ├ PublishedDate   : 2025-10-21T20:20:45.24Z 
 │                       │     ╰ LastModifiedDate: 2025-11-03T18:16:56.973Z 
 │                       ├ [4] ╭ VulnerabilityID : CVE-2025-53066 
@@ -2596,7 +2605,8 @@
 │                       │     │                  ├ amazon     : 2 
 │                       │     │                  ├ oracle-oval: 2 
 │                       │     │                  ├ photon     : 3 
-│                       │     │                  ╰ redhat     : 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ╰ ubuntu     : 2 
 │                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/
 │                       │     │                           │           A:L 
 │                       │     │                           ╰ V3Score : 4.8 
@@ -2608,8 +2618,10 @@
 │                       │     │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2025/10/ms
 │                       │     │                  │      g00026.html 
 │                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-53066 
-│                       │     │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-53066 
-│                       │     │                  ╰ [8]: https://www.oracle.com/security-alerts/cpuoct2025.html 
+│                       │     │                  ├ [7]: https://openjdk.org/groups/vulnerability/advisories/202
+│                       │     │                  │      5-10-21 
+│                       │     │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2025-53066 
+│                       │     │                  ╰ [9]: https://www.oracle.com/security-alerts/cpuoct2025.html 
 │                       │     ├ PublishedDate   : 2025-10-21T20:20:47.177Z 
 │                       │     ╰ LastModifiedDate: 2025-11-03T18:16:57.227Z 
 │                       ╰ [5] ╭ VulnerabilityID : CVE-2025-61748 
