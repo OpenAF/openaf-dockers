@@ -5846,6 +5846,7 @@
       it on an insecure host should not be okay.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 1
       photon: 3
       redhat: 2
       ubuntu: 1
@@ -6492,6 +6493,7 @@
       it on an insecure host should not be okay.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 1
       photon: 3
       redhat: 2
       ubuntu: 1
@@ -6533,6 +6535,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      alma: 3
       amazon: 3
       azure: 2
       cbl-mariner: 2
@@ -6545,7 +6548,10 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2025/09/16/2
+    - https://access.redhat.com/errata/RHSA-2025:19403
     - https://access.redhat.com/security/cve/CVE-2025-59375
+    - https://bugzilla.redhat.com/2395108
+    - https://errata.almalinux.org/10/ALSA-2025-19403.html
     - https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74
     - https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes
     - https://github.com/libexpat/libexpat/issues/1018
@@ -7289,6 +7295,7 @@
       oracle-oval: 2
       photon: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
@@ -7301,6 +7308,7 @@
     - https://linux.oracle.com/errata/ELSA-2025-18824.html
     - https://lists.debian.org/debian-lts-announce/2025/10/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-53057
+    - https://openjdk.org/groups/vulnerability/advisories/2025-10-21
     - https://www.cve.org/CVERecord?id=CVE-2025-53057
     - https://www.oracle.com/security-alerts/cpuoct2025.html
     PublishedDate: '2025-10-21T20:20:45.24Z'
@@ -7333,6 +7341,7 @@
       oracle-oval: 2
       photon: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L
@@ -7345,6 +7354,7 @@
     - https://linux.oracle.com/errata/ELSA-2025-18824.html
     - https://lists.debian.org/debian-lts-announce/2025/10/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-53066
+    - https://openjdk.org/groups/vulnerability/advisories/2025-10-21
     - https://www.cve.org/CVERecord?id=CVE-2025-53066
     - https://www.oracle.com/security-alerts/cpuoct2025.html
     PublishedDate: '2025-10-21T20:20:47.177Z'
@@ -7926,6 +7936,7 @@
       oracle-oval: 2
       photon: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
@@ -7938,6 +7949,7 @@
     - https://linux.oracle.com/errata/ELSA-2025-18824.html
     - https://lists.debian.org/debian-lts-announce/2025/10/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-53057
+    - https://openjdk.org/groups/vulnerability/advisories/2025-10-21
     - https://www.cve.org/CVERecord?id=CVE-2025-53057
     - https://www.oracle.com/security-alerts/cpuoct2025.html
     PublishedDate: '2025-10-21T20:20:45.24Z'
@@ -7970,6 +7982,7 @@
       oracle-oval: 2
       photon: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L
@@ -7982,6 +7995,7 @@
     - https://linux.oracle.com/errata/ELSA-2025-18824.html
     - https://lists.debian.org/debian-lts-announce/2025/10/msg00026.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-53066
+    - https://openjdk.org/groups/vulnerability/advisories/2025-10-21
     - https://www.cve.org/CVERecord?id=CVE-2025-53066
     - https://www.oracle.com/security-alerts/cpuoct2025.html
     PublishedDate: '2025-10-21T20:20:47.177Z'
