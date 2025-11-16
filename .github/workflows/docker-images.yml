@@ -51,15 +51,15 @@ jobs:
         push: true
         tags: openaf/nattrmon:${{ github.event.inputs.baseTag }}
         build-args: url=openaf/oaf:${{ github.event.inputs.baseTag }}
-    - uses: docker/build-push-action@v6
-      name: Build and push
-      if  : ${{ ! github.event.inputs.baseTag }}
-      with:
-        platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:nAttrMon"
-        push: true
-        tags: openaf/nattrmon:build
-        build-args: url=openaf/oaf:build
+    # - uses: docker/build-push-action@v6
+    #   name: Build and push
+    #   if  : ${{ ! github.event.inputs.baseTag }}
+    #   with:
+    #     platforms: linux/amd64,linux/arm64
+    #     context: "{{defaultContext}}:nAttrMon"
+    #     push: true
+    #     tags: openaf/nattrmon:build
+    #     build-args: url=openaf/oaf:build
         
   build-pyoaf:
     needs: build-oaf
@@ -83,15 +83,15 @@ jobs:
         push: true
         tags: openaf/pyoaf:${{ github.event.inputs.baseTag }}
         build-args: url=openaf/oaf:${{ github.event.inputs.baseTag }}
-    - uses: docker/build-push-action@v6
-      name: Build and push
-      if  : ${{ ! github.event.inputs.baseTag && github.event.inputs.ubi != 'yes' && github.event.inputs.deb != 'yes' }}
-      with:
-        platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:openaf-py"
-        push: true
-        tags: openaf/pyoaf:build
-        build-args: url=openaf/pyoaf:build
+    # - uses: docker/build-push-action@v6
+    #   name: Build and push
+    #   if  : ${{ ! github.event.inputs.baseTag && github.event.inputs.ubi != 'yes' && github.event.inputs.deb != 'yes' }}
+    #   with:
+    #     platforms: linux/amd64,linux/arm64
+    #     context: "{{defaultContext}}:openaf-py"
+    #     push: true
+    #     tags: openaf/pyoaf:build
+    #     build-args: url=openaf/pyoaf:build
 
   build-oaf:
     runs-on: ubuntu-latest
@@ -138,15 +138,15 @@ jobs:
         build-args: | 
           DIST=${{ github.event.inputs.baseTag }}
           OPENAFDIST=${{ github.event.inputs.oafDist }}
-    - uses: docker/build-push-action@v6
-      name: Build and push
-      if  : ${{ ! github.event.inputs.baseTag }}
-      with:
-        platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:openaf"
-        push: true
-        tags: openaf/oaf:build
-        build-args: DIST=build
+    # - uses: docker/build-push-action@v6
+    #   name: Build and push
+    #   if  : ${{ ! github.event.inputs.baseTag }}
+    #   with:
+    #     platforms: linux/amd64,linux/arm64
+    #     context: "{{defaultContext}}:openaf"
+    #     push: true
+    #     tags: openaf/oaf:build
+    #     build-args: DIST=build
         
   build-openaf:
     runs-on: ubuntu-latest
@@ -193,15 +193,15 @@ jobs:
         build-args: | 
           DIST=${{ github.event.inputs.baseTag }}
           OPENAFDIST=${{ github.event.inputs.oafDist }}
-    - uses: docker/build-push-action@v6
-      name: Build and push
-      if  : ${{ ! github.event.inputs.baseTag }}
-      with:
-        platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:openaf"
-        push: true
-        tags: openaf/openaf:build
-        build-args: DIST=build
+    # - uses: docker/build-push-action@v6
+    #   name: Build and push
+    #   if  : ${{ ! github.event.inputs.baseTag }}
+    #   with:
+    #     platforms: linux/amd64,linux/arm64
+    #     context: "{{defaultContext}}:openaf"
+    #     push: true
+    #     tags: openaf/openaf:build
+    #     build-args: DIST=build
         
   build-openaf-ojobc:
     needs: build-openaf
@@ -227,15 +227,15 @@ jobs:
         build-args: | 
           DIST=${{ github.event.inputs.baseTag }}
           OPENAFDIST=${{ github.event.inputs.oafDist }}
-    - uses: docker/build-push-action@v6
-      name: Build and push
-      if  : ${{ ! github.event.inputs.baseTag }}
-      with:
-        platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:oJobC"
-        push: true
-        tags: openaf/openaf-ojobc:build
-        build-args: DIST=build  
+    # - uses: docker/build-push-action@v6
+    #   name: Build and push
+    #   if  : ${{ ! github.event.inputs.baseTag }}
+    #   with:
+    #     platforms: linux/amd64,linux/arm64
+    #     context: "{{defaultContext}}:oJobC"
+    #     push: true
+    #     tags: openaf/openaf-ojobc:build
+    #     build-args: DIST=build  
       
   build-ojobc:
     needs: build-openaf
@@ -261,15 +261,15 @@ jobs:
         build-args: | 
           DIST=${{ github.event.inputs.baseTag }}
           OPENAFDIST=${{ github.event.inputs.oafDist }}
-    - uses: docker/build-push-action@v6
-      name: Build and push
-      if  : ${{ ! github.event.inputs.baseTag }}
-      with:
-        platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:oJobC"
-        push: true
-        tags: openaf/ojobc:build
-        build-args: DIST=build       
+    # - uses: docker/build-push-action@v6
+    #   name: Build and push
+    #   if  : ${{ ! github.event.inputs.baseTag }}
+    #   with:
+    #     platforms: linux/amd64,linux/arm64
+    #     context: "{{defaultContext}}:oJobC"
+    #     push: true
+    #     tags: openaf/ojobc:build
+    #     build-args: DIST=build       
       
   build-openaf-ojob:
     needs: build-openaf
@@ -295,15 +295,15 @@ jobs:
         build-args: | 
           DIST=${{ github.event.inputs.baseTag }}
           OPENAFDIST=${{ github.event.inputs.oafDist }}
-    - uses: docker/build-push-action@v6
-      name: Build and push
-      if  : ${{ ! github.event.inputs.baseTag }}
-      with:
-        platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:oJob"
-        push: true
-        tags: openaf/openaf-ojob:build
-        build-args: DIST=build        
+    # - uses: docker/build-push-action@v6
+    #   name: Build and push
+    #   if  : ${{ ! github.event.inputs.baseTag }}
+    #   with:
+    #     platforms: linux/amd64,linux/arm64
+    #     context: "{{defaultContext}}:oJob"
+    #     push: true
+    #     tags: openaf/openaf-ojob:build
+    #     build-args: DIST=build        
       
   build-ojob:
     needs: build-openaf
@@ -329,15 +329,15 @@ jobs:
         build-args: | 
           DIST=${{ github.event.inputs.baseTag }}
           OPENAFDIST=${{ github.event.inputs.oafDist }}
-    - uses: docker/build-push-action@v6
-      name: Build and push
-      if  : ${{ ! github.event.inputs.baseTag }}
-      with:
-        platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:oJob"
-        push: true
-        tags: openaf/ojob:build
-        build-args: DIST=build     
+    # - uses: docker/build-push-action@v6
+    #   name: Build and push
+    #   if  : ${{ ! github.event.inputs.baseTag }}
+    #   with:
+    #     platforms: linux/amd64,linux/arm64
+    #     context: "{{defaultContext}}:oJob"
+    #     push: true
+    #     tags: openaf/ojob:build
+    #     build-args: DIST=build     
   
   build-openaf-console:
     needs: build-openaf
@@ -363,15 +363,15 @@ jobs:
         build-args: | 
           DIST=${{ github.event.inputs.baseTag }}
           OPENAFDIST=${{ github.event.inputs.oafDist }}
-    - uses: docker/build-push-action@v6
-      name: Build and push
-      if  : ${{ ! github.event.inputs.baseTag }}
-      with:
-        platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:openaf-console"
-        push: true
-        tags: openaf/openaf-console:build
-        build-args: DIST=build        
+    # - uses: docker/build-push-action@v6
+    #   name: Build and push
+    #   if  : ${{ ! github.event.inputs.baseTag }}
+    #   with:
+    #     platforms: linux/amd64,linux/arm64
+    #     context: "{{defaultContext}}:openaf-console"
+    #     push: true
+    #     tags: openaf/openaf-console:build
+    #     build-args: DIST=build        
       
   build-console:
     needs: build-openaf
@@ -397,15 +397,15 @@ jobs:
         build-args: | 
           DIST=${{ github.event.inputs.baseTag }}
           OPENAFDIST=${{ github.event.inputs.oafDist }}
-    - uses: docker/build-push-action@v6
-      name: Build and push
-      if  : ${{ ! github.event.inputs.baseTag }}
-      with:
-        platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:openaf-console"
-        push: true
-        tags: openaf/oafc:build
-        build-args: DIST=build     
+    # - uses: docker/build-push-action@v6
+    #   name: Build and push
+    #   if  : ${{ ! github.event.inputs.baseTag }}
+    #   with:
+    #     platforms: linux/amd64,linux/arm64
+    #     context: "{{defaultContext}}:openaf-console"
+    #     push: true
+    #     tags: openaf/oafc:build
+    #     build-args: DIST=build     
 
   build-ojobrt:
     needs: build-openaf
@@ -431,15 +431,49 @@ jobs:
         build-args: | 
           DIST=${{ github.event.inputs.baseTag }}
           OPENAFDIST=${{ github.event.inputs.oafDist }}
+    # - uses: docker/build-push-action@v6
+    #   name: Build and push
+    #   if  : ${{ ! github.event.inputs.baseTag }}
+    #   with:
+    #     platforms: linux/amd64,linux/arm64
+    #     context: "{{defaultContext}}:oJobRT"
+    #     push: true
+    #     tags: openaf/ojobrt:build
+    #     build-args: DIST=build
+
+  build-mini-a:
+    needs: build-openaf
+    runs-on: ubuntu-latest
+    steps:
+    - name: Set up QEMU
+      uses: docker/setup-qemu-action@v3
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+    - name: Login to DockerHub
+      uses: docker/login-action@v3
+      with:
+        username: ${{ secrets.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_TOKEN }}
     - uses: docker/build-push-action@v6
-      name: Build and push
-      if  : ${{ ! github.event.inputs.baseTag }}
+      name: Build and push based on input
+      if  : ${{ github.event.inputs.baseTag }}
       with:
         platforms: linux/amd64,linux/arm64
-        context: "{{defaultContext}}:oJobRT"
+        context: "{{defaultContext}}:mini-a"
         push: true
-        tags: openaf/ojobrt:build
-        build-args: DIST=build
+        tags: openaf/mini-a:${{ github.event.inputs.baseTag }}
+        build-args: | 
+          DIST=${{ github.event.inputs.baseTag }}
+          OPENAFDIST=${{ github.event.inputs.oafDist }}
+    # - uses: docker/build-push-action@v6
+    #   name: Build and push
+    #   if  : ${{ ! github.event.inputs.baseTag }}
+    #   with:
+    #     platforms: linux/amd64,linux/arm64
+    #     context: "{{defaultContext}}:mini-a"
+    #     push: true
+    #     tags: openaf/mini-a:build
+    #     build-args: DIST=build
 
   aws-copy:
     name   : AWS Copy
@@ -456,6 +490,7 @@ jobs:
     - build-ojobrt
     - build-openaf-console
     - build-console
+    - build-mini-a
     steps  :
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
