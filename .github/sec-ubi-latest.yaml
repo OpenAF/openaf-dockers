@@ -35536,6 +35536,7 @@
       oracle-oval: 3
       photon: 3
       redhat: 3
+      rocky: 3
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
@@ -35545,14 +35546,17 @@
     - https://access.redhat.com/errata/RHSA-2025:21776
     - https://access.redhat.com/security/cve/CVE-2025-59375
     - https://bugzilla.redhat.com/2395108
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
     - https://errata.almalinux.org/8/ALSA-2025-21776.html
+    - https://errata.rockylinux.org/RLSA-2025:19403
     - https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74
     - https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes
     - https://github.com/libexpat/libexpat/issues/1018
     - https://github.com/libexpat/libexpat/pull/1034
     - https://issues.oss-fuzz.com/issues/439133977
     - https://linux.oracle.com/cve/CVE-2025-59375.html
-    - https://linux.oracle.com/errata/ELSA-2025-21776.html
+    - https://linux.oracle.com/errata/ELSA-2025-21974.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-59375
     - https://www.cve.org/CVERecord?id=CVE-2025-59375
     PublishedDate: '2025-09-15T03:15:40.92Z'
@@ -35571,7 +35575,7 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2013-0340
     Title: 'expat: internal entity expansion'
-    Description: 'expat 2.1.0 and earlier does not properly handle entities expansion unless an application developer uses the XML_SetEntityDeclHandler function, which allows remote attackers to cause a denial of service (resource consumption), send HTTP requests to intranet servers, or read arbitrary files via a crafted XML document, aka an XML External Entity (XXE) issue.  NOTE: it could be argued that because expat already provides the ability to disable external entity expansion, the responsibility for resolving this issue lies with application developers; according to this argument, this entry should be REJECTed, and each affected application would need its own CVE.'
+    Description: 'expat before version 2.4.0 does not properly handle entities expansion unless an application developer uses the XML_SetEntityDeclHandler function, which allows remote attackers to cause a denial of service (resource consumption), send HTTP requests to intranet servers, or read arbitrary files via a crafted XML document, aka an XML External Entity (XXE) issue.  NOTE: it could be argued that because expat already provides the ability to disable external entity expansion, the responsibility for resolving this issue lies with application developers; according to this argument, this entry should be REJECTed, and each affected application would need its own CVE.'
     Severity: MEDIUM
     CweIDs:
     - CWE-611
@@ -35603,6 +35607,7 @@
     - http://www.osvdb.org/90634
     - http://www.securityfocus.com/bid/58233
     - https://access.redhat.com/security/cve/CVE-2013-0340
+    - https://github.com/libexpat/libexpat/blob/R_2_4_1/expat/Changes
     - https://lists.apache.org/thread.html/r41eca5f4f09e74436cbb05dec450fc2bef37b5d3e966aa7cc5fada6d%40%3Cannounce.apache.org%3E
     - https://lists.apache.org/thread.html/rfb2c193360436e230b85547e85a41bea0916916f96c501f5b6fc4702%40%3Cusers.openoffice.apache.org%3E
     - https://nvd.nist.gov/vuln/detail/CVE-2013-0340
@@ -35615,7 +35620,7 @@
     - https://support.apple.com/kb/HT212819
     - https://www.cve.org/CVERecord?id=CVE-2013-0340
     PublishedDate: '2014-01-21T18:55:09.117Z'
-    LastModifiedDate: '2025-04-11T00:51:21.963Z'
+    LastModifiedDate: '2025-11-25T17:15:47.723Z'
   - VulnerabilityID: CVE-2023-4156
     PkgID: gawk@5.1.0-6.el9.x86_64
     PkgName: gawk
@@ -38326,7 +38331,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -38440,6 +38445,7 @@
       bitnami: 2
       cbl-mariner: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
@@ -38462,6 +38468,7 @@
     - https://github.com/python/cpython/pull/139702
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QECOPWMTH4VPPJAXAH2BGTA4XADOP62G/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8291
+    - https://ubuntu.com/security/notices/USN-7886-1
     - https://www.cve.org/CVERecord?id=CVE-2025-8291
     PublishedDate: '2025-10-07T18:16:00.317Z'
     LastModifiedDate: '2025-10-29T16:15:35.133Z'
@@ -38534,6 +38541,7 @@
     VendorSeverity:
       bitnami: 1
       redhat: 1
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
@@ -38541,14 +38549,22 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-6075
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
+    - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
     - https://github.com/python/cpython/commit/631ba3407e3348ccd56ce5160c4fb2c5dc5f4d84
+    - https://github.com/python/cpython/commit/631ba3407e3348ccd56ce5160c4fb2c5dc5f4d84 (3.14-branch)
     - https://github.com/python/cpython/commit/892747b4cf0f95ba8beb51c0d0658bfaa381ebca
+    - https://github.com/python/cpython/commit/892747b4cf0f95ba8beb51c0d0658bfaa381ebca (3.10-branch)
     - https://github.com/python/cpython/commit/9ab89c026aa9611c4b0b67c288b8303a480fe742
+    - https://github.com/python/cpython/commit/9ab89c026aa9611c4b0b67c288b8303a480fe742 (3.13-branch)
     - https://github.com/python/cpython/commit/c8a5f3435c342964e0a432cc9fb448b7dbecd1ba
+    - https://github.com/python/cpython/commit/c8a5f3435c342964e0a432cc9fb448b7dbecd1ba (3.12-branch)
     - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c
+    - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c (main)
+    - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c (main-branch)
     - https://github.com/python/cpython/issues/136065
     - https://mail.python.org/archives/list/security-announce@python.org/thread/IUP5QJ6D4KK6ULHOMPC7DPNKRYQTQNLA/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6075
+    - https://ubuntu.com/security/notices/USN-7886-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6075
     PublishedDate: '2025-10-31T17:15:48.693Z'
     LastModifiedDate: '2025-11-04T15:41:31.45Z'
@@ -38571,7 +38587,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -38685,6 +38701,7 @@
       bitnami: 2
       cbl-mariner: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
@@ -38707,6 +38724,7 @@
     - https://github.com/python/cpython/pull/139702
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QECOPWMTH4VPPJAXAH2BGTA4XADOP62G/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8291
+    - https://ubuntu.com/security/notices/USN-7886-1
     - https://www.cve.org/CVERecord?id=CVE-2025-8291
     PublishedDate: '2025-10-07T18:16:00.317Z'
     LastModifiedDate: '2025-10-29T16:15:35.133Z'
@@ -38779,6 +38797,7 @@
     VendorSeverity:
       bitnami: 1
       redhat: 1
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
@@ -38786,14 +38805,22 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-6075
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
+    - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
     - https://github.com/python/cpython/commit/631ba3407e3348ccd56ce5160c4fb2c5dc5f4d84
+    - https://github.com/python/cpython/commit/631ba3407e3348ccd56ce5160c4fb2c5dc5f4d84 (3.14-branch)
     - https://github.com/python/cpython/commit/892747b4cf0f95ba8beb51c0d0658bfaa381ebca
+    - https://github.com/python/cpython/commit/892747b4cf0f95ba8beb51c0d0658bfaa381ebca (3.10-branch)
     - https://github.com/python/cpython/commit/9ab89c026aa9611c4b0b67c288b8303a480fe742
+    - https://github.com/python/cpython/commit/9ab89c026aa9611c4b0b67c288b8303a480fe742 (3.13-branch)
     - https://github.com/python/cpython/commit/c8a5f3435c342964e0a432cc9fb448b7dbecd1ba
+    - https://github.com/python/cpython/commit/c8a5f3435c342964e0a432cc9fb448b7dbecd1ba (3.12-branch)
     - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c
+    - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c (main)
+    - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c (main-branch)
     - https://github.com/python/cpython/issues/136065
     - https://mail.python.org/archives/list/security-announce@python.org/thread/IUP5QJ6D4KK6ULHOMPC7DPNKRYQTQNLA/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6075
+    - https://ubuntu.com/security/notices/USN-7886-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6075
     PublishedDate: '2025-10-31T17:15:48.693Z'
     LastModifiedDate: '2025-11-04T15:41:31.45Z'
@@ -38816,7 +38843,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       redhat: 2
@@ -38930,6 +38957,7 @@
       bitnami: 2
       cbl-mariner: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       bitnami:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N
@@ -38952,6 +38980,7 @@
     - https://github.com/python/cpython/pull/139702
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QECOPWMTH4VPPJAXAH2BGTA4XADOP62G/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-8291
+    - https://ubuntu.com/security/notices/USN-7886-1
     - https://www.cve.org/CVERecord?id=CVE-2025-8291
     PublishedDate: '2025-10-07T18:16:00.317Z'
     LastModifiedDate: '2025-10-29T16:15:35.133Z'
@@ -39024,6 +39053,7 @@
     VendorSeverity:
       bitnami: 1
       redhat: 1
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
@@ -39031,14 +39061,22 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-6075
     - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c
+    - https://github.com/python/cpython/commit/2e6150adccaaf5bd95d4c19dfd04a36e0b325d8c (3.9-branch)
     - https://github.com/python/cpython/commit/631ba3407e3348ccd56ce5160c4fb2c5dc5f4d84
+    - https://github.com/python/cpython/commit/631ba3407e3348ccd56ce5160c4fb2c5dc5f4d84 (3.14-branch)
     - https://github.com/python/cpython/commit/892747b4cf0f95ba8beb51c0d0658bfaa381ebca
+    - https://github.com/python/cpython/commit/892747b4cf0f95ba8beb51c0d0658bfaa381ebca (3.10-branch)
     - https://github.com/python/cpython/commit/9ab89c026aa9611c4b0b67c288b8303a480fe742
+    - https://github.com/python/cpython/commit/9ab89c026aa9611c4b0b67c288b8303a480fe742 (3.13-branch)
     - https://github.com/python/cpython/commit/c8a5f3435c342964e0a432cc9fb448b7dbecd1ba
+    - https://github.com/python/cpython/commit/c8a5f3435c342964e0a432cc9fb448b7dbecd1ba (3.12-branch)
     - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c
+    - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c (main)
+    - https://github.com/python/cpython/commit/f029e8db626ddc6e3a3beea4eff511a71aaceb5c (main-branch)
     - https://github.com/python/cpython/issues/136065
     - https://mail.python.org/archives/list/security-announce@python.org/thread/IUP5QJ6D4KK6ULHOMPC7DPNKRYQTQNLA/
     - https://nvd.nist.gov/vuln/detail/CVE-2025-6075
+    - https://ubuntu.com/security/notices/USN-7886-1
     - https://www.cve.org/CVERecord?id=CVE-2025-6075
     PublishedDate: '2025-10-31T17:15:48.693Z'
     LastModifiedDate: '2025-11-04T15:41:31.45Z'
@@ -39141,6 +39179,7 @@
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
