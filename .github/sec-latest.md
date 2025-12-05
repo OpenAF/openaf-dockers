@@ -2322,6 +2322,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:3f6127381035549ba4611d49a834aecfcc48b02cbca0c57652f244
+│                       │     │                   5497298b5d 
 │                       │     ├ Title           : In netstat in BusyBox through 1.37.0, local users can launch
 │                       │     │                   of networ ... 
 │                       │     ├ Description     : In netstat in BusyBox through 1.37.0, local users can launch
@@ -2356,6 +2358,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:b3bed50f426d27c0eb82841241abd75260fefb40ea30da8d2f17ba
+│                       │     │                   1442b1896e 
 │                       │     ├ Title           : In tar in BusyBox through 1.37.0, a TAR archive can have
 │                       │     │                   filenames hid ... 
 │                       │     ├ Description     : In tar in BusyBox through 1.37.0, a TAR archive can have
@@ -2397,6 +2401,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:a751ee8ddb70fbda23817d92b796b31edc3cb46523b6d7859c5431
+│                       │     │                   2a4ee93859 
 │                       │     ├ Title           : In netstat in BusyBox through 1.37.0, local users can launch
 │                       │     │                   of networ ... 
 │                       │     ├ Description     : In netstat in BusyBox through 1.37.0, local users can launch
@@ -2431,6 +2437,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:5cbf397c48e8d736bd7bccb1a38259a1814de54d1d1ca3ef8fdcc9
+│                       │     │                   8ac7a0c6ce 
 │                       │     ├ Title           : In tar in BusyBox through 1.37.0, a TAR archive can have
 │                       │     │                   filenames hid ... 
 │                       │     ├ Description     : In tar in BusyBox through 1.37.0, a TAR archive can have
@@ -2472,6 +2480,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:5fe4da3921bdc9074e4277cbf46926845a8698df8a523878484785
+│                       │     │                   7c2ece7502 
 │                       │     ├ Title           : libpng: LIBPNG buffer overflow 
 │                       │     ├ Description     : LIBPNG is a reference library for use in applications that
 │                       │     │                   read, create, and manipulate PNG (Portable Network Graphics)
@@ -2519,6 +2529,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:d5870df500348f3be9526b8584d63cadddc8ee633ccd507e7b021d
+│                       │     │                   082723be29 
 │                       │     ├ Title           : libpng: LIBPNG heap buffer overflow 
 │                       │     ├ Description     : LIBPNG is a reference library for use in applications that
 │                       │     │                   read, create, and manipulate PNG (Portable Network Graphics)
@@ -2567,8 +2579,9 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Title           : LIBPNG is a reference library for use in applications that
-│                       │     │                   read, creat ... 
+│                       │     ├ Fingerprint     : sha256:1d92f1005eb4ce6298ba1b2311ab09ca842eb9fa910476452c13e7
+│                       │     │                   e2e21cb74c 
+│                       │     ├ Title           : libpng: LIBPNG heap buffer overflow via malformed palette index 
 │                       │     ├ Description     : LIBPNG is a reference library for use in applications that
 │                       │     │                   read, create, and manipulate PNG (Portable Network Graphics)
 │                       │     │                   raster image files. Prior to version 1.6.51, a heap buffer
@@ -2581,12 +2594,19 @@
 │                       │     │                   memory access. This issue has been patched in version 1.6.51. 
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-125 
-│                       │     ├ VendorSeverity   ─ photon: 2 
-│                       │     ├ References       ╭ [0]: https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd
+│                       │     ├ VendorSeverity   ╭ photon: 2 
+│                       │     │                  ╰ redhat: 2 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/
+│                       │     │                           │           A:L 
+│                       │     │                           ╰ V3Score : 4.4 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-64505 
+│                       │     │                  ├ [1]: https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd
 │                       │     │                  │      7f6de1c39d30de0e41473431c37 
-│                       │     │                  ├ [1]: https://github.com/pnggroup/libpng/pull/748 
-│                       │     │                  ╰ [2]: https://github.com/pnggroup/libpng/security/advisories/
-│                       │     │                         GHSA-4952-h5wq-4m42 
+│                       │     │                  ├ [2]: https://github.com/pnggroup/libpng/pull/748 
+│                       │     │                  ├ [3]: https://github.com/pnggroup/libpng/security/advisories/
+│                       │     │                  │      GHSA-4952-h5wq-4m42 
+│                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-64505 
+│                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-64505 
 │                       │     ├ PublishedDate   : 2025-11-25T00:15:47.133Z 
 │                       │     ╰ LastModifiedDate: 2025-11-26T18:28:32.22Z 
 │                       ├ [7] ╭ VulnerabilityID : CVE-2025-64506 
@@ -2606,6 +2626,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:85945b0ca931b66a32b83923076e86361a386698454d1e3bcb0acb
+│                       │     │                   dcc1f58edd 
 │                       │     ├ Title           : libpng: LIBPNG heap buffer over-read 
 │                       │     ├ Description     : LIBPNG is a reference library for use in applications that
 │                       │     │                   read, create, and manipulate PNG (Portable Network Graphics)
@@ -2653,6 +2675,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:9656210e0c1fb122fe1cde5d9949b000f9fd997826d3562dc6527f
+│                       │     │                   11e9b88fc0 
 │                       │     ├ Title           : In netstat in BusyBox through 1.37.0, local users can launch
 │                       │     │                   of networ ... 
 │                       │     ├ Description     : In netstat in BusyBox through 1.37.0, local users can launch
@@ -2687,6 +2711,8 @@
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                             ├ Fingerprint     : sha256:6bae618563503d0a46e961e934c7a7da933960048f895315b48f23
+│                             │                   0460a26283 
 │                             ├ Title           : In tar in BusyBox through 1.37.0, a TAR archive can have
 │                             │                   filenames hid ... 
 │                             ├ Description     : In tar in BusyBox through 1.37.0, a TAR archive can have
