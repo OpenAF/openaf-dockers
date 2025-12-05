@@ -34954,6 +34954,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2017-6519
+    Fingerprint: sha256:a581c024e13b3a87ed77636b5a425d0b495a2abbf2646655fe039624559eb612
     Title: 'avahi: Multicast DNS responds to unicast queries outside of local network'
     Description: 'avahi-daemon in Avahi through 0.6.32 and 0.7 inadvertently responds to IPv6 unicast queries with source addresses that are not on-link, which allows remote attackers to cause a denial of service (traffic amplification) and may cause information leakage by obtaining potentially sensitive  information from the responding device via port-5353 UDP packets.  NOTE: this may overlap CVE-2015-2809.'
     Severity: LOW
@@ -34992,7 +34993,7 @@
     - https://www.kb.cert.org/vuls/id/550620
     - https://www.secfu.net/advisories
     PublishedDate: '2017-05-01T01:59:00.297Z'
-    LastModifiedDate: '2025-04-20T01:37:25.86Z'
+    LastModifiedDate: '2025-12-03T22:15:49.323Z'
   - VulnerabilityID: CVE-2025-5278
     PkgID: coreutils-single@8.32-39.el9.x86_64
     PkgName: coreutils-single
@@ -35006,6 +35007,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5278
+    Fingerprint: sha256:92165ee78f4c614d04ecb00d50d036aea5f50d2bc94e977fe4c76da124250537
     Title: 'coreutils: Heap Buffer Under-Read in GNU Coreutils sort via Key Specification'
     Description: A flaw was found in GNU Coreutils. The sort utility's begfield() function is vulnerable to a heap buffer under-read. The program may access memory outside the allocated buffer if a user runs a crafted command using the traditional key format. A malicious input could lead to a crash or leak sensitive data.
     Severity: MEDIUM
@@ -35045,6 +35047,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4504
+    Fingerprint: sha256:9e7ef7718f73192dc79d7fefff0ef04e6994b0a977090e97172dccbc5bfabe69
     Title: 'libppd: Postscript Parsing Heap Overflow'
     Description: Due to failure in validating the length provided by an attacker-crafted PPD PostScript document, CUPS and libppd are susceptible to a heap-based buffer overflow and possibly code execution. This issue has been fixed in CUPS version 2.4.7, released in September of 2023.
     Severity: MEDIUM
@@ -35099,6 +35102,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-58436
+    Fingerprint: sha256:11f6baede15465f660fdc98c71593b2c4fc0daff9e4f7f1c1d29838f18bf1451
     Title: 'cups: Slow client communication leads to a possible DoS attack'
     Description: OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. Prior to version 2.4.15, a client that connects to cupsd but sends slow messages, e.g. only one byte per second, delays cupsd as a whole, such that it becomes unusable by other clients. This issue has been patched in version 2.4.15.
     Severity: MEDIUM
@@ -35119,7 +35123,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2025-58436
     - https://www.cve.org/CVERecord?id=CVE-2025-58436
     PublishedDate: '2025-11-29T03:15:59.323Z'
-    LastModifiedDate: '2025-12-01T15:39:33.11Z'
+    LastModifiedDate: '2025-12-03T16:15:57.597Z'
   - VulnerabilityID: CVE-2025-61915
     PkgID: cups-libs@2.3.3op2-34.el9_7.x86_64
     PkgName: cups-libs
@@ -35133,6 +35137,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-61915
+    Fingerprint: sha256:676e4944e0f9ae61c941d58e9a6bcc0440afed41dd7dba5c3aadf106a7e6b3b9
     Title: 'CUPS: Local denial-of-service via cupsd.conf update and related issues'
     Description: OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. Prior to version 2.4.15, a user in the lpadmin group can use the cups web ui to change the config and insert a malicious line. Then the cupsd process which runs as root will parse the new config and cause an out-of-bound write. This issue has been patched in version 2.4.15.
     Severity: MEDIUM
@@ -35140,6 +35145,7 @@
     - CWE-124
     - CWE-129
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -35156,7 +35162,7 @@
     - https://ubuntu.com/security/notices/USN-7897-1
     - https://www.cve.org/CVERecord?id=CVE-2025-61915
     PublishedDate: '2025-11-29T03:15:59.52Z'
-    LastModifiedDate: '2025-12-01T15:39:33.11Z'
+    LastModifiedDate: '2025-12-03T16:15:58.103Z'
   - VulnerabilityID: CVE-2021-25317
     PkgID: cups-libs@2.3.3op2-34.el9_7.x86_64
     PkgName: cups-libs
@@ -35170,6 +35176,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-25317
+    Fingerprint: sha256:ccf76c544d1e209839a41b2500fbcb6f3e0f4e488dd2abbc391d96691f2a1c0d
     Title: 'cups: insecure permissions of /var/log/cups allows for symlink attacks'
     Description: 'A Incorrect Default Permissions vulnerability in the packaging of cups of SUSE Linux Enterprise Server 11-SP4-LTSS, SUSE Manager Server 4.0, SUSE OpenStack Cloud Crowbar 9; openSUSE Leap 15.2, Factory allows local attackers with control of the lp users to create files as root with 0644 permissions without the ability to set the content. This issue affects: SUSE Linux Enterprise Server 11-SP4-LTSS cups versions prior to 1.3.9. SUSE Manager Server 4.0 cups versions prior to 2.2.7. SUSE OpenStack Cloud Crowbar 9 cups versions prior to 1.7.5. openSUSE Leap 15.2 cups versions prior to 2.2.7. openSUSE Factory cups version 2.3.3op2-2.1 and prior versions.'
     Severity: LOW
@@ -35211,6 +35218,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10966
+    Fingerprint: sha256:2da71c971ccbb6bef32ae7dfbaf4cc0e6973e7dd0298a8a3e0d70bc04db3b348
     Title: 'curl: Curl missing SFTP host verification with wolfSSH backend'
     Description: |-
       curl's code for managing SSH connections when SFTP was done using the wolfSSH
@@ -35248,6 +35256,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9086
+    Fingerprint: sha256:e0a83d64611353f29ed54f79fb53c8a646c0988384db1b6db63f9c3cf0ab2dbc
     Title: 'curl: libcurl: Curl out of bounds read for cookie path'
     Description: |-
       1. A cookie is set using the `secure` keyword for `https://target`
@@ -35300,6 +35309,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11053
+    Fingerprint: sha256:0031a206b45f557536b7432d29be8fe6e9cf77e1bb0f6d5b7b0c6c9f535b5694
     Title: 'curl: curl netrc password leak'
     Description: |-
       When asked to both use a `.netrc` file for credentials and to follow HTTP
@@ -35403,6 +35413,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7264
+    Fingerprint: sha256:b0dbdbb2ca444a92a1a1801a8c71959c9fc459615596edcc842a903458f29ae9
     Title: 'curl: libcurl: ASN.1 date parser overread'
     Description: |-
       libcurl's ASN1 parser code has the `GTime2str()` function, used for parsing an
@@ -35517,6 +35528,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9681
+    Fingerprint: sha256:fa405668686f7c0eacb9d38a7289dd90697d4cc96ea3327459cb63b1f8f5cf66
     Title: 'curl: HSTS subdomain overwrites parent cache entry'
     Description: |-
       When curl is asked to use HSTS, the expiry time for a subdomain might
@@ -35597,6 +35609,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-59375
+    Fingerprint: sha256:0ecd0a4c55854894bd89b3ed8f2b950e568223524b19d68e3e3bf8ae5e786a2b
     Title: 'expat: libexpat in Expat allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing'
     Description: libexpat in Expat before 2.7.2 allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing.
     Severity: HIGH
@@ -35617,12 +35630,12 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2025/09/16/2
-    - https://access.redhat.com/errata/RHSA-2025:21974
+    - https://access.redhat.com/errata/RHSA-2025:22175
     - https://access.redhat.com/security/cve/CVE-2025-59375
     - https://bugzilla.redhat.com/2395108
     - https://bugzilla.redhat.com/show_bug.cgi?id=2395108
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-59375
-    - https://errata.almalinux.org/8/ALSA-2025-21974.html
+    - https://errata.almalinux.org/9/ALSA-2025-22175.html
     - https://errata.rockylinux.org/RLSA-2025:22175
     - https://github.com/libexpat/libexpat/blob/676a4c531ec768732fac215da9730b5f50fbd2bf/expat/Changes#L45-L74
     - https://github.com/libexpat/libexpat/blob/R_2_7_2/expat/Changes
@@ -35635,66 +35648,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-59375
     PublishedDate: '2025-09-15T03:15:40.92Z'
     LastModifiedDate: '2025-11-04T22:16:34.927Z'
-  - VulnerabilityID: CVE-2013-0340
-    PkgID: expat@2.5.0-5.el9_6.x86_64
-    PkgName: expat
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/expat@2.5.0-5.el9_6?arch=x86_64&distro=redhat-9.7
-      UID: df166a081f593902
-    InstalledVersion: 2.5.0-5.el9_6
-    Status: will_not_fix
-    Layer:
-      Digest: sha256:e762d66ab5659188c7067291516b5843713bdb0db6277626f326a0f996360b09
-      DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2013-0340
-    Title: 'expat: internal entity expansion'
-    Description: 'expat before version 2.4.0 does not properly handle entities expansion unless an application developer uses the XML_SetEntityDeclHandler function, which allows remote attackers to cause a denial of service (resource consumption), send HTTP requests to intranet servers, or read arbitrary files via a crafted XML document, aka an XML External Entity (XXE) issue.  NOTE: it could be argued that because expat already provides the ability to disable external entity expansion, the responsibility for resolving this issue lies with application developers; according to this argument, this entry should be REJECTed, and each affected application would need its own CVE.'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-611
-    VendorSeverity:
-      cbl-mariner: 2
-      nvd: 2
-      redhat: 2
-    CVSS:
-      nvd:
-        V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P
-        V2Score: 6.8
-      redhat:
-        V2Vector: AV:N/AC:M/Au:N/C:N/I:N/A:P
-        V2Score: 4.3
-    References:
-    - http://openwall.com/lists/oss-security/2013/02/22/3
-    - http://seclists.org/fulldisclosure/2021/Oct/61
-    - http://seclists.org/fulldisclosure/2021/Oct/62
-    - http://seclists.org/fulldisclosure/2021/Oct/63
-    - http://seclists.org/fulldisclosure/2021/Sep/33
-    - http://seclists.org/fulldisclosure/2021/Sep/34
-    - http://seclists.org/fulldisclosure/2021/Sep/35
-    - http://seclists.org/fulldisclosure/2021/Sep/38
-    - http://seclists.org/fulldisclosure/2021/Sep/39
-    - http://seclists.org/fulldisclosure/2021/Sep/40
-    - http://securitytracker.com/id?1028213
-    - http://www.openwall.com/lists/oss-security/2013/04/12/6
-    - http://www.openwall.com/lists/oss-security/2021/10/07/4
-    - http://www.osvdb.org/90634
-    - http://www.securityfocus.com/bid/58233
-    - https://access.redhat.com/security/cve/CVE-2013-0340
-    - https://github.com/libexpat/libexpat/blob/R_2_4_1/expat/Changes
-    - https://lists.apache.org/thread.html/r41eca5f4f09e74436cbb05dec450fc2bef37b5d3e966aa7cc5fada6d%40%3Cannounce.apache.org%3E
-    - https://lists.apache.org/thread.html/rfb2c193360436e230b85547e85a41bea0916916f96c501f5b6fc4702%40%3Cusers.openoffice.apache.org%3E
-    - https://nvd.nist.gov/vuln/detail/CVE-2013-0340
-    - https://security.gentoo.org/glsa/201701-21
-    - https://support.apple.com/kb/HT212804
-    - https://support.apple.com/kb/HT212805
-    - https://support.apple.com/kb/HT212807
-    - https://support.apple.com/kb/HT212814
-    - https://support.apple.com/kb/HT212815
-    - https://support.apple.com/kb/HT212819
-    - https://www.cve.org/CVERecord?id=CVE-2013-0340
-    PublishedDate: '2014-01-21T18:55:09.117Z'
-    LastModifiedDate: '2025-11-25T17:15:47.723Z'
   - VulnerabilityID: CVE-2025-66382
     PkgID: expat@2.5.0-5.el9_6.x86_64
     PkgName: expat
@@ -35708,6 +35661,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-66382
+    Fingerprint: sha256:e34e30875e44271dfbc936f386c0d2cadab14f6cee8bf3e664c02add61bcc38d
     Title: 'libexpat: libexpat: Denial of service via crafted file processing'
     Description: In libexpat through 2.7.3, a crafted file with an approximate size of 2 MiB can lead to dozens of seconds of processing time.
     Severity: LOW
@@ -35740,6 +35694,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4156
+    Fingerprint: sha256:458208575dbabdce7f32ae10a2155282b39082eff9428d85e3c756086ac48ab9
     Title: 'gawk: heap out of bound read in builtin.c'
     Description: A heap out-of-bounds read flaw was found in builtin.c in the gawk package. This issue may lead to a crash and could be used to read sensitive information.
     Severity: LOW
@@ -35783,6 +35738,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13601
+    Fingerprint: sha256:c9bb56ed94e4113f74aad6763eb57fd3d1b0720ec07d9cc8551162a4312c9989
     Title: 'glib: Integer overflow in in g_escape_uri_string()'
     Description: A heap-based buffer overflow problem was found in glib through an incorrect calculation of buffer size in the g_escape_uri_string() function. If the string to escape contains a very large number of unacceptable characters (which would need escaping), the calculation of the length of the escaped string could overflow, leading to a potential write off the end of the newly allocated string.
     Severity: MEDIUM
@@ -35816,6 +35772,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-32636
+    Fingerprint: sha256:cb427de4e8a11b88474ee05bd2748ee39615ea31ebb79a2884345c14d6be0f6a
     Title: 'glib: Timeout in fuzz_variant_text'
     Description: A flaw was found in glib, where the gvariant deserialization code is vulnerable to a denial of service introduced by additional input validation added to resolve CVE-2023-29499. The offset table validation may be very slow. This bug does not affect any released version of glib but does affect glib distributors who followed the guidance of glib developers to backport the initial fix for CVE-2023-29499.
     Severity: LOW
@@ -35871,6 +35828,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-3360
+    Fingerprint: sha256:b74052ff46965df23d94af06b0352212b2c1f4e499e2593b2ef967d122e2687a
     Title: 'glibc: GLib prior to 2.82.5 is vulnerable to integer  overflow and buffer under-read when parsing a very long invalid ISO  8601 timestamp with g_date_time_new_from_iso8601().'
     Description: A flaw was found in GLib. An integer overflow and buffer under-read occur when parsing a long invalid ISO 8601 timestamp with the g_date_time_new_from_iso8601() function.
     Severity: LOW
@@ -35906,6 +35864,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-7039
+    Fingerprint: sha256:4c9874090647d87cb2672fcf8d220675f27d4a66c8be80d85543167e37067c66
     Title: 'glib: Buffer Under-read on GLib through glib/gfileutils.c via get_tmp_file()'
     Description: A flaw was found in glib. An integer overflow during temporary file creation leads to an out-of-bounds memory access, allowing an attacker to potentially perform path traversal or access private temporary file content by creating symbolic links. This vulnerability allows a local attacker to manipulate file paths and access unauthorized data. The core issue stems from insufficient validation of file path lengths during temporary file operations.
     Severity: LOW
@@ -35939,6 +35898,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
+    Fingerprint: sha256:4ace5f70122dde2a57de2d71f66a4dad8ae0a2f465395b889ab77a5e7c87e778
     Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
@@ -35979,6 +35939,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-30258
+    Fingerprint: sha256:657bca157f21b041504ea036bb1a11ca2a03b0f03afe4c5785399f950360d4d9
     Title: 'gnupg: verification DoS due to a malicious subkey in the keyring'
     Description: In GnuPG before 2.5.5, if a user chooses to import a certificate with certain crafted subkey data that lacks a valid backsig or that has incorrect usage flags, the user loses the ability to verify signatures made from certain other signing keys, aka a "verification DoS."
     Severity: LOW
@@ -36019,6 +35980,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-64720
+    Fingerprint: sha256:9d4a970eef4b8a7a464e04df951f84026bce836342f7a82a4aff6a35e60ebe6f
     Title: 'libpng: LIBPNG buffer overflow'
     Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, an out-of-bounds read vulnerability exists in png_image_read_composite when processing palette images with PNG_FLAG_OPTIMIZE_ALPHA enabled. The palette compositing code in png_init_read_transformations incorrectly applies background compositing during premultiplication, violating the invariant component ≤ alpha × 257 required by the simplified PNG API. This issue has been patched in version 1.6.51.
     Severity: HIGH
@@ -36054,6 +36016,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-65018
+    Fingerprint: sha256:cc5325d2d8a5177cdc6b55f2ee1978acad5ff497baf1113dd3a35906c758f7d2
     Title: 'libpng: LIBPNG heap buffer overflow'
     Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, there is a heap buffer overflow vulnerability in the libpng simplified API function png_image_finish_read when processing 16-bit interlaced PNGs with 8-bit output format. Attacker-crafted interlaced PNG files cause heap writes beyond allocated buffer bounds. This issue has been patched in version 1.6.51.
     Severity: HIGH
@@ -36078,6 +36041,79 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-65018
     PublishedDate: '2025-11-25T00:15:47.61Z'
     LastModifiedDate: '2025-11-26T18:34:53.65Z'
+  - VulnerabilityID: CVE-2025-66293
+    PkgID: java-21-openjdk-headless@21.0.9.0.10-1.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.9.0.10-1.el9?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 3346cc338f874414
+    InstalledVersion: 1:21.0.9.0.10-1.el9
+    Status: affected
+    Layer:
+      Digest: sha256:e762d66ab5659188c7067291516b5843713bdb0db6277626f326a0f996360b09
+      DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-66293
+    Fingerprint: sha256:442b41437fc25ac33672130922bb1a9ecaffe042e059c23f07daf1e92ee36fcf
+    Title: 'libpng: LIBPNG out-of-bounds read in png_image_read_composite'
+    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. Prior to 1.6.52, an out-of-bounds read vulnerability in libpng's simplified API allows reading up to 1012 bytes beyond the png_sRGB_base[512] array when processing valid palette PNG images with partial transparency and gamma correction. The PNG files that trigger this vulnerability are valid per the PNG specification; the bug is in libpng's internal state management. Upgrade to libpng 1.6.52 or later.
+    Severity: HIGH
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
+        V3Score: 7.1
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/12/03/6
+    - http://www.openwall.com/lists/oss-security/2025/12/03/7
+    - http://www.openwall.com/lists/oss-security/2025/12/03/8
+    - https://access.redhat.com/security/cve/CVE-2025-66293
+    - https://github.com/pnggroup/libpng/commit/788a624d7387a758ffd5c7ab010f1870dea753a1
+    - https://github.com/pnggroup/libpng/commit/a05a48b756de63e3234ea6b3b938b8f5f862484a
+    - https://github.com/pnggroup/libpng/issues/764
+    - https://github.com/pnggroup/libpng/security/advisories/GHSA-9mpm-9pxh-mg4f
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-66293
+    - https://www.cve.org/CVERecord?id=CVE-2025-66293
+    PublishedDate: '2025-12-03T21:15:53.06Z'
+    LastModifiedDate: '2025-12-04T02:16:01.99Z'
+  - VulnerabilityID: CVE-2025-64505
+    PkgID: java-21-openjdk-headless@21.0.9.0.10-1.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.9.0.10-1.el9?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: 3346cc338f874414
+    InstalledVersion: 1:21.0.9.0.10-1.el9
+    Status: affected
+    Layer:
+      Digest: sha256:e762d66ab5659188c7067291516b5843713bdb0db6277626f326a0f996360b09
+      DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-64505
+    Fingerprint: sha256:7108e068f998c28caa3a04e85ba989fed781b0bfbfae522efa8a746f6ef60d7a
+    Title: 'libpng: LIBPNG heap buffer overflow via malformed palette index'
+    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. Prior to version 1.6.51, a heap buffer over-read vulnerability exists in libpng's png_do_quantize function when processing PNG files with malformed palette indices. The vulnerability occurs when palette_lookup array bounds are not validated against externally-supplied image data, allowing an attacker to craft a PNG file with out-of-range palette indices that trigger out-of-bounds memory access. This issue has been patched in version 1.6.51.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      photon: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L
+        V3Score: 4.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-64505
+    - https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd7f6de1c39d30de0e41473431c37
+    - https://github.com/pnggroup/libpng/pull/748
+    - https://github.com/pnggroup/libpng/security/advisories/GHSA-4952-h5wq-4m42
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-64505
+    - https://www.cve.org/CVERecord?id=CVE-2025-64505
+    PublishedDate: '2025-11-25T00:15:47.133Z'
+    LastModifiedDate: '2025-11-26T18:28:32.22Z'
   - VulnerabilityID: CVE-2025-64506
     PkgID: java-21-openjdk-headless@21.0.9.0.10-1.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -36091,6 +36127,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-64506
+    Fingerprint: sha256:e64369b1f5b5963bee35e81dbd2b8a796d7857a619c5cd6725b028f2b1356c87
     Title: 'libpng: LIBPNG heap buffer over-read'
     Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From version 1.6.0 to before 1.6.51, a heap buffer over-read vulnerability exists in libpng's png_write_image_8bit function when processing 8-bit images through the simplified write API with convert_to_8bit enabled. The vulnerability affects 8-bit grayscale+alpha, RGB/RGBA, and images with incomplete row data. A conditional guard incorrectly allows 8-bit input to enter code expecting 16-bit input, causing reads up to 2 bytes beyond allocated buffer boundaries. This issue has been patched in version 1.6.51.
     Severity: MEDIUM
@@ -36125,6 +36162,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-30571
+    Fingerprint: sha256:71a33aca7704f4ec01881d508409d61331cd3dbda55377709c3e2b2640c4247a
     Title: 'libarchive: Race condition in multi-threaded use of archive_write_disk_header() on posix based systems'
     Description: Libarchive through 3.6.2 can cause directories to have world-writable permissions. The umask() call inside archive_write_disk_posix.c changes the umask of the whole process for a very short period of time; a race condition with another thread can lead to a permanent umask 0 setting. Such a race condition could lead to implicit directory creation with permissions 0777 (without the sticky bit), which means that any low-privileged local user can delete and rename files inside those directories.
     Severity: MEDIUM
@@ -36162,6 +36200,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-60753
+    Fingerprint: sha256:8fbceed5dfadf85af7f2da0d3106c8102a6297b91f08ce126461597d952fa242
     Title: 'libarchive: bsdtar hangs and OOMs with zero-length pattern matches'
     Description: An issue was discovered in libarchive bsdtar before version 3.8.1 in function apply_substitution in file tar/subst.c when processing crafted -s substitution rules. This can cause unbounded memory allocation and lead to denial of service (Out-of-Memory crash).
     Severity: MEDIUM
@@ -36196,6 +36235,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1632
+    Fingerprint: sha256:711333e7be6bd7f853d572ac75671467da67472bbcdf4186a8667986344bd20e
     Title: 'libarchive: null pointer dereference in bsdunzip.c'
     Description: A vulnerability was found in libarchive up to 3.7.7. It has been classified as problematic. This affects the function list of the file bsdunzip.c. The manipulation leads to null pointer dereference. It is possible to launch the attack on the local host. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.
     Severity: LOW
@@ -36239,6 +36279,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5915
+    Fingerprint: sha256:345b6add755edf4c5669dbd55d0991858aac89a122fe1f3be8abe7606614e579
     Title: 'libarchive: Heap buffer over read in copy_from_lzss_window() at archive_read_support_format_rar.c'
     Description: A vulnerability has been identified in the libarchive library. This flaw can lead to a heap buffer over-read due to the size of a filter block potentially exceeding the Lempel-Ziv-Storer-Schieber (LZSS) window. This means the library may attempt to read beyond the allocated memory buffer, which can result in unpredictable program behavior, crashes (denial of service), or the disclosure of sensitive information from adjacent memory regions.
     Severity: LOW
@@ -36282,6 +36323,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5916
+    Fingerprint: sha256:7bdfa047c90848b8e22b835a86dcf7992c0d1173e456845d82cb247030914502
     Title: 'libarchive: Integer overflow while reading warc files at archive_read_support_format_warc.c'
     Description: A vulnerability has been identified in the libarchive library. This flaw involves an integer overflow that can be triggered when processing a Web Archive (WARC) file that claims to have more than INT64_MAX - 4 content bytes. An attacker could craft a malicious WARC archive to induce this overflow, potentially leading to unpredictable program behavior, memory corruption, or a denial-of-service condition within applications that process such archives using libarchive.
     Severity: LOW
@@ -36325,6 +36367,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5917
+    Fingerprint: sha256:ddb8b080127db3abd40833c2dc928ae76af428e3c203c8daa47c0f32f18d8a05
     Title: 'libarchive: Off by one error in build_ustar_entry_name() at archive_write_set_format_pax.c'
     Description: A vulnerability has been identified in the libarchive library. This flaw involves an 'off-by-one' miscalculation when handling prefixes and suffixes for file names. This can lead to a 1-byte write overflow. While seemingly small, such an overflow can corrupt adjacent memory, leading to unpredictable program behavior, crashes, or in specific circumstances, could be leveraged as a building block for more sophisticated exploitation.
     Severity: LOW
@@ -36368,6 +36411,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-5918
+    Fingerprint: sha256:176cc174d476f40d7dc970ac85feb6409650e288f40c26acaafd3e23ab4bcca6
     Title: 'libarchive: Reading past EOF may be triggered for piped file streams'
     Description: A vulnerability has been identified in the libarchive library. This flaw can be triggered when file streams are piped into bsdtar, potentially allowing for reading past the end of the file. This out-of-bounds read can lead to unintended consequences, including unpredictable program behavior, memory corruption, or a denial-of-service condition.
     Severity: LOW
@@ -36408,6 +36452,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-10966
+    Fingerprint: sha256:7494338e9d28463c3bbe272faf057689be4fb5e0e52cff248f2ba8c0604617ce
     Title: 'curl: Curl missing SFTP host verification with wolfSSH backend'
     Description: |-
       curl's code for managing SSH connections when SFTP was done using the wolfSSH
@@ -36445,6 +36490,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9086
+    Fingerprint: sha256:861e1e69f6a327ce387868b0764fea54dab6266cc18d04cc7aaecac8b74024fa
     Title: 'curl: libcurl: Curl out of bounds read for cookie path'
     Description: |-
       1. A cookie is set using the `secure` keyword for `https://target`
@@ -36497,6 +36543,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-11053
+    Fingerprint: sha256:063588c52d45d3a461d1604d1b451b9d11d3e8442075abda335d221ba215eeba
     Title: 'curl: curl netrc password leak'
     Description: |-
       When asked to both use a `.netrc` file for credentials and to follow HTTP
@@ -36600,6 +36647,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7264
+    Fingerprint: sha256:4e7b3f7366376bcce4f430329c2f1d68c0d8b1f66c1efa0acf277a9f247784e4
     Title: 'curl: libcurl: ASN.1 date parser overread'
     Description: |-
       libcurl's ASN1 parser code has the `GTime2str()` function, used for parsing an
@@ -36714,6 +36762,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-9681
+    Fingerprint: sha256:30be82ad9cddda4b8f110a0f056a1ac88a295f4e59c6a4c7275f5d9413db050f
     Title: 'curl: HSTS subdomain overwrites parent cache entry'
     Description: |-
       When curl is asked to use HSTS, the expiry time for a subdomain might
@@ -36791,6 +36840,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27943
+    Fingerprint: sha256:0a4ce59181526f69b558a8efd85651f63b543962d7a345a2e5bd020ba39a61af
     Title: 'binutils: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const'
     Description: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack consumption in demangle_const, as demonstrated by nm-new.
     Severity: LOW
@@ -36836,6 +36886,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-24056
+    Fingerprint: sha256:00496a03a6a67e5a5ab5059a87b54a48f96e9acd4ab7fc3266fbdec226395fbe
     Title: 'pkgconf: unbounded string expansion due to incorrect checks may result in buffer overflow'
     Description: In pkgconf through 1.9.3, variable duplication can cause unbounded string expansion due to incorrect checks in libpkgconf/tuple.c:pkgconf_tuple_parse. For example, a .pc file containing a few hundred bytes can expand to one billion bytes.
     Severity: LOW
@@ -36875,6 +36926,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27943
+    Fingerprint: sha256:718d7332c8aafd6f76655ad1a7fd83761759cc86be53ae106e33508af30326d3
     Title: 'binutils: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const'
     Description: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack consumption in demangle_const, as demonstrated by nm-new.
     Severity: LOW
@@ -36923,12 +36975,14 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9714
+    Fingerprint: sha256:e126ef5eb343762d998131d56b62d33d828d93f321ee44ba84a2352e16a5c313
     Title: 'libxslt: libxml2: Inifinite recursion at exsltDynMapFunction function in libexslt/dynamic.c'
     Description: "Uncontrolled recursion in\_XPath evaluation\_in libxml2 up to and including version 2.9.14 allows a local attacker to cause a stack overflow via crafted expressions. XPath processing functions `xmlXPathRunEval`, `xmlXPathCtxtCompile`, and `xmlXPathEvalExpr` were resetting recursion depth to zero before making potentially recursive calls. When such functions were called recursively this could allow for uncontrolled recursion and lead to a stack overflow. These functions now preserve recursion depth across recursive calls, allowing recursion depth to be controlled."
     Severity: MEDIUM
     CweIDs:
     - CWE-674
     VendorSeverity:
+      alma: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
@@ -36941,8 +36995,11 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
+    - https://access.redhat.com/errata/RHSA-2025:22376
     - https://access.redhat.com/security/cve/CVE-2025-9714
+    - https://bugzilla.redhat.com/2392605
     - https://bugzilla.redhat.com/show_bug.cgi?id=2392605
+    - https://errata.almalinux.org/9/ALSA-2025-22376.html
     - https://gitlab.gnome.org/GNOME/libxml2/-/commit/677a42645ef22b5a50741bad5facf9d8a8bc6d21
     - https://gitlab.gnome.org/GNOME/libxslt/-/issues/148
     - https://linux.oracle.com/cve/CVE-2025-9714.html
@@ -36966,6 +37023,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45322
+    Fingerprint: sha256:7f680afd8519067efe4922f44c091f3b570f65524476312615c86eab2742e541
     Title: 'libxml2: use-after-free in xmlUnlinkNode() in tree.c'
     Description: 'libxml2 through 2.11.5 has a use-after-free that can only occur after a certain memory allocation fails. This occurs in xmlUnlinkNode in tree.c. NOTE: the vendor''s position is "I don''t think these issues are critical enough to warrant a CVE ID ... because an attacker typically can''t control when memory allocations fail."'
     Severity: LOW
@@ -37008,6 +37066,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34459
+    Fingerprint: sha256:3c31e59c70557f38c899d15f55fdb4bffea258074aa201dd9ab55a614d43e111
     Title: 'libxml2: buffer over-read in xmlHTMLPrintFileContext in xmllint.c'
     Description: An issue was discovered in xmllint (from libxml2) before 2.11.8 and 2.12.x before 2.12.7. Formatting error messages with xmllint --htmlout can result in a buffer over-read in xmlHTMLPrintFileContext in xmllint.c.
     Severity: LOW
@@ -37055,6 +37114,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-27113
+    Fingerprint: sha256:ef63e64cf662ed864863b998f65f39427246ef248f4ca36d0236a8af824a9213
     Title: 'libxml2: NULL Pointer Dereference in libxml2 xmlPatMatch'
     Description: libxml2 before 2.12.10 and 2.13.x before 2.13.6 has a NULL pointer dereference in xmlPatMatch in pattern.c.
     Severity: LOW
@@ -37107,6 +37167,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6170
+    Fingerprint: sha256:24a892d54eb17e73ed60b6131afe45375966d35e564848739fde8f0ae43484d2
     Title: 'libxml2: Stack Buffer Overflow in xmllint Interactive Shell Command Handling'
     Description: A flaw was found in the interactive shell of the xmllint command-line tool, used for parsing XML files. When a user inputs an overly long command, the program does not check the input size properly, which can cause it to crash. This issue might allow attackers to run harmful code in rare configurations without modern protections.
     Severity: LOW
@@ -37149,6 +37210,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50495
+    Fingerprint: sha256:ce232f95c1733a38ac52cbb5b95692c85c5637477494ec5a8a05de715bf6c959
     Title: 'ncurses: segmentation fault via _nc_wrap_entry()'
     Description: NCurse v6.4-20230418 was discovered to contain a segmentation fault via the component _nc_wrap_entry().
     Severity: LOW
@@ -37190,6 +37252,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50495
+    Fingerprint: sha256:e3e84ded487b47e5cafc999b7db1e5c289bcae119d9e7aa1dc25f09f38d0e363
     Title: 'ncurses: segmentation fault via _nc_wrap_entry()'
     Description: NCurse v6.4-20230418 was discovered to contain a segmentation fault via the component _nc_wrap_entry().
     Severity: LOW
@@ -37231,6 +37294,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
+    Fingerprint: sha256:d3848407782d89db178fe3d82bd1aece14382c0d55942b4448610c458974664d
     Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
     Description: The Raccoon attack is a timing attack on DHE ciphersuites inherit in the TLS specification. To mitigate this vulnerability, Firefox disabled support for DHE ciphersuites.
     Severity: LOW
@@ -37268,6 +37332,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7531
+    Fingerprint: sha256:cd94e9f2eb90e15657308d485a189962a9ce481eaa3579227c2ce54ce3b32a61
     Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
     Description: Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the same buffer for input and output can result in plaintext on an Intel Sandy Bridge processor. In Firefox this only affects the QUIC header protection feature when the connection is using the ChaCha20-Poly1305 cipher suite. The most likely outcome is connection failure, but if the connection persists despite the high packet loss it could be possible for a network observer to identify packets as coming from the same source despite a network path change. This vulnerability affects Firefox < 129, Firefox ESR < 115.14, and Firefox ESR < 128.1.
     Severity: LOW
@@ -37310,6 +37375,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
+    Fingerprint: sha256:57677811d45a3b44eb69e89dcf8c6b6654455409b2782ae9c5a0de2e732ef74f
     Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
     Description: The Raccoon attack is a timing attack on DHE ciphersuites inherit in the TLS specification. To mitigate this vulnerability, Firefox disabled support for DHE ciphersuites.
     Severity: LOW
@@ -37347,6 +37413,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7531
+    Fingerprint: sha256:8ef99d9c6bb80aab2699cdd0c46ae55143b9db457f94c64b43d6d96c2086a74e
     Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
     Description: Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the same buffer for input and output can result in plaintext on an Intel Sandy Bridge processor. In Firefox this only affects the QUIC header protection feature when the connection is using the ChaCha20-Poly1305 cipher suite. The most likely outcome is connection failure, but if the connection persists despite the high packet loss it could be possible for a network observer to identify packets as coming from the same source despite a network path change. This vulnerability affects Firefox < 129, Firefox ESR < 115.14, and Firefox ESR < 128.1.
     Severity: LOW
@@ -37389,6 +37456,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
+    Fingerprint: sha256:6ab029696466e289e844fa49b316033e8c9f6083ad49e9fd5c510835673ead08
     Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
     Description: The Raccoon attack is a timing attack on DHE ciphersuites inherit in the TLS specification. To mitigate this vulnerability, Firefox disabled support for DHE ciphersuites.
     Severity: LOW
@@ -37426,6 +37494,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7531
+    Fingerprint: sha256:5452fde996f0c9a94a689dadf747db3774136ee016a69e769ceec1f751ddd9b6
     Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
     Description: Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the same buffer for input and output can result in plaintext on an Intel Sandy Bridge processor. In Firefox this only affects the QUIC header protection feature when the connection is using the ChaCha20-Poly1305 cipher suite. The most likely outcome is connection failure, but if the connection persists despite the high packet loss it could be possible for a network observer to identify packets as coming from the same source despite a network path change. This vulnerability affects Firefox < 129, Firefox ESR < 115.14, and Firefox ESR < 128.1.
     Severity: LOW
@@ -37468,6 +37537,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
+    Fingerprint: sha256:4c9a9127888e1ae5ada80761028758b6964214ec87d47a7e5e30948c19bdb7da
     Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
     Description: The Raccoon attack is a timing attack on DHE ciphersuites inherit in the TLS specification. To mitigate this vulnerability, Firefox disabled support for DHE ciphersuites.
     Severity: LOW
@@ -37505,6 +37575,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7531
+    Fingerprint: sha256:b0f5adf9ba16844de7a4cc8583cb7e315de9bce46559a64b3b5e2c0ab4ac6dc6
     Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
     Description: Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the same buffer for input and output can result in plaintext on an Intel Sandy Bridge processor. In Firefox this only affects the QUIC header protection feature when the connection is using the ChaCha20-Poly1305 cipher suite. The most likely outcome is connection failure, but if the connection persists despite the high packet loss it could be possible for a network observer to identify packets as coming from the same source despite a network path change. This vulnerability affects Firefox < 129, Firefox ESR < 115.14, and Firefox ESR < 128.1.
     Severity: LOW
@@ -37547,6 +37618,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
+    Fingerprint: sha256:508ea18f5ca0bcc080ea7f10f462b66ef95806456123d4be20429b73346bfe49
     Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
     Description: The Raccoon attack is a timing attack on DHE ciphersuites inherit in the TLS specification. To mitigate this vulnerability, Firefox disabled support for DHE ciphersuites.
     Severity: LOW
@@ -37584,6 +37656,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7531
+    Fingerprint: sha256:029714e7aa6445420fde2960bc93ca92ebbd1200f7ea20d9fda801f9b134a026
     Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
     Description: Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the same buffer for input and output can result in plaintext on an Intel Sandy Bridge processor. In Firefox this only affects the QUIC header protection feature when the connection is using the ChaCha20-Poly1305 cipher suite. The most likely outcome is connection failure, but if the connection persists despite the high packet loss it could be possible for a network observer to identify packets as coming from the same source despite a network path change. This vulnerability affects Firefox < 129, Firefox ESR < 115.14, and Firefox ESR < 128.1.
     Severity: LOW
@@ -37626,6 +37699,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-12413
+    Fingerprint: sha256:79bf32cfae97c6a211ad2258bfff25bedc034c7a66f11946f38747067aeefd49
     Title: 'nss: Information exposure when DH secret are reused across multiple TLS connections'
     Description: The Raccoon attack is a timing attack on DHE ciphersuites inherit in the TLS specification. To mitigate this vulnerability, Firefox disabled support for DHE ciphersuites.
     Severity: LOW
@@ -37663,6 +37737,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-7531
+    Fingerprint: sha256:0bc3bd9ca8265eed2daad6a95906534b7150deb48cdb96a86c300413248f1a13
     Title: 'mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal plaintext on Intel Sandy Bridge machines'
     Description: Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the same buffer for input and output can result in plaintext on an Intel Sandy Bridge processor. In Firefox this only affects the QUIC header protection feature when the connection is using the ChaCha20-Poly1305 cipher suite. The most likely outcome is connection failure, but if the connection persists despite the high packet loss it could be possible for a network observer to identify packets as coming from the same source despite a network path change. This vulnerability affects Firefox < 129, Firefox ESR < 115.14, and Firefox ESR < 128.1.
     Severity: LOW
@@ -37705,6 +37780,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-13176
+    Fingerprint: sha256:43f0c0379a3bc9022bdfba012dcb1404ed2b94983d266078117d00125972acc6
     Title: 'openssl: Timing side-channel in ECDSA signature computation'
     Description: |-
       Issue summary: A timing side-channel which could potentially allow recovering
@@ -37939,6 +38015,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-41996
+    Fingerprint: sha256:2f6677902d287531e650efb19339432cf8a1fa7dcbbbc87fb5ef223f4c0faed7
     Title: 'openssl: remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations'
     Description: Validating the order of the public keys in the Diffie-Hellman Key Agreement Protocol, when an approved safe prime is used, allows remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations. The client may cause asymmetric resource consumption. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE and validate the order of the public key.
     Severity: LOW
@@ -37977,6 +38054,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9232
+    Fingerprint: sha256:f638f7c46e5298127688432657bd5a6d59b541c2e3a6430de64fdaabfabbd911
     Title: 'openssl: Out-of-bounds read in HTTP client no_proxy handling'
     Description: |-
       Issue summary: An application using the OpenSSL HTTP client API functions may
@@ -38043,6 +38121,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-13176
+    Fingerprint: sha256:da60762bb7a2ff11f3ad254adfb7d6002768c18796cb04623f64d1839e0a9466
     Title: 'openssl: Timing side-channel in ECDSA signature computation'
     Description: |-
       Issue summary: A timing side-channel which could potentially allow recovering
@@ -38277,6 +38356,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-41996
+    Fingerprint: sha256:3f95f16593f4444219c509e27a11d8220b317d20912e352ddfaf68d7a5bc9c96
     Title: 'openssl: remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations'
     Description: Validating the order of the public keys in the Diffie-Hellman Key Agreement Protocol, when an approved safe prime is used, allows remote attackers (from the client side) to trigger unnecessarily expensive server-side DHE modular-exponentiation calculations. The client may cause asymmetric resource consumption. The basic attack scenario is that the client must claim that it can only communicate with DHE, and the server must be configured to allow DHE and validate the order of the public key.
     Severity: LOW
@@ -38315,6 +38395,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9232
+    Fingerprint: sha256:6289be128f4c82c3b50d5990cbfdc091feee4df307f41575baf0f835b02d0682
     Title: 'openssl: Out-of-bounds read in HTTP client no_proxy handling'
     Description: |-
       Issue summary: An application using the OpenSSL HTTP client API functions may
@@ -38381,6 +38462,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-41409
+    Fingerprint: sha256:b1533e8d433ec586fa4ebb03bc159cc5babb799d376c4a1a307295c209393fea
     Title: 'pcre2: negative repeat value in a pcre2test subject line leads to inifinite loop'
     Description: Integer overflow vulnerability in pcre2test before 10.41 allows attackers to cause a denial of service or other unspecified impacts via negative input.
     Severity: LOW
@@ -38422,6 +38504,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-41409
+    Fingerprint: sha256:7faf51f8e3b23f815c99ac82c80677c13dd645bc34032b377a25dccfc623b052
     Title: 'pcre2: negative repeat value in a pcre2test subject line leads to inifinite loop'
     Description: Integer overflow vulnerability in pcre2test before 10.41 allows attackers to cause a denial of service or other unspecified impacts via negative input.
     Severity: LOW
@@ -38463,6 +38546,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-24056
+    Fingerprint: sha256:b3a139f6c4e766b7735ff06e40b1cdfac305247002a72998b65dd09068e287c8
     Title: 'pkgconf: unbounded string expansion due to incorrect checks may result in buffer overflow'
     Description: In pkgconf through 1.9.3, variable duplication can cause unbounded string expansion due to incorrect checks in libpkgconf/tuple.c:pkgconf_tuple_parse. For example, a .pc file containing a few hundred bytes can expand to one billion bytes.
     Severity: LOW
@@ -38502,6 +38586,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-24056
+    Fingerprint: sha256:51a31af33a90e9faf185693dce87e5b2f91834f2d1edd2a43f421dd69bae2d4b
     Title: 'pkgconf: unbounded string expansion due to incorrect checks may result in buffer overflow'
     Description: In pkgconf through 1.9.3, variable duplication can cause unbounded string expansion due to incorrect checks in libpkgconf/tuple.c:pkgconf_tuple_parse. For example, a .pc file containing a few hundred bytes can expand to one billion bytes.
     Severity: LOW
@@ -38541,6 +38626,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-24056
+    Fingerprint: sha256:4778e96eea6a405adcaf14c738abe44982e4c1d2cf11dc88176485a50430a71e
     Title: 'pkgconf: unbounded string expansion due to incorrect checks may result in buffer overflow'
     Description: In pkgconf through 1.9.3, variable duplication can cause unbounded string expansion due to incorrect checks in libpkgconf/tuple.c:pkgconf_tuple_parse. For example, a .pc file containing a few hundred bytes can expand to one billion bytes.
     Severity: LOW
@@ -38567,6 +38653,77 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-24056
     PublishedDate: '2023-01-22T04:15:11.617Z'
     LastModifiedDate: '2025-04-02T16:15:33.967Z'
+  - VulnerabilityID: CVE-2025-13836
+    PkgID: python-unversioned-command@3.9.23-2.el9.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.23-2.el9?arch=noarch&distro=redhat-9.7
+      UID: cfd5450f92f746cc
+    InstalledVersion: 3.9.23-2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:e762d66ab5659188c7067291516b5843713bdb0db6277626f326a0f996360b09
+      DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13836
+    Fingerprint: sha256:9cc1005fc17f920a48e87e0649ff0914dadcb0fd714de1b8e557ffa6fd663e4e
+    Title: 'cpython: Excessive read buffering DoS in http.client'
+    Description: When reading an HTTP response from a server, if no read amount is specified, the default behavior will be to use Content-Length. This allows a malicious server to cause the client to read large amounts of data into memory, potentially causing OOM or other DoS.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-13836
+    - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155
+    - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5
+    - https://github.com/python/cpython/issues/119451
+    - https://github.com/python/cpython/pull/119454
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
+    - https://www.cve.org/CVERecord?id=CVE-2025-13836
+    PublishedDate: '2025-12-01T18:16:04.2Z'
+    LastModifiedDate: '2025-12-02T19:15:49.137Z'
+  - VulnerabilityID: CVE-2025-13837
+    PkgID: python-unversioned-command@3.9.23-2.el9.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.23-2.el9?arch=noarch&distro=redhat-9.7
+      UID: cfd5450f92f746cc
+    InstalledVersion: 3.9.23-2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:e762d66ab5659188c7067291516b5843713bdb0db6277626f326a0f996360b09
+      DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13837
+    Fingerprint: sha256:02d5a0976cce13b4bb0619a97e31a9258fbc20eafec5f794325f784aa87919c7
+    Title: 'cpython: Out-of-memory when loading Plist'
+    Description: When loading a plist file, the plistlib module reads data in size specified by the file itself, meaning a malicious file can cause OOM and DoS issues
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-13837
+    - https://github.com/python/cpython/commit/694922cf40aa3a28f898b5f5ee08b71b4922df70
+    - https://github.com/python/cpython/commit/71fa8eb8233b37f16c88b6e3e583b461b205d1ba
+    - https://github.com/python/cpython/commit/b64441e4852383645af5b435411a6f849dd1b4cb
+    - https://github.com/python/cpython/issues/119342
+    - https://github.com/python/cpython/pull/119343
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/2X5IBCJXRQAZ5PSERLHMSJFBHFR3QM2C/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13837
+    - https://www.cve.org/CVERecord?id=CVE-2025-13837
+    PublishedDate: '2025-12-01T18:16:04.38Z'
+    LastModifiedDate: '2025-12-02T18:15:47.697Z'
   - VulnerabilityID: CVE-2025-4516
     PkgID: python-unversioned-command@3.9.23-2.el9.noarch
     PkgName: python-unversioned-command
@@ -38580,6 +38737,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4516
+    Fingerprint: sha256:d177c6a9dc7bf81b52dd031f69ec1e1bff7625a88cabb4332eade009851d40f0
     Title: 'cpython: python: CPython DecodeError Handling Vulnerability'
     Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
     Severity: MEDIUM
@@ -38629,6 +38787,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    Fingerprint: sha256:0c65d23ceae561091842be25e4146d533efc2f78e687217b4114e550fd9fdb5d
     Title: 'cpython: Python HTMLParser quadratic complexity'
     Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
     Severity: MEDIUM
@@ -38679,6 +38838,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8291
+    Fingerprint: sha256:2474ac8573edf4bcf8b4f88bcc0d3f143f50e587ec5e7f9e05ae6899cf5f1849
     Title: 'cpython: python: Python zipfile End of Central Directory (EOCD) Locator record offset not checked'
     Description: |-
       The 'zipfile' module would not check the validity of the ZIP64 End of
@@ -38741,6 +38901,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1795
+    Fingerprint: sha256:1063ff54e879bd63b64ca1c8c971d2e2ae6cc87da97c677e5878b07ccf2b7f89
     Title: 'python: Mishandling of comma during folding and unicode-encoding of email headers'
     Description: During an address list folding when a separating comma ends up on a folded line and that line is to be unicode-encoded then the separator itself is also unicode-encoded. Expected behavior is that the separating comma remains a plan comma. This can result in the address header being misinterpreted by some mail servers.
     Severity: LOW
@@ -38786,6 +38947,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6075
+    Fingerprint: sha256:ea1c684ebbfa10d48f136585c5dc7a9f83df9a660a667d9ca4978034a5630ee4
     Title: 'python: Quadratic complexity in os.path.expandvars() with user-controlled template'
     Description: |-
       If the value passed to os.path.expandvars() is user-controlled a 
@@ -38826,6 +38988,77 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6075
     PublishedDate: '2025-10-31T17:15:48.693Z'
     LastModifiedDate: '2025-12-01T19:15:52.55Z'
+  - VulnerabilityID: CVE-2025-13836
+    PkgID: python3@3.9.23-2.el9.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.23-2.el9?arch=x86_64&distro=redhat-9.7
+      UID: 38077ade2cb85949
+    InstalledVersion: 3.9.23-2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:e762d66ab5659188c7067291516b5843713bdb0db6277626f326a0f996360b09
+      DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13836
+    Fingerprint: sha256:c73250da12651d588ce5fef40cfc7bfc133ee94148d7405ef7fa707a8196d895
+    Title: 'cpython: Excessive read buffering DoS in http.client'
+    Description: When reading an HTTP response from a server, if no read amount is specified, the default behavior will be to use Content-Length. This allows a malicious server to cause the client to read large amounts of data into memory, potentially causing OOM or other DoS.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-13836
+    - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155
+    - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5
+    - https://github.com/python/cpython/issues/119451
+    - https://github.com/python/cpython/pull/119454
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
+    - https://www.cve.org/CVERecord?id=CVE-2025-13836
+    PublishedDate: '2025-12-01T18:16:04.2Z'
+    LastModifiedDate: '2025-12-02T19:15:49.137Z'
+  - VulnerabilityID: CVE-2025-13837
+    PkgID: python3@3.9.23-2.el9.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.23-2.el9?arch=x86_64&distro=redhat-9.7
+      UID: 38077ade2cb85949
+    InstalledVersion: 3.9.23-2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:e762d66ab5659188c7067291516b5843713bdb0db6277626f326a0f996360b09
+      DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13837
+    Fingerprint: sha256:48050efff3819b8bb21ab641f9699b49c692ddc6d91b77465ac172218c2da38a
+    Title: 'cpython: Out-of-memory when loading Plist'
+    Description: When loading a plist file, the plistlib module reads data in size specified by the file itself, meaning a malicious file can cause OOM and DoS issues
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-13837
+    - https://github.com/python/cpython/commit/694922cf40aa3a28f898b5f5ee08b71b4922df70
+    - https://github.com/python/cpython/commit/71fa8eb8233b37f16c88b6e3e583b461b205d1ba
+    - https://github.com/python/cpython/commit/b64441e4852383645af5b435411a6f849dd1b4cb
+    - https://github.com/python/cpython/issues/119342
+    - https://github.com/python/cpython/pull/119343
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/2X5IBCJXRQAZ5PSERLHMSJFBHFR3QM2C/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13837
+    - https://www.cve.org/CVERecord?id=CVE-2025-13837
+    PublishedDate: '2025-12-01T18:16:04.38Z'
+    LastModifiedDate: '2025-12-02T18:15:47.697Z'
   - VulnerabilityID: CVE-2025-4516
     PkgID: python3@3.9.23-2.el9.x86_64
     PkgName: python3
@@ -38839,6 +39072,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4516
+    Fingerprint: sha256:446025ff721ac1705422fdd493d4f7b1efe973ed98d7b683b28a80ecd6e48922
     Title: 'cpython: python: CPython DecodeError Handling Vulnerability'
     Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
     Severity: MEDIUM
@@ -38888,6 +39122,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    Fingerprint: sha256:fa985df5190578de4e3f7b3eca437e2d4fd6d58ff92bf94d6718221db0c9025b
     Title: 'cpython: Python HTMLParser quadratic complexity'
     Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
     Severity: MEDIUM
@@ -38938,6 +39173,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8291
+    Fingerprint: sha256:489fb4c50daa774eb2a72cb4c559332b3d2cc4459f6f55853ca1b6c7741a66cc
     Title: 'cpython: python: Python zipfile End of Central Directory (EOCD) Locator record offset not checked'
     Description: |-
       The 'zipfile' module would not check the validity of the ZIP64 End of
@@ -39000,6 +39236,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1795
+    Fingerprint: sha256:d9c968650fee1ede78d8bae3a99c0bb1578282ca92a382e3c3e4a3f9d0f1e125
     Title: 'python: Mishandling of comma during folding and unicode-encoding of email headers'
     Description: During an address list folding when a separating comma ends up on a folded line and that line is to be unicode-encoded then the separator itself is also unicode-encoded. Expected behavior is that the separating comma remains a plan comma. This can result in the address header being misinterpreted by some mail servers.
     Severity: LOW
@@ -39045,6 +39282,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6075
+    Fingerprint: sha256:fedb07cb51674bf0332cc7bb380a0fb242ac34c7d20f442f99f81e785e5bd358
     Title: 'python: Quadratic complexity in os.path.expandvars() with user-controlled template'
     Description: |-
       If the value passed to os.path.expandvars() is user-controlled a 
@@ -39085,6 +39323,77 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-6075
     PublishedDate: '2025-10-31T17:15:48.693Z'
     LastModifiedDate: '2025-12-01T19:15:52.55Z'
+  - VulnerabilityID: CVE-2025-13836
+    PkgID: python3-libs@3.9.23-2.el9.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.23-2.el9?arch=x86_64&distro=redhat-9.7
+      UID: e1983f70961f7443
+    InstalledVersion: 3.9.23-2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:e762d66ab5659188c7067291516b5843713bdb0db6277626f326a0f996360b09
+      DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13836
+    Fingerprint: sha256:d9d22dda57661b14fd34e777f7353102e33b7a6ab315572bdbb74ebf7455a851
+    Title: 'cpython: Excessive read buffering DoS in http.client'
+    Description: When reading an HTTP response from a server, if no read amount is specified, the default behavior will be to use Content-Length. This allows a malicious server to cause the client to read large amounts of data into memory, potentially causing OOM or other DoS.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-13836
+    - https://github.com/python/cpython/commit/4ce27904b597c77d74dd93f2c912676021a99155
+    - https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5
+    - https://github.com/python/cpython/issues/119451
+    - https://github.com/python/cpython/pull/119454
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13836
+    - https://www.cve.org/CVERecord?id=CVE-2025-13836
+    PublishedDate: '2025-12-01T18:16:04.2Z'
+    LastModifiedDate: '2025-12-02T19:15:49.137Z'
+  - VulnerabilityID: CVE-2025-13837
+    PkgID: python3-libs@3.9.23-2.el9.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.23-2.el9?arch=x86_64&distro=redhat-9.7
+      UID: e1983f70961f7443
+    InstalledVersion: 3.9.23-2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:e762d66ab5659188c7067291516b5843713bdb0db6277626f326a0f996360b09
+      DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13837
+    Fingerprint: sha256:5486a5890c8262ad06edc4d83ba424e7dec857cd9e1d1ce44e221d41c6b21cd7
+    Title: 'cpython: Out-of-memory when loading Plist'
+    Description: When loading a plist file, the plistlib module reads data in size specified by the file itself, meaning a malicious file can cause OOM and DoS issues
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-13837
+    - https://github.com/python/cpython/commit/694922cf40aa3a28f898b5f5ee08b71b4922df70
+    - https://github.com/python/cpython/commit/71fa8eb8233b37f16c88b6e3e583b461b205d1ba
+    - https://github.com/python/cpython/commit/b64441e4852383645af5b435411a6f849dd1b4cb
+    - https://github.com/python/cpython/issues/119342
+    - https://github.com/python/cpython/pull/119343
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/2X5IBCJXRQAZ5PSERLHMSJFBHFR3QM2C/
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13837
+    - https://www.cve.org/CVERecord?id=CVE-2025-13837
+    PublishedDate: '2025-12-01T18:16:04.38Z'
+    LastModifiedDate: '2025-12-02T18:15:47.697Z'
   - VulnerabilityID: CVE-2025-4516
     PkgID: python3-libs@3.9.23-2.el9.x86_64
     PkgName: python3-libs
@@ -39098,6 +39407,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4516
+    Fingerprint: sha256:ef9b7aa0637aedbcee09cedb4c24f2ed09952195a3a8a484e1ee3a4e6042de44
     Title: 'cpython: python: CPython DecodeError Handling Vulnerability'
     Description: There is an issue in CPython when using `bytes.decode("unicode_escape", error="ignore|replace")`. If you are not using the "unicode_escape" encoding or an error handler your usage is not affected. To work-around this issue you may stop using the error= handler and instead wrap the bytes.decode() call in a try-except catching the DecodeError.
     Severity: MEDIUM
@@ -39147,6 +39457,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6069
+    Fingerprint: sha256:dc58149517667f8b345ce88b459e200b8f4edd7ba67f97f224cf446c2b622a0c
     Title: 'cpython: Python HTMLParser quadratic complexity'
     Description: The html.parser.HTMLParser class had worse-case quadratic complexity when processing certain crafted malformed inputs potentially leading to amplified denial-of-service.
     Severity: MEDIUM
@@ -39197,6 +39508,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-8291
+    Fingerprint: sha256:cdd1e5520e6ff9f4224249e9c29e1448814af4d76ca3bd0bc5ec325f697d9807
     Title: 'cpython: python: Python zipfile End of Central Directory (EOCD) Locator record offset not checked'
     Description: |-
       The 'zipfile' module would not check the validity of the ZIP64 End of
@@ -39259,6 +39571,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-1795
+    Fingerprint: sha256:1a90a19856ce1597d983079ad8d8083b6ab8aba3e5a4b0b155a5821baa772a80
     Title: 'python: Mishandling of comma during folding and unicode-encoding of email headers'
     Description: During an address list folding when a separating comma ends up on a folded line and that line is to be unicode-encoded then the separator itself is also unicode-encoded. Expected behavior is that the separating comma remains a plan comma. This can result in the address header being misinterpreted by some mail servers.
     Severity: LOW
@@ -39304,6 +39617,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-6075
+    Fingerprint: sha256:25fd0889977adb01463bf44df639868a93a7f75b2b990107303bb9c74378219a
     Title: 'python: Quadratic complexity in os.path.expandvars() with user-controlled template'
     Description: |-
       If the value passed to os.path.expandvars() is user-controlled a 
@@ -39357,6 +39671,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45803
+    Fingerprint: sha256:58b53786768ee83fd3da6c251f1e0dbf66863161648c1076e2e52497a9561cfa
     Title: 'urllib3: Request body not stripped after redirect from 303 status changes request method to GET'
     Description: 'urllib3 is a user-friendly HTTP client library for Python. urllib3 previously wouldn''t remove the HTTP request body when an HTTP redirect response using status 301, 302, or 303 after the request had its method changed from one that could accept a request body (like `POST`) to `GET` as is required by HTTP RFCs. Although this behavior is not specified in the section for redirects, it can be inferred by piecing together information from different sections and we have observed the behavior in other major HTTP client implementations like curl and web browsers. Because the vulnerability requires a previously trusted service to become compromised in order to have an impact on confidentiality we believe the exploitability of this vulnerability is low. Additionally, many users aren''t putting sensitive data in HTTP request bodies, if this is the case then this vulnerability isn''t exploitable. Both of the following conditions must be true to be affected by this vulnerability: 1. Using urllib3 and submitting sensitive information in the HTTP request body (such as form data or JSON) and 2. The origin service is compromised and starts redirecting using 301, 302, or 303 to a malicious peer or the redirected-to service becomes compromised. This issue has been addressed in versions 1.26.18 and 2.0.7 and users are advised to update to resolve this issue. Users unable to update should disable redirects for services that aren''t expecting to respond with redirects with `redirects=False` and disable automatic redirects with `redirects=False` and handle 301, 302, and 303 redirects manually by stripping the HTTP request body.'
     Severity: MEDIUM
@@ -39432,6 +39747,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-50181
+    Fingerprint: sha256:5b1fef6a3c5f5a29c92e2baef0a1e389637d9dc77086c2bc7d4eaa2433fc7820
     Title: 'urllib3: urllib3 redirects are not disabled when retries are disabled on PoolManager instantiation'
     Description: urllib3 is a user-friendly HTTP client library for Python. Prior to 2.5.0, it is possible to disable redirects for all requests by instantiating a PoolManager and specifying retries in a way that disable redirects. By default, requests and botocore users are not affected. An application attempting to mitigate SSRF or open redirect vulnerabilities by disabling redirects at the PoolManager level will remain vulnerable. This issue has been patched in version 2.5.0.
     Severity: MEDIUM
@@ -39480,6 +39796,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-50182
+    Fingerprint: sha256:30dce99498127d8daf95018c4e5741d126cb438df98f8eb33b66d2d5830836fa
     Title: 'urllib3: urllib3 does not control redirects in browsers and Node.js'
     Description: urllib3 is a user-friendly HTTP client library for Python. Starting in version 2.2.0 and prior to 2.5.0, urllib3 does not control redirects in browsers and Node.js. urllib3 supports being used in a Pyodide runtime utilizing the JavaScript Fetch API or falling back on XMLHttpRequest. This means Python libraries can be used to make HTTP requests from a browser or Node.js. Additionally, urllib3 provides a mechanism to control redirects, but the retries and redirect parameters are ignored with Pyodide; the runtime itself determines redirect behavior. This issue has been patched in version 2.5.0.
     Severity: MEDIUM
@@ -39519,6 +39836,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-3572
+    Fingerprint: sha256:8dc7fc257f5078f2c35f2799cd6d6b6457e298c2627bc781b9e26f15176be911
     Title: 'python-pip: Incorrect handling of unicode separators in git references'
     Description: A flaw was found in python-pip in the way it handled Unicode separators in git references. A remote attacker could possibly use this issue to install a different revision on a repository. The highest threat from this vulnerability is to data integrity. This is fixed in python-pip version 21.1.
     Severity: LOW
@@ -39586,6 +39904,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5752
+    Fingerprint: sha256:57eaff7e2b883b8b9f4caaeec251034c8be54f657d0941c902a9530a5a4cb77e
     Title: 'pip: Mercurial configuration injectable in repo revision when installing via pip'
     Description: |-
       When installing a package from a Mercurial VCS URL  (ie "pip install 
@@ -39654,6 +39973,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0232
+    Fingerprint: sha256:876e003ea69c69acc19cf0e1b756501738b33494f31806d998c51011e3eee9d9
     Title: 'sqlite: use-after-free bug in jsonParseAddNodeArray'
     Description: A heap use-after-free issue has been identified in SQLite in the jsonParseAddNodeArray() function in sqlite3.c. This flaw allows a local attacker to leverage a victim to pass specially crafted malicious input to the application, potentially causing a crash and leading to a denial of service.
     Severity: LOW
@@ -39683,18 +40003,22 @@
     PublishedDate: '2024-01-16T14:15:48.327Z'
     LastModifiedDate: '2024-11-21T08:46:06.907Z'
   - VulnerabilityID: CVE-2025-4598
+    VendorIDs:
+    - RHSA-2025:22660
     PkgID: systemd-libs@252-55.el9_7.2.x86_64
     PkgName: systemd-libs
     PkgIdentifier:
       PURL: pkg:rpm/redhat/systemd-libs@252-55.el9_7.2?arch=x86_64&distro=redhat-9.7
       UID: 84408193051a5247
     InstalledVersion: 252-55.el9_7.2
-    Status: affected
+    FixedVersion: 252-55.el9_7.7
+    Status: fixed
     Layer:
       Digest: sha256:e762d66ab5659188c7067291516b5843713bdb0db6277626f326a0f996360b09
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-4598
+    Fingerprint: sha256:53f72aa63804b7140fe76d62ec9f6f46cb9f0be6a9fe77ea9f8a32f735d71011
     Title: 'systemd-coredump: race condition that allows a local attacker to crash a SUID program and gain read access to the resulting core dump'
     Description: |-
       A vulnerability was found in systemd-coredump. This flaw allows an attacker to force a SUID process to crash and replace it with a non-SUID binary to access the original's privileged process coredump, allowing the attacker to read sensitive data, such as /etc/shadow content, loaded by the original process.
@@ -39719,6 +40043,7 @@
     - http://www.openwall.com/lists/oss-security/2025/06/05/1
     - http://www.openwall.com/lists/oss-security/2025/06/05/3
     - http://www.openwall.com/lists/oss-security/2025/08/18/3
+    - https://access.redhat.com/errata/RHSA-2025:22660
     - https://access.redhat.com/security/cve/CVE-2025-4598
     - https://blogs.oracle.com/linux/post/analysis-of-cve-2025-4598
     - https://bugzilla.redhat.com/show_bug.cgi?id=2369242
@@ -39742,7 +40067,7 @@
     - https://www.openwall.com/lists/oss-security/2025/08/18/3
     - https://www.qualys.com/2025/05/29/apport-coredump/apport-coredump.txt
     PublishedDate: '2025-05-30T14:15:23.557Z'
-    LastModifiedDate: '2025-11-04T22:16:19.68Z'
+    LastModifiedDate: '2025-12-03T12:15:49.507Z'
   - VulnerabilityID: CVE-2005-2541
     PkgID: tar@1.34-7.el9.x86_64
     PkgName: tar
@@ -39756,6 +40081,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2005-2541
+    Fingerprint: sha256:2bdfb7138447bfa11569d519472b32318f6f2c36387b1d5326f62855e26de368
     Title: 'tar: does not properly warn the user when extracting setuid or setgid files'
     Description: Tar 1.15.1 does not properly warn the user when extracting setuid or setgid files, which may allow local users or remote attackers to gain privileges.
     Severity: MEDIUM
@@ -39790,6 +40116,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-45582
+    Fingerprint: sha256:3d666a36747800468ff707e918f520798ce9cd819ccf6f8f598b6c33fc2086cb
     Title: 'tar: Tar path traversal'
     Description: 'GNU Tar through 1.35 allows file overwrite via directory traversal in crafted TAR archives, with a certain two-step process. First, the victim must extract an archive that contains a ../ symlink to a critical directory. Second, the victim must extract an archive that contains a critical file, specified via a relative pathname that begins with the symlink name and ends with that critical file''s name. Here, the extraction follows the symlink and overwrites the critical file. This bypasses the protection mechanism of "Member name contains ''..''" that would occur for a single TAR archive that attempted to specify the critical file via a ../ approach. For example, the first archive can contain "x -> ../../../../../home/victim/.ssh" and the second archive can contain x/authorized_keys. This can affect server applications that automatically extract any number of user-supplied TAR archives, and were relying on the blocking of traversal. This can also affect software installation processes in which "tar xf" is run more than once (e.g., when installing a package can automatically install two dependencies that are set up as untrusted tarballs instead of official packages). NOTE: the official GNU Tar manual has an otherwise-empty directory for each "tar xf" in its Security Rules of Thumb; however, third-party advice leads users to run "tar xf" more than once into the same directory.'
     Severity: MEDIUM
@@ -39828,6 +40155,7 @@
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39804
+    Fingerprint: sha256:8730754a4061d377169f6b3981316dcb5eefc8abd60c3e5444a49b58a26e8c33
     Title: 'tar: Incorrectly handled extension attributes in PAX archives can lead to a crash'
     Description: In GNU tar before 1.35, mishandled extension attributes in a PAX archive can lead to an application crash in xheader.c.
     Severity: LOW
