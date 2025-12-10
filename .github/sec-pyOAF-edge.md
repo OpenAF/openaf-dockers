@@ -3686,11 +3686,13 @@
 │     │                 │                       │        ons/build/__pycache__/metadata_editable.cpython-312.py
 │     │                 │                       │        c 
 │     │                 │                       ├ [94] : usr/lib/python3.12/site-packages/pip/_internal/operati
-│     │                 │                       │        ons/build/__pycache__/metadata_legacy.cpython-312.pyc 
+│     │                 │                       │        ons/build/__pycache__/metadata_legacy.cpython-312.pyc
+│     │                 │                       │        [m 
 │     │                 │                       ├ [95] : usr/lib/python3.12/site-packages/pip/_internal/operati
 │     │                 │                       │        ons/build/__pycache__/wheel.cpython-312.pyc 
 │     │                 │                       ├ [96] : usr/lib/python3.12/site-packages/pip/_internal/operati
-│     │                 │                       │        ons/build/__pycache__/wheel_editable.cpython-312.pyc 
+│     │                 │                       │        ons/build/__pycache__/wheel_editable.cpython-312.pyc[
+│     │                 │                       │        m 
 │     │                 │                       ├ [97] : usr/lib/python3.12/site-packages/pip/_internal/operati
 │     │                 │                       │        ons/build/__pycache__/wheel_legacy.cpython-312.pyc 
 │     │                 │                       ├ [98] : usr/lib/python3.12/site-packages/pip/_internal/operati
@@ -3727,7 +3729,8 @@
 │     │                 │                       ├ [113]: usr/lib/python3.12/site-packages/pip/_internal/resolut
 │     │                 │                       │        ion/resolvelib/__pycache__/base.cpython-312.pyc 
 │     │                 │                       ├ [114]: usr/lib/python3.12/site-packages/pip/_internal/resolut
-│     │                 │                       │        ion/resolvelib/__pycache__/candidates.cpython-312.pyc 
+│     │                 │                       │        ion/resolvelib/__pycache__/candidates.cpython-312.pyc
+│     │                 │                       │        [m 
 │     │                 │                       ├ [115]: usr/lib/python3.12/site-packages/pip/_internal/resolut
 │     │                 │                       │        ion/resolvelib/__pycache__/factory.cpython-312.pyc 
 │     │                 │                       ├ [116]: usr/lib/python3.12/site-packages/pip/_internal/resolut
@@ -3845,7 +3848,8 @@
 │     │                 │                       ├ [171]: usr/lib/python3.12/site-packages/pip/_vendor/dependenc
 │     │                 │                       │        y_groups/__pycache__/__main__.cpython-312.pyc 
 │     │                 │                       ├ [172]: usr/lib/python3.12/site-packages/pip/_vendor/dependenc
-│     │                 │                       │        y_groups/__pycache__/_implementation.cpython-312.pyc 
+│     │                 │                       │        y_groups/__pycache__/_implementation.cpython-312.pyc[
+│     │                 │                       │        m 
 │     │                 │                       ├ [173]: usr/lib/python3.12/site-packages/pip/_vendor/dependenc
 │     │                 │                       │        y_groups/__pycache__/_lint_dependency_groups.cpython-3
 │     │                 │                       │        12.pyc 
@@ -4272,7 +4276,8 @@
 │     │                 │                       ├ [383]: usr/lib/python3.12/site-packages/pip/_vendor/urllib3/c
 │     │                 │                       │        ontrib/__pycache__/__init__.cpython-312.pyc 
 │     │                 │                       ├ [384]: usr/lib/python3.12/site-packages/pip/_vendor/urllib3/c
-│     │                 │                       │        ontrib/__pycache__/_appengine_environ.cpython-312.pyc 
+│     │                 │                       │        ontrib/__pycache__/_appengine_environ.cpython-312.pyc
+│     │                 │                       │        [m 
 │     │                 │                       ├ [385]: usr/lib/python3.12/site-packages/pip/_vendor/urllib3/c
 │     │                 │                       │        ontrib/__pycache__/appengine.cpython-312.pyc 
 │     │                 │                       ├ [386]: usr/lib/python3.12/site-packages/pip/_vendor/urllib3/c
@@ -4297,9 +4302,11 @@
 │     │                 │                       ├ [394]: usr/lib/python3.12/site-packages/pip/_vendor/urllib3/p
 │     │                 │                       │        ackages/__pycache__/six.cpython-312.pyc 
 │     │                 │                       ├ [395]: usr/lib/python3.12/site-packages/pip/_vendor/urllib3/p
-│     │                 │                       │        ackages/backports/__pycache__/__init__.cpython-312.pyc 
+│     │                 │                       │        ackages/backports/__pycache__/__init__.cpython-312.pyc
+│     │                 │                       │         
 │     │                 │                       ├ [396]: usr/lib/python3.12/site-packages/pip/_vendor/urllib3/p
-│     │                 │                       │        ackages/backports/__pycache__/makefile.cpython-312.pyc 
+│     │                 │                       │        ackages/backports/__pycache__/makefile.cpython-312.pyc
+│     │                 │                       │         
 │     │                 │                       ├ [397]: usr/lib/python3.12/site-packages/pip/_vendor/urllib3/p
 │     │                 │                       │        ackages/backports/__pycache__/weakref_finalize.cpython
 │     │                 │                       │        -312.pyc 
@@ -5504,7 +5511,8 @@
 │     │                 │                       ├ [72] : usr/lib/python3.12/site-packages/setuptools/_distutils
 │     │                 │                       │        /command/__pycache__/__init__.cpython-312.pyc 
 │     │                 │                       ├ [73] : usr/lib/python3.12/site-packages/setuptools/_distutils
-│     │                 │                       │        /command/__pycache__/_framework_compat.cpython-312.pyc 
+│     │                 │                       │        /command/__pycache__/_framework_compat.cpython-312.pyc
+│     │                 │                       │         
 │     │                 │                       ├ [74] : usr/lib/python3.12/site-packages/setuptools/_distutils
 │     │                 │                       │        /command/__pycache__/bdist.cpython-312.pyc 
 │     │                 │                       ├ [75] : usr/lib/python3.12/site-packages/setuptools/_distutils
@@ -5532,13 +5540,16 @@
 │     │                 │                       ├ [86] : usr/lib/python3.12/site-packages/setuptools/_distutils
 │     │                 │                       │        /command/__pycache__/install_data.cpython-312.pyc 
 │     │                 │                       ├ [87] : usr/lib/python3.12/site-packages/setuptools/_distutils
-│     │                 │                       │        /command/__pycache__/install_egg_info.cpython-312.pyc 
+│     │                 │                       │        /command/__pycache__/install_egg_info.cpython-312.pyc
+│     │                 │                       │        [m 
 │     │                 │                       ├ [88] : usr/lib/python3.12/site-packages/setuptools/_distutils
-│     │                 │                       │        /command/__pycache__/install_headers.cpython-312.pyc 
+│     │                 │                       │        /command/__pycache__/install_headers.cpython-312.pyc[
+│     │                 │                       │        m 
 │     │                 │                       ├ [89] : usr/lib/python3.12/site-packages/setuptools/_distutils
 │     │                 │                       │        /command/__pycache__/install_lib.cpython-312.pyc 
 │     │                 │                       ├ [90] : usr/lib/python3.12/site-packages/setuptools/_distutils
-│     │                 │                       │        /command/__pycache__/install_scripts.cpython-312.pyc 
+│     │                 │                       │        /command/__pycache__/install_scripts.cpython-312.pyc[
+│     │                 │                       │        m 
 │     │                 │                       ├ [91] : usr/lib/python3.12/site-packages/setuptools/_distutils
 │     │                 │                       │        /command/__pycache__/sdist.cpython-312.pyc 
 │     │                 │                       ├ [92] : usr/lib/python3.12/site-packages/setuptools/_distutils
@@ -5579,7 +5590,8 @@
 │     │                 │                       ├ [107]: usr/lib/python3.12/site-packages/setuptools/_distutils
 │     │                 │                       │        /tests/__pycache__/support.cpython-312.pyc 
 │     │                 │                       ├ [108]: usr/lib/python3.12/site-packages/setuptools/_distutils
-│     │                 │                       │        /tests/__pycache__/test_archive_util.cpython-312.pyc 
+│     │                 │                       │        /tests/__pycache__/test_archive_util.cpython-312.pyc[
+│     │                 │                       │        m 
 │     │                 │                       ├ [109]: usr/lib/python3.12/site-packages/setuptools/_distutils
 │     │                 │                       │        /tests/__pycache__/test_bdist.cpython-312.pyc 
 │     │                 │                       ├ [110]: usr/lib/python3.12/site-packages/setuptools/_distutils
@@ -5595,7 +5607,8 @@
 │     │                 │                       ├ [115]: usr/lib/python3.12/site-packages/setuptools/_distutils
 │     │                 │                       │        /tests/__pycache__/test_build_py.cpython-312.pyc 
 │     │                 │                       ├ [116]: usr/lib/python3.12/site-packages/setuptools/_distutils
-│     │                 │                       │        /tests/__pycache__/test_build_scripts.cpython-312.pyc 
+│     │                 │                       │        /tests/__pycache__/test_build_scripts.cpython-312.pyc
+│     │                 │                       │        [m 
 │     │                 │                       ├ [117]: usr/lib/python3.12/site-packages/setuptools/_distutils
 │     │                 │                       │        /tests/__pycache__/test_check.cpython-312.pyc 
 │     │                 │                       ├ [118]: usr/lib/python3.12/site-packages/setuptools/_distutils
@@ -5619,7 +5632,8 @@
 │     │                 │                       ├ [127]: usr/lib/python3.12/site-packages/setuptools/_distutils
 │     │                 │                       │        /tests/__pycache__/test_install.cpython-312.pyc 
 │     │                 │                       ├ [128]: usr/lib/python3.12/site-packages/setuptools/_distutils
-│     │                 │                       │        /tests/__pycache__/test_install_data.cpython-312.pyc 
+│     │                 │                       │        /tests/__pycache__/test_install_data.cpython-312.pyc[
+│     │                 │                       │        m 
 │     │                 │                       ├ [129]: usr/lib/python3.12/site-packages/setuptools/_distutils
 │     │                 │                       │        /tests/__pycache__/test_install_headers.cpython-312.py
 │     │                 │                       │        c 
@@ -5670,9 +5684,11 @@
 │     │                 │                       ├ [151]: usr/lib/python3.12/site-packages/setuptools/_vendor/ba
 │     │                 │                       │        ckports/__pycache__/__init__.cpython-312.pyc 
 │     │                 │                       ├ [152]: usr/lib/python3.12/site-packages/setuptools/_vendor/ba
-│     │                 │                       │        ckports/tarfile/__pycache__/__init__.cpython-312.pyc 
+│     │                 │                       │        ckports/tarfile/__pycache__/__init__.cpython-312.pyc[
+│     │                 │                       │        m 
 │     │                 │                       ├ [153]: usr/lib/python3.12/site-packages/setuptools/_vendor/ba
-│     │                 │                       │        ckports/tarfile/__pycache__/__main__.cpython-312.pyc 
+│     │                 │                       │        ckports/tarfile/__pycache__/__main__.cpython-312.pyc[
+│     │                 │                       │        m 
 │     │                 │                       ├ [154]: usr/lib/python3.12/site-packages/setuptools/_vendor/ba
 │     │                 │                       │        ckports/tarfile/compat/__pycache__/__init__.cpython-31
 │     │                 │                       │        2.pyc 
@@ -5680,14 +5696,17 @@
 │     │                 │                       │        ckports/tarfile/compat/__pycache__/py38.cpython-312.py
 │     │                 │                       │        c 
 │     │                 │                       ├ [156]: usr/lib/python3.12/site-packages/setuptools/_vendor/im
-│     │                 │                       │        portlib_metadata/__pycache__/__init__.cpython-312.pyc 
+│     │                 │                       │        portlib_metadata/__pycache__/__init__.cpython-312.pyc
+│     │                 │                       │        [m 
 │     │                 │                       ├ [157]: usr/lib/python3.12/site-packages/setuptools/_vendor/im
-│     │                 │                       │        portlib_metadata/__pycache__/_adapters.cpython-312.pyc 
+│     │                 │                       │        portlib_metadata/__pycache__/_adapters.cpython-312.pyc
+│     │                 │                       │         
 │     │                 │                       ├ [158]: usr/lib/python3.12/site-packages/setuptools/_vendor/im
 │     │                 │                       │        portlib_metadata/__pycache__/_collections.cpython-312.
 │     │                 │                       │        pyc 
 │     │                 │                       ├ [159]: usr/lib/python3.12/site-packages/setuptools/_vendor/im
-│     │                 │                       │        portlib_metadata/__pycache__/_compat.cpython-312.pyc 
+│     │                 │                       │        portlib_metadata/__pycache__/_compat.cpython-312.pyc[
+│     │                 │                       │        m 
 │     │                 │                       ├ [160]: usr/lib/python3.12/site-packages/setuptools/_vendor/im
 │     │                 │                       │        portlib_metadata/__pycache__/_functools.cpython-312.py
 │     │                 │                       │        c 
@@ -5699,7 +5718,8 @@
 │     │                 │                       ├ [163]: usr/lib/python3.12/site-packages/setuptools/_vendor/im
 │     │                 │                       │        portlib_metadata/__pycache__/_text.cpython-312.pyc 
 │     │                 │                       ├ [164]: usr/lib/python3.12/site-packages/setuptools/_vendor/im
-│     │                 │                       │        portlib_metadata/__pycache__/diagnose.cpython-312.pyc 
+│     │                 │                       │        portlib_metadata/__pycache__/diagnose.cpython-312.pyc
+│     │                 │                       │        [m 
 │     │                 │                       ├ [165]: usr/lib/python3.12/site-packages/setuptools/_vendor/im
 │     │                 │                       │        portlib_metadata/compat/__pycache__/__init__.cpython-3
 │     │                 │                       │        12.pyc 
@@ -5718,7 +5738,8 @@
 │     │                 │                       ├ [171]: usr/lib/python3.12/site-packages/setuptools/_vendor/ja
 │     │                 │                       │        raco/__pycache__/context.cpython-312.pyc 
 │     │                 │                       ├ [172]: usr/lib/python3.12/site-packages/setuptools/_vendor/ja
-│     │                 │                       │        raco/collections/__pycache__/__init__.cpython-312.pyc 
+│     │                 │                       │        raco/collections/__pycache__/__init__.cpython-312.pyc
+│     │                 │                       │        [m 
 │     │                 │                       ├ [173]: usr/lib/python3.12/site-packages/setuptools/_vendor/ja
 │     │                 │                       │        raco/functools/__pycache__/__init__.cpython-312.pyc 
 │     │                 │                       ├ [174]: usr/lib/python3.12/site-packages/setuptools/_vendor/ja
@@ -5768,7 +5789,8 @@
 │     │                 │                       ├ [196]: usr/lib/python3.12/site-packages/setuptools/_vendor/pa
 │     │                 │                       │        ckaging/__pycache__/version.cpython-312.pyc 
 │     │                 │                       ├ [197]: usr/lib/python3.12/site-packages/setuptools/_vendor/pa
-│     │                 │                       │        ckaging/licenses/__pycache__/__init__.cpython-312.pyc 
+│     │                 │                       │        ckaging/licenses/__pycache__/__init__.cpython-312.pyc
+│     │                 │                       │        [m 
 │     │                 │                       ├ [198]: usr/lib/python3.12/site-packages/setuptools/_vendor/pa
 │     │                 │                       │        ckaging/licenses/__pycache__/_spdx.cpython-312.pyc 
 │     │                 │                       ├ [199]: usr/lib/python3.12/site-packages/setuptools/_vendor/pl
@@ -5818,7 +5840,8 @@
 │     │                 │                       ├ [221]: usr/lib/python3.12/site-packages/setuptools/_vendor/ty
 │     │                 │                       │        peguard/__pycache__/_transformer.cpython-312.pyc 
 │     │                 │                       ├ [222]: usr/lib/python3.12/site-packages/setuptools/_vendor/ty
-│     │                 │                       │        peguard/__pycache__/_union_transformer.cpython-312.pyc 
+│     │                 │                       │        peguard/__pycache__/_union_transformer.cpython-312.pyc
+│     │                 │                       │         
 │     │                 │                       ├ [223]: usr/lib/python3.12/site-packages/setuptools/_vendor/ty
 │     │                 │                       │        peguard/__pycache__/_utils.cpython-312.pyc 
 │     │                 │                       ├ [224]: usr/lib/python3.12/site-packages/setuptools/_vendor/wh
@@ -5967,7 +5990,8 @@
 │     │                 │                       ├ [289]: usr/lib/python3.12/site-packages/setuptools/config/__p
 │     │                 │                       │        ycache__/setupcfg.cpython-312.pyc 
 │     │                 │                       ├ [290]: usr/lib/python3.12/site-packages/setuptools/config/_va
-│     │                 │                       │        lidate_pyproject/__pycache__/__init__.cpython-312.pyc 
+│     │                 │                       │        lidate_pyproject/__pycache__/__init__.cpython-312.pyc
+│     │                 │                       │        [m 
 │     │                 │                       ├ [291]: usr/lib/python3.12/site-packages/setuptools/config/_va
 │     │                 │                       │        lidate_pyproject/__pycache__/error_reporting.cpython-3
 │     │                 │                       │        12.pyc 
@@ -5981,7 +6005,8 @@
 │     │                 │                       │        lidate_pyproject/__pycache__/fastjsonschema_validation
 │     │                 │                       │        s.cpython-312.pyc 
 │     │                 │                       ├ [295]: usr/lib/python3.12/site-packages/setuptools/config/_va
-│     │                 │                       │        lidate_pyproject/__pycache__/formats.cpython-312.pyc 
+│     │                 │                       │        lidate_pyproject/__pycache__/formats.cpython-312.pyc[
+│     │                 │                       │        m 
 │     │                 │                       ├ [296]: usr/lib/python3.12/site-packages/setuptools/tests/__py
 │     │                 │                       │        cache__/__init__.cpython-312.pyc 
 │     │                 │                       ├ [297]: usr/lib/python3.12/site-packages/setuptools/tests/__py
@@ -8599,8 +8624,8 @@
 │                       │      │                   bounds are not validated against externally-supplied image
 │                       │      │                   data, allowing an attacker to craft a PNG file with
 │                       │      │                   out-of-range palette indices that trigger out-of-bounds
-│                       │      │                   memory access. This issue has been patched in version 1.6.51
-│                       │      │                   . 
+│                       │      │                   memory access. This issue has been patched in version
+│                       │      │                   1.6.51. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ amazon     : 3 
