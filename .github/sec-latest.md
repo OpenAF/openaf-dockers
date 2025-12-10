@@ -2650,8 +2650,8 @@
 │                       │      │                   bounds are not validated against externally-supplied image
 │                       │      │                   data, allowing an attacker to craft a PNG file with
 │                       │      │                   out-of-range palette indices that trigger out-of-bounds
-│                       │      │                   memory access. This issue has been patched in version 1.6.51
-│                       │      │                   . 
+│                       │      │                   memory access. This issue has been patched in version
+│                       │      │                   1.6.51. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ amazon     : 3 
