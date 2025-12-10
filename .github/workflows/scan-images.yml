@@ -6,20 +6,21 @@ on:
     - cron: '00 7 * * *'
 
 jobs:
-  Scan-Images:
-    permissions:
-      contents: write
-      pull-requests: write
-      
+  setup:
     runs-on: ubuntu-latest
-    name: Scan images
+    name: Setup
     steps:
     - name: Cache OpenAF runtime
       uses: actions/cache@v4
       with:
         key : oaf-t8
         path: /tmp/oaf
-        
+
+  scan-oaf-latest:
+    needs: setup
+    runs-on: ubuntu-latest
+    name: Scan openaf/oaf:latest
+    steps:
     - uses: actions/checkout@v4
       name: Checkout
 
@@ -27,7 +28,7 @@ jobs:
       run : |
         wget https://openaf.io/trivy-db.tgz
         docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
-      
+
     - uses: openaf/ojob-action@v7
       name: Scan latest
       with:
@@ -40,7 +41,28 @@ jobs:
       with:
         ojob: 'ojob.io/util/toMDTree'
         args: 'inputFile=.github/sec-latest.yaml file=.github/sec-latest.md'
-        
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: sec-latest
+        path: |
+          .github/sec-latest.svg
+          .github/sec-latest.yaml
+          .github/sec-latest.md
+
+  scan-oaf-nightly:
+    needs: setup
+    runs-on: ubuntu-latest
+    name: Scan openaf/oaf:nightly
+    steps:
+    - uses: actions/checkout@v4
+      name: Checkout
+
+    - name: Restore the trivy databases from cache
+      run : |
+        wget https://openaf.io/trivy-db.tgz
+        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
+
     - uses: openaf/ojob-action@v7
       name: Scan nightly
       with:
@@ -52,15 +74,29 @@ jobs:
       name: Generate sec-nightly.md
       with:
         ojob: 'ojob.io/util/toMDTree'
-        args: 'inputFile=.github/sec-nigthly.yaml file=.github/sec-nightly.md'
-
-        
-    - uses: openaf/ojob-action@v7
-      name: Generate sec-nightly.md
-      with:
-        ojob: 'ojob.io/util/toMDTree'
         args: 'inputFile=.github/sec-nightly.yaml file=.github/sec-nightly.md'
-        
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: sec-nightly
+        path: |
+          .github/sec-nightly.svg
+          .github/sec-nightly.yaml
+          .github/sec-nightly.md
+
+  scan-oaf-edge:
+    needs: setup
+    runs-on: ubuntu-latest
+    name: Scan openaf/oaf:edge
+    steps:
+    - uses: actions/checkout@v4
+      name: Checkout
+
+    - name: Restore the trivy databases from cache
+      run : |
+        wget https://openaf.io/trivy-db.tgz
+        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
+
     - uses: openaf/ojob-action@v7
       name: Scan edge
       with:
@@ -74,12 +110,26 @@ jobs:
         ojob: 'ojob.io/util/toMDTree'
         args: 'inputFile=.github/sec-edge.yaml file=.github/sec-edge.md'
 
-        
-    - uses: openaf/ojob-action@v7
-      name: Generate sec-edge.md
+    - uses: actions/upload-artifact@v4
       with:
-        ojob: 'ojob.io/util/toMDTree'
-        args: 'inputFile=.github/sec-edge.yaml file=.github/sec-edge.md'
+        name: sec-edge
+        path: |
+          .github/sec-edge.svg
+          .github/sec-edge.yaml
+          .github/sec-edge.md
+
+  scan-oaf-ubi-nightly:
+    needs: setup
+    runs-on: ubuntu-latest
+    name: Scan openaf/oaf:ubi-nightly
+    steps:
+    - uses: actions/checkout@v4
+      name: Checkout
+
+    - name: Restore the trivy databases from cache
+      run : |
+        wget https://openaf.io/trivy-db.tgz
+        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
 
     - uses: openaf/ojob-action@v7
       name: Scan UBI nightly
@@ -89,6 +139,33 @@ jobs:
         dist: 't8'
 
     - uses: openaf/ojob-action@v7
+      name: Generate sec-ubi-nightly.md
+      with:
+        ojob: 'ojob.io/util/toMDTree'
+        args: 'inputFile=.github/sec-ubi-nightly.yaml file=.github/sec-ubi-nightly.md'
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: sec-ubi-nightly
+        path: |
+          .github/sec-ubi-nightly.svg
+          .github/sec-ubi-nightly.yaml
+          .github/sec-ubi-nightly.md
+
+  scan-oaf-deb-nightly:
+    needs: setup
+    runs-on: ubuntu-latest
+    name: Scan openaf/oaf:deb-nightly
+    steps:
+    - uses: actions/checkout@v4
+      name: Checkout
+
+    - name: Restore the trivy databases from cache
+      run : |
+        wget https://openaf.io/trivy-db.tgz
+        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
+
+    - uses: openaf/ojob-action@v7
       name: Scan DEB nightly
       with:
         ojob: 'ojob.io/sec/genSecBadge'
@@ -96,16 +173,31 @@ jobs:
         dist: 't8'
     
     - uses: openaf/ojob-action@v7
-      name: Generate sec-ubi-nightly.md
-      with:
-        ojob: 'ojob.io/util/toMDTree'
-        args: 'inputFile=.github/sec-ubi-nightly.yaml file=.github/sec-ubi-nightly.md'
-        
-    - uses: openaf/ojob-action@v7
       name: Generate sec-deb-nightly.md
       with:
         ojob: 'ojob.io/util/toMDTree'
         args: 'inputFile=.github/sec-deb-nightly.yaml file=.github/sec-deb-nightly.md'
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: sec-deb-nightly
+        path: |
+          .github/sec-deb-nightly.svg
+          .github/sec-deb-nightly.yaml
+          .github/sec-deb-nightly.md
+
+  scan-oaf-ubi-latest:
+    needs: setup
+    runs-on: ubuntu-latest
+    name: Scan openaf/oaf:ubi
+    steps:
+    - uses: actions/checkout@v4
+      name: Checkout
+
+    - name: Restore the trivy databases from cache
+      run : |
+        wget https://openaf.io/trivy-db.tgz
+        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
 
     - uses: openaf/ojob-action@v7
       name: Scan UBI latest
@@ -115,6 +207,34 @@ jobs:
         dist: 't8'
 
     - uses: openaf/ojob-action@v7
+      name: Generate sec-ubi-latest.md
+      with:
+        ojob: 'ojob.io/util/toMDTree'
+        args: 'inputFile=.github/sec-ubi-latest.yaml file=.github/sec-ubi-latest.md'
+        dist: 't8'
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: sec-ubi-latest
+        path: |
+          .github/sec-ubi-latest.svg
+          .github/sec-ubi-latest.yaml
+          .github/sec-ubi-latest.md
+
+  scan-oaf-deb-latest:
+    needs: setup
+    runs-on: ubuntu-latest
+    name: Scan openaf/oaf:deb
+    steps:
+    - uses: actions/checkout@v4
+      name: Checkout
+
+    - name: Restore the trivy databases from cache
+      run : |
+        wget https://openaf.io/trivy-db.tgz
+        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
+
+    - uses: openaf/ojob-action@v7
       name: Scan DEB latest
       with:
         ojob: 'ojob.io/sec/genSecBadge'
@@ -122,18 +242,32 @@ jobs:
         dist: 't8'        
 
     - uses: openaf/ojob-action@v7
-      name: Generate sec-ubi-latest.md
-      with:
-        ojob: 'ojob.io/util/toMDTree'
-        args: 'inputFile=.github/sec-ubi-latest.yaml file=.github/sec-ubi-latest.md'
-        dist: 't8'
-        
-    - uses: openaf/ojob-action@v7
       name: Generate sec-deb-latest.md
       with:
         ojob: 'ojob.io/util/toMDTree'
         args: 'inputFile=.github/sec-deb-latest.yaml file=.github/sec-deb-latest.md'
         dist: 't8'
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: sec-deb-latest
+        path: |
+          .github/sec-deb-latest.svg
+          .github/sec-deb-latest.yaml
+          .github/sec-deb-latest.md
+
+  scan-ojobrt-latest:
+    needs: setup
+    runs-on: ubuntu-latest
+    name: Scan openaf/ojobrt:latest
+    steps:
+    - uses: actions/checkout@v4
+      name: Checkout
+
+    - name: Restore the trivy databases from cache
+      run : |
+        wget https://openaf.io/trivy-db.tgz
+        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
 
     - uses: openaf/ojob-action@v7
       name: Scan oJobRT latest
@@ -148,6 +282,27 @@ jobs:
         ojob: 'ojob.io/util/toMDTree'
         args: 'inputFile=.github/sec-oJobRT-latest.yaml file=.github/sec-oJobRT-latest.md'
         dist: 't8'
+
+    - uses: actions/upload-artifact@v4
+      with:
+        name: sec-ojobrt-latest
+        path: |
+          .github/sec-oJobRT-latest.svg
+          .github/sec-oJobRT-latest.yaml
+          .github/sec-oJobRT-latest.md
+
+  scan-ojobrt-nightly:
+    needs: setup
+    runs-on: ubuntu-latest
+    name: Scan openaf/ojobrt:nightly
+    steps:
+    - uses: actions/checkout@v4
+      name: Checkout
+
+    - name: Restore the trivy databases from cache
+      run : |
+        wget https://openaf.io/trivy-db.tgz
+        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
         
     - uses: openaf/ojob-action@v7
       name: Scan oJobRT nightly
@@ -163,6 +318,27 @@ jobs:
         args: 'inputFile=.github/sec-oJobRT-nightly.yaml file=.github/sec-oJobRT-nightly.md'
         dist: 't8'
 
+    - uses: actions/upload-artifact@v4
+      with:
+        name: sec-ojobrt-nightly
+        path: |
+          .github/sec-oJobRT-nightly.svg
+          .github/sec-oJobRT-nightly.yaml
+          .github/sec-oJobRT-nightly.md
+
+  scan-pyoaf-nightly:
+    needs: setup
+    runs-on: ubuntu-latest
+    name: Scan openaf/pyoaf:nightly
+    steps:
+    - uses: actions/checkout@v4
+      name: Checkout
+
+    - name: Restore the trivy databases from cache
+      run : |
+        wget https://openaf.io/trivy-db.tgz
+        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
+
     - uses: openaf/ojob-action@v7
       name: Scan pyOAF nightly
       with:
@@ -177,7 +353,26 @@ jobs:
         args: 'inputFile=.github/sec-pyOAF-nightly.yaml file=.github/sec-pyOAF-nightly.md'
         dist: 't8'
 
-    # ----
+    - uses: actions/upload-artifact@v4
+      with:
+        name: sec-pyoaf-nightly
+        path: |
+          .github/sec-pyOAF-nightly.svg
+          .github/sec-pyOAF-nightly.yaml
+          .github/sec-pyOAF-nightly.md
+
+  scan-ojobrt-edge:
+    needs: setup
+    runs-on: ubuntu-latest
+    name: Scan openaf/ojobrt:edge
+    steps:
+    - uses: actions/checkout@v4
+      name: Checkout
+
+    - name: Restore the trivy databases from cache
+      run : |
+        wget https://openaf.io/trivy-db.tgz
+        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
 
     - uses: openaf/ojob-action@v7
       name: Scan oJobRT edge
@@ -193,6 +388,27 @@ jobs:
         args: 'inputFile=.github/sec-oJobRT-edge.yaml file=.github/sec-oJobRT-edge.md'
         dist: 't8'
 
+    - uses: actions/upload-artifact@v4
+      with:
+        name: sec-ojobrt-edge
+        path: |
+          .github/sec-oJobRT-edge.svg
+          .github/sec-oJobRT-edge.yaml
+          .github/sec-oJobRT-edge.md
+
+  scan-pyoaf-edge:
+    needs: setup
+    runs-on: ubuntu-latest
+    name: Scan openaf/pyoaf:edge
+    steps:
+    - uses: actions/checkout@v4
+      name: Checkout
+
+    - name: Restore the trivy databases from cache
+      run : |
+        wget https://openaf.io/trivy-db.tgz
+        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
+
     - uses: openaf/ojob-action@v7
       name: Scan pyOAF edge
       with:
@@ -207,94 +423,33 @@ jobs:
         args: 'inputFile=.github/sec-pyOAF-edge.yaml file=.github/sec-pyOAF-edge.md'
         dist: 't8'
 
-    # - uses: openaf/ojob-action@v7
-    #   name: Scan 8 latest
-    #   with:
-    #     ojob: 'ojob.io/sec/genSecBadge'
-    #     args: 'image=openaf/oaf:8-latest file=.github/sec-8-latest.svg reportFile=.github/sec-8-latest.yaml'
-    #     dist: 't8'
-        
-    # - uses: openaf/ojob-action@v7
-    #   name: Generate sec-8-latest.md
-    #   with:
-    #     ojob: 'ojob.io/util/toMDTree'
-    #     args: 'inputFile=.github/sec-8-latest.yaml file=.github/sec-8-latest.md'
-        
-    # - uses: openaf/ojob-action@v4
-    #   name: Scan 8 nightly
-    #   with:
-    #     ojob: 'ojob.io/sec/genSecBadge'
-    #     args: 'image=openaf/oaf:8-nightly file=.github/sec-8-nightly.svg reportFile=.github/sec-8-nightly.yaml'
-    #     dist: 't8'
-        
-    # - uses: openaf/ojob-action@v4
-    #   name: Generate sec-8-nightly.md
-    #   with:
-    #     ojob: 'ojob.io/util/toMDTree'
-    #     args: 'inputFile=.github/sec-8-nigthly.yaml file=.github/sec-8-nightly.md'
+    - uses: actions/upload-artifact@v4
+      with:
+        name: sec-pyoaf-edge
+        path: |
+          .github/sec-pyOAF-edge.svg
+          .github/sec-pyOAF-edge.yaml
+          .github/sec-pyOAF-edge.md
 
-        
-    # - uses: openaf/ojob-action@v4
-    #   name: Generate sec-8-nightly.md
-    #   with:
-    #     ojob: 'ojob.io/util/toMDTree'
-    #     args: 'inputFile=.github/sec-8-nightly.yaml file=.github/sec-8-nightly.md'
-        
-    # - uses: openaf/ojob-action@v4
-    #   name: Scan UBI 8 nightly
-    #   with:
-    #     ojob: 'ojob.io/sec/genSecBadge'
-    #     args: 'image=openaf/oaf:8-ubi-nightly file=.github/sec-8-ubi-nightly.svg reportFile=.github/sec-8-ubi-nightly.yaml'
-    #     dist: 't8'
-    
-    # - uses: openaf/ojob-action@v4
-    #   name: Generate 8 sec-ubi-nightly.md
-    #   with:
-    #     ojob: 'ojob.io/util/toMDTree'
-    #     args: 'inputFile=.github/sec-8-ubi-nightly.yaml file=.github/sec-8-ubi-nightly.md'
-        
-    # - uses: openaf/ojob-action@v4
-    #   name: Scan UBI 8 latest
-    #   with:
-    #     ojob: 'ojob.io/sec/genSecBadge'
-    #     args: 'image=openaf/oaf:8-ubi file=.github/sec-8-ubi-latest.svg reportFile=.github/sec-8-ubi-latest.yaml'
-    #     dist: 't8'
-        
-    # - uses: openaf/ojob-action@v4
-    #   name: Generate sec-8-ubi-latest.md
-    #   with:
-    #     ojob: 'ojob.io/util/toMDTree'
-    #     args: 'inputFile=.github/sec-8-ubi-latest.yaml file=.github/sec-8-ubi-latest.md'
-    #     dist: 't8'
-        
-    # - uses: openaf/ojob-action@v4
-    #   name: Scan oJobRT 8 latest
-    #   with:
-    #     ojob: 'ojob.io/sec/genSecBadge'
-    #     args: 'image=openaf/ojobrt:8-latest file=.github/sec-8-oJobRT-latest.svg reportFile=.github/sec-8-oJobRT-latest.yaml'
-    #     dist: 't8'
-        
-    # - uses: openaf/ojob-action@v4
-    #   name: Generate sec-8-oJobRT-latest.md
-    #   with:
-    #     ojob: 'ojob.io/util/toMDTree'
-    #     args: 'inputFile=.github/sec-8-oJobRT-latest.yaml file=.github/sec-8-oJobRT-latest.md'
-    #     dist: 't8'
-        
-    # - uses: openaf/ojob-action@v4
-    #   name: Scan oJobRT 8 nightly
-    #   with:
-    #     ojob: 'ojob.io/sec/genSecBadge'
-    #     args: 'image=openaf/ojobrt:8-nightly file=.github/sec-8-oJobRT-nightly.svg reportFile=.github/sec-8-oJobRT-nightly.yaml'
-    #     dist: 't8'
-        
-    # - uses: openaf/ojob-action@v4
-    #   name: Generate sec-8-oJobRT-nightly.md
-    #   with:
-    #     ojob: 'ojob.io/util/toMDTree'
-    #     args: 'inputFile=.github/sec-8-oJobRT-nightly.yaml file=.github/sec-8-oJobRT-nightly.md'
-    #     dist: 't8'
+  push:
+    permissions:
+      contents: write
+      pull-requests: write
+    needs: [scan-oaf-latest, scan-oaf-nightly, scan-oaf-edge, scan-oaf-ubi-nightly, scan-oaf-deb-nightly, scan-oaf-ubi-latest, scan-oaf-deb-latest, scan-ojobrt-latest, scan-ojobrt-nightly, scan-pyoaf-nightly, scan-ojobrt-edge, scan-pyoaf-edge]
+    runs-on: ubuntu-latest
+    name: Push results
+    steps:
+    - uses: actions/checkout@v4
+      name: Checkout
 
+    - uses: actions/download-artifact@v4
+      with:
+        path: artifacts
+
+    - name: Copy artifacts to .github directory
+      run: |
+        find artifacts -type f -exec cp {} .github/ \;
+        ls -la .github/*.svg .github/*.yaml .github/*.md 2>/dev/null | head -20
 
     - uses: openaf/ojob-action@v7
       name: Push
@@ -304,4 +459,3 @@ jobs:
         ojob: 'ojob.io/git/hub/contentIn'
         args: 'message="update\ badge\ {{date}}/{{time}}" title="Update\ badges" paths=.github/'
         dist: t8
-        
