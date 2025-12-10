@@ -22,10 +22,26 @@ jobs:
         key: trivy-db-${{ runner.os }}
         path: /tmp/trivy-db
         
-    - name: Download trivy databases if not cached
+    - name: Download trivy databases if not cached or older than 12 hours
       run: |
         mkdir -p /tmp/trivy-db
-        if [ ! -f /tmp/trivy-db/trivy-db.tgz ]; then
+        RELOAD=false
+        
+        # Check if file exists and is older than 12 hours
+        if [ -f /tmp/trivy-db/trivy-db.tgz ]; then
+          FILE_AGE=$(($(date +%s) - $(stat -f %m /tmp/trivy-db/trivy-db.tgz 2>/dev/null || stat -c %Y /tmp/trivy-db/trivy-db.tgz)))
+          if [ $FILE_AGE -gt 43200 ]; then
+            echo "Trivy database is older than 12 hours (${FILE_AGE}s old), reloading..."
+            RELOAD=true
+          else
+            echo "Trivy database is recent (${FILE_AGE}s old), skipping download"
+          fi
+        else
+          echo "Trivy database not found, downloading..."
+          RELOAD=true
+        fi
+        
+        if [ "$RELOAD" = true ]; then
           wget -O /tmp/trivy-db/trivy-db.tgz https://openaf.io/trivy-db.tgz
         fi
 
