@@ -16,6 +16,19 @@ jobs:
         key : oaf-t8
         path: /tmp/oaf
 
+    - name: Cache and restore trivy databases
+      uses: actions/cache@v4
+      with:
+        key: trivy-db-${{ runner.os }}
+        path: /tmp/trivy-db
+        
+    - name: Download trivy databases if not cached
+      run: |
+        mkdir -p /tmp/trivy-db
+        if [ ! -f /tmp/trivy-db/trivy-db.tgz ]; then
+          wget -O /tmp/trivy-db/trivy-db.tgz https://openaf.io/trivy-db.tgz
+        fi
+
   scan-oaf-latest:
     needs: setup
     runs-on: ubuntu-latest
@@ -25,9 +38,14 @@ jobs:
       name: Checkout
 
     - name: Restore the trivy databases from cache
-      run : |
-        wget https://openaf.io/trivy-db.tgz
-        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
+      uses: actions/cache@v4
+      with:
+        key: trivy-db-${{ runner.os }}
+        path: /tmp/trivy-db
+
+    - name: Load trivy databases into Docker
+      run: |
+        docker run --rm -v trivy-db:/volume -v /tmp/trivy-db:/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
 
     - uses: openaf/ojob-action@v7
       name: Scan latest
@@ -59,9 +77,14 @@ jobs:
       name: Checkout
 
     - name: Restore the trivy databases from cache
-      run : |
-        wget https://openaf.io/trivy-db.tgz
-        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
+      uses: actions/cache@v4
+      with:
+        key: trivy-db-${{ runner.os }}
+        path: /tmp/trivy-db
+
+    - name: Load trivy databases into Docker
+      run: |
+        docker run --rm -v trivy-db:/volume -v /tmp/trivy-db:/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
 
     - uses: openaf/ojob-action@v7
       name: Scan nightly
@@ -93,9 +116,14 @@ jobs:
       name: Checkout
 
     - name: Restore the trivy databases from cache
-      run : |
-        wget https://openaf.io/trivy-db.tgz
-        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
+      uses: actions/cache@v4
+      with:
+        key: trivy-db-${{ runner.os }}
+        path: /tmp/trivy-db
+
+    - name: Load trivy databases into Docker
+      run: |
+        docker run --rm -v trivy-db:/volume -v /tmp/trivy-db:/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
 
     - uses: openaf/ojob-action@v7
       name: Scan edge
@@ -127,9 +155,14 @@ jobs:
       name: Checkout
 
     - name: Restore the trivy databases from cache
-      run : |
-        wget https://openaf.io/trivy-db.tgz
-        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
+      uses: actions/cache@v4
+      with:
+        key: trivy-db-${{ runner.os }}
+        path: /tmp/trivy-db
+
+    - name: Load trivy databases into Docker
+      run: |
+        docker run --rm -v trivy-db:/volume -v /tmp/trivy-db:/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
 
     - uses: openaf/ojob-action@v7
       name: Scan UBI nightly
@@ -161,9 +194,14 @@ jobs:
       name: Checkout
 
     - name: Restore the trivy databases from cache
-      run : |
-        wget https://openaf.io/trivy-db.tgz
-        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
+      uses: actions/cache@v4
+      with:
+        key: trivy-db-${{ runner.os }}
+        path: /tmp/trivy-db
+
+    - name: Load trivy databases into Docker
+      run: |
+        docker run --rm -v trivy-db:/volume -v /tmp/trivy-db:/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
 
     - uses: openaf/ojob-action@v7
       name: Scan DEB nightly
@@ -195,9 +233,14 @@ jobs:
       name: Checkout
 
     - name: Restore the trivy databases from cache
-      run : |
-        wget https://openaf.io/trivy-db.tgz
-        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
+      uses: actions/cache@v4
+      with:
+        key: trivy-db-${{ runner.os }}
+        path: /tmp/trivy-db
+
+    - name: Load trivy databases into Docker
+      run: |
+        docker run --rm -v trivy-db:/volume -v /tmp/trivy-db:/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
 
     - uses: openaf/ojob-action@v7
       name: Scan UBI latest
@@ -230,9 +273,14 @@ jobs:
       name: Checkout
 
     - name: Restore the trivy databases from cache
-      run : |
-        wget https://openaf.io/trivy-db.tgz
-        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
+      uses: actions/cache@v4
+      with:
+        key: trivy-db-${{ runner.os }}
+        path: /tmp/trivy-db
+
+    - name: Load trivy databases into Docker
+      run: |
+        docker run --rm -v trivy-db:/volume -v /tmp/trivy-db:/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
 
     - uses: openaf/ojob-action@v7
       name: Scan DEB latest
@@ -265,9 +313,14 @@ jobs:
       name: Checkout
 
     - name: Restore the trivy databases from cache
-      run : |
-        wget https://openaf.io/trivy-db.tgz
-        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
+      uses: actions/cache@v4
+      with:
+        key: trivy-db-${{ runner.os }}
+        path: /tmp/trivy-db
+
+    - name: Load trivy databases into Docker
+      run: |
+        docker run --rm -v trivy-db:/volume -v /tmp/trivy-db:/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
 
     - uses: openaf/ojob-action@v7
       name: Scan oJobRT latest
@@ -300,9 +353,14 @@ jobs:
       name: Checkout
 
     - name: Restore the trivy databases from cache
-      run : |
-        wget https://openaf.io/trivy-db.tgz
-        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
+      uses: actions/cache@v4
+      with:
+        key: trivy-db-${{ runner.os }}
+        path: /tmp/trivy-db
+
+    - name: Load trivy databases into Docker
+      run: |
+        docker run --rm -v trivy-db:/volume -v /tmp/trivy-db:/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
         
     - uses: openaf/ojob-action@v7
       name: Scan oJobRT nightly
@@ -335,9 +393,14 @@ jobs:
       name: Checkout
 
     - name: Restore the trivy databases from cache
-      run : |
-        wget https://openaf.io/trivy-db.tgz
-        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
+      uses: actions/cache@v4
+      with:
+        key: trivy-db-${{ runner.os }}
+        path: /tmp/trivy-db
+
+    - name: Load trivy databases into Docker
+      run: |
+        docker run --rm -v trivy-db:/volume -v /tmp/trivy-db:/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
 
     - uses: openaf/ojob-action@v7
       name: Scan pyOAF nightly
@@ -370,9 +433,14 @@ jobs:
       name: Checkout
 
     - name: Restore the trivy databases from cache
-      run : |
-        wget https://openaf.io/trivy-db.tgz
-        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
+      uses: actions/cache@v4
+      with:
+        key: trivy-db-${{ runner.os }}
+        path: /tmp/trivy-db
+
+    - name: Load trivy databases into Docker
+      run: |
+        docker run --rm -v trivy-db:/volume -v /tmp/trivy-db:/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
 
     - uses: openaf/ojob-action@v7
       name: Scan oJobRT edge
@@ -405,9 +473,14 @@ jobs:
       name: Checkout
 
     - name: Restore the trivy databases from cache
-      run : |
-        wget https://openaf.io/trivy-db.tgz
-        docker run --rm -v trivy-db:/volume -v $(pwd):/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
+      uses: actions/cache@v4
+      with:
+        key: trivy-db-${{ runner.os }}
+        path: /tmp/trivy-db
+
+    - name: Load trivy databases into Docker
+      run: |
+        docker run --rm -v trivy-db:/volume -v /tmp/trivy-db:/backup busybox tar xzf /backup/trivy-db.tgz -C /volume
 
     - uses: openaf/ojob-action@v7
       name: Scan pyOAF edge
