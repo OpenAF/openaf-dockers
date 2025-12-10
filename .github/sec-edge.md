@@ -1181,7 +1181,8 @@
 │                       │     │                   out-of-bounds write ... 
 │                       │     ├ Description     : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
 │                       │     │                   out-of-bounds write vulnerability when an attacker can
-│                       │     │                   trigger iconv conversion of untrusted EUC-KR text to UTF-8. 
+│                       │     │                   trigger iconv conversion of untrusted EUC-KR text to UTF-8.[
+│                       │     │                   m 
 │                       │     ├ Severity        : UNKNOWN 
 │                       │     ├ CweIDs           ─ [0]: CWE-787 
 │                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/13/2 
@@ -1220,7 +1221,8 @@
 │                       │     │                   out-of-bounds write ... 
 │                       │     ├ Description     : musl libc 0.9.13 through 1.2.5 before 1.2.6 has an
 │                       │     │                   out-of-bounds write vulnerability when an attacker can
-│                       │     │                   trigger iconv conversion of untrusted EUC-KR text to UTF-8. 
+│                       │     │                   trigger iconv conversion of untrusted EUC-KR text to UTF-8.[
+│                       │     │                   m 
 │                       │     ├ Severity        : UNKNOWN 
 │                       │     ├ CweIDs           ─ [0]: CWE-787 
 │                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/02/13/2 
