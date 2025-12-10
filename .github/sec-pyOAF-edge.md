@@ -752,10 +752,10 @@
 │     │                 │      ├ Licenses       ─ [0]: GPL-3.0-or-later 
 │     │                 │      ├ Maintainer    : Natanael Copa <ncopa@alpinelinux.org> 
 │     │                 │      ├ DependsOn      ─ [0]: musl@1.2.5-r10 
-│     │                 │      ├ Layer          ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e7736
-│     │                 │      │                │         9972e379ed7bdffc81 
-│     │                 │      │                ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf4
-│     │                 │      │                          4c33d39873274aa7e3 
+│     │                 │      ├ Layer          ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb
+│     │                 │      │                │         2a7401d854032d9013 
+│     │                 │      │                ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d93
+│     │                 │      │                          4b79768fc75adcc65b 
 │     │                 │      ├ Digest        : sha1:248e0fcce23357408afa5b82137e97b781ecb790 
 │     │                 │      ╰ InstalledFiles ╭ [0]: usr/lib/libgdbm.so.6 
 │     │                 │                       ├ [1]: usr/lib/libgdbm.so.6.0.0 
@@ -963,10 +963,10 @@
 │     │                 │      ├ Licenses       ─ [0]: MIT 
 │     │                 │      ├ Maintainer    : Carlo Landmeter <clandmeter@alpinelinux.org> 
 │     │                 │      ├ DependsOn      ─ [0]: musl@1.2.5-r10 
-│     │                 │      ├ Layer          ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e7736
-│     │                 │      │                │         9972e379ed7bdffc81 
-│     │                 │      │                ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf4
-│     │                 │      │                          4c33d39873274aa7e3 
+│     │                 │      ├ Layer          ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb
+│     │                 │      │                │         2a7401d854032d9013 
+│     │                 │      │                ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d93
+│     │                 │      │                          4b79768fc75adcc65b 
 │     │                 │      ├ Digest        : sha1:071003d14b18ec974b86a1e1318149e28bc51d53 
 │     │                 │      ╰ InstalledFiles ╭ [0]: usr/lib/libexpat.so.1 
 │     │                 │                       ╰ [1]: usr/lib/libexpat.so.1.11.1 
@@ -1000,10 +1000,10 @@
 │     │                 │      │                ╰ [1]: LGPL-2.1-or-later 
 │     │                 │      ├ Maintainer    : Ariadne Conill <ariadne@dereferenced.org> 
 │     │                 │      ├ DependsOn      ─ [0]: musl@1.2.5-r10 
-│     │                 │      ├ Layer          ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e7736
-│     │                 │      │                │         9972e379ed7bdffc81 
-│     │                 │      │                ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf4
-│     │                 │      │                          4c33d39873274aa7e3 
+│     │                 │      ├ Layer          ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb
+│     │                 │      │                │         2a7401d854032d9013 
+│     │                 │      │                ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d93
+│     │                 │      │                          4b79768fc75adcc65b 
 │     │                 │      ├ Digest        : sha1:6945911dc2b13485e97460d9df2716ad1a0aa32d 
 │     │                 │      ╰ InstalledFiles ─ [0]: usr/lib/libgcc_s.so.1 
 │     │                 ├ [27] ╭ ID            : libidn2@2.3.7-r0 
@@ -1083,10 +1083,10 @@
 │     │                 │      ├ Maintainer    : Natanael Copa <ncopa@alpinelinux.org> 
 │     │                 │      ├ DependsOn      ╭ [0]: musl@1.2.5-r10 
 │     │                 │      │                ╰ [1]: ncurses-terminfo-base@6.5_p20250503-r0 
-│     │                 │      ├ Layer          ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e7736
-│     │                 │      │                │         9972e379ed7bdffc81 
-│     │                 │      │                ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf4
-│     │                 │      │                          4c33d39873274aa7e3 
+│     │                 │      ├ Layer          ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb
+│     │                 │      │                │         2a7401d854032d9013 
+│     │                 │      │                ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d93
+│     │                 │      │                          4b79768fc75adcc65b 
 │     │                 │      ├ Digest        : sha1:42901f1528399d67e07e14085ee53f1a369b240a 
 │     │                 │      ╰ InstalledFiles ╭ [0]: usr/lib/libncursesw.so.6 
 │     │                 │                       ╰ [1]: usr/lib/libncursesw.so.6.5 
@@ -1104,10 +1104,10 @@
 │     │                 │      ├ DependsOn      ╭ [0]: libncursesw@6.5_p20250503-r0 
 │     │                 │      │                ├ [1]: musl@1.2.5-r10 
 │     │                 │      │                ╰ [2]: ncurses-terminfo-base@6.5_p20250503-r0 
-│     │                 │      ├ Layer          ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e7736
-│     │                 │      │                │         9972e379ed7bdffc81 
-│     │                 │      │                ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf4
-│     │                 │      │                          4c33d39873274aa7e3 
+│     │                 │      ├ Layer          ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb
+│     │                 │      │                │         2a7401d854032d9013 
+│     │                 │      │                ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d93
+│     │                 │      │                          4b79768fc75adcc65b 
 │     │                 │      ├ Digest        : sha1:a5a545273de609dff4af8f80a4b76ac8d07bd7ce 
 │     │                 │      ╰ InstalledFiles ╭ [0]: usr/lib/libpanelw.so.6 
 │     │                 │                       ╰ [1]: usr/lib/libpanelw.so.6.5 
@@ -1182,10 +1182,10 @@
 │     │                 │      ├ Maintainer    : Ariadne Conill <ariadne@dereferenced.org> 
 │     │                 │      ├ DependsOn      ╭ [0]: libgcc@14.2.0-r6 
 │     │                 │      │                ╰ [1]: musl@1.2.5-r10 
-│     │                 │      ├ Layer          ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e7736
-│     │                 │      │                │         9972e379ed7bdffc81 
-│     │                 │      │                ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf4
-│     │                 │      │                          4c33d39873274aa7e3 
+│     │                 │      ├ Layer          ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb
+│     │                 │      │                │         2a7401d854032d9013 
+│     │                 │      │                ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d93
+│     │                 │      │                          4b79768fc75adcc65b 
 │     │                 │      ├ Digest        : sha1:edf5cac1e98ffe4fb3609f48ded83b35bec14c9d 
 │     │                 │      ╰ InstalledFiles ╭ [0]: usr/lib/libstdc++.so.6 
 │     │                 │                       ╰ [1]: usr/lib/libstdc++.so.6.0.33 
@@ -1640,10 +1640,10 @@
 │     │                 │      ├ DependsOn      ╭ [0]: libgcc@14.2.0-r6 
 │     │                 │      │                ├ [1]: libstdc++@14.2.0-r6 
 │     │                 │      │                ╰ [2]: musl@1.2.5-r10 
-│     │                 │      ├ Layer          ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e7736
-│     │                 │      │                │         9972e379ed7bdffc81 
-│     │                 │      │                ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf4
-│     │                 │      │                          4c33d39873274aa7e3 
+│     │                 │      ├ Layer          ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb
+│     │                 │      │                │         2a7401d854032d9013 
+│     │                 │      │                ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d93
+│     │                 │      │                          4b79768fc75adcc65b 
 │     │                 │      ├ Digest        : sha1:0da6365c0e92650328fe176cbf65c35c4f0421f0 
 │     │                 │      ╰ InstalledFiles ╭ [0]: usr/lib/libmpdec++.so.4 
 │     │                 │                       ├ [1]: usr/lib/libmpdec++.so.4.0.1 
@@ -1702,10 +1702,10 @@
 │     │                 │      ├ SrcVersion    : 6.5_p20250503-r0 
 │     │                 │      ├ Licenses       ─ [0]: X-11 
 │     │                 │      ├ Maintainer    : Natanael Copa <ncopa@alpinelinux.org> 
-│     │                 │      ├ Layer          ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e7736
-│     │                 │      │                │         9972e379ed7bdffc81 
-│     │                 │      │                ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf4
-│     │                 │      │                          4c33d39873274aa7e3 
+│     │                 │      ├ Layer          ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb
+│     │                 │      │                │         2a7401d854032d9013 
+│     │                 │      │                ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d93
+│     │                 │      │                          4b79768fc75adcc65b 
 │     │                 │      ├ Digest        : sha1:fea2cc088f02df2feb5da718e70123647f0ef8f7 
 │     │                 │      ╰ InstalledFiles ╭ [0] : etc/terminfo/a/alacritty 
 │     │                 │                       ├ [1] : etc/terminfo/a/ansi 
@@ -2405,10 +2405,10 @@
 │     │                 │      ├ Maintainer    : Peter Shkenev <santurysim@gmail.com> 
 │     │                 │      ├ DependsOn      ╭ [0]: py3-parsing@3.2.3-r0 
 │     │                 │      │                ╰ [1]: python3@3.12.12-r0 
-│     │                 │      ├ Layer          ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e7736
-│     │                 │      │                │         9972e379ed7bdffc81 
-│     │                 │      │                ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf4
-│     │                 │      │                          4c33d39873274aa7e3 
+│     │                 │      ├ Layer          ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb
+│     │                 │      │                │         2a7401d854032d9013 
+│     │                 │      │                ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d93
+│     │                 │      │                          4b79768fc75adcc65b 
 │     │                 │      ├ Digest        : sha1:516ff2829c4037323701c550a45cdc1020dbcab6 
 │     │                 │      ╰ InstalledFiles ╭ [0] : usr/lib/python3.12/site-packages/packaging/__init__.py 
 │     │                 │                       ├ [1] : usr/lib/python3.12/site-packages/packaging/_elffile.py 
@@ -2456,10 +2456,10 @@
 │     │                 │      ├ Maintainer    : Peter Shkenev <santurysim@gmail.com> 
 │     │                 │      ├ DependsOn      ╭ [0]: py3-parsing@3.2.3-r0 
 │     │                 │      │                ╰ [1]: python3@3.12.12-r0 
-│     │                 │      ├ Layer          ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e7736
-│     │                 │      │                │         9972e379ed7bdffc81 
-│     │                 │      │                ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf4
-│     │                 │      │                          4c33d39873274aa7e3 
+│     │                 │      ├ Layer          ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb
+│     │                 │      │                │         2a7401d854032d9013 
+│     │                 │      │                ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d93
+│     │                 │      │                          4b79768fc75adcc65b 
 │     │                 │      ├ Digest        : sha1:edbb56182c167e364d6832a1d9c80ec57e032ea3 
 │     │                 │      ╰ InstalledFiles ╭ [0] : usr/lib/python3.12/site-packages/packaging/__pycache__/
 │     │                 │                       │       __init__.cpython-312.pyc 
@@ -2505,10 +2505,10 @@
 │     │                 │      ├ Licenses       ─ [0]: MIT 
 │     │                 │      ├ Maintainer    : Natanael Copa <ncopa@alpinelinux.org> 
 │     │                 │      ├ DependsOn      ─ [0]: python3@3.12.12-r0 
-│     │                 │      ├ Layer          ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e7736
-│     │                 │      │                │         9972e379ed7bdffc81 
-│     │                 │      │                ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf4
-│     │                 │      │                          4c33d39873274aa7e3 
+│     │                 │      ├ Layer          ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb
+│     │                 │      │                │         2a7401d854032d9013 
+│     │                 │      │                ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d93
+│     │                 │      │                          4b79768fc75adcc65b 
 │     │                 │      ├ Digest        : sha1:c6b54ce5f3cf728233739daba19d15ed13fd199f 
 │     │                 │      ╰ InstalledFiles ╭ [0] : usr/lib/python3.12/site-packages/pyparsing/__init__.py 
 │     │                 │                       ├ [1] : usr/lib/python3.12/site-packages/pyparsing/actions.py 
@@ -2547,10 +2547,10 @@
 │     │                 │      ├ Licenses       ─ [0]: MIT 
 │     │                 │      ├ Maintainer    : Natanael Copa <ncopa@alpinelinux.org> 
 │     │                 │      ├ DependsOn      ─ [0]: python3@3.12.12-r0 
-│     │                 │      ├ Layer          ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e7736
-│     │                 │      │                │         9972e379ed7bdffc81 
-│     │                 │      │                ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf4
-│     │                 │      │                          4c33d39873274aa7e3 
+│     │                 │      ├ Layer          ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb
+│     │                 │      │                │         2a7401d854032d9013 
+│     │                 │      │                ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d93
+│     │                 │      │                          4b79768fc75adcc65b 
 │     │                 │      ├ Digest        : sha1:46a2beff6a32152b9d521971d33285228ba8da94 
 │     │                 │      ╰ InstalledFiles ╭ [0] : usr/lib/python3.12/site-packages/pyparsing/__pycache__/
 │     │                 │                       │       __init__.cpython-312.pyc 
@@ -2591,10 +2591,10 @@
 │     │                 │      ├ Maintainer    : fossdd <fossdd@pwned.life> 
 │     │                 │      ├ DependsOn      ╭ [0]: py3-setuptools@80.9.0-r0 
 │     │                 │      │                ╰ [1]: python3@3.12.12-r0 
-│     │                 │      ├ Layer          ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e7736
-│     │                 │      │                │         9972e379ed7bdffc81 
-│     │                 │      │                ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf4
-│     │                 │      │                          4c33d39873274aa7e3 
+│     │                 │      ├ Layer          ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb
+│     │                 │      │                │         2a7401d854032d9013 
+│     │                 │      │                ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d93
+│     │                 │      │                          4b79768fc75adcc65b 
 │     │                 │      ├ Digest        : sha1:e38a9e86502e768ba78db9d48fa2b84a1e7a86a9 
 │     │                 │      ╰ InstalledFiles ╭ [0]  : usr/bin/pip 
 │     │                 │                       ├ [1]  : usr/bin/pip3 
@@ -3491,10 +3491,10 @@
 │     │                 │      ├ Maintainer    : fossdd <fossdd@pwned.life> 
 │     │                 │      ├ DependsOn      ╭ [0]: py3-setuptools@80.9.0-r0 
 │     │                 │      │                ╰ [1]: python3@3.12.12-r0 
-│     │                 │      ├ Layer          ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e7736
-│     │                 │      │                │         9972e379ed7bdffc81 
-│     │                 │      │                ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf4
-│     │                 │      │                          4c33d39873274aa7e3 
+│     │                 │      ├ Layer          ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb
+│     │                 │      │                │         2a7401d854032d9013 
+│     │                 │      │                ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d93
+│     │                 │      │                          4b79768fc75adcc65b 
 │     │                 │      ├ Digest        : sha1:93b7ad409f3b03ea374a4f2feacfbc746a790a81 
 │     │                 │      ╰ InstalledFiles ╭ [0]  : usr/lib/python3.12/site-packages/pip/__pycache__/__ini
 │     │                 │                       │        t__.cpython-312.pyc 
@@ -4342,10 +4342,10 @@
 │     │                 │      ├ Maintainer    : fossdd <fossdd@pwned.life> 
 │     │                 │      ├ DependsOn      ╭ [0]: py3-packaging@25.0-r0 
 │     │                 │      │                ╰ [1]: python3@3.12.12-r0 
-│     │                 │      ├ Layer          ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e7736
-│     │                 │      │                │         9972e379ed7bdffc81 
-│     │                 │      │                ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf4
-│     │                 │      │                          4c33d39873274aa7e3 
+│     │                 │      ├ Layer          ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb
+│     │                 │      │                │         2a7401d854032d9013 
+│     │                 │      │                ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d93
+│     │                 │      │                          4b79768fc75adcc65b 
 │     │                 │      ├ Digest        : sha1:187d399b4fdbab71175caa7f4b5ea281ecd02a33 
 │     │                 │      ╰ InstalledFiles ╭ [0]  : usr/lib/python3.12/site-packages/distutils-precedence.
 │     │                 │                       │        pth 
@@ -5350,10 +5350,10 @@
 │     │                 │      ├ Maintainer    : fossdd <fossdd@pwned.life> 
 │     │                 │      ├ DependsOn      ╭ [0]: py3-packaging@25.0-r0 
 │     │                 │      │                ╰ [1]: python3@3.12.12-r0 
-│     │                 │      ├ Layer          ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e7736
-│     │                 │      │                │         9972e379ed7bdffc81 
-│     │                 │      │                ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf4
-│     │                 │      │                          4c33d39873274aa7e3 
+│     │                 │      ├ Layer          ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb
+│     │                 │      │                │         2a7401d854032d9013 
+│     │                 │      │                ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d93
+│     │                 │      │                          4b79768fc75adcc65b 
 │     │                 │      ├ Digest        : sha1:20ea1e89bc1a7667c91f57a307d2a4f506dcddc7 
 │     │                 │      ╰ InstalledFiles ╭ [0]  : usr/lib/python3.12/site-packages/_distutils_hack/__pyc
 │     │                 │                       │        ache__/__init__.cpython-312.pyc 
@@ -6113,10 +6113,10 @@
 │     │                 │      ├ SrcVersion: 3.12.12-r0 
 │     │                 │      ├ Licenses   ─ [0]: PSF-2.0 
 │     │                 │      ├ Maintainer: Natanael Copa <ncopa@alpinelinux.org> 
-│     │                 │      ├ Layer      ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e77369972
-│     │                 │      │            │         e379ed7bdffc81 
-│     │                 │      │            ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf44c33
-│     │                 │      │                      d39873274aa7e3 
+│     │                 │      ├ Layer      ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb2a74
+│     │                 │      │            │         01d854032d9013 
+│     │                 │      │            ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d934b79
+│     │                 │      │                      768fc75adcc65b 
 │     │                 │      ╰ Digest    : sha1:8ec96f9a08896c986862d2d4647491ed6b4c8027 
 │     │                 ├ [65] ╭ ID            : python3@3.12.12-r0 
 │     │                 │      ├ Name          : python3 
@@ -6143,10 +6143,10 @@
 │     │                 │      │                ├ [11]: sqlite-libs@3.49.2-r1 
 │     │                 │      │                ├ [12]: xz-libs@5.8.1-r0 
 │     │                 │      │                ╰ [13]: zlib@1.3.1-r2 
-│     │                 │      ├ Layer          ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e7736
-│     │                 │      │                │         9972e379ed7bdffc81 
-│     │                 │      │                ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf4
-│     │                 │      │                          4c33d39873274aa7e3 
+│     │                 │      ├ Layer          ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb
+│     │                 │      │                │         2a7401d854032d9013 
+│     │                 │      │                ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d93
+│     │                 │      │                          4b79768fc75adcc65b 
 │     │                 │      ├ Digest        : sha1:eb46cc7272942ff32a077c8cd0ea8ed128aa187e 
 │     │                 │      ╰ InstalledFiles ╭ [0]  : usr/bin/2to3 
 │     │                 │                       ├ [1]  : usr/bin/2to3-3.12 
@@ -6971,10 +6971,10 @@
 │     │                 │      ├ Maintainer: Natanael Copa <ncopa@alpinelinux.org> 
 │     │                 │      ├ DependsOn  ╭ [0]: pyc@3.12.12-r0 
 │     │                 │      │            ╰ [1]: python3-pycache-pyc0@3.12.12-r0 
-│     │                 │      ├ Layer      ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e77369972
-│     │                 │      │            │         e379ed7bdffc81 
-│     │                 │      │            ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf44c33
-│     │                 │      │                      d39873274aa7e3 
+│     │                 │      ├ Layer      ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb2a74
+│     │                 │      │            │         01d854032d9013 
+│     │                 │      │            ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d934b79
+│     │                 │      │                      768fc75adcc65b 
 │     │                 │      ╰ Digest    : sha1:ecd6d87a34f96e8c5141f6e86c6131dd90945ed3 
 │     │                 ├ [67] ╭ ID            : python3-pycache-pyc0@3.12.12-r0 
 │     │                 │      ├ Name          : python3-pycache-pyc0 
@@ -6988,10 +6988,10 @@
 │     │                 │      ├ Licenses       ─ [0]: PSF-2.0 
 │     │                 │      ├ Maintainer    : Natanael Copa <ncopa@alpinelinux.org> 
 │     │                 │      ├ DependsOn      ─ [0]: libssl3@3.5.4-r0 
-│     │                 │      ├ Layer          ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e7736
-│     │                 │      │                │         9972e379ed7bdffc81 
-│     │                 │      │                ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf4
-│     │                 │      │                          4c33d39873274aa7e3 
+│     │                 │      ├ Layer          ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb
+│     │                 │      │                │         2a7401d854032d9013 
+│     │                 │      │                ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d93
+│     │                 │      │                          4b79768fc75adcc65b 
 │     │                 │      ├ Digest        : sha1:e3075405396571574d9d639d7a0a13c8c6105fe8 
 │     │                 │      ╰ InstalledFiles ╭ [0]  : usr/lib/python3.12/__phello__/__pycache__/__init__.cpy
 │     │                 │                       │        thon-312.pyc 
@@ -8093,10 +8093,10 @@
 │     │                 │      ├ Maintainer    : Celeste <cielesti@protonmail.com> 
 │     │                 │      ├ DependsOn      ╭ [0]: libncursesw@6.5_p20250503-r0 
 │     │                 │      │                ╰ [1]: musl@1.2.5-r10 
-│     │                 │      ├ Layer          ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e7736
-│     │                 │      │                │         9972e379ed7bdffc81 
-│     │                 │      │                ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf4
-│     │                 │      │                          4c33d39873274aa7e3 
+│     │                 │      ├ Layer          ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb
+│     │                 │      │                │         2a7401d854032d9013 
+│     │                 │      │                ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d93
+│     │                 │      │                          4b79768fc75adcc65b 
 │     │                 │      ├ Digest        : sha1:d305640121793fd79a7636ed10fcc6cb10155e38 
 │     │                 │      ╰ InstalledFiles ╭ [0]: etc/inputrc 
 │     │                 │                       ├ [1]: usr/lib/libreadline.so.8 
@@ -8130,10 +8130,10 @@
 │     │                 │      ├ Licenses       ─ [0]: blessing 
 │     │                 │      ├ Maintainer    : Celeste <cielesti@protonmail.com> 
 │     │                 │      ├ DependsOn      ─ [0]: musl@1.2.5-r10 
-│     │                 │      ├ Layer          ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e7736
-│     │                 │      │                │         9972e379ed7bdffc81 
-│     │                 │      │                ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf4
-│     │                 │      │                          4c33d39873274aa7e3 
+│     │                 │      ├ Layer          ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb
+│     │                 │      │                │         2a7401d854032d9013 
+│     │                 │      │                ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d93
+│     │                 │      │                          4b79768fc75adcc65b 
 │     │                 │      ├ Digest        : sha1:cb31ad275293ff9e705f41d1c8626e771a589e45 
 │     │                 │      ╰ InstalledFiles ╭ [0]: usr/lib/libsqlite3.so.0 
 │     │                 │                       ╰ [1]: usr/lib/libsqlite3.so.3.49.2 
@@ -8209,10 +8209,10 @@
 │     │                 │      │                ╰ [3]: LGPL-2.1-or-later 
 │     │                 │      ├ Maintainer    : Natanael Copa <ncopa@alpinelinux.org> 
 │     │                 │      ├ DependsOn      ─ [0]: musl@1.2.5-r10 
-│     │                 │      ├ Layer          ╭ Digest: sha256:a6488a027e93d497a5e3d550deb350f2015d79ee7e7736
-│     │                 │      │                │         9972e379ed7bdffc81 
-│     │                 │      │                ╰ DiffID: sha256:235136805a1cb55ee2ffce147a7d9bab5e0ebca7a79bf4
-│     │                 │      │                          4c33d39873274aa7e3 
+│     │                 │      ├ Layer          ╭ Digest: sha256:72ec8e3e3790e9b4591e6854ac1474d954e7028d4195fb
+│     │                 │      │                │         2a7401d854032d9013 
+│     │                 │      │                ╰ DiffID: sha256:ee533d09cdfc182fe2cbc4da519d772f6b7265435c9d93
+│     │                 │      │                          4b79768fc75adcc65b 
 │     │                 │      ├ Digest        : sha1:fdcdb7d0dc44dd546165ae313122b01d6a20f931 
 │     │                 │      ╰ InstalledFiles ╭ [0]: usr/lib/liblzma.so.5 
 │     │                 │                       ╰ [1]: usr/lib/liblzma.so.5.8.1 
@@ -8254,446 +8254,508 @@
 │     │                        ├ Digest        : sha1:50c83112b5619f48d36d69190a4cb7c71f15c7d2 
 │     │                        ╰ InstalledFiles ╭ [0]: usr/lib/libzstd.so.1 
 │     │                                         ╰ [1]: usr/lib/libzstd.so.1.5.7 
-│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-58251 
-│                       │     ├ PkgID           : busybox@1.37.0-r19 
-│                       │     ├ PkgName         : busybox 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox@1.37.0-r19?arch=x86_64&distro=3
-│                       │     │                  │       .22.2 
-│                       │     │                  ╰ UID : 5158911d21d1c608 
-│                       │     ├ InstalledVersion: 1.37.0-r19 
-│                       │     ├ FixedVersion    : 1.37.0-r20 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:28eee91d03b8056ad502b307e09cd774c150ff816a829
-│                       │     │                  │         728c6becdeb75657b7c 
-│                       │     │                  ╰ DiffID: sha256:6218ebb8c90931a7482106c03d29ba34b43aa4ffab508
-│                       │     │                            2795f1f88e15d17e31b 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-58251 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Fingerprint     : sha256:233f5eb4f6578d57843a7682da21d824413edba19af5e0b4bd506d
-│                       │     │                   887b0b4b10 
-│                       │     ├ Title           : In netstat in BusyBox through 1.37.0, local users can launch
-│                       │     │                   of networ ... 
-│                       │     ├ Description     : In netstat in BusyBox through 1.37.0, local users can launch
-│                       │     │                   of network application with an argv[0] containing an ANSI
-│                       │     │                   terminal escape sequence, leading to a denial of service
-│                       │     │                   (terminal locked up) when netstat is used by a victim. 
-│                       │     ├ Severity        : MEDIUM 
-│                       │     ├ CweIDs           ─ [0]: CWE-150 
-│                       │     ├ VendorSeverity   ─ ubuntu: 2 
-│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/23/6 
-│                       │     │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15922 
-│                       │     │                  ├ [2]: https://www.busybox.net 
-│                       │     │                  ├ [3]: https://www.busybox.net/downloads/ 
-│                       │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-58251 
-│                       │     ├ PublishedDate   : 2025-04-23T18:16:03.057Z 
-│                       │     ╰ LastModifiedDate: 2025-04-29T13:52:47.47Z 
-│                       ├ [1] ╭ VulnerabilityID : CVE-2025-46394 
-│                       │     ├ PkgID           : busybox@1.37.0-r19 
-│                       │     ├ PkgName         : busybox 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox@1.37.0-r19?arch=x86_64&distro=3
-│                       │     │                  │       .22.2 
-│                       │     │                  ╰ UID : 5158911d21d1c608 
-│                       │     ├ InstalledVersion: 1.37.0-r19 
-│                       │     ├ FixedVersion    : 1.37.0-r20 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:28eee91d03b8056ad502b307e09cd774c150ff816a829
-│                       │     │                  │         728c6becdeb75657b7c 
-│                       │     │                  ╰ DiffID: sha256:6218ebb8c90931a7482106c03d29ba34b43aa4ffab508
-│                       │     │                            2795f1f88e15d17e31b 
-│                       │     ├ SeveritySource  : nvd 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-46394 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Fingerprint     : sha256:6bcac9b49192632a64732924e96d878bc48530d2f900254a9eb25e
-│                       │     │                   ab0f4aacb6 
-│                       │     ├ Title           : In tar in BusyBox through 1.37.0, a TAR archive can have
-│                       │     │                   filenames hid ... 
-│                       │     ├ Description     : In tar in BusyBox through 1.37.0, a TAR archive can have
-│                       │     │                   filenames hidden from a listing through the use of terminal
-│                       │     │                   escape sequences. 
-│                       │     ├ Severity        : LOW 
-│                       │     ├ CweIDs           ─ [0]: CWE-451 
-│                       │     ├ VendorSeverity   ╭ nvd   : 1 
-│                       │     │                  ╰ ubuntu: 2 
-│                       │     ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N 
-│                       │     │                        ╰ V3Score : 3.3 
-│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/23/5 
-│                       │     │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/04/24/3 
-│                       │     │                  ├ [2]: https://bugs.busybox.net/show_bug.cgi?id=16018 
-│                       │     │                  ├ [3]: https://lists.busybox.net/pipermail/busybox/2024-July/0
-│                       │     │                  │      90806.html 
-│                       │     │                  ├ [4]: https://lists.busybox.net/pipermail/busybox/2024-July/0
-│                       │     │                  │      90814.html 
-│                       │     │                  ├ [5]: https://www.busybox.net 
-│                       │     │                  ├ [6]: https://www.busybox.net/downloads/ 
-│                       │     │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-46394 
-│                       │     │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/04/23/1 
-│                       │     ├ PublishedDate   : 2025-04-23T16:15:48.713Z 
-│                       │     ╰ LastModifiedDate: 2025-09-24T14:38:22.127Z 
-│                       ├ [2] ╭ VulnerabilityID : CVE-2024-58251 
-│                       │     ├ PkgID           : busybox-binsh@1.37.0-r19 
-│                       │     ├ PkgName         : busybox-binsh 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox-binsh@1.37.0-r19?arch=x86_64&di
-│                       │     │                  │       stro=3.22.2 
-│                       │     │                  ╰ UID : 7150d5a240bb77cc 
-│                       │     ├ InstalledVersion: 1.37.0-r19 
-│                       │     ├ FixedVersion    : 1.37.0-r20 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:28eee91d03b8056ad502b307e09cd774c150ff816a829
-│                       │     │                  │         728c6becdeb75657b7c 
-│                       │     │                  ╰ DiffID: sha256:6218ebb8c90931a7482106c03d29ba34b43aa4ffab508
-│                       │     │                            2795f1f88e15d17e31b 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-58251 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Fingerprint     : sha256:420af6dccc82e34ddd1283f5c60fe94568b8b47e6e18187aaebb33
-│                       │     │                   2ac55ce50b 
-│                       │     ├ Title           : In netstat in BusyBox through 1.37.0, local users can launch
-│                       │     │                   of networ ... 
-│                       │     ├ Description     : In netstat in BusyBox through 1.37.0, local users can launch
-│                       │     │                   of network application with an argv[0] containing an ANSI
-│                       │     │                   terminal escape sequence, leading to a denial of service
-│                       │     │                   (terminal locked up) when netstat is used by a victim. 
-│                       │     ├ Severity        : MEDIUM 
-│                       │     ├ CweIDs           ─ [0]: CWE-150 
-│                       │     ├ VendorSeverity   ─ ubuntu: 2 
-│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/23/6 
-│                       │     │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15922 
-│                       │     │                  ├ [2]: https://www.busybox.net 
-│                       │     │                  ├ [3]: https://www.busybox.net/downloads/ 
-│                       │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-58251 
-│                       │     ├ PublishedDate   : 2025-04-23T18:16:03.057Z 
-│                       │     ╰ LastModifiedDate: 2025-04-29T13:52:47.47Z 
-│                       ├ [3] ╭ VulnerabilityID : CVE-2025-46394 
-│                       │     ├ PkgID           : busybox-binsh@1.37.0-r19 
-│                       │     ├ PkgName         : busybox-binsh 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox-binsh@1.37.0-r19?arch=x86_64&di
-│                       │     │                  │       stro=3.22.2 
-│                       │     │                  ╰ UID : 7150d5a240bb77cc 
-│                       │     ├ InstalledVersion: 1.37.0-r19 
-│                       │     ├ FixedVersion    : 1.37.0-r20 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:28eee91d03b8056ad502b307e09cd774c150ff816a829
-│                       │     │                  │         728c6becdeb75657b7c 
-│                       │     │                  ╰ DiffID: sha256:6218ebb8c90931a7482106c03d29ba34b43aa4ffab508
-│                       │     │                            2795f1f88e15d17e31b 
-│                       │     ├ SeveritySource  : nvd 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-46394 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Fingerprint     : sha256:7052fdd1dd6f7d0e639b434647b29aee08bb66b6c7fb15f93d96ad
-│                       │     │                   3288c92e68 
-│                       │     ├ Title           : In tar in BusyBox through 1.37.0, a TAR archive can have
-│                       │     │                   filenames hid ... 
-│                       │     ├ Description     : In tar in BusyBox through 1.37.0, a TAR archive can have
-│                       │     │                   filenames hidden from a listing through the use of terminal
-│                       │     │                   escape sequences. 
-│                       │     ├ Severity        : LOW 
-│                       │     ├ CweIDs           ─ [0]: CWE-451 
-│                       │     ├ VendorSeverity   ╭ nvd   : 1 
-│                       │     │                  ╰ ubuntu: 2 
-│                       │     ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N 
-│                       │     │                        ╰ V3Score : 3.3 
-│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/23/5 
-│                       │     │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/04/24/3 
-│                       │     │                  ├ [2]: https://bugs.busybox.net/show_bug.cgi?id=16018 
-│                       │     │                  ├ [3]: https://lists.busybox.net/pipermail/busybox/2024-July/0
-│                       │     │                  │      90806.html 
-│                       │     │                  ├ [4]: https://lists.busybox.net/pipermail/busybox/2024-July/0
-│                       │     │                  │      90814.html 
-│                       │     │                  ├ [5]: https://www.busybox.net 
-│                       │     │                  ├ [6]: https://www.busybox.net/downloads/ 
-│                       │     │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-46394 
-│                       │     │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/04/23/1 
-│                       │     ├ PublishedDate   : 2025-04-23T16:15:48.713Z 
-│                       │     ╰ LastModifiedDate: 2025-09-24T14:38:22.127Z 
-│                       ├ [4] ╭ VulnerabilityID : CVE-2025-64720 
-│                       │     ├ PkgID           : libpng@1.6.47-r0 
-│                       │     ├ PkgName         : libpng 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.47-r0?arch=x86_64&distro=3.2
-│                       │     │                  │       2.2 
-│                       │     │                  ╰ UID : dc7943769b551d5b 
-│                       │     ├ InstalledVersion: 1.6.47-r0 
-│                       │     ├ FixedVersion    : 1.6.51-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:28eee91d03b8056ad502b307e09cd774c150ff816a829
-│                       │     │                  │         728c6becdeb75657b7c 
-│                       │     │                  ╰ DiffID: sha256:6218ebb8c90931a7482106c03d29ba34b43aa4ffab508
-│                       │     │                            2795f1f88e15d17e31b 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-64720 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Fingerprint     : sha256:7ab093d7764f8a82958a6296d314da2c89549f6e15701e4664099d
-│                       │     │                   1f882a0995 
-│                       │     ├ Title           : libpng: LIBPNG buffer overflow 
-│                       │     ├ Description     : LIBPNG is a reference library for use in applications that
-│                       │     │                   read, create, and manipulate PNG (Portable Network Graphics)
-│                       │     │                   raster image files. From version 1.6.0 to before 1.6.51, an
-│                       │     │                   out-of-bounds read vulnerability exists in
-│                       │     │                   png_image_read_composite when processing palette images with
-│                       │     │                   PNG_FLAG_OPTIMIZE_ALPHA enabled. The palette compositing code
-│                       │     │                    in png_init_read_transformations incorrectly applies
-│                       │     │                   background compositing during premultiplication, violating
-│                       │     │                   the invariant component ≤ alpha × 257 required by the
-│                       │     │                   simplified PNG API. This issue has been patched in version
-│                       │     │                   1.6.51. 
-│                       │     ├ Severity        : HIGH 
-│                       │     ├ CweIDs           ─ [0]: CWE-125 
-│                       │     ├ VendorSeverity   ╭ azure      : 3 
-│                       │     │                  ├ cbl-mariner: 3 
-│                       │     │                  ├ photon     : 3 
-│                       │     │                  ╰ redhat     : 3 
-│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/
-│                       │     │                           │           A:H 
-│                       │     │                           ╰ V3Score : 7.1 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-64720 
-│                       │     │                  ├ [1]: https://github.com/pnggroup/libpng/commit/08da33b4c88cf
-│                       │     │                  │      cd36e5a706558a8d7e0e4773643 
-│                       │     │                  ├ [2]: https://github.com/pnggroup/libpng/issues/686 
-│                       │     │                  ├ [3]: https://github.com/pnggroup/libpng/pull/751 
-│                       │     │                  ├ [4]: https://github.com/pnggroup/libpng/security/advisories/
-│                       │     │                  │      GHSA-hfc7-ph9c-wcww 
-│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-64720 
-│                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-64720 
-│                       │     ├ PublishedDate   : 2025-11-25T00:15:47.46Z 
-│                       │     ╰ LastModifiedDate: 2025-11-26T18:35:18.253Z 
-│                       ├ [5] ╭ VulnerabilityID : CVE-2025-65018 
-│                       │     ├ PkgID           : libpng@1.6.47-r0 
-│                       │     ├ PkgName         : libpng 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.47-r0?arch=x86_64&distro=3.2
-│                       │     │                  │       2.2 
-│                       │     │                  ╰ UID : dc7943769b551d5b 
-│                       │     ├ InstalledVersion: 1.6.47-r0 
-│                       │     ├ FixedVersion    : 1.6.51-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:28eee91d03b8056ad502b307e09cd774c150ff816a829
-│                       │     │                  │         728c6becdeb75657b7c 
-│                       │     │                  ╰ DiffID: sha256:6218ebb8c90931a7482106c03d29ba34b43aa4ffab508
-│                       │     │                            2795f1f88e15d17e31b 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-65018 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Fingerprint     : sha256:9ac87934a63aceebdeae96e33a1d5f0263cd6046475a32dacc14d7
-│                       │     │                   c35fc4cafe 
-│                       │     ├ Title           : libpng: LIBPNG heap buffer overflow 
-│                       │     ├ Description     : LIBPNG is a reference library for use in applications that
-│                       │     │                   read, create, and manipulate PNG (Portable Network Graphics)
-│                       │     │                   raster image files. From version 1.6.0 to before 1.6.51,
-│                       │     │                   there is a heap buffer overflow vulnerability in the libpng
-│                       │     │                   simplified API function png_image_finish_read when processing
-│                       │     │                    16-bit interlaced PNGs with 8-bit output format.
-│                       │     │                   Attacker-crafted interlaced PNG files cause heap writes
-│                       │     │                   beyond allocated buffer bounds. This issue has been patched
-│                       │     │                   in version 1.6.51. 
-│                       │     ├ Severity        : HIGH 
-│                       │     ├ CweIDs           ╭ [0]: CWE-122 
-│                       │     │                  ╰ [1]: CWE-787 
-│                       │     ├ VendorSeverity   ╭ azure      : 3 
-│                       │     │                  ├ cbl-mariner: 3 
-│                       │     │                  ├ photon     : 3 
-│                       │     │                  ╰ redhat     : 3 
-│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/
-│                       │     │                           │           A:H 
-│                       │     │                           ╰ V3Score : 7.1 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-65018 
-│                       │     │                  ├ [1]: https://github.com/pnggroup/libpng/commit/16b5e38239188
-│                       │     │                  │      40aae65c0a6da57c78a5a496a4d 
-│                       │     │                  ├ [2]: https://github.com/pnggroup/libpng/commit/218612ddd6b17
-│                       │     │                  │      944e21eda56caf8b4bf7779d1ea 
-│                       │     │                  ├ [3]: https://github.com/pnggroup/libpng/issues/755 
-│                       │     │                  ├ [4]: https://github.com/pnggroup/libpng/pull/757 
-│                       │     │                  ├ [5]: https://github.com/pnggroup/libpng/security/advisories/
-│                       │     │                  │      GHSA-7wv6-48j4-hj3g 
-│                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-65018 
-│                       │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-65018 
-│                       │     ├ PublishedDate   : 2025-11-25T00:15:47.61Z 
-│                       │     ╰ LastModifiedDate: 2025-11-26T18:34:53.65Z 
-│                       ├ [6] ╭ VulnerabilityID : CVE-2025-64505 
-│                       │     ├ PkgID           : libpng@1.6.47-r0 
-│                       │     ├ PkgName         : libpng 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.47-r0?arch=x86_64&distro=3.2
-│                       │     │                  │       2.2 
-│                       │     │                  ╰ UID : dc7943769b551d5b 
-│                       │     ├ InstalledVersion: 1.6.47-r0 
-│                       │     ├ FixedVersion    : 1.6.51-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:28eee91d03b8056ad502b307e09cd774c150ff816a829
-│                       │     │                  │         728c6becdeb75657b7c 
-│                       │     │                  ╰ DiffID: sha256:6218ebb8c90931a7482106c03d29ba34b43aa4ffab508
-│                       │     │                            2795f1f88e15d17e31b 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-64505 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Fingerprint     : sha256:260b916620f3f020e4756468022d7f84974fa38209877ac4869dd9
-│                       │     │                   d68a36a347 
-│                       │     ├ Title           : libpng: LIBPNG heap buffer overflow via malformed palette index 
-│                       │     ├ Description     : LIBPNG is a reference library for use in applications that
-│                       │     │                   read, create, and manipulate PNG (Portable Network Graphics)
-│                       │     │                   raster image files. Prior to version 1.6.51, a heap buffer
-│                       │     │                   over-read vulnerability exists in libpng's png_do_quantize
-│                       │     │                   function when processing PNG files with malformed palette
-│                       │     │                   indices. The vulnerability occurs when palette_lookup array
-│                       │     │                   bounds are not validated against externally-supplied image
-│                       │     │                   data, allowing an attacker to craft a PNG file with
-│                       │     │                   out-of-range palette indices that trigger out-of-bounds
-│                       │     │                   memory access. This issue has been patched in version 1.6.51. 
-│                       │     ├ Severity        : MEDIUM 
-│                       │     ├ CweIDs           ─ [0]: CWE-125 
-│                       │     ├ VendorSeverity   ╭ azure      : 2 
-│                       │     │                  ├ cbl-mariner: 2 
-│                       │     │                  ├ photon     : 2 
-│                       │     │                  ╰ redhat     : 2 
-│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/
-│                       │     │                           │           A:L 
-│                       │     │                           ╰ V3Score : 4.4 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-64505 
-│                       │     │                  ├ [1]: https://github.com/pnggroup/libpng/commit/6a528eb5fd0dd
-│                       │     │                  │      7f6de1c39d30de0e41473431c37 
-│                       │     │                  ├ [2]: https://github.com/pnggroup/libpng/pull/748 
-│                       │     │                  ├ [3]: https://github.com/pnggroup/libpng/security/advisories/
-│                       │     │                  │      GHSA-4952-h5wq-4m42 
-│                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-64505 
-│                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-64505 
-│                       │     ├ PublishedDate   : 2025-11-25T00:15:47.133Z 
-│                       │     ╰ LastModifiedDate: 2025-11-26T18:28:32.22Z 
-│                       ├ [7] ╭ VulnerabilityID : CVE-2025-64506 
-│                       │     ├ PkgID           : libpng@1.6.47-r0 
-│                       │     ├ PkgName         : libpng 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.47-r0?arch=x86_64&distro=3.2
-│                       │     │                  │       2.2 
-│                       │     │                  ╰ UID : dc7943769b551d5b 
-│                       │     ├ InstalledVersion: 1.6.47-r0 
-│                       │     ├ FixedVersion    : 1.6.51-r0 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:28eee91d03b8056ad502b307e09cd774c150ff816a829
-│                       │     │                  │         728c6becdeb75657b7c 
-│                       │     │                  ╰ DiffID: sha256:6218ebb8c90931a7482106c03d29ba34b43aa4ffab508
-│                       │     │                            2795f1f88e15d17e31b 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-64506 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Fingerprint     : sha256:aa7f0bc633e1d97fab2e1d2b72bc6f9041cebfc75eaa4264b56408
-│                       │     │                   a7f13ba1a7 
-│                       │     ├ Title           : libpng: LIBPNG heap buffer over-read 
-│                       │     ├ Description     : LIBPNG is a reference library for use in applications that
-│                       │     │                   read, create, and manipulate PNG (Portable Network Graphics)
-│                       │     │                   raster image files. From version 1.6.0 to before 1.6.51, a
-│                       │     │                   heap buffer over-read vulnerability exists in libpng's
-│                       │     │                   png_write_image_8bit function when processing 8-bit images
-│                       │     │                   through the simplified write API with convert_to_8bit
-│                       │     │                   enabled. The vulnerability affects 8-bit grayscale+alpha,
-│                       │     │                   RGB/RGBA, and images with incomplete row data. A conditional
-│                       │     │                   guard incorrectly allows 8-bit input to enter code expecting
-│                       │     │                   16-bit input, causing reads up to 2 bytes beyond allocated
-│                       │     │                   buffer boundaries. This issue has been patched in version
-│                       │     │                   1.6.51. 
-│                       │     ├ Severity        : MEDIUM 
-│                       │     ├ CweIDs           ─ [0]: CWE-125 
-│                       │     ├ VendorSeverity   ╭ azure      : 2 
-│                       │     │                  ├ cbl-mariner: 2 
-│                       │     │                  ├ photon     : 2 
-│                       │     │                  ╰ redhat     : 2 
-│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/
-│                       │     │                           │           A:H 
-│                       │     │                           ╰ V3Score : 6.1 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-64506 
-│                       │     │                  ├ [1]: https://github.com/pnggroup/libpng/commit/2bd84c019c300
-│                       │     │                  │      b78e811743fbcddb67c9d9bf821 
-│                       │     │                  ├ [2]: https://github.com/pnggroup/libpng/pull/749 
-│                       │     │                  ├ [3]: https://github.com/pnggroup/libpng/security/advisories/
-│                       │     │                  │      GHSA-qpr4-xm66-hww6 
-│                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-64506 
-│                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-64506 
-│                       │     ├ PublishedDate   : 2025-11-25T00:15:47.3Z 
-│                       │     ╰ LastModifiedDate: 2025-11-26T18:34:38.24Z 
-│                       ├ [8] ╭ VulnerabilityID : CVE-2024-58251 
-│                       │     ├ PkgID           : ssl_client@1.37.0-r19 
-│                       │     ├ PkgName         : ssl_client 
-│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.37.0-r19?arch=x86_64&distr
-│                       │     │                  │       o=3.22.2 
-│                       │     │                  ╰ UID : 691bd1fc4de953e2 
-│                       │     ├ InstalledVersion: 1.37.0-r19 
-│                       │     ├ FixedVersion    : 1.37.0-r20 
-│                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:28eee91d03b8056ad502b307e09cd774c150ff816a829
-│                       │     │                  │         728c6becdeb75657b7c 
-│                       │     │                  ╰ DiffID: sha256:6218ebb8c90931a7482106c03d29ba34b43aa4ffab508
-│                       │     │                            2795f1f88e15d17e31b 
-│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-58251 
-│                       │     ├ DataSource       ╭ ID  : alpine 
-│                       │     │                  ├ Name: Alpine Secdb 
-│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Fingerprint     : sha256:ea4ee1bcfc85505f6263082fda8656beaba60fed29e26f9be67e05
-│                       │     │                   cbf645cf0a 
-│                       │     ├ Title           : In netstat in BusyBox through 1.37.0, local users can launch
-│                       │     │                   of networ ... 
-│                       │     ├ Description     : In netstat in BusyBox through 1.37.0, local users can launch
-│                       │     │                   of network application with an argv[0] containing an ANSI
-│                       │     │                   terminal escape sequence, leading to a denial of service
-│                       │     │                   (terminal locked up) when netstat is used by a victim. 
-│                       │     ├ Severity        : MEDIUM 
-│                       │     ├ CweIDs           ─ [0]: CWE-150 
-│                       │     ├ VendorSeverity   ─ ubuntu: 2 
-│                       │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/23/6 
-│                       │     │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15922 
-│                       │     │                  ├ [2]: https://www.busybox.net 
-│                       │     │                  ├ [3]: https://www.busybox.net/downloads/ 
-│                       │     │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-58251 
-│                       │     ├ PublishedDate   : 2025-04-23T18:16:03.057Z 
-│                       │     ╰ LastModifiedDate: 2025-04-29T13:52:47.47Z 
-│                       ╰ [9] ╭ VulnerabilityID : CVE-2025-46394 
-│                             ├ PkgID           : ssl_client@1.37.0-r19 
-│                             ├ PkgName         : ssl_client 
-│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.37.0-r19?arch=x86_64&distr
-│                             │                  │       o=3.22.2 
-│                             │                  ╰ UID : 691bd1fc4de953e2 
-│                             ├ InstalledVersion: 1.37.0-r19 
-│                             ├ FixedVersion    : 1.37.0-r20 
-│                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:28eee91d03b8056ad502b307e09cd774c150ff816a829
-│                             │                  │         728c6becdeb75657b7c 
-│                             │                  ╰ DiffID: sha256:6218ebb8c90931a7482106c03d29ba34b43aa4ffab508
-│                             │                            2795f1f88e15d17e31b 
-│                             ├ SeveritySource  : nvd 
-│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-46394 
-│                             ├ DataSource       ╭ ID  : alpine 
-│                             │                  ├ Name: Alpine Secdb 
-│                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Fingerprint     : sha256:4f03e436f59cbe672ea56c62c07da5831ddc8978e059095e27f878
-│                             │                   7609e7510e 
-│                             ├ Title           : In tar in BusyBox through 1.37.0, a TAR archive can have
-│                             │                   filenames hid ... 
-│                             ├ Description     : In tar in BusyBox through 1.37.0, a TAR archive can have
-│                             │                   filenames hidden from a listing through the use of terminal
-│                             │                   escape sequences. 
-│                             ├ Severity        : LOW 
-│                             ├ CweIDs           ─ [0]: CWE-451 
-│                             ├ VendorSeverity   ╭ nvd   : 1 
-│                             │                  ╰ ubuntu: 2 
-│                             ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N 
-│                             │                        ╰ V3Score : 3.3 
-│                             ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/23/5 
-│                             │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/04/24/3 
-│                             │                  ├ [2]: https://bugs.busybox.net/show_bug.cgi?id=16018 
-│                             │                  ├ [3]: https://lists.busybox.net/pipermail/busybox/2024-July/0
-│                             │                  │      90806.html 
-│                             │                  ├ [4]: https://lists.busybox.net/pipermail/busybox/2024-July/0
-│                             │                  │      90814.html 
-│                             │                  ├ [5]: https://www.busybox.net 
-│                             │                  ├ [6]: https://www.busybox.net/downloads/ 
-│                             │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-46394 
-│                             │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/04/23/1 
-│                             ├ PublishedDate   : 2025-04-23T16:15:48.713Z 
-│                             ╰ LastModifiedDate: 2025-09-24T14:38:22.127Z 
+│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2024-58251 
+│                       │      ├ PkgID           : busybox@1.37.0-r19 
+│                       │      ├ PkgName         : busybox 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox@1.37.0-r19?arch=x86_64&distro=
+│                       │      │                  │       3.22.2 
+│                       │      │                  ╰ UID : 5158911d21d1c608 
+│                       │      ├ InstalledVersion: 1.37.0-r19 
+│                       │      ├ FixedVersion    : 1.37.0-r20 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:28eee91d03b8056ad502b307e09cd774c150ff816a82
+│                       │      │                  │         9728c6becdeb75657b7c 
+│                       │      │                  ╰ DiffID: sha256:6218ebb8c90931a7482106c03d29ba34b43aa4ffab50
+│                       │      │                            82795f1f88e15d17e31b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-58251 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:49cd2f07ea3edb644d9d3e2ce3ddb2620201c04a7b10499940711
+│                       │      │                   3fa6011da08 
+│                       │      ├ Title           : In netstat in BusyBox through 1.37.0, local users can launch
+│                       │      │                    of networ ... 
+│                       │      ├ Description     : In netstat in BusyBox through 1.37.0, local users can launch
+│                       │      │                    of network application with an argv[0] containing an ANSI
+│                       │      │                   terminal escape sequence, leading to a denial of service
+│                       │      │                   (terminal locked up) when netstat is used by a victim. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-150 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/23/6 
+│                       │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15922 
+│                       │      │                  ├ [2]: https://www.busybox.net 
+│                       │      │                  ├ [3]: https://www.busybox.net/downloads/ 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-58251 
+│                       │      ├ PublishedDate   : 2025-04-23T18:16:03.057Z 
+│                       │      ╰ LastModifiedDate: 2025-04-29T13:52:47.47Z 
+│                       ├ [1]  ╭ VulnerabilityID : CVE-2025-46394 
+│                       │      ├ PkgID           : busybox@1.37.0-r19 
+│                       │      ├ PkgName         : busybox 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox@1.37.0-r19?arch=x86_64&distro=
+│                       │      │                  │       3.22.2 
+│                       │      │                  ╰ UID : 5158911d21d1c608 
+│                       │      ├ InstalledVersion: 1.37.0-r19 
+│                       │      ├ FixedVersion    : 1.37.0-r20 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:28eee91d03b8056ad502b307e09cd774c150ff816a82
+│                       │      │                  │         9728c6becdeb75657b7c 
+│                       │      │                  ╰ DiffID: sha256:6218ebb8c90931a7482106c03d29ba34b43aa4ffab50
+│                       │      │                            82795f1f88e15d17e31b 
+│                       │      ├ SeveritySource  : nvd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-46394 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:107057d0a78952a03320af942dff8d40b4973b2d42c8f5082f03f
+│                       │      │                   306cf3c259a 
+│                       │      ├ Title           : In tar in BusyBox through 1.37.0, a TAR archive can have
+│                       │      │                   filenames hid ... 
+│                       │      ├ Description     : In tar in BusyBox through 1.37.0, a TAR archive can have
+│                       │      │                   filenames hidden from a listing through the use of terminal
+│                       │      │                   escape sequences. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-451 
+│                       │      ├ VendorSeverity   ╭ nvd   : 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N 
+│                       │      │                        ╰ V3Score : 3.3 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/23/5 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/04/24/3 
+│                       │      │                  ├ [2]: https://bugs.busybox.net/show_bug.cgi?id=16018 
+│                       │      │                  ├ [3]: https://lists.busybox.net/pipermail/busybox/2024-July/
+│                       │      │                  │      090806.html 
+│                       │      │                  ├ [4]: https://lists.busybox.net/pipermail/busybox/2024-July/
+│                       │      │                  │      090814.html 
+│                       │      │                  ├ [5]: https://www.busybox.net 
+│                       │      │                  ├ [6]: https://www.busybox.net/downloads/ 
+│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-46394 
+│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/04/23/1 
+│                       │      ├ PublishedDate   : 2025-04-23T16:15:48.713Z 
+│                       │      ╰ LastModifiedDate: 2025-09-24T14:38:22.127Z 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2024-58251 
+│                       │      ├ PkgID           : busybox-binsh@1.37.0-r19 
+│                       │      ├ PkgName         : busybox-binsh 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox-binsh@1.37.0-r19?arch=x86_64&d
+│                       │      │                  │       istro=3.22.2 
+│                       │      │                  ╰ UID : 7150d5a240bb77cc 
+│                       │      ├ InstalledVersion: 1.37.0-r19 
+│                       │      ├ FixedVersion    : 1.37.0-r20 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:28eee91d03b8056ad502b307e09cd774c150ff816a82
+│                       │      │                  │         9728c6becdeb75657b7c 
+│                       │      │                  ╰ DiffID: sha256:6218ebb8c90931a7482106c03d29ba34b43aa4ffab50
+│                       │      │                            82795f1f88e15d17e31b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-58251 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:c48eb6794087f53ccc253554151bdd6ee4ba907aaa2166168c667
+│                       │      │                   96c6f08d5ed 
+│                       │      ├ Title           : In netstat in BusyBox through 1.37.0, local users can launch
+│                       │      │                    of networ ... 
+│                       │      ├ Description     : In netstat in BusyBox through 1.37.0, local users can launch
+│                       │      │                    of network application with an argv[0] containing an ANSI
+│                       │      │                   terminal escape sequence, leading to a denial of service
+│                       │      │                   (terminal locked up) when netstat is used by a victim. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-150 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/23/6 
+│                       │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15922 
+│                       │      │                  ├ [2]: https://www.busybox.net 
+│                       │      │                  ├ [3]: https://www.busybox.net/downloads/ 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-58251 
+│                       │      ├ PublishedDate   : 2025-04-23T18:16:03.057Z 
+│                       │      ╰ LastModifiedDate: 2025-04-29T13:52:47.47Z 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2025-46394 
+│                       │      ├ PkgID           : busybox-binsh@1.37.0-r19 
+│                       │      ├ PkgName         : busybox-binsh 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/busybox-binsh@1.37.0-r19?arch=x86_64&d
+│                       │      │                  │       istro=3.22.2 
+│                       │      │                  ╰ UID : 7150d5a240bb77cc 
+│                       │      ├ InstalledVersion: 1.37.0-r19 
+│                       │      ├ FixedVersion    : 1.37.0-r20 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:28eee91d03b8056ad502b307e09cd774c150ff816a82
+│                       │      │                  │         9728c6becdeb75657b7c 
+│                       │      │                  ╰ DiffID: sha256:6218ebb8c90931a7482106c03d29ba34b43aa4ffab50
+│                       │      │                            82795f1f88e15d17e31b 
+│                       │      ├ SeveritySource  : nvd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-46394 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:55484f8e6e6d74c33490e5b13e318337bb5bac7ed0e3a2e4ec580
+│                       │      │                   0522d16f124 
+│                       │      ├ Title           : In tar in BusyBox through 1.37.0, a TAR archive can have
+│                       │      │                   filenames hid ... 
+│                       │      ├ Description     : In tar in BusyBox through 1.37.0, a TAR archive can have
+│                       │      │                   filenames hidden from a listing through the use of terminal
+│                       │      │                   escape sequences. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-451 
+│                       │      ├ VendorSeverity   ╭ nvd   : 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N 
+│                       │      │                        ╰ V3Score : 3.3 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/23/5 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/04/24/3 
+│                       │      │                  ├ [2]: https://bugs.busybox.net/show_bug.cgi?id=16018 
+│                       │      │                  ├ [3]: https://lists.busybox.net/pipermail/busybox/2024-July/
+│                       │      │                  │      090806.html 
+│                       │      │                  ├ [4]: https://lists.busybox.net/pipermail/busybox/2024-July/
+│                       │      │                  │      090814.html 
+│                       │      │                  ├ [5]: https://www.busybox.net 
+│                       │      │                  ├ [6]: https://www.busybox.net/downloads/ 
+│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-46394 
+│                       │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/04/23/1 
+│                       │      ├ PublishedDate   : 2025-04-23T16:15:48.713Z 
+│                       │      ╰ LastModifiedDate: 2025-09-24T14:38:22.127Z 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2025-64720 
+│                       │      ├ PkgID           : libpng@1.6.47-r0 
+│                       │      ├ PkgName         : libpng 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.47-r0?arch=x86_64&distro=3.
+│                       │      │                  │       22.2 
+│                       │      │                  ╰ UID : dc7943769b551d5b 
+│                       │      ├ InstalledVersion: 1.6.47-r0 
+│                       │      ├ FixedVersion    : 1.6.51-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:28eee91d03b8056ad502b307e09cd774c150ff816a82
+│                       │      │                  │         9728c6becdeb75657b7c 
+│                       │      │                  ╰ DiffID: sha256:6218ebb8c90931a7482106c03d29ba34b43aa4ffab50
+│                       │      │                            82795f1f88e15d17e31b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-64720 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:58724f9d2a83727e1a17472c90b5ff144f32374bada442c3337b1
+│                       │      │                   689695a23de 
+│                       │      ├ Title           : libpng: LIBPNG buffer overflow 
+│                       │      ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │      │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │      │                    raster image files. From version 1.6.0 to before 1.6.51, an
+│                       │      │                    out-of-bounds read vulnerability exists in
+│                       │      │                   png_image_read_composite when processing palette images with
+│                       │      │                    PNG_FLAG_OPTIMIZE_ALPHA enabled. The palette compositing
+│                       │      │                   code in png_init_read_transformations incorrectly applies
+│                       │      │                   background compositing during premultiplication, violating
+│                       │      │                   the invariant component ≤ alpha × 257 required by the
+│                       │      │                   simplified PNG API. This issue has been patched in version
+│                       │      │                   1.6.51. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ╰ redhat     : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-64720 
+│                       │      │                  ├ [1]: https://github.com/pnggroup/libpng/commit/08da33b4c88c
+│                       │      │                  │      fcd36e5a706558a8d7e0e4773643 
+│                       │      │                  ├ [2]: https://github.com/pnggroup/libpng/issues/686 
+│                       │      │                  ├ [3]: https://github.com/pnggroup/libpng/pull/751 
+│                       │      │                  ├ [4]: https://github.com/pnggroup/libpng/security/advisories
+│                       │      │                  │      /GHSA-hfc7-ph9c-wcww 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-64720 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2025-64720 
+│                       │      ├ PublishedDate   : 2025-11-25T00:15:47.46Z 
+│                       │      ╰ LastModifiedDate: 2025-11-26T18:35:18.253Z 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-65018 
+│                       │      ├ PkgID           : libpng@1.6.47-r0 
+│                       │      ├ PkgName         : libpng 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.47-r0?arch=x86_64&distro=3.
+│                       │      │                  │       22.2 
+│                       │      │                  ╰ UID : dc7943769b551d5b 
+│                       │      ├ InstalledVersion: 1.6.47-r0 
+│                       │      ├ FixedVersion    : 1.6.51-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:28eee91d03b8056ad502b307e09cd774c150ff816a82
+│                       │      │                  │         9728c6becdeb75657b7c 
+│                       │      │                  ╰ DiffID: sha256:6218ebb8c90931a7482106c03d29ba34b43aa4ffab50
+│                       │      │                            82795f1f88e15d17e31b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-65018 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:6c6a1f27dc8bba086d4e1c33e8b6e68b9d474b44c7a542ae37d9c
+│                       │      │                   0363f3a5ea5 
+│                       │      ├ Title           : libpng: LIBPNG heap buffer overflow 
+│                       │      ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │      │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │      │                    raster image files. From version 1.6.0 to before 1.6.51,
+│                       │      │                   there is a heap buffer overflow vulnerability in the libpng
+│                       │      │                   simplified API function png_image_finish_read when
+│                       │      │                   processing 16-bit interlaced PNGs with 8-bit output format.
+│                       │      │                   Attacker-crafted interlaced PNG files cause heap writes
+│                       │      │                   beyond allocated buffer bounds. This issue has been patched
+│                       │      │                   in version 1.6.51. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ╭ [0]: CWE-122 
+│                       │      │                  ╰ [1]: CWE-787 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ╰ redhat     : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-65018 
+│                       │      │                  ├ [1]: https://github.com/pnggroup/libpng/commit/16b5e3823918
+│                       │      │                  │      840aae65c0a6da57c78a5a496a4d 
+│                       │      │                  ├ [2]: https://github.com/pnggroup/libpng/commit/218612ddd6b1
+│                       │      │                  │      7944e21eda56caf8b4bf7779d1ea 
+│                       │      │                  ├ [3]: https://github.com/pnggroup/libpng/issues/755 
+│                       │      │                  ├ [4]: https://github.com/pnggroup/libpng/pull/757 
+│                       │      │                  ├ [5]: https://github.com/pnggroup/libpng/security/advisories
+│                       │      │                  │      /GHSA-7wv6-48j4-hj3g 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2025-65018 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-65018 
+│                       │      ├ PublishedDate   : 2025-11-25T00:15:47.61Z 
+│                       │      ╰ LastModifiedDate: 2025-11-26T18:34:53.65Z 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-66293 
+│                       │      ├ PkgID           : libpng@1.6.47-r0 
+│                       │      ├ PkgName         : libpng 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.47-r0?arch=x86_64&distro=3.
+│                       │      │                  │       22.2 
+│                       │      │                  ╰ UID : dc7943769b551d5b 
+│                       │      ├ InstalledVersion: 1.6.47-r0 
+│                       │      ├ FixedVersion    : 1.6.53-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:28eee91d03b8056ad502b307e09cd774c150ff816a82
+│                       │      │                  │         9728c6becdeb75657b7c 
+│                       │      │                  ╰ DiffID: sha256:6218ebb8c90931a7482106c03d29ba34b43aa4ffab50
+│                       │      │                            82795f1f88e15d17e31b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-66293 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:9c79b98be091b7bad1a641a06bb647f604776cecbb1977c5bdac8
+│                       │      │                   0a2845e7430 
+│                       │      ├ Title           : libpng: LIBPNG out-of-bounds read in png_image_read_composite 
+│                       │      ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │      │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │      │                    raster image files. Prior to 1.6.52, an out-of-bounds read
+│                       │      │                   vulnerability in libpng's simplified API allows reading up
+│                       │      │                   to 1012 bytes beyond the png_sRGB_base[512] array when
+│                       │      │                   processing valid palette PNG images with partial
+│                       │      │                   transparency and gamma correction. The PNG files that
+│                       │      │                   trigger this vulnerability are valid per the PNG
+│                       │      │                   specification; the bug is in libpng's internal state
+│                       │      │                   management. Upgrade to libpng 1.6.52 or later. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ╭ azure : 3 
+│                       │      │                  ╰ redhat: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7.1 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/12/03/6 
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/12/03/7 
+│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2025/12/03/8 
+│                       │      │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2025-66293 
+│                       │      │                  ├ [4]: https://github.com/pnggroup/libpng/commit/788a624d7387
+│                       │      │                  │      a758ffd5c7ab010f1870dea753a1 
+│                       │      │                  ├ [5]: https://github.com/pnggroup/libpng/commit/a05a48b756de
+│                       │      │                  │      63e3234ea6b3b938b8f5f862484a 
+│                       │      │                  ├ [6]: https://github.com/pnggroup/libpng/issues/764 
+│                       │      │                  ├ [7]: https://github.com/pnggroup/libpng/security/advisories
+│                       │      │                  │      /GHSA-9mpm-9pxh-mg4f 
+│                       │      │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2025-66293 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-66293 
+│                       │      ├ PublishedDate   : 2025-12-03T21:15:53.06Z 
+│                       │      ╰ LastModifiedDate: 2025-12-04T17:15:08.283Z 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-64505 
+│                       │      ├ PkgID           : libpng@1.6.47-r0 
+│                       │      ├ PkgName         : libpng 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.47-r0?arch=x86_64&distro=3.
+│                       │      │                  │       22.2 
+│                       │      │                  ╰ UID : dc7943769b551d5b 
+│                       │      ├ InstalledVersion: 1.6.47-r0 
+│                       │      ├ FixedVersion    : 1.6.51-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:28eee91d03b8056ad502b307e09cd774c150ff816a82
+│                       │      │                  │         9728c6becdeb75657b7c 
+│                       │      │                  ╰ DiffID: sha256:6218ebb8c90931a7482106c03d29ba34b43aa4ffab50
+│                       │      │                            82795f1f88e15d17e31b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-64505 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:77006bc941955e407ba2445b95f9fbf13743177f2faa086fdd43e
+│                       │      │                   751d53933b4 
+│                       │      ├ Title           : libpng: LIBPNG heap buffer overflow via malformed palette
+│                       │      │                   index 
+│                       │      ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │      │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │      │                    raster image files. Prior to version 1.6.51, a heap buffer
+│                       │      │                   over-read vulnerability exists in libpng's png_do_quantize
+│                       │      │                   function when processing PNG files with malformed palette
+│                       │      │                   indices. The vulnerability occurs when palette_lookup array
+│                       │      │                   bounds are not validated against externally-supplied image
+│                       │      │                   data, allowing an attacker to craft a PNG file with
+│                       │      │                   out-of-range palette indices that trigger out-of-bounds
+│                       │      │                   memory access. This issue has been patched in version 1.6.51
+│                       │      │                   . 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ photon     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 4.4 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-64505 
+│                       │      │                  ├ [1]: https://github.com/pnggroup/libpng/commit/6a528eb5fd0d
+│                       │      │                  │      d7f6de1c39d30de0e41473431c37 
+│                       │      │                  ├ [2]: https://github.com/pnggroup/libpng/commit/6a528eb5fd0d
+│                       │      │                  │      d7f6de1c39d30de0e41473431c37 (v1.6.51) 
+│                       │      │                  ├ [3]: https://github.com/pnggroup/libpng/pull/748 
+│                       │      │                  ├ [4]: https://github.com/pnggroup/libpng/security/advisories
+│                       │      │                  │      /GHSA-4952-h5wq-4m42 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-64505 
+│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-64505 
+│                       │      │                  ╰ [7]: https://www.openwall.com/lists/oss-security/2025/11/22/1 
+│                       │      ├ PublishedDate   : 2025-11-25T00:15:47.133Z 
+│                       │      ╰ LastModifiedDate: 2025-11-26T18:28:32.22Z 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-64506 
+│                       │      ├ PkgID           : libpng@1.6.47-r0 
+│                       │      ├ PkgName         : libpng 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.47-r0?arch=x86_64&distro=3.
+│                       │      │                  │       22.2 
+│                       │      │                  ╰ UID : dc7943769b551d5b 
+│                       │      ├ InstalledVersion: 1.6.47-r0 
+│                       │      ├ FixedVersion    : 1.6.51-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:28eee91d03b8056ad502b307e09cd774c150ff816a82
+│                       │      │                  │         9728c6becdeb75657b7c 
+│                       │      │                  ╰ DiffID: sha256:6218ebb8c90931a7482106c03d29ba34b43aa4ffab50
+│                       │      │                            82795f1f88e15d17e31b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-64506 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:b871d9416012fa5e2d8126db1cabcd4b0d850e2eb4978b59ea6f2
+│                       │      │                   87cfb630638 
+│                       │      ├ Title           : libpng: LIBPNG heap buffer over-read 
+│                       │      ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │      │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │      │                    raster image files. From version 1.6.0 to before 1.6.51, a
+│                       │      │                   heap buffer over-read vulnerability exists in libpng's
+│                       │      │                   png_write_image_8bit function when processing 8-bit images
+│                       │      │                   through the simplified write API with convert_to_8bit
+│                       │      │                   enabled. The vulnerability affects 8-bit grayscale+alpha,
+│                       │      │                   RGB/RGBA, and images with incomplete row data. A conditional
+│                       │      │                    guard incorrectly allows 8-bit input to enter code
+│                       │      │                   expecting 16-bit input, causing reads up to 2 bytes beyond
+│                       │      │                   allocated buffer boundaries. This issue has been patched in
+│                       │      │                   version 1.6.51. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-125 
+│                       │      ├ VendorSeverity   ╭ amazon     : 3 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ photon     : 2 
+│                       │      │                  ╰ redhat     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-64506 
+│                       │      │                  ├ [1]: https://github.com/pnggroup/libpng/commit/2bd84c019c30
+│                       │      │                  │      0b78e811743fbcddb67c9d9bf821 
+│                       │      │                  ├ [2]: https://github.com/pnggroup/libpng/pull/749 
+│                       │      │                  ├ [3]: https://github.com/pnggroup/libpng/security/advisories
+│                       │      │                  │      /GHSA-qpr4-xm66-hww6 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-64506 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-64506 
+│                       │      ├ PublishedDate   : 2025-11-25T00:15:47.3Z 
+│                       │      ╰ LastModifiedDate: 2025-11-26T18:34:38.24Z 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2024-58251 
+│                       │      ├ PkgID           : ssl_client@1.37.0-r19 
+│                       │      ├ PkgName         : ssl_client 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.37.0-r19?arch=x86_64&dist
+│                       │      │                  │       ro=3.22.2 
+│                       │      │                  ╰ UID : 691bd1fc4de953e2 
+│                       │      ├ InstalledVersion: 1.37.0-r19 
+│                       │      ├ FixedVersion    : 1.37.0-r20 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:28eee91d03b8056ad502b307e09cd774c150ff816a82
+│                       │      │                  │         9728c6becdeb75657b7c 
+│                       │      │                  ╰ DiffID: sha256:6218ebb8c90931a7482106c03d29ba34b43aa4ffab50
+│                       │      │                            82795f1f88e15d17e31b 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-58251 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:717261325fea777b448ac73efcd2785496b61e921bba576c54aa4
+│                       │      │                   1ae1b302e72 
+│                       │      ├ Title           : In netstat in BusyBox through 1.37.0, local users can launch
+│                       │      │                    of networ ... 
+│                       │      ├ Description     : In netstat in BusyBox through 1.37.0, local users can launch
+│                       │      │                    of network application with an argv[0] containing an ANSI
+│                       │      │                   terminal escape sequence, leading to a denial of service
+│                       │      │                   (terminal locked up) when netstat is used by a victim. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-150 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/23/6 
+│                       │      │                  ├ [1]: https://bugs.busybox.net/show_bug.cgi?id=15922 
+│                       │      │                  ├ [2]: https://www.busybox.net 
+│                       │      │                  ├ [3]: https://www.busybox.net/downloads/ 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-58251 
+│                       │      ├ PublishedDate   : 2025-04-23T18:16:03.057Z 
+│                       │      ╰ LastModifiedDate: 2025-04-29T13:52:47.47Z 
+│                       ╰ [10] ╭ VulnerabilityID : CVE-2025-46394 
+│                              ├ PkgID           : ssl_client@1.37.0-r19 
+│                              ├ PkgName         : ssl_client 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/ssl_client@1.37.0-r19?arch=x86_64&dist
+│                              │                  │       ro=3.22.2 
+│                              │                  ╰ UID : 691bd1fc4de953e2 
+│                              ├ InstalledVersion: 1.37.0-r19 
+│                              ├ FixedVersion    : 1.37.0-r20 
+│                              ├ Status          : fixed 
+│                              ├ Layer            ╭ Digest: sha256:28eee91d03b8056ad502b307e09cd774c150ff816a82
+│                              │                  │         9728c6becdeb75657b7c 
+│                              │                  ╰ DiffID: sha256:6218ebb8c90931a7482106c03d29ba34b43aa4ffab50
+│                              │                            82795f1f88e15d17e31b 
+│                              ├ SeveritySource  : nvd 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-46394 
+│                              ├ DataSource       ╭ ID  : alpine 
+│                              │                  ├ Name: Alpine Secdb 
+│                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                              ├ Fingerprint     : sha256:80e0efe91b4961ce16208d096eba3f985a552b109fbc89333c39c
+│                              │                   5f22c72ee72 
+│                              ├ Title           : In tar in BusyBox through 1.37.0, a TAR archive can have
+│                              │                   filenames hid ... 
+│                              ├ Description     : In tar in BusyBox through 1.37.0, a TAR archive can have
+│                              │                   filenames hidden from a listing through the use of terminal
+│                              │                   escape sequences. 
+│                              ├ Severity        : LOW 
+│                              ├ CweIDs           ─ [0]: CWE-451 
+│                              ├ VendorSeverity   ╭ nvd   : 1 
+│                              │                  ╰ ubuntu: 2 
+│                              ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N 
+│                              │                        ╰ V3Score : 3.3 
+│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/04/23/5 
+│                              │                  ├ [1]: http://www.openwall.com/lists/oss-security/2025/04/24/3 
+│                              │                  ├ [2]: https://bugs.busybox.net/show_bug.cgi?id=16018 
+│                              │                  ├ [3]: https://lists.busybox.net/pipermail/busybox/2024-July/
+│                              │                  │      090806.html 
+│                              │                  ├ [4]: https://lists.busybox.net/pipermail/busybox/2024-July/
+│                              │                  │      090814.html 
+│                              │                  ├ [5]: https://www.busybox.net 
+│                              │                  ├ [6]: https://www.busybox.net/downloads/ 
+│                              │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2025-46394 
+│                              │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2025/04/23/1 
+│                              ├ PublishedDate   : 2025-04-23T16:15:48.713Z 
+│                              ╰ LastModifiedDate: 2025-09-24T14:38:22.127Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 
