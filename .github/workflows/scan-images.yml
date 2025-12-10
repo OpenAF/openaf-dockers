@@ -5,10 +5,6 @@ on:
   schedule:
     - cron: '00 7 * * *'
 
-permissions:
-  contents: write
-  workflows: write
-
 jobs:
   setup:
     runs-on: ubuntu-latest
@@ -544,8 +540,7 @@ jobs:
         find artifacts -type f -exec cp {} .github/ \;
         ls -la .github/*.svg .github/*.yaml .github/*.md 2>/dev/null | head -20
 
-    - uses: openaf/ojob-action@v7
-      name: Push
+    - name: Push
       env :
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
