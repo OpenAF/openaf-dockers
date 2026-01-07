@@ -628,8 +628,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:015081387c654fbfd7d9e000cb35ee31b3158567
     InstalledFiles:
     - usr/lib/libgdbm.so.6
@@ -863,8 +863,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:cf92f86fbd3ac20b3317689ef17fc3e8b7ba52f6
     InstalledFiles:
     - usr/lib/libexpat.so.1
@@ -906,8 +906,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:57fccbe9eebf23f2c4f38ee2a24f8b0bdd508ff7
     InstalledFiles:
     - usr/lib/libgcc_s.so.1
@@ -999,8 +999,8 @@
     - musl@1.2.5-r21
     - ncurses-terminfo-base@6.5_p20251123-r0
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:649d3041c52b80620fb50a98f5979d25ebbe1523
     InstalledFiles:
     - usr/lib/libncursesw.so.6
@@ -1022,8 +1022,8 @@
     - musl@1.2.5-r21
     - ncurses-terminfo-base@6.5_p20251123-r0
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:ff98388ab154b09e32c313d45d389ec611e5f4b5
     InstalledFiles:
     - usr/lib/libpanelw.so.6
@@ -1111,8 +1111,8 @@
     - libgcc@15.2.0-r2
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:528d77417a16706468af852f2859ad00f176e266
     InstalledFiles:
     - usr/lib/libstdc++.so.6
@@ -1597,8 +1597,8 @@
     - libstdc++@15.2.0-r2
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:8ded4ff4c401cd7fb672d973289752b11bae56bf
     InstalledFiles:
     - usr/lib/libmpdec++.so.4
@@ -1664,8 +1664,8 @@
     - X-11
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:57bd1d8124ec957eefea2314bdf45b0ed1068cee
     InstalledFiles:
     - etc/terminfo/a/alacritty
@@ -2213,8 +2213,8 @@
     - py3-parsing@3.2.3-r0
     - python3@3.12.12-r0
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:e09cd5f2c2613d8be8704d833ee8e1b73ed6ca33
     InstalledFiles:
     - usr/lib/python3.12/site-packages/packaging/__init__.py
@@ -2254,8 +2254,8 @@
     - BSD-2-Clause
     Maintainer: Peter Shkenev <santurysim@gmail.com>
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:0175e03c745fcd319d5a73622b5f94d698749ee4
     InstalledFiles:
     - usr/lib/python3.12/site-packages/packaging/__pycache__/__init__.cpython-312.pyc
@@ -2289,8 +2289,8 @@
     DependsOn:
     - python3@3.12.12-r0
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:4629e466d7ba4ed095bc0bdb3c6bad75b9b36cf6
     InstalledFiles:
     - usr/lib/python3.12/site-packages/pyparsing/__init__.py
@@ -2324,8 +2324,8 @@
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:d687c1f6ce81a3709f4989d4d5baa451cf4cdb9b
     InstalledFiles:
     - usr/lib/python3.12/site-packages/pyparsing/__pycache__/__init__.cpython-312.pyc
@@ -2357,8 +2357,8 @@
     - py3-setuptools@80.9.0-r2
     - python3@3.12.12-r0
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:c87fcc35bf409170cf455c4105b8b0cd44bf417c
     InstalledFiles:
     - usr/bin/pip
@@ -2823,8 +2823,8 @@
     - MIT
     Maintainer: Achill Gilgenast <achill@achill.org>
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:5e28e07b305888b038bbd7d47862d3ca1a3f50c7
     InstalledFiles:
     - usr/lib/python3.12/site-packages/pip/__pycache__/__init__.cpython-312.pyc
@@ -3254,8 +3254,8 @@
     - py3-packaging@25.0-r0
     - python3@3.12.12-r0
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:56cb361a5115365733ca168b41a9dd2e8200c98f
     InstalledFiles:
     - usr/lib/python3.12/site-packages/distutils-precedence.pth
@@ -3774,8 +3774,8 @@
     - MIT
     Maintainer: Achill Gilgenast <achill@achill.org>
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:3a598640236f6e8ec99f670f4a5cb4cb4bfdd233
     InstalledFiles:
     - usr/lib/python3.12/site-packages/_distutils_hack/__pycache__/__init__.cpython-312.pyc
@@ -4146,8 +4146,8 @@
     - PSF-2.0
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:27188be1b985948860232f6887dcbd88f4c64381
   - ID: python3@3.12.12-r0
     Name: python3
@@ -4177,8 +4177,8 @@
     - xz-libs@5.8.1-r0
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:314f6b1ea5d7da1aa23121ee7dc29bc4c565ac9b
     InstalledFiles:
     - usr/bin/2to3
@@ -4920,8 +4920,8 @@
     - pyc@3.12.12-r0
     - python3-pycache-pyc0@3.12.12-r0
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:1590b1800379a72b1fd6d11a734cd0b8c9472c78
   - ID: python3-pycache-pyc0@3.12.12-r0
     Name: python3-pycache-pyc0
@@ -4938,8 +4938,8 @@
     DependsOn:
     - libssl3@3.5.4-r0
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:cb693ca60fe985e6c5b0ebaecd8f5201e2195c2c
     InstalledFiles:
     - usr/lib/python3.12/__phello__/__pycache__/__init__.cpython-312.pyc
@@ -5569,8 +5569,8 @@
     - libncursesw@6.5_p20251123-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:8aeb81b3a477f922b9b6a533381114c63dd928fe
     InstalledFiles:
     - etc/inputrc
@@ -5611,8 +5611,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:9bfc54f88e4ed995b47fa4828f5bac6416f1c2db
     InstalledFiles:
     - usr/lib/libsqlite3.so.0
@@ -5697,8 +5697,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:acdfba893aab5003481ad84baf0c2d420d7693b7568ed27f35f46e6319d72c96
-      DiffID: sha256:e2e3daa6b89f30f3284007a2c7b6e327e7a0b51d6a21fa3e957c4372c3d6e95f
+      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
+      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
     Digest: sha1:657557db3bbd8752475a7ad1e06da45416191c95
     InstalledFiles:
     - usr/lib/liblzma.so.5
@@ -5764,7 +5764,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:46f4bd537e9ef0a2ef58c2cec847b9aca1802b4a7eb797e775ef1eeaba5f8ef0
+    Fingerprint: sha256:2edf2732d7f08a80d494370bd4ba5886ae7676cad495ad526bfe53c29c15a12c
     Title: 'c-ares: c-ares: Denial of Service due to query termination after maximum attempts'
     Description: c-ares is an asynchronous resolver library. Versions 1.32.3 through 1.34.5  terminate a query after maximum attempts when using read_answer() and process_answer(), which can cause a Denial of Service. This issue is fixed in version 1.34.6.
     Severity: MEDIUM
