@@ -34941,6 +34941,42 @@
     - /usr/share/licenses/zlib
     - /usr/share/licenses/zlib/README
   Vulnerabilities:
+  - VulnerabilityID: CVE-2025-59529
+    PkgID: avahi-libs@0.8-23.el9.x86_64
+    PkgName: avahi-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/avahi-libs@0.8-23.el9?arch=x86_64&distro=redhat-9.7
+      UID: d10e457062d4d72e
+    InstalledVersion: 0.8-23.el9
+    Status: affected
+    Layer:
+      Digest: sha256:e762d66ab5659188c7067291516b5843713bdb0db6277626f326a0f996360b09
+      DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-59529
+    Fingerprint: sha256:09da1e0fcea5bcd18b2eea5ae7d29a68b14f68b20db74be0aec0902ba8a84f76
+    Title: 'avahi: simple clients denial-of-service'
+    Description: Avahi is a system which facilitates service discovery on a local network via the mDNS/DNS-SD protocol suite. In versions up to and including 0.9-rc2, the simple protocol server ignores the documented client limit and accepts unlimited connections, allowing for easy local DoS. Although `CLIENTS_MAX` is defined, `server_work()` unconditionally `accept()`s and `client_new()` always appends the new client and increments `n_clients`. There is no check against the limit. When client cannot be accepted as a result of maximal socket number of avahi-daemon, it logs unconditionally error per each connection. Unprivileged local users can exhaust daemon memory and file descriptors, causing a denial of service system-wide for mDNS/DNS-SD. Exhausting local file descriptors causes increased system load caused by logging errors of each of request. Overloading prevents glibc calls using nss-mdns plugins to resolve `*.local.` names and link-local addresses. As of time of publication, no known patched versions are available, but a candidate fix is available in pull request 808, and some workarounds are available. Simple clients are offered for nss-mdns package functionality. It is not possible to disable the unix socket `/run/avahi-daemon/socket`, but resolution requests received via DBus are not affected directly. Tools avahi-resolve, avahi-resolve-address and avahi-resolve-host-name are not affected, they use DBus interface. It is possible to change permissions of unix socket after avahi-daemon is started. But avahi-daemon does not provide any configuration for it. Additional access restrictions like SELinux can also prevent unwanted tools to access the socket and keep resolution working for trusted users.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/12/19/1
+    - https://access.redhat.com/security/cve/CVE-2025-59529
+    - https://github.com/avahi/avahi/pull/808
+    - https://github.com/avahi/avahi/security/advisories/GHSA-73wf-3xmj-x82q
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-59529
+    - https://www.cve.org/CVERecord?id=CVE-2025-59529
+    - https://zeropath.com/blog/avahi-simple-protocol-server-dos-cve-2025-59529
+    PublishedDate: '2025-12-18T21:15:53.637Z'
+    LastModifiedDate: '2025-12-19T22:15:51.283Z'
   - VulnerabilityID: CVE-2017-6519
     PkgID: avahi-libs@0.8-23.el9.x86_64
     PkgName: avahi-libs
@@ -35316,10 +35352,11 @@
     - https://hackerone.com/reports/3294999
     - https://linux.oracle.com/cve/CVE-2025-9086.html
     - https://linux.oracle.com/errata/ELSA-2025-23383.html
+    - https://lists.debian.org/debian-lts-announce/2026/01/msg00002.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2025-11-04T22:16:45.19Z'
+    LastModifiedDate: '2026-01-05T03:15:50.813Z'
   - VulnerabilityID: CVE-2024-11053
     PkgID: curl-minimal@7.76.1-34.el9.x86_64
     PkgName: curl-minimal
@@ -35979,6 +36016,7 @@
       cbl-mariner: 3
       photon: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
@@ -35989,6 +36027,7 @@
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3827
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4914
     - https://nvd.nist.gov/vuln/detail/CVE-2025-13601
+    - https://ubuntu.com/security/notices/USN-7942-1
     - https://www.cve.org/CVERecord?id=CVE-2025-13601
     PublishedDate: '2025-11-26T15:15:51.723Z'
     LastModifiedDate: '2025-12-01T15:39:53.1Z'
@@ -36012,7 +36051,9 @@
     CweIDs:
     - CWE-190
     VendorSeverity:
+      amazon: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
@@ -36020,7 +36061,10 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-14087
     - https://bugzilla.redhat.com/show_bug.cgi?id=2419093
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4933
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4934
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14087
+    - https://ubuntu.com/security/notices/USN-7942-1
     - https://www.cve.org/CVERecord?id=CVE-2025-14087
     PublishedDate: '2025-12-10T09:15:47.053Z'
     LastModifiedDate: '2025-12-12T15:18:42.14Z'
@@ -36045,6 +36089,7 @@
     - CWE-190
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
@@ -36052,6 +36097,8 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2025-14512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2421339
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4935
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4936
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14512
     - https://www.cve.org/CVERecord?id=CVE-2025-14512
     PublishedDate: '2025-12-11T07:16:00.463Z'
@@ -36136,6 +36183,7 @@
       azure: 1
       cbl-mariner: 1
       redhat: 1
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
@@ -36145,6 +36193,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2357754
     - https://lists.debian.org/debian-lts-announce/2025/04/msg00024.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-3360
+    - https://ubuntu.com/security/notices/USN-7942-1
     - https://www.cve.org/CVERecord?id=CVE-2025-3360
     PublishedDate: '2025-04-07T13:15:43.687Z'
     LastModifiedDate: '2025-04-14T12:15:16.087Z'
@@ -36171,6 +36220,7 @@
       azure: 1
       cbl-mariner: 1
       redhat: 1
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
@@ -36179,6 +36229,7 @@
     - https://access.redhat.com/security/cve/CVE-2025-7039
     - https://bugzilla.redhat.com/show_bug.cgi?id=2392423
     - https://nvd.nist.gov/vuln/detail/CVE-2025-7039
+    - https://ubuntu.com/security/notices/USN-7942-1
     - https://www.cve.org/CVERecord?id=CVE-2025-7039
     PublishedDate: '2025-09-03T02:15:38.12Z'
     LastModifiedDate: '2025-09-04T15:36:56.447Z'
@@ -36447,6 +36498,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      amazon: 3
       azure: 3
       cbl-mariner: 3
       redhat: 3
@@ -36971,10 +37023,11 @@
     - https://hackerone.com/reports/3294999
     - https://linux.oracle.com/cve/CVE-2025-9086.html
     - https://linux.oracle.com/errata/ELSA-2025-23383.html
+    - https://lists.debian.org/debian-lts-announce/2026/01/msg00002.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
-    LastModifiedDate: '2025-11-04T22:16:45.19Z'
+    LastModifiedDate: '2026-01-05T03:15:50.813Z'
   - VulnerabilityID: CVE-2024-11053
     PkgID: libcurl-minimal@7.76.1-34.el9.x86_64
     PkgName: libcurl-minimal
@@ -39417,6 +39470,7 @@
     CweIDs:
     - CWE-407
     VendorSeverity:
+      amazon: 2
       nvd: 2
       redhat: 2
     CVSS:
@@ -39502,6 +39556,7 @@
     Description: When loading a plist file, the plistlib module reads data in size specified by the file itself, meaning a malicious file can cause OOM and DoS issues
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       bitnami: 1
       redhat: 2
     CVSS:
@@ -39542,7 +39597,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
@@ -39961,6 +40016,7 @@
     CweIDs:
     - CWE-407
     VendorSeverity:
+      amazon: 2
       nvd: 2
       redhat: 2
     CVSS:
@@ -40046,6 +40102,7 @@
     Description: When loading a plist file, the plistlib module reads data in size specified by the file itself, meaning a malicious file can cause OOM and DoS issues
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       bitnami: 1
       redhat: 2
     CVSS:
@@ -40086,7 +40143,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
@@ -40505,6 +40562,7 @@
     CweIDs:
     - CWE-407
     VendorSeverity:
+      amazon: 2
       nvd: 2
       redhat: 2
     CVSS:
@@ -40590,6 +40648,7 @@
     Description: When loading a plist file, the plistlib module reads data in size specified by the file itself, meaning a malicious file can cause OOM and DoS issues
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       bitnami: 1
       redhat: 2
     CVSS:
@@ -40630,7 +40689,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       oracle-oval: 3
@@ -41487,13 +41546,16 @@
     PublishedDate: '2005-08-10T04:00:00Z'
     LastModifiedDate: '2025-04-03T01:03:51.193Z'
   - VulnerabilityID: CVE-2025-45582
+    VendorIDs:
+    - RHSA-2026:0067
     PkgID: tar@1.34-7.el9.x86_64
     PkgName: tar
     PkgIdentifier:
       PURL: pkg:rpm/redhat/tar@1.34-7.el9?arch=x86_64&distro=redhat-9.7&epoch=2
       UID: d70526f0e93f721
     InstalledVersion: 2:1.34-7.el9
-    Status: affected
+    FixedVersion: 2:1.34-9.el9_7
+    Status: fixed
     Layer:
       Digest: sha256:e762d66ab5659188c7067291516b5843713bdb0db6277626f326a0f996360b09
       DiffID: sha256:3d178e5590e5625e8d858bdcfb22af07a735afb672a363fd72a12e19ab6671b4
@@ -41506,6 +41568,8 @@
     CweIDs:
     - CWE-24
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -41514,8 +41578,13 @@
         V3Score: 5.6
     References:
     - http://www.openwall.com/lists/oss-security/2025/11/01/6
+    - https://access.redhat.com/errata/RHSA-2026:0002
     - https://access.redhat.com/security/cve/CVE-2025-45582
+    - https://bugzilla.redhat.com/2379592
+    - https://errata.almalinux.org/10/ALSA-2026-0002.html
     - https://github.com/i900008/vulndb/blob/main/Gnu_tar_vuln.md
+    - https://linux.oracle.com/cve/CVE-2025-45582.html
+    - https://linux.oracle.com/errata/ELSA-2026-0067.html
     - https://lists.gnu.org/archive/html/bug-tar/2025-08/msg00012.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-45582
     - https://www.cve.org/CVERecord?id=CVE-2025-45582
