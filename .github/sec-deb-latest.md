@@ -4586,7 +4586,9 @@
 │                │                        ╰ [2]: /usr/share/doc/librtmp1/copyright 
 │                ├ [77]  ╭ ID            : libsasl2-2@2.1.28+dfsg1-9ubuntu1 
 │                │       ├ Name          : libsasl2-2 
-
+│                │       ├ Identifier     ╭ PURL: pkg:deb/ubuntu/libsasl2-2@2.1.28%2Bdfsg1-9ubuntu1?arch=amd64&
+│                │       │                │       distro=ubuntu-25.10 
+│                │       │                ╰ UID : 81be2deb7ec2da7a 
 │                │       ├ Version       : 2.1.28+dfsg1 
 │                │       ├ Release       : 9ubuntu1 
 │                │       ├ Arch          : amd64 
