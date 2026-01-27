@@ -628,8 +628,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
     Digest: sha1:015081387c654fbfd7d9e000cb35ee31b3158567
     InstalledFiles:
     - usr/lib/libgdbm.so.6
@@ -863,8 +863,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
     Digest: sha1:cf92f86fbd3ac20b3317689ef17fc3e8b7ba52f6
     InstalledFiles:
     - usr/lib/libexpat.so.1
@@ -906,8 +906,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
     Digest: sha1:57fccbe9eebf23f2c4f38ee2a24f8b0bdd508ff7
     InstalledFiles:
     - usr/lib/libgcc_s.so.1
@@ -999,8 +999,8 @@
     - musl@1.2.5-r21
     - ncurses-terminfo-base@6.5_p20251123-r0
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
     Digest: sha1:649d3041c52b80620fb50a98f5979d25ebbe1523
     InstalledFiles:
     - usr/lib/libncursesw.so.6
@@ -1022,8 +1022,8 @@
     - musl@1.2.5-r21
     - ncurses-terminfo-base@6.5_p20251123-r0
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
     Digest: sha1:ff98388ab154b09e32c313d45d389ec611e5f4b5
     InstalledFiles:
     - usr/lib/libpanelw.so.6
@@ -1111,8 +1111,8 @@
     - libgcc@15.2.0-r2
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
     Digest: sha1:528d77417a16706468af852f2859ad00f176e266
     InstalledFiles:
     - usr/lib/libstdc++.so.6
@@ -1597,8 +1597,8 @@
     - libstdc++@15.2.0-r2
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
     Digest: sha1:8ded4ff4c401cd7fb672d973289752b11bae56bf
     InstalledFiles:
     - usr/lib/libmpdec++.so.4
@@ -1664,8 +1664,8 @@
     - X-11
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
     Digest: sha1:57bd1d8124ec957eefea2314bdf45b0ed1068cee
     InstalledFiles:
     - etc/terminfo/a/alacritty
@@ -2200,7 +2200,7 @@
     Name: py3-packaging
     Identifier:
       PURL: pkg:apk/alpine/py3-packaging@25.0-r0?arch=x86_64&distro=3.23.0
-      UID: 34c3dcafdb92e3d6
+      UID: 43cad0009f475b94
     Version: 25.0-r0
     Arch: x86_64
     SrcName: py3-packaging
@@ -2210,11 +2210,11 @@
     - BSD-2-Clause
     Maintainer: Peter Shkenev <santurysim@gmail.com>
     DependsOn:
-    - py3-parsing@3.2.3-r0
+    - py3-parsing@3.2.5-r0
     - python3@3.12.12-r0
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
     Digest: sha1:e09cd5f2c2613d8be8704d833ee8e1b73ed6ca33
     InstalledFiles:
     - usr/lib/python3.12/site-packages/packaging/__init__.py
@@ -2254,8 +2254,8 @@
     - BSD-2-Clause
     Maintainer: Peter Shkenev <santurysim@gmail.com>
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
     Digest: sha1:0175e03c745fcd319d5a73622b5f94d698749ee4
     InstalledFiles:
     - usr/lib/python3.12/site-packages/packaging/__pycache__/__init__.cpython-312.pyc
@@ -2274,24 +2274,24 @@
     - usr/lib/python3.12/site-packages/packaging/__pycache__/version.cpython-312.pyc
     - usr/lib/python3.12/site-packages/packaging/licenses/__pycache__/__init__.cpython-312.pyc
     - usr/lib/python3.12/site-packages/packaging/licenses/__pycache__/_spdx.cpython-312.pyc
-  - ID: py3-parsing@3.2.3-r0
+  - ID: py3-parsing@3.2.5-r0
     Name: py3-parsing
     Identifier:
-      PURL: pkg:apk/alpine/py3-parsing@3.2.3-r0?arch=x86_64&distro=3.23.0
-      UID: 6a5922fc39d98107
-    Version: 3.2.3-r0
+      PURL: pkg:apk/alpine/py3-parsing@3.2.5-r0?arch=x86_64&distro=3.23.0
+      UID: a61570b3d1a08396
+    Version: 3.2.5-r0
     Arch: x86_64
     SrcName: py3-parsing
-    SrcVersion: 3.2.3-r0
+    SrcVersion: 3.2.5-r0
     Licenses:
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     DependsOn:
     - python3@3.12.12-r0
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
-    Digest: sha1:4629e466d7ba4ed095bc0bdb3c6bad75b9b36cf6
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
+    Digest: sha1:5615dc1c2f3ab824f991b819dfa547bbc363eb98
     InstalledFiles:
     - usr/lib/python3.12/site-packages/pyparsing/__init__.py
     - usr/lib/python3.12/site-packages/pyparsing/actions.py
@@ -2304,29 +2304,29 @@
     - usr/lib/python3.12/site-packages/pyparsing/testing.py
     - usr/lib/python3.12/site-packages/pyparsing/unicode.py
     - usr/lib/python3.12/site-packages/pyparsing/util.py
-    - usr/lib/python3.12/site-packages/pyparsing-3.2.3.dist-info/METADATA
-    - usr/lib/python3.12/site-packages/pyparsing-3.2.3.dist-info/RECORD
-    - usr/lib/python3.12/site-packages/pyparsing-3.2.3.dist-info/WHEEL
-    - usr/lib/python3.12/site-packages/pyparsing-3.2.3.dist-info/licenses/LICENSE
+    - usr/lib/python3.12/site-packages/pyparsing-3.2.5.dist-info/METADATA
+    - usr/lib/python3.12/site-packages/pyparsing-3.2.5.dist-info/RECORD
+    - usr/lib/python3.12/site-packages/pyparsing-3.2.5.dist-info/WHEEL
+    - usr/lib/python3.12/site-packages/pyparsing-3.2.5.dist-info/licenses/LICENSE
     - usr/lib/python3.12/site-packages/pyparsing/diagram/__init__.py
     - usr/lib/python3.12/site-packages/pyparsing/tools/__init__.py
     - usr/lib/python3.12/site-packages/pyparsing/tools/cvt_pyparsing_pep8_names.py
-  - ID: py3-parsing-pyc@3.2.3-r0
+  - ID: py3-parsing-pyc@3.2.5-r0
     Name: py3-parsing-pyc
     Identifier:
-      PURL: pkg:apk/alpine/py3-parsing-pyc@3.2.3-r0?arch=x86_64&distro=3.23.0
-      UID: d0a70f926c79e309
-    Version: 3.2.3-r0
+      PURL: pkg:apk/alpine/py3-parsing-pyc@3.2.5-r0?arch=x86_64&distro=3.23.0
+      UID: 45b1fb4c4e78da87
+    Version: 3.2.5-r0
     Arch: x86_64
     SrcName: py3-parsing
-    SrcVersion: 3.2.3-r0
+    SrcVersion: 3.2.5-r0
     Licenses:
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
-    Digest: sha1:d687c1f6ce81a3709f4989d4d5baa451cf4cdb9b
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
+    Digest: sha1:7e7c77ed2bf6c47944e652bbed8d2052c7910c1b
     InstalledFiles:
     - usr/lib/python3.12/site-packages/pyparsing/__pycache__/__init__.cpython-312.pyc
     - usr/lib/python3.12/site-packages/pyparsing/__pycache__/actions.cpython-312.pyc
@@ -2357,8 +2357,8 @@
     - py3-setuptools@80.9.0-r2
     - python3@3.12.12-r0
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
     Digest: sha1:c87fcc35bf409170cf455c4105b8b0cd44bf417c
     InstalledFiles:
     - usr/bin/pip
@@ -2823,8 +2823,8 @@
     - MIT
     Maintainer: Achill Gilgenast <achill@achill.org>
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
     Digest: sha1:5e28e07b305888b038bbd7d47862d3ca1a3f50c7
     InstalledFiles:
     - usr/lib/python3.12/site-packages/pip/__pycache__/__init__.cpython-312.pyc
@@ -3254,8 +3254,8 @@
     - py3-packaging@25.0-r0
     - python3@3.12.12-r0
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
     Digest: sha1:56cb361a5115365733ca168b41a9dd2e8200c98f
     InstalledFiles:
     - usr/lib/python3.12/site-packages/distutils-precedence.pth
@@ -3774,8 +3774,8 @@
     - MIT
     Maintainer: Achill Gilgenast <achill@achill.org>
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
     Digest: sha1:3a598640236f6e8ec99f670f4a5cb4cb4bfdd233
     InstalledFiles:
     - usr/lib/python3.12/site-packages/_distutils_hack/__pycache__/__init__.cpython-312.pyc
@@ -4146,14 +4146,14 @@
     - PSF-2.0
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
     Digest: sha1:27188be1b985948860232f6887dcbd88f4c64381
   - ID: python3@3.12.12-r0
     Name: python3
     Identifier:
       PURL: pkg:apk/alpine/python3@3.12.12-r0?arch=x86_64&distro=3.23.0
-      UID: bce4904556c176df
+      UID: 806d922d670fcfb5
     Version: 3.12.12-r0
     Arch: x86_64
     SrcName: python3
@@ -4173,12 +4173,12 @@
     - mpdecimal@4.0.1-r0
     - musl@1.2.5-r21
     - readline@8.3.1-r0
-    - sqlite-libs@3.51.1-r0
-    - xz-libs@5.8.1-r0
+    - sqlite-libs@3.51.2-r0
+    - xz-libs@5.8.2-r0
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
     Digest: sha1:314f6b1ea5d7da1aa23121ee7dc29bc4c565ac9b
     InstalledFiles:
     - usr/bin/2to3
@@ -4920,8 +4920,8 @@
     - pyc@3.12.12-r0
     - python3-pycache-pyc0@3.12.12-r0
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
     Digest: sha1:1590b1800379a72b1fd6d11a734cd0b8c9472c78
   - ID: python3-pycache-pyc0@3.12.12-r0
     Name: python3-pycache-pyc0
@@ -4938,8 +4938,8 @@
     DependsOn:
     - libssl3@3.5.4-r0
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
     Digest: sha1:cb693ca60fe985e6c5b0ebaecd8f5201e2195c2c
     InstalledFiles:
     - usr/lib/python3.12/__phello__/__pycache__/__init__.cpython-312.pyc
@@ -5569,8 +5569,8 @@
     - libncursesw@6.5_p20251123-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
     Digest: sha1:8aeb81b3a477f922b9b6a533381114c63dd928fe
     InstalledFiles:
     - etc/inputrc
@@ -5596,27 +5596,27 @@
     Digest: sha1:6ea36dd44ef9f6364f0cdfabe09ea15d2fdbe229
     InstalledFiles:
     - usr/bin/scanelf
-  - ID: sqlite-libs@3.51.1-r0
+  - ID: sqlite-libs@3.51.2-r0
     Name: sqlite-libs
     Identifier:
-      PURL: pkg:apk/alpine/sqlite-libs@3.51.1-r0?arch=x86_64&distro=3.23.0
-      UID: e5e30bb7ff9aaca9
-    Version: 3.51.1-r0
+      PURL: pkg:apk/alpine/sqlite-libs@3.51.2-r0?arch=x86_64&distro=3.23.0
+      UID: 8eb32b1978149153
+    Version: 3.51.2-r0
     Arch: x86_64
     SrcName: sqlite
-    SrcVersion: 3.51.1-r0
+    SrcVersion: 3.51.2-r0
     Licenses:
     - blessing
     Maintainer: Celeste <cielesti@protonmail.com>
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
-    Digest: sha1:9bfc54f88e4ed995b47fa4828f5bac6416f1c2db
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
+    Digest: sha1:8a0cec5c2bed73f54151897852ecf7c748d0ddea
     InstalledFiles:
     - usr/lib/libsqlite3.so.0
-    - usr/lib/libsqlite3.so.3.51.1
+    - usr/lib/libsqlite3.so.3.51.2
   - ID: ssl_client@1.37.0-r29
     Name: ssl_client
     Identifier:
@@ -5679,15 +5679,15 @@
     - usr/sbin/sudo_logsrvd
     - usr/sbin/sudo_sendlog
     - usr/sbin/visudo
-  - ID: xz-libs@5.8.1-r0
+  - ID: xz-libs@5.8.2-r0
     Name: xz-libs
     Identifier:
-      PURL: pkg:apk/alpine/xz-libs@5.8.1-r0?arch=x86_64&distro=3.23.0
-      UID: b4b5ed40dad1522a
-    Version: 5.8.1-r0
+      PURL: pkg:apk/alpine/xz-libs@5.8.2-r0?arch=x86_64&distro=3.23.0
+      UID: 34cc8aba1ef32ba1
+    Version: 5.8.2-r0
     Arch: x86_64
     SrcName: xz
-    SrcVersion: 5.8.1-r0
+    SrcVersion: 5.8.2-r0
     Licenses:
     - GPL-2.0-or-later
     - 0BSD
@@ -5697,12 +5697,12 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:bfb0e838f67288151a21617e4d232bd2bde93074e61dc7b6419a711ba7cae129
-      DiffID: sha256:9cc80c4c8b07ffe1ee173f98e51d678458fa763871f0b2b60ce1d4c0d59677ab
-    Digest: sha1:657557db3bbd8752475a7ad1e06da45416191c95
+      Digest: sha256:8e48010ed4bb1c86c733451cb5cb27aaa4a1b5382dbc4f4afe0f03e80ef96b79
+      DiffID: sha256:696e5456e508ef851bd81a65f72176213796b5e074ff37c78ed437602b2b38f5
+    Digest: sha1:d3eb4807f74650a151b4463266ecd1b507f3c49f
     InstalledFiles:
     - usr/lib/liblzma.so.5
-    - usr/lib/liblzma.so.5.8.1
+    - usr/lib/liblzma.so.5.8.2
   - ID: zlib@1.3.1-r2
     Name: zlib
     Identifier:
@@ -5764,13 +5764,15 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:2edf2732d7f08a80d494370bd4ba5886ae7676cad495ad526bfe53c29c15a12c
+    Fingerprint: sha256:cec740e55ca08d4564680df877f5fb59a027e64b2006032398223e30c6fa5fc9
     Title: 'c-ares: c-ares: Denial of Service due to query termination after maximum attempts'
     Description: c-ares is an asynchronous resolver library. Versions 1.32.3 through 1.34.5  terminate a query after maximum attempts when using read_answer() and process_answer(), which can cause a Denial of Service. This issue is fixed in version 1.34.6.
     Severity: MEDIUM
     CweIDs:
     - CWE-416
     VendorSeverity:
+      amazon: 2
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -5786,6 +5788,137 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-62408
     PublishedDate: '2025-12-08T22:15:52.62Z'
     LastModifiedDate: '2025-12-09T18:37:33.427Z'
+  - VulnerabilityID: CVE-2026-22695
+    PkgID: libpng@1.6.53-r0
+    PkgName: libpng
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libpng@1.6.53-r0?arch=x86_64&distro=3.23.0
+      UID: cb73e61ec749ca01
+    InstalledVersion: 1.6.53-r0
+    FixedVersion: 1.6.54-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:81072dde936a09b61c47c979c207051dd9275bb41a818a448ab6274bca38a2cd
+      DiffID: sha256:6ee07a98058b91d0c98d70b878cb18feb3f7a428081e3b2caffae53f952df8e5
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22695
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:a1bfe895bb9d6d23c87c76c72d8ab2a6930b895e05fdf22e16c2bcf62d6b5d29
+    Title: 'libpng: libpng: Denial of service and information disclosure via heap buffer over-read in png_image_finish_read'
+    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From 1.6.51 to 1.6.53, there is a heap buffer over-read in the libpng simplified API function png_image_finish_read when processing interlaced 16-bit PNGs with 8-bit output format and non-minimal row stride. This is a regression introduced by the fix for CVE-2025-65018. This vulnerability is fixed in 1.6.54.
+    Severity: HIGH
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H
+        V3Score: 7.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-22695
+    - https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea
+    - https://github.com/pnggroup/libpng/commit/e4f7ad4ea2
+    - https://github.com/pnggroup/libpng/issues/778
+    - https://github.com/pnggroup/libpng/security/advisories/GHSA-mmq5-27w3-rxpp
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-22695
+    - https://ubuntu.com/security/notices/USN-7963-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-22695
+    - https://www.openwall.com/lists/oss-security/2026/01/12/7
+    PublishedDate: '2026-01-12T23:15:52.597Z'
+    LastModifiedDate: '2026-01-21T18:58:55.787Z'
+  - VulnerabilityID: CVE-2026-22801
+    PkgID: libpng@1.6.53-r0
+    PkgName: libpng
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libpng@1.6.53-r0?arch=x86_64&distro=3.23.0
+      UID: cb73e61ec749ca01
+    InstalledVersion: 1.6.53-r0
+    FixedVersion: 1.6.54-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:81072dde936a09b61c47c979c207051dd9275bb41a818a448ab6274bca38a2cd
+      DiffID: sha256:6ee07a98058b91d0c98d70b878cb18feb3f7a428081e3b2caffae53f952df8e5
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-22801
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:ba284ed4485cea69c40a50aba41c4e2412fc5d8bdb051533fe968e66355ffc08
+    Title: 'libpng: libpng: Information disclosure and denial of service via integer truncation in simplified write API'
+    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From 1.6.26 to 1.6.53, there is an integer truncation in the libpng simplified write API functions png_write_image_16bit and png_write_image_8bit causes heap buffer over-read when the caller provides a negative row stride (for bottom-up image layouts) or a stride exceeding 65535 bytes. The bug was introduced in libpng 1.6.26 (October 2016) by casts added to silence compiler warnings on 16-bit systems. This vulnerability is fixed in 1.6.54.
+    Severity: HIGH
+    CweIDs:
+    - CWE-125
+    - CWE-190
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-22801
+    - https://github.com/pnggroup/libpng/security/advisories/GHSA-vgjq-8cw5-ggw8
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-22801
+    - https://ubuntu.com/security/notices/USN-7963-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-22801
+    - https://www.openwall.com/lists/oss-security/2026/01/12/7
+    PublishedDate: '2026-01-12T23:15:52.907Z'
+    LastModifiedDate: '2026-01-21T18:58:18.27Z'
+  - VulnerabilityID: CVE-2025-13151
+    PkgID: libtasn1@4.20.0-r0
+    PkgName: libtasn1
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libtasn1@4.20.0-r0?arch=x86_64&distro=3.23.0
+      UID: e85d6de4c4cb9425
+    InstalledVersion: 4.20.0-r0
+    FixedVersion: 4.21.0-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:81072dde936a09b61c47c979c207051dd9275bb41a818a448ab6274bca38a2cd
+      DiffID: sha256:6ee07a98058b91d0c98d70b878cb18feb3f7a428081e3b2caffae53f952df8e5
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13151
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:4d188486b665af31fef6c404a1ae771e38668a2978a28482e8e74e03c34ae5da
+    Title: 'libtasn1: libtasn1: Denial of Service via stack-based buffer overflow in asn1_expend_octet_string'
+    Description: 'Stack-based buffer overflow in libtasn1 version: v4.20.0. The function fails to validate the size of input data resulting in a buffer overflow in asn1_expend_octet_string.'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/08/5
+    - https://access.redhat.com/security/cve/CVE-2025-13151
+    - https://gitlab.com/gnutls/libtasn1
+    - https://gitlab.com/gnutls/libtasn1/-/merge_requests/121
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13151
+    - https://ubuntu.com/security/notices/USN-7954-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-13151
+    - https://www.kb.cert.org/vuls/id/271649
+    PublishedDate: '2026-01-07T22:15:43.2Z'
+    LastModifiedDate: '2026-01-20T18:16:01.827Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
