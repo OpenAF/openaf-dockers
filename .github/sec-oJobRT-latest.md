@@ -2323,48 +2323,198 @@
 │     │                        ├ Digest        : sha1:d507b8ac3c4335a40405ac20e49bac9d43642be6 
 │     │                        ╰ InstalledFiles ╭ [0]: usr/lib/libzstd.so.1 
 │     │                                         ╰ [1]: usr/lib/libzstd.so.1.5.7 
-│     ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2025-62408 
-│                             ├ PkgID           : c-ares@1.34.5-r0 
-│                             ├ PkgName         : c-ares 
-│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/c-ares@1.34.5-r0?arch=x86_64&distro=3.2
-│                             │                  │       3.0 
-│                             │                  ╰ UID : 52587364bf1be7a9 
-│                             ├ InstalledVersion: 1.34.5-r0 
-│                             ├ FixedVersion    : 1.34.6-r0 
+│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2025-62408 
+│                       │     ├ PkgID           : c-ares@1.34.5-r0 
+│                       │     ├ PkgName         : c-ares 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/c-ares@1.34.5-r0?arch=x86_64&distro=3.2
+│                       │     │                  │       3.0 
+│                       │     │                  ╰ UID : 52587364bf1be7a9 
+│                       │     ├ InstalledVersion: 1.34.5-r0 
+│                       │     ├ FixedVersion    : 1.34.6-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:d8dc7beb44c3d275fd0e2d4fee30d580430efce82eccc
+│                       │     │                  │         d8c7824cf7ba0cce872 
+│                       │     │                  ╰ DiffID: sha256:7802b0e22d2a57ac56acda0ab591779a64b17cc077be6
+│                       │     │                            bc9d1d87f8edfe3f3ae 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-62408 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:d32acfb7131733eb17b185beeeac8a41ab9eda78a38c6c72717b64
+│                       │     │                   81869be41f 
+│                       │     ├ Title           : c-ares: c-ares: Denial of Service due to query termination
+│                       │     │                   after maximum attempts 
+│                       │     ├ Description     : c-ares is an asynchronous resolver library. Versions 1.32.3
+│                       │     │                   through 1.34.5  terminate a query after maximum attempts when
+│                       │     │                    using read_answer() and process_answer(), which can cause a
+│                       │     │                   Denial of Service. This issue is fixed in version 1.34.6. 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ CweIDs           ─ [0]: CWE-416 
+│                       │     ├ VendorSeverity   ╭ amazon: 2 
+│                       │     │                  ├ azure : 2 
+│                       │     │                  ├ redhat: 2 
+│                       │     │                  ╰ ubuntu: 2 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 5.9 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-62408 
+│                       │     │                  ├ [1]: https://github.com/c-ares/c-ares/commit/714bf5675c541bd
+│                       │     │                  │      1e668a8db8e67ce012651e618 
+│                       │     │                  ├ [2]: https://github.com/c-ares/c-ares/security/advisories/GH
+│                       │     │                  │      SA-jq53-42q6-pqr5 
+│                       │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-62408 
+│                       │     │                  ├ [4]: https://ubuntu.com/security/notices/USN-7925-1 
+│                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-62408 
+│                       │     ├ PublishedDate   : 2025-12-08T22:15:52.62Z 
+│                       │     ╰ LastModifiedDate: 2025-12-09T18:37:33.427Z 
+│                       ├ [1] ╭ VulnerabilityID : CVE-2026-22695 
+│                       │     ├ PkgID           : libpng@1.6.53-r0 
+│                       │     ├ PkgName         : libpng 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.53-r0?arch=x86_64&distro=3.2
+│                       │     │                  │       3.0 
+│                       │     │                  ╰ UID : cb73e61ec749ca01 
+│                       │     ├ InstalledVersion: 1.6.53-r0 
+│                       │     ├ FixedVersion    : 1.6.54-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:d8dc7beb44c3d275fd0e2d4fee30d580430efce82eccc
+│                       │     │                  │         d8c7824cf7ba0cce872 
+│                       │     │                  ╰ DiffID: sha256:7802b0e22d2a57ac56acda0ab591779a64b17cc077be6
+│                       │     │                            bc9d1d87f8edfe3f3ae 
+│                       │     ├ SeveritySource  : nvd 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22695 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:cbc24b5a52c6dbd62d0289e7decab29dbe9261828231f5866e7dbc
+│                       │     │                   5dd393ca4d 
+│                       │     ├ Title           : libpng: libpng: Denial of service and information disclosure
+│                       │     │                   via heap buffer over-read in png_image_finish_read 
+│                       │     ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │     │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │     │                   raster image files. From 1.6.51 to 1.6.53, there is a heap
+│                       │     │                   buffer over-read in the libpng simplified API function
+│                       │     │                   png_image_finish_read when processing interlaced 16-bit PNGs
+│                       │     │                   with 8-bit output format and non-minimal row stride. This is
+│                       │     │                   a regression introduced by the fix for CVE-2025-65018. This
+│                       │     │                   vulnerability is fixed in 1.6.54. 
+│                       │     ├ Severity        : HIGH 
+│                       │     ├ CweIDs           ─ [0]: CWE-125 
+│                       │     ├ VendorSeverity   ╭ nvd   : 3 
+│                       │     │                  ├ redhat: 2 
+│                       │     │                  ╰ ubuntu: 2 
+│                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/
+│                       │     │                  │        │           A:H 
+│                       │     │                  │        ╰ V3Score : 7.1 
+│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 6.1 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-22695 
+│                       │     │                  ├ [1]: https://github.com/pnggroup/libpng/commit/218612ddd6b17
+│                       │     │                  │      944e21eda56caf8b4bf7779d1ea 
+│                       │     │                  ├ [2]: https://github.com/pnggroup/libpng/commit/e4f7ad4ea2 
+│                       │     │                  ├ [3]: https://github.com/pnggroup/libpng/issues/778 
+│                       │     │                  ├ [4]: https://github.com/pnggroup/libpng/security/advisories/
+│                       │     │                  │      GHSA-mmq5-27w3-rxpp 
+│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-22695 
+│                       │     │                  ├ [6]: https://ubuntu.com/security/notices/USN-7963-1 
+│                       │     │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2026-22695 
+│                       │     │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2026/01/12/7 
+│                       │     ├ PublishedDate   : 2026-01-12T23:15:52.597Z 
+│                       │     ╰ LastModifiedDate: 2026-01-21T18:58:55.787Z 
+│                       ├ [2] ╭ VulnerabilityID : CVE-2026-22801 
+│                       │     ├ PkgID           : libpng@1.6.53-r0 
+│                       │     ├ PkgName         : libpng 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.53-r0?arch=x86_64&distro=3.2
+│                       │     │                  │       3.0 
+│                       │     │                  ╰ UID : cb73e61ec749ca01 
+│                       │     ├ InstalledVersion: 1.6.53-r0 
+│                       │     ├ FixedVersion    : 1.6.54-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:d8dc7beb44c3d275fd0e2d4fee30d580430efce82eccc
+│                       │     │                  │         d8c7824cf7ba0cce872 
+│                       │     │                  ╰ DiffID: sha256:7802b0e22d2a57ac56acda0ab591779a64b17cc077be6
+│                       │     │                            bc9d1d87f8edfe3f3ae 
+│                       │     ├ SeveritySource  : nvd 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22801 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:f14f136018e26c4bdb202319c641194a0172e96b528d0d7c1a4791
+│                       │     │                   3459b560d8 
+│                       │     ├ Title           : libpng: libpng: Information disclosure and denial of service
+│                       │     │                   via integer truncation in simplified write API 
+│                       │     ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │     │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │     │                   raster image files. From 1.6.26 to 1.6.53, there is an
+│                       │     │                   integer truncation in the libpng simplified write API
+│                       │     │                   functions png_write_image_16bit and png_write_image_8bit
+│                       │     │                   causes heap buffer over-read when the caller provides a
+│                       │     │                   negative row stride (for bottom-up image layouts) or a stride
+│                       │     │                    exceeding 65535 bytes. The bug was introduced in libpng
+│                       │     │                   1.6.26 (October 2016) by casts added to silence compiler
+│                       │     │                   warnings on 16-bit systems. This vulnerability is fixed in
+│                       │     │                   1.6.54. 
+│                       │     ├ Severity        : HIGH 
+│                       │     ├ CweIDs           ╭ [0]: CWE-125 
+│                       │     │                  ╰ [1]: CWE-190 
+│                       │     ├ VendorSeverity   ╭ nvd   : 3 
+│                       │     │                  ├ redhat: 2 
+│                       │     │                  ╰ ubuntu: 2 
+│                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/
+│                       │     │                  │        │           A:H 
+│                       │     │                  │        ╰ V3Score : 7.8 
+│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 6.8 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-22801 
+│                       │     │                  ├ [1]: https://github.com/pnggroup/libpng/security/advisories/
+│                       │     │                  │      GHSA-vgjq-8cw5-ggw8 
+│                       │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2026-22801 
+│                       │     │                  ├ [3]: https://ubuntu.com/security/notices/USN-7963-1 
+│                       │     │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2026-22801 
+│                       │     │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2026/01/12/7 
+│                       │     ├ PublishedDate   : 2026-01-12T23:15:52.907Z 
+│                       │     ╰ LastModifiedDate: 2026-01-21T18:58:18.27Z 
+│                       ╰ [3] ╭ VulnerabilityID : CVE-2025-13151 
+│                             ├ PkgID           : libtasn1@4.20.0-r0 
+│                             ├ PkgName         : libtasn1 
+│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libtasn1@4.20.0-r0?arch=x86_64&distro=3
+│                             │                  │       .23.0 
+│                             │                  ╰ UID : e85d6de4c4cb9425 
+│                             ├ InstalledVersion: 4.20.0-r0 
+│                             ├ FixedVersion    : 4.21.0-r0 
 │                             ├ Status          : fixed 
 │                             ├ Layer            ╭ Digest: sha256:d8dc7beb44c3d275fd0e2d4fee30d580430efce82eccc
 │                             │                  │         d8c7824cf7ba0cce872 
 │                             │                  ╰ DiffID: sha256:7802b0e22d2a57ac56acda0ab591779a64b17cc077be6
 │                             │                            bc9d1d87f8edfe3f3ae 
-│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-62408 
+│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13151 
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Fingerprint     : sha256:d32acfb7131733eb17b185beeeac8a41ab9eda78a38c6c72717b64
-│                             │                   81869be41f 
-│                             ├ Title           : c-ares: c-ares: Denial of Service due to query termination
-│                             │                   after maximum attempts 
-│                             ├ Description     : c-ares is an asynchronous resolver library. Versions 1.32.3
-│                             │                   through 1.34.5  terminate a query after maximum attempts when
-│                             │                    using read_answer() and process_answer(), which can cause a
-│                             │                   Denial of Service. This issue is fixed in version 1.34.6. 
+│                             ├ Fingerprint     : sha256:84d15831c98ddcf52f685195bffcd1613d2cccf1c802c44c7c1880
+│                             │                   651543c981 
+│                             ├ Title           : libtasn1: libtasn1: Denial of Service via stack-based buffer
+│                             │                   overflow in asn1_expend_octet_string 
+│                             ├ Description     : Stack-based buffer overflow in libtasn1 version: v4.20.0. The
+│                             │                    function fails to validate the size of input data resulting
+│                             │                   in a buffer overflow in asn1_expend_octet_string. 
 │                             ├ Severity        : MEDIUM 
-│                             ├ CweIDs           ─ [0]: CWE-416 
-│                             ├ VendorSeverity   ╭ redhat: 2 
+│                             ├ VendorSeverity   ╭ redhat: 1 
 │                             │                  ╰ ubuntu: 2 
 │                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
 │                             │                           │           A:H 
 │                             │                           ╰ V3Score : 5.9 
-│                             ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2025-62408 
-│                             │                  ├ [1]: https://github.com/c-ares/c-ares/commit/714bf5675c541bd
-│                             │                  │      1e668a8db8e67ce012651e618 
-│                             │                  ├ [2]: https://github.com/c-ares/c-ares/security/advisories/GH
-│                             │                  │      SA-jq53-42q6-pqr5 
-│                             │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2025-62408 
-│                             │                  ├ [4]: https://ubuntu.com/security/notices/USN-7925-1 
-│                             │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-62408 
-│                             ├ PublishedDate   : 2025-12-08T22:15:52.62Z 
-│                             ╰ LastModifiedDate: 2025-12-09T18:37:33.427Z 
+│                             ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/08/5 
+│                             │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-13151 
+│                             │                  ├ [2]: https://gitlab.com/gnutls/libtasn1 
+│                             │                  ├ [3]: https://gitlab.com/gnutls/libtasn1/-/merge_requests/121 
+│                             │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-13151 
+│                             │                  ├ [5]: https://ubuntu.com/security/notices/USN-7954-1 
+│                             │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2025-13151 
+│                             │                  ╰ [7]: https://www.kb.cert.org/vuls/id/271649 
+│                             ├ PublishedDate   : 2026-01-07T22:15:43.2Z 
+│                             ╰ LastModifiedDate: 2026-01-20T18:16:01.827Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 
