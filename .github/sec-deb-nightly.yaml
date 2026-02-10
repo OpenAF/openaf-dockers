@@ -6,7 +6,7 @@
     Name: apt
     Identifier:
       PURL: pkg:deb/ubuntu/apt@3.1.6ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: 51d7f96339f35325
+      UID: 9e10884bb54ff3a7
     Version: 3.1.6ubuntu2
     Arch: amd64
     SrcName: apt
@@ -18,20 +18,22 @@
     - MIT
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
     - base-passwd@3.6.7
     - gpgv@2.4.8-2ubuntu2.1
     - libapt-pkg7.0@3.1.6ubuntu2
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libgcc-s1@15.2.0-4ubuntu4
     - libseccomp2@2.6.0-2ubuntu2
-    - libssl3t64@3.5.3-1ubuntu2
+    - libssl3t64@3.5.3-1ubuntu3
     - libstdc++6@15.2.0-4ubuntu4
-    - libsystemd0@257.9-0ubuntu2
+    - libsystemd0@257.9-0ubuntu2.1
     - ubuntu-keyring@2023.11.28.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:5c7db3942fd905c368040650b06516eaf7f96af3521d28f25c2d15524fa57359
     InstalledFiles:
     - /usr/bin/apt
@@ -210,11 +212,12 @@
     - /usr/share/man/pt/man8/apt-mark.8.gz
     - /usr/share/man/pt/man8/apt-secure.8.gz
     - /usr/share/man/pt/man8/apt.8.gz
+    AnalyzedBy: dpkg
   - ID: base-files@14ubuntu3
     Name: base-files
     Identifier:
       PURL: pkg:deb/ubuntu/base-files@14ubuntu3?arch=amd64&distro=ubuntu-25.10
-      UID: e71897d1ab81c901
+      UID: 673c7bb523910416
     Version: 14ubuntu3
     Arch: amd64
     SrcName: base-files
@@ -223,12 +226,14 @@
     - GPL-2.0-or-later
     - verbatim
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libcrypt1@1:4.4.38-1build1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:d6ac6917838cb1f1e653ae875caa3cd726852813c73e18b137c47ee6f7849e3d
     InstalledFiles:
     - /usr/bin/locale-check
@@ -274,11 +279,12 @@
     - /usr/share/pixmaps/ubuntu-logo.svg
     - /usr/share/profile
     - /usr/share/profile.md5sums
+    AnalyzedBy: dpkg
   - ID: base-passwd@3.6.7
     Name: base-passwd
     Identifier:
       PURL: pkg:deb/ubuntu/base-passwd@3.6.7?arch=amd64&distro=ubuntu-25.10
-      UID: 9d2898dd0d2b5572
+      UID: 7758350afd26cfb6
     Version: 3.6.7
     Arch: amd64
     SrcName: base-passwd
@@ -287,13 +293,15 @@
     - GPL-2.0-only
     - public-domain
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libdebconfclient0@0.279ubuntu1
     - libselinux1@3.8.1-1build1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:53adb1ea0ee603f5615752b90cd38458ecf0c7308832c6a080d68a981daed3b9
     InstalledFiles:
     - /usr/sbin/update-passwd
@@ -314,11 +322,12 @@
     - /usr/share/man/pl/man8/update-passwd.8.gz
     - /usr/share/man/ro/man8/update-passwd.8.gz
     - /usr/share/man/ru/man8/update-passwd.8.gz
+    AnalyzedBy: dpkg
   - ID: bash@5.2.37-2ubuntu5
     Name: bash
     Identifier:
       PURL: pkg:deb/ubuntu/bash@5.2.37-2ubuntu5?arch=amd64&distro=ubuntu-25.10
-      UID: e6420eb653cc6ea6
+      UID: e182011ed6691d9
     Version: 5.2.37
     Release: 2ubuntu5
     Arch: amd64
@@ -338,12 +347,14 @@
     - MIT
     - permissive
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
     - base-files@14ubuntu3
     - debianutils@5.23.2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:8f5f9b383b07149ce0e967a251d46622242058f395d348502fc8404bbd6de6aa
     InstalledFiles:
     - /usr/bin/bash
@@ -369,11 +380,12 @@
     - /usr/share/man/man1/rbash.1.gz
     - /usr/share/man/man7/bash-builtins.7.gz
     - /usr/share/menu/bash
+    AnalyzedBy: dpkg
   - ID: bash-completion@1:2.16.0-7
     Name: bash-completion
     Identifier:
       PURL: pkg:deb/ubuntu/bash-completion@2.16.0-7?arch=all&distro=ubuntu-25.10&epoch=1
-      UID: 5e446113d8cd7171
+      UID: ca841c639f3a0f4d
     Version: 2.16.0
     Release: '7'
     Epoch: 1
@@ -386,9 +398,11 @@
     - GPL-2.0-or-later
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/bin/dh_bash-completion
     - /usr/share/bash-completion/bash_completion
@@ -917,11 +931,12 @@
     - /usr/share/man/man1/dh_bash-completion.1.gz
     - /usr/share/perl5/Debian/Debhelper/Sequence/bash_completion.pm
     - /usr/share/pkgconfig/bash-completion.pc
+    AnalyzedBy: dpkg
   - ID: bsdutils@1:2.41-4ubuntu4.1
     Name: bsdutils
     Identifier:
       PURL: pkg:deb/ubuntu/bsdutils@2.41-4ubuntu4.1?arch=amd64&distro=ubuntu-25.10&epoch=1
-      UID: c041a6adca89709c
+      UID: 38bcfba16c536ac0
     Version: '2.41'
     Release: 4ubuntu4.1
     Epoch: 1
@@ -948,9 +963,11 @@
     - LGPL-2.1-only
     - LGPL-3.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/bin/logger
     - /usr/bin/renice
@@ -974,11 +991,12 @@
     - /usr/share/man/man1/scriptlive.1.gz
     - /usr/share/man/man1/scriptreplay.1.gz
     - /usr/share/man/man1/wall.1.gz
+    AnalyzedBy: dpkg
   - ID: ca-certificates@20250419
     Name: ca-certificates
     Identifier:
       PURL: pkg:deb/ubuntu/ca-certificates@20250419?arch=all&distro=ubuntu-25.10
-      UID: f27f17a835b0e122
+      UID: 14e2767e62efce30
     Version: '20250419'
     Arch: all
     SrcName: ca-certificates
@@ -988,12 +1006,14 @@
     - GPL-2.0-only
     - MPL-2.0
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
     - debconf@1.5.91
-    - openssl@3.5.3-1ubuntu2
+    - openssl@3.5.3-1ubuntu3
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/sbin/update-ca-certificates
     - /usr/share/ca-certificates/mozilla/ACCVRAIZ1.crt
@@ -1162,11 +1182,12 @@
     - /usr/share/doc/ca-certificates/examples/ca-certificates-local/local/Local_Root_CA.crt
     - /usr/share/doc/ca-certificates/examples/ca-certificates-local/local/Makefile
     - /usr/share/man/man8/update-ca-certificates.8.gz
+    AnalyzedBy: dpkg
   - ID: coreutils@9.5-1ubuntu2+0.0.0~ubuntu24
     Name: coreutils
     Identifier:
       PURL: pkg:deb/ubuntu/coreutils@9.5-1ubuntu2%2B0.0.0~ubuntu24?arch=all&distro=ubuntu-25.10
-      UID: d385e1ab2d3b80e9
+      UID: 65aa8ccc7f0d8078
     Version: '9.5'
     Release: 1ubuntu2+0.0.0~ubuntu24
     Arch: all
@@ -1175,18 +1196,21 @@
     Licenses:
     - GPL-3.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:be48c687f892c8a8552fda28390044cb74afca9d9bbda1d1edd557bf86a42eeb
     InstalledFiles:
     - /usr/share/doc/coreutils/changelog.gz
     - /usr/share/doc/coreutils/copyright
+    AnalyzedBy: dpkg
   - ID: coreutils-from-uutils@0.0.0~ubuntu24
     Name: coreutils-from-uutils
     Identifier:
       PURL: pkg:deb/ubuntu/coreutils-from-uutils@0.0.0~ubuntu24?arch=all&distro=ubuntu-25.10
-      UID: 3d07e778ab328975
+      UID: 1344d05e4ca429f8
     Version: 0.0.0~ubuntu24
     Arch: all
     SrcName: coreutils-from
@@ -1194,18 +1218,21 @@
     Licenses:
     - GPL-3.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:98ecaa3d286f33259312bcba2490c012a74ce10d98de78c5f12b4669356063c6
     InstalledFiles:
     - /usr/share/doc/coreutils-from-uutils/changelog.gz
     - /usr/share/doc/coreutils-from-uutils/copyright
+    AnalyzedBy: dpkg
   - ID: curl@8.14.1-2ubuntu1
     Name: curl
     Identifier:
       PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
-      UID: 54050448211d1863
+      UID: 173a610781089e1b
     Version: 8.14.1
     Release: 2ubuntu1
     Arch: amd64
@@ -1225,13 +1252,15 @@
     - X11
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libcurl4t64@8.14.1-2ubuntu1
     - zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/bin/curl
     - /usr/bin/wcurl
@@ -1242,11 +1271,12 @@
     - /usr/share/man/man1/curl.1.gz
     - /usr/share/man/man1/wcurl.1.gz
     - /usr/share/zsh/vendor-completions/_curl
+    AnalyzedBy: dpkg
   - ID: dash@0.5.12-12ubuntu2
     Name: dash
     Identifier:
       PURL: pkg:deb/ubuntu/dash@0.5.12-12ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: 5f59e0554cc2f4a7
+      UID: f63f513d65bcd50b
     Version: 0.5.12
     Release: 12ubuntu2
     Arch: amd64
@@ -1259,11 +1289,13 @@
     - GPL-2.0-or-later
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
     - debianutils@5.23.2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:08c51b234ad83c5d389316fad000a8c8f925903c3ee0e21b70b7b5f286ebab69
     InstalledFiles:
     - /usr/bin/dash
@@ -1275,11 +1307,12 @@
     - /usr/share/lintian/overrides/dash
     - /usr/share/man/man1/dash.1.gz
     - /usr/share/menu/dash
+    AnalyzedBy: dpkg
   - ID: debconf@1.5.91
     Name: debconf
     Identifier:
       PURL: pkg:deb/ubuntu/debconf@1.5.91?arch=all&distro=ubuntu-25.10
-      UID: 8fde76d38aa1a82e
+      UID: 43cef5509f5e42
     Version: 1.5.91
     Arch: all
     SrcName: debconf
@@ -1287,9 +1320,11 @@
     Licenses:
     - BSD-2-Clause
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:8d5a58907bfda17bc360de3a48d656a86e805f61d56c5fa531cf12dc733e9784
     InstalledFiles:
     - /usr/bin/debconf
@@ -1423,11 +1458,12 @@
     - /usr/share/perl5/Debconf/TmpFile.pm
     - /usr/share/perl5/Debian/DebConf/Client/ConfModule.pm
     - /usr/share/pixmaps/debian-logo.png
+    AnalyzedBy: dpkg
   - ID: debianutils@5.23.2
     Name: debianutils
     Identifier:
       PURL: pkg:deb/ubuntu/debianutils@5.23.2?arch=amd64&distro=ubuntu-25.10
-      UID: e7741568fdc57d52
+      UID: a7e41af1d9e7379f
     Version: 5.23.2
     Arch: amd64
     SrcName: debianutils
@@ -1438,9 +1474,11 @@
     - public-domain
     - SMAIL-GPL
     Maintainer: Ileana Dumitrescu <ileanadumitrescu95@gmail.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:a46001d9a979327d807fa72604264628eea1d2c88c1442a36f764849e0601a60
     InstalledFiles:
     - /usr/bin/ischroot
@@ -1513,11 +1551,12 @@
     - /usr/share/man/sl/man8/remove-shell.8.gz
     - /usr/share/man/sl/man8/run-parts.8.gz
     - /usr/share/man/sl/man8/savelog.8.gz
+    AnalyzedBy: dpkg
   - ID: diffutils@1:3.10-4
     Name: diffutils
     Identifier:
       PURL: pkg:deb/ubuntu/diffutils@3.10-4?arch=amd64&distro=ubuntu-25.10&epoch=1
-      UID: 1ea17ced9962b0a2
+      UID: c5410cede52ae797
     Version: '3.10'
     Release: '4'
     Epoch: 1
@@ -1546,9 +1585,11 @@
     - GPL-2.0-only
     - GFDL-1.3-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:fa28fe7c453ccfaea7465accdc06f61f6ecd87d9bde0146a1df23c3507eb5659
     InstalledFiles:
     - /usr/bin/cmp
@@ -1563,11 +1604,12 @@
     - /usr/share/man/man1/diff.1.gz
     - /usr/share/man/man1/diff3.1.gz
     - /usr/share/man/man1/sdiff.1.gz
+    AnalyzedBy: dpkg
   - ID: dpkg@1.22.21ubuntu3.1
     Name: dpkg
     Identifier:
       PURL: pkg:deb/ubuntu/dpkg@1.22.21ubuntu3.1?arch=amd64&distro=ubuntu-25.10
-      UID: 643cd0ced5d0c95a
+      UID: 441b18c6d9fcf5d3
     Version: 1.22.21ubuntu3.1
     Arch: amd64
     SrcName: dpkg
@@ -1577,11 +1619,13 @@
     - public-domain-s-s-d
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
     - tar@1.35+dfsg-3.1build1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/bin/dpkg
     - /usr/bin/dpkg-deb
@@ -1729,11 +1773,12 @@
     - /usr/share/man/sv/man5/dpkg.cfg.5.gz
     - /usr/share/man/sv/man8/start-stop-daemon.8.gz
     - /usr/share/polkit-1/actions/org.dpkg.pkexec.update-alternatives.policy
+    AnalyzedBy: dpkg
   - ID: e2fsprogs@1.47.2-3ubuntu2
     Name: e2fsprogs
     Identifier:
       PURL: pkg:deb/ubuntu/e2fsprogs@1.47.2-3ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: abeab26cea5faa82
+      UID: 4da0b9eedcd9bd55
     Version: 1.47.2
     Release: 3ubuntu2
     Arch: amd64
@@ -1756,11 +1801,13 @@
     - Latex2e
     - GPL-2+ with Texinfo exception
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
     - logsave@1.47.2-3ubuntu2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:97cd6120fedc55bcf13662f3d42663eed441405bd2b34405e7e6886503538110
     InstalledFiles:
     - /usr/bin/chattr
@@ -1816,11 +1863,12 @@
     - /usr/share/man/man8/mklost+found.8.gz
     - /usr/share/man/man8/resize2fs.8.gz
     - /usr/share/man/man8/tune2fs.8.gz
+    AnalyzedBy: dpkg
   - ID: findutils@4.10.0-3build1
     Name: findutils
     Identifier:
       PURL: pkg:deb/ubuntu/findutils@4.10.0-3build1?arch=amd64&distro=ubuntu-25.10
-      UID: 3dbea48d58c97497
+      UID: cc9cd37b93fc76d0
     Version: 4.10.0
     Release: 3build1
     Arch: amd64
@@ -1851,9 +1899,11 @@
     - LGPL-2.0-only
     - LGPL-2.1-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:3a33a890caf607b12ac5147d5db1ef57ea68670ac1a23012685d3f04dffd9be2
     InstalledFiles:
     - /usr/bin/find
@@ -1868,11 +1918,12 @@
     - /usr/share/info/find.info.gz
     - /usr/share/man/man1/find.1.gz
     - /usr/share/man/man1/xargs.1.gz
+    AnalyzedBy: dpkg
   - ID: gcc-15-base@15.2.0-4ubuntu4
     Name: gcc-15-base
     Identifier:
       PURL: pkg:deb/ubuntu/gcc-15-base@15.2.0-4ubuntu4?arch=amd64&distro=ubuntu-25.10
-      UID: e888d43de7531401
+      UID: 7727b29fc5a5f426
     Version: 15.2.0
     Release: 4ubuntu4
     Arch: amd64
@@ -1887,20 +1938,23 @@
     - LGPL-2.0-or-later
     - Apache-2.0
     Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:5b58d85e04c3f8b52eb0da599fd618deb0969ccd6f14fe61f0181e63cb11e6bc
     InstalledFiles:
     - /usr/share/doc/gcc-15-base/README.Debian.amd64.gz
     - /usr/share/doc/gcc-15-base/TODO.Debian
     - /usr/share/doc/gcc-15-base/changelog.Debian.gz
     - /usr/share/doc/gcc-15-base/copyright
+    AnalyzedBy: dpkg
   - ID: gnu-coreutils@9.5-1ubuntu4
     Name: gnu-coreutils
     Identifier:
       PURL: pkg:deb/ubuntu/gnu-coreutils@9.5-1ubuntu4?arch=amd64&distro=ubuntu-25.10
-      UID: d363ebd0a5731327
+      UID: 972becbf46b2fccc
     Version: '9.5'
     Release: 1ubuntu4
     Arch: amd64
@@ -1916,9 +1970,11 @@
     - GFDL-1.3-no-invariants-only
     - GFDL-1.3-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:13dba1e7fff4dd63a0d4ae80e0e8c12488997771963e3f96021c6146bea0e3b5
     InstalledFiles:
     - /usr/bin/gnu[
@@ -2140,11 +2196,12 @@
     - /usr/share/man/man1/gnuwhoami.1.gz
     - /usr/share/man/man1/gnuyes.1.gz
     - /usr/share/man/man8/gnuchroot.8.gz
+    AnalyzedBy: dpkg
   - ID: gpgv@2.4.8-2ubuntu2.1
     Name: gpgv
     Identifier:
       PURL: pkg:deb/ubuntu/gpgv@2.4.8-2ubuntu2.1?arch=amd64&distro=ubuntu-25.10
-      UID: 4d7b7ec73285bf9a
+      UID: 7ceb4bdb93da459c
     Version: 2.4.8
     Release: 2ubuntu2.1
     Arch: amd64
@@ -2167,26 +2224,29 @@
     - LGPL-2.1-only
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
     - libbz2-1.0@1.0.8-6build1
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libgcrypt20@1.11.0-7build1
     - libgpg-error0@1.51-4
     - zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/bin/gpgv
     - /usr/share/doc/gpgv/NEWS.Debian.gz
     - /usr/share/doc/gpgv/changelog.Debian.gz
     - /usr/share/doc/gpgv/copyright
     - /usr/share/man/man1/gpgv.1.gz
+    AnalyzedBy: dpkg
   - ID: grep@3.11-4build1
     Name: grep
     Identifier:
       PURL: pkg:deb/ubuntu/grep@3.11-4build1?arch=amd64&distro=ubuntu-25.10
-      UID: 52f654ece808dae2
+      UID: ade92c17d42d4559
     Version: '3.11'
     Release: 4build1
     Arch: amd64
@@ -2197,9 +2257,11 @@
     - GPL-3.0-or-later
     - GPL-3.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:fc0fdc5983ea3d3579ccf335e51dec69684a0dd9bb915734999c5733add9507a
     InstalledFiles:
     - /usr/bin/egrep
@@ -2216,11 +2278,12 @@
     - /usr/share/doc/grep/copyright
     - /usr/share/info/grep.info.gz
     - /usr/share/man/man1/grep.1.gz
+    AnalyzedBy: dpkg
   - ID: gzip@1.13-1ubuntu4
     Name: gzip
     Identifier:
       PURL: pkg:deb/ubuntu/gzip@1.13-1ubuntu4?arch=amd64&distro=ubuntu-25.10
-      UID: 51e9314e3c610e3e
+      UID: 8d68cadd4ef7ac23
     Version: '1.13'
     Release: 1ubuntu4
     Arch: amd64
@@ -2234,9 +2297,11 @@
     - GPL-3.0-only
     - GFDL-3
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:5ad33064665977c3aefd430d55fc9886ce159323c0c5b1508932584d855b7353
     InstalledFiles:
     - /usr/bin/gunzip
@@ -2266,11 +2331,12 @@
     - /usr/share/man/man1/zless.1.gz
     - /usr/share/man/man1/zmore.1.gz
     - /usr/share/man/man1/znew.1.gz
+    AnalyzedBy: dpkg
   - ID: hostname@3.25
     Name: hostname
     Identifier:
       PURL: pkg:deb/ubuntu/hostname@3.25?arch=amd64&distro=ubuntu-25.10
-      UID: b9dae67c3872a8e8
+      UID: a8c995858b6d87ff
     Version: '3.25'
     Arch: amd64
     SrcName: hostname
@@ -2278,20 +2344,23 @@
     Licenses:
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:41e8679f87db3937458d27e3d1c892e59e440ad636eb2298cf322f8be6f3e3e3
     InstalledFiles:
     - /usr/bin/hostname
     - /usr/share/doc/hostname/changelog.gz
     - /usr/share/doc/hostname/copyright
     - /usr/share/man/man1/hostname.1.gz
+    AnalyzedBy: dpkg
   - ID: init-system-helpers@1.68
     Name: init-system-helpers
     Identifier:
       PURL: pkg:deb/ubuntu/init-system-helpers@1.68?arch=all&distro=ubuntu-25.10
-      UID: 7d8e14fcf1360392
+      UID: 9ad910e501e52155
     Version: '1.68'
     Arch: all
     SrcName: init-system-helpers
@@ -2301,9 +2370,11 @@
     - GPL-2.0-or-later
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:24a27aafc1e036fc26c053b9785807003203360e2734ac94dac5b52b447f84f0
     InstalledFiles:
     - /usr/bin/deb-systemd-helper
@@ -2321,11 +2392,12 @@
     - /usr/share/man/man8/invoke-rc.d.8.gz
     - /usr/share/man/man8/service.8.gz
     - /usr/share/man/man8/update-rc.d.8.gz
+    AnalyzedBy: dpkg
   - ID: krb5-locales@1.21.3-5ubuntu2
     Name: krb5-locales
     Identifier:
       PURL: pkg:deb/ubuntu/krb5-locales@1.21.3-5ubuntu2?arch=all&distro=ubuntu-25.10
-      UID: 1638cfc0652f0e84
+      UID: f5bb3c142f0c2f97
     Version: 1.21.3
     Release: 5ubuntu2
     Arch: all
@@ -2335,17 +2407,20 @@
     Licenses:
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/share/doc/krb5-locales/changelog.Debian.gz
     - /usr/share/doc/krb5-locales/copyright
+    AnalyzedBy: dpkg
   - ID: libacl1@2.3.2-2
     Name: libacl1
     Identifier:
       PURL: pkg:deb/ubuntu/libacl1@2.3.2-2?arch=amd64&distro=ubuntu-25.10
-      UID: 9cb28532b8a9d061
+      UID: d33e3861fd4eb682
     Version: 2.3.2
     Release: '2'
     Arch: amd64
@@ -2358,22 +2433,25 @@
     - LGPL-2.0-or-later
     - LGPL-2.1-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:77f8d49c031182bbd6c4fe4ec9ad49edb5d4607f2dac795fc6932dce0e8f541e
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libacl.so.1.1.2302
     - /usr/share/doc/libacl1/changelog.Debian.gz
     - /usr/share/doc/libacl1/copyright
     - /usr/share/lintian/overrides/libacl1
+    AnalyzedBy: dpkg
   - ID: libapparmor1@5.0.0~alpha1-0ubuntu8.3
     Name: libapparmor1
     Identifier:
       PURL: pkg:deb/ubuntu/libapparmor1@5.0.0~alpha1-0ubuntu8.3?arch=amd64&distro=ubuntu-25.10
-      UID: 2f5fcb9f95079e34
+      UID: bb7f4ece3dba9624
     Version: 5.0.0~alpha1
     Release: 0ubuntu8.3
     Arch: amd64
@@ -2387,20 +2465,23 @@
     - GPL-2.0-only
     - LGPL-2.1-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libapparmor.so.1.24.2
     - /usr/share/doc/libapparmor1/changelog.Debian.gz
     - /usr/share/doc/libapparmor1/copyright
+    AnalyzedBy: dpkg
   - ID: libapt-pkg7.0@3.1.6ubuntu2
     Name: libapt-pkg7.0
     Identifier:
       PURL: pkg:deb/ubuntu/libapt-pkg7.0@3.1.6ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: 712beed5e3a87cc
+      UID: 534aced1eb09d3fd
     Version: 3.1.6ubuntu2
     Arch: amd64
     SrcName: apt
@@ -2412,22 +2493,24 @@
     - MIT
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
     - libbz2-1.0@1.0.8-6build1
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libgcc-s1@15.2.0-4ubuntu4
     - liblz4-1@1.10.0-4build1
     - liblzma5@5.8.1-1build2
-    - libssl3t64@3.5.3-1ubuntu2
+    - libssl3t64@3.5.3-1ubuntu3
     - libstdc++6@15.2.0-4ubuntu4
-    - libsystemd0@257.9-0ubuntu2
-    - libudev1@257.9-0ubuntu2
+    - libsystemd0@257.9-0ubuntu2.1
+    - libudev1@257.9-0ubuntu2.1
     - libxxhash0@0.8.3-2
     - libzstd1@1.5.7+dfsg-1build2
     - zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:c05ba63a56eb3201bf48a24cdc24584fe6514fdd9fe632b45b58f2e76681c12b
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libapt-pkg.so.7.0.0
@@ -2477,11 +2560,12 @@
     - /usr/share/locale/vi/LC_MESSAGES/libapt-pkg7.0.mo
     - /usr/share/locale/zh_CN/LC_MESSAGES/libapt-pkg7.0.mo
     - /usr/share/locale/zh_TW/LC_MESSAGES/libapt-pkg7.0.mo
+    AnalyzedBy: dpkg
   - ID: libattr1@1:2.5.2-3build1
     Name: libattr1
     Identifier:
       PURL: pkg:deb/ubuntu/libattr1@2.5.2-3build1?arch=amd64&distro=ubuntu-25.10&epoch=1
-      UID: e5f5cc6d5116c852
+      UID: 7b53f1273ff97a3e
     Version: 2.5.2
     Release: 3build1
     Epoch: 1
@@ -2496,22 +2580,25 @@
     - LGPL-2.0-or-later
     - LGPL-2.1-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:7738dfaa4fefac3985f3c3eada5d5601a7bcf759c405434897e912c767d6f19f
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libattr.so.1.1.2502
     - /usr/share/doc/libattr1/changelog.Debian.gz
     - /usr/share/doc/libattr1/copyright
     - /usr/share/lintian/overrides/libattr1
+    AnalyzedBy: dpkg
   - ID: libaudit-common@1:4.0.5-1build1
     Name: libaudit-common
     Identifier:
       PURL: pkg:deb/ubuntu/libaudit-common@4.0.5-1build1?arch=all&distro=ubuntu-25.10&epoch=1
-      UID: add0de10c26c0283
+      UID: f0286e599058d2d
     Version: 4.0.5
     Release: 1build1
     Epoch: 1
@@ -2524,19 +2611,22 @@
     - GPL-2.0-only
     - LGPL-2.1-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:d2d15168151e7f23e3fae6a5ee712f2f6006eb5c0e5e3a3121b9939a51c2b4e6
     InstalledFiles:
     - /usr/share/doc/libaudit-common/changelog.Debian.gz
     - /usr/share/doc/libaudit-common/copyright
     - /usr/share/man/man5/libaudit.conf.5.gz
+    AnalyzedBy: dpkg
   - ID: libaudit1@1:4.0.5-1build1
     Name: libaudit1
     Identifier:
       PURL: pkg:deb/ubuntu/libaudit1@4.0.5-1build1?arch=amd64&distro=ubuntu-25.10&epoch=1
-      UID: d8968787dca5041a
+      UID: fd0ed19b52e152c7
     Version: 4.0.5
     Release: 1build1
     Epoch: 1
@@ -2549,23 +2639,26 @@
     - GPL-2.0-only
     - LGPL-2.1-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
     - libaudit-common@1:4.0.5-1build1
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libcap-ng0@0.8.5-4build2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:6c2dd3f249be865da3018c577c7ad97f0331c66c5997ac7efd0b8aa385176dad
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libaudit.so.1.0.0
     - /usr/share/doc/libaudit1/changelog.Debian.gz
     - /usr/share/doc/libaudit1/copyright
+    AnalyzedBy: dpkg
   - ID: libblkid1@2.41-4ubuntu4.1
     Name: libblkid1
     Identifier:
       PURL: pkg:deb/ubuntu/libblkid1@2.41-4ubuntu4.1?arch=amd64&distro=ubuntu-25.10
-      UID: ff5760546d82a68f
+      UID: 9c137b546dbdb52a
     Version: '2.41'
     Release: 4ubuntu4.1
     Arch: amd64
@@ -2591,22 +2684,25 @@
     - LGPL-2.1-only
     - LGPL-3.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
     - /usr/share/doc/libblkid1/NEWS.Debian.gz
     - /usr/share/doc/libblkid1/changelog.Debian.gz
     - /usr/share/doc/libblkid1/copyright
     - /usr/share/lintian/overrides/libblkid1
+    AnalyzedBy: dpkg
   - ID: libbrotli1@1.1.0-2build5
     Name: libbrotli1
     Identifier:
       PURL: pkg:deb/ubuntu/libbrotli1@1.1.0-2build5?arch=amd64&distro=ubuntu-25.10
-      UID: 228eef53ef06e389
+      UID: aae83954c0a6ee8e
     Version: 1.1.0
     Release: 2build5
     Arch: amd64
@@ -2616,11 +2712,13 @@
     Licenses:
     - MIT
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.1.0
     - /usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.1.0
@@ -2628,11 +2726,12 @@
     - /usr/share/doc/libbrotli1/changelog.Debian.gz
     - /usr/share/doc/libbrotli1/copyright
     - /usr/share/lintian/overrides/libbrotli1
+    AnalyzedBy: dpkg
   - ID: libbsd0@0.12.2-2build1
     Name: libbsd0
     Identifier:
       PURL: pkg:deb/ubuntu/libbsd0@0.12.2-2build1?arch=amd64&distro=ubuntu-25.10
-      UID: 2f5205a2311040ec
+      UID: 14403cc61bbf1b40
     Version: 0.12.2
     Release: 2build1
     Arch: amd64
@@ -2655,23 +2754,26 @@
     - public-domain
     - Beerware
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libmd0@1.1.0-2build3
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:b0cf00fca9a1fd4220535c36b936a2dea4d9b66dabee630b39c5c0098d7b7d67
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libbsd.so.0.12.2
     - /usr/share/doc/libbsd0/changelog.Debian.gz
     - /usr/share/doc/libbsd0/copyright
     - /usr/share/lintian/overrides/libbsd0
+    AnalyzedBy: dpkg
   - ID: libbz2-1.0@1.0.8-6build1
     Name: libbz2-1.0
     Identifier:
       PURL: pkg:deb/ubuntu/libbz2-1.0@1.0.8-6build1?arch=amd64&distro=ubuntu-25.10
-      UID: d2a7f869d7858aab
+      UID: 67e0f2b6b5855924
     Version: 1.0.8
     Release: 6build1
     Arch: amd64
@@ -2682,27 +2784,30 @@
     - BSD-3-Clause
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:2eca5aa3957c1901829080d54021ad3b886a013a439219c31b86310216807ece
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libbz2.so.1.0.4
     - /usr/share/doc/libbz2-1.0/changelog.Debian.gz
     - /usr/share/doc/libbz2-1.0/copyright
-  - ID: libc-bin@2.42-0ubuntu3
+    AnalyzedBy: dpkg
+  - ID: libc-bin@2.42-0ubuntu3.1
     Name: libc-bin
     Identifier:
-      PURL: pkg:deb/ubuntu/libc-bin@2.42-0ubuntu3?arch=amd64&distro=ubuntu-25.10
-      UID: b5adb27fb6a9914e
+      PURL: pkg:deb/ubuntu/libc-bin@2.42-0ubuntu3.1?arch=amd64&distro=ubuntu-25.10
+      UID: 32f722fad25bcb3d
     Version: '2.42'
-    Release: 0ubuntu3
+    Release: 0ubuntu3.1
     Arch: amd64
     SrcName: glibc
     SrcVersion: '2.42'
-    SrcRelease: 0ubuntu3
+    SrcRelease: 0ubuntu3.1
     Licenses:
     - LGPL-2.1-or-later
     - GFDL-1.3-only
@@ -2738,12 +2843,13 @@
     - LGPL-2.1-only
     - LGPL-3.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
-    Digest: sha256:0b8ed0e273606c8a72ee678b0f2219406acd0ce7f27ed229c00c002c062360a6
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/bin/getconf
     - /usr/bin/getent
@@ -2775,17 +2881,18 @@
     - /usr/share/lintian/overrides/libc-bin
     - /usr/share/man/man1/getconf.1.gz
     - /usr/share/man/man1/tzselect.1.gz
-  - ID: libc6@2.42-0ubuntu3
+    AnalyzedBy: dpkg
+  - ID: libc6@2.42-0ubuntu3.1
     Name: libc6
     Identifier:
-      PURL: pkg:deb/ubuntu/libc6@2.42-0ubuntu3?arch=amd64&distro=ubuntu-25.10
-      UID: d830d6619e5af43a
+      PURL: pkg:deb/ubuntu/libc6@2.42-0ubuntu3.1?arch=amd64&distro=ubuntu-25.10
+      UID: 67fff5c1ddc17a00
     Version: '2.42'
-    Release: 0ubuntu3
+    Release: 0ubuntu3.1
     Arch: amd64
     SrcName: glibc
     SrcVersion: '2.42'
-    SrcRelease: 0ubuntu3
+    SrcRelease: 0ubuntu3.1
     Licenses:
     - LGPL-2.1-or-later
     - GFDL-1.3-only
@@ -2821,12 +2928,13 @@
     - LGPL-2.1-only
     - LGPL-3.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
     - libgcc-s1@15.2.0-4ubuntu4
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
-    Digest: sha256:7c0850ba2c8ec4029970d869b08a4eb3131c3334d578dec173aa827118586876
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/gconv/ANSI_X3.110.so
     - /usr/lib/x86_64-linux-gnu/gconv/ARMSCII-8.so
@@ -3111,11 +3219,12 @@
     - /usr/share/doc/libc6/changelog.Debian.gz
     - /usr/share/doc/libc6/copyright
     - /usr/share/lintian/overrides/libc6
+    AnalyzedBy: dpkg
   - ID: libcap-ng0@0.8.5-4build2
     Name: libcap-ng0
     Identifier:
       PURL: pkg:deb/ubuntu/libcap-ng0@0.8.5-4build2?arch=amd64&distro=ubuntu-25.10
-      UID: 6de7dcd5a37e616c
+      UID: 182e54ce28faba30
     Version: 0.8.5
     Release: 4build2
     Arch: amd64
@@ -3129,22 +3238,25 @@
     - LGPL-2.1-only
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:a0db94168c4755842fb30af13c917d614218205b7b770a794878f360d544abfd
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libcap-ng.so.0.0.0
     - /usr/lib/x86_64-linux-gnu/libdrop_ambient.so.0.0.0
     - /usr/share/doc/libcap-ng0/changelog.Debian.gz
     - /usr/share/doc/libcap-ng0/copyright
+    AnalyzedBy: dpkg
   - ID: libcap2@1:2.75-7ubuntu2
     Name: libcap2
     Identifier:
       PURL: pkg:deb/ubuntu/libcap2@2.75-7ubuntu2?arch=amd64&distro=ubuntu-25.10&epoch=1
-      UID: ca3feadd81ecdc6b
+      UID: 94e043357645a645
     Version: '2.75'
     Release: 7ubuntu2
     Epoch: 1
@@ -3158,22 +3270,25 @@
     - GPL-2.0-only
     - GPL-2.0-or-later
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:f593d836cef0fb7f250a2dd422a0a314f06b2f167b771058d6c326ec6f673560
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libcap.so.2.75
     - /usr/lib/x86_64-linux-gnu/libpsx.so.2.75
     - /usr/share/doc/libcap2/changelog.Debian.gz
     - /usr/share/doc/libcap2/copyright
+    AnalyzedBy: dpkg
   - ID: libcom-err2@1.47.2-3ubuntu2
     Name: libcom-err2
     Identifier:
       PURL: pkg:deb/ubuntu/libcom-err2@1.47.2-3ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: 83022567b85826a6
+      UID: 6008b21276deac2d
     Version: 1.47.2
     Release: 3ubuntu2
     Arch: amd64
@@ -3196,21 +3311,24 @@
     - Latex2e
     - GPL-2+ with Texinfo exception
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:c8e602fdb8c7a1e5aaf3f105d801eb1dc741dc440f583b86a3103bf7bdfc2882
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libcom_err.so.2.1
     - /usr/share/doc/libcom-err2/changelog.Debian.gz
     - /usr/share/doc/libcom-err2/copyright
+    AnalyzedBy: dpkg
   - ID: libcrypt1@1:4.4.38-1build1
     Name: libcrypt1
     Identifier:
       PURL: pkg:deb/ubuntu/libcrypt1@4.4.38-1build1?arch=amd64&distro=ubuntu-25.10&epoch=1
-      UID: d918d67c633cd9a3
+      UID: ad24148ca431819d
     Version: 4.4.38
     Release: 1build1
     Epoch: 1
@@ -3220,21 +3338,24 @@
     SrcRelease: 1build1
     SrcEpoch: 1
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:bc5a7789099f627f0eefb9850cb6551fc8f7ea8ccb8c331756d3c706539ac4e0
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libcrypt.so.1.1.0
     - /usr/share/doc/libcrypt1/changelog.Debian.gz
     - /usr/share/doc/libcrypt1/copyright
+    AnalyzedBy: dpkg
   - ID: libcurl4t64@8.14.1-2ubuntu1
     Name: libcurl4t64
     Identifier:
       PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
-      UID: d2417d5998455cb4
+      UID: d157425689f9e9e7
     Version: 8.14.1
     Release: 2ubuntu1
     Arch: amd64
@@ -3254,31 +3375,34 @@
     - X11
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
     - libbrotli1@1.1.0-2build5
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libgssapi-krb5-2@1.21.3-5ubuntu2
     - libidn2-0@2.3.8-4
-    - libldap2@2.6.10+dfsg-1ubuntu2
+    - libldap2@2.6.10+dfsg-1ubuntu2.1
     - libnghttp2-14@1.64.0-1.1ubuntu1
     - libpsl5t64@0.21.2-1.1build1
     - librtmp1@2.4+20151223.gitfa8646d.1-2build8
     - libssh2-1t64@1.11.1-1build1
-    - libssl3t64@3.5.3-1ubuntu2
+    - libssl3t64@3.5.3-1ubuntu3
     - libzstd1@1.5.7+dfsg-1build2
     - zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libcurl.so.4.8.0
     - /usr/share/doc/libcurl4t64/changelog.Debian.gz
     - /usr/share/doc/libcurl4t64/copyright
+    AnalyzedBy: dpkg
   - ID: libdb5.3t64@5.3.28+dfsg2-9ubuntu1
     Name: libdb5.3t64
     Identifier:
       PURL: pkg:deb/ubuntu/libdb5.3t64@5.3.28%2Bdfsg2-9ubuntu1?arch=amd64&distro=ubuntu-25.10
-      UID: c2196e42261f4788
+      UID: 6429571eca6c7139
     Version: 5.3.28+dfsg2
     Release: 9ubuntu1
     Arch: amd64
@@ -3298,11 +3422,13 @@
     - GPL-3.0-only
     - Zlib
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:5dc03d94a639c12008795ebf87b0c671385dd1b1eb8e7e5e8e851a489a305d27
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libdb-5.3.so
@@ -3310,11 +3436,12 @@
     - /usr/share/doc/libdb5.3t64/changelog.Debian.gz
     - /usr/share/doc/libdb5.3t64/copyright
     - /usr/share/lintian/overrides/libdb5.3t64
+    AnalyzedBy: dpkg
   - ID: libdebconfclient0@0.279ubuntu1
     Name: libdebconfclient0
     Identifier:
       PURL: pkg:deb/ubuntu/libdebconfclient0@0.279ubuntu1?arch=amd64&distro=ubuntu-25.10
-      UID: 5291c00ab61ea18b
+      UID: f24a741ba1289999
     Version: 0.279ubuntu1
     Arch: amd64
     SrcName: cdebconf
@@ -3324,21 +3451,24 @@
     - GPL-2.0-or-later
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:69de050e7c2be7a01dc3cee617576ec93b4fcf0348185454e9bf048cca40ec1f
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libdebconfclient.so.0.0.0
     - /usr/share/doc/libdebconfclient0/changelog.gz
     - /usr/share/doc/libdebconfclient0/copyright
+    AnalyzedBy: dpkg
   - ID: libext2fs2t64@1.47.2-3ubuntu2
     Name: libext2fs2t64
     Identifier:
       PURL: pkg:deb/ubuntu/libext2fs2t64@1.47.2-3ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: f3e08da982301443
+      UID: 6b8ac6ca97b9ff9f
     Version: 1.47.2
     Release: 3ubuntu2
     Arch: amd64
@@ -3361,11 +3491,13 @@
     - Latex2e
     - GPL-2+ with Texinfo exception
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:08ee739aaf98f55166bff9d05dac55414be00d890c267c39be7b42bfcb70c600
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libe2p.so.2.3
@@ -3373,11 +3505,12 @@
     - /usr/share/doc/libext2fs2t64/changelog.Debian.gz
     - /usr/share/doc/libext2fs2t64/copyright
     - /usr/share/lintian/overrides/libext2fs2t64
+    AnalyzedBy: dpkg
   - ID: libffi8@3.5.2-1build1
     Name: libffi8
     Identifier:
       PURL: pkg:deb/ubuntu/libffi8@3.5.2-1build1?arch=amd64&distro=ubuntu-25.10
-      UID: c0fe2fa03286e27f
+      UID: f22e9519ab238368
     Version: 3.5.2
     Release: 1build1
     Arch: amd64
@@ -3393,20 +3526,23 @@
     - LGPL-2.1-or-later
     - public-domain
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libffi.so.8.2.0
     - /usr/share/doc/libffi8/changelog.Debian.gz
     - /usr/share/doc/libffi8/copyright
+    AnalyzedBy: dpkg
   - ID: libgcc-s1@15.2.0-4ubuntu4
     Name: libgcc-s1
     Identifier:
       PURL: pkg:deb/ubuntu/libgcc-s1@15.2.0-4ubuntu4?arch=amd64&distro=ubuntu-25.10
-      UID: c6fdc91325213679
+      UID: 844f8f4fbf496bd7
     Version: 15.2.0
     Release: 4ubuntu4
     Arch: amd64
@@ -3414,21 +3550,24 @@
     SrcVersion: 15.2.0
     SrcRelease: 4ubuntu4
     Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
     - gcc-15-base@15.2.0-4ubuntu4
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:d6b402572df890d133095f12007a172a57c0215bafc1ffb7c8095d771eab6921
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
     - /usr/share/lintian/overrides/libgcc-s1
+    AnalyzedBy: dpkg
   - ID: libgcrypt20@1.11.0-7build1
     Name: libgcrypt20
     Identifier:
       PURL: pkg:deb/ubuntu/libgcrypt20@1.11.0-7build1?arch=amd64&distro=ubuntu-25.10
-      UID: 228b55e2a9cab954
+      UID: dacd70a6a90042e1
     Version: 1.11.0
     Release: 7build1
     Arch: amd64
@@ -3439,12 +3578,14 @@
     - LGPL-2.0-or-later
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libgpg-error0@1.51-4
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:a4e2cf8fb36a6d59f278fb937008353dc315bc16793f0d3856f26ab6b59c39ed
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.5.0
@@ -3455,11 +3596,12 @@
     - /usr/share/doc/libgcrypt20/changelog.Debian.gz
     - /usr/share/doc/libgcrypt20/copyright
     - /usr/share/libgcrypt20/clean-up-unmanaged-libraries
+    AnalyzedBy: dpkg
   - ID: libgmp10@2:6.3.0+dfsg-5ubuntu1
     Name: libgmp10
     Identifier:
       PURL: pkg:deb/ubuntu/libgmp10@6.3.0%2Bdfsg-5ubuntu1?arch=amd64&distro=ubuntu-25.10&epoch=2
-      UID: 34f8bdb2b29cfe6a
+      UID: 6020742a4d56f1ea
     Version: 6.3.0+dfsg
     Release: 5ubuntu1
     Epoch: 2
@@ -3477,22 +3619,25 @@
     - GPL-3.0-only
     - LGPL-3.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:e2ada598e3d8fbf80e74f530fd2c41ef48cc7f735a95bbce0a064219a60c09e5
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libgmp.so.10.5.0
     - /usr/share/doc/libgmp10/README.Debian
     - /usr/share/doc/libgmp10/changelog.Debian.gz
     - /usr/share/doc/libgmp10/copyright
+    AnalyzedBy: dpkg
   - ID: libgnutls30t64@3.8.9-3ubuntu2
     Name: libgnutls30t64
     Identifier:
       PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-3ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: ab4020b723563367
+      UID: eea6782e997258b7
     Version: 3.8.9
     Release: 3ubuntu2
     Arch: amd64
@@ -3515,8 +3660,10 @@
     - BSD-3-Clause
     - FSFAP
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libgmp10@2:6.3.0+dfsg-5ubuntu1
     - libhogweed6t64@3.10.1-1
     - libidn2-0@2.3.8-4
@@ -3525,8 +3672,8 @@
     - libtasn1-6@4.20.0-2ubuntu0.25.10.1
     - libunistring5@1.3-2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libgnutls.so.30.40.3
     - /usr/share/doc/libgnutls30t64/AUTHORS.gz
@@ -3536,11 +3683,12 @@
     - /usr/share/doc/libgnutls30t64/changelog.Debian.gz
     - /usr/share/doc/libgnutls30t64/copyright
     - /usr/share/lintian/overrides/libgnutls30t64
+    AnalyzedBy: dpkg
   - ID: libgpg-error0@1.51-4
     Name: libgpg-error0
     Identifier:
       PURL: pkg:deb/ubuntu/libgpg-error0@1.51-4?arch=amd64&distro=ubuntu-25.10
-      UID: 7f1c2810fb02757
+      UID: c173fd16928a059a
     Version: '1.51'
     Release: '4'
     Arch: amd64
@@ -3555,22 +3703,25 @@
     - LGPL-2.1-only
     - GPL-3.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:f8c21f0337f33498862fe47331904a6c3dc8c7ad0fb4f4ab2cbc5a5ba1d55bc9
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.38.0
     - /usr/share/doc/libgpg-error0/README.gz
     - /usr/share/doc/libgpg-error0/changelog.Debian.gz
     - /usr/share/doc/libgpg-error0/copyright
+    AnalyzedBy: dpkg
   - ID: libgssapi-krb5-2@1.21.3-5ubuntu2
     Name: libgssapi-krb5-2
     Identifier:
       PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.21.3-5ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: 4e113bea619f94cf
+      UID: 5c52e86e55af64b4
     Version: 1.21.3
     Release: 5ubuntu2
     Arch: amd64
@@ -3580,24 +3731,27 @@
     Licenses:
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libcom-err2@1.47.2-3ubuntu2
     - libk5crypto3@1.21.3-5ubuntu2
     - libkrb5-3@1.21.3-5ubuntu2
     - libkrb5support0@1.21.3-5ubuntu2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
     - /usr/share/doc/libgssapi-krb5-2/copyright
     - /usr/share/lintian/overrides/libgssapi-krb5-2
+    AnalyzedBy: dpkg
   - ID: libhogweed6t64@3.10.1-1
     Name: libhogweed6t64
     Identifier:
       PURL: pkg:deb/ubuntu/libhogweed6t64@3.10.1-1?arch=amd64&distro=ubuntu-25.10
-      UID: c2a453598c598c27
+      UID: 815708f4141eb612
     Version: 3.10.1
     Release: '1'
     Arch: amd64
@@ -3615,22 +3769,25 @@
     - GPL-2.0-only
     - GAP
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libgmp10@2:6.3.0+dfsg-5ubuntu1
     - libnettle8t64@3.10.1-1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libhogweed.so.6.10
     - /usr/share/doc/libhogweed6t64/copyright
     - /usr/share/lintian/overrides/libhogweed6t64
+    AnalyzedBy: dpkg
   - ID: libidn2-0@2.3.8-4
     Name: libidn2-0
     Identifier:
       PURL: pkg:deb/ubuntu/libidn2-0@2.3.8-4?arch=amd64&distro=ubuntu-25.10
-      UID: 92d0bca1dc5a91b8
+      UID: 668785852e6fdd9a
     Version: 2.3.8
     Release: '4'
     Arch: amd64
@@ -3650,12 +3807,14 @@
     - LGPL-2.1-only
     - LGPL-3.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libunistring5@1.3-2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libidn2.so.0.4.0
     - /usr/share/doc/libidn2-0/AUTHORS
@@ -3664,11 +3823,12 @@
     - /usr/share/doc/libidn2-0/changelog.Debian.gz
     - /usr/share/doc/libidn2-0/copyright
     - /usr/share/lintian/overrides/libidn2-0
+    AnalyzedBy: dpkg
   - ID: libk5crypto3@1.21.3-5ubuntu2
     Name: libk5crypto3
     Identifier:
       PURL: pkg:deb/ubuntu/libk5crypto3@1.21.3-5ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: d37184319fd6b114
+      UID: 381f0ee0451d68e1
     Version: 1.21.3
     Release: 5ubuntu2
     Arch: amd64
@@ -3678,20 +3838,23 @@
     Licenses:
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libkrb5support0@1.21.3-5ubuntu2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
     - /usr/share/doc/libk5crypto3/copyright
+    AnalyzedBy: dpkg
   - ID: libkeyutils1@1.6.3-6ubuntu2
     Name: libkeyutils1
     Identifier:
       PURL: pkg:deb/ubuntu/libkeyutils1@1.6.3-6ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: b924133051476ac4
+      UID: 74b2c6909099ce8e
     Version: 1.6.3
     Release: 6ubuntu2
     Arch: amd64
@@ -3704,20 +3867,23 @@
     - GPL-2.0-only
     - LGPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10
     - /usr/share/doc/libkeyutils1/changelog.Debian.gz
     - /usr/share/doc/libkeyutils1/copyright
+    AnalyzedBy: dpkg
   - ID: libkrb5-3@1.21.3-5ubuntu2
     Name: libkrb5-3
     Identifier:
       PURL: pkg:deb/ubuntu/libkrb5-3@1.21.3-5ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: d28174336d5b0720
+      UID: cd7e951856a45079
     Version: 1.21.3
     Release: 5ubuntu2
     Arch: amd64
@@ -3727,16 +3893,18 @@
     Licenses:
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libcom-err2@1.47.2-3ubuntu2
     - libk5crypto3@1.21.3-5ubuntu2
     - libkeyutils1@1.6.3-6ubuntu2
     - libkrb5support0@1.21.3-5ubuntu2
-    - libssl3t64@3.5.3-1ubuntu2
+    - libssl3t64@3.5.3-1ubuntu3
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/krb5/plugins/preauth/spake.so
     - /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
@@ -3744,11 +3912,12 @@
     - /usr/share/doc/libkrb5-3/README.gz
     - /usr/share/doc/libkrb5-3/copyright
     - /usr/share/lintian/overrides/libkrb5-3
+    AnalyzedBy: dpkg
   - ID: libkrb5support0@1.21.3-5ubuntu2
     Name: libkrb5support0
     Identifier:
       PURL: pkg:deb/ubuntu/libkrb5support0@1.21.3-5ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: b8df1d4a51478970
+      UID: 3afee160e794f835
     Version: 1.21.3
     Release: 5ubuntu2
     Arch: amd64
@@ -3758,21 +3927,24 @@
     Licenses:
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
     - /usr/share/doc/libkrb5support0/changelog.Debian.gz
     - /usr/share/doc/libkrb5support0/copyright
     - /usr/share/lintian/overrides/libkrb5support0
+    AnalyzedBy: dpkg
   - ID: liblastlog2-2@2.41-4ubuntu4.1
     Name: liblastlog2-2
     Identifier:
       PURL: pkg:deb/ubuntu/liblastlog2-2@2.41-4ubuntu4.1?arch=amd64&distro=ubuntu-25.10
-      UID: c2f3eb791fcfe5b7
+      UID: 9048473316777a29
     Version: '2.41'
     Release: 4ubuntu4.1
     Arch: amd64
@@ -3798,28 +3970,31 @@
     - LGPL-2.1-only
     - LGPL-3.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libsqlite3-0@3.46.1-8
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/liblastlog2.so.2.0.0
     - /usr/share/doc/liblastlog2-2/NEWS.Debian.gz
     - /usr/share/doc/liblastlog2-2/changelog.Debian.gz
     - /usr/share/doc/liblastlog2-2/copyright
-  - ID: libldap-common@2.6.10+dfsg-1ubuntu2
+    AnalyzedBy: dpkg
+  - ID: libldap-common@2.6.10+dfsg-1ubuntu2.1
     Name: libldap-common
     Identifier:
-      PURL: pkg:deb/ubuntu/libldap-common@2.6.10%2Bdfsg-1ubuntu2?arch=all&distro=ubuntu-25.10
-      UID: e29d5a885c34681a
+      PURL: pkg:deb/ubuntu/libldap-common@2.6.10%2Bdfsg-1ubuntu2.1?arch=all&distro=ubuntu-25.10
+      UID: 36d36c3ba98d68f0
     Version: 2.6.10+dfsg
-    Release: 1ubuntu2
+    Release: 1ubuntu2.1
     Arch: all
     SrcName: openldap
     SrcVersion: 2.6.10+dfsg
-    SrcRelease: 1ubuntu2
+    SrcRelease: 1ubuntu2.1
     Licenses:
     - OpenLDAP-2.8
     - FSF-unlimited
@@ -3846,25 +4021,28 @@
     - GPL-2.0-only
     - GPL-3.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/share/doc/libldap-common/NEWS.Debian.gz
     - /usr/share/doc/libldap-common/changelog.Debian.gz
     - /usr/share/doc/libldap-common/copyright
     - /usr/share/man/man5/ldap.conf.5.gz
-  - ID: libldap2@2.6.10+dfsg-1ubuntu2
+    AnalyzedBy: dpkg
+  - ID: libldap2@2.6.10+dfsg-1ubuntu2.1
     Name: libldap2
     Identifier:
-      PURL: pkg:deb/ubuntu/libldap2@2.6.10%2Bdfsg-1ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: ddfb13f5c1cc868
+      PURL: pkg:deb/ubuntu/libldap2@2.6.10%2Bdfsg-1ubuntu2.1?arch=amd64&distro=ubuntu-25.10
+      UID: 5ecd6a27759d2b6
     Version: 2.6.10+dfsg
-    Release: 1ubuntu2
+    Release: 1ubuntu2.1
     Arch: amd64
     SrcName: openldap
     SrcVersion: 2.6.10+dfsg
-    SrcRelease: 1ubuntu2
+    SrcRelease: 1ubuntu2.1
     Licenses:
     - OpenLDAP-2.8
     - FSF-unlimited
@@ -3891,25 +4069,28 @@
     - GPL-2.0-only
     - GPL-3.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
-    - libldap-common@2.6.10+dfsg-1ubuntu2
+    - libc6@2.42-0ubuntu3.1
+    - libldap-common@2.6.10+dfsg-1ubuntu2.1
     - libsasl2-2@2.1.28+dfsg1-9ubuntu1
-    - libssl3t64@3.5.3-1ubuntu2
+    - libssl3t64@3.5.3-1ubuntu3
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/liblber.so.2.0.200
     - /usr/lib/x86_64-linux-gnu/libldap.so.2.0.200
     - /usr/share/doc/libldap2/NEWS.Debian.gz
     - /usr/share/doc/libldap2/changelog.Debian.gz
     - /usr/share/doc/libldap2/copyright
+    AnalyzedBy: dpkg
   - ID: liblz4-1@1.10.0-4build1
     Name: liblz4-1
     Identifier:
       PURL: pkg:deb/ubuntu/liblz4-1@1.10.0-4build1?arch=amd64&distro=ubuntu-25.10
-      UID: c3a748080ad3324d
+      UID: 7128edbbd816c5ae
     Version: 1.10.0
     Release: 4build1
     Arch: amd64
@@ -3921,22 +4102,25 @@
     - BSD-2-Clause
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libxxhash0@0.8.3-2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:ca97e80d3fc01b86bc64ec5b22958cd8da078def38c1c44a88cfdacb339891ca
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/liblz4.so.1.10.0
     - /usr/share/doc/liblz4-1/changelog.Debian.gz
     - /usr/share/doc/liblz4-1/copyright
+    AnalyzedBy: dpkg
   - ID: liblzma5@5.8.1-1build2
     Name: liblzma5
     Identifier:
       PURL: pkg:deb/ubuntu/liblzma5@5.8.1-1build2?arch=amd64&distro=ubuntu-25.10
-      UID: 71cd8535d5228562
+      UID: c6d7a6fa1546d4a2
     Version: 5.8.1
     Release: 1build2
     Arch: amd64
@@ -3959,11 +4143,13 @@
     - GPL-2.0-only
     - GPL-3.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:53af162c263b0c57811f9833888a4f70cc05b265d591d4ba5bbc057f9ea67e8d
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/liblzma.so.5.8.1
@@ -3972,11 +4158,12 @@
     - /usr/share/doc/liblzma5/THANKS.gz
     - /usr/share/doc/liblzma5/changelog.Debian.gz
     - /usr/share/doc/liblzma5/copyright
+    AnalyzedBy: dpkg
   - ID: libmd0@1.1.0-2build3
     Name: libmd0
     Identifier:
       PURL: pkg:deb/ubuntu/libmd0@1.1.0-2build3?arch=amd64&distro=ubuntu-25.10
-      UID: f042cf973e3e4f73
+      UID: 17ddd6807b1eaa05
     Version: 1.1.0
     Release: 2build3
     Arch: amd64
@@ -3994,21 +4181,24 @@
     - public-domain-md5
     - public-domain-sha1
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:ff989178c3dc95a434238bd6dfc903ba57962d7571cfd72ebea00396c6ed202d
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libmd.so.0.1.0
     - /usr/share/doc/libmd0/changelog.Debian.gz
     - /usr/share/doc/libmd0/copyright
+    AnalyzedBy: dpkg
   - ID: libmount1@2.41-4ubuntu4.1
     Name: libmount1
     Identifier:
       PURL: pkg:deb/ubuntu/libmount1@2.41-4ubuntu4.1?arch=amd64&distro=ubuntu-25.10
-      UID: b8fe5e8bec77ae1e
+      UID: fc2d8887c9919248
     Version: '2.41'
     Release: 4ubuntu4.1
     Arch: amd64
@@ -4034,24 +4224,27 @@
     - LGPL-2.1-only
     - LGPL-3.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
     - libblkid1@2.41-4ubuntu4.1
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libselinux1@3.8.1-1build1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
     - /usr/share/doc/libmount1/NEWS.Debian.gz
     - /usr/share/doc/libmount1/changelog.Debian.gz
     - /usr/share/doc/libmount1/copyright
     - /usr/share/lintian/overrides/libmount1
+    AnalyzedBy: dpkg
   - ID: libncursesw6@6.5+20250216-2build1
     Name: libncursesw6
     Identifier:
       PURL: pkg:deb/ubuntu/libncursesw6@6.5%2B20250216-2build1?arch=amd64&distro=ubuntu-25.10
-      UID: 3cab0ecf3e7cf628
+      UID: e16ecd55c987f7e1
     Version: 6.5+20250216
     Release: 2build1
     Arch: amd64
@@ -4059,23 +4252,26 @@
     SrcVersion: 6.5+20250216
     SrcRelease: 2build1
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libtinfo6@6.5+20250216-2build1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:4920a73f26ca171ecc68a445dcfceeaef2cc69701cb8b0359ef998d6f58cef20
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libformw.so.6.5
     - /usr/lib/x86_64-linux-gnu/libmenuw.so.6.5
     - /usr/lib/x86_64-linux-gnu/libncursesw.so.6.5
     - /usr/lib/x86_64-linux-gnu/libpanelw.so.6.5
+    AnalyzedBy: dpkg
   - ID: libnettle8t64@3.10.1-1
     Name: libnettle8t64
     Identifier:
       PURL: pkg:deb/ubuntu/libnettle8t64@3.10.1-1?arch=amd64&distro=ubuntu-25.10
-      UID: 998ea7fcc802acac
+      UID: c86bada4062162ed
     Version: 3.10.1
     Release: '1'
     Arch: amd64
@@ -4093,11 +4289,13 @@
     - GPL-2.0-only
     - GAP
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libnettle.so.8.10
     - /usr/share/doc/libnettle8t64/NEWS.gz
@@ -4105,11 +4303,12 @@
     - /usr/share/doc/libnettle8t64/changelog.Debian.gz
     - /usr/share/doc/libnettle8t64/copyright
     - /usr/share/lintian/overrides/libnettle8t64
+    AnalyzedBy: dpkg
   - ID: libnghttp2-14@1.64.0-1.1ubuntu1
     Name: libnghttp2-14
     Identifier:
       PURL: pkg:deb/ubuntu/libnghttp2-14@1.64.0-1.1ubuntu1?arch=amd64&distro=ubuntu-25.10
-      UID: c9aeab447159a61e
+      UID: 3a556f16d7c485b0
     Version: 1.64.0
     Release: 1.1ubuntu1
     Arch: amd64
@@ -4123,22 +4322,25 @@
     - BSD-2-Clause
     - GPL-3.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libnghttp2.so.14.28.3
     - /usr/share/doc/libnghttp2-14/AUTHORS
     - /usr/share/doc/libnghttp2-14/README.rst.gz
     - /usr/share/doc/libnghttp2-14/changelog.Debian.gz
     - /usr/share/doc/libnghttp2-14/copyright
+    AnalyzedBy: dpkg
   - ID: libp11-kit0@0.25.5-3ubuntu1
     Name: libp11-kit0
     Identifier:
       PURL: pkg:deb/ubuntu/libp11-kit0@0.25.5-3ubuntu1?arch=amd64&distro=ubuntu-25.10
-      UID: 183c2bbe952b33f6
+      UID: d83476d4246a471f
     Version: 0.25.5
     Release: 3ubuntu1
     Arch: amd64
@@ -4159,22 +4361,25 @@
     - FSFAP
     - LGPL-2.1-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libffi8@3.5.2-1build1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libp11-kit.so.0.4.1
     - /usr/share/doc/libp11-kit0/changelog.Debian.gz
     - /usr/share/doc/libp11-kit0/copyright
     - /usr/share/doc/libp11-kit0/examples/pkcs11.conf.example
+    AnalyzedBy: dpkg
   - ID: libpam-modules@1.7.0-5ubuntu2
     Name: libpam-modules
     Identifier:
       PURL: pkg:deb/ubuntu/libpam-modules@1.7.0-5ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: 9dfea4964899b185
+      UID: c56304432b2639ff
     Version: 1.7.0
     Release: 5ubuntu2
     Arch: amd64
@@ -4194,9 +4399,11 @@
     - public-domain
     - Beerware
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:b66f6802facbe3a9eac20da69770d63815ff1e7fe27d2456d6af0424b612dfec
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/security/pam_access.so
@@ -4249,11 +4456,12 @@
     - /usr/share/doc/libpam-modules/examples/upperLOWER.c
     - /usr/share/lintian/overrides/libpam-modules
     - /usr/share/pam-configs/mkhomedir
+    AnalyzedBy: dpkg
   - ID: libpam-modules-bin@1.7.0-5ubuntu2
     Name: libpam-modules-bin
     Identifier:
       PURL: pkg:deb/ubuntu/libpam-modules-bin@1.7.0-5ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: f60347cf0228e71c
+      UID: 2a15df456a8e7951
     Version: 1.7.0
     Release: 5ubuntu2
     Arch: amd64
@@ -4273,16 +4481,18 @@
     - public-domain
     - Beerware
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
     - libaudit1@1:4.0.5-1build1
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libcrypt1@1:4.4.38-1build1
     - libpam0g@1.7.0-5ubuntu2
     - libselinux1@3.8.1-1build1
-    - libsystemd0@257.9-0ubuntu2
+    - libsystemd0@257.9-0ubuntu2.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:5e388343f47b69bbbc30afe90c1c8e7df24286a80636b62b23e7b48d13a6552c
     InstalledFiles:
     - /usr/lib/systemd/system/pam_namespace.service
@@ -4297,11 +4507,12 @@
     - /usr/sbin/unix_update
     - /usr/share/doc/libpam-modules-bin/copyright
     - /usr/share/lintian/overrides/libpam-modules-bin
+    AnalyzedBy: dpkg
   - ID: libpam-runtime@1.7.0-5ubuntu2
     Name: libpam-runtime
     Identifier:
       PURL: pkg:deb/ubuntu/libpam-runtime@1.7.0-5ubuntu2?arch=all&distro=ubuntu-25.10
-      UID: 6a586f03e899202a
+      UID: 7e1a4e8f3bea5117
     Version: 1.7.0
     Release: 5ubuntu2
     Arch: all
@@ -4321,12 +4532,14 @@
     - public-domain
     - Beerware
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
     - debconf@1.5.91
     - libpam-modules@1.7.0-5ubuntu2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:9719c80da63dcd03bcf608c9104103dd5a27a73490293ab4ceb19e9990a2f056
     InstalledFiles:
     - /usr/sbin/pam-auth-update
@@ -4410,11 +4623,12 @@
     - /usr/share/pam/common-session-noninteractive
     - /usr/share/pam/common-session-noninteractive.md5sums
     - /usr/share/pam/common-session.md5sums
+    AnalyzedBy: dpkg
   - ID: libpam0g@1.7.0-5ubuntu2
     Name: libpam0g
     Identifier:
       PURL: pkg:deb/ubuntu/libpam0g@1.7.0-5ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: f482d099a7635664
+      UID: da547a8d11d3a01d
     Version: 1.7.0
     Release: 5ubuntu2
     Arch: amd64
@@ -4434,13 +4648,15 @@
     - public-domain
     - Beerware
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
     - debconf@1.5.91
     - libaudit1@1:4.0.5-1build1
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:50c92418dc28a5f9f7d448236dc30e52bc55988e5de6043ed59dddd7e5d9a62d
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libpam.so.0.85.1
@@ -4453,11 +4669,12 @@
     - /usr/share/doc/libpam0g/changelog.Debian.gz
     - /usr/share/doc/libpam0g/copyright
     - /usr/share/lintian/overrides/libpam0g
+    AnalyzedBy: dpkg
   - ID: libpcre2-8-0@10.46-1
     Name: libpcre2-8-0
     Identifier:
       PURL: pkg:deb/ubuntu/libpcre2-8-0@10.46-1?arch=amd64&distro=ubuntu-25.10
-      UID: d58ac265b4516125
+      UID: f0e5a1dc58ae6168
     Version: '10.46'
     Release: '1'
     Arch: amd64
@@ -4471,22 +4688,25 @@
     - BSD-2-Clause
     - public-domain
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:5486870ccd3285970e15e9d6a6c68da1eabe438515790430f0a75dcc218a6c5b
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.14.0
     - /usr/share/doc/libpcre2-8-0/README.Debian
     - /usr/share/doc/libpcre2-8-0/changelog.Debian.gz
     - /usr/share/doc/libpcre2-8-0/copyright
+    AnalyzedBy: dpkg
   - ID: libproc2-0@2:4.0.4-8ubuntu3
     Name: libproc2-0
     Identifier:
       PURL: pkg:deb/ubuntu/libproc2-0@4.0.4-8ubuntu3?arch=amd64&distro=ubuntu-25.10&epoch=2
-      UID: 997e09ec4bc986a3
+      UID: a3ba628392e9835d
     Version: 4.0.4
     Release: 8ubuntu3
     Epoch: 2
@@ -4503,23 +4723,26 @@
     - LGPL-2.0-only
     - LGPL-2.1-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
-    - libsystemd0@257.9-0ubuntu2
+    - libc6@2.42-0ubuntu3.1
+    - libsystemd0@257.9-0ubuntu2.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:56eb466afb2baf37e4f21bd14c3257fc1aa449e50afdd53c89e011c86e4d1548
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libproc2.so.0.0.2
     - /usr/share/doc/libproc2-0/NEWS.Debian.gz
     - /usr/share/doc/libproc2-0/changelog.Debian.gz
     - /usr/share/doc/libproc2-0/copyright
+    AnalyzedBy: dpkg
   - ID: libpsl5t64@0.21.2-1.1build1
     Name: libpsl5t64
     Identifier:
       PURL: pkg:deb/ubuntu/libpsl5t64@0.21.2-1.1build1?arch=amd64&distro=ubuntu-25.10
-      UID: f5b88a98c06b1d9d
+      UID: bf76689827f87582
     Version: 0.21.2
     Release: 1.1build1
     Arch: amd64
@@ -4531,23 +4754,26 @@
     - gnulib
     - Chromium
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libidn2-0@2.3.8-4
     - libunistring5@1.3-2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libpsl.so.5.3.4
     - /usr/share/doc/libpsl5t64/changelog.Debian.gz
     - /usr/share/doc/libpsl5t64/copyright
     - /usr/share/lintian/overrides/libpsl5t64
+    AnalyzedBy: dpkg
   - ID: librtmp1@2.4+20151223.gitfa8646d.1-2build8
     Name: librtmp1
     Identifier:
       PURL: pkg:deb/ubuntu/librtmp1@2.4%2B20151223.gitfa8646d.1-2build8?arch=amd64&distro=ubuntu-25.10
-      UID: b5f881e122867517
+      UID: b9ee55ac945ad7c5
     Version: 2.4+20151223.gitfa8646d.1
     Release: 2build8
     Arch: amd64
@@ -4558,25 +4784,28 @@
     - GPL-2.0-only
     - LGPL-2.1-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libgmp10@2:6.3.0+dfsg-5ubuntu1
     - libgnutls30t64@3.8.9-3ubuntu2
     - libhogweed6t64@3.10.1-1
     - libnettle8t64@3.10.1-1
     - zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/librtmp.so.1
     - /usr/share/doc/librtmp1/changelog.Debian.gz
     - /usr/share/doc/librtmp1/copyright
+    AnalyzedBy: dpkg
   - ID: libsasl2-2@2.1.28+dfsg1-9ubuntu1
     Name: libsasl2-2
     Identifier:
       PURL: pkg:deb/ubuntu/libsasl2-2@2.1.28%2Bdfsg1-9ubuntu1?arch=amd64&distro=ubuntu-25.10
-      UID: 81be2deb7ec2da7a
+      UID: cb120ae80be1114e
     Version: 2.1.28+dfsg1
     Release: 9ubuntu1
     Arch: amd64
@@ -4602,23 +4831,26 @@
     - BSD-2.2-clause
     - text://IBM-as-is
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libsasl2-modules-db@2.1.28+dfsg1-9ubuntu1
-    - libssl3t64@3.5.3-1ubuntu2
+    - libssl3t64@3.5.3-1ubuntu3
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25
     - /usr/share/doc/libsasl2-2/README.Debian
     - /usr/share/doc/libsasl2-2/copyright
     - /usr/share/man/man5/libsasl.5.gz
+    AnalyzedBy: dpkg
   - ID: libsasl2-modules@2.1.28+dfsg1-9ubuntu1
     Name: libsasl2-modules
     Identifier:
       PURL: pkg:deb/ubuntu/libsasl2-modules@2.1.28%2Bdfsg1-9ubuntu1?arch=amd64&distro=ubuntu-25.10
-      UID: 61a3ab5bd66d0677
+      UID: b73b6d9479fc821e
     Version: 2.1.28+dfsg1
     Release: 9ubuntu1
     Arch: amd64
@@ -4644,12 +4876,14 @@
     - BSD-2.2-clause
     - text://IBM-as-is
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
-    - libssl3t64@3.5.3-1ubuntu2
+    - libc6@2.42-0ubuntu3.1
+    - libssl3t64@3.5.3-1ubuntu3
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/sasl2/libanonymous.so.2.0.25
     - /usr/lib/x86_64-linux-gnu/sasl2/libcrammd5.so.2.0.25
@@ -4660,11 +4894,12 @@
     - /usr/lib/x86_64-linux-gnu/sasl2/libscram.so.2.0.25
     - /usr/share/doc/libsasl2-modules/changelog.Debian.gz
     - /usr/share/doc/libsasl2-modules/copyright
+    AnalyzedBy: dpkg
   - ID: libsasl2-modules-db@2.1.28+dfsg1-9ubuntu1
     Name: libsasl2-modules-db
     Identifier:
       PURL: pkg:deb/ubuntu/libsasl2-modules-db@2.1.28%2Bdfsg1-9ubuntu1?arch=amd64&distro=ubuntu-25.10
-      UID: ee6d70e263e0530e
+      UID: 3f2dcbdb689db6cb
     Version: 2.1.28+dfsg1
     Release: 9ubuntu1
     Arch: amd64
@@ -4690,21 +4925,24 @@
     - BSD-2.2-clause
     - text://IBM-as-is
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libdb5.3t64@5.3.28+dfsg2-9ubuntu1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/sasl2/libsasldb.so.2.0.25
     - /usr/share/doc/libsasl2-modules-db/changelog.Debian.gz
     - /usr/share/doc/libsasl2-modules-db/copyright
+    AnalyzedBy: dpkg
   - ID: libseccomp2@2.6.0-2ubuntu2
     Name: libseccomp2
     Identifier:
       PURL: pkg:deb/ubuntu/libseccomp2@2.6.0-2ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: 9089faa15720809f
+      UID: 2ae25674f6778afe
     Version: 2.6.0
     Release: 2ubuntu2
     Arch: amd64
@@ -4714,21 +4952,24 @@
     Licenses:
     - LGPL-2.1-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:5c5fe3d32ce8ceb021b9d61eb722dad2ee7e6f387c6344245de1e41ad23f19ac
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libseccomp.so.2.6.0
     - /usr/share/doc/libseccomp2/changelog.Debian.gz
     - /usr/share/doc/libseccomp2/copyright
+    AnalyzedBy: dpkg
   - ID: libselinux1@3.8.1-1build1
     Name: libselinux1
     Identifier:
       PURL: pkg:deb/ubuntu/libselinux1@3.8.1-1build1?arch=amd64&distro=ubuntu-25.10
-      UID: 50bbbd01687560d8
+      UID: 8cc1d44c538fa8b3
     Version: 3.8.1
     Release: 1build1
     Arch: amd64
@@ -4739,23 +4980,26 @@
     - public-domain
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libpcre2-8-0@10.46-1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:58c80f381334c019c8a397ddec57276b509b3cff9200726f7a001a3b404fd6e8
     InstalledFiles:
     - /usr/lib/tmpfiles.d/libselinux1.conf
     - /usr/lib/x86_64-linux-gnu/libselinux.so.1
     - /usr/share/doc/libselinux1/changelog.Debian.gz
     - /usr/share/doc/libselinux1/copyright
+    AnalyzedBy: dpkg
   - ID: libsemanage-common@3.8.1-1
     Name: libsemanage-common
     Identifier:
       PURL: pkg:deb/ubuntu/libsemanage-common@3.8.1-1?arch=all&distro=ubuntu-25.10
-      UID: 586b9de15f143475
+      UID: 5bdd6f88c7af24d0
     Version: 3.8.1
     Release: '1'
     Arch: all
@@ -4767,19 +5011,22 @@
     - LGPL-2.1-only
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:6407d075b747041d4ba67fe6c26251491b87e42ed838d3c493cea01f4218f602
     InstalledFiles:
     - /usr/share/doc/libsemanage-common/changelog.Debian.gz
     - /usr/share/doc/libsemanage-common/copyright
     - /usr/share/man/man5/semanage.conf.5.gz
+    AnalyzedBy: dpkg
   - ID: libsemanage2@3.8.1-1
     Name: libsemanage2
     Identifier:
       PURL: pkg:deb/ubuntu/libsemanage2@3.8.1-1?arch=amd64&distro=ubuntu-25.10
-      UID: d05ab34c4b9e1347
+      UID: a7fb349ed47cea57
     Version: 3.8.1
     Release: '1'
     Arch: amd64
@@ -4791,26 +5038,29 @@
     - LGPL-2.1-only
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
     - libaudit1@1:4.0.5-1build1
     - libbz2-1.0@1.0.8-6build1
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libselinux1@3.8.1-1build1
     - libsemanage-common@3.8.1-1
     - libsepol2@3.8.1-1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:2dc336fcdeda2b38d207d756719479d33388872ff324400146298dbab613def5
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libsemanage.so.2
     - /usr/share/doc/libsemanage2/changelog.Debian.gz
     - /usr/share/doc/libsemanage2/copyright
+    AnalyzedBy: dpkg
   - ID: libsepol2@3.8.1-1
     Name: libsepol2
     Identifier:
       PURL: pkg:deb/ubuntu/libsepol2@3.8.1-1?arch=amd64&distro=ubuntu-25.10
-      UID: 340a731ad8fcf596
+      UID: 8fb54f359f16a0eb
     Version: 3.8.1
     Release: '1'
     Arch: amd64
@@ -4824,21 +5074,24 @@
     - GPL-2.0-only
     - GPL-2.0-or-later
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:fa6d98611b86955964b34f5b0df69122d4648aa1cb95f2650d90230308cf9169
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libsepol.so.2
     - /usr/share/doc/libsepol2/changelog.Debian.gz
     - /usr/share/doc/libsepol2/copyright
+    AnalyzedBy: dpkg
   - ID: libsmartcols1@2.41-4ubuntu4.1
     Name: libsmartcols1
     Identifier:
       PURL: pkg:deb/ubuntu/libsmartcols1@2.41-4ubuntu4.1?arch=amd64&distro=ubuntu-25.10
-      UID: 12f6c60d94f1b643
+      UID: 5767b278754d57be
     Version: '2.41'
     Release: 4ubuntu4.1
     Arch: amd64
@@ -4864,22 +5117,25 @@
     - LGPL-2.1-only
     - LGPL-3.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libsmartcols.so.1.1.0
     - /usr/share/doc/libsmartcols1/NEWS.Debian.gz
     - /usr/share/doc/libsmartcols1/changelog.Debian.gz
     - /usr/share/doc/libsmartcols1/copyright
     - /usr/share/lintian/overrides/libsmartcols1
+    AnalyzedBy: dpkg
   - ID: libsqlite3-0@3.46.1-8
     Name: libsqlite3-0
     Identifier:
       PURL: pkg:deb/ubuntu/libsqlite3-0@3.46.1-8?arch=amd64&distro=ubuntu-25.10
-      UID: 5a573c5a5296385c
+      UID: 7522901a39cfac59
     Version: 3.46.1
     Release: '8'
     Arch: amd64
@@ -4891,22 +5147,25 @@
     - GPL-2.0-or-later
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:d53713d24b7aedeb9fca53c30571bac34820d5b5d0bee255ab236d2e0652befd
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6
     - /usr/share/doc/libsqlite3-0/README.Debian
     - /usr/share/doc/libsqlite3-0/changelog.Debian.gz
     - /usr/share/doc/libsqlite3-0/copyright
+    AnalyzedBy: dpkg
   - ID: libss2@1.47.2-3ubuntu2
     Name: libss2
     Identifier:
       PURL: pkg:deb/ubuntu/libss2@1.47.2-3ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: 151fbfe50aa7c921
+      UID: 6bde08dbafe1643e
     Version: 1.47.2
     Release: 3ubuntu2
     Arch: amd64
@@ -4929,21 +5188,24 @@
     - Latex2e
     - GPL-2+ with Texinfo exception
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libcom-err2@1.47.2-3ubuntu2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:3112a7540643cf93c745376c3d635fb8373069b700dee0f59d76a8bebe1903d5
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libss.so.2.0
     - /usr/share/doc/libss2/copyright
+    AnalyzedBy: dpkg
   - ID: libssh2-1t64@1.11.1-1build1
     Name: libssh2-1t64
     Identifier:
       PURL: pkg:deb/ubuntu/libssh2-1t64@1.11.1-1build1?arch=amd64&distro=ubuntu-25.10
-      UID: 862852de6887350f
+      UID: 5b15a5bb7d790105
     Version: 1.11.1
     Release: 1build1
     Arch: amd64
@@ -4954,45 +5216,49 @@
     - BSD-3-Clause
     - ISC
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
-    - libssl3t64@3.5.3-1ubuntu2
+    - libc6@2.42-0ubuntu3.1
+    - libssl3t64@3.5.3-1ubuntu3
     - zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libssh2.so.1.0.1
     - /usr/share/doc/libssh2-1t64/AUTHORS
     - /usr/share/doc/libssh2-1t64/RELEASE-NOTES.gz
     - /usr/share/doc/libssh2-1t64/changelog.Debian.gz
     - /usr/share/doc/libssh2-1t64/copyright
-  - ID: libssl3t64@3.5.3-1ubuntu2
+    AnalyzedBy: dpkg
+  - ID: libssl3t64@3.5.3-1ubuntu3
     Name: libssl3t64
     Identifier:
-      PURL: pkg:deb/ubuntu/libssl3t64@3.5.3-1ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: 3e2c036c3c9761dd
+      PURL: pkg:deb/ubuntu/libssl3t64@3.5.3-1ubuntu3?arch=amd64&distro=ubuntu-25.10
+      UID: 6dfca90781645431
     Version: 3.5.3
-    Release: 1ubuntu2
+    Release: 1ubuntu3
     Arch: amd64
     SrcName: openssl
     SrcVersion: 3.5.3
-    SrcRelease: 1ubuntu2
+    SrcRelease: 1ubuntu3
     Licenses:
     - Apache-2.0
     - Artistic-2.0
     - GPL-1.0-or-later
     - GPL-1.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libzstd1@1.5.7+dfsg-1build2
-    - openssl-provider-legacy@3.5.3-1ubuntu2
+    - openssl-provider-legacy@3.5.3-1ubuntu3
     - zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
-    Digest: sha256:3d890ea579487a558e5fc077076f2eebdbdaf417238f82b21ae722348d367cf9
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/engines-3/afalg.so
     - /usr/lib/x86_64-linux-gnu/engines-3/loader_attic.so
@@ -5003,11 +5269,12 @@
     - /usr/share/doc/libssl3t64/changelog.Debian.gz
     - /usr/share/doc/libssl3t64/copyright
     - /usr/share/lintian/overrides/libssl3t64
+    AnalyzedBy: dpkg
   - ID: libstdc++6@15.2.0-4ubuntu4
     Name: libstdc++6
     Identifier:
       PURL: pkg:deb/ubuntu/libstdc%2B%2B6@15.2.0-4ubuntu4?arch=amd64&distro=ubuntu-25.10
-      UID: 2b903dfaf262306a
+      UID: d905914d26ff5697
     Version: 15.2.0
     Release: 4ubuntu4
     Arch: amd64
@@ -5015,13 +5282,15 @@
     SrcVersion: 15.2.0
     SrcRelease: 4ubuntu4
     Maintainer: Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
     - gcc-15-base@15.2.0-4ubuntu4
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libgcc-s1@15.2.0-4ubuntu4
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:b8c22d58331521eb920a8c00fc4ecd986f4efff8a60bff73ced30684f56252f6
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.34
@@ -5030,17 +5299,18 @@
     - /usr/share/gcc/python/libstdcxx/v6/printers.py
     - /usr/share/gcc/python/libstdcxx/v6/xmethods.py
     - /usr/share/gdb/auto-load/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.34-gdb.py
-  - ID: libsystemd0@257.9-0ubuntu2
+    AnalyzedBy: dpkg
+  - ID: libsystemd0@257.9-0ubuntu2.1
     Name: libsystemd0
     Identifier:
-      PURL: pkg:deb/ubuntu/libsystemd0@257.9-0ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: 57d59470658864b
+      PURL: pkg:deb/ubuntu/libsystemd0@257.9-0ubuntu2.1?arch=amd64&distro=ubuntu-25.10
+      UID: 9c08093a16078171
     Version: '257.9'
-    Release: 0ubuntu2
+    Release: 0ubuntu2.1
     Arch: amd64
     SrcName: systemd
     SrcVersion: '257.9'
-    SrcRelease: 0ubuntu2
+    SrcRelease: 0ubuntu2.1
     Licenses:
     - LGPL-2.1-or-later
     - CC0-1.0
@@ -5051,23 +5321,25 @@
     - GPL-2.0-only
     - LGPL-2.1-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libcap2@1:2.75-7ubuntu2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
-    Digest: sha256:c4be4e5bb5040843559945a45a1ef669a559e4a3371e07c2e495a42fcfd467b2
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libsystemd.so.0.40.0
     - /usr/share/doc/libsystemd0/NEWS.Debian.gz
     - /usr/share/doc/libsystemd0/changelog.Debian.gz
     - /usr/share/doc/libsystemd0/copyright
+    AnalyzedBy: dpkg
   - ID: libtasn1-6@4.20.0-2ubuntu0.25.10.1
     Name: libtasn1-6
     Identifier:
       PURL: pkg:deb/ubuntu/libtasn1-6@4.20.0-2ubuntu0.25.10.1?arch=amd64&distro=ubuntu-25.10
-      UID: 533dcff9e0cebcff
+      UID: 7ccc2bdd966d9b6f
     Version: 4.20.0
     Release: 2ubuntu0.25.10.1
     Arch: amd64
@@ -5080,11 +5352,13 @@
     - GPL-3.0-only
     - GFDL-1.3-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.4
     - /usr/share/doc/libtasn1-6/AUTHORS
@@ -5092,11 +5366,12 @@
     - /usr/share/doc/libtasn1-6/THANKS
     - /usr/share/doc/libtasn1-6/changelog.Debian.gz
     - /usr/share/doc/libtasn1-6/copyright
+    AnalyzedBy: dpkg
   - ID: libtinfo6@6.5+20250216-2build1
     Name: libtinfo6
     Identifier:
       PURL: pkg:deb/ubuntu/libtinfo6@6.5%2B20250216-2build1?arch=amd64&distro=ubuntu-25.10
-      UID: 75933fa76c971edb
+      UID: fd7b1cef1d4c70c0
     Version: 6.5+20250216
     Release: 2build1
     Arch: amd64
@@ -5108,28 +5383,31 @@
     - X11
     - BSD-3-Clause
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:bfffbdb3d1287339e0b4a40c1940755353a1a5bfb6b1f09ca5ec45035432c2b6
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libtic.so.6.5
     - /usr/lib/x86_64-linux-gnu/libtinfo.so.6.5
     - /usr/share/doc/libtinfo6/changelog.Debian.gz
     - /usr/share/doc/libtinfo6/copyright
-  - ID: libudev1@257.9-0ubuntu2
+    AnalyzedBy: dpkg
+  - ID: libudev1@257.9-0ubuntu2.1
     Name: libudev1
     Identifier:
-      PURL: pkg:deb/ubuntu/libudev1@257.9-0ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: 6709a927d69cfc50
+      PURL: pkg:deb/ubuntu/libudev1@257.9-0ubuntu2.1?arch=amd64&distro=ubuntu-25.10
+      UID: df7d6431c8349c85
     Version: '257.9'
-    Release: 0ubuntu2
+    Release: 0ubuntu2.1
     Arch: amd64
     SrcName: systemd
     SrcVersion: '257.9'
-    SrcRelease: 0ubuntu2
+    SrcRelease: 0ubuntu2.1
     Licenses:
     - LGPL-2.1-or-later
     - CC0-1.0
@@ -5140,23 +5418,25 @@
     - GPL-2.0-only
     - LGPL-2.1-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libcap2@1:2.75-7ubuntu2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
-    Digest: sha256:a89f383df3c7cf1ba37c2e391844f9ca4355b64fe47723b6fcad6b6ef825fc89
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libudev.so.1.7.10
     - /usr/share/doc/libudev1/NEWS.Debian.gz
     - /usr/share/doc/libudev1/changelog.Debian.gz
     - /usr/share/doc/libudev1/copyright
+    AnalyzedBy: dpkg
   - ID: libunistring5@1.3-2
     Name: libunistring5
     Identifier:
       PURL: pkg:deb/ubuntu/libunistring5@1.3-2?arch=amd64&distro=ubuntu-25.10
-      UID: bf06a68f639a19ae
+      UID: 2d9976bd5bafe950
     Version: '1.3'
     Release: '2'
     Arch: amd64
@@ -5185,20 +5465,23 @@
     - LGPL-2.0-only
     - LGPL-2.1-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libunistring.so.5.2.0
     - /usr/share/doc/libunistring5/changelog.Debian.gz
     - /usr/share/doc/libunistring5/copyright
+    AnalyzedBy: dpkg
   - ID: libuuid1@2.41-4ubuntu4.1
     Name: libuuid1
     Identifier:
       PURL: pkg:deb/ubuntu/libuuid1@2.41-4ubuntu4.1?arch=amd64&distro=ubuntu-25.10
-      UID: bbfa62599ac73a3f
+      UID: 40f54ab6376e4e77
     Version: '2.41'
     Release: 4ubuntu4.1
     Arch: amd64
@@ -5224,21 +5507,24 @@
     - LGPL-2.1-only
     - LGPL-3.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0
     - /usr/share/doc/libuuid1/NEWS.Debian.gz
     - /usr/share/doc/libuuid1/changelog.Debian.gz
     - /usr/share/doc/libuuid1/copyright
+    AnalyzedBy: dpkg
   - ID: libxxhash0@0.8.3-2
     Name: libxxhash0
     Identifier:
       PURL: pkg:deb/ubuntu/libxxhash0@0.8.3-2?arch=amd64&distro=ubuntu-25.10
-      UID: bc24bdfb9b80e15e
+      UID: 2edd06ac459df5fd
     Version: 0.8.3
     Release: '2'
     Arch: amd64
@@ -5250,21 +5536,24 @@
     - GPL-2.0-or-later
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:6d8286d995aeef1ffc85790ff7d8bef957a214d94bc1277d716b6b2f5b8cbe51
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libxxhash.so.0.8.3
     - /usr/share/doc/libxxhash0/changelog.Debian.gz
     - /usr/share/doc/libxxhash0/copyright
+    AnalyzedBy: dpkg
   - ID: libzstd1@1.5.7+dfsg-1build2
     Name: libzstd1
     Identifier:
       PURL: pkg:deb/ubuntu/libzstd1@1.5.7%2Bdfsg-1build2?arch=amd64&distro=ubuntu-25.10
-      UID: 25969b22cd1e12fe
+      UID: 31a3671d7244fa46
     Version: 1.5.7+dfsg
     Release: 1build2
     Arch: amd64
@@ -5277,21 +5566,24 @@
     - Zlib
     - MIT
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:357b36efc6d9fdbfcd14e6c044d6f05d4cf901980066958d9a8ae183f972d9a4
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.7
     - /usr/share/doc/libzstd1/changelog.Debian.gz
     - /usr/share/doc/libzstd1/copyright
+    AnalyzedBy: dpkg
   - ID: login@1:4.16.0-2+really2.41-4ubuntu4.1
     Name: login
     Identifier:
       PURL: pkg:deb/ubuntu/login@4.16.0-2%2Breally2.41-4ubuntu4.1?arch=amd64&distro=ubuntu-25.10&epoch=1
-      UID: 7e3a5c1684a5bba6
+      UID: 30231a03641090db
     Version: 4.16.0-2+really2.41
     Release: 4ubuntu4.1
     Epoch: 1
@@ -5318,16 +5610,18 @@
     - LGPL-2.1-only
     - LGPL-3.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
     - libaudit1@1:4.0.5-1build1
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libcrypt1@1:4.4.38-1build1
     - libpam-modules@1.7.0-5ubuntu2
     - libpam-runtime@1.7.0-5ubuntu2
     - libpam0g@1.7.0-5ubuntu2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/bin/login
     - /usr/bin/newgrp
@@ -5354,11 +5648,12 @@
     - /usr/share/man/uk/man1/login.1.gz
     - /usr/share/man/uk/man1/newgrp.1.gz
     - /usr/share/man/uk/man8/nologin.8.gz
+    AnalyzedBy: dpkg
   - ID: login.defs@1:4.17.4-2ubuntu2
     Name: login.defs
     Identifier:
       PURL: pkg:deb/ubuntu/login.defs@4.17.4-2ubuntu2?arch=all&distro=ubuntu-25.10&epoch=1
-      UID: 864403b008cd60ea
+      UID: 685157e74dbd875c
     Version: 4.17.4
     Release: 2ubuntu2
     Epoch: 1
@@ -5373,9 +5668,11 @@
     - GPL-2.0-or-later
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:6448d4fe20b68b23bc9f59a01452ce4499d72edba9bc5ead7c69f8b00110cff5
     InstalledFiles:
     - /usr/share/apport/package-hooks/source_shadow.py
@@ -5390,11 +5687,12 @@
     - /usr/share/man/ru/man5/login.defs.5.gz
     - /usr/share/man/uk/man5/login.defs.5.gz
     - /usr/share/man/zh_CN/man5/login.defs.5.gz
+    AnalyzedBy: dpkg
   - ID: logsave@1.47.2-3ubuntu2
     Name: logsave
     Identifier:
       PURL: pkg:deb/ubuntu/logsave@1.47.2-3ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: 85ff8ecf9c03b5eb
+      UID: af18a30e35c52479
     Version: 1.47.2
     Release: 3ubuntu2
     Arch: amd64
@@ -5417,22 +5715,25 @@
     - Latex2e
     - GPL-2+ with Texinfo exception
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:25808957df8f7f9404964ca3c00979dfc304f0f7df6b06d36170e3e9e72272b0
     InstalledFiles:
     - /usr/sbin/logsave
     - /usr/share/doc/logsave/changelog.Debian.gz
     - /usr/share/doc/logsave/copyright
     - /usr/share/man/man8/logsave.8.gz
+    AnalyzedBy: dpkg
   - ID: mawk@1.3.4.20250131-1
     Name: mawk
     Identifier:
       PURL: pkg:deb/ubuntu/mawk@1.3.4.20250131-1?arch=amd64&distro=ubuntu-25.10
-      UID: d42ccf62df092dd7
+      UID: e543ef748aba77b7
     Version: 1.3.4.20250131
     Release: '1'
     Arch: amd64
@@ -5444,11 +5745,13 @@
     - X11
     - CC-BY-3.0
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:8ccec85e069f802a586a8a4c388764571950d823596624585f0cc69510abf690
     InstalledFiles:
     - /usr/bin/mawk
@@ -5469,11 +5772,12 @@
     - /usr/share/man/man1/mawk.1.gz
     - /usr/share/man/man7/mawk-arrays.7.gz
     - /usr/share/man/man7/mawk-code.7.gz
+    AnalyzedBy: dpkg
   - ID: mount@2.41-4ubuntu4.1
     Name: mount
     Identifier:
       PURL: pkg:deb/ubuntu/mount@2.41-4ubuntu4.1?arch=amd64&distro=ubuntu-25.10
-      UID: bd09240f9486e1ec
+      UID: f9126cfff0b67d63
     Version: '2.41'
     Release: 4ubuntu4.1
     Arch: amd64
@@ -5499,9 +5803,11 @@
     - LGPL-2.1-only
     - LGPL-3.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/bin/mount
     - /usr/bin/umount
@@ -5526,11 +5832,12 @@
     - /usr/share/man/man8/mount.8.gz
     - /usr/share/man/man8/swapon.8.gz
     - /usr/share/man/man8/umount.8.gz
+    AnalyzedBy: dpkg
   - ID: ncurses-base@6.5+20250216-2build1
     Name: ncurses-base
     Identifier:
       PURL: pkg:deb/ubuntu/ncurses-base@6.5%2B20250216-2build1?arch=all&distro=ubuntu-25.10
-      UID: f29c7c404ac3ffc1
+      UID: 154538b57e05d5fb
     Version: 6.5+20250216
     Release: 2build1
     Arch: all
@@ -5542,9 +5849,11 @@
     - X11
     - BSD-3-Clause
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:eec208c9947975f1a560000cd59bcecf6b9a8d4e69f39d6439fc15afc29dac35
     InstalledFiles:
     - /usr/share/doc/ncurses-base/FAQ
@@ -5597,11 +5906,12 @@
     - /usr/share/terminfo/x/xterm-r6
     - /usr/share/terminfo/x/xterm-vt220
     - /usr/share/terminfo/x/xterm-xfree86
+    AnalyzedBy: dpkg
   - ID: ncurses-bin@6.5+20250216-2build1
     Name: ncurses-bin
     Identifier:
       PURL: pkg:deb/ubuntu/ncurses-bin@6.5%2B20250216-2build1?arch=amd64&distro=ubuntu-25.10
-      UID: d548c0814b950950
+      UID: 4a274028424c7745
     Version: 6.5+20250216
     Release: 2build1
     Arch: amd64
@@ -5613,9 +5923,11 @@
     - X11
     - BSD-3-Clause
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:9dd5294a2637a6e3a669a21ede19998a4f9c1299e706ea929867f534de036a84
     InstalledFiles:
     - /usr/bin/clear
@@ -5640,24 +5952,27 @@
     - /usr/share/man/man5/terminfo.5.gz
     - /usr/share/man/man5/user_caps.5.gz
     - /usr/share/man/man7/term.7.gz
-  - ID: openssl@3.5.3-1ubuntu2
+    AnalyzedBy: dpkg
+  - ID: openssl@3.5.3-1ubuntu3
     Name: openssl
     Identifier:
-      PURL: pkg:deb/ubuntu/openssl@3.5.3-1ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: 795df247df299b89
+      PURL: pkg:deb/ubuntu/openssl@3.5.3-1ubuntu3?arch=amd64&distro=ubuntu-25.10
+      UID: 2fd3f46dbd1a8af9
     Version: 3.5.3
-    Release: 1ubuntu2
+    Release: 1ubuntu3
     Arch: amd64
     SrcName: openssl
     SrcVersion: 3.5.3
-    SrcRelease: 1ubuntu2
+    SrcRelease: 1ubuntu3
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
-    - libssl3t64@3.5.3-1ubuntu2
+    - libc6@2.42-0ubuntu3.1
+    - libssl3t64@3.5.3-1ubuntu3
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/bin/c_rehash
     - /usr/bin/openssl
@@ -5895,38 +6210,41 @@
     - /usr/share/man/man7/provider.7ssl.gz
     - /usr/share/man/man7/proxy-certificates.7ssl.gz
     - /usr/share/man/man7/x509.7ssl.gz
-  - ID: openssl-provider-legacy@3.5.3-1ubuntu2
+    AnalyzedBy: dpkg
+  - ID: openssl-provider-legacy@3.5.3-1ubuntu3
     Name: openssl-provider-legacy
     Identifier:
-      PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.3-1ubuntu2?arch=amd64&distro=ubuntu-25.10
-      UID: 3e1690ef4fff3bb5
+      PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.3-1ubuntu3?arch=amd64&distro=ubuntu-25.10
+      UID: 67e78c9897146110
     Version: 3.5.3
-    Release: 1ubuntu2
+    Release: 1ubuntu3
     Arch: amd64
     SrcName: openssl
     SrcVersion: 3.5.3
-    SrcRelease: 1ubuntu2
+    SrcRelease: 1ubuntu3
     Licenses:
     - Apache-2.0
     - Artistic-2.0
     - GPL-1.0-or-later
     - GPL-1.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
-    - libssl3t64@3.5.3-1ubuntu2
+    - libc6@2.42-0ubuntu3.1
+    - libssl3t64@3.5.3-1ubuntu3
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
-    Digest: sha256:9b68f289f66250183ead38eb474e89e322c85ed6baf68e87394eb565fd3cc296
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/ossl-modules/legacy.so
     - /usr/share/doc/openssl-provider-legacy/copyright
+    AnalyzedBy: dpkg
   - ID: passwd@1:4.17.4-2ubuntu2
     Name: passwd
     Identifier:
       PURL: pkg:deb/ubuntu/passwd@4.17.4-2ubuntu2?arch=amd64&distro=ubuntu-25.10&epoch=1
-      UID: 8713690184cce914
+      UID: 2d87ef360f209a3f
     Version: 4.17.4
     Release: 2ubuntu2
     Epoch: 1
@@ -5941,12 +6259,14 @@
     - GPL-2.0-or-later
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
     - base-passwd@3.6.7
     - libacl1@2.3.2-2
     - libaudit1@1:4.0.5-1build1
     - libbsd0@0.12.2-2build1
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libcrypt1@1:4.4.38-1build1
     - libpam-modules@1.7.0-5ubuntu2
     - libpam0g@1.7.0-5ubuntu2
@@ -5954,8 +6274,8 @@
     - libsemanage2@3.8.1-1
     - login.defs@1:4.17.4-2ubuntu2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:ad06647d80fc3f1e5199a25307412ced9998062ffd553e01f33ed4078eba0889
     InstalledFiles:
     - /usr/bin/chage
@@ -6283,11 +6603,12 @@
     - /usr/share/man/zh_TW/man8/useradd.8.gz
     - /usr/share/man/zh_TW/man8/userdel.8.gz
     - /usr/share/man/zh_TW/man8/usermod.8.gz
+    AnalyzedBy: dpkg
   - ID: perl-base@5.40.1-6build1
     Name: perl-base
     Identifier:
       PURL: pkg:deb/ubuntu/perl-base@5.40.1-6build1?arch=amd64&distro=ubuntu-25.10
-      UID: 29e8a775dab0b359
+      UID: 44e80c5c00d2cfec
     Version: 5.40.1
     Release: 6build1
     Arch: amd64
@@ -6319,9 +6640,11 @@
     - GPL-2.0-only
     - Artistic-2
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:b41ed6c326d4168c7099d753e840de80a384be92e39d083904a0f07647625a2d
     InstalledFiles:
     - /usr/bin/perl
@@ -6947,11 +7270,12 @@
     - /usr/share/doc/perl/Documentation
     - /usr/share/lintian/overrides/perl-base
     - /usr/share/man/man1/perl.1.gz
+    AnalyzedBy: dpkg
   - ID: procps@2:4.0.4-8ubuntu3
     Name: procps
     Identifier:
       PURL: pkg:deb/ubuntu/procps@4.0.4-8ubuntu3?arch=amd64&distro=ubuntu-25.10&epoch=2
-      UID: 79e3bc572f606c33
+      UID: 409738a2819b18f5
     Version: 4.0.4
     Release: 8ubuntu3
     Epoch: 2
@@ -6968,16 +7292,18 @@
     - LGPL-2.0-only
     - LGPL-2.1-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
     - init-system-helpers@1.68
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libncursesw6@6.5+20250216-2build1
     - libproc2-0@2:4.0.4-8ubuntu3
-    - libsystemd0@257.9-0ubuntu2
+    - libsystemd0@257.9-0ubuntu2.1
     - libtinfo6@6.5+20250216-2build1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:f088dfbdcdb949934171cf6857d2ba1e073510ce359fc7ef60af0d04d21d9c70
     InstalledFiles:
     - /usr/bin/free
@@ -7141,11 +7467,12 @@
     - /usr/share/man/uk/man5/sysctl.conf.5.gz
     - /usr/share/man/uk/man8/sysctl.8.gz
     - /usr/share/man/uk/man8/vmstat.8.gz
+    AnalyzedBy: dpkg
   - ID: publicsuffix@20250328.1952-0.1
     Name: publicsuffix
     Identifier:
       PURL: pkg:deb/ubuntu/publicsuffix@20250328.1952-0.1?arch=all&distro=ubuntu-25.10
-      UID: 552fb50881d0989b
+      UID: da0e537357e3092a
     Version: '20250328.1952'
     Release: '0.1'
     Arch: all
@@ -7156,9 +7483,11 @@
     - MPL-2.0
     - CC0-1.0
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/share/doc/publicsuffix/README.Debian
     - /usr/share/doc/publicsuffix/changelog.Debian.gz
@@ -7166,11 +7495,12 @@
     - /usr/share/doc/publicsuffix/examples/test_psl.txt
     - /usr/share/publicsuffix/public_suffix_list.dafsa
     - /usr/share/publicsuffix/public_suffix_list.dat
+    AnalyzedBy: dpkg
   - ID: rust-coreutils@0.2.2-0ubuntu2.1
     Name: rust-coreutils
     Identifier:
       PURL: pkg:deb/ubuntu/rust-coreutils@0.2.2-0ubuntu2.1?arch=amd64&distro=ubuntu-25.10
-      UID: da34104bc826419e
+      UID: ebefeb85901fc403
     Version: 0.2.2
     Release: 0ubuntu2.1
     Arch: amd64
@@ -7182,13 +7512,15 @@
     - permissive
     - Apache-2.0
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libgcc-s1@15.2.0-4ubuntu4
     - libselinux1@3.8.1-1build1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/bin/coreutils
     - /usr/lib/cargo/bin/coreutils/[
@@ -7821,11 +8153,12 @@
     - /usr/share/zsh/site-functions/rust-coreutils/_rust-who
     - /usr/share/zsh/site-functions/rust-coreutils/_rust-whoami
     - /usr/share/zsh/site-functions/rust-coreutils/_rust-yes
+    AnalyzedBy: dpkg
   - ID: sed@4.9-2build2
     Name: sed
     Identifier:
       PURL: pkg:deb/ubuntu/sed@4.9-2build2?arch=amd64&distro=ubuntu-25.10
-      UID: 94c057aaf67dcedd
+      UID: 5c933b8e9aa12e84
     Version: '4.9'
     Release: 2build2
     Arch: amd64
@@ -7843,9 +8176,11 @@
     - BSL-1
     - pcre
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:ca581e6cee8e22a32b88539d8dfc90533274fd80a99b8ebb5dc8b2b2e7f93dd5
     InstalledFiles:
     - /usr/bin/sed
@@ -7860,11 +8195,12 @@
     - /usr/share/doc/sed/sedfaq.txt.gz
     - /usr/share/info/sed.info.gz
     - /usr/share/man/man1/sed.1.gz
+    AnalyzedBy: dpkg
   - ID: sensible-utils@0.0.25
     Name: sensible-utils
     Identifier:
       PURL: pkg:deb/ubuntu/sensible-utils@0.0.25?arch=all&distro=ubuntu-25.10
-      UID: 381a80a2dec9e5b2
+      UID: 8db2112cf560be3d
     Version: 0.0.25
     Arch: all
     SrcName: sensible-utils
@@ -7876,9 +8212,11 @@
     - installsh
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:014c000644528a116204dab36cfafd7442616ccfda6a67d0c4c60667e2658c58
     InstalledFiles:
     - /usr/bin/select-editor
@@ -7908,11 +8246,12 @@
     - /usr/share/man/pt/man1/select-editor.1.gz
     - /usr/share/man/pt/man1/sensible-browser.1.gz
     - /usr/share/man/pt/man1/sensible-pager.1.gz
+    AnalyzedBy: dpkg
   - ID: sudo@1.9.17p2-1ubuntu1
     Name: sudo
     Identifier:
       PURL: pkg:deb/ubuntu/sudo@1.9.17p2-1ubuntu1?arch=amd64&distro=ubuntu-25.10
-      UID: 7fbfc057c8a52ed0
+      UID: 8223a189c4b1ee53
     Version: 1.9.17p2
     Release: 1ubuntu1
     Arch: amd64
@@ -7929,18 +8268,20 @@
     - GPL-2.0-or-later
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
     - libapparmor1@5.0.0~alpha1-0ubuntu8.3
     - libaudit1@1:4.0.5-1build1
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libpam-modules@1.7.0-5ubuntu2
     - libpam0g@1.7.0-5ubuntu2
     - libselinux1@3.8.1-1build1
-    - libssl3t64@3.5.3-1ubuntu2
+    - libssl3t64@3.5.3-1ubuntu3
     - zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/bin/cvtsudoers.ws
     - /usr/bin/sudo.ws
@@ -7992,11 +8333,12 @@
     - /usr/share/man/man8/sudo_sendlog.ws.8.gz
     - /usr/share/man/man8/sudoreplay.ws.8.gz
     - /usr/share/man/man8/visudo.ws.8.gz
+    AnalyzedBy: dpkg
   - ID: sudo-rs@0.2.8-1ubuntu5.3
     Name: sudo-rs
     Identifier:
       PURL: pkg:deb/ubuntu/sudo-rs@0.2.8-1ubuntu5.3?arch=amd64&distro=ubuntu-25.10
-      UID: a9393a9be8581707
+      UID: 1f42cbe11f505791
     Version: 0.2.8
     Release: 1ubuntu5.3
     Arch: amd64
@@ -8007,14 +8349,16 @@
     - Apache-2.0
     - MIT
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     - libgcc-s1@15.2.0-4ubuntu4
     - libpam0g@1.7.0-5ubuntu2
     - sudo@1.9.17p2-1ubuntu1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/lib/cargo/bin/su
     - /usr/lib/cargo/bin/sudo
@@ -8027,11 +8371,12 @@
     - /usr/share/man/man5/sudoers-rs.5.gz
     - /usr/share/man/man8/sudo-rs.8.gz
     - /usr/share/man/man8/visudo-rs.8.gz
+    AnalyzedBy: dpkg
   - ID: sysvinit-utils@3.14-4ubuntu1
     Name: sysvinit-utils
     Identifier:
       PURL: pkg:deb/ubuntu/sysvinit-utils@3.14-4ubuntu1?arch=amd64&distro=ubuntu-25.10
-      UID: e032b9dfd85fe621
+      UID: f29f78731bb5744b
     Version: '3.14'
     Release: 4ubuntu1
     Arch: amd64
@@ -8045,11 +8390,13 @@
     - GPL-2.0-only
     - LGPL-2.1-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:3c62dcbc9c6feb11291c2245645bb13d1cd30e341288b17e3fd09ccefa39ed65
     InstalledFiles:
     - /usr/lib/init/init-d-script
@@ -8065,11 +8412,12 @@
     - /usr/share/man/man8/fstab-decode.8.gz
     - /usr/share/man/man8/killall5.8.gz
     - /usr/share/man/man8/pidof.8.gz
+    AnalyzedBy: dpkg
   - ID: tar@1.35+dfsg-3.1build1
     Name: tar
     Identifier:
       PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1build1?arch=amd64&distro=ubuntu-25.10
-      UID: 93ed9e29489d6ebf
+      UID: 41081f85f98b9d6a
     Version: 1.35+dfsg
     Release: 3.1build1
     Arch: amd64
@@ -8087,9 +8435,11 @@
     - GPL-2.0-or-later
     - GPL-2.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:6f8ffd06673b253675aee3c111bcde2467809c5edf714ec53cfd45cce9090342
     InstalledFiles:
     - /usr/bin/tar
@@ -8105,11 +8455,12 @@
     - /usr/share/man/man1/tar.1.gz
     - /usr/share/man/man1/tarcat.1.gz
     - /usr/share/man/man8/rmt-tar.8.gz
+    AnalyzedBy: dpkg
   - ID: ubuntu-keyring@2023.11.28.1
     Name: ubuntu-keyring
     Identifier:
       PURL: pkg:deb/ubuntu/ubuntu-keyring@2023.11.28.1?arch=all&distro=ubuntu-25.10
-      UID: a1d74f9aa35f670c
+      UID: be980fa876a54c66
     Version: 2023.11.28.1
     Arch: all
     SrcName: ubuntu-keyring
@@ -8117,9 +8468,11 @@
     Licenses:
     - GPL-2.0-or-later
     Maintainer: Dimitri John Ledkov <dimitri.ledkov@canonical.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:36de43b15853ccae0028e9a767613770c704833f82586f28eb262f0311adb8a8
     InstalledFiles:
     - /etc/apt/trusted.gpg.d/ubuntu-keyring-2012-cdimage.gpg
@@ -8131,11 +8484,12 @@
     - /usr/share/keyrings/ubuntu-cloudimage-keyring.gpg
     - /usr/share/keyrings/ubuntu-cloudimage-removed-keys.gpg
     - /usr/share/keyrings/ubuntu-master-keyring.gpg
+    AnalyzedBy: dpkg
   - ID: util-linux@2.41-4ubuntu4.1
     Name: util-linux
     Identifier:
       PURL: pkg:deb/ubuntu/util-linux@2.41-4ubuntu4.1?arch=amd64&distro=ubuntu-25.10
-      UID: 6ee9861c73ddf6f
+      UID: 6b0b782d4f6791e9
     Version: '2.41'
     Release: 4ubuntu4.1
     Arch: amd64
@@ -8161,9 +8515,11 @@
     - LGPL-2.1-only
     - LGPL-3.0-only
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     InstalledFiles:
     - /usr/bin/choom
     - /usr/bin/chrt
@@ -8412,11 +8768,12 @@
     - /usr/share/man/man8/wipefs.8.gz
     - /usr/share/man/man8/zramctl.8.gz
     - /usr/share/util-linux/logcheck/ignore.d.server/util-linux
+    AnalyzedBy: dpkg
   - ID: zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu2
     Name: zlib1g
     Identifier:
       PURL: pkg:deb/ubuntu/zlib1g@1.3.dfsg%2Breally1.3.1-1ubuntu2?arch=amd64&distro=ubuntu-25.10&epoch=1
-      UID: f97ff1e0e09327c0
+      UID: a2db0415a832ade
     Version: 1.3.dfsg+really1.3.1
     Release: 1ubuntu2
     Epoch: 1
@@ -8428,602 +8785,670 @@
     Licenses:
     - Zlib
     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+    Repository:
+      Class: official
     DependsOn:
-    - libc6@2.42-0ubuntu3
+    - libc6@2.42-0ubuntu3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     Digest: sha256:f8100c77fdf80754b2e0fa46366fae640ed933458be85cc633dc3cf1fa30176b
     InstalledFiles:
     - /usr/lib/x86_64-linux-gnu/libz.so.1.3.1
     - /usr/share/doc/zlib1g/changelog.Debian.gz
     - /usr/share/doc/zlib1g/copyright
+    AnalyzedBy: dpkg
 - Target: Java
   Class: lang-pkgs
   Type: jar
   Packages:
   - Name: com.fasterxml.jackson.core:jackson-annotations
     Identifier:
-      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.20
-      UID: 8c51c23e51c8ef16
-    Version: '2.20'
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.21
+      UID: a68585b707b894c6
+    Version: '2.21'
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.fasterxml.jackson.core:jackson-core
     Identifier:
       PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.0
-      UID: 73125ab20e3bb23e
+      UID: afa8da117872fcb2
     Version: 2.21.0
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.fasterxml.jackson.core:jackson-databind
     Identifier:
-      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.20.1
-      UID: 4f8c9a471ff43465
-    Version: 2.20.1
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.0
+      UID: 2784dd508107deac
+    Version: 2.21.0
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.fasterxml.jackson.dataformat:jackson-dataformat-toml
     Identifier:
-      PURL: pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-toml@2.19.2
-      UID: f187132d4296b98
-    Version: 2.19.2
+      PURL: pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-toml@2.21.0
+      UID: 7c48d43f3b350e2a
+    Version: 2.21.0
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.github.mwiede:jsch
     Identifier:
       PURL: pkg:maven/com.github.mwiede/jsch@2.27.7
-      UID: 168f2be2e6ac4be5
+      UID: b2ea43fc7e760c5e
     Version: 2.27.7
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.github.vertical-blank:sql-formatter
     Identifier:
       PURL: pkg:maven/com.github.vertical-blank/sql-formatter@2.0.5
-      UID: 4aa6d74fa002054a
+      UID: b476ea318a48e65d
     Version: 2.0.5
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.google.code.gson:gson
     Identifier:
       PURL: pkg:maven/com.google.code.gson/gson@2.13.2
-      UID: a60cbe5d2898b6fd
+      UID: 55058bf256f684f6
     Version: 2.13.2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.googlecode.juniversalchardet:juniversalchardet
     Identifier:
       PURL: pkg:maven/com.googlecode.juniversalchardet/juniversalchardet@1.0.3
-      UID: 59979d47f792d6c8
+      UID: 5447189855b6db87
     Version: 1.0.3
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.connector-factory
     Identifier:
       PURL: pkg:maven/com.jcraft/jsch.agentproxy.connector-factory@0.0.9
-      UID: c33f344564a099d2
+      UID: a99fffa9ec19f7cf
     Version: 0.0.9
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.core
     Identifier:
       PURL: pkg:maven/com.jcraft/jsch.agentproxy.core@0.0.9
-      UID: 4be7fe5e595d9eb2
+      UID: afb96fc5c6b4a255
     Version: 0.0.9
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.jsch
     Identifier:
       PURL: pkg:maven/com.jcraft/jsch.agentproxy.jsch@0.0.9
-      UID: 2c09ba989715b29
+      UID: 8066e61c44eb14ea
     Version: 0.0.9
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.pageant
     Identifier:
       PURL: pkg:maven/com.jcraft/jsch.agentproxy.pageant@0.0.9
-      UID: 8affbecb98c67dc0
+      UID: c0284278b99b17bc
     Version: 0.0.9
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.sshagent
     Identifier:
       PURL: pkg:maven/com.jcraft/jsch.agentproxy.sshagent@0.0.9
-      UID: 77f3ddb6f8158192
+      UID: bd9e5fa40773f9dc
     Version: 0.0.9
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.svnkit-trilead-ssh2
     Identifier:
       PURL: pkg:maven/com.jcraft/jsch.agentproxy.svnkit-trilead-ssh2@0.0.9
-      UID: dfc6f6319fc95cbe
+      UID: 4bc35c3b9b6add62
     Version: 0.0.9
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.usocket-jna
     Identifier:
       PURL: pkg:maven/com.jcraft/jsch.agentproxy.usocket-jna@0.0.9
-      UID: 80b49070dfd3f3a7
+      UID: c30290a3390d8666
     Version: 0.0.9
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.jcraft:jsch.agentproxy.usocket-nc
     Identifier:
       PURL: pkg:maven/com.jcraft/jsch.agentproxy.usocket-nc@0.0.9
-      UID: 8ce583c9bcf3a507
+      UID: 48390e4cf4a3666a
     Version: 0.0.9
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.sun.activation:javax.activation
     Identifier:
       PURL: pkg:maven/com.sun.activation/javax.activation@1.2.0
-      UID: 885b1754dac6edf
+      UID: 76398eb1d6d13adc
     Version: 1.2.0
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.sun.mail:javax.mail
     Identifier:
       PURL: pkg:maven/com.sun.mail/javax.mail@1.6.2
-      UID: eb67ca13361cdf7e
+      UID: 1e7beb37baabc57a
     Version: 1.6.2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: com.warrenstrange:googleauth
     Identifier:
       PURL: pkg:maven/com.warrenstrange/googleauth@1.5.0
-      UID: abdfc1ca334283c7
+      UID: 99ee628fb0243c8d
     Version: 1.5.0
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: commons-cli:commons-cli
     Identifier:
       PURL: pkg:maven/commons-cli/commons-cli@1.11.0
-      UID: 7c850f7741b728f1
+      UID: 3475d2ee4b04dbe0
     Version: 1.11.0
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: commons-codec:commons-codec
     Identifier:
-      PURL: pkg:maven/commons-codec/commons-codec@1.20.0
-      UID: 36f72796c80a5f04
-    Version: 1.20.0
+      PURL: pkg:maven/commons-codec/commons-codec@1.21.0
+      UID: 2426b259c63a1b24
+    Version: 1.21.0
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: commons-io:commons-io
     Identifier:
       PURL: pkg:maven/commons-io/commons-io@2.21.0
-      UID: 4812ba05106027a5
+      UID: 2061cef217097cbb
     Version: 2.21.0
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: commons-logging:commons-logging
     Identifier:
       PURL: pkg:maven/commons-logging/commons-logging@1.3.5
-      UID: 78410c5141b86fa
+      UID: 8120d86e07931c92
     Version: 1.3.5
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: commons-net:commons-net
     Identifier:
       PURL: pkg:maven/commons-net/commons-net@3.12.0
-      UID: 1dfaef0fb0ac5d0b
+      UID: f30479acbb8d626f
     Version: 3.12.0
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: de.vandermeer:asciilist-j7
     Identifier:
       PURL: pkg:maven/de.vandermeer/asciilist-j7@1.0.0
-      UID: d4e586b2e07acda4
+      UID: 5d38f221ce7d2a1
     Version: 1.0.0
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: de.vandermeer:asciitable-j7
     Identifier:
       PURL: pkg:maven/de.vandermeer/asciitable-j7@1.0.1
-      UID: 272a590ba643367f
+      UID: 4ec0aaacbd72cc14
     Version: 1.0.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: dnsjava:dnsjava
     Identifier:
       PURL: pkg:maven/dnsjava/dnsjava@3.6.4
-      UID: fe496358500a4e7e
+      UID: 7aac8b1c2f9d99a1
     Version: 3.6.4
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: io.jsonwebtoken:jjwt-api
     Identifier:
       PURL: pkg:maven/io.jsonwebtoken/jjwt-api@0.13.0
-      UID: cdc3bc0a8b47e911
+      UID: fe506a80a2899a4a
     Version: 0.13.0
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: io.jsonwebtoken:jjwt-gson
     Identifier:
       PURL: pkg:maven/io.jsonwebtoken/jjwt-gson@0.13.0
-      UID: 9fc30d362e446fcd
+      UID: cc7c47a353e36bec
     Version: 0.13.0
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: io.jsonwebtoken:jjwt-impl
     Identifier:
       PURL: pkg:maven/io.jsonwebtoken/jjwt-impl@0.13.0
-      UID: d42e28c78bfe4cd6
+      UID: fb75cc968ac3dc0d
     Version: 0.13.0
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: io.sigpipe:jbsdiff
     Identifier:
       PURL: pkg:maven/io.sigpipe/jbsdiff@1.0
-      UID: 3ad9c9a90222e030
+      UID: e618a95843fba36b
     Version: '1.0'
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: jakarta.activation:jakarta.activation-api
     Identifier:
       PURL: pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2
-      UID: 84baa18824622446
+      UID: 5d2ee0e1a121653f
     Version: 1.2.2
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: javax.xml.bind:jaxb-api
     Identifier:
       PURL: pkg:maven/javax.xml.bind/jaxb-api@2.3.1
-      UID: 68f09018f4453b95
+      UID: d465243f613cf5b8
     Version: 2.3.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: jline:jline
     Identifier:
       PURL: pkg:maven/jline/jline@2.14.6
-      UID: 6930774a112e73bc
+      UID: 509c1c4b5bcd42a1
     Version: 2.14.6
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.apache.commons:commons-collections4
     Identifier:
       PURL: pkg:maven/org.apache.commons/commons-collections4@4.5.0
-      UID: b6f26728bc972346
+      UID: 72513cdccf1d063
     Version: 4.5.0
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.apache.commons:commons-compress
     Identifier:
       PURL: pkg:maven/org.apache.commons/commons-compress@1.28.0
-      UID: 645d61b3c78fd14e
+      UID: a82eeb62843349ae
     Version: 1.28.0
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.apache.commons:commons-csv
     Identifier:
       PURL: pkg:maven/org.apache.commons/commons-csv@1.14.1
-      UID: fd28379ee7ee9be4
+      UID: 250a69832ed56f8d
     Version: 1.14.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.apache.commons:commons-email
     Identifier:
       PURL: pkg:maven/org.apache.commons/commons-email@1.6.0
-      UID: 1cdb7e2822178209
+      UID: 973048c510561123
     Version: 1.6.0
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.apache.commons:commons-lang3
     Identifier:
       PURL: pkg:maven/org.apache.commons/commons-lang3@3.20.0
-      UID: 2e779afc3ea0251d
+      UID: 85a4dd2e7bf06fed
     Version: 3.20.0
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.apache.commons:commons-math3
     Identifier:
       PURL: pkg:maven/org.apache.commons/commons-math3@3.6.1
-      UID: 3992f1c5b6195e89
+      UID: ce9b8a6c7e85850
     Version: 3.6.1
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.eclipse.jetty.compression:jetty-compression-common
     Identifier:
-      PURL: pkg:maven/org.eclipse.jetty.compression/jetty-compression-common@12.1.5
-      UID: d53e331f6a4de8ef
-    Version: 12.1.5
+      PURL: pkg:maven/org.eclipse.jetty.compression/jetty-compression-common@12.1.6
+      UID: 1b7722a94f939d65
+    Version: 12.1.6
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-core-client
     Identifier:
-      PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-core-client@12.1.5
-      UID: 7f48c08d79907813
-    Version: 12.1.5
+      PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-core-client@12.1.6
+      UID: afa537d2c41c802c
+    Version: 12.1.6
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-core-common
     Identifier:
-      PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-core-common@12.1.5
-      UID: 445a6d49434632dc
-    Version: 12.1.5
+      PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-core-common@12.1.6
+      UID: 748aa59648d83acc
+    Version: 12.1.6
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-jetty-api
     Identifier:
-      PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-jetty-api@12.1.5
-      UID: 2e708493e974b081
-    Version: 12.1.5
+      PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-jetty-api@12.1.6
+      UID: 972f439f1c399fc2
+    Version: 12.1.6
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-jetty-client
     Identifier:
-      PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-jetty-client@12.1.5
-      UID: a4a8588127d3eff3
-    Version: 12.1.5
+      PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-jetty-client@12.1.6
+      UID: 85305991230eee20
+    Version: 12.1.6
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.eclipse.jetty.websocket:jetty-websocket-jetty-common
     Identifier:
-      PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-jetty-common@12.1.5
-      UID: dbb38700df63b71a
-    Version: 12.1.5
+      PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-jetty-common@12.1.6
+      UID: f40fec16fc289a3c
+    Version: 12.1.6
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.eclipse.jetty:jetty-client
     Identifier:
-      PURL: pkg:maven/org.eclipse.jetty/jetty-client@12.1.5
-      UID: 64b2a8806d209498
-    Version: 12.1.5
+      PURL: pkg:maven/org.eclipse.jetty/jetty-client@12.1.6
+      UID: e303ddf68c495dac
+    Version: 12.1.6
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.eclipse.jetty:jetty-http
     Identifier:
-      PURL: pkg:maven/org.eclipse.jetty/jetty-http@12.1.5
-      UID: a8059df5374e8392
-    Version: 12.1.5
+      PURL: pkg:maven/org.eclipse.jetty/jetty-http@12.1.6
+      UID: a166ead78c90179a
+    Version: 12.1.6
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.eclipse.jetty:jetty-io
     Identifier:
-      PURL: pkg:maven/org.eclipse.jetty/jetty-io@12.1.5
-      UID: 5f17a12c3044db69
-    Version: 12.1.5
+      PURL: pkg:maven/org.eclipse.jetty/jetty-io@12.1.6
+      UID: cf7a7dcfb2ad7f23
+    Version: 12.1.6
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.eclipse.jetty:jetty-util
     Identifier:
-      PURL: pkg:maven/org.eclipse.jetty/jetty-util@12.1.5
-      UID: ef57f7f7d56c669b
-    Version: 12.1.5
+      PURL: pkg:maven/org.eclipse.jetty/jetty-util@12.1.6
+      UID: f3004d626218e544
+    Version: 12.1.6
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.fusesource.hawtjni:hawtjni-runtime
     Identifier:
       PURL: pkg:maven/org.fusesource.hawtjni/hawtjni-runtime@1.17
-      UID: 368c86360d5d2d6e
+      UID: cf88955c9d0ae18b
     Version: '1.17'
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi
     Identifier:
       PURL: pkg:maven/org.fusesource.jansi/jansi@1.18
-      UID: 28003612621d63f7
+      UID: 8ad8d3ab8ae11065
     Version: '1.18'
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-freebsd32
     Identifier:
       PURL: pkg:maven/org.fusesource.jansi/jansi-freebsd32@1.8
-      UID: 75689643540ac0cc
+      UID: 87b73bc3f694180c
     Version: '1.8'
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-freebsd64
     Identifier:
       PURL: pkg:maven/org.fusesource.jansi/jansi-freebsd64@1.8
-      UID: cdf9cdca8706e16f
+      UID: 68d99c3788225531
     Version: '1.8'
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-linux32
     Identifier:
       PURL: pkg:maven/org.fusesource.jansi/jansi-linux32@1.8
-      UID: 3d49c0eb4793e1f4
+      UID: b748a87749ace306
     Version: '1.8'
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-linux64
     Identifier:
       PURL: pkg:maven/org.fusesource.jansi/jansi-linux64@1.8
-      UID: 8b11f3d47b9658b2
+      UID: 26eee13eafbc9417
     Version: '1.8'
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-native
     Identifier:
       PURL: pkg:maven/org.fusesource.jansi/jansi-native@1.8
-      UID: c89c538fba388aa2
+      UID: 6fdce73a584d6707
     Version: '1.8'
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-osx
     Identifier:
       PURL: pkg:maven/org.fusesource.jansi/jansi-osx@1.8
-      UID: b0bc0de50b8059ad
+      UID: 907023130116e83c
     Version: '1.8'
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-windows32
     Identifier:
       PURL: pkg:maven/org.fusesource.jansi/jansi-windows32@1.8
-      UID: 7c1a51c801be878e
+      UID: ab926f311d1d4210
     Version: '1.8'
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.fusesource.jansi:jansi-windows64
     Identifier:
       PURL: pkg:maven/org.fusesource.jansi/jansi-windows64@1.8
-      UID: 6c10b179e44aabcb
+      UID: edf1cd987a2068b8
     Version: '1.8'
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.semver4j:semver4j
     Identifier:
       PURL: pkg:maven/org.semver4j/semver4j@6.0.0
-      UID: b4987f502c5eba1f
+      UID: 452bf269462d8b69
     Version: 6.0.0
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.slf4j:slf4j-api
     Identifier:
       PURL: pkg:maven/org.slf4j/slf4j-api@2.0.17
-      UID: 669ca5d81bb821ff
+      UID: e6e431b8b5e0302a
     Version: 2.0.17
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.slf4j:slf4j-nop
     Identifier:
       PURL: pkg:maven/org.slf4j/slf4j-nop@2.0.17
-      UID: 5e42b1280e39632b
+      UID: 67713c09148cf9b
     Version: 2.0.17
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.snmp4j:snmp4j
     Identifier:
-      PURL: pkg:maven/org.snmp4j/snmp4j@3.9.6
-      UID: 9cf3d6b9898ef004
-    Version: 3.9.6
+      PURL: pkg:maven/org.snmp4j/snmp4j@3.9.7
+      UID: 2bdda8a0d94fe3fd
+    Version: 3.9.7
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
   - Name: org.snmp4j:snmp4j-agent
     Identifier:
       PURL: pkg:maven/org.snmp4j/snmp4j-agent@3.8.3
-      UID: c2172330bf41add
+      UID: 7d83d9c8b188faec
     Version: 3.8.3
     Layer:
-      Digest: sha256:e35f7dedbbaa5745b618a0494436cd90fc271527dfbc22cff5f4c5dfb11cd1aa
-      DiffID: sha256:d55049e0d3cf67ea5c3160d60231513be4cc278473cca96c7471dda97e545bd7
+      Digest: sha256:72d44e510272dc2cab50cee46e91ba5b5987d2707de4c1a1135aaa532a32d671
+      DiffID: sha256:bc3b79b0a9e4d6dd4b13959d22c0d415a870d6a4319b76460d06b831eb4768e8
     FilePath: openaf/openaf.jar
+    AnalyzedBy: jar
