@@ -9314,7 +9314,8 @@
 │                       │      │                  │       =ubuntu-25.10 
 │                       │      │                  ╰ UID : 8ef236a4efe90d33 
 │                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b
 │                       │      │                  │         36faab9898f08360709c 
 │                       │      │                  ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efe
@@ -9326,12 +9327,33 @@
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Fingerprint     : sha256:c285f94c97e7c08113283359aa852f074ec3b710bca1d156a061f
 │                       │      │                   276930f6a22 
-│                       │      ├ Description     : wcurl path traversal with percent-encoded slashes 
+│                       │      ├ Title           : wcurl: wcurl: Arbitrary file placement via crafted URLs 
+│                       │      ├ Description     : URLs containing percent-encoded slashes (`/` or `\`) can
+│                       │      │                   trick wcurl into
+│                       │      │                   saving the output file outside of the current directory
+│                       │      │                   without the user
+│                       │      │                   explicitly asking for it.
+│                       │      │                   
+│                       │      │                   This flaw only affects the wcurl command line tool. 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-22 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
-│                       │      ╰ References       ╭ [0]: https://curl.se/docs/CVE-2025-11563.html 
-│                       │                         ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2025-11563 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/11/04/1 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-11563 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-11563.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-11563.json 
+│                       │      │                  ├ [4]: https://lists.debian.org/debian-release/2025/11/msg005
+│                       │      │                  │      04.html 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-11563 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8062-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-11563 
+│                       │      ├ PublishedDate   : 2026-02-25T08:16:18.337Z 
+│                       │      ╰ LastModifiedDate: 2026-02-26T20:06:37.45Z 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2025-13034 
 │                       │      ├ PkgID           : curl@8.14.1-2ubuntu1 
 │                       │      ├ PkgName         : curl 
@@ -9339,7 +9361,8 @@
 │                       │      │                  │       =ubuntu-25.10 
 │                       │      │                  ╰ UID : 8ef236a4efe90d33 
 │                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b
 │                       │      │                  │         36faab9898f08360709c 
 │                       │      │                  ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efe
@@ -9370,21 +9393,77 @@
 │                       │      │                   standard certificate verification. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-295 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-13034.html 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-13034.json 
-│                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2025-13034 
+│                       │      │                  ├ [2]: https://ubuntu.com/security/notices/USN-8062-1 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-13034 
 │                       │      ├ PublishedDate   : 2026-01-08T10:15:45.407Z 
 │                       │      ╰ LastModifiedDate: 2026-01-20T14:54:02.73Z 
-│                       ├ [2]  ╭ VulnerabilityID : CVE-2025-10148 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2025-14017 
 │                       │      ├ PkgID           : curl@8.14.1-2ubuntu1 
 │                       │      ├ PkgName         : curl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro
 │                       │      │                  │       =ubuntu-25.10 
 │                       │      │                  ╰ UID : 8ef236a4efe90d33 
 │                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b
+│                       │      │                  │         36faab9898f08360709c 
+│                       │      │                  ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efe
+│                       │      │                            aef22c35bf5086e18e80 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14017 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:04e27718a14f6f12fef0e33d8c427d5436be23e95d63ece7efe9e
+│                       │      │                   7a640edd9d3 
+│                       │      ├ Title           : curl: curl: Security bypass due to global TLS option changes
+│                       │      │                    in multi-threaded LDAPS transfers 
+│                       │      ├ Description     : When doing multi-threaded LDAPS transfers (LDAP over TLS)
+│                       │      │                   with libcurl,
+│                       │      │                   changing TLS options in one thread would inadvertently
+│                       │      │                   change them globally
+│                       │      │                   and therefore possibly also affect other concurrently setup
+│                       │      │                   transfers.
+│                       │      │                   
+│                       │      │                   Disabling certificate verification for a specific transfer
+│                       │      │                   could
+│                       │      │                   unintentionally disable the feature for other threads as
+│                       │      │                   well. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ photon     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 4.8 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/3 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-14017 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14017.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-14017.json 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-14017 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8062-1 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8062-2 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-14017 
+│                       │      ├ PublishedDate   : 2026-01-08T10:15:45.667Z 
+│                       │      ╰ LastModifiedDate: 2026-01-27T21:29:39.953Z 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2025-10148 
+│                       │      ├ PkgID           : curl@8.14.1-2ubuntu1 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro
+│                       │      │                  │       =ubuntu-25.10 
+│                       │      │                  ╰ UID : 8ef236a4efe90d33 
+│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
+│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b
 │                       │      │                  │         36faab9898f08360709c 
 │                       │      │                  ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efe
@@ -9430,17 +9509,19 @@
 │                       │      │                  ├ [5]: https://curl.se/docs/CVE-2025-10148.json 
 │                       │      │                  ├ [6]: https://hackerone.com/reports/3330839 
 │                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8062-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
 │                       │      ╰ LastModifiedDate: 2026-01-20T14:55:47.997Z 
-│                       ├ [3]  ╭ VulnerabilityID : CVE-2025-14524 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2025-14524 
 │                       │      ├ PkgID           : curl@8.14.1-2ubuntu1 
 │                       │      ├ PkgName         : curl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro
 │                       │      │                  │       =ubuntu-25.10 
 │                       │      │                  ╰ UID : 8ef236a4efe90d33 
 │                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b
 │                       │      │                  │         36faab9898f08360709c 
 │                       │      │                  ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efe
@@ -9463,23 +9544,26 @@
 │                       │      │                   target host. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-601 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/4 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14524.html 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14524.json 
 │                       │      │                  ├ [3]: https://hackerone.com/reports/3459417 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8062-1 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
 │                       │      ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
 │                       │      ╰ LastModifiedDate: 2026-01-20T14:53:11.017Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2025-14819 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-14819 
 │                       │      ├ PkgID           : curl@8.14.1-2ubuntu1 
 │                       │      ├ PkgName         : curl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro
 │                       │      │                  │       =ubuntu-25.10 
 │                       │      │                  ╰ UID : 8ef236a4efe90d33 
 │                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b
 │                       │      │                  │         36faab9898f08360709c 
 │                       │      │                  ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efe
@@ -9505,22 +9589,25 @@
 │                       │      │                   would not. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-295 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/5 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14819.html 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14819.json 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
+│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-8062-1 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
 │                       │      ├ PublishedDate   : 2026-01-08T10:15:46.73Z 
 │                       │      ╰ LastModifiedDate: 2026-01-20T14:51:26.263Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2025-9086 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2025-9086 
 │                       │      ├ PkgID           : curl@8.14.1-2ubuntu1 
 │                       │      ├ PkgName         : curl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro
 │                       │      │                  │       =ubuntu-25.10 
 │                       │      │                  ╰ UID : 8ef236a4efe90d33 
 │                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b
 │                       │      │                  │         36faab9898f08360709c 
 │                       │      │                  ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efe
@@ -9591,10 +9678,11 @@
 │                       │      │                  ├ [14]: https://lists.debian.org/debian-lts-announce/2026/01/
 │                       │      │                  │       msg00002.html 
 │                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
-│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-8062-1 
+│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
 │                       │      ╰ LastModifiedDate: 2026-01-20T14:58:01.347Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2016-2781 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2016-2781 
 │                       │      ├ PkgID           : gnu-coreutils@9.5-1ubuntu4 
 │                       │      ├ PkgName         : gnu-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnu-coreutils@9.5-1ubuntu4?arch=amd64&
@@ -9650,7 +9738,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2016-2781 
 │                       │      ├ PublishedDate   : 2017-02-07T15:59:00.333Z 
 │                       │      ╰ LastModifiedDate: 2025-06-09T16:15:25.013Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2025-68973 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-68973 
 │                       │      ├ PkgID           : gpgv@2.4.8-2ubuntu2 
 │                       │      ├ PkgName         : gpgv 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgv@2.4.8-2ubuntu2?arch=amd64&distro=
@@ -9682,6 +9770,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
@@ -9720,7 +9809,7 @@
 │                       │      │                  │       nupg-2.2.51 
 │                       │      │                  ├ [16]: https://gpg.fail/memcpy 
 │                       │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2025-68973.html 
-│                       │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2026-0728.html 
+│                       │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2026-1677.html 
 │                       │      │                  ├ [19]: https://lists.debian.org/debian-lts-announce/2026/01/
 │                       │      │                  │       msg00008.html 
 │                       │      │                  ├ [20]: https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-pr
@@ -9734,7 +9823,7 @@
 │                       │      │                          8/5 
 │                       │      ├ PublishedDate   : 2025-12-28T17:16:01.5Z 
 │                       │      ╰ LastModifiedDate: 2026-01-14T19:16:46.857Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2025-68972 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2025-68972 
 │                       │      ├ PkgID           : gpgv@2.4.8-2ubuntu2 
 │                       │      ├ PkgName         : gpgv 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgv@2.4.8-2ubuntu2?arch=amd64&distro=
@@ -9784,7 +9873,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-68972 
 │                       │      ├ PublishedDate   : 2025-12-27T23:15:40.9Z 
 │                       │      ╰ LastModifiedDate: 2026-01-09T20:08:47.323Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gpgv@2.4.8-2ubuntu2 
 │                       │      ├ PkgName         : gpgv 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgv@2.4.8-2ubuntu2?arch=amd64&distro=
@@ -9829,7 +9918,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2025-03-12T21:15:38.207Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2025-15281 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2025-15281 
 │                       │      ├ PkgID           : libc-bin@2.42-0ubuntu3 
 │                       │      ├ PkgName         : libc-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc-bin@2.42-0ubuntu3?arch=amd64&dist
@@ -9858,23 +9947,44 @@
 │                       │      │                   may abort the process. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-908 
-│                       │      ├ VendorSeverity   ╭ azure : 2 
-│                       │      │                  ├ photon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ├ rocky      : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/20/3 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-15281 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-15281 
-│                       │      │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=33814 
-│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8005-1 
-│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-15281 
-│                       │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2026/01/20/3 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/01/20/3 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:2786 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-15281 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2429771 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2430201 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2431196 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2429771 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2430201 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2431196 
+│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-15281 
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-0861 
+│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-0915 
+│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-2786.html 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:2786 
+│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2025-15281.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-50120.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-15281 
+│                       │      │                  ├ [17]: https://sourceware.org/bugzilla/show_bug.cgi?id=33814 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-8005-1 
+│                       │      │                  ├ [19]: https://www.cve.org/CVERecord?id=CVE-2025-15281 
+│                       │      │                  ╰ [20]: https://www.openwall.com/lists/oss-security/2026/01/2
+│                       │      │                          0/3 
 │                       │      ├ PublishedDate   : 2026-01-20T14:16:07.843Z 
 │                       │      ╰ LastModifiedDate: 2026-02-05T17:43:18.63Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2026-0861 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2026-0861 
 │                       │      ├ PkgID           : libc-bin@2.42-0ubuntu3 
 │                       │      ├ PkgName         : libc-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc-bin@2.42-0ubuntu3?arch=amd64&dist
@@ -9932,29 +10042,33 @@
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 8.1 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/01/16/5 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:1334 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:2786 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-0861 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2429771 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2430201 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2429771 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2430201 
-│                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2431196 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2429771 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2430201 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2431196 
+│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-15281 
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-0861 
-│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-0915 
-│                       │      │                  ├ [9] : https://errata.almalinux.org/10/ALSA-2026-1334.html 
-│                       │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:1334 
-│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2026-0861.html 
-│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2026-50078.html 
-│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-0861 
-│                       │      │                  ├ [14]: https://sourceware.org/bugzilla/show_bug.cgi?id=33796 
-│                       │      │                  ├ [15]: https://sourceware.org/git/?p=glibc.git;a=blob_plain;
+│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-2786.html 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:2786 
+│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-0861.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-50120.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-0861 
+│                       │      │                  ├ [17]: https://sourceware.org/bugzilla/show_bug.cgi?id=33796 
+│                       │      │                  ├ [18]: https://sourceware.org/git/?p=glibc.git;a=blob_plain;
 │                       │      │                  │       f=advisories/GLIBC-SA-2026-0001 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-8005-1 
-│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2026-0861 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-8005-1 
+│                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2026-0861 
 │                       │      ├ PublishedDate   : 2026-01-14T21:15:52.617Z 
 │                       │      ╰ LastModifiedDate: 2026-02-03T18:26:25.39Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2026-0915 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2026-0915 
 │                       │      ├ PkgID           : libc-bin@2.42-0ubuntu3 
 │                       │      ├ PkgName         : libc-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc-bin@2.42-0ubuntu3?arch=amd64&dist
@@ -9995,29 +10109,33 @@
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/01/16/6 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:1334 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:2786 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-0915 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2429771 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2430201 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2429771 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2430201 
-│                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2431196 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2429771 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2430201 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2431196 
+│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-15281 
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-0861 
-│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-0915 
-│                       │      │                  ├ [9] : https://errata.almalinux.org/10/ALSA-2026-1334.html 
-│                       │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:1334 
-│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2026-0915.html 
-│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2026-50078.html 
-│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-0915 
-│                       │      │                  ├ [14]: https://sourceware.org/bugzilla/show_bug.cgi?id=33802 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-8005-1 
-│                       │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2026-0915 
-│                       │      │                  ╰ [17]: https://www.openwall.com/lists/oss-security/2026/01/1
+│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-2786.html 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:2786 
+│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-0915.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-50120.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-0915 
+│                       │      │                  ├ [17]: https://sourceware.org/bugzilla/show_bug.cgi?id=33802 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-8005-1 
+│                       │      │                  ├ [19]: https://www.cve.org/CVERecord?id=CVE-2026-0915 
+│                       │      │                  ╰ [20]: https://www.openwall.com/lists/oss-security/2026/01/1
 │                       │      │                          6/6 
 │                       │      ├ PublishedDate   : 2026-01-15T22:16:12.457Z 
 │                       │      ╰ LastModifiedDate: 2026-01-23T19:36:50.73Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2025-15281 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2025-15281 
 │                       │      ├ PkgID           : libc6@2.42-0ubuntu3 
 │                       │      ├ PkgName         : libc6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc6@2.42-0ubuntu3?arch=amd64&distro=
@@ -10046,23 +10164,44 @@
 │                       │      │                   may abort the process. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-908 
-│                       │      ├ VendorSeverity   ╭ azure : 2 
-│                       │      │                  ├ photon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ├ rocky      : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/20/3 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-15281 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2025-15281 
-│                       │      │                  ├ [3]: https://sourceware.org/bugzilla/show_bug.cgi?id=33814 
-│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8005-1 
-│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2025-15281 
-│                       │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2026/01/20/3 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/01/20/3 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:2786 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-15281 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2429771 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2430201 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2431196 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2429771 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2430201 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2431196 
+│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-15281 
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-0861 
+│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-0915 
+│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-2786.html 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:2786 
+│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2025-15281.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-50120.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2025-15281 
+│                       │      │                  ├ [17]: https://sourceware.org/bugzilla/show_bug.cgi?id=33814 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-8005-1 
+│                       │      │                  ├ [19]: https://www.cve.org/CVERecord?id=CVE-2025-15281 
+│                       │      │                  ╰ [20]: https://www.openwall.com/lists/oss-security/2026/01/2
+│                       │      │                          0/3 
 │                       │      ├ PublishedDate   : 2026-01-20T14:16:07.843Z 
 │                       │      ╰ LastModifiedDate: 2026-02-05T17:43:18.63Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2026-0861 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2026-0861 
 │                       │      ├ PkgID           : libc6@2.42-0ubuntu3 
 │                       │      ├ PkgName         : libc6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc6@2.42-0ubuntu3?arch=amd64&distro=
@@ -10120,29 +10259,33 @@
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 8.1 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/01/16/5 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:1334 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:2786 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-0861 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2429771 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2430201 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2429771 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2430201 
-│                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2431196 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2429771 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2430201 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2431196 
+│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-15281 
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-0861 
-│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-0915 
-│                       │      │                  ├ [9] : https://errata.almalinux.org/10/ALSA-2026-1334.html 
-│                       │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:1334 
-│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2026-0861.html 
-│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2026-50078.html 
-│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-0861 
-│                       │      │                  ├ [14]: https://sourceware.org/bugzilla/show_bug.cgi?id=33796 
-│                       │      │                  ├ [15]: https://sourceware.org/git/?p=glibc.git;a=blob_plain;
+│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-2786.html 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:2786 
+│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-0861.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-50120.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-0861 
+│                       │      │                  ├ [17]: https://sourceware.org/bugzilla/show_bug.cgi?id=33796 
+│                       │      │                  ├ [18]: https://sourceware.org/git/?p=glibc.git;a=blob_plain;
 │                       │      │                  │       f=advisories/GLIBC-SA-2026-0001 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-8005-1 
-│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2026-0861 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-8005-1 
+│                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2026-0861 
 │                       │      ├ PublishedDate   : 2026-01-14T21:15:52.617Z 
 │                       │      ╰ LastModifiedDate: 2026-02-03T18:26:25.39Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2026-0915 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2026-0915 
 │                       │      ├ PkgID           : libc6@2.42-0ubuntu3 
 │                       │      ├ PkgName         : libc6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc6@2.42-0ubuntu3?arch=amd64&distro=
@@ -10183,36 +10326,41 @@
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/01/16/6 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:1334 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:2786 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-0915 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2429771 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2430201 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2429771 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2430201 
-│                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2431196 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2429771 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2430201 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2431196 
+│                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-15281 
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-0861 
-│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-0915 
-│                       │      │                  ├ [9] : https://errata.almalinux.org/10/ALSA-2026-1334.html 
-│                       │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:1334 
-│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2026-0915.html 
-│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2026-50078.html 
-│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-0915 
-│                       │      │                  ├ [14]: https://sourceware.org/bugzilla/show_bug.cgi?id=33802 
-│                       │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-8005-1 
-│                       │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2026-0915 
-│                       │      │                  ╰ [17]: https://www.openwall.com/lists/oss-security/2026/01/1
+│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-2786.html 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:2786 
+│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-0915.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-50120.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-0915 
+│                       │      │                  ├ [17]: https://sourceware.org/bugzilla/show_bug.cgi?id=33802 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-8005-1 
+│                       │      │                  ├ [19]: https://www.cve.org/CVERecord?id=CVE-2026-0915 
+│                       │      │                  ╰ [20]: https://www.openwall.com/lists/oss-security/2026/01/1
 │                       │      │                          6/6 
 │                       │      ├ PublishedDate   : 2026-01-15T22:16:12.457Z 
 │                       │      ╰ LastModifiedDate: 2026-01-23T19:36:50.73Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2025-11563 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2025-11563 
 │                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1 
 │                       │      ├ PkgName         : libcurl4t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64
 │                       │      │                  │       &distro=ubuntu-25.10 
 │                       │      │                  ╰ UID : 2ca5770396aa8f52 
 │                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b
 │                       │      │                  │         36faab9898f08360709c 
 │                       │      │                  ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efe
@@ -10224,20 +10372,42 @@
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Fingerprint     : sha256:a3f76be8f624892e70f5512919d256e4a6e8a9683baaa1d650ad8
 │                       │      │                   33cc7192606 
-│                       │      ├ Description     : wcurl path traversal with percent-encoded slashes 
+│                       │      ├ Title           : wcurl: wcurl: Arbitrary file placement via crafted URLs 
+│                       │      ├ Description     : URLs containing percent-encoded slashes (`/` or `\`) can
+│                       │      │                   trick wcurl into
+│                       │      │                   saving the output file outside of the current directory
+│                       │      │                   without the user
+│                       │      │                   explicitly asking for it.
+│                       │      │                   
+│                       │      │                   This flaw only affects the wcurl command line tool. 
 │                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-22 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
-│                       │      ╰ References       ╭ [0]: https://curl.se/docs/CVE-2025-11563.html 
-│                       │                         ╰ [1]: https://www.cve.org/CVERecord?id=CVE-2025-11563 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2025-13034 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2025/11/04/1 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-11563 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-11563.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-11563.json 
+│                       │      │                  ├ [4]: https://lists.debian.org/debian-release/2025/11/msg005
+│                       │      │                  │      04.html 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2025-11563 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8062-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-11563 
+│                       │      ├ PublishedDate   : 2026-02-25T08:16:18.337Z 
+│                       │      ╰ LastModifiedDate: 2026-02-26T20:06:37.45Z 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2025-13034 
 │                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1 
 │                       │      ├ PkgName         : libcurl4t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64
 │                       │      │                  │       &distro=ubuntu-25.10 
 │                       │      │                  ╰ UID : 2ca5770396aa8f52 
 │                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b
 │                       │      │                  │         36faab9898f08360709c 
 │                       │      │                  ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efe
@@ -10268,21 +10438,77 @@
 │                       │      │                   standard certificate verification. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-295 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ References       ╭ [0]: https://curl.se/docs/CVE-2025-13034.html 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-13034.json 
-│                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2025-13034 
+│                       │      │                  ├ [2]: https://ubuntu.com/security/notices/USN-8062-1 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-13034 
 │                       │      ├ PublishedDate   : 2026-01-08T10:15:45.407Z 
 │                       │      ╰ LastModifiedDate: 2026-01-20T14:54:02.73Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2025-10148 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2025-14017 
 │                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1 
 │                       │      ├ PkgName         : libcurl4t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64
 │                       │      │                  │       &distro=ubuntu-25.10 
 │                       │      │                  ╰ UID : 2ca5770396aa8f52 
 │                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b
+│                       │      │                  │         36faab9898f08360709c 
+│                       │      │                  ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efe
+│                       │      │                            aef22c35bf5086e18e80 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14017 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:5d68653a8ca631e80072a220ad83788db48f3eb64c143b17ac3fc
+│                       │      │                   77493512522 
+│                       │      ├ Title           : curl: curl: Security bypass due to global TLS option changes
+│                       │      │                    in multi-threaded LDAPS transfers 
+│                       │      ├ Description     : When doing multi-threaded LDAPS transfers (LDAP over TLS)
+│                       │      │                   with libcurl,
+│                       │      │                   changing TLS options in one thread would inadvertently
+│                       │      │                   change them globally
+│                       │      │                   and therefore possibly also affect other concurrently setup
+│                       │      │                   transfers.
+│                       │      │                   
+│                       │      │                   Disabling certificate verification for a specific transfer
+│                       │      │                   could
+│                       │      │                   unintentionally disable the feature for other threads as
+│                       │      │                   well. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ photon     : 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 4.8 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/3 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2025-14017 
+│                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14017.html 
+│                       │      │                  ├ [3]: https://curl.se/docs/CVE-2025-14017.json 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2025-14017 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8062-1 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8062-2 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2025-14017 
+│                       │      ├ PublishedDate   : 2026-01-08T10:15:45.667Z 
+│                       │      ╰ LastModifiedDate: 2026-01-27T21:29:39.953Z 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2025-10148 
+│                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1 
+│                       │      ├ PkgName         : libcurl4t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64
+│                       │      │                  │       &distro=ubuntu-25.10 
+│                       │      │                  ╰ UID : 2ca5770396aa8f52 
+│                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
+│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b
 │                       │      │                  │         36faab9898f08360709c 
 │                       │      │                  ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efe
@@ -10328,17 +10554,19 @@
 │                       │      │                  ├ [5]: https://curl.se/docs/CVE-2025-10148.json 
 │                       │      │                  ├ [6]: https://hackerone.com/reports/3330839 
 │                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2025-10148 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-8062-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2025-10148 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:40.02Z 
 │                       │      ╰ LastModifiedDate: 2026-01-20T14:55:47.997Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2025-14524 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2025-14524 
 │                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1 
 │                       │      ├ PkgName         : libcurl4t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64
 │                       │      │                  │       &distro=ubuntu-25.10 
 │                       │      │                  ╰ UID : 2ca5770396aa8f52 
 │                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b
 │                       │      │                  │         36faab9898f08360709c 
 │                       │      │                  ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efe
@@ -10361,23 +10589,26 @@
 │                       │      │                   target host. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-601 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/4 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14524.html 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14524.json 
 │                       │      │                  ├ [3]: https://hackerone.com/reports/3459417 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8062-1 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2025-14524 
 │                       │      ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
 │                       │      ╰ LastModifiedDate: 2026-01-20T14:53:11.017Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2025-14819 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2025-14819 
 │                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1 
 │                       │      ├ PkgName         : libcurl4t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64
 │                       │      │                  │       &distro=ubuntu-25.10 
 │                       │      │                  ╰ UID : 2ca5770396aa8f52 
 │                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b
 │                       │      │                  │         36faab9898f08360709c 
 │                       │      │                  ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efe
@@ -10403,22 +10634,25 @@
 │                       │      │                   would not. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-295 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/01/07/5 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2025-14819.html 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2025-14819.json 
-│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
+│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-8062-1 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2025-14819 
 │                       │      ├ PublishedDate   : 2026-01-08T10:15:46.73Z 
 │                       │      ╰ LastModifiedDate: 2026-01-20T14:51:26.263Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2025-9086 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2025-9086 
 │                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1 
 │                       │      ├ PkgName         : libcurl4t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64
 │                       │      │                  │       &distro=ubuntu-25.10 
 │                       │      │                  ╰ UID : 2ca5770396aa8f52 
 │                       │      ├ InstalledVersion: 8.14.1-2ubuntu1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 8.14.1-2ubuntu1.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b
 │                       │      │                  │         36faab9898f08360709c 
 │                       │      │                  ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efe
@@ -10489,10 +10723,11 @@
 │                       │      │                  ├ [14]: https://lists.debian.org/debian-lts-announce/2026/01/
 │                       │      │                  │       msg00002.html 
 │                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2025-9086 
-│                       │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
+│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-8062-1 
+│                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2025-9086 
 │                       │      ├ PublishedDate   : 2025-09-12T06:15:44.1Z 
 │                       │      ╰ LastModifiedDate: 2026-01-20T14:58:01.347Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2024-2236 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2024-2236 
 │                       │      ├ PkgID           : libgcrypt20@1.11.0-7build1 
 │                       │      ├ PkgName         : libgcrypt20 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcrypt20@1.11.0-7build1?arch=amd64&
@@ -10517,7 +10752,7 @@
 │                       │      │                   to initiate a Bleichenbacher-style attack, which can lead to
 │                       │      │                    the decryption of RSA ciphertexts. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-208 
+│                       │      ├ CweIDs           ─ [0]: CWE-385 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ oracle-oval: 2 
@@ -10550,8 +10785,119 @@
 │                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-2236 
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                       │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
-│                       │      ╰ LastModifiedDate: 2025-04-02T17:15:37.79Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2025-8941 
+│                       │      ╰ LastModifiedDate: 2026-02-25T20:17:20.547Z 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2025-14831 
+│                       │      ├ PkgID           : libgnutls30t64@3.8.9-3ubuntu2 
+│                       │      ├ PkgName         : libgnutls30t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-3ubuntu2?arch=amd
+│                       │      │                  │       64&distro=ubuntu-25.10 
+│                       │      │                  ╰ UID : 55a583ffc6365cc1 
+│                       │      ├ InstalledVersion: 3.8.9-3ubuntu2 
+│                       │      ├ FixedVersion    : 3.8.9-3ubuntu2.1 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b
+│                       │      │                  │         36faab9898f08360709c 
+│                       │      │                  ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efe
+│                       │      │                            aef22c35bf5086e18e80 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14831 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:904dfce8595aaa7bedb88b8d696fab0cb3ad35620685445227fb3
+│                       │      │                   741ac4c37af 
+│                       │      ├ Title           : gnutls: GnuTLS: Denial of Service via excessive resource
+│                       │      │                   consumption during certificate verification 
+│                       │      ├ Description     : A flaw was found in GnuTLS. This vulnerability allows a
+│                       │      │                   denial of service (DoS) by excessive CPU (Central Processing
+│                       │      │                    Unit) and memory consumption via specially crafted
+│                       │      │                   malicious certificates containing a large number of name
+│                       │      │                   constraints and subject alternative names (SANs). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-407 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:3477 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2025-14831 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2392528 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2423177 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2423177 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2026-3477.html 
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2025-14831.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2026-3477.html 
+│                       │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2025-14831 
+│                       │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-8043-1 
+│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2025-14831 
+│                       │      ├ PublishedDate   : 2026-02-09T15:16:09.937Z 
+│                       │      ╰ LastModifiedDate: 2026-03-02T17:16:23.137Z 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2025-9820 
+│                       │      ├ PkgID           : libgnutls30t64@3.8.9-3ubuntu2 
+│                       │      ├ PkgName         : libgnutls30t64 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-3ubuntu2?arch=amd
+│                       │      │                  │       64&distro=ubuntu-25.10 
+│                       │      │                  ╰ UID : 55a583ffc6365cc1 
+│                       │      ├ InstalledVersion: 3.8.9-3ubuntu2 
+│                       │      ├ FixedVersion    : 3.8.9-3ubuntu2.1 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b
+│                       │      │                  │         36faab9898f08360709c 
+│                       │      │                  ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efe
+│                       │      │                            aef22c35bf5086e18e80 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9820 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:41312d9aa3a8dfaf719ec97670dab35d1feb444b52b5ba62e0f34
+│                       │      │                   721beb93918 
+│                       │      ├ Title           : gnutls: Stack-based Buffer Overflow in
+│                       │      │                   gnutls_pkcs11_token_init() Function 
+│                       │      ├ Description     : A flaw was found in the GnuTLS library, specifically in the
+│                       │      │                   gnutls_pkcs11_token_init() function that handles PKCS#11
+│                       │      │                   token initialization. When a token label longer than
+│                       │      │                   expected is processed, the function writes past the end of a
+│                       │      │                    fixed-size stack buffer. This programming error can cause
+│                       │      │                   the application using GnuTLS to crash or, in certain
+│                       │      │                   conditions, be exploited for code execution. As a result,
+│                       │      │                   systems or applications relying on GnuTLS may be vulnerable
+│                       │      │                   to a denial of service or local privilege escalation
+│                       │      │                   attacks. 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-121 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
+│                       │      │                  ├ oracle-oval: 2 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 4 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/11/20/2 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:3477 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-9820 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2392528 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2423177 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2392528 
+│                       │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2026-3477.html 
+│                       │      │                  ├ [7] : https://gitlab.com/gnutls/gnutls/-/commit/1d56f96f6ab
+│                       │      │                  │       5034d677136b9d50b5a75dff0faf5 
+│                       │      │                  ├ [8] : https://gitlab.com/gnutls/gnutls/-/issues/1732 
+│                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-9820.html 
+│                       │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2026-3477.html 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2025-9820 
+│                       │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-8043-1 
+│                       │      │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2025-9820 
+│                       │      │                  ╰ [14]: https://www.gnutls.org/security-new.html#GNUTLS-SA-20
+│                       │      │                          25-11-18 
+│                       │      ├ PublishedDate   : 2026-01-26T20:16:09.37Z 
+│                       │      ╰ LastModifiedDate: 2026-03-02T18:16:25.787Z 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam-modules@1.7.0-5ubuntu2 
 │                       │      ├ PkgName         : libpam-modules 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules@1.7.0-5ubuntu2?arch=amd
@@ -10621,7 +10967,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam-modules-bin@1.7.0-5ubuntu2 
 │                       │      ├ PkgName         : libpam-modules-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-modules-bin@1.7.0-5ubuntu2?arch
@@ -10691,7 +11037,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam-runtime@1.7.0-5ubuntu2 
 │                       │      ├ PkgName         : libpam-runtime 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-runtime@1.7.0-5ubuntu2?arch=all
@@ -10761,7 +11107,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2025-8941 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2025-8941 
 │                       │      ├ PkgID           : libpam0g@1.7.0-5ubuntu2 
 │                       │      ├ PkgName         : libpam0g 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam0g@1.7.0-5ubuntu2?arch=amd64&dis
@@ -10831,7 +11177,7 @@
 │                       │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2025-8941 
 │                       │      ├ PublishedDate   : 2025-08-13T15:15:41.873Z 
 │                       │      ╰ LastModifiedDate: 2025-11-20T21:16:08.11Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2025-11187 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2025-11187 
 │                       │      ├ PkgID           : libssl3t64@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.3-1ubuntu2?arch=amd64&d
@@ -10973,7 +11319,7 @@
 │                       │      │                  ╰ [48]: https://www.cve.org/CVERecord?id=CVE-2025-11187 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:14.093Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:39:21.74Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2025-15467 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2025-15467 
 │                       │      ├ PkgID           : libssl3t64@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.3-1ubuntu2?arch=amd64&d
@@ -10995,16 +11341,16 @@
 │                       │      │                   f2b686de772 
 │                       │      ├ Title           : openssl: OpenSSL: Remote code execution or Denial of Service
 │                       │      │                    via oversized Initialization Vector in CMS parsing 
-│                       │      ├ Description     : Issue summary: Parsing CMS AuthEnvelopedData message with
-│                       │      │                   maliciously
-│                       │      │                   crafted AEAD parameters can trigger a stack buffer
-│                       │      │                   overflow.
+│                       │      ├ Description     : Issue summary: Parsing CMS AuthEnvelopedData or
+│                       │      │                   EnvelopedData message with
+│                       │      │                   maliciously crafted AEAD parameters can trigger a stack
+│                       │      │                   buffer overflow.
 │                       │      │                   
 │                       │      │                   Impact summary: A stack buffer overflow may lead to a crash,
 │                       │      │                    causing Denial
 │                       │      │                   of Service, or potentially remote code execution.
-│                       │      │                   When parsing CMS AuthEnvelopedData structures that use AEAD
-│                       │      │                   ciphers such as
+│                       │      │                   When parsing CMS (Auth)EnvelopedData structures that use
+│                       │      │                   AEAD ciphers such as
 │                       │      │                   AES-GCM, the IV (Initialization Vector) encoded in the ASN.1
 │                       │      │                    parameters is
 │                       │      │                   copied into a fixed-size stack buffer without verifying that
@@ -11016,8 +11362,8 @@
 │                       │      │                   authentication or tag verification occurs.
 │                       │      │                   Applications and services that parse untrusted CMS or PKCS#7
 │                       │      │                    content using
-│                       │      │                   AEAD ciphers (e.g., S/MIME AuthEnvelopedData with AES-GCM)
-│                       │      │                   are vulnerable.
+│                       │      │                   AEAD ciphers (e.g., S/MIME (Auth)EnvelopedData with AES-GCM)
+│                       │      │                    are vulnerable.
 │                       │      │                   Because the overflow occurs prior to authentication, no
 │                       │      │                   valid key material
 │                       │      │                   is required to trigger it. While exploitability to remote
@@ -11048,77 +11394,78 @@
 │                       │      │                           ╰ V3Score : 9.8 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/01/27
 │                       │      │                  │       /10 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:1473 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-15467 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2430375 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2430376 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2430377 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2430378 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2430379 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2430380 
-│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2430381 
-│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2430386 
-│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2430387 
-│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2430388 
-│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2430389 
-│                       │      │                  ├ [14]: https://bugzilla.redhat.com/2430390 
-│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2430375 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2430376 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2430377 
-│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2430378 
-│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2430379 
-│                       │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2430380 
-│                       │      │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2430381 
-│                       │      │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2430386 
-│                       │      │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2430387 
-│                       │      │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2430388 
-│                       │      │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2430389 
-│                       │      │                  ├ [26]: https://bugzilla.redhat.com/show_bug.cgi?id=2430390 
-│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-11187 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2026/02/25/6 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:1473 
+│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-15467 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2430375 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2430376 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2430377 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2430378 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2430379 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2430380 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2430381 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2430386 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2430387 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2430388 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/2430389 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/2430390 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2430375 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2430376 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2430377 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2430378 
+│                       │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2430379 
+│                       │      │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2430380 
+│                       │      │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2430381 
+│                       │      │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2430386 
+│                       │      │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2430387 
+│                       │      │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2430388 
+│                       │      │                  ├ [26]: https://bugzilla.redhat.com/show_bug.cgi?id=2430389 
+│                       │      │                  ├ [27]: https://bugzilla.redhat.com/show_bug.cgi?id=2430390 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-15467 
+│                       │      │                  │       25-11187 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-15468 
+│                       │      │                  │       25-15467 
 │                       │      │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-15469 
+│                       │      │                  │       25-15468 
 │                       │      │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-66199 
+│                       │      │                  │       25-15469 
 │                       │      │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-68160 
+│                       │      │                  │       25-66199 
 │                       │      │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-69418 
+│                       │      │                  │       25-68160 
 │                       │      │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-69419 
+│                       │      │                  │       25-69418 
 │                       │      │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-69420 
+│                       │      │                  │       25-69419 
 │                       │      │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-69421 
+│                       │      │                  │       25-69420 
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       26-22795 
+│                       │      │                  │       25-69421 
 │                       │      │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-22795 
+│                       │      │                  ├ [39]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
-│                       │      │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:1473 
-│                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/2c8f0e5fa9b
+│                       │      │                  ├ [40]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
+│                       │      │                  ├ [41]: https://errata.rockylinux.org/RLSA-2026:1473 
+│                       │      │                  ├ [42]: https://github.com/openssl/openssl/commit/2c8f0e5fa9b
 │                       │      │                  │       6ee5508a0349e4572ddb74db5a703 
-│                       │      │                  ├ [42]: https://github.com/openssl/openssl/commit/5f26d4202f5
+│                       │      │                  ├ [43]: https://github.com/openssl/openssl/commit/5f26d4202f5
 │                       │      │                  │       b89664c5c3f3c62086276026ba9a9 
-│                       │      │                  ├ [43]: https://github.com/openssl/openssl/commit/6ced0fe6b10
+│                       │      │                  ├ [44]: https://github.com/openssl/openssl/commit/6ced0fe6b10
 │                       │      │                  │       faa560e410e3ee8d6c82f06c65ea3 
-│                       │      │                  ├ [44]: https://github.com/openssl/openssl/commit/ce39170276d
+│                       │      │                  ├ [45]: https://github.com/openssl/openssl/commit/ce39170276d
 │                       │      │                  │       aec87f55c39dad1f629b56344429e 
-│                       │      │                  ├ [45]: https://github.com/openssl/openssl/commit/d0071a0799f
+│                       │      │                  ├ [46]: https://github.com/openssl/openssl/commit/d0071a0799f
 │                       │      │                  │       20cc8101730145349ed4487c268dc 
-│                       │      │                  ├ [46]: https://linux.oracle.com/cve/CVE-2025-15467.html 
-│                       │      │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
-│                       │      │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2025-15467 
-│                       │      │                  ├ [49]: https://openssl-library.org/news/secadv/20260127.txt 
-│                       │      │                  ├ [50]: https://ubuntu.com/security/notices/USN-7980-1 
-│                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-15467 
+│                       │      │                  ├ [47]: https://linux.oracle.com/cve/CVE-2025-15467.html 
+│                       │      │                  ├ [48]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
+│                       │      │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2025-15467 
+│                       │      │                  ├ [50]: https://openssl-library.org/news/secadv/20260127.txt 
+│                       │      │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-1 
+│                       │      │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2025-15467 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:14.257Z 
-│                       │      ╰ LastModifiedDate: 2026-02-02T18:38:55.073Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2025-15468 
+│                       │      ╰ LastModifiedDate: 2026-02-25T22:16:19.68Z 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2025-15468 
 │                       │      ├ PkgID           : libssl3t64@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.3-1ubuntu2?arch=amd64&d
@@ -11174,6 +11521,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
@@ -11251,7 +11599,7 @@
 │                       │      │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2025-15468 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:14.4Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:38:00.947Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2025-15469 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2025-15469 
 │                       │      ├ PkgID           : libssl3t64@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.3-1ubuntu2?arch=amd64&d
@@ -11390,7 +11738,7 @@
 │                       │      │                  ╰ [47]: https://www.cve.org/CVERecord?id=CVE-2025-15469 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:14.523Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:37:39.313Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2025-66199 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2025-66199 
 │                       │      ├ PkgID           : libssl3t64@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.3-1ubuntu2?arch=amd64&d
@@ -11461,6 +11809,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-789 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
@@ -11538,7 +11887,7 @@
 │                       │      │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2025-66199 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:15.777Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:37:19.613Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2025-68160 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2025-68160 
 │                       │      ├ PkgID           : libssl3t64@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.3-1ubuntu2?arch=amd64&d
@@ -11596,7 +11945,9 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
@@ -11676,7 +12027,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-68160 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:15.9Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:36:57.727Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2025-69418 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2025-69418 
 │                       │      ├ PkgID           : libssl3t64@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.3-1ubuntu2?arch=amd64&d
@@ -11734,7 +12085,9 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-325 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
@@ -11814,7 +12167,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-69418 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:33.253Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:36:03.557Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2025-69419 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2025-69419 
 │                       │      ├ PkgID           : libssl3t64@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.3-1ubuntu2?arch=amd64&d
@@ -11890,8 +12243,10 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
-│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 3 
@@ -11962,7 +12317,7 @@
 │                       │      │                  ├ [44]: https://github.com/openssl/openssl/commit/ff628933755
 │                       │      │                  │       075446bca8307e8417c14d164b535 
 │                       │      │                  ├ [45]: https://linux.oracle.com/cve/CVE-2025-69419.html 
-│                       │      │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
+│                       │      │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2026-50131.html 
 │                       │      │                  ├ [47]: https://nvd.nist.gov/vuln/detail/CVE-2025-69419 
 │                       │      │                  ├ [48]: https://openssl-library.org/news/secadv/20260127.txt 
 │                       │      │                  ├ [49]: https://ubuntu.com/security/notices/USN-7980-1 
@@ -11970,7 +12325,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-69419 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:34.113Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:35:02.177Z 
-│                       ├ [35] ╭ VulnerabilityID : CVE-2025-69420 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2025-69420 
 │                       │      ├ PkgID           : libssl3t64@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.3-1ubuntu2?arch=amd64&d
@@ -12033,7 +12388,9 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 1 
@@ -12113,7 +12470,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-69420 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:34.317Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:33:30.557Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2025-69421 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2025-69421 
 │                       │      ├ PkgID           : libssl3t64@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.3-1ubuntu2?arch=amd64&d
@@ -12166,7 +12523,9 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
@@ -12249,8 +12608,8 @@
 │                       │      │                  ├ [50]: https://ubuntu.com/security/notices/USN-7980-2 
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-69421 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:34.437Z 
-│                       │      ╰ LastModifiedDate: 2026-02-02T18:29:59.693Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2026-22795 
+│                       │      ╰ LastModifiedDate: 2026-02-28T04:16:17.457Z 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2026-22795 
 │                       │      ├ PkgID           : libssl3t64@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.3-1ubuntu2?arch=amd64&d
@@ -12313,7 +12672,9 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
@@ -12393,7 +12754,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2026-22795 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:35.43Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:41:14.917Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2026-22796 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2026-22796 
 │                       │      ├ PkgID           : libssl3t64@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.3-1ubuntu2?arch=amd64&d
@@ -12456,6 +12817,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
@@ -12536,7 +12898,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2026-22796 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:35.543Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:40:27.467Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2025-13151 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2025-13151 
 │                       │      ├ PkgID           : libtasn1-6@4.20.0-2build1 
 │                       │      ├ PkgName         : libtasn1-6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtasn1-6@4.20.0-2build1?arch=amd64&d
@@ -12584,7 +12946,7 @@
 │                       │      │                  ╰ [8]: https://www.kb.cert.org/vuls/id/271649 
 │                       │      ├ PublishedDate   : 2026-01-07T22:15:43.2Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T19:27:23.07Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login.defs@1:4.17.4-2ubuntu2 
 │                       │      ├ PkgName         : login.defs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.17.4-2ubuntu2?arch=all&di
@@ -12646,7 +13008,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2025-11187 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2025-11187 
 │                       │      ├ PkgID           : openssl@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.3-1ubuntu2?arch=amd64&dist
@@ -12788,7 +13150,7 @@
 │                       │      │                  ╰ [48]: https://www.cve.org/CVERecord?id=CVE-2025-11187 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:14.093Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:39:21.74Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2025-15467 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2025-15467 
 │                       │      ├ PkgID           : openssl@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.3-1ubuntu2?arch=amd64&dist
@@ -12810,16 +13172,16 @@
 │                       │      │                   154d5754a03 
 │                       │      ├ Title           : openssl: OpenSSL: Remote code execution or Denial of Service
 │                       │      │                    via oversized Initialization Vector in CMS parsing 
-│                       │      ├ Description     : Issue summary: Parsing CMS AuthEnvelopedData message with
-│                       │      │                   maliciously
-│                       │      │                   crafted AEAD parameters can trigger a stack buffer
-│                       │      │                   overflow.
+│                       │      ├ Description     : Issue summary: Parsing CMS AuthEnvelopedData or
+│                       │      │                   EnvelopedData message with
+│                       │      │                   maliciously crafted AEAD parameters can trigger a stack
+│                       │      │                   buffer overflow.
 │                       │      │                   
 │                       │      │                   Impact summary: A stack buffer overflow may lead to a crash,
 │                       │      │                    causing Denial
 │                       │      │                   of Service, or potentially remote code execution.
-│                       │      │                   When parsing CMS AuthEnvelopedData structures that use AEAD
-│                       │      │                   ciphers such as
+│                       │      │                   When parsing CMS (Auth)EnvelopedData structures that use
+│                       │      │                   AEAD ciphers such as
 │                       │      │                   AES-GCM, the IV (Initialization Vector) encoded in the ASN.1
 │                       │      │                    parameters is
 │                       │      │                   copied into a fixed-size stack buffer without verifying that
@@ -12831,8 +13193,8 @@
 │                       │      │                   authentication or tag verification occurs.
 │                       │      │                   Applications and services that parse untrusted CMS or PKCS#7
 │                       │      │                    content using
-│                       │      │                   AEAD ciphers (e.g., S/MIME AuthEnvelopedData with AES-GCM)
-│                       │      │                   are vulnerable.
+│                       │      │                   AEAD ciphers (e.g., S/MIME (Auth)EnvelopedData with AES-GCM)
+│                       │      │                    are vulnerable.
 │                       │      │                   Because the overflow occurs prior to authentication, no
 │                       │      │                   valid key material
 │                       │      │                   is required to trigger it. While exploitability to remote
@@ -12863,77 +13225,78 @@
 │                       │      │                           ╰ V3Score : 9.8 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/01/27
 │                       │      │                  │       /10 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:1473 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-15467 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2430375 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2430376 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2430377 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2430378 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2430379 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2430380 
-│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2430381 
-│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2430386 
-│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2430387 
-│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2430388 
-│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2430389 
-│                       │      │                  ├ [14]: https://bugzilla.redhat.com/2430390 
-│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2430375 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2430376 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2430377 
-│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2430378 
-│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2430379 
-│                       │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2430380 
-│                       │      │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2430381 
-│                       │      │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2430386 
-│                       │      │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2430387 
-│                       │      │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2430388 
-│                       │      │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2430389 
-│                       │      │                  ├ [26]: https://bugzilla.redhat.com/show_bug.cgi?id=2430390 
-│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-11187 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2026/02/25/6 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:1473 
+│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-15467 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2430375 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2430376 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2430377 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2430378 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2430379 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2430380 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2430381 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2430386 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2430387 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2430388 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/2430389 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/2430390 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2430375 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2430376 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2430377 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2430378 
+│                       │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2430379 
+│                       │      │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2430380 
+│                       │      │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2430381 
+│                       │      │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2430386 
+│                       │      │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2430387 
+│                       │      │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2430388 
+│                       │      │                  ├ [26]: https://bugzilla.redhat.com/show_bug.cgi?id=2430389 
+│                       │      │                  ├ [27]: https://bugzilla.redhat.com/show_bug.cgi?id=2430390 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-15467 
+│                       │      │                  │       25-11187 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-15468 
+│                       │      │                  │       25-15467 
 │                       │      │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-15469 
+│                       │      │                  │       25-15468 
 │                       │      │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-66199 
+│                       │      │                  │       25-15469 
 │                       │      │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-68160 
+│                       │      │                  │       25-66199 
 │                       │      │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-69418 
+│                       │      │                  │       25-68160 
 │                       │      │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-69419 
+│                       │      │                  │       25-69418 
 │                       │      │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-69420 
+│                       │      │                  │       25-69419 
 │                       │      │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-69421 
+│                       │      │                  │       25-69420 
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       26-22795 
+│                       │      │                  │       25-69421 
 │                       │      │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-22795 
+│                       │      │                  ├ [39]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
-│                       │      │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:1473 
-│                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/2c8f0e5fa9b
+│                       │      │                  ├ [40]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
+│                       │      │                  ├ [41]: https://errata.rockylinux.org/RLSA-2026:1473 
+│                       │      │                  ├ [42]: https://github.com/openssl/openssl/commit/2c8f0e5fa9b
 │                       │      │                  │       6ee5508a0349e4572ddb74db5a703 
-│                       │      │                  ├ [42]: https://github.com/openssl/openssl/commit/5f26d4202f5
+│                       │      │                  ├ [43]: https://github.com/openssl/openssl/commit/5f26d4202f5
 │                       │      │                  │       b89664c5c3f3c62086276026ba9a9 
-│                       │      │                  ├ [43]: https://github.com/openssl/openssl/commit/6ced0fe6b10
+│                       │      │                  ├ [44]: https://github.com/openssl/openssl/commit/6ced0fe6b10
 │                       │      │                  │       faa560e410e3ee8d6c82f06c65ea3 
-│                       │      │                  ├ [44]: https://github.com/openssl/openssl/commit/ce39170276d
+│                       │      │                  ├ [45]: https://github.com/openssl/openssl/commit/ce39170276d
 │                       │      │                  │       aec87f55c39dad1f629b56344429e 
-│                       │      │                  ├ [45]: https://github.com/openssl/openssl/commit/d0071a0799f
+│                       │      │                  ├ [46]: https://github.com/openssl/openssl/commit/d0071a0799f
 │                       │      │                  │       20cc8101730145349ed4487c268dc 
-│                       │      │                  ├ [46]: https://linux.oracle.com/cve/CVE-2025-15467.html 
-│                       │      │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
-│                       │      │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2025-15467 
-│                       │      │                  ├ [49]: https://openssl-library.org/news/secadv/20260127.txt 
-│                       │      │                  ├ [50]: https://ubuntu.com/security/notices/USN-7980-1 
-│                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-15467 
+│                       │      │                  ├ [47]: https://linux.oracle.com/cve/CVE-2025-15467.html 
+│                       │      │                  ├ [48]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
+│                       │      │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2025-15467 
+│                       │      │                  ├ [50]: https://openssl-library.org/news/secadv/20260127.txt 
+│                       │      │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-1 
+│                       │      │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2025-15467 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:14.257Z 
-│                       │      ╰ LastModifiedDate: 2026-02-02T18:38:55.073Z 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2025-15468 
+│                       │      ╰ LastModifiedDate: 2026-02-25T22:16:19.68Z 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2025-15468 
 │                       │      ├ PkgID           : openssl@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.3-1ubuntu2?arch=amd64&dist
@@ -12989,6 +13352,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
@@ -13066,7 +13430,7 @@
 │                       │      │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2025-15468 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:14.4Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:38:00.947Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2025-15469 
+│                       ├ [48] ╭ VulnerabilityID : CVE-2025-15469 
 │                       │      ├ PkgID           : openssl@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.3-1ubuntu2?arch=amd64&dist
@@ -13205,7 +13569,7 @@
 │                       │      │                  ╰ [47]: https://www.cve.org/CVERecord?id=CVE-2025-15469 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:14.523Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:37:39.313Z 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2025-66199 
+│                       ├ [49] ╭ VulnerabilityID : CVE-2025-66199 
 │                       │      ├ PkgID           : openssl@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.3-1ubuntu2?arch=amd64&dist
@@ -13276,6 +13640,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-789 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
@@ -13353,7 +13718,7 @@
 │                       │      │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2025-66199 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:15.777Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:37:19.613Z 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2025-68160 
+│                       ├ [50] ╭ VulnerabilityID : CVE-2025-68160 
 │                       │      ├ PkgID           : openssl@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.3-1ubuntu2?arch=amd64&dist
@@ -13411,7 +13776,9 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
@@ -13491,7 +13858,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-68160 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:15.9Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:36:57.727Z 
-│                       ├ [47] ╭ VulnerabilityID : CVE-2025-69418 
+│                       ├ [51] ╭ VulnerabilityID : CVE-2025-69418 
 │                       │      ├ PkgID           : openssl@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.3-1ubuntu2?arch=amd64&dist
@@ -13549,7 +13916,9 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-325 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
@@ -13629,7 +13998,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-69418 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:33.253Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:36:03.557Z 
-│                       ├ [48] ╭ VulnerabilityID : CVE-2025-69419 
+│                       ├ [52] ╭ VulnerabilityID : CVE-2025-69419 
 │                       │      ├ PkgID           : openssl@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.3-1ubuntu2?arch=amd64&dist
@@ -13705,8 +14074,10 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
-│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 3 
@@ -13777,7 +14148,7 @@
 │                       │      │                  ├ [44]: https://github.com/openssl/openssl/commit/ff628933755
 │                       │      │                  │       075446bca8307e8417c14d164b535 
 │                       │      │                  ├ [45]: https://linux.oracle.com/cve/CVE-2025-69419.html 
-│                       │      │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
+│                       │      │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2026-50131.html 
 │                       │      │                  ├ [47]: https://nvd.nist.gov/vuln/detail/CVE-2025-69419 
 │                       │      │                  ├ [48]: https://openssl-library.org/news/secadv/20260127.txt 
 │                       │      │                  ├ [49]: https://ubuntu.com/security/notices/USN-7980-1 
@@ -13785,7 +14156,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-69419 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:34.113Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:35:02.177Z 
-│                       ├ [49] ╭ VulnerabilityID : CVE-2025-69420 
+│                       ├ [53] ╭ VulnerabilityID : CVE-2025-69420 
 │                       │      ├ PkgID           : openssl@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.3-1ubuntu2?arch=amd64&dist
@@ -13848,7 +14219,9 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 1 
@@ -13928,7 +14301,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-69420 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:34.317Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:33:30.557Z 
-│                       ├ [50] ╭ VulnerabilityID : CVE-2025-69421 
+│                       ├ [54] ╭ VulnerabilityID : CVE-2025-69421 
 │                       │      ├ PkgID           : openssl@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.3-1ubuntu2?arch=amd64&dist
@@ -13981,7 +14354,9 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
@@ -14064,8 +14439,8 @@
 │                       │      │                  ├ [50]: https://ubuntu.com/security/notices/USN-7980-2 
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-69421 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:34.437Z 
-│                       │      ╰ LastModifiedDate: 2026-02-02T18:29:59.693Z 
-│                       ├ [51] ╭ VulnerabilityID : CVE-2026-22795 
+│                       │      ╰ LastModifiedDate: 2026-02-28T04:16:17.457Z 
+│                       ├ [55] ╭ VulnerabilityID : CVE-2026-22795 
 │                       │      ├ PkgID           : openssl@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.3-1ubuntu2?arch=amd64&dist
@@ -14128,7 +14503,9 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
@@ -14208,7 +14585,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2026-22795 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:35.43Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:41:14.917Z 
-│                       ├ [52] ╭ VulnerabilityID : CVE-2026-22796 
+│                       ├ [56] ╭ VulnerabilityID : CVE-2026-22796 
 │                       │      ├ PkgID           : openssl@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.3-1ubuntu2?arch=amd64&dist
@@ -14271,6 +14648,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
@@ -14351,7 +14729,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2026-22796 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:35.543Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:40:27.467Z 
-│                       ├ [53] ╭ VulnerabilityID : CVE-2025-11187 
+│                       ├ [57] ╭ VulnerabilityID : CVE-2025-11187 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl-provider-legacy 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.3-1ubuntu2
@@ -14493,7 +14871,7 @@
 │                       │      │                  ╰ [48]: https://www.cve.org/CVERecord?id=CVE-2025-11187 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:14.093Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:39:21.74Z 
-│                       ├ [54] ╭ VulnerabilityID : CVE-2025-15467 
+│                       ├ [58] ╭ VulnerabilityID : CVE-2025-15467 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl-provider-legacy 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.3-1ubuntu2
@@ -14515,16 +14893,16 @@
 │                       │      │                   63944881b2e 
 │                       │      ├ Title           : openssl: OpenSSL: Remote code execution or Denial of Service
 │                       │      │                    via oversized Initialization Vector in CMS parsing 
-│                       │      ├ Description     : Issue summary: Parsing CMS AuthEnvelopedData message with
-│                       │      │                   maliciously
-│                       │      │                   crafted AEAD parameters can trigger a stack buffer
-│                       │      │                   overflow.
+│                       │      ├ Description     : Issue summary: Parsing CMS AuthEnvelopedData or
+│                       │      │                   EnvelopedData message with
+│                       │      │                   maliciously crafted AEAD parameters can trigger a stack
+│                       │      │                   buffer overflow.
 │                       │      │                   
 │                       │      │                   Impact summary: A stack buffer overflow may lead to a crash,
 │                       │      │                    causing Denial
 │                       │      │                   of Service, or potentially remote code execution.
-│                       │      │                   When parsing CMS AuthEnvelopedData structures that use AEAD
-│                       │      │                   ciphers such as
+│                       │      │                   When parsing CMS (Auth)EnvelopedData structures that use
+│                       │      │                   AEAD ciphers such as
 │                       │      │                   AES-GCM, the IV (Initialization Vector) encoded in the ASN.1
 │                       │      │                    parameters is
 │                       │      │                   copied into a fixed-size stack buffer without verifying that
@@ -14536,8 +14914,8 @@
 │                       │      │                   authentication or tag verification occurs.
 │                       │      │                   Applications and services that parse untrusted CMS or PKCS#7
 │                       │      │                    content using
-│                       │      │                   AEAD ciphers (e.g., S/MIME AuthEnvelopedData with AES-GCM)
-│                       │      │                   are vulnerable.
+│                       │      │                   AEAD ciphers (e.g., S/MIME (Auth)EnvelopedData with AES-GCM)
+│                       │      │                    are vulnerable.
 │                       │      │                   Because the overflow occurs prior to authentication, no
 │                       │      │                   valid key material
 │                       │      │                   is required to trigger it. While exploitability to remote
@@ -14568,77 +14946,78 @@
 │                       │      │                           ╰ V3Score : 9.8 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/01/27
 │                       │      │                  │       /10 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:1473 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-15467 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2430375 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2430376 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2430377 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2430378 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2430379 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2430380 
-│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2430381 
-│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2430386 
-│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2430387 
-│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2430388 
-│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2430389 
-│                       │      │                  ├ [14]: https://bugzilla.redhat.com/2430390 
-│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2430375 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2430376 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2430377 
-│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2430378 
-│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2430379 
-│                       │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2430380 
-│                       │      │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2430381 
-│                       │      │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2430386 
-│                       │      │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2430387 
-│                       │      │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2430388 
-│                       │      │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2430389 
-│                       │      │                  ├ [26]: https://bugzilla.redhat.com/show_bug.cgi?id=2430390 
-│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-11187 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2026/02/25/6 
+│                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:1473 
+│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2025-15467 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2430375 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2430376 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2430377 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2430378 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2430379 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2430380 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2430381 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2430386 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2430387 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2430388 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/2430389 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/2430390 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2430375 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2430376 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2430377 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2430378 
+│                       │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2430379 
+│                       │      │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2430380 
+│                       │      │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2430381 
+│                       │      │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2430386 
+│                       │      │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2430387 
+│                       │      │                  ├ [25]: https://bugzilla.redhat.com/show_bug.cgi?id=2430388 
+│                       │      │                  ├ [26]: https://bugzilla.redhat.com/show_bug.cgi?id=2430389 
+│                       │      │                  ├ [27]: https://bugzilla.redhat.com/show_bug.cgi?id=2430390 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-15467 
+│                       │      │                  │       25-11187 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-15468 
+│                       │      │                  │       25-15467 
 │                       │      │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-15469 
+│                       │      │                  │       25-15468 
 │                       │      │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-66199 
+│                       │      │                  │       25-15469 
 │                       │      │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-68160 
+│                       │      │                  │       25-66199 
 │                       │      │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-69418 
+│                       │      │                  │       25-68160 
 │                       │      │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-69419 
+│                       │      │                  │       25-69418 
 │                       │      │                  ├ [35]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-69420 
+│                       │      │                  │       25-69419 
 │                       │      │                  ├ [36]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       25-69421 
+│                       │      │                  │       25-69420 
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       26-22795 
+│                       │      │                  │       25-69421 
 │                       │      │                  ├ [38]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-22795 
+│                       │      │                  ├ [39]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
-│                       │      │                  ├ [39]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [40]: https://errata.rockylinux.org/RLSA-2026:1473 
-│                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/2c8f0e5fa9b
+│                       │      │                  ├ [40]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
+│                       │      │                  ├ [41]: https://errata.rockylinux.org/RLSA-2026:1473 
+│                       │      │                  ├ [42]: https://github.com/openssl/openssl/commit/2c8f0e5fa9b
 │                       │      │                  │       6ee5508a0349e4572ddb74db5a703 
-│                       │      │                  ├ [42]: https://github.com/openssl/openssl/commit/5f26d4202f5
+│                       │      │                  ├ [43]: https://github.com/openssl/openssl/commit/5f26d4202f5
 │                       │      │                  │       b89664c5c3f3c62086276026ba9a9 
-│                       │      │                  ├ [43]: https://github.com/openssl/openssl/commit/6ced0fe6b10
+│                       │      │                  ├ [44]: https://github.com/openssl/openssl/commit/6ced0fe6b10
 │                       │      │                  │       faa560e410e3ee8d6c82f06c65ea3 
-│                       │      │                  ├ [44]: https://github.com/openssl/openssl/commit/ce39170276d
+│                       │      │                  ├ [45]: https://github.com/openssl/openssl/commit/ce39170276d
 │                       │      │                  │       aec87f55c39dad1f629b56344429e 
-│                       │      │                  ├ [45]: https://github.com/openssl/openssl/commit/d0071a0799f
+│                       │      │                  ├ [46]: https://github.com/openssl/openssl/commit/d0071a0799f
 │                       │      │                  │       20cc8101730145349ed4487c268dc 
-│                       │      │                  ├ [46]: https://linux.oracle.com/cve/CVE-2025-15467.html 
-│                       │      │                  ├ [47]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
-│                       │      │                  ├ [48]: https://nvd.nist.gov/vuln/detail/CVE-2025-15467 
-│                       │      │                  ├ [49]: https://openssl-library.org/news/secadv/20260127.txt 
-│                       │      │                  ├ [50]: https://ubuntu.com/security/notices/USN-7980-1 
-│                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-15467 
+│                       │      │                  ├ [47]: https://linux.oracle.com/cve/CVE-2025-15467.html 
+│                       │      │                  ├ [48]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
+│                       │      │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2025-15467 
+│                       │      │                  ├ [50]: https://openssl-library.org/news/secadv/20260127.txt 
+│                       │      │                  ├ [51]: https://ubuntu.com/security/notices/USN-7980-1 
+│                       │      │                  ╰ [52]: https://www.cve.org/CVERecord?id=CVE-2025-15467 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:14.257Z 
-│                       │      ╰ LastModifiedDate: 2026-02-02T18:38:55.073Z 
-│                       ├ [55] ╭ VulnerabilityID : CVE-2025-15468 
+│                       │      ╰ LastModifiedDate: 2026-02-25T22:16:19.68Z 
+│                       ├ [59] ╭ VulnerabilityID : CVE-2025-15468 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl-provider-legacy 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.3-1ubuntu2
@@ -14694,6 +15073,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
@@ -14771,7 +15151,7 @@
 │                       │      │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2025-15468 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:14.4Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:38:00.947Z 
-│                       ├ [56] ╭ VulnerabilityID : CVE-2025-15469 
+│                       ├ [60] ╭ VulnerabilityID : CVE-2025-15469 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl-provider-legacy 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.3-1ubuntu2
@@ -14910,7 +15290,7 @@
 │                       │      │                  ╰ [47]: https://www.cve.org/CVERecord?id=CVE-2025-15469 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:14.523Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:37:39.313Z 
-│                       ├ [57] ╭ VulnerabilityID : CVE-2025-66199 
+│                       ├ [61] ╭ VulnerabilityID : CVE-2025-66199 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl-provider-legacy 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.3-1ubuntu2
@@ -14981,6 +15361,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-789 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
@@ -15058,7 +15439,7 @@
 │                       │      │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2025-66199 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:15.777Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:37:19.613Z 
-│                       ├ [58] ╭ VulnerabilityID : CVE-2025-68160 
+│                       ├ [62] ╭ VulnerabilityID : CVE-2025-68160 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl-provider-legacy 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.3-1ubuntu2
@@ -15116,7 +15497,9 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
@@ -15196,7 +15579,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-68160 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:15.9Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:36:57.727Z 
-│                       ├ [59] ╭ VulnerabilityID : CVE-2025-69418 
+│                       ├ [63] ╭ VulnerabilityID : CVE-2025-69418 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl-provider-legacy 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.3-1ubuntu2
@@ -15254,7 +15637,9 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-325 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
@@ -15334,7 +15719,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-69418 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:33.253Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:36:03.557Z 
-│                       ├ [60] ╭ VulnerabilityID : CVE-2025-69419 
+│                       ├ [64] ╭ VulnerabilityID : CVE-2025-69419 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl-provider-legacy 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.3-1ubuntu2
@@ -15410,8 +15795,10 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-787 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
-│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 3 
@@ -15482,7 +15869,7 @@
 │                       │      │                  ├ [44]: https://github.com/openssl/openssl/commit/ff628933755
 │                       │      │                  │       075446bca8307e8417c14d164b535 
 │                       │      │                  ├ [45]: https://linux.oracle.com/cve/CVE-2025-69419.html 
-│                       │      │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2026-50081.html 
+│                       │      │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2026-50131.html 
 │                       │      │                  ├ [47]: https://nvd.nist.gov/vuln/detail/CVE-2025-69419 
 │                       │      │                  ├ [48]: https://openssl-library.org/news/secadv/20260127.txt 
 │                       │      │                  ├ [49]: https://ubuntu.com/security/notices/USN-7980-1 
@@ -15490,7 +15877,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-69419 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:34.113Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:35:02.177Z 
-│                       ├ [61] ╭ VulnerabilityID : CVE-2025-69420 
+│                       ├ [65] ╭ VulnerabilityID : CVE-2025-69420 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl-provider-legacy 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.3-1ubuntu2
@@ -15553,7 +15940,9 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 3 
+│                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 1 
@@ -15633,7 +16022,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-69420 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:34.317Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:33:30.557Z 
-│                       ├ [62] ╭ VulnerabilityID : CVE-2025-69421 
+│                       ├ [66] ╭ VulnerabilityID : CVE-2025-69421 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl-provider-legacy 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.3-1ubuntu2
@@ -15686,7 +16075,9 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-476 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
@@ -15769,8 +16160,8 @@
 │                       │      │                  ├ [50]: https://ubuntu.com/security/notices/USN-7980-2 
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2025-69421 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:34.437Z 
-│                       │      ╰ LastModifiedDate: 2026-02-02T18:29:59.693Z 
-│                       ├ [63] ╭ VulnerabilityID : CVE-2026-22795 
+│                       │      ╰ LastModifiedDate: 2026-02-28T04:16:17.457Z 
+│                       ├ [67] ╭ VulnerabilityID : CVE-2026-22795 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl-provider-legacy 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.3-1ubuntu2
@@ -15833,7 +16224,9 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
@@ -15913,7 +16306,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2026-22795 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:35.43Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:41:14.917Z 
-│                       ├ [64] ╭ VulnerabilityID : CVE-2026-22796 
+│                       ├ [68] ╭ VulnerabilityID : CVE-2026-22796 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.5.3-1ubuntu2 
 │                       │      ├ PkgName         : openssl-provider-legacy 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.3-1ubuntu2
@@ -15976,6 +16369,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-754 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
@@ -16056,7 +16450,7 @@
 │                       │      │                  ╰ [51]: https://www.cve.org/CVERecord?id=CVE-2026-22796 
 │                       │      ├ PublishedDate   : 2026-01-27T16:16:35.543Z 
 │                       │      ╰ LastModifiedDate: 2026-02-02T18:40:27.467Z 
-│                       ├ [65] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [69] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.17.4-2ubuntu2 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.17.4-2ubuntu2?arch=amd64&dist
@@ -16118,7 +16512,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
-│                       ╰ [66] ╭ VulnerabilityID : CVE-2025-45582 
+│                       ╰ [70] ╭ VulnerabilityID : CVE-2025-45582 
 │                              ├ PkgID           : tar@1.35+dfsg-3.1build1 
 │                              ├ PkgName         : tar 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1build1?arch=amd64&d
@@ -16199,664 +16593,855 @@
 │                              │                          urity-rules-of-thumb.html 
 │                              ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                              ╰ LastModifiedDate: 2025-11-02T01:15:32.307Z 
-╰ [1] ╭ Target  : Java 
-      ├ Class   : lang-pkgs 
-      ├ Type    : jar 
-      ╰ Packages ╭ [0]  ╭ Name      : com.fasterxml.jackson.core:jackson-annotations 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.20 
-                 │      │            ╰ UID : 58b3f59746021d4b 
-                 │      ├ Version   : 2.20 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [1]  ╭ Name      : com.fasterxml.jackson.core:jackson-core 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.20.1 
-                 │      │            ╰ UID : 1996e2d8cd1022b9 
-                 │      ├ Version   : 2.20.1 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [2]  ╭ Name      : com.fasterxml.jackson.core:jackson-databind 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.20.1 
-                 │      │            ╰ UID : 6c556f8b9b0117ec 
-                 │      ├ Version   : 2.20.1 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [3]  ╭ Name      : com.fasterxml.jackson.dataformat:jackson-dataformat-toml 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataformat-toml
-                 │      │            │       @2.19.2 
-                 │      │            ╰ UID : cd502bd403e61f97 
-                 │      ├ Version   : 2.19.2 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [4]  ╭ Name      : com.github.mwiede:jsch 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.github.mwiede/jsch@2.27.6 
-                 │      │            ╰ UID : 7c5f9c834d8395f 
-                 │      ├ Version   : 2.27.6 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [5]  ╭ Name      : com.github.vertical-blank:sql-formatter 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.github.vertical-blank/sql-formatter@2.0.5 
-                 │      │            ╰ UID : b476ea318a48e65d 
-                 │      ├ Version   : 2.0.5 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [6]  ╭ Name      : com.google.code.gson:gson 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.google.code.gson/gson@2.13.2 
-                 │      │            ╰ UID : 55058bf256f684f6 
-                 │      ├ Version   : 2.13.2 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [7]  ╭ Name      : com.googlecode.juniversalchardet:juniversalchardet 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.googlecode.juniversalchardet/juniversalchardet@1.0.3 
-                 │      │            ╰ UID : 5447189855b6db87 
-                 │      ├ Version   : 1.0.3 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [8]  ╭ Name      : com.jcraft:jsch.agentproxy.connector-factory 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.connector-factory@0.0.9 
-                 │      │            ╰ UID : a99fffa9ec19f7cf 
-                 │      ├ Version   : 0.0.9 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [9]  ╭ Name      : com.jcraft:jsch.agentproxy.core 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.core@0.0.9 
-                 │      │            ╰ UID : afb96fc5c6b4a255 
-                 │      ├ Version   : 0.0.9 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [10] ╭ Name      : com.jcraft:jsch.agentproxy.jsch 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.jsch@0.0.9 
-                 │      │            ╰ UID : 8066e61c44eb14ea 
-                 │      ├ Version   : 0.0.9 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [11] ╭ Name      : com.jcraft:jsch.agentproxy.pageant 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.pageant@0.0.9 
-                 │      │            ╰ UID : c0284278b99b17bc 
-                 │      ├ Version   : 0.0.9 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [12] ╭ Name      : com.jcraft:jsch.agentproxy.sshagent 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.sshagent@0.0.9 
-                 │      │            ╰ UID : bd9e5fa40773f9dc 
-                 │      ├ Version   : 0.0.9 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [13] ╭ Name      : com.jcraft:jsch.agentproxy.svnkit-trilead-ssh2 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.svnkit-trilead-ssh2@0.0.9 
-                 │      │            ╰ UID : 4bc35c3b9b6add62 
-                 │      ├ Version   : 0.0.9 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [14] ╭ Name      : com.jcraft:jsch.agentproxy.usocket-jna 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.usocket-jna@0.0.9 
-                 │      │            ╰ UID : c30290a3390d8666 
-                 │      ├ Version   : 0.0.9 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [15] ╭ Name      : com.jcraft:jsch.agentproxy.usocket-nc 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.usocket-nc@0.0.9 
-                 │      │            ╰ UID : 48390e4cf4a3666a 
-                 │      ├ Version   : 0.0.9 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [16] ╭ Name      : com.sun.activation:javax.activation 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.sun.activation/javax.activation@1.2.0 
-                 │      │            ╰ UID : 76398eb1d6d13adc 
-                 │      ├ Version   : 1.2.0 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [17] ╭ Name      : com.sun.mail:javax.mail 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.sun.mail/javax.mail@1.6.2 
-                 │      │            ╰ UID : 1e7beb37baabc57a 
-                 │      ├ Version   : 1.6.2 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [18] ╭ Name      : com.warrenstrange:googleauth 
-                 │      ├ Identifier ╭ PURL: pkg:maven/com.warrenstrange/googleauth@1.5.0 
-                 │      │            ╰ UID : 99ee628fb0243c8d 
-                 │      ├ Version   : 1.5.0 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [19] ╭ Name      : commons-cli:commons-cli 
-                 │      ├ Identifier ╭ PURL: pkg:maven/commons-cli/commons-cli@1.11.0 
-                 │      │            ╰ UID : 3475d2ee4b04dbe0 
-                 │      ├ Version   : 1.11.0 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [20] ╭ Name      : commons-codec:commons-codec 
-                 │      ├ Identifier ╭ PURL: pkg:maven/commons-codec/commons-codec@1.20.0 
-                 │      │            ╰ UID : 7de4c84c0e3f3115 
-                 │      ├ Version   : 1.20.0 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [21] ╭ Name      : commons-io:commons-io 
-                 │      ├ Identifier ╭ PURL: pkg:maven/commons-io/commons-io@2.21.0 
-                 │      │            ╰ UID : 2061cef217097cbb 
-                 │      ├ Version   : 2.21.0 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [22] ╭ Name      : commons-logging:commons-logging 
-                 │      ├ Identifier ╭ PURL: pkg:maven/commons-logging/commons-logging@1.3.5 
-                 │      │            ╰ UID : 8120d86e07931c92 
-                 │      ├ Version   : 1.3.5 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [23] ╭ Name      : commons-net:commons-net 
-                 │      ├ Identifier ╭ PURL: pkg:maven/commons-net/commons-net@3.12.0 
-                 │      │            ╰ UID : f30479acbb8d626f 
-                 │      ├ Version   : 3.12.0 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [24] ╭ Name      : de.vandermeer:asciilist-j7 
-                 │      ├ Identifier ╭ PURL: pkg:maven/de.vandermeer/asciilist-j7@1.0.0 
-                 │      │            ╰ UID : 5d38f221ce7d2a1 
-                 │      ├ Version   : 1.0.0 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [25] ╭ Name      : de.vandermeer:asciitable-j7 
-                 │      ├ Identifier ╭ PURL: pkg:maven/de.vandermeer/asciitable-j7@1.0.1 
-                 │      │            ╰ UID : 4ec0aaacbd72cc14 
-                 │      ├ Version   : 1.0.1 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [26] ╭ Name      : dnsjava:dnsjava 
-                 │      ├ Identifier ╭ PURL: pkg:maven/dnsjava/dnsjava@3.6.3 
-                 │      │            ╰ UID : 5943d2f91aeed918 
-                 │      ├ Version   : 3.6.3 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [27] ╭ Name      : io.jsonwebtoken:jjwt-api 
-                 │      ├ Identifier ╭ PURL: pkg:maven/io.jsonwebtoken/jjwt-api@0.13.0 
-                 │      │            ╰ UID : fe506a80a2899a4a 
-                 │      ├ Version   : 0.13.0 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [28] ╭ Name      : io.jsonwebtoken:jjwt-gson 
-                 │      ├ Identifier ╭ PURL: pkg:maven/io.jsonwebtoken/jjwt-gson@0.13.0 
-                 │      │            ╰ UID : cc7c47a353e36bec 
-                 │      ├ Version   : 0.13.0 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [29] ╭ Name      : io.jsonwebtoken:jjwt-impl 
-                 │      ├ Identifier ╭ PURL: pkg:maven/io.jsonwebtoken/jjwt-impl@0.13.0 
-                 │      │            ╰ UID : fb75cc968ac3dc0d 
-                 │      ├ Version   : 0.13.0 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [30] ╭ Name      : io.sigpipe:jbsdiff 
-                 │      ├ Identifier ╭ PURL: pkg:maven/io.sigpipe/jbsdiff@1.0 
-                 │      │            ╰ UID : e618a95843fba36b 
-                 │      ├ Version   : 1.0 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [31] ╭ Name      : jakarta.activation:jakarta.activation-api 
-                 │      ├ Identifier ╭ PURL: pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2 
-                 │      │            ╰ UID : 5d2ee0e1a121653f 
-                 │      ├ Version   : 1.2.2 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [32] ╭ Name      : javax.xml.bind:jaxb-api 
-                 │      ├ Identifier ╭ PURL: pkg:maven/javax.xml.bind/jaxb-api@2.3.1 
-                 │      │            ╰ UID : d465243f613cf5b8 
-                 │      ├ Version   : 2.3.1 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [33] ╭ Name      : jline:jline 
-                 │      ├ Identifier ╭ PURL: pkg:maven/jline/jline@2.14.6 
-                 │      │            ╰ UID : 509c1c4b5bcd42a1 
-                 │      ├ Version   : 2.14.6 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [34] ╭ Name      : org.apache.commons:commons-collections4 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-collections4@4.5.0 
-                 │      │            ╰ UID : 72513cdccf1d063 
-                 │      ├ Version   : 4.5.0 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [35] ╭ Name      : org.apache.commons:commons-compress 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-compress@1.28.0 
-                 │      │            ╰ UID : a82eeb62843349ae 
-                 │      ├ Version   : 1.28.0 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [36] ╭ Name      : org.apache.commons:commons-csv 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-csv@1.14.1 
-                 │      │            ╰ UID : 250a69832ed56f8d 
-                 │      ├ Version   : 1.14.1 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [37] ╭ Name      : org.apache.commons:commons-email 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-email@1.6.0 
-                 │      │            ╰ UID : 973048c510561123 
-                 │      ├ Version   : 1.6.0 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [38] ╭ Name      : org.apache.commons:commons-lang3 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-lang3@3.19.0 
-                 │      │            ╰ UID : f267aeee188ae905 
-                 │      ├ Version   : 3.19.0 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [39] ╭ Name      : org.apache.commons:commons-math3 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-math3@3.6.1 
-                 │      │            ╰ UID : ce9b8a6c7e85850 
-                 │      ├ Version   : 3.6.1 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [40] ╭ Name      : org.eclipse.jetty.compression:jetty-compression-common 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.compression/jetty-compression-common@1
-                 │      │            │       2.1.4 
-                 │      │            ╰ UID : f37e5e834b4a703f 
-                 │      ├ Version   : 12.1.4 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [41] ╭ Name      : org.eclipse.jetty.websocket:jetty-websocket-core-client 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-core-client@
-                 │      │            │       12.1.4 
-                 │      │            ╰ UID : 580e7ee2f5e0631d 
-                 │      ├ Version   : 12.1.4 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [42] ╭ Name      : org.eclipse.jetty.websocket:jetty-websocket-core-common 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-core-common@
-                 │      │            │       12.1.4 
-                 │      │            ╰ UID : e7b817f228319546 
-                 │      ├ Version   : 12.1.4 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [43] ╭ Name      : org.eclipse.jetty.websocket:jetty-websocket-jetty-api 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-jetty-api@12
-                 │      │            │       .1.4 
-                 │      │            ╰ UID : 884cadec5b8bc19f 
-                 │      ├ Version   : 12.1.4 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [44] ╭ Name      : org.eclipse.jetty.websocket:jetty-websocket-jetty-client 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-jetty-client
-                 │      │            │       @12.1.4 
-                 │      │            ╰ UID : 35d5b28501b6a385 
-                 │      ├ Version   : 12.1.4 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [45] ╭ Name      : org.eclipse.jetty.websocket:jetty-websocket-jetty-common 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-jetty-common
-                 │      │            │       @12.1.4 
-                 │      │            ╰ UID : 82dbeb6fdddb95cf 
-                 │      ├ Version   : 12.1.4 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [46] ╭ Name      : org.eclipse.jetty:jetty-client 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-client@12.1.3 
-                 │      │            ╰ UID : 7786ea18dd55a07c 
-                 │      ├ Version   : 12.1.3 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [47] ╭ Name      : org.eclipse.jetty:jetty-http 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-http@12.1.4 
-                 │      │            ╰ UID : ca9ccff3501f06b9 
-                 │      ├ Version   : 12.1.4 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [48] ╭ Name      : org.eclipse.jetty:jetty-io 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-io@12.1.3 
-                 │      │            ╰ UID : f8351b3bbf480fcd 
-                 │      ├ Version   : 12.1.3 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [49] ╭ Name      : org.eclipse.jetty:jetty-util 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-util@12.1.3 
-                 │      │            ╰ UID : 9c4d92131b8724cc 
-                 │      ├ Version   : 12.1.3 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [50] ╭ Name      : org.fusesource.hawtjni:hawtjni-runtime 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.hawtjni/hawtjni-runtime@1.17 
-                 │      │            ╰ UID : cf88955c9d0ae18b 
-                 │      ├ Version   : 1.17 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [51] ╭ Name      : org.fusesource.jansi:jansi 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi@1.18 
-                 │      │            ╰ UID : 8ad8d3ab8ae11065 
-                 │      ├ Version   : 1.18 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [52] ╭ Name      : org.fusesource.jansi:jansi-freebsd32 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-freebsd32@1.8 
-                 │      │            ╰ UID : 87b73bc3f694180c 
-                 │      ├ Version   : 1.8 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [53] ╭ Name      : org.fusesource.jansi:jansi-freebsd64 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-freebsd64@1.8 
-                 │      │            ╰ UID : 68d99c3788225531 
-                 │      ├ Version   : 1.8 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [54] ╭ Name      : org.fusesource.jansi:jansi-linux32 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-linux32@1.8 
-                 │      │            ╰ UID : b748a87749ace306 
-                 │      ├ Version   : 1.8 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [55] ╭ Name      : org.fusesource.jansi:jansi-linux64 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-linux64@1.8 
-                 │      │            ╰ UID : 26eee13eafbc9417 
-                 │      ├ Version   : 1.8 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [56] ╭ Name      : org.fusesource.jansi:jansi-native 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-native@1.8 
-                 │      │            ╰ UID : 6fdce73a584d6707 
-                 │      ├ Version   : 1.8 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [57] ╭ Name      : org.fusesource.jansi:jansi-osx 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-osx@1.8 
-                 │      │            ╰ UID : 907023130116e83c 
-                 │      ├ Version   : 1.8 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [58] ╭ Name      : org.fusesource.jansi:jansi-windows32 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-windows32@1.8 
-                 │      │            ╰ UID : ab926f311d1d4210 
-                 │      ├ Version   : 1.8 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [59] ╭ Name      : org.fusesource.jansi:jansi-windows64 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-windows64@1.8 
-                 │      │            ╰ UID : edf1cd987a2068b8 
-                 │      ├ Version   : 1.8 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [60] ╭ Name      : org.semver4j:semver4j 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.semver4j/semver4j@6.0.0 
-                 │      │            ╰ UID : 452bf269462d8b69 
-                 │      ├ Version   : 6.0.0 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [61] ╭ Name      : org.slf4j:slf4j-api 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.slf4j/slf4j-api@2.0.17 
-                 │      │            ╰ UID : e6e431b8b5e0302a 
-                 │      ├ Version   : 2.0.17 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [62] ╭ Name      : org.slf4j:slf4j-nop 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.slf4j/slf4j-nop@2.0.17 
-                 │      │            ╰ UID : 67713c09148cf9b 
-                 │      ├ Version   : 2.0.17 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ├ [63] ╭ Name      : org.snmp4j:snmp4j 
-                 │      ├ Identifier ╭ PURL: pkg:maven/org.snmp4j/snmp4j@3.9.6 
-                 │      │            ╰ UID : fc06219dfaa6f987 
-                 │      ├ Version   : 3.9.6 
-                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                 │      │            │         360709c 
-                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                 │      │                      6e18e80 
-                 │      ├ FilePath  : openaf/openaf.jar 
-                 │      ╰ AnalyzedBy: jar 
-                 ╰ [64] ╭ Name      : org.snmp4j:snmp4j-agent 
-                        ├ Identifier ╭ PURL: pkg:maven/org.snmp4j/snmp4j-agent@3.8.2 
-                        │            ╰ UID : 8910657e688649b8 
-                        ├ Version   : 3.8.2 
-                        ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08
-                        │            │         360709c 
-                        │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf508
-                        │                      6e18e80 
-                        ├ FilePath  : openaf/openaf.jar 
-                        ╰ AnalyzedBy: jar 
+╰ [1] ╭ Target         : Java 
+      ├ Class          : lang-pkgs 
+      ├ Type           : jar 
+      ├ Packages        ╭ [0]  ╭ Name      : com.fasterxml.jackson.core:jackson-annotations 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.20 
+      │                 │      │            ╰ UID : 58b3f59746021d4b 
+      │                 │      ├ Version   : 2.20 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [1]  ╭ Name      : com.fasterxml.jackson.core:jackson-core 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.20.1 
+      │                 │      │            ╰ UID : 1996e2d8cd1022b9 
+      │                 │      ├ Version   : 2.20.1 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [2]  ╭ Name      : com.fasterxml.jackson.core:jackson-databind 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.20.1 
+      │                 │      │            ╰ UID : 6c556f8b9b0117ec 
+      │                 │      ├ Version   : 2.20.1 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [3]  ╭ Name      : com.fasterxml.jackson.dataformat:jackson-dataformat-toml 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.fasterxml.jackson.dataformat/jackson-dataform
+      │                 │      │            │       at-toml@2.19.2 
+      │                 │      │            ╰ UID : cd502bd403e61f97 
+      │                 │      ├ Version   : 2.19.2 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [4]  ╭ Name      : com.github.mwiede:jsch 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.github.mwiede/jsch@2.27.6 
+      │                 │      │            ╰ UID : 7c5f9c834d8395f 
+      │                 │      ├ Version   : 2.27.6 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [5]  ╭ Name      : com.github.vertical-blank:sql-formatter 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.github.vertical-blank/sql-formatter@2.0.5 
+      │                 │      │            ╰ UID : b476ea318a48e65d 
+      │                 │      ├ Version   : 2.0.5 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [6]  ╭ Name      : com.google.code.gson:gson 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.google.code.gson/gson@2.13.2 
+      │                 │      │            ╰ UID : 55058bf256f684f6 
+      │                 │      ├ Version   : 2.13.2 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [7]  ╭ Name      : com.googlecode.juniversalchardet:juniversalchardet 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.googlecode.juniversalchardet/juniversalcharde
+      │                 │      │            │       t@1.0.3 
+      │                 │      │            ╰ UID : 5447189855b6db87 
+      │                 │      ├ Version   : 1.0.3 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [8]  ╭ Name      : com.jcraft:jsch.agentproxy.connector-factory 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.connector-factory@0.0.9 
+      │                 │      │            ╰ UID : a99fffa9ec19f7cf 
+      │                 │      ├ Version   : 0.0.9 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [9]  ╭ Name      : com.jcraft:jsch.agentproxy.core 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.core@0.0.9 
+      │                 │      │            ╰ UID : afb96fc5c6b4a255 
+      │                 │      ├ Version   : 0.0.9 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [10] ╭ Name      : com.jcraft:jsch.agentproxy.jsch 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.jsch@0.0.9 
+      │                 │      │            ╰ UID : 8066e61c44eb14ea 
+      │                 │      ├ Version   : 0.0.9 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [11] ╭ Name      : com.jcraft:jsch.agentproxy.pageant 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.pageant@0.0.9 
+      │                 │      │            ╰ UID : c0284278b99b17bc 
+      │                 │      ├ Version   : 0.0.9 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [12] ╭ Name      : com.jcraft:jsch.agentproxy.sshagent 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.sshagent@0.0.9 
+      │                 │      │            ╰ UID : bd9e5fa40773f9dc 
+      │                 │      ├ Version   : 0.0.9 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [13] ╭ Name      : com.jcraft:jsch.agentproxy.svnkit-trilead-ssh2 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.svnkit-trilead-ssh2@0.
+      │                 │      │            │       0.9 
+      │                 │      │            ╰ UID : 4bc35c3b9b6add62 
+      │                 │      ├ Version   : 0.0.9 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [14] ╭ Name      : com.jcraft:jsch.agentproxy.usocket-jna 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.usocket-jna@0.0.9 
+      │                 │      │            ╰ UID : c30290a3390d8666 
+      │                 │      ├ Version   : 0.0.9 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [15] ╭ Name      : com.jcraft:jsch.agentproxy.usocket-nc 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.jcraft/jsch.agentproxy.usocket-nc@0.0.9 
+      │                 │      │            ╰ UID : 48390e4cf4a3666a 
+      │                 │      ├ Version   : 0.0.9 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [16] ╭ Name      : com.sun.activation:javax.activation 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.sun.activation/javax.activation@1.2.0 
+      │                 │      │            ╰ UID : 76398eb1d6d13adc 
+      │                 │      ├ Version   : 1.2.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [17] ╭ Name      : com.sun.mail:javax.mail 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.sun.mail/javax.mail@1.6.2 
+      │                 │      │            ╰ UID : 1e7beb37baabc57a 
+      │                 │      ├ Version   : 1.6.2 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [18] ╭ Name      : com.warrenstrange:googleauth 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/com.warrenstrange/googleauth@1.5.0 
+      │                 │      │            ╰ UID : 99ee628fb0243c8d 
+      │                 │      ├ Version   : 1.5.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [19] ╭ Name      : commons-cli:commons-cli 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/commons-cli/commons-cli@1.11.0 
+      │                 │      │            ╰ UID : 3475d2ee4b04dbe0 
+      │                 │      ├ Version   : 1.11.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [20] ╭ Name      : commons-codec:commons-codec 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/commons-codec/commons-codec@1.20.0 
+      │                 │      │            ╰ UID : 7de4c84c0e3f3115 
+      │                 │      ├ Version   : 1.20.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [21] ╭ Name      : commons-io:commons-io 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/commons-io/commons-io@2.21.0 
+      │                 │      │            ╰ UID : 2061cef217097cbb 
+      │                 │      ├ Version   : 2.21.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [22] ╭ Name      : commons-logging:commons-logging 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/commons-logging/commons-logging@1.3.5 
+      │                 │      │            ╰ UID : 8120d86e07931c92 
+      │                 │      ├ Version   : 1.3.5 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [23] ╭ Name      : commons-net:commons-net 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/commons-net/commons-net@3.12.0 
+      │                 │      │            ╰ UID : f30479acbb8d626f 
+      │                 │      ├ Version   : 3.12.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [24] ╭ Name      : de.vandermeer:asciilist-j7 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/de.vandermeer/asciilist-j7@1.0.0 
+      │                 │      │            ╰ UID : 5d38f221ce7d2a1 
+      │                 │      ├ Version   : 1.0.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [25] ╭ Name      : de.vandermeer:asciitable-j7 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/de.vandermeer/asciitable-j7@1.0.1 
+      │                 │      │            ╰ UID : 4ec0aaacbd72cc14 
+      │                 │      ├ Version   : 1.0.1 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [26] ╭ Name      : dnsjava:dnsjava 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/dnsjava/dnsjava@3.6.3 
+      │                 │      │            ╰ UID : 5943d2f91aeed918 
+      │                 │      ├ Version   : 3.6.3 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [27] ╭ Name      : io.jsonwebtoken:jjwt-api 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/io.jsonwebtoken/jjwt-api@0.13.0 
+      │                 │      │            ╰ UID : fe506a80a2899a4a 
+      │                 │      ├ Version   : 0.13.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [28] ╭ Name      : io.jsonwebtoken:jjwt-gson 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/io.jsonwebtoken/jjwt-gson@0.13.0 
+      │                 │      │            ╰ UID : cc7c47a353e36bec 
+      │                 │      ├ Version   : 0.13.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [29] ╭ Name      : io.jsonwebtoken:jjwt-impl 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/io.jsonwebtoken/jjwt-impl@0.13.0 
+      │                 │      │            ╰ UID : fb75cc968ac3dc0d 
+      │                 │      ├ Version   : 0.13.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [30] ╭ Name      : io.sigpipe:jbsdiff 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/io.sigpipe/jbsdiff@1.0 
+      │                 │      │            ╰ UID : e618a95843fba36b 
+      │                 │      ├ Version   : 1.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [31] ╭ Name      : jakarta.activation:jakarta.activation-api 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2 
+      │                 │      │            ╰ UID : 5d2ee0e1a121653f 
+      │                 │      ├ Version   : 1.2.2 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [32] ╭ Name      : javax.xml.bind:jaxb-api 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/javax.xml.bind/jaxb-api@2.3.1 
+      │                 │      │            ╰ UID : d465243f613cf5b8 
+      │                 │      ├ Version   : 2.3.1 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [33] ╭ Name      : jline:jline 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/jline/jline@2.14.6 
+      │                 │      │            ╰ UID : 509c1c4b5bcd42a1 
+      │                 │      ├ Version   : 2.14.6 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [34] ╭ Name      : org.apache.commons:commons-collections4 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-collections4@4.5.0 
+      │                 │      │            ╰ UID : 72513cdccf1d063 
+      │                 │      ├ Version   : 4.5.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [35] ╭ Name      : org.apache.commons:commons-compress 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-compress@1.28.0 
+      │                 │      │            ╰ UID : a82eeb62843349ae 
+      │                 │      ├ Version   : 1.28.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [36] ╭ Name      : org.apache.commons:commons-csv 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-csv@1.14.1 
+      │                 │      │            ╰ UID : 250a69832ed56f8d 
+      │                 │      ├ Version   : 1.14.1 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [37] ╭ Name      : org.apache.commons:commons-email 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-email@1.6.0 
+      │                 │      │            ╰ UID : 973048c510561123 
+      │                 │      ├ Version   : 1.6.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [38] ╭ Name      : org.apache.commons:commons-lang3 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-lang3@3.19.0 
+      │                 │      │            ╰ UID : f267aeee188ae905 
+      │                 │      ├ Version   : 3.19.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [39] ╭ Name      : org.apache.commons:commons-math3 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.apache.commons/commons-math3@3.6.1 
+      │                 │      │            ╰ UID : ce9b8a6c7e85850 
+      │                 │      ├ Version   : 3.6.1 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [40] ╭ Name      : org.eclipse.jetty.compression:jetty-compression-common 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.compression/jetty-compression-c
+      │                 │      │            │       ommon@12.1.4 
+      │                 │      │            ╰ UID : f37e5e834b4a703f 
+      │                 │      ├ Version   : 12.1.4 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [41] ╭ Name      : org.eclipse.jetty.websocket:jetty-websocket-core-client 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-core-
+      │                 │      │            │       client@12.1.4 
+      │                 │      │            ╰ UID : 580e7ee2f5e0631d 
+      │                 │      ├ Version   : 12.1.4 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [42] ╭ Name      : org.eclipse.jetty.websocket:jetty-websocket-core-common 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-core-
+      │                 │      │            │       common@12.1.4 
+      │                 │      │            ╰ UID : e7b817f228319546 
+      │                 │      ├ Version   : 12.1.4 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [43] ╭ Name      : org.eclipse.jetty.websocket:jetty-websocket-jetty-api 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-jetty
+      │                 │      │            │       -api@12.1.4 
+      │                 │      │            ╰ UID : 884cadec5b8bc19f 
+      │                 │      ├ Version   : 12.1.4 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [44] ╭ Name      : org.eclipse.jetty.websocket:jetty-websocket-jetty-client 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-jetty
+      │                 │      │            │       -client@12.1.4 
+      │                 │      │            ╰ UID : 35d5b28501b6a385 
+      │                 │      ├ Version   : 12.1.4 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [45] ╭ Name      : org.eclipse.jetty.websocket:jetty-websocket-jetty-common 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty.websocket/jetty-websocket-jetty
+      │                 │      │            │       -common@12.1.4 
+      │                 │      │            ╰ UID : 82dbeb6fdddb95cf 
+      │                 │      ├ Version   : 12.1.4 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [46] ╭ Name      : org.eclipse.jetty:jetty-client 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-client@12.1.3 
+      │                 │      │            ╰ UID : 7786ea18dd55a07c 
+      │                 │      ├ Version   : 12.1.3 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [47] ╭ Name      : org.eclipse.jetty:jetty-http 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-http@12.1.4 
+      │                 │      │            ╰ UID : ca9ccff3501f06b9 
+      │                 │      ├ Version   : 12.1.4 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [48] ╭ Name      : org.eclipse.jetty:jetty-io 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-io@12.1.3 
+      │                 │      │            ╰ UID : f8351b3bbf480fcd 
+      │                 │      ├ Version   : 12.1.3 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [49] ╭ Name      : org.eclipse.jetty:jetty-util 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-util@12.1.3 
+      │                 │      │            ╰ UID : 9c4d92131b8724cc 
+      │                 │      ├ Version   : 12.1.3 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [50] ╭ Name      : org.fusesource.hawtjni:hawtjni-runtime 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.hawtjni/hawtjni-runtime@1.17 
+      │                 │      │            ╰ UID : cf88955c9d0ae18b 
+      │                 │      ├ Version   : 1.17 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [51] ╭ Name      : org.fusesource.jansi:jansi 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi@1.18 
+      │                 │      │            ╰ UID : 8ad8d3ab8ae11065 
+      │                 │      ├ Version   : 1.18 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [52] ╭ Name      : org.fusesource.jansi:jansi-freebsd32 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-freebsd32@1.8 
+      │                 │      │            ╰ UID : 87b73bc3f694180c 
+      │                 │      ├ Version   : 1.8 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [53] ╭ Name      : org.fusesource.jansi:jansi-freebsd64 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-freebsd64@1.8 
+      │                 │      │            ╰ UID : 68d99c3788225531 
+      │                 │      ├ Version   : 1.8 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [54] ╭ Name      : org.fusesource.jansi:jansi-linux32 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-linux32@1.8 
+      │                 │      │            ╰ UID : b748a87749ace306 
+      │                 │      ├ Version   : 1.8 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [55] ╭ Name      : org.fusesource.jansi:jansi-linux64 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-linux64@1.8 
+      │                 │      │            ╰ UID : 26eee13eafbc9417 
+      │                 │      ├ Version   : 1.8 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [56] ╭ Name      : org.fusesource.jansi:jansi-native 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-native@1.8 
+      │                 │      │            ╰ UID : 6fdce73a584d6707 
+      │                 │      ├ Version   : 1.8 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [57] ╭ Name      : org.fusesource.jansi:jansi-osx 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-osx@1.8 
+      │                 │      │            ╰ UID : 907023130116e83c 
+      │                 │      ├ Version   : 1.8 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [58] ╭ Name      : org.fusesource.jansi:jansi-windows32 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-windows32@1.8 
+      │                 │      │            ╰ UID : ab926f311d1d4210 
+      │                 │      ├ Version   : 1.8 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [59] ╭ Name      : org.fusesource.jansi:jansi-windows64 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.fusesource.jansi/jansi-windows64@1.8 
+      │                 │      │            ╰ UID : edf1cd987a2068b8 
+      │                 │      ├ Version   : 1.8 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [60] ╭ Name      : org.semver4j:semver4j 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.semver4j/semver4j@6.0.0 
+      │                 │      │            ╰ UID : 452bf269462d8b69 
+      │                 │      ├ Version   : 6.0.0 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [61] ╭ Name      : org.slf4j:slf4j-api 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.slf4j/slf4j-api@2.0.17 
+      │                 │      │            ╰ UID : e6e431b8b5e0302a 
+      │                 │      ├ Version   : 2.0.17 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [62] ╭ Name      : org.slf4j:slf4j-nop 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.slf4j/slf4j-nop@2.0.17 
+      │                 │      │            ╰ UID : 67713c09148cf9b 
+      │                 │      ├ Version   : 2.0.17 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ├ [63] ╭ Name      : org.snmp4j:snmp4j 
+      │                 │      ├ Identifier ╭ PURL: pkg:maven/org.snmp4j/snmp4j@3.9.6 
+      │                 │      │            ╰ UID : fc06219dfaa6f987 
+      │                 │      ├ Version   : 3.9.6 
+      │                 │      ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                 │      │            │         9898f08360709c 
+      │                 │      │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                 │      │                      35bf5086e18e80 
+      │                 │      ├ FilePath  : openaf/openaf.jar 
+      │                 │      ╰ AnalyzedBy: jar 
+      │                 ╰ [64] ╭ Name      : org.snmp4j:snmp4j-agent 
+      │                        ├ Identifier ╭ PURL: pkg:maven/org.snmp4j/snmp4j-agent@3.8.2 
+      │                        │            ╰ UID : 8910657e688649b8 
+      │                        ├ Version   : 3.8.2 
+      │                        ├ Layer      ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab
+      │                        │            │         9898f08360709c 
+      │                        │            ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c
+      │                        │                      35bf5086e18e80 
+      │                        ├ FilePath  : openaf/openaf.jar 
+      │                        ╰ AnalyzedBy: jar 
+      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : GHSA-72hv-8253-57qq 
+                              ├ PkgName         : com.fasterxml.jackson.core:jackson-core 
+                              ├ PkgPath         : openaf/openaf.jar 
+                              ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.20.1 
+                              │                  ╰ UID : 1996e2d8cd1022b9 
+                              ├ InstalledVersion: 2.20.1 
+                              ├ FixedVersion    : 2.18.6, 2.21.1, 3.1.0 
+                              ├ Status          : fixed 
+                              ├ Layer            ╭ Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b3
+                              │                  │         6faab9898f08360709c 
+                              │                  ╰ DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efea
+                              │                            ef22c35bf5086e18e80 
+                              ├ SeveritySource  : ghsa 
+                              ├ PrimaryURL      : https://github.com/advisories/GHSA-72hv-8253-57qq 
+                              ├ DataSource       ╭ ID  : ghsa 
+                              │                  ├ Name: GitHub Security Advisory Maven 
+                              │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+                              │                          osystem%3Amaven 
+                              ├ Fingerprint     : sha256:1b1c7e782a712ca941d48ba36ca3f4345ae53e7aa0a345a3f2716e
+                              │                   05ae446cc5 
+                              ├ Title           : jackson-core: Number Length Constraint Bypass in Async Parser
+                              │                    Leads to Potential DoS Condition 
+                              ├ Description     : ### Summary
+                              │                   The non-blocking (async) JSON parser in `jackson-core`
+                              │                   bypasses the `maxNumberLength` constraint (default: 1000
+                              │                   characters) defined in `StreamReadConstraints`. This allows
+                              │                   an attacker to send JSON with arbitrarily long numbers
+                              │                   through the async parser API, leading to excessive memory
+                              │                   allocation and potential CPU exhaustion, resulting in a
+                              │                   Denial of Service (DoS).
+                              │                   
+                              │                   The standard synchronous parser correctly enforces this
+                              │                   limit, but the async parser fails to do so, creating an
+                              │                   inconsistent enforcement policy.
+                              │                   ### Details
+                              │                   The root cause is that the async parsing path in
+                              │                   `NonBlockingUtf8JsonParserBase` (and related classes) does
+                              │                   not call the methods responsible for number length
+                              │                   validation.
+                              │                   - The number parsing methods (e.g.,
+                              │                   `_finishNumberIntegralPart`) accumulate digits into the
+                              │                   `TextBuffer` without any length checks.
+                              │                   - After parsing, they call `_valueComplete()`, which
+                              │                   finalizes the token but does **not** call `resetInt()` or
+                              │                   `resetFloat()`.
+                              │                   - The `resetInt()`/`resetFloat()` methods in `ParserBase` are
+                              │                    where the `validateIntegerLength()` and `validateFPLength()`
+                              │                    checks are performed.
+                              │                   - Because this validation step is skipped, the
+                              │                   `maxNumberLength` constraint is never enforced in the async
+                              │                   code path.
+                              │                   ### PoC
+                              │                   The following JUnit 5 test demonstrates the vulnerability. It
+                              │                    shows that the async parser accepts a 5,000-digit number,
+                              │                   whereas the limit should be 1,000.
+                              │                   ```java
+                              │                   package tools.jackson.core.unittest.dos;
+                              │                   import java.nio.charset.StandardCharsets;
+                              │                   import org.junit.jupiter.api.Test;
+                              │                   import tools.jackson.core.*;
+                              │                   import tools.jackson.core.exc.StreamConstraintsException;
+                              │                   import tools.jackson.core.json.JsonFactory;
+                              │                   import
+                              │                   tools.jackson.core.json.async.NonBlockingByteArrayJsonParser;
+                              │                   import static org.junit.jupiter.api.Assertions.*;
+                              │                   /**
+                              │                    * POC: Number Length Constraint Bypass in Non-Blocking
+                              │                   (Async) JSON Parsers
+                              │                    *
+                              │                    * Authors: sprabhav7, rohan-repos
+                              │                    * 
+                              │                    * maxNumberLength default = 1000 characters (digits).
+                              │                    * A number with more than 1000 digits should be rejected by
+                              │                   any parser.
+                              │                    * BUG: The async parser never calls resetInt()/resetFloat()
+                              │                   which is where
+                              │                    * validateIntegerLength()/validateFPLength() lives. Instead
+                              │                   it calls
+                              │                    * _valueComplete() which skips all number length
+                              │                    * CWE-770: Allocation of Resources Without Limits or
+                              │                   Throttling
+                              │                    */
+                              │                   class AsyncParserNumberLengthBypassTest {
+                              │                       private static final int MAX_NUMBER_LENGTH = 1000;
+                              │                       private static final int TEST_NUMBER_LENGTH = 5000;
+                              │                       private final JsonFactory factory = new JsonFactory();
+                              │                       // CONTROL: Sync parser correctly rejects a number
+                              │                   exceeding maxNumberLength
+                              │                       @Test
+                              │                       void syncParserRejectsLongNumber() throws Exception {
+                              │                           byte[] payload =
+                              │                   buildPayloadWithLongInteger(TEST_NUMBER_LENGTH);
+                              │                   		
+                              │                   		// Output to console
+                              │                           System.out.println("[SYNC] Parsing " +
+                              │                   TEST_NUMBER_LENGTH + "-digit number (limit: " +
+                              │                   MAX_NUMBER_LENGTH + ")");
+                              │                           try {
+                              │                               try (JsonParser p =
+                              │                   factory.createParser(ObjectReadContext.empty(), payload)) {
+                              │                                   while (p.nextToken() != null) {
+                              │                                       if (p.currentToken() ==
+                              │                   JsonToken.VALUE_NUMBER_INT) {
+                              │                                           System.out.println("[SYNC] Accepted
+                              │                   number with " + p.getText().length() + " digits —
+                              │                   UNEXPECTED");
+                              │                                       }
+                              │                                   }
+                              │                               }
+                              │                               fail("Sync parser must reject a " +
+                              │                   TEST_NUMBER_LENGTH + "-digit number");
+                              │                           } catch (StreamConstraintsException e) {
+                              │                               System.out.println("[SYNC] Rejected with
+                              │                   StreamConstraintsException: " + e.getMessage());
+                              │                           }
+                              │                       }
+                              │                       // VULNERABILITY: Async parser accepts the SAME number
+                              │                   that sync rejects
+                              │                       void asyncParserAcceptsLongNumber() throws Exception {
+                              │                           NonBlockingByteArrayJsonParser p =
+                              │                               (NonBlockingByteArrayJsonParser)
+                              │                   factory.createNonBlockingByteArrayParser(ObjectReadContext.em
+                              │                   pty());
+                              │                           p.feedInput(payload, 0, payload.length);
+                              │                           p.endOfInput();
+                              │                           boolean foundNumber = false;
+                              │                               while (p.nextToken() != null) {
+                              │                                   if (p.currentToken() ==
+                              │                                       foundNumber = true;
+                              │                                       String numberText = p.getText();
+                              │                                       assertEquals(TEST_NUMBER_LENGTH,
+                              │                   numberText.length(),
+                              │                                           "Async parser silently accepted all "
+                              │                    + TEST_NUMBER_LENGTH + " digits");
+                              │                               // Output to console
+                              │                               System.out.println("[ASYNC INT] Accepted number
+                              │                   with " + TEST_NUMBER_LENGTH + " digits — BUG CONFIRMED");
+                              │                               assertTrue(foundNumber, "Parser should have
+                              │                   produced a VALUE_NUMBER_INT token");
+                              │                               fail("Bug is fixed — async parser now correctly
+                              │                   rejects long numbers: " + e.getMessage());
+                              │                           p.close();
+                              │                       private byte[] buildPayloadWithLongInteger(int numDigits)
+                              │                    {
+                              │                           StringBuilder sb = new StringBuilder(numDigits +
+                              │                   10);
+                              │                           sb.append("{\"v\":");
+                              │                           for (int i = 0; i < numDigits; i++) {
+                              │                               sb.append((char) ('1' + (i % 9)));
+                              │                           sb.append('}');
+                              │                           return
+                              │                   sb.toString().getBytes(StandardCharsets.UTF_8);
+                              │                   }
+                              │                   ```
+                              │                   ### Impact
+                              │                   A malicious actor can send a JSON document with an
+                              │                   arbitrarily long number to an application using the async
+                              │                   parser (e.g., in a Spring WebFlux or other reactive
+                              │                   application). This can cause:
+                              │                   1.  **Memory Exhaustion:** Unbounded allocation of memory in
+                              │                   the `TextBuffer` to store the number's digits, leading to an
+                              │                   `OutOfMemoryError`.
+                              │                   2.  **CPU Exhaustion:** If the application subsequently calls
+                              │                    `getBigIntegerValue()` or `getDecimalValue()`, the JVM can
+                              │                   be tied up in O(n^2) `BigInteger` parsing operations, leading
+                              │                    to a CPU-based DoS.
+                              │                   ### Suggested Remediation
+                              │                   The async parsing path should be updated to respect the
+                              │                   `maxNumberLength` constraint. The simplest fix appears to
+                              │                   ensure that `_valueComplete()` or a similar method in the
+                              │                   async path calls the appropriate validation methods
+                              │                   (`resetInt()` or `resetFloat()`) already present in
+                              │                   `ParserBase`, mirroring the behavior of the synchronous
+                              │                   parsers.
+                              │                   **NOTE:** This research was performed in collaboration with
+                              │                   [rohan-repos](https://github.com/rohan-repos) 
+                              ├ Severity        : HIGH 
+                              ├ VendorSeverity   ─ ghsa: 3 
+                              ├ CVSS             ─ ghsa ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:
+                              │                         │            N/VA:H/SC:N/SI:N/SA:N 
+                              │                         ╰ V40Score : 8.7 
+                              ├ References       ╭ [0]: https://github.com/FasterXML/jackson-core 
+                              │                  ├ [1]: https://github.com/FasterXML/jackson-core/commit/a004e9
+                              │                  │      789c2cc6b41b379d02d229d58474d9a738 
+                              │                  ├ [2]: https://github.com/FasterXML/jackson-core/issues/1538 
+                              │                  ╰ [3]: https://github.com/FasterXML/jackson-core/security/advi
+                              │                         sories/GHSA-72hv-8253-57qq 
+                              ├ PublishedDate   : 2026-02-28T02:01:05Z 
+                              ╰ LastModifiedDate: 2026-02-28T02:01:06Z 
 ````
