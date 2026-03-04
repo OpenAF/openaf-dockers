@@ -8822,7 +8822,8 @@
       PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
       UID: 8ef236a4efe90d33
     InstalledVersion: 8.14.1-2ubuntu1
-    Status: affected
+    FixedVersion: 8.14.1-2ubuntu1.1
+    Status: fixed
     Layer:
       Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08360709c
       DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf5086e18e80
@@ -8833,14 +8834,35 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:c285f94c97e7c08113283359aa852f074ec3b710bca1d156a061f276930f6a22
-    Description: wcurl path traversal with percent-encoded slashes
+    Title: 'wcurl: wcurl: Arbitrary file placement via crafted URLs'
+    Description: |-
+      URLs containing percent-encoded slashes (`/` or `\`) can trick wcurl into
+      saving the output file outside of the current directory without the user
+      explicitly asking for it.
+
+      This flaw only affects the wcurl command line tool.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-22
     VendorSeverity:
       amazon: 2
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L
+        V3Score: 6.5
     References:
+    - http://www.openwall.com/lists/oss-security/2025/11/04/1
+    - https://access.redhat.com/security/cve/CVE-2025-11563
     - https://curl.se/docs/CVE-2025-11563.html
+    - https://curl.se/docs/CVE-2025-11563.json
+    - https://lists.debian.org/debian-release/2025/11/msg00504.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-11563
+    - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-11563
+    PublishedDate: '2026-02-25T08:16:18.337Z'
+    LastModifiedDate: '2026-02-26T20:06:37.45Z'
   - VulnerabilityID: CVE-2025-13034
     PkgID: curl@8.14.1-2ubuntu1
     PkgName: curl
@@ -8848,7 +8870,8 @@
       PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
       UID: 8ef236a4efe90d33
     InstalledVersion: 8.14.1-2ubuntu1
-    Status: affected
+    FixedVersion: 8.14.1-2ubuntu1.1
+    Status: fixed
     Layer:
       Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08360709c
       DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf5086e18e80
@@ -8874,14 +8897,66 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      amazon: 2
       photon: 2
       ubuntu: 2
     References:
     - https://curl.se/docs/CVE-2025-13034.html
     - https://curl.se/docs/CVE-2025-13034.json
+    - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-13034
     PublishedDate: '2026-01-08T10:15:45.407Z'
     LastModifiedDate: '2026-01-20T14:54:02.73Z'
+  - VulnerabilityID: CVE-2025-14017
+    PkgID: curl@8.14.1-2ubuntu1
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
+      UID: 8ef236a4efe90d33
+    InstalledVersion: 8.14.1-2ubuntu1
+    FixedVersion: 8.14.1-2ubuntu1.1
+    Status: fixed
+    Layer:
+      Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08360709c
+      DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf5086e18e80
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14017
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:04e27718a14f6f12fef0e33d8c427d5436be23e95d63ece7efe9e7a640edd9d3
+    Title: 'curl: curl: Security bypass due to global TLS option changes in multi-threaded LDAPS transfers'
+    Description: |-
+      When doing multi-threaded LDAPS transfers (LDAP over TLS) with libcurl,
+      changing TLS options in one thread would inadvertently change them globally
+      and therefore possibly also affect other concurrently setup transfers.
+
+      Disabling certificate verification for a specific transfer could
+      unintentionally disable the feature for other threads as well.
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/07/3
+    - https://access.redhat.com/security/cve/CVE-2025-14017
+    - https://curl.se/docs/CVE-2025-14017.html
+    - https://curl.se/docs/CVE-2025-14017.json
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14017
+    - https://ubuntu.com/security/notices/USN-8062-1
+    - https://ubuntu.com/security/notices/USN-8062-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-14017
+    PublishedDate: '2026-01-08T10:15:45.667Z'
+    LastModifiedDate: '2026-01-27T21:29:39.953Z'
   - VulnerabilityID: CVE-2025-10148
     PkgID: curl@8.14.1-2ubuntu1
     PkgName: curl
@@ -8889,7 +8964,8 @@
       PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
       UID: 8ef236a4efe90d33
     InstalledVersion: 8.14.1-2ubuntu1
-    Status: affected
+    FixedVersion: 8.14.1-2ubuntu1.1
+    Status: fixed
     Layer:
       Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08360709c
       DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf5086e18e80
@@ -8932,6 +9008,7 @@
     - https://curl.se/docs/CVE-2025-10148.json
     - https://hackerone.com/reports/3330839
     - https://nvd.nist.gov/vuln/detail/CVE-2025-10148
+    - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-10148
     PublishedDate: '2025-09-12T06:15:40.02Z'
     LastModifiedDate: '2026-01-20T14:55:47.997Z'
@@ -8942,7 +9019,8 @@
       PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
       UID: 8ef236a4efe90d33
     InstalledVersion: 8.14.1-2ubuntu1
-    Status: affected
+    FixedVersion: 8.14.1-2ubuntu1.1
+    Status: fixed
     Layer:
       Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08360709c
       DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf5086e18e80
@@ -8963,6 +9041,7 @@
     CweIDs:
     - CWE-601
     VendorSeverity:
+      amazon: 2
       photon: 2
       ubuntu: 1
     References:
@@ -8970,6 +9049,7 @@
     - https://curl.se/docs/CVE-2025-14524.html
     - https://curl.se/docs/CVE-2025-14524.json
     - https://hackerone.com/reports/3459417
+    - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-14524
     PublishedDate: '2026-01-08T10:15:46.607Z'
     LastModifiedDate: '2026-01-20T14:53:11.017Z'
@@ -8980,7 +9060,8 @@
       PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
       UID: 8ef236a4efe90d33
     InstalledVersion: 8.14.1-2ubuntu1
-    Status: affected
+    FixedVersion: 8.14.1-2ubuntu1.1
+    Status: fixed
     Layer:
       Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08360709c
       DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf5086e18e80
@@ -9002,12 +9083,14 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      amazon: 2
       photon: 2
       ubuntu: 1
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/07/5
     - https://curl.se/docs/CVE-2025-14819.html
     - https://curl.se/docs/CVE-2025-14819.json
+    - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-14819
     PublishedDate: '2026-01-08T10:15:46.73Z'
     LastModifiedDate: '2026-01-20T14:51:26.263Z'
@@ -9018,7 +9101,8 @@
       PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
       UID: 8ef236a4efe90d33
     InstalledVersion: 8.14.1-2ubuntu1
-    Status: affected
+    FixedVersion: 8.14.1-2ubuntu1.1
+    Status: fixed
     Layer:
       Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08360709c
       DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf5086e18e80
@@ -9079,6 +9163,7 @@
     - https://linux.oracle.com/errata/ELSA-2026-1825.html
     - https://lists.debian.org/debian-lts-announce/2026/01/msg00002.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
+    - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
     LastModifiedDate: '2026-01-20T14:58:01.347Z'
@@ -9163,6 +9248,7 @@
       alma: 3
       amazon: 3
       azure: 3
+      cbl-mariner: 3
       nvd: 3
       oracle-oval: 3
       photon: 3
@@ -9195,7 +9281,7 @@
     - https://github.com/gpg/gnupg/compare/gnupg-2.2.50...gnupg-2.2.51
     - https://gpg.fail/memcpy
     - https://linux.oracle.com/cve/CVE-2025-68973.html
-    - https://linux.oracle.com/errata/ELSA-2026-0728.html
+    - https://linux.oracle.com/errata/ELSA-2026-1677.html
     - https://lists.debian.org/debian-lts-announce/2026/01/msg00008.html
     - https://media.ccc.de/v/39c3-to-sign-or-not-to-sign-practical-vulnerabilities-i
     - https://news.ycombinator.com/item?id=46403200
@@ -9320,9 +9406,12 @@
     CweIDs:
     - CWE-908
     VendorSeverity:
+      alma: 2
       azure: 2
+      oracle-oval: 2
       photon: 3
       redhat: 1
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -9330,7 +9419,21 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/20/3
+    - https://access.redhat.com/errata/RHSA-2026:2786
     - https://access.redhat.com/security/cve/CVE-2025-15281
+    - https://bugzilla.redhat.com/2429771
+    - https://bugzilla.redhat.com/2430201
+    - https://bugzilla.redhat.com/2431196
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429771
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2430201
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431196
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15281
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0861
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0915
+    - https://errata.almalinux.org/9/ALSA-2026-2786.html
+    - https://errata.rockylinux.org/RLSA-2026:2786
+    - https://linux.oracle.com/cve/CVE-2025-15281.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15281
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33814
     - https://ubuntu.com/security/notices/USN-8005-1
@@ -9382,18 +9485,21 @@
         V3Score: 8.1
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/16/5
-    - https://access.redhat.com/errata/RHSA-2026:1334
+    - https://access.redhat.com/errata/RHSA-2026:2786
     - https://access.redhat.com/security/cve/CVE-2026-0861
     - https://bugzilla.redhat.com/2429771
     - https://bugzilla.redhat.com/2430201
+    - https://bugzilla.redhat.com/2431196
     - https://bugzilla.redhat.com/show_bug.cgi?id=2429771
     - https://bugzilla.redhat.com/show_bug.cgi?id=2430201
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431196
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15281
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0861
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0915
-    - https://errata.almalinux.org/10/ALSA-2026-1334.html
-    - https://errata.rockylinux.org/RLSA-2026:1334
+    - https://errata.almalinux.org/9/ALSA-2026-2786.html
+    - https://errata.rockylinux.org/RLSA-2026:2786
     - https://linux.oracle.com/cve/CVE-2026-0861.html
-    - https://linux.oracle.com/errata/ELSA-2026-50078.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33796
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0001
@@ -9440,18 +9546,21 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/16/6
-    - https://access.redhat.com/errata/RHSA-2026:1334
+    - https://access.redhat.com/errata/RHSA-2026:2786
     - https://access.redhat.com/security/cve/CVE-2026-0915
     - https://bugzilla.redhat.com/2429771
     - https://bugzilla.redhat.com/2430201
+    - https://bugzilla.redhat.com/2431196
     - https://bugzilla.redhat.com/show_bug.cgi?id=2429771
     - https://bugzilla.redhat.com/show_bug.cgi?id=2430201
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431196
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15281
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0861
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0915
-    - https://errata.almalinux.org/10/ALSA-2026-1334.html
-    - https://errata.rockylinux.org/RLSA-2026:1334
+    - https://errata.almalinux.org/9/ALSA-2026-2786.html
+    - https://errata.rockylinux.org/RLSA-2026:2786
     - https://linux.oracle.com/cve/CVE-2026-0915.html
-    - https://linux.oracle.com/errata/ELSA-2026-50078.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0915
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
     - https://ubuntu.com/security/notices/USN-8005-1
@@ -9484,9 +9593,12 @@
     CweIDs:
     - CWE-908
     VendorSeverity:
+      alma: 2
       azure: 2
+      oracle-oval: 2
       photon: 3
       redhat: 1
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -9494,7 +9606,21 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/20/3
+    - https://access.redhat.com/errata/RHSA-2026:2786
     - https://access.redhat.com/security/cve/CVE-2025-15281
+    - https://bugzilla.redhat.com/2429771
+    - https://bugzilla.redhat.com/2430201
+    - https://bugzilla.redhat.com/2431196
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2429771
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2430201
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431196
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15281
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0861
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0915
+    - https://errata.almalinux.org/9/ALSA-2026-2786.html
+    - https://errata.rockylinux.org/RLSA-2026:2786
+    - https://linux.oracle.com/cve/CVE-2025-15281.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-15281
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33814
     - https://ubuntu.com/security/notices/USN-8005-1
@@ -9546,18 +9672,21 @@
         V3Score: 8.1
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/16/5
-    - https://access.redhat.com/errata/RHSA-2026:1334
+    - https://access.redhat.com/errata/RHSA-2026:2786
     - https://access.redhat.com/security/cve/CVE-2026-0861
     - https://bugzilla.redhat.com/2429771
     - https://bugzilla.redhat.com/2430201
+    - https://bugzilla.redhat.com/2431196
     - https://bugzilla.redhat.com/show_bug.cgi?id=2429771
     - https://bugzilla.redhat.com/show_bug.cgi?id=2430201
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431196
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15281
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0861
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0915
-    - https://errata.almalinux.org/10/ALSA-2026-1334.html
-    - https://errata.rockylinux.org/RLSA-2026:1334
+    - https://errata.almalinux.org/9/ALSA-2026-2786.html
+    - https://errata.rockylinux.org/RLSA-2026:2786
     - https://linux.oracle.com/cve/CVE-2026-0861.html
-    - https://linux.oracle.com/errata/ELSA-2026-50078.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0861
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33796
     - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0001
@@ -9604,18 +9733,21 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/16/6
-    - https://access.redhat.com/errata/RHSA-2026:1334
+    - https://access.redhat.com/errata/RHSA-2026:2786
     - https://access.redhat.com/security/cve/CVE-2026-0915
     - https://bugzilla.redhat.com/2429771
     - https://bugzilla.redhat.com/2430201
+    - https://bugzilla.redhat.com/2431196
     - https://bugzilla.redhat.com/show_bug.cgi?id=2429771
     - https://bugzilla.redhat.com/show_bug.cgi?id=2430201
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2431196
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-15281
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0861
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-0915
-    - https://errata.almalinux.org/10/ALSA-2026-1334.html
-    - https://errata.rockylinux.org/RLSA-2026:1334
+    - https://errata.almalinux.org/9/ALSA-2026-2786.html
+    - https://errata.rockylinux.org/RLSA-2026:2786
     - https://linux.oracle.com/cve/CVE-2026-0915.html
-    - https://linux.oracle.com/errata/ELSA-2026-50078.html
+    - https://linux.oracle.com/errata/ELSA-2026-50120.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0915
     - https://sourceware.org/bugzilla/show_bug.cgi?id=33802
     - https://ubuntu.com/security/notices/USN-8005-1
@@ -9630,7 +9762,8 @@
       PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
       UID: 2ca5770396aa8f52
     InstalledVersion: 8.14.1-2ubuntu1
-    Status: affected
+    FixedVersion: 8.14.1-2ubuntu1.1
+    Status: fixed
     Layer:
       Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08360709c
       DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf5086e18e80
@@ -9641,14 +9774,35 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:a3f76be8f624892e70f5512919d256e4a6e8a9683baaa1d650ad833cc7192606
-    Description: wcurl path traversal with percent-encoded slashes
+    Title: 'wcurl: wcurl: Arbitrary file placement via crafted URLs'
+    Description: |-
+      URLs containing percent-encoded slashes (`/` or `\`) can trick wcurl into
+      saving the output file outside of the current directory without the user
+      explicitly asking for it.
+
+      This flaw only affects the wcurl command line tool.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-22
     VendorSeverity:
       amazon: 2
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L
+        V3Score: 6.5
     References:
+    - http://www.openwall.com/lists/oss-security/2025/11/04/1
+    - https://access.redhat.com/security/cve/CVE-2025-11563
     - https://curl.se/docs/CVE-2025-11563.html
+    - https://curl.se/docs/CVE-2025-11563.json
+    - https://lists.debian.org/debian-release/2025/11/msg00504.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-11563
+    - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-11563
+    PublishedDate: '2026-02-25T08:16:18.337Z'
+    LastModifiedDate: '2026-02-26T20:06:37.45Z'
   - VulnerabilityID: CVE-2025-13034
     PkgID: libcurl4t64@8.14.1-2ubuntu1
     PkgName: libcurl4t64
@@ -9656,7 +9810,8 @@
       PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
       UID: 2ca5770396aa8f52
     InstalledVersion: 8.14.1-2ubuntu1
-    Status: affected
+    FixedVersion: 8.14.1-2ubuntu1.1
+    Status: fixed
     Layer:
       Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08360709c
       DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf5086e18e80
@@ -9682,14 +9837,66 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      amazon: 2
       photon: 2
       ubuntu: 2
     References:
     - https://curl.se/docs/CVE-2025-13034.html
     - https://curl.se/docs/CVE-2025-13034.json
+    - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-13034
     PublishedDate: '2026-01-08T10:15:45.407Z'
     LastModifiedDate: '2026-01-20T14:54:02.73Z'
+  - VulnerabilityID: CVE-2025-14017
+    PkgID: libcurl4t64@8.14.1-2ubuntu1
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
+      UID: 2ca5770396aa8f52
+    InstalledVersion: 8.14.1-2ubuntu1
+    FixedVersion: 8.14.1-2ubuntu1.1
+    Status: fixed
+    Layer:
+      Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08360709c
+      DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf5086e18e80
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14017
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:5d68653a8ca631e80072a220ad83788db48f3eb64c143b17ac3fc77493512522
+    Title: 'curl: curl: Security bypass due to global TLS option changes in multi-threaded LDAPS transfers'
+    Description: |-
+      When doing multi-threaded LDAPS transfers (LDAP over TLS) with libcurl,
+      changing TLS options in one thread would inadvertently change them globally
+      and therefore possibly also affect other concurrently setup transfers.
+
+      Disabling certificate verification for a specific transfer could
+      unintentionally disable the feature for other threads as well.
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/07/3
+    - https://access.redhat.com/security/cve/CVE-2025-14017
+    - https://curl.se/docs/CVE-2025-14017.html
+    - https://curl.se/docs/CVE-2025-14017.json
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14017
+    - https://ubuntu.com/security/notices/USN-8062-1
+    - https://ubuntu.com/security/notices/USN-8062-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-14017
+    PublishedDate: '2026-01-08T10:15:45.667Z'
+    LastModifiedDate: '2026-01-27T21:29:39.953Z'
   - VulnerabilityID: CVE-2025-10148
     PkgID: libcurl4t64@8.14.1-2ubuntu1
     PkgName: libcurl4t64
@@ -9697,7 +9904,8 @@
       PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
       UID: 2ca5770396aa8f52
     InstalledVersion: 8.14.1-2ubuntu1
-    Status: affected
+    FixedVersion: 8.14.1-2ubuntu1.1
+    Status: fixed
     Layer:
       Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08360709c
       DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf5086e18e80
@@ -9740,6 +9948,7 @@
     - https://curl.se/docs/CVE-2025-10148.json
     - https://hackerone.com/reports/3330839
     - https://nvd.nist.gov/vuln/detail/CVE-2025-10148
+    - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-10148
     PublishedDate: '2025-09-12T06:15:40.02Z'
     LastModifiedDate: '2026-01-20T14:55:47.997Z'
@@ -9750,7 +9959,8 @@
       PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
       UID: 2ca5770396aa8f52
     InstalledVersion: 8.14.1-2ubuntu1
-    Status: affected
+    FixedVersion: 8.14.1-2ubuntu1.1
+    Status: fixed
     Layer:
       Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08360709c
       DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf5086e18e80
@@ -9771,6 +9981,7 @@
     CweIDs:
     - CWE-601
     VendorSeverity:
+      amazon: 2
       photon: 2
       ubuntu: 1
     References:
@@ -9778,6 +9989,7 @@
     - https://curl.se/docs/CVE-2025-14524.html
     - https://curl.se/docs/CVE-2025-14524.json
     - https://hackerone.com/reports/3459417
+    - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-14524
     PublishedDate: '2026-01-08T10:15:46.607Z'
     LastModifiedDate: '2026-01-20T14:53:11.017Z'
@@ -9788,7 +10000,8 @@
       PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
       UID: 2ca5770396aa8f52
     InstalledVersion: 8.14.1-2ubuntu1
-    Status: affected
+    FixedVersion: 8.14.1-2ubuntu1.1
+    Status: fixed
     Layer:
       Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08360709c
       DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf5086e18e80
@@ -9810,12 +10023,14 @@
     CweIDs:
     - CWE-295
     VendorSeverity:
+      amazon: 2
       photon: 2
       ubuntu: 1
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/07/5
     - https://curl.se/docs/CVE-2025-14819.html
     - https://curl.se/docs/CVE-2025-14819.json
+    - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-14819
     PublishedDate: '2026-01-08T10:15:46.73Z'
     LastModifiedDate: '2026-01-20T14:51:26.263Z'
@@ -9826,7 +10041,8 @@
       PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1?arch=amd64&distro=ubuntu-25.10
       UID: 2ca5770396aa8f52
     InstalledVersion: 8.14.1-2ubuntu1
-    Status: affected
+    FixedVersion: 8.14.1-2ubuntu1.1
+    Status: fixed
     Layer:
       Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08360709c
       DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf5086e18e80
@@ -9887,6 +10103,7 @@
     - https://linux.oracle.com/errata/ELSA-2026-1825.html
     - https://lists.debian.org/debian-lts-announce/2026/01/msg00002.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-9086
+    - https://ubuntu.com/security/notices/USN-8062-1
     - https://www.cve.org/CVERecord?id=CVE-2025-9086
     PublishedDate: '2025-09-12T06:15:44.1Z'
     LastModifiedDate: '2026-01-20T14:58:01.347Z'
@@ -9912,7 +10129,7 @@
     Description: A timing-based side-channel flaw was found in libgcrypt's RSA implementation. This issue may allow a remote attacker to initiate a Bleichenbacher-style attack, which can lead to the decryption of RSA ciphertexts.
     Severity: LOW
     CweIDs:
-    - CWE-208
+    - CWE-385
     VendorSeverity:
       alma: 2
       amazon: 2
@@ -9944,7 +10161,107 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2236
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
-    LastModifiedDate: '2025-04-02T17:15:37.79Z'
+    LastModifiedDate: '2026-02-25T20:17:20.547Z'
+  - VulnerabilityID: CVE-2025-14831
+    PkgID: libgnutls30t64@3.8.9-3ubuntu2
+    PkgName: libgnutls30t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-3ubuntu2?arch=amd64&distro=ubuntu-25.10
+      UID: 55a583ffc6365cc1
+    InstalledVersion: 3.8.9-3ubuntu2
+    FixedVersion: 3.8.9-3ubuntu2.1
+    Status: fixed
+    Layer:
+      Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08360709c
+      DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf5086e18e80
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14831
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:904dfce8595aaa7bedb88b8d696fab0cb3ad35620685445227fb3741ac4c37af
+    Title: 'gnutls: GnuTLS: Denial of Service via excessive resource consumption during certificate verification'
+    Description: A flaw was found in GnuTLS. This vulnerability allows a denial of service (DoS) by excessive CPU (Central Processing Unit) and memory consumption via specially crafted malicious certificates containing a large number of name constraints and subject alternative names (SANs).
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-407
+    VendorSeverity:
+      alma: 2
+      oracle-oval: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:3477
+    - https://access.redhat.com/security/cve/CVE-2025-14831
+    - https://bugzilla.redhat.com/2392528
+    - https://bugzilla.redhat.com/2423177
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2423177
+    - https://errata.almalinux.org/10/ALSA-2026-3477.html
+    - https://linux.oracle.com/cve/CVE-2025-14831.html
+    - https://linux.oracle.com/errata/ELSA-2026-3477.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14831
+    - https://ubuntu.com/security/notices/USN-8043-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-14831
+    PublishedDate: '2026-02-09T15:16:09.937Z'
+    LastModifiedDate: '2026-03-02T17:16:23.137Z'
+  - VulnerabilityID: CVE-2025-9820
+    PkgID: libgnutls30t64@3.8.9-3ubuntu2
+    PkgName: libgnutls30t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgnutls30t64@3.8.9-3ubuntu2?arch=amd64&distro=ubuntu-25.10
+      UID: 55a583ffc6365cc1
+    InstalledVersion: 3.8.9-3ubuntu2
+    FixedVersion: 3.8.9-3ubuntu2.1
+    Status: fixed
+    Layer:
+      Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08360709c
+      DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf5086e18e80
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-9820
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:41312d9aa3a8dfaf719ec97670dab35d1feb444b52b5ba62e0f34721beb93918
+    Title: 'gnutls: Stack-based Buffer Overflow in gnutls_pkcs11_token_init() Function'
+    Description: A flaw was found in the GnuTLS library, specifically in the gnutls_pkcs11_token_init() function that handles PKCS#11 token initialization. When a token label longer than expected is processed, the function writes past the end of a fixed-size stack buffer. This programming error can cause the application using GnuTLS to crash or, in certain conditions, be exploited for code execution. As a result, systems or applications relying on GnuTLS may be vulnerable to a denial of service or local privilege escalation attacks.
+    Severity: LOW
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      alma: 2
+      azure: 2
+      cbl-mariner: 2
+      oracle-oval: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - http://www.openwall.com/lists/oss-security/2025/11/20/2
+    - https://access.redhat.com/errata/RHSA-2026:3477
+    - https://access.redhat.com/security/cve/CVE-2025-9820
+    - https://bugzilla.redhat.com/2392528
+    - https://bugzilla.redhat.com/2423177
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2392528
+    - https://errata.almalinux.org/10/ALSA-2026-3477.html
+    - https://gitlab.com/gnutls/gnutls/-/commit/1d56f96f6ab5034d677136b9d50b5a75dff0faf5
+    - https://gitlab.com/gnutls/gnutls/-/issues/1732
+    - https://linux.oracle.com/cve/CVE-2025-9820.html
+    - https://linux.oracle.com/errata/ELSA-2026-3477.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-9820
+    - https://ubuntu.com/security/notices/USN-8043-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-9820
+    - https://www.gnutls.org/security-new.html#GNUTLS-SA-2025-11-18
+    PublishedDate: '2026-01-26T20:16:09.37Z'
+    LastModifiedDate: '2026-03-02T18:16:25.787Z'
   - VulnerabilityID: CVE-2025-8941
     PkgID: libpam-modules@1.7.0-5ubuntu2
     PkgName: libpam-modules
@@ -10351,13 +10668,13 @@
     Fingerprint: sha256:42c930a76c7383a553c9f9b6d92ec5fe33b2a843b92b287617247f2b686de772
     Title: 'openssl: OpenSSL: Remote code execution or Denial of Service via oversized Initialization Vector in CMS parsing'
     Description: |-
-      Issue summary: Parsing CMS AuthEnvelopedData message with maliciously
-      crafted AEAD parameters can trigger a stack buffer overflow.
+      Issue summary: Parsing CMS AuthEnvelopedData or EnvelopedData message with
+      maliciously crafted AEAD parameters can trigger a stack buffer overflow.
 
       Impact summary: A stack buffer overflow may lead to a crash, causing Denial
       of Service, or potentially remote code execution.
 
-      When parsing CMS AuthEnvelopedData structures that use AEAD ciphers such as
+      When parsing CMS (Auth)EnvelopedData structures that use AEAD ciphers such as
       AES-GCM, the IV (Initialization Vector) encoded in the ASN.1 parameters is
       copied into a fixed-size stack buffer without verifying that its length fits
       the destination. An attacker can supply a crafted CMS message with an
@@ -10365,7 +10682,7 @@
       authentication or tag verification occurs.
 
       Applications and services that parse untrusted CMS or PKCS#7 content using
-      AEAD ciphers (e.g., S/MIME AuthEnvelopedData with AES-GCM) are vulnerable.
+      AEAD ciphers (e.g., S/MIME (Auth)EnvelopedData with AES-GCM) are vulnerable.
       Because the overflow occurs prior to authentication, no valid key material
       is required to trigger it. While exploitability to remote code execution
       depends on platform and toolchain mitigations, the stack-based write
@@ -10396,6 +10713,7 @@
         V3Score: 9.8
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/27/10
+    - http://www.openwall.com/lists/oss-security/2026/02/25/6
     - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-15467
     - https://bugzilla.redhat.com/2430375
@@ -10448,7 +10766,7 @@
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://www.cve.org/CVERecord?id=CVE-2025-15467
     PublishedDate: '2026-01-27T16:16:14.257Z'
-    LastModifiedDate: '2026-02-02T18:38:55.073Z'
+    LastModifiedDate: '2026-02-25T22:16:19.68Z'
   - VulnerabilityID: CVE-2025-15468
     PkgID: libssl3t64@3.5.3-1ubuntu2
     PkgName: libssl3t64
@@ -10500,6 +10818,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -10735,6 +11054,7 @@
     - CWE-789
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -10845,7 +11165,9 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
+      cbl-mariner: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -10936,7 +11258,9 @@
     - CWE-325
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
+      cbl-mariner: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -11060,8 +11384,10 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 3
-      oracle-oval: 3
+      cbl-mariner: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       rocky: 3
@@ -11117,7 +11443,7 @@
     - https://github.com/openssl/openssl/commit/cda12de3bc0e333ea8d2c6fd15001dbdaf280015
     - https://github.com/openssl/openssl/commit/ff628933755075446bca8307e8417c14d164b535
     - https://linux.oracle.com/cve/CVE-2025-69419.html
-    - https://linux.oracle.com/errata/ELSA-2026-50081.html
+    - https://linux.oracle.com/errata/ELSA-2026-50131.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-69419
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
@@ -11178,7 +11504,9 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 3
+      cbl-mariner: 3
       oracle-oval: 3
       photon: 3
       redhat: 1
@@ -11289,7 +11617,9 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
+      cbl-mariner: 2
       nvd: 3
       oracle-oval: 3
       photon: 3
@@ -11357,7 +11687,7 @@
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2025-69421
     PublishedDate: '2026-01-27T16:16:34.437Z'
-    LastModifiedDate: '2026-02-02T18:29:59.693Z'
+    LastModifiedDate: '2026-02-28T04:16:17.457Z'
   - VulnerabilityID: CVE-2026-22795
     PkgID: libssl3t64@3.5.3-1ubuntu2
     PkgName: libssl3t64
@@ -11411,7 +11741,9 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
+      cbl-mariner: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -11528,6 +11860,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -11829,13 +12162,13 @@
     Fingerprint: sha256:cab5db6dfb56d12d2ed4a87842ac839d4fdd246bc84b4897f3660154d5754a03
     Title: 'openssl: OpenSSL: Remote code execution or Denial of Service via oversized Initialization Vector in CMS parsing'
     Description: |-
-      Issue summary: Parsing CMS AuthEnvelopedData message with maliciously
-      crafted AEAD parameters can trigger a stack buffer overflow.
+      Issue summary: Parsing CMS AuthEnvelopedData or EnvelopedData message with
+      maliciously crafted AEAD parameters can trigger a stack buffer overflow.
 
       Impact summary: A stack buffer overflow may lead to a crash, causing Denial
       of Service, or potentially remote code execution.
 
-      When parsing CMS AuthEnvelopedData structures that use AEAD ciphers such as
+      When parsing CMS (Auth)EnvelopedData structures that use AEAD ciphers such as
       AES-GCM, the IV (Initialization Vector) encoded in the ASN.1 parameters is
       copied into a fixed-size stack buffer without verifying that its length fits
       the destination. An attacker can supply a crafted CMS message with an
@@ -11843,7 +12176,7 @@
       authentication or tag verification occurs.
 
       Applications and services that parse untrusted CMS or PKCS#7 content using
-      AEAD ciphers (e.g., S/MIME AuthEnvelopedData with AES-GCM) are vulnerable.
+      AEAD ciphers (e.g., S/MIME (Auth)EnvelopedData with AES-GCM) are vulnerable.
       Because the overflow occurs prior to authentication, no valid key material
       is required to trigger it. While exploitability to remote code execution
       depends on platform and toolchain mitigations, the stack-based write
@@ -11874,6 +12207,7 @@
         V3Score: 9.8
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/27/10
+    - http://www.openwall.com/lists/oss-security/2026/02/25/6
     - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-15467
     - https://bugzilla.redhat.com/2430375
@@ -11926,7 +12260,7 @@
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://www.cve.org/CVERecord?id=CVE-2025-15467
     PublishedDate: '2026-01-27T16:16:14.257Z'
-    LastModifiedDate: '2026-02-02T18:38:55.073Z'
+    LastModifiedDate: '2026-02-25T22:16:19.68Z'
   - VulnerabilityID: CVE-2025-15468
     PkgID: openssl@3.5.3-1ubuntu2
     PkgName: openssl
@@ -11978,6 +12312,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -12213,6 +12548,7 @@
     - CWE-789
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -12323,7 +12659,9 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
+      cbl-mariner: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -12414,7 +12752,9 @@
     - CWE-325
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
+      cbl-mariner: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -12538,8 +12878,10 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 3
-      oracle-oval: 3
+      cbl-mariner: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       rocky: 3
@@ -12595,7 +12937,7 @@
     - https://github.com/openssl/openssl/commit/cda12de3bc0e333ea8d2c6fd15001dbdaf280015
     - https://github.com/openssl/openssl/commit/ff628933755075446bca8307e8417c14d164b535
     - https://linux.oracle.com/cve/CVE-2025-69419.html
-    - https://linux.oracle.com/errata/ELSA-2026-50081.html
+    - https://linux.oracle.com/errata/ELSA-2026-50131.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-69419
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
@@ -12656,7 +12998,9 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 3
+      cbl-mariner: 3
       oracle-oval: 3
       photon: 3
       redhat: 1
@@ -12767,7 +13111,9 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
+      cbl-mariner: 2
       nvd: 3
       oracle-oval: 3
       photon: 3
@@ -12835,7 +13181,7 @@
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2025-69421
     PublishedDate: '2026-01-27T16:16:34.437Z'
-    LastModifiedDate: '2026-02-02T18:29:59.693Z'
+    LastModifiedDate: '2026-02-28T04:16:17.457Z'
   - VulnerabilityID: CVE-2026-22795
     PkgID: openssl@3.5.3-1ubuntu2
     PkgName: openssl
@@ -12889,7 +13235,9 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
+      cbl-mariner: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -13006,6 +13354,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -13209,13 +13558,13 @@
     Fingerprint: sha256:c6fdc61eada3430a2970668f2fa764ed9efdb68244b612433ad2963944881b2e
     Title: 'openssl: OpenSSL: Remote code execution or Denial of Service via oversized Initialization Vector in CMS parsing'
     Description: |-
-      Issue summary: Parsing CMS AuthEnvelopedData message with maliciously
-      crafted AEAD parameters can trigger a stack buffer overflow.
+      Issue summary: Parsing CMS AuthEnvelopedData or EnvelopedData message with
+      maliciously crafted AEAD parameters can trigger a stack buffer overflow.
 
       Impact summary: A stack buffer overflow may lead to a crash, causing Denial
       of Service, or potentially remote code execution.
 
-      When parsing CMS AuthEnvelopedData structures that use AEAD ciphers such as
+      When parsing CMS (Auth)EnvelopedData structures that use AEAD ciphers such as
       AES-GCM, the IV (Initialization Vector) encoded in the ASN.1 parameters is
       copied into a fixed-size stack buffer without verifying that its length fits
       the destination. An attacker can supply a crafted CMS message with an
@@ -13223,7 +13572,7 @@
       authentication or tag verification occurs.
 
       Applications and services that parse untrusted CMS or PKCS#7 content using
-      AEAD ciphers (e.g., S/MIME AuthEnvelopedData with AES-GCM) are vulnerable.
+      AEAD ciphers (e.g., S/MIME (Auth)EnvelopedData with AES-GCM) are vulnerable.
       Because the overflow occurs prior to authentication, no valid key material
       is required to trigger it. While exploitability to remote code execution
       depends on platform and toolchain mitigations, the stack-based write
@@ -13254,6 +13603,7 @@
         V3Score: 9.8
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/27/10
+    - http://www.openwall.com/lists/oss-security/2026/02/25/6
     - https://access.redhat.com/errata/RHSA-2026:1473
     - https://access.redhat.com/security/cve/CVE-2025-15467
     - https://bugzilla.redhat.com/2430375
@@ -13306,7 +13656,7 @@
     - https://ubuntu.com/security/notices/USN-7980-1
     - https://www.cve.org/CVERecord?id=CVE-2025-15467
     PublishedDate: '2026-01-27T16:16:14.257Z'
-    LastModifiedDate: '2026-02-02T18:38:55.073Z'
+    LastModifiedDate: '2026-02-25T22:16:19.68Z'
   - VulnerabilityID: CVE-2025-15468
     PkgID: openssl-provider-legacy@3.5.3-1ubuntu2
     PkgName: openssl-provider-legacy
@@ -13358,6 +13708,7 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -13593,6 +13944,7 @@
     - CWE-789
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -13703,7 +14055,9 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
+      cbl-mariner: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -13794,7 +14148,9 @@
     - CWE-325
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
+      cbl-mariner: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -13918,8 +14274,10 @@
     - CWE-787
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 3
-      oracle-oval: 3
+      cbl-mariner: 3
+      oracle-oval: 2
       photon: 3
       redhat: 2
       rocky: 3
@@ -13975,7 +14333,7 @@
     - https://github.com/openssl/openssl/commit/cda12de3bc0e333ea8d2c6fd15001dbdaf280015
     - https://github.com/openssl/openssl/commit/ff628933755075446bca8307e8417c14d164b535
     - https://linux.oracle.com/cve/CVE-2025-69419.html
-    - https://linux.oracle.com/errata/ELSA-2026-50081.html
+    - https://linux.oracle.com/errata/ELSA-2026-50131.html
     - https://nvd.nist.gov/vuln/detail/CVE-2025-69419
     - https://openssl-library.org/news/secadv/20260127.txt
     - https://ubuntu.com/security/notices/USN-7980-1
@@ -14036,7 +14394,9 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 3
+      cbl-mariner: 3
       oracle-oval: 3
       photon: 3
       redhat: 1
@@ -14147,7 +14507,9 @@
     - CWE-476
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
+      cbl-mariner: 2
       nvd: 3
       oracle-oval: 3
       photon: 3
@@ -14215,7 +14577,7 @@
     - https://ubuntu.com/security/notices/USN-7980-2
     - https://www.cve.org/CVERecord?id=CVE-2025-69421
     PublishedDate: '2026-01-27T16:16:34.437Z'
-    LastModifiedDate: '2026-02-02T18:29:59.693Z'
+    LastModifiedDate: '2026-02-28T04:16:17.457Z'
   - VulnerabilityID: CVE-2026-22795
     PkgID: openssl-provider-legacy@3.5.3-1ubuntu2
     PkgName: openssl-provider-legacy
@@ -14269,7 +14631,9 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
+      cbl-mariner: 2
       oracle-oval: 3
       photon: 2
       redhat: 1
@@ -14386,6 +14750,7 @@
     - CWE-754
     VendorSeverity:
       alma: 3
+      amazon: 3
       azure: 2
       oracle-oval: 3
       photon: 2
@@ -15210,3 +15575,39 @@
       DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf5086e18e80
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
+  Vulnerabilities:
+  - VulnerabilityID: GHSA-72hv-8253-57qq
+    PkgName: com.fasterxml.jackson.core:jackson-core
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.20.1
+      UID: 1996e2d8cd1022b9
+    InstalledVersion: 2.20.1
+    FixedVersion: 2.18.6, 2.21.1, 3.1.0
+    Status: fixed
+    Layer:
+      Digest: sha256:31bb629b73ea2f87b4c3ca21651ba7ac599d3d4f547b36faab9898f08360709c
+      DiffID: sha256:7b4495298492d748f876cfe7160445321b9c0dec8efeaef22c35bf5086e18e80
+    SeveritySource: ghsa
+    PrimaryURL: https://github.com/advisories/GHSA-72hv-8253-57qq
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:1b1c7e782a712ca941d48ba36ca3f4345ae53e7aa0a345a3f2716e05ae446cc5
+    Title: 'jackson-core: Number Length Constraint Bypass in Async Parser Leads to Potential DoS Condition'
+    Description: "### Summary\nThe non-blocking (async) JSON parser in `jackson-core` bypasses the `maxNumberLength` constraint (default: 1000 characters) defined in `StreamReadConstraints`. This allows an attacker to send JSON with arbitrarily long numbers through the async parser API, leading to excessive memory allocation and potential CPU exhaustion, resulting in a Denial of Service (DoS).\n\nThe standard synchronous parser correctly enforces this limit, but the async parser fails to do so, creating an inconsistent enforcement policy.\n\n### Details\nThe root cause is that the async parsing path in `NonBlockingUtf8JsonParserBase` (and related classes) does not call the methods responsible for number length validation.\n\n- The number parsing methods (e.g., `_finishNumberIntegralPart`) accumulate digits into the `TextBuffer` without any length checks.\n- After parsing, they call `_valueComplete()`, which finalizes the token but does **not** call `resetInt()` or `resetFloat()`.\n- The `resetInt()`/`resetFloat()` methods in `ParserBase` are where the `validateIntegerLength()` and `validateFPLength()` checks are performed.\n- Because this validation step is skipped, the `maxNumberLength` constraint is never enforced in the async code path.\n\n### PoC\nThe following JUnit 5 test demonstrates the vulnerability. It shows that the async parser accepts a 5,000-digit number, whereas the limit should be 1,000.\n\n```java\npackage tools.jackson.core.unittest.dos;\n\nimport java.nio.charset.StandardCharsets;\n\nimport org.junit.jupiter.api.Test;\n\nimport tools.jackson.core.*;\nimport tools.jackson.core.exc.StreamConstraintsException;\nimport tools.jackson.core.json.JsonFactory;\nimport tools.jackson.core.json.async.NonBlockingByteArrayJsonParser;\n\nimport static org.junit.jupiter.api.Assertions.*;\n\n/**\n * POC: Number Length Constraint Bypass in Non-Blocking (Async) JSON Parsers\n *\n * Authors: sprabhav7, rohan-repos\n * \n * maxNumberLength default = 1000 characters (digits).\n * A number with more than 1000 digits should be rejected by any parser.\n *\n * BUG: The async parser never calls resetInt()/resetFloat() which is where\n * validateIntegerLength()/validateFPLength() lives. Instead it calls\n * _valueComplete() which skips all number length validation.\n *\n * CWE-770: Allocation of Resources Without Limits or Throttling\n */\nclass AsyncParserNumberLengthBypassTest {\n\n    private static final int MAX_NUMBER_LENGTH = 1000;\n    private static final int TEST_NUMBER_LENGTH = 5000;\n\n    private final JsonFactory factory = new JsonFactory();\n\n    // CONTROL: Sync parser correctly rejects a number exceeding maxNumberLength\n    @Test\n    void syncParserRejectsLongNumber() throws Exception {\n        byte[] payload = buildPayloadWithLongInteger(TEST_NUMBER_LENGTH);\n\t\t\n\t\t// Output to console\n        System.out.println(\"[SYNC] Parsing \" + TEST_NUMBER_LENGTH + \"-digit number (limit: \" + MAX_NUMBER_LENGTH + \")\");\n        try {\n            try (JsonParser p = factory.createParser(ObjectReadContext.empty(), payload)) {\n                while (p.nextToken() != null) {\n                    if (p.currentToken() == JsonToken.VALUE_NUMBER_INT) {\n                        System.out.println(\"[SYNC] Accepted number with \" + p.getText().length() + \" digits — UNEXPECTED\");\n                    }\n                }\n            }\n            fail(\"Sync parser must reject a \" + TEST_NUMBER_LENGTH + \"-digit number\");\n        } catch (StreamConstraintsException e) {\n            System.out.println(\"[SYNC] Rejected with StreamConstraintsException: \" + e.getMessage());\n        }\n    }\n\n    // VULNERABILITY: Async parser accepts the SAME number that sync rejects\n    @Test\n    void asyncParserAcceptsLongNumber() throws Exception {\n        byte[] payload = buildPayloadWithLongInteger(TEST_NUMBER_LENGTH);\n\n        NonBlockingByteArrayJsonParser p =\n            (NonBlockingByteArrayJsonParser) factory.createNonBlockingByteArrayParser(ObjectReadContext.empty());\n        p.feedInput(payload, 0, payload.length);\n        p.endOfInput();\n\n        boolean foundNumber = false;\n        try {\n            while (p.nextToken() != null) {\n                if (p.currentToken() == JsonToken.VALUE_NUMBER_INT) {\n                    foundNumber = true;\n                    String numberText = p.getText();\n                    assertEquals(TEST_NUMBER_LENGTH, numberText.length(),\n                        \"Async parser silently accepted all \" + TEST_NUMBER_LENGTH + \" digits\");\n                }\n            }\n            // Output to console\n            System.out.println(\"[ASYNC INT] Accepted number with \" + TEST_NUMBER_LENGTH + \" digits — BUG CONFIRMED\");\n            assertTrue(foundNumber, \"Parser should have produced a VALUE_NUMBER_INT token\");\n        } catch (StreamConstraintsException e) {\n            fail(\"Bug is fixed — async parser now correctly rejects long numbers: \" + e.getMessage());\n        }\n        p.close();\n    }\n\n    private byte[] buildPayloadWithLongInteger(int numDigits) {\n        StringBuilder sb = new StringBuilder(numDigits + 10);\n        sb.append(\"{\\\"v\\\":\");\n        for (int i = 0; i < numDigits; i++) {\n            sb.append((char) ('1' + (i % 9)));\n        }\n        sb.append('}');\n        return sb.toString().getBytes(StandardCharsets.UTF_8);\n    }\n}\n\n```\n\n\n### Impact\nA malicious actor can send a JSON document with an arbitrarily long number to an application using the async parser (e.g., in a Spring WebFlux or other reactive application). This can cause:\n1.  **Memory Exhaustion:** Unbounded allocation of memory in the `TextBuffer` to store the number's digits, leading to an `OutOfMemoryError`.\n2.  **CPU Exhaustion:** If the application subsequently calls `getBigIntegerValue()` or `getDecimalValue()`, the JVM can be tied up in O(n^2) `BigInteger` parsing operations, leading to a CPU-based DoS.\n\n### Suggested Remediation\n\nThe async parsing path should be updated to respect the `maxNumberLength` constraint. The simplest fix appears to ensure that `_valueComplete()` or a similar method in the async path calls the appropriate validation methods (`resetInt()` or `resetFloat()`) already present in `ParserBase`, mirroring the behavior of the synchronous parsers.\n\n**NOTE:** This research was performed in collaboration with [rohan-repos](https://github.com/rohan-repos)"
+    Severity: HIGH
+    VendorSeverity:
+      ghsa: 3
+    CVSS:
+      ghsa:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N
+        V40Score: 8.7
+    References:
+    - https://github.com/FasterXML/jackson-core
+    - https://github.com/FasterXML/jackson-core/commit/a004e9789c2cc6b41b379d02d229d58474d9a738
+    - https://github.com/FasterXML/jackson-core/issues/1538
+    - https://github.com/FasterXML/jackson-core/security/advisories/GHSA-72hv-8253-57qq
+    PublishedDate: '2026-02-28T02:01:05Z'
+    LastModifiedDate: '2026-02-28T02:01:06Z'
