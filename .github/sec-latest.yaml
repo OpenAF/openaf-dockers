@@ -2159,6 +2159,73 @@
     - usr/lib/libzstd.so.1
     - usr/lib/libzstd.so.1.5.7
     AnalyzedBy: apk
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2026-25646
+    PkgID: libpng@1.6.54-r0
+    PkgName: libpng
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/libpng@1.6.54-r0?arch=x86_64&distro=3.23.3
+      UID: 72123ca33a149751
+    InstalledVersion: 1.6.54-r0
+    FixedVersion: 1.6.55-r0
+    Status: fixed
+    Layer:
+      Digest: sha256:302211fe074b444de113bcd2dfb8c6f18a6a99f0a0c200c6b35f05cd6b58f311
+      DiffID: sha256:e15a801141311a0e72b943e476838fff57c357705940d3cab5f11f9bac01f747
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-25646
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:7e4f23eba4a0add6956c862ee46928ab89b430a3a82cd8120da3687b94442935
+    Title: 'libpng: LIBPNG has a heap buffer overflow in png_set_quantize'
+    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. Prior to 1.6.55, an out-of-bounds read vulnerability exists in the png_set_quantize() API function. When the function is called with no histogram and the number of colors in the palette is more than twice the maximum supported by the user's display, certain palettes will cause the function to enter into an infinite loop that reads past the end of an internal heap-allocated buffer. The images that trigger this vulnerability are valid per the PNG specification. This vulnerability is fixed in 1.6.55.
+    Severity: HIGH
+    CweIDs:
+    - CWE-122
+    - CWE-126
+    VendorSeverity:
+      alma: 3
+      azure: 3
+      nvd: 3
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H
+        V3Score: 7
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/02/09/7
+    - https://access.redhat.com/errata/RHSA-2026:3405
+    - https://access.redhat.com/security/cve/CVE-2026-25646
+    - https://bugzilla.redhat.com/2428824
+    - https://bugzilla.redhat.com/2428825
+    - https://bugzilla.redhat.com/2438542
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2428824
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2428825
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2438542
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22695
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22801
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25646
+    - https://errata.almalinux.org/9/ALSA-2026-3405.html
+    - https://errata.rockylinux.org/RLSA-2026:3405
+    - https://github.com/pnggroup/libpng/commit/01d03b8453eb30ade759cd45c707e5a1c7277d88
+    - https://github.com/pnggroup/libpng/security/advisories/GHSA-g8hp-mq4h-rqm3
+    - https://linux.oracle.com/cve/CVE-2026-25646.html
+    - https://linux.oracle.com/errata/ELSA-2026-3551.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-25646
+    - https://ubuntu.com/security/notices/USN-8035-1
+    - https://ubuntu.com/security/notices/USN-8039-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-25646
+    PublishedDate: '2026-02-10T18:16:37.817Z'
+    LastModifiedDate: '2026-02-13T20:43:44.69Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -2813,3 +2880,39 @@
       DiffID: sha256:e15a801141311a0e72b943e476838fff57c357705940d3cab5f11f9bac01f747
     FilePath: openaf/openaf.jar
     AnalyzedBy: jar
+  Vulnerabilities:
+  - VulnerabilityID: GHSA-72hv-8253-57qq
+    PkgName: com.fasterxml.jackson.core:jackson-core
+    PkgPath: openaf/openaf.jar
+    PkgIdentifier:
+      PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.20.1
+      UID: 1996e2d8cd1022b9
+    InstalledVersion: 2.20.1
+    FixedVersion: 2.18.6, 2.21.1, 3.1.0
+    Status: fixed
+    Layer:
+      Digest: sha256:302211fe074b444de113bcd2dfb8c6f18a6a99f0a0c200c6b35f05cd6b58f311
+      DiffID: sha256:e15a801141311a0e72b943e476838fff57c357705940d3cab5f11f9bac01f747
+    SeveritySource: ghsa
+    PrimaryURL: https://github.com/advisories/GHSA-72hv-8253-57qq
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:0c04348190f87534988222fda33a8590fddf3d1c0327fb75d93c2cd0b7c029d6
+    Title: 'jackson-core: Number Length Constraint Bypass in Async Parser Leads to Potential DoS Condition'
+    Description: "### Summary\nThe non-blocking (async) JSON parser in `jackson-core` bypasses the `maxNumberLength` constraint (default: 1000 characters) defined in `StreamReadConstraints`. This allows an attacker to send JSON with arbitrarily long numbers through the async parser API, leading to excessive memory allocation and potential CPU exhaustion, resulting in a Denial of Service (DoS).\n\nThe standard synchronous parser correctly enforces this limit, but the async parser fails to do so, creating an inconsistent enforcement policy.\n\n### Details\nThe root cause is that the async parsing path in `NonBlockingUtf8JsonParserBase` (and related classes) does not call the methods responsible for number length validation.\n\n- The number parsing methods (e.g., `_finishNumberIntegralPart`) accumulate digits into the `TextBuffer` without any length checks.\n- After parsing, they call `_valueComplete()`, which finalizes the token but does **not** call `resetInt()` or `resetFloat()`.\n- The `resetInt()`/`resetFloat()` methods in `ParserBase` are where the `validateIntegerLength()` and `validateFPLength()` checks are performed.\n- Because this validation step is skipped, the `maxNumberLength` constraint is never enforced in the async code path.\n\n### PoC\nThe following JUnit 5 test demonstrates the vulnerability. It shows that the async parser accepts a 5,000-digit number, whereas the limit should be 1,000.\n\n```java\npackage tools.jackson.core.unittest.dos;\n\nimport java.nio.charset.StandardCharsets;\n\nimport org.junit.jupiter.api.Test;\n\nimport tools.jackson.core.*;\nimport tools.jackson.core.exc.StreamConstraintsException;\nimport tools.jackson.core.json.JsonFactory;\nimport tools.jackson.core.json.async.NonBlockingByteArrayJsonParser;\n\nimport static org.junit.jupiter.api.Assertions.*;\n\n/**\n * POC: Number Length Constraint Bypass in Non-Blocking (Async) JSON Parsers\n *\n * Authors: sprabhav7, rohan-repos\n * \n * maxNumberLength default = 1000 characters (digits).\n * A number with more than 1000 digits should be rejected by any parser.\n *\n * BUG: The async parser never calls resetInt()/resetFloat() which is where\n * validateIntegerLength()/validateFPLength() lives. Instead it calls\n * _valueComplete() which skips all number length validation.\n *\n * CWE-770: Allocation of Resources Without Limits or Throttling\n */\nclass AsyncParserNumberLengthBypassTest {\n\n    private static final int MAX_NUMBER_LENGTH = 1000;\n    private static final int TEST_NUMBER_LENGTH = 5000;\n\n    private final JsonFactory factory = new JsonFactory();\n\n    // CONTROL: Sync parser correctly rejects a number exceeding maxNumberLength\n    @Test\n    void syncParserRejectsLongNumber() throws Exception {\n        byte[] payload = buildPayloadWithLongInteger(TEST_NUMBER_LENGTH);\n\t\t\n\t\t// Output to console\n        System.out.println(\"[SYNC] Parsing \" + TEST_NUMBER_LENGTH + \"-digit number (limit: \" + MAX_NUMBER_LENGTH + \")\");\n        try {\n            try (JsonParser p = factory.createParser(ObjectReadContext.empty(), payload)) {\n                while (p.nextToken() != null) {\n                    if (p.currentToken() == JsonToken.VALUE_NUMBER_INT) {\n                        System.out.println(\"[SYNC] Accepted number with \" + p.getText().length() + \" digits — UNEXPECTED\");\n                    }\n                }\n            }\n            fail(\"Sync parser must reject a \" + TEST_NUMBER_LENGTH + \"-digit number\");\n        } catch (StreamConstraintsException e) {\n            System.out.println(\"[SYNC] Rejected with StreamConstraintsException: \" + e.getMessage());\n        }\n    }\n\n    // VULNERABILITY: Async parser accepts the SAME number that sync rejects\n    @Test\n    void asyncParserAcceptsLongNumber() throws Exception {\n        byte[] payload = buildPayloadWithLongInteger(TEST_NUMBER_LENGTH);\n\n        NonBlockingByteArrayJsonParser p =\n            (NonBlockingByteArrayJsonParser) factory.createNonBlockingByteArrayParser(ObjectReadContext.empty());\n        p.feedInput(payload, 0, payload.length);\n        p.endOfInput();\n\n        boolean foundNumber = false;\n        try {\n            while (p.nextToken() != null) {\n                if (p.currentToken() == JsonToken.VALUE_NUMBER_INT) {\n                    foundNumber = true;\n                    String numberText = p.getText();\n                    assertEquals(TEST_NUMBER_LENGTH, numberText.length(),\n                        \"Async parser silently accepted all \" + TEST_NUMBER_LENGTH + \" digits\");\n                }\n            }\n            // Output to console\n            System.out.println(\"[ASYNC INT] Accepted number with \" + TEST_NUMBER_LENGTH + \" digits — BUG CONFIRMED\");\n            assertTrue(foundNumber, \"Parser should have produced a VALUE_NUMBER_INT token\");\n        } catch (StreamConstraintsException e) {\n            fail(\"Bug is fixed — async parser now correctly rejects long numbers: \" + e.getMessage());\n        }\n        p.close();\n    }\n\n    private byte[] buildPayloadWithLongInteger(int numDigits) {\n        StringBuilder sb = new StringBuilder(numDigits + 10);\n        sb.append(\"{\\\"v\\\":\");\n        for (int i = 0; i < numDigits; i++) {\n            sb.append((char) ('1' + (i % 9)));\n        }\n        sb.append('}');\n        return sb.toString().getBytes(StandardCharsets.UTF_8);\n    }\n}\n\n```\n\n\n### Impact\nA malicious actor can send a JSON document with an arbitrarily long number to an application using the async parser (e.g., in a Spring WebFlux or other reactive application). This can cause:\n1.  **Memory Exhaustion:** Unbounded allocation of memory in the `TextBuffer` to store the number's digits, leading to an `OutOfMemoryError`.\n2.  **CPU Exhaustion:** If the application subsequently calls `getBigIntegerValue()` or `getDecimalValue()`, the JVM can be tied up in O(n^2) `BigInteger` parsing operations, leading to a CPU-based DoS.\n\n### Suggested Remediation\n\nThe async parsing path should be updated to respect the `maxNumberLength` constraint. The simplest fix appears to ensure that `_valueComplete()` or a similar method in the async path calls the appropriate validation methods (`resetInt()` or `resetFloat()`) already present in `ParserBase`, mirroring the behavior of the synchronous parsers.\n\n**NOTE:** This research was performed in collaboration with [rohan-repos](https://github.com/rohan-repos)"
+    Severity: HIGH
+    VendorSeverity:
+      ghsa: 3
+    CVSS:
+      ghsa:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N
+        V40Score: 8.7
+    References:
+    - https://github.com/FasterXML/jackson-core
+    - https://github.com/FasterXML/jackson-core/commit/a004e9789c2cc6b41b379d02d229d58474d9a738
+    - https://github.com/FasterXML/jackson-core/issues/1538
+    - https://github.com/FasterXML/jackson-core/security/advisories/GHSA-72hv-8253-57qq
+    PublishedDate: '2026-02-28T02:01:05Z'
+    LastModifiedDate: '2026-02-28T02:01:06Z'
