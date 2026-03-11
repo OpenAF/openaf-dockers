@@ -642,8 +642,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:015081387c654fbfd7d9e000cb35ee31b3158567
     InstalledFiles:
     - usr/lib/libgdbm.so.6
@@ -887,8 +887,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:48d80b466217513d5316d2dc98ee079246b75d23
     InstalledFiles:
     - usr/lib/libexpat.so.1
@@ -932,8 +932,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:57fccbe9eebf23f2c4f38ee2a24f8b0bdd508ff7
     InstalledFiles:
     - usr/lib/libgcc_s.so.1
@@ -1029,8 +1029,8 @@
     - musl@1.2.5-r21
     - ncurses-terminfo-base@6.5_p20251123-r0
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:649d3041c52b80620fb50a98f5979d25ebbe1523
     InstalledFiles:
     - usr/lib/libncursesw.so.6
@@ -1053,8 +1053,8 @@
     - musl@1.2.5-r21
     - ncurses-terminfo-base@6.5_p20251123-r0
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:ff98388ab154b09e32c313d45d389ec611e5f4b5
     InstalledFiles:
     - usr/lib/libpanelw.so.6
@@ -1146,8 +1146,8 @@
     - libgcc@15.2.0-r2
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:528d77417a16706468af852f2859ad00f176e266
     InstalledFiles:
     - usr/lib/libstdc++.so.6
@@ -1643,8 +1643,8 @@
     - libstdc++@15.2.0-r2
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:8ded4ff4c401cd7fb672d973289752b11bae56bf
     InstalledFiles:
     - usr/lib/libmpdec++.so.4
@@ -1713,8 +1713,8 @@
     - X-11
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:57bd1d8124ec957eefea2314bdf45b0ed1068cee
     InstalledFiles:
     - etc/terminfo/a/alacritty
@@ -2270,8 +2270,8 @@
     - py3-parsing@3.2.5-r0
     - python3@3.12.12-r0
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:e09cd5f2c2613d8be8704d833ee8e1b73ed6ca33
     InstalledFiles:
     - usr/lib/python3.12/site-packages/packaging/__init__.py
@@ -2312,8 +2312,8 @@
     - BSD-2-Clause
     Maintainer: Peter Shkenev <santurysim@gmail.com>
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:0175e03c745fcd319d5a73622b5f94d698749ee4
     InstalledFiles:
     - usr/lib/python3.12/site-packages/packaging/__pycache__/__init__.cpython-312.pyc
@@ -2348,8 +2348,8 @@
     DependsOn:
     - python3@3.12.12-r0
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:5615dc1c2f3ab824f991b819dfa547bbc363eb98
     InstalledFiles:
     - usr/lib/python3.12/site-packages/pyparsing/__init__.py
@@ -2384,8 +2384,8 @@
     - MIT
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:7e7c77ed2bf6c47944e652bbed8d2052c7910c1b
     InstalledFiles:
     - usr/lib/python3.12/site-packages/pyparsing/__pycache__/__init__.cpython-312.pyc
@@ -2418,8 +2418,8 @@
     - py3-setuptools@80.9.0-r2
     - python3@3.12.12-r0
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:c87fcc35bf409170cf455c4105b8b0cd44bf417c
     InstalledFiles:
     - usr/bin/pip
@@ -2885,8 +2885,8 @@
     - MIT
     Maintainer: Achill Gilgenast <achill@achill.org>
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:5e28e07b305888b038bbd7d47862d3ca1a3f50c7
     InstalledFiles:
     - usr/lib/python3.12/site-packages/pip/__pycache__/__init__.cpython-312.pyc
@@ -3317,8 +3317,8 @@
     - py3-packaging@25.0-r0
     - python3@3.12.12-r0
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:56cb361a5115365733ca168b41a9dd2e8200c98f
     InstalledFiles:
     - usr/lib/python3.12/site-packages/distutils-precedence.pth
@@ -3838,8 +3838,8 @@
     - MIT
     Maintainer: Achill Gilgenast <achill@achill.org>
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:3a598640236f6e8ec99f670f4a5cb4cb4bfdd233
     InstalledFiles:
     - usr/lib/python3.12/site-packages/_distutils_hack/__pycache__/__init__.cpython-312.pyc
@@ -4211,8 +4211,8 @@
     - PSF-2.0
     Maintainer: Natanael Copa <ncopa@alpinelinux.org>
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:27188be1b985948860232f6887dcbd88f4c64381
     AnalyzedBy: apk
   - ID: python3@3.12.12-r0
@@ -4243,8 +4243,8 @@
     - xz-libs@5.8.2-r0
     - zlib@1.3.1-r2
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:314f6b1ea5d7da1aa23121ee7dc29bc4c565ac9b
     InstalledFiles:
     - usr/bin/2to3
@@ -4987,8 +4987,8 @@
     - pyc@3.12.12-r0
     - python3-pycache-pyc0@3.12.12-r0
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:1590b1800379a72b1fd6d11a734cd0b8c9472c78
     AnalyzedBy: apk
   - ID: python3-pycache-pyc0@3.12.12-r0
@@ -5006,8 +5006,8 @@
     DependsOn:
     - libssl3@3.5.5-r0
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:cb693ca60fe985e6c5b0ebaecd8f5201e2195c2c
     InstalledFiles:
     - usr/lib/python3.12/__phello__/__pycache__/__init__.cpython-312.pyc
@@ -5638,8 +5638,8 @@
     - libncursesw@6.5_p20251123-r0
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:8aeb81b3a477f922b9b6a533381114c63dd928fe
     InstalledFiles:
     - etc/inputrc
@@ -5682,8 +5682,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:8a0cec5c2bed73f54151897852ecf7c748d0ddea
     InstalledFiles:
     - usr/lib/libsqlite3.so.0
@@ -5771,8 +5771,8 @@
     DependsOn:
     - musl@1.2.5-r21
     Layer:
-      Digest: sha256:91ee55b880998727336d218faa5f687b1dac521c97e82852b9effe672981e49c
-      DiffID: sha256:9a12ede0f81d67cfc6df940dea733f562aedbfa4384b06a0df62d063cee005d4
+      Digest: sha256:00c6ec7aa677b1bb2b5271020015475e3992515e6030b67f700edda35704b5fa
+      DiffID: sha256:2a83fab716ed462825dff6d2afcae3579ba35465946d9c31e4477e478b7ee5a8
     Digest: sha1:d3eb4807f74650a151b4463266ecd1b507f3c49f
     InstalledFiles:
     - usr/lib/liblzma.so.5
@@ -5842,7 +5842,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:93c7492f40aac03c175e93834400227078d4ac00d5dde9c0d2936f1cab882f59
+    Fingerprint: sha256:2d9ba260d0c5005ab2a40fa508b1b0a3a08eba3c636a19acb8114d519ea03f2b
     Title: 'libpng: LIBPNG has a heap buffer overflow in png_set_quantize'
     Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. Prior to 1.6.55, an out-of-bounds read vulnerability exists in the png_set_quantize() API function. When the function is called with no histogram and the number of colors in the palette is more than twice the maximum supported by the user's display, certain palettes will cause the function to enter into an infinite loop that reads past the end of an internal heap-allocated buffer. The images that trigger this vulnerability are valid per the PNG specification. This vulnerability is fixed in 1.6.55.
     Severity: HIGH
@@ -5910,7 +5910,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:0ffcad724ed07b30ad841b66c6da65e9f8865f6b9113e6fe752af3ad5beeada4
+    Fingerprint: sha256:d82bed4b4165f9e0f2b9ae1ab7c20d747e41680fcad5b8b9b593b154bde89877
     Title: 'zlib: zlib: Arbitrary code execution via buffer overflow in untgz utility'
     Description: zlib versions up to and including 1.3.1.2 include a global buffer overflow in the untgz utility located under contrib/untgz. The vulnerability is limited to the standalone demonstration utility and does not affect the core zlib compression library. The flaw occurs when a user executes the untgz command with an excessively long archive name supplied via the command line, leading to an out-of-bounds write in a fixed-size global buffer.
     Severity: CRITICAL
@@ -5955,7 +5955,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:1fbeab007bda85a0a3b50aeda6ca3df31839d7b8624325f7adbca8738697cd3e
+    Fingerprint: sha256:df4d9efe5a0d45bc1ff98d39ad5c0ab17438edf4e3dd005647977a0713c20a90
     Title: 'zlib: zlib: Denial of Service via infinite loop in CRC32 combine functions'
     Description: zlib before 1.3.2 allows CPU consumption via crc32_combine64 and crc32_combine_gen64 because x2nmodp can do right shifts within a loop that has no termination condition.
     Severity: MEDIUM
@@ -6656,7 +6656,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
-    Fingerprint: sha256:5b4daeaff4fc2457e5565be4146418013632d001a904f1c6d0cef99be3318edd
+    Fingerprint: sha256:8a08995bfb64ec0a8d3c742bfbe9e6aced16acf56efa1e99dde4c298f348cb1b
     Title: 'jackson-core: Number Length Constraint Bypass in Async Parser Leads to Potential DoS Condition'
     Description: "### Summary\nThe non-blocking (async) JSON parser in `jackson-core` bypasses the `maxNumberLength` constraint (default: 1000 characters) defined in `StreamReadConstraints`. This allows an attacker to send JSON with arbitrarily long numbers through the async parser API, leading to excessive memory allocation and potential CPU exhaustion, resulting in a Denial of Service (DoS).\n\nThe standard synchronous parser correctly enforces this limit, but the async parser fails to do so, creating an inconsistent enforcement policy.\n\n### Details\nThe root cause is that the async parsing path in `NonBlockingUtf8JsonParserBase` (and related classes) does not call the methods responsible for number length validation.\n\n- The number parsing methods (e.g., `_finishNumberIntegralPart`) accumulate digits into the `TextBuffer` without any length checks.\n- After parsing, they call `_valueComplete()`, which finalizes the token but does **not** call `resetInt()` or `resetFloat()`.\n- The `resetInt()`/`resetFloat()` methods in `ParserBase` are where the `validateIntegerLength()` and `validateFPLength()` checks are performed.\n- Because this validation step is skipped, the `maxNumberLength` constraint is never enforced in the async code path.\n\n### PoC\nThe following JUnit 5 test demonstrates the vulnerability. It shows that the async parser accepts a 5,000-digit number, whereas the limit should be 1,000.\n\n```java\npackage tools.jackson.core.unittest.dos;\n\nimport java.nio.charset.StandardCharsets;\n\nimport org.junit.jupiter.api.Test;\n\nimport tools.jackson.core.*;\nimport tools.jackson.core.exc.StreamConstraintsException;\nimport tools.jackson.core.json.JsonFactory;\nimport tools.jackson.core.json.async.NonBlockingByteArrayJsonParser;\n\nimport static org.junit.jupiter.api.Assertions.*;\n\n/**\n * POC: Number Length Constraint Bypass in Non-Blocking (Async) JSON Parsers\n *\n * Authors: sprabhav7, rohan-repos\n * \n * maxNumberLength default = 1000 characters (digits).\n * A number with more than 1000 digits should be rejected by any parser.\n *\n * BUG: The async parser never calls resetInt()/resetFloat() which is where\n * validateIntegerLength()/validateFPLength() lives. Instead it calls\n * _valueComplete() which skips all number length validation.\n *\n * CWE-770: Allocation of Resources Without Limits or Throttling\n */\nclass AsyncParserNumberLengthBypassTest {\n\n    private static final int MAX_NUMBER_LENGTH = 1000;\n    private static final int TEST_NUMBER_LENGTH = 5000;\n\n    private final JsonFactory factory = new JsonFactory();\n\n    // CONTROL: Sync parser correctly rejects a number exceeding maxNumberLength\n    @Test\n    void syncParserRejectsLongNumber() throws Exception {\n        byte[] payload = buildPayloadWithLongInteger(TEST_NUMBER_LENGTH);\n\t\t\n\t\t// Output to console\n        System.out.println(\"[SYNC] Parsing \" + TEST_NUMBER_LENGTH + \"-digit number (limit: \" + MAX_NUMBER_LENGTH + \")\");\n        try {\n            try (JsonParser p = factory.createParser(ObjectReadContext.empty(), payload)) {\n                while (p.nextToken() != null) {\n                    if (p.currentToken() == JsonToken.VALUE_NUMBER_INT) {\n                        System.out.println(\"[SYNC] Accepted number with \" + p.getText().length() + \" digits — UNEXPECTED\");\n                    }\n                }\n            }\n            fail(\"Sync parser must reject a \" + TEST_NUMBER_LENGTH + \"-digit number\");\n        } catch (StreamConstraintsException e) {\n            System.out.println(\"[SYNC] Rejected with StreamConstraintsException: \" + e.getMessage());\n        }\n    }\n\n    // VULNERABILITY: Async parser accepts the SAME number that sync rejects\n    @Test\n    void asyncParserAcceptsLongNumber() throws Exception {\n        byte[] payload = buildPayloadWithLongInteger(TEST_NUMBER_LENGTH);\n\n        NonBlockingByteArrayJsonParser p =\n            (NonBlockingByteArrayJsonParser) factory.createNonBlockingByteArrayParser(ObjectReadContext.empty());\n        p.feedInput(payload, 0, payload.length);\n        p.endOfInput();\n\n        boolean foundNumber = false;\n        try {\n            while (p.nextToken() != null) {\n                if (p.currentToken() == JsonToken.VALUE_NUMBER_INT) {\n                    foundNumber = true;\n                    String numberText = p.getText();\n                    assertEquals(TEST_NUMBER_LENGTH, numberText.length(),\n                        \"Async parser silently accepted all \" + TEST_NUMBER_LENGTH + \" digits\");\n                }\n            }\n            // Output to console\n            System.out.println(\"[ASYNC INT] Accepted number with \" + TEST_NUMBER_LENGTH + \" digits — BUG CONFIRMED\");\n            assertTrue(foundNumber, \"Parser should have produced a VALUE_NUMBER_INT token\");\n        } catch (StreamConstraintsException e) {\n            fail(\"Bug is fixed — async parser now correctly rejects long numbers: \" + e.getMessage());\n        }\n        p.close();\n    }\n\n    private byte[] buildPayloadWithLongInteger(int numDigits) {\n        StringBuilder sb = new StringBuilder(numDigits + 10);\n        sb.append(\"{\\\"v\\\":\");\n        for (int i = 0; i < numDigits; i++) {\n            sb.append((char) ('1' + (i % 9)));\n        }\n        sb.append('}');\n        return sb.toString().getBytes(StandardCharsets.UTF_8);\n    }\n}\n\n```\n\n\n### Impact\nA malicious actor can send a JSON document with an arbitrarily long number to an application using the async parser (e.g., in a Spring WebFlux or other reactive application). This can cause:\n1.  **Memory Exhaustion:** Unbounded allocation of memory in the `TextBuffer` to store the number's digits, leading to an `OutOfMemoryError`.\n2.  **CPU Exhaustion:** If the application subsequently calls `getBigIntegerValue()` or `getDecimalValue()`, the JVM can be tied up in O(n^2) `BigInteger` parsing operations, leading to a CPU-based DoS.\n\n### Suggested Remediation\n\nThe async parsing path should be updated to respect the `maxNumberLength` constraint. The simplest fix appears to ensure that `_valueComplete()` or a similar method in the async path calls the appropriate validation methods (`resetInt()` or `resetFloat()`) already present in `ParserBase`, mirroring the behavior of the synchronous parsers.\n\n**NOTE:** This research was performed in collaboration with [rohan-repos](https://github.com/rohan-repos)"
     Severity: HIGH
@@ -6693,7 +6693,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
-    Fingerprint: sha256:b670bdba5fdae3cb3788306837f2a6cf7894ffac6561bcbc3fb1f9346f1215e6
+    Fingerprint: sha256:15f009c85248c2860f8ebef4f17e7cf823a5ec2a0ccfd6dea8ef6c00d82efcdb
     Title: 'org.eclipse.jetty/jetty-http: org.eclipse.jetty: Security bypass due to differential URI parsing'
     Description: "The Jetty URI parser has some key differences to other common parsers when evaluating invalid or unusual URIs.\_Differential parsing of URIs in systems using multiple components may result in security by-pass. For example a component that enforces a black list may interpret the URIs differently from one that generates a response.\_At the very least, differential parsing may divulge implementation details."
     Severity: LOW
