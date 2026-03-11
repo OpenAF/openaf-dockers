@@ -9700,7 +9700,7 @@
 │                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-9086 
 │                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-1350.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:1825 
+│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:1350 
 │                       │      │                  ├ [10]: https://github.com/curl/curl/commit/c6ae07c6a541e0e96
 │                       │      │                  │       d0040afb6 
 │                       │      │                  ├ [11]: https://hackerone.com/reports/3294999 
@@ -9825,7 +9825,7 @@
 │                       │      │                  ├ [6] : https://dev.gnupg.org/T7906 
 │                       │      │                  ├ [7] : https://dev.gnupg.org/T8001 
 │                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-0719.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:0697 
+│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:0719 
 │                       │      │                  ├ [10]: https://github.com/gpg/gnupg/blob/ff30683418695f5d2cc
 │                       │      │                  │       9e6cf8c9418e09378ebe4/g10/armor.c#L1305-L1306 
 │                       │      │                  ├ [11]: https://github.com/gpg/gnupg/commit/115d138ba59932800
@@ -10011,6 +10011,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-908 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 1 
@@ -10111,20 +10112,23 @@
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2431196 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2429771 
 │                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2430201 
-│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       26-0861 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2431196 
 │                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-15281 
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-0861 
+│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-0915 
-│                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2026-2786.html 
-│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:1334 
-│                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2026-0861.html 
-│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2026-50120.html 
-│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2026-0861 
-│                       │      │                  ├ [15]: https://sourceware.org/bugzilla/show_bug.cgi?id=33796 
-│                       │      │                  ├ [16]: https://sourceware.org/git/?p=glibc.git;a=blob_plain;
+│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-2786.html 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:2786 
+│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-0861.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-50120.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-0861 
+│                       │      │                  ├ [17]: https://sourceware.org/bugzilla/show_bug.cgi?id=33796 
+│                       │      │                  ├ [18]: https://sourceware.org/git/?p=glibc.git;a=blob_plain;
 │                       │      │                  │       f=advisories/GLIBC-SA-2026-0001 
-│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-8005-1 
-│                       │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2026-0861 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-8005-1 
+│                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2026-0861 
 │                       │      ├ PublishedDate   : 2026-01-14T21:15:52.617Z 
 │                       │      ╰ LastModifiedDate: 2026-02-03T18:26:25.39Z 
 │                       ├ [15] ╭ VulnerabilityID : CVE-2026-0915 
@@ -10175,19 +10179,22 @@
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2431196 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2429771 
 │                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2430201 
-│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       26-0861 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2431196 
 │                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-15281 
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-0861 
+│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-0915 
-│                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2026-2786.html 
-│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:1334 
-│                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2026-0915.html 
-│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2026-50120.html 
-│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2026-0915 
-│                       │      │                  ├ [15]: https://sourceware.org/bugzilla/show_bug.cgi?id=33802 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-8005-1 
-│                       │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2026-0915 
-│                       │      │                  ╰ [18]: https://www.openwall.com/lists/oss-security/2026/01/1
+│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-2786.html 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:2786 
+│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-0915.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-50120.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-0915 
+│                       │      │                  ├ [17]: https://sourceware.org/bugzilla/show_bug.cgi?id=33802 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-8005-1 
+│                       │      │                  ├ [19]: https://www.cve.org/CVERecord?id=CVE-2026-0915 
+│                       │      │                  ╰ [20]: https://www.openwall.com/lists/oss-security/2026/01/1
 │                       │      │                          6/6 
 │                       │      ├ PublishedDate   : 2026-01-15T22:16:12.457Z 
 │                       │      ╰ LastModifiedDate: 2026-01-23T19:36:50.73Z 
@@ -10222,6 +10229,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-908 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
 │                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 1 
@@ -10322,20 +10330,23 @@
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2431196 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2429771 
 │                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2430201 
-│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       26-0861 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2431196 
 │                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-15281 
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-0861 
+│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-0915 
-│                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2026-2786.html 
-│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:1334 
-│                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2026-0861.html 
-│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2026-50120.html 
-│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2026-0861 
-│                       │      │                  ├ [15]: https://sourceware.org/bugzilla/show_bug.cgi?id=33796 
-│                       │      │                  ├ [16]: https://sourceware.org/git/?p=glibc.git;a=blob_plain;
+│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-2786.html 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:2786 
+│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-0861.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-50120.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-0861 
+│                       │      │                  ├ [17]: https://sourceware.org/bugzilla/show_bug.cgi?id=33796 
+│                       │      │                  ├ [18]: https://sourceware.org/git/?p=glibc.git;a=blob_plain;
 │                       │      │                  │       f=advisories/GLIBC-SA-2026-0001 
-│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-8005-1 
-│                       │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2026-0861 
+│                       │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-8005-1 
+│                       │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2026-0861 
 │                       │      ├ PublishedDate   : 2026-01-14T21:15:52.617Z 
 │                       │      ╰ LastModifiedDate: 2026-02-03T18:26:25.39Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2026-0915 
@@ -10386,19 +10397,22 @@
 │                       │      │                  ├ [5] : https://bugzilla.redhat.com/2431196 
 │                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2429771 
 │                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2430201 
-│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-│                       │      │                  │       26-0861 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2431196 
 │                       │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       25-15281 
+│                       │      │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-0861 
+│                       │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-0915 
-│                       │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2026-2786.html 
-│                       │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:1334 
-│                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2026-0915.html 
-│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2026-50120.html 
-│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2026-0915 
-│                       │      │                  ├ [15]: https://sourceware.org/bugzilla/show_bug.cgi?id=33802 
-│                       │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-8005-1 
-│                       │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2026-0915 
-│                       │      │                  ╰ [18]: https://www.openwall.com/lists/oss-security/2026/01/1
+│                       │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2026-2786.html 
+│                       │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2026:2786 
+│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-0915.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-50120.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-0915 
+│                       │      │                  ├ [17]: https://sourceware.org/bugzilla/show_bug.cgi?id=33802 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-8005-1 
+│                       │      │                  ├ [19]: https://www.cve.org/CVERecord?id=CVE-2026-0915 
+│                       │      │                  ╰ [20]: https://www.openwall.com/lists/oss-security/2026/01/1
 │                       │      │                          6/6 
 │                       │      ├ PublishedDate   : 2026-01-15T22:16:12.457Z 
 │                       │      ╰ LastModifiedDate: 2026-01-23T19:36:50.73Z 
@@ -10764,7 +10778,7 @@
 │                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-9086 
 │                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-1350.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:1825 
+│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:1350 
 │                       │      │                  ├ [10]: https://github.com/curl/curl/commit/c6ae07c6a541e0e96
 │                       │      │                  │       d0040afb6 
 │                       │      │                  ├ [11]: https://hackerone.com/reports/3294999 
@@ -11447,7 +11461,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/205e3a55e16
 │                       │      │                  │       e4bd08c12fdbd3416ab829c0f6206 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/8caf359d6e4
@@ -11589,7 +11603,7 @@
 │                       │      │                  ├ [39]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [40]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [41]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [41]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [42]: https://github.com/openssl/openssl/commit/2c8f0e5fa9b
 │                       │      │                  │       6ee5508a0349e4572ddb74db5a703 
 │                       │      │                  ├ [43]: https://github.com/openssl/openssl/commit/5f26d4202f5
@@ -11725,7 +11739,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/1f08e54bad3
 │                       │      │                  │       2843044fe8a675948d65e3b4ece65 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/7c88376731c
@@ -11868,7 +11882,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/310f305eb92
 │                       │      │                  │       ea8040d6b3cb75a5feeba8e6acf2f 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/a7936fa4bd2
@@ -12013,7 +12027,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/3ed1f752499
 │                       │      │                  │       32b155eef993a8e66a99cb98bfef4 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/6184a4fb08e
@@ -12150,7 +12164,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/384011202af
 │                       │      │                  │       92605d926fafe4a0bcd6b65d162ad 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/475c466ef2f
@@ -12290,7 +12304,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/372fc5c7752
 │                       │      │                  │       9695b05b4f5b5187691a57ef5dffc 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/4016975d446
@@ -12448,7 +12462,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/41be0f21640
 │                       │      │                  │       4f14457bbf3b9cc488dba60b49296 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/7e9cac9832e
@@ -12593,7 +12607,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/27c7012c91c
 │                       │      │                  │       c986a598d7540f3079dfde2416eb9 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/4e254b48ad9
@@ -12732,7 +12746,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/3524a29271f
 │                       │      │                  │       8191b8fd8a5257eb05173982a097b 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/36ecb496087
@@ -12877,7 +12891,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/2502e7b7d4c
 │                       │      │                  │       0cf4f972a881641fe09edc67aeec4 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/572844beca9
@@ -12962,6 +12976,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
@@ -13021,7 +13036,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/2502e7b7d4c
 │                       │      │                  │       0cf4f972a881641fe09edc67aeec4 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/572844beca9
@@ -13201,7 +13216,7 @@
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-56433 
 │                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20145 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
 │                       │      │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d574
 │                       │      │                  │       1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
 │                       │      │                  │       241 
@@ -13371,7 +13386,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/205e3a55e16
 │                       │      │                  │       e4bd08c12fdbd3416ab829c0f6206 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/8caf359d6e4
@@ -13513,7 +13528,7 @@
 │                       │      │                  ├ [39]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [40]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [41]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [41]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [42]: https://github.com/openssl/openssl/commit/2c8f0e5fa9b
 │                       │      │                  │       6ee5508a0349e4572ddb74db5a703 
 │                       │      │                  ├ [43]: https://github.com/openssl/openssl/commit/5f26d4202f5
@@ -13649,7 +13664,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/1f08e54bad3
 │                       │      │                  │       2843044fe8a675948d65e3b4ece65 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/7c88376731c
@@ -13792,7 +13807,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/310f305eb92
 │                       │      │                  │       ea8040d6b3cb75a5feeba8e6acf2f 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/a7936fa4bd2
@@ -13937,7 +13952,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/3ed1f752499
 │                       │      │                  │       32b155eef993a8e66a99cb98bfef4 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/6184a4fb08e
@@ -14074,7 +14089,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/384011202af
 │                       │      │                  │       92605d926fafe4a0bcd6b65d162ad 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/475c466ef2f
@@ -14214,7 +14229,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/372fc5c7752
 │                       │      │                  │       9695b05b4f5b5187691a57ef5dffc 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/4016975d446
@@ -14372,7 +14387,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/41be0f21640
 │                       │      │                  │       4f14457bbf3b9cc488dba60b49296 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/7e9cac9832e
@@ -14517,7 +14532,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/27c7012c91c
 │                       │      │                  │       c986a598d7540f3079dfde2416eb9 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/4e254b48ad9
@@ -14656,7 +14671,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/3524a29271f
 │                       │      │                  │       8191b8fd8a5257eb05173982a097b 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/36ecb496087
@@ -14801,7 +14816,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/2502e7b7d4c
 │                       │      │                  │       0cf4f972a881641fe09edc67aeec4 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/572844beca9
@@ -14886,6 +14901,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
@@ -14945,7 +14961,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/2502e7b7d4c
 │                       │      │                  │       0cf4f972a881641fe09edc67aeec4 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/572844beca9
@@ -15092,7 +15108,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/205e3a55e16
 │                       │      │                  │       e4bd08c12fdbd3416ab829c0f6206 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/8caf359d6e4
@@ -15234,7 +15250,7 @@
 │                       │      │                  ├ [39]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [40]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [41]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [41]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [42]: https://github.com/openssl/openssl/commit/2c8f0e5fa9b
 │                       │      │                  │       6ee5508a0349e4572ddb74db5a703 
 │                       │      │                  ├ [43]: https://github.com/openssl/openssl/commit/5f26d4202f5
@@ -15370,7 +15386,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/1f08e54bad3
 │                       │      │                  │       2843044fe8a675948d65e3b4ece65 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/7c88376731c
@@ -15513,7 +15529,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/310f305eb92
 │                       │      │                  │       ea8040d6b3cb75a5feeba8e6acf2f 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/a7936fa4bd2
@@ -15658,7 +15674,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/3ed1f752499
 │                       │      │                  │       32b155eef993a8e66a99cb98bfef4 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/6184a4fb08e
@@ -15795,7 +15811,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/384011202af
 │                       │      │                  │       92605d926fafe4a0bcd6b65d162ad 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/475c466ef2f
@@ -15935,7 +15951,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/372fc5c7752
 │                       │      │                  │       9695b05b4f5b5187691a57ef5dffc 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/4016975d446
@@ -16093,7 +16109,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/41be0f21640
 │                       │      │                  │       4f14457bbf3b9cc488dba60b49296 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/7e9cac9832e
@@ -16238,7 +16254,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/27c7012c91c
 │                       │      │                  │       c986a598d7540f3079dfde2416eb9 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/4e254b48ad9
@@ -16377,7 +16393,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/3524a29271f
 │                       │      │                  │       8191b8fd8a5257eb05173982a097b 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/36ecb496087
@@ -16522,7 +16538,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/2502e7b7d4c
 │                       │      │                  │       0cf4f972a881641fe09edc67aeec4 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/572844beca9
@@ -16607,6 +16623,7 @@
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 2 
 │                       │      │                  ├ redhat     : 1 
@@ -16666,7 +16683,7 @@
 │                       │      │                  ├ [37]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-22796 
 │                       │      │                  ├ [38]: https://errata.almalinux.org/9/ALSA-2026-1473.html 
-│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1472 
+│                       │      │                  ├ [39]: https://errata.rockylinux.org/RLSA-2026:1473 
 │                       │      │                  ├ [40]: https://github.com/openssl/openssl/commit/2502e7b7d4c
 │                       │      │                  │       0cf4f972a881641fe09edc67aeec4 
 │                       │      │                  ├ [41]: https://github.com/openssl/openssl/commit/572844beca9
@@ -16736,7 +16753,7 @@
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-56433 
 │                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20145 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
 │                       │      │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d574
 │                       │      │                  │       1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
 │                       │      │                  │       241 
@@ -16811,7 +16828,7 @@
 │                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-45582 
 │                       │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2026-0067.html 
-│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0002 
+│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0067 
 │                       │      │                  ├ [8] : https://github.com/i900008/vulndb/blob/main/Gnu_tar_v
 │                       │      │                  │       uln.md 
 │                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-45582.html 
