@@ -5,7 +5,7 @@ ARG DIST
 USER root
 RUN case "${DIST}" in \
     deb*) apt-get -y update && apt-get -y install --no-install-recommends bubblewrap && apt-get clean && rm -rf /var/lib/apt/lists/* ;; \
-    ubi*) microdnf install -y bubblewrap && microdnf clean all ;; \
+    ubi*) if microdnf repoquery bubblewrap | grep -q '^bubblewrap-'; then microdnf install -y bubblewrap; else echo "bubblewrap is not available in the enabled UBI repositories; continuing without it" >&2; fi && microdnf clean all ;; \
     *) apk update && apk --no-cache add bubblewrap && rm -rf /var/cache/apk/* ;; \
   esac
 
