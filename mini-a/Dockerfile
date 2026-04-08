@@ -10,7 +10,7 @@ RUN case "${DIST}" in \
   esac
 
 USER openaf
-RUN /openaf/opack install mini-a AWS Mermaid S3 oJob-common Jsoup APIs
+RUN /openaf/opack install mini-a AWS Mermaid S3 oJob-common Jsoup APIs ghcopilot
 
 ENV OPACK_EXEC=mini-a
-ENV OAF_MINI_A_LIBS="@AWS/aws.js"
+ENV OAF_MINI_A_LIBS="@AWS/aws.js,@ghcopilot/ghcopilot.js"
