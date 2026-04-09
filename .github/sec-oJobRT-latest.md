@@ -2377,7 +2377,125 @@
 │     │                        ├ InstalledFiles ╭ [0]: usr/lib/libzstd.so.1 
 │     │                        │                ╰ [1]: usr/lib/libzstd.so.1.5.7 
 │     │                        ╰ AnalyzedBy    : apk 
-│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2026-22184 
+│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2026-33416 
+│                       │     ├ PkgID           : libpng@1.6.55-r0 
+│                       │     ├ PkgName         : libpng 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.55-r0?arch=x86_64&distro=3.2
+│                       │     │                  │       3.3 
+│                       │     │                  ╰ UID : 9c803c58fd4ab240 
+│                       │     ├ InstalledVersion: 1.6.55-r0 
+│                       │     ├ FixedVersion    : 1.6.56-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:3a50bff8c74872267b8e558a06a07fd4402972d4b5f37
+│                       │     │                  │         286dca5d7319f113e36 
+│                       │     │                  ╰ DiffID: sha256:9dff5eaa5c3b0ca7532f743f6b27d36c8691ea8d7ee0e
+│                       │     │                            a880179cad9827af3be 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33416 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:445b8f11377fe19e8ffef87bd913ca67ff56f3b807a58757931838
+│                       │     │                   703a031497 
+│                       │     ├ Title           : libpng: libpng: Arbitrary code execution due to
+│                       │     │                   use-after-free vulnerability 
+│                       │     ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │     │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │     │                   raster image files. In versions 1.2.1 through 1.6.55,
+│                       │     │                   `png_set_tRNS` and `png_set_PLTE` each alias a heap-allocated
+│                       │     │                    buffer between `png_struct` and `png_info`, sharing a single
+│                       │     │                    allocation across two structs with independent lifetimes.
+│                       │     │                   The `trans_alpha` aliasing has been present since at least
+│                       │     │                   libpng 1.0, and the `palette` aliasing since at least 1.2.1.
+│                       │     │                   Both affect all prior release lines `png_set_tRNS` sets
+│                       │     │                   `png_ptr->trans_alpha = info_ptr->trans_alpha` (256-byte
+│                       │     │                   buffer) and `png_set_PLTE` sets `info_ptr->palette =
+│                       │     │                   png_ptr->palette` (768-byte buffer). In both cases, calling
+│                       │     │                   `png_free_data` (with `PNG_FREE_TRNS` or `PNG_FREE_PLTE`)
+│                       │     │                   frees the buffer through `info_ptr` while the corresponding
+│                       │     │                   `png_ptr` pointer remains dangling. Subsequent row-transform
+│                       │     │                   functions dereference and, in some code paths, write to the
+│                       │     │                   freed memory. A second call to `png_set_tRNS` or
+│                       │     │                   `png_set_PLTE` has the same effect, because both functions
+│                       │     │                   call `png_free_data` internally before reallocating the
+│                       │     │                   `info_ptr` buffer. Version 1.6.56 fixes the issue. 
+│                       │     ├ Severity        : HIGH 
+│                       │     ├ CweIDs           ─ [0]: CWE-416 
+│                       │     ├ VendorSeverity   ╭ photon: 3 
+│                       │     │                  ╰ redhat: 2 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 7.5 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-33416 
+│                       │     │                  ├ [1]: https://github.com/pnggroup/libpng/commit/23019269764e3
+│                       │     │                  │      5ed8458e517f1897bd3c54820eb 
+│                       │     │                  ├ [2]: https://github.com/pnggroup/libpng/commit/7ea9eea884a23
+│                       │     │                  │      28cc7fdcb3c0c00246a50d90667 
+│                       │     │                  ├ [3]: https://github.com/pnggroup/libpng/commit/a3a21443ed12b
+│                       │     │                  │      fa1ef46fa0d4fb2b74a0fa34a25 
+│                       │     │                  ├ [4]: https://github.com/pnggroup/libpng/commit/c1b0318b393c9
+│                       │     │                  │      0679e6fa5bc1d329fd5d5012ec1 
+│                       │     │                  ├ [5]: https://github.com/pnggroup/libpng/pull/824 
+│                       │     │                  ├ [6]: https://github.com/pnggroup/libpng/security/advisories/
+│                       │     │                  │      GHSA-m4pc-p4q3-4c7j 
+│                       │     │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-33416 
+│                       │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-33416 
+│                       │     ├ PublishedDate   : 2026-03-26T17:16:38.443Z 
+│                       │     ╰ LastModifiedDate: 2026-04-02T20:28:33.973Z 
+│                       ├ [1] ╭ VulnerabilityID : CVE-2026-33636 
+│                       │     ├ PkgID           : libpng@1.6.55-r0 
+│                       │     ├ PkgName         : libpng 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.55-r0?arch=x86_64&distro=3.2
+│                       │     │                  │       3.3 
+│                       │     │                  ╰ UID : 9c803c58fd4ab240 
+│                       │     ├ InstalledVersion: 1.6.55-r0 
+│                       │     ├ FixedVersion    : 1.6.56-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:3a50bff8c74872267b8e558a06a07fd4402972d4b5f37
+│                       │     │                  │         286dca5d7319f113e36 
+│                       │     │                  ╰ DiffID: sha256:9dff5eaa5c3b0ca7532f743f6b27d36c8691ea8d7ee0e
+│                       │     │                            a880179cad9827af3be 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33636 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:d8919ee3eb26e6f7c2ad10a10497cd0f611a2a7e66df80207fe532
+│                       │     │                   356dc8c2a4 
+│                       │     ├ Title           : libpng: libpng: Information disclosure and denial of service
+│                       │     │                   via out-of-bounds read/write in Neon palette expansion 
+│                       │     ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │     │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │     │                   raster image files. In versions 1.6.36 through 1.6.55, an
+│                       │     │                   out-of-bounds read and write exists in libpng's ARM/AArch64
+│                       │     │                   Neon-optimized palette expansion path. When expanding 8-bit
+│                       │     │                   paletted rows to RGB or RGBA, the Neon loop processes a final
+│                       │     │                    partial chunk without verifying that enough input pixels
+│                       │     │                   remain. Because the implementation works backward from the
+│                       │     │                   end of the row, the final iteration dereferences pointers
+│                       │     │                   before the start of the row buffer (OOB read) and writes
+│                       │     │                   expanded pixel data to the same underflowed positions (OOB
+│                       │     │                   write). This is reachable via normal decoding of
+│                       │     │                   attacker-controlled PNG input if Neon is enabled. Version
+│                       │     │                   1.6.56 fixes the issue. 
+│                       │     ├ Severity        : HIGH 
+│                       │     ├ CweIDs           ╭ [0]: CWE-125 
+│                       │     │                  ╰ [1]: CWE-787 
+│                       │     ├ VendorSeverity   ╭ photon: 3 
+│                       │     │                  ╰ redhat: 2 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 7.6 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-33636 
+│                       │     │                  ├ [1]: https://github.com/pnggroup/libpng/commit/7734cda20cf12
+│                       │     │                  │      36aef60f3bbd2267c97bbb40869 
+│                       │     │                  ├ [2]: https://github.com/pnggroup/libpng/commit/aba9f18eba870
+│                       │     │                  │      d14fb52c5ba5d73451349e339c3 
+│                       │     │                  ├ [3]: https://github.com/pnggroup/libpng/security/advisories/
+│                       │     │                  │      GHSA-wjr5-c57x-95m2 
+│                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-33636 
+│                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-33636 
+│                       │     ├ PublishedDate   : 2026-03-26T17:16:41.477Z 
+│                       │     ╰ LastModifiedDate: 2026-04-02T18:42:02.667Z 
+│                       ├ [2] ╭ VulnerabilityID : CVE-2026-22184 
 │                       │     ├ PkgID           : zlib@1.3.1-r2 
 │                       │     ├ PkgName         : zlib 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/zlib@1.3.1-r2?arch=x86_64&distro=3.23.3 
@@ -2427,7 +2545,7 @@
 │                       │     │                  ╰ [7]: https://zlib.net/ 
 │                       │     ├ PublishedDate   : 2026-01-07T21:16:01.563Z 
 │                       │     ╰ LastModifiedDate: 2026-03-18T16:26:31.14Z 
-│                       ╰ [1] ╭ VulnerabilityID : CVE-2026-27171 
+│                       ╰ [3] ╭ VulnerabilityID : CVE-2026-27171 
 │                             ├ PkgID           : zlib@1.3.1-r2 
 │                             ├ PkgName         : zlib 
 │                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/zlib@1.3.1-r2?arch=x86_64&distro=3.23.3 
@@ -2460,9 +2578,9 @@
 │                             ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/
 │                             │                  │        │           A:H 
 │                             │                  │        ╰ V3Score : 5.5 
-│                             │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/
+│                             │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/
 │                             │                           │           A:L 
-│                             │                           ╰ V3Score : 2.9 
+│                             │                           ╰ V3Score : 3.3 
 │                             ├ References       ╭ [0]: https://7asecurity.com/blog/2026/02/zlib-7asecurity-aud
 │                             │                  │      it/ 
 │                             │                  ├ [1]: https://7asecurity.com/reports/pentest-report-zlib-RC1.
@@ -2474,7 +2592,7 @@
 │                             │                  ├ [6]: https://ostif.org/zlib-audit-complete/ 
 │                             │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-27171 
 │                             ├ PublishedDate   : 2026-02-18T04:16:01.263Z 
-│                             ╰ LastModifiedDate: 2026-02-20T16:45:28.827Z 
+│                             ╰ LastModifiedDate: 2026-03-25T21:27:04.603Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 

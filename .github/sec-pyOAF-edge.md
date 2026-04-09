@@ -766,10 +766,10 @@
 │     │                 │      ├ Licenses       ─ [0]: GPL-3.0-or-later 
 │     │                 │      ├ Maintainer    : Natanael Copa <ncopa@alpinelinux.org> 
 │     │                 │      ├ DependsOn      ─ [0]: musl@1.2.5-r21 
-│     │                 │      ├ Layer          ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44
-│     │                 │      │                │         e95288219ced5d222e 
-│     │                 │      │                ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d26314
-│     │                 │      │                          44b1e185bd0daedc4b 
+│     │                 │      ├ Layer          ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341
+│     │                 │      │                │         823b7cbdd532df16b3 
+│     │                 │      │                ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5a
+│     │                 │      │                          f92afef6180bd0dd3c 
 │     │                 │      ├ Digest        : sha1:015081387c654fbfd7d9e000cb35ee31b3158567 
 │     │                 │      ├ InstalledFiles ╭ [0]: usr/lib/libgdbm.so.6 
 │     │                 │      │                ├ [1]: usr/lib/libgdbm.so.6.0.0 
@@ -986,10 +986,10 @@
 │     │                 │      ├ Licenses       ─ [0]: MIT 
 │     │                 │      ├ Maintainer    : Carlo Landmeter <clandmeter@alpinelinux.org> 
 │     │                 │      ├ DependsOn      ─ [0]: musl@1.2.5-r21 
-│     │                 │      ├ Layer          ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44
-│     │                 │      │                │         e95288219ced5d222e 
-│     │                 │      │                ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d26314
-│     │                 │      │                          44b1e185bd0daedc4b 
+│     │                 │      ├ Layer          ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341
+│     │                 │      │                │         823b7cbdd532df16b3 
+│     │                 │      │                ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5a
+│     │                 │      │                          f92afef6180bd0dd3c 
 │     │                 │      ├ Digest        : sha1:5760d53ddd7cca8a742c672e4e00a475718eacaa 
 │     │                 │      ├ InstalledFiles ╭ [0]: usr/lib/libexpat.so.1 
 │     │                 │      │                ╰ [1]: usr/lib/libexpat.so.1.11.3 
@@ -1025,10 +1025,10 @@
 │     │                 │      │                ╰ [1]: LGPL-2.1-or-later 
 │     │                 │      ├ Maintainer    : Ariadne Conill <ariadne@dereferenced.org> 
 │     │                 │      ├ DependsOn      ─ [0]: musl@1.2.5-r21 
-│     │                 │      ├ Layer          ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44
-│     │                 │      │                │         e95288219ced5d222e 
-│     │                 │      │                ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d26314
-│     │                 │      │                          44b1e185bd0daedc4b 
+│     │                 │      ├ Layer          ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341
+│     │                 │      │                │         823b7cbdd532df16b3 
+│     │                 │      │                ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5a
+│     │                 │      │                          f92afef6180bd0dd3c 
 │     │                 │      ├ Digest        : sha1:57fccbe9eebf23f2c4f38ee2a24f8b0bdd508ff7 
 │     │                 │      ├ InstalledFiles ─ [0]: usr/lib/libgcc_s.so.1 
 │     │                 │      ╰ AnalyzedBy    : apk 
@@ -1112,10 +1112,10 @@
 │     │                 │      ├ Maintainer    : Natanael Copa <ncopa@alpinelinux.org> 
 │     │                 │      ├ DependsOn      ╭ [0]: musl@1.2.5-r21 
 │     │                 │      │                ╰ [1]: ncurses-terminfo-base@6.5_p20251123-r0 
-│     │                 │      ├ Layer          ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44
-│     │                 │      │                │         e95288219ced5d222e 
-│     │                 │      │                ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d26314
-│     │                 │      │                          44b1e185bd0daedc4b 
+│     │                 │      ├ Layer          ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341
+│     │                 │      │                │         823b7cbdd532df16b3 
+│     │                 │      │                ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5a
+│     │                 │      │                          f92afef6180bd0dd3c 
 │     │                 │      ├ Digest        : sha1:649d3041c52b80620fb50a98f5979d25ebbe1523 
 │     │                 │      ├ InstalledFiles ╭ [0]: usr/lib/libncursesw.so.6 
 │     │                 │      │                ╰ [1]: usr/lib/libncursesw.so.6.5 
@@ -1134,10 +1134,10 @@
 │     │                 │      ├ DependsOn      ╭ [0]: libncursesw@6.5_p20251123-r0 
 │     │                 │      │                ├ [1]: musl@1.2.5-r21 
 │     │                 │      │                ╰ [2]: ncurses-terminfo-base@6.5_p20251123-r0 
-│     │                 │      ├ Layer          ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44
-│     │                 │      │                │         e95288219ced5d222e 
-│     │                 │      │                ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d26314
-│     │                 │      │                          44b1e185bd0daedc4b 
+│     │                 │      ├ Layer          ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341
+│     │                 │      │                │         823b7cbdd532df16b3 
+│     │                 │      │                ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5a
+│     │                 │      │                          f92afef6180bd0dd3c 
 │     │                 │      ├ Digest        : sha1:ff98388ab154b09e32c313d45d389ec611e5f4b5 
 │     │                 │      ├ InstalledFiles ╭ [0]: usr/lib/libpanelw.so.6 
 │     │                 │      │                ╰ [1]: usr/lib/libpanelw.so.6.5 
@@ -1216,10 +1216,10 @@
 │     │                 │      ├ Maintainer    : Ariadne Conill <ariadne@dereferenced.org> 
 │     │                 │      ├ DependsOn      ╭ [0]: libgcc@15.2.0-r2 
 │     │                 │      │                ╰ [1]: musl@1.2.5-r21 
-│     │                 │      ├ Layer          ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44
-│     │                 │      │                │         e95288219ced5d222e 
-│     │                 │      │                ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d26314
-│     │                 │      │                          44b1e185bd0daedc4b 
+│     │                 │      ├ Layer          ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341
+│     │                 │      │                │         823b7cbdd532df16b3 
+│     │                 │      │                ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5a
+│     │                 │      │                          f92afef6180bd0dd3c 
 │     │                 │      ├ Digest        : sha1:528d77417a16706468af852f2859ad00f176e266 
 │     │                 │      ├ InstalledFiles ╭ [0]: usr/lib/libstdc++.so.6 
 │     │                 │      │                ╰ [1]: usr/lib/libstdc++.so.6.0.34 
@@ -1685,10 +1685,10 @@
 │     │                 │      ├ DependsOn      ╭ [0]: libgcc@15.2.0-r2 
 │     │                 │      │                ├ [1]: libstdc++@15.2.0-r2 
 │     │                 │      │                ╰ [2]: musl@1.2.5-r21 
-│     │                 │      ├ Layer          ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44
-│     │                 │      │                │         e95288219ced5d222e 
-│     │                 │      │                ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d26314
-│     │                 │      │                          44b1e185bd0daedc4b 
+│     │                 │      ├ Layer          ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341
+│     │                 │      │                │         823b7cbdd532df16b3 
+│     │                 │      │                ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5a
+│     │                 │      │                          f92afef6180bd0dd3c 
 │     │                 │      ├ Digest        : sha1:8ded4ff4c401cd7fb672d973289752b11bae56bf 
 │     │                 │      ├ InstalledFiles ╭ [0]: usr/lib/libmpdec++.so.4 
 │     │                 │      │                ├ [1]: usr/lib/libmpdec++.so.4.0.1 
@@ -1750,10 +1750,10 @@
 │     │                 │      ├ SrcVersion    : 6.5_p20251123-r0 
 │     │                 │      ├ Licenses       ─ [0]: X-11 
 │     │                 │      ├ Maintainer    : Natanael Copa <ncopa@alpinelinux.org> 
-│     │                 │      ├ Layer          ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44
-│     │                 │      │                │         e95288219ced5d222e 
-│     │                 │      │                ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d26314
-│     │                 │      │                          44b1e185bd0daedc4b 
+│     │                 │      ├ Layer          ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341
+│     │                 │      │                │         823b7cbdd532df16b3 
+│     │                 │      │                ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5a
+│     │                 │      │                          f92afef6180bd0dd3c 
 │     │                 │      ├ Digest        : sha1:57bd1d8124ec957eefea2314bdf45b0ed1068cee 
 │     │                 │      ├ InstalledFiles ╭ [0] : etc/terminfo/a/alacritty 
 │     │                 │      │                ├ [1] : etc/terminfo/a/ansi 
@@ -2480,10 +2480,10 @@
 │     │                 │      ├ Maintainer    : Peter Shkenev <santurysim@gmail.com> 
 │     │                 │      ├ DependsOn      ╭ [0]: py3-parsing@3.2.5-r0 
 │     │                 │      │                ╰ [1]: python3@3.12.12-r0 
-│     │                 │      ├ Layer          ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44
-│     │                 │      │                │         e95288219ced5d222e 
-│     │                 │      │                ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d26314
-│     │                 │      │                          44b1e185bd0daedc4b 
+│     │                 │      ├ Layer          ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341
+│     │                 │      │                │         823b7cbdd532df16b3 
+│     │                 │      │                ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5a
+│     │                 │      │                          f92afef6180bd0dd3c 
 │     │                 │      ├ Digest        : sha1:e09cd5f2c2613d8be8704d833ee8e1b73ed6ca33 
 │     │                 │      ├ InstalledFiles ╭ [0] : usr/lib/python3.12/site-packages/packaging/__init__.py 
 │     │                 │      │                ├ [1] : usr/lib/python3.12/site-packages/packaging/_elffile.py 
@@ -2530,10 +2530,10 @@
 │     │                 │      ├ Licenses       ╭ [0]: Apache-2.0 
 │     │                 │      │                ╰ [1]: BSD-2-Clause 
 │     │                 │      ├ Maintainer    : Peter Shkenev <santurysim@gmail.com> 
-│     │                 │      ├ Layer          ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44
-│     │                 │      │                │         e95288219ced5d222e 
-│     │                 │      │                ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d26314
-│     │                 │      │                          44b1e185bd0daedc4b 
+│     │                 │      ├ Layer          ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341
+│     │                 │      │                │         823b7cbdd532df16b3 
+│     │                 │      │                ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5a
+│     │                 │      │                          f92afef6180bd0dd3c 
 │     │                 │      ├ Digest        : sha1:0175e03c745fcd319d5a73622b5f94d698749ee4 
 │     │                 │      ├ InstalledFiles ╭ [0] : usr/lib/python3.12/site-packages/packaging/__pycache__/
 │     │                 │      │                │       __init__.cpython-312.pyc 
@@ -2580,10 +2580,10 @@
 │     │                 │      ├ Licenses       ─ [0]: MIT 
 │     │                 │      ├ Maintainer    : Natanael Copa <ncopa@alpinelinux.org> 
 │     │                 │      ├ DependsOn      ─ [0]: python3@3.12.12-r0 
-│     │                 │      ├ Layer          ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44
-│     │                 │      │                │         e95288219ced5d222e 
-│     │                 │      │                ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d26314
-│     │                 │      │                          44b1e185bd0daedc4b 
+│     │                 │      ├ Layer          ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341
+│     │                 │      │                │         823b7cbdd532df16b3 
+│     │                 │      │                ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5a
+│     │                 │      │                          f92afef6180bd0dd3c 
 │     │                 │      ├ Digest        : sha1:5615dc1c2f3ab824f991b819dfa547bbc363eb98 
 │     │                 │      ├ InstalledFiles ╭ [0] : usr/lib/python3.12/site-packages/pyparsing/__init__.py 
 │     │                 │      │                ├ [1] : usr/lib/python3.12/site-packages/pyparsing/actions.py 
@@ -2622,10 +2622,10 @@
 │     │                 │      ├ SrcVersion    : 3.2.5-r0 
 │     │                 │      ├ Licenses       ─ [0]: MIT 
 │     │                 │      ├ Maintainer    : Natanael Copa <ncopa@alpinelinux.org> 
-│     │                 │      ├ Layer          ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44
-│     │                 │      │                │         e95288219ced5d222e 
-│     │                 │      │                ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d26314
-│     │                 │      │                          44b1e185bd0daedc4b 
+│     │                 │      ├ Layer          ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341
+│     │                 │      │                │         823b7cbdd532df16b3 
+│     │                 │      │                ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5a
+│     │                 │      │                          f92afef6180bd0dd3c 
 │     │                 │      ├ Digest        : sha1:7e7c77ed2bf6c47944e652bbed8d2052c7910c1b 
 │     │                 │      ├ InstalledFiles ╭ [0] : usr/lib/python3.12/site-packages/pyparsing/__pycache__/
 │     │                 │      │                │       __init__.cpython-312.pyc 
@@ -2667,10 +2667,10 @@
 │     │                 │      ├ Maintainer    : Achill Gilgenast <achill@achill.org> 
 │     │                 │      ├ DependsOn      ╭ [0]: py3-setuptools@80.9.0-r2 
 │     │                 │      │                ╰ [1]: python3@3.12.12-r0 
-│     │                 │      ├ Layer          ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44
-│     │                 │      │                │         e95288219ced5d222e 
-│     │                 │      │                ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d26314
-│     │                 │      │                          44b1e185bd0daedc4b 
+│     │                 │      ├ Layer          ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341
+│     │                 │      │                │         823b7cbdd532df16b3 
+│     │                 │      │                ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5a
+│     │                 │      │                          f92afef6180bd0dd3c 
 │     │                 │      ├ Digest        : sha1:c87fcc35bf409170cf455c4105b8b0cd44bf417c 
 │     │                 │      ├ InstalledFiles ╭ [0]  : usr/bin/pip 
 │     │                 │      │                ├ [1]  : usr/bin/pip3 
@@ -3566,10 +3566,10 @@
 │     │                 │      ├ SrcVersion    : 25.1.1-r1 
 │     │                 │      ├ Licenses       ─ [0]: MIT 
 │     │                 │      ├ Maintainer    : Achill Gilgenast <achill@achill.org> 
-│     │                 │      ├ Layer          ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44
-│     │                 │      │                │         e95288219ced5d222e 
-│     │                 │      │                ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d26314
-│     │                 │      │                          44b1e185bd0daedc4b 
+│     │                 │      ├ Layer          ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341
+│     │                 │      │                │         823b7cbdd532df16b3 
+│     │                 │      │                ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5a
+│     │                 │      │                          f92afef6180bd0dd3c 
 │     │                 │      ├ Digest        : sha1:5e28e07b305888b038bbd7d47862d3ca1a3f50c7 
 │     │                 │      ├ InstalledFiles ╭ [0]  : usr/lib/python3.12/site-packages/pip/__pycache__/__ini
 │     │                 │      │                │        t__.cpython-312.pyc 
@@ -4425,10 +4425,10 @@
 │     │                 │      ├ Maintainer    : Achill Gilgenast <achill@achill.org> 
 │     │                 │      ├ DependsOn      ╭ [0]: py3-packaging@25.0-r0 
 │     │                 │      │                ╰ [1]: python3@3.12.12-r0 
-│     │                 │      ├ Layer          ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44
-│     │                 │      │                │         e95288219ced5d222e 
-│     │                 │      │                ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d26314
-│     │                 │      │                          44b1e185bd0daedc4b 
+│     │                 │      ├ Layer          ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341
+│     │                 │      │                │         823b7cbdd532df16b3 
+│     │                 │      │                ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5a
+│     │                 │      │                          f92afef6180bd0dd3c 
 │     │                 │      ├ Digest        : sha1:56cb361a5115365733ca168b41a9dd2e8200c98f 
 │     │                 │      ├ InstalledFiles ╭ [0]  : usr/lib/python3.12/site-packages/distutils-precedence.
 │     │                 │      │                │        pth 
@@ -5430,10 +5430,10 @@
 │     │                 │      ├ SrcVersion    : 80.9.0-r2 
 │     │                 │      ├ Licenses       ─ [0]: MIT 
 │     │                 │      ├ Maintainer    : Achill Gilgenast <achill@achill.org> 
-│     │                 │      ├ Layer          ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44
-│     │                 │      │                │         e95288219ced5d222e 
-│     │                 │      │                ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d26314
-│     │                 │      │                          44b1e185bd0daedc4b 
+│     │                 │      ├ Layer          ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341
+│     │                 │      │                │         823b7cbdd532df16b3 
+│     │                 │      │                ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5a
+│     │                 │      │                          f92afef6180bd0dd3c 
 │     │                 │      ├ Digest        : sha1:3a598640236f6e8ec99f670f4a5cb4cb4bfdd233 
 │     │                 │      ├ InstalledFiles ╭ [0]  : usr/lib/python3.12/site-packages/_distutils_hack/__pyc
 │     │                 │      │                │        ache__/__init__.cpython-312.pyc 
@@ -6212,10 +6212,10 @@
 │     │                 │      ├ SrcVersion: 3.12.12-r0 
 │     │                 │      ├ Licenses   ─ [0]: PSF-2.0 
 │     │                 │      ├ Maintainer: Natanael Copa <ncopa@alpinelinux.org> 
-│     │                 │      ├ Layer      ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44e952
-│     │                 │      │            │         88219ced5d222e 
-│     │                 │      │            ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d2631444b1
-│     │                 │      │                      e185bd0daedc4b 
+│     │                 │      ├ Layer      ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341823b
+│     │                 │      │            │         7cbdd532df16b3 
+│     │                 │      │            ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5af92a
+│     │                 │      │                      fef6180bd0dd3c 
 │     │                 │      ├ Digest    : sha1:27188be1b985948860232f6887dcbd88f4c64381 
 │     │                 │      ╰ AnalyzedBy: apk 
 │     │                 ├ [66] ╭ ID            : python3@3.12.12-r0 
@@ -6243,10 +6243,10 @@
 │     │                 │      │                ├ [11]: sqlite-libs@3.51.2-r0 
 │     │                 │      │                ├ [12]: xz-libs@5.8.2-r0 
 │     │                 │      │                ╰ [13]: zlib@1.3.1-r2 
-│     │                 │      ├ Layer          ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44
-│     │                 │      │                │         e95288219ced5d222e 
-│     │                 │      │                ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d26314
-│     │                 │      │                          44b1e185bd0daedc4b 
+│     │                 │      ├ Layer          ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341
+│     │                 │      │                │         823b7cbdd532df16b3 
+│     │                 │      │                ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5a
+│     │                 │      │                          f92afef6180bd0dd3c 
 │     │                 │      ├ Digest        : sha1:314f6b1ea5d7da1aa23121ee7dc29bc4c565ac9b 
 │     │                 │      ├ InstalledFiles ╭ [0]  : usr/bin/2to3 
 │     │                 │      │                ├ [1]  : usr/bin/2to3-3.12 
@@ -7072,10 +7072,10 @@
 │     │                 │      ├ Maintainer: Natanael Copa <ncopa@alpinelinux.org> 
 │     │                 │      ├ DependsOn  ╭ [0]: pyc@3.12.12-r0 
 │     │                 │      │            ╰ [1]: python3-pycache-pyc0@3.12.12-r0 
-│     │                 │      ├ Layer      ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44e952
-│     │                 │      │            │         88219ced5d222e 
-│     │                 │      │            ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d2631444b1
-│     │                 │      │                      e185bd0daedc4b 
+│     │                 │      ├ Layer      ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341823b
+│     │                 │      │            │         7cbdd532df16b3 
+│     │                 │      │            ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5af92a
+│     │                 │      │                      fef6180bd0dd3c 
 │     │                 │      ├ Digest    : sha1:1590b1800379a72b1fd6d11a734cd0b8c9472c78 
 │     │                 │      ╰ AnalyzedBy: apk 
 │     │                 ├ [68] ╭ ID            : python3-pycache-pyc0@3.12.12-r0 
@@ -7090,10 +7090,10 @@
 │     │                 │      ├ Licenses       ─ [0]: PSF-2.0 
 │     │                 │      ├ Maintainer    : Natanael Copa <ncopa@alpinelinux.org> 
 │     │                 │      ├ DependsOn      ─ [0]: libssl3@3.5.5-r0 
-│     │                 │      ├ Layer          ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44
-│     │                 │      │                │         e95288219ced5d222e 
-│     │                 │      │                ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d26314
-│     │                 │      │                          44b1e185bd0daedc4b 
+│     │                 │      ├ Layer          ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341
+│     │                 │      │                │         823b7cbdd532df16b3 
+│     │                 │      │                ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5a
+│     │                 │      │                          f92afef6180bd0dd3c 
 │     │                 │      ├ Digest        : sha1:cb693ca60fe985e6c5b0ebaecd8f5201e2195c2c 
 │     │                 │      ├ InstalledFiles ╭ [0]  : usr/lib/python3.12/__phello__/__pycache__/__init__.cpy
 │     │                 │      │                │        thon-312.pyc 
@@ -8196,10 +8196,10 @@
 │     │                 │      ├ Maintainer    : Celeste <cielesti@protonmail.com> 
 │     │                 │      ├ DependsOn      ╭ [0]: libncursesw@6.5_p20251123-r0 
 │     │                 │      │                ╰ [1]: musl@1.2.5-r21 
-│     │                 │      ├ Layer          ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44
-│     │                 │      │                │         e95288219ced5d222e 
-│     │                 │      │                ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d26314
-│     │                 │      │                          44b1e185bd0daedc4b 
+│     │                 │      ├ Layer          ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341
+│     │                 │      │                │         823b7cbdd532df16b3 
+│     │                 │      │                ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5a
+│     │                 │      │                          f92afef6180bd0dd3c 
 │     │                 │      ├ Digest        : sha1:8aeb81b3a477f922b9b6a533381114c63dd928fe 
 │     │                 │      ├ InstalledFiles ╭ [0]: etc/inputrc 
 │     │                 │      │                ├ [1]: usr/lib/libreadline.so.8 
@@ -8235,10 +8235,10 @@
 │     │                 │      ├ Licenses       ─ [0]: blessing 
 │     │                 │      ├ Maintainer    : Celeste <cielesti@protonmail.com> 
 │     │                 │      ├ DependsOn      ─ [0]: musl@1.2.5-r21 
-│     │                 │      ├ Layer          ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44
-│     │                 │      │                │         e95288219ced5d222e 
-│     │                 │      │                ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d26314
-│     │                 │      │                          44b1e185bd0daedc4b 
+│     │                 │      ├ Layer          ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341
+│     │                 │      │                │         823b7cbdd532df16b3 
+│     │                 │      │                ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5a
+│     │                 │      │                          f92afef6180bd0dd3c 
 │     │                 │      ├ Digest        : sha1:8a0cec5c2bed73f54151897852ecf7c748d0ddea 
 │     │                 │      ├ InstalledFiles ╭ [0]: usr/lib/libsqlite3.so.0 
 │     │                 │      │                ╰ [1]: usr/lib/libsqlite3.so.3.51.2 
@@ -8317,10 +8317,10 @@
 │     │                 │      │                ╰ [3]: LGPL-2.1-or-later 
 │     │                 │      ├ Maintainer    : Natanael Copa <ncopa@alpinelinux.org> 
 │     │                 │      ├ DependsOn      ─ [0]: musl@1.2.5-r21 
-│     │                 │      ├ Layer          ╭ Digest: sha256:6d22bf9df367d037c51904e894c7732867c57ed0d65d44
-│     │                 │      │                │         e95288219ced5d222e 
-│     │                 │      │                ╰ DiffID: sha256:e92e56fb6e5a6678f20bc8a27acaf04f90aba2a6d26314
-│     │                 │      │                          44b1e185bd0daedc4b 
+│     │                 │      ├ Layer          ╭ Digest: sha256:a340f0f709f209dff8ab27e83326562c470446f0cf7341
+│     │                 │      │                │         823b7cbdd532df16b3 
+│     │                 │      │                ╰ DiffID: sha256:d9bfc887478ecacc5169ad3b40a3b44a18a2f21699fb5a
+│     │                 │      │                          f92afef6180bd0dd3c 
 │     │                 │      ├ Digest        : sha1:d3eb4807f74650a151b4463266ecd1b507f3c49f 
 │     │                 │      ├ InstalledFiles ╭ [0]: usr/lib/liblzma.so.5 
 │     │                 │      │                ╰ [1]: usr/lib/liblzma.so.5.8.2 
@@ -8365,7 +8365,125 @@
 │     │                        ├ InstalledFiles ╭ [0]: usr/lib/libzstd.so.1 
 │     │                        │                ╰ [1]: usr/lib/libzstd.so.1.5.7 
 │     │                        ╰ AnalyzedBy    : apk 
-│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2026-22184 
+│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2026-33416 
+│                       │     ├ PkgID           : libpng@1.6.55-r0 
+│                       │     ├ PkgName         : libpng 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.55-r0?arch=x86_64&distro=3.2
+│                       │     │                  │       3.3 
+│                       │     │                  ╰ UID : 9c803c58fd4ab240 
+│                       │     ├ InstalledVersion: 1.6.55-r0 
+│                       │     ├ FixedVersion    : 1.6.56-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:0b62ad27cfe302fb4bfbb50f2ccde2e3045ab13f962b0
+│                       │     │                  │         4ea7f5cb677c0d18a0b 
+│                       │     │                  ╰ DiffID: sha256:6a519f952c7f0240985da7303ca091f60d73261bfe9d2
+│                       │     │                            c41d4b5ad3eecc1322a 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33416 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:1d35fc6d6d7643d5c98b439dd72906a25b5368fdae833f479c26ce
+│                       │     │                   095736a9f2 
+│                       │     ├ Title           : libpng: libpng: Arbitrary code execution due to
+│                       │     │                   use-after-free vulnerability 
+│                       │     ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │     │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │     │                   raster image files. In versions 1.2.1 through 1.6.55,
+│                       │     │                   `png_set_tRNS` and `png_set_PLTE` each alias a heap-allocated
+│                       │     │                    buffer between `png_struct` and `png_info`, sharing a single
+│                       │     │                    allocation across two structs with independent lifetimes.
+│                       │     │                   The `trans_alpha` aliasing has been present since at least
+│                       │     │                   libpng 1.0, and the `palette` aliasing since at least 1.2.1.
+│                       │     │                   Both affect all prior release lines `png_set_tRNS` sets
+│                       │     │                   `png_ptr->trans_alpha = info_ptr->trans_alpha` (256-byte
+│                       │     │                   buffer) and `png_set_PLTE` sets `info_ptr->palette =
+│                       │     │                   png_ptr->palette` (768-byte buffer). In both cases, calling
+│                       │     │                   `png_free_data` (with `PNG_FREE_TRNS` or `PNG_FREE_PLTE`)
+│                       │     │                   frees the buffer through `info_ptr` while the corresponding
+│                       │     │                   `png_ptr` pointer remains dangling. Subsequent row-transform
+│                       │     │                   functions dereference and, in some code paths, write to the
+│                       │     │                   freed memory. A second call to `png_set_tRNS` or
+│                       │     │                   `png_set_PLTE` has the same effect, because both functions
+│                       │     │                   call `png_free_data` internally before reallocating the
+│                       │     │                   `info_ptr` buffer. Version 1.6.56 fixes the issue. 
+│                       │     ├ Severity        : HIGH 
+│                       │     ├ CweIDs           ─ [0]: CWE-416 
+│                       │     ├ VendorSeverity   ╭ photon: 3 
+│                       │     │                  ╰ redhat: 2 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 7.5 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-33416 
+│                       │     │                  ├ [1]: https://github.com/pnggroup/libpng/commit/23019269764e3
+│                       │     │                  │      5ed8458e517f1897bd3c54820eb 
+│                       │     │                  ├ [2]: https://github.com/pnggroup/libpng/commit/7ea9eea884a23
+│                       │     │                  │      28cc7fdcb3c0c00246a50d90667 
+│                       │     │                  ├ [3]: https://github.com/pnggroup/libpng/commit/a3a21443ed12b
+│                       │     │                  │      fa1ef46fa0d4fb2b74a0fa34a25 
+│                       │     │                  ├ [4]: https://github.com/pnggroup/libpng/commit/c1b0318b393c9
+│                       │     │                  │      0679e6fa5bc1d329fd5d5012ec1 
+│                       │     │                  ├ [5]: https://github.com/pnggroup/libpng/pull/824 
+│                       │     │                  ├ [6]: https://github.com/pnggroup/libpng/security/advisories/
+│                       │     │                  │      GHSA-m4pc-p4q3-4c7j 
+│                       │     │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-33416 
+│                       │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-33416 
+│                       │     ├ PublishedDate   : 2026-03-26T17:16:38.443Z 
+│                       │     ╰ LastModifiedDate: 2026-04-02T20:28:33.973Z 
+│                       ├ [1] ╭ VulnerabilityID : CVE-2026-33636 
+│                       │     ├ PkgID           : libpng@1.6.55-r0 
+│                       │     ├ PkgName         : libpng 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libpng@1.6.55-r0?arch=x86_64&distro=3.2
+│                       │     │                  │       3.3 
+│                       │     │                  ╰ UID : 9c803c58fd4ab240 
+│                       │     ├ InstalledVersion: 1.6.55-r0 
+│                       │     ├ FixedVersion    : 1.6.56-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:0b62ad27cfe302fb4bfbb50f2ccde2e3045ab13f962b0
+│                       │     │                  │         4ea7f5cb677c0d18a0b 
+│                       │     │                  ╰ DiffID: sha256:6a519f952c7f0240985da7303ca091f60d73261bfe9d2
+│                       │     │                            c41d4b5ad3eecc1322a 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33636 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:b43d26f25c80e3de74bcab177fe54caff96c4613b7ab792d3ba01e
+│                       │     │                   38c36efbcc 
+│                       │     ├ Title           : libpng: libpng: Information disclosure and denial of service
+│                       │     │                   via out-of-bounds read/write in Neon palette expansion 
+│                       │     ├ Description     : LIBPNG is a reference library for use in applications that
+│                       │     │                   read, create, and manipulate PNG (Portable Network Graphics)
+│                       │     │                   raster image files. In versions 1.6.36 through 1.6.55, an
+│                       │     │                   out-of-bounds read and write exists in libpng's ARM/AArch64
+│                       │     │                   Neon-optimized palette expansion path. When expanding 8-bit
+│                       │     │                   paletted rows to RGB or RGBA, the Neon loop processes a final
+│                       │     │                    partial chunk without verifying that enough input pixels
+│                       │     │                   remain. Because the implementation works backward from the
+│                       │     │                   end of the row, the final iteration dereferences pointers
+│                       │     │                   before the start of the row buffer (OOB read) and writes
+│                       │     │                   expanded pixel data to the same underflowed positions (OOB
+│                       │     │                   write). This is reachable via normal decoding of
+│                       │     │                   attacker-controlled PNG input if Neon is enabled. Version
+│                       │     │                   1.6.56 fixes the issue. 
+│                       │     ├ Severity        : HIGH 
+│                       │     ├ CweIDs           ╭ [0]: CWE-125 
+│                       │     │                  ╰ [1]: CWE-787 
+│                       │     ├ VendorSeverity   ╭ photon: 3 
+│                       │     │                  ╰ redhat: 2 
+│                       │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/
+│                       │     │                           │           A:H 
+│                       │     │                           ╰ V3Score : 7.6 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-33636 
+│                       │     │                  ├ [1]: https://github.com/pnggroup/libpng/commit/7734cda20cf12
+│                       │     │                  │      36aef60f3bbd2267c97bbb40869 
+│                       │     │                  ├ [2]: https://github.com/pnggroup/libpng/commit/aba9f18eba870
+│                       │     │                  │      d14fb52c5ba5d73451349e339c3 
+│                       │     │                  ├ [3]: https://github.com/pnggroup/libpng/security/advisories/
+│                       │     │                  │      GHSA-wjr5-c57x-95m2 
+│                       │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-33636 
+│                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-33636 
+│                       │     ├ PublishedDate   : 2026-03-26T17:16:41.477Z 
+│                       │     ╰ LastModifiedDate: 2026-04-02T18:42:02.667Z 
+│                       ├ [2] ╭ VulnerabilityID : CVE-2026-22184 
 │                       │     ├ PkgID           : zlib@1.3.1-r2 
 │                       │     ├ PkgName         : zlib 
 │                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/zlib@1.3.1-r2?arch=x86_64&distro=3.23.3 
@@ -8382,8 +8500,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Fingerprint     : sha256:c0ba9b292642ce9b2405c3d07fc0becfa716235800746b1a802f0a
-│                       │     │                   8274ce1143 
+│                       │     ├ Fingerprint     : sha256:bb28859fb2022b352ab24fdd23923cd85fdfd79cdc01a605dae576
+│                       │     │                   adbf620967 
 │                       │     ├ Title           : zlib: zlib: Arbitrary code execution via buffer overflow in
 │                       │     │                   untgz utility 
 │                       │     ├ Description     : zlib versions up to and including 1.3.1.2 include a global
@@ -8415,7 +8533,7 @@
 │                       │     │                  ╰ [7]: https://zlib.net/ 
 │                       │     ├ PublishedDate   : 2026-01-07T21:16:01.563Z 
 │                       │     ╰ LastModifiedDate: 2026-03-18T16:26:31.14Z 
-│                       ╰ [1] ╭ VulnerabilityID : CVE-2026-27171 
+│                       ╰ [3] ╭ VulnerabilityID : CVE-2026-27171 
 │                             ├ PkgID           : zlib@1.3.1-r2 
 │                             ├ PkgName         : zlib 
 │                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/zlib@1.3.1-r2?arch=x86_64&distro=3.23.3 
@@ -8432,8 +8550,8 @@
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Fingerprint     : sha256:3ce5fa313cc01073b1cc74f5e57a0f0b8927f16a7f07c90a3e84cd
-│                             │                   dd77296739 
+│                             ├ Fingerprint     : sha256:2624f40e186397aebf81a759ce16d40a48e78a5e02578b45d57246
+│                             │                   6cc91ae86d 
 │                             ├ Title           : zlib: zlib: Denial of Service via infinite loop in CRC32
 │                             │                   combine functions 
 │                             ├ Description     : zlib before 1.3.2 allows CPU consumption via crc32_combine64
@@ -8448,9 +8566,9 @@
 │                             ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/
 │                             │                  │        │           A:H 
 │                             │                  │        ╰ V3Score : 5.5 
-│                             │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/
+│                             │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/
 │                             │                           │           A:L 
-│                             │                           ╰ V3Score : 2.9 
+│                             │                           ╰ V3Score : 3.3 
 │                             ├ References       ╭ [0]: https://7asecurity.com/blog/2026/02/zlib-7asecurity-aud
 │                             │                  │      it/ 
 │                             │                  ├ [1]: https://7asecurity.com/reports/pentest-report-zlib-RC1.
@@ -8462,7 +8580,7 @@
 │                             │                  ├ [6]: https://ostif.org/zlib-audit-complete/ 
 │                             │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-27171 
 │                             ├ PublishedDate   : 2026-02-18T04:16:01.263Z 
-│                             ╰ LastModifiedDate: 2026-02-20T16:45:28.827Z 
+│                             ╰ LastModifiedDate: 2026-03-25T21:27:04.603Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 
