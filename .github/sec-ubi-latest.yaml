@@ -35635,6 +35635,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
+    - http://www.openwall.com/lists/oss-security/2026/04/11/9
     - https://access.redhat.com/security/cve/CVE-2026-34933
     - https://github.com/avahi/avahi/commit/625ca0fac19229f6dfa3a6c6b698ae657187e50c
     - https://github.com/avahi/avahi/pull/891
@@ -35642,7 +35643,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-34933
     - https://www.cve.org/CVERecord?id=CVE-2026-34933
     PublishedDate: '2026-04-03T23:17:05.377Z'
-    LastModifiedDate: '2026-04-07T13:20:55.2Z'
+    LastModifiedDate: '2026-04-11T19:16:29.6Z'
   - VulnerabilityID: CVE-2017-6519
     PkgID: avahi-libs@0.8-23.el9.x86_64
     PkgName: avahi-libs
@@ -35952,6 +35953,70 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-34990
     PublishedDate: '2026-04-03T22:16:27.4Z'
     LastModifiedDate: '2026-04-07T13:20:55.2Z'
+  - VulnerabilityID: CVE-2026-39314
+    PkgID: cups-libs@2.3.3op2-34.el9_7.2.x86_64
+    PkgName: cups-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/cups-libs@2.3.3op2-34.el9_7.2?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: e814e1e0c779e66
+    InstalledVersion: 1:2.3.3op2-34.el9_7.2
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39314
+    Fingerprint: sha256:32324aa7161490d6aadbd6884a992f59ed7ee8b588eef2955d51cb45de51eb11
+    Title: 'cups: CUPS: Denial of Service via integer underflow in IPP attribute handling'
+    Description: OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. In versions 2.4.16 and prior, an integer underflow vulnerability in _ppdCreateFromIPP() (cups/ppd-cache.c) allows any unprivileged local user to crash the cupsd root process by supplying a negative job-password-supported IPP attribute. The bounds check only caps the upper bound, so a negative value passes validation, is cast to size_t (wrapping to ~2^64), and is used as the length argument to memset() on a 33-byte stack buffer. This causes an immediate SIGSEGV in the cupsd root process. Combined with systemd's Restart=on-failure, an attacker can repeat the crash for sustained denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-191
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-39314
+    - https://github.com/OpenPrinting/cups/security/advisories/GHSA-pp8w-2g52-7vj7
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-39314
+    - https://www.cve.org/CVERecord?id=CVE-2026-39314
+    PublishedDate: '2026-04-07T17:16:37.073Z'
+    LastModifiedDate: '2026-04-08T21:27:00.663Z'
+  - VulnerabilityID: CVE-2026-39316
+    PkgID: cups-libs@2.3.3op2-34.el9_7.2.x86_64
+    PkgName: cups-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/cups-libs@2.3.3op2-34.el9_7.2?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: e814e1e0c779e66
+    InstalledVersion: 1:2.3.3op2-34.el9_7.2
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39316
+    Fingerprint: sha256:1c51ea9167ec4f3bedcf662c5b93becf453a237e329035949288c29696c7ed26
+    Title: 'cups: CUPS: Denial of Service and potential arbitrary code execution via use-after-free vulnerability when deleting temporary printers.'
+    Description: OpenPrinting CUPS is an open source printing system for Linux and other Unix-like operating systems. In versions 2.4.16 and prior, a use-after-free vulnerability exists in the CUPS scheduler (cupsd) when temporary printers are automatically deleted. cupsdDeleteTemporaryPrinters() in scheduler/printers.c calls cupsdDeletePrinter() without first expiring subscriptions that reference the printer, leaving cupsd_subscription_t.dest as a dangling pointer to freed heap memory. The dangling pointer is subsequently dereferenced at multiple code sites, causing a crash (denial of service) of the cupsd daemon. With heap grooming, this can be leveraged for code execution.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-39316
+    - https://github.com/OpenPrinting/cups/security/advisories/GHSA-pjv5-prqp-46rg
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-39316
+    - https://www.cve.org/CVERecord?id=CVE-2026-39316
+    PublishedDate: '2026-04-07T17:16:37.23Z'
+    LastModifiedDate: '2026-04-08T21:27:00.663Z'
   - VulnerabilityID: CVE-2021-25317
     PkgID: cups-libs@2.3.3op2-34.el9_7.2.x86_64
     PkgName: cups-libs
@@ -35994,6 +36059,52 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-25317
     PublishedDate: '2021-05-05T10:15:08.133Z'
     LastModifiedDate: '2024-11-21T05:54:44.187Z'
+  - VulnerabilityID: CVE-2025-13034
+    PkgID: curl-minimal@7.76.1-35.el9_7.3.x86_64
+    PkgName: curl-minimal
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/curl-minimal@7.76.1-35.el9_7.3?arch=x86_64&distro=redhat-9.7
+      UID: 5c3c37110f1a69df
+    InstalledVersion: 7.76.1-35.el9_7.3
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13034
+    Fingerprint: sha256:4625736e8c03c2b9c134d1d5edd7cbebf790509c7314064767a2b04eb0110ff0
+    Title: 'curl: Public key pinning bypass via QUIC and GnuTLS allows server impersonation'
+    Description: |-
+      When using `CURLOPT_PINNEDPUBLICKEY` option with libcurl or `--pinnedpubkey`
+      with the curl tool,curl should check the public key of the server certificate
+      to verify the peer.
+
+      This check was skipped in a certain condition that would then make curl allow
+      the connection without performing the proper check, thus not noticing a
+      possible impostor. To skip this check, the connection had to be done with QUIC
+      with ngtcp2 built to use GnuTLS and the user had to explicitly disable the
+      standard certificate verification.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-295
+    VendorSeverity:
+      amazon: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-13034
+    - https://curl.se/docs/CVE-2025-13034.html
+    - https://curl.se/docs/CVE-2025-13034.json
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13034
+    - https://ubuntu.com/security/notices/USN-8062-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-13034
+    PublishedDate: '2026-01-08T10:15:45.407Z'
+    LastModifiedDate: '2026-01-20T14:54:02.73Z'
   - VulnerabilityID: CVE-2025-14017
     PkgID: curl-minimal@7.76.1-35.el9_7.3.x86_64
     PkgName: curl-minimal
@@ -36731,6 +36842,181 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
     LastModifiedDate: '2025-11-03T21:18:48.67Z'
+  - VulnerabilityID: CVE-2025-14524
+    PkgID: curl-minimal@7.76.1-35.el9_7.3.x86_64
+    PkgName: curl-minimal
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/curl-minimal@7.76.1-35.el9_7.3?arch=x86_64&distro=redhat-9.7
+      UID: 5c3c37110f1a69df
+    InstalledVersion: 7.76.1-35.el9_7.3
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14524
+    Fingerprint: sha256:4cf4b166a7c71868d35a570d8397acb73d689d9f9ef80745e2a3729523282072
+    Title: 'curl: Information disclosure via cross-protocol redirect with OAuth2 bearer token'
+    Description: |-
+      When an OAuth2 bearer token is used for an HTTP(S) transfer, and that transfer
+      performs a cross-protocol redirect to a second URL that uses an IMAP, LDAP,
+      POP3 or SMTP scheme, curl might wrongly pass on the bearer token to the new
+      target host.
+    Severity: LOW
+    CweIDs:
+    - CWE-601
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      photon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 6.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/07/4
+    - https://access.redhat.com/security/cve/CVE-2025-14524
+    - https://curl.se/docs/CVE-2025-14524.html
+    - https://curl.se/docs/CVE-2025-14524.json
+    - https://hackerone.com/reports/3459417
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14524
+    - https://ubuntu.com/security/notices/USN-8062-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-14524
+    PublishedDate: '2026-01-08T10:15:46.607Z'
+    LastModifiedDate: '2026-01-20T14:53:11.017Z'
+  - VulnerabilityID: CVE-2025-14819
+    PkgID: curl-minimal@7.76.1-35.el9_7.3.x86_64
+    PkgName: curl-minimal
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/curl-minimal@7.76.1-35.el9_7.3?arch=x86_64&distro=redhat-9.7
+      UID: 5c3c37110f1a69df
+    InstalledVersion: 7.76.1-35.el9_7.3
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14819
+    Fingerprint: sha256:54257dd96b1489e9efd320da18960eda9adc2f90cc646dd7a6aa44cf501462e6
+    Title: 'curl: libcurl: Improper certificate validation due to cached TLS settings reuse'
+    Description: |-
+      When doing TLS related transfers with reused easy or multi handles and
+      altering the  `CURLSSLOPT_NO_PARTIALCHAIN` option, libcurl could accidentally
+      reuse a CA store cached in memory for which the partial chain option was
+      reversed. Contrary to the user's wishes and expectations. This could make
+      libcurl find and accept a trust chain that it otherwise would not.
+    Severity: LOW
+    CweIDs:
+    - CWE-295
+    VendorSeverity:
+      amazon: 2
+      photon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N
+        V3Score: 6.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/07/5
+    - https://access.redhat.com/security/cve/CVE-2025-14819
+    - https://curl.se/docs/CVE-2025-14819.html
+    - https://curl.se/docs/CVE-2025-14819.json
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14819
+    - https://ubuntu.com/security/notices/USN-8062-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-14819
+    PublishedDate: '2026-01-08T10:15:46.73Z'
+    LastModifiedDate: '2026-01-20T14:51:26.263Z'
+  - VulnerabilityID: CVE-2025-15079
+    PkgID: curl-minimal@7.76.1-35.el9_7.3.x86_64
+    PkgName: curl-minimal
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/curl-minimal@7.76.1-35.el9_7.3?arch=x86_64&distro=redhat-9.7
+      UID: 5c3c37110f1a69df
+    InstalledVersion: 7.76.1-35.el9_7.3
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15079
+    Fingerprint: sha256:6df2fc39fc71c2f2a005278720e0575b0b9943a0d151bb381b0ec5cfaef45444
+    Title: 'curl: Host verification bypass during SSH transfers'
+    Description: |-
+      When doing SSH-based transfers using either SCP or SFTP, and setting the
+      known_hosts file, libcurl could still mistakenly accept connecting to hosts
+      *not present* in the specified file if they were added as recognized in the
+      libssh *global* known_hosts file.
+    Severity: LOW
+    CweIDs:
+    - CWE-297
+    VendorSeverity:
+      amazon: 2
+      photon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 8.1
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/07/6
+    - https://access.redhat.com/security/cve/CVE-2025-15079
+    - https://curl.se/docs/CVE-2025-15079.html
+    - https://curl.se/docs/CVE-2025-15079.json
+    - https://hackerone.com/reports/3477116
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15079
+    - https://ubuntu.com/security/notices/USN-8062-1
+    - https://ubuntu.com/security/notices/USN-8062-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-15079
+    PublishedDate: '2026-01-08T10:15:47.1Z'
+    LastModifiedDate: '2026-01-20T14:50:24.33Z'
+  - VulnerabilityID: CVE-2025-15224
+    PkgID: curl-minimal@7.76.1-35.el9_7.3.x86_64
+    PkgName: curl-minimal
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/curl-minimal@7.76.1-35.el9_7.3?arch=x86_64&distro=redhat-9.7
+      UID: 5c3c37110f1a69df
+    InstalledVersion: 7.76.1-35.el9_7.3
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15224
+    Fingerprint: sha256:7261ac0f1e39ef5ac59cc8a927120d60ef88217486f62c51cf0f3a94aab4c5cc
+    Title: 'curl: libssh key passphrase bypass without agent set'
+    Description: |-
+      When doing SSH-based transfers using either SCP or SFTP, and asked to do
+      public key authentication, curl would wrongly still ask and authenticate using
+      a locally running SSH agent.
+    Severity: LOW
+    CweIDs:
+    - CWE-287
+    VendorSeverity:
+      amazon: 2
+      photon: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/07/7
+    - https://access.redhat.com/security/cve/CVE-2025-15224
+    - https://curl.se/docs/CVE-2025-15224.html
+    - https://curl.se/docs/CVE-2025-15224.json
+    - https://hackerone.com/reports/3480925
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15224
+    - https://ubuntu.com/security/notices/USN-8062-1
+    - https://ubuntu.com/security/notices/USN-8062-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-15224
+    PublishedDate: '2026-01-08T10:15:47.207Z'
+    LastModifiedDate: '2026-01-20T14:47:52.71Z'
   - VulnerabilityID: CVE-2026-32776
     PkgID: expat@2.5.0-5.el9_7.1.x86_64
     PkgName: expat
@@ -37392,6 +37678,8 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
+      photon: 2
       redhat: 2
     CVSS:
       redhat:
@@ -37425,6 +37713,7 @@
     - CWE-20
     - CWE-88
     VendorSeverity:
+      azure: 2
       photon: 4
       redhat: 1
     CVSS:
@@ -37497,6 +37786,8 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
+      photon: 2
       redhat: 2
     CVSS:
       redhat:
@@ -37530,6 +37821,7 @@
     - CWE-20
     - CWE-88
     VendorSeverity:
+      azure: 2
       photon: 4
       redhat: 1
     CVSS:
@@ -37602,6 +37894,8 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
+      azure: 2
+      photon: 2
       redhat: 2
     CVSS:
       redhat:
@@ -37635,6 +37929,7 @@
     - CWE-20
     - CWE-88
     VendorSeverity:
+      azure: 2
       photon: 4
       redhat: 1
     CVSS:
@@ -38022,7 +38317,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       photon: 2
@@ -38272,6 +38567,7 @@
     - CWE-125
     VendorSeverity:
       amazon: 2
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -38309,6 +38605,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      azure: 3
       photon: 3
       redhat: 2
     CVSS:
@@ -38348,6 +38645,7 @@
     - CWE-125
     - CWE-787
     VendorSeverity:
+      azure: 3
       photon: 3
       redhat: 2
     CVSS:
@@ -38363,6 +38661,42 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-33636
     PublishedDate: '2026-03-26T17:16:41.477Z'
     LastModifiedDate: '2026-04-02T18:42:02.667Z'
+  - VulnerabilityID: CVE-2026-34757
+    PkgID: java-21-openjdk-headless@21.0.10.0.7-1.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.10.0.7-1.el9?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: a0a49dcb4fc594cb
+    InstalledVersion: 1:21.0.10.0.7-1.el9
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-34757
+    Fingerprint: sha256:0e5ec6ac847cb4763a335c72ec5ca2d28957bb64b720aa949097bc89d1dfdbf7
+    Title: 'libpng: libpng: Information disclosure and data corruption via use-after-free vulnerability'
+    Description: LIBPNG is a reference library for use in applications that read, create, and manipulate PNG (Portable Network Graphics) raster image files. From 1.0.9 to before 1.6.57, passing a pointer obtained from png_get_PLTE, png_get_tRNS, or png_get_hIST back into the corresponding setter on the same png_struct/png_info pair causes the setter to read from freed memory and copy its contents into the replacement buffer. The setter frees the internal buffer before copying from the caller-supplied pointer, which now dangles. The freed region may contain stale data (producing silently corrupted chunk metadata) or data from subsequent heap allocations (leaking unrelated heap contents into the chunk struct). This vulnerability is fixed in 1.6.57.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-34757
+    - https://github.com/pnggroup/libpng/commit/398cbe3df03f4e11bb031e07f416dfdde3684e8a
+    - https://github.com/pnggroup/libpng/commit/55d20aaa322c9274491cda82c5cd4f99b48c6bcc
+    - https://github.com/pnggroup/libpng/issues/836
+    - https://github.com/pnggroup/libpng/issues/837
+    - https://github.com/pnggroup/libpng/security/advisories/GHSA-6fr7-g8h7-v645
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-34757
+    - https://www.cve.org/CVERecord?id=CVE-2026-34757
+    PublishedDate: '2026-04-09T15:16:11.003Z'
+    LastModifiedDate: '2026-04-09T15:16:11.003Z'
   - VulnerabilityID: CVE-2026-27171
     PkgID: java-21-openjdk-headless@21.0.10.0.7-1.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -38443,6 +38777,11 @@
     - https://access.redhat.com/errata/RHSA-2026:5063
     - https://access.redhat.com/errata/RHSA-2026:5080
     - https://access.redhat.com/errata/RHSA-2026:6647
+    - https://access.redhat.com/errata/RHSA-2026:7093
+    - https://access.redhat.com/errata/RHSA-2026:7105
+    - https://access.redhat.com/errata/RHSA-2026:7106
+    - https://access.redhat.com/errata/RHSA-2026:7329
+    - https://access.redhat.com/errata/RHSA-2026:7335
     - https://access.redhat.com/security/cve/CVE-2026-4111
     - https://bugzilla.redhat.com/2446453
     - https://bugzilla.redhat.com/show_bug.cgi?id=2446453
@@ -38456,7 +38795,7 @@
     - https://ubuntu.com/security/notices/USN-8147-1
     - https://www.cve.org/CVERecord?id=CVE-2026-4111
     PublishedDate: '2026-03-13T19:55:13.917Z'
-    LastModifiedDate: '2026-04-06T10:16:01.487Z'
+    LastModifiedDate: '2026-04-09T21:16:12.467Z'
   - VulnerabilityID: CVE-2026-4424
     PkgID: libarchive@3.5.3-6.el9_6.x86_64
     PkgName: libarchive
@@ -38623,6 +38962,7 @@
     - CWE-190
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     References:
     - https://access.redhat.com/security/cve/CVE-2026-5121
     - https://github.com/libarchive/libarchive/pull/2934
@@ -38651,6 +38991,7 @@
     - CWE-476
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
@@ -38661,7 +39002,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5745
     - https://www.cve.org/CVERecord?id=CVE-2026-5745
     PublishedDate: '2026-04-07T16:16:32.307Z'
-    LastModifiedDate: '2026-04-07T16:16:32.307Z'
+    LastModifiedDate: '2026-04-08T21:27:00.663Z'
   - VulnerabilityID: CVE-2025-1632
     PkgID: libarchive@3.5.3-6.el9_6.x86_64
     PkgName: libarchive
@@ -38919,6 +39260,90 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-27456
     PublishedDate: '2026-04-03T22:16:25.4Z'
     LastModifiedDate: '2026-04-07T13:20:55.2Z'
+  - VulnerabilityID: CVE-2026-4878
+    PkgID: libcap@2.48-10.el9.x86_64
+    PkgName: libcap
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libcap@2.48-10.el9?arch=x86_64&distro=redhat-9.7
+      UID: 6c9fbd00cf74af04
+    InstalledVersion: 2.48-10.el9
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-4878
+    Fingerprint: sha256:a19ab94b2c7398bfb79eb2670dfa5be3f2d0810d31d7af673fd175b96f6cc111
+    Title: 'libcap: libcap: Privilege escalation via TOCTOU race condition in cap_set_file()'
+    Description: A flaw was found in libcap. A local unprivileged user can exploit a Time-of-check-to-time-of-use (TOCTOU) race condition in the `cap_set_file()` function. This allows an attacker with write access to a parent directory to redirect file capability updates to an attacker-controlled file. By doing so, capabilities can be injected into or stripped from unintended executables, leading to privilege escalation.
+    Severity: HIGH
+    CweIDs:
+    - CWE-367
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 6.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/04/07/14
+    - http://www.openwall.com/lists/oss-security/2026/04/07/4
+    - http://www.openwall.com/lists/oss-security/2026/04/08/9
+    - http://www.openwall.com/lists/oss-security/2026/04/09/5
+    - http://www.openwall.com/lists/oss-security/2026/04/09/6
+    - https://access.redhat.com/security/cve/CVE-2026-4878
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2447554
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2451615
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-4878
+    - https://www.cve.org/CVERecord?id=CVE-2026-4878
+    PublishedDate: '2026-04-09T16:16:31.987Z'
+    LastModifiedDate: '2026-04-09T16:16:31.987Z'
+  - VulnerabilityID: CVE-2025-13034
+    PkgID: libcurl-minimal@7.76.1-35.el9_7.3.x86_64
+    PkgName: libcurl-minimal
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-35.el9_7.3?arch=x86_64&distro=redhat-9.7
+      UID: fd92f23176f9f65d
+    InstalledVersion: 7.76.1-35.el9_7.3
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-13034
+    Fingerprint: sha256:6cfd9147cfcd859074e68b4221b6b2ac9a6d4170a0cbbad7c15eb2ea7339039d
+    Title: 'curl: Public key pinning bypass via QUIC and GnuTLS allows server impersonation'
+    Description: |-
+      When using `CURLOPT_PINNEDPUBLICKEY` option with libcurl or `--pinnedpubkey`
+      with the curl tool,curl should check the public key of the server certificate
+      to verify the peer.
+
+      This check was skipped in a certain condition that would then make curl allow
+      the connection without performing the proper check, thus not noticing a
+      possible impostor. To skip this check, the connection had to be done with QUIC
+      with ngtcp2 built to use GnuTLS and the user had to explicitly disable the
+      standard certificate verification.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-295
+    VendorSeverity:
+      amazon: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2025-13034
+    - https://curl.se/docs/CVE-2025-13034.html
+    - https://curl.se/docs/CVE-2025-13034.json
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-13034
+    - https://ubuntu.com/security/notices/USN-8062-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-13034
+    PublishedDate: '2026-01-08T10:15:45.407Z'
+    LastModifiedDate: '2026-01-20T14:54:02.73Z'
   - VulnerabilityID: CVE-2025-14017
     PkgID: libcurl-minimal@7.76.1-35.el9_7.3.x86_64
     PkgName: libcurl-minimal
@@ -39656,6 +40081,181 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-9681
     PublishedDate: '2024-11-06T08:15:03.74Z'
     LastModifiedDate: '2025-11-03T21:18:48.67Z'
+  - VulnerabilityID: CVE-2025-14524
+    PkgID: libcurl-minimal@7.76.1-35.el9_7.3.x86_64
+    PkgName: libcurl-minimal
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-35.el9_7.3?arch=x86_64&distro=redhat-9.7
+      UID: fd92f23176f9f65d
+    InstalledVersion: 7.76.1-35.el9_7.3
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14524
+    Fingerprint: sha256:8db79e19f6c3bcae9ac8042888754d0f2bcf12911ae24c07bc6c0a1774d7e3a4
+    Title: 'curl: Information disclosure via cross-protocol redirect with OAuth2 bearer token'
+    Description: |-
+      When an OAuth2 bearer token is used for an HTTP(S) transfer, and that transfer
+      performs a cross-protocol redirect to a second URL that uses an IMAP, LDAP,
+      POP3 or SMTP scheme, curl might wrongly pass on the bearer token to the new
+      target host.
+    Severity: LOW
+    CweIDs:
+    - CWE-601
+    VendorSeverity:
+      amazon: 2
+      azure: 2
+      cbl-mariner: 2
+      photon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 6.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/07/4
+    - https://access.redhat.com/security/cve/CVE-2025-14524
+    - https://curl.se/docs/CVE-2025-14524.html
+    - https://curl.se/docs/CVE-2025-14524.json
+    - https://hackerone.com/reports/3459417
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14524
+    - https://ubuntu.com/security/notices/USN-8062-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-14524
+    PublishedDate: '2026-01-08T10:15:46.607Z'
+    LastModifiedDate: '2026-01-20T14:53:11.017Z'
+  - VulnerabilityID: CVE-2025-14819
+    PkgID: libcurl-minimal@7.76.1-35.el9_7.3.x86_64
+    PkgName: libcurl-minimal
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-35.el9_7.3?arch=x86_64&distro=redhat-9.7
+      UID: fd92f23176f9f65d
+    InstalledVersion: 7.76.1-35.el9_7.3
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-14819
+    Fingerprint: sha256:3c18df5b7729c10eaa5261cb1f06b2ca07c3a364dfaee7a241b2fea5cf625eb9
+    Title: 'curl: libcurl: Improper certificate validation due to cached TLS settings reuse'
+    Description: |-
+      When doing TLS related transfers with reused easy or multi handles and
+      altering the  `CURLSSLOPT_NO_PARTIALCHAIN` option, libcurl could accidentally
+      reuse a CA store cached in memory for which the partial chain option was
+      reversed. Contrary to the user's wishes and expectations. This could make
+      libcurl find and accept a trust chain that it otherwise would not.
+    Severity: LOW
+    CweIDs:
+    - CWE-295
+    VendorSeverity:
+      amazon: 2
+      photon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N
+        V3Score: 6.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/07/5
+    - https://access.redhat.com/security/cve/CVE-2025-14819
+    - https://curl.se/docs/CVE-2025-14819.html
+    - https://curl.se/docs/CVE-2025-14819.json
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-14819
+    - https://ubuntu.com/security/notices/USN-8062-1
+    - https://www.cve.org/CVERecord?id=CVE-2025-14819
+    PublishedDate: '2026-01-08T10:15:46.73Z'
+    LastModifiedDate: '2026-01-20T14:51:26.263Z'
+  - VulnerabilityID: CVE-2025-15079
+    PkgID: libcurl-minimal@7.76.1-35.el9_7.3.x86_64
+    PkgName: libcurl-minimal
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-35.el9_7.3?arch=x86_64&distro=redhat-9.7
+      UID: fd92f23176f9f65d
+    InstalledVersion: 7.76.1-35.el9_7.3
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15079
+    Fingerprint: sha256:ddb5e118c8a0009871b21852fc7a73048c6347ae6917590f895507c9beb704b9
+    Title: 'curl: Host verification bypass during SSH transfers'
+    Description: |-
+      When doing SSH-based transfers using either SCP or SFTP, and setting the
+      known_hosts file, libcurl could still mistakenly accept connecting to hosts
+      *not present* in the specified file if they were added as recognized in the
+      libssh *global* known_hosts file.
+    Severity: LOW
+    CweIDs:
+    - CWE-297
+    VendorSeverity:
+      amazon: 2
+      photon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 8.1
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/07/6
+    - https://access.redhat.com/security/cve/CVE-2025-15079
+    - https://curl.se/docs/CVE-2025-15079.html
+    - https://curl.se/docs/CVE-2025-15079.json
+    - https://hackerone.com/reports/3477116
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15079
+    - https://ubuntu.com/security/notices/USN-8062-1
+    - https://ubuntu.com/security/notices/USN-8062-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-15079
+    PublishedDate: '2026-01-08T10:15:47.1Z'
+    LastModifiedDate: '2026-01-20T14:50:24.33Z'
+  - VulnerabilityID: CVE-2025-15224
+    PkgID: libcurl-minimal@7.76.1-35.el9_7.3.x86_64
+    PkgName: libcurl-minimal
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-35.el9_7.3?arch=x86_64&distro=redhat-9.7
+      UID: fd92f23176f9f65d
+    InstalledVersion: 7.76.1-35.el9_7.3
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2025-15224
+    Fingerprint: sha256:c3f590c02aa6fab48d16ad1674b4127ed396d88b2ff9e16b4c85885d924b9f14
+    Title: 'curl: libssh key passphrase bypass without agent set'
+    Description: |-
+      When doing SSH-based transfers using either SCP or SFTP, and asked to do
+      public key authentication, curl would wrongly still ask and authenticate using
+      a locally running SSH agent.
+    Severity: LOW
+    CweIDs:
+    - CWE-287
+    VendorSeverity:
+      amazon: 2
+      photon: 1
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/01/07/7
+    - https://access.redhat.com/security/cve/CVE-2025-15224
+    - https://curl.se/docs/CVE-2025-15224.html
+    - https://curl.se/docs/CVE-2025-15224.json
+    - https://hackerone.com/reports/3480925
+    - https://nvd.nist.gov/vuln/detail/CVE-2025-15224
+    - https://ubuntu.com/security/notices/USN-8062-1
+    - https://ubuntu.com/security/notices/USN-8062-2
+    - https://www.cve.org/CVERecord?id=CVE-2025-15224
+    PublishedDate: '2026-01-08T10:15:47.207Z'
+    LastModifiedDate: '2026-01-20T14:47:52.71Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc@11.5.0-11.el9.x86_64
     PkgName: libgcc
@@ -39760,6 +40360,7 @@
     VendorSeverity:
       azure: 3
       cbl-mariner: 3
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -39771,6 +40372,8 @@
     - https://access.redhat.com/security/cve/CVE-2026-27135
     - https://github.com/nghttp2/nghttp2/commit/5c7df8fa815ac1004d9ecb9d1f7595c4d37f46e1
     - https://github.com/nghttp2/nghttp2/security/advisories/GHSA-6933-cjhr-5qg6
+    - https://linux.oracle.com/cve/CVE-2026-27135.html
+    - https://linux.oracle.com/errata/ELSA-2026-7350.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-27135
     - https://www.cve.org/CVERecord?id=CVE-2026-27135
     PublishedDate: '2026-03-18T18:16:26.723Z'
@@ -40007,11 +40610,12 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-0990
     - https://bugzilla.redhat.com/show_bug.cgi?id=2429959
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/1018
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0990
     - https://ubuntu.com/security/notices/USN-7974-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0990
     PublishedDate: '2026-01-15T15:15:52.503Z'
-    LastModifiedDate: '2026-01-16T15:55:33.063Z'
+    LastModifiedDate: '2026-04-09T18:16:43.713Z'
   - VulnerabilityID: CVE-2026-1757
     PkgID: libxml2@2.9.13-14.el9_7.x86_64
     PkgName: libxml2
@@ -40264,12 +40868,13 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-0989
     - https://bugzilla.redhat.com/show_bug.cgi?id=2429933
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/998
     - https://gitlab.gnome.org/GNOME/libxml2/-/merge_requests/374
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0989
     - https://ubuntu.com/security/notices/USN-7974-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0989
     PublishedDate: '2026-01-15T15:15:52.35Z'
-    LastModifiedDate: '2026-01-16T15:55:33.063Z'
+    LastModifiedDate: '2026-04-09T18:16:43.537Z'
   - VulnerabilityID: CVE-2026-0992
     PkgID: libxml2@2.9.13-14.el9_7.x86_64
     PkgName: libxml2
@@ -40302,11 +40907,12 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-0992
     - https://bugzilla.redhat.com/show_bug.cgi?id=2429975
+    - https://gitlab.gnome.org/GNOME/libxml2/-/issues/1019
     - https://nvd.nist.gov/vuln/detail/CVE-2026-0992
     - https://ubuntu.com/security/notices/USN-7974-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0992
     PublishedDate: '2026-01-15T15:15:52.657Z'
-    LastModifiedDate: '2026-01-16T15:55:33.063Z'
+    LastModifiedDate: '2026-04-09T18:16:43.88Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: ncurses-base@6.2-12.20210508.el9.noarch
     PkgName: ncurses-base
@@ -40915,6 +41521,66 @@
     - https://www.vulncheck.com/advisories/openldap-lmdb-mdb-load-heap-buffer-underflow-in-readline
     PublishedDate: '2026-01-07T21:16:01.733Z'
     LastModifiedDate: '2026-01-14T18:16:42.147Z'
+  - VulnerabilityID: CVE-2026-28390
+    PkgID: openssl@3.5.1-7.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-7.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: dfdef90be772df2a
+    InstalledVersion: 1:3.5.1-7.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28390
+    Fingerprint: sha256:f9e072166b25c224593ead8c47c3ae8681c83906c77e91effcbae62730f52134
+    Title: 'openssl: OpenSSL: Denial of Service due to NULL pointer dereference in CMS EnvelopedData processing'
+    Description: |-
+      Issue summary: During processing of a crafted CMS EnvelopedData message
+      with KeyTransportRecipientInfo a NULL pointer dereference can happen.
+
+      Impact summary: Applications that process attacker-controlled CMS data may
+      crash before authentication or cryptographic operations occur resulting in
+      Denial of Service.
+
+      When a CMS EnvelopedData message that uses KeyTransportRecipientInfo with
+      RSA-OAEP encryption is processed, the optional parameters field of
+      RSA-OAEP SourceFunc algorithm identifier is examined without checking
+      for its presence. This results in a NULL pointer dereference if the field
+      is missing.
+
+      Applications and services that call CMS_decrypt() on untrusted input
+      (e.g., S/MIME processing or CMS-based protocols) are vulnerable.
+
+      The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this
+      issue, as the affected code is outside the OpenSSL FIPS module boundary.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      photon: 3
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-28390
+    - https://github.com/openssl/openssl/commit/01194a8f1941115cd0383bfa91c736dd3993c8bc
+    - https://github.com/openssl/openssl/commit/2e39b7a6993be445fddb9fbce316fa756e0397b6
+    - https://github.com/openssl/openssl/commit/af2a5fecd3e71a29e7568f9c1453dec5cebbaff4
+    - https://github.com/openssl/openssl/commit/ea7b4ea4f9f853521ba34830cbcadc970d2e0788
+    - https://github.com/openssl/openssl/commit/fd2f1a6cf53b9ceeca723a001aa4b825d7c7ee75
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28390
+    - https://openssl-library.org/news/secadv/20260407.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
+    - https://ubuntu.com/security/notices/USN-8155-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-28390
+    - https://www.openwall.com/lists/oss-security/2026/04/07/11
+    PublishedDate: '2026-04-07T22:16:21.19Z'
+    LastModifiedDate: '2026-04-10T21:16:23.67Z'
   - VulnerabilityID: CVE-2026-31790
     PkgID: openssl@3.5.1-7.el9_7.x86_64
     PkgName: openssl
@@ -40960,6 +41626,7 @@
     CweIDs:
     - CWE-754
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -40975,10 +41642,11 @@
     - https://github.com/openssl/openssl/commit/eed200f58cd8645ed77e46b7e9f764e284df379e
     - https://nvd.nist.gov/vuln/detail/CVE-2026-31790
     - https://openssl-library.org/news/secadv/20260407.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
     - https://www.cve.org/CVERecord?id=CVE-2026-31790
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:21.77Z'
-    LastModifiedDate: '2026-04-07T22:16:21.77Z'
+    LastModifiedDate: '2026-04-08T21:27:00.663Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl@3.5.1-7.el9_7.x86_64
     PkgName: openssl
@@ -41404,9 +42072,254 @@
     - https://github.com/openssl/openssl/commit/85977e013f32ceb96aa034c0e741adddc1a05e34
     - https://nvd.nist.gov/vuln/detail/CVE-2026-2673
     - https://openssl-library.org/news/secadv/20260313.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
     - https://www.cve.org/CVERecord?id=CVE-2026-2673
     PublishedDate: '2026-03-13T19:54:34.033Z'
     LastModifiedDate: '2026-03-17T18:16:15.6Z'
+  - VulnerabilityID: CVE-2026-28386
+    PkgID: openssl@3.5.1-7.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-7.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: dfdef90be772df2a
+    InstalledVersion: 1:3.5.1-7.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28386
+    Fingerprint: sha256:6dcdcb2814f36da603e6cf1a3c64b3b8a697e0715bf9cf502a464e446cca8289
+    Title: 'openssl: openssl: Denial of Service due to out-of-bounds read in AES-CFB128'
+    Description: |-
+      Issue summary: Applications using AES-CFB128 encryption or decryption on
+      systems with AVX-512 and VAES support can trigger an out-of-bounds read
+      of up to 15 bytes when processing partial cipher blocks.
+
+      Impact summary: This out-of-bounds read may trigger a crash which leads to
+      Denial of Service for an application if the input buffer ends at a memory
+      page boundary and the following page is unmapped. There is no information
+      disclosure as the over-read bytes are not written to output.
+
+      The vulnerable code path is only reached when processing partial blocks
+      (when a previous call left an incomplete block and the current call provides
+      fewer bytes than needed to complete it). Additionally, the input buffer
+      must be positioned at a page boundary with the following page unmapped.
+      CFB mode is not used in TLS/DTLS protocols, which use CBC, GCM, CCM, or
+      ChaCha20-Poly1305 instead. For these reasons the issue was assessed as
+      Low severity according to our Security Policy.
+
+      Only x86-64 systems with AVX-512 and VAES instruction support are affected.
+      Other architectures and systems without VAES support use different code
+      paths that are not affected.
+
+      OpenSSL FIPS module in 3.6 version is affected by this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-28386
+    - https://github.com/openssl/openssl/commit/61f428a2fc6671ede184a19f71e6e495f0689621
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28386
+    - https://openssl-library.org/news/secadv/20260407.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-28386
+    PublishedDate: '2026-04-07T22:16:20.513Z'
+    LastModifiedDate: '2026-04-10T21:16:22.3Z'
+  - VulnerabilityID: CVE-2026-28387
+    PkgID: openssl@3.5.1-7.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-7.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: dfdef90be772df2a
+    InstalledVersion: 1:3.5.1-7.el9_7
+    Status: under_investigation
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28387
+    Fingerprint: sha256:5551983be3bcc105e7cefbe31ee87418509008d7fd9ceed256e01e138d1c8cf2
+    Title: 'openssl: OpenSSL: Arbitrary code execution due to use-after-free in DANE TLSA authentication'
+    Description: |-
+      Issue summary: An uncommon configuration of clients performing DANE TLSA-based
+      server authentication, when paired with uncommon server DANE TLSA records, may
+      result in a use-after-free and/or double-free on the client side.
+
+      Impact summary: A use after free can have a range of potential consequences
+      such as the corruption of valid data, crashes or execution of arbitrary code.
+
+      However, the issue only affects clients that make use of TLSA records with both
+      the PKIX-TA(0/PKIX-EE(1) certificate usages and the DANE-TA(2) certificate
+      usage.
+
+      By far the most common deployment of DANE is in SMTP MTAs for which RFC7672
+      recommends that clients treat as 'unusable' any TLSA records that have the PKIX
+      certificate usages.  These SMTP (or other similar) clients are not vulnerable
+      to this issue.  Conversely, any clients that support only the PKIX usages, and
+      ignore the DANE-TA(2) usage are also not vulnerable.
+
+      The client would also need to be communicating with a server that publishes a
+      TLSA RRset with both types of TLSA records.
+
+      No FIPS modules are affected by this issue, the problem code is outside the
+      FIPS module boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-28387
+    - https://github.com/openssl/openssl/commit/07e727d304746edb49a98ee8f6ab00256e1f012b
+    - https://github.com/openssl/openssl/commit/258a8f63b26995ba357f4326da00e19e29c6acbe
+    - https://github.com/openssl/openssl/commit/444958deaf450aea819171f97ae69eaedede42c3
+    - https://github.com/openssl/openssl/commit/7a4e08cee62a728d32e60b0de89e6764339df0a7
+    - https://github.com/openssl/openssl/commit/ec03fa050b3346997ed9c5fef3d0e16ad7db8177
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28387
+    - https://openssl-library.org/news/secadv/20260407.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
+    - https://ubuntu.com/security/notices/USN-8155-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-28387
+    - https://www.openwall.com/lists/oss-security/2026/04/07/11
+    PublishedDate: '2026-04-07T22:16:20.7Z'
+    LastModifiedDate: '2026-04-08T21:27:00.663Z'
+  - VulnerabilityID: CVE-2026-28388
+    PkgID: openssl@3.5.1-7.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-7.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: dfdef90be772df2a
+    InstalledVersion: 1:3.5.1-7.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28388
+    Fingerprint: sha256:b20b703ac5fe08ddc6071393307ad8a31d23f5fa971629762d5f6a5dda3e1f75
+    Title: 'openssl: OpenSSL: Denial of Service due to NULL pointer dereference in delta CRL processing'
+    Description: |-
+      Issue summary: When a delta CRL that contains a Delta CRL Indicator extension
+      is processed a NULL pointer dereference might happen if the required CRL
+      Number extension is missing.
+
+      Impact summary: A NULL pointer dereference can trigger a crash which
+      leads to a Denial of Service for an application.
+
+      When CRL processing and delta CRL processing is enabled during X.509
+      certificate verification, the delta CRL processing does not check
+      whether the CRL Number extension is NULL before dereferencing it.
+      When a malformed delta CRL file is being processed, this parameter
+      can be NULL, causing a NULL pointer dereference.
+
+      Exploiting this issue requires the X509_V_FLAG_USE_DELTAS flag to be enabled in
+      the verification context, the certificate being verified to contain a
+      freshestCRL extension or the base CRL to have the EXFLAG_FRESHEST flag set, and
+      an attacker to provide a malformed CRL to an application that processes it.
+
+      The vulnerability is limited to Denial of Service and cannot be escalated to
+      achieve code execution or memory disclosure. For that reason the issue was
+      assessed as Low severity according to our Security Policy.
+
+      The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this issue,
+      as the affected code is outside the OpenSSL FIPS module boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-28388
+    - https://github.com/openssl/openssl/commit/59c3b3158553ab53275bbbccca5cb305d591cf2e
+    - https://github.com/openssl/openssl/commit/5a0b4930779cd2408880979db765db919da55139
+    - https://github.com/openssl/openssl/commit/602542f2c0c2d5edb47128f93eac10b62aeeefb3
+    - https://github.com/openssl/openssl/commit/a9d187dd1000130100fa7ab915f8513532cb3bb8
+    - https://github.com/openssl/openssl/commit/d3a901e8d9f021f3e67d6cfbc12e768129862726
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28388
+    - https://openssl-library.org/news/secadv/20260407.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
+    - https://ubuntu.com/security/notices/USN-8155-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-28388
+    - https://www.openwall.com/lists/oss-security/2026/04/07/11
+    PublishedDate: '2026-04-07T22:16:20.863Z'
+    LastModifiedDate: '2026-04-10T21:16:23.157Z'
+  - VulnerabilityID: CVE-2026-28389
+    PkgID: openssl@3.5.1-7.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-7.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: dfdef90be772df2a
+    InstalledVersion: 1:3.5.1-7.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28389
+    Fingerprint: sha256:fccd23feb5db8ac98a1a948310e6141cbbf1b6c6ecf3d0084c114fdcd8383106
+    Title: 'openssl: OpenSSL: Denial of Service vulnerability in CMS processing'
+    Description: |-
+      Issue summary: During processing of a crafted CMS EnvelopedData message
+      with KeyAgreeRecipientInfo a NULL pointer dereference can happen.
+
+      Impact summary: Applications that process attacker-controlled CMS data may
+      crash before authentication or cryptographic operations occur resulting in
+      Denial of Service.
+
+      When a CMS EnvelopedData message that uses KeyAgreeRecipientInfo is
+      processed, the optional parameters field of KeyEncryptionAlgorithmIdentifier
+      is examined without checking for its presence. This results in a NULL
+      pointer dereference if the field is missing.
+
+      Applications and services that call CMS_decrypt() on untrusted input
+      (e.g., S/MIME processing or CMS-based protocols) are vulnerable.
+
+      The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this
+      issue, as the affected code is outside the OpenSSL FIPS module boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-28389
+    - https://github.com/openssl/openssl/commit/16cea4188e0ea567deb4f93f85902247e67384f5
+    - https://github.com/openssl/openssl/commit/785cbf7ea3b5a6f5adf0c1ccb92b79d89c35c616
+    - https://github.com/openssl/openssl/commit/7b5274e812400cacb6f3be4c2df5340923fa807f
+    - https://github.com/openssl/openssl/commit/c6725634e089eb2b634b10ede33944be7248172a
+    - https://github.com/openssl/openssl/commit/f80f83bc5fd036bc47d773e8b15a001e2b4ce686
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28389
+    - https://openssl-library.org/news/secadv/20260407.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
+    - https://ubuntu.com/security/notices/USN-8155-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-28389
+    - https://www.openwall.com/lists/oss-security/2026/04/07/11
+    PublishedDate: '2026-04-07T22:16:21.03Z'
+    LastModifiedDate: '2026-04-10T21:16:23.41Z'
   - VulnerabilityID: CVE-2026-2673
     PkgID: openssl-fips-provider@3.0.7-8.el9.x86_64
     PkgName: openssl-fips-provider
@@ -41493,6 +42406,7 @@
     - https://github.com/openssl/openssl/commit/85977e013f32ceb96aa034c0e741adddc1a05e34
     - https://nvd.nist.gov/vuln/detail/CVE-2026-2673
     - https://openssl-library.org/news/secadv/20260313.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
     - https://www.cve.org/CVERecord?id=CVE-2026-2673
     PublishedDate: '2026-03-13T19:54:34.033Z'
     LastModifiedDate: '2026-03-17T18:16:15.6Z'
@@ -41582,9 +42496,70 @@
     - https://github.com/openssl/openssl/commit/85977e013f32ceb96aa034c0e741adddc1a05e34
     - https://nvd.nist.gov/vuln/detail/CVE-2026-2673
     - https://openssl-library.org/news/secadv/20260313.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
     - https://www.cve.org/CVERecord?id=CVE-2026-2673
     PublishedDate: '2026-03-13T19:54:34.033Z'
     LastModifiedDate: '2026-03-17T18:16:15.6Z'
+  - VulnerabilityID: CVE-2026-28390
+    PkgID: openssl-libs@3.5.1-7.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-7.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: be1622e58e3c5c9f
+    InstalledVersion: 1:3.5.1-7.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28390
+    Fingerprint: sha256:52f0e160b418725fe610b4f01b56f2677db9ec67a93eacdcec6e4966bb9e0b5f
+    Title: 'openssl: OpenSSL: Denial of Service due to NULL pointer dereference in CMS EnvelopedData processing'
+    Description: |-
+      Issue summary: During processing of a crafted CMS EnvelopedData message
+      with KeyTransportRecipientInfo a NULL pointer dereference can happen.
+
+      Impact summary: Applications that process attacker-controlled CMS data may
+      crash before authentication or cryptographic operations occur resulting in
+      Denial of Service.
+
+      When a CMS EnvelopedData message that uses KeyTransportRecipientInfo with
+      RSA-OAEP encryption is processed, the optional parameters field of
+      RSA-OAEP SourceFunc algorithm identifier is examined without checking
+      for its presence. This results in a NULL pointer dereference if the field
+      is missing.
+
+      Applications and services that call CMS_decrypt() on untrusted input
+      (e.g., S/MIME processing or CMS-based protocols) are vulnerable.
+
+      The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this
+      issue, as the affected code is outside the OpenSSL FIPS module boundary.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      photon: 3
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-28390
+    - https://github.com/openssl/openssl/commit/01194a8f1941115cd0383bfa91c736dd3993c8bc
+    - https://github.com/openssl/openssl/commit/2e39b7a6993be445fddb9fbce316fa756e0397b6
+    - https://github.com/openssl/openssl/commit/af2a5fecd3e71a29e7568f9c1453dec5cebbaff4
+    - https://github.com/openssl/openssl/commit/ea7b4ea4f9f853521ba34830cbcadc970d2e0788
+    - https://github.com/openssl/openssl/commit/fd2f1a6cf53b9ceeca723a001aa4b825d7c7ee75
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28390
+    - https://openssl-library.org/news/secadv/20260407.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
+    - https://ubuntu.com/security/notices/USN-8155-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-28390
+    - https://www.openwall.com/lists/oss-security/2026/04/07/11
+    PublishedDate: '2026-04-07T22:16:21.19Z'
+    LastModifiedDate: '2026-04-10T21:16:23.67Z'
   - VulnerabilityID: CVE-2026-31790
     PkgID: openssl-libs@3.5.1-7.el9_7.x86_64
     PkgName: openssl-libs
@@ -41630,6 +42605,7 @@
     CweIDs:
     - CWE-754
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -41645,10 +42621,11 @@
     - https://github.com/openssl/openssl/commit/eed200f58cd8645ed77e46b7e9f764e284df379e
     - https://nvd.nist.gov/vuln/detail/CVE-2026-31790
     - https://openssl-library.org/news/secadv/20260407.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
     - https://www.cve.org/CVERecord?id=CVE-2026-31790
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:21.77Z'
-    LastModifiedDate: '2026-04-07T22:16:21.77Z'
+    LastModifiedDate: '2026-04-08T21:27:00.663Z'
   - VulnerabilityID: CVE-2024-13176
     PkgID: openssl-libs@3.5.1-7.el9_7.x86_64
     PkgName: openssl-libs
@@ -42074,9 +43051,254 @@
     - https://github.com/openssl/openssl/commit/85977e013f32ceb96aa034c0e741adddc1a05e34
     - https://nvd.nist.gov/vuln/detail/CVE-2026-2673
     - https://openssl-library.org/news/secadv/20260313.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
     - https://www.cve.org/CVERecord?id=CVE-2026-2673
     PublishedDate: '2026-03-13T19:54:34.033Z'
     LastModifiedDate: '2026-03-17T18:16:15.6Z'
+  - VulnerabilityID: CVE-2026-28386
+    PkgID: openssl-libs@3.5.1-7.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-7.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: be1622e58e3c5c9f
+    InstalledVersion: 1:3.5.1-7.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28386
+    Fingerprint: sha256:0c3fe8676922dd47f5ab6ec096b2cc9686b570d20b8f096e54ae57a384d3b902
+    Title: 'openssl: openssl: Denial of Service due to out-of-bounds read in AES-CFB128'
+    Description: |-
+      Issue summary: Applications using AES-CFB128 encryption or decryption on
+      systems with AVX-512 and VAES support can trigger an out-of-bounds read
+      of up to 15 bytes when processing partial cipher blocks.
+
+      Impact summary: This out-of-bounds read may trigger a crash which leads to
+      Denial of Service for an application if the input buffer ends at a memory
+      page boundary and the following page is unmapped. There is no information
+      disclosure as the over-read bytes are not written to output.
+
+      The vulnerable code path is only reached when processing partial blocks
+      (when a previous call left an incomplete block and the current call provides
+      fewer bytes than needed to complete it). Additionally, the input buffer
+      must be positioned at a page boundary with the following page unmapped.
+      CFB mode is not used in TLS/DTLS protocols, which use CBC, GCM, CCM, or
+      ChaCha20-Poly1305 instead. For these reasons the issue was assessed as
+      Low severity according to our Security Policy.
+
+      Only x86-64 systems with AVX-512 and VAES instruction support are affected.
+      Other architectures and systems without VAES support use different code
+      paths that are not affected.
+
+      OpenSSL FIPS module in 3.6 version is affected by this issue.
+    Severity: LOW
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-28386
+    - https://github.com/openssl/openssl/commit/61f428a2fc6671ede184a19f71e6e495f0689621
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28386
+    - https://openssl-library.org/news/secadv/20260407.txt
+    - https://www.cve.org/CVERecord?id=CVE-2026-28386
+    PublishedDate: '2026-04-07T22:16:20.513Z'
+    LastModifiedDate: '2026-04-10T21:16:22.3Z'
+  - VulnerabilityID: CVE-2026-28387
+    PkgID: openssl-libs@3.5.1-7.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-7.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: be1622e58e3c5c9f
+    InstalledVersion: 1:3.5.1-7.el9_7
+    Status: under_investigation
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28387
+    Fingerprint: sha256:8edee2ea116eec103ea653bdd53399a395dc4fb7cf15180ff679998328be0ed6
+    Title: 'openssl: OpenSSL: Arbitrary code execution due to use-after-free in DANE TLSA authentication'
+    Description: |-
+      Issue summary: An uncommon configuration of clients performing DANE TLSA-based
+      server authentication, when paired with uncommon server DANE TLSA records, may
+      result in a use-after-free and/or double-free on the client side.
+
+      Impact summary: A use after free can have a range of potential consequences
+      such as the corruption of valid data, crashes or execution of arbitrary code.
+
+      However, the issue only affects clients that make use of TLSA records with both
+      the PKIX-TA(0/PKIX-EE(1) certificate usages and the DANE-TA(2) certificate
+      usage.
+
+      By far the most common deployment of DANE is in SMTP MTAs for which RFC7672
+      recommends that clients treat as 'unusable' any TLSA records that have the PKIX
+      certificate usages.  These SMTP (or other similar) clients are not vulnerable
+      to this issue.  Conversely, any clients that support only the PKIX usages, and
+      ignore the DANE-TA(2) usage are also not vulnerable.
+
+      The client would also need to be communicating with a server that publishes a
+      TLSA RRset with both types of TLSA records.
+
+      No FIPS modules are affected by this issue, the problem code is outside the
+      FIPS module boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-28387
+    - https://github.com/openssl/openssl/commit/07e727d304746edb49a98ee8f6ab00256e1f012b
+    - https://github.com/openssl/openssl/commit/258a8f63b26995ba357f4326da00e19e29c6acbe
+    - https://github.com/openssl/openssl/commit/444958deaf450aea819171f97ae69eaedede42c3
+    - https://github.com/openssl/openssl/commit/7a4e08cee62a728d32e60b0de89e6764339df0a7
+    - https://github.com/openssl/openssl/commit/ec03fa050b3346997ed9c5fef3d0e16ad7db8177
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28387
+    - https://openssl-library.org/news/secadv/20260407.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
+    - https://ubuntu.com/security/notices/USN-8155-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-28387
+    - https://www.openwall.com/lists/oss-security/2026/04/07/11
+    PublishedDate: '2026-04-07T22:16:20.7Z'
+    LastModifiedDate: '2026-04-08T21:27:00.663Z'
+  - VulnerabilityID: CVE-2026-28388
+    PkgID: openssl-libs@3.5.1-7.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-7.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: be1622e58e3c5c9f
+    InstalledVersion: 1:3.5.1-7.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28388
+    Fingerprint: sha256:abc49116feadfad97740fd02319b08485da1577a4d249579e5fb9128cd322408
+    Title: 'openssl: OpenSSL: Denial of Service due to NULL pointer dereference in delta CRL processing'
+    Description: |-
+      Issue summary: When a delta CRL that contains a Delta CRL Indicator extension
+      is processed a NULL pointer dereference might happen if the required CRL
+      Number extension is missing.
+
+      Impact summary: A NULL pointer dereference can trigger a crash which
+      leads to a Denial of Service for an application.
+
+      When CRL processing and delta CRL processing is enabled during X.509
+      certificate verification, the delta CRL processing does not check
+      whether the CRL Number extension is NULL before dereferencing it.
+      When a malformed delta CRL file is being processed, this parameter
+      can be NULL, causing a NULL pointer dereference.
+
+      Exploiting this issue requires the X509_V_FLAG_USE_DELTAS flag to be enabled in
+      the verification context, the certificate being verified to contain a
+      freshestCRL extension or the base CRL to have the EXFLAG_FRESHEST flag set, and
+      an attacker to provide a malformed CRL to an application that processes it.
+
+      The vulnerability is limited to Denial of Service and cannot be escalated to
+      achieve code execution or memory disclosure. For that reason the issue was
+      assessed as Low severity according to our Security Policy.
+
+      The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this issue,
+      as the affected code is outside the OpenSSL FIPS module boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-28388
+    - https://github.com/openssl/openssl/commit/59c3b3158553ab53275bbbccca5cb305d591cf2e
+    - https://github.com/openssl/openssl/commit/5a0b4930779cd2408880979db765db919da55139
+    - https://github.com/openssl/openssl/commit/602542f2c0c2d5edb47128f93eac10b62aeeefb3
+    - https://github.com/openssl/openssl/commit/a9d187dd1000130100fa7ab915f8513532cb3bb8
+    - https://github.com/openssl/openssl/commit/d3a901e8d9f021f3e67d6cfbc12e768129862726
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28388
+    - https://openssl-library.org/news/secadv/20260407.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
+    - https://ubuntu.com/security/notices/USN-8155-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-28388
+    - https://www.openwall.com/lists/oss-security/2026/04/07/11
+    PublishedDate: '2026-04-07T22:16:20.863Z'
+    LastModifiedDate: '2026-04-10T21:16:23.157Z'
+  - VulnerabilityID: CVE-2026-28389
+    PkgID: openssl-libs@3.5.1-7.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-7.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: be1622e58e3c5c9f
+    InstalledVersion: 1:3.5.1-7.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-28389
+    Fingerprint: sha256:39593d865ccfdd8b721a48298df72bce15ca9c80c9ad9f0b27e3bd1292a051e0
+    Title: 'openssl: OpenSSL: Denial of Service vulnerability in CMS processing'
+    Description: |-
+      Issue summary: During processing of a crafted CMS EnvelopedData message
+      with KeyAgreeRecipientInfo a NULL pointer dereference can happen.
+
+      Impact summary: Applications that process attacker-controlled CMS data may
+      crash before authentication or cryptographic operations occur resulting in
+      Denial of Service.
+
+      When a CMS EnvelopedData message that uses KeyAgreeRecipientInfo is
+      processed, the optional parameters field of KeyEncryptionAlgorithmIdentifier
+      is examined without checking for its presence. This results in a NULL
+      pointer dereference if the field is missing.
+
+      Applications and services that call CMS_decrypt() on untrusted input
+      (e.g., S/MIME processing or CMS-based protocols) are vulnerable.
+
+      The FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this
+      issue, as the affected code is outside the OpenSSL FIPS module boundary.
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      photon: 3
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-28389
+    - https://github.com/openssl/openssl/commit/16cea4188e0ea567deb4f93f85902247e67384f5
+    - https://github.com/openssl/openssl/commit/785cbf7ea3b5a6f5adf0c1ccb92b79d89c35c616
+    - https://github.com/openssl/openssl/commit/7b5274e812400cacb6f3be4c2df5340923fa807f
+    - https://github.com/openssl/openssl/commit/c6725634e089eb2b634b10ede33944be7248172a
+    - https://github.com/openssl/openssl/commit/f80f83bc5fd036bc47d773e8b15a001e2b4ce686
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-28389
+    - https://openssl-library.org/news/secadv/20260407.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
+    - https://ubuntu.com/security/notices/USN-8155-2
+    - https://www.cve.org/CVERecord?id=CVE-2026-28389
+    - https://www.openwall.com/lists/oss-security/2026/04/07/11
+    PublishedDate: '2026-04-07T22:16:21.03Z'
+    LastModifiedDate: '2026-04-10T21:16:23.41Z'
   - VulnerabilityID: CVE-2026-2100
     PkgID: p11-kit@0.25.3-3.el9_5.x86_64
     PkgName: p11-kit
@@ -42409,7 +43631,7 @@
     - https://github.com/python/cpython/issues/143930
     - https://github.com/python/cpython/pull/143931
     - https://linux.oracle.com/cve/CVE-2026-4519.html
-    - https://linux.oracle.com/errata/ELSA-2026-6473.html
+    - https://linux.oracle.com/errata/ELSA-2026-6766.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/AY5NDSS433JK56Q7Q5IS7B37QFZVVOUS/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4519
     - https://www.cve.org/CVERecord?id=CVE-2026-4519
@@ -42627,7 +43849,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -42826,6 +44048,8 @@
     - http://www.openwall.com/lists/oss-security/2026/03/16/4
     - https://access.redhat.com/security/cve/CVE-2026-4224
     - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
+    - https://github.com/python/cpython/commit/642865ddf4b232da1f3b1f7abcfa3254c4bfe785
+    - https://github.com/python/cpython/commit/af856a7177326ac25d9f66cc6dd28b554d914fee
     - https://github.com/python/cpython/commit/e0a8a6da90597a924b300debe045cdb4628ee1f3
     - https://github.com/python/cpython/commit/eb0e8be3a7e11b87d198a2c3af1ed0eccf532768
     - https://github.com/python/cpython/issues/145986
@@ -42834,7 +44058,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4224
     - https://www.cve.org/CVERecord?id=CVE-2026-4224
     PublishedDate: '2026-03-16T18:16:10.07Z'
-    LastModifiedDate: '2026-03-17T14:20:01.67Z'
+    LastModifiedDate: '2026-04-08T13:16:41.977Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python-unversioned-command@3.9.25-3.el9_7.1.noarch
     PkgName: python-unversioned-command
@@ -43025,7 +44249,7 @@
     - https://github.com/python/cpython/issues/143930
     - https://github.com/python/cpython/pull/143931
     - https://linux.oracle.com/cve/CVE-2026-4519.html
-    - https://linux.oracle.com/errata/ELSA-2026-6473.html
+    - https://linux.oracle.com/errata/ELSA-2026-6766.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/AY5NDSS433JK56Q7Q5IS7B37QFZVVOUS/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4519
     - https://www.cve.org/CVERecord?id=CVE-2026-4519
@@ -43243,7 +44467,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -43442,6 +44666,8 @@
     - http://www.openwall.com/lists/oss-security/2026/03/16/4
     - https://access.redhat.com/security/cve/CVE-2026-4224
     - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
+    - https://github.com/python/cpython/commit/642865ddf4b232da1f3b1f7abcfa3254c4bfe785
+    - https://github.com/python/cpython/commit/af856a7177326ac25d9f66cc6dd28b554d914fee
     - https://github.com/python/cpython/commit/e0a8a6da90597a924b300debe045cdb4628ee1f3
     - https://github.com/python/cpython/commit/eb0e8be3a7e11b87d198a2c3af1ed0eccf532768
     - https://github.com/python/cpython/issues/145986
@@ -43450,7 +44676,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4224
     - https://www.cve.org/CVERecord?id=CVE-2026-4224
     PublishedDate: '2026-03-16T18:16:10.07Z'
-    LastModifiedDate: '2026-03-17T14:20:01.67Z'
+    LastModifiedDate: '2026-04-08T13:16:41.977Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3@3.9.25-3.el9_7.1.x86_64
     PkgName: python3
@@ -43641,7 +44867,7 @@
     - https://github.com/python/cpython/issues/143930
     - https://github.com/python/cpython/pull/143931
     - https://linux.oracle.com/cve/CVE-2026-4519.html
-    - https://linux.oracle.com/errata/ELSA-2026-6473.html
+    - https://linux.oracle.com/errata/ELSA-2026-6766.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/AY5NDSS433JK56Q7Q5IS7B37QFZVVOUS/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4519
     - https://www.cve.org/CVERecord?id=CVE-2026-4519
@@ -43859,7 +45085,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -44058,6 +45284,8 @@
     - http://www.openwall.com/lists/oss-security/2026/03/16/4
     - https://access.redhat.com/security/cve/CVE-2026-4224
     - https://github.com/python/cpython/commit/196edfb06a7458377d4d0f4b3cd41724c1f3bd4a
+    - https://github.com/python/cpython/commit/642865ddf4b232da1f3b1f7abcfa3254c4bfe785
+    - https://github.com/python/cpython/commit/af856a7177326ac25d9f66cc6dd28b554d914fee
     - https://github.com/python/cpython/commit/e0a8a6da90597a924b300debe045cdb4628ee1f3
     - https://github.com/python/cpython/commit/eb0e8be3a7e11b87d198a2c3af1ed0eccf532768
     - https://github.com/python/cpython/issues/145986
@@ -44066,7 +45294,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4224
     - https://www.cve.org/CVERecord?id=CVE-2026-4224
     PublishedDate: '2026-03-16T18:16:10.07Z'
-    LastModifiedDate: '2026-03-17T14:20:01.67Z'
+    LastModifiedDate: '2026-04-08T13:16:41.977Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3-libs@3.9.25-3.el9_7.1.x86_64
     PkgName: python3-libs
@@ -44388,6 +45616,7 @@
     CweIDs:
     - CWE-377
     VendorSeverity:
+      azure: 2
       ghsa: 2
       nvd: 2
       photon: 2
@@ -44681,6 +45910,45 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-70873
     PublishedDate: '2026-03-12T19:16:15.933Z'
     LastModifiedDate: '2026-03-16T14:18:02.437Z'
+  - VulnerabilityID: CVE-2026-35535
+    PkgID: sudo@1.9.5p2-13.el9.x86_64
+    PkgName: sudo
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/sudo@1.9.5p2-13.el9?arch=x86_64&distro=redhat-9.7
+      UID: 3e74f01c794bf419
+    InstalledVersion: 1.9.5p2-13.el9
+    Status: affected
+    Layer:
+      Digest: sha256:41d7a2922b48dcba724bea0adc0291d28f8fa2124b2688df2669972352fec333
+      DiffID: sha256:a636bae7d5f9189baea6ddf81f6b89a0771e6444511d81a5cd8c9fd76ba40ff0
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-35535
+    Fingerprint: sha256:2e1a1901018616e0882064a64c1c55fb25274f5326583d684c40b03edcd2a753
+    Title: 'sudo: Sudo: Privilege escalation due to failure in privilege drop calls'
+    Description: In Sudo through 1.9.17p2 before 3e474c2, a failure of a setuid, setgid, or setgroups call, during a privilege drop before running the mailer, is not a fatal error and can lead to privilege escalation.
+    Severity: HIGH
+    CweIDs:
+    - CWE-271
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-35535
+    - https://bugs.debian.org/1130593
+    - https://bugs.launchpad.net/ubuntu/+source/sudo/+bug/2143042
+    - https://github.com/sudo-project/sudo/commit/3e474c2f201484be83d994ae10a4e20e8c81bb69
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-35535
+    - https://ubuntu.com/blog/apparmor-vulnerability-fixes-available
+    - https://ubuntu.com/security/notices/USN-8092-1
+    - https://ubuntu.com/security/vulnerabilities/crackarmor
+    - https://www.cve.org/CVERecord?id=CVE-2026-35535
+    - https://www.qualys.com/2026/03/10/crack-armor.txt
+    PublishedDate: '2026-04-03T03:16:18.233Z'
+    LastModifiedDate: '2026-04-03T16:10:23.73Z'
   - VulnerabilityID: CVE-2026-29111
     PkgID: systemd-libs@252-55.el9_7.7.x86_64
     PkgName: systemd-libs
@@ -44701,6 +45969,7 @@
     CweIDs:
     - CWE-269
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -44856,6 +46125,7 @@
     CweIDs:
     - CWE-61
     VendorSeverity:
+      azure: 2
       ghsa: 2
       nvd: 2
       redhat: 2
@@ -44910,12 +46180,15 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:N
         V3Score: 5
     References:
+    - http://www.openwall.com/lists/oss-security/2026/04/11/10
+    - http://www.openwall.com/lists/oss-security/2026/04/11/11
+    - http://www.openwall.com/lists/oss-security/2026/04/12/2
     - https://access.redhat.com/security/cve/CVE-2026-5704
     - https://bugzilla.redhat.com/show_bug.cgi?id=2455360
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5704
     - https://www.cve.org/CVERecord?id=CVE-2026-5704
     PublishedDate: '2026-04-06T16:16:42.14Z'
-    LastModifiedDate: '2026-04-07T13:20:11.643Z'
+    LastModifiedDate: '2026-04-12T06:16:21.607Z'
   - VulnerabilityID: CVE-2023-39804
     PkgID: tar@1.34-9.el9_7.x86_64
     PkgName: tar
