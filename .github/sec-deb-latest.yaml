@@ -9088,6 +9088,8 @@
     CweIDs:
     - CWE-754
     VendorSeverity:
+      amazon: 3
+      azure: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -9251,6 +9253,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      amazon: 3
       photon: 3
       redhat: 1
       ubuntu: 1
@@ -9322,6 +9325,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      amazon: 3
+      azure: 2
       photon: 3
       redhat: 1
       ubuntu: 1
@@ -9386,6 +9391,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      amazon: 3
+      azure: 2
       photon: 3
       redhat: 1
       ubuntu: 1
@@ -9451,6 +9458,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      amazon: 3
+      azure: 2
       photon: 3
       redhat: 2
       ubuntu: 1
@@ -9492,7 +9501,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:4217e9f87766fbed609a4421c052b2549f29811c68dbab01119e59036b31801c
-    Title: 'Issue summary: Converting an excessively large OCTET STRING value to a ...'
+    Title: 'openssl: OpenSSL: Heap buffer overflow on 32-bit systems from large X.509 certificate processing'
     Description: |-
       Issue summary: Converting an excessively large OCTET STRING value to
       a hexadecimal string leads to a heap buffer overflow on 32 bit platforms.
@@ -9519,14 +9528,22 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      azure: 2
       photon: 3
+      redhat: 1
       ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:H
+        V3Score: 5.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-31789
     - https://github.com/openssl/openssl/commit/364f095b80601db632b0def6a33316967f863bde
     - https://github.com/openssl/openssl/commit/7a9087efd769f362ad9c0e30c7baaa6bbfa65ecf
     - https://github.com/openssl/openssl/commit/945b935ac66cc7f1a41f1b849c7c25adb5351f49
     - https://github.com/openssl/openssl/commit/a24216018e1ede8ff01a4ff5afff7dfbd443e2f9
     - https://github.com/openssl/openssl/commit/a91e537d16d74050dbde50bb0dfb1fe9930f0521
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-31789
     - https://openssl-library.org/news/secadv/20260407.txt
     - https://ubuntu.com/security/notices/USN-8155-1
     - https://www.cve.org/CVERecord?id=CVE-2026-31789
@@ -9559,6 +9576,7 @@
     - CWE-269
     VendorSeverity:
       azure: 2
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -9610,6 +9628,7 @@
     - CWE-269
     VendorSeverity:
       azure: 2
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -9847,6 +9866,8 @@
     CweIDs:
     - CWE-754
     VendorSeverity:
+      amazon: 3
+      azure: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -10010,6 +10031,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      amazon: 3
       photon: 3
       redhat: 1
       ubuntu: 1
@@ -10081,6 +10103,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      amazon: 3
+      azure: 2
       photon: 3
       redhat: 1
       ubuntu: 1
@@ -10145,6 +10169,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      amazon: 3
+      azure: 2
       photon: 3
       redhat: 1
       ubuntu: 1
@@ -10210,6 +10236,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      amazon: 3
+      azure: 2
       photon: 3
       redhat: 2
       ubuntu: 1
@@ -10251,7 +10279,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:dc1b2d306bbafdc3fdb6144151de38ba79ca3ff2464d3dd5eca53805509be9b2
-    Title: 'Issue summary: Converting an excessively large OCTET STRING value to a ...'
+    Title: 'openssl: OpenSSL: Heap buffer overflow on 32-bit systems from large X.509 certificate processing'
     Description: |-
       Issue summary: Converting an excessively large OCTET STRING value to
       a hexadecimal string leads to a heap buffer overflow on 32 bit platforms.
@@ -10278,14 +10306,22 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      azure: 2
       photon: 3
+      redhat: 1
       ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:H
+        V3Score: 5.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-31789
     - https://github.com/openssl/openssl/commit/364f095b80601db632b0def6a33316967f863bde
     - https://github.com/openssl/openssl/commit/7a9087efd769f362ad9c0e30c7baaa6bbfa65ecf
     - https://github.com/openssl/openssl/commit/945b935ac66cc7f1a41f1b849c7c25adb5351f49
     - https://github.com/openssl/openssl/commit/a24216018e1ede8ff01a4ff5afff7dfbd443e2f9
     - https://github.com/openssl/openssl/commit/a91e537d16d74050dbde50bb0dfb1fe9930f0521
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-31789
     - https://openssl-library.org/news/secadv/20260407.txt
     - https://ubuntu.com/security/notices/USN-8155-1
     - https://www.cve.org/CVERecord?id=CVE-2026-31789
@@ -10342,6 +10378,8 @@
     CweIDs:
     - CWE-754
     VendorSeverity:
+      amazon: 3
+      azure: 2
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -10505,6 +10543,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
+      amazon: 3
       photon: 3
       redhat: 1
       ubuntu: 1
@@ -10576,6 +10615,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      amazon: 3
+      azure: 2
       photon: 3
       redhat: 1
       ubuntu: 1
@@ -10640,6 +10681,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      amazon: 3
+      azure: 2
       photon: 3
       redhat: 1
       ubuntu: 1
@@ -10705,6 +10748,8 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      amazon: 3
+      azure: 2
       photon: 3
       redhat: 2
       ubuntu: 1
@@ -10746,7 +10791,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:95e3647821f73e428aa4d6bc65092d079fda4277bd90c41a82b719355039c42e
-    Title: 'Issue summary: Converting an excessively large OCTET STRING value to a ...'
+    Title: 'openssl: OpenSSL: Heap buffer overflow on 32-bit systems from large X.509 certificate processing'
     Description: |-
       Issue summary: Converting an excessively large OCTET STRING value to
       a hexadecimal string leads to a heap buffer overflow on 32 bit platforms.
@@ -10773,14 +10818,22 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      azure: 2
       photon: 3
+      redhat: 1
       ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:H
+        V3Score: 5.8
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-31789
     - https://github.com/openssl/openssl/commit/364f095b80601db632b0def6a33316967f863bde
     - https://github.com/openssl/openssl/commit/7a9087efd769f362ad9c0e30c7baaa6bbfa65ecf
     - https://github.com/openssl/openssl/commit/945b935ac66cc7f1a41f1b849c7c25adb5351f49
     - https://github.com/openssl/openssl/commit/a24216018e1ede8ff01a4ff5afff7dfbd443e2f9
     - https://github.com/openssl/openssl/commit/a91e537d16d74050dbde50bb0dfb1fe9930f0521
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-31789
     - https://openssl-library.org/news/secadv/20260407.txt
     - https://ubuntu.com/security/notices/USN-8155-1
     - https://www.cve.org/CVERecord?id=CVE-2026-31789
@@ -10863,6 +10916,8 @@
     CweIDs:
     - CWE-271
     VendorSeverity:
+      amazon: 3
+      photon: 3
       redhat: 3
       ubuntu: 3
     CVSS:
