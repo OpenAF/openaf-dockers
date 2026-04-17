@@ -34,8 +34,13 @@ if [ ! -z "$OAFP" ]; then
    /openaf/oafp "$@"
 fi
 
-if [ -z "$OPENAF" ] && [ -z "$OJOB" ] && [ -z "$OAFP" ]; then
-   if [ -z $1 ] && [ -z "$OPACK_EXEC" ]; then
+if [ ! -z "$1" ] && [ ! -z "$SHELL" ]; then
+   # Rebuild the command line so split Docker args work with `sh -c`.
+   exec /bin/sh -c "$*"
+fi
+
+if [ -z "$OPENAF" ] && [ -z "$OJOB" ] && [ -z "$OAFP" ] && [ -z "$SHELL" ]; then
+   if [ -z "$1" ] && [ -z "$OPACK_EXEC" ]; then
       /bin/sh
    else
       /openaf/openaf "$@"
