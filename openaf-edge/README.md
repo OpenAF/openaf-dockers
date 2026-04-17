@@ -37,6 +37,17 @@ docker run --rm -ti \
   openaf/openaf-edge:t8
 ```
 
+All standard OpenAF entrypoint variables are supported: `OPACKS`, `OPACKS_DIR`, `OPACKS_DB`, `OPENAF`, `OJOB`, `OPACK_EXEC`, and `OAFP`. In addition, `SHELL=1` enables shell-form command passthrough.
+
+Run a shell-form command through the entrypoint with `SHELL=1`. This is useful when Docker passes split arguments to `sh -c`, including commands that contain spaces or shell operators:
+
+```sh
+docker run --rm -ti \
+  -e SHELL=1 \
+  openaf/openaf-edge:latest \
+  'echo "OpenAF Edge"' '&&' 'oaf -c "1 + 1"'
+```
+
 ## Build from source
 
 ```sh
