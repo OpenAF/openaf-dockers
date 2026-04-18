@@ -102,7 +102,7 @@ jobs:
         dist: t8
     # # --------------------------
     # - name: Trigger build t8 ubi
-    #   uses: openaf/ojob-action@v4
+    #   uses: openaf/ojob-action@v7
     #   env :
     #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     #   with:
@@ -111,7 +111,7 @@ jobs:
     #     dist: t8
     # # ---------------------------
     # - name: Trigger build nightly
-    #   uses: openaf/ojob-action@v4
+    #   uses: openaf/ojob-action@v7
     #   env :
     #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     #   with:
@@ -120,7 +120,7 @@ jobs:
     #     dist: t8
     # # -------------------------------
     # - name: Trigger build nightly ubi
-    #   uses: openaf/ojob-action@v4
+    #   uses: openaf/ojob-action@v7
     #   env :
     #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     #   with:

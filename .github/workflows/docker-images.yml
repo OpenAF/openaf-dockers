@@ -493,7 +493,7 @@ jobs:
     - build-mini-a
     steps  :
     - name: Configure AWS credentials
-      uses: aws-actions/configure-aws-credentials@v1
+      uses: aws-actions/configure-aws-credentials@v4
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET }}
@@ -501,7 +501,7 @@ jobs:
 
     - name: Login to Amazon ECR
       id  : login-ecr
-      uses: aws-actions/amazon-ecr-login@v1
+      uses: aws-actions/amazon-ecr-login@v2
       with:
         registry-type: public
 
