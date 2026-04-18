@@ -1,4 +1,4 @@
-````yaml
+```yaml
 ╭ [0] ╭ Target         : openaf/oaf:deb (ubuntu 25.10) 
 │     ├ Class          : os-pkgs 
 │     ├ Type           : ubuntu 
@@ -9417,7 +9417,7 @@
 │                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-2236 
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                       │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
-│                       │      ╰ LastModifiedDate: 2026-02-25T20:17:20.547Z 
+│                       │      ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2026-3184 
 │                       │      ├ PkgID           : liblastlog2-2@2.41-4ubuntu4.1 
 │                       │      ├ PkgName         : liblastlog2-2 
@@ -10230,7 +10230,7 @@
 │                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-8119-2 
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2026-29111 
 │                       │      ├ PublishedDate   : 2026-03-23T22:16:26.267Z 
-│                       │      ╰ LastModifiedDate: 2026-03-24T15:53:48.067Z 
+│                       │      ╰ LastModifiedDate: 2026-04-15T16:44:38.387Z 
 │                       ├ [14] ╭ VulnerabilityID : CVE-2026-29111 
 │                       │      ├ PkgID           : libudev1@257.9-0ubuntu2.1 
 │                       │      ├ PkgName         : libudev1 
@@ -10300,7 +10300,7 @@
 │                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-8119-2 
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2026-29111 
 │                       │      ├ PublishedDate   : 2026-03-23T22:16:26.267Z 
-│                       │      ╰ LastModifiedDate: 2026-03-24T15:53:48.067Z 
+│                       │      ╰ LastModifiedDate: 2026-04-15T16:44:38.387Z 
 │                       ├ [15] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │      ├ PkgID           : libuuid1@2.41-4ubuntu4.1 
 │                       │      ├ PkgName         : libuuid1 
@@ -10437,7 +10437,7 @@
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-56433 
 │                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20145 
 │                       │      │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d574
 │                       │      │                  │       1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
 │                       │      │                  │       241 
@@ -10448,7 +10448,7 @@
 │                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
-│                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
+│                       │      ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │      ├ PkgID           : mount@2.41-4ubuntu4.1 
 │                       │      ├ PkgName         : mount 
@@ -11770,7 +11770,7 @@
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-56433 
 │                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20145 
 │                       │      │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d574
 │                       │      │                  │       1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
 │                       │      │                  │       241 
@@ -11781,7 +11781,7 @@
 │                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-56433 
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
-│                       │      ╰ LastModifiedDate: 2024-12-26T09:15:07.267Z 
+│                       │      ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
 │                       ├ [34] ╭ VulnerabilityID : CVE-2026-35535 
 │                       │      ├ PkgID           : sudo@1.9.17p2-1ubuntu1 
 │                       │      ├ PkgName         : sudo 
@@ -11895,7 +11895,7 @@
 │                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-45582 
 │                       │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2026-0067.html 
-│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0067 
+│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0002 
 │                       │      │                  ├ [8] : https://github.com/i900008/vulndb/blob/main/Gnu_tar_v
 │                       │      │                  │       uln.md 
 │                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-45582.html 
@@ -12616,4 +12616,4 @@
                         │                      b40d7a8 
                         ├ FilePath  : openaf/openaf.jar 
                         ╰ AnalyzedBy: jar 
-````
+```
