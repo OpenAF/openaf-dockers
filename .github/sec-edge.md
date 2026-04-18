@@ -1,4 +1,4 @@
-````yaml
+```yaml
 ╭ [0] ╭ Target         : openaf/oaf:edge (alpine 3.24.0_alpha20260127) 
 │     ├ Class          : os-pkgs 
 │     ├ Type           : alpine 
@@ -308,7 +308,8 @@
 │     │                 │      ├ Arch          : x86_64 
 │     │                 │      ├ SrcName       : ca-certificates 
 │     │                 │      ├ SrcVersion    : 20260413-r0 
-
+│     │                 │      ├ Licenses       ╭ [0]: MPL-2.0 
+│     │                 │      │                ╰ [1]: MIT 
 │     │                 │      ├ Maintainer    : Natanael Copa <ncopa@alpinelinux.org> 
 │     │                 │      ├ DependsOn      ╭ [0]: busybox-binsh@1.37.0-r31 
 │     │                 │      │                ├ [1]: libcrypto3@3.5.6-r0 
@@ -1953,4 +1954,4 @@
                         │                      3b98b52 
                         ├ FilePath  : openaf/openaf.jar 
                         ╰ AnalyzedBy: jar 
-````
+```

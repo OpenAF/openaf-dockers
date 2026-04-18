@@ -1,4 +1,4 @@
-````yaml
+```yaml
 ╭ [0] ╭ Target         : openaf/oaf:deb-nightly (ubuntu 25.10) 
 │     ├ Class          : os-pkgs 
 │     ├ Type           : ubuntu 
@@ -10584,4 +10584,4 @@
                         │                      80239b2 
                         ├ FilePath  : openaf/openaf.jar 
                         ╰ AnalyzedBy: jar 
-````
+```
