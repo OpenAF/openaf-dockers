@@ -1,4 +1,4 @@
-````yaml
+```yaml
 ╭ [0] ╭ Target         : openaf/ojobrt:edge (alpine 3.24.0_alpha20260127) 
 │     ├ Class          : os-pkgs 
 │     ├ Type           : alpine 
@@ -2065,4 +2065,4 @@
                         │                      61bd04f 
                         ├ FilePath  : openaf/S3/snappy-java-1.1.10.8.jar 
                         ╰ AnalyzedBy: jar 
-````
+```
