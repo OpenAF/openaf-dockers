@@ -1,4 +1,4 @@
-````yaml
+```yaml
 ╭ [0] ╭ Target         : openaf/oaf:latest (alpine 3.23.3) 
 │     ├ Class          : os-pkgs 
 │     ├ Type           : alpine 
@@ -5316,4 +5316,4 @@
                         │                      cc1322a 
                         ├ FilePath  : openaf/openaf.jar 
                         ╰ AnalyzedBy: jar 
-````
+```
