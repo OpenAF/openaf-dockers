@@ -781,7 +781,10 @@
 │                │      ├ SrcVersion    : 3.0.6-r0 
 │                │      ├ Licenses       ─ [0]: GPL-2.0-only 
 │                │      ├ Maintainer    : Natanael Copa <ncopa@alpinelinux.org> 
-
+│                │      ├ DependsOn      ╭ [0]: libcrypto3@3.5.6-r0 
+│                │      │                ├ [1]: libssl3@3.5.6-r0 
+│                │      │                ├ [2]: musl@1.2.5-r23 
+│                │      │                ╰ [3]: zlib@1.3.2-r0 
 │                │      ├ Layer          ╭ Digest: sha256:198a9c5292933d2476bea62ccf2ebd70afffa16b06e92001c5f1f
 │                │      │                │         d7a1cc8e678 
 │                │      │                ╰ DiffID: sha256:3c7277b8cb9ced60dfa1e26000a454ee42e7bcb3883511212c54e
