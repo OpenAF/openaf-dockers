@@ -9359,7 +9359,61 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │      ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │      ╰ LastModifiedDate: 2026-04-07T13:20:55.2Z 
-│                       ├ [2]  ╭ VulnerabilityID : CVE-2024-2236 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2026-4878 
+│                       │      ├ PkgID           : libcap2@1:2.75-7ubuntu2 
+│                       │      ├ PkgName         : libcap2 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libcap2@2.75-7ubuntu2?arch=amd64&distr
+│                       │      │                  │       o=ubuntu-25.10&epoch=1 
+│                       │      │                  ╰ UID : 94e043357645a645 
+│                       │      ├ InstalledVersion: 1:2.75-7ubuntu2 
+│                       │      ├ FixedVersion    : 1:2.75-7ubuntu2.2 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:410595660e21918293af16c9adb6b981f7083ca9e8a9
+│                       │      │                  │         01ca6fa10bd0571440e1 
+│                       │      │                  ╰ DiffID: sha256:5e2ff43df50ec95d790a6d5bc8e6b21b45ef97892c31
+│                       │      │                            38e2aa5c7a6c3b40d7a8 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4878 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:1f683a6766bc7e264cbaae3be9a2504b9743532aa619b4e1d4249
+│                       │      │                   39adb159e9e 
+│                       │      ├ Title           : libcap: libcap: Privilege escalation via TOCTOU race
+│                       │      │                   condition in cap_set_file() 
+│                       │      ├ Description     : A flaw was found in libcap. A local unprivileged user can
+│                       │      │                   exploit a Time-of-check-to-time-of-use (TOCTOU) race
+│                       │      │                   condition in the `cap_set_file()` function. This allows an
+│                       │      │                   attacker with write access to a parent directory to redirect
+│                       │      │                    file capability updates to an attacker-controlled file. By
+│                       │      │                   doing so, capabilities can be injected into or stripped from
+│                       │      │                    unintended executables, leading to privilege escalation. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-367 
+│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.7 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/04/07
+│                       │      │                  │       /14 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2026/04/07/4 
+│                       │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2026/04/08/9 
+│                       │      │                  ├ [3] : http://www.openwall.com/lists/oss-security/2026/04/09/5 
+│                       │      │                  ├ [4] : http://www.openwall.com/lists/oss-security/2026/04/09/6 
+│                       │      │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2026-4878 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2447554 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2451615 
+│                       │      │                  ├ [8] : https://github.com/AndrewGMorgan/libcap_mirror/securi
+│                       │      │                  │       ty/advisories/GHSA-f78v-p5hx-m7hh 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-4878 
+│                       │      │                  ├ [10]: https://sites.google.com/site/fullycapable/release-no
+│                       │      │                  │       tes-for-libcap#h.x4zn8j3lss6r 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-8193-1 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-4878 
+│                       │      ├ PublishedDate   : 2026-04-09T16:16:31.987Z 
+│                       │      ╰ LastModifiedDate: 2026-04-13T15:02:47.353Z 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2024-2236 
 │                       │      ├ PkgID           : libgcrypt20@1.11.0-7build1 
 │                       │      ├ PkgName         : libgcrypt20 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcrypt20@1.11.0-7build1?arch=amd64&
@@ -9418,7 +9472,7 @@
 │                       │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                       │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                       │      ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [3]  ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2026-3184 
 │                       │      ├ PkgID           : liblastlog2-2@2.41-4ubuntu4.1 
 │                       │      ├ PkgName         : liblastlog2-2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/liblastlog2-2@2.41-4ubuntu4.1?arch=amd
@@ -9461,7 +9515,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │      ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │      ╰ LastModifiedDate: 2026-04-07T13:20:55.2Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2026-3184 
 │                       │      ├ PkgID           : libmount1@2.41-4ubuntu4.1 
 │                       │      ├ PkgName         : libmount1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libmount1@2.41-4ubuntu4.1?arch=amd64&d
@@ -9504,7 +9558,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │      ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │      ╰ LastModifiedDate: 2026-04-07T13:20:55.2Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-3184 
 │                       │      ├ PkgID           : libsmartcols1@2.41-4ubuntu4.1 
 │                       │      ├ PkgName         : libsmartcols1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsmartcols1@2.41-4ubuntu4.1?arch=amd
@@ -9547,7 +9601,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │      ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │      ╰ LastModifiedDate: 2026-04-07T13:20:55.2Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-31790 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2026-31790 
 │                       │      ├ PkgID           : libssl3t64@3.5.3-1ubuntu3 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.3-1ubuntu3?arch=amd64&d
@@ -9634,7 +9688,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.77Z 
 │                       │      ╰ LastModifiedDate: 2026-04-08T21:27:00.663Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2026-2673 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2026-2673 
 │                       │      ├ PkgID           : libssl3t64@3.5.3-1ubuntu3 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.3-1ubuntu3?arch=amd64&d
@@ -9752,7 +9806,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │      ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
 │                       │      ╰ LastModifiedDate: 2026-03-17T18:16:15.6Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2026-28387 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-28387 
 │                       │      ├ PkgID           : libssl3t64@3.5.3-1ubuntu3 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.3-1ubuntu3?arch=amd64&d
@@ -9834,7 +9888,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:20.7Z 
 │                       │      ╰ LastModifiedDate: 2026-04-08T21:27:00.663Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-28388 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2026-28388 
 │                       │      ├ PkgID           : libssl3t64@3.5.3-1ubuntu3 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.3-1ubuntu3?arch=amd64&d
@@ -9921,7 +9975,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:20.863Z 
 │                       │      ╰ LastModifiedDate: 2026-04-10T21:16:23.157Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2026-28389 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2026-28389 
 │                       │      ├ PkgID           : libssl3t64@3.5.3-1ubuntu3 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.3-1ubuntu3?arch=amd64&d
@@ -9998,7 +10052,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.03Z 
 │                       │      ╰ LastModifiedDate: 2026-04-10T21:16:23.41Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2026-28390 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2026-28390 
 │                       │      ├ PkgID           : libssl3t64@3.5.3-1ubuntu3 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.3-1ubuntu3?arch=amd64&d
@@ -10077,7 +10131,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.19Z 
 │                       │      ╰ LastModifiedDate: 2026-04-10T21:16:23.67Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2026-31789 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2026-31789 
 │                       │      ├ PkgID           : libssl3t64@3.5.3-1ubuntu3 
 │                       │      ├ PkgName         : libssl3t64 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3t64@3.5.3-1ubuntu3?arch=amd64&d
@@ -10161,7 +10215,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.617Z 
 │                       │      ╰ LastModifiedDate: 2026-04-08T21:27:00.663Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2026-29111 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2026-29111 
 │                       │      ├ PkgID           : libsystemd0@257.9-0ubuntu2.1 
 │                       │      ├ PkgName         : libsystemd0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd0@257.9-0ubuntu2.1?arch=amd6
@@ -10231,7 +10285,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2026-29111 
 │                       │      ├ PublishedDate   : 2026-03-23T22:16:26.267Z 
 │                       │      ╰ LastModifiedDate: 2026-04-15T16:44:38.387Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2026-29111 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2026-29111 
 │                       │      ├ PkgID           : libudev1@257.9-0ubuntu2.1 
 │                       │      ├ PkgName         : libudev1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libudev1@257.9-0ubuntu2.1?arch=amd64&d
@@ -10301,7 +10355,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2026-29111 
 │                       │      ├ PublishedDate   : 2026-03-23T22:16:26.267Z 
 │                       │      ╰ LastModifiedDate: 2026-04-15T16:44:38.387Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │      ├ PkgID           : libuuid1@2.41-4ubuntu4.1 
 │                       │      ├ PkgName         : libuuid1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libuuid1@2.41-4ubuntu4.1?arch=amd64&di
@@ -10344,7 +10398,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │      ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │      ╰ LastModifiedDate: 2026-04-07T13:20:55.2Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │      ├ PkgID           : login@1:4.16.0-2+really2.41-4ubuntu4.1 
 │                       │      ├ PkgName         : login 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.16.0-2%2Breally2.41-4ubuntu4.1
@@ -10387,7 +10441,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │      ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │      ╰ LastModifiedDate: 2026-04-07T13:20:55.2Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login.defs@1:4.17.4-2ubuntu2 
 │                       │      ├ PkgName         : login.defs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.17.4-2ubuntu2?arch=all&di
@@ -10437,7 +10491,7 @@
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-56433 
 │                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20145 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
 │                       │      │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d574
 │                       │      │                  │       1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
 │                       │      │                  │       241 
@@ -10449,7 +10503,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │      ├ PkgID           : mount@2.41-4ubuntu4.1 
 │                       │      ├ PkgName         : mount 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/mount@2.41-4ubuntu4.1?arch=amd64&distr
@@ -10492,7 +10546,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │      ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │      ╰ LastModifiedDate: 2026-04-07T13:20:55.2Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2026-31790 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2026-31790 
 │                       │      ├ PkgID           : openssl@3.5.3-1ubuntu3 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.3-1ubuntu3?arch=amd64&dist
@@ -10579,7 +10633,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.77Z 
 │                       │      ╰ LastModifiedDate: 2026-04-08T21:27:00.663Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2026-2673 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2026-2673 
 │                       │      ├ PkgID           : openssl@3.5.3-1ubuntu3 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.3-1ubuntu3?arch=amd64&dist
@@ -10697,7 +10751,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │      ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
 │                       │      ╰ LastModifiedDate: 2026-03-17T18:16:15.6Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2026-28387 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2026-28387 
 │                       │      ├ PkgID           : openssl@3.5.3-1ubuntu3 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.3-1ubuntu3?arch=amd64&dist
@@ -10779,7 +10833,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:20.7Z 
 │                       │      ╰ LastModifiedDate: 2026-04-08T21:27:00.663Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2026-28388 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2026-28388 
 │                       │      ├ PkgID           : openssl@3.5.3-1ubuntu3 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.3-1ubuntu3?arch=amd64&dist
@@ -10866,7 +10920,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:20.863Z 
 │                       │      ╰ LastModifiedDate: 2026-04-10T21:16:23.157Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2026-28389 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2026-28389 
 │                       │      ├ PkgID           : openssl@3.5.3-1ubuntu3 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.3-1ubuntu3?arch=amd64&dist
@@ -10943,7 +10997,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.03Z 
 │                       │      ╰ LastModifiedDate: 2026-04-10T21:16:23.41Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2026-28390 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2026-28390 
 │                       │      ├ PkgID           : openssl@3.5.3-1ubuntu3 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.3-1ubuntu3?arch=amd64&dist
@@ -11022,7 +11076,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.19Z 
 │                       │      ╰ LastModifiedDate: 2026-04-10T21:16:23.67Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2026-31789 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2026-31789 
 │                       │      ├ PkgID           : openssl@3.5.3-1ubuntu3 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.5.3-1ubuntu3?arch=amd64&dist
@@ -11106,7 +11160,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.617Z 
 │                       │      ╰ LastModifiedDate: 2026-04-08T21:27:00.663Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2026-31790 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2026-31790 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.5.3-1ubuntu3 
 │                       │      ├ PkgName         : openssl-provider-legacy 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.3-1ubuntu3
@@ -11193,7 +11247,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.77Z 
 │                       │      ╰ LastModifiedDate: 2026-04-08T21:27:00.663Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2026-2673 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2026-2673 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.5.3-1ubuntu3 
 │                       │      ├ PkgName         : openssl-provider-legacy 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.3-1ubuntu3
@@ -11311,7 +11365,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-2673 
 │                       │      ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
 │                       │      ╰ LastModifiedDate: 2026-03-17T18:16:15.6Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2026-28387 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2026-28387 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.5.3-1ubuntu3 
 │                       │      ├ PkgName         : openssl-provider-legacy 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.3-1ubuntu3
@@ -11393,7 +11447,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:20.7Z 
 │                       │      ╰ LastModifiedDate: 2026-04-08T21:27:00.663Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2026-28388 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2026-28388 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.5.3-1ubuntu3 
 │                       │      ├ PkgName         : openssl-provider-legacy 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.3-1ubuntu3
@@ -11480,7 +11534,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:20.863Z 
 │                       │      ╰ LastModifiedDate: 2026-04-10T21:16:23.157Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2026-28389 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2026-28389 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.5.3-1ubuntu3 
 │                       │      ├ PkgName         : openssl-provider-legacy 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.3-1ubuntu3
@@ -11557,7 +11611,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.03Z 
 │                       │      ╰ LastModifiedDate: 2026-04-10T21:16:23.41Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2026-28390 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2026-28390 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.5.3-1ubuntu3 
 │                       │      ├ PkgName         : openssl-provider-legacy 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.3-1ubuntu3
@@ -11636,7 +11690,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.19Z 
 │                       │      ╰ LastModifiedDate: 2026-04-10T21:16:23.67Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2026-31789 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2026-31789 
 │                       │      ├ PkgID           : openssl-provider-legacy@3.5.3-1ubuntu3 
 │                       │      ├ PkgName         : openssl-provider-legacy 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl-provider-legacy@3.5.3-1ubuntu3
@@ -11720,7 +11774,7 @@
 │                       │      │                          7/11 
 │                       │      ├ PublishedDate   : 2026-04-07T22:16:21.617Z 
 │                       │      ╰ LastModifiedDate: 2026-04-08T21:27:00.663Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.17.4-2ubuntu2 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.17.4-2ubuntu2?arch=amd64&dist
@@ -11770,7 +11824,7 @@
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-56433 
 │                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20145 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
 │                       │      │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d574
 │                       │      │                  │       1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
 │                       │      │                  │       241 
@@ -11782,7 +11836,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2026-04-15T00:35:42.02Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2026-35535 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2026-35535 
 │                       │      ├ PkgID           : sudo@1.9.17p2-1ubuntu1 
 │                       │      ├ PkgName         : sudo 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/sudo@1.9.17p2-1ubuntu1?arch=amd64&dist
@@ -11811,6 +11865,7 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-271 
 │                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ azure : 3 
 │                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 3 
 │                       │      │                  ╰ ubuntu: 3 
@@ -11832,7 +11887,7 @@
 │                       │      │                  ╰ [9]: https://www.qualys.com/2026/03/10/crack-armor.txt 
 │                       │      ├ PublishedDate   : 2026-04-03T03:16:18.233Z 
 │                       │      ╰ LastModifiedDate: 2026-04-03T16:10:23.73Z 
-│                       ├ [35] ╭ VulnerabilityID : CVE-2025-45582 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2025-45582 
 │                       │      ├ PkgID           : tar@1.35+dfsg-3.1build1 
 │                       │      ├ PkgName         : tar 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/tar@1.35%2Bdfsg-3.1build1?arch=amd64&d
@@ -11895,7 +11950,7 @@
 │                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-45582 
 │                       │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2026-0067.html 
-│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0002 
+│                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0067 
 │                       │      │                  ├ [8] : https://github.com/i900008/vulndb/blob/main/Gnu_tar_v
 │                       │      │                  │       uln.md 
 │                       │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2025-45582.html 
@@ -11913,7 +11968,7 @@
 │                       │      │                          urity-rules-of-thumb.html 
 │                       │      ├ PublishedDate   : 2025-07-11T17:15:37.183Z 
 │                       │      ╰ LastModifiedDate: 2025-11-02T01:15:32.307Z 
-│                       ╰ [36] ╭ VulnerabilityID : CVE-2026-3184 
+│                       ╰ [37] ╭ VulnerabilityID : CVE-2026-3184 
 │                              ├ PkgID           : util-linux@2.41-4ubuntu4.1 
 │                              ├ PkgName         : util-linux 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/util-linux@2.41-4ubuntu4.1?arch=amd64&
