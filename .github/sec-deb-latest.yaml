@@ -8872,6 +8872,53 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
     LastModifiedDate: '2026-04-07T13:20:55.2Z'
+  - VulnerabilityID: CVE-2026-4878
+    PkgID: libcap2@1:2.75-7ubuntu2
+    PkgName: libcap2
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcap2@2.75-7ubuntu2?arch=amd64&distro=ubuntu-25.10&epoch=1
+      UID: 94e043357645a645
+    InstalledVersion: 1:2.75-7ubuntu2
+    FixedVersion: 1:2.75-7ubuntu2.2
+    Status: fixed
+    Layer:
+      Digest: sha256:410595660e21918293af16c9adb6b981f7083ca9e8a901ca6fa10bd0571440e1
+      DiffID: sha256:5e2ff43df50ec95d790a6d5bc8e6b21b45ef97892c3138e2aa5c7a6c3b40d7a8
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-4878
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:1f683a6766bc7e264cbaae3be9a2504b9743532aa619b4e1d424939adb159e9e
+    Title: 'libcap: libcap: Privilege escalation via TOCTOU race condition in cap_set_file()'
+    Description: A flaw was found in libcap. A local unprivileged user can exploit a Time-of-check-to-time-of-use (TOCTOU) race condition in the `cap_set_file()` function. This allows an attacker with write access to a parent directory to redirect file capability updates to an attacker-controlled file. By doing so, capabilities can be injected into or stripped from unintended executables, leading to privilege escalation.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-367
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 6.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/04/07/14
+    - http://www.openwall.com/lists/oss-security/2026/04/07/4
+    - http://www.openwall.com/lists/oss-security/2026/04/08/9
+    - http://www.openwall.com/lists/oss-security/2026/04/09/5
+    - http://www.openwall.com/lists/oss-security/2026/04/09/6
+    - https://access.redhat.com/security/cve/CVE-2026-4878
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2447554
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2451615
+    - https://github.com/AndrewGMorgan/libcap_mirror/security/advisories/GHSA-f78v-p5hx-m7hh
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-4878
+    - https://sites.google.com/site/fullycapable/release-notes-for-libcap#h.x4zn8j3lss6r
+    - https://ubuntu.com/security/notices/USN-8193-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-4878
+    PublishedDate: '2026-04-09T16:16:31.987Z'
+    LastModifiedDate: '2026-04-13T15:02:47.353Z'
   - VulnerabilityID: CVE-2024-2236
     PkgID: libgcrypt20@1.11.0-7build1
     PkgName: libgcrypt20
@@ -9769,7 +9816,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
     - https://errata.almalinux.org/9/ALSA-2025-20559.html
-    - https://errata.rockylinux.org/RLSA-2025:20145
+    - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -10881,7 +10928,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
     - https://errata.almalinux.org/9/ALSA-2025-20559.html
-    - https://errata.rockylinux.org/RLSA-2025:20145
+    - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
     - https://github.com/shadow-maint/shadow/releases/tag/4.4
@@ -10917,6 +10964,7 @@
     - CWE-271
     VendorSeverity:
       amazon: 3
+      azure: 3
       photon: 3
       redhat: 3
       ubuntu: 3
@@ -10978,7 +11026,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2379592
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-45582
     - https://errata.almalinux.org/9/ALSA-2026-0067.html
-    - https://errata.rockylinux.org/RLSA-2026:0002
+    - https://errata.rockylinux.org/RLSA-2026:0067
     - https://github.com/i900008/vulndb/blob/main/Gnu_tar_vuln.md
     - https://linux.oracle.com/cve/CVE-2025-45582.html
     - https://linux.oracle.com/errata/ELSA-2026-0067.html
