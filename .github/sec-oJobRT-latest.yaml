@@ -2920,3 +2920,46 @@
       DiffID: sha256:c7e127c628ebf16cb5d765a28c888be2ebe3292c86090ac436e739bb1c7ea6d8
     FilePath: openaf/S3/snappy-java-1.1.10.8.jar
     AnalyzedBy: jar
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2026-0636
+    VendorIDs:
+    - GHSA-c3fc-8qff-9hwx
+    PkgName: org.bouncycastle:bcprov-jdk18on
+    PkgPath: openaf/S3/bcprov-jdk18on-1.82.jar
+    PkgIdentifier:
+      PURL: pkg:maven/org.bouncycastle/bcprov-jdk18on@1.82
+      UID: ba3bda42b1145eb2
+    InstalledVersion: '1.82'
+    FixedVersion: '1.84'
+    Status: fixed
+    Layer:
+      Digest: sha256:f52bf5b96f8757349ed0b105b64c5f3827f7a9c7672de3ea0c787e6528fca34a
+      DiffID: sha256:c7e127c628ebf16cb5d765a28c888be2ebe3292c86090ac436e739bb1c7ea6d8
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-0636
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:d73fb6cb979aa781182cce6f52adfdb5c27ffd1d1718618c8117f96e05bf9e39
+    Title: Improper neutralization of special elements used in an LDAP query ('LD ...
+    Description: |-
+      Improper neutralization of special elements used in an LDAP query ('LDAP injection') vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA bcprov on all (prov modules). This vulnerability is associated with program files LDAPStoreHelper.
+
+      This issue affects BC-JAVA: from 1.74 before 1.84.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-90
+    VendorSeverity:
+      ghsa: 2
+    CVSS:
+      ghsa:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N/E:P/RE:M/U:Amber
+        V40Score: 5.5
+    References:
+    - https://github.com/bcgit/bc-java
+    - https://github.com/bcgit/bc-java/commit/d20cdb8430e09224114fec0179a71859929fcbde
+    - https://github.com/bcgit/bc-java/wiki/CVE%E2%80%902026%E2%80%900636
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-0636
+    PublishedDate: '2026-04-15T10:16:38.413Z'
+    LastModifiedDate: '2026-04-17T15:38:09.243Z'
