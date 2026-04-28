@@ -38458,7 +38458,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-65018
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
     - https://errata.almalinux.org/9/ALSA-2026-0238.html
-    - https://errata.rockylinux.org/RLSA-2026:0238
+    - https://errata.rockylinux.org/RLSA-2026:0237
     - https://github.com/pnggroup/libpng/commit/788a624d7387a758ffd5c7ab010f1870dea753a1
     - https://github.com/pnggroup/libpng/commit/a05a48b756de63e3234ea6b3b938b8f5f862484a
     - https://github.com/pnggroup/libpng/issues/764
@@ -38594,7 +38594,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22801
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25646
     - https://errata.almalinux.org/9/ALSA-2026-3405.html
-    - https://errata.rockylinux.org/RLSA-2026:3405
+    - https://errata.rockylinux.org/RLSA-2026:3551
     - https://github.com/pnggroup/libpng/commit/01d03b8453eb30ade759cd45c707e5a1c7277d88
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-g8hp-mq4h-rqm3
     - https://linux.oracle.com/cve/CVE-2026-25646.html
@@ -38982,7 +38982,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22801
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25646
     - https://errata.almalinux.org/9/ALSA-2026-3405.html
-    - https://errata.rockylinux.org/RLSA-2026:3405
+    - https://errata.rockylinux.org/RLSA-2026:3551
     - https://github.com/pnggroup/libpng/commit/218612ddd6b17944e21eda56caf8b4bf7779d1ea
     - https://github.com/pnggroup/libpng/commit/e4f7ad4ea2
     - https://github.com/pnggroup/libpng/issues/778
@@ -39047,7 +39047,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22801
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25646
     - https://errata.almalinux.org/9/ALSA-2026-3405.html
-    - https://errata.rockylinux.org/RLSA-2026:3405
+    - https://errata.rockylinux.org/RLSA-2026:3551
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-vgjq-8cw5-ggw8
     - https://linux.oracle.com/cve/CVE-2026-22801.html
     - https://linux.oracle.com/errata/ELSA-2026-4728.html
@@ -39154,7 +39154,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5732
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5734
     - https://errata.almalinux.org/9/ALSA-2026-9693.html
-    - https://errata.rockylinux.org/RLSA-2026:8459
+    - https://errata.rockylinux.org/RLSA-2026:7672
     - https://github.com/pnggroup/libpng/commit/23019269764e35ed8458e517f1897bd3c54820eb
     - https://github.com/pnggroup/libpng/commit/7ea9eea884a2328cc7fdcb3c0c00246a50d90667
     - https://github.com/pnggroup/libpng/commit/a3a21443ed12bfa1ef46fa0d4fb2b74a0fa34a25
@@ -39214,7 +39214,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5732
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5734
     - https://errata.almalinux.org/9/ALSA-2026-9693.html
-    - https://errata.rockylinux.org/RLSA-2026:8459
+    - https://errata.rockylinux.org/RLSA-2026:7672
     - https://github.com/pnggroup/libpng/commit/7734cda20cf1236aef60f3bbd2267c97bbb40869
     - https://github.com/pnggroup/libpng/commit/aba9f18eba870d14fb52c5ba5d73451349e339c3
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-wjr5-c57x-95m2
@@ -39860,9 +39860,13 @@
     - CWE-269
     - CWE-367
     VendorSeverity:
+      julia: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
@@ -40925,6 +40929,40 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2024-11-21T06:56:31.04Z'
+  - VulnerabilityID: CVE-2026-41989
+    PkgID: libgcrypt@1.10.0-11.el9.x86_64
+    PkgName: libgcrypt
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libgcrypt@1.10.0-11.el9?arch=x86_64&distro=redhat-9.7
+      UID: bfd9364b83a9eff7
+    InstalledVersion: 1.10.0-11.el9
+    Status: affected
+    Layer:
+      Digest: sha256:59cbbc1b3d955cdf585f9c532d293c0659b06e86adab4817705c6ea445c5c64a
+      DiffID: sha256:d68b9a0fabe03f3792ddb8c974984635f791cf890d4b60c10d0b0320211459ec
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-41989
+    Fingerprint: sha256:6ebeb2c8dda74846ad60996cbaa73be14790b6351819ca30fe11e0473968b4e0
+    Title: 'Libgcrypt: Libgcrypt: Denial of Service and buffer overflow via crafted ECDH ciphertext'
+    Description: Libgcrypt before 1.12.2 sometimes allows a heap-based buffer overflow and denial of service via crafted ECDH ciphertext to gcry_pk_decrypt.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-41989
+    - https://dev.gnupg.org/T8211
+    - https://lists.gnupg.org/pipermail/gnupg-announce/2026q2/000503.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-41989
+    - https://www.cve.org/CVERecord?id=CVE-2026-41989
+    - https://www.openwall.com/lists/oss-security/2026/04/21/1
+    PublishedDate: '2026-04-23T05:16:05.75Z'
+    LastModifiedDate: '2026-04-24T14:50:56.203Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: libmount@2.37.4-21.el9_7.x86_64
     PkgName: libmount
@@ -40947,9 +40985,13 @@
     - CWE-269
     - CWE-367
     VendorSeverity:
+      julia: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
@@ -41024,9 +41066,13 @@
     - CWE-269
     - CWE-367
     VendorSeverity:
+      julia: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
@@ -41149,9 +41195,13 @@
     - CWE-269
     - CWE-367
     VendorSeverity:
+      julia: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 4.7
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
@@ -42186,11 +42236,15 @@
     VendorSeverity:
       amazon: 3
       azure: 2
+      julia: 3
       nvd: 3
       photon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -42259,15 +42313,20 @@
     VendorSeverity:
       amazon: 3
       azure: 2
+      julia: 3
       photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-31790
+    - https://github.com/advisories/GHSA-vgxx-5xj5-q97x
     - https://github.com/openssl/openssl/commit/001e01db3e996e13ffc72386fe79d03a6683b5ac
     - https://github.com/openssl/openssl/commit/abd8b2eec7e3f3fda60ecfb68498b246b52af482
     - https://github.com/openssl/openssl/commit/b922e24e5b23ffb9cb9e14cadff23d91e9f7e406
@@ -42321,11 +42380,15 @@
       amazon: 2
       azure: 2
       cbl-mariner: 2
+      julia: 2
       oracle-oval: 2
       redhat: 1
       rocky: 2
       ubuntu: 1
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 4.1
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
@@ -42493,6 +42556,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
     - https://errata.almalinux.org/9/ALSA-2025-16046.html
     - https://errata.rockylinux.org/RLSA-2025:15699
+    - https://github.com/advisories/GHSA-r9fv-h47r-823f
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
     - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
     - https://github.com/openssl/openssl/commit/392dcb336405a0c94486aa6655057f59fd3a0902
@@ -42505,8 +42569,11 @@
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00028.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-13176
     - https://openssl-library.org/news/secadv/20250120.txt
+    - https://security.netapp.com/advisory/ntap-20250124-0005
     - https://security.netapp.com/advisory/ntap-20250124-0005/
+    - https://security.netapp.com/advisory/ntap-20250418-0010
     - https://security.netapp.com/advisory/ntap-20250418-0010/
+    - https://security.netapp.com/advisory/ntap-20250502-0006
     - https://security.netapp.com/advisory/ntap-20250502-0006/
     - https://ubuntu.com/security/notices/USN-7264-1
     - https://ubuntu.com/security/notices/USN-7278-1
@@ -42597,16 +42664,21 @@
     - CWE-125
     VendorSeverity:
       azure: 2
+      julia: 2
       photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L
         V3Score: 3.1
     References:
     - http://www.openwall.com/lists/oss-security/2025/09/30/5
     - https://access.redhat.com/security/cve/CVE-2025-9232
+    - https://github.com/advisories/GHSA-76r2-c3cg-f5r9
     - https://github.com/openssl/openssl/commit/2b4ec20e47959170422922eaff25346d362dcb35
     - https://github.com/openssl/openssl/commit/654dc11d23468a74fc8ea4672b702dd3feb7be4b
     - https://github.com/openssl/openssl/commit/7cf21a30513c9e43c4bc3836c237cf086e194af3
@@ -42692,15 +42764,20 @@
     - CWE-757
     VendorSeverity:
       amazon: 1
+      julia: 3
       redhat: 1
       ubuntu: 1
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.1
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/13/3
     - https://access.redhat.com/security/cve/CVE-2026-2673
+    - https://github.com/advisories/GHSA-wj64-gh9j-xm82
     - https://github.com/openssl/openssl/commit/2157c9d81f7b0bd7dfa25b960e928ec28e8dd63f
     - https://github.com/openssl/openssl/commit/85977e013f32ceb96aa034c0e741adddc1a05e34
     - https://nvd.nist.gov/vuln/detail/CVE-2026-2673
@@ -42883,11 +42960,15 @@
     VendorSeverity:
       amazon: 3
       azure: 2
+      julia: 3
       nvd: 3
       photon: 3
       redhat: 1
       ubuntu: 1
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -42948,11 +43029,15 @@
     VendorSeverity:
       amazon: 3
       azure: 2
+      julia: 3
       nvd: 3
       photon: 3
       redhat: 1
       ubuntu: 1
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -42961,6 +43046,7 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-28389
+    - https://github.com/advisories/GHSA-7x88-9hgc-69gf
     - https://github.com/openssl/openssl/commit/16cea4188e0ea567deb4f93f85902247e67384f5
     - https://github.com/openssl/openssl/commit/785cbf7ea3b5a6f5adf0c1ccb92b79d89c35c616
     - https://github.com/openssl/openssl/commit/7b5274e812400cacb6f3be4c2df5340923fa807f
@@ -43029,6 +43115,7 @@
         V3Score: 5.8
     References:
     - https://access.redhat.com/security/cve/CVE-2026-31789
+    - https://github.com/advisories/GHSA-j79m-9jxq-788r
     - https://github.com/openssl/openssl/commit/364f095b80601db632b0def6a33316967f863bde
     - https://github.com/openssl/openssl/commit/7a9087efd769f362ad9c0e30c7baaa6bbfa65ecf
     - https://github.com/openssl/openssl/commit/945b935ac66cc7f1a41f1b849c7c25adb5351f49
@@ -43114,15 +43201,20 @@
     - CWE-757
     VendorSeverity:
       amazon: 1
+      julia: 3
       redhat: 1
       ubuntu: 1
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.1
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/13/3
     - https://access.redhat.com/security/cve/CVE-2026-2673
+    - https://github.com/advisories/GHSA-wj64-gh9j-xm82
     - https://github.com/openssl/openssl/commit/2157c9d81f7b0bd7dfa25b960e928ec28e8dd63f
     - https://github.com/openssl/openssl/commit/85977e013f32ceb96aa034c0e741adddc1a05e34
     - https://nvd.nist.gov/vuln/detail/CVE-2026-2673
@@ -43204,15 +43296,20 @@
     - CWE-757
     VendorSeverity:
       amazon: 1
+      julia: 3
       redhat: 1
       ubuntu: 1
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.1
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/13/3
     - https://access.redhat.com/security/cve/CVE-2026-2673
+    - https://github.com/advisories/GHSA-wj64-gh9j-xm82
     - https://github.com/openssl/openssl/commit/2157c9d81f7b0bd7dfa25b960e928ec28e8dd63f
     - https://github.com/openssl/openssl/commit/85977e013f32ceb96aa034c0e741adddc1a05e34
     - https://nvd.nist.gov/vuln/detail/CVE-2026-2673
@@ -43261,11 +43358,15 @@
     VendorSeverity:
       amazon: 3
       azure: 2
+      julia: 3
       nvd: 3
       photon: 3
       redhat: 2
       ubuntu: 1
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -43334,15 +43435,20 @@
     VendorSeverity:
       amazon: 3
       azure: 2
+      julia: 3
       photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-31790
+    - https://github.com/advisories/GHSA-vgxx-5xj5-q97x
     - https://github.com/openssl/openssl/commit/001e01db3e996e13ffc72386fe79d03a6683b5ac
     - https://github.com/openssl/openssl/commit/abd8b2eec7e3f3fda60ecfb68498b246b52af482
     - https://github.com/openssl/openssl/commit/b922e24e5b23ffb9cb9e14cadff23d91e9f7e406
@@ -43396,11 +43502,15 @@
       amazon: 2
       azure: 2
       cbl-mariner: 2
+      julia: 2
       oracle-oval: 2
       redhat: 1
       rocky: 2
       ubuntu: 1
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:P/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 4.1
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 4.7
@@ -43568,6 +43678,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
     - https://errata.almalinux.org/9/ALSA-2025-16046.html
     - https://errata.rockylinux.org/RLSA-2025:15699
+    - https://github.com/advisories/GHSA-r9fv-h47r-823f
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
     - https://github.com/openssl/openssl/commit/2af62e74fb59bc469506bc37eb2990ea408d9467
     - https://github.com/openssl/openssl/commit/392dcb336405a0c94486aa6655057f59fd3a0902
@@ -43580,8 +43691,11 @@
     - https://lists.debian.org/debian-lts-announce/2025/05/msg00028.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-13176
     - https://openssl-library.org/news/secadv/20250120.txt
+    - https://security.netapp.com/advisory/ntap-20250124-0005
     - https://security.netapp.com/advisory/ntap-20250124-0005/
+    - https://security.netapp.com/advisory/ntap-20250418-0010
     - https://security.netapp.com/advisory/ntap-20250418-0010/
+    - https://security.netapp.com/advisory/ntap-20250502-0006
     - https://security.netapp.com/advisory/ntap-20250502-0006/
     - https://ubuntu.com/security/notices/USN-7264-1
     - https://ubuntu.com/security/notices/USN-7278-1
@@ -43672,16 +43786,21 @@
     - CWE-125
     VendorSeverity:
       azure: 2
+      julia: 2
       photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L
         V3Score: 3.1
     References:
     - http://www.openwall.com/lists/oss-security/2025/09/30/5
     - https://access.redhat.com/security/cve/CVE-2025-9232
+    - https://github.com/advisories/GHSA-76r2-c3cg-f5r9
     - https://github.com/openssl/openssl/commit/2b4ec20e47959170422922eaff25346d362dcb35
     - https://github.com/openssl/openssl/commit/654dc11d23468a74fc8ea4672b702dd3feb7be4b
     - https://github.com/openssl/openssl/commit/7cf21a30513c9e43c4bc3836c237cf086e194af3
@@ -43767,15 +43886,20 @@
     - CWE-757
     VendorSeverity:
       amazon: 1
+      julia: 3
       redhat: 1
       ubuntu: 1
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.1
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/13/3
     - https://access.redhat.com/security/cve/CVE-2026-2673
+    - https://github.com/advisories/GHSA-wj64-gh9j-xm82
     - https://github.com/openssl/openssl/commit/2157c9d81f7b0bd7dfa25b960e928ec28e8dd63f
     - https://github.com/openssl/openssl/commit/85977e013f32ceb96aa034c0e741adddc1a05e34
     - https://nvd.nist.gov/vuln/detail/CVE-2026-2673
@@ -43958,11 +44082,15 @@
     VendorSeverity:
       amazon: 3
       azure: 2
+      julia: 3
       nvd: 3
       photon: 3
       redhat: 1
       ubuntu: 1
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -44023,11 +44151,15 @@
     VendorSeverity:
       amazon: 3
       azure: 2
+      julia: 3
       nvd: 3
       photon: 3
       redhat: 1
       ubuntu: 1
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -44036,6 +44168,7 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2026-28389
+    - https://github.com/advisories/GHSA-7x88-9hgc-69gf
     - https://github.com/openssl/openssl/commit/16cea4188e0ea567deb4f93f85902247e67384f5
     - https://github.com/openssl/openssl/commit/785cbf7ea3b5a6f5adf0c1ccb92b79d89c35c616
     - https://github.com/openssl/openssl/commit/7b5274e812400cacb6f3be4c2df5340923fa807f
@@ -44104,6 +44237,7 @@
         V3Score: 5.8
     References:
     - https://access.redhat.com/security/cve/CVE-2026-31789
+    - https://github.com/advisories/GHSA-j79m-9jxq-788r
     - https://github.com/openssl/openssl/commit/364f095b80601db632b0def6a33316967f863bde
     - https://github.com/openssl/openssl/commit/7a9087efd769f362ad9c0e30c7baaa6bbfa65ecf
     - https://github.com/openssl/openssl/commit/945b935ac66cc7f1a41f1b849c7c25adb5351f49
@@ -44987,6 +45121,45 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-5713
     PublishedDate: '2026-04-14T16:16:48.717Z'
     LastModifiedDate: '2026-04-17T15:11:35.84Z'
+  - VulnerabilityID: CVE-2026-6019
+    PkgID: python-unversioned-command@3.9.25-3.el9_7.2.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-3.el9_7.2?arch=noarch&distro=redhat-9.7
+      UID: 219af5d8dea5d8e5
+    InstalledVersion: 3.9.25-3.el9_7.2
+    Status: affected
+    Layer:
+      Digest: sha256:59cbbc1b3d955cdf585f9c532d293c0659b06e86adab4817705c6ea445c5c64a
+      DiffID: sha256:d68b9a0fabe03f3792ddb8c974984635f791cf890d4b60c10d0b0320211459ec
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6019
+    Fingerprint: sha256:e1f141c0ecb7d98dff7d0724104f46202428f197aef9206512cc579d08e20f64
+    Title: 'python: Python: Cross-Site Scripting (XSS) vulnerability in http.cookies module'
+    Description: http.cookies.Morsel.js_output() returns an inline <script> snippet and only escapes " for JavaScript string context. It does not neutralize the HTML parser-sensitive sequence </script> inside the generated script element. Mitigation base64-encodes the cookie value to disallow escaping using cookie value.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-150
+    VendorSeverity:
+      bitnami: 1
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N
+        V40Score: 2.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-6019
+    - https://github.com/python/cpython/commit/76b3923d688c0efc580658476c5f525ec8735104
+    - https://github.com/python/cpython/issues/90309
+    - https://github.com/python/cpython/pull/148848
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/IVNWGV2BBNC3RHQAFS22UP4DY56SAXX3/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-6019
+    - https://www.cve.org/CVERecord?id=CVE-2026-6019
+    PublishedDate: '2026-04-22T20:16:42.617Z'
+    LastModifiedDate: '2026-04-22T21:23:52.62Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python-unversioned-command@3.9.25-3.el9_7.2.noarch
     PkgName: python-unversioned-command
@@ -45708,6 +45881,45 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-5713
     PublishedDate: '2026-04-14T16:16:48.717Z'
     LastModifiedDate: '2026-04-17T15:11:35.84Z'
+  - VulnerabilityID: CVE-2026-6019
+    PkgID: python3@3.9.25-3.el9_7.2.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.25-3.el9_7.2?arch=x86_64&distro=redhat-9.7
+      UID: 66a8202140bf448a
+    InstalledVersion: 3.9.25-3.el9_7.2
+    Status: affected
+    Layer:
+      Digest: sha256:59cbbc1b3d955cdf585f9c532d293c0659b06e86adab4817705c6ea445c5c64a
+      DiffID: sha256:d68b9a0fabe03f3792ddb8c974984635f791cf890d4b60c10d0b0320211459ec
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6019
+    Fingerprint: sha256:93c251f255e9f1e1ef757c3d3a745fe81bae98a4efbc432917f46d6fa7eedadf
+    Title: 'python: Python: Cross-Site Scripting (XSS) vulnerability in http.cookies module'
+    Description: http.cookies.Morsel.js_output() returns an inline <script> snippet and only escapes " for JavaScript string context. It does not neutralize the HTML parser-sensitive sequence </script> inside the generated script element. Mitigation base64-encodes the cookie value to disallow escaping using cookie value.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-150
+    VendorSeverity:
+      bitnami: 1
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N
+        V40Score: 2.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-6019
+    - https://github.com/python/cpython/commit/76b3923d688c0efc580658476c5f525ec8735104
+    - https://github.com/python/cpython/issues/90309
+    - https://github.com/python/cpython/pull/148848
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/IVNWGV2BBNC3RHQAFS22UP4DY56SAXX3/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-6019
+    - https://www.cve.org/CVERecord?id=CVE-2026-6019
+    PublishedDate: '2026-04-22T20:16:42.617Z'
+    LastModifiedDate: '2026-04-22T21:23:52.62Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3@3.9.25-3.el9_7.2.x86_64
     PkgName: python3
@@ -46429,6 +46641,45 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-5713
     PublishedDate: '2026-04-14T16:16:48.717Z'
     LastModifiedDate: '2026-04-17T15:11:35.84Z'
+  - VulnerabilityID: CVE-2026-6019
+    PkgID: python3-libs@3.9.25-3.el9_7.2.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.25-3.el9_7.2?arch=x86_64&distro=redhat-9.7
+      UID: e5f902fe9a7d1b8a
+    InstalledVersion: 3.9.25-3.el9_7.2
+    Status: affected
+    Layer:
+      Digest: sha256:59cbbc1b3d955cdf585f9c532d293c0659b06e86adab4817705c6ea445c5c64a
+      DiffID: sha256:d68b9a0fabe03f3792ddb8c974984635f791cf890d4b60c10d0b0320211459ec
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6019
+    Fingerprint: sha256:b4dcc3e5db09ec1594ca9cfac69a2d9520dfb80dc3454e111cbe645632d8b800
+    Title: 'python: Python: Cross-Site Scripting (XSS) vulnerability in http.cookies module'
+    Description: http.cookies.Morsel.js_output() returns an inline <script> snippet and only escapes " for JavaScript string context. It does not neutralize the HTML parser-sensitive sequence </script> inside the generated script element. Mitigation base64-encodes the cookie value to disallow escaping using cookie value.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-150
+    VendorSeverity:
+      bitnami: 1
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N
+        V40Score: 2.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-6019
+    - https://github.com/python/cpython/commit/76b3923d688c0efc580658476c5f525ec8735104
+    - https://github.com/python/cpython/issues/90309
+    - https://github.com/python/cpython/pull/148848
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/IVNWGV2BBNC3RHQAFS22UP4DY56SAXX3/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-6019
+    - https://www.cve.org/CVERecord?id=CVE-2026-6019
+    PublishedDate: '2026-04-22T20:16:42.617Z'
+    LastModifiedDate: '2026-04-22T21:23:52.62Z'
   - VulnerabilityID: CVE-2025-1795
     PkgID: python3-libs@3.9.25-3.el9_7.2.x86_64
     PkgName: python3-libs
