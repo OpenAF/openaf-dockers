@@ -8866,9 +8866,13 @@
     CweIDs:
     - CWE-289
     VendorSeverity:
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
@@ -8879,7 +8883,243 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3184
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
-    LastModifiedDate: '2026-04-23T16:16:25.373Z'
+    LastModifiedDate: '2026-05-01T19:29:51.02Z'
+  - VulnerabilityID: CVE-2026-5545
+    PkgID: curl@8.14.1-2ubuntu1.2
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.2?arch=amd64&distro=ubuntu-25.10
+      UID: 528931dd8c8372ba
+    InstalledVersion: 8.14.1-2ubuntu1.2
+    FixedVersion: 8.14.1-2ubuntu1.3
+    Status: fixed
+    Layer:
+      Digest: sha256:c8110fc70790ae3a54f0af9c87a727cec814938efc112ec388229d22e8ac9a98
+      DiffID: sha256:d25184801990b1e08c3c14c33680a923e8193222064fd6f4501c5392df91067f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-5545
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:8bc8e83961db161e0375eaf64c58192b0d6af1a01a18bc6eb6e28fadc7e29f76
+    Title: 'curl: libcurl: Authentication bypass due to incorrect HTTP Negotiate connection reuse'
+    Description: A flaw was found in libcurl. An application using libcurl that performs an authenticated HTTP(S) request after a Negotiate-authenticated one to the same host may incorrectly reuse the previous connection. This authentication bypass vulnerability allows the second request to be sent over a connection authenticated with different credentials, potentially leading to unauthorized access or information disclosure.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-5545
+    - https://curl.se/docs/CVE-2026-5545.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-5545
+    - https://ubuntu.com/security/notices/USN-8227-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-5545
+  - VulnerabilityID: CVE-2026-6253
+    PkgID: curl@8.14.1-2ubuntu1.2
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.2?arch=amd64&distro=ubuntu-25.10
+      UID: 528931dd8c8372ba
+    InstalledVersion: 8.14.1-2ubuntu1.2
+    FixedVersion: 8.14.1-2ubuntu1.3
+    Status: fixed
+    Layer:
+      Digest: sha256:c8110fc70790ae3a54f0af9c87a727cec814938efc112ec388229d22e8ac9a98
+      DiffID: sha256:d25184801990b1e08c3c14c33680a923e8193222064fd6f4501c5392df91067f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6253
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:07b6aa889b14471a33297feeb6d9e6555a3519f3111ed33e86e2c6b1dcd8881e
+    Title: 'curl: curl: Proxy credential disclosure via redirects to unauthenticated proxies'
+    Description: A flaw was found in curl. When curl is configured to use distinct proxies for different URL schemes, a redirect from a URL using an authenticated proxy to one using an unauthenticated proxy can inadvertently expose the initial proxy's credentials. This improper credential management (CWE-522) may allow an attacker to gain unauthorized access or information by intercepting these disclosed credentials.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-6253
+    - https://curl.se/docs/CVE-2026-6253.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-6253
+    - https://ubuntu.com/security/notices/USN-8227-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-6253
+  - VulnerabilityID: CVE-2026-6429
+    PkgID: curl@8.14.1-2ubuntu1.2
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.2?arch=amd64&distro=ubuntu-25.10
+      UID: 528931dd8c8372ba
+    InstalledVersion: 8.14.1-2ubuntu1.2
+    FixedVersion: 8.14.1-2ubuntu1.3
+    Status: fixed
+    Layer:
+      Digest: sha256:c8110fc70790ae3a54f0af9c87a727cec814938efc112ec388229d22e8ac9a98
+      DiffID: sha256:d25184801990b1e08c3c14c33680a923e8193222064fd6f4501c5392df91067f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6429
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:c830f57952786648f2459ccfbd0e42d4c185a4fa51796acbcaba1087392d9c1f
+    Title: 'curl: libcurl: Credential leak via reused proxy connection during HTTP redirects'
+    Description: A flaw was found in libcurl. When configured to use a .netrc file for credentials and follow HTTP redirects, libcurl can inadvertently send the password from the initial connection to the redirected host. This sensitive information disclosure occurs when both the original and redirect URLs use clear text HTTP, are performed over the same HTTP proxy, and the same connection is reused. This vulnerability, categorized as an Exposure of Sensitive Information to an Unauthorized Actor (CWE-200), could allow an attacker to obtain user credentials.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-6429
+    - https://curl.se/docs/CVE-2026-6429.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-6429
+    - https://ubuntu.com/security/notices/USN-8227-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-6429
+  - VulnerabilityID: CVE-2026-7168
+    PkgID: curl@8.14.1-2ubuntu1.2
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.2?arch=amd64&distro=ubuntu-25.10
+      UID: 528931dd8c8372ba
+    InstalledVersion: 8.14.1-2ubuntu1.2
+    FixedVersion: 8.14.1-2ubuntu1.3
+    Status: fixed
+    Layer:
+      Digest: sha256:c8110fc70790ae3a54f0af9c87a727cec814938efc112ec388229d22e8ac9a98
+      DiffID: sha256:d25184801990b1e08c3c14c33680a923e8193222064fd6f4501c5392df91067f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-7168
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:691eaee2d990ab2a28c87944ecac0bdbe5613472f1f2d480a5df1305d394fe31
+    Description: cross-proxy Digest auth state leak
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://ubuntu.com/security/notices/USN-8227-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-7168
+  - VulnerabilityID: CVE-2026-4873
+    PkgID: curl@8.14.1-2ubuntu1.2
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.2?arch=amd64&distro=ubuntu-25.10
+      UID: 528931dd8c8372ba
+    InstalledVersion: 8.14.1-2ubuntu1.2
+    FixedVersion: 8.14.1-2ubuntu1.3
+    Status: fixed
+    Layer:
+      Digest: sha256:c8110fc70790ae3a54f0af9c87a727cec814938efc112ec388229d22e8ac9a98
+      DiffID: sha256:d25184801990b1e08c3c14c33680a923e8193222064fd6f4501c5392df91067f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-4873
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:2c3fee5694fbbc6866ce8b53ae0265c78e8a9295d4a50a1f0996235511d28e28
+    Title: 'curl: curl: Information disclosure due to incorrect TLS connection reuse'
+    Description: A flaw was found in curl. A remote attacker could exploit this by initiating an unencrypted connection (via IMAP, SMTP, or POP3) and then making a subsequent request to the same host that requires Transport Layer Security (TLS). Due to incorrect connection reuse, the subsequent request would bypass the TLS requirement, leading to the transmission of sensitive information in cleartext. This vulnerability, categorized as Cleartext Transmission of Sensitive Information (CWE-319), results in information disclosure.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-4873
+    - https://curl.se/docs/CVE-2026-4873.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-4873
+    - https://ubuntu.com/security/notices/USN-8227-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-4873
+  - VulnerabilityID: CVE-2026-5773
+    PkgID: curl@8.14.1-2ubuntu1.2
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.2?arch=amd64&distro=ubuntu-25.10
+      UID: 528931dd8c8372ba
+    InstalledVersion: 8.14.1-2ubuntu1.2
+    FixedVersion: 8.14.1-2ubuntu1.3
+    Status: fixed
+    Layer:
+      Digest: sha256:c8110fc70790ae3a54f0af9c87a727cec814938efc112ec388229d22e8ac9a98
+      DiffID: sha256:d25184801990b1e08c3c14c33680a923e8193222064fd6f4501c5392df91067f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-5773
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e66db9845c3ea0750a92bedbec12263354567781124db45d0ef683cd519a13d3
+    Title: 'curl: libcurl: Wrong file transfer due to incorrect SMB connection reuse'
+    Description: A flaw was found in libcurl. Due to a logical error in the connection reuse mechanism for SMB (Server Message Block) transfers, libcurl might reuse an existing SMB connection with a different share than intended. This vulnerability, categorized as CWE-488 (Exposure of Data Element to Wrong Session), could lead to the download of an incorrect file or the upload of a file to an unintended location when an application uses libcurl for SMB transfers.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-5773
+    - https://curl.se/docs/CVE-2026-5773.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-5773
+    - https://ubuntu.com/security/notices/USN-8227-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-5773
+  - VulnerabilityID: CVE-2026-6276
+    PkgID: curl@8.14.1-2ubuntu1.2
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@8.14.1-2ubuntu1.2?arch=amd64&distro=ubuntu-25.10
+      UID: 528931dd8c8372ba
+    InstalledVersion: 8.14.1-2ubuntu1.2
+    FixedVersion: 8.14.1-2ubuntu1.3
+    Status: fixed
+    Layer:
+      Digest: sha256:c8110fc70790ae3a54f0af9c87a727cec814938efc112ec388229d22e8ac9a98
+      DiffID: sha256:d25184801990b1e08c3c14c33680a923e8193222064fd6f4501c5392df91067f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6276
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:2e38f1d1eb77b79aecd5270074c9bb4a635f929e63871254af03a3c72d3d06ad
+    Title: 'curl: libcurl: Information disclosure due to cookie leak when reusing connections with custom Host headers'
+    Description: A flaw was found in libcurl. This vulnerability allows for information disclosure when a custom `Host:` header is used in an initial HTTP request, and a subsequent request reuses the same connection without specifying a new `Host:` header. This can lead to libcurl incorrectly sending cookies intended for the first host to the second host, resulting in a cookie leak. This issue is categorized as an Origin Validation Error (CWE-346). Exploitation typically requires specific debugging configurations.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-6276
+    - https://curl.se/docs/CVE-2026-6276.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-6276
+    - https://ubuntu.com/security/notices/USN-8227-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-6276
   - VulnerabilityID: CVE-2026-2219
     PkgID: dpkg@1.22.21ubuntu3.1
     PkgName: dpkg
@@ -8980,9 +9220,13 @@
     CweIDs:
     - CWE-289
     VendorSeverity:
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
@@ -8993,7 +9237,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3184
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
-    LastModifiedDate: '2026-04-23T16:16:25.373Z'
+    LastModifiedDate: '2026-05-01T19:29:51.02Z'
   - VulnerabilityID: CVE-2026-4046
     PkgID: libc-bin@2.42-0ubuntu3.1
     PkgName: libc-bin
@@ -9023,6 +9267,7 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      amazon: 3
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -9151,6 +9396,7 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      amazon: 3
       photon: 3
       redhat: 2
       ubuntu: 2
@@ -9250,6 +9496,242 @@
     - https://www.openwall.com/lists/oss-security/2026/03/23/2
     PublishedDate: '2026-03-20T20:16:49.623Z'
     LastModifiedDate: '2026-04-07T18:40:02.177Z'
+  - VulnerabilityID: CVE-2026-5545
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.2
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.2?arch=amd64&distro=ubuntu-25.10
+      UID: 7f081f5df30ce970
+    InstalledVersion: 8.14.1-2ubuntu1.2
+    FixedVersion: 8.14.1-2ubuntu1.3
+    Status: fixed
+    Layer:
+      Digest: sha256:c8110fc70790ae3a54f0af9c87a727cec814938efc112ec388229d22e8ac9a98
+      DiffID: sha256:d25184801990b1e08c3c14c33680a923e8193222064fd6f4501c5392df91067f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-5545
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:35e8b30a96591020109f0c5127aae62d1eec71da16df2f70be5a5bec60a169c7
+    Title: 'curl: libcurl: Authentication bypass due to incorrect HTTP Negotiate connection reuse'
+    Description: A flaw was found in libcurl. An application using libcurl that performs an authenticated HTTP(S) request after a Negotiate-authenticated one to the same host may incorrectly reuse the previous connection. This authentication bypass vulnerability allows the second request to be sent over a connection authenticated with different credentials, potentially leading to unauthorized access or information disclosure.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-5545
+    - https://curl.se/docs/CVE-2026-5545.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-5545
+    - https://ubuntu.com/security/notices/USN-8227-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-5545
+  - VulnerabilityID: CVE-2026-6253
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.2
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.2?arch=amd64&distro=ubuntu-25.10
+      UID: 7f081f5df30ce970
+    InstalledVersion: 8.14.1-2ubuntu1.2
+    FixedVersion: 8.14.1-2ubuntu1.3
+    Status: fixed
+    Layer:
+      Digest: sha256:c8110fc70790ae3a54f0af9c87a727cec814938efc112ec388229d22e8ac9a98
+      DiffID: sha256:d25184801990b1e08c3c14c33680a923e8193222064fd6f4501c5392df91067f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6253
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:bd1ba27ffc16d9212beb9df7940c94e8e9718ebf72de35583c1205d4cd040822
+    Title: 'curl: curl: Proxy credential disclosure via redirects to unauthenticated proxies'
+    Description: A flaw was found in curl. When curl is configured to use distinct proxies for different URL schemes, a redirect from a URL using an authenticated proxy to one using an unauthenticated proxy can inadvertently expose the initial proxy's credentials. This improper credential management (CWE-522) may allow an attacker to gain unauthorized access or information by intercepting these disclosed credentials.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-6253
+    - https://curl.se/docs/CVE-2026-6253.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-6253
+    - https://ubuntu.com/security/notices/USN-8227-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-6253
+  - VulnerabilityID: CVE-2026-6429
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.2
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.2?arch=amd64&distro=ubuntu-25.10
+      UID: 7f081f5df30ce970
+    InstalledVersion: 8.14.1-2ubuntu1.2
+    FixedVersion: 8.14.1-2ubuntu1.3
+    Status: fixed
+    Layer:
+      Digest: sha256:c8110fc70790ae3a54f0af9c87a727cec814938efc112ec388229d22e8ac9a98
+      DiffID: sha256:d25184801990b1e08c3c14c33680a923e8193222064fd6f4501c5392df91067f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6429
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:163a9fc857de97c8c9298538a414d5ec98a0396c3d72ec20ba39a25b1a297a56
+    Title: 'curl: libcurl: Credential leak via reused proxy connection during HTTP redirects'
+    Description: A flaw was found in libcurl. When configured to use a .netrc file for credentials and follow HTTP redirects, libcurl can inadvertently send the password from the initial connection to the redirected host. This sensitive information disclosure occurs when both the original and redirect URLs use clear text HTTP, are performed over the same HTTP proxy, and the same connection is reused. This vulnerability, categorized as an Exposure of Sensitive Information to an Unauthorized Actor (CWE-200), could allow an attacker to obtain user credentials.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-6429
+    - https://curl.se/docs/CVE-2026-6429.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-6429
+    - https://ubuntu.com/security/notices/USN-8227-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-6429
+  - VulnerabilityID: CVE-2026-7168
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.2
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.2?arch=amd64&distro=ubuntu-25.10
+      UID: 7f081f5df30ce970
+    InstalledVersion: 8.14.1-2ubuntu1.2
+    FixedVersion: 8.14.1-2ubuntu1.3
+    Status: fixed
+    Layer:
+      Digest: sha256:c8110fc70790ae3a54f0af9c87a727cec814938efc112ec388229d22e8ac9a98
+      DiffID: sha256:d25184801990b1e08c3c14c33680a923e8193222064fd6f4501c5392df91067f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-7168
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:d9e0c481024fb677d8bf235997439d3a4fc68f7bc5c5fd63d4e62070aa7c53a4
+    Description: cross-proxy Digest auth state leak
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://ubuntu.com/security/notices/USN-8227-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-7168
+  - VulnerabilityID: CVE-2026-4873
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.2
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.2?arch=amd64&distro=ubuntu-25.10
+      UID: 7f081f5df30ce970
+    InstalledVersion: 8.14.1-2ubuntu1.2
+    FixedVersion: 8.14.1-2ubuntu1.3
+    Status: fixed
+    Layer:
+      Digest: sha256:c8110fc70790ae3a54f0af9c87a727cec814938efc112ec388229d22e8ac9a98
+      DiffID: sha256:d25184801990b1e08c3c14c33680a923e8193222064fd6f4501c5392df91067f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-4873
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:2154ed7a490e890b8e1713430400888d6d52087cb46915ec3ad91da6b564ec1e
+    Title: 'curl: curl: Information disclosure due to incorrect TLS connection reuse'
+    Description: A flaw was found in curl. A remote attacker could exploit this by initiating an unencrypted connection (via IMAP, SMTP, or POP3) and then making a subsequent request to the same host that requires Transport Layer Security (TLS). Due to incorrect connection reuse, the subsequent request would bypass the TLS requirement, leading to the transmission of sensitive information in cleartext. This vulnerability, categorized as Cleartext Transmission of Sensitive Information (CWE-319), results in information disclosure.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-4873
+    - https://curl.se/docs/CVE-2026-4873.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-4873
+    - https://ubuntu.com/security/notices/USN-8227-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-4873
+  - VulnerabilityID: CVE-2026-5773
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.2
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.2?arch=amd64&distro=ubuntu-25.10
+      UID: 7f081f5df30ce970
+    InstalledVersion: 8.14.1-2ubuntu1.2
+    FixedVersion: 8.14.1-2ubuntu1.3
+    Status: fixed
+    Layer:
+      Digest: sha256:c8110fc70790ae3a54f0af9c87a727cec814938efc112ec388229d22e8ac9a98
+      DiffID: sha256:d25184801990b1e08c3c14c33680a923e8193222064fd6f4501c5392df91067f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-5773
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:80fe2a8ed04610081a84a6c39d63f0c1638ec5fe397f12cb45211433373c3bc7
+    Title: 'curl: libcurl: Wrong file transfer due to incorrect SMB connection reuse'
+    Description: A flaw was found in libcurl. Due to a logical error in the connection reuse mechanism for SMB (Server Message Block) transfers, libcurl might reuse an existing SMB connection with a different share than intended. This vulnerability, categorized as CWE-488 (Exposure of Data Element to Wrong Session), could lead to the download of an incorrect file or the upload of a file to an unintended location when an application uses libcurl for SMB transfers.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-5773
+    - https://curl.se/docs/CVE-2026-5773.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-5773
+    - https://ubuntu.com/security/notices/USN-8227-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-5773
+  - VulnerabilityID: CVE-2026-6276
+    PkgID: libcurl4t64@8.14.1-2ubuntu1.2
+    PkgName: libcurl4t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4t64@8.14.1-2ubuntu1.2?arch=amd64&distro=ubuntu-25.10
+      UID: 7f081f5df30ce970
+    InstalledVersion: 8.14.1-2ubuntu1.2
+    FixedVersion: 8.14.1-2ubuntu1.3
+    Status: fixed
+    Layer:
+      Digest: sha256:c8110fc70790ae3a54f0af9c87a727cec814938efc112ec388229d22e8ac9a98
+      DiffID: sha256:d25184801990b1e08c3c14c33680a923e8193222064fd6f4501c5392df91067f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-6276
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:45265707283ac424373f34bd79f19c5b31f6b9b492ea7ff532873bfb433ef4e4
+    Title: 'curl: libcurl: Information disclosure due to cookie leak when reusing connections with custom Host headers'
+    Description: A flaw was found in libcurl. This vulnerability allows for information disclosure when a custom `Host:` header is used in an initial HTTP request, and a subsequent request reuses the same connection without specifying a new `Host:` header. This can lead to libcurl incorrectly sending cookies intended for the first host to the second host, resulting in a cookie leak. This issue is categorized as an Origin Validation Error (CWE-346). Exploitation typically requires specific debugging configurations.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-6276
+    - https://curl.se/docs/CVE-2026-6276.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-6276
+    - https://ubuntu.com/security/notices/USN-8227-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-6276
   - VulnerabilityID: CVE-2024-2236
     PkgID: libgcrypt20@1.11.0-7build1
     PkgName: libgcrypt20
@@ -9374,9 +9856,13 @@
     CweIDs:
     - CWE-289
     VendorSeverity:
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
@@ -9387,7 +9873,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3184
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
-    LastModifiedDate: '2026-04-23T16:16:25.373Z'
+    LastModifiedDate: '2026-05-01T19:29:51.02Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: libmount1@2.41-4ubuntu4.2
     PkgName: libmount1
@@ -9457,9 +9943,13 @@
     CweIDs:
     - CWE-289
     VendorSeverity:
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
@@ -9470,7 +9960,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3184
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
-    LastModifiedDate: '2026-04-23T16:16:25.373Z'
+    LastModifiedDate: '2026-05-01T19:29:51.02Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: libsmartcols1@2.41-4ubuntu4.2
     PkgName: libsmartcols1
@@ -9540,9 +10030,13 @@
     CweIDs:
     - CWE-289
     VendorSeverity:
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
@@ -9553,7 +10047,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3184
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
-    LastModifiedDate: '2026-04-23T16:16:25.373Z'
+    LastModifiedDate: '2026-05-01T19:29:51.02Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: libuuid1@2.41-4ubuntu4.2
     PkgName: libuuid1
@@ -9623,9 +10117,13 @@
     CweIDs:
     - CWE-289
     VendorSeverity:
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
@@ -9636,7 +10134,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3184
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
-    LastModifiedDate: '2026-04-23T16:16:25.373Z'
+    LastModifiedDate: '2026-05-01T19:29:51.02Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: login@1:4.16.0-2+really2.41-4ubuntu4.2
     PkgName: login
@@ -9706,9 +10204,13 @@
     CweIDs:
     - CWE-289
     VendorSeverity:
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
@@ -9719,7 +10221,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3184
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
-    LastModifiedDate: '2026-04-23T16:16:25.373Z'
+    LastModifiedDate: '2026-05-01T19:29:51.02Z'
   - VulnerabilityID: CVE-2024-56433
     PkgID: login.defs@1:4.17.4-2ubuntu2
     PkgName: login.defs
@@ -9840,9 +10342,13 @@
     CweIDs:
     - CWE-289
     VendorSeverity:
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
@@ -9853,7 +10359,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3184
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
-    LastModifiedDate: '2026-04-23T16:16:25.373Z'
+    LastModifiedDate: '2026-05-01T19:29:51.02Z'
   - VulnerabilityID: CVE-2024-56433
     PkgID: passwd@1:4.17.4-2ubuntu2
     PkgName: passwd
@@ -9935,7 +10441,7 @@
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35338
     PublishedDate: '2026-04-22T17:16:35.583Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-04-27T12:28:50.307Z'
   - VulnerabilityID: CVE-2026-35339
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -9966,7 +10472,7 @@
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35339
     PublishedDate: '2026-04-22T17:16:35.767Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-05-04T20:14:43.883Z'
   - VulnerabilityID: CVE-2026-35340
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -9997,7 +10503,7 @@
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35340
     PublishedDate: '2026-04-22T17:16:35.923Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-05-04T20:12:01.5Z'
   - VulnerabilityID: CVE-2026-35341
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -10058,7 +10564,7 @@
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35342
     PublishedDate: '2026-04-22T17:16:36.217Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-05-04T20:11:32.34Z'
   - VulnerabilityID: CVE-2026-35343
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -10089,7 +10595,7 @@
     - https://github.com/uutils/coreutils/releases/tag/0.7.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35343
     PublishedDate: '2026-04-22T17:16:36.357Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-05-04T20:10:47.587Z'
   - VulnerabilityID: CVE-2026-35344
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -10119,7 +10625,7 @@
     - https://github.com/uutils/coreutils/issues/9745
     - https://www.cve.org/CVERecord?id=CVE-2026-35344
     PublishedDate: '2026-04-22T17:16:36.49Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-05-04T20:09:48.593Z'
   - VulnerabilityID: CVE-2026-35345
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -10150,7 +10656,7 @@
     - https://github.com/uutils/coreutils/issues/10328
     - https://www.cve.org/CVERecord?id=CVE-2026-35345
     PublishedDate: '2026-04-22T17:16:36.627Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-05-04T20:04:25.093Z'
   - VulnerabilityID: CVE-2026-35346
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -10182,7 +10688,7 @@
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35346
     PublishedDate: '2026-04-22T17:16:36.76Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-04-27T12:28:38.493Z'
   - VulnerabilityID: CVE-2026-35347
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -10213,7 +10719,7 @@
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35347
     PublishedDate: '2026-04-22T17:16:36.903Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-04-27T12:28:23.273Z'
   - VulnerabilityID: CVE-2026-35348
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -10268,13 +10774,18 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      nvd: 3
       ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 7.7
     References:
     - https://github.com/uutils/coreutils/pull/9706
     - https://github.com/uutils/coreutils/releases/tag/0.7.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35349
     PublishedDate: '2026-04-22T17:16:37.19Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-04-27T12:28:17.903Z'
   - VulnerabilityID: CVE-2026-35350
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -10335,7 +10846,7 @@
     - https://github.com/uutils/coreutils/pull/11706
     - https://www.cve.org/CVERecord?id=CVE-2026-35351
     PublishedDate: '2026-04-22T17:16:37.457Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-04-27T12:28:10.22Z'
   - VulnerabilityID: CVE-2026-35352
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -10362,10 +10873,13 @@
     VendorSeverity:
       ubuntu: 2
     References:
+    - http://www.openwall.com/lists/oss-security/2026/05/04/4
+    - http://www.openwall.com/lists/oss-security/2026/05/04/5
+    - http://www.openwall.com/lists/oss-security/2026/05/04/6
     - https://github.com/uutils/coreutils/issues/10020
     - https://www.cve.org/CVERecord?id=CVE-2026-35352
     PublishedDate: '2026-04-22T17:16:37.597Z'
-    LastModifiedDate: '2026-04-24T19:03:53.083Z'
+    LastModifiedDate: '2026-05-04T18:16:28.37Z'
   - VulnerabilityID: CVE-2026-35353
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -10396,7 +10910,7 @@
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35353
     PublishedDate: '2026-04-22T17:16:37.723Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-04-27T12:27:39.04Z'
   - VulnerabilityID: CVE-2026-35354
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -10457,7 +10971,7 @@
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35355
     PublishedDate: '2026-04-22T17:16:37.993Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-04-27T12:27:34.007Z'
   - VulnerabilityID: CVE-2026-35356
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -10488,7 +11002,7 @@
     - https://github.com/uutils/coreutils/releases/tag/0.7.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35356
     PublishedDate: '2026-04-22T17:16:38.13Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-04-27T12:27:28.787Z'
   - VulnerabilityID: CVE-2026-35357
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -10543,14 +11057,19 @@
     CweIDs:
     - CWE-706
     VendorSeverity:
+      nvd: 2
       ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
     - https://github.com/uutils/coreutils/issues/9746
     - https://github.com/uutils/coreutils/pull/11163
     - https://github.com/uutils/coreutils/releases/tag/0.7.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35358
     PublishedDate: '2026-04-22T17:16:38.393Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-05-04T19:03:00.59Z'
   - VulnerabilityID: CVE-2026-35359
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -10637,13 +11156,18 @@
     - CWE-281
     - CWE-459
     VendorSeverity:
+      nvd: 2
       ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.4
     References:
     - https://github.com/uutils/coreutils/pull/10582
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35361
     PublishedDate: '2026-04-22T17:16:38.827Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-04-27T12:27:20.527Z'
   - VulnerabilityID: CVE-2026-35362
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -10674,7 +11198,7 @@
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35362
     PublishedDate: '2026-04-22T17:16:38.96Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-04-27T12:26:40.533Z'
   - VulnerabilityID: CVE-2026-35363
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -10765,7 +11289,7 @@
     - https://github.com/uutils/coreutils/releases/tag/0.7.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35365
     PublishedDate: '2026-04-22T17:16:39.9Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-05-04T18:53:45.707Z'
   - VulnerabilityID: CVE-2026-35366
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -10797,7 +11321,7 @@
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35366
     PublishedDate: '2026-04-22T17:16:40.167Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-05-04T18:52:42.39Z'
   - VulnerabilityID: CVE-2026-35367
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -10888,7 +11412,7 @@
     - https://github.com/uutils/coreutils/releases/tag/0.6.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35369
     PublishedDate: '2026-04-22T17:16:40.687Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-05-04T18:50:23.537Z'
   - VulnerabilityID: CVE-2026-35370
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -10918,7 +11442,7 @@
     - https://github.com/uutils/coreutils/issues/10006
     - https://www.cve.org/CVERecord?id=CVE-2026-35370
     PublishedDate: '2026-04-22T17:16:40.833Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-05-04T20:02:44.33Z'
   - VulnerabilityID: CVE-2026-35371
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -10948,7 +11472,7 @@
     - https://github.com/uutils/coreutils/issues/10006
     - https://www.cve.org/CVERecord?id=CVE-2026-35371
     PublishedDate: '2026-04-22T17:16:40.987Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-05-04T20:02:06.183Z'
   - VulnerabilityID: CVE-2026-35372
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -10979,7 +11503,7 @@
     - https://github.com/uutils/coreutils/releases/tag/0.8.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35372
     PublishedDate: '2026-04-22T17:16:41.85Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-05-04T18:49:46.51Z'
   - VulnerabilityID: CVE-2026-35373
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -11004,12 +11528,17 @@
     CweIDs:
     - CWE-176
     VendorSeverity:
+      nvd: 2
       ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
     - https://github.com/uutils/coreutils/pull/11403
     - https://www.cve.org/CVERecord?id=CVE-2026-35373
     PublishedDate: '2026-04-22T17:16:41.997Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-05-04T20:01:25.93Z'
   - VulnerabilityID: CVE-2026-35374
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -11039,7 +11568,7 @@
     - https://github.com/uutils/coreutils/pull/11401
     - https://www.cve.org/CVERecord?id=CVE-2026-35374
     PublishedDate: '2026-04-22T17:16:42.127Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-05-04T19:22:14.457Z'
   - VulnerabilityID: CVE-2026-35375
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -11070,7 +11599,7 @@
     - https://github.com/uutils/coreutils/releases/tag/0.8.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35375
     PublishedDate: '2026-04-22T17:16:42.293Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-05-04T19:13:37.293Z'
   - VulnerabilityID: CVE-2026-35376
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -11095,13 +11624,18 @@
     CweIDs:
     - CWE-367
     VendorSeverity:
+      nvd: 2
       ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:H/A:L
+        V3Score: 5.8
     References:
     - https://github.com/uutils/coreutils/pull/11402
     - https://github.com/uutils/coreutils/releases/tag/0.8.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35376
     PublishedDate: '2026-04-22T17:16:42.43Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-05-04T19:06:31.93Z'
   - VulnerabilityID: CVE-2026-35377
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -11162,7 +11696,7 @@
     - https://github.com/uutils/coreutils/releases/tag/0.8.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35378
     PublishedDate: '2026-04-22T17:16:42.73Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-05-04T18:48:36.02Z'
   - VulnerabilityID: CVE-2026-35379
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -11193,7 +11727,7 @@
     - https://github.com/uutils/coreutils/releases/tag/0.8.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35379
     PublishedDate: '2026-04-22T17:16:42.887Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-04-29T15:59:08.45Z'
   - VulnerabilityID: CVE-2026-35380
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -11224,7 +11758,7 @@
     - https://github.com/uutils/coreutils/releases/tag/0.8.0
     - https://www.cve.org/CVERecord?id=CVE-2026-35380
     PublishedDate: '2026-04-22T17:16:43.047Z'
-    LastModifiedDate: '2026-04-22T21:23:52.62Z'
+    LastModifiedDate: '2026-04-29T15:57:19.427Z'
   - VulnerabilityID: CVE-2026-35381
     PkgID: rust-coreutils@0.2.2-0ubuntu2.1
     PkgName: rust-coreutils
@@ -11256,6 +11790,47 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-35381
     PublishedDate: '2026-04-22T17:16:43.2Z'
     LastModifiedDate: '2026-04-24T19:19:34.493Z'
+  - VulnerabilityID: CVE-2026-5958
+    PkgID: sed@4.9-2build2
+    PkgName: sed
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/sed@4.9-2build2?arch=amd64&distro=ubuntu-25.10
+      UID: 5c933b8e9aa12e84
+    InstalledVersion: 4.9-2build2
+    FixedVersion: 4.9-2ubuntu0.25.10.1
+    Status: fixed
+    Layer:
+      Digest: sha256:c8110fc70790ae3a54f0af9c87a727cec814938efc112ec388229d22e8ac9a98
+      DiffID: sha256:d25184801990b1e08c3c14c33680a923e8193222064fd6f4501c5392df91067f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-5958
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:55efe5398b4ee97ecd5d68e34f9ecdccbb258fb50fb113005308a8a17b9744c4
+    Title: When sed is invoked with both -i (in-place edit) and --follow-symlinks ...
+    Description: "When sed is invoked with both -i (in-place edit) and --follow-symlinks, the function open_next_file() performs two separate, non-atomic filesystem operations on the same path: \n1. resolves symlink to its target and stores\_the resolved path for determining when output is written,\n2. opens the original symlink path\_(not the resolved one) to read the file. \nBetween these two calls there is a race window. If an attacker atomically replaces the symlink with a different target during that window, sed will: read content from the new (attacker-chosen) symlink target and write the processed result to the path recorded in step 1.\_This can lead to arbitrary file overwrite with attacker-controlled content in the context of the sed process.\n\n\nThis issue was fixed in version 4.10."
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-367
+    VendorSeverity:
+      julia: 1
+      ubuntu: 2
+    CVSS:
+      julia:
+        V40Vector: CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N
+        V40Score: 2.1
+    References:
+    - https://cert.pl/en/posts/2026/04/CVE-2026-5958
+    - https://github.com/advisories/GHSA-9r7w-j29g-xqx8
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-5958
+    - https://ubuntu.com/security/notices/USN-8229-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-5958
+    - https://www.gnu.org/software/sed
+    - https://www.gnu.org/software/sed/
+    PublishedDate: '2026-04-20T12:16:08.433Z'
+    LastModifiedDate: '2026-04-20T19:05:30.75Z'
   - VulnerabilityID: CVE-2025-45582
     PkgID: tar@1.35+dfsg-3.1build1
     PkgName: tar
@@ -11423,9 +11998,13 @@
     CweIDs:
     - CWE-289
     VendorSeverity:
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
         V3Score: 3.7
@@ -11436,7 +12015,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3184
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
-    LastModifiedDate: '2026-04-23T16:16:25.373Z'
+    LastModifiedDate: '2026-05-01T19:29:51.02Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
