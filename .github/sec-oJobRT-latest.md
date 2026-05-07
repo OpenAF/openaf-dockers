@@ -34,7 +34,38 @@
 │     │                 │      │                ├ [11]: var/spool/mail 
 │     │                 │      │                ╰ [12]: var/spool/cron/crontabs 
 │     │                 │      ╰ AnalyzedBy    : apk 
-
+│     │                 ├ [1]  ╭ ID            : alpine-baselayout-data@3.7.2-r0 
+│     │                 │      ├ Name          : alpine-baselayout-data 
+│     │                 │      ├ Identifier     ╭ PURL: pkg:apk/alpine/alpine-baselayout-data@3.7.2-r0?arch=x86
+│     │                 │      │                │       _64&distro=3.23.4 
+│     │                 │      │                ╰ UID : 78c0ed61d7df9a7e 
+│     │                 │      ├ Version       : 3.7.2-r0 
+│     │                 │      ├ Arch          : x86_64 
+│     │                 │      ├ SrcName       : alpine-baselayout 
+│     │                 │      ├ SrcVersion    : 3.7.2-r0 
+│     │                 │      ├ Licenses       ─ [0]: GPL-2.0-only 
+│     │                 │      ├ Maintainer    : Natanael Copa <ncopa@alpinelinux.org> 
+│     │                 │      ├ Layer          ╭ Digest: sha256:8638e40c547d34de5518259e895082ab99adca577c6523
+│     │                 │      │                │         a3d1ffdb5ff8d0791b 
+│     │                 │      │                ╰ DiffID: sha256:c1c6920541d3259ba2d76941c332ba5d6b5819ac31f9ed
+│     │                 │      │                          d22bd374b86102706b 
+│     │                 │      ├ Digest        : sha1:85816632dbce07ba7e9e7a629fa59eddbd1687fb 
+│     │                 │      ├ InstalledFiles ╭ [0] : etc/fstab 
+│     │                 │      │                ├ [1] : etc/group 
+│     │                 │      │                ├ [2] : etc/hostname 
+│     │                 │      │                ├ [3] : etc/hosts 
+│     │                 │      │                ├ [4] : etc/inittab 
+│     │                 │      │                ├ [5] : etc/modules 
+│     │                 │      │                ├ [6] : etc/mtab 
+│     │                 │      │                ├ [7] : etc/nsswitch.conf 
+│     │                 │      │                ├ [8] : etc/passwd 
+│     │                 │      │                ├ [9] : etc/profile 
+│     │                 │      │                ├ [10]: etc/protocols 
+│     │                 │      │                ├ [11]: etc/services 
+│     │                 │      │                ├ [12]: etc/shadow 
+│     │                 │      │                ├ [13]: etc/shells 
+│     │                 │      │                ╰ [14]: etc/sysctl.conf 
+│     │                 │      ╰ AnalyzedBy    : apk 
 │     │                 ├ [2]  ╭ ID            : alpine-keys@2.6-r0 
 │     │                 │      ├ Name          : alpine-keys 
 │     │                 │      ├ Identifier     ╭ PURL: pkg:apk/alpine/alpine-keys@2.6-r0?arch=x86_64&distro=3.
@@ -2435,7 +2466,8 @@
 │                             │                  ├ oracle-oval: 3 
 │                             │                  ├ photon     : 3 
 │                             │                  ├ redhat     : 3 
-│                             │                  ╰ rocky      : 3 
+│                             │                  ├ rocky      : 3 
+│                             │                  ╰ ubuntu     : 2 
 │                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
 │                             │                           │           A:H 
 │                             │                           ╰ V3Score : 7.5 
@@ -2458,7 +2490,9 @@
 │                             │                  ├ [13]: https://linux.oracle.com/cve/CVE-2026-27135.html 
 │                             │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2026-8339.html 
 │                             │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2026-27135 
-│                             │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2026-27135 
+│                             │                  ├ [16]: https://ubuntu.com/security/notices/USN-8233-1 
+│                             │                  ├ [17]: https://ubuntu.com/security/notices/USN-8233-2 
+│                             │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2026-27135 
 │                             ├ PublishedDate   : 2026-03-18T18:16:26.723Z 
 │                             ╰ LastModifiedDate: 2026-03-23T17:51:17.017Z 
 ╰ [1] ╭ Target         : Java 
@@ -3236,7 +3270,62 @@
       │                        │                      e739bb1c7ea6d8 
       │                        ├ FilePath  : openaf/S3/snappy-java-1.1.10.8.jar 
       │                        ╰ AnalyzedBy: jar 
-      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2026-0636 
+      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2026-5598 
+                        │     ├ VendorIDs        ─ [0]: GHSA-p93r-85wp-75v3 
+                        │     ├ PkgName         : org.bouncycastle:bcprov-jdk18on 
+                        │     ├ PkgPath         : openaf/S3/bcprov-jdk18on-1.82.jar 
+                        │     ├ PkgIdentifier    ╭ PURL: pkg:maven/org.bouncycastle/bcprov-jdk18on@1.82 
+                        │     │                  ╰ UID : ba3bda42b1145eb2 
+                        │     ├ InstalledVersion: 1.82 
+                        │     ├ FixedVersion    : 1.84 
+                        │     ├ Status          : fixed 
+                        │     ├ Layer            ╭ Digest: sha256:f52bf5b96f8757349ed0b105b64c5f3827f7a9c7672de
+                        │     │                  │         3ea0c787e6528fca34a 
+                        │     │                  ╰ DiffID: sha256:c7e127c628ebf16cb5d765a28c888be2ebe3292c86090
+                        │     │                            ac436e739bb1c7ea6d8 
+                        │     ├ SeveritySource  : ghsa 
+                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-5598 
+                        │     ├ DataSource       ╭ ID  : ghsa 
+                        │     │                  ├ Name: GitHub Security Advisory Maven 
+                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+                        │     │                          osystem%3Amaven 
+                        │     ├ Fingerprint     : sha256:56301bb8aeb72fec1a2cf8f0b3cf4545f4bbb65603ab9a2156af62
+                        │     │                   704febb675 
+                        │     ├ Title           : bouncycastle: BC-JAVA: private key leakage via non-constant
+                        │     │                   time comparisons 
+                        │     ├ Description     : Covert timing channel vulnerability in Legion of the Bouncy
+                        │     │                   Castle Inc. BC-JAVA core on all (core modules). This
+                        │     │                   vulnerability is associated with program files
+                        │     │                   FrodoEngine.Java.
+                        │     │                   
+                        │     │                   This issue affects BC-JAVA: from 1.71 before 1.84. 
+                        │     ├ Severity        : HIGH 
+                        │     ├ CweIDs           ─ [0]: CWE-385 
+                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+                        │     │                  ╰ redhat: 3 
+                        │     ├ CVSS             ╭ ghsa   ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/V
+                        │     │                  │        │            I:H/VA:N/SC:H/SI:H/SA:N/E:U/S:P/AU:Y/U:R
+                        │     │                  │        │            ed 
+                        │     │                  │        ╰ V40Score : 8.9 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/
+                        │     │                           │           A:N 
+                        │     │                           ╰ V3Score : 7.5 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-5598 
+                        │     │                  ├ [1]: https://github.com/bcgit/bc-java 
+                        │     │                  ├ [2]: https://github.com/bcgit/bc-java/commit/8692e6b2b191fc4
+                        │     │                  │      aafa32545c7a78bdb9bf110c5 
+                        │     │                  ├ [3]: https://github.com/bcgit/bc-java/commit/94abbd56413dfda
+                        │     │                  │      c651fd878bc60253871ef5e87 
+                        │     │                  ├ [4]: https://github.com/bcgit/bc-java/wiki/CVE%E2%80%902026%
+                        │     │                  │      E2%80%905598 
+                        │     │                  ├ [5]: https://github.com/bcgit/bc-java/wiki/CVE%E2%80%902026%
+                        │     │                  │      E2%80%905998 
+                        │     │                  ├ [6]: https://github.com/bcgit/bc-java/wiki/CVE-2026-5598 
+                        │     │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-5598 
+                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-5598 
+                        │     ├ PublishedDate   : 2026-04-15T10:16:49.757Z 
+                        │     ╰ LastModifiedDate: 2026-04-21T16:16:20.717Z 
+                        ╰ [1] ╭ VulnerabilityID : CVE-2026-0636 
                               ├ VendorIDs        ─ [0]: GHSA-c3fc-8qff-9hwx 
                               ├ PkgName         : org.bouncycastle:bcprov-jdk18on 
                               ├ PkgPath         : openaf/S3/bcprov-jdk18on-1.82.jar 
