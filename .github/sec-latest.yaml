@@ -2237,6 +2237,7 @@
       photon: 3
       redhat: 3
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -2258,6 +2259,8 @@
     - https://linux.oracle.com/cve/CVE-2026-27135.html
     - https://linux.oracle.com/errata/ELSA-2026-8339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-27135
+    - https://ubuntu.com/security/notices/USN-8233-1
+    - https://ubuntu.com/security/notices/USN-8233-2
     - https://www.cve.org/CVERecord?id=CVE-2026-27135
     PublishedDate: '2026-03-18T18:16:26.723Z'
     LastModifiedDate: '2026-03-23T17:51:17.017Z'
