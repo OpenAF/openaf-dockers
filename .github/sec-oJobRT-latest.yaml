@@ -2237,6 +2237,7 @@
       photon: 3
       redhat: 3
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -2258,6 +2259,8 @@
     - https://linux.oracle.com/cve/CVE-2026-27135.html
     - https://linux.oracle.com/errata/ELSA-2026-8339.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-27135
+    - https://ubuntu.com/security/notices/USN-8233-1
+    - https://ubuntu.com/security/notices/USN-8233-2
     - https://www.cve.org/CVERecord?id=CVE-2026-27135
     PublishedDate: '2026-03-18T18:16:26.723Z'
     LastModifiedDate: '2026-03-23T17:51:17.017Z'
@@ -3026,6 +3029,57 @@
     FilePath: openaf/S3/snappy-java-1.1.10.8.jar
     AnalyzedBy: jar
   Vulnerabilities:
+  - VulnerabilityID: CVE-2026-5598
+    VendorIDs:
+    - GHSA-p93r-85wp-75v3
+    PkgName: org.bouncycastle:bcprov-jdk18on
+    PkgPath: openaf/S3/bcprov-jdk18on-1.82.jar
+    PkgIdentifier:
+      PURL: pkg:maven/org.bouncycastle/bcprov-jdk18on@1.82
+      UID: ba3bda42b1145eb2
+    InstalledVersion: '1.82'
+    FixedVersion: '1.84'
+    Status: fixed
+    Layer:
+      Digest: sha256:f52bf5b96f8757349ed0b105b64c5f3827f7a9c7672de3ea0c787e6528fca34a
+      DiffID: sha256:c7e127c628ebf16cb5d765a28c888be2ebe3292c86090ac436e739bb1c7ea6d8
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-5598
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Fingerprint: sha256:56301bb8aeb72fec1a2cf8f0b3cf4545f4bbb65603ab9a2156af62704febb675
+    Title: 'bouncycastle: BC-JAVA: private key leakage via non-constant time comparisons'
+    Description: |-
+      Covert timing channel vulnerability in Legion of the Bouncy Castle Inc. BC-JAVA core on all (core modules). This vulnerability is associated with program files FrodoEngine.Java.
+
+      This issue affects BC-JAVA: from 1.71 before 1.84.
+    Severity: HIGH
+    CweIDs:
+    - CWE-385
+    VendorSeverity:
+      ghsa: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:N/SC:H/SI:H/SA:N/E:U/S:P/AU:Y/U:Red
+        V40Score: 8.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-5598
+    - https://github.com/bcgit/bc-java
+    - https://github.com/bcgit/bc-java/commit/8692e6b2b191fc4aafa32545c7a78bdb9bf110c5
+    - https://github.com/bcgit/bc-java/commit/94abbd56413dfdac651fd878bc60253871ef5e87
+    - https://github.com/bcgit/bc-java/wiki/CVE%E2%80%902026%E2%80%905598
+    - https://github.com/bcgit/bc-java/wiki/CVE%E2%80%902026%E2%80%905998
+    - https://github.com/bcgit/bc-java/wiki/CVE-2026-5598
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-5598
+    - https://www.cve.org/CVERecord?id=CVE-2026-5598
+    PublishedDate: '2026-04-15T10:16:49.757Z'
+    LastModifiedDate: '2026-04-21T16:16:20.717Z'
   - VulnerabilityID: CVE-2026-0636
     VendorIDs:
     - GHSA-c3fc-8qff-9hwx
