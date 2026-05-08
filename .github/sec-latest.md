@@ -2417,12 +2417,14 @@
 │                       │     │                  │      af5ecb1b11fe22f24fceefd4bc 
 │                       │     │                  ├ [4]: https://github.com/mm2/Little-CMS/security/advisories/G
 │                       │     │                  │      HSA-4xp6-rcgg-m9qq 
-│                       │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-41254 
-│                       │     │                  ├ [6]: https://ubuntu.com/security/notices/USN-8209-1 
-│                       │     │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2026-41254 
-│                       │     │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2026/04/17/16 
+│                       │     │                  ├ [5]: https://lists.debian.org/debian-lts-announce/2026/05/ms
+│                       │     │                  │      g00014.html 
+│                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-41254 
+│                       │     │                  ├ [7]: https://ubuntu.com/security/notices/USN-8209-1 
+│                       │     │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2026-41254 
+│                       │     │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2026/04/17/16 
 │                       │     ├ PublishedDate   : 2026-04-18T07:16:10.807Z 
-│                       │     ╰ LastModifiedDate: 2026-04-22T18:34:23.33Z 
+│                       │     ╰ LastModifiedDate: 2026-05-07T18:16:19.3Z 
 │                       ╰ [1] ╭ VulnerabilityID : CVE-2026-27135 
 │                             ├ PkgID           : nghttp2-libs@1.68.0-r0 
 │                             ├ PkgName         : nghttp2-libs 
