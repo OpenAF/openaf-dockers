@@ -36477,6 +36477,7 @@
     Description: A flaw was found in curl. A remote attacker could exploit this by initiating an unencrypted connection (via IMAP, SMTP, or POP3) and then making a subsequent request to the same host that requires Transport Layer Security (TLS). Due to incorrect connection reuse, the subsequent request would bypass the TLS requirement, leading to the transmission of sensitive information in cleartext. This vulnerability, categorized as Cleartext Transmission of Sensitive Information (CWE-319), results in information disclosure.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -36507,6 +36508,7 @@
     Description: A flaw was found in libcurl. An application using libcurl that performs an authenticated HTTP(S) request after a Negotiate-authenticated one to the same host may incorrectly reuse the previous connection. This authentication bypass vulnerability allows the second request to be sent over a connection authenticated with different credentials, potentially leading to unauthorized access or information disclosure.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -36537,6 +36539,7 @@
     Description: A flaw was found in libcurl. Due to a logical error in the connection reuse mechanism for SMB (Server Message Block) transfers, libcurl might reuse an existing SMB connection with a different share than intended. This vulnerability, categorized as CWE-488 (Exposure of Data Element to Wrong Session), could lead to the download of an incorrect file or the upload of a file to an unintended location when an application uses libcurl for SMB transfers.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -36567,6 +36570,7 @@
     Description: A flaw was found in curl. When curl is configured to use distinct proxies for different URL schemes, a redirect from a URL using an authenticated proxy to one using an unauthenticated proxy can inadvertently expose the initial proxy's credentials. This improper credential management (CWE-522) may allow an attacker to gain unauthorized access or information by intercepting these disclosed credentials.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -36597,6 +36601,7 @@
     Description: A flaw was found in libcurl. When configured to use a .netrc file for credentials and follow HTTP redirects, libcurl can inadvertently send the password from the initial connection to the redirected host. This sensitive information disclosure occurs when both the original and redirect URLs use clear text HTTP, are performed over the same HTTP proxy, and the same connection is reused. This vulnerability, categorized as an Exposure of Sensitive Information to an Unauthorized Actor (CWE-200), could allow an attacker to obtain user credentials.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -37334,6 +37339,7 @@
     Description: A flaw was found in libcurl. This vulnerability allows for information disclosure when a custom `Host:` header is used in an initial HTTP request, and a subsequent request reuses the same connection without specifying a new `Host:` header. This can lead to libcurl incorrectly sending cookies intended for the first host to the second host, resulting in a cookie leak. This issue is categorized as an Origin Validation Error (CWE-346). Exploitation typically requires specific debugging configurations.
     Severity: LOW
     VendorSeverity:
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -37652,11 +37658,15 @@
       amazon: 3
       azure: 2
       cbl-mariner: 2
+      julia: 2
       nvd: 4
       photon: 4
       redhat: 2
       ubuntu: 2
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.6
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 9.8
@@ -37667,6 +37677,7 @@
     - https://access.redhat.com/errata/RHSA-2026:7461
     - https://access.redhat.com/security/cve/CVE-2025-14087
     - https://bugzilla.redhat.com/show_bug.cgi?id=2419093
+    - https://github.com/advisories/GHSA-frh9-7wfp-w73p
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3834
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4933
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4934
@@ -37698,10 +37709,14 @@
     VendorSeverity:
       azure: 2
       cbl-mariner: 2
+      julia: 2
       photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 6.5
@@ -37709,6 +37724,7 @@
     - https://access.redhat.com/errata/RHSA-2026:7461
     - https://access.redhat.com/security/cve/CVE-2025-14512
     - https://bugzilla.redhat.com/show_bug.cgi?id=2421339
+    - https://github.com/advisories/GHSA-2p5v-p767-wqv5
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3845
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4935
     - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/4936
@@ -38885,6 +38901,32 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-33846
     PublishedDate: '2026-05-04T10:15:59.69Z'
     LastModifiedDate: '2026-05-04T15:22:52.85Z'
+  - VulnerabilityID: CVE-2026-42010
+    PkgID: gnutls@3.8.3-10.el9_7.x86_64
+    PkgName: gnutls
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/gnutls@3.8.3-10.el9_7?arch=x86_64&distro=redhat-9.7
+      UID: 50d4e9f4f42ed6e2
+    InstalledVersion: 3.8.3-10.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:59cbbc1b3d955cdf585f9c532d293c0659b06e86adab4817705c6ea445c5c64a
+      DiffID: sha256:d68b9a0fabe03f3792ddb8c974984635f791cf890d4b60c10d0b0320211459ec
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42010
+    Fingerprint: sha256:8c6385cbceb5c2ccf393baa465a9c5a9a8ac6492b15fb031bbe0f244c276848c
+    Title: A flaw was found in gnutls. Servers configured with RSA-PSK (Rivest\u2 ...
+    Description: A flaw was found in gnutls. Servers configured with RSA-PSK (Rivest–Shamir–Adleman – Pre-Shared Key) wrongfully matched usernames containing a NUL character with truncated usernames. A remote attacker could exploit this by sending a specially crafted username, leading to an authentication bypass. This vulnerability allows an attacker to gain unauthorized access by circumventing the authentication process.
+    Severity: HIGH
+    CweIDs:
+    - CWE-626
+    VendorSeverity:
+      redhat: 3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-42010
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2467289
+    PublishedDate: '2026-05-07T12:16:17.977Z'
+    LastModifiedDate: '2026-05-07T15:16:09.64Z'
   - VulnerabilityID: CVE-2026-3833
     PkgID: gnutls@3.8.3-10.el9_7.x86_64
     PkgName: gnutls
@@ -38905,8 +38947,12 @@
     CweIDs:
     - CWE-178
     VendorSeverity:
+      nvd: 3
       redhat: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 6.5
@@ -38918,7 +38964,33 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-3833
     - https://www.cve.org/CVERecord?id=CVE-2026-3833
     PublishedDate: '2026-04-30T18:16:30.577Z'
-    LastModifiedDate: '2026-05-03T20:16:02.713Z'
+    LastModifiedDate: '2026-05-07T02:09:04.47Z'
+  - VulnerabilityID: CVE-2026-42011
+    PkgID: gnutls@3.8.3-10.el9_7.x86_64
+    PkgName: gnutls
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/gnutls@3.8.3-10.el9_7?arch=x86_64&distro=redhat-9.7
+      UID: 50d4e9f4f42ed6e2
+    InstalledVersion: 3.8.3-10.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:59cbbc1b3d955cdf585f9c532d293c0659b06e86adab4817705c6ea445c5c64a
+      DiffID: sha256:d68b9a0fabe03f3792ddb8c974984635f791cf890d4b60c10d0b0320211459ec
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42011
+    Fingerprint: sha256:22d4aa9c7817e9a32759ce473f0a4e8e1c92da626b39c944dc951969c8a10f52
+    Title: A flaw was found in gnutls. This vulnerability occurs because permitte ...
+    Description: A flaw was found in gnutls. This vulnerability occurs because permitted name constraints were incorrectly ignored when previous Certificate Authorities (CAs) only had excluded name constraints. A remote attacker could exploit this to bypass critical name constraint checks during certificate validation. This bypass could lead to the acceptance of invalid certificates, potentially enabling spoofing or man-in-the-middle attacks against affected systems.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-295
+    VendorSeverity:
+      redhat: 2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-42011
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2467437
+    PublishedDate: '2026-05-07T15:16:09.76Z'
+    LastModifiedDate: '2026-05-07T15:48:55.55Z'
   - VulnerabilityID: CVE-2026-3832
     PkgID: gnutls@3.8.3-10.el9_7.x86_64
     PkgName: gnutls
@@ -39718,6 +39790,7 @@
       azure: 2
       bitnami: 2
       cbl-mariner: 2
+      julia: 2
       oracle-oval: 3
       redhat: 2
       rocky: 3
@@ -39726,6 +39799,9 @@
       bitnami:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
         V3Score: 5.3
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L/E:U/RL:O/RC:C
+        V3Score: 4.6
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L
         V3Score: 5.3
@@ -39751,10 +39827,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34282
     - https://errata.almalinux.org/9/ALSA-2026-9693.html
     - https://errata.rockylinux.org/RLSA-2026:9689
+    - https://github.com/advisories/GHSA-878v-mxg6-vj8f
     - https://gitlab.com/freetype/freetype/-/commit/fc85a255849229c024c8e65f536fe1875d84841c
     - https://linux.oracle.com/cve/CVE-2026-23865.html
     - https://linux.oracle.com/errata/ELSA-2026-9693.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-23865
+    - https://sourceforge.net/projects/freetype/files/freetype2/2.14.2
     - https://sourceforge.net/projects/freetype/files/freetype2/2.14.2/
     - https://ubuntu.com/security/notices/USN-8086-1
     - https://www.cve.org/CVERecord?id=CVE-2026-23865
@@ -39790,6 +39868,7 @@
       photon: 3
       redhat: 2
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
@@ -39818,6 +39897,7 @@
     - https://linux.oracle.com/cve/CVE-2026-33416.html
     - https://linux.oracle.com/errata/ELSA-2026-9693.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33416
+    - https://ubuntu.com/security/notices/USN-8251-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33416
     PublishedDate: '2026-03-26T17:16:38.443Z'
     LastModifiedDate: '2026-04-02T20:28:33.973Z'
@@ -39850,6 +39930,7 @@
       photon: 3
       redhat: 2
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:H
@@ -39875,6 +39956,7 @@
     - https://linux.oracle.com/cve/CVE-2026-33636.html
     - https://linux.oracle.com/errata/ELSA-2026-9693.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33636
+    - https://ubuntu.com/security/notices/USN-8251-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33636
     PublishedDate: '2026-03-26T17:16:41.477Z'
     LastModifiedDate: '2026-04-02T18:42:02.667Z'
@@ -39901,6 +39983,7 @@
       amazon: 2
       azure: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
@@ -39913,6 +39996,7 @@
     - https://github.com/pnggroup/libpng/issues/837
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-6fr7-g8h7-v645
     - https://nvd.nist.gov/vuln/detail/CVE-2026-34757
+    - https://ubuntu.com/security/notices/USN-8251-1
     - https://www.cve.org/CVERecord?id=CVE-2026-34757
     PublishedDate: '2026-04-09T15:16:11.003Z'
     LastModifiedDate: '2026-04-13T15:02:47.353Z'
@@ -39953,12 +40037,13 @@
     - https://github.com/mm2/Little-CMS/commit/da6110b1d14abc394633a388209abd5ebedd7ab0
     - https://github.com/mm2/Little-CMS/commit/e0641b1828d0a1af5ecb1b11fe22f24fceefd4bc
     - https://github.com/mm2/Little-CMS/security/advisories/GHSA-4xp6-rcgg-m9qq
+    - https://lists.debian.org/debian-lts-announce/2026/05/msg00014.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-41254
     - https://ubuntu.com/security/notices/USN-8209-1
     - https://www.cve.org/CVERecord?id=CVE-2026-41254
     - https://www.openwall.com/lists/oss-security/2026/04/17/16
     PublishedDate: '2026-04-18T07:16:10.807Z'
-    LastModifiedDate: '2026-04-22T18:34:23.33Z'
+    LastModifiedDate: '2026-05-07T18:16:19.3Z'
   - VulnerabilityID: CVE-2026-22007
     VendorIDs:
     - RHSA-2026:9689
@@ -40110,10 +40195,14 @@
       amazon: 1
       azure: 1
       cbl-mariner: 1
+      julia: 1
       nvd: 2
       redhat: 1
       ubuntu: 1
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.5
@@ -40121,12 +40210,15 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.3
     References:
+    - https://7asecurity.com/blog/2026/02/zlib-7asecurity-audit
     - https://7asecurity.com/blog/2026/02/zlib-7asecurity-audit/
     - https://7asecurity.com/reports/pentest-report-zlib-RC1.1.pdf
     - https://access.redhat.com/security/cve/CVE-2026-27171
+    - https://github.com/advisories/GHSA-h858-mf2m-8jf4
     - https://github.com/madler/zlib/issues/904
     - https://github.com/madler/zlib/releases/tag/v1.3.2
     - https://nvd.nist.gov/vuln/detail/CVE-2026-27171
+    - https://ostif.org/zlib-audit-complete
     - https://ostif.org/zlib-audit-complete/
     - https://www.cve.org/CVERecord?id=CVE-2026-27171
     PublishedDate: '2026-02-18T04:16:01.263Z'
@@ -40719,6 +40811,7 @@
     - https://access.redhat.com/errata/RHSA-2026:12441
     - https://access.redhat.com/errata/RHSA-2026:13285
     - https://access.redhat.com/errata/RHSA-2026:14162
+    - https://access.redhat.com/errata/RHSA-2026:14937
     - https://access.redhat.com/errata/RHSA-2026:7473
     - https://access.redhat.com/security/cve/CVE-2026-4878
     - https://bugzilla.redhat.com/2451615
@@ -40735,7 +40828,7 @@
     - https://ubuntu.com/security/notices/USN-8193-1
     - https://www.cve.org/CVERecord?id=CVE-2026-4878
     PublishedDate: '2026-04-09T16:16:31.987Z'
-    LastModifiedDate: '2026-05-06T16:16:10.867Z'
+    LastModifiedDate: '2026-05-07T22:16:36.237Z'
   - VulnerabilityID: CVE-2025-13034
     PkgID: libcurl-minimal@7.76.1-35.el9_7.3.x86_64
     PkgName: libcurl-minimal
@@ -41071,6 +41164,7 @@
     Description: A flaw was found in curl. A remote attacker could exploit this by initiating an unencrypted connection (via IMAP, SMTP, or POP3) and then making a subsequent request to the same host that requires Transport Layer Security (TLS). Due to incorrect connection reuse, the subsequent request would bypass the TLS requirement, leading to the transmission of sensitive information in cleartext. This vulnerability, categorized as Cleartext Transmission of Sensitive Information (CWE-319), results in information disclosure.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -41101,6 +41195,7 @@
     Description: A flaw was found in libcurl. An application using libcurl that performs an authenticated HTTP(S) request after a Negotiate-authenticated one to the same host may incorrectly reuse the previous connection. This authentication bypass vulnerability allows the second request to be sent over a connection authenticated with different credentials, potentially leading to unauthorized access or information disclosure.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -41131,6 +41226,7 @@
     Description: A flaw was found in libcurl. Due to a logical error in the connection reuse mechanism for SMB (Server Message Block) transfers, libcurl might reuse an existing SMB connection with a different share than intended. This vulnerability, categorized as CWE-488 (Exposure of Data Element to Wrong Session), could lead to the download of an incorrect file or the upload of a file to an unintended location when an application uses libcurl for SMB transfers.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -41161,6 +41257,7 @@
     Description: A flaw was found in curl. When curl is configured to use distinct proxies for different URL schemes, a redirect from a URL using an authenticated proxy to one using an unauthenticated proxy can inadvertently expose the initial proxy's credentials. This improper credential management (CWE-522) may allow an attacker to gain unauthorized access or information by intercepting these disclosed credentials.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -41191,6 +41288,7 @@
     Description: A flaw was found in libcurl. When configured to use a .netrc file for credentials and follow HTTP redirects, libcurl can inadvertently send the password from the initial connection to the redirected host. This sensitive information disclosure occurs when both the original and redirect URLs use clear text HTTP, are performed over the same HTTP proxy, and the same connection is reused. This vulnerability, categorized as an Exposure of Sensitive Information to an Unauthorized Actor (CWE-200), could allow an attacker to obtain user credentials.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -41928,6 +42026,7 @@
     Description: A flaw was found in libcurl. This vulnerability allows for information disclosure when a custom `Host:` header is used in an initial HTTP request, and a subsequent request reuses the same connection without specifying a new `Host:` header. This can lead to libcurl incorrectly sending cookies intended for the first host to the second host, resulting in a cookie leak. This issue is categorized as an Origin Validation Error (CWE-346). Exploitation typically requires specific debugging configurations.
     Severity: LOW
     VendorSeverity:
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -46766,6 +46865,7 @@
       oracle-oval: 3
       redhat: 1
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
@@ -47855,6 +47955,7 @@
       oracle-oval: 3
       redhat: 1
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
@@ -48944,6 +49045,7 @@
       oracle-oval: 3
       redhat: 1
       rocky: 3
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
@@ -49953,10 +50055,14 @@
       amazon: 1
       azure: 1
       cbl-mariner: 1
+      julia: 1
       nvd: 2
       redhat: 1
       ubuntu: 1
     CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.9
       nvd:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.5
@@ -49964,12 +50070,15 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.3
     References:
+    - https://7asecurity.com/blog/2026/02/zlib-7asecurity-audit
     - https://7asecurity.com/blog/2026/02/zlib-7asecurity-audit/
     - https://7asecurity.com/reports/pentest-report-zlib-RC1.1.pdf
     - https://access.redhat.com/security/cve/CVE-2026-27171
+    - https://github.com/advisories/GHSA-h858-mf2m-8jf4
     - https://github.com/madler/zlib/issues/904
     - https://github.com/madler/zlib/releases/tag/v1.3.2
     - https://nvd.nist.gov/vuln/detail/CVE-2026-27171
+    - https://ostif.org/zlib-audit-complete
     - https://ostif.org/zlib-audit-complete/
     - https://www.cve.org/CVERecord?id=CVE-2026-27171
     PublishedDate: '2026-02-18T04:16:01.263Z'
