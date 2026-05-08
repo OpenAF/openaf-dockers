@@ -9417,7 +9417,8 @@
 │                       │      │                   potentially leading to unauthorized access or information
 │                       │      │                   disclosure. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
@@ -9458,7 +9459,8 @@
 │                       │      │                   or information by intercepting these disclosed
 │                       │      │                   credentials. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
@@ -9501,7 +9503,8 @@
 │                       │      │                   Unauthorized Actor (CWE-200), could allow an attacker to
 │                       │      │                   obtain user credentials. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
@@ -9568,7 +9571,8 @@
 │                       │      │                   categorized as Cleartext Transmission of Sensitive
 │                       │      │                   Information (CWE-319), results in information disclosure. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
@@ -9609,7 +9613,8 @@
 │                       │      │                    the upload of a file to an unintended location when an
 │                       │      │                   application uses libcurl for SMB transfers. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
@@ -9651,7 +9656,8 @@
 │                       │      │                   Validation Error (CWE-346). Exploitation typically requires
 │                       │      │                   specific debugging configurations. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:N 
@@ -9668,7 +9674,8 @@
 │                       │      │                  │       o=ubuntu-25.10 
 │                       │      │                  ╰ UID : 441b18c6d9fcf5d3 
 │                       │      ├ InstalledVersion: 1.22.21ubuntu3.1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 1.22.21ubuntu3.2 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:c8110fc70790ae3a54f0af9c87a727cec814938efc11
 │                       │      │                  │         2ec388229d22e8ac9a98 
 │                       │      │                  ╰ DiffID: sha256:d25184801990b1e08c3c14c33680a923e8193222064f
@@ -9693,7 +9700,8 @@
 │                       │      ├ References       ╭ [0]: https://bugs.debian.org/1129722 
 │                       │      │                  ├ [1]: https://git.dpkg.org/cgit/dpkg/dpkg.git/commit/?id=661
 │                       │      │                  │      0297a62c0780dd0e80b0e302ef64fdcc9d313 
-│                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-2219 
+│                       │      │                  ├ [2]: https://ubuntu.com/security/notices/USN-8249-1 
+│                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-2219 
 │                       │      ├ PublishedDate   : 2026-03-07T09:16:07.823Z 
 │                       │      ╰ LastModifiedDate: 2026-03-09T15:15:57.87Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2026-27456 
@@ -10120,7 +10128,8 @@
 │                       │      │                   potentially leading to unauthorized access or information
 │                       │      │                   disclosure. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
@@ -10161,7 +10170,8 @@
 │                       │      │                   or information by intercepting these disclosed
 │                       │      │                   credentials. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
@@ -10204,7 +10214,8 @@
 │                       │      │                   Unauthorized Actor (CWE-200), could allow an attacker to
 │                       │      │                   obtain user credentials. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
@@ -10271,7 +10282,8 @@
 │                       │      │                   categorized as Cleartext Transmission of Sensitive
 │                       │      │                   Information (CWE-319), results in information disclosure. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
@@ -10312,7 +10324,8 @@
 │                       │      │                    the upload of a file to an unintended location when an
 │                       │      │                   application uses libcurl for SMB transfers. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
@@ -10354,7 +10367,8 @@
 │                       │      │                   Validation Error (CWE-346). Exploitation typically requires
 │                       │      │                   specific debugging configurations. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:N 
