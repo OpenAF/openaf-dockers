@@ -2199,12 +2199,13 @@
     - https://github.com/mm2/Little-CMS/commit/da6110b1d14abc394633a388209abd5ebedd7ab0
     - https://github.com/mm2/Little-CMS/commit/e0641b1828d0a1af5ecb1b11fe22f24fceefd4bc
     - https://github.com/mm2/Little-CMS/security/advisories/GHSA-4xp6-rcgg-m9qq
+    - https://lists.debian.org/debian-lts-announce/2026/05/msg00014.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-41254
     - https://ubuntu.com/security/notices/USN-8209-1
     - https://www.cve.org/CVERecord?id=CVE-2026-41254
     - https://www.openwall.com/lists/oss-security/2026/04/17/16
     PublishedDate: '2026-04-18T07:16:10.807Z'
-    LastModifiedDate: '2026-04-22T18:34:23.33Z'
+    LastModifiedDate: '2026-05-07T18:16:19.3Z'
   - VulnerabilityID: CVE-2026-27135
     PkgID: nghttp2-libs@1.68.0-r0
     PkgName: nghttp2-libs
