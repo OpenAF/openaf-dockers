@@ -8907,6 +8907,7 @@
     Description: A flaw was found in libcurl. An application using libcurl that performs an authenticated HTTP(S) request after a Negotiate-authenticated one to the same host may incorrectly reuse the previous connection. This authentication bypass vulnerability allows the second request to be sent over a connection authenticated with different credentials, potentially leading to unauthorized access or information disclosure.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -8942,6 +8943,7 @@
     Description: A flaw was found in curl. When curl is configured to use distinct proxies for different URL schemes, a redirect from a URL using an authenticated proxy to one using an unauthenticated proxy can inadvertently expose the initial proxy's credentials. This improper credential management (CWE-522) may allow an attacker to gain unauthorized access or information by intercepting these disclosed credentials.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -8977,6 +8979,7 @@
     Description: A flaw was found in libcurl. When configured to use a .netrc file for credentials and follow HTTP redirects, libcurl can inadvertently send the password from the initial connection to the redirected host. This sensitive information disclosure occurs when both the original and redirect URLs use clear text HTTP, are performed over the same HTTP proxy, and the same connection is reused. This vulnerability, categorized as an Exposure of Sensitive Information to an Unauthorized Actor (CWE-200), could allow an attacker to obtain user credentials.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -9038,6 +9041,7 @@
     Description: A flaw was found in curl. A remote attacker could exploit this by initiating an unencrypted connection (via IMAP, SMTP, or POP3) and then making a subsequent request to the same host that requires Transport Layer Security (TLS). Due to incorrect connection reuse, the subsequent request would bypass the TLS requirement, leading to the transmission of sensitive information in cleartext. This vulnerability, categorized as Cleartext Transmission of Sensitive Information (CWE-319), results in information disclosure.
     Severity: LOW
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -9073,6 +9077,7 @@
     Description: A flaw was found in libcurl. Due to a logical error in the connection reuse mechanism for SMB (Server Message Block) transfers, libcurl might reuse an existing SMB connection with a different share than intended. This vulnerability, categorized as CWE-488 (Exposure of Data Element to Wrong Session), could lead to the download of an incorrect file or the upload of a file to an unintended location when an application uses libcurl for SMB transfers.
     Severity: LOW
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -9108,6 +9113,7 @@
     Description: A flaw was found in libcurl. This vulnerability allows for information disclosure when a custom `Host:` header is used in an initial HTTP request, and a subsequent request reuses the same connection without specifying a new `Host:` header. This can lead to libcurl incorrectly sending cookies intended for the first host to the second host, resulting in a cookie leak. This issue is categorized as an Origin Validation Error (CWE-346). Exploitation typically requires specific debugging configurations.
     Severity: LOW
     VendorSeverity:
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -9127,7 +9133,8 @@
       PURL: pkg:deb/ubuntu/dpkg@1.22.21ubuntu3.1?arch=amd64&distro=ubuntu-25.10
       UID: 441b18c6d9fcf5d3
     InstalledVersion: 1.22.21ubuntu3.1
-    Status: affected
+    FixedVersion: 1.22.21ubuntu3.2
+    Status: fixed
     Layer:
       Digest: sha256:c8110fc70790ae3a54f0af9c87a727cec814938efc112ec388229d22e8ac9a98
       DiffID: sha256:d25184801990b1e08c3c14c33680a923e8193222064fd6f4501c5392df91067f
@@ -9148,6 +9155,7 @@
     References:
     - https://bugs.debian.org/1129722
     - https://git.dpkg.org/cgit/dpkg/dpkg.git/commit/?id=6610297a62c0780dd0e80b0e302ef64fdcc9d313
+    - https://ubuntu.com/security/notices/USN-8249-1
     - https://www.cve.org/CVERecord?id=CVE-2026-2219
     PublishedDate: '2026-03-07T09:16:07.823Z'
     LastModifiedDate: '2026-03-09T15:15:57.87Z'
@@ -9519,6 +9527,7 @@
     Description: A flaw was found in libcurl. An application using libcurl that performs an authenticated HTTP(S) request after a Negotiate-authenticated one to the same host may incorrectly reuse the previous connection. This authentication bypass vulnerability allows the second request to be sent over a connection authenticated with different credentials, potentially leading to unauthorized access or information disclosure.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -9554,6 +9563,7 @@
     Description: A flaw was found in curl. When curl is configured to use distinct proxies for different URL schemes, a redirect from a URL using an authenticated proxy to one using an unauthenticated proxy can inadvertently expose the initial proxy's credentials. This improper credential management (CWE-522) may allow an attacker to gain unauthorized access or information by intercepting these disclosed credentials.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -9589,6 +9599,7 @@
     Description: A flaw was found in libcurl. When configured to use a .netrc file for credentials and follow HTTP redirects, libcurl can inadvertently send the password from the initial connection to the redirected host. This sensitive information disclosure occurs when both the original and redirect URLs use clear text HTTP, are performed over the same HTTP proxy, and the same connection is reused. This vulnerability, categorized as an Exposure of Sensitive Information to an Unauthorized Actor (CWE-200), could allow an attacker to obtain user credentials.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -9650,6 +9661,7 @@
     Description: A flaw was found in curl. A remote attacker could exploit this by initiating an unencrypted connection (via IMAP, SMTP, or POP3) and then making a subsequent request to the same host that requires Transport Layer Security (TLS). Due to incorrect connection reuse, the subsequent request would bypass the TLS requirement, leading to the transmission of sensitive information in cleartext. This vulnerability, categorized as Cleartext Transmission of Sensitive Information (CWE-319), results in information disclosure.
     Severity: LOW
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -9685,6 +9697,7 @@
     Description: A flaw was found in libcurl. Due to a logical error in the connection reuse mechanism for SMB (Server Message Block) transfers, libcurl might reuse an existing SMB connection with a different share than intended. This vulnerability, categorized as CWE-488 (Exposure of Data Element to Wrong Session), could lead to the download of an incorrect file or the upload of a file to an unintended location when an application uses libcurl for SMB transfers.
     Severity: LOW
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -9720,6 +9733,7 @@
     Description: A flaw was found in libcurl. This vulnerability allows for information disclosure when a custom `Host:` header is used in an initial HTTP request, and a subsequent request reuses the same connection without specifying a new `Host:` header. This can lead to libcurl incorrectly sending cookies intended for the first host to the second host, resulting in a cookie leak. This issue is categorized as an Origin Validation Error (CWE-346). Exploitation typically requires specific debugging configurations.
     Severity: LOW
     VendorSeverity:
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
