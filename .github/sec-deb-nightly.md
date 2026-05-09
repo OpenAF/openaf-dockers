@@ -17352,7 +17352,8 @@
                         │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
                         │     ├ Fingerprint     : sha256:88559f63127acde1d9a8247970a329ac822faa9844cdb3ea6c25cb
                         │     │                   8362d785ee 
-                        │     ├ Title           : Crash when handling long CNAME response in net 
+                        │     ├ Title           : When using LookupCNAME with the cgo DNS resolver, a very long
+                        │     │                    CNAME re ... 
                         │     ├ Description     : When using LookupCNAME with the cgo DNS resolver, a very long
                         │     │                    CNAME response can trigger a double-free of C memory and a
                         │     │                   crash. 
@@ -17362,7 +17363,7 @@
                         │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/qcCIEXso47M 
                         │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-4981 
                         │     ├ PublishedDate   : 2026-05-07T20:16:42.77Z 
-                        │     ╰ LastModifiedDate: 2026-05-07T20:38:04.86Z 
+                        │     ╰ LastModifiedDate: 2026-05-08T15:16:36.64Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2026-33814 
                         │     ├ VendorIDs        ─ [0]: GO-2026-4918 
                         │     ├ PkgID           : stdlib@v1.26.2 
@@ -17382,9 +17383,8 @@
                         │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
                         │     ├ Fingerprint     : sha256:8644d497d24fcaef07922ca42622bd051f235f62335aa34d448c8c
                         │     │                   260b199ff1 
-                        │     ├ Title           : Infinite loop in HTTP/2 transport when given bad
-                        │     │                   SETTINGS_MAX_FRAME_SIZE in net/http/internal/http2 in
-                        │     │                   golang.org/x/net 
+                        │     ├ Title           : When processing HTTP/2 SETTINGS frames, transport will enter
+                        │     │                   an infini ... 
                         │     ├ Description     : When processing HTTP/2 SETTINGS frames, transport will enter
                         │     │                   an infinite loop of writing CONTINUATION frames if it
                         │     │                   receives a SETTINGS_MAX_FRAME_SIZE with a value of 0. 
@@ -17395,7 +17395,7 @@
                         │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/qcCIEXso47M 
                         │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2026-4918 
                         │     ├ PublishedDate   : 2026-05-07T20:16:42.88Z 
-                        │     ╰ LastModifiedDate: 2026-05-07T20:38:04.86Z 
+                        │     ╰ LastModifiedDate: 2026-05-08T19:16:30.567Z 
                         ├ [2] ╭ VulnerabilityID : CVE-2026-39820 
                         │     ├ VendorIDs        ─ [0]: GO-2026-4986 
                         │     ├ PkgID           : stdlib@v1.26.2 
@@ -17415,7 +17415,8 @@
                         │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
                         │     ├ Fingerprint     : sha256:14196fb7fd9d35e7eb5d386614d97962b39711a60585239c9f117e
                         │     │                   c63c88000d 
-                        │     ├ Title           : Quadratic string concatentation in consumeComment in net/mail 
+                        │     ├ Title           : Well-crafted inputs reaching ParseAddress, ParseAddressList,
+                        │     │                   and Parse ... 
                         │     ├ Description     : Well-crafted inputs reaching ParseAddress, ParseAddressList,
                         │     │                   and ParseDate were able to trigger excessive CPU exhaustion
                         │     │                   and memory allocations. 
@@ -17425,7 +17426,7 @@
                         │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/qcCIEXso47M 
                         │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-4986 
                         │     ├ PublishedDate   : 2026-05-07T20:16:43.187Z 
-                        │     ╰ LastModifiedDate: 2026-05-07T20:38:04.86Z 
+                        │     ╰ LastModifiedDate: 2026-05-08T15:16:37.323Z 
                         ├ [3] ╭ VulnerabilityID : CVE-2026-39823 
                         │     ├ VendorIDs        ─ [0]: GO-2026-4982 
                         │     ├ PkgID           : stdlib@v1.26.2 
@@ -17445,7 +17446,8 @@
                         │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
                         │     ├ Fingerprint     : sha256:466409cb0983e10658d11b10634291d9278fe7b174949e0df46bba
                         │     │                   356f9be685 
-                        │     ├ Title           : Bypass of meta content URL escaping causes XSS in html/template 
+                        │     ├ Title           : CVE-2026-27142 fixed a vulnerability in which URLs were not
+                        │     │                   correctly  ... 
                         │     ├ Description     : CVE-2026-27142 fixed a vulnerability in which URLs were not
                         │     │                   correctly escaped inside of a <meta> tag's <content>
                         │     │                   attribute. If the URL content were to insert ASCII
@@ -17458,7 +17460,7 @@
                         │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/qcCIEXso47M 
                         │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-4982 
                         │     ├ PublishedDate   : 2026-05-07T20:16:43.29Z 
-                        │     ╰ LastModifiedDate: 2026-05-07T20:38:04.86Z 
+                        │     ╰ LastModifiedDate: 2026-05-08T15:16:37.5Z 
                         ├ [4] ╭ VulnerabilityID : CVE-2026-39825 
                         │     ├ VendorIDs        ─ [0]: GO-2026-4976 
                         │     ├ PkgID           : stdlib@v1.26.2 
@@ -17478,8 +17480,8 @@
                         │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
                         │     ├ Fingerprint     : sha256:f423cedf0a782a4e6db18e7db0c296cac9582bb7e5ef8bba064fcb
                         │     │                   2754a23d08 
-                        │     ├ Title           : ReverseProxy forwards queries with more than
-                        │     │                   urlmaxqueryparams parameters in net/http/httputil 
+                        │     ├ Title           : ReverseProxy can forward queries containing parameters not
+                        │     │                   visible to  ... 
                         │     ├ Description     : ReverseProxy can forward queries containing parameters not
                         │     │                   visible to Rewrite functions. When used with a Rewrite
                         │     │                   function, or a Director function which parses query
@@ -17499,7 +17501,7 @@
                         │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/qcCIEXso47M 
                         │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-4976 
                         │     ├ PublishedDate   : 2026-05-07T20:16:43.39Z 
-                        │     ╰ LastModifiedDate: 2026-05-07T20:38:04.86Z 
+                        │     ╰ LastModifiedDate: 2026-05-08T22:16:29.547Z 
                         ├ [5] ╭ VulnerabilityID : CVE-2026-39826 
                         │     ├ VendorIDs        ─ [0]: GO-2026-4980 
                         │     ├ PkgID           : stdlib@v1.26.2 
@@ -17519,7 +17521,8 @@
                         │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
                         │     ├ Fingerprint     : sha256:ebd922dc509ba1882648e58fabc2a373ad816b0708595f78826fe7
                         │     │                   238a84af7f 
-                        │     ├ Title           : Escaper bypass leads to XSS in html/template 
+                        │     ├ Title           : If a trusted template author were to write a <script> tag
+                        │     │                   containing a ... 
                         │     ├ Description     : If a trusted template author were to write a <script> tag
                         │     │                   containing an empty 'type' attribute or a 'type' attribute
                         │     │                   with an ASCII whitespace, the execution of the template would
@@ -17531,7 +17534,7 @@
                         │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/qcCIEXso47M 
                         │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-4980 
                         │     ├ PublishedDate   : 2026-05-07T20:16:43.49Z 
-                        │     ╰ LastModifiedDate: 2026-05-07T20:38:04.86Z 
+                        │     ╰ LastModifiedDate: 2026-05-08T15:16:37.68Z 
                         ├ [6] ╭ VulnerabilityID : CVE-2026-39836 
                         │     ├ VendorIDs        ─ [0]: GO-2026-4971 
                         │     ├ PkgID           : stdlib@v1.26.2 
@@ -17561,7 +17564,7 @@
                         │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/qcCIEXso47M 
                         │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-4971 
                         │     ├ PublishedDate   : 2026-05-07T20:16:43.593Z 
-                        │     ╰ LastModifiedDate: 2026-05-07T20:38:04.86Z 
+                        │     ╰ LastModifiedDate: 2026-05-08T22:16:29.723Z 
                         ╰ [7] ╭ VulnerabilityID : CVE-2026-42499 
                               ├ VendorIDs        ─ [0]: GO-2026-4977 
                               ├ PkgID           : stdlib@v1.26.2 
@@ -17581,7 +17584,8 @@
                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
                               ├ Fingerprint     : sha256:fb14adac99801ba24c619964ade9144d051205cda8f1a407833169
                               │                   7523efe2e4 
-                              ├ Title           : Quadratic string concatenation in consumePhrase in net/mail 
+                              ├ Title           : Pathological inputs could cause DoS through consumePhrase
+                              │                   when parsing ... 
                               ├ Description     : Pathological inputs could cause DoS through consumePhrase
                               │                   when parsing an email address according to RFC 5322. 
                               ├ Severity        : UNKNOWN 
@@ -17590,5 +17594,5 @@
                               │                  ├ [2]: https://groups.google.com/g/golang-announce/c/qcCIEXso47M 
                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-4977 
                               ├ PublishedDate   : 2026-05-07T20:16:44.54Z 
-                              ╰ LastModifiedDate: 2026-05-07T20:33:39.27Z 
+                              ╰ LastModifiedDate: 2026-05-08T22:16:33.183Z 
 ```
