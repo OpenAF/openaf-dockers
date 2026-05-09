@@ -37575,6 +37575,7 @@
     CweIDs:
     - CWE-331
     VendorSeverity:
+      photon: 2
       redhat: 1
     CVSS:
       redhat:
@@ -38915,16 +38916,22 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42010
     Fingerprint: sha256:8c6385cbceb5c2ccf393baa465a9c5a9a8ac6492b15fb031bbe0f244c276848c
-    Title: A flaw was found in gnutls. Servers configured with RSA-PSK (Rivest\u2 ...
+    Title: 'gnutls: gnutls: Authentication Bypass via NUL Character in Username'
     Description: A flaw was found in gnutls. Servers configured with RSA-PSK (Rivest–Shamir–Adleman – Pre-Shared Key) wrongfully matched usernames containing a NUL character with truncated usernames. A remote attacker could exploit this by sending a specially crafted username, leading to an authentication bypass. This vulnerability allows an attacker to gain unauthorized access by circumventing the authentication process.
     Severity: HIGH
     CweIDs:
     - CWE-626
     VendorSeverity:
       redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N
+        V3Score: 7.1
     References:
     - https://access.redhat.com/security/cve/CVE-2026-42010
     - https://bugzilla.redhat.com/show_bug.cgi?id=2467289
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-42010
+    - https://www.cve.org/CVERecord?id=CVE-2026-42010
     PublishedDate: '2026-05-07T12:16:17.977Z'
     LastModifiedDate: '2026-05-07T15:16:09.64Z'
   - VulnerabilityID: CVE-2026-3833
@@ -38979,16 +38986,22 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42011
     Fingerprint: sha256:22d4aa9c7817e9a32759ce473f0a4e8e1c92da626b39c944dc951969c8a10f52
-    Title: A flaw was found in gnutls. This vulnerability occurs because permitte ...
+    Title: 'gnutls: gnutls: Security bypass due to incorrect name constraint handling'
     Description: A flaw was found in gnutls. This vulnerability occurs because permitted name constraints were incorrectly ignored when previous Certificate Authorities (CAs) only had excluded name constraints. A remote attacker could exploit this to bypass critical name constraint checks during certificate validation. This bypass could lead to the acceptance of invalid certificates, potentially enabling spoofing or man-in-the-middle attacks against affected systems.
     Severity: MEDIUM
     CweIDs:
     - CWE-295
     VendorSeverity:
       redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 7.4
     References:
     - https://access.redhat.com/security/cve/CVE-2026-42011
     - https://bugzilla.redhat.com/show_bug.cgi?id=2467437
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-42011
+    - https://www.cve.org/CVERecord?id=CVE-2026-42011
     PublishedDate: '2026-05-07T15:16:09.76Z'
     LastModifiedDate: '2026-05-07T15:48:55.55Z'
   - VulnerabilityID: CVE-2026-3832
@@ -39995,11 +40008,12 @@
     - https://github.com/pnggroup/libpng/issues/836
     - https://github.com/pnggroup/libpng/issues/837
     - https://github.com/pnggroup/libpng/security/advisories/GHSA-6fr7-g8h7-v645
+    - https://lists.debian.org/debian-lts-announce/2026/05/msg00017.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-34757
     - https://ubuntu.com/security/notices/USN-8251-1
     - https://www.cve.org/CVERecord?id=CVE-2026-34757
     PublishedDate: '2026-04-09T15:16:11.003Z'
-    LastModifiedDate: '2026-04-13T15:02:47.353Z'
+    LastModifiedDate: '2026-05-09T11:16:26.96Z'
   - VulnerabilityID: CVE-2026-41254
     PkgID: java-21-openjdk-headless@21.0.10.0.7-1.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -43395,6 +43409,101 @@
     - https://www.vulncheck.com/advisories/openldap-lmdb-mdb-load-heap-buffer-underflow-in-readline
     PublishedDate: '2026-01-07T21:16:01.733Z'
     LastModifiedDate: '2026-04-15T00:35:42.02Z'
+  - VulnerabilityID: CVE-2026-2673
+    PkgID: openssl@3.5.1-7.el9_7.x86_64
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl@3.5.1-7.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: dfdef90be772df2a
+    InstalledVersion: 1:3.5.1-7.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:59cbbc1b3d955cdf585f9c532d293c0659b06e86adab4817705c6ea445c5c64a
+      DiffID: sha256:d68b9a0fabe03f3792ddb8c974984635f791cf890d4b60c10d0b0320211459ec
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-2673
+    Fingerprint: sha256:3a09ec77ba6ab354ecb698a5a5bb88f707dc9775ef963e81d17f916005bcd4c2
+    Title: 'openssl: OpenSSL TLS 1.3 server may choose unexpected key agreement group'
+    Description: |-
+      Issue summary: An OpenSSL TLS 1.3 server may fail to negotiate the expected
+      preferred key exchange group when its key exchange group configuration includes
+      the default by using the 'DEFAULT' keyword.
+
+      Impact summary: A less preferred key exchange may be used even when a more
+      preferred group is supported by both client and server, if the group
+      was not included among the client's initial predicated keyshares.
+      This will sometimes be the case with the new hybrid post-quantum groups,
+      if the client chooses to defer their use until specifically requested by
+      the server.
+
+      If an OpenSSL TLS 1.3 server's configuration uses the 'DEFAULT' keyword to
+      interpolate the built-in default group list into its own configuration, perhaps
+      adding or removing specific elements, then an implementation defect causes the
+      'DEFAULT' list to lose its 'tuple' structure, and all server-supported groups
+      were treated as a single sufficiently secure 'tuple', with the server not
+      sending a Hello Retry Request (HRR) even when a group in a more preferred tuple
+      was mutually supported.
+
+      As a result, the client and server might fail to negotiate a mutually supported
+      post-quantum key agreement group, such as 'X25519MLKEM768', if the client's
+      configuration results in only 'classical' groups (such as 'X25519' being the
+      only ones in the client's initial keyshare prediction).
+
+      OpenSSL 3.5 and later support a new syntax for selecting the most preferred TLS
+      1.3 key agreement group on TLS servers.  The old syntax had a single 'flat'
+      list of groups, and treated all the supported groups as sufficiently secure.
+      If any of the keyshares predicted by the client were supported by the server
+      the most preferred among these was selected, even if other groups supported by
+      the client, but not included in the list of predicted keyshares would have been
+      more preferred, if included.
+
+      The new syntax partitions the groups into distinct 'tuples' of roughly
+      equivalent security.  Within each tuple the most preferred group included among
+      the client's predicted keyshares is chosen, but if the client supports a group
+      from a more preferred tuple, but did not predict any corresponding keyshares,
+      the server will ask the client to retry the ClientHello (by issuing a Hello
+      Retry Request or HRR) with the most preferred mutually supported group.
+
+      The above works as expected when the server's configuration uses the built-in
+      default group list, or explicitly defines its own list by directly defining the
+      various desired groups and group 'tuples'.
+
+      No OpenSSL FIPS modules are affected by this issue, the code in question lies
+      outside the FIPS boundary.
+
+      OpenSSL 3.6 and 3.5 are vulnerable to this issue.
+
+      OpenSSL 3.6 users should upgrade to OpenSSL 3.6.2 once it is released.
+      OpenSSL 3.5 users should upgrade to OpenSSL 3.5.6 once it is released.
+
+      OpenSSL 3.4, 3.3, 3.0, 1.0.2 and 1.1.1 are not affected by this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-757
+    VendorSeverity:
+      amazon: 1
+      julia: 3
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:L
+        V3Score: 4.2
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/13/3
+    - https://access.redhat.com/security/cve/CVE-2026-2673
+    - https://github.com/advisories/GHSA-wj64-gh9j-xm82
+    - https://github.com/openssl/openssl/commit/2157c9d81f7b0bd7dfa25b960e928ec28e8dd63f
+    - https://github.com/openssl/openssl/commit/85977e013f32ceb96aa034c0e741adddc1a05e34
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-2673
+    - https://openssl-library.org/news/secadv/20260313.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-2673
+    PublishedDate: '2026-03-13T19:54:34.033Z'
+    LastModifiedDate: '2026-03-17T18:16:15.6Z'
   - VulnerabilityID: CVE-2026-28386
     PkgID: openssl@3.5.1-7.el9_7.x86_64
     PkgName: openssl
@@ -43949,101 +44058,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
     LastModifiedDate: '2026-04-15T00:35:42.02Z'
-  - VulnerabilityID: CVE-2026-2673
-    PkgID: openssl@3.5.1-7.el9_7.x86_64
-    PkgName: openssl
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/openssl@3.5.1-7.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
-      UID: dfdef90be772df2a
-    InstalledVersion: 1:3.5.1-7.el9_7
-    Status: affected
-    Layer:
-      Digest: sha256:59cbbc1b3d955cdf585f9c532d293c0659b06e86adab4817705c6ea445c5c64a
-      DiffID: sha256:d68b9a0fabe03f3792ddb8c974984635f791cf890d4b60c10d0b0320211459ec
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-2673
-    Fingerprint: sha256:3a09ec77ba6ab354ecb698a5a5bb88f707dc9775ef963e81d17f916005bcd4c2
-    Title: 'openssl: OpenSSL TLS 1.3 server may choose unexpected key agreement group'
-    Description: |-
-      Issue summary: An OpenSSL TLS 1.3 server may fail to negotiate the expected
-      preferred key exchange group when its key exchange group configuration includes
-      the default by using the 'DEFAULT' keyword.
-
-      Impact summary: A less preferred key exchange may be used even when a more
-      preferred group is supported by both client and server, if the group
-      was not included among the client's initial predicated keyshares.
-      This will sometimes be the case with the new hybrid post-quantum groups,
-      if the client chooses to defer their use until specifically requested by
-      the server.
-
-      If an OpenSSL TLS 1.3 server's configuration uses the 'DEFAULT' keyword to
-      interpolate the built-in default group list into its own configuration, perhaps
-      adding or removing specific elements, then an implementation defect causes the
-      'DEFAULT' list to lose its 'tuple' structure, and all server-supported groups
-      were treated as a single sufficiently secure 'tuple', with the server not
-      sending a Hello Retry Request (HRR) even when a group in a more preferred tuple
-      was mutually supported.
-
-      As a result, the client and server might fail to negotiate a mutually supported
-      post-quantum key agreement group, such as 'X25519MLKEM768', if the client's
-      configuration results in only 'classical' groups (such as 'X25519' being the
-      only ones in the client's initial keyshare prediction).
-
-      OpenSSL 3.5 and later support a new syntax for selecting the most preferred TLS
-      1.3 key agreement group on TLS servers.  The old syntax had a single 'flat'
-      list of groups, and treated all the supported groups as sufficiently secure.
-      If any of the keyshares predicted by the client were supported by the server
-      the most preferred among these was selected, even if other groups supported by
-      the client, but not included in the list of predicted keyshares would have been
-      more preferred, if included.
-
-      The new syntax partitions the groups into distinct 'tuples' of roughly
-      equivalent security.  Within each tuple the most preferred group included among
-      the client's predicted keyshares is chosen, but if the client supports a group
-      from a more preferred tuple, but did not predict any corresponding keyshares,
-      the server will ask the client to retry the ClientHello (by issuing a Hello
-      Retry Request or HRR) with the most preferred mutually supported group.
-
-      The above works as expected when the server's configuration uses the built-in
-      default group list, or explicitly defines its own list by directly defining the
-      various desired groups and group 'tuples'.
-
-      No OpenSSL FIPS modules are affected by this issue, the code in question lies
-      outside the FIPS boundary.
-
-      OpenSSL 3.6 and 3.5 are vulnerable to this issue.
-
-      OpenSSL 3.6 users should upgrade to OpenSSL 3.6.2 once it is released.
-      OpenSSL 3.5 users should upgrade to OpenSSL 3.5.6 once it is released.
-
-      OpenSSL 3.4, 3.3, 3.0, 1.0.2 and 1.1.1 are not affected by this issue.
-    Severity: LOW
-    CweIDs:
-    - CWE-757
-    VendorSeverity:
-      amazon: 1
-      julia: 3
-      redhat: 1
-      ubuntu: 1
-    CVSS:
-      julia:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 3.1
-    References:
-    - http://www.openwall.com/lists/oss-security/2026/03/13/3
-    - https://access.redhat.com/security/cve/CVE-2026-2673
-    - https://github.com/advisories/GHSA-wj64-gh9j-xm82
-    - https://github.com/openssl/openssl/commit/2157c9d81f7b0bd7dfa25b960e928ec28e8dd63f
-    - https://github.com/openssl/openssl/commit/85977e013f32ceb96aa034c0e741adddc1a05e34
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-2673
-    - https://openssl-library.org/news/secadv/20260313.txt
-    - https://ubuntu.com/security/notices/USN-8155-1
-    - https://www.cve.org/CVERecord?id=CVE-2026-2673
-    PublishedDate: '2026-03-13T19:54:34.033Z'
-    LastModifiedDate: '2026-03-17T18:16:15.6Z'
   - VulnerabilityID: CVE-2026-28387
     PkgID: openssl@3.5.1-7.el9_7.x86_64
     PkgName: openssl
@@ -44327,79 +44341,6 @@
     - https://www.openwall.com/lists/oss-security/2026/04/07/11
     PublishedDate: '2026-04-07T22:16:21.617Z'
     LastModifiedDate: '2026-04-23T15:39:34.377Z'
-  - VulnerabilityID: CVE-2026-31790
-    PkgID: openssl-fips-provider@3.0.7-8.el9.x86_64
-    PkgName: openssl-fips-provider
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/openssl-fips-provider@3.0.7-8.el9?arch=x86_64&distro=redhat-9.7
-      UID: 8260b44d53e212aa
-    InstalledVersion: 3.0.7-8.el9
-    Status: affected
-    Layer:
-      Digest: sha256:59cbbc1b3d955cdf585f9c532d293c0659b06e86adab4817705c6ea445c5c64a
-      DiffID: sha256:d68b9a0fabe03f3792ddb8c974984635f791cf890d4b60c10d0b0320211459ec
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-31790
-    Fingerprint: sha256:ce48326d9e411555fcea1e1eb176a67e8c2336c528dc7b1e6fa2515370155800
-    Title: 'openssl: openssl: Information Disclosure from Uninitialized Memory via Invalid RSA Public Key'
-    Description: |-
-      Issue summary: Applications using RSASVE key encapsulation to establish
-      a secret encryption key can send contents of an uninitialized memory buffer to
-      a malicious peer.
-
-      Impact summary: The uninitialized buffer might contain sensitive data from the
-      previous execution of the application process which leads to sensitive data
-      leakage to an attacker.
-
-      RSA_public_encrypt() returns the number of bytes written on success and -1
-      on error. The affected code tests only whether the return value is non-zero.
-      As a result, if RSA encryption fails, encapsulation can still return success to
-      the caller, set the output lengths, and leave the caller to use the contents of
-      the ciphertext buffer as if a valid KEM ciphertext had been produced.
-
-      If applications use EVP_PKEY_encapsulate() with RSA/RSASVE on an
-      attacker-supplied invalid RSA public key without first validating that key,
-      then this may cause stale or uninitialized contents of the caller-provided
-      ciphertext buffer to be disclosed to the attacker in place of the KEM
-      ciphertext.
-
-      As a workaround calling EVP_PKEY_public_check() or
-      EVP_PKEY_public_check_quick() before EVP_PKEY_encapsulate() will mitigate
-      the issue.
-
-      The FIPS modules in 3.6, 3.5, 3.4, 3.3, 3.1 and 3.0 are affected by this issue.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-754
-    VendorSeverity:
-      amazon: 3
-      azure: 2
-      julia: 3
-      photon: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      julia:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 5.9
-    References:
-    - https://access.redhat.com/security/cve/CVE-2026-31790
-    - https://github.com/advisories/GHSA-vgxx-5xj5-q97x
-    - https://github.com/openssl/openssl/commit/001e01db3e996e13ffc72386fe79d03a6683b5ac
-    - https://github.com/openssl/openssl/commit/abd8b2eec7e3f3fda60ecfb68498b246b52af482
-    - https://github.com/openssl/openssl/commit/b922e24e5b23ffb9cb9e14cadff23d91e9f7e406
-    - https://github.com/openssl/openssl/commit/d5f8e71cd0a54e961d0c3b174348f8308486f790
-    - https://github.com/openssl/openssl/commit/eed200f58cd8645ed77e46b7e9f764e284df379e
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-31790
-    - https://openssl-library.org/news/secadv/20260407.txt
-    - https://ubuntu.com/security/notices/USN-8155-1
-    - https://www.cve.org/CVERecord?id=CVE-2026-31790
-    - https://www.openwall.com/lists/oss-security/2026/04/07/11
-    PublishedDate: '2026-04-07T22:16:21.77Z'
-    LastModifiedDate: '2026-04-23T15:39:44.033Z'
   - VulnerabilityID: CVE-2026-2673
     PkgID: openssl-fips-provider@3.0.7-8.el9.x86_64
     PkgName: openssl-fips-provider
@@ -44468,21 +44409,21 @@
       OpenSSL 3.5 users should upgrade to OpenSSL 3.5.6 once it is released.
 
       OpenSSL 3.4, 3.3, 3.0, 1.0.2 and 1.1.1 are not affected by this issue.
-    Severity: LOW
+    Severity: MEDIUM
     CweIDs:
     - CWE-757
     VendorSeverity:
       amazon: 1
       julia: 3
-      redhat: 1
+      redhat: 2
       ubuntu: 1
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 7.5
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 3.1
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:L
+        V3Score: 4.2
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/13/3
     - https://access.redhat.com/security/cve/CVE-2026-2673
@@ -44496,11 +44437,11 @@
     PublishedDate: '2026-03-13T19:54:34.033Z'
     LastModifiedDate: '2026-03-17T18:16:15.6Z'
   - VulnerabilityID: CVE-2026-31790
-    PkgID: openssl-fips-provider-so@3.0.7-8.el9.x86_64
-    PkgName: openssl-fips-provider-so
+    PkgID: openssl-fips-provider@3.0.7-8.el9.x86_64
+    PkgName: openssl-fips-provider
     PkgIdentifier:
-      PURL: pkg:rpm/redhat/openssl-fips-provider-so@3.0.7-8.el9?arch=x86_64&distro=redhat-9.7
-      UID: c90a9c070cc565ff
+      PURL: pkg:rpm/redhat/openssl-fips-provider@3.0.7-8.el9?arch=x86_64&distro=redhat-9.7
+      UID: 8260b44d53e212aa
     InstalledVersion: 3.0.7-8.el9
     Status: affected
     Layer:
@@ -44508,7 +44449,7 @@
       DiffID: sha256:d68b9a0fabe03f3792ddb8c974984635f791cf890d4b60c10d0b0320211459ec
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-31790
-    Fingerprint: sha256:9b9f80699c42b4015c7ad432cf6a8f74bc56d6b920f40aee2c2a93ac93519140
+    Fingerprint: sha256:ce48326d9e411555fcea1e1eb176a67e8c2336c528dc7b1e6fa2515370155800
     Title: 'openssl: openssl: Information Disclosure from Uninitialized Memory via Invalid RSA Public Key'
     Description: |-
       Issue summary: Applications using RSASVE key encapsulation to establish
@@ -44636,21 +44577,189 @@
       OpenSSL 3.5 users should upgrade to OpenSSL 3.5.6 once it is released.
 
       OpenSSL 3.4, 3.3, 3.0, 1.0.2 and 1.1.1 are not affected by this issue.
-    Severity: LOW
+    Severity: MEDIUM
     CweIDs:
     - CWE-757
     VendorSeverity:
       amazon: 1
       julia: 3
-      redhat: 1
+      redhat: 2
       ubuntu: 1
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 7.5
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 3.1
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:L
+        V3Score: 4.2
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/03/13/3
+    - https://access.redhat.com/security/cve/CVE-2026-2673
+    - https://github.com/advisories/GHSA-wj64-gh9j-xm82
+    - https://github.com/openssl/openssl/commit/2157c9d81f7b0bd7dfa25b960e928ec28e8dd63f
+    - https://github.com/openssl/openssl/commit/85977e013f32ceb96aa034c0e741adddc1a05e34
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-2673
+    - https://openssl-library.org/news/secadv/20260313.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-2673
+    PublishedDate: '2026-03-13T19:54:34.033Z'
+    LastModifiedDate: '2026-03-17T18:16:15.6Z'
+  - VulnerabilityID: CVE-2026-31790
+    PkgID: openssl-fips-provider-so@3.0.7-8.el9.x86_64
+    PkgName: openssl-fips-provider-so
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-fips-provider-so@3.0.7-8.el9?arch=x86_64&distro=redhat-9.7
+      UID: c90a9c070cc565ff
+    InstalledVersion: 3.0.7-8.el9
+    Status: affected
+    Layer:
+      Digest: sha256:59cbbc1b3d955cdf585f9c532d293c0659b06e86adab4817705c6ea445c5c64a
+      DiffID: sha256:d68b9a0fabe03f3792ddb8c974984635f791cf890d4b60c10d0b0320211459ec
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-31790
+    Fingerprint: sha256:9b9f80699c42b4015c7ad432cf6a8f74bc56d6b920f40aee2c2a93ac93519140
+    Title: 'openssl: openssl: Information Disclosure from Uninitialized Memory via Invalid RSA Public Key'
+    Description: |-
+      Issue summary: Applications using RSASVE key encapsulation to establish
+      a secret encryption key can send contents of an uninitialized memory buffer to
+      a malicious peer.
+
+      Impact summary: The uninitialized buffer might contain sensitive data from the
+      previous execution of the application process which leads to sensitive data
+      leakage to an attacker.
+
+      RSA_public_encrypt() returns the number of bytes written on success and -1
+      on error. The affected code tests only whether the return value is non-zero.
+      As a result, if RSA encryption fails, encapsulation can still return success to
+      the caller, set the output lengths, and leave the caller to use the contents of
+      the ciphertext buffer as if a valid KEM ciphertext had been produced.
+
+      If applications use EVP_PKEY_encapsulate() with RSA/RSASVE on an
+      attacker-supplied invalid RSA public key without first validating that key,
+      then this may cause stale or uninitialized contents of the caller-provided
+      ciphertext buffer to be disclosed to the attacker in place of the KEM
+      ciphertext.
+
+      As a workaround calling EVP_PKEY_public_check() or
+      EVP_PKEY_public_check_quick() before EVP_PKEY_encapsulate() will mitigate
+      the issue.
+
+      The FIPS modules in 3.6, 3.5, 3.4, 3.3, 3.1 and 3.0 are affected by this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-754
+    VendorSeverity:
+      amazon: 3
+      azure: 2
+      julia: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-31790
+    - https://github.com/advisories/GHSA-vgxx-5xj5-q97x
+    - https://github.com/openssl/openssl/commit/001e01db3e996e13ffc72386fe79d03a6683b5ac
+    - https://github.com/openssl/openssl/commit/abd8b2eec7e3f3fda60ecfb68498b246b52af482
+    - https://github.com/openssl/openssl/commit/b922e24e5b23ffb9cb9e14cadff23d91e9f7e406
+    - https://github.com/openssl/openssl/commit/d5f8e71cd0a54e961d0c3b174348f8308486f790
+    - https://github.com/openssl/openssl/commit/eed200f58cd8645ed77e46b7e9f764e284df379e
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-31790
+    - https://openssl-library.org/news/secadv/20260407.txt
+    - https://ubuntu.com/security/notices/USN-8155-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-31790
+    - https://www.openwall.com/lists/oss-security/2026/04/07/11
+    PublishedDate: '2026-04-07T22:16:21.77Z'
+    LastModifiedDate: '2026-04-23T15:39:44.033Z'
+  - VulnerabilityID: CVE-2026-2673
+    PkgID: openssl-libs@3.5.1-7.el9_7.x86_64
+    PkgName: openssl-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-7.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
+      UID: be1622e58e3c5c9f
+    InstalledVersion: 1:3.5.1-7.el9_7
+    Status: affected
+    Layer:
+      Digest: sha256:59cbbc1b3d955cdf585f9c532d293c0659b06e86adab4817705c6ea445c5c64a
+      DiffID: sha256:d68b9a0fabe03f3792ddb8c974984635f791cf890d4b60c10d0b0320211459ec
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-2673
+    Fingerprint: sha256:9b911d3c848d2eb11269e5bf5112c67de2cbf9548f06131c306bafb31ce250b1
+    Title: 'openssl: OpenSSL TLS 1.3 server may choose unexpected key agreement group'
+    Description: |-
+      Issue summary: An OpenSSL TLS 1.3 server may fail to negotiate the expected
+      preferred key exchange group when its key exchange group configuration includes
+      the default by using the 'DEFAULT' keyword.
+
+      Impact summary: A less preferred key exchange may be used even when a more
+      preferred group is supported by both client and server, if the group
+      was not included among the client's initial predicated keyshares.
+      This will sometimes be the case with the new hybrid post-quantum groups,
+      if the client chooses to defer their use until specifically requested by
+      the server.
+
+      If an OpenSSL TLS 1.3 server's configuration uses the 'DEFAULT' keyword to
+      interpolate the built-in default group list into its own configuration, perhaps
+      adding or removing specific elements, then an implementation defect causes the
+      'DEFAULT' list to lose its 'tuple' structure, and all server-supported groups
+      were treated as a single sufficiently secure 'tuple', with the server not
+      sending a Hello Retry Request (HRR) even when a group in a more preferred tuple
+      was mutually supported.
+
+      As a result, the client and server might fail to negotiate a mutually supported
+      post-quantum key agreement group, such as 'X25519MLKEM768', if the client's
+      configuration results in only 'classical' groups (such as 'X25519' being the
+      only ones in the client's initial keyshare prediction).
+
+      OpenSSL 3.5 and later support a new syntax for selecting the most preferred TLS
+      1.3 key agreement group on TLS servers.  The old syntax had a single 'flat'
+      list of groups, and treated all the supported groups as sufficiently secure.
+      If any of the keyshares predicted by the client were supported by the server
+      the most preferred among these was selected, even if other groups supported by
+      the client, but not included in the list of predicted keyshares would have been
+      more preferred, if included.
+
+      The new syntax partitions the groups into distinct 'tuples' of roughly
+      equivalent security.  Within each tuple the most preferred group included among
+      the client's predicted keyshares is chosen, but if the client supports a group
+      from a more preferred tuple, but did not predict any corresponding keyshares,
+      the server will ask the client to retry the ClientHello (by issuing a Hello
+      Retry Request or HRR) with the most preferred mutually supported group.
+
+      The above works as expected when the server's configuration uses the built-in
+      default group list, or explicitly defines its own list by directly defining the
+      various desired groups and group 'tuples'.
+
+      No OpenSSL FIPS modules are affected by this issue, the code in question lies
+      outside the FIPS boundary.
+
+      OpenSSL 3.6 and 3.5 are vulnerable to this issue.
+
+      OpenSSL 3.6 users should upgrade to OpenSSL 3.6.2 once it is released.
+      OpenSSL 3.5 users should upgrade to OpenSSL 3.5.6 once it is released.
+
+      OpenSSL 3.4, 3.3, 3.0, 1.0.2 and 1.1.1 are not affected by this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-757
+    VendorSeverity:
+      amazon: 1
+      julia: 3
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:L
+        V3Score: 4.2
     References:
     - http://www.openwall.com/lists/oss-security/2026/03/13/3
     - https://access.redhat.com/security/cve/CVE-2026-2673
@@ -45217,101 +45326,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-9232
     PublishedDate: '2025-09-30T14:15:41.313Z'
     LastModifiedDate: '2026-04-15T00:35:42.02Z'
-  - VulnerabilityID: CVE-2026-2673
-    PkgID: openssl-libs@3.5.1-7.el9_7.x86_64
-    PkgName: openssl-libs
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/openssl-libs@3.5.1-7.el9_7?arch=x86_64&distro=redhat-9.7&epoch=1
-      UID: be1622e58e3c5c9f
-    InstalledVersion: 1:3.5.1-7.el9_7
-    Status: affected
-    Layer:
-      Digest: sha256:59cbbc1b3d955cdf585f9c532d293c0659b06e86adab4817705c6ea445c5c64a
-      DiffID: sha256:d68b9a0fabe03f3792ddb8c974984635f791cf890d4b60c10d0b0320211459ec
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-2673
-    Fingerprint: sha256:9b911d3c848d2eb11269e5bf5112c67de2cbf9548f06131c306bafb31ce250b1
-    Title: 'openssl: OpenSSL TLS 1.3 server may choose unexpected key agreement group'
-    Description: |-
-      Issue summary: An OpenSSL TLS 1.3 server may fail to negotiate the expected
-      preferred key exchange group when its key exchange group configuration includes
-      the default by using the 'DEFAULT' keyword.
-
-      Impact summary: A less preferred key exchange may be used even when a more
-      preferred group is supported by both client and server, if the group
-      was not included among the client's initial predicated keyshares.
-      This will sometimes be the case with the new hybrid post-quantum groups,
-      if the client chooses to defer their use until specifically requested by
-      the server.
-
-      If an OpenSSL TLS 1.3 server's configuration uses the 'DEFAULT' keyword to
-      interpolate the built-in default group list into its own configuration, perhaps
-      adding or removing specific elements, then an implementation defect causes the
-      'DEFAULT' list to lose its 'tuple' structure, and all server-supported groups
-      were treated as a single sufficiently secure 'tuple', with the server not
-      sending a Hello Retry Request (HRR) even when a group in a more preferred tuple
-      was mutually supported.
-
-      As a result, the client and server might fail to negotiate a mutually supported
-      post-quantum key agreement group, such as 'X25519MLKEM768', if the client's
-      configuration results in only 'classical' groups (such as 'X25519' being the
-      only ones in the client's initial keyshare prediction).
-
-      OpenSSL 3.5 and later support a new syntax for selecting the most preferred TLS
-      1.3 key agreement group on TLS servers.  The old syntax had a single 'flat'
-      list of groups, and treated all the supported groups as sufficiently secure.
-      If any of the keyshares predicted by the client were supported by the server
-      the most preferred among these was selected, even if other groups supported by
-      the client, but not included in the list of predicted keyshares would have been
-      more preferred, if included.
-
-      The new syntax partitions the groups into distinct 'tuples' of roughly
-      equivalent security.  Within each tuple the most preferred group included among
-      the client's predicted keyshares is chosen, but if the client supports a group
-      from a more preferred tuple, but did not predict any corresponding keyshares,
-      the server will ask the client to retry the ClientHello (by issuing a Hello
-      Retry Request or HRR) with the most preferred mutually supported group.
-
-      The above works as expected when the server's configuration uses the built-in
-      default group list, or explicitly defines its own list by directly defining the
-      various desired groups and group 'tuples'.
-
-      No OpenSSL FIPS modules are affected by this issue, the code in question lies
-      outside the FIPS boundary.
-
-      OpenSSL 3.6 and 3.5 are vulnerable to this issue.
-
-      OpenSSL 3.6 users should upgrade to OpenSSL 3.6.2 once it is released.
-      OpenSSL 3.5 users should upgrade to OpenSSL 3.5.6 once it is released.
-
-      OpenSSL 3.4, 3.3, 3.0, 1.0.2 and 1.1.1 are not affected by this issue.
-    Severity: LOW
-    CweIDs:
-    - CWE-757
-    VendorSeverity:
-      amazon: 1
-      julia: 3
-      redhat: 1
-      ubuntu: 1
-    CVSS:
-      julia:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 3.1
-    References:
-    - http://www.openwall.com/lists/oss-security/2026/03/13/3
-    - https://access.redhat.com/security/cve/CVE-2026-2673
-    - https://github.com/advisories/GHSA-wj64-gh9j-xm82
-    - https://github.com/openssl/openssl/commit/2157c9d81f7b0bd7dfa25b960e928ec28e8dd63f
-    - https://github.com/openssl/openssl/commit/85977e013f32ceb96aa034c0e741adddc1a05e34
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-2673
-    - https://openssl-library.org/news/secadv/20260313.txt
-    - https://ubuntu.com/security/notices/USN-8155-1
-    - https://www.cve.org/CVERecord?id=CVE-2026-2673
-    PublishedDate: '2026-03-13T19:54:34.033Z'
-    LastModifiedDate: '2026-03-17T18:16:15.6Z'
   - VulnerabilityID: CVE-2026-28387
     PkgID: openssl-libs@3.5.1-7.el9_7.x86_64
     PkgName: openssl-libs
