@@ -1268,12 +1268,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
-    - https://access.redhat.com/errata/RHSA-2025:20559
+    - https://access.redhat.com/errata/RHSA-2025:20145
     - https://access.redhat.com/security/cve/CVE-2024-56433
     - https://bugzilla.redhat.com/2334165
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
-    - https://errata.almalinux.org/9/ALSA-2025-20559.html
+    - https://errata.almalinux.org/10/ALSA-2025-20145.html
     - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
@@ -1408,12 +1408,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N
         V3Score: 3.6
     References:
-    - https://access.redhat.com/errata/RHSA-2025:20559
+    - https://access.redhat.com/errata/RHSA-2025:20145
     - https://access.redhat.com/security/cve/CVE-2024-56433
     - https://bugzilla.redhat.com/2334165
     - https://bugzilla.redhat.com/show_bug.cgi?id=2334165
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-56433
-    - https://errata.almalinux.org/9/ALSA-2025-20559.html
+    - https://errata.almalinux.org/10/ALSA-2025-20145.html
     - https://errata.rockylinux.org/RLSA-2025:20559
     - https://github.com/shadow-maint/shadow/blob/e2512d5741d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L241
     - https://github.com/shadow-maint/shadow/issues/1157
@@ -2381,12 +2381,12 @@
         V3Score: 5.6
     References:
     - http://www.openwall.com/lists/oss-security/2025/11/01/6
-    - https://access.redhat.com/errata/RHSA-2026:0067
+    - https://access.redhat.com/errata/RHSA-2026:0002
     - https://access.redhat.com/security/cve/CVE-2025-45582
     - https://bugzilla.redhat.com/2379592
     - https://bugzilla.redhat.com/show_bug.cgi?id=2379592
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-45582
-    - https://errata.almalinux.org/9/ALSA-2026-0067.html
+    - https://errata.almalinux.org/10/ALSA-2026-0002.html
     - https://errata.rockylinux.org/RLSA-2026:0067
     - https://github.com/i900008/vulndb/blob/main/Gnu_tar_vuln.md
     - https://linux.oracle.com/cve/CVE-2025-45582.html
@@ -2600,6 +2600,7 @@
     Layer:
       Digest: sha256:078d2ce378de2e804a27ad5ff4d2a7c189edea6f0012e62460721aed12647291
       DiffID: sha256:0c39e05356361e7b35b2d1b5c8d3a4974c1dfa703cf984a29fd017a9b64b5381
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-33814
     DataSource:
       ID: govulndb
@@ -2609,10 +2610,16 @@
     Title: When processing HTTP/2 SETTINGS frames, transport will enter an infini ...
     Description: When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.
     Severity: HIGH
+    CweIDs:
+    - CWE-835
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -2623,7 +2630,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33814
     - https://pkg.go.dev/vuln/GO-2026-4918
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-05-08T19:16:30.567Z'
+    LastModifiedDate: '2026-05-13T14:41:59.52Z'
   - VulnerabilityID: CVE-2026-39820
     VendorIDs:
     - GO-2026-4986
@@ -2638,6 +2645,7 @@
     Layer:
       Digest: sha256:078d2ce378de2e804a27ad5ff4d2a7c189edea6f0012e62460721aed12647291
       DiffID: sha256:0c39e05356361e7b35b2d1b5c8d3a4974c1dfa703cf984a29fd017a9b64b5381
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39820
     DataSource:
       ID: govulndb
@@ -2647,10 +2655,16 @@
     Title: Well-crafted inputs reaching ParseAddress, ParseAddressList, and Parse ...
     Description: Well-crafted inputs reaching ParseAddress, ParseAddressList, and ParseDate were able to trigger excessive CPU exhaustion and memory allocations.
     Severity: HIGH
+    CweIDs:
+    - CWE-770
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -2660,7 +2674,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39820
     - https://pkg.go.dev/vuln/GO-2026-4986
     PublishedDate: '2026-05-07T20:16:43.187Z'
-    LastModifiedDate: '2026-05-08T15:16:37.323Z'
+    LastModifiedDate: '2026-05-13T15:10:58.65Z'
   - VulnerabilityID: CVE-2026-39836
     VendorIDs:
     - GO-2026-4971
@@ -2675,6 +2689,7 @@
     Layer:
       Digest: sha256:078d2ce378de2e804a27ad5ff4d2a7c189edea6f0012e62460721aed12647291
       DiffID: sha256:0c39e05356361e7b35b2d1b5c8d3a4974c1dfa703cf984a29fd017a9b64b5381
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39836
     DataSource:
       ID: govulndb
@@ -2684,10 +2699,16 @@
     Title: Panic in Dial and LookupPort when handling NUL byte on Windows in net
     Description: The Dial and LookupPort functions panic on Windows when provided with an input containing a NUL (0).
     Severity: HIGH
+    CweIDs:
+    - CWE-476
     VendorSeverity:
       bitnami: 3
+      nvd: 3
     CVSS:
       bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
@@ -2697,7 +2718,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39836
     - https://pkg.go.dev/vuln/GO-2026-4971
     PublishedDate: '2026-05-07T20:16:43.593Z'
-    LastModifiedDate: '2026-05-08T22:16:29.723Z'
+    LastModifiedDate: '2026-05-13T15:11:10.31Z'
   - VulnerabilityID: CVE-2026-42499
     VendorIDs:
     - GO-2026-4977
@@ -2734,7 +2755,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-42499
     - https://pkg.go.dev/vuln/GO-2026-4977
     PublishedDate: '2026-05-07T20:16:44.54Z'
-    LastModifiedDate: '2026-05-08T22:16:33.183Z'
+    LastModifiedDate: '2026-05-13T16:59:17.563Z'
   - VulnerabilityID: CVE-2026-39823
     VendorIDs:
     - GO-2026-4982
@@ -2758,6 +2779,8 @@
     Title: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly  ...
     Description: CVE-2026-27142 fixed a vulnerability in which URLs were not correctly escaped inside of a <meta> tag's <content> attribute. If the URL content were to insert ASCII whitespaces around the '=' rune inside of the <content> attribute, the escaper would fail to similarly escape it, leading to XSS.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-79
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -2771,7 +2794,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39823
     - https://pkg.go.dev/vuln/GO-2026-4982
     PublishedDate: '2026-05-07T20:16:43.29Z'
-    LastModifiedDate: '2026-05-08T15:16:37.5Z'
+    LastModifiedDate: '2026-05-13T16:58:45.697Z'
   - VulnerabilityID: CVE-2026-39825
     VendorIDs:
     - GO-2026-4976
@@ -2808,7 +2831,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39825
     - https://pkg.go.dev/vuln/GO-2026-4976
     PublishedDate: '2026-05-07T20:16:43.39Z'
-    LastModifiedDate: '2026-05-08T22:16:29.547Z'
+    LastModifiedDate: '2026-05-13T16:58:56.39Z'
   - VulnerabilityID: CVE-2026-39826
     VendorIDs:
     - GO-2026-4980
@@ -2832,6 +2855,8 @@
     Title: If a trusted template author were to write a <script> tag containing a ...
     Description: If a trusted template author were to write a <script> tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the <script> block.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-116
     VendorSeverity:
       bitnami: 2
     CVSS:
@@ -2845,4 +2870,4 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-39826
     - https://pkg.go.dev/vuln/GO-2026-4980
     PublishedDate: '2026-05-07T20:16:43.49Z'
-    LastModifiedDate: '2026-05-08T15:16:37.68Z'
+    LastModifiedDate: '2026-05-13T16:59:07.48Z'
