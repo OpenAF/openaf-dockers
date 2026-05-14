@@ -1515,13 +1515,13 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.6 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20559 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20145 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56433 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2334165 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2334165 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-56433 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-20145.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
 │                       │      │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d574
 │                       │      │                  │       1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
@@ -1694,13 +1694,13 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.6 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20559 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2025:20145 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024-56433 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2334165 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2334165 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       24-56433 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2025-20559.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/10/ALSA-2025-20145.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2025:20559 
 │                       │      │                  ├ [7] : https://github.com/shadow-maint/shadow/blob/e2512d574
 │                       │      │                  │       1d4a44bdd81a8c2d0029b6222728cf0/etc/login.defs#L238-L
@@ -2842,13 +2842,13 @@
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.6 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2025/11/01/6 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:0067 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:0002 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2025-45582 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2379592 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2379592 
 │                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       25-45582 
-│                       │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2026-0067.html 
+│                       │      │                  ├ [6] : https://errata.almalinux.org/10/ALSA-2026-0002.html 
 │                       │      │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:0067 
 │                       │      │                  ├ [8] : https://github.com/i900008/vulndb/blob/main/Gnu_tar_v
 │                       │      │                  │       uln.md 
@@ -3093,6 +3093,7 @@
                         │     │                  │         62460721aed12647291 
                         │     │                  ╰ DiffID: sha256:0c39e05356361e7b35b2d1b5c8d3a4974c1dfa703cf98
                         │     │                            4a29fd017a9b64b5381 
+                        │     ├ SeveritySource  : nvd 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33814 
                         │     ├ DataSource       ╭ ID  : govulndb 
                         │     │                  ├ Name: The Go Vulnerability Database 
@@ -3105,8 +3106,13 @@
                         │     │                   an infinite loop of writing CONTINUATION frames if it
                         │     │                   receives a SETTINGS_MAX_FRAME_SIZE with a value of 0. 
                         │     ├ Severity        : HIGH 
-                        │     ├ VendorSeverity   ─ bitnami: 3 
-                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+                        │     ├ CweIDs           ─ [0]: CWE-835 
+                        │     ├ VendorSeverity   ╭ bitnami: 3 
+                        │     │                  ╰ nvd    : 3 
+                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+                        │     │                  │         │           /A:H 
+                        │     │                  │         ╰ V3Score : 7.5 
+                        │     │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
                         │     │                            │           /A:H 
                         │     │                            ╰ V3Score : 7.5 
                         │     ├ References       ╭ [0]: https://go.dev/cl/761581 
@@ -3116,7 +3122,7 @@
                         │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-33814 
                         │     │                  ╰ [5]: https://pkg.go.dev/vuln/GO-2026-4918 
                         │     ├ PublishedDate   : 2026-05-07T20:16:42.88Z 
-                        │     ╰ LastModifiedDate: 2026-05-08T19:16:30.567Z 
+                        │     ╰ LastModifiedDate: 2026-05-13T14:41:59.52Z 
                         ├ [2] ╭ VulnerabilityID : CVE-2026-39820 
                         │     ├ VendorIDs        ─ [0]: GO-2026-4986 
                         │     ├ PkgID           : stdlib@v1.26.2 
@@ -3130,6 +3136,7 @@
                         │     │                  │         62460721aed12647291 
                         │     │                  ╰ DiffID: sha256:0c39e05356361e7b35b2d1b5c8d3a4974c1dfa703cf98
                         │     │                            4a29fd017a9b64b5381 
+                        │     ├ SeveritySource  : nvd 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-39820 
                         │     ├ DataSource       ╭ ID  : govulndb 
                         │     │                  ├ Name: The Go Vulnerability Database 
@@ -3142,8 +3149,13 @@
                         │     │                   and ParseDate were able to trigger excessive CPU exhaustion
                         │     │                   and memory allocations. 
                         │     ├ Severity        : HIGH 
-                        │     ├ VendorSeverity   ─ bitnami: 3 
-                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+                        │     ├ CweIDs           ─ [0]: CWE-770 
+                        │     ├ VendorSeverity   ╭ bitnami: 3 
+                        │     │                  ╰ nvd    : 3 
+                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+                        │     │                  │         │           /A:H 
+                        │     │                  │         ╰ V3Score : 7.5 
+                        │     │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
                         │     │                            │           /A:H 
                         │     │                            ╰ V3Score : 7.5 
                         │     ├ References       ╭ [0]: https://go.dev/cl/759940 
@@ -3152,7 +3164,7 @@
                         │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-39820 
                         │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2026-4986 
                         │     ├ PublishedDate   : 2026-05-07T20:16:43.187Z 
-                        │     ╰ LastModifiedDate: 2026-05-08T15:16:37.323Z 
+                        │     ╰ LastModifiedDate: 2026-05-13T15:10:58.65Z 
                         ├ [3] ╭ VulnerabilityID : CVE-2026-39836 
                         │     ├ VendorIDs        ─ [0]: GO-2026-4971 
                         │     ├ PkgID           : stdlib@v1.26.2 
@@ -3166,6 +3178,7 @@
                         │     │                  │         62460721aed12647291 
                         │     │                  ╰ DiffID: sha256:0c39e05356361e7b35b2d1b5c8d3a4974c1dfa703cf98
                         │     │                            4a29fd017a9b64b5381 
+                        │     ├ SeveritySource  : nvd 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-39836 
                         │     ├ DataSource       ╭ ID  : govulndb 
                         │     │                  ├ Name: The Go Vulnerability Database 
@@ -3177,8 +3190,13 @@
                         │     ├ Description     : The Dial and LookupPort functions panic on Windows when
                         │     │                   provided with an input containing a NUL (0). 
                         │     ├ Severity        : HIGH 
-                        │     ├ VendorSeverity   ─ bitnami: 3 
-                        │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+                        │     ├ CweIDs           ─ [0]: CWE-476 
+                        │     ├ VendorSeverity   ╭ bitnami: 3 
+                        │     │                  ╰ nvd    : 3 
+                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+                        │     │                  │         │           /A:H 
+                        │     │                  │         ╰ V3Score : 7.5 
+                        │     │                  ╰ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
                         │     │                            │           /A:H 
                         │     │                            ╰ V3Score : 7.5 
                         │     ├ References       ╭ [0]: https://go.dev/cl/775320 
@@ -3187,7 +3205,7 @@
                         │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-39836 
                         │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2026-4971 
                         │     ├ PublishedDate   : 2026-05-07T20:16:43.593Z 
-                        │     ╰ LastModifiedDate: 2026-05-08T22:16:29.723Z 
+                        │     ╰ LastModifiedDate: 2026-05-13T15:11:10.31Z 
                         ├ [4] ╭ VulnerabilityID : CVE-2026-42499 
                         │     ├ VendorIDs        ─ [0]: GO-2026-4977 
                         │     ├ PkgID           : stdlib@v1.26.2 
@@ -3222,7 +3240,7 @@
                         │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-42499 
                         │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2026-4977 
                         │     ├ PublishedDate   : 2026-05-07T20:16:44.54Z 
-                        │     ╰ LastModifiedDate: 2026-05-08T22:16:33.183Z 
+                        │     ╰ LastModifiedDate: 2026-05-13T16:59:17.563Z 
                         ├ [5] ╭ VulnerabilityID : CVE-2026-39823 
                         │     ├ VendorIDs        ─ [0]: GO-2026-4982 
                         │     ├ PkgID           : stdlib@v1.26.2 
@@ -3251,6 +3269,7 @@
                         │     │                   attribute, the escaper would fail to similarly escape it,
                         │     │                   leading to XSS. 
                         │     ├ Severity        : MEDIUM 
+                        │     ├ CweIDs           ─ [0]: CWE-79 
                         │     ├ VendorSeverity   ─ bitnami: 2 
                         │     ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L
                         │     │                            │           /A:N 
@@ -3261,7 +3280,7 @@
                         │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-39823 
                         │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2026-4982 
                         │     ├ PublishedDate   : 2026-05-07T20:16:43.29Z 
-                        │     ╰ LastModifiedDate: 2026-05-08T15:16:37.5Z 
+                        │     ╰ LastModifiedDate: 2026-05-13T16:58:45.697Z 
                         ├ [6] ╭ VulnerabilityID : CVE-2026-39825 
                         │     ├ VendorIDs        ─ [0]: GO-2026-4976 
                         │     ├ PkgID           : stdlib@v1.26.2 
@@ -3307,7 +3326,7 @@
                         │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-39825 
                         │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2026-4976 
                         │     ├ PublishedDate   : 2026-05-07T20:16:43.39Z 
-                        │     ╰ LastModifiedDate: 2026-05-08T22:16:29.547Z 
+                        │     ╰ LastModifiedDate: 2026-05-13T16:58:56.39Z 
                         ╰ [7] ╭ VulnerabilityID : CVE-2026-39826 
                               ├ VendorIDs        ─ [0]: GO-2026-4980 
                               ├ PkgID           : stdlib@v1.26.2 
@@ -3335,6 +3354,7 @@
                               │                    incorrectly escape any data passed into the <script>
                               │                   block. 
                               ├ Severity        : MEDIUM 
+                              ├ CweIDs           ─ [0]: CWE-116 
                               ├ VendorSeverity   ─ bitnami: 2 
                               ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L
                               │                            │           /A:N 
@@ -3345,5 +3365,5 @@
                               │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-39826 
                               │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2026-4980 
                               ├ PublishedDate   : 2026-05-07T20:16:43.49Z 
-                              ╰ LastModifiedDate: 2026-05-08T15:16:37.68Z 
+                              ╰ LastModifiedDate: 2026-05-13T16:59:07.48Z 
 ```
