@@ -172,10 +172,15 @@
 │                       │      │                   when it is in fact
 │                       │      │                   still using the connection authenticated for user1... 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      ├ CweIDs           ─ [0]: CWE-613 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:H
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 6.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.5 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-5545 
@@ -186,7 +191,7 @@
 │                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8227-1 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-5545 
 │                       │      ├ PublishedDate   : 2026-05-13T13:01:56.19Z 
-│                       │      ╰ LastModifiedDate: 2026-05-13T18:16:19.573Z 
+│                       │      ╰ LastModifiedDate: 2026-05-13T19:31:07.633Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2026-6253 
 │                       │      ├ PkgID           : curl@8.14.1-2ubuntu1.2 
 │                       │      ├ PkgName         : curl 
@@ -224,7 +229,8 @@
 │                       │      │                   `https://`), accessed using a
 │                       │      │                      second, different, proxy 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      ├ CweIDs           ─ [0]: CWE-522 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N
@@ -239,7 +245,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8227-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-6253 
 │                       │      ├ PublishedDate   : 2026-05-13T13:01:56.57Z 
-│                       │      ╰ LastModifiedDate: 2026-05-13T18:16:20.09Z 
+│                       │      ╰ LastModifiedDate: 2026-05-14T13:40:53.19Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2026-6429 
 │                       │      ├ PkgID           : curl@8.14.1-2ubuntu1.2 
 │                       │      ├ PkgName         : curl 
@@ -268,7 +274,7 @@
 │                       │      │                   first host to the
 │                       │      │                   followed-to host under certain circumstances. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N
@@ -282,7 +288,7 @@
 │                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8227-1 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-6429 
 │                       │      ├ PublishedDate   : 2026-05-13T13:01:56.93Z 
-│                       │      ╰ LastModifiedDate: 2026-05-13T14:50:58.767Z 
+│                       │      ╰ LastModifiedDate: 2026-05-14T14:18:02.24Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2026-7168 
 │                       │      ├ PkgID           : curl@8.14.1-2ubuntu1.2 
 │                       │      ├ PkgName         : curl 
@@ -303,6 +309,8 @@
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Fingerprint     : sha256:691eaee2d990ab2a28c87944ecac0bdbe5613472f1f2d480a5df1
 │                       │      │                   305d394fe31 
+│                       │      ├ Title           : Successfully using libcurl to do a transfer over a specific
+│                       │      │                   HTTP proxy ... 
 │                       │      ├ Description     : Successfully using libcurl to do a transfer over a specific
 │                       │      │                   HTTP proxy
 │                       │      │                   (`proxyA`) with **Digest** authentication and then changing
@@ -313,7 +321,11 @@
 │                       │      │                   field meant for
 │                       │      │                   `proxyA`, to `proxyB`. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ CweIDs           ─ [0]: CWE-294 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N 
+│                       │      │                        ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/04/29/14 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-7168.html 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-7168.json 
@@ -321,7 +333,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8227-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-7168 
 │                       │      ├ PublishedDate   : 2026-05-13T13:01:57.2Z 
-│                       │      ╰ LastModifiedDate: 2026-05-13T16:17:02.437Z 
+│                       │      ╰ LastModifiedDate: 2026-05-14T14:12:48.457Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2026-4873 
 │                       │      ├ PkgID           : curl@8.14.1-2ubuntu1.2 
 │                       │      ├ PkgName         : curl 
@@ -354,6 +366,8 @@
 │                       │      │                   transmit data
 │                       │      │                   unencrypted. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ╭ [0]: CWE-295 
+│                       │      │                  ╰ [1]: CWE-319 
 │                       │      ├ VendorSeverity   ╭ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
@@ -369,7 +383,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8227-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-4873 
 │                       │      ├ PublishedDate   : 2026-05-13T13:01:55.893Z 
-│                       │      ╰ LastModifiedDate: 2026-05-13T14:50:58.767Z 
+│                       │      ╰ LastModifiedDate: 2026-05-14T13:45:11.407Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2026-5773 
 │                       │      ├ PkgID           : curl@8.14.1-2ubuntu1.2 
 │                       │      ├ PkgName         : curl 
@@ -414,10 +428,15 @@
 │                       │      │                   same credentials
 │                       │      │                   are used and the server name is the same. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      ├ CweIDs           ─ [0]: CWE-918 
+│                       │      ├ VendorSeverity   ╭ nvd   : 3 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.5 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/04/29/9 
@@ -429,7 +448,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8227-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-5773 
 │                       │      ├ PublishedDate   : 2026-05-13T13:01:56.307Z 
-│                       │      ╰ LastModifiedDate: 2026-05-13T18:16:19.793Z 
+│                       │      ╰ LastModifiedDate: 2026-05-13T19:13:14.097Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2026-6276 
 │                       │      ├ PkgID           : curl@8.14.1-2ubuntu1.2 
 │                       │      ├ PkgName         : curl 
@@ -462,10 +481,15 @@
 │                       │      │                   the second
 │                       │      │                   request. Leak them. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      ├ CweIDs           ─ [0]: CWE-319 
+│                       │      ├ VendorSeverity   ╭ nvd   : 3 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/04/29/13 
@@ -477,7 +501,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8227-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-6276 
 │                       │      ├ PublishedDate   : 2026-05-13T13:01:56.8Z 
-│                       │      ╰ LastModifiedDate: 2026-05-13T18:16:20.403Z 
+│                       │      ╰ LastModifiedDate: 2026-05-14T14:21:06.997Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2026-2219 
 │                       │      ├ PkgID           : dpkg@1.22.21ubuntu3.1 
 │                       │      ├ PkgName         : dpkg 
@@ -715,7 +739,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ azure : 2 
-│                       │      │                  ├ photon: 2 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
@@ -758,7 +782,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-20 
 │                       │      │                  ╰ [1]: CWE-88 
 │                       │      ├ VendorSeverity   ╭ azure : 2 
-│                       │      │                  ├ photon: 4 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L
@@ -854,7 +878,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ VendorSeverity   ╭ azure : 2 
-│                       │      │                  ├ photon: 2 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
@@ -897,7 +921,7 @@
 │                       │      ├ CweIDs           ╭ [0]: CWE-20 
 │                       │      │                  ╰ [1]: CWE-88 
 │                       │      ├ VendorSeverity   ╭ azure : 2 
-│                       │      │                  ├ photon: 4 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L
@@ -962,10 +986,15 @@
 │                       │      │                   when it is in fact
 │                       │      │                   still using the connection authenticated for user1... 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      ├ CweIDs           ─ [0]: CWE-613 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:H
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 6.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.5 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-5545 
@@ -976,7 +1005,7 @@
 │                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8227-1 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-5545 
 │                       │      ├ PublishedDate   : 2026-05-13T13:01:56.19Z 
-│                       │      ╰ LastModifiedDate: 2026-05-13T18:16:19.573Z 
+│                       │      ╰ LastModifiedDate: 2026-05-13T19:31:07.633Z 
 │                       ├ [19] ╭ VulnerabilityID : CVE-2026-6253 
 │                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1.2 
 │                       │      ├ PkgName         : libcurl4t64 
@@ -1014,7 +1043,8 @@
 │                       │      │                   `https://`), accessed using a
 │                       │      │                      second, different, proxy 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      ├ CweIDs           ─ [0]: CWE-522 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N
@@ -1029,7 +1059,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8227-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-6253 
 │                       │      ├ PublishedDate   : 2026-05-13T13:01:56.57Z 
-│                       │      ╰ LastModifiedDate: 2026-05-13T18:16:20.09Z 
+│                       │      ╰ LastModifiedDate: 2026-05-14T13:40:53.19Z 
 │                       ├ [20] ╭ VulnerabilityID : CVE-2026-6429 
 │                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1.2 
 │                       │      ├ PkgName         : libcurl4t64 
@@ -1058,7 +1088,7 @@
 │                       │      │                   first host to the
 │                       │      │                   followed-to host under certain circumstances. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      ├ VendorSeverity   ╭ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N
@@ -1072,7 +1102,7 @@
 │                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-8227-1 
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-6429 
 │                       │      ├ PublishedDate   : 2026-05-13T13:01:56.93Z 
-│                       │      ╰ LastModifiedDate: 2026-05-13T14:50:58.767Z 
+│                       │      ╰ LastModifiedDate: 2026-05-14T14:18:02.24Z 
 │                       ├ [21] ╭ VulnerabilityID : CVE-2026-7168 
 │                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1.2 
 │                       │      ├ PkgName         : libcurl4t64 
@@ -1093,6 +1123,8 @@
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Fingerprint     : sha256:d9e0c481024fb677d8bf235997439d3a4fc68f7bc5c5fd63d4e62
 │                       │      │                   070aa7c53a4 
+│                       │      ├ Title           : Successfully using libcurl to do a transfer over a specific
+│                       │      │                   HTTP proxy ... 
 │                       │      ├ Description     : Successfully using libcurl to do a transfer over a specific
 │                       │      │                   HTTP proxy
 │                       │      │                   (`proxyA`) with **Digest** authentication and then changing
@@ -1103,7 +1135,11 @@
 │                       │      │                   field meant for
 │                       │      │                   `proxyA`, to `proxyB`. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ CweIDs           ─ [0]: CWE-294 
+│                       │      ├ VendorSeverity   ╭ nvd   : 2 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N 
+│                       │      │                        ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/04/29/14 
 │                       │      │                  ├ [1]: https://curl.se/docs/CVE-2026-7168.html 
 │                       │      │                  ├ [2]: https://curl.se/docs/CVE-2026-7168.json 
@@ -1111,7 +1147,7 @@
 │                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-8227-1 
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-7168 
 │                       │      ├ PublishedDate   : 2026-05-13T13:01:57.2Z 
-│                       │      ╰ LastModifiedDate: 2026-05-13T16:17:02.437Z 
+│                       │      ╰ LastModifiedDate: 2026-05-14T14:12:48.457Z 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2026-4873 
 │                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1.2 
 │                       │      ├ PkgName         : libcurl4t64 
@@ -1144,6 +1180,8 @@
 │                       │      │                   transmit data
 │                       │      │                   unencrypted. 
 │                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ╭ [0]: CWE-295 
+│                       │      │                  ╰ [1]: CWE-319 
 │                       │      ├ VendorSeverity   ╭ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
@@ -1159,7 +1197,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8227-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-4873 
 │                       │      ├ PublishedDate   : 2026-05-13T13:01:55.893Z 
-│                       │      ╰ LastModifiedDate: 2026-05-13T14:50:58.767Z 
+│                       │      ╰ LastModifiedDate: 2026-05-14T13:45:11.407Z 
 │                       ├ [23] ╭ VulnerabilityID : CVE-2026-5773 
 │                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1.2 
 │                       │      ├ PkgName         : libcurl4t64 
@@ -1204,10 +1242,15 @@
 │                       │      │                   same credentials
 │                       │      │                   are used and the server name is the same. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      ├ CweIDs           ─ [0]: CWE-918 
+│                       │      ├ VendorSeverity   ╭ nvd   : 3 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N
+│                       │      │                  │        │           /A:N 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.5 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/04/29/9 
@@ -1219,7 +1262,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8227-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-5773 
 │                       │      ├ PublishedDate   : 2026-05-13T13:01:56.307Z 
-│                       │      ╰ LastModifiedDate: 2026-05-13T18:16:19.793Z 
+│                       │      ╰ LastModifiedDate: 2026-05-13T19:13:14.097Z 
 │                       ├ [24] ╭ VulnerabilityID : CVE-2026-6276 
 │                       │      ├ PkgID           : libcurl4t64@8.14.1-2ubuntu1.2 
 │                       │      ├ PkgName         : libcurl4t64 
@@ -1252,10 +1295,15 @@
 │                       │      │                   the second
 │                       │      │                   request. Leak them. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ╭ photon: 2 
+│                       │      ├ CweIDs           ─ [0]: CWE-319 
+│                       │      ├ VendorSeverity   ╭ nvd   : 3 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2026/04/29/13 
@@ -1267,7 +1315,7 @@
 │                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-8227-1 
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-6276 
 │                       │      ├ PublishedDate   : 2026-05-13T13:01:56.8Z 
-│                       │      ╰ LastModifiedDate: 2026-05-13T18:16:20.403Z 
+│                       │      ╰ LastModifiedDate: 2026-05-14T14:21:06.997Z 
 │                       ├ [25] ╭ VulnerabilityID : CVE-2024-2236 
 │                       │      ├ PkgID           : libgcrypt20@1.11.0-7build1 
 │                       │      ├ PkgName         : libgcrypt20 
@@ -1611,43 +1659,31 @@
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7.5 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/20/3 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:7675 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:8339 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-27135 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2431340 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2436942 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2441268 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2447140 
-│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2447141 
-│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2447142 
-│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2447143 
-│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2447144 
-│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2447145 
-│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2448754 
-│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2453037 
-│                       │      │                  ├ [14]: https://bugzilla.redhat.com/2453151 
-│                       │      │                  ├ [15]: https://bugzilla.redhat.com/2453152 
-│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2453157 
-│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2453158 
-│                       │      │                  ├ [18]: https://bugzilla.redhat.com/2453160 
-│                       │      │                  ├ [19]: https://bugzilla.redhat.com/2453161 
-│                       │      │                  ├ [20]: https://bugzilla.redhat.com/2453162 
-│                       │      │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2448754 
-│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2441268 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2442922 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2448754 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2453151 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2448754 
+│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-27135 
-│                       │      │                  ├ [23]: https://errata.almalinux.org/10/ALSA-2026-7675.html 
-│                       │      │                  ├ [24]: https://errata.rockylinux.org/RLSA-2026:7668 
-│                       │      │                  ├ [25]: https://github.com/nghttp2/nghttp2/commit/5c7df8fa815
+│                       │      │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2026-8339.html 
+│                       │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:7668 
+│                       │      │                  ├ [11]: https://github.com/nghttp2/nghttp2/commit/5c7df8fa815
 │                       │      │                  │       ac1004d9ecb9d1f7595c4d37f46e1 
-│                       │      │                  ├ [26]: https://github.com/nghttp2/nghttp2/security/advisorie
+│                       │      │                  ├ [12]: https://github.com/nghttp2/nghttp2/security/advisorie
 │                       │      │                  │       s/GHSA-6933-cjhr-5qg6 
-│                       │      │                  ├ [27]: https://linux.oracle.com/cve/CVE-2026-27135.html 
-│                       │      │                  ├ [28]: https://linux.oracle.com/errata/ELSA-2026-8339.html 
-│                       │      │                  ├ [29]: https://nvd.nist.gov/vuln/detail/CVE-2026-27135 
-│                       │      │                  ├ [30]: https://ubuntu.com/security/notices/USN-8233-1 
-│                       │      │                  ├ [31]: https://ubuntu.com/security/notices/USN-8233-2 
-│                       │      │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2026-27135 
+│                       │      │                  ├ [13]: https://linux.oracle.com/cve/CVE-2026-27135.html 
+│                       │      │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2026-8339.html 
+│                       │      │                  ├ [15]: https://lists.debian.org/debian-lts-announce/2026/05/
+│                       │      │                  │       msg00025.html 
+│                       │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-27135 
+│                       │      │                  ├ [17]: https://ubuntu.com/security/notices/USN-8233-1 
+│                       │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-8233-2 
+│                       │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2026-27135 
 │                       │      ├ PublishedDate   : 2026-03-18T18:16:26.723Z 
-│                       │      ╰ LastModifiedDate: 2026-03-23T17:51:17.017Z 
+│                       │      ╰ LastModifiedDate: 2026-05-13T22:16:42.337Z 
 │                       ├ [31] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │      ├ PkgID           : libsmartcols1@2.41-4ubuntu4.2 
 │                       │      ├ PkgName         : libsmartcols1 
