@@ -5,8 +5,8 @@ ARG DIST
 USER root
 RUN case "${DIST}" in \
     deb*) apt-get -y update && apt-get -y install --no-install-recommends bubblewrap jq && apt-get clean && rm -rf /var/lib/apt/lists/* ;; \
-    ubi*) if microdnf repoquery bubblewrap | grep -q '^bubblewrap-'; then microdnf install -y bubblewrap; else echo "bubblewrap is not available in the enabled UBI repositories; continuing without it" >&2; fi && microdnf clean all ;; \
-    *) apk update && apk --no-cache add bubblewrap && rm -rf /var/cache/apk/* ;; \
+    ubi*) if microdnf repoquery bubblewrap | grep -q '^bubblewrap-'; then microdnf install -y bubblewrap jq; else echo "bubblewrap is not available in the enabled UBI repositories; installing jq only" >&2; microdnf install -y jq; fi && microdnf clean all ;; \
+    *) apk update && apk --no-cache add bubblewrap jq && rm -rf /var/cache/apk/* ;; \
   esac
 
 USER openaf
