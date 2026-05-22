@@ -1,7 +1,7 @@
 ARG DIST
 ARG OPENAFDIST
 
-FROM alpine:edge as main
+FROM alpine as main
 ARG DIST
 ARG OPENAFDIST
 
