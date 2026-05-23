@@ -20,8 +20,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:bbe04362fa724bd26ff1a47ce7f1452299bd83ee6f55364e3b227
-│                       │      │                   d60052ffbad 
+│                       │      ├ Fingerprint     : sha256:4ace03d8ab33da8d0257b3ccb605add4585494e8d3c251af9b618
+│                       │      │                   7736b02d4d1 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2026-22016 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.10_p7-r0 
@@ -40,8 +40,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:e4618b2204f66b2bb3e86634e6eb38cca88f4787d417770665dce
-│                       │      │                   4b60e86ae8f 
+│                       │      ├ Fingerprint     : sha256:3c62c9f7f8e06032dde3e7f288c4cb270fa9a96dd9b587a6387a8
+│                       │      │                   12bea11ed01 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance Path Factories Redux (Oracle CPU
 │                       │      │                   2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -82,7 +82,7 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
 │                       │      │                            │           N/A:N 
 │                       │      │                            ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9689 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9693 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-22016 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2443891 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2460038 
@@ -108,7 +108,7 @@
 │                       │      │                  │       26-34268 
 │                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-34282 
-│                       │      │                  ├ [18]: https://errata.almalinux.org/8/ALSA-2026-9689.html 
+│                       │      │                  ├ [18]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
 │                       │      │                  ├ [19]: https://errata.rockylinux.org/RLSA-2026:9689 
 │                       │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2026-22016.html 
 │                       │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2026-9693.html 
@@ -136,8 +136,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:5ffc0516a5975391f53db209a8a3cb11c22b5e4722776eaf6acca
-│                       │      │                   fdcb6f70799 
+│                       │      ├ Fingerprint     : sha256:f5a84eec983ea7bf59138f1ba25b577a2d7824441cbe9f2e4b718
+│                       │      │                   33f16d24646 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance TLS connection handling (Oracle
 │                       │      │                   CPU 2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -177,7 +177,7 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                            │           N/A:H 
 │                       │      │                            ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9689 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9693 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34282 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2443891 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2460038 
@@ -203,7 +203,7 @@
 │                       │      │                  │       26-34268 
 │                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-34282 
-│                       │      │                  ├ [18]: https://errata.almalinux.org/8/ALSA-2026-9689.html 
+│                       │      │                  ├ [18]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
 │                       │      │                  ├ [19]: https://errata.rockylinux.org/RLSA-2026:9689 
 │                       │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2026-34282.html 
 │                       │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2026-9693.html 
@@ -231,8 +231,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:9470b7eba0911d7ed7dae360f40c6a24f48824aef6a7053f90237
-│                       │      │                   ef5fe9c8feb 
+│                       │      ├ Fingerprint     : sha256:98e55f4083bb6a2a969992e50a40e1b6f55acd04155c0b6526958
+│                       │      │                   a11b116af69 
 │                       │      ├ Title           : openjdk: OpenJDK: Improve Kerberos credentialing (Oracle CPU
 │                       │      │                    2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -274,7 +274,7 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
 │                       │      │                            │           N/A:N 
 │                       │      │                            ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9689 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9693 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-22013 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2443891 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2460038 
@@ -300,7 +300,7 @@
 │                       │      │                  │       26-34268 
 │                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-34282 
-│                       │      │                  ├ [18]: https://errata.almalinux.org/8/ALSA-2026-9689.html 
+│                       │      │                  ├ [18]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
 │                       │      │                  ├ [19]: https://errata.rockylinux.org/RLSA-2026:9689 
 │                       │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2026-22013.html 
 │                       │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2026-9693.html 
@@ -328,8 +328,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:d1f072944fdaff546bf86b8e6b0f2ea2162d749ece0a20190c563
-│                       │      │                   657baa75fef 
+│                       │      ├ Fingerprint     : sha256:be516f6765bdbc183369ca3baad70d038f7d7072c2d31cec8d02d
+│                       │      │                   5487ba22cbb 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance certificate chain validation
 │                       │      │                   (Oracle CPU 2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -368,7 +368,7 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                            │           N/A:L 
 │                       │      │                            ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9689 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9693 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-22021 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2443891 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2460038 
@@ -394,7 +394,7 @@
 │                       │      │                  │       26-34268 
 │                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-34282 
-│                       │      │                  ├ [18]: https://errata.almalinux.org/8/ALSA-2026-9689.html 
+│                       │      │                  ├ [18]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
 │                       │      │                  ├ [19]: https://errata.rockylinux.org/RLSA-2026:9689 
 │                       │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2026-22021.html 
 │                       │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2026-9693.html 
@@ -422,8 +422,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c0fe74bcf0f229c133ae38a2e42d71f43442ddfb07281c4ce7359
-│                       │      │                   ae9d3337fa1 
+│                       │      ├ Fingerprint     : sha256:62a78a64b87b62e25b4b52c4870bdcd6aa003d9b6db831ed282ff
+│                       │      │                   fb8f4089b91 
 │                       │      ├ Title           : freetype: Freetype: Information disclosure or denial of
 │                       │      │                   service via specially crafted font files 
 │                       │      ├ Description     : An integer overflow in the tt_var_load_item_variation_store
@@ -453,7 +453,7 @@
 │                       │      │                            │           L/A:L 
 │                       │      │                            ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/03/8 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:9689 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:9693 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-23865 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2443891 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2460038 
@@ -479,7 +479,7 @@
 │                       │      │                  │       26-34268 
 │                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-34282 
-│                       │      │                  ├ [19]: https://errata.almalinux.org/8/ALSA-2026-9689.html 
+│                       │      │                  ├ [19]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
 │                       │      │                  ├ [20]: https://errata.rockylinux.org/RLSA-2026:9689 
 │                       │      │                  ├ [21]: https://github.com/advisories/GHSA-878v-mxg6-vj8f 
 │                       │      │                  ├ [22]: https://gitlab.com/freetype/freetype/-/commit/fc85a25
@@ -516,8 +516,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:56cf526f8188d3a4ebdec594b85d62d54a184419f6843ccfd8c23
-│                       │      │                   f916b4d1cc4 
+│                       │      ├ Fingerprint     : sha256:15c7a6486d9922bb2da5875db3cdfd7e4225ed505657cb2af76be
+│                       │      │                   135114a8155 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance crypto algorithm support (Oracle
 │                       │      │                   CPU 2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -558,7 +558,7 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                       │      │                            │           N/A:N 
 │                       │      │                            ╰ V3Score : 2.9 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9689 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9693 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-22007 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2443891 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2460038 
@@ -584,7 +584,7 @@
 │                       │      │                  │       26-34268 
 │                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-34282 
-│                       │      │                  ├ [18]: https://errata.almalinux.org/8/ALSA-2026-9689.html 
+│                       │      │                  ├ [18]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
 │                       │      │                  ├ [19]: https://errata.rockylinux.org/RLSA-2026:9689 
 │                       │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2026-22007.html 
 │                       │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2026-9693.html 
@@ -612,8 +612,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:bcaae6709b6e6af491259245b93c627bbc966a1ec21110f35721d
-│                       │      │                   5db438d9813 
+│                       │      ├ Fingerprint     : sha256:5137f0d972b9b90516302f10d46a7e4c71af2506771686f6382e5
+│                       │      │                   64c64ceb542 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance Zip file reading (Oracle CPU
 │                       │      │                   2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -653,7 +653,7 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                            │           N/A:L 
 │                       │      │                            ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9689 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9693 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-22018 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2443891 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2460038 
@@ -679,7 +679,7 @@
 │                       │      │                  │       26-34268 
 │                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-34282 
-│                       │      │                  ├ [18]: https://errata.almalinux.org/8/ALSA-2026-9689.html 
+│                       │      │                  ├ [18]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
 │                       │      │                  ├ [19]: https://errata.rockylinux.org/RLSA-2026:9689 
 │                       │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2026-22018.html 
 │                       │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2026-9693.html 
@@ -707,8 +707,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:feb1c669e1d071f9c8bfc4c49698cb323981a086ba5282c88b2aa
-│                       │      │                   4ef29d42f28 
+│                       │      ├ Fingerprint     : sha256:28f0e466aef019a939284768b90e01be52d39a34d24341a57910c
+│                       │      │                   f5a6c7b04ab 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance key generation (Oracle CPU 2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -748,7 +748,7 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                       │      │                            │           N/A:N 
 │                       │      │                            ╰ V3Score : 2.9 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9689 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9693 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34268 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2443891 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2460038 
@@ -774,7 +774,7 @@
 │                       │      │                  │       26-34268 
 │                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-34282 
-│                       │      │                  ├ [18]: https://errata.almalinux.org/8/ALSA-2026-9689.html 
+│                       │      │                  ├ [18]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
 │                       │      │                  ├ [19]: https://errata.rockylinux.org/RLSA-2026:9689 
 │                       │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2026-34268.html 
 │                       │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2026-9693.html 
@@ -802,8 +802,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:42f0e6ad4459edd96ff9aa24dd6193fd3ad1499aa53b9cd82bbdb
-│                       │      │                   4dabe62e359 
+│                       │      ├ Fingerprint     : sha256:6ebd478263f7d9cecb8263e9e2b5b1e91f05b1da3480053864a32
+│                       │      │                   aa431690ca2 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance Path Factories Redux (Oracle CPU
 │                       │      │                   2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -844,7 +844,7 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:
 │                       │      │                            │           N/A:N 
 │                       │      │                            ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9689 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9693 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-22016 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2443891 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2460038 
@@ -870,7 +870,7 @@
 │                       │      │                  │       26-34268 
 │                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-34282 
-│                       │      │                  ├ [18]: https://errata.almalinux.org/8/ALSA-2026-9689.html 
+│                       │      │                  ├ [18]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
 │                       │      │                  ├ [19]: https://errata.rockylinux.org/RLSA-2026:9689 
 │                       │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2026-22016.html 
 │                       │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2026-9693.html 
@@ -898,8 +898,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:0056ab1838b602d690acfab7d4da9f885ce7045e3f834fc869b09
-│                       │      │                   d2e9796ce9b 
+│                       │      ├ Fingerprint     : sha256:66a5003b7391662737424e51ac01d8e068e9dd886daf0e2831fbc
+│                       │      │                   c2f14a1871c 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance TLS connection handling (Oracle
 │                       │      │                   CPU 2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -939,7 +939,7 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                            │           N/A:H 
 │                       │      │                            ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9689 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9693 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34282 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2443891 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2460038 
@@ -965,7 +965,7 @@
 │                       │      │                  │       26-34268 
 │                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-34282 
-│                       │      │                  ├ [18]: https://errata.almalinux.org/8/ALSA-2026-9689.html 
+│                       │      │                  ├ [18]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
 │                       │      │                  ├ [19]: https://errata.rockylinux.org/RLSA-2026:9689 
 │                       │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2026-34282.html 
 │                       │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2026-9693.html 
@@ -993,8 +993,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:74f80fa9452f5fcfb9f2cdbeb3aad7449fd1a827218d38ac5ef4c
-│                       │      │                   51955559d82 
+│                       │      ├ Fingerprint     : sha256:8d532bce5b2f93ec139001eb1cece086d508e3150599ac5e1feac
+│                       │      │                   56bb1652507 
 │                       │      ├ Title           : openjdk: OpenJDK: Improve Kerberos credentialing (Oracle CPU
 │                       │      │                    2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -1036,7 +1036,7 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:
 │                       │      │                            │           N/A:N 
 │                       │      │                            ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9689 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9693 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-22013 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2443891 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2460038 
@@ -1062,7 +1062,7 @@
 │                       │      │                  │       26-34268 
 │                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-34282 
-│                       │      │                  ├ [18]: https://errata.almalinux.org/8/ALSA-2026-9689.html 
+│                       │      │                  ├ [18]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
 │                       │      │                  ├ [19]: https://errata.rockylinux.org/RLSA-2026:9689 
 │                       │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2026-22013.html 
 │                       │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2026-9693.html 
@@ -1090,8 +1090,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:29983f29e5aebc3fce9f3bb0d173e87a5973a805b95fad626e263
-│                       │      │                   a1466932fa3 
+│                       │      ├ Fingerprint     : sha256:291cc24ff19a4cc6b3b6fc794fbc1a03eddd17763963f41932978
+│                       │      │                   2531dd9bcb4 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance certificate chain validation
 │                       │      │                   (Oracle CPU 2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -1130,7 +1130,7 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                            │           N/A:L 
 │                       │      │                            ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9689 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9693 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-22021 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2443891 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2460038 
@@ -1156,7 +1156,7 @@
 │                       │      │                  │       26-34268 
 │                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-34282 
-│                       │      │                  ├ [18]: https://errata.almalinux.org/8/ALSA-2026-9689.html 
+│                       │      │                  ├ [18]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
 │                       │      │                  ├ [19]: https://errata.rockylinux.org/RLSA-2026:9689 
 │                       │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2026-22021.html 
 │                       │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2026-9693.html 
@@ -1184,8 +1184,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:59cdc0572f4542c84c7de74c72e986e15b3740ae1cd8e2524db88
-│                       │      │                   26546a4bb20 
+│                       │      ├ Fingerprint     : sha256:feb9e8509e0603aaabd106bfe66c298759fbcbcdd96f97ccf6390
+│                       │      │                   0ec3e19c73a 
 │                       │      ├ Title           : freetype: Freetype: Information disclosure or denial of
 │                       │      │                   service via specially crafted font files 
 │                       │      ├ Description     : An integer overflow in the tt_var_load_item_variation_store
@@ -1215,7 +1215,7 @@
 │                       │      │                            │           L/A:L 
 │                       │      │                            ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2026/03/03/8 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:9689 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:9693 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-23865 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2443891 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2460038 
@@ -1241,7 +1241,7 @@
 │                       │      │                  │       26-34268 
 │                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-34282 
-│                       │      │                  ├ [19]: https://errata.almalinux.org/8/ALSA-2026-9689.html 
+│                       │      │                  ├ [19]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
 │                       │      │                  ├ [20]: https://errata.rockylinux.org/RLSA-2026:9689 
 │                       │      │                  ├ [21]: https://github.com/advisories/GHSA-878v-mxg6-vj8f 
 │                       │      │                  ├ [22]: https://gitlab.com/freetype/freetype/-/commit/fc85a25
@@ -1278,8 +1278,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:091cbf5e59a57c82b79deaf3540d068a8a32f73b5631d98802431
-│                       │      │                   945e5c9a594 
+│                       │      ├ Fingerprint     : sha256:80dfdeedd7b2e79270505bd4ee75dcb6e74aadc5692decfcbea35
+│                       │      │                   00dfd7bb4e2 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance crypto algorithm support (Oracle
 │                       │      │                   CPU 2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -1320,7 +1320,7 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                       │      │                            │           N/A:N 
 │                       │      │                            ╰ V3Score : 2.9 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9689 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9693 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-22007 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2443891 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2460038 
@@ -1346,7 +1346,7 @@
 │                       │      │                  │       26-34268 
 │                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-34282 
-│                       │      │                  ├ [18]: https://errata.almalinux.org/8/ALSA-2026-9689.html 
+│                       │      │                  ├ [18]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
 │                       │      │                  ├ [19]: https://errata.rockylinux.org/RLSA-2026:9689 
 │                       │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2026-22007.html 
 │                       │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2026-9693.html 
@@ -1374,8 +1374,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:8eb4aa0296dfd6633d0958061c0c6840fb78df4d4130321f35a5b
-│                       │      │                   01273b1531b 
+│                       │      ├ Fingerprint     : sha256:e7a5fcd9eb0fd94d07e7a1ecbe6e56edbdee0b13761f882fb9aa0
+│                       │      │                   52c513d4ea3 
 │                       │      ├ Title           : openjdk: OpenJDK: Enhance Zip file reading (Oracle CPU
 │                       │      │                   2026-04) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -1415,7 +1415,7 @@
 │                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                            │           N/A:L 
 │                       │      │                            ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9689 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9693 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-22018 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2443891 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2460038 
@@ -1441,7 +1441,7 @@
 │                       │      │                  │       26-34268 
 │                       │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-34282 
-│                       │      │                  ├ [18]: https://errata.almalinux.org/8/ALSA-2026-9689.html 
+│                       │      │                  ├ [18]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
 │                       │      │                  ├ [19]: https://errata.rockylinux.org/RLSA-2026:9689 
 │                       │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2026-22018.html 
 │                       │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2026-9693.html 
@@ -1469,8 +1469,8 @@
 │                              ├ DataSource       ╭ ID  : alpine 
 │                              │                  ├ Name: Alpine Secdb 
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                              ├ Fingerprint     : sha256:7954ebeca0e764c904648850d22d5b239ce59a63db4391dd3aeca
-│                              │                   f839db41a3c 
+│                              ├ Fingerprint     : sha256:fe7e424886cdb9617443d1b3699616b532f55f59e2f5964b5c5f3
+│                              │                   fffae3e8a99 
 │                              ├ Title           : openjdk: OpenJDK: Enhance key generation (Oracle CPU 2026-04) 
 │                              ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                              │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1510,7 +1510,7 @@
 │                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                              │                            │           N/A:N 
 │                              │                            ╰ V3Score : 2.9 
-│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9689 
+│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9693 
 │                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-34268 
 │                              │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2443891 
 │                              │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2460038 
@@ -1536,7 +1536,7 @@
 │                              │                  │       26-34268 
 │                              │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                              │                  │       26-34282 
-│                              │                  ├ [18]: https://errata.almalinux.org/8/ALSA-2026-9689.html 
+│                              │                  ├ [18]: https://errata.almalinux.org/9/ALSA-2026-9693.html 
 │                              │                  ├ [19]: https://errata.rockylinux.org/RLSA-2026:9689 
 │                              │                  ├ [20]: https://linux.oracle.com/cve/CVE-2026-34268.html 
 │                              │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2026-9693.html 
