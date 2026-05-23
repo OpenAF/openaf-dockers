@@ -365,7 +365,9 @@
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                  │         │           N/A:L 
 │                       │      │                  │         ╰ V3Score : 5.3 
-
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │      │                            │           N/A:L 
+│                       │      │                            ╰ V3Score : 5.3 
 │                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:9689 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-22021 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2443891 
