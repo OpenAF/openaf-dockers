@@ -1,5 +1,5 @@
 ```yaml
-╭ [0] ╭ Target  : openaf/ojobrt:edge (alpine 3.23.4) 
+╭ [0] ╭ Target  : openaf/ojobrt:edge (alpine 3.24.0) 
 │     ├ Class   : os-pkgs 
 │     ├ Type    : alpine 
 │     ╰ Packages 
