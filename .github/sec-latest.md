@@ -1,8 +1,134 @@
 ```yaml
-╭ [0] ╭ Target  : openaf/oaf:latest (alpine 3.24.1) 
-│     ├ Class   : os-pkgs 
-│     ├ Type    : alpine 
-│     ╰ Packages 
+╭ [0] ╭ Target         : openaf/oaf:latest (alpine 3.24.1) 
+│     ├ Class          : os-pkgs 
+│     ├ Type           : alpine 
+│     ├ Packages        
+│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2026-2100 
+│                       │     ├ PkgID           : p11-kit@0.25.5-r2 
+│                       │     ├ PkgName         : p11-kit 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/p11-kit@0.25.5-r2?arch=x86_64&distro=3.
+│                       │     │                  │       24.1 
+│                       │     │                  ╰ UID : 9d018f0737ae08a7 
+│                       │     ├ InstalledVersion: 0.25.5-r2 
+│                       │     ├ FixedVersion    : 0.26.2-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:2c70bd0476047a0dea3edb077b8c2b77a9c3b9c088349
+│                       │     │                  │         427b17582323a475421 
+│                       │     │                  ╰ DiffID: sha256:f34cf3d2e26c1259e7e35018ba3bd2483ae339f54d25d
+│                       │     │                            13c7ec0494711fcad72 
+│                       │     ├ SeveritySource  : nvd 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2100 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:b1dde4978f3e0a7a47ca0398da98a821653721ab1f47283047e91f
+│                       │     │                   04bdc515e8 
+│                       │     ├ Title           : p11-kit: NULL dereference via C_DeriveKey with specific NULL
+│                       │     │                   parameters 
+│                       │     ├ Description     : A flaw was found in p11-kit. A remote attacker could exploit
+│                       │     │                   this vulnerability by calling the C_DeriveKey function on a
+│                       │     │                   remote token with specific IBM kyber or IBM btc derive
+│                       │     │                   mechanism parameters set to NULL. This could lead to the
+│                       │     │                   RPC-client attempting to return an uninitialized value,
+│                       │     │                   potentially resulting in a NULL dereference or undefined
+│                       │     │                   behavior. This issue may cause an application level denial of
+│                       │     │                    service or other unpredictable system states. 
+│                       │     ├ Severity        : HIGH 
+│                       │     ├ CweIDs           ─ [0]: CWE-824 
+│                       │     ├ VendorSeverity   ╭ alma       : 2 
+│                       │     │                  ├ nvd        : 3 
+│                       │     │                  ├ oracle-oval: 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ╰ rocky      : 2 
+│                       │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+│                       │     │                  │        │           A:H 
+│                       │     │                  │        ╰ V3Score : 7.5 
+│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+│                       │     │                           │           A:L 
+│                       │     │                           ╰ V3Score : 5.3 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:18143 
+│                       │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:18599 
+│                       │     │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:21275 
+│                       │     │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:22634 
+│                       │     │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:27998 
+│                       │     │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:7065 
+│                       │     │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2026-2100 
+│                       │     │                  ├ [7] : https://bugzilla.redhat.com/2437308 
+│                       │     │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2437308 
+│                       │     │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
+│                       │     │                  │       6-2100 
+│                       │     │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2026-18599.html 
+│                       │     │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:18599 
+│                       │     │                  ├ [12]: https://github.com/p11-glue/p11-kit/pull/740 
+│                       │     │                  ├ [13]: https://linux.oracle.com/cve/CVE-2026-2100.html 
+│                       │     │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2026-18599.html 
+│                       │     │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2026-2100 
+│                       │     │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2026-2100 
+│                       │     ├ PublishedDate   : 2026-03-26T21:17:04.247Z 
+│                       │     ╰ LastModifiedDate: 2026-06-22T20:16:28.86Z 
+│                       ╰ [1] ╭ VulnerabilityID : CVE-2026-2100 
+│                             ├ PkgID           : p11-kit-trust@0.25.5-r2 
+│                             ├ PkgName         : p11-kit-trust 
+│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/p11-kit-trust@0.25.5-r2?arch=x86_64&dis
+│                             │                  │       tro=3.24.1 
+│                             │                  ╰ UID : 40951c87f9e2103c 
+│                             ├ InstalledVersion: 0.25.5-r2 
+│                             ├ FixedVersion    : 0.26.2-r0 
+│                             ├ Status          : fixed 
+│                             ├ Layer            ╭ Digest: sha256:2c70bd0476047a0dea3edb077b8c2b77a9c3b9c088349
+│                             │                  │         427b17582323a475421 
+│                             │                  ╰ DiffID: sha256:f34cf3d2e26c1259e7e35018ba3bd2483ae339f54d25d
+│                             │                            13c7ec0494711fcad72 
+│                             ├ SeveritySource  : nvd 
+│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2100 
+│                             ├ DataSource       ╭ ID  : alpine 
+│                             │                  ├ Name: Alpine Secdb 
+│                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                             ├ Fingerprint     : sha256:70e533721a067b6481e3e6641bcfb163727da76b4f128d8e0d44d9
+│                             │                   5eaceb1ba0 
+│                             ├ Title           : p11-kit: NULL dereference via C_DeriveKey with specific NULL
+│                             │                   parameters 
+│                             ├ Description     : A flaw was found in p11-kit. A remote attacker could exploit
+│                             │                   this vulnerability by calling the C_DeriveKey function on a
+│                             │                   remote token with specific IBM kyber or IBM btc derive
+│                             │                   mechanism parameters set to NULL. This could lead to the
+│                             │                   RPC-client attempting to return an uninitialized value,
+│                             │                   potentially resulting in a NULL dereference or undefined
+│                             │                   behavior. This issue may cause an application level denial of
+│                             │                    service or other unpredictable system states. 
+│                             ├ Severity        : HIGH 
+│                             ├ CweIDs           ─ [0]: CWE-824 
+│                             ├ VendorSeverity   ╭ alma       : 2 
+│                             │                  ├ nvd        : 3 
+│                             │                  ├ oracle-oval: 2 
+│                             │                  ├ redhat     : 2 
+│                             │                  ╰ rocky      : 2 
+│                             ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+│                             │                  │        │           A:H 
+│                             │                  │        ╰ V3Score : 7.5 
+│                             │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+│                             │                           │           A:L 
+│                             │                           ╰ V3Score : 5.3 
+│                             ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:18143 
+│                             │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:18599 
+│                             │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:21275 
+│                             │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:22634 
+│                             │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:27998 
+│                             │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:7065 
+│                             │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2026-2100 
+│                             │                  ├ [7] : https://bugzilla.redhat.com/2437308 
+│                             │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2437308 
+│                             │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-202
+│                             │                  │       6-2100 
+│                             │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2026-18599.html 
+│                             │                  ├ [11]: https://errata.rockylinux.org/RLSA-2026:18599 
+│                             │                  ├ [12]: https://github.com/p11-glue/p11-kit/pull/740 
+│                             │                  ├ [13]: https://linux.oracle.com/cve/CVE-2026-2100.html 
+│                             │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2026-18599.html 
+│                             │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2026-2100 
+│                             │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2026-2100 
+│                             ├ PublishedDate   : 2026-03-26T21:17:04.247Z 
+│                             ╰ LastModifiedDate: 2026-06-22T20:16:28.86Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
@@ -69,7 +195,7 @@
                         │     │                  ╰ [3]: https://github.com/FasterXML/jackson-databind/security/
                         │     │                         advisories/GHSA-j3rv-43j4-c7qm 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.203Z 
-                        │     ╰ LastModifiedDate: 2026-06-24T16:16:32.5Z 
+                        │     ╰ LastModifiedDate: 2026-06-25T16:14:14.483Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2026-54513 
                         │     ├ VendorIDs        ─ [0]: GHSA-rmj7-2vxq-3g9f 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
@@ -132,7 +258,7 @@
                         │     │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
                         │     │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.333Z 
-                        │     ╰ LastModifiedDate: 2026-06-24T16:16:32.6Z 
+                        │     ╰ LastModifiedDate: 2026-06-25T16:14:14.483Z 
                         ├ [2] ╭ VulnerabilityID : CVE-2026-54514 
                         │     ├ VendorIDs        ─ [0]: GHSA-hgj6-7826-r7m5 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
@@ -182,7 +308,7 @@
                         │     │                  ╰ [3]: https://github.com/FasterXML/jackson-databind/security/
                         │     │                         advisories/GHSA-hgj6-7826-r7m5 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.467Z 
-                        │     ╰ LastModifiedDate: 2026-06-23T21:17:02.467Z 
+                        │     ╰ LastModifiedDate: 2026-06-25T16:14:14.483Z 
                         ├ [3] ╭ VulnerabilityID : CVE-2026-54515 
                         │     ├ VendorIDs        ─ [0]: GHSA-5jmj-h7xm-6q6v 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
@@ -236,7 +362,7 @@
                         │     │                  ╰ [4]: https://github.com/FasterXML/jackson-databind/security/
                         │     │                         advisories/GHSA-5jmj-h7xm-6q6v 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.597Z 
-                        │     ╰ LastModifiedDate: 2026-06-24T13:16:32.653Z 
+                        │     ╰ LastModifiedDate: 2026-06-25T16:14:14.483Z 
                         ├ [4] ╭ VulnerabilityID : CVE-2026-54516 
                         │     ├ VendorIDs        ─ [0]: GHSA-9fxm-vc8v-hj55 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
@@ -289,7 +415,7 @@
                         │     │                  ╰ [5]: https://github.com/FasterXML/jackson-databind/security/
                         │     │                         advisories/GHSA-9fxm-vc8v-hj55 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.723Z 
-                        │     ╰ LastModifiedDate: 2026-06-24T14:17:33.547Z 
+                        │     ╰ LastModifiedDate: 2026-06-25T16:14:14.483Z 
                         ├ [5] ╭ VulnerabilityID : CVE-2026-54517 
                         │     ├ VendorIDs        ─ [0]: GHSA-5hh8-q8hv-fr38 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
@@ -342,7 +468,7 @@
                         │     │                  ╰ [5]: https://github.com/FasterXML/jackson-databind/security/
                         │     │                         advisories/GHSA-5hh8-q8hv-fr38 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.853Z 
-                        │     ╰ LastModifiedDate: 2026-06-24T20:16:33Z 
+                        │     ╰ LastModifiedDate: 2026-06-25T16:14:14.483Z 
                         ╰ [6] ╭ VulnerabilityID : CVE-2026-54518 
                               ├ VendorIDs        ─ [0]: GHSA-rcqc-6cw3-h962 
                               ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
@@ -394,5 +520,5 @@
                               │                  ╰ [5]: https://github.com/FasterXML/jackson-databind/security/
                               │                         advisories/GHSA-rcqc-6cw3-h962 
                               ├ PublishedDate   : 2026-06-23T22:16:32.073Z 
-                              ╰ LastModifiedDate: 2026-06-24T17:17:29.163Z 
+                              ╰ LastModifiedDate: 2026-06-25T16:14:14.483Z 
 ```
