@@ -14,20 +14,20 @@
     PkgPath: openaf/openaf.jar
     PkgIdentifier:
       PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.3
-      UID: af9e86e80fd64186
+      UID: bdedb7f4f2b3e6f5
     InstalledVersion: 2.21.3
     FixedVersion: 2.18.8, 3.1.4, 2.21.4
     Status: fixed
     Layer:
-      Digest: sha256:de832bb5926219152f76dc5967ce6d1424809808693082adb6165646b36b8506
-      DiffID: sha256:cec91327bd48139ba388befec3d23891620ccaff2317f38ba2e7f6687d744749
+      Digest: sha256:f9ff15cc590f64c7ecfc0cce8b7ac63e68a00ca36fd1ae4d464df78af69fb6b4
+      DiffID: sha256:b93cb4bd77a9f729430afc03265023766411044b978dbb0d31ca41a7bded31c5
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54512
     DataSource:
       ID: ghsa
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
-    Fingerprint: sha256:48150cb25776035f08aa460e30f140d65f5a36da7644a48cb77acad2653fb6fa
+    Fingerprint: sha256:8ea4c55092785aaf02a8f90394d3edd8eb9a4666a72288c267d7f6326cf94eb6
     Title: jackson-databind contains the general-purpose data-binding functionali ...
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.10.0 until 2.18.8, 2.21.4, and 3.1.4, jackson-databind's PolymorphicTypeValidator (PTV) is the primary safety mechanism guarding polymorphic deserialization. When polymorphic typing is enabled and a type identifier contains generic parameters (i.e. the type ID string contains <), DatabindContext._resolveAndValidateGeneric() validates only the raw container class name (the substring before <) against the configured PTV. If the container type is approved, the method parses the full canonical type string via TypeFactory.constructFromCanonical() and returns the fully parameterized type without ever validating the nested type arguments against the PTV. The nested type arguments are then resolved, instantiated, and populated as beans during deserialization. An attacker who controls the type ID can therefore place a denied class as a generic type parameter of an allowed container — for example java.util.ArrayList<com.evil.Gadget> when only java.util.ArrayList is allow-listed. The container passes the PTV check; com.evil.Gadget is loaded via Class.forName(name, true, loader), instantiated, and its properties are set from attacker-controlled JSON. This completely bypasses an explicitly configured PTV allow-list. This vulnerability is fixed in 2.18.8, 2.21.4, and 3.1.4.
     Severity: HIGH
@@ -54,20 +54,20 @@
     PkgPath: openaf/openaf.jar
     PkgIdentifier:
       PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.3
-      UID: af9e86e80fd64186
+      UID: bdedb7f4f2b3e6f5
     InstalledVersion: 2.21.3
     FixedVersion: 2.18.8, 2.21.4, 3.1.4
     Status: fixed
     Layer:
-      Digest: sha256:de832bb5926219152f76dc5967ce6d1424809808693082adb6165646b36b8506
-      DiffID: sha256:cec91327bd48139ba388befec3d23891620ccaff2317f38ba2e7f6687d744749
+      Digest: sha256:f9ff15cc590f64c7ecfc0cce8b7ac63e68a00ca36fd1ae4d464df78af69fb6b4
+      DiffID: sha256:b93cb4bd77a9f729430afc03265023766411044b978dbb0d31ca41a7bded31c5
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54513
     DataSource:
       ID: ghsa
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
-    Fingerprint: sha256:0530df3144e6436f713aad01c5ac0896bb5b47580dcf20bf0ad6ace90f81aed5
+    Fingerprint: sha256:49b18809cdd6de35344c0aa622f7593c41eeadffba4eb6285085129bcfdd84c9
     Title: 'jackson-databind: Jackson-databind: Security bypass allows arbitrary code execution'
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.10.0 until 2.18.8, 2.21.4, and 3.1.4, BasicPolymorphicTypeValidator.Builder.allowIfSubTypeIsArray() allowlists any array type based only on clazz.isArray(), without validating the array's component (element) type against the configured allowlist. A PTV built with allowIfSubTypeIsArray() plus an explicit concrete-type allowlist therefore still permits EvilType[] even though EvilType is not allowlisted. When Jackson deserializes the elements and no per-element type IDs are present, it instantiates the component type directly with no further PTV check, bypassing the allowlist. This vulnerability is fixed in 2.18.8, 2.21.4, and 3.1.4.
     Severity: HIGH
@@ -85,6 +85,7 @@
         V3Score: 8.1
     References:
     - https://access.redhat.com/security/cve/CVE-2026-54513
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2492010
     - https://github.com/FasterXML/jackson-databind
     - https://github.com/FasterXML/jackson-databind/commit/01d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5
     - https://github.com/FasterXML/jackson-databind/commit/24529da29fdf46ff94ca38de9ebf31cd188f5e8e
@@ -93,9 +94,10 @@
     - https://github.com/FasterXML/jackson-databind/pull/5984
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-rmj7-2vxq-3g9f
     - https://nvd.nist.gov/vuln/detail/CVE-2026-54513
+    - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-54513.json
     - https://www.cve.org/CVERecord?id=CVE-2026-54513
     PublishedDate: '2026-06-23T21:17:02.333Z'
-    LastModifiedDate: '2026-06-27T21:00:19.3Z'
+    LastModifiedDate: '2026-06-30T03:21:03.13Z'
   - VulnerabilityID: CVE-2026-54514
     VendorIDs:
     - GHSA-hgj6-7826-r7m5
@@ -103,20 +105,20 @@
     PkgPath: openaf/openaf.jar
     PkgIdentifier:
       PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.3
-      UID: af9e86e80fd64186
+      UID: bdedb7f4f2b3e6f5
     InstalledVersion: 2.21.3
     FixedVersion: 2.18.8, 2.21.4, 3.1.4
     Status: fixed
     Layer:
-      Digest: sha256:de832bb5926219152f76dc5967ce6d1424809808693082adb6165646b36b8506
-      DiffID: sha256:cec91327bd48139ba388befec3d23891620ccaff2317f38ba2e7f6687d744749
+      Digest: sha256:f9ff15cc590f64c7ecfc0cce8b7ac63e68a00ca36fd1ae4d464df78af69fb6b4
+      DiffID: sha256:b93cb4bd77a9f729430afc03265023766411044b978dbb0d31ca41a7bded31c5
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54514
     DataSource:
       ID: ghsa
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
-    Fingerprint: sha256:36f97352cbf26543e8cd285d997eb5c5db0e2187e0c3cc798033e92415c251fc
+    Fingerprint: sha256:df3a2d58633242472f37419aa00780ac04766b0116d9127c2d0d37db093141b1
     Title: jackson-databind contains the general-purpose data-binding functionali ...
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.0.0 until 2.18.8, 2.21.4, and 3.1.4, JDKFromStringDeserializer constructed InetSocketAddress with new InetSocketAddress(host, port), which performs eager DNS name resolution for hostname inputs at deserialization time. An application that binds untrusted JSON into a type containing an InetSocketAddress field issues an attacker-chosen DNS query during readValue, before any application-level validation or connect logic. The fix uses InetSocketAddress.createUnresolved(host, port), deferring DNS to an explicit connect. This vulnerability is fixed in 2.18.8, 2.21.4, and 3.1.4.
     Severity: MEDIUM
@@ -142,20 +144,20 @@
     PkgPath: openaf/openaf.jar
     PkgIdentifier:
       PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.3
-      UID: af9e86e80fd64186
+      UID: bdedb7f4f2b3e6f5
     InstalledVersion: 2.21.3
     FixedVersion: 3.1.4, 2.18.9, 2.21.5
     Status: fixed
     Layer:
-      Digest: sha256:de832bb5926219152f76dc5967ce6d1424809808693082adb6165646b36b8506
-      DiffID: sha256:cec91327bd48139ba388befec3d23891620ccaff2317f38ba2e7f6687d744749
+      Digest: sha256:f9ff15cc590f64c7ecfc0cce8b7ac63e68a00ca36fd1ae4d464df78af69fb6b4
+      DiffID: sha256:b93cb4bd77a9f729430afc03265023766411044b978dbb0d31ca41a7bded31c5
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54515
     DataSource:
       ID: ghsa
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
-    Fingerprint: sha256:624de6eeb5d8f8510d364d263dd3a7f0516e0c75627a80896787d47197f93c4d
+    Fingerprint: sha256:7f4793c11f66e0bf21e68344e91f3f742e60c1cd22d07e8c696925ceb6d48bd2
     Title: jackson-databind contains the general-purpose data-binding functionali ...
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.8.0 until 2.18.9, 2.21.5, and 3.1.4, in BeanDeserializerBase.createContextual(), per-property @JsonIgnoreProperties exclusions are applied by _handleByNameInclusion(), producing a contextual deserializer whose BeanPropertyMap has the ignored properties removed. The subsequent per-property case-insensitivity block (triggered by @JsonFormat(ACCEPT_CASE_INSENSITIVE_PROPERTIES)) rebuilds from this._beanProperties (the original, unfiltered map) instead of contextual._beanProperties, then overwrites the filtered map — restoring every property _handleByNameInclusion had just removed. The ignored property becomes writable again. This vulnerability is fixed in 2.18.9, 2.21.5, and 3.1.4.
     Severity: MEDIUM
@@ -174,7 +176,7 @@
     - https://github.com/FasterXML/jackson-databind/issues/5964
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-5jmj-h7xm-6q6v
     PublishedDate: '2026-06-23T21:17:02.597Z'
-    LastModifiedDate: '2026-06-25T16:14:14.483Z'
+    LastModifiedDate: '2026-06-29T13:38:59.057Z'
   - VulnerabilityID: CVE-2026-54516
     VendorIDs:
     - GHSA-9fxm-vc8v-hj55
@@ -182,20 +184,20 @@
     PkgPath: openaf/openaf.jar
     PkgIdentifier:
       PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.3
-      UID: af9e86e80fd64186
+      UID: bdedb7f4f2b3e6f5
     InstalledVersion: 2.21.3
     FixedVersion: 2.21.4, 3.1.4
     Status: fixed
     Layer:
-      Digest: sha256:de832bb5926219152f76dc5967ce6d1424809808693082adb6165646b36b8506
-      DiffID: sha256:cec91327bd48139ba388befec3d23891620ccaff2317f38ba2e7f6687d744749
+      Digest: sha256:f9ff15cc590f64c7ecfc0cce8b7ac63e68a00ca36fd1ae4d464df78af69fb6b4
+      DiffID: sha256:b93cb4bd77a9f729430afc03265023766411044b978dbb0d31ca41a7bded31c5
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54516
     DataSource:
       ID: ghsa
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
-    Fingerprint: sha256:44fbf53d175703f11814e21195e185c4634c6b4bf4764c97bbbab972cab647ad
+    Fingerprint: sha256:4b141eea1a01cba62a1dd7ed323f7ca962a060415d90ed999d9302e274e87556
     Title: jackson-databind contains the general-purpose data-binding functionali ...
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.21.0 until 2.21.4 and 3.1.4, POJOPropertiesCollector._renameProperties() allows a property with @JsonProperty("renamed") on the getter and @JsonIgnore on the setter to be renamed rather than dropped. With MapperFeature.INFER_PROPERTY_MUTATORS enabled (default), the private backing field is retained; during deserialization BeanDeserializerFactory.addBeanProps() sees hasField()==true, builds a FieldProperty, and makes the backing field writable. An attacker supplying the renamed JSON key writes the backing field directly, bypassing the @JsonIgnore on the setter. This vulnerability is fixed in 3.1.4.
     Severity: MEDIUM
@@ -223,20 +225,20 @@
     PkgPath: openaf/openaf.jar
     PkgIdentifier:
       PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.3
-      UID: af9e86e80fd64186
+      UID: bdedb7f4f2b3e6f5
     InstalledVersion: 2.21.3
     FixedVersion: 2.21.4, 3.1.4
     Status: fixed
     Layer:
-      Digest: sha256:de832bb5926219152f76dc5967ce6d1424809808693082adb6165646b36b8506
-      DiffID: sha256:cec91327bd48139ba388befec3d23891620ccaff2317f38ba2e7f6687d744749
+      Digest: sha256:f9ff15cc590f64c7ecfc0cce8b7ac63e68a00ca36fd1ae4d464df78af69fb6b4
+      DiffID: sha256:b93cb4bd77a9f729430afc03265023766411044b978dbb0d31ca41a7bded31c5
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54517
     DataSource:
       ID: ghsa
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
-    Fingerprint: sha256:b3a49b2546ce7c734142c917b0402ea3ce7e8d31434df4b13b45577ec8692092
+    Fingerprint: sha256:180226593bd2ab66fdbb454865f6d57691965adab9d876466dad915da415e591
     Title: jackson-databind contains the general-purpose data-binding functionali ...
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.21.0 until 2.21.4 and 3.1.4, in BeanDeserializer._deserializeUsingPropertyBased, the active-view (@JsonView) filter was applied only to creator properties; the regular property-buffering branch performed no prop.visibleInView(activeView) check. A change making SetterlessProperty.isMerging() return true routed setterless Collection/Map properties through this unguarded path, so a setterless collection annotated with a restricted @JsonView is populated from attacker JSON even when the active view excludes it. This vulnerability is fixed in 2.21.4 and 3.1.4.
     Severity: MEDIUM
@@ -264,20 +266,20 @@
     PkgPath: openaf/openaf.jar
     PkgIdentifier:
       PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.3
-      UID: af9e86e80fd64186
+      UID: bdedb7f4f2b3e6f5
     InstalledVersion: 2.21.3
     FixedVersion: 2.21.4
     Status: fixed
     Layer:
-      Digest: sha256:de832bb5926219152f76dc5967ce6d1424809808693082adb6165646b36b8506
-      DiffID: sha256:cec91327bd48139ba388befec3d23891620ccaff2317f38ba2e7f6687d744749
+      Digest: sha256:f9ff15cc590f64c7ecfc0cce8b7ac63e68a00ca36fd1ae4d464df78af69fb6b4
+      DiffID: sha256:b93cb4bd77a9f729430afc03265023766411044b978dbb0d31ca41a7bded31c5
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54518
     DataSource:
       ID: ghsa
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
-    Fingerprint: sha256:8f6e2a3623900c9d30c0f9211b19fb714f007d2fba84307c8625b40c22272aff
+    Fingerprint: sha256:a4a05a9bba0c53127940723163f11d1598cd0afd5e4ec604a9ebda9c0fbd1e97
     Title: jackson-databind contains the general-purpose data-binding functionali ...
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.21.0 until 2.21.4 and 3.1.4, UnwrappedPropertyHandler.processUnwrappedCreatorProperties() replays buffered JSON into creator parameters but never consults prop.visibleInView(activeView). The normal property-based creator path gates creator properties on the active view, but this unwrapped-creator replay path bypasses that check, so a constructor parameter annotated with both @JsonView(AdminView.class) and @JsonUnwrapped is populated from attacker JSON even when a more restrictive view is active. This vulnerability is fixed in 2.21.4 and 3.1.4.
     Severity: MEDIUM
