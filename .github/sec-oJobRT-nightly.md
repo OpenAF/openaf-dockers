@@ -13,22 +13,22 @@
                         │     ├ PkgPath         : openaf/openaf.jar 
                         │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@
                         │     │                  │       2.21.3 
-                        │     │                  ╰ UID : af9e86e80fd64186 
+                        │     │                  ╰ UID : bdedb7f4f2b3e6f5 
                         │     ├ InstalledVersion: 2.21.3 
                         │     ├ FixedVersion    : 2.18.8, 3.1.4, 2.21.4 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:d33b3a2449468c442e365406c1f91de1099e32bdecf42
-                        │     │                  │         551d8fb0f2bc4dfbcc2 
-                        │     │                  ╰ DiffID: sha256:812be9f0f39dc160d4770a8132fcff2de69bfbb23d0a6
-                        │     │                            4e97ff946c8ec874414 
+                        │     ├ Layer            ╭ Digest: sha256:ed1adf151f1236ebda66b7983b8fb12aace5ef062417c
+                        │     │                  │         9c4f8d75435fca0a5fa 
+                        │     │                  ╰ DiffID: sha256:e5b4b6d3064f20832c6f2713f759a6128f22f57020842
+                        │     │                            a372db8b49d4ad29a11 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54512 
                         │     ├ DataSource       ╭ ID  : ghsa 
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:8de9a9a397a171b0c93a670c32e9fa50773ac61a782fd0866367e3
-                        │     │                   b782528b04 
+                        │     ├ Fingerprint     : sha256:1c77e750c052504a6c42ffb9c83108f26ca4ad8586203845bad4c8
+                        │     │                   b72416f479 
                         │     ├ Title           : jackson-databind contains the general-purpose data-binding
                         │     │                   functionali ... 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -76,22 +76,22 @@
                         │     ├ PkgPath         : openaf/openaf.jar 
                         │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@
                         │     │                  │       2.21.3 
-                        │     │                  ╰ UID : af9e86e80fd64186 
+                        │     │                  ╰ UID : bdedb7f4f2b3e6f5 
                         │     ├ InstalledVersion: 2.21.3 
                         │     ├ FixedVersion    : 2.18.8, 2.21.4, 3.1.4 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:d33b3a2449468c442e365406c1f91de1099e32bdecf42
-                        │     │                  │         551d8fb0f2bc4dfbcc2 
-                        │     │                  ╰ DiffID: sha256:812be9f0f39dc160d4770a8132fcff2de69bfbb23d0a6
-                        │     │                            4e97ff946c8ec874414 
+                        │     ├ Layer            ╭ Digest: sha256:ed1adf151f1236ebda66b7983b8fb12aace5ef062417c
+                        │     │                  │         9c4f8d75435fca0a5fa 
+                        │     │                  ╰ DiffID: sha256:e5b4b6d3064f20832c6f2713f759a6128f22f57020842
+                        │     │                            a372db8b49d4ad29a11 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54513 
                         │     ├ DataSource       ╭ ID  : ghsa 
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:73b920559f797cba2d7b7e4cbd9abc77c2c42a36bf94f254bb3577
-                        │     │                   dbf67acd40 
+                        │     ├ Fingerprint     : sha256:99a89465cb291c39cb0800832de4f4fdd067e6ddea7f2957fae755
+                        │     │                   62960d3383 
                         │     ├ Title           : jackson-databind: Jackson-databind: Security bypass allows
                         │     │                   arbitrary code execution 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -118,43 +118,48 @@
                         │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
                         │     │                           │           A:H 
                         │     │                           ╰ V3Score : 8.1 
-                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54513 
-                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
-                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/01
-                        │     │                  │      d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5 
-                        │     │                  ├ [3]: https://github.com/FasterXML/jackson-databind/commit/24
-                        │     │                  │      529da29fdf46ff94ca38de9ebf31cd188f5e8e 
-                        │     │                  ├ [4]: https://github.com/FasterXML/jackson-databind/issues/5981 
-                        │     │                  ├ [5]: https://github.com/FasterXML/jackson-databind/issues/5983 
-                        │     │                  ├ [6]: https://github.com/FasterXML/jackson-databind/pull/5984 
-                        │     │                  ├ [7]: https://github.com/FasterXML/jackson-databind/security/
-                        │     │                  │      advisories/GHSA-rmj7-2vxq-3g9f 
-                        │     │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
-                        │     │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
+                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2026-54513 
+                        │     │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
+                        │     │                  ├ [2] : https://github.com/FasterXML/jackson-databind 
+                        │     │                  ├ [3] : https://github.com/FasterXML/jackson-databind/commit/0
+                        │     │                  │       1d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5 
+                        │     │                  ├ [4] : https://github.com/FasterXML/jackson-databind/commit/2
+                        │     │                  │       4529da29fdf46ff94ca38de9ebf31cd188f5e8e 
+                        │     │                  ├ [5] : https://github.com/FasterXML/jackson-databind/issues/5
+                        │     │                  │       981 
+                        │     │                  ├ [6] : https://github.com/FasterXML/jackson-databind/issues/5
+                        │     │                  │       983 
+                        │     │                  ├ [7] : https://github.com/FasterXML/jackson-databind/pull/5984 
+                        │     │                  ├ [8] : https://github.com/FasterXML/jackson-databind/security
+                        │     │                  │       /advisories/GHSA-rmj7-2vxq-3g9f 
+                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
+                        │     │                  ├ [10]: https://security.access.redhat.com/data/csaf/v2/vex/20
+                        │     │                  │       26/cve-2026-54513.json 
+                        │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.333Z 
-                        │     ╰ LastModifiedDate: 2026-06-27T21:00:19.3Z 
+                        │     ╰ LastModifiedDate: 2026-06-30T03:21:03.13Z 
                         ├ [2] ╭ VulnerabilityID : CVE-2026-54514 
                         │     ├ VendorIDs        ─ [0]: GHSA-hgj6-7826-r7m5 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
                         │     ├ PkgPath         : openaf/openaf.jar 
                         │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@
                         │     │                  │       2.21.3 
-                        │     │                  ╰ UID : af9e86e80fd64186 
+                        │     │                  ╰ UID : bdedb7f4f2b3e6f5 
                         │     ├ InstalledVersion: 2.21.3 
                         │     ├ FixedVersion    : 2.18.8, 2.21.4, 3.1.4 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:d33b3a2449468c442e365406c1f91de1099e32bdecf42
-                        │     │                  │         551d8fb0f2bc4dfbcc2 
-                        │     │                  ╰ DiffID: sha256:812be9f0f39dc160d4770a8132fcff2de69bfbb23d0a6
-                        │     │                            4e97ff946c8ec874414 
+                        │     ├ Layer            ╭ Digest: sha256:ed1adf151f1236ebda66b7983b8fb12aace5ef062417c
+                        │     │                  │         9c4f8d75435fca0a5fa 
+                        │     │                  ╰ DiffID: sha256:e5b4b6d3064f20832c6f2713f759a6128f22f57020842
+                        │     │                            a372db8b49d4ad29a11 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54514 
                         │     ├ DataSource       ╭ ID  : ghsa 
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:364642599309d26d38750ee8fa1b21215c14262223c81593be6e31
-                        │     │                   2217fcd737 
+                        │     ├ Fingerprint     : sha256:4d6c7302dcbd3ca4a504fcd9ae65e6cca0d36d8beb1e89a7d01165
+                        │     │                   0272ba5ded 
                         │     ├ Title           : jackson-databind contains the general-purpose data-binding
                         │     │                   functionali ... 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -189,22 +194,22 @@
                         │     ├ PkgPath         : openaf/openaf.jar 
                         │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@
                         │     │                  │       2.21.3 
-                        │     │                  ╰ UID : af9e86e80fd64186 
+                        │     │                  ╰ UID : bdedb7f4f2b3e6f5 
                         │     ├ InstalledVersion: 2.21.3 
                         │     ├ FixedVersion    : 3.1.4, 2.18.9, 2.21.5 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:d33b3a2449468c442e365406c1f91de1099e32bdecf42
-                        │     │                  │         551d8fb0f2bc4dfbcc2 
-                        │     │                  ╰ DiffID: sha256:812be9f0f39dc160d4770a8132fcff2de69bfbb23d0a6
-                        │     │                            4e97ff946c8ec874414 
+                        │     ├ Layer            ╭ Digest: sha256:ed1adf151f1236ebda66b7983b8fb12aace5ef062417c
+                        │     │                  │         9c4f8d75435fca0a5fa 
+                        │     │                  ╰ DiffID: sha256:e5b4b6d3064f20832c6f2713f759a6128f22f57020842
+                        │     │                            a372db8b49d4ad29a11 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54515 
                         │     ├ DataSource       ╭ ID  : ghsa 
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:22cc37d0a6f93cceb13ced749121496108df8d830262c942fd4f45
-                        │     │                   cc7ad9e186 
+                        │     ├ Fingerprint     : sha256:8c7acf54cfeacc902b96c35349c653efdec291f1da4c344c082953
+                        │     │                   95c2880f7f 
                         │     ├ Title           : jackson-databind contains the general-purpose data-binding
                         │     │                   functionali ... 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -236,29 +241,29 @@
                         │     │                  ╰ [4]: https://github.com/FasterXML/jackson-databind/security/
                         │     │                         advisories/GHSA-5jmj-h7xm-6q6v 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.597Z 
-                        │     ╰ LastModifiedDate: 2026-06-25T16:14:14.483Z 
+                        │     ╰ LastModifiedDate: 2026-06-29T13:38:59.057Z 
                         ├ [4] ╭ VulnerabilityID : CVE-2026-54516 
                         │     ├ VendorIDs        ─ [0]: GHSA-9fxm-vc8v-hj55 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
                         │     ├ PkgPath         : openaf/openaf.jar 
                         │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@
                         │     │                  │       2.21.3 
-                        │     │                  ╰ UID : af9e86e80fd64186 
+                        │     │                  ╰ UID : bdedb7f4f2b3e6f5 
                         │     ├ InstalledVersion: 2.21.3 
                         │     ├ FixedVersion    : 2.21.4, 3.1.4 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:d33b3a2449468c442e365406c1f91de1099e32bdecf42
-                        │     │                  │         551d8fb0f2bc4dfbcc2 
-                        │     │                  ╰ DiffID: sha256:812be9f0f39dc160d4770a8132fcff2de69bfbb23d0a6
-                        │     │                            4e97ff946c8ec874414 
+                        │     ├ Layer            ╭ Digest: sha256:ed1adf151f1236ebda66b7983b8fb12aace5ef062417c
+                        │     │                  │         9c4f8d75435fca0a5fa 
+                        │     │                  ╰ DiffID: sha256:e5b4b6d3064f20832c6f2713f759a6128f22f57020842
+                        │     │                            a372db8b49d4ad29a11 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54516 
                         │     ├ DataSource       ╭ ID  : ghsa 
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:7d88306c91030bed38c45dab56324a87ed79a64679f7fd3f65b699
-                        │     │                   a6bc62297b 
+                        │     ├ Fingerprint     : sha256:a8bb9daf7f71b32770a9e75af31031c455cb003a9e375ce2a4e169
+                        │     │                   90666846dd 
                         │     ├ Title           : jackson-databind contains the general-purpose data-binding
                         │     │                   functionali ... 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -296,22 +301,22 @@
                         │     ├ PkgPath         : openaf/openaf.jar 
                         │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@
                         │     │                  │       2.21.3 
-                        │     │                  ╰ UID : af9e86e80fd64186 
+                        │     │                  ╰ UID : bdedb7f4f2b3e6f5 
                         │     ├ InstalledVersion: 2.21.3 
                         │     ├ FixedVersion    : 2.21.4, 3.1.4 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:d33b3a2449468c442e365406c1f91de1099e32bdecf42
-                        │     │                  │         551d8fb0f2bc4dfbcc2 
-                        │     │                  ╰ DiffID: sha256:812be9f0f39dc160d4770a8132fcff2de69bfbb23d0a6
-                        │     │                            4e97ff946c8ec874414 
+                        │     ├ Layer            ╭ Digest: sha256:ed1adf151f1236ebda66b7983b8fb12aace5ef062417c
+                        │     │                  │         9c4f8d75435fca0a5fa 
+                        │     │                  ╰ DiffID: sha256:e5b4b6d3064f20832c6f2713f759a6128f22f57020842
+                        │     │                            a372db8b49d4ad29a11 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54517 
                         │     ├ DataSource       ╭ ID  : ghsa 
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:35c9d03df8e3442e5819a6d5a55c14faff523f059626a3674d9700
-                        │     │                   85972039a8 
+                        │     ├ Fingerprint     : sha256:4a82a3b1dfa3cbea9ca2c09178d640094dae8483fdfa41d779947c
+                        │     │                   6b93528c71 
                         │     ├ Title           : jackson-databind contains the general-purpose data-binding
                         │     │                   functionali ... 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -349,22 +354,22 @@
                               ├ PkgPath         : openaf/openaf.jar 
                               ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@
                               │                  │       2.21.3 
-                              │                  ╰ UID : af9e86e80fd64186 
+                              │                  ╰ UID : bdedb7f4f2b3e6f5 
                               ├ InstalledVersion: 2.21.3 
                               ├ FixedVersion    : 2.21.4 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:d33b3a2449468c442e365406c1f91de1099e32bdecf42
-                              │                  │         551d8fb0f2bc4dfbcc2 
-                              │                  ╰ DiffID: sha256:812be9f0f39dc160d4770a8132fcff2de69bfbb23d0a6
-                              │                            4e97ff946c8ec874414 
+                              ├ Layer            ╭ Digest: sha256:ed1adf151f1236ebda66b7983b8fb12aace5ef062417c
+                              │                  │         9c4f8d75435fca0a5fa 
+                              │                  ╰ DiffID: sha256:e5b4b6d3064f20832c6f2713f759a6128f22f57020842
+                              │                            a372db8b49d4ad29a11 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54518 
                               ├ DataSource       ╭ ID  : ghsa 
                               │                  ├ Name: GitHub Security Advisory Maven 
                               │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                               │                          osystem%3Amaven 
-                              ├ Fingerprint     : sha256:69f37a90845ac7130598c514bfb75d09f4efc6e9091b5fb002123d
-                              │                   313edd3e61 
+                              ├ Fingerprint     : sha256:25e5bbf14a6ff969323147847a0328fa37180b7e904bb4fcf2d332
+                              │                   8db24fa9ed 
                               ├ Title           : jackson-databind contains the general-purpose data-binding
                               │                   functionali ... 
                               ├ Description     : jackson-databind contains the general-purpose data-binding
