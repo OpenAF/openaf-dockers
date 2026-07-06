@@ -17,20 +17,20 @@
                         │     ├ InstalledVersion: 2.21.3 
                         │     ├ FixedVersion    : 2.18.8, 3.1.4, 2.21.4 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:977d1f2e442fb92d34c1be65647d3d349b65589eaf5d9
-                        │     │                  │         a4875f22e5727284597 
-                        │     │                  ╰ DiffID: sha256:734721012270a1c08bfb53fb612e315f4f00db147cb64
-                        │     │                            aa38f9fa402e832eb94 
+                        │     ├ Layer            ╭ Digest: sha256:6238f2ee1433e46ce1fb8ede850fff1bb46bded5e15e5
+                        │     │                  │         5e2f41a11c256d61310 
+                        │     │                  ╰ DiffID: sha256:3781167a5e009f4289893b6729c5c3e05b7dd7522dd50
+                        │     │                            3d859314148ed646067 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54512 
                         │     ├ DataSource       ╭ ID  : ghsa 
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:b59d4111494a6cc5669d684816dac89eaf4c50b75e457556cff601
-                        │     │                   34a15eabdd 
-                        │     ├ Title           : jackson-databind contains the general-purpose data-binding
-                        │     │                   functionali ... 
+                        │     ├ Fingerprint     : sha256:54619f23bae8b8cf6aaf022dd76cc123862eff80c940cd6771829c
+                        │     │                   16d5645923 
+                        │     ├ Title           : jackson-databind: jackson-databind: Arbitrary code execution
+                        │     │                   via PolymorphicTypeValidator bypass 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
                         │     │                   functionality and tree-model for Jackson Data Processor. From
                         │     │                    2.10.0 until 2.18.8, 2.21.4, and 3.1.4, jackson-databind's
@@ -59,15 +59,23 @@
                         │     ├ Severity        : HIGH 
                         │     ├ CweIDs           ╭ [0]: CWE-184 
                         │     │                  ╰ [1]: CWE-502 
-                        │     ├ VendorSeverity   ─ ghsa: 3 
-                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H 
-                        │     │                         ╰ V3Score : 8.1 
-                        │     ├ References       ╭ [0]: https://github.com/FasterXML/jackson-databind 
-                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-databind/commit/43
+                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+                        │     │                  ╰ redhat: 3 
+                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
+                        │     │                  │        │           A:H 
+                        │     │                  │        ╰ V3Score : 8.1 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/
+                        │     │                           │           A:H 
+                        │     │                           ╰ V3Score : 8.1 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54512 
+                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
+                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/43
                         │     │                  │      4d6c511de7fdd9872f29157aafb6162d12d8d5 
-                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-databind/issues/5988 
-                        │     │                  ╰ [3]: https://github.com/FasterXML/jackson-databind/security/
-                        │     │                         advisories/GHSA-j3rv-43j4-c7qm 
+                        │     │                  ├ [3]: https://github.com/FasterXML/jackson-databind/issues/5988 
+                        │     │                  ├ [4]: https://github.com/FasterXML/jackson-databind/security/
+                        │     │                  │      advisories/GHSA-j3rv-43j4-c7qm 
+                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-54512 
+                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-54512 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.203Z 
                         │     ╰ LastModifiedDate: 2026-06-27T21:01:36.47Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2026-54513 
@@ -80,18 +88,18 @@
                         │     ├ InstalledVersion: 2.21.3 
                         │     ├ FixedVersion    : 2.18.8, 2.21.4, 3.1.4 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:977d1f2e442fb92d34c1be65647d3d349b65589eaf5d9
-                        │     │                  │         a4875f22e5727284597 
-                        │     │                  ╰ DiffID: sha256:734721012270a1c08bfb53fb612e315f4f00db147cb64
-                        │     │                            aa38f9fa402e832eb94 
+                        │     ├ Layer            ╭ Digest: sha256:6238f2ee1433e46ce1fb8ede850fff1bb46bded5e15e5
+                        │     │                  │         5e2f41a11c256d61310 
+                        │     │                  ╰ DiffID: sha256:3781167a5e009f4289893b6729c5c3e05b7dd7522dd50
+                        │     │                            3d859314148ed646067 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54513 
                         │     ├ DataSource       ╭ ID  : ghsa 
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:db37e9395e67ce40770d07377f7d3ee04385ec2ecda55a93a355b3
-                        │     │                   11a38c8586 
+                        │     ├ Fingerprint     : sha256:c1ba22920b81b5efb006e735f259d7f17c4c1b3ca95cea82159e54
+                        │     │                   8ea2373c06 
                         │     ├ Title           : jackson-databind: Jackson-databind: Security bypass allows
                         │     │                   arbitrary code execution 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -137,7 +145,7 @@
                         │     │                  │       26/cve-2026-54513.json 
                         │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.333Z 
-                        │     ╰ LastModifiedDate: 2026-06-30T03:21:03.13Z 
+                        │     ╰ LastModifiedDate: 2026-07-03T13:17:29.627Z 
                         ├ [2] ╭ VulnerabilityID : CVE-2026-54514 
                         │     ├ VendorIDs        ─ [0]: GHSA-hgj6-7826-r7m5 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
@@ -148,20 +156,20 @@
                         │     ├ InstalledVersion: 2.21.3 
                         │     ├ FixedVersion    : 2.18.8, 2.21.4, 3.1.4 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:977d1f2e442fb92d34c1be65647d3d349b65589eaf5d9
-                        │     │                  │         a4875f22e5727284597 
-                        │     │                  ╰ DiffID: sha256:734721012270a1c08bfb53fb612e315f4f00db147cb64
-                        │     │                            aa38f9fa402e832eb94 
+                        │     ├ Layer            ╭ Digest: sha256:6238f2ee1433e46ce1fb8ede850fff1bb46bded5e15e5
+                        │     │                  │         5e2f41a11c256d61310 
+                        │     │                  ╰ DiffID: sha256:3781167a5e009f4289893b6729c5c3e05b7dd7522dd50
+                        │     │                            3d859314148ed646067 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54514 
                         │     ├ DataSource       ╭ ID  : ghsa 
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:cc089fcab06c3943e12aabc95271e0280962cede013a3bba8ed157
-                        │     │                   b0213335c8 
-                        │     ├ Title           : jackson-databind contains the general-purpose data-binding
-                        │     │                   functionali ... 
+                        │     ├ Fingerprint     : sha256:9e5028c086ad82667b5e58112cb2edf738abd55ec3615853b67627
+                        │     │                   8ccffbceea 
+                        │     ├ Title           : jackson-databind: jackson-databind: Information Disclosure
+                        │     │                   via Eager DNS Resolution 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
                         │     │                   functionality and tree-model for Jackson Data Processor. From
                         │     │                    2.0.0 until 2.18.8, 2.21.4, and 3.1.4,
@@ -177,15 +185,23 @@
                         │     │                   2.18.8, 2.21.4, and 3.1.4. 
                         │     ├ Severity        : MEDIUM 
                         │     ├ CweIDs           ─ [0]: CWE-918 
-                        │     ├ VendorSeverity   ─ ghsa: 2 
-                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N 
-                        │     │                         ╰ V3Score : 5.3 
-                        │     ├ References       ╭ [0]: https://github.com/FasterXML/jackson-databind 
-                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-databind/commit/1f
+                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+                        │     │                  ╰ redhat: 2 
+                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/
+                        │     │                  │        │           A:N 
+                        │     │                  │        ╰ V3Score : 5.3 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/
+                        │     │                           │           A:N 
+                        │     │                           ╰ V3Score : 5.3 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54514 
+                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
+                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/1f
                         │     │                  │      5a1037b1e9e05920e755cb35f198bcd46667e4 
-                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-databind/pull/5951 
-                        │     │                  ╰ [3]: https://github.com/FasterXML/jackson-databind/security/
-                        │     │                         advisories/GHSA-hgj6-7826-r7m5 
+                        │     │                  ├ [3]: https://github.com/FasterXML/jackson-databind/pull/5951 
+                        │     │                  ├ [4]: https://github.com/FasterXML/jackson-databind/security/
+                        │     │                  │      advisories/GHSA-hgj6-7826-r7m5 
+                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-54514 
+                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-54514 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.467Z 
                         │     ╰ LastModifiedDate: 2026-06-27T20:55:09.61Z 
                         ├ [3] ╭ VulnerabilityID : CVE-2026-54515 
@@ -196,22 +212,22 @@
                         │     │                  │       2.21.3 
                         │     │                  ╰ UID : bdedb7f4f2b3e6f5 
                         │     ├ InstalledVersion: 2.21.3 
-                        │     ├ FixedVersion    : 3.1.4, 2.18.9, 2.21.5 
+                        │     ├ FixedVersion    : 3.1.4, 2.18.9, 2.21.5, 2.22.1 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:977d1f2e442fb92d34c1be65647d3d349b65589eaf5d9
-                        │     │                  │         a4875f22e5727284597 
-                        │     │                  ╰ DiffID: sha256:734721012270a1c08bfb53fb612e315f4f00db147cb64
-                        │     │                            aa38f9fa402e832eb94 
+                        │     ├ Layer            ╭ Digest: sha256:6238f2ee1433e46ce1fb8ede850fff1bb46bded5e15e5
+                        │     │                  │         5e2f41a11c256d61310 
+                        │     │                  ╰ DiffID: sha256:3781167a5e009f4289893b6729c5c3e05b7dd7522dd50
+                        │     │                            3d859314148ed646067 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54515 
                         │     ├ DataSource       ╭ ID  : ghsa 
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:57109d26d728955e776c4b303a90f5103ac5be138449d3a0623eee
-                        │     │                   9e63087adf 
-                        │     ├ Title           : jackson-databind contains the general-purpose data-binding
-                        │     │                   functionali ... 
+                        │     ├ Fingerprint     : sha256:0129e2f6011c56d239f534e3851dcfcc97d6b8846630a3eb9ba18b
+                        │     │                   d6f7d72d6c 
+                        │     ├ Title           : jackson-databind: jackson-databind: Ignored properties can be
+                        │     │                    unexpectedly modified 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
                         │     │                   functionality and tree-model for Jackson Data Processor. From
                         │     │                    2.8.0 until 2.18.9, 2.21.5, and 3.1.4, in
@@ -230,16 +246,24 @@
                         │     │                   2.18.9, 2.21.5, and 3.1.4. 
                         │     ├ Severity        : MEDIUM 
                         │     ├ CweIDs           ─ [0]: CWE-915 
-                        │     ├ VendorSeverity   ─ ghsa: 2 
-                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N 
-                        │     │                         ╰ V3Score : 5.3 
-                        │     ├ References       ╭ [0]: https://github.com/FasterXML/jackson-databind 
-                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-databind/commit/0e
+                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+                        │     │                  ╰ redhat: 2 
+                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/
+                        │     │                  │        │           A:N 
+                        │     │                  │        ╰ V3Score : 5.3 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/
+                        │     │                           │           A:N 
+                        │     │                           ╰ V3Score : 5.3 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54515 
+                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
+                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/0e
                         │     │                  │      1b0b211f7a53baa62ba2f4c9bd006c7bf4d5fa 
-                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-databind/issues/5962 
-                        │     │                  ├ [3]: https://github.com/FasterXML/jackson-databind/issues/5964 
-                        │     │                  ╰ [4]: https://github.com/FasterXML/jackson-databind/security/
-                        │     │                         advisories/GHSA-5jmj-h7xm-6q6v 
+                        │     │                  ├ [3]: https://github.com/FasterXML/jackson-databind/issues/5962 
+                        │     │                  ├ [4]: https://github.com/FasterXML/jackson-databind/issues/5964 
+                        │     │                  ├ [5]: https://github.com/FasterXML/jackson-databind/security/
+                        │     │                  │      advisories/GHSA-5jmj-h7xm-6q6v 
+                        │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-54515 
+                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-54515 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.597Z 
                         │     ╰ LastModifiedDate: 2026-06-29T13:38:59.057Z 
                         ├ [4] ╭ VulnerabilityID : CVE-2026-54516 
@@ -252,20 +276,20 @@
                         │     ├ InstalledVersion: 2.21.3 
                         │     ├ FixedVersion    : 2.21.4, 3.1.4 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:977d1f2e442fb92d34c1be65647d3d349b65589eaf5d9
-                        │     │                  │         a4875f22e5727284597 
-                        │     │                  ╰ DiffID: sha256:734721012270a1c08bfb53fb612e315f4f00db147cb64
-                        │     │                            aa38f9fa402e832eb94 
+                        │     ├ Layer            ╭ Digest: sha256:6238f2ee1433e46ce1fb8ede850fff1bb46bded5e15e5
+                        │     │                  │         5e2f41a11c256d61310 
+                        │     │                  ╰ DiffID: sha256:3781167a5e009f4289893b6729c5c3e05b7dd7522dd50
+                        │     │                            3d859314148ed646067 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54516 
                         │     ├ DataSource       ╭ ID  : ghsa 
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:c7d90a7ec20a26c9759f82da462194856a3542d9f460250ffd2348
-                        │     │                   c5f5e58d55 
-                        │     ├ Title           : jackson-databind contains the general-purpose data-binding
-                        │     │                   functionali ... 
+                        │     ├ Fingerprint     : sha256:cd1f4207b96d2bfe670fa0a0d891ab9a04b8a9ebff0fc571c3c645
+                        │     │                   0a5731b3af 
+                        │     ├ Title           : jackson-databind: jackson-databind: Security bypass due to
+                        │     │                   improper handling of renamed properties 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
                         │     │                   functionality and tree-model for Jackson Data Processor. From
                         │     │                    2.21.0 until 2.21.4 and 3.1.4,
@@ -281,18 +305,26 @@
                         │     │                   setter. This vulnerability is fixed in 3.1.4. 
                         │     ├ Severity        : MEDIUM 
                         │     ├ CweIDs           ─ [0]: CWE-915 
-                        │     ├ VendorSeverity   ─ ghsa: 2 
-                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N 
-                        │     │                         ╰ V3Score : 5.3 
-                        │     ├ References       ╭ [0]: https://github.com/FasterXML/jackson-databind 
-                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-databind/commit/c3
+                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+                        │     │                  ╰ redhat: 2 
+                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/
+                        │     │                  │        │           A:N 
+                        │     │                  │        ╰ V3Score : 5.3 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/
+                        │     │                           │           A:N 
+                        │     │                           ╰ V3Score : 5.3 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54516 
+                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
+                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/c3
                         │     │                  │      d56dd25d52319828147c5b9aeabf2d485c250a 
-                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/e8
+                        │     │                  ├ [3]: https://github.com/FasterXML/jackson-databind/commit/e8
                         │     │                  │      8cb17006b6af4883b973058f0bb6486e5074af 
-                        │     │                  ├ [3]: https://github.com/FasterXML/jackson-databind/pull/5967 
-                        │     │                  ├ [4]: https://github.com/FasterXML/jackson-databind/pull/5968 
-                        │     │                  ╰ [5]: https://github.com/FasterXML/jackson-databind/security/
-                        │     │                         advisories/GHSA-9fxm-vc8v-hj55 
+                        │     │                  ├ [4]: https://github.com/FasterXML/jackson-databind/pull/5967 
+                        │     │                  ├ [5]: https://github.com/FasterXML/jackson-databind/pull/5968 
+                        │     │                  ├ [6]: https://github.com/FasterXML/jackson-databind/security/
+                        │     │                  │      advisories/GHSA-9fxm-vc8v-hj55 
+                        │     │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-54516 
+                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-54516 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.723Z 
                         │     ╰ LastModifiedDate: 2026-06-27T20:52:12.103Z 
                         ├ [5] ╭ VulnerabilityID : CVE-2026-54517 
@@ -305,20 +337,20 @@
                         │     ├ InstalledVersion: 2.21.3 
                         │     ├ FixedVersion    : 2.21.4, 3.1.4 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:977d1f2e442fb92d34c1be65647d3d349b65589eaf5d9
-                        │     │                  │         a4875f22e5727284597 
-                        │     │                  ╰ DiffID: sha256:734721012270a1c08bfb53fb612e315f4f00db147cb64
-                        │     │                            aa38f9fa402e832eb94 
+                        │     ├ Layer            ╭ Digest: sha256:6238f2ee1433e46ce1fb8ede850fff1bb46bded5e15e5
+                        │     │                  │         5e2f41a11c256d61310 
+                        │     │                  ╰ DiffID: sha256:3781167a5e009f4289893b6729c5c3e05b7dd7522dd50
+                        │     │                            3d859314148ed646067 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54517 
                         │     ├ DataSource       ╭ ID  : ghsa 
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:8a2405dc292851b7390ca927c90e046157689983334f1d75d5b8f9
-                        │     │                   e5854108ac 
-                        │     ├ Title           : jackson-databind contains the general-purpose data-binding
-                        │     │                   functionali ... 
+                        │     ├ Fingerprint     : sha256:8ebddcd4c43cb6ba20f0dfa383b89a3d686918ddb4104524f153b8
+                        │     │                   7f2fedccc6 
+                        │     ├ Title           : jackson-databind: jackson-databind: Information disclosure
+                        │     │                   via improper JsonView filter application 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
                         │     │                   functionality and tree-model for Jackson Data Processor. From
                         │     │                    2.21.0 until 2.21.4 and 3.1.4, in
@@ -334,18 +366,26 @@
                         │     │                   3.1.4. 
                         │     ├ Severity        : MEDIUM 
                         │     ├ CweIDs           ─ [0]: CWE-863 
-                        │     ├ VendorSeverity   ─ ghsa: 2 
-                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N 
-                        │     │                         ╰ V3Score : 5.3 
-                        │     ├ References       ╭ [0]: https://github.com/FasterXML/jackson-databind 
-                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-databind/commit/5b
+                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+                        │     │                  ╰ redhat: 2 
+                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/
+                        │     │                  │        │           A:N 
+                        │     │                  │        ╰ V3Score : 5.3 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/
+                        │     │                           │           A:N 
+                        │     │                           ╰ V3Score : 5.3 
+                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54517 
+                        │     │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
+                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/5b
                         │     │                  │      f23edb4221f7dd2ec8e71ff6d26c61640f261d 
-                        │     │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/94
+                        │     │                  ├ [3]: https://github.com/FasterXML/jackson-databind/commit/94
                         │     │                  │      c5d215b3af1505098c686405d9641f041a9962 
-                        │     │                  ├ [3]: https://github.com/FasterXML/jackson-databind/pull/5969 
-                        │     │                  ├ [4]: https://github.com/FasterXML/jackson-databind/pull/5970 
-                        │     │                  ╰ [5]: https://github.com/FasterXML/jackson-databind/security/
-                        │     │                         advisories/GHSA-5hh8-q8hv-fr38 
+                        │     │                  ├ [4]: https://github.com/FasterXML/jackson-databind/pull/5969 
+                        │     │                  ├ [5]: https://github.com/FasterXML/jackson-databind/pull/5970 
+                        │     │                  ├ [6]: https://github.com/FasterXML/jackson-databind/security/
+                        │     │                  │      advisories/GHSA-5hh8-q8hv-fr38 
+                        │     │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-54517 
+                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-54517 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.853Z 
                         │     ╰ LastModifiedDate: 2026-06-27T20:51:09.987Z 
                         ╰ [6] ╭ VulnerabilityID : CVE-2026-54518 
@@ -358,20 +398,20 @@
                               ├ InstalledVersion: 2.21.3 
                               ├ FixedVersion    : 2.21.4 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:977d1f2e442fb92d34c1be65647d3d349b65589eaf5d9
-                              │                  │         a4875f22e5727284597 
-                              │                  ╰ DiffID: sha256:734721012270a1c08bfb53fb612e315f4f00db147cb64
-                              │                            aa38f9fa402e832eb94 
+                              ├ Layer            ╭ Digest: sha256:6238f2ee1433e46ce1fb8ede850fff1bb46bded5e15e5
+                              │                  │         5e2f41a11c256d61310 
+                              │                  ╰ DiffID: sha256:3781167a5e009f4289893b6729c5c3e05b7dd7522dd50
+                              │                            3d859314148ed646067 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54518 
                               ├ DataSource       ╭ ID  : ghsa 
                               │                  ├ Name: GitHub Security Advisory Maven 
                               │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                               │                          osystem%3Amaven 
-                              ├ Fingerprint     : sha256:d28bdf2c8562e6c8e7c7c9c2d600198101a925226034331a82252f
-                              │                   aa6234ace7 
-                              ├ Title           : jackson-databind contains the general-purpose data-binding
-                              │                   functionali ... 
+                              ├ Fingerprint     : sha256:98c0fe3f4c81fc8fbfa9bdbab7ee4e9c8230b8332e952141f18543
+                              │                   0e4a8105b1 
+                              ├ Title           : jackson-databind: jackson-databind: Information disclosure
+                              │                   and data manipulation via view-based access control bypass 
                               ├ Description     : jackson-databind contains the general-purpose data-binding
                               │                   functionality and tree-model for Jackson Data Processor. From
                               │                    2.21.0 until 2.21.4 and 3.1.4,
@@ -386,18 +426,26 @@
                               │                   active. This vulnerability is fixed in 2.21.4 and 3.1.4. 
                               ├ Severity        : MEDIUM 
                               ├ CweIDs           ─ [0]: CWE-863 
-                              ├ VendorSeverity   ─ ghsa: 2 
-                              ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N 
-                              │                         ╰ V3Score : 6.5 
-                              ├ References       ╭ [0]: https://github.com/FasterXML/jackson-databind 
-                              │                  ├ [1]: https://github.com/FasterXML/jackson-databind/commit/72
+                              ├ VendorSeverity   ╭ ghsa  : 2 
+                              │                  ╰ redhat: 2 
+                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/
+                              │                  │        │           A:N 
+                              │                  │        ╰ V3Score : 6.5 
+                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/
+                              │                           │           A:N 
+                              │                           ╰ V3Score : 6.5 
+                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54518 
+                              │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
+                              │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/72
                               │                  │      1fa07ebbd4aab4a659a1a68940878315c3e341 
-                              │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/d6
+                              │                  ├ [3]: https://github.com/FasterXML/jackson-databind/commit/d6
                               │                  │      33bc038f200c1397c07f1a2b46f58e72c91eea 
-                              │                  ├ [3]: https://github.com/FasterXML/jackson-databind/pull/5971 
-                              │                  ├ [4]: https://github.com/FasterXML/jackson-databind/pull/5973 
-                              │                  ╰ [5]: https://github.com/FasterXML/jackson-databind/security/
-                              │                         advisories/GHSA-rcqc-6cw3-h962 
+                              │                  ├ [4]: https://github.com/FasterXML/jackson-databind/pull/5971 
+                              │                  ├ [5]: https://github.com/FasterXML/jackson-databind/pull/5973 
+                              │                  ├ [6]: https://github.com/FasterXML/jackson-databind/security/
+                              │                  │      advisories/GHSA-rcqc-6cw3-h962 
+                              │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-54518 
+                              │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-54518 
                               ├ PublishedDate   : 2026-06-23T22:16:32.073Z 
                               ╰ LastModifiedDate: 2026-06-27T20:49:30.977Z 
 ```
