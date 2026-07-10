@@ -17,18 +17,18 @@
                               ├ InstalledVersion: 2.22.0 
                               ├ FixedVersion    : 3.1.4, 2.18.9, 2.21.5, 2.22.1 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:2fd8ca3b6b5563fc71bfe8d84d77d54351d55ba57c6d8
-                              │                  │         71c6cf31267d1ff690f 
-                              │                  ╰ DiffID: sha256:8aa9dbb4953b77b3330d82667b42798b9465678549101
-                              │                            79d161be1d88c9c6726 
+                              ├ Layer            ╭ Digest: sha256:02597829b56741363967f0153b7a0fa1ffa1143232a4b
+                              │                  │         67e82ab86c63c15dc38 
+                              │                  ╰ DiffID: sha256:5d48f87dc0e2f5f8fb548cc4b8e943e7fd63a2e75620a
+                              │                            19e7b82b9f7de160a6a 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54515 
                               ├ DataSource       ╭ ID  : ghsa 
                               │                  ├ Name: GitHub Security Advisory Maven 
                               │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                               │                          osystem%3Amaven 
-                              ├ Fingerprint     : sha256:b6a67cb3b07cf06c8335fb0c07f5bc8dffb48ee444a3d886ac156e
-                              │                   b1ef876568 
+                              ├ Fingerprint     : sha256:238ed1a55b67c2812b426ca6208da5565cf418fb452f1bb2b178bd
+                              │                   a838c5281d 
                               ├ Title           : jackson-databind: jackson-databind: Ignored properties can be
                               │                    unexpectedly modified 
                               ├ Description     : jackson-databind contains the general-purpose data-binding
