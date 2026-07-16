@@ -1,52 +1,8 @@
 ```yaml
-╭ [0] ╭ Target         : openaf/pyoaf:edge (alpine 3.24.1) 
-│     ├ Class          : os-pkgs 
-│     ├ Type           : alpine 
-│     ├ Packages        
-│     ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2026-33630 
-│                             ├ PkgID           : c-ares@1.34.6-r0 
-│                             ├ PkgName         : c-ares 
-│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/c-ares@1.34.6-r0?arch=x86_64&distro=3.2
-│                             │                  │       4.1 
-│                             │                  ╰ UID : 3262f09038595d05 
-│                             ├ InstalledVersion: 1.34.6-r0 
-│                             ├ FixedVersion    : 1.34.8-r0 
-│                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:b1968184696fa9f45ccba8c74b2f58800f369927f9080
-│                             │                  │         dffd69fc82abfbbebac 
-│                             │                  ╰ DiffID: sha256:e36d6fb5088d01224309430a47989aae236f9ee4c77fa
-│                             │                            e60a2ab3e5037a69094 
-│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33630 
-│                             ├ DataSource       ╭ ID  : alpine 
-│                             │                  ├ Name: Alpine Secdb 
-│                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Fingerprint     : sha256:cb4810fb6b1145a5137835522a0fe98689ec48a33c2f8b5433e148
-│                             │                   9d65fa0c59 
-│                             ├ Title           : c-ares: c-ares: Use-after-free / double-free in
-│                             │                   query-completion handling 
-│                             ├ Description     : A flaw was found in c-ares. A use-after-free / double-free
-│                             │                   vulnerability exists in the query-completion handling path,
-│                             │                   where a query callback is invoked while the query is still
-│                             │                   linked in internal lookup structures. A remote attacker can
-│                             │                   exploit this via ares_getaddrinfo() over TCP by sending
-│                             │                   crafted DNS responses that force an EDNS-downgrade retry
-│                             │                   followed by a connection reset, causing the internal
-│                             │                   completion handler to access freed memory. This leads to
-│                             │                   memory corruption and a crash (denial of service), with
-│                             │                   potential for further impact depending on the allocator and
-│                             │                   build configuration. 
-│                             ├ Severity        : HIGH 
-│                             ├ VendorSeverity   ─ redhat: 3 
-│                             ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
-│                             │                           │           A:H 
-│                             │                           ╰ V3Score : 7.5 
-│                             ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-33630 
-│                                                ├ [1]: https://github.com/c-ares/c-ares/commit/1fa3b86a0b8d18f
-│                                                │      e7b60f3228a01d770feb026bc 
-│                                                ├ [2]: https://github.com/c-ares/c-ares/commit/d823199b688052d
-│                                                │      cdc1646f2ab4cb8c16b1c644a 
-│                                                ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2026-33630 
-│                                                ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-33630 
+╭ [0] ╭ Target  : openaf/pyoaf:edge (alpine 3.24.1) 
+│     ├ Class   : os-pkgs 
+│     ├ Type    : alpine 
+│     ╰ Packages 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
@@ -61,18 +17,18 @@
                         │     ├ InstalledVersion: 2.21.1 
                         │     ├ FixedVersion    : 2.18.8, 3.1.4, 2.21.4 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:b1968184696fa9f45ccba8c74b2f58800f369927f9080
-                        │     │                  │         dffd69fc82abfbbebac 
-                        │     │                  ╰ DiffID: sha256:e36d6fb5088d01224309430a47989aae236f9ee4c77fa
-                        │     │                            e60a2ab3e5037a69094 
+                        │     ├ Layer            ╭ Digest: sha256:d36dd615f06f76c27493dc66f9cd73c3a8c6f9dffe96e
+                        │     │                  │         61bc9def262a812d835 
+                        │     │                  ╰ DiffID: sha256:365145d731c532306921c40bebb4a152b75072f93979f
+                        │     │                            1821571add51cc4d0ca 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54512 
                         │     ├ DataSource       ╭ ID  : ghsa 
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:9a8cf23ceb1e70d76f9e8081ea6e5021a720b64321efc3226530da
-                        │     │                   7c8007d2af 
+                        │     ├ Fingerprint     : sha256:6a4502ff2063b2a3fb6009cc9b5d2e5bc6a015e0b9464dbd43ecac
+                        │     │                   9496aa361f 
                         │     ├ Title           : jackson-databind: jackson-databind: Arbitrary code execution
                         │     │                   via PolymorphicTypeValidator bypass 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -132,18 +88,18 @@
                         │     ├ InstalledVersion: 2.21.1 
                         │     ├ FixedVersion    : 2.18.8, 2.21.4, 3.1.4 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:b1968184696fa9f45ccba8c74b2f58800f369927f9080
-                        │     │                  │         dffd69fc82abfbbebac 
-                        │     │                  ╰ DiffID: sha256:e36d6fb5088d01224309430a47989aae236f9ee4c77fa
-                        │     │                            e60a2ab3e5037a69094 
+                        │     ├ Layer            ╭ Digest: sha256:d36dd615f06f76c27493dc66f9cd73c3a8c6f9dffe96e
+                        │     │                  │         61bc9def262a812d835 
+                        │     │                  ╰ DiffID: sha256:365145d731c532306921c40bebb4a152b75072f93979f
+                        │     │                            1821571add51cc4d0ca 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54513 
                         │     ├ DataSource       ╭ ID  : ghsa 
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:43b172f126b77e780542feec89a984e26355500a610464e32abb58
-                        │     │                   6bec4cf6b6 
+                        │     ├ Fingerprint     : sha256:2c36242807e60126fdfe33c31723508a37c2d309be99288c577c58
+                        │     │                   74ba9bbc96 
                         │     ├ Title           : jackson-databind: Jackson-databind: Security bypass allows
                         │     │                   arbitrary code execution 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -190,7 +146,7 @@
                         │     │                  │       26/cve-2026-54513.json 
                         │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.333Z 
-                        │     ╰ LastModifiedDate: 2026-07-09T13:17:29.703Z 
+                        │     ╰ LastModifiedDate: 2026-07-15T01:16:35.73Z 
                         ├ [2] ╭ VulnerabilityID : CVE-2026-54514 
                         │     ├ VendorIDs        ─ [0]: GHSA-hgj6-7826-r7m5 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
@@ -201,18 +157,18 @@
                         │     ├ InstalledVersion: 2.21.1 
                         │     ├ FixedVersion    : 2.18.8, 2.21.4, 3.1.4 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:b1968184696fa9f45ccba8c74b2f58800f369927f9080
-                        │     │                  │         dffd69fc82abfbbebac 
-                        │     │                  ╰ DiffID: sha256:e36d6fb5088d01224309430a47989aae236f9ee4c77fa
-                        │     │                            e60a2ab3e5037a69094 
+                        │     ├ Layer            ╭ Digest: sha256:d36dd615f06f76c27493dc66f9cd73c3a8c6f9dffe96e
+                        │     │                  │         61bc9def262a812d835 
+                        │     │                  ╰ DiffID: sha256:365145d731c532306921c40bebb4a152b75072f93979f
+                        │     │                            1821571add51cc4d0ca 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54514 
                         │     ├ DataSource       ╭ ID  : ghsa 
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:2ee42909db004a7ebf327ffcda1e7b1c7e801545bc1235bb85bf3c
-                        │     │                   00d8f94223 
+                        │     ├ Fingerprint     : sha256:23597746d4d7ef8d305d9ca3dfa1a33b89d8fa12bbb4f361c09466
+                        │     │                   4f23dc2d82 
                         │     ├ Title           : jackson-databind: jackson-databind: Information Disclosure
                         │     │                   via Eager DNS Resolution 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -259,18 +215,18 @@
                         │     ├ InstalledVersion: 2.21.1 
                         │     ├ FixedVersion    : 3.1.4, 2.18.9, 2.21.5, 2.22.1 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:b1968184696fa9f45ccba8c74b2f58800f369927f9080
-                        │     │                  │         dffd69fc82abfbbebac 
-                        │     │                  ╰ DiffID: sha256:e36d6fb5088d01224309430a47989aae236f9ee4c77fa
-                        │     │                            e60a2ab3e5037a69094 
+                        │     ├ Layer            ╭ Digest: sha256:d36dd615f06f76c27493dc66f9cd73c3a8c6f9dffe96e
+                        │     │                  │         61bc9def262a812d835 
+                        │     │                  ╰ DiffID: sha256:365145d731c532306921c40bebb4a152b75072f93979f
+                        │     │                            1821571add51cc4d0ca 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54515 
                         │     ├ DataSource       ╭ ID  : ghsa 
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:d6f4d4662774819bf4c21d7ae9e2daf944405272916151ecd65451
-                        │     │                   eb6bd593bf 
+                        │     ├ Fingerprint     : sha256:41ac06aacad0b3f4b13c14dbe92c3eeb1c9d0f4749e25c0c818368
+                        │     │                   edcb255460 
                         │     ├ Title           : jackson-databind: jackson-databind: Ignored properties can be
                         │     │                    unexpectedly modified 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -321,18 +277,18 @@
                         │     ├ InstalledVersion: 2.21.1 
                         │     ├ FixedVersion    : 2.21.4, 3.1.4 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:b1968184696fa9f45ccba8c74b2f58800f369927f9080
-                        │     │                  │         dffd69fc82abfbbebac 
-                        │     │                  ╰ DiffID: sha256:e36d6fb5088d01224309430a47989aae236f9ee4c77fa
-                        │     │                            e60a2ab3e5037a69094 
+                        │     ├ Layer            ╭ Digest: sha256:d36dd615f06f76c27493dc66f9cd73c3a8c6f9dffe96e
+                        │     │                  │         61bc9def262a812d835 
+                        │     │                  ╰ DiffID: sha256:365145d731c532306921c40bebb4a152b75072f93979f
+                        │     │                            1821571add51cc4d0ca 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54516 
                         │     ├ DataSource       ╭ ID  : ghsa 
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:3f009f08d7cc2a493bdc1d82e08e14dc067743cad94a88cc3c3037
-                        │     │                   b8aee8620c 
+                        │     ├ Fingerprint     : sha256:45861550c057afe33d0fe0d12c6a5ea552f3eda1da79b1654b3117
+                        │     │                   bacf9b6597 
                         │     ├ Title           : jackson-databind: jackson-databind: Security bypass due to
                         │     │                   improper handling of renamed properties 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -382,18 +338,18 @@
                         │     ├ InstalledVersion: 2.21.1 
                         │     ├ FixedVersion    : 2.21.4, 3.1.4 
                         │     ├ Status          : fixed 
-                        │     ├ Layer            ╭ Digest: sha256:b1968184696fa9f45ccba8c74b2f58800f369927f9080
-                        │     │                  │         dffd69fc82abfbbebac 
-                        │     │                  ╰ DiffID: sha256:e36d6fb5088d01224309430a47989aae236f9ee4c77fa
-                        │     │                            e60a2ab3e5037a69094 
+                        │     ├ Layer            ╭ Digest: sha256:d36dd615f06f76c27493dc66f9cd73c3a8c6f9dffe96e
+                        │     │                  │         61bc9def262a812d835 
+                        │     │                  ╰ DiffID: sha256:365145d731c532306921c40bebb4a152b75072f93979f
+                        │     │                            1821571add51cc4d0ca 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54517 
                         │     ├ DataSource       ╭ ID  : ghsa 
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:37dd83a1c6026b82c9e3c82a3b7a872ffa1c48cd6befcbdbbe72f4
-                        │     │                   e9eef4d517 
+                        │     ├ Fingerprint     : sha256:07a2803f08dc8e191eb3e1c66567f464873da4a19655d0cb6cf694
+                        │     │                   4ee20f3589 
                         │     ├ Title           : jackson-databind: jackson-databind: Information disclosure
                         │     │                   via improper JsonView filter application 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -443,18 +399,18 @@
                               ├ InstalledVersion: 2.21.1 
                               ├ FixedVersion    : 2.21.4 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:b1968184696fa9f45ccba8c74b2f58800f369927f9080
-                              │                  │         dffd69fc82abfbbebac 
-                              │                  ╰ DiffID: sha256:e36d6fb5088d01224309430a47989aae236f9ee4c77fa
-                              │                            e60a2ab3e5037a69094 
+                              ├ Layer            ╭ Digest: sha256:d36dd615f06f76c27493dc66f9cd73c3a8c6f9dffe96e
+                              │                  │         61bc9def262a812d835 
+                              │                  ╰ DiffID: sha256:365145d731c532306921c40bebb4a152b75072f93979f
+                              │                            1821571add51cc4d0ca 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54518 
                               ├ DataSource       ╭ ID  : ghsa 
                               │                  ├ Name: GitHub Security Advisory Maven 
                               │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                               │                          osystem%3Amaven 
-                              ├ Fingerprint     : sha256:33f715eb3a796635e45b2c01e38e2547b7075e0b252da0e3a4b2e2
-                              │                   144816f8cd 
+                              ├ Fingerprint     : sha256:d3f1bd03b291480769707f917a523444ccea590b7e044f79ef8a64
+                              │                   afc6984fb4 
                               ├ Title           : jackson-databind: jackson-databind: Information disclosure
                               │                   and data manipulation via view-based access control bypass 
                               ├ Description     : jackson-databind contains the general-purpose data-binding
