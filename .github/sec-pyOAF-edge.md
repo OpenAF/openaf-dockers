@@ -27,8 +27,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:6a4502ff2063b2a3fb6009cc9b5d2e5bc6a015e0b9464dbd43ecac
-                        │     │                   9496aa361f 
+                        │     ├ Fingerprint     : sha256:5bafc61b30781f7580b424f18d2b6ae55197ba0d1053bc56ed3ae3
+                        │     │                   5c2a286776 
                         │     ├ Title           : jackson-databind: jackson-databind: Arbitrary code execution
                         │     │                   via PolymorphicTypeValidator bypass 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -98,8 +98,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:2c36242807e60126fdfe33c31723508a37c2d309be99288c577c58
-                        │     │                   74ba9bbc96 
+                        │     ├ Fingerprint     : sha256:edaf3a7cefa0e6ad2c08bc345ab5656f8bdc07bd1bbd0a0a3d9662
+                        │     │                   e15517be72 
                         │     ├ Title           : jackson-databind: Jackson-databind: Security bypass allows
                         │     │                   arbitrary code execution 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -127,26 +127,27 @@
                         │     │                           │           A:H 
                         │     │                           ╰ V3Score : 8.1 
                         │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:36839 
-                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-54513 
-                        │     │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
-                        │     │                  ├ [3] : https://github.com/FasterXML/jackson-databind 
-                        │     │                  ├ [4] : https://github.com/FasterXML/jackson-databind/commit/0
+                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:40895 
+                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-54513 
+                        │     │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
+                        │     │                  ├ [4] : https://github.com/FasterXML/jackson-databind 
+                        │     │                  ├ [5] : https://github.com/FasterXML/jackson-databind/commit/0
                         │     │                  │       1d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5 
-                        │     │                  ├ [5] : https://github.com/FasterXML/jackson-databind/commit/2
+                        │     │                  ├ [6] : https://github.com/FasterXML/jackson-databind/commit/2
                         │     │                  │       4529da29fdf46ff94ca38de9ebf31cd188f5e8e 
-                        │     │                  ├ [6] : https://github.com/FasterXML/jackson-databind/issues/5
-                        │     │                  │       981 
                         │     │                  ├ [7] : https://github.com/FasterXML/jackson-databind/issues/5
+                        │     │                  │       981 
+                        │     │                  ├ [8] : https://github.com/FasterXML/jackson-databind/issues/5
                         │     │                  │       983 
-                        │     │                  ├ [8] : https://github.com/FasterXML/jackson-databind/pull/5984 
-                        │     │                  ├ [9] : https://github.com/FasterXML/jackson-databind/security
+                        │     │                  ├ [9] : https://github.com/FasterXML/jackson-databind/pull/5984 
+                        │     │                  ├ [10]: https://github.com/FasterXML/jackson-databind/security
                         │     │                  │       /advisories/GHSA-rmj7-2vxq-3g9f 
-                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
-                        │     │                  ├ [11]: https://security.access.redhat.com/data/csaf/v2/vex/20
+                        │     │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
+                        │     │                  ├ [12]: https://security.access.redhat.com/data/csaf/v2/vex/20
                         │     │                  │       26/cve-2026-54513.json 
-                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
+                        │     │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.333Z 
-                        │     ╰ LastModifiedDate: 2026-07-15T01:16:35.73Z 
+                        │     ╰ LastModifiedDate: 2026-07-17T13:18:57.98Z 
                         ├ [2] ╭ VulnerabilityID : CVE-2026-54514 
                         │     ├ VendorIDs        ─ [0]: GHSA-hgj6-7826-r7m5 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
@@ -167,8 +168,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:23597746d4d7ef8d305d9ca3dfa1a33b89d8fa12bbb4f361c09466
-                        │     │                   4f23dc2d82 
+                        │     ├ Fingerprint     : sha256:5aecd9be6116d7ea44b60156a067246e7ae86ec1ee736f015cdda2
+                        │     │                   66e9af218f 
                         │     ├ Title           : jackson-databind: jackson-databind: Information Disclosure
                         │     │                   via Eager DNS Resolution 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -225,8 +226,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:41ac06aacad0b3f4b13c14dbe92c3eeb1c9d0f4749e25c0c818368
-                        │     │                   edcb255460 
+                        │     ├ Fingerprint     : sha256:2b1842cb9e103e9ce11023767a800e4c79b14923ade85544795dfa
+                        │     │                   206f7bc1b7 
                         │     ├ Title           : jackson-databind: jackson-databind: Ignored properties can be
                         │     │                    unexpectedly modified 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -287,8 +288,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:45861550c057afe33d0fe0d12c6a5ea552f3eda1da79b1654b3117
-                        │     │                   bacf9b6597 
+                        │     ├ Fingerprint     : sha256:9eec1468ee0bb7cef4b6c944d9a9a1a53e2520556a16a6cae66800
+                        │     │                   8aeb3247db 
                         │     ├ Title           : jackson-databind: jackson-databind: Security bypass due to
                         │     │                   improper handling of renamed properties 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -348,8 +349,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:07a2803f08dc8e191eb3e1c66567f464873da4a19655d0cb6cf694
-                        │     │                   4ee20f3589 
+                        │     ├ Fingerprint     : sha256:742dc28fab7b621969c311e6434a941a24a01c8f08bb28052440b1
+                        │     │                   0385207a07 
                         │     ├ Title           : jackson-databind: jackson-databind: Information disclosure
                         │     │                   via improper JsonView filter application 
                         │     ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -409,8 +410,8 @@
                               │                  ├ Name: GitHub Security Advisory Maven 
                               │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                               │                          osystem%3Amaven 
-                              ├ Fingerprint     : sha256:d3f1bd03b291480769707f917a523444ccea590b7e044f79ef8a64
-                              │                   afc6984fb4 
+                              ├ Fingerprint     : sha256:9c6807b3da9e29e5739eebb64990525dec62845e9589ef60165f5c
+                              │                   872e2f3c53 
                               ├ Title           : jackson-databind: jackson-databind: Information disclosure
                               │                   and data manipulation via view-based access control bypass 
                               ├ Description     : jackson-databind contains the general-purpose data-binding
