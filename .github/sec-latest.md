@@ -94,7 +94,10 @@
                         │     │                            1821571add51cc4d0ca 
                         │     ├ SeveritySource  : ghsa 
                         │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54513 
-
+                        │     ├ DataSource       ╭ ID  : ghsa 
+                        │     │                  ├ Name: GitHub Security Advisory Maven 
+                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
+                        │     │                          osystem%3Amaven 
                         │     ├ Fingerprint     : sha256:cb1e36c42e014ace7f51922db7b064f4b4c3fd19a24b541704de83
                         │     │                   067f25c0c3 
                         │     ├ Title           : jackson-databind: Jackson-databind: Security bypass allows
@@ -124,26 +127,27 @@
                         │     │                           │           A:H 
                         │     │                           ╰ V3Score : 8.1 
                         │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:36839 
-                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-54513 
-                        │     │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
-                        │     │                  ├ [3] : https://github.com/FasterXML/jackson-databind 
-                        │     │                  ├ [4] : https://github.com/FasterXML/jackson-databind/commit/0
+                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:40895 
+                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-54513 
+                        │     │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
+                        │     │                  ├ [4] : https://github.com/FasterXML/jackson-databind 
+                        │     │                  ├ [5] : https://github.com/FasterXML/jackson-databind/commit/0
                         │     │                  │       1d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5 
-                        │     │                  ├ [5] : https://github.com/FasterXML/jackson-databind/commit/2
+                        │     │                  ├ [6] : https://github.com/FasterXML/jackson-databind/commit/2
                         │     │                  │       4529da29fdf46ff94ca38de9ebf31cd188f5e8e 
-                        │     │                  ├ [6] : https://github.com/FasterXML/jackson-databind/issues/5
-                        │     │                  │       981 
                         │     │                  ├ [7] : https://github.com/FasterXML/jackson-databind/issues/5
+                        │     │                  │       981 
+                        │     │                  ├ [8] : https://github.com/FasterXML/jackson-databind/issues/5
                         │     │                  │       983 
-                        │     │                  ├ [8] : https://github.com/FasterXML/jackson-databind/pull/5984 
-                        │     │                  ├ [9] : https://github.com/FasterXML/jackson-databind/security
+                        │     │                  ├ [9] : https://github.com/FasterXML/jackson-databind/pull/5984 
+                        │     │                  ├ [10]: https://github.com/FasterXML/jackson-databind/security
                         │     │                  │       /advisories/GHSA-rmj7-2vxq-3g9f 
-                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
-                        │     │                  ├ [11]: https://security.access.redhat.com/data/csaf/v2/vex/20
+                        │     │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
+                        │     │                  ├ [12]: https://security.access.redhat.com/data/csaf/v2/vex/20
                         │     │                  │       26/cve-2026-54513.json 
-                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
+                        │     │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
                         │     ├ PublishedDate   : 2026-06-23T21:17:02.333Z 
-                        │     ╰ LastModifiedDate: 2026-07-15T01:16:35.73Z 
+                        │     ╰ LastModifiedDate: 2026-07-17T13:18:57.98Z 
                         ├ [2] ╭ VulnerabilityID : CVE-2026-54514 
                         │     ├ VendorIDs        ─ [0]: GHSA-hgj6-7826-r7m5 
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
