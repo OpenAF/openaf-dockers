@@ -19,15 +19,15 @@
     FixedVersion: 3.1.4, 2.18.9, 2.21.5, 2.22.1
     Status: fixed
     Layer:
-      Digest: sha256:322e3e21f362bfd5a7978104806b641b7ab994b49f46c3244a0c93b530ae1dc0
-      DiffID: sha256:090a6d03f31e17adb4fba5e630170b98de98ef3540a0804937adce0c8b48bb8d
+      Digest: sha256:b99c7b01fc88747926af46e1f6bcd1694bc4c033bceebc619cb809abc71bc81a
+      DiffID: sha256:5254f710a7f1ec0efebf2a52b4aa861534714d7fa06175e182dba9d4000f9c0b
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-54515
     DataSource:
       ID: ghsa
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
-    Fingerprint: sha256:77f2a333407ac6b0eb8b12b6194084032cc6485aea9e19ce576df185effdb688
+    Fingerprint: sha256:5f0d54debc8779bba0db0d19f9b99574a37cca26c84df57ed3e19189f31b767f
     Title: 'jackson-databind: jackson-databind: Ignored properties can be unexpectedly modified'
     Description: jackson-databind contains the general-purpose data-binding functionality and tree-model for Jackson Data Processor. From 2.8.0 until 2.18.9, 2.21.5, and 3.1.4, in BeanDeserializerBase.createContextual(), per-property @JsonIgnoreProperties exclusions are applied by _handleByNameInclusion(), producing a contextual deserializer whose BeanPropertyMap has the ignored properties removed. The subsequent per-property case-insensitivity block (triggered by @JsonFormat(ACCEPT_CASE_INSENSITIVE_PROPERTIES)) rebuilds from this._beanProperties (the original, unfiltered map) instead of contextual._beanProperties, then overwrites the filtered map — restoring every property _handleByNameInclusion had just removed. The ignored property becomes writable again. This vulnerability is fixed in 2.18.9, 2.21.5, and 3.1.4.
     Severity: MEDIUM
