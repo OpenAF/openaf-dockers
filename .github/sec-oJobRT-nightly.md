@@ -17,18 +17,18 @@
                               ├ InstalledVersion: 2.22.0 
                               ├ FixedVersion    : 3.1.4, 2.18.9, 2.21.5, 2.22.1 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:718cf53a33f7ef179318d73dfd414f279e57205a6e7bc
-                              │                  │         97351797d5d80cd511c 
-                              │                  ╰ DiffID: sha256:52166990b1cae961cf711573e5d98837a40296d0f6599
-                              │                            b25626cef9b1f8955b4 
+                              ├ Layer            ╭ Digest: sha256:58b8af82dab54236f956e2738d489c8fac82b422a6021
+                              │                  │         a27cd3f661818b36967 
+                              │                  ╰ DiffID: sha256:d7a1310b920467919a37385f7f63cca186c7f8f7c13b9
+                              │                            019076c2d3d4112f8ed 
                               ├ SeveritySource  : ghsa 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54515 
                               ├ DataSource       ╭ ID  : ghsa 
                               │                  ├ Name: GitHub Security Advisory Maven 
                               │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                               │                          osystem%3Amaven 
-                              ├ Fingerprint     : sha256:627b2ac697f8c4314e7c4873155a20a380594d3c8940f9e00a8219
-                              │                   4ad73c545b 
+                              ├ Fingerprint     : sha256:d9840e090c2ae165e08509990dd011df0b1e122c5f3b1150b1d3f2
+                              │                   6413b4aa70 
                               ├ Title           : jackson-databind: jackson-databind: Ignored properties can be
                               │                    unexpectedly modified 
                               ├ Description     : jackson-databind contains the general-purpose data-binding
@@ -49,7 +49,8 @@
                               │                   2.18.9, 2.21.5, and 3.1.4. 
                               ├ Severity        : MEDIUM 
                               ├ CweIDs           ─ [0]: CWE-915 
-                              ├ VendorSeverity   ╭ ghsa  : 2 
+                              ├ VendorSeverity   ╭ amazon: 3 
+                              │                  ├ ghsa  : 2 
                               │                  ╰ redhat: 2 
                               ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/
                               │                  │        │           A:N 
