@@ -52,7 +52,7 @@
 │                       │      │                           ╰ V3Score : 6.1 
 │                       │      ├ References       ╭ [0] : https://abhinavagarwal07.github.io/posts/lcms2-cubesi
 │                       │      │                  │       ze-overflow/ 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-41254 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2502751 
@@ -90,7 +90,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [32]: https://github.com/mm2/Little-CMS/commit/da6110b1d14a
 │                       │      │                  │       bc394633a388209abd5ebedd7ab0 
@@ -156,13 +156,14 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47063 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -200,7 +201,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47063.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -252,13 +253,14 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-46917 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -296,7 +298,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-46917.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -344,13 +346,14 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-46968 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -388,7 +391,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-46968.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -443,13 +446,14 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-400 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47021 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -487,7 +491,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47021.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -539,13 +543,14 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47027 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -583,7 +588,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47027.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -642,13 +647,14 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-60147 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -686,7 +692,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-60147.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -740,13 +746,14 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47010 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -784,7 +791,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47010.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -839,13 +846,14 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47059 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -883,7 +891,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47059.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -981,7 +989,7 @@
 │                       │      │                           ╰ V3Score : 6.1 
 │                       │      ├ References       ╭ [0] : https://abhinavagarwal07.github.io/posts/lcms2-cubesi
 │                       │      │                  │       ze-overflow/ 
-│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2026-41254 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [4] : https://bugzilla.redhat.com/2502751 
@@ -1019,7 +1027,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [30]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [31]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [32]: https://github.com/mm2/Little-CMS/commit/da6110b1d14a
 │                       │      │                  │       bc394633a388209abd5ebedd7ab0 
@@ -1085,13 +1093,14 @@
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 3 
 │                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47063 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -1129,7 +1138,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47063.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1181,13 +1190,14 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-46917 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -1225,7 +1235,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-46917.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1273,13 +1283,14 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-46968 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -1317,7 +1328,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-46968.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1372,13 +1383,14 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-400 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47021 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -1416,7 +1428,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47021.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1468,13 +1480,14 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47027 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -1512,7 +1525,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47027.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1571,13 +1584,14 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 6.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-60147 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -1615,7 +1629,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-60147.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1669,13 +1683,14 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47010 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -1713,7 +1728,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47010.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
@@ -1768,13 +1783,14 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-284 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
 │                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.7 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42895 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:42899 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-47059 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2459420 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/2502751 
@@ -1812,7 +1828,7 @@
 │                       │      │                  │       26-47063 
 │                       │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-60147 
-│                       │      │                  ├ [29]: https://errata.almalinux.org/10/ALSA-2026-42895.html 
+│                       │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2026-42899.html 
 │                       │      │                  ├ [30]: https://errata.rockylinux.org/RLSA-2026:42899 
 │                       │      │                  ├ [31]: https://linux.oracle.com/cve/CVE-2026-47059.html 
 │                       │      │                  ├ [32]: https://linux.oracle.com/errata/ELSA-2026-42899.html 
