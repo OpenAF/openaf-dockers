@@ -424,6 +424,7 @@
     - https://access.redhat.com/errata/RHSA-2026:38342
     - https://access.redhat.com/errata/RHSA-2026:49667
     - https://access.redhat.com/errata/RHSA-2026:49668
+    - https://access.redhat.com/errata/RHSA-2026:53371
     - https://access.redhat.com/security/cve/CVE-2026-13757
     - https://bugzilla.redhat.com/2494556
     - https://bugzilla.redhat.com/show_bug.cgi?id=2494556
@@ -436,7 +437,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-13757
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
-    LastModifiedDate: '2026-08-03T22:16:48.113Z'
+    LastModifiedDate: '2026-08-11T10:17:11.68Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: libsmartcols1@2.41.3-3ubuntu2
     PkgName: libsmartcols1
@@ -530,6 +531,109 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-3184
     PublishedDate: '2026-04-03T19:17:23.377Z'
     LastModifiedDate: '2026-07-21T19:10:00.107Z'
+  - VulnerabilityID: CVE-2026-15059
+    PkgID: libsystemd0@259.5-0ubuntu3
+    PkgName: libsystemd0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsystemd0@259.5-0ubuntu3?arch=amd64&distro=ubuntu-26.04
+      UID: c2c6a8cc93da771f
+    InstalledVersion: 259.5-0ubuntu3
+    FixedVersion: 259.5-0ubuntu3.4
+    Status: fixed
+    Layer:
+      Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a13cff84dcfa0a255f209e
+      DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f259e194f8c4780e1e1a63d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-15059
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:478fe4adf5ace9b6c11c2aea238ba4bf366674d194147f0cc444e1ac85945adb
+    Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    - CWE-59
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/systemd/systemd/security/advisories/GHSA-652q-wxr6-h5j6
+    - https://ubuntu.com/security/notices/USN-8626-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-15059
+    PublishedDate: '2026-08-10T14:17:20.76Z'
+    LastModifiedDate: '2026-08-10T18:17:40.983Z'
+  - VulnerabilityID: CVE-2026-15060
+    PkgID: libsystemd0@259.5-0ubuntu3
+    PkgName: libsystemd0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsystemd0@259.5-0ubuntu3?arch=amd64&distro=ubuntu-26.04
+      UID: c2c6a8cc93da771f
+    InstalledVersion: 259.5-0ubuntu3
+    FixedVersion: 259.5-0ubuntu3.4
+    Status: fixed
+    Layer:
+      Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a13cff84dcfa0a255f209e
+      DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f259e194f8c4780e1e1a63d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-15060
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:58130818daa39ea2e1496af90e537cadc236abcc80cfa4c7ab7d1fb6f59293c7
+    Description: |-
+      When systemd-machined >= v259 (or v258 with a custom `polkit` policy that allows `register-machine` access) is running on a desktop system, an unprivileged user logged in a desktop graphical session can kill arbitrary processes, even privileged ones.
+
+      - versions older than v259 are not affected, unless unprivileged access is granted for the `register-machine` polkit action via a local, custom policy config file
+      - versions older than v258 are not affected
+      - unrelated to the systemd service manager (pid 1 or user session managers)
+      - systemd-machined is not typically installed by default, and is typically in an optional, separate package (e.g.: systemd-container)
+      - terminal-only or remote sessions (e.g.: ssh) are not affected
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-284
+    - CWE-862
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/systemd/systemd/security/advisories/GHSA-qwv4-3gwc-w5g8
+    - https://ubuntu.com/security/notices/USN-8626-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-15060
+    PublishedDate: '2026-08-10T14:17:21.13Z'
+    LastModifiedDate: '2026-08-10T18:17:41.087Z'
+  - VulnerabilityID: CVE-2026-16742
+    PkgID: libsystemd0@259.5-0ubuntu3
+    PkgName: libsystemd0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsystemd0@259.5-0ubuntu3?arch=amd64&distro=ubuntu-26.04
+      UID: c2c6a8cc93da771f
+    InstalledVersion: 259.5-0ubuntu3
+    FixedVersion: 259.5-0ubuntu3.4
+    Status: fixed
+    Layer:
+      Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a13cff84dcfa0a255f209e
+      DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f259e194f8c4780e1e1a63d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-16742
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:84441b21e2e68316e49981e5386b6ae3dbeb174474f0f5bf2c59d63ee310bfd1
+    Description: systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-269
+    - CWE-347
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/systemd/systemd/security/advisories/GHSA-jm29-p7hh-vjhv
+    - https://ubuntu.com/security/notices/USN-8626-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-16742
+    PublishedDate: '2026-08-10T14:17:21.277Z'
+    LastModifiedDate: '2026-08-10T16:19:29.157Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: libsystemd0@259.5-0ubuntu3
     PkgName: libsystemd0
@@ -572,6 +676,109 @@
     - https://www.openwall.com/lists/oss-security/2026/04/08/1
     PublishedDate: '2026-04-10T16:16:33.753Z'
     LastModifiedDate: '2026-06-17T10:44:53.31Z'
+  - VulnerabilityID: CVE-2026-15059
+    PkgID: libudev1@259.5-0ubuntu3
+    PkgName: libudev1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libudev1@259.5-0ubuntu3?arch=amd64&distro=ubuntu-26.04
+      UID: 2ce94cee56148901
+    InstalledVersion: 259.5-0ubuntu3
+    FixedVersion: 259.5-0ubuntu3.4
+    Status: fixed
+    Layer:
+      Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a13cff84dcfa0a255f209e
+      DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f259e194f8c4780e1e1a63d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-15059
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:a4b1d243d5d18fb9980edd7c26c5d00431ba3102ce55864746eb12a19478731a
+    Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    - CWE-59
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/systemd/systemd/security/advisories/GHSA-652q-wxr6-h5j6
+    - https://ubuntu.com/security/notices/USN-8626-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-15059
+    PublishedDate: '2026-08-10T14:17:20.76Z'
+    LastModifiedDate: '2026-08-10T18:17:40.983Z'
+  - VulnerabilityID: CVE-2026-15060
+    PkgID: libudev1@259.5-0ubuntu3
+    PkgName: libudev1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libudev1@259.5-0ubuntu3?arch=amd64&distro=ubuntu-26.04
+      UID: 2ce94cee56148901
+    InstalledVersion: 259.5-0ubuntu3
+    FixedVersion: 259.5-0ubuntu3.4
+    Status: fixed
+    Layer:
+      Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a13cff84dcfa0a255f209e
+      DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f259e194f8c4780e1e1a63d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-15060
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:bc00bd90e66e0a4e4a957544a9349b259dbf6db15239446b2863c087e605a334
+    Description: |-
+      When systemd-machined >= v259 (or v258 with a custom `polkit` policy that allows `register-machine` access) is running on a desktop system, an unprivileged user logged in a desktop graphical session can kill arbitrary processes, even privileged ones.
+
+      - versions older than v259 are not affected, unless unprivileged access is granted for the `register-machine` polkit action via a local, custom policy config file
+      - versions older than v258 are not affected
+      - unrelated to the systemd service manager (pid 1 or user session managers)
+      - systemd-machined is not typically installed by default, and is typically in an optional, separate package (e.g.: systemd-container)
+      - terminal-only or remote sessions (e.g.: ssh) are not affected
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-284
+    - CWE-862
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/systemd/systemd/security/advisories/GHSA-qwv4-3gwc-w5g8
+    - https://ubuntu.com/security/notices/USN-8626-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-15060
+    PublishedDate: '2026-08-10T14:17:21.13Z'
+    LastModifiedDate: '2026-08-10T18:17:41.087Z'
+  - VulnerabilityID: CVE-2026-16742
+    PkgID: libudev1@259.5-0ubuntu3
+    PkgName: libudev1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libudev1@259.5-0ubuntu3?arch=amd64&distro=ubuntu-26.04
+      UID: 2ce94cee56148901
+    InstalledVersion: 259.5-0ubuntu3
+    FixedVersion: 259.5-0ubuntu3.4
+    Status: fixed
+    Layer:
+      Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a13cff84dcfa0a255f209e
+      DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f259e194f8c4780e1e1a63d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-16742
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:e8c56b2511e4197784990f802c9c722c993298c26b3b3dab4a14fa96cbbad5a7
+    Description: systemd-homed contains a local privilege escalation bug via arbitrary system group addition to a local, logged in, homed-managed user
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-269
+    - CWE-347
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/systemd/systemd/security/advisories/GHSA-jm29-p7hh-vjhv
+    - https://ubuntu.com/security/notices/USN-8626-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-16742
+    PublishedDate: '2026-08-10T14:17:21.277Z'
+    LastModifiedDate: '2026-08-10T16:19:29.157Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: libudev1@259.5-0ubuntu3
     PkgName: libudev1
@@ -2131,7 +2338,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-05T13:21:53.75Z'
+    LastModifiedDate: '2026-08-11T13:18:26.35Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -2259,6 +2466,12 @@
     - https://access.redhat.com/errata/RHSA-2026:50300
     - https://access.redhat.com/errata/RHSA-2026:50843
     - https://access.redhat.com/errata/RHSA-2026:51033
+    - https://access.redhat.com/errata/RHSA-2026:51112
+    - https://access.redhat.com/errata/RHSA-2026:51187
+    - https://access.redhat.com/errata/RHSA-2026:51194
+    - https://access.redhat.com/errata/RHSA-2026:51341
+    - https://access.redhat.com/errata/RHSA-2026:52826
+    - https://access.redhat.com/errata/RHSA-2026:53374
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -2279,7 +2492,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-06T13:17:59.18Z'
+    LastModifiedDate: '2026-08-11T13:18:37.553Z'
   - VulnerabilityID: CVE-2025-47911
     VendorIDs:
     - GO-2026-4440
@@ -2662,6 +2875,7 @@
     CweIDs:
     - CWE-201
     VendorSeverity:
+      alma: 3
       amazon: 2
       azure: 2
       bitnami: 2
@@ -2674,7 +2888,10 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:37435
     - https://access.redhat.com/security/cve/CVE-2026-42505
+    - https://bugzilla.redhat.com/2480756
+    - https://errata.almalinux.org/9/ALSA-2026-37435.html
     - https://go.dev/cl/775960
     - https://go.dev/issue/79282
     - https://groups.google.com/g/golang-announce/c/OrmQE_Yp5Sc
