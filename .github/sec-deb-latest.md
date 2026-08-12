@@ -531,20 +531,21 @@
 │                       │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2026:38342 
 │                       │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2026:49667 
 │                       │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2026:49668 
-│                       │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2026-13757 
-│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2494556 
-│                       │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2494556 
-│                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2026:53371 
+│                       │      │                  ├ [5] : https://access.redhat.com/security/cve/CVE-2026-13757 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2494556 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2494556 
+│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-20
 │                       │      │                  │       26-13757 
-│                       │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2026-49667.html 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2026:49667 
-│                       │      │                  ├ [10]: https://github.com/advisories/GHSA-p2wm-69qx-x25w 
-│                       │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2026-13757.html 
-│                       │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2026-49668.html 
-│                       │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-13757 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2026-13757 
+│                       │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2026-49667.html 
+│                       │      │                  ├ [10]: https://errata.rockylinux.org/RLSA-2026:49667 
+│                       │      │                  ├ [11]: https://github.com/advisories/GHSA-p2wm-69qx-x25w 
+│                       │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2026-13757.html 
+│                       │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2026-49668.html 
+│                       │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2026-13757 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2026-13757 
 │                       │      ├ PublishedDate   : 2026-06-29T19:16:40.907Z 
-│                       │      ╰ LastModifiedDate: 2026-08-03T22:16:48.113Z 
+│                       │      ╰ LastModifiedDate: 2026-08-11T10:17:11.68Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2026-27456 
 │                       │      ├ PkgID           : libsmartcols1@2.41.3-3ubuntu2 
 │                       │      ├ PkgName         : libsmartcols1 
@@ -669,7 +670,120 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │      ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │      ╰ LastModifiedDate: 2026-07-21T19:10:00.107Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2026-15059 
+│                       │      ├ PkgID           : libsystemd0@259.5-0ubuntu3 
+│                       │      ├ PkgName         : libsystemd0 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd0@259.5-0ubuntu3?arch=amd64&
+│                       │      │                  │       distro=ubuntu-26.04 
+│                       │      │                  ╰ UID : c2c6a8cc93da771f 
+│                       │      ├ InstalledVersion: 259.5-0ubuntu3 
+│                       │      ├ FixedVersion    : 259.5-0ubuntu3.4 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a1
+│                       │      │                  │         3cff84dcfa0a255f209e 
+│                       │      │                  ╰ DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f25
+│                       │      │                            9e194f8c4780e1e1a63d 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-15059 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:478fe4adf5ace9b6c11c2aea238ba4bf366674d194147f0cc444e
+│                       │      │                   1ac85945adb 
+│                       │      ├ Description     : Local unprivileged users can terminate arbitrary local
+│                       │      │                   processes via a systemd-oomd IPC API due to a missing path
+│                       │      │                   traversal validation. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-22 
+│                       │      │                  ╰ [1]: CWE-59 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References       ╭ [0]: https://github.com/systemd/systemd/security/advisories
+│                       │      │                  │      /GHSA-652q-wxr6-h5j6 
+│                       │      │                  ├ [1]: https://ubuntu.com/security/notices/USN-8626-1 
+│                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-15059 
+│                       │      ├ PublishedDate   : 2026-08-10T14:17:20.76Z 
+│                       │      ╰ LastModifiedDate: 2026-08-10T18:17:40.983Z 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2026-15060 
+│                       │      ├ PkgID           : libsystemd0@259.5-0ubuntu3 
+│                       │      ├ PkgName         : libsystemd0 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd0@259.5-0ubuntu3?arch=amd64&
+│                       │      │                  │       distro=ubuntu-26.04 
+│                       │      │                  ╰ UID : c2c6a8cc93da771f 
+│                       │      ├ InstalledVersion: 259.5-0ubuntu3 
+│                       │      ├ FixedVersion    : 259.5-0ubuntu3.4 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a1
+│                       │      │                  │         3cff84dcfa0a255f209e 
+│                       │      │                  ╰ DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f25
+│                       │      │                            9e194f8c4780e1e1a63d 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-15060 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:58130818daa39ea2e1496af90e537cadc236abcc80cfa4c7ab7d1
+│                       │      │                   fb6f59293c7 
+│                       │      ├ Description     : When systemd-machined >= v259 (or v258 with a custom
+│                       │      │                   `polkit` policy that allows `register-machine` access) is
+│                       │      │                   running on a desktop system, an unprivileged user logged in
+│                       │      │                   a desktop graphical session can kill arbitrary processes,
+│                       │      │                   even privileged ones.
+│                       │      │                   
+│                       │      │                   - versions older than v259 are not affected, unless
+│                       │      │                   unprivileged access is granted for the `register-machine`
+│                       │      │                   polkit action via a local, custom policy config file
+│                       │      │                   - versions older than v258 are not affected
+│                       │      │                   - unrelated to the systemd service manager (pid 1 or user
+│                       │      │                   session managers)
+│                       │      │                   - systemd-machined is not typically installed by default,
+│                       │      │                   and is typically in an optional, separate package (e.g.:
+│                       │      │                   systemd-container)
+│                       │      │                   - terminal-only or remote sessions (e.g.: ssh) are not
+│                       │      │                   affected 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-284 
+│                       │      │                  ╰ [1]: CWE-862 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References       ╭ [0]: https://github.com/systemd/systemd/security/advisories
+│                       │      │                  │      /GHSA-qwv4-3gwc-w5g8 
+│                       │      │                  ├ [1]: https://ubuntu.com/security/notices/USN-8626-1 
+│                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-15060 
+│                       │      ├ PublishedDate   : 2026-08-10T14:17:21.13Z 
+│                       │      ╰ LastModifiedDate: 2026-08-10T18:17:41.087Z 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2026-16742 
+│                       │      ├ PkgID           : libsystemd0@259.5-0ubuntu3 
+│                       │      ├ PkgName         : libsystemd0 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd0@259.5-0ubuntu3?arch=amd64&
+│                       │      │                  │       distro=ubuntu-26.04 
+│                       │      │                  ╰ UID : c2c6a8cc93da771f 
+│                       │      ├ InstalledVersion: 259.5-0ubuntu3 
+│                       │      ├ FixedVersion    : 259.5-0ubuntu3.4 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a1
+│                       │      │                  │         3cff84dcfa0a255f209e 
+│                       │      │                  ╰ DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f25
+│                       │      │                            9e194f8c4780e1e1a63d 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-16742 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:84441b21e2e68316e49981e5386b6ae3dbeb174474f0f5bf2c59d
+│                       │      │                   63ee310bfd1 
+│                       │      ├ Description     : systemd-homed contains a local privilege escalation bug via
+│                       │      │                   arbitrary system group addition to a local, logged in,
+│                       │      │                   homed-managed user 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-269 
+│                       │      │                  ╰ [1]: CWE-347 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References       ╭ [0]: https://github.com/systemd/systemd/security/advisories
+│                       │      │                  │      /GHSA-jm29-p7hh-vjhv 
+│                       │      │                  ├ [1]: https://ubuntu.com/security/notices/USN-8626-1 
+│                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-16742 
+│                       │      ├ PublishedDate   : 2026-08-10T14:17:21.277Z 
+│                       │      ╰ LastModifiedDate: 2026-08-10T16:19:29.157Z 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2026-40228 
 │                       │      ├ PkgID           : libsystemd0@259.5-0ubuntu3 
 │                       │      ├ PkgName         : libsystemd0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd0@259.5-0ubuntu3?arch=amd64&
@@ -712,7 +826,120 @@
 │                       │      │                  ╰ [4]: https://www.openwall.com/lists/oss-security/2026/04/08/1 
 │                       │      ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2026-40228 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2026-15059 
+│                       │      ├ PkgID           : libudev1@259.5-0ubuntu3 
+│                       │      ├ PkgName         : libudev1 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libudev1@259.5-0ubuntu3?arch=amd64&dis
+│                       │      │                  │       tro=ubuntu-26.04 
+│                       │      │                  ╰ UID : 2ce94cee56148901 
+│                       │      ├ InstalledVersion: 259.5-0ubuntu3 
+│                       │      ├ FixedVersion    : 259.5-0ubuntu3.4 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a1
+│                       │      │                  │         3cff84dcfa0a255f209e 
+│                       │      │                  ╰ DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f25
+│                       │      │                            9e194f8c4780e1e1a63d 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-15059 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:a4b1d243d5d18fb9980edd7c26c5d00431ba3102ce55864746eb1
+│                       │      │                   2a19478731a 
+│                       │      ├ Description     : Local unprivileged users can terminate arbitrary local
+│                       │      │                   processes via a systemd-oomd IPC API due to a missing path
+│                       │      │                   traversal validation. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-22 
+│                       │      │                  ╰ [1]: CWE-59 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References       ╭ [0]: https://github.com/systemd/systemd/security/advisories
+│                       │      │                  │      /GHSA-652q-wxr6-h5j6 
+│                       │      │                  ├ [1]: https://ubuntu.com/security/notices/USN-8626-1 
+│                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-15059 
+│                       │      ├ PublishedDate   : 2026-08-10T14:17:20.76Z 
+│                       │      ╰ LastModifiedDate: 2026-08-10T18:17:40.983Z 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2026-15060 
+│                       │      ├ PkgID           : libudev1@259.5-0ubuntu3 
+│                       │      ├ PkgName         : libudev1 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libudev1@259.5-0ubuntu3?arch=amd64&dis
+│                       │      │                  │       tro=ubuntu-26.04 
+│                       │      │                  ╰ UID : 2ce94cee56148901 
+│                       │      ├ InstalledVersion: 259.5-0ubuntu3 
+│                       │      ├ FixedVersion    : 259.5-0ubuntu3.4 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a1
+│                       │      │                  │         3cff84dcfa0a255f209e 
+│                       │      │                  ╰ DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f25
+│                       │      │                            9e194f8c4780e1e1a63d 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-15060 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:bc00bd90e66e0a4e4a957544a9349b259dbf6db15239446b2863c
+│                       │      │                   087e605a334 
+│                       │      ├ Description     : When systemd-machined >= v259 (or v258 with a custom
+│                       │      │                   `polkit` policy that allows `register-machine` access) is
+│                       │      │                   running on a desktop system, an unprivileged user logged in
+│                       │      │                   a desktop graphical session can kill arbitrary processes,
+│                       │      │                   even privileged ones.
+│                       │      │                   
+│                       │      │                   - versions older than v259 are not affected, unless
+│                       │      │                   unprivileged access is granted for the `register-machine`
+│                       │      │                   polkit action via a local, custom policy config file
+│                       │      │                   - versions older than v258 are not affected
+│                       │      │                   - unrelated to the systemd service manager (pid 1 or user
+│                       │      │                   session managers)
+│                       │      │                   - systemd-machined is not typically installed by default,
+│                       │      │                   and is typically in an optional, separate package (e.g.:
+│                       │      │                   systemd-container)
+│                       │      │                   - terminal-only or remote sessions (e.g.: ssh) are not
+│                       │      │                   affected 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-284 
+│                       │      │                  ╰ [1]: CWE-862 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References       ╭ [0]: https://github.com/systemd/systemd/security/advisories
+│                       │      │                  │      /GHSA-qwv4-3gwc-w5g8 
+│                       │      │                  ├ [1]: https://ubuntu.com/security/notices/USN-8626-1 
+│                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-15060 
+│                       │      ├ PublishedDate   : 2026-08-10T14:17:21.13Z 
+│                       │      ╰ LastModifiedDate: 2026-08-10T18:17:41.087Z 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2026-16742 
+│                       │      ├ PkgID           : libudev1@259.5-0ubuntu3 
+│                       │      ├ PkgName         : libudev1 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libudev1@259.5-0ubuntu3?arch=amd64&dis
+│                       │      │                  │       tro=ubuntu-26.04 
+│                       │      │                  ╰ UID : 2ce94cee56148901 
+│                       │      ├ InstalledVersion: 259.5-0ubuntu3 
+│                       │      ├ FixedVersion    : 259.5-0ubuntu3.4 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a1
+│                       │      │                  │         3cff84dcfa0a255f209e 
+│                       │      │                  ╰ DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f25
+│                       │      │                            9e194f8c4780e1e1a63d 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-16742 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Fingerprint     : sha256:e8c56b2511e4197784990f802c9c722c993298c26b3b3dab4a14f
+│                       │      │                   a96cbbad5a7 
+│                       │      ├ Description     : systemd-homed contains a local privilege escalation bug via
+│                       │      │                   arbitrary system group addition to a local, logged in,
+│                       │      │                   homed-managed user 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-269 
+│                       │      │                  ╰ [1]: CWE-347 
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References       ╭ [0]: https://github.com/systemd/systemd/security/advisories
+│                       │      │                  │      /GHSA-jm29-p7hh-vjhv 
+│                       │      │                  ├ [1]: https://ubuntu.com/security/notices/USN-8626-1 
+│                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2026-16742 
+│                       │      ├ PublishedDate   : 2026-08-10T14:17:21.277Z 
+│                       │      ╰ LastModifiedDate: 2026-08-10T16:19:29.157Z 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2026-40228 
 │                       │      ├ PkgID           : libudev1@259.5-0ubuntu3 
 │                       │      ├ PkgName         : libudev1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libudev1@259.5-0ubuntu3?arch=amd64&dis
@@ -755,7 +982,7 @@
 │                       │      │                  ╰ [4]: https://www.openwall.com/lists/oss-security/2026/04/08/1 
 │                       │      ├ PublishedDate   : 2026-04-10T16:16:33.753Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:44:53.31Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │      ├ PkgID           : libuuid1@2.41.3-3ubuntu2 
 │                       │      ├ PkgName         : libuuid1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libuuid1@2.41.3-3ubuntu2?arch=amd64&di
@@ -829,7 +1056,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-27456 
 │                       │      ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │      ╰ LastModifiedDate: 2026-07-24T22:10:00.14Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │      ├ PkgID           : libuuid1@2.41.3-3ubuntu2 
 │                       │      ├ PkgName         : libuuid1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libuuid1@2.41.3-3ubuntu2?arch=amd64&di
@@ -879,7 +1106,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │      ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │      ╰ LastModifiedDate: 2026-07-21T19:10:00.107Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │      ├ PkgID           : login@1:4.16.0-2+really2.41.3-3ubuntu2 
 │                       │      ├ PkgName         : login 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.16.0-2%2Breally2.41.3-3ubuntu2
@@ -953,7 +1180,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-27456 
 │                       │      ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │      ╰ LastModifiedDate: 2026-07-24T22:10:00.14Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │      ├ PkgID           : login@1:4.16.0-2+really2.41.3-3ubuntu2 
 │                       │      ├ PkgName         : login 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.16.0-2%2Breally2.41.3-3ubuntu2
@@ -1003,7 +1230,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │      ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │      ╰ LastModifiedDate: 2026-07-21T19:10:00.107Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login.defs@1:4.17.4-2ubuntu3 
 │                       │      ├ PkgName         : login.defs 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login.defs@4.17.4-2ubuntu3?arch=all&di
@@ -1065,7 +1292,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T08:12:10.903Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │      ├ PkgID           : mount@2.41.3-3ubuntu2 
 │                       │      ├ PkgName         : mount 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/mount@2.41.3-3ubuntu2?arch=amd64&distr
@@ -1139,7 +1366,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-27456 
 │                       │      ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │      ╰ LastModifiedDate: 2026-07-24T22:10:00.14Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │      ├ PkgID           : mount@2.41.3-3ubuntu2 
 │                       │      ├ PkgName         : mount 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/mount@2.41.3-3ubuntu2?arch=amd64&distr
@@ -1189,7 +1416,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │      ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │      ╰ LastModifiedDate: 2026-07-21T19:10:00.107Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2024-56433 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.17.4-2ubuntu3 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.17.4-2ubuntu3?arch=amd64&dist
@@ -1251,7 +1478,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-56433 
 │                       │      ├ PublishedDate   : 2024-12-26T09:15:07.267Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T08:12:10.903Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2026-35341 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2026-35341 
 │                       │      ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │      ├ PkgName         : rust-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=amd
@@ -1296,7 +1523,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2026-35341 
 │                       │      ├ PublishedDate   : 2026-04-22T17:16:36.06Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:40:25.5Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2026-35344 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2026-35344 
 │                       │      ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │      ├ PkgName         : rust-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=amd
@@ -1339,7 +1566,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35344 
 │                       │      ├ PublishedDate   : 2026-04-22T17:16:36.49Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:40:25.833Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2026-35345 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2026-35345 
 │                       │      ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │      ├ PkgName         : rust-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=amd
@@ -1384,7 +1611,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35345 
 │                       │      ├ PublishedDate   : 2026-04-22T17:16:36.627Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:40:25.943Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2026-35348 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2026-35348 
 │                       │      ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │      ├ PkgName         : rust-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=amd
@@ -1425,7 +1652,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35348 
 │                       │      ├ PublishedDate   : 2026-04-22T17:16:37.04Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:40:26.27Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2026-35350 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2026-35350 
 │                       │      ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │      ├ PkgName         : rust-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=amd
@@ -1467,7 +1694,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35350 
 │                       │      ├ PublishedDate   : 2026-04-22T17:16:37.327Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:40:26.48Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2026-35351 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2026-35351 
 │                       │      ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │      ├ PkgName         : rust-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=amd
@@ -1510,7 +1737,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-35351 
 │                       │      ├ PublishedDate   : 2026-04-22T17:16:37.457Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:40:26.587Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2026-35352 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2026-35352 
 │                       │      ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │      ├ PkgName         : rust-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=amd
@@ -1555,7 +1782,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-35352 
 │                       │      ├ PublishedDate   : 2026-04-22T17:16:37.597Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:40:26.69Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2026-35354 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2026-35354 
 │                       │      ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │      ├ PkgName         : rust-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=amd
@@ -1597,7 +1824,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35354 
 │                       │      ├ PublishedDate   : 2026-04-22T17:16:37.867Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:40:26.907Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2026-35357 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2026-35357 
 │                       │      ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │      ├ PkgName         : rust-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=amd
@@ -1639,7 +1866,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35357 
 │                       │      ├ PublishedDate   : 2026-04-22T17:16:38.267Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:40:27.223Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2026-35359 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2026-35359 
 │                       │      ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │      ├ PkgName         : rust-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=amd
@@ -1683,7 +1910,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35359 
 │                       │      ├ PublishedDate   : 2026-04-22T17:16:38.537Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:40:27.437Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2026-35360 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2026-35360 
 │                       │      ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │      ├ PkgName         : rust-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=amd
@@ -1724,7 +1951,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35360 
 │                       │      ├ PublishedDate   : 2026-04-22T17:16:38.673Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:40:27.543Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2026-35363 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2026-35363 
 │                       │      ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │      ├ PkgName         : rust-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=amd
@@ -1770,7 +1997,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-35363 
 │                       │      ├ PublishedDate   : 2026-04-22T17:16:39.12Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:40:27.867Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2026-35364 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2026-35364 
 │                       │      ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │      ├ PkgName         : rust-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=amd
@@ -1813,7 +2040,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35364 
 │                       │      ├ PublishedDate   : 2026-04-22T17:16:39.737Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:40:27.97Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2026-35367 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2026-35367 
 │                       │      ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │      ├ PkgName         : rust-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=amd
@@ -1856,7 +2083,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35367 
 │                       │      ├ PublishedDate   : 2026-04-22T17:16:40.423Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:40:28.297Z 
-│                       ├ [35] ╭ VulnerabilityID : CVE-2026-35368 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2026-35368 
 │                       │      ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │      ├ PkgName         : rust-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=amd
@@ -1899,7 +2126,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35368 
 │                       │      ├ PublishedDate   : 2026-04-22T17:16:40.56Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:40:28.4Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2026-35370 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2026-35370 
 │                       │      ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │      ├ PkgName         : rust-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=amd
@@ -1943,7 +2170,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-35370 
 │                       │      ├ PublishedDate   : 2026-04-22T17:16:40.833Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:40:28.613Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2026-35371 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2026-35371 
 │                       │      ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │      ├ PkgName         : rust-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=amd
@@ -1986,7 +2213,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-35371 
 │                       │      ├ PublishedDate   : 2026-04-22T17:16:40.987Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:40:28.723Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2026-35373 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2026-35373 
 │                       │      ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │      ├ PkgName         : rust-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=amd
@@ -2035,7 +2262,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-35373 
 │                       │      ├ PublishedDate   : 2026-04-22T17:16:41.997Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:40:28.933Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2026-35374 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2026-35374 
 │                       │      ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │      ├ PkgName         : rust-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=amd
@@ -2082,7 +2309,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35374 
 │                       │      ├ PublishedDate   : 2026-04-22T17:16:42.127Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:40:29.04Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2026-35377 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2026-35377 
 │                       │      ├ PkgID           : rust-coreutils@0.8.0-0ubuntu3 
 │                       │      ├ PkgName         : rust-coreutils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/rust-coreutils@0.8.0-0ubuntu3?arch=amd
@@ -2129,7 +2356,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2026-35377 
 │                       │      ├ PublishedDate   : 2026-04-22T17:16:42.577Z 
 │                       │      ╰ LastModifiedDate: 2026-06-17T10:40:29.357Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │      ├ PkgID           : util-linux@2.41.3-3ubuntu2 
 │                       │      ├ PkgName         : util-linux 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/util-linux@2.41.3-3ubuntu2?arch=amd64&
@@ -2203,7 +2430,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2026-27456 
 │                       │      ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │      ╰ LastModifiedDate: 2026-07-24T22:10:00.14Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2026-3184 
+│                       ├ [48] ╭ VulnerabilityID : CVE-2026-3184 
 │                       │      ├ PkgID           : util-linux@2.41.3-3ubuntu2 
 │                       │      ├ PkgName         : util-linux 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/util-linux@2.41.3-3ubuntu2?arch=amd64&
@@ -2253,7 +2480,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2026-3184 
 │                       │      ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │      ╰ LastModifiedDate: 2026-07-21T19:10:00.107Z 
-│                       ╰ [43] ╭ VulnerabilityID : CVE-2026-27171 
+│                       ╰ [49] ╭ VulnerabilityID : CVE-2026-27171 
 │                              ├ PkgID           : zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu3 
 │                              ├ PkgName         : zlib1g 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/zlib1g@1.3.dfsg%2Breally1.3.1-1ubuntu3
@@ -2557,7 +2784,7 @@
                         │      │                  ├ [28]: https://ubuntu.com/security/notices/USN-8473-1 
                         │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2026-33814 
                         │      ├ PublishedDate   : 2026-05-07T20:16:42.88Z 
-                        │      ╰ LastModifiedDate: 2026-08-05T13:21:53.75Z 
+                        │      ╰ LastModifiedDate: 2026-08-11T13:18:26.35Z 
                         ├ [3]  ╭ VulnerabilityID : CVE-2026-39821 
                         │      ├ VendorIDs        ─ [0]: GO-2026-5026 
                         │      ├ PkgID           : golang.org/x/net@v0.40.0 
@@ -2692,31 +2919,37 @@
                         │      │                  ├ [86] : https://access.redhat.com/errata/RHSA-2026:50300 
                         │      │                  ├ [87] : https://access.redhat.com/errata/RHSA-2026:50843 
                         │      │                  ├ [88] : https://access.redhat.com/errata/RHSA-2026:51033 
-                        │      │                  ├ [89] : https://access.redhat.com/security/cve/CVE-2026-39821 
-                        │      │                  ├ [90] : https://bugzilla.redhat.com/2480756 
-                        │      │                  ├ [91] : https://bugzilla.redhat.com/show_bug.cgi?id=2480756 
-                        │      │                  ├ [92] : https://bugzilla.redhat.com/show_bug.cgi?id=2498152 
-                        │      │                  ├ [93] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+                        │      │                  ├ [89] : https://access.redhat.com/errata/RHSA-2026:51112 
+                        │      │                  ├ [90] : https://access.redhat.com/errata/RHSA-2026:51187 
+                        │      │                  ├ [91] : https://access.redhat.com/errata/RHSA-2026:51194 
+                        │      │                  ├ [92] : https://access.redhat.com/errata/RHSA-2026:51341 
+                        │      │                  ├ [93] : https://access.redhat.com/errata/RHSA-2026:52826 
+                        │      │                  ├ [94] : https://access.redhat.com/errata/RHSA-2026:53374 
+                        │      │                  ├ [95] : https://access.redhat.com/security/cve/CVE-2026-39821 
+                        │      │                  ├ [96] : https://bugzilla.redhat.com/2480756 
+                        │      │                  ├ [97] : https://bugzilla.redhat.com/show_bug.cgi?id=2480756 
+                        │      │                  ├ [98] : https://bugzilla.redhat.com/show_bug.cgi?id=2498152 
+                        │      │                  ├ [99] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
                         │      │                  │        026-39821 
-                        │      │                  ├ [94] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+                        │      │                  ├ [100]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
                         │      │                  │        026-39822 
-                        │      │                  ├ [95] : https://errata.almalinux.org/9/ALSA-2026-37435.html 
-                        │      │                  ├ [96] : https://errata.rockylinux.org/RLSA-2026:37435 
-                        │      │                  ├ [97] : https://github.com/golang/go/issues/78760 
-                        │      │                  ├ [98] : https://go.dev/cl/767220 
-                        │      │                  ├ [99] : https://go.dev/issue/78760 
-                        │      │                  ├ [100]: https://groups.google.com/g/golang-announce/c/iI-mYS
+                        │      │                  ├ [101]: https://errata.almalinux.org/9/ALSA-2026-37435.html 
+                        │      │                  ├ [102]: https://errata.rockylinux.org/RLSA-2026:37435 
+                        │      │                  ├ [103]: https://github.com/golang/go/issues/78760 
+                        │      │                  ├ [104]: https://go.dev/cl/767220 
+                        │      │                  ├ [105]: https://go.dev/issue/78760 
+                        │      │                  ├ [106]: https://groups.google.com/g/golang-announce/c/iI-mYS
                         │      │                  │        I0lu8 
-                        │      │                  ├ [101]: https://linux.oracle.com/cve/CVE-2026-39821.html 
-                        │      │                  ├ [102]: https://linux.oracle.com/errata/ELSA-2026-46395.html 
-                        │      │                  ├ [103]: https://nvd.nist.gov/vuln/detail/CVE-2026-39821 
-                        │      │                  ├ [104]: https://pkg.go.dev/vuln/GO-2026-5026 
-                        │      │                  ├ [105]: https://security.access.redhat.com/data/csaf/v2/vex/
+                        │      │                  ├ [107]: https://linux.oracle.com/cve/CVE-2026-39821.html 
+                        │      │                  ├ [108]: https://linux.oracle.com/errata/ELSA-2026-46395.html 
+                        │      │                  ├ [109]: https://nvd.nist.gov/vuln/detail/CVE-2026-39821 
+                        │      │                  ├ [110]: https://pkg.go.dev/vuln/GO-2026-5026 
+                        │      │                  ├ [111]: https://security.access.redhat.com/data/csaf/v2/vex/
                         │      │                  │        2026/cve-2026-39821.json 
-                        │      │                  ├ [106]: https://ubuntu.com/security/notices/USN-8416-1 
-                        │      │                  ╰ [107]: https://www.cve.org/CVERecord?id=CVE-2026-39821 
+                        │      │                  ├ [112]: https://ubuntu.com/security/notices/USN-8416-1 
+                        │      │                  ╰ [113]: https://www.cve.org/CVERecord?id=CVE-2026-39821 
                         │      ├ PublishedDate   : 2026-05-22T16:16:20.41Z 
-                        │      ╰ LastModifiedDate: 2026-08-06T13:17:59.18Z 
+                        │      ╰ LastModifiedDate: 2026-08-11T13:18:37.553Z 
                         ├ [4]  ╭ VulnerabilityID : CVE-2025-47911 
                         │      ├ VendorIDs        ─ [0]: GO-2026-4440 
                         │      ├ PkgID           : golang.org/x/net@v0.40.0 
@@ -3104,7 +3337,8 @@
                                │                   client hello. 
                                ├ Severity        : MEDIUM 
                                ├ CweIDs           ─ [0]: CWE-201 
-                               ├ VendorSeverity   ╭ amazon : 2 
+                               ├ VendorSeverity   ╭ alma   : 3 
+                               │                  ├ amazon : 2 
                                │                  ├ azure  : 2 
                                │                  ├ bitnami: 2 
                                │                  ╰ redhat : 2 
@@ -3114,14 +3348,17 @@
                                │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
                                │                            │           N/A:N 
                                │                            ╰ V3Score : 5.3 
-                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-42505 
-                               │                  ├ [1]: https://go.dev/cl/775960 
-                               │                  ├ [2]: https://go.dev/issue/79282 
-                               │                  ├ [3]: https://groups.google.com/g/golang-announce/c/OrmQE_Yp
+                               ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2026:37435 
+                               │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2026-42505 
+                               │                  ├ [2]: https://bugzilla.redhat.com/2480756 
+                               │                  ├ [3]: https://errata.almalinux.org/9/ALSA-2026-37435.html 
+                               │                  ├ [4]: https://go.dev/cl/775960 
+                               │                  ├ [5]: https://go.dev/issue/79282 
+                               │                  ├ [6]: https://groups.google.com/g/golang-announce/c/OrmQE_Yp
                                │                  │      5Sc 
-                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-42505 
-                               │                  ├ [5]: https://pkg.go.dev/vuln/GO-2026-5856 
-                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-42505 
+                               │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2026-42505 
+                               │                  ├ [8]: https://pkg.go.dev/vuln/GO-2026-5856 
+                               │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2026-42505 
                                ├ PublishedDate   : 2026-07-08T17:17:21.497Z 
                                ╰ LastModifiedDate: 2026-07-13T17:05:36.303Z 
 ```
