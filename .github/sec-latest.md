@@ -924,6 +924,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:df572d175345de18a5cee0d844676a6aabf736cf9352be072f21a
 │                       │      │                   901c2f9d910 
+│                       │      ├ Title           : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Orac ... 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
 │                       │      │                    (component: Install).  Supported versions that are affected
@@ -1866,6 +1868,8 @@
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                              ├ Fingerprint     : sha256:e25117ffa32a82d8e2d8d225f865bdee80e6f36cd94e4ded003fc
 │                              │                   c5a4341a9df 
+│                              ├ Title           : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                              │                    Orac ... 
 │                              ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                              │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
 │                              │                    (component: Install).  Supported versions that are affected
