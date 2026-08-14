@@ -4227,7 +4227,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       julia: 2
@@ -4607,6 +4607,7 @@
     - https://access.redhat.com/errata/RHSA-2026:52674
     - https://access.redhat.com/errata/RHSA-2026:52675
     - https://access.redhat.com/errata/RHSA-2026:54387
+    - https://access.redhat.com/errata/RHSA-2026:54760
     - https://access.redhat.com/security/cve/CVE-2026-14164
     - https://bugzilla.redhat.com/2493411
     - https://bugzilla.redhat.com/show_bug.cgi?id=2493411
@@ -4622,7 +4623,7 @@
     - https://ubuntu.com/security/notices/USN-8581-1
     - https://www.cve.org/CVERecord?id=CVE-2026-14164
     PublishedDate: '2026-06-30T07:16:32.17Z'
-    LastModifiedDate: '2026-08-12T16:16:52.46Z'
+    LastModifiedDate: '2026-08-13T21:17:40.953Z'
   - VulnerabilityID: CVE-2026-4426
     PkgID: libarchive@3.5.3-9.el9_7.x86_64
     PkgName: libarchive
@@ -7123,13 +7124,16 @@
     PublishedDate: '2026-04-03T22:16:25.4Z'
     LastModifiedDate: '2026-07-24T22:10:00.14Z'
   - VulnerabilityID: CVE-2026-58055
+    VendorIDs:
+    - RHSA-2026:54662
     PkgID: libnghttp2@1.43.0-6.el9_8.1.x86_64
     PkgName: libnghttp2
     PkgIdentifier:
       PURL: pkg:rpm/redhat/libnghttp2@1.43.0-6.el9_8.1?arch=x86_64&distro=redhat-9.8
       UID: 623dc7af2dbe7f49
     InstalledVersion: 1.43.0-6.el9_8.1
-    Status: affected
+    FixedVersion: 1.43.0-6.el9_8.2
+    Status: fixed
     Layer:
       Digest: sha256:b44ff73f1e8f0a27b2a0c9912c7aec7a087d59dd8b8f8a7c0d5b53783b2c39dc
       DiffID: sha256:1ee49e0b9bd5b0e31fd1b934a3a76a64ea30bde0de5acfd82ce1a8591d7e5793
@@ -10360,6 +10364,7 @@
     - https://access.redhat.com/errata/RHSA-2026:49668
     - https://access.redhat.com/errata/RHSA-2026:53371
     - https://access.redhat.com/errata/RHSA-2026:54387
+    - https://access.redhat.com/errata/RHSA-2026:54760
     - https://access.redhat.com/security/cve/CVE-2026-13757
     - https://bugzilla.redhat.com/2494556
     - https://bugzilla.redhat.com/show_bug.cgi?id=2494556
@@ -10373,7 +10378,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-13757
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
-    LastModifiedDate: '2026-08-12T16:16:52.253Z'
+    LastModifiedDate: '2026-08-13T21:17:40.737Z'
   - VulnerabilityID: CVE-2026-13757
     VendorIDs:
     - RHSA-2026:49667
@@ -10413,6 +10418,7 @@
     - https://access.redhat.com/errata/RHSA-2026:49668
     - https://access.redhat.com/errata/RHSA-2026:53371
     - https://access.redhat.com/errata/RHSA-2026:54387
+    - https://access.redhat.com/errata/RHSA-2026:54760
     - https://access.redhat.com/security/cve/CVE-2026-13757
     - https://bugzilla.redhat.com/2494556
     - https://bugzilla.redhat.com/show_bug.cgi?id=2494556
@@ -10426,7 +10432,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-13757
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
-    LastModifiedDate: '2026-08-12T16:16:52.253Z'
+    LastModifiedDate: '2026-08-13T21:17:40.737Z'
   - VulnerabilityID: CVE-2026-12610
     PkgID: pam@1.5.1-28.el9.x86_64
     PkgName: pam
@@ -10735,10 +10741,13 @@
     - CWE-22
     - CWE-59
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 3
+      oracle-oval: 3
       photon: 4
       redhat: 3
+      rocky: 3
     CVSS:
       bitnami:
         V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:N/SC:H/SI:H/SA:N
@@ -10747,7 +10756,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N
         V3Score: 7.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:54268
     - https://access.redhat.com/security/cve/CVE-2026-11940
+    - https://bugzilla.redhat.com/2491848
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2491848
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11940
+    - https://errata.almalinux.org/9/ALSA-2026-54268.html
+    - https://errata.rockylinux.org/RLSA-2026:54268
     - https://github.com/python/cpython/commit/0f852b3f07dd8e71e40326a51c02afbf16a42cc5
     - https://github.com/python/cpython/commit/27dd970bf6b17ebca7c8ed486a40ab043ed7af8f
     - https://github.com/python/cpython/commit/672825e2f36a57e173959b0d9d409d4560dab8df
@@ -10757,6 +10773,8 @@
     - https://github.com/python/cpython/commit/e5fdbd8d5aa923bd9111b112ea73bd6ec7c47877
     - https://github.com/python/cpython/issues/151558
     - https://github.com/python/cpython/pull/151559
+    - https://linux.oracle.com/cve/CVE-2026-11940.html
+    - https://linux.oracle.com/errata/ELSA-2026-54268.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/LD6QIISNQFQYOIEPJNEUIPV7S3V76FZH/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-11940
     - https://www.cve.org/CVERecord?id=CVE-2026-11940
@@ -10782,7 +10800,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       photon: 2
@@ -10973,7 +10991,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -11067,7 +11085,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -11166,7 +11184,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -11464,7 +11482,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -11561,7 +11579,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       nvd: 3
       oracle-oval: 3
@@ -11794,7 +11812,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 1
       nvd: 2
       oracle-oval: 3
@@ -11880,6 +11898,7 @@
     - https://github.com/python/cpython/commit/3573b3b1ecbd99030a0b18658e1bfece771b2566
     - https://github.com/python/cpython/commit/cbaecf9f16da611a646d507c1cbca265c588fc56
     - https://github.com/python/cpython/commit/e37df2a6a71d6538698e2d3188a7c345b827640b
+    - https://github.com/python/cpython/commit/ea70712d1a8508e14e9677d44f838dab04dc0286
     - https://github.com/python/cpython/commit/eeea765cb9d8f1fc3d8918b272ac3c477983f27a
     - https://github.com/python/cpython/commit/fc9b11ff49cbc82e6f917d07a61517a2b5f3145f
     - https://github.com/python/cpython/issues/149018
@@ -11888,7 +11907,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-7210
     - https://www.cve.org/CVERecord?id=CVE-2026-7210
     PublishedDate: '2026-05-11T18:16:42.413Z'
-    LastModifiedDate: '2026-08-13T01:16:55.607Z'
+    LastModifiedDate: '2026-08-14T01:19:08.237Z'
   - VulnerabilityID: CVE-2025-13462
     PkgID: python-unversioned-command@3.9.25-7.el9_8.2.noarch
     PkgName: python-unversioned-command
@@ -12103,7 +12122,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       photon: 3
       redhat: 1
     CVSS:
@@ -12147,10 +12166,13 @@
     - CWE-22
     - CWE-59
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 3
+      oracle-oval: 3
       photon: 4
       redhat: 3
+      rocky: 3
     CVSS:
       bitnami:
         V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:N/SC:H/SI:H/SA:N
@@ -12159,7 +12181,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N
         V3Score: 7.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:54268
     - https://access.redhat.com/security/cve/CVE-2026-11940
+    - https://bugzilla.redhat.com/2491848
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2491848
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11940
+    - https://errata.almalinux.org/9/ALSA-2026-54268.html
+    - https://errata.rockylinux.org/RLSA-2026:54268
     - https://github.com/python/cpython/commit/0f852b3f07dd8e71e40326a51c02afbf16a42cc5
     - https://github.com/python/cpython/commit/27dd970bf6b17ebca7c8ed486a40ab043ed7af8f
     - https://github.com/python/cpython/commit/672825e2f36a57e173959b0d9d409d4560dab8df
@@ -12169,6 +12198,8 @@
     - https://github.com/python/cpython/commit/e5fdbd8d5aa923bd9111b112ea73bd6ec7c47877
     - https://github.com/python/cpython/issues/151558
     - https://github.com/python/cpython/pull/151559
+    - https://linux.oracle.com/cve/CVE-2026-11940.html
+    - https://linux.oracle.com/errata/ELSA-2026-54268.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/LD6QIISNQFQYOIEPJNEUIPV7S3V76FZH/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-11940
     - https://www.cve.org/CVERecord?id=CVE-2026-11940
@@ -12194,7 +12225,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       photon: 2
@@ -12385,7 +12416,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -12479,7 +12510,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -12578,7 +12609,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -12876,7 +12907,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -12973,7 +13004,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       nvd: 3
       oracle-oval: 3
@@ -13206,7 +13237,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 1
       nvd: 2
       oracle-oval: 3
@@ -13292,6 +13323,7 @@
     - https://github.com/python/cpython/commit/3573b3b1ecbd99030a0b18658e1bfece771b2566
     - https://github.com/python/cpython/commit/cbaecf9f16da611a646d507c1cbca265c588fc56
     - https://github.com/python/cpython/commit/e37df2a6a71d6538698e2d3188a7c345b827640b
+    - https://github.com/python/cpython/commit/ea70712d1a8508e14e9677d44f838dab04dc0286
     - https://github.com/python/cpython/commit/eeea765cb9d8f1fc3d8918b272ac3c477983f27a
     - https://github.com/python/cpython/commit/fc9b11ff49cbc82e6f917d07a61517a2b5f3145f
     - https://github.com/python/cpython/issues/149018
@@ -13300,7 +13332,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-7210
     - https://www.cve.org/CVERecord?id=CVE-2026-7210
     PublishedDate: '2026-05-11T18:16:42.413Z'
-    LastModifiedDate: '2026-08-13T01:16:55.607Z'
+    LastModifiedDate: '2026-08-14T01:19:08.237Z'
   - VulnerabilityID: CVE-2025-13462
     PkgID: python3@3.9.25-7.el9_8.2.x86_64
     PkgName: python3
@@ -13515,7 +13547,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       photon: 3
       redhat: 1
     CVSS:
@@ -13559,10 +13591,13 @@
     - CWE-22
     - CWE-59
     VendorSeverity:
+      alma: 3
       amazon: 3
       bitnami: 3
+      oracle-oval: 3
       photon: 4
       redhat: 3
+      rocky: 3
     CVSS:
       bitnami:
         V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:N/SC:H/SI:H/SA:N
@@ -13571,7 +13606,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N
         V3Score: 7.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:54268
     - https://access.redhat.com/security/cve/CVE-2026-11940
+    - https://bugzilla.redhat.com/2491848
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2491848
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11940
+    - https://errata.almalinux.org/9/ALSA-2026-54268.html
+    - https://errata.rockylinux.org/RLSA-2026:54268
     - https://github.com/python/cpython/commit/0f852b3f07dd8e71e40326a51c02afbf16a42cc5
     - https://github.com/python/cpython/commit/27dd970bf6b17ebca7c8ed486a40ab043ed7af8f
     - https://github.com/python/cpython/commit/672825e2f36a57e173959b0d9d409d4560dab8df
@@ -13581,6 +13623,8 @@
     - https://github.com/python/cpython/commit/e5fdbd8d5aa923bd9111b112ea73bd6ec7c47877
     - https://github.com/python/cpython/issues/151558
     - https://github.com/python/cpython/pull/151559
+    - https://linux.oracle.com/cve/CVE-2026-11940.html
+    - https://linux.oracle.com/errata/ELSA-2026-54268.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/LD6QIISNQFQYOIEPJNEUIPV7S3V76FZH/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-11940
     - https://www.cve.org/CVERecord?id=CVE-2026-11940
@@ -13606,7 +13650,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       photon: 2
@@ -13797,7 +13841,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -13891,7 +13935,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -13990,7 +14034,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -14288,7 +14332,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -14385,7 +14429,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       nvd: 3
       oracle-oval: 3
@@ -14618,7 +14662,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 1
       nvd: 2
       oracle-oval: 3
@@ -14704,6 +14748,7 @@
     - https://github.com/python/cpython/commit/3573b3b1ecbd99030a0b18658e1bfece771b2566
     - https://github.com/python/cpython/commit/cbaecf9f16da611a646d507c1cbca265c588fc56
     - https://github.com/python/cpython/commit/e37df2a6a71d6538698e2d3188a7c345b827640b
+    - https://github.com/python/cpython/commit/ea70712d1a8508e14e9677d44f838dab04dc0286
     - https://github.com/python/cpython/commit/eeea765cb9d8f1fc3d8918b272ac3c477983f27a
     - https://github.com/python/cpython/commit/fc9b11ff49cbc82e6f917d07a61517a2b5f3145f
     - https://github.com/python/cpython/issues/149018
@@ -14712,7 +14757,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-7210
     - https://www.cve.org/CVERecord?id=CVE-2026-7210
     PublishedDate: '2026-05-11T18:16:42.413Z'
-    LastModifiedDate: '2026-08-13T01:16:55.607Z'
+    LastModifiedDate: '2026-08-14T01:19:08.237Z'
   - VulnerabilityID: CVE-2025-13462
     PkgID: python3-libs@3.9.25-7.el9_8.2.x86_64
     PkgName: python3-libs
@@ -14927,7 +14972,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       photon: 3
       redhat: 1
     CVSS:
@@ -15230,6 +15275,7 @@
       alma: 2
       ghsa: 2
       nvd: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -15245,13 +15291,15 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2026:54290
+    - https://access.redhat.com/errata/RHSA-2026:54484
     - https://access.redhat.com/security/cve/CVE-2026-45409
     - https://bugzilla.redhat.com/2485616
-    - https://errata.almalinux.org/8/ALSA-2026-54290.html
+    - https://errata.almalinux.org/9/ALSA-2026-54484.html
     - https://github.com/kjd/idna
     - https://github.com/kjd/idna/security/advisories/GHSA-65pc-fj4g-8rjx
     - https://github.com/pypa/advisory-database/tree/main/vulns/idna/PYSEC-2026-215.yaml
+    - https://linux.oracle.com/cve/CVE-2026-45409.html
+    - https://linux.oracle.com/errata/ELSA-2026-54481.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-45409
     - https://ubuntu.com/security/notices/USN-8549-1
     - https://www.cve.org/CVERecord?id=CVE-2026-45409
