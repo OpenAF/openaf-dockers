@@ -2966,34 +2966,36 @@
                         │      │                  ├ [107]: https://access.redhat.com/errata/RHSA-2026:54401 
                         │      │                  ├ [108]: https://access.redhat.com/errata/RHSA-2026:54435 
                         │      │                  ├ [109]: https://access.redhat.com/errata/RHSA-2026:54441 
-                        │      │                  ├ [110]: https://access.redhat.com/security/cve/CVE-2026-39821 
-                        │      │                  ├ [111]: https://bugzilla.redhat.com/2480756 
-                        │      │                  ├ [112]: https://bugzilla.redhat.com/show_bug.cgi?id=2480756 
-                        │      │                  ├ [113]: https://bugzilla.redhat.com/show_bug.cgi?id=2498152 
-                        │      │                  ├ [114]: https://creativecommons.org/licenses/by/4.0/ 
-                        │      │                  ├ [115]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+                        │      │                  ├ [110]: https://access.redhat.com/errata/RHSA-2026:54531 
+                        │      │                  ├ [111]: https://access.redhat.com/errata/RHSA-2026:54757 
+                        │      │                  ├ [112]: https://access.redhat.com/security/cve/CVE-2026-39821 
+                        │      │                  ├ [113]: https://bugzilla.redhat.com/2480756 
+                        │      │                  ├ [114]: https://bugzilla.redhat.com/show_bug.cgi?id=2480756 
+                        │      │                  ├ [115]: https://bugzilla.redhat.com/show_bug.cgi?id=2498152 
+                        │      │                  ├ [116]: https://creativecommons.org/licenses/by/4.0/ 
+                        │      │                  ├ [117]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
                         │      │                  │        026-39821 
-                        │      │                  ├ [116]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+                        │      │                  ├ [118]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
                         │      │                  │        026-39822 
-                        │      │                  ├ [117]: https://errata.almalinux.org/9/ALSA-2026-37435.html 
-                        │      │                  ├ [118]: https://errata.rockylinux.org/RLSA-2026:37435 
-                        │      │                  ├ [119]: https://github.com/golang/go/issues/78760 
-                        │      │                  ├ [120]: https://go.dev/cl/767220 
-                        │      │                  ├ [121]: https://go.dev/issue/78760 
-                        │      │                  ├ [122]: https://groups.google.com/g/golang-announce/c/94pEor
+                        │      │                  ├ [119]: https://errata.almalinux.org/9/ALSA-2026-37435.html 
+                        │      │                  ├ [120]: https://errata.rockylinux.org/RLSA-2026:37435 
+                        │      │                  ├ [121]: https://github.com/golang/go/issues/78760 
+                        │      │                  ├ [122]: https://go.dev/cl/767220 
+                        │      │                  ├ [123]: https://go.dev/issue/78760 
+                        │      │                  ├ [124]: https://groups.google.com/g/golang-announce/c/94pEor
                         │      │                  │        npRlI 
-                        │      │                  ├ [123]: https://groups.google.com/g/golang-announce/c/iI-mYS
+                        │      │                  ├ [125]: https://groups.google.com/g/golang-announce/c/iI-mYS
                         │      │                  │        I0lu8 
-                        │      │                  ├ [124]: https://linux.oracle.com/cve/CVE-2026-39821.html 
-                        │      │                  ├ [125]: https://linux.oracle.com/errata/ELSA-2026-46395.html 
-                        │      │                  ├ [126]: https://nvd.nist.gov/vuln/detail/CVE-2026-39821 
-                        │      │                  ├ [127]: https://pkg.go.dev/vuln/GO-2026-5026 
-                        │      │                  ├ [128]: https://security.access.redhat.com/data/csaf/v2/vex/
+                        │      │                  ├ [126]: https://linux.oracle.com/cve/CVE-2026-39821.html 
+                        │      │                  ├ [127]: https://linux.oracle.com/errata/ELSA-2026-46395.html 
+                        │      │                  ├ [128]: https://nvd.nist.gov/vuln/detail/CVE-2026-39821 
+                        │      │                  ├ [129]: https://pkg.go.dev/vuln/GO-2026-5026 
+                        │      │                  ├ [130]: https://security.access.redhat.com/data/csaf/v2/vex/
                         │      │                  │        2026/cve-2026-39821.json 
-                        │      │                  ├ [129]: https://ubuntu.com/security/notices/USN-8416-1 
-                        │      │                  ╰ [130]: https://www.cve.org/CVERecord?id=CVE-2026-39821 
+                        │      │                  ├ [131]: https://ubuntu.com/security/notices/USN-8416-1 
+                        │      │                  ╰ [132]: https://www.cve.org/CVERecord?id=CVE-2026-39821 
                         │      ├ PublishedDate   : 2026-05-22T16:16:20.41Z 
-                        │      ╰ LastModifiedDate: 2026-08-13T22:17:19.973Z 
+                        │      ╰ LastModifiedDate: 2026-08-14T13:18:24.667Z 
                         ├ [4]  ╭ VulnerabilityID : CVE-2026-46600 
                         │      ├ VendorIDs        ─ [0]: GO-2026-5942 
                         │      ├ PkgID           : golang.org/x/net@v0.40.0 
@@ -3033,7 +3035,7 @@
                         │      │                  ├ [5]: https://pkg.go.dev/vuln/GO-2026-5942 
                         │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-46600 
                         │      ├ PublishedDate   : 2026-07-21T20:17:01.213Z 
-                        │      ╰ LastModifiedDate: 2026-08-13T22:17:21.913Z 
+                        │      ╰ LastModifiedDate: 2026-08-14T16:16:55.673Z 
                         ├ [5]  ╭ VulnerabilityID : CVE-2025-47911 
                         │      ├ VendorIDs        ─ [0]: GO-2026-4440 
                         │      ├ PkgID           : golang.org/x/net@v0.40.0 
@@ -3458,34 +3460,36 @@
                         │      │                  ├ [107]: https://access.redhat.com/errata/RHSA-2026:54401 
                         │      │                  ├ [108]: https://access.redhat.com/errata/RHSA-2026:54435 
                         │      │                  ├ [109]: https://access.redhat.com/errata/RHSA-2026:54441 
-                        │      │                  ├ [110]: https://access.redhat.com/security/cve/CVE-2026-39821 
-                        │      │                  ├ [111]: https://bugzilla.redhat.com/2480756 
-                        │      │                  ├ [112]: https://bugzilla.redhat.com/show_bug.cgi?id=2480756 
-                        │      │                  ├ [113]: https://bugzilla.redhat.com/show_bug.cgi?id=2498152 
-                        │      │                  ├ [114]: https://creativecommons.org/licenses/by/4.0/ 
-                        │      │                  ├ [115]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+                        │      │                  ├ [110]: https://access.redhat.com/errata/RHSA-2026:54531 
+                        │      │                  ├ [111]: https://access.redhat.com/errata/RHSA-2026:54757 
+                        │      │                  ├ [112]: https://access.redhat.com/security/cve/CVE-2026-39821 
+                        │      │                  ├ [113]: https://bugzilla.redhat.com/2480756 
+                        │      │                  ├ [114]: https://bugzilla.redhat.com/show_bug.cgi?id=2480756 
+                        │      │                  ├ [115]: https://bugzilla.redhat.com/show_bug.cgi?id=2498152 
+                        │      │                  ├ [116]: https://creativecommons.org/licenses/by/4.0/ 
+                        │      │                  ├ [117]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
                         │      │                  │        026-39821 
-                        │      │                  ├ [116]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+                        │      │                  ├ [118]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
                         │      │                  │        026-39822 
-                        │      │                  ├ [117]: https://errata.almalinux.org/9/ALSA-2026-37435.html 
-                        │      │                  ├ [118]: https://errata.rockylinux.org/RLSA-2026:37435 
-                        │      │                  ├ [119]: https://github.com/golang/go/issues/78760 
-                        │      │                  ├ [120]: https://go.dev/cl/767220 
-                        │      │                  ├ [121]: https://go.dev/issue/78760 
-                        │      │                  ├ [122]: https://groups.google.com/g/golang-announce/c/94pEor
+                        │      │                  ├ [119]: https://errata.almalinux.org/9/ALSA-2026-37435.html 
+                        │      │                  ├ [120]: https://errata.rockylinux.org/RLSA-2026:37435 
+                        │      │                  ├ [121]: https://github.com/golang/go/issues/78760 
+                        │      │                  ├ [122]: https://go.dev/cl/767220 
+                        │      │                  ├ [123]: https://go.dev/issue/78760 
+                        │      │                  ├ [124]: https://groups.google.com/g/golang-announce/c/94pEor
                         │      │                  │        npRlI 
-                        │      │                  ├ [123]: https://groups.google.com/g/golang-announce/c/iI-mYS
+                        │      │                  ├ [125]: https://groups.google.com/g/golang-announce/c/iI-mYS
                         │      │                  │        I0lu8 
-                        │      │                  ├ [124]: https://linux.oracle.com/cve/CVE-2026-39821.html 
-                        │      │                  ├ [125]: https://linux.oracle.com/errata/ELSA-2026-46395.html 
-                        │      │                  ├ [126]: https://nvd.nist.gov/vuln/detail/CVE-2026-39821 
-                        │      │                  ├ [127]: https://pkg.go.dev/vuln/GO-2026-5026 
-                        │      │                  ├ [128]: https://security.access.redhat.com/data/csaf/v2/vex/
+                        │      │                  ├ [126]: https://linux.oracle.com/cve/CVE-2026-39821.html 
+                        │      │                  ├ [127]: https://linux.oracle.com/errata/ELSA-2026-46395.html 
+                        │      │                  ├ [128]: https://nvd.nist.gov/vuln/detail/CVE-2026-39821 
+                        │      │                  ├ [129]: https://pkg.go.dev/vuln/GO-2026-5026 
+                        │      │                  ├ [130]: https://security.access.redhat.com/data/csaf/v2/vex/
                         │      │                  │        2026/cve-2026-39821.json 
-                        │      │                  ├ [129]: https://ubuntu.com/security/notices/USN-8416-1 
-                        │      │                  ╰ [130]: https://www.cve.org/CVERecord?id=CVE-2026-39821 
+                        │      │                  ├ [131]: https://ubuntu.com/security/notices/USN-8416-1 
+                        │      │                  ╰ [132]: https://www.cve.org/CVERecord?id=CVE-2026-39821 
                         │      ├ PublishedDate   : 2026-05-22T16:16:20.41Z 
-                        │      ╰ LastModifiedDate: 2026-08-13T22:17:19.973Z 
+                        │      ╰ LastModifiedDate: 2026-08-14T13:18:24.667Z 
                         ├ [12] ╭ VulnerabilityID : CVE-2026-39822 
                         │      ├ VendorIDs        ─ [0]: GO-2026-4970 
                         │      ├ PkgID           : stdlib@v1.26.4 
@@ -3588,7 +3592,7 @@
                         │      │                  ├ [5]: https://pkg.go.dev/vuln/GO-2026-5942 
                         │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2026-46600 
                         │      ├ PublishedDate   : 2026-07-21T20:17:01.213Z 
-                        │      ╰ LastModifiedDate: 2026-08-13T22:17:21.913Z 
+                        │      ╰ LastModifiedDate: 2026-08-14T16:16:55.673Z 
                         ├ [14] ╭ VulnerabilityID : CVE-2026-42505 
                         │      ├ VendorIDs        ─ [0]: GO-2026-5856 
                         │      ├ PkgID           : stdlib@v1.26.4 
@@ -3660,18 +3664,20 @@
                         │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
                         │      ├ Fingerprint     : sha256:57a5300dc506023770d06381e75889acabc9ad26580459105513b
                         │      │                   4e61af8fc14 
-                        │      ├ Title           : Enforce maximum recursion depth in encoding/asn1 
+                        │      ├ Title           : Enforce a recursion limit in Unmarshal to prevent stack
+                        │      │                   exhaustion whe ... 
                         │      ├ Description     : Enforce a recursion limit in Unmarshal to prevent stack
                         │      │                   exhaustion when parsing deeply-nested, recursive
                         │      │                   structures. 
                         │      ├ Severity        : UNKNOWN 
+                        │      ├ CweIDs           ─ [0]: CWE-400 
                         │      ├ References       ╭ [0]: https://go.dev/cl/814980 
                         │      │                  ├ [1]: https://go.dev/issue/80405 
                         │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/94pEornp
                         │      │                  │      RlI 
                         │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-5972 
                         │      ├ PublishedDate   : 2026-08-13T22:17:19.84Z 
-                        │      ╰ LastModifiedDate: 2026-08-13T22:17:19.84Z 
+                        │      ╰ LastModifiedDate: 2026-08-14T16:16:55.317Z 
                         ├ [16] ╭ VulnerabilityID : CVE-2026-56853 
                         │      ├ VendorIDs        ─ [0]: GO-2026-6089 
                         │      ├ PkgID           : stdlib@v1.26.4 
@@ -3691,20 +3697,21 @@
                         │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
                         │      ├ Fingerprint     : sha256:61d8a76f04e290a66edf6484dcad2c5f16a7ebf8dc783982ab54f
                         │      │                   5059e872017 
-                        │      ├ Title           : Apply ReadHeaderTimeout when doing unencrypted HTTP/2 check
-                        │      │                   in net/http 
+                        │      ├ Title           : When a server is configured to support unencrypted HTTP/2,
+                        │      │                   it reads a  ... 
                         │      ├ Description     : When a server is configured to support unencrypted HTTP/2,
                         │      │                   it reads a few bytes from each new connection to see if they
                         │      │                    contain the HTTP/2 client preface. ReadHeaderTimeout is
                         │      │                   unexpectedly not being applied when doing this. 
                         │      ├ Severity        : UNKNOWN 
+                        │      ├ CweIDs           ─ [0]: CWE-770 
                         │      ├ References       ╭ [0]: https://go.dev/cl/795540 
                         │      │                  ├ [1]: https://go.dev/issue/80205 
                         │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/94pEornp
                         │      │                  │      RlI 
                         │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-6089 
                         │      ├ PublishedDate   : 2026-08-13T22:17:22.093Z 
-                        │      ╰ LastModifiedDate: 2026-08-13T22:17:22.093Z 
+                        │      ╰ LastModifiedDate: 2026-08-14T16:16:57.21Z 
                         ├ [17] ╭ VulnerabilityID : CVE-2026-56858 
                         │      ├ VendorIDs        ─ [0]: GO-2026-6091 
                         │      ├ PkgID           : stdlib@v1.26.4 
@@ -3724,18 +3731,20 @@
                         │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
                         │      ├ Fingerprint     : sha256:0ce2a4f805c2f42a225a5b970154918a22d1aafa5bd54514f6b58
                         │      │                   4e5d8519aed 
-                        │      ├ Title           : Fix Javascript regexp context tracking in html/template 
+                        │      ├ Title           : Previously, pathological inputs could close an unescaped '/'
+                        │      │                    early, al ... 
                         │      ├ Description     : Previously, pathological inputs could close an unescaped '/'
                         │      │                    early, allowing for attack-controlled data to inject
                         │      │                   arbitrary content, potentially leading to XSS. 
                         │      ├ Severity        : UNKNOWN 
+                        │      ├ CweIDs           ─ [0]: CWE-79 
                         │      ├ References       ╭ [0]: https://go.dev/cl/807100 
                         │      │                  ├ [1]: https://go.dev/issue/80435 
                         │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/94pEornp
                         │      │                  │      RlI 
                         │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-6091 
                         │      ├ PublishedDate   : 2026-08-13T22:17:22.207Z 
-                        │      ╰ LastModifiedDate: 2026-08-13T22:17:22.207Z 
+                        │      ╰ LastModifiedDate: 2026-08-14T16:16:57.367Z 
                         ├ [18] ╭ VulnerabilityID : CVE-2026-56859 
                         │      ├ VendorIDs        ─ [0]: GO-2026-6088 
                         │      ├ PkgID           : stdlib@v1.26.4 
@@ -3755,18 +3764,20 @@
                         │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
                         │      ├ Fingerprint     : sha256:cfe2c3f7d2dc7f54867c665f85636a48cf96e4c06ef2e43dd2c42
                         │      │                   2f0825e7603 
-                        │      ├ Title           : Add recursion depth guard during decode in encoding/xml 
+                        │      ├ Title           : Previously, DecodeElement would reset the depth counter
+                        │      │                   causing it to  ... 
                         │      ├ Description     : Previously, DecodeElement would reset the depth counter
                         │      │                   causing it to never fire; this could lead to stack
                         │      │                   exhaustion. 
                         │      ├ Severity        : UNKNOWN 
+                        │      ├ CweIDs           ─ [0]: CWE-770 
                         │      ├ References       ╭ [0]: https://go.dev/cl/803320 
                         │      │                  ├ [1]: https://go.dev/issue/80481 
                         │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/94pEornp
                         │      │                  │      RlI 
                         │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-6088 
                         │      ├ PublishedDate   : 2026-08-13T22:17:22.32Z 
-                        │      ╰ LastModifiedDate: 2026-08-13T22:17:22.32Z 
+                        │      ╰ LastModifiedDate: 2026-08-14T16:16:57.523Z 
                         ├ [19] ╭ VulnerabilityID : CVE-2026-56860 
                         │      ├ VendorIDs        ─ [0]: GO-2026-6218 
                         │      ├ PkgID           : stdlib@v1.26.4 
@@ -3786,7 +3797,8 @@
                         │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
                         │      ├ Fingerprint     : sha256:1c1e628dbeb088327d9cda04c7b806db9c6da5c8a2d7d9c38059c
                         │      │                   e4f52e473e0 
-                        │      ├ Title           : Avoid quadratic complexity in resolvePath in net/url 
+                        │      ├ Title           : Previously, resolving relative paths containing parent
+                        │      │                   directory ('..' ... 
                         │      ├ Description     : Previously, resolving relative paths containing parent
                         │      │                   directory ('..') segments performed string conversions and
                         │      │                   buffer rewrites on each step, resulting in quadratic time
@@ -3796,13 +3808,14 @@
                         │      │                   time complexity and significantly reducing memory
                         │      │                   allocations. 
                         │      ├ Severity        : UNKNOWN 
+                        │      ├ CweIDs           ─ [0]: CWE-407 
                         │      ├ References       ╭ [0]: https://go.dev/cl/803681 
                         │      │                  ├ [1]: https://go.dev/issue/80494 
                         │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/94pEornp
                         │      │                  │      RlI 
                         │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-6218 
                         │      ├ PublishedDate   : 2026-08-13T22:17:22.44Z 
-                        │      ╰ LastModifiedDate: 2026-08-13T22:17:22.44Z 
+                        │      ╰ LastModifiedDate: 2026-08-14T17:19:13.91Z 
                         ╰ [20] ╭ VulnerabilityID : CVE-2026-56862 
                                ├ VendorIDs        ─ [0]: GO-2026-6090 
                                ├ PkgID           : stdlib@v1.26.4 
@@ -3822,19 +3835,20 @@
                                │                  ╰ URL : https://pkg.go.dev/vuln/ 
                                ├ Fingerprint     : sha256:0c7507f419d2ff05252dd8bf07f0a50336ab1700bf238c9a6de7b
                                │                   b8a4c701c02 
-                               ├ Title           : Limit handshake messages we are willing to accept
-                               │                   post-handshake in crypto/tls 
+                               ├ Title           : Handshake messages, such as KeyUpdate, are always considered
+                               │                    as state- ... 
                                ├ Description     : Handshake messages, such as KeyUpdate, are always considered
                                │                    as state-advancing, regardless of whether a handshake has
                                │                   been completed or not. As a result, a malicious client can
                                │                   keep sending KeyUpdate messages to force the server to keep
                                │                   performing key derivation operations indefinitely. 
                                ├ Severity        : UNKNOWN 
+                               ├ CweIDs           ─ [0]: CWE-770 
                                ├ References       ╭ [0]: https://go.dev/cl/804261 
                                │                  ├ [1]: https://go.dev/issue/80528 
                                │                  ├ [2]: https://groups.google.com/g/golang-announce/c/94pEornp
                                │                  │      RlI 
                                │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2026-6090 
                                ├ PublishedDate   : 2026-08-13T22:17:22.55Z 
-                               ╰ LastModifiedDate: 2026-08-13T22:17:22.55Z 
+                               ╰ LastModifiedDate: 2026-08-14T16:16:57.717Z 
 ```
