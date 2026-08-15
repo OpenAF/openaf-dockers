@@ -3212,6 +3212,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      azure: 2
       redhat: 2
     CVSS:
       redhat:
@@ -7146,8 +7147,10 @@
     CweIDs:
     - CWE-444
     VendorSeverity:
+      alma: 2
       azure: 2
       julia: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -7160,10 +7163,15 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:N
         V3Score: 5.4
     References:
+    - https://access.redhat.com/errata/RHSA-2026:54662
     - https://access.redhat.com/security/cve/CVE-2026-58055
+    - https://bugzilla.redhat.com/2493954
+    - https://errata.almalinux.org/9/ALSA-2026-54662.html
     - https://github.com/advisories/GHSA-xrr7-82jr-v58x
     - https://github.com/bikini/exploitarium/tree/main/nghttp2-nghttpx-upgrade-queue-poison-poc
     - https://github.com/nghttp2/nghttp2/commit/ab28105c4a0197da24f8bfc414bc116055249e1e
+    - https://linux.oracle.com/cve/CVE-2026-58055.html
+    - https://linux.oracle.com/errata/ELSA-2026-54662.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-58055
     - https://ubuntu.com/security/notices/USN-8495-1
     - https://www.cve.org/CVERecord?id=CVE-2026-58055
@@ -15277,6 +15285,7 @@
       nvd: 2
       oracle-oval: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       ghsa:
@@ -15294,12 +15303,16 @@
     - https://access.redhat.com/errata/RHSA-2026:54484
     - https://access.redhat.com/security/cve/CVE-2026-45409
     - https://bugzilla.redhat.com/2485616
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2485616
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-45409
     - https://errata.almalinux.org/9/ALSA-2026-54484.html
+    - https://errata.rockylinux.org/RLSA-2026:54484
     - https://github.com/kjd/idna
     - https://github.com/kjd/idna/security/advisories/GHSA-65pc-fj4g-8rjx
     - https://github.com/pypa/advisory-database/tree/main/vulns/idna/PYSEC-2026-215.yaml
     - https://linux.oracle.com/cve/CVE-2026-45409.html
-    - https://linux.oracle.com/errata/ELSA-2026-54481.html
+    - https://linux.oracle.com/errata/ELSA-2026-54484.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-45409
     - https://ubuntu.com/security/notices/USN-8549-1
     - https://www.cve.org/CVERecord?id=CVE-2026-45409
