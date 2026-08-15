@@ -3658,7 +3658,8 @@
 │                       │       │                    crash or system hang. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-770 
-│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ╰ redhat: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 5.3 
@@ -8163,10 +8164,12 @@
 │                       │       │                   response-queue poisoning. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs           ─ [0]: CWE-444 
-│                       │       ├ VendorSeverity   ╭ azure : 2 
-│                       │       │                  ├ julia : 2 
-│                       │       │                  ├ redhat: 2 
-│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ VendorSeverity   ╭ alma       : 2 
+│                       │       │                  ├ azure      : 2 
+│                       │       │                  ├ julia      : 2 
+│                       │       │                  ├ oracle-oval: 2 
+│                       │       │                  ├ redhat     : 2 
+│                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ julia  ╭ V3Vector : CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I
 │                       │       │                  │        │            :L/A:N 
 │                       │       │                  │        ├ V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:L
@@ -8176,18 +8179,23 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 5.4 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2026-58055 
-│                       │       │                  ├ [1]: https://github.com/advisories/GHSA-xrr7-82jr-v58x 
-│                       │       │                  ├ [2]: https://github.com/bikini/exploitarium/tree/main/nght
-│                       │       │                  │      tp2-nghttpx-upgrade-queue-poison-poc 
-│                       │       │                  ├ [3]: https://github.com/nghttp2/nghttp2/commit/ab28105c4a0
-│                       │       │                  │      197da24f8bfc414bc116055249e1e 
-│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2026-58055 
-│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-8495-1 
-│                       │       │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2026-58055 
-│                       │       │                  ╰ [7]: https://www.vulncheck.com/advisories/nghttp2-nghttpx-
-│                       │       │                         http-request-response-smuggling-via-upgrade-request-w
-│                       │       │                         ith-content-length 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:54662 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-58055 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2493954 
+│                       │       │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2026-54662.html 
+│                       │       │                  ├ [4] : https://github.com/advisories/GHSA-xrr7-82jr-v58x 
+│                       │       │                  ├ [5] : https://github.com/bikini/exploitarium/tree/main/ngh
+│                       │       │                  │       ttp2-nghttpx-upgrade-queue-poison-poc 
+│                       │       │                  ├ [6] : https://github.com/nghttp2/nghttp2/commit/ab28105c4a
+│                       │       │                  │       0197da24f8bfc414bc116055249e1e 
+│                       │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2026-58055.html 
+│                       │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2026-54662.html 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-58055 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-8495-1 
+│                       │       │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2026-58055 
+│                       │       │                  ╰ [12]: https://www.vulncheck.com/advisories/nghttp2-nghttpx
+│                       │       │                          -http-request-response-smuggling-via-upgrade-request
+│                       │       │                          -with-content-length 
 │                       │       ├ PublishedDate   : 2026-06-28T02:16:32.677Z 
 │                       │       ╰ LastModifiedDate: 2026-06-30T17:41:26.433Z 
 │                       ├ [136] ╭ VulnerabilityID : CVE-2023-24056 
@@ -18249,6 +18257,7 @@
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ redhat     : 2 
+│                       │       │                  ├ rocky      : 2 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ ghsa   ╭ V3Vector : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │       │                  │        │            :N/A:L 
@@ -18265,17 +18274,22 @@
 │                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2026:54484 
 │                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2026-45409 
 │                       │       │                  ├ [2] : https://bugzilla.redhat.com/2485616 
-│                       │       │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2026-54484.html 
-│                       │       │                  ├ [4] : https://github.com/kjd/idna 
-│                       │       │                  ├ [5] : https://github.com/kjd/idna/security/advisories/GHSA
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2485616 
+│                       │       │                  ├ [4] : https://creativecommons.org/licenses/by/4.0/ 
+│                       │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2
+│                       │       │                  │       026-45409 
+│                       │       │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2026-54484.html 
+│                       │       │                  ├ [7] : https://errata.rockylinux.org/RLSA-2026:54484 
+│                       │       │                  ├ [8] : https://github.com/kjd/idna 
+│                       │       │                  ├ [9] : https://github.com/kjd/idna/security/advisories/GHSA
 │                       │       │                  │       -65pc-fj4g-8rjx 
-│                       │       │                  ├ [6] : https://github.com/pypa/advisory-database/tree/main/
+│                       │       │                  ├ [10]: https://github.com/pypa/advisory-database/tree/main/
 │                       │       │                  │       vulns/idna/PYSEC-2026-215.yaml 
-│                       │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2026-45409.html 
-│                       │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2026-54481.html 
-│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2026-45409 
-│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-8549-1 
-│                       │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2026-45409 
+│                       │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2026-45409.html 
+│                       │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2026-54484.html 
+│                       │       │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2026-45409 
+│                       │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-8549-1 
+│                       │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2026-45409 
 │                       │       ├ PublishedDate   : 2026-06-05T23:16:43.343Z 
 │                       │       ╰ LastModifiedDate: 2026-07-23T07:10:00.113Z 
 │                       ├ [262] ╭ VulnerabilityID : CVE-2021-3572 
