@@ -2507,6 +2507,8 @@
     - https://access.redhat.com/errata/RHSA-2026:54401
     - https://access.redhat.com/errata/RHSA-2026:54435
     - https://access.redhat.com/errata/RHSA-2026:54441
+    - https://access.redhat.com/errata/RHSA-2026:54531
+    - https://access.redhat.com/errata/RHSA-2026:54757
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -2529,7 +2531,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-13T22:17:19.973Z'
+    LastModifiedDate: '2026-08-14T13:18:24.667Z'
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
     - GO-2026-5942
@@ -2570,7 +2572,7 @@
     - https://pkg.go.dev/vuln/GO-2026-5942
     - https://www.cve.org/CVERecord?id=CVE-2026-46600
     PublishedDate: '2026-07-21T20:17:01.213Z'
-    LastModifiedDate: '2026-08-13T22:17:21.913Z'
+    LastModifiedDate: '2026-08-14T16:16:55.673Z'
   - VulnerabilityID: CVE-2025-47911
     VendorIDs:
     - GO-2026-4440
@@ -2986,6 +2988,8 @@
     - https://access.redhat.com/errata/RHSA-2026:54401
     - https://access.redhat.com/errata/RHSA-2026:54435
     - https://access.redhat.com/errata/RHSA-2026:54441
+    - https://access.redhat.com/errata/RHSA-2026:54531
+    - https://access.redhat.com/errata/RHSA-2026:54757
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -3008,7 +3012,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-13T22:17:19.973Z'
+    LastModifiedDate: '2026-08-14T13:18:24.667Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
@@ -3109,7 +3113,7 @@
     - https://pkg.go.dev/vuln/GO-2026-5942
     - https://www.cve.org/CVERecord?id=CVE-2026-46600
     PublishedDate: '2026-07-21T20:17:01.213Z'
-    LastModifiedDate: '2026-08-13T22:17:21.913Z'
+    LastModifiedDate: '2026-08-14T16:16:55.673Z'
   - VulnerabilityID: CVE-2026-42505
     VendorIDs:
     - GO-2026-5856
@@ -3182,16 +3186,18 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:57a5300dc506023770d06381e75889acabc9ad26580459105513b4e61af8fc14
-    Title: Enforce maximum recursion depth in encoding/asn1
+    Title: Enforce a recursion limit in Unmarshal to prevent stack exhaustion whe ...
     Description: Enforce a recursion limit in Unmarshal to prevent stack exhaustion when parsing deeply-nested, recursive structures.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-400
     References:
     - https://go.dev/cl/814980
     - https://go.dev/issue/80405
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://pkg.go.dev/vuln/GO-2026-5972
     PublishedDate: '2026-08-13T22:17:19.84Z'
-    LastModifiedDate: '2026-08-13T22:17:19.84Z'
+    LastModifiedDate: '2026-08-14T16:16:55.317Z'
   - VulnerabilityID: CVE-2026-56853
     VendorIDs:
     - GO-2026-6089
@@ -3212,16 +3218,18 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:61d8a76f04e290a66edf6484dcad2c5f16a7ebf8dc783982ab54f5059e872017
-    Title: Apply ReadHeaderTimeout when doing unencrypted HTTP/2 check in net/http
+    Title: When a server is configured to support unencrypted HTTP/2, it reads a  ...
     Description: When a server is configured to support unencrypted HTTP/2, it reads a few bytes from each new connection to see if they contain the HTTP/2 client preface. ReadHeaderTimeout is unexpectedly not being applied when doing this.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-770
     References:
     - https://go.dev/cl/795540
     - https://go.dev/issue/80205
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://pkg.go.dev/vuln/GO-2026-6089
     PublishedDate: '2026-08-13T22:17:22.093Z'
-    LastModifiedDate: '2026-08-13T22:17:22.093Z'
+    LastModifiedDate: '2026-08-14T16:16:57.21Z'
   - VulnerabilityID: CVE-2026-56858
     VendorIDs:
     - GO-2026-6091
@@ -3242,16 +3250,18 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:0ce2a4f805c2f42a225a5b970154918a22d1aafa5bd54514f6b584e5d8519aed
-    Title: Fix Javascript regexp context tracking in html/template
+    Title: Previously, pathological inputs could close an unescaped '/' early, al ...
     Description: Previously, pathological inputs could close an unescaped '/' early, allowing for attack-controlled data to inject arbitrary content, potentially leading to XSS.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-79
     References:
     - https://go.dev/cl/807100
     - https://go.dev/issue/80435
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://pkg.go.dev/vuln/GO-2026-6091
     PublishedDate: '2026-08-13T22:17:22.207Z'
-    LastModifiedDate: '2026-08-13T22:17:22.207Z'
+    LastModifiedDate: '2026-08-14T16:16:57.367Z'
   - VulnerabilityID: CVE-2026-56859
     VendorIDs:
     - GO-2026-6088
@@ -3272,16 +3282,18 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:cfe2c3f7d2dc7f54867c665f85636a48cf96e4c06ef2e43dd2c422f0825e7603
-    Title: Add recursion depth guard during decode in encoding/xml
+    Title: Previously, DecodeElement would reset the depth counter causing it to  ...
     Description: Previously, DecodeElement would reset the depth counter causing it to never fire; this could lead to stack exhaustion.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-770
     References:
     - https://go.dev/cl/803320
     - https://go.dev/issue/80481
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://pkg.go.dev/vuln/GO-2026-6088
     PublishedDate: '2026-08-13T22:17:22.32Z'
-    LastModifiedDate: '2026-08-13T22:17:22.32Z'
+    LastModifiedDate: '2026-08-14T16:16:57.523Z'
   - VulnerabilityID: CVE-2026-56860
     VendorIDs:
     - GO-2026-6218
@@ -3302,16 +3314,18 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:1c1e628dbeb088327d9cda04c7b806db9c6da5c8a2d7d9c38059ce4f52e473e0
-    Title: Avoid quadratic complexity in resolvePath in net/url
+    Title: Previously, resolving relative paths containing parent directory ('..' ...
     Description: Previously, resolving relative paths containing parent directory ('..') segments performed string conversions and buffer rewrites on each step, resulting in quadratic time complexity and high memory allocation overhead. Now, path resolution operates on a byte buffer using index-based backtracking for '..' segments, eliminating the quadratic time complexity and significantly reducing memory allocations.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-407
     References:
     - https://go.dev/cl/803681
     - https://go.dev/issue/80494
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://pkg.go.dev/vuln/GO-2026-6218
     PublishedDate: '2026-08-13T22:17:22.44Z'
-    LastModifiedDate: '2026-08-13T22:17:22.44Z'
+    LastModifiedDate: '2026-08-14T17:19:13.91Z'
   - VulnerabilityID: CVE-2026-56862
     VendorIDs:
     - GO-2026-6090
@@ -3332,13 +3346,15 @@
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
     Fingerprint: sha256:0c7507f419d2ff05252dd8bf07f0a50336ab1700bf238c9a6de7bb8a4c701c02
-    Title: Limit handshake messages we are willing to accept post-handshake in crypto/tls
+    Title: Handshake messages, such as KeyUpdate, are always considered as state- ...
     Description: Handshake messages, such as KeyUpdate, are always considered as state-advancing, regardless of whether a handshake has been completed or not. As a result, a malicious client can keep sending KeyUpdate messages to force the server to keep performing key derivation operations indefinitely.
     Severity: UNKNOWN
+    CweIDs:
+    - CWE-770
     References:
     - https://go.dev/cl/804261
     - https://go.dev/issue/80528
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://pkg.go.dev/vuln/GO-2026-6090
     PublishedDate: '2026-08-13T22:17:22.55Z'
-    LastModifiedDate: '2026-08-13T22:17:22.55Z'
+    LastModifiedDate: '2026-08-14T16:16:57.717Z'
