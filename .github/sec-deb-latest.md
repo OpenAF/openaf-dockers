@@ -1767,7 +1767,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs                   
 │                       │      │                  ────────
-│                       │      │                  CWE-1188
+│                       │      │                  CWE-125 
 │                       │      │                  
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
 │                       │      │                  ├ azure      : 1 
@@ -3252,6 +3252,8 @@
                         │      │                  https://access.redhat.com/errata/RHSA-2026:54285             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:54286             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:54287             
+                        │      │                  https://access.redhat.com/errata/RHSA-2026:57191             
+                        │      │                  https://access.redhat.com/errata/RHSA-2026:57194             
                         │      │                  https://access.redhat.com/security/cve/CVE-2026-33814        
                         │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2467815          
                         │      │                  https://github.com/golang/go/issues/78476                    
@@ -3279,7 +3281,7 @@
                         │      │                                                                               
                         │      │                  
                         │      ├ PublishedDate   : 2026-05-07T20:16:42.88Z 
-                        │      ╰ LastModifiedDate: 2026-08-19T12:17:53.54Z 
+                        │      ╰ LastModifiedDate: 2026-08-20T13:17:52.177Z 
                         ├ [3]  ╭ VulnerabilityID : CVE-2026-39821 
                         │      ├ VendorIDs                    
                         │      │                  ────────────
@@ -3450,6 +3452,7 @@
                         │      │                  https://access.redhat.com/errata/RHSA-2026:56223             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:56340             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:56431             
+                        │      │                  https://access.redhat.com/errata/RHSA-2026:57194             
                         │      │                  https://access.redhat.com/security/cve/CVE-2026-39821        
                         │      │                  https://bugzilla.redhat.com/2480756                          
                         │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2480756          
@@ -3476,7 +3479,7 @@
                         │      │                                                                               
                         │      │                  
                         │      ├ PublishedDate   : 2026-05-22T16:16:20.41Z 
-                        │      ╰ LastModifiedDate: 2026-08-19T12:18:01.253Z 
+                        │      ╰ LastModifiedDate: 2026-08-20T13:18:12.15Z 
                         ├ [4]  ╭ VulnerabilityID : CVE-2026-46600 
                         │      ├ VendorIDs                    
                         │      │                  ────────────
@@ -3699,9 +3702,9 @@
                         │      ├ PublishedDate   : 2026-05-22T16:16:19.753Z 
                         │      ╰ LastModifiedDate: 2026-07-23T16:10:00.137Z 
                         ├ [8]  ╭ VulnerabilityID : CVE-2026-42502 
-                        │      ├ VendorIDs                                                        
-                        │      │                  ────────────────────────────────────────────────
-                        │      │                  https://access.redhat.com/errata/RHSA-2026:49668
+                        │      ├ VendorIDs                    
+                        │      │                  ────────────
+                        │      │                  GO-2026-5027
                         │      │                  
                         │      ├ PkgID           : golang.org/x/net@v0.40.0 
                         │      ├ PkgName         : golang.org/x/net 
@@ -3888,7 +3891,7 @@
                         │      │                  https://access.redhat.com/security/cve/CVE-2026-33818    
                         │      │                  https://go.dev/cl/814980                                 
                         │      │                  https://go.dev/issue/80405                               
-                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-15059          
+                        │      │                  https://groups.google.com/g/golang-announce/c/94pEornpRlI
                         │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-33818          
                         │      │                  https://pkg.go.dev/vuln/GO-2026-5972                     
                         │      │                  https://www.cve.org/CVERecord?id=CVE-2026-33818          
@@ -4065,6 +4068,7 @@
                         │      │                  https://access.redhat.com/errata/RHSA-2026:56223             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:56340             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:56431             
+                        │      │                  https://access.redhat.com/errata/RHSA-2026:57194             
                         │      │                  https://access.redhat.com/security/cve/CVE-2026-39821        
                         │      │                  https://bugzilla.redhat.com/2480756                          
                         │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2480756          
@@ -4091,7 +4095,7 @@
                         │      │                                                                               
                         │      │                  
                         │      ├ PublishedDate   : 2026-05-22T16:16:20.41Z 
-                        │      ╰ LastModifiedDate: 2026-08-19T12:18:01.253Z 
+                        │      ╰ LastModifiedDate: 2026-08-20T13:18:12.15Z 
                         ├ [13] ╭ VulnerabilityID : CVE-2026-39822 
                         │      ├ VendorIDs                    
                         │      │                  ────────────
