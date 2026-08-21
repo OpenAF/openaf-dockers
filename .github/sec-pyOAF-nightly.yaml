@@ -2,3 +2,7 @@
   Class: os-pkgs
   Type: alpine
   Packages: []
+- Target: Java
+  Class: lang-pkgs
+  Type: jar
+  Packages: []
