@@ -1003,7 +1003,7 @@
     - https://github.com/advisories/GHSA-32xh-3x3c-6g6h
     - https://hackerone.com/reports/3718195
     - https://linux.oracle.com/cve/CVE-2026-8286.html
-    - https://linux.oracle.com/errata/ELSA-2026-55450.html
+    - https://linux.oracle.com/errata/ELSA-2026-57462.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-8286
     - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-8286
@@ -3363,7 +3363,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-15588
     - https://www.cve.org/CVERecord?id=CVE-2026-15588
     PublishedDate: '2026-07-20T12:17:55.22Z'
-    LastModifiedDate: '2026-08-19T18:16:33.44Z'
+    LastModifiedDate: '2026-08-21T13:16:52.86Z'
   - VulnerabilityID: CVE-2026-16118
     PkgID: glib2@2.68.4-19.el9_8.2.x86_64
     PkgName: glib2
@@ -4660,6 +4660,8 @@
     CweIDs:
     - CWE-200
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
     CVSS:
@@ -4676,7 +4678,10 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60589
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-61308
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-70907
+    - https://errata.almalinux.org/9/ALSA-2026-55787.html
     - https://errata.rockylinux.org/RLSA-2026:55787
+    - https://linux.oracle.com/cve/CVE-2026-60589.html
+    - https://linux.oracle.com/errata/ELSA-2026-55798.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-60589
     - https://www.cve.org/CVERecord?id=CVE-2026-60589
     - https://www.oracle.com/security-alerts/cspuaug2026.html
@@ -4702,7 +4707,11 @@
     Title: 'OpenJDK: Enhance HTTP Connections (2026-08 Security Update)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 8u501, 11.0.32, 17.0.20, 21.0.12, 25.0.4, 26.0.2; Oracle GraalVM for JDK: 17.0.20 and  21.0.12; Oracle GraalVM Enterprise Edition: 21.3.19. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  While the vulnerability is in Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.8 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N).'
     Severity: MEDIUM
+    CweIDs:
+    - CWE-284
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
     CVSS:
@@ -4719,12 +4728,15 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60589
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-61308
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-70907
+    - https://errata.almalinux.org/9/ALSA-2026-55787.html
     - https://errata.rockylinux.org/RLSA-2026:55787
+    - https://linux.oracle.com/cve/CVE-2026-61308.html
+    - https://linux.oracle.com/errata/ELSA-2026-55798.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-61308
     - https://www.cve.org/CVERecord?id=CVE-2026-61308
     - https://www.oracle.com/security-alerts/cspuaug2026.html
     PublishedDate: '2026-08-18T21:16:59.49Z'
-    LastModifiedDate: '2026-08-20T13:07:44.887Z'
+    LastModifiedDate: '2026-08-21T17:16:33.83Z'
   - VulnerabilityID: CVE-2026-70907
     VendorIDs:
     - RHSA-2026:55787
@@ -4748,6 +4760,8 @@
     CweIDs:
     - CWE-284
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       redhat: 2
       rocky: 2
     CVSS:
@@ -4764,7 +4778,10 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60589
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-61308
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-70907
+    - https://errata.almalinux.org/9/ALSA-2026-55787.html
     - https://errata.rockylinux.org/RLSA-2026:55787
+    - https://linux.oracle.com/cve/CVE-2026-70907.html
+    - https://linux.oracle.com/errata/ELSA-2026-55798.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-70907
     - https://www.cve.org/CVERecord?id=CVE-2026-70907
     - https://www.oracle.com/security-alerts/cspuaug2026.html
@@ -4860,7 +4877,7 @@
     - https://ubuntu.com/security/notices/USN-8585-1
     - https://www.cve.org/CVERecord?id=CVE-2026-11850
     PublishedDate: '2026-06-11T10:16:21.217Z'
-    LastModifiedDate: '2026-06-17T10:14:30.383Z'
+    LastModifiedDate: '2026-08-21T13:16:47.713Z'
   - VulnerabilityID: CVE-2023-30571
     PkgID: libarchive@3.5.3-9.el9_7.x86_64
     PkgName: libarchive
@@ -5002,7 +5019,7 @@
     - https://ubuntu.com/security/notices/USN-8581-1
     - https://www.cve.org/CVERecord?id=CVE-2026-14164
     PublishedDate: '2026-06-30T07:16:32.17Z'
-    LastModifiedDate: '2026-08-19T18:16:32.24Z'
+    LastModifiedDate: '2026-08-21T13:16:51.42Z'
   - VulnerabilityID: CVE-2026-4426
     PkgID: libarchive@3.5.3-9.el9_7.x86_64
     PkgName: libarchive
@@ -5040,7 +5057,7 @@
     - https://ubuntu.com/security/notices/USN-8292-1
     - https://www.cve.org/CVERecord?id=CVE-2026-4426
     PublishedDate: '2026-03-19T15:16:28.51Z'
-    LastModifiedDate: '2026-06-17T10:56:33.247Z'
+    LastModifiedDate: '2026-08-21T13:18:10.013Z'
   - VulnerabilityID: CVE-2026-5745
     PkgID: libarchive@3.5.3-9.el9_7.x86_64
     PkgName: libarchive
@@ -5076,7 +5093,7 @@
     - https://ubuntu.com/security/notices/USN-8581-1
     - https://www.cve.org/CVERecord?id=CVE-2026-5745
     PublishedDate: '2026-04-07T16:16:32.307Z'
-    LastModifiedDate: '2026-06-17T10:59:35.357Z'
+    LastModifiedDate: '2026-08-21T22:16:41.557Z'
   - VulnerabilityID: CVE-2025-1632
     PkgID: libarchive@3.5.3-9.el9_7.x86_64
     PkgName: libarchive
@@ -5174,7 +5191,7 @@
     - https://ubuntu.com/security/notices/USN-7601-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5915
     PublishedDate: '2025-06-09T20:15:26.317Z'
-    LastModifiedDate: '2026-06-30T11:16:25.55Z'
+    LastModifiedDate: '2026-08-21T13:16:33.257Z'
   - VulnerabilityID: CVE-2025-5916
     PkgID: libarchive@3.5.3-9.el9_7.x86_64
     PkgName: libarchive
@@ -5223,7 +5240,7 @@
     - https://ubuntu.com/security/notices/USN-8147-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5916
     PublishedDate: '2025-06-09T20:15:27.17Z'
-    LastModifiedDate: '2026-06-30T11:16:25.68Z'
+    LastModifiedDate: '2026-08-21T13:16:33.423Z'
   - VulnerabilityID: CVE-2025-5917
     PkgID: libarchive@3.5.3-9.el9_7.x86_64
     PkgName: libarchive
@@ -5272,7 +5289,7 @@
     - https://ubuntu.com/security/notices/USN-8147-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5917
     PublishedDate: '2025-06-09T20:15:27.33Z'
-    LastModifiedDate: '2026-06-30T11:16:25.803Z'
+    LastModifiedDate: '2026-08-21T13:16:33.587Z'
   - VulnerabilityID: CVE-2025-5918
     PkgID: libarchive@3.5.3-9.el9_7.x86_64
     PkgName: libarchive
@@ -5319,7 +5336,7 @@
     - https://ubuntu.com/security/notices/USN-8147-1
     - https://www.cve.org/CVERecord?id=CVE-2025-5918
     PublishedDate: '2025-06-09T20:15:27.493Z'
-    LastModifiedDate: '2026-06-30T11:16:25.93Z'
+    LastModifiedDate: '2026-08-21T13:16:33.753Z'
   - VulnerabilityID: CVE-2026-15028
     PkgID: libarchive@3.5.3-9.el9_7.x86_64
     PkgName: libarchive
@@ -5358,7 +5375,7 @@
     - https://ubuntu.com/security/notices/USN-8581-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15028
     PublishedDate: '2026-07-10T10:16:23.417Z'
-    LastModifiedDate: '2026-08-19T11:16:46.043Z'
+    LastModifiedDate: '2026-08-21T13:16:52.48Z'
   - VulnerabilityID: CVE-2026-16517
     PkgID: libarchive@3.5.3-9.el9_7.x86_64
     PkgName: libarchive
@@ -5391,7 +5408,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-16517
     - https://www.cve.org/CVERecord?id=CVE-2026-16517
     PublishedDate: '2026-07-21T23:17:00.587Z'
-    LastModifiedDate: '2026-08-19T11:16:46.32Z'
+    LastModifiedDate: '2026-08-21T13:16:53.383Z'
   - VulnerabilityID: CVE-2026-54371
     PkgID: libattr@2.5.1-3.el9.x86_64
     PkgName: libattr
@@ -5483,7 +5500,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-13595
     - https://www.cve.org/CVERecord?id=CVE-2026-13595
     PublishedDate: '2026-06-29T09:16:28.303Z'
-    LastModifiedDate: '2026-07-08T03:37:21.637Z'
+    LastModifiedDate: '2026-08-21T13:16:49.99Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: libblkid@2.37.4-25.el9.x86_64
     PkgName: libblkid
@@ -5688,7 +5705,7 @@
     - https://github.com/advisories/GHSA-32xh-3x3c-6g6h
     - https://hackerone.com/reports/3718195
     - https://linux.oracle.com/cve/CVE-2026-8286.html
-    - https://linux.oracle.com/errata/ELSA-2026-55450.html
+    - https://linux.oracle.com/errata/ELSA-2026-57462.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-8286
     - https://ubuntu.com/security/notices/USN-8487-1
     - https://www.cve.org/CVERecord?id=CVE-2026-8286
@@ -7569,7 +7586,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-13595
     - https://www.cve.org/CVERecord?id=CVE-2026-13595
     PublishedDate: '2026-06-29T09:16:28.303Z'
-    LastModifiedDate: '2026-07-08T03:37:21.637Z'
+    LastModifiedDate: '2026-08-21T13:16:49.99Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: libmount@2.37.4-25.el9.x86_64
     PkgName: libmount
@@ -7756,7 +7773,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-13595
     - https://www.cve.org/CVERecord?id=CVE-2026-13595
     PublishedDate: '2026-06-29T09:16:28.303Z'
-    LastModifiedDate: '2026-07-08T03:37:21.637Z'
+    LastModifiedDate: '2026-08-21T13:16:49.99Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: libsmartcols@2.37.4-25.el9.x86_64
     PkgName: libsmartcols
@@ -8053,7 +8070,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-13595
     - https://www.cve.org/CVERecord?id=CVE-2026-13595
     PublishedDate: '2026-06-29T09:16:28.303Z'
-    LastModifiedDate: '2026-07-08T03:37:21.637Z'
+    LastModifiedDate: '2026-08-21T13:16:49.99Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: libuuid@2.37.4-25.el9.x86_64
     PkgName: libuuid
@@ -8142,7 +8159,7 @@
     - https://ubuntu.com/security/notices/USN-7974-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0990
     PublishedDate: '2026-01-15T15:15:52.503Z'
-    LastModifiedDate: '2026-06-30T20:18:46.463Z'
+    LastModifiedDate: '2026-08-21T12:16:21.033Z'
   - VulnerabilityID: CVE-2026-11979
     PkgID: libxml2@2.9.13-14.el9_8.2.x86_64
     PkgName: libxml2
@@ -8227,7 +8244,7 @@
     - https://ubuntu.com/security/notices/USN-8460-1
     - https://www.cve.org/CVERecord?id=CVE-2026-1757
     PublishedDate: '2026-02-02T13:15:58.58Z'
-    LastModifiedDate: '2026-06-17T10:16:28.01Z'
+    LastModifiedDate: '2026-08-21T12:16:25.337Z'
   - VulnerabilityID: CVE-2026-6653
     PkgID: libxml2@2.9.13-14.el9_8.2.x86_64
     PkgName: libxml2
@@ -8468,7 +8485,7 @@
     - https://ubuntu.com/security/notices/USN-7974-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0989
     PublishedDate: '2026-01-15T15:15:52.35Z'
-    LastModifiedDate: '2026-06-30T20:20:47.89Z'
+    LastModifiedDate: '2026-08-21T13:16:47.08Z'
   - VulnerabilityID: CVE-2026-0992
     PkgID: libxml2@2.9.13-14.el9_8.2.x86_64
     PkgName: libxml2
@@ -8512,7 +8529,7 @@
     - https://ubuntu.com/security/notices/USN-7974-1
     - https://www.cve.org/CVERecord?id=CVE-2026-0992
     PublishedDate: '2026-01-15T15:15:52.657Z'
-    LastModifiedDate: '2026-06-30T20:17:25.733Z'
+    LastModifiedDate: '2026-08-21T13:16:47.243Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: ncurses-base@6.2-12.20210508.el9.noarch
     PkgName: ncurses-base
@@ -10853,6 +10870,7 @@
     - CWE-674
     VendorSeverity:
       alma: 2
+      azure: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -10882,7 +10900,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-13757
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
-    LastModifiedDate: '2026-08-13T21:17:40.737Z'
+    LastModifiedDate: '2026-08-21T13:16:51.2Z'
   - VulnerabilityID: CVE-2026-13757
     VendorIDs:
     - RHSA-2026:49667
@@ -10907,6 +10925,7 @@
     - CWE-674
     VendorSeverity:
       alma: 2
+      azure: 2
       oracle-oval: 2
       redhat: 2
       rocky: 2
@@ -10936,7 +10955,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-13757
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
-    LastModifiedDate: '2026-08-13T21:17:40.737Z'
+    LastModifiedDate: '2026-08-21T13:16:51.2Z'
   - VulnerabilityID: CVE-2026-12610
     PkgID: pam@1.5.1-28.el9.x86_64
     PkgName: pam
@@ -10971,7 +10990,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-12610
     - https://www.cve.org/CVERecord?id=CVE-2026-12610
     PublishedDate: '2026-06-30T10:16:34.397Z'
-    LastModifiedDate: '2026-06-30T20:08:54.443Z'
+    LastModifiedDate: '2026-08-21T13:16:49.187Z'
   - VulnerabilityID: CVE-2026-54411
     PkgID: pam@1.5.1-28.el9.x86_64
     PkgName: pam
@@ -12097,6 +12116,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 2
       bitnami: 2
       nvd: 3
       oracle-oval: 3
@@ -13522,6 +13542,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 2
       bitnami: 2
       nvd: 3
       oracle-oval: 3
@@ -14947,6 +14968,7 @@
     VendorSeverity:
       alma: 3
       amazon: 3
+      azure: 2
       bitnami: 2
       nvd: 3
       oracle-oval: 3
@@ -15948,7 +15970,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-44604
     - https://www.cve.org/CVERecord?id=CVE-2026-44604
     PublishedDate: '2026-05-28T08:16:35.28Z'
-    LastModifiedDate: '2026-06-23T20:16:47.473Z'
+    LastModifiedDate: '2026-08-21T13:18:01.347Z'
   - VulnerabilityID: CVE-2026-44605
     PkgID: rpm@4.16.1.3-40.el9.x86_64
     PkgName: rpm
@@ -16016,7 +16038,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-44604
     - https://www.cve.org/CVERecord?id=CVE-2026-44604
     PublishedDate: '2026-05-28T08:16:35.28Z'
-    LastModifiedDate: '2026-06-23T20:16:47.473Z'
+    LastModifiedDate: '2026-08-21T13:18:01.347Z'
   - VulnerabilityID: CVE-2026-44605
     PkgID: rpm-libs@4.16.1.3-40.el9.x86_64
     PkgName: rpm-libs
@@ -16210,7 +16232,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-4105
     - https://www.cve.org/CVERecord?id=CVE-2026-4105
     PublishedDate: '2026-03-13T19:55:13.673Z'
-    LastModifiedDate: '2026-06-17T10:55:59.567Z'
+    LastModifiedDate: '2026-08-21T13:18:09.353Z'
   - VulnerabilityID: CVE-2005-2541
     PkgID: tar@1.34-11.el9.x86_64
     PkgName: tar
