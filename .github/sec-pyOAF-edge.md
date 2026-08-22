@@ -21,8 +21,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:ee092add2cdf9842bd1c7dfdd1f9ea58d91a88bce4f0851ef6cd7
-│                       │      │                   ca9f4e34865 
+│                       │      ├ Fingerprint     : sha256:fe6ebca4054bf9111745eb206a1a124f65e4544012129967d6446
+│                       │      │                   feb7dbc977a 
 │                       │      ├ Title           : Little CMS: lcms2: mm2/Little-CMS: Little CMS: Information
 │                       │      │                   disclosure or denial of service via integer overflow in
 │                       │      │                   CubeSize 
@@ -171,8 +171,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:a60ce9d9b542006daa2eae947218bbf693971081bcf3152b1e765
-│                       │      │                   443b5b63693 
+│                       │      ├ Fingerprint     : sha256:2c7a2df6e1030fc30ca9a585664191c82a38b8c8073f5e89b2633
+│                       │      │                   986335f5b04 
 │                       │      ├ Title           : openjdk: Enhance Jar handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -274,8 +274,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:3a95f0e3611c13dc147e4185b85cc1a5c21ec00d8437adef4d2ea
-│                       │      │                   088de50cbf4 
+│                       │      ├ Fingerprint     : sha256:e035c56b5b474cb8db254b193c5c5717955d75aa4be99467debd6
+│                       │      │                   e3ea66706fe 
 │                       │      ├ Title           : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Orac ... 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -329,8 +329,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c92acde29ca16449510b87882680939b55f3989e54d794e55f1b2
-│                       │      │                   999b5d0b19d 
+│                       │      ├ Fingerprint     : sha256:9fd74d8ace5a386c23ccace7c6cf90c15b22d7c4e2cff3c682ba5
+│                       │      │                   05cae3064ae 
 │                       │      ├ Title           : openjdk: Improve DTLS handshaking (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -428,8 +428,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:ba8047e880286ba8720ea93a47ba8cd9530d834b8976154e8873b
-│                       │      │                   db59f8244b1 
+│                       │      ├ Fingerprint     : sha256:23ef48423364b993af58e10d7d32a0897fd38125ef3b963cc5b7f
+│                       │      │                   3b19758ac73 
 │                       │      ├ Title           : openjdk: Enhance TLS certificate handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: JSSE). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -524,8 +524,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:218735ef406d2f5c837914ebe77c213d471c161c8fa117e60c749
-│                       │      │                   164d7c1ddd0 
+│                       │      ├ Fingerprint     : sha256:30838385fc0109ab055be5ffb9ed2097c74524fb84c71201fb7b3
+│                       │      │                   e81d5b2a080 
 │                       │      ├ Title           : openjdk: Enhance XBM image support (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -626,8 +626,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:352d4d3ba863deb3c53b4ef11e81a7a013a2ab5cd8128afac9925
-│                       │      │                   301847b071a 
+│                       │      ├ Fingerprint     : sha256:c44d5b3c4727431a9a5584fa7eba38c1d68a9d6b942bb793c7ef9
+│                       │      │                   c46bd398939 
 │                       │      ├ Title           : openjdk: Enhance Jar file processing (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Libraries). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -725,8 +725,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:a0318a19008659179255ca2808a8b10003f0911f880343183c015
-│                       │      │                   fabdf220d09 
+│                       │      ├ Fingerprint     : sha256:b22141e56f08623f0d6481c535a33079d22eff34d9048b282d97c
+│                       │      │                   4409fce2d4d 
 │                       │      ├ Title           : openjdk: Improve certification checking (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -831,8 +831,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:0ddf1a94b105b48b26a9c8cf62f2b3f6d59dd3a6c782862c4ab05
-│                       │      │                   e70d19e04ad 
+│                       │      ├ Fingerprint     : sha256:5739139503446b56c0dd0370f8cb7039517b39c5d27ff85c487ab
+│                       │      │                   5503aa20ba0 
 │                       │      ├ Title           : openjdk: Enhance JPEG handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -933,8 +933,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:69c95735c5d7d3a65e85e86accf6efc279af4cc8f53e49fce1d0d
-│                       │      │                   eeff67106ec 
+│                       │      ├ Fingerprint     : sha256:e5ce738f13dca0c951115f202fe8235db6f424113d39c3b69a503
+│                       │      │                   d5f4d06f457 
 │                       │      ├ Title           : openjdk: Enhance AWT ImagingLib (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1037,8 +1037,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:f75c6a82dc44c8a2090522f2860919960538ef19b77886e6b6982
-│                       │      │                   dd5c541dfe3 
+│                       │      ├ Fingerprint     : sha256:db7630dad13a3a070bfcf2b632edb72f607151ef350f7c94b53da
+│                       │      │                   029ce60204b 
 │                       │      ├ Title           : Little CMS: lcms2: mm2/Little-CMS: Little CMS: Information
 │                       │      │                   disclosure or denial of service via integer overflow in
 │                       │      │                   CubeSize 
@@ -1187,8 +1187,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:f057fed092d0e847d99a61c9f9b01dc627191e81a34307e27b30d
-│                       │      │                   861a3f489b8 
+│                       │      ├ Fingerprint     : sha256:732e556fb024b7c4bd8e374fd49bde3601bb3285374480b30ecc4
+│                       │      │                   2f387e6e5af 
 │                       │      ├ Title           : openjdk: Enhance Jar handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1290,8 +1290,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:8057d3e3d3edb2df1370117a148ad67ba624c1d8a4f32663e74f0
-│                       │      │                   709f8dcd6f8 
+│                       │      ├ Fingerprint     : sha256:021d1a287d93e016bd8cd69a7a9c3c03995eb3f6e55fe88cc75d8
+│                       │      │                   1b8b9669ee7 
 │                       │      ├ Title           : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Orac ... 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -1345,8 +1345,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:fcc60007dc66c880aaccb81d0be8e3e1910df729f6c991da765e3
-│                       │      │                   8b7bb18478b 
+│                       │      ├ Fingerprint     : sha256:b58c25622ad76bd1b34cf25c3b61fc83a5bc5a15c7df7c02f390e
+│                       │      │                   a459b88e659 
 │                       │      ├ Title           : openjdk: Improve DTLS handshaking (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1444,8 +1444,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:eb2db453dfcdf1c524a331884c5d027611110f2ab2740ccfe74f7
-│                       │      │                   dc517509431 
+│                       │      ├ Fingerprint     : sha256:2e9d59a263ed055318b05abe70887d672f1951eaa0abc642ade1c
+│                       │      │                   fccf3b84003 
 │                       │      ├ Title           : openjdk: Enhance TLS certificate handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: JSSE). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -1540,8 +1540,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:97224c0b039497f298e1b4a22c3f3a788184ee47c3e6bbad83470
-│                       │      │                   ab8bea014f5 
+│                       │      ├ Fingerprint     : sha256:2dfbd3193561ff163297cdd7d9b95c6654293945b997639651f63
+│                       │      │                   016b7f3211e 
 │                       │      ├ Title           : openjdk: Enhance XBM image support (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1642,8 +1642,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:fe87aa517be0dd96c2334cf7aebeb007e9827a6221660587dce35
-│                       │      │                   eb638f4de67 
+│                       │      ├ Fingerprint     : sha256:57cca1bd5ad40bc661c9ad8d253f24e0eda205194a38bb6d26e2a
+│                       │      │                   914d25ff61c 
 │                       │      ├ Title           : openjdk: Enhance Jar file processing (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Libraries). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -1741,8 +1741,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:d17a89f13831557f5634d57354d92fa6f77b0d8ecc92402ff2def
-│                       │      │                   a12fdecee0a 
+│                       │      ├ Fingerprint     : sha256:076f2d599af6e092dc3b3af8772ad0b8f8ab76364e8bec338a1b8
+│                       │      │                   239a7b58da5 
 │                       │      ├ Title           : openjdk: Improve certification checking (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1847,8 +1847,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:ed7163a999a356dd6909ceed3b04269d6a408615f019378bc2748
-│                       │      │                   f9b4e666f08 
+│                       │      ├ Fingerprint     : sha256:fad68cfedbd9466cdd32b02dfa68c9b1cd14f1adcb5397c97b28c
+│                       │      │                   3c0853f0249 
 │                       │      ├ Title           : openjdk: Enhance JPEG handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1949,8 +1949,8 @@
 │                              ├ DataSource       ╭ ID  : alpine 
 │                              │                  ├ Name: Alpine Secdb 
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                              ├ Fingerprint     : sha256:5cf37105727ab6610cca11e555ae96453c220a8442f1e687b33d1
-│                              │                   72c37dbbb55 
+│                              ├ Fingerprint     : sha256:7a213d62029a7f0025890616da566e2fe98cd79dfd258a8bda527
+│                              │                   0443e1b5c2b 
 │                              ├ Title           : openjdk: Enhance AWT ImagingLib (Oracle CPU 2026-07) 
 │                              ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                              │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
