@@ -138,7 +138,7 @@
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-3184      
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
-│                       │      ╰ LastModifiedDate: 2026-07-21T19:10:00.107Z 
+│                       │      ╰ LastModifiedDate: 2026-08-21T13:17:47.457Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2026-11856 
 │                       │      ├ PkgID           : curl@8.18.0-1ubuntu2.3 
 │                       │      ├ PkgName         : curl 
@@ -335,7 +335,7 @@
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-3184      
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
-│                       │      ╰ LastModifiedDate: 2026-07-21T19:10:00.107Z 
+│                       │      ╰ LastModifiedDate: 2026-08-21T13:17:47.457Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2026-11856 
 │                       │      ├ PkgID           : libcurl4t64@8.18.0-1ubuntu2.3 
 │                       │      ├ PkgName         : libcurl4t64 
@@ -661,7 +661,7 @@
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-3184      
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
-│                       │      ╰ LastModifiedDate: 2026-07-21T19:10:00.107Z 
+│                       │      ╰ LastModifiedDate: 2026-08-21T13:17:47.457Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2026-13757 
 │                       │      ├ PkgID           : libp11-kit0@0.26.2-2 
 │                       │      ├ PkgName         : libp11-kit0 
@@ -700,6 +700,7 @@
 │                       │      │                  CWE-674
 │                       │      │                  
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 2 
 │                       │      │                  ├ redhat     : 2 
 │                       │      │                  ├ rocky      : 2 
@@ -730,7 +731,7 @@
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-13757              
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-06-29T19:16:40.907Z 
-│                       │      ╰ LastModifiedDate: 2026-08-13T21:17:40.737Z 
+│                       │      ╰ LastModifiedDate: 2026-08-21T13:16:51.2Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │      ├ PkgID           : libsmartcols1@2.41.3-3ubuntu2 
 │                       │      ├ PkgName         : libsmartcols1 
@@ -866,7 +867,7 @@
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-3184      
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
-│                       │      ╰ LastModifiedDate: 2026-07-21T19:10:00.107Z 
+│                       │      ╰ LastModifiedDate: 2026-08-21T13:17:47.457Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2026-15059 
 │                       │      ├ PkgID           : libsystemd0@259.5-0ubuntu3 
 │                       │      ├ PkgName         : libsystemd0 
@@ -1386,7 +1387,7 @@
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-3184      
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
-│                       │      ╰ LastModifiedDate: 2026-07-21T19:10:00.107Z 
+│                       │      ╰ LastModifiedDate: 2026-08-21T13:17:47.457Z 
 │                       ├ [23] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │      ├ PkgID           : login@1:4.16.0-2+really2.41.3-3ubuntu2 
 │                       │      ├ PkgName         : login 
@@ -1522,7 +1523,7 @@
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-3184      
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
-│                       │      ╰ LastModifiedDate: 2026-07-21T19:10:00.107Z 
+│                       │      ╰ LastModifiedDate: 2026-08-21T13:17:47.457Z 
 │                       ├ [25] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : login.defs@1:4.17.4-2ubuntu3 
 │                       │      ├ PkgName         : login.defs 
@@ -1731,7 +1732,7 @@
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-3184      
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
-│                       │      ╰ LastModifiedDate: 2026-07-21T19:10:00.107Z 
+│                       │      ╰ LastModifiedDate: 2026-08-21T13:17:47.457Z 
 │                       ├ [28] ╭ VulnerabilityID : CVE-2024-56433 
 │                       │      ├ PkgID           : passwd@1:4.17.4-2ubuntu3 
 │                       │      ├ PkgName         : passwd 
@@ -1767,7 +1768,7 @@
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs                   
 │                       │      │                  ────────
-│                       │      │                  CWE-125 
+│                       │      │                  CWE-1188
 │                       │      │                  
 │                       │      ├ VendorSeverity   ╭ alma       : 1 
 │                       │      │                  ├ azure      : 1 
@@ -2948,7 +2949,7 @@
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-3184      
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
-│                       │      ╰ LastModifiedDate: 2026-07-21T19:10:00.107Z 
+│                       │      ╰ LastModifiedDate: 2026-08-21T13:17:47.457Z 
 │                       ╰ [51] ╭ VulnerabilityID : CVE-2026-27171 
 │                              ├ PkgID           : zlib1g@1:1.3.dfsg+really1.3.1-1ubuntu3 
 │                              ├ PkgName         : zlib1g 
@@ -3281,7 +3282,7 @@
                         │      │                                                                               
                         │      │                  
                         │      ├ PublishedDate   : 2026-05-07T20:16:42.88Z 
-                        │      ╰ LastModifiedDate: 2026-08-20T13:17:52.177Z 
+                        │      ╰ LastModifiedDate: 2026-08-21T13:17:27.867Z 
                         ├ [3]  ╭ VulnerabilityID : CVE-2026-39821 
                         │      ├ VendorIDs                    
                         │      │                  ────────────
@@ -3453,6 +3454,7 @@
                         │      │                  https://access.redhat.com/errata/RHSA-2026:56340             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:56431             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:57194             
+                        │      │                  https://access.redhat.com/errata/RHSA-2026:57541             
                         │      │                  https://access.redhat.com/security/cve/CVE-2026-39821        
                         │      │                  https://bugzilla.redhat.com/2480756                          
                         │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2480756          
@@ -3479,7 +3481,7 @@
                         │      │                                                                               
                         │      │                  
                         │      ├ PublishedDate   : 2026-05-22T16:16:20.41Z 
-                        │      ╰ LastModifiedDate: 2026-08-20T13:18:12.15Z 
+                        │      ╰ LastModifiedDate: 2026-08-21T13:17:38.087Z 
                         ├ [4]  ╭ VulnerabilityID : CVE-2026-46600 
                         │      ├ VendorIDs                    
                         │      │                  ────────────
@@ -3512,7 +3514,8 @@
                         │      │                  ───────
                         │      │                  CWE-125
                         │      │                  
-                        │      ├ VendorSeverity   ╭ bitnami: 3 
+                        │      ├ VendorSeverity   ╭ azure  : 2 
+                        │      │                  ├ bitnami: 3 
                         │      │                  ╰ redhat : 3 
                         │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
                         │      │                  │         │           N/A:H 
@@ -4069,6 +4072,7 @@
                         │      │                  https://access.redhat.com/errata/RHSA-2026:56340             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:56431             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:57194             
+                        │      │                  https://access.redhat.com/errata/RHSA-2026:57541             
                         │      │                  https://access.redhat.com/security/cve/CVE-2026-39821        
                         │      │                  https://bugzilla.redhat.com/2480756                          
                         │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2480756          
@@ -4095,7 +4099,7 @@
                         │      │                                                                               
                         │      │                  
                         │      ├ PublishedDate   : 2026-05-22T16:16:20.41Z 
-                        │      ╰ LastModifiedDate: 2026-08-20T13:18:12.15Z 
+                        │      ╰ LastModifiedDate: 2026-08-21T13:17:38.087Z 
                         ├ [13] ╭ VulnerabilityID : CVE-2026-39822 
                         │      ├ VendorIDs                    
                         │      │                  ────────────
@@ -4198,7 +4202,8 @@
                         │      │                  ───────
                         │      │                  CWE-125
                         │      │                  
-                        │      ├ VendorSeverity   ╭ bitnami: 3 
+                        │      ├ VendorSeverity   ╭ azure  : 2 
+                        │      │                  ├ bitnami: 3 
                         │      │                  ╰ redhat : 3 
                         │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
                         │      │                  │         │           N/A:H 
