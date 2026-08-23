@@ -446,8 +446,8 @@
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2025-66382        
 │                       │      │                  https://cert-portal.siemens.com/productcert/html/ssa-082556.h
 │                       │      │                  tml                                                          
-│                       │      │                  https://cert-portal.siemens.com/productcert/html/ssa-253495.h
-│                       │      │                  tml                                                          
+│                       │      │                  GO-2026-5942                                                 
+│                       │      │                                                                               
 │                       │      │                  https://github.com/libexpat/libexpat/issues/1076             
 │                       │      │                                                                               
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2025-66382              
