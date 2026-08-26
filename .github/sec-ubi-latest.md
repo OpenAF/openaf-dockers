@@ -591,7 +591,8 @@
 │                       │       │                  CWE-125
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ julia : 2 
-│                       │       │                  ╰ redhat: 2 
+│                       │       │                  ├ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ╭ julia  ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:A/VC:L
 │                       │       │                  │        │            /VI:N/VA:L/SC:N/SI:N/SA:N 
 │                       │       │                  │        ╰ V40Score : 4.6 
@@ -611,6 +612,8 @@
 │                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-56391             
 │                       │       │                                                                              
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-56391             
+│                       │       │                                                                              
+│                       │       │                  https://www.openwall.com/lists/oss-security/2026/07/25/2    
 │                       │       │                                                                              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-07-24T09:16:25.003Z 
@@ -4259,6 +4262,7 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:42329             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:55440             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:57015             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:58981             
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-15588        
 │                       │       │                  https://bugzilla.redhat.com/2492243                          
 │                       │       │                  https://bugzilla.redhat.com/2492245                          
@@ -4291,7 +4295,7 @@
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-15588              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-07-20T12:17:55.22Z 
-│                       │       ╰ LastModifiedDate: 2026-08-21T13:16:52.86Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T10:18:03.887Z 
 │                       ├ [62]  ╭ VulnerabilityID : CVE-2026-16118 
 │                       │       ├ PkgID           : glib2@2.68.4-19.el9_8.2.x86_64 
 │                       │       ├ PkgName         : glib2 
@@ -4398,6 +4402,7 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:49512             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:55440             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:57015             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:58981             
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-58010        
 │                       │       │                  https://bugzilla.redhat.com/2492243                          
 │                       │       │                  https://bugzilla.redhat.com/2492245                          
@@ -4431,7 +4436,7 @@
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-58010              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-30T13:19:17.067Z 
-│                       │       ╰ LastModifiedDate: 2026-08-19T18:16:45.697Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T10:18:10.893Z 
 │                       ├ [64]  ╭ VulnerabilityID : CVE-2026-58011 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
@@ -4489,6 +4494,7 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:49512             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:55440             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:57015             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:58981             
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-58011        
 │                       │       │                  https://bugzilla.redhat.com/2492243                          
 │                       │       │                  https://bugzilla.redhat.com/2492245                          
@@ -4523,7 +4529,7 @@
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-58011              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-30T13:19:17.2Z 
-│                       │       ╰ LastModifiedDate: 2026-08-19T18:16:45.863Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T10:18:11.093Z 
 │                       ├ [65]  ╭ VulnerabilityID : CVE-2026-58012 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
@@ -4583,6 +4589,7 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:49512             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:55440             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:57015             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:58981             
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-58012        
 │                       │       │                  https://bugzilla.redhat.com/2492243                          
 │                       │       │                  https://bugzilla.redhat.com/2492245                          
@@ -4616,7 +4623,7 @@
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-58012              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-30T13:19:17.33Z 
-│                       │       ╰ LastModifiedDate: 2026-08-19T18:16:46.03Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T10:18:11.273Z 
 │                       ├ [66]  ╭ VulnerabilityID : CVE-2026-58013 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
@@ -4674,6 +4681,7 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:49512             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:55440             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:57015             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:58981             
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-58013        
 │                       │       │                  https://bugzilla.redhat.com/2492243                          
 │                       │       │                  https://bugzilla.redhat.com/2492245                          
@@ -4707,7 +4715,7 @@
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-58013              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-30T13:19:17.457Z 
-│                       │       ╰ LastModifiedDate: 2026-08-19T18:16:46.19Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T10:18:11.463Z 
 │                       ├ [67]  ╭ VulnerabilityID : CVE-2026-58014 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
@@ -4764,6 +4772,7 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:49512             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:55440             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:57015             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:58981             
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-58014        
 │                       │       │                  https://bugzilla.redhat.com/2492243                          
 │                       │       │                  https://bugzilla.redhat.com/2492245                          
@@ -4797,7 +4806,7 @@
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-58014              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-30T13:19:17.58Z 
-│                       │       ╰ LastModifiedDate: 2026-08-19T18:16:46.337Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T10:18:11.64Z 
 │                       ├ [68]  ╭ VulnerabilityID : CVE-2026-58015 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
@@ -4857,6 +4866,7 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:49512             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:55440             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:57015             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:58981             
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-58015        
 │                       │       │                  https://bugzilla.redhat.com/2492243                          
 │                       │       │                  https://bugzilla.redhat.com/2492245                          
@@ -4890,7 +4900,7 @@
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-58015              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-30T13:19:17.707Z 
-│                       │       ╰ LastModifiedDate: 2026-08-19T18:16:46.483Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T10:18:11.823Z 
 │                       ├ [69]  ╭ VulnerabilityID : CVE-2023-32636 
 │                       │       ├ PkgID           : glib2@2.68.4-19.el9_8.2.x86_64 
 │                       │       ├ PkgName         : glib2 
@@ -5552,63 +5562,46 @@
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22020 
 │                       │       ├ Fingerprint     : sha256:239460281edd1918667c8c9234bab36205ebb3247dda5006d50f
 │                       │       │                   b01c8095a2ac 
-│                       │       ├ Title           : openjdk: Update LibPNG (Oracle CPU 2026-04) 
-│                       │       ├ Description     : No description is available for this CVE. 
+│                       │       ├ Title           : libpng: Update LibPNG (Oracle CPU 2026-04) 
+│                       │       ├ Description     : This CVE was rejected by the owning CNA. 
 │                       │       ├ Severity        : HIGH 
 │                       │       ├ VendorSeverity   ╭ redhat: 3 
 │                       │       │                  ╰ rocky : 3 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
 │                       │       │                           │           H/A:H 
 │                       │       │                           ╰ V3Score : 7.1 
-│                       │       ╰ References                                                                   
-│                       │                          ────────────────────────────────────────────────────────────
-│                       │                          https://access.redhat.com/errata/RHSA-2026:9686             
-│                       │                          https://access.redhat.com/security/cve/CVE-2026-22020       
-│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2418711         
-│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2438542         
-│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2443891         
-│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2448747         
-│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2460038         
-│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2460039         
-│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2460040         
-│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2460041         
-│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2460042         
-│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2460043         
-│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2460044         
-│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2460045         
-│                       │                          https://creativecommons.org/licenses/by/4.0/                
-│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-6629
-│                       │                          3                                                           
-│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2200
-│                       │                          7                                                           
-│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2201
-│                       │                          3                                                           
-│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2201
-│                       │                          6                                                           
-│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2201
-│                       │                          8                                                           
-│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2202
-│                       │                          0                                                           
-│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2202
-│                       │                          1                                                           
-│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2386
-│                       │                          5                                                           
-│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2564
-│                       │                          6                                                           
-│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-2674
-│                       │                          0                                                           
-│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3426
-│                       │                          8                                                           
-│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3428
-│                       │                          2                                                           
-│                       │                          https://errata.rockylinux.org/RLSA-2026:9686                
-│                       │                                                                                      
-│                       │                          https://nvd.nist.gov/vuln/detail/CVE-2026-22020             
-│                       │                                                                                      
-│                       │                          https://www.cve.org/CVERecord?id=CVE-2026-22020             
-│                       │                                                                                      
-│                       │                          https://www.oracle.com/security-alerts/cpuapr2026.html#Appen
-│                       │                          dixJAVA                                                     
+│                       │       ╰ References                                                                    
+│                       │                          ─────────────────────────────────────────────────────────────
+│                       │                          https://access.redhat.com/errata/RHSA-2026:9686              
+│                       │                          https://access.redhat.com/security/cve/CVE-2026-22020        
+│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2418711          
+│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2438542          
+│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2443891          
+│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2448747          
+│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2460038          
+│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2460039          
+│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2460040          
+│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2460041          
+│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2460042          
+│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2460043          
+│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2460044          
+│                       │                          https://bugzilla.redhat.com/show_bug.cgi?id=2460045          
+│                       │                          https://creativecommons.org/licenses/by/4.0/                 
+│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-66293
+│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22007
+│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22013
+│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22016
+│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22018
+│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22020
+│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-22021
+│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-23865
+│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-25646
+│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-26740
+│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34268
+│                       │                          https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-34282
+│                       │                          https://errata.rockylinux.org/RLSA-2026:9686                 
+│                       │                          https://nvd.nist.gov/vuln/detail/CVE-2026-22020              
+│                       │                          https://www.cve.org/CVERecord?id=CVE-2026-22020              
 │                       │                          
 │                       ├ [81]  ╭ VulnerabilityID : CVE-2025-28164 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.12.0.8-1.2.el9.x86_64 
@@ -5699,7 +5692,7 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-125
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon     : 2 
+│                       │       ├ VendorSeverity   ╭ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ julia      : 2 
@@ -6459,6 +6452,7 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:58558             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:58573             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:58574             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:58981             
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-14164        
 │                       │       │                  https://bugzilla.redhat.com/2493411                          
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2493411          
@@ -6475,7 +6469,7 @@
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-14164              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-30T07:16:32.17Z 
-│                       │       ╰ LastModifiedDate: 2026-08-24T13:17:24.817Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T10:18:03.63Z 
 │                       ├ [94]  ╭ VulnerabilityID : CVE-2026-4426 
 │                       │       ├ PkgID           : libarchive@3.5.3-9.el9_7.x86_64 
 │                       │       ├ PkgName         : libarchive 
@@ -7047,7 +7041,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-54371.html            
 │                       │       │                                                                              
-│                       │       │                  https://linux.oracle.com/errata/ELSA-2026-56133.html        
+│                       │       │                  https://linux.oracle.com/errata/ELSA-2026-59380.html        
 │                       │       │                                                                              
 │                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-54371             
 │                       │       │                                                                              
@@ -14195,6 +14189,7 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:53371             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:54387             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:54760             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:58981             
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-13757        
 │                       │       │                  https://bugzilla.redhat.com/2494556                          
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2494556          
@@ -14209,7 +14204,7 @@
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-13757              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-29T19:16:40.907Z 
-│                       │       ╰ LastModifiedDate: 2026-08-21T13:16:51.2Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T10:18:03.38Z 
 │                       ├ [191] ╭ VulnerabilityID : CVE-2026-13757 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
@@ -14267,6 +14262,7 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:53371             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:54387             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:54760             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:58981             
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-13757        
 │                       │       │                  https://bugzilla.redhat.com/2494556                          
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2494556          
@@ -14281,7 +14277,7 @@
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-13757              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-29T19:16:40.907Z 
-│                       │       ╰ LastModifiedDate: 2026-08-21T13:16:51.2Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T10:18:03.38Z 
 │                       ├ [192] ╭ VulnerabilityID : CVE-2026-12610 
 │                       │       ├ PkgID           : pam@1.5.1-28.el9.x86_64 
 │                       │       ├ PkgName         : pam 
@@ -14391,7 +14387,7 @@
 │                       │       │                  am_userdb/pam_userdb.c#L327                                 
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-54411.html            
 │                       │       │                                                                              
-│                       │       │                  https://linux.oracle.com/errata/ELSA-2026-56131.html        
+│                       │       │                  https://linux.oracle.com/errata/ELSA-2026-59379.html        
 │                       │       │                                                                              
 │                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-54411             
 │                       │       │                                                                              
@@ -14741,13 +14737,14 @@
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:54268            
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:59009            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-11940       
 │                       │       │                  https://bugzilla.redhat.com/2491848                         
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2491848         
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1194
 │                       │       │                  0                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-54268.html         
+│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-59009.html         
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:54268               
 │                       │       │                                                                              
@@ -14771,7 +14768,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-11940.html            
 │                       │       │                                                                              
-│                       │       │                  https://linux.oracle.com/errata/ELSA-2026-58928.html        
+│                       │       │                  https://linux.oracle.com/errata/ELSA-2026-59009.html        
 │                       │       │                                                                              
 │                       │       │                  https://mail.python.org/archives/list/security-announce@pyth
 │                       │       │                  on.org/thread/LD6QIISNQFQYOIEPJNEUIPV7S3V76FZH/             
@@ -14809,7 +14806,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-93
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon : 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
 │                       │       │                  ├ azure  : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ photon : 2 
@@ -15094,7 +15091,7 @@
 │                       │       │                  CWE-93
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
@@ -15227,7 +15224,7 @@
 │                       │       │                  CWE-416
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -15364,7 +15361,7 @@
 │                       │       │                  CWE-93
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -15777,7 +15774,7 @@
 │                       │       │                  CWE-116
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -15908,7 +15905,7 @@
 │                       │       │                  CWE-674
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 3 
@@ -16222,7 +16219,7 @@
 │                       │       │                  CWE-116
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 1 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 3 
@@ -16654,7 +16651,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-22
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ╰ redhat: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
@@ -16745,13 +16742,14 @@
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:54268            
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:59009            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-11940       
 │                       │       │                  https://bugzilla.redhat.com/2491848                         
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2491848         
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1194
 │                       │       │                  0                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-54268.html         
+│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-59009.html         
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:54268               
 │                       │       │                                                                              
@@ -16775,7 +16773,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-11940.html            
 │                       │       │                                                                              
-│                       │       │                  https://linux.oracle.com/errata/ELSA-2026-58928.html        
+│                       │       │                  https://linux.oracle.com/errata/ELSA-2026-59009.html        
 │                       │       │                                                                              
 │                       │       │                  https://mail.python.org/archives/list/security-announce@pyth
 │                       │       │                  on.org/thread/LD6QIISNQFQYOIEPJNEUIPV7S3V76FZH/             
@@ -16813,7 +16811,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-93
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon : 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
 │                       │       │                  ├ azure  : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ photon : 2 
@@ -17098,7 +17096,7 @@
 │                       │       │                  CWE-93
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
@@ -17231,7 +17229,7 @@
 │                       │       │                  CWE-416
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -17368,7 +17366,7 @@
 │                       │       │                  CWE-93
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -17781,7 +17779,7 @@
 │                       │       │                  CWE-116
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -17912,7 +17910,7 @@
 │                       │       │                  CWE-674
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 3 
@@ -18226,7 +18224,7 @@
 │                       │       │                  CWE-116
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 1 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 3 
@@ -18658,7 +18656,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-22
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ╰ redhat: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
@@ -18749,13 +18747,14 @@
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:54268            
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:59009            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-11940       
 │                       │       │                  https://bugzilla.redhat.com/2491848                         
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2491848         
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1194
 │                       │       │                  0                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-54268.html         
+│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-59009.html         
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:54268               
 │                       │       │                                                                              
@@ -18779,7 +18778,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-11940.html            
 │                       │       │                                                                              
-│                       │       │                  https://linux.oracle.com/errata/ELSA-2026-58928.html        
+│                       │       │                  https://linux.oracle.com/errata/ELSA-2026-59009.html        
 │                       │       │                                                                              
 │                       │       │                  https://mail.python.org/archives/list/security-announce@pyth
 │                       │       │                  on.org/thread/LD6QIISNQFQYOIEPJNEUIPV7S3V76FZH/             
@@ -18817,7 +18816,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-93
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon : 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
 │                       │       │                  ├ azure  : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ photon : 2 
@@ -19102,7 +19101,7 @@
 │                       │       │                  CWE-93
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
@@ -19235,7 +19234,7 @@
 │                       │       │                  CWE-416
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -19372,7 +19371,7 @@
 │                       │       │                  CWE-93
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -19785,7 +19784,7 @@
 │                       │       │                  CWE-116
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -19916,7 +19915,7 @@
 │                       │       │                  CWE-674
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 3 
@@ -20230,7 +20229,7 @@
 │                       │       │                  CWE-116
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 1 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 3 
@@ -20662,7 +20661,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-22
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ╰ redhat: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
@@ -21312,7 +21311,7 @@
 │                       │       │                                                                              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2021-11-10T18:15:09.51Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T04:05:21.91Z 
+│                       │       ╰ LastModifiedDate: 2026-08-25T16:28:27.31Z 
 │                       ├ [266] ╭ VulnerabilityID : CVE-2026-44604 
 │                       │       ├ PkgID           : rpm@4.16.1.3-40.el9.x86_64 
 │                       │       ├ PkgName         : rpm 
