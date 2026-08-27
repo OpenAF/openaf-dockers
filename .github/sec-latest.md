@@ -399,6 +399,8 @@
 │                       │      │                                                                               
 │                       │      │                  https://ubuntu.com/security/notices/USN-8678-1               
 │                       │      │                                                                               
+│                       │      │                  https://ubuntu.com/security/notices/USN-8678-2               
+│                       │      │                                                                               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-63076              
 │                       │      │                                                                               
 │                       │      │                  
@@ -808,6 +810,8 @@
 │                       │      │                  https://openssl-library.org/news/secadv/20260825.txt         
 │                       │      │                                                                               
 │                       │      │                  https://ubuntu.com/security/notices/USN-8678-1               
+│                       │      │                                                                               
+│                       │      │                  https://ubuntu.com/security/notices/USN-8678-2               
 │                       │      │                                                                               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-63074              
 │                       │      │                                                                               
@@ -1387,6 +1391,8 @@
 │                       │      │                                                                               
 │                       │      │                  https://ubuntu.com/security/notices/USN-8678-1               
 │                       │      │                                                                               
+│                       │      │                  https://ubuntu.com/security/notices/USN-8678-2               
+│                       │      │                                                                               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-63076              
 │                       │      │                                                                               
 │                       │      │                  
@@ -1797,6 +1803,8 @@
 │                       │      │                                                                               
 │                       │      │                  https://ubuntu.com/security/notices/USN-8678-1               
 │                       │      │                                                                               
+│                       │      │                  https://ubuntu.com/security/notices/USN-8678-2               
+│                       │      │                                                                               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-63074              
 │                       │      │                                                                               
 │                       │      │                  
@@ -2183,7 +2191,8 @@
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 3 
-│                       │      │                  ╰ rocky      : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                  │         │           H/A:N 
 │                       │      │                  │         ╰ V3Score : 7.5 
@@ -2228,6 +2237,11 @@
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-42899.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-47063               
 │                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-07-21
+│                       │      │                  https://ubuntu.com/security/notices/USN-8673-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8674-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47063               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -2337,7 +2351,8 @@
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
-│                       │      │                  ╰ rocky      : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                  │         │           N/A:L 
 │                       │      │                  │         ╰ V3Score : 5.3 
@@ -2382,6 +2397,10 @@
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-42899.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-46917               
 │                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-07-21
+│                       │      │                  https://ubuntu.com/security/notices/USN-8674-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-46917               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -2433,7 +2452,8 @@
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
-│                       │      │                  ╰ rocky      : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                  │         │           H/A:N 
 │                       │      │                  │         ╰ V3Score : 5.9 
@@ -2478,6 +2498,11 @@
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-42899.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-46968               
 │                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-07-21
+│                       │      │                  https://ubuntu.com/security/notices/USN-8673-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8674-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-46968               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -2535,7 +2560,8 @@
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
-│                       │      │                  ╰ rocky      : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                  │         │           N/A:L 
 │                       │      │                  │         ╰ V3Score : 5.3 
@@ -2580,6 +2606,11 @@
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-42899.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-47021               
 │                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-07-21
+│                       │      │                  https://ubuntu.com/security/notices/USN-8673-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8674-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47021               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -2634,7 +2665,8 @@
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
-│                       │      │                  ╰ rocky      : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                  │         │           N/A:L 
 │                       │      │                  │         ╰ V3Score : 5.3 
@@ -2679,6 +2711,11 @@
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-42899.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-47027               
 │                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-07-21
+│                       │      │                  https://ubuntu.com/security/notices/USN-8673-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8674-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47027               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -2740,7 +2777,8 @@
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
-│                       │      │                  ╰ rocky      : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
 │                       │      │                  │         │           L/A:N 
 │                       │      │                  │         ╰ V3Score : 6.5 
@@ -2785,6 +2823,11 @@
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-42899.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-60147               
 │                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-07-21
+│                       │      │                  https://ubuntu.com/security/notices/USN-8673-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8674-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-60147               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -2842,7 +2885,8 @@
 │                       │      │                  ├ bitnami    : 1 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
-│                       │      │                  ╰ rocky      : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                  │         │           L/A:N 
 │                       │      │                  │         ╰ V3Score : 3.7 
@@ -2887,6 +2931,11 @@
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-42899.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-47010               
 │                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-07-21
+│                       │      │                  https://ubuntu.com/security/notices/USN-8673-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8674-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47010               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -2945,7 +2994,8 @@
 │                       │      │                  ├ bitnami    : 1 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
-│                       │      │                  ╰ rocky      : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                  │         │           N/A:L 
 │                       │      │                  │         ╰ V3Score : 3.7 
@@ -2990,6 +3040,11 @@
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-42899.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-47059               
 │                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-07-21
+│                       │      │                  https://ubuntu.com/security/notices/USN-8673-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8674-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47059               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3199,7 +3254,8 @@
 │                       │      │                  ├ bitnami    : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 3 
-│                       │      │                  ╰ rocky      : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                  │         │           H/A:N 
 │                       │      │                  │         ╰ V3Score : 7.5 
@@ -3244,6 +3300,11 @@
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-42899.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-47063               
 │                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-07-21
+│                       │      │                  https://ubuntu.com/security/notices/USN-8673-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8674-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47063               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3353,7 +3414,8 @@
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
-│                       │      │                  ╰ rocky      : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                  │         │           N/A:L 
 │                       │      │                  │         ╰ V3Score : 5.3 
@@ -3398,6 +3460,10 @@
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-42899.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-46917               
 │                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-07-21
+│                       │      │                  https://ubuntu.com/security/notices/USN-8674-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-46917               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3449,7 +3515,8 @@
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
-│                       │      │                  ╰ rocky      : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                  │         │           H/A:N 
 │                       │      │                  │         ╰ V3Score : 5.9 
@@ -3494,6 +3561,11 @@
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-42899.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-46968               
 │                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-07-21
+│                       │      │                  https://ubuntu.com/security/notices/USN-8673-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8674-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-46968               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3551,7 +3623,8 @@
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
-│                       │      │                  ╰ rocky      : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                  │         │           N/A:L 
 │                       │      │                  │         ╰ V3Score : 5.3 
@@ -3596,6 +3669,11 @@
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-42899.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-47021               
 │                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-07-21
+│                       │      │                  https://ubuntu.com/security/notices/USN-8673-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8674-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47021               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3650,7 +3728,8 @@
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
-│                       │      │                  ╰ rocky      : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                  │         │           N/A:L 
 │                       │      │                  │         ╰ V3Score : 5.3 
@@ -3695,6 +3774,11 @@
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-42899.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-47027               
 │                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-07-21
+│                       │      │                  https://ubuntu.com/security/notices/USN-8673-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8674-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47027               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3756,7 +3840,8 @@
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
-│                       │      │                  ╰ rocky      : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:
 │                       │      │                  │         │           L/A:N 
 │                       │      │                  │         ╰ V3Score : 6.5 
@@ -3801,6 +3886,11 @@
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-42899.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-60147               
 │                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-07-21
+│                       │      │                  https://ubuntu.com/security/notices/USN-8673-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8674-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-60147               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3858,7 +3948,8 @@
 │                       │      │                  ├ bitnami    : 1 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
-│                       │      │                  ╰ rocky      : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                  │         │           L/A:N 
 │                       │      │                  │         ╰ V3Score : 3.7 
@@ -3903,6 +3994,11 @@
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-42899.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-47010               
 │                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-07-21
+│                       │      │                  https://ubuntu.com/security/notices/USN-8673-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8674-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47010               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3961,7 +4057,8 @@
 │                       │      │                  ├ bitnami    : 1 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
-│                       │      │                  ╰ rocky      : 3 
+│                       │      │                  ├ rocky      : 3 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │      │                  │         │           N/A:L 
 │                       │      │                  │         ╰ V3Score : 3.7 
@@ -4006,6 +4103,11 @@
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-42899.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-47059               
 │                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-07-21
+│                       │      │                  https://ubuntu.com/security/notices/USN-8673-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8674-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47059               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -4406,6 +4508,8 @@
 │                       │      │                  https://openssl-library.org/news/secadv/20260825.txt         
 │                       │      │                                                                               
 │                       │      │                  https://ubuntu.com/security/notices/USN-8678-1               
+│                       │      │                                                                               
+│                       │      │                  https://ubuntu.com/security/notices/USN-8678-2               
 │                       │      │                                                                               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-63076              
 │                       │      │                                                                               
@@ -4816,6 +4920,8 @@
 │                       │      │                  https://openssl-library.org/news/secadv/20260825.txt         
 │                       │      │                                                                               
 │                       │      │                  https://ubuntu.com/security/notices/USN-8678-1               
+│                       │      │                                                                               
+│                       │      │                  https://ubuntu.com/security/notices/USN-8678-2               
 │                       │      │                                                                               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-63074              
 │                       │      │                                                                               
