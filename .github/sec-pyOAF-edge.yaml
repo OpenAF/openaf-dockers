@@ -3,6 +3,77 @@
   Type: alpine
   Packages: []
   Vulnerabilities:
+  - VulnerabilityID: CVE-2026-26740
+    PkgID: giflib@5.2.2-r1
+    PkgName: giflib
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/giflib@5.2.2-r1?arch=x86_64&distro=3.24.1
+      UID: 82fb7ad92099da32
+    InstalledVersion: 5.2.2-r1
+    FixedVersion: 5.2.2-r2
+    Status: fixed
+    Layer:
+      Digest: sha256:e75cbaefc0433d7c5850cec05a6c533ef54d45c191264e4c9f62e347164a4006
+      DiffID: sha256:6fa3fec420de0c2f78798883e529d478f398e7489ffa77bbbb6e1ea62d15f4ee
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-26740
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:a5c24ad249aef6acd6a1b5b8cc21b155c95cc86e8de5b3a60a08ea0419373f5f
+    Title: 'giflib: giflib: Denial of Service via buffer overflow in EGifGCBToExtension'
+    Description: Buffer Overflow vulnerability in giflib v.5.2.2 allows a remote attacker to cause a denial of service via the EGifGCBToExtension overwriting an existing Graphic Control Extension block without validating its allocated size.
+    Severity: HIGH
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      alma: 3
+      amazon: 2
+      julia: 3
+      oracle-oval: 3
+      redhat: 3
+      rocky: 3
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H
+        V3Score: 8.2
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:33447
+    - https://access.redhat.com/errata/RHSA-2026:33450
+    - https://access.redhat.com/errata/RHSA-2026:33451
+    - https://access.redhat.com/errata/RHSA-2026:33452
+    - https://access.redhat.com/errata/RHSA-2026:33455
+    - https://access.redhat.com/errata/RHSA-2026:33456
+    - https://access.redhat.com/errata/RHSA-2026:33501
+    - https://access.redhat.com/errata/RHSA-2026:33502
+    - https://access.redhat.com/errata/RHSA-2026:33503
+    - https://access.redhat.com/errata/RHSA-2026:33509
+    - https://access.redhat.com/errata/RHSA-2026:36004
+    - https://access.redhat.com/errata/RHSA-2026:36005
+    - https://access.redhat.com/errata/RHSA-2026:36006
+    - https://access.redhat.com/errata/RHSA-2026:9683
+    - https://access.redhat.com/errata/RHSA-2026:9686
+    - https://access.redhat.com/errata/RHSA-2026:9689
+    - https://access.redhat.com/errata/RHSA-2026:9693
+    - https://access.redhat.com/security/cve/CVE-2026-26740
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2448747
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-26740
+    - https://errata.almalinux.org/9/ALSA-2026-9693.html
+    - https://errata.rockylinux.org/RLSA-2026:33501
+    - https://github.com/zakkanijia/POC/blob/main/giflib/giftool/giflib_giftool_gce_len_heap_oobwrite_disclosure.md
+    - https://linux.oracle.com/cve/CVE-2026-26740.html
+    - https://linux.oracle.com/errata/ELSA-2026-9693.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-26740
+    - https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-26740.json
+    - https://ubuntu.com/security/notices/USN-8583-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-26740
+    PublishedDate: '2026-03-18T18:16:26.22Z'
+    LastModifiedDate: '2026-07-23T12:17:15.66Z'
   - VulnerabilityID: CVE-2026-14456
     PkgID: libcrypto3@3.5.7-r0
     PkgName: libcrypto3
@@ -20,7 +91,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:d5c1a57ef1238ec1c2c04dfc5c31db5c8be02535b81272718a119ef0c808d835
+    Fingerprint: sha256:0a6ac76aa104775dc1e1ff0bc007eaac186d9406da61db51622281d01eecf2ab
     Title: 'openssl: OpenSSL: Denial of Service via unbounded memory growth in QUIC server'
     Description: |-
       Issue summary: When an OpenSSL QUIC server (Listener SSL object) processes
@@ -94,7 +165,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:7ddd4744c96c61e17d118162cc60c5e55dca6b6a80afa78c336d91b760dacb2c
+    Fingerprint: sha256:5bddf65360d3d6dbe48f91675a6c5c112ced7c785819e8070d9f91c13273cfee
     Title: 'openssl: QUIC server may trigger double free when processing INITIAL packet'
     Description: |-
       Issue summary: QUIC server may double free QRX (QUIC record layer RX) object
@@ -164,7 +235,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:12e32172ce8fd9d00b2c009ae5106fa3ebef6383d546202946e295e93a56b69e
+    Fingerprint: sha256:b100f6bfb45a6c7e6978debe8ea63a345c5d26a3db7a54a82e593add34f40fdb
     Title: 'openssl: heap buffer overflow in CMS key unwrapping'
     Description: |-
       Issue summary: OpenSSL CMS decryption sizes the key-unwrap output buffer based
@@ -239,7 +310,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:bcc9e3a309775bc71a01bb6c665260f1fd3aed71bba80ee8d5677a6521abf71f
+    Fingerprint: sha256:172093d405db9b678a2b0e37b0d5b2b388c4e6c93c8101b93796ac56745373c5
     Title: 'openssl: invalid pointer dereference in CMP server via crafted protectionAlg'
     Description: |-
       Issue summary: OpenSSL CMP password based protection verification only
@@ -316,7 +387,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:062d0a76179a7d0dff1fabf090821acfebfdffbcd0a681f89e948a3af5c5efb6
+    Fingerprint: sha256:d17669281587e6a06b6b0c741fbb9c5ac2354d746eb35ab9e979f270a22ed52e
     Title: 'openssl: RPK server signature algorithm selection can dereference a missing certificate'
     Description: |-
       Issue summary: In a server or client configuration with RFC7250 Raw Public Keys (RPKs)
@@ -386,7 +457,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:9dc5083f5d7e9a8e2d18c54f107ecf4d5658fdf884f44a403ebe2b3c1f507737
+    Fingerprint: sha256:c7ad262131c36b618b80cdd15f7fcb2ae3914252494f6defefd1e556ccc73fc0
     Title: 'openssl: excessive memory use buffering DTLS records for a future epoch'
     Description: |-
       Issue summary: Receiving a DTLS record for a future epoch while a handshake
@@ -488,7 +559,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:6486e22af272138e18a90fe104e979476acb4ef73d9cf46f546fc1bd647b9dcf
+    Fingerprint: sha256:9ff17ebc46bf282720b04d9ce0dbcdc1759bebed94e56730d97571cffad43ba2
     Title: 'openssl: untrusted sender DN used as format string in CMP response validation'
     Description: |-
       Issue summary: OpenSSL CMP response validation passed an unexpected response
@@ -559,7 +630,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:a7a6ea82ed454be7d59f782972f114ea5cdd4fc6ee6fbcf5e285ec6b9a954652
+    Fingerprint: sha256:ed3376fc8cbff25eec6298a1f9fb3fe60b07d4602de19b37d8574d3223204bf5
     Title: 'openssl: CMP indefinite cache growth of ExtraCerts'
     Description: |-
       Issue summary: The OpenSSL Certificate Management Protocol (CMP) caches
@@ -630,7 +701,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:cd5af6a058bb51033cb94bd896f80c108ae31d3d768466853997becaced406c1
+    Fingerprint: sha256:47fd572c43a6671cadea053e160e5a89afd8b8ef671609360a605bb31df12d75
     Title: 'openssl: QUIC ACK-only packet retention can cause memory exhaustion'
     Description: |-
       Issue summary: When OpenSSL processes QUIC traffic from a peer that repeatedly
@@ -702,7 +773,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:6533fec74370d8a03e2afbbe6330c5f09692eba3e26334b29b101c322b22abff
+    Fingerprint: sha256:ab49e03ff31437e66fb4f431df1d6355b50dd7fd226159d784cf8c9948ed9ec0
     Title: 'Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty  ...'
     Description: |-
       Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty
@@ -759,7 +830,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:58621b90e07b2bacadc99994e56ef00c8cb1997e597e81237d3ac198aaaaffb0
+    Fingerprint: sha256:cd3a9aca72c75a8296e84e887efee3c34a4d5eb73b295c23ab8554b6c6c48143
     Title: 'openssl: OpenSSL: Denial of Service via unbounded memory growth in QUIC server'
     Description: |-
       Issue summary: When an OpenSSL QUIC server (Listener SSL object) processes
@@ -833,7 +904,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:e4143250a0ac07dce0292012290b2b66045cc5b3c4645188993d5e66d5063fc1
+    Fingerprint: sha256:9b475fcb5d9400f4747b1a9646f036d58790461026809224737a1594d5ee9869
     Title: 'openssl: QUIC server may trigger double free when processing INITIAL packet'
     Description: |-
       Issue summary: QUIC server may double free QRX (QUIC record layer RX) object
@@ -903,7 +974,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:c9429d31b0a206c10b1b0ae2067dc8bbc18db4d0c86a54c91b27ac74c2ec582d
+    Fingerprint: sha256:66a30985d8d38ce36f3ce033b971c2b4044ee4b7d31e546134ac84b197f0773a
     Title: 'openssl: heap buffer overflow in CMS key unwrapping'
     Description: |-
       Issue summary: OpenSSL CMS decryption sizes the key-unwrap output buffer based
@@ -978,7 +1049,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:4ef5cfc4ac0e68199d4d82a485800da7ce53669cecad77b73b6ce3a419e40a0a
+    Fingerprint: sha256:11c1999ae795aa7defa528b116386cbcbbbef9b0621f54332e3354dab781031c
     Title: 'openssl: invalid pointer dereference in CMP server via crafted protectionAlg'
     Description: |-
       Issue summary: OpenSSL CMP password based protection verification only
@@ -1055,7 +1126,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:f4f6f49cb8c5bbdad70b32b1168031d28813ab4766951fa0a138e20c411bbdc5
+    Fingerprint: sha256:aa5ae78e347854a5fe78994f4fcd5f80fef53533ca4d24f759473326a888c7a2
     Title: 'openssl: RPK server signature algorithm selection can dereference a missing certificate'
     Description: |-
       Issue summary: In a server or client configuration with RFC7250 Raw Public Keys (RPKs)
@@ -1125,7 +1196,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:6daab43fd73b15a9067e4833ecf426c95339d3a3c1354bf64a9f36357cbc1084
+    Fingerprint: sha256:d6b1459335e145883a30db64cc465e72637348e0eecf23dd7b26aaa0c5a5db13
     Title: 'openssl: excessive memory use buffering DTLS records for a future epoch'
     Description: |-
       Issue summary: Receiving a DTLS record for a future epoch while a handshake
@@ -1227,7 +1298,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:6b3183ca362ed1f6007c2dcbc9fa93ec39ebe12205a4812286a875565897f0e6
+    Fingerprint: sha256:c40023633e92e5c1b0229f716fcfb9ee03fe3ac1bb5f538ce9458f4f07a4f48a
     Title: 'openssl: untrusted sender DN used as format string in CMP response validation'
     Description: |-
       Issue summary: OpenSSL CMP response validation passed an unexpected response
@@ -1298,7 +1369,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:984e5681c7a41b76ba5e1f0b9c3d5d86528298c89c2ea0e6e63d570d61ca35c1
+    Fingerprint: sha256:125638f6c92e8dc90033362f9d0bcae0d79b0e29c5c0863c96b2b4fa0ee8d34d
     Title: 'openssl: CMP indefinite cache growth of ExtraCerts'
     Description: |-
       Issue summary: The OpenSSL Certificate Management Protocol (CMP) caches
@@ -1369,7 +1440,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:ee59d89caa8c46026e3eeed5228582e752005ba1ad566eaf8754884a3a870488
+    Fingerprint: sha256:b26a3e3824466bbb7756d8e690401659371f225d7ede81ab5562af91cd35efb9
     Title: 'openssl: QUIC ACK-only packet retention can cause memory exhaustion'
     Description: |-
       Issue summary: When OpenSSL processes QUIC traffic from a peer that repeatedly
@@ -1441,7 +1512,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:0298c20bb0ce1ab63e61d78bc6c8fd20dccceac542d817888a51865c82a2bc09
+    Fingerprint: sha256:51a609f5c1e89252b23cd75b8d6ae65bba96790f4140188331b15b17cda25f14
     Title: 'Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty  ...'
     Description: |-
       Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty
@@ -1499,7 +1570,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:053ed4228be92b07090865810faeb38eddd8d47e152b048a1d548e43935064cf
+    Fingerprint: sha256:48dbd611ba14b2db70621d1d72dfdbec0d7b616d82edb5e2b4f724c87f47eee1
     Title: 'Little CMS: lcms2: mm2/Little-CMS: Little CMS: Information disclosure or denial of service via integer overflow in CubeSize'
     Description: Little CMS (lcms2) through 2.18 has an integer overflow in CubeSize in cmslut.c because the overflow check is performed after the multiplication.
     Severity: HIGH
@@ -1596,7 +1667,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:329e7a995de76d0808b9590e5655295a343d168990b587d9872f4515108d9e2d
+    Fingerprint: sha256:fd17f5849140b93f12f749a99e6a7cca17c7c7eb17b710771e50ae45f07efc86
     Title: 'openjdk: Enhance Jar handling (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 7.5 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N).'
     Severity: HIGH
@@ -1680,7 +1751,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:d27548319227f8a2f66607dd2678b8cfc45258fc7572595249c79fd29798e476
+    Fingerprint: sha256:5954d089cb73cf56549496c8bb13decd1c24c5322d96cd8522c42beb425056f7
     Title: Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Orac ...
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Install).  Supported versions that are affected are Oracle Java SE: 8u501, 11.0.32, 17.0.20, 21.0.12, 25.0.4, 26.0.2; Oracle GraalVM for JDK: 17.0.20 and  21.0.12; Oracle GraalVM Enterprise Edition: 21.3.19. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition executes to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in takeover of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).'
     Severity: HIGH
@@ -1716,7 +1787,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:6e2fb4703289f1fb70ba58a0f58cc236fbb7d36e55cd75fe8c10416624dc9840
+    Fingerprint: sha256:93fd76ab1f3a638115addba3bea935bd70d5e5c04808d71aec201139115f0dd5
     Title: 'openjdk: Improve DTLS handshaking (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via TLS to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: MEDIUM
@@ -1799,7 +1870,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:440bb8fdb524b92f81caefa5ebcd8b4d8f1d871fdf7983e2dea89b91786844c3
+    Fingerprint: sha256:f1729f544e5de29964fdf2a2adbcdf34a6a749e3544be61dd53f45c56d70d301
     Title: 'openjdk: Enhance TLS certificate handling (Oracle CPU 2026-07)'
     Description: 'Vulnerability in Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Difficult to exploit vulnerability allows unauthenticated attacker with network access via TLS to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE accessible data. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 5.9 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N).'
     Severity: MEDIUM
@@ -1883,7 +1954,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:d7e77b4137c7b44edf91864cb43c94bca3adf2355866a4a9e2d52e7d8d43d134
+    Fingerprint: sha256:b0d186574f86dc8652cf76719b7274f7a6adaebcb9f27876ef02f67ec40956aa
     Title: 'openjdk: Enhance XBM image support (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: 2D).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: MEDIUM
@@ -1967,7 +2038,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:c5d59091a70519a38770889d6d19184c215275e6fda13aac83fb37a511a1119b
+    Fingerprint: sha256:5cf57aef95e52ff9c8717ac688ece78a8b0559028044f250cf0eec1aa4d345ab
     Title: 'openjdk: Enhance Jar file processing (Oracle CPU 2026-07)'
     Description: 'Vulnerability in Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: MEDIUM
@@ -2051,7 +2122,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:7e2f82dae0d64f3044c9c1db9d74e3fbe12b356869fc47d799f0d6c6f8af9f17
+    Fingerprint: sha256:c7ca6635bc157c520b87b8400b74229e95423c829226de7d5a6ff337992c3625
     Title: 'openjdk: Improve certification checking (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.5 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N).'
     Severity: MEDIUM
@@ -2135,7 +2206,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:953baa1fc9b2e6a59bd8f32f116b3d65228a9fab26a37524bb59ace6331374f3
+    Fingerprint: sha256:4fdbd1756bb1e791b40d60e7cec1abbad0a91a134c3f7490dfdef733ac7684e2
     Title: 'openjdk: Enhance JPEG handling (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: ImageIO).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
     Severity: LOW
@@ -2219,7 +2290,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:afa6fb62618ac4745048b51eb9f5f681b009c4057f77c35df08232d17bf24dae
+    Fingerprint: sha256:57890c3e69288bf3920a4c39c6711f69555da7a7c69ce38041c1df1cdb4548da
     Title: 'openjdk: Enhance AWT ImagingLib (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: 2D).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 3.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: LOW
@@ -2304,7 +2375,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:f6dc7a05e8344648664e1797ac4140c83b6f8dfada54adcbf6ac246aca200909
+    Fingerprint: sha256:0ae2f922c5f32f3d9dd45e06be8e184e31f0034e9cfee6f8315e18492a2bc3c6
     Title: 'Little CMS: lcms2: mm2/Little-CMS: Little CMS: Information disclosure or denial of service via integer overflow in CubeSize'
     Description: Little CMS (lcms2) through 2.18 has an integer overflow in CubeSize in cmslut.c because the overflow check is performed after the multiplication.
     Severity: HIGH
@@ -2401,7 +2472,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:4ff9e094183dd02854f979ab685b02e05a822a197329831a3bdd1398f6b78e1e
+    Fingerprint: sha256:c97f46b09137edc28307e73d47c7afc6dc17c3f21bac9cf095a322c397c1fd92
     Title: 'openjdk: Enhance Jar handling (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 7.5 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N).'
     Severity: HIGH
@@ -2485,7 +2556,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:cebd1decb4eb730bbbb5661c5d52f22189ae16e79b74394f028071a6507f8a17
+    Fingerprint: sha256:a091b68641a4b68441f5475b1a9c50b1daab679f4d0ebe435020de53ed9015fe
     Title: Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Orac ...
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Install).  Supported versions that are affected are Oracle Java SE: 8u501, 11.0.32, 17.0.20, 21.0.12, 25.0.4, 26.0.2; Oracle GraalVM for JDK: 17.0.20 and  21.0.12; Oracle GraalVM Enterprise Edition: 21.3.19. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition executes to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in takeover of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).'
     Severity: HIGH
@@ -2521,7 +2592,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:631726b1dd4cca561c3338c630f8bab65a759d88f2133267182e99cf204c1f4e
+    Fingerprint: sha256:19c7f26255f254ba1a0e1aa4771a8bc9ad449ef0170700e38f8e1d110942be5e
     Title: 'openjdk: Improve DTLS handshaking (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via TLS to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: MEDIUM
@@ -2604,7 +2675,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:49de23f15145aa21472c30a0c0fb136fcdbc94406ad2180fc0c861b8ca798e1e
+    Fingerprint: sha256:e1e969a4ce6ee83341e2ea706c24ae7ab8f996d06846055c8dfe6a1ddc3dca5a
     Title: 'openjdk: Enhance TLS certificate handling (Oracle CPU 2026-07)'
     Description: 'Vulnerability in Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Difficult to exploit vulnerability allows unauthenticated attacker with network access via TLS to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE accessible data. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 5.9 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N).'
     Severity: MEDIUM
@@ -2688,7 +2759,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:cc0fd83c24a04e627a2db60b1b8f3b7196455ee8d9f26ccfd64787131e7db6f9
+    Fingerprint: sha256:31a4e3e59c96569d811c6f6345c043f3c4e6dd7395685cfed8ee39638b2d07bf
     Title: 'openjdk: Enhance XBM image support (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: 2D).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: MEDIUM
@@ -2772,7 +2843,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:4037efc291381f86f42588ca5db2bc62428419b2b269fbd08ba801891aacb0b8
+    Fingerprint: sha256:970649504f8756bff8069c9e0651362bf198f5215a1460374197ed2413770a0d
     Title: 'openjdk: Enhance Jar file processing (Oracle CPU 2026-07)'
     Description: 'Vulnerability in Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: MEDIUM
@@ -2856,7 +2927,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:6c7c395afadfd1c367dd2c7ddd95713f4e48622b96f9d2c5b84a02e9ecf2b5ed
+    Fingerprint: sha256:394da9e0d804528dbd4608961f18213ef560b7c0c628d513d5d502e138af8c99
     Title: 'openjdk: Improve certification checking (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.5 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N).'
     Severity: MEDIUM
@@ -2940,7 +3011,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:22035eda526c0d351141084387867134f854798f329686e41fad8d05dbd7c3bc
+    Fingerprint: sha256:da46972d0dbaf119337b839ada3b266e0a3c3ea3c0051a839e9b55bc0242541e
     Title: 'openjdk: Enhance JPEG handling (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: ImageIO).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
     Severity: LOW
@@ -3024,7 +3095,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:8b66dc4245e692d7d49966bfb39f3b45e407af31df115348dd99fbb586326e98
+    Fingerprint: sha256:80d0c007283f590b515cdf365f3566b35c44359a7fcb2086cfe831e8fa91c8ba
     Title: 'openjdk: Enhance AWT ImagingLib (Oracle CPU 2026-07)'
     Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: 2D).  Supported versions that are affected are Oracle Java SE: 8u491, 8u491-perf, 11.0.31, 17.0.19, 21.0.11, 25.0.3, 26.0.1; Oracle GraalVM for JDK: 17.0.19 and  21.0.11; Oracle GraalVM Enterprise Edition: 21.3.18. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 3.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L).'
     Severity: LOW
@@ -3108,7 +3179,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:a492ce564daa7fb20557b16b6ac33f93969d4bdf93d1d84c1a3931f2a33d9f55
+    Fingerprint: sha256:c44bfef3fbe980847280dc79ea5340208752927eb8e406e5836631dfc23eac22
     Title: 'openssl: OpenSSL: Denial of Service via unbounded memory growth in QUIC server'
     Description: |-
       Issue summary: When an OpenSSL QUIC server (Listener SSL object) processes
@@ -3182,7 +3253,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:41613bdfe3b4ddcc74782e130e5b361d27486dec29634c2770e362761569f5b6
+    Fingerprint: sha256:b72eccbe3e6ba7afcef04e1ff1b29a3fb0f07c730a8943be76e6b8d43da54aea
     Title: 'openssl: QUIC server may trigger double free when processing INITIAL packet'
     Description: |-
       Issue summary: QUIC server may double free QRX (QUIC record layer RX) object
@@ -3252,7 +3323,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:80bcdbb2f7a6029b3fffc4e7ed768c9b4e848b8d1e8c5ad7c52a7aac81f922dd
+    Fingerprint: sha256:75643ac533a8816e00922d181a0e9c9f19ee1326788c530b37b3f529c9b1b417
     Title: 'openssl: heap buffer overflow in CMS key unwrapping'
     Description: |-
       Issue summary: OpenSSL CMS decryption sizes the key-unwrap output buffer based
@@ -3327,7 +3398,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:de34a332d007f688d7d39a8ff71d2028c212a2ab389afd2e8f7a26dab97c99f4
+    Fingerprint: sha256:f64128779f7c37c79376d03e29b64c7070557999a8d5a0c6667ab197506902a8
     Title: 'openssl: invalid pointer dereference in CMP server via crafted protectionAlg'
     Description: |-
       Issue summary: OpenSSL CMP password based protection verification only
@@ -3404,7 +3475,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:9370b840efb28064738f8ad9a281038a49f09190d03519fbf9cfad4e9c96898e
+    Fingerprint: sha256:6791874350b76381688dbbb7baed3fedc5b0f5ea603c338ae74aac92c40acee6
     Title: 'openssl: RPK server signature algorithm selection can dereference a missing certificate'
     Description: |-
       Issue summary: In a server or client configuration with RFC7250 Raw Public Keys (RPKs)
@@ -3474,7 +3545,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:f8c778d38d895b0ea1d7e1ffa659617632d6668908c7659645595547808b5579
+    Fingerprint: sha256:035060477b78a4f9ed879fa35167adb53a68fa3b45f7bfe38f1805dc2495a17c
     Title: 'openssl: excessive memory use buffering DTLS records for a future epoch'
     Description: |-
       Issue summary: Receiving a DTLS record for a future epoch while a handshake
@@ -3576,7 +3647,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:c15cfc063eb5779b89955925f2cfbdf29e29c01b09d48eb26d7469ea6fd0a1a7
+    Fingerprint: sha256:674082922a15b6429181fed96534bcc83a0cb054f448b938aad40dff60bf0819
     Title: 'openssl: untrusted sender DN used as format string in CMP response validation'
     Description: |-
       Issue summary: OpenSSL CMP response validation passed an unexpected response
@@ -3647,7 +3718,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:4b8e913920cb281bcd74e7f8dcea3c068ab25555c60f82475e6d69bffa206d42
+    Fingerprint: sha256:4b868954ac15ddacc35800ae59ff621d0ccfb8d97e735f26522e385f8d4e61fc
     Title: 'openssl: CMP indefinite cache growth of ExtraCerts'
     Description: |-
       Issue summary: The OpenSSL Certificate Management Protocol (CMP) caches
@@ -3718,7 +3789,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:5b26d7abe42ea9c0a737782b0a756354b56d066113ef5bea518552672686b82a
+    Fingerprint: sha256:c4ba27025f029cfbdfc8b20ba98640d87823b47582848988eb59d6939deddf51
     Title: 'openssl: QUIC ACK-only packet retention can cause memory exhaustion'
     Description: |-
       Issue summary: When OpenSSL processes QUIC traffic from a peer that repeatedly
@@ -3790,7 +3861,7 @@
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:3e73c0bbbcc0ed4032730923d3632028378c70a855985eceb2dcef3e9c768e74
+    Fingerprint: sha256:6c226ff3d4d938d90f02739e23d50548398852f8a3674366282b5e95c4090615
     Title: 'Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty  ...'
     Description: |-
       Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty
