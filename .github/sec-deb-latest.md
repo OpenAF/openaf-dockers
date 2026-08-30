@@ -191,7 +191,7 @@
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-11856
 │                       │      │                  https://curl.se/L7HzKXisfJ/CVE-2026-11856.md         
 │                       │      │                  https://curl.se/docs/CVE-2026-11856.html             
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2480685  
+│                       │      │                  https://curl.se/docs/CVE-2026-11856.json             
 │                       │      │                  https://github.com/advisories/GHSA-9crq-qh8v-6xmm    
 │                       │      │                  https://hackerone.com/reports/3793260                
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-11856      
@@ -396,7 +396,7 @@
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:60226             
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-54371        
 │                       │      │                  https://bugzilla.redhat.com/2490283                          
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2490283          
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:54285             
 │                       │      │                  https://cgit.git.savannah.nongnu.org/cgit/attr.git/commit/?id
 │                       │      │                  =49f79e947270f06940b9100fa638f85dddc4aa7f                    
 │                       │      │                  https://cgit.git.savannah.nongnu.org/cgit/attr.git/commit/?id
@@ -6559,8 +6559,8 @@
                         │      │                  https://bugzilla.redhat.com/2480757                          
                         │      │                  https://bugzilla.redhat.com/2480761                          
                         │      │                  https://bugzilla.redhat.com/2493620                          
-                        │      │                  https://curl.se/L7HzKXisfJ/CVE-2026-11856.md                 
-                        │      │                  https://curl.se/docs/CVE-2026-11856.html                     
+                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2480680          
+                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2480681          
                         │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2480685          
                         │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2480688          
                         │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2480757          
