@@ -20,8 +20,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:a5c24ad249aef6acd6a1b5b8cc21b155c95cc86e8de5b3a60a08e
-│                       │      │                   a0419373f5f 
+│                       │      ├ Fingerprint     : sha256:3e7a82bf5ff86feab4971a666b195a9f99c4bf8e0395b0b7f1ec6
+│                       │      │                   c842130fe41 
 │                       │      ├ Title           : giflib: giflib: Denial of Service via buffer overflow in
 │                       │      │                   EGifGCBToExtension 
 │                       │      ├ Description     : Buffer Overflow vulnerability in giflib v.5.2.2 allows a
@@ -105,8 +105,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:0a6ac76aa104775dc1e1ff0bc007eaac186d9406da61db5162228
-│                       │      │                   1d01eecf2ab 
+│                       │      ├ Fingerprint     : sha256:ea471e258f76c33a0ac0a746219dbdcf6b24102f3a3f2afab8f40
+│                       │      │                   cb0747c2a84 
 │                       │      ├ Title           : openssl: OpenSSL: Denial of Service via unbounded memory
 │                       │      │                   growth in QUIC server 
 │                       │      ├ Description     : Issue summary: When an OpenSSL QUIC server (Listener SSL
@@ -206,8 +206,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:5bddf65360d3d6dbe48f91675a6c5c112ced7c785819e8070d9f9
-│                       │      │                   1c13273cfee 
+│                       │      ├ Fingerprint     : sha256:72e3487aa04ef6b38b411e14c4f994098a1918c5cccfe48c5c48f
+│                       │      │                   eeb0a7ee391 
 │                       │      ├ Title           : openssl: QUIC server may trigger double free when processing
 │                       │      │                    INITIAL packet 
 │                       │      ├ Description     : Issue summary: QUIC server may double free QRX (QUIC record
@@ -299,8 +299,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:b100f6bfb45a6c7e6978debe8ea63a345c5d26a3db7a54a82e593
-│                       │      │                   add34f40fdb 
+│                       │      ├ Fingerprint     : sha256:e4d409505bcefdaf3e995d6529115f488f61d3cf0f01c595eec20
+│                       │      │                   9783a90eda9 
 │                       │      ├ Title           : openssl: heap buffer overflow in CMS key unwrapping 
 │                       │      ├ Description     : Issue summary: OpenSSL CMS decryption sizes the key-unwrap
 │                       │      │                   output buffer based
@@ -399,8 +399,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:172093d405db9b678a2b0e37b0d5b2b388c4e6c93c8101b93796a
-│                       │      │                   c56745373c5 
+│                       │      ├ Fingerprint     : sha256:67daea1be2f4c7884b95e6880ce2e6e053c2e5d0addc4a1144ac1
+│                       │      │                   0365f7c1d61 
 │                       │      ├ Title           : openssl: invalid pointer dereference in CMP server via
 │                       │      │                   crafted protectionAlg 
 │                       │      ├ Description     : Issue summary: OpenSSL CMP password based protection
@@ -508,8 +508,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:d17669281587e6a06b6b0c741fbb9c5ac2354d746eb35ab9e979f
-│                       │      │                   270a22ed52e 
+│                       │      ├ Fingerprint     : sha256:5865c4f1319923b892528368fbb0f0adebbe8da9bde34f5c99536
+│                       │      │                   7e55fc5cd18 
 │                       │      ├ Title           : openssl: RPK server signature algorithm selection can
 │                       │      │                   dereference a missing certificate 
 │                       │      ├ Description     : Issue summary: In a server or client configuration with
@@ -598,8 +598,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c7ad262131c36b618b80cdd15f7fcb2ae3914252494f6defefd1e
-│                       │      │                   556ccc73fc0 
+│                       │      ├ Fingerprint     : sha256:18ce977bfc21f59d52f09473aba1949c9620285ef031e2cabcd92
+│                       │      │                   b70940805b2 
 │                       │      ├ Title           : openssl: excessive memory use buffering DTLS records for a
 │                       │      │                   future epoch 
 │                       │      ├ Description     : Issue summary: Receiving a DTLS record for a future epoch
@@ -728,8 +728,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:9ff17ebc46bf282720b04d9ce0dbcdc1759bebed94e56730d9757
-│                       │      │                   1cffad43ba2 
+│                       │      ├ Fingerprint     : sha256:b622ffb8e92ca8292a3c45359112912328065a7b8c1a0b0fb626b
+│                       │      │                   5ee6fd27782 
 │                       │      ├ Title           : openssl: untrusted sender DN used as format string in CMP
 │                       │      │                   response validation 
 │                       │      ├ Description     : Issue summary: OpenSSL CMP response validation passed an
@@ -823,8 +823,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:ed3376fc8cbff25eec6298a1f9fb3fe60b07d4602de19b37d8574
-│                       │      │                   d3223204bf5 
+│                       │      ├ Fingerprint     : sha256:bf27fa0ab20ddc82c36d47f386c5059998905a6b27ec3ba051d1d
+│                       │      │                   96d85b64563 
 │                       │      ├ Title           : openssl: CMP indefinite cache growth of ExtraCerts 
 │                       │      ├ Description     : Issue summary: The OpenSSL Certificate Management Protocol
 │                       │      │                   (CMP) caches
@@ -920,8 +920,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:47fd572c43a6671cadea053e160e5a89afd8b8ef671609360a605
-│                       │      │                   bb31df12d75 
+│                       │      ├ Fingerprint     : sha256:38b0cb55bbd5c1067ad637e772a863001f1309a314b964b1cadba
+│                       │      │                   35e12855322 
 │                       │      ├ Title           : openssl: QUIC ACK-only packet retention can cause memory
 │                       │      │                   exhaustion 
 │                       │      ├ Description     : Issue summary: When OpenSSL processes QUIC traffic from a
@@ -1018,8 +1018,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:ab49e03ff31437e66fb4f431df1d6355b50dd7fd226159d784cf8
-│                       │      │                   c9948ed9ec0 
+│                       │      ├ Fingerprint     : sha256:f513ac3dfe66792e89d0024d2ef39d05b80d4aaec2cc96afa7686
+│                       │      │                   4f8c2e8edaa 
 │                       │      ├ Title           : Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with
 │                       │      │                    an empty  ... 
 │                       │      ├ Description     : Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with
@@ -1097,8 +1097,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:cd3a9aca72c75a8296e84e887efee3c34a4d5eb73b295c23ab855
-│                       │      │                   4b6c6c48143 
+│                       │      ├ Fingerprint     : sha256:32085df937b39849328e1d61f8669dce1e2d6ea1631279f1292f1
+│                       │      │                   95d3e3e1409 
 │                       │      ├ Title           : openssl: OpenSSL: Denial of Service via unbounded memory
 │                       │      │                   growth in QUIC server 
 │                       │      ├ Description     : Issue summary: When an OpenSSL QUIC server (Listener SSL
@@ -1198,8 +1198,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:9b475fcb5d9400f4747b1a9646f036d58790461026809224737a1
-│                       │      │                   594d5ee9869 
+│                       │      ├ Fingerprint     : sha256:f3b30bb28feabde3787823523bab33005b78ceddd2a06795aefb8
+│                       │      │                   f15db59df58 
 │                       │      ├ Title           : openssl: QUIC server may trigger double free when processing
 │                       │      │                    INITIAL packet 
 │                       │      ├ Description     : Issue summary: QUIC server may double free QRX (QUIC record
@@ -1291,8 +1291,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:66a30985d8d38ce36f3ce033b971c2b4044ee4b7d31e546134ac8
-│                       │      │                   4b197f0773a 
+│                       │      ├ Fingerprint     : sha256:f5eeeb7869f7367e5a7e03519633c863aad4b6a5452c0e49ab55b
+│                       │      │                   3654bbbb801 
 │                       │      ├ Title           : openssl: heap buffer overflow in CMS key unwrapping 
 │                       │      ├ Description     : Issue summary: OpenSSL CMS decryption sizes the key-unwrap
 │                       │      │                   output buffer based
@@ -1391,8 +1391,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:11c1999ae795aa7defa528b116386cbcbbbef9b0621f54332e335
-│                       │      │                   4dab781031c 
+│                       │      ├ Fingerprint     : sha256:fceb94dfa51321a3c5d12caee8d61e65970ad445bc74f8fb658de
+│                       │      │                   ab9599d4261 
 │                       │      ├ Title           : openssl: invalid pointer dereference in CMP server via
 │                       │      │                   crafted protectionAlg 
 │                       │      ├ Description     : Issue summary: OpenSSL CMP password based protection
@@ -1500,8 +1500,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:aa5ae78e347854a5fe78994f4fcd5f80fef53533ca4d24f759473
-│                       │      │                   326a888c7a2 
+│                       │      ├ Fingerprint     : sha256:538c2bdb7c478212a00259aa0f10c81eafb690e84d370d57f5f0c
+│                       │      │                   1ff2e9d98f8 
 │                       │      ├ Title           : openssl: RPK server signature algorithm selection can
 │                       │      │                   dereference a missing certificate 
 │                       │      ├ Description     : Issue summary: In a server or client configuration with
@@ -1590,8 +1590,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:d6b1459335e145883a30db64cc465e72637348e0eecf23dd7b26a
-│                       │      │                   aa0c5a5db13 
+│                       │      ├ Fingerprint     : sha256:a5fb7b316dfa4a89fb54cb0ca969fd972e407449c4429bb1962e0
+│                       │      │                   f75c5a601a9 
 │                       │      ├ Title           : openssl: excessive memory use buffering DTLS records for a
 │                       │      │                   future epoch 
 │                       │      ├ Description     : Issue summary: Receiving a DTLS record for a future epoch
@@ -1720,8 +1720,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c40023633e92e5c1b0229f716fcfb9ee03fe3ac1bb5f538ce9458
-│                       │      │                   f4f07a4f48a 
+│                       │      ├ Fingerprint     : sha256:29de63eb7ba9f065a99b5437422a13816a64f6aed0836823e4c8f
+│                       │      │                   6ea11a826da 
 │                       │      ├ Title           : openssl: untrusted sender DN used as format string in CMP
 │                       │      │                   response validation 
 │                       │      ├ Description     : Issue summary: OpenSSL CMP response validation passed an
@@ -1815,8 +1815,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:125638f6c92e8dc90033362f9d0bcae0d79b0e29c5c0863c96b2b
-│                       │      │                   4fa0ee8d34d 
+│                       │      ├ Fingerprint     : sha256:f2eb3543ae49f5b36f9b8e6072f5861450516ef6a04523510e43f
+│                       │      │                   e0ee842366e 
 │                       │      ├ Title           : openssl: CMP indefinite cache growth of ExtraCerts 
 │                       │      ├ Description     : Issue summary: The OpenSSL Certificate Management Protocol
 │                       │      │                   (CMP) caches
@@ -1912,8 +1912,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:b26a3e3824466bbb7756d8e690401659371f225d7ede81ab5562a
-│                       │      │                   f91cd35efb9 
+│                       │      ├ Fingerprint     : sha256:49502beea499b5e1ee507d7f555ab80209e5d266beff503510d94
+│                       │      │                   a391fa0d6f6 
 │                       │      ├ Title           : openssl: QUIC ACK-only packet retention can cause memory
 │                       │      │                   exhaustion 
 │                       │      ├ Description     : Issue summary: When OpenSSL processes QUIC traffic from a
@@ -2010,8 +2010,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:51a609f5c1e89252b23cd75b8d6ae65bba96790f4140188331b15
-│                       │      │                   b17cda25f14 
+│                       │      ├ Fingerprint     : sha256:83511aedd4170d55434702922883435d32e1b36df101ec3d0fbf9
+│                       │      │                   ae91b026094 
 │                       │      ├ Title           : Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with
 │                       │      │                    an empty  ... 
 │                       │      ├ Description     : Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with
@@ -2090,8 +2090,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:48dbd611ba14b2db70621d1d72dfdbec0d7b616d82edb5e2b4f72
-│                       │      │                   4c87f47eee1 
+│                       │      ├ Fingerprint     : sha256:f7a88d9fbee02c399cc857aa48b14fc6bc50ad856d016123ed15b
+│                       │      │                   9844d7b1eec 
 │                       │      ├ Title           : Little CMS: lcms2: mm2/Little-CMS: Little CMS: Information
 │                       │      │                   disclosure or denial of service via integer overflow in
 │                       │      │                   CubeSize 
@@ -2240,8 +2240,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:fd17f5849140b93f12f749a99e6a7cca17c7c7eb17b710771e50a
-│                       │      │                   e45f07efc86 
+│                       │      ├ Fingerprint     : sha256:000eeb33811b3235c3d24d254c7a2cde4d812dc3ed6c99994bcc8
+│                       │      │                   68ce5a06bb3 
 │                       │      ├ Title           : openjdk: Enhance Jar handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -2327,6 +2327,7 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47063               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -2349,8 +2350,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:5954d089cb73cf56549496c8bb13decd1c24c5322d96cd8522c42
-│                       │      │                   beb425056f7 
+│                       │      ├ Fingerprint     : sha256:21ad6fc730bb197a30113265ca83a4898d4aba58695785cb9df68
+│                       │      │                   9968dd5cbdd 
 │                       │      ├ Title           : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Orac ... 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -2404,8 +2405,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:93fd76ab1f3a638115addba3bea935bd70d5e5c04808d71aec201
-│                       │      │                   139115f0dd5 
+│                       │      ├ Fingerprint     : sha256:f966b37decc8ad43b608f876a724645b20bba2a3a5975aced054e
+│                       │      │                   027ed8511d4 
 │                       │      ├ Title           : openjdk: Improve DTLS handshaking (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -2486,6 +2487,7 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-46917               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -2508,8 +2510,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:f1729f544e5de29964fdf2a2adbcdf34a6a749e3544be61dd53f4
-│                       │      │                   5c56d70d301 
+│                       │      ├ Fingerprint     : sha256:731a31c70cd4c14cf7e8b03e7b5d760f2261b4593d0d18afb6677
+│                       │      │                   62b4d8f718d 
 │                       │      ├ Title           : openjdk: Enhance TLS certificate handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: JSSE). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -2588,6 +2590,7 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-46968               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -2610,8 +2613,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:b0d186574f86dc8652cf76719b7274f7a6adaebcb9f27876ef02f
-│                       │      │                   67ec40956aa 
+│                       │      ├ Fingerprint     : sha256:b21a31589967a6b3ec729269f9ae6a7722fdba7adf3f882afed13
+│                       │      │                   320ab231203 
 │                       │      ├ Title           : openjdk: Enhance XBM image support (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -2696,6 +2699,7 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47021               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -2718,8 +2722,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:5cf57aef95e52ff9c8717ac688ece78a8b0559028044f250cf0ee
-│                       │      │                   c1aa4d345ab 
+│                       │      ├ Fingerprint     : sha256:8c5252d8d97e2233248cb6e4f23a7a04642fbdc6496b99cd63dfe
+│                       │      │                   7265bcaf555 
 │                       │      ├ Title           : openjdk: Enhance Jar file processing (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Libraries). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -2801,6 +2805,7 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47027               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -2823,8 +2828,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c7ca6635bc157c520b87b8400b74229e95423c829226de7d5a6ff
-│                       │      │                   337992c3625 
+│                       │      ├ Fingerprint     : sha256:1f164f61a8c9d35968069e516c557524c98663e46834e92cce3f1
+│                       │      │                   4e4920f8f37 
 │                       │      ├ Title           : openjdk: Improve certification checking (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -2913,6 +2918,7 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-60147               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -2935,8 +2941,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:4fdbd1756bb1e791b40d60e7cec1abbad0a91a134c3f7490dfdef
-│                       │      │                   733ac7684e2 
+│                       │      ├ Fingerprint     : sha256:9947a80a81fd6a0c87de87617ec1a05ee75a332990a07d77ca022
+│                       │      │                   cb7db35d6c2 
 │                       │      ├ Title           : openjdk: Enhance JPEG handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3021,6 +3027,7 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47010               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3043,8 +3050,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:57890c3e69288bf3920a4c39c6711f69555da7a7c69ce38041c1d
-│                       │      │                   f1cdb4548da 
+│                       │      ├ Fingerprint     : sha256:8d4ce234f64a15513c46ad2b0a585d71020ac9cf456fde562a37a
+│                       │      │                   17b0684d61e 
 │                       │      ├ Title           : openjdk: Enhance AWT ImagingLib (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3130,6 +3137,7 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47059               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3153,8 +3161,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:0ae2f922c5f32f3d9dd45e06be8e184e31f0034e9cfee6f8315e1
-│                       │      │                   8492a2bc3c6 
+│                       │      ├ Fingerprint     : sha256:5f1febe5a54aa6d77ed6fdb88f7cfcd0b79977bb5cc27a57cb45d
+│                       │      │                   232bd8c47e5 
 │                       │      ├ Title           : Little CMS: lcms2: mm2/Little-CMS: Little CMS: Information
 │                       │      │                   disclosure or denial of service via integer overflow in
 │                       │      │                   CubeSize 
@@ -3303,8 +3311,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c97f46b09137edc28307e73d47c7afc6dc17c3f21bac9cf095a32
-│                       │      │                   2c397c1fd92 
+│                       │      ├ Fingerprint     : sha256:57a83af49f22197cdc47e38b70baf6f5630e2ae5277f23819649b
+│                       │      │                   6a01230279e 
 │                       │      ├ Title           : openjdk: Enhance Jar handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3390,6 +3398,7 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47063               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3412,8 +3421,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:a091b68641a4b68441f5475b1a9c50b1daab679f4d0ebe435020d
-│                       │      │                   e53ed9015fe 
+│                       │      ├ Fingerprint     : sha256:0b212355ebcd936e9d395b0acef5adb25f5d0f2f2937dbbcc229d
+│                       │      │                   33261bcf84d 
 │                       │      ├ Title           : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Orac ... 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -3467,8 +3476,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:19c7f26255f254ba1a0e1aa4771a8bc9ad449ef0170700e38f8e1
-│                       │      │                   d110942be5e 
+│                       │      ├ Fingerprint     : sha256:77afaab45d3899fb899fbc794b3c111e46715d5826c762812d65f
+│                       │      │                   5c543cfba58 
 │                       │      ├ Title           : openjdk: Improve DTLS handshaking (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3549,6 +3558,7 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-46917               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3571,8 +3581,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:e1e969a4ce6ee83341e2ea706c24ae7ab8f996d06846055c8dfe6
-│                       │      │                   a1ddc3dca5a 
+│                       │      ├ Fingerprint     : sha256:e24c3972864d6274386a9b13d71d2d1dbb6c38e3c0e3a0ed47bc8
+│                       │      │                   f01171dcae3 
 │                       │      ├ Title           : openjdk: Enhance TLS certificate handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: JSSE). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -3651,6 +3661,7 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-46968               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3673,8 +3684,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:31a4e3e59c96569d811c6f6345c043f3c4e6dd7395685cfed8ee3
-│                       │      │                   9638b2d07bf 
+│                       │      ├ Fingerprint     : sha256:230ef289d62d09edd03683a06fb3115aeeb5f80195b86e1fffb0d
+│                       │      │                   e2794b1fe64 
 │                       │      ├ Title           : openjdk: Enhance XBM image support (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3759,6 +3770,7 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47021               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3781,8 +3793,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:970649504f8756bff8069c9e0651362bf198f5215a1460374197e
-│                       │      │                   d2413770a0d 
+│                       │      ├ Fingerprint     : sha256:c1538e4f1505628d07d676e91b0fabcaea79ce66db3632b89ee73
+│                       │      │                   20cce806d06 
 │                       │      ├ Title           : openjdk: Enhance Jar file processing (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Libraries). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -3864,6 +3876,7 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47027               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3886,8 +3899,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:394da9e0d804528dbd4608961f18213ef560b7c0c628d513d5d50
-│                       │      │                   2e138af8c99 
+│                       │      ├ Fingerprint     : sha256:d798f5630d136d000ca924304b00b972793e6a1d80183e35214ab
+│                       │      │                   c9e95606860 
 │                       │      ├ Title           : openjdk: Improve certification checking (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3976,6 +3989,7 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-60147               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3998,8 +4012,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:da46972d0dbaf119337b839ada3b266e0a3c3ea3c0051a839e9b5
-│                       │      │                   5bc0242541e 
+│                       │      ├ Fingerprint     : sha256:01d992dabee003a1e7d9838a4aec2b34611a41cf0eb41ae29f9ad
+│                       │      │                   2abcbcc6d29 
 │                       │      ├ Title           : openjdk: Enhance JPEG handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -4084,6 +4098,7 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47010               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -4106,8 +4121,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:80d0c007283f590b515cdf365f3566b35c44359a7fcb2086cfe83
-│                       │      │                   1e8fa91c8ba 
+│                       │      ├ Fingerprint     : sha256:1aeba80745bc3c5fa26abef68883c2d5db54cdfb2a922614f80c0
+│                       │      │                   45d1a0131f2 
 │                       │      ├ Title           : openjdk: Enhance AWT ImagingLib (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -4193,6 +4208,7 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8676-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47059               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -4215,8 +4231,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c44bfef3fbe980847280dc79ea5340208752927eb8e406e583663
-│                       │      │                   1dfc23eac22 
+│                       │      ├ Fingerprint     : sha256:8884c120b2330a2734a737f119aaabadb2813a2c38ac1afd8cda6
+│                       │      │                   921f7edba08 
 │                       │      ├ Title           : openssl: OpenSSL: Denial of Service via unbounded memory
 │                       │      │                   growth in QUIC server 
 │                       │      ├ Description     : Issue summary: When an OpenSSL QUIC server (Listener SSL
@@ -4316,8 +4332,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:b72eccbe3e6ba7afcef04e1ff1b29a3fb0f07c730a8943be76e6b
-│                       │      │                   8d43da54aea 
+│                       │      ├ Fingerprint     : sha256:327d02b3ae7220a5226ae16794dc841ab203f688bfc26673efbb1
+│                       │      │                   5673126dd00 
 │                       │      ├ Title           : openssl: QUIC server may trigger double free when processing
 │                       │      │                    INITIAL packet 
 │                       │      ├ Description     : Issue summary: QUIC server may double free QRX (QUIC record
@@ -4409,8 +4425,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:75643ac533a8816e00922d181a0e9c9f19ee1326788c530b37b3f
-│                       │      │                   529c9b1b417 
+│                       │      ├ Fingerprint     : sha256:19ce735182fbbee25b1f128bc9baa0f213d9a09fe483ca387f9b3
+│                       │      │                   4a65f448303 
 │                       │      ├ Title           : openssl: heap buffer overflow in CMS key unwrapping 
 │                       │      ├ Description     : Issue summary: OpenSSL CMS decryption sizes the key-unwrap
 │                       │      │                   output buffer based
@@ -4509,8 +4525,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:f64128779f7c37c79376d03e29b64c7070557999a8d5a0c6667ab
-│                       │      │                   197506902a8 
+│                       │      ├ Fingerprint     : sha256:078b5d3215cae055fab3ecaa80b4acbd18275b0fa724e6d69cf75
+│                       │      │                   4ccb47a8cd2 
 │                       │      ├ Title           : openssl: invalid pointer dereference in CMP server via
 │                       │      │                   crafted protectionAlg 
 │                       │      ├ Description     : Issue summary: OpenSSL CMP password based protection
@@ -4618,8 +4634,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:6791874350b76381688dbbb7baed3fedc5b0f5ea603c338ae74aa
-│                       │      │                   c92c40acee6 
+│                       │      ├ Fingerprint     : sha256:811304eae3b692585c5ded645a964af557716a0457856b99e8039
+│                       │      │                   28bbcfd8187 
 │                       │      ├ Title           : openssl: RPK server signature algorithm selection can
 │                       │      │                   dereference a missing certificate 
 │                       │      ├ Description     : Issue summary: In a server or client configuration with
@@ -4708,8 +4724,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:035060477b78a4f9ed879fa35167adb53a68fa3b45f7bfe38f180
-│                       │      │                   5dc2495a17c 
+│                       │      ├ Fingerprint     : sha256:7a56860958cb70b16556373ed72b8c22b64fd9c935878079f9116
+│                       │      │                   c14277f08da 
 │                       │      ├ Title           : openssl: excessive memory use buffering DTLS records for a
 │                       │      │                   future epoch 
 │                       │      ├ Description     : Issue summary: Receiving a DTLS record for a future epoch
@@ -4838,8 +4854,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:674082922a15b6429181fed96534bcc83a0cb054f448b938aad40
-│                       │      │                   dff60bf0819 
+│                       │      ├ Fingerprint     : sha256:efde27ced3e71b6113b134de34b1b0b9696c55d2d8f2be0628ccc
+│                       │      │                   c0d4c2c0cb7 
 │                       │      ├ Title           : openssl: untrusted sender DN used as format string in CMP
 │                       │      │                   response validation 
 │                       │      ├ Description     : Issue summary: OpenSSL CMP response validation passed an
@@ -4933,8 +4949,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:4b868954ac15ddacc35800ae59ff621d0ccfb8d97e735f26522e3
-│                       │      │                   85f8d4e61fc 
+│                       │      ├ Fingerprint     : sha256:92b190008f13fc1cfabc799adea0b8738d4521e29e5e114e2e7e3
+│                       │      │                   66679d472d4 
 │                       │      ├ Title           : openssl: CMP indefinite cache growth of ExtraCerts 
 │                       │      ├ Description     : Issue summary: The OpenSSL Certificate Management Protocol
 │                       │      │                   (CMP) caches
@@ -5030,8 +5046,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c4ba27025f029cfbdfc8b20ba98640d87823b47582848988eb59d
-│                       │      │                   6939deddf51 
+│                       │      ├ Fingerprint     : sha256:6bf9ceee2845247e0467b24fbaed2b19d24d50768ac586af4537e
+│                       │      │                   354eb3e4be8 
 │                       │      ├ Title           : openssl: QUIC ACK-only packet retention can cause memory
 │                       │      │                   exhaustion 
 │                       │      ├ Description     : Issue summary: When OpenSSL processes QUIC traffic from a
@@ -5128,8 +5144,8 @@
 │                              ├ DataSource       ╭ ID  : alpine 
 │                              │                  ├ Name: Alpine Secdb 
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                              ├ Fingerprint     : sha256:6c226ff3d4d938d90f02739e23d50548398852f8a3674366282b5
-│                              │                   e95c4090615 
+│                              ├ Fingerprint     : sha256:2314a8a69fc6887871180fedc0f91a39f2562b8acd7b7191926bc
+│                              │                   1c03dd8ab0b 
 │                              ├ Title           : Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with
 │                              │                    an empty  ... 
 │                              ├ Description     : Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with
