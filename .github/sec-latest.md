@@ -162,7 +162,8 @@
 │                       │      │                  ───────
 │                       │      │                  CWE-770
 │                       │      │                  
-│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 3 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
@@ -805,7 +806,7 @@
 │                       │      │                                                                               
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-08-25T13:19:26.147Z 
-│                       │      ╰ LastModifiedDate: 2026-08-28T19:46:29.323Z 
+│                       │      ╰ LastModifiedDate: 2026-08-31T20:17:07.54Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2026-63074 
 │                       │      ├ PkgID           : libcrypto3@3.5.7-r0 
 │                       │      ├ PkgName         : libcrypto3 
@@ -1075,6 +1076,8 @@
 │                       │      │                                                                               
 │                       │      │                  https://ubuntu.com/security/notices/USN-8678-1               
 │                       │      │                                                                               
+│                       │      │                  https://ubuntu.com/security/notices/USN-8678-3               
+│                       │      │                                                                               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-75803              
 │                       │      │                                                                               
 │                       │      │                  
@@ -1154,7 +1157,8 @@
 │                       │      │                  ───────
 │                       │      │                  CWE-770
 │                       │      │                  
-│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 3 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
@@ -1797,7 +1801,7 @@
 │                       │      │                                                                               
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-08-25T13:19:26.147Z 
-│                       │      ╰ LastModifiedDate: 2026-08-28T19:46:29.323Z 
+│                       │      ╰ LastModifiedDate: 2026-08-31T20:17:07.54Z 
 │                       ├ [18] ╭ VulnerabilityID : CVE-2026-63074 
 │                       │      ├ PkgID           : libssl3@3.5.7-r0 
 │                       │      ├ PkgName         : libssl3 
@@ -2067,6 +2071,8 @@
 │                       │      │                                                                               
 │                       │      │                  https://ubuntu.com/security/notices/USN-8678-1               
 │                       │      │                                                                               
+│                       │      │                  https://ubuntu.com/security/notices/USN-8678-3               
+│                       │      │                                                                               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-75803              
 │                       │      │                                                                               
 │                       │      │                  
@@ -2328,6 +2334,9 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8693-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8694-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8695-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47063               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -2488,6 +2497,9 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8693-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8694-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8695-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-46917               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -2591,6 +2603,9 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8693-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8694-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8695-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-46968               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -2700,6 +2715,9 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8693-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8694-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8695-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47021               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -2806,6 +2824,9 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8693-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8694-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8695-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47027               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -2919,6 +2940,9 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8693-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8694-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8695-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-60147               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3028,6 +3052,9 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8693-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8694-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8695-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47010               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3138,6 +3165,9 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8693-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8694-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8695-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47059               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3399,6 +3429,9 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8693-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8694-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8695-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47063               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3559,6 +3592,9 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8693-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8694-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8695-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-46917               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3662,6 +3698,9 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8693-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8694-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8695-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-46968               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3771,6 +3810,9 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8693-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8694-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8695-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47021               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3877,6 +3919,9 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8693-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8694-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8695-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47027               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -3990,6 +4035,9 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8693-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8694-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8695-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-60147               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -4099,6 +4147,9 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8693-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8694-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8695-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47010               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -4209,6 +4260,9 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8677-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8681-1                
 │                       │      │                  https://ubuntu.com/security/notices/USN-8689-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8693-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8694-1                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8695-1                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-47059               
 │                       │      │                  https://www.oracle.com/security-alerts/cpujul2026.html        
 │                       │      │                  
@@ -4288,7 +4342,8 @@
 │                       │      │                  ───────
 │                       │      │                  CWE-770
 │                       │      │                  
-│                       │      ├ VendorSeverity   ╭ photon: 3 
+│                       │      ├ VendorSeverity   ╭ amazon: 3 
+│                       │      │                  ├ photon: 3 
 │                       │      │                  ├ redhat: 3 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
@@ -4931,7 +4986,7 @@
 │                       │      │                                                                               
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-08-25T13:19:26.147Z 
-│                       │      ╰ LastModifiedDate: 2026-08-28T19:46:29.323Z 
+│                       │      ╰ LastModifiedDate: 2026-08-31T20:17:07.54Z 
 │                       ├ [48] ╭ VulnerabilityID : CVE-2026-63074 
 │                       │      ├ PkgID           : openssl@3.5.7-r0 
 │                       │      ├ PkgName         : openssl 
@@ -5200,6 +5255,8 @@
 │                              │                  https://openssl-library.org/news/secadv/20260825.txt         
 │                              │                                                                               
 │                              │                  https://ubuntu.com/security/notices/USN-8678-1               
+│                              │                                                                               
+│                              │                  https://ubuntu.com/security/notices/USN-8678-3               
 │                              │                                                                               
 │                              │                  https://www.cve.org/CVERecord?id=CVE-2026-75803              
 │                              │                                                                               
