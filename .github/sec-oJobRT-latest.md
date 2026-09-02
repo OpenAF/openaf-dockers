@@ -1082,7 +1082,7 @@
 │                       │      │                                                                               
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-08-25T13:19:29.57Z 
-│                       │      ╰ LastModifiedDate: 2026-08-28T19:46:29.323Z 
+│                       │      ╰ LastModifiedDate: 2026-09-01T19:17:27.543Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2026-14456 
 │                       │      ├ PkgID           : libssl3@3.5.7-r0 
 │                       │      ├ PkgName         : libssl3 
@@ -2077,7 +2077,7 @@
 │                       │      │                                                                               
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-08-25T13:19:29.57Z 
-│                       │      ╰ LastModifiedDate: 2026-08-28T19:46:29.323Z 
+│                       │      ╰ LastModifiedDate: 2026-09-01T19:17:27.543Z 
 │                       ├ [21] ╭ VulnerabilityID : CVE-2026-41254 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.11_p10-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
@@ -5262,7 +5262,7 @@
 │                              │                                                                               
 │                              │                  
 │                              ├ PublishedDate   : 2026-08-25T13:19:29.57Z 
-│                              ╰ LastModifiedDate: 2026-08-28T19:46:29.323Z 
+│                              ╰ LastModifiedDate: 2026-09-01T19:17:27.543Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 
