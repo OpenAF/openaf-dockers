@@ -510,7 +510,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-5278
     - https://www.openwall.com/lists/oss-security/2025/05/27/2
     PublishedDate: '2025-05-27T21:15:23.197Z'
-    LastModifiedDate: '2026-08-31T15:17:08.367Z'
+    LastModifiedDate: '2026-09-01T12:17:25.457Z'
   - VulnerabilityID: CVE-2026-54371
     PkgID: libattr1@1:2.5.2-4
     PkgName: libattr1
@@ -551,6 +551,7 @@
     - https://access.redhat.com/errata/RHSA-2026:56133
     - https://access.redhat.com/errata/RHSA-2026:59380
     - https://access.redhat.com/errata/RHSA-2026:60226
+    - https://access.redhat.com/errata/RHSA-2026:61783
     - https://access.redhat.com/security/cve/CVE-2026-54371
     - https://bugzilla.redhat.com/2490283
     - https://bugzilla.redhat.com/show_bug.cgi?id=2490283
@@ -569,7 +570,7 @@
     - https://www.openwall.com/lists/oss-security/2026/06/29/1
     - https://www.vulncheck.com/advisories/attr-symlink-traversal-privilege-escalation-via-getfattr-setfattr
     PublishedDate: '2026-06-29T14:16:57.823Z'
-    LastModifiedDate: '2026-08-27T13:18:24.933Z'
+    LastModifiedDate: '2026-09-01T13:19:48.13Z'
   - VulnerabilityID: CVE-2026-13595
     PkgID: libblkid1@2.41.3-3ubuntu2
     PkgName: libblkid1
@@ -851,6 +852,49 @@
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-h4rw-gv36-wmp5
     - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-53615
+  - VulnerabilityID: CVE-2026-42250
+    PkgID: libbz2-1.0@1.0.8-6build2
+    PkgName: libbz2-1.0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libbz2-1.0@1.0.8-6build2?arch=amd64&distro=ubuntu-26.04
+      UID: 213b0cd78c341f1b
+    InstalledVersion: 1.0.8-6build2
+    FixedVersion: 1.0.8-6ubuntu0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a13cff84dcfa0a255f209e
+      DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f259e194f8c4780e1e1a63d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-42250
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:388d84e7e5e0ed10a0317a265c95d42a595c017abdfab4329a5692854d3f4d8f
+    Title: 'bzip2: bzip2: Denial of Service in bzip2recover via a specially crafted file'
+    Description: "bzip2 contains an off‑by‑one error in the bzip2recover utility. When processing a specially crafted file, the application performs an out‑of‑bounds write to a global buffer, resulting in memory corruption and a crash (denial of service).\n\nThis issue was fixed in bzip2 patch\_35d122a3df8b0cc4082a4d89fdc6ee99f375fe67"
+    Severity: LOW
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      azure: 2
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-42250
+    - https://cert.pl/en/posts/2026/05/CVE-2026-42250/
+    - https://inbox.sourceware.org/bzip2-devel/20260528145407.293768-1-mark@klomp.org/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-42250
+    - https://sourceware.org/bzip2/
+    - https://sourceware.org/cgit/bzip2/commit/?id=35d122a3df8b0cc4082a4d89fdc6ee99f375fe67
+    - https://ubuntu.com/security/notices/USN-8685-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-42250
+    PublishedDate: '2026-05-28T14:16:19.89Z'
+    LastModifiedDate: '2026-06-17T10:47:34.687Z'
   - VulnerabilityID: CVE-2026-11856
     PkgID: libcurl4t64@8.18.0-1ubuntu2.3
     PkgName: libcurl4t64
@@ -961,7 +1005,8 @@
       PURL: pkg:deb/ubuntu/libgcrypt20@1.12.0-2ubuntu1?arch=amd64&distro=ubuntu-26.04
       UID: 45e5e1ad6adb0acd
     InstalledVersion: 1.12.0-2ubuntu1
-    Status: affected
+    FixedVersion: 1.12.0-2ubuntu1.1
+    Status: fixed
     Layer:
       Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a13cff84dcfa0a255f209e
       DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f259e194f8c4780e1e1a63d
@@ -1007,6 +1052,7 @@
     - https://linux.oracle.com/errata/ELSA-2024-9404.html
     - https://lists.gnupg.org/pipermail/gcrypt-devel/2024-March/005607.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2236
+    - https://ubuntu.com/security/notices/USN-8711-1
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
     LastModifiedDate: '2026-06-17T07:24:06.083Z'
@@ -1348,7 +1394,7 @@
     - https://ubuntu.com/security/notices/USN-8687-1
     - https://www.cve.org/CVERecord?id=CVE-2026-13757
     PublishedDate: '2026-06-29T19:16:40.907Z'
-    LastModifiedDate: '2026-08-31T16:17:52.267Z'
+    LastModifiedDate: '2026-09-01T13:18:10.253Z'
   - VulnerabilityID: CVE-2026-13595
     PkgID: libsmartcols1@2.41.3-3ubuntu2
     PkgName: libsmartcols1
@@ -2380,7 +2426,7 @@
     - https://ubuntu.com/security/notices/USN-8678-3
     - https://www.cve.org/CVERecord?id=CVE-2026-75803
     PublishedDate: '2026-08-25T13:19:29.57Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-01T19:17:27.543Z'
   - VulnerabilityID: CVE-2026-15059
     PkgID: libsystemd0@259.5-0ubuntu3
     PkgName: libsystemd0
@@ -2400,20 +2446,27 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:478fe4adf5ace9b6c11c2aea238ba4bf366674d194147f0cc444e1ac85945adb
-    Title: Local unprivileged users can terminate arbitrary local processes via a ...
+    Title: 'systemd: systemd-oomd: Unprivileged users can terminate arbitrary processes via IPC API'
     Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
     Severity: MEDIUM
     CweIDs:
     - CWE-22
     - CWE-59
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-15059
     - https://github.com/systemd/systemd/security/advisories/GHSA-652q-wxr6-h5j6
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15059
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15059
     PublishedDate: '2026-08-10T14:17:20.76Z'
-    LastModifiedDate: '2026-08-10T18:17:40.983Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-15060
     PkgID: libsystemd0@259.5-0ubuntu3
     PkgName: libsystemd0
@@ -2460,7 +2513,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15060
     PublishedDate: '2026-08-10T14:17:21.13Z'
-    LastModifiedDate: '2026-08-10T18:17:41.087Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-16742
     PkgID: libsystemd0@259.5-0ubuntu3
     PkgName: libsystemd0
@@ -2493,7 +2546,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16742
     PublishedDate: '2026-08-10T14:17:21.277Z'
-    LastModifiedDate: '2026-08-10T16:19:29.157Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: libsystemd0@259.5-0ubuntu3
     PkgName: libsystemd0
@@ -2555,20 +2608,27 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:a4b1d243d5d18fb9980edd7c26c5d00431ba3102ce55864746eb12a19478731a
-    Title: Local unprivileged users can terminate arbitrary local processes via a ...
+    Title: 'systemd: systemd-oomd: Unprivileged users can terminate arbitrary processes via IPC API'
     Description: Local unprivileged users can terminate arbitrary local processes via a systemd-oomd IPC API due to a missing path traversal validation.
     Severity: MEDIUM
     CweIDs:
     - CWE-22
     - CWE-59
     VendorSeverity:
+      redhat: 2
       ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-15059
     - https://github.com/systemd/systemd/security/advisories/GHSA-652q-wxr6-h5j6
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-15059
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15059
     PublishedDate: '2026-08-10T14:17:20.76Z'
-    LastModifiedDate: '2026-08-10T18:17:40.983Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-15060
     PkgID: libudev1@259.5-0ubuntu3
     PkgName: libudev1
@@ -2615,7 +2675,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-15060
     PublishedDate: '2026-08-10T14:17:21.13Z'
-    LastModifiedDate: '2026-08-10T18:17:41.087Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-16742
     PkgID: libudev1@259.5-0ubuntu3
     PkgName: libudev1
@@ -2648,7 +2708,7 @@
     - https://ubuntu.com/security/notices/USN-8626-1
     - https://www.cve.org/CVERecord?id=CVE-2026-16742
     PublishedDate: '2026-08-10T14:17:21.277Z'
-    LastModifiedDate: '2026-08-10T16:19:29.157Z'
+    LastModifiedDate: '2026-09-01T20:54:51.287Z'
   - VulnerabilityID: CVE-2026-40228
     PkgID: libudev1@259.5-0ubuntu3
     PkgName: libudev1
@@ -4336,7 +4396,7 @@
     - https://ubuntu.com/security/notices/USN-8678-3
     - https://www.cve.org/CVERecord?id=CVE-2026-75803
     PublishedDate: '2026-08-25T13:19:29.57Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-01T19:17:27.543Z'
   - VulnerabilityID: CVE-2026-14456
     PkgID: openssl-provider-legacy@3.5.5-1ubuntu3.2
     PkgName: openssl-provider-legacy
@@ -5087,7 +5147,7 @@
     - https://ubuntu.com/security/notices/USN-8678-3
     - https://www.cve.org/CVERecord?id=CVE-2026-75803
     PublishedDate: '2026-08-25T13:19:29.57Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-01T19:17:27.543Z'
   - VulnerabilityID: CVE-2024-56433
     PkgID: passwd@1:4.17.4-2ubuntu3
     PkgName: passwd
@@ -5920,6 +5980,7 @@
     CweIDs:
     - CWE-367
     VendorSeverity:
+      alma: 2
       julia: 2
       redhat: 2
       ubuntu: 2
@@ -5933,13 +5994,18 @@
     References:
     - https://access.redhat.com/errata/RHSA-2026:49361
     - https://access.redhat.com/errata/RHSA-2026:61581
+    - https://access.redhat.com/errata/RHSA-2026:61586
     - https://access.redhat.com/errata/RHSA-2026:61783
     - https://access.redhat.com/security/cve/CVE-2026-18477
+    - https://bugzilla.redhat.com/2455360
+    - https://bugzilla.redhat.com/2509735
+    - https://bugzilla.redhat.com/2509843
     - https://bugzilla.redhat.com/show_bug.cgi?id=2509735
+    - https://errata.almalinux.org/9/ALSA-2026-61581.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-18477
     - https://www.cve.org/CVERecord?id=CVE-2026-18477
     PublishedDate: '2026-08-03T17:16:33.897Z'
-    LastModifiedDate: '2026-09-01T03:16:48.353Z'
+    LastModifiedDate: '2026-09-01T15:17:12.357Z'
   - VulnerabilityID: CVE-2026-18508
     PkgID: tar@1.35+dfsg-4ubuntu0.4
     PkgName: tar
@@ -5964,6 +6030,7 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      alma: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -5973,13 +6040,18 @@
     References:
     - https://access.redhat.com/errata/RHSA-2026:50807
     - https://access.redhat.com/errata/RHSA-2026:61581
+    - https://access.redhat.com/errata/RHSA-2026:61586
     - https://access.redhat.com/errata/RHSA-2026:61783
     - https://access.redhat.com/security/cve/CVE-2026-18508
+    - https://bugzilla.redhat.com/2455360
+    - https://bugzilla.redhat.com/2509735
+    - https://bugzilla.redhat.com/2509843
     - https://bugzilla.redhat.com/show_bug.cgi?id=2509843
+    - https://errata.almalinux.org/9/ALSA-2026-61581.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-18508
     - https://www.cve.org/CVERecord?id=CVE-2026-18508
     PublishedDate: '2026-08-03T16:16:28.387Z'
-    LastModifiedDate: '2026-09-01T03:16:48.52Z'
+    LastModifiedDate: '2026-09-01T15:17:12.553Z'
   - VulnerabilityID: CVE-2026-13595
     PkgID: util-linux@2.41.3-3ubuntu2
     PkgName: util-linux
@@ -6315,6 +6387,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-27171
     - https://ostif.org/zlib-audit-complete
     - https://ostif.org/zlib-audit-complete/
+    - https://ubuntu.com/security/notices/USN-8706-1
     - https://www.cve.org/CVERecord?id=CVE-2026-27171
     PublishedDate: '2026-02-18T04:16:01.263Z'
     LastModifiedDate: '2026-06-17T10:26:47.357Z'
@@ -6593,7 +6666,12 @@
     - https://access.redhat.com/errata/RHSA-2026:57545
     - https://access.redhat.com/errata/RHSA-2026:57649
     - https://access.redhat.com/errata/RHSA-2026:57845
+    - https://access.redhat.com/errata/RHSA-2026:60441
+    - https://access.redhat.com/errata/RHSA-2026:60442
+    - https://access.redhat.com/errata/RHSA-2026:60477
+    - https://access.redhat.com/errata/RHSA-2026:60478
     - https://access.redhat.com/errata/RHSA-2026:60520
+    - https://access.redhat.com/errata/RHSA-2026:60668
     - https://access.redhat.com/errata/RHSA-2026:61253
     - https://access.redhat.com/security/cve/CVE-2026-33814
     - https://bugzilla.redhat.com/show_bug.cgi?id=2467809
@@ -6638,7 +6716,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-08-31T13:17:46.09Z'
+    LastModifiedDate: '2026-09-01T13:18:52.72Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
