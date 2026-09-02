@@ -814,7 +814,7 @@
     - https://ubuntu.com/security/notices/USN-8678-3
     - https://www.cve.org/CVERecord?id=CVE-2026-75803
     PublishedDate: '2026-08-25T13:19:29.57Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-01T19:17:27.543Z'
   - VulnerabilityID: CVE-2026-14456
     PkgID: libssl3@3.5.7-r0
     PkgName: libssl3
@@ -1555,7 +1555,7 @@
     - https://ubuntu.com/security/notices/USN-8678-3
     - https://www.cve.org/CVERecord?id=CVE-2026-75803
     PublishedDate: '2026-08-25T13:19:29.57Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-01T19:17:27.543Z'
   - VulnerabilityID: CVE-2026-41254
     PkgID: openjdk21-jre@21.0.11_p10-r0
     PkgName: openjdk21-jre
@@ -3970,7 +3970,7 @@
     - https://ubuntu.com/security/notices/USN-8678-3
     - https://www.cve.org/CVERecord?id=CVE-2026-75803
     PublishedDate: '2026-08-25T13:19:29.57Z'
-    LastModifiedDate: '2026-08-28T19:46:29.323Z'
+    LastModifiedDate: '2026-09-01T19:17:27.543Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
