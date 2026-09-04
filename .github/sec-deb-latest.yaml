@@ -205,7 +205,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:e30572b9f011be6de711064a0d12e20ba47c0426671fb4be16e7513402729473
     Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
-    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Description: When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 3
@@ -518,7 +518,8 @@
       PURL: pkg:deb/ubuntu/gpgv@2.4.8-4ubuntu3?arch=amd64&distro=ubuntu-26.04
       UID: 9734b1200df7179f
     InstalledVersion: 2.4.8-4ubuntu3
-    Status: affected
+    FixedVersion: 2.4.8-4ubuntu3.1
+    Status: fixed
     Layer:
       Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a13cff84dcfa0a255f209e
       DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f259e194f8c4780e1e1a63d
@@ -553,6 +554,7 @@
     - https://blog.calif.io/p/how-to-format-a-ciphertext
     - https://github.com/advisories/GHSA-m6x2-4hhh-669j
     - https://nvd.nist.gov/vuln/detail/CVE-2026-57062
+    - https://ubuntu.com/security/notices/USN-8720-1
     - https://www.cve.org/CVERecord?id=CVE-2026-57062
     - https://www.gnupg.org/download
     - https://www.gnupg.org/download/
@@ -820,7 +822,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:c7e2a3c2980a25a895133d42335965c01ec78e8a824ce6c147c03b7e26d96d6c
     Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
-    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Description: When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 3
@@ -942,6 +944,141 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42250
     PublishedDate: '2026-05-28T14:16:19.89Z'
     LastModifiedDate: '2026-06-17T10:47:34.687Z'
+  - VulnerabilityID: CVE-2026-18374
+    PkgID: libc-bin@2.43-2ubuntu2.3
+    PkgName: libc-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc-bin@2.43-2ubuntu2.3?arch=amd64&distro=ubuntu-26.04
+      UID: b5a90107454ed975
+    InstalledVersion: 2.43-2ubuntu2.3
+    Status: affected
+    Layer:
+      Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a13cff84dcfa0a255f209e
+      DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f259e194f8c4780e1e1a63d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-18374
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:2779ef34c607b19222381017e056fce321154694e8e1789db30cbd5488896988
+    Title: 'glibc: glibc: Heap buffer overflow via attacker-controlled fopen mode string'
+    Description: |-
+      Passing an effectively empty string to the `,ccs=` syntax extension of the mode argument in the `fopen` function in the GNU C Library version 2.45 or earlier may result in a heap buffer overflow when the mode string input to the function is attacker controlled.
+
+
+
+      This usage pattern is not seen in applications in common GNU/Linux distributions and applications that process user-supplied values for `ccs` should not pass them through without validation.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 4.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/27/6
+    - https://access.redhat.com/security/cve/CVE-2026-18374
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-18374
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=34574
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0015
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0015
+    - https://www.cve.org/CVERecord?id=CVE-2026-18374
+    PublishedDate: '2026-08-27T20:17:03.553Z'
+    LastModifiedDate: '2026-09-03T16:43:15.293Z'
+  - VulnerabilityID: CVE-2026-18374
+    PkgID: libc-gconv-modules-extra@2.43-2ubuntu2.3
+    PkgName: libc-gconv-modules-extra
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc-gconv-modules-extra@2.43-2ubuntu2.3?arch=amd64&distro=ubuntu-26.04
+      UID: 7b69c26113a31c8
+    InstalledVersion: 2.43-2ubuntu2.3
+    Status: affected
+    Layer:
+      Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a13cff84dcfa0a255f209e
+      DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f259e194f8c4780e1e1a63d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-18374
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:fbcab5eac11f2ded8f0ba6b7e1fdc8973a71b69a3eae57a3c660baee0552aeb5
+    Title: 'glibc: glibc: Heap buffer overflow via attacker-controlled fopen mode string'
+    Description: |-
+      Passing an effectively empty string to the `,ccs=` syntax extension of the mode argument in the `fopen` function in the GNU C Library version 2.45 or earlier may result in a heap buffer overflow when the mode string input to the function is attacker controlled.
+
+
+
+      This usage pattern is not seen in applications in common GNU/Linux distributions and applications that process user-supplied values for `ccs` should not pass them through without validation.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 4.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/27/6
+    - https://access.redhat.com/security/cve/CVE-2026-18374
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-18374
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=34574
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0015
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0015
+    - https://www.cve.org/CVERecord?id=CVE-2026-18374
+    PublishedDate: '2026-08-27T20:17:03.553Z'
+    LastModifiedDate: '2026-09-03T16:43:15.293Z'
+  - VulnerabilityID: CVE-2026-18374
+    PkgID: libc6@2.43-2ubuntu2.3
+    PkgName: libc6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc6@2.43-2ubuntu2.3?arch=amd64&distro=ubuntu-26.04
+      UID: 521129d431961416
+    InstalledVersion: 2.43-2ubuntu2.3
+    Status: affected
+    Layer:
+      Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a13cff84dcfa0a255f209e
+      DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f259e194f8c4780e1e1a63d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-18374
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:88511bb5fc70e3cc3f1dfc1fcfb384569d861f4970c77b114db5b7be352f1937
+    Title: 'glibc: glibc: Heap buffer overflow via attacker-controlled fopen mode string'
+    Description: |-
+      Passing an effectively empty string to the `,ccs=` syntax extension of the mode argument in the `fopen` function in the GNU C Library version 2.45 or earlier may result in a heap buffer overflow when the mode string input to the function is attacker controlled.
+
+
+
+      This usage pattern is not seen in applications in common GNU/Linux distributions and applications that process user-supplied values for `ccs` should not pass them through without validation.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 4.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/08/27/6
+    - https://access.redhat.com/security/cve/CVE-2026-18374
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-18374
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=34574
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2026-0015
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0015
+    - https://www.cve.org/CVERecord?id=CVE-2026-18374
+    PublishedDate: '2026-08-27T20:17:03.553Z'
+    LastModifiedDate: '2026-09-03T16:43:15.293Z'
   - VulnerabilityID: CVE-2026-11856
     PkgID: libcurl4t64@8.18.0-1ubuntu2.3
     PkgName: libcurl4t64
@@ -1305,7 +1442,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:7a3d157e7ea3fb61d17a2ad86bc2c1885d091af35df2b1996e174b7d784d73d0
     Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
-    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Description: When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 3
@@ -1644,7 +1781,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:138ebd0990e9bf1b47c5a032b61a1776839a433e4fbec916a15a5c7d56071aa1
     Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
-    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Description: When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 3
@@ -1723,6 +1860,192 @@
     - https://github.com/util-linux/util-linux/security/advisories/GHSA-h4rw-gv36-wmp5
     - https://ubuntu.com/security/notices/USN-8702-1
     - https://www.cve.org/CVERecord?id=CVE-2026-53615
+  - VulnerabilityID: CVE-2026-39113
+    PkgID: libsqlite3-0@3.46.1-9ubuntu0.2
+    PkgName: libsqlite3-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsqlite3-0@3.46.1-9ubuntu0.2?arch=amd64&distro=ubuntu-26.04
+      UID: 43e137998d428fb9
+    InstalledVersion: 3.46.1-9ubuntu0.2
+    Status: affected
+    Layer:
+      Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a13cff84dcfa0a255f209e
+      DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f259e194f8c4780e1e1a63d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-39113
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:1384fabc9bcec4b3384c4930d93ff37cfe651f847781be24d2c2da84568ed433
+    Title: Buffer Overflow vulnerability in SQLite affected version source snapsh ...
+    Description: Buffer Overflow vulnerability in SQLite affected version source snapshots/builds containing Fossil check-in 8bdc0d485e3ad0c7a1e818da66f106951d496b05cbe61d12c2c448f2f24b6d5d (Git mirror 169f68ed88b34cb68f720191c64c058f2ccec508, 2026-03-11) and later snapshots/builds allows an attacker to cause a denial of service via the ext/misc/sqlar.c, sqlarUncompressFunc(), sqlar_uncompress(), sqlite3_value_int64(), sqlite3_malloc(int), uncompress() components
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://github.com/20000419/CVE-2026-39113
+    - https://github.com/sqlite/sqlite/blob/169f68ed88b34cb68f720191c64c058f2ccec508/ext/misc/sqlar.c
+    - https://github.com/sqlite/sqlite/commit/169f68ed88b34cb68f720191c64c058f2ccec508
+    - https://github.com/sqlite/sqlite/commit/169f68ed88b34cb68f720191c64c058f2ccec508%20%28version-3.53.0%29
+    - https://www.cve.org/CVERecord?id=CVE-2026-39113
+    - https://www.sqlite.org/
+    - https://www.sqlite.org/sqlar.html
+    PublishedDate: '2026-08-25T21:17:00.08Z'
+    LastModifiedDate: '2026-08-31T16:17:59.35Z'
+  - VulnerabilityID: CVE-2026-66032
+    PkgID: libssh2-1t64@1.11.1-1ubuntu0.26.04.3
+    PkgName: libssh2-1t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh2-1t64@1.11.1-1ubuntu0.26.04.3?arch=amd64&distro=ubuntu-26.04
+      UID: cf462efc5cfd37b7
+    InstalledVersion: 1.11.1-1ubuntu0.26.04.3
+    FixedVersion: 1.11.1-1ubuntu0.26.04.4
+    Status: fixed
+    Layer:
+      Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a13cff84dcfa0a255f209e
+      DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f259e194f8c4780e1e1a63d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-66032
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:cc8d582054c43f9aeaca47874382de70c344299e2a59430ea9f3bcb55b656677
+    Title: 'libssh2: libssh2: Arbitrary code execution via double-free in SFTP session'
+    Description: libssh2 through 1.11.1, fixed in commit 5e47761, contains a double-free vulnerability in the sftp_open() function in src/sftp.c that allows a malicious SSH server to corrupt the heap of any authenticated client opening an SFTP session. When a server responds to SSH_FXP_OPEN with SSH_FXP_STATUS containing FX_OK, the response data buffer is freed, and if a subsequent sftp_packet_require() call returns a specific error such as LIBSSH2_ERROR_CHANNEL_PACKET_EXCEEDED, the same pointer is freed a second time, enabling tcache dup conditions on glibc systems that allow overlapping allocations and function pointer overwrites.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-415
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      julia: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V3Score: 8.8
+        V40Score: 8.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-66032
+    - https://github.com/advisories/GHSA-83r8-6c29-8gwr
+    - https://github.com/libssh2/libssh2/commit/5e4776146552d898b9c0e1b313cd093fa8dc92d0
+    - https://github.com/libssh2/libssh2/pull/2180
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-66032
+    - https://ubuntu.com/security/notices/USN-8722-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-66032
+    - https://www.vulncheck.com/advisories/libssh2-double-free-heap-corruption-via-sftp-open
+    PublishedDate: '2026-07-24T17:17:35.12Z'
+    LastModifiedDate: '2026-08-07T01:07:10.71Z'
+  - VulnerabilityID: CVE-2026-66033
+    PkgID: libssh2-1t64@1.11.1-1ubuntu0.26.04.3
+    PkgName: libssh2-1t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh2-1t64@1.11.1-1ubuntu0.26.04.3?arch=amd64&distro=ubuntu-26.04
+      UID: cf462efc5cfd37b7
+    InstalledVersion: 1.11.1-1ubuntu0.26.04.3
+    FixedVersion: 1.11.1-1ubuntu0.26.04.4
+    Status: fixed
+    Layer:
+      Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a13cff84dcfa0a255f209e
+      DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f259e194f8c4780e1e1a63d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-66033
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:46c49179da06dc5916cae63ce007462b4407810aaf4c4897e82ab828ebeb5eac
+    Title: 'libssh2: libssh2: Denial of Service via integer underflow in AES-GCM cipher negotiation'
+    Description: libssh2 through 1.11.1, fixed in commit a2ed82d, contains a pre-authentication integer underflow vulnerability in the ssh2_cipher_crypt() function in src/openssl.c that allows a malicious SSH server to crash any connecting client by negotiating AES-GCM ciphers during handshake. Attackers can exploit the underflow in the expression computing blocksize minus aadlen minus authentication tag length to trigger an out-of-bounds read and a memcpy call with a near-SIZE_MAX length argument, causing immediate process crash before any authentication occurs.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    - CWE-191
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      julia: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N
+        V3Score: 7.5
+        V40Score: 8.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-66033
+    - https://github.com/advisories/GHSA-2g8c-wcg8-r65c
+    - https://github.com/libssh2/libssh2/commit/a2ed82d40964bbc0d64cd717aa0a5a892117d2e6
+    - https://github.com/libssh2/libssh2/pull/2401
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-66033
+    - https://ubuntu.com/security/notices/USN-8722-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-66033
+    - https://www.vulncheck.com/advisories/libssh2-integer-underflow-dos-via-aes-gcm-cipher-negotiation
+    PublishedDate: '2026-07-24T17:17:35.263Z'
+    LastModifiedDate: '2026-07-30T15:44:47.257Z'
+  - VulnerabilityID: CVE-2026-66035
+    PkgID: libssh2-1t64@1.11.1-1ubuntu0.26.04.3
+    PkgName: libssh2-1t64
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh2-1t64@1.11.1-1ubuntu0.26.04.3?arch=amd64&distro=ubuntu-26.04
+      UID: cf462efc5cfd37b7
+    InstalledVersion: 1.11.1-1ubuntu0.26.04.3
+    FixedVersion: 1.11.1-1ubuntu0.26.04.4
+    Status: fixed
+    Layer:
+      Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a13cff84dcfa0a255f209e
+      DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f259e194f8c4780e1e1a63d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-66035
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Fingerprint: sha256:c3427f246b8d981beb120e27ce33c98c3e8c0e1bbfc202c994288dc65e635457
+    Title: 'libssh2: libssh2: Arbitrary code execution via heap buffer overflow during SSH negotiation'
+    Description: libssh2 through 1.11.1, fixed in commit 42e33d8, contains a pre-authentication heap buffer overflow vulnerability that allows a malicious SSH server to corrupt heap metadata in any connecting client by sending a packet with a packet_length smaller than the cipher's block size during Encrypt-then-MAC cipher negotiation. In the fullpacket() function in src/transport.c, the ETM path allocates a buffer of packet_length bytes but copies blocksize minus one bytes via memcpy, causing an overflow that on 32-bit glibc writes attacker-controlled bytes into an adjacent chunk's SIZE field, enabling tcache bin confusion, overlapping live objects, and function pointer overwrite during the session handshake before authentication.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      amazon: 3
+      azure: 3
+      julia: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      julia:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N
+        V3Score: 7.5
+        V40Score: 7.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-66035
+    - https://github.com/advisories/GHSA-v6rf-8q4r-r495
+    - https://github.com/libssh2/libssh2/commit/42e33d81577ed4b95d4b4f6f845e5ee8efe5eeb4
+    - https://github.com/libssh2/libssh2/pull/2198
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-66035
+    - https://ubuntu.com/security/notices/USN-8722-1
+    - https://www.cve.org/CVERecord?id=CVE-2026-66035
+    - https://www.vulncheck.com/advisories/libssh2-heap-buffer-overflow-via-etm-cipher-negotiation
+    PublishedDate: '2026-07-24T17:17:35.547Z'
+    LastModifiedDate: '2026-07-30T15:41:05.69Z'
   - VulnerabilityID: CVE-2026-14456
     PkgID: libssl3t64@3.5.5-1ubuntu3.2
     PkgName: libssl3t64
@@ -3014,7 +3337,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:61c6cd15d61335f98eaf9eec8b4bdbdc573c7f66f4dda64047014494b94ab177
     Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
-    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Description: When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 3
@@ -3295,7 +3618,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:e77fe7f4e87acd2af92facee2e1fdfa853105975ca09171d5d6bafa70f13b3e1
     Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
-    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Description: When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 3
@@ -3628,7 +3951,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:aaf28d821d000e428df165e186b68b2c9f0c77fcf443d63a1df6c2ebbd942466
     Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
-    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Description: When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 3
@@ -6073,7 +6396,7 @@
     - https://errata.almalinux.org/9/ALSA-2026-61581.html
     - https://errata.rockylinux.org/RLSA-2026:61581
     - https://linux.oracle.com/cve/CVE-2026-18477.html
-    - https://linux.oracle.com/errata/ELSA-2026-61581-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-61586-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-18477
     - https://www.cve.org/CVERecord?id=CVE-2026-18477
     PublishedDate: '2026-08-03T17:16:33.897Z'
@@ -6130,7 +6453,7 @@
     - https://errata.almalinux.org/9/ALSA-2026-61581.html
     - https://errata.rockylinux.org/RLSA-2026:61581
     - https://linux.oracle.com/cve/CVE-2026-18508.html
-    - https://linux.oracle.com/errata/ELSA-2026-61581-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-61586-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-18508
     - https://www.cve.org/CVERecord?id=CVE-2026-18508
     PublishedDate: '2026-08-03T16:16:28.387Z'
@@ -6337,7 +6660,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Fingerprint: sha256:ec15d995fc7fc13b65f684c9da2955ce0d03bd9f397a657b52615c16eabd4c2a
     Title: 'util-linux: util-linux: TOCTOU in the mount program via ancestor directory swap on target path'
-    Description: A flaw was found in util-linux. When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
+    Description: When an /etc/fstab entry is configured with the user or users option, mount(8) validates the target path before performing the mount syscall, creating a Time-of-Check-Time-of-Use (TOCTOU) window. A local unprivileged user with write access to an ancestor directory of the mount target can swap that directory to redirect the mount to an arbitrary root-owned location, potentially escalating privileges to root.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 3
@@ -6749,6 +7072,8 @@
     - https://access.redhat.com/errata/RHSA-2026:57545
     - https://access.redhat.com/errata/RHSA-2026:57649
     - https://access.redhat.com/errata/RHSA-2026:57845
+    - https://access.redhat.com/errata/RHSA-2026:59833
+    - https://access.redhat.com/errata/RHSA-2026:60025
     - https://access.redhat.com/errata/RHSA-2026:60441
     - https://access.redhat.com/errata/RHSA-2026:60442
     - https://access.redhat.com/errata/RHSA-2026:60446
@@ -6802,7 +7127,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-09-02T13:17:27.973Z'
+    LastModifiedDate: '2026-09-03T13:05:20.56Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -7376,12 +7701,12 @@
     - https://go.dev/issue/80405
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://linux.oracle.com/cve/CVE-2026-33818.html
-    - https://linux.oracle.com/errata/ELSA-2026-60306-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-63022-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-33818
     - https://pkg.go.dev/vuln/GO-2026-5972
     - https://www.cve.org/CVERecord?id=CVE-2026-33818
     PublishedDate: '2026-08-13T22:17:19.84Z'
-    LastModifiedDate: '2026-08-14T16:16:55.317Z'
+    LastModifiedDate: '2026-09-03T16:37:52.17Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -7748,12 +8073,12 @@
     - https://go.dev/issue/80205
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://linux.oracle.com/cve/CVE-2026-56853.html
-    - https://linux.oracle.com/errata/ELSA-2026-60306-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-63022-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56853
     - https://pkg.go.dev/vuln/GO-2026-6089
     - https://www.cve.org/CVERecord?id=CVE-2026-56853
     PublishedDate: '2026-08-13T22:17:22.093Z'
-    LastModifiedDate: '2026-08-14T16:16:57.21Z'
+    LastModifiedDate: '2026-09-03T16:37:52.17Z'
   - VulnerabilityID: CVE-2026-56858
     VendorIDs:
     - GO-2026-6091
@@ -7821,12 +8146,12 @@
     - https://go.dev/issue/80435
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://linux.oracle.com/cve/CVE-2026-56858.html
-    - https://linux.oracle.com/errata/ELSA-2026-60306-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-63022-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56858
     - https://pkg.go.dev/vuln/GO-2026-6091
     - https://www.cve.org/CVERecord?id=CVE-2026-56858
     PublishedDate: '2026-08-13T22:17:22.207Z'
-    LastModifiedDate: '2026-08-14T16:16:57.367Z'
+    LastModifiedDate: '2026-09-03T16:37:52.17Z'
   - VulnerabilityID: CVE-2026-56859
     VendorIDs:
     - GO-2026-6088
@@ -7894,12 +8219,12 @@
     - https://go.dev/issue/80481
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://linux.oracle.com/cve/CVE-2026-56859.html
-    - https://linux.oracle.com/errata/ELSA-2026-60306-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-63022-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56859
     - https://pkg.go.dev/vuln/GO-2026-6088
     - https://www.cve.org/CVERecord?id=CVE-2026-56859
     PublishedDate: '2026-08-13T22:17:22.32Z'
-    LastModifiedDate: '2026-08-14T16:16:57.523Z'
+    LastModifiedDate: '2026-09-03T16:37:52.17Z'
   - VulnerabilityID: CVE-2026-56860
     VendorIDs:
     - GO-2026-6218
@@ -7967,12 +8292,12 @@
     - https://go.dev/issue/80494
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://linux.oracle.com/cve/CVE-2026-56860.html
-    - https://linux.oracle.com/errata/ELSA-2026-60306-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-63022-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56860
     - https://pkg.go.dev/vuln/GO-2026-6218
     - https://www.cve.org/CVERecord?id=CVE-2026-56860
     PublishedDate: '2026-08-13T22:17:22.44Z'
-    LastModifiedDate: '2026-08-14T17:19:13.91Z'
+    LastModifiedDate: '2026-09-03T16:37:52.17Z'
   - VulnerabilityID: CVE-2026-56862
     VendorIDs:
     - GO-2026-6090
@@ -8040,12 +8365,12 @@
     - https://go.dev/issue/80528
     - https://groups.google.com/g/golang-announce/c/94pEornpRlI
     - https://linux.oracle.com/cve/CVE-2026-56862.html
-    - https://linux.oracle.com/errata/ELSA-2026-60306-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-63022-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56862
     - https://pkg.go.dev/vuln/GO-2026-6090
     - https://www.cve.org/CVERecord?id=CVE-2026-56862
     PublishedDate: '2026-08-13T22:17:22.55Z'
-    LastModifiedDate: '2026-08-14T16:16:57.717Z'
+    LastModifiedDate: '2026-09-03T16:37:52.17Z'
   - VulnerabilityID: CVE-2026-42505
     VendorIDs:
     - GO-2026-5856
