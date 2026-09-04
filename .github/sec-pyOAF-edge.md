@@ -19,15 +19,10 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:d522d46a267778d2a02f411d8b6757f75c75a55d9d7d484984760
-│                       │      │                   135c69470e9 
-│                       │      ├ Title           : OpenLDAP SASL authentication bypass 
-│                       │      ├ Description     : A flaw in the libcurl SASL negotiation for LDAP
-│                       │      │                   authentication allows an incomplete handshake sequence to be
-│                       │      │                    misinterpreted as a successful cryptographic verification.
-│                       │      │                   An attacker executing a Man-in-the-Middle (MITM) attack can
-│                       │      │                   inject a premature or shortcut response that bypasses
-│                       │      │                   complete peer validation. 
+│                       │      ├ Fingerprint     : sha256:7bc2dc8bc95c7fc008b733206c1938a3f07a0b8af72668f34b986
+│                       │      │                   10f70189bb7 
+│                       │      ├ Title           : Title Not Available 
+│                       │      ├ Description     : Description Not Available 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2026-18924 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
@@ -45,13 +40,10 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:1bc9c441e382f1a682c9a9ea302cd0a6ef87022a83e90b62c4f9d
-│                       │      │                   14778d1b2b2 
-│                       │      ├ Title           : HTTP/2 server push UAF 
-│                       │      ├ Description     : A flaw in libcurl's handling of HTTP/2 Server Push streams,
-│                       │      │                   when the parent handle is set to share connections with
-│                       │      │                   other handles, can lead to use-after-free in the cleanup
-│                       │      │                   process. 
+│                       │      ├ Fingerprint     : sha256:2263257c5cb5d3ca5e6ad13ffdd8f44398666e2f986d0c0c7612a
+│                       │      │                   7df8141179c 
+│                       │      ├ Title           : Title Not Available 
+│                       │      ├ Description     : Description Not Available 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2026-19931 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
@@ -69,8 +61,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:19baad8df59e135ed1b3a2df2a6cbf7e78c64de103ce932392c16
-│                       │      │                   8a8e730f247 
+│                       │      ├ Fingerprint     : sha256:fd36bbb6a3fdd64dc161525badafce112e70a2fc105ee691c74a0
+│                       │      │                   d83049d00ae 
 │                       │      ├ Title           : Negotiate ambient user conn reuse 
 │                       │      ├ Description     : A flaw in libcurl makes it wrongly reuse an HTTP connection
 │                       │      │                   setup for a given hostname using Negotiate authentication,
@@ -94,18 +86,10 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:3794eaae15fe06ad69e5d918a99c517ad8dbc73bffc108ca0f8eb
-│                       │      │                   8d7f7f1b73d 
-│                       │      ├ Title           : OpenSSL provider use-after-free 
-│                       │      ├ Description     : When performing transfers via libcurl’s multi interface,
-│                       │      │                   pooled TLS connections can outlive their originating easy
-│                       │      │                   handles. In OpenSSL 3 provider configurations, libcurl
-│                       │      │                   attaches an allocated library context to the easy handle's
-│                       │      │                   state and passes it to OpenSSL without acquiring an
-│                       │      │                   ownership reference; destroying the easy handle prematurely
-│                       │      │                   frees this context while the active connection retains a
-│                       │      │                   dangling pointer, leading to a heap-use-after-free upon
-│                       │      │                   subsequent I/O or post-handshake operations. 
+│                       │      ├ Fingerprint     : sha256:aaf55aed4afdaa2bb5d681e16e941675740add3d67b93d38116cd
+│                       │      │                   83571b080a4 
+│                       │      ├ Title           : [Unknown description] 
+│                       │      ├ Description     : [Unknown description] 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2026-80230 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
@@ -123,8 +107,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:532cc7d0e8a0d1eca5da32953feded2fd1d18876c0fdb5a40e9f1
-│                       │      │                   40074b4f4b6 
+│                       │      ├ Fingerprint     : sha256:0452be0ac7cd19292f7b325af41a65f8d5379acc4c270103d1880
+│                       │      │                   2d6d46eac35 
 │                       │      ├ Title           : OpenSSL pinning bypass 
 │                       │      ├ Description     : When `CURLOPT_PINNEDPUBLICKEY` is configured alongside
 │                       │      │                   options that disable standard peer verification
@@ -151,13 +135,10 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:77e45c35e0559b72faa374a27f72b81142d7f0548bb86f1054d1d
-│                       │      │                   19761faa63a 
-│                       │      ├ Title           : native CA store conn reuse 
-│                       │      ├ Description     : A flaw in libcurl makes it wrongly reuse an existing HTTPS
-│                       │      │                   connection setup for a given hostname even when using a
-│                       │      │                   different Native CA Store setting (`CURLSSLOPT_NATIVE_CA`)
-│                       │      │                   than when the connection was created. 
+│                       │      ├ Fingerprint     : sha256:06d53b0529a1d29e045709a4cbedc24db14d1162b42bbdf6c6f24
+│                       │      │                   3d267e62794 
+│                       │      ├ Title           : [Unknown description] 
+│                       │      ├ Description     : [Unknown description] 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2026-80255 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
@@ -175,15 +156,10 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:e1eabf9c8ef974e602fbeb9649c4bd09314c677f561fa389572f8
-│                       │      │                   1de8fb7c64e 
-│                       │      ├ Title           : secure cookie attribute bypass with tab 
-│                       │      ├ Description     : A `Set-Cookie:` header using tab (horizontal tab, ASCII code
-│                       │      │                    9) instead of space (ascii code 32) immediately before the
-│                       │      │                   `Secure` attribute causes curl to store the cookie without
-│                       │      │                   its Secure flag. The cookie might then wrongfully be sent
-│                       │      │                   over plaintext HTTP on subsequent requests to the same
-│                       │      │                   host. 
+│                       │      ├ Fingerprint     : sha256:7c3d0cdcf360d6085701f4ec709a2a3e6471501855eaf71c8e9be
+│                       │      │                   6dbe347c58c 
+│                       │      ├ Title           : [Unknown description] 
+│                       │      ├ Description     : [Unknown description] 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2026-80256 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
@@ -200,8 +176,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:5d77d557c424bcb7c4a941de078022c7b8334c770956d97981030
-│                       │      │                   5641bf6e634 
+│                       │      ├ Fingerprint     : sha256:3451380c52067bddea6f1f7ca71c868849a2a58dfe0ba812374b8
+│                       │      │                   8dc2fcaf709 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2026-82208 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
@@ -219,10 +195,10 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:b20eb03087a6d4e4b4f73bf63c15e44235493dd618345e060bf76
-│                       │      │                   fe4ff309901 
-│                       │      ├ Title           : Title Not Available 
-│                       │      ├ Description     : Description Not Available 
+│                       │      ├ Fingerprint     : sha256:7f19b5860280507b0e7b88522d1334826a16939b89cb89f479f4a
+│                       │      │                   8016b03800a 
+│                       │      ├ Title           : [Unknown description] 
+│                       │      ├ Description     : [Unknown description] 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2026-82209 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
@@ -240,8 +216,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:0150d72eada619b98d9d6718986192abaa2d19290d0cbda10391b
-│                       │      │                   3239429e3df 
+│                       │      ├ Fingerprint     : sha256:037005a9902ddf94eebc7e0770a370973499818973f63d43c9eaa
+│                       │      │                   21262ef70f3 
 │                       │      ├ Title           : domain-scoped PSL domain cookie 
 │                       │      ├ Description     : When libpsl support is enabled, libcurl fails to enforce the
 │                       │      │                    Public Suffix List boundary check when processing a
@@ -271,8 +247,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:6ecd662ef31c0a57a3b52b03bc717ec144c558bab0d957efb2bc9
-│                       │      │                   fc367f9a107 
+│                       │      ├ Fingerprint     : sha256:6585906abcd941b103a9efb3a8326b121c51c2a3010c082325174
+│                       │      │                   e7c13f6ef73 
 │                       │      ├ Title           : giflib: giflib: Denial of Service via buffer overflow in
 │                       │      │                   EGifGCBToExtension 
 │                       │      ├ Description     : Buffer Overflow vulnerability in giflib v.5.2.2 allows a
@@ -356,8 +332,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:83e8ff137bb2b33f85e42983a7bda41b198c4c700f61fce277a4c
-│                       │      │                   21ed6cd7839 
+│                       │      ├ Fingerprint     : sha256:0ef163076e2986b359607fc3fd86d57ea9b9b5abf0e162021ed65
+│                       │      │                   260258dd4bb 
 │                       │      ├ Title           : openssl: OpenSSL: Denial of Service via unbounded memory
 │                       │      │                   growth in QUIC server 
 │                       │      ├ Description     : Issue summary: When an OpenSSL QUIC server (Listener SSL
@@ -458,8 +434,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:7eeeaae9c61f8537e86f770f853ad14df8ef4b7d155b901c1004b
-│                       │      │                   f112efa948e 
+│                       │      ├ Fingerprint     : sha256:73eddab93dd6eb0e675de47364b35fd1a75eeb657c98670e566e3
+│                       │      │                   d0e1c557593 
 │                       │      ├ Title           : openssl: QUIC server may trigger double free when processing
 │                       │      │                    INITIAL packet 
 │                       │      ├ Description     : Issue summary: QUIC server may double free QRX (QUIC record
@@ -551,8 +527,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:3cbf8ef5113541dd615e599bacf1971f4fffa454c0419a6613544
-│                       │      │                   4a7e3aabbf4 
+│                       │      ├ Fingerprint     : sha256:cf53f0c47f1a426a74e20bd516ba1af76619c50f9fe588e3beb93
+│                       │      │                   db9b3fb1592 
 │                       │      ├ Title           : openssl: heap buffer overflow in CMS key unwrapping 
 │                       │      ├ Description     : Issue summary: OpenSSL CMS decryption sizes the key-unwrap
 │                       │      │                   output buffer based
@@ -651,8 +627,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:376d57134863fe7152b884e12189350e474f6729b168a4fb38eec
-│                       │      │                   9141fc4fed6 
+│                       │      ├ Fingerprint     : sha256:998f45b9fa58442196bf49433eb0c43c5facb40b81a77bd1eb7ed
+│                       │      │                   191c8db416e 
 │                       │      ├ Title           : openssl: invalid pointer dereference in CMP server via
 │                       │      │                   crafted protectionAlg 
 │                       │      ├ Description     : Issue summary: OpenSSL CMP password based protection
@@ -760,8 +736,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:698087b405eb27b697a6220b845aaad9e28ce9270d575fdb3ad43
-│                       │      │                   69be8e3ef1b 
+│                       │      ├ Fingerprint     : sha256:8f0b6a75ed9de12c4a2bf3828b615fd83f74b922a612f16e24c73
+│                       │      │                   09ac699765c 
 │                       │      ├ Title           : openssl: RPK server signature algorithm selection can
 │                       │      │                   dereference a missing certificate 
 │                       │      ├ Description     : Issue summary: In a server or client configuration with
@@ -850,8 +826,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:7345e5b8c63943e46d2a447ee7a6b70fb08802f71a7678c63d595
-│                       │      │                   bc3ecf14f0c 
+│                       │      ├ Fingerprint     : sha256:e2325c091c823159b298ea3a3db1d84646099050eef3d3e80873a
+│                       │      │                   3a436add6cf 
 │                       │      ├ Title           : openssl: excessive memory use buffering DTLS records for a
 │                       │      │                   future epoch 
 │                       │      ├ Description     : Issue summary: Receiving a DTLS record for a future epoch
@@ -980,8 +956,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:b270e408092e7fe1e86df280ad55c69e18296fc2c60f89675d364
-│                       │      │                   c429ed1e6fd 
+│                       │      ├ Fingerprint     : sha256:f43abe42c950ae42228c05f32e60ae2fedc02b1449edec185a551
+│                       │      │                   eb200976bd2 
 │                       │      ├ Title           : openssl: untrusted sender DN used as format string in CMP
 │                       │      │                   response validation 
 │                       │      ├ Description     : Issue summary: OpenSSL CMP response validation passed an
@@ -1075,8 +1051,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:1ebbb6afa14d2d2e3580b7357455e997986d33e4008fd09a9daa6
-│                       │      │                   2056690b599 
+│                       │      ├ Fingerprint     : sha256:275c6ecd0df02729dda0b731634d66694647a50dcc156e80e44d8
+│                       │      │                   abdba1305c0 
 │                       │      ├ Title           : openssl: CMP indefinite cache growth of ExtraCerts 
 │                       │      ├ Description     : Issue summary: The OpenSSL Certificate Management Protocol
 │                       │      │                   (CMP) caches
@@ -1172,8 +1148,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:98adb404e2bb31287fa92d9e6d8d80b3532631593f599acdadea0
-│                       │      │                   c7acddbabc2 
+│                       │      ├ Fingerprint     : sha256:7c5920633ac0336bce9d051030228ccf172f1f48f1ba571f266a4
+│                       │      │                   e802af2f72b 
 │                       │      ├ Title           : openssl: QUIC ACK-only packet retention can cause memory
 │                       │      │                   exhaustion 
 │                       │      ├ Description     : Issue summary: When OpenSSL processes QUIC traffic from a
@@ -1270,8 +1246,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:a1411514ebfcdfbada13b8ef3e81ab1f4ed8024f313b49f5d554a
-│                       │      │                   11b25940a37 
+│                       │      ├ Fingerprint     : sha256:39a4e0a21e811f5a0094b91818c0d22da96f175514d0dd7cb8f59
+│                       │      │                   29328e8f545 
 │                       │      ├ Title           : Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with
 │                       │      │                    an empty  ... 
 │                       │      ├ Description     : Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with
@@ -1351,15 +1327,10 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:e878f438ed2de91f317e1bba8e4377d71edb1b71a65bbcc3a68ad
-│                       │      │                   61774e81b8b 
-│                       │      ├ Title           : OpenLDAP SASL authentication bypass 
-│                       │      ├ Description     : A flaw in the libcurl SASL negotiation for LDAP
-│                       │      │                   authentication allows an incomplete handshake sequence to be
-│                       │      │                    misinterpreted as a successful cryptographic verification.
-│                       │      │                   An attacker executing a Man-in-the-Middle (MITM) attack can
-│                       │      │                   inject a premature or shortcut response that bypasses
-│                       │      │                   complete peer validation. 
+│                       │      ├ Fingerprint     : sha256:1bd5dc8ab363b145629b1138f31c005ff2af86f9be9c9d557ea65
+│                       │      │                   a95c98f718e 
+│                       │      ├ Title           : Title Not Available 
+│                       │      ├ Description     : Description Not Available 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2026-18924 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
@@ -1378,13 +1349,10 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:81ad7bb4bbb7d851489c62ca78b0e5ad2cea882716116bfdc0c6c
-│                       │      │                   1ae6126541c 
-│                       │      ├ Title           : HTTP/2 server push UAF 
-│                       │      ├ Description     : A flaw in libcurl's handling of HTTP/2 Server Push streams,
-│                       │      │                   when the parent handle is set to share connections with
-│                       │      │                   other handles, can lead to use-after-free in the cleanup
-│                       │      │                   process. 
+│                       │      ├ Fingerprint     : sha256:0ef499e3ccd0f387f7444718474dac5f80d87a0a1a1f7d69669b1
+│                       │      │                   928f62ae3c3 
+│                       │      ├ Title           : Title Not Available 
+│                       │      ├ Description     : Description Not Available 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [23] ╭ VulnerabilityID : CVE-2026-19931 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
@@ -1403,8 +1371,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:340fa78fd0ffb759cd963dc3bcd8c354d4e36e11e46c2db0d54d3
-│                       │      │                   0dc7266d49b 
+│                       │      ├ Fingerprint     : sha256:a3cf5ef8a67f7b54432446a2d7e1b23922553b79ce207ff8dccab
+│                       │      │                   cd6f31bcf7d 
 │                       │      ├ Title           : Negotiate ambient user conn reuse 
 │                       │      ├ Description     : A flaw in libcurl makes it wrongly reuse an HTTP connection
 │                       │      │                   setup for a given hostname using Negotiate authentication,
@@ -1429,18 +1397,10 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:d73f3a02800491244ed401a2c549c374ae38ebce7da32684fd438
-│                       │      │                   5579172f820 
-│                       │      ├ Title           : OpenSSL provider use-after-free 
-│                       │      ├ Description     : When performing transfers via libcurl’s multi interface,
-│                       │      │                   pooled TLS connections can outlive their originating easy
-│                       │      │                   handles. In OpenSSL 3 provider configurations, libcurl
-│                       │      │                   attaches an allocated library context to the easy handle's
-│                       │      │                   state and passes it to OpenSSL without acquiring an
-│                       │      │                   ownership reference; destroying the easy handle prematurely
-│                       │      │                   frees this context while the active connection retains a
-│                       │      │                   dangling pointer, leading to a heap-use-after-free upon
-│                       │      │                   subsequent I/O or post-handshake operations. 
+│                       │      ├ Fingerprint     : sha256:00089b04afb352b48d1425aa30e661136d30c6f7cd62a3a5cfef5
+│                       │      │                   748e6d111cf 
+│                       │      ├ Title           : [Unknown description] 
+│                       │      ├ Description     : [Unknown description] 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [25] ╭ VulnerabilityID : CVE-2026-80230 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
@@ -1459,8 +1419,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c64b9210e119938efcee08ec187a016319ea9ffde907954411596
-│                       │      │                   f906e91edf6 
+│                       │      ├ Fingerprint     : sha256:8ec688648ecefcbbe65740154c67bddf5c65a823a1b0a353fdbb0
+│                       │      │                   b4e9219500e 
 │                       │      ├ Title           : OpenSSL pinning bypass 
 │                       │      ├ Description     : When `CURLOPT_PINNEDPUBLICKEY` is configured alongside
 │                       │      │                   options that disable standard peer verification
@@ -1488,13 +1448,10 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:b6a8619b9bc6c5679863bc3a0f0416bb584f3a4c8bf4f802d8871
-│                       │      │                   e61cea8234d 
-│                       │      ├ Title           : native CA store conn reuse 
-│                       │      ├ Description     : A flaw in libcurl makes it wrongly reuse an existing HTTPS
-│                       │      │                   connection setup for a given hostname even when using a
-│                       │      │                   different Native CA Store setting (`CURLSSLOPT_NATIVE_CA`)
-│                       │      │                   than when the connection was created. 
+│                       │      ├ Fingerprint     : sha256:ebc1a2d38f48159126653657b43bebf87ace059694b0cf7fb5580
+│                       │      │                   754cf0252ad 
+│                       │      ├ Title           : [Unknown description] 
+│                       │      ├ Description     : [Unknown description] 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [27] ╭ VulnerabilityID : CVE-2026-80255 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
@@ -1513,15 +1470,10 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:150c11795e22b09f7f4910354826c534ef235d51cbcd63f5c251b
-│                       │      │                   8ed7e7345e8 
-│                       │      ├ Title           : secure cookie attribute bypass with tab 
-│                       │      ├ Description     : A `Set-Cookie:` header using tab (horizontal tab, ASCII code
-│                       │      │                    9) instead of space (ascii code 32) immediately before the
-│                       │      │                   `Secure` attribute causes curl to store the cookie without
-│                       │      │                   its Secure flag. The cookie might then wrongfully be sent
-│                       │      │                   over plaintext HTTP on subsequent requests to the same
-│                       │      │                   host. 
+│                       │      ├ Fingerprint     : sha256:9ec77cb17357109bdd9829185c573dcb2be5e079a1e60943125ac
+│                       │      │                   088a7bcf91d 
+│                       │      ├ Title           : [Unknown description] 
+│                       │      ├ Description     : [Unknown description] 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [28] ╭ VulnerabilityID : CVE-2026-80256 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
@@ -1539,8 +1491,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:5a9a60f63f78472d68aec8a4fb82472d9de2379671e70bf79e8a7
-│                       │      │                   f8f02601b55 
+│                       │      ├ Fingerprint     : sha256:262dc05c43c3fe01d1554cc00e266ca46873aeea02402794fa6ec
+│                       │      │                   a226d32b4e9 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [29] ╭ VulnerabilityID : CVE-2026-82208 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
@@ -1559,10 +1511,10 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:fd206fa71c634cd320e1817ab7c623485d2d7fb37b7288d0b4df5
-│                       │      │                   7f0683f10c1 
-│                       │      ├ Title           : Title Not Available 
-│                       │      ├ Description     : Description Not Available 
+│                       │      ├ Fingerprint     : sha256:d92b7c0d3ebae92bd8ed932c5bb8c51ca81ffacc221b4d3d2a519
+│                       │      │                   ea7d35c5955 
+│                       │      ├ Title           : [Unknown description] 
+│                       │      ├ Description     : [Unknown description] 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [30] ╭ VulnerabilityID : CVE-2026-82209 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
@@ -1581,8 +1533,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:5079da912e2564280ff618b0189fb6d466a21c2ec697590ceba76
-│                       │      │                   fa9a3efc282 
+│                       │      ├ Fingerprint     : sha256:81ba6aa50ddb4e561f9254bc74ce30671e5d202269a6cbdd28639
+│                       │      │                   968b4a89380 
 │                       │      ├ Title           : domain-scoped PSL domain cookie 
 │                       │      ├ Description     : When libpsl support is enabled, libcurl fails to enforce the
 │                       │      │                    Public Suffix List boundary check when processing a
@@ -1612,8 +1564,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:bd3c11296f6526f9a2663ae363bbecd4ede309978c49a16c91632
-│                       │      │                   1645ab22432 
+│                       │      ├ Fingerprint     : sha256:f4dafbe0d67fceb4dea874838ee0cf39c172c9539369581d9b025
+│                       │      │                   1f6ea5bf344 
 │                       │      ├ Title           : openssl: OpenSSL: Denial of Service via unbounded memory
 │                       │      │                   growth in QUIC server 
 │                       │      ├ Description     : Issue summary: When an OpenSSL QUIC server (Listener SSL
@@ -1714,8 +1666,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:bf3eb6976b275b77a53fd61464d1604a5dc46a17b3aa5ac3c6201
-│                       │      │                   ecef5b14b24 
+│                       │      ├ Fingerprint     : sha256:bb0408ca369ee87a20be3e4c5c339d1f73dd3ea5846f314536100
+│                       │      │                   b67ddeca517 
 │                       │      ├ Title           : openssl: QUIC server may trigger double free when processing
 │                       │      │                    INITIAL packet 
 │                       │      ├ Description     : Issue summary: QUIC server may double free QRX (QUIC record
@@ -1807,8 +1759,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:19c6c2334b89d39c8296c185fbc89b6aa72c3d73e5b02611feb60
-│                       │      │                   06e39298bf2 
+│                       │      ├ Fingerprint     : sha256:312702fdf21af8333a6e6008e02282f9309e01e60db31be18f12e
+│                       │      │                   adb0869c9c0 
 │                       │      ├ Title           : openssl: heap buffer overflow in CMS key unwrapping 
 │                       │      ├ Description     : Issue summary: OpenSSL CMS decryption sizes the key-unwrap
 │                       │      │                   output buffer based
@@ -1907,8 +1859,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:5062198d81775a3cc6604aadc69822ea5be0235a168cb90ec409b
-│                       │      │                   1c74b1f5557 
+│                       │      ├ Fingerprint     : sha256:ff5cb79aec65f8194075e25baaaa4d392cc3b46286cc680673e11
+│                       │      │                   8dbed480abf 
 │                       │      ├ Title           : openssl: invalid pointer dereference in CMP server via
 │                       │      │                   crafted protectionAlg 
 │                       │      ├ Description     : Issue summary: OpenSSL CMP password based protection
@@ -2016,8 +1968,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:b13f45c85adb58fa47ddbe82aeb51fc9d52d4f9d7fdbe004a9cd0
-│                       │      │                   ac8fb38da1c 
+│                       │      ├ Fingerprint     : sha256:de5646b39505e489e99fcc36f2c661b9c4fdc0e63341ec62273e7
+│                       │      │                   e4d1745a34e 
 │                       │      ├ Title           : openssl: RPK server signature algorithm selection can
 │                       │      │                   dereference a missing certificate 
 │                       │      ├ Description     : Issue summary: In a server or client configuration with
@@ -2106,8 +2058,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:78bc248cddd9af36fa59ce7180f1668f074e91c28e2e5672ecc16
-│                       │      │                   7e8646aca4e 
+│                       │      ├ Fingerprint     : sha256:9e1780166de7068cda6ed19722465f1ab9e1e1800215656c554b1
+│                       │      │                   9d98270b941 
 │                       │      ├ Title           : openssl: excessive memory use buffering DTLS records for a
 │                       │      │                   future epoch 
 │                       │      ├ Description     : Issue summary: Receiving a DTLS record for a future epoch
@@ -2236,8 +2188,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:a3ff3b134943f7c7e8b6f47a1da930178daf00f856389e4608999
-│                       │      │                   45b57234b74 
+│                       │      ├ Fingerprint     : sha256:8fc1def0bea62d270cc0d553c533f81ad06eb2a2761e2a7f377d7
+│                       │      │                   3f86228f312 
 │                       │      ├ Title           : openssl: untrusted sender DN used as format string in CMP
 │                       │      │                   response validation 
 │                       │      ├ Description     : Issue summary: OpenSSL CMP response validation passed an
@@ -2331,8 +2283,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:433e8971a8c60b2fafacd25fa5c33caa4a0b3d548f745317fb64f
-│                       │      │                   8d6b97e2dd4 
+│                       │      ├ Fingerprint     : sha256:d586aafb53ed7c32e46a0bc8f5ad52135fc688a4c8768a87eb521
+│                       │      │                   595269cedc2 
 │                       │      ├ Title           : openssl: CMP indefinite cache growth of ExtraCerts 
 │                       │      ├ Description     : Issue summary: The OpenSSL Certificate Management Protocol
 │                       │      │                   (CMP) caches
@@ -2428,8 +2380,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:b21063d00399417892b4ff1d489087d474d72e33b1220704f5ac2
-│                       │      │                   4fc9fd12505 
+│                       │      ├ Fingerprint     : sha256:ff691e3eb655455dc5d7f7fb18a57a0109f7f8b56ad6c4b74f0b2
+│                       │      │                   dccf65797c8 
 │                       │      ├ Title           : openssl: QUIC ACK-only packet retention can cause memory
 │                       │      │                   exhaustion 
 │                       │      ├ Description     : Issue summary: When OpenSSL processes QUIC traffic from a
@@ -2526,8 +2478,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:2c9fc18213d55b2d5f616ff814e7958a927393fab066b53d1957d
-│                       │      │                   d2563b4eefc 
+│                       │      ├ Fingerprint     : sha256:d72a32d57d24333c3e419f0a639b7d84e736588b83333414fab7a
+│                       │      │                   53104801aba 
 │                       │      ├ Title           : Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with
 │                       │      │                    an empty  ... 
 │                       │      ├ Description     : Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with
@@ -2608,8 +2560,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:868e7dede3bc419f877e4dd7f5ddf0e7f791665a5a2072c5225e6
-│                       │      │                   1967212f761 
+│                       │      ├ Fingerprint     : sha256:631dac60fecf7ec18d8a9cd5cd1c31b084197498aa1f33e1bc4e8
+│                       │      │                   b73547bfc38 
 │                       │      ├ Title           : Little CMS: lcms2: mm2/Little-CMS: Little CMS: Information
 │                       │      │                   disclosure or denial of service via integer overflow in
 │                       │      │                   CubeSize 
@@ -2758,8 +2710,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:92a50de0b9bde56088dbb27f8df8a203e41baf0d51914aa3d1680
-│                       │      │                   0eb5cf7acdc 
+│                       │      ├ Fingerprint     : sha256:276bf4d66371480c850f060d79357ed2e7ae2a42b5166046b833b
+│                       │      │                   fe166e11ad8 
 │                       │      ├ Title           : openjdk: Enhance Jar handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -2871,8 +2823,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:8e9b18b1dded589a16b7d7aee8b04eb47b652564ea8769bad154d
-│                       │      │                   5ea63edfffb 
+│                       │      ├ Fingerprint     : sha256:128e20579e3fac2bf2bee2696233bb90e4f2ae40bc3d19352ffe5
+│                       │      │                   db56f047d93 
 │                       │      ├ Title           : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Orac ... 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -2926,8 +2878,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:fd645620727ca4a229d4903f2f012f7565f2123200e6f4b6be436
-│                       │      │                   354c4436895 
+│                       │      ├ Fingerprint     : sha256:9cfaf61df5863fa352a08e80680f448522fe2f005613e45cf9169
+│                       │      │                   045829c8349 
 │                       │      ├ Title           : openjdk: Improve DTLS handshaking (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3034,8 +2986,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:885b57945c78c271b0875a451af33e65be6442444cd371ba13f17
-│                       │      │                   634be01cb95 
+│                       │      ├ Fingerprint     : sha256:2e5a48b8924f8c209b53c6fa0bc0c88087cd8f20292ba74078123
+│                       │      │                   4d3ddd7ee6d 
 │                       │      ├ Title           : openjdk: Enhance TLS certificate handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: JSSE). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -3140,8 +3092,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:003af85206a0efcea724c364930a9078b3673bdef362b551c6ed3
-│                       │      │                   eeef9f3e4c8 
+│                       │      ├ Fingerprint     : sha256:6f41162b5ccb8fcdbf2caf769fd53499311bb672d6dce2eebe406
+│                       │      │                   e21870090fc 
 │                       │      ├ Title           : openjdk: Enhance XBM image support (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3252,8 +3204,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:93c9f04cb7d6b9a12aae2ab53d84deb1e09328ea759b3d57bb437
-│                       │      │                   ce7b8a067ff 
+│                       │      ├ Fingerprint     : sha256:bbf928ec0a370829c48080e967073aa0cb76814a0d24614057376
+│                       │      │                   9505320e218 
 │                       │      ├ Title           : openjdk: Enhance Jar file processing (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Libraries). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -3361,8 +3313,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:3b7f0d63fb4e436415593b83dc190124c8a509b3b81808866a553
-│                       │      │                   84540d03f89 
+│                       │      ├ Fingerprint     : sha256:9b0bb9d957b8e9c94d7096620c01e88a199e00abb57e3fdf6c8a0
+│                       │      │                   ff91a5d4d84 
 │                       │      ├ Title           : openjdk: Improve certification checking (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3477,8 +3429,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:cc613a97b1e9b7b42719d7e5a7027b716d1bf21dc8e10e7bb5464
-│                       │      │                   4bf5d1e9dda 
+│                       │      ├ Fingerprint     : sha256:c5b32b306ce126e5e713dbb05e87936255a538219f32a30e973c7
+│                       │      │                   168d3602109 
 │                       │      ├ Title           : openjdk: Enhance JPEG handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3589,8 +3541,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:d86077688de7da2a58096152d01620bfe083ce9c9930de6d03e5c
-│                       │      │                   e99465b176d 
+│                       │      ├ Fingerprint     : sha256:3fdbd8da850e6f3bc92ebe0395f03be64e935c87790e6fadd59c2
+│                       │      │                   38ce076ce37 
 │                       │      ├ Title           : openjdk: Enhance AWT ImagingLib (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3703,8 +3655,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:304ba0b40389181953844416768fa9372d25d4489c2ac7b19d27b
-│                       │      │                   98004c58e63 
+│                       │      ├ Fingerprint     : sha256:44dc12c53ab4077e6609c216eaf190bd22b52c8668f85c8be5cfb
+│                       │      │                   f401be87861 
 │                       │      ├ Title           : Little CMS: lcms2: mm2/Little-CMS: Little CMS: Information
 │                       │      │                   disclosure or denial of service via integer overflow in
 │                       │      │                   CubeSize 
@@ -3853,8 +3805,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:13bdf312a06f9b0b5218ada0d062710c1e51b3292a6a1bba35210
-│                       │      │                   2f5350a8d25 
+│                       │      ├ Fingerprint     : sha256:6379c40621e18ac67eddd583183fa87599e59b70fbfdd239e3b0d
+│                       │      │                   9008ee6f7d4 
 │                       │      ├ Title           : openjdk: Enhance Jar handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3966,8 +3918,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:6eb2fdc8b4c16c886519d727a23eeb11652c25a70fd7b31020dd2
-│                       │      │                   62af5759279 
+│                       │      ├ Fingerprint     : sha256:79377026f738d6f37a1e70ffed9535159d04c8114b09582cb4f4c
+│                       │      │                   6a77f4ba03f 
 │                       │      ├ Title           : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Orac ... 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -4021,8 +3973,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:3af90c55bbbd944e6cee99e87217b24b56c6be67c6ffc7cf72449
-│                       │      │                   41e7e6d64e7 
+│                       │      ├ Fingerprint     : sha256:064a588f9771fecf45ebc50926811161af5ad1d838dfbac0569d9
+│                       │      │                   dc6925ddbcb 
 │                       │      ├ Title           : openjdk: Improve DTLS handshaking (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -4129,8 +4081,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:aa3339beadca1eb5b55f658a1110251a57b6f042736f67749d873
-│                       │      │                   fd1c5fd974d 
+│                       │      ├ Fingerprint     : sha256:e1dc1a488785bc6e2a5cbb97ce21ae85315f3dd1801f8b40217df
+│                       │      │                   565d1989587 
 │                       │      ├ Title           : openjdk: Enhance TLS certificate handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: JSSE). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -4235,8 +4187,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:4f72735ecb63c8a2ecab874061e9877b8336cb360aefb60ee85c5
-│                       │      │                   194d7436a8b 
+│                       │      ├ Fingerprint     : sha256:eeed2f421ef28f98b159e70284ec871511f5c2ef0da4e289da845
+│                       │      │                   1bf314bb614 
 │                       │      ├ Title           : openjdk: Enhance XBM image support (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -4347,8 +4299,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:7a7f9870f5ee092b543c8f58efa8eee8a5f90615d9a28fff478b5
-│                       │      │                   b8bf569f060 
+│                       │      ├ Fingerprint     : sha256:ccb1e3f312b968c1ba33bdf3d126032d2f12555d6e698a120829d
+│                       │      │                   1223407cbfd 
 │                       │      ├ Title           : openjdk: Enhance Jar file processing (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Libraries). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -4456,8 +4408,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:b4536dfcf64093a6e6ce9022ea10adfc9dd1aa69646a75ae0b85b
-│                       │      │                   109d31b25c7 
+│                       │      ├ Fingerprint     : sha256:8d56eb25e1e6447a4774b1da7d23a8bffe6f10e977b9be98321f7
+│                       │      │                   cf20acf9bce 
 │                       │      ├ Title           : openjdk: Improve certification checking (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -4572,8 +4524,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:f250e40f3e9c311c3a309786ba5e668d2ecc5a8cf53b7c6150e54
-│                       │      │                   ed33be16a54 
+│                       │      ├ Fingerprint     : sha256:2ee8b1fbd03d24c75d9b890d7a518dc996ee43c71f23f70ec59b9
+│                       │      │                   c8ba825b293 
 │                       │      ├ Title           : openjdk: Enhance JPEG handling (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -4684,8 +4636,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:7b6cbfe3579cc25988b475887add512bd9ef71d554d8d3ed767b9
-│                       │      │                   126fd46b263 
+│                       │      ├ Fingerprint     : sha256:0ee19c5a8950c5b98bcf7cceece68ee973d0f596fe5a7e8cb54ce
+│                       │      │                   c6e58368e76 
 │                       │      ├ Title           : openjdk: Enhance AWT ImagingLib (Oracle CPU 2026-07) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -4797,8 +4749,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:8ec1ca926d302ea05d00670dbb77fb40d2fab7c16a2b13d2b3e57
-│                       │      │                   e90d2265cce 
+│                       │      ├ Fingerprint     : sha256:682d1dcb6762d767439bef8508eb058aa9088e69de5dc2aa5bb99
+│                       │      │                   aa72b1df651 
 │                       │      ├ Title           : openssl: OpenSSL: Denial of Service via unbounded memory
 │                       │      │                   growth in QUIC server 
 │                       │      ├ Description     : Issue summary: When an OpenSSL QUIC server (Listener SSL
@@ -4899,8 +4851,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:3f580ee96c8e3d7841b999c4571b649b048d7cf22895e949c0c33
-│                       │      │                   6f065c055ac 
+│                       │      ├ Fingerprint     : sha256:10162ed3e5fe8f48f0b266f1ed84f24d8ba4c54b9824404b2eb88
+│                       │      │                   8d470f7433c 
 │                       │      ├ Title           : openssl: QUIC server may trigger double free when processing
 │                       │      │                    INITIAL packet 
 │                       │      ├ Description     : Issue summary: QUIC server may double free QRX (QUIC record
@@ -4992,8 +4944,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:b8821e286f23daf5e9c5038c44b6ac3702c6f48b1335e78fd5c29
-│                       │      │                   905ca7981dd 
+│                       │      ├ Fingerprint     : sha256:a72eec8f10c02792030061ab38ed35ca933b43d686e45a07576cc
+│                       │      │                   95146b15b44 
 │                       │      ├ Title           : openssl: heap buffer overflow in CMS key unwrapping 
 │                       │      ├ Description     : Issue summary: OpenSSL CMS decryption sizes the key-unwrap
 │                       │      │                   output buffer based
@@ -5092,8 +5044,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:eddee7cd0045b0054e9a97d2e894a40807cc92f0579e7f66d899a
-│                       │      │                   c7789344aff 
+│                       │      ├ Fingerprint     : sha256:3456763ca36ad3292edb0d70fa49883292cc8f2db77f946486375
+│                       │      │                   6fb8a3366d8 
 │                       │      ├ Title           : openssl: invalid pointer dereference in CMP server via
 │                       │      │                   crafted protectionAlg 
 │                       │      ├ Description     : Issue summary: OpenSSL CMP password based protection
@@ -5201,8 +5153,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:e1aea4d55237bfc91f1bb667393608e5edad6fc0560c0ac40bb60
-│                       │      │                   5e8cdfbaa14 
+│                       │      ├ Fingerprint     : sha256:e7841b241b0b452f4f70d21415352721a06fe05b37665fb8535d0
+│                       │      │                   459accfd66b 
 │                       │      ├ Title           : openssl: RPK server signature algorithm selection can
 │                       │      │                   dereference a missing certificate 
 │                       │      ├ Description     : Issue summary: In a server or client configuration with
@@ -5291,8 +5243,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:18f5a8b440a936e3ce64536349210719a230ac599dadf018876ce
-│                       │      │                   24abe20c0ef 
+│                       │      ├ Fingerprint     : sha256:792ea813557b02818317ee035665ab7eab4e97b4921c42b12e3f4
+│                       │      │                   276c075566b 
 │                       │      ├ Title           : openssl: excessive memory use buffering DTLS records for a
 │                       │      │                   future epoch 
 │                       │      ├ Description     : Issue summary: Receiving a DTLS record for a future epoch
@@ -5421,8 +5373,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:9d2e1650acc4bfc9aa9745e49cc65ef41a94075904c2417c4026e
-│                       │      │                   b2861eaae04 
+│                       │      ├ Fingerprint     : sha256:ca025e76b6a9ff410adb649bd6241d7f48d573cf0be233afe3b11
+│                       │      │                   327ee9d13c1 
 │                       │      ├ Title           : openssl: untrusted sender DN used as format string in CMP
 │                       │      │                   response validation 
 │                       │      ├ Description     : Issue summary: OpenSSL CMP response validation passed an
@@ -5516,8 +5468,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:5b6e0aaed9a35dd267cc9378a91afe7368a3976aa5125f896c88a
-│                       │      │                   95c6b41864e 
+│                       │      ├ Fingerprint     : sha256:9508ea915117c8ac8f25bb7075fd4f649f7dbdca1fe22bbdab747
+│                       │      │                   747cb4f5ca0 
 │                       │      ├ Title           : openssl: CMP indefinite cache growth of ExtraCerts 
 │                       │      ├ Description     : Issue summary: The OpenSSL Certificate Management Protocol
 │                       │      │                   (CMP) caches
@@ -5613,8 +5565,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:4753ab6803837754a85fed30426ebb35a73d8624a36d13e409c6a
-│                       │      │                   8c5e42bb8ea 
+│                       │      ├ Fingerprint     : sha256:f10ad37efd853eeff6d0a4ebaac2948924f00f16774a5e663224f
+│                       │      │                   0189e6888a7 
 │                       │      ├ Title           : openssl: QUIC ACK-only packet retention can cause memory
 │                       │      │                   exhaustion 
 │                       │      ├ Description     : Issue summary: When OpenSSL processes QUIC traffic from a
@@ -5711,8 +5663,8 @@
 │                              ├ DataSource       ╭ ID  : alpine 
 │                              │                  ├ Name: Alpine Secdb 
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                              ├ Fingerprint     : sha256:e69e06d9a3b01a2967bb8f585fa97367c4583b0d8b4e4ebd264ce
-│                              │                   b9c636f0cc4 
+│                              ├ Fingerprint     : sha256:53fa61ff3dd832293258a6ebf61b5ef5e198b88e6d59a14356f06
+│                              │                   5578f2fc7e3 
 │                              ├ Title           : Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with
 │                              │                    an empty  ... 
 │                              ├ Description     : Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with
