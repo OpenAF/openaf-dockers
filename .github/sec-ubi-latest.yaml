@@ -3414,7 +3414,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-16118
     - https://www.cve.org/CVERecord?id=CVE-2026-16118
     PublishedDate: '2026-07-17T20:17:16.167Z'
-    LastModifiedDate: '2026-07-29T17:16:50.753Z'
+    LastModifiedDate: '2026-09-03T13:04:35.397Z'
   - VulnerabilityID: CVE-2026-58010
     VendorIDs:
     - RHSA-2026:55440
@@ -4335,6 +4335,7 @@
     - https://blog.calif.io/p/how-to-format-a-ciphertext
     - https://github.com/advisories/GHSA-m6x2-4hhh-669j
     - https://nvd.nist.gov/vuln/detail/CVE-2026-57062
+    - https://ubuntu.com/security/notices/USN-8720-1
     - https://www.cve.org/CVERecord?id=CVE-2026-57062
     - https://www.gnupg.org/download
     - https://www.gnupg.org/download/
@@ -4400,7 +4401,7 @@
     - https://errata.rockylinux.org/RLSA-2026:61623
     - https://github.com/advisories/GHSA-67v8-88jf-4x6q
     - https://linux.oracle.com/cve/CVE-2026-41991.html
-    - https://linux.oracle.com/errata/ELSA-2026-61623-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-61625-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-41991
     - https://ubuntu.com/security/notices/USN-8512-1
     - https://www.cve.org/CVERecord?id=CVE-2026-41991
@@ -4525,7 +4526,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       julia: 2
@@ -4716,7 +4717,7 @@
     - CWE-200
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 1
       oracle-oval: 2
       redhat: 2
@@ -4773,7 +4774,7 @@
     - CWE-284
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       oracle-oval: 2
       redhat: 2
@@ -4830,7 +4831,7 @@
     - CWE-284
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       oracle-oval: 2
       redhat: 2
@@ -8320,7 +8321,7 @@
     - https://errata.rockylinux.org/RLSA-2026:61247
     - https://gitlab.gnome.org/GNOME/libxml2/-/commit/c2e233fc1b341685fc99621b2768b503f777a72e
     - https://linux.oracle.com/cve/CVE-2026-11979.html
-    - https://linux.oracle.com/errata/ELSA-2026-61247-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-61248-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-11979
     - https://www.cve.org/CVERecord?id=CVE-2026-11979
     PublishedDate: '2026-06-29T14:16:40.593Z'
@@ -11425,7 +11426,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       photon: 2
@@ -11616,7 +11617,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -11710,7 +11711,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -11809,7 +11810,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -12107,7 +12108,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -12204,7 +12205,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       nvd: 3
@@ -12438,7 +12439,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 1
       nvd: 2
       oracle-oval: 3
@@ -12748,7 +12749,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       photon: 3
       redhat: 1
     CVSS:
@@ -12852,7 +12853,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       photon: 2
@@ -13043,7 +13044,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -13137,7 +13138,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -13236,7 +13237,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -13534,7 +13535,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -13631,7 +13632,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       nvd: 3
@@ -13865,7 +13866,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 1
       nvd: 2
       oracle-oval: 3
@@ -14175,7 +14176,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       photon: 3
       redhat: 1
     CVSS:
@@ -14279,7 +14280,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       photon: 2
@@ -14470,7 +14471,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -14564,7 +14565,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -14663,7 +14664,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -14961,7 +14962,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -15058,7 +15059,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       nvd: 3
@@ -15292,7 +15293,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 1
       nvd: 2
       oracle-oval: 3
@@ -15602,7 +15603,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       photon: 3
       redhat: 1
     CVSS:
@@ -16668,7 +16669,7 @@
     - https://errata.almalinux.org/9/ALSA-2026-61581.html
     - https://errata.rockylinux.org/RLSA-2026:61581
     - https://linux.oracle.com/cve/CVE-2026-5704.html
-    - https://linux.oracle.com/errata/ELSA-2026-61581-0.html
+    - https://linux.oracle.com/errata/ELSA-2026-61586-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-5704
     - https://ubuntu.com/security/notices/USN-8477-1
     - https://ubuntu.com/security/notices/USN-8477-2
