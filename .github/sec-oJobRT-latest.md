@@ -21,13 +21,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:b37c1cd6dafc794413fff2a5a5b7e66643a86f9c8a0a22d101ae7
 │                       │      │                   9c74bf344da 
-│                       │      ├ Title           : OpenLDAP SASL authentication bypass 
-│                       │      ├ Description     : A flaw in the libcurl SASL negotiation for LDAP
-│                       │      │                   authentication allows an incomplete handshake sequence to be
-│                       │      │                    misinterpreted as a successful cryptographic verification.
-│                       │      │                   An attacker executing a Man-in-the-Middle (MITM) attack can
-│                       │      │                   inject a premature or shortcut response that bypasses
-│                       │      │                   complete peer validation. 
+│                       │      ├ Title           : Title Not Available 
+│                       │      ├ Description     : Description Not Available 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2026-18924 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
@@ -47,11 +42,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:17d12ea38723a8afc5d16a36488d24c12573297b32c060c1bf8fd
 │                       │      │                   9ed7ccd16d5 
-│                       │      ├ Title           : HTTP/2 server push UAF 
-│                       │      ├ Description     : A flaw in libcurl's handling of HTTP/2 Server Push streams,
-│                       │      │                   when the parent handle is set to share connections with
-│                       │      │                   other handles, can lead to use-after-free in the cleanup
-│                       │      │                   process. 
+│                       │      ├ Title           : Title Not Available 
+│                       │      ├ Description     : Description Not Available 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2026-19931 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
@@ -96,16 +88,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:aba7d2d651750d1898cb4276df9f1c4c996bb9fe7b1b333754f65
 │                       │      │                   0629d857914 
-│                       │      ├ Title           : OpenSSL provider use-after-free 
-│                       │      ├ Description     : When performing transfers via libcurl’s multi interface,
-│                       │      │                   pooled TLS connections can outlive their originating easy
-│                       │      │                   handles. In OpenSSL 3 provider configurations, libcurl
-│                       │      │                   attaches an allocated library context to the easy handle's
-│                       │      │                   state and passes it to OpenSSL without acquiring an
-│                       │      │                   ownership reference; destroying the easy handle prematurely
-│                       │      │                   frees this context while the active connection retains a
-│                       │      │                   dangling pointer, leading to a heap-use-after-free upon
-│                       │      │                   subsequent I/O or post-handshake operations. 
+│                       │      ├ Title           : [Unknown description] 
+│                       │      ├ Description     : [Unknown description] 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2026-80230 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
@@ -153,11 +137,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:d9acb29522a60f8071d2bcf51d0658474c8e78873dd99e361fd45
 │                       │      │                   68001a77157 
-│                       │      ├ Title           : native CA store conn reuse 
-│                       │      ├ Description     : A flaw in libcurl makes it wrongly reuse an existing HTTPS
-│                       │      │                   connection setup for a given hostname even when using a
-│                       │      │                   different Native CA Store setting (`CURLSSLOPT_NATIVE_CA`)
-│                       │      │                   than when the connection was created. 
+│                       │      ├ Title           : [Unknown description] 
+│                       │      ├ Description     : [Unknown description] 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2026-80255 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
@@ -177,13 +158,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:45111c78f79166ef3c8ab0ceb8d3cf7830c493d8bcddc5b7cc2c5
 │                       │      │                   3731e02d4ed 
-│                       │      ├ Title           : secure cookie attribute bypass with tab 
-│                       │      ├ Description     : A `Set-Cookie:` header using tab (horizontal tab, ASCII code
-│                       │      │                    9) instead of space (ascii code 32) immediately before the
-│                       │      │                   `Secure` attribute causes curl to store the cookie without
-│                       │      │                   its Secure flag. The cookie might then wrongfully be sent
-│                       │      │                   over plaintext HTTP on subsequent requests to the same
-│                       │      │                   host. 
+│                       │      ├ Title           : [Unknown description] 
+│                       │      ├ Description     : [Unknown description] 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2026-80256 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
@@ -221,8 +197,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:36e38a9ce4b0bf3378ec0c95322591139c8260cf8d09899bf3158
 │                       │      │                   1e5a73ae7b3 
-│                       │      ├ Title           : Title Not Available 
-│                       │      ├ Description     : Description Not Available 
+│                       │      ├ Title           : [Unknown description] 
+│                       │      ├ Description     : [Unknown description] 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2026-82209 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
@@ -1353,13 +1329,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:2ad7e1910c31bef8c161f4cad8bfa6ec184df22a0ae6e925f742f
 │                       │      │                   fb3e02a04c5 
-│                       │      ├ Title           : OpenLDAP SASL authentication bypass 
-│                       │      ├ Description     : A flaw in the libcurl SASL negotiation for LDAP
-│                       │      │                   authentication allows an incomplete handshake sequence to be
-│                       │      │                    misinterpreted as a successful cryptographic verification.
-│                       │      │                   An attacker executing a Man-in-the-Middle (MITM) attack can
-│                       │      │                   inject a premature or shortcut response that bypasses
-│                       │      │                   complete peer validation. 
+│                       │      ├ Title           : Title Not Available 
+│                       │      ├ Description     : Description Not Available 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2026-18924 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
@@ -1380,11 +1351,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:ead1ea11ae98db6fb7123c7cbaa9f196ff8b651526551d7cfc5dc
 │                       │      │                   b37a79db5ee 
-│                       │      ├ Title           : HTTP/2 server push UAF 
-│                       │      ├ Description     : A flaw in libcurl's handling of HTTP/2 Server Push streams,
-│                       │      │                   when the parent handle is set to share connections with
-│                       │      │                   other handles, can lead to use-after-free in the cleanup
-│                       │      │                   process. 
+│                       │      ├ Title           : Title Not Available 
+│                       │      ├ Description     : Description Not Available 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [23] ╭ VulnerabilityID : CVE-2026-19931 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
@@ -1431,16 +1399,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:f37838975c25dc920ee581d817b1ecef19917e83e4c036db10630
 │                       │      │                   cc0f26857a9 
-│                       │      ├ Title           : OpenSSL provider use-after-free 
-│                       │      ├ Description     : When performing transfers via libcurl’s multi interface,
-│                       │      │                   pooled TLS connections can outlive their originating easy
-│                       │      │                   handles. In OpenSSL 3 provider configurations, libcurl
-│                       │      │                   attaches an allocated library context to the easy handle's
-│                       │      │                   state and passes it to OpenSSL without acquiring an
-│                       │      │                   ownership reference; destroying the easy handle prematurely
-│                       │      │                   frees this context while the active connection retains a
-│                       │      │                   dangling pointer, leading to a heap-use-after-free upon
-│                       │      │                   subsequent I/O or post-handshake operations. 
+│                       │      ├ Title           : [Unknown description] 
+│                       │      ├ Description     : [Unknown description] 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [25] ╭ VulnerabilityID : CVE-2026-80230 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
@@ -1490,11 +1450,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:e8ff92005c4a4b401817fda04d133db24c1a36bad410839ae8baa
 │                       │      │                   119bcf7f08b 
-│                       │      ├ Title           : native CA store conn reuse 
-│                       │      ├ Description     : A flaw in libcurl makes it wrongly reuse an existing HTTPS
-│                       │      │                   connection setup for a given hostname even when using a
-│                       │      │                   different Native CA Store setting (`CURLSSLOPT_NATIVE_CA`)
-│                       │      │                   than when the connection was created. 
+│                       │      ├ Title           : [Unknown description] 
+│                       │      ├ Description     : [Unknown description] 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [27] ╭ VulnerabilityID : CVE-2026-80255 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
@@ -1515,13 +1472,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:2d9dc79819eb7375ae058257dffee9e1df7e1df6d8ffaeb71a403
 │                       │      │                   9c885338960 
-│                       │      ├ Title           : secure cookie attribute bypass with tab 
-│                       │      ├ Description     : A `Set-Cookie:` header using tab (horizontal tab, ASCII code
-│                       │      │                    9) instead of space (ascii code 32) immediately before the
-│                       │      │                   `Secure` attribute causes curl to store the cookie without
-│                       │      │                   its Secure flag. The cookie might then wrongfully be sent
-│                       │      │                   over plaintext HTTP on subsequent requests to the same
-│                       │      │                   host. 
+│                       │      ├ Title           : [Unknown description] 
+│                       │      ├ Description     : [Unknown description] 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [28] ╭ VulnerabilityID : CVE-2026-80256 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
@@ -1561,8 +1513,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:e216ade38178c5b1e1ed1308aab77ccde8b556f611bbd86480758
 │                       │      │                   65151a5fb92 
-│                       │      ├ Title           : Title Not Available 
-│                       │      ├ Description     : Description Not Available 
+│                       │      ├ Title           : [Unknown description] 
+│                       │      ├ Description     : [Unknown description] 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [30] ╭ VulnerabilityID : CVE-2026-82209 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
