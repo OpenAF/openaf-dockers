@@ -2685,6 +2685,7 @@
       nvd: 2
       photon: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
@@ -2730,6 +2731,7 @@
       nvd: 2
       photon: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
@@ -2777,6 +2779,7 @@
       nvd: 2
       photon: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
@@ -2821,6 +2824,7 @@
       julia: 2
       nvd: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
@@ -2863,6 +2867,7 @@
       julia: 2
       nvd: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
@@ -2905,6 +2910,7 @@
       julia: 2
       nvd: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
@@ -2947,6 +2953,7 @@
       julia: 2
       nvd: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
@@ -2988,6 +2995,7 @@
       azure: 2
       julia: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:L
@@ -3027,6 +3035,7 @@
       julia: 2
       nvd: 2
       redhat: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
@@ -3162,6 +3171,7 @@
       julia: 1
       photon: 3
       redhat: 1
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
@@ -3177,6 +3187,7 @@
     - https://github.com/libexpat/libexpat/issues/47
     - https://github.com/libexpat/libexpat/pull/1183
     - https://nvd.nist.gov/vuln/detail/CVE-2026-41080
+    - https://ubuntu.com/security/notices/USN-8520-1
     - https://www.cve.org/CVERecord?id=CVE-2026-41080
     - https://www.openwall.com/lists/oss-security/2026/04/26/1
     PublishedDate: '2026-04-16T17:16:54.917Z'
@@ -3336,6 +3347,7 @@
       photon: 2
       redhat: 2
       rocky: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L
@@ -3375,6 +3387,8 @@
     - https://errata.almalinux.org/9/ALSA-2026-55440.html
     - https://errata.rockylinux.org/RLSA-2026:55440
     - https://gitlab.gnome.org/GNOME/glib/-/issues/3985
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/5240
+    - https://gitlab.gnome.org/GNOME/glib/-/merge_requests/5241
     - https://linux.oracle.com/cve/CVE-2026-15588.html
     - https://linux.oracle.com/errata/ELSA-2026-61766-0.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-15588
@@ -3403,6 +3417,7 @@
     VendorSeverity:
       amazon: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H
@@ -3411,6 +3426,7 @@
     - https://access.redhat.com/security/cve/CVE-2026-16118
     - https://bugzilla.redhat.com/show_bug.cgi?id=2501732
     - https://gitlab.freedesktop.org/xdg/xdgmime/-/work_items/41
+    - https://gitlab.gnome.org/GNOME/glib/-/work_items/3992
     - https://nvd.nist.gov/vuln/detail/CVE-2026-16118
     - https://www.cve.org/CVERecord?id=CVE-2026-16118
     PublishedDate: '2026-07-17T20:17:16.167Z'
@@ -3447,6 +3463,7 @@
       photon: 3
       redhat: 2
       rocky: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
@@ -3529,6 +3546,7 @@
       photon: 3
       redhat: 2
       rocky: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -3612,6 +3630,7 @@
       photon: 3
       redhat: 2
       rocky: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
@@ -3694,6 +3713,7 @@
       photon: 3
       redhat: 2
       rocky: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
@@ -3775,6 +3795,7 @@
       oracle-oval: 2
       redhat: 2
       rocky: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H
@@ -3857,6 +3878,7 @@
       photon: 3
       redhat: 2
       rocky: 2
+      ubuntu: 2
     CVSS:
       julia:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
@@ -4526,7 +4548,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       julia: 2
@@ -4717,7 +4739,7 @@
     - CWE-200
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       bitnami: 1
       oracle-oval: 2
       redhat: 2
@@ -4774,7 +4796,7 @@
     - CWE-284
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 2
       redhat: 2
@@ -4831,7 +4853,7 @@
     - CWE-284
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 2
       redhat: 2
@@ -11426,7 +11448,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       photon: 2
@@ -11617,7 +11639,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -11711,7 +11733,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -11810,7 +11832,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -12108,7 +12130,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -12205,7 +12227,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       nvd: 3
@@ -12439,7 +12461,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 1
       nvd: 2
       oracle-oval: 3
@@ -12749,7 +12771,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       photon: 3
       redhat: 1
     CVSS:
@@ -12853,7 +12875,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       photon: 2
@@ -13044,7 +13066,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -13138,7 +13160,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -13237,7 +13259,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -13535,7 +13557,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -13632,7 +13654,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       nvd: 3
@@ -13866,7 +13888,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 1
       nvd: 2
       oracle-oval: 3
@@ -14176,7 +14198,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       photon: 3
       redhat: 1
     CVSS:
@@ -14280,7 +14302,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       photon: 2
@@ -14471,7 +14493,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -14565,7 +14587,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -14664,7 +14686,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -14962,7 +14984,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -15059,7 +15081,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       nvd: 3
@@ -15293,7 +15315,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 1
       nvd: 2
       oracle-oval: 3
@@ -15603,7 +15625,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       photon: 3
       redhat: 1
     CVSS:
