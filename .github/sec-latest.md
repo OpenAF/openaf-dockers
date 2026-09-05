@@ -63,12 +63,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:2fd5de9ecd808f7bc7ae3c9cd84ea33013c9c33022508094cffc3
 │                       │      │                   e54eb82257e 
-│                       │      ├ Title           : Negotiate ambient user conn reuse 
-│                       │      ├ Description     : A flaw in libcurl makes it wrongly reuse an HTTP connection
-│                       │      │                   setup for a given hostname using Negotiate authentication,
-│                       │      │                   when the initial request is done using empty credentials.
-│                       │      │                   This can make user B's request get sent over user A's
-│                       │      │                   previously authenticated connection. 
+│                       │      ├ Title           : [Unknown description] 
+│                       │      ├ Description     : [Unknown description] 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2026-80229 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
@@ -109,15 +105,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:d69023ebf52d30202de5a7666377d6a359ea8b7f27f417141288b
 │                       │      │                   49c581fa389 
-│                       │      ├ Title           : OpenSSL pinning bypass 
-│                       │      ├ Description     : When `CURLOPT_PINNEDPUBLICKEY` is configured alongside
-│                       │      │                   options that disable standard peer verification
-│                       │      │                   (`CURLOPT_SSL_VERIFYPEER = 0` and `CURLOPT_SSL_VERIFYHOST =
-│                       │      │                   0`), libcurl fails to enforce public key pinning on
-│                       │      │                   connections established without a presented server
-│                       │      │                   certificate. Bypassing the pinning check under these
-│                       │      │                   disabled-verification conditions allows unauthenticated
-│                       │      │                   connections to succeed when they should be rejected. 
+│                       │      ├ Title           : Title Not Available 
+│                       │      ├ Description     : Description Not Available 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2026-80231 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
@@ -137,8 +126,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:e1aa2b49397ca2b435a66f949ee1c8953ae99a793d7140d0c997e
 │                       │      │                   975b0e7e3f6 
-│                       │      ├ Title           : [Unknown description] 
-│                       │      ├ Description     : [Unknown description] 
+│                       │      ├ Title           : Title Not Available 
+│                       │      ├ Description     : Description Not Available 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2026-80255 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
@@ -1373,12 +1362,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:8e44ff48b4f3791decfa45ed86553b812d9e941b4e329f4e0f107
 │                       │      │                   eb2ab59c2b4 
-│                       │      ├ Title           : Negotiate ambient user conn reuse 
-│                       │      ├ Description     : A flaw in libcurl makes it wrongly reuse an HTTP connection
-│                       │      │                   setup for a given hostname using Negotiate authentication,
-│                       │      │                   when the initial request is done using empty credentials.
-│                       │      │                   This can make user B's request get sent over user A's
-│                       │      │                   previously authenticated connection. 
+│                       │      ├ Title           : [Unknown description] 
+│                       │      ├ Description     : [Unknown description] 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [24] ╭ VulnerabilityID : CVE-2026-80229 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
@@ -1421,15 +1406,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:eef5afec35350414e5608888ce68a774a5fc861d1f34372dcbb2b
 │                       │      │                   f890b2e36b9 
-│                       │      ├ Title           : OpenSSL pinning bypass 
-│                       │      ├ Description     : When `CURLOPT_PINNEDPUBLICKEY` is configured alongside
-│                       │      │                   options that disable standard peer verification
-│                       │      │                   (`CURLOPT_SSL_VERIFYPEER = 0` and `CURLOPT_SSL_VERIFYHOST =
-│                       │      │                   0`), libcurl fails to enforce public key pinning on
-│                       │      │                   connections established without a presented server
-│                       │      │                   certificate. Bypassing the pinning check under these
-│                       │      │                   disabled-verification conditions allows unauthenticated
-│                       │      │                   connections to succeed when they should be rejected. 
+│                       │      ├ Title           : Title Not Available 
+│                       │      ├ Description     : Description Not Available 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [26] ╭ VulnerabilityID : CVE-2026-80231 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
@@ -1450,8 +1428,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:6503ae9703fdf59de7a8ed7610dde4b0ef1973ee863730d4ac818
 │                       │      │                   521474a2ebe 
-│                       │      ├ Title           : [Unknown description] 
-│                       │      ├ Description     : [Unknown description] 
+│                       │      ├ Title           : Title Not Available 
+│                       │      ├ Description     : Description Not Available 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [27] ╭ VulnerabilityID : CVE-2026-80255 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
