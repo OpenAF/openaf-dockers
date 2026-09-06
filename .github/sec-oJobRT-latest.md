@@ -21,8 +21,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:b37c1cd6dafc794413fff2a5a5b7e66643a86f9c8a0a22d101ae7
 │                       │      │                   9c74bf344da 
-│                       │      ├ Title           : Title Not Available 
-│                       │      ├ Description     : Description Not Available 
+│                       │      ├ Title           : [Unknown description] 
+│                       │      ├ Description     : [Unknown description] 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2026-18924 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
@@ -63,8 +63,12 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:4c27dc3fa37e07cc20d0bf798baef4dacc4370baebad0a1dba1ca
 │                       │      │                   d8e72aea753 
-│                       │      ├ Title           : [Unknown description] 
-│                       │      ├ Description     : [Unknown description] 
+│                       │      ├ Title           : CVE-2026-19931 
+│                       │      ├ Description     : A flaw in libcurl makes it wrongly reuse an HTTP connection
+│                       │      │                   setup for a given hostname using Negotiate authentication,
+│                       │      │                   when the initial request is done using empty credentials.
+│                       │      │                   This can make user B's request get sent over user A's
+│                       │      │                   previously authenticated connection. 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2026-80229 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
@@ -1318,8 +1322,8 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:2ad7e1910c31bef8c161f4cad8bfa6ec184df22a0ae6e925f742f
 │                       │      │                   fb3e02a04c5 
-│                       │      ├ Title           : Title Not Available 
-│                       │      ├ Description     : Description Not Available 
+│                       │      ├ Title           : [Unknown description] 
+│                       │      ├ Description     : [Unknown description] 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2026-18924 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
@@ -1362,8 +1366,12 @@
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
 │                       │      ├ Fingerprint     : sha256:09a261f47bfb26d8b377b0a7665be9b11439facedf75f38365cef
 │                       │      │                   9bf55887042 
-│                       │      ├ Title           : [Unknown description] 
-│                       │      ├ Description     : [Unknown description] 
+│                       │      ├ Title           : CVE-2026-19931 
+│                       │      ├ Description     : A flaw in libcurl makes it wrongly reuse an HTTP connection
+│                       │      │                   setup for a given hostname using Negotiate authentication,
+│                       │      │                   when the initial request is done using empty credentials.
+│                       │      │                   This can make user B's request get sent over user A's
+│                       │      │                   previously authenticated connection. 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [24] ╭ VulnerabilityID : CVE-2026-80229 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
