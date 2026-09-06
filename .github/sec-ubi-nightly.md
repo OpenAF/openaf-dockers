@@ -11,14 +11,14 @@
 │                       │       │                  ╰ UID : 3d297ce68b7e3cbf 
 │                       │       ├ InstalledVersion: 1.2.15.3-1.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-25068 
-│                       │       ├ Fingerprint     : sha256:670d3a1429c5b9d02f9ae3807889fd604f8b222eb63e774355e5
-│                       │       │                   a0ae5c9520b1 
+│                       │       ├ Fingerprint     : sha256:73e1a66357077b597322473197a3d3945630f17b5937e65507ae
+│                       │       │                   e97f1af13542 
 │                       │       ├ Title           : alsa-lib: alsa-lib Topology Decoder Heap-based Buffer
 │                       │       │                   Overflow 
 │                       │       ├ Description     : alsa-lib versions 1.2.2 up to and including 1.2.15.2, prior
@@ -72,14 +72,14 @@
 │                       │       │                  ╰ UID : 9d3501c1b6ff3063 
 │                       │       ├ InstalledVersion: 0.8-23.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-59529 
-│                       │       ├ Fingerprint     : sha256:83f36ae16eaf8c95e4b90d1d1a7bc4afd187a3164be98562d74a
-│                       │       │                   449c74007fb4 
+│                       │       ├ Fingerprint     : sha256:4f241ede7d2e9e94ef80ab8daee84992590d00e6d913834e8370
+│                       │       │                   94ce9a0effcf 
 │                       │       ├ Title           : avahi: simple clients denial-of-service 
 │                       │       ├ Description     : Avahi is a system which facilitates service discovery on a
 │                       │       │                   local network via the mDNS/DNS-SD protocol suite. In
@@ -147,14 +147,14 @@
 │                       │       │                  ╰ UID : 9d3501c1b6ff3063 
 │                       │       ├ InstalledVersion: 0.8-23.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68276 
-│                       │       ├ Fingerprint     : sha256:252302cfd88337c1723f69ac140712aaa78431980dcb4beeb58b
-│                       │       │                   79ed3f34aa0b 
+│                       │       ├ Fingerprint     : sha256:08e0d42e1346868f3b5bbc15826a8583d42990dfbdbde0bd0de4
+│                       │       │                   5c4981966e2a 
 │                       │       ├ Title           : avahi: Avahi: Denial of Service via D-Bus record browsers
 │                       │       │                   with AVAHI_LOOKUP_USE_WIDE_AREA flag 
 │                       │       ├ Description     : Avahi is a system which facilitates service discovery on a
@@ -204,14 +204,14 @@
 │                       │       │                  ╰ UID : 9d3501c1b6ff3063 
 │                       │       ├ InstalledVersion: 0.8-23.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68468 
-│                       │       ├ Fingerprint     : sha256:1afed286110fd1e716bd9bd41268929ded9e6a4d915d7964bcce
-│                       │       │                   442dd601678b 
+│                       │       ├ Fingerprint     : sha256:49b7e406aace0ed5a19c0b29a0c0c65064a53169ff9fcfa32009
+│                       │       │                   04456896c7ef 
 │                       │       ├ Title           : avahi: Avahi: Denial of Service via crafted mDNS/DNS-SD
 │                       │       │                   announcements 
 │                       │       ├ Description     : Avahi is a system which facilitates service discovery on a
@@ -258,14 +258,14 @@
 │                       │       │                  ╰ UID : 9d3501c1b6ff3063 
 │                       │       ├ InstalledVersion: 0.8-23.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68471 
-│                       │       ├ Fingerprint     : sha256:1f4fb2777d279382e6a49817b4c80ecc4661605699d98cea12a7
-│                       │       │                   9d80b669fb4a 
+│                       │       ├ Fingerprint     : sha256:a5da13b5c877c5250b02cb80139c15e5b3e75d4c414dfdfd4203
+│                       │       │                   682c94446c9d 
 │                       │       ├ Title           : avahi: Avahi: Denial of Service via unsolicited CNAME
 │                       │       │                   announcements 
 │                       │       ├ Description     : Avahi is a system which facilitates service discovery on a
@@ -311,14 +311,14 @@
 │                       │       │                  ╰ UID : 9d3501c1b6ff3063 
 │                       │       ├ InstalledVersion: 0.8-23.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-24401 
-│                       │       ├ Fingerprint     : sha256:a05350cb0936bcd5638424b88e0612bbfafe19fb65bc7cac2f87
-│                       │       │                   2b889738cdb8 
+│                       │       ├ Fingerprint     : sha256:47f985c9143f3ffb909c430ace0c3cfb231330d8708594bf5ae5
+│                       │       │                   a9c385b53f5a 
 │                       │       ├ Title           : avahi: Avahi: Denial of Service via recursive CNAME record
 │                       │       │                   in mDNS response 
 │                       │       ├ Description     : Avahi is a system which facilitates service discovery on a
@@ -376,14 +376,14 @@
 │                       │       │                  ╰ UID : 9d3501c1b6ff3063 
 │                       │       ├ InstalledVersion: 0.8-23.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34933 
-│                       │       ├ Fingerprint     : sha256:08fbfc3ef6d46dfffc9ac85cbb379d79160e5a95c42fd527f00e
-│                       │       │                   45e29bb343d2 
+│                       │       ├ Fingerprint     : sha256:f2ddf1135568577fa5824cdc575d302720d78636a1463b5a08e8
+│                       │       │                   72dc47484b6d 
 │                       │       ├ Title           : avahi: avahi-daemon: Avahi: Denial of Service via D-Bus
 │                       │       │                   method call 
 │                       │       ├ Description     : Avahi is a system which facilitates service discovery on a
@@ -430,14 +430,14 @@
 │                       │       │                  ╰ UID : 9d3501c1b6ff3063 
 │                       │       ├ InstalledVersion: 0.8-23.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2017-6519 
-│                       │       ├ Fingerprint     : sha256:f5014ec77eef322e2d5f82bef5cfbf4b8360391faa102240ca4d
-│                       │       │                   f875eb46e2c6 
+│                       │       ├ Fingerprint     : sha256:ca883f358392fa907d1635cd415643bebf7e6cebeb955888d74e
+│                       │       │                   57f60d385993 
 │                       │       ├ Title           : avahi: Multicast DNS responds to unicast queries outside of
 │                       │       │                    local network 
 │                       │       ├ Description     : avahi-daemon in Avahi through 0.6.32 and 0.7 inadvertently
@@ -506,14 +506,14 @@
 │                       │       │                  ╰ UID : 6d70d2c6cabe297d 
 │                       │       ├ InstalledVersion: 1.0.8-11.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42250 
-│                       │       ├ Fingerprint     : sha256:044659937c87cc1f2721f9080440cdb29fbdb67b8f5d93fa4316
-│                       │       │                   f5c9f0dff507 
+│                       │       ├ Fingerprint     : sha256:19b079f8ed7b66091bfc790a520d79452b676353a6fba86b703f
+│                       │       │                   446a1d17592d 
 │                       │       ├ Title           : bzip2: bzip2: Denial of Service in bzip2recover via a
 │                       │       │                   specially crafted file 
 │                       │       ├ Description     : bzip2 contains an off‑by‑one error in the bzip2recover
@@ -562,14 +562,14 @@
 │                       │       │                  ╰ UID : cdaca5ccfed54f58 
 │                       │       ├ InstalledVersion: 8.32-41.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56391 
-│                       │       ├ Fingerprint     : sha256:908c04432a15c82d405f65d534ff8816a51ab97561d1fc89b8c1
-│                       │       │                   010a2936aab0 
+│                       │       ├ Fingerprint     : sha256:e4f0a44fabb60a06c6014a39f61cbbd85093307dd712fc234f59
+│                       │       │                   bfe8a6640c84 
 │                       │       ├ Title           : coreutils: GNU coreutils uniq: Denial of Service and
 │                       │       │                   information disclosure via out-of-bounds read with
 │                       │       │                   multibyte input 
@@ -635,14 +635,14 @@
 │                       │       │                  ╰ UID : cdaca5ccfed54f58 
 │                       │       ├ InstalledVersion: 8.32-41.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56392 
-│                       │       ├ Fingerprint     : sha256:1d35495dd23ac7734305d9d86f40fc23d648e800a334d48015ba
-│                       │       │                   338cd26eb042 
+│                       │       ├ Fingerprint     : sha256:fc176f83f7462fae0506ff0a7661e49b896cc9533e4dd2edd34c
+│                       │       │                   7248d8e30b68 
 │                       │       ├ Title           : coreutils: GNU coreutils unexpand: Denial of Service via
 │                       │       │                   crafted tab stop values 
 │                       │       ├ Description     : GNU coreutils unexpand is vulnerable to a heap-based buffer
@@ -702,14 +702,14 @@
 │                       │       │                  ╰ UID : a83e909990543973 
 │                       │       ├ InstalledVersion: 1:2.3.3op2-39.el9_8 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4504 
-│                       │       ├ Fingerprint     : sha256:dcf3a2bdfb928c40e3094d04ee86b3a0f107eac87538785306b5
-│                       │       │                   55883a3ae3c1 
+│                       │       ├ Fingerprint     : sha256:4b86362a79ee55a68d72bc52d69f321920e5e3cd131b052ecef5
+│                       │       │                   42b259e42419 
 │                       │       ├ Title           : libppd: Postscript Parsing Heap Overflow 
 │                       │       ├ Description     : Due to failure in validating the length provided by an
 │                       │       │                   attacker-crafted PPD PostScript document, CUPS and libppd
@@ -779,14 +779,14 @@
 │                       │       │                  ╰ UID : a83e909990543973 
 │                       │       ├ InstalledVersion: 1:2.3.3op2-39.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27447 
-│                       │       ├ Fingerprint     : sha256:f42dd8a18df942566b48f92176dac40c7456252c27e381119899
-│                       │       │                   c4719d1f87de 
+│                       │       ├ Fingerprint     : sha256:b2e8ed05cb67f4973b37d83f8e34f6c1dbb709abd0f536ecd831
+│                       │       │                   9076d58b44da 
 │                       │       ├ Title           : cups: OpenPrinting CUPS: Authorization bypass via
 │                       │       │                   case-insensitive username comparison 
 │                       │       ├ Description     : OpenPrinting CUPS is an open source printing system for
@@ -840,14 +840,14 @@
 │                       │       │                  ╰ UID : a83e909990543973 
 │                       │       ├ InstalledVersion: 1:2.3.3op2-39.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34978 
-│                       │       ├ Fingerprint     : sha256:11a2ba00a2cb97b1d33826fe9586656788c402cb2a115f1cca81
-│                       │       │                   1af9e42024cd 
+│                       │       ├ Fingerprint     : sha256:d200159759662c8059423e4ab1bacc1a85d213b495ee97465514
+│                       │       │                   1cd29227219d 
 │                       │       ├ Title           : cups: OpenPrinting CUPS: Denial of Service via path
 │                       │       │                   traversal in RSS notifier 
 │                       │       ├ Description     : OpenPrinting CUPS is an open source printing system for
@@ -898,14 +898,14 @@
 │                       │       │                  ╰ UID : a83e909990543973 
 │                       │       ├ InstalledVersion: 1:2.3.3op2-39.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34979 
-│                       │       ├ Fingerprint     : sha256:edba09046238877bcf4fba5de6840e2b21431b015af0c644d3e4
-│                       │       │                   3ca85c612fbd 
+│                       │       ├ Fingerprint     : sha256:5eb22df0f6422145dfeb98bb031644996e52333499f8f20afa02
+│                       │       │                   2cb035aae8b3 
 │                       │       ├ Title           : cups: OpenPrinting CUPS: Denial of Service via heap-based
 │                       │       │                   buffer overflow in job attribute processing 
 │                       │       ├ Description     : OpenPrinting CUPS is an open source printing system for
@@ -949,14 +949,14 @@
 │                       │       │                  ╰ UID : a83e909990543973 
 │                       │       ├ InstalledVersion: 1:2.3.3op2-39.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34990 
-│                       │       ├ Fingerprint     : sha256:469d97f3c999f1eacabf9e9f04038da2c27fbf6608608877af2e
-│                       │       │                   b1cd6aee3081 
+│                       │       ├ Fingerprint     : sha256:6f9474b24c5e07942ee86ea9aa23007d37973859250b29435e35
+│                       │       │                   920db150d0d7 
 │                       │       ├ Title           : cups: OpenPrinting CUPS: Privilege escalation via arbitrary
 │                       │       │                    file overwrite due to coerced authentication 
 │                       │       ├ Description     : OpenPrinting CUPS is an open source printing system for
@@ -1008,14 +1008,14 @@
 │                       │       │                  ╰ UID : a83e909990543973 
 │                       │       ├ InstalledVersion: 1:2.3.3op2-39.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-39314 
-│                       │       ├ Fingerprint     : sha256:49e53d2337dac72c6a4705c76bbd471ccfb894a6c9e6a93e9b5e
-│                       │       │                   0ea19adadde1 
+│                       │       ├ Fingerprint     : sha256:3e5387215f83f5dfc52d5d48182e21c840f50fc449ee4d1257ec
+│                       │       │                   a460252f75d2 
 │                       │       ├ Title           : cups: CUPS: Denial of Service via integer underflow in IPP
 │                       │       │                   attribute handling 
 │                       │       ├ Description     : OpenPrinting CUPS is an open source printing system for
@@ -1070,14 +1070,14 @@
 │                       │       │                  ╰ UID : a83e909990543973 
 │                       │       ├ InstalledVersion: 1:2.3.3op2-39.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-39316 
-│                       │       ├ Fingerprint     : sha256:9d862f2a402d7babc61b36f56013636a12ae9ab84b3d4a86f592
-│                       │       │                   0b155ed41e37 
+│                       │       ├ Fingerprint     : sha256:67ddcbffc45fbad067dc204bb35beda571069634a16973f93b57
+│                       │       │                   5d7eaf31a111 
 │                       │       ├ Title           : cups: CUPS: Denial of Service and potential arbitrary code
 │                       │       │                   execution via use-after-free vulnerability when deleting
 │                       │       │                   temporary printers. 
@@ -1132,14 +1132,14 @@
 │                       │       │                  ╰ UID : a83e909990543973 
 │                       │       ├ InstalledVersion: 1:2.3.3op2-39.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-25317 
-│                       │       ├ Fingerprint     : sha256:b54080ae607fc71f35fafb054318e938e3748dbb7217bc5b8f7d
-│                       │       │                   e8fe38097fdd 
+│                       │       ├ Fingerprint     : sha256:61771a3253608137f9d25e5b7c49bc25717b40947527fea38d0c
+│                       │       │                   f91ca3d2a9e4 
 │                       │       ├ Title           : cups: insecure permissions of /var/log/cups allows for
 │                       │       │                   symlink attacks 
 │                       │       ├ Description     : A Incorrect Default Permissions vulnerability in the
@@ -1195,14 +1195,14 @@
 │                       │       │                  ╰ UID : a83e909990543973 
 │                       │       ├ InstalledVersion: 1:2.3.3op2-39.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41079 
-│                       │       ├ Fingerprint     : sha256:3930072e91d4eb32519ab17650ce98e1e351d98fab752e1d0835
-│                       │       │                   42de991f3932 
+│                       │       ├ Fingerprint     : sha256:51480846437557e1dc981e2fea8abe5205fc675c0374a258c6ac
+│                       │       │                   285181475240 
 │                       │       ├ Title           : cups: CUPS: Information disclosure via crafted SNMP response 
 │                       │       ├ Description     : OpenPrinting CUPS is an open source printing system for
 │                       │       │                   Linux and other Unix-like operating systems. Prior to
@@ -1258,14 +1258,14 @@
 │                       │       │                  ╰ UID : 6c5fb4ce8ee40ed0 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11352 
-│                       │       ├ Fingerprint     : sha256:50ef6a1779773bed7b50c6dfc5bd363e657e15b9ca6f30a11680
-│                       │       │                   366420da794e 
+│                       │       ├ Fingerprint     : sha256:eb2d89259c023d1bbb5feba3d110d6b28ac069ed4d56fb7c8a8d
+│                       │       │                   e3a75367eaff 
 │                       │       ├ Title           : curl: libcurl: curl/libcurl: Remote denial of service via
 │                       │       │                   QUIC UDP receive function vulnerability 
 │                       │       ├ Description     : An issue in curl’s QUIC UDP receive function allows a
@@ -1313,14 +1313,14 @@
 │                       │       │                  ╰ UID : 6c5fb4ce8ee40ed0 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11586 
-│                       │       ├ Fingerprint     : sha256:74847580acd71e4b1959f3edfbc0e408ab0aa469e28c4c2eab7b
-│                       │       │                   9a34a65ca1b9 
+│                       │       ├ Fingerprint     : sha256:b57453bcd78b37a3060f58d988bc1dc4f1a1400c1a8f648ad895
+│                       │       │                   4ec7de4a654c 
 │                       │       ├ Title           : curl: curl: Denial of Service via WebSocket PING flood 
 │                       │       ├ Description     : By default, curl automatically responds to WebSocket PING
 │                       │       │                   frames. Because curl
@@ -1366,14 +1366,14 @@
 │                       │       │                  ╰ UID : 6c5fb4ce8ee40ed0 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-8925 
-│                       │       ├ Fingerprint     : sha256:6f3ace76fc13b3943b3c0dc20b8d30bfcb8ff6a6efc8141717b7
-│                       │       │                   0431e14daf4d 
+│                       │       ├ Fingerprint     : sha256:c2dab64910d207b98c0e7bb47d3ec58752d62c24620732791735
+│                       │       │                   4506ea22b4f8 
 │                       │       ├ Title           : curl: curl: Double-free vulnerability in SASL authentication 
 │                       │       ├ Description     : The curl logic that works with SASL authentication could
 │                       │       │                   end up cleaning up
@@ -1417,14 +1417,14 @@
 │                       │       │                  ╰ UID : 6c5fb4ce8ee40ed0 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13034 
-│                       │       ├ Fingerprint     : sha256:dd5a155912268bd45ce07e0b17c37121151f548e513c3d045ac2
-│                       │       │                   8020faa95604 
+│                       │       ├ Fingerprint     : sha256:24eda765663f3db0ee65960bd2e6640b74abe0f0f3ea2b81b6c3
+│                       │       │                   1b954ed98af8 
 │                       │       ├ Title           : curl: Public key pinning bypass via QUIC and GnuTLS allows
 │                       │       │                   server impersonation 
 │                       │       ├ Description     : When using `CURLOPT_PINNEDPUBLICKEY` option with libcurl or
@@ -1478,14 +1478,14 @@
 │                       │       │                  ╰ UID : 6c5fb4ce8ee40ed0 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14017 
-│                       │       ├ Fingerprint     : sha256:c52a21f15bdbfcf2baddb1122483abb98420392b79786499bc7b
-│                       │       │                   48cf66264aa5 
+│                       │       ├ Fingerprint     : sha256:3999ec0bb3841862ce29f9aa12ef589c8e19170551a6a25f149d
+│                       │       │                   8022d52b25ef 
 │                       │       ├ Title           : curl: curl: Security bypass due to global TLS option
 │                       │       │                   changes in multi-threaded LDAPS transfers 
 │                       │       ├ Description     : When doing multi-threaded LDAPS transfers (LDAP over TLS)
@@ -1535,14 +1535,14 @@
 │                       │       │                  ╰ UID : 6c5fb4ce8ee40ed0 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11856 
-│                       │       ├ Fingerprint     : sha256:c66408256aa887ddaa53824847ac2b4736c1ff7bf444517c4ec0
-│                       │       │                   b9c1252d27b7 
+│                       │       ├ Fingerprint     : sha256:9792ebcf8f9c9afb1441bb444a12acfbfffa49244337baed75f3
+│                       │       │                   de305987192b 
 │                       │       ├ Title           : curl: curl: Information disclosure via incorrect Digest
 │                       │       │                   authentication header reuse 
 │                       │       ├ Description     : Successfully using libcurl to do a transfer to a specific
@@ -1592,14 +1592,14 @@
 │                       │       │                  ╰ UID : 6c5fb4ce8ee40ed0 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3784 
-│                       │       ├ Fingerprint     : sha256:37706679b362438b139b872912b0f9f6c1172f12ef025438e9e4
-│                       │       │                   b3f1355f05b5 
+│                       │       ├ Fingerprint     : sha256:42cfe8452cfd7c2070fc3da1a0a24869b0ddbdf238eb2c49d370
+│                       │       │                   688ed9de76a0 
 │                       │       ├ Title           : curl: curl: Unauthorized access due to improper HTTP proxy
 │                       │       │                   connection reuse 
 │                       │       ├ Description     : curl would wrongly reuse an existing HTTP proxy connection
@@ -1662,14 +1662,14 @@
 │                       │       │                  ╰ UID : 6c5fb4ce8ee40ed0 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4873 
-│                       │       ├ Fingerprint     : sha256:b69b6726aa36916365c70f82d255a88a1eccb75e1c055171b0fd
-│                       │       │                   567f193cc13d 
+│                       │       ├ Fingerprint     : sha256:b35740dcb89c9209a019321a49a9c53bbc21a9ab37e72776d91f
+│                       │       │                   9402fb8c2cac 
 │                       │       ├ Title           : curl: curl: Information disclosure due to incorrect TLS
 │                       │       │                   connection reuse 
 │                       │       ├ Description     : A vulnerability exists where a connection requiring TLS
@@ -1720,14 +1720,14 @@
 │                       │       │                  ╰ UID : 6c5fb4ce8ee40ed0 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-5545 
-│                       │       ├ Fingerprint     : sha256:485799765490e17a7cbbef60ad5e6a927843e243705e9cbbd5fb
-│                       │       │                   7ffd9c86b994 
+│                       │       ├ Fingerprint     : sha256:98650232c5da1142ccb5afe8041adece67afd9dac2169531614d
+│                       │       │                   f322f6d07541 
 │                       │       ├ Title           : curl: libcurl: Authentication bypass due to incorrect HTTP
 │                       │       │                   Negotiate connection reuse 
 │                       │       ├ Description     : libcurl might in some circumstances reuse the wrong
@@ -1801,14 +1801,14 @@
 │                       │       │                  ╰ UID : 6c5fb4ce8ee40ed0 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-5773 
-│                       │       ├ Fingerprint     : sha256:d4745c4dac17be848a3df287deb2a0c51e2567ed8a8b98382048
-│                       │       │                   12025ced025d 
+│                       │       ├ Fingerprint     : sha256:640713b67b8569d6cea59978962887b0c0169417dd4b5fba08b7
+│                       │       │                   74587b7cc691 
 │                       │       ├ Title           : curl: libcurl: Wrong file transfer due to incorrect SMB
 │                       │       │                   connection reuse 
 │                       │       ├ Description     : libcurl might in some circumstances reuse the wrong
@@ -1874,14 +1874,14 @@
 │                       │       │                  ╰ UID : 6c5fb4ce8ee40ed0 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6253 
-│                       │       ├ Fingerprint     : sha256:68d021a8d46a2f27455bc0024fe313b3943d6ddd4f7939b375db
-│                       │       │                   5a8656f2313f 
+│                       │       ├ Fingerprint     : sha256:3dc98665d1b16f847644a3af9da530286430cbe89e0a781de31a
+│                       │       │                   e14af4d471fc 
 │                       │       ├ Title           : curl: curl: Proxy credential disclosure via redirects to
 │                       │       │                   unauthenticated proxies 
 │                       │       ├ Description     : curl might erroneously pass on credentials for a first
@@ -1935,14 +1935,14 @@
 │                       │       │                  ╰ UID : 6c5fb4ce8ee40ed0 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6429 
-│                       │       ├ Fingerprint     : sha256:7c2d81f24f5d3ab5be349336bcc7be86e48c8ab38b35f3de95c9
-│                       │       │                   bcf1a4a12c88 
+│                       │       ├ Fingerprint     : sha256:681da6fdcf10bc6522ecedc17bbf05ec2fde3dac25b3d2c985bb
+│                       │       │                   d4e0f9370167 
 │                       │       ├ Title           : curl: libcurl: Credential leak via reused proxy connection
 │                       │       │                   during HTTP redirects 
 │                       │       ├ Description     : When asked to both use a `.netrc` file for credentials and
@@ -1983,14 +1983,14 @@
 │                       │       │                  ╰ UID : 6c5fb4ce8ee40ed0 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-7168 
-│                       │       ├ Fingerprint     : sha256:2dc076437ca3a4184c5ccc390f9ae53e999dafbf8b2737d0d5f7
-│                       │       │                   ff45c6dc1e9e 
+│                       │       ├ Fingerprint     : sha256:d3ca20047e0e575773f25313ff771906c0e2dccd06622a7c6871
+│                       │       │                   e65333d8d3c9 
 │                       │       ├ Title           : curl: libcurl: Information disclosure via incorrect
 │                       │       │                   Proxy-Authorization header reuse 
 │                       │       ├ Description     : Successfully using libcurl to do a transfer over a specific
@@ -2045,14 +2045,14 @@
 │                       │       │                  ╰ UID : 6c5fb4ce8ee40ed0 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-8924 
-│                       │       ├ Fingerprint     : sha256:b953d932ad119d01c79b2e491e712a99e55ad5c3e8b090f31318
-│                       │       │                   066889857ae7 
+│                       │       ├ Fingerprint     : sha256:068459e517c493849ad752a7fe833f8e818d751c1595b84f8f0d
+│                       │       │                   014bba5db823 
 │                       │       ├ Title           : curl: curl: Cookie injection via malicious HTTP server
 │                       │       │                   using super cookies 
 │                       │       ├ Description     : A flaw in curl’s cookie parsing logic allows a malicious
@@ -2096,14 +2096,14 @@
 │                       │       │                  ╰ UID : 6c5fb4ce8ee40ed0 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-8926 
-│                       │       ├ Fingerprint     : sha256:5123d062c4e53a2169226038a3b5054fff7df84211b8fb81f4b9
-│                       │       │                   33b85a8c5259 
+│                       │       ├ Fingerprint     : sha256:6f9bf1d636c9a2ae0bf3d1617bf9122ff80380cd1d8ed4bd0ed9
+│                       │       │                   ba09552a9d15 
 │                       │       ├ Title           : curl: curl: Information disclosure via incorrect .netrc
 │                       │       │                   password lookup 
 │                       │       ├ Description     : When asking curl to use a `.netrc` file to find credentials
@@ -2153,14 +2153,14 @@
 │                       │       │                  ╰ UID : 6c5fb4ce8ee40ed0 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11053 
-│                       │       ├ Fingerprint     : sha256:c9cb4a48ccd803ea520351206b373af61267afbda1670d78566e
-│                       │       │                   8a4ec7da63de 
+│                       │       ├ Fingerprint     : sha256:2c5be3b398630527c88ea9fe2c7afa54cead930e5069c00726da
+│                       │       │                   5b8016385cb1 
 │                       │       ├ Title           : curl: curl netrc password leak 
 │                       │       ├ Description     : When asked to both use a `.netrc` file for credentials and
 │                       │       │                   to follow HTTP
@@ -2439,14 +2439,14 @@
 │                       │       │                  ╰ UID : 6c5fb4ce8ee40ed0 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7264 
-│                       │       ├ Fingerprint     : sha256:aadc6d83c8dee491f468c261cf346f45a578fbe6b7ce5fc3c02a
-│                       │       │                   e3d6ee3ea696 
+│                       │       ├ Fingerprint     : sha256:86e3838226d190704455428ed1b51a089abd89f2ecdb8be10827
+│                       │       │                   55f2960520c2 
 │                       │       ├ Title           : curl: libcurl: ASN.1 date parser overread 
 │                       │       ├ Description     : libcurl's ASN1 parser code has the `GTime2str()` function,
 │                       │       │                   used for parsing an
@@ -2731,14 +2731,14 @@
 │                       │       │                  ╰ UID : 6c5fb4ce8ee40ed0 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9681 
-│                       │       ├ Fingerprint     : sha256:606091b1feab76cfe7d6e7776c8d08f388b9b94f7af02f7c578a
-│                       │       │                   3f41b529d463 
+│                       │       ├ Fingerprint     : sha256:14f33e6c16fe5a74780bb48dcf6a61338e41fb2cd5bf455da2b4
+│                       │       │                   6a5188156287 
 │                       │       ├ Title           : curl: HSTS subdomain overwrites parent cache entry 
 │                       │       ├ Description     : When curl is asked to use HSTS, the expiry time for a
 │                       │       │                   subdomain might
@@ -2830,14 +2830,14 @@
 │                       │       │                  ╰ UID : 6c5fb4ce8ee40ed0 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14524 
-│                       │       ├ Fingerprint     : sha256:ef51f52cd3a360c0d6b208d3f60f2d55cdd6b2049b922218aa65
-│                       │       │                   cdffd274f363 
+│                       │       ├ Fingerprint     : sha256:daec0550d193a00d07be6ab90c1c79551769e5f66ea2f793c4f5
+│                       │       │                   1a12cb8e7337 
 │                       │       ├ Title           : curl: Information disclosure via cross-protocol redirect
 │                       │       │                   with OAuth2 bearer token 
 │                       │       ├ Description     : When an OAuth2 bearer token is used for an HTTP(S)
@@ -2887,14 +2887,14 @@
 │                       │       │                  ╰ UID : 6c5fb4ce8ee40ed0 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-15079 
-│                       │       ├ Fingerprint     : sha256:bf2a2c42d6aeefa5754a95d63903e9eb4ff1ee203087415a87b2
-│                       │       │                   85b4c296b4e2 
+│                       │       ├ Fingerprint     : sha256:0fad6699660dcc5a2254a1fbb110eec9b805f5da2955aa726ca6
+│                       │       │                   d3a5708ff965 
 │                       │       ├ Title           : curl: Host verification bypass during SSH transfers 
 │                       │       ├ Description     : When doing SSH-based transfers using either SCP or SFTP,
 │                       │       │                   and setting the
@@ -2942,14 +2942,14 @@
 │                       │       │                  ╰ UID : 6c5fb4ce8ee40ed0 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-15224 
-│                       │       ├ Fingerprint     : sha256:56e39f565448679aea4577e22ef20002172798c4d44ff10d453b
-│                       │       │                   731238770d66 
+│                       │       ├ Fingerprint     : sha256:c0d10de1290f7f1b874e28901d422e57e7d80b47bf2ed81e5488
+│                       │       │                   932b2a6c8f3e 
 │                       │       ├ Title           : curl: libssh key passphrase bypass without agent set 
 │                       │       ├ Description     : When doing SSH-based transfers using either SCP or SFTP,
 │                       │       │                   and asked to do
@@ -2995,14 +2995,14 @@
 │                       │       │                  ╰ UID : 6c5fb4ce8ee40ed0 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6276 
-│                       │       ├ Fingerprint     : sha256:a6586f6f97459d2937350f9711237861c343bfb0a65ae04bed5f
-│                       │       │                   f5b1a9c00b04 
+│                       │       ├ Fingerprint     : sha256:24f873b5c8dfeb46ff975b3b21d3aa60ee223ab7704601b27700
+│                       │       │                   f9b005caf0c4 
 │                       │       ├ Title           : curl: libcurl: Information disclosure due to cookie leak
 │                       │       │                   when reusing connections with custom Host headers 
 │                       │       ├ Description     : Using libcurl, when a custom `Host:` header is first set
@@ -3056,14 +3056,14 @@
 │                       │       │                  ╰ UID : fb342eb55083ba16 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.1 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32776 
-│                       │       ├ Fingerprint     : sha256:f945a946e002b6e23df8c3f539607ee1967462bbc71480e9b01d
-│                       │       │                   f249d52ab7ff 
+│                       │       ├ Fingerprint     : sha256:377cc9d8243e825cb29f0e5711214076a3c6f22c554577bb61be
+│                       │       │                   366382186f14 
 │                       │       ├ Title           : libexpat: libexpat: Denial of Service due to NULL pointer
 │                       │       │                   dereference 
 │                       │       ├ Description     : libexpat before 2.7.5 allows a NULL pointer dereference
@@ -3113,14 +3113,14 @@
 │                       │       │                  ╰ UID : fb342eb55083ba16 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.1 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32777 
-│                       │       ├ Fingerprint     : sha256:75591f22c4d87e9bb4d138c1f314f40733fa4e4f2bdda8a28a13
-│                       │       │                   7b2040c797d7 
+│                       │       ├ Fingerprint     : sha256:da2425b96e6a05f510c022f27e110e721d8de3225c9929acb5c6
+│                       │       │                   cf77969ca39e 
 │                       │       ├ Title           : libexpat: libexpat: Denial of Service via infinite loop in
 │                       │       │                   DTD content parsing 
 │                       │       ├ Description     : libexpat before 2.7.5 allows an infinite loop while parsing
@@ -3174,14 +3174,14 @@
 │                       │       │                  ╰ UID : fb342eb55083ba16 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.1 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32778 
-│                       │       ├ Fingerprint     : sha256:4e99cd20bad1c0c783b74f173ce5571ae60cdecaa88387f1a519
-│                       │       │                   d193c1b6d278 
+│                       │       ├ Fingerprint     : sha256:f4e8732a451aa14db619dc79af5e8a40480861ef510e11e772ed
+│                       │       │                   2c8df40b8d7e 
 │                       │       ├ Title           : libexpat: libexpat: Denial of Service via NULL pointer
 │                       │       │                   dereference after out-of-memory condition 
 │                       │       ├ Description     : libexpat before 2.7.5 allows a NULL pointer dereference in
@@ -3232,14 +3232,14 @@
 │                       │       │                  ╰ UID : fb342eb55083ba16 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.1 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-50219 
-│                       │       ├ Fingerprint     : sha256:ef39f38df4a4a03d532ebae6aeae6125cecf0c515884af1fa2a9
-│                       │       │                   210aba545092 
+│                       │       ├ Fingerprint     : sha256:7d4b61a1ff3f5e0fd03569e54c93b04ebce0741392916c994411
+│                       │       │                   0dc43522b379 
 │                       │       ├ Title           : expat: libexpat: Use-after-free vulnerability due to
 │                       │       │                   improper handler call depth tracking 
 │                       │       ├ Description     : libexpat before 2.8.2 lacks handler call depth tracking for
@@ -3284,14 +3284,14 @@
 │                       │       │                  ╰ UID : fb342eb55083ba16 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.1 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56132 
-│                       │       ├ Fingerprint     : sha256:d9171075af898f788eb7c9a5e4e8ebe61ccd45e45ba96dd979d4
-│                       │       │                   1adf9fefc700 
+│                       │       ├ Fingerprint     : sha256:d923d509eefb0cb97845a74f16041a157dad1da7e5b5cffd5d94
+│                       │       │                   43d4e6365d73 
 │                       │       ├ Title           : expat: libexpat: Arbitrary Code Execution via Heap-based
 │                       │       │                   Buffer Overflow 
 │                       │       ├ Description     : In libexpat before 2.8.2, there is a heap-based buffer
@@ -3335,14 +3335,14 @@
 │                       │       │                  ╰ UID : fb342eb55083ba16 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.1 
 │                       │       ├ Status          : under_investigation 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56403 
-│                       │       ├ Fingerprint     : sha256:ec64bfe3bf98badcf8ad4ffdec50da31bac05a63233f002814ef
-│                       │       │                   4eb2a4496df5 
+│                       │       ├ Fingerprint     : sha256:f30ff20ba434b0326ea4a13670efc7ee4920c154390fcec7356e
+│                       │       │                   156bc238c4f8 
 │                       │       ├ Title           : libexpat: libexpat: Arbitrary code execution due to integer
 │                       │       │                    overflow in storeAtts 
 │                       │       ├ Description     : libexpat before 2.8.2 has an integer overflow in storeAtts. 
@@ -3383,14 +3383,14 @@
 │                       │       │                  ╰ UID : fb342eb55083ba16 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.1 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56405 
-│                       │       ├ Fingerprint     : sha256:659f89f2d2af37686eae98abd2e549ee38e218c5f18b650aae33
-│                       │       │                   9eb8b4eee489 
+│                       │       ├ Fingerprint     : sha256:2b1435439725acb2c69dcd25af0f151687fb2a4d9a0f91a7952b
+│                       │       │                   b7ae77eadb02 
 │                       │       ├ Title           : libexpat: libexpat: Information disclosure and arbitrary
 │                       │       │                   code execution via integer overflow 
 │                       │       ├ Description     : libexpat before 2.8.2 has an integer overflow in
@@ -3432,14 +3432,14 @@
 │                       │       │                  ╰ UID : fb342eb55083ba16 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.1 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56406 
-│                       │       ├ Fingerprint     : sha256:42ae32d3ae26248fbe2053f40ecd79a89bc948f3769c0b7c3bb0
-│                       │       │                   05cef9c5f7bf 
+│                       │       ├ Fingerprint     : sha256:cbb17fdb26c5e5928b5b720ea922061fd2ebafd288feaaf9cf52
+│                       │       │                   7314a7ea7379 
 │                       │       ├ Title           : libexpat: libexpat: Arbitrary code execution via integer
 │                       │       │                   overflow in XML_ParseBuffer 
 │                       │       ├ Description     : libexpat before 2.8.2 has an integer overflow in
@@ -3478,14 +3478,14 @@
 │                       │       │                  ╰ UID : fb342eb55083ba16 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.1 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56412 
-│                       │       ├ Fingerprint     : sha256:4e0be36704779a146c0d3851af946c7f8211219c0d1544a0e88d
-│                       │       │                   a8eca5e63ee9 
+│                       │       ├ Fingerprint     : sha256:f0fc8e1c559ee552f59a243ea0702686672571d29311b0115fb3
+│                       │       │                   ef9427b9e48a 
 │                       │       ├ Title           : libexpat: libexpat: Use-after-free vulnerability due to
 │                       │       │                   improper handling of XML CDATA sections 
 │                       │       ├ Description     : libexpat before 2.8.2 does not consider XML_TOK_DATA_CHARS
@@ -3531,14 +3531,14 @@
 │                       │       │                  ╰ UID : fb342eb55083ba16 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.1 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-66382 
-│                       │       ├ Fingerprint     : sha256:0759a193cadcd1694e687f962943dd08b1c7f75eaa978270ab78
-│                       │       │                   04820c99da17 
+│                       │       ├ Fingerprint     : sha256:e403eb358a1bfd5e7756bf280ef26c18eb2542d9f26c0cf89f8b
+│                       │       │                   f8006e07a7fd 
 │                       │       ├ Title           : libexpat: libexpat: Denial of service via crafted file
 │                       │       │                   processing 
 │                       │       ├ Description     : In libexpat through 2.7.3, a crafted file with an
@@ -3588,14 +3588,14 @@
 │                       │       │                  ╰ UID : fb342eb55083ba16 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.1 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-24515 
-│                       │       ├ Fingerprint     : sha256:89383df65c465c23b25c562f0a5db626ada4ba621c26190c2499
-│                       │       │                   683f7832c00b 
+│                       │       ├ Fingerprint     : sha256:92a32a337822d1544ce182d4e1f04f0e01c2eb04ad37bf8ee4ea
+│                       │       │                   3c227aac62c6 
 │                       │       ├ Title           : libexpat: libexpat null pointer dereference 
 │                       │       ├ Description     : In libexpat before 2.7.4, XML_ExternalEntityParserCreate
 │                       │       │                   does not copy unknown encoding handler user data. 
@@ -3648,14 +3648,14 @@
 │                       │       │                  ╰ UID : fb342eb55083ba16 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.1 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41080 
-│                       │       ├ Fingerprint     : sha256:b2743186bfdd1bb6e1703e386c9b99f25f87ded340a3c78ef38c
-│                       │       │                   30dde4c740c5 
+│                       │       ├ Fingerprint     : sha256:95a8022e2304d01f9da6397cca011b51bc13e276931f387c7369
+│                       │       │                   29f10a4d641a 
 │                       │       ├ Title           : libexpat: expat: libexpat: Denial of Service via hash
 │                       │       │                   flooding with crafted XML 
 │                       │       ├ Description     : libexpat before 2.8.0 uses insufficient entropy, and thus
@@ -3707,14 +3707,14 @@
 │                       │       │                  ╰ UID : 37963bde3f4b15cb 
 │                       │       ├ InstalledVersion: 5.1.0-6.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4156 
-│                       │       ├ Fingerprint     : sha256:13942dfdba56bc0d4195a5f33fd22bae4168e7b7a2aed7e85c39
-│                       │       │                   526f17b82dcb 
+│                       │       ├ Fingerprint     : sha256:854bcd53eb6490810eaf04d28a4f595cd781497c165494c42c16
+│                       │       │                   306e6ecbf4a8 
 │                       │       ├ Title           : gawk: heap out of bound read in builtin.c 
 │                       │       ├ Description     : A heap out-of-bounds read flaw was found in builtin.c in
 │                       │       │                   the gawk package. This issue may lead to a crash and could
@@ -3763,14 +3763,14 @@
 │                       │       │                  ╰ UID : 4039ac9da9219091 
 │                       │       ├ InstalledVersion: 2.68.4-19.el9_8.9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1484 
-│                       │       ├ Fingerprint     : sha256:22b6291e7f26fdbcb4aa54ef940453f19b5f11ed75b17f4ed2d9
-│                       │       │                   0bd359d5aeb8 
+│                       │       ├ Fingerprint     : sha256:dbc95db6f126bbcc7a8ea42bc7e606e30e7cb1eac9c5b115809d
+│                       │       │                   e941e2bbe290 
 │                       │       ├ Title           : Glib: Integer Overflow Leading to Buffer Underflow and
 │                       │       │                   Out-of-Bounds Write in GLib g_base64_encode() 
 │                       │       ├ Description     : A flaw was found in the GLib Base64 encoding routine when
@@ -3821,14 +3821,14 @@
 │                       │       │                  ╰ UID : 4039ac9da9219091 
 │                       │       ├ InstalledVersion: 2.68.4-19.el9_8.9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1489 
-│                       │       ├ Fingerprint     : sha256:7d85665ebdb9809abd4df7a3a87cd453258d19ff39758797509d
-│                       │       │                   40ee951e55ab 
+│                       │       ├ Fingerprint     : sha256:16a884ac032ecff7054579a52b447835f321edb213c67699d2b4
+│                       │       │                   9df57f331048 
 │                       │       ├ Title           : Glib: GLib: Memory corruption via integer overflow in
 │                       │       │                   Unicode case conversion 
 │                       │       ├ Description     : A flaw was found in GLib. An integer overflow vulnerability
@@ -3879,14 +3879,14 @@
 │                       │       │                  ╰ UID : 4039ac9da9219091 
 │                       │       ├ InstalledVersion: 2.68.4-19.el9_8.9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-16118 
-│                       │       ├ Fingerprint     : sha256:7192d81eefe2b3ff3829dd90dc7b50d36e4855063dc0205a0427
-│                       │       │                   37472ecc99be 
+│                       │       ├ Fingerprint     : sha256:c6416aa6105dee3729c4ff8b55b52f8779bb8ae20185c9780a54
+│                       │       │                   6527bbac60a0 
 │                       │       ├ Title           : xdgmime: heap-based buffer overflow in
 │                       │       │                   _xdg_mime_magic_parse_magic_line() in xdgmimemagic.c 
 │                       │       ├ Description     : A flaw was found in xdgmime. A heap-based buffer overflow
@@ -3929,14 +3929,14 @@
 │                       │       │                  ╰ UID : 4039ac9da9219091 
 │                       │       ├ InstalledVersion: 2.68.4-19.el9_8.9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-32636 
-│                       │       ├ Fingerprint     : sha256:a4b0652aeb65e35de8c9231f8db238132742f170f20899a18ca7
-│                       │       │                   33040cbb15cd 
+│                       │       ├ Fingerprint     : sha256:5731a19f6bdb261ed6acb1c752fca636715942bb87a810dec256
+│                       │       │                   2623c025c2ac 
 │                       │       ├ Title           : glib: Timeout in fuzz_variant_text 
 │                       │       ├ Description     : A flaw was found in glib, where the gvariant
 │                       │       │                   deserialization code is vulnerable to a denial of service
@@ -4011,14 +4011,14 @@
 │                       │       │                  ╰ UID : 4039ac9da9219091 
 │                       │       ├ InstalledVersion: 2.68.4-19.el9_8.9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-3360 
-│                       │       ├ Fingerprint     : sha256:ac737d4c2be4df17469ebc747d3a28b492facbee1a2e9ee9f639
-│                       │       │                   9d0c6ecb9c93 
+│                       │       ├ Fingerprint     : sha256:1970550e2a931c890a7d1ce0d944d95d1921f4fb137b3f6cea71
+│                       │       │                   154f8478e239 
 │                       │       ├ Title           : glibc: GLib prior to 2.82.5 is vulnerable to integer 
 │                       │       │                   overflow and buffer under-read when parsing a very long
 │                       │       │                   invalid ISO  8601 timestamp with
@@ -4067,14 +4067,14 @@
 │                       │       │                  ╰ UID : 4039ac9da9219091 
 │                       │       ├ InstalledVersion: 2.68.4-19.el9_8.9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-7039 
-│                       │       ├ Fingerprint     : sha256:648edbb823a0ed5d59eb017b4812478a03f9a97a48df957b1687
-│                       │       │                   3423158c89ef 
+│                       │       ├ Fingerprint     : sha256:92ebcd87e9a845a435d93e70a0d0d72d64073f2331784b9f6500
+│                       │       │                   85e43cfc66ef 
 │                       │       ├ Title           : glib: Buffer Under-read on GLib through glib/gfileutils.c
 │                       │       │                   via get_tmp_file() 
 │                       │       ├ Description     : A flaw was found in glib. An integer overflow during
@@ -4124,14 +4124,14 @@
 │                       │       │                  ╰ UID : 4039ac9da9219091 
 │                       │       ├ InstalledVersion: 2.68.4-19.el9_8.9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-0988 
-│                       │       ├ Fingerprint     : sha256:8bbe2590846cda8762a5790e2838f234cbd2bf506a9a8788eb37
-│                       │       │                   9243ee1f6247 
+│                       │       ├ Fingerprint     : sha256:b18afbae2d608a670dba76195741f17d8eb32e882f93ff2436f7
+│                       │       │                   e7eadbe62d1f 
 │                       │       ├ Title           : glib: GLib: Denial of Service via Integer Overflow in
 │                       │       │                   g_buffered_input_stream_peek() 
 │                       │       ├ Description     : A flaw was found in glib. Missing validation of offset and
@@ -4174,14 +4174,14 @@
 │                       │       │                  ╰ UID : 4039ac9da9219091 
 │                       │       ├ InstalledVersion: 2.68.4-19.el9_8.9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1485 
-│                       │       ├ Fingerprint     : sha256:74a51169b7167e2bd79c0bdc9745ee48ac348f82eba9774d99b5
-│                       │       │                   6f02affb51f8 
+│                       │       ├ Fingerprint     : sha256:efc7ba8b0149d533b0fe0ba8d418e8341e0c3ffb7aca5d576b90
+│                       │       │                   d9788316ce32 
 │                       │       ├ Title           : Glib: Glib: Local denial of service via buffer underflow in
 │                       │       │                    content type parsing 
 │                       │       ├ Description     : A flaw was found in Glib's content type parsing logic. This
@@ -4230,14 +4230,14 @@
 │                       │       │                  ╰ UID : 2c4da72fc66ee23f 
 │                       │       ├ InstalledVersion: 2.3.3-5.el9_7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68972 
-│                       │       ├ Fingerprint     : sha256:42da9544e52f87eab67d17515a28238a2133d352f039ec275fca
-│                       │       │                   6a0e39559585 
+│                       │       ├ Fingerprint     : sha256:c231a83769d15096b11961ac9d767cbc683df96d316a618d1d54
+│                       │       │                   3e7b06f3a9d9 
 │                       │       ├ Title           : gnupg: GnuPG: Signature bypass via form feed character in
 │                       │       │                   signed messages 
 │                       │       ├ Description     : In GnuPG through 2.4.8, if a signed message has \f at the
@@ -4290,14 +4290,14 @@
 │                       │       │                  ╰ UID : 2c4da72fc66ee23f 
 │                       │       ├ InstalledVersion: 2.3.3-5.el9_7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
-│                       │       ├ Fingerprint     : sha256:e1c45dfa5d11fbfc2cf8a1c4b8fdbd773b73f891789d17979e9c
-│                       │       │                   f032094897e8 
+│                       │       ├ Fingerprint     : sha256:a151988869f43c8dccd27ff3b46d39a1f0a28244c94d47a79519
+│                       │       │                   935596c98c21 
 │                       │       ├ Title           : gnupg: denial of service issue (resource consumption) using
 │                       │       │                    compressed packets 
 │                       │       ├ Description     : GnuPG can be made to spin on a relatively small input by
@@ -4337,14 +4337,14 @@
 │                       │       │                  ╰ UID : 2c4da72fc66ee23f 
 │                       │       ├ InstalledVersion: 2.3.3-5.el9_7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-30258 
-│                       │       ├ Fingerprint     : sha256:0bc175bb31b7645dc0cec4f768b4d4360b7ee76f9b60780829b6
-│                       │       │                   7a3f37f3aba0 
+│                       │       ├ Fingerprint     : sha256:8836ea47d5770ab619070b657120d066c7236cf877af4bab5b1d
+│                       │       │                   b6a602244d2a 
 │                       │       ├ Title           : gnupg: verification DoS due to a malicious subkey in the
 │                       │       │                   keyring 
 │                       │       ├ Description     : In GnuPG before 2.5.5, if a user chooses to import a
@@ -4399,14 +4399,14 @@
 │                       │       │                  ╰ UID : 2c4da72fc66ee23f 
 │                       │       ├ InstalledVersion: 2.3.3-5.el9_7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-24883 
-│                       │       ├ Fingerprint     : sha256:8e24c50702d11ff04040bcb7fda10366125dd20dd4f93a9aee09
-│                       │       │                   d774ce069436 
+│                       │       ├ Fingerprint     : sha256:af57351e1a6efe7ac1b63e0289827a2d0c85650d28cabcd06632
+│                       │       │                   8af6aaee01e1 
 │                       │       ├ Title           : GnuPG: GnuPG: Denial of service due to specially crafted
 │                       │       │                   signature packet 
 │                       │       ├ Description     : In GnuPG before 2.5.17, a long signature packet length
@@ -4449,14 +4449,14 @@
 │                       │       │                  ╰ UID : 2c4da72fc66ee23f 
 │                       │       ├ InstalledVersion: 2.3.3-5.el9_7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-57062 
-│                       │       ├ Fingerprint     : sha256:89d3fbf4d1e77c564e9dd4c47723b568e50dcaf34561d211108c
-│                       │       │                   157e3d4a056e 
+│                       │       ├ Fingerprint     : sha256:88d1a7d823bf6c819098a1922246d07193aef93c140b2c867983
+│                       │       │                   3f5d9717eadc 
 │                       │       ├ Title           : GnuPG: Incorrect cryptographic message parsing 
 │                       │       ├ Description     : CMS (Cryptographic Message Syntax) parsing in gpgsm in
 │                       │       │                   GnuPG through 2.5.20 mishandles the CMS format for AES-GCM
@@ -4500,14 +4500,14 @@
 │                       │       │                  ╰ UID : a91ba0912ec424b 
 │                       │       ├ InstalledVersion: 1.12-2.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41991 
-│                       │       ├ Fingerprint     : sha256:a22dfc91e5220159f81ab93714b0a8f0da0e373ae4c48249da01
-│                       │       │                   22f9a8b33019 
+│                       │       ├ Fingerprint     : sha256:2cfa3f465bf915e5b74e017b6a2c5067209c34a312e8726e9d9f
+│                       │       │                   a3eb181f0e72 
 │                       │       ├ Title           : gzip: gzip: Arbitrary file overwrite via insecure temporary
 │                       │       │                    file handling in gzexe utility 
 │                       │       ├ Description     : GNU gzip contains a vulnerability in the gzexe utility
@@ -4598,14 +4598,14 @@
 │                       │       │                  ╰ UID : e3ef96cd1ace7c98 
 │                       │       ├ InstalledVersion: 1:21.0.12.1.1-1.2.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22020 
-│                       │       ├ Fingerprint     : sha256:46a4edac9ffb37f2dc1eb988935e262f1ddead38c0fa308688cd
-│                       │       │                   5b9f3e28a624 
+│                       │       ├ Fingerprint     : sha256:8911be0751907bdfb122e3cd8959fbbe4d08f3cd8d6af70d6686
+│                       │       │                   09d1d293a940 
 │                       │       ├ Title           : libpng: Update LibPNG (Oracle CPU 2026-04) 
 │                       │       ├ Description     : This CVE was rejected by the owning CNA. 
 │                       │       ├ Severity        : HIGH 
@@ -4655,14 +4655,14 @@
 │                       │       │                  ╰ UID : e3ef96cd1ace7c98 
 │                       │       ├ InstalledVersion: 1:21.0.12.1.1-1.2.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-28164 
-│                       │       ├ Fingerprint     : sha256:f55bfdaabee6abdb9df2bb59c2a850bde88802cc2788c1a4581e
-│                       │       │                   58b5063d2e44 
+│                       │       ├ Fingerprint     : sha256:df5207013e05f90d2baea2ad5a1f9451639c541a0f0ca30e7fa7
+│                       │       │                   eef6181ef2ad 
 │                       │       ├ Title           : libpng: libpng: Denial of Service via buffer overflow in
 │                       │       │                   png_create_read_struct() function 
 │                       │       ├ Description     : Buffer Overflow vulnerability in libpng 1.6.43-1.6.46
@@ -4710,14 +4710,14 @@
 │                       │       │                  ╰ UID : e3ef96cd1ace7c98 
 │                       │       ├ InstalledVersion: 1:21.0.12.1.1-1.2.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-64505 
-│                       │       ├ Fingerprint     : sha256:1f08201b2461ff0b6c3def78110ae205a4a359a85352cda637b7
-│                       │       │                   ec47c3a070cf 
+│                       │       ├ Fingerprint     : sha256:e799765b27a17faa8e42541fd3e0201f74f4a0ddb4fa1118202c
+│                       │       │                   bc64a57d6827 
 │                       │       ├ Title           : libpng: LIBPNG heap buffer overflow via malformed palette
 │                       │       │                   index 
 │                       │       ├ Description     : LIBPNG is a reference library for use in applications that
@@ -4781,14 +4781,14 @@
 │                       │       │                  ╰ UID : e3ef96cd1ace7c98 
 │                       │       ├ InstalledVersion: 1:21.0.12.1.1-1.2.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-64506 
-│                       │       ├ Fingerprint     : sha256:991bf5ecc560aec8470c537bcd33085d11a9143a5b427ffce637
-│                       │       │                   7747f55a3ef0 
+│                       │       ├ Fingerprint     : sha256:66a1f703d9abec660f10fcad3dca9df46f8c2ae79c5408ef3d1d
+│                       │       │                   6bea64d6ed76 
 │                       │       ├ Title           : libpng: LIBPNG heap buffer over-read 
 │                       │       ├ Description     : LIBPNG is a reference library for use in applications that
 │                       │       │                   read, create, and manipulate PNG (Portable Network
@@ -4850,14 +4850,14 @@
 │                       │       │                  ╰ UID : e3ef96cd1ace7c98 
 │                       │       ├ InstalledVersion: 1:21.0.12.1.1-1.2.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22693 
-│                       │       ├ Fingerprint     : sha256:866ad88be783b6603bbb20eb6e732b471ab79ff569d0a8f55126
-│                       │       │                   dbf877188eb8 
+│                       │       ├ Fingerprint     : sha256:348f855aa29b7b15d746b60add28af7a1f9b8d4a8061bdacb741
+│                       │       │                   96c478b153ac 
 │                       │       ├ Title           : harfbuzz: Null Pointer Dereference in harfbuzz 
 │                       │       ├ Description     : HarfBuzz is a text shaping engine. Prior to version 12.3.0,
 │                       │       │                    a null pointer dereference vulnerability exists in the
@@ -4913,14 +4913,14 @@
 │                       │       │                  ╰ UID : e3ef96cd1ace7c98 
 │                       │       ├ InstalledVersion: 1:21.0.12.1.1-1.2.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34757 
-│                       │       ├ Fingerprint     : sha256:918b8b69e0399cafe694e344a0fceef22ce887182961758ed1fd
-│                       │       │                   625df124181c 
+│                       │       ├ Fingerprint     : sha256:8e559addaa5ffbdd0f180a553799c0d7d728e24d6e22cf914570
+│                       │       │                   8ead35114ba2 
 │                       │       ├ Title           : libpng: libpng: Information disclosure and data corruption
 │                       │       │                   via use-after-free vulnerability 
 │                       │       ├ Description     : LIBPNG is a reference library for use in applications that
@@ -4991,14 +4991,14 @@
 │                       │       │                  ╰ UID : e3ef96cd1ace7c98 
 │                       │       ├ InstalledVersion: 1:21.0.12.1.1-1.2.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27171 
-│                       │       ├ Fingerprint     : sha256:92b455424d80aa0694c41733043b15598cb6c5bd453c06d2c1bb
-│                       │       │                   9b570cc6695c 
+│                       │       ├ Fingerprint     : sha256:130663efec2eaa642054ebc1a0fb6bc6b7a9cc9228f63b4ac0fc
+│                       │       │                   e51209b133a4 
 │                       │       ├ Title           : zlib: zlib: Denial of Service via infinite loop in CRC32
 │                       │       │                   combine functions 
 │                       │       ├ Description     : zlib before 1.3.2 allows CPU consumption via
@@ -5052,14 +5052,14 @@
 │                       │       │                  ╰ UID : 2c46d11d3d9546e8 
 │                       │       ├ InstalledVersion: 1.21.1-10.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11850 
-│                       │       ├ Fingerprint     : sha256:7017d0dc0cacd0602e8cb647c35ee962fc4cb67434759d839b5e
-│                       │       │                   fba2920e20fa 
+│                       │       ├ Fingerprint     : sha256:190283808cbb3a4d915af78dfff9e0ad6928b8b23aadbb35a579
+│                       │       │                   538b7247bec5 
 │                       │       ├ Title           : krb5: krb5: integer underflow in berval2tl_data() leads to
 │                       │       │                   heap out-of-bounds read 
 │                       │       ├ Description     : An integer underflow vulnerability was found in MIT krb5 in
@@ -5107,14 +5107,14 @@
 │                       │       │                  ╰ UID : b3ce73cc5a567946 
 │                       │       ├ InstalledVersion: 3.5.3-11.el9_8 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-30571 
-│                       │       ├ Fingerprint     : sha256:5b21d92b55245333bae0c1a4f24bdcca75df042ef4bab21f32f2
-│                       │       │                   9f626b5ce9a9 
+│                       │       ├ Fingerprint     : sha256:a169f76775d7951a480b49dae5bc6a8da5fd793780869242f18b
+│                       │       │                   cdc6d767653f 
 │                       │       ├ Title           : libarchive: Race condition in multi-threaded use of
 │                       │       │                   archive_write_disk_header() on posix based systems 
 │                       │       ├ Description     : Libarchive through 3.6.2 can cause directories to have
@@ -5162,14 +5162,14 @@
 │                       │       │                  ╰ UID : b3ce73cc5a567946 
 │                       │       ├ InstalledVersion: 3.5.3-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-60753 
-│                       │       ├ Fingerprint     : sha256:5f7cc9dc7f4c93ffcecd513525c70bd3fa00b62569de83bba9d7
-│                       │       │                   7d746eca725c 
+│                       │       ├ Fingerprint     : sha256:e9a5e10602e541116ce5af4acb6b35cf131b8edd849b88494aa7
+│                       │       │                   4ad9e3cc74d0 
 │                       │       ├ Title           : libarchive: bsdtar hangs and OOMs with zero-length pattern
 │                       │       │                   matches 
 │                       │       ├ Description     : An issue was discovered in libarchive bsdtar before version
@@ -5214,14 +5214,14 @@
 │                       │       │                  ╰ UID : b3ce73cc5a567946 
 │                       │       ├ InstalledVersion: 3.5.3-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4426 
-│                       │       ├ Fingerprint     : sha256:a1337adbb0c87add3bd83833af431c49cfab05b48b505c2702df
-│                       │       │                   de5692fe5b71 
+│                       │       ├ Fingerprint     : sha256:44ae6b4cf8a7bc8308678895407ca1260faccf614a272728836f
+│                       │       │                   1a16d512c6e3 
 │                       │       ├ Title           : libarchive: libarchive: Denial of Service via malformed ISO
 │                       │       │                    file processing 
 │                       │       ├ Description     : A flaw was found in libarchive. An Undefined Behavior
@@ -5264,14 +5264,14 @@
 │                       │       │                  ╰ UID : b3ce73cc5a567946 
 │                       │       ├ InstalledVersion: 3.5.3-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-5745 
-│                       │       ├ Fingerprint     : sha256:48b9ada09a1b16fd15a9f6342a590d9fba672acb6ad4f92a2f8e
-│                       │       │                   603a4685a22b 
+│                       │       ├ Fingerprint     : sha256:ffbe538f121034fd339a227a1fe629884a7c4c96c55bb67dba2e
+│                       │       │                   68f22889f993 
 │                       │       ├ Title           : libarchive: A NULL pointer dereference vulnerability exists
 │                       │       │                    in the ACL parser of libarchive 
 │                       │       ├ Description     : A flaw was found in libarchive. A NULL pointer dereference
@@ -5314,14 +5314,14 @@
 │                       │       │                  ╰ UID : b3ce73cc5a567946 
 │                       │       ├ InstalledVersion: 3.5.3-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1632 
-│                       │       ├ Fingerprint     : sha256:a5c41d3eece5153a2a99bfa38f3ae0ae5fc161c42e776ea5588f
-│                       │       │                   a5e89b78f298 
+│                       │       ├ Fingerprint     : sha256:16e7994df14f808dd93aac3fd18053bfc2d5e68f04d645bbf545
+│                       │       │                   351a23a886b3 
 │                       │       ├ Title           : libarchive: null pointer dereference in bsdunzip.c 
 │                       │       ├ Description     : A vulnerability was found in libarchive up to 3.7.7. It has
 │                       │       │                    been classified as problematic. This affects the function
@@ -5375,14 +5375,14 @@
 │                       │       │                  ╰ UID : b3ce73cc5a567946 
 │                       │       ├ InstalledVersion: 3.5.3-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5915 
-│                       │       ├ Fingerprint     : sha256:56bef3065b230b55117d3ca967b2713fec3d025b121892a43773
-│                       │       │                   21c44ddb7ca7 
+│                       │       ├ Fingerprint     : sha256:588df00b43e5d7b2f02b66c6f3a26a9eb126fb00c466c9ca155c
+│                       │       │                   3a91528a2325 
 │                       │       ├ Title           : libarchive: Heap buffer over read in
 │                       │       │                   copy_from_lzss_window() at
 │                       │       │                   archive_read_support_format_rar.c 
@@ -5436,14 +5436,14 @@
 │                       │       │                  ╰ UID : b3ce73cc5a567946 
 │                       │       ├ InstalledVersion: 3.5.3-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5916 
-│                       │       ├ Fingerprint     : sha256:9cb2a78367fa185bc0451724b70989825ddb5f6791afca0254b3
-│                       │       │                   171302654152 
+│                       │       ├ Fingerprint     : sha256:92158d9c6dfbc698745bf8d28f73f5b7d9b525f30579b437e793
+│                       │       │                   5f35ff18d42e 
 │                       │       ├ Title           : libarchive: Integer overflow while reading warc files at
 │                       │       │                   archive_read_support_format_warc.c 
 │                       │       ├ Description     : A vulnerability has been identified in the libarchive
@@ -5505,14 +5505,14 @@
 │                       │       │                  ╰ UID : b3ce73cc5a567946 
 │                       │       ├ InstalledVersion: 3.5.3-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5917 
-│                       │       ├ Fingerprint     : sha256:af7dc11a4d3196005f9cac31994d8b8a40106093555f56e10293
-│                       │       │                   d004041b3acf 
+│                       │       ├ Fingerprint     : sha256:55cfe53884a066c390f9942baef449e6f6ee9c38ba4b1969fd33
+│                       │       │                   56540fb122f5 
 │                       │       ├ Title           : libarchive: Off by one error in build_ustar_entry_name() at
 │                       │       │                    archive_write_set_format_pax.c 
 │                       │       ├ Description     : A vulnerability has been identified in the libarchive
@@ -5567,14 +5567,14 @@
 │                       │       │                  ╰ UID : b3ce73cc5a567946 
 │                       │       ├ InstalledVersion: 3.5.3-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5918 
-│                       │       ├ Fingerprint     : sha256:9458ef42b027b5bd1c0712de8bb25825fbface2c013286e16ee8
-│                       │       │                   7bc44b88e9fc 
+│                       │       ├ Fingerprint     : sha256:3f4ab6cc3d9ae228cd191e49421c5e7db2ba8d4334bc5c76672c
+│                       │       │                   98a0f225c43a 
 │                       │       ├ Title           : libarchive: Reading past EOF may be triggered for piped
 │                       │       │                   file streams 
 │                       │       ├ Description     : A vulnerability has been identified in the libarchive
@@ -5625,14 +5625,14 @@
 │                       │       │                  ╰ UID : b3ce73cc5a567946 
 │                       │       ├ InstalledVersion: 3.5.3-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-15028 
-│                       │       ├ Fingerprint     : sha256:22a3e440e962edd04f05e3f2605e7b4814c7bfe0979e4ab00ebb
-│                       │       │                   621d9742501f 
+│                       │       ├ Fingerprint     : sha256:37477737f030926d4987cb894c4ee4d4cdc351b53301d983af60
+│                       │       │                   ec10c313bc2c 
 │                       │       ├ Title           : libarchive: heap overflow OOB read while parsing a tar
 │                       │       │                   archive contains a PAX extended header 
 │                       │       ├ Description     : A flaw was found in libarchive. This vulnerability allows a
@@ -5677,14 +5677,14 @@
 │                       │       │                  ╰ UID : b3ce73cc5a567946 
 │                       │       ├ InstalledVersion: 3.5.3-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-16517 
-│                       │       ├ Fingerprint     : sha256:65e599c3e3f0944f7f1d12fc32f20685edb99b8814c4b2f9d346
-│                       │       │                   eec23172eb40 
+│                       │       ├ Fingerprint     : sha256:5015d8c58226137eef455874bdc9f165a70e75c34b4adb179f58
+│                       │       │                   51aba6f03c69 
 │                       │       ├ Title           : libarchive: libarchive: Signed Integer Overflow in
 │                       │       │                   archive_write_zip_header 
 │                       │       ├ Description     : A signed integer overflow vulnerability was found in
@@ -5722,14 +5722,14 @@
 │                       │       │                  ╰ UID : ff4cc050df982bdc 
 │                       │       ├ InstalledVersion: 2.37.4-25.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-13595 
-│                       │       ├ Fingerprint     : sha256:b3586a288878f402531adedeb23e78b26b668687789f0718aa5c
-│                       │       │                   b54a2b43c566 
+│                       │       ├ Fingerprint     : sha256:730c162796a70947d212e93d97b4477f0e24f65d895787181909
+│                       │       │                   657198a6ca28 
 │                       │       ├ Title           : util-linux: util-linux: heap use-after-free in libblkid
 │                       │       │                   nested partition probing 
 │                       │       ├ Description     : A flaw was found in the libblkid library of util-linux.
@@ -5788,14 +5788,14 @@
 │                       │       │                  ╰ UID : ff4cc050df982bdc 
 │                       │       ├ InstalledVersion: 2.37.4-25.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27456 
-│                       │       ├ Fingerprint     : sha256:6d17e486f53e99b22497a355609b57e0b590701452932224e3d1
-│                       │       │                   bc037701e3d3 
+│                       │       ├ Fingerprint     : sha256:c1f409a49be6f85ef7f04d1f0774b3056634b663fcb6b74f0b9d
+│                       │       │                   cb8fdd12ec87 
 │                       │       ├ Title           : util-linux: TOCTOU in the mount program when setting up
 │                       │       │                   loop devices 
 │                       │       ├ Description     : util-linux is a random collection of Linux utilities. Prior
@@ -5867,14 +5867,14 @@
 │                       │       │                  ╰ UID : f68c0d2bfafe12c4 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11352 
-│                       │       ├ Fingerprint     : sha256:62527608b84c9219f64b2305760c99f10215ecfabf66b7b24313
-│                       │       │                   c775a011de17 
+│                       │       ├ Fingerprint     : sha256:06e85e34744912b5cdbcec6df0b6287a24dc6572feaae7278755
+│                       │       │                   536ec08de968 
 │                       │       ├ Title           : curl: libcurl: curl/libcurl: Remote denial of service via
 │                       │       │                   QUIC UDP receive function vulnerability 
 │                       │       ├ Description     : An issue in curl’s QUIC UDP receive function allows a
@@ -5922,14 +5922,14 @@
 │                       │       │                  ╰ UID : f68c0d2bfafe12c4 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11586 
-│                       │       ├ Fingerprint     : sha256:9297dfbccbcf9719a5c77dc704da146bfecdc07f73a87cdf6750
-│                       │       │                   b6fc59680249 
+│                       │       ├ Fingerprint     : sha256:37cbf135619e677de9f00c2954b4951f3b95be3549fbdcd69086
+│                       │       │                   0f8587b39349 
 │                       │       ├ Title           : curl: curl: Denial of Service via WebSocket PING flood 
 │                       │       ├ Description     : By default, curl automatically responds to WebSocket PING
 │                       │       │                   frames. Because curl
@@ -5975,14 +5975,14 @@
 │                       │       │                  ╰ UID : f68c0d2bfafe12c4 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-8925 
-│                       │       ├ Fingerprint     : sha256:ae99380b235b6ec8ae3c9fd4fadc2923b17409e6d445e2ffa09e
-│                       │       │                   f379bf7f9a47 
+│                       │       ├ Fingerprint     : sha256:e85d02bbb0752f83963c28459bf256615f1819e6356d56e85979
+│                       │       │                   b7087ed27695 
 │                       │       ├ Title           : curl: curl: Double-free vulnerability in SASL authentication 
 │                       │       ├ Description     : The curl logic that works with SASL authentication could
 │                       │       │                   end up cleaning up
@@ -6026,14 +6026,14 @@
 │                       │       │                  ╰ UID : f68c0d2bfafe12c4 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13034 
-│                       │       ├ Fingerprint     : sha256:cd8973f4b11e26cc18e89973d1a22a379f80698643523bd4e71c
-│                       │       │                   0f105fb11208 
+│                       │       ├ Fingerprint     : sha256:0d48af8c151433a2a7a694e97e9aaed72337ef9d9fc0940875d9
+│                       │       │                   89ab15f4c213 
 │                       │       ├ Title           : curl: Public key pinning bypass via QUIC and GnuTLS allows
 │                       │       │                   server impersonation 
 │                       │       ├ Description     : When using `CURLOPT_PINNEDPUBLICKEY` option with libcurl or
@@ -6087,14 +6087,14 @@
 │                       │       │                  ╰ UID : f68c0d2bfafe12c4 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14017 
-│                       │       ├ Fingerprint     : sha256:970b306c9b25408f5ef249a72b08a50c113e730914a40d170236
-│                       │       │                   e22919ae9af7 
+│                       │       ├ Fingerprint     : sha256:315d8161271f61b384f1309054cbc75bd47a291dad38c8a3d13a
+│                       │       │                   6954679b9849 
 │                       │       ├ Title           : curl: curl: Security bypass due to global TLS option
 │                       │       │                   changes in multi-threaded LDAPS transfers 
 │                       │       ├ Description     : When doing multi-threaded LDAPS transfers (LDAP over TLS)
@@ -6144,14 +6144,14 @@
 │                       │       │                  ╰ UID : f68c0d2bfafe12c4 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11856 
-│                       │       ├ Fingerprint     : sha256:12f1c32f6054f24bdcde7d9e61760bdb219c20fbea0ced308596
-│                       │       │                   ef9efa87d79d 
+│                       │       ├ Fingerprint     : sha256:f7be39c8707ca127b5a4405647aeabea17af1694cbe78e711ce3
+│                       │       │                   3d32dea13234 
 │                       │       ├ Title           : curl: curl: Information disclosure via incorrect Digest
 │                       │       │                   authentication header reuse 
 │                       │       ├ Description     : Successfully using libcurl to do a transfer to a specific
@@ -6201,14 +6201,14 @@
 │                       │       │                  ╰ UID : f68c0d2bfafe12c4 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3784 
-│                       │       ├ Fingerprint     : sha256:2c4b30e7b4025cb35151511668d518938aa10bf1a0a3cbbd7f7d
-│                       │       │                   353bfd0ec633 
+│                       │       ├ Fingerprint     : sha256:d5ac0b5355a01f15569f1ba1bde4fb57cda53c72bf8776bc1137
+│                       │       │                   fc3768bee6f5 
 │                       │       ├ Title           : curl: curl: Unauthorized access due to improper HTTP proxy
 │                       │       │                   connection reuse 
 │                       │       ├ Description     : curl would wrongly reuse an existing HTTP proxy connection
@@ -6271,14 +6271,14 @@
 │                       │       │                  ╰ UID : f68c0d2bfafe12c4 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4873 
-│                       │       ├ Fingerprint     : sha256:5e1a1274b71f901a2dad9fa6107eff125c7dc8cd762e94d148ce
-│                       │       │                   f53239280438 
+│                       │       ├ Fingerprint     : sha256:11fdce8d5a569cf22a651777fa6e1fa2f349d98008cb6189a31b
+│                       │       │                   790d03da6217 
 │                       │       ├ Title           : curl: curl: Information disclosure due to incorrect TLS
 │                       │       │                   connection reuse 
 │                       │       ├ Description     : A vulnerability exists where a connection requiring TLS
@@ -6329,14 +6329,14 @@
 │                       │       │                  ╰ UID : f68c0d2bfafe12c4 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-5545 
-│                       │       ├ Fingerprint     : sha256:17278b3f4f17e82dcd40b9389128047a9bebc832f65b7448e492
-│                       │       │                   e14318132905 
+│                       │       ├ Fingerprint     : sha256:eb018ea5848a2e36415ecd0f95232389bf85d2c205fbfeced241
+│                       │       │                   5e9903e1227b 
 │                       │       ├ Title           : curl: libcurl: Authentication bypass due to incorrect HTTP
 │                       │       │                   Negotiate connection reuse 
 │                       │       ├ Description     : libcurl might in some circumstances reuse the wrong
@@ -6410,14 +6410,14 @@
 │                       │       │                  ╰ UID : f68c0d2bfafe12c4 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-5773 
-│                       │       ├ Fingerprint     : sha256:f54746b5ed30fddceea1c5f9d569f3ef74866e69967ba6fa307d
-│                       │       │                   afbcb16b1bef 
+│                       │       ├ Fingerprint     : sha256:604011be1c94885c610b2362e02c8e88c23962e20db2e4edb08c
+│                       │       │                   06ed5298edd2 
 │                       │       ├ Title           : curl: libcurl: Wrong file transfer due to incorrect SMB
 │                       │       │                   connection reuse 
 │                       │       ├ Description     : libcurl might in some circumstances reuse the wrong
@@ -6483,14 +6483,14 @@
 │                       │       │                  ╰ UID : f68c0d2bfafe12c4 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6253 
-│                       │       ├ Fingerprint     : sha256:3da836e232d6c699df7f915057787a49ef5d79e199b8fa0dc912
-│                       │       │                   40cf26ad8431 
+│                       │       ├ Fingerprint     : sha256:27d97802fa61a103daa6be74d75e6340599a4503c7ae04ee2e0d
+│                       │       │                   3c4f15c95160 
 │                       │       ├ Title           : curl: curl: Proxy credential disclosure via redirects to
 │                       │       │                   unauthenticated proxies 
 │                       │       ├ Description     : curl might erroneously pass on credentials for a first
@@ -6544,14 +6544,14 @@
 │                       │       │                  ╰ UID : f68c0d2bfafe12c4 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6429 
-│                       │       ├ Fingerprint     : sha256:73750eaadf1f8be921c8d8e78bf6968805b549be7a775c07771c
-│                       │       │                   8bb8ec627cda 
+│                       │       ├ Fingerprint     : sha256:bd161a50614f998a49aa8c59ca33efc142abdc7b8c3abbd189a3
+│                       │       │                   d80106cbac73 
 │                       │       ├ Title           : curl: libcurl: Credential leak via reused proxy connection
 │                       │       │                   during HTTP redirects 
 │                       │       ├ Description     : When asked to both use a `.netrc` file for credentials and
@@ -6592,14 +6592,14 @@
 │                       │       │                  ╰ UID : f68c0d2bfafe12c4 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-7168 
-│                       │       ├ Fingerprint     : sha256:dec40086bfdf1eae0f8342f7ec0dc243bdb6fe29c43ecaac095e
-│                       │       │                   3cbb10b0490b 
+│                       │       ├ Fingerprint     : sha256:e2673662109efadfea39013f8054f753f9932ff6d1b92333d6d3
+│                       │       │                   fd2080a132b1 
 │                       │       ├ Title           : curl: libcurl: Information disclosure via incorrect
 │                       │       │                   Proxy-Authorization header reuse 
 │                       │       ├ Description     : Successfully using libcurl to do a transfer over a specific
@@ -6654,14 +6654,14 @@
 │                       │       │                  ╰ UID : f68c0d2bfafe12c4 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-8924 
-│                       │       ├ Fingerprint     : sha256:3b587feee9c59a19f93aebf5701ab0f35e366b7fad9c503e8d81
-│                       │       │                   c1e1bd324fdf 
+│                       │       ├ Fingerprint     : sha256:492f72e65dafee39ba246cc2343018d0153b066d84cf3b3674b2
+│                       │       │                   c585d592095f 
 │                       │       ├ Title           : curl: curl: Cookie injection via malicious HTTP server
 │                       │       │                   using super cookies 
 │                       │       ├ Description     : A flaw in curl’s cookie parsing logic allows a malicious
@@ -6705,14 +6705,14 @@
 │                       │       │                  ╰ UID : f68c0d2bfafe12c4 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-8926 
-│                       │       ├ Fingerprint     : sha256:4b2b1a32eaa1f361e556005c9d293d179f710646647fe272eaf2
-│                       │       │                   f9510f20dd3c 
+│                       │       ├ Fingerprint     : sha256:297f36ffe988158ab437f4ac669cdefc9fb26efb5333ca3a0802
+│                       │       │                   0dbd485fd979 
 │                       │       ├ Title           : curl: curl: Information disclosure via incorrect .netrc
 │                       │       │                   password lookup 
 │                       │       ├ Description     : When asking curl to use a `.netrc` file to find credentials
@@ -6762,14 +6762,14 @@
 │                       │       │                  ╰ UID : f68c0d2bfafe12c4 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11053 
-│                       │       ├ Fingerprint     : sha256:144b9d248fb23082f333c839b7dd72ced9274c4f53c7eb008b22
-│                       │       │                   b8d3037064fc 
+│                       │       ├ Fingerprint     : sha256:fd61c761b3ee57cb53a4583f487ba68703673c7cdb59c9331b7a
+│                       │       │                   1151f73d8900 
 │                       │       ├ Title           : curl: curl netrc password leak 
 │                       │       ├ Description     : When asked to both use a `.netrc` file for credentials and
 │                       │       │                   to follow HTTP
@@ -7048,14 +7048,14 @@
 │                       │       │                  ╰ UID : f68c0d2bfafe12c4 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7264 
-│                       │       ├ Fingerprint     : sha256:f24a5983813e9ea869cf2af32d74701eb70682acc847342618f3
-│                       │       │                   2f4654ce8845 
+│                       │       ├ Fingerprint     : sha256:8e56e85b00cfedebaa2d6cfaab92f54870c394b8614012c70280
+│                       │       │                   ca4f755e4471 
 │                       │       ├ Title           : curl: libcurl: ASN.1 date parser overread 
 │                       │       ├ Description     : libcurl's ASN1 parser code has the `GTime2str()` function,
 │                       │       │                   used for parsing an
@@ -7340,14 +7340,14 @@
 │                       │       │                  ╰ UID : f68c0d2bfafe12c4 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9681 
-│                       │       ├ Fingerprint     : sha256:c117dc7c1a64a51f60ca042aa5e4cb916b812c28799cb16b249c
-│                       │       │                   afa79fe443ca 
+│                       │       ├ Fingerprint     : sha256:b9cdccb645cb8057312ee70fc2cdb84427c951934b4cb78eaf5e
+│                       │       │                   e82c8ba34483 
 │                       │       ├ Title           : curl: HSTS subdomain overwrites parent cache entry 
 │                       │       ├ Description     : When curl is asked to use HSTS, the expiry time for a
 │                       │       │                   subdomain might
@@ -7439,14 +7439,14 @@
 │                       │       │                  ╰ UID : f68c0d2bfafe12c4 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14524 
-│                       │       ├ Fingerprint     : sha256:602a2049df08e552586d3a7bee5b6dd4efcc74581e8bcb7fe717
-│                       │       │                   34f28677542b 
+│                       │       ├ Fingerprint     : sha256:c369b4cb87c612ebcde1743399c3ef3637b0802564ff2dfe8252
+│                       │       │                   8d05bf8ff741 
 │                       │       ├ Title           : curl: Information disclosure via cross-protocol redirect
 │                       │       │                   with OAuth2 bearer token 
 │                       │       ├ Description     : When an OAuth2 bearer token is used for an HTTP(S)
@@ -7496,14 +7496,14 @@
 │                       │       │                  ╰ UID : f68c0d2bfafe12c4 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-15079 
-│                       │       ├ Fingerprint     : sha256:f98a6edf94f8ba1d31dcbfdcaa442d677d790c52aee476ac081f
-│                       │       │                   aca0df9cef60 
+│                       │       ├ Fingerprint     : sha256:a4a08dee4348857dc35f8bcb7daeb7f57ebe2200ae316ca7f520
+│                       │       │                   f24b0a51f630 
 │                       │       ├ Title           : curl: Host verification bypass during SSH transfers 
 │                       │       ├ Description     : When doing SSH-based transfers using either SCP or SFTP,
 │                       │       │                   and setting the
@@ -7551,14 +7551,14 @@
 │                       │       │                  ╰ UID : f68c0d2bfafe12c4 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-15224 
-│                       │       ├ Fingerprint     : sha256:36e385287f2d7edc3f6357de4de1ee78aeff3255871e8ee61d75
-│                       │       │                   d837ce584a35 
+│                       │       ├ Fingerprint     : sha256:1ec320275eaa14546b986de29e49e71bb58210f993485cab7cb3
+│                       │       │                   0ac58bbe1d8e 
 │                       │       ├ Title           : curl: libssh key passphrase bypass without agent set 
 │                       │       ├ Description     : When doing SSH-based transfers using either SCP or SFTP,
 │                       │       │                   and asked to do
@@ -7604,14 +7604,14 @@
 │                       │       │                  ╰ UID : f68c0d2bfafe12c4 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6276 
-│                       │       ├ Fingerprint     : sha256:cfecd2785c7a2e5c0caae6676521d6858183665f7f240e555b12
-│                       │       │                   85fbadaefac0 
+│                       │       ├ Fingerprint     : sha256:a304e4fe2de2f7ab22a0191572be140c4b9ce87221ae386529e3
+│                       │       │                   968df05b41b3 
 │                       │       ├ Title           : curl: libcurl: Information disclosure due to cookie leak
 │                       │       │                   when reusing connections with custom Host headers 
 │                       │       ├ Description     : Using libcurl, when a custom `Host:` header is first set
@@ -7665,14 +7665,14 @@
 │                       │       │                  ╰ UID : 3a76f1f2a00527e 
 │                       │       ├ InstalledVersion: 11.5.0-14.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-46195 
-│                       │       ├ Fingerprint     : sha256:8775b77f40eddf463e1845baaca80502065b9eaa63c1147089e3
-│                       │       │                   76a56124ca85 
+│                       │       ├ Fingerprint     : sha256:f018ed3f0668a95d27757d20da37a815e4985f663a8f319aa077
+│                       │       │                   1175b39d8245 
 │                       │       ├ Title           : gcc: uncontrolled recursion in libiberty/rust-demangle.c 
 │                       │       ├ Description     : GCC v12.0 was discovered to contain an uncontrolled
 │                       │       │                   recursion via the component libiberty/rust-demangle.c. This
@@ -7726,14 +7726,14 @@
 │                       │       │                  ╰ UID : 3a76f1f2a00527e 
 │                       │       ├ InstalledVersion: 11.5.0-14.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-27943 
-│                       │       ├ Fingerprint     : sha256:ecee1edaccbf475a73047529668bb7568e0626d71451f8120a5f
-│                       │       │                   8841b9859223 
+│                       │       ├ Fingerprint     : sha256:f591abbdae0e2aac25b74da1a0bf6cc154219b973747ac61887e
+│                       │       │                   1226f9b5a37c 
 │                       │       ├ Title           : binutils: libiberty/rust-demangle.c in GNU GCC 11.2 allows
 │                       │       │                   stack exhaustion in demangle_const 
 │                       │       ├ Description     : libiberty/rust-demangle.c in GNU GCC 11.2 allows stack
@@ -7787,14 +7787,14 @@
 │                       │       │                  ╰ UID : 9a566e9a8c9bbbc9 
 │                       │       ├ InstalledVersion: 1.10.0-13.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41990 
-│                       │       ├ Fingerprint     : sha256:7f1980171b3304ffc520826f8aa06a0b76327a9c48082a357f57
-│                       │       │                   8505f7af9400 
+│                       │       ├ Fingerprint     : sha256:fe9c84aceaf721612970fa9ec040362111825ab011977459854e
+│                       │       │                   927d6dbcc7f2 
 │                       │       ├ Title           : Libgcrypt: Libgcrypt: Denial of Service or data integrity
 │                       │       │                   issues from missing bounds check during Dilithium
 │                       │       │                   signing. 
@@ -7841,14 +7841,14 @@
 │                       │       │                  ╰ UID : 990e30ed06571399 
 │                       │       ├ InstalledVersion: 2.37.4-25.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-13595 
-│                       │       ├ Fingerprint     : sha256:37582a480c0cb009aec4dc6949ba258a6406e5da9dac2bfd66e1
-│                       │       │                   1e7dcb4ecfa2 
+│                       │       ├ Fingerprint     : sha256:23e1f9cd5aebafaedc1150631652b2b80f1c2d06ad1d9e002387
+│                       │       │                   62bb13fa86df 
 │                       │       ├ Title           : util-linux: util-linux: heap use-after-free in libblkid
 │                       │       │                   nested partition probing 
 │                       │       ├ Description     : A flaw was found in the libblkid library of util-linux.
@@ -7907,14 +7907,14 @@
 │                       │       │                  ╰ UID : 990e30ed06571399 
 │                       │       ├ InstalledVersion: 2.37.4-25.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27456 
-│                       │       ├ Fingerprint     : sha256:c2f504cebb8677bd07b4992fee2e4ff48ba0b99569a092567b95
-│                       │       │                   192c60784ef8 
+│                       │       ├ Fingerprint     : sha256:62721eb9277c7f6e8a2ce97235fa8de9bc900ad253e32a4668c7
+│                       │       │                   b8686d207ae4 
 │                       │       ├ Title           : util-linux: TOCTOU in the mount program when setting up
 │                       │       │                   loop devices 
 │                       │       ├ Description     : util-linux is a random collection of Linux utilities. Prior
@@ -7986,14 +7986,14 @@
 │                       │       │                  ╰ UID : 87744acdb511a5b0 
 │                       │       ├ InstalledVersion: 1.7.3-10.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-24056 
-│                       │       ├ Fingerprint     : sha256:ee4584ce1516af9a29ccc0e6e776761ad59e9caf0a645af503a0
-│                       │       │                   a1e1e94e5e37 
+│                       │       ├ Fingerprint     : sha256:eb2bac252aee8d0ee0beb9c3a28d68e63fdceb0a05712d760eb4
+│                       │       │                   e0c3df68b67c 
 │                       │       ├ Title           : pkgconf: unbounded string expansion due to incorrect checks
 │                       │       │                    may result in buffer overflow 
 │                       │       ├ Description     : In pkgconf through 1.9.3, variable duplication can cause
@@ -8040,14 +8040,14 @@
 │                       │       │                  ╰ UID : d319b670e8b0bc22 
 │                       │       ├ InstalledVersion: 2.37.4-25.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-13595 
-│                       │       ├ Fingerprint     : sha256:8e2e68981f3f7265b313841f3241b9cc89c457361972a9d4fa5e
-│                       │       │                   df517b1cf31e 
+│                       │       ├ Fingerprint     : sha256:ab704e0637e9674b29bc0ad8d7568967242eecb97d93c0d830ca
+│                       │       │                   b7974d7e6cfb 
 │                       │       ├ Title           : util-linux: util-linux: heap use-after-free in libblkid
 │                       │       │                   nested partition probing 
 │                       │       ├ Description     : A flaw was found in the libblkid library of util-linux.
@@ -8106,14 +8106,14 @@
 │                       │       │                  ╰ UID : d319b670e8b0bc22 
 │                       │       ├ InstalledVersion: 2.37.4-25.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27456 
-│                       │       ├ Fingerprint     : sha256:b8025ec3bc8f84ff91db949c694cfc6aea4bc17679f40b631a3a
-│                       │       │                   dd1d31ff0557 
+│                       │       ├ Fingerprint     : sha256:efaf76f766cf2720cae15c7c66d8b220e4cc661e740383c7e1f9
+│                       │       │                   5aec7b3e8419 
 │                       │       ├ Title           : util-linux: TOCTOU in the mount program when setting up
 │                       │       │                   loop devices 
 │                       │       ├ Description     : util-linux is a random collection of Linux utilities. Prior
@@ -8185,14 +8185,14 @@
 │                       │       │                  ╰ UID : 6c6999de661ce646 
 │                       │       ├ InstalledVersion: 0.7.24-6.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-9149 
-│                       │       ├ Fingerprint     : sha256:8ca03bc1e3f4a30f051c73247e093901d59732a02abeb361903e
-│                       │       │                   267a0c2f3299 
+│                       │       ├ Fingerprint     : sha256:eec063850982982f174ac54dcc4db5ff2fd5e9523fdca00d287b
+│                       │       │                   269f99db776e 
 │                       │       ├ Title           : libsolv: Heap buffer overflow in libsolv repo_add_solv via
 │                       │       │                   negative maxsize from crafted .solv file 
 │                       │       ├ Description     : A flaw was found in libsolv. This heap buffer overflow
@@ -8255,14 +8255,14 @@
 │                       │       │                  ╰ UID : 6c6999de661ce646 
 │                       │       ├ InstalledVersion: 0.7.24-6.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-9150 
-│                       │       ├ Fingerprint     : sha256:88c7cbedc841c8e4da5ef81ce03515b7b6e2aea225c90d4ebb04
-│                       │       │                   d58e6cd0f823 
+│                       │       ├ Fingerprint     : sha256:00bced19c676af9bf21465ff41dd28abba37c6f44760d0f3fd5b
+│                       │       │                   e7d50672f92b 
 │                       │       ├ Title           : libsolv: Stack-based buffer overflow in libsolv's Debian
 │                       │       │                   metadata parser when handling SHA384/SHA512 checksums 
 │                       │       ├ Description     : A flaw was found in libsolv. This stack-based buffer
@@ -8322,14 +8322,14 @@
 │                       │       │                  ╰ UID : b06a21cb36857bae 
 │                       │       ├ InstalledVersion: 11.5.0-14.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-46195 
-│                       │       ├ Fingerprint     : sha256:5adecd3c311130d532ea0a005da4489baf4528a8d094b06408e0
-│                       │       │                   730b65e143e3 
+│                       │       ├ Fingerprint     : sha256:395c11b45322c61d6667632a33bc50ae27e70535f35a778f0e63
+│                       │       │                   e7c76ce1400b 
 │                       │       ├ Title           : gcc: uncontrolled recursion in libiberty/rust-demangle.c 
 │                       │       ├ Description     : GCC v12.0 was discovered to contain an uncontrolled
 │                       │       │                   recursion via the component libiberty/rust-demangle.c. This
@@ -8383,14 +8383,14 @@
 │                       │       │                  ╰ UID : b06a21cb36857bae 
 │                       │       ├ InstalledVersion: 11.5.0-14.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-27943 
-│                       │       ├ Fingerprint     : sha256:44c5f3bb4517fd09df219bc6f5a4363069df2ffc937a237dfcbb
-│                       │       │                   481d26926b24 
+│                       │       ├ Fingerprint     : sha256:76b37d397a54e3d1601f66cbabd1b0f4f91aaf45007c4019ea2f
+│                       │       │                   416eeb6a237f 
 │                       │       ├ Title           : binutils: libiberty/rust-demangle.c in GNU GCC 11.2 allows
 │                       │       │                   stack exhaustion in demangle_const 
 │                       │       ├ Description     : libiberty/rust-demangle.c in GNU GCC 11.2 allows stack
@@ -8444,14 +8444,14 @@
 │                       │       │                  ╰ UID : 55593fd059de13f6 
 │                       │       ├ InstalledVersion: 2.37.4-25.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-13595 
-│                       │       ├ Fingerprint     : sha256:893dc720bf57ede76bbdc6a49edf9cb828034385bdb504e79fb1
-│                       │       │                   e819bff06a11 
+│                       │       ├ Fingerprint     : sha256:8bd221d70bc72b1831dcd282d64484e014a4aaa7858cce98298e
+│                       │       │                   8ec7ee859ec4 
 │                       │       ├ Title           : util-linux: util-linux: heap use-after-free in libblkid
 │                       │       │                   nested partition probing 
 │                       │       ├ Description     : A flaw was found in the libblkid library of util-linux.
@@ -8510,14 +8510,14 @@
 │                       │       │                  ╰ UID : 55593fd059de13f6 
 │                       │       ├ InstalledVersion: 2.37.4-25.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27456 
-│                       │       ├ Fingerprint     : sha256:acfd7bc04006be7c84ba4b5a93a6737ff5bee01765e7ffee67ee
-│                       │       │                   1ae82ec15311 
+│                       │       ├ Fingerprint     : sha256:dcf23f8ede5cfd67886154ec063ffedb17badbed5b2ed306fd9d
+│                       │       │                   c02fc8daac86 
 │                       │       ├ Title           : util-linux: TOCTOU in the mount program when setting up
 │                       │       │                   loop devices 
 │                       │       ├ Description     : util-linux is a random collection of Linux utilities. Prior
@@ -8589,14 +8589,14 @@
 │                       │       │                  ╰ UID : cc52b2a969be5599 
 │                       │       ├ InstalledVersion: 2.9.13-14.el9_8.4 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-0990 
-│                       │       ├ Fingerprint     : sha256:96b00233711283ea690506dc7b641e34cbdd7a1d3202273b7211
-│                       │       │                   ec7e5725adad 
+│                       │       ├ Fingerprint     : sha256:431e6ab8dc64965ae164d4381f2cf039bbd9b01e1496812bffd7
+│                       │       │                   37c4b67a8b19 
 │                       │       ├ Title           : libxml2: libxml2: Denial of Service via uncontrolled
 │                       │       │                   recursion in XML catalog processing 
 │                       │       ├ Description     : A flaw was found in libxml2, an XML parsing library. This
@@ -8647,14 +8647,14 @@
 │                       │       │                  ╰ UID : cc52b2a969be5599 
 │                       │       ├ InstalledVersion: 2.9.13-14.el9_8.4 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11979 
-│                       │       ├ Fingerprint     : sha256:685589e21535c931cc2f026154ea91c98ae994b9581b78d0bae8
-│                       │       │                   86d6003ec6a3 
+│                       │       ├ Fingerprint     : sha256:4f8a6450435a80dede33c17a0c74d5d4c918e9768b63f5b422f3
+│                       │       │                   5ad36eab159e 
 │                       │       ├ Title           : libxml2: libxml2: Arbitrary code execution in xmlcatalog
 │                       │       │                   utility via buffer overflow 
 │                       │       ├ Description     : libxml2 is vulnerable to multiple stack-based buffer
@@ -8730,14 +8730,14 @@
 │                       │       │                  ╰ UID : cc52b2a969be5599 
 │                       │       ├ InstalledVersion: 2.9.13-14.el9_8.4 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1757 
-│                       │       ├ Fingerprint     : sha256:475804ca2b36b7244a6794dd4a9c30a718f85204f39e19409471
-│                       │       │                   f60021420dc5 
+│                       │       ├ Fingerprint     : sha256:60a8408b29fb38adcf87704fe34d7b2d0375870d9323c1f0b90a
+│                       │       │                   bdf6cd00e57d 
 │                       │       ├ Title           : libxml2: Memory Leak Leading to Local Denial of Service in
 │                       │       │                   xmllint Interactive Shell 
 │                       │       ├ Description     : A flaw was identified in the interactive shell of the
@@ -8782,14 +8782,14 @@
 │                       │       │                  ╰ UID : cc52b2a969be5599 
 │                       │       ├ InstalledVersion: 2.9.13-14.el9_8.4 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6653 
-│                       │       ├ Fingerprint     : sha256:6f418715597fd1404f383001ba6e8679edb861f1a9a15af1a8a1
-│                       │       │                   aed5e3de695b 
+│                       │       ├ Fingerprint     : sha256:78d63ce1b8d67389ea610319a011a52a2bf25a2de4076d934db2
+│                       │       │                   387f49cc4917 
 │                       │       ├ Title           : libxml2: mingw-libxml2: libxml2: Denial of Service via
 │                       │       │                   crafted XML input due to use-after-free 
 │                       │       ├ Description     : Use After Free in libxml2's xmlParseInternalSubset from
@@ -8854,14 +8854,14 @@
 │                       │       │                  ╰ UID : cc52b2a969be5599 
 │                       │       ├ InstalledVersion: 2.9.13-14.el9_8.4 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6732 
-│                       │       ├ Fingerprint     : sha256:720145cb787713c3f27c0af53f8b4abe1f5b10f68cb468cbbe2d
-│                       │       │                   fc09d4e5ec9e 
+│                       │       ├ Fingerprint     : sha256:791147fca032dfbb9f64b09bfe24d8fadc94a9544555c9b4b00a
+│                       │       │                   74fd9b69a3a6 
 │                       │       ├ Title           : libxml2: libxml2: Denial of Service via crafted
 │                       │       │                   XSD-validated document 
 │                       │       ├ Description     : A flaw was found in libxml2. This vulnerability occurs when
@@ -8912,14 +8912,14 @@
 │                       │       │                  ╰ UID : cc52b2a969be5599 
 │                       │       ├ InstalledVersion: 2.9.13-14.el9_8.4 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45322 
-│                       │       ├ Fingerprint     : sha256:cf7bb95c5a9732ed4557d393e5702ed920bc10e49176e702a541
-│                       │       │                   b9ed4b7af3e5 
+│                       │       ├ Fingerprint     : sha256:2091507ff61eca9175b3e643f836eb80a22ea9f7ec7fd3a3eb18
+│                       │       │                   f559da3a4de7 
 │                       │       ├ Title           : libxml2: use-after-free in xmlUnlinkNode() in tree.c 
 │                       │       ├ Description     : libxml2 through 2.11.5 has a use-after-free that can only
 │                       │       │                   occur after a certain memory allocation fails. This occurs
@@ -8967,14 +8967,14 @@
 │                       │       │                  ╰ UID : cc52b2a969be5599 
 │                       │       ├ InstalledVersion: 2.9.13-14.el9_8.4 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-27113 
-│                       │       ├ Fingerprint     : sha256:87c8bca8f17cdb84324f5ea9ecb626588b2b75b4041b614ac72c
-│                       │       │                   c75a01987b1d 
+│                       │       ├ Fingerprint     : sha256:a81177b5ca969834aa9f0b842fbd38d39f13474998b70f2661ba
+│                       │       │                   a4c99c3ccf90 
 │                       │       ├ Title           : libxml2: NULL Pointer Dereference in libxml2 xmlPatMatch 
 │                       │       ├ Description     : libxml2 before 2.12.10 and 2.13.x before 2.13.6 has a NULL
 │                       │       │                   pointer dereference in xmlPatMatch in pattern.c. 
@@ -9039,14 +9039,14 @@
 │                       │       │                  ╰ UID : cc52b2a969be5599 
 │                       │       ├ InstalledVersion: 2.9.13-14.el9_8.4 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-0989 
-│                       │       ├ Fingerprint     : sha256:1e166c57e9ae391d8dd6cafc8d8fc6271a1d77e7e482f3aaa405
-│                       │       │                   844b2f5db6cb 
+│                       │       ├ Fingerprint     : sha256:e42a3265cc9ba43b54d829b755f9ad9f8a2e92c6a54c9f7df050
+│                       │       │                   65ac2fa138f9 
 │                       │       ├ Title           : libxml2: Unbounded RelaxNG Include Recursion Leading to
 │                       │       │                   Stack Overflow 
 │                       │       ├ Description     : A flaw was identified in the RelaxNG parser of libxml2
@@ -9094,14 +9094,14 @@
 │                       │       │                  ╰ UID : cc52b2a969be5599 
 │                       │       ├ InstalledVersion: 2.9.13-14.el9_8.4 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-0992 
-│                       │       ├ Fingerprint     : sha256:cb05f507b9ec31fdb4a4372c6c6458fa2dd409d891b3f2ff0255
-│                       │       │                   9474c2e07f8b 
+│                       │       ├ Fingerprint     : sha256:fd7e1b20cd90d870466a4e9658eaafc5fdac4f23e378f179c330
+│                       │       │                   0d4e6c23fdb7 
 │                       │       ├ Title           : libxml2: libxml2: Denial of Service via crafted XML catalogs 
 │                       │       ├ Description     : A flaw was found in the libxml2 library. This uncontrolled
 │                       │       │                   resource consumption vulnerability occurs when processing
@@ -9150,14 +9150,14 @@
 │                       │       │                  ╰ UID : d864ddfd41ee2e06 
 │                       │       ├ InstalledVersion: 6.2-12.20210508.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
-│                       │       ├ Fingerprint     : sha256:07be1c5afadd1b833f8a700a870c8c3c1d94bcf5e9ef8bd7b777
-│                       │       │                   6ff2c9d88aca 
+│                       │       ├ Fingerprint     : sha256:b860975d0a7dec0ce0e162c7753d7b5bbc8d80dd86ddb7d68bd2
+│                       │       │                   df52b9e59696 
 │                       │       ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
 │                       │       ├ Description     : NCurse v6.4-20230418 was discovered to contain a
 │                       │       │                   segmentation fault via the component _nc_wrap_entry(). 
@@ -9201,14 +9201,14 @@
 │                       │       │                  ╰ UID : 7dcc5b23d21aad24 
 │                       │       ├ InstalledVersion: 6.2-12.20210508.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
-│                       │       ├ Fingerprint     : sha256:74b3b64858774f1905e110be1f87a27f3c19699903e087727fee
-│                       │       │                   09ad5df9f0f7 
+│                       │       ├ Fingerprint     : sha256:36555cc6ad7e8efdf96485d94a525b72c7d6da4c8ed102513131
+│                       │       │                   2be67182981e 
 │                       │       ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
 │                       │       ├ Description     : NCurse v6.4-20230418 was discovered to contain a
 │                       │       │                   segmentation fault via the component _nc_wrap_entry(). 
@@ -9252,14 +9252,14 @@
 │                       │       │                  ╰ UID : be87dc8a63e8a203 
 │                       │       ├ InstalledVersion: 4.39.0-5.el9_6 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-│                       │       ├ Fingerprint     : sha256:44910808c7d0d13e3c322c60f4942a93c7e5d829017fcb37e632
-│                       │       │                   985ca78ea154 
+│                       │       ├ Fingerprint     : sha256:4e7f3f037733ea14c4f8d2138897fe080f95ce343155b5b4ec01
+│                       │       │                   43bd7ade0ea6 
 │                       │       ├ Title           : nss: Information exposure when DH secret are reused across
 │                       │       │                   multiple TLS connections 
 │                       │       ├ Description     : The Raccoon attack is a timing attack on DHE ciphersuites
@@ -9298,14 +9298,14 @@
 │                       │       │                  ╰ UID : be87dc8a63e8a203 
 │                       │       ├ InstalledVersion: 4.39.0-5.el9_6 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7531 
-│                       │       ├ Fingerprint     : sha256:6cec9024f78feb621c8660181887041a78e63c09d7bdb82c9eaa
-│                       │       │                   c55996fcd694 
+│                       │       ├ Fingerprint     : sha256:83b915fb0ab3390c2a7970db2316be3f6b6182be7ea23e8c7d01
+│                       │       │                   83a52ff2090a 
 │                       │       ├ Title           : mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal
 │                       │       │                   plaintext on Intel Sandy Bridge machines 
 │                       │       ├ Description     : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
@@ -9361,14 +9361,14 @@
 │                       │       │                  ╰ UID : b41876d030b475a7 
 │                       │       ├ InstalledVersion: 3.124.0-5.el9_6 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-│                       │       ├ Fingerprint     : sha256:effbc9cb359cd872d2ca15375b687142762128187a6aeb0d3af1
-│                       │       │                   316a9a709df8 
+│                       │       ├ Fingerprint     : sha256:cc1729ec3d0b9c923c6525b5698749d1f8dd35a6559712908e5b
+│                       │       │                   d0be3d5d10dd 
 │                       │       ├ Title           : nss: Information exposure when DH secret are reused across
 │                       │       │                   multiple TLS connections 
 │                       │       ├ Description     : The Raccoon attack is a timing attack on DHE ciphersuites
@@ -9407,14 +9407,14 @@
 │                       │       │                  ╰ UID : b41876d030b475a7 
 │                       │       ├ InstalledVersion: 3.124.0-5.el9_6 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7531 
-│                       │       ├ Fingerprint     : sha256:5373f01ea60d331e73fa0c22b08a9f0f7f896736e64f6b82d53a
-│                       │       │                   8cdfc7858c23 
+│                       │       ├ Fingerprint     : sha256:29a460e6dc4e29d8dfb465af6f4162dd55c0d3f109c062172863
+│                       │       │                   9df8dd577e08 
 │                       │       ├ Title           : mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal
 │                       │       │                   plaintext on Intel Sandy Bridge machines 
 │                       │       ├ Description     : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
@@ -9470,14 +9470,14 @@
 │                       │       │                  ╰ UID : b0e0afed26704af0 
 │                       │       ├ InstalledVersion: 3.124.0-5.el9_6 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-│                       │       ├ Fingerprint     : sha256:ab6a3d088d09804b87cd68c724369d3259d17fdea8a0127fceb2
-│                       │       │                   4d4deb49cabb 
+│                       │       ├ Fingerprint     : sha256:76b9501273d0895e0b0a540ce2cd591c611de187dddba156cecd
+│                       │       │                   0c39dbcdf537 
 │                       │       ├ Title           : nss: Information exposure when DH secret are reused across
 │                       │       │                   multiple TLS connections 
 │                       │       ├ Description     : The Raccoon attack is a timing attack on DHE ciphersuites
@@ -9516,14 +9516,14 @@
 │                       │       │                  ╰ UID : b0e0afed26704af0 
 │                       │       ├ InstalledVersion: 3.124.0-5.el9_6 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7531 
-│                       │       ├ Fingerprint     : sha256:99844a1d5d0cf43cd2204c2e8ff0728ce55d1271891864120a3a
-│                       │       │                   9f99a6b6f862 
+│                       │       ├ Fingerprint     : sha256:a9ba4d030dd39b60c1b7a105e31af7ca932f0b63787d11755669
+│                       │       │                   3e3e03156867 
 │                       │       ├ Title           : mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal
 │                       │       │                   plaintext on Intel Sandy Bridge machines 
 │                       │       ├ Description     : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
@@ -9579,14 +9579,14 @@
 │                       │       │                  ╰ UID : 969d44993304ff16 
 │                       │       ├ InstalledVersion: 3.124.0-5.el9_6 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-│                       │       ├ Fingerprint     : sha256:0156865e29d72ab375f1869673e8fba5ac1529a5101f34a879fc
-│                       │       │                   f6a3db846707 
+│                       │       ├ Fingerprint     : sha256:ee1dce18f67ca6430f6c38af8a50d3aa98e2e73af36b009b95a1
+│                       │       │                   99f5c797f173 
 │                       │       ├ Title           : nss: Information exposure when DH secret are reused across
 │                       │       │                   multiple TLS connections 
 │                       │       ├ Description     : The Raccoon attack is a timing attack on DHE ciphersuites
@@ -9625,14 +9625,14 @@
 │                       │       │                  ╰ UID : 969d44993304ff16 
 │                       │       ├ InstalledVersion: 3.124.0-5.el9_6 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7531 
-│                       │       ├ Fingerprint     : sha256:faacaba3efdc32fd012c98e053f955919839e3fe805c2987a14b
-│                       │       │                   8bf3f2dcc5eb 
+│                       │       ├ Fingerprint     : sha256:0e601765287ee993b5c9261b61a30ea3ee32798265eb3b531111
+│                       │       │                   8038dc4f9194 
 │                       │       ├ Title           : mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal
 │                       │       │                   plaintext on Intel Sandy Bridge machines 
 │                       │       ├ Description     : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
@@ -9688,14 +9688,14 @@
 │                       │       │                  ╰ UID : 750e87e95c9c3b05 
 │                       │       ├ InstalledVersion: 3.124.0-5.el9_6 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-│                       │       ├ Fingerprint     : sha256:e3c7f4fe9f8bb0551826fdae27fe9c23fbd01c876fb288041ad4
-│                       │       │                   6f3203de1505 
+│                       │       ├ Fingerprint     : sha256:fcb44ce7e316dc5630344f45e2c85dacbca47e66c7c6431677e9
+│                       │       │                   2abfe1ef8125 
 │                       │       ├ Title           : nss: Information exposure when DH secret are reused across
 │                       │       │                   multiple TLS connections 
 │                       │       ├ Description     : The Raccoon attack is a timing attack on DHE ciphersuites
@@ -9734,14 +9734,14 @@
 │                       │       │                  ╰ UID : 750e87e95c9c3b05 
 │                       │       ├ InstalledVersion: 3.124.0-5.el9_6 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7531 
-│                       │       ├ Fingerprint     : sha256:25fec15b3f63bbdbfeec102b938a99a921e6e93258eaa4739597
-│                       │       │                   01574fed12bf 
+│                       │       ├ Fingerprint     : sha256:90cd858a8ace2b58118ca787d35a5ae08a161ed389f2446cc907
+│                       │       │                   6c9bdab9c1d5 
 │                       │       ├ Title           : mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal
 │                       │       │                   plaintext on Intel Sandy Bridge machines 
 │                       │       ├ Description     : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
@@ -9797,14 +9797,14 @@
 │                       │       │                  ╰ UID : 147ea12d6561ad8e 
 │                       │       ├ InstalledVersion: 3.124.0-5.el9_6 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-│                       │       ├ Fingerprint     : sha256:441dd9ee9c4372d5832108905bfb111ec2612f70590112a2f824
-│                       │       │                   d83bbfac279d 
+│                       │       ├ Fingerprint     : sha256:1703fe77ad2d736892ec4c8f183e1df96d12dda126a89aefb553
+│                       │       │                   b70611c6bfd1 
 │                       │       ├ Title           : nss: Information exposure when DH secret are reused across
 │                       │       │                   multiple TLS connections 
 │                       │       ├ Description     : The Raccoon attack is a timing attack on DHE ciphersuites
@@ -9843,14 +9843,14 @@
 │                       │       │                  ╰ UID : 147ea12d6561ad8e 
 │                       │       ├ InstalledVersion: 3.124.0-5.el9_6 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7531 
-│                       │       ├ Fingerprint     : sha256:03d5ac2ac32df9e61905c32ad5e6e045e6ce7bdbe183df17249c
-│                       │       │                   4d4a1ed3fed5 
+│                       │       ├ Fingerprint     : sha256:5425c4e513c2e7754955206dbe0057d83369ba2d99a634d11ff4
+│                       │       │                   22458d08d969 
 │                       │       ├ Title           : mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal
 │                       │       │                   plaintext on Intel Sandy Bridge machines 
 │                       │       ├ Description     : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
@@ -9906,14 +9906,14 @@
 │                       │       │                  ╰ UID : e639456e8a036cf 
 │                       │       ├ InstalledVersion: 2.6.8-4.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22185 
-│                       │       ├ Fingerprint     : sha256:ad085b831f95dc5bafb6e73472d3d3a366f62012ac7e6e9cb996
-│                       │       │                   bb5429830390 
+│                       │       ├ Fingerprint     : sha256:816d94673e91af55375cee828284cc093bcbae33b908ae0c402f
+│                       │       │                   fb9514541407 
 │                       │       ├ Title           : OpenLDAP: OpenLDAP LMDB: Denial of Service and Information
 │                       │       │                   Disclosure via Heap Buffer Underflow 
 │                       │       ├ Description     : OpenLDAP Lightning Memory-Mapped Database (LMDB) versions
@@ -9958,14 +9958,14 @@
 │                       │       │                  ╰ UID : 17c833b6399afb04 
 │                       │       ├ InstalledVersion: 1:3.5.5-6.el9_8 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2673 
-│                       │       ├ Fingerprint     : sha256:06999e576d3e051a79c7c6cee40dc694614835bd057ec46b8519
-│                       │       │                   aa1fe704ff19 
+│                       │       ├ Fingerprint     : sha256:1daf7ebeccf7ddfe41f093f3088e315d1a7144516459f657626f
+│                       │       │                   5ce0eccfea7b 
 │                       │       ├ Title           : openssl: OpenSSL TLS 1.3 server may choose unexpected key
 │                       │       │                   agreement group 
 │                       │       ├ Description     : Issue summary: An OpenSSL TLS 1.3 server may fail to
@@ -10090,14 +10090,14 @@
 │                       │       │                  ╰ UID : 17c833b6399afb04 
 │                       │       ├ InstalledVersion: 1:3.5.5-6.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-13176 
-│                       │       ├ Fingerprint     : sha256:61f0f78cb089bcdb3b8234b3c386447bb053351bff8fb0f721e8
-│                       │       │                   98f9f5c36ec2 
+│                       │       ├ Fingerprint     : sha256:79e246ccde3dcb6ccbca7d75f146abe41bf70ad8731d574b1a36
+│                       │       │                   c8d9b3cf3d21 
 │                       │       ├ Title           : openssl: Timing side-channel in ECDSA signature computation 
 │                       │       ├ Description     : Issue summary: A timing side-channel which could
 │                       │       │                   potentially allow recovering
@@ -10427,14 +10427,14 @@
 │                       │       │                  ╰ UID : 17c833b6399afb04 
 │                       │       ├ InstalledVersion: 1:3.5.5-6.el9_8 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-41996 
-│                       │       ├ Fingerprint     : sha256:000177cc05888563588d8491d2487972de24d136b3278316432b
-│                       │       │                   adcbb3c6dc3f 
+│                       │       ├ Fingerprint     : sha256:a327146ce4c0c55d146ba6daa3cc46e4219a5b955974ca24ce25
+│                       │       │                   707a736eabe2 
 │                       │       ├ Title           : openssl: remote attackers (from the client side) to trigger
 │                       │       │                    unnecessarily expensive server-side DHE
 │                       │       │                   modular-exponentiation calculations 
@@ -10491,14 +10491,14 @@
 │                       │       │                  ╰ UID : 17c833b6399afb04 
 │                       │       ├ InstalledVersion: 1:3.5.5-6.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9232 
-│                       │       ├ Fingerprint     : sha256:66ba6c3b5dd71e613597cef21faa633016b212262e42e3e7c7b8
-│                       │       │                   250cbfe31928 
+│                       │       ├ Fingerprint     : sha256:a9ffb3bc261e5c286f99556e62d0720ec0809b52df1242831ada
+│                       │       │                   6f74d0c079fb 
 │                       │       ├ Title           : openssl: Out-of-bounds read in HTTP client no_proxy handling 
 │                       │       ├ Description     : Issue summary: An application using the OpenSSL HTTP client
 │                       │       │                    API functions may
@@ -10600,14 +10600,14 @@
 │                       │       │                  ╰ UID : 17c833b6399afb04 
 │                       │       ├ InstalledVersion: 1:3.5.5-6.el9_8 
 │                       │       ├ Status          : under_investigation 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28387 
-│                       │       ├ Fingerprint     : sha256:85e8bb5c2634c5a4991ba4d2d872c2f152e30dbbcbd649accd3f
-│                       │       │                   02f5beaa14d1 
+│                       │       ├ Fingerprint     : sha256:75421f8317bc72f2f03574edf8f4f4a819bce654aaa8f1f34b1c
+│                       │       │                   6603d13179c3 
 │                       │       ├ Title           : openssl: OpenSSL: Arbitrary code execution due to
 │                       │       │                   use-after-free in DANE TLSA authentication 
 │                       │       ├ Description     : Issue summary: An uncommon configuration of clients
@@ -10702,14 +10702,14 @@
 │                       │       │                  ╰ UID : 17c833b6399afb04 
 │                       │       ├ InstalledVersion: 1:3.5.5-6.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28388 
-│                       │       ├ Fingerprint     : sha256:09114cc0ddf9fe0a9db90e94d2dc3ceeb7793bf4b0a94ae668c9
-│                       │       │                   7cb454fae6b9 
+│                       │       ├ Fingerprint     : sha256:5d484f5f01fa6d873d091cb72fc321f587b0f25f1f0714d3165c
+│                       │       │                   39ad998aa5d7 
 │                       │       ├ Title           : openssl: OpenSSL: Denial of Service due to NULL pointer
 │                       │       │                   dereference in delta CRL processing 
 │                       │       ├ Description     : Issue summary: When a delta CRL that contains a Delta CRL
@@ -10808,14 +10808,14 @@
 │                       │       │                  ╰ UID : 17c833b6399afb04 
 │                       │       ├ InstalledVersion: 1:3.5.5-6.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28389 
-│                       │       ├ Fingerprint     : sha256:f4cbeb9049865f13a763b6e3065b007c2723ed4c78651644f114
-│                       │       │                   3103e0209210 
+│                       │       ├ Fingerprint     : sha256:4bcccdab20c81044b87acf9c13a39a6d0aab32029983f08420fe
+│                       │       │                   b907479c826d 
 │                       │       ├ Title           : openssl: OpenSSL: Denial of Service vulnerability in CMS
 │                       │       │                   processing 
 │                       │       ├ Description     : Issue summary: During processing of a crafted CMS
@@ -10906,14 +10906,14 @@
 │                       │       │                  ╰ UID : 17c833b6399afb04 
 │                       │       ├ InstalledVersion: 1:3.5.5-6.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-31789 
-│                       │       ├ Fingerprint     : sha256:f8929a9775d0d330483270eb6b63824ba1031fd2f77bd714f696
-│                       │       │                   a5dd09184c97 
+│                       │       ├ Fingerprint     : sha256:f7f6896582e6871e80f20eca43411abace6d4af22fbc226029aa
+│                       │       │                   8e273a2c36ff 
 │                       │       ├ Title           : openssl: OpenSSL: Heap buffer overflow on 32-bit systems
 │                       │       │                   from large X.509 certificate processing 
 │                       │       ├ Description     : Issue summary: Converting an excessively large OCTET STRING
@@ -11008,14 +11008,14 @@
 │                       │       │                  ╰ UID : c57395b80e0313dc 
 │                       │       ├ InstalledVersion: 3.0.7-11.el9_8 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2673 
-│                       │       ├ Fingerprint     : sha256:b2b3c49be3566243f5d358376a669cc70b427864ddac6c1cae57
-│                       │       │                   c559f29f14f7 
+│                       │       ├ Fingerprint     : sha256:c2d91d1ec085de336466627cda2bc7dba1bb07de13fafef8fdce
+│                       │       │                   f80e2f17cb91 
 │                       │       ├ Title           : openssl: OpenSSL TLS 1.3 server may choose unexpected key
 │                       │       │                   agreement group 
 │                       │       ├ Description     : Issue summary: An OpenSSL TLS 1.3 server may fail to
@@ -11140,14 +11140,14 @@
 │                       │       │                  ╰ UID : 128eac01ffd9bdbd 
 │                       │       ├ InstalledVersion: 3.0.7-11.el9_8 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2673 
-│                       │       ├ Fingerprint     : sha256:0b6fc6b1c9c5274965e60b27adde30d24c680e13f26df1a2ec47
-│                       │       │                   412f475e0dc1 
+│                       │       ├ Fingerprint     : sha256:be9ec8a332aaa8da6f4398d710cebf8fd2b0583515c85af7eea5
+│                       │       │                   89346d0574be 
 │                       │       ├ Title           : openssl: OpenSSL TLS 1.3 server may choose unexpected key
 │                       │       │                   agreement group 
 │                       │       ├ Description     : Issue summary: An OpenSSL TLS 1.3 server may fail to
@@ -11272,14 +11272,14 @@
 │                       │       │                  ╰ UID : 509978b7262b1808 
 │                       │       ├ InstalledVersion: 1:3.5.5-6.el9_8 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2673 
-│                       │       ├ Fingerprint     : sha256:42a17ed6445f427de5f0d8d5b6d5e4ccb5b293b77122441cbf9d
-│                       │       │                   060882300cad 
+│                       │       ├ Fingerprint     : sha256:678d42c45f865bab8b51bba4a53e4b9551a60fa8db5c08759aa2
+│                       │       │                   4c106f86439b 
 │                       │       ├ Title           : openssl: OpenSSL TLS 1.3 server may choose unexpected key
 │                       │       │                   agreement group 
 │                       │       ├ Description     : Issue summary: An OpenSSL TLS 1.3 server may fail to
@@ -11404,14 +11404,14 @@
 │                       │       │                  ╰ UID : 509978b7262b1808 
 │                       │       ├ InstalledVersion: 1:3.5.5-6.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-13176 
-│                       │       ├ Fingerprint     : sha256:ec4c01e1683946985ff65712d20a5dc2850fc8d2e10208e273d5
-│                       │       │                   b950da8f749e 
+│                       │       ├ Fingerprint     : sha256:b72df616e4259553173006012f8edd85e937ad1ca3f47e55536e
+│                       │       │                   ed2e1a5099f6 
 │                       │       ├ Title           : openssl: Timing side-channel in ECDSA signature computation 
 │                       │       ├ Description     : Issue summary: A timing side-channel which could
 │                       │       │                   potentially allow recovering
@@ -11741,14 +11741,14 @@
 │                       │       │                  ╰ UID : 509978b7262b1808 
 │                       │       ├ InstalledVersion: 1:3.5.5-6.el9_8 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-41996 
-│                       │       ├ Fingerprint     : sha256:61f3477c92c10843f771e79dff46a94de22fc0fb5bd4aca17dee
-│                       │       │                   5b31bf283b05 
+│                       │       ├ Fingerprint     : sha256:9a27e33498b04d83c827ee59bb49f6074eaf8f6c072e831a7def
+│                       │       │                   0f800ad3b394 
 │                       │       ├ Title           : openssl: remote attackers (from the client side) to trigger
 │                       │       │                    unnecessarily expensive server-side DHE
 │                       │       │                   modular-exponentiation calculations 
@@ -11805,14 +11805,14 @@
 │                       │       │                  ╰ UID : 509978b7262b1808 
 │                       │       ├ InstalledVersion: 1:3.5.5-6.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9232 
-│                       │       ├ Fingerprint     : sha256:ef6af47ff182369bc30d2138f86ecdddaba5a57e6701168bc29f
-│                       │       │                   2ac23df6efc7 
+│                       │       ├ Fingerprint     : sha256:4251487a80dc97e9717fb2c12d9dcf7ec2e2ccc09cf4d01d60e2
+│                       │       │                   cdda979e1f3b 
 │                       │       ├ Title           : openssl: Out-of-bounds read in HTTP client no_proxy handling 
 │                       │       ├ Description     : Issue summary: An application using the OpenSSL HTTP client
 │                       │       │                    API functions may
@@ -11914,14 +11914,14 @@
 │                       │       │                  ╰ UID : 509978b7262b1808 
 │                       │       ├ InstalledVersion: 1:3.5.5-6.el9_8 
 │                       │       ├ Status          : under_investigation 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28387 
-│                       │       ├ Fingerprint     : sha256:dae1413d0a305e0e8b6b1b228a977b37a423084c3afbf9a0a3ad
-│                       │       │                   7fd1a31e55e4 
+│                       │       ├ Fingerprint     : sha256:3e3c5ed29281c48313f4047da896f436bcca8a8ae1032424205c
+│                       │       │                   3ea11dad5e6e 
 │                       │       ├ Title           : openssl: OpenSSL: Arbitrary code execution due to
 │                       │       │                   use-after-free in DANE TLSA authentication 
 │                       │       ├ Description     : Issue summary: An uncommon configuration of clients
@@ -12016,14 +12016,14 @@
 │                       │       │                  ╰ UID : 509978b7262b1808 
 │                       │       ├ InstalledVersion: 1:3.5.5-6.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28388 
-│                       │       ├ Fingerprint     : sha256:02ba7bd7f20ed7cdbc282a1a05fa75afbe0758da567b7b090e6b
-│                       │       │                   5963c1aa4111 
+│                       │       ├ Fingerprint     : sha256:18e62434ddae6a67fcc1217ed1f0d3cfd20bbc282806e6dae407
+│                       │       │                   f3d6133ae165 
 │                       │       ├ Title           : openssl: OpenSSL: Denial of Service due to NULL pointer
 │                       │       │                   dereference in delta CRL processing 
 │                       │       ├ Description     : Issue summary: When a delta CRL that contains a Delta CRL
@@ -12122,14 +12122,14 @@
 │                       │       │                  ╰ UID : 509978b7262b1808 
 │                       │       ├ InstalledVersion: 1:3.5.5-6.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28389 
-│                       │       ├ Fingerprint     : sha256:59a7fa06424e7aeafdd8f7767581a145f198350bcaacf95dd2cf
-│                       │       │                   c81848316bba 
+│                       │       ├ Fingerprint     : sha256:0c63ccf5a721aac1c3aea7dbdefd7a4b5f16760185464db7b430
+│                       │       │                   689ec69c1b2a 
 │                       │       ├ Title           : openssl: OpenSSL: Denial of Service vulnerability in CMS
 │                       │       │                   processing 
 │                       │       ├ Description     : Issue summary: During processing of a crafted CMS
@@ -12220,14 +12220,14 @@
 │                       │       │                  ╰ UID : 509978b7262b1808 
 │                       │       ├ InstalledVersion: 1:3.5.5-6.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-31789 
-│                       │       ├ Fingerprint     : sha256:8ff457a366b6c43ec270b69fe77987d55611c623a9c5a0195a13
-│                       │       │                   42c256fa82a1 
+│                       │       ├ Fingerprint     : sha256:f0dbc31b7db9ef95a66bad4864cde776728b6c8e65d26aeb35fd
+│                       │       │                   37e4c974f48f 
 │                       │       ├ Title           : openssl: OpenSSL: Heap buffer overflow on 32-bit systems
 │                       │       │                   from large X.509 certificate processing 
 │                       │       ├ Description     : Issue summary: Converting an excessively large OCTET STRING
@@ -12322,14 +12322,14 @@
 │                       │       │                  ╰ UID : cdb67ddc1d5f287f 
 │                       │       ├ InstalledVersion: 1.5.1-28.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-12610 
-│                       │       ├ Fingerprint     : sha256:07b7975dd0f57c001998f418d35ab228ff1424d911837347fb24
-│                       │       │                   16dd9ecd7a43 
+│                       │       ├ Fingerprint     : sha256:ec61039ca5ce6113ad5f0f8230acfa5061ad7c3c9c3cbf153d92
+│                       │       │                   9ffb36f1552b 
 │                       │       ├ Title           : sssd: Use-after-free crash in SSSD' 'sssd_pam' process 
 │                       │       ├ Description     : A flaw was found in sssd. When authenticating with a
 │                       │       │                   YubiKey, the SSSD PAM responder can crash due to a
@@ -12369,14 +12369,14 @@
 │                       │       │                  ╰ UID : 1d1b871572f9d872 
 │                       │       ├ InstalledVersion: 10.40-6.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-41409 
-│                       │       ├ Fingerprint     : sha256:889f624f1fedd0a1927e033b4c86fc7ec3c9524bd8c10c321aa8
-│                       │       │                   e712708b7760 
+│                       │       ├ Fingerprint     : sha256:1ef78f788d4582a836fedf1e2d734de67433084a83fc13750e6d
+│                       │       │                   28f572f81496 
 │                       │       ├ Title           : pcre2: negative repeat value in a pcre2test subject line
 │                       │       │                   leads to inifinite loop 
 │                       │       ├ Description     : Integer overflow vulnerability in pcre2test before 10.41
@@ -12427,14 +12427,14 @@
 │                       │       │                  ╰ UID : 459af584b3a3a6aa 
 │                       │       ├ InstalledVersion: 10.40-6.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-41409 
-│                       │       ├ Fingerprint     : sha256:117943fbbcb5a6ebfe5c286c9c505c62a802f41959cf6a1e0669
-│                       │       │                   c17fc7655dc2 
+│                       │       ├ Fingerprint     : sha256:49697a9745a816a41c571ea14c8b67d3a2a26ec8000c78479f99
+│                       │       │                   cfe675013103 
 │                       │       ├ Title           : pcre2: negative repeat value in a pcre2test subject line
 │                       │       │                   leads to inifinite loop 
 │                       │       ├ Description     : Integer overflow vulnerability in pcre2test before 10.41
@@ -12485,14 +12485,14 @@
 │                       │       │                  ╰ UID : 4847d1e6f0013f32 
 │                       │       ├ InstalledVersion: 1.7.3-10.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-24056 
-│                       │       ├ Fingerprint     : sha256:d841daf52028fc57b153b732af8a5321f8c2e5b4ec2b74abdaf6
-│                       │       │                   e440e3a591ae 
+│                       │       ├ Fingerprint     : sha256:8dc86ac9aec59790afad5b93f41e5e8f1aea3ffc45625712bbea
+│                       │       │                   b667ddf6da75 
 │                       │       ├ Title           : pkgconf: unbounded string expansion due to incorrect checks
 │                       │       │                    may result in buffer overflow 
 │                       │       ├ Description     : In pkgconf through 1.9.3, variable duplication can cause
@@ -12539,14 +12539,14 @@
 │                       │       │                  ╰ UID : 6c91fbe17a4282d8 
 │                       │       ├ InstalledVersion: 1.7.3-10.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-24056 
-│                       │       ├ Fingerprint     : sha256:dbfe2371113e2b3bf8d5319eb5c3abdf300b481371d71d12dd2e
-│                       │       │                   c86b85f0c614 
+│                       │       ├ Fingerprint     : sha256:477b3956da7cf318bf7b02bc77443d731da9539af975756e9a2e
+│                       │       │                   741197469c97 
 │                       │       ├ Title           : pkgconf: unbounded string expansion due to incorrect checks
 │                       │       │                    may result in buffer overflow 
 │                       │       ├ Description     : In pkgconf through 1.9.3, variable duplication can cause
@@ -12593,14 +12593,14 @@
 │                       │       │                  ╰ UID : e2bfffe66cb008b5 
 │                       │       ├ InstalledVersion: 1.7.3-10.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-24056 
-│                       │       ├ Fingerprint     : sha256:b962dec4fbf997f30ba8670fe07387801b4a727f72f141eba61e
-│                       │       │                   c1024ed219e6 
+│                       │       ├ Fingerprint     : sha256:05f174fbdbc4d39d6065a994ada94b004688a3b362a516fa3e0f
+│                       │       │                   53dfe8fdf8ab 
 │                       │       ├ Title           : pkgconf: unbounded string expansion due to incorrect checks
 │                       │       │                    may result in buffer overflow 
 │                       │       ├ Description     : In pkgconf through 1.9.3, variable duplication can cause
@@ -12647,14 +12647,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-11468 
-│                       │       ├ Fingerprint     : sha256:934c685b4610165e13fec7c78904c6d3dff1438505e342e3c291
-│                       │       │                   5910a5a5b73b 
+│                       │       ├ Fingerprint     : sha256:07d8558bdacb5420dc4c5d2e7b09c47e06c83919f9410336b4c6
+│                       │       │                   b747a6a8068e 
 │                       │       ├ Title           : cpython: Missing character filtering in Python 
 │                       │       ├ Description     : When folding a long comment in an email header containing
 │                       │       │                   exclusively unfoldable characters, the parenthesis would
@@ -12716,14 +12716,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-12781 
-│                       │       ├ Fingerprint     : sha256:ddbe7f1b96f252686ef30d383438f0d5435b72b4bc2ddbf868ea
-│                       │       │                   af7aca770335 
+│                       │       ├ Fingerprint     : sha256:ce532a80b6fd08edc74856f92eaf15ee0c4ad93c6aecfba79fbc
+│                       │       │                   89feb1f0c4f8 
 │                       │       ├ Title           : cpython: base64.b64decode() always accepts "+/" characters,
 │                       │       │                    despite setting altchars 
 │                       │       ├ Description     : When passing data to the b64decode(), standard_b64decode(),
@@ -12800,14 +12800,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13837 
-│                       │       ├ Fingerprint     : sha256:b789fb24416f98d6ed1671117dd6cbc35056d3c829d6fa19562c
-│                       │       │                   474c2d9f4d0f 
+│                       │       ├ Fingerprint     : sha256:432b41b8513293d7c643c14c6d45808a1941d347b699a596deba
+│                       │       │                   ccdb2b5f4d90 
 │                       │       ├ Title           : cpython: Out-of-memory when loading Plist 
 │                       │       ├ Description     : When loading a plist file, the plistlib module reads data
 │                       │       │                   in size specified by the file itself, meaning a malicious
@@ -12932,14 +12932,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-15282 
-│                       │       ├ Fingerprint     : sha256:a9b4c02bd0d216279bd039f0bf7c1804b8113a4d77fb9c8ecaee
-│                       │       │                   637a1dfaeb48 
+│                       │       ├ Fingerprint     : sha256:c9d1da72608624f34d77269899be833dbf6413dac12cc146e166
+│                       │       │                   c1ecee9a331e 
 │                       │       ├ Title           : cpython: Header injection via newlines in data URL
 │                       │       │                   mediatype in Python 
 │                       │       ├ Description     : User-controlled data URLs parsed by
@@ -13062,14 +13062,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4516 
-│                       │       ├ Fingerprint     : sha256:39c954d13af16a8e6286212b5a721b7470cbf0c748ad02b6a188
-│                       │       │                   7c24e26af8e9 
+│                       │       ├ Fingerprint     : sha256:a967fd1c037270a62b794371e883bd8211216c85b742eb24ba48
+│                       │       │                   bdf5cbdc8d93 
 │                       │       ├ Title           : cpython: python: CPython DecodeError Handling Vulnerability 
 │                       │       ├ Description     : There is an issue in CPython when using
 │                       │       │                   `bytes.decode("unicode_escape", error="ignore|replace")`.
@@ -13202,14 +13202,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-0672 
-│                       │       ├ Fingerprint     : sha256:335d99285152e1da99d4892fdfa2f780acbc28bccdf2cfaaf28a
-│                       │       │                   52a17f749c06 
+│                       │       ├ Fingerprint     : sha256:c6f2233d8e3436e2c641ee3280db24847d9f241c07089c9afc50
+│                       │       │                   b0833de70362 
 │                       │       ├ Title           : cpython: Header injection in http.cookies.Morsel in Python 
 │                       │       ├ Description     : When using http.cookies.Morsel, user-controlled cookie
 │                       │       │                   values and parameters can allow injecting HTTP headers into
@@ -13336,14 +13336,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11972 
-│                       │       ├ Fingerprint     : sha256:c234e2bc128e7e987593938acbdffdb0ce9f8fd6b7768c5c99c0
-│                       │       │                   5ea21798132c 
+│                       │       ├ Fingerprint     : sha256:d1ad6db8545217c56271683ecfd910160cb30f4112725a32090b
+│                       │       │                   28c8588dce63 
 │                       │       ├ Title           : python: Python tarfile module: Denial of Service via
 │                       │       │                   improper EOF handling in streaming mode 
 │                       │       ├ Description     : When using the "tarfile" module with a file opened in
@@ -13406,14 +13406,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1502 
-│                       │       ├ Fingerprint     : sha256:ef69326126b3a67754863a12fa9639e77794f942363c1ec56c8a
-│                       │       │                   93e83a8874d7 
+│                       │       ├ Fingerprint     : sha256:fa090c532f7cf8ab6b717a569c5029483077228faa1f30ca7321
+│                       │       │                   f4dd05e92fd9 
 │                       │       ├ Title           : python: Python: HTTP header injection via CR/LF in proxy
 │                       │       │                   tunnel headers 
 │                       │       ├ Description     : CR/LF bytes were not rejected by HTTP client proxy tunnel
@@ -13534,14 +13534,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3276 
-│                       │       ├ Fingerprint     : sha256:30945718acc862d36ba14435fbc28d4029fa67ebaf84c605a21a
-│                       │       │                   3444b0793b82 
+│                       │       ├ Fingerprint     : sha256:19aca48817619816012a57001be3d0504f71d19b5e298f65be17
+│                       │       │                   0f5c2b3dcedf 
 │                       │       ├ Title           : python: Python unicodedata: Denial of Service due to
 │                       │       │                   excessive CPU consumption 
 │                       │       ├ Description     : unicodedata.normalize() can take excessive CPU time when
@@ -13611,14 +13611,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3644 
-│                       │       ├ Fingerprint     : sha256:79875e720d984f137739519fe8228b8a6b2b2d24b23a6e1e554a
-│                       │       │                   24aa33fb195d 
+│                       │       ├ Fingerprint     : sha256:1be594532df3e7bbf9754bf3754b9b2482f89fb3a0e93a4dd30c
+│                       │       │                   b1c685121d2d 
 │                       │       ├ Title           : cpython: Incomplete control character validation in
 │                       │       │                   http.cookies 
 │                       │       ├ Description     : The fix for CVE-2026-0672, which rejected control
@@ -13744,14 +13744,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4224 
-│                       │       ├ Fingerprint     : sha256:9641b950b3009be06116637c89dbad3803a411547d3c4ac4c77f
-│                       │       │                   16eb71d8bcef 
+│                       │       ├ Fingerprint     : sha256:b42acfbf9b233b7fcde028d8d2637956373e3cf38bf804cbd14d
+│                       │       │                   2abbe759a938 
 │                       │       ├ Title           : cpython: Stack overflow parsing XML with deeply nested DTD
 │                       │       │                   content models 
 │                       │       ├ Description     : When an Expat parser with a registered ElementDeclHandler
@@ -13880,14 +13880,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : end_of_life 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42308 
-│                       │       ├ Fingerprint     : sha256:8594ce15e79b149115117a1e30c87839e02baf0c7396caedd6a4
-│                       │       │                   5eea821b305f 
+│                       │       ├ Fingerprint     : sha256:5b1f621d272b0b03a2ef9758032494648a2da7e131f71375768d
+│                       │       │                   47f2642bcaf6 
 │                       │       ├ Title           : Pillow: python: Pillow: Denial of Service via integer
 │                       │       │                   overflow in font processing 
 │                       │       ├ Description     : Pillow is a Python imaging library. Prior to version
@@ -13951,14 +13951,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-5713 
-│                       │       ├ Fingerprint     : sha256:1301a7825298217190bff8d01a713b3792f401f2fca0bd04f9e0
-│                       │       │                   780ebda2c9f5 
+│                       │       ├ Fingerprint     : sha256:537881eb41aaa98467cb064e33c93adb3bf5ee2a1aafbf24e662
+│                       │       │                   28f80e8def7d 
 │                       │       ├ Title           : python: Python: Information disclosure and arbitrary code
 │                       │       │                   execution via remote debugging with a malicious process. 
 │                       │       ├ Description     : The "profiling.sampling" module (Python 3.15+) and "asyncio
@@ -14056,14 +14056,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6019 
-│                       │       ├ Fingerprint     : sha256:2558b2553234ab735cb175f451cfa4aa811fea98b00846454f30
-│                       │       │                   8a12cf5ba55a 
+│                       │       ├ Fingerprint     : sha256:cf5f83c5067b8f17c090778dcd0d326ddf9f0759ae30bba8f671
+│                       │       │                   abb4f97d50d8 
 │                       │       ├ Title           : python: Python: Cross-Site Scripting (XSS) vulnerability in
 │                       │       │                    http.cookies module 
 │                       │       ├ Description     : http.cookies.Morsel.js_output() returns an inline <script>
@@ -14142,14 +14142,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-7210 
-│                       │       ├ Fingerprint     : sha256:28b3d5826e9bbf9b81a3d3e85e0900ae22f1881cf4133d894d38
-│                       │       │                   a9c486533166 
+│                       │       ├ Fingerprint     : sha256:331fa01bc4802f66c924f4aa37f99abed0b4a6bfae3c063ff979
+│                       │       │                   f310c0e6d8f6 
 │                       │       ├ Title           : python: expat: Python/Expat: Denial of Service via crafted
 │                       │       │                   XML document 
 │                       │       ├ Description     : `xml.parsers.expat` and `xml.etree.ElementTree` use
@@ -14217,14 +14217,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13462 
-│                       │       ├ Fingerprint     : sha256:a187276599903a8d5c605c8bb5d05df401715d60f22fdd38c528
-│                       │       │                   ad6c3135e41b 
+│                       │       ├ Fingerprint     : sha256:daca02cc8a1bbd09ba423ac050561062f473c82269180620ebc0
+│                       │       │                   a9aca7edc918 
 │                       │       ├ Title           : cpython: cpython: `tarfile` module misinterprets crafted
 │                       │       │                   tar archives leading to data integrity issues 
 │                       │       ├ Description     : The "tarfile" module would still apply normalization of
@@ -14290,14 +14290,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1795 
-│                       │       ├ Fingerprint     : sha256:e2e7b117fcea3949b349024529c304d45e467f62d0e5676d2809
-│                       │       │                   8cdc95d2c1b9 
+│                       │       ├ Fingerprint     : sha256:f690180166fe350f72065f503c227cc3e0d0f734cc33ae66d66b
+│                       │       │                   044bffd4e798 
 │                       │       ├ Title           : python: Mishandling of comma during folding and
 │                       │       │                   unicode-encoding of email headers 
 │                       │       ├ Description     : During an address list folding when a separating comma ends
@@ -14363,14 +14363,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2297 
-│                       │       ├ Fingerprint     : sha256:2cfb92a6baf0b84ea838de02829d720917060755701c64b7324d
-│                       │       │                   b7e5f3a4015c 
+│                       │       ├ Fingerprint     : sha256:4015421b48914ef91a9784a2c810c227da66ea277ed8aa6960f5
+│                       │       │                   3c9084498d21 
 │                       │       ├ Title           : cpython: CPython: Logging Bypass in Legacy .pyc File Handling 
 │                       │       ├ Description     : The import hook in CPython that handles legacy *.pyc files
 │                       │       │                   (SourcelessFileLoader) is incorrectly handled in FileLoader
@@ -14488,14 +14488,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3479 
-│                       │       ├ Fingerprint     : sha256:ffd9863125c65f94e5d937c722b8bc3f6e194b45632f72c24673
-│                       │       │                   2de23d3c73de 
+│                       │       ├ Fingerprint     : sha256:4c036d968fa8ac2b029997d26c604a026de032808ac01a7072c3
+│                       │       │                   d653622862a6 
 │                       │       ├ Title           : python: Python pkgutil.get_data(): Path Traversal via
 │                       │       │                   improper resource argument validation 
 │                       │       ├ Description     : DISPUTED: The project has clarified that the documentation
@@ -14549,14 +14549,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-11468 
-│                       │       ├ Fingerprint     : sha256:ca3dc97e4b8d7e0c9b1e25dd3e1f197b1d7ffd604d85f44ad21d
-│                       │       │                   0d5f8dc9e3b8 
+│                       │       ├ Fingerprint     : sha256:271cd8b8d1f9e18f1a9b53b98e773ab85a06e5b8416dbbf657e9
+│                       │       │                   9cac6f82e8c3 
 │                       │       ├ Title           : cpython: Missing character filtering in Python 
 │                       │       ├ Description     : When folding a long comment in an email header containing
 │                       │       │                   exclusively unfoldable characters, the parenthesis would
@@ -14618,14 +14618,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-12781 
-│                       │       ├ Fingerprint     : sha256:90063a4bf595dd4a0d4112bf393962a0eac0a149b4cbec923361
-│                       │       │                   d6d2ed31e8f8 
+│                       │       ├ Fingerprint     : sha256:b5641e777afb0d23b6c2f4f8e557299edf5d04276a0d2766d625
+│                       │       │                   af132c20791e 
 │                       │       ├ Title           : cpython: base64.b64decode() always accepts "+/" characters,
 │                       │       │                    despite setting altchars 
 │                       │       ├ Description     : When passing data to the b64decode(), standard_b64decode(),
@@ -14702,14 +14702,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13837 
-│                       │       ├ Fingerprint     : sha256:ecc418bed0a983792b7030bf8c8f905ff5f6bf3cbadcad707125
-│                       │       │                   dd2222587d63 
+│                       │       ├ Fingerprint     : sha256:c8ee18cffd9f9a0bdb2843c0ee80ffb3ab31eae0b549e994ea75
+│                       │       │                   02fc50fb97ef 
 │                       │       ├ Title           : cpython: Out-of-memory when loading Plist 
 │                       │       ├ Description     : When loading a plist file, the plistlib module reads data
 │                       │       │                   in size specified by the file itself, meaning a malicious
@@ -14834,14 +14834,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-15282 
-│                       │       ├ Fingerprint     : sha256:d15e24330334bee501a035f3a29ca0b2b2e1f404fd5e6e48cbd1
-│                       │       │                   c11c53764726 
+│                       │       ├ Fingerprint     : sha256:0e6860ee7282735c38ddf65cf20bb432ccbe27e8a1107ddceef5
+│                       │       │                   cf0a244db6c5 
 │                       │       ├ Title           : cpython: Header injection via newlines in data URL
 │                       │       │                   mediatype in Python 
 │                       │       ├ Description     : User-controlled data URLs parsed by
@@ -14964,14 +14964,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4516 
-│                       │       ├ Fingerprint     : sha256:4a84b518aa89fbcb4449df76d76d3913ce3b31fbf06dd394a0e7
-│                       │       │                   f9181acf2d18 
+│                       │       ├ Fingerprint     : sha256:8dd3c9fd3dc5ef7e1ac3edc92b904f2a57cfd1ce0f5ad84bd540
+│                       │       │                   35bd200540f0 
 │                       │       ├ Title           : cpython: python: CPython DecodeError Handling Vulnerability 
 │                       │       ├ Description     : There is an issue in CPython when using
 │                       │       │                   `bytes.decode("unicode_escape", error="ignore|replace")`.
@@ -15104,14 +15104,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-0672 
-│                       │       ├ Fingerprint     : sha256:ebbd049e2d03bb5db14d768328a9003df7f3a0efc1de7ad17bf1
-│                       │       │                   40f8f2922378 
+│                       │       ├ Fingerprint     : sha256:e8c0fe8b165a53d8da2f23cbe293c300ee178278569c8d247382
+│                       │       │                   a5cb20102527 
 │                       │       ├ Title           : cpython: Header injection in http.cookies.Morsel in Python 
 │                       │       ├ Description     : When using http.cookies.Morsel, user-controlled cookie
 │                       │       │                   values and parameters can allow injecting HTTP headers into
@@ -15238,14 +15238,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11972 
-│                       │       ├ Fingerprint     : sha256:0c9c3b178cfbd879288ddf0eea55d3e0bb0d5eac6906b451dd5e
-│                       │       │                   46edfb59abe7 
+│                       │       ├ Fingerprint     : sha256:a59068596f0e4aafcafe95b3837e6b710241c7d7e9cca14007dd
+│                       │       │                   6d048e1fa355 
 │                       │       ├ Title           : python: Python tarfile module: Denial of Service via
 │                       │       │                   improper EOF handling in streaming mode 
 │                       │       ├ Description     : When using the "tarfile" module with a file opened in
@@ -15308,14 +15308,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1502 
-│                       │       ├ Fingerprint     : sha256:27fb8481c8835d5a9c3e41c9a1554be2516ec30f4001c9be1cd1
-│                       │       │                   e3c915201ea0 
+│                       │       ├ Fingerprint     : sha256:a3ccd0db3340b5127af28afa1f77d8435928e74cea7e61174d1c
+│                       │       │                   454b6d219a9c 
 │                       │       ├ Title           : python: Python: HTTP header injection via CR/LF in proxy
 │                       │       │                   tunnel headers 
 │                       │       ├ Description     : CR/LF bytes were not rejected by HTTP client proxy tunnel
@@ -15436,14 +15436,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3276 
-│                       │       ├ Fingerprint     : sha256:68a489515c5f1329df74aa63ca885808f88a435156ae5ad991be
-│                       │       │                   da36b8423f9f 
+│                       │       ├ Fingerprint     : sha256:c60b6d10e0a5265aed7f8e9c872adf72297412e35ba8064b45c5
+│                       │       │                   a6378d2244c4 
 │                       │       ├ Title           : python: Python unicodedata: Denial of Service due to
 │                       │       │                   excessive CPU consumption 
 │                       │       ├ Description     : unicodedata.normalize() can take excessive CPU time when
@@ -15513,14 +15513,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3644 
-│                       │       ├ Fingerprint     : sha256:b908243b8ccb973988c624a35c3b50f38a589fe936356469cfdf
-│                       │       │                   5586e05f35b2 
+│                       │       ├ Fingerprint     : sha256:1dcd0e9135ab5c0d90fb18ad14d1e621629c4f73ad8d610a1973
+│                       │       │                   cbd2802ddf21 
 │                       │       ├ Title           : cpython: Incomplete control character validation in
 │                       │       │                   http.cookies 
 │                       │       ├ Description     : The fix for CVE-2026-0672, which rejected control
@@ -15646,14 +15646,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4224 
-│                       │       ├ Fingerprint     : sha256:bd7b236b72470c970cd0ffe4e2eb7706f416fc36b55af4882f43
-│                       │       │                   2e83e408696d 
+│                       │       ├ Fingerprint     : sha256:f2c1cf69bb3a37567d133be8502ad24802fca8552dd2e2a04982
+│                       │       │                   086c1bb95198 
 │                       │       ├ Title           : cpython: Stack overflow parsing XML with deeply nested DTD
 │                       │       │                   content models 
 │                       │       ├ Description     : When an Expat parser with a registered ElementDeclHandler
@@ -15782,14 +15782,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : end_of_life 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42308 
-│                       │       ├ Fingerprint     : sha256:0085fbed4201e2c075e56d6d77bdac12e07dee6b34af5b5ce187
-│                       │       │                   f28205e3961b 
+│                       │       ├ Fingerprint     : sha256:7cdc55d388e3952cdda0f94e4d7e1e2022dcd75c233111b11997
+│                       │       │                   e67da96a0545 
 │                       │       ├ Title           : Pillow: python: Pillow: Denial of Service via integer
 │                       │       │                   overflow in font processing 
 │                       │       ├ Description     : Pillow is a Python imaging library. Prior to version
@@ -15853,14 +15853,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-5713 
-│                       │       ├ Fingerprint     : sha256:efb96894b2baaa40693bf35742f22ae32b8c9b91e6fe42bec102
-│                       │       │                   cb5819fbed0b 
+│                       │       ├ Fingerprint     : sha256:3ba87f18879838de632f18481b1291869e4b9578bd5fe6d5b371
+│                       │       │                   58c968a324ef 
 │                       │       ├ Title           : python: Python: Information disclosure and arbitrary code
 │                       │       │                   execution via remote debugging with a malicious process. 
 │                       │       ├ Description     : The "profiling.sampling" module (Python 3.15+) and "asyncio
@@ -15958,14 +15958,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6019 
-│                       │       ├ Fingerprint     : sha256:683656b2a7bf28d9bb42f6bb68932d492a013993381f844038c1
-│                       │       │                   7841ae1471da 
+│                       │       ├ Fingerprint     : sha256:eec5715446361eb6a3b60f6b59ede4542bfd6b836b2377186ec2
+│                       │       │                   1535fa4e825e 
 │                       │       ├ Title           : python: Python: Cross-Site Scripting (XSS) vulnerability in
 │                       │       │                    http.cookies module 
 │                       │       ├ Description     : http.cookies.Morsel.js_output() returns an inline <script>
@@ -16044,14 +16044,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-7210 
-│                       │       ├ Fingerprint     : sha256:c1e7cee80b00a7b8ee251f85232ed0a72b63fedcf642fb37acc2
-│                       │       │                   f308b8843941 
+│                       │       ├ Fingerprint     : sha256:68773b0f256d3dc4b601e05b9469913b3828a299aec4fbd02560
+│                       │       │                   854642597c37 
 │                       │       ├ Title           : python: expat: Python/Expat: Denial of Service via crafted
 │                       │       │                   XML document 
 │                       │       ├ Description     : `xml.parsers.expat` and `xml.etree.ElementTree` use
@@ -16119,14 +16119,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13462 
-│                       │       ├ Fingerprint     : sha256:389d3aa190a8135e3c9875b32bd1568ce186fdb79a903a83bf84
-│                       │       │                   100c21cfd9d1 
+│                       │       ├ Fingerprint     : sha256:f64cd3536774fb8cc8fe9dd2a1c8906bec030e57248a1f7d5fc5
+│                       │       │                   589b64ff5030 
 │                       │       ├ Title           : cpython: cpython: `tarfile` module misinterprets crafted
 │                       │       │                   tar archives leading to data integrity issues 
 │                       │       ├ Description     : The "tarfile" module would still apply normalization of
@@ -16192,14 +16192,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1795 
-│                       │       ├ Fingerprint     : sha256:b70f451932f71e7a97eaf6e7e6c98d8d120a49d42aecbfc60aac
-│                       │       │                   eaefc58f07a6 
+│                       │       ├ Fingerprint     : sha256:a252bb104d54c26af9eebfb96655f63a6272ca9589841e484253
+│                       │       │                   0122a920c7b3 
 │                       │       ├ Title           : python: Mishandling of comma during folding and
 │                       │       │                   unicode-encoding of email headers 
 │                       │       ├ Description     : During an address list folding when a separating comma ends
@@ -16265,14 +16265,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2297 
-│                       │       ├ Fingerprint     : sha256:772f5b6f4bd2f4e3236f4e728d9bee9650cdb8866698390d4c27
-│                       │       │                   71d3fd6a2859 
+│                       │       ├ Fingerprint     : sha256:6f95905bcb265fdd465558bf8119c36c58adc1facf1a02f5817c
+│                       │       │                   fb1457dd378b 
 │                       │       ├ Title           : cpython: CPython: Logging Bypass in Legacy .pyc File Handling 
 │                       │       ├ Description     : The import hook in CPython that handles legacy *.pyc files
 │                       │       │                   (SourcelessFileLoader) is incorrectly handled in FileLoader
@@ -16390,14 +16390,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3479 
-│                       │       ├ Fingerprint     : sha256:24462fb4b32c873c4e9d23e07d783e81149f78b58233d977dcb6
-│                       │       │                   bc684917f1a0 
+│                       │       ├ Fingerprint     : sha256:a41272aeabc6f9ea8839f1d3921d33558365fb99b7158b12e490
+│                       │       │                   f76770fc631a 
 │                       │       ├ Title           : python: Python pkgutil.get_data(): Path Traversal via
 │                       │       │                   improper resource argument validation 
 │                       │       ├ Description     : DISPUTED: The project has clarified that the documentation
@@ -16451,14 +16451,14 @@
 │                       │       │                  ╰ UID : f8d76ebde99d7819 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-11468 
-│                       │       ├ Fingerprint     : sha256:fef33f75aedb267b3a4c06fcf683a927d6c3170adc537e55309c
-│                       │       │                   ca5461024276 
+│                       │       ├ Fingerprint     : sha256:42a94afb6fea0335bd29dc2a2e0446002653bc005855ed32401e
+│                       │       │                   84e341b2deb6 
 │                       │       ├ Title           : cpython: Missing character filtering in Python 
 │                       │       ├ Description     : When folding a long comment in an email header containing
 │                       │       │                   exclusively unfoldable characters, the parenthesis would
@@ -16520,14 +16520,14 @@
 │                       │       │                  ╰ UID : f8d76ebde99d7819 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-12781 
-│                       │       ├ Fingerprint     : sha256:a6fc5f834b17d2cd3a235914e27274ad7b27776a8cbd314ddd98
-│                       │       │                   ff9751ef3f17 
+│                       │       ├ Fingerprint     : sha256:6b6571c965fd88ce35d02bdf303cbeaedf4dbe2abd1a068379d0
+│                       │       │                   4c0bb22b8656 
 │                       │       ├ Title           : cpython: base64.b64decode() always accepts "+/" characters,
 │                       │       │                    despite setting altchars 
 │                       │       ├ Description     : When passing data to the b64decode(), standard_b64decode(),
@@ -16604,14 +16604,14 @@
 │                       │       │                  ╰ UID : f8d76ebde99d7819 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13837 
-│                       │       ├ Fingerprint     : sha256:638fede51087c4227dbb07248e92e27a441b84f396833594bc69
-│                       │       │                   cecb84220b92 
+│                       │       ├ Fingerprint     : sha256:640af6d3901e79233d83cc1af74b29df9159cc7804a1378edc7c
+│                       │       │                   8da2ef138583 
 │                       │       ├ Title           : cpython: Out-of-memory when loading Plist 
 │                       │       ├ Description     : When loading a plist file, the plistlib module reads data
 │                       │       │                   in size specified by the file itself, meaning a malicious
@@ -16736,14 +16736,14 @@
 │                       │       │                  ╰ UID : f8d76ebde99d7819 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-15282 
-│                       │       ├ Fingerprint     : sha256:504d983196d6d8660f6eb1f5a8e7d2d4dee6d85342f44a8cc4e6
-│                       │       │                   e9bae11f893b 
+│                       │       ├ Fingerprint     : sha256:02dd660a46ab5a5c64259915381ab4c40e5303e6c77f8477e272
+│                       │       │                   c774806fb56b 
 │                       │       ├ Title           : cpython: Header injection via newlines in data URL
 │                       │       │                   mediatype in Python 
 │                       │       ├ Description     : User-controlled data URLs parsed by
@@ -16866,14 +16866,14 @@
 │                       │       │                  ╰ UID : f8d76ebde99d7819 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4516 
-│                       │       ├ Fingerprint     : sha256:6f437730dc668782e6620e8f77f180f1c7d945028da971faf3f8
-│                       │       │                   fbfa44142335 
+│                       │       ├ Fingerprint     : sha256:b948290885e9ad8607745f4a7857b02b49fc00a8ec67e66bdf1c
+│                       │       │                   226d32275b41 
 │                       │       ├ Title           : cpython: python: CPython DecodeError Handling Vulnerability 
 │                       │       ├ Description     : There is an issue in CPython when using
 │                       │       │                   `bytes.decode("unicode_escape", error="ignore|replace")`.
@@ -17006,14 +17006,14 @@
 │                       │       │                  ╰ UID : f8d76ebde99d7819 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-0672 
-│                       │       ├ Fingerprint     : sha256:931f313c3ce392ba5f6b3184fb9e55738d6e703a52c2ced5c833
-│                       │       │                   85e98c1429a7 
+│                       │       ├ Fingerprint     : sha256:d094d5103f0cce86a71208d1bec3e7d0f67d17bb474f5306590f
+│                       │       │                   109326a80564 
 │                       │       ├ Title           : cpython: Header injection in http.cookies.Morsel in Python 
 │                       │       ├ Description     : When using http.cookies.Morsel, user-controlled cookie
 │                       │       │                   values and parameters can allow injecting HTTP headers into
@@ -17140,14 +17140,14 @@
 │                       │       │                  ╰ UID : f8d76ebde99d7819 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11972 
-│                       │       ├ Fingerprint     : sha256:7ff9e79f95bb299e1f1e895f5fae1fe4ba6679e4814fa7633952
-│                       │       │                   888bcd73e04d 
+│                       │       ├ Fingerprint     : sha256:164ced40b03017d73a3e44cf7bb0b902435e23ae4a9883836873
+│                       │       │                   80d6b8caa8de 
 │                       │       ├ Title           : python: Python tarfile module: Denial of Service via
 │                       │       │                   improper EOF handling in streaming mode 
 │                       │       ├ Description     : When using the "tarfile" module with a file opened in
@@ -17210,14 +17210,14 @@
 │                       │       │                  ╰ UID : f8d76ebde99d7819 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1502 
-│                       │       ├ Fingerprint     : sha256:ba2116abe6733d9405247c5ec0a383eafb5c1bddd8dc6fd2f485
-│                       │       │                   99fda0a3cd5b 
+│                       │       ├ Fingerprint     : sha256:6e561c2d8f8d02155bd4d592348979f3a95966eb922a70518f76
+│                       │       │                   c16512709d93 
 │                       │       ├ Title           : python: Python: HTTP header injection via CR/LF in proxy
 │                       │       │                   tunnel headers 
 │                       │       ├ Description     : CR/LF bytes were not rejected by HTTP client proxy tunnel
@@ -17338,14 +17338,14 @@
 │                       │       │                  ╰ UID : f8d76ebde99d7819 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3276 
-│                       │       ├ Fingerprint     : sha256:c199b02feea21b813d8d5b2bbe5311a401a2aa555302f6e1f88f
-│                       │       │                   c5128ddecf53 
+│                       │       ├ Fingerprint     : sha256:814e0b910afe6bb928c4409357975bf22b750b88db7c37e8ac74
+│                       │       │                   e7b463d73ef0 
 │                       │       ├ Title           : python: Python unicodedata: Denial of Service due to
 │                       │       │                   excessive CPU consumption 
 │                       │       ├ Description     : unicodedata.normalize() can take excessive CPU time when
@@ -17415,14 +17415,14 @@
 │                       │       │                  ╰ UID : f8d76ebde99d7819 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3644 
-│                       │       ├ Fingerprint     : sha256:3beea900973b70a923b80255c6a61644b288d89e1ee70123f7c9
-│                       │       │                   da779cd2a269 
+│                       │       ├ Fingerprint     : sha256:89027923fc246ae8ba2d05020239ca827c5c885bf9d0d079338e
+│                       │       │                   4be8200667a9 
 │                       │       ├ Title           : cpython: Incomplete control character validation in
 │                       │       │                   http.cookies 
 │                       │       ├ Description     : The fix for CVE-2026-0672, which rejected control
@@ -17548,14 +17548,14 @@
 │                       │       │                  ╰ UID : f8d76ebde99d7819 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4224 
-│                       │       ├ Fingerprint     : sha256:df0c9cc4e8433062b8b1588be6cb989a4445c47fc1ae48efe783
-│                       │       │                   3f542efd0841 
+│                       │       ├ Fingerprint     : sha256:47fd153e6aaa5a6689f574988515f38db2e2d556ecb274d4de67
+│                       │       │                   a7dcb4f4e73f 
 │                       │       ├ Title           : cpython: Stack overflow parsing XML with deeply nested DTD
 │                       │       │                   content models 
 │                       │       ├ Description     : When an Expat parser with a registered ElementDeclHandler
@@ -17684,14 +17684,14 @@
 │                       │       │                  ╰ UID : f8d76ebde99d7819 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : end_of_life 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42308 
-│                       │       ├ Fingerprint     : sha256:6a6ace57b1ecd2fac3f7a686284db8b8aaf229f568091cc4e724
-│                       │       │                   f1c4083048b0 
+│                       │       ├ Fingerprint     : sha256:31e3ef61c1e59252ed7548cf904e42e0ecfac47a6d7318b25af0
+│                       │       │                   20310f2b2169 
 │                       │       ├ Title           : Pillow: python: Pillow: Denial of Service via integer
 │                       │       │                   overflow in font processing 
 │                       │       ├ Description     : Pillow is a Python imaging library. Prior to version
@@ -17755,14 +17755,14 @@
 │                       │       │                  ╰ UID : f8d76ebde99d7819 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-5713 
-│                       │       ├ Fingerprint     : sha256:d0642dcd033159b8f5b6022bf5ef47de95f5b2eee01279dd2d12
-│                       │       │                   141d77f491c0 
+│                       │       ├ Fingerprint     : sha256:4b0c5b7581a8e7ca0063d987e5160483427ccbcf72771dac2676
+│                       │       │                   22d1f5fb4857 
 │                       │       ├ Title           : python: Python: Information disclosure and arbitrary code
 │                       │       │                   execution via remote debugging with a malicious process. 
 │                       │       ├ Description     : The "profiling.sampling" module (Python 3.15+) and "asyncio
@@ -17860,14 +17860,14 @@
 │                       │       │                  ╰ UID : f8d76ebde99d7819 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6019 
-│                       │       ├ Fingerprint     : sha256:6b91388d89e1794502de0c28c0155054ff191d28513f2a781ea7
-│                       │       │                   2a677d4c7731 
+│                       │       ├ Fingerprint     : sha256:487361dc05937f2cbe99d1e7724a6736ef206aa7585f218f0e6f
+│                       │       │                   4295ff478afb 
 │                       │       ├ Title           : python: Python: Cross-Site Scripting (XSS) vulnerability in
 │                       │       │                    http.cookies module 
 │                       │       ├ Description     : http.cookies.Morsel.js_output() returns an inline <script>
@@ -17946,14 +17946,14 @@
 │                       │       │                  ╰ UID : f8d76ebde99d7819 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-7210 
-│                       │       ├ Fingerprint     : sha256:9d1483e468eb0e5e80cd9aa00b0b06922c9cce1222905a293bc6
-│                       │       │                   82351ddcd0e0 
+│                       │       ├ Fingerprint     : sha256:2476ed376530794302d2076ba3dfe284657229575f8d0b95606a
+│                       │       │                   9c8fafde4130 
 │                       │       ├ Title           : python: expat: Python/Expat: Denial of Service via crafted
 │                       │       │                   XML document 
 │                       │       ├ Description     : `xml.parsers.expat` and `xml.etree.ElementTree` use
@@ -18021,14 +18021,14 @@
 │                       │       │                  ╰ UID : f8d76ebde99d7819 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13462 
-│                       │       ├ Fingerprint     : sha256:e229ebb07e7d02f9524f619e08b0bf88dc3a590dd2d2bc3c0621
-│                       │       │                   3d2493bbb3c7 
+│                       │       ├ Fingerprint     : sha256:2ee5e27391ba8e4eee2d4019aa424859b1cb253f71a16a37098c
+│                       │       │                   3dc6eb1e2ce8 
 │                       │       ├ Title           : cpython: cpython: `tarfile` module misinterprets crafted
 │                       │       │                   tar archives leading to data integrity issues 
 │                       │       ├ Description     : The "tarfile" module would still apply normalization of
@@ -18094,14 +18094,14 @@
 │                       │       │                  ╰ UID : f8d76ebde99d7819 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1795 
-│                       │       ├ Fingerprint     : sha256:0d52a321416b9b83b0f35f376f9d4c9178bcab421125be476259
-│                       │       │                   f16cd70f618f 
+│                       │       ├ Fingerprint     : sha256:1cb02bf7df6cd17686766fca2b277b8cadcc7d9bec16e6ad1efd
+│                       │       │                   2d8b8d746697 
 │                       │       ├ Title           : python: Mishandling of comma during folding and
 │                       │       │                   unicode-encoding of email headers 
 │                       │       ├ Description     : During an address list folding when a separating comma ends
@@ -18167,14 +18167,14 @@
 │                       │       │                  ╰ UID : f8d76ebde99d7819 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2297 
-│                       │       ├ Fingerprint     : sha256:4e7cea8cbcee4926374806bab5985648953c64f01d243f2e73e6
-│                       │       │                   76f8bf322833 
+│                       │       ├ Fingerprint     : sha256:dd0652ed25103b5553dbf32955f25ad4069085881285d42bb4be
+│                       │       │                   c6171b7e3abc 
 │                       │       ├ Title           : cpython: CPython: Logging Bypass in Legacy .pyc File Handling 
 │                       │       ├ Description     : The import hook in CPython that handles legacy *.pyc files
 │                       │       │                   (SourcelessFileLoader) is incorrectly handled in FileLoader
@@ -18292,14 +18292,14 @@
 │                       │       │                  ╰ UID : f8d76ebde99d7819 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3479 
-│                       │       ├ Fingerprint     : sha256:e1fc967e52b0c4700daf28ea4c830fe2dc86960f302370d03423
-│                       │       │                   6c2e2ef4e528 
+│                       │       ├ Fingerprint     : sha256:8bc2932f8e056610529e9fe19e057959c8272d57fed708f98c9c
+│                       │       │                   a915d4586e2d 
 │                       │       ├ Title           : python: Python pkgutil.get_data(): Path Traversal via
 │                       │       │                   improper resource argument validation 
 │                       │       ├ Description     : DISPUTED: The project has clarified that the documentation
@@ -18353,14 +18353,14 @@
 │                       │       │                  ╰ UID : 5de97a84eb8c8b1c 
 │                       │       ├ InstalledVersion: 21.3.1-2.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45803 
-│                       │       ├ Fingerprint     : sha256:94ef26df29291045f32165deafc0313f79e3ab0f11295307f489
-│                       │       │                   af231e5db552 
+│                       │       ├ Fingerprint     : sha256:e0a4ac7ac64db31abe54505666b381ca61f8ba15993912af6536
+│                       │       │                   ad8321625874 
 │                       │       ├ Title           : urllib3: Request body not stripped after redirect from 303
 │                       │       │                   status changes request method to GET 
 │                       │       ├ Description     : urllib3 is a user-friendly HTTP client library for Python.
@@ -18491,14 +18491,14 @@
 │                       │       │                  ╰ UID : 5de97a84eb8c8b1c 
 │                       │       ├ InstalledVersion: 21.3.1-2.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-50181 
-│                       │       ├ Fingerprint     : sha256:0403e073670cfa1839445d2fbb26624a530f3678cddfb61b25e8
-│                       │       │                   db58e8e5186a 
+│                       │       ├ Fingerprint     : sha256:4aaf5f7e8637e90ebf68a70d7d234403e1cbebc5c59f8269eace
+│                       │       │                   8d73817f92d5 
 │                       │       ├ Title           : urllib3: urllib3 redirects are not disabled when retries
 │                       │       │                   are disabled on PoolManager instantiation 
 │                       │       ├ Description     : urllib3 is a user-friendly HTTP client library for Python.
@@ -18561,14 +18561,14 @@
 │                       │       │                  ╰ UID : 5de97a84eb8c8b1c 
 │                       │       ├ InstalledVersion: 21.3.1-2.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-50182 
-│                       │       ├ Fingerprint     : sha256:aece24e4ecf07c64b4b84c9fea017f4e9f77925e2973051ec648
-│                       │       │                   b9442574025b 
+│                       │       ├ Fingerprint     : sha256:5175b98a56886ec283618655e928480feee0aaf33812e31a8c54
+│                       │       │                   bc78e13247ad 
 │                       │       ├ Title           : urllib3: urllib3 does not control redirects in browsers and
 │                       │       │                    Node.js 
 │                       │       ├ Description     : urllib3 is a user-friendly HTTP client library for Python.
@@ -18627,14 +18627,14 @@
 │                       │       │                  ╰ UID : 5de97a84eb8c8b1c 
 │                       │       ├ InstalledVersion: 21.3.1-2.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-25645 
-│                       │       ├ Fingerprint     : sha256:456ac28c1c05073b8c69b99332b3d4ec8ca8311a5b7345d2dc09
-│                       │       │                   f180dc607db2 
+│                       │       ├ Fingerprint     : sha256:4f9c0a94a7ab41bf3745d0f8f8ef6e7a1b1f580e9f5a2d037c89
+│                       │       │                   d32d6db8109e 
 │                       │       ├ Title           : requests: Requests: Security bypass due to predictable
 │                       │       │                   temporary file creation 
 │                       │       ├ Description     : Requests is a HTTP library. Prior to version 2.33.0, the
@@ -18696,14 +18696,14 @@
 │                       │       │                  ╰ UID : 5de97a84eb8c8b1c 
 │                       │       ├ InstalledVersion: 21.3.1-2.el9_8 
 │                       │       ├ Status          : end_of_life 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32284 
-│                       │       ├ Fingerprint     : sha256:4ebdc773b02cad2c3898876d50e68bda5591392c66cd614281ca
-│                       │       │                   e46a7f7bc3ba 
+│                       │       ├ Fingerprint     : sha256:440c7dd4befb99da2389cdfd52bf8abad2a8f9a586100ed5fe02
+│                       │       │                   4a1076ab0a55 
 │                       │       ├ Title           : github.com/shamaton/msgpack: msgpack: Denial of Service via
 │                       │       │                    truncated fixext data 
 │                       │       ├ Description     : The msgpack decoder fails to properly validate the input
@@ -18747,14 +18747,14 @@
 │                       │       │                  ╰ UID : 5de97a84eb8c8b1c 
 │                       │       ├ InstalledVersion: 21.3.1-2.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-45409 
-│                       │       ├ Fingerprint     : sha256:9aaed876d08b17d86f7b8e586ef90a3c7c705479281abd703f6b
-│                       │       │                   8b349d0d0ff7 
+│                       │       ├ Fingerprint     : sha256:4ef6d1298c999bb2a4f4c1eb8d612850224169c3ebffd1e1bc2a
+│                       │       │                   9d1a103468e7 
 │                       │       ├ Title           : python-idna: idna: Denial of Service via specially crafted
 │                       │       │                   long inputs 
 │                       │       ├ Description     : Internationalized Domain Names in Applications (IDNA) for
@@ -18846,14 +18846,14 @@
 │                       │       │                  ╰ UID : 5de97a84eb8c8b1c 
 │                       │       ├ InstalledVersion: 21.3.1-2.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-3572 
-│                       │       ├ Fingerprint     : sha256:5ba064e42c865f25577c61ee3770145786a5ec9647a712bfadc4
-│                       │       │                   48ab87e8e23c 
+│                       │       ├ Fingerprint     : sha256:6ef8ba3d54c01c972e6566738a05bb2e8273b07b4a5edb38bfe6
+│                       │       │                   a7ab093a2e39 
 │                       │       ├ Title           : python-pip: Incorrect handling of unicode separators in git
 │                       │       │                    references 
 │                       │       ├ Description     : A flaw was found in python-pip in the way it handled
@@ -18974,14 +18974,14 @@
 │                       │       │                  ╰ UID : f109360a00e4b47d 
 │                       │       ├ InstalledVersion: 4.16.1.3-40.el9 
 │                       │       ├ Status          : under_investigation 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-44604 
-│                       │       ├ Fingerprint     : sha256:6cbb3f8baa33670b8162465e7dbb6d142849ed6fe6cc2922d634
-│                       │       │                   e174387e0b9e 
+│                       │       ├ Fingerprint     : sha256:ef68d4da80017cb2b7c7e420055330e1ad954d401f858ae6519d
+│                       │       │                   5d434b7de331 
 │                       │       ├ Title           : rpm: Command injection in rpmuncompress doUntar() via
 │                       │       │                   unescaped archive top-level directory name in popen() shell
 │                       │       │                    command 
@@ -19021,14 +19021,14 @@
 │                       │       │                  ╰ UID : f109360a00e4b47d 
 │                       │       ├ InstalledVersion: 4.16.1.3-40.el9 
 │                       │       ├ Status          : under_investigation 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-44605 
-│                       │       ├ Fingerprint     : sha256:ace28727b432d28621961dc8f18caf25891a00a1e81e00f450f9
-│                       │       │                   3d31dbf57ecb 
+│                       │       ├ Fingerprint     : sha256:0fdb697f24bcad5f47fe6a39ed56c2f6dd49dd99763dce346fc3
+│                       │       │                   50b3ab109e87 
 │                       │       ├ Title           : rpm: heap buffer overflow in NDB slot table parsing 
 │                       │       ├ Description     : A flaw was found in the RPM Package Manager (RPM). A local
 │                       │       │                   user could be affected by a heap buffer overflow
@@ -19066,14 +19066,14 @@
 │                       │       │                  ╰ UID : 78d6aa3e9dc2bc13 
 │                       │       ├ InstalledVersion: 4.16.1.3-40.el9 
 │                       │       ├ Status          : under_investigation 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-44604 
-│                       │       ├ Fingerprint     : sha256:476616a6443586b98fe54de62328df563d4f7b14890c58b4720b
-│                       │       │                   bf832d4795d1 
+│                       │       ├ Fingerprint     : sha256:1cad07545584841332ff0cef765a94fe704c175e9b84cb8e9040
+│                       │       │                   3a93c644c9f9 
 │                       │       ├ Title           : rpm: Command injection in rpmuncompress doUntar() via
 │                       │       │                   unescaped archive top-level directory name in popen() shell
 │                       │       │                    command 
@@ -19113,14 +19113,14 @@
 │                       │       │                  ╰ UID : 78d6aa3e9dc2bc13 
 │                       │       ├ InstalledVersion: 4.16.1.3-40.el9 
 │                       │       ├ Status          : under_investigation 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-44605 
-│                       │       ├ Fingerprint     : sha256:45b28bbb34f4bfc061f8177f02c898b9159eb0df8a720a4616f9
-│                       │       │                   4afcb17c49be 
+│                       │       ├ Fingerprint     : sha256:e5bd1c17ba70ccc2a6c22179945433767c478a07fce3b81cd5dd
+│                       │       │                   dcc1ac5c5849 
 │                       │       ├ Title           : rpm: heap buffer overflow in NDB slot table parsing 
 │                       │       ├ Description     : A flaw was found in the RPM Package Manager (RPM). A local
 │                       │       │                   user could be affected by a heap buffer overflow
@@ -19158,14 +19158,14 @@
 │                       │       │                  ╰ UID : 25cdcb27af2ed55 
 │                       │       ├ InstalledVersion: 4.8-10.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-5958 
-│                       │       ├ Fingerprint     : sha256:8a94c02423ba0b45b330e5ec157bec97e66f5f17b48fcb2dfa68
-│                       │       │                   0c364599cad5 
+│                       │       ├ Fingerprint     : sha256:4e09325cd01509ac98e575fe441b4f2201bd6e8d4f772123dbf6
+│                       │       │                   9c7f9f2bb57f 
 │                       │       ├ Title           : sed: GNU sed TOCTOU race condition 
 │                       │       ├ Description     : When sed is invoked with both -i (in-place edit) and
 │                       │       │                   --follow-symlinks, the function open_next_file() performs
@@ -19222,14 +19222,14 @@
 │                       │       │                  ╰ UID : b63e4cff25c80c2b 
 │                       │       ├ InstalledVersion: 3.34.1-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-0232 
-│                       │       ├ Fingerprint     : sha256:71a76e931f67640842f096ed1b3b051ad0acb711bcc22a7fbdd4
-│                       │       │                   d5dcba3cde94 
+│                       │       ├ Fingerprint     : sha256:761f311ae82037af24813e9d21b66eb7c6afec89a703c31246c0
+│                       │       │                   f748007f4671 
 │                       │       ├ Title           : sqlite: use-after-free bug in jsonParseAddNodeArray 
 │                       │       ├ Description     : A heap use-after-free issue has been identified in SQLite
 │                       │       │                   in the jsonParseAddNodeArray() function in sqlite3.c. This
@@ -19277,14 +19277,14 @@
 │                       │       │                  ╰ UID : b63e4cff25c80c2b 
 │                       │       ├ InstalledVersion: 3.34.1-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-70873 
-│                       │       ├ Fingerprint     : sha256:dbfa2a94bb6a6274c0a5babc23d71878fb20af9286051ad52128
-│                       │       │                   c0001eaefe19 
+│                       │       ├ Fingerprint     : sha256:239881cdd2ff96b6708cfc8bf80428e95fbc2ff621df70017af4
+│                       │       │                   8ca5ca0b1a6a 
 │                       │       ├ Title           : sqlite: SQLite: Information Disclosure via Crafted ZIP File 
 │                       │       ├ Description     : An information disclosure issue in the zipfileInflate
 │                       │       │                   function in the zipfile extension in SQLite v3.51.1 and
@@ -19329,14 +19329,14 @@
 │                       │       │                  ╰ UID : dfef1be2b0468235 
 │                       │       ├ InstalledVersion: 252-67.el9_8.4 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4105 
-│                       │       ├ Fingerprint     : sha256:e9d68c63973250b3813171b45ae0f1febe732649c7cd5fdbafde
-│                       │       │                   31908a6c725d 
+│                       │       ├ Fingerprint     : sha256:15bebfebb058c1f198442cc8d79c65a0c6b85d4b9771e721f8a5
+│                       │       │                   eb5294f3154d 
 │                       │       ├ Title           : systemd: systemd: Privilege escalation via improper access
 │                       │       │                   control in RegisterMachine D-Bus method 
 │                       │       ├ Description     : A flaw was found in systemd. The systemd-machined service
@@ -19380,14 +19380,14 @@
 │                       │       │                  ╰ UID : 7e42dc44a4da7fcd 
 │                       │       ├ InstalledVersion: 2:1.34-13.el9_8 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2005-2541 
-│                       │       ├ Fingerprint     : sha256:0a0b71b19f53ce29028eb2db44eaee3fad5e655567c70be31eda
-│                       │       │                   4df5a3d41beb 
+│                       │       ├ Fingerprint     : sha256:ae5a9f3a5730e46a02a1bc0abce674b5af883b2483fbcf6b91f8
+│                       │       │                   373503f40284 
 │                       │       ├ Title           : tar: does not properly warn the user when extracting setuid
 │                       │       │                    or setgid files 
 │                       │       ├ Description     : Tar 1.15.1 does not properly warn the user when extracting
@@ -19422,14 +19422,14 @@
 │                       │       │                  ╰ UID : 7e42dc44a4da7fcd 
 │                       │       ├ InstalledVersion: 2:1.34-13.el9_8 
 │                       │       ├ Status          : end_of_life 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-64118 
-│                       │       ├ Fingerprint     : sha256:e3a437e72107da54d635db0efaa39b48382bebba5cb531213046
-│                       │       │                   df414592e0ad 
+│                       │       ├ Fingerprint     : sha256:7256a496880c8d95ae079ba3172342582f4141a30e61a2c8d2b3
+│                       │       │                   ce13953846d7 
 │                       │       ├ Title           : node-tar: tar: node-tar: Information disclosure via reading
 │                       │       │                    a truncated tar file 
 │                       │       ├ Description     : node-tar is a Tar for Node.js. In 7.5.1, using .t (aka
@@ -19480,14 +19480,14 @@
 │                       │       │                  ╰ UID : 7e42dc44a4da7fcd 
 │                       │       ├ InstalledVersion: 2:1.34-13.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33056 
-│                       │       ├ Fingerprint     : sha256:9270644afa899934ed63f7768b6a2a2a808cbdb616a28e9c818a
-│                       │       │                   5e8c8e8b287a 
+│                       │       ├ Fingerprint     : sha256:5e82cfc4fa025c48dce80559c78001758fa020c3ef2430953eb8
+│                       │       │                   284e9151e745 
 │                       │       ├ Title           : tar-rs: tar-rs: Arbitrary directory permission modification
 │                       │       │                    via crafted tar archive 
 │                       │       ├ Description     : tar-rs is a tar archive reading/writing library for Rust.
@@ -19556,14 +19556,14 @@
 │                       │       │                  ╰ UID : 7e42dc44a4da7fcd 
 │                       │       ├ InstalledVersion: 2:1.34-13.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-53655 
-│                       │       ├ Fingerprint     : sha256:f65ea5de5bc36dfc4dc5c9bca93283bbc9281a5cc924464789b9
-│                       │       │                   068dfb5aa4d2 
+│                       │       ├ Fingerprint     : sha256:5cb8e9d8487c0adf90882943fab0886733f3e2bd675a48f34193
+│                       │       │                   ae829f7a4e4c 
 │                       │       ├ Title           : node-tar: node-tar: File smuggling due to inconsistent tar
 │                       │       │                   archive parsing 
 │                       │       ├ Description     : node-tar is a full-featured Tar for Node.js. Prior to
@@ -19628,14 +19628,14 @@
 │                       │       │                  ╰ UID : 7e42dc44a4da7fcd 
 │                       │       ├ InstalledVersion: 2:1.34-13.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-5704 
-│                       │       ├ Fingerprint     : sha256:4c14e8c7e3f8e5146ca6f7ed4e88989d9445303b9638180e250e
-│                       │       │                   15195c188587 
+│                       │       ├ Fingerprint     : sha256:2f5528bd587ae6ee605c5730c6104322b2402b393f4f27b75ecb
+│                       │       │                   fc3501fb0337 
 │                       │       ├ Title           : tar: tar: Hidden file injection via crafted archives 
 │                       │       ├ Description     : A flaw was found in tar. A remote attacker could exploit
 │                       │       │                   this vulnerability by crafting a malicious archive, leading
@@ -19699,14 +19699,14 @@
 │                       │       │                  ╰ UID : 7e42dc44a4da7fcd 
 │                       │       ├ InstalledVersion: 2:1.34-13.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-59871 
-│                       │       ├ Fingerprint     : sha256:95813600e3d5e6e0d61a3041b4c07ce3172961edb9f2c6a42f9f
-│                       │       │                   19416f5f68f5 
+│                       │       ├ Fingerprint     : sha256:5b30ee1a8199a2c43b146f772faf33615cc20c038274aaf67271
+│                       │       │                   5130e4a58750 
 │                       │       ├ Title           : node-tar: node-tar: Denial of Service due to incorrect PAX
 │                       │       │                   path handling 
 │                       │       ├ Description     : node-tar is a tar archive manipulation library for Node.js.
@@ -19759,14 +19759,14 @@
 │                       │       │                  ╰ UID : 7e42dc44a4da7fcd 
 │                       │       ├ InstalledVersion: 2:1.34-13.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-59875 
-│                       │       ├ Fingerprint     : sha256:1c5c56ff9acd71e13c9908b256853a89a3f4a8bd0b2338a805e6
-│                       │       │                   4c7dd33431c8 
+│                       │       ├ Fingerprint     : sha256:e93f2bc41c96982472f1f69aa7c61cb7c1833731ddcd5ee53388
+│                       │       │                   c0d4743c8397 
 │                       │       ├ Title           : node-tar: node-tar: Denial of Service via crafted archive
 │                       │       │                   with NUL bytes in metadata 
 │                       │       ├ Description     : node-tar is a tar archive manipulation library for Node.js.
@@ -19814,14 +19814,14 @@
 │                       │       │                  ╰ UID : 7e42dc44a4da7fcd 
 │                       │       ├ InstalledVersion: 2:1.34-13.el9_8 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-39804 
-│                       │       ├ Fingerprint     : sha256:027850252cade21911a96208ef8e8cf13e6b05c2512d631d4e7d
-│                       │       │                   c889a5e2449a 
+│                       │       ├ Fingerprint     : sha256:cbb87a9874bff60a01ee55e4c7cfd421ef9de1311c688238ed06
+│                       │       │                   21a78ac0188c 
 │                       │       ├ Title           : tar: Incorrectly handled extension attributes in PAX
 │                       │       │                   archives can lead to a crash 
 │                       │       ├ Description     : In GNU tar before 1.35, mishandled extension attributes in
@@ -19867,14 +19867,14 @@
 │                       │       │                  ╰ UID : 2d190fc1cbe2f8f0 
 │                       │       ├ InstalledVersion: 5.2.5-8.el9_0 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                       │       │                  │         dce46e2ab71ea6ea1a1f6 
-│                       │       │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                       │       │                            655b6135a45ce7b8c7a34 
+│                       │       ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                       │       │                  │         4019d7d0ad7497865b4c0 
+│                       │       │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                       │       │                            9d4f5001e4246a91c5516 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34743 
-│                       │       ├ Fingerprint     : sha256:e932cab43abec04bc4e90be321f75a1b758c172bfb2168889852
-│                       │       │                   997633a34cb4 
+│                       │       ├ Fingerprint     : sha256:fae04adb7e9d096078d0f6ab3c2d724aed126bc51f2be334903c
+│                       │       │                   e03129109d05 
 │                       │       ├ Title           : xz: XZ Utils: Denial of Service via buffer overflow in
 │                       │       │                   index decoding 
 │                       │       ├ Description     : XZ Utils provide a general-purpose data-compression library
@@ -19938,14 +19938,14 @@
 │                               │                  ╰ UID : f597f38b55409856 
 │                               ├ InstalledVersion: 1.2.11-40.el9 
 │                               ├ Status          : affected 
-│                               ├ Layer            ╭ Digest: sha256:b608522322c769384d020b5b8dcdcaff282bcc77ba0
-│                               │                  │         dce46e2ab71ea6ea1a1f6 
-│                               │                  ╰ DiffID: sha256:0ae3b244e8f8f7086d477adddee38d6eeb80861b481
-│                               │                            655b6135a45ce7b8c7a34 
+│                               ├ Layer            ╭ Digest: sha256:c97ee0022e765f98a6f9a5348dce387fb86f1e76320
+│                               │                  │         4019d7d0ad7497865b4c0 
+│                               │                  ╰ DiffID: sha256:21a40dc178250c0853052ed14ed8f5206ccf9673f05
+│                               │                            9d4f5001e4246a91c5516 
 │                               ├ SeveritySource  : redhat 
 │                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27171 
-│                               ├ Fingerprint     : sha256:7d98c9adbd082e27bad68f01488690d5282ccc0c5dfd9cb1bb4e
-│                               │                   7e7b6e1a9d5c 
+│                               ├ Fingerprint     : sha256:fbd26b03468193d09e8354e6c0f00640ea88287287d707ad978b
+│                               │                   18be010edade 
 │                               ├ Title           : zlib: zlib: Denial of Service via infinite loop in CRC32
 │                               │                   combine functions 
 │                               ├ Description     : zlib before 1.3.2 allows CPU consumption via
