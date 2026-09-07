@@ -39,9 +39,9 @@
 │                       │       │                   could lead to limited information disclosure or denial of
 │                       │       │                   service. 
 │                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CweIDs                                                        
-│                       │       │                  ─────────────────────────────────────────────
-│                       │       │                  https://github.com/canolgun-commits/websocket
+│                       │       ├ CweIDs                  
+│                       │       │                  ───────
+│                       │       │                  CWE-416
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ azure : 2 
 │                       │       │                  ├ julia : 2 
@@ -188,9 +188,9 @@
 │                       │       │                    on fully qualified domain names. This could lead to
 │                       │       │                   unauthorized access. 
 │                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CweIDs                   
-│                       │       │                  ────────
-│                       │       │                  CWE-1021
+│                       │       ├ CweIDs                  
+│                       │       │                  ───────
+│                       │       │                  CWE-289
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ azure : 1 
 │                       │       │                  ├ nvd   : 2 
@@ -697,13 +697,13 @@
 │                       │       │                                                                              
 │                       │       │                  https://ubuntu.com/security/notices/USN-8697-1              
 │                       │       │                                                                              
-│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2025-5278              
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-46600       
 │                       │       │                                                                              
 │                       │       │                  https://www.openwall.com/lists/oss-security/2025/05/27/2    
 │                       │       │                                                                              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-05-27T21:15:23.197Z 
-│                       │       ╰ LastModifiedDate: 2026-09-06T04:18:24.09Z 
+│                       │       ╰ LastModifiedDate: 2026-09-06T22:17:20.117Z 
 │                       ├ [11]  ╭ VulnerabilityID : CVE-2026-57062 
 │                       │       ├ PkgID           : gpgv@2.4.8-4ubuntu3 
 │                       │       ├ PkgName         : gpgv 
@@ -11377,38 +11377,38 @@
                         │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
                         │      │                            │           N/A:H 
                         │      │                            ╰ V3Score : 7.5 
-                        │      ├ References       ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
-                        │      │                  ...
+                        │      ├ References                                                                    
+                        │      │                  ─────────────────────────────────────────────────────────────
+                        │      │                  https://access.redhat.com/errata/RHSA-2026:62406             
+                        │      │                  https://access.redhat.com/errata/RHSA-2026:63136             
+                        │      │                  https://access.redhat.com/security/cve/CVE-2026-33818        
+                        │      │                  https://bugzilla.redhat.com/2467809                          
+                        │      │                  https://bugzilla.redhat.com/2467820                          
+                        │      │                  https://bugzilla.redhat.com/2515815                          
+                        │      │                  https://bugzilla.redhat.com/2515820                          
+                        │      │                  https://bugzilla.redhat.com/2515827                          
+                        │      │                  https://bugzilla.redhat.com/2515838                          
+                        │      │                  https://bugzilla.redhat.com/2515839                          
+                        │      │                  https://bugzilla.redhat.com/2515840                          
+                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515815          
+                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515820          
+                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515838          
+                        │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515839          
+                        │      │                  https://creativecommons.org/licenses/by/4.0/                 
+                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-33818
+                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56858
+                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56860
+                        │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56862
+                        │      │                  https://errata.almalinux.org/9/ALSA-2026-62406.html          
+                        │      │                  https://errata.rockylinux.org/RLSA-2026:63136                
+                        │      │                  https://go.dev/cl/814980                                     
+                        │      │                  https://go.dev/issue/80405                                   
+                        │      │                  https://groups.google.com/g/golang-announce/c/94pEornpRlI    
+                        │      │                  https://linux.oracle.com/cve/CVE-2026-33818.html             
+                        │      │                  https://linux.oracle.com/errata/ELSA-2026-63332-0.html       
+                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-33818              
+                        │      │                  https://pkg.go.dev/vuln/GO-2026-5972                         
+                        │      │                  https://www.cve.org/CVERecord?id=CVE-2026-33818              
                         │      │                  
                         │      ├ PublishedDate   : 2026-08-13T22:17:19.84Z 
                         │      ╰ LastModifiedDate: 2026-09-03T16:37:52.17Z 
