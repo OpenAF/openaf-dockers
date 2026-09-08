@@ -510,7 +510,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2025-5278
     - https://www.openwall.com/lists/oss-security/2025/05/27/2
     PublishedDate: '2025-05-27T21:15:23.197Z'
-    LastModifiedDate: '2026-09-06T22:17:20.117Z'
+    LastModifiedDate: '2026-09-07T23:16:50.573Z'
   - VulnerabilityID: CVE-2026-57062
     PkgID: gpgv@2.4.8-4ubuntu3
     PkgName: gpgv
@@ -8118,7 +8118,7 @@
     - https://ubuntu.com/security/notices/USN-8473-1
     - https://www.cve.org/CVERecord?id=CVE-2026-33814
     PublishedDate: '2026-05-07T20:16:42.88Z'
-    LastModifiedDate: '2026-09-04T13:19:00.033Z'
+    LastModifiedDate: '2026-09-07T13:19:00.857Z'
   - VulnerabilityID: CVE-2026-39821
     VendorIDs:
     - GO-2026-5026
@@ -8289,6 +8289,7 @@
     - https://access.redhat.com/errata/RHSA-2026:60520
     - https://access.redhat.com/errata/RHSA-2026:61245
     - https://access.redhat.com/errata/RHSA-2026:61253
+    - https://access.redhat.com/errata/RHSA-2026:63134
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -8311,7 +8312,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-31T13:18:06.777Z'
+    LastModifiedDate: '2026-09-07T13:19:13.533Z'
   - VulnerabilityID: CVE-2026-46600
     VendorIDs:
     - GO-2026-5942
@@ -8867,6 +8868,7 @@
     - https://access.redhat.com/errata/RHSA-2026:60520
     - https://access.redhat.com/errata/RHSA-2026:61245
     - https://access.redhat.com/errata/RHSA-2026:61253
+    - https://access.redhat.com/errata/RHSA-2026:63134
     - https://access.redhat.com/security/cve/CVE-2026-39821
     - https://bugzilla.redhat.com/2480756
     - https://bugzilla.redhat.com/show_bug.cgi?id=2480756
@@ -8889,7 +8891,7 @@
     - https://ubuntu.com/security/notices/USN-8416-1
     - https://www.cve.org/CVERecord?id=CVE-2026-39821
     PublishedDate: '2026-05-22T16:16:20.41Z'
-    LastModifiedDate: '2026-08-31T13:18:06.777Z'
+    LastModifiedDate: '2026-09-07T13:19:13.533Z'
   - VulnerabilityID: CVE-2026-39822
     VendorIDs:
     - GO-2026-4970
