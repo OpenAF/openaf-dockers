@@ -33,6 +33,10 @@
 │                       │      │                   bypasses complete peer
 │                       │      │                   validation. 
 │                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-923
+│                       │      │                  
 │                       │      ├ References                                               
 │                       │      │                  ────────────────────────────────────────
 │                       │      │                  https://curl.se/docs/CVE-2026-13608.html
@@ -40,7 +44,7 @@
 │                       │      │                  https://hackerone.com/reports/3822248   
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:19.81Z 
-│                       │      ╰ LastModifiedDate: 2026-09-06T18:17:19.81Z 
+│                       │      ╰ LastModifiedDate: 2026-09-08T16:18:00.317Z 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2026-18924 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
 │                       │      ├ PkgName         : curl 
@@ -67,6 +71,10 @@
 │                       │      │                   lead to
 │                       │      │                   use-after-free in the cleanup process. 
 │                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-416
+│                       │      │                  
 │                       │      ├ References                                               
 │                       │      │                  ────────────────────────────────────────
 │                       │      │                  https://curl.se/docs/CVE-2026-18924.html
@@ -74,7 +82,7 @@
 │                       │      │                  https://hackerone.com/reports/3916059   
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:20.553Z 
-│                       │      ╰ LastModifiedDate: 2026-09-06T18:17:20.553Z 
+│                       │      ╰ LastModifiedDate: 2026-09-08T16:18:06Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2026-19931 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
 │                       │      ├ PkgName         : curl 
@@ -103,6 +111,10 @@
 │                       │      │                   sent over user A's
 │                       │      │                   previously authenticated connection. 
 │                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-488
+│                       │      │                  
 │                       │      ├ References                                               
 │                       │      │                  ────────────────────────────────────────
 │                       │      │                  https://curl.se/docs/CVE-2026-19931.html
@@ -110,7 +122,7 @@
 │                       │      │                  https://hackerone.com/reports/3923520   
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:20.733Z 
-│                       │      ╰ LastModifiedDate: 2026-09-06T18:17:20.733Z 
+│                       │      ╰ LastModifiedDate: 2026-09-08T16:18:07.08Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2026-80229 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
 │                       │      ├ PkgName         : curl 
@@ -145,6 +157,10 @@
 │                       │      │                   heap-use-after-free
 │                       │      │                   upon subsequent I/O or post-handshake operations. 
 │                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-416
+│                       │      │                  
 │                       │      ├ References                                               
 │                       │      │                  ────────────────────────────────────────
 │                       │      │                  https://curl.se/docs/CVE-2026-80229.html
@@ -152,7 +168,7 @@
 │                       │      │                  https://hackerone.com/reports/3969255   
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:22.217Z 
-│                       │      ╰ LastModifiedDate: 2026-09-06T18:17:22.217Z 
+│                       │      ╰ LastModifiedDate: 2026-09-08T16:18:15.72Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2026-80230 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
 │                       │      ├ PkgName         : curl 
@@ -186,6 +202,10 @@
 │                       │      │                   unauthenticated connections to succeed when they should be
 │                       │      │                   rejected. 
 │                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-295
+│                       │      │                  
 │                       │      ├ References                                               
 │                       │      │                  ────────────────────────────────────────
 │                       │      │                  https://curl.se/docs/CVE-2026-80230.html
@@ -193,7 +213,7 @@
 │                       │      │                  https://hackerone.com/reports/3969300   
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:22.327Z 
-│                       │      ╰ LastModifiedDate: 2026-09-06T18:17:22.327Z 
+│                       │      ╰ LastModifiedDate: 2026-09-08T19:19:54.063Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2026-80231 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
 │                       │      ├ PkgName         : curl 
@@ -221,6 +241,10 @@
 │                       │      │                   (`CURLSSLOPT_NATIVE_CA`) than when the connection was
 │                       │      │                   created. 
 │                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-488
+│                       │      │                  
 │                       │      ├ References                                               
 │                       │      │                  ────────────────────────────────────────
 │                       │      │                  https://curl.se/docs/CVE-2026-80231.html
@@ -228,7 +252,7 @@
 │                       │      │                  https://hackerone.com/reports/3969368   
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:22.5Z 
-│                       │      ╰ LastModifiedDate: 2026-09-06T18:17:22.5Z 
+│                       │      ╰ LastModifiedDate: 2026-09-08T19:19:54.307Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2026-80255 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
 │                       │      ├ PkgName         : curl 
@@ -258,6 +282,10 @@
 │                       │      │                   sent over plaintext HTTP on subsequent requests to the same
 │                       │      │                   host. 
 │                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-201
+│                       │      │                  
 │                       │      ├ References                                               
 │                       │      │                  ────────────────────────────────────────
 │                       │      │                  https://curl.se/docs/CVE-2026-80255.html
@@ -265,7 +293,7 @@
 │                       │      │                  https://hackerone.com/reports/3972395   
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:22.623Z 
-│                       │      ╰ LastModifiedDate: 2026-09-06T18:17:22.623Z 
+│                       │      ╰ LastModifiedDate: 2026-09-08T19:19:54.52Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2026-80256 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
 │                       │      ├ PkgName         : curl 
@@ -313,6 +341,10 @@
 │                       │      │                   callback-selected store is
 │                       │      │                   then incorrectly accepted. 
 │                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-295
+│                       │      │                  
 │                       │      ├ References                                               
 │                       │      │                  ────────────────────────────────────────
 │                       │      │                  https://curl.se/docs/CVE-2026-82208.html
@@ -320,7 +352,7 @@
 │                       │      │                  https://hackerone.com/reports/3973090   
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:22.733Z 
-│                       │      ╰ LastModifiedDate: 2026-09-06T18:17:22.733Z 
+│                       │      ╰ LastModifiedDate: 2026-09-08T19:20:00.13Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2026-82209 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
 │                       │      ├ PkgName         : curl 
@@ -359,6 +391,10 @@
 │                       │      │                   (e.g.,
 │                       │      │                   `attacker.co.uk`). 
 │                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-201
+│                       │      │                  
 │                       │      ├ References                                               
 │                       │      │                  ────────────────────────────────────────
 │                       │      │                  https://curl.se/docs/CVE-2026-82209.html
@@ -366,7 +402,7 @@
 │                       │      │                  https://hackerone.com/reports/3972385   
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:22.847Z 
-│                       │      ╰ LastModifiedDate: 2026-09-06T18:17:22.847Z 
+│                       │      ╰ LastModifiedDate: 2026-09-08T19:20:00.313Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2026-26740 
 │                       │      ├ PkgID           : giflib@5.2.2-r1 
 │                       │      ├ PkgName         : giflib 
@@ -1478,6 +1514,10 @@
 │                       │      │                   bypasses complete peer
 │                       │      │                   validation. 
 │                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-923
+│                       │      │                  
 │                       │      ├ References                                               
 │                       │      │                  ────────────────────────────────────────
 │                       │      │                  https://curl.se/docs/CVE-2026-13608.html
@@ -1485,7 +1525,7 @@
 │                       │      │                  https://hackerone.com/reports/3822248   
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:19.81Z 
-│                       │      ╰ LastModifiedDate: 2026-09-06T18:17:19.81Z 
+│                       │      ╰ LastModifiedDate: 2026-09-08T16:18:00.317Z 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2026-18924 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
 │                       │      ├ PkgName         : libcurl 
@@ -1513,6 +1553,10 @@
 │                       │      │                   lead to
 │                       │      │                   use-after-free in the cleanup process. 
 │                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-416
+│                       │      │                  
 │                       │      ├ References                                               
 │                       │      │                  ────────────────────────────────────────
 │                       │      │                  https://curl.se/docs/CVE-2026-18924.html
@@ -1520,7 +1564,7 @@
 │                       │      │                  https://hackerone.com/reports/3916059   
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:20.553Z 
-│                       │      ╰ LastModifiedDate: 2026-09-06T18:17:20.553Z 
+│                       │      ╰ LastModifiedDate: 2026-09-08T16:18:06Z 
 │                       ├ [23] ╭ VulnerabilityID : CVE-2026-19931 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
 │                       │      ├ PkgName         : libcurl 
@@ -1550,6 +1594,10 @@
 │                       │      │                   sent over user A's
 │                       │      │                   previously authenticated connection. 
 │                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-488
+│                       │      │                  
 │                       │      ├ References                                               
 │                       │      │                  ────────────────────────────────────────
 │                       │      │                  https://curl.se/docs/CVE-2026-19931.html
@@ -1557,7 +1605,7 @@
 │                       │      │                  https://hackerone.com/reports/3923520   
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:20.733Z 
-│                       │      ╰ LastModifiedDate: 2026-09-06T18:17:20.733Z 
+│                       │      ╰ LastModifiedDate: 2026-09-08T16:18:07.08Z 
 │                       ├ [24] ╭ VulnerabilityID : CVE-2026-80229 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
 │                       │      ├ PkgName         : libcurl 
@@ -1593,6 +1641,10 @@
 │                       │      │                   heap-use-after-free
 │                       │      │                   upon subsequent I/O or post-handshake operations. 
 │                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-416
+│                       │      │                  
 │                       │      ├ References                                               
 │                       │      │                  ────────────────────────────────────────
 │                       │      │                  https://curl.se/docs/CVE-2026-80229.html
@@ -1600,7 +1652,7 @@
 │                       │      │                  https://hackerone.com/reports/3969255   
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:22.217Z 
-│                       │      ╰ LastModifiedDate: 2026-09-06T18:17:22.217Z 
+│                       │      ╰ LastModifiedDate: 2026-09-08T16:18:15.72Z 
 │                       ├ [25] ╭ VulnerabilityID : CVE-2026-80230 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
 │                       │      ├ PkgName         : libcurl 
@@ -1635,6 +1687,10 @@
 │                       │      │                   unauthenticated connections to succeed when they should be
 │                       │      │                   rejected. 
 │                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-295
+│                       │      │                  
 │                       │      ├ References                                               
 │                       │      │                  ────────────────────────────────────────
 │                       │      │                  https://curl.se/docs/CVE-2026-80230.html
@@ -1642,7 +1698,7 @@
 │                       │      │                  https://hackerone.com/reports/3969300   
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:22.327Z 
-│                       │      ╰ LastModifiedDate: 2026-09-06T18:17:22.327Z 
+│                       │      ╰ LastModifiedDate: 2026-09-08T19:19:54.063Z 
 │                       ├ [26] ╭ VulnerabilityID : CVE-2026-80231 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
 │                       │      ├ PkgName         : libcurl 
@@ -1671,6 +1727,10 @@
 │                       │      │                   (`CURLSSLOPT_NATIVE_CA`) than when the connection was
 │                       │      │                   created. 
 │                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-488
+│                       │      │                  
 │                       │      ├ References                                               
 │                       │      │                  ────────────────────────────────────────
 │                       │      │                  https://curl.se/docs/CVE-2026-80231.html
@@ -1678,7 +1738,7 @@
 │                       │      │                  https://hackerone.com/reports/3969368   
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:22.5Z 
-│                       │      ╰ LastModifiedDate: 2026-09-06T18:17:22.5Z 
+│                       │      ╰ LastModifiedDate: 2026-09-08T19:19:54.307Z 
 │                       ├ [27] ╭ VulnerabilityID : CVE-2026-80255 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
 │                       │      ├ PkgName         : libcurl 
@@ -1709,6 +1769,10 @@
 │                       │      │                   sent over plaintext HTTP on subsequent requests to the same
 │                       │      │                   host. 
 │                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-201
+│                       │      │                  
 │                       │      ├ References                                               
 │                       │      │                  ────────────────────────────────────────
 │                       │      │                  https://curl.se/docs/CVE-2026-80255.html
@@ -1716,7 +1780,7 @@
 │                       │      │                  https://hackerone.com/reports/3972395   
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:22.623Z 
-│                       │      ╰ LastModifiedDate: 2026-09-06T18:17:22.623Z 
+│                       │      ╰ LastModifiedDate: 2026-09-08T19:19:54.52Z 
 │                       ├ [28] ╭ VulnerabilityID : CVE-2026-80256 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
 │                       │      ├ PkgName         : libcurl 
@@ -1766,6 +1830,10 @@
 │                       │      │                   callback-selected store is
 │                       │      │                   then incorrectly accepted. 
 │                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-295
+│                       │      │                  
 │                       │      ├ References                                               
 │                       │      │                  ────────────────────────────────────────
 │                       │      │                  https://curl.se/docs/CVE-2026-82208.html
@@ -1773,7 +1841,7 @@
 │                       │      │                  https://hackerone.com/reports/3973090   
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:22.733Z 
-│                       │      ╰ LastModifiedDate: 2026-09-06T18:17:22.733Z 
+│                       │      ╰ LastModifiedDate: 2026-09-08T19:20:00.13Z 
 │                       ├ [30] ╭ VulnerabilityID : CVE-2026-82209 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
 │                       │      ├ PkgName         : libcurl 
@@ -1813,6 +1881,10 @@
 │                       │      │                   (e.g.,
 │                       │      │                   `attacker.co.uk`). 
 │                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-201
+│                       │      │                  
 │                       │      ├ References                                               
 │                       │      │                  ────────────────────────────────────────
 │                       │      │                  https://curl.se/docs/CVE-2026-82209.html
@@ -1820,7 +1892,7 @@
 │                       │      │                  https://hackerone.com/reports/3972385   
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:22.847Z 
-│                       │      ╰ LastModifiedDate: 2026-09-06T18:17:22.847Z 
+│                       │      ╰ LastModifiedDate: 2026-09-08T19:20:00.313Z 
 │                       ├ [31] ╭ VulnerabilityID : CVE-2026-14456 
 │                       │      ├ PkgID           : libssl3@3.5.7-r0 
 │                       │      ├ PkgName         : libssl3 
