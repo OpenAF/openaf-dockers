@@ -32,16 +32,22 @@
 │                       │      │                   attack can inject a premature or shortcut response that
 │                       │      │                   bypasses complete peer
 │                       │      │                   validation. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-923
 │                       │      │                  
-│                       │      ├ References                                               
-│                       │      │                  ────────────────────────────────────────
-│                       │      │                  https://curl.se/docs/CVE-2026-13608.html
-│                       │      │                  https://curl.se/docs/CVE-2026-13608.json
-│                       │      │                  https://hackerone.com/reports/3822248   
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References                                                                    
+│                       │      │                  ─────────────────────────────────────────────────────────────
+│                       │      │                  https://curl.se/docs/CVE-2026-13608.html                     
+│                       │      │                  https://curl.se/docs/CVE-2026-13608.json                     
+│                       │      │                  https://github.com/curl/curl/pull/22213/changes/1a00e2a73675c
+│                       │      │                  9521d214aafd6c02b553bfeb022                                  
+│                       │      │                  https://hackerone.com/reports/3822248                        
+│                       │      │                                                                               
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-13608              
+│                       │      │                                                                               
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:19.81Z 
 │                       │      ╰ LastModifiedDate: 2026-09-08T16:18:00.317Z 
@@ -70,16 +76,22 @@
 │                       │      │                   handle is set to share connections with other handles, can
 │                       │      │                   lead to
 │                       │      │                   use-after-free in the cleanup process. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-416
 │                       │      │                  
-│                       │      ├ References                                               
-│                       │      │                  ────────────────────────────────────────
-│                       │      │                  https://curl.se/docs/CVE-2026-18924.html
-│                       │      │                  https://curl.se/docs/CVE-2026-18924.json
-│                       │      │                  https://hackerone.com/reports/3916059   
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References                                                                    
+│                       │      │                  ─────────────────────────────────────────────────────────────
+│                       │      │                  https://curl.se/docs/CVE-2026-18924.html                     
+│                       │      │                  https://curl.se/docs/CVE-2026-18924.json                     
+│                       │      │                  https://github.com/curl/curl/commit/90325ff0444cbdff368bda5d2
+│                       │      │                  6d6                                                          
+│                       │      │                  https://hackerone.com/reports/3916059                        
+│                       │      │                                                                               
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-18924              
+│                       │      │                                                                               
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:20.553Z 
 │                       │      ╰ LastModifiedDate: 2026-09-08T16:18:06Z 
@@ -110,16 +122,19 @@
 │                       │      │                   using empty credentials. This can make user B's request get
 │                       │      │                   sent over user A's
 │                       │      │                   previously authenticated connection. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-488
 │                       │      │                  
-│                       │      ├ References                                               
-│                       │      │                  ────────────────────────────────────────
-│                       │      │                  https://curl.se/docs/CVE-2026-19931.html
-│                       │      │                  https://curl.se/docs/CVE-2026-19931.json
-│                       │      │                  https://hackerone.com/reports/3923520   
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References                                                                 
+│                       │      │                  ──────────────────────────────────────────────────────────
+│                       │      │                  https://curl.se/docs/CVE-2026-19931.html                  
+│                       │      │                  https://curl.se/docs/CVE-2026-19931.json                  
+│                       │      │                  https://github.com/curl/curl/commit/7103a93b05bc69ea98ed9d
+│                       │      │                  https://hackerone.com/reports/3923520                     
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-19931           
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:20.733Z 
 │                       │      ╰ LastModifiedDate: 2026-09-08T16:18:07.08Z 
@@ -156,16 +171,19 @@
 │                       │      │                   active connection retains a dangling pointer, leading to a
 │                       │      │                   heap-use-after-free
 │                       │      │                   upon subsequent I/O or post-handshake operations. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-416
 │                       │      │                  
-│                       │      ├ References                                               
-│                       │      │                  ────────────────────────────────────────
-│                       │      │                  https://curl.se/docs/CVE-2026-80229.html
-│                       │      │                  https://curl.se/docs/CVE-2026-80229.json
-│                       │      │                  https://hackerone.com/reports/3969255   
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References                                                                 
+│                       │      │                  ──────────────────────────────────────────────────────────
+│                       │      │                  https://curl.se/docs/CVE-2026-80229.html                  
+│                       │      │                  https://curl.se/docs/CVE-2026-80229.json                  
+│                       │      │                  https://github.com/curl/curl/commit/7ea37abc6ac0120ba5f6d9
+│                       │      │                  https://hackerone.com/reports/3969255                     
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-80229           
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:22.217Z 
 │                       │      ╰ LastModifiedDate: 2026-09-08T16:18:15.72Z 
@@ -201,20 +219,120 @@
 │                       │      │                   allows
 │                       │      │                   unauthenticated connections to succeed when they should be
 │                       │      │                   rejected. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-295
 │                       │      │                  
-│                       │      ├ References                                               
-│                       │      │                  ────────────────────────────────────────
-│                       │      │                  https://curl.se/docs/CVE-2026-80230.html
-│                       │      │                  https://curl.se/docs/CVE-2026-80230.json
-│                       │      │                  https://hackerone.com/reports/3969300   
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References                                                                
+│                       │      │                  ─────────────────────────────────────────────────────────
+│                       │      │                  https://curl.se/docs/CVE-2026-80230.html                 
+│                       │      │                  https://curl.se/docs/CVE-2026-80230.json                 
+│                       │      │                  https://github.com/curl/curl/commit/5267ed859d545534d0c21
+│                       │      │                  https://hackerone.com/reports/3969300                    
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-80230          
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:22.327Z 
 │                       │      ╰ LastModifiedDate: 2026-09-08T19:19:54.063Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2026-80231 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2026-80255 
+│                       │      ├ PkgID           : curl@8.21.0-r0 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.21.0-r0?arch=x86_64&distro=3.24.1 
+│                       │      │                  ╰ UID : eec4901c65f38f5a 
+│                       │      ├ InstalledVersion: 8.21.0-r0 
+│                       │      ├ FixedVersion    : 8.22.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:9e9875649b6ba59567aa8921be2cb53032b5dbbd8b7f
+│                       │      │                  │         3f91cbb1539ed9925b25 
+│                       │      │                  ╰ DiffID: sha256:702cba3307eaddcbc6a668dc100e303a3ffbc4adca70
+│                       │      │                            b459806d424ea0b26aad 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-80255 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:45111c78f79166ef3c8ab0ceb8d3cf7830c493d8bcddc5b7cc2c5
+│                       │      │                   3731e02d4ed 
+│                       │      ├ Title           : A `Set-Cookie:` header using tab (horizontal tab, ASCII code
+│                       │      │                    9) instea ... 
+│                       │      ├ Description     : A `Set-Cookie:` header using tab (horizontal tab, ASCII code
+│                       │      │                    9) instead of
+│                       │      │                   space (ascii code 32) immediately before the `Secure`
+│                       │      │                   attribute causes curl to
+│                       │      │                   store the cookie without its Secure flag. The cookie might
+│                       │      │                   then wrongfully be
+│                       │      │                   sent over plaintext HTTP on subsequent requests to the same
+│                       │      │                   host. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-201
+│                       │      │                  
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References                                                                 
+│                       │      │                  ──────────────────────────────────────────────────────────
+│                       │      │                  https://curl.se/docs/CVE-2026-80255.html                  
+│                       │      │                  https://curl.se/docs/CVE-2026-80255.json                  
+│                       │      │                  https://github.com/curl/curl/commit/4f6aa41a0145e930e76677
+│                       │      │                  https://hackerone.com/reports/3972395                     
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-80255           
+│                       │      │                  
+│                       │      ├ PublishedDate   : 2026-09-06T18:17:22.623Z 
+│                       │      ╰ LastModifiedDate: 2026-09-08T19:19:54.52Z 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-82209 
+│                       │      ├ PkgID           : curl@8.21.0-r0 
+│                       │      ├ PkgName         : curl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.21.0-r0?arch=x86_64&distro=3.24.1 
+│                       │      │                  ╰ UID : eec4901c65f38f5a 
+│                       │      ├ InstalledVersion: 8.21.0-r0 
+│                       │      ├ FixedVersion    : 8.22.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:9e9875649b6ba59567aa8921be2cb53032b5dbbd8b7f
+│                       │      │                  │         3f91cbb1539ed9925b25 
+│                       │      │                  ╰ DiffID: sha256:702cba3307eaddcbc6a668dc100e303a3ffbc4adca70
+│                       │      │                            b459806d424ea0b26aad 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-82209 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:54658ddeb5846f3005b83c5cd4ea0cf82ec0356a6ca52fb3d3429
+│                       │      │                   6b50e6d4071 
+│                       │      ├ Title           : When libpsl support is enabled, libcurl fails to enforce the
+│                       │      │                    Public Su ... 
+│                       │      ├ Description     : When libpsl support is enabled, libcurl fails to enforce the
+│                       │      │                    Public Suffix
+│                       │      │                   List boundary check when processing a `Set-Cookie` header
+│                       │      │                   where the `Domain`
+│                       │      │                   attribute explicitly matches an origin host that is itself a
+│                       │      │                    public suffix
+│                       │      │                   (e.g., `Domain=co.uk` set by `co.uk`).
+│                       │      │                   
+│                       │      │                   Instead of coercing it into a strict host-only cookie,
+│                       │      │                   libcurl saves the
+│                       │      │                   cookie with wildcard domain scope (`.co.uk`). Consequently,
+│                       │      │                   the cookie is
+│                       │      │                   inappropriately included in subsequent outbound requests or
+│                       │      │                   HTTP redirects to
+│                       │      │                   arbitrary sibling subdomains under the same public suffix
+│                       │      │                   (e.g.,
+│                       │      │                   `attacker.co.uk`). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-201
+│                       │      │                  
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References                                                                      
+│                       │      │                  ───────────────────────────────────────────────────────────────
+│                       │      │                  https://curl.se/docs/CVE-2026-82209.html                       
+│                       │      │                  https://curl.se/docs/CVE-2026-82209.json                       
+│                       │      │                  https://github.com/curl/curl/commit/95c1e8915dce64606bd753fd47f
+│                       │      │                  https://hackerone.com/reports/3972385                          
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-82209                
+│                       │      │                  
+│                       │      ├ PublishedDate   : 2026-09-06T18:17:22.847Z 
+│                       │      ╰ LastModifiedDate: 2026-09-08T19:20:00.313Z 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2026-80231 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
 │                       │      ├ PkgName         : curl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.21.0-r0?arch=x86_64&distro=3.24.1 
@@ -253,48 +371,7 @@
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:22.5Z 
 │                       │      ╰ LastModifiedDate: 2026-09-08T19:19:54.307Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-80255 
-│                       │      ├ PkgID           : curl@8.21.0-r0 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.21.0-r0?arch=x86_64&distro=3.24.1 
-│                       │      │                  ╰ UID : eec4901c65f38f5a 
-│                       │      ├ InstalledVersion: 8.21.0-r0 
-│                       │      ├ FixedVersion    : 8.22.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:9e9875649b6ba59567aa8921be2cb53032b5dbbd8b7f
-│                       │      │                  │         3f91cbb1539ed9925b25 
-│                       │      │                  ╰ DiffID: sha256:702cba3307eaddcbc6a668dc100e303a3ffbc4adca70
-│                       │      │                            b459806d424ea0b26aad 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-80255 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:45111c78f79166ef3c8ab0ceb8d3cf7830c493d8bcddc5b7cc2c5
-│                       │      │                   3731e02d4ed 
-│                       │      ├ Title           : A `Set-Cookie:` header using tab (horizontal tab, ASCII code
-│                       │      │                    9) instea ... 
-│                       │      ├ Description     : A `Set-Cookie:` header using tab (horizontal tab, ASCII code
-│                       │      │                    9) instead of
-│                       │      │                   space (ascii code 32) immediately before the `Secure`
-│                       │      │                   attribute causes curl to
-│                       │      │                   store the cookie without its Secure flag. The cookie might
-│                       │      │                   then wrongfully be
-│                       │      │                   sent over plaintext HTTP on subsequent requests to the same
-│                       │      │                   host. 
-│                       │      ├ Severity        : UNKNOWN 
-│                       │      ├ CweIDs                  
-│                       │      │                  ───────
-│                       │      │                  CWE-201
-│                       │      │                  
-│                       │      ├ References                                               
-│                       │      │                  ────────────────────────────────────────
-│                       │      │                  https://curl.se/docs/CVE-2026-80255.html
-│                       │      │                  https://curl.se/docs/CVE-2026-80255.json
-│                       │      │                  https://hackerone.com/reports/3972395   
-│                       │      │                  
-│                       │      ├ PublishedDate   : 2026-09-06T18:17:22.623Z 
-│                       │      ╰ LastModifiedDate: 2026-09-08T19:19:54.52Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2026-80256 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2026-80256 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
 │                       │      ├ PkgName         : curl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.21.0-r0?arch=x86_64&distro=3.24.1 
@@ -312,7 +389,7 @@
 │                       │      ├ Fingerprint     : sha256:d44494c29cc96186891556d4add7113bc04fe88679864dd67b453
 │                       │      │                   e1f99b3ff7a 
 │                       │      ╰ Severity        : UNKNOWN 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2026-82208 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-82208 
 │                       │      ├ PkgID           : curl@8.21.0-r0 
 │                       │      ├ PkgName         : curl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.21.0-r0?arch=x86_64&distro=3.24.1 
@@ -353,56 +430,6 @@
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:22.733Z 
 │                       │      ╰ LastModifiedDate: 2026-09-08T19:20:00.13Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-82209 
-│                       │      ├ PkgID           : curl@8.21.0-r0 
-│                       │      ├ PkgName         : curl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/curl@8.21.0-r0?arch=x86_64&distro=3.24.1 
-│                       │      │                  ╰ UID : eec4901c65f38f5a 
-│                       │      ├ InstalledVersion: 8.21.0-r0 
-│                       │      ├ FixedVersion    : 8.22.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:9e9875649b6ba59567aa8921be2cb53032b5dbbd8b7f
-│                       │      │                  │         3f91cbb1539ed9925b25 
-│                       │      │                  ╰ DiffID: sha256:702cba3307eaddcbc6a668dc100e303a3ffbc4adca70
-│                       │      │                            b459806d424ea0b26aad 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-82209 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:54658ddeb5846f3005b83c5cd4ea0cf82ec0356a6ca52fb3d3429
-│                       │      │                   6b50e6d4071 
-│                       │      ├ Title           : When libpsl support is enabled, libcurl fails to enforce the
-│                       │      │                    Public Su ... 
-│                       │      ├ Description     : When libpsl support is enabled, libcurl fails to enforce the
-│                       │      │                    Public Suffix
-│                       │      │                   List boundary check when processing a `Set-Cookie` header
-│                       │      │                   where the `Domain`
-│                       │      │                   attribute explicitly matches an origin host that is itself a
-│                       │      │                    public suffix
-│                       │      │                   (e.g., `Domain=co.uk` set by `co.uk`).
-│                       │      │                   
-│                       │      │                   Instead of coercing it into a strict host-only cookie,
-│                       │      │                   libcurl saves the
-│                       │      │                   cookie with wildcard domain scope (`.co.uk`). Consequently,
-│                       │      │                   the cookie is
-│                       │      │                   inappropriately included in subsequent outbound requests or
-│                       │      │                   HTTP redirects to
-│                       │      │                   arbitrary sibling subdomains under the same public suffix
-│                       │      │                   (e.g.,
-│                       │      │                   `attacker.co.uk`). 
-│                       │      ├ Severity        : UNKNOWN 
-│                       │      ├ CweIDs                  
-│                       │      │                  ───────
-│                       │      │                  CWE-201
-│                       │      │                  
-│                       │      ├ References                                               
-│                       │      │                  ────────────────────────────────────────
-│                       │      │                  https://curl.se/docs/CVE-2026-82209.html
-│                       │      │                  https://curl.se/docs/CVE-2026-82209.json
-│                       │      │                  https://hackerone.com/reports/3972385   
-│                       │      │                  
-│                       │      ├ PublishedDate   : 2026-09-06T18:17:22.847Z 
-│                       │      ╰ LastModifiedDate: 2026-09-08T19:20:00.313Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2026-26740 
 │                       │      ├ PkgID           : giflib@5.2.2-r1 
 │                       │      ├ PkgName         : giflib 
@@ -752,7 +779,8 @@
 │                       │      │                  ───────
 │                       │      │                  CWE-787
 │                       │      │                  
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -861,7 +889,8 @@
 │                       │      │                  ───────
 │                       │      │                  CWE-476
 │                       │      │                  
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ azure : 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -1273,7 +1302,8 @@
 │                       │      │                  ───────
 │                       │      │                  CWE-770
 │                       │      │                  
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -1459,7 +1489,8 @@
 │                       │      │                  ───────
 │                       │      │                  CWE-354
 │                       │      │                  
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ azure : 1 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References                                                                    
 │                       │      │                  ─────────────────────────────────────────────────────────────
 │                       │      │                  https://github.com/openssl/openssl/commit/119ab9555dc62275bbd
@@ -1472,6 +1503,8 @@
 │                       │      │                  7f117ee75044f0dc36f34                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/bf95f5f772e9362f87b
 │                       │      │                  25cfa2f8cb15d984865b9                                        
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-75803              
+│                       │      │                                                                               
 │                       │      │                  https://openssl-library.org/news/secadv/20260825.txt         
 │                       │      │                                                                               
 │                       │      │                  https://ubuntu.com/security/notices/USN-8678-1               
@@ -1513,16 +1546,22 @@
 │                       │      │                   attack can inject a premature or shortcut response that
 │                       │      │                   bypasses complete peer
 │                       │      │                   validation. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-923
 │                       │      │                  
-│                       │      ├ References                                               
-│                       │      │                  ────────────────────────────────────────
-│                       │      │                  https://curl.se/docs/CVE-2026-13608.html
-│                       │      │                  https://curl.se/docs/CVE-2026-13608.json
-│                       │      │                  https://hackerone.com/reports/3822248   
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References                                                                    
+│                       │      │                  ─────────────────────────────────────────────────────────────
+│                       │      │                  https://curl.se/docs/CVE-2026-13608.html                     
+│                       │      │                  https://curl.se/docs/CVE-2026-13608.json                     
+│                       │      │                  https://github.com/curl/curl/pull/22213/changes/1a00e2a73675c
+│                       │      │                  9521d214aafd6c02b553bfeb022                                  
+│                       │      │                  https://hackerone.com/reports/3822248                        
+│                       │      │                                                                               
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-13608              
+│                       │      │                                                                               
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:19.81Z 
 │                       │      ╰ LastModifiedDate: 2026-09-08T16:18:00.317Z 
@@ -1552,16 +1591,22 @@
 │                       │      │                   handle is set to share connections with other handles, can
 │                       │      │                   lead to
 │                       │      │                   use-after-free in the cleanup process. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-416
 │                       │      │                  
-│                       │      ├ References                                               
-│                       │      │                  ────────────────────────────────────────
-│                       │      │                  https://curl.se/docs/CVE-2026-18924.html
-│                       │      │                  https://curl.se/docs/CVE-2026-18924.json
-│                       │      │                  https://hackerone.com/reports/3916059   
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References                                                                    
+│                       │      │                  ─────────────────────────────────────────────────────────────
+│                       │      │                  https://curl.se/docs/CVE-2026-18924.html                     
+│                       │      │                  https://curl.se/docs/CVE-2026-18924.json                     
+│                       │      │                  https://github.com/curl/curl/commit/90325ff0444cbdff368bda5d2
+│                       │      │                  6d6                                                          
+│                       │      │                  https://hackerone.com/reports/3916059                        
+│                       │      │                                                                               
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-18924              
+│                       │      │                                                                               
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:20.553Z 
 │                       │      ╰ LastModifiedDate: 2026-09-08T16:18:06Z 
@@ -1593,16 +1638,19 @@
 │                       │      │                   using empty credentials. This can make user B's request get
 │                       │      │                   sent over user A's
 │                       │      │                   previously authenticated connection. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-488
 │                       │      │                  
-│                       │      ├ References                                               
-│                       │      │                  ────────────────────────────────────────
-│                       │      │                  https://curl.se/docs/CVE-2026-19931.html
-│                       │      │                  https://curl.se/docs/CVE-2026-19931.json
-│                       │      │                  https://hackerone.com/reports/3923520   
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References                                                                 
+│                       │      │                  ──────────────────────────────────────────────────────────
+│                       │      │                  https://curl.se/docs/CVE-2026-19931.html                  
+│                       │      │                  https://curl.se/docs/CVE-2026-19931.json                  
+│                       │      │                  https://github.com/curl/curl/commit/7103a93b05bc69ea98ed9d
+│                       │      │                  https://hackerone.com/reports/3923520                     
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-19931           
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:20.733Z 
 │                       │      ╰ LastModifiedDate: 2026-09-08T16:18:07.08Z 
@@ -1640,16 +1688,19 @@
 │                       │      │                   active connection retains a dangling pointer, leading to a
 │                       │      │                   heap-use-after-free
 │                       │      │                   upon subsequent I/O or post-handshake operations. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-416
 │                       │      │                  
-│                       │      ├ References                                               
-│                       │      │                  ────────────────────────────────────────
-│                       │      │                  https://curl.se/docs/CVE-2026-80229.html
-│                       │      │                  https://curl.se/docs/CVE-2026-80229.json
-│                       │      │                  https://hackerone.com/reports/3969255   
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References                                                                 
+│                       │      │                  ──────────────────────────────────────────────────────────
+│                       │      │                  https://curl.se/docs/CVE-2026-80229.html                  
+│                       │      │                  https://curl.se/docs/CVE-2026-80229.json                  
+│                       │      │                  https://github.com/curl/curl/commit/7ea37abc6ac0120ba5f6d9
+│                       │      │                  https://hackerone.com/reports/3969255                     
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-80229           
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:22.217Z 
 │                       │      ╰ LastModifiedDate: 2026-09-08T16:18:15.72Z 
@@ -1686,20 +1737,122 @@
 │                       │      │                   allows
 │                       │      │                   unauthenticated connections to succeed when they should be
 │                       │      │                   rejected. 
-│                       │      ├ Severity        : UNKNOWN 
+│                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-295
 │                       │      │                  
-│                       │      ├ References                                               
-│                       │      │                  ────────────────────────────────────────
-│                       │      │                  https://curl.se/docs/CVE-2026-80230.html
-│                       │      │                  https://curl.se/docs/CVE-2026-80230.json
-│                       │      │                  https://hackerone.com/reports/3969300   
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References                                                                
+│                       │      │                  ─────────────────────────────────────────────────────────
+│                       │      │                  https://curl.se/docs/CVE-2026-80230.html                 
+│                       │      │                  https://curl.se/docs/CVE-2026-80230.json                 
+│                       │      │                  https://github.com/curl/curl/commit/5267ed859d545534d0c21
+│                       │      │                  https://hackerone.com/reports/3969300                    
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-80230          
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:22.327Z 
 │                       │      ╰ LastModifiedDate: 2026-09-08T19:19:54.063Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2026-80231 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2026-80255 
+│                       │      ├ PkgID           : libcurl@8.21.0-r0 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.21.0-r0?arch=x86_64&distro=3
+│                       │      │                  │       .24.1 
+│                       │      │                  ╰ UID : 41bd97351e4e8b71 
+│                       │      ├ InstalledVersion: 8.21.0-r0 
+│                       │      ├ FixedVersion    : 8.22.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:9e9875649b6ba59567aa8921be2cb53032b5dbbd8b7f
+│                       │      │                  │         3f91cbb1539ed9925b25 
+│                       │      │                  ╰ DiffID: sha256:702cba3307eaddcbc6a668dc100e303a3ffbc4adca70
+│                       │      │                            b459806d424ea0b26aad 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-80255 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:2d9dc79819eb7375ae058257dffee9e1df7e1df6d8ffaeb71a403
+│                       │      │                   9c885338960 
+│                       │      ├ Title           : A `Set-Cookie:` header using tab (horizontal tab, ASCII code
+│                       │      │                    9) instea ... 
+│                       │      ├ Description     : A `Set-Cookie:` header using tab (horizontal tab, ASCII code
+│                       │      │                    9) instead of
+│                       │      │                   space (ascii code 32) immediately before the `Secure`
+│                       │      │                   attribute causes curl to
+│                       │      │                   store the cookie without its Secure flag. The cookie might
+│                       │      │                   then wrongfully be
+│                       │      │                   sent over plaintext HTTP on subsequent requests to the same
+│                       │      │                   host. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-201
+│                       │      │                  
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References                                                                 
+│                       │      │                  ──────────────────────────────────────────────────────────
+│                       │      │                  https://curl.se/docs/CVE-2026-80255.html                  
+│                       │      │                  https://curl.se/docs/CVE-2026-80255.json                  
+│                       │      │                  https://github.com/curl/curl/commit/4f6aa41a0145e930e76677
+│                       │      │                  https://hackerone.com/reports/3972395                     
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-80255           
+│                       │      │                  
+│                       │      ├ PublishedDate   : 2026-09-06T18:17:22.623Z 
+│                       │      ╰ LastModifiedDate: 2026-09-08T19:19:54.52Z 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2026-82209 
+│                       │      ├ PkgID           : libcurl@8.21.0-r0 
+│                       │      ├ PkgName         : libcurl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.21.0-r0?arch=x86_64&distro=3
+│                       │      │                  │       .24.1 
+│                       │      │                  ╰ UID : 41bd97351e4e8b71 
+│                       │      ├ InstalledVersion: 8.21.0-r0 
+│                       │      ├ FixedVersion    : 8.22.0-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:9e9875649b6ba59567aa8921be2cb53032b5dbbd8b7f
+│                       │      │                  │         3f91cbb1539ed9925b25 
+│                       │      │                  ╰ DiffID: sha256:702cba3307eaddcbc6a668dc100e303a3ffbc4adca70
+│                       │      │                            b459806d424ea0b26aad 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-82209 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:cb678aa4706bba25210223d46674260891df97678c09231ec5a92
+│                       │      │                   fc1b4a95cd1 
+│                       │      ├ Title           : When libpsl support is enabled, libcurl fails to enforce the
+│                       │      │                    Public Su ... 
+│                       │      ├ Description     : When libpsl support is enabled, libcurl fails to enforce the
+│                       │      │                    Public Suffix
+│                       │      │                   List boundary check when processing a `Set-Cookie` header
+│                       │      │                   where the `Domain`
+│                       │      │                   attribute explicitly matches an origin host that is itself a
+│                       │      │                    public suffix
+│                       │      │                   (e.g., `Domain=co.uk` set by `co.uk`).
+│                       │      │                   
+│                       │      │                   Instead of coercing it into a strict host-only cookie,
+│                       │      │                   libcurl saves the
+│                       │      │                   cookie with wildcard domain scope (`.co.uk`). Consequently,
+│                       │      │                   the cookie is
+│                       │      │                   inappropriately included in subsequent outbound requests or
+│                       │      │                   HTTP redirects to
+│                       │      │                   arbitrary sibling subdomains under the same public suffix
+│                       │      │                   (e.g.,
+│                       │      │                   `attacker.co.uk`). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-201
+│                       │      │                  
+│                       │      ├ VendorSeverity   ─ ubuntu: 2 
+│                       │      ├ References                                                                      
+│                       │      │                  ───────────────────────────────────────────────────────────────
+│                       │      │                  https://curl.se/docs/CVE-2026-82209.html                       
+│                       │      │                  https://curl.se/docs/CVE-2026-82209.json                       
+│                       │      │                  https://github.com/curl/curl/commit/95c1e8915dce64606bd753fd47f
+│                       │      │                  https://hackerone.com/reports/3972385                          
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-82209                
+│                       │      │                  
+│                       │      ├ PublishedDate   : 2026-09-06T18:17:22.847Z 
+│                       │      ╰ LastModifiedDate: 2026-09-08T19:20:00.313Z 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2026-80231 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
 │                       │      ├ PkgName         : libcurl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.21.0-r0?arch=x86_64&distro=3
@@ -1739,49 +1892,7 @@
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:22.5Z 
 │                       │      ╰ LastModifiedDate: 2026-09-08T19:19:54.307Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2026-80255 
-│                       │      ├ PkgID           : libcurl@8.21.0-r0 
-│                       │      ├ PkgName         : libcurl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.21.0-r0?arch=x86_64&distro=3
-│                       │      │                  │       .24.1 
-│                       │      │                  ╰ UID : 41bd97351e4e8b71 
-│                       │      ├ InstalledVersion: 8.21.0-r0 
-│                       │      ├ FixedVersion    : 8.22.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:9e9875649b6ba59567aa8921be2cb53032b5dbbd8b7f
-│                       │      │                  │         3f91cbb1539ed9925b25 
-│                       │      │                  ╰ DiffID: sha256:702cba3307eaddcbc6a668dc100e303a3ffbc4adca70
-│                       │      │                            b459806d424ea0b26aad 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-80255 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:2d9dc79819eb7375ae058257dffee9e1df7e1df6d8ffaeb71a403
-│                       │      │                   9c885338960 
-│                       │      ├ Title           : A `Set-Cookie:` header using tab (horizontal tab, ASCII code
-│                       │      │                    9) instea ... 
-│                       │      ├ Description     : A `Set-Cookie:` header using tab (horizontal tab, ASCII code
-│                       │      │                    9) instead of
-│                       │      │                   space (ascii code 32) immediately before the `Secure`
-│                       │      │                   attribute causes curl to
-│                       │      │                   store the cookie without its Secure flag. The cookie might
-│                       │      │                   then wrongfully be
-│                       │      │                   sent over plaintext HTTP on subsequent requests to the same
-│                       │      │                   host. 
-│                       │      ├ Severity        : UNKNOWN 
-│                       │      ├ CweIDs                  
-│                       │      │                  ───────
-│                       │      │                  CWE-201
-│                       │      │                  
-│                       │      ├ References                                               
-│                       │      │                  ────────────────────────────────────────
-│                       │      │                  https://curl.se/docs/CVE-2026-80255.html
-│                       │      │                  https://curl.se/docs/CVE-2026-80255.json
-│                       │      │                  https://hackerone.com/reports/3972395   
-│                       │      │                  
-│                       │      ├ PublishedDate   : 2026-09-06T18:17:22.623Z 
-│                       │      ╰ LastModifiedDate: 2026-09-08T19:19:54.52Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2026-80256 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2026-80256 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
 │                       │      ├ PkgName         : libcurl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.21.0-r0?arch=x86_64&distro=3
@@ -1800,7 +1911,7 @@
 │                       │      ├ Fingerprint     : sha256:57f8a012b4a2a280ad2bbed01f0c45bac9331091899bd5264a060
 │                       │      │                   11d690fc684 
 │                       │      ╰ Severity        : UNKNOWN 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2026-82208 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2026-82208 
 │                       │      ├ PkgID           : libcurl@8.21.0-r0 
 │                       │      ├ PkgName         : libcurl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.21.0-r0?arch=x86_64&distro=3
@@ -1842,57 +1953,6 @@
 │                       │      │                  
 │                       │      ├ PublishedDate   : 2026-09-06T18:17:22.733Z 
 │                       │      ╰ LastModifiedDate: 2026-09-08T19:20:00.13Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2026-82209 
-│                       │      ├ PkgID           : libcurl@8.21.0-r0 
-│                       │      ├ PkgName         : libcurl 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/libcurl@8.21.0-r0?arch=x86_64&distro=3
-│                       │      │                  │       .24.1 
-│                       │      │                  ╰ UID : 41bd97351e4e8b71 
-│                       │      ├ InstalledVersion: 8.21.0-r0 
-│                       │      ├ FixedVersion    : 8.22.0-r0 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:9e9875649b6ba59567aa8921be2cb53032b5dbbd8b7f
-│                       │      │                  │         3f91cbb1539ed9925b25 
-│                       │      │                  ╰ DiffID: sha256:702cba3307eaddcbc6a668dc100e303a3ffbc4adca70
-│                       │      │                            b459806d424ea0b26aad 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-82209 
-│                       │      ├ DataSource       ╭ ID  : alpine 
-│                       │      │                  ├ Name: Alpine Secdb 
-│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:cb678aa4706bba25210223d46674260891df97678c09231ec5a92
-│                       │      │                   fc1b4a95cd1 
-│                       │      ├ Title           : When libpsl support is enabled, libcurl fails to enforce the
-│                       │      │                    Public Su ... 
-│                       │      ├ Description     : When libpsl support is enabled, libcurl fails to enforce the
-│                       │      │                    Public Suffix
-│                       │      │                   List boundary check when processing a `Set-Cookie` header
-│                       │      │                   where the `Domain`
-│                       │      │                   attribute explicitly matches an origin host that is itself a
-│                       │      │                    public suffix
-│                       │      │                   (e.g., `Domain=co.uk` set by `co.uk`).
-│                       │      │                   
-│                       │      │                   Instead of coercing it into a strict host-only cookie,
-│                       │      │                   libcurl saves the
-│                       │      │                   cookie with wildcard domain scope (`.co.uk`). Consequently,
-│                       │      │                   the cookie is
-│                       │      │                   inappropriately included in subsequent outbound requests or
-│                       │      │                   HTTP redirects to
-│                       │      │                   arbitrary sibling subdomains under the same public suffix
-│                       │      │                   (e.g.,
-│                       │      │                   `attacker.co.uk`). 
-│                       │      ├ Severity        : UNKNOWN 
-│                       │      ├ CweIDs                  
-│                       │      │                  ───────
-│                       │      │                  CWE-201
-│                       │      │                  
-│                       │      ├ References                                               
-│                       │      │                  ────────────────────────────────────────
-│                       │      │                  https://curl.se/docs/CVE-2026-82209.html
-│                       │      │                  https://curl.se/docs/CVE-2026-82209.json
-│                       │      │                  https://hackerone.com/reports/3972385   
-│                       │      │                  
-│                       │      ├ PublishedDate   : 2026-09-06T18:17:22.847Z 
-│                       │      ╰ LastModifiedDate: 2026-09-08T19:20:00.313Z 
 │                       ├ [31] ╭ VulnerabilityID : CVE-2026-14456 
 │                       │      ├ PkgID           : libssl3@3.5.7-r0 
 │                       │      ├ PkgName         : libssl3 
@@ -2157,7 +2217,8 @@
 │                       │      │                  ───────
 │                       │      │                  CWE-787
 │                       │      │                  
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -2266,7 +2327,8 @@
 │                       │      │                  ───────
 │                       │      │                  CWE-476
 │                       │      │                  
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ azure : 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -2678,7 +2740,8 @@
 │                       │      │                  ───────
 │                       │      │                  CWE-770
 │                       │      │                  
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -2864,7 +2927,8 @@
 │                       │      │                  ───────
 │                       │      │                  CWE-354
 │                       │      │                  
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ azure : 1 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References                                                                    
 │                       │      │                  ─────────────────────────────────────────────────────────────
 │                       │      │                  https://github.com/openssl/openssl/commit/119ab9555dc62275bbd
@@ -2877,6 +2941,8 @@
 │                       │      │                  7f117ee75044f0dc36f34                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/bf95f5f772e9362f87b
 │                       │      │                  25cfa2f8cb15d984865b9                                        
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-75803              
+│                       │      │                                                                               
 │                       │      │                  https://openssl-library.org/news/secadv/20260825.txt         
 │                       │      │                                                                               
 │                       │      │                  https://ubuntu.com/security/notices/USN-8678-1               
@@ -5342,7 +5408,8 @@
 │                       │      │                  ───────
 │                       │      │                  CWE-787
 │                       │      │                  
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -5451,7 +5518,8 @@
 │                       │      │                  ───────
 │                       │      │                  CWE-476
 │                       │      │                  
-│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ azure : 3 
+│                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -5863,7 +5931,8 @@
 │                       │      │                  ───────
 │                       │      │                  CWE-770
 │                       │      │                  
-│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      ├ VendorSeverity   ╭ azure : 2 
+│                       │      │                  ├ redhat: 1 
 │                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -6049,7 +6118,8 @@
 │                              │                  ───────
 │                              │                  CWE-354
 │                              │                  
-│                              ├ VendorSeverity   ─ ubuntu: 1 
+│                              ├ VendorSeverity   ╭ azure : 1 
+│                              │                  ╰ ubuntu: 1 
 │                              ├ References                                                                    
 │                              │                  ─────────────────────────────────────────────────────────────
 │                              │                  https://github.com/openssl/openssl/commit/119ab9555dc62275bbd
@@ -6062,6 +6132,8 @@
 │                              │                  7f117ee75044f0dc36f34                                        
 │                              │                  https://github.com/openssl/openssl/commit/bf95f5f772e9362f87b
 │                              │                  25cfa2f8cb15d984865b9                                        
+│                              │                  https://nvd.nist.gov/vuln/detail/CVE-2026-75803              
+│                              │                                                                               
 │                              │                  https://openssl-library.org/news/secadv/20260825.txt         
 │                              │                                                                               
 │                              │                  https://ubuntu.com/security/notices/USN-8678-1               
