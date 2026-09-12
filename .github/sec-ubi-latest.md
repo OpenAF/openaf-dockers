@@ -664,10 +664,12 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-122
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ julia : 1 
-│                       │       │                  ├ nvd   : 2 
-│                       │       │                  ├ photon: 2 
-│                       │       │                  ╰ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ alma       : 2 
+│                       │       │                  ├ julia      : 1 
+│                       │       │                  ├ nvd        : 2 
+│                       │       │                  ├ oracle-oval: 2 
+│                       │       │                  ├ photon     : 2 
+│                       │       │                  ╰ redhat     : 2 
 │                       │       ├ CVSS             ╭ julia  ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:A/VC:N
 │                       │       │                  │        │            /VI:L/VA:L/SC:N/SI:N/SA:N 
 │                       │       │                  │        ╰ V40Score : 1.8 
@@ -679,13 +681,20 @@
 │                       │       │                           ╰ V3Score : 4.4 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:66403            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-56392       
+│                       │       │                  https://bugzilla.redhat.com/2506694                         
 │                       │       │                  https://cert.pl/en/posts/2026/07/CVE-2026-56391             
+│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-66403.html         
 │                       │       │                  https://git.savannah.gnu.org/cgit/coreutils.git             
 │                       │       │                  https://git.savannah.gnu.org/cgit/coreutils.git/            
 │                       │       │                  https://git.savannah.gnu.org/cgit/coreutils.git/commit/?id=b
 │                       │       │                  60a159fdc5bfcf9988d3a4cb6f53abe8ad5d35d                     
 │                       │       │                  https://github.com/advisories/GHSA-g24f-m2hx-pfgx           
+│                       │       │                                                                              
+│                       │       │                  https://linux.oracle.com/cve/CVE-2026-56392.html            
+│                       │       │                                                                              
+│                       │       │                  https://linux.oracle.com/errata/ELSA-2026-66403-0.html      
 │                       │       │                                                                              
 │                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-56392             
 │                       │       │                                                                              
@@ -4415,6 +4424,7 @@
 │                       │       │                  ─────────────────────────────────────────────────────────────
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:64799             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:64800             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:66451             
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-16118        
 │                       │       │                  https://bugzilla.redhat.com/2501732                          
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2501732          
@@ -4425,12 +4435,12 @@
 │                       │       │                  https://gitlab.freedesktop.org/xdg/xdgmime/-/work_items/41   
 │                       │       │                  https://gitlab.gnome.org/GNOME/glib/-/work_items/3992        
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-16118.html             
-│                       │       │                  https://linux.oracle.com/errata/ELSA-2026-64800-0.html       
+│                       │       │                  https://linux.oracle.com/errata/ELSA-2026-66451-0.html       
 │                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-16118              
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-16118              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-07-17T20:17:16.167Z 
-│                       │       ╰ LastModifiedDate: 2026-09-08T13:17:17.507Z 
+│                       │       ╰ LastModifiedDate: 2026-09-11T10:16:51.15Z 
 │                       ├ [63]  ╭ VulnerabilityID : CVE-2026-58010 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
@@ -7265,6 +7275,7 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:61783            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:63135            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:63138            
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:66018            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-54371       
 │                       │       │                  https://bugzilla.redhat.com/2490283                         
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2490283         
@@ -7298,7 +7309,7 @@
 │                       │       │                  privilege-escalation-via-getfattr-setfattr                  
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-29T14:16:57.823Z 
-│                       │       ╰ LastModifiedDate: 2026-09-09T13:20:31.29Z 
+│                       │       ╰ LastModifiedDate: 2026-09-11T13:18:15.587Z 
 │                       ├ [104] ╭ VulnerabilityID : CVE-2026-13595 
 │                       │       ├ PkgID           : libblkid@2.37.4-25.el9.x86_64 
 │                       │       ├ PkgName         : libblkid 
