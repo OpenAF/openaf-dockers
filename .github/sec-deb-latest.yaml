@@ -5121,6 +5121,7 @@
     CweIDs:
     - CWE-405
     VendorSeverity:
+      azure: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -5195,6 +5196,7 @@
     CweIDs:
     - CWE-134
     VendorSeverity:
+      azure: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -5341,6 +5343,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      azure: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -5405,7 +5408,7 @@
     CweIDs:
     - CWE-354
     VendorSeverity:
-      azure: 1
+      azure: 2
       ubuntu: 1
     References:
     - https://github.com/openssl/openssl/commit/119ab9555dc62275bbd71f6f49529b1a44feba42
@@ -5446,6 +5449,7 @@
     - CWE-22
     - CWE-59
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -5533,6 +5537,7 @@
     - CWE-269
     - CWE-347
     VendorSeverity:
+      azure: 2
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -5615,6 +5620,7 @@
     - CWE-22
     - CWE-59
     VendorSeverity:
+      azure: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -5702,6 +5708,7 @@
     - CWE-269
     - CWE-347
     VendorSeverity:
+      azure: 2
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -7110,6 +7117,7 @@
     CweIDs:
     - CWE-405
     VendorSeverity:
+      azure: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -7184,6 +7192,7 @@
     CweIDs:
     - CWE-134
     VendorSeverity:
+      azure: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -7330,6 +7339,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      azure: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -7394,7 +7404,7 @@
     CweIDs:
     - CWE-354
     VendorSeverity:
-      azure: 1
+      azure: 2
       ubuntu: 1
     References:
     - https://github.com/openssl/openssl/commit/119ab9555dc62275bbd71f6f49529b1a44feba42
@@ -7866,6 +7876,7 @@
     CweIDs:
     - CWE-405
     VendorSeverity:
+      azure: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -7940,6 +7951,7 @@
     CweIDs:
     - CWE-134
     VendorSeverity:
+      azure: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -8086,6 +8098,7 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      azure: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -8150,7 +8163,7 @@
     CweIDs:
     - CWE-354
     VendorSeverity:
-      azure: 1
+      azure: 2
       ubuntu: 1
     References:
     - https://github.com/openssl/openssl/commit/119ab9555dc62275bbd71f6f49529b1a44feba42
@@ -10978,6 +10991,7 @@
       amazon: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 3
       rocky: 3
     CVSS:
@@ -11373,6 +11387,7 @@
       amazon: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 3
       rocky: 3
     CVSS:
@@ -11465,6 +11480,7 @@
       amazon: 3
       bitnami: 2
       oracle-oval: 3
+      photon: 2
       redhat: 3
       rocky: 3
     CVSS:
@@ -11557,6 +11573,7 @@
       amazon: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 3
       rocky: 3
     CVSS:
@@ -11714,6 +11731,7 @@
       amazon: 3
       bitnami: 3
       oracle-oval: 3
+      photon: 3
       redhat: 3
       rocky: 3
     CVSS:
