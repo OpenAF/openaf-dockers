@@ -39,9 +39,9 @@
 │                       │       │                   could lead to limited information disclosure or denial of
 │                       │       │                   service. 
 │                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CweIDs                                                        
-│                       │       │                  ─────────────────────────────────────────────
-│                       │       │                  https://github.com/canolgun-commits/websocket
+│                       │       ├ CweIDs                  
+│                       │       │                  ───────
+│                       │       │                  CWE-416
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ azure : 2 
 │                       │       │                  ├ julia : 2 
@@ -203,14 +203,14 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 3.7 
-│                       │       ├ References                                                            
-│                       │       │                  ─────────────────────────────────────────────────────
-│                       │       │                  https://access.redhat.com/errata/RHSA-2026:7180      
-│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-3184 
-│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2442570  
-│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-27136
-│                       │       │                  https://ubuntu.com/security/notices/USN-8702-1       
-│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-3184       
+│                       │       ├ References                                                           
+│                       │       │                  ────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:7180     
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-3184
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2442570 
+│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-3184      
+│                       │       │                  https://ubuntu.com/security/notices/USN-8702-1      
+│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-3184      
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-03T19:17:23.377Z 
 │                       │       ╰ LastModifiedDate: 2026-08-31T12:17:55.983Z 
@@ -258,7 +258,7 @@
 │                       │                          /GHSA-g8wm-75wr-g2vh                                        
 │                       │                          https://nvd.nist.gov/vuln/detail/CVE-2026-53612             
 │                       │                                                                                      
-│                       │                          https://ubuntu.com/security/notices/USN-8702-1              
+│                       │                          https://access.redhat.com/errata/RHSA-2026:63046            
 │                       │                                                                                      
 │                       │                          https://www.cve.org/CVERecord?id=CVE-2026-53612             
 │                       │                                                                                      
@@ -6618,7 +6618,8 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-405
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
@@ -6718,7 +6719,8 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-134
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
@@ -6917,7 +6919,8 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-770
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
@@ -7003,7 +7006,7 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-354
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ azure : 1 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
 │                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
@@ -7061,7 +7064,8 @@
 │                       │       │                  CWE-22
 │                       │       │                  CWE-59
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
@@ -7175,7 +7179,8 @@
 │                       │       │                  CWE-269
 │                       │       │                  CWE-347
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ redhat: 3 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ redhat: 3 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:
 │                       │       │                           │           H/A:H 
@@ -7274,7 +7279,8 @@
 │                       │       │                  CWE-22
 │                       │       │                  CWE-59
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
@@ -7388,7 +7394,8 @@
 │                       │       │                  CWE-269
 │                       │       │                  CWE-347
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ redhat: 3 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ redhat: 3 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:
 │                       │       │                           │           H/A:H 
@@ -9312,7 +9319,8 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-405
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
@@ -9412,7 +9420,8 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-134
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
@@ -9611,7 +9620,8 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-770
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
@@ -9697,7 +9707,7 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-354
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ azure : 1 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
 │                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
@@ -10325,7 +10335,8 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-405
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
@@ -10425,7 +10436,8 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-134
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
@@ -10624,7 +10636,8 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-770
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
+│                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           N/A:H 
@@ -10710,7 +10723,7 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-354
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ azure : 1 
+│                       │       ├ VendorSeverity   ╭ azure : 2 
 │                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
@@ -14344,6 +14357,7 @@
                         │      │                  ├ amazon     : 3 
                         │      │                  ├ bitnami    : 3 
                         │      │                  ├ oracle-oval: 3 
+                        │      │                  ├ photon     : 3 
                         │      │                  ├ redhat     : 3 
                         │      │                  ╰ rocky      : 3 
                         │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -14783,6 +14797,7 @@
                         │      │                  ├ amazon     : 3 
                         │      │                  ├ bitnami    : 3 
                         │      │                  ├ oracle-oval: 3 
+                        │      │                  ├ photon     : 3 
                         │      │                  ├ redhat     : 3 
                         │      │                  ╰ rocky      : 3 
                         │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -14882,6 +14897,7 @@
                         │      │                  ├ amazon     : 3 
                         │      │                  ├ bitnami    : 2 
                         │      │                  ├ oracle-oval: 3 
+                        │      │                  ├ photon     : 2 
                         │      │                  ├ redhat     : 3 
                         │      │                  ╰ rocky      : 3 
                         │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:
@@ -14981,6 +14997,7 @@
                         │      │                  ├ amazon     : 3 
                         │      │                  ├ bitnami    : 3 
                         │      │                  ├ oracle-oval: 3 
+                        │      │                  ├ photon     : 3 
                         │      │                  ├ redhat     : 3 
                         │      │                  ╰ rocky      : 3 
                         │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
@@ -15159,6 +15176,7 @@
                         │      │                  ├ amazon     : 3 
                         │      │                  ├ bitnami    : 3 
                         │      │                  ├ oracle-oval: 3 
+                        │      │                  ├ photon     : 3 
                         │      │                  ├ redhat     : 3 
                         │      │                  ╰ rocky      : 3 
                         │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
