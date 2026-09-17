@@ -599,6 +599,7 @@
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -617,7 +618,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/08e7756c3900bcfd77a
 │                       │      │                  720e7b74e27d6e4ed01a9                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/4084152e040329ca019
@@ -711,6 +732,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -728,7 +750,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/70cebd74d3592f52729
 │                       │      │                  45501b58a60374c4e13af                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/967582d5037f01a26b6
@@ -824,6 +866,7 @@
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -841,7 +884,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/2a3dac874c8057c1f01
 │                       │      │                  86849bf1ede1ae7b6b756                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/87784ad619af36b8807
@@ -952,6 +1015,7 @@
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -969,7 +1033,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/37882aa2e0256e10724
 │                       │      │                  42a8f62f7db45b995c45b                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/a17cc8d612ecff6d94a
@@ -1154,6 +1238,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -1171,7 +1256,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/1e8c398db67404babd3
 │                       │      │                  e5af999bb6bd86f720c76                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/581aaa0f0a35d214740
@@ -1299,6 +1404,7 @@
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -1316,7 +1422,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/4808b5d64176451f3d9
 │                       │      │                  3d87d0ac9c81a9b13fb23                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/7110cb2f75806d0bf80
@@ -1417,6 +1543,7 @@
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -1434,7 +1561,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/0cc20b322639919aa42
 │                       │      │                  3e90799d9a57c3b4b76ca                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/6a0acc072b4d37a7cac
@@ -1529,6 +1676,7 @@
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -1546,7 +1694,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/01e567978a55fba1814
 │                       │      │                  2a230380c31296049fae7                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/21a5d9658b0c66daace
@@ -1650,6 +1818,7 @@
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -1667,7 +1836,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/7308946576b12e64b8b
 │                       │      │                  e53bcf0a120354b2b42bc                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/7c98d79738549df9286
@@ -2212,6 +2401,7 @@
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -2230,7 +2420,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/08e7756c3900bcfd77a
 │                       │      │                  720e7b74e27d6e4ed01a9                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/4084152e040329ca019
@@ -2324,6 +2534,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -2341,7 +2552,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/70cebd74d3592f52729
 │                       │      │                  45501b58a60374c4e13af                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/967582d5037f01a26b6
@@ -2437,6 +2668,7 @@
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -2454,7 +2686,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/2a3dac874c8057c1f01
 │                       │      │                  86849bf1ede1ae7b6b756                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/87784ad619af36b8807
@@ -2565,6 +2817,7 @@
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -2582,7 +2835,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/37882aa2e0256e10724
 │                       │      │                  42a8f62f7db45b995c45b                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/a17cc8d612ecff6d94a
@@ -2767,6 +3040,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -2784,7 +3058,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/1e8c398db67404babd3
 │                       │      │                  e5af999bb6bd86f720c76                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/581aaa0f0a35d214740
@@ -2912,6 +3206,7 @@
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -2929,7 +3224,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/4808b5d64176451f3d9
 │                       │      │                  3d87d0ac9c81a9b13fb23                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/7110cb2f75806d0bf80
@@ -3030,6 +3345,7 @@
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -3047,7 +3363,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/0cc20b322639919aa42
 │                       │      │                  3e90799d9a57c3b4b76ca                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/6a0acc072b4d37a7cac
@@ -3142,6 +3478,7 @@
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -3159,7 +3496,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/01e567978a55fba1814
 │                       │      │                  2a230380c31296049fae7                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/21a5d9658b0c66daace
@@ -3263,6 +3620,7 @@
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -3280,7 +3638,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/7308946576b12e64b8b
 │                       │      │                  e53bcf0a120354b2b42bc                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/7c98d79738549df9286
@@ -5573,6 +5951,7 @@
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ photon     : 3 
 │                       │      │                  ├ redhat     : 3 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -5591,7 +5970,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/08e7756c3900bcfd77a
 │                       │      │                  720e7b74e27d6e4ed01a9                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/4084152e040329ca019
@@ -5685,6 +6084,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -5702,7 +6102,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/70cebd74d3592f52729
 │                       │      │                  45501b58a60374c4e13af                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/967582d5037f01a26b6
@@ -5798,6 +6218,7 @@
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -5815,7 +6236,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/2a3dac874c8057c1f01
 │                       │      │                  86849bf1ede1ae7b6b756                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/87784ad619af36b8807
@@ -5926,6 +6367,7 @@
 │                       │      │                  ├ azure      : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -5943,7 +6385,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/37882aa2e0256e10724
 │                       │      │                  42a8f62f7db45b995c45b                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/a17cc8d612ecff6d94a
@@ -6128,6 +6590,7 @@
 │                       │      │                  ├ amazon     : 3 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -6145,7 +6608,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/1e8c398db67404babd3
 │                       │      │                  e5af999bb6bd86f720c76                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/581aaa0f0a35d214740
@@ -6273,6 +6756,7 @@
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -6290,7 +6774,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/4808b5d64176451f3d9
 │                       │      │                  3d87d0ac9c81a9b13fb23                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/7110cb2f75806d0bf80
@@ -6391,6 +6895,7 @@
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -6408,7 +6913,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/0cc20b322639919aa42
 │                       │      │                  3e90799d9a57c3b4b76ca                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/6a0acc072b4d37a7cac
@@ -6503,6 +7028,7 @@
 │                       │      │                  ├ azure      : 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 1 
+│                       │      │                  ├ rocky      : 3 
 │                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:H 
@@ -6520,7 +7046,27 @@
 │                       │      │                  https://bugzilla.redhat.com/2517565                          
 │                       │      │                  https://bugzilla.redhat.com/2517566                          
 │                       │      │                  https://bugzilla.redhat.com/2517570                          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                       │      │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                       │      │                  https://github.com/openssl/openssl/commit/01e567978a55fba1814
 │                       │      │                  2a230380c31296049fae7                                        
 │                       │      │                  https://github.com/openssl/openssl/commit/21a5d9658b0c66daace
@@ -6624,6 +7170,7 @@
 │                              │                  ├ azure      : 2 
 │                              │                  ├ oracle-oval: 3 
 │                              │                  ├ redhat     : 1 
+│                              │                  ├ rocky      : 3 
 │                              │                  ╰ ubuntu     : 1 
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                              │                           │           /A:H 
@@ -6641,7 +7188,27 @@
 │                              │                  https://bugzilla.redhat.com/2517565                          
 │                              │                  https://bugzilla.redhat.com/2517566                          
 │                              │                  https://bugzilla.redhat.com/2517570                          
+│                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2515348          
+│                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517559          
+│                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517560          
+│                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517561          
+│                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517562          
+│                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517564          
+│                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517565          
+│                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517566          
+│                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2517570          
+│                              │                  https://creativecommons.org/licenses/by/4.0/                 
+│                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14456
+│                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14457
+│                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18798
+│                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-54874
+│                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63072
+│                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63073
+│                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63074
+│                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63075
+│                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-63076
 │                              │                  https://errata.almalinux.org/9/ALSA-2026-67165.html          
+│                              │                  https://errata.rockylinux.org/RLSA-2026:67165                
 │                              │                  https://github.com/openssl/openssl/commit/7308946576b12e64b8b
 │                              │                  e53bcf0a120354b2b42bc                                        
 │                              │                  https://github.com/openssl/openssl/commit/7c98d79738549df9286
