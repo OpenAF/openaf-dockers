@@ -526,8 +526,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:213174afe7f982ef37353e9c0fdbcc70685658860bf6e2598dae
 │                       │       │                   d0af5d8a0c97 
-│                       │       ├ Title           : A flaw in libcurl's handling of HTTP/2 Server Push streams,
-│                       │       │                    when the p ... 
+│                       │       ├ Title           : curl: libcurl: Use-after-free in HTTP/2 Server Push with
+│                       │       │                   shared connections 
 │                       │       ├ Description     : A flaw in libcurl's handling of HTTP/2 Server Push streams,
 │                       │       │                    when the parent
 │                       │       │                   handle is set to share connections with other handles, can
@@ -538,14 +538,21 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-416
 │                       │       │                  
-│                       │       ├ VendorSeverity   ─ ubuntu: 2 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:L 
+│                       │       │                           ╰ V3Score : 3.7 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-18924       
 │                       │       │                  https://curl.se/docs/CVE-2026-18924.html                    
 │                       │       │                  https://curl.se/docs/CVE-2026-18924.json                    
 │                       │       │                  https://github.com/curl/curl/commit/90325ff0444cbdff368bda5d
 │                       │       │                  26d6                                                        
 │                       │       │                  https://hackerone.com/reports/3916059                       
+│                       │       │                                                                              
+│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-18924             
 │                       │       │                                                                              
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-18924             
 │                       │       │                                                                              
@@ -765,8 +772,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:f56a81560bd1b192704ae3292831031bcd9cae8b1ab6ab884df1
 │                       │       │                   f0133a370845 
-│                       │       ├ Title           : When libpsl support is enabled, libcurl fails to enforce
-│                       │       │                   the Public Su ... 
+│                       │       ├ Title           : curl: libcurl: Information disclosure via improper Public
+│                       │       │                   Suffix List boundary check 
 │                       │       ├ Description     : When libpsl support is enabled, libcurl fails to enforce
 │                       │       │                   the Public Suffix
 │                       │       │                   List boundary check when processing a `Set-Cookie` header
@@ -789,14 +796,21 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-201
 │                       │       │                  
-│                       │       ├ VendorSeverity   ─ ubuntu: 2 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:
+│                       │       │                           │           N/A:N 
+│                       │       │                           ╰ V3Score : 3.1 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-82209       
 │                       │       │                  https://curl.se/docs/CVE-2026-82209.html                    
 │                       │       │                  https://curl.se/docs/CVE-2026-82209.json                    
 │                       │       │                  https://github.com/curl/curl/commit/95c1e8915dce64606bd753fd
 │                       │       │                  47f                                                         
 │                       │       │                  https://hackerone.com/reports/3972385                       
+│                       │       │                                                                              
+│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-82209             
 │                       │       │                                                                              
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-82209             
 │                       │       │                                                                              
@@ -988,7 +1002,8 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-125
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ julia      : 2 
+│                       │       ├ VendorSeverity   ╭ alma       : 2 
+│                       │       │                  ├ julia      : 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ redhat     : 2 
@@ -1004,8 +1019,12 @@
 │                       │       │                           ╰ V3Score : 6.1 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:67886            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-56391       
+│                       │       │                  https://bugzilla.redhat.com/2506691                         
+│                       │       │                  https://bugzilla.redhat.com/2506694                         
 │                       │       │                  https://cert.pl/en/posts/2026/07/CVE-2026-56391             
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67886.html        
 │                       │       │                  https://git.savannah.gnu.org/cgit/coreutils.git             
 │                       │       │                  https://git.savannah.gnu.org/cgit/coreutils.git/            
 │                       │       │                  https://git.savannah.gnu.org/cgit/coreutils.git/commit/?id=d
@@ -1056,9 +1075,9 @@
 │                       │       │                    traditional key format. A malicious input could lead to a
 │                       │       │                   crash or leak sensitive data. 
 │                       │       ├ Severity        : LOW 
-│                       │       ├ CweIDs                   
-│                       │       │                  ────────
-│                       │       │                  CWE-1021
+│                       │       ├ CweIDs                  
+│                       │       │                  ───────
+│                       │       │                  CWE-121
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
 │                       │       │                  ├ amazon     : 2 
@@ -3133,8 +3152,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:e92f247bc708676aaad6a1850909d72d60ceb070a4c33a806977
 │                       │       │                   050e49e2178c 
-│                       │       ├ Title           : A flaw in libcurl's handling of HTTP/2 Server Push streams,
-│                       │       │                    when the p ... 
+│                       │       ├ Title           : curl: libcurl: Use-after-free in HTTP/2 Server Push with
+│                       │       │                   shared connections 
 │                       │       ├ Description     : A flaw in libcurl's handling of HTTP/2 Server Push streams,
 │                       │       │                    when the parent
 │                       │       │                   handle is set to share connections with other handles, can
@@ -3145,14 +3164,21 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-416
 │                       │       │                  
-│                       │       ├ VendorSeverity   ─ ubuntu: 2 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:L 
+│                       │       │                           ╰ V3Score : 3.7 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-18924       
 │                       │       │                  https://curl.se/docs/CVE-2026-18924.html                    
 │                       │       │                  https://curl.se/docs/CVE-2026-18924.json                    
 │                       │       │                  https://github.com/curl/curl/commit/90325ff0444cbdff368bda5d
 │                       │       │                  26d6                                                        
 │                       │       │                  https://hackerone.com/reports/3916059                       
+│                       │       │                                                                              
+│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-18924             
 │                       │       │                                                                              
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-18924             
 │                       │       │                                                                              
@@ -3372,8 +3398,8 @@
 │                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │       ├ Fingerprint     : sha256:ef472a0b7051b370d34729495c240538b2c502d47c5b526c144e
 │                       │       │                   7e82c3d9bb4b 
-│                       │       ├ Title           : When libpsl support is enabled, libcurl fails to enforce
-│                       │       │                   the Public Su ... 
+│                       │       ├ Title           : curl: libcurl: Information disclosure via improper Public
+│                       │       │                   Suffix List boundary check 
 │                       │       ├ Description     : When libpsl support is enabled, libcurl fails to enforce
 │                       │       │                   the Public Suffix
 │                       │       │                   List boundary check when processing a `Set-Cookie` header
@@ -3396,14 +3422,21 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-201
 │                       │       │                  
-│                       │       ├ VendorSeverity   ─ ubuntu: 2 
+│                       │       ├ VendorSeverity   ╭ redhat: 1 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:
+│                       │       │                           │           N/A:N 
+│                       │       │                           ╰ V3Score : 3.1 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-82209       
 │                       │       │                  https://curl.se/docs/CVE-2026-82209.html                    
 │                       │       │                  https://curl.se/docs/CVE-2026-82209.json                    
 │                       │       │                  https://github.com/curl/curl/commit/95c1e8915dce64606bd753fd
 │                       │       │                  47f                                                         
 │                       │       │                  https://hackerone.com/reports/3972385                       
+│                       │       │                                                                              
+│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-82209             
 │                       │       │                                                                              
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-82209             
 │                       │       │                                                                              
@@ -6052,7 +6085,8 @@
 │                       │       │                  │       md64&distro=ubuntu-26.04 
 │                       │       │                  ╰ UID : 43e137998d428fb9 
 │                       │       ├ InstalledVersion: 3.46.1-9ubuntu0.2 
-│                       │       ├ Status          : affected 
+│                       │       ├ FixedVersion    : 3.46.1-9ubuntu0.3 
+│                       │       ├ Status          : fixed 
 │                       │       ├ Layer            ╭ Digest: sha256:26448373a8d4fbcc063b054f5ec837804b73411e93a
 │                       │       │                  │         13cff84dcfa0a255f209e 
 │                       │       │                  ╰ DiffID: sha256:b88975a5f247334b2c31281a6b73fda4105784701f2
@@ -6090,6 +6124,8 @@
 │                       │       │                  0191c64c058f2ccec508                                        
 │                       │       │                  https://github.com/sqlite/sqlite/commit/169f68ed88b34cb68f72
 │                       │       │                  0191c64c058f2ccec508%20%28version-3.53.0%29                 
+│                       │       │                  https://ubuntu.com/security/notices/USN-8775-1              
+│                       │       │                                                                              
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-39113             
 │                       │       │                                                                              
 │                       │       │                  https://www.sqlite.org/                                     
@@ -7755,7 +7791,7 @@
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ amazon: 3 
 │                       │       │                  ├ azure : 2 
-│                       │       │                  ├ redhat: 2 
+│                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:N 
@@ -10911,7 +10947,7 @@
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ amazon: 3 
 │                       │       │                  ├ azure : 2 
-│                       │       │                  ├ redhat: 2 
+│                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:N 
@@ -12382,7 +12418,7 @@
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ amazon: 3 
 │                       │       │                  ├ azure : 2 
-│                       │       │                  ├ redhat: 2 
+│                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:N 
@@ -15562,6 +15598,7 @@
                         │      │                  https://access.redhat.com/errata/RHSA-2026:65153             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:65359             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:65534             
+                        │      │                  https://access.redhat.com/errata/RHSA-2026:65851             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:65886             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:66016             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:66022             
@@ -15573,6 +15610,7 @@
                         │      │                  https://access.redhat.com/errata/RHSA-2026:67287             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:67319             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:67517             
+                        │      │                  https://access.redhat.com/errata/RHSA-2026:68504             
                         │      │                  https://access.redhat.com/security/cve/CVE-2026-39821        
                         │      │                  https://bugzilla.redhat.com/2467809                          
                         │      │                  https://bugzilla.redhat.com/2467820                          
@@ -15630,7 +15668,7 @@
                         │      │                                                                               
                         │      │                  
                         │      ├ PublishedDate   : 2026-05-22T16:16:20.41Z 
-                        │      ╰ LastModifiedDate: 2026-09-15T12:17:34.803Z 
+                        │      ╰ LastModifiedDate: 2026-09-17T12:18:05.767Z 
                         ├ [5]  ╭ VulnerabilityID : CVE-2026-46600 
                         │      ├ VendorIDs                    
                         │      │                  ────────────
@@ -16276,6 +16314,7 @@
                         │      │                  https://access.redhat.com/errata/RHSA-2026:65153             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:65359             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:65534             
+                        │      │                  https://access.redhat.com/errata/RHSA-2026:65851             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:65886             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:66016             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:66022             
@@ -16287,6 +16326,7 @@
                         │      │                  https://access.redhat.com/errata/RHSA-2026:67287             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:67319             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:67517             
+                        │      │                  https://access.redhat.com/errata/RHSA-2026:68504             
                         │      │                  https://access.redhat.com/security/cve/CVE-2026-39821        
                         │      │                  https://bugzilla.redhat.com/2467809                          
                         │      │                  https://bugzilla.redhat.com/2467820                          
@@ -16344,7 +16384,7 @@
                         │      │                                                                               
                         │      │                  
                         │      ├ PublishedDate   : 2026-05-22T16:16:20.41Z 
-                        │      ╰ LastModifiedDate: 2026-09-15T12:17:34.803Z 
+                        │      ╰ LastModifiedDate: 2026-09-17T12:18:05.767Z 
                         ├ [14] ╭ VulnerabilityID : CVE-2026-39822 
                         │      ├ VendorIDs                    
                         │      │                  ────────────
@@ -16414,7 +16454,7 @@
                         │      │                  https://www.cve.org/CVERecord?id=CVE-2026-39822              
                         │      │                  
                         │      ├ PublishedDate   : 2026-07-08T17:17:21.31Z 
-                        │      ╰ LastModifiedDate: 2026-07-13T14:54:26.317Z 
+                        │      ╰ LastModifiedDate: 2026-09-17T17:10:20.047Z 
                         ├ [15] ╭ VulnerabilityID : CVE-2026-46600 
                         │      ├ VendorIDs                    
                         │      │                  ────────────
