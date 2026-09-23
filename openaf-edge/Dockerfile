@@ -19,11 +19,7 @@ RUN echo 'PATH=$PATH:/openaf' > /etc/profile.d/openaf.sh\
  && echo "openaf ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/openaf\
  && chmod g+w /etc/passwd\
  && cd /openaf\
-<<<<<<< HEAD
  && curl https://openaf.io/getJava.sh | VERSION=27 bash\
-=======
- && curl https://openaf.io/getJava.sh | VERSION=26 bash\
->>>>>>> 609ad5a3eb0d618e4ab88f231717c45627fe5d54
  && tar xzf jre.tgz\
  && rm jre.tgz\
  && mv jdk* jre\
