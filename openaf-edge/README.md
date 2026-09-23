@@ -2,7 +2,7 @@
 
 ## Overview
 
-`openaf/openaf-edge` tracks the bleeding-edge OpenAF runtime on top of Alpine Linux `edge`. It bundles a slim Java 25 runtime fetched via `getJava.sh`, enables mimalloc (`LD_PRELOAD=/usr/lib/libmimalloc.so.2`), and keeps the same entrypoint experience as the standard image. Use it to validate upcoming changes before they land in the stable `openaf/openaf` builds.
+`openaf/openaf-edge` tracks the bleeding-edge OpenAF runtime on top of Alpine Linux `edge`. It bundles a slim Java 27 runtime fetched via `getJava.sh`, enables mimalloc (`LD_PRELOAD=/usr/lib/libmimalloc.so.2`), and keeps the same entrypoint experience as the standard image. Use it to validate upcoming changes before they land in the stable `openaf/openaf` builds.
 
 ## Available tags
 

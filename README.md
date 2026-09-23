@@ -74,7 +74,7 @@ docker build \
 - `openaf/ojobrt` – Generic oJob runtime that can fetch jobs from local, HTTP, or S3 sources. [Docs](oJobRT/README.md)
 
 **Runtime variants**
-- `openaf/openaf-edge` – Alpine edge base with a slim Java 25 runtime and mimalloc. [Docs](openaf-edge/README.md)
+- `openaf/openaf-edge` – Alpine edge base with a slim Java 27 runtime and mimalloc. [Docs](openaf-edge/README.md)
 - `openaf/openaf-8` – Alpine base with OpenJDK 8 for legacy workloads. [Docs](openaf-8/README.md)
 - `openaf/openaf-11` / `-13` / `-15` – Experimental builds pinned to specific OpenJDK versions. [Docs](openaf-11/README.md), [Docs](openaf-13/README.md), [Docs](openaf-15/README.md)
 - `openaf/openaf-ubi` – Red Hat UBI 9 minimal image with OpenJDK 21 and bash completion. [Docs](openaf-ubi/README.md)
