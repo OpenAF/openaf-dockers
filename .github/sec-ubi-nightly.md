@@ -11,14 +11,14 @@
 │                       │       │                  ╰ UID : 3d297ce68b7e3cbf 
 │                       │       ├ InstalledVersion: 1.2.15.3-1.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-25068 
-│                       │       ├ Fingerprint     : sha256:f575ec18cdd38ccbff1d5866e0d69e2d909c64c87ca712752590
-│                       │       │                   ca0c5831a29a 
+│                       │       ├ Fingerprint     : sha256:760e23591b820b58751d457c0f026942b5aebe7d60c1753a89d7
+│                       │       │                   b546b5285c36 
 │                       │       ├ Title           : alsa-lib: alsa-lib Topology Decoder Heap-based Buffer
 │                       │       │                   Overflow 
 │                       │       ├ Description     : alsa-lib versions 1.2.2 up to and including 1.2.15.2, prior
@@ -72,14 +72,14 @@
 │                       │       │                  ╰ UID : 3d297ce68b7e3cbf 
 │                       │       ├ InstalledVersion: 1.2.15.3-1.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56109 
-│                       │       ├ Fingerprint     : sha256:67a52bb015a7bb09ee345cfa8396adc3402ed334e359ce0eb27c
-│                       │       │                   bcb17f7cc2fa 
+│                       │       ├ Fingerprint     : sha256:43b3f950f0120a61e64794bc665571971abfbc8464f65ce052ac
+│                       │       │                   eace3338d773 
 │                       │       ├ Title           : alsa-lib: ALSA library: Double-free vulnerability leading
 │                       │       │                   to memory corruption 
 │                       │       ├ Description     : The Advanced Linux Sound Architecture (ALSA) library before
@@ -132,14 +132,14 @@
 │                       │       │                  ╰ UID : 3d297ce68b7e3cbf 
 │                       │       ├ InstalledVersion: 1.2.15.3-1.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-90781 
-│                       │       ├ Fingerprint     : sha256:0cf4614ab54be9c0aafeb08d69ab017c56fccb586b8c40372deb
-│                       │       │                   1042b1dea94a 
+│                       │       ├ Fingerprint     : sha256:2a699b5b088dcee6a8106f49ebd4a52f8cb70bde6d3de10b1a3f
+│                       │       │                   33c8126ed7ff 
 │                       │       ├ Title           : alsa-lib: alsa-lib: Denial of Service via off-by-one stack
 │                       │       │                   buffer overflow 
 │                       │       ├ Description     : alsa-lib through 1.2.16.1 contains a stack buffer overflow
@@ -176,7 +176,7 @@
 │                       │       │                  ...
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-13T13:16:29.263Z 
-│                       │       ╰ LastModifiedDate: 2026-09-16T15:18:43.543Z 
+│                       │       ╰ LastModifiedDate: 2026-09-24T20:47:31.797Z 
 │                       ├ [3]   ╭ VulnerabilityID : CVE-2026-96674 
 │                       │       ├ PkgID           : alsa-lib@1.2.15.3-1.el9.x86_64 
 │                       │       ├ PkgName         : alsa-lib 
@@ -185,14 +185,14 @@
 │                       │       │                  ╰ UID : 3d297ce68b7e3cbf 
 │                       │       ├ InstalledVersion: 1.2.15.3-1.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-96674 
-│                       │       ├ Fingerprint     : sha256:0047500d78f826e59296af4957b0e280aa90a7f87aba3f0967f7
-│                       │       │                   a8eb22d18a3b 
+│                       │       ├ Fingerprint     : sha256:aea51494c71048a43e1978ddf5b2c545d960cffea9d9e8974867
+│                       │       │                   fc69cdc65c0e 
 │                       │       ├ Title           : alsa-lib: alsa-lib: Integer Overflow via Crafted Topology
 │                       │       │                   Files 
 │                       │       ├ Description     : alsa-lib through 1.2.16.1 computes combined topology
@@ -231,7 +231,7 @@
 │                       │       │                  .1-integer-overflow-via-topology-file                       
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-23T16:16:50.35Z 
-│                       │       ╰ LastModifiedDate: 2026-09-23T20:17:26.93Z 
+│                       │       ╰ LastModifiedDate: 2026-09-24T21:08:55.03Z 
 │                       ├ [4]   ╭ VulnerabilityID : CVE-2026-96675 
 │                       │       ├ PkgID           : alsa-lib@1.2.15.3-1.el9.x86_64 
 │                       │       ├ PkgName         : alsa-lib 
@@ -240,14 +240,14 @@
 │                       │       │                  ╰ UID : 3d297ce68b7e3cbf 
 │                       │       ├ InstalledVersion: 1.2.15.3-1.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-96675 
-│                       │       ├ Fingerprint     : sha256:a38297209c40a75d05b8d1a74636e21f1f548e7e30f11c3635d7
-│                       │       │                   a3833a80249b 
+│                       │       ├ Fingerprint     : sha256:dc34e91d9fa765d10a54edcfee091460f536a675e93e8f0ed849
+│                       │       │                   217de51d9913 
 │                       │       ├ Title           : alsa-lib: alsa-lib: Denial of Service via malicious ALSA
 │                       │       │                   configuration file 
 │                       │       ├ Description     : alsa-lib through 1.2.16.1 contains a denial of service
@@ -282,7 +282,7 @@
 │                       │       │                  .1-denial-of-service-via-pcm-multi                          
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-23T16:16:50.523Z 
-│                       │       ╰ LastModifiedDate: 2026-09-23T18:17:12.07Z 
+│                       │       ╰ LastModifiedDate: 2026-09-24T21:08:55.03Z 
 │                       ├ [5]   ╭ VulnerabilityID : CVE-2025-59529 
 │                       │       ├ PkgID           : avahi-libs@0.8-23.el9.x86_64 
 │                       │       ├ PkgName         : avahi-libs 
@@ -291,14 +291,14 @@
 │                       │       │                  ╰ UID : 7dec902e56bd9e7a 
 │                       │       ├ InstalledVersion: 0.8-23.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-59529 
-│                       │       ├ Fingerprint     : sha256:c124bcc20225c94619bbbd8a9170f5ce3c4e664a99572c2dd27d
-│                       │       │                   e42b9b5019df 
+│                       │       ├ Fingerprint     : sha256:59f4984786b8dc38a846cd10418a2ac275f47b553a73a9d47d25
+│                       │       │                   3228087fc8b2 
 │                       │       ├ Title           : avahi: simple clients denial-of-service 
 │                       │       ├ Description     : Avahi is a system which facilitates service discovery on a
 │                       │       │                   local network via the mDNS/DNS-SD protocol suite. In
@@ -366,14 +366,14 @@
 │                       │       │                  ╰ UID : 7dec902e56bd9e7a 
 │                       │       ├ InstalledVersion: 0.8-23.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68276 
-│                       │       ├ Fingerprint     : sha256:4faac5a0afe0cd5245b5f6e4b2ceebf33f8abc5cefcaa8a1997d
-│                       │       │                   a7226ccb8a24 
+│                       │       ├ Fingerprint     : sha256:c74658979e0d81b1bfc45938d665bf5327a03740cea91eac1ef6
+│                       │       │                   09c3f865c573 
 │                       │       ├ Title           : avahi: Avahi: Denial of Service via D-Bus record browsers
 │                       │       │                   with AVAHI_LOOKUP_USE_WIDE_AREA flag 
 │                       │       ├ Description     : Avahi is a system which facilitates service discovery on a
@@ -423,14 +423,14 @@
 │                       │       │                  ╰ UID : 7dec902e56bd9e7a 
 │                       │       ├ InstalledVersion: 0.8-23.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68468 
-│                       │       ├ Fingerprint     : sha256:f34d679a420c8d7d7539ef9f7bd2ccd1d9f293ef79072c2b17c8
-│                       │       │                   801456529dbe 
+│                       │       ├ Fingerprint     : sha256:cb316d1cbe8d0cfa09bece81fa94c158047ae47e43b4a1ac4b56
+│                       │       │                   2f1a3aecc29a 
 │                       │       ├ Title           : avahi: Avahi: Denial of Service via crafted mDNS/DNS-SD
 │                       │       │                   announcements 
 │                       │       ├ Description     : Avahi is a system which facilitates service discovery on a
@@ -477,14 +477,14 @@
 │                       │       │                  ╰ UID : 7dec902e56bd9e7a 
 │                       │       ├ InstalledVersion: 0.8-23.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68471 
-│                       │       ├ Fingerprint     : sha256:72fec2ec587549aef2d143f3ee6e9a6179de6524f764b0987b88
-│                       │       │                   8875b9255334 
+│                       │       ├ Fingerprint     : sha256:4d8acf9ea2122c8c77b87ab17f23e8bef9522521054ed99a3b3c
+│                       │       │                   4a24faa268a7 
 │                       │       ├ Title           : avahi: Avahi: Denial of Service via unsolicited CNAME
 │                       │       │                   announcements 
 │                       │       ├ Description     : Avahi is a system which facilitates service discovery on a
@@ -530,14 +530,14 @@
 │                       │       │                  ╰ UID : 7dec902e56bd9e7a 
 │                       │       ├ InstalledVersion: 0.8-23.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-24401 
-│                       │       ├ Fingerprint     : sha256:5eb38368a92185c935bcf5530ba9ed1760fa48f93d70ffa9b5ff
-│                       │       │                   6d74517b897c 
+│                       │       ├ Fingerprint     : sha256:4b693695af6cf492755e3d45e7fc3bd46bc3297efc07b07eb9f5
+│                       │       │                   b26137fc88cb 
 │                       │       ├ Title           : avahi: Avahi: Denial of Service via recursive CNAME record
 │                       │       │                   in mDNS response 
 │                       │       ├ Description     : Avahi is a system which facilitates service discovery on a
@@ -595,14 +595,14 @@
 │                       │       │                  ╰ UID : 7dec902e56bd9e7a 
 │                       │       ├ InstalledVersion: 0.8-23.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34933 
-│                       │       ├ Fingerprint     : sha256:4cf6ab7701083456eb73c806a61aae5906a8f2e0c88eb0741f98
-│                       │       │                   3f4ee41e0af1 
+│                       │       ├ Fingerprint     : sha256:cb3293fb4dd2817282b337f0129d47f324b27e81e05808a2f29f
+│                       │       │                   60bca3c596fc 
 │                       │       ├ Title           : avahi: avahi-daemon: Avahi: Denial of Service via D-Bus
 │                       │       │                   method call 
 │                       │       ├ Description     : Avahi is a system which facilitates service discovery on a
@@ -649,14 +649,14 @@
 │                       │       │                  ╰ UID : 7dec902e56bd9e7a 
 │                       │       ├ InstalledVersion: 0.8-23.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2017-6519 
-│                       │       ├ Fingerprint     : sha256:cc35c02a9d1ef409a582612480c27c470b12f5c992d56a0c763b
-│                       │       │                   25c850ed92cc 
+│                       │       ├ Fingerprint     : sha256:2dd7fb584afdf299c44ce8245857ea7cf7bf34f3270b5e625b35
+│                       │       │                   00fd5172d4ed 
 │                       │       ├ Title           : avahi: Multicast DNS responds to unicast queries outside of
 │                       │       │                    local network 
 │                       │       ├ Description     : avahi-daemon in Avahi through 0.6.32 and 0.7 inadvertently
@@ -725,14 +725,14 @@
 │                       │       │                  ╰ UID : 6d70d2c6cabe297d 
 │                       │       ├ InstalledVersion: 1.0.8-11.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42250 
-│                       │       ├ Fingerprint     : sha256:1baadf5d1f6cffb431f9960fedf157c7d7c1341eadaabdc1be55
-│                       │       │                   5ed2dd57173f 
+│                       │       ├ Fingerprint     : sha256:838ac580d4fbcddabe7b8d6dbcdd410788743fe75011b483fada
+│                       │       │                   ab2abea2fbe7 
 │                       │       ├ Title           : bzip2: bzip2: Denial of Service in bzip2recover via a
 │                       │       │                   specially crafted file 
 │                       │       ├ Description     : bzip2 contains an off‑by‑one error in the bzip2recover
@@ -781,14 +781,14 @@
 │                       │       │                  ╰ UID : c55d0b1f5d331637 
 │                       │       ├ InstalledVersion: 8.32-41.el9_8.1 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56391 
-│                       │       ├ Fingerprint     : sha256:992a60ac13753013ff05c0d414d69555da7de6f609faa12e1d49
-│                       │       │                   bf447a2d46c3 
+│                       │       ├ Fingerprint     : sha256:ee98299e5324947db7592b628a8344de5f45474a2a4cfd936013
+│                       │       │                   a106edd58b4c 
 │                       │       ├ Title           : coreutils: GNU coreutils uniq: Denial of Service and
 │                       │       │                   information disclosure via out-of-bounds read with
 │                       │       │                   multibyte input 
@@ -877,14 +877,14 @@
 │                       │       │                  ╰ UID : a83e909990543973 
 │                       │       ├ InstalledVersion: 1:2.3.3op2-39.el9_8 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4504 
-│                       │       ├ Fingerprint     : sha256:11d003b6fe2412bf611be126e807867d0909858800f7940aa2d8
-│                       │       │                   061ed8230794 
+│                       │       ├ Fingerprint     : sha256:9c48a824e0af5d9eb83592332cb9ede1a29eaf12a369b0d504e0
+│                       │       │                   6108101bd64c 
 │                       │       ├ Title           : libppd: Postscript Parsing Heap Overflow 
 │                       │       ├ Description     : Due to failure in validating the length provided by an
 │                       │       │                   attacker-crafted PPD PostScript document, CUPS and libppd
@@ -954,14 +954,14 @@
 │                       │       │                  ╰ UID : a83e909990543973 
 │                       │       ├ InstalledVersion: 1:2.3.3op2-39.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27447 
-│                       │       ├ Fingerprint     : sha256:420cef4e2a6f8e98756c7a4dca05f22f099e7da120eaf1ccb33a
-│                       │       │                   d255263c35b8 
+│                       │       ├ Fingerprint     : sha256:d76e981609230313872f10f6f6cb1672c92f6faf65d32a9368cf
+│                       │       │                   a84ac83c23a1 
 │                       │       ├ Title           : cups: OpenPrinting CUPS: Authorization bypass via
 │                       │       │                   case-insensitive username comparison 
 │                       │       ├ Description     : OpenPrinting CUPS is an open source printing system for
@@ -1015,14 +1015,14 @@
 │                       │       │                  ╰ UID : a83e909990543973 
 │                       │       ├ InstalledVersion: 1:2.3.3op2-39.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34978 
-│                       │       ├ Fingerprint     : sha256:0511addc5dd65a7ff3fab9ca9cd8c764b7427633bea65fc15476
-│                       │       │                   25d3508dd8fb 
+│                       │       ├ Fingerprint     : sha256:29bc32a6afb23354db25643d58f1a1a8ad726c8cecc6501c4ad8
+│                       │       │                   4433273234fd 
 │                       │       ├ Title           : cups: OpenPrinting CUPS: Denial of Service via path
 │                       │       │                   traversal in RSS notifier 
 │                       │       ├ Description     : OpenPrinting CUPS is an open source printing system for
@@ -1073,14 +1073,14 @@
 │                       │       │                  ╰ UID : a83e909990543973 
 │                       │       ├ InstalledVersion: 1:2.3.3op2-39.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34979 
-│                       │       ├ Fingerprint     : sha256:d9bffa864d3ea8c7f268126644519f905b72eb77d5d69955a8f2
-│                       │       │                   ac2bd3357920 
+│                       │       ├ Fingerprint     : sha256:6f20633272dd8a06660abc9e53646f274e29a97187d394551644
+│                       │       │                   3ed8a952d6d3 
 │                       │       ├ Title           : cups: OpenPrinting CUPS: Denial of Service via heap-based
 │                       │       │                   buffer overflow in job attribute processing 
 │                       │       ├ Description     : OpenPrinting CUPS is an open source printing system for
@@ -1124,14 +1124,14 @@
 │                       │       │                  ╰ UID : a83e909990543973 
 │                       │       ├ InstalledVersion: 1:2.3.3op2-39.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34990 
-│                       │       ├ Fingerprint     : sha256:28a1c016f6f98c38dfd7db5cc28357a1af10631c03dbf7ce51e8
-│                       │       │                   328c48bb2c66 
+│                       │       ├ Fingerprint     : sha256:96b0f085a4c6dd0c2a7f6bb417d4096aa493c9e05d436c030fec
+│                       │       │                   00f10a8151b2 
 │                       │       ├ Title           : cups: OpenPrinting CUPS: Privilege escalation via arbitrary
 │                       │       │                    file overwrite due to coerced authentication 
 │                       │       ├ Description     : OpenPrinting CUPS is an open source printing system for
@@ -1183,14 +1183,14 @@
 │                       │       │                  ╰ UID : a83e909990543973 
 │                       │       ├ InstalledVersion: 1:2.3.3op2-39.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-39314 
-│                       │       ├ Fingerprint     : sha256:4091dff148714c10712a8b392de68e01c39c2c58058a074ac69b
-│                       │       │                   86a102ec8720 
+│                       │       ├ Fingerprint     : sha256:19ede34394c321a985d702038b718cde2ad64756ba768e36c7bd
+│                       │       │                   30c5c68ee509 
 │                       │       ├ Title           : cups: CUPS: Denial of Service via integer underflow in IPP
 │                       │       │                   attribute handling 
 │                       │       ├ Description     : OpenPrinting CUPS is an open source printing system for
@@ -1245,14 +1245,14 @@
 │                       │       │                  ╰ UID : a83e909990543973 
 │                       │       ├ InstalledVersion: 1:2.3.3op2-39.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-39316 
-│                       │       ├ Fingerprint     : sha256:b37cc28c511000d3836de2b75a172919b65076b67f56073c361d
-│                       │       │                   38b8ef086ec6 
+│                       │       ├ Fingerprint     : sha256:f299597f9788bb000292205daacdad81b8af362a5fefea78e320
+│                       │       │                   c15eb987b10a 
 │                       │       ├ Title           : cups: CUPS: Denial of Service and potential arbitrary code
 │                       │       │                   execution via use-after-free vulnerability when deleting
 │                       │       │                   temporary printers. 
@@ -1307,14 +1307,14 @@
 │                       │       │                  ╰ UID : a83e909990543973 
 │                       │       ├ InstalledVersion: 1:2.3.3op2-39.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87875 
-│                       │       ├ Fingerprint     : sha256:d9d40e38f0927c65dc7d9b794473e304463dfcea85a230208d1d
-│                       │       │                   9269494bc7be 
+│                       │       ├ Fingerprint     : sha256:286496810264d9c50f133e7fcf7874b144ed430fa949c51cbb0d
+│                       │       │                   1b8b147abc06 
 │                       │       ├ Title           : cups: OpenPrinting CUPS: Heap out-of-bounds read in
 │                       │       │                   cupsUTF32ToUTF8() via missing source-length bound 
 │                       │       ├ Description     : The cupsUTF32ToUTF8() function in CUPS's cups/transcode.c
@@ -1358,14 +1358,14 @@
 │                       │       │                  ╰ UID : a83e909990543973 
 │                       │       ├ InstalledVersion: 1:2.3.3op2-39.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-25317 
-│                       │       ├ Fingerprint     : sha256:b41f2dab092dd000c9519566e6b3663289fbab2b986e5f3a4c4e
-│                       │       │                   c87925ce6dcc 
+│                       │       ├ Fingerprint     : sha256:544819f841861e2a403c5205c28ab98313f9a0265103753b35e4
+│                       │       │                   13b51affab3c 
 │                       │       ├ Title           : cups: insecure permissions of /var/log/cups allows for
 │                       │       │                   symlink attacks 
 │                       │       ├ Description     : A Incorrect Default Permissions vulnerability in the
@@ -1421,14 +1421,14 @@
 │                       │       │                  ╰ UID : a83e909990543973 
 │                       │       ├ InstalledVersion: 1:2.3.3op2-39.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41079 
-│                       │       ├ Fingerprint     : sha256:a70720223ececad874c3c4d967ed00101d10236a6a1c76c0eab9
-│                       │       │                   2aff84e3aa17 
+│                       │       ├ Fingerprint     : sha256:2c7ecfc2bfcf0aa145b6291e3ebb68591567370135aa26130de6
+│                       │       │                   a875aa2015c0 
 │                       │       ├ Title           : cups: CUPS: Information disclosure via crafted SNMP response 
 │                       │       ├ Description     : OpenPrinting CUPS is an open source printing system for
 │                       │       │                   Linux and other Unix-like operating systems. Prior to
@@ -1484,14 +1484,14 @@
 │                       │       │                  ╰ UID : a83e909990543973 
 │                       │       ├ InstalledVersion: 1:2.3.3op2-39.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-87876 
-│                       │       ├ Fingerprint     : sha256:648a917249b04e51e34d48d7b29661e2135031b954613c9638b7
-│                       │       │                   69082790378a 
+│                       │       ├ Fingerprint     : sha256:017ce3b9ec663cd6824f3666b7a5376fe00f121e88755ca50b0f
+│                       │       │                   a889f51e7a99 
 │                       │       ├ Title           : cups: OpenPrinting CUPS: Remaining case-insensitive
 │                       │       │                   username matching in scheduler side paths (CVE-2026-27447
 │                       │       │                   follow-up) 
@@ -1535,14 +1535,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13034 
-│                       │       ├ Fingerprint     : sha256:c37d7eecd4b420186772c82f117914527a60dc48cfe91664ab0c
-│                       │       │                   9d837dd0bffb 
+│                       │       ├ Fingerprint     : sha256:f67e63aa3bdaa47eec296c08e8fb9bbd4973868fa62d0e0a0af3
+│                       │       │                   b48253995d5d 
 │                       │       ├ Title           : curl: Public key pinning bypass via QUIC and GnuTLS allows
 │                       │       │                   server impersonation 
 │                       │       ├ Description     : When using `CURLOPT_PINNEDPUBLICKEY` option with libcurl or
@@ -1596,14 +1596,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14017 
-│                       │       ├ Fingerprint     : sha256:845f2269301be90f0d221cfa2a62fb1bcce2d3d0234eaf01fcae
-│                       │       │                   c2e28c4a59e2 
+│                       │       ├ Fingerprint     : sha256:73652d410b556574fe291db053881f48a463c1cabedffe6be1bb
+│                       │       │                   6e9f0424443a 
 │                       │       ├ Title           : curl: curl: Security bypass due to global TLS option
 │                       │       │                   changes in multi-threaded LDAPS transfers 
 │                       │       ├ Description     : When doing multi-threaded LDAPS transfers (LDAP over TLS)
@@ -1657,14 +1657,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11856 
-│                       │       ├ Fingerprint     : sha256:52fddf2cb6d2bf5e7dda4d7c3293bf85c98efd5fa40f7560b1e0
-│                       │       │                   99ad9913bccf 
+│                       │       ├ Fingerprint     : sha256:302aaf935e6f8161f318cf10b97f3c6463e7441eb3890740ffaf
+│                       │       │                   111562543e44 
 │                       │       ├ Title           : curl: curl: Information disclosure via incorrect Digest
 │                       │       │                   authentication header reuse 
 │                       │       ├ Description     : Successfully using libcurl to do a transfer to a specific
@@ -1742,14 +1742,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19931 
-│                       │       ├ Fingerprint     : sha256:8178f8c81abd65d980183a245e5c2f08a531589f5cf43837b50b
-│                       │       │                   7e1fc253628d 
+│                       │       ├ Fingerprint     : sha256:6475b9de96fd1d36d3552484234e751eee182be3454e76b3d6f6
+│                       │       │                   138762251690 
 │                       │       ├ Title           : curl: libcurl: Information disclosure via incorrect
 │                       │       │                   connection reuse with Negotiate authentication 
 │                       │       ├ Description     : A flaw in libcurl makes it wrongly reuse an HTTP connection
@@ -1790,14 +1790,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3784 
-│                       │       ├ Fingerprint     : sha256:d36053fd4ceb860e8634e0045b34f4b317e86b971b3008ffc3e3
-│                       │       │                   e1adb30e0f13 
+│                       │       ├ Fingerprint     : sha256:176c1c884772ef55015e0a1cf1a90877dd5c421120a57d2b48b9
+│                       │       │                   71506e6c7ba7 
 │                       │       ├ Title           : curl: curl: Unauthorized access due to improper HTTP proxy
 │                       │       │                   connection reuse 
 │                       │       ├ Description     : curl would wrongly reuse an existing HTTP proxy connection
@@ -1860,14 +1860,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4873 
-│                       │       ├ Fingerprint     : sha256:e12fc53abc8538d8578913bd38dfeea62f6873d1b3958226b741
-│                       │       │                   b6c7c4f49aef 
+│                       │       ├ Fingerprint     : sha256:59c705ba09fe40099952510d2878f337bc77f91267cfa18194da
+│                       │       │                   f461696a92ec 
 │                       │       ├ Title           : curl: curl: Information disclosure due to incorrect TLS
 │                       │       │                   connection reuse 
 │                       │       ├ Description     : A vulnerability exists where a connection requiring TLS
@@ -1918,14 +1918,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-5545 
-│                       │       ├ Fingerprint     : sha256:91882eaba803988713f312592ec687a03c46f9d4b481284d0e41
-│                       │       │                   40b41eb09c74 
+│                       │       ├ Fingerprint     : sha256:5a6eebee1556d877c35cb77c1115fc69c08b8809a9d09146e319
+│                       │       │                   f15fe8d7ffa5 
 │                       │       ├ Title           : curl: libcurl: Authentication bypass due to incorrect HTTP
 │                       │       │                   Negotiate connection reuse 
 │                       │       ├ Description     : libcurl might in some circumstances reuse the wrong
@@ -2000,14 +2000,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-5773 
-│                       │       ├ Fingerprint     : sha256:bb6edc5e71c0c507f9cf13ffc94445fc4b69914f40fba9f87c1c
-│                       │       │                   ff1e3868a7c5 
+│                       │       ├ Fingerprint     : sha256:08aa06e33d7220a0122e9401137a3ac189f0079be284677f228e
+│                       │       │                   cdc39f860fec 
 │                       │       ├ Title           : curl: libcurl: Wrong file transfer due to incorrect SMB
 │                       │       │                   connection reuse 
 │                       │       ├ Description     : libcurl might in some circumstances reuse the wrong
@@ -2074,14 +2074,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6253 
-│                       │       ├ Fingerprint     : sha256:340b2c50ee2a37f127a646a40bba6078de4c4d63ffb444009bbc
-│                       │       │                   a2a92e1c1980 
+│                       │       ├ Fingerprint     : sha256:28d93b4dddcc46d77d35cb4dd89ecd8e4fe5647d5d7fbacc7233
+│                       │       │                   2c39893297c8 
 │                       │       ├ Title           : curl: curl: Proxy credential disclosure via redirects to
 │                       │       │                   unauthenticated proxies 
 │                       │       ├ Description     : curl might erroneously pass on credentials for a first
@@ -2135,14 +2135,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6429 
-│                       │       ├ Fingerprint     : sha256:1ab3447599cd815b399dd275260437c2d139a9f03c573aab2467
-│                       │       │                   9a9e4d3f050f 
+│                       │       ├ Fingerprint     : sha256:d86a3533d1504f0b5e47eaea3a1767a88b903b5941f2b7a6f975
+│                       │       │                   e51685136ac9 
 │                       │       ├ Title           : curl: libcurl: Credential leak via reused proxy connection
 │                       │       │                   during HTTP redirects 
 │                       │       ├ Description     : When asked to both use a `.netrc` file for credentials and
@@ -2187,14 +2187,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-7168 
-│                       │       ├ Fingerprint     : sha256:23a5d0fea263cbed9476e6d5a5d78515dda9b53fc96758a8dd7e
-│                       │       │                   8234586dd00f 
+│                       │       ├ Fingerprint     : sha256:50620a3fb736acf9632e8b46ed5df45f34311dba104aeab21f65
+│                       │       │                   9a207b7346ad 
 │                       │       ├ Title           : curl: libcurl: Information disclosure via incorrect
 │                       │       │                   Proxy-Authorization header reuse 
 │                       │       ├ Description     : Successfully using libcurl to do a transfer over a specific
@@ -2249,14 +2249,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-8924 
-│                       │       ├ Fingerprint     : sha256:bbb6decb53a9a8154d5d94f81308c308c15ace9df6e9aedc43dd
-│                       │       │                   effffd8dc02c 
+│                       │       ├ Fingerprint     : sha256:bf798da71bda538d9b523a02ee42001c1737b15919c7c7fae479
+│                       │       │                   fdb7cd3fde18 
 │                       │       ├ Title           : curl: curl: Cookie injection via malicious HTTP server
 │                       │       │                   using super cookies 
 │                       │       ├ Description     : A flaw in curl’s cookie parsing logic allows a malicious
@@ -2332,14 +2332,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-8932 
-│                       │       ├ Fingerprint     : sha256:e848852b0faa073418e2e6065beef362cbb0ac9b5653e55422ae
-│                       │       │                   af7dfe95dc28 
+│                       │       ├ Fingerprint     : sha256:240142c3b21fc6bf4755e28d78dd17a1e58fb9d030f92f65623b
+│                       │       │                   6dfc11d04a1b 
 │                       │       ├ Title           : libcurl: libcurl: Security feature bypass due to improper
 │                       │       │                   mTLS connection reuse 
 │                       │       ├ Description     : libcurl would reuse a previously created connection even
@@ -2424,14 +2424,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11053 
-│                       │       ├ Fingerprint     : sha256:89844e6650487e509abcba924afaf4b65ce06fdafb5d1dbf2fe4
-│                       │       │                   e4b17b90efa5 
+│                       │       ├ Fingerprint     : sha256:46a192dcb88b7b6de1d1358e06b2ff02bd1f3634af03e83cfadc
+│                       │       │                   8f2581b553b8 
 │                       │       ├ Title           : curl: curl netrc password leak 
 │                       │       ├ Description     : When asked to both use a `.netrc` file for credentials and
 │                       │       │                   to follow HTTP
@@ -2710,14 +2710,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7264 
-│                       │       ├ Fingerprint     : sha256:92beb7682172eb65b117d401ea49cfe911d5ae2624cf5cf1bd25
-│                       │       │                   ec542ec523e2 
+│                       │       ├ Fingerprint     : sha256:b2fac1ca4a295c20e2fee2f2ec254daaa94a2ba3b23116db480e
+│                       │       │                   4775720a9505 
 │                       │       ├ Title           : curl: libcurl: ASN.1 date parser overread 
 │                       │       ├ Description     : libcurl's ASN1 parser code has the `GTime2str()` function,
 │                       │       │                   used for parsing an
@@ -3002,14 +3002,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9681 
-│                       │       ├ Fingerprint     : sha256:a1db8ead3d19e3593a1ccc016a346243e72a8a0983fd11273443
-│                       │       │                   1464856a01f3 
+│                       │       ├ Fingerprint     : sha256:03379be526f97aa440f7fb1aebf215daa8e9400f747d3467fb52
+│                       │       │                   092ce2c1fac9 
 │                       │       ├ Title           : curl: HSTS subdomain overwrites parent cache entry 
 │                       │       ├ Description     : When curl is asked to use HSTS, the expiry time for a
 │                       │       │                   subdomain might
@@ -3101,14 +3101,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14524 
-│                       │       ├ Fingerprint     : sha256:cfec817af1588bd0665f9a160914135f2ac0b4e602257d145859
-│                       │       │                   86d44c32df15 
+│                       │       ├ Fingerprint     : sha256:8a24641d834ce452e422a676c88dc539e09db459bf279b28efd0
+│                       │       │                   560b35fb5567 
 │                       │       ├ Title           : curl: Information disclosure via cross-protocol redirect
 │                       │       │                   with OAuth2 bearer token 
 │                       │       ├ Description     : When an OAuth2 bearer token is used for an HTTP(S)
@@ -3159,14 +3159,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-15079 
-│                       │       ├ Fingerprint     : sha256:4624161d12740f171c94a0c345aed95e09e6a200fb75eeb2df63
-│                       │       │                   4a91b1508dc3 
+│                       │       ├ Fingerprint     : sha256:aaf763167603b9f21a65cc5560756ee1551651af25e2810d9326
+│                       │       │                   23ec3e6e67b9 
 │                       │       ├ Title           : curl: Host verification bypass during SSH transfers 
 │                       │       ├ Description     : When doing SSH-based transfers using either SCP or SFTP,
 │                       │       │                   and setting the
@@ -3214,14 +3214,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-15224 
-│                       │       ├ Fingerprint     : sha256:65e4118a9a2cf6a7a0c27aa2dba33eaf3198cef4608eeb2a4057
-│                       │       │                   e9bbce471d5f 
+│                       │       ├ Fingerprint     : sha256:bc9df19bfbea0df97be4935661954c65cc10d9fd4a249b43fa59
+│                       │       │                   20262a5daf8f 
 │                       │       ├ Title           : curl: libssh key passphrase bypass without agent set 
 │                       │       ├ Description     : When doing SSH-based transfers using either SCP or SFTP,
 │                       │       │                   and asked to do
@@ -3267,14 +3267,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-18924 
-│                       │       ├ Fingerprint     : sha256:1348b907e052cb409b0a3ea549b65fbb0821d9b5467846142573
-│                       │       │                   0e7b4b8c704d 
+│                       │       ├ Fingerprint     : sha256:ae1e1fc759aa3a6430fa7588169e8d7274a2232be5dc21af3cef
+│                       │       │                   e4c3fd18de2e 
 │                       │       ├ Title           : curl: libcurl: Use-after-free in HTTP/2 Server Push with
 │                       │       │                   shared connections 
 │                       │       ├ Description     : A flaw in libcurl's handling of HTTP/2 Server Push streams,
@@ -3317,14 +3317,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6276 
-│                       │       ├ Fingerprint     : sha256:47fba0d4b76593140e91988dbf5dbd48a7a14f0ddc8e7025313b
-│                       │       │                   d1cdc0f75c79 
+│                       │       ├ Fingerprint     : sha256:19e4e560b3333b6a9eea426d1aa10debd6d273ecbf5e6c68405e
+│                       │       │                   4d766e718de4 
 │                       │       ├ Title           : curl: libcurl: Information disclosure due to cookie leak
 │                       │       │                   when reusing connections with custom Host headers 
 │                       │       ├ Description     : Using libcurl, when a custom `Host:` header is first set
@@ -3379,14 +3379,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-80230 
-│                       │       ├ Fingerprint     : sha256:7a7a6c141a12ffcb32138749b9f86343ecfc2761b818aa0ef372
-│                       │       │                   48ef5e8d1686 
+│                       │       ├ Fingerprint     : sha256:3b8b12fa6b9eb4c5d6ea5c044c5d16c11b4600044f6dfd21bf4e
+│                       │       │                   d5b7b24022db 
 │                       │       ├ Title           : curl: curl: Public key pinning bypass allows
 │                       │       │                   unauthenticated connections 
 │                       │       ├ Description     : When `CURLOPT_PINNEDPUBLICKEY` is configured alongside
@@ -3432,14 +3432,14 @@
 │                       │       │                  ╰ UID : 67235226e57922cd 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-82209 
-│                       │       ├ Fingerprint     : sha256:6d6623a60f95f051cd2bb23999a12e58f494e1ad2eea8bc39947
-│                       │       │                   25dd50a9eae7 
+│                       │       ├ Fingerprint     : sha256:1c03f2f173ad65f8265919379bcbbb1350f2be1056c959398c7d
+│                       │       │                   8abfbaf24752 
 │                       │       ├ Title           : curl: libcurl: Information disclosure via improper Public
 │                       │       │                   Suffix List boundary check 
 │                       │       ├ Description     : When libpsl support is enabled, libcurl fails to enforce
@@ -3494,14 +3494,14 @@
 │                       │       │                  ╰ UID : d230693b2613d411 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-66046 
-│                       │       ├ Fingerprint     : sha256:78cfa252b32029ba7be6d7aa18d046f136b8223baa48f1359021
-│                       │       │                   cd82eeba7ad8 
+│                       │       ├ Fingerprint     : sha256:333a5216ee782a5fec615e92458534c92f91a15744f316c3c56e
+│                       │       │                   cd11b24f2e6c 
 │                       │       ├ Title           : expat: Expat: Denial of Service via quadratic complexity in
 │                       │       │                    attribute processing 
 │                       │       ├ Description     : Expat through 2.8.3 contains a denial of service
@@ -3532,13 +3532,14 @@
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-66046       
 │                       │       │                  https://github.com/libexpat/libexpat/pull/1321              
 │                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-66046             
+│                       │       │                  https://ubuntu.com/security/notices/USN-8813-1              
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-66046             
 │                       │       │                  https://www.vulncheck.com/advisories/expat-denial-of-service
 │                       │       │                  -via-storeatts-quadratic-complexity                         
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-18T15:16:57Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T15:07:24.37Z 
-│                       ├ [49]  ╭ VulnerabilityID : CVE-2026-32776 
+│                       ├ [49]  ╭ VulnerabilityID : CVE-2026-76641 
 │                       │       ├ PkgID           : expat@2.5.0-6.el9_8.3.x86_64 
 │                       │       ├ PkgName         : expat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-6.el9_8.3?arch=x86_64&dis
@@ -3546,14 +3547,120 @@
 │                       │       │                  ╰ UID : d230693b2613d411 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-76641 
+│                       │       ├ Fingerprint     : sha256:5aac189df077c34edc14ab85a832f7f2b28333197272706044dd
+│                       │       │                   ed3a38f698ce 
+│                       │       ├ Title           : expat: Expat: Denial of Service via XML external entity
+│                       │       │                   parsing 
+│                       │       ├ Description     : Expat through 2.8.3 contains an out-of-bounds read
+│                       │       │                   vulnerability that allows attackers to trigger memory
+│                       │       │                   corruption by processing XML with external entity parsers
+│                       │       │                   created via XML_ExternalEntityParserCreate. A struct size
+│                       │       │                   mismatch between ELEMENT_TYPE members causes storeAtts to
+│                       │       │                   read the attIndex member past allocated memory boundaries,
+│                       │       │                   resulting in failure to normalize whitespace in non-CDATA
+│                       │       │                   attributes or a wild pointer dereference causing a
+│                       │       │                   segfault. This vulnerability was introduced by the fix for
+│                       │       │                   CVE-2026-66046. 
+│                       │       ├ Severity        : HIGH 
+│                       │       ├ CweIDs                  
+│                       │       │                  ───────
+│                       │       │                  CWE-125
+│                       │       │                  
+│                       │       ├ VendorSeverity   ╭ azure : 3 
+│                       │       │                  ├ redhat: 3 
+│                       │       │                  ╰ ubuntu: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References                                                                   
+│                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-76641       
+│                       │       │                  https://github.com/libexpat/libexpat/commit/98599f6dcc2b4604
+│                       │       │                  10881fe420f5f55d6bec63bf                                    
+│                       │       │                  https://github.com/libexpat/libexpat/pull/1331              
+│                       │       │                                                                              
+│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-76641             
+│                       │       │                                                                              
+│                       │       │                  https://ubuntu.com/security/notices/USN-8813-1              
+│                       │       │                                                                              
+│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-76641             
+│                       │       │                                                                              
+│                       │       │                  https://www.vulncheck.com/advisories/expat-out-of-bounds-rea
+│                       │       │                  d-via-dtdcopy                                               
+│                       │       │                  
+│                       │       ├ PublishedDate   : 2026-08-20T18:16:51.887Z 
+│                       │       ╰ LastModifiedDate: 2026-09-24T20:02:50.26Z 
+│                       ├ [50]  ╭ VulnerabilityID : CVE-2026-93990 
+│                       │       ├ PkgID           : expat@2.5.0-6.el9_8.3.x86_64 
+│                       │       ├ PkgName         : expat 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-6.el9_8.3?arch=x86_64&dis
+│                       │       │                  │       tro=redhat-9.8 
+│                       │       │                  ╰ UID : d230693b2613d411 
+│                       │       ├ InstalledVersion: 2.5.0-6.el9_8.3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-93990 
+│                       │       ├ Fingerprint     : sha256:750a0ce0a3fbec2cacd3f9528b455d186f3445db71f345ccfebb
+│                       │       │                   0f62c057de1c 
+│                       │       ├ Title           : expat: Expat: XML Injection via Malformed UTF-16 Input 
+│                       │       ├ Description     : Expat through 2.8.4 fails to validate low surrogates
+│                       │       │                   following high surrogates in UTF-16 input, allowing
+│                       │       │                   malformed UTF-16 sequences to be accepted. Attackers can
+│                       │       │                   craft UTF-16 encoded XML with lone high surrogates that
+│                       │       │                   consume following code units, hiding markup characters from
+│                       │       │                    the parser and enabling XML injection attacks. 
+│                       │       ├ Severity        : HIGH 
+│                       │       ├ CweIDs                  
+│                       │       │                  ───────
+│                       │       │                  CWE-176
+│                       │       │                  
+│                       │       ├ VendorSeverity   ─ redhat: 3 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           H/A:N 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References                                                                   
+│                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-93990       
+│                       │       │                  https://github.com/libexpat/libexpat                        
+│                       │       │                  https://github.com/libexpat/libexpat/commit/ff6e1d7e750bbe24
+│                       │       │                  5178f51a47a965dc8342861a                                    
+│                       │       │                  https://github.com/libexpat/libexpat/pull/1282              
+│                       │       │                                                                              
+│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-93990             
+│                       │       │                                                                              
+│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-93990             
+│                       │       │                                                                              
+│                       │       │                  https://www.vulncheck.com/advisories/expat-through-2.8.4-mal
+│                       │       │                  formed-utf-16-acceptance-via-unchecked-surrogate            
+│                       │       │                  
+│                       │       ├ PublishedDate   : 2026-09-19T23:17:10.203Z 
+│                       │       ╰ LastModifiedDate: 2026-09-22T20:25:55.87Z 
+│                       ├ [51]  ╭ VulnerabilityID : CVE-2026-32776 
+│                       │       ├ PkgID           : expat@2.5.0-6.el9_8.3.x86_64 
+│                       │       ├ PkgName         : expat 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-6.el9_8.3?arch=x86_64&dis
+│                       │       │                  │       tro=redhat-9.8 
+│                       │       │                  ╰ UID : d230693b2613d411 
+│                       │       ├ InstalledVersion: 2.5.0-6.el9_8.3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32776 
-│                       │       ├ Fingerprint     : sha256:45f3c996f80d2f934040de8115cb8af6898e8005cdad24eb096f
-│                       │       │                   2a3d611ebb21 
+│                       │       ├ Fingerprint     : sha256:50409ecc1f7bda8bd38090fa42a52186190f42dba77948f20403
+│                       │       │                   b0a1b10821d0 
 │                       │       ├ Title           : libexpat: libexpat: Denial of Service due to NULL pointer
 │                       │       │                   dereference 
 │                       │       ├ Description     : libexpat before 2.7.5 allows a NULL pointer dereference
@@ -3597,7 +3704,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-16T14:19:44.6Z 
 │                       │       ╰ LastModifiedDate: 2026-07-14T13:18:49.53Z 
-│                       ├ [50]  ╭ VulnerabilityID : CVE-2026-32777 
+│                       ├ [52]  ╭ VulnerabilityID : CVE-2026-32777 
 │                       │       ├ PkgID           : expat@2.5.0-6.el9_8.3.x86_64 
 │                       │       ├ PkgName         : expat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-6.el9_8.3?arch=x86_64&dis
@@ -3605,14 +3712,14 @@
 │                       │       │                  ╰ UID : d230693b2613d411 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32777 
-│                       │       ├ Fingerprint     : sha256:fa8946e1da9a2bd3eb77f26bfc4b08e80bfcdfaf2a892971853a
-│                       │       │                   702f59bc2e5a 
+│                       │       ├ Fingerprint     : sha256:29da51066aaac8d549422f662dd2e50be9d4f9dce6eefb5a60e5
+│                       │       │                   b848dbc7d42f 
 │                       │       ├ Title           : libexpat: libexpat: Denial of Service via infinite loop in
 │                       │       │                   DTD content parsing 
 │                       │       ├ Description     : libexpat before 2.7.5 allows an infinite loop while parsing
@@ -3660,7 +3767,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-16T14:19:44.78Z 
 │                       │       ╰ LastModifiedDate: 2026-07-14T13:18:49.687Z 
-│                       ├ [51]  ╭ VulnerabilityID : CVE-2026-32778 
+│                       ├ [53]  ╭ VulnerabilityID : CVE-2026-32778 
 │                       │       ├ PkgID           : expat@2.5.0-6.el9_8.3.x86_64 
 │                       │       ├ PkgName         : expat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-6.el9_8.3?arch=x86_64&dis
@@ -3668,14 +3775,14 @@
 │                       │       │                  ╰ UID : d230693b2613d411 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32778 
-│                       │       ├ Fingerprint     : sha256:b8cf618d8218d6e27307f5a9cd6b7ed2cc40cb764fea443e8462
-│                       │       │                   d456a93439a4 
+│                       │       ├ Fingerprint     : sha256:9736596eb2baf07bcc76f2f9971cf46362ba32dee69e13efb059
+│                       │       │                   cb804ca7ff5d 
 │                       │       ├ Title           : libexpat: libexpat: Denial of Service via NULL pointer
 │                       │       │                   dereference after out-of-memory condition 
 │                       │       ├ Description     : libexpat before 2.7.5 allows a NULL pointer dereference in
@@ -3720,7 +3827,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-16T14:19:44.97Z 
 │                       │       ╰ LastModifiedDate: 2026-07-14T13:18:49.843Z 
-│                       ├ [52]  ╭ VulnerabilityID : CVE-2026-56131 
+│                       ├ [54]  ╭ VulnerabilityID : CVE-2026-56131 
 │                       │       ├ PkgID           : expat@2.5.0-6.el9_8.3.x86_64 
 │                       │       ├ PkgName         : expat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-6.el9_8.3?arch=x86_64&dis
@@ -3728,14 +3835,14 @@
 │                       │       │                  ╰ UID : d230693b2613d411 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56131 
-│                       │       ├ Fingerprint     : sha256:a64f53c12df8c8d8ee577e9eccdfca1e2c53e2ad49f8a0242fd8
-│                       │       │                   5e48b224e585 
+│                       │       ├ Fingerprint     : sha256:7b13559f7b89d4077cc85abd60daf6d7c3f06bcee5ede4517e0c
+│                       │       │                   ef3abf6be26e 
 │                       │       ├ Title           : libexpat: libexpat: Use-after-free vulnerability due to
 │                       │       │                   insufficient handler call depth tracking 
 │                       │       ├ Description     : libexpat before 2.8.2 lacks handler call depth tracking for
@@ -3763,11 +3870,12 @@
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-56131
 │                       │       │                  https://github.com/libexpat/libexpat/pull/1267       
 │                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-56131      
+│                       │       │                  https://ubuntu.com/security/notices/USN-8813-1       
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-56131      
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-19T06:17:10.107Z 
 │                       │       ╰ LastModifiedDate: 2026-06-23T20:15:48.007Z 
-│                       ├ [53]  ╭ VulnerabilityID : CVE-2026-56403 
+│                       ├ [55]  ╭ VulnerabilityID : CVE-2026-56403 
 │                       │       ├ PkgID           : expat@2.5.0-6.el9_8.3.x86_64 
 │                       │       ├ PkgName         : expat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-6.el9_8.3?arch=x86_64&dis
@@ -3775,14 +3883,14 @@
 │                       │       │                  ╰ UID : d230693b2613d411 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.3 
 │                       │       ├ Status          : under_investigation 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56403 
-│                       │       ├ Fingerprint     : sha256:834610160b233614dfc2715bbf0dfbf9d21701b8c9f9fd5426f8
-│                       │       │                   3762ec2db852 
+│                       │       ├ Fingerprint     : sha256:4377c1b09fe8a349ace708f75b61c6ca5c9a972b7376b9ca650b
+│                       │       │                   21fb5964bf07 
 │                       │       ├ Title           : libexpat: libexpat: Arbitrary code execution due to integer
 │                       │       │                    overflow in storeAtts 
 │                       │       ├ Description     : libexpat before 2.8.2 has an integer overflow in storeAtts. 
@@ -3816,7 +3924,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-21T16:16:26.59Z 
 │                       │       ╰ LastModifiedDate: 2026-06-23T20:15:16.76Z 
-│                       ├ [54]  ╭ VulnerabilityID : CVE-2026-56404 
+│                       ├ [56]  ╭ VulnerabilityID : CVE-2026-56404 
 │                       │       ├ PkgID           : expat@2.5.0-6.el9_8.3.x86_64 
 │                       │       ├ PkgName         : expat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-6.el9_8.3?arch=x86_64&dis
@@ -3824,14 +3932,14 @@
 │                       │       │                  ╰ UID : d230693b2613d411 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56404 
-│                       │       ├ Fingerprint     : sha256:de7a7e408d2636e47ffb2e142bb7cf69878d3476cdebd247cc47
-│                       │       │                   2579b2a543a9 
+│                       │       ├ Fingerprint     : sha256:604a08d0189cd0b6cee1c5d1e1bf4c55541c55a0b835bbfa882f
+│                       │       │                   421f40c87435 
 │                       │       ├ Title           : libexpat: libexpat: Arbitrary Code Execution via integer
 │                       │       │                   overflow in addBinding 
 │                       │       ├ Description     : libexpat before 2.8.2 has an integer overflow in addBinding. 
@@ -3865,7 +3973,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-21T16:16:27.62Z 
 │                       │       ╰ LastModifiedDate: 2026-06-23T20:15:05.85Z 
-│                       ├ [55]  ╭ VulnerabilityID : CVE-2026-56405 
+│                       ├ [57]  ╭ VulnerabilityID : CVE-2026-56405 
 │                       │       ├ PkgID           : expat@2.5.0-6.el9_8.3.x86_64 
 │                       │       ├ PkgName         : expat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-6.el9_8.3?arch=x86_64&dis
@@ -3873,14 +3981,14 @@
 │                       │       │                  ╰ UID : d230693b2613d411 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56405 
-│                       │       ├ Fingerprint     : sha256:29b490016720964a8bbe041c7158e47a3389d73214d813d214d3
-│                       │       │                   b0e14ae2cb18 
+│                       │       ├ Fingerprint     : sha256:9bca2b5b6223711beba1bcbd864cb80f2823303d2b2ed5bb260e
+│                       │       │                   81bbf94ef887 
 │                       │       ├ Title           : libexpat: libexpat: Information disclosure and arbitrary
 │                       │       │                   code execution via integer overflow 
 │                       │       ├ Description     : libexpat before 2.8.2 has an integer overflow in
@@ -3915,7 +4023,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-21T16:16:27.74Z 
 │                       │       ╰ LastModifiedDate: 2026-06-23T20:14:51.73Z 
-│                       ├ [56]  ╭ VulnerabilityID : CVE-2026-56406 
+│                       ├ [58]  ╭ VulnerabilityID : CVE-2026-56406 
 │                       │       ├ PkgID           : expat@2.5.0-6.el9_8.3.x86_64 
 │                       │       ├ PkgName         : expat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-6.el9_8.3?arch=x86_64&dis
@@ -3923,14 +4031,14 @@
 │                       │       │                  ╰ UID : d230693b2613d411 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56406 
-│                       │       ├ Fingerprint     : sha256:a15f4330d94a408e79b7983078cb05cda711c41cc3c7f6a543ec
-│                       │       │                   f0329f3612d0 
+│                       │       ├ Fingerprint     : sha256:83a3a14fe5ec4cdf6e117105444c7e93e6c0242658206ae29a18
+│                       │       │                   1b902bbacbb4 
 │                       │       ├ Title           : libexpat: libexpat: Arbitrary code execution via integer
 │                       │       │                   overflow in XML_ParseBuffer 
 │                       │       ├ Description     : libexpat before 2.8.2 has an integer overflow in
@@ -3957,11 +4065,12 @@
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-56406
 │                       │       │                  https://github.com/libexpat/libexpat/pull/1255       
 │                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-56406      
+│                       │       │                  https://ubuntu.com/security/notices/USN-8813-1       
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-56406      
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-21T16:16:27.87Z 
 │                       │       ╰ LastModifiedDate: 2026-06-23T16:29:06.077Z 
-│                       ├ [57]  ╭ VulnerabilityID : CVE-2026-56407 
+│                       ├ [59]  ╭ VulnerabilityID : CVE-2026-56407 
 │                       │       ├ PkgID           : expat@2.5.0-6.el9_8.3.x86_64 
 │                       │       ├ PkgName         : expat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-6.el9_8.3?arch=x86_64&dis
@@ -3969,14 +4078,14 @@
 │                       │       │                  ╰ UID : d230693b2613d411 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56407 
-│                       │       ├ Fingerprint     : sha256:102333f1124dfdd43777e9aaf7f6cbf7a0e4f8502d3af3e39595
-│                       │       │                   bac94c5fe612 
+│                       │       ├ Fingerprint     : sha256:236cedf8fa758f6e7d1954d267560d56a97820b8dd334d68b1d9
+│                       │       │                   3c72a5808b64 
 │                       │       ├ Title           : libexpat: libexpat: Arbitrary code execution due to integer
 │                       │       │                    overflow 
 │                       │       ├ Description     : libexpat before 2.8.2 has an integer overflow in doProlog
@@ -4002,11 +4111,12 @@
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-56407
 │                       │       │                  https://github.com/libexpat/libexpat/pull/1262       
 │                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-56407      
+│                       │       │                  https://ubuntu.com/security/notices/USN-8813-1       
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-56407      
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-21T16:16:27.987Z 
 │                       │       ╰ LastModifiedDate: 2026-06-23T16:28:29.983Z 
-│                       ├ [58]  ╭ VulnerabilityID : CVE-2026-56412 
+│                       ├ [60]  ╭ VulnerabilityID : CVE-2026-56412 
 │                       │       ├ PkgID           : expat@2.5.0-6.el9_8.3.x86_64 
 │                       │       ├ PkgName         : expat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-6.el9_8.3?arch=x86_64&dis
@@ -4014,14 +4124,14 @@
 │                       │       │                  ╰ UID : d230693b2613d411 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-56412 
-│                       │       ├ Fingerprint     : sha256:0bd624ba45d3dc08661a30cc659933167ad3a39e2f220689fc9c
-│                       │       │                   ed86d048ce7f 
+│                       │       ├ Fingerprint     : sha256:27120ca5940c6d13140630ba03a5edb91002c250c4f176ebde6b
+│                       │       │                   bb8056411091 
 │                       │       ├ Title           : libexpat: libexpat: Use-after-free vulnerability due to
 │                       │       │                   improper handling of XML CDATA sections 
 │                       │       ├ Description     : libexpat before 2.8.2 does not consider XML_TOK_DATA_CHARS
@@ -4060,7 +4170,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-21T17:16:44.657Z 
 │                       │       ╰ LastModifiedDate: 2026-06-23T15:31:30.853Z 
-│                       ├ [59]  ╭ VulnerabilityID : CVE-2026-76957 
+│                       ├ [61]  ╭ VulnerabilityID : CVE-2026-76957 
 │                       │       ├ PkgID           : expat@2.5.0-6.el9_8.3.x86_64 
 │                       │       ├ PkgName         : expat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-6.el9_8.3?arch=x86_64&dis
@@ -4068,14 +4178,14 @@
 │                       │       │                  ╰ UID : d230693b2613d411 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-76957 
-│                       │       ├ Fingerprint     : sha256:a655011d90d813c605d26a469d492caf973a4597e43b27f79c3e
-│                       │       │                   916b37b0d701 
+│                       │       ├ Fingerprint     : sha256:8033ba4017db8166241123ae22b3fea3fcc37c22214bc1230e01
+│                       │       │                   585acd453be1 
 │                       │       ├ Title           : libexpat: libexpat: Memory corruption vulnerability allows
 │                       │       │                   arbitrary code execution or denial of service 
 │                       │       ├ Description     : libexpat before 2.8.4 lacks handler call depth tracking
@@ -4104,11 +4214,12 @@
 │                       │       │                  https://github.com/libexpat/libexpat/pull/1322       
 │                       │       │                  https://github.com/libexpat/libexpat/pull/1329       
 │                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-76957      
+│                       │       │                  https://ubuntu.com/security/notices/USN-8813-1       
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-76957      
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-20T05:16:29.747Z 
 │                       │       ╰ LastModifiedDate: 2026-09-08T20:56:31.86Z 
-│                       ├ [60]  ╭ VulnerabilityID : CVE-2025-66382 
+│                       ├ [62]  ╭ VulnerabilityID : CVE-2025-66382 
 │                       │       ├ PkgID           : expat@2.5.0-6.el9_8.3.x86_64 
 │                       │       ├ PkgName         : expat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-6.el9_8.3?arch=x86_64&dis
@@ -4116,14 +4227,14 @@
 │                       │       │                  ╰ UID : d230693b2613d411 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-66382 
-│                       │       ├ Fingerprint     : sha256:bcd1f7ac9bbc8be8c47d06beb9be1f76569de9eb0e48b2512f85
-│                       │       │                   a477fc3fd270 
+│                       │       ├ Fingerprint     : sha256:d2b5977782ea66a473757d3ef4e4d211f88c04a87f4c599a698b
+│                       │       │                   8d27117d32ce 
 │                       │       ├ Title           : libexpat: libexpat: Denial of service via crafted file
 │                       │       │                   processing 
 │                       │       ├ Description     : In libexpat through 2.7.3, a crafted file with an
@@ -4165,7 +4276,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-11-28T07:15:57.9Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T09:56:45.24Z 
-│                       ├ [61]  ╭ VulnerabilityID : CVE-2026-24515 
+│                       ├ [63]  ╭ VulnerabilityID : CVE-2026-24515 
 │                       │       ├ PkgID           : expat@2.5.0-6.el9_8.3.x86_64 
 │                       │       ├ PkgName         : expat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-6.el9_8.3?arch=x86_64&dis
@@ -4173,14 +4284,14 @@
 │                       │       │                  ╰ UID : d230693b2613d411 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-24515 
-│                       │       ├ Fingerprint     : sha256:566072d89b796f3676c13a72854506ea3192c70e10b3c6a5fce5
-│                       │       │                   f33d189c7819 
+│                       │       ├ Fingerprint     : sha256:a5c55609b21322d2c759ea7e6fbe76a716ac7a628ff075babe69
+│                       │       │                   02e751877303 
 │                       │       ├ Title           : libexpat: libexpat null pointer dereference 
 │                       │       ├ Description     : In libexpat before 2.7.4, XML_ExternalEntityParserCreate
 │                       │       │                   does not copy unknown encoding handler user data. 
@@ -4225,7 +4336,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-23T08:16:01.49Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:23:10.66Z 
-│                       ├ [62]  ╭ VulnerabilityID : CVE-2026-41080 
+│                       ├ [64]  ╭ VulnerabilityID : CVE-2026-41080 
 │                       │       ├ PkgID           : expat@2.5.0-6.el9_8.3.x86_64 
 │                       │       ├ PkgName         : expat 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/expat@2.5.0-6.el9_8.3?arch=x86_64&dis
@@ -4233,14 +4344,14 @@
 │                       │       │                  ╰ UID : d230693b2613d411 
 │                       │       ├ InstalledVersion: 2.5.0-6.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41080 
-│                       │       ├ Fingerprint     : sha256:774596e034c9d6d8b558b19808d8ea6cf870fa6bc310ac0aef22
-│                       │       │                   df2bfbff2509 
+│                       │       ├ Fingerprint     : sha256:88c220190dbad4f2e3616126d48bd16f15c09ee10ba127ed8ed1
+│                       │       │                   4c534a423f79 
 │                       │       ├ Title           : libexpat: expat: libexpat: Denial of Service via hash
 │                       │       │                   flooding with crafted XML 
 │                       │       ├ Description     : libexpat before 2.8.0 uses insufficient entropy, and thus
@@ -4286,7 +4397,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-16T17:16:54.917Z 
 │                       │       ╰ LastModifiedDate: 2026-07-14T13:18:51.257Z 
-│                       ├ [63]  ╭ VulnerabilityID : CVE-2026-40467 
+│                       ├ [65]  ╭ VulnerabilityID : CVE-2026-40467 
 │                       │       ├ PkgID           : gawk@5.1.0-6.el9.x86_64 
 │                       │       ├ PkgName         : gawk 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/gawk@5.1.0-6.el9?arch=x86_64&distro=r
@@ -4294,14 +4405,14 @@
 │                       │       │                  ╰ UID : 37963bde3f4b15cb 
 │                       │       ├ InstalledVersion: 5.1.0-6.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-40467 
-│                       │       ├ Fingerprint     : sha256:d9731b53d41c1f631c3160d050af23425d265bffa3316794df0c
-│                       │       │                   fd33ca058b7c 
+│                       │       ├ Fingerprint     : sha256:56b014e9ed2ae5f0c0e1e01a56a2e1b585122a79beb7bceaa2fc
+│                       │       │                   aabbba24b03d 
 │                       │       ├ Title           : gawk: gawk: Denial of Service due to Use After Free
 │                       │       │                   vulnerability in io.c 
 │                       │       ├ Description     : Use After Free vulnerability has been found in "io.c"
@@ -4347,7 +4458,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-07-13T13:16:36.77Z 
 │                       │       ╰ LastModifiedDate: 2026-07-14T01:13:59.517Z 
-│                       ├ [64]  ╭ VulnerabilityID : CVE-2026-40468 
+│                       ├ [66]  ╭ VulnerabilityID : CVE-2026-40468 
 │                       │       ├ PkgID           : gawk@5.1.0-6.el9.x86_64 
 │                       │       ├ PkgName         : gawk 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/gawk@5.1.0-6.el9?arch=x86_64&distro=r
@@ -4355,14 +4466,14 @@
 │                       │       │                  ╰ UID : 37963bde3f4b15cb 
 │                       │       ├ InstalledVersion: 5.1.0-6.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-40468 
-│                       │       ├ Fingerprint     : sha256:64ca0160c43100fe6cd5102ac71de5eddd786c050bcd4c81dc05
-│                       │       │                   f94ad0502cb6 
+│                       │       ├ Fingerprint     : sha256:177f0a447317a91aac29e7853ed1a481cd66feeaba6bd4186442
+│                       │       │                   a52bc9efe645 
 │                       │       ├ Title           : gawk: gawk: Memory corruption via integer overflow 
 │                       │       ├ Description     : Integer overflow vulnerability has been found in
 │                       │       │                   "builtin.c" program file of gawk. This issue may lead to
@@ -4409,7 +4520,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-07-13T13:16:36.907Z 
 │                       │       ╰ LastModifiedDate: 2026-07-14T01:12:11.343Z 
-│                       ├ [65]  ╭ VulnerabilityID : CVE-2026-40553 
+│                       ├ [67]  ╭ VulnerabilityID : CVE-2026-40553 
 │                       │       ├ PkgID           : gawk@5.1.0-6.el9.x86_64 
 │                       │       ├ PkgName         : gawk 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/gawk@5.1.0-6.el9?arch=x86_64&distro=r
@@ -4417,14 +4528,14 @@
 │                       │       │                  ╰ UID : 37963bde3f4b15cb 
 │                       │       ├ InstalledVersion: 5.1.0-6.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-40553 
-│                       │       ├ Fingerprint     : sha256:2f76a0ba5eda950fafede6e815dd088c2c9fdc09d0531452f9ee
-│                       │       │                   7b40fa607934 
+│                       │       ├ Fingerprint     : sha256:24a6b5bb9a3168c538d83dc8d248f450b9a5cf1d882781738d6d
+│                       │       │                   71a485210769 
 │                       │       ├ Title           : gawk: Gawk: Buffer overflow in ftype() routine may lead to
 │                       │       │                   code execution or denial of service 
 │                       │       ├ Description     : Buffer overflow vulnerability has been found in
@@ -4472,7 +4583,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-07-13T13:16:37.147Z 
 │                       │       ╰ LastModifiedDate: 2026-07-14T01:10:20.12Z 
-│                       ├ [66]  ╭ VulnerabilityID : CVE-2023-4156 
+│                       ├ [68]  ╭ VulnerabilityID : CVE-2023-4156 
 │                       │       ├ PkgID           : gawk@5.1.0-6.el9.x86_64 
 │                       │       ├ PkgName         : gawk 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/gawk@5.1.0-6.el9?arch=x86_64&distro=r
@@ -4480,14 +4591,14 @@
 │                       │       │                  ╰ UID : 37963bde3f4b15cb 
 │                       │       ├ InstalledVersion: 5.1.0-6.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4156 
-│                       │       ├ Fingerprint     : sha256:87676dea4f7e8f41ec98dc037310bdc16ab451b054a67828f2e8
-│                       │       │                   5d7476e67dd1 
+│                       │       ├ Fingerprint     : sha256:aa61711506f40a5b6e46ace4832d8826d15751c2341233d4336d
+│                       │       │                   c8dc455cdb42 
 │                       │       ├ Title           : gawk: heap out of bound read in builtin.c 
 │                       │       ├ Description     : A heap out-of-bounds read flaw was found in builtin.c in
 │                       │       │                   the gawk package. This issue may lead to a crash and could
@@ -4528,7 +4639,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2023-09-25T18:15:11.013Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T06:37:11.89Z 
-│                       ├ [67]  ╭ VulnerabilityID : CVE-2026-1484 
+│                       ├ [69]  ╭ VulnerabilityID : CVE-2026-1484 
 │                       │       ├ PkgID           : glib2@2.68.4-19.el9_8.10.x86_64 
 │                       │       ├ PkgName         : glib2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glib2@2.68.4-19.el9_8.10?arch=x86_64&
@@ -4536,14 +4647,14 @@
 │                       │       │                  ╰ UID : 5088fdffc71d486c 
 │                       │       ├ InstalledVersion: 2.68.4-19.el9_8.10 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1484 
-│                       │       ├ Fingerprint     : sha256:32c14f4fadd1520818e473883b28d265aeed7cccb89b7432f359
-│                       │       │                   84b987e24723 
+│                       │       ├ Fingerprint     : sha256:1a43b2bf09f06cba2ff75b9aef8f1bf4838990a4d0ebcf174b3d
+│                       │       │                   17d94a15cdd8 
 │                       │       ├ Title           : Glib: Integer Overflow Leading to Buffer Underflow and
 │                       │       │                   Out-of-Bounds Write in GLib g_base64_encode() 
 │                       │       ├ Description     : A flaw was found in the GLib Base64 encoding routine when
@@ -4586,7 +4697,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-27T14:15:56.05Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:15:52.62Z 
-│                       ├ [68]  ╭ VulnerabilityID : CVE-2026-1489 
+│                       ├ [70]  ╭ VulnerabilityID : CVE-2026-1489 
 │                       │       ├ PkgID           : glib2@2.68.4-19.el9_8.10.x86_64 
 │                       │       ├ PkgName         : glib2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glib2@2.68.4-19.el9_8.10?arch=x86_64&
@@ -4594,14 +4705,14 @@
 │                       │       │                  ╰ UID : 5088fdffc71d486c 
 │                       │       ├ InstalledVersion: 2.68.4-19.el9_8.10 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1489 
-│                       │       ├ Fingerprint     : sha256:08d0638b00c13e325c569b35eb984947ea3655740958b4135aca
-│                       │       │                   86d47837daaa 
+│                       │       ├ Fingerprint     : sha256:e4369f2756209676fca104a9334cf2f88872fb964e13cd3bda71
+│                       │       │                   19d7ccaff651 
 │                       │       ├ Title           : Glib: GLib: Memory corruption via integer overflow in
 │                       │       │                   Unicode case conversion 
 │                       │       ├ Description     : A flaw was found in GLib. An integer overflow vulnerability
@@ -4644,7 +4755,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-27T15:15:57.37Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:15:53.12Z 
-│                       ├ [69]  ╭ VulnerabilityID : CVE-2026-86469 
+│                       ├ [71]  ╭ VulnerabilityID : CVE-2026-86469 
 │                       │       ├ PkgID           : glib2@2.68.4-19.el9_8.10.x86_64 
 │                       │       ├ PkgName         : glib2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glib2@2.68.4-19.el9_8.10?arch=x86_64&
@@ -4652,14 +4763,14 @@
 │                       │       │                  ╰ UID : 5088fdffc71d486c 
 │                       │       ├ InstalledVersion: 2.68.4-19.el9_8.10 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86469 
-│                       │       ├ Fingerprint     : sha256:c4d3fffd08487bb3ae8815d3a1725aaf4bf7250d35612c08a4d9
-│                       │       │                   8607cfc0b099 
+│                       │       ├ Fingerprint     : sha256:0275b83ad5a4ef3bad39202ea4ee0f78d8bb3cec5131ab81730b
+│                       │       │                   7782356d021e 
 │                       │       ├ Title           : glib2: TOCTOU Symlink Race in
 │                       │       │                   `G_FILE_CREATE_REPLACE_DESTINATION` Fallback Path 
 │                       │       ├ Description     : A flaw was found in GLib2. When g_file_replace() is used
@@ -4693,7 +4804,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-07T16:17:30.713Z 
 │                       │       ╰ LastModifiedDate: 2026-09-08T19:08:15.59Z 
-│                       ├ [70]  ╭ VulnerabilityID : CVE-2023-32636 
+│                       ├ [72]  ╭ VulnerabilityID : CVE-2023-32636 
 │                       │       ├ PkgID           : glib2@2.68.4-19.el9_8.10.x86_64 
 │                       │       ├ PkgName         : glib2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glib2@2.68.4-19.el9_8.10?arch=x86_64&
@@ -4701,14 +4812,14 @@
 │                       │       │                  ╰ UID : 5088fdffc71d486c 
 │                       │       ├ InstalledVersion: 2.68.4-19.el9_8.10 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-32636 
-│                       │       ├ Fingerprint     : sha256:dcdcb2a0c4c89e93188f6ab3f47fcdf07fa8314b34c1c6e859a8
-│                       │       │                   37beda267ccd 
+│                       │       ├ Fingerprint     : sha256:d83735e6b4d65a609b976fc9f3ca4b0d4e841d878a2919abb8f1
+│                       │       │                   72c1fd7b1048 
 │                       │       ├ Title           : glib: Timeout in fuzz_variant_text 
 │                       │       ├ Description     : A flaw was found in glib, where the gvariant
 │                       │       │                   deserialization code is vulnerable to a denial of service
@@ -4775,7 +4886,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2023-09-14T20:15:09.653Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T05:59:16.933Z 
-│                       ├ [71]  ╭ VulnerabilityID : CVE-2025-3360 
+│                       ├ [73]  ╭ VulnerabilityID : CVE-2025-3360 
 │                       │       ├ PkgID           : glib2@2.68.4-19.el9_8.10.x86_64 
 │                       │       ├ PkgName         : glib2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glib2@2.68.4-19.el9_8.10?arch=x86_64&
@@ -4783,14 +4894,14 @@
 │                       │       │                  ╰ UID : 5088fdffc71d486c 
 │                       │       ├ InstalledVersion: 2.68.4-19.el9_8.10 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-3360 
-│                       │       ├ Fingerprint     : sha256:3b2258678c7ed145a0912a7038b042b8b3fa407381a711966b27
-│                       │       │                   32c4740c2eb9 
+│                       │       ├ Fingerprint     : sha256:39bef758b1fa41090d7f2c292c0313e9161d08752c4f9d539b26
+│                       │       │                   5f17fd83494a 
 │                       │       ├ Title           : glibc: GLib prior to 2.82.5 is vulnerable to integer 
 │                       │       │                   overflow and buffer under-read when parsing a very long
 │                       │       │                   invalid ISO  8601 timestamp with
@@ -4832,7 +4943,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-04-07T13:15:43.687Z 
 │                       │       ╰ LastModifiedDate: 2026-06-30T15:16:50.813Z 
-│                       ├ [72]  ╭ VulnerabilityID : CVE-2025-7039 
+│                       ├ [74]  ╭ VulnerabilityID : CVE-2025-7039 
 │                       │       ├ PkgID           : glib2@2.68.4-19.el9_8.10.x86_64 
 │                       │       ├ PkgName         : glib2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glib2@2.68.4-19.el9_8.10?arch=x86_64&
@@ -4840,14 +4951,14 @@
 │                       │       │                  ╰ UID : 5088fdffc71d486c 
 │                       │       ├ InstalledVersion: 2.68.4-19.el9_8.10 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-7039 
-│                       │       ├ Fingerprint     : sha256:12df8e34de567fe761869f56557ccab87994e42bea678faaadcf
-│                       │       │                   7c8206f495d9 
+│                       │       ├ Fingerprint     : sha256:4c759b5a1c0cd6bd8a3b11c92e75f272c5a235e7c270f8b773ef
+│                       │       │                   b6150e3d7707 
 │                       │       ├ Title           : glib: Buffer Under-read on GLib through glib/gfileutils.c
 │                       │       │                   via get_tmp_file() 
 │                       │       ├ Description     : A flaw was found in glib. An integer overflow during
@@ -4889,7 +5000,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-09-03T02:15:38.12Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:04:08.797Z 
-│                       ├ [73]  ╭ VulnerabilityID : CVE-2026-0988 
+│                       ├ [75]  ╭ VulnerabilityID : CVE-2026-0988 
 │                       │       ├ PkgID           : glib2@2.68.4-19.el9_8.10.x86_64 
 │                       │       ├ PkgName         : glib2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glib2@2.68.4-19.el9_8.10?arch=x86_64&
@@ -4897,14 +5008,14 @@
 │                       │       │                  ╰ UID : 5088fdffc71d486c 
 │                       │       ├ InstalledVersion: 2.68.4-19.el9_8.10 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-0988 
-│                       │       ├ Fingerprint     : sha256:1ea76bc636b6457293bd47fa58b7379a5df28fdb3d7023a8ddab
-│                       │       │                   1d078ed55c57 
+│                       │       ├ Fingerprint     : sha256:6bc5c4bd8fab66c4c71db71d079742853ffdbe11a9f8eb1dac0f
+│                       │       │                   5aee05cd7e0d 
 │                       │       ├ Title           : glib: GLib: Denial of Service via Integer Overflow in
 │                       │       │                   g_buffered_input_stream_peek() 
 │                       │       ├ Description     : A flaw was found in glib. Missing validation of offset and
@@ -4939,7 +5050,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-21T12:15:55.56Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:11:43.83Z 
-│                       ├ [74]  ╭ VulnerabilityID : CVE-2026-1485 
+│                       ├ [76]  ╭ VulnerabilityID : CVE-2026-1485 
 │                       │       ├ PkgID           : glib2@2.68.4-19.el9_8.10.x86_64 
 │                       │       ├ PkgName         : glib2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glib2@2.68.4-19.el9_8.10?arch=x86_64&
@@ -4947,14 +5058,14 @@
 │                       │       │                  ╰ UID : 5088fdffc71d486c 
 │                       │       ├ InstalledVersion: 2.68.4-19.el9_8.10 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1485 
-│                       │       ├ Fingerprint     : sha256:ed18ebb0b1f1cb38c3fb913bfc16d3e13d15cc93655beb070519
-│                       │       │                   ab73060c5d61 
+│                       │       ├ Fingerprint     : sha256:d276567afd073a74a7213be57c6f23b6af4d788e9470fee7b409
+│                       │       │                   fdab215cec7f 
 │                       │       ├ Title           : Glib: Glib: Local denial of service via buffer underflow in
 │                       │       │                    content type parsing 
 │                       │       ├ Description     : A flaw was found in Glib's content type parsing logic. This
@@ -4995,7 +5106,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-27T14:15:56.223Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:15:52.763Z 
-│                       ├ [75]  ╭ VulnerabilityID : CVE-2026-18374 
+│                       ├ [77]  ╭ VulnerabilityID : CVE-2026-18374 
 │                       │       ├ PkgID           : glibc@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc@2.34-275.el9_8?arch=x86_64&dist
@@ -5003,14 +5114,14 @@
 │                       │       │                  ╰ UID : 6c07acb81f11aa2e 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-18374 
-│                       │       ├ Fingerprint     : sha256:49bc808cc70e421e50baf4cd90faa2aa85e9e17cc94c48f33d90
-│                       │       │                   11c1a2ba0afd 
+│                       │       ├ Fingerprint     : sha256:f350f6a7e5505465c9fddc28624dfae394396fff235b032abf59
+│                       │       │                   0103e81c5375 
 │                       │       ├ Title           : glibc: glibc: Heap buffer overflow via attacker-controlled
 │                       │       │                   fopen mode string 
 │                       │       ├ Description     : Passing an effectively empty string to the `,ccs=` syntax
@@ -5048,7 +5159,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-27T20:17:03.553Z 
 │                       │       ╰ LastModifiedDate: 2026-09-03T16:43:15.293Z 
-│                       ├ [76]  ╭ VulnerabilityID : CVE-2026-19499 
+│                       ├ [78]  ╭ VulnerabilityID : CVE-2026-19499 
 │                       │       ├ PkgID           : glibc@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc@2.34-275.el9_8?arch=x86_64&dist
@@ -5056,14 +5167,14 @@
 │                       │       │                  ╰ UID : 6c07acb81f11aa2e 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : under_investigation 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19499 
-│                       │       ├ Fingerprint     : sha256:e6947a68ccd032346ac9f7ab4bb3ab907ee5677664a6d95e474e
-│                       │       │                   8026bb178c37 
+│                       │       ├ Fingerprint     : sha256:ef9d5d19a893fd8b4250844b401a53cb57562d2a32c4ec07cdd8
+│                       │       │                   38dd48027d4d 
 │                       │       ├ Title           : glibc: Buffer Overflow in strfmon right-justification padding 
 │                       │       ├ Description     : Calling strfmon and strfmon_l in the GNU C Library version
 │                       │       │                   2.38 to 2.44 can write past the end of the caller-supplied
@@ -5104,7 +5215,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-14T18:17:45.753Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T18:17:47.257Z 
-│                       ├ [77]  ╭ VulnerabilityID : CVE-2026-19542 
+│                       ├ [79]  ╭ VulnerabilityID : CVE-2026-19542 
 │                       │       ├ PkgID           : glibc@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc@2.34-275.el9_8?arch=x86_64&dist
@@ -5112,14 +5223,14 @@
 │                       │       │                  ╰ UID : 6c07acb81f11aa2e 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19542 
-│                       │       ├ Fingerprint     : sha256:51e4ee1b3aa771de1b5170f2529a94ef988da0c625287949d75a
-│                       │       │                   19eb0813eeef 
+│                       │       ├ Fingerprint     : sha256:ccb0f6730ce63adf1802e1cb06d69a535e98853e957dd0062898
+│                       │       │                   bf8219d1754d 
 │                       │       ├ Title           : glibc: Fix out-of-bounds array write in tdelete 
 │                       │       ├ Description     : Calling tdelete on a sufficiently deep tree in the GNU C
 │                       │       │                   Library version 2.1 to 2.44 may write one pointer past the
@@ -5165,7 +5276,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-14T18:17:46.85Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T18:17:47.257Z 
-│                       ├ [78]  ╭ VulnerabilityID : CVE-2026-6368 
+│                       ├ [80]  ╭ VulnerabilityID : CVE-2026-6368 
 │                       │       ├ PkgID           : glibc@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc@2.34-275.el9_8?arch=x86_64&dist
@@ -5173,14 +5284,14 @@
 │                       │       │                  ╰ UID : 6c07acb81f11aa2e 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6368 
-│                       │       ├ Fingerprint     : sha256:15bc2a434306e96f0b4337322f66501ef9e96224ffb4d85a2209
-│                       │       │                   5ae7e7954b2a 
+│                       │       ├ Fingerprint     : sha256:451e3422becbb703971680c5afc2fe28509e8e2f1649341652f6
+│                       │       │                   421984d8cb8d 
 │                       │       ├ Title           : glibc: glibc: Process abort due to invalid memory in wordexp 
 │                       │       ├ Description     : Calling wordexp with WRDE_APPEND in the GNU C Library
 │                       │       │                   version 2.0 to version 2.43 can cause the interface to
@@ -5214,7 +5325,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-10T19:17:30.713Z 
 │                       │       ╰ LastModifiedDate: 2026-09-03T16:43:15.293Z 
-│                       ├ [79]  ╭ VulnerabilityID : CVE-2026-6791 
+│                       ├ [81]  ╭ VulnerabilityID : CVE-2026-6791 
 │                       │       ├ PkgID           : glibc@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc@2.34-275.el9_8?arch=x86_64&dist
@@ -5222,14 +5333,14 @@
 │                       │       │                  ╰ UID : 6c07acb81f11aa2e 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6791 
-│                       │       ├ Fingerprint     : sha256:1d8baa3c5c7b8a0d10618ad3aa807f5c41f505055b008cb4076f
-│                       │       │                   7c925746cf22 
+│                       │       ├ Fingerprint     : sha256:111cdfa0ced57f230b23ad54ab9064511c4ae8979cb3dd33a4a8
+│                       │       │                   022b96d82518 
 │                       │       ├ Title           : glibc: Glibc: Denial of Service via stack exhaustion during
 │                       │       │                    tilde expansion 
 │                       │       ├ Description     : When expanding paths that begin with a tilde (~) followed
@@ -5270,7 +5381,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-10T19:17:30.877Z 
 │                       │       ╰ LastModifiedDate: 2026-09-03T16:43:15.293Z 
-│                       ├ [80]  ╭ VulnerabilityID : CVE-2026-77117 
+│                       ├ [82]  ╭ VulnerabilityID : CVE-2026-77117 
 │                       │       ├ PkgID           : glibc@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc@2.34-275.el9_8?arch=x86_64&dist
@@ -5278,14 +5389,14 @@
 │                       │       │                  ╰ UID : 6c07acb81f11aa2e 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : under_investigation 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-77117 
-│                       │       ├ Fingerprint     : sha256:189950bbc63039650886c7327d98e0345f42bca8bdf8e622a86c
-│                       │       │                   991ca7e86955 
+│                       │       ├ Fingerprint     : sha256:c392e4cf04cb48393c55f51a4a86e92813caac997c920c7111ad
+│                       │       │                   5b63b2333114 
 │                       │       ├ Title           : glibc: Non-progress DoS in SHIFT_JISX0213 -&gt 
 │                       │       ├ Description     : Converting crafted SHIFT_JISX0213 input to UCS-4 or the
 │                       │       │                   internal wide character encoding, for example with iconv,
@@ -5332,7 +5443,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-15T11:17:12.063Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T18:17:47.257Z 
-│                       ├ [81]  ╭ VulnerabilityID : CVE-2026-80489 
+│                       ├ [83]  ╭ VulnerabilityID : CVE-2026-80489 
 │                       │       ├ PkgID           : glibc@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc@2.34-275.el9_8?arch=x86_64&dist
@@ -5340,14 +5451,14 @@
 │                       │       │                  ╰ UID : 6c07acb81f11aa2e 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-80489 
-│                       │       ├ Fingerprint     : sha256:652c7f0e35a8954a58449755723f8b84d009ce61547e601217c1
-│                       │       │                   f7ea020e3104 
+│                       │       ├ Fingerprint     : sha256:c3c96b2fb6a44cc79cec8d0ef403ef9776a81189a7511a142e74
+│                       │       │                   921b6f2515c3 
 │                       │       ├ Title           : glibc: Non-progress DoS in EUC_JISX0213 -> UCS-4 conversion
 │                       │       │                    state 
 │                       │       ├ Description     : Converting crafted EUC_JISX0213 input to UCS-4 or the
@@ -5395,7 +5506,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-15T11:17:12.193Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T18:17:47.257Z 
-│                       ├ [82]  ╭ VulnerabilityID : CVE-2026-8674 
+│                       ├ [84]  ╭ VulnerabilityID : CVE-2026-8674 
 │                       │       ├ PkgID           : glibc@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc@2.34-275.el9_8?arch=x86_64&dist
@@ -5403,14 +5514,14 @@
 │                       │       │                  ╰ UID : 6c07acb81f11aa2e 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-8674 
-│                       │       ├ Fingerprint     : sha256:55a236d0aeff3f2954dec916a5c3d3b3b5f8db2d4a3153946fa7
-│                       │       │                   6e319c0a1716 
+│                       │       ├ Fingerprint     : sha256:47567c4ab48fd7422b258efb6a2dccfae7882f4410a4d6f73d84
+│                       │       │                   35aba5d34a2d 
 │                       │       ├ Title           : glibc: glibc DNS stub resolver: Denial of Service via long
 │                       │       │                   search domain in configuration 
 │                       │       ├ Description     : Initializing the DNS stub resolver from an /etc/resolv.conf
@@ -5458,7 +5569,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-17T17:16:53.22Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T18:17:47.257Z 
-│                       ├ [83]  ╭ VulnerabilityID : CVE-2026-86805 
+│                       ├ [85]  ╭ VulnerabilityID : CVE-2026-86805 
 │                       │       ├ PkgID           : glibc@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc@2.34-275.el9_8?arch=x86_64&dist
@@ -5466,14 +5577,14 @@
 │                       │       │                  ╰ UID : 6c07acb81f11aa2e 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86805 
-│                       │       ├ Fingerprint     : sha256:b5cb260b6983167e9c5c6211a1c34297d632ccad22b6d0a9f9aa
-│                       │       │                   a45e374368e7 
+│                       │       ├ Fingerprint     : sha256:850da7eb3f1632b5f766c8bfb8e2165d09039050bdf88274bdd2
+│                       │       │                   be39b63d0b8b 
 │                       │       ├ Title           : glibc: glibc: Privilege escalation and arbitrary code
 │                       │       │                   execution via TOCTOU race condition in dynamic loader 
 │                       │       ├ Description     : A time-of-check to time-of-use (TOCTOU) race condition in
@@ -5520,7 +5631,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-22T16:18:06.23Z 
 │                       │       ╰ LastModifiedDate: 2026-09-23T04:17:57.137Z 
-│                       ├ [84]  ╭ VulnerabilityID : CVE-2026-89092 
+│                       ├ [86]  ╭ VulnerabilityID : CVE-2026-89092 
 │                       │       ├ PkgID           : glibc@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc@2.34-275.el9_8?arch=x86_64&dist
@@ -5528,14 +5639,14 @@
 │                       │       │                  ╰ UID : 6c07acb81f11aa2e 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-89092 
-│                       │       ├ Fingerprint     : sha256:3878144d7f8a8243f38d1b93bde0411507f3b8b37f523b39b48a
-│                       │       │                   5e9e1aed6f63 
+│                       │       ├ Fingerprint     : sha256:6fdb5dd616bef201f4a3fd506f035398f7e8aa2dc4641e84f241
+│                       │       │                   306276176138 
 │                       │       ├ Title           : glibc: nscd stack overflow leads to degraded DNS resolution 
 │                       │       ├ Description     : The nscd service in the GNU C Library 2.3.4 onwards may
 │                       │       │                   crash due to a 
@@ -5577,7 +5688,8 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-789
 │                       │       │                  
-│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 4.2 
@@ -5587,6 +5699,8 @@
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-89092       
 │                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-89092             
 │                       │       │                  https://sourceware.org/bugzilla/show_bug.cgi?id=34624       
+│                       │       │                  https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/
+│                       │       │                  GLIBC-SA-2026-0016                                          
 │                       │       │                  https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advis
 │                       │       │                  ories/GLIBC-SA-2026-0016                                    
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-89092             
@@ -5594,7 +5708,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-11T02:18:35.46Z 
 │                       │       ╰ LastModifiedDate: 2026-09-11T18:17:00.23Z 
-│                       ├ [85]  ╭ VulnerabilityID : CVE-2026-95818 
+│                       ├ [87]  ╭ VulnerabilityID : CVE-2026-95818 
 │                       │       ├ PkgID           : glibc@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc@2.34-275.el9_8?arch=x86_64&dist
@@ -5602,14 +5716,14 @@
 │                       │       │                  ╰ UID : 6c07acb81f11aa2e 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-95818 
-│                       │       ├ Fingerprint     : sha256:c12b3c1d34696f94c6b3251ef757693cdd9971c2fc2742c76795
-│                       │       │                   9ccacd603e28 
+│                       │       ├ Fingerprint     : sha256:f2662246ea96c0fd79d161db30d5fb623506950cf06aea43b7f7
+│                       │       │                   3e6595877374 
 │                       │       ├ Title           : glibc: glibc: Local attacker can cause denial of service
 │                       │       │                   and information disclosure via stack-based buffer
 │                       │       │                   overflow. 
@@ -5645,7 +5759,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-22T17:17:32.093Z 
 │                       │       ╰ LastModifiedDate: 2026-09-22T19:56:19.073Z 
-│                       ├ [86]  ╭ VulnerabilityID : CVE-2026-18374 
+│                       ├ [88]  ╭ VulnerabilityID : CVE-2026-18374 
 │                       │       ├ PkgID           : glibc-common@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-common@2.34-275.el9_8?arch=x86_
@@ -5653,14 +5767,14 @@
 │                       │       │                  ╰ UID : adef0b74c516b113 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-18374 
-│                       │       ├ Fingerprint     : sha256:b3d187a1a8d6faf96f8366069a27afb96a15d69518dc142eed2a
-│                       │       │                   f7674cd03f03 
+│                       │       ├ Fingerprint     : sha256:0f3907fe1912d9b8fa7c80182e671066d2b197f6954a54ec02d9
+│                       │       │                   b1593dd7ca7b 
 │                       │       ├ Title           : glibc: glibc: Heap buffer overflow via attacker-controlled
 │                       │       │                   fopen mode string 
 │                       │       ├ Description     : Passing an effectively empty string to the `,ccs=` syntax
@@ -5698,7 +5812,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-27T20:17:03.553Z 
 │                       │       ╰ LastModifiedDate: 2026-09-03T16:43:15.293Z 
-│                       ├ [87]  ╭ VulnerabilityID : CVE-2026-19499 
+│                       ├ [89]  ╭ VulnerabilityID : CVE-2026-19499 
 │                       │       ├ PkgID           : glibc-common@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-common@2.34-275.el9_8?arch=x86_
@@ -5706,14 +5820,14 @@
 │                       │       │                  ╰ UID : adef0b74c516b113 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : under_investigation 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19499 
-│                       │       ├ Fingerprint     : sha256:82170f2bc974bc7d05da639a4c3f1b07c1077315266e02c690ed
-│                       │       │                   21f99b299dda 
+│                       │       ├ Fingerprint     : sha256:51fd187e091cf83b3e27b1a68b413ddeaa545170125af1de9cbd
+│                       │       │                   8a002041ce1a 
 │                       │       ├ Title           : glibc: Buffer Overflow in strfmon right-justification padding 
 │                       │       ├ Description     : Calling strfmon and strfmon_l in the GNU C Library version
 │                       │       │                   2.38 to 2.44 can write past the end of the caller-supplied
@@ -5754,7 +5868,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-14T18:17:45.753Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T18:17:47.257Z 
-│                       ├ [88]  ╭ VulnerabilityID : CVE-2026-19542 
+│                       ├ [90]  ╭ VulnerabilityID : CVE-2026-19542 
 │                       │       ├ PkgID           : glibc-common@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-common@2.34-275.el9_8?arch=x86_
@@ -5762,14 +5876,14 @@
 │                       │       │                  ╰ UID : adef0b74c516b113 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19542 
-│                       │       ├ Fingerprint     : sha256:2ab2bdafb15096a779e4176552023f84348e6719268c85b309a1
-│                       │       │                   cdf92b9117c3 
+│                       │       ├ Fingerprint     : sha256:90cb4a96f4131be294a0ae5b2496c4af05b925f61579c396b1e7
+│                       │       │                   01d654661c55 
 │                       │       ├ Title           : glibc: Fix out-of-bounds array write in tdelete 
 │                       │       ├ Description     : Calling tdelete on a sufficiently deep tree in the GNU C
 │                       │       │                   Library version 2.1 to 2.44 may write one pointer past the
@@ -5815,7 +5929,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-14T18:17:46.85Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T18:17:47.257Z 
-│                       ├ [89]  ╭ VulnerabilityID : CVE-2026-6368 
+│                       ├ [91]  ╭ VulnerabilityID : CVE-2026-6368 
 │                       │       ├ PkgID           : glibc-common@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-common@2.34-275.el9_8?arch=x86_
@@ -5823,14 +5937,14 @@
 │                       │       │                  ╰ UID : adef0b74c516b113 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6368 
-│                       │       ├ Fingerprint     : sha256:5d4e750f4d0cb97d4290f417810ce9156689dd310559bb2e4216
-│                       │       │                   cf368110c2db 
+│                       │       ├ Fingerprint     : sha256:c87df7f83bdd47685192a43fdcba0b734aa377c561d7cdd8b4c8
+│                       │       │                   efc9622dd991 
 │                       │       ├ Title           : glibc: glibc: Process abort due to invalid memory in wordexp 
 │                       │       ├ Description     : Calling wordexp with WRDE_APPEND in the GNU C Library
 │                       │       │                   version 2.0 to version 2.43 can cause the interface to
@@ -5864,7 +5978,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-10T19:17:30.713Z 
 │                       │       ╰ LastModifiedDate: 2026-09-03T16:43:15.293Z 
-│                       ├ [90]  ╭ VulnerabilityID : CVE-2026-6791 
+│                       ├ [92]  ╭ VulnerabilityID : CVE-2026-6791 
 │                       │       ├ PkgID           : glibc-common@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-common@2.34-275.el9_8?arch=x86_
@@ -5872,14 +5986,14 @@
 │                       │       │                  ╰ UID : adef0b74c516b113 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6791 
-│                       │       ├ Fingerprint     : sha256:037aef5fc3bdb713d40e0ebf05f93e000b2dcae67927f0c735bb
-│                       │       │                   3845b11939f4 
+│                       │       ├ Fingerprint     : sha256:7fcce477aaf57eb8d390cddbc0073f772668d59eea211b3d7c7b
+│                       │       │                   e6e0f3eb9f58 
 │                       │       ├ Title           : glibc: Glibc: Denial of Service via stack exhaustion during
 │                       │       │                    tilde expansion 
 │                       │       ├ Description     : When expanding paths that begin with a tilde (~) followed
@@ -5920,7 +6034,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-10T19:17:30.877Z 
 │                       │       ╰ LastModifiedDate: 2026-09-03T16:43:15.293Z 
-│                       ├ [91]  ╭ VulnerabilityID : CVE-2026-77117 
+│                       ├ [93]  ╭ VulnerabilityID : CVE-2026-77117 
 │                       │       ├ PkgID           : glibc-common@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-common@2.34-275.el9_8?arch=x86_
@@ -5928,14 +6042,14 @@
 │                       │       │                  ╰ UID : adef0b74c516b113 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : under_investigation 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-77117 
-│                       │       ├ Fingerprint     : sha256:fa41a3aece3b0d8e1cdfa72bcfdbe00123415d37b10dbdd60539
-│                       │       │                   c2484f1930cc 
+│                       │       ├ Fingerprint     : sha256:2c65ab9eb0902a5589fe4a1471d59c2b04ff1067b03e5c6c7866
+│                       │       │                   4c201cc231ab 
 │                       │       ├ Title           : glibc: Non-progress DoS in SHIFT_JISX0213 -&gt 
 │                       │       ├ Description     : Converting crafted SHIFT_JISX0213 input to UCS-4 or the
 │                       │       │                   internal wide character encoding, for example with iconv,
@@ -5982,7 +6096,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-15T11:17:12.063Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T18:17:47.257Z 
-│                       ├ [92]  ╭ VulnerabilityID : CVE-2026-80489 
+│                       ├ [94]  ╭ VulnerabilityID : CVE-2026-80489 
 │                       │       ├ PkgID           : glibc-common@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-common@2.34-275.el9_8?arch=x86_
@@ -5990,14 +6104,14 @@
 │                       │       │                  ╰ UID : adef0b74c516b113 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-80489 
-│                       │       ├ Fingerprint     : sha256:787c20da67e62505b0a2b33fae7e546c8349fe3ab34b6a247770
-│                       │       │                   e13b52ed182c 
+│                       │       ├ Fingerprint     : sha256:80bc80abe2f4312fbdf3f236632edb02259bba775eb3803cd75d
+│                       │       │                   d9d4e25e4a5f 
 │                       │       ├ Title           : glibc: Non-progress DoS in EUC_JISX0213 -> UCS-4 conversion
 │                       │       │                    state 
 │                       │       ├ Description     : Converting crafted EUC_JISX0213 input to UCS-4 or the
@@ -6045,7 +6159,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-15T11:17:12.193Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T18:17:47.257Z 
-│                       ├ [93]  ╭ VulnerabilityID : CVE-2026-8674 
+│                       ├ [95]  ╭ VulnerabilityID : CVE-2026-8674 
 │                       │       ├ PkgID           : glibc-common@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-common@2.34-275.el9_8?arch=x86_
@@ -6053,14 +6167,14 @@
 │                       │       │                  ╰ UID : adef0b74c516b113 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-8674 
-│                       │       ├ Fingerprint     : sha256:a5333afe1012a7f0a8892ca4dd02c34b598f17a3f8845005ba7e
-│                       │       │                   b33efcde7039 
+│                       │       ├ Fingerprint     : sha256:4a482caed770a38214af92372cf8f01b19e95e1a73c189be5dcb
+│                       │       │                   21283ef433c3 
 │                       │       ├ Title           : glibc: glibc DNS stub resolver: Denial of Service via long
 │                       │       │                   search domain in configuration 
 │                       │       ├ Description     : Initializing the DNS stub resolver from an /etc/resolv.conf
@@ -6108,7 +6222,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-17T17:16:53.22Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T18:17:47.257Z 
-│                       ├ [94]  ╭ VulnerabilityID : CVE-2026-86805 
+│                       ├ [96]  ╭ VulnerabilityID : CVE-2026-86805 
 │                       │       ├ PkgID           : glibc-common@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-common@2.34-275.el9_8?arch=x86_
@@ -6116,14 +6230,14 @@
 │                       │       │                  ╰ UID : adef0b74c516b113 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86805 
-│                       │       ├ Fingerprint     : sha256:b2535c5f766c55bc4ae54e652864e56aa3498aac4be3a5f91b69
-│                       │       │                   1ce27bba00f3 
+│                       │       ├ Fingerprint     : sha256:8abf48583aaf5994b259c4d3406ffe1d7af1ebd8703e7274bcfb
+│                       │       │                   f1da7c19da9b 
 │                       │       ├ Title           : glibc: glibc: Privilege escalation and arbitrary code
 │                       │       │                   execution via TOCTOU race condition in dynamic loader 
 │                       │       ├ Description     : A time-of-check to time-of-use (TOCTOU) race condition in
@@ -6170,7 +6284,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-22T16:18:06.23Z 
 │                       │       ╰ LastModifiedDate: 2026-09-23T04:17:57.137Z 
-│                       ├ [95]  ╭ VulnerabilityID : CVE-2026-89092 
+│                       ├ [97]  ╭ VulnerabilityID : CVE-2026-89092 
 │                       │       ├ PkgID           : glibc-common@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-common@2.34-275.el9_8?arch=x86_
@@ -6178,14 +6292,14 @@
 │                       │       │                  ╰ UID : adef0b74c516b113 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-89092 
-│                       │       ├ Fingerprint     : sha256:8efc43efdf134dabb9cfffd915a5114f0944467bf825320b2421
-│                       │       │                   b717b36ca3c9 
+│                       │       ├ Fingerprint     : sha256:1f2ec135c9bb18829b6adf456a8003a2edd459e5c0d0ef4ee516
+│                       │       │                   845bd63fb925 
 │                       │       ├ Title           : glibc: nscd stack overflow leads to degraded DNS resolution 
 │                       │       ├ Description     : The nscd service in the GNU C Library 2.3.4 onwards may
 │                       │       │                   crash due to a 
@@ -6227,7 +6341,8 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-789
 │                       │       │                  
-│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 4.2 
@@ -6237,6 +6352,8 @@
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-89092       
 │                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-89092             
 │                       │       │                  https://sourceware.org/bugzilla/show_bug.cgi?id=34624       
+│                       │       │                  https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/
+│                       │       │                  GLIBC-SA-2026-0016                                          
 │                       │       │                  https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advis
 │                       │       │                  ories/GLIBC-SA-2026-0016                                    
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-89092             
@@ -6244,7 +6361,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-11T02:18:35.46Z 
 │                       │       ╰ LastModifiedDate: 2026-09-11T18:17:00.23Z 
-│                       ├ [96]  ╭ VulnerabilityID : CVE-2026-95818 
+│                       ├ [98]  ╭ VulnerabilityID : CVE-2026-95818 
 │                       │       ├ PkgID           : glibc-common@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-common 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-common@2.34-275.el9_8?arch=x86_
@@ -6252,14 +6369,14 @@
 │                       │       │                  ╰ UID : adef0b74c516b113 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-95818 
-│                       │       ├ Fingerprint     : sha256:3ee19bad6a8d34ab4de6cedad97442d8cce66bce23ce6dcd50c0
-│                       │       │                   927164cf4262 
+│                       │       ├ Fingerprint     : sha256:e6b8c882660bfeaf53ae4fd5b7b7eca417baa31c4c90d8eab823
+│                       │       │                   2afa257ba7ea 
 │                       │       ├ Title           : glibc: glibc: Local attacker can cause denial of service
 │                       │       │                   and information disclosure via stack-based buffer
 │                       │       │                   overflow. 
@@ -6295,7 +6412,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-22T17:17:32.093Z 
 │                       │       ╰ LastModifiedDate: 2026-09-22T19:56:19.073Z 
-│                       ├ [97]  ╭ VulnerabilityID : CVE-2026-18374 
+│                       ├ [99]  ╭ VulnerabilityID : CVE-2026-18374 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-275.el9_8
@@ -6303,14 +6420,14 @@
 │                       │       │                  ╰ UID : 168b5204d6f8860a 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-18374 
-│                       │       ├ Fingerprint     : sha256:ffc1bc90fb36435f6141347e033de194544f2e68474c11e6a8d7
-│                       │       │                   746349aecb35 
+│                       │       ├ Fingerprint     : sha256:c8f5b89191875581e14f2b36db5662ba8f07ee05fe6e8b9daf1b
+│                       │       │                   c9aa0fc96336 
 │                       │       ├ Title           : glibc: glibc: Heap buffer overflow via attacker-controlled
 │                       │       │                   fopen mode string 
 │                       │       ├ Description     : Passing an effectively empty string to the `,ccs=` syntax
@@ -6348,7 +6465,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-27T20:17:03.553Z 
 │                       │       ╰ LastModifiedDate: 2026-09-03T16:43:15.293Z 
-│                       ├ [98]  ╭ VulnerabilityID : CVE-2026-19499 
+│                       ├ [100] ╭ VulnerabilityID : CVE-2026-19499 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-275.el9_8
@@ -6356,14 +6473,14 @@
 │                       │       │                  ╰ UID : 168b5204d6f8860a 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : under_investigation 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19499 
-│                       │       ├ Fingerprint     : sha256:3acb07ac48e1e7e42a3c86b666d648d20d99cdfb94245b21b7c7
-│                       │       │                   05929afa28b2 
+│                       │       ├ Fingerprint     : sha256:b8cea559a24fc9858246e8b6723bb0bcd15c9011ce083ad0c9b2
+│                       │       │                   cd1018e9668d 
 │                       │       ├ Title           : glibc: Buffer Overflow in strfmon right-justification padding 
 │                       │       ├ Description     : Calling strfmon and strfmon_l in the GNU C Library version
 │                       │       │                   2.38 to 2.44 can write past the end of the caller-supplied
@@ -6404,7 +6521,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-14T18:17:45.753Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T18:17:47.257Z 
-│                       ├ [99]  ╭ VulnerabilityID : CVE-2026-19542 
+│                       ├ [101] ╭ VulnerabilityID : CVE-2026-19542 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-275.el9_8
@@ -6412,14 +6529,14 @@
 │                       │       │                  ╰ UID : 168b5204d6f8860a 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19542 
-│                       │       ├ Fingerprint     : sha256:d5bd18e189d889bc28272bc1207a0d95121d5bf32c1e69d16872
-│                       │       │                   751af74b4d11 
+│                       │       ├ Fingerprint     : sha256:29df2b126d40c61534066c02f4c151ab0503218d398c22aeff47
+│                       │       │                   366fa25bef4d 
 │                       │       ├ Title           : glibc: Fix out-of-bounds array write in tdelete 
 │                       │       ├ Description     : Calling tdelete on a sufficiently deep tree in the GNU C
 │                       │       │                   Library version 2.1 to 2.44 may write one pointer past the
@@ -6465,7 +6582,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-14T18:17:46.85Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T18:17:47.257Z 
-│                       ├ [100] ╭ VulnerabilityID : CVE-2026-6368 
+│                       ├ [102] ╭ VulnerabilityID : CVE-2026-6368 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-275.el9_8
@@ -6473,14 +6590,14 @@
 │                       │       │                  ╰ UID : 168b5204d6f8860a 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6368 
-│                       │       ├ Fingerprint     : sha256:8b002866b8def7e0726b4012672cf93a90b0ecbfbfc05aae4f74
-│                       │       │                   c5d8e3fa750b 
+│                       │       ├ Fingerprint     : sha256:5327f2d9df58a768240e9d2bac2c93074b009cc5294eacb33a4a
+│                       │       │                   df9959a3615a 
 │                       │       ├ Title           : glibc: glibc: Process abort due to invalid memory in wordexp 
 │                       │       ├ Description     : Calling wordexp with WRDE_APPEND in the GNU C Library
 │                       │       │                   version 2.0 to version 2.43 can cause the interface to
@@ -6514,7 +6631,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-10T19:17:30.713Z 
 │                       │       ╰ LastModifiedDate: 2026-09-03T16:43:15.293Z 
-│                       ├ [101] ╭ VulnerabilityID : CVE-2026-6791 
+│                       ├ [103] ╭ VulnerabilityID : CVE-2026-6791 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-275.el9_8
@@ -6522,14 +6639,14 @@
 │                       │       │                  ╰ UID : 168b5204d6f8860a 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6791 
-│                       │       ├ Fingerprint     : sha256:acf7b661097e731da315847558c02c61e93c95c6ad35cdd94774
-│                       │       │                   61604ed1a2fc 
+│                       │       ├ Fingerprint     : sha256:7139a6f9437cd1bad8f33c36620db65e5dcd965ff293b92fc936
+│                       │       │                   d95cb17b3eb8 
 │                       │       ├ Title           : glibc: Glibc: Denial of Service via stack exhaustion during
 │                       │       │                    tilde expansion 
 │                       │       ├ Description     : When expanding paths that begin with a tilde (~) followed
@@ -6570,7 +6687,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-10T19:17:30.877Z 
 │                       │       ╰ LastModifiedDate: 2026-09-03T16:43:15.293Z 
-│                       ├ [102] ╭ VulnerabilityID : CVE-2026-77117 
+│                       ├ [104] ╭ VulnerabilityID : CVE-2026-77117 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-275.el9_8
@@ -6578,14 +6695,14 @@
 │                       │       │                  ╰ UID : 168b5204d6f8860a 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : under_investigation 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-77117 
-│                       │       ├ Fingerprint     : sha256:5ea341320eb2dcadfaeb1dd5ca28a9feba09e983729be4394615
-│                       │       │                   42a2e52f513b 
+│                       │       ├ Fingerprint     : sha256:64f39460ed0df16382d13f8081060a2eb5130a2accffa4de7065
+│                       │       │                   c8ced258530e 
 │                       │       ├ Title           : glibc: Non-progress DoS in SHIFT_JISX0213 -&gt 
 │                       │       ├ Description     : Converting crafted SHIFT_JISX0213 input to UCS-4 or the
 │                       │       │                   internal wide character encoding, for example with iconv,
@@ -6632,7 +6749,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-15T11:17:12.063Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T18:17:47.257Z 
-│                       ├ [103] ╭ VulnerabilityID : CVE-2026-80489 
+│                       ├ [105] ╭ VulnerabilityID : CVE-2026-80489 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-275.el9_8
@@ -6640,14 +6757,14 @@
 │                       │       │                  ╰ UID : 168b5204d6f8860a 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-80489 
-│                       │       ├ Fingerprint     : sha256:2d4f1a9079553c54476b3327bed2ada3f71fa7730688f824ac30
-│                       │       │                   a508b12b70d2 
+│                       │       ├ Fingerprint     : sha256:8bcbe5ea41a4112037a6289ea0afdcf383f29035a9838073ed8c
+│                       │       │                   838d488f75f5 
 │                       │       ├ Title           : glibc: Non-progress DoS in EUC_JISX0213 -> UCS-4 conversion
 │                       │       │                    state 
 │                       │       ├ Description     : Converting crafted EUC_JISX0213 input to UCS-4 or the
@@ -6695,7 +6812,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-15T11:17:12.193Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T18:17:47.257Z 
-│                       ├ [104] ╭ VulnerabilityID : CVE-2026-8674 
+│                       ├ [106] ╭ VulnerabilityID : CVE-2026-8674 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-275.el9_8
@@ -6703,14 +6820,14 @@
 │                       │       │                  ╰ UID : 168b5204d6f8860a 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-8674 
-│                       │       ├ Fingerprint     : sha256:3bcc902a257134516d196eebd0b272d4749c76a418b23df1db9b
-│                       │       │                   f0ad7042918f 
+│                       │       ├ Fingerprint     : sha256:e2665f3adbdd553c1858d50746fd1ebf0d72d04434614783b5e8
+│                       │       │                   289185d3522c 
 │                       │       ├ Title           : glibc: glibc DNS stub resolver: Denial of Service via long
 │                       │       │                   search domain in configuration 
 │                       │       ├ Description     : Initializing the DNS stub resolver from an /etc/resolv.conf
@@ -6758,7 +6875,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-17T17:16:53.22Z 
 │                       │       ╰ LastModifiedDate: 2026-09-18T18:17:47.257Z 
-│                       ├ [105] ╭ VulnerabilityID : CVE-2026-86805 
+│                       ├ [107] ╭ VulnerabilityID : CVE-2026-86805 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-275.el9_8
@@ -6766,14 +6883,14 @@
 │                       │       │                  ╰ UID : 168b5204d6f8860a 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86805 
-│                       │       ├ Fingerprint     : sha256:4480ba99ae75d43790c59f1ace988cd194ff00ebd6a29d9246e8
-│                       │       │                   206019b9b97c 
+│                       │       ├ Fingerprint     : sha256:1106c9e5eb28fa25ff60464be18cb1297a51bbe80ffd70ebc989
+│                       │       │                   d97977b1e2ac 
 │                       │       ├ Title           : glibc: glibc: Privilege escalation and arbitrary code
 │                       │       │                   execution via TOCTOU race condition in dynamic loader 
 │                       │       ├ Description     : A time-of-check to time-of-use (TOCTOU) race condition in
@@ -6820,7 +6937,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-22T16:18:06.23Z 
 │                       │       ╰ LastModifiedDate: 2026-09-23T04:17:57.137Z 
-│                       ├ [106] ╭ VulnerabilityID : CVE-2026-89092 
+│                       ├ [108] ╭ VulnerabilityID : CVE-2026-89092 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-275.el9_8
@@ -6828,14 +6945,14 @@
 │                       │       │                  ╰ UID : 168b5204d6f8860a 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-89092 
-│                       │       ├ Fingerprint     : sha256:f47d910e374da105a213d437026dbb6099cb3810a9e4fc03e8e4
-│                       │       │                   3e5a41375fa9 
+│                       │       ├ Fingerprint     : sha256:557d2f25a41690340004cae43d31cf49a694f3a24975a7c9daf1
+│                       │       │                   9f12d716e3c0 
 │                       │       ├ Title           : glibc: nscd stack overflow leads to degraded DNS resolution 
 │                       │       ├ Description     : The nscd service in the GNU C Library 2.3.4 onwards may
 │                       │       │                   crash due to a 
@@ -6877,7 +6994,8 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-789
 │                       │       │                  
-│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ VendorSeverity   ╭ redhat: 2 
+│                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:
 │                       │       │                           │           L/A:L 
 │                       │       │                           ╰ V3Score : 4.2 
@@ -6887,6 +7005,8 @@
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-89092       
 │                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-89092             
 │                       │       │                  https://sourceware.org/bugzilla/show_bug.cgi?id=34624       
+│                       │       │                  https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/
+│                       │       │                  GLIBC-SA-2026-0016                                          
 │                       │       │                  https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advis
 │                       │       │                  ories/GLIBC-SA-2026-0016                                    
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-89092             
@@ -6894,7 +7014,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-11T02:18:35.46Z 
 │                       │       ╰ LastModifiedDate: 2026-09-11T18:17:00.23Z 
-│                       ├ [107] ╭ VulnerabilityID : CVE-2026-95818 
+│                       ├ [109] ╭ VulnerabilityID : CVE-2026-95818 
 │                       │       ├ PkgID           : glibc-minimal-langpack@2.34-275.el9_8.x86_64 
 │                       │       ├ PkgName         : glibc-minimal-langpack 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-275.el9_8
@@ -6902,14 +7022,14 @@
 │                       │       │                  ╰ UID : 168b5204d6f8860a 
 │                       │       ├ InstalledVersion: 2.34-275.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-95818 
-│                       │       ├ Fingerprint     : sha256:600e8dbf518379d192dddc5f317e12eedf261534e8b551603291
-│                       │       │                   7f367a166f35 
+│                       │       ├ Fingerprint     : sha256:7b31fc76d0f511e15dd65bcc92c944624626eb96171fafa404de
+│                       │       │                   24508b632432 
 │                       │       ├ Title           : glibc: glibc: Local attacker can cause denial of service
 │                       │       │                   and information disclosure via stack-based buffer
 │                       │       │                   overflow. 
@@ -6945,7 +7065,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-22T17:17:32.093Z 
 │                       │       ╰ LastModifiedDate: 2026-09-22T19:56:19.073Z 
-│                       ├ [108] ╭ VulnerabilityID : CVE-2025-68972 
+│                       ├ [110] ╭ VulnerabilityID : CVE-2025-68972 
 │                       │       ├ PkgID           : gnupg2@2.3.3-5.el9_7.x86_64 
 │                       │       ├ PkgName         : gnupg2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/gnupg2@2.3.3-5.el9_7?arch=x86_64&dist
@@ -6953,14 +7073,14 @@
 │                       │       │                  ╰ UID : 2c4da72fc66ee23f 
 │                       │       ├ InstalledVersion: 2.3.3-5.el9_7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-68972 
-│                       │       ├ Fingerprint     : sha256:31f985fc775d54aa50dea0605f27c770aa7b4b7b73e0a8e50bed
-│                       │       │                   0b339ddbfdce 
+│                       │       ├ Fingerprint     : sha256:7c56960e4bdad374b1d5cd2e98030d5ea202adc437150c732f84
+│                       │       │                   745504be5dd9 
 │                       │       ├ Title           : gnupg: GnuPG: Signature bypass via form feed character in
 │                       │       │                   signed messages 
 │                       │       ├ Description     : In GnuPG through 2.4.8, if a signed message has \f at the
@@ -7005,7 +7125,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-12-27T23:15:40.9Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T09:59:55.373Z 
-│                       ├ [109] ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [111] ╭ VulnerabilityID : CVE-2022-3219 
 │                       │       ├ PkgID           : gnupg2@2.3.3-5.el9_7.x86_64 
 │                       │       ├ PkgName         : gnupg2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/gnupg2@2.3.3-5.el9_7?arch=x86_64&dist
@@ -7013,14 +7133,14 @@
 │                       │       │                  ╰ UID : 2c4da72fc66ee23f 
 │                       │       ├ InstalledVersion: 2.3.3-5.el9_7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
-│                       │       ├ Fingerprint     : sha256:50d229904f236c71af2017d2b97982f2eae09a8830a5f58d78c5
-│                       │       │                   f6e8793eea1b 
+│                       │       ├ Fingerprint     : sha256:abe5c4fa1848e04ba282b1a23e3397e75299ada2e9ed54cb32f0
+│                       │       │                   13e240256486 
 │                       │       ├ Title           : gnupg: denial of service issue (resource consumption) using
 │                       │       │                    compressed packets 
 │                       │       ├ Description     : GnuPG can be made to spin on a relatively small input by
@@ -7052,7 +7172,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T04:59:05.937Z 
-│                       ├ [110] ╭ VulnerabilityID : CVE-2025-30258 
+│                       ├ [112] ╭ VulnerabilityID : CVE-2025-30258 
 │                       │       ├ PkgID           : gnupg2@2.3.3-5.el9_7.x86_64 
 │                       │       ├ PkgName         : gnupg2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/gnupg2@2.3.3-5.el9_7?arch=x86_64&dist
@@ -7060,14 +7180,14 @@
 │                       │       │                  ╰ UID : 2c4da72fc66ee23f 
 │                       │       ├ InstalledVersion: 2.3.3-5.el9_7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-30258 
-│                       │       ├ Fingerprint     : sha256:bee77b537145f8d1ff45cbcd10e37eb3bc67c9f5f139a9b89bf1
-│                       │       │                   5b1a7300541b 
+│                       │       ├ Fingerprint     : sha256:934e91bfa6586bfa77eb0d5fb9f12f970c08ea3749b2c20b5dd9
+│                       │       │                   1939ff4d488d 
 │                       │       ├ Title           : gnupg: verification DoS due to a malicious subkey in the
 │                       │       │                   keyring 
 │                       │       ├ Description     : In GnuPG before 2.5.5, if a user chooses to import a
@@ -7114,7 +7234,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-03-19T20:15:20.14Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T09:08:24.79Z 
-│                       ├ [111] ╭ VulnerabilityID : CVE-2026-24883 
+│                       ├ [113] ╭ VulnerabilityID : CVE-2026-24883 
 │                       │       ├ PkgID           : gnupg2@2.3.3-5.el9_7.x86_64 
 │                       │       ├ PkgName         : gnupg2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/gnupg2@2.3.3-5.el9_7?arch=x86_64&dist
@@ -7122,14 +7242,14 @@
 │                       │       │                  ╰ UID : 2c4da72fc66ee23f 
 │                       │       ├ InstalledVersion: 2.3.3-5.el9_7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-24883 
-│                       │       ├ Fingerprint     : sha256:7e197488ef44227c9cabc30bbe3759dd526cb2219bfd5a2390d9
-│                       │       │                   efbb95335c10 
+│                       │       ├ Fingerprint     : sha256:a49c72fa1a1c1ca44b6194c60bb8a18bdad09ae6d9387fd88201
+│                       │       │                   d43c2f516d80 
 │                       │       ├ Title           : GnuPG: GnuPG: Denial of service due to specially crafted
 │                       │       │                   signature packet 
 │                       │       ├ Description     : In GnuPG before 2.5.17, a long signature packet length
@@ -7164,7 +7284,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-27T19:16:16.823Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:23:44.71Z 
-│                       ├ [112] ╭ VulnerabilityID : CVE-2026-57062 
+│                       ├ [114] ╭ VulnerabilityID : CVE-2026-57062 
 │                       │       ├ PkgID           : gnupg2@2.3.3-5.el9_7.x86_64 
 │                       │       ├ PkgName         : gnupg2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/gnupg2@2.3.3-5.el9_7?arch=x86_64&dist
@@ -7172,14 +7292,14 @@
 │                       │       │                  ╰ UID : 2c4da72fc66ee23f 
 │                       │       ├ InstalledVersion: 2.3.3-5.el9_7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-57062 
-│                       │       ├ Fingerprint     : sha256:b55abe2ad74114fc931b2bb952ba4d0e09c650d1bf50e0ac1674
-│                       │       │                   e19d6fbb76c4 
+│                       │       ├ Fingerprint     : sha256:e5d1d40e3ed8b9338fa0ed03ebd8cfbfd3464a7fecd9163e7c32
+│                       │       │                   10a3a8d17a55 
 │                       │       ├ Title           : GnuPG: Incorrect cryptographic message parsing 
 │                       │       ├ Description     : CMS (Cryptographic Message Syntax) parsing in gpgsm in
 │                       │       │                   GnuPG through 2.5.20 mishandles the CMS format for AES-GCM
@@ -7215,7 +7335,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-23T18:18:10.973Z 
 │                       │       ╰ LastModifiedDate: 2026-06-25T20:16:05.473Z 
-│                       ├ [113] ╭ VulnerabilityID : CVE-2025-28164 
+│                       ├ [115] ╭ VulnerabilityID : CVE-2025-28164 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64 
 │                       │       ├ PkgName         : java-21-openjdk-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-
@@ -7223,14 +7343,14 @@
 │                       │       │                  ╰ UID : e3ef96cd1ace7c98 
 │                       │       ├ InstalledVersion: 1:21.0.12.1.1-1.2.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-28164 
-│                       │       ├ Fingerprint     : sha256:db9255ec838442aaf61ab2271507b01b2f025e9e798f7bc9eba2
-│                       │       │                   f582303501bb 
+│                       │       ├ Fingerprint     : sha256:eaea2a6f57b69575efa726faed05cf05ed40f9194867d50502b1
+│                       │       │                   a068ff5c00eb 
 │                       │       ├ Title           : libpng: libpng: Denial of Service via buffer overflow in
 │                       │       │                   png_create_read_struct() function 
 │                       │       ├ Description     : Buffer Overflow vulnerability in libpng 1.6.43-1.6.46
@@ -7270,7 +7390,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-27T16:16:14.76Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T09:04:37.19Z 
-│                       ├ [114] ╭ VulnerabilityID : CVE-2025-64505 
+│                       ├ [116] ╭ VulnerabilityID : CVE-2025-64505 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64 
 │                       │       ├ PkgName         : java-21-openjdk-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-
@@ -7278,14 +7398,14 @@
 │                       │       │                  ╰ UID : e3ef96cd1ace7c98 
 │                       │       ├ InstalledVersion: 1:21.0.12.1.1-1.2.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-64505 
-│                       │       ├ Fingerprint     : sha256:379cfce39aa2cc13f6defd984d0b76ad8975587edcdc167baa61
-│                       │       │                   80cb76298324 
+│                       │       ├ Fingerprint     : sha256:52379eddf83d933a92f90930874c4acaceefee221e2cb7cd408e
+│                       │       │                   a4217a6f0f3e 
 │                       │       ├ Title           : libpng: LIBPNG heap buffer overflow via malformed palette
 │                       │       │                   index 
 │                       │       ├ Description     : LIBPNG is a reference library for use in applications that
@@ -7304,7 +7424,7 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-125
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon     : 2 
+│                       │       ├ VendorSeverity   ╭ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ julia      : 2 
@@ -7341,7 +7461,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-11-25T00:15:47.133Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T09:54:28.83Z 
-│                       ├ [115] ╭ VulnerabilityID : CVE-2025-64506 
+│                       ├ [117] ╭ VulnerabilityID : CVE-2025-64506 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64 
 │                       │       ├ PkgName         : java-21-openjdk-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-
@@ -7349,14 +7469,14 @@
 │                       │       │                  ╰ UID : e3ef96cd1ace7c98 
 │                       │       ├ InstalledVersion: 1:21.0.12.1.1-1.2.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-64506 
-│                       │       ├ Fingerprint     : sha256:3de86dd59a56142b53db1c4b99fdcb7e991e3afb8a3f2e88c56d
-│                       │       │                   5078103a5685 
+│                       │       ├ Fingerprint     : sha256:2e0ebe667f59231f80c780cbb3e49f0f957d778e0b281d19fea3
+│                       │       │                   7601728b92af 
 │                       │       ├ Title           : libpng: LIBPNG heap buffer over-read 
 │                       │       ├ Description     : LIBPNG is a reference library for use in applications that
 │                       │       │                   read, create, and manipulate PNG (Portable Network
@@ -7410,7 +7530,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-11-25T00:15:47.3Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T09:54:28.937Z 
-│                       ├ [116] ╭ VulnerabilityID : CVE-2026-22693 
+│                       ├ [118] ╭ VulnerabilityID : CVE-2026-22693 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64 
 │                       │       ├ PkgName         : java-21-openjdk-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-
@@ -7418,14 +7538,14 @@
 │                       │       │                  ╰ UID : e3ef96cd1ace7c98 
 │                       │       ├ InstalledVersion: 1:21.0.12.1.1-1.2.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22693 
-│                       │       ├ Fingerprint     : sha256:d9cee77886fe9ffc67b4425aac873cb98fe704d0a7077cb19a96
-│                       │       │                   7feca24c7aa0 
+│                       │       ├ Fingerprint     : sha256:5b168a3c3432b239798f11ac69eaaf280f8da4faec31951e2100
+│                       │       │                   5cd9bbd5eac3 
 │                       │       ├ Title           : harfbuzz: Null Pointer Dereference in harfbuzz 
 │                       │       ├ Description     : HarfBuzz is a text shaping engine. Prior to version 12.3.0,
 │                       │       │                    a null pointer dereference vulnerability exists in the
@@ -7473,7 +7593,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-10T06:15:52.063Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:20:14.783Z 
-│                       ├ [117] ╭ VulnerabilityID : CVE-2026-34757 
+│                       ├ [119] ╭ VulnerabilityID : CVE-2026-34757 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64 
 │                       │       ├ PkgName         : java-21-openjdk-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-
@@ -7481,14 +7601,14 @@
 │                       │       │                  ╰ UID : e3ef96cd1ace7c98 
 │                       │       ├ InstalledVersion: 1:21.0.12.1.1-1.2.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34757 
-│                       │       ├ Fingerprint     : sha256:b775b54db1705caa933b7114c354feb3b6c16e90bd1cfe9fef04
-│                       │       │                   b61bea6a215c 
+│                       │       ├ Fingerprint     : sha256:1baeddc7dfde4624122b4c58b8179a6c22345ca61e91bf5576b6
+│                       │       │                   f61ce561588c 
 │                       │       ├ Title           : libpng: libpng: Information disclosure and data corruption
 │                       │       │                   via use-after-free vulnerability 
 │                       │       ├ Description     : LIBPNG is a reference library for use in applications that
@@ -7551,7 +7671,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-09T15:16:11.003Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:39:34.22Z 
-│                       ├ [118] ╭ VulnerabilityID : CVE-2026-40930 
+│                       ├ [120] ╭ VulnerabilityID : CVE-2026-40930 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64 
 │                       │       ├ PkgName         : java-21-openjdk-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-
@@ -7559,14 +7679,14 @@
 │                       │       │                  ╰ UID : e3ef96cd1ace7c98 
 │                       │       ├ InstalledVersion: 1:21.0.12.1.1-1.2.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-40930 
-│                       │       ├ Fingerprint     : sha256:04b87ed141a603c0541f40ae2e81d65ecd736815744bea3a6abc
-│                       │       │                   6432a37f89e4 
+│                       │       ├ Fingerprint     : sha256:f225ea9e71c2aafd924682171e9467d082aacae6a38af47e98d5
+│                       │       │                   b937c7d8e8bf 
 │                       │       ├ Title           : libpng: libpng: Data integrity and availability impact due
 │                       │       │                   to improper APNG chunk handling 
 │                       │       ├ Description     : LIBPNG is a reference library for use in applications that
@@ -7607,7 +7727,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-04T16:16:36.633Z 
 │                       │       ╰ LastModifiedDate: 2026-07-22T20:10:00.127Z 
-│                       ├ [119] ╭ VulnerabilityID : CVE-2026-27171 
+│                       ├ [121] ╭ VulnerabilityID : CVE-2026-27171 
 │                       │       ├ PkgID           : java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64 
 │                       │       ├ PkgName         : java-21-openjdk-headless 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-
@@ -7615,14 +7735,14 @@
 │                       │       │                  ╰ UID : e3ef96cd1ace7c98 
 │                       │       ├ InstalledVersion: 1:21.0.12.1.1-1.2.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27171 
-│                       │       ├ Fingerprint     : sha256:2d3e599e7fb98bca32a9870ec5f3f5ac9d04c593d48006ac3a75
-│                       │       │                   29db3e966815 
+│                       │       ├ Fingerprint     : sha256:3fff1df322aa47fd03f71e81a3bfd0192e87da720d3ba9905fbe
+│                       │       │                   609d9b2bb6eb 
 │                       │       ├ Title           : zlib: zlib: Denial of Service via infinite loop in CRC32
 │                       │       │                   combine functions 
 │                       │       ├ Description     : zlib before 1.3.2 allows CPU consumption via
@@ -7668,7 +7788,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-02-18T04:16:01.263Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:26:47.357Z 
-│                       ├ [120] ╭ VulnerabilityID : CVE-2026-11850 
+│                       ├ [122] ╭ VulnerabilityID : CVE-2026-11850 
 │                       │       ├ PkgID           : krb5-libs@1.21.1-10.el9_8.x86_64 
 │                       │       ├ PkgName         : krb5-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/krb5-libs@1.21.1-10.el9_8?arch=x86_64
@@ -7676,14 +7796,14 @@
 │                       │       │                  ╰ UID : 9caa949d908ebda8 
 │                       │       ├ InstalledVersion: 1.21.1-10.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11850 
-│                       │       ├ Fingerprint     : sha256:f8fd747188df8bb353483a4e4c37c190c2879de48df586901f44
-│                       │       │                   f1475dd32cf0 
+│                       │       ├ Fingerprint     : sha256:447dc15d7e0a06b9240c6a5c9423a7f6f92ff6fbbe25762cc370
+│                       │       │                   0750e2a6db50 
 │                       │       ├ Title           : krb5: krb5: integer underflow in berval2tl_data() leads to
 │                       │       │                   heap out-of-bounds read 
 │                       │       ├ Description     : An integer underflow vulnerability was found in MIT krb5 in
@@ -7723,22 +7843,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-11T10:16:21.217Z 
 │                       │       ╰ LastModifiedDate: 2026-08-31T18:17:12.593Z 
-│                       ├ [121] ╭ VulnerabilityID : CVE-2023-30571 
+│                       ├ [123] ╭ VulnerabilityID : CVE-2023-30571 
 │                       │       ├ PkgID           : libarchive@3.5.3-11.el9_8.x86_64 
 │                       │       ├ PkgName         : libarchive 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-11.el9_8?arch=x86_64
 │                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : d8e120ca10bba977 
+│                       │       │                  ╰ UID : ef84d86fa037e6a4 
 │                       │       ├ InstalledVersion: 3.5.3-11.el9_8 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-30571 
-│                       │       ├ Fingerprint     : sha256:45336d9a691587c10f5f47362849f5200648b7cb71653af56ea3
-│                       │       │                   248f065d48dc 
+│                       │       ├ Fingerprint     : sha256:7eec2fc49f0ccad0abdcf9512137c1fe38e8af56547f0f790af3
+│                       │       │                   1180d4420ae8 
 │                       │       ├ Title           : libarchive: Race condition in multi-threaded use of
 │                       │       │                   archive_write_disk_header() on posix based systems 
 │                       │       ├ Description     : Libarchive through 3.6.2 can cause directories to have
@@ -7778,22 +7898,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2023-05-29T20:15:09.513Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T05:55:03.22Z 
-│                       ├ [122] ╭ VulnerabilityID : CVE-2025-60753 
+│                       ├ [124] ╭ VulnerabilityID : CVE-2025-60753 
 │                       │       ├ PkgID           : libarchive@3.5.3-11.el9_8.x86_64 
 │                       │       ├ PkgName         : libarchive 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-11.el9_8?arch=x86_64
 │                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : d8e120ca10bba977 
+│                       │       │                  ╰ UID : ef84d86fa037e6a4 
 │                       │       ├ InstalledVersion: 3.5.3-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-60753 
-│                       │       ├ Fingerprint     : sha256:4a61288d40fc10e430da66433d7a51392be9ff1a5158f81cb7c6
-│                       │       │                   08499876a9ad 
+│                       │       ├ Fingerprint     : sha256:da0e1b84aec2070d60865273baf80057e9db8b8c3061caa69419
+│                       │       │                   38fc597cf939 
 │                       │       ├ Title           : libarchive: bsdtar hangs and OOMs with zero-length pattern
 │                       │       │                   matches 
 │                       │       ├ Description     : An issue was discovered in libarchive bsdtar before version
@@ -7830,22 +7950,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-11-05T16:15:40.43Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T09:50:05.117Z 
-│                       ├ [123] ╭ VulnerabilityID : CVE-2026-15028 
+│                       ├ [125] ╭ VulnerabilityID : CVE-2026-15028 
 │                       │       ├ PkgID           : libarchive@3.5.3-11.el9_8.x86_64 
 │                       │       ├ PkgName         : libarchive 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-11.el9_8?arch=x86_64
 │                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : d8e120ca10bba977 
+│                       │       │                  ╰ UID : ef84d86fa037e6a4 
 │                       │       ├ InstalledVersion: 3.5.3-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-15028 
-│                       │       ├ Fingerprint     : sha256:9deb9d5d9536b246669d6bb8214816d93a123949eed6b7a7f7f0
-│                       │       │                   53e563e52b38 
+│                       │       ├ Fingerprint     : sha256:40e16e9646b701a66a361ed4568e5951d774504932151ee2288d
+│                       │       │                   b15ecdf82b00 
 │                       │       ├ Title           : libarchive: heap overflow OOB read while parsing a tar
 │                       │       │                   archive contains a PAX extended header 
 │                       │       ├ Description     : A flaw was found in libarchive. This vulnerability allows a
@@ -7867,45 +7987,51 @@
 │                       │       │                  ├ azure      : 1 
 │                       │       │                  ├ oracle-oval: 1 
 │                       │       │                  ├ redhat     : 2 
+│                       │       │                  ├ rocky      : 1 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:
 │                       │       │                           │           N/A:L 
 │                       │       │                           ╰ V3Score : 3.9 
-│                       │       ├ References                                                            
-│                       │       │                  ─────────────────────────────────────────────────────
-│                       │       │                  https://access.redhat.com/errata/RHSA-2026:38279     
-│                       │       │                  https://access.redhat.com/errata/RHSA-2026:69553     
-│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-15028
-│                       │       │                  https://bugzilla.redhat.com/2497970                  
-│                       │       │                  https://bugzilla.redhat.com/2505492                  
-│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2497970  
-│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-69553.html 
-│                       │       │                  https://github.com/libarchive/libarchive/issues/3251 
-│                       │       │                  https://github.com/libarchive/libarchive/pull/3253   
-│                       │       │                  https://linux.oracle.com/cve/CVE-2026-15028.html     
-│                       │       │                  https://linux.oracle.com/errata/ELSA-2026-69553.html 
-│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-15028      
-│                       │       │                  https://ubuntu.com/security/notices/USN-8581-1       
-│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-15028      
+│                       │       ├ References                                                                    
+│                       │       │                  ─────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:38279             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:69553             
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-15028        
+│                       │       │                  https://bugzilla.redhat.com/2497970                          
+│                       │       │                  https://bugzilla.redhat.com/2505492                          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2497970          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2505492          
+│                       │       │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-15028
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-16517
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-69553.html         
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:69553                
+│                       │       │                  https://github.com/libarchive/libarchive/issues/3251         
+│                       │       │                  https://github.com/libarchive/libarchive/pull/3253           
+│                       │       │                  https://linux.oracle.com/cve/CVE-2026-15028.html             
+│                       │       │                  https://linux.oracle.com/errata/ELSA-2026-69553.html         
+│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-15028              
+│                       │       │                  https://ubuntu.com/security/notices/USN-8581-1               
+│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-15028              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-07-10T10:16:23.417Z 
 │                       │       ╰ LastModifiedDate: 2026-09-22T00:16:31.827Z 
-│                       ├ [124] ╭ VulnerabilityID : CVE-2026-4426 
+│                       ├ [126] ╭ VulnerabilityID : CVE-2026-4426 
 │                       │       ├ PkgID           : libarchive@3.5.3-11.el9_8.x86_64 
 │                       │       ├ PkgName         : libarchive 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-11.el9_8?arch=x86_64
 │                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : d8e120ca10bba977 
+│                       │       │                  ╰ UID : ef84d86fa037e6a4 
 │                       │       ├ InstalledVersion: 3.5.3-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4426 
-│                       │       ├ Fingerprint     : sha256:575d01f7e98cee73ef3f3493f725506f50bf544677dc07343b24
-│                       │       │                   96b9a49965d9 
+│                       │       ├ Fingerprint     : sha256:82b5f74d3b760e595da8b61cf9264004f95f7ba26ce709ea984e
+│                       │       │                   cd0f271b0ee1 
 │                       │       ├ Title           : libarchive: libarchive: Denial of Service via malformed ISO
 │                       │       │                    file processing 
 │                       │       ├ Description     : A flaw was found in libarchive. An Undefined Behavior
@@ -7940,22 +8066,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-19T15:16:28.51Z 
 │                       │       ╰ LastModifiedDate: 2026-09-01T13:19:39.63Z 
-│                       ├ [125] ╭ VulnerabilityID : CVE-2026-5745 
+│                       ├ [127] ╭ VulnerabilityID : CVE-2026-5745 
 │                       │       ├ PkgID           : libarchive@3.5.3-11.el9_8.x86_64 
 │                       │       ├ PkgName         : libarchive 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-11.el9_8?arch=x86_64
 │                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : d8e120ca10bba977 
+│                       │       │                  ╰ UID : ef84d86fa037e6a4 
 │                       │       ├ InstalledVersion: 3.5.3-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-5745 
-│                       │       ├ Fingerprint     : sha256:36038bf3bc9ccd3d1a7005c94a9a31dfb45f696cf1f52efea31d
-│                       │       │                   1dc7b8eb568e 
+│                       │       ├ Fingerprint     : sha256:0ac0c061e7c394d379f1eff64e15e994de3e26203ddbaeeceb41
+│                       │       │                   c4a71cb8a053 
 │                       │       ├ Title           : libarchive: A NULL pointer dereference vulnerability exists
 │                       │       │                    in the ACL parser of libarchive 
 │                       │       ├ Description     : A flaw was found in libarchive. A NULL pointer dereference
@@ -7990,22 +8116,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-07T16:16:32.307Z 
 │                       │       ╰ LastModifiedDate: 2026-09-01T12:17:43.027Z 
-│                       ├ [126] ╭ VulnerabilityID : CVE-2025-1632 
+│                       ├ [128] ╭ VulnerabilityID : CVE-2025-1632 
 │                       │       ├ PkgID           : libarchive@3.5.3-11.el9_8.x86_64 
 │                       │       ├ PkgName         : libarchive 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-11.el9_8?arch=x86_64
 │                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : d8e120ca10bba977 
+│                       │       │                  ╰ UID : ef84d86fa037e6a4 
 │                       │       ├ InstalledVersion: 3.5.3-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1632 
-│                       │       ├ Fingerprint     : sha256:5864a1b03c9429fc2213b0593d81dc297138ebcc8b79ca8b9bcb
-│                       │       │                   c25e91c5eff3 
+│                       │       ├ Fingerprint     : sha256:c235223d4080765b6f3692cbe1533d150d8fb1bf12b96ba06893
+│                       │       │                   cc348219768e 
 │                       │       ├ Title           : libarchive: null pointer dereference in bsdunzip.c 
 │                       │       ├ Description     : A vulnerability was found in libarchive up to 3.7.7. It has
 │                       │       │                    been classified as problematic. This affects the function
@@ -8051,22 +8177,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-02-24T14:15:11.59Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:39:30.083Z 
-│                       ├ [127] ╭ VulnerabilityID : CVE-2025-5915 
+│                       ├ [129] ╭ VulnerabilityID : CVE-2025-5915 
 │                       │       ├ PkgID           : libarchive@3.5.3-11.el9_8.x86_64 
 │                       │       ├ PkgName         : libarchive 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-11.el9_8?arch=x86_64
 │                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : d8e120ca10bba977 
+│                       │       │                  ╰ UID : ef84d86fa037e6a4 
 │                       │       ├ InstalledVersion: 3.5.3-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5915 
-│                       │       ├ Fingerprint     : sha256:15c5039af256945d90a612f335a37018c5488c83b85874e6fdfd
-│                       │       │                   375db3a8bdd2 
+│                       │       ├ Fingerprint     : sha256:007ea2f09ec64e64c2b12859accfe260156da67460d0ae085d2c
+│                       │       │                   7251ca7d0ca1 
 │                       │       ├ Title           : libarchive: Heap buffer over read in
 │                       │       │                   copy_from_lzss_window() at
 │                       │       │                   archive_read_support_format_rar.c 
@@ -8112,22 +8238,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-06-09T20:15:26.317Z 
 │                       │       ╰ LastModifiedDate: 2026-09-01T13:17:47.527Z 
-│                       ├ [128] ╭ VulnerabilityID : CVE-2025-5916 
+│                       ├ [130] ╭ VulnerabilityID : CVE-2025-5916 
 │                       │       ├ PkgID           : libarchive@3.5.3-11.el9_8.x86_64 
 │                       │       ├ PkgName         : libarchive 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-11.el9_8?arch=x86_64
 │                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : d8e120ca10bba977 
+│                       │       │                  ╰ UID : ef84d86fa037e6a4 
 │                       │       ├ InstalledVersion: 3.5.3-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5916 
-│                       │       ├ Fingerprint     : sha256:97b86ca3b420b89484659113079cda0879ba7b89b56c7e8544b0
-│                       │       │                   b35764b3d104 
+│                       │       ├ Fingerprint     : sha256:e94a9249fc37b2064703bfc2c0fb8897e8e52d0aea741fe1c8fd
+│                       │       │                   2956b4b8d8ed 
 │                       │       ├ Title           : libarchive: Integer overflow while reading warc files at
 │                       │       │                   archive_read_support_format_warc.c 
 │                       │       ├ Description     : A vulnerability has been identified in the libarchive
@@ -8181,22 +8307,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-06-09T20:15:27.17Z 
 │                       │       ╰ LastModifiedDate: 2026-09-01T13:17:47.663Z 
-│                       ├ [129] ╭ VulnerabilityID : CVE-2025-5917 
+│                       ├ [131] ╭ VulnerabilityID : CVE-2025-5917 
 │                       │       ├ PkgID           : libarchive@3.5.3-11.el9_8.x86_64 
 │                       │       ├ PkgName         : libarchive 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-11.el9_8?arch=x86_64
 │                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : d8e120ca10bba977 
+│                       │       │                  ╰ UID : ef84d86fa037e6a4 
 │                       │       ├ InstalledVersion: 3.5.3-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5917 
-│                       │       ├ Fingerprint     : sha256:ba1e67728a2c59940c88cf39f7de059daa23b64610124f7c3348
-│                       │       │                   7a6bfeba8841 
+│                       │       ├ Fingerprint     : sha256:649ef94275a5bb8703b2f2d01b209342a96449c6c005f683e5d2
+│                       │       │                   39ab235ec617 
 │                       │       ├ Title           : libarchive: Off by one error in build_ustar_entry_name() at
 │                       │       │                    archive_write_set_format_pax.c 
 │                       │       ├ Description     : A vulnerability has been identified in the libarchive
@@ -8243,22 +8369,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-06-09T20:15:27.33Z 
 │                       │       ╰ LastModifiedDate: 2026-09-01T13:17:47.803Z 
-│                       ├ [130] ╭ VulnerabilityID : CVE-2025-5918 
+│                       ├ [132] ╭ VulnerabilityID : CVE-2025-5918 
 │                       │       ├ PkgID           : libarchive@3.5.3-11.el9_8.x86_64 
 │                       │       ├ PkgName         : libarchive 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libarchive@3.5.3-11.el9_8?arch=x86_64
 │                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : d8e120ca10bba977 
+│                       │       │                  ╰ UID : ef84d86fa037e6a4 
 │                       │       ├ InstalledVersion: 3.5.3-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-5918 
-│                       │       ├ Fingerprint     : sha256:7aebebf998e9bdadbb34da2e5c22b7f4d0063a53676775b5b1ea
-│                       │       │                   455ab95fc8cb 
+│                       │       ├ Fingerprint     : sha256:c3c9477dc50d3abb3d3776227f20592f4b2e65938ffa0005b1a8
+│                       │       │                   effe0ec98bfc 
 │                       │       ├ Title           : libarchive: Reading past EOF may be triggered for piped
 │                       │       │                   file streams 
 │                       │       ├ Description     : A vulnerability has been identified in the libarchive
@@ -8301,7 +8427,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-06-09T20:15:27.493Z 
 │                       │       ╰ LastModifiedDate: 2026-09-01T13:17:47.933Z 
-│                       ├ [131] ╭ VulnerabilityID : CVE-2026-53613 
+│                       ├ [133] ╭ VulnerabilityID : CVE-2026-53613 
 │                       │       ├ PkgID           : libblkid@2.37.4-25.el9.x86_64 
 │                       │       ├ PkgName         : libblkid 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libblkid@2.37.4-25.el9?arch=x86_64&di
@@ -8309,14 +8435,14 @@
 │                       │       │                  ╰ UID : cc372e97e9858e92 
 │                       │       ├ InstalledVersion: 2.37.4-25.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-53613 
-│                       │       ├ Fingerprint     : sha256:7f0c5eb8541f915a2bc04abdf78ef335866fb6aed85f6c837b34
-│                       │       │                   38ab6d83e572 
+│                       │       ├ Fingerprint     : sha256:26afa75af188e3716976aa715a6121effae6fd9a1441d502bd8f
+│                       │       │                   28959db07a6e 
 │                       │       ├ Title           : util-linux: util-linux: TOCTOU in the mount program via
 │                       │       │                   ancestor directory swap on target path 
 │                       │       ├ Description     : When an /etc/fstab entry is configured with the user or
@@ -8345,7 +8471,7 @@
 │                       │                          https://www.cve.org/CVERecord?id=CVE-2026-53613             
 │                       │                                                                                      
 │                       │                          
-│                       ├ [132] ╭ VulnerabilityID : CVE-2026-13595 
+│                       ├ [134] ╭ VulnerabilityID : CVE-2026-13595 
 │                       │       ├ PkgID           : libblkid@2.37.4-25.el9.x86_64 
 │                       │       ├ PkgName         : libblkid 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libblkid@2.37.4-25.el9?arch=x86_64&di
@@ -8353,14 +8479,14 @@
 │                       │       │                  ╰ UID : cc372e97e9858e92 
 │                       │       ├ InstalledVersion: 2.37.4-25.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-13595 
-│                       │       ├ Fingerprint     : sha256:826a008a6167ba38442ce1ab622490f1a71f795663c3b4509b00
-│                       │       │                   6225f1ca0c6b 
+│                       │       ├ Fingerprint     : sha256:4a876e57b33e59678c3b7b9514f521923ec97e01dd6426fd4260
+│                       │       │                   73651f22c9c3 
 │                       │       ├ Title           : util-linux: util-linux: heap use-after-free in libblkid
 │                       │       │                   nested partition probing 
 │                       │       ├ Description     : A flaw was found in the libblkid library of util-linux.
@@ -8411,7 +8537,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-29T09:16:28.303Z 
 │                       │       ╰ LastModifiedDate: 2026-08-31T18:17:13.083Z 
-│                       ├ [133] ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [135] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │       ├ PkgID           : libblkid@2.37.4-25.el9.x86_64 
 │                       │       ├ PkgName         : libblkid 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libblkid@2.37.4-25.el9?arch=x86_64&di
@@ -8419,14 +8545,14 @@
 │                       │       │                  ╰ UID : cc372e97e9858e92 
 │                       │       ├ InstalledVersion: 2.37.4-25.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27456 
-│                       │       ├ Fingerprint     : sha256:e2ed5df40272caae2b81e2df70fe618b86ffc51f4de6312d192b
-│                       │       │                   c46986e99732 
+│                       │       ├ Fingerprint     : sha256:cd6a9c8c2c7109e376bbed8290cebff804dff74178360b4c17f1
+│                       │       │                   c1ce1d0a7789 
 │                       │       ├ Title           : util-linux: TOCTOU in the mount program when setting up
 │                       │       │                   loop devices 
 │                       │       ├ Description     : util-linux is a random collection of Linux utilities. Prior
@@ -8491,7 +8617,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T22:10:00.14Z 
-│                       ├ [134] ╭ VulnerabilityID : CVE-2025-13034 
+│                       ├ [136] ╭ VulnerabilityID : CVE-2025-13034 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -8499,14 +8625,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13034 
-│                       │       ├ Fingerprint     : sha256:408d9ac30c9852ebaba3cc8b062b19b93829a097a2097645ec09
-│                       │       │                   a8d7d69b99d3 
+│                       │       ├ Fingerprint     : sha256:abd5ae4dba1a7a547cc54be02be2993eefacc9bc53576a511ce8
+│                       │       │                   b89947d3a0ef 
 │                       │       ├ Title           : curl: Public key pinning bypass via QUIC and GnuTLS allows
 │                       │       │                   server impersonation 
 │                       │       ├ Description     : When using `CURLOPT_PINNEDPUBLICKEY` option with libcurl or
@@ -8552,7 +8678,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-08T10:15:45.407Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:23.55Z 
-│                       ├ [135] ╭ VulnerabilityID : CVE-2025-14017 
+│                       ├ [137] ╭ VulnerabilityID : CVE-2025-14017 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -8560,14 +8686,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14017 
-│                       │       ├ Fingerprint     : sha256:d778cefa36e5b98572e8f74ec65589991ba6cdfa2dc6c521cccc
-│                       │       │                   4b3dd1ce2718 
+│                       │       ├ Fingerprint     : sha256:5b1d1f21e8f1f30a0ec33728cdb1eec10ec9f5652b087879f340
+│                       │       │                   2bbfe722d507 
 │                       │       ├ Title           : curl: curl: Security bypass due to global TLS option
 │                       │       │                   changes in multi-threaded LDAPS transfers 
 │                       │       ├ Description     : When doing multi-threaded LDAPS transfers (LDAP over TLS)
@@ -8613,7 +8739,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-08T10:15:45.667Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:23.753Z 
-│                       ├ [136] ╭ VulnerabilityID : CVE-2026-11856 
+│                       ├ [138] ╭ VulnerabilityID : CVE-2026-11856 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -8621,14 +8747,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11856 
-│                       │       ├ Fingerprint     : sha256:feb4cc75f5b6a46ea3f5a23177f90d07ea9b8cdda8daae2529c9
-│                       │       │                   1864a4bc2261 
+│                       │       ├ Fingerprint     : sha256:674672e5cb00a10b1c9ee8cdccdfe94aabfb30510c5019813986
+│                       │       │                   363238ea9bb8 
 │                       │       ├ Title           : curl: curl: Information disclosure via incorrect Digest
 │                       │       │                   authentication header reuse 
 │                       │       ├ Description     : Successfully using libcurl to do a transfer to a specific
@@ -8698,7 +8824,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:23.973Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:25.87Z 
-│                       ├ [137] ╭ VulnerabilityID : CVE-2026-19931 
+│                       ├ [139] ╭ VulnerabilityID : CVE-2026-19931 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -8706,14 +8832,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19931 
-│                       │       ├ Fingerprint     : sha256:b31f1eb02e9862777a90283752e07c945c00bf8abb5f3acd1a51
-│                       │       │                   3fcc1b602b38 
+│                       │       ├ Fingerprint     : sha256:a4242aba1c2154627d02e659d2744bc8d61fc061e6dfaf869b77
+│                       │       │                   814b9a3e119a 
 │                       │       ├ Title           : curl: libcurl: Information disclosure via incorrect
 │                       │       │                   connection reuse with Negotiate authentication 
 │                       │       ├ Description     : A flaw in libcurl makes it wrongly reuse an HTTP connection
@@ -8746,7 +8872,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:20.733Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:27.29Z 
-│                       ├ [138] ╭ VulnerabilityID : CVE-2026-3784 
+│                       ├ [140] ╭ VulnerabilityID : CVE-2026-3784 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -8754,14 +8880,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3784 
-│                       │       ├ Fingerprint     : sha256:c10954e6b2974bdaed072ba198e364f04878486e8f23ed40dac1
-│                       │       │                   db1b8cb83a39 
+│                       │       ├ Fingerprint     : sha256:7aa8c79f2ce73cc3f642930b241a5b183c83e5806afb6ab234a8
+│                       │       │                   19d81db9da79 
 │                       │       ├ Title           : curl: curl: Unauthorized access due to improper HTTP proxy
 │                       │       │                   connection reuse 
 │                       │       ├ Description     : curl would wrongly reuse an existing HTTP proxy connection
@@ -8816,7 +8942,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-11T11:16:00.437Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:27.963Z 
-│                       ├ [139] ╭ VulnerabilityID : CVE-2026-4873 
+│                       ├ [141] ╭ VulnerabilityID : CVE-2026-4873 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -8824,14 +8950,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4873 
-│                       │       ├ Fingerprint     : sha256:cc9bbca119a21649e501268830d33863be56c9be9226e9f8ba26
-│                       │       │                   248ba02ddf6c 
+│                       │       ├ Fingerprint     : sha256:939b1e843006d2766c16f5b30d79cef6f4fd95fd53e4b85547cb
+│                       │       │                   6adc5265f0fd 
 │                       │       ├ Title           : curl: curl: Information disclosure due to incorrect TLS
 │                       │       │                   connection reuse 
 │                       │       ├ Description     : A vulnerability exists where a connection requiring TLS
@@ -8874,7 +9000,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-05-13T13:01:55.893Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:28.367Z 
-│                       ├ [140] ╭ VulnerabilityID : CVE-2026-5545 
+│                       ├ [142] ╭ VulnerabilityID : CVE-2026-5545 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -8882,14 +9008,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-5545 
-│                       │       ├ Fingerprint     : sha256:7db0234d1938b374bde0525db09d0759dcc2ff29e252bc82f38d
-│                       │       │                   57ebc0176473 
+│                       │       ├ Fingerprint     : sha256:98557015c63599c8ee8fc631a3bde14612ae04211f2c7ad03c94
+│                       │       │                   75f562c2a676 
 │                       │       ├ Title           : curl: libcurl: Authentication bypass due to incorrect HTTP
 │                       │       │                   Negotiate connection reuse 
 │                       │       ├ Description     : libcurl might in some circumstances reuse the wrong
@@ -8956,7 +9082,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-05-13T13:01:56.19Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:28.633Z 
-│                       ├ [141] ╭ VulnerabilityID : CVE-2026-5773 
+│                       ├ [143] ╭ VulnerabilityID : CVE-2026-5773 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -8964,14 +9090,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-5773 
-│                       │       ├ Fingerprint     : sha256:a6e04f2dac926e775548dced7cb281357fcde213032f8a649da7
-│                       │       │                   34de0b298a51 
+│                       │       ├ Fingerprint     : sha256:ab968f4c6f26ae82bcffceee3c9ddb2062600230e443e334efc5
+│                       │       │                   d53417c614a8 
 │                       │       ├ Title           : curl: libcurl: Wrong file transfer due to incorrect SMB
 │                       │       │                   connection reuse 
 │                       │       ├ Description     : libcurl might in some circumstances reuse the wrong
@@ -9030,7 +9156,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-05-13T13:01:56.307Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:28.82Z 
-│                       ├ [142] ╭ VulnerabilityID : CVE-2026-6253 
+│                       ├ [144] ╭ VulnerabilityID : CVE-2026-6253 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -9038,14 +9164,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6253 
-│                       │       ├ Fingerprint     : sha256:2cfcce79c834f209e299a26832c643e2f78fa79f9f9f345a706c
-│                       │       │                   79e17e2064fa 
+│                       │       ├ Fingerprint     : sha256:188f794cda809e211b691f15024edb0e3416c371c1860302fd2a
+│                       │       │                   f26808ca5643 
 │                       │       ├ Title           : curl: curl: Proxy credential disclosure via redirects to
 │                       │       │                   unauthenticated proxies 
 │                       │       ├ Description     : curl might erroneously pass on credentials for a first
@@ -9091,7 +9217,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-05-13T13:01:56.57Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:29.073Z 
-│                       ├ [143] ╭ VulnerabilityID : CVE-2026-6429 
+│                       ├ [145] ╭ VulnerabilityID : CVE-2026-6429 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -9099,14 +9225,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6429 
-│                       │       ├ Fingerprint     : sha256:1cd738e8881b710f1954859cf1563bf9bc66f65c8d172995bdd1
-│                       │       │                   2435db7c3981 
+│                       │       ├ Fingerprint     : sha256:dd9802fc1a05f5796dcf55d443103b0bdc1bde8ad5b27099ae62
+│                       │       │                   9ce3e9daef30 
 │                       │       ├ Title           : curl: libcurl: Credential leak via reused proxy connection
 │                       │       │                   during HTTP redirects 
 │                       │       ├ Description     : When asked to both use a `.netrc` file for credentials and
@@ -9143,7 +9269,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-05-13T13:01:56.93Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:29.557Z 
-│                       ├ [144] ╭ VulnerabilityID : CVE-2026-7168 
+│                       ├ [146] ╭ VulnerabilityID : CVE-2026-7168 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -9151,14 +9277,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-7168 
-│                       │       ├ Fingerprint     : sha256:d9de8cb562b65ba9c7aff8e542310b3c15314743861cc3d570fd
-│                       │       │                   05f89de2f890 
+│                       │       ├ Fingerprint     : sha256:6db15cbbb98b2d134252b31e629b5e5811ec14ae1f89744ca050
+│                       │       │                   bab6932c6695 
 │                       │       ├ Title           : curl: libcurl: Information disclosure via incorrect
 │                       │       │                   Proxy-Authorization header reuse 
 │                       │       ├ Description     : Successfully using libcurl to do a transfer over a specific
@@ -9205,7 +9331,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-05-13T13:01:57.2Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:29.89Z 
-│                       ├ [145] ╭ VulnerabilityID : CVE-2026-8924 
+│                       ├ [147] ╭ VulnerabilityID : CVE-2026-8924 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -9213,14 +9339,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-8924 
-│                       │       ├ Fingerprint     : sha256:5cc4a0c49a6b9c7ace42625a5e40c20a47abad8b6b3d4cbfbfb7
-│                       │       │                   36fee94f4ce9 
+│                       │       ├ Fingerprint     : sha256:69f4b0f60f432532c8f16c766528d3b8be15b08cd45b3d3261a8
+│                       │       │                   f5d2e8f975db 
 │                       │       ├ Title           : curl: curl: Cookie injection via malicious HTTP server
 │                       │       │                   using super cookies 
 │                       │       ├ Description     : A flaw in curl’s cookie parsing logic allows a malicious
@@ -9288,7 +9414,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:24.793Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:32.573Z 
-│                       ├ [146] ╭ VulnerabilityID : CVE-2026-8932 
+│                       ├ [148] ╭ VulnerabilityID : CVE-2026-8932 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -9296,14 +9422,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-8932 
-│                       │       ├ Fingerprint     : sha256:5e1184f1f1bf5b7c93293669169ad95b1c9fd1661610c24b2cf3
-│                       │       │                   37e1a4eaaca0 
+│                       │       ├ Fingerprint     : sha256:ad0ebea388a54019906909007bcb4d9fd1ebba908d1f238e86f0
+│                       │       │                   94b1f20b2e37 
 │                       │       ├ Title           : libcurl: libcurl: Security feature bypass due to improper
 │                       │       │                   mTLS connection reuse 
 │                       │       ├ Description     : libcurl would reuse a previously created connection even
@@ -9380,7 +9506,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:25.363Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:33.407Z 
-│                       ├ [147] ╭ VulnerabilityID : CVE-2024-11053 
+│                       ├ [149] ╭ VulnerabilityID : CVE-2024-11053 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -9388,14 +9514,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-11053 
-│                       │       ├ Fingerprint     : sha256:f0bc2684a9778944f49b721a555ad02b0ef75f6bcaf546129e43
-│                       │       │                   c6af48d4931b 
+│                       │       ├ Fingerprint     : sha256:c5569c4ef63e77837fd6199a46d2a3bd0beb2a91810257381b14
+│                       │       │                   f13f3257f1f2 
 │                       │       ├ Title           : curl: curl netrc password leak 
 │                       │       ├ Description     : When asked to both use a `.netrc` file for credentials and
 │                       │       │                   to follow HTTP
@@ -9666,7 +9792,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2024-12-11T08:15:05.307Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T06:56:57.873Z 
-│                       ├ [148] ╭ VulnerabilityID : CVE-2024-7264 
+│                       ├ [150] ╭ VulnerabilityID : CVE-2024-7264 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -9674,14 +9800,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7264 
-│                       │       ├ Fingerprint     : sha256:491dbf3688508a5a7ad36b0eca3e480f00b594122fe310aa78ba
-│                       │       │                   1b46113c51f5 
+│                       │       ├ Fingerprint     : sha256:3e0b080f52ad5c9306f40a77d76b667fb4ad05b64ab4996c2b08
+│                       │       │                   bee71e4e286c 
 │                       │       ├ Title           : curl: libcurl: ASN.1 date parser overread 
 │                       │       ├ Description     : libcurl's ASN1 parser code has the `GTime2str()` function,
 │                       │       │                   used for parsing an
@@ -9958,7 +10084,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2024-07-31T08:15:02.657Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:19:43.88Z 
-│                       ├ [149] ╭ VulnerabilityID : CVE-2024-9681 
+│                       ├ [151] ╭ VulnerabilityID : CVE-2024-9681 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -9966,14 +10092,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-9681 
-│                       │       ├ Fingerprint     : sha256:0da5b7b1a76115eb191074e20b6525d13c11a6f890722019f089
-│                       │       │                   6175a53e4bfd 
+│                       │       ├ Fingerprint     : sha256:2478baff70fa9ca2f1dbfc4c6ddd9d6e20d877a160e87e6d6c4e
+│                       │       │                   dd5e29851245 
 │                       │       ├ Title           : curl: HSTS subdomain overwrites parent cache entry 
 │                       │       ├ Description     : When curl is asked to use HSTS, the expiry time for a
 │                       │       │                   subdomain might
@@ -10057,7 +10183,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2024-11-06T08:15:03.74Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:25:03.177Z 
-│                       ├ [150] ╭ VulnerabilityID : CVE-2025-14524 
+│                       ├ [152] ╭ VulnerabilityID : CVE-2025-14524 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -10065,14 +10191,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-14524 
-│                       │       ├ Fingerprint     : sha256:21cf02811da80440a84ba25d65d0c7b43fbe2636f873b82999b9
-│                       │       │                   bc56de1f1df4 
+│                       │       ├ Fingerprint     : sha256:d7688b695756a1587d8caede674662d411a0a27118a80986571c
+│                       │       │                   9244e3096742 
 │                       │       ├ Title           : curl: Information disclosure via cross-protocol redirect
 │                       │       │                   with OAuth2 bearer token 
 │                       │       ├ Description     : When an OAuth2 bearer token is used for an HTTP(S)
@@ -10115,7 +10241,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-08T10:15:46.607Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:24.02Z 
-│                       ├ [151] ╭ VulnerabilityID : CVE-2025-15079 
+│                       ├ [153] ╭ VulnerabilityID : CVE-2025-15079 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -10123,14 +10249,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-15079 
-│                       │       ├ Fingerprint     : sha256:5c53aa1b5a9cfe9bb3d8c99c4ae8332cda5b2435a0455cbbe83d
-│                       │       │                   a6c807efd890 
+│                       │       ├ Fingerprint     : sha256:16a3ede6548e9c555c8e96343f5adc36779bb843edda3382b192
+│                       │       │                   e3ebe8217df7 
 │                       │       ├ Title           : curl: Host verification bypass during SSH transfers 
 │                       │       ├ Description     : When doing SSH-based transfers using either SCP or SFTP,
 │                       │       │                   and setting the
@@ -10170,7 +10296,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-08T10:15:47.1Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:24.467Z 
-│                       ├ [152] ╭ VulnerabilityID : CVE-2025-15224 
+│                       ├ [154] ╭ VulnerabilityID : CVE-2025-15224 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -10178,14 +10304,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-15224 
-│                       │       ├ Fingerprint     : sha256:89151372a9c232f11cc68e4a598d2f544074faf6f63e271488a9
-│                       │       │                   3b11a9a0cfc3 
+│                       │       ├ Fingerprint     : sha256:4eb884c27f24fd341418c166fcb97026e1eb03988465eed4a829
+│                       │       │                   e8884ddf935e 
 │                       │       ├ Title           : curl: libssh key passphrase bypass without agent set 
 │                       │       ├ Description     : When doing SSH-based transfers using either SCP or SFTP,
 │                       │       │                   and asked to do
@@ -10223,7 +10349,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-08T10:15:47.207Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:24.69Z 
-│                       ├ [153] ╭ VulnerabilityID : CVE-2026-18924 
+│                       ├ [155] ╭ VulnerabilityID : CVE-2026-18924 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -10231,14 +10357,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-18924 
-│                       │       ├ Fingerprint     : sha256:f3c5da8aac16a595e15800143d17c50463f12800dac2dcf470b8
-│                       │       │                   057830bf515b 
+│                       │       ├ Fingerprint     : sha256:2a0213e68028925652678056d203d750c3d0ca4ca03a854371e5
+│                       │       │                   9a8fceba5576 
 │                       │       ├ Title           : curl: libcurl: Use-after-free in HTTP/2 Server Push with
 │                       │       │                   shared connections 
 │                       │       ├ Description     : A flaw in libcurl's handling of HTTP/2 Server Push streams,
@@ -10273,7 +10399,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:20.553Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:27.063Z 
-│                       ├ [154] ╭ VulnerabilityID : CVE-2026-6276 
+│                       ├ [156] ╭ VulnerabilityID : CVE-2026-6276 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -10281,14 +10407,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6276 
-│                       │       ├ Fingerprint     : sha256:66f714c9de6aaa347121fa1947b52feed59f6ada457bf3dfd8de
-│                       │       │                   eb5386aa8ac6 
+│                       │       ├ Fingerprint     : sha256:705f79274bca92a5558bc3292a754d5f9f846300b02e374ddbf4
+│                       │       │                   d61bc400929d 
 │                       │       ├ Title           : curl: libcurl: Information disclosure due to cookie leak
 │                       │       │                   when reusing connections with custom Host headers 
 │                       │       ├ Description     : Using libcurl, when a custom `Host:` header is first set
@@ -10335,7 +10461,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-05-13T13:01:56.8Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:29.343Z 
-│                       ├ [155] ╭ VulnerabilityID : CVE-2026-80230 
+│                       ├ [157] ╭ VulnerabilityID : CVE-2026-80230 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -10343,14 +10469,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-80230 
-│                       │       ├ Fingerprint     : sha256:92466017c79942d796bb65e16bae7e177f92f8df9a4b8376dfce
-│                       │       │                   2ff4b1cdfb9e 
+│                       │       ├ Fingerprint     : sha256:724613d5e37c064d047dc9ac42e8de5bad341a6735420512ba3f
+│                       │       │                   1e57824b8c61 
 │                       │       ├ Title           : curl: curl: Public key pinning bypass allows
 │                       │       │                   unauthenticated connections 
 │                       │       ├ Description     : When `CURLOPT_PINNEDPUBLICKEY` is configured alongside
@@ -10388,7 +10514,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.327Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:30.337Z 
-│                       ├ [156] ╭ VulnerabilityID : CVE-2026-82209 
+│                       ├ [158] ╭ VulnerabilityID : CVE-2026-82209 
 │                       │       ├ PkgID           : libcurl-minimal@7.76.1-40.el9_8.7.x86_64 
 │                       │       ├ PkgName         : libcurl-minimal 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libcurl-minimal@7.76.1-40.el9_8.7?arc
@@ -10396,14 +10522,14 @@
 │                       │       │                  ╰ UID : e6245b927fe58 
 │                       │       ├ InstalledVersion: 7.76.1-40.el9_8.7 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-82209 
-│                       │       ├ Fingerprint     : sha256:4ebe7e5032121d91156a7b96cd1e890c17a7afd327631606c0a1
-│                       │       │                   27f7c61bdda9 
+│                       │       ├ Fingerprint     : sha256:83efcc7d01d0e3f26f6a08a1cda7de38bbfdfd9fb17639617a38
+│                       │       │                   1ca0028c782f 
 │                       │       ├ Title           : curl: libcurl: Information disclosure via improper Public
 │                       │       │                   Suffix List boundary check 
 │                       │       ├ Description     : When libpsl support is enabled, libcurl fails to enforce
@@ -10450,7 +10576,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-06T18:17:22.847Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:31.233Z 
-│                       ├ [157] ╭ VulnerabilityID : CVE-2026-95619 
+│                       ├ [159] ╭ VulnerabilityID : CVE-2026-95619 
 │                       │       ├ PkgID           : libgcc@11.5.0-14.el9.x86_64 
 │                       │       ├ PkgName         : libgcc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libgcc@11.5.0-14.el9?arch=x86_64&dist
@@ -10458,14 +10584,14 @@
 │                       │       │                  ╰ UID : 3a76f1f2a00527e 
 │                       │       ├ InstalledVersion: 11.5.0-14.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-95619 
-│                       │       ├ Fingerprint     : sha256:707f02f922daa7d5b0ab13d9b74ecec6e76582586ed66a4fca3b
-│                       │       │                   0bcc87f3610b 
+│                       │       ├ Fingerprint     : sha256:847c6638e2362781477bd978cce7244cadb9f8276c36bcdac0bc
+│                       │       │                   dc07944cc6d2 
 │                       │       ├ Title           : gcc: libstdc++ integer overflow in `new` operator 
 │                       │       ├ Description     : A flaw was found in libstdc++. An integer overflow can
 │                       │       │                   occur when processing large inputs to the aligned operator
@@ -10492,7 +10618,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-22T13:17:13.3Z 
 │                       │       ╰ LastModifiedDate: 2026-09-22T19:37:36.747Z 
-│                       ├ [158] ╭ VulnerabilityID : CVE-2021-46195 
+│                       ├ [160] ╭ VulnerabilityID : CVE-2021-46195 
 │                       │       ├ PkgID           : libgcc@11.5.0-14.el9.x86_64 
 │                       │       ├ PkgName         : libgcc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libgcc@11.5.0-14.el9?arch=x86_64&dist
@@ -10500,14 +10626,14 @@
 │                       │       │                  ╰ UID : 3a76f1f2a00527e 
 │                       │       ├ InstalledVersion: 11.5.0-14.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-46195 
-│                       │       ├ Fingerprint     : sha256:219b99e493140cd4f90b22951d3f0c4203ce0c96fd3b9421fe0d
-│                       │       │                   30c7cc61fdf4 
+│                       │       ├ Fingerprint     : sha256:ca9773c79f65deca19ddcd4df41654fc92b54e9338cc1e60a5f0
+│                       │       │                   166c287379b9 
 │                       │       ├ Title           : gcc: uncontrolled recursion in libiberty/rust-demangle.c 
 │                       │       ├ Description     : GCC v12.0 was discovered to contain an uncontrolled
 │                       │       │                   recursion via the component libiberty/rust-demangle.c. This
@@ -10553,7 +10679,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2022-01-14T20:15:15.6Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T04:14:38.07Z 
-│                       ├ [159] ╭ VulnerabilityID : CVE-2022-27943 
+│                       ├ [161] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │       ├ PkgID           : libgcc@11.5.0-14.el9.x86_64 
 │                       │       ├ PkgName         : libgcc 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libgcc@11.5.0-14.el9?arch=x86_64&dist
@@ -10561,14 +10687,14 @@
 │                       │       │                  ╰ UID : 3a76f1f2a00527e 
 │                       │       ├ InstalledVersion: 11.5.0-14.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-27943 
-│                       │       ├ Fingerprint     : sha256:b28ce20cd88cd2365183115883abe01f0628cd143ddefe2a1102
-│                       │       │                   ad62cd8ce1da 
+│                       │       ├ Fingerprint     : sha256:883e7a118a0d6e3c9f1209d0b75cf7fc6fdc3ebe66040a7350fe
+│                       │       │                   9ed43ee00f81 
 │                       │       ├ Title           : binutils: libiberty/rust-demangle.c in GNU GCC 11.2 allows
 │                       │       │                   stack exhaustion in demangle_const 
 │                       │       ├ Description     : libiberty/rust-demangle.c in GNU GCC 11.2 allows stack
@@ -10614,7 +10740,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T04:37:46.95Z 
-│                       ├ [160] ╭ VulnerabilityID : CVE-2026-41990 
+│                       ├ [162] ╭ VulnerabilityID : CVE-2026-41990 
 │                       │       ├ PkgID           : libgcrypt@1.10.0-13.el9_8.x86_64 
 │                       │       ├ PkgName         : libgcrypt 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libgcrypt@1.10.0-13.el9_8?arch=x86_64
@@ -10622,14 +10748,14 @@
 │                       │       │                  ╰ UID : 9a566e9a8c9bbbc9 
 │                       │       ├ InstalledVersion: 1.10.0-13.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-41990 
-│                       │       ├ Fingerprint     : sha256:08aa92771442b0df3d0505d9a4123e6f9c21e3609109f62480c9
-│                       │       │                   3188351481b9 
+│                       │       ├ Fingerprint     : sha256:29e4965d8f169e6797e18fa198fd6df3d312b89b30a896faf04a
+│                       │       │                   0d15697b9158 
 │                       │       ├ Title           : Libgcrypt: Libgcrypt: Denial of Service or data integrity
 │                       │       │                   issues from missing bounds check during Dilithium
 │                       │       │                   signing. 
@@ -10668,7 +10794,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-23T05:16:05.897Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:47:18.257Z 
-│                       ├ [161] ╭ VulnerabilityID : CVE-2026-53613 
+│                       ├ [163] ╭ VulnerabilityID : CVE-2026-53613 
 │                       │       ├ PkgID           : libmount@2.37.4-25.el9.x86_64 
 │                       │       ├ PkgName         : libmount 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libmount@2.37.4-25.el9?arch=x86_64&di
@@ -10676,14 +10802,14 @@
 │                       │       │                  ╰ UID : 990e30ed06571399 
 │                       │       ├ InstalledVersion: 2.37.4-25.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-53613 
-│                       │       ├ Fingerprint     : sha256:36b2ac0cf42fe6d8fdfe275ab39d079379f67edb9c520501304a
-│                       │       │                   4745b0b568e4 
+│                       │       ├ Fingerprint     : sha256:470144778735f3830cf0390511d46f56a64beabbcc59610da6e2
+│                       │       │                   f64c63c82fd7 
 │                       │       ├ Title           : util-linux: util-linux: TOCTOU in the mount program via
 │                       │       │                   ancestor directory swap on target path 
 │                       │       ├ Description     : When an /etc/fstab entry is configured with the user or
@@ -10712,7 +10838,7 @@
 │                       │                          https://www.cve.org/CVERecord?id=CVE-2026-53613             
 │                       │                                                                                      
 │                       │                          
-│                       ├ [162] ╭ VulnerabilityID : CVE-2026-13595 
+│                       ├ [164] ╭ VulnerabilityID : CVE-2026-13595 
 │                       │       ├ PkgID           : libmount@2.37.4-25.el9.x86_64 
 │                       │       ├ PkgName         : libmount 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libmount@2.37.4-25.el9?arch=x86_64&di
@@ -10720,14 +10846,14 @@
 │                       │       │                  ╰ UID : 990e30ed06571399 
 │                       │       ├ InstalledVersion: 2.37.4-25.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-13595 
-│                       │       ├ Fingerprint     : sha256:9866f5222eb16a4514d87072ea1c02fed547a59ac3a935925c9f
-│                       │       │                   6a03121b4df1 
+│                       │       ├ Fingerprint     : sha256:2abd986b55cb565ff5cbbb1be10ceeb197b0799f41cf37d2b1a2
+│                       │       │                   4568b6850a49 
 │                       │       ├ Title           : util-linux: util-linux: heap use-after-free in libblkid
 │                       │       │                   nested partition probing 
 │                       │       ├ Description     : A flaw was found in the libblkid library of util-linux.
@@ -10778,7 +10904,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-29T09:16:28.303Z 
 │                       │       ╰ LastModifiedDate: 2026-08-31T18:17:13.083Z 
-│                       ├ [163] ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [165] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │       ├ PkgID           : libmount@2.37.4-25.el9.x86_64 
 │                       │       ├ PkgName         : libmount 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libmount@2.37.4-25.el9?arch=x86_64&di
@@ -10786,14 +10912,14 @@
 │                       │       │                  ╰ UID : 990e30ed06571399 
 │                       │       ├ InstalledVersion: 2.37.4-25.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27456 
-│                       │       ├ Fingerprint     : sha256:70fac5510d956d54d0e8b93d1cf8b89224c6695fad66a6a61e04
-│                       │       │                   7a3f4b19e0d0 
+│                       │       ├ Fingerprint     : sha256:cf1652a8d0d08ce80b19b11067c0f3900b152c154e1f70303684
+│                       │       │                   dd91e1bfafcc 
 │                       │       ├ Title           : util-linux: TOCTOU in the mount program when setting up
 │                       │       │                   loop devices 
 │                       │       ├ Description     : util-linux is a random collection of Linux utilities. Prior
@@ -10858,7 +10984,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T22:10:00.14Z 
-│                       ├ [164] ╭ VulnerabilityID : CVE-2023-24056 
+│                       ├ [166] ╭ VulnerabilityID : CVE-2023-24056 
 │                       │       ├ PkgID           : libpkgconf@1.7.3-10.el9.x86_64 
 │                       │       ├ PkgName         : libpkgconf 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libpkgconf@1.7.3-10.el9?arch=x86_64&d
@@ -10866,14 +10992,14 @@
 │                       │       │                  ╰ UID : 87744acdb511a5b0 
 │                       │       ├ InstalledVersion: 1.7.3-10.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-24056 
-│                       │       ├ Fingerprint     : sha256:7d02e36b489c0f2e6dfd6140abfb87d80f25c35155b9720da9a7
-│                       │       │                   d321cfc77d81 
+│                       │       ├ Fingerprint     : sha256:bd26d2d0936288978d179e5990abaf8f351028eace0b49d598e8
+│                       │       │                   4c211020954a 
 │                       │       ├ Title           : pkgconf: unbounded string expansion due to incorrect checks
 │                       │       │                    may result in buffer overflow 
 │                       │       ├ Description     : In pkgconf through 1.9.3, variable duplication can cause
@@ -10912,7 +11038,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2023-01-22T04:15:11.617Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T05:38:34.31Z 
-│                       ├ [165] ╭ VulnerabilityID : CVE-2026-53613 
+│                       ├ [167] ╭ VulnerabilityID : CVE-2026-53613 
 │                       │       ├ PkgID           : libsmartcols@2.37.4-25.el9.x86_64 
 │                       │       ├ PkgName         : libsmartcols 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libsmartcols@2.37.4-25.el9?arch=x86_6
@@ -10920,14 +11046,14 @@
 │                       │       │                  ╰ UID : d319b670e8b0bc22 
 │                       │       ├ InstalledVersion: 2.37.4-25.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-53613 
-│                       │       ├ Fingerprint     : sha256:199df854632e93b712c802f7590d94c9bf3d008bbf41a5d41792
-│                       │       │                   4efdb078413c 
+│                       │       ├ Fingerprint     : sha256:dd52d15358c1a65cd60a546036ef3f20d4b6b9eeb274658560ae
+│                       │       │                   31bcd8c3d5e6 
 │                       │       ├ Title           : util-linux: util-linux: TOCTOU in the mount program via
 │                       │       │                   ancestor directory swap on target path 
 │                       │       ├ Description     : When an /etc/fstab entry is configured with the user or
@@ -10956,7 +11082,7 @@
 │                       │                          https://www.cve.org/CVERecord?id=CVE-2026-53613             
 │                       │                                                                                      
 │                       │                          
-│                       ├ [166] ╭ VulnerabilityID : CVE-2026-13595 
+│                       ├ [168] ╭ VulnerabilityID : CVE-2026-13595 
 │                       │       ├ PkgID           : libsmartcols@2.37.4-25.el9.x86_64 
 │                       │       ├ PkgName         : libsmartcols 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libsmartcols@2.37.4-25.el9?arch=x86_6
@@ -10964,14 +11090,14 @@
 │                       │       │                  ╰ UID : d319b670e8b0bc22 
 │                       │       ├ InstalledVersion: 2.37.4-25.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-13595 
-│                       │       ├ Fingerprint     : sha256:ee3ee7bf5e0081039984ce1ed2601996d33aae466343198a1f41
-│                       │       │                   cc94528ed54a 
+│                       │       ├ Fingerprint     : sha256:dc445caa06b8dd3a880e9fd3718466bfc0d3f4980319230b81a4
+│                       │       │                   7e5698fd4afe 
 │                       │       ├ Title           : util-linux: util-linux: heap use-after-free in libblkid
 │                       │       │                   nested partition probing 
 │                       │       ├ Description     : A flaw was found in the libblkid library of util-linux.
@@ -11022,7 +11148,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-29T09:16:28.303Z 
 │                       │       ╰ LastModifiedDate: 2026-08-31T18:17:13.083Z 
-│                       ├ [167] ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [169] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │       ├ PkgID           : libsmartcols@2.37.4-25.el9.x86_64 
 │                       │       ├ PkgName         : libsmartcols 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libsmartcols@2.37.4-25.el9?arch=x86_6
@@ -11030,14 +11156,14 @@
 │                       │       │                  ╰ UID : d319b670e8b0bc22 
 │                       │       ├ InstalledVersion: 2.37.4-25.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27456 
-│                       │       ├ Fingerprint     : sha256:b933058f1f96df81f76e7bb285286945c1be8a4cd0995c9b2d26
-│                       │       │                   a0ed9812b891 
+│                       │       ├ Fingerprint     : sha256:fffd5bcce44ab8e9763d2bcaf969a60b2294c5e49af9a49eda57
+│                       │       │                   8ad844ee92a2 
 │                       │       ├ Title           : util-linux: TOCTOU in the mount program when setting up
 │                       │       │                   loop devices 
 │                       │       ├ Description     : util-linux is a random collection of Linux utilities. Prior
@@ -11102,22 +11228,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T22:10:00.14Z 
-│                       ├ [168] ╭ VulnerabilityID : CVE-2026-82327 
+│                       ├ [170] ╭ VulnerabilityID : CVE-2026-82327 
 │                       │       ├ PkgID           : libsolv@0.7.24-6.el9_8.x86_64 
 │                       │       ├ PkgName         : libsolv 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libsolv@0.7.24-6.el9_8?arch=x86_64&di
 │                       │       │                  │       stro=redhat-9.8 
-│                       │       │                  ╰ UID : d4e30d105e6daa9d 
+│                       │       │                  ╰ UID : 5d4dc60536f9aaba 
 │                       │       ├ InstalledVersion: 0.7.24-6.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-82327 
-│                       │       ├ Fingerprint     : sha256:ae942975b643469d75605fd3252cace04e41b50e5026cc788dfe
-│                       │       │                   fbe1ed6298c2 
+│                       │       ├ Fingerprint     : sha256:443681e58191b9b3d8e26acbedca30c73d2ff0b4fe2384d27149
+│                       │       │                   0a2ecd98e22c 
 │                       │       ├ Title           : libsolv: libsolv: out-of-bounds write in repo_write() via
 │                       │       │                   unvalidated directory id from vertical/paged .solv filelist
 │                       │       │                    data 
@@ -11154,22 +11280,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-28T16:18:34.067Z 
 │                       │       ╰ LastModifiedDate: 2026-08-28T20:20:21.063Z 
-│                       ├ [169] ╭ VulnerabilityID : CVE-2026-9149 
+│                       ├ [171] ╭ VulnerabilityID : CVE-2026-9149 
 │                       │       ├ PkgID           : libsolv@0.7.24-6.el9_8.x86_64 
 │                       │       ├ PkgName         : libsolv 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libsolv@0.7.24-6.el9_8?arch=x86_64&di
 │                       │       │                  │       stro=redhat-9.8 
-│                       │       │                  ╰ UID : d4e30d105e6daa9d 
+│                       │       │                  ╰ UID : 5d4dc60536f9aaba 
 │                       │       ├ InstalledVersion: 0.7.24-6.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-9149 
-│                       │       ├ Fingerprint     : sha256:8345e523c51806750a09861e38566449171cca156ba88dc00eec
-│                       │       │                   944117361cb7 
+│                       │       ├ Fingerprint     : sha256:a123a964d00c5e99982b5d9b46b4e93a97e9ca09f21497379178
+│                       │       │                   90319fb66381 
 │                       │       ├ Title           : libsolv: Heap buffer overflow in libsolv repo_add_solv via
 │                       │       │                   negative maxsize from crafted .solv file 
 │                       │       ├ Description     : A flaw was found in libsolv. This heap buffer overflow
@@ -11224,22 +11350,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-05-21T00:16:35.63Z 
 │                       │       ╰ LastModifiedDate: 2026-09-01T12:17:49.67Z 
-│                       ├ [170] ╭ VulnerabilityID : CVE-2026-9150 
+│                       ├ [172] ╭ VulnerabilityID : CVE-2026-9150 
 │                       │       ├ PkgID           : libsolv@0.7.24-6.el9_8.x86_64 
 │                       │       ├ PkgName         : libsolv 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libsolv@0.7.24-6.el9_8?arch=x86_64&di
 │                       │       │                  │       stro=redhat-9.8 
-│                       │       │                  ╰ UID : d4e30d105e6daa9d 
+│                       │       │                  ╰ UID : 5d4dc60536f9aaba 
 │                       │       ├ InstalledVersion: 0.7.24-6.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-9150 
-│                       │       ├ Fingerprint     : sha256:af5a1d69e14a51faef97d33872258dcbf910f27d3ded41043456
-│                       │       │                   e41aa03ad8b4 
+│                       │       ├ Fingerprint     : sha256:332ce72200d96d90418f186bfc469303a55cbc6249f4290dec5b
+│                       │       │                   0731ed7a69ec 
 │                       │       ├ Title           : libsolv: Stack-based buffer overflow in libsolv's Debian
 │                       │       │                   metadata parser when handling SHA384/SHA512 checksums 
 │                       │       ├ Description     : A flaw was found in libsolv. This stack-based buffer
@@ -11291,7 +11417,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-05-20T23:16:36.01Z 
 │                       │       ╰ LastModifiedDate: 2026-09-01T12:17:50.15Z 
-│                       ├ [171] ╭ VulnerabilityID : CVE-2026-95619 
+│                       ├ [173] ╭ VulnerabilityID : CVE-2026-95619 
 │                       │       ├ PkgID           : libstdc++@11.5.0-14.el9.x86_64 
 │                       │       ├ PkgName         : libstdc++ 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libstdc%2B%2B@11.5.0-14.el9?arch=x86_
@@ -11299,14 +11425,14 @@
 │                       │       │                  ╰ UID : b06a21cb36857bae 
 │                       │       ├ InstalledVersion: 11.5.0-14.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-95619 
-│                       │       ├ Fingerprint     : sha256:c29fde188d88f44f772f1f3df6750c77adce0fb0c48f32b5cf94
-│                       │       │                   0f58cb8b19b0 
+│                       │       ├ Fingerprint     : sha256:23ee5e4533f09b8df1273b2b079480691c1fb93d59f8afdd3f36
+│                       │       │                   1b0ad11e284e 
 │                       │       ├ Title           : gcc: libstdc++ integer overflow in `new` operator 
 │                       │       ├ Description     : A flaw was found in libstdc++. An integer overflow can
 │                       │       │                   occur when processing large inputs to the aligned operator
@@ -11333,7 +11459,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-22T13:17:13.3Z 
 │                       │       ╰ LastModifiedDate: 2026-09-22T19:37:36.747Z 
-│                       ├ [172] ╭ VulnerabilityID : CVE-2021-46195 
+│                       ├ [174] ╭ VulnerabilityID : CVE-2021-46195 
 │                       │       ├ PkgID           : libstdc++@11.5.0-14.el9.x86_64 
 │                       │       ├ PkgName         : libstdc++ 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libstdc%2B%2B@11.5.0-14.el9?arch=x86_
@@ -11341,14 +11467,14 @@
 │                       │       │                  ╰ UID : b06a21cb36857bae 
 │                       │       ├ InstalledVersion: 11.5.0-14.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-46195 
-│                       │       ├ Fingerprint     : sha256:318c7aaac9b8e7f6b9a84aa60410bdb55fc939f0ad7268f60e01
-│                       │       │                   ecb47ea1235a 
+│                       │       ├ Fingerprint     : sha256:7fc3363517accb4e39d9744ebdfaca784bb81c6fd2839c83a0d5
+│                       │       │                   30c591ea0117 
 │                       │       ├ Title           : gcc: uncontrolled recursion in libiberty/rust-demangle.c 
 │                       │       ├ Description     : GCC v12.0 was discovered to contain an uncontrolled
 │                       │       │                   recursion via the component libiberty/rust-demangle.c. This
@@ -11394,7 +11520,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2022-01-14T20:15:15.6Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T04:14:38.07Z 
-│                       ├ [173] ╭ VulnerabilityID : CVE-2022-27943 
+│                       ├ [175] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │       ├ PkgID           : libstdc++@11.5.0-14.el9.x86_64 
 │                       │       ├ PkgName         : libstdc++ 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libstdc%2B%2B@11.5.0-14.el9?arch=x86_
@@ -11402,14 +11528,14 @@
 │                       │       │                  ╰ UID : b06a21cb36857bae 
 │                       │       ├ InstalledVersion: 11.5.0-14.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-27943 
-│                       │       ├ Fingerprint     : sha256:cb501f6dd3af55ed0ce8e9fb9f4f441f045ca68e72fe739a2474
-│                       │       │                   d4caaf520bfa 
+│                       │       ├ Fingerprint     : sha256:1b067febce1f3afb0d82e7f3f584a20466c003260f386f7a85d5
+│                       │       │                   d2836a26202a 
 │                       │       ├ Title           : binutils: libiberty/rust-demangle.c in GNU GCC 11.2 allows
 │                       │       │                   stack exhaustion in demangle_const 
 │                       │       ├ Description     : libiberty/rust-demangle.c in GNU GCC 11.2 allows stack
@@ -11455,7 +11581,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T04:37:46.95Z 
-│                       ├ [174] ╭ VulnerabilityID : CVE-2026-53613 
+│                       ├ [176] ╭ VulnerabilityID : CVE-2026-53613 
 │                       │       ├ PkgID           : libuuid@2.37.4-25.el9.x86_64 
 │                       │       ├ PkgName         : libuuid 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libuuid@2.37.4-25.el9?arch=x86_64&dis
@@ -11463,14 +11589,14 @@
 │                       │       │                  ╰ UID : 55593fd059de13f6 
 │                       │       ├ InstalledVersion: 2.37.4-25.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-53613 
-│                       │       ├ Fingerprint     : sha256:dd4a5ad05534f1d053bcf81523e2f207000e12c52b902597148a
-│                       │       │                   e60349864c3f 
+│                       │       ├ Fingerprint     : sha256:253f97a284e485942864586ad3eec8e2ae09a6b8a5dfdba306e9
+│                       │       │                   0e9d75b46d0f 
 │                       │       ├ Title           : util-linux: util-linux: TOCTOU in the mount program via
 │                       │       │                   ancestor directory swap on target path 
 │                       │       ├ Description     : When an /etc/fstab entry is configured with the user or
@@ -11499,7 +11625,7 @@
 │                       │                          https://www.cve.org/CVERecord?id=CVE-2026-53613             
 │                       │                                                                                      
 │                       │                          
-│                       ├ [175] ╭ VulnerabilityID : CVE-2026-13595 
+│                       ├ [177] ╭ VulnerabilityID : CVE-2026-13595 
 │                       │       ├ PkgID           : libuuid@2.37.4-25.el9.x86_64 
 │                       │       ├ PkgName         : libuuid 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libuuid@2.37.4-25.el9?arch=x86_64&dis
@@ -11507,14 +11633,14 @@
 │                       │       │                  ╰ UID : 55593fd059de13f6 
 │                       │       ├ InstalledVersion: 2.37.4-25.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-13595 
-│                       │       ├ Fingerprint     : sha256:b194b70f32fb07493e0bf35526ee933346867ce01545d7f404c5
-│                       │       │                   c95b736b3d2e 
+│                       │       ├ Fingerprint     : sha256:1d30074a814f358c517aa6582afad56fbb47f5cd9f055f4002b0
+│                       │       │                   a4d305a7fd70 
 │                       │       ├ Title           : util-linux: util-linux: heap use-after-free in libblkid
 │                       │       │                   nested partition probing 
 │                       │       ├ Description     : A flaw was found in the libblkid library of util-linux.
@@ -11565,7 +11691,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-29T09:16:28.303Z 
 │                       │       ╰ LastModifiedDate: 2026-08-31T18:17:13.083Z 
-│                       ├ [176] ╭ VulnerabilityID : CVE-2026-27456 
+│                       ├ [178] ╭ VulnerabilityID : CVE-2026-27456 
 │                       │       ├ PkgID           : libuuid@2.37.4-25.el9.x86_64 
 │                       │       ├ PkgName         : libuuid 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libuuid@2.37.4-25.el9?arch=x86_64&dis
@@ -11573,14 +11699,14 @@
 │                       │       │                  ╰ UID : 55593fd059de13f6 
 │                       │       ├ InstalledVersion: 2.37.4-25.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27456 
-│                       │       ├ Fingerprint     : sha256:a902275739d018ddf2546ba3e899438fc608554ec24942fe4fed
-│                       │       │                   dc05877c7020 
+│                       │       ├ Fingerprint     : sha256:33e56f75d187003f5e21c5e1a71d81cc232d3cabed562eda3059
+│                       │       │                   38895d0677b3 
 │                       │       ├ Title           : util-linux: TOCTOU in the mount program when setting up
 │                       │       │                   loop devices 
 │                       │       ├ Description     : util-linux is a random collection of Linux utilities. Prior
@@ -11645,22 +11771,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-03T22:16:25.4Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T22:10:00.14Z 
-│                       ├ [177] ╭ VulnerabilityID : CVE-2026-74860 
-│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.4.x86_64 
+│                       ├ [179] ╭ VulnerabilityID : CVE-2026-74860 
+│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.5.x86_64 
 │                       │       ├ PkgName         : libxml2 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.4?arch=x86_64
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.5?arch=x86_64
 │                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : cc52b2a969be5599 
-│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.4 
+│                       │       │                  ╰ UID : 93feaec7e7fabe82 
+│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-74860 
-│                       │       ├ Fingerprint     : sha256:9a5744cd6778105dda51c80079cd17152c6d32c9a620b7bcd0f0
-│                       │       │                   1865ceafc1d0 
+│                       │       ├ Fingerprint     : sha256:8360a6aa39e39128d75d93c6bafba05c1cf88eec6a5187b6a2b9
+│                       │       │                   9ac094d5045c 
 │                       │       ├ Title           : libxml2: double-free/UAF in libxml2 Python bindings 
 │                       │       ├ Description     : A flaw was found in libxml2 with Python bindings enabled. A
 │                       │       │                    remote attacker could exploit this vulnerability by
@@ -11685,6 +11811,9 @@
 │                       │       ├ References                                                            
 │                       │       │                  ─────────────────────────────────────────────────────
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:64463     
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:71585     
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:71586     
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:71641     
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-74860
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2529697  
 │                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-74860      
@@ -11692,23 +11821,23 @@
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-74860      
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-08T12:16:58.083Z 
-│                       │       ╰ LastModifiedDate: 2026-09-10T20:17:28.66Z 
-│                       ├ [178] ╭ VulnerabilityID : CVE-2026-86140 
-│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.4.x86_64 
+│                       │       ╰ LastModifiedDate: 2026-09-24T21:18:36.05Z 
+│                       ├ [180] ╭ VulnerabilityID : CVE-2026-86140 
+│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.5.x86_64 
 │                       │       ├ PkgName         : libxml2 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.4?arch=x86_64
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.5?arch=x86_64
 │                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : cc52b2a969be5599 
-│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.4 
+│                       │       │                  ╰ UID : 93feaec7e7fabe82 
+│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86140 
-│                       │       ├ Fingerprint     : sha256:7b97f491e4fd36116a7e0ebd8decc2736ad92a6bd2483bfc4fb8
-│                       │       │                   6a9503c5bae8 
+│                       │       ├ Fingerprint     : sha256:d9e7c1afe42f6a37127448b11c9d3e0faedc978c3a81fec0c715
+│                       │       │                   2eaffa4e1b7f 
 │                       │       ├ Title           : libxml2: libxml2: Arbitrary code execution via stack-based
 │                       │       │                   buffer overflow in xmlSnprintfElements 
 │                       │       ├ Description     : In libxml2 before 2.15.4, xmlSnprintfElements in valid.c
@@ -11745,22 +11874,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-05T05:17:12.877Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T19:39:17.01Z 
-│                       ├ [179] ╭ VulnerabilityID : CVE-2026-0990 
-│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.4.x86_64 
+│                       ├ [181] ╭ VulnerabilityID : CVE-2026-0990 
+│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.5.x86_64 
 │                       │       ├ PkgName         : libxml2 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.4?arch=x86_64
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.5?arch=x86_64
 │                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : cc52b2a969be5599 
-│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.4 
+│                       │       │                  ╰ UID : 93feaec7e7fabe82 
+│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-0990 
-│                       │       ├ Fingerprint     : sha256:002016fd8f09ba86761d4327e46391d9ac3563b3539a9e3a232d
-│                       │       │                   bc68ec99560e 
+│                       │       ├ Fingerprint     : sha256:27e3ff16ce29d441e8edb02342c4d504c836e283e6fc27eda3f2
+│                       │       │                   b11125741e54 
 │                       │       ├ Title           : libxml2: libxml2: Denial of Service via uncontrolled
 │                       │       │                   recursion in XML catalog processing 
 │                       │       ├ Description     : A flaw was found in libxml2, an XML parsing library. This
@@ -11803,22 +11932,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-15T15:15:52.503Z 
 │                       │       ╰ LastModifiedDate: 2026-09-01T12:17:34.22Z 
-│                       ├ [180] ╭ VulnerabilityID : CVE-2026-1757 
-│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.4.x86_64 
+│                       ├ [182] ╭ VulnerabilityID : CVE-2026-1757 
+│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.5.x86_64 
 │                       │       ├ PkgName         : libxml2 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.4?arch=x86_64
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.5?arch=x86_64
 │                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : cc52b2a969be5599 
-│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.4 
+│                       │       │                  ╰ UID : 93feaec7e7fabe82 
+│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1757 
-│                       │       ├ Fingerprint     : sha256:07cb2f33f73b63b8596c7a743a13371f775f0b86b90461e8b59a
-│                       │       │                   280f0e15b7bf 
+│                       │       ├ Fingerprint     : sha256:0a6a9f2efe020e637e28dcac8a0ee58ad8528672a0fc62dd2454
+│                       │       │                   e6e088ad5454 
 │                       │       ├ Title           : libxml2: Memory Leak Leading to Local Denial of Service in
 │                       │       │                   xmllint Interactive Shell 
 │                       │       ├ Description     : A flaw was identified in the interactive shell of the
@@ -11855,67 +11984,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-02-02T13:15:58.58Z 
 │                       │       ╰ LastModifiedDate: 2026-09-01T12:17:36.597Z 
-│                       ├ [181] ╭ VulnerabilityID : CVE-2026-76781 
-│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.4.x86_64 
+│                       ├ [183] ╭ VulnerabilityID : CVE-2026-86138 
+│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.5.x86_64 
 │                       │       ├ PkgName         : libxml2 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.4?arch=x86_64
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.5?arch=x86_64
 │                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : cc52b2a969be5599 
-│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.4 
+│                       │       │                  ╰ UID : 93feaec7e7fabe82 
+│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
-│                       │       ├ SeveritySource  : redhat 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-76781 
-│                       │       ├ Fingerprint     : sha256:66c201ae4c66792f2e9a723d91322b75f8915a2d51d9879f5462
-│                       │       │                   8da3a9723038 
-│                       │       ├ Title           : libxml2: libxml2: NULL pointer dereference parsing
-│                       │       │                   nextCatalog without catalog attribute 
-│                       │       ├ Description     : A flaw was found in libxml2. A local user or an attacker
-│                       │       │                   providing a specially crafted XML catalog can trigger a
-│                       │       │                   NULL pointer dereference during XML catalog parsing. This
-│                       │       │                   occurs when a `nextCatalog` element lacks its mandatory
-│                       │       │                   `catalog` attribute, leading to the application crashing
-│                       │       │                   and causing a Denial of Service (DoS). 
-│                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CweIDs                  
-│                       │       │                  ───────
-│                       │       │                  CWE-476
-│                       │       │                  
-│                       │       ├ VendorSeverity   ─ redhat: 2 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
-│                       │       │                           │           N/A:H 
-│                       │       │                           ╰ V3Score : 5.5 
-│                       │       ├ References                                                                  
-│                       │       │                  ───────────────────────────────────────────────────────────
-│                       │       │                  https://access.redhat.com/errata/RHSA-2026:57604           
-│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-76781      
-│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2519776        
-│                       │       │                  https://gitlab.gnome.org/GNOME/libxml2/-/commit/c6324894   
-│                       │       │                  https://gitlab.gnome.org/GNOME/libxml2/-/merge_requests/442
-│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-76781            
-│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-76781            
-│                       │       │                  
-│                       │       ├ PublishedDate   : 2026-09-17T16:17:42.07Z 
-│                       │       ╰ LastModifiedDate: 2026-09-21T20:17:32.207Z 
-│                       ├ [182] ╭ VulnerabilityID : CVE-2026-86138 
-│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.4.x86_64 
-│                       │       ├ PkgName         : libxml2 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.4?arch=x86_64
-│                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : cc52b2a969be5599 
-│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.4 
-│                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86138 
-│                       │       ├ Fingerprint     : sha256:fe441a8d046caf78f8a4029ed04fa5d022e67adc37ec3fe6e8c6
-│                       │       │                   f1dd906e975a 
+│                       │       ├ Fingerprint     : sha256:7a0d7b5c6c7a550363ecded1c69a08f93494a67c1c0d9aed7131
+│                       │       │                   526418c8e02c 
 │                       │       ├ Title           : libxml2: libxml2: Arbitrary code execution via heap-based
 │                       │       │                   buffer overflow 
 │                       │       ├ Description     : In libxml2 before 2.15.4, xmlDictAddQString in dict.c has
@@ -11950,22 +12034,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-05T05:17:12.6Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T19:40:47.56Z 
-│                       ├ [183] ╭ VulnerabilityID : CVE-2026-86142 
-│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.4.x86_64 
+│                       ├ [184] ╭ VulnerabilityID : CVE-2026-86142 
+│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.5.x86_64 
 │                       │       ├ PkgName         : libxml2 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.4?arch=x86_64
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.5?arch=x86_64
 │                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : cc52b2a969be5599 
-│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.4 
+│                       │       │                  ╰ UID : 93feaec7e7fabe82 
+│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86142 
-│                       │       ├ Fingerprint     : sha256:90d871f9fc97d9188f30b6dd832697e34ae5b59e67589119aadb
-│                       │       │                   36a8f3a621ac 
+│                       │       ├ Fingerprint     : sha256:6fc06f175b6a54057d8892a895a29208f577628762b119e6cecb
+│                       │       │                   e8270ead451a 
 │                       │       ├ Title           : libxml2: libxml2: Heap-based buffer overflow in xmlXPtrEval
 │                       │       │                    due to xpointer length saturation 
 │                       │       ├ Description     : In libxml2 before 2.15.4, there is a heap-based buffer
@@ -12002,22 +12086,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-05T05:17:13.133Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T19:35:48.663Z 
-│                       ├ [184] ╭ VulnerabilityID : CVE-2026-86143 
-│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.4.x86_64 
+│                       ├ [185] ╭ VulnerabilityID : CVE-2026-86143 
+│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.5.x86_64 
 │                       │       ├ PkgName         : libxml2 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.4?arch=x86_64
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.5?arch=x86_64
 │                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : cc52b2a969be5599 
-│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.4 
+│                       │       │                  ╰ UID : 93feaec7e7fabe82 
+│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86143 
-│                       │       ├ Fingerprint     : sha256:b133622a3ce4a9110421c5a1c6ad74369d6eb172d6dde8d2c81e
-│                       │       │                   2b038ba1e380 
+│                       │       ├ Fingerprint     : sha256:e549f9e5d0fc590ad733f641a26a65cda62b528cab4101dd68c1
+│                       │       │                   f1a1a079cfa2 
 │                       │       ├ Title           : libxml2: libxml2: Data integrity issues due to integer
 │                       │       │                   overflow in write callbacks 
 │                       │       ├ Description     : In xmlIO in libxml2 before 2.15.4, an inconsistency in
@@ -12057,22 +12141,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-05T05:17:13.27Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T19:31:15.857Z 
-│                       ├ [185] ╭ VulnerabilityID : CVE-2026-86144 
-│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.4.x86_64 
+│                       ├ [186] ╭ VulnerabilityID : CVE-2026-86144 
+│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.5.x86_64 
 │                       │       ├ PkgName         : libxml2 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.4?arch=x86_64
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.5?arch=x86_64
 │                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : cc52b2a969be5599 
-│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.4 
+│                       │       │                  ╰ UID : 93feaec7e7fabe82 
+│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86144 
-│                       │       ├ Fingerprint     : sha256:12fd537d70a4cbf794ec5d2deab8aeef7e14eb184777a0dd1c30
-│                       │       │                   b0cbfe4072e7 
+│                       │       ├ Fingerprint     : sha256:2f0353b3304265397bb3a32126288318897d73178ffeec160c63
+│                       │       │                   ce600ecf3953 
 │                       │       ├ Title           : libxml2: libxml2: Information disclosure, SSRF, or denial
 │                       │       │                   of service due to improper parseFlags propagation. 
 │                       │       ├ Description     : In xinclude in libxml2 before 2.15.4, xmlXIncludeProcess
@@ -12112,22 +12196,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-05T05:17:13.407Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T19:20:15.06Z 
-│                       ├ [186] ╭ VulnerabilityID : CVE-2023-45322 
-│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.4.x86_64 
+│                       ├ [187] ╭ VulnerabilityID : CVE-2023-45322 
+│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.5.x86_64 
 │                       │       ├ PkgName         : libxml2 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.4?arch=x86_64
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.5?arch=x86_64
 │                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : cc52b2a969be5599 
-│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.4 
+│                       │       │                  ╰ UID : 93feaec7e7fabe82 
+│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45322 
-│                       │       ├ Fingerprint     : sha256:bc48b49d0c97d212d95eafe6fa0340247b745bd6c6d233803a6f
-│                       │       │                   885a4b5a874a 
+│                       │       ├ Fingerprint     : sha256:634cdb51df6e6401e6871a25b6285cce5de958b1b8e9288a3d50
+│                       │       │                   d871d8e5e6fa 
 │                       │       ├ Title           : libxml2: use-after-free in xmlUnlinkNode() in tree.c 
 │                       │       ├ Description     : libxml2 through 2.11.5 has a use-after-free that can only
 │                       │       │                   occur after a certain memory allocation fails. This occurs
@@ -12167,22 +12251,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2023-10-06T22:15:11.66Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T06:28:37.753Z 
-│                       ├ [187] ╭ VulnerabilityID : CVE-2025-27113 
-│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.4.x86_64 
+│                       ├ [188] ╭ VulnerabilityID : CVE-2025-27113 
+│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.5.x86_64 
 │                       │       ├ PkgName         : libxml2 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.4?arch=x86_64
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.5?arch=x86_64
 │                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : cc52b2a969be5599 
-│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.4 
+│                       │       │                  ╰ UID : 93feaec7e7fabe82 
+│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-27113 
-│                       │       ├ Fingerprint     : sha256:b7aca69e1b18b121849d4cd30234eef3472632cae10f18b64111
-│                       │       │                   a27f3d5fc429 
+│                       │       ├ Fingerprint     : sha256:0b81171f3af2da11643c7239952e9e6b9de775327c2f745d346b
+│                       │       │                   cc8af2579b01 
 │                       │       ├ Title           : libxml2: NULL Pointer Dereference in libxml2 xmlPatMatch 
 │                       │       ├ Description     : libxml2 before 2.12.10 and 2.13.x before 2.13.6 has a NULL
 │                       │       │                   pointer dereference in xmlPatMatch in pattern.c. 
@@ -12239,22 +12323,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-02-18T23:15:10.96Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T09:03:03.627Z 
-│                       ├ [188] ╭ VulnerabilityID : CVE-2026-0989 
-│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.4.x86_64 
+│                       ├ [189] ╭ VulnerabilityID : CVE-2026-0989 
+│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.5.x86_64 
 │                       │       ├ PkgName         : libxml2 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.4?arch=x86_64
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.5?arch=x86_64
 │                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : cc52b2a969be5599 
-│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.4 
+│                       │       │                  ╰ UID : 93feaec7e7fabe82 
+│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-0989 
-│                       │       ├ Fingerprint     : sha256:a51819591164c930fe1e8c34f06948bd897ae26dfc4654d4f696
-│                       │       │                   a1a7e58493f4 
+│                       │       ├ Fingerprint     : sha256:616bc21dbac56c0c45bd94196d159ebe8c903a10c953b21b1c1d
+│                       │       │                   2129dcd284f1 
 │                       │       ├ Title           : libxml2: Unbounded RelaxNG Include Recursion Leading to
 │                       │       │                   Stack Overflow 
 │                       │       ├ Description     : A flaw was identified in the RelaxNG parser of libxml2
@@ -12294,22 +12378,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-15T15:15:52.35Z 
 │                       │       ╰ LastModifiedDate: 2026-09-01T13:18:07.23Z 
-│                       ├ [189] ╭ VulnerabilityID : CVE-2026-0992 
-│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.4.x86_64 
+│                       ├ [190] ╭ VulnerabilityID : CVE-2026-0992 
+│                       │       ├ PkgID           : libxml2@2.9.13-14.el9_8.5.x86_64 
 │                       │       ├ PkgName         : libxml2 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.4?arch=x86_64
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/libxml2@2.9.13-14.el9_8.5?arch=x86_64
 │                       │       │                  │       &distro=redhat-9.8 
-│                       │       │                  ╰ UID : cc52b2a969be5599 
-│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.4 
+│                       │       │                  ╰ UID : 93feaec7e7fabe82 
+│                       │       ├ InstalledVersion: 2.9.13-14.el9_8.5 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-0992 
-│                       │       ├ Fingerprint     : sha256:5de2f90b18f44f27ce2bb037ce38a108d7ae16800d8c5943a182
-│                       │       │                   0041bd3bb450 
+│                       │       ├ Fingerprint     : sha256:c0f19bc5e69f76ab835b02c4175e356112163038d2109d1c3ef5
+│                       │       │                   2ce8ccbf66e9 
 │                       │       ├ Title           : libxml2: libxml2: Denial of Service via crafted XML catalogs 
 │                       │       ├ Description     : A flaw was found in the libxml2 library. This uncontrolled
 │                       │       │                   resource consumption vulnerability occurs when processing
@@ -12350,7 +12434,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-15T15:15:52.657Z 
 │                       │       ╰ LastModifiedDate: 2026-09-01T13:18:07.38Z 
-│                       ├ [190] ╭ VulnerabilityID : CVE-2023-50495 
+│                       ├ [191] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │       ├ PkgID           : ncurses-base@6.2-12.20210508.el9.noarch 
 │                       │       ├ PkgName         : ncurses-base 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/ncurses-base@6.2-12.20210508.el9?arch
@@ -12358,14 +12442,14 @@
 │                       │       │                  ╰ UID : d864ddfd41ee2e06 
 │                       │       ├ InstalledVersion: 6.2-12.20210508.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
-│                       │       ├ Fingerprint     : sha256:bcd1f99d9623f997757819d1d0575dd9115c4a25f1e5536a2d0f
-│                       │       │                   00a11da6aaec 
+│                       │       ├ Fingerprint     : sha256:0a44c5cd29a1f5be166e41fe4eccd92222196ee2277432bb34f5
+│                       │       │                   a295634949b4 
 │                       │       ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
 │                       │       ├ Description     : NCurse v6.4-20230418 was discovered to contain a
 │                       │       │                   segmentation fault via the component _nc_wrap_entry(). 
@@ -12401,7 +12485,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T06:39:44.053Z 
-│                       ├ [191] ╭ VulnerabilityID : CVE-2023-50495 
+│                       ├ [192] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │       ├ PkgID           : ncurses-libs@6.2-12.20210508.el9.x86_64 
 │                       │       ├ PkgName         : ncurses-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/ncurses-libs@6.2-12.20210508.el9?arch
@@ -12409,14 +12493,14 @@
 │                       │       │                  ╰ UID : 7dcc5b23d21aad24 
 │                       │       ├ InstalledVersion: 6.2-12.20210508.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
-│                       │       ├ Fingerprint     : sha256:377bfdbe918863f098eeeb000f0e839e7b51f9ebba8be0c7aa8f
-│                       │       │                   050ccef8171b 
+│                       │       ├ Fingerprint     : sha256:e453e4568cf544f5b81f534a01e30919587928bd980e906415f2
+│                       │       │                   c8b12a914a27 
 │                       │       ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
 │                       │       ├ Description     : NCurse v6.4-20230418 was discovered to contain a
 │                       │       │                   segmentation fault via the component _nc_wrap_entry(). 
@@ -12452,7 +12536,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T06:39:44.053Z 
-│                       ├ [192] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [193] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │       ├ PkgID           : nspr@4.39.0-5.el9_6.x86_64 
 │                       │       ├ PkgName         : nspr 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nspr@4.39.0-5.el9_6?arch=x86_64&distr
@@ -12460,14 +12544,14 @@
 │                       │       │                  ╰ UID : be87dc8a63e8a203 
 │                       │       ├ InstalledVersion: 4.39.0-5.el9_6 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-│                       │       ├ Fingerprint     : sha256:93e1dda12a5b335b1f0f7471d78a7d11e78a281d2e01a8427d7a
-│                       │       │                   686ac9b34ce9 
+│                       │       ├ Fingerprint     : sha256:1b6af808726236435af17b066c5b4d10fcc31c143e6b0f0c53e0
+│                       │       │                   6b416c552597 
 │                       │       ├ Title           : nss: Information exposure when DH secret are reused across
 │                       │       │                   multiple TLS connections 
 │                       │       ├ Description     : The Raccoon attack is a timing attack on DHE ciphersuites
@@ -12498,7 +12582,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T02:51:47.26Z 
-│                       ├ [193] ╭ VulnerabilityID : CVE-2024-7531 
+│                       ├ [194] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │       ├ PkgID           : nspr@4.39.0-5.el9_6.x86_64 
 │                       │       ├ PkgName         : nspr 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nspr@4.39.0-5.el9_6?arch=x86_64&distr
@@ -12506,14 +12590,14 @@
 │                       │       │                  ╰ UID : be87dc8a63e8a203 
 │                       │       ├ InstalledVersion: 4.39.0-5.el9_6 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7531 
-│                       │       ├ Fingerprint     : sha256:79d51c4800a12b72b6f616016adfece55a9f7468735b4447602b
-│                       │       │                   8abc6b553bf0 
+│                       │       ├ Fingerprint     : sha256:ff2f95642928cef671929a28bee2a257bfd4cb22c4f4e7e099c5
+│                       │       │                   7c18e60dbf83 
 │                       │       ├ Title           : mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal
 │                       │       │                   plaintext on Intel Sandy Bridge machines 
 │                       │       ├ Description     : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
@@ -12561,7 +12645,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:20:23.663Z 
-│                       ├ [194] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [195] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │       ├ PkgID           : nss@3.124.0-5.el9_6.x86_64 
 │                       │       ├ PkgName         : nss 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss@3.124.0-5.el9_6?arch=x86_64&distr
@@ -12569,14 +12653,14 @@
 │                       │       │                  ╰ UID : b41876d030b475a7 
 │                       │       ├ InstalledVersion: 3.124.0-5.el9_6 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-│                       │       ├ Fingerprint     : sha256:2ca60e38adb6a91c7335d740446f6066aad43f5fee0b2b2a0857
-│                       │       │                   61b09435ca4d 
+│                       │       ├ Fingerprint     : sha256:4a85730214da545211817ddad5d294792342f7a048b00e1900c9
+│                       │       │                   b55ad5d26cda 
 │                       │       ├ Title           : nss: Information exposure when DH secret are reused across
 │                       │       │                   multiple TLS connections 
 │                       │       ├ Description     : The Raccoon attack is a timing attack on DHE ciphersuites
@@ -12607,7 +12691,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T02:51:47.26Z 
-│                       ├ [195] ╭ VulnerabilityID : CVE-2024-7531 
+│                       ├ [196] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │       ├ PkgID           : nss@3.124.0-5.el9_6.x86_64 
 │                       │       ├ PkgName         : nss 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss@3.124.0-5.el9_6?arch=x86_64&distr
@@ -12615,14 +12699,14 @@
 │                       │       │                  ╰ UID : b41876d030b475a7 
 │                       │       ├ InstalledVersion: 3.124.0-5.el9_6 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7531 
-│                       │       ├ Fingerprint     : sha256:84b342a8a8e4353d73c9001060b8d3d08513f1066658c3366a1b
-│                       │       │                   e6d5a5c9c40d 
+│                       │       ├ Fingerprint     : sha256:a82503be90a9646311c804c67d73838368257030ae614298e03b
+│                       │       │                   11666b8b82f8 
 │                       │       ├ Title           : mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal
 │                       │       │                   plaintext on Intel Sandy Bridge machines 
 │                       │       ├ Description     : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
@@ -12670,7 +12754,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:20:23.663Z 
-│                       ├ [196] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [197] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │       ├ PkgID           : nss-softokn@3.124.0-5.el9_6.x86_64 
 │                       │       ├ PkgName         : nss-softokn 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-softokn@3.124.0-5.el9_6?arch=x86_
@@ -12678,14 +12762,14 @@
 │                       │       │                  ╰ UID : b0e0afed26704af0 
 │                       │       ├ InstalledVersion: 3.124.0-5.el9_6 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-│                       │       ├ Fingerprint     : sha256:5ecedc380a4c8aad0707439b61944b64d48ab51ec04b0dc55490
-│                       │       │                   f6d9fac0f465 
+│                       │       ├ Fingerprint     : sha256:e12116517df2aa32f7dd1ad31a82a84a8c9e226eb503116c3eca
+│                       │       │                   1b4c5dedfa9e 
 │                       │       ├ Title           : nss: Information exposure when DH secret are reused across
 │                       │       │                   multiple TLS connections 
 │                       │       ├ Description     : The Raccoon attack is a timing attack on DHE ciphersuites
@@ -12716,7 +12800,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T02:51:47.26Z 
-│                       ├ [197] ╭ VulnerabilityID : CVE-2024-7531 
+│                       ├ [198] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │       ├ PkgID           : nss-softokn@3.124.0-5.el9_6.x86_64 
 │                       │       ├ PkgName         : nss-softokn 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-softokn@3.124.0-5.el9_6?arch=x86_
@@ -12724,14 +12808,14 @@
 │                       │       │                  ╰ UID : b0e0afed26704af0 
 │                       │       ├ InstalledVersion: 3.124.0-5.el9_6 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7531 
-│                       │       ├ Fingerprint     : sha256:a7546cace5504c9f629f90cf00264a1e58564e00c88fa58d687b
-│                       │       │                   ba122d9ab67f 
+│                       │       ├ Fingerprint     : sha256:5a14065b441a910828d076884781f93a8095b73eaae0bae0645b
+│                       │       │                   3af280b10132 
 │                       │       ├ Title           : mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal
 │                       │       │                   plaintext on Intel Sandy Bridge machines 
 │                       │       ├ Description     : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
@@ -12779,7 +12863,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:20:23.663Z 
-│                       ├ [198] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [199] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │       ├ PkgID           : nss-softokn-freebl@3.124.0-5.el9_6.x86_64 
 │                       │       ├ PkgName         : nss-softokn-freebl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-softokn-freebl@3.124.0-5.el9_6?ar
@@ -12787,14 +12871,14 @@
 │                       │       │                  ╰ UID : 969d44993304ff16 
 │                       │       ├ InstalledVersion: 3.124.0-5.el9_6 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-│                       │       ├ Fingerprint     : sha256:03e90a4e595572cb55519dcca1e2e9363ee29a4ce45db240c87d
-│                       │       │                   b8f95bc33822 
+│                       │       ├ Fingerprint     : sha256:0d09889a0f208a94d23e95bf60dbe20d7c2fe2587f520e75e8a6
+│                       │       │                   927afe8898d6 
 │                       │       ├ Title           : nss: Information exposure when DH secret are reused across
 │                       │       │                   multiple TLS connections 
 │                       │       ├ Description     : The Raccoon attack is a timing attack on DHE ciphersuites
@@ -12825,7 +12909,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T02:51:47.26Z 
-│                       ├ [199] ╭ VulnerabilityID : CVE-2024-7531 
+│                       ├ [200] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │       ├ PkgID           : nss-softokn-freebl@3.124.0-5.el9_6.x86_64 
 │                       │       ├ PkgName         : nss-softokn-freebl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-softokn-freebl@3.124.0-5.el9_6?ar
@@ -12833,14 +12917,14 @@
 │                       │       │                  ╰ UID : 969d44993304ff16 
 │                       │       ├ InstalledVersion: 3.124.0-5.el9_6 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7531 
-│                       │       ├ Fingerprint     : sha256:f17a80b33c646483b12d6b356fc22ace5ba85b7ce16be0dd0ced
-│                       │       │                   dfce10ebc6cb 
+│                       │       ├ Fingerprint     : sha256:885adb48e25193ca67d54238ee1729f5b1d665562cc1f28971d8
+│                       │       │                   6a79e045de27 
 │                       │       ├ Title           : mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal
 │                       │       │                   plaintext on Intel Sandy Bridge machines 
 │                       │       ├ Description     : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
@@ -12888,7 +12972,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:20:23.663Z 
-│                       ├ [200] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [201] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │       ├ PkgID           : nss-sysinit@3.124.0-5.el9_6.x86_64 
 │                       │       ├ PkgName         : nss-sysinit 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-sysinit@3.124.0-5.el9_6?arch=x86_
@@ -12896,14 +12980,14 @@
 │                       │       │                  ╰ UID : f1e1faac7271a13d 
 │                       │       ├ InstalledVersion: 3.124.0-5.el9_6 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-│                       │       ├ Fingerprint     : sha256:64cfdb7dd1887ac44e0c8e4b9055c37fe7d02afe723baa85b098
-│                       │       │                   ee2dbed85c1b 
+│                       │       ├ Fingerprint     : sha256:d4eb156fb0b1e2bb1a7959f42a448393ea5009e106c9af86d060
+│                       │       │                   78c11b14e730 
 │                       │       ├ Title           : nss: Information exposure when DH secret are reused across
 │                       │       │                   multiple TLS connections 
 │                       │       ├ Description     : The Raccoon attack is a timing attack on DHE ciphersuites
@@ -12934,7 +13018,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T02:51:47.26Z 
-│                       ├ [201] ╭ VulnerabilityID : CVE-2024-7531 
+│                       ├ [202] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │       ├ PkgID           : nss-sysinit@3.124.0-5.el9_6.x86_64 
 │                       │       ├ PkgName         : nss-sysinit 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-sysinit@3.124.0-5.el9_6?arch=x86_
@@ -12942,14 +13026,14 @@
 │                       │       │                  ╰ UID : f1e1faac7271a13d 
 │                       │       ├ InstalledVersion: 3.124.0-5.el9_6 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7531 
-│                       │       ├ Fingerprint     : sha256:eef80d3727813f94af0f74a2a672d761bb9d9bf9611406cfbe49
-│                       │       │                   12507ee44412 
+│                       │       ├ Fingerprint     : sha256:80acaf6193ba28f21b08faef4a4c06eeb9b716e239808110be99
+│                       │       │                   291d531d9d57 
 │                       │       ├ Title           : mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal
 │                       │       │                   plaintext on Intel Sandy Bridge machines 
 │                       │       ├ Description     : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
@@ -12997,7 +13081,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:20:23.663Z 
-│                       ├ [202] ╭ VulnerabilityID : CVE-2020-12413 
+│                       ├ [203] ╭ VulnerabilityID : CVE-2020-12413 
 │                       │       ├ PkgID           : nss-util@3.124.0-5.el9_6.x86_64 
 │                       │       ├ PkgName         : nss-util 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-util@3.124.0-5.el9_6?arch=x86_64&
@@ -13005,14 +13089,14 @@
 │                       │       │                  ╰ UID : 147ea12d6561ad8e 
 │                       │       ├ InstalledVersion: 3.124.0-5.el9_6 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-12413 
-│                       │       ├ Fingerprint     : sha256:f8720c35bdaa98743300b904b7707ca57fb2ef8a94ebad3a6473
-│                       │       │                   2d2116270ee9 
+│                       │       ├ Fingerprint     : sha256:69cee3492ade9a74360c0270af8073986b1d3c4c31370be4a066
+│                       │       │                   4a918d4dc212 
 │                       │       ├ Title           : nss: Information exposure when DH secret are reused across
 │                       │       │                   multiple TLS connections 
 │                       │       ├ Description     : The Raccoon attack is a timing attack on DHE ciphersuites
@@ -13043,7 +13127,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2023-02-16T22:15:10.58Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T02:51:47.26Z 
-│                       ├ [203] ╭ VulnerabilityID : CVE-2024-7531 
+│                       ├ [204] ╭ VulnerabilityID : CVE-2024-7531 
 │                       │       ├ PkgID           : nss-util@3.124.0-5.el9_6.x86_64 
 │                       │       ├ PkgName         : nss-util 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/nss-util@3.124.0-5.el9_6?arch=x86_64&
@@ -13051,14 +13135,14 @@
 │                       │       │                  ╰ UID : 147ea12d6561ad8e 
 │                       │       ├ InstalledVersion: 3.124.0-5.el9_6 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-7531 
-│                       │       ├ Fingerprint     : sha256:80d623a2fd53ab9d4568587a8bb4e8940c43fb4196b020021e6c
-│                       │       │                   44936a6699b5 
+│                       │       ├ Fingerprint     : sha256:ecd43a2e2c635ab8ea230e264c26a92a8550b970cd7fee7ffc11
+│                       │       │                   aeedbdf07e4e 
 │                       │       ├ Title           : mozilla: nss: PK11_Encrypt using CKM_CHACHA20 can reveal
 │                       │       │                   plaintext on Intel Sandy Bridge machines 
 │                       │       ├ Description     : Calling `PK11_Encrypt()` in NSS using CKM_CHACHA20 and the
@@ -13106,7 +13190,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2024-08-06T13:15:57.787Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:20:23.663Z 
-│                       ├ [204] ╭ VulnerabilityID : CVE-2026-22185 
+│                       ├ [205] ╭ VulnerabilityID : CVE-2026-22185 
 │                       │       ├ PkgID           : openldap@2.6.8-4.el9.x86_64 
 │                       │       ├ PkgName         : openldap 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openldap@2.6.8-4.el9?arch=x86_64&dist
@@ -13114,14 +13198,14 @@
 │                       │       │                  ╰ UID : 9e93003701aaa0a8 
 │                       │       ├ InstalledVersion: 2.6.8-4.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-22185 
-│                       │       ├ Fingerprint     : sha256:0ff49aa659d74c2be21f382eb91f4359b216a7744eb88012a55e
-│                       │       │                   82656d25ad1e 
+│                       │       ├ Fingerprint     : sha256:f53bc4b1e9ea0557a0d8b0f88c995f0413aee4a3aae0440987af
+│                       │       │                   16bf07873b65 
 │                       │       ├ Title           : OpenLDAP: OpenLDAP LMDB: Denial of Service and Information
 │                       │       │                   Disclosure via Heap Buffer Underflow 
 │                       │       ├ Description     : OpenLDAP Lightning Memory-Mapped Database (LMDB) versions
@@ -13158,7 +13242,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-07T21:16:01.733Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:19:30.257Z 
-│                       ├ [205] ╭ VulnerabilityID : CVE-2026-2673 
+│                       ├ [206] ╭ VulnerabilityID : CVE-2026-2673 
 │                       │       ├ PkgID           : openssl@3.5.8-1.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&dis
@@ -13166,14 +13250,14 @@
 │                       │       │                  ╰ UID : b8f9bf0a499769d3 
 │                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2673 
-│                       │       ├ Fingerprint     : sha256:5550f7a182545333714f4996596914e3a7597a88a0c8393b7956
-│                       │       │                   cd2a7a19079f 
+│                       │       ├ Fingerprint     : sha256:cfa3ca666a2d2f5b18cb22f2cc74f98b566f8f6a9b86f32d1d17
+│                       │       │                   7f7c5443de0c 
 │                       │       ├ Title           : openssl: OpenSSL TLS 1.3 server may choose unexpected key
 │                       │       │                   agreement group 
 │                       │       ├ Description     : Issue summary: An OpenSSL TLS 1.3 server may fail to
@@ -13290,7 +13374,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:31:30.993Z 
-│                       ├ [206] ╭ VulnerabilityID : CVE-2024-13176 
+│                       ├ [207] ╭ VulnerabilityID : CVE-2024-13176 
 │                       │       ├ PkgID           : openssl@3.5.8-1.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&dis
@@ -13298,14 +13382,14 @@
 │                       │       │                  ╰ UID : b8f9bf0a499769d3 
 │                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-13176 
-│                       │       ├ Fingerprint     : sha256:1ca655ecc8da3c71282d99f6d00466afb2c40723e80b7cc95fdf
-│                       │       │                   4d02102fe4da 
+│                       │       ├ Fingerprint     : sha256:4115c0c215216283d8e5fbe4f3e432f6cc9bd75563ef0c4bfd19
+│                       │       │                   027d30758be0 
 │                       │       ├ Title           : openssl: Timing side-channel in ECDSA signature computation 
 │                       │       ├ Description     : Issue summary: A timing side-channel which could
 │                       │       │                   potentially allow recovering
@@ -13358,7 +13442,6 @@
 │                       │       │                  ────────────────────────────────────────────────────────────
 │                       │       │                  http://www.openwall.com/lists/oss-security/2025/01/20/2     
 │                       │       │                  https://access.redhat.com/errata/RHSA-2025:15699            
-│                       │       │                  https://access.redhat.com/errata/RHSA-2025:16046            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2024-13176       
 │                       │       │                  https://bugzilla.redhat.com/2359885                         
 │                       │       │                  https://bugzilla.redhat.com/2359888                         
@@ -13572,7 +13655,7 @@
 │                       │       │                  4                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2025-16046.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2025-15699.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2025:15699               
 │                       │       │                                                                              
@@ -13627,7 +13710,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-01-20T14:15:26.247Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T07:01:23.167Z 
-│                       ├ [207] ╭ VulnerabilityID : CVE-2024-41996 
+│                       ├ [208] ╭ VulnerabilityID : CVE-2024-41996 
 │                       │       ├ PkgID           : openssl@3.5.8-1.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&dis
@@ -13635,14 +13718,14 @@
 │                       │       │                  ╰ UID : b8f9bf0a499769d3 
 │                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-41996 
-│                       │       ├ Fingerprint     : sha256:ad28b850f667d8df63be4264c2b7ad69da01ad7fdcddc57c99be
-│                       │       │                   eaf0b5eb3bd8 
+│                       │       ├ Fingerprint     : sha256:6aff5a0d329be56846bb0be93747a22904862c4fed854da548f7
+│                       │       │                   2331eee9d4af 
 │                       │       ├ Title           : openssl: remote attackers (from the client side) to trigger
 │                       │       │                    unnecessarily expensive server-side DHE
 │                       │       │                   modular-exponentiation calculations 
@@ -13691,7 +13774,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T07:48:36.393Z 
-│                       ├ [208] ╭ VulnerabilityID : CVE-2025-9232 
+│                       ├ [209] ╭ VulnerabilityID : CVE-2025-9232 
 │                       │       ├ PkgID           : openssl@3.5.8-1.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&dis
@@ -13699,14 +13782,14 @@
 │                       │       │                  ╰ UID : b8f9bf0a499769d3 
 │                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9232 
-│                       │       ├ Fingerprint     : sha256:ecba2fd6a171cb1f6823a2493c7dcd7cb1ea4828143a70e3db26
-│                       │       │                   17cbd326862a 
+│                       │       ├ Fingerprint     : sha256:7ee99ae6b8e01633d9374d2b0c6e9b4607e320b1a9ac35b6ebc4
+│                       │       │                   c6afa942ea03 
 │                       │       ├ Title           : openssl: Out-of-bounds read in HTTP client no_proxy handling 
 │                       │       ├ Description     : Issue summary: An application using the OpenSSL HTTP client
 │                       │       │                    API functions may
@@ -13800,7 +13883,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-09-30T14:15:41.313Z 
 │                       │       ╰ LastModifiedDate: 2026-07-14T13:18:07.783Z 
-│                       ├ [209] ╭ VulnerabilityID : CVE-2026-28387 
+│                       ├ [210] ╭ VulnerabilityID : CVE-2026-28387 
 │                       │       ├ PkgID           : openssl@3.5.8-1.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&dis
@@ -13808,14 +13891,14 @@
 │                       │       │                  ╰ UID : b8f9bf0a499769d3 
 │                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28387 
-│                       │       ├ Fingerprint     : sha256:016475b4a5c642d178105fd86ff069dd5b0930e1f3abbb311977
-│                       │       │                   87e9a0d0fe41 
+│                       │       ├ Fingerprint     : sha256:05bad5428e5fb3436a5f8f164172e902585877634e9d542d0014
+│                       │       │                   98572fcf8307 
 │                       │       ├ Title           : openssl: OpenSSL: Arbitrary code execution due to
 │                       │       │                   use-after-free in DANE TLSA authentication 
 │                       │       ├ Description     : Issue summary: An uncommon configuration of clients
@@ -13902,7 +13985,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:20.7Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T23:10:00.563Z 
-│                       ├ [210] ╭ VulnerabilityID : CVE-2026-28388 
+│                       ├ [211] ╭ VulnerabilityID : CVE-2026-28388 
 │                       │       ├ PkgID           : openssl@3.5.8-1.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&dis
@@ -13910,14 +13993,14 @@
 │                       │       │                  ╰ UID : b8f9bf0a499769d3 
 │                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28388 
-│                       │       ├ Fingerprint     : sha256:45dc6d6d094f908d6d052ac344643c33d98be9b22e7b94083944
-│                       │       │                   ae20132e9d0a 
+│                       │       ├ Fingerprint     : sha256:f943d4c724e4747160e910bf28a491d546421c560165150386cb
+│                       │       │                   cb83015492fe 
 │                       │       ├ Title           : openssl: OpenSSL: Denial of Service due to NULL pointer
 │                       │       │                   dereference in delta CRL processing 
 │                       │       ├ Description     : Issue summary: When a delta CRL that contains a Delta CRL
@@ -14008,7 +14091,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:20.863Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T23:10:00.563Z 
-│                       ├ [211] ╭ VulnerabilityID : CVE-2026-28389 
+│                       ├ [212] ╭ VulnerabilityID : CVE-2026-28389 
 │                       │       ├ PkgID           : openssl@3.5.8-1.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&dis
@@ -14016,14 +14099,14 @@
 │                       │       │                  ╰ UID : b8f9bf0a499769d3 
 │                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28389 
-│                       │       ├ Fingerprint     : sha256:d940985dbff2583220454462139d9318ad404989121dd1adcfdd
-│                       │       │                   d2849d9047bf 
+│                       │       ├ Fingerprint     : sha256:043a877676498adb52d2d261f0667601b953a6300210e50e7d23
+│                       │       │                   bcac6226ae0f 
 │                       │       ├ Title           : openssl: OpenSSL: Denial of Service vulnerability in CMS
 │                       │       │                   processing 
 │                       │       ├ Description     : Issue summary: During processing of a crafted CMS
@@ -14106,7 +14189,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:21.03Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T23:10:00.563Z 
-│                       ├ [212] ╭ VulnerabilityID : CVE-2026-31789 
+│                       ├ [213] ╭ VulnerabilityID : CVE-2026-31789 
 │                       │       ├ PkgID           : openssl@3.5.8-1.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&dis
@@ -14114,14 +14197,14 @@
 │                       │       │                  ╰ UID : b8f9bf0a499769d3 
 │                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-31789 
-│                       │       ├ Fingerprint     : sha256:448e34ee5afbce756c64232738669a79dfdd9f48f69a93f4fe2b
-│                       │       │                   fcdf0ff5ea9f 
+│                       │       ├ Fingerprint     : sha256:a49135c5fac7fda25bb35676bf6695750fe0d21474f46a61bc2c
+│                       │       │                   5393ca56864f 
 │                       │       ├ Title           : openssl: OpenSSL: Heap buffer overflow on 32-bit systems
 │                       │       │                   from large X.509 certificate processing 
 │                       │       ├ Description     : Issue summary: Converting an excessively large OCTET STRING
@@ -14208,22 +14291,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:21.617Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T23:10:00.563Z 
-│                       ├ [213] ╭ VulnerabilityID : CVE-2026-42765 
+│                       ├ [214] ╭ VulnerabilityID : CVE-2026-42765 
 │                       │       ├ PkgID           : openssl@3.5.8-1.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&dis
 │                       │       │                  │       tro=redhat-9.8&epoch=1 
 │                       │       │                  ╰ UID : b8f9bf0a499769d3 
 │                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
-│                       │       ├ Status          : under_investigation 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42765 
-│                       │       ├ Fingerprint     : sha256:9ea8b22db36a753e1469ecb7c2b97cd2b17d8740031fcff69850
-│                       │       │                   8e677bdc2cd3 
+│                       │       ├ Fingerprint     : sha256:255982d3b560b315e54a361eab3f011def6cfffb0e3f17b7d170
+│                       │       │                   59f2006b7076 
 │                       │       ├ Title           : openssl: NULL Dereference in Certificate Verification with
 │                       │       │                   OCSP Checking 
 │                       │       ├ Description     : Issue summary: When a partial-chain certificate
@@ -14287,7 +14370,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:07.843Z 
 │                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
-│                       ├ [214] ╭ VulnerabilityID : CVE-2026-54876 
+│                       ├ [215] ╭ VulnerabilityID : CVE-2026-54876 
 │                       │       ├ PkgID           : openssl@3.5.8-1.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&dis
@@ -14295,14 +14378,14 @@
 │                       │       │                  ╰ UID : b8f9bf0a499769d3 
 │                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
 │                       │       ├ Status          : under_investigation 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54876 
-│                       │       ├ Fingerprint     : sha256:e349ea77bea5289bb6c592a1d5bdc8089023ee94244b7cb12d24
-│                       │       │                   6630380a252e 
+│                       │       ├ Fingerprint     : sha256:b3d503116bab92f7023caf91d7ba048f200a647e545e534f53d8
+│                       │       │                   82bdf2f03e16 
 │                       │       ├ Title           : openssl: OpenSSL: Memory leak leads to Denial of Service in
 │                       │       │                    OCSP response checking 
 │                       │       ├ Description     : Issue summary: A malicious TLS server can cause a memory
@@ -14382,7 +14465,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-05T15:16:53.487Z 
 │                       │       ╰ LastModifiedDate: 2026-08-28T19:46:29.323Z 
-│                       ├ [215] ╭ VulnerabilityID : CVE-2026-75803 
+│                       ├ [216] ╭ VulnerabilityID : CVE-2026-75803 
 │                       │       ├ PkgID           : openssl@3.5.8-1.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl@3.5.8-1.el9_8?arch=x86_64&dis
@@ -14390,14 +14473,14 @@
 │                       │       │                  ╰ UID : b8f9bf0a499769d3 
 │                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-75803 
-│                       │       ├ Fingerprint     : sha256:3e243c84bd0bf31eca6f02dded738ec9f0c0cb331111ae485ea1
-│                       │       │                   0340aa23bee3 
+│                       │       ├ Fingerprint     : sha256:5179668dc56b88ef1c2b3aab31bcc49559e6e4520d7109bd2483
+│                       │       │                   29fde9310748 
 │                       │       ├ Title           : openssl: openssl: AEAD forgeries possible with empty
 │                       │       │                   ciphertext in EVP_Cipher() 
 │                       │       ├ Description     : Issue summary: ChaCha20-Poly1305 and AES-OCB decryption
@@ -14470,7 +14553,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-25T13:19:29.57Z 
 │                       │       ╰ LastModifiedDate: 2026-09-11T21:17:17.823Z 
-│                       ├ [216] ╭ VulnerabilityID : CVE-2026-2673 
+│                       ├ [217] ╭ VulnerabilityID : CVE-2026-2673 
 │                       │       ├ PkgID           : openssl-fips-provider@3.0.7-11.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl-fips-provider 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-fips-provider@3.0.7-11.el9_8?
@@ -14478,146 +14561,14 @@
 │                       │       │                  ╰ UID : c57395b80e0313dc 
 │                       │       ├ InstalledVersion: 3.0.7-11.el9_8 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2673 
-│                       │       ├ Fingerprint     : sha256:2b29a30de9e2eabe7d72e1b40c26126929b53f175897c493b2ac
-│                       │       │                   01b572efaa2c 
-│                       │       ├ Title           : openssl: OpenSSL TLS 1.3 server may choose unexpected key
-│                       │       │                   agreement group 
-│                       │       ├ Description     : Issue summary: An OpenSSL TLS 1.3 server may fail to
-│                       │       │                   negotiate the expected
-│                       │       │                   preferred key exchange group when its key exchange group
-│                       │       │                   configuration includes
-│                       │       │                   the default by using the 'DEFAULT' keyword.
-│                       │       │                   
-│                       │       │                   Impact summary: A less preferred key exchange may be used
-│                       │       │                   even when a more
-│                       │       │                   preferred group is supported by both client and server, if
-│                       │       │                   the group
-│                       │       │                   was not included among the client's initial predicated
-│                       │       │                   keyshares.
-│                       │       │                   This will sometimes be the case with the new hybrid
-│                       │       │                   post-quantum groups,
-│                       │       │                   if the client chooses to defer their use until specifically
-│                       │       │                    requested by
-│                       │       │                   the server.
-│                       │       │                   If an OpenSSL TLS 1.3 server's configuration uses the
-│                       │       │                   'DEFAULT' keyword to
-│                       │       │                   interpolate the built-in default group list into its own
-│                       │       │                   configuration, perhaps
-│                       │       │                   adding or removing specific elements, then an
-│                       │       │                   implementation defect causes the
-│                       │       │                   'DEFAULT' list to lose its 'tuple' structure, and all
-│                       │       │                   server-supported groups
-│                       │       │                   were treated as a single sufficiently secure 'tuple', with
-│                       │       │                   the server not
-│                       │       │                   sending a Hello Retry Request (HRR) even when a group in a
-│                       │       │                   more preferred tuple
-│                       │       │                   was mutually supported.
-│                       │       │                   As a result, the client and server might fail to negotiate
-│                       │       │                   a mutually supported
-│                       │       │                   post-quantum key agreement group, such as 'X25519MLKEM768',
-│                       │       │                    if the client's
-│                       │       │                   configuration results in only 'classical' groups (such as
-│                       │       │                   'X25519' being the
-│                       │       │                   only ones in the client's initial keyshare prediction).
-│                       │       │                   OpenSSL 3.5 and later support a new syntax for selecting
-│                       │       │                   the most preferred TLS
-│                       │       │                   1.3 key agreement group on TLS servers.  The old syntax had
-│                       │       │                    a single 'flat'
-│                       │       │                   list of groups, and treated all the supported groups as
-│                       │       │                   sufficiently secure.
-│                       │       │                   If any of the keyshares predicted by the client were
-│                       │       │                   supported by the server
-│                       │       │                   the most preferred among these was selected, even if other
-│                       │       │                   groups supported by
-│                       │       │                   the client, but not included in the list of predicted
-│                       │       │                   keyshares would have been
-│                       │       │                   more preferred, if included.
-│                       │       │                   The new syntax partitions the groups into distinct 'tuples'
-│                       │       │                    of roughly
-│                       │       │                   equivalent security.  Within each tuple the most preferred
-│                       │       │                   group included among
-│                       │       │                   the client's predicted keyshares is chosen, but if the
-│                       │       │                   client supports a group
-│                       │       │                   from a more preferred tuple, but did not predict any
-│                       │       │                   corresponding keyshares,
-│                       │       │                   the server will ask the client to retry the ClientHello (by
-│                       │       │                    issuing a Hello
-│                       │       │                   Retry Request or HRR) with the most preferred mutually
-│                       │       │                   supported group.
-│                       │       │                   The above works as expected when the server's configuration
-│                       │       │                    uses the built-in
-│                       │       │                   default group list, or explicitly defines its own list by
-│                       │       │                   directly defining the
-│                       │       │                   various desired groups and group 'tuples'.
-│                       │       │                   No OpenSSL FIPS modules are affected by this issue, the
-│                       │       │                   code in question lies
-│                       │       │                   outside the FIPS boundary.
-│                       │       │                   OpenSSL 3.6 and 3.5 are vulnerable to this issue.
-│                       │       │                   OpenSSL 3.6 users should upgrade to OpenSSL 3.6.2 once it
-│                       │       │                   is released.
-│                       │       │                   OpenSSL 3.5 users should upgrade to OpenSSL 3.5.6 once it
-│                       │       │                   OpenSSL 3.4, 3.3, 3.0, 1.0.2 and 1.1.1 are not affected by
-│                       │       │                   this issue. 
-│                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CweIDs                  
-│                       │       │                  ───────
-│                       │       │                  CWE-757
-│                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon: 1 
-│                       │       │                  ├ julia : 2 
-│                       │       │                  ├ redhat: 2 
-│                       │       │                  ╰ ubuntu: 1 
-│                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                  │        │           L/A:L 
-│                       │       │                  │        ╰ V3Score : 6.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
-│                       │       │                           │           L/A:L 
-│                       │       │                           ╰ V3Score : 6.5 
-│                       │       ├ References                                                                   
-│                       │       │                  ────────────────────────────────────────────────────────────
-│                       │       │                  http://www.openwall.com/lists/oss-security/2026/03/13/3     
-│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-2673        
-│                       │       │                  https://cert-portal.siemens.com/productcert/html/ssa-032379.
-│                       │       │                  html                                                        
-│                       │       │                  https://github.com/advisories/GHSA-wj64-gh9j-xm82           
-│                       │       │                                                                              
-│                       │       │                  https://github.com/openssl/openssl/commit/2157c9d81f7b0bd7df
-│                       │       │                  a25b960e928ec28e8dd63f                                      
-│                       │       │                  https://github.com/openssl/openssl/commit/85977e013f32ceb96a
-│                       │       │                  a034c0e741adddc1a05e34                                      
-│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-2673              
-│                       │       │                                                                              
-│                       │       │                  https://openssl-library.org/news/secadv/20260313.txt        
-│                       │       │                                                                              
-│                       │       │                  https://ubuntu.com/security/notices/USN-8155-1              
-│                       │       │                                                                              
-│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-2673              
-│                       │       │                                                                              
-│                       │       │                  
-│                       │       ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T10:31:30.993Z 
-│                       ├ [217] ╭ VulnerabilityID : CVE-2026-2673 
-│                       │       ├ PkgID           : openssl-fips-provider-so@3.0.7-11.el9_8.x86_64 
-│                       │       ├ PkgName         : openssl-fips-provider-so 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-fips-provider-so@3.0.7-11.el9
-│                       │       │                  │       _8?arch=x86_64&distro=redhat-9.8 
-│                       │       │                  ╰ UID : bad5550dc402b015 
-│                       │       ├ InstalledVersion: 3.0.7-11.el9_8 
-│                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
-│                       │       ├ SeveritySource  : redhat 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2673 
-│                       │       ├ Fingerprint     : sha256:e44cb3d044d4bc7ce16b536ae54efb257ff1426099649cfd872b
-│                       │       │                   1e38127d26bf 
+│                       │       ├ Fingerprint     : sha256:73ba1b923858f73b95ab055942aa740902dbac1b0b80546929e7
+│                       │       │                   5af5146fb1e6 
 │                       │       ├ Title           : openssl: OpenSSL TLS 1.3 server may choose unexpected key
 │                       │       │                   agreement group 
 │                       │       ├ Description     : Issue summary: An OpenSSL TLS 1.3 server may fail to
@@ -14735,21 +14686,21 @@
 │                       │       ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:31:30.993Z 
 │                       ├ [218] ╭ VulnerabilityID : CVE-2026-2673 
-│                       │       ├ PkgID           : openssl-libs@3.5.8-1.el9_8.x86_64 
-│                       │       ├ PkgName         : openssl-libs 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_6
-│                       │       │                  │       4&distro=redhat-9.8&epoch=1 
-│                       │       │                  ╰ UID : 6f693dfce3d35b14 
-│                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
+│                       │       ├ PkgID           : openssl-fips-provider-so@3.0.7-11.el9_8.x86_64 
+│                       │       ├ PkgName         : openssl-fips-provider-so 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-fips-provider-so@3.0.7-11.el9
+│                       │       │                  │       _8?arch=x86_64&distro=redhat-9.8 
+│                       │       │                  ╰ UID : bad5550dc402b015 
+│                       │       ├ InstalledVersion: 3.0.7-11.el9_8 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2673 
-│                       │       ├ Fingerprint     : sha256:65b2a6515dc38a10acc33adbf7c3f2eb222093e2e1cca5760301
-│                       │       │                   0f342c30e704 
+│                       │       ├ Fingerprint     : sha256:94636f6941fb0da3ee11b0925a752527e9ca19eea5b50d8f9b4f
+│                       │       │                   1af3dc48d56c 
 │                       │       ├ Title           : openssl: OpenSSL TLS 1.3 server may choose unexpected key
 │                       │       │                   agreement group 
 │                       │       ├ Description     : Issue summary: An OpenSSL TLS 1.3 server may fail to
@@ -14866,7 +14817,139 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:31:30.993Z 
-│                       ├ [219] ╭ VulnerabilityID : CVE-2024-13176 
+│                       ├ [219] ╭ VulnerabilityID : CVE-2026-2673 
+│                       │       ├ PkgID           : openssl-libs@3.5.8-1.el9_8.x86_64 
+│                       │       ├ PkgName         : openssl-libs 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_6
+│                       │       │                  │       4&distro=redhat-9.8&epoch=1 
+│                       │       │                  ╰ UID : 6f693dfce3d35b14 
+│                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
+│                       │       ├ Status          : will_not_fix 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2673 
+│                       │       ├ Fingerprint     : sha256:0c3b8b163f2bf5a320ee28115374fe7ee03001cd2da08b4b3662
+│                       │       │                   d111f83b7716 
+│                       │       ├ Title           : openssl: OpenSSL TLS 1.3 server may choose unexpected key
+│                       │       │                   agreement group 
+│                       │       ├ Description     : Issue summary: An OpenSSL TLS 1.3 server may fail to
+│                       │       │                   negotiate the expected
+│                       │       │                   preferred key exchange group when its key exchange group
+│                       │       │                   configuration includes
+│                       │       │                   the default by using the 'DEFAULT' keyword.
+│                       │       │                   
+│                       │       │                   Impact summary: A less preferred key exchange may be used
+│                       │       │                   even when a more
+│                       │       │                   preferred group is supported by both client and server, if
+│                       │       │                   the group
+│                       │       │                   was not included among the client's initial predicated
+│                       │       │                   keyshares.
+│                       │       │                   This will sometimes be the case with the new hybrid
+│                       │       │                   post-quantum groups,
+│                       │       │                   if the client chooses to defer their use until specifically
+│                       │       │                    requested by
+│                       │       │                   the server.
+│                       │       │                   If an OpenSSL TLS 1.3 server's configuration uses the
+│                       │       │                   'DEFAULT' keyword to
+│                       │       │                   interpolate the built-in default group list into its own
+│                       │       │                   configuration, perhaps
+│                       │       │                   adding or removing specific elements, then an
+│                       │       │                   implementation defect causes the
+│                       │       │                   'DEFAULT' list to lose its 'tuple' structure, and all
+│                       │       │                   server-supported groups
+│                       │       │                   were treated as a single sufficiently secure 'tuple', with
+│                       │       │                   the server not
+│                       │       │                   sending a Hello Retry Request (HRR) even when a group in a
+│                       │       │                   more preferred tuple
+│                       │       │                   was mutually supported.
+│                       │       │                   As a result, the client and server might fail to negotiate
+│                       │       │                   a mutually supported
+│                       │       │                   post-quantum key agreement group, such as 'X25519MLKEM768',
+│                       │       │                    if the client's
+│                       │       │                   configuration results in only 'classical' groups (such as
+│                       │       │                   'X25519' being the
+│                       │       │                   only ones in the client's initial keyshare prediction).
+│                       │       │                   OpenSSL 3.5 and later support a new syntax for selecting
+│                       │       │                   the most preferred TLS
+│                       │       │                   1.3 key agreement group on TLS servers.  The old syntax had
+│                       │       │                    a single 'flat'
+│                       │       │                   list of groups, and treated all the supported groups as
+│                       │       │                   sufficiently secure.
+│                       │       │                   If any of the keyshares predicted by the client were
+│                       │       │                   supported by the server
+│                       │       │                   the most preferred among these was selected, even if other
+│                       │       │                   groups supported by
+│                       │       │                   the client, but not included in the list of predicted
+│                       │       │                   keyshares would have been
+│                       │       │                   more preferred, if included.
+│                       │       │                   The new syntax partitions the groups into distinct 'tuples'
+│                       │       │                    of roughly
+│                       │       │                   equivalent security.  Within each tuple the most preferred
+│                       │       │                   group included among
+│                       │       │                   the client's predicted keyshares is chosen, but if the
+│                       │       │                   client supports a group
+│                       │       │                   from a more preferred tuple, but did not predict any
+│                       │       │                   corresponding keyshares,
+│                       │       │                   the server will ask the client to retry the ClientHello (by
+│                       │       │                    issuing a Hello
+│                       │       │                   Retry Request or HRR) with the most preferred mutually
+│                       │       │                   supported group.
+│                       │       │                   The above works as expected when the server's configuration
+│                       │       │                    uses the built-in
+│                       │       │                   default group list, or explicitly defines its own list by
+│                       │       │                   directly defining the
+│                       │       │                   various desired groups and group 'tuples'.
+│                       │       │                   No OpenSSL FIPS modules are affected by this issue, the
+│                       │       │                   code in question lies
+│                       │       │                   outside the FIPS boundary.
+│                       │       │                   OpenSSL 3.6 and 3.5 are vulnerable to this issue.
+│                       │       │                   OpenSSL 3.6 users should upgrade to OpenSSL 3.6.2 once it
+│                       │       │                   is released.
+│                       │       │                   OpenSSL 3.5 users should upgrade to OpenSSL 3.5.6 once it
+│                       │       │                   OpenSSL 3.4, 3.3, 3.0, 1.0.2 and 1.1.1 are not affected by
+│                       │       │                   this issue. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs                  
+│                       │       │                  ───────
+│                       │       │                  CWE-757
+│                       │       │                  
+│                       │       ├ VendorSeverity   ╭ amazon: 1 
+│                       │       │                  ├ julia : 2 
+│                       │       │                  ├ redhat: 2 
+│                       │       │                  ╰ ubuntu: 1 
+│                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                  │        │           L/A:L 
+│                       │       │                  │        ╰ V3Score : 6.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:
+│                       │       │                           │           L/A:L 
+│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ References                                                                   
+│                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  http://www.openwall.com/lists/oss-security/2026/03/13/3     
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-2673        
+│                       │       │                  https://cert-portal.siemens.com/productcert/html/ssa-032379.
+│                       │       │                  html                                                        
+│                       │       │                  https://github.com/advisories/GHSA-wj64-gh9j-xm82           
+│                       │       │                                                                              
+│                       │       │                  https://github.com/openssl/openssl/commit/2157c9d81f7b0bd7df
+│                       │       │                  a25b960e928ec28e8dd63f                                      
+│                       │       │                  https://github.com/openssl/openssl/commit/85977e013f32ceb96a
+│                       │       │                  a034c0e741adddc1a05e34                                      
+│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-2673              
+│                       │       │                                                                              
+│                       │       │                  https://openssl-library.org/news/secadv/20260313.txt        
+│                       │       │                                                                              
+│                       │       │                  https://ubuntu.com/security/notices/USN-8155-1              
+│                       │       │                                                                              
+│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-2673              
+│                       │       │                                                                              
+│                       │       │                  
+│                       │       ├ PublishedDate   : 2026-03-13T19:54:34.033Z 
+│                       │       ╰ LastModifiedDate: 2026-06-17T10:31:30.993Z 
+│                       ├ [220] ╭ VulnerabilityID : CVE-2024-13176 
 │                       │       ├ PkgID           : openssl-libs@3.5.8-1.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_6
@@ -14874,14 +14957,14 @@
 │                       │       │                  ╰ UID : 6f693dfce3d35b14 
 │                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-13176 
-│                       │       ├ Fingerprint     : sha256:984ae7bb63359b7b5572b5cd1fade71594413742276d561f637a
-│                       │       │                   92b8f66766b1 
+│                       │       ├ Fingerprint     : sha256:87c9ffabe3c592f4b353694d6ed088be916b8a5d5dc70b376117
+│                       │       │                   997eafbd104b 
 │                       │       ├ Title           : openssl: Timing side-channel in ECDSA signature computation 
 │                       │       ├ Description     : Issue summary: A timing side-channel which could
 │                       │       │                   potentially allow recovering
@@ -14934,7 +15017,6 @@
 │                       │       │                  ────────────────────────────────────────────────────────────
 │                       │       │                  http://www.openwall.com/lists/oss-security/2025/01/20/2     
 │                       │       │                  https://access.redhat.com/errata/RHSA-2025:15699            
-│                       │       │                  https://access.redhat.com/errata/RHSA-2025:16046            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2024-13176       
 │                       │       │                  https://bugzilla.redhat.com/2359885                         
 │                       │       │                  https://bugzilla.redhat.com/2359888                         
@@ -15148,7 +15230,7 @@
 │                       │       │                  4                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2025-16046.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2025-15699.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2025:15699               
 │                       │       │                                                                              
@@ -15203,7 +15285,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-01-20T14:15:26.247Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T07:01:23.167Z 
-│                       ├ [220] ╭ VulnerabilityID : CVE-2024-41996 
+│                       ├ [221] ╭ VulnerabilityID : CVE-2024-41996 
 │                       │       ├ PkgID           : openssl-libs@3.5.8-1.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_6
@@ -15211,14 +15293,14 @@
 │                       │       │                  ╰ UID : 6f693dfce3d35b14 
 │                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-41996 
-│                       │       ├ Fingerprint     : sha256:299d644172b5995a64d4acce26dc2e00ffdf2c4e0dafe9438d5e
-│                       │       │                   c2bbf8d15cfe 
+│                       │       ├ Fingerprint     : sha256:3026a61f3fb344a4b2443fe56fd19f0dd014b15835fb7ce6c634
+│                       │       │                   4c2db511b293 
 │                       │       ├ Title           : openssl: remote attackers (from the client side) to trigger
 │                       │       │                    unnecessarily expensive server-side DHE
 │                       │       │                   modular-exponentiation calculations 
@@ -15267,7 +15349,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2024-08-26T06:15:04.603Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T07:48:36.393Z 
-│                       ├ [221] ╭ VulnerabilityID : CVE-2025-9232 
+│                       ├ [222] ╭ VulnerabilityID : CVE-2025-9232 
 │                       │       ├ PkgID           : openssl-libs@3.5.8-1.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_6
@@ -15275,14 +15357,14 @@
 │                       │       │                  ╰ UID : 6f693dfce3d35b14 
 │                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-9232 
-│                       │       ├ Fingerprint     : sha256:13daf20d1c8cf9c2646b69e0b206f952ef5839268aabf9ce53db
-│                       │       │                   5a7b6d82496e 
+│                       │       ├ Fingerprint     : sha256:320383b04915bb61bf6f03d399c6377dc22854b183e2df2829f2
+│                       │       │                   c59bef7973c1 
 │                       │       ├ Title           : openssl: Out-of-bounds read in HTTP client no_proxy handling 
 │                       │       ├ Description     : Issue summary: An application using the OpenSSL HTTP client
 │                       │       │                    API functions may
@@ -15376,7 +15458,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-09-30T14:15:41.313Z 
 │                       │       ╰ LastModifiedDate: 2026-07-14T13:18:07.783Z 
-│                       ├ [222] ╭ VulnerabilityID : CVE-2026-28387 
+│                       ├ [223] ╭ VulnerabilityID : CVE-2026-28387 
 │                       │       ├ PkgID           : openssl-libs@3.5.8-1.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_6
@@ -15384,14 +15466,14 @@
 │                       │       │                  ╰ UID : 6f693dfce3d35b14 
 │                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28387 
-│                       │       ├ Fingerprint     : sha256:7c6faf255f88fbed404d2e457acff24cecfed5756f4defe0bb62
-│                       │       │                   8955e21a6a3b 
+│                       │       ├ Fingerprint     : sha256:8a3598264276aa5cdb6c3ad0e4a961197e41dfbd5831528110a7
+│                       │       │                   e92a20713bac 
 │                       │       ├ Title           : openssl: OpenSSL: Arbitrary code execution due to
 │                       │       │                   use-after-free in DANE TLSA authentication 
 │                       │       ├ Description     : Issue summary: An uncommon configuration of clients
@@ -15478,7 +15560,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:20.7Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T23:10:00.563Z 
-│                       ├ [223] ╭ VulnerabilityID : CVE-2026-28388 
+│                       ├ [224] ╭ VulnerabilityID : CVE-2026-28388 
 │                       │       ├ PkgID           : openssl-libs@3.5.8-1.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_6
@@ -15486,14 +15568,14 @@
 │                       │       │                  ╰ UID : 6f693dfce3d35b14 
 │                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28388 
-│                       │       ├ Fingerprint     : sha256:6f8a6bd4d1580385e14ee3fbb629b4e6f89bb529868da379939b
-│                       │       │                   6ace3c85e076 
+│                       │       ├ Fingerprint     : sha256:7b1f3fb75c4e11c06546bc75be2fbe0207b31f1fa301a5fdd317
+│                       │       │                   3e3dd570d1d1 
 │                       │       ├ Title           : openssl: OpenSSL: Denial of Service due to NULL pointer
 │                       │       │                   dereference in delta CRL processing 
 │                       │       ├ Description     : Issue summary: When a delta CRL that contains a Delta CRL
@@ -15584,7 +15666,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:20.863Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T23:10:00.563Z 
-│                       ├ [224] ╭ VulnerabilityID : CVE-2026-28389 
+│                       ├ [225] ╭ VulnerabilityID : CVE-2026-28389 
 │                       │       ├ PkgID           : openssl-libs@3.5.8-1.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_6
@@ -15592,14 +15674,14 @@
 │                       │       │                  ╰ UID : 6f693dfce3d35b14 
 │                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-28389 
-│                       │       ├ Fingerprint     : sha256:38819394910ca3289b2eaf59d5c962866ba1e6bd842738b2d900
-│                       │       │                   5ef79bdc6268 
+│                       │       ├ Fingerprint     : sha256:65faf8c683d2348e04ab8c4ae92c5d9c22a78a993f6b1ae8c40d
+│                       │       │                   8bc4c9087776 
 │                       │       ├ Title           : openssl: OpenSSL: Denial of Service vulnerability in CMS
 │                       │       │                   processing 
 │                       │       ├ Description     : Issue summary: During processing of a crafted CMS
@@ -15682,7 +15764,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:21.03Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T23:10:00.563Z 
-│                       ├ [225] ╭ VulnerabilityID : CVE-2026-31789 
+│                       ├ [226] ╭ VulnerabilityID : CVE-2026-31789 
 │                       │       ├ PkgID           : openssl-libs@3.5.8-1.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_6
@@ -15690,14 +15772,14 @@
 │                       │       │                  ╰ UID : 6f693dfce3d35b14 
 │                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-31789 
-│                       │       ├ Fingerprint     : sha256:8af6e763e4db24a637f9dd8b3dab2841eec49728ffb642d3d7b3
-│                       │       │                   b7c4050c327b 
+│                       │       ├ Fingerprint     : sha256:a0df0068ce75f46dec5e4e9a69285202dfd40f912cfdf048c212
+│                       │       │                   0adb59ad155e 
 │                       │       ├ Title           : openssl: OpenSSL: Heap buffer overflow on 32-bit systems
 │                       │       │                   from large X.509 certificate processing 
 │                       │       ├ Description     : Issue summary: Converting an excessively large OCTET STRING
@@ -15784,22 +15866,22 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-07T22:16:21.617Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T23:10:00.563Z 
-│                       ├ [226] ╭ VulnerabilityID : CVE-2026-42765 
+│                       ├ [227] ╭ VulnerabilityID : CVE-2026-42765 
 │                       │       ├ PkgID           : openssl-libs@3.5.8-1.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_6
 │                       │       │                  │       4&distro=redhat-9.8&epoch=1 
 │                       │       │                  ╰ UID : 6f693dfce3d35b14 
 │                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
-│                       │       ├ Status          : under_investigation 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42765 
-│                       │       ├ Fingerprint     : sha256:fdb4a129c62ce6c80da8a19e4d9a3c25a6c7f8d30d651529ee9b
-│                       │       │                   ce3541d2d6c6 
+│                       │       ├ Fingerprint     : sha256:0730a0235a90c35a946060eb708b20f7ed958cf6376afb7a99b4
+│                       │       │                   f3b176d0372f 
 │                       │       ├ Title           : openssl: NULL Dereference in Certificate Verification with
 │                       │       │                   OCSP Checking 
 │                       │       ├ Description     : Issue summary: When a partial-chain certificate
@@ -15863,7 +15945,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-09T17:17:07.843Z 
 │                       │       ╰ LastModifiedDate: 2026-07-23T08:10:00.137Z 
-│                       ├ [227] ╭ VulnerabilityID : CVE-2026-54876 
+│                       ├ [228] ╭ VulnerabilityID : CVE-2026-54876 
 │                       │       ├ PkgID           : openssl-libs@3.5.8-1.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_6
@@ -15871,14 +15953,14 @@
 │                       │       │                  ╰ UID : 6f693dfce3d35b14 
 │                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
 │                       │       ├ Status          : under_investigation 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-54876 
-│                       │       ├ Fingerprint     : sha256:342c7724611c5acb8acfe38131c7960ebc687a0cd02e6d30ae12
-│                       │       │                   1e54da9a2501 
+│                       │       ├ Fingerprint     : sha256:2686436c209e80519ebaddb17f2b9269568c1eb3d188726b2b06
+│                       │       │                   52502ba3db10 
 │                       │       ├ Title           : openssl: OpenSSL: Memory leak leads to Denial of Service in
 │                       │       │                    OCSP response checking 
 │                       │       ├ Description     : Issue summary: A malicious TLS server can cause a memory
@@ -15958,7 +16040,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-05T15:16:53.487Z 
 │                       │       ╰ LastModifiedDate: 2026-08-28T19:46:29.323Z 
-│                       ├ [228] ╭ VulnerabilityID : CVE-2026-75803 
+│                       ├ [229] ╭ VulnerabilityID : CVE-2026-75803 
 │                       │       ├ PkgID           : openssl-libs@3.5.8-1.el9_8.x86_64 
 │                       │       ├ PkgName         : openssl-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/openssl-libs@3.5.8-1.el9_8?arch=x86_6
@@ -15966,14 +16048,14 @@
 │                       │       │                  ╰ UID : 6f693dfce3d35b14 
 │                       │       ├ InstalledVersion: 1:3.5.8-1.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-75803 
-│                       │       ├ Fingerprint     : sha256:97f505d25268c202919c15fb0d13044bed91f09be58d07e90e04
-│                       │       │                   e6a50e49ae3f 
+│                       │       ├ Fingerprint     : sha256:17878ed202fcb9294f67370f5b74971106a550b4f63080bc4130
+│                       │       │                   56eec876f3c0 
 │                       │       ├ Title           : openssl: openssl: AEAD forgeries possible with empty
 │                       │       │                   ciphertext in EVP_Cipher() 
 │                       │       ├ Description     : Issue summary: ChaCha20-Poly1305 and AES-OCB decryption
@@ -16046,7 +16128,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-25T13:19:29.57Z 
 │                       │       ╰ LastModifiedDate: 2026-09-11T21:17:17.823Z 
-│                       ├ [229] ╭ VulnerabilityID : CVE-2026-12610 
+│                       ├ [230] ╭ VulnerabilityID : CVE-2026-12610 
 │                       │       ├ PkgID           : pam@1.5.1-28.el9_8.1.x86_64 
 │                       │       ├ PkgName         : pam 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pam@1.5.1-28.el9_8.1?arch=x86_64&dist
@@ -16054,14 +16136,14 @@
 │                       │       │                  ╰ UID : ee4b7b0151047d2a 
 │                       │       ├ InstalledVersion: 1.5.1-28.el9_8.1 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-12610 
-│                       │       ├ Fingerprint     : sha256:91d1507dcfb061e75c4d88c9ec90e26c9fbc5301aaf424789bb4
-│                       │       │                   9c8c7a61f186 
+│                       │       ├ Fingerprint     : sha256:8f0feec620c394aeb2d5dc8f85704b64bd0248b24caa18a7f513
+│                       │       │                   247c48ced902 
 │                       │       ├ Title           : sssd: Use-after-free crash in SSSD' 'sssd_pam' process 
 │                       │       ├ Description     : A flaw was found in sssd. When authenticating with a
 │                       │       │                   YubiKey, the SSSD PAM responder can crash due to a
@@ -16093,7 +16175,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-30T10:16:34.397Z 
 │                       │       ╰ LastModifiedDate: 2026-08-31T19:16:45.55Z 
-│                       ├ [230] ╭ VulnerabilityID : CVE-2026-86145 
+│                       ├ [231] ╭ VulnerabilityID : CVE-2026-86145 
 │                       │       ├ PkgID           : pcre2@10.40-6.el9.x86_64 
 │                       │       ├ PkgName         : pcre2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2@10.40-6.el9?arch=x86_64&distro=
@@ -16101,14 +16183,14 @@
 │                       │       │                  ╰ UID : 1d1b871572f9d872 
 │                       │       ├ InstalledVersion: 10.40-6.el9 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86145 
-│                       │       ├ Fingerprint     : sha256:225a7520d415b606481e95c6eb1419cdc5a548fcb8b35e2eff1a
-│                       │       │                   a66864069f77 
+│                       │       ├ Fingerprint     : sha256:1bb5cce70c32039b14ef7794ce14f12a34ff882f654b02aa58ae
+│                       │       │                   a1d4218232f0 
 │                       │       ├ Title           : pcre2: PCRE2: Out-of-bounds write allows arbitrary code
 │                       │       │                   execution via crafted regular expressions 
 │                       │       ├ Description     : PCRE2 before 10.48 allows a pcre2_dfa_match out-of-bounds
@@ -16144,7 +16226,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-05T06:17:10.37Z 
 │                       │       ╰ LastModifiedDate: 2026-09-09T16:04:24.933Z 
-│                       ├ [231] ╭ VulnerabilityID : CVE-2026-89161 
+│                       ├ [232] ╭ VulnerabilityID : CVE-2026-89161 
 │                       │       ├ PkgID           : pcre2@10.40-6.el9.x86_64 
 │                       │       ├ PkgName         : pcre2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2@10.40-6.el9?arch=x86_64&distro=
@@ -16152,14 +16234,14 @@
 │                       │       │                  ╰ UID : 1d1b871572f9d872 
 │                       │       ├ InstalledVersion: 10.40-6.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-89161 
-│                       │       ├ Fingerprint     : sha256:838ac490f4a242b9823e84cd40d793c1996d734ffa07bc8679fd
-│                       │       │                   93498e52f54a 
+│                       │       ├ Fingerprint     : sha256:af8dcf4afae71f2665dd47b1e51e1c5a51626eabb958d57720ec
+│                       │       │                   d2b9267a94ef 
 │                       │       ├ Title           : pcre2: PCRE2: Memory corruption vulnerability in
 │                       │       │                   pcre2_jit_match 
 │                       │       ├ Description     : In PCRE2 before 10.48, pcre2_jit_match mishandles a
@@ -16188,7 +16270,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-11T04:18:04.47Z 
 │                       │       ╰ LastModifiedDate: 2026-09-16T19:10:47.78Z 
-│                       ├ [232] ╭ VulnerabilityID : CVE-2026-89157 
+│                       ├ [233] ╭ VulnerabilityID : CVE-2026-89157 
 │                       │       ├ PkgID           : pcre2@10.40-6.el9.x86_64 
 │                       │       ├ PkgName         : pcre2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2@10.40-6.el9?arch=x86_64&distro=
@@ -16196,14 +16278,14 @@
 │                       │       │                  ╰ UID : 1d1b871572f9d872 
 │                       │       ├ InstalledVersion: 10.40-6.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-89157 
-│                       │       ├ Fingerprint     : sha256:c16ce8aa79848c7c98e3634eacb1ecdd388d319b32e9d2f26e54
-│                       │       │                   4634df22b309 
+│                       │       ├ Fingerprint     : sha256:ee9b737fd28b4baa40f918c85ecc5c1e5e83be7fbf5ea582030c
+│                       │       │                   3bd360eea560 
 │                       │       ├ Title           : pcre2: PCRE2: Out-of-bounds write via large pattern input 
 │                       │       ├ Description     : PCRE2 before 10.48, on 32-bit platforms, has a
 │                       │       │                   pcre2_pattern_convert out-of-bounds write when an attacker
@@ -16236,7 +16318,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-11T04:18:03.753Z 
 │                       │       ╰ LastModifiedDate: 2026-09-16T19:25:08.88Z 
-│                       ├ [233] ╭ VulnerabilityID : CVE-2026-89158 
+│                       ├ [234] ╭ VulnerabilityID : CVE-2026-89158 
 │                       │       ├ PkgID           : pcre2@10.40-6.el9.x86_64 
 │                       │       ├ PkgName         : pcre2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2@10.40-6.el9?arch=x86_64&distro=
@@ -16244,14 +16326,14 @@
 │                       │       │                  ╰ UID : 1d1b871572f9d872 
 │                       │       ├ InstalledVersion: 10.40-6.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-89158 
-│                       │       ├ Fingerprint     : sha256:64e524f090d16856eb90d13f61bf70d8a49a493f61d716046974
-│                       │       │                   41a946fe739a 
+│                       │       ├ Fingerprint     : sha256:9cb4425cb815a508752aed650fdd57eb45fcaae98de596f5206d
+│                       │       │                   2d20a3ee3d3a 
 │                       │       ├ Title           : PCRE2: PCRE2: Out-of-bounds write via integer overflow on
 │                       │       │                   32-bit platforms 
 │                       │       ├ Description     : PCRE2 before 10.48, on 32-bit platforms, has a
@@ -16285,7 +16367,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-11T04:18:03.97Z 
 │                       │       ╰ LastModifiedDate: 2026-09-16T19:23:41.45Z 
-│                       ├ [234] ╭ VulnerabilityID : CVE-2022-41409 
+│                       ├ [235] ╭ VulnerabilityID : CVE-2022-41409 
 │                       │       ├ PkgID           : pcre2@10.40-6.el9.x86_64 
 │                       │       ├ PkgName         : pcre2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2@10.40-6.el9?arch=x86_64&distro=
@@ -16293,14 +16375,14 @@
 │                       │       │                  ╰ UID : 1d1b871572f9d872 
 │                       │       ├ InstalledVersion: 10.40-6.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-41409 
-│                       │       ├ Fingerprint     : sha256:c711231ee0845b456a72106521f522d7ff3ed0e2c0b5711734ca
-│                       │       │                   8d2a47f84404 
+│                       │       ├ Fingerprint     : sha256:e355f5f90df1cdd107e5a4cc1d4f8ffa741c4b07ce6113693e51
+│                       │       │                   e0d192e5b675 
 │                       │       ├ Title           : pcre2: negative repeat value in a pcre2test subject line
 │                       │       │                   leads to inifinite loop 
 │                       │       ├ Description     : Integer overflow vulnerability in pcre2test before 10.41
@@ -16343,7 +16425,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T05:03:09.637Z 
-│                       ├ [235] ╭ VulnerabilityID : CVE-2026-89156 
+│                       ├ [236] ╭ VulnerabilityID : CVE-2026-89156 
 │                       │       ├ PkgID           : pcre2@10.40-6.el9.x86_64 
 │                       │       ├ PkgName         : pcre2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2@10.40-6.el9?arch=x86_64&distro=
@@ -16351,14 +16433,14 @@
 │                       │       │                  ╰ UID : 1d1b871572f9d872 
 │                       │       ├ InstalledVersion: 10.40-6.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-89156 
-│                       │       ├ Fingerprint     : sha256:84087bdb0a0ed9ee584616e770d04e8e25101512f4f6bd5944ed
-│                       │       │                   4db57c442aba 
+│                       │       ├ Fingerprint     : sha256:3532bb367b3cdc202ca226b398efaf08fbe6b39f6669c09e48cf
+│                       │       │                   48385101279f 
 │                       │       ├ Title           : PCRE2: PCRE2: Out-of-bounds read via invalid UTF data
 │                       │       │                   during JIT fallback 
 │                       │       ├ Description     : PCRE2 before 10.48 has a pcre2_match out-of-bounds read
@@ -16392,7 +16474,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-11T04:18:03.23Z 
 │                       │       ╰ LastModifiedDate: 2026-09-16T19:27:01.327Z 
-│                       ├ [236] ╭ VulnerabilityID : CVE-2026-89160 
+│                       ├ [237] ╭ VulnerabilityID : CVE-2026-89160 
 │                       │       ├ PkgID           : pcre2@10.40-6.el9.x86_64 
 │                       │       ├ PkgName         : pcre2 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2@10.40-6.el9?arch=x86_64&distro=
@@ -16400,14 +16482,14 @@
 │                       │       │                  ╰ UID : 1d1b871572f9d872 
 │                       │       ├ InstalledVersion: 10.40-6.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-89160 
-│                       │       ├ Fingerprint     : sha256:17a835766a8bfc5e8d0a7d83fc1cc980c89ef804612b03a739eb
-│                       │       │                   7bbe61396e56 
+│                       │       ├ Fingerprint     : sha256:0a22af01bf6c40849ff9d7f2a8c45d7cc322927b04d9744dfa6b
+│                       │       │                   e478f61bdf65 
 │                       │       ├ Title           : pcre2: PCRE2: Denial of Service via out-of-bounds read
 │                       │       │                   during invalid UTF matching 
 │                       │       ├ Description     : PCRE2 before 10.48 has a pcre2_match out-of-bounds read
@@ -16441,7 +16523,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-11T04:18:04.343Z 
 │                       │       ╰ LastModifiedDate: 2026-09-16T19:15:29.443Z 
-│                       ├ [237] ╭ VulnerabilityID : CVE-2026-86145 
+│                       ├ [238] ╭ VulnerabilityID : CVE-2026-86145 
 │                       │       ├ PkgID           : pcre2-syntax@10.40-6.el9.noarch 
 │                       │       ├ PkgName         : pcre2-syntax 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2-syntax@10.40-6.el9?arch=noarch&
@@ -16449,14 +16531,14 @@
 │                       │       │                  ╰ UID : 459af584b3a3a6aa 
 │                       │       ├ InstalledVersion: 10.40-6.el9 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-86145 
-│                       │       ├ Fingerprint     : sha256:9109cf0c816f7e1bfcdcbe3ecbafb6a2874df781cf4a88ab9e9e
-│                       │       │                   64964fde9fd2 
+│                       │       ├ Fingerprint     : sha256:2bca58739e0e35651a346f3f0ab8f92502bb067b4668eb9beb09
+│                       │       │                   01edaadf4ece 
 │                       │       ├ Title           : pcre2: PCRE2: Out-of-bounds write allows arbitrary code
 │                       │       │                   execution via crafted regular expressions 
 │                       │       ├ Description     : PCRE2 before 10.48 allows a pcre2_dfa_match out-of-bounds
@@ -16492,7 +16574,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-05T06:17:10.37Z 
 │                       │       ╰ LastModifiedDate: 2026-09-09T16:04:24.933Z 
-│                       ├ [238] ╭ VulnerabilityID : CVE-2026-89161 
+│                       ├ [239] ╭ VulnerabilityID : CVE-2026-89161 
 │                       │       ├ PkgID           : pcre2-syntax@10.40-6.el9.noarch 
 │                       │       ├ PkgName         : pcre2-syntax 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2-syntax@10.40-6.el9?arch=noarch&
@@ -16500,14 +16582,14 @@
 │                       │       │                  ╰ UID : 459af584b3a3a6aa 
 │                       │       ├ InstalledVersion: 10.40-6.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-89161 
-│                       │       ├ Fingerprint     : sha256:96d65e16c355ed23b1d0a978f1ac55c1bbf8a21c83dd15eeeddd
-│                       │       │                   1a8efcaf0a3e 
+│                       │       ├ Fingerprint     : sha256:66d867f53d72542eba953a5ef9a381adf38711e6cc857602aa00
+│                       │       │                   ed7ac0535a94 
 │                       │       ├ Title           : pcre2: PCRE2: Memory corruption vulnerability in
 │                       │       │                   pcre2_jit_match 
 │                       │       ├ Description     : In PCRE2 before 10.48, pcre2_jit_match mishandles a
@@ -16536,7 +16618,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-11T04:18:04.47Z 
 │                       │       ╰ LastModifiedDate: 2026-09-16T19:10:47.78Z 
-│                       ├ [239] ╭ VulnerabilityID : CVE-2026-89157 
+│                       ├ [240] ╭ VulnerabilityID : CVE-2026-89157 
 │                       │       ├ PkgID           : pcre2-syntax@10.40-6.el9.noarch 
 │                       │       ├ PkgName         : pcre2-syntax 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2-syntax@10.40-6.el9?arch=noarch&
@@ -16544,14 +16626,14 @@
 │                       │       │                  ╰ UID : 459af584b3a3a6aa 
 │                       │       ├ InstalledVersion: 10.40-6.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-89157 
-│                       │       ├ Fingerprint     : sha256:f112e0a066736bb3e5eb854124fbfe7f284f0b551e0a5f38e26b
-│                       │       │                   ef746ce1a8c9 
+│                       │       ├ Fingerprint     : sha256:c7506a1153de17168d2f7a38b78a9294b4bb920459448ef4dfd5
+│                       │       │                   b901d3cce1fd 
 │                       │       ├ Title           : pcre2: PCRE2: Out-of-bounds write via large pattern input 
 │                       │       ├ Description     : PCRE2 before 10.48, on 32-bit platforms, has a
 │                       │       │                   pcre2_pattern_convert out-of-bounds write when an attacker
@@ -16584,7 +16666,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-11T04:18:03.753Z 
 │                       │       ╰ LastModifiedDate: 2026-09-16T19:25:08.88Z 
-│                       ├ [240] ╭ VulnerabilityID : CVE-2026-89158 
+│                       ├ [241] ╭ VulnerabilityID : CVE-2026-89158 
 │                       │       ├ PkgID           : pcre2-syntax@10.40-6.el9.noarch 
 │                       │       ├ PkgName         : pcre2-syntax 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2-syntax@10.40-6.el9?arch=noarch&
@@ -16592,14 +16674,14 @@
 │                       │       │                  ╰ UID : 459af584b3a3a6aa 
 │                       │       ├ InstalledVersion: 10.40-6.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-89158 
-│                       │       ├ Fingerprint     : sha256:2ad6aa0f6f00ff140e9787b85b4686776dd999d7a9814d54b071
-│                       │       │                   b5dc270a8066 
+│                       │       ├ Fingerprint     : sha256:3079e8356b3fcdf76b86a4a9eb76c77f128397dfebc389e7499e
+│                       │       │                   2b476ffb6474 
 │                       │       ├ Title           : PCRE2: PCRE2: Out-of-bounds write via integer overflow on
 │                       │       │                   32-bit platforms 
 │                       │       ├ Description     : PCRE2 before 10.48, on 32-bit platforms, has a
@@ -16633,7 +16715,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-11T04:18:03.97Z 
 │                       │       ╰ LastModifiedDate: 2026-09-16T19:23:41.45Z 
-│                       ├ [241] ╭ VulnerabilityID : CVE-2022-41409 
+│                       ├ [242] ╭ VulnerabilityID : CVE-2022-41409 
 │                       │       ├ PkgID           : pcre2-syntax@10.40-6.el9.noarch 
 │                       │       ├ PkgName         : pcre2-syntax 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2-syntax@10.40-6.el9?arch=noarch&
@@ -16641,14 +16723,14 @@
 │                       │       │                  ╰ UID : 459af584b3a3a6aa 
 │                       │       ├ InstalledVersion: 10.40-6.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-41409 
-│                       │       ├ Fingerprint     : sha256:9bb9c047812711561ef0d3254fd8e99a74a48e44d799a18599b5
-│                       │       │                   6356c870954d 
+│                       │       ├ Fingerprint     : sha256:3f9ea0eaecc6a1fe2f632cd93218998715326d6dcaf348fd27cc
+│                       │       │                   27ec2c9a6add 
 │                       │       ├ Title           : pcre2: negative repeat value in a pcre2test subject line
 │                       │       │                   leads to inifinite loop 
 │                       │       ├ Description     : Integer overflow vulnerability in pcre2test before 10.41
@@ -16691,7 +16773,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2023-07-18T14:15:12.197Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T05:03:09.637Z 
-│                       ├ [242] ╭ VulnerabilityID : CVE-2026-89156 
+│                       ├ [243] ╭ VulnerabilityID : CVE-2026-89156 
 │                       │       ├ PkgID           : pcre2-syntax@10.40-6.el9.noarch 
 │                       │       ├ PkgName         : pcre2-syntax 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2-syntax@10.40-6.el9?arch=noarch&
@@ -16699,14 +16781,14 @@
 │                       │       │                  ╰ UID : 459af584b3a3a6aa 
 │                       │       ├ InstalledVersion: 10.40-6.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-89156 
-│                       │       ├ Fingerprint     : sha256:b64aa683f610a05ff26f29c00bd5b67932a3b6e2db2901717541
-│                       │       │                   0c48f030d0b4 
+│                       │       ├ Fingerprint     : sha256:a665ea550bc202005d3d0ea1ccdf5c5c8e9e998de2e7c486aea6
+│                       │       │                   2a1e4a17ea21 
 │                       │       ├ Title           : PCRE2: PCRE2: Out-of-bounds read via invalid UTF data
 │                       │       │                   during JIT fallback 
 │                       │       ├ Description     : PCRE2 before 10.48 has a pcre2_match out-of-bounds read
@@ -16740,7 +16822,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-11T04:18:03.23Z 
 │                       │       ╰ LastModifiedDate: 2026-09-16T19:27:01.327Z 
-│                       ├ [243] ╭ VulnerabilityID : CVE-2026-89160 
+│                       ├ [244] ╭ VulnerabilityID : CVE-2026-89160 
 │                       │       ├ PkgID           : pcre2-syntax@10.40-6.el9.noarch 
 │                       │       ├ PkgName         : pcre2-syntax 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pcre2-syntax@10.40-6.el9?arch=noarch&
@@ -16748,14 +16830,14 @@
 │                       │       │                  ╰ UID : 459af584b3a3a6aa 
 │                       │       ├ InstalledVersion: 10.40-6.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-89160 
-│                       │       ├ Fingerprint     : sha256:910a4dc20224feb1ba921e76f7677a7006b273b2c97f2370c49b
-│                       │       │                   3920133f6469 
+│                       │       ├ Fingerprint     : sha256:e20d416dbd996f43ec40a9e9e74c33be921920743fdddf451fca
+│                       │       │                   a2d1d50223ad 
 │                       │       ├ Title           : pcre2: PCRE2: Denial of Service via out-of-bounds read
 │                       │       │                   during invalid UTF matching 
 │                       │       ├ Description     : PCRE2 before 10.48 has a pcre2_match out-of-bounds read
@@ -16789,7 +16871,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-11T04:18:04.343Z 
 │                       │       ╰ LastModifiedDate: 2026-09-16T19:15:29.443Z 
-│                       ├ [244] ╭ VulnerabilityID : CVE-2023-24056 
+│                       ├ [245] ╭ VulnerabilityID : CVE-2023-24056 
 │                       │       ├ PkgID           : pkgconf@1.7.3-10.el9.x86_64 
 │                       │       ├ PkgName         : pkgconf 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pkgconf@1.7.3-10.el9?arch=x86_64&dist
@@ -16797,68 +16879,14 @@
 │                       │       │                  ╰ UID : 4847d1e6f0013f32 
 │                       │       ├ InstalledVersion: 1.7.3-10.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-24056 
-│                       │       ├ Fingerprint     : sha256:98c8d3acbbc211e37ddfadd133872e5d15cbdb4171c6e9c3e994
-│                       │       │                   da96b2a5f6aa 
-│                       │       ├ Title           : pkgconf: unbounded string expansion due to incorrect checks
-│                       │       │                    may result in buffer overflow 
-│                       │       ├ Description     : In pkgconf through 1.9.3, variable duplication can cause
-│                       │       │                   unbounded string expansion due to incorrect checks in
-│                       │       │                   libpkgconf/tuple.c:pkgconf_tuple_parse. For example, a .pc
-│                       │       │                   file containing a few hundred bytes can expand to one
-│                       │       │                   billion bytes. 
-│                       │       ├ Severity        : LOW 
-│                       │       ├ CweIDs                  
-│                       │       │                  ───────
-│                       │       │                  CWE-787
-│                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon     : 2 
-│                       │       │                  ├ cbl-mariner: 2 
-│                       │       │                  ├ nvd        : 2 
-│                       │       │                  ╰ redhat     : 1 
-│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
-│                       │       │                  │        │           N/A:H 
-│                       │       │                  │        ╰ V3Score : 5.5 
-│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
-│                       │       │                           │           N/A:H 
-│                       │       │                           ╰ V3Score : 5.5 
-│                       │       ├ References                                                                   
-│                       │       │                  ────────────────────────────────────────────────────────────
-│                       │       │                  https://access.redhat.com/security/cve/CVE-2023-24056       
-│                       │       │                  https://gitea.treehouse.systems/ariadne/pkgconf/commit/628b2
-│                       │       │                  b2bafa5d3a2017193ddf375093e70666059                         
-│                       │       │                  https://github.com/pkgconf/pkgconf/tags                     
-│                       │       │                                                                              
-│                       │       │                  https://nullprogram.com/blog/2023/01/18/                    
-│                       │       │                                                                              
-│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2023-24056             
-│                       │       │                                                                              
-│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2023-24056             
-│                       │       │                                                                              
-│                       │       │                  
-│                       │       ├ PublishedDate   : 2023-01-22T04:15:11.617Z 
-│                       │       ╰ LastModifiedDate: 2026-06-17T05:38:34.31Z 
-│                       ├ [245] ╭ VulnerabilityID : CVE-2023-24056 
-│                       │       ├ PkgID           : pkgconf-m4@1.7.3-10.el9.noarch 
-│                       │       ├ PkgName         : pkgconf-m4 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pkgconf-m4@1.7.3-10.el9?arch=noarch&d
-│                       │       │                  │       istro=redhat-9.8 
-│                       │       │                  ╰ UID : 6c91fbe17a4282d8 
-│                       │       ├ InstalledVersion: 1.7.3-10.el9 
-│                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
-│                       │       ├ SeveritySource  : redhat 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-24056 
-│                       │       ├ Fingerprint     : sha256:391aa88f1329e620622dccdd324c6d1d984e5ac11708cdebcac0
-│                       │       │                   3e28c9b1b201 
+│                       │       ├ Fingerprint     : sha256:132b3e0c29cf4374ccc5bb863109a3cfdf660d87a8e3a66f58c7
+│                       │       │                   6e4d5fdaaf9d 
 │                       │       ├ Title           : pkgconf: unbounded string expansion due to incorrect checks
 │                       │       │                    may result in buffer overflow 
 │                       │       ├ Description     : In pkgconf through 1.9.3, variable duplication can cause
@@ -16898,21 +16926,21 @@
 │                       │       ├ PublishedDate   : 2023-01-22T04:15:11.617Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T05:38:34.31Z 
 │                       ├ [246] ╭ VulnerabilityID : CVE-2023-24056 
-│                       │       ├ PkgID           : pkgconf-pkg-config@1.7.3-10.el9.x86_64 
-│                       │       ├ PkgName         : pkgconf-pkg-config 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pkgconf-pkg-config@1.7.3-10.el9?arch=
-│                       │       │                  │       x86_64&distro=redhat-9.8 
-│                       │       │                  ╰ UID : e2bfffe66cb008b5 
+│                       │       ├ PkgID           : pkgconf-m4@1.7.3-10.el9.noarch 
+│                       │       ├ PkgName         : pkgconf-m4 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pkgconf-m4@1.7.3-10.el9?arch=noarch&d
+│                       │       │                  │       istro=redhat-9.8 
+│                       │       │                  ╰ UID : 6c91fbe17a4282d8 
 │                       │       ├ InstalledVersion: 1.7.3-10.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-24056 
-│                       │       ├ Fingerprint     : sha256:ef9d8426a142075d979ee5c2669c07b6c41ad1b2e8bf787e72b2
-│                       │       │                   a27e01dd0706 
+│                       │       ├ Fingerprint     : sha256:a5071f27b2065ec6c3cd565450f7bc1c4f38d296b6bb7fb4930f
+│                       │       │                   1e74cb36adfc 
 │                       │       ├ Title           : pkgconf: unbounded string expansion due to incorrect checks
 │                       │       │                    may result in buffer overflow 
 │                       │       ├ Description     : In pkgconf through 1.9.3, variable duplication can cause
@@ -16951,7 +16979,61 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2023-01-22T04:15:11.617Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T05:38:34.31Z 
-│                       ├ [247] ╭ VulnerabilityID : CVE-2026-18739 
+│                       ├ [247] ╭ VulnerabilityID : CVE-2023-24056 
+│                       │       ├ PkgID           : pkgconf-pkg-config@1.7.3-10.el9.x86_64 
+│                       │       ├ PkgName         : pkgconf-pkg-config 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/pkgconf-pkg-config@1.7.3-10.el9?arch=
+│                       │       │                  │       x86_64&distro=redhat-9.8 
+│                       │       │                  ╰ UID : e2bfffe66cb008b5 
+│                       │       ├ InstalledVersion: 1.7.3-10.el9 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-24056 
+│                       │       ├ Fingerprint     : sha256:062653cc95cfde486f3d9854d082b51a7f982abd84be85725847
+│                       │       │                   4fcb926e938e 
+│                       │       ├ Title           : pkgconf: unbounded string expansion due to incorrect checks
+│                       │       │                    may result in buffer overflow 
+│                       │       ├ Description     : In pkgconf through 1.9.3, variable duplication can cause
+│                       │       │                   unbounded string expansion due to incorrect checks in
+│                       │       │                   libpkgconf/tuple.c:pkgconf_tuple_parse. For example, a .pc
+│                       │       │                   file containing a few hundred bytes can expand to one
+│                       │       │                   billion bytes. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs                  
+│                       │       │                  ───────
+│                       │       │                  CWE-787
+│                       │       │                  
+│                       │       ├ VendorSeverity   ╭ amazon     : 2 
+│                       │       │                  ├ cbl-mariner: 2 
+│                       │       │                  ├ nvd        : 2 
+│                       │       │                  ╰ redhat     : 1 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                  │        │           N/A:H 
+│                       │       │                  │        ╰ V3Score : 5.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 5.5 
+│                       │       ├ References                                                                   
+│                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2023-24056       
+│                       │       │                  https://gitea.treehouse.systems/ariadne/pkgconf/commit/628b2
+│                       │       │                  b2bafa5d3a2017193ddf375093e70666059                         
+│                       │       │                  https://github.com/pkgconf/pkgconf/tags                     
+│                       │       │                                                                              
+│                       │       │                  https://nullprogram.com/blog/2023/01/18/                    
+│                       │       │                                                                              
+│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2023-24056             
+│                       │       │                                                                              
+│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2023-24056             
+│                       │       │                                                                              
+│                       │       │                  
+│                       │       ├ PublishedDate   : 2023-01-22T04:15:11.617Z 
+│                       │       ╰ LastModifiedDate: 2026-06-17T05:38:34.31Z 
+│                       ├ [248] ╭ VulnerabilityID : CVE-2026-18739 
 │                       │       ├ PkgID           : popt@1.18-8.el9.x86_64 
 │                       │       ├ PkgName         : popt 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/popt@1.18-8.el9?arch=x86_64&distro=re
@@ -16959,14 +17041,14 @@
 │                       │       │                  ╰ UID : 1e9fe599ec77a023 
 │                       │       ├ InstalledVersion: 1.18-8.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-18739 
-│                       │       ├ Fingerprint     : sha256:ada7973976e5993dfd314b30598d8acd982de7283389554b04bc
-│                       │       │                   acc7a1cc0012 
+│                       │       ├ Fingerprint     : sha256:04b7411aea8ab32303d275200fc8cf3c4be9fd02530348555e1c
+│                       │       │                   84aa6912d8d2 
 │                       │       ├ Title           : popt-devel: popt-static: Off-by-one in poptStuffArgs 
 │                       │       ├ Description     : A flaw was found in popt, a command-line option parsing
 │                       │       │                   library. An off-by-one error in the poptStuffArgs function,
@@ -16994,7 +17076,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-04T06:16:30.33Z 
 │                       │       ╰ LastModifiedDate: 2026-08-31T18:17:14.02Z 
-│                       ├ [248] ╭ VulnerabilityID : CVE-2026-18743 
+│                       ├ [249] ╭ VulnerabilityID : CVE-2026-18743 
 │                       │       ├ PkgID           : popt@1.18-8.el9.x86_64 
 │                       │       ├ PkgName         : popt 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/popt@1.18-8.el9?arch=x86_64&distro=re
@@ -17002,14 +17084,14 @@
 │                       │       │                  ╰ UID : 1e9fe599ec77a023 
 │                       │       ├ InstalledVersion: 1.18-8.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-18743 
-│                       │       ├ Fingerprint     : sha256:f64929af85b17c0073eab4dd80536bb118a727f79caaea756505
-│                       │       │                   83593b208c87 
+│                       │       ├ Fingerprint     : sha256:2c9950993316020f4c4a87855415798940325379275dd28e93e9
+│                       │       │                   c3d95591dc2d 
 │                       │       ├ Title           : popt-devel: popt-static: Short realloc in
 │                       │       │                   poptConfigFileToString 
 │                       │       ├ Description     : A flaw was found in popt. This vulnerability allows an
@@ -17039,7 +17121,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-01T02:16:57.647Z 
 │                       │       ╰ LastModifiedDate: 2026-09-08T23:17:23.813Z 
-│                       ├ [249] ╭ VulnerabilityID : CVE-2026-18839 
+│                       ├ [250] ╭ VulnerabilityID : CVE-2026-18839 
 │                       │       ├ PkgID           : popt@1.18-8.el9.x86_64 
 │                       │       ├ PkgName         : popt 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/popt@1.18-8.el9?arch=x86_64&distro=re
@@ -17047,14 +17129,14 @@
 │                       │       │                  ╰ UID : 1e9fe599ec77a023 
 │                       │       ├ InstalledVersion: 1.18-8.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-18839 
-│                       │       ├ Fingerprint     : sha256:bfab74ec083072e9826defa6fccf8ab10b84e0126857a68b5a63
-│                       │       │                   bfe983965e32 
+│                       │       ├ Fingerprint     : sha256:6c088bc8bb6b3f5a242798afcd593593ec212c4f2ad0d99aadec
+│                       │       │                   5c3f30138e9f 
 │                       │       ├ Title           : popt-devel: popt-static: size_t underflow in singleOptionHelp 
 │                       │       ├ Description     : An integer underflow was found in the popt library when
 │                       │       │                   formatting help text for option tables that exceed the
@@ -17080,7 +17162,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-05T21:16:57.727Z 
 │                       │       ╰ LastModifiedDate: 2026-09-01T13:18:12.063Z 
-│                       ├ [250] ╭ VulnerabilityID : CVE-2025-11468 
+│                       ├ [251] ╭ VulnerabilityID : CVE-2025-11468 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -17088,14 +17170,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-11468 
-│                       │       ├ Fingerprint     : sha256:4081964d62c7e981c32b9223dabe29e7f8d54f1eed03d19b06f1
-│                       │       │                   7c0fbaa58495 
+│                       │       ├ Fingerprint     : sha256:2d48813becfabfdb27cfae6331acf9582cd47428a7c5e37f519f
+│                       │       │                   d75dd19a7076 
 │                       │       ├ Title           : cpython: Missing character filtering in Python 
 │                       │       ├ Description     : When folding a long comment in an email header containing
 │                       │       │                   exclusively unfoldable characters, the parenthesis would
@@ -17107,7 +17189,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-93
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon : 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
 │                       │       │                  ├ azure  : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ photon : 2 
@@ -17149,7 +17231,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:50.69Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:30:31.043Z 
-│                       ├ [251] ╭ VulnerabilityID : CVE-2025-12781 
+│                       ├ [252] ╭ VulnerabilityID : CVE-2025-12781 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -17157,14 +17239,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-12781 
-│                       │       ├ Fingerprint     : sha256:984c5fa109186dbbe39da5298d0795d9d2ddd449b8dc08129f1e
-│                       │       │                   a02416df01ea 
+│                       │       ├ Fingerprint     : sha256:b395da4a1664f2dbb00667e904b05f43081db16c3dadc103460a
+│                       │       │                   14fd731c5eba 
 │                       │       ├ Title           : cpython: base64.b64decode() always accepts "+/" characters,
 │                       │       │                    despite setting altchars 
 │                       │       ├ Description     : When passing data to the b64decode(), standard_b64decode(),
@@ -17233,7 +17315,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-21T20:16:04.423Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:32:56.797Z 
-│                       ├ [252] ╭ VulnerabilityID : CVE-2025-13837 
+│                       ├ [253] ╭ VulnerabilityID : CVE-2025-13837 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -17241,14 +17323,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13837 
-│                       │       ├ Fingerprint     : sha256:28a35ac93499f9c4bd1f42ce8270c5e6e23141e079d7dbdd82bf
-│                       │       │                   3cdafdc383be 
+│                       │       ├ Fingerprint     : sha256:97236105896c46c142bbe893de33f4172b3a09fa5f70716f5d67
+│                       │       │                   c8c219ce146a 
 │                       │       ├ Title           : cpython: Out-of-memory when loading Plist 
 │                       │       ├ Description     : When loading a plist file, the plistlib module reads data
 │                       │       │                   in size specified by the file itself, meaning a malicious
@@ -17279,6 +17361,7 @@
 │                       │       │                            ╰ V3Score : 5.9 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19064            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19177            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2025-13837       
 │                       │       │                  https://bugzilla.redhat.com/2395108                         
@@ -17330,7 +17413,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
@@ -17365,7 +17448,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-12-01T18:16:04.38Z 
 │                       │       ╰ LastModifiedDate: 2026-09-03T03:15:21.037Z 
-│                       ├ [253] ╭ VulnerabilityID : CVE-2025-15282 
+│                       ├ [254] ╭ VulnerabilityID : CVE-2025-15282 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -17373,14 +17456,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-15282 
-│                       │       ├ Fingerprint     : sha256:a544de808be3f928e5f1134c408fecddfdd50ca180a22b2ddb46
-│                       │       │                   59531eaf77c2 
+│                       │       ├ Fingerprint     : sha256:eaf56eb99fa1cd2884153f24adb7d8b99c7d9f9a8cba1b6ec193
+│                       │       │                   b312f2ea13ff 
 │                       │       ├ Title           : cpython: Header injection via newlines in data URL
 │                       │       │                   mediatype in Python 
 │                       │       ├ Description     : User-controlled data URLs parsed by
@@ -17392,7 +17475,7 @@
 │                       │       │                  CWE-93
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
@@ -17407,6 +17490,7 @@
 │                       │       │                            ╰ V3Score : 4.8 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19064            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19177            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2025-15282       
 │                       │       │                  https://bugzilla.redhat.com/2395108                         
@@ -17458,7 +17542,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
@@ -17495,7 +17579,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:50.883Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:37:31.58Z 
-│                       ├ [254] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [255] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -17503,14 +17587,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4516 
-│                       │       ├ Fingerprint     : sha256:ddae53faf28ba6aa1f34aba1b97ac3fdec89314451d8658c2c58
-│                       │       │                   df542b2ad903 
+│                       │       ├ Fingerprint     : sha256:14aa84af346e36e3f4fe979ce6c4fa2f278f23b48a536392f380
+│                       │       │                   1017d3b1dbe5 
 │                       │       ├ Title           : cpython: python: CPython DecodeError Handling Vulnerability 
 │                       │       ├ Description     : There is an issue in CPython when using
 │                       │       │                   `bytes.decode("unicode_escape", error="ignore|replace")`.
@@ -17525,7 +17609,7 @@
 │                       │       │                  CWE-416
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -17635,7 +17719,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │       ╰ LastModifiedDate: 2026-07-31T14:16:44.797Z 
-│                       ├ [255] ╭ VulnerabilityID : CVE-2026-0672 
+│                       ├ [256] ╭ VulnerabilityID : CVE-2026-0672 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -17643,14 +17727,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-0672 
-│                       │       ├ Fingerprint     : sha256:dea45ed8376f56024f3431ab80c7d69fb514c26816e4c0ea3b4b
-│                       │       │                   ad58c5f58920 
+│                       │       ├ Fingerprint     : sha256:f0f998407af08dca0874b760e09af589bd4adb62c13f9f50b5f9
+│                       │       │                   0d29e2393f0f 
 │                       │       ├ Title           : cpython: Header injection in http.cookies.Morsel in Python 
 │                       │       ├ Description     : When using http.cookies.Morsel, user-controlled cookie
 │                       │       │                   values and parameters can allow injecting HTTP headers into
@@ -17662,7 +17746,7 @@
 │                       │       │                  CWE-93
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -17679,6 +17763,7 @@
 │                       │       │                            ╰ V3Score : 4.8 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19064            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19177            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-0672        
 │                       │       │                  https://bugzilla.redhat.com/2395108                         
@@ -17730,7 +17815,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
@@ -17769,7 +17854,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:52.68Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:11:11.133Z 
-│                       ├ [256] ╭ VulnerabilityID : CVE-2026-0864 
+│                       ├ [257] ╭ VulnerabilityID : CVE-2026-0864 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -17777,14 +17862,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-0864 
-│                       │       ├ Fingerprint     : sha256:80f2702b6061ec6b2967aa9bb099f04e6c8c330b15cdebacc206
-│                       │       │                   0c30abed7a58 
+│                       │       ├ Fingerprint     : sha256:d1950de583447c470d502355b07f95de02e89cea18d498646434
+│                       │       │                   047499f5110b 
 │                       │       ├ Title           : python: cpython: Python configparser: Configuration
 │                       │       │                   injection via crafted multi-line input 
 │                       │       ├ Description     : When using the "configparser" module to write configuration
@@ -17843,7 +17928,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
 │                       │       ╰ LastModifiedDate: 2026-08-18T17:52:03.23Z 
-│                       ├ [257] ╭ VulnerabilityID : CVE-2026-11972 
+│                       ├ [258] ╭ VulnerabilityID : CVE-2026-11972 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -17851,14 +17936,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11972 
-│                       │       ├ Fingerprint     : sha256:3883ded0b66cae044d88c4f5c47d90ca7c628b1620f801f99fee
-│                       │       │                   b515f413173d 
+│                       │       ├ Fingerprint     : sha256:1b6ce31ce6ce62d513788d03e6490ecbfcc8e8480d40b023954c
+│                       │       │                   ff8d2dd9ba98 
 │                       │       ├ Title           : python: Python tarfile module: Denial of Service via
 │                       │       │                   improper EOF handling in streaming mode 
 │                       │       ├ Description     : When using the "tarfile" module with a file opened in
@@ -17913,7 +17998,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-23T23:16:49.033Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:51.78Z 
-│                       ├ [258] ╭ VulnerabilityID : CVE-2026-1502 
+│                       ├ [259] ╭ VulnerabilityID : CVE-2026-1502 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -17921,14 +18006,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1502 
-│                       │       ├ Fingerprint     : sha256:cf8670d7b62d27fa99afbc80ba9e3333316d52792821dd421241
-│                       │       │                   1131ab39fff4 
+│                       │       ├ Fingerprint     : sha256:2677cadb367cb70d0c19801f264e88dcd1946adcfa7dfee08fe9
+│                       │       │                   58ea1078d527 
 │                       │       ├ Title           : python: Python: HTTP header injection via CR/LF in proxy
 │                       │       │                   tunnel headers 
 │                       │       ├ Description     : CR/LF bytes were not rejected by HTTP client proxy tunnel
@@ -17955,6 +18040,7 @@
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
 │                       │       │                  http://www.openwall.com/lists/oss-security/2026/04/11/4     
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19064            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19177            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-1502        
 │                       │       │                  https://bugzilla.redhat.com/2395108                         
@@ -18006,7 +18092,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
@@ -18041,7 +18127,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-10T18:16:40.97Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:52.39Z 
-│                       ├ [259] ╭ VulnerabilityID : CVE-2026-3276 
+│                       ├ [260] ╭ VulnerabilityID : CVE-2026-3276 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -18049,14 +18135,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3276 
-│                       │       ├ Fingerprint     : sha256:e51a6d1a7304ce674aaacd2fa4d3b1b2bc1c8e17ce6960e2dbeb
-│                       │       │                   705afe4fafca 
+│                       │       ├ Fingerprint     : sha256:3fcb3810734fe8588734c44dbea3db5a322691ee2065e6654657
+│                       │       │                   df0ded82d65a 
 │                       │       ├ Title           : python: Python unicodedata: Denial of Service due to
 │                       │       │                   excessive CPU consumption 
 │                       │       ├ Description     : unicodedata.normalize() can take excessive CPU time when
@@ -18118,7 +18204,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-03T16:16:29.253Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:52.847Z 
-│                       ├ [260] ╭ VulnerabilityID : CVE-2026-3644 
+│                       ├ [261] ╭ VulnerabilityID : CVE-2026-3644 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -18126,14 +18212,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3644 
-│                       │       ├ Fingerprint     : sha256:91fe3f5a8c5790f384ba0cd49ed8f7fe4802a4801c5a03e48603
-│                       │       │                   164b512a371c 
+│                       │       ├ Fingerprint     : sha256:795890808b98905e82045ae13bb1b38d8ed64db217154b4f2589
+│                       │       │                   6c36a2acde99 
 │                       │       ├ Title           : cpython: Incomplete control character validation in
 │                       │       │                   http.cookies 
 │                       │       ├ Description     : The fix for CVE-2026-0672, which rejected control
@@ -18149,7 +18235,7 @@
 │                       │       │                  CWE-116
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -18165,6 +18251,7 @@
 │                       │       │                           ╰ V3Score : 5.4 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19064            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19177            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-3644        
 │                       │       │                  https://bugzilla.redhat.com/2395108                         
@@ -18216,7 +18303,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
@@ -18253,7 +18340,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.12Z 
-│                       ├ [261] ╭ VulnerabilityID : CVE-2026-4224 
+│                       ├ [262] ╭ VulnerabilityID : CVE-2026-4224 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -18261,14 +18348,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4224 
-│                       │       ├ Fingerprint     : sha256:951dd90a776a943e151951008055f31049771c46499c2e38a870
-│                       │       │                   274c5661d2af 
+│                       │       ├ Fingerprint     : sha256:308f8a3b826b494d2da0da0c05e06b016135498c39e12c49ace9
+│                       │       │                   98a4a9a4b08a 
 │                       │       ├ Title           : cpython: Stack overflow parsing XML with deeply nested DTD
 │                       │       │                   content models 
 │                       │       ├ Description     : When an Expat parser with a registered ElementDeclHandler
@@ -18282,7 +18369,7 @@
 │                       │       │                  CWE-674
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ nvd        : 3 
@@ -18303,6 +18390,7 @@
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
 │                       │       │                  http://www.openwall.com/lists/oss-security/2026/03/16/4     
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19064            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19177            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-4224        
 │                       │       │                  https://bugzilla.redhat.com/2395108                         
@@ -18354,7 +18442,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
@@ -18391,7 +18479,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.273Z 
-│                       ├ [262] ╭ VulnerabilityID : CVE-2026-42308 
+│                       ├ [263] ╭ VulnerabilityID : CVE-2026-42308 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -18399,14 +18487,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : end_of_life 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42308 
-│                       │       ├ Fingerprint     : sha256:863a50a14d9e7a83f4e4ec4e85ffc614147999ac881365a1f0ef
-│                       │       │                   694b95296d17 
+│                       │       ├ Fingerprint     : sha256:520cde650225f3380aa6104812037a24692c091b0d1ced5d0c50
+│                       │       │                   10c58912d19f 
 │                       │       ├ Title           : Pillow: Pillow: Denial of Service via integer overflow in
 │                       │       │                   font processing 
 │                       │       ├ Description     : Pillow is a Python imaging library. Prior to version
@@ -18462,7 +18550,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-05-09T06:16:09.793Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T21:10:00.143Z 
-│                       ├ [263] ╭ VulnerabilityID : CVE-2026-4360 
+│                       ├ [264] ╭ VulnerabilityID : CVE-2026-4360 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -18470,14 +18558,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4360 
-│                       │       ├ Fingerprint     : sha256:98b7f8f2684895efb625fd49080cd758769f6b15a30408b358a5
-│                       │       │                   1cd0bd73a958 
+│                       │       ├ Fingerprint     : sha256:43358c73143d29a5037342295362226608a45aeb0fdf4dcddba8
+│                       │       │                   7192bd7b492d 
 │                       │       ├ Title           : python: Python Tarfile: Unexpected file ownership when
 │                       │       │                   extracting hardlinks 
 │                       │       ├ Description     : In the Tarfile.extract() function, the filter parameter is
@@ -18538,7 +18626,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-30T15:16:57.193Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.42Z 
-│                       ├ [264] ╭ VulnerabilityID : CVE-2026-5713 
+│                       ├ [265] ╭ VulnerabilityID : CVE-2026-5713 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -18546,14 +18634,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-5713 
-│                       │       ├ Fingerprint     : sha256:8168f48d3e98a432c5d05f9a230c22d138196a2f71e043a839eb
-│                       │       │                   f97d71e5e4cb 
+│                       │       ├ Fingerprint     : sha256:0159b97cc82f343f3a560b449482ada4a24820f823815d2b3785
+│                       │       │                   0783c5b0b986 
 │                       │       ├ Title           : python: Python: Information disclosure and arbitrary code
 │                       │       │                   execution via remote debugging with a malicious process. 
 │                       │       ├ Description     : The "profiling.sampling" module (Python 3.15+) and "asyncio
@@ -18588,6 +18676,7 @@
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
 │                       │       │                  http://www.openwall.com/lists/oss-security/2026/04/15/6     
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19019            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19176            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-5713        
 │                       │       │                  https://bugzilla.redhat.com/2431367                         
@@ -18618,7 +18707,7 @@
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5713
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19176.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19019.html        
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19176               
 │                       │       │                  https://github.com/python/cpython/commit/289fd2c97a7e5aecb8b
 │                       │       │                  69f94f5e838ccfeee7e67                                       
@@ -18643,7 +18732,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-14T16:16:48.717Z 
 │                       │       ╰ LastModifiedDate: 2026-07-31T14:16:50.59Z 
-│                       ├ [265] ╭ VulnerabilityID : CVE-2026-6019 
+│                       ├ [266] ╭ VulnerabilityID : CVE-2026-6019 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -18651,14 +18740,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6019 
-│                       │       ├ Fingerprint     : sha256:5554627a4557a6be4b2dcc716bd692943b2f57f385e3ca2896e2
-│                       │       │                   9dfa2739d2ad 
+│                       │       ├ Fingerprint     : sha256:85bfd247be789b33f39a73a018e804df61adc78a196cbd772158
+│                       │       │                   9f7e445d321c 
 │                       │       ├ Title           : python: Python: Cross-Site Scripting (XSS) vulnerability in
 │                       │       │                    http.cookies module 
 │                       │       ├ Description     : http.cookies.Morsel.js_output() returns an inline <script>
@@ -18674,7 +18763,7 @@
 │                       │       │                  CWE-116
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 3 
@@ -18694,6 +18783,7 @@
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:28247            
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:28581            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-6019        
 │                       │       │                  https://bugzilla.redhat.com/2458049                         
 │                       │       │                  https://bugzilla.redhat.com/2460869                         
@@ -18702,7 +18792,7 @@
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6019
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-28247.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-28581.html        
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:28247               
 │                       │       │                  https://github.com/python/cpython/commit/3c59b8b53fc75c7f957
 │                       │       │                  8d16fb8201ceb43e8f76c                                       
@@ -18731,7 +18821,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-22T20:16:42.617Z 
 │                       │       ╰ LastModifiedDate: 2026-07-27T17:34:54.33Z 
-│                       ├ [266] ╭ VulnerabilityID : CVE-2026-7210 
+│                       ├ [267] ╭ VulnerabilityID : CVE-2026-7210 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -18739,14 +18829,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-7210 
-│                       │       ├ Fingerprint     : sha256:a96664db3878e991ea0cb31950dd88ddbdbcdc453740be0214b6
-│                       │       │                   5ede6a8f570c 
+│                       │       ├ Fingerprint     : sha256:d53c178b288747f63a0e3b18088529544aa1bcd053f6afacafc1
+│                       │       │                   4e0fa1b47065 
 │                       │       ├ Title           : python: Python/Expat: Denial of Service via crafted XML
 │                       │       │                   document 
 │                       │       ├ Description     : `xml.parsers.expat` and `xml.etree.ElementTree` use
@@ -18806,7 +18896,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
 │                       │       ╰ LastModifiedDate: 2026-08-14T01:19:08.237Z 
-│                       ├ [267] ╭ VulnerabilityID : CVE-2026-7774 
+│                       ├ [268] ╭ VulnerabilityID : CVE-2026-7774 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -18814,14 +18904,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-7774 
-│                       │       ├ Fingerprint     : sha256:dee565e9a56fd345762626e1ddb29a67c715b17405cee4abc7fd
-│                       │       │                   d71facff5b98 
+│                       │       ├ Fingerprint     : sha256:23c74b3b7e83d67191f9d23347bc6ec6769e19a4fa4bd625433c
+│                       │       │                   d071168645bd 
 │                       │       ├ Title           : python: CPython: Python tarfile: Arbitrary file write via
 │                       │       │                   crafted link entries 
 │                       │       ├ Description     : tarfile.data_filter could be bypassed using crafted link
@@ -18882,7 +18972,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-04T16:16:42.103Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:55.783Z 
-│                       ├ [268] ╭ VulnerabilityID : CVE-2025-13462 
+│                       ├ [269] ╭ VulnerabilityID : CVE-2025-13462 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -18890,14 +18980,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13462 
-│                       │       ├ Fingerprint     : sha256:2c676cfb417f460a0a9fd84704ba78bf12854dcf6c274a5a6169
-│                       │       │                   119cd7162fae 
+│                       │       ├ Fingerprint     : sha256:8f6e9fb14b2ceda3faf9e7c2221721cc350b406ca99023b4be59
+│                       │       │                   f4f37fb1cb7d 
 │                       │       ├ Title           : cpython: cpython: `tarfile` module misinterprets crafted
 │                       │       │                   tar archives leading to data integrity issues 
 │                       │       ├ Description     : The "tarfile" module would still apply normalization of
@@ -18955,7 +19045,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-12T18:16:21.397Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:50.98Z 
-│                       ├ [269] ╭ VulnerabilityID : CVE-2025-1795 
+│                       ├ [270] ╭ VulnerabilityID : CVE-2025-1795 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -18963,14 +19053,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1795 
-│                       │       ├ Fingerprint     : sha256:9acd01c5201ff886e608b0e1cf9ee5384a4101d0f6e3787c0ebe
-│                       │       │                   e0d107d9ed49 
+│                       │       ├ Fingerprint     : sha256:831d2ab3fc6698aaaf54f1f0966a5096e684c49b93ba20779fc4
+│                       │       │                   101585bf6cc3 
 │                       │       ├ Title           : python: Mishandling of comma during folding and
 │                       │       │                   unicode-encoding of email headers 
 │                       │       ├ Description     : During an address list folding when a separating comma ends
@@ -19028,7 +19118,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-02-28T19:15:36.55Z 
 │                       │       ╰ LastModifiedDate: 2026-07-31T14:16:44Z 
-│                       ├ [270] ╭ VulnerabilityID : CVE-2026-18503 
+│                       ├ [271] ╭ VulnerabilityID : CVE-2026-18503 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -19036,14 +19126,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-18503 
-│                       │       ├ Fingerprint     : sha256:e78963ab3d010505ae3607faaec2dcd9b5c31cef3b3193ec4066
-│                       │       │                   fa150fee67e2 
+│                       │       ├ Fingerprint     : sha256:bab06e8506ac7eb1ce94666f7adbeb334c5fa7fb45cf00a0602f
+│                       │       │                   24ab2378d16b 
 │                       │       ├ Title           : python: Python: Denial of Service via super-linear regular
 │                       │       │                   expression work in csv.Sniffer.sniff() 
 │                       │       ├ Description     : Attacker-controlled CSV samples can trigger super-linear 
@@ -19094,7 +19184,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-10T14:17:21.56Z 
 │                       │       ╰ LastModifiedDate: 2026-08-18T15:04:46.61Z 
-│                       ├ [271] ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [272] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -19102,14 +19192,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2297 
-│                       │       ├ Fingerprint     : sha256:4a8b7efaefe9511e08d4190570ce0a7bf9b10ccfeee07c1f2d81
-│                       │       │                   e068b1830514 
+│                       │       ├ Fingerprint     : sha256:15da45df8551c920be862335fc099a6a6d550cd4791053cdc117
+│                       │       │                   3a71a7b7f56f 
 │                       │       ├ Title           : cpython: CPython: Logging Bypass in Legacy .pyc File Handling 
 │                       │       ├ Description     : The import hook in CPython that handles legacy *.pyc files
 │                       │       │                   (SourcelessFileLoader) is incorrectly handled in FileLoader
@@ -19135,6 +19225,7 @@
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
 │                       │       │                  http://www.openwall.com/lists/oss-security/2026/03/05/6     
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19064            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19177            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-2297        
 │                       │       │                  https://bugzilla.redhat.com/2395108                         
@@ -19186,7 +19277,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
@@ -19219,7 +19310,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:52.527Z 
-│                       ├ [272] ╭ VulnerabilityID : CVE-2026-3479 
+│                       ├ [273] ╭ VulnerabilityID : CVE-2026-3479 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.3.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -19227,14 +19318,14 @@
 │                       │       │                  ╰ UID : a0671bc328bf1aa0 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3479 
-│                       │       ├ Fingerprint     : sha256:54f6a9bb625db5bbc87be29d53fa613ecee29800b3d08fadbda6
-│                       │       │                   5b0e27c82e00 
+│                       │       ├ Fingerprint     : sha256:5d943b63488d030fa2cde2537abe901fb298a79eafbb88b00702
+│                       │       │                   efdb4951e781 
 │                       │       ├ Title           : python: Python pkgutil.get_data(): Path Traversal via
 │                       │       │                   improper resource argument validation 
 │                       │       ├ Description     : DISPUTED: The project has clarified that the documentation
@@ -19250,7 +19341,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-22
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ╰ redhat: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
@@ -19280,7 +19371,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-18T19:16:06.81Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:43:39.067Z 
-│                       ├ [273] ╭ VulnerabilityID : CVE-2025-11468 
+│                       ├ [274] ╭ VulnerabilityID : CVE-2025-11468 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -19288,14 +19379,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-11468 
-│                       │       ├ Fingerprint     : sha256:113db6eb1171a23f8dce15981bf29cb26b308e592666217ff3d1
-│                       │       │                   304b974e944e 
+│                       │       ├ Fingerprint     : sha256:f8db1ca60e1dac414f468dc340adf0d800691b5b018899f70c0f
+│                       │       │                   af495fee45eb 
 │                       │       ├ Title           : cpython: Missing character filtering in Python 
 │                       │       ├ Description     : When folding a long comment in an email header containing
 │                       │       │                   exclusively unfoldable characters, the parenthesis would
@@ -19307,7 +19398,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-93
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon : 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
 │                       │       │                  ├ azure  : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ photon : 2 
@@ -19349,7 +19440,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:50.69Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:30:31.043Z 
-│                       ├ [274] ╭ VulnerabilityID : CVE-2025-12781 
+│                       ├ [275] ╭ VulnerabilityID : CVE-2025-12781 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -19357,14 +19448,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-12781 
-│                       │       ├ Fingerprint     : sha256:271cf2fd8b52eb4ea9dbc0cc96c3ea6414be1fcb508cd95bfae4
-│                       │       │                   63069a04356c 
+│                       │       ├ Fingerprint     : sha256:83a6501703f69b8b501e156541c1253833a7f0c17a67b7afd72d
+│                       │       │                   3c563c8603be 
 │                       │       ├ Title           : cpython: base64.b64decode() always accepts "+/" characters,
 │                       │       │                    despite setting altchars 
 │                       │       ├ Description     : When passing data to the b64decode(), standard_b64decode(),
@@ -19433,7 +19524,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-21T20:16:04.423Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:32:56.797Z 
-│                       ├ [275] ╭ VulnerabilityID : CVE-2025-13837 
+│                       ├ [276] ╭ VulnerabilityID : CVE-2025-13837 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -19441,14 +19532,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13837 
-│                       │       ├ Fingerprint     : sha256:d7607cad4b5ff392a6dee43e8a09bd8d8b763259a21df223cec9
-│                       │       │                   1cde0db09401 
+│                       │       ├ Fingerprint     : sha256:4bb47a92845901781f1dcedaed93e2236fcb7c9947b43739416c
+│                       │       │                   5a7b5750b9b7 
 │                       │       ├ Title           : cpython: Out-of-memory when loading Plist 
 │                       │       ├ Description     : When loading a plist file, the plistlib module reads data
 │                       │       │                   in size specified by the file itself, meaning a malicious
@@ -19479,6 +19570,7 @@
 │                       │       │                            ╰ V3Score : 5.9 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19064            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19177            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2025-13837       
 │                       │       │                  https://bugzilla.redhat.com/2395108                         
@@ -19530,7 +19622,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
@@ -19565,7 +19657,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-12-01T18:16:04.38Z 
 │                       │       ╰ LastModifiedDate: 2026-09-03T03:15:21.037Z 
-│                       ├ [276] ╭ VulnerabilityID : CVE-2025-15282 
+│                       ├ [277] ╭ VulnerabilityID : CVE-2025-15282 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -19573,14 +19665,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-15282 
-│                       │       ├ Fingerprint     : sha256:85bd628be301a39f26fa7646be71fa86b6bcd6788ec6d4461f8f
-│                       │       │                   74844eb570ce 
+│                       │       ├ Fingerprint     : sha256:8c5371adc0c8a0128da886b97fb76060970c12ec0ef31f02e64e
+│                       │       │                   546d2abb9944 
 │                       │       ├ Title           : cpython: Header injection via newlines in data URL
 │                       │       │                   mediatype in Python 
 │                       │       ├ Description     : User-controlled data URLs parsed by
@@ -19592,7 +19684,7 @@
 │                       │       │                  CWE-93
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
@@ -19607,6 +19699,7 @@
 │                       │       │                            ╰ V3Score : 4.8 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19064            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19177            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2025-15282       
 │                       │       │                  https://bugzilla.redhat.com/2395108                         
@@ -19658,7 +19751,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
@@ -19695,7 +19788,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:50.883Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:37:31.58Z 
-│                       ├ [277] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [278] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -19703,14 +19796,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4516 
-│                       │       ├ Fingerprint     : sha256:b37b075d47546e76fca85fb8f8df290720686a80ca4c403e062d
-│                       │       │                   dc8260933f78 
+│                       │       ├ Fingerprint     : sha256:313f8b8e35ad4bea248f914d1ffd644276fe98417ed21dcde90f
+│                       │       │                   ceaa4b6f18c8 
 │                       │       ├ Title           : cpython: python: CPython DecodeError Handling Vulnerability 
 │                       │       ├ Description     : There is an issue in CPython when using
 │                       │       │                   `bytes.decode("unicode_escape", error="ignore|replace")`.
@@ -19725,7 +19818,7 @@
 │                       │       │                  CWE-416
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -19835,7 +19928,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │       ╰ LastModifiedDate: 2026-07-31T14:16:44.797Z 
-│                       ├ [278] ╭ VulnerabilityID : CVE-2026-0672 
+│                       ├ [279] ╭ VulnerabilityID : CVE-2026-0672 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -19843,14 +19936,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-0672 
-│                       │       ├ Fingerprint     : sha256:328cdbb999da7231772712aa14d2bf6e795d4449bd4061b4553a
-│                       │       │                   43b26ffb0519 
+│                       │       ├ Fingerprint     : sha256:40668e3a268ef7389412af616cbe0bda2419da8cb265fed00378
+│                       │       │                   9179f72b4c5a 
 │                       │       ├ Title           : cpython: Header injection in http.cookies.Morsel in Python 
 │                       │       ├ Description     : When using http.cookies.Morsel, user-controlled cookie
 │                       │       │                   values and parameters can allow injecting HTTP headers into
@@ -19862,7 +19955,7 @@
 │                       │       │                  CWE-93
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -19879,6 +19972,7 @@
 │                       │       │                            ╰ V3Score : 4.8 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19064            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19177            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-0672        
 │                       │       │                  https://bugzilla.redhat.com/2395108                         
@@ -19930,7 +20024,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
@@ -19969,7 +20063,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:52.68Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:11:11.133Z 
-│                       ├ [279] ╭ VulnerabilityID : CVE-2026-0864 
+│                       ├ [280] ╭ VulnerabilityID : CVE-2026-0864 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -19977,14 +20071,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-0864 
-│                       │       ├ Fingerprint     : sha256:a308e267f03356f9f5dd8ca9fb42f9a5dd28fb7eca2c843b0861
-│                       │       │                   9da29122c0e0 
+│                       │       ├ Fingerprint     : sha256:f58e6f993c6920b51e34ddc0337de9f7c269a19838b3d6fbfc14
+│                       │       │                   a70df252560f 
 │                       │       ├ Title           : python: cpython: Python configparser: Configuration
 │                       │       │                   injection via crafted multi-line input 
 │                       │       ├ Description     : When using the "configparser" module to write configuration
@@ -20043,7 +20137,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
 │                       │       ╰ LastModifiedDate: 2026-08-18T17:52:03.23Z 
-│                       ├ [280] ╭ VulnerabilityID : CVE-2026-11972 
+│                       ├ [281] ╭ VulnerabilityID : CVE-2026-11972 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -20051,14 +20145,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11972 
-│                       │       ├ Fingerprint     : sha256:12b3f1789caf81bf4cf796899309de9061db0736dac3bfb52268
-│                       │       │                   265f77991ea8 
+│                       │       ├ Fingerprint     : sha256:4bb5618cccd8b70be1513163b8298143758d215900b2e9bb9c3d
+│                       │       │                   36a135bce6df 
 │                       │       ├ Title           : python: Python tarfile module: Denial of Service via
 │                       │       │                   improper EOF handling in streaming mode 
 │                       │       ├ Description     : When using the "tarfile" module with a file opened in
@@ -20113,7 +20207,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-23T23:16:49.033Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:51.78Z 
-│                       ├ [281] ╭ VulnerabilityID : CVE-2026-1502 
+│                       ├ [282] ╭ VulnerabilityID : CVE-2026-1502 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -20121,14 +20215,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1502 
-│                       │       ├ Fingerprint     : sha256:60f3ad84892cb6f506b9423925419da3041c2c2ea5c14bb28a49
-│                       │       │                   e9b0d167f475 
+│                       │       ├ Fingerprint     : sha256:547f478b9e2fc229f676aefc7634f1678ebf32f11779e6bed04f
+│                       │       │                   47266aa0ed00 
 │                       │       ├ Title           : python: Python: HTTP header injection via CR/LF in proxy
 │                       │       │                   tunnel headers 
 │                       │       ├ Description     : CR/LF bytes were not rejected by HTTP client proxy tunnel
@@ -20155,6 +20249,7 @@
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
 │                       │       │                  http://www.openwall.com/lists/oss-security/2026/04/11/4     
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19064            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19177            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-1502        
 │                       │       │                  https://bugzilla.redhat.com/2395108                         
@@ -20206,7 +20301,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
@@ -20241,7 +20336,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-10T18:16:40.97Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:52.39Z 
-│                       ├ [282] ╭ VulnerabilityID : CVE-2026-3276 
+│                       ├ [283] ╭ VulnerabilityID : CVE-2026-3276 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -20249,14 +20344,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3276 
-│                       │       ├ Fingerprint     : sha256:4815b1986047b776092e9d8b2c9bd22c2864d21437cf226e9260
-│                       │       │                   0ded5733c1fd 
+│                       │       ├ Fingerprint     : sha256:42159f1dabecca92ea5ddf89c2b59448cae63ec30f386c124a93
+│                       │       │                   bf9ed4240fcc 
 │                       │       ├ Title           : python: Python unicodedata: Denial of Service due to
 │                       │       │                   excessive CPU consumption 
 │                       │       ├ Description     : unicodedata.normalize() can take excessive CPU time when
@@ -20318,7 +20413,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-03T16:16:29.253Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:52.847Z 
-│                       ├ [283] ╭ VulnerabilityID : CVE-2026-3644 
+│                       ├ [284] ╭ VulnerabilityID : CVE-2026-3644 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -20326,14 +20421,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3644 
-│                       │       ├ Fingerprint     : sha256:3c9c1e6abecdcbd570c9ce6ca5bc78050e048d8c568fee8a0b7e
-│                       │       │                   bb336ff4abec 
+│                       │       ├ Fingerprint     : sha256:6e9b449f899014b2efb85284839118450d69b56c0c51b806492e
+│                       │       │                   dd7ff2513e2b 
 │                       │       ├ Title           : cpython: Incomplete control character validation in
 │                       │       │                   http.cookies 
 │                       │       ├ Description     : The fix for CVE-2026-0672, which rejected control
@@ -20349,7 +20444,7 @@
 │                       │       │                  CWE-116
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -20365,6 +20460,7 @@
 │                       │       │                           ╰ V3Score : 5.4 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19064            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19177            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-3644        
 │                       │       │                  https://bugzilla.redhat.com/2395108                         
@@ -20416,7 +20512,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
@@ -20453,7 +20549,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.12Z 
-│                       ├ [284] ╭ VulnerabilityID : CVE-2026-4224 
+│                       ├ [285] ╭ VulnerabilityID : CVE-2026-4224 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -20461,14 +20557,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4224 
-│                       │       ├ Fingerprint     : sha256:97935872a4a6a0a3f3cadf1e05aa0248deb9a689406597d14e45
-│                       │       │                   1cd5ef6b4516 
+│                       │       ├ Fingerprint     : sha256:e0536a8f47b87335dbed1c63fa796762d812e9a1121f3d6322fe
+│                       │       │                   62f2cfae750e 
 │                       │       ├ Title           : cpython: Stack overflow parsing XML with deeply nested DTD
 │                       │       │                   content models 
 │                       │       ├ Description     : When an Expat parser with a registered ElementDeclHandler
@@ -20482,7 +20578,7 @@
 │                       │       │                  CWE-674
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ nvd        : 3 
@@ -20503,6 +20599,7 @@
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
 │                       │       │                  http://www.openwall.com/lists/oss-security/2026/03/16/4     
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19064            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19177            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-4224        
 │                       │       │                  https://bugzilla.redhat.com/2395108                         
@@ -20554,7 +20651,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
@@ -20591,7 +20688,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.273Z 
-│                       ├ [285] ╭ VulnerabilityID : CVE-2026-42308 
+│                       ├ [286] ╭ VulnerabilityID : CVE-2026-42308 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -20599,14 +20696,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : end_of_life 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42308 
-│                       │       ├ Fingerprint     : sha256:b829ae683c8430f32b953c80e2c169c04d94fe8dcc582fe78e73
-│                       │       │                   d227f660ac80 
+│                       │       ├ Fingerprint     : sha256:1490bb8e198139958976df53367658e63c092962321df1dcb38d
+│                       │       │                   be5675f0401e 
 │                       │       ├ Title           : Pillow: Pillow: Denial of Service via integer overflow in
 │                       │       │                   font processing 
 │                       │       ├ Description     : Pillow is a Python imaging library. Prior to version
@@ -20662,7 +20759,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-05-09T06:16:09.793Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T21:10:00.143Z 
-│                       ├ [286] ╭ VulnerabilityID : CVE-2026-4360 
+│                       ├ [287] ╭ VulnerabilityID : CVE-2026-4360 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -20670,14 +20767,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4360 
-│                       │       ├ Fingerprint     : sha256:24ea72b3f3cd7a74a851c43eb674383b3464ef5de0827b779bfe
-│                       │       │                   e600a20829f0 
+│                       │       ├ Fingerprint     : sha256:c8474fded2db44735c517d1bc99724f5f0685b0380b6576a2e5e
+│                       │       │                   aa5cdbeb36d0 
 │                       │       ├ Title           : python: Python Tarfile: Unexpected file ownership when
 │                       │       │                   extracting hardlinks 
 │                       │       ├ Description     : In the Tarfile.extract() function, the filter parameter is
@@ -20738,7 +20835,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-30T15:16:57.193Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.42Z 
-│                       ├ [287] ╭ VulnerabilityID : CVE-2026-5713 
+│                       ├ [288] ╭ VulnerabilityID : CVE-2026-5713 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -20746,14 +20843,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-5713 
-│                       │       ├ Fingerprint     : sha256:095176c9413087cdfb73634aeaf64e35c6e65822b57be371cbc5
-│                       │       │                   76d1e3ac37f6 
+│                       │       ├ Fingerprint     : sha256:e34f8cd0ef3f2d2d360d16fc48fe575494a15c5a39b109ea1d2e
+│                       │       │                   1be52c2bdbb5 
 │                       │       ├ Title           : python: Python: Information disclosure and arbitrary code
 │                       │       │                   execution via remote debugging with a malicious process. 
 │                       │       ├ Description     : The "profiling.sampling" module (Python 3.15+) and "asyncio
@@ -20788,6 +20885,7 @@
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
 │                       │       │                  http://www.openwall.com/lists/oss-security/2026/04/15/6     
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19019            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19176            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-5713        
 │                       │       │                  https://bugzilla.redhat.com/2431367                         
@@ -20818,7 +20916,7 @@
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5713
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19176.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19019.html        
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19176               
 │                       │       │                  https://github.com/python/cpython/commit/289fd2c97a7e5aecb8b
 │                       │       │                  69f94f5e838ccfeee7e67                                       
@@ -20843,7 +20941,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-14T16:16:48.717Z 
 │                       │       ╰ LastModifiedDate: 2026-07-31T14:16:50.59Z 
-│                       ├ [288] ╭ VulnerabilityID : CVE-2026-6019 
+│                       ├ [289] ╭ VulnerabilityID : CVE-2026-6019 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -20851,14 +20949,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6019 
-│                       │       ├ Fingerprint     : sha256:c694b739bf76939ecf519f65999901f932a75e7c518b4d2dc603
-│                       │       │                   83c7396be2f5 
+│                       │       ├ Fingerprint     : sha256:5a01df9f236d7b6842c3f3fc913c4bc30898c23c3b72effb2013
+│                       │       │                   d96b62d8cdc6 
 │                       │       ├ Title           : python: Python: Cross-Site Scripting (XSS) vulnerability in
 │                       │       │                    http.cookies module 
 │                       │       ├ Description     : http.cookies.Morsel.js_output() returns an inline <script>
@@ -20874,7 +20972,7 @@
 │                       │       │                  CWE-116
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 3 
@@ -20894,6 +20992,7 @@
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:28247            
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:28581            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-6019        
 │                       │       │                  https://bugzilla.redhat.com/2458049                         
 │                       │       │                  https://bugzilla.redhat.com/2460869                         
@@ -20902,7 +21001,7 @@
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6019
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-28247.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-28581.html        
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:28247               
 │                       │       │                  https://github.com/python/cpython/commit/3c59b8b53fc75c7f957
 │                       │       │                  8d16fb8201ceb43e8f76c                                       
@@ -20931,7 +21030,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-22T20:16:42.617Z 
 │                       │       ╰ LastModifiedDate: 2026-07-27T17:34:54.33Z 
-│                       ├ [289] ╭ VulnerabilityID : CVE-2026-7210 
+│                       ├ [290] ╭ VulnerabilityID : CVE-2026-7210 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -20939,14 +21038,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-7210 
-│                       │       ├ Fingerprint     : sha256:24a5cc112270fb1af7fc907801e32a1c8cf63189d8c8d9fc527e
-│                       │       │                   7892e0f58649 
+│                       │       ├ Fingerprint     : sha256:60fe9db60a3f23ea01eb45369be903d4ccbe78589026114a06c9
+│                       │       │                   430c3e497a4e 
 │                       │       ├ Title           : python: Python/Expat: Denial of Service via crafted XML
 │                       │       │                   document 
 │                       │       ├ Description     : `xml.parsers.expat` and `xml.etree.ElementTree` use
@@ -21006,7 +21105,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
 │                       │       ╰ LastModifiedDate: 2026-08-14T01:19:08.237Z 
-│                       ├ [290] ╭ VulnerabilityID : CVE-2026-7774 
+│                       ├ [291] ╭ VulnerabilityID : CVE-2026-7774 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -21014,14 +21113,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-7774 
-│                       │       ├ Fingerprint     : sha256:77f7b992fbfdeadaa5cc96074d8701e1e4d9542ba940d01997fd
-│                       │       │                   8a12adad17da 
+│                       │       ├ Fingerprint     : sha256:06502970fcc4a072dee5d901c2b5ba9a93e6175acd0070fb9747
+│                       │       │                   599ce9dfad80 
 │                       │       ├ Title           : python: CPython: Python tarfile: Arbitrary file write via
 │                       │       │                   crafted link entries 
 │                       │       ├ Description     : tarfile.data_filter could be bypassed using crafted link
@@ -21082,7 +21181,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-04T16:16:42.103Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:55.783Z 
-│                       ├ [291] ╭ VulnerabilityID : CVE-2025-13462 
+│                       ├ [292] ╭ VulnerabilityID : CVE-2025-13462 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -21090,14 +21189,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13462 
-│                       │       ├ Fingerprint     : sha256:b594b0f27ba12d56fb9293cd5f5f2488b8e55880d7a0b690a4da
-│                       │       │                   9a24ab8ea23c 
+│                       │       ├ Fingerprint     : sha256:134d5d9260dfd14f6450c3b2435927521950f5afe2ec619f42e3
+│                       │       │                   c86e69885c20 
 │                       │       ├ Title           : cpython: cpython: `tarfile` module misinterprets crafted
 │                       │       │                   tar archives leading to data integrity issues 
 │                       │       ├ Description     : The "tarfile" module would still apply normalization of
@@ -21155,7 +21254,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-12T18:16:21.397Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:50.98Z 
-│                       ├ [292] ╭ VulnerabilityID : CVE-2025-1795 
+│                       ├ [293] ╭ VulnerabilityID : CVE-2025-1795 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -21163,14 +21262,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1795 
-│                       │       ├ Fingerprint     : sha256:42f5f9cb161507c1021942f59d6706f817d40e8481462338f21b
-│                       │       │                   79dde811edc0 
+│                       │       ├ Fingerprint     : sha256:9243d54363f44864c769bbc0482c2b1023f1380f33374d8771b4
+│                       │       │                   8a5a5e675fb6 
 │                       │       ├ Title           : python: Mishandling of comma during folding and
 │                       │       │                   unicode-encoding of email headers 
 │                       │       ├ Description     : During an address list folding when a separating comma ends
@@ -21228,7 +21327,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-02-28T19:15:36.55Z 
 │                       │       ╰ LastModifiedDate: 2026-07-31T14:16:44Z 
-│                       ├ [293] ╭ VulnerabilityID : CVE-2026-18503 
+│                       ├ [294] ╭ VulnerabilityID : CVE-2026-18503 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -21236,14 +21335,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-18503 
-│                       │       ├ Fingerprint     : sha256:8b22fa58427c7bd7579e6fb924cd55a6c4273d847f28877c4f3c
-│                       │       │                   5dbf389e8d93 
+│                       │       ├ Fingerprint     : sha256:b99b7ee3f246977fbc3cf7fe4b6435ed5bbed24bc2a79cb164a7
+│                       │       │                   b2cc50effa86 
 │                       │       ├ Title           : python: Python: Denial of Service via super-linear regular
 │                       │       │                   expression work in csv.Sniffer.sniff() 
 │                       │       ├ Description     : Attacker-controlled CSV samples can trigger super-linear 
@@ -21294,7 +21393,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-10T14:17:21.56Z 
 │                       │       ╰ LastModifiedDate: 2026-08-18T15:04:46.61Z 
-│                       ├ [294] ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [295] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -21302,14 +21401,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2297 
-│                       │       ├ Fingerprint     : sha256:6b2eb74bd00b1ddee530a67a8499c4c490aa2feaba45b0ed173a
-│                       │       │                   2f06f1fc384f 
+│                       │       ├ Fingerprint     : sha256:8dcc55e3663c8d488af87d8796124d181d4a8db883cd7455e419
+│                       │       │                   d7bfab799de6 
 │                       │       ├ Title           : cpython: CPython: Logging Bypass in Legacy .pyc File Handling 
 │                       │       ├ Description     : The import hook in CPython that handles legacy *.pyc files
 │                       │       │                   (SourcelessFileLoader) is incorrectly handled in FileLoader
@@ -21335,6 +21434,7 @@
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
 │                       │       │                  http://www.openwall.com/lists/oss-security/2026/03/05/6     
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19064            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19177            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-2297        
 │                       │       │                  https://bugzilla.redhat.com/2395108                         
@@ -21386,7 +21486,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
@@ -21419,7 +21519,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:52.527Z 
-│                       ├ [295] ╭ VulnerabilityID : CVE-2026-3479 
+│                       ├ [296] ╭ VulnerabilityID : CVE-2026-3479 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&
@@ -21427,14 +21527,14 @@
 │                       │       │                  ╰ UID : 8a9bef4b65568206 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3479 
-│                       │       ├ Fingerprint     : sha256:24506e20db836c2b87b75963ccff425a03d145aa0002bba0b253
-│                       │       │                   f62472aa0ea6 
+│                       │       ├ Fingerprint     : sha256:28b87fee3aca737d390bc4fa73feb8dc28d2cede3e50538e8153
+│                       │       │                   38c47e79ca18 
 │                       │       ├ Title           : python: Python pkgutil.get_data(): Path Traversal via
 │                       │       │                   improper resource argument validation 
 │                       │       ├ Description     : DISPUTED: The project has clarified that the documentation
@@ -21450,7 +21550,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-22
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ╰ redhat: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
@@ -21480,7 +21580,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-18T19:16:06.81Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:43:39.067Z 
-│                       ├ [296] ╭ VulnerabilityID : CVE-2025-11468 
+│                       ├ [297] ╭ VulnerabilityID : CVE-2025-11468 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -21488,14 +21588,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-11468 
-│                       │       ├ Fingerprint     : sha256:3c9ff67846f7f0995b795da7c041b635077cd7a2a8fefdc3b259
-│                       │       │                   1f9189b61ded 
+│                       │       ├ Fingerprint     : sha256:cd01de487fe715ec0974c85ef9f370fadd45e937e3735fb0704d
+│                       │       │                   08fa2f904f95 
 │                       │       ├ Title           : cpython: Missing character filtering in Python 
 │                       │       ├ Description     : When folding a long comment in an email header containing
 │                       │       │                   exclusively unfoldable characters, the parenthesis would
@@ -21507,7 +21607,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-93
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon : 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
 │                       │       │                  ├ azure  : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ photon : 2 
@@ -21549,7 +21649,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:50.69Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:30:31.043Z 
-│                       ├ [297] ╭ VulnerabilityID : CVE-2025-12781 
+│                       ├ [298] ╭ VulnerabilityID : CVE-2025-12781 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -21557,14 +21657,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-12781 
-│                       │       ├ Fingerprint     : sha256:98314f811e6ab67cd33c33f230a6d56fc4d04d9d8d6f2a3c391f
-│                       │       │                   c39fd1ca52e4 
+│                       │       ├ Fingerprint     : sha256:3f6147564999b4a35efbcb257a43196be00dfc1a9164d88a50ff
+│                       │       │                   93946956a3c6 
 │                       │       ├ Title           : cpython: base64.b64decode() always accepts "+/" characters,
 │                       │       │                    despite setting altchars 
 │                       │       ├ Description     : When passing data to the b64decode(), standard_b64decode(),
@@ -21633,7 +21733,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-21T20:16:04.423Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:32:56.797Z 
-│                       ├ [298] ╭ VulnerabilityID : CVE-2025-13837 
+│                       ├ [299] ╭ VulnerabilityID : CVE-2025-13837 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -21641,14 +21741,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13837 
-│                       │       ├ Fingerprint     : sha256:2b3dec4cdafb09565a3c89baea68cc616c38b987a37da92f0a28
-│                       │       │                   f8302f5b6bf7 
+│                       │       ├ Fingerprint     : sha256:bc87f6909d5abb3a98c13c4adcd9a69854af0d3202846577f1a6
+│                       │       │                   5b03631a42bc 
 │                       │       ├ Title           : cpython: Out-of-memory when loading Plist 
 │                       │       ├ Description     : When loading a plist file, the plistlib module reads data
 │                       │       │                   in size specified by the file itself, meaning a malicious
@@ -21679,6 +21779,7 @@
 │                       │       │                            ╰ V3Score : 5.9 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19064            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19177            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2025-13837       
 │                       │       │                  https://bugzilla.redhat.com/2395108                         
@@ -21730,7 +21831,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
@@ -21765,7 +21866,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-12-01T18:16:04.38Z 
 │                       │       ╰ LastModifiedDate: 2026-09-03T03:15:21.037Z 
-│                       ├ [299] ╭ VulnerabilityID : CVE-2025-15282 
+│                       ├ [300] ╭ VulnerabilityID : CVE-2025-15282 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -21773,14 +21874,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-15282 
-│                       │       ├ Fingerprint     : sha256:f54d71332fa698abbd2922b1e4e3007c78c85e175f1d1134d547
-│                       │       │                   52f04347c52c 
+│                       │       ├ Fingerprint     : sha256:aec219b4e536a8f681d15c2104a70db918dae938158b187da9ad
+│                       │       │                   4af498e116f4 
 │                       │       ├ Title           : cpython: Header injection via newlines in data URL
 │                       │       │                   mediatype in Python 
 │                       │       ├ Description     : User-controlled data URLs parsed by
@@ -21792,7 +21893,7 @@
 │                       │       │                  CWE-93
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
@@ -21807,6 +21908,7 @@
 │                       │       │                            ╰ V3Score : 4.8 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19064            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19177            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2025-15282       
 │                       │       │                  https://bugzilla.redhat.com/2395108                         
@@ -21858,7 +21960,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
@@ -21895,7 +21997,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:50.883Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:37:31.58Z 
-│                       ├ [300] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [301] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -21903,14 +22005,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-4516 
-│                       │       ├ Fingerprint     : sha256:825f9cd5dde21fe4b3bf7411b62e7c14349d4f21d19e9739b964
-│                       │       │                   40d6e2232d04 
+│                       │       ├ Fingerprint     : sha256:cb65810cd1d118ecade71a2384a6bcb69b71022e2356610c06bb
+│                       │       │                   0bed83da9ffb 
 │                       │       ├ Title           : cpython: python: CPython DecodeError Handling Vulnerability 
 │                       │       ├ Description     : There is an issue in CPython when using
 │                       │       │                   `bytes.decode("unicode_escape", error="ignore|replace")`.
@@ -21925,7 +22027,7 @@
 │                       │       │                  CWE-416
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -22035,7 +22137,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │       ╰ LastModifiedDate: 2026-07-31T14:16:44.797Z 
-│                       ├ [301] ╭ VulnerabilityID : CVE-2026-0672 
+│                       ├ [302] ╭ VulnerabilityID : CVE-2026-0672 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -22043,14 +22145,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-0672 
-│                       │       ├ Fingerprint     : sha256:d6c78ee535ca8eb122dfa527339e031d71b98135309c433c9879
-│                       │       │                   13fa54ae9f3a 
+│                       │       ├ Fingerprint     : sha256:9bb47177a58c5abd68a999fb43ddc06f9f950e498e2c3e4636d3
+│                       │       │                   f34cc5d3f42f 
 │                       │       ├ Title           : cpython: Header injection in http.cookies.Morsel in Python 
 │                       │       ├ Description     : When using http.cookies.Morsel, user-controlled cookie
 │                       │       │                   values and parameters can allow injecting HTTP headers into
@@ -22062,7 +22164,7 @@
 │                       │       │                  CWE-93
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -22079,6 +22181,7 @@
 │                       │       │                            ╰ V3Score : 4.8 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19064            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19177            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-0672        
 │                       │       │                  https://bugzilla.redhat.com/2395108                         
@@ -22130,7 +22233,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
@@ -22169,7 +22272,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:52.68Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:11:11.133Z 
-│                       ├ [302] ╭ VulnerabilityID : CVE-2026-0864 
+│                       ├ [303] ╭ VulnerabilityID : CVE-2026-0864 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -22177,14 +22280,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-0864 
-│                       │       ├ Fingerprint     : sha256:e45e1b24fd24a7f23435451dd01fbf580b7c2e3a873f36addd30
-│                       │       │                   35312806f1c4 
+│                       │       ├ Fingerprint     : sha256:8103f27d782efecf75b46cd06cb023dfb94e755c0b7a9c9674ac
+│                       │       │                   016dce49d0b9 
 │                       │       ├ Title           : python: cpython: Python configparser: Configuration
 │                       │       │                   injection via crafted multi-line input 
 │                       │       ├ Description     : When using the "configparser" module to write configuration
@@ -22243,7 +22346,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
 │                       │       ╰ LastModifiedDate: 2026-08-18T17:52:03.23Z 
-│                       ├ [303] ╭ VulnerabilityID : CVE-2026-11972 
+│                       ├ [304] ╭ VulnerabilityID : CVE-2026-11972 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -22251,14 +22354,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-11972 
-│                       │       ├ Fingerprint     : sha256:44b351f9de2d28f96f01b797cbc2580dcfbdf9eda394ab40d067
-│                       │       │                   e1cb65bb9b0b 
+│                       │       ├ Fingerprint     : sha256:f3ddb8dea4d9fe7b8049f1ef38a72efeff7ff681e0bf33fe1fca
+│                       │       │                   a9916c1132c3 
 │                       │       ├ Title           : python: Python tarfile module: Denial of Service via
 │                       │       │                   improper EOF handling in streaming mode 
 │                       │       ├ Description     : When using the "tarfile" module with a file opened in
@@ -22313,7 +22416,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-23T23:16:49.033Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:51.78Z 
-│                       ├ [304] ╭ VulnerabilityID : CVE-2026-1502 
+│                       ├ [305] ╭ VulnerabilityID : CVE-2026-1502 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -22321,14 +22424,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-1502 
-│                       │       ├ Fingerprint     : sha256:7af9e847e9a1deb12ca251c056d9c93e37dd56a98172c51716b5
-│                       │       │                   78c29b739c37 
+│                       │       ├ Fingerprint     : sha256:0489d3f41113f851ffd9c6078285b796c438778009dd4717d163
+│                       │       │                   e08aad656ace 
 │                       │       ├ Title           : python: Python: HTTP header injection via CR/LF in proxy
 │                       │       │                   tunnel headers 
 │                       │       ├ Description     : CR/LF bytes were not rejected by HTTP client proxy tunnel
@@ -22355,6 +22458,7 @@
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
 │                       │       │                  http://www.openwall.com/lists/oss-security/2026/04/11/4     
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19064            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19177            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-1502        
 │                       │       │                  https://bugzilla.redhat.com/2395108                         
@@ -22406,7 +22510,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
@@ -22441,7 +22545,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-10T18:16:40.97Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:52.39Z 
-│                       ├ [305] ╭ VulnerabilityID : CVE-2026-3276 
+│                       ├ [306] ╭ VulnerabilityID : CVE-2026-3276 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -22449,14 +22553,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3276 
-│                       │       ├ Fingerprint     : sha256:cd087ba53cf0f62d1594861a678693679f4500404515b4b5bcd7
-│                       │       │                   5e74c02634d7 
+│                       │       ├ Fingerprint     : sha256:749e1de071f3f04b947bd3a2eca8edb302269de7f0103de52fd8
+│                       │       │                   31ca1157563d 
 │                       │       ├ Title           : python: Python unicodedata: Denial of Service due to
 │                       │       │                   excessive CPU consumption 
 │                       │       ├ Description     : unicodedata.normalize() can take excessive CPU time when
@@ -22518,7 +22622,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-03T16:16:29.253Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:52.847Z 
-│                       ├ [306] ╭ VulnerabilityID : CVE-2026-3644 
+│                       ├ [307] ╭ VulnerabilityID : CVE-2026-3644 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -22526,14 +22630,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3644 
-│                       │       ├ Fingerprint     : sha256:6c196eb49ee33b386c77f1cca5ab0a6ac4421efdcf5620f71d89
-│                       │       │                   20c5a90aa936 
+│                       │       ├ Fingerprint     : sha256:689f735a9513611a7efd3fe39983e1dcfbb45328f51326f97b5d
+│                       │       │                   ba0e685e1960 
 │                       │       ├ Title           : cpython: Incomplete control character validation in
 │                       │       │                   http.cookies 
 │                       │       ├ Description     : The fix for CVE-2026-0672, which rejected control
@@ -22549,7 +22653,7 @@
 │                       │       │                  CWE-116
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -22565,6 +22669,7 @@
 │                       │       │                           ╰ V3Score : 5.4 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19064            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19177            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-3644        
 │                       │       │                  https://bugzilla.redhat.com/2395108                         
@@ -22616,7 +22721,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
@@ -22653,7 +22758,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.12Z 
-│                       ├ [307] ╭ VulnerabilityID : CVE-2026-4224 
+│                       ├ [308] ╭ VulnerabilityID : CVE-2026-4224 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -22661,14 +22766,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4224 
-│                       │       ├ Fingerprint     : sha256:9a41950ebf84c3a7cd2a0f06f4a075611aebcf2831d0d6db10b9
-│                       │       │                   5aafc2f8a470 
+│                       │       ├ Fingerprint     : sha256:5a72de6b3389e20890beff5f84fc5aecf723c1cb3de0e9d7078c
+│                       │       │                   cdc3cbac8f6f 
 │                       │       ├ Title           : cpython: Stack overflow parsing XML with deeply nested DTD
 │                       │       │                   content models 
 │                       │       ├ Description     : When an Expat parser with a registered ElementDeclHandler
@@ -22682,7 +22787,7 @@
 │                       │       │                  CWE-674
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ nvd        : 3 
@@ -22703,6 +22808,7 @@
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
 │                       │       │                  http://www.openwall.com/lists/oss-security/2026/03/16/4     
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19064            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19177            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-4224        
 │                       │       │                  https://bugzilla.redhat.com/2395108                         
@@ -22754,7 +22860,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
@@ -22791,7 +22897,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.273Z 
-│                       ├ [308] ╭ VulnerabilityID : CVE-2026-42308 
+│                       ├ [309] ╭ VulnerabilityID : CVE-2026-42308 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -22799,14 +22905,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : end_of_life 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-42308 
-│                       │       ├ Fingerprint     : sha256:bfe574609f3b05d978f046ed7f09569ecdef3bf7e56c041fb2da
-│                       │       │                   10a25456b624 
+│                       │       ├ Fingerprint     : sha256:a96bc25fc337c65b5742150bbff8a55c96efd1ddcdcf79743579
+│                       │       │                   d0472c088c64 
 │                       │       ├ Title           : Pillow: Pillow: Denial of Service via integer overflow in
 │                       │       │                   font processing 
 │                       │       ├ Description     : Pillow is a Python imaging library. Prior to version
@@ -22862,7 +22968,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-05-09T06:16:09.793Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T21:10:00.143Z 
-│                       ├ [309] ╭ VulnerabilityID : CVE-2026-4360 
+│                       ├ [310] ╭ VulnerabilityID : CVE-2026-4360 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -22870,14 +22976,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4360 
-│                       │       ├ Fingerprint     : sha256:7b4b7ed63bb5e5cf0ee58b073e79781d7393cb60673505457b2b
-│                       │       │                   c40955477050 
+│                       │       ├ Fingerprint     : sha256:ce7db4db2d1e168c3fd364adbd2acd5f10f8cfaeaea800f20769
+│                       │       │                   f4c7a65a094e 
 │                       │       ├ Title           : python: Python Tarfile: Unexpected file ownership when
 │                       │       │                   extracting hardlinks 
 │                       │       ├ Description     : In the Tarfile.extract() function, the filter parameter is
@@ -22938,7 +23044,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-30T15:16:57.193Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.42Z 
-│                       ├ [310] ╭ VulnerabilityID : CVE-2026-5713 
+│                       ├ [311] ╭ VulnerabilityID : CVE-2026-5713 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -22946,14 +23052,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-5713 
-│                       │       ├ Fingerprint     : sha256:ff9a3ad3f9ce6af8579c306c8adce72b9219a1873bfd3463f08c
-│                       │       │                   550d1bce7b43 
+│                       │       ├ Fingerprint     : sha256:6617702ea3903526e243c8348dd03c13dad5a35f984b681af359
+│                       │       │                   2afed1f2fc2e 
 │                       │       ├ Title           : python: Python: Information disclosure and arbitrary code
 │                       │       │                   execution via remote debugging with a malicious process. 
 │                       │       ├ Description     : The "profiling.sampling" module (Python 3.15+) and "asyncio
@@ -22988,6 +23094,7 @@
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
 │                       │       │                  http://www.openwall.com/lists/oss-security/2026/04/15/6     
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19019            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19176            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-5713        
 │                       │       │                  https://bugzilla.redhat.com/2431367                         
@@ -23018,7 +23125,7 @@
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5713
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19176.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19019.html        
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19176               
 │                       │       │                  https://github.com/python/cpython/commit/289fd2c97a7e5aecb8b
 │                       │       │                  69f94f5e838ccfeee7e67                                       
@@ -23043,7 +23150,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-14T16:16:48.717Z 
 │                       │       ╰ LastModifiedDate: 2026-07-31T14:16:50.59Z 
-│                       ├ [311] ╭ VulnerabilityID : CVE-2026-6019 
+│                       ├ [312] ╭ VulnerabilityID : CVE-2026-6019 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -23051,14 +23158,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-6019 
-│                       │       ├ Fingerprint     : sha256:4e6d5c85c29e0ac634fa1824df36dc3a9130a9673d062666f3ea
-│                       │       │                   ddfcbee85050 
+│                       │       ├ Fingerprint     : sha256:ebfd3791bef0f49d76100ddb39bf4f5f876a61f02f3e4b1c41aa
+│                       │       │                   8c040a7d6e59 
 │                       │       ├ Title           : python: Python: Cross-Site Scripting (XSS) vulnerability in
 │                       │       │                    http.cookies module 
 │                       │       ├ Description     : http.cookies.Morsel.js_output() returns an inline <script>
@@ -23074,7 +23181,7 @@
 │                       │       │                  CWE-116
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 3 
@@ -23094,6 +23201,7 @@
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:28247            
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:28581            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-6019        
 │                       │       │                  https://bugzilla.redhat.com/2458049                         
 │                       │       │                  https://bugzilla.redhat.com/2460869                         
@@ -23102,7 +23210,7 @@
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6019
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-28247.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-28581.html        
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:28247               
 │                       │       │                  https://github.com/python/cpython/commit/3c59b8b53fc75c7f957
 │                       │       │                  8d16fb8201ceb43e8f76c                                       
@@ -23131,7 +23239,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-22T20:16:42.617Z 
 │                       │       ╰ LastModifiedDate: 2026-07-27T17:34:54.33Z 
-│                       ├ [312] ╭ VulnerabilityID : CVE-2026-7210 
+│                       ├ [313] ╭ VulnerabilityID : CVE-2026-7210 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -23139,14 +23247,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-7210 
-│                       │       ├ Fingerprint     : sha256:de4b21517a7fbe86f08a590fd1c0b09267dd4c02ac9866ad631a
-│                       │       │                   d33071c275f6 
+│                       │       ├ Fingerprint     : sha256:491d15f8073636fe868d34aaa96dab90de5b2f8edd49c45fd13d
+│                       │       │                   6921c6ab77da 
 │                       │       ├ Title           : python: Python/Expat: Denial of Service via crafted XML
 │                       │       │                   document 
 │                       │       ├ Description     : `xml.parsers.expat` and `xml.etree.ElementTree` use
@@ -23206,7 +23314,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
 │                       │       ╰ LastModifiedDate: 2026-08-14T01:19:08.237Z 
-│                       ├ [313] ╭ VulnerabilityID : CVE-2026-7774 
+│                       ├ [314] ╭ VulnerabilityID : CVE-2026-7774 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -23214,14 +23322,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-7774 
-│                       │       ├ Fingerprint     : sha256:cac6ca4eb99b2d5d31ec727115e67348b25e2b84e8baae376a20
-│                       │       │                   5e691be8aa65 
+│                       │       ├ Fingerprint     : sha256:da38104489b8aeadab7889c229271b8942d65e7feb4bec6e8c5e
+│                       │       │                   4ea8d1c0192f 
 │                       │       ├ Title           : python: CPython: Python tarfile: Arbitrary file write via
 │                       │       │                   crafted link entries 
 │                       │       ├ Description     : tarfile.data_filter could be bypassed using crafted link
@@ -23282,7 +23390,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-04T16:16:42.103Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:55.783Z 
-│                       ├ [314] ╭ VulnerabilityID : CVE-2025-13462 
+│                       ├ [315] ╭ VulnerabilityID : CVE-2025-13462 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -23290,14 +23398,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-13462 
-│                       │       ├ Fingerprint     : sha256:df1289efbe3c32850dffdc764f1359c6058a7921052f711fe220
-│                       │       │                   fd4307acca43 
+│                       │       ├ Fingerprint     : sha256:0964c5489e13751629411bc52eed045cd0e4d7a7e259eade8e93
+│                       │       │                   356b31bc1406 
 │                       │       ├ Title           : cpython: cpython: `tarfile` module misinterprets crafted
 │                       │       │                   tar archives leading to data integrity issues 
 │                       │       ├ Description     : The "tarfile" module would still apply normalization of
@@ -23355,7 +23463,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-12T18:16:21.397Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:50.98Z 
-│                       ├ [315] ╭ VulnerabilityID : CVE-2025-1795 
+│                       ├ [316] ╭ VulnerabilityID : CVE-2025-1795 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -23363,14 +23471,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-1795 
-│                       │       ├ Fingerprint     : sha256:cfdb7bc47edb0824b332d2bd7229ea7b015dacf4ad76f16a1b95
-│                       │       │                   27ac665e8a05 
+│                       │       ├ Fingerprint     : sha256:17be25be94696746c72fe1e6ed4e305d7188866db666fa43bb2a
+│                       │       │                   c1d44b7bb604 
 │                       │       ├ Title           : python: Mishandling of comma during folding and
 │                       │       │                   unicode-encoding of email headers 
 │                       │       ├ Description     : During an address list folding when a separating comma ends
@@ -23428,7 +23536,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-02-28T19:15:36.55Z 
 │                       │       ╰ LastModifiedDate: 2026-07-31T14:16:44Z 
-│                       ├ [316] ╭ VulnerabilityID : CVE-2026-18503 
+│                       ├ [317] ╭ VulnerabilityID : CVE-2026-18503 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -23436,14 +23544,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-18503 
-│                       │       ├ Fingerprint     : sha256:87f76245c66bc234fdb3b5023bfb1529d420fccb06047e517b3f
-│                       │       │                   a1f8951ed662 
+│                       │       ├ Fingerprint     : sha256:38f7d9020e8cc2ae82c2dc04b99ea749014feca4e93ae6f38ba4
+│                       │       │                   5e123c1828ae 
 │                       │       ├ Title           : python: Python: Denial of Service via super-linear regular
 │                       │       │                   expression work in csv.Sniffer.sniff() 
 │                       │       ├ Description     : Attacker-controlled CSV samples can trigger super-linear 
@@ -23494,7 +23602,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-10T14:17:21.56Z 
 │                       │       ╰ LastModifiedDate: 2026-08-18T15:04:46.61Z 
-│                       ├ [317] ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [318] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -23502,14 +23610,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-2297 
-│                       │       ├ Fingerprint     : sha256:7b3447a97a62f9e3cb44f7e6604ddfe8eb7e12bb84a59afc346d
-│                       │       │                   7d73fab7e30a 
+│                       │       ├ Fingerprint     : sha256:bf0e138d6a775e255117d5c01b38263430e43f283d8e4d15b24c
+│                       │       │                   ed5f6b203733 
 │                       │       ├ Title           : cpython: CPython: Logging Bypass in Legacy .pyc File Handling 
 │                       │       ├ Description     : The import hook in CPython that handles legacy *.pyc files
 │                       │       │                   (SourcelessFileLoader) is incorrectly handled in FileLoader
@@ -23535,6 +23643,7 @@
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
 │                       │       │                  http://www.openwall.com/lists/oss-security/2026/03/05/6     
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:19064            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:19177            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-2297        
 │                       │       │                  https://bugzilla.redhat.com/2395108                         
@@ -23586,7 +23695,7 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
@@ -23619,7 +23728,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:52.527Z 
-│                       ├ [318] ╭ VulnerabilityID : CVE-2026-3479 
+│                       ├ [319] ╭ VulnerabilityID : CVE-2026-3479 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.3.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x8
@@ -23627,14 +23736,14 @@
 │                       │       │                  ╰ UID : a84bcd9047e96304 
 │                       │       ├ InstalledVersion: 3.9.25-7.el9_8.3 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-3479 
-│                       │       ├ Fingerprint     : sha256:ad8e3c86f56516288f3ac75217663c8c7073e8900e0bbf096280
-│                       │       │                   4732ccccf9c2 
+│                       │       ├ Fingerprint     : sha256:7f517bfd6eb2f776e0cbc7955a9df9a9c8af52e5b265de400d7a
+│                       │       │                   a5eec2b8db33 
 │                       │       ├ Title           : python: Python pkgutil.get_data(): Path Traversal via
 │                       │       │                   improper resource argument validation 
 │                       │       ├ Description     : DISPUTED: The project has clarified that the documentation
@@ -23650,7 +23759,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-22
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ╰ redhat: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
@@ -23680,7 +23789,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-18T19:16:06.81Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:43:39.067Z 
-│                       ├ [319] ╭ VulnerabilityID : CVE-2023-45803 
+│                       ├ [320] ╭ VulnerabilityID : CVE-2023-45803 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-2.el9_8.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch
@@ -23688,14 +23797,14 @@
 │                       │       │                  ╰ UID : 5de97a84eb8c8b1c 
 │                       │       ├ InstalledVersion: 21.3.1-2.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45803 
-│                       │       ├ Fingerprint     : sha256:d3f74f9b4aa12c9fb359eeeda79561f861a228d49902d2642f41
-│                       │       │                   9b30780cb4aa 
+│                       │       ├ Fingerprint     : sha256:7e3c8155e1d3315c237f18b67be3471061ccb640a405e5b23028
+│                       │       │                   7143e8a533d8 
 │                       │       ├ Title           : urllib3: Request body not stripped after redirect from 303
 │                       │       │                   status changes request method to GET 
 │                       │       ├ Description     : urllib3 is a user-friendly HTTP client library for Python.
@@ -23818,7 +23927,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2023-10-17T20:15:10.07Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T06:29:33.207Z 
-│                       ├ [320] ╭ VulnerabilityID : CVE-2025-50181 
+│                       ├ [321] ╭ VulnerabilityID : CVE-2025-50181 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-2.el9_8.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch
@@ -23826,14 +23935,14 @@
 │                       │       │                  ╰ UID : 5de97a84eb8c8b1c 
 │                       │       ├ InstalledVersion: 21.3.1-2.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-50181 
-│                       │       ├ Fingerprint     : sha256:08b1bd4395db57cfd14537fe859ccdee2b878057b0bf1feb2cc0
-│                       │       │                   526be80da33a 
+│                       │       ├ Fingerprint     : sha256:2c0c0abab2f978948ff1233163b4cd1bc7748218a9fbad9f45d9
+│                       │       │                   00a4e57329fd 
 │                       │       ├ Title           : urllib3: urllib3 redirects are not disabled when retries
 │                       │       │                   are disabled on PoolManager instantiation 
 │                       │       ├ Description     : urllib3 is a user-friendly HTTP client library for Python.
@@ -23888,7 +23997,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-06-19T01:15:24.453Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T09:34:48.843Z 
-│                       ├ [321] ╭ VulnerabilityID : CVE-2025-50182 
+│                       ├ [322] ╭ VulnerabilityID : CVE-2025-50182 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-2.el9_8.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch
@@ -23896,14 +24005,14 @@
 │                       │       │                  ╰ UID : 5de97a84eb8c8b1c 
 │                       │       ├ InstalledVersion: 21.3.1-2.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-50182 
-│                       │       ├ Fingerprint     : sha256:68f793597698da92c9fe4808ff78f5f606c8c3e9bb1321764f63
-│                       │       │                   c054bce8416e 
+│                       │       ├ Fingerprint     : sha256:4e61cbeedc418bab936a7a854a6b0209afd2b66f3dd0ae21fbbc
+│                       │       │                   181dc1e9780c 
 │                       │       ├ Title           : urllib3: urllib3 does not control redirects in browsers and
 │                       │       │                    Node.js 
 │                       │       ├ Description     : urllib3 is a user-friendly HTTP client library for Python.
@@ -23954,7 +24063,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-06-19T02:15:17.967Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T09:34:48.95Z 
-│                       ├ [322] ╭ VulnerabilityID : CVE-2026-13346 
+│                       ├ [323] ╭ VulnerabilityID : CVE-2026-13346 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-2.el9_8.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch
@@ -23962,14 +24071,14 @@
 │                       │       │                  ╰ UID : 5de97a84eb8c8b1c 
 │                       │       ├ InstalledVersion: 21.3.1-2.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-13346 
-│                       │       ├ Fingerprint     : sha256:8b57962e019fed322c7c4f46cfb06b5be5dd93f63c9378fd5795
-│                       │       │                   9808379fd5f9 
+│                       │       ├ Fingerprint     : sha256:79ee6e3b52842ea55e235dabd293eed23e9cf6e665ed865f2a97
+│                       │       │                   f0ea5d977bb0 
 │                       │       ├ Title           : pip: pip: Arbitrary file installation via malicious package
 │                       │       │                    indexes 
 │                       │       ├ Description     : pip would incorrectly handle doubly-encoded package URLs
@@ -24026,7 +24135,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-07-29T19:16:44.267Z 
 │                       │       ╰ LastModifiedDate: 2026-08-20T13:17:44.277Z 
-│                       ├ [323] ╭ VulnerabilityID : CVE-2026-25645 
+│                       ├ [324] ╭ VulnerabilityID : CVE-2026-25645 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-2.el9_8.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch
@@ -24034,14 +24143,14 @@
 │                       │       │                  ╰ UID : 5de97a84eb8c8b1c 
 │                       │       ├ InstalledVersion: 21.3.1-2.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-25645 
-│                       │       ├ Fingerprint     : sha256:d714ff185f76e99570650d95cf920a58ee76cd18eefba8913cd8
-│                       │       │                   a42ea2890515 
+│                       │       ├ Fingerprint     : sha256:caa4294bdb6ba2580a9c76a74e04a262dc7ac46db161f0f3bdd0
+│                       │       │                   b172552e3404 
 │                       │       ├ Title           : requests: Requests: Security bypass due to predictable
 │                       │       │                   temporary file creation 
 │                       │       ├ Description     : Requests is a HTTP library. Prior to version 2.33.0, the
@@ -24095,7 +24204,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-25T17:16:52.97Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:25:00.443Z 
-│                       ├ [324] ╭ VulnerabilityID : CVE-2026-32284 
+│                       ├ [325] ╭ VulnerabilityID : CVE-2026-32284 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-2.el9_8.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch
@@ -24103,14 +24212,14 @@
 │                       │       │                  ╰ UID : 5de97a84eb8c8b1c 
 │                       │       ├ InstalledVersion: 21.3.1-2.el9_8 
 │                       │       ├ Status          : end_of_life 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-32284 
-│                       │       ├ Fingerprint     : sha256:d29c04179135264ec39eb833c0fd664b140194ed0d5a9ea70188
-│                       │       │                   35e8cd33642b 
+│                       │       ├ Fingerprint     : sha256:b548596517c14dce1df18ef084346e8f35124a879843a24fb8cb
+│                       │       │                   6b0a35eb7d1d 
 │                       │       ├ Title           : github.com/shamaton/msgpack: msgpack: Denial of Service via
 │                       │       │                    truncated fixext data 
 │                       │       ├ Description     : The msgpack decoder fails to properly validate the input
@@ -24146,7 +24255,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-26T20:16:12.087Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:35:29.407Z 
-│                       ├ [325] ╭ VulnerabilityID : CVE-2026-45409 
+│                       ├ [326] ╭ VulnerabilityID : CVE-2026-45409 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-2.el9_8.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch
@@ -24154,14 +24263,14 @@
 │                       │       │                  ╰ UID : 5de97a84eb8c8b1c 
 │                       │       ├ InstalledVersion: 21.3.1-2.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-45409 
-│                       │       ├ Fingerprint     : sha256:b1230b750800e004b46c7bf8d0e202b5818d8ae92705bcc12da9
-│                       │       │                   c346ca7d146e 
+│                       │       ├ Fingerprint     : sha256:54572029b6ce6bbe6285c4524370a78c20b5bd94d5874f8f5a61
+│                       │       │                   5905c94165ab 
 │                       │       ├ Title           : python-idna: idna: Denial of Service via specially crafted
 │                       │       │                   long inputs 
 │                       │       ├ Description     : Internationalized Domain Names in Applications (IDNA) for
@@ -24215,6 +24324,7 @@
 │                       │       │                           ╰ V3Score : 5.3 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:54481            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:54484            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-45409       
 │                       │       │                  https://bugzilla.redhat.com/2485616                         
@@ -24222,7 +24332,7 @@
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4540
 │                       │       │                  9                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-54484.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-54481.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2026:54484               
 │                       │       │                                                                              
@@ -24245,7 +24355,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-05T23:16:43.343Z 
 │                       │       ╰ LastModifiedDate: 2026-07-23T07:10:00.113Z 
-│                       ├ [326] ╭ VulnerabilityID : CVE-2021-3572 
+│                       ├ [327] ╭ VulnerabilityID : CVE-2021-3572 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-2.el9_8.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch
@@ -24253,14 +24363,14 @@
 │                       │       │                  ╰ UID : 5de97a84eb8c8b1c 
 │                       │       ├ InstalledVersion: 21.3.1-2.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-3572 
-│                       │       ├ Fingerprint     : sha256:82b4054c871f78f6644afc4d9d0541725d20854740aef2f79c41
-│                       │       │                   10f513b0e4dd 
+│                       │       ├ Fingerprint     : sha256:04295c7e194f1b6ec269facd20c9b6a753d1c49740f33ab98336
+│                       │       │                   adbe3cfc06fe 
 │                       │       ├ Title           : python-pip: Incorrect handling of unicode separators in git
 │                       │       │                    references 
 │                       │       ├ Description     : A flaw was found in python-pip in the way it handled
@@ -24373,7 +24483,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2021-11-10T18:15:09.51Z 
 │                       │       ╰ LastModifiedDate: 2026-08-25T16:28:27.31Z 
-│                       ├ [327] ╭ VulnerabilityID : CVE-2026-78367 
+│                       ├ [328] ╭ VulnerabilityID : CVE-2026-78367 
 │                       │       ├ PkgID           : rpm@4.16.1.3-40.el9.x86_64 
 │                       │       ├ PkgName         : rpm 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm@4.16.1.3-40.el9?arch=x86_64&distr
@@ -24381,14 +24491,14 @@
 │                       │       │                  ╰ UID : c35439f299629017 
 │                       │       ├ InstalledVersion: 4.16.1.3-40.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-78367 
-│                       │       ├ Fingerprint     : sha256:8376e0c27792a4e19ccf8ac79ae5338920caca798a2a90c2017f
-│                       │       │                   86fb208ff0e0 
+│                       │       ├ Fingerprint     : sha256:411b868ecc949177034c618648430d1ec4be8226928ac1dd706d
+│                       │       │                   11b9772d1ac9 
 │                       │       ├ Title           : rpm: rpmbuild getTarSpec() crafted tar member name → macro
 │                       │       │                   injection 
 │                       │       ├ Description     : A vulnerability was found in RPM's rpmbuild tarball
@@ -24421,7 +24531,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-24T14:17:04.767Z 
 │                       │       ╰ LastModifiedDate: 2026-09-04T12:17:19.023Z 
-│                       ├ [328] ╭ VulnerabilityID : CVE-2026-84837 
+│                       ├ [329] ╭ VulnerabilityID : CVE-2026-84837 
 │                       │       ├ PkgID           : rpm@4.16.1.3-40.el9.x86_64 
 │                       │       ├ PkgName         : rpm 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm@4.16.1.3-40.el9?arch=x86_64&distr
@@ -24429,14 +24539,14 @@
 │                       │       │                  ╰ UID : c35439f299629017 
 │                       │       ├ InstalledVersion: 4.16.1.3-40.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-84837 
-│                       │       ├ Fingerprint     : sha256:14c4fb5c7f9b375a42ace55b822cc32a27fd270bc50c8e5d8b92
-│                       │       │                   2f91479c6e09 
+│                       │       ├ Fingerprint     : sha256:b66058f0efb8ba3722a257131036d329a7f0a21c7425ab3e6dc7
+│                       │       │                   ef48542ed592 
 │                       │       ├ Title           : rpm: Command Injection in `rpmbuild -t*` (`getTarSpec`) via
 │                       │       │                    Unescaped Tarball Path 
 │                       │       ├ Description     : A flaw was found in rpm. An attacker can exploit a command
@@ -24466,7 +24576,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-02T16:17:33.56Z 
 │                       │       ╰ LastModifiedDate: 2026-09-03T18:12:56.407Z 
-│                       ├ [329] ╭ VulnerabilityID : CVE-2026-44605 
+│                       ├ [330] ╭ VulnerabilityID : CVE-2026-95519 
 │                       │       ├ PkgID           : rpm@4.16.1.3-40.el9.x86_64 
 │                       │       ├ PkgName         : rpm 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm@4.16.1.3-40.el9?arch=x86_64&distr
@@ -24474,153 +24584,90 @@
 │                       │       │                  ╰ UID : c35439f299629017 
 │                       │       ├ InstalledVersion: 4.16.1.3-40.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-44605 
-│                       │       ├ Fingerprint     : sha256:0da67fd9f91f882a7496e308c95695e0405f078244515fd65af0
-│                       │       │                   1d1e26507b63 
-│                       │       ├ Title           : rpm: heap buffer overflow in NDB slot table parsing 
-│                       │       ├ Description     : A flaw was found in the RPM Package Manager (RPM). A local
-│                       │       │                   user could be affected by a heap buffer overflow
-│                       │       │                   vulnerability when processing a specially crafted NDB
-│                       │       │                   database file. This issue arises from an error in how RPM
-│                       │       │                   handles certain calculations during file parsing, leading
-│                       │       │                   to an incorrect memory allocation. An attacker could
-│                       │       │                   leverage this to cause a denial of service, making the
-│                       │       │                   system unavailable. 
-│                       │       ├ Severity        : LOW 
-│                       │       ├ CweIDs                  
-│                       │       │                  ───────
-│                       │       │                  CWE-190
-│                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon: 3 
-│                       │       │                  ├ azure : 2 
-│                       │       │                  ╰ redhat: 1 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
-│                       │       │                           │           N/A:H 
-│                       │       │                           ╰ V3Score : 5.5 
-│                       │       ├ References                                                            
-│                       │       │                  ─────────────────────────────────────────────────────
-│                       │       │                  https://access.redhat.com/errata/RHSA-2026:33507     
-│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-44605
-│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2482481  
-│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-44605      
-│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-44605      
-│                       │       │                  
-│                       │       ├ PublishedDate   : 2026-08-05T18:17:11.173Z 
-│                       │       ╰ LastModifiedDate: 2026-08-31T13:18:18.403Z 
-│                       ├ [330] ╭ VulnerabilityID : CVE-2026-78367 
-│                       │       ├ PkgID           : rpm-libs@4.16.1.3-40.el9.x86_64 
-│                       │       ├ PkgName         : rpm-libs 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm-libs@4.16.1.3-40.el9?arch=x86_64&
-│                       │       │                  │       distro=redhat-9.8 
-│                       │       │                  ╰ UID : 9c66f31cc3c9bbd1 
-│                       │       ├ InstalledVersion: 4.16.1.3-40.el9 
-│                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
-│                       │       ├ SeveritySource  : redhat 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-78367 
-│                       │       ├ Fingerprint     : sha256:177221babff09717d24a46dfd88ecad55d0ebfca01b6a56bdc05
-│                       │       │                   71747848c970 
-│                       │       ├ Title           : rpm: rpmbuild getTarSpec() crafted tar member name → macro
-│                       │       │                   injection 
-│                       │       ├ Description     : A vulnerability was found in RPM's rpmbuild tarball
-│                       │       │                   processing. When processing a crafted source archive, the
-│                       │       │                   getTarSpec() function in tools/rpmbuild.cc passes an
-│                       │       │                   attacker-controlled tar archive member name to rpmExpand()
-│                       │       │                   as part of a %{basename:...} macro expression. A specially
-│                       │       │                   crafted .spec member name can therefore inject RPM macros,
-│                       │       │                   including Lua expressions, resulting in arbitrary code
-│                       │       │                   execution with the privileges of the user running rpmbuild.
-│                       │       │                    This can be exploited when a victim or automated build
-│                       │       │                   system processes an attacker-controlled source tarball
-│                       │       │                   using rpmbuild tarball mode (such as -ts, -ta, or -tb). 
-│                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CweIDs                 
-│                       │       │                  ──────
-│                       │       │                  CWE-94
-│                       │       │                  
-│                       │       ├ VendorSeverity   ─ redhat: 2 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:
-│                       │       │                           │           H/A:H 
-│                       │       │                           ╰ V3Score : 7 
-│                       │       ├ References                                                                 
-│                       │       │                  ──────────────────────────────────────────────────────────
-│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-78367     
-│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2521857       
-│                       │       │                  https://github.com/rpm-software-management/rpm/issues/4314
-│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-78367           
-│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-78367           
-│                       │       │                  
-│                       │       ├ PublishedDate   : 2026-08-24T14:17:04.767Z 
-│                       │       ╰ LastModifiedDate: 2026-09-04T12:17:19.023Z 
-│                       ├ [331] ╭ VulnerabilityID : CVE-2026-84837 
-│                       │       ├ PkgID           : rpm-libs@4.16.1.3-40.el9.x86_64 
-│                       │       ├ PkgName         : rpm-libs 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm-libs@4.16.1.3-40.el9?arch=x86_64&
-│                       │       │                  │       distro=redhat-9.8 
-│                       │       │                  ╰ UID : 9c66f31cc3c9bbd1 
-│                       │       ├ InstalledVersion: 4.16.1.3-40.el9 
-│                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
-│                       │       ├ SeveritySource  : redhat 
-│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-84837 
-│                       │       ├ Fingerprint     : sha256:ea146dfb4a524acf0999a0ede6bb1e7d95530c26ac6c55ab36a6
-│                       │       │                   9b5f80783f43 
-│                       │       ├ Title           : rpm: Command Injection in `rpmbuild -t*` (`getTarSpec`) via
-│                       │       │                    Unescaped Tarball Path 
-│                       │       ├ Description     : A flaw was found in rpm. An attacker can exploit a command
-│                       │       │                   injection vulnerability by influencing the path or filename
-│                       │       │                    of a tarball processed by `rpmbuild -t*` to include shell
-│                       │       │                   metacharacters. This is particularly relevant in automated
-│                       │       │                   build or continuous integration (CI) workflows that ingest
-│                       │       │                   externally supplied artifact names. Successful exploitation
-│                       │       │                    allows for arbitrary command execution with the privileges
-│                       │       │                    of the build user, which could lead to information
-│                       │       │                   disclosure or disruption of the build environment. 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-95519 
+│                       │       ├ Fingerprint     : sha256:60fe169dca83c08a3b5fefcf9708bae0b3a1c8f88c5444c31694
+│                       │       │                   e34028a3fbb5 
+│                       │       ├ Description     : A flaw was found in rpm. An attacker can supply a crafted
+│                       │       │                   manifest file that, when processed by a user or automation
+│                       │       │                   using `rpm -q -p` or similar manifest-processing flows,
+│                       │       │                   leads to arbitrary code execution. This occurs because
+│                       │       │                   manifest entries are unexpectedly macro-expanded before
+│                       │       │                   being opened, allowing embedded shell commands to run with
+│                       │       │                   the privileges of the `rpm` process. Successful
+│                       │       │                   exploitation can lead to a full compromise of
+│                       │       │                   confidentiality, integrity, and availability for the
+│                       │       │                   affected account. 
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs                 
 │                       │       │                  ──────
 │                       │       │                  CWE-78
 │                       │       │                  
 │                       │       ├ VendorSeverity   ─ redhat: 2 
-│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
-│                       │       │                           │           H/A:H 
-│                       │       │                           ╰ V3Score : 7.8 
 │                       │       ├ References                                                            
 │                       │       │                  ─────────────────────────────────────────────────────
-│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-84837
-│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2478408  
-│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-84837      
-│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-84837      
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-95519
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2470977  
 │                       │       │                  
-│                       │       ├ PublishedDate   : 2026-09-02T16:17:33.56Z 
-│                       │       ╰ LastModifiedDate: 2026-09-03T18:12:56.407Z 
+│                       │       ├ PublishedDate   : 2026-09-24T14:18:20.153Z 
+│                       │       ╰ LastModifiedDate: 2026-09-25T04:17:49.753Z 
+│                       ├ [331] ╭ VulnerabilityID : CVE-2026-95521 
+│                       │       ├ PkgID           : rpm@4.16.1.3-40.el9.x86_64 
+│                       │       ├ PkgName         : rpm 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm@4.16.1.3-40.el9?arch=x86_64&distr
+│                       │       │                  │       o=redhat-9.8 
+│                       │       │                  ╰ UID : c35439f299629017 
+│                       │       ├ InstalledVersion: 4.16.1.3-40.el9 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-95521 
+│                       │       ├ Fingerprint     : sha256:ea20345a0194ab98afc528074bd462dd3b924598d6fcf7bba4ee
+│                       │       │                   6baad29b06f7 
+│                       │       ├ Description     : A command injection flaw was found in rpm. Installing or
+│                       │       │                   rebuilding a source RPM whose source or spec file basenames
+│                       │       │                    contain a %() macro construct causes rpm to execute an
+│                       │       │                   attacker-controlled shell command via popen() while
+│                       │       │                   relocating the source file list. This allows arbitrary
+│                       │       │                   command execution as the invoking (typically non-root)
+│                       │       │                   user, simply by installing, rebuilding, or otherwise
+│                       │       │                   processing an untrusted .src.rpm. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs                 
+│                       │       │                  ──────
+│                       │       │                  CWE-78
+│                       │       │                  
+│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ References                                                            
+│                       │       │                  ─────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-95521
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2537812  
+│                       │       │                  
+│                       │       ├ PublishedDate   : 2026-09-24T14:18:20.29Z 
+│                       │       ╰ LastModifiedDate: 2026-09-24T21:00:46.893Z 
 │                       ├ [332] ╭ VulnerabilityID : CVE-2026-44605 
-│                       │       ├ PkgID           : rpm-libs@4.16.1.3-40.el9.x86_64 
-│                       │       ├ PkgName         : rpm-libs 
-│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm-libs@4.16.1.3-40.el9?arch=x86_64&
-│                       │       │                  │       distro=redhat-9.8 
-│                       │       │                  ╰ UID : 9c66f31cc3c9bbd1 
+│                       │       ├ PkgID           : rpm@4.16.1.3-40.el9.x86_64 
+│                       │       ├ PkgName         : rpm 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm@4.16.1.3-40.el9?arch=x86_64&distr
+│                       │       │                  │       o=redhat-9.8 
+│                       │       │                  ╰ UID : c35439f299629017 
 │                       │       ├ InstalledVersion: 4.16.1.3-40.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-44605 
-│                       │       ├ Fingerprint     : sha256:b88f2c54768907436d21553052d4e855eca9164ad9e3400c8f66
-│                       │       │                   0a1fc7b8e476 
+│                       │       ├ Fingerprint     : sha256:3c5ecfcc8121001d8a7419ad66ed0cec3ee8c55395c1769972b6
+│                       │       │                   d762093e9841 
 │                       │       ├ Title           : rpm: heap buffer overflow in NDB slot table parsing 
 │                       │       ├ Description     : A flaw was found in the RPM Package Manager (RPM). A local
 │                       │       │                   user could be affected by a heap buffer overflow
@@ -24651,7 +24698,222 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-05T18:17:11.173Z 
 │                       │       ╰ LastModifiedDate: 2026-08-31T13:18:18.403Z 
-│                       ├ [333] ╭ VulnerabilityID : CVE-2026-5958 
+│                       ├ [333] ╭ VulnerabilityID : CVE-2026-78367 
+│                       │       ├ PkgID           : rpm-libs@4.16.1.3-40.el9.x86_64 
+│                       │       ├ PkgName         : rpm-libs 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm-libs@4.16.1.3-40.el9?arch=x86_64&
+│                       │       │                  │       distro=redhat-9.8 
+│                       │       │                  ╰ UID : 9c66f31cc3c9bbd1 
+│                       │       ├ InstalledVersion: 4.16.1.3-40.el9 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-78367 
+│                       │       ├ Fingerprint     : sha256:928930dfc85f2d1ee2aa4a58d6876b18520755c7ff4a3147a0a1
+│                       │       │                   dc11a3a20203 
+│                       │       ├ Title           : rpm: rpmbuild getTarSpec() crafted tar member name → macro
+│                       │       │                   injection 
+│                       │       ├ Description     : A vulnerability was found in RPM's rpmbuild tarball
+│                       │       │                   processing. When processing a crafted source archive, the
+│                       │       │                   getTarSpec() function in tools/rpmbuild.cc passes an
+│                       │       │                   attacker-controlled tar archive member name to rpmExpand()
+│                       │       │                   as part of a %{basename:...} macro expression. A specially
+│                       │       │                   crafted .spec member name can therefore inject RPM macros,
+│                       │       │                   including Lua expressions, resulting in arbitrary code
+│                       │       │                   execution with the privileges of the user running rpmbuild.
+│                       │       │                    This can be exploited when a victim or automated build
+│                       │       │                   system processes an attacker-controlled source tarball
+│                       │       │                   using rpmbuild tarball mode (such as -ts, -ta, or -tb). 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs                 
+│                       │       │                  ──────
+│                       │       │                  CWE-94
+│                       │       │                  
+│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 7 
+│                       │       ├ References                                                                 
+│                       │       │                  ──────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-78367     
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2521857       
+│                       │       │                  https://github.com/rpm-software-management/rpm/issues/4314
+│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-78367           
+│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-78367           
+│                       │       │                  
+│                       │       ├ PublishedDate   : 2026-08-24T14:17:04.767Z 
+│                       │       ╰ LastModifiedDate: 2026-09-04T12:17:19.023Z 
+│                       ├ [334] ╭ VulnerabilityID : CVE-2026-84837 
+│                       │       ├ PkgID           : rpm-libs@4.16.1.3-40.el9.x86_64 
+│                       │       ├ PkgName         : rpm-libs 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm-libs@4.16.1.3-40.el9?arch=x86_64&
+│                       │       │                  │       distro=redhat-9.8 
+│                       │       │                  ╰ UID : 9c66f31cc3c9bbd1 
+│                       │       ├ InstalledVersion: 4.16.1.3-40.el9 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-84837 
+│                       │       ├ Fingerprint     : sha256:38fd96af94f78a0078167889b502e0b550be23e3a70b11461af8
+│                       │       │                   42f70c52f0d0 
+│                       │       ├ Title           : rpm: Command Injection in `rpmbuild -t*` (`getTarSpec`) via
+│                       │       │                    Unescaped Tarball Path 
+│                       │       ├ Description     : A flaw was found in rpm. An attacker can exploit a command
+│                       │       │                   injection vulnerability by influencing the path or filename
+│                       │       │                    of a tarball processed by `rpmbuild -t*` to include shell
+│                       │       │                   metacharacters. This is particularly relevant in automated
+│                       │       │                   build or continuous integration (CI) workflows that ingest
+│                       │       │                   externally supplied artifact names. Successful exploitation
+│                       │       │                    allows for arbitrary command execution with the privileges
+│                       │       │                    of the build user, which could lead to information
+│                       │       │                   disclosure or disruption of the build environment. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs                 
+│                       │       │                  ──────
+│                       │       │                  CWE-78
+│                       │       │                  
+│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:
+│                       │       │                           │           H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References                                                            
+│                       │       │                  ─────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-84837
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2478408  
+│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-84837      
+│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-84837      
+│                       │       │                  
+│                       │       ├ PublishedDate   : 2026-09-02T16:17:33.56Z 
+│                       │       ╰ LastModifiedDate: 2026-09-03T18:12:56.407Z 
+│                       ├ [335] ╭ VulnerabilityID : CVE-2026-95519 
+│                       │       ├ PkgID           : rpm-libs@4.16.1.3-40.el9.x86_64 
+│                       │       ├ PkgName         : rpm-libs 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm-libs@4.16.1.3-40.el9?arch=x86_64&
+│                       │       │                  │       distro=redhat-9.8 
+│                       │       │                  ╰ UID : 9c66f31cc3c9bbd1 
+│                       │       ├ InstalledVersion: 4.16.1.3-40.el9 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-95519 
+│                       │       ├ Fingerprint     : sha256:d062e8d56e6bbdcdf787f6d30e7617cb4d6bc5f952ff802372a1
+│                       │       │                   b6c986446a99 
+│                       │       ├ Description     : A flaw was found in rpm. An attacker can supply a crafted
+│                       │       │                   manifest file that, when processed by a user or automation
+│                       │       │                   using `rpm -q -p` or similar manifest-processing flows,
+│                       │       │                   leads to arbitrary code execution. This occurs because
+│                       │       │                   manifest entries are unexpectedly macro-expanded before
+│                       │       │                   being opened, allowing embedded shell commands to run with
+│                       │       │                   the privileges of the `rpm` process. Successful
+│                       │       │                   exploitation can lead to a full compromise of
+│                       │       │                   confidentiality, integrity, and availability for the
+│                       │       │                   affected account. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs                 
+│                       │       │                  ──────
+│                       │       │                  CWE-78
+│                       │       │                  
+│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ References                                                            
+│                       │       │                  ─────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-95519
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2470977  
+│                       │       │                  
+│                       │       ├ PublishedDate   : 2026-09-24T14:18:20.153Z 
+│                       │       ╰ LastModifiedDate: 2026-09-25T04:17:49.753Z 
+│                       ├ [336] ╭ VulnerabilityID : CVE-2026-95521 
+│                       │       ├ PkgID           : rpm-libs@4.16.1.3-40.el9.x86_64 
+│                       │       ├ PkgName         : rpm-libs 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm-libs@4.16.1.3-40.el9?arch=x86_64&
+│                       │       │                  │       distro=redhat-9.8 
+│                       │       │                  ╰ UID : 9c66f31cc3c9bbd1 
+│                       │       ├ InstalledVersion: 4.16.1.3-40.el9 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-95521 
+│                       │       ├ Fingerprint     : sha256:66ae1bdd305971f9f8ac79f1575ace75ed398eb0354f4166a39a
+│                       │       │                   e8cd8408aded 
+│                       │       ├ Description     : A command injection flaw was found in rpm. Installing or
+│                       │       │                   rebuilding a source RPM whose source or spec file basenames
+│                       │       │                    contain a %() macro construct causes rpm to execute an
+│                       │       │                   attacker-controlled shell command via popen() while
+│                       │       │                   relocating the source file list. This allows arbitrary
+│                       │       │                   command execution as the invoking (typically non-root)
+│                       │       │                   user, simply by installing, rebuilding, or otherwise
+│                       │       │                   processing an untrusted .src.rpm. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs                 
+│                       │       │                  ──────
+│                       │       │                  CWE-78
+│                       │       │                  
+│                       │       ├ VendorSeverity   ─ redhat: 2 
+│                       │       ├ References                                                            
+│                       │       │                  ─────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-95521
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2537812  
+│                       │       │                  
+│                       │       ├ PublishedDate   : 2026-09-24T14:18:20.29Z 
+│                       │       ╰ LastModifiedDate: 2026-09-24T21:00:46.893Z 
+│                       ├ [337] ╭ VulnerabilityID : CVE-2026-44605 
+│                       │       ├ PkgID           : rpm-libs@4.16.1.3-40.el9.x86_64 
+│                       │       ├ PkgName         : rpm-libs 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm-libs@4.16.1.3-40.el9?arch=x86_64&
+│                       │       │                  │       distro=redhat-9.8 
+│                       │       │                  ╰ UID : 9c66f31cc3c9bbd1 
+│                       │       ├ InstalledVersion: 4.16.1.3-40.el9 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-44605 
+│                       │       ├ Fingerprint     : sha256:35d1ec552ee53094e73b2fa55e540abf3e97a4cb3e45f22b78ea
+│                       │       │                   caf5e01e8d5a 
+│                       │       ├ Title           : rpm: heap buffer overflow in NDB slot table parsing 
+│                       │       ├ Description     : A flaw was found in the RPM Package Manager (RPM). A local
+│                       │       │                   user could be affected by a heap buffer overflow
+│                       │       │                   vulnerability when processing a specially crafted NDB
+│                       │       │                   database file. This issue arises from an error in how RPM
+│                       │       │                   handles certain calculations during file parsing, leading
+│                       │       │                   to an incorrect memory allocation. An attacker could
+│                       │       │                   leverage this to cause a denial of service, making the
+│                       │       │                   system unavailable. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs                  
+│                       │       │                  ───────
+│                       │       │                  CWE-190
+│                       │       │                  
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       │                  ├ azure : 2 
+│                       │       │                  ╰ redhat: 1 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:
+│                       │       │                           │           N/A:H 
+│                       │       │                           ╰ V3Score : 5.5 
+│                       │       ├ References                                                            
+│                       │       │                  ─────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:33507     
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-44605
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2482481  
+│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-44605      
+│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-44605      
+│                       │       │                  
+│                       │       ├ PublishedDate   : 2026-08-05T18:17:11.173Z 
+│                       │       ╰ LastModifiedDate: 2026-08-31T13:18:18.403Z 
+│                       ├ [338] ╭ VulnerabilityID : CVE-2026-5958 
 │                       │       ├ PkgID           : sed@4.8-10.el9.x86_64 
 │                       │       ├ PkgName         : sed 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sed@4.8-10.el9?arch=x86_64&distro=red
@@ -24659,14 +24921,14 @@
 │                       │       │                  ╰ UID : 25cdcb27af2ed55 
 │                       │       ├ InstalledVersion: 4.8-10.el9 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-5958 
-│                       │       ├ Fingerprint     : sha256:c773f89452030d5b26fa0a41a3a73746131879d4e5c61f8a8758
-│                       │       │                   c49e3c3a2033 
+│                       │       ├ Fingerprint     : sha256:5eeca2abf800604fa9ecf836a522514009296300bdd75721c2e9
+│                       │       │                   7ebaeca00b7c 
 │                       │       ├ Title           : sed: GNU sed TOCTOU race condition 
 │                       │       ├ Description     : When sed is invoked with both -i (in-place edit) and
 │                       │       │                   --follow-symlinks, the function open_next_file() performs
@@ -24715,7 +24977,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-20T12:16:08.433Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:59:56.72Z 
-│                       ├ [334] ╭ VulnerabilityID : CVE-2026-50812 
+│                       ├ [339] ╭ VulnerabilityID : CVE-2026-50812 
 │                       │       ├ PkgID           : sqlite-libs@3.34.1-11.el9_8.x86_64 
 │                       │       ├ PkgName         : sqlite-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-11.el9_8?arch=x86_
@@ -24723,14 +24985,14 @@
 │                       │       │                  ╰ UID : b63e4cff25c80c2b 
 │                       │       ├ InstalledVersion: 3.34.1-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-50812 
-│                       │       ├ Fingerprint     : sha256:a84444ea2a8014bdfa8ef0a495708d238b1c48b1345cfb450d88
-│                       │       │                   cab3ca4fd11d 
+│                       │       ├ Fingerprint     : sha256:7e90c7b57d9281d48b15d261c0cfc728e51c3dc88311dadb521f
+│                       │       │                   7d0dc89f8a62 
 │                       │       ├ Title           : sqlite: SQLite: Denial of Service via malformed changeset
 │                       │       │                   in Session Extension 
 │                       │       ├ Description     : A NULL pointer dereference in the SQLite Session Extension
@@ -24769,7 +25031,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-07-08T18:16:32.4Z 
 │                       │       ╰ LastModifiedDate: 2026-07-09T19:48:15.277Z 
-│                       ├ [335] ╭ VulnerabilityID : CVE-2024-0232 
+│                       ├ [340] ╭ VulnerabilityID : CVE-2024-0232 
 │                       │       ├ PkgID           : sqlite-libs@3.34.1-11.el9_8.x86_64 
 │                       │       ├ PkgName         : sqlite-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-11.el9_8?arch=x86_
@@ -24777,14 +25039,14 @@
 │                       │       │                  ╰ UID : b63e4cff25c80c2b 
 │                       │       ├ InstalledVersion: 3.34.1-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-0232 
-│                       │       ├ Fingerprint     : sha256:ee85c4ef29ff7ee2afd9c6b0e4d2bd1c9a147a8e10c1f4da60c5
-│                       │       │                   0dcca8251845 
+│                       │       ├ Fingerprint     : sha256:796e9c5b59375c38a9b024a89e762c5d20ec15bf9f18739a1897
+│                       │       │                   7df89a03ff7e 
 │                       │       ├ Title           : sqlite: use-after-free bug in jsonParseAddNodeArray 
 │                       │       ├ Description     : A heap use-after-free issue has been identified in SQLite
 │                       │       │                   in the jsonParseAddNodeArray() function in sqlite3.c. This
@@ -24824,7 +25086,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2024-01-16T14:15:48.327Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T06:53:02.987Z 
-│                       ├ [336] ╭ VulnerabilityID : CVE-2025-70873 
+│                       ├ [341] ╭ VulnerabilityID : CVE-2025-70873 
 │                       │       ├ PkgID           : sqlite-libs@3.34.1-11.el9_8.x86_64 
 │                       │       ├ PkgName         : sqlite-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-11.el9_8?arch=x86_
@@ -24832,14 +25094,14 @@
 │                       │       │                  ╰ UID : b63e4cff25c80c2b 
 │                       │       ├ InstalledVersion: 3.34.1-11.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-70873 
-│                       │       ├ Fingerprint     : sha256:67087b111e11954640e4c7a60af981896020017229b8323259be
-│                       │       │                   82efa72966c6 
+│                       │       ├ Fingerprint     : sha256:48d51666eb9ff5f0405f89b61aee3f1e052ad2ac5de600104b2c
+│                       │       │                   0a0c51dd4086 
 │                       │       ├ Title           : sqlite: SQLite: Information Disclosure via Crafted ZIP File 
 │                       │       ├ Description     : An information disclosure issue in the zipfileInflate
 │                       │       │                   function in the zipfile extension in SQLite v3.51.1 and
@@ -24876,7 +25138,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-12T19:16:15.933Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:03:26.283Z 
-│                       ├ [337] ╭ VulnerabilityID : CVE-2026-96512 
+│                       ├ [342] ╭ VulnerabilityID : CVE-2026-96512 
 │                       │       ├ PkgID           : sudo@1.9.17p2-3.el9_8.1.x86_64 
 │                       │       ├ PkgName         : sudo 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sudo@1.9.17p2-3.el9_8.1?arch=x86_64&d
@@ -24884,14 +25146,14 @@
 │                       │       │                  ╰ UID : 1d32c94360d711c5 
 │                       │       ├ InstalledVersion: 1.9.17p2-3.el9_8.1 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-96512 
-│                       │       ├ Fingerprint     : sha256:c2837f75e01eef533e96112201a9e8645360f036b2bc387d935a
-│                       │       │                   bc01cd55add2 
+│                       │       ├ Fingerprint     : sha256:4a628f4edd3e6379c17cb3bf48e36a690b3f7b2a43ff76e5b2f3
+│                       │       │                   fe8cb99896ca 
 │                       │       ├ Title           : sudo: sudo: TZ environment variable allows bypass of
 │                       │       │                   NOTBEFORE/NOTAFTER time-based authorization 
 │                       │       ├ Description     : A flaw was found in sudo. When sudoers rules use NOTBEFORE
@@ -24917,6 +25179,8 @@
 │                       │       │                           ╰ V3Score : 7.8 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  http://www.openwall.com/lists/oss-security/2026/09/24/4     
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:71609            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-96512       
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2539327         
 │                       │       │                  https://github.com/sudo-project/sudo/commit/1820a349687522f5
@@ -24927,8 +25191,8 @@
 │                       │       │                                                                              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-23T14:17:10.747Z 
-│                       │       ╰ LastModifiedDate: 2026-09-24T04:18:04.433Z 
-│                       ├ [338] ╭ VulnerabilityID : CVE-2026-15059 
+│                       │       ╰ LastModifiedDate: 2026-09-24T19:17:19.717Z 
+│                       ├ [343] ╭ VulnerabilityID : CVE-2026-15059 
 │                       │       ├ PkgID           : systemd-libs@252-67.el9_8.6.x86_64 
 │                       │       ├ PkgName         : systemd-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/systemd-libs@252-67.el9_8.6?arch=x86_
@@ -24936,14 +25200,14 @@
 │                       │       │                  ╰ UID : 7818c3ee3e30f027 
 │                       │       ├ InstalledVersion: 252-67.el9_8.6 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-15059 
-│                       │       ├ Fingerprint     : sha256:9ef5775ace6b5a57dce05004bd6f056fcdfa6925c7dae0400f48
-│                       │       │                   443132e72b54 
+│                       │       ├ Fingerprint     : sha256:194c01374e9b6bee0f3e5f4792eaa59f939eed95c990341430b9
+│                       │       │                   1595e01173c9 
 │                       │       ├ Title           : systemd: systemd-oomd: Unprivileged users can terminate
 │                       │       │                   arbitrary processes via IPC API 
 │                       │       ├ Description     : Local unprivileged users can terminate arbitrary local
@@ -24975,7 +25239,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-10T14:17:20.76Z 
 │                       │       ╰ LastModifiedDate: 2026-09-01T20:54:51.287Z 
-│                       ├ [339] ╭ VulnerabilityID : CVE-2026-4105 
+│                       ├ [344] ╭ VulnerabilityID : CVE-2026-4105 
 │                       │       ├ PkgID           : systemd-libs@252-67.el9_8.6.x86_64 
 │                       │       ├ PkgName         : systemd-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/systemd-libs@252-67.el9_8.6?arch=x86_
@@ -24983,14 +25247,14 @@
 │                       │       │                  ╰ UID : 7818c3ee3e30f027 
 │                       │       ├ InstalledVersion: 252-67.el9_8.6 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4105 
-│                       │       ├ Fingerprint     : sha256:934a6dc012151ef580955ae24d58dcaebcf8d91134dce9cb3ae5
-│                       │       │                   2dcc577d96fa 
+│                       │       ├ Fingerprint     : sha256:c7fa66fb74feabeb3467e57fddae8e4fe9772291844011c3af0c
+│                       │       │                   21b7f159ec90 
 │                       │       ├ Title           : systemd: systemd: Privilege escalation via improper access
 │                       │       │                   control in RegisterMachine D-Bus method 
 │                       │       ├ Description     : A flaw was found in systemd. The systemd-machined service
@@ -25026,7 +25290,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-13T19:55:13.673Z 
 │                       │       ╰ LastModifiedDate: 2026-09-01T13:19:38.193Z 
-│                       ├ [340] ╭ VulnerabilityID : CVE-2005-2541 
+│                       ├ [345] ╭ VulnerabilityID : CVE-2005-2541 
 │                       │       ├ PkgID           : tar@1.34-13.el9_8.x86_64 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-13.el9_8?arch=x86_64&distro=
@@ -25034,14 +25298,14 @@
 │                       │       │                  ╰ UID : 7e42dc44a4da7fcd 
 │                       │       ├ InstalledVersion: 2:1.34-13.el9_8 
 │                       │       ├ Status          : will_not_fix 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2005-2541 
-│                       │       ├ Fingerprint     : sha256:c676d68ac89a6fccfe5f0e6bdf42ffe545e9a62ac3a0f3583730
-│                       │       │                   cffe1bbad12b 
+│                       │       ├ Fingerprint     : sha256:10fd71ead69b490bbbac5f25aeff03af72e11f7603cbc155d2c7
+│                       │       │                   e6a9a4bef380 
 │                       │       ├ Title           : tar: does not properly warn the user when extracting setuid
 │                       │       │                    or setgid files 
 │                       │       ├ Description     : Tar 1.15.1 does not properly warn the user when extracting
@@ -25068,7 +25332,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2005-08-10T04:00:00Z 
 │                       │       ╰ LastModifiedDate: 2026-04-16T00:27:16.627Z 
-│                       ├ [341] ╭ VulnerabilityID : CVE-2025-64118 
+│                       ├ [346] ╭ VulnerabilityID : CVE-2025-64118 
 │                       │       ├ PkgID           : tar@1.34-13.el9_8.x86_64 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-13.el9_8?arch=x86_64&distro=
@@ -25076,14 +25340,14 @@
 │                       │       │                  ╰ UID : 7e42dc44a4da7fcd 
 │                       │       ├ InstalledVersion: 2:1.34-13.el9_8 
 │                       │       ├ Status          : end_of_life 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2025-64118 
-│                       │       ├ Fingerprint     : sha256:447747bdca5e4d7b9e9d941c8feda79ed062b574ad47b2179ac5
-│                       │       │                   10ef78501570 
+│                       │       ├ Fingerprint     : sha256:40cbd5b4fa47eef76c1aa13304288eadc56b3485abad4f9a235a
+│                       │       │                   6090033616ad 
 │                       │       ├ Title           : node-tar: tar: node-tar: Information disclosure via reading
 │                       │       │                    a truncated tar file 
 │                       │       ├ Description     : node-tar is a Tar for Node.js. In 7.5.1, using .t (aka
@@ -25126,7 +25390,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-10-30T18:15:33.673Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T09:53:51.463Z 
-│                       ├ [342] ╭ VulnerabilityID : CVE-2026-33056 
+│                       ├ [347] ╭ VulnerabilityID : CVE-2026-33056 
 │                       │       ├ PkgID           : tar@1.34-13.el9_8.x86_64 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-13.el9_8?arch=x86_64&distro=
@@ -25134,14 +25398,14 @@
 │                       │       │                  ╰ UID : 7e42dc44a4da7fcd 
 │                       │       ├ InstalledVersion: 2:1.34-13.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-33056 
-│                       │       ├ Fingerprint     : sha256:d4b5329f6764cda4b420f1b89c88e443ecc36dbd9a664d744a73
-│                       │       │                   a69f90e7e0a3 
+│                       │       ├ Fingerprint     : sha256:61f0bee1de2d6165e37a53d3bb3151d62fe46e6c0112155f6f5a
+│                       │       │                   6751d67ea60a 
 │                       │       ├ Title           : tar-rs: tar-rs: Arbitrary directory permission modification
 │                       │       │                    via crafted tar archive 
 │                       │       ├ Description     : tar-rs is a tar archive reading/writing library for Rust.
@@ -25202,7 +25466,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-20T08:16:11.603Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:36:52.55Z 
-│                       ├ [343] ╭ VulnerabilityID : CVE-2026-53655 
+│                       ├ [348] ╭ VulnerabilityID : CVE-2026-53655 
 │                       │       ├ PkgID           : tar@1.34-13.el9_8.x86_64 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-13.el9_8?arch=x86_64&distro=
@@ -25210,14 +25474,14 @@
 │                       │       │                  ╰ UID : 7e42dc44a4da7fcd 
 │                       │       ├ InstalledVersion: 2:1.34-13.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-53655 
-│                       │       ├ Fingerprint     : sha256:9d3b7df533ed3b608973f7d04177dc0782b9b7f16030bd0aaa93
-│                       │       │                   079feef72e6f 
+│                       │       ├ Fingerprint     : sha256:955237e517709309065152976f2a9cf97aea29aa3eb0557ef7d5
+│                       │       │                   8a482c378d0f 
 │                       │       ├ Title           : node-tar: node-tar: File smuggling due to inconsistent tar
 │                       │       │                   archive parsing 
 │                       │       ├ Description     : node-tar is a full-featured Tar for Node.js. Prior to
@@ -25274,7 +25538,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-22T16:16:38.593Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T20:03:47.01Z 
-│                       ├ [344] ╭ VulnerabilityID : CVE-2026-59871 
+│                       ├ [349] ╭ VulnerabilityID : CVE-2026-59871 
 │                       │       ├ PkgID           : tar@1.34-13.el9_8.x86_64 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-13.el9_8?arch=x86_64&distro=
@@ -25282,14 +25546,14 @@
 │                       │       │                  ╰ UID : 7e42dc44a4da7fcd 
 │                       │       ├ InstalledVersion: 2:1.34-13.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-59871 
-│                       │       ├ Fingerprint     : sha256:dd81973f177ea022adbaecd3d767b1137c40eaf874d37ddb53fa
-│                       │       │                   00a2fd541cf1 
+│                       │       ├ Fingerprint     : sha256:23a9a8e504e43a315e83f6437e39d6c815b8cab281a5c8504f13
+│                       │       │                   893bc3c7820a 
 │                       │       ├ Title           : node-tar: node-tar: Denial of Service due to incorrect PAX
 │                       │       │                   path handling 
 │                       │       ├ Description     : node-tar is a tar archive manipulation library for Node.js.
@@ -25334,7 +25598,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-07-08T16:16:33.723Z 
 │                       │       ╰ LastModifiedDate: 2026-07-10T19:02:55.14Z 
-│                       ├ [345] ╭ VulnerabilityID : CVE-2026-59875 
+│                       ├ [350] ╭ VulnerabilityID : CVE-2026-59875 
 │                       │       ├ PkgID           : tar@1.34-13.el9_8.x86_64 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-13.el9_8?arch=x86_64&distro=
@@ -25342,14 +25606,14 @@
 │                       │       │                  ╰ UID : 7e42dc44a4da7fcd 
 │                       │       ├ InstalledVersion: 2:1.34-13.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-59875 
-│                       │       ├ Fingerprint     : sha256:364c3f3a6c942a7f83a73c16b8a0b0edcd23f01658c26358fc64
-│                       │       │                   7c046d1f1a34 
+│                       │       ├ Fingerprint     : sha256:82239ec4e1f39747f13ac5e01d85fbf4562484e9bf4df7bf1903
+│                       │       │                   adce94016ae7 
 │                       │       ├ Title           : node-tar: node-tar: Denial of Service via crafted archive
 │                       │       │                   with NUL bytes in metadata 
 │                       │       ├ Description     : node-tar is a tar archive manipulation library for Node.js.
@@ -25389,7 +25653,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-07-08T16:16:34.107Z 
 │                       │       ╰ LastModifiedDate: 2026-07-10T19:10:59.333Z 
-│                       ├ [346] ╭ VulnerabilityID : CVE-2023-39804 
+│                       ├ [351] ╭ VulnerabilityID : CVE-2023-39804 
 │                       │       ├ PkgID           : tar@1.34-13.el9_8.x86_64 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-13.el9_8?arch=x86_64&distro=
@@ -25397,14 +25661,14 @@
 │                       │       │                  ╰ UID : 7e42dc44a4da7fcd 
 │                       │       ├ InstalledVersion: 2:1.34-13.el9_8 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-39804 
-│                       │       ├ Fingerprint     : sha256:2eb11fd4369c08179eb3ee35cdead20cc54bcb07cceb5185a1b7
-│                       │       │                   32e01d5f4b85 
+│                       │       ├ Fingerprint     : sha256:5dc363088f5418e4c0014529f1cae211d7b4422982318aa69197
+│                       │       │                   696b0e4b4dc5 
 │                       │       ├ Title           : tar: Incorrectly handled extension attributes in PAX
 │                       │       │                   archives can lead to a crash 
 │                       │       ├ Description     : In GNU tar before 1.35, mishandled extension attributes in
@@ -25442,7 +25706,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2024-03-27T04:15:08.897Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T06:12:52.757Z 
-│                       ├ [347] ╭ VulnerabilityID : CVE-2026-34743 
+│                       ├ [352] ╭ VulnerabilityID : CVE-2026-34743 
 │                       │       ├ PkgID           : xz-libs@5.2.5-8.el9_0.x86_64 
 │                       │       ├ PkgName         : xz-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/xz-libs@5.2.5-8.el9_0?arch=x86_64&dis
@@ -25450,14 +25714,14 @@
 │                       │       │                  ╰ UID : 2d190fc1cbe2f8f0 
 │                       │       ├ InstalledVersion: 5.2.5-8.el9_0 
 │                       │       ├ Status          : affected 
-│                       │       ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                       │       │                  │         011e1c30092ca53a3c565 
-│                       │       │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                       │       │                            77cf4fc68f7b83ef324ab 
+│                       │       ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                       │       │                  │         16ef1f12976fa95bfe69d 
+│                       │       │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                       │       │                            ea446482d1bb901c03a8d 
 │                       │       ├ SeveritySource  : redhat 
 │                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-34743 
-│                       │       ├ Fingerprint     : sha256:73224d1a09bbde0ba7021f82962ac18e4f730f0fc7ec599f371e
-│                       │       │                   63877c7bc00e 
+│                       │       ├ Fingerprint     : sha256:0ddec43d0c34a1f77dcc62175d1c02a5ca468549b13f9aaa1ee8
+│                       │       │                   1489bd9cbae1 
 │                       │       ├ Title           : xz: XZ Utils: Denial of Service via buffer overflow in
 │                       │       │                   index decoding 
 │                       │       ├ Description     : XZ Utils provide a general-purpose data-compression library
@@ -25530,7 +25794,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-02T19:21:33.187Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T21:10:00.143Z 
-│                       ╰ [348] ╭ VulnerabilityID : CVE-2026-27171 
+│                       ╰ [353] ╭ VulnerabilityID : CVE-2026-27171 
 │                               ├ PkgID           : zlib@1.2.11-40.el9.x86_64 
 │                               ├ PkgName         : zlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/zlib@1.2.11-40.el9?arch=x86_64&distro
@@ -25538,14 +25802,14 @@
 │                               │                  ╰ UID : f597f38b55409856 
 │                               ├ InstalledVersion: 1.2.11-40.el9 
 │                               ├ Status          : affected 
-│                               ├ Layer            ╭ Digest: sha256:17d7e85ca1d5cc467e5a81c37d49f264e8af9f5be1f
-│                               │                  │         011e1c30092ca53a3c565 
-│                               │                  ╰ DiffID: sha256:2ac234739e716e521191176f8e99fad211f51fb7f15
-│                               │                            77cf4fc68f7b83ef324ab 
+│                               ├ Layer            ╭ Digest: sha256:71ce097b865f0ff832eb468ca07bb5e1139ee3d2885
+│                               │                  │         16ef1f12976fa95bfe69d 
+│                               │                  ╰ DiffID: sha256:1089432fa59449c928f84f0b50e45b40c5a1394f310
+│                               │                            ea446482d1bb901c03a8d 
 │                               ├ SeveritySource  : redhat 
 │                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-27171 
-│                               ├ Fingerprint     : sha256:1244fdedda613feb6b0491a40d0adb8fad735f983b1b2ecb0007
-│                               │                   7d47c1f2aa51 
+│                               ├ Fingerprint     : sha256:877ca85d6bceeb9dbd20877100856e9b3877320f1f4ebc94ad60
+│                               │                   fb453be247f7 
 │                               ├ Title           : zlib: zlib: Denial of Service via infinite loop in CRC32
 │                               │                   combine functions 
 │                               ├ Description     : zlib before 1.3.2 allows CPU consumption via
