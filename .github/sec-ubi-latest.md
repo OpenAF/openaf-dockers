@@ -932,18 +932,16 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:66403            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:67886            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-56392       
+│                       │       │                  https://bugzilla.redhat.com/2506691                         
 │                       │       │                  https://bugzilla.redhat.com/2506694                         
-│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2506691         
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2506694         
 │                       │       │                  https://cert.pl/en/posts/2026/07/CVE-2026-56391             
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5639
-│                       │       │                  1                                                           
-│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5639
 │                       │       │                  2                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-66403.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67886.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67886               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:66403               
 │                       │       │                                                                              
 │                       │       │                  https://git.savannah.gnu.org/cgit/coreutils.git             
 │                       │       │                                                                              
@@ -1761,38 +1759,34 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 8.1 
-│                       │       ├ References                                                                    
-│                       │       │                  ─────────────────────────────────────────────────────────────
-│                       │       │                  https://access.redhat.com/errata/RHSA-2026:69125             
-│                       │       │                  https://access.redhat.com/errata/RHSA-2026:69126             
-│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-8458         
-│                       │       │                  https://bugzilla.redhat.com/2496764                          
-│                       │       │                  https://bugzilla.redhat.com/2496769                          
-│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496759          
-│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496760          
-│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496764          
-│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496765          
-│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496767          
-│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496771          
-│                       │       │                  https://creativecommons.org/licenses/by/4.0/                 
-│                       │       │                  https://curl.se/L7HzKXisfJ/CVE-2026-8458.md                  
-│                       │       │                  https://curl.se/docs/CVE-2026-8458.html                      
-│                       │       │                  https://curl.se/docs/CVE-2026-8458.json                      
-│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11856
-│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8458 
-│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8924 
-│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8926 
-│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8932 
-│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9079 
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-69126.html          
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:69125                
-│                       │       │                  https://github.com/advisories/GHSA-88c6-6jfq-mm4q            
-│                       │       │                  https://hackerone.com/reports/3721183                        
-│                       │       │                  https://linux.oracle.com/cve/CVE-2026-8458.html              
-│                       │       │                  https://linux.oracle.com/errata/ELSA-2026-69126.html         
-│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-8458               
-│                       │       │                  https://ubuntu.com/security/notices/USN-8487-1               
-│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-8458               
+│                       │       ├ References                                                                   
+│                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:69125            
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:69126            
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-8458        
+│                       │       │                  https://bugzilla.redhat.com/2496759                         
+│                       │       │                  https://bugzilla.redhat.com/2496760                         
+│                       │       │                  https://bugzilla.redhat.com/2496764                         
+│                       │       │                  https://bugzilla.redhat.com/2496765                         
+│                       │       │                  https://bugzilla.redhat.com/2496767                         
+│                       │       │                  https://bugzilla.redhat.com/2496771                         
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496764         
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496769         
+│                       │       │                  https://creativecommons.org/licenses/by/4.0/                
+│                       │       │                  https://curl.se/L7HzKXisfJ/CVE-2026-8458.md                 
+│                       │       │                  https://curl.se/docs/CVE-2026-8458.html                     
+│                       │       │                  https://curl.se/docs/CVE-2026-8458.json                     
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8458
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8927
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-69125.html        
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:69126               
+│                       │       │                  https://github.com/advisories/GHSA-88c6-6jfq-mm4q           
+│                       │       │                  https://hackerone.com/reports/3721183                       
+│                       │       │                  https://linux.oracle.com/cve/CVE-2026-8458.html             
+│                       │       │                  https://linux.oracle.com/errata/ELSA-2026-69126.html        
+│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-8458              
+│                       │       │                  https://ubuntu.com/security/notices/USN-8487-1              
+│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-8458              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:24.63Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:32.327Z 
@@ -1855,16 +1849,17 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:55432            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:69126            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-8927        
-│                       │       │                  https://bugzilla.redhat.com/2496764                         
 │                       │       │                  https://bugzilla.redhat.com/2496769                         
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496764         
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496769         
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                
 │                       │       │                  https://curl.se/L7HzKXisfJ/CVE-2026-8927.md                 
 │                       │       │                  https://curl.se/docs/CVE-2026-8927.html                     
 │                       │       │                  https://curl.se/docs/CVE-2026-8927.json                     
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8458
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8927
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-69126.html         
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:55432               
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-55432.html        
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:69126               
 │                       │       │                  https://github.com/advisories/GHSA-jr4f-4564-w3mr           
 │                       │       │                  https://hackerone.com/reports/3744543                       
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-8927.html             
@@ -4532,8 +4527,8 @@
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                 
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-50219
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56132
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-64812.html          
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:64810                
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-64810.html         
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:64812                
 │                       │       │                  https://github.com/libexpat/libexpat/pull/1246               
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-50219.html             
 │                       │       │                  https://linux.oracle.com/errata/ELSA-2026-64812-0.html       
@@ -4653,8 +4648,8 @@
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                 
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-50219
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-56132
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-64812.html          
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:64810                
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-64810.html         
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:64812                
 │                       │       │                  https://github.com/libexpat/libexpat/pull/1272               
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-56132.html             
 │                       │       │                  https://linux.oracle.com/errata/ELSA-2026-64812-0.html       
@@ -5613,6 +5608,9 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:65771             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:65773             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:66018             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72394             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72395             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72399             
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-15588        
 │                       │       │                  https://bugzilla.redhat.com/2492243                          
 │                       │       │                  https://bugzilla.redhat.com/2492245                          
@@ -5636,8 +5634,8 @@
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58013
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58014
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58015
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-55440.html          
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:57015                
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-57015.html         
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:55440                
 │                       │       │                  https://gitlab.gnome.org/GNOME/glib/-/issues/3985            
 │                       │       │                  https://gitlab.gnome.org/GNOME/glib/-/merge_requests/5240    
 │                       │       │                  https://gitlab.gnome.org/GNOME/glib/-/merge_requests/5241    
@@ -5648,7 +5646,7 @@
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-15588              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-07-20T12:17:55.22Z 
-│                       │       ╰ LastModifiedDate: 2026-09-10T18:17:56.303Z 
+│                       │       ╰ LastModifiedDate: 2026-09-28T11:16:44.84Z 
 │                       ├ [81]  ╭ VulnerabilityID : CVE-2026-16118 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
@@ -5706,13 +5704,16 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:71403             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:71404             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:71405             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72394             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72395             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72399             
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-16118        
 │                       │       │                  https://bugzilla.redhat.com/2501732                          
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2501732          
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                 
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-16118
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-64800.html          
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:64799                
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-64799.html         
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:64800                
 │                       │       │                  https://gitlab.freedesktop.org/xdg/xdgmime/-/work_items/41   
 │                       │       │                  https://gitlab.gnome.org/GNOME/glib/-/work_items/3992        
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-16118.html             
@@ -5722,7 +5723,7 @@
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-16118              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-07-17T20:17:16.167Z 
-│                       │       ╰ LastModifiedDate: 2026-09-24T18:17:13.03Z 
+│                       │       ╰ LastModifiedDate: 2026-09-28T11:16:45.133Z 
 │                       ├ [82]  ╭ VulnerabilityID : CVE-2026-58010 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
@@ -5798,6 +5799,9 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:65771             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:65773             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:66018             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72394             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72395             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72399             
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-58010        
 │                       │       │                  https://bugzilla.redhat.com/2492243                          
 │                       │       │                  https://bugzilla.redhat.com/2492245                          
@@ -5821,8 +5825,8 @@
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58013
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58014
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58015
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-55440.html          
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:57015                
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-57015.html         
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:55440                
 │                       │       │                  https://github.com/advisories/GHSA-m7rp-473c-296x            
 │                       │       │                  https://gitlab.gnome.org/GNOME/glib/-/issues/3915            
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-58010.html             
@@ -5832,7 +5836,7 @@
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-58010              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-30T13:19:17.067Z 
-│                       │       ╰ LastModifiedDate: 2026-09-10T18:18:02.7Z 
+│                       │       ╰ LastModifiedDate: 2026-09-28T11:16:45.817Z 
 │                       ├ [83]  ╭ VulnerabilityID : CVE-2026-58011 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
@@ -5907,6 +5911,9 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:65771             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:65773             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:66018             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72394             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72395             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72399             
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-58011        
 │                       │       │                  https://bugzilla.redhat.com/2492243                          
 │                       │       │                  https://bugzilla.redhat.com/2492245                          
@@ -5930,8 +5937,8 @@
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58013
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58014
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58015
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-55440.html          
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:57015                
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-57015.html         
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:55440                
 │                       │       │                  https://github.com/advisories/GHSA-8xmh-8wfg-9f6j            
 │                       │       │                  https://gitlab.gnome.org/GNOME/glib/-/issues/3917            
 │                       │       │                  https://gitlab.gnome.org/GNOME/glib/-/work_items/3917        
@@ -5942,7 +5949,7 @@
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-58011              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-30T13:19:17.2Z 
-│                       │       ╰ LastModifiedDate: 2026-09-10T18:18:03Z 
+│                       │       ╰ LastModifiedDate: 2026-09-28T11:16:46.103Z 
 │                       ├ [84]  ╭ VulnerabilityID : CVE-2026-58012 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
@@ -6019,6 +6026,9 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:65771             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:65773             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:66018             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72394             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72395             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72399             
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-58012        
 │                       │       │                  https://bugzilla.redhat.com/2492243                          
 │                       │       │                  https://bugzilla.redhat.com/2492245                          
@@ -6042,8 +6052,8 @@
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58013
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58014
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58015
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-55440.html          
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:57015                
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-57015.html         
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:55440                
 │                       │       │                  https://github.com/advisories/GHSA-vwg8-37h9-g38g            
 │                       │       │                  https://gitlab.gnome.org/GNOME/glib/-/issues/3918            
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-58012.html             
@@ -6053,7 +6063,7 @@
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-58012              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-30T13:19:17.33Z 
-│                       │       ╰ LastModifiedDate: 2026-09-10T18:18:03.29Z 
+│                       │       ╰ LastModifiedDate: 2026-09-28T11:16:46.4Z 
 │                       ├ [85]  ╭ VulnerabilityID : CVE-2026-58013 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
@@ -6128,6 +6138,9 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:65771             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:65773             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:66018             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72394             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72395             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72399             
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-58013        
 │                       │       │                  https://bugzilla.redhat.com/2492243                          
 │                       │       │                  https://bugzilla.redhat.com/2492245                          
@@ -6151,8 +6164,8 @@
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58013
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58014
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58015
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-55440.html          
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:57015                
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-57015.html         
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:55440                
 │                       │       │                  https://github.com/advisories/GHSA-4x46-h598-64qr            
 │                       │       │                  https://gitlab.gnome.org/GNOME/glib/-/issues/3925            
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-58013.html             
@@ -6162,7 +6175,7 @@
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-58013              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-30T13:19:17.457Z 
-│                       │       ╰ LastModifiedDate: 2026-09-10T18:18:03.59Z 
+│                       │       ╰ LastModifiedDate: 2026-09-28T11:16:46.68Z 
 │                       ├ [86]  ╭ VulnerabilityID : CVE-2026-58014 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
@@ -6237,6 +6250,9 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:65773             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:66018             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:66357             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72394             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72395             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72399             
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-58014        
 │                       │       │                  https://bugzilla.redhat.com/2492243                          
 │                       │       │                  https://bugzilla.redhat.com/2492245                          
@@ -6260,8 +6276,8 @@
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58013
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58014
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58015
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-55440.html          
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:57015                
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-57015.html         
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:55440                
 │                       │       │                  https://github.com/advisories/GHSA-h88q-m8mm-7243            
 │                       │       │                  https://gitlab.gnome.org/GNOME/glib/-/issues/3930            
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-58014.html             
@@ -6271,7 +6287,7 @@
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-58014              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-30T13:19:17.58Z 
-│                       │       ╰ LastModifiedDate: 2026-09-15T12:17:51.327Z 
+│                       │       ╰ LastModifiedDate: 2026-09-28T11:16:46.983Z 
 │                       ├ [87]  ╭ VulnerabilityID : CVE-2026-58015 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
@@ -6349,6 +6365,9 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:65773             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:66018             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:66357             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72394             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72395             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72399             
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-58015        
 │                       │       │                  https://bugzilla.redhat.com/2492243                          
 │                       │       │                  https://bugzilla.redhat.com/2492245                          
@@ -6372,8 +6391,8 @@
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58013
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58014
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58015
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-55440.html          
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:57015                
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-57015.html         
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:55440                
 │                       │       │                  https://github.com/advisories/GHSA-hmpf-72wc-2r6x            
 │                       │       │                  https://gitlab.gnome.org/GNOME/glib/-/issues/3931            
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-58015.html             
@@ -6383,7 +6402,7 @@
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-58015              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-30T13:19:17.707Z 
-│                       │       ╰ LastModifiedDate: 2026-09-15T12:17:51.643Z 
+│                       │       ╰ LastModifiedDate: 2026-09-28T11:16:47.273Z 
 │                       ├ [88]  ╭ VulnerabilityID : CVE-2026-86469 
 │                       │       ├ PkgID           : glib2@2.68.4-19.el9_8.2.x86_64 
 │                       │       ├ PkgName         : glib2 
@@ -9045,9 +9064,9 @@
 │                       │       │                  1                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4199
 │                       │       │                  2                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-61623.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-61625.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:61625               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:61623               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/advisories/GHSA-67v8-88jf-4x6q           
 │                       │       │                                                                              
@@ -9162,9 +9181,9 @@
 │                       │       │                  1                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4199
 │                       │       │                  2                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-61623.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-61625.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:61625               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:61623               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/advisories/GHSA-qxh4-rprf-2mmj           
 │                       │       │                                                                              
@@ -9278,7 +9297,7 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-125
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon     : 2 
+│                       │       ├ VendorSeverity   ╭ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ julia      : 2 
@@ -9628,7 +9647,7 @@
 │                       │       │                  CWE-200
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 1 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ redhat     : 2 
@@ -9642,19 +9661,18 @@
 │                       │       │                            ╰ V3Score : 3.7 
 │                       │       ├ References                                                                     
 │                       │       │                  ──────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:55787              
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:55798              
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-60589         
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513035           
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513037           
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513038           
-│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513039           
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                  
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60589 
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-61308 
-│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-70906 
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-70907 
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-55798.html           
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:55798                 
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-55798.html          
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:55787                 
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-60589.html              
 │                       │       │                  https://linux.oracle.com/errata/ELSA-2026-55798.html          
 │                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-60589               
@@ -9720,7 +9738,7 @@
 │                       │       │                  CWE-284
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ redhat     : 2 
@@ -9734,19 +9752,18 @@
 │                       │       │                            ╰ V3Score : 6.8 
 │                       │       ├ References                                                                     
 │                       │       │                  ──────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:55787              
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:55798              
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-61308         
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513035           
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513037           
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513038           
-│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513039           
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                  
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60589 
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-61308 
-│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-70906 
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-70907 
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-55798.html           
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:55798                 
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-55798.html          
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:55787                 
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-61308.html              
 │                       │       │                  https://linux.oracle.com/errata/ELSA-2026-55798.html          
 │                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-61308               
@@ -9805,7 +9822,7 @@
 │                       │       │                  CWE-284
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 2 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 2 
 │                       │       │                  ├ redhat     : 2 
@@ -9819,19 +9836,18 @@
 │                       │       │                            ╰ V3Score : 5.3 
 │                       │       ├ References                                                                     
 │                       │       │                  ──────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:55787              
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:55798              
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-70907         
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513035           
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513037           
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513038           
-│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2513039           
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                  
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-60589 
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-61308 
-│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-70906 
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-70907 
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-55798.html           
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:55798                 
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-55798.html          
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:55787                 
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-70907.html              
 │                       │       │                  https://linux.oracle.com/errata/ELSA-2026-55798.html          
 │                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-70907               
@@ -10133,14 +10149,18 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:63100             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:65839             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:65851             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:67857             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:67935             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72394             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72395             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72399             
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-14164        
 │                       │       │                  https://bugzilla.redhat.com/2493411                          
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2493411          
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                 
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-14164
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-52674.html          
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:52675                
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-52675.html         
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:52674                
 │                       │       │                  https://github.com/libarchive/libarchive/issues/3069         
 │                       │       │                  https://github.com/libarchive/libarchive/pull/3071           
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-14164.html             
@@ -10150,7 +10170,7 @@
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-14164              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-30T07:16:32.17Z 
-│                       │       ╰ LastModifiedDate: 2026-09-24T12:17:10.31Z 
+│                       │       ╰ LastModifiedDate: 2026-09-28T11:16:44.54Z 
 │                       ├ [148] ╭ VulnerabilityID : CVE-2026-15028 
 │                       │       ├ PkgID           : libarchive@3.5.3-9.el9_7.x86_64 
 │                       │       ├ PkgName         : libarchive 
@@ -10696,9 +10716,9 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5437
 │                       │       │                  1                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-60226.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-59380.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:59380               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:60226               
 │                       │       │                                                                              
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-54371.html            
 │                       │       │                                                                              
@@ -11048,38 +11068,34 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:
 │                       │       │                           │           H/A:N 
 │                       │       │                           ╰ V3Score : 8.1 
-│                       │       ├ References                                                                    
-│                       │       │                  ─────────────────────────────────────────────────────────────
-│                       │       │                  https://access.redhat.com/errata/RHSA-2026:69125             
-│                       │       │                  https://access.redhat.com/errata/RHSA-2026:69126             
-│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-8458         
-│                       │       │                  https://bugzilla.redhat.com/2496764                          
-│                       │       │                  https://bugzilla.redhat.com/2496769                          
-│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496759          
-│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496760          
-│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496764          
-│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496765          
-│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496767          
-│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496771          
-│                       │       │                  https://creativecommons.org/licenses/by/4.0/                 
-│                       │       │                  https://curl.se/L7HzKXisfJ/CVE-2026-8458.md                  
-│                       │       │                  https://curl.se/docs/CVE-2026-8458.html                      
-│                       │       │                  https://curl.se/docs/CVE-2026-8458.json                      
-│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11856
-│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8458 
-│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8924 
-│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8926 
-│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8932 
-│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9079 
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-69126.html          
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:69125                
-│                       │       │                  https://github.com/advisories/GHSA-88c6-6jfq-mm4q            
-│                       │       │                  https://hackerone.com/reports/3721183                        
-│                       │       │                  https://linux.oracle.com/cve/CVE-2026-8458.html              
-│                       │       │                  https://linux.oracle.com/errata/ELSA-2026-69126.html         
-│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-8458               
-│                       │       │                  https://ubuntu.com/security/notices/USN-8487-1               
-│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-8458               
+│                       │       ├ References                                                                   
+│                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:69125            
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:69126            
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-8458        
+│                       │       │                  https://bugzilla.redhat.com/2496759                         
+│                       │       │                  https://bugzilla.redhat.com/2496760                         
+│                       │       │                  https://bugzilla.redhat.com/2496764                         
+│                       │       │                  https://bugzilla.redhat.com/2496765                         
+│                       │       │                  https://bugzilla.redhat.com/2496767                         
+│                       │       │                  https://bugzilla.redhat.com/2496771                         
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496764         
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496769         
+│                       │       │                  https://creativecommons.org/licenses/by/4.0/                
+│                       │       │                  https://curl.se/L7HzKXisfJ/CVE-2026-8458.md                 
+│                       │       │                  https://curl.se/docs/CVE-2026-8458.html                     
+│                       │       │                  https://curl.se/docs/CVE-2026-8458.json                     
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8458
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8927
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-69125.html        
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:69126               
+│                       │       │                  https://github.com/advisories/GHSA-88c6-6jfq-mm4q           
+│                       │       │                  https://hackerone.com/reports/3721183                       
+│                       │       │                  https://linux.oracle.com/cve/CVE-2026-8458.html             
+│                       │       │                  https://linux.oracle.com/errata/ELSA-2026-69126.html        
+│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-8458              
+│                       │       │                  https://ubuntu.com/security/notices/USN-8487-1              
+│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-8458              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-07-03T07:16:24.63Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:32.327Z 
@@ -11142,16 +11158,17 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:55432            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:69126            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-8927        
-│                       │       │                  https://bugzilla.redhat.com/2496764                         
 │                       │       │                  https://bugzilla.redhat.com/2496769                         
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496764         
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496769         
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                
 │                       │       │                  https://curl.se/L7HzKXisfJ/CVE-2026-8927.md                 
 │                       │       │                  https://curl.se/docs/CVE-2026-8927.html                     
 │                       │       │                  https://curl.se/docs/CVE-2026-8927.json                     
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8458
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8927
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-69126.html         
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:55432               
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-55432.html        
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:69126               
 │                       │       │                  https://github.com/advisories/GHSA-jr4f-4564-w3mr           
 │                       │       │                  https://hackerone.com/reports/3744543                       
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-8927.html             
@@ -13505,9 +13522,9 @@
 │                       │       │                  7                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6338
 │                       │       │                  8                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67910.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67909.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67909               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67910               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/libevent/libevent/commit/10abb34b8dc3e118
 │                       │       │                  4de315dd261ce4b77563cda6                                    
@@ -13620,9 +13637,9 @@
 │                       │       │                  7                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6338
 │                       │       │                  8                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67910.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67909.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67909               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67910               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/libevent/libevent/commit/91ed8745eebabdd2
 │                       │       │                  7592a83d350338a8c4626321                                    
@@ -13732,9 +13749,9 @@
 │                       │       │                  7                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6338
 │                       │       │                  8                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67910.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67909.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67909               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67910               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/libevent/libevent/commit/109c16499282959d
 │                       │       │                  70f56ec3baf4c8b1e6646bda                                    
@@ -13847,9 +13864,9 @@
 │                       │       │                  7                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6338
 │                       │       │                  8                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67910.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67909.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67909               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67910               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/libevent/libevent/commit/758be0c0f69c1934
 │                       │       │                  ef9a84ab39e9f9e5fde2e6d0                                    
@@ -13962,9 +13979,9 @@
 │                       │       │                  7                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6338
 │                       │       │                  8                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67910.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67909.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67909               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67910               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/libevent/libevent/releases/tag/release-2.
 │                       │       │                  1.13-stable                                                 
@@ -14072,9 +14089,9 @@
 │                       │       │                  7                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6338
 │                       │       │                  8                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67910.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67909.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67909               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67910               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/libevent/libevent/commit/52057cb33d0c20c0
 │                       │       │                  a0453fbabe6c0c96854931b9                                    
@@ -14183,9 +14200,9 @@
 │                       │       │                  7                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6338
 │                       │       │                  8                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67910.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67909.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67909               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67910               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/libevent/libevent/commit/87e8e44fa774e967
 │                       │       │                  7b089b1a5114ee68aefa1636                                    
@@ -14292,9 +14309,9 @@
 │                       │       │                  7                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6338
 │                       │       │                  8                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67910.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67909.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67909               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67910               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/libevent/libevent/commit/5cb95ba2f804f8af
 │                       │       │                  f46f88d58391c71e1251cd1c                                    
@@ -14546,9 +14563,9 @@
 │                       │       │                  9                                                           
 │                       │       │                  https://dev.gnupg.org/T8211                                 
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-50147.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-50144.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:50144               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:50147               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/advisories/GHSA-wrv8-79m2-qg24           
 │                       │       │                                                                              
@@ -15755,8 +15772,8 @@
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86142
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86143
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-86144
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-71585.html          
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:71586                
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-71586.html         
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:71585                
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-74860.html             
 │                       │       │                  https://linux.oracle.com/errata/ELSA-2026-71641.html         
 │                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-74860              
@@ -15839,9 +15856,9 @@
 │                       │       │                  3                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8614
 │                       │       │                  4                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-71585.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-71586.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:71586               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:71585               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/GNOME/libxml2/commit/d1686f91dbda141a7522
 │                       │       │                  00419d35639fd6b38340                                        
@@ -15980,16 +15997,18 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:60394            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:61247            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-11979       
-│                       │       │                  https://bugzilla.redhat.com/2491354                         
 │                       │       │                  https://bugzilla.redhat.com/2494191                         
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2491354         
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2494191         
 │                       │       │                  https://cert.pl/en/posts/2026/06/CVE-2026-11979             
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1197
 │                       │       │                  9                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-61247.html         
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6653
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:60394               
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-60394.html        
+│                       │       │                                                                              
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:61247               
 │                       │       │                                                                              
 │                       │       │                  https://gitlab.gnome.org/GNOME/libxml2/-/commit/c2e233fc1b34
 │                       │       │                  1685fc99621b2768b503f777a72e                                
@@ -16207,9 +16226,9 @@
 │                       │       │                  3                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8614
 │                       │       │                  4                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-71585.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-71586.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:71586               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:71585               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/GNOME/libxml2/commit/a4cba4b5b5a8c42e155e
 │                       │       │                  d42d2d2a44955465a2e4                                        
@@ -16300,9 +16319,9 @@
 │                       │       │                  3                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8614
 │                       │       │                  4                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-71585.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-71586.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:71586               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:71585               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/GNOME/libxml2/commit/6b3a736c0edc74ceec3d
 │                       │       │                  82f5252499d7911b3a58                                        
@@ -16398,9 +16417,9 @@
 │                       │       │                  3                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8614
 │                       │       │                  4                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-71585.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-71586.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:71586               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:71585               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/GNOME/libxml2/commit/90f293ba74d28b1d5709
 │                       │       │                  20382e707586f68ebf35                                        
@@ -16498,9 +16517,9 @@
 │                       │       │                  3                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8614
 │                       │       │                  4                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-71585.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-71586.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:71586               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:71585               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/GNOME/libxml2/commit/b63cd517afecb76582dd
 │                       │       │                  9488c55e54ceaf50de61                                        
@@ -17692,9 +17711,9 @@
 │                       │       │                  5                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6307
 │                       │       │                  6                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67165.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67154.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67154               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67165               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/openssl/openssl/commit/08e7756c3900bcfd77
 │                       │       │                  a720e7b74e27d6e4ed01a9                                      
@@ -17934,9 +17953,9 @@
 │                       │       │                  5                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6307
 │                       │       │                  6                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67165.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67154.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67154               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67165               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/openssl/openssl/commit/70cebd74d3592f5272
 │                       │       │                  945501b58a60374c4e13af                                      
@@ -18083,9 +18102,9 @@
 │                       │       │                  5                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6307
 │                       │       │                  6                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67165.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67154.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67154               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67165               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/openssl/openssl/commit/2a3dac874c8057c1f0
 │                       │       │                  186849bf1ede1ae7b6b756                                      
@@ -18247,9 +18266,9 @@
 │                       │       │                  5                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6307
 │                       │       │                  6                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67165.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67154.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67154               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67165               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/openssl/openssl/commit/37882aa2e0256e1072
 │                       │       │                  442a8f62f7db45b995c45b                                      
@@ -18346,7 +18365,6 @@
 │                       │       │                  ────────────────────────────────────────────────────────────
 │                       │       │                  http://www.openwall.com/lists/oss-security/2025/01/20/2     
 │                       │       │                  https://access.redhat.com/errata/RHSA-2025:15699            
-│                       │       │                  https://access.redhat.com/errata/RHSA-2025:16046            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2024-13176       
 │                       │       │                  https://bugzilla.redhat.com/2359885                         
 │                       │       │                  https://bugzilla.redhat.com/2359888                         
@@ -18560,7 +18578,7 @@
 │                       │       │                  4                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2025-16046.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2025-15699.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2025:15699               
 │                       │       │                                                                              
@@ -18905,9 +18923,9 @@
 │                       │       │                  5                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6307
 │                       │       │                  6                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67165.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67154.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67154               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67165               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/openssl/openssl/commit/1e8c398db67404babd
 │                       │       │                  3e5af999bb6bd86f720c76                                      
@@ -19573,9 +19591,9 @@
 │                       │       │                  5                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6307
 │                       │       │                  6                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67165.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67154.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67154               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67165               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/openssl/openssl/commit/4808b5d64176451f3d
 │                       │       │                  93d87d0ac9c81a9b13fb23                                      
@@ -19727,9 +19745,9 @@
 │                       │       │                  5                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6307
 │                       │       │                  6                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67165.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67154.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67154               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67165               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/openssl/openssl/commit/0cc20b322639919aa4
 │                       │       │                  23e90799d9a57c3b4b76ca                                      
@@ -19874,9 +19892,9 @@
 │                       │       │                  5                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6307
 │                       │       │                  6                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67165.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67154.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67154               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67165               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/openssl/openssl/commit/01e567978a55fba181
 │                       │       │                  42a230380c31296049fae7                                      
@@ -20032,9 +20050,9 @@
 │                       │       │                  5                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6307
 │                       │       │                  6                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67165.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67154.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67154               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67165               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/openssl/openssl/commit/7308946576b12e64b8
 │                       │       │                  be53bcf0a120354b2b42bc                                      
@@ -20540,9 +20558,9 @@
 │                       │       │                  5                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6307
 │                       │       │                  6                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67165.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67154.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67154               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67165               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/openssl/openssl/commit/08e7756c3900bcfd77
 │                       │       │                  a720e7b74e27d6e4ed01a9                                      
@@ -20782,9 +20800,9 @@
 │                       │       │                  5                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6307
 │                       │       │                  6                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67165.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67154.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67154               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67165               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/openssl/openssl/commit/70cebd74d3592f5272
 │                       │       │                  945501b58a60374c4e13af                                      
@@ -20931,9 +20949,9 @@
 │                       │       │                  5                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6307
 │                       │       │                  6                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67165.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67154.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67154               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67165               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/openssl/openssl/commit/2a3dac874c8057c1f0
 │                       │       │                  186849bf1ede1ae7b6b756                                      
@@ -21095,9 +21113,9 @@
 │                       │       │                  5                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6307
 │                       │       │                  6                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67165.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67154.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67154               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67165               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/openssl/openssl/commit/37882aa2e0256e1072
 │                       │       │                  442a8f62f7db45b995c45b                                      
@@ -21194,7 +21212,6 @@
 │                       │       │                  ────────────────────────────────────────────────────────────
 │                       │       │                  http://www.openwall.com/lists/oss-security/2025/01/20/2     
 │                       │       │                  https://access.redhat.com/errata/RHSA-2025:15699            
-│                       │       │                  https://access.redhat.com/errata/RHSA-2025:16046            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2024-13176       
 │                       │       │                  https://bugzilla.redhat.com/2359885                         
 │                       │       │                  https://bugzilla.redhat.com/2359888                         
@@ -21408,7 +21425,7 @@
 │                       │       │                  4                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2025-16046.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2025-15699.html        
 │                       │       │                                                                              
 │                       │       │                  https://errata.rockylinux.org/RLSA-2025:15699               
 │                       │       │                                                                              
@@ -21753,9 +21770,9 @@
 │                       │       │                  5                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6307
 │                       │       │                  6                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67165.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67154.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67154               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67165               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/openssl/openssl/commit/1e8c398db67404babd
 │                       │       │                  3e5af999bb6bd86f720c76                                      
@@ -22421,9 +22438,9 @@
 │                       │       │                  5                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6307
 │                       │       │                  6                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67165.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67154.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67154               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67165               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/openssl/openssl/commit/4808b5d64176451f3d
 │                       │       │                  93d87d0ac9c81a9b13fb23                                      
@@ -22575,9 +22592,9 @@
 │                       │       │                  5                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6307
 │                       │       │                  6                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67165.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67154.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67154               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67165               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/openssl/openssl/commit/0cc20b322639919aa4
 │                       │       │                  23e90799d9a57c3b4b76ca                                      
@@ -22722,9 +22739,9 @@
 │                       │       │                  5                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6307
 │                       │       │                  6                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67165.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67154.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67154               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67165               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/openssl/openssl/commit/01e567978a55fba181
 │                       │       │                  42a230380c31296049fae7                                      
@@ -22880,9 +22897,9 @@
 │                       │       │                  5                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6307
 │                       │       │                  6                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-67165.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-67154.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67154               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:67165               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/openssl/openssl/commit/7308946576b12e64b8
 │                       │       │                  be53bcf0a120354b2b42bc                                      
@@ -23053,13 +23070,16 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:54387             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:54760             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:58981             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72394             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72395             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72399             
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-13757        
 │                       │       │                  https://bugzilla.redhat.com/2494556                          
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2494556          
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                 
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-13757
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-49667.html          
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:49668                
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-49668.html         
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:49667                
 │                       │       │                  https://github.com/advisories/GHSA-p2wm-69qx-x25w            
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-13757.html             
 │                       │       │                  https://linux.oracle.com/errata/ELSA-2026-49668.html         
@@ -23068,7 +23088,7 @@
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-13757              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-29T19:16:40.907Z 
-│                       │       ╰ LastModifiedDate: 2026-09-01T13:18:10.253Z 
+│                       │       ╰ LastModifiedDate: 2026-09-28T11:16:44.297Z 
 │                       ├ [289] ╭ VulnerabilityID : CVE-2026-13757 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
@@ -23127,13 +23147,16 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:54387             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:54760             
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:58981             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72394             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72395             
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:72399             
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-13757        
 │                       │       │                  https://bugzilla.redhat.com/2494556                          
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2494556          
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                 
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-13757
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-49667.html          
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:49668                
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-49668.html         
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:49667                
 │                       │       │                  https://github.com/advisories/GHSA-p2wm-69qx-x25w            
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-13757.html             
 │                       │       │                  https://linux.oracle.com/errata/ELSA-2026-49668.html         
@@ -23142,7 +23165,7 @@
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-13757              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-29T19:16:40.907Z 
-│                       │       ╰ LastModifiedDate: 2026-09-01T13:18:10.253Z 
+│                       │       ╰ LastModifiedDate: 2026-09-28T11:16:44.297Z 
 │                       ├ [290] ╭ VulnerabilityID : CVE-2026-12610 
 │                       │       ├ PkgID           : pam@1.5.1-28.el9.x86_64 
 │                       │       ├ PkgName         : pam 
@@ -23240,15 +23263,16 @@
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:59379            
 │                       │       │                  https://access.redhat.com/errata/RHSA-2026:64815            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-54411       
+│                       │       │                  https://bugzilla.redhat.com/2488766                         
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2488766         
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5441
 │                       │       │                  1                                                           
 │                       │       │                  https://cwe.mitre.org/data/definitions/208.html             
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-64815.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-59379.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:59379               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:64815               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/linux-pam/linux-pam                      
 │                       │       │                                                                              
@@ -24332,17 +24356,17 @@
 │                       │       │                            ╰ V3Score : 7.3 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
-│                       │       │                  https://access.redhat.com/errata/RHSA-2026:58902            
-│                       │       │                  https://access.redhat.com/errata/RHSA-2026:59009            
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:54268            
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:58928            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-11940       
 │                       │       │                  https://bugzilla.redhat.com/2491848                         
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2491848         
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1194
 │                       │       │                  0                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-59009.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-58928.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:58902               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:54268               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/0f852b3f07dd8e71e40
 │                       │       │                  326a51c02afbf16a42cc5                                       
@@ -24402,7 +24426,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-93
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon : 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
 │                       │       │                  ├ azure  : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ photon : 2 
@@ -24626,9 +24650,9 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19064               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/568342cfc8f002d9a15
 │                       │       │                  f30238f26b9d2e0e79036                                       
@@ -24688,7 +24712,7 @@
 │                       │       │                  CWE-93
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
@@ -24755,9 +24779,9 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19064               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/05356b1cc153108aaf2
 │                       │       │                  7f3b72ce438af4aa218c0                                       
@@ -24822,7 +24846,7 @@
 │                       │       │                  CWE-416
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -24959,7 +24983,7 @@
 │                       │       │                  CWE-93
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -25028,9 +25052,9 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19064               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/62700107418eb2cca3f
 │                       │       │                  c88da036a243ea975f172                                       
@@ -25305,9 +25329,9 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19064               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/05ed7ce7ae9e17c23a0
 │                       │       │                  4085b2539fe6d6d3cef69                                       
@@ -25340,7 +25364,74 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-10T18:16:40.97Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:52.39Z 
-│                       ├ [322] ╭ VulnerabilityID : CVE-2026-3276 
+│                       ├ [322] ╭ VulnerabilityID : CVE-2026-19672 
+│                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.2.noarch 
+│                       │       ├ PkgName         : python-unversioned-command 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
+│                       │       │                  │       l9_8.2?arch=noarch&distro=redhat-9.8 
+│                       │       │                  ╰ UID : 14c3a8bd129ac847 
+│                       │       ├ InstalledVersion: 3.9.25-7.el9_8.2 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:b44ff73f1e8f0a27b2a0c9912c7aec7a087d59dd8b8
+│                       │       │                  │         f8a7c0d5b53783b2c39dc 
+│                       │       │                  ╰ DiffID: sha256:1ee49e0b9bd5b0e31fd1b934a3a76a64ea30bde0de5
+│                       │       │                            acfd82ce1a8591d7e5793 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19672 
+│                       │       ├ Fingerprint     : sha256:f2e953516f44d6e4e2d2d0c2541b5a2ae9e180dca70510fb3904
+│                       │       │                   6795cc4c42c4 
+│                       │       ├ Title           : python: Python tarfile module: Directory traversal allows
+│                       │       │                   creation of empty directories outside extraction
+│                       │       │                   destination 
+│                       │       ├ Description     : The tarfile module's tar and data
+│                       │       │                    extraction filters created directories outside the
+│                       │       │                   destination for 
+│                       │       │                   members whose name leaves the destination and returns to
+│                       │       │                   it, such as ../evil/../dest/sub/file. The containment check
+│                       │       │                    used the resolved path, but intermediate directories were
+│                       │       │                   created from the name as given.
+│                       │       │                   
+│                       │       │                   Only
+│                       │       │                    empty directories are created outside the destination.
+│                       │       │                   Member contents 
+│                       │       │                   are still extracted inside it. To return to the destination
+│                       │       │                    the member's
+│                       │       │                    name must contain the destination directory's own final
+│                       │       │                   component, so 
+│                       │       │                   extraction into a secure randomised directory is not
+│                       │       │                   affected.
+│                       │       │                   This affects POSIX platforms only. On Windows, ..
+│                       │       │                   components are collapsed before the path reaches the
+│                       │       │                   filesystem, so the directories outside the destination are
+│                       │       │                   never created. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs                 
+│                       │       │                  ──────
+│                       │       │                  CWE-22
+│                       │       │                  
+│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       │                  ╰ redhat : 2 
+│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:
+│                       │       │                  │         │            N/VI:N/VA:N/SC:N/SI:L/SA:N 
+│                       │       │                  │         ╰ V40Score : 6.3 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                            │           :L/A:N 
+│                       │       │                            ╰ V3Score : 5.3 
+│                       │       ├ References                                                                   
+│                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  http://www.openwall.com/lists/oss-security/2026/08/25/10    
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-19672       
+│                       │       │                  https://github.com/python/cpython/pull/156000               
+│                       │       │                  https://mail.python.org/archives/list/security-announce@pyth
+│                       │       │                  on.org/thread/J2WT2ALRWEXQJOB3C7Q2HYWUXP3CINWO/             
+│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-19672             
+│                       │       │                                                                              
+│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-19672             
+│                       │       │                                                                              
+│                       │       │                  
+│                       │       ├ PublishedDate   : 2026-08-19T16:17:06.593Z 
+│                       │       ╰ LastModifiedDate: 2026-08-28T21:16:15.74Z 
+│                       ├ [323] ╭ VulnerabilityID : CVE-2026-3276 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.2.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -25417,7 +25508,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-03T16:16:29.253Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:52.847Z 
-│                       ├ [323] ╭ VulnerabilityID : CVE-2026-3644 
+│                       ├ [324] ╭ VulnerabilityID : CVE-2026-3644 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.2.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -25448,7 +25539,7 @@
 │                       │       │                  CWE-116
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -25516,9 +25607,9 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19064               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/3974092b037f9a3b000
 │                       │       │                  fb15b48ea61ce3b25d330                                       
@@ -25553,7 +25644,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.12Z 
-│                       ├ [324] ╭ VulnerabilityID : CVE-2026-4224 
+│                       ├ [325] ╭ VulnerabilityID : CVE-2026-4224 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.2.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -25582,7 +25673,7 @@
 │                       │       │                  CWE-674
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ nvd        : 3 
@@ -25655,9 +25746,9 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19064               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/196edfb06a7458377d4
 │                       │       │                  d0f4b3cd41724c1f3bd4a                                       
@@ -25692,7 +25783,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.273Z 
-│                       ├ [325] ╭ VulnerabilityID : CVE-2026-42308 
+│                       ├ [326] ╭ VulnerabilityID : CVE-2026-42308 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.2.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -25763,7 +25854,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-05-09T06:16:09.793Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T21:10:00.143Z 
-│                       ├ [326] ╭ VulnerabilityID : CVE-2026-4360 
+│                       ├ [327] ╭ VulnerabilityID : CVE-2026-4360 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.2.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -25839,7 +25930,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-30T15:16:57.193Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.42Z 
-│                       ├ [327] ╭ VulnerabilityID : CVE-2026-5713 
+│                       ├ [328] ╭ VulnerabilityID : CVE-2026-5713 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.2.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -25920,8 +26011,8 @@
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5713
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19176.html         
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19019               
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19019.html        
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19176               
 │                       │       │                  https://github.com/python/cpython/commit/289fd2c97a7e5aecb8b
 │                       │       │                  69f94f5e838ccfeee7e67                                       
 │                       │       │                  https://github.com/python/cpython/commit/316f6265b7f9ca4ffed
@@ -25945,7 +26036,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-14T16:16:48.717Z 
 │                       │       ╰ LastModifiedDate: 2026-07-31T14:16:50.59Z 
-│                       ├ [328] ╭ VulnerabilityID : CVE-2026-6019 
+│                       ├ [329] ╭ VulnerabilityID : CVE-2026-6019 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.2.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -25976,7 +26067,7 @@
 │                       │       │                  CWE-116
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 3 
@@ -26005,8 +26096,8 @@
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6019
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-28247.html         
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:28581               
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-28581.html        
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:28247               
 │                       │       │                  https://github.com/python/cpython/commit/3c59b8b53fc75c7f957
 │                       │       │                  8d16fb8201ceb43e8f76c                                       
 │                       │       │                  https://github.com/python/cpython/commit/76b3923d688c0efc580
@@ -26034,7 +26125,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-22T20:16:42.617Z 
 │                       │       ╰ LastModifiedDate: 2026-07-27T17:34:54.33Z 
-│                       ├ [329] ╭ VulnerabilityID : CVE-2026-7210 
+│                       ├ [330] ╭ VulnerabilityID : CVE-2026-7210 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.2.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -26109,7 +26200,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
 │                       │       ╰ LastModifiedDate: 2026-08-14T01:19:08.237Z 
-│                       ├ [330] ╭ VulnerabilityID : CVE-2026-7774 
+│                       ├ [331] ╭ VulnerabilityID : CVE-2026-7774 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.2.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -26185,7 +26276,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-04T16:16:42.103Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:55.783Z 
-│                       ├ [331] ╭ VulnerabilityID : CVE-2025-13462 
+│                       ├ [332] ╭ VulnerabilityID : CVE-2025-13462 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.2.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -26258,7 +26349,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-12T18:16:21.397Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:50.98Z 
-│                       ├ [332] ╭ VulnerabilityID : CVE-2025-1795 
+│                       ├ [333] ╭ VulnerabilityID : CVE-2025-1795 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.2.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -26331,7 +26422,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-02-28T19:15:36.55Z 
 │                       │       ╰ LastModifiedDate: 2026-07-31T14:16:44Z 
-│                       ├ [333] ╭ VulnerabilityID : CVE-2026-18503 
+│                       ├ [334] ╭ VulnerabilityID : CVE-2026-18503 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.2.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -26397,7 +26488,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-10T14:17:21.56Z 
 │                       │       ╰ LastModifiedDate: 2026-08-18T15:04:46.61Z 
-│                       ├ [334] ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [335] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.2.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -26490,9 +26581,9 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19064               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/482d6f8bdba9da3725d
 │                       │       │                  272e8bb4a2d25fb6a603e                                       
@@ -26523,7 +26614,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:52.527Z 
-│                       ├ [335] ╭ VulnerabilityID : CVE-2026-3479 
+│                       ├ [336] ╭ VulnerabilityID : CVE-2026-3479 
 │                       │       ├ PkgID           : python-unversioned-command@3.9.25-7.el9_8.2.noarch 
 │                       │       ├ PkgName         : python-unversioned-command 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.e
@@ -26554,7 +26645,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-22
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ╰ redhat: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
@@ -26584,7 +26675,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-18T19:16:06.81Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:43:39.067Z 
-│                       ├ [336] ╭ VulnerabilityID : CVE-2026-11940 
+│                       ├ [337] ╭ VulnerabilityID : CVE-2026-11940 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
 │                       │       │                  RHSA-2026:54268
@@ -26644,17 +26735,17 @@
 │                       │       │                            ╰ V3Score : 7.3 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
-│                       │       │                  https://access.redhat.com/errata/RHSA-2026:58902            
-│                       │       │                  https://access.redhat.com/errata/RHSA-2026:59009            
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:54268            
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:58928            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-11940       
 │                       │       │                  https://bugzilla.redhat.com/2491848                         
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2491848         
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1194
 │                       │       │                  0                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-59009.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-58928.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:58902               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:54268               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/0f852b3f07dd8e71e40
 │                       │       │                  326a51c02afbf16a42cc5                                       
@@ -26687,7 +26778,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-23T17:16:40.847Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:51.627Z 
-│                       ├ [337] ╭ VulnerabilityID : CVE-2025-11468 
+│                       ├ [338] ╭ VulnerabilityID : CVE-2025-11468 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -26714,7 +26805,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-93
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon : 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
 │                       │       │                  ├ azure  : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ photon : 2 
@@ -26756,7 +26847,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:50.69Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:30:31.043Z 
-│                       ├ [338] ╭ VulnerabilityID : CVE-2025-12781 
+│                       ├ [339] ╭ VulnerabilityID : CVE-2025-12781 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -26840,7 +26931,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-21T20:16:04.423Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:32:56.797Z 
-│                       ├ [339] ╭ VulnerabilityID : CVE-2025-13837 
+│                       ├ [340] ╭ VulnerabilityID : CVE-2025-13837 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -26938,9 +27029,9 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19064               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/568342cfc8f002d9a15
 │                       │       │                  f30238f26b9d2e0e79036                                       
@@ -26973,7 +27064,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-12-01T18:16:04.38Z 
 │                       │       ╰ LastModifiedDate: 2026-09-03T03:15:21.037Z 
-│                       ├ [340] ╭ VulnerabilityID : CVE-2025-15282 
+│                       ├ [341] ╭ VulnerabilityID : CVE-2025-15282 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -27000,7 +27091,7 @@
 │                       │       │                  CWE-93
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
@@ -27067,9 +27158,9 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19064               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/05356b1cc153108aaf2
 │                       │       │                  7f3b72ce438af4aa218c0                                       
@@ -27104,7 +27195,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:50.883Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:37:31.58Z 
-│                       ├ [341] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [342] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -27134,7 +27225,7 @@
 │                       │       │                  CWE-416
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -27244,7 +27335,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │       ╰ LastModifiedDate: 2026-07-31T14:16:44.797Z 
-│                       ├ [342] ╭ VulnerabilityID : CVE-2026-0672 
+│                       ├ [343] ╭ VulnerabilityID : CVE-2026-0672 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -27271,7 +27362,7 @@
 │                       │       │                  CWE-93
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -27340,9 +27431,9 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19064               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/62700107418eb2cca3f
 │                       │       │                  c88da036a243ea975f172                                       
@@ -27379,7 +27470,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:52.68Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:11:11.133Z 
-│                       ├ [343] ╭ VulnerabilityID : CVE-2026-0864 
+│                       ├ [344] ╭ VulnerabilityID : CVE-2026-0864 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -27453,7 +27544,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
 │                       │       ╰ LastModifiedDate: 2026-08-18T17:52:03.23Z 
-│                       ├ [344] ╭ VulnerabilityID : CVE-2026-11972 
+│                       ├ [345] ╭ VulnerabilityID : CVE-2026-11972 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -27523,7 +27614,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-23T23:16:49.033Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:51.78Z 
-│                       ├ [345] ╭ VulnerabilityID : CVE-2026-1502 
+│                       ├ [346] ╭ VulnerabilityID : CVE-2026-1502 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -27617,9 +27708,9 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19064               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/05ed7ce7ae9e17c23a0
 │                       │       │                  4085b2539fe6d6d3cef69                                       
@@ -27652,7 +27743,74 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-10T18:16:40.97Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:52.39Z 
-│                       ├ [346] ╭ VulnerabilityID : CVE-2026-3276 
+│                       ├ [347] ╭ VulnerabilityID : CVE-2026-19672 
+│                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
+│                       │       ├ PkgName         : python3 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
+│                       │       │                  │       distro=redhat-9.8 
+│                       │       │                  ╰ UID : ce3583f8707bc504 
+│                       │       ├ InstalledVersion: 3.9.25-7.el9_8.2 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:b44ff73f1e8f0a27b2a0c9912c7aec7a087d59dd8b8
+│                       │       │                  │         f8a7c0d5b53783b2c39dc 
+│                       │       │                  ╰ DiffID: sha256:1ee49e0b9bd5b0e31fd1b934a3a76a64ea30bde0de5
+│                       │       │                            acfd82ce1a8591d7e5793 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19672 
+│                       │       ├ Fingerprint     : sha256:461ba5d3b6a7d78f2dec62a6153ed3fab516ece811427d8482a9
+│                       │       │                   e2e2c846fb7f 
+│                       │       ├ Title           : python: Python tarfile module: Directory traversal allows
+│                       │       │                   creation of empty directories outside extraction
+│                       │       │                   destination 
+│                       │       ├ Description     : The tarfile module's tar and data
+│                       │       │                    extraction filters created directories outside the
+│                       │       │                   destination for 
+│                       │       │                   members whose name leaves the destination and returns to
+│                       │       │                   it, such as ../evil/../dest/sub/file. The containment check
+│                       │       │                    used the resolved path, but intermediate directories were
+│                       │       │                   created from the name as given.
+│                       │       │                   
+│                       │       │                   Only
+│                       │       │                    empty directories are created outside the destination.
+│                       │       │                   Member contents 
+│                       │       │                   are still extracted inside it. To return to the destination
+│                       │       │                    the member's
+│                       │       │                    name must contain the destination directory's own final
+│                       │       │                   component, so 
+│                       │       │                   extraction into a secure randomised directory is not
+│                       │       │                   affected.
+│                       │       │                   This affects POSIX platforms only. On Windows, ..
+│                       │       │                   components are collapsed before the path reaches the
+│                       │       │                   filesystem, so the directories outside the destination are
+│                       │       │                   never created. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs                 
+│                       │       │                  ──────
+│                       │       │                  CWE-22
+│                       │       │                  
+│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       │                  ╰ redhat : 2 
+│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:
+│                       │       │                  │         │            N/VI:N/VA:N/SC:N/SI:L/SA:N 
+│                       │       │                  │         ╰ V40Score : 6.3 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                            │           :L/A:N 
+│                       │       │                            ╰ V3Score : 5.3 
+│                       │       ├ References                                                                   
+│                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  http://www.openwall.com/lists/oss-security/2026/08/25/10    
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-19672       
+│                       │       │                  https://github.com/python/cpython/pull/156000               
+│                       │       │                  https://mail.python.org/archives/list/security-announce@pyth
+│                       │       │                  on.org/thread/J2WT2ALRWEXQJOB3C7Q2HYWUXP3CINWO/             
+│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-19672             
+│                       │       │                                                                              
+│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-19672             
+│                       │       │                                                                              
+│                       │       │                  
+│                       │       ├ PublishedDate   : 2026-08-19T16:17:06.593Z 
+│                       │       ╰ LastModifiedDate: 2026-08-28T21:16:15.74Z 
+│                       ├ [348] ╭ VulnerabilityID : CVE-2026-3276 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -27729,7 +27887,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-03T16:16:29.253Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:52.847Z 
-│                       ├ [347] ╭ VulnerabilityID : CVE-2026-3644 
+│                       ├ [349] ╭ VulnerabilityID : CVE-2026-3644 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -27760,7 +27918,7 @@
 │                       │       │                  CWE-116
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -27828,9 +27986,9 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19064               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/3974092b037f9a3b000
 │                       │       │                  fb15b48ea61ce3b25d330                                       
@@ -27865,7 +28023,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.12Z 
-│                       ├ [348] ╭ VulnerabilityID : CVE-2026-4224 
+│                       ├ [350] ╭ VulnerabilityID : CVE-2026-4224 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -27894,7 +28052,7 @@
 │                       │       │                  CWE-674
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ nvd        : 3 
@@ -27967,9 +28125,9 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19064               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/196edfb06a7458377d4
 │                       │       │                  d0f4b3cd41724c1f3bd4a                                       
@@ -28004,7 +28162,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.273Z 
-│                       ├ [349] ╭ VulnerabilityID : CVE-2026-42308 
+│                       ├ [351] ╭ VulnerabilityID : CVE-2026-42308 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -28075,7 +28233,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-05-09T06:16:09.793Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T21:10:00.143Z 
-│                       ├ [350] ╭ VulnerabilityID : CVE-2026-4360 
+│                       ├ [352] ╭ VulnerabilityID : CVE-2026-4360 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -28151,7 +28309,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-30T15:16:57.193Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.42Z 
-│                       ├ [351] ╭ VulnerabilityID : CVE-2026-5713 
+│                       ├ [353] ╭ VulnerabilityID : CVE-2026-5713 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -28232,8 +28390,8 @@
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5713
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19176.html         
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19019               
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19019.html        
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19176               
 │                       │       │                  https://github.com/python/cpython/commit/289fd2c97a7e5aecb8b
 │                       │       │                  69f94f5e838ccfeee7e67                                       
 │                       │       │                  https://github.com/python/cpython/commit/316f6265b7f9ca4ffed
@@ -28257,7 +28415,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-14T16:16:48.717Z 
 │                       │       ╰ LastModifiedDate: 2026-07-31T14:16:50.59Z 
-│                       ├ [352] ╭ VulnerabilityID : CVE-2026-6019 
+│                       ├ [354] ╭ VulnerabilityID : CVE-2026-6019 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -28288,7 +28446,7 @@
 │                       │       │                  CWE-116
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 3 
@@ -28317,8 +28475,8 @@
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6019
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-28247.html         
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:28581               
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-28581.html        
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:28247               
 │                       │       │                  https://github.com/python/cpython/commit/3c59b8b53fc75c7f957
 │                       │       │                  8d16fb8201ceb43e8f76c                                       
 │                       │       │                  https://github.com/python/cpython/commit/76b3923d688c0efc580
@@ -28346,7 +28504,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-22T20:16:42.617Z 
 │                       │       ╰ LastModifiedDate: 2026-07-27T17:34:54.33Z 
-│                       ├ [353] ╭ VulnerabilityID : CVE-2026-7210 
+│                       ├ [355] ╭ VulnerabilityID : CVE-2026-7210 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -28421,7 +28579,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
 │                       │       ╰ LastModifiedDate: 2026-08-14T01:19:08.237Z 
-│                       ├ [354] ╭ VulnerabilityID : CVE-2026-7774 
+│                       ├ [356] ╭ VulnerabilityID : CVE-2026-7774 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -28497,7 +28655,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-04T16:16:42.103Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:55.783Z 
-│                       ├ [355] ╭ VulnerabilityID : CVE-2025-13462 
+│                       ├ [357] ╭ VulnerabilityID : CVE-2025-13462 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -28570,7 +28728,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-12T18:16:21.397Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:50.98Z 
-│                       ├ [356] ╭ VulnerabilityID : CVE-2025-1795 
+│                       ├ [358] ╭ VulnerabilityID : CVE-2025-1795 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -28643,7 +28801,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-02-28T19:15:36.55Z 
 │                       │       ╰ LastModifiedDate: 2026-07-31T14:16:44Z 
-│                       ├ [357] ╭ VulnerabilityID : CVE-2026-18503 
+│                       ├ [359] ╭ VulnerabilityID : CVE-2026-18503 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -28709,7 +28867,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-10T14:17:21.56Z 
 │                       │       ╰ LastModifiedDate: 2026-08-18T15:04:46.61Z 
-│                       ├ [358] ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [360] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -28802,9 +28960,9 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19064               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/482d6f8bdba9da3725d
 │                       │       │                  272e8bb4a2d25fb6a603e                                       
@@ -28835,7 +28993,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:52.527Z 
-│                       ├ [359] ╭ VulnerabilityID : CVE-2026-3479 
+│                       ├ [361] ╭ VulnerabilityID : CVE-2026-3479 
 │                       │       ├ PkgID           : python3@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&
@@ -28866,7 +29024,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-22
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ╰ redhat: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
@@ -28896,7 +29054,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-18T19:16:06.81Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:43:39.067Z 
-│                       ├ [360] ╭ VulnerabilityID : CVE-2026-11940 
+│                       ├ [362] ╭ VulnerabilityID : CVE-2026-11940 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
 │                       │       │                  RHSA-2026:54268
@@ -28956,17 +29114,17 @@
 │                       │       │                            ╰ V3Score : 7.3 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
-│                       │       │                  https://access.redhat.com/errata/RHSA-2026:58902            
-│                       │       │                  https://access.redhat.com/errata/RHSA-2026:59009            
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:54268            
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:58928            
 │                       │       │                  https://access.redhat.com/security/cve/CVE-2026-11940       
 │                       │       │                  https://bugzilla.redhat.com/2491848                         
 │                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2491848         
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1194
 │                       │       │                  0                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-59009.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-58928.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:58902               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:54268               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/0f852b3f07dd8e71e40
 │                       │       │                  326a51c02afbf16a42cc5                                       
@@ -28999,7 +29157,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-23T17:16:40.847Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:51.627Z 
-│                       ├ [361] ╭ VulnerabilityID : CVE-2025-11468 
+│                       ├ [363] ╭ VulnerabilityID : CVE-2025-11468 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -29026,7 +29184,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-93
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon : 2 
+│                       │       ├ VendorSeverity   ╭ amazon : 3 
 │                       │       │                  ├ azure  : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ photon : 2 
@@ -29068,7 +29226,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:50.69Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:30:31.043Z 
-│                       ├ [362] ╭ VulnerabilityID : CVE-2025-12781 
+│                       ├ [364] ╭ VulnerabilityID : CVE-2025-12781 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -29152,7 +29310,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-21T20:16:04.423Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:32:56.797Z 
-│                       ├ [363] ╭ VulnerabilityID : CVE-2025-13837 
+│                       ├ [365] ╭ VulnerabilityID : CVE-2025-13837 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -29250,9 +29408,9 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19064               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/568342cfc8f002d9a15
 │                       │       │                  f30238f26b9d2e0e79036                                       
@@ -29285,7 +29443,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-12-01T18:16:04.38Z 
 │                       │       ╰ LastModifiedDate: 2026-09-03T03:15:21.037Z 
-│                       ├ [364] ╭ VulnerabilityID : CVE-2025-15282 
+│                       ├ [366] ╭ VulnerabilityID : CVE-2025-15282 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -29312,7 +29470,7 @@
 │                       │       │                  CWE-93
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
@@ -29379,9 +29537,9 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19064               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/05356b1cc153108aaf2
 │                       │       │                  7f3b72ce438af4aa218c0                                       
@@ -29416,7 +29574,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:50.883Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T08:37:31.58Z 
-│                       ├ [365] ╭ VulnerabilityID : CVE-2025-4516 
+│                       ├ [367] ╭ VulnerabilityID : CVE-2025-4516 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -29446,7 +29604,7 @@
 │                       │       │                  CWE-416
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -29556,7 +29714,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-05-15T14:15:31.753Z 
 │                       │       ╰ LastModifiedDate: 2026-07-31T14:16:44.797Z 
-│                       ├ [366] ╭ VulnerabilityID : CVE-2026-0672 
+│                       ├ [368] ╭ VulnerabilityID : CVE-2026-0672 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -29583,7 +29741,7 @@
 │                       │       │                  CWE-93
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -29652,9 +29810,9 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19064               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/62700107418eb2cca3f
 │                       │       │                  c88da036a243ea975f172                                       
@@ -29691,7 +29849,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-01-20T22:15:52.68Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:11:11.133Z 
-│                       ├ [367] ╭ VulnerabilityID : CVE-2026-0864 
+│                       ├ [369] ╭ VulnerabilityID : CVE-2026-0864 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -29765,7 +29923,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-23T18:17:41.243Z 
 │                       │       ╰ LastModifiedDate: 2026-08-18T17:52:03.23Z 
-│                       ├ [368] ╭ VulnerabilityID : CVE-2026-11972 
+│                       ├ [370] ╭ VulnerabilityID : CVE-2026-11972 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -29835,7 +29993,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-23T23:16:49.033Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:51.78Z 
-│                       ├ [369] ╭ VulnerabilityID : CVE-2026-1502 
+│                       ├ [371] ╭ VulnerabilityID : CVE-2026-1502 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -29929,9 +30087,9 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19064               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/05ed7ce7ae9e17c23a0
 │                       │       │                  4085b2539fe6d6d3cef69                                       
@@ -29964,7 +30122,74 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-10T18:16:40.97Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:52.39Z 
-│                       ├ [370] ╭ VulnerabilityID : CVE-2026-3276 
+│                       ├ [372] ╭ VulnerabilityID : CVE-2026-19672 
+│                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
+│                       │       ├ PkgName         : python3-libs 
+│                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
+│                       │       │                  │       6_64&distro=redhat-9.8 
+│                       │       │                  ╰ UID : ebd0e84ad9045a9f 
+│                       │       ├ InstalledVersion: 3.9.25-7.el9_8.2 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:b44ff73f1e8f0a27b2a0c9912c7aec7a087d59dd8b8
+│                       │       │                  │         f8a7c0d5b53783b2c39dc 
+│                       │       │                  ╰ DiffID: sha256:1ee49e0b9bd5b0e31fd1b934a3a76a64ea30bde0de5
+│                       │       │                            acfd82ce1a8591d7e5793 
+│                       │       ├ SeveritySource  : redhat 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-19672 
+│                       │       ├ Fingerprint     : sha256:99c1d6c3bddcebfe30330bac2a2d2157f0d7e23df31562cf2789
+│                       │       │                   ac98e1de0f34 
+│                       │       ├ Title           : python: Python tarfile module: Directory traversal allows
+│                       │       │                   creation of empty directories outside extraction
+│                       │       │                   destination 
+│                       │       ├ Description     : The tarfile module's tar and data
+│                       │       │                    extraction filters created directories outside the
+│                       │       │                   destination for 
+│                       │       │                   members whose name leaves the destination and returns to
+│                       │       │                   it, such as ../evil/../dest/sub/file. The containment check
+│                       │       │                    used the resolved path, but intermediate directories were
+│                       │       │                   created from the name as given.
+│                       │       │                   
+│                       │       │                   Only
+│                       │       │                    empty directories are created outside the destination.
+│                       │       │                   Member contents 
+│                       │       │                   are still extracted inside it. To return to the destination
+│                       │       │                    the member's
+│                       │       │                    name must contain the destination directory's own final
+│                       │       │                   component, so 
+│                       │       │                   extraction into a secure randomised directory is not
+│                       │       │                   affected.
+│                       │       │                   This affects POSIX platforms only. On Windows, ..
+│                       │       │                   components are collapsed before the path reaches the
+│                       │       │                   filesystem, so the directories outside the destination are
+│                       │       │                   never created. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs                 
+│                       │       │                  ──────
+│                       │       │                  CWE-22
+│                       │       │                  
+│                       │       ├ VendorSeverity   ╭ bitnami: 2 
+│                       │       │                  ╰ redhat : 2 
+│                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:
+│                       │       │                  │         │            N/VI:N/VA:N/SC:N/SI:L/SA:N 
+│                       │       │                  │         ╰ V40Score : 6.3 
+│                       │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │       │                            │           :L/A:N 
+│                       │       │                            ╰ V3Score : 5.3 
+│                       │       ├ References                                                                   
+│                       │       │                  ────────────────────────────────────────────────────────────
+│                       │       │                  http://www.openwall.com/lists/oss-security/2026/08/25/10    
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-19672       
+│                       │       │                  https://github.com/python/cpython/pull/156000               
+│                       │       │                  https://mail.python.org/archives/list/security-announce@pyth
+│                       │       │                  on.org/thread/J2WT2ALRWEXQJOB3C7Q2HYWUXP3CINWO/             
+│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-19672             
+│                       │       │                                                                              
+│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-19672             
+│                       │       │                                                                              
+│                       │       │                  
+│                       │       ├ PublishedDate   : 2026-08-19T16:17:06.593Z 
+│                       │       ╰ LastModifiedDate: 2026-08-28T21:16:15.74Z 
+│                       ├ [373] ╭ VulnerabilityID : CVE-2026-3276 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -30041,7 +30266,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-03T16:16:29.253Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:52.847Z 
-│                       ├ [371] ╭ VulnerabilityID : CVE-2026-3644 
+│                       ├ [374] ╭ VulnerabilityID : CVE-2026-3644 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -30072,7 +30297,7 @@
 │                       │       │                  CWE-116
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -30140,9 +30365,9 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19064               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/3974092b037f9a3b000
 │                       │       │                  fb15b48ea61ce3b25d330                                       
@@ -30177,7 +30402,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:09.907Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.12Z 
-│                       ├ [372] ╭ VulnerabilityID : CVE-2026-4224 
+│                       ├ [375] ╭ VulnerabilityID : CVE-2026-4224 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -30206,7 +30431,7 @@
 │                       │       │                  CWE-674
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ nvd        : 3 
@@ -30279,9 +30504,9 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19064               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/196edfb06a7458377d4
 │                       │       │                  d0f4b3cd41724c1f3bd4a                                       
@@ -30316,7 +30541,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-16T18:16:10.07Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.273Z 
-│                       ├ [373] ╭ VulnerabilityID : CVE-2026-42308 
+│                       ├ [376] ╭ VulnerabilityID : CVE-2026-42308 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -30387,7 +30612,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-05-09T06:16:09.793Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T21:10:00.143Z 
-│                       ├ [374] ╭ VulnerabilityID : CVE-2026-4360 
+│                       ├ [377] ╭ VulnerabilityID : CVE-2026-4360 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -30463,7 +30688,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-30T15:16:57.193Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:53.42Z 
-│                       ├ [375] ╭ VulnerabilityID : CVE-2026-5713 
+│                       ├ [378] ╭ VulnerabilityID : CVE-2026-5713 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -30544,8 +30769,8 @@
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5713
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19176.html         
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19019               
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19019.html        
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19176               
 │                       │       │                  https://github.com/python/cpython/commit/289fd2c97a7e5aecb8b
 │                       │       │                  69f94f5e838ccfeee7e67                                       
 │                       │       │                  https://github.com/python/cpython/commit/316f6265b7f9ca4ffed
@@ -30569,7 +30794,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-14T16:16:48.717Z 
 │                       │       ╰ LastModifiedDate: 2026-07-31T14:16:50.59Z 
-│                       ├ [376] ╭ VulnerabilityID : CVE-2026-6019 
+│                       ├ [379] ╭ VulnerabilityID : CVE-2026-6019 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -30600,7 +30825,7 @@
 │                       │       │                  CWE-116
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 3 
@@ -30629,8 +30854,8 @@
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4786
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6019
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-28247.html         
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:28581               
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-28581.html        
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:28247               
 │                       │       │                  https://github.com/python/cpython/commit/3c59b8b53fc75c7f957
 │                       │       │                  8d16fb8201ceb43e8f76c                                       
 │                       │       │                  https://github.com/python/cpython/commit/76b3923d688c0efc580
@@ -30658,7 +30883,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-22T20:16:42.617Z 
 │                       │       ╰ LastModifiedDate: 2026-07-27T17:34:54.33Z 
-│                       ├ [377] ╭ VulnerabilityID : CVE-2026-7210 
+│                       ├ [380] ╭ VulnerabilityID : CVE-2026-7210 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -30733,7 +30958,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-05-11T18:16:42.413Z 
 │                       │       ╰ LastModifiedDate: 2026-08-14T01:19:08.237Z 
-│                       ├ [378] ╭ VulnerabilityID : CVE-2026-7774 
+│                       ├ [381] ╭ VulnerabilityID : CVE-2026-7774 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -30809,7 +31034,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-04T16:16:42.103Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:55.783Z 
-│                       ├ [379] ╭ VulnerabilityID : CVE-2025-13462 
+│                       ├ [382] ╭ VulnerabilityID : CVE-2025-13462 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -30882,7 +31107,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-12T18:16:21.397Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:50.98Z 
-│                       ├ [380] ╭ VulnerabilityID : CVE-2025-1795 
+│                       ├ [383] ╭ VulnerabilityID : CVE-2025-1795 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -30955,7 +31180,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-02-28T19:15:36.55Z 
 │                       │       ╰ LastModifiedDate: 2026-07-31T14:16:44Z 
-│                       ├ [381] ╭ VulnerabilityID : CVE-2026-18503 
+│                       ├ [384] ╭ VulnerabilityID : CVE-2026-18503 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -31021,7 +31246,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-10T14:17:21.56Z 
 │                       │       ╰ LastModifiedDate: 2026-08-18T15:04:46.61Z 
-│                       ├ [382] ╭ VulnerabilityID : CVE-2026-2297 
+│                       ├ [385] ╭ VulnerabilityID : CVE-2026-2297 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -31114,9 +31339,9 @@
 │                       │       │                                                                              
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6100
 │                       │       │                                                                              
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-19177.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-19064.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19064               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:19177               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/python/cpython/commit/482d6f8bdba9da3725d
 │                       │       │                  272e8bb4a2d25fb6a603e                                       
@@ -31147,7 +31372,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-04T23:16:10.757Z 
 │                       │       ╰ LastModifiedDate: 2026-08-13T01:16:52.527Z 
-│                       ├ [383] ╭ VulnerabilityID : CVE-2026-3479 
+│                       ├ [386] ╭ VulnerabilityID : CVE-2026-3479 
 │                       │       ├ PkgID           : python3-libs@3.9.25-7.el9_8.2.x86_64 
 │                       │       ├ PkgName         : python3-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x8
@@ -31178,7 +31403,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-22
 │                       │       │                  
-│                       │       ├ VendorSeverity   ╭ amazon: 3 
+│                       │       ├ VendorSeverity   ╭ amazon: 2 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ╰ redhat: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
@@ -31208,7 +31433,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-18T19:16:06.81Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:43:39.067Z 
-│                       ├ [384] ╭ VulnerabilityID : CVE-2023-45803 
+│                       ├ [387] ╭ VulnerabilityID : CVE-2023-45803 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-2.el9_8.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch
@@ -31346,7 +31571,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2023-10-17T20:15:10.07Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T06:29:33.207Z 
-│                       ├ [385] ╭ VulnerabilityID : CVE-2025-50181 
+│                       ├ [388] ╭ VulnerabilityID : CVE-2025-50181 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-2.el9_8.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch
@@ -31416,7 +31641,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-06-19T01:15:24.453Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T09:34:48.843Z 
-│                       ├ [386] ╭ VulnerabilityID : CVE-2025-50182 
+│                       ├ [389] ╭ VulnerabilityID : CVE-2025-50182 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-2.el9_8.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch
@@ -31482,7 +31707,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-06-19T02:15:17.967Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T09:34:48.95Z 
-│                       ├ [387] ╭ VulnerabilityID : CVE-2026-13346 
+│                       ├ [390] ╭ VulnerabilityID : CVE-2026-13346 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-2.el9_8.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch
@@ -31554,7 +31779,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-07-29T19:16:44.267Z 
 │                       │       ╰ LastModifiedDate: 2026-08-20T13:17:44.277Z 
-│                       ├ [388] ╭ VulnerabilityID : CVE-2026-25645 
+│                       ├ [391] ╭ VulnerabilityID : CVE-2026-25645 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-2.el9_8.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch
@@ -31596,7 +31821,8 @@
 │                       │       │                  ├ ghsa  : 2 
 │                       │       │                  ├ nvd   : 2 
 │                       │       │                  ├ photon: 2 
-│                       │       │                  ╰ redhat: 2 
+│                       │       │                  ├ redhat: 2 
+│                       │       │                  ╰ ubuntu: 1 
 │                       │       ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:
 │                       │       │                  │        │           H/A:N 
 │                       │       │                  │        ╰ V3Score : 4.4 
@@ -31618,12 +31844,14 @@
 │                       │       │                  v-m9x4-r6x2                                                 
 │                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-25645             
 │                       │       │                                                                              
+│                       │       │                  https://ubuntu.com/security/notices/USN-8825-1              
+│                       │       │                                                                              
 │                       │       │                  https://www.cve.org/CVERecord?id=CVE-2026-25645             
 │                       │       │                                                                              
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-25T17:16:52.97Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:25:00.443Z 
-│                       ├ [389] ╭ VulnerabilityID : CVE-2026-32284 
+│                       ├ [392] ╭ VulnerabilityID : CVE-2026-32284 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-2.el9_8.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch
@@ -31674,7 +31902,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-26T20:16:12.087Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:35:29.407Z 
-│                       ├ [390] ╭ VulnerabilityID : CVE-2026-45409 
+│                       ├ [393] ╭ VulnerabilityID : CVE-2026-45409 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-2.el9_8.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch
@@ -31751,9 +31979,9 @@
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-4540
 │                       │       │                  9                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-54484.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-54481.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:54481               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:54484               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/kjd/idna                                 
 │                       │       │                                                                              
@@ -31774,7 +32002,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-05T23:16:43.343Z 
 │                       │       ╰ LastModifiedDate: 2026-07-23T07:10:00.113Z 
-│                       ├ [391] ╭ VulnerabilityID : CVE-2021-3572 
+│                       ├ [394] ╭ VulnerabilityID : CVE-2021-3572 
 │                       │       ├ PkgID           : python3-pip-wheel@21.3.1-2.el9_8.noarch 
 │                       │       ├ PkgName         : python3-pip-wheel 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch
@@ -31902,7 +32130,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2021-11-10T18:15:09.51Z 
 │                       │       ╰ LastModifiedDate: 2026-08-25T16:28:27.31Z 
-│                       ├ [392] ╭ VulnerabilityID : CVE-2026-78367 
+│                       ├ [395] ╭ VulnerabilityID : CVE-2026-78367 
 │                       │       ├ PkgID           : rpm@4.16.1.3-40.el9.x86_64 
 │                       │       ├ PkgName         : rpm 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm@4.16.1.3-40.el9?arch=x86_64&distr
@@ -31950,7 +32178,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-24T14:17:04.767Z 
 │                       │       ╰ LastModifiedDate: 2026-09-04T12:17:19.023Z 
-│                       ├ [393] ╭ VulnerabilityID : CVE-2026-84837 
+│                       ├ [396] ╭ VulnerabilityID : CVE-2026-84837 
 │                       │       ├ PkgID           : rpm@4.16.1.3-40.el9.x86_64 
 │                       │       ├ PkgName         : rpm 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm@4.16.1.3-40.el9?arch=x86_64&distr
@@ -31995,7 +32223,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-02T16:17:33.56Z 
 │                       │       ╰ LastModifiedDate: 2026-09-03T18:12:56.407Z 
-│                       ├ [394] ╭ VulnerabilityID : CVE-2026-95519 
+│                       ├ [397] ╭ VulnerabilityID : CVE-2026-95519 
 │                       │       ├ PkgID           : rpm@4.16.1.3-40.el9.x86_64 
 │                       │       ├ PkgName         : rpm 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm@4.16.1.3-40.el9?arch=x86_64&distr
@@ -32041,7 +32269,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-24T14:18:20.153Z 
 │                       │       ╰ LastModifiedDate: 2026-09-25T13:17:23.94Z 
-│                       ├ [395] ╭ VulnerabilityID : CVE-2026-95521 
+│                       ├ [398] ╭ VulnerabilityID : CVE-2026-95521 
 │                       │       ├ PkgID           : rpm@4.16.1.3-40.el9.x86_64 
 │                       │       ├ PkgName         : rpm 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm@4.16.1.3-40.el9?arch=x86_64&distr
@@ -32085,7 +32313,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-24T14:18:20.29Z 
 │                       │       ╰ LastModifiedDate: 2026-09-24T21:00:46.893Z 
-│                       ├ [396] ╭ VulnerabilityID : CVE-2026-44605 
+│                       ├ [399] ╭ VulnerabilityID : CVE-2026-44605 
 │                       │       ├ PkgID           : rpm@4.16.1.3-40.el9.x86_64 
 │                       │       ├ PkgName         : rpm 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm@4.16.1.3-40.el9?arch=x86_64&distr
@@ -32131,7 +32359,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-05T18:17:11.173Z 
 │                       │       ╰ LastModifiedDate: 2026-08-31T13:18:18.403Z 
-│                       ├ [397] ╭ VulnerabilityID : CVE-2026-78367 
+│                       ├ [400] ╭ VulnerabilityID : CVE-2026-78367 
 │                       │       ├ PkgID           : rpm-libs@4.16.1.3-40.el9.x86_64 
 │                       │       ├ PkgName         : rpm-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm-libs@4.16.1.3-40.el9?arch=x86_64&
@@ -32179,7 +32407,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-24T14:17:04.767Z 
 │                       │       ╰ LastModifiedDate: 2026-09-04T12:17:19.023Z 
-│                       ├ [398] ╭ VulnerabilityID : CVE-2026-84837 
+│                       ├ [401] ╭ VulnerabilityID : CVE-2026-84837 
 │                       │       ├ PkgID           : rpm-libs@4.16.1.3-40.el9.x86_64 
 │                       │       ├ PkgName         : rpm-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm-libs@4.16.1.3-40.el9?arch=x86_64&
@@ -32224,7 +32452,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-02T16:17:33.56Z 
 │                       │       ╰ LastModifiedDate: 2026-09-03T18:12:56.407Z 
-│                       ├ [399] ╭ VulnerabilityID : CVE-2026-95519 
+│                       ├ [402] ╭ VulnerabilityID : CVE-2026-95519 
 │                       │       ├ PkgID           : rpm-libs@4.16.1.3-40.el9.x86_64 
 │                       │       ├ PkgName         : rpm-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm-libs@4.16.1.3-40.el9?arch=x86_64&
@@ -32270,7 +32498,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-24T14:18:20.153Z 
 │                       │       ╰ LastModifiedDate: 2026-09-25T13:17:23.94Z 
-│                       ├ [400] ╭ VulnerabilityID : CVE-2026-95521 
+│                       ├ [403] ╭ VulnerabilityID : CVE-2026-95521 
 │                       │       ├ PkgID           : rpm-libs@4.16.1.3-40.el9.x86_64 
 │                       │       ├ PkgName         : rpm-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm-libs@4.16.1.3-40.el9?arch=x86_64&
@@ -32314,7 +32542,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-24T14:18:20.29Z 
 │                       │       ╰ LastModifiedDate: 2026-09-24T21:00:46.893Z 
-│                       ├ [401] ╭ VulnerabilityID : CVE-2026-44605 
+│                       ├ [404] ╭ VulnerabilityID : CVE-2026-44605 
 │                       │       ├ PkgID           : rpm-libs@4.16.1.3-40.el9.x86_64 
 │                       │       ├ PkgName         : rpm-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/rpm-libs@4.16.1.3-40.el9?arch=x86_64&
@@ -32360,7 +32588,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-05T18:17:11.173Z 
 │                       │       ╰ LastModifiedDate: 2026-08-31T13:18:18.403Z 
-│                       ├ [402] ╭ VulnerabilityID : CVE-2026-5958 
+│                       ├ [405] ╭ VulnerabilityID : CVE-2026-5958 
 │                       │       ├ PkgID           : sed@4.8-10.el9.x86_64 
 │                       │       ├ PkgName         : sed 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sed@4.8-10.el9?arch=x86_64&distro=red
@@ -32424,7 +32652,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-20T12:16:08.433Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:59:56.72Z 
-│                       ├ [403] ╭ VulnerabilityID : CVE-2026-11822 
+│                       ├ [406] ╭ VulnerabilityID : CVE-2026-11822 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
 │                       │       │                  RHSA-2026:58936
@@ -32489,9 +32717,9 @@
 │                       │       │                  2                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1182
 │                       │       │                  4                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-58936.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-58927.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:58927               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:58936               
 │                       │       │                                                                              
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-11822.html            
 │                       │       │                                                                              
@@ -32514,7 +32742,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-09T20:16:32.15Z 
 │                       │       ╰ LastModifiedDate: 2026-07-23T09:10:00.113Z 
-│                       ├ [404] ╭ VulnerabilityID : CVE-2026-11824 
+│                       ├ [407] ╭ VulnerabilityID : CVE-2026-11824 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
 │                       │       │                  RHSA-2026:58936
@@ -32579,9 +32807,9 @@
 │                       │       │                  2                                                           
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1182
 │                       │       │                  4                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-58936.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-58927.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:58927               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:58936               
 │                       │       │                                                                              
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-11824.html            
 │                       │       │                                                                              
@@ -32604,7 +32832,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-09T20:16:32.3Z 
 │                       │       ╰ LastModifiedDate: 2026-07-23T09:10:00.113Z 
-│                       ├ [405] ╭ VulnerabilityID : CVE-2026-50812 
+│                       ├ [408] ╭ VulnerabilityID : CVE-2026-50812 
 │                       │       ├ PkgID           : sqlite-libs@3.34.1-10.el9_8.x86_64 
 │                       │       ├ PkgName         : sqlite-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-10.el9_8?arch=x86_
@@ -32658,7 +32886,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-07-08T18:16:32.4Z 
 │                       │       ╰ LastModifiedDate: 2026-07-09T19:48:15.277Z 
-│                       ├ [406] ╭ VulnerabilityID : CVE-2024-0232 
+│                       ├ [409] ╭ VulnerabilityID : CVE-2024-0232 
 │                       │       ├ PkgID           : sqlite-libs@3.34.1-10.el9_8.x86_64 
 │                       │       ├ PkgName         : sqlite-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-10.el9_8?arch=x86_
@@ -32713,7 +32941,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2024-01-16T14:15:48.327Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T06:53:02.987Z 
-│                       ├ [407] ╭ VulnerabilityID : CVE-2025-70873 
+│                       ├ [410] ╭ VulnerabilityID : CVE-2025-70873 
 │                       │       ├ PkgID           : sqlite-libs@3.34.1-10.el9_8.x86_64 
 │                       │       ├ PkgName         : sqlite-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sqlite-libs@3.34.1-10.el9_8?arch=x86_
@@ -32765,7 +32993,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-12T19:16:15.933Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:03:26.283Z 
-│                       ├ [408] ╭ VulnerabilityID : CVE-2026-82474 
+│                       ├ [411] ╭ VulnerabilityID : CVE-2026-82474 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
 │                       │       │                  RHSA-2026:69123
@@ -32818,9 +33046,9 @@
 │                       │       │                  https://creativecommons.org/licenses/by/4.0/                
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8247
 │                       │       │                  4                                                           
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-69123.html         
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-68692.html        
 │                       │       │                                                                              
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:68692               
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:69123               
 │                       │       │                                                                              
 │                       │       │                  https://github.com/sudo-project/sudo                        
 │                       │       │                                                                              
@@ -32843,7 +33071,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-29T17:17:59.91Z 
 │                       │       ╰ LastModifiedDate: 2026-09-10T19:54:25.81Z 
-│                       ├ [409] ╭ VulnerabilityID : CVE-2026-96512 
+│                       ├ [412] ╭ VulnerabilityID : CVE-2026-96512 
 │                       │       ├ PkgID           : sudo@1.9.17p2-3.el9_8.x86_64 
 │                       │       ├ PkgName         : sudo 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/sudo@1.9.17p2-3.el9_8?arch=x86_64&dis
@@ -32897,7 +33125,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-09-23T14:17:10.747Z 
 │                       │       ╰ LastModifiedDate: 2026-09-24T19:17:19.717Z 
-│                       ├ [410] ╭ VulnerabilityID : CVE-2026-15059 
+│                       ├ [413] ╭ VulnerabilityID : CVE-2026-15059 
 │                       │       ├ PkgID           : systemd-libs@252-67.el9_8.4.x86_64 
 │                       │       ├ PkgName         : systemd-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/systemd-libs@252-67.el9_8.4?arch=x86_
@@ -32944,7 +33172,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-10T14:17:20.76Z 
 │                       │       ╰ LastModifiedDate: 2026-09-01T20:54:51.287Z 
-│                       ├ [411] ╭ VulnerabilityID : CVE-2026-4105 
+│                       ├ [414] ╭ VulnerabilityID : CVE-2026-4105 
 │                       │       ├ PkgID           : systemd-libs@252-67.el9_8.4.x86_64 
 │                       │       ├ PkgName         : systemd-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/systemd-libs@252-67.el9_8.4?arch=x86_
@@ -32995,7 +33223,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-13T19:55:13.673Z 
 │                       │       ╰ LastModifiedDate: 2026-09-01T13:19:38.193Z 
-│                       ├ [412] ╭ VulnerabilityID : CVE-2005-2541 
+│                       ├ [415] ╭ VulnerabilityID : CVE-2005-2541 
 │                       │       ├ PkgID           : tar@1.34-11.el9.x86_64 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-11.el9?arch=x86_64&distro=re
@@ -33037,7 +33265,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2005-08-10T04:00:00Z 
 │                       │       ╰ LastModifiedDate: 2026-04-16T00:27:16.627Z 
-│                       ├ [413] ╭ VulnerabilityID : CVE-2025-64118 
+│                       ├ [416] ╭ VulnerabilityID : CVE-2025-64118 
 │                       │       ├ PkgID           : tar@1.34-11.el9.x86_64 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-11.el9?arch=x86_64&distro=re
@@ -33095,7 +33323,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2025-10-30T18:15:33.673Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T09:53:51.463Z 
-│                       ├ [414] ╭ VulnerabilityID : CVE-2026-18477 
+│                       ├ [417] ╭ VulnerabilityID : CVE-2026-18477 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
 │                       │       │                  RHSA-2026:61581
@@ -33168,8 +33396,8 @@
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18477
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18508
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5704 
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-61581.html          
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:61586                
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-61586.html         
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:61581                
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-18477.html             
 │                       │       │                  https://linux.oracle.com/errata/ELSA-2026-70390.html         
 │                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-18477              
@@ -33177,7 +33405,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-03T17:16:33.897Z 
 │                       │       ╰ LastModifiedDate: 2026-09-22T22:17:11.233Z 
-│                       ├ [415] ╭ VulnerabilityID : CVE-2026-18508 
+│                       ├ [418] ╭ VulnerabilityID : CVE-2026-18508 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
 │                       │       │                  RHSA-2026:61581
@@ -33241,8 +33469,8 @@
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18477
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18508
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5704 
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-61581.html          
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:61586                
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-61586.html         
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:61581                
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-18508.html             
 │                       │       │                  https://linux.oracle.com/errata/ELSA-2026-70390.html         
 │                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-18508              
@@ -33250,7 +33478,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-08-03T16:16:28.387Z 
 │                       │       ╰ LastModifiedDate: 2026-09-22T22:17:11.493Z 
-│                       ├ [416] ╭ VulnerabilityID : CVE-2026-33056 
+│                       ├ [419] ╭ VulnerabilityID : CVE-2026-33056 
 │                       │       ├ PkgID           : tar@1.34-11.el9.x86_64 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-11.el9?arch=x86_64&distro=re
@@ -33326,7 +33554,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-03-20T08:16:11.603Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T10:36:52.55Z 
-│                       ├ [417] ╭ VulnerabilityID : CVE-2026-53655 
+│                       ├ [420] ╭ VulnerabilityID : CVE-2026-53655 
 │                       │       ├ PkgID           : tar@1.34-11.el9.x86_64 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-11.el9?arch=x86_64&distro=re
@@ -33398,7 +33626,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-06-22T16:16:38.593Z 
 │                       │       ╰ LastModifiedDate: 2026-06-26T20:03:47.01Z 
-│                       ├ [418] ╭ VulnerabilityID : CVE-2026-5704 
+│                       ├ [421] ╭ VulnerabilityID : CVE-2026-5704 
 │                       │       ├ VendorIDs                       
 │                       │       │                  ───────────────
 │                       │       │                  RHSA-2026:61581
@@ -33465,8 +33693,8 @@
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18477
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18508
 │                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5704 
-│                       │       │                  https://errata.almalinux.org/9/ALSA-2026-61581.html          
-│                       │       │                  https://errata.rockylinux.org/RLSA-2026:61586                
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-61586.html         
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:61581                
 │                       │       │                  https://linux.oracle.com/cve/CVE-2026-5704.html              
 │                       │       │                  https://linux.oracle.com/errata/ELSA-2026-70390.html         
 │                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2026-5704               
@@ -33477,7 +33705,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-06T16:16:42.14Z 
 │                       │       ╰ LastModifiedDate: 2026-09-22T22:17:11.88Z 
-│                       ├ [419] ╭ VulnerabilityID : CVE-2026-59871 
+│                       ├ [422] ╭ VulnerabilityID : CVE-2026-59871 
 │                       │       ├ PkgID           : tar@1.34-11.el9.x86_64 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-11.el9?arch=x86_64&distro=re
@@ -33537,7 +33765,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-07-08T16:16:33.723Z 
 │                       │       ╰ LastModifiedDate: 2026-07-10T19:02:55.14Z 
-│                       ├ [420] ╭ VulnerabilityID : CVE-2026-59875 
+│                       ├ [423] ╭ VulnerabilityID : CVE-2026-59875 
 │                       │       ├ PkgID           : tar@1.34-11.el9.x86_64 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-11.el9?arch=x86_64&distro=re
@@ -33592,7 +33820,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-07-08T16:16:34.107Z 
 │                       │       ╰ LastModifiedDate: 2026-07-10T19:10:59.333Z 
-│                       ├ [421] ╭ VulnerabilityID : CVE-2023-39804 
+│                       ├ [424] ╭ VulnerabilityID : CVE-2023-39804 
 │                       │       ├ PkgID           : tar@1.34-11.el9.x86_64 
 │                       │       ├ PkgName         : tar 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/tar@1.34-11.el9?arch=x86_64&distro=re
@@ -33645,7 +33873,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2024-03-27T04:15:08.897Z 
 │                       │       ╰ LastModifiedDate: 2026-06-17T06:12:52.757Z 
-│                       ├ [422] ╭ VulnerabilityID : CVE-2026-34743 
+│                       ├ [425] ╭ VulnerabilityID : CVE-2026-34743 
 │                       │       ├ PkgID           : xz-libs@5.2.5-8.el9_0.x86_64 
 │                       │       ├ PkgName         : xz-libs 
 │                       │       ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/xz-libs@5.2.5-8.el9_0?arch=x86_64&dis
@@ -33733,7 +33961,7 @@
 │                       │       │                  
 │                       │       ├ PublishedDate   : 2026-04-02T19:21:33.187Z 
 │                       │       ╰ LastModifiedDate: 2026-07-24T21:10:00.143Z 
-│                       ╰ [423] ╭ VulnerabilityID : CVE-2026-27171 
+│                       ╰ [426] ╭ VulnerabilityID : CVE-2026-27171 
 │                               ├ PkgID           : zlib@1.2.11-40.el9.x86_64 
 │                               ├ PkgName         : zlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:rpm/redhat/zlib@1.2.11-40.el9?arch=x86_64&distro
