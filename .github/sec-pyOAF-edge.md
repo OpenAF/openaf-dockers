@@ -30,8 +30,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:bd7c47494f3b47a6737cedd354be4342d517e9a8c7358cadc643cc
-                        │     │                   aeb754d9ef 
+                        │     ├ Fingerprint     : sha256:02a8455bd3847a2fed439bf550b15e79892440749aab99e2384faa
+                        │     │                   5f2eccce37 
                         │     ├ Title           : com.fasterxml.jackson.core/jackson-databind:
                         │     │                   tools.jackson.core/jackson-databind: jackson-databind: CPU
                         │     │                   Denial of Service via unbounded numeric parsing 
@@ -129,8 +129,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:f2cb8df713146292527ceacd34a4e2754c0ace18b8da6e912b78e7
-                        │     │                   f4e9da8d0f 
+                        │     ├ Fingerprint     : sha256:248341cd8dc155553e2c9f688966d77b21d10f7fc8d7e53ad28730
+                        │     │                   3db2ba3d00 
                         │     ├ Title           : com.fasterxml.jackson.core/jackson-databind:
                         │     │                   tools.jackson.core/jackson-databind: Jackson-databind:
                         │     │                   Uncontrolled URI scheme resolution in Path deserialization 
@@ -226,8 +226,8 @@
                               │                  ├ Name: GitHub Security Advisory Maven 
                               │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                               │                          osystem%3Amaven 
-                              ├ Fingerprint     : sha256:3acddf49d4116084b8422abb3b3d34a0659e35e3277710f6955605
-                              │                   cffb41759d 
+                              ├ Fingerprint     : sha256:eeee589aabc61d251d0ec6c6ed57c52ddbeb707e1c0e11c2b18f8c
+                              │                   1f500bc1a9 
                               ├ Title           : com.fasterxml.jackson.core/jackson-databind:
                               │                   tools.jackson.core/jackson-databind: jackson-databind: Path
                               │                   traversal via incomplete type validation 
