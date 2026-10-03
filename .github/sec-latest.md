@@ -504,8 +504,9 @@
                         │     │                          osystem%3Amaven 
                         │     ├ Fingerprint     : sha256:c1901f2e895b7062719a25d1d95d983d0c37cce761cd9819060a85
                         │     │                   395c7788c6 
-                        │     ├ Title           : Forward-reference completion for @JsonIdentityInfo object IDs
-                        │     │                    in Faste ... 
+                        │     ├ Title           : com.fasterxml.jackson.core/jackson-databind:
+                        │     │                   Jackson-databind: Denial of Service via quadratic
+                        │     │                   forward-reference completion 
                         │     ├ Description     : Forward-reference completion for @JsonIdentityInfo object IDs
                         │     │                    in FasterXML jackson-databind performs a linear scan of the
                         │     │                   pending-reference accumulator for every resolved ID. The
@@ -533,11 +534,17 @@
                         │     │                  ───────
                         │     │                  CWE-400
                         │     │                  
-                        │     ├ VendorSeverity   ─ ghsa: 3 
-                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
-                        │     │                         ╰ V3Score : 7.5 
+                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+                        │     │                  ╰ redhat: 3 
+                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+                        │     │                  │        │           A:H 
+                        │     │                  │        ╰ V3Score : 7.5 
+                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
+                        │     │                           │           A:H 
+                        │     │                           ╰ V3Score : 7.5 
                         │     ├ References                                                                     
                         │     │                  ──────────────────────────────────────────────────────────────
+                        │     │                  https://access.redhat.com/security/cve/CVE-2026-91777         
                         │     │                  https://github.com/FasterXML/jackson-databind                 
                         │     │                  https://github.com/FasterXML/jackson-databind/commit/37ad9b817
                         │     │                  12cbb9fb62c2d2c1813593252a24b67                               
@@ -558,6 +565,8 @@
                         │     │                  https://github.com/FasterXML/jackson-databind/security/advisor
                         │     │                  ies/GHSA-cxp5-3px4-pw24                                       
                         │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91777               
+                        │     │                                                                                
+                        │     │                  https://www.cve.org/CVERecord?id=CVE-2026-91777               
                         │     │                                                                                
                         │     │                  
                         │     ├ PublishedDate   : 2026-09-23T03:17:04.783Z 
